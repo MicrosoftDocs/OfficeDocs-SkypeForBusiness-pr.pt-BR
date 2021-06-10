@@ -1,5 +1,5 @@
 ---
-title: Idiomas com suporte para fila de chamada do Microsoft Teams
+title: Microsoft Teams de chamada com suporte para idiomas
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Idiomas com suporte para fila de chamada do Microsoft Teams
+description: Microsoft Teams de chamada com suporte para idiomas
 ms.openlocfilehash: 0d5e587c8a90c11a2b6b3234a98510101e2cb94c
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,19 +29,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197041"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Idiomas com suporte para fila de chamada do Microsoft Teams
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams de chamada com suporte para idiomas
 
-A fila de chamada dá suporte aos seguintes idiomas para Texto em Fala (TTS):
+A fila de chamada dá suporte aos seguintes idiomas para Texto para Fala (TTS):
 
 |Linguagem                                |
 |:---------------------------------------|
 |Árabe (Egito)                          |
 |Catalão (Catalunha)                       |
-|Chinês (simplificado, PRC)               |
+|Chinês (Simplificado, PRC)               |
 |Chinês (Tradicional, Hong Kong)        |
 |Chinês (Tradicional, Taiwan)           |
 |Croata (Croácia)                      |
-|Tcheco (República Tcheca)                  |
+|Tcheco (República Czeck)                  |
 |Dinamarquês (Dinamarca)                        |
 |Holandês (Países Baixos)                     |
 |Inglês (Austrália)                     |
@@ -59,7 +59,7 @@ A fila de chamada dá suporte aos seguintes idiomas para Texto em Fala (TTS):
 |Italiano (Itália)                         |
 |Japonês (Japão)                        |
 |Coreano (Coreia)                          |
-|Norueguês Bokmal (Noruega)               |
+|Bokmal norueguês (Noruega)               |
 |Polonês (Polônia)                         |
 |Português (Brasil)                     |
 |Português (Portugal)                   |

@@ -41,26 +41,26 @@ Você precisará configurar Créditos de Comunicação se quiser usar números g
 
 Ao se inscrever, você tem um determinado número de minutos, dependendo do seu país/região. Você pode pesquisar seu país ou região na lista de disponibilidade do país ou região para Planos de [Audioconferência](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization) e Chamada para ver o número de minutos que você receberá. Depois de usar esses minutos, as chamadas serão desconectadas. Para evitar que isso aconteça, você precisa configurar Créditos de Comunicação.
   
-Para fazer isso, **você precisa atribuir uma licença de Audioconferência ou Sistema de Telefonia** aos seus usuários.
+Para fazer isso, **você precisa atribuir uma licença de Audioconferência ou Sistema de Telefonia aos** usuários.
   
-- Atribua **uma licença de Audioconferência** aos usuários. Consulte [Atribuir licenças de complemento do Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- Atribua **uma licença de Audioconferência** aos usuários. Consulte [Atribuir Microsoft Teams licenças de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
     Depois de atribuir essa licença, você precisará configurar a audioconferência. Para obter instruções passo a passo, consulte [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Atribua **o Sistema de** Telefonia e uma licença do **Plano** de Chamadas Doméstico ou Doméstico e Internacional aos usuários. Consulte [Atribuir licenças de complemento do Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- Atribua **Sistema de Telefonia** e **uma licença do Plano** de Chamada Doméstico ou Doméstico e Internacional aos usuários. Consulte [Atribuir Microsoft Teams licenças de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
     > [!NOTE]
     > Embora não seja necessário para Créditos de Comunicação, você  ainda precisa atribuir um Plano de Chamada Doméstica ou uma licença do Plano de Chamada Doméstico e **Internacional.**
   
     Após atribuir essas licenças, você deverá obter os números de telefone da sua organização e atribuí-los aos usuários. Para obter instruções passo a passo, consulte [Configurar Planos de Chamada](set-up-calling-plans.md).
     
-Para obter mais informações, consulte [Licenciamento de complementos do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Para obter mais informações, [consulte Microsoft Teams licenciamento de complementos](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Etapa 2: Configurar créditos de comunicações para sua organização
 
-1. Entre no Centro de administração do [Microsoft 365](https://portal.office.com/Adminportal) com sua conta de trabalho ou de estudante.
+1. Entre no centro de administração [Microsoft 365 com](https://portal.office.com/Adminportal) sua conta de trabalho ou de estudante.
     
-2. Na navegação à esquerda do Centro de administração do Microsoft 365, vá para **Cobrança**  >  **de Serviços de Compra.** Role para baixo e selecione **Complementos**.
+2. Na navegação à esquerda do centro de administração Microsoft 365, vá para **Cobrança**  >  **de Serviços de Compra.** Role para baixo e selecione **Complementos**.
 
 3. Selecione **Créditos de Comunicação**.
     
@@ -79,28 +79,28 @@ Para obter mais informações, consulte [Licenciamento de complementos do Micros
       > [!NOTE]
      > Os fundos serão aplicados somente aos Créditos de Comunicação às taxas publicadas da Microsoft quando os serviços são usados. Os fundos não usados no prazo de 12 meses a contar da data de compra expirarão e serão cancelados. 
      > 
-     > A cobrança mensal de Créditos de Comunicação só será aplicada se o fundo alloted tiver sido usado, para saber como verificar seu uso mensal, leia Relatório de uso do [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) do Skype for Business
+     > A cobrança mensal de Créditos de Comunicação só será aplicada se o fundo a alloted tiver sido usado, para saber como verificar seu uso mensal, leia Skype for Business relatório de uso [do PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Insira suas informações de pagamento e clique em **Fazer pedido**.
     >[!IMPORTANT]
     >Se você for um cliente de licenciamento por volume, você pode escolher seu número enterprise agreement para pagamento. Se você tiver vários números enterprise agreement, você pode escolher qual prefere usar para o pagamento. Você também poderá especificar um número de ordem de compra que será associado ao número do enterprise agreement (se aplicável).
     
-Cada organização terá um uso diferente de volume e taxas do Plano de Chamada a considerar. You will need to get this type of usage data from your current service provider. As organizações que já usam o Skype for Business Online como provedor de serviços podem obter dados de uso revisá-los no relatório de detalhes de uso do  >    >  **PSTN** do Centro de administração do Microsoft Teams.
+Cada organização terá um uso diferente de volume e taxas do Plano de Chamada a considerar. You will need to get this type of usage data from your current service provider. As organizações que já usam o Skype for Business Online como provedor de serviços podem obter dados de uso revisando-os **no** relatório de detalhes de uso do  >    >  **PSTN** do centro de administração do Microsoft Teams.
   
-Ao configurar os Créditos de Comunicação, você precisará investigar o uso de chamada para sua organização para determinar os valores necessários. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamada para o Excel se precisar armazenar os dados ou criar relatórios personalizados. Para saber como ver o uso, leia o relatório de uso [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
+Ao configurar os Créditos de Comunicação, você precisará investigar o uso de chamada para sua organização para determinar os valores necessários. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamada para Excel se precisar armazenar os dados ou criar relatórios personalizados. Para saber como ver o uso, leia o relatório de uso [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Etapa 3: Atribuir uma licença de Créditos de Comunicação aos usuários
 
-1. Entre no Centro de administração do [Microsoft 365](https://portal.office.com/Adminportal) com sua conta de trabalho ou de estudante.
+1. Entre no centro de administração [Microsoft 365 com](https://portal.office.com/Adminportal) sua conta de trabalho ou de estudante.
     
-2. Na navegação à esquerda do Centro de administração do Microsoft 365, vá para **Usuários**  >  **Usuários ativos** e selecione um usuário na lista.
+2. Na navegação à esquerda do centro de administração Microsoft 365, vá para **Usuários** Usuários ativos e selecione  >  um usuário na lista.
     
 3. Escolha **Licenças e Aplicativos**.
     
 4. Alterne **créditos de comunicações** **para On** para atribuir essa licença e selecione **Salvar**.
     
     > [!NOTE]
-    > Mesmo que você tenha usuários que tenham uma licença **enterprise E5,** ainda é recomendável que você faça isso.
+    > Mesmo que você tenha usuários que tenham uma licença **Enterprise E5,** ainda é recomendável que você faça isso.
 
     > [!TIP]
     > Você pode usar o [Powershell](/powershell/module/skype/?view=skype-ps) para atribuir licenças e aplicativos a vários usuários com um comando.
@@ -113,11 +113,11 @@ Você pode ver os planos e os preços visitando um dos seguintes links:
     
 - [Planos de Audioconferência](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
-- [Planos do Sistema de Telefonia](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [Sistema de Telefonia Planos](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Você também pode ver informações ao entrar no Centro de administração do [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e ir para **Cobrança**  >  **de Assinaturas**  >  **Adicionar assinaturas**.
+Você também pode ver informações ao [entrar no centro](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) de administração Microsoft 365 e ir para **Cobrança**  >  **de Assinaturas** Adicionar  >  **assinaturas**.
   
-Para ver uma tabela com a licença ou licenças que você precisará para cada recurso, consulte [Licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver uma tabela com a licença ou licenças que você precisará para cada recurso, [consulte Microsoft Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -125,7 +125,7 @@ Para ver uma tabela com a licença ou licenças que você precisará para cada r
     
 - [Configurar a Caixa Postal na Nuvem - Ajuda da administração](set-up-phone-system-voicemail.md)
     
-- [Configurar planos de chamada e](set-up-calling-plans.md) planos de chamada para o Microsoft [365 ou Office 365](calling-plans-for-office-365.md)
+- [Configurar planos de chamada e](set-up-calling-plans.md) planos de chamada para Microsoft 365 ou [Office 365](calling-plans-for-office-365.md)
     
 - [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
     

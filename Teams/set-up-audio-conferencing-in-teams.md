@@ -53,7 +53,7 @@ Acesse [Disponibilidade do país e região para audioconferência e planos de ch
     >[!NOTE] 
     > A audioconferência está incluída nas licenças do Office 365 Enterprise E5 e como um complemento.
         
-2. Depois de comprar as licenças da audioconferência, você precisará atribuí-las àquelas pessoas na sua organização que irão agendar ou liderar reuniões. Confira Atribuir licenças aos usuários no [Microsoft 365 ou Office 365](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) para empresas que você comprou para as pessoas em sua organização que vão agendar ou conduzir reuniões.
+2. Depois de comprar as licenças da audioconferência, você precisará atribuí-las àquelas pessoas na sua organização que irão agendar ou liderar reuniões. Consulte [Atribuir licenças](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) aos usuários em Microsoft 365 ou Office 365 para empresas que você comprou para as pessoas em sua organização que vão agendar ou conduzir reuniões.
     
 3. Também é recomendável que você atribua licenças créditos de comunicação (são gratuitas) para as mesmas pessoas a quem você atribuiu as licenças na etapa anterior. Para saber como configurar os créditos de comunicação, consulte [Configurar créditos de comunicação para sua organização](set-up-communications-credits-for-your-organization.md).
     
@@ -67,7 +67,7 @@ Para audioconferências, você não pode usar números de telefone para usuário
   
 - **Use o centro de administração do Microsoft Teams.**. Em alguns países/regiões, você pode obter números de serviço para suas pontes de conferência usando o centro de administração do Microsoft Teams. Consulte [Obter números dos telefones de serviço](./getting-service-phone-numbers.md).
     
-- **Portar seus números de serviço existentes**. Para porta ou transferir números existentes de seu provedor de serviços ou operadora de telefonia atual para o Microsoft 365 ou Office 365. Você pode consultar [Transferir os números dos telefones ao Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gerenciar números de telefone da sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo.  
+- **Portar seus números de serviço existentes**. Para porta ou transferir números existentes de seu provedor de serviços ou operadora de telefonia atual para Microsoft 365 ou Office 365. Você pode consultar [Transferir os números dos telefones ao Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gerenciar números de telefone da sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo.  
   
 - **Use um formulário de solicitação para novos números**. Às vezes (dependendo do seu país/região), você não poderá obter seus novos números de serviço usando o centro de administração do Microsoft Teams ou precisará de números de telefone ou códigos de área específicos. Nesse caso, você precisará fazer o download de um formulário e enviá-lo de volta para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
     

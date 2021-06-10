@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Saiba como obter novos números de telefone e porta ou transferir números existentes para audioconferências, atendimentos automáticos e filas de chamada (números de serviço) para o Teams.
+description: Saiba como obter novos números de telefone e porta ou transferir números existentes para audioconferências, atendimentos automáticos e filas de chamada (números de serviço) para Teams.
 ms.openlocfilehash: 72436591411070ed7ffc67aab5d8d4470f39521d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -38,11 +38,11 @@ Além de obter números de telefone para seus [usuários,](./getting-phone-numbe
   
 Há três maneiras de obter números de serviço:
   
-- **Use o centro de administração do Microsoft Teams.** Para alguns países e regiões, você pode obter números de serviço usando o Centro de administração do Microsoft Teams. Consulte [Obter novos números de serviço](#get-new-service-numbers).
+- **Use o Microsoft Teams de administração.** Para alguns países e regiões, você pode obter números de serviço usando o Microsoft Teams de administração. Consulte [Obter novos números de serviço](#get-new-service-numbers).
 
 - **Fazer a portabilidade de seus números existentes.** Você pode por ou transferir números existentes de seu provedor de serviços ou operadora de telefonia atual. Consulte [Transferir os números dos telefones ao Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gerenciar números de telefone da sua organização](/microsoftteams/manage-phone-numbers-for-your-organization) para obter mais informações.  
   
-- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país ou região), você não poderá obter seus novos números de telefone usando o Centro de administração do Microsoft Teams ou precisará de números de telefone ou códigos de área específicos. Em caso afirmado, você precisará baixar um formulário e enviá-lo de volta para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).
+- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país ou região), você não conseguirá obter seus novos números de telefone usando o centro de administração do Microsoft Teams ou precisará de números de telefone ou códigos de área específicos. Em caso afirmado, você precisará baixar um formulário e enviá-lo de volta para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
 > Os números de serviço são necessários para que você possa obter uma capacidade de chamada simultânea maior para um número específico. Ao transferir o número para nós, você pode entrar em contato com o service [desk PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) para garantir que o número de serviço que você está transferindo tenha uma alta capacidade de chamada simultânea.
@@ -51,7 +51,7 @@ Há três maneiras de obter números de serviço:
 
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, vá para **Números de Telefone**  >  **de** Voz e clique em **Adicionar**.
+1. Na navegação à esquerda, vá para **Voz**  >  **Telefone números** e clique em **Adicionar**.
 2. Insira um nome para a ordem e adicione uma descrição.
 3. Na página Local e quantidade, faça o seguinte:
     1. Em **País ou região**, selecione um país ou região.
@@ -64,7 +64,7 @@ Há três maneiras de obter números de serviço:
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>Fazer a portabilidade ou transfira números de serviço existentes
 
-Para transferir seus números de telefone de seu provedor de serviços ou operadora atual para o Teams, você pode usar o assistente de portação no centro de administração do Microsoft Teams. Siga as etapas em [Transferir números de telefone para o Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Para transferir seus números de telefone do seu provedor de serviços ou operadora atual para Teams, você pode usar o assistente de portação no centro de administração Microsoft Teams. Siga as etapas em [Transferir números de telefone para Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 Se seu país ou região não estiver listado no assistente de portabilidade, você poderá enviar [manualmente](phone-number-calling-plans/manually-submit-port-order.md) uma ordem de porta ou ir para Gerenciar números de telefone para sua [organização,](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)selecionar seu país ou região e baixar uma Carta de Autorização (LOA). Você terá que enviar pedidos de porta separados para cada tipo de número de serviço (por exemplo, toll vs. toll-free) que você será transferido usando uma LOA. Na LOA, você deve selecionar o tipo correto de número de serviço. Certifique-se de especificar que você está transferindo um número de serviço (e não um número de usuário ou assinante), ou a capacidade de chamada simultânea pode não ser suficiente para lidar com volumes de chamada.  
 
@@ -75,7 +75,7 @@ Se seu país ou região não estiver listado no assistente de portabilidade, voc
 
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams** 
 
-Na navegação à esquerda, vá até **Números de Telefone** de Voz para exibir os números de sua organização, incluindo  >   local, tipo de número e informações de status.
+Na navegação à esquerda, vá até **Voz** Telefone para exibir os números da sua organização, incluindo local, tipo de número  >   e informações de status.
 
 ## <a name="assign-service-phone-numbers"></a>Atribuir números de telefone de serviço
 

@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Confira como selecionar os idiomas de atendimento automático de audioconferência para um número de audioconferência no Microsoft Teams.
+description: Consulte como selecionar os idiomas de atendimento automático de audioconferência para um número de audioconferência em Microsoft Teams.
 ms.openlocfilehash: 0a27015fefe8c290f8e122f5d9edf46aa3c8583f
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51117179"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Definir idiomas para o atendedor automático de Audioconferência no Microsoft Teams
 
-O assistente automático de Audioconferência do Microsoft Teams pode receber chamadores de áudio em vários idiomas diferentes quando ingressarem em uma reunião.
+O assistente automático de Audioconferência para Microsoft Teams pode receber chamadores de áudio em vários idiomas diferentes quando ingressarem em uma reunião.
   
 Escolha um idioma principal e até quatro idiomas secundários. O idioma principal que você definir será usado primeiro e os idiomas secundários serão usados pelo assistente automático para que você selecione. 
   
@@ -63,12 +63,12 @@ Escolha um idioma principal e até quatro idiomas secundários. O idioma princip
     
 - Os idiomas podem ser definidos para números de telefone dedicados, mas não para números compartilhados.
     
-- Para ver uma lista de países/regiões em que a Audioconferência no Microsoft 365 ou Office 365 usando a Microsoft como provedor está disponível, consulte Números de telefone para [Audioconferência](phone-numbers-for-audio-conferencing-in-teams.md).
+- Para ver uma lista de países/regiões em que a Audioconferência em Microsoft 365 ou Office 365 usando a Microsoft como o provedor está disponível, consulte Telefone números para [Audioconferência](phone-numbers-for-audio-conferencing-in-teams.md).
     
 ## <a name="want-to-use-windows-powershell"></a>Você deseja usar o Windows PowerShell?
 
-Consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Consulte a [Microsoft Teams referência do PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

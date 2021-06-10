@@ -1,5 +1,5 @@
 ---
-title: Consentimento específico do recurso no Microsoft Teams
+title: Consentimento específico do recurso em Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: nkramer
@@ -20,11 +20,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117619"
 ---
-# <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimento específico do recurso no Microsoft Teams
+# <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimento específico do recurso em Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-O consentimento específico do recurso no Microsoft Teams permite que os proprietários da equipe dêm consentimento aos aplicativos para acessar dados da equipe. Exemplos desse acesso incluem a capacidade de ler mensagens de canal, criar e excluir canais e criar e remover guias de canal.
+O consentimento específico do recurso em Microsoft Teams permite que os proprietários da equipe dêm consentimento aos aplicativos para acessar dados da equipe. Exemplos desse acesso incluem a capacidade de ler mensagens de canal, criar e excluir canais e criar e remover guias de canal.
 
 Como administrador, você controla se os proprietários de equipe em sua organização podem dar consentimento por meio das configurações que você configura usando o módulo do PowerShell do Azure Active Directory (Azure AD) ou o portal do Azure e o centro de administração do Microsoft Teams.  
 
@@ -43,8 +43,8 @@ As duas configurações a seguir determinam se os proprietários da equipe podem
 
 Essa configuração controla se os usuários em sua organização podem consentir com aplicativos em seu nome. Para permitir que os proprietários da equipe deem consentimento, essa configuração deve ser definida como **Sim**. Para gerenciar essa configuração, faça o seguinte:
 
-1. No portal do Azure, acesse **Aplicativos**  >  **corporativos Configurações do usuário**.
-2. Em **aplicativos Empresariais,** de acordo com o conjunto Os usuários **podem consentir** que os aplicativos acessem os dados da empresa em seu nome como **Não** ou **Sim.**
+1. No portal do Azure, acesse Enterprise   >  **aplicativos Configurações do usuário.**
+2. Em **Enterprise aplicativos**, definir **Usuários podem consentir** com aplicativos acessando dados da empresa em seu nome **como Não** ou **Sim**.
 
 Você também pode gerenciar essa configuração usando o PowerShell. Para saber mais, consulte [Configure user content to applications](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 
@@ -52,7 +52,7 @@ Você também pode gerenciar essa configuração usando o PowerShell. Para saber
 
 Essa configuração controla se os usuários em sua organização podem consentir que os aplicativos acessem os dados da empresa para os grupos que eles têm. Essa configuração deve ser habilitada para que os proprietários da equipe deem consentimento. Para ver as etapas sobre como gerenciar essa configuração usando o PowerShell, consulte [Configure group owner consent to apps accessing group data](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
 
-### <a name="settings-in-the-microsoft-teams-admin-center"></a>Configurações no centro de administração do Microsoft Teams
+### <a name="settings-in-the-microsoft-teams-admin-center"></a>Configurações no centro de Microsoft Teams de administração
 
 Além das configurações no Azure AD, as configurações de aplicativos em toda a [](manage-apps.md#allow-and-block-apps) organização na página [](teams-app-permission-policies.md) Gerenciar [aplicativos,](manage-apps.md#manage-org-wide-app-settings) se um aplicativo está bloqueado ou permitido na página Gerenciar aplicativos e a política de permissão do aplicativo atribuída ao proprietário da equipe determina se um proprietário da equipe pode dar consentimento. [](manage-apps.md)
 
@@ -63,10 +63,10 @@ Além das configurações no Azure AD, as configurações de aplicativos em toda
 
 Essa configuração de aplicativo em toda a organização controla se os usuários em sua organização podem usar aplicativos de terceiros. Essa configuração deve estar ativada para permitir que os proprietários da equipe deem consentimento. Para gerenciar essa configuração, faça o seguinte:
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá para **Aplicativos** do Teams Gerenciar aplicativos e clique em  >   **Configurações de aplicativos em** toda a organização.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para Teams **aplicativos** Gerenciar aplicativos e clique em  >   **Configurações de aplicativos em** toda a organização.
 2. Em **Aplicativos de terceiros**, desativar ou ativar Permitir **aplicativos de terceiros**.
 
-    ![Captura de tela da configuração "Permitir aplicativos de terceiros no Teams"](media/resource-specific-consent-org-wide-setting.png)
+    ![Captura de tela da configuração "Permitir aplicativos de terceiros Teams"](media/resource-specific-consent-org-wide-setting.png)
 
 Talvez você precise aguardar até 24 horas para que as configurações entrem em vigor.
 
@@ -83,7 +83,7 @@ Quando você bloqueia ou permite um aplicativo na página [Gerenciar aplicativos
 
 Os proprietários de equipe só podem dar consentimento a aplicativos que sua política de permissão de aplicativo permite que eles executem. Para exibir e gerenciar a política de permissão do aplicativo atribuída a um proprietário de equipe, faça o seguinte:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Usuários**.
 2. Clique duas vezes no nome de exibição do proprietário da equipe e clique em **Políticas**.
 3. A política atribuída ao proprietário da equipe está listada em **Política de permissão do aplicativo.**
     - Para atribuir uma política diferente, clique em **Editar** e selecione a política que você deseja atribuir.
@@ -97,5 +97,5 @@ Ao carregar um aplicativo personalizado (também conhecido sideload) que usa o c
 
 - [Permissões RSC disponíveis](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
-- [Gerenciar seus aplicativos no centro de administração do Microsoft Teams](manage-apps.md)
+- [Gerenciar seus aplicativos no Microsoft Teams de administração](manage-apps.md)
 - [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)

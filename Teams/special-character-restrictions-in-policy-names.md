@@ -31,11 +31,11 @@ ms.locfileid: "51116979"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quais são as restrições de caracteres especiais nas políticas do Teams?
 
-Não é possível criar ou editar políticas **(para mensagens, reuniões etc.)** que tenham um caractere especial no nome no centro de administração do Microsoft Teams. 
+Não é possível criar ou editar políticas **(para mensagens, reuniões etc.)** que tenham um caractere especial no nome no centro de administração Microsoft Teams. 
 
-Se um nome de política contiver caracteres especiais, você será limitado no gerenciamento dessas políticas no centro de administração do Microsoft Teams. **Como tal, recomendamos que os nomes de política não incluam caracteres especiais.** 
+Se um nome de política contiver caracteres especiais, você será limitado ao gerenciar essas políticas no centro de administração Microsoft Teams de administração. **Como tal, recomendamos que os nomes de política não incluam caracteres especiais.** 
 
-Os nomes de política criados usando o PowerShell para reuniões e mensagens no Teams podem ter caracteres especiais como @,#,$. No entanto, se você quiser fazer alterações na política no centro de administração do Microsoft Teams, não será possível. 
+Os nomes de política criados usando o PowerShell para reuniões e mensagens no Teams podem ter caracteres especiais como @,#,$. No entanto, se você estiver desejando fazer alterações na política no centro de administração Microsoft Teams, não será possível. 
 
 Se você tiver uma política com caracteres especiais, precisará editar a política usando o Windows PowerShell (para sempre) ou criar uma nova política no centro de administração do Microsoft Teams com as mesmas configurações da política antiga e atribuí-la ao mesmo grupo de usuários.
 
@@ -43,9 +43,9 @@ Se você tiver uma política com caracteres especiais, precisará editar a polí
 
 **Etapa 1 : Fazer uma conexão remota com o PowerShell.**
 > [!NOTE]
-> O Conector do Skype for Business Online atualmente faz parte do módulo mais recente do Teams PowerShell.
+> Skype for Business No momento, o Conector Online faz parte do módulo Teams PowerShell mais recente.
 >
-> Se você estiver usando a versão pública mais recente do [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o Conector do Skype for Business Online.
+> Se você estiver usando a versão pública mais [recente Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o conector Skype for Business Online.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -68,7 +68,7 @@ Se você tiver uma política com caracteres especiais, precisará editar a polí
 
 **Etapa 3 - Criar uma nova política.**
 
-Você pode criar a nova política com a mesma configuração usando o Centro de administração do Microsoft Teams ou o PowerShell.
+Você pode criar a nova política com a mesma configuração usando o centro de administração Microsoft Teams ou o PowerShell.
 
 Executar isso criará uma nova política para você, mas você precisará adicionar as configurações corretas, vendo [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) e executando-a:
 
@@ -96,11 +96,11 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Por que você precisa usar Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
@@ -111,4 +111,4 @@ O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com
   - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
-    > O Windows PowerShell módulo do Skype for Business Online permite que você crie uma sessão de Windows PowerShell remota que se conecta ao Skype for Business Online e ao Microsoft Teams. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+    > O Windows PowerShell módulo do Skype for Business Online permite que você crie uma sessão de Windows PowerShell remota que se conecta ao Skype for Business Online e Microsoft Teams. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).

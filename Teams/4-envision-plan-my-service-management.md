@@ -27,18 +27,18 @@ ms.locfileid: "51094739"
 ---
 # <a name="plan-my-service-management"></a>Planejar meu gerenciamento de serviços
 
-Este artigo apresenta uma visão geral dos requisitos necessários para fornecer e manter uma implantação do Microsoft Teams de alta qualidade. Você pode ajudar a garantir uma implantação bem-sucedida com o planejamento do gerenciamento e da qualidade do serviço durante a fase de Concepção, antes de fazer o primeiro piloto ou da primeira implantação em produção.
+Este artigo apresenta uma visão geral dos requisitos necessários para fornecer e manter uma implantação de Microsoft Teams de alta qualidade. Você pode ajudar a garantir uma implantação bem-sucedida com o planejamento do gerenciamento e da qualidade do serviço durante a fase de Concepção, antes de fazer o primeiro piloto ou da primeira implantação em produção.
 
-## <a name="service-management-for-teams"></a>Gerenciamento de serviço para o Teams
+## <a name="service-management-for-teams"></a>Gerenciamento de serviço para Teams
 
-O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O serviço do Teams abrange o Microsoft 365 ou Office 365 e os componentes de infraestrutura implantados no local (por exemplo, rede).
+O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O Teams abrange Microsoft 365 ou Office 365 e os componentes de infraestrutura implantados no local (por exemplo, rede).
 
 É provável que a noção de gerenciamento do serviço não seja um conceito novo para a maioria das organizações. Você provavelmente já implementou processos e tarefas que estão associados a serviços existentes. Considerando isso, é possível que você possa expandir o que já está funcionando ao planejar o gerenciamento do serviço atual para dar suporte ao Microsoft Teams no futuro.
 
-O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Alguns componentes do gerenciamento de serviço, os componentes de infraestrutura que o serviço do Microsoft 365 ou do Próprio Office 365 compreende, são de responsabilidade da Microsoft, enquanto o cliente é responsável por seus usuários para gerenciar os vários aspectos do Teams, da rede e dos pontos de extremidade que eles fornecem.
-Para uma discussão completa sobre a responsabilidade do cliente para o gerenciamento de serviços do Teams e como ela se relaciona com os principais componentes que fundamentam a qualidade da experiência do usuário, consulte [Plan for service management and quality](./prepare-network.md).
+O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Alguns componentes do gerenciamento de serviço, os componentes de infraestrutura que o próprio serviço Microsoft 365 ou Office 365 compreende, são de responsabilidade da Microsoft, enquanto o cliente é responsável por seus usuários para gerenciar os vários aspectos do Teams, da rede e dos pontos de extremidade que eles fornecem.
+Para uma discussão completa sobre a responsabilidade do cliente para o gerenciamento de serviços Teams e como ele se relaciona com os principais componentes que fundamentam a qualidade da experiência do usuário, consulte [Plan for service management and quality](./prepare-network.md).
 
-![Diagrama dos três componentes de qualidade](media/plan-my-service-management-image1.png "Diagrama dos três componentes de qualidade — serviço, rede e pontos de extremidade do Microsoft 365 ou Office 365 — e como o gerenciamento de serviço se sobrepõe a todos os três.")
+![Diagrama dos três componentes de qualidade](media/plan-my-service-management-image1.png "Diagrama dos três componentes de qualidade, Microsoft 365 ou Office 365 serviço, rede e pontos de extremidade, e como o gerenciamento de serviço se sobrepõe a todos os três.")
 
 <!--ENDOFSECTION-->
 
@@ -72,7 +72,7 @@ O Guia de Operações apresenta uma lista de tarefas comuns mapeadas para as fun
 |Cliente e equipe de pontos de extremidade|Gerenciar implantações de desktop|TBA|TBA|
 |Operações de identidade|Gerenciar infraestrutura de identidade (Active Directory, Serviços de Federação do Active Directory, Azure AD)|TBA|TBA|
 |Gerenciamento de adoção/alteração|Gerenciar reconhecimento, treinamento e adoção para a solução|TBA|TBA|
-|Operações do Exchange|Gerenciar o ambiente do Exchange|TBA|TBA|
+|Operações do Exchange|Gerenciar o Exchange ambiente|TBA|TBA|
 |Operações de Telefonia|Gerenciar os números de telefone e SBC|TBA|TBA|
 
 <!--ENDOFSECTION-->

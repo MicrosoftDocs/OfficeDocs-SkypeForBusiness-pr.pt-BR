@@ -1,5 +1,5 @@
 ---
-title: Planejar o gerenciamento de Salas do Microsoft Teams com o Azure Monitor
+title: Planejar Salas do Microsoft Teams gerenciamento com o Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
-description: Este artigo discute considerações de planejamento para usar o Azure Monitor para administrar dispositivos do Microsoft Teams Rooms em sua implementação do Skype for Business ou do Teams.
+description: Este artigo discute considerações de planejamento para usar o Azure Monitor para administrar Salas do Microsoft Teams dispositivos em sua Skype for Business ou Teams implementação.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 56b22dddfc475efc83fb5bb3ef5734743b1eb0c9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -22,23 +22,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117579"
 ---
-# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planejar o gerenciamento de Salas do Microsoft Teams com o Azure Monitor
+# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planejar Salas do Microsoft Teams gerenciamento com o Azure Monitor
  
- Este artigo discute considerações de planejamento para usar o Azure Monitor para administrar dispositivos de Salas do Microsoft Teams em sua implementação do Microsoft Teams ou skype for Business.
+ Este artigo discute considerações de planejamento para usar o Azure Monitor para administrar Salas do Microsoft Teams dispositivos em sua implementação Microsoft Teams ou Skype for Business.
   
-[O Monitor do Azure](/azure/azure-monitor/overview) é uma coleção de serviços de gerenciamento que foram projetados na nuvem desde o início. Em vez de implantar e gerenciar recursos locais, os componentes do Azure Monitor são totalmente hospedados no Azure. A configuração é mínima e você pode estar funcionando literalmente em questão de minutos. Com algum trabalho de personalização, ele pode ajudar a gerenciar sistemas de conferência de Salas do Microsoft Teams fornecendo notificações em tempo real sobre a saúde ou falhas do sistema para sistemas de salas individuais e pode potencialmente dimensionar para gerenciar milhares de salas de conferência do Microsoft Teams Rooms.
+[O Monitor do Azure](/azure/azure-monitor/overview) é uma coleção de serviços de gerenciamento que foram projetados na nuvem desde o início. Em vez de implantar e gerenciar recursos locais, os componentes do Azure Monitor são totalmente hospedados no Azure. A configuração é mínima e você pode estar funcionando literalmente em questão de minutos. Com algum trabalho de personalização, ele pode ajudar no gerenciamento de sistemas de conferência Salas do Microsoft Teams fornecendo notificações em tempo real sobre a saúde ou falhas do sistema para sistemas de salas individuais, e pode potencialmente dimensionar para gerenciar milhares de salas de conferência Salas do Microsoft Teams.
   
-Este artigo fornece uma discussão sobre os requisitos, o design/arquitetura e as práticas recomendadas de implementação necessárias para implementar o gerenciamento baseado no Azure Monitor de dispositivos de conferência do Microsoft Teams Rooms e fornece links para artigos detalhados sobre a implementação do Monitor do Azure para Salas do Microsoft Teams e informações de referência críticas para o monitoramento contínuo das salas de salas do Microsoft Teams. 
+Este artigo fornece uma discussão sobre os requisitos, o design/arquitetura e as práticas recomendadas de implementação necessárias para implementar o gerenciamento baseado no Azure Monitor de dispositivos de conferência Salas do Microsoft Teams e fornece links para artigos detalhados sobre a implementação do Azure Monitor para Salas do Microsoft Teams e informações de referência críticas para monitoramento contínuo de salas Salas do Microsoft Teams. 
   
 ## <a name="functional-overview"></a>Visão geral funcional
 
-![diagrama de gerenciamento de Salas do Microsoft Teams usando o Azure Monitor](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+![diagrama de Salas do Microsoft Teams gerenciamento usando o Azure Monitor](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
-O aplicativo Salas do Microsoft Teams no dispositivo de console grava eventos em seu Log de Eventos do Windows. Um agente de Monitoramento da Microsoft, uma vez instalado, passa as informações para o serviço do Monitor do Azure. 
+O Salas do Microsoft Teams no dispositivo de console grava eventos em seu Windows Log de Eventos. Um agente de Monitoramento da Microsoft, uma vez instalado, passa as informações para o serviço do Monitor do Azure. 
   
-Depois de configurado corretamente, o Log Analytics analisará a carga JSON inserida nas descrições do evento para descrever como cada sistema de Salas do Microsoft Teams está funcionando e quais falhas são detectadas. 
+Depois de configurado corretamente, o Log Analytics analisará a carga JSON inserida nas descrições do evento para descrever como cada sistema Salas do Microsoft Teams está funcionando e quais falhas são detectadas. 
   
-Um administrador que usa o Azure Monitor pode receber notificações de sistemas de Salas do Microsoft Teams que estão offline ou que estão enfrentando falhas de aplicativo, conectividade ou hardware, além de saber se um sistema precisa ser reiniciado. Cada status do sistema é atualizado com frequência, portanto, essas notificações estão próximas de atualizações em tempo real.
+Um administrador que usa o Azure Monitor pode receber notificações de sistemas Salas do Microsoft Teams que estão offline ou estão enfrentando falhas de aplicativo, conectividade ou hardware, além de saber se um sistema precisa ser reiniciado. Cada status do sistema é atualizado com frequência, portanto, essas notificações estão próximas de atualizações em tempo real.
   
 ## <a name="azure-monitor-requirements"></a>Requisitos do Monitor do Azure
 
@@ -48,24 +48,24 @@ Você deve se familiarizar conforme necessário sobre como usar o Designer de Ex
   
 ### <a name="related-tasks"></a>Tarefas relacionadas
 
-1. Depois de inscrito no Azure Monitor Log Analytics, crie campos personalizados (conforme descrito em [Mapear](azure-monitor-deploy.md#Custom_fields)campos personalizados ) necessários para analisar as informações que serão enviadas dos consoles das Salas do Microsoft Teams. Isso inclui o entendimento do esquema JSON documentado em [Compreender as entradas de log](azure-monitor-manage.md#understand-the-log-entries).
+1. Depois de inscrito no Azure Monitor Log Analytics, crie campos personalizados (conforme descrito em [Mapear](azure-monitor-deploy.md#Custom_fields)campos personalizados ) necessários para analisar as informações que serão enviadas de consoles Salas do Microsoft Teams mapa. Isso inclui o entendimento do esquema JSON documentado em [Compreender as entradas de log](azure-monitor-manage.md#understand-the-log-entries).
     
-2. Desenvolva uma exibição de gerenciamento de Salas do Microsoft Teams no Log Analytics. Você pode criar [um painel de Salas do Microsoft Teams](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) usando o método import ou Criar um painel de Salas do Microsoft Teams [manualmente.](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)
+2. Desenvolva um Salas do Microsoft Teams de gerenciamento no Log Analytics. Você pode criar [um painel Salas do Microsoft Teams usando](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) o método import ou Criar um painel Salas do Microsoft Teams [manualmente.](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)
     
-## <a name="individual-microsoft-teams-rooms-console-requirements"></a>Requisitos individuais do Console de Salas do Microsoft Teams
+## <a name="individual-microsoft-teams-rooms-console-requirements"></a>Requisitos Salas do Microsoft Teams console individuais
 
-Cada console do Microsoft Teams Rooms é um aplicativo em execução em um dispositivo Surface Pro no modo quiosque (normalmente, ele é configurado para ser o único aplicativo que pode ser executado no dispositivo). Assim como acontece com qualquer aplicativo Windows, o aplicativo salas do Microsoft Teams grava eventos como falhas de inicialização e hardware no Log de Eventos do Windows. A adição de um agente do Microsoft Monitor no dispositivo salas do Microsoft Teams permite que esses eventos sejam coletados. (Consulte [Conectar computadores Windows ao serviço de Análise de Log no Azure](/azure/azure-monitor/platform/agent-windows) para obter detalhes.)
+Cada Salas do Microsoft Teams console é um aplicativo em execução em um dispositivo Surface Pro no modo quiosque (normalmente, ele é configurado para ser o único aplicativo que pode ser executado no dispositivo). Como acontece com qualquer Windows, o aplicativo Salas do Microsoft Teams grava eventos como falhas de inicialização e hardware no log de eventos Windows de eventos. Adicionar um agente do Microsoft Monitor em seu Salas do Microsoft Teams permite que esses eventos sejam coletados. (Consulte Conexão Windows para o serviço de Análise de Log no [Azure](/azure/azure-monitor/platform/agent-windows) para obter detalhes.)
   
 ## <a name="ongoing-management"></a>Gerenciamento contínuo
 
-Ao usar o Monitor do Azure para gerenciar seus dispositivos de Salas do Microsoft Teams, você precisará entender as informações contidas nos logs de eventos usados pelo Azure Monitor. Consulte [Compreender as entradas de log para](azure-monitor-manage.md#understand-the-log-entries) obter detalhes sobre essas mensagens de saúde.
+Ao usar o Monitor do Azure para gerenciar seus dispositivos Salas do Microsoft Teams, você precisará entender as informações contidas nos logs de eventos usados pelo Azure Monitor. Consulte [Compreender as entradas de log para](azure-monitor-manage.md#understand-the-log-entries) obter detalhes sobre essas mensagens de saúde.
   
 ### <a name="related-tasks"></a>Tarefas relacionadas
 
-- Entenda os Alertas gerados pelas Salas do Microsoft Teams e como resolvê-los (consulte a seção intitulada [Compreender as entradas de log](azure-monitor-manage.md#understand-the-log-entries))
+- Entenda os Alertas gerados por Salas do Microsoft Teams e como resolvê-los (consulte a seção intitulada [Compreender as entradas de log](azure-monitor-manage.md#understand-the-log-entries))
     
 ## <a name="see-also"></a>Confira também
 
-[Implantar o gerenciamento de Salas do Microsoft Teams com o Azure Monitor](azure-monitor-deploy.md)
+[Implantar Salas do Microsoft Teams gerenciamento com o Azure Monitor](azure-monitor-deploy.md)
   
-[Gerenciar dispositivos de Salas do Microsoft Teams com o Azure Monitor](azure-monitor-manage.md)
+[Gerenciar Salas do Microsoft Teams com o Azure Monitor](azure-monitor-manage.md)

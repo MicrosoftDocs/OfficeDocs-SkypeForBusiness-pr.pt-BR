@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Escolha os usuários antecipados para a fase de experimento da adoção do Teams e, em seguida, reúna comentários para o seu projeto.
+description: Escolha os usuários antecipados para a fase de experimento da sua Teams adoção e, em seguida, reúna comentários para seu projeto.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,23 +30,23 @@ ms.locfileid: "49821071"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
 
-Retorne à lista de funcionários que expressaram interesse em seu programa de adoção antecipado. Decida quais desses indivíduos devem participar de suas experiências iniciais com o Teams. Pode ser toda ou uma parte das pessoas que estão interessadas. Mesmo se você não selecioná-los para esses projetos iniciais, continue a se comunicar com eles para que permaneçam interessados e estarão dispostos a participar no futuro. Eles serão parte do processo de integração dos projetos que você selecionou com base em suas discussões com participantes de negócios, sua equipe técnica e seu exercício de priorização mostrado acima. 
+Retorne à lista de funcionários que expressaram interesse em seu programa de adoção antecipado. Decida quais desses indivíduos devem participar de seus experimentos iniciais com Teams. Pode ser tudo ou uma parte das pessoas que estão interessadas. Mesmo que você não os selecione para esses projetos iniciais, continue se comunicando com eles para que permaneçam interessados e estarão dispostos a participar no futuro. Eles serão uma parte do processo de integração dos projetos selecionados com base em suas discussões com as partes interessadas de negócios, sua equipe técnica e seu exercício de priorização mostrado acima. 
 
-Conclua as seguintes etapas com estes primeiros adotares:
+Conclua as etapas a seguir com estes adotantes inseríveis:
 
 1. Envie um email de convite para eles para convidá-los para a comunidade,
-2. Hospede uma chamada inicial para compartilhar com eles as metas e os resultados do programa de primeiros usuários,
-3. Garanta acesso ao canal de comentários da equipe dos campeões do trabalho em equipe e a outras ferramentas de redes sociais internas que você possa usar. 
-4. Considere a criação de pesquisas periódicas para que elas concluam que reúnam informações direcionadas.
+2. Hospedar uma chamada inicial para compartilhar com eles as metas e os resultados do programa de adoção antecipado,
+3. Certifique-se de acessar o canal de comentários da equipe de campeões do trabalho em equipe e quaisquer outras ferramentas de rede social internas que você possa usar. 
+4. Considere a criação de pesquisas periódicas para que elas concluam que coletarão informações direcionadas.
 
 ## <a name="gather-feedback"></a>Coletar comentários
 
-Use os componentes do Microsoft 365 ou do Office 365 para coletar comentários sobre seu projeto.
+Use os componentes de Microsoft 365 ou Office 365 para coletar comentários para seu projeto.
   
-![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png) Decisão: se sua organização já tem um investimento em uma rede do Yammer, você pode usá-la como um fórum de comentários para seu programa de adoção antecipado. Caso não tenha, e seu programa de adoção antecipado tiver menos de 5.000 membros, crie uma equipe no Teams para coletar comentários e fornecer treinamento.
+![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png) Decisão: se sua organização já tiver um investimento em uma rede Yammer, você poderá usá-lo como um fórum de comentários para seu programa de adoção antecipado. Caso não seja, e seu programa de adoção inicial tiver menos de 5.000 membros, crie uma equipe em Teams para coletar comentários e fornecer treinamento.
   
 > [!Note]
-> Algumas organizações combinarão os canais para os comentários dos usuários antecipado na equipe do programa de campeões do trabalho em equipe. Essa é uma boa abordagem porque muitos usuários inserdos podem se tornar campeões no futuro e criarão uma comunidade mais forte. 
+> Algumas organizações combinarão os canais para comentários do adotante antecipado na equipe do programa de campeões do trabalho em equipe. Essa é uma boa abordagem porque muitos adotantes inserdos podem se tornar campeões no futuro e criar uma comunidade mais forte. 
 
 
-![Um ícone que representa a próxima ](media/teams-adoption-next-icon.png) etapa: Suporte [de integração.](teams-adoption-onboard-support.md)
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Suporte à integração](teams-adoption-onboard-support.md).

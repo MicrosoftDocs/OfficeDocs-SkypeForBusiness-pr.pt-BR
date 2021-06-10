@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Baixe o Playbook de Habilitação de Site para planejar a adoção do Teams e acelerar e otimizar a adoção do usuário, a percepção de qualidade e a satisfação.
+description: Baixe o Playbook de Habilitação do Site para planejar sua Teams e acelerar e otimizar a adoção do usuário, a percepção de qualidade e satisfação.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -31,28 +31,28 @@ ms.locfileid: "51112627"
 
 Este artigo apresenta uma visão geral dos requisitos para a implantação adequada dos serviços de voz na nuvem. Seguindo as diretrizes prescritivas para a implantação de serviços de voz na nuvem, você pode se certificar de que contabilização com êxito de todos os requisitos e resultados repetidos.
 
-## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Playbook de habilitação de site para cargas de trabalho de voz do Microsoft Teams
+## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Playbook de habilitação de site para Microsoft Teams de voz
 
-Use este playbook para ajudar sua organização a planejar e executar com êxito a lançamento de recursos de voz do Microsoft Teams em uma base site a site.
+Use este playbook para ajudar sua organização a planejar e executar com êxito a Microsoft Teams recursos de voz em um site por site.
 
-Incluindo todas as atividades necessárias, cronogramas recomendados e links para as diretrizes correspondentes para cada atividade, este manual aborda as diretrizes de ponta a ponta para ajudar a garantir uma implantação de voz bem-sucedida do Teams para um determinado site, concentrando-se em fatores importantes para o usuário.
+Incluindo todas as atividades necessárias, cronogramas recomendados e links para orientações correspondentes para cada atividade, este manual aborda as diretrizes de ponta a ponta para ajudar a garantir uma implantação de voz Teams bem-sucedida para um determinado site, concentrando-se em fatores importantes para o usuário.
 
 Ao concluir as atividades neste playbook, sua organização pode:
 
--   Planeje e agende efetivamente sua lançamento do Teams.
+-   Planeje e agende efetivamente sua Teams de lançamento.
 
 -   Acelere e otimize a adoção do usuário.
 
 -   Reduza as necessidades de suporte e aumente a satisfação do usuário.
 
 > [!NOTE]
-> Este artigo e o playbook associado não se destinam a descrever cada etapa de configuração técnica necessária para habilitar o serviço ou fornecer tom de discagem para um site específico. Em vez disso, eles se concentram nas atividades e tarefas recomendadas para os usuários de integração facilmente e fazem com que eles comecem a consumir cargas de trabalho de voz do Teams por meio de uma transição rápida e suave com uma alta taxa de adoção, minimizando os requisitos de suporte. Para obter orientações técnicas sobre como configurar melhor seu ambiente para a voz do Teams, consulte as listas de verificação de integração para configurar cargas de trabalho de voz do [Teams,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)configurando Roteamento Direto no [Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)recursos principais do [Teams,](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)rede para [o Teams](prepare-network.md)e habilitando o Microsoft [365 ou o Office 365](onboarding-checklist-enable-office-365.md).
+> Este artigo e o playbook associado não se destinam a descrever cada etapa de configuração técnica necessária para habilitar o serviço ou fornecer tom de discagem para um site específico. Em vez disso, eles se concentram em atividades e tarefas recomendadas para os usuários de integração facilmente e fazem com que eles comecem a consumir cargas de trabalho de voz Teams por meio de uma transição rápida e suave com uma alta taxa de adoção, minimizando os requisitos de suporte. Para obter orientações técnicas sobre como configurar melhor seu ambiente para Teams voz, consulte as listas de verificação de integração para configurar [cargas](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)de trabalho de voz do Teams, configurando o [Roteamento](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)Direto em Teams , recursos principais do [Teams,](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)rede para [Teams](prepare-network.md)e habilitando Microsoft 365 [ou Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
 ## <a name="playbook-focus-areas"></a>Áreas de foco de playbook
 
-O foco da playbook é abordar os fatores que influenciam a percepção do usuário de uma implantação de voz do Teams. Atividades e tarefas são agrupadas nas seguintes áreas de foco:
+O foco da playbook é abordar os fatores que influenciam a percepção do usuário de uma implantação Teams voz. Atividades e tarefas são agrupadas nas seguintes áreas de foco:
 
 -   Validação da preparação do serviço
     - Audioconferência
@@ -67,20 +67,20 @@ O foco da playbook é abordar os fatores que influenciam a percepção do usuár
 
 -   Adoção
 
-O [Playbook de Habilitação de Site para Voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) é uma planilha do Microsoft Excel. Cada uma dessas cinco áreas de foco é uma planilha separada na pasta de trabalho, e cada tarefa e atividade de implantação é agrupada em uma dessas planilhas.
+O [Manual de Reprodução de Habilitação de Site para Voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) é uma Microsoft Excel de trabalho. Cada uma dessas cinco áreas de foco é uma planilha separada na pasta de trabalho, e cada tarefa e atividade de implantação é agrupada em uma dessas planilhas.
 
 ![Captura de tela do playbook de habilitação do site](media/deploy-my-service-image1.png "Captura de tela do playbook")
 
 > [!NOTE]
-> Você criará uma instância separada do playbook para cada site no escopo da sua adoção do Teams.
+> Você criará uma instância separada do playbook para cada site no escopo para sua Teams de lançamento.
 
 <!--ENDOFSECTION-->
 
 ## <a name="how-to-use-the-playbook"></a>Como usar o playbook
 
-Independentemente do tamanho e da complexidade do local, a habilitação de cada site exige que você planeje suas tarefas e atividades com antecedência suficiente e execute-as em ordem ideal antes, durante e após a ativação real do serviço. Recomendamos que você siga estas etapas ao planejar e executar sua própria jornada até a voz do Microsoft Teams.
+Independentemente do tamanho e da complexidade do local, a habilitação de cada site exige que você planeje suas tarefas e atividades com antecedência suficiente e execute-as em ordem ideal antes, durante e após a ativação real do serviço. Recomendamos que você siga estas etapas enquanto planeja e executa sua própria jornada para Microsoft Teams voz.
 
-1. Baixe o [Playbook de Habilitação do Site para Voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para o Microsoft Teams Voice.
+1. Baixe o [Playbook de Habilitação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) do Site para Voz (Playbook) para Microsoft Teams Voice.
 
 2. Crie uma cópia separada do playbook para cada site.
 
@@ -108,7 +108,7 @@ Independentemente do tamanho e da complexidade do local, a habilitação de cada
 Preste atenção às atividades que podem levar mais tempo do que você planejou, como atividades de portação de número e compras. Essas atividades podem afetar negativamente a linha do tempo de implantação do site. Certifique-se de revisar e atualizar a lista de atividades [](./envision-steering-committee-complete-guide.md) e a linha do tempo associada semanalmente e apresentá-las em reuniões do comitê de direção para garantir que as partes interessadas estão cientes do status de cada site e quaisquer possíveis desvios do cronograma de implantação.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida se o Manual de Habilitação de Site é necessário para sua implantação.</li><li>Decida quem será responsável por personalizar o Playbook de Habilitação de Site para o Microsoft Teams para cada site que você implantará.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida se o Manual de Habilitação de Site é necessário para sua implantação.</li><li>Decida quem será responsável por personalizar o Playbook de Habilitação de Site para Microsoft Teams para cada site que você implantar.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Baixe o Playbook de Habilitação do Site.</a></li><li>Personalize o Playbook de Habilitação do Site para seu primeiro site.</li><li>Repita conforme necessário para sites adicionais.</li></ul></td></tr>
 </table>
 

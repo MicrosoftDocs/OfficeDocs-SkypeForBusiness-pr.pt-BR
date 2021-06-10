@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Siga estas etapas para criar um número de telefone padrão para os chamadores ingressarem em uma reunião do Microsoft Teams.
+description: Siga estas etapas para criar um número de telefone padrão para os chamadores ingressarem em uma Microsoft Teams reunião.
 ms.openlocfilehash: 476075ccf5e261695564b78ec084605af9e6898c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51117169"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Definir os números de telefone incluídos em convites no Microsoft Teams
 
-A Audioconferência no Microsoft 365 e no Office 365 permite que os usuários em sua organização criem reuniões do Microsoft Teams e permitem que os usuários discem para essas reuniões usando um telefone.
+A audioconferência em Microsoft 365 e Office 365 permite que os usuários em sua organização criem reuniões Microsoft Teams e, em seguida, permitir que os usuários discem para essas reuniões usando um telefone.
   
 Uma ponte de conferência oferece um conjunto de números de telefone de discagem para sua organização. Todos eles podem ser usados para participar das reuniões que um organizador da reunião criou, mas você pode selecionar quais serão incluídos nos convites da reunião.
   
@@ -45,7 +45,7 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
 
 Os números de telefone que são incluídos nos convites de reunião de usuários habilitados para Audioconferência são definidos pelo número de telefone de chamada de chamada de conferência padrão e pelas configurações padrão do número de telefone gratuito de conferência do usuário. Cada configuração especifica qual número gratuito e de tarifa será incluído no convite de reunião de um determinado usuário. Conforme mencionado acima, cada convite de reunião contém um número de chamada gratuita, um número gratuito opcional e um link que abre a lista completa de todos os números de telefone discados que podem ser usados para ingressar em uma determinada reunião.
 
-Para um novo usuário, os números de tarifa de conferência padrão são atribuídos com base no Local de Uso definido no centro de administração do Microsoft 365 do usuário quando o usuário está habilitado para o serviço de Audioconferência. Se houver um número de pedágio na ponte de conferência que corresponde ao país do usuário, esse número será atribuído automaticamente como o número de tarifa padrão do usuário. Se não houver um, o número definido como o número de tarifa padrão da ponte de conferência será atribuído como o número de tarifa padrão do usuário.  
+Para um novo usuário, os números de tarifa de conferência padrão são atribuídos com base no Local de Uso definido no centro de administração Microsoft 365 do usuário quando o usuário está habilitado para o serviço de Audioconferência. Se houver um número de pedágio na ponte de conferência que corresponde ao país do usuário, esse número será atribuído automaticamente como o número de tarifa padrão do usuário. Se não houver um, o número definido como o número de tarifa padrão da ponte de conferência será atribuído como o número de tarifa padrão do usuário.  
 
 Depois que o usuário for habilitado para o serviço de Audioconferência, os números de telefone de chamada gratuita e de chamada padrão do usuário poderão ser alterados pelo administrador de locatários de seus valores iniciais a qualquer momento.
 
@@ -55,11 +55,11 @@ Depois que o usuário for habilitado para o serviço de Audioconferência, os n�
 
 Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
-1. Faça logoff no centro de administração do Microsoft Teams.
+1. Faça logoff no Microsoft Teams de administração.
 
 2. Na navegação à esquerda, clique em **Usuários**.
 
-    ![Mostra a seleção de usuários no centro de administração do Microsoft Teams](media/Admin-users.png)
+    ![Mostra a seleção de usuários no Microsoft Teams de administração](media/Admin-users.png)
 
 3. Clique no nome do usuário na lista de usuários disponíveis.
 
@@ -70,20 +70,20 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 5. Use os **campos Número de Telefone** ou Número **gratuito** para inserir os números do usuário.
 
 > [!IMPORTANT]
-> Quando você altera as configurações de audioconferência de um usuário, reuniões recorrentes e futuras do Microsoft Teams devem ser atualizadas e enviadas aos participantes.
+> Quando você altera as configurações de audioconferência de um usuário, reuniões Microsoft Teams reuniões recorrentes e futuras devem ser atualizadas e enviadas aos participantes.
 
 ## <a name="want-to-use-windows-powershell"></a>Deseja usar Windows PowerShell
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
 - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 [Alterar os números de telefone em sua ponte de Audioconferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

@@ -31,9 +31,9 @@ ms.locfileid: "51117629"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Redefinir o PIN de audioconferência no Microsoft Teams
 
-Um PIN é um código que é criado para cada usuário do Microsoft Teams habilitado para audioconferência. Os PINs de audioconferência são usados pelos organizadores da reunião para identificar que eles são o organizador da reunião e permitir que eles iniciem uma reunião por telefone. Se eles usarem o aplicativo do Microsoft Teams para iniciar a reunião, um PIN não será necessário. Se os usuários esquecerem o PIN e não puderem encontrá-lo no email que foi enviado para eles quando eles foram habilitados para audioconferência, um administrador pode redefinir seu PIN ou pode redefinir seu próprio PIN.
+Um PIN é um código que é criado para cada Microsoft Teams usuário habilitado para audioconferência. Os PINs de audioconferência são usados pelos organizadores da reunião para identificar que eles são o organizador da reunião e permitir que eles iniciem uma reunião por telefone. Se eles usarem o Microsoft Teams para iniciar a reunião, um PIN não será necessário. Se os usuários esquecerem o PIN e não puderem encontrá-lo no email que foi enviado para eles quando eles foram habilitados para audioconferência, um administrador pode redefinir seu PIN ou pode redefinir seu próprio PIN.
   
-As reuniões podem ser iniciadas quando um usuário autenticado entra usando o aplicativo do Microsoft Teams ou quando o organizador ins junta seu PIN pelo telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
+As reuniões podem ser iniciadas quando um usuário autenticado ingressar usando o aplicativo Microsoft Teams ou quando o organizador ingressar com seu PIN pelo telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
 
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
@@ -68,21 +68,21 @@ As reuniões podem ser iniciadas quando um usuário autenticado entra usando o a
     
 - A configuração padrão é não permitir que uma reunião seja iniciada por chamadores anônimos.
     
-- Quando você habilita um usuário para audioconferência, por padrão, eles são enviados emails que incluem informações de conferência e seu PIN. O usuário deve ter uma caixa de correio do Microsoft 365 ou Office 365, pois quando um PIN é redefinido, um novo PIN será enviado ao usuário por email para seu endereço SMTP principal (alias) definido para o usuário.
+- Quando você habilita um usuário para audioconferência, por padrão, eles são enviados emails que incluem informações de conferência e seu PIN. O usuário deve ter uma caixa de correio Microsoft 365 ou Office 365, pois quando um PIN for redefinido, um novo PIN será enviado para o usuário por email para seu endereço SMTP principal (alias) definido para o usuário.
     
 - Quando você configura serviços de audioconferência, você pode definir os dígitos que são necessários para os PINs em sua organização. PINs podem ter somente de 4 a 12 dígitos, o padrão é 5. Se você alterar a configuração do tamanho do PIN, a configuração será aplicada somente aos PINs recém-gerados e não será aplicada à configuração do PIN para usuários existentes que estejam habilitados para audioconferência. Consulte [Definir o tamanho do PIN para reuniões de Audioconferência.](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)
     
-- O email por padrão será definido como o endereço SMTP principal do usuário do Microsoft 365 ou Office 365. Você pode enviar um email para um endereço que não seja do Microsoft 365 ou que não seja do Office 365, como um endereço de email hotmail ou MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso será útil se os usuários não têm uma caixa de correio do Exchange no Microsoft 365 ou no Office 365.
+- O email por padrão será definido como o endereço SMTP Microsoft 365 ou Office 365 SMTP principal do usuário. Você pode enviar um email para um endereço não Microsoft 365 ou não Office 365 como um endereço de email do Hotmail ou MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso será útil se os usuários não têm uma caixa de correio Exchange no Microsoft 365 ou Office 365.
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
   

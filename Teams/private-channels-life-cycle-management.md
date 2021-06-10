@@ -1,5 +1,5 @@
 ---
-title: Gerenciar os canais privados no Microsoft Teams com a API do Graph
+title: Gerenciar os canais privados no Microsoft Teams com Graph API
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como gerenciar canais privados em sua organização usando a API do Graph.
+description: Saiba como gerenciar canais privados em sua organização usando Graph API.
 ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "51117739"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gerenciar o ciclo de vida de canais privados no Microsoft Teams
 
-Aqui você encontrará as diretrizes que você precisa gerenciar para usar a API graph para gerenciar canais privados do [Teams](./private-channels.md) em sua organização.
+Aqui você encontrará as diretrizes que você precisa gerenciar para usar a API Graph para gerenciar Teams [canais](./private-channels.md) privados em sua organização.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Defina se os proprietários e membros podem criar canais privados
 
@@ -44,7 +44,7 @@ PATCH /teams/<team_id>
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>Criar um canal privado em nome do proprietário de equipe
 
-Como administrador, você pode usar a API do Graph para criar um canal privado em nome de um proprietário da equipe. Por exemplo, você pode querer fazer isso se sua organização quiser centralizar a criação de canais privados.
+Como administrador, você pode usar a API Graph para criar um canal privado em nome de um proprietário da equipe. Por exemplo, você pode querer fazer isso se sua organização quiser centralizar a criação de canais privados.
 
 ```Graph API
 POST /teams/{id}/channels
@@ -70,7 +70,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Se estiver procurando executar o eDiscovery, reter legalmente arquivos em um canal privado ou construir um aplicativo personalizado que coloca os arquivos em canais privados específicos, precisará de uma maneira de consultar os conjuntos exclusivos de sites do Microsoft Office SharePoint Online criados para cada canal privado.
 
-Como administrador, você pode usar comandos de APIs do Graph para consultar essas URLs.
+Como administrador, você pode usar Graph APIs para consultar essas URLs.
 
 Você pode tentar esses comandos através do [Explorador do Graph](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -138,7 +138,7 @@ Você pode tentar esses comandos através do [Explorador do Graph](https://devel
 
 Se desejar listar os proprietários e membros de um canal privado para decidir se precisa promover certos membros do canal privado para um proprietário. Isso pode acontecer quando você tem proprietários de canais privados que deixaram a organização e o canal privado requer que os administradores ajudem a reivindicar a propriedade do canal.
 
-Como administrador, você pode usar a API do Graph para executar essas ações.
+Como administrador, você pode usar a API Graph para executar essas ações.
 
 Você pode tentar esses comandos através do [Explorador do Graph](https://developer.microsoft.com/graph/graph-explorer).
 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Saiba como criar, modificar e adicionar usuários a políticas de chamada personalizadas no Microsoft Teams, bem como várias configurações de política de chamada.
+description: Saiba como criar, modificar e adicionar usuários a políticas de chamada personalizadas em Microsoft Teams, bem como várias configurações de política de chamada.
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -30,7 +30,7 @@ ms.locfileid: "51653935"
 <a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
 ===================================
 
-No Microsoft Teams, as políticas de chamada controlam quais recursos de encaminhamento de chamada e chamada estão disponíveis para os usuários. As políticas de chamadas determinam se um usuário pode fazer chamadas privadas, usar encaminhamento de chamadas ou toque simultâneo para outros usuários ou números de telefone externos, rotear chamadas para caixa postal, enviar chamadas para grupos de chamadas, usar delegação para chamadas de entrada e saída e assim por diante.
+Em Microsoft Teams, as políticas de chamada controlam quais recursos de encaminhamento de chamada e chamada estão disponíveis para os usuários. As políticas de chamadas determinam se um usuário pode fazer chamadas privadas, usar encaminhamento de chamadas ou toque simultâneo para outros usuários ou números de telefone externos, rotear chamadas para caixa postal, enviar chamadas para grupos de chamadas, usar delegação para chamadas de entrada e saída e assim por diante.
 
 Você pode usar a política global (padrão em toda a organização) criada automaticamente ou criar e atribuir políticas personalizadas.
 
@@ -38,7 +38,7 @@ Você pode usar a política global (padrão em toda a organização) criada auto
 
 Siga estas etapas para criar uma política de chamada personalizada.
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá para Políticas **de Chamada**  >  **de Voz.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Políticas de Chamada** de  >  **Voz**.
 2. Selecione **Adicionar**.
 3. A ativar ou desativar os recursos que você deseja usar em sua política de chamada.
 4. Para controlar se os usuários podem rotear chamadas de entrada para a caixa postal, selecione **Habilitado ou** **Controlado pelo usuário.** Para impedir o roteamento para a caixa postal, selecione **Desabilitado**.
@@ -48,7 +48,7 @@ Siga estas etapas para criar uma política de chamada personalizada.
 
 Siga estas etapas para editar uma política de chamada existente.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, selecione **Políticas de Chamada** de  >  **Voz**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, selecione **Políticas de Chamada** de  >  **Voz**.
 2. Clique ao lado da política que você deseja modificar e selecione **Editar**.
 3. Faça as alterações que você deseja e clique em **Salvar**.
 
@@ -62,7 +62,7 @@ Aqui estão as configurações que você pode configurar para políticas de cham
 
 ### <a name="make-private-calls"></a>Fazer chamadas privadas
 
-Essa configuração controla todos os recursos de chamada no Teams. Desativar isso para desativar toda a funcionalidade de chamada no Teams.
+Essa configuração controla todos os recursos de chamada Teams. Desativar isso para desativar todas as funcionalidades de chamada no Teams.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Encaminhamento de chamada e toque simultâneo para pessoas em sua organização
 
@@ -98,7 +98,7 @@ Ocupado em Ocupado (Opções de Ocupado) é uma nova configuração que permite 
 
 ### <a name="allow-web-pstn-calling"></a>Permitir chamada PSTN web
 
-Essa configuração permite que os usuários chamem números PSTN usando o cliente Web do Teams.
+Essa configuração permite que os usuários chamem números PSTN usando o Teams web.
 
 ### <a name="allow-music-on-hold"></a>Permitir música em espera
 

@@ -18,12 +18,12 @@ description: Saiba como configurar os Planos de Chamadas da Microsoft e Sistema 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e9e206e82fdc535f115ab276e9cb67ba58d959
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 7c0578496c2ce8d66c7292ac7d7030a1abdd8f88
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796785"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856450"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -110,7 +110,7 @@ As configurações de rede são usadas para determinar o local de um cliente Tea
 As configurações de rede incluem sites que incluem uma coleção de sub-redes e são usadas exclusivamente para atribuição de política dinâmica aos usuários. Por exemplo, uma política de chamada de emergência e uma política de roteamento de chamadas de emergência podem ser atribuídas ao "site redmond" para que qualquer usuário que percorram de casa ou outro local da Microsoft seja configurado com números de emergência, roteamento e suporte de segurança específicos para Redmond.  
 
 >[!Note]
->As sub-redes também podem ser definidas em LIS e podem ser associadas a um local de emergência.  As sub-redes LIS devem ser definidas pela ID de rede que corresponde ao intervalo IP de sub-rede atribuído aos clientes. Por exemplo, a ID de rede de um IP/máscara de cliente de 10.10.10.150/25 é **10.10.10.128**. Para obter mais informações, [consulte Understand TCP/IP addressing and subnetting basics](https://docs.microsoft.com/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
+>As sub-redes também podem ser definidas em LIS e podem ser associadas a um local de emergência.  As sub-redes LIS devem ser definidas pela ID de rede que corresponde ao intervalo IP de sub-rede atribuído aos clientes. Por exemplo, a ID de rede de um IP/máscara de cliente de 10.10.10.150/25 é **10.10.10.128**. Para obter mais informações, [consulte Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
 
 Lembre-se das definições a seguir. Para obter mais informações, consulte [Configurações de rede para recursos de voz na nuvem](cloud-voice-network-settings.md).
 

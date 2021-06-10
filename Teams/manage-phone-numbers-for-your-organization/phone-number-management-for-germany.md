@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Alemanha para o Microsoft Teams.
+description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Alemanha para Microsoft Teams.
 ms.openlocfilehash: d033d0089a1656819288ac5f3c18c7d93882eacb
 ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "50460871"
 ---
 # <a name="phone-number-management-for-germany"></a>Gerenciamento de números de telefone para a Alemanha
 
-Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Alemanha para o Microsoft Teams.
+Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Alemanha para Microsoft Teams.
   
 Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization.md).
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no centro de administração do Microsoft Teams.  <br/> | Na Alemanha, você não pode obter números de telefone para sua organização usando o Centro de administração do Microsoft Teams. Você deve enviar uma solicitação de novo número de telefone. <br/><br/>Baixe um desses formulários. <br/>[Nova solicitação de número de telefone para a Alemanha (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nova solicitação de número de telefone para a Alemanha (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.  <br/> | Na Alemanha, você não pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você deve enviar uma solicitação de novo número de telefone. <br/><br/>Baixe um desses formulários. <br/>[Nova solicitação de número de telefone para a Alemanha (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nova solicitação de número de telefone para a Alemanha (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Obter números de telefone transferidos para nós.  <br/> | Baixe um desses formulários. <br/><br/> Para números de telefone do usuário:<br/>[Carta de Autorização (LOA) para a Alemanha (números geográficos) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Para números de telefone gratuitos:<br/>[Carta de Autorização (LOA) para a Alemanha (números gratuitos) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |

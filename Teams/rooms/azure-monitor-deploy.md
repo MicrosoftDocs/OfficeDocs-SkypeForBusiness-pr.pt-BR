@@ -1,5 +1,5 @@
 ---
-title: Implantar o gerenciamento de Salas do Microsoft Teams com o Azure Monitor
+title: Implantar Salas do Microsoft Teams gerenciamento com o Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: Este artigo discute como implantar o gerenciamento de dispositivos de Salas do Microsoft Teams de forma integrada e de ponta a ponta usando o Azure Monitor.
+description: Este artigo discute como implantar o gerenciamento de dispositivos Salas do Microsoft Teams de forma integrada e de ponta a ponta usando o Azure Monitor.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -30,7 +30,7 @@ Você pode configurar dentro para fornecer telemetria básica e :::no-loc text="
 
 Seguindo este guia, você pode usar um painel como o exemplo a seguir para obter relatórios detalhados de status para disponibilidade do dispositivo, a saúde do aplicativo e do hardware e a distribuição de versão do aplicativo e do sistema :::no-loc text="Microsoft Teams Rooms"::: operacional.
 
-![Captura de tela do exemplo de exibição de Análise de Log para Salas do Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Exemplo de exibição de Análise de Log para Salas do Microsoft Teams")
+![Captura de tela do exemplo de exibição do Log Analytics para Salas do Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Exemplo de exibição de Análise de Log para Salas do Microsoft Teams")
 
 Em um nível superior, é necessário executar as seguintes tarefas:
 
@@ -77,7 +77,7 @@ Você precisa se :::no-loc text="Log Analytics"::: preparar para poder monitorar
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Instalar :::no-loc text="Microsoft Monitoring"::: agentes para testar dispositivos
 
-Implante o :::no-loc text="Microsoft Monitoring"::: agente nos dispositivos de teste usando as instruções fornecidas em [Conectar :::no-loc text="Windows"::: computadores ao serviço :::no-loc text="Log Analytics"::: em :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows). Este artigo fornece informações detalhadas sobre as etapas de implantação do Agente para , instruções para obter a ID do Workspace _ e a _ chave primária * para conectar dispositivos à sua implantação e etapas para verificar a conectividade do agente com a :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: instância.
+Implante o agente nos dispositivos de teste usando as instruções fornecidas :::no-loc text="Microsoft Monitoring"::: [Conexão :::no-loc text="Windows"::: computadores para o serviço :::no-loc text="Log Analytics"::: em :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows). Este artigo fornece informações detalhadas sobre as etapas de implantação do Agente para , instruções para obter a ID do Workspace _ e a _ chave primária * para conectar dispositivos à sua implantação e etapas para verificar a conectividade do agente com a :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: instância.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>Gerar eventos de :::no-loc text="Microsoft Teams Rooms"::: exemplo
 
@@ -161,7 +161,7 @@ Depois que os dados são coletados e os campos personalizados são mapeados, voc
 > [!NOTE]
 > As etapas anteriores neste guia devem ter sido concluídas para que os blocos do painel funcionem corretamente.
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Criar um painel de Salas do Microsoft Teams usando o método import
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Criar um painel Salas do Microsoft Teams usando o método import
 
 Você pode importar um :::no-loc text="Microsoft Teams Rooms"::: painel e começar a monitorar seus dispositivos rapidamente. Tome as seguintes etapas para importar o painel:
 
@@ -171,7 +171,7 @@ Você pode importar um :::no-loc text="Microsoft Teams Rooms"::: painel e começ
 4.  Selecione **Importar** e selecione o arquivo **SkypeRoomSystems_v2.omsview.**
 5.  Selecione **Salvar**.
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Criar um painel de Salas do Microsoft Teams manualmente
+### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Criar um painel Salas do Microsoft Teams manualmente
 
 Como alternativa, você pode criar seu próprio painel e adicionar apenas os blocos que deseja monitorar.
 
@@ -379,7 +379,7 @@ Configure uma regra de alerta que verifica dispositivos que encontraram :::no-lo
     2.  Forneça nomes adequados para os campos *Nome do grupo ação* e Nome *curto.*
     3.  Especifique um *Nome de Ação exclusivo* e selecione **Email/SMS/Push/Voice** e selecione **Editar detalhes**.
     4.  Marque a **caixa de** seleção Email e forneça o endereço de email da pessoa ou grupo que receberá os alertas.
-    5.  Você também pode fornecer seu número de telefone para ser notificado com SMS, uma chamada de voz ou ambos.
+    5.  Você também pode fornecer seu número de telefone para ser notificado SMS, uma chamada de voz ou ambos.
     6. Selecione **OK**.
 
 8. **Personalize Ações** se você quiser substituir a linha de assunto dos emails de alerta.
@@ -438,7 +438,7 @@ Se você já tiver implantado seus dispositivos antes de implementar , poderá u
 6.  Configure o script de inicialização:
     1.  Copie o script a seguir e salve-o como Install-MMAgent.ps1.
     2.  Modifique os parâmetros WorkspaceId, WorkspaceKey e SetupPath para corresponder à configuração.
-    3.  Edite o mesmo Objeto de Política de Grupo e navegue até Configurações de Configuração do \\ \\ :::no-loc text="Windows"::: \\ Computador Scripts (Inicialização/Desligamento)
+    3.  Edite o mesmo Objeto de Política de Grupo e navegue até Políticas de Configuração do \\ \\ :::no-loc text="Windows"::: Computador Configurações \\ Scripts (Inicialização/Desligamento)
     4.  Clique duas vezes para selecionar **Inicialização** e selecione **Scripts do PowerShell.**
     5.  Selecione **Mostrar Arquivos** e, em seguida, copie o arquivo **Install-MMAgent.ps1** para essa pasta.
     6.  Selecione **Adicionar** e, em seguida, **Procurar**.

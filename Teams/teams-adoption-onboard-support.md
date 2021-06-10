@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Use recursos de treinamento online para trazer a equipe de suporte para a fase de experimento da adoção do Teams.
+description: Use recursos de treinamento online para trazer a equipe de suporte para a fase de experimento da sua Teams adoção.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,11 +30,11 @@ ms.locfileid: "51116879"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Suporte à integração do Microsoft Teams
 
-Para garantir que as equipes de adoção e campeões antecipadas tenham o suporte apropriado à medida que começarem a usar o Teams, encontre-se com sua equipe de suporte e revise os recursos do Teams. Os principais membros da organização de suporte podem querer ingressar no programa de adoção antecipado. Incentive seu uso do Teams em seus próprios cenários. Leve-os através da integração básica do produto usando nossos recursos de treinamento online.  
+Para garantir que as equipes de adoção e campeões antecipadas tenham o suporte apropriado à medida que começarem a usar o Teams, encontre-se com sua equipe de suporte e revise os recursos do Teams. Os principais membros da organização de suporte podem querer ingressar no programa de adoção antecipado. Incentive seu uso de Teams em seus próprios cenários. Leve-os através da integração básica do produto usando nossos recursos de treinamento online.  
 
 - [Fundamentos - Principais Componentes do Microsoft Teams](https://youtu.be/V6B4KraD-FM)
-- [Solução de problemas do Teams](https://youtu.be/0KNh9KNpXcA)
+- [Solução de problemas Teams](https://youtu.be/0KNh9KNpXcA)
 - [Problemas conhecidos e solução de problemas](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Treinamento para o Microsoft Teams](./training-microsoft-teams-landing-page.md)
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Fase de adoção do Microsoft Teams 3: Scale](teams-adoption-phase3-enable.md).
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: Microsoft Teams [fase de adoção 3: Dimensionar](teams-adoption-phase3-enable.md).

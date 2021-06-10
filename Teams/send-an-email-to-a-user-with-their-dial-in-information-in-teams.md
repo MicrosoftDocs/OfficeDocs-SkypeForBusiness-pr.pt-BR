@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Saiba como enviar aos usuários um email com suas informações de audioconferência no Microsoft Teams.
+description: Saiba como enviar aos usuários um email com suas informações de audioconferência em Microsoft Teams.
 ms.openlocfilehash: 8cc0e549d502a2c7a8d8052ebe496a82e36b6648
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51117199"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar um email a um usuário com suas informações de Audioconferência no Microsoft Teams.
 
-Às vezes, os usuários do Microsoft Teams podem precisar que você envie suas informações de Audioconferência. Você pode fazer isso clicando em Enviar informações de conferência **por email** sob as propriedades de um usuário. Quando você enviar esse email, ele conterá todas as informações de audioconferência, incluindo:
+Às Microsoft Teams os usuários podem precisar que você envie suas informações de Audioconferência. Você pode fazer isso clicando em Enviar informações de conferência **por email** sob as propriedades de um usuário. Quando você enviar esse email, ele conterá todas as informações de audioconferência, incluindo:
   
 - O número de telefone ou de discagem da conferência para o usuário.
     
@@ -74,15 +74,15 @@ Veja um exemplo do email enviado:
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
     
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

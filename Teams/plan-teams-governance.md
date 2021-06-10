@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Neste artigo, você aprenderá sobre como planejar a implementação de recursos de governança no Teams.
+description: Neste artigo, você aprenderá sobre como planejar a implementação de recursos de governança Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -26,42 +26,42 @@ ms.locfileid: "51117809"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 
-O Teams fornece um conjunto rico de ferramentas para implementar todos os recursos de governança que sua organização possa exigir. Este artigo orienta os profissionais de IT a fazer as perguntas certas para determinar seus requisitos de governança e como atender a eles. 
+Teams fornece um conjunto rico de ferramentas para implementar todos os recursos de governança que sua organização possa exigir. Este artigo orienta os profissionais de IT a fazer as perguntas certas para determinar seus requisitos de governança e como atender a eles. 
 
 > [!Tip] 
-> Assista à sessão a seguir para saber mais sobre Governança no Microsoft Teams: [Governança, gerenciamento e ciclo de vida no Microsoft Teams](https://aka.ms/teams-governance)
+> Assista à sessão a seguir para saber mais sobre Governança em Microsoft Teams: [Governança, gerenciamento](https://aka.ms/teams-governance) e ciclo de vida em Microsoft Teams
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Criação de grupo e equipe, nomenis, classificação e acesso de convidados
 
-Sua organização pode exigir que você implemente controles estritos sobre como as equipes são nomeadas e classificadas, se os convidados podem ser adicionados como membros da equipe e quem pode criar equipes. Você pode configurar essas áreas usando o Azure Active Directory (Azure AD) e rótulos de sensibilidade. 
+Sua organização pode exigir que você implemente controles estritos sobre como as equipes são nomeadas e classificadas, se os convidados podem ser adicionados como membros da equipe e quem pode criar equipes. Você pode configurar essas áreas usando Azure Active Directory (Azure AD) e rótulos de sensibilidade. 
 
 <br>
 
 |-        |-        |-        |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Pontos de decisão|<ul><li>Sua organização exige uma convenção de nomenisção específica para equipes?</li><li>Os criadores de equipe precisam da capacidade de atribuir classificações específicas da organização às equipes?</li><li>Você precisa restringir a capacidade de adicionar convidados às equipes por equipe?</li><li>Sua organização exige limitação de quem pode criar equipes?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente os requisitos da sua organização para criação, nomenisão, classificação e acesso de convidados da sua organização.</li><li>Planeje implementar esses requisitos como parte da implantação do Teams.</li><li>Comunique e publique suas políticas para informar os usuários do Teams sobre o comportamento que eles podem esperar.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente os requisitos da sua organização para criação, nomenisão, classificação e acesso de convidados da sua organização.</li><li>Planeje implementar esses requisitos como parte da sua Teams de lançamento.</li><li>Comunique e publique suas políticas para Teams os usuários do comportamento que eles podem esperar.</li></ul>|
 
 > [!NOTE]
 > Para ajudá-lo a planejar o futuro, [saiba mais sobre como definir essas políticas e quais licenças elas exigem](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> Limitar a criação de grupo e equipe pode reduzir a produtividade dos usuários, pois muitos serviços do Microsoft 365 e do Office 365 exigem que os grupos sejam criados para que o serviço funcione. Para obter informações adicionais, navegue até e expanda Por que o controle que cria grupos do [Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Limitar a criação de grupo e equipe pode reduzir a produtividade dos usuários, pois muitos serviços Microsoft 365 e Office 365 exigem que os grupos sejam criados para que o serviço funcione. Para obter informações adicionais, navegue até e [expanda Why control who creates Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>Informações adicionais
 
 Depois de determinar seus requisitos, você pode implementá-los usando controles do Azure AD. Para obter orientações técnicas sobre como implementar essas configurações, consulte:
 
-- [Cmdlets do Azure Active Directory para configurar configurações de grupo](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [Azure Active Directory cmdlets para configurar configurações de grupo](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Impor uma política de nomenização para grupos do Microsoft 365 no Azure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [Impor uma política de nomenis Microsoft 365 grupos em Azure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Política de nomenis do Microsoft 365 Groups](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
+- [Microsoft 365 Política de nomenis de grupos](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [Usar rótulos de sensibilidade para proteger conteúdo no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [Use rótulos de sensibilidade para proteger o conteúdo em Microsoft Teams, Microsoft 365 grupos e SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [Opções de fim do ciclo de vida para grupos, equipes e Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [Opções de fim de ciclo de vida para grupos, equipes e Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Expiração, retenção e arquivamento de grupo e equipe
 
@@ -70,27 +70,27 @@ Sua organização pode ter requisitos adicionais para definir políticas de expi
 |-          |-           |
 |-----------|------------|
 | ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização exige a especificação de uma data de expiração para as equipes?</li><li>Sua organização exige que políticas de retenção de dados específicas sejam aplicadas às equipes?</li><li>Sua organização espera exigir a capacidade de arquivar equipes inativas para preservar o conteúdo em um estado somente leitura?</li></ul>|
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente os requisitos da sua organização para expiração de equipe, retenção de dados e arquivamento.</li><li>Planeje implementar esses requisitos como parte da implantação do Teams.</li><li>Comunique e publique suas políticas para informar os usuários do Teams sobre o comportamento que eles podem esperar.</li></ul>|
+| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente os requisitos da sua organização para expiração de equipe, retenção de dados e arquivamento.</li><li>Planeje implementar esses requisitos como parte da sua Teams de lançamento.</li><li>Comunique e publique suas políticas para Teams os usuários do comportamento que eles podem esperar.</li></ul>|
 
 > [!TIP]
 > Use a tabela a seguir para capturar os requisitos da sua organização.
 
-|Recursos |Detalhes |Licença do Azure AD Premium necessária |Decisão |
+|Recursos |Detalhes |Azure AD Premium licença necessária |Decisão |
 |---------|---------|---------|---------|
-|Política de expiração |Gerencie o ciclo de vida dos grupos do Microsoft 365 definindo uma política de expiração. |P1 |TBD|
-|Política de retenção |Reter ou excluir dados para um período de tempo específico definindo políticas de retenção para o Teams no centro de conformidade & segurança. **Observação**: o uso desse recurso requer licenciamento do Microsoft 365 ou Office 365 Enterprise E3 ou superior. |Não |TBD |
+|Política de expiração |Gerencie o ciclo de vida Microsoft 365 grupos definindo uma política de expiração. |P1 |TBD|
+|Política de retenção |Reter ou excluir dados para um período de tempo específico definindo políticas de retenção para Teams no centro de conformidade & segurança. **Observação**: o uso desse recurso requer licenciamento de Microsoft 365 ou Office 365 Enterprise E3 ou superior. |Não |TBD |
 |Arquivar e restaurar |Arquivar uma equipe quando ela não estiver mais ativa, mas você deseja mantê-la por perto para referência ou reativar no futuro. |Não |TBD |
 
 > [!Note]
-> A expiração de grupo é um recurso do Azure AD Premium. Para que esse recurso seja disponibilizado, o locatário deve ter uma assinatura do Azure AD Premium e licenças para o administrador que configura as configurações e os membros dos grupos afetados.
+> A expiração de grupo é um recurso de Premium Azure AD. Para que esse recurso seja disponibilizado, o locatário deve ter uma assinatura do Azure AD Premium e licenças para o administrador que configura as configurações e os membros dos grupos afetados.
 
 #### <a name="additional-information"></a>Informações adicionais
 
 Para obter orientações técnicas sobre como implementar essas configurações, consulte:
 
-- [Configurar a expiração de grupos do Microsoft 365](/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Configurar a expiração Microsoft 365 grupos](/azure/active-directory/users-groups-roles/groups-lifecycle).
 
-- [Configurar políticas de retenção do Teams.](retention-policies.md)
+- [Configurar políticas Teams de retenção.](retention-policies.md)
 
 - [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
@@ -102,13 +102,13 @@ Gerenciar consistentemente membros de grupos com base em projeto ou restritos s�
 
 |-|-|-|
 |:-|:-|:-|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | Pontos de decisão | Sua organização exige um processo consistente para gerenciar a associação de uma ou mais equipes? <br> Sua organização exige que os proprietários, ou os próprios membros, justifiquem sua associação contínua a uma ou mais equipes regularmente? <br> Sua organização exige aprovação para usuários e convidados solicitarem acesso a recursos, incluindo equipes, grupos, sites do SharePoint e aplicativos? |
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| Próximas etapas? | Documente os requisitos de suas organizações para cada equipe ou equipes específicas para o vencimento da associação.<br>Planeje como sua organização pode agrupar equipes, grupos, sites do SharePoint e aplicativos em pacotes de acesso.<br>Planeje quais pessoas, como o gerente do solicitante, um gerente de projeto, um patrocinador de uma organização conectada ou um agente de segurança em sua organização precisarão aprovar ou negar solicitações de acesso. |
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | Pontos de decisão | Sua organização exige um processo consistente para gerenciar a associação de uma ou mais equipes? <br> Sua organização exige que os proprietários, ou os próprios membros, justifiquem sua associação contínua a uma ou mais equipes regularmente? <br> Sua organização exige aprovação para que usuários e convidados solicitem acesso a recursos, incluindo equipes, grupos, SharePoint sites e aplicativos? |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| Próximas etapas? | Documente os requisitos de suas organizações para cada equipe ou equipes específicas para o vencimento da associação.<br>Planeje como sua organização pode agrupar equipes, grupos, SharePoint sites e aplicativos em pacotes de acesso.<br>Planeje quais pessoas, como o gerente do solicitante, um gerente de projeto, um patrocinador de uma organização conectada ou um agente de segurança em sua organização precisarão aprovar ou negar solicitações de acesso. |
 
 > [!TIP]
 > Use a tabela a seguir para capturar os requisitos da sua organização.
 
-| Recursos | Detalhes | Licença do Azure AD Premium necessária | Decisão |
+| Recursos | Detalhes | Azure AD Premium licença necessária | Decisão |
 |:-|:-|:-|:-|
 | Avaliações do Access | Avaliações de acesso à instalação para recertificar a associação de equipes específicas no intervalo regular | P2 | TBD |
 | Gerenciamento de direitos | Pacote de acesso de instalação para permitir que usuários e convidados solicitem acesso às equipes | P2 | TBD |
@@ -123,19 +123,19 @@ Para obter orientações técnicas sobre como implementar essas configurações,
 - [Gerenciamento de direitos](/azure/active-directory/governance/entitlement-management-overview)
 - [Avaliações do Access](/azure/active-directory/governance/access-reviews-overview)
 
-## <a name="teams-feature-management"></a>Gerenciamento de recursos do Teams
+## <a name="teams-feature-management"></a>Teams de recursos
 
-Outro aspecto importante do gerenciamento de governança e ciclo de vida do Teams é a capacidade de controlar quais recursos seus usuários terão acesso. Você pode gerenciar recursos de mensagens, reuniões e chamada, no nível da organização do Microsoft 365 ou office 365 ou por usuário.
+Outro aspecto importante do gerenciamento de governança e ciclo de vida para Teams é a capacidade de controlar quais recursos seus usuários terão acesso. Você pode gerenciar recursos de mensagens, reuniões e chamada, no nível Microsoft 365 ou Office 365 organização ou por usuário.
 
 
 |-        |-        |
 |---------|---------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização exige a limitação de recursos do Teams para todo o locatário?</li><li>Sua organização exige a limitação de recursos do Teams para usuários específicos?</li></ul>|
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente os requisitos da sua organização para limitar os recursos do Teams no nível do locatário e do usuário.</li><li>Planeje implementar seus requisitos específicos como parte da implantação do Teams.</li><li>Comunique e publique suas políticas para informar os usuários do Teams sobre o comportamento que eles podem esperar.</li></ul>|
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização exige a limitação Teams recursos para todo o locatário?</li><li>Sua organização exige a limitação Teams recursos para usuários específicos?</li></ul>|
+| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente os requisitos da sua organização para limitar Teams recursos no nível do locatário e do usuário.</li><li>Planeje implementar seus requisitos específicos como parte da Teams de lançamento.</li><li>Comunique e publique suas políticas para Teams os usuários do comportamento que eles podem esperar.</li></ul>|
 
-### <a name="teams-feature-management-focus-areas"></a>Áreas de foco de gerenciamento de recursos do Teams
+### <a name="teams-feature-management-focus-areas"></a>Teams de foco de gerenciamento de recursos
 
-O Teams fornece recursos granulares para controlar recursos de mensagens, reuniões, chamada e eventos ao vivo e muito mais, por meio de políticas. Políticas diferentes podem ser aplicadas a todos os usuários por padrão ou por usuário, conforme exigido pela sua organização. 
+Teams recursos granulares para controlar mensagens, reuniões, chamada e recursos de eventos ao vivo e muito mais, por meio de políticas. Políticas diferentes podem ser aplicadas a todos os usuários por padrão ou por usuário, conforme exigido pela sua organização. 
 
 Para obter listas detalhadas de todas as configurações, incluindo orientações técnicas sobre como implementá-las para sua organização, consulte os seguintes artigos:
 
@@ -144,13 +144,13 @@ Para obter listas detalhadas de todas as configurações, incluindo orientaçõe
 - [Canais privados no Microsoft Teams](private-channels.md)
 - [Gerenciar políticas de reunião no Teams](meeting-policies-in-teams.md)
 - [Gerenciar políticas de mensagens no Teams](messaging-policies-in-teams.md)
-- [Gerenciar seus aplicativos no centro de administração do Microsoft Teams](manage-apps.md)
+- [Gerenciar seus aplicativos no Microsoft Teams de administração](manage-apps.md)
 
-Além disso, você pode configurar a moderação para um canal e dar recursos de moderador a determinados usuários para que eles possam controlar quem pode criar postagens de canal e responder a eles. Confira [Configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md) para obter mais informações.
+Além disso, você pode configurar a moderação para um canal e dar recursos de moderador a determinados usuários para que eles possam controlar quem pode criar postagens de canal e responder a eles. Consulte [Configurar e gerenciar a moderação de canal em Microsoft Teams](manage-channel-moderation-in-teams.md) para obter mais informações.
 
 ## <a name="security-and-compliance"></a>Segurança e conformidade
 
-O Teams é criado com base nos recursos avançados de segurança e conformidade do Microsoft 365 e do Office 365 e oferece suporte a auditoria e relatórios, pesquisa de conteúdo de conformidade, descoberta por e-discovery, Retenção Legal e políticas de retenção.
+Teams é criado com base nos recursos avançados de segurança e conformidade do Microsoft 365 e Office 365 e suporta auditoria e relatórios, pesquisa de conteúdo de conformidade, descoberta por e-discovery, retenção legal e políticas de retenção.
 
 > [!Important]
 > Se sua organização tiver requisitos de conformidade e segurança, revise o conteúdo aprofundado fornecido sobre este tópico no artigo Visão geral da segurança e [conformidade no Microsoft Teams](security-compliance-overview.md).
@@ -159,7 +159,7 @@ O Teams é criado com base nos recursos avançados de segurança e conformidade 
 
 [Início rápido de governança para Teams](teams-adoption-governance-quick-start.md)
 
-[Diretrizes de licenciamento do Microsoft 365 para conformidade & segurança](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+[Microsoft 365 de licenciamento para conformidade & segurança](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 <!--
 ## Teams lifecycle management

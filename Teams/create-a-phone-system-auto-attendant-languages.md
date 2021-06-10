@@ -1,5 +1,5 @@
 ---
-title: Idiomas com suporte para o atendimento automático do Microsoft Teams
+title: Microsoft Teams idiomas com suporte para o atendimento automático
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Idiomas com suporte para o atendimento automático do Microsoft Teams
+description: Microsoft Teams idiomas com suporte para o atendimento automático
 ms.openlocfilehash: 8a55b1613aaf1c14989d1626966ca6051d7015d9
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,19 +29,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197042"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Idiomas com suporte para o atendimento automático do Microsoft Teams
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams idiomas com suporte para o atendimento automático
 
-O atendedor automático dá suporte aos seguintes idiomas para Texto em Fala (TTS) e Reconhecimento de Fala:
+O atendedor automático dá suporte aos seguintes idiomas para Texto para Fala (TTS) e Reconhecimento de Fala:
 
-|Linguagem                                |Texto em Fala (TTS)     |Reconhecimento de Fala                     |
+|Linguagem                                |Texto para Fala (TTS)     |Reconhecimento de Fala                     |
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
 |Árabe (Egito)                          |Y                        |                                       |
 |Catalão (Catalunha)                       |Y                        |Y                                      |
-|Chinês (simplificado, PRC)               |Y                        |Y                                      |
+|Chinês (Simplificado, PRC)               |Y                        |Y                                      |
 |Chinês (Tradicional, Hong Kong)        |Y                        |                                       |
 |Chinês (Tradicional, Taiwan)           |Y                        |                                       |    
 |Croata (Croácia)                      |Y                        |                                       |    
-|Tcheco (República Tcheca)                  |Y                        |                                       |    
+|Tcheco (República Czeck)                  |Y                        |                                       |    
 |Dinamarquês (Dinamarca)                        |Y                        |                                       |    
 |Holandês (Países Baixos)                     |Y                        |                                       |    
 |Inglês (Austrália)                     |Y                        |Y                                      |
@@ -59,7 +59,7 @@ O atendedor automático dá suporte aos seguintes idiomas para Texto em Fala (TT
 |Italiano (Itália)                         |Y                        |Y                                      |
 |Japonês (Japão)                        |Y                        |Y                                      |
 |Coreano (Coreia)                          |Y                        |                                       |    
-|Norueguês Bokmal (Noruega)               |Y                        |                                       |    
+|Bokmal norueguês (Noruega)               |Y                        |                                       |    
 |Polonês (Polônia)                         |Y                        |                                       |    
 |Português (Brasil)                     |Y                        |Y                                      |
 |Português (Portugal)                   |Y                        |                                       |    
@@ -75,7 +75,7 @@ O atendedor automático dá suporte aos seguintes idiomas para Texto em Fala (TT
 |Vietnamita (Vietnã)                    |Y                        |                                       |    
 
 > [!NOTE]
-> Escolher um idioma que não seja compatível com o Reconhecimento de Fala desabilitará a opção de entradas de voz no menu e a discagem por nome ficará restrita ao uso somente da entrada do teclado (DTMF). Confira a entrada [Discar por Nome - Teclado de Tecla (DTMF)](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) para obter mais informações.
+> A escolha de um idioma que não dá suporte ao Reconhecimento de Fala desabilitará a opção entradas de voz no menu e a discagem por nome será restrita apenas ao uso da entrada do teclado (DTMF). Consulte Dial [by Name - Keypad (DTMF) entry](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) para obter mais informações.
 
 > [!NOTE]
 > Ao usar Texto em Fala, o texto deve ser inserido no idioma selecionado, pois o sistema não executa a tradução.

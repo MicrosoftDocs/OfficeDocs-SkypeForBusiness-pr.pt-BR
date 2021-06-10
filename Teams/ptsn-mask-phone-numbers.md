@@ -1,5 +1,5 @@
 ---
-title: Mascarar números de telefone em reuniões do Microsoft Teams
+title: Mascarar números de telefone em Microsoft Teams reuniões
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como mascarar números de telefone em reuniões do Microsoft Teams
+description: Saiba como mascarar números de telefone em reuniões Microsoft Teams reuniões
 ms.openlocfilehash: bc3325805db63f86937a27d63cfc08ab0de84006
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -25,17 +25,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117709"
 ---
-# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Mascarar números de telefone em reuniões do Microsoft Teams
+# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Mascarar números de telefone em Microsoft Teams reuniões
 
-Para privacidade adicional, os números de telefone dos participantes que discam para uma reunião do Teams usando audioconferência são totalmente exibidos para os participantes internos. Os números são mascarados dos participantes de fora da sua organização. Essa configuração é o padrão para todas as organizações. O número mascarado é exibido conforme mostrado na imagem a seguir:
+Para privacidade adicional, os números de telefone dos participantes que discam em uma reunião Teams usando audioconferência são totalmente exibidos para os participantes internos. Os números são mascarados dos participantes de fora da sua organização. Essa configuração é o padrão para todas as organizações. O número mascarado é exibido conforme mostrado na imagem a seguir:
 
 ![um exemplo de um número de telefone mascarado](media/hiddenPhoneNum.png)
 
 Para casos específicos de uso do setor, os administradores têm a capacidade de escolher como os números de telefone dos participantes da audioconferência aparecem em reuniões organizadas em seu locatário. Os administradores podem escolher entre três opções:
 
-- Os números de telefone são mascarados somente de participantes externos. Os participantes que pertencem ao locatário do organizador da reunião ainda veem o número de telefone completo.
-- Os números de telefone são mascarados de todos na reunião, exceto o organizador.
-- Os números de telefone não são máscaras, o que os torna visíveis para todos na reunião.
+- Telefone números são mascarados somente de participantes externos. Os participantes que pertencem ao locatário do organizador da reunião ainda veem o número de telefone completo.
+- Telefone números são mascarados de todos na reunião, exceto o organizador.
+- Telefone números são não máscaras, o que os torna visíveis para todos na reunião.
 
 Essa configuração é aplicada a todas as superfícies na reunião em que os números de telefone são expostos.
 

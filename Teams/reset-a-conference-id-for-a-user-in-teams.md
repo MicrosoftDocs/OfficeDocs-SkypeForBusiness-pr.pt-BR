@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Saiba as etapas para redefinir a ID de conferência de reunião de um usuário no Microsoft Teams e obter links para ferramentas de atualização e migração de reuniões.
+description: Saiba as etapas para redefinir a ID da conferência de reunião do usuário no Microsoft Teams e obter links para ferramentas de atualização e migração de reuniões.
 ms.openlocfilehash: edccab5da883c1707ade75519e96615ed3524bf3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -49,7 +49,7 @@ Uma ID de conferência dinâmica é incluída na parte inferior dos convites de 
 
     
 > [!NOTE]
-> Depois de redefinir a ID da conferência, um email com a nova ID de conferência será enviado ao usuário. Esse email será enviado para o endereço de email principal, em muitos casos, sua caixa de correio do Microsoft 365 ou office 365. O email contém a nova ID de conferência, os números de telefone de discagem padrão e as instruções para atualizar reuniões existentes. 
+> Depois de redefinir a ID da conferência, um email com a nova ID de conferência será enviado ao usuário. Esse email será enviado para o endereço de email principal, em muitos casos, seus Microsoft 365 ou Office 365 caixa de correio. O email contém a nova ID de conferência, os números de telefone de discagem padrão e as instruções para atualizar reuniões existentes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ Uma ID de conferência dinâmica é incluída na parte inferior dos convites de 
 
 - Você pode enviar todas as informações de conferência para o usuário em um email que inclui a ID da conferência e números de telefone discados clicando em Enviar informações de conferência no **email** para o usuário na seção **Audioconferência.** Isso não envia o PIN.
     
-- Uma ID de conferência de 7 a 9 dígitos é criada pelo serviço teams. Não é possível alterar seu comprimento.
+- Uma ID de conferência de 7 a 9 dígitos é criada pelo serviço Teams de dados. Não é possível alterar seu comprimento.
     
 - Depois que for redefinido, o novo ID de conferência será listado em **ID de Conferência**.
     
@@ -66,11 +66,11 @@ Uma ID de conferência dinâmica é incluída na parte inferior dos convites de 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
     

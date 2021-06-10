@@ -1,5 +1,5 @@
 ---
-title: Modelos do Teams para Pequenas e Médias Empresas criadas com o Microsoft Graph
+title: Teams modelos para Pequenas e Médias Empresas criadas com o Microsoft Graph
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -15,7 +15,7 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Use modelos predefinidos do Microsoft Teams integrados ao Microsoft Graph para criar equipes de forma rápida e fácil para pequenas e médias empresas.
+description: Use Microsoft Teams modelos predefinidos integrados ao Microsoft Graph para criar equipes de forma rápida e fácil para pequenas e médias empresas.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: e3d29dca0bbdbd7b3487ac1738b84396a3d41117
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -24,24 +24,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116989"
 ---
-# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Modelos do Teams integrados ao Microsoft Graph para Pequenas e Médias Empresas
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams modelos integrados ao Microsoft Graph para Pequenas e Médias Empresas
 
 Os modelos do Microsoft Teams permitem que você crie equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
-Para pequenas e médias empresas, os modelos podem ser especialmente poderosos, pois ajudam os administradores a implantar rapidamente o Teams em sua organização. Os modelos também ajudam a orientar os usuários e a começar a usar o Teams com eficiência. Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em toda a sua organização.
+Para pequenas e médias empresas, os modelos podem ser especialmente eficientes, pois ajudam os administradores a implantar rapidamente Teams em sua organização. Os modelos também ajudam a orientar os usuários e a começar a usar Teams efetivamente. Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em toda a sua organização.
 
-Atualmente, oferecemos três modelos SMB de primeira parte que você pode aproveitar para várias situações. Todos os modelos criarão *o Private* Teams. Depois de criar o Teams e estiver pronto para a sua organização, você poderá definir a privacidade como *Toda a* Organização ou *Público,* conforme apropriado. Para saber mais sobre modelos de equipe em geral, confira [a1/10 sobre modelos do Teams](get-started-with-teams-templates.md).
+Atualmente, oferecemos três modelos SMB de primeira parte que você pode aproveitar para várias situações. Todos os modelos criarão *o Private* Teams. Depois de criar o Teams e estiver pronto para a sua organização, você poderá definir a privacidade como *Org-Wide* ou *Public,* conforme apropriado. Para saber mais sobre modelos de equipe em geral, confira [a1/10 sobre modelos do Teams](get-started-with-teams-templates.md).
 
 ## <a name="company-wide-template"></a>Company-Wide modelo
 O Company-Wide é destinado à comunicação e colaboração relevantes para toda a empresa. Você pode usar o canal Geral para comunicados, notícias do setor ou postagens executivas em toda a empresa. O canal de Recursos Humanos é um ótimo local para consolidar todas as atividades relacionadas ao RH, como postagens de trabalho, integração, treinamento e desenvolvimento de novos funcionários. O canal Coisas Divertidas fornece uma plataforma social para todas as postagens aleatórias e divertidas.
 
 | Tipo de modelo base  | baseTemplateId | Propriedades que vêm com este modelo base |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>Toda a empresa | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| Canais <ul><li>Geral\*</li><li>Recursos Humanos\*</li><li>Coisas divertidas\*</li></ul><br> Aplicativos<ul><li>Portal da Empresa (Site fixado no **canal de Recursos Humanos)** </li> </UL><br>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Privada</li></ul> |
+| SMB - <br>Toda a empresa | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| Canais <ul><li>Geral\*</li><li>Recursos Humanos\*</li><li>Coisas divertidas\*</li></ul><br> Aplicativos<ul><li>Portal da Empresa (Site fixado no canal **recursos** humanos) </li> </UL><br>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Privada</li></ul> |
 
 *Canais favoritos automaticamente 
 
-Para criar a equipe Company-Wide, a partir do modelo pré-definido, fornece a representação JSON do objeto de equipe no corpo da solicitação. Para saber mais sobre como implantar modelos do Teams, consulte o artigo do Microsoft Graph [sobre a criação de uma Equipe](/graph/api/team-post?view=graph-rest-beta).
+Para criar a equipe Company-Wide, a partir do modelo pré-definido, fornece a representação JSON do objeto de equipe no corpo da solicitação. Para saber mais sobre como implantar Teams modelos, consulte o artigo do Microsoft Graph [sobre a criação de uma equipe](/graph/api/team-post?view=graph-rest-beta).
 
 #### <a name="request"></a>Solicitação 
 ```http 
@@ -61,11 +61,11 @@ O modelo de Equipe Executiva é ideal para criar uma equipe para executivos da e
 
 | Tipo de modelo base  | baseTemplateId | Propriedades que vêm com este modelo base |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>Equipe de Executivos | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Canais <ul><li>Geral\*</li><li>Private \*</li></ul> Aplicativos<ul><li>OneNote (fixado no **canal** privado)</li> <li>Planner (fixado no **canal** privado) </li></ul><br>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Privada</li></ul> | 
+| SMB - <br>Equipe de Executivos | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Canais <ul><li>Geral\*</li><li>Private \*</li></ul> Aplicativos<ul><li>OneNote (fixado no **canal** Privado)</li> <li>Planner (fixado no **canal** privado) </li></ul><br>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Privada</li></ul> | 
 
 *Canais favoritos automaticamente<br>
 
-Para criar a equipe Executivos, a partir do modelo pré-definido, fornece a representação JSON do objeto de equipe no corpo da solicitação. Para saber mais sobre como implantar modelos do Teams, consulte o artigo do Microsoft Graph [sobre a criação de uma Equipe](/graph/api/team-post?view=graph-rest-beta).
+Para criar a equipe Executivos, a partir do modelo pré-definido, fornece a representação JSON do objeto de equipe no corpo da solicitação. Para saber mais sobre como implantar Teams modelos, consulte o artigo do Microsoft Graph [sobre a criação de uma equipe](/graph/api/team-post?view=graph-rest-beta).
 
 #### <a name="request"></a>Solicitação 
 ```http 
@@ -85,11 +85,11 @@ O modelo de equipe departmental pode ser usado para criar uma equipe para depart
 
 | Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>Finanças  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Canais <ul><li>Geral\*</li><li>Private \*</li></ul><br> Aplicativos<ul><li>OneNote (fixado no **canal** privado)</li> <li>Planner (fixado no **canal** privado) </li> </ul><br>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Privada</li></ul> | 
+| SMB - <br>Finanças  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Canais <ul><li>Geral\*</li><li>Private \*</li></ul><br> Aplicativos<ul><li>OneNote (fixado no **canal** Privado)</li> <li>Planner (fixado no **canal** privado) </li> </ul><br>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Privada</li></ul> | 
 
 *Canais favoritos automaticamente
 
-Para criar a equipe de Finanças, a partir do modelo pré-definido, fornece a representação JSON do objeto de equipe no corpo da solicitação. Para saber mais sobre como implantar modelos do Teams, consulte o artigo do Microsoft Graph [sobre a criação de uma Equipe](/graph/api/team-post?view=graph-rest-beta).
+Para criar a equipe de Finanças, a partir do modelo pré-definido, fornece a representação JSON do objeto de equipe no corpo da solicitação. Para saber mais sobre como implantar Teams modelos, consulte o artigo do Microsoft Graph [sobre a criação de uma equipe](/graph/api/team-post?view=graph-rest-beta).
 
 #### <a name="request"></a>Solicitação 
 ```http 
@@ -176,6 +176,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Começar a usar modelos do Teams no console de administração](get-started-with-teams-templates-in-the-admin-console.md)
+- [Começar a usar Teams modelos no console de administração](get-started-with-teams-templates-in-the-admin-console.md)
 - [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
 - [Criar equipe](/graph/api/team-post?view=graph-rest-beta) (na visualização)

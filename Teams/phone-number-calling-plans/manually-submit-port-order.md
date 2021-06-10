@@ -29,7 +29,7 @@ ms.locfileid: "51098257"
 
 Em alguns países e regiões, talvez seja preciso enviar manualmente uma solicitação de serviço para obter números de telefone, transferir números de telefone, liberar números de telefone ou alterar endereços. Para ver o que é necessário para cada país e região ou para saber mais sobre a portação de números, consulte [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-Use as etapas deste artigo para enviar manualmente uma ordem de porta se seu país ou região não estiver listado no assistente de portabilidade no centro de [administração do Microsoft Teams.](transfer-phone-numbers-to-teams.md)
+Use as etapas deste artigo para enviar manualmente uma ordem de porta se seu país ou região não estiver listado no assistente de portabilidade no centro de administração Microsoft Teams [.](transfer-phone-numbers-to-teams.md)
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Enviar manualmente uma nova solicitação de pedido de porta
 
@@ -41,7 +41,7 @@ Para enviar manualmente um novo pedido de porta, envie seu formulário de Carta 
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>O que mais você deve saber sobre portação de números
 
-- Para usar Planos de Chamada, você deve comprar e atribuir licenças aos seus usuários. Consulte [Licenciamento de complementos do Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- Para usar Planos de Chamada, você deve comprar e atribuir licenças aos seus usuários. Consulte [Teams licenciamento de complemento.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 - Você deve atribuir os novos números de telefone recebidos a cada um dos seus usuários. Consulte [Atribuir, alterar ou remover um número de telefone para um usuário](../assign-change-or-remove-a-phone-number-for-a-user.md).
 

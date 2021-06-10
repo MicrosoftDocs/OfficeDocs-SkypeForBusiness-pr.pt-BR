@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode aprender sobre uma lista de problemas conhecidos para Salas do Microsoft Teams, incluindo atualização, interface do usuário, hardware e limitações e comportamentos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02e7d2411fa1d8a86fe20dcab3013be758f22a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cec5cac544d3935c2c8be0f4dd9d7a57e68d35ec
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117529"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856430"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
@@ -31,10 +31,10 @@ Este artigo lista os problemas conhecidos das Salas do Microsoft Teams, por áre
 
 | Título do problema |  Comportamento \/ Sintoma | Solução alternativa conhecida | Artigo KB |
 |  ---        |      ---             |   ---            | --- |
-| Aplicativo que não está sendo lançado |  Depois de atualizar para o aplicativo versão 4.4.41.0, o sistema será inicializado na tela preta ou vá para a tela de logon após alguns minutos. | Siga as etapas no aplicativo Salas do Microsoft Teams não começa após a atualização para a versão [4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) para corrigir esse problema.  | Nenhum |
-|  O compartilhamento de conteúdo de reuniões SfB não mostra tela inteira         |    Em reuniões do Skype for Business, salas com exibições de frente de sala usando configurações de DPI elevadas podem ter problemas em que o conteúdo compartilhado em uma reunião não mostra a tela inteira na tela frontal da sala de exibição. Isso é causado por um problema subjacente na API RDP (Remote Desktop Protocol) do Windows 10. | Use a `<WinRTRdpEnabled>` configuração XML para desabilitar a API RDP do Windows 10 para resolver esse problema. Para desabilitar, você precisa especificar o valor como `false` . Para obter mais informações, consulte [Managing console settings with an XML configuration file](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file). | Nenhum |
+| Aplicativo que não está sendo lançado |  Depois de atualizar para o aplicativo versão 4.4.41.0, o sistema será inicializado na tela preta ou vá para a tela de logon após alguns minutos. | Siga as etapas no Salas do Microsoft Teams o aplicativo não inicia após a atualização para a versão [4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) para corrigir esse problema.  | Nenhum |
+|  O compartilhamento de conteúdo de reuniões SfB não mostra tela inteira         |    Em Skype for Business reuniões, salas com exibições na frente da sala usando configurações DPI elevadas podem ter problemas em que o conteúdo compartilhado em uma reunião não mostra a tela inteira na tela frontal da sala de exibição. Isso é causado por um problema subjacente na API Windows 10 RDP (Remote Desktop Protocol). | Use a `<WinRTRdpEnabled>` configuração XML para desabilitar a API Windows 10 RDP para resolver esse problema. Para desabilitar, você precisa especificar o valor como `false` . Para obter mais informações, consulte [Managing console settings with an XML configuration file](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file). | Nenhum |
 |  Aplicativo desatualizado         |    O console das Salas do Microsoft Teams mostra um erro de "configuração de sistema desatualizada".                |   [Usar a ferramenta de recuperação das Salas do Microsoft Teams](recovery-tool.md)             |  Nenhum |
-|  Dispositivo atualizado para versão sem suporte do Windows 10   |    Dispositivo Windows 10 atualizado da versão 1803 para a versão 1809, que não tem suporte. A versão com suporte é 1903. |   Isso pode acontecer se a configuração de Política de Grupo ou [MDM para DeferFeatureUpdatesPeriodinDays,](/windows/deployment/update/waas-configure-wufb) que permite adiar as atualizações de recursos para um número especificado de dias, estiver definida como o máximo de 365 dias. <br><br> O Windows 10 versão 1809 não é suportado com Salas do Microsoft Teams, enquanto a versão 1903 é suportada. No entanto, a partir de 27 de março de 2020, a versão 1809 tem mais de 365 dias. Se essa configuração não for alterada, o Windows tentará instalar a versão 1809, o que pode causar problemas com salas do Microsoft Teams.<br><br>Para evitar essa situação, **remova qualquer** configuração de Política de Grupo ou MDM para adiar atualizações. Isso permite que o Windows atualize para a versão mais recente e com suporte do sistema operacional. <br><br>**IMPORTANTE** A configuração de Política de Grupo ou MDM deve ser **removida** (não configurada à esquerda) e não **definida como 0**. Se a política for definida como 0, o Windows aceita a versão mais recente disponível que pode não ter suporte. |  Nenhum |
+|  Dispositivo atualizado para versão sem suporte do Windows 10   |    Windows 10 atualizado da versão 1803 para a versão 1809, que não é suportado. A versão com suporte é 1903. |   Isso pode acontecer se a configuração de Política de Grupo ou [MDM para DeferFeatureUpdatesPeriodinDays,](/windows/deployment/update/waas-configure-wufb) que permite adiar as atualizações de recursos para um número especificado de dias, estiver definida como o máximo de 365 dias. <br><br> Windows 10 versão 1809 não é suportada com Salas do Microsoft Teams, enquanto a versão 1903 é suportada. No entanto, a partir de 27 de março de 2020, a versão 1809 tem mais de 365 dias. Se essa configuração não for alterada, Windows tentar instalar a versão 1809, o que pode causar problemas com Salas do Microsoft Teams.<br><br>Para evitar essa situação, **remova qualquer** configuração de Política de Grupo ou MDM para adiar atualizações. Isso permite Windows atualizar para a versão mais recente e suportada do sistema operacional. <br><br>**IMPORTANTE** A configuração de Política de Grupo ou MDM deve ser **removida** (não configurada à esquerda) e não **definida como 0**. Se a política for definida como 0, Windows a versão mais recente disponível que pode não ter suporte. |  Nenhum |
 
 
 
@@ -43,7 +43,7 @@ Este artigo lista os problemas conhecidos das Salas do Microsoft Teams, por áre
 
 | Título do problema |  Comportamento \/ Sintoma | Solução alternativa conhecida | Artigo KB |
 |  ---        |      ---             |   ---            | --- |
-|Teclado virtual ausente   | O teclado virtual não é exibido quando for necessário inserir informações nas Salas do Microsoft Teams. Esse problema ocorre no Windows 10, versão 1903. | Instale a Atualização Cumulativa 2020-04 para Windows 10, versão 1903 para sistemas baseados em x64 por meio de Atualizações do Windows.  | Nenhum | 
+|Teclado virtual ausente   | O teclado virtual não é exibido quando for necessário inserir informações nas Salas do Microsoft Teams. Esse problema ocorre no Windows 10, versão 1903. | Instale a Atualização Cumulativa 2020-04 para Windows 10, versão 1903 para sistemas baseados em x64 por meio de Windows Atualizações.  | Nenhum | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Hardware
@@ -61,7 +61,7 @@ O SkypeRoomSystemv2 não oferece suporte à entrada HDCP, pois foi observado que
 
 ***
 
-Se você desejar que uma tela frontal da sala alterna automaticamente para uma fonte de vídeo ativa (como um console MTR) quando a origem acordar do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas compatível com o software salas do Microsoft Teams, desde que o hardware subjacente suporte o recurso. Uma TV de consumidor usada como tela frontal de sala precisa dar suporte ao recurso CeC (Controle eletrônico de consumidor) do HDMI.  Dependendo do dock ou console selecionado (que pode não dar suporte ao CEC, consulte a documentação de suporte do fabricante), um controlador como [um HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado. 
+Se você desejar que uma tela frontal da sala alterna automaticamente para uma fonte de vídeo ativa (como um console MTR) quando a origem acordar do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas tem suporte Salas do Microsoft Teams software, desde que o hardware subjacente suporte o recurso. Uma TV de consumidor usada como tela frontal de sala precisa dar suporte ao recurso CeC (Controle eletrônico de consumidor) do HDMI.  Dependendo do dock ou console selecionado (que pode não dar suporte ao CEC, consulte a documentação de suporte do fabricante), um controlador como [um HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado. 
 
 ***
 
@@ -69,7 +69,7 @@ Sempre use uma conexão de rede com 1 Gbps com fio para garantir que você tenha
 
 ***
 
-Se o dispositivo salas do Microsoft Teams perder a confiança com o domínio, você não poderá se autenticar no dispositivo e abrir Configurações. Por exemplo, se você remover as Salas do Microsoft Teams do domínio depois de ingressado no domínio, a confiança será perdida. A solução é fazer logon com a conta de Administrador local. 
+Se o dispositivo Salas do Microsoft Teams perde a confiança com o domínio, você não poderá se autenticar no dispositivo e abrir Configurações. Por exemplo, se você remover o Salas do Microsoft Teams do domínio depois que ele for ingressado no domínio, a confiança será perdida. A solução é fazer logon com a conta de Administrador local. 
 ***
 Salas do Microsoft Teams é um aplicativo de várias janelas e exige que uma tela frontal da sala seja conectada à porta HDMI do dispositivo, para que o aplicativo funcione corretamente. Certifique-se de que você tenha uma exibição HDMI conectada ou use um plug HDMI fictício se você estiver testando e ainda não tiver uma exibição comprada.
 ***

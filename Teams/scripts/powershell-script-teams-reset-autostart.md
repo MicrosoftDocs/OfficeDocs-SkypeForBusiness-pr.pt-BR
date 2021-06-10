@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Use este script do PowerShell para redefinir a configuração de início automático no Teams por usuário.
+description: Use este script do PowerShell para redefinir a configuração de início automático Teams por usuário.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -25,11 +25,11 @@ ms.locfileid: "51117259"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Exemplo de script do PowerShell - Redefinir a configuração de início automático no Teams
 
-Use este script para redefinir a configuração de início automático do Teams por usuário. Isso inclui todos os valores definidos pelo usuário ou pelo aplicativo teams. Por padrão, o Teams é iniciado automaticamente quando um usuário faz logo em seu computador depois de instalado.
+Use este script para redefinir Teams configuração de início automático por usuário. Isso inclui todos os valores definidos pelo usuário ou pelo Teams app. Por padrão, Teams inicia automaticamente quando um usuário faz logona no computador depois de instalado.
 
-Se você já tiver implantado o Teams e quiser definir a configuração Impedir que o [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) seja iniciado automaticamente após a instalação da Política de Grupo para desabilitar o início automático do Teams, você precisará primeiro definir a configuração da Política de Grupo como o valor que deseja e executar esse script.
+Se você já tiver implantado o Teams e quiser definir a configuração Impedir que o [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) seja iniciado automaticamente após a instalação da Política de Grupo para desabilitar Teams início automático, você precisará primeiro definir a configuração de Política de Grupo como o valor que deseja e executar esse script.
 
-Depois que o Teams for iniciado para um usuário, as configurações de início automático não poderão ser desabilitadas usando a Política de Grupo.
+Depois Teams for iniciado para um usuário, as configurações de início automático não poderão ser desabilitadas usando a Política de Grupo.
 
 ## <a name="sample-script"></a>Script de exemplo
 
@@ -150,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Instalar o Teams usando MSI](../msi-deployment.md)
-- [Implantar o Teams com aplicativos do Microsoft 365 para empresas](/deployoffice/teams-install)
+- [Implantar Teams com Microsoft 365 Apps para Grandes Empresas](/deployoffice/teams-install)

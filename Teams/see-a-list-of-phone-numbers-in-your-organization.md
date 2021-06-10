@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Aprenda a usar o Centro de administração do Microsoft Teams para ver uma lista de todos os números de telefone em sua organização e todos os números atribuídos aos usuários ou não atribuídos.
+description: Aprenda a usar o Microsoft Teams de administração para ver uma lista de todos os números de telefone em sua organização e todos os números atribuídos aos usuários ou não atribuídos.
 ms.openlocfilehash: 41eceb3618fae61308b90a88165ce1935ad6b30b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,18 +32,18 @@ ms.locfileid: "51117229"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
-Há diferentes tipos de números de telefone que você pode atribuir a usuários ou outros serviços (números de serviço), como para Audioconferência no Microsoft 365 ou Office 365.
+Há diferentes tipos de números de telefone que você pode atribuir a usuários ou outros serviços (números de serviço), como para Audioconferência em Microsoft 365 ou Office 365.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Para ver uma lista de todos os números de telefone de sua organização
 
-![Um ícone mostrando o logotipo do Teams ](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Teams ](media/teams-logo-30x30.png) **usando o Microsoft Teams de administração**
 
-1. Vá para o **centro de administração do Microsoft Teams.**
+1. Vá para o Microsoft Teams **de administração**.
 
-2. Na navegação à esquerda, vá para **Números de Telefone** de  >  **Voz**.
+2. Na navegação à esquerda, vá para **Voz**  >  **Telefone números**.
 
     > [!IMPORTANT]
-    > Para que você  veja a opção Voz na navegação à esquerda no Centro de administração do  Skype for Business, primeiro compre pelo menos uma licença **do Enterprise E5,** uma licença de complemento do Sistema de Telefonia ou uma licença de complemento de **Audioconferência.**
+    > Para que você veja **a** opção **Voz** na navegação à esquerda no centro de administração do Skype for Business, primeiro compre pelo menos uma licença **do Enterprise E5**, uma licença de complemento Sistema de Telefonia ou uma licença de complemento de **Audioconferência.**
 
 3. Para exibir os números de telefone atribuídos, consulte a **coluna Status.**
 
@@ -57,20 +57,20 @@ Há diferentes tipos de números de telefone que você pode atribuir a usuários
 
    - Tipo **de número**.
 
-   - Status do **número de telefone**.
+   - Telefone status do **número**.
 
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Para ver todos os números de telefone que estão atribuídos a usuários
 
 Quando você estiver configurando usuários, talvez você queira apenas ver a lista de números de telefone que já estão atribuídos aos usuários e quais números de telefone estão disponíveis para serem atribuídos a eles.
   
-![Um ícone mostrando o logotipo do Teams ](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Teams ](media/teams-logo-30x30.png) **usando o Microsoft Teams de administração**
 
-1. Vá para o **centro de administração do Microsoft Teams.**
+1. Vá para o Microsoft Teams **de administração**.
 
-2. Na navegação à esquerda, vá para **Números de Telefone** de  >  **Voz**.
+2. Na navegação à esquerda, vá para **Voz**  >  **Telefone números**.
 
     > [!IMPORTANT]
-    > Para que você  veja a opção Voz na navegação à esquerda no centro de administração do  Microsoft Teams, primeiro compre pelo menos uma licença **do Enterprise E5,** uma licença de complemento do Sistema de Telefonia ou uma licença de complemento de **Audioconferência.**
+    > Para que você veja **a** opção **Voz** na navegação à esquerda no centro de administração do Microsoft Teams, primeiro compre pelo menos uma licença **do Enterprise E5**, uma licença de complemento Sistema de Telefonia ou uma licença de complemento de **Audioconferência.**
 
 3. Para classificar rapidamente os números para que você possa ver quais são atribuídos, clique no **título da coluna Status.** Ou, você pode clicar no ícone de filtro e, em seguida, filtrar sua exibição para ver números de telefone que já estão atribuídos a usuários ou números não atribuídos que você pode atribuir a um usuário. Você pode filtrar por:
 
@@ -84,14 +84,14 @@ Quando você estiver configurando usuários, talvez você queira apenas ver a li
 
 Ao configurar usuários em sua organização para fazer e receber chamadas, primeiro você deve obter os números de telefone e, depois, atribuí-los aos usuários. Depois de ter obtido seus números de telefone, talvez você queira ver o status de ativação das atribuições de número.
 
-![Um ícone mostrando o logotipo do Teams ](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams** !
+![Um ícone mostrando o logotipo Teams ](media/teams-logo-30x30.png) **usando o Microsoft Teams de administração !**
   
-1. Vá para o **centro de administração do Microsoft Teams.**
+1. Vá para o Microsoft Teams **de administração**.
 
-2. Na navegação à esquerda, vá para **Números de Telefone** de  >  **Voz**.
+2. Na navegação à esquerda, vá para **Voz**  >  **Telefone números**.
 
     > [!IMPORTANT]
-    > Para que você  veja a opção Voz na navegação à esquerda no centro de administração do  Microsoft Teams, primeiro compre pelo menos uma licença **do Enterprise E5,** uma licença de complemento do Sistema de Telefonia ou uma licença de complemento de **Audioconferência.**
+    > Para que você veja **a** opção **Voz** na navegação à esquerda no centro de administração do Microsoft Teams, primeiro compre pelo menos uma licença **do Enterprise E5**, uma licença de complemento Sistema de Telefonia ou uma licença de complemento de **Audioconferência.**
 
 3. Clique no ícone de filtro para filtrar seu estado de exibição por **Estado** de ativação Você pode filtrar por:
 
@@ -105,9 +105,9 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
 
    - **Falha na atualização**
 
-## <a name="using-the-teams-powershell-module"></a>Usando o módulo do Teams PowerShell
+## <a name="using-the-teams-powershell-module"></a>Usando o módulo Teams PowerShell
 
-Você pode usar o módulo do Teams PowerShell para obter as mesmas informações das seções anteriores, mas a versão 1.1.6 ou posterior é necessária, o que inclui a integração do conector do Skype for Business Online. Para obter mais informações sobre o módulo, consulte [Visão geral do Microsoft Teams PowerShell](teams-powershell-overview.md).
+Você pode usar o módulo Teams PowerShell para obter as mesmas informações das seções anteriores, mas a versão 1.1.6 ou posterior é necessária, o que inclui a integração do conector Skype for Business Online. Para obter mais informações sobre o módulo, [consulte Microsoft Teams Visão Geral do PowerShell.](teams-powershell-overview.md)
 
 Você pode ver uma lista de todos os números de telefone que você tem para sua organização usando o cmdlet [Get-CsOnlineTelephoneNumber.](/powershell/module/skype/get-csonlinetelephonenumber) Por exemplo, você pode executar o seguinte comando para ver cada número de telefone e seu estado:
 

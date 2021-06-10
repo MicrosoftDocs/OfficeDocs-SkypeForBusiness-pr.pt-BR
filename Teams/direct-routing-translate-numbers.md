@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Saiba como configurar o Roteamento Direto do Sistema do Microsoft Phone.
+description: Saiba como configurar o Telefone Microsoft Roteamento Direto do Sistema.
 ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "51096371"
 
 Este artigo descreve como traduzir números para chamadas de saída e de entrada para um formato alternativo.  Esta é a etapa 4 das seguintes etapas para configurar o Roteamento Direto:
 
-- Etapa 1. [Conectar o SBC ao Microsoft Phone System e validar a conexão](direct-routing-connect-the-sbc.md) 
+- Etapa 1. [Conexão SBC com Telefone Microsoft System e validar a conexão](direct-routing-connect-the-sbc.md) 
 - Etapa 2. [Habilitar usuários para Roteamento Direto, voz e caixa postal](direct-routing-enable-users.md)   
 - Etapa 3. [Configurar roteamento de voz](direct-routing-voice-routing.md)
 - **Etapa 4. Converter números em um formato alternativo**   (Este artigo)
@@ -38,8 +38,8 @@ Para obter informações sobre todas as etapas necessárias para configurar o Ro
 
 Você pode usar a política Regras de Conversão de Números para traduzir números para o seguinte:
 
-- Chamadas de entrada: Chamadas de um ponto de extremidade PSTN (chamador) para um cliente do Teams (chamador)
-- Chamadas de saída: Chamadas de um cliente do Teams (chamador) para um ponto de extremidade PSTN (chamador)
+- Chamadas de entrada: Chamadas de um ponto de extremidade PSTN (chamador) para um cliente Teams (chamador)
+- Chamadas de saída: chamadas de um cliente Teams (chamador) para um ponto de extremidade PSTN (chamador)
 
 A política é aplicada no nível SBC. Você pode atribuir várias regras de conversão a um SBC, que são aplicadas na ordem em que elas aparecem quando você as lista no PowerShell. Você também pode alterar a ordem das regras na política.
 
@@ -68,7 +68,7 @@ As regras de conversão atribuídas ao SBC são resumidas na tabela a seguir:
 |AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
 |StripPlus1    |^+1(\d {10} )$          | $1         |
 
-Nos exemplos a seguir, há dois usuários, Alice e Bob. Alice é um usuário do Teams cujo número é +1 206 555 0100. Bob é um usuário PSTN cujo número é +1 425 555 0100.
+Nos exemplos a seguir, há dois usuários, Alice e Bob. Alice é uma Teams cujo número é +1 206 555 0100. Bob é um usuário PSTN cujo número é +1 425 555 0100.
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Exemplo 1: chamada de entrada para um número de dez dígitos
 
@@ -97,9 +97,9 @@ SBC usa 0100 nos headers RequestURI e To e 4255550100 no header From.
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Exemplo 3: Chamada de saída usando um número não E.164 de dez dígitos
 
 Alice chama Bob usando um número de dez dígitos. Alice disca 425 555 0100 para alcançar Bob.
-O SBC está configurado para usar números de dez dígitos que não são E.164 para usuários do Teams e PSTN.
+O SBC está configurado para usar números de dez dígitos que não são E.164 para usuários Teams ESTN.
 
-Nesse cenário, um plano de discagem converte o número antes de enviá-lo para a interface de Roteamento Direto. Quando Alice inseja 425 555 0100 no cliente do Teams, o número é convertido em +142555550100 pelo plano de discagem do país. Os números resultantes são uma normalização cumulativa das regras de plano de discagem e regras de conversão do Teams. As regras de conversão do Teams removem o "+1" adicionado pelo plano de discagem.
+Nesse cenário, um plano de discagem converte o número antes de enviá-lo para a interface de Roteamento Direto. Quando Alice insseja 425 555 0100 no cliente Teams, o número é convertido em +14255550100 pelo plano de discagem do país. Os números resultantes são uma normalização cumulativa das regras de plano de discagem e Teams de conversão. As Teams de conversão removem o "+1" adicionado pelo plano de discagem.
 
 
 |Header  |Original |Header traduzido |Parâmetro e regra aplicados  |
@@ -111,7 +111,7 @@ Nesse cenário, um plano de discagem converte o número antes de enviá-lo para 
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Exemplo 4: Chamada de saída usando um número não E.164 de quatro dígitos
 
 Alice chama Bob usando um número de quatro dígitos. Alice usa 0100 para alcançar Bob de Chamadas ou usando um contato.
-O SBC está configurado para usar números de quatro dígitos não E.164 para usuários do Teams e números de dez dígitos para usuários PSTN. O plano de discagem não é aplicado neste cenário.
+O SBC está configurado para usar números de quatro dígitos que não são E.164 para usuários Teams e números de dez dígitos para usuários PSTN. O plano de discagem não é aplicado neste cenário.
 
 
 |Header  |Original |Header traduzido |Parâmetro e regra aplicados  |
