@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbac20caa3f1eff0ead7ef0bf7f11d55b7718903
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135980"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863222"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Dados necessários de diagnóstico da área de trabalho para o Microsoft Teams
 
 O artigo a seguir contém uma lista de eventos da área de trabalho do Microsoft Teams e listas de propriedades que cada evento coleta.
+
+Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dados de diagnóstico são enviados à Microsoft, consulte [Dados de diagnóstico enviados do aplicativo Teams para o Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). Para exibir os dados de diagnóstico que estão sendo enviados à Microsoft, você pode usar o [Visualizador de Dados de Diagnóstico](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
 ## <a name="events"></a>Eventos
 
@@ -145,7 +147,7 @@ O artigo a seguir contém uma lista de eventos da área de trabalho do Microsoft
 | Nome da propriedade                              | Descrição                                                        |
 |--------------------------------------------|--------------------------------------------------------------------|
 | EventInfo_Time                             | Tempo de geração do evento                                              |
-| EventInfo_Name                             | Nome do evento – usado para diferenciar os tipos de eventos             |
+| EventInfo_Name                             | Nome do evento - usado para diferenciar os tipos de eventos             |
 | EventInfo_BaseType/name                    | Nome do evento – usado para diferenciar os tipos de eventos em um evento |
 | EventInfo_Sequence                         | Sequência do evento                                              |
 | userAgent                                  | Cadeia de caracteres de agente do navegador                                               |
@@ -205,7 +207,7 @@ O artigo a seguir contém uma lista de eventos da área de trabalho do Microsoft
 | Session_DesktopId                 | ID de sessão exclusiva                                                                  |
 | machineLocked                     | Captura se o computador foi bloqueado ou não                                          |
 | windowIsVisible                   | Captura se a janela do aplicativo estava visível para usar                                      |
-| appStates/webAppStates            | registra uma lista de estados do aplicativo pelos quais o aplicativo passou. Isso ajuda com a investigação de pane porque podemos ver em que estado o aplicativo estava |
+| appStates/webAppStates            | registra uma lista de estado de aplicativos que o aplicativo passou. Isso ajuda com a investigação de falhas porque podemos ver em que estado o aplicativo estava |
 | crashDesktopSession               | Captura a ID da sessão falhada                                                 |
 | appRuntime                        | Captura o tempo de execução do aplicativo                                                        |
 | diagnosticEvents                  | Últimos 50 eventos de diagnóstico do aplicativo Web antes do aplicativo falhar                                 |
@@ -397,6 +399,6 @@ O artigo a seguir contém uma lista de eventos da área de trabalho do Microsoft
 | TeamsRing                       | Sinal de usuário atual conectado ao cliente do Teams                            |
 | TeamsVersion                    | Captura a versão do aplicativo do Teams                                            |
 | TelemetrySetupCompletedTime     | Hora de conclusão da configuração de telemetria                                   |
-| UpnMismatch                     | Se há uma incompatibilidade UPN entre o Outlook e o Teams                  |
+| UpnMismatch                     | Se há uma incompatibilidade entre o Outlook e o Teams                  |
 | UserDomain                      | Domínio do usuário                                                       |
 | ViewUpdatedTime                 | Hora em que o modo de exibição foi atualizado                                           |

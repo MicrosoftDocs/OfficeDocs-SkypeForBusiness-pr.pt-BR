@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723562"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863242"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Dados de diagnóstico móvel necessários para o Microsoft Teams
 
 O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositivos móveis e listas de propriedades que cada evento coleta.
+
+Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dados de diagnóstico são enviados à Microsoft, consulte [Dados de diagnóstico enviados do aplicativo Teams para o Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). Para exibir os dados de diagnóstico que estão sendo enviados à Microsoft, você pode usar o [Visualizador de Dados de Diagnóstico](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
 ## <a name="events"></a>Eventos
 
@@ -37,7 +39,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 > [!NOTE]
 > Para obter informações sobre as propriedades de eventos PanelAction, consulte [Propriedades enviadas com os eventos panelaction](#properties-sent-with-panelaction-events).
 
-- **accessibilityUserConfiguration** - quando um usuário alterna um recurso de acessibilidade.
+- **accessibilityUserConfiguration** - Quando um usuário alterna um recurso de acessibilidade.
 - **acknowledgeSettingChange** - reconhece uma atualização no diálogo de configuração Nós atualizamos uma configuração. Esse é um recurso de métricas de sucesso usado para reconhecer as notificações de atualização e determinar a confiança geral da notificação.
 - **actionComposeMenu**
   - Criar o uso da extensão da mensagem.
@@ -109,6 +111,8 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - Números das configurações.
 - **blockChat** - bloqueia um bot do chat. Esse aperfeiçoamento de telemetria existente em conversas só adiciona informações sobre o aplicativo.
 - **botClickCardAction** - uso do cartão do conector.
+- **brbFormOpened** - O usuário solicitou o envio de comentários.
+- **brbFormSubmit** – O usuário enviou comentários.
 - **breakStartEndClicked** - na tela registrar entrada, o botão **Iniciar** ou **Terminar intervalo** é selecionado.
 - **breakStartEndTriggered** - registro que um usuário decide para usar o início ou o fim do intervalo.
 - **bucketSelected** - confirma que um bucket foi selecionado com êxito.
@@ -338,12 +342,12 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **closeLobbyBanner** - número de vezes em que a notificação de lobby é fechada usando o botão **Fechar**.
 - **commentAdded** - confirma que um comentário foi adicionado a uma tarefa.
 - **commentsClicked** - confirma que o modo de exibição de comentários foi inicializado com êxito.
-- **commentUpdated** - confirma que um comentário foi atualizado com êxito em uma tarefa.
+- **commentUpdated** - Confirma que um comentário foi atualizado com êxito em uma tarefa.
 - **companionBannerJoin** - selecionar **Ingressar** na faixa de nível superior.
 - **companionDismiss** - ignore a faixa complementar.
 - **companionDismissProximity** - ignore a faixa complementar.
 - **companionJoin** - a opção ingressar como um complemento está selecionada na folha.
-- **companionJoinProximity** - que ingressou pela faixa complementar.
+- **companionJoinProximity** - Ingressou pela faixa complementar.
 - **completeVaultFRE** - o usuário conclui o processo de geração de uma chave mestra que é usada para criptografar seus dados do Cofre.
 - **completionStateChange** - acionado quando um botão de filtro concluído ou não concluído é selecionado no modo de exibição de filtro a partir da lista de tarefas.
 - **composeExpandComposer** - botão **Formatar** tocado.
@@ -461,6 +465,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **dialOutDialog** - **Novo número** é selecionado na folha de ação.
 - **dialOutFailRetry** - **Repetir** é selecionado a partir de uma faixa de falha.
 - **DialPad** - o botão de **Teclado de discagem** é selecionado na lista de chamadas.
+- **directShare** : Compartilhou o link de um convite por um aplicativo Sms/e-mail.
 - **disableCategory** - desabilita um tipo de notificação ou desabilita as notificações de chamadas de entrada.
 - **disabled** - **Ignorar as notificações** está selecionado na OOBE (FRE). Isso fornece dados de sucesso importantes para ignorar a notificação no fluxo FRE.
 - **disableQuietDays** - Dias silenciosos desativados. Contém telemetria de sucesso para dias silenciosos.
@@ -577,7 +582,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **giphyUserEnabled** - O usuário seleciona para aceitar os termos/condições do Giphy.
 - **goToNotificationSettings** - acesse a página de configurações de notificação na caixa de diálogo **atualizamos as configurações de notificação**.
 - **GPSPromptClicked** - a opção **Permitir** ou **Não Permitir** é selecionada em uma solicitação do sistema operacional. Permintido GPS ou não.
-- **group_map_closed** - um usuário abre a exibição do mapa do chat.
+- **group_map_closed** - Um usuário abre a exibição do mapa do chat.
 - **group_map_open** - o usuário fecha o modo de exibição do mapa.
 - **groupCallJoin** - um usuário une-se a uma chamada de grupo.
 - **groupClicked** - controla quando um usuário seleciona o grupo de turno.
@@ -625,6 +630,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **Fonte de inicialização, como direct, link, appShortcut** - inicia diretamente ou por meio de um link (gravação de gerenciamento de aplicativo móvel (MAM) ou telemetria de gerenciamento de dispositivo móvel (MDM) na inicialização do aplicativo para coletar dados para usuários ativos).
 - **leaveChat** - confirmar a saída do chat.
 - **legacyChatLink** - um link é selecionado para um chat herdado.
+- **link** - O usuário iniciou o resgate do link de convite inserindo o aplicativo do Teams.
 - **likeAppDismiss** - quando a solicitação pergunta se um usuário gosta do aplicativo ou não e é ignorada sem uma resposta.
 - **likeAppNo** - quando a solicitação pergunta se o usuário gosta do aplicativo e recebe uma resposta não.
 - **likeAppYes** - quando a solicitação pergunta se o usuário gosta do aplicativo e recebe uma resposta sim.
@@ -650,12 +656,13 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **location_active_tracking** - o dispositivo de um usuário é alternado para o acompanhamento ativo.
 - **locationCard** - selecionar um cartão de localização.
 - **location_family_sync** - exibir membros de um grupo de Família que foram criados no aplicativo família MSA. Confirma que todos os membros da família que podem receber consentimento estão sendo exibidos.
+- **location_data_use_privacy_denied** - O usuário negou a aceitação dos termos de privacidade.
 - **location_group_map_sync** - o modo de exibição de mapa é exibido.
 - **location_map_load** - carregar modo de exibição do mapa.
 - **location_map_markers_load** - carregamento do modo de exibição de mapa. Confirma que os marcadores de localização para todos os usuários que compartilham ativamente são exibidos corretamente no modo de exibição de mapa.
 - **location_message_send** - um usuário inicia uma sessão de compartilhamento de local.
 - **location_data_use_privacy_denied** - o usuário ignora ou seleciona **Agora não** em um pop-up explicando o uso dos dados do local por TFL.
-- **location_data_use_privacy_granted** - o usuário ignora ou seleciona **Permitir** em um pop-up explicando o uso dos dados do local por TFL.
+- **location_data_use_privacy_granted** - Um usuário seleciona **Permitir** em um pop-up explicando o uso dos dados de local pelo TFL.
 - **location_settings_open** - um usuário abre as configurações de local.
 - **location_sharing_start** - um usuário compartilha seu local em um chat.
 - **location_sharing_stop** - um usuário interrompe o compartilhamento de seu local ao vivo em um chat.
@@ -855,6 +862,9 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **pinChannel** - fixar o canal para mostrá-lo acima da lista de equipes e canais.
 - **pinSelf** - fixar-me na folha de ações.
 - **pinUser** - fixar um usuário na folha de ações.
+- **place_created** - O usuário criou um local compartilhado.
+- **place_deleted** - O usuário excluiu um local compartilhado.
+- **place_edited** : O usuário editou um local compartilhado.
 - **play** - reproduzir a gravação.
 - **playVoicemail** - **Reproduzir** tocado no item de caixa postal.
 - **plusButtonClicked** - selecionar o **botão de adição** (**+**).
@@ -918,6 +928,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **reactRemoved_HB** - quando um usuário remove uma reação por meio da experiência de página de resumo da reação.
 - **readReceipts** - o usuário habilitou o recurso.
 - **redeemInvite** - redenção no aplicativo.
+- **resgateLinkInAppStart** - O usuário iniciou o resgate do link de convite a partir do aplicativo do Teams.
 - **refreshCalendarList** - puxe para baixo para atualizar o modo de exibição agenda.
 - **refreshLinksGallery** - quando um usuário desliza para baixo para atualizar a galeria de links.
 - **removeAssignee** - confirma que um destinatário é removido do modo de exibição do seletor de atribuições (em vez de *assignmentRemoved* que é acionado ao selecionar **x** fora do modo de exibição do seletor de atribuições).
@@ -958,6 +969,8 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **saveEditMeeting** - selecionar o botão **Salvar** enquanto estiver na página agendador de reunião após a atualização de uma reunião.
 - **saveNewMeeting** - seleciona o botão **Salvar** enquanto estiver na página agendador de reunião. Para registrar as reuniões salvas com êxito e o percentual de reuniões que falharam ao ser criadas devido a um erro no lado do cliente ou serviço.
 - **savePlanClicked** - aciona **Criar** é selecionado no novo criador de planos da abertura padrão do aplicativo.
+- **dashboardNav** - Um usuário acessa um bloco no dashboard.
+- **scenarioDashboardNav** - O usuário navega para a guia do painel dentro de uma conversa (irmã da guia de bate papo).
 - **scheduledMeetingJoin** - o botão **Ingressar reunião** é selecionado no objeto da reunião agendada.
 - **scrollCalendarList** - mede as rolagens no calendário.
 - **scrollDatePicker** - percorre o controle do selecionador de data do calendário.
@@ -1013,6 +1026,8 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **settingsNavReadReceiptNotice** - o usuário acessou configurações passando pelo aviso de recursos.
 - **settingsOpened** - isso é acionado quando o fuso horário do dispositivo do usuário não corresponde ao fuso horário da equipe e o usuário vai para as Configurações.
 - **setupPinVault** – o usuário salva um pin do Cofre para a sua conta. 
+- **shareCharmCompleted** – O usuário concluiu o compartilhamento de um link de convite por meio do recurso compartilhamento do aplicativo.
+- **shareCharmOpened** – O usuário concluiu o compartilhamento de um link de convite por meio do recurso compartilhamento do aplicativo. 
 - **sharefile** - acionado quando **Compartilhar o arquivo** é selecionado. Também ajuda a verificar se:
   - O usuário conseguiu iniciar a operação de compartilhamento de arquivo.
   - O usuário pode compartilhar um arquivo com êxito.
@@ -1112,7 +1127,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **timesheetBreakEdited** - quando um usuário confirma seu quadro de horários. O evento é registrado quando o usuário clica aceitar na caixa de diálogo restrita.
 - **timesheetBreakNoteAdded** - quando um usuário exclui seu quadro de horários. O evento é registrado quando o usuário confirma a exclusão na caixa de diálogo restrita.
 - **timesheetClockAdded** - quando um usuário seleciona editar em um quadro de horários.
-- **timesheetClockEdited** - quando um usuário seleciona salvar em um quadro de horários editado.
+- **timesheetClockEdited** - Quando um usuário seleciona Salvar em um quadro de horários editado.
 - **timesheetConfirmed** - quando um usuário adiciona uma anotação às suas edições do quadro de horários. O evento é registrado depois que o usuário salva as alterações.
 - **timesheetDeleted** - se um usuário possuir ou não um conjunto de lembretes de turnos e a quantidade de minutos antes de um turno que um usuário deseja ser alertado sobre.
 - **timesheetEditClicked** - telemetria de configuração do usuário.
@@ -1127,6 +1142,8 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - Destino de transferência está definido como uma Pessoa.
   - Destino de transferência está definido como uma Número de telefone.
 - **translateFailed** - a tradução falhou (excluindo offline). Inclui métricas de sucesso para o recurso de tradução de mensagens.
+- **place_created** - O usuário criou uma cerca geográfica.
+- **place_deleted** - O usuário excluiu uma cerca geográfica.
 - **unansweredCallForward** - um destino de encaminhamento de chamada não respondida está definido. Também habilita o encaminhamento de chamadas não respondidas (chamadas Telefonar-me estão habilitadas e Se não respondida é habilitada).
 - **unblockCaller** - desbloquear:
   - Contato ou número na folha de ações.
@@ -1225,6 +1242,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **fileUploadSuccess** - Acionada quando uma operação de carregamento de arquivo é bem-sucedida.
 - **fileUploadSummaryNotification** – Acionada quando o conteúdo da notificação de resumo de upload de arquivo é alterado ou quando há interação com a notificação. As interações podem incluir gestos como deslizar a tela para descartar a notificação ou tocar na notificação, etc.
 - **meetingFiles** - Acionada quando a tela de arquivos de reunião é aberta.
+- **meetCtionSheet** – Acionada quando o usuário cria uma reunião do Meet Now.
 - **navPersonalFiles** - Acionada quando a navegação para a tela de arquivos é executada.
 
 ### <a name="scenario"></a>Cenário
@@ -1238,7 +1256,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **app_start_hot** Para monitorar inicialização quente de aplicativo (somente para Android).
 - **app_start_warm** Para monitorar inicialização suave de aplicativo (somente para Android).
 - **chat_add_giphy** - Confirma se a ação de renderização do GIF Giphy foi bem-sucedida ou falhou.
-- **cortanaError** para monitorar o erro ocorrido da Cortana.
+- **cortanaError** Para monitorar o erro ocorrido da Cortana.
 - **cortanaView** – para monitorar o aparecimento da tela da Cortana.
 - **cortanaRestart** para monitorar a reinicialização da Cortana.
 - **cortanaSetNewConversation** para monitorar a Cortana define uma nova conversa.
