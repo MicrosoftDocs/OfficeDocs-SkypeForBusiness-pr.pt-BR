@@ -29,11 +29,11 @@ productDirectory:
     - title: Planeje a atualização (Comece aqui!)
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
       summary: 'Se você está atualizando para Teams antes da reforma do Skype for Business Online (31 de julho de 2021) ou movendo cenários do seu ambiente local do Skype for Business para o Teams, uma transição bem-sucedida aborda a preparação técnica e do usuário. Descubra nossa estrutura comprovada, práticas recomendadas e recursos projetados para ajudá-lo a facilitar uma transição bem-sucedida para o Teams do Skype for Business Online, Skype for Business Server ou um ambiente híbrido. Audiência – Todos (Patrocinadores corporativos, administradores de IT, gerente de preparação/alteração do usuário, líder do projeto)'
-      url: 'https://microsoftteams.eventbuilder.com/PlanYourUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsPlan'
     - title: Implementar sua Teams de atualização
       imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
       summary: 'Junte-se a nós para identificar e preparar-se para executar a melhor abordagem técnica para mover todas as cargas de trabalho para Teams, com base em suas metas e seu ambiente Skype for Business atual. A maioria dos clientes que concluiu transições bem-sucedidas habilitaram o Teams ao lado de seus Skype for Business Online, Skype for Business Server ou implementação híbrida. Esta sessão compartilhará considerações importantes e recursos valiosos para ajudá-lo a definir a melhor estratégia de migração para sua organização. Audiência - administradores de IT'
-      url: 'https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsImplement'
 additionalContent:
   sections:
     - items:
