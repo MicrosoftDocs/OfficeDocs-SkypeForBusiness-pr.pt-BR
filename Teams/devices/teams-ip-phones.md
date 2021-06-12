@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: d82a7e738db87fcf2903e511184f84ac2fb12150
-ms.sourcegitcommit: 51d15c49538affe97dd42ff2fd6d75e4b1952139
+ms.openlocfilehash: f0bd721dd11c81cb294ce3fc5694798867bc3526
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52865998"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910073"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -110,6 +110,7 @@ A seguir estão as versões mais recentes Teams de firmware e aplicativos de tel
 
 | Versão do produto | Data de lançamento  | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Atualização 2021 #2A | 10 de junho de 2021  |1449/1.0.94.2021052803|  5.0.5088.0 |  1.0.0.202103160138.product (256) |
 | Atualização 2021 #2  | 8 de junho de 2021  |1449/1.0.94.2021051303|  5.0.5088.0 |  1.0.0.202103160138.product (256) |
 | Atualização 2021 #1A | 5 de abril de 2021  |1449/1.0.94.2021033002|  5.0.5045.0 |  1.0.0.202101280722.product (253) |
 | Atualização 2021 #1  | 26 de março de 2021  |1449/1.0.94.2021022403 |  5.0.5045.0 |  1.0.0.202101280722.product (253) |

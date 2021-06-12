@@ -18,12 +18,12 @@ description: Saiba como configurar os Planos de Chamadas da Microsoft e Sistema 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c0578496c2ce8d66c7292ac7d7030a1abdd8f88
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856450"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910043"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -85,7 +85,11 @@ Os clientes a seguir têm suporte no momento.  Verifique novamente com frequênc
 - Salas do Teams versão 4.4.25.0 e superior
 
 > [!NOTE]
-> A chamada de emergência dinâmica, incluindo a notificação de segurança, não é suportada no cliente Teams Web. Para impedir que os usuários usem o Teams Web para chamar números PSTN, você pode definir uma política de chamada Teams e desativar a configuração Permitir chamada **PSTN** web. Para saber mais, confira [Políticas de chamada em Teams](teams-calling-policy.md) [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Há suporte para sub-rede e AP WiFi. A opção/porta Ethernet é suportada em Windows 8.1 e posteriores neste momento. 
+> A chamada de emergência dinâmica, incluindo a notificação de segurança, não é suportada no cliente Teams Web. Para impedir que os usuários usem o Teams Web para chamar números PSTN, você pode definir uma política de chamada Teams e desativar a configuração Permitir chamada **PSTN** web. Para saber mais, confira [Políticas de chamada em Teams](teams-calling-policy.md) [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
+
+> [!NOTE]
+> Os locais baseados em Sub-rede e WiFi são suportados em todos os Teams clientes. <br>
+> Ethernet/Switch (LLDP) só é suportado no Windows e somente Windows versões 8.1 e posteriores neste momento.
 
 ## <a name="assign-emergency-addresses"></a>Atribuir endereços de emergência
 

@@ -17,18 +17,22 @@ search.appverid: MET150
 description: Saiba como configurar locais de emergência para Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282528"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52907757"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>Etapa 1: Configurar um local de emergência do Business Voice
 
 Um local de emergência é usado quando alguém em sua organização chama serviços de emergência, como incêndio, polícia ou ambulância. Quando uma pessoa chama um serviço de emergência, o endereço configurado como endereço de emergência da sua organização é enviado para o serviço. Esta etapa configura o local de emergência principal para sua organização. Esse local será associado ao número de telefone principal da sua empresa em uma etapa posterior.
 
 Se você tiver usuários em vários locais, como home offices ou escritórios em outras cidades, poderá configurar locais de emergência adicionais. Você pode até mesmo configurar locais específicos em um local. Os locais podem ser edifícios, pisos, escritórios ou outros locais onde os usuários possam estar em um local. Locais e locais adicionais podem ser adicionados depois que você concluir sua configuração inicial do Business Voice.
+
+O vídeo a seguir mostra como concluir essas etapas no Teams de administração.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEZGE]
 
 ## <a name="add-an-emergency-location"></a>Adicionar um local de emergência
 
