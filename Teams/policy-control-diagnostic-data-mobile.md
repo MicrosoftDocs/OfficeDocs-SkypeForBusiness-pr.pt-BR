@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
-ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
+ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52873838"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901938"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Dados de diagnóstico móvel necessários para o Microsoft Teams
 
@@ -979,18 +979,11 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
   - A pesquisa teve êxito ou se o usuário abandonou a pesquisa.
   - Uma consulta de pesquisa teve êxito.
 - **searchContacts** - pesquisa na lista de chamadas.
-- **searchIcon** - determina:
-  - Se a pesquisa pode ser acionada.
-  - A origem de um acionador de pesquisa.
-  - Se resultados relevantes foram encontrados com êxito.
 - **searchInitiated** - determina se a pesquisa pode ser acionada e a fonte de gatilho da pesquisa.
 - **searchMeetingParticipants** - pesquisa os participantes para adicionar dentro do formulário do agendador. Para diferenciar o número de compromissos criados versus o número de reuniões criadas.
 - **searchResultsClicked** - determina:
   - Se resultados relevantes podem ser encontrados com êxito.
   - Se os resultados da pesquisa forem da guia Todos em vez de um domínio individual.
-- **searchTab** - determina:
-  - Informações de domínio do resultado da pesquisa: para pessoas, chat, mensagens e arquivos.
-  - Se os resultados da pesquisa eram da guia Todos versus domínio individual.
 - **searchTabClicked** - determina:
   - Informações de domínio do resultado da pesquisa: para pessoas, chat, mensagens e arquivos.
   - Se os resultados relevantes foram encontrados com êxito.
@@ -1322,7 +1315,7 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **server_fetch_date_picker_view_incremental** Confirma se a sincronização incremental de eventos do calendário usando a API REST do Outlook foi bem-sucedida ou falhou.
 - **meeting_details** Confirma se a sincronização de detalhes da reunião foi bem-sucedida ou falhou.
 - **show_meeting_participants** Confirma se a exibição da lista de participantes da reunião foi bem-sucedida ou falhou.
-
+- **search** Confirma se toda a sessão de pesquisa foi bem-sucedida ou falhou.
 
 ## <a name="property-lists"></a>Listas de propriedades
 
