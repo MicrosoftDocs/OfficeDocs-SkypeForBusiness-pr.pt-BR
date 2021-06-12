@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863242"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873838"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Dados de diagnóstico móvel necessários para o Microsoft Teams
 
@@ -1303,6 +1303,8 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **smart_reply_enabled** - confirma que a resposta inteligente está habilitada para o usuário atual.
 - **smart_reply_received** - confirma que uma sugestão de resposta inteligente foi recebida.
 - **smart_reply_banned** - confirma que a resposta inteligente não pode ser exibida para o usuário atual.
+- **park_call_for_hold_v2** - Confirma que colocar uma chamada em espera foi bem sucedido ou falhou ao utilizar o call park.
+- **unpark_call_for_hold_v2** - Confirma que o recomeço da chamada foi bem sucedido ou falhou, utilizando atender chamada estacionada. 
 - **update_planner_task_and_nav_to_view** - confirma a atualização bem-sucedida de um item de tarefa compartilhada e quanto tempo demora para um usuário chegar à exibição resultante após a ação.
 - **update_personal_task_and_nav_to_view** - confirma a atualização bem-sucedida de um item de tarefa pessoal e quanto tempo demora para um usuário chegar à exibição resultante após 
 - **updatePlannerTask** - Confirma se um usuário atualizou com êxito uma tarefa em uma lista de contatos compartilhados.
