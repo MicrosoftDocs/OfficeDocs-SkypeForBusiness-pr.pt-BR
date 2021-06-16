@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b2bae63b2a37b5c5739a988cfe69f23b7609e63b
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 7946d6c098979d478f91d8ef67a3214c11823d7d
+ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697816"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929317"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informações no Microsoft Teams
 
@@ -29,7 +29,7 @@ As barreiras de informações (IBs) são políticas que um administrador pode co
 
 >[!NOTE]
 >- Grupos de barreira de informações (IB) não podem ser criados entre locatários.
->- O uso de bots, Azure Active Directory aplicativos (Azure AD) e algumas APIs para adicionar usuários não são suportados na versão 1.
+>- O uso de bots, Azure Active Directory aplicativos (Azure AD), APIs para enviar notificações de feed de atividade e algumas APIs para adicionar usuários não são suportados na versão 1.
 >- Os canais privados são compatíveis com as políticas de IB que você configura.
 >- Novo: para obter informações sobre o suporte a barreiras para SharePoint sites conectados ao Teams, consulte [Segments associated](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)with Microsoft Teams sites .
 

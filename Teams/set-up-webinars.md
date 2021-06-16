@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Saiba como gerenciar políticas do Webinar para Teams reuniões.
-ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 14452b0caeee33f90b59f6581b6fccf4d5e0311b
+ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718042"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926743"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar para webinars em Microsoft Teams
 
@@ -32,7 +32,7 @@ Este artigo ajudará você a configurar sua organização para hospedar webinars
 
 ## <a name="what-are-webinars"></a>O que são webinars?
 
-Webinars são reuniões estruturadas em que instrutores e participantes têm funções claras, geralmente usadas para fins de treinamento ou cenários de geração de leads de vendas e marketing.
+Webinars são reuniões estruturadas em que apresentadores e participantes têm funções claras, geralmente usadas para fins de treinamento ou cenários de geração de leads de vendas e marketing.
 
 Depois de configurar webinars em sua organização, os usuários podem agendar webinars e abrir o registro para os participantes. Ao contrário das reuniões tradicionais que incluem muitas discussões e atribuição de tarefas, os webinars são destinados a apresentações interativas e fornecem ferramentas para análise do participante.
 
@@ -47,29 +47,30 @@ Você pode usar os seguintes atributos no cmdlet **set-CsTeamsMeetingPolicy Wind
 Leia [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para obter mais informações sobre o cmdlet.
 
 > [!NOTE]
-> Antes de executar esses cmdlets, você deve estar conectado ao Skype for Business PowerShell Online. Para obter mais informações, consulte [Manage Skype for Business Online with Microsoft 365 or Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> Antes de executar esses cmdlets, você deve estar conectado ao Microsoft Teams PowerShell. Para obter mais informações, consulte [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 ### <a name="allow-users-to-schedule-webinars"></a>Permitir que os usuários agendem webinars
-
-Para permitir que os usuários em sua organização agendem webinars, execute:
-
-```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
-```
-### <a name="configure-who-can-register-for-webinars"></a>Configurar quem pode se registrar para webinars
 
 Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos**. Se você quiser desativar o registro de reunião, de definir **AllowMeetingRegistration** como **False**.
 
 > [!IMPORTANT]
-> Lembre-se de **que AllowPrivateMeetingScheduling** deve ser definido como **True** para **AllowMeetingRegistration** funcionar. Além disso, as Listas da Microsoft precisam ser configuradas SharePoint. Para saber mais, confira [Configurações de controle para Listas da Microsoft.](/sharepoint/control-lists)
+> **AllowPrivateMeetingScheduling** deve ser definido como **True** para **AllowMeetingRegistration** funcionar. Além disso, as Listas da Microsoft precisam ser configuradas SharePoint. Para saber mais, confira [Configurações de controle para Listas da Microsoft.](/sharepoint/control-lists)
 
-**Para permitir *que apenas* usuários em sua organização se registrem para webinars, execute:**
+1. Ativar o registro de reunião
+
+```powershell
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+```
+
+2. Ativar o agendamento de reuniões privadas
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
-Em seguida, execute:
+3. Configurar quem pode se registrar para webinars
+
+**Permitir *que apenas* usuários em sua organização se registrem em webinars**
 
 ```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
@@ -78,16 +79,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **Para permitir que qualquer pessoa, incluindo usuários anônimos, registre-se para webinars, execute:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
-```
-
-Em seguida, execute:
-
-```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
-> [!IMPORTANT]
+> [!CAUTION]
 > Se a junção anônima estiver desligada nas configurações de reunião, os usuários anônimos não poderão ingressar em webinars. Para saber mais e habilitar essa configuração, consulte [Configurações de reunião em Teams](meeting-settings-in-teams.md).
 
 ### <a name="collect-meeting-attendance"></a>Coletar participação na reunião

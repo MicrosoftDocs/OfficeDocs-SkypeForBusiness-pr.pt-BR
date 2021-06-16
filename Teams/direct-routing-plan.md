@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
+ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656064"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926753"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -229,26 +229,18 @@ Colocar esses três FQDNs em ordem é necessário para:
 - Forneça uma experiência ideal (menos carregada e mais próxima do datacenter SBC atribuído consultando o primeiro FQDN).
 - Forneça failover quando a conexão de um SBC é estabelecida com um datacenter que está enfrentando um problema temporário. Para obter mais informações, consulte [Mecanismo de failover](#failover-mechanism-for-sip-signaling) abaixo.  
 
-Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com – serão resolvidos para um dos seguintes endereços IP:
+Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com – serão resolvidos para endereços IP das seguintes sub-redes:
 
-- 52.114.148.0
-- 52.114.132.46 
-- 52.114.75.24 
-- 52.114.76.76 
-- 52.114.7.24 
-- 52.114.14.70
-- 52.114.16.74
-- 52.114.20.29
-- 52.114.36.156 
-- 52.114.32.169
+- 52.112.0.0/14
+- 52.120.0.0/14
 
-Você precisa abrir portas para todos esses endereços IP no firewall para permitir que o tráfego de entrada e saída entre e os endereços para sinalização.  Se o firewall dá suporte a nomes DNS, o FQDN **sip-all.pstnhub.microsoft.com** resolvido para todos esses endereços IP. 
+Você precisa abrir portas para todos esses intervalos de endereços IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.  Se o firewall for compatível com nomes DNS, o FQDN **sip-all.pstnhub.microsoft.com** resolverá todas essas sub-redes IP. 
 
 > [!IMPORTANT]
-> Como parte da Teams melhoria de serviço e expansão do Roteamento Direto, implantamos novas instâncias da infraestrutura de Roteamento Direto na Austrália em novembro de 2020. Isso se reflete em dois endereços IP adicionais (52.114.16.74 e 52.114.20.29) para os quais os seguintes FQDNs serão resolvidos para clientes australianos – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa adicionar esses dois endereços IP (52.114.16.74 e 52.114.20.29) às suas ACLs (Listas de Controle de Acesso IP) e abrir portas para todos esses endereços IP em seu firewall para permitir o tráfego de entrada e de saída dos endereços para sinalização.
+> Como parte da Teams melhoria de serviço e expansão do Roteamento Direto, implantamos novas instâncias da infraestrutura de Roteamento Direto na Austrália em novembro de 2020. Isso se reflete em dois endereços IP adicionais (52.114.16.74 e 52.114.20.29) para os quais os seguintes FQDNs serão resolvidos para clientes australianos – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa garantir que esses dois endereços IP (52.114.16.74 e 52.114.20.29) sejam permitidos em suas LISTAS de Controle de Acesso IP (ACLs) e as portas estão abertas para todos esses endereços IP no firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.
 
 > [!IMPORTANT]
-> Como parte da Teams de roteamento direto e melhoria de serviço, implantamos novas instâncias da infraestrutura de Roteamento Direto no Japão em maio de 2021. Isso se reflete em dois endereços IP adicionais (52.114.36.156 e 52.114.32.169) para os quais os seguintes FQDNs serão resolvidos para clientes japoneses – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa adicionar esses dois endereços IP (52.114.36.156 e 52.114.32.169) às suas ACLs (Listas de Controle de Acesso IP) e abrir portas para todos esses endereços IP no firewall para permitir o tráfego de entrada e saída dos endereços para sinalização.
+> Como parte da Teams de roteamento direto e melhoria de serviço, implantamos novas instâncias da infraestrutura de Roteamento Direto no Japão em maio de 2021. Isso se reflete em dois endereços IP adicionais (52.114.36.156 e 52.114.32.169) para os quais os seguintes FQDNs serão resolvidos para clientes japoneses – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa garantir que esses dois endereços IP (52.114.36.156 e 52.114.32.169) sejam permitidos em suas ACLs (Listas de Controle de Acesso IP) e as portas estão abertas para que todos esses endereços IP no firewall permitam o tráfego de entrada e saída dos endereços para sinalização.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 Ambiente GCCH e DoD
 
@@ -256,10 +248,9 @@ O ponto de conexão para Roteamento Direto é o seguinte FQDN:
 
 **sip.pstnhub.dod.teams.microsoft.us** – FQDN Global. Como o Office 365 do DoD existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
 
-O FQDN sip.pstnhub.dod.teams.microsoft.us será resolvido para um dos seguintes endereços IP:
+O FQDN sip.pstnhub.dod.teams.microsoft.us será resolvido para um endereço IP da seguinte sub-rede:
 
-- 52.127.64.33
-- 52.127.68.34
+- 52.127.64.0/21
 
 Você precisa abrir portas para todos esses endereços IP no firewall para permitir que o tráfego de entrada e saída entre e os endereços para sinalização.
 
@@ -269,10 +260,9 @@ O ponto de conexão para Roteamento Direto é o seguinte FQDN:
 
 **sip.pstnhub.gov.teams.microsoft.us** – FQDN Global. Como o GCC ambiente High existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
 
-O FQDN sip.pstnhub.gov.teams.microsoft.us será resolvido para um dos seguintes endereços IP:
+O FQDN sip.pstnhub.gov.teams.microsoft.us será resolvido para um endereço IP a partir da seguinte sub-rede:
 
-- 52.127.88.59
-- 52.127.92.64
+- 52.127.64.0/21
 
 Você precisa abrir portas para todos esses endereços IP no firewall para permitir que o tráfego de entrada e saída entre e os endereços para sinalização. Se o firewall for compatível com nomes DNS, o FQDN **sip-all.pstnhub.gov.teams.microsoft.us** resolvido para todos esses endereços IP. Esse FQDN também pode ser usado como FQDN Federado para classificação de chamada de entrada.
 

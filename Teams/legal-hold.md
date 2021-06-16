@@ -15,12 +15,12 @@ f1.keywords:
 description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o Centro de Segurança e Conformidade, e saiba o que necessita de uma retenção legal com base nas exigências de dados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f2f269d75a7bf8bd97165329d2ae6b006b940f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3e52b10f0a7a8dd3ac67f7a2c15b9d1e082186ab
+ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112297"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929287"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 ==================================================
@@ -34,6 +34,7 @@ Dentro Microsoft Teams, uma equipe inteira ou usuários selecionados podem ser c
 
 > [!NOTE]
 > A colocação de um usuário em retenção não coloca automaticamente um grupo em retenção ou vice-versa.
+> As notificações enviadas no feed de atividade não podem ser colocadas em espera legal.
 
 Para colocar um usuário ou uma equipe em espera legal:
 
