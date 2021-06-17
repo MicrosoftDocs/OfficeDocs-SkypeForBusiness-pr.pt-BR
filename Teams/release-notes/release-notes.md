@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para Microsoft Teams de administrador.
-ms.openlocfilehash: 6d634d89c5b810b0df149385e020ab0944def475
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: 94213748d55e91022f19e29a48dab7f4fe6e5199
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705255"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947603"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para Microsoft Teams de administrador
 
@@ -31,13 +31,13 @@ Essas notas de versão fornecem informações sobre novos recursos de administra
 
 ### <a name="career-coach"></a>Coach de carreira
 
-O Career Coach é um Microsoft Teams para Educação, desenvolvido pelo LinkedIn, que fornece orientações personalizadas para que os alunos do ensino superior naveguem em sua jornada de carreira. O Career Coach oferece às instituições educacionais uma solução de carreira unificada para que os alunos descubram seu caminho de carreira, cresçam habilidades do mundo real e criem sua rede em um só lugar. [Saiba mais](../career-coach.md).
+Coach de carreira é um aplicativo Microsoft Teams para Educação desenvolvido pelo LinkedIn que fornece orientações personalizadas para que os alunos do ensino superior naveguem em sua jornada de carreira. Coach de carreira oferece às instituições educacionais uma solução de carreira unificada para que os alunos descubram seu caminho de carreira, cresçam habilidades do mundo real e criem sua rede em um só lugar. [Saiba mais](../career-coach.md).
 
 ## <a name="march-31-2021"></a>31 de março de 2021
 
 ### <a name="share-to-teams-from-outlook"></a>Compartilhar para Teams de Outlook
 
-Compartilhar Teams de Outlook permite que você envie uma cópia de mensagens de email ou conversas, incluindo anexos, para Teams chats e canais. Encontre a **opção Compartilhar Teams** na faixa de opções Outlook ou no menu ação de um email. O share to Teams oferece suporte Outlook web, Outlook para Windows e o novo Outlook para Mac Preview. [Saiba mais](../teams-outlook-share-teams.md).
+Compartilhar Teams de Outlook permite que você envie uma cópia de mensagens de email ou conversas, incluindo anexos, para Teams chats e canais. Encontre a **opção Compartilhar Teams** na faixa de opções Outlook ou no menu ação de um email. O share to Teams suporta Outlook na Web, Outlook para Windows e o novo Outlook para Mac Preview. [Saiba mais](../teams-outlook-share-teams.md).
 
 ## <a name="march-30-2021"></a>30 de março de 2021
 
@@ -170,7 +170,7 @@ Esta funcionalidade faz parte do Microsoft Cloud for Healthcare. [Saiba mais](..
 
 ### <a name="teams-displays"></a>Teams exibe
 
-Microsoft Teams displays são uma categoria de dispositivos de Teams exclusivos que apresentam uma tela sensível ao toque ambiente e uma experiência prática com a Cortana. [Saiba mais](../devices/teams-displays.md).
+Microsoft Teams displays são uma categoria de dispositivos de Teams exclusivos que apresentam uma tela sensível ao toque ambiente e uma experiência prática com Cortana. [Saiba mais](../devices/teams-displays.md).
 
 ## <a name="october-22-2020"></a>22 de outubro de 2020
 
@@ -212,7 +212,7 @@ Se você for uma pequena ou média empresa com até 300 usuários e atualmente n
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Exibir permissões de aplicativo e conceder consentimento de administrador no Microsoft Teams de administração
 
-Agora, no centro de administração do Teams, os administradores globais poderão revisar e conceder consentimento a permissões de API Graph registradas no Azure Active Directory, em nome de todo o locatário para as permissões que um aplicativo está solicitando, como ler informações armazenadas em uma equipe ou enviar um email em nome dos usuários. Agora, os administradores de IT poderão revisar permissões de RSC (consentimento específico do recurso) para os aplicativos dentro Teams centro de administração. Com isso, os administradores poderão desbloquear seus usuários para os aplicativos de terceiros que eles já revisaram e aprovaram para usar em sua organização. [Saiba mais](../app-permissions-admin-center.md).
+Agora, no centro de administração do Teams, os administradores globais poderão revisar e conceder consentimento a permissões de API Graph registradas no Active Directory do Azure, em nome de todo o locatário para as permissões que um aplicativo está solicitando, como ler informações armazenadas em uma equipe ou enviar um email em nome dos usuários. Agora, os administradores de IT poderão revisar permissões de RSC (consentimento específico do recurso) para os aplicativos dentro Teams centro de administração. Com isso, os administradores poderão desbloquear seus usuários para os aplicativos de terceiros que eles já revisaram e aprovaram para usar em sua organização. [Saiba mais](../app-permissions-admin-center.md).
 
 ### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>Suporte a Planos de Chamada para Áustria, Dinamarca, Itália, Portugal, Suécia e Suíça
 
@@ -258,7 +258,7 @@ Use Teams configurações de eventos ao vivo para definir configurações para e
 
 ### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>Skype for Business Conector Online integrado ao módulo Teams PowerShell
 
-A versão Teams do PowerShell mais recente é integrada ao Skype for Business Online Connector, fornecendo um único módulo para o gerenciamento Teams PowerShell. [Saiba mais](../teams-powershell-overview.md#manage-teams-with-powershell).
+A versão Teams do PowerShell mais recente é integrada ao Skype for Business Online Connector, fornecendo um único módulo para o gerenciamento Teams PowerShell.  [Saiba mais](../teams-powershell-overview.md).
 
 ## <a name="september-8-2020"></a>8 de setembro de 2020
 
@@ -298,11 +298,11 @@ Com esse recurso, as pessoas são atribuídas automaticamente a marcas que corre
 
 ## <a name="august-14-2020"></a>14 de agosto de 2020
 
-### <a name="cortana-voice-skills-in-teams"></a>Habilidades de voz da Cortana no Teams
+### <a name="cortana-voice-skills-in-teams"></a>Cortana de voz no Teams
 
-As habilidades de voz da Cortana Teams aplicativo móvel ajudam os usuários a executar tarefas de reunião, comunicação e colaboração simplesmente usando a linguagem natural falada. Os usuários podem falar com a Cortana clicando no botão de microfone no aplicativo Teams e fazer solicitações como "Chamar Megan" ou "Enviar uma mensagem para minha próxima reunião" se precisar se conectar com alguém enquanto faz malabarismo com tarefas domésticas ou passeando com o cachorro ou geralmente em qualquer lugar. Os usuários podem participar de reuniões simplesmente dizendo "Participe da minha próxima reunião" ou verificar seu calendário perguntando "o que eu tenho hoje de manhã". Uma vez em uma reunião ou em uma chamada, eles podem invocar a Cortana no menu de estouro no estágio de reunião e realizar tarefas típicas na reunião, como adicionar pessoas por nome ou número ("Adicionar Megan à chamada"), apresentação do convés ("apresentar o convés de revisão trimestral") ou navegar slides ("Vá para o slide do apêndice"). Outras coisas que o recurso oferece suporte são localizar e compartilhar arquivos, pesquisar e navegar dentro do aplicativo Teams ("Abrir meu chat com John, ir para minha atividade não lida, ir para minhas menções etc.).
+Cortana habilidades de voz no Teams aplicativo móvel ajudam os usuários a executar tarefas de reunião, comunicação e colaboração simplesmente usando a linguagem natural falada. Os usuários podem falar com o Cortana clicando no botão de microfone no aplicativo Teams e fazer solicitações como "Chamar Megan" ou "Enviar uma mensagem para minha próxima reunião" se precisar se conectar com alguém enquanto faz malabarismo com tarefas domésticas ou passeando com o cachorro ou geralmente em tempo real. Os usuários podem participar de reuniões simplesmente dizendo "Participe da minha próxima reunião" ou verificar seu calendário perguntando "o que eu tenho hoje de manhã". Uma vez em uma reunião ou em uma chamada, eles podem invocar o Cortana do menu de estouro no estágio de reunião e executar tarefas típicas na reunião, como adicionar pessoas por nome ou número ("Adicionar Megan à chamada"), apresentação do convés ("apresentar o deck de revisão trimestral") ou navegar slides ("Ir para o slide do apêndice"). Outras coisas que o recurso oferece suporte são localizar e compartilhar arquivos, pesquisar e navegar dentro do aplicativo Teams ("Abrir meu chat com John, ir para minha atividade não lida, ir para minhas menções etc.).
 
-A Cortana no Teams atende às mesmas promessas de privacidade, segurança e conformidade no nível da empresa para os serviços corporativos da Cortana, conforme refletido nos Termos de Serviços [Online (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1). [Saiba mais](../cortana-in-teams.md).
+Cortana no Teams atende às mesmas promessas de privacidade, segurança e conformidade no nível da empresa para serviços Cortana corporativos, conforme refletido nos Termos de Serviços [Online (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1). [Saiba mais](../cortana-in-teams.md).
 
 ### <a name="teams-devices-administrator"></a>Teams Administrador de Dispositivos
 
