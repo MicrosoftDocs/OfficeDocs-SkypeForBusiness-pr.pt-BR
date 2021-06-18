@@ -791,6 +791,8 @@ items:
                 href: rooms/lrs-migration.md
               - name: Câmeras de conteúdo
                 href: rooms/content-camera.md
+              - name: Controles de reconhecimento de voz para alto-falantes inteligentes
+                href: rooms/voice-recognition.md
           - name: Gerenciar
             items:
               - name: Visão geral do gerenciamento
