@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na República Tcheca para Microsoft Teams.
-ms.openlocfilehash: 0fd6a2db9b74dbc4f567c0a18d4aaaf54dc2f367
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: f0f5d3243595590571112df2b697000d871c5fd2
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130313"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993974"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Telefone gerenciamento de números para a República Tcheca
 
@@ -37,7 +37,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. |Na República Tcheca, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [enviando-o para nós](mailto:ptneu@microsoft.com).<br/><br/>[Nova solicitação de número de telefone para a República Tcheca (v.1.0)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. |Na República Tcheca, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [enviando-o para nós](mailto:ptneu@microsoft.com).<br/><br/>[Nova solicitação de número de telefone para a República Tcheca (v.1.0) cs-CZ](https://download.microsoft.com/download/9/0/c/90c1b1c3-048f-4ee1-b741-f93911635271/know-your-customer-for-the-czech-republic-(v1.0)-(cs-CZ).pdf). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
 |Obter números de telefone transferidos para nós. | Baixe este formulário. <br/><br/>[Carta de Autorização (LOA) para a República Tcheca (todos os números) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). <br/><br/>A transferência de números pode levar de duas a três semanas para ser concluída neste mercado. <br/><br/>Esses números não podem ser usados para conferência no momento. |
 |Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |

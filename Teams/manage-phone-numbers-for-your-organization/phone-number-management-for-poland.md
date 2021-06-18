@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Polônia para Microsoft Teams.
-ms.openlocfilehash: d97bbfe1fe463b9df6056a11fc587e979c8076d4
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 5cd3bf4add3b2c58a50a84fc869d22633746bd5b
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129952"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993934"
 ---
 # <a name="phone-number-management-for-poland"></a>Telefone gerenciamento de números para a Polônia
 
@@ -37,7 +37,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.  |Na Polônia, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [enviando-o para nós](mailto:ptneu@microsoft.com).<br/><br/>[Nova solicitação de número de telefone para a Polônia (v.1.0) (pl-pl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Telefone números serão ordenados em blocos de dez. Os clientes serão cobrados apenas pelas licenças do plano de chamada inscritos.<br/><br/>Os novos pedidos podem levar de quatro a seis semanas para preencher esse mercado. |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.  |Na Polônia, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [enviando-o para nós](mailto:ptneu@microsoft.com).<br/><br/>[Nova solicitação de número de telefone para a Polônia (v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Telefone números serão ordenados em blocos de dez. Os clientes serão cobrados apenas pelas licenças do plano de chamada inscritos.<br/><br/>Os novos pedidos podem levar de quatro a seis semanas para preencher esse mercado. |
 |Obter números de telefone transferidos para nós.| Baixe este formulário. <br/>[Carta de Autorização (LOA) para a Polônia (todos os números) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). <br/><br/>A transferência de números pode levar de quatro a seis semanas para ser concluída neste mercado. <br/><br/> Esses números não podem ser usados para conferência no momento.    |
 |Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |

@@ -17,22 +17,22 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Saiba como gerenciar atribuições no Microsoft Teams de administração no Teams education.
+description: Saiba como gerenciar atribuições no Microsoft Teams de administração no Teams para Educação.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410f5d32dd8af4775639a080725cd5680b6a70c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: abf17b12e8555ce12642627093d856f917dce439
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121369"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004143"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
 Os recursos Atribuições e Notas no Teams para Educação permitem que os educadores atribuam tarefas, trabalho ou testes aos seus alunos. Os educadores podem gerenciar cronogramas de atribuição, instruções, adicionar recursos para a atribuição, notas com rubricas e muito mais. Eles também podem acompanhar o progresso da classe e do aluno individual na guia Notas.
 
-[Saiba mais sobre atribuições e notas no Teams para Educação.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[Saiba mais sobre atribuições e notas em Teams para Educação](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
 > Para obter detalhes sobre Teams atribuições em diferentes plataformas, [consulte Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -107,3 +107,10 @@ O **TurnitinApiKey** será dado a você depois de seguir os prompts. Copie a cha
 ![Captura de tela mostrando a cópia da chave da API](./educationImages/Assignments_mopo_turnitin3.png)
 
 Ao clicar no **botão Salvar** no centro de administração para essa configuração, permita algumas horas para que essas configurações entre em vigor.
+
+### <a name="removing-assignments-and-grades"></a>Removendo atribuições e notas
+Você pode usar Teams para remover atribuições e notas para um usuário específico ou para todo o locatário. 
+
+Para remover atribuições e notas de um  usuário individual, vá para o Centro de Administração Teams e navegue até Teams **aplicativos > Políticas** de permissão para criar uma nova definição de política de permissão de aplicativo.  Ao criar a nova definição de  política, desmarque a política de aplicativos da **Microsoft** como Bloquear **aplicativos específicos** e permita que todos os outros e adicione atribuições à lista de aplicativos bloqueados. Depois que a nova definição de política for salva, atribua-a aos usuários apropriados.
+
+Para remover atribuições e notas de todo o locatário, vá para o Centro de Administração **Teams,** navegue até Teams **aplicativos > Gerenciar** aplicativos e pesquise e selecione Atribuições na lista de **aplicativos.** Altere a configuração de status na página Configurações do aplicativo de atribuição como _Bloqueado_. 

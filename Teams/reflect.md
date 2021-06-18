@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
-ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
+ms.openlocfilehash: 981061e4892f679dac2a4e4f47fdcc929e6a02fb
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070647"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997700"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guia do administrador de IT para o Reflect no Microsoft Teams
 
@@ -45,7 +45,7 @@ Os dados pertencem à instituição educacional, e a Microsoft somente os coleta
 
 Os dados são armazenados no Insights. Por padrão, o Insights está ativado. Quando você optar por não participar, **apagamos todos os dados coletados para o Reflect**. Ative novamente o Insights e começaremos a coletar dados a partir do momento em que ele é reativado.
 
-No [Guia do Administrador de TI para o Insights](class-insights.md), você pode ler como o Insights funciona (incluindo locais de armazenamento) e [como desativar ou ativar o Insights](class-insights.md#turn-insights-off-or-on) quando quiser excluir os dados ou habilitar o serviço.
+No [Guia do Administrador de TI para o Insights](class-insights.md), você pode ler como o Insights funciona (incluindo locais de armazenamento) e [como desativar ou ativar o Insights](class-insights.md#turn-insights-on-or-off) quando quiser excluir os dados ou habilitar o serviço.
 
 Os dados são coletados de alunos no Reflect, no entanto, os dados de convidados não são. **Se um aluno for definido como convidado, seus dados não serão coletados.** 
 

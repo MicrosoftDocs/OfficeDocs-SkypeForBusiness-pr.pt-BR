@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião em Teams para áudio e vídeo.
-ms.openlocfilehash: 3f7a557555d6846c4ada792ceb05da43ce91ed0f
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e599948a78baa96849e9ddaedf6eb2a4a131ebf4
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598702"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004174"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configurações de política de reunião para vídeo & áudio
 
@@ -35,11 +35,12 @@ Este artigo descreve as configurações de política de reunião específicas pa
 
 - [Permitir transcrição](#allow-transcription)
 - [Permitir gravação em nuvem](#allow-cloud-recording)
-- [Modo de áudio IP](#mode-for-ip-audio) 
-- [Modo de vídeo IP](#mode-for-ip-video) 
+- [Modo de áudio IP](#mode-for-ip-audio)
+- [Modo de vídeo IP](#mode-for-ip-video)
 - [Permitir vídeo IP](#allow-ip-video)
 - [Taxa de bits de mídia (Kbs)](#media-bit-rate-kbs)
-- [Modo de vilters de vídeo](#video-filters-mode)
+- [Modo de filtros de vídeo](#video-filters-mode)
+- [Permitir configurações de plano de fundo personalizadas](#allow-custom-background-settings)
 
 ### <a name="allow-transcription"></a>Permitir transcrição
 
@@ -95,7 +96,7 @@ Essa é uma política por usuário. Essa configuração controla se o vídeo pod
 
 Se definido como **Desabilitado** para um usuário, esse usuário não poderá ativar o vídeo ou exibir vídeos compartilhados por outros participantes da reunião. Os participantes da reunião que não têm políticas atribuídas (por exemplo, participantes anônimos) têm essa configuração para **Vídeo de saída e de entrada habilitado** por padrão.
 
-Essa configuração não se aplica aos dispositivos da sala de conferência, como dispositivos de Surface Hub e Salas do Microsoft Teams.  
+Essa configuração não se aplica aos dispositivos da sala de conferência, como dispositivos de Surface Hub e Salas do Microsoft Teams. 
 
 Essa configuração ainda não está disponível para ambientes de Nuvem da Comunidade Governamental (GCC) da Microsoft 365, GCC Altos ou para o Departamento de Defesa (DoD).
 
@@ -106,7 +107,7 @@ Para saber mais, confira [Gerenciar áudio/vídeo para participantes da reunião
 
 ### <a name="allow-ip-video"></a>Permitir vídeo IP
 
-Esta é uma combinação de uma política por usuário e por organizador. O vídeo é um componente fundamental para reuniões. Em algumas organizações, os administradores podem querer ter mais controle sobre quais reuniões têm vídeo. Essa configuração controla se o vídeo pode ser habilitado em reuniões hospedadas por um usuário e em chamadas 1:1 e de grupo iniciadas por um usuário. Em Teams clientes móveis, essa configuração controla se os usuários podem compartilhar fotos e vídeos em uma reunião. 
+Esta é uma combinação de uma política por usuário e por organizador. O vídeo é um componente fundamental para reuniões. Em algumas organizações, os administradores podem querer ter mais controle sobre quais reuniões têm vídeo. Essa configuração controla se o vídeo pode ser habilitado em reuniões hospedadas por um usuário e em chamadas 1:1 e de grupo iniciadas por um usuário. Em Teams clientes móveis, essa configuração controla se os usuários podem compartilhar fotos e vídeos em uma reunião.
 
 As reuniões organizadas por um usuário que possui essa configuração de política habilitada permitem o compartilhamento de vídeo na reunião pelos participantes da reunião, caso os participantes também tenham a configuração de política habilitada. Os participantes da reunião que não possuem políticas atribuídas (por exemplo, participantes anônimos e federados) herdam a política do organizador da reunião.
 
@@ -150,7 +151,7 @@ Para um usuário, a configuração de política mais restritiva para o vídeo te
 |---------|---------|
 |Desabilitar áudio e vídeo para os participantes das reuniões  |Modo de áudio IP: **Desabilitado**<br> Modo de vídeo IP: **Desabilitado**<br>Permitir vídeo IP: N/A       |
 |Habilitar apenas vídeo e áudio de entrada para os participantes nas reuniões  |Modo de áudio IP: **Áudio de entrada e saída habilitado**<br> Modo de vídeo IP: **Vídeo de entrada e saída habilitado**<br>Permitir vídeo IP: **Desativado**       |
-|Desabilitar o vídeo para os participantes nas reuniões (os participantes só têm áudio)|  Modo de áudio IP: **Habilitar o áudio de entrada e saída**<br> Modo de vídeo IP: **Desabilitado**<br>Permitir vídeo IP: N/A        
+|Desabilitar o vídeo para os participantes nas reuniões (os participantes só têm áudio)|  Modo de áudio IP: **Habilitar o áudio de entrada e saída**<br> Modo de vídeo IP: **Desabilitado**<br>Permitir vídeo IP: N/A
 |Habilitar áudio e vídeo para os participantes das reuniões    |Modo de áudio IP: **Áudio de entrada e saída habilitado** (padrão)<br> Modo de vídeo IP: **Vídeo de entrada e saída habilitado** (padrão)<br>Permitir vídeo IP: **Habilitado** (padrão)    |
 
 A política mais restritiva entre a política do organizador da reunião e a política do usuário será aplicada. Por exemplo, se um organizador tiver uma política que restringe vídeo e a política de um usuário não restringe vídeo, os participantes da reunião herdam a política do organizador da reunião e não têm acesso ao vídeo em reuniões. Isso significa que eles podem ingressar à reunião apenas com o áudio.
@@ -160,7 +161,7 @@ A política mais restritiva entre a política do organizador da reunião e a pol
 
 #### <a name="teams-mobile-clients"></a>Cliente de dispositivo móvel do Teams
 
-Para os usuários do Teams em dispositivo móvel, a capacidade de compartilhar fotos e vídeos durante uma reunião também é determinada pela configuração **Permitir vídeo IP** ou **Modo de vídeo de IP**. Dependendo da configuração da política, a capacidade de compartilhar vídeos e fotos não estará disponível. Isso não afeta o compartilhamento de tela, que você configura usando um modo separado de [Compartilhamento de tela](meeting-policies-content-sharing.md#screen-sharing-mode). Além disso, você pode definir uma [Política de mobilidade do Teams](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) para impedir que os usuários móveis usem o vídeo por meio de uma conexão de rede celular, o que significa que devem usar uma conexão WiFi.
+Para os usuários do Teams em dispositivo móvel, a capacidade de compartilhar fotos e vídeos durante uma reunião também é determinada pela configuração **Permitir vídeo IP** ou **Modo de vídeo de IP**. Dependendo da configuração da política, a capacidade de compartilhar vídeos e fotos não estará disponível. Isso não afeta o compartilhamento de tela, que você configura usando um modo separado de [Compartilhamento de tela](meeting-policies-content-sharing.md#screen-sharing-mode). Além disso, você pode definir uma [Política de mobilidade do Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para impedir que os usuários móveis usem o vídeo por meio de uma conexão de rede celular, o que significa que devem usar uma conexão WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Taxa de bits de mídia (Kbs)
 
@@ -176,7 +177,7 @@ Para reuniões que precisem da experiência de qualidade de vídeo mais alta, co
 
 Essa é uma política por usuário. Essa configuração controla se os usuários podem personalizar o plano de fundo do vídeo em uma reunião.
 
-No momento, você só pode usar o PowerShell para definir essa política. Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e atribua essa política aos usuários.
+No momento, você só pode usar o PowerShell para definir essa política. Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua essa política aos usuários.
 
 Para especificar se os usuários podem personalizar o plano de fundo do vídeo em uma reunião, defina o parâmetro **VideoFiltersMode** da seguinte maneira:
 
@@ -190,13 +191,41 @@ Para especificar se os usuários podem personalizar o plano de fundo do vídeo e
 > [!NOTE]
 > As imagens carregadas pelos usuários não são filtradas pelo Teams. Quando você usa a configuração **AllFilters**, você deve ter políticas internas da organização para impedir que os usuários façam o upload de imagens ofensivas ou inadequadas, ou imagens que sua organização não tem direitos de uso para os planos de fundo de reunião do Teams.
 
+### <a name="allow-custom-background-settings"></a>Permitir configurações de plano de fundo personalizadas
 
+Você pode adicionar imagens de plano de fundo personalizadas a serem usadas por locatário. Esse recurso permite que as empresas apliquem a identidade visual corporativa a Teams reuniões.
 
+1. Entre no Centro de administração do Teams.
 
+2. Selecione **Políticas de Reunião** Personalizar imagens de  >  **reunião**.
 
+   ![A seleção de políticas de reunião com o botão Personalizar imagens de reunião realçada](media/custom-background-image-button.png)
+
+3. Selecione **Em em** Imagens de plano de fundo de toda a **organização.**
+
+4. Selecione **+ Adicionar imagens**.
+
+5. No painel Gerenciando plano de fundo, selecione **Adicionar imagem**.
+
+6. Verifique se as imagens atendem a esses requisitos:
+  
+   - Tamanho mínimo 360 px
+   - Tamanho máximo 2048 px
+   - Tipo de arquivo de PNG, JPG ou BMP
+   - Máximo de 50 imagens podem ser carregadas
+
+7. Visualize as imagens selecionadas e selecione **Fechar**.
+
+8. Revise as imagens e adicione mais conforme necessário.
+
+9. Selecione **Salvar**.
+
+Os participantes da reunião verão uma seleção de imagens em segundo plano que podem ser usadas ao participar de uma reunião.
+
+> [!NOTE]
+> Pode levar até 24 horas para que as alterações entre em vigor.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
 - [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
-

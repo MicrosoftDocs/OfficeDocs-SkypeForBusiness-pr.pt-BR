@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901938"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993864"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Dados de diagnóstico móvel necessários para o Microsoft Teams
 
@@ -595,6 +595,7 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **hide** - ocultar o chat.
 - **hideChannel** - ocultar um canal da lista de equipes e canais.
 - **image** - imagem.
+- **inAppNotification**- Acionado quando uma notificação é tocada enquanto o usuário está ativo no aplicativo.
 - **immediateCallForward** - o destino de encaminhamento imediato de chamadas está definido ou permite o encaminhamento imediato de chamadas (chamadas de toque estão desabilitadas).
 - **importanceToggleClicked** - acionado quando o **!** campo é alternado nos detalhes dos itens de tarefa.
 - **importantMessage_select** - Um usuário seleciona uma mensagem importante no menu de contexto de prioridade.
@@ -791,6 +792,7 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **notBlockedDevice** - um usuário não atinge o limite de falhas de atividades em segundo plano em 30 dias.
 - **notNow** - **Agora não** é selecionada no lembrete.
 - **notNowUpdate** - UpdateDefer.
+- **notification/notification_clicked** – Acionado quando uma notificação é tocada.
 - **notificationNavChannelConversation** - inicie o aplicativo usando uma notificação para uma conversa de canal.
 - **notificationNavChannelThreadConversation** - inicie o aplicativo usando uma notificação para uma mensagem específica em uma conversa de canal.
 - **notificationSettingTurnedOff** - desabilite as notificações por push para o aplicativo Teams para Android.
@@ -1044,14 +1046,17 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **showCard** - tocar nos botões de cartão. Os cartões são construções essenciais da plataforma, e a medição do uso e do padrão são necessários para compreender o uso da plataforma e ficar de olho nos possíveis problemas no lado do cliente.
 - **shownReadReceiptNotice** - ao usuário foi mostrado um aviso sobre as opções de configurações.
 - **signIn** - **Entrar** é selecionado na página de boas-vindas ou o botão **Entrar** é tocado.
+- **SignInWithOTP** - O usuário seleciona a opção para entrar como convidado com uma senha de uso único (OTP). 
 - **signUp** - **Criar uma conta gratuita** ou **Inscrever-se gratuitamente** é selecionado.
+- **SignUpFromSignIn**- O usuário toca na opção **Criar uma nova conta** na entrada.
 - **simultaneousCallForward** - acionado quando:
   - O destino de encaminhamento de chamada simultânea está definido.
   - O encaminhamento de chamadas simultâneas está habilitado (Telefonar-me está habilitado e o toque é definido).
-- **skipVerificationForLink** - o usuário optou por ignorar a verificação.
+- **skipVerificationForLink** - O usuário optou por ignorar a verificação.
 - **smartReply** - botão de alternância para resposta inteligente é clicado.
 - **SMSSendMessage** - o usuário envia uma mensagem SMS.
 - **sortChanged** - acionado quando o usuário altera a ordem de classificação enquanto exibe uma lista de tarefas.
+- **SSOAccountListItem**: Acionado quando o usuário toca em uma conta de SSO para entrar.
 - **startEditing** - **o botão Editar** é selecionado.
 - **startPresentPhoto** - comece a apresentação de fotos.
 - **startPresentVideo** - comece a apresentação de vídeos.
@@ -1079,6 +1084,7 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **stuckOnConnectingRetrySelected** - **Repetir** está selecionado na gaveta.
 - **stuckOnConnectingShownDismissed** - um usuário ignorou a gaveta.
 - **suggested_place_selected** - um usuário compartilha um local estático selecionando um local sugerido.
+- **Switching**- O locatário ou a conta é alternado do aplicativo. Isso é necessário para medir problemas de troca de conta/locatário proativamente e fornece uma experiência suave de troca de conta/locatário.
 - **switchTeamAction** - um usuário alterna as equipes no relógio de ponto. Isso deverá ser acionado após o usuário selecionar a equipe para a qual deseja mudar.
 - **switchTeamsDialogTriggered** - um usuário exibe a guia **Turnos**.
 - **tabActionCopyLink** - como os usuários detectam e usam a aba copiar link em dispositivos móveis.
@@ -1211,6 +1217,7 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 > [!NOTE]
 > Para obter informações sobre as propriedades de eventos PanelView, consulte [Propriedades enviadas com os eventos PanelView](#properties-sent-with-panelview-events).
 
+- **appInstall**: Acionado quando um usuário abre o aplicativo pela primeira vez após a instalação.
 - **fileDeleteF** - Acionanda quando uma operação de exclusão de arquivo falha.
 - **fileDeleteSucces** - Acionada quando uma operação de exclusão de arquivo é bem-sucedida.
 - **filePreview** - Acionada nos seguintes cenários:
@@ -1237,21 +1244,31 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **meetingFiles** - Acionada quando a tela de arquivos de reunião é aberta.
 - **meetCtionSheet** – Acionada quando o usuário cria uma reunião do Meet Now.
 - **navPersonalFiles** - Acionada quando a navegação para a tela de arquivos é executada.
+- **signInSSOPage**: Acionado quando o usuário exibe uma página de logon único enquanto estiver conectado.
+-- **signInError**: Acionado quando o usuário encontra qualquer erro enquanto estiver conectado. Isso é necessário para identificar e corrigir proativamente os problemas que os usuários enfrentam durante a entrada. 
+-- **TfLSignInSuccessful**: Acionado quando o usuário entra com êxito em uma conta Microsoft pessoal. Isso é necessário para entender a confiabilidade de entrada e inscrição e identificar e corrigir problemas proativamente.
+-- **TfWFreemiumSignInSuccessful**: Acionado quando o usuário entra com êxito em uma conta freemium. Isso é necessário para entender a confiabilidade de entrada e inscrição e identificar e corrigir problemas proativamente.
+-- **TfWSignInSuccessful**: Acionado quando o usuário entra com êxito em uma conta corporativa ou de estudante. Isso é necessário para entender a confiabilidade de entrada e inscrição e identificar e corrigir problemas proativamente.
 
 ### <a name="scenario"></a>Cenário
 
 > [!NOTE]
 > Para obter informações sobre as propriedades de eventos PanelAction, consulte [Propriedades enviadas com os eventos de cenário](#properties-sent-with-scenario-events).
-
-- **app_incremental_sync_launch** Confirma se a contagem de dados foi atualizada com êxito para inicialização fria.
-- **app_incremental_sync_resume** Confirma se a contagem de dados foi atualizada com êxito para inicialização suave/quente.
-- **app_start_cold** Para monitorar inicialização fria de aplicativo (somente para Android).
-- **app_start_hot** Para monitorar inicialização quente de aplicativo (somente para Android).
-- **app_start_warm** Para monitorar inicialização suave de aplicativo (somente para Android).
+> 
+- **acquire_resource_token_interactive**- Chamada de serviço necessária que é acionada quando um token de autenticação é adquirido por entrada interativa. 
+- **acquire_resource_token_silent**- Chamada de serviço necessária que é acionada quando um token de autenticação é adquirido por entrada silenciosa.
+- **app_crash2** – Acionado quando o aplicativo falha inesperadamente. Fornece informações sobre a frequência com que o aplicativo Teams está falhando. 
+- **app_incremental_sync_launch** - Confirma se a contagem de dados foi atualizada com êxito para inicialização fria.
+- **app_incremental_sync_resume** - Confirma se a contagem de dados foi atualizada com êxito para inicialização suave/quente.
+- **app_start_cold** - Para monitorar inicialização fria de aplicativo (somente para Android).
+- **app_start_hot** - Para monitorar inicialização quente de aplicativo (somente para Android).
+- **app_start_warm** - Para monitorar inicialização suave de aplicativo (somente para Android).
+- **auth_adal_tokens**- Chamada de serviço necessária para fazer autenticação silenciosa. Acionado quando um usuário inicia o aplicativo ou o token é atualizado na expiração.
 - **chat_add_giphy** - Confirma se a ação de renderização do GIF Giphy foi bem-sucedida ou falhou.
-- **cortanaError** Para monitorar o erro ocorrido da Cortana.
-- **cortanaView** – para monitorar o aparecimento da tela da Cortana.
-- **cortanaRestart** para monitorar a reinicialização da Cortana.
+- **chat_send_message_sfc**- Acionado quando uma mensagem de chat é enviada no chat de interoperabilidade do SfC.
+- **cortanaError** - Para monitorar o erro ocorrido da Cortana.
+- **cortanaView** - Para monitorar o aparecimento da tela da Cortana.
+- **cortanaRestart** - Para monitorar a reinicialização da Cortana.
 - **cortanaSetNewConversation** para monitorar a Cortana define uma nova conversa.
 - **cortanaSpeechRecognization** para monitorar a latência de reconhecimento de fala da Cortana.
 - **cortanaStart** para monitorar o início do back-end da Cortana.
@@ -1268,6 +1285,7 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **cortana_skill_action_delay** – confirma o início da ação de atraso.
 - **cortana_watchdog** - para monitorar o processo de recuperação do watchdog da Cortana.
 - **create_default_plan_and_nav_to_view** - confirma a criação bem-sucedida de uma lista de tarefas compartilhadas padrão e quanto tempo demora para um usuário chegar na exibição resultante após a ação.
+- **create_new_chat_thread_sfc**- Acionado quando um novo tópico de chat é criado para um chat de interoperabilidade do SfC.
 - **create_personal_plan_and_nav_to_view** - confirma a criação bem-sucedida de uma lista de tarefas pessoais padrão e quanto tempo demora para um usuário chegar na exibição resultante após a ação.
 - **create_personal_task** - confirma a criação bem-sucedida de um item de tarefa pessoal.
 - **create_planner_plan_and_nav_to_view** - confirma a criação bem-sucedida de uma lista de tarefas compartilhadas e quanto tempo demora para um usuário chegar na exibição resultante após a ação.
@@ -1277,7 +1295,12 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **delete_personal_task** - confirma a exclusão bem-sucedida de um item de tarefas pessoais.
 - **delete_planner_plan** - confirma a exclusão bem-sucedida de uma lista de tarefas compartilhada.
 - **delete_planner_plan** - confirma a exclusão bem-sucedida de uma lista de tarefas compartilhada.
-- **get_sender_sub_scenario** - obter o subcenário do remetente na atividade.
+- **json_parse_failure**- Fornece informações sobre a frequência de problemas de análise JSON.
+- **getProfilePicture**- Chamada de serviço necessária para obter a imagem do perfil do usuário. 
+- **get_resource_token_async**: Chamada de serviço necessária para adquirir tokens para recursos do Azure Active Directory de forma assíncrona.
+- **get_resource_token_sync**: Chamada de serviço necessária para adquirir tokens para recursos do Azure Active Directory de forma síncrona.
+- **get_sender_sub_scenario** - Obter o subcenário do remetente na atividade.
+- **interactiveAuthNopa2** – Acionado quando nenhum usuário de senha é interrompido para fazer autenticação interativa.
 - **load_chat_plans_list** - confirma a busca bem-sucedida de planos do Planner para o modo de exibição plano de chat.
 - **load_home_page** - confirma a busca bem-sucedida das listas de tarefas pessoais e compartilhadas no modo de exibição de início principal.
 - **load_personal_task_list** - confirma a busca bem-sucedida das tarefas de uma lista de tarefas pessoais no modo de exibição da lista de tarefa.
@@ -1292,7 +1315,8 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **rename_personal_plan** - confirma a renomeação bem-sucedida de uma lista pessoal de tarefas.
 - **rename_planner_plan** - confirma a renomeação bem-sucedida de uma lista de tarefas compartilhada.
 - **save_image** Confirma se a ação de salvar imagem foi bem-sucedida ou falhou.
-- **share_image** Confirma se a ação de compartilhamento de imagem foi bem-sucedida ou falhou.
+- **saveMeProfile**- Chamada de serviço necessária que é acionada quando o usuário salva o perfil
+- **share_image** - Confirma se a ação de compartilhamento de imagem foi bem-sucedida ou falhou.
 - **smart_reply_enabled** - confirma que a resposta inteligente está habilitada para o usuário atual.
 - **smart_reply_received** - confirma que uma sugestão de resposta inteligente foi recebida.
 - **smart_reply_banned** - confirma que a resposta inteligente não pode ser exibida para o usuário atual.
@@ -1313,9 +1337,10 @@ Para saber mais sobre dados de diagnóstico, incluindo como controlar quais dado
 - **server_fetch_date_picker_view** Confirma se a sincronização de eventos do calendário usando a API REST do Outlook foi bem-sucedida ou falhou.
 - **server_fetch_agenda_view_group** Confirma se a sincronização de eventos do calendário usando a API de Camada Central para o grupo TFL foi bem-sucedida ou falhou.
 - **server_fetch_date_picker_view_incremental** Confirma se a sincronização incremental de eventos do calendário usando a API REST do Outlook foi bem-sucedida ou falhou.
-- **meeting_details** Confirma se a sincronização de detalhes da reunião foi bem-sucedida ou falhou.
-- **show_meeting_participants** Confirma se a exibição da lista de participantes da reunião foi bem-sucedida ou falhou.
-- **search** Confirma se toda a sessão de pesquisa foi bem-sucedida ou falhou.
+- **meeting_details** - Confirma se a sincronização de detalhes da reunião foi bem-sucedida ou falhou.
+- **show_meeting_participants** - Confirma se a exibição da lista de participantes da reunião foi bem-sucedida ou falhou.
+- **search** - Confirma se toda a sessão de pesquisa foi bem-sucedida ou falhou.
+- **time_based_retention_shared_channel** – Captura dados de desempenho para remover o banco de dados.
 
 ## <a name="property-lists"></a>Listas de propriedades
 

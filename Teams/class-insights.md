@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9be2f3e173a450f99b4ca6451684dd22e7ab267e
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+ms.openlocfilehash: 62b0fec32218d2e3a04c92d5a58c82b6a8d7572c
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064847"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997720"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -44,7 +44,7 @@ Os educadores acessam o Insights em nível da classe. Eles veem a atividade dos 
 
 Não há pré-requisitos para usar o Insights, e os educadores apenas precisam adicionar o Insights à barra de aplicativos à esquerda ou como uma guia para cada uma de suas classes no Teams.
 
-Educadores são identificados pelas licenças do corpo docente. Os educadores devem ter uma licença do corpo docente e ser proprietário de uma equipe de classe para ver os dados apresentados no Insights.
+Os educadores são identificados pelas licenças do corpo docente. Os educadores devem ter uma licença do corpo docente e ser o proprietário de uma equipe de classe para ver os dados no Insights.
 
 ### <a name="education-leaders"></a>Gestores escolares
 Gestores escolares são todas aquelas funções na instituição que precisão de uma visão organizacional para entender o compromisso estudantil, progresso, bem-estar, etc. Os educadores também podem ser líderes educacionais quando possuem uma equipe de classe e precisam mais do que visualizar suas classes, como um coordenador pedagógico. 
@@ -80,7 +80,7 @@ Educadores podem usar estes dois métodos:
 
 O Insights revela os dados de atividade de todos os canais de uma equipe de classe, mas só podem ser adicionados como uma guia para canais públicos. A guia reflete a atividade de todos na equipe de classe que não são proprietários (incluindo educadores que não são proprietários da equipe de classe).
 
-Em ambas exibições, um educador pode acessar os dados de classe. Usando o aplicativo pessoal, o educador precisa fazer uma busca detalhada até o nível da classe, enquanto a guia fornece acesso direto aos dados da classe.
+Em ambas as exibições, um educador pode acessar os dados da classe. Usando o aplicativo pessoal, o educador precisa fazer uma busca detalhada até o nível da turma, enquanto a guia fornece acesso direto aos dados da classe.
 
 No nível da classe, se um educador possui uma equipe de classe, o Insights está disponível sem a necessidade de qualquer outra ação por parte do Administrador de TI.
 
@@ -115,12 +115,12 @@ O Insights oferece suporte às comunidades de aprendizagem durante **o ciclo de 
 :::image type="content" source="media/insights-learning-cycle.png" alt-text="O Insights oferece suporte às comunidades de aprendizagem durante o ciclo de aprendizagem":::
 
 ## <a name="how-insights-works"></a>Como o Insights funciona?
-O Insights produz análises avançadas para ajudar os educadores a oferecer melhores resultados de aprendizagem. Ele faz isto analisando a atividade dos alunos no Teams e, opcionalmente, alavancando os dados do Sistema de Informações do Aluno (SIS) que você fornece para ajudar a contextualizar e agrupar essa atividade. 
+O Insights produz análises avançadas para ajudar os educadores a oferecer melhores resultados de aprendizagem. Ele faz isso analisando a atividade do aluno no Teams e, opcionalmente, aproveitando os dados do Sistema de Informação do Aluno (SIS) que você fornece para ajudar a contextualizar e agrupar essa atividade. 
 
 Antes de começar a implantar o Insights para sua instituição, por favor, dê uma rápida olhada como o Insights funciona, no nosso compromisso com a ética de dados, e no licenciamento necessário.
 
 ### <a name="data-collection"></a>Coleta de dados
-Os dados são coletados para o Insights das atividades dos alunos e educadores no Teams. Dados de convidados não são coletados.
+Os dados são coletados para Insights das atividades dos alunos e educadores no Teams. Os dados dos convidado não são coletados.
 
 O Insights *não* exibe dados sobre os educadores. A análise dos dados fornece ideias acionáveis para auxiliar no ensino e na aprendizagem.
 
@@ -182,16 +182,16 @@ A visualização do Insights no nível de classe como o educador de classe *não
 Para saber mais, leia [**Sincronizar dados do Sistema de Informações do Aluno (SIS) com Insights para Educação**](education-insights-sis-data-sync.md).
 
 ## <a name="manage-permissions"></a>Gerenciar permissões
-Você precisa fornecer permissões para gestores escolares, inspetores, diretores de escola, professores-gestores, conselheiros, coordenadores pedagógicos, diretores de programas, assistentes sociais e psicólogos. Os educadores *automaticamente* recebem permissão quando possuem uma equipe de classe.
+Como administrador de TI, você pode fornecer permissões para líderes educacionais, líderes distritais, diretores de escolas, professores gestores, conselheiros, chefes de áreas de aprendizagem, diretores de programa, assistentes sociais e psicólogos. Os educadores *automaticamente* recebem permissão quando possuem uma equipe de classe.
 
 Para saber mais, leia [**Gerenciar acesso do usuário ao Education Insights**](education-insights-manage-access.md).
 
 ## <a name="manage-the-setup-policy"></a>Gerenciar a política de instalação
-Como Administrador de TI, você pode usar a política de instalação do aplicativo para instalar o Insights por padrão para seus educadores e gestores quando eles iniciam o Teams. Com a política de instalação, você pode personalizar o Teams para destacar o Insights e fixá-lo na barra de aplicativos.
+Como um administrador de TI, você pode usar a política de configuração do aplicativo para instalar o Insights por padrão para seus educadores e líderes quando eles iniciam o Teams. Com a política de instalação, você pode personalizar o Teams para destacar o Insights e fixá-lo na barra de aplicativos.
 
 Se os educadores quiserem acesso direto a cada classe, eles podem instalar manualmente a guia Insights na parte superior do menu de navegação. Esta guia permite que o educador acesse diretamente os dados relevantes quando estiver na classe do Teams para ver os dados no contexto da classe. 
 
-Em ambas exibições, um educador pode acessar os dados de classe. Usando o aplicativo pessoal, o educador precisa fazer uma busca detalhada até o nível da classe, enquanto a guia fornece acesso direto aos dados da classe.
+Em ambas as exibições, um educador pode acessar os dados da classe. Usando o aplicativo pessoal, o educador precisa fazer uma busca detalhada até o nível da turma, enquanto a guia fornece acesso direto aos dados da classe.
 
 > [!TIP]
 > Para mais detalhes, leia [Políticas do Teams e Pacotes de Políticas para Educação](./policy-packages-edu.md).
@@ -210,18 +210,18 @@ Sinta-se à vontade para distribuir o seguinte material para seus **educadores**
 Material para **líderes educacionais**:
 *   [Página de suporte do Insights para organizações de educação.](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)
 
-## <a name="turn-insights-off-or-on"></a>Ativar ou desativar o Insights
+## <a name="turn-insights-on-or-off"></a>Ativar ou desativar o Insights
 Por padrão, o Insights está ativado. Quando você optar por não participar, *apagamos todos os dados coletados* para o Insights. Ative novamente o Insights e começamos a coletar dados a partir do momento em que ele é reativado.
 
-### <a name="turn-off-insights-using-school-data-sync-sds"></a>Desativar o Insights usando o School Data Sync (SDS)
 O School Data Sync (SDS) ajuda a automatizar a importação e sincronização de dados do Sistema de Informações do Aluno (SIS) com o Teams.
 
-A utilização do Insights *não* requer o uso do SDS. No entanto, você pode optar por não participar do Insights a qualquer momento. Abra o [Centro de Administração do SDS](https://sds.microsoft.com) e vá para **Configurações** > **Gerenciar Insights para Educação**. Desativar '**Coletar dados para o Insights**' para desabilitar o Insights. 
+A utilização do Insights *não* requer o uso do SDS. No entanto, você pode optar por não participar do Insights a qualquer momento. 
 
-:::image type="content" source="media/insights-sds-settings.png" alt-text="A opção liga/desliga para ativar ou desativar o Insights.":::
+* Para ligar/desligar o Insights, ao mesmo tempo, abra o [Centro de Administração do SDS](https://sds.microsoft.com/) e vá para **Configurações** > **Gerenciar o Insights para Educação**. Desative/ative a  '**Coleta de dados de atividade para o Insights**' para ativar/desativar o Insights.
 
-### <a name="turn-on-insights"></a>Ativar o Insights
-Se você desativou o Insights, você pode ativá-lo rapidamente. Abra o [Centro de Administração do SDS](https://sds.microsoft.com) e vá para **Configurações** > **Gerenciar Insights para Educação**. Ativar '**Coletar dados para o Insights**' para habilitar o Insights.
+* Para desativar o uso de Insights do School Data Sync, siga as instruções em [Desativando o SDS para Insights](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights).
+
+* Para ativá-lo novamente, siga as instruções em [Como implantar o SDS para o Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
 ### <a name="how-to-delete-your-data"></a>Como excluir seus dados
 O Insights armazena as ações de alunos e educadores realizadas no contexto de uma equipe de classe. Esses dados são considerados um conjunto de dados combinados e, portanto, não são excluídos automaticamente do serviço depois que as contas de usuários dos alunos ou educadores são excluídas da sua organização.
@@ -236,11 +236,11 @@ Se for um *novo* locatário e você *nunca* viu dados no Insights, verifique se 
 
 Se você não tem um gerente de conta, abra um tíquete. Vá para o [Centro de administração do Office 365](https://admin.microsoft.com/AdminPortal/) > **Suporte** > **Nova Solicitação de Serviço**.  No título do tíquete, escreva: "Preciso de ajuda com a verificação educacional".
  
-Além disso, verifique se a coleta de dados para Insights está ativada. Embora esteja ativado por padrão, o administrador de TI pode tê-lo desativado e, portanto, excluído todos os dados mantidos pelo Insights.
+Além disso, verifique se a coleta de dados para Insights está ativada. Embora esteja ativada por padrão, o administrador de TI pode tê-la desativado e, portanto, excluído todos os dados mantidos pelo Insights.
 
-Para verificar isso, abra o [Centro de Administração do SDS](https://sds.microsoft.com) e vá para **Configurações** > **Gerenciar Insights para Educação**. Verifique o status de 'Coletar dados para insights'.
+Para verificar isso, abra o [Centro de Administração do SDS](https://sds.microsoft.com) e vá para **Configurações** > **Gerenciar Insights de Educação**. Verifique o status de 'Coletar dados para insights'.
 
-Se estiver desligado, ligue-o novamente.  O Insights começa a coletar dados, mas pode levar até 24 horas para vê-los nos relatórios. 
+Se estiver desligado, ligue-o novamente.  O Insights começará a coletar os dados, mas pode levar até 24 horas para vê-los nos relatórios. 
 
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>Por que vejo os dados de alguns alunos ou turmas, mas não de todos?
