@@ -21,58 +21,64 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI para exibir Atendedor Automático dados históricos da Fila de Chamada.
-ms.openlocfilehash: d3c8bd7181bab9ee7c199aedbac8a6fcc4c78d75
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba mais sobre como usar o relatório do Power BI do Painel de Qualidade de Chamada para exibir Atendedor Automático dados históricos da Fila de Chamada.
+ms.openlocfilehash: 77b74eb48a16992f7f601bd6cccf3c61b421fc30
+ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121539"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53023242"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Atendedor Automático & Histórico da Fila de Chamada
 
-O Modelo de Relatório Histórico Teams Atendedor Automático & de Fila de Chamada Power BI do CQD fornece os três relatórios a seguir:
+O Modelo de Power BI do Relatório Histórico da Fila de Chamada do CQD Teams Atendedor Automático & fornece os três relatórios a seguir:
 
 - Atendedor Automático – mostrando a análise das chamadas que vêm para seus Assistentes Automáticos.
 - Fila de Chamadas – mostrando a análise das chamadas que vêm em suas Filas de Chamadas.
 - Linha do tempo do agente – mostrando uma exibição de linha do tempo dos agentes que estão ativos em chamadas de Fila de Chamadas.
 
-Esses relatórios usam [](CQD-Power-BI-query-templates.md) dados do armazenamento de dados do Painel de Qualidade de Chamadas e permitem que as organizações informem o número de chamadas que estão sendo processadas por atendimentos automáticos e filas de chamadas, bem como o desempenho do agente nas filas de chamadas.
+Esses relatórios usam dados do armazenamento de dados [do Painel](CQD-Power-BI-query-templates.md) de Qualidade de Chamada. Elas permitem que as organizações informem o número de chamadas que estão sendo processadas pelos atendimentos automáticos e filas de chamadas.  Eles também fornecem informações sobre o desempenho do agente nas filas de chamada.
 
 ## <a name="what-are-the-requirements"></a>Quais são os requisitos? 
 
-Você precisa ter Power BI Desktop instalado. Você pode instalá-lo no [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+Você precisa ter a Área de Trabalho do Power BI instalada. Você pode instalá-lo na [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
-Você pode usar a versão gratuita do Power BI Desktop. A versão mínima compatível é 2.85.681.0 (setembro de 2020).
+Você pode usar a versão gratuita da Área de Trabalho do Power BI. A versão mínima compatível é 2.85.681.0 (setembro de 2020).
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>Permissões para acessar o pipeline do CQD
 
-A conta que você usa para exibir o relatório histórico do AA & CQ Analytics precisa ter permissões para acessar o pipeline de dados CQD. Consulte a função de acesso [CQD para](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) obter mais informações.
+A conta que você usa para exibir o relatório histórico do AA & CQ Analytics precisa ter permissões para acessar o pipeline de dados CQD. Para obter mais informações, consulte [a função de acesso CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## <a name="installation"></a>Instalação 
 
-As etapas a seguir pressuem que você já instalou Power BI Desktop no computador e que sua conta tem as permissões necessárias para acessar o pipeline de dados CQD.
+As etapas a seguir pressuem que você já instalou a Área de Trabalho do Power BI no computador e que sua conta tem as permissões necessárias para acessar o pipeline de dados CQD.
 
-Execute estas etapas:
+Execute as seguintes etapas:
 
-- Baixe o [CQD Power BI Modelos](https://www.microsoft.com/download/details.aspx?id=102291) de Consulta e salve o arquivo zip em um diretório em seu computador.
+- Baixe os [Modelos de Consulta do CQD Power BI](https://www.microsoft.com/download/details.aspx?id=102291) e salve o arquivo zip em um diretório em seu computador.
 
 - Clique duas vezes no arquivo zip para abri-lo.
 
-- Clique duas vezes no arquivo de modelo "CQ e AA combinado analytics 20201105.pbit" e Power BI Desktop deve iniciar.
+- Clique duas vezes no arquivo de modelo "CQ e AA combinado Analytics 20201105.pbit" e a Área de Trabalho do Power BI deve ser lançada.
 
 - Você será solicitado a selecionar a região do pipeline de dados CQD. Selecione a região onde seu locatário está localizado.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela selecionando a região do pipeline de dados CQD":::
 
- - Você pode ver a região usando o cmdlet Skype for Business PowerShell Online (Get-CsTenant). Saída serviceInstance. 
- A região será exibida após o /like neste exemplo:
+- A região onde seu locatário está localizado pode ser obtida usando o cmdlet [Get-CsTenant.](/powershell/module/skype/get-cstenant)
 
-   microsoftcommunicationsonline/noam-4a-s7 onde a região é noam.
- 
+    ```PowerShell
+    (Get-CsTenant).ServiceInstance
+
+
+    microsoftcommunicationsonline/noam-4a-s7
+    ```
+
+    - A região será exibida depois do exemplo acima em **/** que há região: noam
+
  - O relatório será lançado com dados de exemplo.
  
- - Para ver seus próprios dados, clique em **Atualizar** na guia Home em Consultas Power BI Desktop.
+ - Para ver seus próprios dados, selecione **Atualizar** na guia Página Central em Consultas na Área de Trabalho do Power BI.
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela selecionando a opção de atualização":::
 
@@ -80,7 +86,7 @@ Execute estas etapas:
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela mostrando logon":::
 
-- Selecione **Conexão** e assista à atualização de dados.
+- Selecione **Conectar** e assista à atualização de dados.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>Latência de dados e análise do AA & CQ
 
@@ -90,15 +96,15 @@ Você terá que atualizar os dados para ver os novos dados de análise.
 
 ## <a name="customization"></a>Personalização 
 
-Você pode personalizar determinados aspectos de visualização dos relatórios, como adicionar ou remover campos a serem mostrados nas várias visualizações, alterar o tipo de gráfico, etc.
+Você pode personalizar determinados aspectos de visualização dos relatórios, como adicionar ou remover campos a serem mostrados nas várias visualizações, alterar o tipo de gráfico e assim por diante.
 
-Não é possível adicionar campos de dados adicionais que não os fornecidos no relatório.
+Não é possível adicionar campos de dados adicionais ao relatório.
 
 ### <a name="change-color-schema"></a>Alterar esquema de cores 
 
 As etapas a seguir pressuem que você já concluiu as etapas de instalação.
 
-Execute estas etapas:
+Execute as seguintes etapas:
 - Selecione **Exibir guia** na faixa de opções.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de tela selecionando a guia exibir para alterar o esquema de cores":::
@@ -106,101 +112,193 @@ Execute estas etapas:
 - Selecione o esquema de cores na listada.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de tela mostrando vários esquemas de cores":::
+  
+## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Atendedor Automático e Definições de Relatórios Históricos da Fila de Chamada
 
-## <a name="cqd-fields-description"></a>Descrição dos campos CQD
+### <a name="cloud-auto-attendant-analytics"></a>Cloud Atendedor Automático Analytics
+
+#### <a name="report-description"></a>Descrição do relatório
+
+|Seção Relatório                          |Descrição                                                       |
+|:---------------------------------------|:-----------------------------------------------------------------|
+|Fonte de chamada<sup>de entrada 1</sup>        |Distribuição de chamadas por fonte de chamada interna/externa             |
+|Totais do método de pesquisa de diretório          |Distribuição de chamadas por tipo de pesquisa                               |
+|Ação do chamador                           |Distribuição de chamadas por receptor de chamada                             |
+|Resultado da chamada                             |Distribuição de chamadas por estado de chamada final                          |
+|Contagem de ações do chamador                     |Distribuição de chamadas por ação de número usada durante a chamada        |
+
+
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Relatório para mapeamento de campo e tabela CQD
+
+|Guia Relatório            |Nome da tabela de relatório     |Filtro Global                          |
+|:---------------------|:---------------------|:--------------------------------------|
+|Atendedor Automático        |fAutoAttendant        |O AAStartTime está nos últimos 28 dias |
+
+
+|Nome da tabela de relatório            |Nome da tabela de origem            |Processamento       |
+|:----------------------------|:----------------------------|:----------------|
+|fAutoAttendant               |AutoAttendant                |Source = AutoAttendant, <br>#"Filtered Rows" = Table.SelectRows(Source, each true), <br>#"Atendedor Automático" = Table.AddColumn(#"Filtered Rows", "AA Name", each List.First(Text.Split([AAIdentity], "@")) <br>#"Tipo alterado" = Table.TransformColumnTypes(#"Atendedor Automático",{{"AAStartTime", digite datetime}}), <br>#"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"AAIdentity"}) |
+
+
+|Seção Relatório                                  |Field(s) Used                              |Filtros Aplicados     |
+|:-----------------------------------------------|:------------------------------------------|:-------------------|
+|Seletor de data                                   |AAStartTime                                |Nenhum                |
+|Atendedor Automático                                  |Nome do AA                                    |Nenhum                |
+|Fonte de chamada<sup>de entrada 1</sup>                |Tipo de Chamada<br>TotalCallCount                |Chamadas externas: Tipo de chamada é Externo<br>Chamadas internas: Tipo de chamada é Interno |
+|Totais do método de pesquisa de diretório                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod é abs_search_dtmf ou abs_search_name    |
+|Ações do chamador                                  |AATransferAction<br>TotalCallCount         |Nenhum                                                             |
+|Média de segundos no AA<br>Ações médias do chamador |AAChainDuration<br>AACallerActionCount     |Nenhum                                                             |
+|Resultados de chamada                                    |AACallResult<br>TotalCallCount             |Nenhum                                                             |
+|Contagem de ações do chamador                            |AACallerActionCount<br>TotalCallCount      |Nenhum                                                             |
+|Seção inferior do relatório                         |Nome do AA<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Tipo de Chamada<br>TotalCallCount |Nenhum                |
+
+#### <a name="fautoattendant-cqd-fields-description"></a>Descrição dos campos CQD fAutoAttendant
 
 |Nome                                    |Tipo de dados                |Descrição                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Atendedor Automático Identidade                 |string                   |Nome da conta de recurso anexada ao AA<br>Exemplo: aa_test@microsoft.com|
-|Atendedor Automático hora de início da cadeia         |datetime                 |Hora de início da cadeia de AA                    |
-|Atendedor Automático De pesquisa de diretório  |string                   |Método de pesquisa do Livro de Endereços Últimos        |
-|Atendedor Automático Ação de Transferência          |string                   |Tipo de destino de transferência de chamada<br>valores possíveis:<br>§ desconhecido - tipo de entidade não foi especificado<br>§ user - entidade do usuário<br>§ orgaa - Entidade Atendedor Automático organizacional<br>§ hunt_group - Entidade fila de chamada<br>§ application - entidade de aplicativo de voz<br>§ external_pstn - entidade PSTN externa<br>§ shared_voicemail - entidade de caixa postal compartilhada|
-|Atendedor Automático Resultado da Chamada              |string                   |Resultado da chamada:<br>§ desconhecido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|Atendedor Automático chamada Flow                |string                   |Encapsula os diferentes estados de Atendedor Automático Call<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ comunicado|
-|Está Atendedor Automático envolvido              |Boolean                  |Indicado se a AA está envolvida na chamada |
-|Atendedor Automático contagem de ações do chamador      |int                      |Contagem da ação usada pelo chamador         |
-|Atendedor Automático de duração da cadeia   |int                      |Duração da chamada no AA                 |
-|Resultado da chamada de fila de chamada                  |Cadeia de caracteres                   |Estado final da chamada de fila de chamada<br>valores possíveis:<br>§ error<br>§ recusado<br>§ estouro<br>§ falhou<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|Ação de estado final da fila de chamada           |Cadeia de caracteres                   |Ação final da fila de chamada<br>valores possíveis:<br>§ forward<br>§ disconnect<br>§ caixa postal<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ outros|
-|Identidade da Fila de Chamada                     |Cadeia de caracteres                   |Nome da conta de recurso anexada ao CQ<br>Exemplo: aa_test@microsoft.com|
-|Fila de Chamada é modo de conferência           |Boolean                  |Definir como 1 se o modo de conferência estiver habilitado no CQ |
-|Tipo de destino de fila de chamada                  |Cadeia de caracteres                   |Tipo de destino de redirecionamento de chamada esperado     |
-|Transferido da identidade da fila de chamada    |Boolean                  |Nome da conta de recurso anexada ao CQ da qual essa chamada foi transferida<br>Exemplo: aa_test@microsoft.com|
-|Opção do Agente de Fila de Chamada na Contagem           |int                      |Contagem de agentes disponíveis para essa fila no momento da chamada |
-|Contagem do Agente de Fila de Chamada                  |int                      |Contagem de agentes atribuídos a essa fila no momento da chamada |
-|É a fila de chamada envolvida                  |Boolean                  |Se a fila de chamada estiver envolvida nessa chamada igual a 1 |
+|Nome do AA                                 |text                     |Nome da conta de recurso anexada ao Atendedor Automático<br><br>Se o nome completo da conta de recurso **aa_test@microsoft.com** esse valor será: **aa_test** |
+|AACallerActionCount                     |número inteiro             |Resumir: Soma<br>Contagem de ações selecionadas pelo chamador Atendedor Automático durante a chamada  |
+|AACallFlow                              |text                     |Encapsula os diferentes estados da chamada Atendedor Automático -- valores possíveis:<br><br>§ abs_search<br>§ comunicado<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallResult                            |text                     |Resultado final da chamada - valores possíveis:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ desconhecido<br>§ user_terminated |
+|AAChainDuration                         |número decimal           |Resumir: Soma<br>Duração da chamada em Atendedor Automático                     |
+|AAChainIndex                            |text                     |                                                                         |
+|AAConnectivityType                      |text                     |Tipo de chamada - valores possíveis:<br><br>§ ExternalCall<br>§ InternalCall |
+|AACount                                 |text                     |Número de Atendimentos Automáticos envolvidos na chamada                               |
+|AADirectorySearchMethod                 |text                     |Método de pesquisa do último livro de endereços - valores possíveis:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
+|AAStartTime                             |date/time                |Atendedor Automático hora de início da chamada                                           |
+|AATransferAction                        |text                     |Tipo de destino de transferência de chamada - valores possíveis:<br><br>***§ application - entidade de aplicativo** de voz §_<br> external_pstn <br>_§ hunt_group -*_Entidade_* fila de chamada _<br>_ * _§ orgaa - Entidade de Atendedor Automático organizacional_**<br>§ shared_voicemail<br>§ desconhecido<br>§ user |
+|Tipo de chamada<sup>1</sup>                   |text                     |Tipo de chamada - valores possíveis:<br><br>§ Externo<br>§ Interno         |
+|IsAAInvolved                            |text                     |Sempre 1                                                                 |
+|PSTNMinutes                             |número inteiro             |Resumir: Soma<br>Uso total de minutos                                     |
+|TotalCallCount                          |número inteiro             |Resumir: Soma<br>Sempre 1 - usado para fornecer a soma de todas as chamadas            |
 
 
-### <a name="power-bi-data-model-dimensions"></a>Power BI do modelo de dados
+### <a name="cloud-call-queue-analytics"></a>Análise de fila de chamada na nuvem
+
+#### <a name="report-description"></a>Descrição do relatório
+
+|Seção Relatório                          |Descrição                                                        |
+|:---------------------------------------|:------------------------------------------------------------------|
+|Fonte de chamada<sup>de entrada 1</sup>        |Distribuição de chamada por fonte de chamada interna/externa              |
+|Volume da chamada                             |Distribuição de filas de chamada por chamada                                |
+|Resultado do chamador                           |Distribuição do resultado da chamada por chamada                                |
+|Ação total de chamada tempo-extra/estouro      |Distribuição de not forwarded(abandoned) call by call result       |
+|Totais de destino de transferência/encaminhamento          |Distribuição de chamada encaminhada por resultado de chamada                      |
+|Taxa de chamadas abandonadas                   |Taxa de sucesso para contagem de chamada abandonada                        |
+|Comprimento médio da sessão (segundos)        |Comprimento da chamada em segundos agrupado por chamadas abandonadas/bem-sucedidas       |
+
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Relatório para mapeamento de campo e tabela CQD
+
+|Guia Relatório         |Nomes de tabela de relatório                                                          |Filtro Global |
+|:------------------|:---------------------------------------------------------------------------|:-------------|
+|Fila de Chamada         |Datas<br>dCQ-CQIdenity<br>fCallQueueAnalytics<br>fCallQueueFinalStateAction |Nenhum          |
+ 
+|Nome da tabela de relatório            |Nome da tabela de origem            |Processamento       |
+|:----------------------------|:----------------------------|:----------------|
+|Datas                        |Datas                        |Nenhum             |
+|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics, <br>#"Removed Columns" = Table.RemoveColumns(Source,{"Call Count", "Call Queue Call Call Result", "Date", "PSTN Connectivity Type", "Call Queue Target Type", "PSTN Total Minutes"}),<br>Distinct = Table.Distinct(#"Removed Columns") |
+|fCallQueueAnalytics          |CallQueueAnalytics           |Nenhum             |
+|fCallQueueFinalStateAction   |CallQueueFinalStateAction    |Nenhum             |
+
+|Seção Relatório                      |Table -> Field(s) Used                |Filtros Aplicados       |
+|:-----------------------------------|:-------------------------------------|:---------------------|
+|Seletor de data                       |Date -> DateTime                     |Nenhum                  |
+|Identidade da Fila de Chamada                 |dCQ-CQIdentity -> De Fila de Chamada |Nenhum                  |
+|Fonte de chamada<sup>de entrada 1</sup>    |fCallQueueAnalytics -> Contagem de Chamadas<br>fCallQueueAnalytics -> Tipo de Chamada    |Chamadas externas: Tipo de chamada é Externo<br>Chamadas internas: Tipo de chamada é Interno |
+|Tempo de espera avg                    |fCallQueueFinalStateAction -> duração média da chamada (segundos) |Antes da transferência: o resultado da chamada de fila de chamada agent_joined_conference ou transferred_to_agent<br>Antes de desligar: o resultado da chamada da fila de chamada não é agent_joined_conference ou transferred_to_agent |
+|Resultado da chamada                         |fCallQueueAnalytics -> Contagem de Chamadas<br>fCallQueueAnalytics -> Call Queue Call Result | Nenhum |
+|Ação total de chamadas de tempo de tempo/estouro |fCallQueueFinalStateAction -> Contagem de Chamadas<br>fCallQueueFinalStateAction -> ação de estado final da fila de chamada |Ação de Estado Final da Fila de Chamada não está encaminhada |
+|Totais de destino Transfer/Forard       |fCallQueueAnalytics -> Contagem de Chamadas<br>fCallQueueAnalytics -> tipo de destino da fila de chamadas |Nenhum |
+|Volumes de chamada                        |fCallQueueAnalytics -> Contagem de Chamadas<br>fCallQueueAnalytics -> Call Queue Identify<br>fCallQueueAnalytics -> Date |Nenhum |
+|Chamadas abandonadas                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Contagem de Chamadas<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned é True |
+|Comprimento médio da sessão (segundos)    |fCallQueueFinalStateAction -> média de chamada<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |Nenhum |
+
+#### <a name="dcq-cqidenity-cqd-fields-description"></a>DCQ-CQIdenity CQD fields description
 
 |Nome                                    |Tipo de dados                |Descrição                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Nome do AA                                   |string                   |Atendedor Automático ID (ID da conta de recurso) |
-|AACallFlow                              |string                   |Encapsula os diferentes estados de Atendedor Automático Call<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ comunicado |
-|AACallResult                            |string                   |Resultado de Atendedor Automático Chamada:<br>§ desconhecido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – erro de configuração do AA<br>§ service_terminated – erros internos do AA<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
-|AAChainDuration                         |string                   |Duração Atendedor Automático chamada em segundos  |
-|AACount                                 |string                   |# de Atendedor Automático envolver na chamada         |
-|AADirectorySearchMethod                 |string                   |Método de pesquisa usado na chamada:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
-|AAStartTime                             |string                   |Hora da chamada em UTC      |
-|AATransferAction                        |string                   |Receptor de chamada:<br>§ desconhecido - tipo de entidade não foi especificado<br>§ user - entidade do usuário<br>§ AA - Entidade de Atendedor Automático organizacional<br>§ CQ - Entidade fila de chamada<br>§ application - entidade de aplicativo de voz<br>§ external_pstn - entidade PSTN externa<br>§ shared_voicemail - entidade de caixa postal compartilhada      |
-|PSTNMinutes                             |int                      |Uso total de minutos                          |
-|Resultado da chamada de fila de chamada                  |string                   |Estado final da chamada de fila de chamada<br>valores possíveis:<br>§ error<br>§ recusado<br>§ estouro<br>§ falhou<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
-|Identidade da Fila de Chamada                     |string                   |Nome da conta de recurso anexada ao CQ     |
-|Tipo de destino de fila de chamada                  |string                   |Tipo de destino de redirecionamento de chamada esperado:<br>§ Usuário<br>§ Ponto de extremidade do aplicativo<br>§ Outros     |
-|Resultado da chamada de fila de chamada                  |string                   |Estado final da chamada de fila de chamada<br>valores possíveis:<br>§ error<br>§ recusado<br>§ estouro<br>§ falhou<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
-|Ação de estado final da fila de chamada           |string                   |Ação final da fila de chamada<br>valores possíveis:<br>§ forward<br>§ disconnect<br>§ caixa postal<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ outros             |
-|Nome do Agente                              |string                   |UPN do usuário               |
+|Identidade da Fila de Chamada                     |text                     |Nome da conta de recurso anexada à Fila de Chamada<br><br>Se o nome completo da conta de recurso **cq_test@microsoft.com** esse valor será: **cq_test** |
+
+#### <a name="fcallqueueanalytics-cqd-fields-description"></a>Descrição dos campos CQD fCallQueueAnalytics
+
+|Nome                                    |Tipo de dados                |Descrição                                                                |
+|:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
+|Contagem de chamada                              |número inteiro             |Resumir: Soma<br>Número de chamadas                                          |
+|Resultado da chamada de fila de chamada                  |text                     |Estado final da chamada de fila de chamada : valores possíveis:<br><br>§ agent_joined_conference<br>§ recusado<br>§ desconectado<br>§ error<br>§ falhou<br>§ inválido<br>§ estouro<br>§ timed_out<br>§ transferred_to_agent |
+|Identidade da Fila de Chamada                     |text                     |Nome da conta de recurso anexada à Fila de Chamada<br><br>Se o nome completo da conta de recurso **cq_test@microsoft.com** esse valor será: **cq_test** |
+|Tipo de destino de fila de chamada                  |text                     |***Tipo de destino de redirecionamento de chamada - valores possíveis:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Outros<br>§ Usuário |
+|Tipo de chamada<sup>1</sup>                   |text                     |Tipo de chamada - valores possíveis:<br><br>§ Externo<br>§ Interno           |
+|Data                                    |date/time                |Data e hora de início da chamada da fila de chamada (hora) (UTC)                           | 
+|IsAbandoned                             |true/false               |True se a chamada não for atendida por um agente                                   |
+|Tipo de conectividade PSTN                  |text                     |Tipo de chamada - valores possíveis:<br><br>§ ExternalCall<br>§ InternalCall   |
+|Minutos totais do PSTN                      |número inteiro             |Resumir: Soma<br>Uso total de minutos para chamadas PSTN                       |
+
+#### <a name="fcallqueueanalytics-measures-description"></a>fCallQueueAnalytics mede a descrição
+
+|Nome                                    |Tipo de dados                |Descrição                              |
+|:---------------------------------------|:------------------------|:----------------------------------------|
+|***% de chamadas abandonadas***                 |percentagem               |Medida: TotalCallCount / Total de chamadas<br>Taxa de sucesso para contagem de chamada abandonada    |
+|Total de chamadas                             |número inteiro             |Medida: agente soma atendida chamadas        |
+|TotalCallCount                          |número inteiro             |Medida: Soma(Contagem de Chamada)                 |
+
+#### <a name="fcallqueuefinalstateaction--cqd-fields-description"></a>Descrição dos campos CQD fCallQueueFinalStateAction
+
+|Nome                                    |Tipo de dados                |Descrição                                        |
+|:---------------------------------------|:------------------------|:--------------------------------------------------|
+|Duração média da chamada (segundos)         |número decimal           |Resumir: Soma<br>Duração média da chamada em segundos |
+|Contagem de chamada                              |número inteiro             |Resumir: Soma<br>Número de chamadas                  |
+|Resultado da chamada de fila de chamada                  |text                     |Estado final da chamada de fila de chamada : valores possíveis:<br><br>§ agent_joined_conference<br>§ recusado<br>§ desconectado<br>§ error<br>§ falhou<br>§ inválido<br>§ estouro<br>§ timed_out<br>§ transferred_to_agent |
+|Ação de estado final da fila de chamada           |text                     |Ação final da fila de chamada - valores possíveis:<br><br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ outros<br>§ caixa postal |
+|Identidade da Fila de Chamada                     |text                     |Nome da conta de recurso anexada à Fila de Chamada<br><br>Se o nome completo da conta de recurso **cq_test@microsoft.com** esse valor será: **cq_test** |
+|Data                                    |date/time                |Data e hora de início da chamada da fila de chamada (hora) (UTC)   |
+|IsAbandoned                             |true/false               |True se a chamada não for atendida por um agente           |
 
 
-### <a name="measures"></a>Medidas
+### <a name="cloud-call-queue-agent-timeline"></a>Linha do tempo do agente de fila de chamada na nuvem
 
-|Nome                                      |Tipo                       |Descrição                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-|AACallerActionCount                     |int                        |# da ação selecionada pelo usuário no AA durante a chamada  |
-|PSTNMinutes                             |int                      |Uso total de minutos                                  |
-|TotalCallCount                          |int                      |# de chamadas                                          |
-|Duração média da chamada( Segundos)         |int                      |Duração total das chamadas de fila de chamadas em segundos     |
+#### <a name="report-description"></a>Descrição do relatório
 
-
-### <a name="power-bi-graph-description-auto-attendant"></a>Power BI descrição do gráfico Atendedor Automático
-
-|Nome                                      |Descrição                            |
-|:---------------------------------------|:--------------------------------------|
-|Fonte de chamada de entrada                    |Distribuição de chamada pela fonte de chamada interna/externa<sup>1</sup>|
-|Totais do método de pesquisa de diretório          |Distribuição de chamada por tipo de pesquisa                         |
-|Ação do chamador                           |Distribuição de chamada por receptor de chamada                       |
-|Resultado da chamada                             |Distribuição da chamada por estado de chamada final                    |
-|Contagem de ações do chamador                     |Distribuição da ação de chamada por número usada durante a chamada  |
-
-
-### <a name="call-queue"></a>Fila de Chamada
-
-|Nome                                      |Descrição                            |
-|:---------------------------------------|:--------------------------------------|
-|Fonte de chamada de entrada                    |Distribuição de chamada pela fonte de chamada interna/externa<sup>1</sup>   |
-|Volume da chamada                             |Distribuição de filas de chamada por chamada                            |
-|Resultado do chamador                           |Distribuição do resultado da chamada por chamada                            |
-|Ação total de chamada tempo-extra/estouro      |Distribuição de not forwarded(abandoned) call by call result   |
-|Totais de destino de transferência/encaminhamento          |Distribuição de chamada encaminhada por resultado de chamada                  |
-|Taxa de chamadas abandonadas                   |Taxa de sucesso para contagem de chamada abandonada                    |
-|Comprimento médio da sessão (segundos)        |Comprimento da chamada em segundos agrupado por chamadas abandonadas/bem-sucedidas   |
-
-
-
-### <a name="agent-timeline"></a>Linha do tempo do agente
-
-|Nome                                                      |Descrição                            |
-|:-------------------------------------------------------|:--------------------------------------|
+|Seção Relatório                                          |Descrição                                                  |
+|:-------------------------------------------------------|:------------------------------------------------------------|
 |# chamadas por agente                                        |Distribuição de chamada por fila de chamada e agente                 |
 |Duração total da chamada (segundos) por agente e Fila de Chamada   |Duração total (segundos) da chamada por agente e fila de chamada     |
-|Duração média da chamada (segundos) pelo nome do agente            |Duração média (segundos) da chamada por agente                  |
+|Duração média da chamada (segundos) pelo nome do agente           |Duração média (segundos) da chamada por agente                  |
 
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Relatório para mapeamento de campo e tabela CQD
+
+|Guia Relatório         |Nomes de tabela de relatório        |Filtro Global |
+|:------------------|:-------------------------|:-------------|
+|Linha do tempo do agente     |fAgentTimelineAnalytics   |Nenhum          |
+ 
+|Nome da tabela de relatório            |Nome da tabela de origem            |Processamento       |
+|:----------------------------|:----------------------------|:----------------|
+|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics, <br>#"Tipo alterado" = Table.TransformColumnTypes(Source,{{"Call Count", Int64.Type}, {"Call Duration (Minute)", Int64.Type}, {"Average Call Duration (Second)", type number}, {"Date", type date}})|
+
+|Seção Relatório                                |Field(s) Used                         |Filtros Aplicados       |
+|:---------------------------------------------|:-------------------------------------|:---------------------|
+|Nome do Agente                                    |Nome do Agente                            |Nenhum                  |
+|Nome da Fila de Chamada                               |Nome da Fila de Chamada                       |Nenhum                  |
+|#Calls Por Agente                               |Nome do Agente<br>Contagem de chamada<br>Data      |Nenhum                  |
+|Distribuição por Agente e Fila de Chamada          |Nome do Agente<br>Contagem de chamada<br>Duração da chamada (Minutos)<br>Nome da Fila de Chamada |Nenhum                      |
+|Inferior Esquerdo                                   |Nome do Agente<br>Duração média da chamada (segundo)<br>Contagem de chamada<br>Duração da Chamada (Minuto)<br>Nome da Fila de Chamada | Nenhum |
+|Duração média da chamada (segundos) pelo nome do agente |Nome do Agente<br>Duração média da chamada (segundo)<br>Contagem de chamada<br>Duração da Chamada (Minuto)<br>Nome da Fila de Chamada | Nenhum |
+
+#### <a name="fagenttimelineanalytics-cqd-fields-description"></a>FAgentTimelineAnalytics CQD fields description
+
+|Nome                                    |Tipo de dados                |Descrição                                         |
+|:---------------------------------------|:------------------------|:---------------------------------------------------|
+|Nome do Agente                              |text                     |UPN do usuário<br>Se o nome de usuário completo **user@microsoft.com,** esse valor será: **user** |
+|Duração média da chamada (segundo)          |número decimal           |Resumir: Soma<br>A duração média das chamadas de fila de chamadas em segundos |
+|Contagem de chamada                              |número inteiro             |Resumir: Soma<br>Número de chamadas manipuladas pelo agente                    |
+|Duração da Chamada (Minuto)                  |número inteiro             |Resumir: Soma<br>Duração total de chamadas de fila de chamadas em minutos  |
+|Nome da Fila de Chamada                         |text                     |Nome da conta de recurso anexada à Fila de Chamada<br><br>Se o nome completo da conta de recurso **cq_test@microsoft.com** esse valor será: **cq_test** |
+|Data                                    |date                     |                                                    |
 
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- Fila de chamada e atendimentos automáticos são mostrados pela ID da conta de recurso em vez de nomes de fila de chamada/atendimento automático.  Para mostrar todo o tráfego de um atendimento automático ou fila de chamada, selecione todas as contas de recurso atribuídas ao atendimento automático ou fila de chamada.
+- A fila de chamada e os atendimentos automáticos são mostrados pela ID da conta de recurso em vez de nomes de fila de chamada/atendimento automático.  Para mostrar todo o tráfego de um atendimento automático ou fila de chamada, você deve selecionar todas as contas de recursos atribuídas ao atendimento automático ou fila de chamada.
 
-- Somente 28 dias de histórico estão disponíveis no painel, pois os dados de fila de chamada/atendimento automático são considerados informações de identificação do usuário final e estão sujeitos a políticas de retenção de privacidade de dados.
+- Somente 28 dias de histórico estão disponíveis no painel, pois os dados de fila de chamada/atendimento automático são considerados dados pessoais e estão sujeitos a políticas de retenção de privacidade de dados.
 
-- <sup>1</sup> **A origem da** chamada de entrada no atendimento automático e os gráficos de Fila de Chamadas mostram a origem da etapa de chamada final em vez da origem inicial da etapa de chamada. Por exemplo, se um atendente automático receber uma chamada externa e transferir a  chamada para outro atendimento automático ou Fila de Chamadas, a fonte de chamada de entrada será relatada como Interna.
+- <sup>1</sup> **A origem da** chamada de entrada nos gráficos de fila de chamadas e de atendimento automático mostra a origem da etapa de chamada final em vez da origem inicial do trecho de chamada. Por exemplo, se um atendimento automático receber uma chamada externa e transferir a  chamada para outro atendimento automático ou fila de chamadas, a fonte de chamada de entrada será relatada como Interna.
