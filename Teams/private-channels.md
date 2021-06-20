@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 8dd0120f0a92591b3417d01c7a86c396161215a1
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 53eeff9791ac07939756f56a7ebce635ac7cd819
+ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004153"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53023232"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -74,14 +74,14 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 
 |Ação  |Proprietário de equipe|Membro da equipe|Convidado da equipe|Proprietário do canal privado|Membro do canal privado|Convidado do canal privado|
 |---------|---------|---------|---------|---------|---------|---------|
-|Criar um canal privado|Controlado pelo administrador|Controlado pelo administrador e proprietário da equipe|Não|Não disponível|Não disponível|Não disponível|
+|Criar um canal privado|Controlado pelo administrador|Controlado pelo administrador e proprietário da equipe|Não|N/D|N/D|Não disponível|
 |Excluir canal privado|Sim|Não|Não|Sim|Não|Não|
-|Sair do canal privado|Não disponível|Não disponível|N/D|Sim, a menos que eles sejam o último proprietário|Sim|Sim|
-|Editar canal privado|Não|Não disponível|Não disponível|Sim|Não|Não|
+|Sair do canal privado|Não disponível|N/D|N/D|Sim, a menos que eles sejam o último proprietário|Sim|Sim|
+|Editar canal privado|Não|N/D|N/D|Sim|Não|Não|
 |Restaurar canal privado excluído|Sim|Não|Não|Sim|Não|Não|
-|Adicionar membros|Não|Não disponível|Não disponível|Sim|Não|Não|
-|Editar configurações|Não|Não disponível|Não disponível|Sim|Não|Não|
-|Gerenciar guias e aplicativos|Não|Não disponível|N/D|Sim, os aplicativos devem ser instalados para a equipe|Controle de proprietário do canal|Não|
+|Adicionar membros|Não|N/D|N/D|Sim|Não|Não|
+|Editar configurações|Não|N/D|N/D|Sim|Não|Não|
+|Gerenciar guias e aplicativos|Não|N/D|N/D|Sim, os aplicativos devem ser instalados para a equipe|Controle de proprietário do canal|Não|
 
 ## <a name="manage-the-lifecycle-of-private-channels"></a>Gerenciar o ciclo de vida de canais privados
 
@@ -95,7 +95,7 @@ Cada canal privado tem seu próprio site do SharePoint. O site separado é para 
 >Os sites de canal privado do Microsoft Office SharePoint Online não estão incluídos na página de sites ativos do novo Centro de Administração do SharePoint.
 >Os sites do Microsoft Office SharePoint Online de canal privado criados após 28 de junho de 2021 terão o modelo personalizado ID TEAMCHANNEL#1.
 
-Um site de canal privado sincroniza a classificação de dados e herda permissões de acesso de convidado do conjunto do site da equipe pai. A associação do proprietário do site e dos grupos de membros é mantida em sincronia com a associação do canal privado no Teams. As alterações na associação de grupos de Proprietário ou Membro no SharePoint serão revertidas para a associação de canal privado dentro de quatro horas automaticamente. Em situações em que determinados usuários precisam acessar os documentos sem a necessidade de acessar mensagens de canal privado, adicione-os ao grupo visitantes no site ou a um novo grupo separado de Proprietários e Membros.
+Um site de canal privado sincroniza a classificação de dados e herda permissões de acesso de convidado do conjunto do site da equipe pai. A associação do proprietário do site e dos grupos de membros é mantida em sincronia com a associação do canal privado no Teams. As alterações na associação de grupos de Proprietário ou Membro no SharePoint serão revertidas para a associação de canal privado dentro de quatro horas automaticamente. Em cenários em que determinados usuários precisam acessar documentos sem precisar acessar mensagens de canal privado, adicione-os ao grupo Visitantes no documento e na biblioteca ou a um novo grupo separado de Proprietários e Membros.
 
 O Teams gerencia o ciclo de vida do site de canal privado. Se o site for excluído fora do Teams, um trabalho em segundo plano restaurará o site dentro de quatro horas, desde que o canal privado ainda esteja ativo. Se o site for excluído permanentemente, um novo site será provisionado para o canal privado.
 
