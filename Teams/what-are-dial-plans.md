@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Saiba que tipo de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com Teams e como escolher um para sua organização.  '
-ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 010065c32135d893b15bcc692e84a1b59269650d
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100977"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046218"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
@@ -60,7 +60,7 @@ A seguir são apresentados planos de discagem efetivos possíveis:
 Consulte [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar seus planos de discagem de locatário.
 
 > [!NOTE]
-> No cenário em que nenhuma regra de normalização do plano de discagem se aplica a um número discado, a cadeia de caracteres discada ainda é normalizada para pré-anexar "+CC" onde CC é o código de país do local de uso do usuário de discagem. Isso se aplica a planos de chamadas, roteamento direto e cenários de discagem de conferência PSTN.
+> No cenário em que nenhuma regra de normalização do plano de discagem se aplica a um número discado, a cadeia de caracteres discada ainda é normalizada para pré-anexar "+CC" onde CC é o código de país do local de uso do usuário de discagem. Isso se aplica a planos de chamadas, roteamento direto e cenários de discagem de conferência PSTN. Além disso, se uma regra de normalização do plano de discagem de locatário resulta em um número que não começa com "+", o serviço de chamada tentará normalizar o número recebido do cliente Teams com base no plano de discagem do locatário e, se não for corresponder, no plano de discagem da região. Para evitar a normalização dupla, é recomendável que os clientes de Roteamento Direto normalizem números para incluir um + e, em seguida, removam o + usando regras de Tradução de Tronco. 
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planejamento de planos de discagem de locatário
 

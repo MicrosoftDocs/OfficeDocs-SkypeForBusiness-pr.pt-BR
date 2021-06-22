@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como usar o centro de administração Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem (planos de discagem de chamada PSTN).
-ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282358"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046228"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -49,7 +49,7 @@ Depois de planejar os planos de discagem para sua organização e descobrir toda
 5. Organize as regras de normalização na ordem que você deseja. Clique **em Mover para cima** ou Mover **para** baixo para alterar a posição das regras na lista.
 
     > [!NOTE]
-    > Teams percorre a lista de regras de normalização da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem para que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam ordenadas acima das menos restritivas.
+    > Teams percorre a lista de regras de normalização da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem para que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam ordenadas acima das menos restritivas. Se você configurar um plano de discagem que normalize um número discado sem um "+", o serviço de chamada tentará normalizar o número novamente usando regras de plano de discagem regional e locatário. Para evitar a dupla normalização, é recomendável que todas as regras de normalização resultem em números começando com um "+". Os clientes de Roteamento Direto [podem](direct-routing-translate-numbers.md) usar regras de conversão de tronco para remover o "+" se necessário. 
 
 6. Clique em **Salvar**.
 7. Se você quiser testar o plano de discagem, em **Teste** plano de discagem , insira um número de telefone e clique em **Testar**.
