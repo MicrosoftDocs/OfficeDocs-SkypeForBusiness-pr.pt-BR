@@ -57,7 +57,7 @@ productDirectory:
     - title: Workshops de planejamento de atualização
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: 'Planejar e implementar uma atualização bem-sucedida para Teams. (Público: profissionais de TI, gerentes de mudança de adoção)'
-      url: ./upgrade-workshops-landing-page.yml
+      url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
     - title: Cursos

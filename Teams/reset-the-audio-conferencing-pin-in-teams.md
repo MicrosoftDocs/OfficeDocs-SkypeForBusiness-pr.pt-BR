@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Saiba como redefinir o PIN de Audioconferência de um usuário no Microsoft Teams e saiba fatos importantes sobre PINs.
-ms.openlocfilehash: 7ea380fbeb722337eaec598823b12dbe18f49918
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117629"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075374"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Redefinir o PIN de audioconferência no Microsoft Teams
 
 Um PIN é um código que é criado para cada Microsoft Teams usuário habilitado para audioconferência. Os PINs de audioconferência são usados pelos organizadores da reunião para identificar que eles são o organizador da reunião e permitir que eles iniciem uma reunião por telefone. Se eles usarem o Microsoft Teams para iniciar a reunião, um PIN não será necessário. Se os usuários esquecerem o PIN e não puderem encontrá-lo no email que foi enviado para eles quando eles foram habilitados para audioconferência, um administrador pode redefinir seu PIN ou pode redefinir seu próprio PIN.
   
-As reuniões podem ser iniciadas quando um usuário autenticado ingressar usando o aplicativo Microsoft Teams ou quando o organizador ingressar com seu PIN pelo telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
+As reuniões podem ser iniciadas quando um usuário autenticado ingressar usando o aplicativo Microsoft Teams ou quando o organizador ingressar com seu PIN pelo telefone. Quando uma reunião exige que um PIN seja acionada, os usuários que ingressarem no telefone serão colocados no lobby e ouvirão música em espera até que o organizador os admita. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
 
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
