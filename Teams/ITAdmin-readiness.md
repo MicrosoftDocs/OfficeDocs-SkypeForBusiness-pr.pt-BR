@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723419"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105023"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Iniciando o treinamento de administrador para Microsoft Teams
 
@@ -87,7 +87,8 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | ------------| -------------------- |
 | Módulo 1: introdução a Microsoft Teams dispositivos Android  |[Apresentação](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
 | Módulo 2: Planejamento Microsoft Teams dispositivos Android|[Apresentação](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|Módulo 3: recursos de Microsoft Teams Dispositivos Android |[Apresentação](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+|Módulo 3: recursos de Microsoft Teams Dispositivos Android |[Apresentação](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|Módulo 4: Gerenciando Microsoft Teams Dispositivos Android|[Apresentação](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
 
 <h2>Guias interativos</h2>
 
@@ -107,6 +108,7 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Configurando o Microsoft Teams para trabalhadores de primeira linha                           | Saiba como configurar e implantar o ambiente de Microsoft Teams correto para sua Força de Trabalho de Primeira Linha.                                                                                                                  | [Configurando o Microsoft Teams para trabalhadores de primeira linha](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | Identidade da força de trabalho de linha de frente: Capacitar funcionários de IT, gerentes e de linha de frente                    | Saiba como integrar o Microsoft Teams com sistemas de RH existentes, configurar o gerenciamento de identidade delegado leve e configurar transições de entrada simplificadas e perfeitas para aqueles que usam dispositivos compartilhados.                                                                                                                  | [Guia de identidade do trabalhador de linha de frente](https://aka.ms/FLWIdentityIG)              |
 | Implantando Salas do Microsoft Teams                           | Saiba como criar e configurar uma conta para usar com Salas do Microsoft Teams e gerenciar o dispositivo no Microsoft Teams de administração.                                                                                                                  | [Implantando Salas do Microsoft Teams](https://aka.ms/teamsroomslab)              |
+|Trabalhar com Teams Android certificados|Saiba como gerenciar e atualizar Microsoft Teams Telefones, Microsoft Teams Displays, Salas do Microsoft Teams e Microsoft Teams Painéis.|[Trabalhando com Microsoft Teams Android certificados](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>Guias de início rápido</h2>
 

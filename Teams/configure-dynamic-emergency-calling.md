@@ -18,12 +18,12 @@ description: Saiba como configurar os Planos de Chamadas da Microsoft e Sistema 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 5454eff6e09e923a6db8de1ba8c9e9fe47c3f0f2
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910043"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096305"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -113,8 +113,11 @@ As configurações de rede são usadas para determinar o local de um cliente Tea
 
 As configurações de rede incluem sites que incluem uma coleção de sub-redes e são usadas exclusivamente para atribuição de política dinâmica aos usuários. Por exemplo, uma política de chamada de emergência e uma política de roteamento de chamadas de emergência podem ser atribuídas ao "site redmond" para que qualquer usuário que percorram de casa ou outro local da Microsoft seja configurado com números de emergência, roteamento e suporte de segurança específicos para Redmond.  
 
->[!Note]
->As sub-redes também podem ser definidas em LIS e podem ser associadas a um local de emergência.  As sub-redes LIS devem ser definidas pela ID de rede que corresponde ao intervalo IP de sub-rede atribuído aos clientes. Por exemplo, a ID de rede de um IP/máscara de cliente de 10.10.10.150/25 é **10.10.10.128**. Para obter mais informações, [consulte Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
+> [!Note]
+> As sub-redes também podem ser definidas em LIS e podem ser associadas a um local de emergência.  As sub-redes LIS devem ser definidas pela ID de rede que corresponde ao intervalo IP de sub-rede atribuído aos clientes. Por exemplo, a ID de rede de um IP/máscara de cliente de 10.10.10.150/25 é **10.10.10.128**. Para obter mais informações, [consulte Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
+
+> [!Important]
+> As buscas de configuração de rede não são suportadas com implantações de serviço proxy na nuvem que modificam os endereços IP de origem de Teams clientes.
 
 Lembre-se das definições a seguir. Para obter mais informações, consulte [Configurações de rede para recursos de voz na nuvem](cloud-voice-network-settings.md).
 

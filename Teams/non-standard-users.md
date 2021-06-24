@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 23551c102ec8fc0684a979bf85717a02d82e5142
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796638"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096265"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicativos para usuários não padrão
 
@@ -80,6 +80,6 @@ Os usuários anônimos não podem instalar, atualizar ou excluir aplicativos em 
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportamento e política de uso para usuários anônimos
 
-Os usuários anônimos não podem usar aplicativos diretamente em reuniões. Os usuários nativos podem continuar a usar aplicativos de reuniões se os usuários anônimos estão presentes. Se um aplicativo enviar um cartão adaptável no chat, os usuários anônimos poderão interagir com o cartão. Para obter mais informações, leia [Permitir que usuários anônimos participem de reuniões.](/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
+Os usuários anônimos não podem usar aplicativos diretamente em reuniões. Os usuários nativos podem continuar a usar aplicativos de reuniões se os usuários anônimos estão presentes. Se um aplicativo enviar um cartão adaptável no chat, os usuários anônimos poderão interagir com o cartão. Para obter mais informações, leia [Permitir que usuários anônimos participem de reuniões.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
 Os usuários anônimos herdarão a política de permissão padrão global no nível do usuário. Eles podem interagir com aplicativos Teams reuniões se a política de permissão no nível do usuário habilitar o aplicativo. Os usuários anônimos só podem interagir com aplicativos que já estão disponíveis em uma reunião e não podem adquirir e/ou gerenciar esses aplicativos.

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 10547a99b0e63585ae39cc90a5b0cf573a9c94e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e97ddf7f6b7410e83a5e2257d7df6ae2ad27cb7f
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834331"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096278"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configurações de rede para recursos de voz na nuvem Microsoft Teams
 
@@ -61,3 +61,6 @@ Os endereços IP confiáveis são os endereços IP externos da Internet da rede 
 Se o endereço IP externo do usuário corresponde a um endereço IP que está na lista de endereços IP confiáveis, o recurso de voz na nuvem verifica para determinar a sub-rede interna onde o ponto de extremidade do usuário está localizado. Uma combinação pode ser feita em relação a endereços IP IPv4 ou IPv6 e depende do formato do pacote IP enviado para as configurações de rede. (Se um endereço IP público tiver IPv4 e IPv6, você deverá adicionar os dois como endereços IP confiáveis.)
 
 Se o endereço IP externo do usuário não corresponder a um endereço IP que está na lista de endereços IP confiáveis, o ponto de extremidade será classificado como em um local desconhecido.
+
+> [!Important]
+> As buscas de configuração de rede não são suportadas com implantações de serviço proxy na nuvem que modificam os endereços IP de origem de Teams clientes.

@@ -17,16 +17,18 @@ search.appverid: MET150
 description: Saiba como configurar um atendimento automático (também conhecido como fila de chamada) Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea18bcd84ce67dda914461c1bee08fbf8f4f4332
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 1313edc2a1336218f9ab86f53aa207a92d2b6b39
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282438"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105173"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>Etapa 6: Configurar um atendimento automático para o número de telefone principal da sua empresa
 
 Um atendente automático permite configurar um menu de chamada para que os chamadores para o número de telefone principal possam escolher em uma lista de opções. Por exemplo, você pode ter opções para se conectar a um departamento de vendas ou suporte, um indivíduo específico, um quadro de opção e até outro atendimento automático.
+
+O vídeo a seguir mostra como concluir essas etapas no Teams de administração.
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]
 

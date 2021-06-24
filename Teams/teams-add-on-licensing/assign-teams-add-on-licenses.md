@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Saiba como atribuir Teams licenças de complemento aos usuários para recursos como Audioconferência, Sistema de Telefonia e Planos de Chamada.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116929"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53095575"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Atribuir Teams licenças de complemento a usuários
 
@@ -30,7 +30,7 @@ Licenças de complemento são licenças para recursos de Teams específicos, com
 > [!NOTE]
 > Consulte [Teams de complemento](./microsoft-teams-add-on-licensing.md) para Teams recursos disponíveis com licenças de complemento. Você também encontrará informações sobre quais licenças você precisa comprar e como comprá-las (dependendo do seu plano), para que os usuários possam obter recursos como Audioconferência, números de chamada gratuita e a capacidade de chamar números de telefone fora da sua organização. Depois de decidir quais recursos você deseja para seus usuários, atribua as licenças a eles.
 
-Você pode usar o Microsoft 365 de administração ou o PowerShell para atribuir licenças aos usuários em sua organização. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
+Você pode usar o Centro de administração do Microsoft 365 ou o PowerShell para atribuir licenças aos usuários em sua organização. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>O que você precisa saber antes de atribuir Sistema de Telefonia, Plano de Chamada e Créditos de Comunicação
 
@@ -46,9 +46,9 @@ Antes de começar, revise os seguintes requisitos:
 
 - Depois de atribuir licenças de Plano de Chamadas ou Créditos de Comunicação aos usuários, você precisará obter números de telefone para sua organização e atribuir esses números aos usuários. Para obter instruções passo a passo, consulte [Configurar Planos de Chamada](../set-up-calling-plans.md).
 
-## <a name="using-the-microsoft-365-admin-center"></a>Usando o Microsoft 365 de administração
+## <a name="using-the-microsoft-365-admin-center"></a>Usando o Centro de administração do Microsoft 365
 
-Use o Microsoft 365 de administração para atribuir licenças a usuários individuais ou pequenos conjuntos de usuários por vez. Você atribui licenças na página **Licenças** (para até 20 usuários por vez) ou na **página Usuários** ativos. O método escolhido depende se você deseja gerenciar licenças de produtos para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
+Use o Centro de administração do Microsoft 365 para atribuir licenças a usuários individuais ou pequenos conjuntos de usuários por vez. Você atribui licenças na página **Licenças** (para até 20  usuários por vez) ou na página Usuários ativos (para até 40 usuários por vez). O método escolhido depende se você deseja gerenciar licenças de produtos para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
 
 Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
 

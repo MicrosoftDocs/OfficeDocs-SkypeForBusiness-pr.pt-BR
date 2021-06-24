@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba como configurar uma conta de recurso Microsoft 365 Business Voice para uso com os atendentes automáticos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618f26394f2b4acc44d56b814bd31c20ffe1a370
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: df5001b6f757b407e96a473d302c79d837af957c
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282768"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105163"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>Etapa 4: Configurar uma conta de recurso do Business Voice
 
@@ -31,6 +31,10 @@ As contas de recursos não são atribuídas a nenhum usuário específico. Em ve
 Ao associar contas de recursos a atendimentos automáticos e filas de chamadas, você pode adicionar um ou mais números de telefone gratuitos ou de chamada gratuita a eles. Por exemplo, você pode associar uma conta de recurso a um número de chamada a um atendimento automático para chamadores locais. Para chamadas de longa distância, você pode associar outra conta de recurso a um número de chamada gratuita ao mesmo atendimento automático.
 
 As seções deste artigo mostram como configurar uma conta de recurso e atribuir um número de telefone a ela. Mais tarde, você associará a conta de recurso a um atendente automático.
+
+O vídeo a seguir mostra como concluir essas etapas no Teams de administração.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
 
 ## <a name="obtain-virtual-user-licenses"></a>Obter licenças de usuário virtual
 
@@ -41,7 +45,7 @@ As contas de recursos exigem uma licença para trabalhar com os atendimentos aut
 >
 > Para ver se você já tem licenças virtuais, entre Microsoft 365 usando uma conta com permissões de administrador global. Em seguida, vá para Cobrança > [Seus produtos](https://admin.microsoft.com/Adminportal/Home#/subscriptions). Se você tiver licenças virtuais, elas aparecerão como Microsoft 365 Sistema de Telefonia **- Usuário Virtual**.
 
-1. Abra o Microsoft 365 de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+1. Abra o Centro de administração do Microsoft 365 e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever para Microsoft 365).
 2. No painel de navegação esquerdo, vá para <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank"> **Cobrança**  >  **Serviços**</a>de Compra  >  **Complementos**  >  **Consulte todos os produtos complementos**.
 3. Role até o final para encontrar a licença **Microsoft 365 Sistema de Telefonia – Usuário Virtual.** Selecione **Detalhes** **e,** em seguida, Comprar .
 4. Na página de compra de licença, selecione o número de licenças de usuário virtual que você deseja. Você precisa de uma licença virtual para cada atendimento automático e fila de chamada que planeja configurar. Recomendamos selecionar pelo menos cinco licenças para que você possa facilmente configurar mais atendimentos automáticos e filas de chamada no futuro sem precisar comprar mais licenças imediatamente.
@@ -71,9 +75,9 @@ Depois de receber sua Microsoft 365 Sistema de Telefonia *- Licença de Usuário
 
 Depois de criar sua conta de recurso, você precisará atribuir uma Microsoft 365 Sistema de Telefonia *- licença* de usuário virtual *ou* Sistema de Telefonia licença.
 
-![Captura de tela da interface do usuário atribuir licenças no Microsoft 365 de administração](../media/resource-account-assign-virtual-user-license.png)
+![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
 
-1. Abra o Microsoft 365 de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+1. Abra o Centro de administração do Microsoft 365 e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever para Microsoft 365).
 1. No painel de navegação esquerdo, vá para <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank"> **Usuários**  >  **Usuários ativos.**</a>
 1. Selecione sua conta de recurso.
 1. Na guia **Licenças e Aplicativos,** em **Licenças,** selecione **Microsoft 365 Sistema de Telefonia - Usuário Virtual**.

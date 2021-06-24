@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba como atribuir números Microsoft 365 Business Voice telefone a usuários em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d380fe3b3f5524f756a85f7b51037a07cd8cfc45
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 0792b644c97194867c448ed67fb574bfb7735325
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282568"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105153"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>Etapa 5: Atribuir números de telefone do Business Voice aos usuários
 
@@ -32,6 +32,10 @@ Antes que os usuários possam Teams para fazer ou receber chamadas telefônicas 
 
 > [!NOTE]
 > Se você não vir nenhum número de telefone, aguarde. Pode levar várias horas para que seus novos números de telefone se tornem disponíveis Teams.
+
+O vídeo a seguir mostra como concluir essas etapas no Teams de administração.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYO]
 
 1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
 1. No painel de navegação esquerdo, vá para Voz Telefone <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">   >  **números**</a>.

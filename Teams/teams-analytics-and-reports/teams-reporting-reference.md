@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os relatórios Teams que estã
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d195c90dc7e959146546dde1a75fedf0764c24a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 57135e50b604c8e92a7ff78963af9520ccc87b8a
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478341"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096315"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -36,7 +36,7 @@ Para acessar os relatórios, você deve ser um administrador global no Microsoft
 Vá para o Microsoft Teams de administração, na navegação à esquerda, selecione **Análise & relatórios** e, em Relatório, escolha o relatório que deseja executar. 
 
 > [!NOTE]
-> Os relatórios no centro de administração Microsoft Teams são separados dos relatórios de atividades para Teams que fazem parte dos relatórios Microsoft 365 no centro de administração Microsoft 365 do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no centro de administração Microsoft 365, consulte Teams relatórios de atividades no centro de administração Microsoft 365 [de administração](../teams-activity-reports.md)
+> Os relatórios no centro de administração Microsoft Teams são separados dos relatórios de atividades para Teams que fazem parte dos relatórios Microsoft 365 no Centro de administração do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no Centro de administração do Microsoft 365, consulte Teams relatórios de [atividade no Centro de administração do Microsoft 365](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams de relatórios
 
@@ -54,6 +54,8 @@ Estamos melhorando continuamente a experiência de relatório Teams e adicionand
 |[Teams Relatório de pools de minutos PSTN](pstn-minute-pools-report.md) |  País ou região<br>Funcionalidade (licença) <br>Total de minutos<br>Minutos usados<br>Minutos disponíveis|
 |[Teams Relatório de uso de PSTN - Planos de Chamada](pstn-usage-report.md#calling-plans)|  Carimbo de data/hora<br>Nome de usuário<br>Telefone número<br>Tipo de chamada <br>Chamado para<br>Para país ou região <br>Chamado de <br>Do país ou região<br>Charge<br>Moeda<br>Duração<br>Doméstico/Internacional<br>ID da chamada<br>Tipo de número<br>País ou região<br>ID de conferência<br>Funcionalidade (licença)|
 |[Teams Relatório de uso PSTN - Roteamento Direto](pstn-usage-report.md#direct-routing)  |  Carimbo de data/hora<br>Nome para exibição<br>Endereço SIP<br>Telefone número <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>SBC FQDN<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcodigo final da Microsoft<br>Frase SIP final<br>ID de correlação  |
+|[Teams relatório de licença de proteção de informações - Roteamento Direto](information-protection-license-report.md)  | <br>Se os usuários têm licenças válidas para enviar suas mensagens por meio de notificações de alteração</br><br>Número total de eventos de notificação de alteração trigerados por um usuário</br><br>Quais aplicativos estão escutando eventos de notificação de alterações em toda a organização</br>|
+
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
@@ -61,9 +63,9 @@ Estamos melhorando continuamente a experiência de relatório Teams e adicionand
 
 Para tornar os dados na Teams do usuário e Teams relatório de uso do dispositivo anônimo, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e ID do AAD em relatórios e suas exportações.
 
-1. No Microsoft 365 de administração, vá para a **Configurações** \> **Org Configurações** e, em  Serviços, escolha **Relatórios**.
+1. Em Centro de administração do Microsoft 365, vá para **a** Configurações \> **Org Configurações** e, em **Serviços,** escolha **Relatórios**.
     
-2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos.** Essa configuração é aplicada aos relatórios de uso no Microsoft 365 de administração, bem como Teams centro de administração.
+2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos.** Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como Teams centro de administração.
   
 3. Selecione **Salvar alterações**.
 
