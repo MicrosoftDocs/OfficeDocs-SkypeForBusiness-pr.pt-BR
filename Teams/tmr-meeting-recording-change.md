@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096295"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114010"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -57,7 +57,7 @@ Os benefícios do uso do OneDrive for Business e do SharePoint para armazenar gr
 - Suporte Multi-Geo - As gravações são armazenadas em uma região específica para esse usuário
 - Suporte ao Bring Your Own Key (BYOK)
 
-Consulte a lista completa de [recursos disponíveis hoje e o que esperar ao longo do tempo.](https://docs.microsoft.com/stream/streamnew/features-new-version-stream) 
+Consulte a lista completa de [recursos disponíveis hoje e o que esperar ao longo do tempo.](/stream/streamnew/features-new-version-stream) 
 
 Assista a "What's New for Microsoft Teams Meeting Recordings" para obter mais informações.
 
@@ -142,7 +142,7 @@ Por padrão, todos os arquivos de gravação irão para a conta do OneDrive do u
 
 **Como tratar das gravações de ex-funcionários?**
 
-Como vídeos são como qualquer outro arquivo no OneDrive for Business e no SharePoint, o tratamento da propriedade e da retenção após a saída de um funcionário seguirá o [processo normal do OneDrive for Business e do SharePoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Como vídeos são como qualquer outro arquivo no OneDrive for Business e no SharePoint, o tratamento da propriedade e da retenção após a saída de um funcionário seguirá o [processo normal do OneDrive for Business e do SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
 **Quem tem as permissões para exibir a gravação da reunião?**
 
@@ -155,7 +155,7 @@ Como vídeos são como qualquer outro arquivo no OneDrive for Business e no Shar
 
 **Como posso gerenciar as legendas?**
 
-As legendas ocultas para gravações de reunião do Teams estarão disponíveis durante a reprodução somente se o usuário tiver ativado a transcrição no momento da gravação. Os administradores devem [ativar a transcrição da gravação por meio da política]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) para garantir que os usuários tenham a opção de gravar as reuniões com transcrição.
+As legendas ocultas para gravações de reunião do Teams estarão disponíveis durante a reprodução somente se o usuário tiver ativado a transcrição no momento da gravação. Os administradores devem [ativar a transcrição da gravação por meio da política](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) para garantir que os usuários tenham a opção de gravar as reuniões com transcrição.
 
 As legendas ajudam a criar conteúdo inclusivo para visualizadores com diferentes habilidades.  Como um proprietário, você pode ocultar as legendas na gravação da reunião, mas a transcrição da reunião ainda estará disponível no Teams, a menos que você a exclua de lá. 
 

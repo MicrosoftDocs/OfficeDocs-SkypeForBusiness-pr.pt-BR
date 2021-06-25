@@ -21,45 +21,46 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Saiba mais sobre como usar o relatório do Power BI do Painel de Qualidade de Chamada para exibir Atendedor Automático dados históricos da Fila de Chamada.
-ms.openlocfilehash: 77b74eb48a16992f7f601bd6cccf3c61b421fc30
-ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
+description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI para exibir Atendedor Automático dados históricos da Fila de Chamada.
+ms.openlocfilehash: 994e135cfd579d473da02879adde0d3603ab0ed2
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53023242"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129331"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Atendedor Automático & Histórico da Fila de Chamada
 
-O Modelo de Power BI do Relatório Histórico da Fila de Chamada do CQD Teams Atendedor Automático & fornece os três relatórios a seguir:
+O Modelo de Relatório Histórico Teams Atendedor Automático & de Fila de Chamada Power BI do CQD fornece os três relatórios a seguir:
 
-- Atendedor Automático – mostrando a análise das chamadas que vêm para seus Assistentes Automáticos.
-- Fila de Chamadas – mostrando a análise das chamadas que vêm em suas Filas de Chamadas.
-- Linha do tempo do agente – mostrando uma exibição de linha do tempo dos agentes que estão ativos em chamadas de Fila de Chamadas.
+- [Atendedor Automático](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – mostrando a análise das chamadas que vêm para seus Assistentes Automáticos.
+- [Fila de](media/cqd-teams-aa-cq-historical-report-sample-cq.png) Chamadas – mostrando a análise das chamadas que vêm em suas Filas de Chamadas.
+- [Linha do tempo](media/cqd-teams-aa-cq-historical-report-sample-at.png) do agente – mostrando uma exibição de linha do tempo dos agentes que estão ativos em chamadas de Fila de Chamadas.
 
 Esses relatórios usam dados do armazenamento de dados [do Painel](CQD-Power-BI-query-templates.md) de Qualidade de Chamada. Elas permitem que as organizações informem o número de chamadas que estão sendo processadas pelos atendimentos automáticos e filas de chamadas.  Eles também fornecem informações sobre o desempenho do agente nas filas de chamada.
 
-## <a name="what-are-the-requirements"></a>Quais são os requisitos? 
+## <a name="prerequisites"></a>Pré-requisitos
 
-Você precisa ter a Área de Trabalho do Power BI instalada. Você pode instalá-lo na [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+### <a name="power-bi-desktop"></a>Power BI Desktop
+Você precisa ter Power BI Desktop instalado. Você pode instalá-lo no [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
-Você pode usar a versão gratuita da Área de Trabalho do Power BI. A versão mínima compatível é 2.85.681.0 (setembro de 2020).
+Você pode usar a versão gratuita do Power BI Desktop. A versão mínima compatível é 2.85.681.0 (setembro de 2020).
 
-## <a name="permissions-to-access-the-cqd-pipeline"></a>Permissões para acessar o pipeline do CQD
+### <a name="permissions-to-access-the-cqd-pipeline"></a>Permissões para acessar o pipeline do CQD
 
 A conta que você usa para exibir o relatório histórico do AA & CQ Analytics precisa ter permissões para acessar o pipeline de dados CQD. Para obter mais informações, consulte [a função de acesso CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## <a name="installation"></a>Instalação 
 
-As etapas a seguir pressuem que você já instalou a Área de Trabalho do Power BI no computador e que sua conta tem as permissões necessárias para acessar o pipeline de dados CQD.
+As etapas a seguir pressuem que você já instalou Power BI Desktop no computador e que sua conta tem as permissões necessárias para acessar o pipeline de dados CQD.
 
 Execute as seguintes etapas:
 
-- Baixe os [Modelos de Consulta do CQD Power BI](https://www.microsoft.com/download/details.aspx?id=102291) e salve o arquivo zip em um diretório em seu computador.
+- Baixe o [CQD Power BI Modelos](https://www.microsoft.com/download/details.aspx?id=102291) de Consulta e salve o arquivo zip em um diretório em seu computador.
 
 - Clique duas vezes no arquivo zip para abri-lo.
 
-- Clique duas vezes no arquivo de modelo "CQ e AA combinado Analytics 20201105.pbit" e a Área de Trabalho do Power BI deve ser lançada.
+- Clique duas vezes no arquivo de modelo "CQ e AA combinado analytics 20201105.pbit" e Power BI Desktop deve iniciar.
 
 - Você será solicitado a selecionar a região do pipeline de dados CQD. Selecione a região onde seu locatário está localizado.
 
@@ -78,7 +79,7 @@ Execute as seguintes etapas:
 
  - O relatório será lançado com dados de exemplo.
  
- - Para ver seus próprios dados, selecione **Atualizar** na guia Página Central em Consultas na Área de Trabalho do Power BI.
+ - Para ver seus próprios dados, selecione **Atualizar** na guia Home em Consultas Power BI Desktop.
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela selecionando a opção de atualização":::
 
@@ -86,7 +87,7 @@ Execute as seguintes etapas:
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela mostrando logon":::
 
-- Selecione **Conectar** e assista à atualização de dados.
+- Selecione **Conexão** e assista à atualização de dados.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>Latência de dados e análise do AA & CQ
 

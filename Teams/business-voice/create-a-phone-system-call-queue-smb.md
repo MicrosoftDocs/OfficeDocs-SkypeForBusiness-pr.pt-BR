@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar filas de chamada para pequenas empresas em Microsoft 365 Business Voice.
-ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739663"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126917"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
 
@@ -118,13 +118,13 @@ Você pode criar uma conta de recurso no Teams de administração.
 
 Você deve atribuir uma *Microsoft 365 Sistema de Telefonia - Licença de usuário virtual* à conta de recurso.
 
-1. No centro Microsoft 365 de administração,  na lista Usuários ativos, clique na conta de recurso à qual você deseja atribuir uma licença.
+1. Na Centro de administração do Microsoft 365, na **lista** Usuários ativos, clique na conta de recurso à qual você deseja atribuir uma licença.
 
 2. Na guia **Licenças e Aplicativos,** em **Licenças,** selecione **Microsoft 365 Sistema de Telefonia - Usuário Virtual**.
 
 3. Clique **em Salvar alterações**.
 
-    ![Captura de tela da interface do usuário atribuir licenças no Microsoft 365 de administração](../media/resource-account-assign-virtual-user-license.png)
+    ![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -157,7 +157,7 @@ Em seguida, vamos começar a criar uma nova fila de chamada e atribuir a conta d
 
 # <a name="step-3brcall-agents"></a>[Etapa 3 <br> Agentes de chamada](#tab/call-agents)
 
-Para adicionar agentes à fila de chamada, vamos adicioná-los à equipe e ao canal que criamos anteriormente.
+Para adicionar agentes à fila de chamada, vamos adicioná-los à equipe e ao canal que criamos anteriormente. Você precisa ser membro da equipe para fazer isso.
 
 1. Selecione a **opção Escolher uma equipe** e clique em Adicionar um **canal**.
 2. Digite o nome da equipe que você criou, selecione-a e clique em **Adicionar**.

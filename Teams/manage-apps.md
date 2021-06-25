@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos Teams na página Gerenciar ap
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 2930b3c0b0ec149d5f18fa6f5fd6db2bd7b4c149
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: 6ea09ae40068277c5e450c19b6e258d04fd40fdc
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947583"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126907"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no Microsoft Teams de administração
 
@@ -58,7 +58,7 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
 - **Comprado**: o aplicativo oferece uma assinatura SaaS e você comprou licenças para ele.
 - **- -**: o aplicativo não oferece uma assinatura SaaS.
 - **Aplicativo personalizado**: se o aplicativo é um aplicativo personalizado.
-- **Permissões**: Indica se um aplicativo personalizado ou de terceiros registrado no Active Directory do Azure (Azure AD) tem permissões que precisam de consentimento. Você verá um dos seguintes valores:
+- **Permissões**: Indica se um aplicativo personalizado ou de terceiros registrado no Azure Active Directory (Azure AD) tem permissões que precisam de consentimento. Você verá um dos seguintes valores:
 - **Detalhes de** exibição : o aplicativo tem permissões que exigem consentimento antes que o aplicativo possa acessar dados.
 - **- -**: O aplicativo não tem permissões que precisam de consentimento.
 - **Categorias**: categorias que se aplicam ao aplicativo.
@@ -144,7 +144,7 @@ Use as configurações de aplicativos em toda a organização para controlar se 
     - **Permitir aplicativos de terceiros**: controla se os usuários podem usar aplicativos de terceiros. Se você desativar essa configuração, os usuários não poderão instalar ou usar aplicativos de terceiros,  e o status do aplicativo desses aplicativos será exibido como Bloqueado em toda a organização na tabela.
 
         > [!NOTE]
-        > Quando **Permitir que aplicativos de** terceiros sejam desativados, os [webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) de saída serão desabilitados, o que significa que os usuários não podem cria-los. Quando essa configuração está ativada, os webhooks de saída são habilitados para todos os usuários e você pode controlá-los no nível do usuário, permitindo ou bloqueando o aplicativo Webhook de saída por meio de políticas de permissão de [aplicativo.](teams-app-permission-policies.md) <br><br>Observe que, se [](teams-app-permission-policies.md) você tiver políticas de permissão  de aplicativo existentes para aplicativos **da Microsoft** que usam a configuração Permitir aplicativos específicos e bloquear todos os outros, e quiser habilitar webhooks de saída para usuários, adicione o aplicativo Webhook de saída à lista.
+        > Quando Permitir que aplicativos de terceiros esteja desligado, os [webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) de saída ainda serão habilitados para todos os usuários, mas você pode **controlá-los** no nível do usuário permitindo ou bloqueando o aplicativo Webhook de saída por meio de políticas de permissão de [aplicativo.](teams-app-permission-policies.md) <br><br>Observe que, se [](teams-app-permission-policies.md) você tiver políticas de permissão  de aplicativo existentes para aplicativos **da Microsoft** que usam a configuração Permitir aplicativos específicos e bloquear todos os outros, e quiser habilitar webhooks de saída para usuários, adicione o aplicativo Webhook de saída à lista.
 
         > [!NOTE]
         > Os usuários do Teams podem adicionar aplicativos ao hospedar reuniões ou chats com pessoas de outras organizações. Eles também podem usar aplicativos compartilhados por pessoas de outras organizações quando ingressarem em reuniões ou chats hospedados por essas organizações. As políticas de dados da organização do usuário de hospedagem, assim como as práticas de compartilhamento de dados de qualquer aplicativo de terceiros compartilhado pela organização desse usuário, serão aplicadas.

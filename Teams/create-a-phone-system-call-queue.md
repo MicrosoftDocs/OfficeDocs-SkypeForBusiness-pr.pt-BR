@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: fe0c2863c627f728f5418cfeb9b7b17c91d246fa
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: c07c5a42241a62f9ecfe90340cab473800469ca9
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777922"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126887"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -106,7 +106,7 @@ Revise os [pré-requisitos para adicionar agentes a uma fila de chamada.](plan-a
 
 Você pode adicionar até 200 agentes por meio de um Teams canal.
 
-Se você quiser usar [um canal Teams para gerenciar](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)a fila, selecione a opção Escolher uma **equipe** e clique em Adicionar **um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar e clique em **Aplicar**.
+Se você quiser usar [um canal Teams para gerenciar](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)a fila, selecione a opção Escolher uma **equipe** e clique em Adicionar **um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar e clique em **Aplicar**. Você deve ser membro da equipe ou criador ou proprietário do canal.
 
 Os seguintes clientes são suportados ao usar um canal Teams para filas de chamada: 
 

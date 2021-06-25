@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como habilitar os usuários Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075364"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129321"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuários para Roteamento Direto, voz e caixa postal
 
@@ -42,7 +42,7 @@ Quando você estiver pronto para habilitar usuários para Roteamento Direto, sig
 3. Configure o número de telefone e habilita a voz corporativa e a caixa postal. 
 4. Atribua Teams modo Somente aos usuários.
 
-## <a name="create-a-user-and-assign-the-license"></a>Criar um usuário e atribuir a licença 
+## <a name="create-a-user-and-assign-the-license"></a>Criar um usuário e atribuir a licença
 
 Há duas opções para criar um novo usuário no Microsoft 365 ou Office 365. No entanto, a Microsoft recomenda que sua organização escolha uma opção para evitar problemas de roteamento: 
 
@@ -53,9 +53,9 @@ Se sua implantação do Skype for Business Online coexistir com o Skype for Busi
 
 Para obter informações sobre os requisitos de licença, consulte [licenciamento e outros requisitos](direct-routing-plan.md#licensing-and-other-requirements) em [Plan Direct Routing](direct-routing-plan.md).
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Certifique-se de que o usuário está em casa online e que o número de telefone não está sendo sincronizado no local (aplicável para usuários habilitados Skype for Business Server Enterprise Voice que estão sendo migrados para Teams Roteamento Direto)
+## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Verifique se o usuário está em casa online (aplicável Skype for Business Server Enterprise Voice usuários habilitados que estão sendo migrados para Teams Roteamento Direto)
 
-O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar olhando para o parâmetro RegistrarPool, que precisa ter um valor no infra.lync.com domínio. O parâmetro OnPremLineUriManuallySet também deve ser definido como True. Isso é feito configurando o número de telefone e habilitando a voz corporativa e a caixa postal usando Skype for Business PowerShell Online.
+O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar olhando para o parâmetro RegistrarPool, que precisa ter um valor no infra.lync.com domínio. Também é recomendável, mas não necessário, alterar o gerenciamento do LineURI de local para online ao migrar usuários para Teams Roteamento Direto. 
 
 1. Conexão uma sessão Skype for Business Do PowerShell Online.
 
@@ -64,13 +64,16 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    Caso OnPremLineUriManuallySet seja definido como False e LineUri for preenchido com um número de telefone do <E.164>, limpe os parâmetros usando o Shell de Gerenciamento local Skype for Business, antes de configurar o número de telefone usando o Skype for Business Online PowerShell. 
+    Caso OnPremLineUriManuallySet seja definido como False e LineUri for preenchido com um número de telefone do <E.164>, o número de telefone foi atribuído no local e sincronizado com o O365. Se você quiser gerenciar o número de telefone online, limpe o parâmetro usando o Shell de Gerenciamento local Skype for Business e sincronizar com o O365, antes de configurar o número de telefone usando o Skype for Business Online PowerShell. 
 
 1. A partir Skype for Business Shell de Gerenciamento em questão o comando: 
 
    ```PowerShell
-   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+   Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
+ > [!NOTE]
+ > Não defina EnterpriseVoiceEnabled como False, pois não há nenhum requisito para fazer isso e isso pode levar a problemas de normalização do plano de discagem se os telefones Skype for Business herdados estão em uso e a configuração híbrida tenant é definida com UseOnPremDialPlan $True. 
+    
    Depois que as alterações sincronizadas Office 365 a saída esperada `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` de seria:
 
    ```console
@@ -79,16 +82,22 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
    OnPremLineURI                        : 
    LineURI                              : 
    ```
+ > [!NOTE]
+ > Todos os atributos de telefone do usuário devem ser gerenciados online antes de você [decomissioná-lo Skype for Business ambiente local.](/skypeforbusiness/hybrid/decommission-on-prem-overview) 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Configurar o número de telefone e habilitar voz corporativa e caixa postal 
+## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Configurar o número de telefone e habilitar a voz corporativa e a caixa postal online 
 
-Depois de ter criado o usuário e atribuído uma licença, a próxima etapa é configurar o número de telefone e a caixa postal do usuário. 
+Depois de ter criado o usuário e atribuído uma licença, a próxima etapa é configurar as configurações de telefone online do usuário. 
 
-Para adicionar o número de telefone e habilitar para caixa postal:
  
 1. Conexão uma sessão Skype for Business Do PowerShell Online. 
 
-2. Emitir o comando: 
+2. Se o gerenciamento do número de telefone do usuário no local, emito o comando: 
+
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
+3. Se o gerenciamento do número de telefone do usuário online, emito o comando: 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>

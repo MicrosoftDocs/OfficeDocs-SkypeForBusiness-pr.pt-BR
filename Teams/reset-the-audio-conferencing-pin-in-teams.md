@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Saiba como redefinir o PIN de Audioconferência de um usuário no Microsoft Teams e saiba fatos importantes sobre PINs.
-ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 6470085fed25a83c1a8dc46ab45e8c6ea57b5603
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075374"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114020"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Redefinir o PIN de audioconferência no Microsoft Teams
 
@@ -64,7 +64,7 @@ As reuniões podem ser iniciadas quando um usuário autenticado ingressar usando
     
 - O envio automático de emails para usuários está habilitado por padrão e os usuários receberão um email com seu PIN quando eles estão habilitados para audioconferência ou quando o PIN for redefinido. Mas se você tiver desabilitado o envio automático de emails, um email de redefinição de PIN não será enviado para um usuário e você terá que enviar manualmente as informações de PIN para o usuário.
     
-- Quando uma reunião é iniciada, todos os usuários no lobby ingressarão automaticamente. Por exemplo, se dois participantes tentarem ingressar em uma reunião antes de começar, eles serão colocados no lobby e ouvirão música em espera, e quando o organizador da reunião ingressar usando seu PIN por telefone, a reunião será iniciada e os participantes no lobby ingressarão na reunião.
+- Quando uma reunião é iniciada, o organizador precisa admitir que todos os usuários PSTN no lobby participem da reunião. Por exemplo, se dois participantes PSTN tentarem ingressar em uma reunião antes de começar, eles serão colocados no lobby e ouvirão música em espera, e quando o organizador da reunião ingressar usando seu PIN por telefone, a reunião será iniciada e o organizador poderá usar o comando na reunião (pressione *21) para admitir todos os usuários PSTN no lobby.
     
 - A configuração padrão é não permitir que uma reunião seja iniciada por chamadores anônimos.
     

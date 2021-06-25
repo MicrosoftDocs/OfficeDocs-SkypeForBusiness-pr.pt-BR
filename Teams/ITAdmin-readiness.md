@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: dfb21be79f22628d7b30b2328ef18248cd35864e
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105023"
+ms.locfileid: "53113960"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Iniciando o treinamento de administrador para Microsoft Teams
 
@@ -42,7 +42,6 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 |---------|---------|---------|
 |[**Teams essenciais**](https://aka.ms/MicrosoftTeamsforIT) para TI – a série de vídeo "Teams para TI" da Microsoft mostra a você – o administrador – como lançar, configurar e gerenciar Teams.     |[**Suporte a funcionários**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) remotos usando Microsoft Teams - Obter as orientações de que você precisa , incluindo links para treinamento – para dar suporte aos usuários que estão trabalhando em casa.         |[**Gerenciar a colaboração de equipe para IT**](/learn/paths/m365-manage-team-collaboration) - Saiba como usar o Teams para facilitar o trabalho em equipe e comunicação em sua organização em aplicativos e dispositivos.         |
 |[**Certificação de Especialista em Adoção**](/learn/paths/m365-service-adoption) de Serviços - O curso de certificação especialista em adoção de serviços da Microsoft Teams. Aprenda a conduzir a adoção dos serviços Microsoft em sua organização.     |[**Introdução ao trabalho em equipe Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - O curso de Certificação de Especialista em Adoção de Serviços da Microsoft Teams. Aprenda a conduzir a adoção dos serviços Microsoft em sua organização.        |[**Microsoft 365 Certificado:**](/learn/certifications/m365-teamwork-administrator) Associado ao Administrador de Trabalho em Equipe - os administradores de trabalho em equipe do Microsoft 365 configuram, implantam e gerenciam cargas de trabalho do Microsoft 365 ou Office 365, como SharePoint (online, local e híbrida), OneDrive e Teams.        |
-
 
 <h2>Treinamento técnico</h2>
 
@@ -89,6 +88,7 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Módulo 2: Planejamento Microsoft Teams dispositivos Android|[Apresentação](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 |Módulo 3: recursos de Microsoft Teams Dispositivos Android |[Apresentação](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
 |Módulo 4: Gerenciando Microsoft Teams Dispositivos Android|[Apresentação](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|Módulo 5: Microsoft Teams Dispositivos Android - Solução de problemas |[Apresentação](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
 
 <h2>Guias interativos</h2>
 
@@ -120,5 +120,3 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 - [Tutorial: Reuniões no Teams](tutorial-meetings-in-teams.yml)
 - [Tutorial: audioconferência no Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: entendendo as chamadas no Teams](tutorial-calling-in-teams.yml)
-
-

@@ -16,12 +16,12 @@ f1.keywords:
 description: Otimização de mídia local para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aab38cb7f844764faac0e9c19bc03110adac9c10
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 36d42310b056d0b7774dfddd04f63e4f871851fe
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469663"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129341"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Otimização de mídia local para roteamento direto
 
@@ -35,7 +35,7 @@ A Otimização de Mídia Local para Roteamento Direto permite gerenciar a qualid
 
 A Otimização de Mídia Local dá suporte a dois cenários:
 
-- Centralização de todos os troncos locais por meio de um SBC centralizado conectado ao tronco principal do Protocolo de Iniciação de Sessão (SIP), fornecendo serviços de telefonia a todas as filiais locais da empresa.
+- Centralização de todos os troncos locais por meio de um SBC centralizado conectado ao tronco SIP (Protocolo de Iniciação de Sessão) principal, fornecendo serviços de telefonia a todas as filiais locais da empresa.
 
 -   Criando uma topologia de rede virtual de SBCs, onde os SBCs nas filiais locais estão conectados a um SBC de proxy centralizado que está visível e se comunicando com o sistema Telefone Microsoft por meio de seu endereço IP externo. Em uma topologia de rede virtual, os SBCs downstream estão se comunicando por meio de IPs internos e não estão diretamente visíveis para Sistema de Telefonia.
 
@@ -78,7 +78,8 @@ Para criar uma solução em que os serviços PSTN são fornecidos a todas as fil
 
 - Quando um usuário está fora da rede corporativa, o SBC fornece o IP externo (público) do SBC.
 
-Observação: todos os valores em exemplos, tabelas ou diagramas são apresentados apenas para fins de ilustração.
+> [!NOTE]
+> Todos os valores em exemplos, tabelas ou diagramas são apresentados apenas para fins de ilustração.
 
 Tabela 1. Exemplo de parâmetros de rede para SBCs 
 
@@ -152,7 +153,8 @@ O diagrama a seguir mostra o fluxo de tráfego de alto nível para o cenário qu
 
 - O SBC downstream na filial local não é visível diretamente Sistema de Telefonia, mas é mapeado dentro da topologia de rede virtual definida pelo administrador da Contoso durante a configuração da Otimização de Mídia Local.
 
-Observação: o comportamento pode ser diferente para usuários locais e usuários não locais, dependendo do modo de Otimização de Mídia Local configurado. 
+> [!NOTE]
+> O comportamento pode ser diferente para usuários locais e usuários não locais, dependendo do modo de Otimização de Mídia Local configurado. 
 
 Para obter mais informações sobre modos possíveis e comportamentos relevantes, consulte Configure Local Media Optimization.
 
@@ -188,8 +190,8 @@ A Otimização de Mídia Local dá suporte a dois modos:
 
 Para distinguir entre modos de Otimização de Mídia Local, o administrador de locatário precisa definir o parâmetro -BypassMode como "Always" ou "OnlyForLocalUsers" para cada SBC usando o cmdlet Set-CSonlinePSTNGateway. Para obter mais informações, consulte [Configure Local Media Optimization](direct-routing-media-optimization-configure.md).  
 
- > [!NOTE]
-  > Quando os usuários são internos, a conectividade de mídia entre o usuário e o SBC sobre o endereço IP **interno é necessária**. Neste caso, não há fallback para retransmissão de transporte público para mídia, pois o SBC fornecerá um IP interno para conectividade de mídia. 
+> [!NOTE]
+> Quando os usuários são internos, a conectividade de mídia entre o usuário e o SBC sobre o endereço IP **interno é necessária**. Neste caso, não há fallback para retransmissão de transporte público para mídia, pois o SBC fornecerá um IP interno para conectividade de mídia. 
 
 ### <a name="mode-1-always-bypass"></a>Modo 1: Sempre ignorar
 
@@ -331,7 +333,7 @@ Veja a seguir uma lista de problemas conhecidos que estão atualmente presentes 
 
 | Problema | Solução alternativa |
 | :--- | :--- |
-| Teams cliente não é identificado como **interno** quando o IP público do cliente Teams corresponde à lista de IP confiáveis do cliente. | A Otimização de Mídia Local exige que Teams de cliente corresponde a uma sub-rede de [rede configurada pelo locatário](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams cliente não é identificado como **interno** quando o IP público do cliente Teams corresponde à lista de IP confiáveis do cliente. | A Otimização de Mídia Local exige que Teams de cliente corresponde a uma sub-rede de [rede configurada pelo locatário](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | As escalonamentos de chamadas resultam em chamadas não ativas quando o cliente Teams é identificado como interno.| Desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
 | Escalonamentos de chamadas de 1 a 1 entre clientes internos para chamadas de várias partes com cliente/recurso externo resultam em chamadas inoadas | Trabalhe em andamento em uma correção. Como alternativa, desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
 | Teams usuário coloca a chamada em espera. A música é reproduzida no final da PSTN e a Otimização de Mídia Local está funcionando. O Teams usuário retoma a chamada. A chamada para PSTN é retomada, mas a Otimização de Mídia Local não está funcionando e a chamada continua via SBC Central (Proxy) | Quando um usuário estaciona uma chamada para iniciar a música em espera (MoH), ela está sendo escalonada de 1:1 para uma chamada multipartidária pelo Controlador de Chamada para invocar o Controlador de Mídia e o Processador de Mídia (servindo como misturador AVMCU) por meio do qual o MoH atinge um usuário que foi colocado em espera. O escalonamento para uma chamada 1:1 depois que a chamada é retomada nunca acontece de acordo com o design. Desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
