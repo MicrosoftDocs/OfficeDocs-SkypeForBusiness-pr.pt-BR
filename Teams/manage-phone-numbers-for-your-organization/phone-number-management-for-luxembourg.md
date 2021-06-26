@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone no Luxemburgo para Microsoft Teams.
-ms.openlocfilehash: 37ae92d4e162eef5d70015230037e4b6b0e751a4
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: f5b97447a1a6e473ccaad0058c6e3a8abcf7e48b
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993875"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147149"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Telefone gerenciamento de números para Luxemburgo
 
@@ -38,7 +38,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
 |Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. |No Luxemburgo, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [enviando-o para nós](mailto:ptneu@microsoft.com).<ul><li>[Nova solicitação de número de telefone para Luxemburgo (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Nova solicitação de número de telefone para Luxemburgo - Alemão (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Nova solicitação de número de telefone para Luxemburgo - Luxemburgo (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Nova solicitação de número de telefone para Luxemburgo - francês (v.1.0) (lu-FR)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li></ul> <br/>Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado. |
-|Obter números de telefone transferidos para nós.| Baixe este formulário. <br/>[Carta de Autorização (LOA) para Luxemburgo (todos os números) (v.1.0) (en-lu)](https://download.microsoft.com/download/c/b/2/cb259b46-16bc-4ce0-925d-42b1a905b851/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.0)-(en-lu).pdf) <br/> <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). <br/><br/>A transferência de números pode levar de duas a três semanas para ser concluída neste mercado.<br/><br/>Esses números não podem ser usados para conferência no momento.    |
+|Obter números de telefone transferidos para nós.| Baixe este formulário. <br/>[Carta de Autorização (LOA) para Luxemburgo (todos os números) (v.1.0) (en-lu)](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). <br/><br/>A transferência de números pode levar de duas a três semanas para ser concluída neste mercado.<br/><br/>Esses números não podem ser usados para conferência no momento.    |
 |Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
 |Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato [com o service desk PSTN](contact-pstn-service-desk.md). |

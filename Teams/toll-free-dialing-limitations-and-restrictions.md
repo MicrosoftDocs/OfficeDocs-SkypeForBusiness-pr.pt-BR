@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: Saiba mais sobre discagem de números gratuitos em um país/região, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: 2d4fe611683217d058e9fb2a9a8330c4d6e2798c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b56e923f12182501459c1eeab923bdb668c44dc3
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093891"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142817"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitações e restrições de discagem gratuita
 
@@ -49,6 +49,7 @@ Se você estiver pronto, selecione um país ou região:
 > - [Brasil](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
 > - [Brunei](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [Bulgária](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
+> - [Canadá](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-canada.md)
 > - [Chile](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
 > - [China (norte)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
 > - [China (sul)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
@@ -101,6 +102,7 @@ Se você estiver pronto, selecione um país ou região:
 > - [Turquia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
 > - [Emirados Árabes Unidos (EAU)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [Reino Unido](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
+> - [Estados Unidos](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-states-u-s.md)
 > - [Uruguai ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnã ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)

@@ -1,11 +1,11 @@
 ---
-title: Restrições de discagem de chamada gratuita no México
-ms.author: crowe
-author: CarolynRowe
-manager: serdars
+title: Restrições de discagem gratuita nos EUA
+ms.author: v-lsaldanha
+author: lovina-saldanha
+manager: dansimp
 ms.reviewer: mikedav, oscarr
 ms.topic: reference
-ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
+ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,15 +23,15 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números gratuitos no México, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: 93a7a92d15860519fe9a599cfb247982be1b0ac3
+description: Saiba mais sobre a discagem de números gratuitos nos EUA, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: 1fa2f86fa06755754dc9ef01bfdfc8647ea91aa0
 ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142827"
+ms.locfileid: "53142904"
 ---
-# <a name="toll-free-dialing-restrictions-in-mexico"></a>Restrições de discagem de chamada gratuita no México
+# <a name="toll-free-dialing-restrictions-in-the-unites-states"></a>Restrições de discagem gratuita nos Estados Unidos
 
 [Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.
 
@@ -39,7 +39,7 @@ ms.locfileid: "53142827"
 |:-----|:-----|
 |A chamada gratuita está disponível?  <br/> |Sim  <br/> |
 |Formatos de discagem  <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
-|Código ISO de país/região  <br/> |MX  <br/> |
+|Código ISO de país/região  <br/> |EUA  <br/> |
 |Ilha/território coberto  <br/> |Samoa Americana, Anguilla, Anguilla, Angua e Barbuda, Bahamas, Barbados, Bermudas, Ilhas Virgens Britânicas, Canadá, Ilhas Cayman, Dominica, República Dominicana,Nada, Guam, Jamaica, Montserrat, Ilhas Marianas do Norte, Porto Rico, São Cristóvão e Nevis, Santa Lúcia, São Vicento e os Grenadines, Sint Maarten, Trinidad e Tobago, Turcos e Ilhas Caicos, Estados Unidos, Ilhas Virgens dos Estados Unidos <br/> |
 |Disponibilidade de linha com fio/fixa  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim  <br/> |

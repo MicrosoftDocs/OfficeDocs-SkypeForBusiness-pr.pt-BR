@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba como usar o estacionamento de chamada e recuperar para colocar uma chamada em espera no Microsoft Teams.
-ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197576"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147179"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -46,6 +46,8 @@ Para estacionar e recuperar chamadas, um usuário deve ser Enterprise Voice usu�
 ## <a name="configure-call-park-and-retrieve"></a>Configurar estacionamento de chamada e recuperar
 
 Você deve ser um administrador Teams para configurar o estacionamento de chamada e recuperar. Ele está desabilitado por padrão. Você pode habilita-lo para usuários e criar grupos de usuários usando a política de estacionamento de chamada. Quando você aplica a mesma política a um conjunto de usuários, eles podem estacionar e recuperar chamadas entre si.
+
+O intervalo de números de retirada de chamada é predefinido de 10 a 99 e não pode ser modificado. A primeira chamada estacionada será renderizada com um código de retirada de 10, a próxima chamada estacionada será renderizada um código de retirada de 11, etc. até que 99 seja renderizado como um código de retirada. Depois disso, os códigos de retirada renderizados começam de 10 novamente.  Se houver mais de 89 chamadas estacionadas ativas, os códigos de retirada renderizados continuarão aumentando além de 99, de forma que a 90ª chamada estacionada ativa seria renderizada 100 para um código de retirada, a chamada estacionada ativa do 91st seria renderizada com um código de retirada de 101.
 
 Para habilitar uma política de estacionamento de chamada
 
