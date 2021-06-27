@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863212"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142807"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Visão geral do controle de política do Microsoft Teams
 
@@ -35,7 +35,7 @@ Este artigo tem como objetivo fornecer informações sobre os controles de priva
 Como parte dessas mudanças, haverá elementos novos e atualizados da interface do usuário (IU) e configurações de política
 
 > [!IMPORTANT]
-> Para obter mais informações, confira o conteúdo da [Visão Geral do Controle de Política](/deployoffice/privacy/overview-privacy-controls) do Microsoft 365.
+> Para ler mais, análise [Visão geral dos controles de privacidade para aplicativos do Microsoft 365 Apps para Grandes Empresas](/deployoffice/privacy/overview-privacy-controls).
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Dados de diagnóstico enviados do Microsoft 365 Apps para Grandes Empresas para a Microsoft
 
