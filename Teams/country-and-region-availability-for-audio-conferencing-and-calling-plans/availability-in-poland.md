@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Polônia.
-ms.openlocfilehash: bb60f6f100ec118349f39ac45371ff593013111c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 30cfa3fcc7d417402c0a5cb478c78b183f4492ee
+ms.sourcegitcommit: d7a4707192d73b718b23abc32beb6f1684c2f928
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129640"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177687"
 ---
 # <a name="availability-in-poland"></a>Disponibilidade na Polônia
 
@@ -56,6 +56,9 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
 |Caixa postal  <br/> |Disponível  <br/> |
    
 ## <a name="calling-plans"></a>Planos de Chamadas
+
+> [!IMPORTANT]
+> No momento, estamos enfrentando atrasos inesperados na Polônia para atender a novas ordens de número de telefone e pedidos de portação. Você pode continuar fazendo pedidos, mas observe que esperamos que esse atraso seja resolvido até setembro, quando todos os pedidos pendentes serão atendidos.
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
