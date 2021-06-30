@@ -1,7 +1,7 @@
 ---
 title: Teams para Infraestrutura de Área de Trabalho Virtualizada
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075384"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203620"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -121,6 +121,7 @@ Em uma configuração não persistente, as alterações do sistema operacional l
 Para uma configuração não persistente, o Teams da área de trabalho deve ser instalado por máquina na imagem dourada. (Para saber mais, consulte a seção Instalar ou atualizar o Teams [da área de trabalho na VDI.)](#install-or-update-the-teams-desktop-app-on-vdi) Isso garante um lançamento eficiente do aplicativo Teams durante uma sessão do usuário.
 
 Usar Teams em uma configuração não persistente também requer um gerenciador de cache de perfil, para uma sincronização de dados Teams tempo de execução eficiente. A sincronização eficiente de dados garante que as informações específicas do usuário apropriadas (como dados, perfil ou configurações do usuário) são armazenadas em cache durante a sessão do usuário. Certifique-se de que os dados nessas duas pastas sejam sincronizados:<br>
+
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
@@ -186,6 +187,7 @@ Para saber mais sobre Teams e Microsoft 365 Apps para Grandes Empresas, consulte
         ```console
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
+
         Esse processo adiciona uma chave de registro necessária ao computador que permite que o Teams saiba que é uma instância VDI.  Sem ele, o instalador falhará, informando: "A instalação falhou.  Não é possível instalar para todos os usuários quando um ambiente VDI não é detectado."
 
         ```console
@@ -256,7 +258,7 @@ Teams no navegador Chrome não fornece uma substituição para o aplicativo de �
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Teams em VDI com chat e colaboração
 
-Se sua organização quiser usar apenas recursos de chat e colaboração no Teams, você pode definir políticas no nível do usuário para desativar a funcionalidade de chamada e reunião em Teams. 
+Se sua organização quiser usar apenas recursos de chat e colaboração no Teams, você pode definir políticas no nível do usuário para desativar a funcionalidade de chamada e reunião em Teams.
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Definir políticas para desativar a funcionalidade de chamada e reunião
 
@@ -273,8 +275,8 @@ Para atribuir a política de chamada DisallowCalling e a política de reunião A
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Usuários**.
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Siga este procedimento:
-    1.  Em **Política de Chamada,** clique **em DisallowCalling**.
-    2.  Em **Política de Reunião,** clique **em AllOff**.
+    1. Em **Política de Chamada,** clique **em DisallowCalling**.
+    2. Em **Política de Reunião,** clique **em AllOff**.
 4. Clique em **Aplicar**.
 
 Para atribuir uma política a vários usuários por vez:
@@ -318,7 +320,7 @@ Se você tiver uma implementação existente do Teams em VDI com chat e colabora
 
 Você pode usar o Microsoft Teams de administração ou o PowerShell para definir e atribuir políticas de chamada e reunião aos seus usuários. Pode levar algum tempo (algumas horas) para que as alterações de política se propaguem. Se você não vir alterações para uma determinada conta imediatamente, tente novamente após algumas horas.
 
-[**Políticas de chamada:**](teams-calling-policy.md)chamar políticas em Teams controle quais recursos de chamada estão disponíveis para os usuários. Teams inclui a política interna de chamada AllowCalling, na qual todos os recursos de chamada estão ativas. Para ativar todos os recursos de chamada, atribua a política AllowCalling. Ou crie uma política de chamada personalizada para ativar os recursos de chamada que você deseja e atribuí-la aos usuários. 
+[**Políticas de chamada:**](teams-calling-policy.md)chamar políticas em Teams controle quais recursos de chamada estão disponíveis para os usuários. Teams inclui a política interna de chamada AllowCalling, na qual todos os recursos de chamada estão ativas. Para ativar todos os recursos de chamada, atribua a política AllowCalling. Ou crie uma política de chamada personalizada para ativar os recursos de chamada que você deseja e atribuí-la aos usuários.
 
 [**Políticas de**](meeting-policies-in-teams.md)reunião : as políticas de reunião em Teams controlam os tipos de reuniões que os usuários podem criar e os recursos que estão disponíveis para os participantes da reunião agendados pelos usuários em sua organização. Teams inclui a política de reunião AllOn interna, na qual todos os recursos de reunião estão ativas. Para ativar todos os recursos de reunião, atribua a política AllOn. Ou crie uma política de reunião personalizada para ativar os recursos de reunião que você deseja e atribuí-la aos usuários.
 
@@ -329,8 +331,8 @@ Para atribuir a política de chamada AllowCalling e a política de reunião AllO
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Usuários**.
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Siga este procedimento:
-    1.  Em **Política de Chamada,** clique **em AllowCalling**.
-    2.  Em **Política de Reunião,** clique **em AllOn**.
+    1. Em **Política de Chamada,** clique **em AllowCalling**.
+    2. Em **Política de Reunião,** clique **em AllOn**.
 4. Clique em **Aplicar**.
 
 Para atribuir uma política a vários usuários por vez:
@@ -377,6 +379,90 @@ Para desabilitar o modo de fallback, de definir o valor **como 1**. Para habilit
 
 Esse recurso está disponível Teams versão 1.3.00.13565 e posterior.
 
+## <a name="disable-audio-and-video-settings-for-vdi"></a>Desabilitar configurações de áudio e vídeo para VDI
+
+Teams As políticas VDI estão disponíveis no módulo Microsoft Teams. Essas políticas são ativas e impostas em ambientes VDI não otimizados.
+
+- New-CsTeamsVdiPolicy  
+- Grant-CsTeamsVdiPolicy
+- Remove-CsTeamsVdiPolicy
+- Set-CsTeamsVdiPolicy
+
+> [!NOTE]
+> Isso é apenas para ambientes não otimizados.
+
+### <a name="update-a-module-name"></a>Atualizar um nome de módulo
+
+update-Module -Name MicrosoftTeams -AllowPrerelease
+
+```PowerShell
+<# Import and connect to online (CSOnline runs the policies) #>
+Import-Module microsoftTeams
+if( -not $sess){
+    $session = New-CsOnlineSession
+    $pss = Import-PSSession $session
+}
+<# Check out the commands #>
+Get-Command -Noun *VDI*
+<#
+```
+
+### <a name="set-policies-to-limit-calling-features"></a>Definir políticas para limitar recursos de chamada
+
+Quando os usuários com essa configuração de Política VDI -DisableCallsAndMeetings $true entrar no Teams no VDI, eles não poderão:
+
+- Fazer chamadas.
+- Participe de reuniões.
+- Faça um compartilhamento de tela do chat.
+
+Todos os tipos de chamada devem ser desabilitados.
+
+> [!NOTE]
+> Isso é apenas para ambientes não otimizados.
+
+```PowerShell
+#>
+New-CsTeamsVdiPolicy -Identity DisableCallsAndMeetingsTrue -DisableCallsAndMeetings $true -DisableAudioVideoInCallsAndMeetings $false
+<# Assign Policy #>
+$user = 'meganb@jvteams.xyz'
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName DisableCallsAndMeetingsTrue
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<#
+Show all Policies  
+#>
+Get-CsTeamsVdiPolicy | FT Iden*, Disable*
+<#
+```
+
+Quando os usuários com a configuração de Política VDI -DisableAudioVideoInCallsAndMeetings $true entrar no Teams VDI, eles poderão:
+
+- Faça um compartilhamento de tela do chat.
+- Participe de uma reunião e compartilhe uma tela. Mova o áudio para um telefone.
+- Os usuários não devem ser capazes de fazer uma chamada de áudio e vídeo de pessoa para pessoa a partir da VDI.
+
+> [!NOTE]
+> Isso é apenas para ambientes não otimizados.
+
+```powershell
+#>
+$PolName = "DisableCallsAndMeetingsAV"
+New-CsTeamsVdiPolicy -Identity $PolName -DisableCallsAndMeetings $false -DisableAudioVideoInCallsAndMeetings $true
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $PolName
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<# ## Cleanup afterwards #>
+$cleanup = $false
+if($cleanup){
+    "Doing cleanup"
+    # de-assign policy from user  
+    Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $null
+    get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+    # remove Policies
+    Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
+}
+```
+
 ## <a name="known-issues-and-limitations"></a>Problemas conhecidos e limitações
 
 ### <a name="client-deployment-installation-and-setup"></a>Implantação, instalação e instalação do cliente
@@ -400,7 +486,7 @@ Os seguintes recursos de chamada e reunião não são suportados:
 - Som de áudio/computador do sistema compartilhado
 - Bypass de mídia para Roteamento Direto
 - Estacionamento de chamada
-- Controle zoom 
+- Controle zoom
 
 > [!NOTE]
 > Estamos trabalhando na adição de recursos de chamada e reunião que estão disponíveis apenas em ambientes que não sejam VDI. Isso pode incluir mais controle de administrador sobre qualidade, cenários adicionais de compartilhamento de tela e recursos avançados adicionados recentemente Teams. Entre em contato Teams representante do Teams para saber mais sobre os recursos futuros.

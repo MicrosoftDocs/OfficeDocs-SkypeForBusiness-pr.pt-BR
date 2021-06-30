@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4a8a5d0b866a3eb278ffdba575966f97c549d6
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: 96f82b398ff75cdaf651eb841c412c502c5108d4
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997740"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203580"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gerenciar controles de tecnologia de reconhecimento de voz para um Alto-falante Inteligente
 
@@ -83,7 +83,7 @@ A seguir estão as políticas necessárias para definir um Alto-falante Intelige
 |-|-|-|
 |enrollUserOverride|Use para definir a captura de perfil de voz ou o registro em Teams configurações para um locatário. |**Desabilitado**<br><ul><li> Os usuários que nunca se registraram não podem exibir, registrar ou registrar-se.<li>O ponto de entrada para o fluxo de inscrição será oculto.<li>Se os usuários selecionarem um link para a página de registro, eles verão uma mensagem informando que esse recurso não está habilitado para sua organização.  <li>Os usuários que se registraram podem exibir e remover seu perfil de voz nas Teams configurações. Depois de remover o perfil de voz, eles não poderão exibir, acessar ou concluir o fluxo de registro.</li></ul><br>**Habilitado**<br><ul><li> Os usuários podem exibir, acessar e concluir o fluxo de registro.<li>O ponto de entrada será Teams página de configurações sob a guia **Reconhecimento.**</li></ul>|
 |roomAttributeUserOverride|Controlar a identificação de usuário baseada em voz nas salas de reunião. Essa configuração é necessária para Salas do Teams contas.| **Desativado**<br><ul><li>O Salas do Teams dispositivo não enviará largura de banda de economia de fluxo de áudio da sala. <li>Os usuários da sala de reunião não serão atribuídos ou diferenciados, e suas assinaturas de voz não serão recuperadas ou usadas.<li>Os usuários da sala de reunião são desconhecidos.</li></ul> <br>**Atributo**<br><ul><li>Os usuários de salas serão atribuídos com base no status do registro.<li>Os usuários que estão inscritos são mostrados com seu nome na transcrição.  <li>Os usuários que não estão inscritos mostram como Alto-falante n.<li>O Salas do Teams dispositivo enviará sete fluxos de áudio da sala.</ul> <br>**Distinguir**<br> *Essa configuração estará disponível posteriormente.*|
-|enabletranscription|Obrigatório para contas de usuário e Teams salas.|**True** e **False**|
+|AllowTranscription|Obrigatório para contas de usuário e Teams salas.|**True** e **False**|
 ||||
 
 No centro Teams de administração, de definir a **política Permitir transcrição.** Configurações estão **Desligados** por padrão.

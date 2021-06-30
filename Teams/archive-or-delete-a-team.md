@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97cce8577c2d3c23e097f5e3bf5d819d51a16b10
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 88c5bf29717efaa75f166e515006cfdb39461448
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856360"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186920"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
 
@@ -113,3 +113,7 @@ Por padrão, um grupo de Microsoft 365 excluído é mantido por 30 dias. Esse pe
     ```
 
     Pode levar até 24 horas para o processo de restauração ser concluído, após o qual a equipe e o conteúdo associado a ela, incluindo as guias e os canais, serão exibidos no Teams.
+    
+## <a name="related-topics"></a>Tópicos relacionados
+
+- [Arquivar ou restaurar uma equipe](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 

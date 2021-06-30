@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a9cf6cab1bfb50c17c8546a65ad50e41759edc
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
+ms.openlocfilehash: a801ae905ac7c384399aea5ccdf3bcf6f4e4200f
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891278"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203610"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configure a hierarquia de segmentação de sua equipe
 
@@ -149,6 +149,12 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ```
 
 ## <a name="apply-your-hierarchy"></a>Aplicar sua hierarquia
+
+> [!NOTE] 
+> Para executar esta etapa, você deve instalar e usar o módulo de visualização pública Teams PowerShell da Galeria do PowerShell. Para ver as etapas sobre como instalar o módulo, consulte Install Teams PowerShell.
+
+> [!NOTE]
+> Nuvem da Comunidade Governamental (GCC) os clientes devem usar [o cmdlet preview versão 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) ou posterior para garantir que os dados são roteados para o ambiente GCC, em vez do ambiente de nuvem pública.
 
 Depois de definir sua hierarquia no arquivo CSV do esquema, você estará pronto para carregar no Teams. Para fazer isso, execute o seguinte comando. Você deve ser um administrador global ou Teams de serviço para fazer esta etapa.
 

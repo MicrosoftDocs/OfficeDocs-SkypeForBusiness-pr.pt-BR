@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: db6240e972ac346c38961d94aa1a408e20f3cd4b
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: 52a3930db5dfed90b28b98a8bfc2a87dd57dabb5
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105143"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203630"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -169,6 +169,7 @@ A seguir estão as versões mais recentes Salas do Teams em versões de firmware
 
 | Versão do produto| Data de lançamento | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Atualização 2021 #2 | 28 de junho de 2021  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
 | Atualização 2021 #1A  |12 de maio de 2021  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Atualização 2021 #1  |5 de abril de 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Atualização 2020 #3  |24 de novembro de 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
@@ -181,6 +182,9 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.5.0.344025          | Atualização 2021 #2    |
+| Poly Studio X50 | 3.5.0.344025        | Atualização 2021 #2    |
+| Poly TC8 | 3.5.0.210489                 | Atualização 2021 #2    |
 | Poly Studio X30 | 3.3.2.286154          | Atualização 2021 #1    |
 | Poly Studio X50 | 3.3.2.286154          | Atualização 2021 #1    |
 | Poly TC8 | 3.3.2.286154                 | Atualização 2021 #1    |
