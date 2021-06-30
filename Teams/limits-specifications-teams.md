@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bc57372526e231e4f2111c0dd2cc00783598cf3
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: e35ad06e8123bc2525439dd81334a8600fd0a555
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069299"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203600"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -124,6 +124,9 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
+  
+> [!NOTE]
+> Salas para sessão de grupo só podem ser criadas em reuniões com menos de 300 participantes. Além disso, a criação de salas para sessão de grupo em uma reunião limita automaticamente o número de participantes a 300. Aconselhe seus usuários finais a não iniciarem salas para sessão de grupo em reuniões onde esperam mais de 300 participantes. Para obter mais informações sobre grandes reuniões no Teams, compartilhe a orientação [Práticas recomendadas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) com seus usuários finais. 
 
 ### <a name="meeting-expiration"></a>Expiração de reunião
 
@@ -185,7 +188,7 @@ Como o Teams é executado em um back-end do SharePoint Online para compartilhame
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Armazenamento                 |1 TB por organização mais 10 GB por licença adquirida  |1 TB por organização mais 10 GB por licença adquirida  |1 TB por organização mais 10 GB por licença adquirida   |1 TB por organização mais 10 GB por licença adquirida |1 TB por organização mais 10 GB por licença adquirida  |1 TB por organização           |
 |Armazenamento de arquivos do Teams |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |
-|Limite de upload de arquivos (por arquivo)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|Limite de upload de arquivos (por arquivo)    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |
 
 Os canais são apoiados por pastas no site do Microsoft Office SharePoint Online (anteriormente chamado de "conjunto de sites") criado para a equipe, portanto, as guias de arquivo em Canais compartilham os limites de armazenamento da equipe a que pertencem.
 
