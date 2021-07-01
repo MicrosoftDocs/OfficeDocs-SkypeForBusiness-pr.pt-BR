@@ -557,6 +557,8 @@ items:
         href: cortana-in-teams.md
       - name: Configure a hierarquia de segmentação de sua equipe
         href: set-up-your-team-hierarchy.md
+      - name: Conversa supervisionada para locatários não-educacionais
+        href: supervised-chat-non-edu.md
   - name: 'Reuniões, conferências e eventos ao vivo'
     items:
       - name: Início rápido – reuniões e eventos ao vivo

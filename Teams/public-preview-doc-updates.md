@@ -18,12 +18,12 @@ description: Obtenha mais informações sobre a prévia pública no Microsoft Te
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: e2724901a2a1b534053e2145da442e989aed4e6c
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863252"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230538"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
@@ -46,7 +46,7 @@ A visualização pública é habilitada por usuário, e a opção para ativar a 
 3. Selecione **Adicionar**.
 4. Nomeie a política de atualização, adicione uma descrição e ative **Mostrar recursos de pré-visualização**.
 
-Também é possível definir a política usando o Windows PowerShell usando o cmdlet`CsTeamsUpdateManagementPolicy`.
+Você também pode definir a política usando o PowerShell usando o cmdlet `Set-CsTeamsUpdateManagementPolicy` com o parâmetro `-AllowPreview` booliano.
 
 ## <a name="enable-public-preview"></a>Habilitar visualização pública
 
