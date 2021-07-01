@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: O administrador pode saber quais controladores de borda de sessão (SBCs) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b15ff9956e988047b0246e7a965fcd58b1d9d74b
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: e06b3eeeec6f5e383f6fd4aaafcb1f034dd43338
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526734"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230568"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -73,7 +73,7 @@ Se você tiver dúvidas sobre o programa de certificação SBC para Roteamento D
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.20 suportado (Recomendado 4.0)        |  &#10004;    |  &#10004;   |    
-|                     [Metawitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
+|                     [Metawitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 para Bypass de Mídia)      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) para Roteadores de Serviços Integrados de Série 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |    &#10004;     |   |  
 |                                   |     Elemento de Borda Unificada da Cisco (CUBE) para Roteadores de Serviços Integrados de Série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |   &#10004;      |    |  
 |                                   |     Cisco Unified Border Element (CUBE) para Roteador de Serviços de Nuvem da Série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |    &#10004;     |    |  

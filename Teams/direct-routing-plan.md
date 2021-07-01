@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
-ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
+ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926753"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230608"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -333,7 +333,7 @@ Local dos processadores de mídia:
 Locais onde os componentes de proxy SIP e processador de mídia implantados:
 - EUA (dois datacenters do Leste Dos EUA e oeste dos EUA)
 - Europa (datacenters de Amsterdã e Dublin)
-- Ásia (datacenters de Cingapura e Hong Kong)
+- Ásia (datacenter de Cingapura)
 - Japão (datacenters JP East e West)
 - Austrália (datacenters AU East e Southeast)
 

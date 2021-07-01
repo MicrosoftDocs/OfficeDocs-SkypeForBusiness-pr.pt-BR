@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: A seguir, descreve a funcionalidade Open Preview para a Audioconferência na rede.
-ms.openlocfilehash: d6df81cc077c69fdeb4246d682797d2ebb26b875
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+description: O seguinte descreve On-network para Audioconferência.
+ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637833"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230558"
 ---
-# <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Open Preview of On-network Conferencing for AudioConferência
+# <a name="on-network-conferencing-for-audio-conferencing"></a>Conferência na rede para Audioconferência
 
-A Visualização Aberta da Conferência Na Rede está disponível para todos os clientes. A Conferência na rede permite que as organizações enviem chamadas de Audioconferência de entrada e saída para números de discagem da Microsoft por meio do Roteamento Direto. Esse recurso não se destina a estender o suporte da Audioconferência para números de discagem de terceiros. A Conferência na rede não será suportada se ela for usada para rotear chamadas de entrada para o serviço de Audioconferência por meio de números de telefone de discagem de terceiros ou chamadas de saída para o PSTN da Ponte de Audioconferência da Microsoft. 
+A Conferência na rede permite que as organizações enviem chamadas de Audioconferência de entrada e saída para números de discagem da Microsoft por meio do Roteamento Direto. Esse recurso não se destina a estender o suporte da Audioconferência para números de discagem de terceiros. A Conferência na rede não será suportada se ela for usada para rotear chamadas de entrada para o serviço de Audioconferência por meio de números de telefone de discagem de terceiros ou chamadas de saída para o PSTN da Ponte de Audioconferência da Microsoft. 
 
 Este artigo descreve os pré-requisitos e as etapas de configuração necessárias para habilitar a Conferência na rede para sua organização.
 
@@ -151,19 +151,6 @@ Um plano de discagem é um conjunto de regras de normalização que convertem n�
 Por padrão, Teams usuários podem discar para números PSTN no formato E.164, ou seja, + \<country code\> \<number\> . No entanto, os planos de discagem podem ser usados para permitir que os usuários disquem números de telefone em outros formatos, por exemplo, extensões de 4 dígitos.
 
 Se quiser habilitar a discagem baseada em extensão por meio de conferência na rede, você pode configurar planos de discagem para corresponder o padrão de discagem de extensão aos intervalos de número de telefone do número de telefone da sua organização. Para configurar planos de discagem, consulte [Create and manage dial plans](create-and-manage-dial-plans.md).
-
-
-## <a name="known-issues-in-open-preview"></a>Problemas conhecidos no Open Preview
-
-A seguir está uma lista de problemas conhecidos que estão presentes no lançamento de Visualização Aberta da conferência na rede. A Microsoft está trabalhando para resolver esses problemas.
-
-| Problema | Solução alternativa |
-| :--- | :--- |
-| As chamadas discada com IDs anônimas/ocultas do chamador que são roteados por meio de conferência na rede não podem ser conectadas à reunião. | Se possível, defina uma configuração em seu PBX ou SBC para sempre enviar uma ID do chamador para chamadas roteada por meio de conferência na rede.|
-| Em alguns casos, a mensagem de boas-vindas que é tocada aos usuários quando eles discam para o serviço ("Bem-vindo ao serviço de Audioconferência...") é truncada e os usuários não ouvem a palavra "Bem-vindo".| No momento, não há soluções alternativas para esse problema. |
-
-
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

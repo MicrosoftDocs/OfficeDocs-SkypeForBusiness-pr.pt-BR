@@ -23,16 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Quando você receber números de telefone ou números de porta (transferência) para sua organização, talvez seja necessário obter ajuda e suporte no service desk PSTN.
-ms.openlocfilehash: 226a3c5926aa77e5bf1c73f3195fe50b73456b1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afbf6c9beed27f907c28743937053bb08ae5dee6
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121349"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219148"
 ---
 # <a name="pstn-service-desk-contact-information"></a>Informações de contato do Service Desk PSTN
 
 Para entrar em contato com a equipe do Service Desk PSTN, envie email para o alias apropriado listado na tabela a seguir.
+
+> [!NOTE]
+> Em breve, haverá um novo processo para interagir com o service desk PSTN. Nesse momento, o sistema de email atual será reformado. O novo processo permitirá que você abra tíquetes, acompanhe sua comunicação e exibir seus tíquetes da empresa em um único local integrado ao Centro de Administração Teams. Mais atualizações serão seguidas nas próximas semanas.
+<br>
 
 | **Quero transferir/portar números existentes**  | **Quero solicitar novos números para** |
 |:-----:|:------:|

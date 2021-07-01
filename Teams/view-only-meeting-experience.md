@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca53c75d12964de2d4d458b240878b14fd2ad04b
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 4f3546983c3d783c8eb08e0fc371cb9a9feb84f8
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699342"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219108"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para visualização de Teams
 
@@ -44,7 +44,16 @@ Os participantes poderão ingressar na experiência somente para exibição por 
 
 ## <a name="teams-view-only-experience-controls"></a>Teams de experiência somente exibição
 
-Você habilita a experiência somente para exibição usando o PowerShell.
+Você habilita a experiência somente para exibição usando o cmdlet do módulo [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [Do SkypeForBusiness PowerShell](/powershell/module/skype/?view=skype-ps) ou pelo menos a versão 2.0.0 do módulo [MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
+
+Para usar o módulo `MicrosoftTeams` recomendado:
+
+```PowerShell
+Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
+Connect-MicrosoftTeams
+```
+
+Para habilitar a experiência somente para exibição, você pode usar o seguinte trecho do PowerShell:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled

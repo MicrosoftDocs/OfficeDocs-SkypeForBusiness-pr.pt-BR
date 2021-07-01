@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 98591d7603cdf63a76bef3478834f37504d8ff6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 33206e09a63a74689361fcfb34d51c5b0b4a4973
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117099"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219128"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicação da sua organização
 
@@ -58,9 +58,9 @@ Para obter mais informações, [consulte Microsoft Teams licenciamento de comple
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Etapa 2: Configurar créditos de comunicações para sua organização
 
-1. Entre no centro de administração [Microsoft 365 com](https://portal.office.com/Adminportal) sua conta de trabalho ou de estudante.
+1. Entre no Centro de administração do Microsoft 365 [com](https://portal.office.com/Adminportal) sua conta de trabalho ou de estudante.
     
-2. Na navegação à esquerda do centro de administração Microsoft 365, vá para **Cobrança**  >  **de Serviços de Compra.** Role para baixo e selecione **Complementos**.
+2. Na navegação à esquerda do Centro de administração do Microsoft 365, vá para **Cobrança**  >  **serviços de compra**. Role para baixo e selecione **Complementos**.
 
 3. Selecione **Créditos de Comunicação**.
     
@@ -79,7 +79,7 @@ Para obter mais informações, [consulte Microsoft Teams licenciamento de comple
       > [!NOTE]
      > Os fundos serão aplicados somente aos Créditos de Comunicação às taxas publicadas da Microsoft quando os serviços são usados. Os fundos não usados no prazo de 12 meses a contar da data de compra expirarão e serão cancelados. 
      > 
-     > A cobrança mensal de Créditos de Comunicação só será aplicada se o fundo a alloted tiver sido usado, para saber como verificar seu uso mensal, leia Skype for Business relatório de uso [do PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > Ao usar a função de recarga automática, a faturamento para Créditos de Comunicação é gerada quando o valor do gatilho é atingido e uma transação de recarga é processada. Os valores de crédito de comunicação são usados de forma in-locar. Para saber como verificar o uso mensal, leia Skype for Business relatório de uso [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Insira suas informações de pagamento e clique em **Fazer pedido**.
     >[!IMPORTANT]
@@ -91,9 +91,9 @@ Ao configurar os Créditos de Comunicação, você precisará investigar o uso d
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Etapa 3: Atribuir uma licença de Créditos de Comunicação aos usuários
 
-1. Entre no centro de administração [Microsoft 365 com](https://portal.office.com/Adminportal) sua conta de trabalho ou de estudante.
+1. Entre no Centro de administração do Microsoft 365 [com](https://portal.office.com/Adminportal) sua conta de trabalho ou de estudante.
     
-2. Na navegação à esquerda do centro de administração Microsoft 365, vá para **Usuários** Usuários ativos e selecione  >  um usuário na lista.
+2. Na navegação à esquerda do Centro de administração do Microsoft 365, vá para **Usuários**  >  **Usuários ativos e** selecione um usuário na lista.
     
 3. Escolha **Licenças e Aplicativos**.
     
@@ -115,7 +115,7 @@ Você pode ver os planos e os preços visitando um dos seguintes links:
     
 - [Sistema de Telefonia Planos](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Você também pode ver informações ao [entrar no centro](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) de administração Microsoft 365 e ir para **Cobrança**  >  **de Assinaturas** Adicionar  >  **assinaturas**.
+Você também pode ver informações ao [entrar no Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e ir para **Cobrança**  >  **Assinaturas**  >  **Adicionar assinaturas**.
   
 Para ver uma tabela com a licença ou licenças que você precisará para cada recurso, [consulte Microsoft Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

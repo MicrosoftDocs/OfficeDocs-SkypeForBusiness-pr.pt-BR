@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre o Microsoft 365 e Office 365 ID padrão do chamador (número de telefone atribuído a um usuário), também conhecido como ID de Linha de Chamada. Você pode alterar ou bloquear a ID do chamador do usuário.
-ms.openlocfilehash: dbbb48952264d82ca24bdd82dbb45538b0428368
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308330"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230598"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Definir a identificação de chamadas para um usuário
 
@@ -39,6 +39,7 @@ Por padrão, as configurações de ID do chamador a seguir são **desligadas**. 
     
   > [!NOTE]
   > Se quiser usar o parâmetro *Service,* especifique um número de serviço válido.
+  > Você precisa usar os cmdlets do PowerShell para o número da conta de recurso, se não estiver visível no drop-down.
   
 - **Bloquear a ID do chamador de saída.** Você pode impedir que a ID do Chamador de saída seja enviada em chamadas PSTN de saída de um usuário. Isso impede que o número de telefone seja exibido no telefone da pessoa que está sendo chamada.
     
@@ -138,7 +139,7 @@ O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com
     
 - [Seis motivos pelos quais você pode querer usar Windows PowerShell gerenciar Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre apenas o uso do Centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
 - [Melhores maneiras de gerenciar Microsoft 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

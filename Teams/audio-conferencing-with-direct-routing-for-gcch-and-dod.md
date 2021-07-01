@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: O administrador pode aprender sobre como usar a Audioconferência com Roteamento Direto em ambientes GCCH e DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 4daea8636ce99ed711d7fd982cd42eb9aa8c6b93
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262616"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230578"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Conferências de Áudio com Roteamento Direto para GCC Alto e DoD
 
@@ -170,8 +170,6 @@ Para alterar o conjunto de números de telefone incluídos nos convites de reuni
 A seguir estão os recursos de Audioconferência que não são suportados em Audioconferência com Roteamento Direto para GCC Alta e DoD:
 
 - Notificações de entrada e saída usando gravação de nome. Para Audioconferência com Roteamento Direto, as notificações de entrada e saída são tocadas na reunião como tons.
-
-- Políticas de restrição de chamada de saída para Audioconferência. Os controles no nível do usuário para restringir chamadas de saída não são aplicáveis às chamadas discada de reunião roteada por roteamento direto.
 
 - Desabilite o uso de números gratuitos para o organizador específico das reuniões. Os controles no nível do usuário para restringir o uso de números de chamada gratuita para participar das reuniões da sua organização não são aplicáveis às chamadas roteada por roteamento direto.
 
