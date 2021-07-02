@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 83b95032e89accca311eb66933a9991d4f0ca195
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186800"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252636"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 
@@ -47,9 +47,9 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
     
 Para obter ajuda sobre como usar equipes e canais, confira [Equipes e canais](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para criar equipes e canais.
+Veja este breve vídeo para saber mais sobre as práticas recomendadas para criar equipes e canais:
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [TechTip: diretrizes para a criação de Teams & canais,](https://youtu.be/WkAVgNKn0hs) incluindo canais privados em Microsoft Teams (21:08 min)
 
 ## <a name="membership-roles-and-settings"></a>Associação, funções e configurações
 
