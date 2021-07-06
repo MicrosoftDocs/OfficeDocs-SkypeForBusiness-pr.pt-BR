@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar canais privados em sua organização usando Graph API.
-ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 263c490156a3dc02ddc8f81233a049ff020c72f8
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117739"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278524"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gerenciar o ciclo de vida de canais privados no Microsoft Teams
 
@@ -149,7 +149,7 @@ Você pode tentar esses comandos através do [Explorador do Graph](https://devel
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
-    
+
     **Resposta**
 
     ```Graph API
@@ -177,7 +177,8 @@ Você pode tentar esses comandos através do [Explorador do Graph](https://devel
               }
           ]
     }
-    ```    
+    ```
+
 2. Use o seguinte para promover o membro a um proprietário, onde &lt;group_id&gt;, &lt;channel_id&gt; e &lt;id&gt; são retornadas da chamada anterior. Observe que &lt;id&gt; e &lt;userId&gt; retornadas das chamadas anteriores não são as mesmas e não são intercambiáveis. Certifique-se de usar &lt;id&gt;.
 
     **Solicitação**

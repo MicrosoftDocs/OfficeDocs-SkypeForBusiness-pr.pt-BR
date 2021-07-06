@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: A nova Skype for Business de Relatórios do Centro de Administração mostra a atividade de chamada e audioconferência em sua organização. Ele permite que você faça uma análise de relatórios para dar uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir detalhes de uso de PSTN de Audioconferência, incluindo o custo da chamada para que você possa entender seus detalhes de cobrança de chamada e uso para determinar o uso em sua organização.
-ms.openlocfilehash: b806c0b3a471f862de6d69c6ed9b5220441c4257
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 2c6a0410611919662f5eaf37a03bfcca11b543be
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238199"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278444"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso da PSTN
 
@@ -37,7 +37,7 @@ Confira a visão geral [relatórios](https://support.office.com/article/0d6dfb17
 Este relatório, juntamente com os outros relatórios Skype for Business, fornece detalhes sobre a atividade, incluindo o uso de chamada em toda a sua organização. Esses detalhes são muito úteis ao investigar, planejar e tomar outras decisões de negócios para sua organização e para configurar [créditos de comunicação.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Você pode ver todos os relatórios de Skype for Business quando fizer logoff como administrador no centro de administração Microsoft 365 local. 
+> Você pode ver todos os relatórios Skype for Business quando fizer logoff como administrador no Centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Como acessar o relatório de detalhes do uso de PSTN do Skype for Business
 

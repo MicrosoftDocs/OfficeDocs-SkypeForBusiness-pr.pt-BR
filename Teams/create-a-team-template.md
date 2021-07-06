@@ -16,18 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 5e4fc9b8ace3cec2161008cffe61a8b312e61f39
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506728"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278454"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Criar um modelo de equipe personalizado Microsoft Teams
 
 **Modelos personalizados ainda não são suportados para clientes EDU.**
 
 Um modelo de equipe personalizado é uma estrutura de equipe predefinida com um conjunto de canais, guias e aplicativos. Você pode desenvolver um modelo que o ajude a criar o espaço de colaboração correto rapidamente. Seu modelo de equipe personalizado usa suas configurações preferenciais.  
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4P5rx]
+
 
 Para começar:
 
@@ -64,7 +69,7 @@ Para começar:
 Seu novo modelo é exibido na lista **Modelos de** equipe. O modelo pode ser usado para criar uma equipe em Teams.
 
 > [!Note]
-> Pode levar até 24 horas para que os usuários do teams vejam um modelo personalizado na galeria.
+> Pode levar até 24 horas para que os usuários do teams vejam uma alteração de modelo personalizada na galeria.
 
 ## <a name="customizing-website-tab-apps"></a>Personalização de aplicativos de Guia do Site
 

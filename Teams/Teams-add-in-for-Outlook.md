@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 5242d4b836f159484caf5575d23937ddaba97816
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598380"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278534"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -33,7 +33,7 @@ O suplemento de reunião do Teams permite que os usuários agendem uma reunião 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Suplemento de reunião do Teams no Outlook para Windows
 
-O suplemento de Reunião do Teams é instalado automaticamente para usuários que possuem o Microsoft Teams e o Office 2013, Office 2016 ou Office 2019 instalado em seus computadores Windows. Os usuários verão o suplemento de reunião do Teams na faixa de opções Calendário do Outlook.
+O suplemento de Reunião do Teams é instalado automaticamente para usuários que possuem o Microsoft Teams e o Office 2013, Office 2016 ou Office 2019 instalado em seus computadores Windows. Os usuários verão o suplemento Reunião do Teams na faixa de opções do Calendário do Outlook.
 
 ![Captura de tela do suplemento de reunião do Teams na faixa de opções do Outlook](media/Teams-add-in-for-Outlook.png)
 
@@ -97,7 +97,7 @@ O cliente Teams instala o suplemento correto, determinando se os usuários preci
 
 ## <a name="teams-upgrade-policy-and-the-teams-meeting-add-in-for-outlook"></a>Diretiva de atualização do Teams e o suplemento de reunião do Teams para Outlook
 
-Os clientes podem [escolher sua jornada de atualização do Skype for Business para o Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Os administradores de locatários podem usar o modo de coexistência do Teams para definir essa jornada para seus usuários. Os administradores de locatários têm a opção de permitir que os usuários usem o Teams juntamente ao Skype for Business (modo Ilhas). 
+Os clientes podem [escolher sua jornada de atualização do Skype for Business para o Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Os administradores de locatários podem usar o modo de coexistência do Teams para definir essa jornada para seus usuários. Os administradores de locatários têm a opção de permitir que os usuários usem o Teams juntamente ao Skype for Business (modo Ilhas).
 
 Quando os usuários que estão no modo Ilha agendam uma reunião no Outlook, eles normalmente esperam poder escolher agendar uma reunião do Skype for Business ou do Teams. No Outlook na Web, Outlook para Windows e Outlook para Mac, os usuários veem tanto o suplemento do Skype for Business como o do Teams quando estão no modo Ilhas por padrão. Você pode definir uma configuração de política de reunião do Teams para controlar se os usuários no modo Ilhas só podem usar o suplemento de Runião do Teams ou os suplementos de Reunião do Teams e de Reunião do Skype for Business.
 

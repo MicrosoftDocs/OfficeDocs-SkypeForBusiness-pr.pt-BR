@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: ebc1bb12b8a864e65cf6cb26b3d2022ae2e1563b
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197526"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275680"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -82,7 +82,7 @@ Para obter mais informações sobre como conduzir uma investigação de Descober
 
 Microsoft Teams dados serão exibidos como IM ou Conversas na saída de exportação Excel eDiscovery. Você pode abrir o `.pst` arquivo em Outlook exibir essas mensagens depois de exportá-las.
 
-Ao exibir o arquivo .pst para a equipe, todas as conversas são mantidas na pasta Chat de Equipe em Histórico de Conversas. O título da mensagem contém o nome da equipe e o nome do canal. Por exemplo, a imagem abaixo mostra uma mensagem de Bob que Project canal padrão 7 da equipe de Especificações de Manufatura.
+Ao exibir o arquivo .pst para a equipe, todas as conversas estão localizadas na pasta Chat de Equipe em Histórico de Conversas. O título da mensagem contém o nome da equipe e o nome do canal. Por exemplo, a imagem abaixo mostra uma mensagem de Bob que Project canal padrão 7 da equipe de Especificações de Manufatura.
 
 ![Captura de tela de uma pasta de Chat de Equipe na caixa de correio de um usuário no Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 

@@ -15,56 +15,53 @@ f1.keywords:
 description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o Centro de Segurança e Conformidade, e saiba o que necessita de uma retenção legal com base nas exigências de dados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e52b10f0a7a8dd3ac67f7a2c15b9d1e082186ab
-ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
+ms.openlocfilehash: b78fba2a85cd45c07183ebc9df8016f16036dce5
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929287"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275660"
 ---
-<a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
-==================================================
+# <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 
-Quando existe uma expectativa razoável de litígio, as organizações são obrigadas a preservar as informações armazenadas eletronicamente (ESI), incluindo Teams mensagens de chat relevantes para o caso. As organizações podem precisar preservar todas as mensagens relacionadas a um tópico específico ou a determinados indivíduos. Este artigo abordará a responsabilidade legal no Microsoft Teams (Para resolver a implementação de espera no espaço M365, confira Gerenciar casos de [Descoberta Eletrônico:](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)Colocar locais de conteúdo em espera .).
+Quando existe uma expectativa razoável de litígio, as organizações são obrigadas a preservar as informações armazenadas eletronicamente (ESI), incluindo Teams mensagens de chat relevantes para o caso. As organizações podem precisar preservar todas as mensagens relacionadas a um tópico específico ou a determinados indivíduos. Este artigo abrange a ressarção legal Microsoft Teams. Para manter o conteúdo Microsoft 365, consulte [Create an eDiscovery hold](https://docs.microsoft.com/microsoft-365/compliance/create-ediscovery-holds).
 
 > [!NOTE]
-> Em fevereiro de 2020, habilitamos a responsabilidade legal ou a responsabilidade por casos em canais privados (os chats de canal privado são armazenados em caixas de correio de usuários, os chats de canal normal são armazenados na caixa de correio de grupo de uma equipe). Se já houver uma suspensão legal para uma caixa de correio de usuário, a política de espera será aplicada automaticamente às mensagens de canal privado armazenadas nessa caixa de correio. Não há mais nenhuma ação necessária para um administrador ativar isso. Também há suporte para a responsabilidade legal dos arquivos compartilhados em canais privados.
+> Em fevereiro de 2020, acariámos a responsabilidade legal para canais privados. Chats de canal privado são armazenados em caixas de correio de usuário, enquanto chats de canal normal são armazenados na caixa de correio Teams grupo. Se já houver uma suspensão legal para uma caixa de correio de usuário, a política de espera será aplicada automaticamente às mensagens de canal privado armazenadas nessa caixa de correio. Não há mais nenhuma ação necessária para um administrador ativar isso. Também há suporte para a responsabilidade legal dos arquivos compartilhados em canais privados.
 
-Dentro Microsoft Teams, uma equipe inteira ou usuários selecionados podem ser colocados em espera ou em espera legal. Isso garantirá que todas as mensagens que foram trocadas nessas equipes (incluindo canais privados) ou mensagens trocadas por essas pessoas sejam descobertas pelos gerentes de conformidade ou administradores Teams da organização.
+Dentro Microsoft Teams, uma equipe inteira ou usuários selecionados podem ser colocados em espera legal. Isso garantirá que todas as mensagens que foram trocadas nessas equipes (incluindo canais privados) ou mensagens trocadas por essas pessoas sejam descobertas pelos gerentes de conformidade ou administradores Teams da organização.
 
 > [!NOTE]
 > A colocação de um usuário em retenção não coloca automaticamente um grupo em retenção ou vice-versa.
-> As notificações enviadas no feed de atividade não podem ser colocadas em espera legal.
+> As notificações enviadas no feed de atividade não podem ser colocadas em espera.
 
-Para colocar um usuário ou uma equipe em espera legal:
+Para colocar um usuário ou uma equipe em uma responsabilidade legal em um caso de Descoberta Interna Principal:
 
-1. Navegue até [o Centro de Conformidade & segurança.](https://go.microsoft.com/fwlink/?linkid=854628) Quando você cria um caso novo, você se depara com a opção de colocar caixas de correio ou sites em retenção.
+1. Vá para o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com). Quando você cria um caso novo, você se depara com a opção de colocar caixas de correio ou sites em retenção.
 
-2. Vá para eDiscovery ou Advanced eDiscovery criar um caso clicando em "Criar uma ocorrência". Depois que o caso for criado, abra-o.
-
-   > [!div class="mx-imgBorder"]
-   > ![Microsoft Teams guia Descoberta Online está selecionada, mostrando o botão Criar uma ocorrência.](media/LegalHold1.png)
-
-3. Vá para a seção "Retém" no menu superior e clique em "+ Criar" para criar uma espera. Colocar um usuário ou uma equipe em espera salva todas as mensagens trocadas por esses usuários ou mensagens. Quando você cria um caso novo, você se depara com a opção de colocar caixas de correio ou sites em retenção.
-
-   > [!div class="mx-imgBorder"]
-   > ![Uma imagem mostrando a guia Retém selecionada e o botão Criar abaixo.](media/LegalHold2.png)
-
-   1. **Nomeia sua espera**. Selecione um nome descritivo e exclusivo para a espera que você vai criar.
-
-      > [!div class="mx-imgBorder"]
-      > ![Esta captura de tela mostra a guia Nome da sua espera, onde você pode inserir um nome e uma descrição para a bloqueio que você está criando.](media/LegalHold3.png)
-
-    2. **Escolha local**. Escolha se deseja que a responsabilidade seja aplicada em um usuário ou em uma Equipe inteira (a espera não pode ser aplicada em canais individuais por enquanto). Observação: se um usuário estiver em espera, todas as mensagens estarão em espera, incluindo o que enviou em um chat 1:1, 1:1 ou chat em grupo ou uma conversa de canal (incluindo canais privados).
+2. Vá para **eDiscovery**  >  **Core** e crie uma ocorrência clicando em **Criar um caso**. Depois que o caso for criado, abra-o.
   
-       > [!div class="mx-imgBorder"]
-       > ![Aqui temos a seção Escolher locais de Criar uma nova responsabilidade, onde você pode tomar decisões sobre quais opções do M365, incluindo Microsoft Teams, você deseja que a responsabilidade seja aplicada.](media/LegalHold4.png)
+   ![Microsoft Teams guia Descoberta Online está selecionada, mostrando o botão Criar uma ocorrência.](media/LegalHold1.png)
 
-    3. **Criar Consulta**. Você pode personalizar a espera se quiser mais granularidade na política de espera. Por exemplo, você pode especificar palavras-chave a serem pesquisadas, ou você pode adicionar mais condições, que precisariam ser atendidas para que a espera entre em vigor.
+   > [!NOTE]
+   > Você também pode colocar um usuário em uma responsabilidade associada a um Advanced eDiscovery caso. Para obter mais informações, consulte [Manage holds in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-holds).
+
+3. Vá até a guia **Retém** no menu superior e clique **em Criar** para criar uma espera. Colocar um usuário ou uma equipe em espera preserva todas as mensagens trocadas por esses usuários ou mensagens. Quando você cria um caso novo, você se depara com a opção de colocar caixas de correio ou sites em retenção.
+
+   ![Uma imagem mostrando a guia Retém selecionada e o botão Criar abaixo.](media/LegalHold2.png)
     
-    4. **Revise suas configurações** antes de publicá-la em sua organização.
+    1. **Nomeia sua espera**. Selecione um nome descritivo e exclusivo para a espera que você vai criar.
+  
+       ![Esta captura de tela mostra a guia Nome da sua espera, onde você pode inserir um nome e uma descrição para a bloqueio que você está criando.](media/LegalHold3.png)
 
-Depois que a responsabilidade legal tiver sido definida, você poderá descobrir todo o conteúdo retido por qualquer política de espera após o artigo Teams [Descoberta eDiscovery.](eDiscovery-investigation.md)
+    1. **Escolha local**. Escolha se deseja que a responsabilidade seja aplicada em um usuário ou em uma Equipe inteira (a espera não pode ser aplicada em canais individuais por enquanto). Observação: se um usuário estiver em espera, todas as mensagens estarão em espera, incluindo o que enviou em um chat 1:1, 1:1 ou chat em grupo ou uma conversa de canal (incluindo canais privados).
+    ![Aqui temos a seção Escolher locais de Criar uma nova responsabilidade, onde você pode tomar decisões sobre quais opções do M365, incluindo Microsoft Teams, você deseja que a responsabilidade seja aplicada.](media/LegalHold4.png)
+
+    2. **Criar consulta**. Você pode personalizar a espera se quiser mais granularidade na política de espera. Por exemplo, você pode especificar palavras-chave a serem pesquisadas, ou você pode adicionar mais condições, que precisariam ser atendidas para que a espera entre em vigor.
+    
+    3. **Revise suas configurações antes** de criar a espera.
+
+Depois que a responsabilidade legal tiver sido criada, você poderá pesquisar o conteúdo mantido por qualquer política de responsabilidade. Para obter mais informações, [consulte Conduct an eDiscovery investigation in Teams](eDiscovery-investigation.md).
 
 > [!IMPORTANT]
 > Quando um usuário ou grupo é colocado em espera, todas as cópias de mensagem serão mantidas. Por exemplo, se um usuário postou uma mensagem em um canal e modificou a mensagem, em um cenário de espera, ambas as cópias da mensagem serão mantidas. Sem a responsabilidade legal in-locar, somente a mensagem mais recente será mantida.

@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso Teams PSTN no centro de adminis
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 402e602e9f15beef30f0c44901398fa22b63c807
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: af904400b7a20befe650977c4baea035f998cf86
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262663"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278514"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams Relatório de uso de PSTN
 
@@ -140,7 +140,7 @@ Você pode exportar dados de até cinco meses (150 dias) a partir da data atual,
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Identificador de chamada exclusivo |
 > | 1 | Endereço SIP | `nvarchar(128)` | O endereço do usuário ou bot que fez ou recebeu a chamada.<br/>Observe que este é realmente UserPrincipalName (UPN, nome de logon) no Azure Active Directory, que normalmente é o mesmo que Endereço SIP |
-> | 2 | Nome para Exibição | `nvarchar(128)` | O nome de um usuário ou um bot de chamada (por exemplo, Fila de Chamada ou Atendedor Automático) como definido no Microsoft 365 de administração |
+> | 2 | Nome para Exibição | `nvarchar(128)` | O nome de um usuário ou um bot de chamada (por exemplo, Fila de Chamada ou Atendedor Automático) como definido em Centro de administração do Microsoft 365 |
 > | 3 | País do usuário | `nvarchar(2)` | Código de país do usuário, [ISO 3166-1 alfa-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | Hora do convite | `datetimeoffset` | Quando o convite inicial enviar na saída de Teams chamada de usuário ou bot para o SBC ou recebido na entrada para Teams ou chamada de bot pelo componente proxy SIP do Roteamento Direto do SBC |
 > | 5 | Hora de início | `datetimeoffset` | Hora em que o proxy SIP recebeu a resposta final (Mensagem SIP "200 OK") do SBC na saída (Teams/Bot para um usuário PSTN) ou depois que o Proxy SIP enviar o Convite para o próximo salto dentro de um Teams back-end na chamada de entrada (Usuário PSTN para um Teams/Bot).<br/>Para chamadas com falha e sem resposta, isso pode ser igual a tempo de convite ou falha |

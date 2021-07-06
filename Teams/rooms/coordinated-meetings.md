@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Configure Salas do Teams dispositivos e Surface Hub participar de reuniões quando um dispositivo ou outro ingressar em uma reunião.
-ms.openlocfilehash: 57dc91e4a7d923e218cd1f8f6f0ce22679d550e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b81d6fca5c263bb8ba1dcd07e80167425bd42fc0
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117559"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278674"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurar reuniões coordenadas com Salas do Microsoft Teams e Surface Hub
 
@@ -46,13 +46,13 @@ Antes de fazer alterações de configuração, você precisa decidir quais dispo
 
 ## <a name="step-2-get-your-devices-upns"></a>Etapa 2: Obter UPNs de seus dispositivos
 
-Quando você configura uma experiência de Reunião Coordenada em uma sala de reunião, precisa dizer aos dispositivos Salas do Teams e Surface Hubs nessa sala com os quais os dispositivos devem ser coordenados. Isso é feito adicionando o nome principal do usuário (UPN) dos dispositivos com os que ele deve coordenar à configuração. Se você não conhece os UPNs de cada um dos dispositivos que deseja configurar para Reuniões Coordenadas, você pode encontrá-los usando o centro de administração Microsoft 365 de segurança. 
+Quando você configura uma experiência de Reunião Coordenada em uma sala de reunião, precisa dizer aos dispositivos Salas do Teams e Surface Hubs nessa sala com os quais os dispositivos devem ser coordenados. Isso é feito adicionando o nome principal do usuário (UPN) dos dispositivos com os que ele deve coordenar à configuração. Se você não conhece os UPNs para cada um dos dispositivos que deseja configurar para Reuniões Coordenadas, você pode encontrá-los usando o Centro de administração do Microsoft 365. 
 
-Você precisa ter uma função de administrador para acessar o Microsoft 365 de administração. Para obter mais informações, consulte [Sobre funções de administrador](/microsoft-365/admin/add-users/about-admin-roles).
+Você precisa ter uma função de administrador para acessar o Centro de administração do Microsoft 365. Para obter mais informações, consulte [Sobre funções de administrador](/microsoft-365/admin/add-users/about-admin-roles).
 
 Para obter os UPNs de seus dispositivos Salas do Teams e Surface Hubs, faça o seguinte:
 
-1. Entre no centro de Microsoft 365 de administração visitando https://admin.microsoft.com .
+1. Entre no Centro de administração do Microsoft 365 visitando https://admin.microsoft.com .
 2. Vá para **Usuários**  >  **Usuários ativos**.
 3. Encontre o nome do dispositivo Salas do Teams ou Surface Hub na  coluna Nome de exibição (você pode usar a caixa Pesquisar se tiver muitos usuários). 
 4. Encontre o UPN na coluna **Nome** de Usuário (ele será parecido com alias@contoso.com ou alias@contoso.onmicrosoft.com).
