@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Aprenda como fazer uma chamada, bater papo, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando o acesso externo (federação) e o acesso para convidado.
-ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115989"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53301996"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização
 
@@ -77,7 +77,7 @@ As tabelas a seguir mostram as diferenças entre o uso de acesso externo (federa
 | Pessoas fora da sua organização podem | Usuários de acesso externo | Convidados |
 |---------|-----------------------|--------------------|
 | Recursos de acesso do Teams | Não | Sim |
-| Seja adicionado a um bate-papo em grupo | Não | Sim |
+| Seja adicionado a um bate-papo em grupo | Sim | Sim |
 | Seja convidado para uma reunião | Sim | Sim |
 | Fazer chamadas privadas | Sim | Sim<sup>5</sup> |
 | Exibir o número de telefone dos participantes da reunião discada | Não<sup>4</sup> | Sim |
