@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 027d3691a5e5c501beb69448a4d4060de4a7fad9
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: d130ea4e72b6343def4bfe232934063e0385b72d
+ms.sourcegitcommit: 08bcad09296c96354f0e6203a623dc548e827aa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275670"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53324454"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -69,7 +69,7 @@ Aqui estão dicas para pesquisar Teams atividades no log de auditoria.
 
   ![Captura de tela da pesquisa de log de auditoria](media/audit-log-search.png)
 
-- Para exibir eventos para atividades executados usando cmdlets, selecione **Mostrar resultados de** todas as atividades na lista **Atividades.** Se você sabe o nome da operação para essas atividades, pesquise todas as atividades e filtre os resultados digitando o nome da operação na caixa na coluna **Atividade.** Para saber mais, confira [Etapa 3: Filtrar os resultados da pesquisa](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+- Para exibir eventos para atividades executados usando cmdlets, selecione **Mostrar resultados de** todas as atividades na lista **Atividades.** Se você sabe o nome da operação para essas atividades, pesquise todas as atividades e filtre os resultados digitando o nome da operação na caixa na coluna **Atividade.** Para saber mais, confira [Etapa 3: Filtrar os resultados da pesquisa](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results).
 
 - Para limpar os critérios de pesquisa atuais, clique em **Limpar**. O intervalo de datas retorna ao padrão dos últimos sete dias. Você também pode clicar em **Limpar tudo para mostrar resultados de todas as atividades para** cancelar todas as atividades selecionadas.
 
@@ -87,13 +87,13 @@ Depois de definir uma política de detecção de atividade, ela começa a gerar 
 
 Um cenário em que você pode querer ficar de olho, de uma perspectiva de negócios, é a adição de usuários externos ao seu ambiente Teams ambiente. Se os usuários externos estão habilitados, monitorar sua presença é uma boa ideia.  Você pode usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para identificar possíveis ameaças.
 
-![Captura de tela de uma lista de eventos disparados por exclusões em massa](media/TeamsExternalUserAddPolicy.png)
+![Política para monitorar a adição de usuários externos](media/TeamsExternalUserAddPolicy.png)
 
 A captura de tela dessa política para monitorar a adição de usuários externos permite nomear a política, definir a gravidade de acordo com suas necessidades de negócios, defini-la como (nesse caso) uma única atividade e, em seguida, estabelecer os parâmetros que monitorarão especificamente apenas a adição de usuários não internos e limitar essa atividade a Teams.
 
 Os resultados dessa política podem ser exibidos no log de atividades:
 
-![Captura de tela de uma lista de eventos disparados por exclusões em massa](media/TeamsExternalUserList.png)
+![Eventos disparados pela política de usuários externos](media/TeamsExternalUserList.png)
 
 Aqui você pode revisar as combinações com a política definida e fazer quaisquer ajustes conforme necessário ou exportar os resultados a ser usado em outro lugar.
 
@@ -101,13 +101,13 @@ Aqui você pode revisar as combinações com a política definida e fazer quaisq
 
 Como mencionado anteriormente, você pode monitorar cenários de exclusão. É possível criar uma política que monitore a exclusão em massa de Teams sites. Neste exemplo, uma política baseada em alerta é configurada para detectar a exclusão em massa das equipes em um intervalo de 30 minutos.
 
-![Captura de tela da página criar política mostrando a configuração de uma política para detecção de exclusão de equipe em massa](media/TeamsMassDeletePolicy.png)
+![Política mostrando a configuração de uma política para detecção de exclusão de equipe em massa](media/TeamsMassDeletePolicy.png)
 
 Como mostra a captura de tela, você pode definir muitos parâmetros diferentes para essa política para monitorar as exclusões de Teams, incluindo gravidade, ação única ou repetida e parâmetros que limitam isso a Teams e exclusão de site. Isso pode ser feito independentemente de um modelo ou você pode ter um modelo criado para basear essa política, dependendo das suas necessidades organizacionais.
 
 Depois de estabelecer uma política que funcione para sua empresa, você poderá revisar os resultados no log de atividades à medida que os eventos são disparados:
 
-![Captura de tela de uma lista de eventos disparados por exclusões em massa](media/TeamsMassDeleteList.png)
+![Eventos de captura de tela disparados por exclusões em massa](media/TeamsMassDeleteList.png)
 
 Você pode filtrar até a política definida para ver os resultados dessa política. Se os resultados que você está recebendo no log de atividades não são satisfatórios (talvez você esteja vendo muitos resultados ou nada), isso pode ajudá-lo a ajustar a consulta para torná-la mais relevante para o que você precisa fazer.
 
@@ -146,7 +146,7 @@ Aqui está uma lista de todos os eventos que estão registrados para atividades 
 |Equipe excluída  |TeamDeleted            |Um proprietário de equipe exclui uma equipe.      |
 |Editei uma mensagem com um link de URL no Teams     |MessageEditedHasLink         |Um usuário edita uma mensagem e adiciona um link de URL a ela Teams.         |
 |Mensagens exportadas <sup>1</sup> |   MessagesExported |Mensagens de chat ou canal foram exportadas|.
-|Chats buscados <sup>1</sup> |ChatRetrieved  |Um Microsoft Teams chat foi recuperado.|
+|Chat buscado <sup>1</sup>  |ChatRetrieved  |Um Microsoft Teams chat foi recuperado.|
 |Buscava todo o conteúdo hospedado de uma mensagem<sup>1</sup>    |MessageHostedContentsListed    |Todo o conteúdo hospedado em uma mensagem, como imagens ou trechos de código, foi recuperado.|
 |Aplicativo instalado |AppInstalled         |Um aplicativo foi instalado.   |
 |Ação executada no cartão|PerformedCardAction|Um usuário entrou em ação em um cartão adaptável dentro de um chat. Cartões adaptáveis geralmente são usados por bots para permitir a exibição rica de informações e interação em chats. <br/><br/>**Observação:** Somente ações de entrada em linha em um cartão adaptável dentro de um chat estarão disponíveis no log de auditoria. Por exemplo, quando um usuário envia uma resposta de sondagem em uma conversa de canal em um cartão adaptável gerado por um bot de Sondagem. Ações do usuário como "Exibir resultado", que abrirão uma caixa de diálogo ou ações do usuário dentro das caixas de diálogo não estarão disponíveis no log de auditoria.|
