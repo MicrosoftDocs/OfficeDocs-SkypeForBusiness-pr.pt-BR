@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como habilitar os usuários Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
-ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
+ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53129321"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345707"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuários para Roteamento Direto, voz e caixa postal
 
@@ -53,7 +53,9 @@ Se sua implantação do Skype for Business Online coexistir com o Skype for Busi
 
 Para obter informações sobre os requisitos de licença, consulte [licenciamento e outros requisitos](direct-routing-plan.md#licensing-and-other-requirements) em [Plan Direct Routing](direct-routing-plan.md).
 
-## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Verifique se o usuário está em casa online (aplicável Skype for Business Server Enterprise Voice usuários habilitados que estão sendo migrados para Teams Roteamento Direto)
+## <a name="ensure-that-the-user-is-homed-online"></a>Verifique se o usuário está em casa online 
+
+Esta etapa é aplicável Skype for Business Server Enterprise Voice usuários habilitados que estão sendo migrados para Teams Roteamento Direto.
 
 O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar olhando para o parâmetro RegistrarPool, que precisa ter um valor no infra.lync.com domínio. Também é recomendável, mas não necessário, alterar o gerenciamento do LineURI de local para online ao migrar usuários para Teams Roteamento Direto. 
 

@@ -17,23 +17,18 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Saiba como usar as configurações de política de reunião para controlar a expiração da reunião Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6e8821781eab70696c9b24c8df18cc8dd0b46870
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e201348ba1734539844a76b0fee2e2f072757e87
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598610"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337810"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Políticas de reunião e expiração de reunião Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-## <a name="overview"></a>Visão Geral
-
 [As políticas de](meeting-policies-in-teams.md) reunião Microsoft Teams são usadas para controlar se os usuários em sua organização podem iniciar e agendar reuniões e os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Você gerencia políticas de reunião no centro de administração do Microsoft Teams ou usando os cmdlets [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell.
 
-As configurações de política de reunião que controlam se os usuários podem iniciar e agendar reuniões também controlam a expiração das reuniões agendadas pelos usuários. Quando um link de junção de reunião e a ID de conferência de uma reunião expiram, ninguém pode participar da reunião. As configurações de política de reunião a seguir determinam se os usuários podem iniciar e agendar reuniões no Teams e nos referimos a eles ao longo deste artigo.
+As configurações de política de reunião que controlam se os usuários podem iniciar e agendar reuniões e também controlar a expiração das reuniões agendadas pelos usuários. Quando um link de junção de reunião e a ID de conferência de uma reunião expiram, ninguém pode participar da reunião. As configurações de política de reunião a seguir determinam se os usuários podem iniciar e agendar reuniões em Teams. Discutimos as configurações de reunião neste artigo.
 
 - [Permitir Reunir agora em canais](meeting-policies-in-teams-general.md#allow-meet-now-in-channels): controla se um usuário pode iniciar uma reunião improvisada em um canal.
 - [Permitir agendamento de reunião de canal](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling): controla se um usuário pode agendar uma reunião em um canal.
@@ -63,14 +58,14 @@ Quando você alterna uma configuração de política de reunião de **Off** para
 
 ## <a name="meeting-expiration-scenarios"></a>Cenários de expiração de reunião
 
-Aqui está um resumo de como funciona a expiração da reunião para cada uma das configurações de política de reunião discutidas neste artigo. 
+Aqui está um resumo de como funciona a expiração da reunião para cada uma das configurações de política de reunião discutidas neste artigo.
 
-|Se desejar... |Faça isso  |Comportamento de junção de reunião  |
-|---------|---------|---------|
-|Expire channel Reunir agora reuniões iniciadas por um usuário  |Desativar Permitir **Reunir agora em canais**.|Ninguém pode ingressar no canal Reunir agora reuniões iniciadas pelo usuário.         |
-|Expirar reuniões de canal agendadas por um usuário   |Desativar **Permitir agendamento de reunião do canal**.         |Ninguém pode participar de reuniões de canal agendadas pelo usuário. Isso impede que as pessoas participem do seguinte:<ul><li>Reuniões de canal que ocorreram no passado.</li> <li>Reuniões de canal agendadas para o futuro e que ainda não ocorreram.</li><li>Instâncias futuras de reuniões de canal recorrentes.</li></ul>       |
-|Expirar reuniões privadas agendadas por um usuário    |Desativar **Permitir agendamento de reuniões privadas** e *desativar* **Permitir o Outlook de complemento**.          |Ninguém pode participar de reuniões privadas agendadas pelo usuário. Isso impede que as pessoas participem do seguinte: <ul><li>Reuniões privadas que ocorreram no passado.</li> <li>Reuniões privadas agendadas para o futuro e que ainda não ocorreram.</li><li>Instâncias futuras de reuniões privadas recorrentes.</li></ul> Tanto **Permitir o agendamento de** reuniões privadas quanto Permitir que o Outlook **de** usuário devem estar desligados para expirar reuniões privadas agendadas por um usuário. Se uma configuração estiver desligada e a outra estiver ativa, os links de junção de reunião e as IDs de conferência de reuniões existentes permanecerão ativos e não expiram.      |
-|Expire private Meet now meetings started by a user  |Desativar Permitir **Reunião agora em reuniões privadas**.          |Ninguém pode participar de reuniões privadas do Meet now iniciadas pelo usuário.         |
+|Se você quiser...&nbsp;&nbsp; |Faça isso&nbsp;&nbsp;&nbsp;&nbsp;  |Comportamento de junção de reunião&nbsp;&nbsp;&nbsp;&nbsp;  |
+|---------------------------|---------------------|---------|
+|Expire private Meet now meetings started by a user&nbsp;&nbsp;|Desativar Permitir **Reunião agora em reuniões privadas**.&nbsp;&nbsp;|Ninguém pode participar de reuniões **privadas do Meet now** iniciadas pelo usuário.|
+|Expirar reuniões privadas agendadas por um usuário&nbsp;&nbsp;|Desativar **Permitir agendamento de reuniões privadas** e _desativar_ **Permitir o Outlook de complemento**. &nbsp;&nbsp;|Ninguém pode participar de reuniões privadas agendadas pelo usuário. Isso impede que as pessoas participem das seguintes reuniões:<ul><li>Reuniões privadas que ocorreram no passado.</li><li>Reuniões privadas agendadas para o futuro e que ainda não ocorreram.</li><li>Instâncias futuras de reuniões privadas recorrentes.</li></ul><br>Tanto **Permitir o agendamento de** reuniões privadas quanto Permitir que o Outlook **de** usuário devem estar desligados para expirar reuniões privadas agendadas por um usuário. Se uma configuração estiver desligada e a outra estiver ativa, os links de junção de reunião e as IDs de conferência de reuniões existentes permanecerão ativos e não expiram.|
+|Expire channel **Reunir agora reuniões** iniciadas por um usuário&nbsp;&nbsp;|Desativar Permitir **Reunir agora em canais** e _desativar_ **Permitir agendamento** de reunião do canal .&nbsp;&nbsp;|Ninguém pode ingressar no canal **Reunir agora reuniões** iniciadas pelo usuário.|
+|Expirar reuniões de canal agendadas por um usuário&nbsp;&nbsp;|Desativar **Permitir agendamento de reunião do canal**.&nbsp;&nbsp;|Ninguém pode participar de reuniões de canal agendadas pelo usuário. Isso impede que as pessoas participem das seguintes reuniões:<ul><li>Reuniões de canal que ocorreram no passado.</li><li>Reuniões de canal agendadas para o futuro e que ainda não ocorreram.</li><li>Instâncias futuras de reuniões de canal recorrentes.</li></ul>|
 
 Se você quiser que as pessoas acessem reuniões que foram agendadas anteriormente ou iniciadas por um usuário específico, você pode:
 
