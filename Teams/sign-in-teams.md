@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: d58d9aaecd2c5d07922a96e0d5b0cb1ead4ba25b
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197516"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345697"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 ==========================
@@ -39,13 +39,13 @@ A autenticação moderna é um processo que permite que as Equipes saibam que os
 
 A autenticação moderna está disponível para todas as organizações que usam Microsoft Teams. Se os usuários não conseguirem concluir o processo, pode haver um problema subjacente com a configuração do Azure Active Directory da sua organização. Para obter mais informações, confira [Por que estou tendo problemas para entrar no Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
-- Se os usuários já tiverem entrado no Windows ou em outros aplicativos do Office com a conta corporativa ou de estudante, quando iniciarem o Teams, serão direcionados diretamente para o aplicativo. Não é necessário que eles insiram suas credenciais.
+- Se os usuários já assinaram o Windows ou outros aplicativos do Office com sua conta de trabalho ou de escola, quando iniciam o Teams são levados diretamente para o aplicativo. Não há necessidade de que eles entrem com suas credenciais.
 
-- A Microsoft recomenda usar a versão 1903 ou posterior do Windows 10 para obter a melhor experiência de logon único.
+- A Microsoft recomenda usar do Windows 10 versão 1903 ou posterior para a melhor experiência de Single Sign-On.
 
-- Se os usuários não estiverem conectados à sua conta Microsoft de trabalho ou da escola em nenhum outro lugar, quando iniciarem o Teams, serão solicitados a fornecer uma autenticação de fator único ou multifator (SFA ou MFA). Este processo depende do que sua organização decidiu que gostaria que fosse exigido pelo procedimento de entrada.
+- Se os usuários não estiverem inscritos em sua conta de trabalho ou escola Microsoft em qualquer outro lugar, quando iniciar o Teams, eles são solicitados a fornecer autenticação de um ou vários fatores (SFA ou MFA). Este processo depende do que sua organização tenha decidido que eles gostaria que o procedimento de entrada exigia.
 
-- Se os usuários estiverem conectados a um computador ingressado no domínio, quando iniciarem o Teams, poderão ser solicitados a executar mais uma etapa de autenticação, dependendo se sua organização optou por exigir MFA ou se o computador já exige que o MFA faça logon. Se o computador deles já exigir MFA para entrar, quando eles abrirem o Teams, o aplicativo será iniciado automaticamente.
+- Se os usuários estiverem conectados a um computador com domínio, quando se inicia o Teams, eles poderão ser solicitados a passar por mais uma etapa de autenticação, dependendo se sua organização optou por requerer o MFA ou se seu computador já requer o MFA para se conectar. Se o computador deles já exige que o MFA faça o login, quando abrir o Teams, o aplicativo é iniciado automaticamente.
 
 - Em computadores que ingressaram em domínios, quando o SSO não for possível, o Teams poderá preencher a sua tela de logon com o nome principal do usuário (UPN). Há casos em que você não quer que isso aconteça, principalmente se a sua organização usa UPNs diferentes no local e no Azure Active Directory. Se esse for o caso, você poderá usar a seguinte chave do registro do Windows para desativar o pré-registro com UPN:
 
@@ -72,7 +72,7 @@ No macOS, o Teams solicitará que os usuários digitem seu nome de usuário e cr
 
 Ao entrar, os usuários de dispositivos móveis verão uma lista de todas as contas do Microsoft 365 que estão atualmente conectadas ou que já haviam feito login em seus dispositivos. Os usuários podem utilizar qualquer uma das contas para entrar. Há dois cenários para se conectar no celular:
 
-1. Se a conta selecionada estiver atualmente conectada a outros aplicativos do Office 365 ou do Microsoft 365, o usuário será direcionado diretamente para o Teams. Não há necessidade do usuário inserir suas credenciais.
+1. Se a conta selecionada estiver atualmente registrada em outros aplicativos Office 365 ou Microsoft 365, então o usuário será levado diretamente ao Teams. Não há necessidade de o usuário digitar suas credenciais.
 
 2. Se o usuário não estiver conectado à sua conta do Microsoft 365 em nenhum outro lugar, será solicitado que ele forneça uma autenticação de fator único ou multifator (SFA ou MFA), dependendo do que a organização configurou para as políticas de entrada em dispositivos móveis.
 
@@ -89,7 +89,7 @@ As imagens a seguir mostram como os usuários podem adicionar várias contas nos
 
 ## <a name="restrict-sign-in-to-teams"></a>Restringir login para o Microsoft Teams
 
-A organização pode querer restringir como os aplicativos aprovados pela empresa são usados ​​em dispositivos gerenciados, por exemplo, para restringir a capacidade dos alunos ou funcionários de acessar dados de outras organizações ou usar aplicativos aprovados pela empresa para cenários pessoais. Essas restrições podem ser aplicadas pela configuração de Políticas de Dispositivos que os aplicativos o Microsoft Teams reconhece.   
+A organização pode querer restringir como os aplicativos aprovados pela empresa são usados em dispositivos gerenciados, por exemplo, para restringir a capacidade dos estudantes ou funcionários de acessar dados de outras organizações ou usar aplicativos aprovados pela empresa para cenários pessoais. Estas restrições podem ser aplicadas definindo Políticas de Dispositivos que os aplicativos do Teams reconhecem.   
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Como restringir o login em dispositivos móveis
 
@@ -119,7 +119,7 @@ Os aplicativos do Teams no Windows e no macOS estão ganhando suporte para polí
 Quando esta política é configurada em um dispositivo, os usuários só podem entrar com contas hospedadas em um locatário do Azure Active Directory incluído na “Lista de Permissões de Locatário” definida na política. A política se aplica a todos os logins, incluindo contas iniciais e adicionais. Se sua organização abrange vários locatários do Azure Active Directory, você pode incluir várias IDs de Locatário na Lista de Permissões. Os links para adicionar outra conta podem continuar visíveis no aplicativo Microsoft Teams, mas não estarão operacionais.
 
 > [!NOTE]
->1. A política restringe apenas logins. Ela não restringe a capacidade de os usuários serem convidados como visitantes em outros locatários do Azure Active Directory ou alternação para outros locatários.
+>1. A política restringe apenas as assinaturas. Ela não restringe a possibilidade de os usuários serem convidados como convidados em outros locatários do Microsoft Azure Active Directory, ou mudar para esses outros locatários (onde os usuários foram convidados como convidados).
 >2. A política requer o Teams para Windows versão 1.3.00.30866 ou superior e o Teams para macOS versão 1.3.00.30882 (lançado em meados de novembro de 2020).
 
 **Políticas para Windows** Arquivos de Modelo Administrativo (ADMX/ADML) estão disponíveis no [Centro de Download](https://www.microsoft.com/download/details.aspx?id=49030). (o nome descritivo da política no arquivo do modelo administrativo é "Restringir no Teams a entrada de contas de locatários específicos"). Além disso, você pode definir manualmente as chaves no Registro do Windows:
