@@ -225,7 +225,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -569,7 +569,7 @@ items:
         items:
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -671,7 +671,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -817,8 +817,6 @@ items:
     items:
       - name: Planejar sua solução de voz do Teams
         href: cloud-voice-landing-page.md
-      - name: Gerenciar políticas de voz e chamadas no Teams
-        href: voice-and-calling-policies.md
       - name: Sistema de Telefonia
         items:
           - name: O que é o Sistema de Telefonia
@@ -879,100 +877,102 @@ items:
             href: shared-line-appearance.md
           - name: Configuração do teclado de discagem
             href: dial-pad-configuration.md
-      - name: Planos de Chamadas
-        items:
-          - name: Qual Plano de Chamadas é ideal para você?
-            href: calling-plan-landing-page.md
-          - name: Como comprar um Plano de Chamadas
-            href: calling-plans-for-office-365.md
-          - name: Configurar Planos de Chamada para sua organização
-            href: set-up-calling-plans.md
-          - name: 'Guia de início rápido: Configurar Planos de Chamadas'
-            href: configuring-teams-calling-quickstartguide.md
-          - name: Disponibilidade de países e regiões para Planos de Chamadas
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-      - name: Roteamento Direto do Sistema de Telefonia
+      - name: Opções de conectividade PSTN
         items:
           - name: Visão Geral
-            href: direct-routing-landing-page.md
-          - name: Planejar o Roteamento Direto
-            href: direct-routing-plan.md
-          - name: Lista de controladores de borda da sessão certificados para Roteamento Direto
-            href: direct-routing-border-controllers.md
-          - name: Configurar o Roteamento Direto
+            href: pstn-connectivity.md
+          - name: Planos de Chamadas
             items:
-              - name: Visão Geral
-                href: direct-routing-configure.md
-              - name: 'Etapa 1: Conectar seu SBC'
-                href: direct-routing-connect-the-sbc.md
-              - name: 'Etapa 2: Habilitar usuários'
-                href: direct-routing-enable-users.md
-              - name: 'Etapa 3: Configurar o roteamento de voz'
-                href: direct-routing-voice-routing.md
-              - name: 'Etapa 4: Traduzir números de telefone'
-                href: direct-routing-translate-numbers.md
-              - name: Configurar um SBC para vários locatários
-                href: direct-routing-sbc-multiple-tenants.md
-              - name: Como usar dispositivos analógicos com Roteamento Direto
-                href: direct-routing-analog-devices.md
-          - name: Roteamento com Base no Local
+              - name: Qual Plano de Chamadas é ideal para você?
+                href: calling-plan-landing-page.md
+              - name: Configurar Planos de Chamada para sua organização
+                href: set-up-calling-plans.md
+              - name: 'Guia de início rápido: Configurar Planos de Chamadas'
+                href: configuring-teams-calling-quickstartguide.md
+              - name: Disponibilidade de países e regiões para Planos de Chamadas
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: Roteamento Direto do Sistema de Telefonia
             items:
-              - name: Planejar o Roteamento Baseado na Localização para o Roteamento Direto
-                href: location-based-routing-plan.md
-              - name: Configurar definições de rede para o Roteamento baseado na localização
-                href: location-based-routing-configure-network-settings.md
-              - name: Habilitar o Roteamento Baseado na Localização para o Roteamento Direto
-                href: location-based-routing-enable.md
-          - name: Bypass de mídia para Roteamento Direto
-            items:
-              - name: Planejar o bypass de mídia com Roteamento Direto
-                href: direct-routing-plan-media-bypass.md
-              - name: Configurar o bypass de mídia com Roteamento Direto
-                href: direct-routing-configure-media-bypass.md
-          - name: Otimização de mídia local do roteamento direto
-            items:
-              - name: Planejar a Otimização da Mídia Local
-                href: direct-routing-media-optimization.md
-              - name: Configurar a Otimização da Mídia Local
-                href: direct-routing-media-optimization-configure.md
-          - name: Contas de usuário em um ambiente híbrido com conectividade PSTN
-            href: direct-routing-user-accounts-in-a-hybrid-environment.md
-          - name: Migrar para o Roteamento Direto
-            href: direct-routing-migrating.md
-          - name: Monitorar e solucionar problemas do Roteamento Direto
-            items:
-              - name: Visão Geral
-                href: direct-routing-monitor-and-troubleshoot.md
-              - name: Painel de Integridade
-                href: direct-routing-health-dashboard.md
-          - name: Referência técnica do Roteamento Direto
-            items:
-              - name: Failover de tronco em chamadas de saída
-                href: direct-routing-trunk-failover-on-outbound-call.md
-              - name: Códigos do país/região do caminho da mídia
-                href: direct-routing-country-codes.md
-              - name: Script do Windows PowerShell para testar conexões de Controlador de Borda da Sessão
-                href: sip-tester-powershell-script.md
-              - name: Gerenciar notificações de chamadas
-                href: direct-routing-call-notifications.md
-              - name: Protocolos
+              - name: Visão geral
+                href: direct-routing-landing-page.md
+              - name: Planejar o Roteamento Direto
+                href: direct-routing-plan.md
+              - name: Lista de controladores de borda da sessão certificados para Roteamento Direto
+                href: direct-routing-border-controllers.md
+              - name: Configurar o Roteamento Direto
                 items:
-                  - name: Definições e padrões RFC
-                    href: direct-routing-protocols.md
-                  - name: Protocolo SIP
-                    href: direct-routing-protocols-SIP.md
-                  - name: Protocolos de mídia
-                    href: direct-routing-protocols-media.md
-              - name: Gerenciar uma política de roteamento de voz
-                href: manage-voice-routing-policies.md
-              - name: Dispositivo de Ramificação de Roteamento Direto Sobrevivente
-                href: direct-routing-survivable-branch-appliance.md
-      - name: Conexão do Operador
-        items:
-          - name: Plano para a Conexão do Operador
-            href: operator-connect-plan.md
-          - name: Configurar a Conexão do Operador
-            href: operator-connect-configure.md
+                  - name: Visão Geral
+                    href: direct-routing-configure.md
+                  - name: 'Etapa 1: Conectar seu SBC'
+                    href: direct-routing-connect-the-sbc.md
+                  - name: 'Etapa 2: Habilitar usuários'
+                    href: direct-routing-enable-users.md
+                  - name: 'Etapa 3: Configurar o roteamento de voz'
+                    href: direct-routing-voice-routing.md
+                  - name: 'Etapa 4: Traduzir números de telefone'
+                    href: direct-routing-translate-numbers.md
+                  - name: Configurar um SBC para vários locatários
+                    href: direct-routing-sbc-multiple-tenants.md
+                  - name: Como usar dispositivos analógicos com Roteamento Direto
+                    href: direct-routing-analog-devices.md
+                  - name: Gerenciar uma política de roteamento de voz
+                    href: manage-voice-routing-policies.md
+                  - name: Gerenciar notificações de chamadas
+                    href: direct-routing-call-notifications.md
+              - name: Roteamento com Base no Local
+                items:
+                  - name: Planejar o Roteamento Baseado na Localização para o Roteamento Direto
+                    href: location-based-routing-plan.md
+                  - name: Configurar definições de rede para o Roteamento baseado na localização
+                    href: location-based-routing-configure-network-settings.md
+                  - name: Habilitar o Roteamento Baseado na Localização para o Roteamento Direto
+                    href: location-based-routing-enable.md
+              - name: Bypass de mídia para Roteamento Direto
+                items:
+                  - name: Planejar o bypass de mídia com Roteamento Direto
+                    href: direct-routing-plan-media-bypass.md
+                  - name: Configurar o bypass de mídia com Roteamento Direto
+                    href: direct-routing-configure-media-bypass.md
+              - name: Otimização de mídia local do roteamento direto
+                items:
+                  - name: Planejar a Otimização da Mídia Local
+                    href: direct-routing-media-optimization.md
+                  - name: Configurar a Otimização da Mídia Local
+                    href: direct-routing-media-optimization-configure.md
+              - name: Contas de usuário em um ambiente híbrido com conectividade PSTN
+                href: direct-routing-user-accounts-in-a-hybrid-environment.md
+              - name: Migrar para o Roteamento Direto
+                href: direct-routing-migrating.md
+              - name: Monitorar e solucionar problemas do Roteamento Direto
+                items:
+                  - name: Visão Geral
+                    href: direct-routing-monitor-and-troubleshoot.md
+                  - name: Painel de Integridade
+                    href: direct-routing-health-dashboard.md
+              - name: Referência técnica do Roteamento Direto
+                items:
+                  - name: Failover de tronco em chamadas de saída
+                    href: direct-routing-trunk-failover-on-outbound-call.md
+                  - name: Códigos do país/região do caminho da mídia
+                    href: direct-routing-country-codes.md
+                  - name: Script do Windows PowerShell para testar conexões de Controlador de Borda da Sessão
+                    href: sip-tester-powershell-script.md
+                  - name: Protocolos
+                    items:
+                      - name: Definições e padrões RFC
+                        href: direct-routing-protocols.md
+                      - name: Protocolo SIP
+                        href: direct-routing-protocols-SIP.md
+                      - name: Protocolos de mídia
+                        href: direct-routing-protocols-media.md
+                  - name: Dispositivo de Ramificação de Roteamento Direto Sobrevivente
+                    href: direct-routing-survivable-branch-appliance.md
+          - name: Conexão do Operador
+            items:
+              - name: Plano para a Conexão do Operador
+                href: operator-connect-plan.md
+              - name: Configurar a Conexão do Operador
+                href: operator-connect-configure.md
       - name: Telefones
         items:
           - name: Gerenciar números de telefone para sua organização
@@ -1037,8 +1037,10 @@ items:
                 href: emergency-calling-labels.md
           - name: Gerenciar políticas de chamadas de emergência
             href: manage-emergency-calling-policies.md
-          - name: Gerenciar políticas de roteamento de chamada
+          - name: Gerenciar políticas de roteamento de chamadas de emergência para o Roteamento Direto
             href: manage-emergency-call-routing-policies.md
+      - name: Gerenciar políticas de voz e chamadas no Teams
+        href: voice-and-calling-policies.md
       - name: Estudo de caso da migração de voz da Contoso
         items:
           - name: Visão Geral
@@ -1556,8 +1558,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Como o Microsoft Office SharePoint Online e o Microsoft OneDrive for Business for Business interagem com o Teams
             href: sharepoint-onedrive-interact.md
-          - name: Experiência do Teams em um locatário habilitado para Multi-Geo do Microsoft 365 ou Office 365
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Dispositivos suportados
         items:
           - name: Gerenciar seus dispositivos no Teams

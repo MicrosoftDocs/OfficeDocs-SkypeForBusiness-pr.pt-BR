@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como habilitar os usuários Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: 6dab88312634a0dc3c595fec109905b308acbdaa
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345707"
+ms.locfileid: "53354291"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuários para Roteamento Direto, voz e caixa postal
 
@@ -126,7 +126,7 @@ Depois de ter criado o usuário e atribuído uma licença, a próxima etapa é c
     > Se o número de telefone do usuário for gerenciado no local, use o Shell de Gerenciamento local Skype for Business Shell de Gerenciamento ou Painel de Controle para configurar o número de telefone do usuário. 
 
 
-## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configurando o envio de chamadas diretamente para a caixa postal
+## <a name="configure-sending-calls-directly-to-voicemail"></a>Configurar o envio de chamadas diretamente para a caixa postal
 
 O Roteamento Direto permite que você termine a chamada para um usuário e envie-a diretamente para a caixa postal do usuário. Se você quiser enviar a chamada diretamente para a caixa postal, anexe opaque=app:voicemail ao header request URI. Por exemplo, "sip:user@yourdomain.com;opaque=app:voicemail". Nesse caso, o Teams usuário não receberá a notificação de chamada, a chamada será conectada diretamente à caixa postal do usuário.
 

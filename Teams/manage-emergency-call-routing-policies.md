@@ -1,7 +1,7 @@
 ---
-title: Gerenciar políticas de roteamento de chamada
-author: cichur
-ms.author: v-cichur
+title: Gerenciar políticas de roteamento de chamadas de emergência para Roteamento Direto
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -21,16 +21,16 @@ description: Saiba como usar e gerenciar políticas de roteamento de chamadas de
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86f73bed2e086efee666e5592ca3f42e9756096c
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096175"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354301"
 ---
-# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gerenciar políticas de roteamento de chamadas de emergência Microsoft Teams
+# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Gerenciar políticas de roteamento de chamadas de emergência para Roteamento Direto
 
-Se você tiver [](direct-routing-landing-page.md) implantado Sistema de Telefonia Roteamento Direto em sua organização, poderá usar políticas de roteamento de chamadas de emergência em Microsoft Teams para configurar números de emergência e especificar como as chamadas de emergência são roteadas. Uma política de roteamento de chamadas de emergência determina se os serviços de emergência aprimorados estão habilitados para usuários que têm a política atribuída, os números usados para chamar serviços de emergência (por exemplo, 911 nos Estados Unidos) e como as chamadas aos serviços de emergência são roteadas.
+Se você tiver [](direct-routing-landing-page.md) implantado Sistema de Telefonia Roteamento Direto em sua organização, poderá usar políticas de roteamento de chamadas de emergência em Microsoft Teams para configurar números de emergência e especificar como as chamadas de emergência são roteadas. Uma política de roteamento de chamadas de emergência determina se os serviços de emergência aprimorados estão habilitados para usuários atribuídos à política, os números usados para chamar serviços de emergência (por exemplo, 911 nos Estados Unidos) e como as chamadas para serviços de emergência são roteadas.
 
 Você gerencia políticas de roteamento de chamadas de emergência indo para políticas de Emergência de Voz no centro de administração Microsoft Teams   >   ou usando Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede.](cloud-voice-network-settings.md)
 
