@@ -1558,6 +1558,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Como o Microsoft Office SharePoint Online e o Microsoft OneDrive for Business for Business interagem com o Teams
             href: sharepoint-onedrive-interact.md
+          - name: Experiência do Teams em um locatário habilitado para Multi-Geo do Microsoft 365 ou Office 365
+            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Dispositivos suportados
         items:
           - name: Gerenciar seus dispositivos no Teams
