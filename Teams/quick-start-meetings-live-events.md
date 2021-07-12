@@ -3,8 +3,8 @@ title: Início rápido do administrador – reuniões e eventos ao vivo no Micro
 ms.reviewer: ''
 description: Um guia de início rápido para administradores obterem licenças, implementar e configurar reuniões online e eventos ao vivo no Microsoft Teams.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 03611f2d166883ce960e272e2f3b11300cd20c54
+ms.sourcegitcommit: 616b6d0d5be2b333519b79ab59a4117036ba647e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517734"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363576"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
@@ -42,15 +42,9 @@ Há duas maneiras de se reunir no Microsoft Teams - reuniões e eventos ao vivo.
 
 Todos podem participar de uma reunião ou evento ao vivo do Teams gratuitamente - não é necessário ter uma licença. Os participantes ingressam em uma reunião ou evento ao vivo clicando no botão **Ingressar** em no Teams ou no convite da reunião. O áudio da reunião faz parte de uma reunião do Teams, mas se você quer que as pessoas ingressem em uma união por telefone, será necessário fornecer um número de discagem.
 
-Para as pessoas que irão organizar, agendar e realizar reuniões ou eventos ao vivo, elas precisarão de uma das licenças do Microsoft 365 ou do Office 365 listadas na tabela a seguir. Se você já estiver usando o Teams, provavelmente terá a licença necessária para organizar e realizar reuniões e eventos ao vivo.
+Para as pessoas que organizarão, agendarão e hospedarão reuniões ou eventos ao vivo, elas precisarão de um dos planos de licenciamento descritos na descrição do serviço [Microsoft Teams](/office365/servicedescriptions/teams-service-description). 
 
-:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tabela com as licenças necessárias para reuniões ou eventos ao vivo do Teams":::
-
-> <sup>1</sup> Os organizadores da reunião precisam ter uma [Licença complementar de audioconferência](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para enviar um convite que inclua conferências discadas.
->
-> <sup>2</sup>  Reunião discada para uma [**Ligar para mim no** número](set-up-the-call-me-feature-for-your-users.md) exige que os organizadores tenham um E5 ou [Licença de Suplemento de Conferência de Áudio](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Um [plano de discagem](what-are-dial-plans.md) também pode ser necessário.
-
-Para saber mais sobre o licenciamento, leia a [Descrição do serviço do Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+Se você já estiver usando o Teams, provavelmente você já tem a licença necessária para organizar e hospedar reuniões e eventos ao vivo.
 
 ## <a name="make-sure-your-networks-ready"></a>Certifique-se de que a rede esteja pronta
 
