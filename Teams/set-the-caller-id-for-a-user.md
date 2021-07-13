@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre o Microsoft 365 e Office 365 ID padrão do chamador (número de telefone atribuído a um usuário), também conhecido como ID de Linha de Chamada. Você pode alterar ou bloquear a ID do chamador do usuário.
-ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
+ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230598"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53388646"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Definir a identificação de chamadas para um usuário
 
@@ -35,11 +35,11 @@ Sistema de Telefonia no Microsoft 365 fornece uma ID de chamador padrão que é 
   
 Por padrão, as configurações de ID do chamador a seguir são **desligadas**. Isso significa que o Teams de telefone do usuário pode ser visto quando esse usuário faz uma chamada para um telefone PSTN. Você pode alterar essas configurações da seguinte forma:
   
-- **ID do chamador de saída** Você pode substituir a ID do Chamador do usuário, que por padrão é seu número de telefone, por outro número de telefone. Por exemplo, você pode mudar a ID de chamadas do usuário de seu número de telefone para o número de telefone principal de sua empresa ou alterar a ID de Linha de Chamada do usuário de seu número de telefone para o número de telefone principal do departamento jurídico. Você pode alterar o número da ID de chamada para qualquer número de serviço online (gratuito ou gratuito). Você também pode alterar o número da ID de chamada para um número de telefone local por meio do Roteamento Direto atribuído a uma conta de recurso usada por um Atendedor Automático ou Fila de Chamadas.
+- **ID do chamador de saída** Você pode substituir a ID do Chamador do usuário, que por padrão é seu número de telefone, por outro número de telefone. Por exemplo, você pode alterar a ID do Chamador do usuário de seu número de telefone para um número de telefone principal para sua empresa ou para um número de telefone principal para o departamento jurídico. Além disso, você pode definir o número de ID de chamada para qualquer número de serviço online (gratuito ou gratuito) ou para um número de telefone local por meio do Roteamento Direto atribuído a uma conta de recurso usada por um Atendedor Automático ou uma Fila de Chamadas.
     
   > [!NOTE]
   > Se quiser usar o parâmetro *Service,* especifique um número de serviço válido.
-  > Você precisa usar os cmdlets do PowerShell para o número da conta de recurso, se não estiver visível no drop-down.
+  > Você precisa usar os cmdlets do PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity no módulo do Teams PowerShell 2.3.1 ou posterior para o número da conta resource se ele não estiver visível no menu suspenso.
   
 - **Bloquear a ID do chamador de saída.** Você pode impedir que a ID do Chamador de saída seja enviada em chamadas PSTN de saída de um usuário. Isso impede que o número de telefone seja exibido no telefone da pessoa que está sendo chamada.
     
@@ -90,7 +90,7 @@ Connect-MicrosoftTeams -Credential $credential
 3. Aplique a nova política criada usando o cmdlet Grant-CsCallingIdentity. Por exemplo, o exemplo a seguir aplica a nova política ao usuário Amos Marble.
     
      ```PowerShell
-      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
+     Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
      ```
    Para obter mais informações, [consulte Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet.
     
