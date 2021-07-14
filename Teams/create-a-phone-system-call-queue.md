@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: c07c5a42241a62f9ecfe90340cab473800469ca9
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126887"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420846"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -62,7 +62,7 @@ Para configurar uma fila de chamadas, no Centro de administração do Teams, exp
 
 Digite um nome para a fila de chamadas.
 
-### <a name="resource-accounts"></a>Contas de recursos
+## <a name="resource-accounts"></a>Contas de recursos
 
 ![Captura de tela das configurações da conta de recurso](media/call-queue-name-language.png)
 
@@ -78,25 +78,24 @@ Clique **em** Adicionar , pesquise as contas de recurso que você deseja permiti
 
 Se você não estiver usando um canal Teams para controlar a associação de agentes, considere definir diretamente a ID do chamador para membros da fila de chamada para o número de serviço da fila de chamada ou o atendimento automático apropriado. Para mais informações, confira [Gerenciar políticas de identificação de chamadas no Microsoft Teams](caller-id-policies.md).
 
-### <a name="language"></a>Linguagem
+## <a name="language"></a>Linguagem
 
 ![Captura de tela das configurações de idioma](media/call-queue-language.png)
 
 Escolha um [idioma com suporte](create-a-phone-system-call-queue-languages.md). Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
 
-### <a name="greetings-and-music-on-hold-in-queue"></a>Saudações e música de espera na fila
+## <a name="greetings-and-music-on-hold-in-queue"></a>Saudações e música de espera na fila
 
 ![Captura de tela de saudações e música em espera nas configurações de fila](media/call-queue-greetings-music.png)
 
-Especifique se você deseja reproduzir uma saudação aos chamadores quando eles chegarem na fila. Carregue um arquivo MP3, WAV ou WMA contendo a saudação que deseja reproduzir.
+Especifique se você deseja reproduzir uma saudação aos chamadores quando eles chegarem na fila. Carregue um arquivo MP3, WAV ou WMA contendo a saudação que deseja reproduzir. A gravação carregada não pode ser maior do que 5 MB.
 
-O Teams fornece música padrão aos chamadores enquanto eles estão em espera em uma fila. Se você quiser reproduzir um arquivo de áudio específico, escolha **Reproduzir um arquivo de áudio** e carregue um arquivo MP3, WAV ou WMA.
+O Teams fornece música padrão aos chamadores enquanto eles estão em espera em uma fila. A música padrão fornecida nas filas de chamadas do Teams é livre de royalties pagáveis pela organização. Se você quiser reproduzir um arquivo de áudio específico, escolha **Reproduzir um arquivo de áudio** e carregue um arquivo MP3, WAV ou WMA.
 
 > [!NOTE]
-> A gravação carregada não pode ser maior do que 5 MB.
-> A música padrão fornecida nas filas de chamadas do Teams é livre de royalties pagáveis pela organização. 
+> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço de Microsoft Teams, que podem incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os proprietários de direitos relevantes, que podem incluir artistas, atores, atores, compositores, rótulos de gravação, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que têm, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
 
-### <a name="call-agents"></a>Agentes de chamada
+## <a name="call-agents"></a>Agentes de chamada
 
 Revise os [pré-requisitos para adicionar agentes a uma fila de chamada.](plan-auto-attendant-call-queue.md#prerequisites)
 
@@ -126,7 +125,7 @@ Para adicionar um grupo à fila, clique em **Adicionar grupos**, procure o grupo
 > [!NOTE]
 > Os novos usuários adicionados a um grupo podem levar até oito horas para receberem a sua primeira chamada.
 
-### <a name="call-routing"></a>Roteamento de chamadas
+## <a name="call-routing"></a>Roteamento de chamadas
 
 ![Captura de tela das configurações de método de roteamento e modo de conferência](media/call-queue-conference-mode-routing-method.png)
 
@@ -140,6 +139,9 @@ As contas do Teams dos agentes precisam ser definidas para o modo apenas Teams. 
 > [!NOTE]
 > O modo de conferência não será suportado se as chamadas telefônicas são roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Local.
 
+> [!TIP]
+> Definir **o modo de conferência** como **Automático** é a configuração recomendada.
+
 O **método de roteamento** determina a ordem na qual os agentes recebem chamadas da fila. Escolha uma destas opções:
 
 - O **Roteamento de atendedor** chama todos os agentes na fila ao mesmo tempo. O primeiro agente de chamada que atender recebe a chamada.
@@ -150,33 +152,33 @@ O **método de roteamento** determina a ordem na qual os agentes recebem chamada
 
 - O **Ocioso por mais tempo** encaminha cada chamada para o agente que está ocioso há mais tempo. Um agente é considerado ocioso se seu estado de presença estiver Disponível ou se o estado de presença estiver Ausente por menos de 10 minutos. Os agentes cujo estado de presença esteja ausente há mais de 10 minutos não são considerados ociosos e não poderão receber chamadas até que alterem a presença para Disponível. 
 
+> [!TIP]
+> Definir **o Método de Roteamento** como Round **robin** ou **Longest idle** é a configuração recomendada.
+
 ![Captura de tela das configurações de roteamento, recusa e tempo de alerta](media/call-queue-presence-agents-time.png)
 
 O **Roteamento baseado em presença** usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **Disponível**, estão incluídos na lista de roteamento de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade está definido com qualquer outro status, são excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade volte para **Disponível**. 
 
 Habilite o roteamento de chamadas baseado em presença com qualquer um dos métodos de roteamento.
 
-> [!NOTE]
-> Quando **ocioso** mais longo é selecionado como o método de roteamento, o roteamento  baseado em presença é necessário e automaticamente habilitado, mesmo que a alternância de roteamento baseada em presença seja desligada e acinzenada.
-
 Se um agente optar por não receber chamadas, ele não será incluído na lista de roteamento de chamadas, independentemente do status de disponibilidade definido. 
 
 > [!NOTE]
+> Quando **ocioso** mais longo é selecionado como o método de roteamento, o roteamento  baseado em presença é necessário e automaticamente habilitado, mesmo que a alternância de roteamento baseada em presença seja desligada e acinzenada.
+>
+> Se o roteamento baseado em presença não for habilitado e houver várias chamadas na fila, o sistema apresentará essas chamadas simultaneamente aos agentes, independentemente do status de presença. Isso resultará em várias notificações de chamada aos agentes, particularmente se alguns agentes não atenderem à chamada inicial apresentada.
+> 
 > Os agentes que usam o cliente do Skype for Business não são incluídos na lista de roteamento de chamadas quando o roteamento baseado em presença está habilitado. Se você tiver agentes que usam o Skype for Business, não habilite o roteamento de chamadas baseado em presença.
+
+> [!TIP]
+> Definir **roteamento baseado em presença** como **On** é a configuração recomendada.
 
 O **Tempo de alerta do agente** especifica por quanto tempo o telefone de um agente tocará antes que a fila redirecione a chamada para o próximo agente.
 
-As seguintes configurações são recomendadas:
+> [!TIP]
+> Definir **o tempo de alerta do Agente** como **20 segundos** é a configuração recomendada.
 
-- **Modo de conferência** para **Automático**
-- **Método de roteamento** para **Round robin** ou **Ocioso por mais tempo**
-- **Roteamento baseado em presença** para **Ativado**
-- **Tempo de alerta do agente:** para **20 segundos**
-
-> [!NOTE]
-> Se o roteamento baseado em presença não for habilitado e houver várias chamadas na fila, o sistema apresentará essas chamadas simultaneamente aos agentes, independentemente do status de presença. Isso resultará em várias notificações de chamada aos agentes, particularmente se alguns agentes não atenderem à chamada inicial apresentada.
-
-### <a name="call-overflow-handling"></a>Administração de estouro de chamadas
+## <a name="call-overflow-handling"></a>Administração de estouro de chamadas
 
 ![Captura de tela das configurações de estouro de chamadas](media/call-queue-overflow-handling.png)
 
@@ -187,7 +189,7 @@ Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um d
 > [!NOTE]
 > Se o número máximo de chamadas for definido como 0, então a mensagem de saudação não será reproduzida.
 
-### <a name="call-timeout-handling"></a>Administração de tempo limite de chamada
+## <a name="call-timeout-handling"></a>Administração de tempo limite de chamada
 
 ![Captura de tela das configurações de tempo limite de chamada](media/call-queue-timeout-handling.png)
 
@@ -196,6 +198,15 @@ Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um d
 Você pode optar por desconectar a chamada ou redirecioná-la para um dos destinos de roteamento de chamadas. Por exemplo, você pode pedir ao chamador que deixe uma mensagem de voz para os agentes na fila. Para transferências externas, consulte [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) e [transferências de números de telefone externos – detalhes técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para formatação de números.
 
 Quando você tiver selecionado as opções de tempo limite de chamada, clique em **Salvar**.
+
+## <a name="summary-of-recommended-call-queue-settings"></a>Resumo das configurações recomendadas de fila de chamada
+
+As seguintes configurações são recomendadas:
+
+- **Modo de conferência** para **Automático**
+- **Método de roteamento** para **Round robin** ou **Ocioso por mais tempo**
+- **Roteamento baseado em presença** para **Ativado**
+- **Tempo de alerta do agente:** para **20 segundos**
 
 ## <a name="supported-clients"></a>Clientes com suporte
 
