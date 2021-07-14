@@ -1,5 +1,5 @@
 ---
-title: Desativação do Skype for Business Server
+title: Desativação de Skype for Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,40 +16,40 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Instruções para desativação do Skype for Business Server.
-ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+description: Instruções para desativá-Skype for Business Server.
+ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656687"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420786"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Remover a implantação local do Skype for Business
 
-Este artigo descreve como remover sua implantação local do Skype for Business. Esta é a etapa 4 das etapas a seguir para desmantelar seu ambiente local:
+Este artigo descreve como remover sua implantação local Skype for Business local. Esta é a etapa 4 das etapas a seguir para desmantelar seu ambiente local:
 
 - Etapa 1. [Mova todos os usuários necessários do local para o online](decommission-move-on-prem-users.md). 
 
 - Etapa 2. [Desabilite sua configuração híbrida](cloud-consolidation-disabling-hybrid.md).
 
-- Etapa 3. [Mover pontos de extremidade de aplicativo híbrido do local para o online](decommission-move-on-prem-endpoints.md)
+- Etapa 3. [Migrar pontos de extremidade de aplicativo híbrido do local para o online](decommission-move-on-prem-endpoints.md)
 
-- **Etapa 4. Remova sua implantação local do Skype for Business.** (Este artigo)
+- **Etapa 4. Remova sua implantação local Skype for Business local.** (Este artigo)
 
 
 > [!IMPORTANT] 
-> As etapas deste artigo só se aplicam se você estiver usando o Método 2 para gerenciar atributos de usuário, conforme descrito [aqui](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). Se você estiver usando o Método 1, não use as etapas descritas neste artigo para remover seus servidores do Skype for Business. Em vez disso, você pode reimimá-los.
+> As etapas deste artigo só se aplicam se você estiver usando o Método 2 para gerenciar atributos de usuário, conforme descrito [aqui](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). Se você estiver usando o Método 1, não use as etapas descritas neste artigo para remover seus Skype for Business servidores. Em vez disso, você pode reimimá-los.
 
-Para concluir as etapas deste artigo, você precisa de privilégios para o grupo Administradores de Esquema e para o grupo Administrador empresarial. Você precisará desses privilégios para desfazer o esquema do Skype for Business Server e as alterações no nível da floresta nos Serviços de Domínio do Active Directory. Você também precisará ser membro do grupo RTCUniversalServerAdmins.
+Para concluir as etapas deste artigo, você precisa de privilégios para o grupo Administradores de Esquema e o grupo Enterprise Administrador. Você precisará desses privilégios para desfazer o esquema Skype for Business Server e as alterações no nível da floresta nos Serviços de Domínio do Active Directory. Você também precisará ser membro do grupo RTCUniversalServerAdmins.
 
 
-## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>Preparar para remover a implantação do Skype for Business
+## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>Preparar para remover a implantação Skype for Business de dados
 
 Depois de mover todas as contas de usuário necessárias para a nuvem, ainda pode haver alguns objetos locais restantes, como contatos e aplicativos que você precisará limpar.
 
-Use as etapas abaixo para limpar esses objetos e certifique-se de que você seja membro do grupo Administrador Local e do grupo RTCUniversalServerAdmins. Observe que o ExUmContacts e PersistantChatEndPoints não estão disponíveis no Skype for Business Server 2019. Se você tiver o Skype for Business Server 2019, os cmdlets correspondentes nas etapas abaixo devem ser omitidos.
+Use as etapas abaixo para limpar esses objetos e certifique-se de que você seja membro do grupo Administrador Local e do grupo RTCUniversalServerAdmins. Observe que o ExUmContacts e PersistantChatEndPoints não estão disponíveis no Skype for Business Server 2019. Se você tiver Skype for Business Server 2019, os cmdlets correspondentes nas etapas abaixo devem ser omitidos.
 
-1. Para verificar se há contatos ou aplicativos associados à implantação local do Skype for Business Server, execute os seguintes cmdlets do PowerShell do Skype for Business Server.
+1. Para verificar se há contatos ou aplicativos associados à implantação Skype for Business Server local, execute os seguintes cmdlets Skype for Business Server PowerShell.
 
    ```PowerShell
    Get-CsMeetingRoom
@@ -64,7 +64,7 @@ Use as etapas abaixo para limpar esses objetos e certifique-se de que você seja
    Get-CsAudioTestServiceApplication
    Get-CsCallParkOrbit
    ```
-2. Revise as listas de saída dos cmdlets na Etapa 1. Em seguida, se os objetos puderem ser removidos, execute os seguintes cmdlets do PowerShell do Skype for Business Server:
+2. Revise as listas de saída dos cmdlets na Etapa 1. Em seguida, se os objetos puderem ser removidos, execute o seguinte Skype for Business Server cmdlets do PowerShell:
 
    ```PowerShell
    Get-CsMeetingRoom | Disable-CsMeetingRoom
@@ -81,28 +81,28 @@ Use as etapas abaixo para limpar esses objetos e certifique-se de que você seja
    ```
 ## <a name="remove-your-on-premises-skype-for-business-deployment"></a>Remover a implantação local do Skype for Business
 
-Após concluir todas as etapas preliminares, você pode remover a implantação do Skype for Business seguindo estas etapas:
+Após concluir todas as etapas preliminares, você pode remover a Skype for Business de implantação seguindo estas etapas:
 
-1. Remova logicamente a implantação do Skype for Business Server, exceto por um único front-end, da seguinte maneira:
+1. Remova logicamente a implantação Skype for Business Server, exceto por um único front-end, da seguinte maneira:
 
-   a. Atualize sua topologia do Skype for Business Server para ter um único pool front-end:
+   1. Atualize sua Skype for Business Server para ter um único pool front-end:
 
-     - No Construtor de Topologias, baixe uma nova cópia e navegue até o pool frontend.
-     - Clique com o botão direito no pool e, em seguida, clique em **Editar propriedades**.
-     - Em **Associações, desmarque** **Associar Pool** de Borda (para componentes de mídia) e clique em **OK**.
-     - Se houver mais de um Pool frontend, remova Associações para todos os pools restantes.
-     - Selecione **Ação > Remover Implantação**.
-     - Selecione **Ação > Publicar Topologia**.
+      1. No Construtor de Topologias, baixe uma nova cópia e navegue até o pool frontend.
+      1. Clique com o botão direito no pool e, em seguida, clique em **Editar propriedades**.
+      1. Em **Associações, desmarque** **Associar Pool** de Borda (para componentes de mídia) e clique em **OK**.
+      1. Se houver mais de um Pool frontend, remova Associações para todos os pools restantes.
+      1. Selecione **Ação > Remover Implantação**.
+      1. Selecione **Ação > Publicar Topologia**.
 
-    b. Depois de publicar a topologia, conclua as etapas adicionais descritas no assistente.
+    1. Depois de publicar a topologia, conclua as etapas adicionais descritas no assistente.
 
-2. Remova os diretórios de conferência do Skype for Business Server executando o seguinte cmdlet do PowerShell do Skype for Business Server:
+2. Remova Skype for Business Server diretórios de conferência executando o seguinte Skype for Business Server cmdlet do PowerShell:
 
    ```PowerShell
    Get-CsConferenceDirectory | Remove-CsConferenceDirectory -Force
    ```
 
-3. Finalize a desinstalação da implantação do Skype for Business Server executando o seguinte cmdlet do PowerShell do Skype for Business Server:
+3. Finalize a desinstalação da sua implantação Skype for Business Server executando o seguinte cmdlet Skype for Business Server PowerShell:
 
    ```PowerShell
    Publish-CsTopology -FinalizeUninstall
@@ -110,18 +110,18 @@ Após concluir todas as etapas preliminares, você pode remover a implantação 
    > [!NOTE]
    > Se essa etapa retornar um erro, abra um tíquete de suporte da Microsoft para obter ajuda para remover os objetos que restam.
 
-4. Remova o Ponto de Controle do Serviço do Armazenamento de Gerenciamento Central executando o seguinte cmdlet do PowerShell do Skype for Business Server:
+4. Remova o Ponto de Controle do Serviço do Armazenamento de Gerenciamento Central executando o seguinte Skype for Business Server cmdlet do PowerShell:
 
    ```PowerShell
    Remove-CsConfigurationStoreLocation
    ``` 
 
-5. Desfazer alterações no nível da floresta do Domínio do Active Directory do Skype for Business Server executando o seguinte cmdlet do PowerShell do Skype for Business Server:
+5. Desfazer Skype for Business Server de nível de domínio do Active Directory executando o seguinte Skype for Business Server cmdlet do PowerShell:
 
    ```PowerShell
    Disable-CsAdDomain
    ```
-6. Desfazer alterações de esquema de Domínio do Active Directory do Skype for Business Server executando o seguinte cmdlet do PowerShell do Skype for Business Server:
+6. Desfazer Skype for Business Server alterações no nível da floresta do Active Directory executando o seguinte Skype for Business Server cmdlet do PowerShell:
 
    ```PowerShell
    Disable-CsAdForest
@@ -136,14 +136,4 @@ Após concluir todas as etapas preliminares, você pode remover a implantação 
 - [Desabilitar sua configuração híbrida](cloud-consolidation-disabling-hybrid.md)
 
 - [Mover pontos de extremidade de aplicativo híbrido do local para o online](decommission-move-on-prem-endpoints.md)
-
-
-
-
-
-
-
-
-
-
 

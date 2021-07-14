@@ -1,5 +1,5 @@
 ---
-title: Mover pontos de extremidade de aplicativo híbrido para a nuvem
+title: Migrar pontos de extremidade de aplicativo híbrido para a nuvem
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,15 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Mova os pontos de extremidade do aplicativo hirido antes de desativá-lo Skype for Business ambiente local.
-ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+description: Migre pontos de extremidade de aplicativo hirido antes de descomissionar um ambiente Skype for Business local.
+ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684378"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420796"
 ---
-# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Mover pontos de extremidade de aplicativo híbrido antes de encerrar seu ambiente local
+# <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Migrar pontos de extremidade de aplicativo híbrido antes de encerrar seu ambiente local
 
 Este artigo descreve como mover os pontos de extremidade de aplicativo híbrido necessários para a nuvem da Microsoft antes de desativá-los Skype for Business ambiente. Esta é a etapa 3 das etapas a seguir para desmantelar seu ambiente local:
 
@@ -32,14 +32,14 @@ Este artigo descreve como mover os pontos de extremidade de aplicativo híbrido 
 
 - Etapa 2. [Desabilite sua configuração híbrida](cloud-consolidation-disabling-hybrid.md).
 
-- **Etapa 3. Mova os pontos de extremidade do aplicativo híbrido do local para o online.** (Este artigo)
+- **Etapa 3. Migrar pontos de extremidade de aplicativo híbrido do local para o online.** (Este artigo)
 
 - Etapa 4. [Remova sua implantação local Skype for Business .](decommission-remove-on-prem.md)
 
 
-## <a name="move-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>Mover todos os pontos de extremidade de aplicativo híbrido necessários do local para o online
+## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>Migrar todos os pontos de extremidade de aplicativo híbrido necessários do local para o online
 
-Antes de mover esses pontos de extremidade para online, você deve garantir que os registros DNS atualizados apontem para Microsoft 365 para todos os domínios sip usados pelos pontos de extremidade. Não é possível criar contas de recursos online se os registros DNS apontarem para o local. Para obter mais informações, consulte [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
+Antes de mover esses pontos de extremidade para online, você deve garantir que os registros DNS atualizados apontem para Microsoft 365 para todos os domínios sip usados pelos pontos de extremidade. Esteja ciente de que, depois de atualizar o DNS para apontar para Microsoft 365, todos os pontos de extremidade de aplicativo híbrido existentes não serão mais descobertos até que você conclua esta etapa. Como esta etapa (criar contas de recursos online) não será possível se os registros DNS apontarem para o local, você deve planejar realizar as etapas 2 e 3 na mesma janela de manutenção. Para obter mais informações, consulte [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
 1. Recupere e exporte configurações de ponto de extremidade de aplicativo híbrido local executando o seguinte comando local Skype for Business Server PowerShell:
 

@@ -1,5 +1,5 @@
 ---
-title: Desabilitar a migração híbrida para concluir a nuvem
+title: Desabilitar a migração híbrida para concluir Teams Somente
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -20,57 +20,61 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: Este artigo inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação de nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: 08d305fa2650cffbadb0ec3122458f4a57e052a4
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+description: Este artigo inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação da nuvem para Teams e Skype for Business.
+ms.openlocfilehash: 97681f4e9306336874ba4d9428a273b1d31519db
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899102"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420836"
 ---
-# <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Desabilitar sua configuração híbrida para concluir a migração para a nuvem
+# <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Desabilitar sua configuração híbrida para concluir a migração para Teams Somente 
 
-Este artigo descreve como desabilitar sua configuração híbrida antes de desativar seu ambiente local do Skype for Business. Esta é a etapa 2 das etapas a seguir para desmantelar seu ambiente local:
+Este artigo descreve como desabilitar sua configuração híbrida antes de desativar seu ambiente local Skype for Business ambiente. Esta é a etapa 2 das etapas a seguir para desmantelar seu ambiente local:
 
 - Etapa 1. [Mova todos os usuários necessários do local para o online](decommission-move-on-prem-users.md).
 
 - **Etapa 2. Desabilite sua configuração híbrida.** (Este artigo)
 
-- Etapa 3. [Mover pontos de extremidade de aplicativo híbrido de local para online](decommission-move-on-prem-endpoints.md).
+- Etapa 3. [Migrar pontos de extremidade de aplicativo híbrido do local para o online](decommission-move-on-prem-endpoints.md).
 
-- Etapa 4. [Remova sua implantação local do Skype for Business.](decommission-remove-on-prem.md)
+- Etapa 4. [Remova sua implantação local Skype for Business .](decommission-remove-on-prem.md)
 
+> [!NOTE]
+> As etapas 2 e 3 devem ser feitas na mesma janela de manutenção, pois quaisquer pontos de extremidade de aplicativo híbrido existentes não serão descobertos entre as etapas 2 e a conclusão da etapa 3.
 
 ## <a name="overview"></a>Visão Geral
 
-Depois de atualizar todos os usuários do Skype for Business local para o Teams somente no Microsoft 365, você pode desmantelar a implantação local do Skype for Business. Antes de desativar a implantação local do Skype for Business e remover qualquer hardware, você deve separar logicamente a implantação local do Microsoft 365 desabilitando o híbrido. Desabilitar híbrido consiste nas três etapas a seguir:
+Depois de atualizar todos os usuários do Skype for Business local para o Teams somente no Microsoft 365, você poderá desativá-la Skype for Business implantação local. Antes de desativar a implantação Skype for Business local e remover qualquer hardware, você deve separar logicamente a implantação local do Microsoft 365 desabilitando o híbrido. Desabilitar híbrido consiste nas quatro etapas a seguir:
 
 1. Atualize os registros DNS para apontarem para o Microsoft 365.
 
-2. Desabilite o espaço de endereço sip compartilhado (também conhecido como "domínio dividido") na organização do Microsoft 365.
+2. Altere o modo de coexistência para sua organização para Teams Somente.
 
-3. Desabilite a capacidade no local de se comunicar com o Microsoft 365.
+3. Desabilite o espaço de endereço sip compartilhado (também conhecido como "domínio dividido") na Microsoft 365 organização.
 
-Essas etapas separam logicamente sua implantação local do Skype for Business Server do Microsoft 365 e devem ser feitas juntas como uma unidade. Os detalhes de cada etapa são fornecidos neste artigo. Depois que isso for concluído, você poderá desmantelar sua implantação local do Skype for Business usando um dos dois métodos referenciados abaixo.
+4. Desabilite a capacidade no local de se comunicar com Microsoft 365.
+
+Essas etapas separam logicamente sua implantação local do Skype for Business Server do Microsoft 365 e garantem que sua organização está totalmente Teams Somente. Os detalhes de cada etapa são fornecidos neste artigo. Depois que isso for concluído, você poderá desativá-la Skype for Business implantação local usando um dos dois métodos referenciados abaixo.
 
 > [!Important] 
-> Depois que essa separação lógica for concluída, os atributos msRTCSIP do Active Directory local ainda terão valores e continuarão a sincronizar por meio do Azure AD Connect no Azure AD. Como você desativa o ambiente local depende se você pretende deixar esses atributos no lugar ou primeiro descompactá-los do Active Directory local. Esteja ciente de que limpar os atributos msRTCSIP locais depois que você tiver migrado do local pode resultar em perda de serviço para os usuários! Detalhes e trocas das duas abordagens de desativação são descritos posteriormente.
+> Depois que essa separação lógica for concluída, os atributos msRTCSIP do Active Directory local ainda terão valores e continuarão a sincronizar por meio do Azure AD Conexão no Azure AD. Como você desativa o ambiente local depende se você pretende deixar esses atributos no lugar ou primeiro descompactá-los do Active Directory local. Esteja ciente de que limpar os atributos msRTCSIP locais depois que você tiver migrado do local pode resultar em perda de serviço para os usuários! Detalhes e trocas das duas abordagens de desativação são descritos posteriormente.
 
 ## <a name="detailed-steps"></a>Etapas detalhadas
 
-1. *Atualize o DNS para apontar para o Microsoft 365.* O DNS externo da organização para a organização local precisa ser atualizado para que os registros do Skype for Business apontem para o Microsoft 365 em vez da implantação local. Especificamente:
+1. *Atualize o DNS para apontar para Microsoft 365.* O DNS externo da organização para a organização local precisa ser atualizado para que os registros Skype for Business apontem para Microsoft 365 em vez da implantação local. Especificamente:
 
-    |Tipo de registro|Nome|TTL|Valor|
-    |---|---|---|---|
-    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed.online.lync. <span> com|
-    |SRV|_sip._tls|3600|100 1 443 sipdir.online.lync. <span> com|
-    |CNAME| lyncdiscover|   3600|   webdir.online.lync. <span> com|
-    |CNAME| sip|    3600|   sipdir.online.lync. <span> com|
+    |Tipo de registro|Nome|TTL|Prioridade|Peso|Porta|Valor|
+    |---|---|---|---|---|---|---|
+    |SRV|_sipfederationtls._tcp|3600|100|1|5061|sipfed.online.lync. <span> com|
+    |SRV|_sip._tls|3600|100|1|443|sipdir.online.lync. <span> com|
+    |CNAME| lyncdiscover|   3600| | | |webdir.online.lync. <span> com|
+    |CNAME| sip|    3600| | | | sipdir.online.lync. <span> com|
 
-    Além disso, os registros CNAME para meet ou dialin (se presente) podem ser excluídos. Por fim, quaisquer registros DNS do Skype for Business em sua rede interna devem ser removidos.
+    Além disso, os registros CNAME para meet ou dialin (se presente) podem ser excluídos. Por fim, quaisquer registros DNS para Skype for Business em sua rede interna devem ser removidos.
 
     > [!Note] 
-    > Em casos raros, a alteração do DNS de apontar para o Microsoft 365 local para sua organização pode fazer com que a federação com algumas outras organizações pare de funcionar até que outra organização atualize sua configuração de federação:
+    > Em casos raros, a alteração do DNS de apontar no local para o Microsoft 365 para sua organização pode fazer com que a federação com algumas outras organizações pare de funcionar até que outra organização atualize sua configuração de federação:
     >
     > - Todas as organizações federadas que estão usando o modelo de Federação Direta mais antigo (também conhecido como Servidor parceiro permitido) precisarão atualizar suas entradas de domínio permitidas para sua organização para remover o FQDN de proxy. Esse modelo de federação herdado não se baseia nos registros SRV DNS, portanto, essa configuração ficará desa datada quando sua organização for para a nuvem.
     > 
@@ -78,14 +82,20 @@ Essas etapas separam logicamente sua implantação local do Skype for Business S
     >
     > Se você suspeitar que qualquer um de seus parceiros federados possa estar usando Federação Direta ou não tiver federado com qualquer organização online ou híbrida, sugerimos que você envie uma comunicação sobre isso enquanto se prepara para concluir sua migração para a nuvem.
 
+2.  *Altere o modo de coexistência para sua organização para Teams Somente.* Isso garante que qualquer novo usuário em sua organização seja sempre criado como um Teams usuário único. Além disso, tentar alterar o modo de locatário para Teams Somente verificará automaticamente a existência de quaisquer registros DNS locais que possam ter sido perdidas na etapa 1 e identificar esses registros na saída.  Alterar o modo de locatário para Teams somente terá êxito até que todos os registros DNS para sua organização sejam atualizados. Para alterar o modo de locatário para Teams execute somente o seguinte comando de uma janela Teams PowerShell.
 
-2.  *Desabilite o espaço de endereço sip compartilhado na organização do Microsoft 365.* O comando abaixo precisa ser feito a partir de uma janela do PowerShell do Skype for Business Online.
+     ```PowerShell
+     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global
+     ```
+Como alternativa, você pode usar o Centro de Administração Teams para alterar o modo de coexistência do locatário para o TeamsOnly, em "Configurações de toda a organização" -> "atualização Teams".    
+    
+3.  *Desabilite o espaço de endereço sip compartilhado Microsoft 365 organização.* O comando abaixo precisa ser feito de uma janela Teams PowerShell.
 
      ```PowerShell
      Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
      ```
  
-3.  *Desabilite a capacidade no local de se comunicar com o Microsoft 365.* O comando abaixo precisa ser feito de uma janela local do PowerShell:
+4.  *Desabilite a capacidade no local de se comunicar com Microsoft 365.* O comando abaixo precisa ser feito de uma janela local do PowerShell:
 
      ```PowerShell
      Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
@@ -93,18 +103,18 @@ Essas etapas separam logicamente sua implantação local do Skype for Business S
 
 ## <a name="managing-attributes-after-moving-users-from-on-premises-to-the-cloud"></a>Gerenciando atributos após mover usuários do local para a nuvem
 
-Por padrão, todos os usuários que foram habilitados anteriormente para o Skype for Business Server e posteriormente movidos para a nuvem ainda têm atributos msRTCSIP configurados no Active Directory local. Esses atributos, em particular endereço sip (msRTCSIP-PrimaryUserAddress) e potencialmente número de telefone (msRTCSIP-Line), continuam a sincronizar com o Azure AD. Se as alterações são necessárias para qualquer um dos atributos msRTCSIP, essas alterações devem ser feitas no Active Directory local e, em seguida, sincronizar com o Azure AD. No entanto, depois que a implantação do Skype for Business Server tiver sido removida, as ferramentas do Skype for Business Server não estarão disponíveis para gerenciar esses atributos.
+Por padrão, todos os usuários que foram habilitados anteriormente para Skype for Business Server e posteriormente movidos para a nuvem ainda têm atributos msRTCSIP configurados no Active Directory local. Esses atributos, em particular endereço sip (msRTCSIP-PrimaryUserAddress) e potencialmente número de telefone (msRTCSIP-Line), continuam a sincronizar com o Azure AD. Se as alterações são necessárias para qualquer um dos atributos msRTCSIP, essas alterações devem ser feitas no Active Directory local e, em seguida, sincronizar com o Azure AD. No entanto, depois que Skype for Business Server implantação do Skype for Business Server for removida, as ferramentas de Skype for Business Server não estarão disponíveis para gerenciar esses atributos.
 
 Há duas opções disponíveis para lidar com essa situação:
 
-1. Deixe os usuários habilitados para contas de servidor do Skype for Business como estão e gerencie os atributos msRTCSIP usando ferramentas do Active Directory. Isso garante nenhuma perda de serviço para usuários migrados e permite que você remova facilmente a implantação do Skype for Business Server eliminando (por exemplo, limpar) os servidores, sem um descomissionamento completo. No entanto, os usuários recém-licenciados não terão esses atributos preenchidos no Active Directory local e precisarão ser gerenciados online.
+1. Deixe os usuários habilitados para Skype for Business contas de servidor como estão e gerencie os atributos msRTCSIP usando ferramentas do Active Directory. Isso garante nenhuma perda de serviço para usuários migrados e permite que você remova facilmente a implantação do Skype for Business Server eliminando (por exemplo, limpar) os servidores, sem um descomissionamento completo. No entanto, os usuários recém-licenciados não terão esses atributos preenchidos no Active Directory local e precisarão ser gerenciados online.
 
 2.  Limpe todos os atributos msRTCSIP de usuários migrados no Active Directory local e gerencie esses atributos usando ferramentas online. Esse método permite uma abordagem de gerenciamento consistente para usuários existentes e novos, no entanto, pode resultar em uma perda temporária de serviço durante o processo de desativação local.
 
 
 ### <a name="method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory"></a>Método 1 - Gerenciar endereços sip e números de telefone para usuários no Active Directory
 
-Os administradores podem gerenciar usuários que foram movidos anteriormente de um Skype for Business Server local para a nuvem, mesmo após a desativação da implantação local. Se você quiser fazer alterações no endereço sip de um usuário ou no número de telefone de um usuário (e o endereço sip ou número de telefone já tiver um valor no Active Directory local), você deve fazer isso no Active Directory local e permitir que os valores fluam para o Azure AD. Isso NÃO exige o Skype for Business Server local. Em vez disso, você pode modificar esses atributos diretamente no Active Directory local, usando o snap-in MMC de Usuários e Computadores do Active Directory (conforme mostrado abaixo) ou usando o PowerShell. Se você estiver usando o snap-in MMC, abra a página de propriedades do usuário, clique na guia Editor de Atributos e encontre os atributos apropriados para modificar:
+Os administradores podem gerenciar usuários que foram movidos anteriormente de um local Skype for Business Server para a nuvem, mesmo após a desativação da implantação local. Se você quiser fazer alterações no endereço sip de um usuário ou no número de telefone de um usuário (e o endereço sip ou número de telefone já tiver um valor no Active Directory local), você deve fazer isso no Active Directory local e permitir que os valores fluam para o Azure AD. Isso NÃO requer Skype for Business Server. Em vez disso, você pode modificar esses atributos diretamente no Active Directory local, usando o snap-in MMC de Usuários e Computadores do Active Directory (conforme mostrado abaixo) ou usando o PowerShell. Se você estiver usando o snap-in MMC, abra a página de propriedades do usuário, clique na guia Editor de Atributos e encontre os atributos apropriados para modificar:
 
 - Para modificar o endereço sip de um usuário, modifique `msRTCSIP-PrimaryUserAddress` o .
 
@@ -117,27 +127,27 @@ Os administradores podem gerenciar usuários que foram movidos anteriormente de 
   
 -  Se o usuário não tiver originalmente um valor para o local antes da movimentação, você poderá modificar o número de telefone usando o parâmetro - no `msRTCSIP-Line` `onpremLineUri` [cmdlet Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) no módulo do PowerShell do Skype for Business Online.
 
-Essas etapas não são necessárias para novos usuários criados após a desabilitação híbrida, e esses usuários podem ser gerenciados diretamente na nuvem. Se você estiver confortável usando a combinação desses métodos, bem como com a saída dos atributos msRTCSIP no seu Active Directory local, você pode simplesmente reimimá-los nos servidores locais do Skype for Business. No entanto, se você preferir limpar todos os atributos msRTCSIP e fazer uma desinstalação tradicional do Skype for Business Server, use o Método 2.
+Essas etapas não são necessárias para novos usuários criados após a desabilitação híbrida, e esses usuários podem ser gerenciados diretamente na nuvem. Se você estiver confortável usando a combinação desses métodos, bem como com deixar os atributos msRTCSIP no seu Active Directory local, você pode simplesmente reimimá-los no local Skype for Business servidores. No entanto, se você preferir limpar todos os atributos msRTCSIP e fazer uma desinstalação tradicional do Skype for Business Server, use o Método 2.
 
 
-### <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>Método 2 - Limpar atributos do Skype for Business para todos os usuários locais no Active Directory
+### <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>Método 2 - Limpar Skype for Business atributos para todos os usuários locais no Active Directory
 
-Essa opção requer esforço adicional e planejamento adequado, pois os usuários que foram movidos anteriormente de um Skype for Business Server local para a nuvem são necessários para serem re provisionados. Esses usuários podem ser categorizados em duas categorias diferentes: usuários sem Sistema de Telefonia e usuários com Sistema de Telefonia. Os usuários com o Sistema de Telefonia terão uma perda temporária do serviço de telefonia como parte da transição do número de telefone de ser gerenciado no Active Directory local para a nuvem. **É recomendável executar um piloto envolvendo um pequeno número de usuários com o Sistema de Telefonia antes de iniciar operações de usuário em massa.** Para implantações grandes, os usuários podem ser processados em grupos menores em janelas de tempo diferentes. 
+Essa opção requer esforço adicional e planejamento adequado, pois os usuários que foram movidos anteriormente de uma Skype for Business Server local para a nuvem são necessários para serem re provisionados. Esses usuários podem ser categorizados em duas categorias diferentes: usuários sem Sistema de Telefonia e usuários com Sistema de Telefonia. Os usuários com Sistema de Telefonia terão uma perda temporária do serviço de telefonia como parte da transição do número de telefone de ser gerenciado no Active Directory local para a nuvem. **É recomendável executar um piloto envolvendo um pequeno número de usuários com Sistema de Telefonia antes de iniciar operações de usuário em massa.** Para implantações grandes, os usuários podem ser processados em grupos menores em janelas de tempo diferentes. 
 
 > [!NOTE] 
 > Esse processo é mais simples para usuários que têm um endereço sip correspondente e UserPrincipalName. Para organizações que têm usuários com valores não correspondentes nesses dois atributos, é necessário ter cuidado extra, conforme abaixo, para uma transição suave.
 
 > [!NOTE]
-> Se você configurou pontos de extremidade de aplicativo híbrido local para Atendimento Automático ou Filas de Chamadas, não deixe de mover esses pontos de extremidade para o Microsoft 365 antes de encerrar o Skype for Business Server.
+> Se você configurou pontos de extremidade de aplicativo híbrido local para Atendimento Automático ou Filas de Chamada, não deixe de mover esses pontos de extremidade para Microsoft 365 antes de desativá-los Skype for Business Server.
 
 
-1. Confirme se o seguinte cmdlet local do Skype for Business PowerShell retorna um resultado vazio. Um resultado vazio significa que nenhum usuário está no local e foi movido para o Microsoft 365 ou desabilitado:
+1. Confirme se o seguinte cmdlet local Skype for Business PowerShell retornará um resultado vazio. Um resultado vazio significa que nenhum usuário está no local e foi movido para Microsoft 365 ou desabilitado:
 
    ```PowerShell
    Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
    ```
 
-2. Grave o número de telefone atual dos usuários (LineUri), UserPrincipalName e informações relacionadas, executando o seguinte cmdlet local do Skype for Business Server PowerShell para exportar dados do usuário:
+2. Grave o número de telefone atual dos usuários (LineUri), UserPrincipalName e informações relacionadas, executando o seguinte cmdlet local Skype for Business Server PowerShell para exportar dados do usuário:
 
    ```PowerShell
    Get-CsUser | Select-Object SipAddress, UserPrincipalName, SamAccountName, RegistrarPool, HostingProvider, EnabledForFederation, EnabledForInternetAccess, LineUri, EnterpriseVoiceEnabled, HostedVoiceMail | Sort SipAddress | Export-Csv -Path  "c:\backup\SfbUserSettings.csv"
@@ -155,10 +165,10 @@ Essa opção requer esforço adicional e planejamento adequado, pois os usuário
    > [!Important] 
    > Antes de continuar SfbUsers.csv arquivo aberto e confirmar que os dados do usuário foram exportados com êxito. Você precisará do LineUri (número de telefone), UserPrincipalName, SamAccountName e SipAddress desse arquivo em uma etapa posterior.
 
-4. Exclua as informações de atributo relacionadas ao Skype for Business Server do Active Directory para o conjunto de usuários que você está pronto para atualizar.  Há duas etapas para esse processo, conforme mostrado abaixo.
+4. Exclua as informações de atributo relacionadas Skype for Business Server do Active Directory para o conjunto de usuários que você está pronto para atualizar.  Há duas etapas para esse processo, conforme mostrado abaixo.
 
    > [!Important] 
-   > Após o próximo ciclo de Sincronização do AAD após executar esta etapa, os usuários com o Sistema de Telefonia que foram movidos anteriormente de um Skype for Business Server local para a nuvem perderão a capacidade de fazer e receber chamadas até que a etapa 8 seja concluída e confirmada com êxito na etapa 9. Além disso, certifique-se de ter salvo os números de telefone do usuário e as informações relacionadas conforme a etapa 2, já que essas informações são necessárias para essa etapa.
+   > Após o próximo ciclo de AAD Sync após executar esta etapa, os usuários com Sistema de Telefonia que foram movidos anteriormente de um Skype for Business Server local para a nuvem perderão a capacidade de fazer e receber chamadas até que a etapa 8 seja concluída e confirmada com êxito na etapa 9. Além disso, certifique-se de ter salvo os números de telefone do usuário e as informações relacionadas conforme a etapa 2, já que essas informações são necessárias para essa etapa.
 
  
    ```PowerShell
@@ -190,19 +200,19 @@ Essa opção requer esforço adicional e planejamento adequado, pois os usuário
    }
    ```
 
-6. Executar a sincronização do Azure AD
+6. Executar Azure AD Sync
 
    ```PowerShell
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. Aguarde o provisionamento do usuário ser concluído. Você pode monitorar o andamento do provisionamento do usuário executando o seguinte comando do PowerShell do Skype for Business Online. O seguinte comando do PowerShell do Skype for Business Online retorna um resultado vazio assim que o processo é concluído.
+7. Aguarde o provisionamento do usuário ser concluído. Você pode monitorar o andamento do provisionamento do usuário executando o seguinte comando Skype for Business PowerShell Online. O seguinte Skype for Business comando do PowerShell Online retorna um resultado vazio assim que o processo é concluído.
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. Execute o seguinte comando do PowerShell do Skype for Business Online para atribuir números de telefone e habilitar usuários para o Sistema de Telefonia:
+8. Execute o seguinte comando Skype for Business PowerShell Online para atribuir números de telefone e habilitar usuários para Sistema de Telefonia:
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -215,9 +225,9 @@ Essa opção requer esforço adicional e planejamento adequado, pois os usuário
     ```
 
    > [!Note]
-   >  Se você ainda tiver pontos de extremidade do Skype for Business (clientes Skype ou telefones de terceiros), também deseja definir -HostedVoiceMail como $true. Se sua organização estiver usando apenas pontos de extremidade do Teams para usuários habilitados para voz, essa configuração não será aplicável aos usuários. 
+   >  Se você ainda tiver Skype for Business pontos de extremidade (clientes Skype ou telefones de terceiros), também deseja definir -HostedVoiceMail como $true. Se sua organização estiver usando apenas Teams pontos de extremidade para usuários habilitados para voz, essa configuração não será aplicável aos seus usuários. 
 
-9. Confirme se os usuários com a funcionalidade do Sistema de Telefonia foram provisionados corretamente. O seguinte comando do PowerShell do Skype for Business Online retorna um resultado vazio assim que o processo é concluído.
+9. Confirme se os usuários com Sistema de Telefonia funcionalidade foram provisionados corretamente. O seguinte Skype for Business comando do PowerShell Online retorna um resultado vazio assim que o processo é concluído.
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -238,17 +248,17 @@ Essa opção requer esforço adicional e planejamento adequado, pois os usuário
 
 11. Confirme se todos os usuários foram processados com êxito executando os dois comandos do PowerShell a seguir.
 
-    Comando local do PowerShell do Skype for Business Server local:
+    Comando local do PowerShell Skype for Business Server local:
 
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-    Comando do PowerShell do Skype for Business Online:
+    Skype for Business Comando do PowerShell Online:
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. Depois de concluir todas as etapas no Método 2, consulte [Mover](decommission-move-on-prem-endpoints.md) pontos de extremidade de aplicativo híbrido do local para o online e Remover o [Skype for Business Server](decommission-remove-on-prem.md) local para obter etapas adicionais para remover sua implantação local do Skype for Business Server.
+12. Depois de concluir todas as etapas no Método 2, consulte [Mover](decommission-move-on-prem-endpoints.md) pontos de extremidade de aplicativo híbrido do local para online e [Remover](decommission-remove-on-prem.md) o Skype for Business Server local para obter etapas adicionais para remover sua implantação Skype for Business Server local.
 
 
 ## <a name="see-also"></a>Confira também
