@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 96012732c3f8023535e67cd753a16a7aac32f913
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 6776631ec79f3f5d4f96756f1cf5ee119319171f
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240491"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53428217"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -195,7 +195,7 @@ Como as equipes são em forma de vida, ocasionalmente, elas precisam de verifica
 
 Quando o trabalho de uma equipe chega ao fim, é importante reconhecer formalmente que terminou. Assim, os membros da equipe são informados do encerramento. Além disso, é impedido o acesso a informações desatualizadas e obsoletas. Você pode usar a própria equipe para realizar tarefas de encerramento, como post-mortem e resumos executivos.
 
-Você pode excluir equipes que você sabe que não precisa (por exemplo, uma equipe criada exclusivamente para testes ou uma equipe que contenha dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Microsoft 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com as políticas de conformidade. Os canais também têm uma "exclusão reversível" e podem ser revertidos por até 21 dias após a exclusão. Excluir um canal não excluirá a pasta ou seu conteúdo da biblioteca de documentos do Microsoft Office SharePoint Online.
+Você pode excluir equipes que você sabe que não precisa (por exemplo, uma equipe criada exclusivamente para testes ou uma equipe que contenha dados confidenciais). Na verdade, as equipes são excluídas com uma "exclusão temporária" que a TI pode reverter por até 30 dias. A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com as políticas de conformidade. Os canais também têm uma "exclusão reversível" e podem ser revertidos por até 21 dias após a exclusão. Excluir um canal não excluirá a pasta ou seu conteúdo da biblioteca de documentos do Microsoft Office SharePoint Online.
 
 Você também pode usar as políticas de expiração e retenção, além de recursos de arquivamento, para reduzir a exposição de equipes que não estão mais ativas ou cujos proprietários deixaram a organização.
 

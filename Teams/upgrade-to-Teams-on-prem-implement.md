@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: f11d14bc7bf302a864afe3062ef8f2bb8eccd7da
+ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306035"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437638"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Estratégias de atualização para administradores de IT
 
@@ -86,12 +86,10 @@ A seguir estão os comandos principais:
 Observações
  
 - Em vez de definir a política de todo o locatário como SfbWithTeamsCollab, você pode defini-la como SfbWithTeamsCollabAndMeetings. Isso faz com que todos os usuários agendem todas as novas reuniões Teams.
-- `Move-CsUser` é um cmdlet nas ferramentas locais. A `MoveToTeams` opção requer Skype for Business Server 2019 ou Skype for Business Server 2015 com CU8 ou posterior. Se você estiver usando uma versão anterior, primeiro poderá mover o usuário para o Skype for Business Online e conceder o modo TeamsOnly para esse usuário.
 - Por padrão, Skype for Business reuniões são migradas para Teams ao atualizar para o modo TeamsOnly ou ao atribuir o modo SfbWithTeamsCollabAndMeetings.  
 
 > [!NOTE]
-> Em preparação para a próxima aposentadoria do Skype for Business Online, a Microsoft estará simplificando como as organizações se movem para Teams em um futuro próximo. Ao mover um usuário do local para o Teams, em breve não será mais necessário especificar a opção para mover os usuários diretamente do local para o `-MoveToTeams` `Move-CsUser` TeamsOnly. No momento, se essa opção não for especificada, os usuários transiram da sua residência no Skype for Business Server local para o Skype for Business Online e seu modo permanece inalterado. Após a reforma, ao mover um usuário do local para a nuvem com , os usuários serão atribuídos automaticamente ao modo TeamsOnly e suas reuniões do local serão automaticamente convertidas em reuniões Teams, assim como se o , independentemente de a opção ser `Move-CsUser` `-MoveToTeams switch had been specified` realmente especificada. Esperamos lançar essa funcionalidade antes da aposentadoria real de 31 de julho de 2021.
-
+> Em preparação para a próxima reforma do Skype for Business Online, a Microsoft simplificou a forma como as organizações se movem para Teams. Não é mais necessário especificar a opção para mover os usuários diretamente do local diretamente `-MoveToTeams` `Move-CsUser` para o TeamsOnly. Anteriormente, se essa opção não fosse especificada, os usuários tinham feito a transição da sua residência no Skype for Business Server local para o Skype for Business Online, e o modo permaneceu inalterado. Agora, ao mover um usuário do local para a nuvem com , os usuários são atribuídos automaticamente ao modo TeamsOnly e suas reuniões do local são automaticamente convertidas em reuniões Teams, como se o , independentemente de a opção ser `Move-CsUser` `-MoveToTeams switch had been specified` realmente especificada. Esse comportamento está disponível em todas as versões do Skype For Business Server e do Lync Server 2013 (que nunca tiveram suporte para `-MoveToTeams` ).
 
 O diagrama a seguir mostra as fases conceituais da atualização de recursos selecionados para uma organização sem uso anterior de Teams. A altura das barras representa o número de usuários. Durante qualquer fase da atualização, todos os usuários podem se comunicar uns com os outros.  Skype for Business se comunicam com usuários do TeamsOnly usando o Interop e vice-versa. Os usuários no modo Ilhas devem ter certeza de executar ambos os clientes.
 
@@ -104,7 +102,7 @@ Se alguns usuários em sua organização estão usando ativamente Teams no modo 
 
 1. Encontre usuários que estão ativos Teams a seguir:
 
-   1. No centro Microsoft 365 de administração, na navegação à esquerda, vá para Relatórios e, em seguida, Uso. 
+   1. No Centro de administração do Microsoft 365, na navegação à esquerda, vá para Relatórios e, em seguida, Uso. 
    2. No menu suspenso "Selecionar um relatório", escolha Microsoft Teams e, em seguida, Atividade do Usuário. Isso fornecerá uma tabela exportável de usuários que tenham sido ativos Teams. 
    3. Clique em Exportar, abra Excel e filtre para mostrar somente os usuários que estão ativos Teams.
 

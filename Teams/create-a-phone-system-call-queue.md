@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420846"
+ms.locfileid: "53428197"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -111,6 +111,9 @@ Os seguintes clientes são suportados ao usar um canal Teams para filas de chama
 
   - Microsoft Teams Windows cliente
   - Cliente Microsoft Teams para Mac
+
+> [!NOTE]
+> Se você usar essa opção, pode levar até 24 horas para que a fila de chamada seja totalmente operacional.
 
 ##### <a name="users-and-groups"></a>Usuários e grupos
 

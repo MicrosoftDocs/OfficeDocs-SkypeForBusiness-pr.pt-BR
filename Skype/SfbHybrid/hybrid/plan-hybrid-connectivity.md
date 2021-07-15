@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planeje implementar a conectividade híbrida entre Skype for Business Server e Teams ou Skype for Business Online configurando Skype for Business modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 7d886016495d194997ebf99361916c9c387e5d1f
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 277e592df24a03f50d09ebca21bad0211e6c8c57
+ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856330"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437648"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planejar conectividade híbrida entre Skype for Business Server e Teams
 
@@ -56,11 +56,13 @@ No entanto, após a Skype for Business online, as organizações híbridas só p
 
 Para que as organizações mudem do Skype for Business Server ou do Lync Server 2013 para o Teams, elas ainda devem configurar e configurar o híbrido usando o mesmo conjunto de *ferramentas,* exatamente como antes da reforma . O que mudou é que, ao mover um usuário do local para o Teams, não é mais necessário especificar a opção para mover os usuários diretamente do local para o `-MoveToTeams` `Move-CsUser` TeamsOnly. Anteriormente, se essa opção não foi especificada, os usuários mudaram de Skype for Business Server local para o Skype for Business Online, e seu modo permaneceu inalterado. Em preparação para a aposentadoria, ao mover um usuário do local para a nuvem com , os usuários agora são atribuídos automaticamente ao modo TeamsOnly e suas reuniões do local são automaticamente convertidas em reuniões Teams, como se a opção tivesse sido especificada, independentemente de a opção ser `Move-CsUser` `-MoveToTeams` realmente especificada. (Isso inclui migrações do Lync Server 2013, que nunca tiveram a `MoveToTeams` opção.) 
 
+Da mesma forma, se um novo usuário for criado diretamente no Microsoft 365 em vez de no local, esse usuário terá automaticamente Teams modo Somente independentemente do modo do locatário. (Esse comportamento será lançado em um futuro próximo com a aposentadoria.) Lembre-se de que, em uma organização híbrida, novos usuários devem ser criados no Active Directory local (e sincronizados no Microsoft 365), em vez de criar diretamente um usuário no Microsoft 365, para garantir que os usuários locais possam roteá-lo para o novo usuário.
+
 Os modos de co-existência continuarão a existir após a aposentadoria do Skype for Business Online. Como antes, os usuários com contas Skype for Business Server local podem ser atribuídos a qualquer modo de coexistência, exceto o TeamsOnly. No entanto, após a aposentadoria, os usuários em casa online só podem ser o TeamsOnly (em contraste com o presente em que os usuários Skype for Business Online podem ser qualquer modo).  
 
 > [!Important]
-> As organizações híbridas existentes com usuários no Skype for Business Online que não são o TeamsOn Teams ly devem se concentrar na atualização desses usuários para o modo Somente assim que possível, mas não mais que a aposentadoria em 31 de julho de 2021. Se sua organização ainda tiver usuários no Skype for Business Online que não são o TeamsOnly, você pode estar agendado para uma atualização assistida pela Microsoft para fazer a transição desses usuários para o TeamsOnly. Isso não afetará os usuários que estão Skype for Business Server local. As notificações de agendamento serão enviadas com antecedência para clientes híbridos com usuários Skype for Business online antes que esses usuários online, que não sejam do TeamsOnly, sejam atualizados para Teams.
-
+> - As organizações híbridas existentes com usuários no Skype for Business Online que não são o TeamsOn Teams ly devem se concentrar na atualização desses usuários para o modo Somente assim que possível, mas não mais que a aposentadoria em 31 de julho de 2021. Se sua organização ainda tiver usuários no Skype for Business Online que não são o TeamsOnly, você pode estar agendado para uma atualização assistida pela Microsoft para fazer a transição desses usuários para o TeamsOnly. Isso não afetará os usuários que estão Skype for Business Server local. As notificações de agendamento serão enviadas com antecedência para clientes híbridos com usuários Skype for Business online antes que esses usuários online, que não sejam do TeamsOnly, sejam atualizados para Teams.
+> - Em preparação para a Skype for Business Online, em breve não será mais possível atribuir um modo diferente do TeamsOnly a um usuário que está em casa online.
 
 ## <a name="about-shared-sip-address-space-functionality"></a>Sobre a funcionalidade espaço de endereço SIP compartilhado
 
