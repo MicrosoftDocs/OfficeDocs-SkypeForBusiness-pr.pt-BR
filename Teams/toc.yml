@@ -225,14 +225,20 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-              - name: Desabilitar o modo híbrido para concluir a migração para a nuvem
-                href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: Desabilitar híbrido para completar a migração para Teams Apenas
+                items:
+                  - name: Desabilitar híbrido para completar a migração para Teams Apenas
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
+                  - name: Atualizar entradas DNS
+                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                  - name: Decidir como gerenciar atributos após o encerramento
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: Mover pontos de extremidade do aplicativo para a nuvem
-                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
               - name: Remover a implantação do Skype for Business
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: Implantar uma topologia de floresta de recursos
@@ -569,7 +575,7 @@ items:
         items:
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -671,7 +677,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -893,7 +899,7 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Roteamento Direto do Sistema de Telefonia
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: direct-routing-landing-page.md
               - name: Planejar o Roteamento Direto
                 href: direct-routing-plan.md
@@ -1558,8 +1564,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Como o Microsoft Office SharePoint Online e o Microsoft OneDrive for Business for Business interagem com o Teams
             href: sharepoint-onedrive-interact.md
-          - name: Experiência do Teams em um locatário habilitado para Multi-Geo do Microsoft 365 ou Office 365
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Dispositivos suportados
         items:
           - name: Gerenciar seus dispositivos no Teams

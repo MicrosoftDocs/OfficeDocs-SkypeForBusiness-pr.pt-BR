@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instruções para desativá-Skype for Business Server.
-ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420786"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454334"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Remover a implantação local do Skype for Business
 
@@ -38,7 +38,7 @@ Este artigo descreve como remover sua implantação local Skype for Business loc
 
 
 > [!IMPORTANT] 
-> As etapas deste artigo só se aplicam se você estiver usando o Método 2 para gerenciar atributos de usuário, conforme descrito [aqui](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). Se você estiver usando o Método 1, não use as etapas descritas neste artigo para remover seus Skype for Business servidores. Em vez disso, você pode reimimá-los.
+> As etapas deste artigo só se aplicam se você estiver usando o Método 2 para gerenciar atributos de usuário, conforme descrito [aqui](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). Se você estiver usando o Método 1, não use as etapas descritas neste artigo para remover seus Skype for Business servidores. Em vez disso, você pode reimimá-los.
 
 Para concluir as etapas deste artigo, você precisa de privilégios para o grupo Administradores de Esquema e o grupo Enterprise Administrador. Você precisará desses privilégios para desfazer o esquema Skype for Business Server e as alterações no nível da floresta nos Serviços de Domínio do Active Directory. Você também precisará ser membro do grupo RTCUniversalServerAdmins.
 

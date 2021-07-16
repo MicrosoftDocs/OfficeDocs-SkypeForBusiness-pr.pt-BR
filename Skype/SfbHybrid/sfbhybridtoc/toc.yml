@@ -22,12 +22,18 @@
           href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
     - name: Desativar o ambiente local do Skype for Business
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: ../hybrid/decommission-on-prem-overview.md
         - name: Mover usuários para a nuvem
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: Desabilitar o modo híbrido para concluir a migração para a nuvem
-          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Desabilitar híbrido para completar a migração para ApenasTeams
+          items:
+            - name: Desabilitar híbrido para completar a migração para ApenasTeams
+              href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+            - name: Atualizar entradas DNS
+              href: ../hybrid/decommission-manage-dns-entries.md
+            - name: Decidir como gerenciar os atributos após o encerramento
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: Mover pontos de extremidade do aplicativo para a nuvem
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Remover a implantação local do Skype for Business
