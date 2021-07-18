@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: cd4d8b4136639a057250bf72aa969e13f8619e1d
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219118"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454344"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -161,9 +161,9 @@ As legendas ocultas para gravações de reunião do Teams estarão disponíveis 
 
 As legendas ajudam a criar conteúdo inclusivo para visualizadores com diferentes habilidades.  Como um proprietário, você pode ocultar as legendas na gravação da reunião, mas a transcrição da reunião ainda estará disponível no Teams, a menos que você a exclua de lá. 
 
-As legendas ocultas têm suporte nas gravações de reunião do Teams por 60 dias a partir de quando a reunião foi gravada.
+Hoje, as legendas fechadas para o arquivo de vídeo de gravação são vinculadas à transcrição Teams reunião. Esse link permanecerá durante o tempo de vida do arquivo na maioria dos casos, mas pode ser quebrado, por exemplo, se o arquivo de vídeo for copiado no mesmo site OneDrive ou SharePoint, o que resultaria em legendas que não estão disponíveis no novo arquivo de vídeo de gravação.
 
-As legendas ocultas não terão suporte total se a Gravação de Reunião do Teams for movida ou copiada de seu local original no OneDrive for Business e no SharePoint.
+Todas as alterações futuras serão esclarecidas aqui e nas notificações do centro de mensagens e garantirão que os arquivos de gravação com menos de 60 dias ex exempam a transcrição da reunião como legendas em todo o período de migração.
 
 > [!NOTE]
 > Haverá legendas fechadas somente em inglês (a transcrição da reunião ainda não está disponível no GCC).
