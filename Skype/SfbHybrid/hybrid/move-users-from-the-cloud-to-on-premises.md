@@ -17,19 +17,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: Saiba como mover usuários do Skype for Business Online para o local.
-ms.openlocfilehash: 78e86e48e9f409c9e2a9f348cada9c24f30c6279
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: Saiba como mover usuários do Teams para o local.
+ms.openlocfilehash: db1557c3929bdf62557e31a7fce78050569016ee
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509782"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574086"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Mover usuários da nuvem para o local 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Se necessário, você pode mover um usuário que foi migrado anteriormente do local para a nuvem (usando o Skype for Business Online ou Teams Somente) de volta para o local. Para mover os usuários do modo Skype for Business Online ou do TeamsOnly de volta para uma implantação local do Skype for Business Server, use o cmdlet Move-CsUser ou o Painel de Controle do Skype for Business Server, ambos eles são ferramentas locais. Ao mover um usuário de volta para uma implantação local, você deve decidir para qual pool mover o usuário.
+Se necessário, você pode mover um usuário que foi migrado anteriormente do local para Teams voltar para o local. Para mover os usuários do modo Skype for Business Online ou do TeamsOnly de volta para uma implantação local do Skype for Business Server, use o cmdlet Move-CsUser ou o Painel de Controle do Skype for Business Server, ambos eles são ferramentas locais. Ao mover um usuário de volta para uma implantação local, você deve decidir para qual pool mover o usuário.
 
 > [!Important]
 > Se o usuário estava anteriormente no modo TeamsOnly e você está usando uma versão anterior do Skype for Business Server 2015 com CU8, você também deve remover a atribuição do modo TeamsOnly do TeamsUpgradePolicy para esse usuário. Os usuários locais não devem ter mode= TeamsOnly.  As versões subsequentes Skype for Business Server remover automaticamente essa atribuição. Para obter mais detalhes, [consulte Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
@@ -90,6 +90,6 @@ Para remover a atribuição do usuário do TeamsUpgradePolicy, execute o seguint
 Como alternativa, para atribuir outra instância do TeamsUpgradePolicy que não tenha mode=TeamsOnly, você pode especificar o nome da instância desejada como o valor do parâmetro PolicyName no cmdlet. Para ver uma lista de instâncias disponíveis do TeamsUpgradePolicy, execute Get-CsTeamsUpgradePolicy.
 
 
-## <a name="see-also"></a>Confira também:
+## <a name="see-also"></a>Confira também
 
 [Move-CsUser](/powershell/module/skype/move-csuser)

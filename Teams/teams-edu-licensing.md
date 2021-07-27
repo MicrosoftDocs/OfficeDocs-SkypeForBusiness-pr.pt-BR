@@ -1,5 +1,5 @@
 ---
-title: Recursos do Microsoft Teams para administradores de Educação
+title: 'Recursos do Microsoft Teams para administradores da Educação: Atribuir licenças do Microsoft Teams para EDU'
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e51d472bbf3310b03fea6344b354fc307c8ce08a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119230"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587370"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>Atribuir licenças do Microsoft Teams para EDU
 

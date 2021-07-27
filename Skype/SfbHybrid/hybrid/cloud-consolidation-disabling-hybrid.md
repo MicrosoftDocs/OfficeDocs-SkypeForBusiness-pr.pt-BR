@@ -1,5 +1,5 @@
 ---
-title: Desabilitar a migração híbrida para concluir Teams Somente
+title: Desabilitar híbrido para completar a migração para ApenasTeams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação da nuvem para Teams e Skype for Business.
-ms.openlocfilehash: 87bd1f6e0dcabed067174972dd0f0fc51149beb0
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453640"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510502"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Desabilitar sua configuração híbrida para concluir a migração para Teams Somente 
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 Este artigo descreve como desabilitar sua configuração híbrida antes de desativar seu ambiente local Skype for Business ambiente. Esta é a etapa 2 das etapas a seguir para desmantelar seu ambiente local:
 
@@ -102,7 +105,7 @@ Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira também:
 
 - [Consolidação de nuvem para Teams e Skype for Business](cloud-consolidation.md)
 

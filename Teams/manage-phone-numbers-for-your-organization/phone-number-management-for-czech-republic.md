@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na República Tcheca para Microsoft Teams.
-ms.openlocfilehash: 01583e8abc6d9660f1329f6b79191d53b722bb9b
-ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
+ms.openlocfilehash: b2cfab2e4ae738e68e472fc08e33bba706cdfa1f
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53479038"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510182"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Telefone gerenciamento de números para a República Tcheca
 
@@ -37,10 +37,10 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. |Na República Tcheca, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [enviando-o para nós](mailto:ptneu@microsoft.com).<br/><br/>[Nova solicitação de número de telefone para a República Tcheca (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
-|Obter números de telefone transferidos para nós. | Baixe este formulário. <br/><br/>[Carta de Autorização (LOA) para a República Tcheca (todos os números) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). Você também deve incluir uma conta de utilitário do endereço comercial para o qual deseja transferir números.<br/><br/>A transferência de números pode levar de duas a três semanas para ser concluída neste mercado. <br/><br/>Esses números não podem ser usados para conferência no momento. |
-|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
-|Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. |Na República Tcheca, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [contate PTSN para obter instruções.](contact-pstn-service-desk.md)<br/><br/>[Nova solicitação de número de telefone para a República Tcheca (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
+|Obter números de telefone transferidos para nós. | Baixe este formulário. <br/><br/>[Carta de Autorização (LOA) para a República Tcheca (todos os números) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md). Você também deve incluir uma conta de utilitário do endereço comercial para o qual deseja transferir números.<br/><br/>A transferência de números pode levar de duas a três semanas para ser concluída neste mercado. <br/><br/>Esses números não podem ser usados para conferência no momento. |
+|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
+|Altere o número de um usuário para um número de serviço.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
 |Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato [com o service desk PSTN](contact-pstn-service-desk.md). |
    
 ## <a name="related-topics"></a>Tópicos relacionados

@@ -17,18 +17,18 @@ description: Saiba mais sobre políticas de gravação de eventos ao vivo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: c0f5f089bf4f1a0dc2c28a0b718d89b9200a4676
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739651"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587330"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Políticas de gravação de eventos ao vivo Microsoft Teams
 
 Você tem várias opções para gravar um evento Microsoft Teams ao vivo. As opções de gravação são definidas usando políticas de gravação. Este artigo descreve as várias configurações.
 
-As opções de gravação são definidas usando o comando Do PowerShell [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps).
+As opções de gravação são definidas usando o comando Do PowerShell [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy).
 
 ## <a name="scheduling-and-option-behaviors"></a>Agendamento e comportamentos de opção
 
@@ -48,7 +48,7 @@ Há duas opções de organizador durante o agendamento de uma gravação de even
 
 Como parte da política de transmissão, há uma configuração que você pode alternar para ativar ou desativar a gravação para um evento ao vivo.
 
-|                                 | Gravação disponível para produtores e apresentadores | Gravação disponível para participantes |
+| &nbsp;| Gravação disponível para produtores e apresentadores | Gravação disponível para participantes |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Sempre gravar               | Desabilitado e selecionado                                | Habilitado e selecionado         |
 | O organizador pode gravar ou não | Habilitado e selecionado por padrão                  | Habilitado e selecionado por padrão   |

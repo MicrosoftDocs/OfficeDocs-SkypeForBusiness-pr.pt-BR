@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Romênia para Microsoft Teams.
-ms.openlocfilehash: 88364b4168cecd6e58c558547e3ce96812e3ebed
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: 9ebaa6efb0772ee20a65bc7d7eb8503c097b4d6e
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993904"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510402"
 ---
 # <a name="phone-number-management-for-romania"></a>Telefone gerenciamento de números para a Romênia
 
@@ -37,10 +37,10 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. <br/> |Na Romênia, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [enviando-o para nós](mailto:ptneu@microsoft.com).<br/><br/>[Nova solicitação de número de telefone para a Romênia (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado. |
-|Obter números de telefone transferidos para nós.<br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para Romênia (todos os números) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).<br/><br/>A transferência de números pode levar de quatro a cinco semanas para ser concluída neste mercado. <br/><br/>Esses números não podem ser usados para conferência no momento.  <br/> |
-|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
-|Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. <br/> |Na Romênia, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [contate PTSN para obter instruções.](contact-pstn-service-desk.md)<br/><br/>[Nova solicitação de número de telefone para a Romênia (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e contatar [PTSN para obter instruções.](contact-pstn-service-desk.md)<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado. |
+|Obter números de telefone transferidos para nós.<br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para Romênia (todos os números) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md).<br/><br/>A transferência de números pode levar de quatro a cinco semanas para ser concluída neste mercado. <br/><br/>Esses números não podem ser usados para conferência no momento.  <br/> |
+|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
+|Altere o número de um usuário para um número de serviço.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
 |Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato [com o service desk PSTN](contact-pstn-service-desk.md). |
    
 ## <a name="related-topics"></a>Tópicos relacionados

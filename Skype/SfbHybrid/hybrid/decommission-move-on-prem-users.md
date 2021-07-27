@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Mover usuários antes de desmantelar um ambiente Skype for Business local.
-ms.openlocfilehash: 992f2dd479e0b8ca8a3f11f069e8ef049259ad9c
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420806"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510712"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>Mover usuários necessários antes de desmantelar seu ambiente local
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Este artigo descreve como mover os usuários necessários para a nuvem da Microsoft antes de desativá-lo Skype for Business ambiente local. Esta é a etapa 1 das etapas a seguir para desmantelar seu ambiente local:
 
@@ -61,7 +63,7 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 
 Agora você está pronto para [desabilitar sua configuração híbrida.](cloud-consolidation-disabling-hybrid.md)
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira também:
 
 - [Desativar o ambiente local do Skype for Business](decommission-on-prem-overview.md)
 

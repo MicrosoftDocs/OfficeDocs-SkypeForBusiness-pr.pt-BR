@@ -1,5 +1,5 @@
 ---
-title: Planejar a conexão híbrida | Skype for Business Server 2019 e Teams
+title: Planejar a conectividade híbrida | Skype for Business Server 2019 e Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,28 +16,28 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Planeje implementar a conectividade híbrida entre Skype for Business Server e Teams ou Skype for Business Online configurando Skype for Business modo híbrido.
+description: Planeje implementar a conectividade híbrida entre Skype for Business Server e Teams configurando Skype for Business modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: acfd94d78609ef3428029832ffaf030ca0f34b64
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509822"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574256"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planejar conectividade híbrida entre Skype for Business Server e Teams
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Leia este tópico para saber como planejar a conectividade híbrida entre Skype for Business Server e Teams (ou Skype for Business Online até 31 de julho de 2021). Configurar a conectividade híbrida é o primeiro passo para migrar seu ambiente local para a nuvem.
+Leia este tópico para saber como planejar a conectividade híbrida entre Skype for Business Server e Teams. Configurar a conectividade híbrida é o primeiro passo para migrar seu ambiente local para a nuvem.
 
 Se você tem usuários do Skype for Business local que também estão usando o Teams (lado a lado), esses usuários não têm a capacidade de interoperar com os usuários do Skype for Business a partir do cliente do Teams, nem se comunicar com os usuários em organizações federadas a partir do cliente do Teams. Para obter essa funcionalidade no Teams, esses usuários devem ser movidos do Skype for Business local para a nuvem, o que requer a configuração do modo híbrido do Skype for Business. Além disso, para a melhor experiência, esses usuários devem estar no modo Somente Teams, o que garante todas as chamadas de entrada e chats de qualquer usuário que chegar no cliente Teams usuário.
 
 Também é necessário configurar a conectividade híbrida e mover todos os usuários para a nuvem antes de você encerrar sua implantação do Skype for Business local.  Com a conectividade híbrida configurada, é possível optar por migrar os usuários para a nuvem com base na sua agenda e na necessidade de negócios. Com o Roteamento Direto, você pode aproveitar sua infraestrutura de voz local enquanto migra para a nuvem e após a conclusão da migração.
 
-Este tópico descreve os requisitos de infraestrutura e sistema que você precisará configurar a conectividade híbrida entre sua implantação local Skype for Business Server local e o Teams ou Skype for Business Online.
+Este tópico descreve os requisitos de infraestrutura e sistema que você precisará configurar a conectividade híbrida entre sua implantação Skype for Business Server local e Teams.
 
-Depois de ler este tópico e estiver pronto para configurar a conectividade híbrida, consulte [Configure hybrid connectivity between Skype for Business Server](configure-hybrid-connectivity.md)and Microsoft 365 or Office 365 . Os tópicos de configuração fornecem orientações passo a passo para configurar a conectividade híbrida entre sua implantação local e Teams ou Skype for Business Online.
+Depois de ler este tópico e estiver pronto para configurar a conectividade híbrida, consulte [Configure hybrid connectivity between Skype for Business Server](configure-hybrid-connectivity.md)and Microsoft 365 or Office 365 . Os tópicos de configuração fornecem orientações passo a passo para configurar a conectividade híbrida entre sua implantação local e Teams.
 
 > [!Important]
 > Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
@@ -70,9 +70,9 @@ Os modos de co-existência continuarão a existir após a aposentadoria do Skype
 
 <a name="BKMK_Overview"> </a>
 
- Com a conectividade híbrida configurada entre uma implantação local do Skype for Business Server e Teams ou Skype for Business Online, você pode ter alguns usuários no local e alguns usuários em casa online.
+ Com a conectividade híbrida configurada entre uma implantação local do Skype for Business Server e Teams, você pode ter alguns usuários no local e alguns usuários online.
 
-Esse tipo de configuração se baseia na funcionalidade de espaço de endereço SIP compartilhado e, às vezes, é chamado de "domínio dividido"-- o que significa que os usuários de um domínio, como o contoso.com, são divididos entre o uso do Skype for Business Server local e o Teams ou Skype for Business Online, conforme mostrado no diagrama a seguir:
+Esse tipo de configuração se baseia na funcionalidade de espaço de endereço SIP compartilhado e, às vezes, é chamado de "domínio dividido"-- o que significa que os usuários de um domínio, como o contoso.com, são divididos entre o uso do Skype for Business Server local e o Teams, conforme mostrado no diagrama a seguir:
 
 ![Skype for Business Híbrido conectividade - domínio dividido](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -101,16 +101,16 @@ Para implementar a conectividade híbrida entre seu ambiente local e os serviço
 - Azure Active Directory Conexão sincronizar seu diretório local com Microsoft 365 ou Office 365. Para obter mais informações, consulte [Azure AD Conexão: Contas e permissões.](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)
 
 - Skype for Business Server ferramentas administrativas. Eles são necessários para mover os usuários do local para a nuvem. Essas ferramentas devem ser instaladas em um servidor com acesso à implantação local e à Internet.
-- Ferramentas administrativas online. Você pode usar o centro de administração Teams ou Windows PowerShell gerenciar Teams e Skype for Business Online. Para usar o PowerShell para gerenciar o Teams ou Skype for Business Online, baixe e instale o módulo Teams PowerShell. (O Skype for Business Conector Online foi retirado).
+- Ferramentas administrativas online. Você pode usar o centro de administração Teams ou Windows PowerShell gerenciar Teams. Para usar o PowerShell para gerenciar Teams, baixe e instale o módulo Teams PowerShell. (O Skype for Business Conector Online foi retirado).
 - O espaço de endereço SIP compartilhado deve ser habilitado e sua implantação local deve ser configurada para usar Microsoft 365 ou Office 365 como provedor de hospedagem. Para obter mais informações sobre as etapas necessárias para configurar a conectividade híbrida, consulte [Configure hybrid connectivity](configure-hybrid-connectivity.md).
 
-Depois de configurar a conectividade híbrida, você pode mover os usuários para Teams ou Skype for Business Online. Para obter mais informações, consulte [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md) and Move users from on [premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
+Depois de configurar a conectividade híbrida, você pode mover os usuários para Teams. Para obter mais informações, consulte [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md).
 
 ## <a name="server-version-requirements"></a>Requisitos de versão do servidor
 
 <a name="BKMK_Topology"> </a>
 
-Para configurar sua implantação híbrida com Teams ou **Skype for Business Online,** você precisa ter uma das seguintes topologias com suporte:
+Para configurar sua implantação híbrida **com Teams**, você precisa ter uma das seguintes topologias com suporte:
 
 - Uma implantação do Skype for Business 2019 com todos os servidores executando o Skype for Business 2019.
 - Uma implantação do Skype for Business 2015 com todos os servidores executando o Skype for Business 2015.
@@ -120,7 +120,7 @@ Para configurar sua implantação híbrida com Teams ou **Skype for Business Onl
   - Lync Server 2013 e Skype for Business Server 2019
   - Lync Server 2013 e Skype for Business Server 2015
 
-Se a voz híbrida for desejada em qualquer *topologia*, tanto o servidor de borda designado como a Borda de Federação quanto o pool associado à federação SIP devem estar executando Skype for Business 2015 ou posterior. Os usuários podem permanecer em um Pool do Lync 2013 se houver um. Para obter mais detalhes, consulte [Plan Sistema de Telefonia with PSTN Connectivity in Skype for Business Server](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
+Se a voz híbrida for desejada em qualquer *topologia*, tanto o servidor de borda designado como a Borda de Federação quanto o pool associado à federação SIP devem estar executando Skype for Business 2015 ou posterior. Os usuários podem permanecer em um Pool do Lync 2013 se houver um. Para obter mais detalhes, consulte [Plan your voice solution](/MicrosoftTeams/cloud-voice-landing-page.md).
 
 As topologias a seguir que incluem **o Lync Server 2010** são suportadas com o Skype for Business Online para mensagens instantâneas e reuniões. Topologias que incluem **o Lync Server 2010** não têm suporte para voz híbrida nem Teams .
 

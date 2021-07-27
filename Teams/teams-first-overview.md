@@ -15,12 +15,12 @@ description: Use essas diretrizes para lançar Microsoft Teams como sua primeira
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81ecf9a0f963a1be577149c585424c140df2abd5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 89fb1ac43e199b3c8081735705a7d05bfcae710b
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119350"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587360"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Roll out Microsoft Teams First
 
@@ -113,7 +113,8 @@ Esse ponto de partida supõe que sua organização não usa o Skype for Business
 <td><p>Capaz de criar reuniões internas e externas Outlook um complemento.</p>
 <p>O recurso Discagem PSTN e Discagem está disponível com as licenças de Audioconferência.</p>
 <p>Teams de calendário requer Exchange cu3+ 2016 local implantado com Exchange híbrido estabelecido: Criar uma implantação híbrida com o assistente de Configuração <a href="/exchange/hybrid-deployment/deploy-hybrid">Híbrida.</a> </p>
-<p>Além de Exchange configuração híbrida, estabeleça Exchange autenticação OAuth: Configure <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> OAuth authentication between Exchange and Exchange Online organizations".</p>
+
+Além de Exchange configuração híbrida, estabeleça uma autenticação OAuth Exchange: Configurar a autenticação [OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)entre Exchange e Exchange Online organizações . 
 
 </p></td>
 </tr>
@@ -192,7 +193,7 @@ Esse ponto de partida supõe que sua organização utiliza o servidor Skype for 
 <p>O recurso Discagem PSTN e Discagem está disponível com as licenças de Audioconferência.</p>
 <p>Teams acesso ao calendário requer Exchange 2016 CU3+ local implantado com Exchange híbrido estabelecido:<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Crie uma implantação híbrida com o assistente de Configuração Híbrida.</a></p>
-<p>O administrador pode controlar o Skype for Business Outlook do Teams por meio do atributo PreferredMeetingProviderForIslandsMode da política de reunião do Teams:<a href="/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps"> set-csteamsmeetingpolicy</a>.</p> 
+<p>O administrador pode controlar o Skype for Business Outlook do Teams por meio do atributo PreferredMeetingProviderForIslandsMode da política de reunião do Teams:<a href="/powershell/module/skype/set-csteamsmeetingpolicy"> set-csteamsmeetingpolicy</a>.</p> 
 </td>
 </tr>
 <tr class="even">

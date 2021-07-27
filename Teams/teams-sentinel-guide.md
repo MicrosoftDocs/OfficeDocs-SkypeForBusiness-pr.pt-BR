@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3b2c37f7f3731b34abb5337bf954250e0c3564d
-ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
+ms.openlocfilehash: 55307637e18f81775229bb46db51a6f5738cce7c
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51712763"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587040"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel e Microsoft Teams
 
@@ -40,7 +40,7 @@ O Teams desempenha um papel central na comunicação e no compartilhamento de da
 
 Este artigo foca na coleta de logs de atividades do Teams no Azure Sentinel.
 
-Ele permite que os administradores façam o gerenciamento de segurança em um só local. Isso inclui o gerenciamento de:
+O Sentinel permite que os administradores realizem o gerenciamento de segurança em um local. Isso inclui o gerenciamento de:
 
 - Dispositivos de terceiros
 - Proteção contra Ameaças da Microsoft
@@ -53,7 +53,7 @@ As agendas de trabalho e as runbooks do Facebook podem tornar o monitoramento de
 
 ## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>Etapa 1: coletar logs de equipes: habilitar logs de Auditoria no Microsoft 365
 
-Como o Teams registra a atividade por meio do Microsoft 365, os logs de auditoria não são coletados por padrão. Habilite esse recurso por meio [destas etapas](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Os dados do Teams são coletados na Auditoria do Microsoft 365 em *Audit.General*.
+Como o Teams registra a atividade por meio do Microsoft 365, os logs de auditoria não são coletados por padrão. Habilite esse recurso por meio [destas etapas](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Os dados do Teams são coletados na Auditoria do Microsoft 365 em *Audit.General*.
 
 ## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>Etapa 2: conectar logs do Office 365 ao Azure Sentinel
 
@@ -228,6 +228,6 @@ Você também pode participar e contribuir com a [comunidade do Azure Sentinel](
 
 [Registrar seu aplicativo no Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[Ativar ou desativar a pesquisa de log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[Ativar ou desativar a pesquisa de log de auditoria](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [O que é o Azure Sentinel?](/azure/sentinel/overview)

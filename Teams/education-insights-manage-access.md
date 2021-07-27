@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7980b062d864b7354a329ce5743b0209d9a54e2a
-ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
+ms.openlocfilehash: 2a8883b48b2fc5efc33b3c4e0128cc5ac3d3c760
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53565697"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587290"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Gerenciar acesso do usuário ao Education Insights
 
@@ -37,8 +37,6 @@ Para fornecer o Insights no nível da organização, você deve [importar dados 
 > [!TIP]
 > Recomendamos que você habilite o insights para todos seus líderes de educação para que eles tenham os dados para entender cada escola, e a capacidade de identificar rapidamente os problemas e fornecer suporte aos seus educadores. Mesmo que você esteja executando um projeto piloto, ainda pode ser útil manter o Insights habilitado para todos os líderes da educação, mas só direcionar as comunicações para o grupo piloto de usuários.
 
-
-
 ## <a name="manange-permissions"></a>Gerenciar permissões
 
 * Abra o aplicativo Insights, clique em **Configurações** e, selecione **Permissões de usuário**
@@ -46,7 +44,7 @@ Para fornecer o Insights no nível da organização, você deve [importar dados 
 :::image type="content" source="media/insights-user-permissions.png" alt-text="Configurações":::
 
 > [!NOTE]
-> Quando você fornece permissão para um nível organizacional, o usuário pode ver todas as unidades da organização abaixo dele. Forneça permissão apenas para os líderes educacionais que precisam deles.
+> Quando você fornece permissão para um nível organizacional, o usuário pode ver todas as unidades da organização abaixo dele.
 > 
 > Somente dê permissão aos líderes escolares que precisam delas e somente às unidades organizacionais pelas quais são responsáveis. Se você não tiver certeza se é necessária a permissão do usuário para uma organização específica, consulte os especialistas em assuntos de privacidade de sua instituição, tais como o pessoal do departamento jurídico ou do RH.
 
@@ -56,6 +54,9 @@ Se você usar o [formato de arquivo SDS V2.1](/schooldatasync/sds-v2.1-csv-file-
 
 > [!NOTE]
 > Quando um usuário recebe uma função, ele recebe automaticamente as permissões corretas para ver os dados relevantes para ele.
+>
+> Se um usuário não estiver mais em uma função, sua permissão para essa função será revogada automaticamente (embora ele ainda possa ter permissões individuais).
+
 
 * Se necessário, clique com o botão direito na guia **permissões baseadas em função**.
 
@@ -67,13 +68,14 @@ Se você usar o [formato de arquivo SDS V2.1](/schooldatasync/sds-v2.1-csv-file-
   
 * Para cada função, clique no ícone de lápis para selecionar o nível de permissão. O padrão é que a função não tem permissão para ver Insights.
 * Selecione o nível de permissão:**Exibir dados de sua organização** ou **Nenhum**.
+
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Painel de permissões baseadas em funções":::
+  
+  Se você vir um usuário na lista que precisa de um nível de permissão com mais nuances, ajuste sua função e/ou organização nos [dados importados do seu SIS](education-insights-sis-data-sync.md) e [conceda a eles permissões individuais](#grant-individual-permission-to-a-user) (se necessário )
+
 * Clique em **Salvar alterações**.
 
-  Esse nível de permissão agora é atribuído automaticamente a qualquer novo usuário com essa função e nível de organização. O usuário verá os dados de todas as unidades da organização em seu nível de hierarquia e abaixo dele.
-  
-  Se você vir um usuário na lista que precisa de um nível de permissão mais nuances, ajuste-o em Permissões individuais.
-  
-  Se um usuário não estiver mais em uma função, sua permissão para essa função será revogada automaticamente (embora ele ainda possa ter permissões individuais).
+  Esse nível de permissão agora é atribuído automaticamente a qualquer novo usuário com essa função e nível de organização. O usuário verá os dados de todas as unidades da organização em seu nível de hierarquia e abaixo dele.  
 
 
 ## <a name="individual-permissions"></a>Permissões individuais
@@ -100,4 +102,7 @@ Use permissões individuais para ajustar a permissão de um usuário ou atribuir
   * **Todos** significa que o usuário vê todas as unidades da organização em todos os níveis. Isso é usado muito raramente.
   * **Organização específica** significa que o usuário vê a unidade organizacional selecionada e todas as unidades da organização abaixo dela. Comece a digitar e selecione a unidade organizacional na lista.
   * **Nenhum** significa que o usuário só vê as unidades da organização atribuídas automaticamente por sua função (se houver).
+  
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Painel de permissões individuais":::.
+
 * Clique em **Salvar alterações** para salvar.

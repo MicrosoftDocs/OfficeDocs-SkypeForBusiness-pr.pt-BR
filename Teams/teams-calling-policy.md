@@ -1,5 +1,5 @@
 ---
-title: Políticas de chamada no Microsoft Teams
+title: 'Políticas de chamada em Microsoft Teams: recursos de chamada e encaminhamento de chamada'
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -20,15 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51653935"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596615"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
-===================================
+#  <a name="calling-and-call-forwarding-in-teams"></a>Chamada e encaminhamento de chamada no Teams
 
 Em Microsoft Teams, as políticas de chamada controlam quais recursos de encaminhamento de chamada e chamada estão disponíveis para os usuários. As políticas de chamadas determinam se um usuário pode fazer chamadas privadas, usar encaminhamento de chamadas ou toque simultâneo para outros usuários ou números de telefone externos, rotear chamadas para caixa postal, enviar chamadas para grupos de chamadas, usar delegação para chamadas de entrada e saída e assim por diante.
 
@@ -106,6 +105,6 @@ Essa configuração permite ativar ou desativar a música em espera quando um ch
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Atribua políticas a seus usuários no Teams](assign-policies.md)

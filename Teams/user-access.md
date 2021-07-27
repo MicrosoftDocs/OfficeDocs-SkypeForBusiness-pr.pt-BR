@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 770dcea62d6f3dc65f576a3d64a520dd4de2ecad
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: c996df5c0253f3eee02a2b76297952ccf9cf56d3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637723"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587480"
 ---
 # <a name="manage-user-access-to-teams"></a>Gerenciamento do acesso de usuários ao Teams
 
@@ -33,18 +33,18 @@ Você gerencia o acesso Teams no nível do usuário atribuindo ou removendo uma 
 Por padrão, quando um plano de licenciamento (por exemplo, Microsoft 365 Enterprise E3 ou Microsoft 365 Business Premium) é atribuído a um usuário, uma licença Teams é atribuída automaticamente e o usuário está habilitado para Teams. Você pode desabilitar ou habilitar Teams para um usuário removendo ou atribuindo uma licença a qualquer momento.
 
 Use políticas de mensagens, gerenciadas <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams Centro</a>de Administração, para controlar quais recursos de mensagens de chat e canal estão disponíveis para os usuários no Teams. Você pode usar a política padrão ou criar uma ou mais políticas de mensagens personalizadas para pessoas em sua organização. Para saber mais, leia [Gerenciar políticas de mensagens em Teams](messaging-policies-in-teams.md).
-Você gerencia Teams licenças no centro de administração Microsoft 365 ou usando o PowerShell. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
+Você gerencia Teams licenças no Centro de administração do Microsoft 365 ou usando o PowerShell. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
 
 > [!NOTE]
 > Recomendamos que você habilita Teams para todos os usuários para que as equipes possam ser formadas organicamente para projetos e outras iniciativas dinâmicas. Mesmo que você esteja executando um piloto, ainda pode ser útil manter a Teams habilitada para todos os usuários, mas apenas direcionar as comunicações para o grupo piloto de usuários.
 
-## <a name="using-the-microsoft-365-admin-center"></a>Usando o Microsoft 365 de administração
+## <a name="using-the-microsoft-365-admin-center"></a>Usando o Centro de administração do Microsoft 365
 
-Teams licenças no nível do usuário são gerenciadas diretamente por meio das interfaces de gerenciamento do Microsoft 365 do centro de administração. Um administrador pode atribuir licenças a novos usuários quando novas contas de usuário forem criadas ou a usuários com contas existentes. 
+Teams licenças no nível do usuário são gerenciadas diretamente por meio das interfaces Centro de administração do Microsoft 365 de gerenciamento de usuários. Um administrador pode atribuir licenças a novos usuários quando novas contas de usuário forem criadas ou a usuários com contas existentes. 
 
 > [!IMPORTANT]
 > O administrador deve ter privilégios de Administrador Global ou Administrador de Gerenciamento de Usuários para gerenciar Microsoft Teams licenças.
-Use o Microsoft 365 de administração para gerenciar Teams licenças para usuários individuais ou pequenos conjuntos de usuários por vez. Você pode gerenciar Teams licenças na página **Licenças** (para até 20 usuários no momento) ou **página Usuários ativos.** O método escolhido depende se você deseja gerenciar licenças de produtos para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
+Use a Centro de administração do Microsoft 365 para gerenciar Teams licenças para usuários individuais ou pequenos conjuntos de usuários por vez. Você pode gerenciar Teams licenças na página **Licenças** (para até 20 usuários no momento) ou **página Usuários ativos.** O método escolhido depende se você deseja gerenciar licenças de produtos para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
 
 Se você precisar gerenciar Teams licenças para um grande número de usuários, como centenas ou milhares de usuários, use o [PowerShell](#using-powershell) ou o licenciamento baseado em grupo no [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign). 
 
@@ -52,9 +52,9 @@ Se você precisar gerenciar Teams licenças para um grande número de usuários,
 
 As etapas são diferentes, dependendo de você usar a página **Licenças** ou **a página Usuários ativos.**  Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![Captura de tela Teams licença habilitada para um usuário](media/assign-teams-licenses-1.png)    | ![Captura de tela Teams licença habilitada para um usuário](media/assign-teams-licenses-2.png)        |
+|![Captura de tela 1 de Teams habilitada para um usuário](media/assign-teams-licenses-1.png)    | ![Captura de tela 2 de Teams habilitada para um usuário](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>Remover uma Teams de Teams
 
@@ -63,9 +63,9 @@ As etapas são diferentes, dependendo de você usar a página **Licenças** ou *
 
 Quando você remove uma Teams de um usuário, o Teams está desabilitado para esse usuário, e ele não verá mais Teams no launcher de aplicativos ou na homepage. Para etapas detalhadas, consulte [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![Captura de tela Teams licença desabilitada para um usuário](media/remove-teams-licenses-1.png)    | ![Captura de tela Teams licença desabilitada para um usuário](media/remove-teams-licenses-2.png)        |
+|![Captura de tela 1 da licença Teams desabilitada para um usuário](media/remove-teams-licenses-1.png)    | ![Captura de tela 2 da licença Teams desabilitada para um usuário](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>Usando o Windows PowerShell
 

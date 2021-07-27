@@ -1,5 +1,5 @@
 ---
-title: Teams de caso contoso de voz
+title: Teams plano de atualização de estudo de caso contoso de voz
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams de caso de voz para corporação multi-nacional
+description: 'Teams de caso de voz para corporação multi-nacional: Planejamento de atualização.'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a458f2c98b0f6de8bc2d3b3d23e2b68e4cadd931
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093721"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587440"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Estudo de caso contoso: Teams plano de atualização
 

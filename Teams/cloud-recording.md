@@ -19,12 +19,12 @@ description: Orientação prática para a implantação de recursos de voz em nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486141"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565707"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -179,6 +179,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Quero que a transcrição da gravação seja 100% desabilitada. |<ol><li>Confirme que o CsTeamsMeetingPolicy global tem AllowTranscription = false. <li>Todos os usuários receberam CsTeamsMeetingPolicy globais ou uma das políticas de CsTeamsMeetingPolicy com o AllowTranscription = falso. </ol>|
 |Quero que as transcrição seja desabilitada para a maioria dos usuários, mas permitida seletivamente para usuários específicos que tenham permissão para transcrever. |<ol><li>Confirme que o CsTeamsMeetingPolicy global tem AllowCloudRecording = false. <li>A maioria dos usuários receberam CsTeamsMeetingPolicy globais ou uma das políticas de CsTeamsMeetingPolicy com AllowCloudRecording = falso. <li>Todos os outros usuários receberam uma das políticas de CsTeamsMeetingPolicy com o AllowCloudRecording = verdadeiro. </ol>|
 
+### <a name="terms-of-use-acceptance"></a>Aceitação dos Termos de uso
+Se sua organização tiver uma política de gravação de reunião que você deseja que os usuários aceitem antes de gravar uma reunião, use o recurso [Termos de uso do Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use). Esse recurso permite que os usuários aceitem os termos de política de usuário da sua organização antes de obter acesso ao Microsoft Teams. Esse recurso não é específico para clicar no botão de registro, mas está relacionado ao uso geral do Microsoft Teams ou de outros aplicativos do Microsoft 365 em geral. Nossa sugestão é adicionar suas informações de gravação de reunião aos termos gerais de uso para usar o Microsoft Teams ou o Microsoft 365. 
 
 ## <a name="permissions-and-storage"></a>Permissões e armazenamento
 
@@ -264,7 +266,7 @@ As legendas ocultas para gravações de reunião do Teams estarão disponíveis 
 
 As legendas ajudam a criar conteúdo inclusivo para visualizadores de todas as habilidades. Como proprietário, você pode ocultar legendas na gravação da reunião, embora a transcrição da reunião ainda esteja disponível no Teams, a menos que você a exclua lá.
 
-As legendas ocultas de hoje para o arquivo de vídeo de gravação estão vinculadas à transcrição da reunião do Teams. Esse link permanecerá durante o tempo de vida do arquivo na maioria dos casos, mas poderá ser interrompido se o arquivo de vídeo for copiado no mesmo site do OneDrive for Business ou do SharePoint Online, o que resultaria em legendas não disponíveis no arquivo de vídeo copiado.
+As legendas ocultas de hoje para o arquivo de vídeo de gravação estão vinculadas à transcrição da reunião do Microsoft Teams. Esse link permanecerá durante o tempo de vida do arquivo na maioria dos casos, mas poderá ser interrompido se o arquivo de vídeo for copiado no mesmo site do OneDrive for Business ou do Microsoft Office SharePoint Online, o que resultaria em legendas não disponíveis no arquivo de vídeo copiado.
 
 Quaisquer alterações futuras no link entre a transcrição no Teams e a gravação serão esclarecidas aqui e nas notificações do centro de mensagens. Se fizermos alterações no futuro, garantiremos que os arquivos de gravação com menos de 60 dias exibam a transcrição da reunião como legendas.
 

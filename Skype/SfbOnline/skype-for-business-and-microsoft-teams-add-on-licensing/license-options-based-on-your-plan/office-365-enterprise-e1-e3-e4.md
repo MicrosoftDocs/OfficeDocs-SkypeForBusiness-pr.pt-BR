@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba como comprar licenças de complemento, recursos e como comprar os planos E1, E3 e E4 do Office 365 Enterprise. '
-ms.openlocfilehash: 44f55fff23a048a85ad220e03a24af58f099833e
-ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
+ms.openlocfilehash: 2d228889c38cac925f82a5e8e4c024052e220969
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53495161"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574266"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 e E4
 
@@ -34,19 +34,18 @@ ms.locfileid: "53495161"
 
 Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) ou E4, estas são as licenças de complementos que você precisa comprar para obter mais recursos do Skype for Business.
 
-|||
+| Para adicionar este recurso | Você precisa comprar |
 |:-----|:-----|
-|**Para adicionar este recurso** <br/> |**Você precisa comprar** <br/> |
-|**Audioconferência** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complemento de **Audioconferência** <br/>Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência. |
-|**Números de chamada gratuita para acesso discado às reuniões e a capacidade de discar de uma reunião para adicionar alguém usando qualquer número de telefone do mundo** <br/> |[Créditos de Comunicações](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**Sistema de Telefonia** <br/> |1. Complemento do **Sistema de Telefonia do Office 365** <br/> 2. Planos de chamada: compre um [Plano de Chamadas](/MicrosoftTeams/calling-plans-for-office-365) do Office 365. <br/>  Ou use o [serviço de telefonia do provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Caixa postal na Nuvem**<sup>1</sup> <br/> |Para os planos E1 e E4, compre o Exchange Online Plan 2. <br/>Ou mude para um Pacote do Office que venha com o Exchange Online Plan 2, como o Office 365 E3. |
-|**Planos de Chamadas** <br/> |1. Complemento do **Sistema de Telefonia** <br/> 2. [Plano de Chamadas](/MicrosoftTeams/calling-plans-for-office-365): você pode comprá-lo somente depois de ter comprado o complemento do **Sistema de Telefonia**. <br/> |
+|**Audioconferência** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses.  |Complemento de **Audioconferência** <br/>Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência. |
+|**Números de chamada gratuita para acesso discado às reuniões e a capacidade de discar de uma reunião para adicionar alguém usando qualquer número de telefone do mundo** |[Créditos de Comunicações](/microsoftteams/add-funds-and-manage-communications-credits)|
+|**Sistema de Telefonia** |1. Complemento do **Sistema de Telefonia do Office 365** <br/> 2. Planos de chamada: compre um [Plano de Chamadas](/MicrosoftTeams/calling-plans-for-office-365) do Office 365. <br/>  Ou use o [serviço de telefonia do provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  |
+|**Caixa postal na Nuvem**<sup>1</sup> |Para os planos E1 e E4, compre o Exchange Online Plan 2. <br/>Ou mude para um Pacote do Office que venha com o Exchange Online Plan 2, como o Office 365 E3. |
+|**Planos de Chamadas** |1. Complemento do **Sistema de Telefonia** <br/> 2. [Plano de Chamadas](/MicrosoftTeams/calling-plans-for-office-365): você pode comprá-lo somente depois de ter comprado o complemento do **Sistema de Telefonia**. |
 
 <sup>1</sup> Para usuários locais. Para obter mais informações, consulte [Plan Caixa postal na Nuvem service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
    
- > [!IMPORTANT]
- > Office 365 As licenças E4 foram oficialmente retiradas. Confira [Informações importantes para Office 365 Enterprise E4 clientes para](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) obter mais detalhes.
+> [!IMPORTANT]
+> Office 365 As licenças E4 foram oficialmente retiradas. Confira [Informações importantes para Office 365 Enterprise E4 clientes para](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) obter mais detalhes.
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes dos planos E1 e E3: como ver preços e comprar
 <a name="bkmk_buypremium"> </a>

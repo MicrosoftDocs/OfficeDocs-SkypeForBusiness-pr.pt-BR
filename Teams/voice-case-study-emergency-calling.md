@@ -1,5 +1,5 @@
 ---
-title: Teams de caso contoso de voz
+title: 'Teams caso contoso de voz: Chamada de emergência'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams de caso de voz para corporação multi-nacional
+description: 'Teams de caso de voz para corporação multi-nacional : Chamada de emergência'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 69231adb4588039012cceec1063571ddc201c2bb
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785945"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587470"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Estudo de caso contoso: Chamada de emergência
 

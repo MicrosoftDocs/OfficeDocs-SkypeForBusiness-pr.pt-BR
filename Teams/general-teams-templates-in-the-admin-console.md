@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c68965bb658328646b5308ad85092ce23bc0ab02
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: e068e1ef9144bdb09a7f6009495ad1b89ce7accf
+ms.sourcegitcommit: f781600a40e174cfc522e29375a4820b1142e23a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574046"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596379"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Usar modelos gerais de equipe no centro de administração
 
@@ -42,28 +42,31 @@ Para saber mais sobre modelos de equipe em geral, consulte [Get started with tea
 
 Centralize a colaboração para sua equipe de crise em unidades de negócios e ajude a criar planos de continuidade de negócios, compartilhar dicas de trabalho remoto, acompanhar as comunicações do cliente e manter todos em loop com comunicados e notícias.
 
-| Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
-| ------------------ |--|----------------------------------------------------------|
-| Colaborar em uma crise global ou evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canais: <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Comunicados externos</li><li>Solicitação de aprovações</li><li>Trabalho remoto</li><li>Comunicados internos</li><li>Comunicados externos</li><li>Reclamações de clientes</li><li>Kudos</li><li>Atualização executiva</li></ul>Apps: <ul><li>Elogio</li><li>Wiki</li><li>Site</li><li>Planner</li></ul>|
-||||
+> [!div class="mx-tdBreakAll"]
+> | Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
+> | ------------------ |--|----------------------------------------------------------|
+> | Colaborar em uma crise global ou evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` | Canais: <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Comunicados externos</li><li>Solicitação de aprovações</li><li>Trabalho remoto</li><li>Comunicados internos</li><li>Comunicados externos</li><li>Reclamações de clientes</li><li>Kudos</li><li>Atualização executiva</li></ul>Apps: <ul><li>Elogio</li><li>Wiki</li><li>Site</li><li>Planner</li></ul>|
+> ||||
 
 ## <a name="adopt-office-365"></a>Adotar Office 365
 
 Ajude a criar, crescer e sustentar a sua adoção da comunidade de Campeões, evangelizando e ajudando seus pares com a nova tecnologia.
 
-| Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
-| ------------------|--|-----------------------------------------------------------|
-| Adotar Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Canto campeões</li> <li>Formulários de equipe</li></ul> Apps: <ul><li>Wiki</li>  <li>Calendário</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações de clientes</li><li>Kudos</li><li>Material divertido</li><li>Conformidade</li></ul>|
-||||
+> [!div class="mx-tdBreakAll"]
+> | Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
+> | ------------------|--|-----------------------------------------------------------|
+> | Adotar Office 365 | `com.microsoft.teams.template.AdoptOffice365` | Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Canto campeões</li> <li>Formulários de equipe</li></ul> Apps: <ul><li>Wiki</li>  <li>Calendário</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações de clientes</li><li>Kudos</li><li>Material divertido</li><li>Conformidade</li></ul>|
+> ||||
 
 ## <a name="manage-a-project"></a>Gerenciar um projeto
 
 Gerencie tarefas, compartilhe documentos, conduza reuniões do projeto e documente riscos e decisões com este modelo para gerenciamento geral de projetos.
 
-| Tipo de modelo base| baseTemplateId| Propriedades que vêm com este modelo base |
-| ------------------|--|-----------------------------------------------------------|
-| Gerenciar um projeto| `com.microsoft.teams.template.ManageAProject`  | Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Recursos</li> <li>Planejamento</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Listas</li> </ul> |
-||||
+> [!div class="mx-tdBreakAll"]
+> | Tipo de modelo base| baseTemplateId| Propriedades que vêm com este modelo base |
+> | ------------------|--|-----------------------------------------------------------|
+> | Gerenciar um projeto| `com.microsoft.teams.template.ManageAProject`  | Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Recursos</li> <li>Planejamento</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Listas</li> </ul> |
+> ||||
 
 ## <a name="manage-an-event"></a>Gerenciar um evento
 
@@ -71,25 +74,28 @@ Gerencie tarefas, documentos e colabore em tudo o que você precisa para fornece
 
 Talvez você não tenha acesso a determinados aplicativos com base na política de permissão do aplicativo.
 
-| Tipo de modelo base | baseTemplateId| Propriedades que vêm com este modelo base |
-| ------------------ |--|-----------------------------------------------------------|
-| Gerenciar um evento| `com.microsoft.teams.template.ManageAnEvent` | Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Orçamento</li> <li>Conteúdo</li><li>Logística</li> <li>Planejamento</li> <li> Marketing e PR</li></ul> Apps:<ul><li>Wiki</li><li>Site</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-||||
+> [!div class="mx-tdBreakAll"]
+> | Tipo de modelo base | baseTemplateId| Propriedades que vêm com este modelo base |
+> | ------------------ |--|-----------------------------------------------------------|
+> | Gerenciar um evento| `com.microsoft.teams.template.ManageAnEvent` | Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Orçamento</li> <li>Conteúdo</li><li>Logística</li> <li>Planejamento</li> <li> Marketing e PR</li></ul> Apps:<ul><li>Wiki</li><li>Site</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+> ||||
 
 ## <a name="onboard-employees"></a>Funcionários de integração
 
 Aprimora sua cultura e simplifique a integração do funcionário com essa equipe central para recursos, perguntas e um pouco de diversão.
 
-| Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
-| ------------------|--|-----------------------------------------------------------|
-|Funcionários de integração|`com.microsoft.teams.template.OnboardEmployees`  | Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Chat de funcionários</li> <li>Treinamento</li></ul>Apps:<ul><li>Wiki</li><li>Comunidades</li><li>Planner</li></ul>|
-||||
+> [!div class="mx-tdBreakAll"]
+> | Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
+> | ------------------|--|-----------------------------------------------------------|
+> | Funcionários de integração|`com.microsoft.teams.template.OnboardEmployees`  | Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Chat de funcionários</li> <li>Treinamento</li></ul>Apps:<ul><li>Wiki</li><li>Comunidades</li><li>Planner</li></ul>|
+> ||||
 
 ## <a name="organize-a-help-desk"></a>Organizar um help desk
 
 Colabore na documentação, na política e nos processos que suportam seu helpdesk. Integre seu sistema de tíquete existente ou use nosso modelo para gerenciar solicitações.
 
-| Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
-| ------------------|--|------------------------------------------------------------|
-|Organizar o help desk|`com.microsoft.teams.template.OrganizeHelpDesk`| Canais:<ul><li>Geral</li><li>Comunicados</li><li>Perguntas frequentes</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Elogio </li></ul> |
-||||
+> [!div class="mx-tdBreakAll"]
+> | Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
+> | ------------------|--|------------------------------------------------------------|
+> | Organizar o help desk|`com.microsoft.teams.template.OrganizeHelpDesk`| Canais: <ul><li>Geral</li><li>Comunicados</li><li>Perguntas frequentes</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Elogio </li></ul> |
+> ||||

@@ -17,18 +17,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instruções sobre como desmantelar seu ambiente local Skype for Business ambiente.
-ms.openlocfilehash: 820a5b55fe7bf2b5e2351fff253990fd794c562d
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 420ca75e12737ce85c2fd03031f3e1b8fd9ca625
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574216"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510792"
 ---
 # <a name="decommission-your-on-premises-skype-for-business-environment"></a>Desativar o ambiente local do Skype for Business
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Se sua organização usa Teams com uma implantação local do Skype for Business Server, você pode migrar esses ambientes totalmente para a nuvem e, em seguida, retirar sua implantação local do Skype for Business Server. 
+Se sua organização usa Teams ou Skype for Business Online com uma implantação local do Skype for Business Server, você pode migrar esses ambientes totalmente para a nuvem e, em seguida, retirar sua implantação local do Skype for Business Server. 
 
 > [!NOTE]
 > Antes de desmantelar seu ambiente [](configure-hybrid-connectivity.md) local, você deve configurar a conectividade híbrida entre sua implantação local e Microsoft 365. Depois de configurar a conectividade híbrida, você pode migrar usuários para a nuvem, ao migrar suas reuniões do local e migrar quaisquer contatos do Skype for Business Server para o Teams. Configurar a conectividade híbrida é uma etapa necessária para migrar os usuários do local para a nuvem e garantir a funcionalidade Teams completa.

@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instruções para desativá-Skype for Business Server.
-ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: bdd38578d8ee98c26e6515c1cd4baa0ef8a825cf
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454334"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510782"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Remover a implantação local do Skype for Business
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Este artigo descreve como remover sua implantação local Skype for Business local. Esta é a etapa 4 das etapas a seguir para desmantelar seu ambiente local:
 
@@ -127,7 +129,7 @@ Após concluir todas as etapas preliminares, você pode remover a Skype for Busi
    Disable-CsAdForest
    ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira também:
 
 - [Desativar o ambiente local do Skype for Business](decommission-on-prem-overview.md)
 

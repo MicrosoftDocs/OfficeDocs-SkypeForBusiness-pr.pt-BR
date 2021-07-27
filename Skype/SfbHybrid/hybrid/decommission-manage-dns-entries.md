@@ -17,23 +17,25 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instruções sobre como gerenciar entradas DNS ao descomissionar seu ambiente local Skype for Business ambiente.
-ms.openlocfilehash: 77011f0680c0a47e28b5cd44c2be2ff6bb62f1a8
-ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53482394"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486241"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>Atualizar entradas DNS para permitir que sua organização seja Teams Somente
 
-As organizações que anteriormente tinham implantações locais do Skype for Business Server ou do Lync Server ainda podem ter entradas DNS que apontem para uma implantação Skype for Business local. Esses registros são necessários se sua organização incluir usuários locais Skype for Business locais. No entanto, uma vez que sua organização não tenha mais usuários locais do Skype for Business ou do Lync Server, esses registros originais não são mais exigidos pela implantação local e essas entradas DNS devem ser atualizadas para apontar para o Microsoft 365 (ou, em alguns casos, **removidos)** como parte da migração do local para o Teams Somente, a Microsoft não pode dar esta etapa para *você.*
+As organizações que anteriormente tinham implantações locais do Skype for Business Server ou do Lync Server ainda podem ter entradas DNS que apontem para uma implantação Skype for Business local. Esses registros são necessários se sua organização incluir usuários locais Skype for Business locais. No entanto, uma vez que sua organização não tenha mais usuários locais do Skype for Business ou do Lync Server, esses registros originais não são mais exigidos pela implantação local e essas entradas DNS devem ser atualizadas para apontar para o Microsoft 365 (ou, em alguns casos, **removidos)** como parte da migração do local para o Teams Only. *A Microsoft não pode atualizar esses registros DNS em seu nome.*
 
-Ao tentar conceder o TeamsOnly a todo o locatário, Teams verificará o DNS para determinar se algum desses registros DNS existe para Microsoft 365 domínio verificado em sua organização. Se algum registro for encontrado e se apontarem para algo diferente de Microsoft 365, a tentativa de alterar o modo de coexistência de locatários para o TeamsOnly falhará por design. Isso impede que as organizações híbridas com usuários locais aplicação incorretamente do modo TeamsOnly ao locatário , pois isso quebraria a federação para todos os usuários locais Skype for Business na organização (seja usando o Teams ou Skype for Business).
+Ao tentar conceder o TeamsOnly a todo o locatário, o Teams verificará o DNS para determinar se algum desses registros DNS listados abaixo existe em cada um dos domínios verificados Microsoft 365 em sua organização. Se algum registro for encontrado e se apontarem para algo diferente de Microsoft 365, a tentativa de alterar o modo de coexistência de locatários para o TeamsOnly falhará por design. Isso impede que as organizações híbridas com usuários locais aplicação incorretamente do modo TeamsOnly ao locatário , pois isso quebraria a federação para todos os usuários locais Skype for Business na organização (seja usando o Teams ou Skype for Business).
 
 
 ## <a name="how-to-identify-stale-dns-records"></a>Como identificar registros DNS antigos
 
-Para identificar todos os registros DNS que impeçam sua organização de se tornar Teams somente Teams, você pode usar o centro de administração Teams para alterar o modo de coexistência para o TeamsOnly. Vá para **Configuração em toda a**  ->  **organização Teams Atualização**. Quaisquer registros DNS que impeçam que a organização se torne Teams somente serão incluídos na mensagem de erro.  Caso nenhum registro DNS seja encontrado, o modo de coexistência da sua organização será alterado para TeamsOnly.   Como alternativa, você pode usar Teams PowerShell para fazer a mesma coisa.
+Para identificar todos os registros DNS que impeçam sua organização de se tornar Teams somente Teams, você pode usar o centro de administração Teams para alterar o modo de coexistência para o TeamsOnly. Vá para **Configuração em toda a**  ->  **organização Teams Atualização**. Quaisquer registros DNS que impeçam que a organização se torne Teams somente serão incluídos na mensagem de erro.  Caso nenhum registro DNS seja encontrado, o modo de coexistência da sua organização será alterado para TeamsOnly.   
+
+Como alternativa, você pode usar Teams PowerShell para fazer o mesmo, conforme mostrado abaixo:
 
    ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global
