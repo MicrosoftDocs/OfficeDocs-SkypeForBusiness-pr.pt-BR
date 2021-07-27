@@ -21,22 +21,22 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 889c3f4149489f6bcea44acde93d897a7f2e50e1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d4901258f7e0422b373553beba509bdfa0673d96
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092549"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536707"
 ---
 # <a name="shifts-for-teams"></a>Turnos do Teams
 
-Teams dá aos Trabalhadores de Linha de Frente em sua organização as ferramentas necessárias para se comunicar e colaborar de forma eficaz. Este artigo mostra como configurar e gerenciar. Shifts and use the schedule management tool in Teams.
+Teams fornece aos funcionários de linha de frente em sua organização as ferramentas necessárias para se comunicar e colaborar efetivamente. Consulte os recursos a seguir para saber mais sobre como configurar e gerenciar Turnos, a ferramenta de gerenciamento de agendamento em Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurar e gerenciar turnos para sua organização
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Gerenciar turnos em sua organização](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![design](../media/Help-small.svg)  | **[Ajuda do Turnos para Funcionários de Linha de Frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Gerenciar turnos em sua organização](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![design](../media/Help-small.svg)  | **[Ajuda de turnos para trabalhadores de linha de frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Extensões de turnos
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6131883d4d3711b99006b3b54d51dd50ee37daa
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 3e18ecaf8d4149542008d2e1bba719d2ddaf7da6
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282318"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587270"
 ---
 # <a name="assess-organizational-change-readiness"></a>Avaliar preparação da mudança organizacional
 
@@ -46,7 +46,7 @@ Depois de ter protegido sua equipe de projeto e definido sua visão, escopo e me
 > [!Note]
 > Você pode adaptar as atividades de avaliação fornecidas abaixo a qualquer iniciativa de alteração em sua organização. Basta resolver as perguntas com base no escopo do seu projeto. Nas discussões a seguir, a "nova solução" pode se aplicar à chamada de áudio, audioconferência ou à atualização de Skype for Business para Teams.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Qual é a cultura da sua organização quando se trata de mudança?</li><li>Como a nova tecnologia pode otimizar a maneira como os usuários trabalham?</li><li>Quais usuários provavelmente exigirão atenção especial para que eles mudem a maneira de trabalhar?</li></ul> |
 | ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use as seguintes diretrizes e atividades associadas para capturar o perfil de preparação do usuário da sua organização.</li></ul>|
@@ -106,7 +106,7 @@ Entender como o usuário funciona e como eles se reúnem pode ajudar os usuário
 
 Para obter o máximo de Teams, crie uma estratégia de trabalho em equipe que inclua ambos os cenários, ajudando os usuários a entender como o Teams pode funcionar para eles.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Quais cenários de trabalho em equipe relacionáveis você emprega para ajudar a acelerar a adoção de Teams usuário e facilitar sua atualização do Skype for Business?</li></ul> |
 | ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use os exemplos abaixo para ajudar a criar seus próprios cenários de trabalho em equipe. Documente-os na [Guia de Trabalho de Atualização.](https://aka.ms/upgradesuccesskit)</li><li>Para obter cenários e exemplos adicionais, acesse a [Biblioteca de Produtividade](https://www.microsoft.com/microsoft-365/success/)</li></ul>|

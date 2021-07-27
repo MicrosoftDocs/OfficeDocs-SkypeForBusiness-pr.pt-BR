@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
+ms.openlocfilehash: b77f63afe0307d9dcf3c883d8b93242d26c7f7cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397554"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587240"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams e Outlook de email
 
@@ -31,7 +31,7 @@ Microsoft Teams inclui recursos que facilitam que os usuários em sua organizaç
 
 ![Captura de tela mostrando o recurso Compartilhar Outlook no Teams](media/share-to-outlook.png)
 
-Para usar esse recurso, Outlook na Web deve estar ligado para o usuário. Se Outlook na Web estiver desligada, **a** opção Compartilhar para Outlook não será exibida no Teams para o usuário. Para ver as etapas sobre como ativar e desativar Outlook na Web, consulte [Enable or disable Outlook on the web for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
+Para usar esse recurso, Outlook na Web deve ser ligado para o usuário. Se Outlook na Web estiver desligada, a opção **Compartilhar** para Outlook não será exibida no Teams para o usuário. Para ver as etapas sobre como ativar e desativar Outlook na Web, consulte [Enable or disable Outlook na Web for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
 
 ## <a name="actionable-activity-emails"></a>Emails de atividade a ação
 
@@ -46,4 +46,4 @@ Os usuários receberão automaticamente emails de atividade perdida ativos que o
 
 Você pode usar o cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) juntamente com o parâmetro **SmtpActionableMessagesEnabled** para desativar emails ativas. Por padrão, o **parâmetro SmtpActionableMessagesEnabled** é definido como **true**. A configuração do parâmetro como **false** desliga mensagens de email ativas em Office 365. Para Teams usuários, isso significa que a opção **Responder** para responder diretamente Outlook não está disponível em emails de atividade perdida. Em vez disso, os emails de atividade perdida incluem uma **opção Responder Teams** para os usuários responderem Teams.
 
-Consulte também [Mensagens ativas em Outlook e Office 365 Grupos](https://docs.microsoft.com/outlook/actionable-messages/).
+Consulte também [Mensagens ativas em Outlook e Office 365 Grupos](/outlook/actionable-messages/).

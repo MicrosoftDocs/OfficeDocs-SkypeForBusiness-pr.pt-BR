@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598530"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536827"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 
@@ -40,7 +40,7 @@ Os convidados no Teams estão cobertos pela mesma proteção de conformidade e a
 A experiência de convidado tem limitações por padrão. Para obter uma lista completa do que um convidado pode ou não fazer no Teams, consulte [comparação de recursos de membros e de convidados da equipe](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
-> Os convidados seguem as configurações em Toda a organização do Teams para o modo de Atualização de coexistência. Isso não pode ser alterado.
+> Os convidados seguem as configurações de Toda a organização do Teams para o modo de atualização de coexistência. Isso não pode ser alterado.
 
 Para configurar o acesso de convidado, consulte [Colaborar com convidados em uma equipe](/microsoft-365/solutions/collaborate-as-team). 
 
@@ -72,10 +72,7 @@ Os convidados podem deixar a equipe a qualquer momento no Teams. Para obter deta
 
 ## <a name="licensing-for-guest-access"></a>Licenciamento para acesso de convidado
 
-O acesso de convidados está incluído em todas as assinaturas do Microsoft 365 Business Standard, do Microsoft 365 Enterprise e do Microsoft 365 Education. Não é necessária nenhuma licença adicional do Microsoft 365. O Teams não restringe o número de convidados que você pode adicionar. No entanto, o número total de convidados que podem ser adicionados ao seu locatário pode ficar restrito pelos recursos pagos do Azure AD. Para obter mais informações, consulte [Modelo de faturamento para Identidades Externas do Azure AD](/azure/active-directory/b2b/licensing-guidance).
-
-> [!NOTE]
-> Os usuários em sua organização que possuem apenas planos independentes de assinatura do Microsoft 365, como o Plano 2 do Exchange Online, não podem receber convites para acessar a sua organização como convidados, pois o Teams considera esses usuários como pertencentes à mesma organização. Para esses usuários usarem o Teams, eles devem receber uma assinatura do Microsoft 365 Business Standard, do Office 365 Enterprise ou do Office 365 Education. 
+O acesso de convidados está incluído em todas as assinaturas do Microsoft 365 Business Standard, do Microsoft 365 Enterprise e do Microsoft 365 Education. Não é necessária nenhuma licença adicional do Microsoft 365. O [modelo de cobrança para Identidades Externas do Azure AD](/azure/active-directory/b2b/licensing-guidance) aplica-se aos convidados no Microsoft 365. Somente pessoas de fora da sua organização podem ser convidadas como convidados.
 
 ## <a name="guest-access-reviews"></a>Comentários de acesso de convidados
 

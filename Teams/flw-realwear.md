@@ -1,5 +1,5 @@
 ---
-title: Informação de ITAdmin para cliente do Microsoft Teams para RealWear (visualização)
+title: Informação do administrador de TI para cliente do Microsoft Teams para RealWear (visualização)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Apresentação de ITAdmin do cliente do Microsoft Teams para RealWear.
+description: Apresentação do administrador de TI do cliente do Microsoft Teams para RealWear.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222cb12e38061c81a860092f90bf42d5412fdb63
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e7977aae272f13a0ffe59ccd9febad2b501dbd54
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092279"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536697"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams para RealWear
 

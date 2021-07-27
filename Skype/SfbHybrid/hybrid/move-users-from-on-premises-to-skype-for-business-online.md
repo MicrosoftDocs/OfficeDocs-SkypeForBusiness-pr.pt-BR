@@ -18,18 +18,18 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Saiba como mover os usuários para Skype for Business Online.
-ms.openlocfilehash: 883db98a424c254e6792fd651594b02201a311f9
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: fcb1d508230c4faa18da4a473d9e24d384b047a6
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863192"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509942"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuários do ambiente local para o Skype for Business Online
 
-Depois de mover um usuário do local para o Skype for Business Online, o usuário interage com o Skype for Business Online para sua funcionalidade. Todos os contatos existentes no local estarão disponíveis no Skype for Business Online e quaisquer reuniões existentes que o usuário organizou para o futuro serão atualizadas para que os links apontem para o Skype for Business Online. Se o usuário estiver habilitado para Audioconferência, as reuniões também incluirão coordenadas discada.  Para mover usuários de um ambiente local para o Skype for Business Online, use o cmdlet Move-CsUser ou o painel de controle Skype for Business Server, ambos são ferramentas locais. 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement.md)]
+Depois de mover um usuário do local para o Skype for Business Online, o usuário interage com o Skype for Business Online para sua funcionalidade. Todos os contatos existentes no local estarão disponíveis no Skype for Business Online e quaisquer reuniões existentes que o usuário organizou para o futuro serão atualizadas para que os links apontem para o Skype for Business Online. Se o usuário estiver habilitado para Audioconferência, as reuniões também incluirão coordenadas discada.  Para mover usuários de um ambiente local para o Skype for Business Online, use o cmdlet Move-CsUser ou o painel de controle Skype for Business Server, ambos são ferramentas locais. 
 
 Antes de mover qualquer usuário, revise os [pré-requisitos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover os usuários para a nuvem.
 
@@ -78,6 +78,6 @@ Se a conta de administrador estiver habilitada para MFA (Autenticação Multifa 
 12. No sublinhado à direita, selecione o modo de coexistência desejado e clique em **Aplicar**.
  
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira também:
 
 [Move-CsUser](/powershell/module/skype/move-csuser)

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: 17e6113b19a09500fba1050b7f8f33efd110ef44
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428197"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506370"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -229,7 +229,7 @@ Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada
   - Aplicativo Microsoft Teams para Android
 
     > [!NOTE]
-    > As filas de chamadas que recebem um número de roteamento direto não têm suporte para clientes Skype for Business, clientes Lync ou para Telefones IP do Skype for Business como agentes.
+    > As filas de chamadas que recebem um número de roteamento direto não têm suporte para clientes Skype for Business, clientes Lync ou para Telefones IP do Skype for Business como agentes. O Teams cliente só tem suporte com um modo de [co-existência de Teams Somente](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de fila de chamada
 

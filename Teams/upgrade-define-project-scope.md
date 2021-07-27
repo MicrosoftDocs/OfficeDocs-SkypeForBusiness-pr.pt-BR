@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6ad3c5062a96a4becff32136c551a3247aa660f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 949c3189b80e9843b4b256f8d3f65cc3b52e2d1a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282578"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586970"
 ---
 # <a name="define-your-project-scope"></a>Definir o escopo de seu projeto
 
@@ -37,7 +37,7 @@ Este artigo faz parte do estágio Project Definição da sua jornada de atualiza
 
 Levar tempo para definir sua visão de projeto, escopo, metas e governança ajudará a garantir que todos os participantes do projeto estejam alinhados e trabalhando em direção aos mesmos resultados finais. Isso é especialmente crítico, já que a equipe de preparação técnica e a equipe de preparação do usuário trabalharão independentemente para reunir suas respectivas partes. Depois de concluir esta seção, consulte-a em todo o seu projeto para garantir que você esteja no caminho certo para alcançar o estado final que você queria. Use as metas que você identificar abaixo para medir seus resultados e atenuar conforme necessário.
 
-| | |
+| &nbsp;| &nbsp;|
 |---|---|
 | ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>O que você deseja realizar com esse projeto (em outras palavras, por que você está fazendo isso)?</li><li>Qual é a aparência do sucesso?</li><li>Quais são os riscos e qual é o seu plano para reduzir esses riscos?</li></ul> |
 | ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Discuta as seções a seguir com sua equipe de projeto e patrocinadores.</li><li>Documente sua visão, escopo, metas e riscos para este projeto.</li><li>Revisite sua equipe de projeto para validar se você contratou a equipe certa.</li></ul>|

@@ -1,5 +1,5 @@
 ---
-title: Teams de caso contoso de voz
+title: 'Teams caso contoso de voz: roteamento baseado em local'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,21 +13,21 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams de caso de voz para corporação multi-nacional
+description: 'Teams de caso de voz para corporação multi-nacional: Roteamento baseado em local'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: b9c63cfc4df61303ce5181c09e7e8b949ffb51b1
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785938"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587150"
 ---
 # <a name="contoso-case-study-location-based-routing"></a>Estudo de caso contoso: Location-Based routing
 
 Location-Based routing (LBR) é um recurso que restringe o desvio de chamada com base na política e na localização física do usuário no momento da colocação ou recebimento de uma chamada.  
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 A Contoso tem dois escritórios em um país onde é ilegal ignorar o provedor PSTN (Rede Telefônica Pública Comutado) para diminuir os custos de chamadas de longa distância. O escritório principal tem uma conexão com a Internet usada pelo escritório principal e pelo segundo escritório. Cada escritório tem seu próprio Controlador de Borda de Sessão (SBC) conectado a uma operadora PSTN.  
  
@@ -47,11 +47,11 @@ Os diagramas a seguir mostram as implantações antes e depois de um país com r
 
 **Implantação original**
 
-![Diagrama mostrando antes do estado](media/voice-case-study-5.png)
+![Diagrama mostrando antes do estado.](media/voice-case-study-5.png)
 
 **Implantação com Roteamento Direto**
 
-![Diagrama mostrando antes do estado](media/voice-case-study-6.png)
+![Diagrama 2 mostrando antes do estado.](media/voice-case-study-6.png)
 
 
 ## <a name="configuration"></a>Configuração: 

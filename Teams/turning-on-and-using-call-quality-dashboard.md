@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba como ativar e usar o Painel de Qualidade de Chamadas e obter relatórios resumidos de qualidade das chamadas.
-ms.openlocfilehash: c71cb25732a99f207467a988ad0db54c959d15f4
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8c720a9ef99537be517f29a8b558db8912ea6a75
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52254445"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596604"
 ---
-# <a name="set-up-call-quality-dashboard-cqd"></a>Configurar o Painel de Qualidade de Chamada (CQD)
+# <a name="how-to-set-up-call-quality-dashboard"></a>Como configurar o painel de qualidade de chamada
 
 Abra o Painel de Qualidade de Chamada da Microsoft (CQD) em [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (entre com suas credenciais de administrador). Ou vá para o centro de administração Teams e selecione **Painel de Qualidade de Chamada**. 
 
@@ -51,7 +51,7 @@ Atribua [funções](/microsoft-365/admin/add-users/about-admin-roles) para acess
 Se você quiser que os usuários que não são administradores (como engenheiros de suporte e agentes do helpdesk) usem o Painel de Qualidade de Chamada, você pode atribuir a esses usuários uma das seguintes funções, que dá acesso ao CQD. 
 
 
-|  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Upload criar dados  |
+|&nbsp;  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Upload criar dados  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Administrador Global     |Sim         |Sim         |Sim         |Sim         |
 |Administrador do Teams     |Sim         |Sim         |Sim         |Sim         |

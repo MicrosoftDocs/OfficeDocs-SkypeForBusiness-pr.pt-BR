@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Migre pontos de extremidade de aplicativo hirido antes de descomissionar um ambiente Skype for Business local.
-ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: ee437f7f6c35ee67168c81e8e8ad440b1b0ba824
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420796"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574236"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Migrar pontos de extremidade de aplicativo híbrido antes de encerrar seu ambiente local
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Este artigo descreve como mover os pontos de extremidade de aplicativo híbrido necessários para a nuvem da Microsoft antes de desativá-los Skype for Business ambiente. Esta é a etapa 3 das etapas a seguir para desmantelar seu ambiente local:
 
@@ -55,7 +57,7 @@ Antes de mover esses pontos de extremidade para online, você deve garantir que 
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Como é possível que os números de telefone dessas contas fossem gerenciados no Microsoft 365 em vez de no local, execute o seguinte comando no Skype for Business PowerShell Online:
+5. Como é possível que os números de telefone dessas contas fossem gerenciados no Microsoft 365 em vez de no local, execute o seguinte comando no Teams PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"

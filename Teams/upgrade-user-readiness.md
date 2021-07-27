@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dfc2be330f0890a73bdfa34077c910e7cfc3e84
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 705ad7ab9dbfccf12f269636e8c38312c3b8a3c7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282708"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587220"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Preparar um plano de preparação para usuários
 
@@ -43,7 +43,7 @@ Um plano de preparação ideal do usuário incorpora como você se comunicará, 
 > [!Tip]
 > Baixe o [Kit de Sucesso](https://aka.ms/UpgradeSuccessKit) de Atualização para materiais de preparação do usuário do modelo, como comunicações e pesquisas de usuário, além de um plano de projeto de atualização de exemplo e plano de teste piloto.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Como criar um plano de preparação para facilitar e acelerar a adoção do usuário da nova solução?</li><li>Você tem a conscientização, o treinamento e os recursos de suporte corretos que se alinham à capacidade dos usuários de lidar com a mudança e com a pessoa do usuário como você definiu?</li></ul> |
 | ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use a lista abaixo para gerar ideias para seu plano de preparação. Selecione as atividades mais relevantes ou adicione suas próprias para projetar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de amplo alcance (para toda a organização) e campanhas direcionadas (para laggards ou personas específicas) para resultados máximos.</li></ul>|

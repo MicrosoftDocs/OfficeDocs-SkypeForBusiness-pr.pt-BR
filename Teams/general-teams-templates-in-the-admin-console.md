@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2b805f4cfddce18f1fa055b7de96a4afcaa47fb
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: c68965bb658328646b5308ad85092ce23bc0ab02
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684548"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574046"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Usar modelos gerais de equipe no centro de administração
 
@@ -34,7 +34,7 @@ Os modelos de equipe têm definições pré-criadas de estruturas de equipe proj
 
 Neste artigo, apresentamos cada um dos modelos de equipe e recomendamos como usá-los.
 
-Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização financeira. Você já implantou o serviço Teams em sua organização. Se você ainda não tiver Teams, comece lendo [o texto](./deploy-overview.md)Sobre como Microsoft Teams .
+Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em toda a sua organização. Você já implantou o serviço Teams em sua organização. Se você ainda não tiver Teams, comece lendo [o texto](./deploy-overview.md)Sobre como Microsoft Teams .
 
 Para saber mais sobre modelos de equipe em geral, consulte [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 

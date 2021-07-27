@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Saiba mais sobre os Microsoft Teams de voz na nuvem e as decisões de implantação que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b8f60f9d664432fbb68c48ee61d6f26902eeae
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354377"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486121"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planejar sua solução Teams voz 
 
@@ -61,7 +61,7 @@ No entanto, sua situação pode ser mais complexa. Por exemplo, você pode ter e
 | Obrigatório para todos | Descrição |
 | :------------|:-------|
 | [**Sistema de Telefonia**](#phone-system) | A tecnologia da Microsoft para habilenciar o controle de chamada e recursos de Exchange de filial privada (PBX) na nuvem Microsoft 365 com Microsoft Teams. |
-| [**Opções de conectividade PSTN (Rede Telefônica Pública Comucionária)**](#public-switched-telephone-network-connectivity-options) | Uma opção entre usar a Microsoft como sua operadora de telefonia ou conectar sua própria operadora de telefonia Microsoft Teams usando roteamento direto ou Conexão. Combinado com Sistema de Telefonia, as opções de conectividade PSTN permitem que os usuários façam chamadas telefônicas em todo o mundo.|
+| [**Opções de conectividade PSTN (Rede Telefônica Pública Comucionária)**](#public-switched-telephone-network-connectivity-options) | Uma opção entre usar a Microsoft como sua operadora de telefonia ou conectar sua própria operadora de telefonia Microsoft Teams usando o Conexão ou Roteamento Direto. Combinado com Sistema de Telefonia, as opções de conectividade PSTN permitem que os usuários façam chamadas telefônicas em todo o mundo.|
 
 **Dependendo de seus requisitos.** Algumas das seções neste e artigos relacionados são pertinentes, dependendo da implantação e dos requisitos existentes. Por exemplo, Location-Based roteamento só é necessário para clientes de Roteamento Direto em locais geográficos que não permitem o desvio de tarifa.
 
@@ -143,9 +143,9 @@ Sistema de Telefonia fornece recursos pbx completos para sua organização. No e
 
 - [**Sistema de Telefonia com Plano de Chamada.**](pstn-connectivity.md#phone-system-with-calling-plan) Uma solução completa na nuvem com a Microsoft como operadora PSTN.
 
-- [**Sistema de Telefonia com sua própria operadora PSTN**](pstn-connectivity.md#phone-system-with-direct-routing) usando o Roteamento Direto para conectar seu ambiente local a Teams.
-
 - [**Sistema de Telefonia com sua própria operadora PSTN**](operator-connect-plan.md)usando o operador Conexão , que está disponível no momento apenas na **visualização pública.**  Com o Conexão operador, se o operador existente for um participante do programa de Conexão do Microsoft Operator, ele poderá gerenciar o serviço para trazer a chamada PSTN para Teams. Para obter informações sobre os benefícios e requisitos do operador Conexão e para obter uma lista de operadores participantes deste programa, consulte [Plan Operator Conexão](operator-connect-plan.md).
+
+- [**Sistema de Telefonia com sua própria operadora PSTN**](pstn-connectivity.md#phone-system-with-direct-routing) usando o Roteamento Direto para conectar seu ambiente local a Teams.
 
 Você também pode escolher uma combinação de opções, que permite projetar uma solução para um ambiente complexo ou gerenciar uma migração em várias etapas (mais sobre migração posterior).
 

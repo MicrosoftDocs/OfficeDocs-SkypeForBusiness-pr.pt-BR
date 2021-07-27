@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 76a4d88cc82379911f6f4716f199bb2424328959
-ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
+ms.openlocfilehash: b531f6bb3a6a097f1480b3bcbfc938cdf20a8ec4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408760"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510342"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -169,6 +169,7 @@ A seguir estão as versões mais recentes Salas do Teams em versões de firmware
 
 | Versão do produto| Data de lançamento | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Atualização 2021 #2A | 15 de julho de 2021  |1449/1.0.96.2021070803|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
 | Atualização 2021 #2 | 28 de junho de 2021  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
 | Atualização 2021 #1A  |12 de maio de 2021  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Atualização 2021 #1  |5 de abril de 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
@@ -182,6 +183,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 |1.13.356   | Atualização 2021 #2 |
 | Yealink VC210 |118.15.0.54   | Atualização 2021 #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | Atualização 2021 #2    |
 | Yealink MeetingBar A30 | 133.15.0.60    | Atualização 2021 #2    |

@@ -1,5 +1,5 @@
 ---
-title: Teams de caso contoso de voz
+title: 'Estudo de caso contoso: Sistema de Telefonia para uma empresa multi-nacional'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,17 +13,17 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams de caso de voz para corporação multi-nacional
+description: 'Teams caso de voz para corporação multi-nacional: sistema de telefonia'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ee15ef9bb42a28023c86963dd9100797c51edc3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101027"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587140"
 ---
-# <a name="contoso-case-study-phone-system"></a>Estudo de caso contoso: Sistema de Telefonia
+# <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Estudo de caso contoso: Sistema de Telefonia para uma empresa multi-nacional
 
 Dependendo da localização geográfica e de outros fatores, a Contoso tinha escritórios usando as seguintes soluções de telefonia:
 
@@ -54,17 +54,17 @@ Os hábitos de discagem do usuário eram discar um usuário no sistema de telefo
 
 A Contoso baseou sua decisão nas seguintes perguntas:
 
-- P. Precisamos manter a funcionalidade fornecida pela implantação local?<br>
+- Q. Precisamos manter a funcionalidade fornecida pela implantação local?<br>
   A. Não 
 
-- P. Precisamos interoperar com sistemas PBX de terceiros e outros equipamentos de telefonia?<br>
+- Q. Precisamos interoperar com sistemas PBX de terceiros e outros equipamentos de telefonia?<br>
   A. Não 
 
-- P. Precisamos manter nossa operadora de terceiros atual?<br> A. Sim (países regulamentados) e Não 
+- Q. Precisamos manter nossa operadora de terceiros atual?<br> A. Sim (países regulamentados) e Não 
 
-- P. Precisamos implantar o ROI em SBCs?<br> A. Sim e Não  
+- Q. Precisamos implantar o ROI em SBCs?<br> A. Sim e Não  
 
-- P. Os Planos de Chamada PSTN da Microsoft estão disponíveis nesta região?<br> A. Sim e Não 
+- Q. Os Planos de Chamada PSTN da Microsoft estão disponíveis nesta região?<br> A. Sim e Não 
 
 Com base nas respostas às suas perguntas, a Contoso decidiu:
 
@@ -74,7 +74,7 @@ Com base nas respostas às suas perguntas, a Contoso decidiu:
 
 O diagrama a seguir mostra a implantação Skype for Business Enterprise Voice inicial e como essa implantação foi migrada para planos de chamadas da Microsoft e roteamento direto:
 
-![Diagrama mostrando estados antes e depois](media/voice-case-study-1.png)
+![O diagrama mostra estados antes e depois.](media/voice-case-study-1.png)
 
 ## <a name="site-type-b-traditional-legacy-telephony-systems"></a>Tipo de site B: Sistemas de telefonia herdados tradicionais
 
@@ -82,14 +82,14 @@ A Contoso tinha muitos escritórios que utilizava sistemas de telefonia herdados
 
 A Contoso baseou sua decisão nas seguintes perguntas:
 
-- P. Precisamos manter a funcionalidade fornecida pela implantação local?<br>
+- Q. Precisamos manter a funcionalidade fornecida pela implantação local?<br>
   A. Não 
 
-- P. Precisamos interoperar com sistemas PBX de terceiros e outros equipamentos de telefonia?<br> A. Sim
+- Q. Precisamos interoperar com sistemas PBX de terceiros e outros equipamentos de telefonia?<br> A. Sim
 
-- P. Precisamos manter nossa operadora de terceiros atual?<br> A. Não 
+- Q. Precisamos manter nossa operadora de terceiros atual?<br> A. Não 
 
-- P. O Plano de Chamada da Microsoft PSTN está disponível em nossa região?<br> A. Sim e Não 
+- Q. O Plano de Chamada da Microsoft PSTN está disponível em nossa região?<br> A. Sim e Não 
 
 Com base nas respostas às suas perguntas, a Contoso decidiu: 
 
@@ -102,12 +102,12 @@ Com base nas respostas às suas perguntas, a Contoso decidiu:
 Os diagramas a seguir mostram a implantação do sistema herdados original com sites remotos e a migração para uma implantação de Roteamento Direto com Otimização de Mídia Local:
 
 **Implantação herdda original**  
- ![ Diagrama mostrando estados antes e depois](media/voice-case-study-2.png)
+ ![ Um diagrama mostra estados antes e depois.](media/voice-case-study-2.png)
 
 
 **Implantação com Roteamento Direto**
 
-![Diagrama mostrando estados antes e depois](media/voice-case-study-3.png)
+![Um diagrama mostrando os estados antes e depois.](media/voice-case-study-3.png)
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Tipo de site C: combinação de Skype for Business Enterprise Voice e sistemas de telefonia herdados tradicionais
 
@@ -115,16 +115,16 @@ Contoso Skype for Business Enterprise Voice os números dos usuários residem no
 
 A Contoso baseou sua decisão nas seguintes perguntas:
 
-- P. Precisamos manter a funcionalidade fornecida pela implantação local?<br>
+- Q. Precisamos manter a funcionalidade fornecida pela implantação local?<br>
   A. Não 
 
-- P. Precisamos interoperar com sistemas PBX de terceiros e outros equipamentos de telefonia?<br> A. Não 
+- Q. Precisamos interoperar com sistemas PBX de terceiros e outros equipamentos de telefonia?<br> A. Não 
 
-- P. Precisamos manter nossa operadora de terceiros atual?<br> A. Não 
+- Q. Precisamos manter nossa operadora de terceiros atual?<br> A. Não 
 
-- P. Precisamos implantar o ROI em SBCs?<br> A. Sim e Não  
+- Q. Precisamos implantar o ROI em SBCs?<br> A. Sim e Não  
 
-- P. O Plano de Chamada PSTN da Microsoft está disponível nesta região?<br> A. Não 
+- Q. O Plano de Chamada PSTN da Microsoft está disponível nesta região?<br> A. Não 
 
 Com base nas respostas às suas perguntas, a Contoso decidiu o seguinte: 
 
@@ -137,21 +137,21 @@ Com base nas respostas às suas perguntas, a Contoso decidiu o seguinte:
 Os diagramas a seguir mostram a implantação do sistema de telefonia Skype for Business Enterprise Voice e herdada e a migração para uma implantação mista usando Roteamento Direto:
 
 **Implantação mista original** 
- ![ Diagrama mostrando antes do estado](media/voice-case-study-4.png)
+ ![ Diagrama 1 mostrando o estado anterior.](media/voice-case-study-4.png)
 
 **Implantação mista com Roteamento Direto** 
- ![ Diagrama mostrando antes do estado](media/voice-case-study-4a.png)
+ ![ Diagrama 2 mostrando o estado anterior.](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>Planos de Chamadas
 
 Para determinar os requisitos de configuração para Planos de Chamada, a Contoso analisou as decisões principais de [implantação do Plano de Chamada.](calling-plan-landing-page.md#core-deployment-decisions) As decisões resultantes foram tomadas: 
 
-- P. Meus usuários precisam de chamada internacional?<br> A. Sim 
+- Q. Meus usuários precisam de chamada internacional?<br> A. Sim 
 
-- P. Cada um dos meus usuários tem um número de telefone DID direto para dentro?<br> R. Não hoje. Todos os usuários habilitados receberão um DID. 
+- Q. Cada um dos meus usuários tem um número de telefone DID direto para dentro?<br> R. Não hoje. Todos os usuários habilitados receberão um DID. 
 
-- P. Quero mascarar ou desabilitar a ID do chamador?<br> A. A ID do chamador de um usuário será mascarada para o número local da Contoso. 
+- Q. Quero mascarar ou desabilitar a ID do chamador?<br> A. A ID do chamador de um usuário será mascarada para o número local da Contoso. 
 
 
 ## <a name="direct-routing"></a>Roteamento Direto

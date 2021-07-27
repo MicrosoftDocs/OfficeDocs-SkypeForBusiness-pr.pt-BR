@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78215457177689b549112a19a9477fdd01c91de2
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d0184198d7e419642a582f8642b312238900f1f8
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282508"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586990"
 ---
 # <a name="about-the-upgrade-framework"></a>Sobre a estrutura de atualização
 
@@ -55,7 +55,7 @@ Para ajudar a demonstrar como sua jornada de atualização pode se desenvolver, 
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plano: crie seu plano de atualização para ajudar a garantir que sua organização seja configurada para o sucesso a longo prazo
 
-| Etapa |  | Resumo | Recurso |
+| Etapa |&nbsp;| Resumo | Recurso |
 |------|--|---------|----------|
 | **1** | **Definir seus stakeholders** | Atribua membros da equipe do projeto responsáveis por impulsionar o sucesso da atualização. | [Inscrever seus stakeholders](upgrade-enlist-stakeholders.md) |
 | **2** | **Definir sua visão de projeto e escopo** | Projete sua visão "grande imagem" e o escopo atual do projeto para criar um plano para sua jornada de atualização. | [Project visão](upgrade-define-project-scope.md#project-vision) <br> <br>[Project escopo](upgrade-define-project-scope.md#project-scope) |
@@ -67,7 +67,7 @@ Para ajudar a demonstrar como sua jornada de atualização pode se desenvolver, 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Preparar: Avalie a preparação da sua organização para Teams
 
-| Etapa |  | Resumo | Recurso |
+| Etapa |&nbsp;  | Resumo | Recurso |
 |------|--|---------|----------|
 | **1** | **Avaliar seu ambiente e concluir Teams integração técnica** | Verifique se seu ambiente está pronto para Teams ajudar a otimizar a experiência do usuário e facilitar sua atualização com o tempo. | [Avalie seu ambiente antes de atualizar para Teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Preparar seu serviço para atualização para Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Otimizar rede para Teams, especialmente para cenários de mídia em tempo real** | Se você estiver implantando áudio, vídeo ou reuniões, tome estas etapas adicionais para otimizar sua rede para essa funcionalidade. | [Preparar sua rede para atualizar para o Teams](prepare-network.md) |
@@ -78,7 +78,7 @@ Para ajudar a demonstrar como sua jornada de atualização pode se desenvolver, 
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Piloto: execute um piloto para confirmar se sua organização está pronta e informar sua jornada ideal para Teams
 
-| Etapa |  | Resumo | Recurso |
+| Etapa | &nbsp; | Resumo | Recurso |
 |------|--|---------|----------|
 | **1** | **Estruturar a logística piloto** | Defina a logística piloto formal para ajudar a validar a preparação da sua organização para atualizar ou coexistir. | [Estruturar a logística piloto](pilot-essentials.md#1-outline-pilot-logistics) |
 | **2** | **Selecione seus participantes piloto e cenários de teste** | Identifique os usuários que podem ajudar a validar cenários de trabalho em equipe e verificar Teams preparação. | [Selecione seus participantes piloto e cenários de teste](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
@@ -89,7 +89,7 @@ Para ajudar a demonstrar como sua jornada de atualização pode se desenvolver, 
 
 ### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>Implantar: executar Teams coexistência com Skype for Business
 
-| Etapa |  | Resumo | Recurso |
+| Etapa |&nbsp;  | Resumo | Recurso |
 |------|--|---------|----------|
 | **1** | **Anunciar o lançamento oficial do Teams** | Gere animação e impulso enviando um comunicado de lançamento oficial quando Teams estiver pronto. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **Implementar sua atualização** | As etapas que você seguir dependem da implantação atual do Skype for Business. | [Implementar sua atualização](upgrade-to-teams.md) |
@@ -102,7 +102,7 @@ Para ajudar a demonstrar como sua jornada de atualização pode se desenvolver, 
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Atualização: implemente sua atualização de Skype for Business para Teams
 
-| Etapa |  | Resumo | Recurso |
+| Etapa |&nbsp;  | Resumo | Recurso |
 |------|--|---------|----------|
 | **1** | **Confirme se você concluiu as atividades de pré-atualização descritas acima** | Ajude a garantir o sucesso da atualização confirmando a conclusão de todas as atividades de planejamento e preparação. | Todos os acima |
 | **2** | **Iniciar comunicações com usuários no seu primeiro grupo de atualização** | Notifique os usuários que as atualizações estão iniciando e mantenha-os informados durante todo o processo. | [Preparar um plano de preparação para usuários](upgrade-user-readiness.md) <br><br> [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
@@ -116,7 +116,7 @@ Para ajudar a demonstrar como sua jornada de atualização pode se desenvolver, 
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>Operar: medir o sucesso da atualização
 
-| Etapa |  | Resumo | Recurso |
+| Etapa | &nbsp; | Resumo | Recurso |
 |------|--|---------|----------|
 | **1** | **Avaliar o sucesso da atualização inicial** | Avalie o progresso em relação às metas estabelecidas na fase de pré-atualização. | [Project metas](upgrade-define-project-scope.md#project-goals) |
 | **2** | **Implementar um plano de mitigação para quaisquer metas que não estão no caminho certo** | Defina estratégias de mitigação ou correção de curso para metas que não estão sendo atendidas. | [Project metas](upgrade-define-project-scope.md#project-goals) |

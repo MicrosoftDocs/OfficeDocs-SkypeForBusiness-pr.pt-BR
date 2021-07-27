@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: saiba como migrar as configurações do usuário e mover os usuários para Teams.'
-ms.openlocfilehash: b9b21dafc2290dfff5522f5d54c0872121294dd9
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 1df8c617d40b88813074319d7eb041995ff71ca5
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856300"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509772"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Migrar usuários de um ambiente local para o Teams
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Quando um usuário é movido do local para o Teams Somente, a Skype for Business do usuário é movida do local para o online e o usuário recebe o TeamsUpgradePolicy com mode=TeamsOnly.  Depois que um usuário é movido do local para o modo TeamsOnly:
 
@@ -116,7 +118,7 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 Por padrão, o valor de DownloadTeams é True; no entanto, ele só *será* honrado se NotifySfbUser = True para um determinado usuário.
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira também:
 
 [Move-CsUser](/powershell/module/skype/move-csuser)
 

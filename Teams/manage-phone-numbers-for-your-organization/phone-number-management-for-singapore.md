@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone em Cingapura para Microsoft Teams.
-ms.openlocfilehash: 1935f692fc7e236d47ba79cfa1963abe7b2d1f27
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 250e3bb0822b7587d276725517b85858d844b52e
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130317"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509752"
 ---
 # <a name="phone-number-management-for-singapore"></a>Telefone gerenciamento de números para Cingapura
 
@@ -37,12 +37,11 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. |Em Cingapura, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [enviando-o para nós](mailto:ptneu@microsoft.com).<br/><br/>[Nova solicitação de número de telefone para Cingapura (v.1.0) (en-sg)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/>Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
-|Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para Cingapura (todos os números) (v.1.0) (en-sg)](https://download.microsoft.com/download/e/3/0/e304e2d3-96b4-43fd-801d-68df4825ce6b/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf) <br/> <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). <br/><br/>A transferência de números pode levar de uma a seis semanas para ser concluída nesse mercado, dependendo da complexidade da porta. <br/><br/>Esses números não podem ser usados para conferência no momento.  |
-|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
-|Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. |Em Cingapura, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [contate PTSN para obter instruções.](contact-pstn-service-desk.md)<br/><br/>[Nova solicitação de número de telefone para Cingapura (v.1.0) (en-sg)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/>Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e contatar [PTSN para obter instruções.](contact-pstn-service-desk.md)<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
+|Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para Cingapura (todos os números) (v.1.0) (en-sg)](https://download.microsoft.com/download/e/3/0/e304e2d3-96b4-43fd-801d-68df4825ce6b/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf) <br/> <br/>Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md). <br/><br/>A transferência de números pode levar de uma a seis semanas para ser concluída nesse mercado, dependendo da complexidade da porta. <br/><br/>Esses números não podem ser usados para conferência no momento.  |
+|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
+|Altere o número de um usuário para um número de serviço.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
 |Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato [com o service desk PSTN](contact-pstn-service-desk.md).|
-
    
 ## <a name="related-topics"></a>Tópicos relacionados
 

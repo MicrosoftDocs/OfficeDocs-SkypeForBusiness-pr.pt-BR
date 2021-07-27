@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6ad995cd0a1624171396b68bec3355fc05f559
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 2fbc1e3c26cfa6afa4835fc2da1a0aae55a21b17
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52909943"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482334"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para o Microsoft Teams
 
@@ -40,7 +40,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Disco rígido    | 3 GB de espaço em disco disponível        |
 |Display    |   Resolução de tela 1024 x 768 |
 |Hardware gráfico |  Sistema Operacional Windows: a aceleração de hardware de elementos gráficos requer o DirectX 9 ou posterior, com o WDDM 2.0 ou superior para Windows 10 (ou WDDM 1.3 ou superior para Windows 10 Fall Creators Update)
-|Sistema operacional  |    Windows 10, Windows 10 no ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Observação: Recomendamos usar a versão mais recente do Windows e os patches de segurança disponíveis.|
+|Sistema operacional  |    Windows 10 (exceto Windows 10 LTSC), Windows 10 no ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Observação: Recomendamos usar a versão mais recente do Windows e os patches de segurança disponíveis.|
 |Versão do .NET    |  Exige .NET 4.5 CLR ou posterior       |
 |Vídeo    |  Câmera de vídeo USB 2.0       |
 |Dispositivos    |   Câmera de notebook, microfone e alto-falantes padrão    |

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81a20980530f28f20fb48fa06a2068088dc1a305
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 8fc726dbe05358844c23a3ee90a8885e8b97f54d
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282518"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586960"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Listar os participantes em seu projeto
 
@@ -40,7 +40,7 @@ Desde a implementação de produtos do projeto até a responsabilidade de impuls
 
 Opcionalmente, você pode criar um comitê de direção. Às vezes, projetos grandes ou mais complexos terminam com "muitos cozinheiros na cozinha", resultando em desconectações entre os grupos de participantes. Para esses projetos, talvez você queira formar um comitê de direção. Um comitê de direção é responsável por conduzir decisões, fornecer supervisão estratégica, dar suporte às iniciativas do projeto e, quando necessário, remover bloqueadores. Você pode encontrar mais informações sobre a implementação de um comitê de direção no guia [do comitê de direção.](./envision-steering-committee-complete-guide.md)
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão | <ul><li>Who as pessoas certas para servir como sua equipe de stakeholders para este projeto?</li></ul> |
 | ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Considere o escopo do seu projeto e atribua as partes interessadas relevantes.</li><li>Use a tabela a seguir como uma diretriz, mas observe que essa lista não é inclusiva.<br><strong>Dica</strong><br>Crie uma matriz [raci (raci)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) informada por responsabilidade para distinguir ainda mais aqueles que serão responsabilizados daqueles que simplesmente precisam ser mantidos informados em uma área específica do projeto.</li> |
@@ -63,7 +63,7 @@ Opcionalmente, você pode criar um comitê de direção. Às vezes, projetos gra
 | Líder de telefonia | Fornece informações sobre o design e a implementação de telefonia |
 | Proprietário/Defensor de Qualidade do Serviço | Possui a operação de Teams all-up, incluindo a qualidade da experiência do usuário |
 | Desktop and Devices Lead | Fornece entrada em clientes, dispositivos e aplicativos de área de trabalho |
-| Administrador Pro/administrador de locatários | Garante que a preparação da rede e Microsoft 365 configurações do centro de administração estão no local |
+| Administrador Pro/administrador de locatários | Garante que a preparação da rede e Centro de administração do Microsoft 365 configurações estão no local |
 | Líder de suporte/suporte técnico | Gerencia a preparação da sua mesa de suporte |
 | Change Management Lead | Supervisiona o programa de gerenciamento e adoção de alterações do usuário |
 | Líder de marketing | Projeta e implementa campanhas de comunicação |

@@ -229,13 +229,13 @@ items:
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-              - name: Desabilitar híbrido para completar a migração para Teams Apenas
+              - name: Desabilitar híbrido para completar a migração para ApenasTeams
                 items:
-                  - name: Desabilitar híbrido para completar a migração para Teams Apenas
+                  - name: Desabilitar híbrido para completar a migração para ApenasTeams
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: Atualizar entradas DNS
                     ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
-                  - name: Decidir como gerenciar atributos após o encerramento
+                  - name: Decidir como gerenciar os atributos após o encerramento
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: Mover pontos de extremidade do aplicativo para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
@@ -565,14 +565,14 @@ items:
         href: set-up-your-team-hierarchy.md
       - name: Conversa supervisionada para locatários não-educacionais
         href: supervised-chat-non-edu.md
-  - name: 'Reuniões, conferências e eventos ao vivo'
+  - name: Reuniões e audioconferência
     items:
-      - name: Início rápido – reuniões e eventos ao vivo
-        href: quick-start-meetings-live-events.md
-      - name: Planejar sua implantação
+      - name: Planejar implantação
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: Reuniões
+      - name: 'Reuniões, seminários via web e eventos ao vivo'
         items:
+          - name: Início rápido
+            href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
               - name: Visão Geral
@@ -599,42 +599,58 @@ items:
             href: meeting-settings-in-teams.md
           - name: Emails enviados para os usuários quando suas configurações são alteradas
             href: emails-sent-to-users-when-their-settings-change-in-teams.md
-          - name: Permitir que os usuários gravem seus nomes ao ingressar de uma reunião
-            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-          - name: Ativar ou desativar anúncios de entrada e de saída em reuniões
-            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-          - name: Usar a tecnologia de NDI® no Teams
-            href: use-NDI-in-meetings.md
-          - name: Opção para levantar sua mão em reuniões no Teams
-            href: raise-hand-meetings.md
-          - name: Reuniões do Teams em navegadores sem suporte
-            href: unsupported-browsers.md
-          - name: Configurar o compartilhamento da área de trabalho no Teams
-            href: configure-desktop-sharing.md
-          - name: Gravação de reuniões na nuvem do Microsoft Teams
-            href: cloud-recording.md
-          - name: Usar o OneDrive for Business e o Microsoft Office SharePoint Online ou o Stream para gravações de reunião
-            href: tmr-meeting-recording-change.md
-          - name: Integração com o Central de Contatos
-            href: teams-contact-center.md
-          - name: Usar o suplemento de Reunião do Teams no Outlook
-            href: teams-add-in-for-outlook.md
-          - name: Configurar o Aplicativos de Reuniões do Skype para trabalhar com o Teams
-            href: configure-skype-meetings-app-to-work-with-teams.md
-          - name: Configurar o recurso Telefonar para Mim para os usuários
-            href: set-up-the-call-me-feature-for-your-users.md
-          - name: Obter um relatório de participação na reunião
-            href: teams-analytics-and-reports/meeting-attendance-report.md
-          - name: Configurando o Serviço de Migração de Reunião (MMS)
+          - name: Gerenciar reuniões e recursos de reunião
+            items:
+              - name: Permitir que os usuários gravem seus nomes ao ingressar de uma reunião
+                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+              - name: Ativar ou desativar anúncios de entrada e de saída em reuniões
+                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+              - name: Usar a tecnologia de NDI® no Teams
+                href: use-NDI-in-meetings.md
+              - name: Reuniões do Teams em navegadores sem suporte
+                href: unsupported-browsers.md
+              - name: Configurar o compartilhamento da área de trabalho no Teams
+                href: configure-desktop-sharing.md
+              - name: Gravação de reuniões na nuvem do Microsoft Teams
+                href: cloud-recording.md
+              - name: Usar o OneDrive for Business e o Microsoft Office SharePoint Online ou o Stream para gravações de reunião
+                href: tmr-meeting-recording-change.md
+              - name: Integração com o Central de Contatos
+                href: teams-contact-center.md
+              - name: Usar o suplemento de Reunião do Teams no Outlook
+                href: teams-add-in-for-outlook.md
+              - name: Configurar o Aplicativos de Reuniões do Skype para trabalhar com o Teams
+                href: configure-skype-meetings-app-to-work-with-teams.md
+              - name: Configurar o recurso Telefonar para Mim para os usuários
+                href: set-up-the-call-me-feature-for-your-users.md
+              - name: Obter um relatório de participação na reunião
+                href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: Gerencie o quadro de comunicações no Teams
+                href: manage-whiteboard.md
+              - name: Configurar o complemento de reunião do Teams para uso no Google Workspace
+                href: google-workspace-addon-teams.md
+              - name: Interoperabilidade de Vídeo em Nuvem
+                href: cloud-video-interop.md
+              - name: Experiência de reunião somente para visualização
+                href: view-only-meeting-experience.md
+          - name: Configurar o Serviço de Migração de Reunião (SMR)
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Gerencie o quadro de comunicações no Teams
-            href: manage-whiteboard.md
-          - name: Configurar o complemento de reunião do Teams para uso no Google Workspace
-            href: google-workspace-addon-teams.md
-          - name: Interoperabilidade de Vídeo em Nuvem
-            href: cloud-video-interop.md
-          - name: Preparar-se para webinars no Microsoft Teams
+          - name: Configuração para webinars no Microsoft Teams
             href: set-up-webinars.md
+          - name: Eventos ao vivo
+            items:
+              - name: O que são os eventos ao vivo do Teams?
+                href: teams-live-events/what-are-teams-live-events.md
+              - name: Planejar eventos ao vivo do Teams
+                href: teams-live-events/plan-for-teams-live-events.md
+              - name: Configurar eventos ao vivo do Teams
+                href: teams-live-events/set-up-for-teams-live-events.md
+              - name: Usar o Windows PowerShell para definir políticas de eventos ao vivo do Teams
+                href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+              - name: Definir configurações de eventos ao vivo do Teams
+                href: teams-live-events/configure-teams-live-events.md
+              - name: Políticas de gravação de eventos ao vivo
+                href: teams-live-events/live-events-recording-policies.md
       - name: Audioconferência
         items:
           - name: Planejar sua implantação
@@ -725,20 +741,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: Vídeos - Audioconferência no Teams
                 href: ./audio-conferencing-in-office-365.md
-      - name: Eventos ao vivo
-        items:
-          - name: O que são os eventos ao vivo do Teams?
-            href: teams-live-events/what-are-teams-live-events.md
-          - name: Planejar eventos ao vivo do Teams
-            href: teams-live-events/plan-for-teams-live-events.md
-          - name: Configurar eventos ao vivo do Teams
-            href: teams-live-events/set-up-for-teams-live-events.md
-          - name: Usar o Windows PowerShell para definir políticas de eventos ao vivo do Teams
-            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-          - name: Definir configurações de eventos ao vivo do Teams
-            href: teams-live-events/configure-teams-live-events.md
-          - name: Políticas de gravação de eventos ao vivo
-            href: teams-live-events/live-events-recording-policies.md
       - name: Salas do Microsoft Teams
         items:
           - name: Visão geral

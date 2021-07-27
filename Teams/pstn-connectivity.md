@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Saiba mais sobre Teams opções de chamada (conectividade PSTN) e as decisões que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b1b06178b269529b1d0227ff02d529c91ba1480
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: 57327c408331acb3deb4d2269d87a2a30de13a75
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354510"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486251"
 ---
 # <a name="pstn-connectivity-options"></a>Opções de conectividade PSTN
 
@@ -41,9 +41,10 @@ Para conectar Sistema de Telefonia ao PSTN, você pode escolher entre as seguint
 
 - [**Plano de Chamada**](#phone-system-with-calling-plan). Uma solução completa na nuvem com a Microsoft como operadora PSTN.
 
+- [**Operador Conexão**](#phone-system-with-operator-connect), que está disponível atualmente apenas na **visualização pública.**  Com o Conexão operador, se sua operadora existente for participante do programa Conexão microsoft operator, eles poderão gerenciar a chamada PSTN e os Controladores de Borda de Sessão (SBCs). 
+
 - [**Roteamento**](#phone-system-with-direct-routing)Direto , que permite que você use sua própria operadora PSTN conectando seus Controladores de Borda de Sessão (SBC) a Sistema de Telefonia.
 
-- [**Operador Conexão**](#phone-system-with-operator-connect), que está disponível atualmente apenas na **visualização pública.**  Com o Conexão operador, se sua operadora existente for participante do programa Conexão microsoft operator, eles poderão gerenciar a chamada PSTN e os Controladores de Borda de Sessão (SBCs). 
 
 Você também pode escolher uma combinação de opções, que permite projetar uma solução para um ambiente complexo ou gerenciar uma migração em várias etapas.
 
@@ -78,6 +79,19 @@ Para obter mais informações sobre o Plano de Chamada, consulte os seguintes ar
 - [Como comprar um plano de chamadas](calling-plans-for-office-365.md)
 - [Disponibilidade de país e região do Plano de chamadas](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Configurar Plano de Chamada](set-up-calling-plans.md)
+
+
+## <a name="phone-system-with-operator-connect"></a>Sistema de Telefonia com operador Conexão
+
+Com o Conexão operador, atualmente em visualização pública, se sua operadora existente for participante do programa de Conexão do Microsoft Operator, eles poderão gerenciar o serviço para trazer a chamada PSTN para Teams. Sua operadora gerencia os serviços de chamada PSTN e controladores de borda de sessão (SBCs), permitindo que você salve na compra e gerenciamento de hardware.
+
+O Conexão operador pode ser a solução certa para sua organização se:
+
+- O Plano de Chamada da Microsoft não está disponível em sua localização geográfica.
+- Sua operadora preferencial é participante do programa Conexão Microsoft Operator.
+- Você deseja encontrar uma nova operadora para habilitar a chamada no Teams.
+
+Para obter informações sobre os benefícios e requisitos do Operador Conexão e para obter uma lista de operadoras participantes deste programa, consulte [Plan Operator Conexão](operator-connect-plan.md). Para obter informações sobre como configurar o operador Conexão, consulte [Configure Operator Conexão](operator-connect-configure.md).
 
 
 ## <a name="phone-system-with-direct-routing"></a>Sistema de Telefonia com Roteamento Direto
@@ -121,23 +135,21 @@ Para obter mais informações sobre Roteamento Direto, consulte os seguintes art
 - [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
 
 
-## <a name="phone-system-with-operator-connect"></a>Sistema de Telefonia com operador Conexão
-
-Com o Conexão operador, atualmente em visualização pública, se sua operadora existente for participante do programa de Conexão do Microsoft Operator, eles poderão gerenciar o serviço para trazer a chamada PSTN para Teams. Sua operadora gerencia os serviços de chamada PSTN e controladores de borda de sessão (SBCs), permitindo que você salve na compra e gerenciamento de hardware.
-
-O Conexão operador pode ser a solução certa para sua organização se:
-
-- O Plano de Chamada da Microsoft não está disponível em sua localização geográfica.
-- Sua operadora preferencial é participante do programa Conexão Microsoft Operator.
-- Você deseja encontrar uma nova operadora para habilitar a chamada no Teams.
-
-Para obter informações sobre os benefícios e requisitos do Operador Conexão e para obter uma lista de operadoras participantes deste programa, consulte [Plan Operator Conexão](operator-connect-plan.md). Para obter informações sobre como configurar o operador Conexão, consulte [Configure Operator Conexão](operator-connect-configure.md).
 
 ## <a name="configuration-considerations"></a>Considerações sobre configuração
 
 A maioria Sistema de Telefonia recursos são os mesmos, independentemente da opção de conectividade PSTN escolhida. Por exemplo, as configurações de chamada sem resposta e encaminhamento, transferência de chamada, música personalizada em espera, estacionamento de chamadas, linha compartilhada e aplicativos de voz estão disponíveis. Para obter uma lista completa de Sistema de Telefonia recursos, consulte Aqui está [o que você obter com Sistema de Telefonia](here-s-what-you-get-with-phone-system.md).
 
 No entanto, há algumas diferenças na funcionalidade que afetam a forma como você configura determinados Sistema de Telefonia recursos. Por exemplo, o Roteamento Direto exige etapas adicionais para configurar o roteamento de chamadas. Como outro exemplo, o Roteamento Direto fornece o Roteamento Baseado em Local (LBR), para que você possa restringir o desvio de chamada de chamada em determinados locais geográficos onde ele não é permitido. 
+
+A tabela a seguir destaca as principais diferenças de configuração. As seções que seguem a tabela fornecem links para mais informações e detalhes.
+
+| Opção | Descrição | Telefone gerenciamento de números | Roteamento de chamadas | Disponibilidade de chamada de emergência |
+| :------------| :-------| :-------| :-------| :-------| 
+| Planos de Chamadas | -A Microsoft atua como operadora PSTN.<br>-Você não precisa comprar ou gerenciar SBCs.| Obtido por meio da Microsoft.| -Gerenciado pela Microsoft. <br> -O administrador configura os planos de discagem do usuário para conversão de números. | -Habilitado pela Microsoft. <br> -O administrador registra endereços. <br> -Chamada dinâmica suportada. |
+| Operador Conexão | -Carrier gerencia conectividade PSTN e SBCs. <br> -Você não precisa comprar ou gerenciar SBCs. | -Obtido por meio de operadora. <br> - Números associados a endereços de emergência gerenciados pela operadora.  | -Gerenciado por operadora. <br>-O administrador configura os planos de discagem do usuário para conversão de números. | -Habilitado por operadora. <br> -O administrador registra endereços. <br> -Chamada dinâmica suportada. |
+| Roteamento Direto | -Requer SBC certificado comprado de fornecedor de terceiros.<br>-Conexão seu SBC para Sistema de Telefonia.<br> -Use sua operadora PSTN existente. | Obtido por meio da operadora. | -Requer configuração extra por administrador.<br>-O administrador configura planos de discagem de tronco para conversão de número. <br>-LBR disponível para restringir o desvio de chamada. | -Requer configuração extra por administrador. <br>-Endereços registrados não são suportados. <br>-A chamada dinâmica é suportada, mas requer configuração adicional. |
+|||||
 
 
 ### <a name="phone-number-management"></a>Telefone gerenciamento de números
@@ -154,9 +166,9 @@ A forma como você adquire e gerencia números de telefone difere dependendo da 
 
 - Para obter informações sobre como gerenciar números de telefone para o Plano de Chamadas, consulte [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- Para obter informações sobre como gerenciar números de telefone para Roteamento Direto, consulte [Configure the phone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
-
 - Para obter informações sobre como gerenciar números de telefone com operador Conexão, consulte Configurar números de telefone [com operador Conexão](operator-connect-configure.md#set-up-phone-numbers).
+
+- Para obter informações sobre como gerenciar números de telefone para Roteamento Direto, consulte [Configure the phone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
 
 ### <a name="call-routing-and-dial-plans"></a>Roteamento de chamadas e planos de discagem
@@ -165,9 +177,9 @@ A forma como você configura o roteamento de chamadas difere dependendo da sua o
 
 - Para Planos de Chamadas, a maior parte do roteamento de chamadas é manipulada pela infraestrutura do Plano de Chamadas da Microsoft. Configure os planos de discagem do usuário para fins de conversão de número para autorização de chamada e roteamento de chamadas. Para obter mais informações, consulte [O que são planos de discagem?](what-are-dial-plans.md).
 
-- Para Roteamento Direto, você deve configurar o roteamento de chamadas especificando as rotas de voz e atribuindo políticas de roteamento de voz aos usuários. Você pode configurar planos de discagem para conversão de número no nível do tronco para garantir a interoperabilidade com controladores de borda de sessão (SBCs). Para obter mais informações, consulte [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), Manage voice routing [policies](manage-voice-routing-policies.md) and Translate [phone numbers](direct-routing-translate-numbers.md). 
-
 - Para operador Conexão, a maior parte do roteamento de chamadas é gerenciada pela operadora.  Configure os planos de discagem do usuário para fins de conversão de número para autorização de chamada e roteamento de chamadas. Para obter mais informações, consulte [O que são planos de discagem?](what-are-dial-plans.md).
+
+- Para Roteamento Direto, você deve configurar o roteamento de chamadas especificando as rotas de voz e atribuindo políticas de roteamento de voz aos usuários. Você pode configurar planos de discagem para conversão de número no nível do tronco para garantir a interoperabilidade com controladores de borda de sessão (SBCs). Para obter mais informações, consulte [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), Manage voice routing [policies](manage-voice-routing-policies.md) and Translate [phone numbers](direct-routing-translate-numbers.md). 
 
 
 ### <a name="location-based-routing-for-direct-routing"></a>Location-Based roteamento para roteamento direto
@@ -187,9 +199,9 @@ A forma como você configura a chamada de emergência difere dependendo da sua o
 
 - Para o Plano de Chamadas, cada usuário é automaticamente habilitado para chamadas de emergência e é necessário ter um endereço de emergência registrado associado ao número de telefone atribuído. A chamada de emergência dinâmica (com base no local do Teams cliente) é suportada.  
 
-- Para Roteamento Direto Teams, você deve definir políticas de chamadas de emergência para usuários usando uma política de roteamento de chamadas de emergência (TeamsEmergencyCallRoutingPolicy) para definir números de emergência e seu destino de roteamento associado. Locais de emergência registrados não são suportados para usuários de Roteamento Direto. Para chamadas de emergência dinâmicas, a configuração adicional é necessária para roteamento de chamadas de emergência e, possivelmente, para conectividade do parceiro.
-
 - Para operador Conexão, cada usuário é automaticamente habilitado para chamadas de emergência e é necessário ter um endereço de emergência registrado associado ao número de telefone atribuído, mas só pode ser definido pelo parceiro de operadora. A chamada de emergência dinâmica (com base no local do Teams cliente) é suportada.
+
+- Para Roteamento Direto Teams, você deve definir políticas de chamadas de emergência para usuários usando uma política de roteamento de chamadas de emergência (TeamsEmergencyCallRoutingPolicy) para definir números de emergência e seu destino de roteamento associado. Locais de emergência registrados não são suportados para usuários de Roteamento Direto. Para chamadas de emergência dinâmicas, a configuração adicional é necessária para roteamento de chamadas de emergência e, possivelmente, para conectividade do parceiro.
 
 Para obter mais informações sobre conceitos e terminologia de chamada de emergência e como configurar a chamada de emergência e a chamada de emergência dinâmica, consulte os seguintes artigos:
 
