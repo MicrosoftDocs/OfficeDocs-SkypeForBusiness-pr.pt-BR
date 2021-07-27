@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
-ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
+ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
+ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53479048"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463294"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Início rápido - reuniões, seminários via web e eventos ao vivo 
 
@@ -42,7 +42,8 @@ Este artigo, destinado a administradores e profissionais de TI, descreve sucinta
 
 Os diferentes tipos de reuniões também possuem diferentes limites de participantes e recursos de participantes. 
 
-A tabela a seguir resume brevemente os três tipos de reuniões, o número de participantes recomendados, e como os participantes podem interagir na reunião. Mais informações sobre cada tipo de reunião seguem a tabela. <br><br>
+A tabela a seguir resume brevemente os três tipos de reuniões, o número de participantes recomendados, e como os participantes podem interagir na reunião. Mais informações sobre cada tipo de reunião seguem na tabela.
+<br><br>
 
 | Tipo de reunião | Número de participantes | Interação | Registro com suporte |
 |----------|--------|--------|-----|
@@ -53,7 +54,7 @@ A tabela a seguir resume brevemente os três tipos de reuniões, o número de pa
 
 *Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2021.<br>
 
-**Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2021. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance). 
+**Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2021. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](https://docs.microsoft.com/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](https://docs.microsoft.com/stream/live-events-assistance). 
 
 Para obter a melhor experiência em grandes reuniões, a Microsoft recomenda usar o cliente da área de trabalho do Teams ou os clientes com dispositivos móveis do Teams. Os apresentadores em grandes reuniões devem usar o cliente da área de trabalho do Teams. Para obter mais dicas sobre como sediar grandes reuniões, consulte [Práticas recomendadas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
@@ -140,7 +141,7 @@ Para produzir eventos virtuais de maior escala, examine o[Guia de Eventos Virtua
 
 ## <a name="apps-for-meetings"></a>Preparação para reuniões
 
-A Microsoft permite que você aprimora as experiências de reunião integrando e usando aplicativos de reunião. Por exemplo, a integração do quadro de comunicações nas reuniões do Teams é ativada pelo aplicativo web Whiteboard, que permite aos participantes das reuniões do Teams desenhem, esbocem e escrevam juntos em uma tela digital compartilhada.
+A Microsoft permite que você aprimore as experiências de reunião integrando e usando aplicativos de reunião. Por exemplo, a integração do quadro de comunicações nas reuniões do Teams é alimentada pelo aplicativo da Web Quadro de Comunicações, o qual permite que os participantes das reuniões do Teams desenhem, esbocem e escrevam juntos em uma tela digital compartilhada.
 
 Você pode adicionar aplicativos de reuniões à implantação do seu Teams usando os aplicativos fornecidos com o Teams, usando aplicativos e modelos certificados de terceiros e criando seus próprios aplicativos personalizados. 
 
