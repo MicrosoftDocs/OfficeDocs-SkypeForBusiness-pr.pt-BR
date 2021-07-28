@@ -293,6 +293,8 @@ items:
             href: legal-hold.md
           - name: Pesquisa de conteúdo
             href: content-search.md
+          - name: Fluxo de trabalho de equipes em Descoberta Eletrônica Avançada
+            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Auditoria
             href: audit-log-events.md
           - name: Chave de cliente
@@ -899,7 +901,13 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: Disponibilidade de países e regiões para Planos de Chamadas
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Roteamento Direto do Sistema de Telefonia
+          - name: Conexão do Operador
+            items:
+              - name: Plano para a Conexão do Operador
+                href: operator-connect-plan.md
+              - name: Configurar a Conexão do Operador
+                href: operator-connect-configure.md
+          - name: Roteamento Direto
             items:
               - name: Visão Geral
                 href: direct-routing-landing-page.md
@@ -975,12 +983,6 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: Dispositivo de Ramificação de Roteamento Direto Sobrevivente
                     href: direct-routing-survivable-branch-appliance.md
-          - name: Conexão do Operador
-            items:
-              - name: Plano para a Conexão do Operador
-                href: operator-connect-plan.md
-              - name: Configurar a Conexão do Operador
-                href: operator-connect-configure.md
       - name: Telefones
         items:
           - name: Gerenciar números de telefone para sua organização
