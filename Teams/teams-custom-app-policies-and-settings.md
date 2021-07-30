@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: e89a7aa3a2d016551695406551068cd07a2042e6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3a45e2e4616b952dd7aa5cd2218e52a7f8f92d5c
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119210"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646072"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 
@@ -117,6 +117,7 @@ A **configuração** Permitir interação com aplicativos [](manage-apps.md) per
 Esta tabela resume a política e as configurações personalizadas do aplicativo, como eles trabalham juntos e seu efeito combinado no controle de quem em sua organização pode carregar aplicativos personalizados para Teams.
 
 Por exemplo, você deseja permitir que apenas proprietários de equipe carreguem aplicativos personalizados para equipes específicas. Você definiria o seguinte:
+
 - A opção Permitir **interação com aplicativos personalizados** no Microsoft Teams de administração.
 - Desativar o **Permitir que os membros carreguem aplicativos personalizados** para cada equipe à qual você deseja restringir o acesso.
 - Crie e atribua uma política de configuração de  aplicativo personalizada no centro de administração Microsoft Teams com a configuração de aplicativos personalizados Upload e atribua-a aos proprietários da equipe.
@@ -133,7 +134,7 @@ Por exemplo, você deseja permitir que apenas proprietários de equipe carreguem
 | Habilitado    | Habilitado        | Habilitado        | O usuário pode carregar aplicativos personalizados para a equipe, independentemente de o usuário ser um proprietário da equipe. O usuário pode carregar aplicativos personalizados no contexto pessoal.       |
 
 ## <a name="related-topics"></a>Tópicos relacionados
- 
+
 [Configurações de administrador para aplicativos no Teams](admin-settings.md)
 
-[Atribua políticas a seus usuários no Teams](assign-policies.md)
+[Atribua políticas a seus usuários no Teams](assign-policies-users-and-groups.md)

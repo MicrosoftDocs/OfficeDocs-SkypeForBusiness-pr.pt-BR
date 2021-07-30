@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Saiba como configurar Telefones de Área Comum para lobbies, áreas de recepção e salas de conferência '
-ms.openlocfilehash: bb17b21eac262c160abc3e16a4b552fb32b97d00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d04b1262c88a2600e2167cbaf5498672983cb0b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117109"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646212"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
@@ -40,7 +40,7 @@ Primeiro, você precisa comprar uma licença de área comum Telefone (CAP) e gar
 
 ## <a name="step-1---buy-the-licenses"></a>Etapa 1 - Compre as licenças
 
-1. No centro Microsoft 365 de administração, vá para **Cobrança** Serviços de Compra e  >   **expanda Outros planos**.
+1. Na Centro de administração do Microsoft 365, vá para **Cobrança**  >  **Serviços de Compra** e, em seguida, **expanda Outros planos**.
 
     ![Captura de tela mostrando o Telefone área comum](media/set-up-common-area-phone-image1.png)
 
@@ -61,7 +61,7 @@ Para obter mais informações sobre licenças, [consulte Microsoft Teams licenci
 A licença área comum Telefone suporta: 
 
 
-|   |  Telefone de Área Comum  |
+| &nbsp;  |  Telefone de Área Comum  |
 |---------|---------|
 |Skype for Business |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
@@ -80,7 +80,7 @@ A licença área comum Telefone suporta:
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Etapa 2 - Criar uma nova conta de usuário para o telefone e atribuir as licenças
 
-1. No centro de Microsoft 365 de administração, vá para **usuários**  >  **ativos**  >  **adicionar um usuário**.
+1. No Centro de administração do Microsoft 365, vá para usuários  >  **ativos**  >  **adicionar um usuário**.
 
 2. Insira um nome de usuário como "Main" para o primeiro nome e "Recepção" para o segundo nome.
 
@@ -92,7 +92,7 @@ A licença área comum Telefone suporta:
 
 6. Atribua as licenças ao usuário. Na mesma página, clique para expandir as **Licenças de produto**. A turn on the Common Area Telefone e pick either a **Domestic Calling Plan** or a Domestic and International Calling **Plan**. 
 
-    ![Captura de tela mostrando atribuição de licença](media/set-up-common-area-phone-image2.png)
+    ![Captura de tela mostrando a atribuição de licença com plano de chamada doméstica e opções de plano doméstico e internacional realçadas](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > Se você estiver usando Telefone Microsoft Roteamento Direto do Sistema, não será necessário atribuir uma licença de Plano de Chamadas.
@@ -113,7 +113,7 @@ Use o Teams de administração para atribuir um número ao usuário.
 
 6. Clique em **Salvar** e seu usuário ficará assim:
 
-   ![Captura de tela mostrando atribuição de licença](media/set-up-common-area-phone-image3.png)
+   ![Captura de tela mostra atribuição de licença de usuário de exemplo](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > Os usuários só aparecerão se eles têm uma Sistema de Telefonia aplicada. Quando fizer isso, pode levar um tempo para que o usuário apareça na lista.

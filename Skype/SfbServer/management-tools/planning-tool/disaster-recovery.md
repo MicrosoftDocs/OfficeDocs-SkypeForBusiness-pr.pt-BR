@@ -1,5 +1,5 @@
 ---
-title: Disaster Recovery (Planning Tool)
+title: Ferramenta de planejamento de recuperação de desastres
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,18 +13,18 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: O Skype for Business Server 2015 inclui medidas de recuperação de desastres, permitindo que você emparelhe pools de Front-End localizados em dois data centers.
-ms.openlocfilehash: e1137b339c9b49002242428917143283940748a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server 2015 inclui medidas de recuperação de desastres habilitando o emparelhamento de pools front-end localizados em dois data centers.
+ms.openlocfilehash: 7e6c0084f424de781c42d4afaebdb827627ed280
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834921"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646062"
 ---
-# <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)
+# <a name="disaster-recovery-planning-tool"></a>Ferramenta de planejamento de recuperação de desastres
  
-O Skype for Business Server 2015 inclui medidas de recuperação de desastres, permitindo que você emparelhe pools de Front-End localizados em dois data centers.
+Skype for Business Server 2015 inclui medidas de recuperação de desastres permitindo que você emparelhe pools de Front-End localizados em dois data centers.
   
-Para obter detalhes sobre como preparar seu ambiente para recuperação de desastres, consulte [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+Para obter detalhes sobre como preparar seu ambiente para recuperação de desastres, consulte [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 

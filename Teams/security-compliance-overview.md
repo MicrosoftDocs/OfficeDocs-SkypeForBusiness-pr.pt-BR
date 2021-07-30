@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfa593aaeabe8d7aab9446a1070134b267ea6ef4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4a4c9097c4111ecd7f224bb268f6d90434569c9a
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107607"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646392"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Segurança e conformidade em Microsoft Teams
 
@@ -67,11 +67,11 @@ Como o conteúdo afetado é gerenciado após a detecção é de acordo com as co
 
 ### <a name="safe-links"></a>Cofre Links
 
-Embora, no momento, os links seguros da Proteção Avançada contra Ameaças (ATP) [](/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) não estão disponíveis no Microsoft Teams, eles agora estão em visualização pública por meio do nosso Programa de Adoção de Tecnologia (TAP) e, embora uma data de lançamento para disponibilidade geral não seja definida, atualizaremos este artigo quando essa hora chegar. Enquanto isso, para obter informações sobre Microsoft 365 ou Office 365 Cofre Links, consulte [ATP Cofre Links](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection). Os Cofre ATP estão disponíveis no Plano [1 da ATP e no Plano ATP 2](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide).
+Embora, no momento, os links seguros da Proteção Avançada contra Ameaças (ATP) [](/microsoft-365/security/office-365-security/atp-safe-links-for-teams) não estão disponíveis no Microsoft Teams, eles agora estão em visualização pública por meio do nosso Programa de Adoção de Tecnologia (TAP) e, embora uma data de lançamento para disponibilidade geral não seja definida, atualizaremos este artigo quando essa hora chegar. Enquanto isso, para obter informações sobre Microsoft 365 ou Office 365 Cofre Links, consulte [ATP Cofre Links](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection). Os Cofre ATP estão disponíveis no Plano [1 da ATP e no Plano ATP 2](/microsoft-365/security/office-365-security/office-365-atp).
 
 ### <a name="safe-attachments"></a>Cofre Anexos
 
-Cofre anexos é um recurso projetado para aprimorar a segurança do usuário verificando e detectando anexos mal-intencionados. Administradores globais ou [](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) de segurança criam políticas para lidar com esses anexos mal-intencionados suspeitos para impedir que eles são enviados aos usuários, clicados e agidos. Cofre proteção de anexos está disponível para SharePoint, OneDrive e Microsoft Teams e Microsoft 365 ou Office 365 Plano [1](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) e 2 de Proteção Avançada contra Ameaças 1 e 2 têm essa funcionalidade. Leia mais sobre Cofre anexos e como eles podem ajudar a proteger sua organização em Cofre [Anexos](/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)no Microsoft Defender para Office 365 .
+Cofre anexos é um recurso projetado para aprimorar a segurança do usuário verificando e detectando anexos mal-intencionados. Administradores globais ou [](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies) de segurança criam políticas para lidar com esses anexos mal-intencionados suspeitos para impedir que eles são enviados aos usuários, clicados e agidos. Cofre proteção de anexos está disponível para SharePoint, OneDrive e Microsoft Teams e Microsoft 365 ou Office 365 Plano [1](/microsoft-365/security/office-365-security/office-365-atp) e 2 de Proteção Avançada contra Ameaças 1 e 2 têm essa funcionalidade. Leia mais sobre Cofre anexos e como eles podem ajudar a proteger sua organização em Cofre [Anexos](/microsoft-365/security/office-365-security/atp-safe-attachments)no Microsoft Defender para Office 365 .
 
 ### <a name="secure-score"></a>Pontuação Segura
 
@@ -95,7 +95,7 @@ Microsoft Teams aplicativo da área de trabalho oferece suporte ao AppLocker.  P
 
 ## <a name="compliance"></a>Conformidade
 
-Teams tem uma ampla variedade de informações para ajudá-lo com áreas de conformidade, incluindo conformidade de comunicação para canais, chats e anexos, políticas de retenção, Proteção contra Perda de Dados (DLP), Descoberta e retenção legal para canais, chats e arquivos, pesquisa de log de auditoria, bem como gerenciamento de aplicativos móveis com Microsoft Intune. Fornecemos algumas informações sobre todos esses tópicos abaixo e você pode ir até o centro de conformidade Microsoft 365 [para](https://compliance.microsoft.com) gerenciar essas configurações.
+Teams tem uma ampla variedade de informações para ajudá-lo com áreas de conformidade, incluindo conformidade de comunicação para canais, chats e anexos, políticas de retenção, Proteção contra Perda de Dados (DLP), Descoberta e retenção legal para canais, chats e arquivos, pesquisa de log de auditoria, bem como gerenciamento de aplicativos móveis com Microsoft Intune. Fornecemos algumas informações sobre todos esses tópicos abaixo e você pode ir para o Centro de conformidade do Microsoft 365 [gerenciar](https://compliance.microsoft.com) essas configurações.
 
 ### <a name="information-barriers"></a>Barreiras de informações
 
@@ -121,7 +121,7 @@ A prevenção contra perda de dados (DLP) no Microsoft Teams, bem como a histór
 
 Para obter informações sobre Prevenção contra Perda de Dados Teams, consulte [DLP para Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams). Um bom artigo para as preocupações de DLP do O365 é [Visão geral da prevenção contra perda de dados.](/microsoft-365/compliance/data-loss-prevention-policies)
 
-### <a name="ediscovery"></a>Descoberta eletrônica
+### <a name="ediscovery"></a>Descoberta Eletrônica
 
 A descoberta eletrônica, ou Descoberta Eletrônica, é o aspecto eletrônico de identificar, coletar e produzir informações armazenadas eletronicamente (ESI) em resposta a uma solicitação de produção em uma ação de lei ou investigação. Os recursos incluem gerenciamento de caso, preservação, pesquisa, análise e exportação de Teams dados. Isso inclui chat, mensagens e arquivos, resumos de reuniões e de chamada. Para Teams reuniões e chamadas, um resumo dos eventos que aconteceram na reunião e na chamada são criados e disponibilizados na Descoberta EDiscovery.
 
@@ -135,7 +135,7 @@ Temos um Teams específico para obter mais informações, [Descoberta eDiscovery
 
 Os clientes podem aproveitar a Descoberta Advanced eDiscovery de [acordo](/microsoft-365/compliance/office-365-advanced-ediscovery) com seus requisitos. As diferenças entre os dois estão destacadas na tabela a seguir:
 
-| |Descoberta eletrônica  |Advanced eDiscovery  |
+|&nbsp; |Descoberta Eletrônica  |Advanced eDiscovery  |
 |---------|---------|---------|
 |Gestão de casos     |X        |X         |
 |Controle de acesso  |X         |X         |
@@ -155,11 +155,11 @@ Durante o litígio, você pode precisar que todos os dados associados a um usuá
 
 Em ambos os casos, uma vez definida a isenção, ela garante que, mesmo que os usuários finais excluam ou editem mensagens de canal que estão na caixa de correio do grupo, cópias imutáveis desse conteúdo são mantidas e disponíveis por meio da pesquisa de Descoberta Eletrônico. Os ressamentos legais geralmente são aplicados no contexto de um caso de Descoberta e.
 
-Consulte [Overview of retention policies](/microsoft-365/compliance/retention-policies) to understand more about preservation and holds in the Microsoft 365 compliance center. Para obter Teams informações específicas sobre a responsabilidade legal, também temos [Place a](legal-hold.md) Microsoft Teams usuário ou equipe em espera legal para que você saiba mais.
+Consulte [Overview of retention policies](/microsoft-365/compliance/retention-policies) to understand more about preservation and holds in the Centro de conformidade do Microsoft 365. Para obter Teams informações específicas sobre a responsabilidade legal, também temos [Place a](legal-hold.md) Microsoft Teams usuário ou equipe em espera legal para que você saiba mais.
 
 ### <a name="compliance-content-search"></a>Pesquisa de conteúdo de conformidade
 
-A pesquisa de conteúdo pode ser usada para pesquisar todos os Teams dados por meio de recursos avançados de filtragem. Os dados resultantes podem ser exportados para um contêiner específico para suporte a conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade reúnam Teams dados em todos os usuários, revisem e exportem-os para processamento posterior. Consulte a [Pesquisa](/microsoft-365/compliance/content-search) de Conteúdo para saber mais sobre como conduzir uma pesquisa de conteúdo de conformidade para Microsoft Teams e outros Microsoft 365 ou Office 365 conteúdo no centro de conformidade Microsoft 365 de conformidade.
+A pesquisa de conteúdo pode ser usada para pesquisar todos os Teams dados por meio de recursos avançados de filtragem. Os dados resultantes podem ser exportados para um contêiner específico para suporte a conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade reúnam Teams dados em todos os usuários, revisem e exportem-os para processamento posterior. Consulte a [Pesquisa](/microsoft-365/compliance/content-search) de Conteúdo para saber mais sobre como conduzir uma pesquisa de conteúdo de conformidade para Microsoft Teams e outros Microsoft 365 ou Office 365 conteúdo no Centro de conformidade do Microsoft 365.
 
 > [!TIP]
 > Usando a pesquisa de conteúdo, você pode filtrar para Microsoft Teams somente conteúdo, como Chat e Mensagens de Canal, Reuniões e Chamadas, se necessário.
@@ -168,7 +168,7 @@ Se você quiser mais informações Teams específicas sobre como configurar a pe
 
 ### <a name="auditing-and-reporting"></a>Auditoria e relatórios
 
-A pesquisa de log de auditoria conecta-se ao centro de conformidade do Microsoft 365 e oferece a capacidade de definir alertas, bem como relatar eventos de auditoria, permitindo a exportação de conjuntos de eventos específicos ou genéricos de carga de trabalho para uso do administrador e investigação em uma linha do tempo de auditoria ilimitada. Você pode configurar alertas para todos os dados de log de auditoria no centro de conformidade Microsoft 365 e filtrar e exportar esses dados para análise posterior. Consulte Pesquisar [o log de auditoria](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para saber mais sobre como conduzir uma pesquisa de log de auditoria para Microsoft 365 ou Office 365. Para saber mais sobre como pesquisar Microsoft Teams eventos no centro de conformidade do Microsoft 365, também temos Ativar a auditoria no Teams [para](audit-log-events.md) você analisar.
+A pesquisa de log de auditoria conecta-se ao Centro de conformidade do Microsoft 365 e oferece a você a capacidade de definir alertas, bem como relatar eventos de auditoria, permitindo a exportação de conjuntos de eventos específicos ou genéricos de carga de trabalho para uso do administrador e investigação em uma linha do tempo de auditoria ilimitada. Você pode configurar alertas para todos os dados de log de auditoria no Centro de conformidade do Microsoft 365 e filtrar e exportar esses dados para análise posterior. Consulte Pesquisar [o log de auditoria](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para saber mais sobre como conduzir uma pesquisa de log de auditoria para Microsoft 365 ou Office 365. Para saber mais sobre como pesquisar Microsoft Teams eventos no Centro de conformidade do Microsoft 365, também temos a auditoria Ativar em Teams [para](audit-log-events.md) você analisar.
 
 ## <a name="customer-key"></a>Chave do Cliente
 
@@ -179,8 +179,8 @@ Usando a Chave do Cliente no nível do locatário, a Chave do Cliente criptograf
 - Teams de mídia (imagens, trechos de código, vídeos e imagens wiki)
 - Teams de chamada e reuniões armazenadas no Teams armazenamento
 - Teams de chat
-- Teams sugestões de chat da Cortana
-- Teams de status Para obter mais informações, consulte [Overview of Customer Key for Microsoft 365](/microsoft-365/compliance/customer-key-tenant-level) in the tenant level and read the Microsoft Teams blog that covers Customer Key support for Microsoft Teams now in Public [Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). Para obter informações sobre a versão da Proteção de Informações da Microsoft que incluía a Chave do Cliente no nível do locatário, leia Anunciando novos recursos da Proteção de Informações da Microsoft para saber e proteger [seus dados confidenciais.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)
+- Teams sugestões de chat por Cortana
+- Teams de status Para obter mais informações, consulte [Overview of Customer Key for Microsoft 365](/microsoft-365/compliance/customer-key-tenant-level) in the tenant level and read the Microsoft Teams blog that covers Customer Key support for Microsoft Teams now in Public [Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). Para obter informações sobre Proteção de Informações da Microsoft que incluíam a Chave do Cliente no nível do locatário, leia Anunciando novos recursos Proteção de Informações da Microsoft para saber e proteger [seus dados confidenciais.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)
 
 ## <a name="privacy"></a>Privacidade
 
@@ -218,7 +218,7 @@ Para obter informações sobre como determinar as necessidades de licenciamento 
 
 No Teams, os dados são armazenados na região geográfica associada à sua organização do Microsoft 365 ou do Office 365. Para ver quais regiões têm suporte no momento, consulte [Local dos dados em Microsoft Teams](location-of-data-in-teams.md).
 
-Se você precisar ver qual região abriga dados para seu locatário, vá para o Microsoft 365 [de](https://portal.office.com/adminportal/home)administração  >  **Configurações** Perfil  >  **da Organização.** Role para baixo até **Localização de dados**.
+Se você precisar ver qual região abriga dados para seu locatário, vá para [o](https://portal.office.com/adminportal/home)perfil Centro de administração do Microsoft 365  >  **Configurações**  >  **Organização.** Role para baixo até **Localização de dados**.
 
 > [!div class="mx-imgBorder"]
 > ![Captura de tela da tabela de localização de dados, incluindo Teams no centro de administração](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)

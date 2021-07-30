@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI para exibir Atendedor Automático dados históricos da Fila de Chamada.
-ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd6214871a471341ed2d3836e72c5f729e3f6a9f
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111507"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660689"
 ---
 # <a name="what-are-the-requirements"></a>Quais são os requisitos? 
 Você precisa ter Power BI Desktop instalado. Você pode instalá-lo no [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
@@ -98,7 +98,7 @@ Execute estas etapas:
 |Atendedor Automático hora de início da cadeia         |datetime                 |Hora de início da cadeia de AA                    |
 |Atendedor Automático De pesquisa de diretório  |string                   |Método de pesquisa do Livro de Endereços Últimos        |
 |Atendedor Automático Ação de Transferência          |string                   |Tipo de destino de transferência de chamada<br>Valores possíveis:<br>§ desconhecido - tipo de entidade não foi especificado<br>§ user - entidade do usuário<br>§ orgaa - Entidade Atendedor Automático organizacional<br>§ hunt_group - Entidade fila de chamada<br>§ application - entidade de aplicativo de voz<br>§ external_pstn - entidade PSTN externa<br>§ shared_voicemail - entidade de caixa postal compartilhada|
-|Atendedor Automático Resultado da Chamada              |string                   |Resultado da chamada:<br>§ desconhecido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|Atendedor Automático Resultado da Chamada              |string                   |Resultado da chamada:<br>§ desconhecido - Falha na configuração ou transferência de chamada e o serviço não recebeu nenhum motivo significativo de falha <br>§ transferred_to_user - Chamada transferida para um usuário por meio de Dial By Name/Extension ou Opção de Menu configurada <br>§ transferred_to_operator - A chamada foi transferida para um operador configurado, por exemplo, se o AA estiver configurado com um operador para o pós-horário <br>§ failover_to_operator - Fallback para operador quando a transferência falhar ou o reconhecimento de nome não funcionar após três tentativas<br>§ user_terminated - O chamador terminou a chamada <br>§ service_declined - Chamada recusada pelo serviço, isso pode acontecer se o serviço não conseguir buscar Atendedor Automático configuração <br>§ service_terminated - o serviço back-end terminou a chamada, possivelmente se uma transferência para o destino falhar e nenhum operador for configurado como um fallback <br>§ failed_to_establish_media - Falha no estabelecimento de mídia entre o chamador e o serviço <br>§ terminated_no_operator - Falha no reconhecimento de nome após três tentativas e nenhum operador está configurado <br>§ terminated_transfer_failed - Falha na transferência para destino e nenhum operador está configurado <br>§ terminated_automatic_selection - Se nenhuma ação for configurada durante ou após o horário, a chamada será encerrada por padrão <br>§ transferred_to_shared_voicemail - Chamada transferida para caixa postal compartilhada se configurada como destino <br>§ oaa_chain_too_long - Quando uma cadeia de Atendedor Automático exceder cinco Atendimentos Automáticos em sucessão, a chamada será encerrada para evitar possíveis loops de chamada <br>§ oaa_session_too_long - A chamada excedeu o comprimento máximo de sessão permitida e o tempo limite foi ultrapassado |
 |Atendedor Automático chamada Flow                |string                   |Encapsula os diferentes estados de Atendedor Automático Call<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ comunicado|
 |Está Atendedor Automático envolvido              |Boolean                  |Indicado se a AA está envolvida na chamada |
 |Atendedor Automático contagem de ações do chamador      |int                      |Contagem da ação usada pelo chamador         |

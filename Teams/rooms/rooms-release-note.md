@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796845"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646872"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 
 |Versão |Publicado para <br/> Microsoft Store |
 |--- |--- |
+|4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
@@ -74,6 +75,15 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas do Microsoft Teams introdução de recursos e resolução de problemas
 
+### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
+
+Introduzido nesta atualização:
+- Microsoft Teams modo somente agora está disponível nas configurações do aplicativo, portanto, você não precisa mais configurar uma conta Skype for Business usuário. Nesse modo, os dispositivos conectados Teams somente o modo Skype for Business reuniões como um usuário convidado.
+- Correção para áudio HDMI causando menor volume de chamada. O recurso de áudio HDMI é habilitado automaticamente para todos os dispositivos com build de aplicativo 4.9.12.0.
+
+> [!NOTE]
+> Com Skype for Business chegar ao fim da vida útil, é recomendável atualizar para Teams modo somente.
+
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
 Introduzido nesta atualização:
@@ -110,12 +120,12 @@ Introduzido nesta atualização:
 Introduzido nesta atualização:
 
 - Compartilhar áudio HDMI para participantes de reunião em Teams reunião
-- Habilidades de voz da Cortana (Visualização)
+- Cortana de voz (Visualização)
 - Impedir o deslocamento com base em permissões de áudio quando Teams Room ingressar como participante. Para obter mais informações, consulte [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Destaque o vídeo de alguém do console Teams Room e consuma vídeo com destaque em exibições de sala
 
 > [!NOTE]
-> As habilidades de voz da Cortana estão disponíveis para selecionar periféricos de áudio para locatários localizados nos Estados Unidos. Países ou regiões adicionais serão adicionados no futuro. Para obter mais informações, consulte Assistência de voz da [Cortana em Teams](../cortana-in-teams.md)
+> Cortana habilidades de voz estão disponíveis para periféricos de áudio selecionados para locatários localizados nos Estados Unidos. Países ou regiões adicionais serão adicionados no futuro. Para obter mais informações, [consulte Cortana de voz no Teams](../cortana-in-teams.md)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
@@ -195,7 +205,7 @@ Introduzido nesta atualização:
 
 - Uma correção para um problema de resizing/cintilação de janela que é visto em determinadas configurações
 - Processamento de calendário para reuniões de terceiros removidas
-- Configuração de status da Cortana removida
+- Cortana configuração de status removida
 
 ### <a name="43230-12132019"></a>4.3.23.0 (12/13/2019)
 

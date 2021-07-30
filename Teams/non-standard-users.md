@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23551c102ec8fc0684a979bf85717a02d82e5142
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 046a8f08db43062586230c5d7016ebb117027398
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096265"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646862"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicativos para usuários não padrão
 
@@ -43,7 +43,7 @@ Este artigo descreve como os aplicativos no Teams se comportam quando usuários 
 
 Os convidados não podem instalar, atualizar ou excluir aplicativos em um contexto compartilhado, como chat, canal ou reunião, mas podem usar extensões de mensagens e links diretos. Os convidados não têm acesso ao Teams de aplicativos do Teams da área de trabalho, mas podem acessá-lo com um link direto.
 
-### <a name="usage-behavior-and-policy-for-guest-users"></a>Comportamento e política de uso para usuários convidados 
+### <a name="usage-behavior-and-policy-for-guest-users"></a>Comportamento e política de uso para usuários convidados
 
 Os convidados podem usar um aplicativo se o aplicativo foi instalado por um usuário nativo.
 
@@ -83,3 +83,7 @@ Os usuários anônimos não podem instalar, atualizar ou excluir aplicativos em 
 Os usuários anônimos não podem usar aplicativos diretamente em reuniões. Os usuários nativos podem continuar a usar aplicativos de reuniões se os usuários anônimos estão presentes. Se um aplicativo enviar um cartão adaptável no chat, os usuários anônimos poderão interagir com o cartão. Para obter mais informações, leia [Permitir que usuários anônimos participem de reuniões.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
 Os usuários anônimos herdarão a política de permissão padrão global no nível do usuário. Eles podem interagir com aplicativos Teams reuniões se a política de permissão no nível do usuário habilitar o aplicativo. Os usuários anônimos só podem interagir com aplicativos que já estão disponíveis em uma reunião e não podem adquirir e/ou gerenciar esses aplicativos.
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Gerenciar políticas de configuração de aplicativo no Microsoft Teams](teams-app-setup-policies.md)

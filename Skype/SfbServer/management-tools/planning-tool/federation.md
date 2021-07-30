@@ -1,5 +1,5 @@
 ---
-title: Federação (Ferramenta de Planejamento)
+title: Ferramenta de planejamento de federação
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,21 +13,21 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
-description: Os Servidores de Borda podem ser configurados para permitir que seus usuários internos e externos acessem contatos em organizações ou serviços parceiros.
-ms.openlocfilehash: 0ca870518bc373a251f9db5a4255f8f55f1cf4b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Você pode configurar Servidores de Borda para permitir que seus usuários internos e externos acessem contatos em organizações ou serviços parceiros.
+ms.openlocfilehash: d0f7526a8cbe2822bbbf6350ced81ca16063cfb7
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095175"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646282"
 ---
-# <a name="federation-planning-tool"></a>Federação (Ferramenta de Planejamento)
+# <a name="federation-planning-tool"></a>Ferramenta de planejamento de federação
  
 Os Servidores de Borda podem ser configurados para permitir que seus usuários internos e externos acessem contatos em organizações ou serviços parceiros.
   
  A federação funciona como era para o Microsoft Lync 2013. Para obter mais detalhes sobre como preparar seu ambiente para Federação, consulte os seguintes tópicos:
   
-- [Planejamento do Lync Server 2013 e federação do Office Communications Server](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
+- [Planejamento do Lync Server 2013 e federação Office Communications Server](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
     
 - [Planejamento para conectividade de mensagens instantâneas públicas no Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-public-instant-messaging-connectivity)
     

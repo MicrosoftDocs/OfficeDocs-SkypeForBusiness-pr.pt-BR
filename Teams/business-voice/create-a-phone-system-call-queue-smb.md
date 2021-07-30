@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar filas de chamada para pequenas empresas em Microsoft 365 Business Voice.
-ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: 0e0f6dde164f270987d4b01c6bc3528f8799a662
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126917"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646482"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
 
@@ -87,7 +87,9 @@ Para adicionar um canal
 
 1. Em Teams, encontre a equipe que você acabou de criar, clique em **Mais opções** (...) e clique em **Adicionar canal**.
 
-2. Digite um nome e uma descrição para o canal e clique em **Adicionar**.
+2. Digite um nome e uma descrição para o canal.
+
+3. Em **Privacidade**, escolha **Padrão - Acessível a todos na equipe** e clique em **Adicionar**.
 
 > [!div class="nextstepaction"]
 > [Etapa 2 - Contas de recursos >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
@@ -122,7 +124,7 @@ Você deve atribuir uma *Microsoft 365 Sistema de Telefonia - Licença de usuár
 
 2. Na guia **Licenças e Aplicativos,** em **Licenças,** selecione **Microsoft 365 Sistema de Telefonia - Usuário Virtual**.
 
-3. Clique **em Salvar alterações**.
+3. Clique em **Salvar alterações**.
 
     ![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
 

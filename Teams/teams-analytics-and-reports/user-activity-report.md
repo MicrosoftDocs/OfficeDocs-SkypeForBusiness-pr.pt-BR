@@ -17,12 +17,12 @@ description: Saiba como usar o relatório Teams atividade do usuário no centro 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 071b5eaa37cd2b6a5d353b2f0309a338d28ce971
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 13d2d261358fc5c373304c46b48684d1f116fc06
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669233"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646052"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 
@@ -42,7 +42,7 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 
-|Texto Explicativo |Descrição  |
+| Texto Explicativo |Descrição  |
 |--------|-------------|
 |**1**   |O Teams de atividades do usuário pode ser exibido para tendências nos últimos 7, 30 ou 90 dias. |
 |**2**   |Cada relatório tem uma data de geração. Os relatórios geralmente refletem uma latência de 24 horas do tempo de atividade. |
@@ -60,9 +60,9 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 
 Para tornar os dados Teams relatório de atividades do usuário anônimos, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e ID do AAD no relatório e sua exportação.
 
-1. No Microsoft 365 de administração, vá para a **Configurações** \> **Org Configurações** e, em  Serviços, escolha **Relatórios**.
+1. Em Centro de administração do Microsoft 365, vá para **a** Configurações \> **Org Configurações** e, em **Serviços,** escolha **Relatórios**.
     
-2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos.** Essa configuração é aplicada aos relatórios de uso no Microsoft 365 de administração e Teams de administração.
+2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos.** Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365 e Teams de administração.
   
 3. Selecione **Salvar alterações**.
 

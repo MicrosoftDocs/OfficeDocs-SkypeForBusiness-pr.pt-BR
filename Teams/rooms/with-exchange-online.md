@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar Salas do Microsoft Teams com Exchange Online e Skype for Business Server local.
-ms.openlocfilehash: 2f92f85ddf39c5e1a813492b3092eeeef9b77e4c
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 6684173df916b268b35061c735614188e1d58e40
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796675"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646242"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implantar as Salas do Microsoft Teams com o Exchange Online
 
@@ -37,7 +37,7 @@ Antes de implantar Salas do Microsoft Teams com Exchange Online, certifique-se d
 Para implantar Salas do Microsoft Teams com Exchange Online, siga as etapas abaixo. Verifique se você tem as permissões apropriadas para executar os cmdlets associados. 
 
    > [!NOTE]
-   >  O módulo Azure Active Directory para [cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) Windows PowerShell nesta seção (por exemplo, Set-MsolUser) foi testado na configuração de contas para Salas do Microsoft Teams dispositivos. É possível que outros cmdlets funcionem, no entanto, eles não foram testados neste cenário específico.
+   >  O módulo Azure Active Directory para [cmdlets](/powershell/azure/active-directory/overview) Windows PowerShell nesta seção (por exemplo, Set-MsolUser) foi testado na configuração de contas para Salas do Microsoft Teams dispositivos. É possível que outros cmdlets funcionem, no entanto, eles não foram testados neste cenário específico.
 
 Se você implantou os Serviços de Federação do Active Directory (AD FS), talvez seja necessário converter a conta de usuário em um usuário gerenciado antes de seguir essas etapas e converter o usuário de volta em um usuário federado depois de concluir essas etapas.
   
@@ -84,14 +84,14 @@ Se você implantou os Serviços de Federação do Active Directory (AD FS), talv
     > Selecionar **Senha nunca expira é** um requisito para Skype for Business Server no Salas do Microsoft Teams. As regras do domínio podem proibir senhas que não expiram. Em caso afirmado, você precisará criar uma exceção para cada Salas do Microsoft Teams de usuário.
   
 4. Clique em **Concluir** para criar a conta.
-5. Depois de criar a conta, execute uma sincronização de diretório. Isso pode ser feito usando [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) no PowerShell. Quando isso for concluído, vá para a página usuários e verifique se as duas contas criadas nas etapas anteriores foram mescladas.
+5. Depois de criar a conta, execute uma sincronização de diretório. Isso pode ser feito usando [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) no PowerShell. Quando isso for concluído, vá para a página usuários e verifique se as duas contas criadas nas etapas anteriores foram mescladas.
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Atribuir uma Microsoft 365 ou Office 365 licença
 
-1. Primeiro, conecte-se ao Azure AD para aplicar algumas configurações de conta. Você poderá executar este cmdlet para se conectar. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
+1. Primeiro, conecte-se ao Azure AD para aplicar algumas configurações de conta. Você poderá executar este cmdlet para se conectar. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview).
 
    > [!NOTE]
-   > Azure Active Directory não há suporte para o [PowerShell 2.0.](/powershell/azure/active-directory/overview?view=azureadps-2.0)
+   > Azure Active Directory não há suporte para o [PowerShell 2.0.](/powershell/azure/active-directory/overview)
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -122,17 +122,17 @@ Se você implantou os Serviços de Federação do Active Directory (AD FS), talv
 
 1. Crie uma sessão Windows PowerShell remota de um computador da seguinte forma:
 
-> [!NOTE]
-> O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams.
->
-> Se você estiver usando a versão pública mais [recente Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o conector Skype for Business Online.
+   > [!NOTE]
+   > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams.
+   >
+   > Se você estiver usando a versão pública mais [recente Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o conector Skype for Business Online.
 
-    ``` Powershell
-    # When using Teams PowerShell Module
-    Import-Module MicrosoftTeams
-    $credential = Get-Credential
-    Connect-MicrosoftTeams -Credential $credential
-    ```
+   ``` Powershell
+   # When using Teams PowerShell Module
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
 
 2. Para habilitar sua Salas do Microsoft Teams para Skype for Business Server, execute este comando:
 
@@ -151,7 +151,7 @@ Se você implantou os Serviços de Federação do Active Directory (AD FS), talv
 > [!NOTE]
 > Se você estiver configurando uma Salas do Teams apenas para participar Microsoft Teams reuniões, não será necessário fazer as etapas a seguir. As etapas a seguir só serão necessárias se você quiser habilitar o suporte para Skype for Business.
 
-1. Faça logoff como administrador de locatário, abra o Microsoft 365 de administração e clique no aplicativo Administrador.
+1. Faça logoff como administrador de locatário, abra o Centro de administração do Microsoft 365 e clique no aplicativo Administrador.
 2. Clique em **Usuários e Grupos** e clique em **Adicionar usuários, redefinir senhas e muito mais**.
 3. Clique na Salas do Microsoft Teams e clique no ícone de caneta para editar as informações da conta.
 4. Clique em **Licenças**.

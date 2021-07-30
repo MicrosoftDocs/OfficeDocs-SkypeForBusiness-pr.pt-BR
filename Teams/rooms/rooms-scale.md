@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 2348d0f3e9d94aed80494155fbaab8288ddd97a6
-ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
+ms.openlocfilehash: 1dabc8e4b3f2e238945bf68fdbad73cebebd7fd5
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51410107"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646672"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implantar Salas do Microsoft Teams usando Microsoft Endpoint Configuration Manager
 
@@ -709,8 +709,7 @@ Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e p
 
 12. Selecione **Fechar**.
 
-<a name="validate-and-troubleshoot-the-solution"></a>Validar e solucionar problemas da solução
---------------------------------------
+**Validar e solucionar problemas da solução**
 
 Depois de concluir as Microsoft Endpoint Configuration Manager de tarefas, você precisará executar uma execução de teste para validar se a sequência de tarefas pode implantar e configurar Salas do Microsoft Teams unidades.
 

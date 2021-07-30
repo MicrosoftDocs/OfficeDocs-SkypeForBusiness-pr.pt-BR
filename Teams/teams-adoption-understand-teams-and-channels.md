@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae3efe06e36c653069c06127c98f228fb25cac37
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6daa5391e90c1931e7de1e3008c41782b0b22976
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831201"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646822"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Compreender as equipes e os canais no Microsoft Teams
 
@@ -39,7 +39,7 @@ Os conceitos de equipes e canais são fundamentais para uma implementação prod
 Para ler mais sobre equipes e canais, consulte [Visão geral das equipes e](teams-channels-overview.md)canais em Microsoft Teams . Para obter orientações Teams de adoção abrangentes, receba o [guia Teams adoção.](https://aka.ms/teamstoolkit) Para saber mais sobre Teams e Microsoft 365 Grupos, consulte [Microsoft 365 Grupos](office-365-groups.md) e Microsoft Teams e Saiba mais sobre Microsoft 365 [Grupos](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
-|  |  |
+| &nbsp; |&nbsp;  |
 |---------|---------|
 | Exibir este vídeo curto   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 

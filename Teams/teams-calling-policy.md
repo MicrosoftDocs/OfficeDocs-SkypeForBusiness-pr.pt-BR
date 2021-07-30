@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 061573176da10c48dc5cbee72a49f22eb4994c09
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53596615"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53661878"
 ---
 #  <a name="calling-and-call-forwarding-in-teams"></a>Chamada e encaminhamento de chamada no Teams
 
@@ -79,11 +79,11 @@ Essa configuração permite que as chamadas de entrada sejam enviadas para a cai
 - **Desabilitado**  A caixa postal não está disponível para chamadas de entrada.
 - **Controlado pelo usuário** Os usuários podem determinar se querem que a caixa postal seja disponibilizada.
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Chamadas de entrada podem ser roteados para grupos de chamadas 
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Chamadas de entrada podem ser roteados para grupos de chamadas
 
 Essa configuração controla se as chamadas de entrada podem ser encaminhadas para um grupo de chamadas.
 
-### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Permitir delegação para chamadas de entrada e saída
+### <a name="delegation-for-inbound-and-outbound-calls"></a>Delegação para chamadas de entrada e saída
 
 Essa configuração permite que as chamadas de entrada sejam roteados para representantes, permitindo que os representantes façam chamadas de saída em nome dos usuários para os quais eles delegaram permissões. Para obter mais informações, [consulte Compartilhar uma linha telefônica com um representante](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
@@ -91,19 +91,23 @@ Essa configuração permite que as chamadas de entrada sejam roteados para repre
 
 Definir isso como **On** enviará chamadas por meio da PSTN e incorre em encargos em vez de enviá-las pela rede e ignorar os pedágios.
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a>Ocupado no Ocupado está disponível durante uma chamada
+### <a name="busy-on-busy-is-available-when-in-a-call"></a>O ocupado ocupado está disponível quando em uma chamada
 
-Ocupado em Ocupado (Opções de Ocupado) é uma nova configuração que permite configurar como as chamadas de entrada são tratadas quando um usuário já está em uma chamada ou conferência ou tem uma chamada colocada em espera. Chamadas novas ou de entrada podem ser rejeitadas com um sinal de ocupado ou podem ser roteadas de acordo com as configurações sem resposta do usuário. Você pode habilitar opções de ocupado no nível do locatário ou no nível do usuário. Independentemente de como suas opções de ocupado estão configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos de iniciar novas chamadas ou conferências. Essa configuração está desabilitada por padrão.
+Ocupado em Ocupado (Opções de Ocupado) permite configurar como as chamadas de entrada são tratadas quando um usuário já está em uma chamada ou conferência ou tem uma chamada em espera. Chamadas novas ou de entrada podem ser rejeitadas com um sinal de ocupado ou podem ser roteadas de acordo com as configurações sem resposta do usuário. Você pode habilitar opções de ocupado no nível do locatário ou no nível do usuário. Independentemente de como suas opções de ocupado estão configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos de iniciar novas chamadas ou conferências. Essa configuração está desabilitada por padrão.
 
-### <a name="allow-web-pstn-calling"></a>Permitir chamada PSTN web
+### <a name="web-pstn-calling"></a>Web PSTN calling
 
 Essa configuração permite que os usuários chamem números PSTN usando o Teams web.
+
+### <a name="incoming-meeting-invites-are-automatically-answered"></a>Os convites de reunião de entrada são atendidos automaticamente
+
+Essa configuração controla se os convites de reunião de entrada são atendidos automaticamente. Ela está desativada por padrão. Lembre-se de que essa configuração se aplica somente a convites de reunião de entrada. Não se aplica a outros tipos de chamadas.
 
 ### <a name="allow-music-on-hold"></a>Permitir música em espera
 
 Essa configuração permite ativar ou desativar a música em espera quando um chamador PSTN é colocado em espera. Ele está ligado por padrão. Essa configuração não se aplica aos recursos de estacionamento de chamada e representante de chefe e está disponível apenas por meio do PowerShell.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 

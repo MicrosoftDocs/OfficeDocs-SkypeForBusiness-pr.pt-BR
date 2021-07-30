@@ -18,15 +18,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9c975bf4a3f2253dbc99230f85b48a9ae9cd0d65
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0d70dbe5b8dd41fd15bb911d7977728dad7d7599
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107187"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646852"
 ---
-<a name="use-activity-reports-for-microsoft-teams"></a>Usar relatórios de atividades do Microsoft Teams 
-========================================
+# <a name="use-activity-reports-for-microsoft-teams"></a>Usar relatórios de atividades do Microsoft Teams 
 
 Você pode usar relatórios de atividades no centro de administração do Microsoft 365 para ver como os usuários da sua organização estão usando o Microsoft Teams. Por exemplo, se alguns ainda não Microsoft Teams, talvez não saibam como começar ou entender como podem usar o Teams para serem mais produtivos e colaborativos. A organização pode usar os relatórios de atividades para decidir onde priorizar os esforços de treinamento e comunicação.
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Este artigo explica as considerações de planejamento relevantes para a implantação Salas do Microsoft Teams, a próxima geração de Skype Sistemas de Sala.
-ms.openlocfilehash: fae50e076467efdfe69115d967f3d6564ba9266a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726272"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646982"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar Salas do Microsoft Teams
 
@@ -56,7 +56,7 @@ Normalmente, os pacotes e unidades integradas incluem software pré-instalado, e
 
 Você pode implantar Salas do Microsoft Teams com Microsoft Teams, Skype for Business Online ou Skype for Business implantações híbridas ou locais.  Consulte a [atualização Teams Sala de Reunião licenciamento](rooms-licensing.md) para obter informações sobre as licenças necessárias.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![decidir implantação](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você implantará Salas do Microsoft Teams em sua organização? </li><li>Como você obterá seus sistemas Salas do Microsoft Teams , empacotados, como componentes separados ou como uma unidade integrada?</li></ul> |
 | ![identificar atividades](../media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Identifique quem realizará as principais atividades em toda a sua implantação.</li><li>Revise as salas de reunião que você tem (e planeje a configuração) para entender onde você deseja implantar Salas do Microsoft Teams e os dispositivos periféricos que seriam apropriados para o tamanho da sala.</li></ul> |
@@ -94,7 +94,7 @@ Depois de criar um inventário dos equipamentos e recursos em cada sala existent
 
 Como parte da descoberta, é fundamental considerar a acústico e o layout da sala. Por exemplo, verifique se as cadeiras na sala não bloquearão a exibição da câmera. Verifique se a sala não tem eco excessivo ou ar condicionado barulhento e se ela tem energia suficiente para as telas e Salas do Microsoft Teams. Há muitos fatores a considerar que sua equipe ou parceiro audiovisual (AV) poderá aconselhá-lo. 
 
-|    |     |
+| &nbsp;   | &nbsp;    |
 |-----------|------------|
 | ![Salas de deplyment](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Revise as salas no escopo e defina Salas do Microsoft Teams configurações para elas.</li></ul>|
 
@@ -115,7 +115,7 @@ Com base no fornecedor que você preferir, use as informações fornecidas no ar
 
 **Pro Dica** – Alguns tipos de sala podem não ser aplicáveis à sua implantação.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![salas no escopo](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>No inventário, quais tipos de salas estão no escopo da implantação?</li><li>Quais sistemas você implantará para cada tipo de sala?</li></ul>|
 | ![coletar material](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a coletar material operacional de chave para seus sistemas escolhidos e envolva sua equipe de compras.</li></ul>|
@@ -139,7 +139,7 @@ Você pode adquirir Salas do Microsoft Teams de vários parceiros listados no ar
 
 Dependendo da escala e da abordagem de implantação, você pode decidir ter os dispositivos periféricos Salas do Microsoft Teams e com suporte enviados para um local central para configuração inicial e atribuição. Essa pode ser uma boa abordagem para uma aplicação em estágios em vários sites. Ou você pode optar por enviar os pacotes diretamente para seus sites. 
 
-|    |     |
+|   &nbsp; |  &nbsp;   |
 |-----------|------------|
 | ![componentes de ship](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você enviará os componentes diretamente para um site ou para uma instalação de preparação?</li><li>Who gerenciará a instalação de preparação (se você decidir usar um)?</li></ul>|
 | ![plan operations](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Planejar operações.</li><li>Planejar a adoção e gerenciamento de alterações.</li></ul>|
@@ -152,7 +152,7 @@ Muitas organizações têm uma equipe av ou parceiro que gerencia suas salas de 
 
 Considere qual fila de ajuda você roteiará Salas do Microsoft Teams Salas do Microsoft Teams</DICT__Salas⚐do⚐Microsoft⚐Teams> e as principais etapas de solução de problemas que podem ser tomadas. Um bom ponto de partida para essa perguntas frequentes é a [ajuda do usuário](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) e problemas [conhecidos.](known-issues.md)
 
-|    |     |
+|  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![escolher gerente](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quem gerenciará Salas do Microsoft Teams.</li><li>Decida para qual fila do helpdesk rotear Salas do Microsoft Teams chamadas relacionadas.</li></ul>|
 | ![preparar contas host](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Prepare-se para hospedar contas. </li></ul>|

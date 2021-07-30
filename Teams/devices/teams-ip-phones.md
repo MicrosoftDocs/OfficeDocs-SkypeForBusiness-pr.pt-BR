@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: b531f6bb3a6a097f1480b3bcbfc938cdf20a8ec4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510342"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646222"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -129,8 +129,8 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo        | Versão do firmware     | Versão incluída do produto  |
 |:--------------------|:---------------------|:-------------------------|
-| Poly Trio C60   | 7.0.3.0342  | Atualização 2021 #2                        |
-| Poly CCX400/CCX500/CCX600   | 7.0.3.0347 | Atualização 2021 #2                     |
+| Poly Trio C60   | 7.0.3.0517  | Atualização 2021 #2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | Atualização 2021 #2                     |
 | Códigos de áudio C448HD/C450HD/C470HD   | 1.10.143  | Atualização 2021 #2           |
 | Yealink T55/T56/T58   | 58.15.0.131  | Atualização 2021 #2                       |
 | Yealink VP59   | 91.15.0.63  | Atualização 2021 #2                               |
@@ -183,7 +183,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto |
 |:--------------|:-----------------|:-------------------------|
-| AudioCodes RXV80 |1.13.356   | Atualização 2021 #2 |
+| AudioCodes RXV80 |1.13.361   | Atualização 2021 #2 |
 | Yealink VC210 |118.15.0.54   | Atualização 2021 #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | Atualização 2021 #2    |
 | Yealink MeetingBar A30 | 133.15.0.60    | Atualização 2021 #2    |

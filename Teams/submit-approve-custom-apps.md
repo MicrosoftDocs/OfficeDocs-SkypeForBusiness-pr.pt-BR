@@ -17,16 +17,16 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como aprovar seus aplicativos personalizados enviados usando a API Teams envio de aplicativos em Microsoft Teams.
-ms.openlocfilehash: e544fdc12e17fc8917a2d3b9ce01dfc5985261de
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: 19d0378376e1abbc57d4a992a37c5c0286b9b29f
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337788"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646622"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado por meio da API Teams envio de aplicativos
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 > [!NOTE]
 > Quando você publica um aplicativo Teams personalizado, ele está disponível para usuários na loja de aplicativos da sua organização. Há duas maneiras de publicar um aplicativo personalizado e a maneira como você usa depende de como você obter o aplicativo. **Este artigo se concentra em como aprovar** e publicar um aplicativo personalizado que um desenvolvedor envia por meio da API Teams envio de aplicativos. O outro método, carregando um aplicativo personalizado, é usado quando um desenvolvedor envia um pacote de aplicativos .zip formato. Para saber mais sobre esse método, consulte <a href="/microsoftteams/upload-custom-apps" target="_blank">Publicar um aplicativo personalizado carregando um pacote de aplicativos</a>. O widget aprovar aplicativo não está disponível em GCC locatários. 
@@ -50,9 +50,9 @@ A Microsoft Teams de desenvolvedores facilita que os desenvolvedores integrem se
 
 ### <a name="submit-the-app"></a>Enviar o aplicativo
 
-Quando o aplicativo estiver pronto para uso em produção, o desenvolvedor poderá enviar o aplicativo usando Teams API de Envio de Aplicativos, que pode ser chamada a partir da <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">API Graph</a>, um ambiente de desenvolvimento integrado (IDE), como o Visual Studio Code, ou uma plataforma como Power Apps e Power Virtual Agents. Isso disponibiliza o aplicativo na <a href="/microsoftteams/manage-apps" target="_blank"></a> página Gerenciar aplicativos do centro de administração Microsoft Teams, onde você, o administrador, pode revisá-lo e aprove.this
+Quando o aplicativo estiver pronto para uso em produção, o desenvolvedor poderá enviar o aplicativo usando Teams API de Envio de Aplicativos, que pode ser chamada a partir da [API Graph](/graph/api/teamsapp-publish), um ambiente de desenvolvimento integrado (IDE), como o Visual Studio Code, ou uma plataforma como Power Apps e Power Virtual Agents. Isso disponibiliza o aplicativo na <a href="/microsoftteams/manage-apps" target="_blank"></a> página Gerenciar aplicativos do centro de administração Microsoft Teams, onde você, o administrador, pode revisá-lo e aprove.this
 
-A API de Envio de Aplicativo Teams, criada no <a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph</a>, permite que sua organização se desenvolva na plataforma de sua escolha e automatiza o processo de envio para aprovação para aplicativos personalizados no Teams.
+A API de Envio de Aplicativo Teams, criada no <a href="/graph/api/teamsapp-publish" target="_blank">Microsoft Graph</a>, permite que sua organização se desenvolva na plataforma de sua escolha e automatiza o processo de envio para aprovação para aplicativos personalizados no Teams.
 
 Aqui está um exemplo de como essa etapa de envio de aplicativo se parece Visual Studio Code:
 
@@ -60,7 +60,7 @@ Aqui está um exemplo de como essa etapa de envio de aplicativo se parece Visual
 
 Lembre-se de que isso ainda não publica o aplicativo na loja de aplicativos da sua organização. Esta etapa envia o aplicativo para o centro de administração Microsoft Teams local onde você pode aprove-lo para publicação na loja de aplicativos da sua organização.
 
-Para obter mais informações sobre como usar a API Graph para enviar aplicativos, <a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">consulte aqui</a>.
+Para obter mais informações sobre como usar a API Graph para enviar aplicativos, <a href="/graph/api/teamsapp-publish" target="_blank">consulte aqui</a>.
 
 ## <a name="validate"></a>Validar
 
@@ -74,7 +74,7 @@ Clique no nome do aplicativo para ir até a página de detalhes do aplicativo. N
 
 ![página de detalhes do aplicativo para um aplicativo enviado](media/custom-app-lifecycle-app-details.png)
 
-Para obter mais informações sobre como usar a API Graph para verificar o **status de** publicação, consulte <a href="/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">aqui</a>.
+Para obter mais informações sobre como usar a API Graph para verificar o **status de** publicação, consulte <a href="/graph/api/appcatalogs-list-teamsapps" target="_blank">aqui</a>.
 
 ## <a name="publish"></a>Publicar
 
@@ -132,7 +132,7 @@ Lembre-se do seguinte:
 - Quando um aplicativo é aprovado, qualquer um pode enviar uma atualização para o aplicativo. Isso significa que outros desenvolvedores, incluindo o desenvolvedor que originalmente enviou o aplicativo, podem enviar uma atualização para o aplicativo.
 - Quando um desenvolvedor envia um aplicativo e a solicitação está pendente, somente esse mesmo desenvolvedor pode enviar uma atualização para o aplicativo. Outros desenvolvedores só podem enviar uma atualização depois que o aplicativo for aprovado.
 
-Para obter mais informações sobre como usar a API Graph para atualizar aplicativos, <a href="/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">consulte aqui</a>.
+Para obter mais informações sobre como usar a API Graph para atualizar aplicativos, <a href="/graph/api/teamsapp-update">consulte aqui</a>.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -141,4 +141,4 @@ Para obter mais informações sobre como usar a API Graph para atualizar aplicat
 - [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)
 - [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)
 - [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">API Graph Microsoft para Teams aplicativos</a>
+- <a href="/graph/api/resources/teamsapp" target="_blank">API Graph Microsoft para Teams aplicativos</a>

@@ -1,5 +1,5 @@
 ---
-title: High Availability (Planning Tool)
+title: Ferramenta de panorâmico de alta disponibilidade
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,28 +13,28 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
-description: O principal esquema de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server 2015 baseia-se na redundância de servidor via pooling. Se um servidor executando uma certa função de servidor falha, os ouros servidores no pool executando a mesma função assumem a carga daquele servidor.
-ms.openlocfilehash: b50ccf145f1197531fe91218d2e99c8b0739c15c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: O principal esquema de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server 2015 se baseia na redundância do servidor por meio do pool. Se um servidor que executa uma determinada função de servidor falhar, os outros servidores no pool que executam a mesma função assumirão a carga desse servidor.
+ms.openlocfilehash: f1fd56d85b8770a617295db96b01e3566f45f743
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834741"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646442"
 ---
-# <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
+# <a name="high-availability-planning-tool"></a>Ferramenta de planejamento de alta disponibilidade
  
-O principal esquema de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server 2015 baseia-se na redundância de servidor via pooling. Se um servidor executando uma certa função de servidor falha, os ouros servidores no pool executando a mesma função assumem a carga daquele servidor.
+O principal esquema de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server 2015 se baseia na redundância do servidor por meio do pool. Se um servidor executando uma certa função de servidor falha, os ouros servidores no pool executando a mesma função assumem a carga daquele servidor.
   
-O Skype for Business Server 2015 requer pelo menos dois Servidores Front End para habilitar a alta disponibilidade. A Ferramenta de Planejamento usa os seguintes critérios para determinar se adicionará servidores extras para dar suporte à alta disponibilidade:
+Skype for Business Server 2015 requer pelo menos dois Servidores Front-End para habilitar alta disponibilidade. A Ferramenta de Planejamento usa os critérios a seguir para determinar se adicionará servidores extras para dar suporte à alta disponibilidade:
   
-- Se a implantação contiver dois ou mais Servidores Front-End, a Ferramenta de Planejamento não adicionará um servidor adicional.
+- Se a implantação contiver dois ou mais Servidores Front-End, a Ferramenta de Planejamento não adicionará um servidor extra.
     
-- Se a implantação contiver Servidor de Borda, um servidor adicional será adicionado. 
+- Se a implantação contiver o Servidor de Borda, outro servidor será adicionado. 
     
-- Se a implantação contiver Chat Persistente, a ferramenta de planejamento adicionará um servidor extra, mas não aumentará o número do pool. Por exemplo, se a implantação já contiver quatro servidores, a Ferramenta de Planejamento sugerirá a adição de um servidor adicional (para um total de cinco servidores), mas manterá um único pool. 
+- Se a implantação contiver Chat Persistente, a ferramenta de planejamento adicionará um servidor extra, mas não aumentará o número do pool. Por exemplo, se a implantação já contiver quatro servidores, a Ferramenta de Planejamento sugerirá adicionar outro servidor (para um total de cinco servidores), mas manterá um único pool. 
     
-A Ferramenta de Planejamento também adiciona um banco de dados SQL espelho para todos os bancos de dados. Por exemplo, se houver um banco de dados do SQL Server front-end, a Ferramenta de Planejamento adicionará o outro banco de dados como o banco de dados espelho para este e o chamará de "Banco de dados SQL espelho front-end."
+A Ferramenta de Planejamento também adiciona um banco de dados SQL espelho para todos os bancos de dados. Por exemplo, se houver um banco de dados de SQL Server front-end, a Ferramenta de Planejamento adicionará o outro banco de dados como o banco de dados espelho para este e o nomeará como o "banco de dados de espelho de front-end SQL.
   
-Para obter mais detalhes sobre como preparar seu ambiente para alta disponibilidade, consulte [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+Para obter mais informações sobre como preparar seu ambiente para alta disponibilidade, consulte [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 

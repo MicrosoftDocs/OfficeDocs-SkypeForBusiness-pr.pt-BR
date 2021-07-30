@@ -1,5 +1,5 @@
 ---
-title: Director (Planning Tool)
+title: Ferramenta de planejamento de diretores
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,22 +13,22 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: Um Diretor é um servidor que executa o software de comunicações do Skype for Business Server 2015 que pode autenticar solicitações de usuário, mas não tem contas de usuário.
-ms.openlocfilehash: 76315e9f63e1121119f3823187c379985c4914f0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Um Diretor é um servidor que executa Skype for Business Server software de comunicações 2015 que pode autenticar solicitações de usuário, mas não abriga nenhuma conta de usuário.
+ms.openlocfilehash: 964a86ee4959a56e88db054ff9229fbd4363e4fe
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834931"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646452"
 ---
-# <a name="director-planning-tool"></a>Director (Planning Tool)
+# <a name="director-planning-tool"></a>Ferramenta de planejamento de diretores
  
-Um Diretor é um servidor que executa o software de comunicações do Skype for Business Server 2015 que pode autenticar solicitações de usuário, mas não tem contas de usuário. 
+Um Diretor é um servidor que executa Skype for Business Server software de comunicações 2015 que pode autenticar solicitações de usuário, mas não tem contas de usuário. 
   
-Essa função é opcional, você pode optar por implantar um Diretor nos dois cenários a seguir:
+Essa função é opcional, você optaria por implantar um Diretor nos dois cenários a seguir:
   
-- Se você habilitar o acesso por usuários externos implantando Servidores de Borda, também deverá implantar um Diretor. Nesse cenário, o Diretor autentica os usuários externos e, em seguida, passa seu tráfego para servidores internos. Quando um Diretor é usado para autenticar usuários externos, libera os servidores do pool de Front End da sobrecarga de executar a autenticação desses usuários. Ele também ajuda a isolar pools de Front-End internos de tráfego mal-intencionado, como ataques de negação de serviço. Se a rede é preenchida com tráfego externo inválido em tal ataque, este tráfego termina no Diretor.
+- Se você habilitar o acesso por usuários convidados implantando Servidores de Borda, você também deve implantar um Diretor. Nesse cenário, o Diretor autentica os convidados e, em seguida, passa o tráfego para servidores internos. Quando um Diretor é usado para autenticar convidados, ele alivia os servidores de pool front-end da sobrecarga de autenticação desses usuários. Ele também ajuda a isolar pools front-end internos de tráfego mal-intencionado, como ataques de negação de serviço. Se a rede é preenchida com tráfego externo inválido em tal ataque, este tráfego termina no Diretor.
     
-- Se você implantar vários pools de Front-End em um site central, adicionando um Diretor a esse site, você poderá simplificar as solicitações de autenticação e melhorar o desempenho. Nesse cenário, todas as solicitações vão primeiro para o Diretor, que as encaminha para o pool de Front-End correto.
+- Se você implantar vários pools de Front-End em um site central, adicionando um Diretor a esse site, você pode simplificar as solicitações de autenticação e melhorar o desempenho. Nesse cenário, todas as solicitações vão primeiro para o Diretor, que as encaminha para o pool de Front-End correto.
     
 
