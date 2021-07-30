@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384c7d98dbbae5fa1c471130f8699c9c570c79ac
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 452fd19bdd89ced22a3e233fc851c52395e48e9b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536817"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646472"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
@@ -211,7 +211,7 @@ Os aplicativos são fixados na barra do aplicativo. Esta é a barra do lado do c
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>Criar a política de configuração do aplicativo do gerenciador de linha de frente
 
-As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Escolhemos algumas das opções recomendadas com base nas práticas recomendadas e para melhorar a facilidade de integrar novos usuários em escala. Para saber mais, clique [aqui](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
+As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Escolhemos algumas das opções recomendadas com base nas práticas recomendadas e para melhorar a facilidade de integrar novos usuários em escala. Para saber mais, clique [aqui](teams-app-setup-policies.md).
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de configuração**.
 2. Clique em  **Adicionar**.  
@@ -238,7 +238,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>Criar a política de configuração do aplicativo de trabalho da linha de frente
 
-As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Escolhemos algumas das opções recomendadas com base nas práticas recomendadas e para melhorar a facilidade de integrar novos usuários em escala. Para saber mais, clique [aqui](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
+As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Escolhemos algumas das opções recomendadas com base nas práticas recomendadas e para melhorar a facilidade de integrar novos usuários em escala. Para saber mais, clique [aqui](teams-app-setup-policies.md).
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de configuração**.
 2. Clique em  **Adicionar**.

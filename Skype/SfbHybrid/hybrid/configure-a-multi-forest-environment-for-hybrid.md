@@ -17,20 +17,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: As seções a seguir fornecem orientações sobre como configurar um ambiente com várias florestas em um modelo de floresta de recurso/usuário para fornecer Skype for Business funcionalidade em um cenário híbrido.
-ms.openlocfilehash: 38e41a2ae845120bbdc49419d47b264f69c0a5fe
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: As seções a seguir descrbiem como configurar um ambiente com várias florestas em um modelo de floresta de recurso/usuário para fornecer funcionalidade em um cenário híbrido.
+ms.openlocfilehash: 84014d7564265de5c2fb87ef91deb0ba291ccff0
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510692"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660719"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implantar uma topologia de floresta de recursos
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
  
-As seções a seguir fornecem orientações sobre como configurar um ambiente com várias florestas em um modelo de floresta de recurso/usuário para fornecer Skype for Business funcionalidade em um cenário híbrido. 
+As seções a seguir descrevem como configurar um ambiente com várias florestas em um modelo de floresta de recurso/usuário para fornecer funcionalidade em um cenário híbrido. 
   
 ![Ambiente de várias florestas para híbridos](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
@@ -38,7 +38,7 @@ As seções a seguir fornecem orientações sobre como configurar um ambiente co
 
 Há suporte para várias florestas de usuários. Lembre-se do seguinte: 
     
-- Para versões com suporte do Lync Server e Skype for Business Server [](plan-hybrid-connectivity.md#server-version-requirements) em uma configuração híbrida, consulte Requisitos de versão do servidor em Planejar conectividade híbrida entre Skype for Business Server e [Microsoft 365 ou Office 365](plan-hybrid-connectivity.md).
+- Para versões com suporte do Lync Server e Skype for Business Server em uma configuração híbrida, consulte [Plan hybrid connectivity](plan-hybrid-connectivity.md).
     
 - Exchange Server pode ser implantado em uma ou mais florestas, que podem ou não incluir a floresta que contém Skype for Business Server. Certifique-se de ter aplicado a atualização cumulativa mais recente.
     
@@ -47,15 +47,21 @@ Há suporte para várias florestas de usuários. Lembre-se do seguinte:
   
 ## <a name="user-homing-considerations"></a>Considerações sobre a localização do usuário
 
-Skype for Business usuários que estão no local podem ter Exchange no local ou online. Skype for Business Os usuários online devem usar Exchange Online para uma experiência ideal; no entanto, isso não é necessário. Exchange local não é necessário implementar Skype for Business em ambos os casos.
+Skype for Business usuários que estão no local podem ter Exchange no local ou online. Teams os usuários devem usar Exchange Online para uma experiência ideal; no entanto, isso não é necessário. Exchange local não é necessário implementar Skype for Business em ambos os casos.
   
 ## <a name="configure-forest-trusts"></a>Configurar confianças de floresta
 
-Em uma topologia de floresta de recursos, as florestas de recursos que hospedam Skype for Business Server devem confiar em cada floresta de conta que contém as contas dos usuários que a acessarão. Se você tiver várias florestas de usuários, para habilitar a autenticação entre florestas, é importante que o Roteamento de Sufixo de Nome seja habilitado para cada uma dessas confianças de floresta. Para obter instruções, consulte [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)). Se você tiver Exchange Server implantado em uma outra floresta e ela fornece funcionalidade para usuários Skype for Business, a Exchange de hospedagem da floresta deve confiar na Skype for Business Server. Por exemplo, se Exchange foram implantados na floresta de conta, isso efetivamente significa uma confiança de duas vias entre a conta e Skype for Business florestas é necessária nessa configuração.
+Em uma topologia de floresta de recursos, as florestas de recursos que hospedam Skype for Business Server devem confiar em cada floresta de conta que contém as contas dos usuários que a acessarão. 
+
+Se você tiver várias florestas de usuários, para habilitar a autenticação entre florestas, é importante que o Roteamento de Sufixo de Nome seja habilitado para cada uma dessas confianças de floresta. Para obter instruções, consulte [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)). 
+
+Se você tiver Exchange Server implantado em uma outra floresta e o Exchange fornece funcionalidade para usuários Skype for Business, o Exchange de hospedagem da floresta deve confiar na Skype for Business Server. Por exemplo, se Exchange foram implantados na floresta de conta, uma confiança de duas vias entre a conta e as florestas Skype for Business é necessária.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar contas no site de hospedagem de Skype for Business
 
-Quando Skype for Business Server é implantado em uma floresta (uma floresta de recursos), mas fornece funcionalidade aos usuários em uma ou mais florestas (florestas de conta), os usuários nas outras florestas devem ser representados como objetos de usuário desabilitados na floresta onde o Skype for Business Server é implantado. Um produto de gerenciamento de identidade, como Microsoft Identity Manager, precisa ser implantado e configurado para provisionar e sincronizar os usuários das florestas de conta na floresta onde o Skype for Business Server é implantado. Os usuários devem ser sincronizados na floresta que hospeda Skype for Business Server como objetos de usuário desabilitados. Os usuários não podem ser sincronizados como objetos de contato do Active Directory, porque Azure Active Directory Conexão não sincronizam corretamente os contatos no Azure AD para uso com Skype.
+Suponha Skype for Business Server seja implantado em uma floresta (uma floresta de recursos), mas fornece funcionalidade aos usuários em uma ou mais florestas (florestas de conta). Nesse caso, os usuários nas outras florestas devem ser representados como objetos de usuário desabilitados na floresta onde Skype for Business Server é implantado.
+
+Você precisa usar um produto de gerenciamento de identidade, como Microsoft Identity Manager, para provisionar e sincronizar os usuários das florestas de conta na floresta onde o Skype for Business Server é implantado. Os usuários devem ser sincronizados na floresta que hospeda Skype for Business Server como objetos de usuário desabilitados. Os usuários não podem ser sincronizados como objetos de contato do Active Directory, porque Azure Active Directory Conexão não sincronizam corretamente os contatos no Azure AD para uso com Skype.
   
 Independentemente de qualquer configuração de várias florestas, a Skype for Business Server de hospedagem de floresta também pode fornecer funcionalidade para todos os usuários habilitados que existam na mesma floresta.
   
@@ -64,21 +70,21 @@ Para obter a sincronização de identidade adequada, os seguintes atributos prec
 |**Florestas de usuários**|**Florestas de recursos**|
 |:-----|:-----|
 |atributo de link de conta escolhido  <br/> |atributo de link de conta escolhido  <br/> |
-|email  <br/> |email  <br/> |
+|Email  <br/> |Email  <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
 O [atributo de link de conta](/azure/active-directory/hybrid/plan-connect-design-concepts) escolhido será usado como Âncora de Origem. Se você tiver um atributo diferente e imutável que prefira usar, pode fazê-lo; basta editar a regra de declarações do AD FS e selecionar o atributo durante a configuração do AAD Conexão.
   
-Não sincronize os UPNs entre as florestas. Descobrimos durante o teste que era necessário usar um UPN exclusivo para cada floresta de usuário, pois você não pode usar o mesmo UPN em várias florestas. Como resultado, duas possibilidades foram apresentadas para sincronizar o UPN ou não sincronizar. 
+Não sincronize os UPNs entre as florestas. Você precisa usar um UPN exclusivo para cada floresta de usuário, pois não pode usar o mesmo UPN em várias florestas. Como resultado, há duas possibilidades: sincronizar o UPN ou não sincronizar. 
   
-- Se o UPN exclusivo de cada floresta de usuário não estiver sincronizado com o objeto desabilitado associado na floresta de recursos, o SSO (login único) será quebrado para pelo menos a tentativa inicial de entrar (supondo que o usuário selecionou a opção para salvar a senha). No cliente Skype for Business, presumimos que os valores SIP/UPN sejam os mesmos. Como o endereço SIP neste cenário é user@company.com, mas o UPN do objeto habilitado na floresta do usuário é de fato user@contoso.company.com, a tentativa de logon inicial falharia e o usuário seria solicitado a inserir credenciais. Ao inserir o UPN correto/real, a solicitação de autenticação seria concluída em relação aos controladores de domínio na floresta do usuário, e a entrada seria bem-sucedida.
+- Se o UPN exclusivo de cada floresta de usuário não estiver sincronizado com o objeto desabilitado associado na floresta de recursos, o SSO (login único) será quebrado para pelo menos a tentativa inicial de entrar (supondo que o usuário selecionou a opção para salvar a senha). No cliente Skype for Business, presumimos que os valores SIP/UPN sejam os mesmos. Como o endereço SIP neste cenário é user@company.com, mas o UPN do objeto habilitado na floresta do usuário é de fato user@contoso.company.com, a tentativa de logon inicial falharia e o usuário seria solicitado a inserir credenciais. Ao inserir o UPN correto, a solicitação de autenticação seria concluída em relação aos controladores de domínio na floresta do usuário, e a entrada seria bem-sucedida.
     
 - Se o UPN exclusivo de cada floresta de usuário fosse sincronizado com o objeto desabilitado associado na floresta de recursos, a autenticação do AD FS falharia. A regra correspondente encontrará o UPN no objeto na floresta de recursos, que foi desabilitado e não pôde ser usado para autenticação. 
     
-## <a name="create-a-microsoft-365-or-office-365-organization"></a>Criar uma Microsoft 365 ou Office 365 organização
+## <a name="create-a-microsoft-365-organization"></a>Criar uma Microsoft 365 de usuário
 
-Em seguida, você precisará provisionar uma Microsoft 365 ou Office 365 para usar com sua implantação. Para obter mais informações, consulte [Assinaturas, licenças, contas e locatários](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)para ofertas de nuvem da Microsoft. 
+Você precisará provisionar uma organização Microsoft 365 para usar com sua implantação. Para obter mais informações, consulte [Assinaturas, licenças, contas e locatários](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)para ofertas de nuvem da Microsoft. 
   
 ## <a name="configure-active-directory-federation-services"></a>Configurar os Serviços de Federação do Active Directory
 
@@ -94,29 +100,29 @@ A menos que você use um SIP/SMTP/UPN exclusivo para usuários de cada floresta,
     
 Colocando um farm do AD FS em cada floresta de usuário e usando um SIP/SMTP/UPN exclusivo para cada floresta, resolveremos ambos os problemas. Somente as contas nessa floresta de usuário específica seriam pesquisadas e corresponderiam durante as tentativas de autenticação. Isso ajudará a fornecer um processo de autenticação mais contínuo. 
   
-Essa será uma implantação padrão do Windows Server 2012 R2 AD FS e deve estar funcionando antes de continuar. Para obter instruções, [consulte How To Install AD FS 2012 R2 For Microsoft 365 or Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+Essa implantação será uma implantação padrão do Windows Server 2012 R2 AD FS e deve estar funcionando antes de continuar. Para obter instruções, [consulte How to Install AD FS 2012 R2 for Microsoft 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
-Depois de implantado, você terá que editar a regra de declarações para corresponder à Âncora de Origem selecionada anteriormente. No MMC do AD FS, em Confianças de Parte Confiável, clique com o botão direito do mouse em Microsoft 365 **Identity Platform** ou Microsoft Office 365 **Identity Platform** e selecione Editar Regras de **Declaração.** Edite a primeira regra e altere ObjectSID para **employeeNumber**. 
+Depois de implantado, você precisa editar a regra de declarações para corresponder à Âncora de Origem selecionada anteriormente. No MMC do AD FS, em Confianças de Parte Confiável, clique com o botão direito do mouse em Microsoft 365 **Identity Platform** ou Microsoft Office 365 **Identity Platform** e selecione Editar Regras de **Declaração.** Edite a primeira regra e altere ObjectSID para **employeeNumber**. 
   
 ![Tela de regras de edição de várias florestas](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## <a name="configure-aad-connect"></a>Configurar o AAD Conexão
 
-Em topologias de floresta de recursos, é necessário que os atributos do usuário da floresta de recursos e quaisquer florestas de conta sejam sincronizados no Azure AD. A maneira mais simples e recomendada de fazer isso é fazer com que o  Azure AD Conexão sincronizar e mesclar identidades de usuários de todas as florestas que tenham habilitado contas de usuário e a floresta que contém Skype for Business. Para obter detalhes, [consulte Configure Azure AD Conexão for Skype for Business and Teams](configure-azure-ad-connect.md).
+Em topologias de floresta de recursos, é necessário que os atributos do usuário da floresta de recursos e quaisquer florestas de conta sejam sincronizados no Azure AD. A Microsoft recomenda que o Azure AD Conexão sincronizar e mesclar identidades de usuários de todas as florestas que tenham habilitado contas de usuário e a floresta que contém Skype for Business.  Para obter detalhes, [consulte Configure Azure AD Conexão for Skype for Business and Teams](configure-azure-ad-connect.md).
 
-Observe que o AAD Conexão não fornece sincronização no local entre a conta e florestas de recursos. Isso deve ser configurado separadamente usando Microsoft Identity Manager ou produto semelhante, conforme descrito anteriormente.
+Observe que o Azure AD Conexão não fornece sincronização no local entre a conta e florestas de recursos. Isso deve ser configurado usando Microsoft Identity Manager ou um produto semelhante, conforme descrito anteriormente.
   
-Quando terminar e o Conexão AAD estiver mesclando, se você olhar para um objeto no metaverso, verá algo semelhante a isso: 
+Quando terminar e o Azure AD Conexão estiver mesclando, se você olhar para um objeto no metaverso, verá algo semelhante ao seguinte: 
   
 ![Tela do objeto Metaverso de várias florestas](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-Os atributos realçados em verde foram mesclados de Microsoft 365 ou Office 365, o amarelo é da floresta do usuário e o azul é da floresta de recursos. 
+Os atributos realçados em verde foram mesclados Microsoft 365, os amarelos são da floresta do usuário e o azul é da floresta de recursos. 
   
-Este é um usuário de teste e você pode ver que o AAD Conexão identificou o sourceAnchor e o cloudSourceAnchor do usuário e os objetos de floresta de recursos do Microsoft 365 ou Office 365, no nosso caso 1101, que é o employeeNumber selecionado anteriormente. Em seguida, ele foi capaz de mesclar esse objeto no que você vê acima. 
+Neste exemplo, o Azure AD Conexão identificou o sourceAnchor e o cloudSourceAnchor do usuário e os objetos de floresta de recursos do Microsoft 365, neste caso 1101-- o employeeNumber selecionado anteriormente. Os Conexão do Azure AD foram capazes de mesclar esse objeto no que você vê acima. 
   
 Para obter mais informações, consulte [Integrar seus diretórios](/azure/active-directory/hybrid/whatis-hybrid-identity)locais com Azure Active Directory . 
   
-Os Conexão AAD devem ser instalados usando os padrões, exceto pelo seguinte: 
+Os Conexão do Azure AD devem ser instalados usando os padrões, exceto pelo seguinte: 
   
 1. Login único - com o AD FS já implantado e funcionando: Selecione **Não configurar**.
     

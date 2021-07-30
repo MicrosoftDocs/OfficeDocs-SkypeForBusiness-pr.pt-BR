@@ -1,5 +1,5 @@
 ---
-title: Planejar a conectividade híbrida | Skype for Business Server 2019 e Teams
+title: Planejar a conectividade híbrida | Skype for Business Server e Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planeje implementar a conectividade híbrida entre Skype for Business Server e Teams configurando Skype for Business modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: acfd94d78609ef3428029832ffaf030ca0f34b64
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 0941922fe5f5f4505932614422ec79ea310f7cf0
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574256"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660729"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planejar conectividade híbrida entre Skype for Business Server e Teams
 
@@ -37,7 +37,7 @@ Também é necessário configurar a conectividade híbrida e mover todos os usu�
 
 Este tópico descreve os requisitos de infraestrutura e sistema que você precisará configurar a conectividade híbrida entre sua implantação Skype for Business Server local e Teams.
 
-Depois de ler este tópico e estiver pronto para configurar a conectividade híbrida, consulte [Configure hybrid connectivity between Skype for Business Server](configure-hybrid-connectivity.md)and Microsoft 365 or Office 365 . Os tópicos de configuração fornecem orientações passo a passo para configurar a conectividade híbrida entre sua implantação local e Teams.
+Depois de ler este tópico e estiver pronto para configurar a conectividade híbrida, consulte [Configure hybrid connectivity between Skype for Business Server and Teams](configure-hybrid-connectivity.md). Os tópicos de configuração fornecem orientações passo a passo para configurar a conectividade híbrida entre sua implantação local e Teams.
 
 > [!Important]
 > Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
@@ -78,31 +78,31 @@ Esse tipo de configuração se baseia na funcionalidade de espaço de endereço 
 
 Quando o espaço de endereço SIP compartilhado é configurado:
 
-- Azure Active Directory Conexão é usado para sincronizar seu diretório local com Microsoft 365 ou Office 365.
+- Azure Active Directory Conexão é usado para sincronizar seu diretório local com Microsoft 365.
 - Os usuários que estão no local interagem com servidores Skype for Business locais.
 - Os usuários que estão online podem interagir com o Teams e, até 31 de julho de 2021, Skype for Business Online com base em seu modo de co-existência.
 - Os usuários de ambos os ambientes podem se comunicar uns com os outros.
 - O Active Directory local é autoritativo. Todos os usuários devem ser criados no Active Directory local primeiro e sincronizados com o Azure AD. Mesmo que você pretenda que o usuário seja criado online, você deve primeiro criar o usuário no ambiente local e, em seguida, mover o usuário para online para garantir que o usuário seja descoberto pelos usuários locais.
 
-Para que um usuário possa ser movido online, o usuário deve ter uma licença Teams, bem como Skype for Business Online (Plano 2). **A atribuição da licença Skype for Business Online é necessária mesmo após a aposentadoria do Skype for Business Online.** Se os usuários quiserem aproveitar recursos online adicionais, como Audioconferência ou Sistema de Telefonia, você precisará atribuir a eles a licença apropriada no Microsoft 365 ou Office 365.
+Para que um usuário possa ser movido online, o usuário deve ter uma licença Teams, bem como Skype for Business Online (Plano 2). **A atribuição da licença Skype for Business Online é necessária mesmo após a aposentadoria do Skype for Business Online.** Se os usuários quiserem aproveitar recursos online adicionais, como Audioconferência ou Sistema de Telefonia, você precisará atribuir a eles a licença apropriada Microsoft 365.
 
 ## <a name="hybrid-connectivity-infrastructure-requirements"></a>Requisitos de infraestrutura de conectividade híbrida
 
 <a name="BKMK_Infrastructure"> </a>
 
-Para implementar a conectividade híbrida entre seu ambiente local e os serviços de Microsoft 365 ou Office 365 de comunicação, você precisa atender aos seguintes requisitos de infraestrutura:
+Para implementar a conectividade híbrida entre seu ambiente local e Microsoft 365 serviços de comunicação, você precisa atender aos seguintes requisitos de infraestrutura:
 
 - Uma única implantação local do Skype for Business Server ou do Lync Server implantado em uma topologia com suporte. Consulte [Requisitos de topologia](plan-hybrid-connectivity.md#BKMK_Topology) neste tópico.
 
-- Uma Microsoft 365 ou Office 365 com Teams.
+- Uma Microsoft 365 com Teams.
     > [!NOTE]
     > Você pode usar apenas um único locatário para uma configuração híbrida com sua implantação local.
     
-- Azure Active Directory Conexão sincronizar seu diretório local com Microsoft 365 ou Office 365. Para obter mais informações, consulte [Azure AD Conexão: Contas e permissões.](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)
+- Azure Active Directory Conexão sincronizar seu diretório local com Microsoft 365. Para obter mais informações, consulte [Azure AD Conexão: Contas e permissões.](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)
 
 - Skype for Business Server ferramentas administrativas. Eles são necessários para mover os usuários do local para a nuvem. Essas ferramentas devem ser instaladas em um servidor com acesso à implantação local e à Internet.
 - Ferramentas administrativas online. Você pode usar o centro de administração Teams ou Windows PowerShell gerenciar Teams. Para usar o PowerShell para gerenciar Teams, baixe e instale o módulo Teams PowerShell. (O Skype for Business Conector Online foi retirado).
-- O espaço de endereço SIP compartilhado deve ser habilitado e sua implantação local deve ser configurada para usar Microsoft 365 ou Office 365 como provedor de hospedagem. Para obter mais informações sobre as etapas necessárias para configurar a conectividade híbrida, consulte [Configure hybrid connectivity](configure-hybrid-connectivity.md).
+- O espaço de endereço SIP compartilhado deve ser habilitado e sua implantação local deve ser configurada para usar Microsoft 365 como provedor de hospedagem. Para obter mais informações sobre as etapas necessárias para configurar a conectividade híbrida, consulte [Configure hybrid connectivity](configure-hybrid-connectivity.md).
 
 Depois de configurar a conectividade híbrida, você pode mover os usuários para Teams. Para obter mais informações, consulte [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md).
 
@@ -122,13 +122,8 @@ Para configurar sua implantação híbrida **com Teams**, você precisa ter uma 
 
 Se a voz híbrida for desejada em qualquer *topologia*, tanto o servidor de borda designado como a Borda de Federação quanto o pool associado à federação SIP devem estar executando Skype for Business 2015 ou posterior. Os usuários podem permanecer em um Pool do Lync 2013 se houver um. Para obter mais detalhes, consulte [Plan your voice solution](/MicrosoftTeams/cloud-voice-landing-page.md).
 
-As topologias a seguir que incluem **o Lync Server 2010** são suportadas com o Skype for Business Online para mensagens instantâneas e reuniões. Topologias que incluem **o Lync Server 2010** não têm suporte para voz híbrida nem Teams .
-
-- Uma implantação mista do Lync Server 2010 e Skype for Business Server 2015
-- Uma implantação mista do Lync Server 2010 e do Lync Server 2013
-- Uma implantação do Lync Server 2010 com todos os servidores executando o Lync Server 2010 com as atualizações cumulativas mais recentes.
-
-O Servidor de Borda de federação e o servidor de próximo salto do Servidor de Borda de federação devem estar executando o Lync Server 2010 com as atualizações cumulativas mais recentes. As ferramentas administrativas Skype for Business Server 2015 ou Lync Server 2013 devem ser instaladas em pelo menos um servidor ou estação de trabalho de gerenciamento.
+> [!NOTE]
+> O Lync Server 2010 não tem suporte com Teams.
 
 ## <a name="multi-forest-support"></a>Suporte a várias florestas
 
@@ -141,11 +136,11 @@ A Microsoft dá suporte aos seguintes tipos de cenários híbridos de várias fl
   - A hospedagem Skype for Business floresta deve confiar na floresta que contém os usuários.
     Para obter detalhes sobre cenários híbridos de floresta de recursos, consulte [Deploy a resource forest topology for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md).
 
-- **Várias implantações do Skype for Business Server em várias florestas.** Essa configuração pode surgir como resultado de cenários de fusão e aquisição, bem como em empresas mais complexas. A consolidação de todos os usuários do local para a nuvem em uma única organização Microsoft 365 ou Office 365 pode ser alcançada para qualquer organização com várias implantações Skype for Business, desde que os seguintes requisitos principais sejam atendidos:
-  - Deve haver no máximo uma organização Microsoft 365 ou Office 365 envolvida. Não há suporte para consolidação em cenários com mais de uma organização.
+- **Várias implantações do Skype for Business Server em várias florestas.** Essa configuração pode surgir como resultado de cenários de fusão e aquisição, bem como em empresas mais complexas. A consolidação de todos os usuários do local para a nuvem em uma única organização Microsoft 365 pode ser alcançada para qualquer organização com várias implantações Skype for Business, desde que os seguintes requisitos principais sejam atendidos:
+  - Deve haver no máximo uma organização Microsoft 365 envolvida. Não há suporte para consolidação em cenários com mais de uma organização.
   - A qualquer momento, apenas uma floresta Skype for Business local pode estar no modo híbrido (espaço de endereço SIP compartilhado). Todas as outras florestas Skype for Business locais devem permanecer totalmente no local (e provavelmente federadas umas com as outras). Observe que essas outras organizações locais podem sincronizar com o AAD se desejar com a nova funcionalidade para desabilitar os [domínios SIP](/powershell/module/skype/disable-csonlinesipdomain) online disponíveis a partir de dezembro de 2018.
 
-    Os clientes com implantações do Skype for Business em várias florestas devem migrar totalmente cada floresta Skype for Business individualmente para a organização do Microsoft 365 ou Office 365 usando a funcionalidade de domínio dividido (Espaço de Endereço SIP Compartilhado) e desabilitar o híbrido com a implantação local, antes de migrar a próxima implantação local Skype for Business implantação. Além disso, antes de serem migrados para a nuvem, os usuários locais permanecem em um estado federado com todos os usuários que não são representados no diretório local do mesmo usuário. Para obter mais detalhes, consulte [Consolidação de nuvem para Teams e Skype for Business](cloud-consolidation.md).
+    Os clientes com implantações de Skype for Business em várias florestas devem migrar totalmente cada floresta Skype for Business individualmente para a organização Microsoft 365 usando a funcionalidade de domínio dividido (Espaço de Endereço SIP Compartilhado). Depois que a migração de floresta for concluída, os clientes devem desabilitar o híbrido com a implantação local antes de migrar a próxima implantação local Skype for Business implantação. Além disso, antes de serem migrados para a nuvem, os usuários locais permanecem em um estado federado com todos os usuários que não são representados no diretório local do mesmo usuário. Para obter mais detalhes, consulte [Consolidação de nuvem para Teams e Skype for Business](cloud-consolidation.md).
 
 ## <a name="federation-requirements"></a>Requisitos de federação
 
@@ -155,7 +150,7 @@ Ao configurar Skype for Business modo híbrido, você deve garantir que seus amb
 
 Os seguintes requisitos devem ser atendidos para configurar com êxito uma implantação híbrida:
 
-- A correspondência de domínio deve ser configurada da mesma forma para sua implantação local e sua Microsoft 365 ou Office 365 organização. Se a descoberta do parceiro estiver habilitada na implantação local, a federação aberta deverá ser configurada para sua organização online. Se a descoberta do parceiro não estiver habilitada, a federação fechada deverá ser configurada para sua organização online.
+- A correspondência de domínio deve ser configurada da mesma forma para sua implantação local e sua Microsoft 365 organização. Se a descoberta do parceiro estiver habilitada na implantação local, a federação aberta deverá ser configurada para sua organização online. Se a descoberta do parceiro não estiver habilitada, a federação fechada deverá ser configurada para sua organização online.
 - A lista de domínios bloqueados na implantação local deve corresponder exatamente à lista De domínios bloqueados para seu locatário online.
 - A lista Domínios Permitidos na implantação local deve corresponder exatamente à lista Domínios Permitidos para seu locatário online.
 - A federação deve estar habilitada para as comunicações externas para o locatário online.
@@ -190,4 +185,4 @@ Os computadores em sua rede devem ser capazes de executar as consultas DNS padr�
 
 Dependendo do local do seu data center Microsoft Online Services, você também deve configurar seus dispositivos de firewall de rede para aceitar conexões com base em nomes de domínio curinga (por exemplo, todo o tráfego de \* .outlook.com). Se os firewalls da sua organização não suportam configurações de nome curinga, você terá que determinar manualmente os intervalos de endereço IP que você gostaria de permitir e as portas especificadas.
 
-Para obter mais informações, incluindo detalhes sobre portas e requisitos de protocolo, consulte Microsoft 365 e [Office 365 URLs e intervalos de endereços IP.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+Para obter mais informações, incluindo detalhes sobre portas e requisitos de protocolo, [consulte Microsoft 365 URLs e intervalos de endereços IP.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
