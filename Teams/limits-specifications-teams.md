@@ -1,6 +1,6 @@
 ---
 title: Limites e especificações para o Microsoft Teams
-author: microsoftheidi
+author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.topic: reference
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 08b6686a640e039cbd84d95196824d4b35fb9f35
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506340"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646032"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -125,12 +125,12 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
   
-<sup>1</sup> Para obter a melhor experiência em grandes reuniões, seminários e eventos ao vivo, a Microsoft recomenda o uso do cliente de área de trabalho do Teams ou clientes de dispositivos móveis do Teams.
-  
+<sup>1</sup> Para obter a melhor experiência em grandes reuniões, seminários via web e eventos ao vivo, a Microsoft recomenda o uso da versão mais recente do cliente de área de trabalho do Microsoft Teams ou clientes móveis do Microsoft Teams.
+
 <sup>2</sup> Apresentadores em grandes reuniões, seminários e eventos ao vivo devem usar o cliente de área de trabalho do Teams. Para mais dicas sobre como sediar grandes reuniões, veja[Melhores práticas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-  
+
 > [!NOTE]
-> Salas para sessão de grupo só podem ser criadas em reuniões com menos de 300 participantes. Além disso, a criação de salas para sessão de grupo em uma reunião limita automaticamente o número de participantes a 300. Aconselhe seus usuários finais a não iniciarem salas para sessão de grupo em reuniões onde esperam mais de 300 participantes. Para obter mais informações sobre grandes reuniões no Teams, compartilhe a orientação [Práticas recomendadas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) com seus usuários finais. 
+> Salas para sessão de grupo só podem ser criadas em reuniões com menos de 300 participantes. Além disso, a criação de salas para sessão de grupo em uma reunião limita automaticamente o número de participantes a 300. Aconselhe seus usuários finais a não iniciarem salas para sessão de grupo em reuniões onde esperam mais de 300 participantes. Para obter mais informações sobre grandes reuniões no Teams, compartilhe a orientação [Práticas recomendadas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) com seus usuários finais.
 
 ### <a name="meeting-expiration"></a>Expiração de reunião
 
@@ -169,7 +169,7 @@ Para obter mais informações sobre eventos ao vivo do Teams e uma comparação 
 >- 50 eventos podem ser hospedados simultaneamente em um locatário
 >- Duração do evento de 16 horas por transmissão
 >
-> Além disso, os Eventos ao Vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba Mais](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Além disso, os Eventos ao Vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba Mais](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## <a name="presence-in-outlook"></a>Presença no Outlook
 

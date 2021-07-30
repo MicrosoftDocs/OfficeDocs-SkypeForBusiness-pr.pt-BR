@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: ac699c662c8e0ac61180c1031cfc77c300c51d19
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536827"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646422"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 
@@ -54,6 +54,12 @@ O acesso de convidado no Teams requer a definição de outras configurações no
 - Para colaborar com uma organização parceira que usa o Azure Active Directory e permitir que os convidados se inscrevam para acesso da equipe, consulte [Criar uma extranet B2B com convidados gerenciados](/microsoft-365/solutions/b2b-extranet).
 
 O acesso de convidados no Teams é uma configuração em toda a organização e está desativado por padrão. Você pode controlar o acesso de convidados a equipes individuais usando [rótulos de confidencialidade](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+
+### <a name="turning-guest-access-off"></a>Desativando o acesso de convidado
+
+Se você desativar o acesso de convidados no Teams, os convidados existentes perderão o acesso à equipe. No entanto, eles não são removidos da equipe. Eles ainda estão visíveis para os membros da equipe e podem ser @mencionados. Se você ativar o acesso de convidado do Teams novamente, eles recuperarão o acesso.
+
+Se você planeja deixar o acesso de convidados desativado, convém avisar os proprietários da equipe para remover manualmente as contas de convidado de suas equipes. Embora esses convidados não tenham acesso, ter suas contas visíveis na equipe pode causar confusão para outros membros da equipe.
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Como um convidado se torna membro de uma equipe
 

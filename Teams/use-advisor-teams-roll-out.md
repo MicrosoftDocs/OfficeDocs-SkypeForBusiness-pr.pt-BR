@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Utilize o Advisor for Teams para ajudá-lo a planejar e concluir a implementação do Microsoft Teams.
-ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b86ade0aa067e895ebf21b912801c761e7657ba
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240546"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646612"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
@@ -71,8 +71,16 @@ O Advisor for Teams oferece atualmente os seguintes planos:
     - Pesquisa de usuário do Forms
     - Assistente para o bot do Teams
     - Projetado para clientes que estão usando o Skype for Business Online ou o Skype for Business local, o plano de atualização do Skype for Business ajudará você a entender melhor sua jornada de atualização. Aproveitando uma estrutura comprovada de sucesso para implementar mudanças, o plano orientará você no processo passo a passo, esteja você começando a usar o Teams, já usando o Teams com o Skype for Business, ou estando pronto para a atualização.  O plano também conectará você às [diretrizes online e práticas recomendadas](./upgrade-start-here.md), [ativos para download](https://aka.ms/UpgradeSuccessKit), [live 1: muitos workshops de planejamento](./upgrade-workshops-landing-page.yml)e recursos adicionais para dar suporte ao seu sucesso.
+1. Educação (visível apenas para Organizações Educacionais)
+    - Avaliação do locatário
+    - Plano do Planner, incluindo tarefas de adoção
+    - Pesquisa de usuário do Forms
+    - Assistente para o bot do Teams
+    - Projetado para organizações educacionais, o Plano de Educação ajudará você a implantar, adotar e gerenciar o Teams em sua instituição de educacional.
 
-Recomendamos que você comece com o plano de Chat, equipes, canais e aplicativos. Quando terminar de implantar a carga de trabalho, volte ao Assistente do Teams e selecione **Adicionar canal** para iniciar a próxima carga de trabalho.
+Para organizações comerciais, recomendamos que você comece com o plano de Chat, equipes, canais e aplicativos. Para organizações educacionais, recomendamos que você comece com o Plano de Educação. Quando terminar de implantar a carga de trabalho, volte ao Assistente do Teams e selecione **Adicionar canal** para iniciar a próxima carga de trabalho.
+
+
 
 ## <a name="tenant-assessment"></a>Avaliação do locatário
 
