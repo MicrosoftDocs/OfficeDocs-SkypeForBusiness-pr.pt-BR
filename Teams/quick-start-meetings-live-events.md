@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
-ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
+ms.openlocfilehash: 854443e529736207520cbfdbe845c0b4992f9cd6
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53463294"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53647012"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Início rápido - reuniões, seminários via web e eventos ao vivo 
 
@@ -42,25 +42,31 @@ Este artigo, destinado a administradores e profissionais de TI, descreve sucinta
 
 Os diferentes tipos de reuniões também possuem diferentes limites de participantes e recursos de participantes. 
 
-A tabela a seguir resume brevemente os três tipos de reuniões, o número de participantes recomendados, e como os participantes podem interagir na reunião. Mais informações sobre cada tipo de reunião seguem na tabela.
-<br><br>
+A tabela a seguir resume brevemente os três tipos de reuniões, o número de participantes recomendados, e como os participantes podem interagir na reunião. Mais informações sobre cada tipo de reunião seguem a tabela. <br><br>
 
 | Tipo de reunião | Número de participantes | Interação | Registro com suporte |
 |----------|--------|--------|-----|
-| Reuniões  | Até 20.000* <br> | -Os participantes de até 1.000 possuem recursos de reunião iguais e totalmente interativos <br> -Os participantes com mais de 1.000 até 20.000 possuem recursos [Apenas exibição](view-only-meeting-experience.md)  | Não |
-| Seminários via Web | Até 20.000* |-Os participantes de até 1.000 possuem recursos totalmente interativos <br> -Os participantes com mais de 1.000 até 20.000 possuem recursos [Apenas exibição](view-only-meeting-experience.md)  <br> -Interação com público configurável <br> -Pode especificar apresentadores | Sim |
-| Eventos ao vivo | Até 20.000** |-Transmitir para grandes audiências <br>-P e R moderada para a interação com o público <br> -Pode especificar produtores e apresentadores, incluindo apresentadores externos<br>-Oferece suporte às funcionalidades de produção mais avançadas | Não |
+| Reuniões  | Até 20.000* <br> | -Os participantes de até 1.000 têm recursos de reuniões iguais totalmente interativos. <br> -Os participantes com mais de 1.000 até 20.000 possuem recursos de [Somente exibição](view-only-meeting-experience.md).  | Não |
+| Seminários via Web | -Até 1.000<br>Limites aumentados com recursos de [Somente exibição](view-only-meeting-experience.md) em breve. |-Os participantes de até 1.000 possuem recursos totalmente interativos. <br> -Interação com o público configurável. <br> -Pode especificar os apresentadores. | Sim |
+| Eventos ao vivo | Até 20.000** |-Transmitir para as grandes audiências. <br>-P e R moderada para a interação com o público. <br> -Pode especificar os produtores e apresentadores, incluindo os apresentadores externos.<br>-Oferece suporte às funcionalidades de produção mais avançadas. | Não |
 ||||
 
 *Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2021.<br>
 
-**Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2021. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](https://docs.microsoft.com/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](https://docs.microsoft.com/stream/live-events-assistance). 
+**Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2021. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance). 
 
-Para obter a melhor experiência em grandes reuniões, a Microsoft recomenda usar o cliente da área de trabalho do Teams ou os clientes com dispositivos móveis do Teams. Os apresentadores em grandes reuniões devem usar o cliente da área de trabalho do Teams. Para obter mais dicas sobre como sediar grandes reuniões, consulte [Práticas recomendadas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+**Considerações para grandes reuniões, seminários e eventos ao vivo** - Ao hospedar grandes reuniões, considere o seguinte:
+
+- Para obter a melhor experiência em grandes reuniões, webinars e eventos ao vivo, a Microsoft recomenda usar a versão mais recente do cliente de desktop Teams ou clientes móveis Teams. 
+
+- Os apresentadores em grandes reuniões, seminários e eventos ao vivo devem usar o cliente de área de trabalho do Teams. 
+
+- Para obter mais dicas sobre como sediar grandes reuniões, consulte [Práticas recomendadas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
 Para obter mais informações sobre a experiência de reunião apenas para exibição, consulte [Experiência de reunião apenas para exibição do Teams](view-only-meeting-experience.md).
 
 Observe que a NDI possui suporte total em reuniões, seminários via Web e eventos ao vivo, permitindo que você produza a transmissão usando ferramentas como OBS e Wirecast. Para obter mais informações, consulte [Usar a tecnologia NDI® no Microsoft Teams](use-ndi-in-meetings.md).
+
 
 ### <a name="meetings"></a>Reuniões
 
@@ -141,7 +147,7 @@ Para produzir eventos virtuais de maior escala, examine o[Guia de Eventos Virtua
 
 ## <a name="apps-for-meetings"></a>Preparação para reuniões
 
-A Microsoft permite que você aprimore as experiências de reunião integrando e usando aplicativos de reunião. Por exemplo, a integração do quadro de comunicações nas reuniões do Teams é alimentada pelo aplicativo da Web Quadro de Comunicações, o qual permite que os participantes das reuniões do Teams desenhem, esbocem e escrevam juntos em uma tela digital compartilhada.
+A Microsoft permite que você aprimora as experiências de reunião integrando e usando aplicativos de reunião. Por exemplo, a integração do quadro de comunicações nas reuniões do Teams é ativada pelo aplicativo web Whiteboard, que permite aos participantes das reuniões do Teams desenhem, esbocem e escrevam juntos em uma tela digital compartilhada.
 
 Você pode adicionar aplicativos de reuniões à implantação do seu Teams usando os aplicativos fornecidos com o Teams, usando aplicativos e modelos certificados de terceiros e criando seus próprios aplicativos personalizados. 
 
