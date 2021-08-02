@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A seguir estão algumas das principais perguntas que temos de nossos clientes que querem usar Audioconferência.
-ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: c8c5ea445e9c8d01f869a9340934fe75fe92a329
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856410"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679746"
 ---
 # <a name="audio-conferencing-common-questions"></a>Perguntas comuns sobre a Audioconferência
 
@@ -131,10 +131,11 @@ Estamos trabalhando em uma solução que permitirá que o usuário acesse e rede
 
 Para participantes e organizadores da reunião:
 
-| Nome do comando | Teclas de comando | Descrição                                                     |
-|--------------|--------------|-----------------------------------------------------------------|
-| Menu De comando | \*1          | Pressione \* 1 para reproduzir as descrições dos comandos de discagem que estão disponíveis. |
-| Mute/unmute  | \*6          | Pressione \* 6 para silenciar ou desativar a si mesmo.                         |
+| Nome do comando    | Teclas de comando | Descrição                                                                 |
+|--------------   |--------------|-----------------------------------------------------------------------------|
+| Menu De comando    | \*1          | Pressione \* 1 para reproduzir as descrições dos comandos de discagem que estão disponíveis. |
+| Levantar/baixar a mão| \*5          | Pressione \* 5 para levantar ou baixar a mão.                                           |  
+| Mute/unmute     | \*6          | Pressione \* 6 para silenciar ou desativar a si mesmo.                                     |
 
 Somente para organizadores de reuniões:
 
@@ -150,7 +151,7 @@ Sim, os participantes podem discar internacionalmente e convidar outros chamador
   
 ## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Como um usuário Skype for Business ou Microsoft Teams agenda uma reunião com detalhes da reunião de Audioconferência?
 
-Quando um usuário recebe uma licença de **Audioconferência** e o usuário cria uma nova reunião Skype for Business ou Microsoft Teams no Outlook ou Outlook na Web, os números de telefone discados e as IDs de conferência são adicionados automaticamente ao convite da reunião.
+Quando um usuário recebe uma licença de **Audioconferência** e o usuário cria uma nova reunião de Skype for Business ou Microsoft Teams no Outlook ou no Outlook na Web, os números de telefone discados e as IDs de conferência são adicionados automaticamente ao convite da reunião.
   
 ## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>Como um usuário agenda e inicia uma reunião quando todos os participantes usarão um telefone para discar?
 
