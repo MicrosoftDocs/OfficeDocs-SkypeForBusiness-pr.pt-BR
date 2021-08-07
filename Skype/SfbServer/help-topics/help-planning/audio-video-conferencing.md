@@ -1,5 +1,5 @@
 ---
-title: Audio Video Conferencing (Planning Tool)
+title: Skype for Business Server Ferramenta de planejamento de audioconferência de vídeo
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
-description: A conferência de áudio/vídeo (A/V) do Skype for Business Server 2015 permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
-ms.openlocfilehash: 7405ee301e30511867f22ba58e62d5aae7abbebd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server conferência áudio/vídeo (A/V) 2015 permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
+ms.openlocfilehash: fd866110564777348d941e0e2580da5ac3ad8ea2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772572"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
+# <a name="skype-for-business-server-audio-video-conferencing-planning-tool"></a>Skype for Business Server Ferramenta de planejamento de audioconferência de vídeo
  
-A conferência de áudio/vídeo (A/V) do Skype for Business Server 2015 permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
+Skype for Business Server conferência áudio/vídeo (A/V) 2015 permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
   
-Para detalhes de planejamento sobre como habilite a conferência A/V em sua organização, consulte o tópico a seguir e seus subtópicos: 
+Para planejar detalhes sobre como habiltar a conferência A/V em sua organização, consulte o tópico a seguir e seus subtópicos: 
   
-- [Planejar a conferência no Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Planejar conferências no Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 

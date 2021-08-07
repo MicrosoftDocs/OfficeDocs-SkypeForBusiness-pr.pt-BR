@@ -1,5 +1,5 @@
 ---
-title: Enterprise Voice (Planning Tool)
+title: Skype for Business Server Enterprise Voice de planejamento
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
-description: Com o Enterprise Voice, o Skype for Business Server 2015 oferece uma oferta de VoIP (Voice over Internet Protocol) autônomo para aprimorar ou substituir sistemas pbx tradicionais. Os usuários do Enterprise Voice podem ligar para colegas na rede VoIP ou PBX da sua organização e podem ligar para números de telefone tradicionais fora da sua organização. A solução Enterprise Voice inclui recursos de chamadas comuns, como resposta, encaminhamento, transferência, espera, desvio, liberação e estacionamento, e chamada Aprimorada 9-1-1 (E9-1-1) (E9-1-1 está disponível apenas nos Estados Unidos). O Enterprise Voice também dá suporte a uma ampla variedade de dispositivos IP e USB mais antigos e atuais.
-ms.openlocfilehash: ec06d38e52278057de08e022be6008b88c59b2d3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Com Enterprise Voice, o Skype for Business Server 2015 oferece uma oferta de VoIP (Protocolo de Voz sobre Internet) autônomo para aprimorar ou substituir sistemas tradicionais de pbx (troca de filial privada). Enterprise Voice os usuários podem chamar colegas na rede VoIP da sua organização ou PBX, e eles podem chamar números de telefone tradicionais fora da sua organização. A solução Enterprise Voice inclui recursos comuns de chamada, como resposta, encaminhamento, transferência, espera, desvio, lançamento e estacionamento, e chamada Aprimorada 9-1-1 (E9-1-1) (E9-1-1 está disponível somente nos Estados Unidos).) Enterprise Voice também oferece suporte a uma ampla variedade de dispositivos IP e USB atuais e antigos.
+ms.openlocfilehash: f0bf6048141f2273799b843d17df72d9c51141d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772562"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
+# <a name="skype-for-business-server-enterprise-voice-planning-tool"></a>Skype for Business Server Enterprise Voice de planejamento
  
-Com o Enterprise Voice, o Skype for Business Server 2015 oferece uma oferta de VoIP (Voice over Internet Protocol) autônomo para aprimorar ou substituir sistemas pbx tradicionais. Os usuários do Enterprise Voice podem ligar para colegas na rede VoIP ou PBX da sua organização e podem ligar para números de telefone tradicionais fora da sua organização. A solução Enterprise Voice inclui recursos de chamadas comuns, como resposta, encaminhamento, transferência, espera, desvio, liberação e estacionamento, e chamada Aprimorada 9-1-1 (E9-1-1) (E9-1-1 está disponível apenas nos Estados Unidos). O Enterprise Voice também dá suporte a uma ampla variedade de dispositivos IP e USB mais antigos e atuais.
+Com Enterprise Voice, o Skype for Business Server 2015 oferece uma oferta de VoIP (Protocolo de Voz sobre Internet) autônomo para aprimorar ou substituir sistemas tradicionais de pbx (troca de filial privada). Enterprise Voice os usuários podem chamar colegas na rede VoIP da sua organização ou PBX, e eles podem chamar números de telefone tradicionais fora da sua organização. A solução Enterprise Voice inclui recursos comuns de chamada, como resposta, encaminhamento, transferência, espera, desvio, lançamento e estacionamento, e chamada Aprimorada 9-1-1 (E9-1-1) (E9-1-1 está disponível somente nos Estados Unidos).) Enterprise Voice também oferece suporte a uma ampla variedade de dispositivos IP e USB atuais e antigos.
   
-Para obter mais detalhes sobre o planejamento do Enterprise Voice, consulte [Plan for Enterprise Voice no Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) Para obter mais detalhes sobre como implantar um Servidor de Mediação autônomo, consulte [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015.](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
+Para obter mais detalhes sobre o planejamento para Enterprise Voice, consulte [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Para obter mais detalhes sobre como implantar um Servidor de Mediação autônomo, consulte [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

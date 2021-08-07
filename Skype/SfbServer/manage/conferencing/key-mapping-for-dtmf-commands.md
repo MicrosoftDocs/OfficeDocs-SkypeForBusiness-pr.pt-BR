@@ -1,5 +1,5 @@
 ---
-title: Gerenciar mapeamento de chaves para comandos DTMF no Skype for Business Server
+title: Gerenciar mapeamento de teclas para comandos DTMF em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 'Resumo: saiba como gerenciar o mapeamento de chaves dos comandos DTMF (dual-tone multi-frequency) no Skype for Business Server.'
-ms.openlocfilehash: 6b409ccce10128fdd7776e3ea77d6ee17d4a49f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como gerenciar o mapeamento de chaves de comandos DTMF (multifrequência de tom duplo) em Skype for Business Server.'
+ms.openlocfilehash: 106cd301826792ec494df4d490a6b953baf3badd1740d9cfd2de12e6de966d09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276846"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gerenciar mapeamento de chaves para comandos DTMF no Skype for Business Server
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gerenciar mapeamento de teclas para comandos DTMF em Skype for Business Server
  
-**Resumo:** Saiba como gerenciar o mapeamento de chaves de comandos DTMF (multifrequência de tom duplo) no Skype for Business Server.
+**Resumo:** Saiba como gerenciar o mapeamento de chaves de comandos DTMF (multifrequência de tom duplo) em Skype for Business Server.
   
 Os usuários de conferência discada podem pressionar teclas no teclado do telefone para executar comandos DTMF (multifrequência de tom dual). Comandos DTMF permitem que os usuários que discam para uma conferência controlem as configurações da conferência (como ativar ou desativar o próprio microfone, ou bloquear e desbloquear a conferência) pelo teclado do telefone. 
   
-Para gerenciar as chaves usadas para os comandos DTMF, use o Shell de Gerenciamento do Skype for Business Server com os cmdlets **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration** e **New-CsDialinConferencingDtmfConfiguration.**
+Para gerenciar as chaves usadas para os comandos DTMF, use o Shell de Gerenciamento Skype for Business Server com os cmdlets **Get-CsDialinConferencingDtmfConfiguration,** **Set-CsDialinConferencingDtmfConfiguration** e **New-CsDialinConferencingDtmfConfiguration.**
   
 Ao criar novas configurações DTMF para sites, as configurações do site têm precedência sobre as configurações globais. 
 
@@ -33,7 +33,7 @@ Ao criar novas configurações DTMF para sites, as configurações do site têm 
 
 1. Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função Cs-ServerAdministrator ou CsAdministrator.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Para exibir as configurações DTMF usadas para conferência discagem, execute o seguinte comando no prompt de comando :
     

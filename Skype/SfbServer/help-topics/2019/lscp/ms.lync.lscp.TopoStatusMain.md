@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'A página Topologia: Status exibe o status dos servidores em sua topologia do Skype for Business.'
-ms.openlocfilehash: c324f56304ef6b5cb0d34686d4c89e914d03f8e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'A página Topologia: Status exibe o status dos servidores em sua Skype for Business topologia.'
+ms.openlocfilehash: 81a91df2e3a7953204b305f2a09e7e2d2347584c8faee1d202e17aed3f012154
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277386"
 ---
 # <a name="topology-status"></a>Topologia: Status
 
-A **página Topologia**: **Status** exibe o status dos servidores em sua topologia do Skype for Business.
+A **página Topologia**: **Status** exibe o status dos servidores em sua Skype for Business topologia.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
 É possível executar as seguintes tarefas na página **Topologia**: **Status**
 
-- [Exibir uma lista de computadores executando o Skype for Business Server ou o Lync Server](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
+- [Exibir uma lista de computadores executando Skype for Business Server ou Lync Server](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
 - [Exibir detalhes sobre um serviço](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 

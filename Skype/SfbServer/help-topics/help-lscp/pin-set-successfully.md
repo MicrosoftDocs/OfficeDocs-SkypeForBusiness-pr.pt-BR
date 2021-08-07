@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 description: Para usar email para enviar o PIN para o usuário, clique em Abrir meu aplicativo de email para enviar o novo PIN ao usuário. Para copiar o PIN para a mensagem de email, selecione Mostrar PIN.
-ms.openlocfilehash: 76a91ddd0dd9f71e5059b3e1be333181eeb691d8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2d778887099d03a68877a5d3722684c26077a81a9ebc507dfb4785304d474098
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277056"
 ---
 # <a name="pin-set-successfully"></a>PIN Definido com Sucesso
  
 Para usar email para enviar o PIN para o usuário, clique em **Abrir meu aplicativo de email para enviar o novo PIN ao usuário**. Para copiar o PIN para a mensagem de email, selecione **Mostrar PIN**. 
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

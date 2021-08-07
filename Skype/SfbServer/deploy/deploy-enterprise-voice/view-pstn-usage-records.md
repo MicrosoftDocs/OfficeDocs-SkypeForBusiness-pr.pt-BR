@@ -1,5 +1,5 @@
 ---
-title: Exibir registros de uso de PSTN no Skype for Business
+title: Exibir registros de uso de PSTN em Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: 'Resumo: saiba como exibir registros de uso PSTN usando o Painel de Controle do Skype for Business Server ou o Shell de Gerenciamento do Skype for Business Server.'
-ms.openlocfilehash: 6a447f7aeb9db0a7ca858cf58df10273c28b533b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como exibir registros de uso PSTN usando o Painel de Controle Skype for Business Server ou o Shell de Gerenciamento Skype for Business Server.'
+ms.openlocfilehash: 4f36f263238c1c50299ff22756eaf7e6eed100141d15b3b7250a70a9a11adddf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305883"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business"></a>Exibir registros de uso de PSTN no Skype for Business
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>Exibir registros de uso de PSTN em Skype for Business
 
-**Resumo:** Saiba como exibir registros de uso PSTN usando o Painel de Controle do Skype for Business Server ou o Shell de Gerenciamento do Skype for Business Server.
+**Resumo:** Saiba como exibir registros de uso de PSTN usando o Painel de Controle Skype for Business Server ou o Shell de Gerenciamento Skype for Business Server.
 
 Um registro de uso PSTN (Rede Telefônica Pública Comutado) especifica uma classe de chamada (como interna, local ou longa distância) que pode ser feita por vários usuários ou grupos de usuários em uma organização. Para obter detalhes, consulte [Registros de Uso PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) na documentação planejamento.
 
-### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Para exibir um registro de uso PSTN usando o Painel de Controle do Skype for Business Server
+### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Para exibir um registro de uso PSTN usando Skype for Business Server Painel de Controle
 
-1. Abra o Painel de Controle do Skype for Business Server.
+1. Abra Skype for Business Server Painel de Controle.
 
 2. Na barra de navegação esquerda, clique em **Roteamento** de Voz e clique em **Uso PSTN.**
 
@@ -40,9 +40,9 @@ Um registro de uso PSTN (Rede Telefônica Pública Comutado) especifica uma clas
     > [!NOTE]
     > Uma página somente leitura do registro de uso PSTN selecionado mostra as rotas associadas e as políticas de voz associadas.
 
-### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Para exibir informações de uso do PSTN usando cmdlets do Shell de Gerenciamento do Skype for Business Server
+### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Para exibir as informações de uso do PSTN usando Skype for Business Server cmdlets do Shell de Gerenciamento
 
-- Para exibir informações sobre todos os seus usos PSTN, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:
+- Para exibir informações sobre todos os seus usos PSTN, digite o seguinte comando no Shell de Gerenciamento Skype for Business Server e pressione ENTER:
 
   ```powershell
   Get-CsPstnUsage
@@ -57,4 +57,4 @@ Um registro de uso PSTN (Rede Telefônica Pública Comutado) especifica uma clas
 
 ## <a name="see-also"></a>Confira também
 
-[Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype for Business](voice-policy-and-pstn-usage-records.md)
+[Criar ou modificar uma política de voz e configurar registros de uso PSTN em Skype for Business](voice-policy-and-pstn-usage-records.md)

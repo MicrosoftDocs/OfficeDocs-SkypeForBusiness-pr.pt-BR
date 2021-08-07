@@ -1,5 +1,5 @@
 ---
-title: Configurações de Segurança do Registrador Criar Novo ou Editar Existente
+title: Segurança do Registrador Configurações Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: b490e9f92102c1986e6fae68be9192dfe7ff805e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 73ae222a8884547f9a31b9ded8fa93f7fd3db19998d258e3b98d6064b9a50f47
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305593"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>Definições de Segurança de Registrador: Criar Novas ou Editar Existentes
 
@@ -32,4 +32,4 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Excluir um Registrador](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-registrar-configuration-settings)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

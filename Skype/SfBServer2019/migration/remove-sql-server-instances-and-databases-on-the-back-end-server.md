@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Remova os bancos de dados e instâncias do Microsoft SQL Server depois de remover os servidores em execução que dependem deles ou depois de reconfigurar os servidores para usar outro banco de dados. Você precisa executar o procedimento neste tópico ao retirar o SQL Server atual ou reconfigurar o servidor atual de forma que ele renderiza os bancos de dados obsoletos ou indisponíveis.
-ms.openlocfilehash: 6e108e4dfef86b482b839bd440f54702ab42107d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Você remove os Microsoft SQL Server e instâncias após remover os servidores em execução que dependem deles ou depois de reconfigurar os servidores para usar outro banco de dados. Você precisa executar o procedimento neste tópico quando você retirar o SQL Server atual ou reconfigurar o servidor atual de forma que ele renderiza os bancos de dados obsoletos ou indisponíveis.
+ms.openlocfilehash: f9e942f1f5516c0bf3437dd3fc9e2dc25b4cc4236e3cffabbf07ff08dde1e404
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752153"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306204"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Remover a Instância do SQL Server e os bancos de dados no Servidor Back-End
 
-Remova os bancos de dados e instâncias do Microsoft SQL Server depois de remover os servidores em execução que dependem deles ou depois de reconfigurar os servidores para usar outro banco de dados. Você precisa executar o procedimento neste tópico ao retirar o SQL Server atual ou reconfigurar o servidor atual de forma que ele renderiza os bancos de dados obsoletos ou indisponíveis.
+Você remove os Microsoft SQL Server e instâncias após remover os servidores em execução que dependem deles ou depois de reconfigurar os servidores para usar outro banco de dados. Você precisa executar o procedimento neste tópico quando você retirar o SQL Server atual ou reconfigurar o servidor atual de forma que ele renderiza os bancos de dados obsoletos ou indisponíveis.
   
-Para remover os bancos de dados ou instâncias do Servidor de Arquivamento ou do Monitoring Server, você deve primeiro remover a função de servidor. Da mesma forma, para remover as instâncias ou os bancos de dados do pool de Front-End, primeiro você deve remover ou reconfigurar a função de servidor dependente. Esses procedimentos não fazem distinção entre bancos de dados colocados ou instâncias separadas. Os procedimentos não são afetados pela colocação do banco de dados.
+Para remover os bancos de dados ou instâncias do Servidor de Arquivamento ou do Servidor de Monitoramento, primeiro remova a função de servidor. Da mesma forma, para remover as instâncias ou bancos de dados do pool de Front-End, primeiro você deve remover ou reconfigurar a função de servidor dependente. Esses procedimentos não fazem distinção entre bancos de dados colocados ou instâncias separadas. Os procedimentos não são afetados pela colocação do banco de dados.
   
 ## <a name="in-this-section"></a>Nesta seção
 

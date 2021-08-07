@@ -1,5 +1,5 @@
 ---
-title: Tabela Dialog
+title: Tabela de diálogo
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 description: A tabela da Caixa de Diálogo é uma tabela de suporte; cada registro representa uma caixa de diálogo de protocolo SIP.
-ms.openlocfilehash: 05d9519c9aef20b8c82d904a9d5718a4de8c092c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5796a50a5e9ab121f8c84f81bd00f417843b2c86c5863dafb6d639b1fc0bab55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305133"
 ---
-# <a name="dialog-table"></a>Tabela Dialog
+# <a name="dialog-table"></a>Tabela de diálogo
  
 A tabela da Caixa de Diálogo é uma tabela de suporte; cada registro representa uma caixa de diálogo de protocolo SIP.
   

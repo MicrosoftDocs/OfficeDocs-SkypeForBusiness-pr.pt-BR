@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
-description: Defina os computadores que serão parte de um pool de Servidor de Chat Persistente digitando o FQDN (nome de domínio totalmente qualificado) no FQDN do Computador. Esse precisa ser o nome do computador definido nos registros (A ou AAAA) do host DNS (sistema de nome de domínio).
-ms.openlocfilehash: a1cf1b9bead7178170e4003ed1e3156a0910f340
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Você define os computadores que serão parte de um pool de Servidores de Chat Persistente digitando o FQDN (nome de domínio totalmente qualificado) no FQDN do computador. Esse precisa ser o nome do computador definido nos registros (A ou AAAA) do host DNS (sistema de nome de domínio).
+ms.openlocfilehash: e658f6d9392b67050b2c540acf7c3fb8d47d0d7439bd51afaea5e84c916bb200
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305473"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Definir Computadores no Pool de Chat Persistente
  
-Defina os computadores que serão parte de um pool de Servidor de Chat Persistente digitando o FQDN (nome de domínio totalmente qualificado) no **FQDN do Computador.** Esse precisa ser o nome do computador definido nos registros (A ou AAAA) do host DNS (sistema de nome de domínio).
+Você define os computadores que serão parte de um pool de Servidor de Chat Persistente digitando o FQDN (nome de domínio totalmente qualificado) no **FQDN do Computador.** Esse precisa ser o nome do computador definido nos registros (A ou AAAA) do host DNS (sistema de nome de domínio).
   
 Clique em **Adicionar** para adicionar o FQDN à lista de computadores no pool.
   
@@ -42,6 +42,6 @@ Clique em **Ajuda** para acessar a ajuda sensível ao contexto, como esta págin
   
 ## <a name="see-also"></a>Confira também
 
-[Plano para Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planejar o Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Adicionar Servidor de Chat Persistente à sua topologia do Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Adicionar Servidor de Chat Persistente à topologia Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

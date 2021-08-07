@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Consulte Skype for Business online para atribuir uma licença de conferência discada e uma ID de conferência a um usuário e muitas outras configurações de conferência discada. '
-ms.openlocfilehash: 3a0f6d37612c345c8561fbd2a64b4c90fdb27957
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0bed95f9f5b8429dce52333046cd8c732c4bc0e9d94539d92c1e96f2d3284172
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306234"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gerenciar as configurações da Audioconferência para minha organização no Skype for Business Online
 
@@ -41,7 +41,7 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 ## <a name="assign-an-audio-conferencing-license"></a>Atribuir uma licença de Audioconferência
 
 > [!NOTE]
-> Não é possível atribuir licenças usando o Skype for Business **de administração.** Você deve usar o Microsoft 365 de administração. Consulte [Atribuir licenças do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> Não é possível atribuir licenças usando o Skype for Business **de administração.** Você deve usar o Centro de administração do Microsoft 365. Consulte [Atribuir licenças do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **Para atribuir uma licença para um usuário**
 

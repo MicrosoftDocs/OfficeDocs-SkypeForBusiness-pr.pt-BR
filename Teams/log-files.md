@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre logs de depuração, mídia e área de trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: d6baa1b7cbaff690899945ac554d1a3bcf9ff170
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689689"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724954"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar Microsoft Teams
 
@@ -48,7 +48,7 @@ Mac: selecione o menu Ajuda e escolha **Coletar arquivos de suporte**.
 
 Os logs de depuração, área de trabalho e mídia serão coletados em uma pasta com o nome MSTeams Diagnostics Log <local data and time> . Essa pasta pode ser compactada e compartilhada quando você abre uma solicitação de suporte com o Suporte da Microsoft. A pasta conterá pastas para Área de Trabalho, Reunião (Mídia) e Depuração (Web). Você pode coletar os arquivos usando os seguintes atalhos de teclado:
 
-Windows: Crtl + Alt + Shift + 1
+Windows: Ctrl + Alt + Shift + 1
 
 Mac: Opção + Comando + Turno + 1
 
@@ -85,7 +85,7 @@ Os registros de depuração mostram os seguintes fluxos de dados:
 
 Para coletar logs para Linux: atalho do teclado: Ctrl + Alt + Shift + 1 Os arquivos estarão disponíveis em ~/Downloads
 
-Para coletar logs para Navegador: Atalho do teclado: Crtl + Alt + Shift + 1 Os arquivos estarão disponíveis em %userprofile%\Downloads
+Para coletar logs para Navegador: Atalho do teclado: Ctrl + Alt + Shift + 1 Os arquivos estarão disponíveis em %userprofile%\Downloads
 
 ## <a name="media-logs"></a>Registros de mídia
 

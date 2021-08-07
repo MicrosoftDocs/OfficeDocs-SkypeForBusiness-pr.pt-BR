@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O nó do Lync Server lista os sites centrais em sua topologia. É possível executar as seguintes ações:'
-ms.openlocfilehash: 90d1b7fed5dec0372a7db33d7ffa5791f189ac13
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5416a32c2dc00651a19c6ebcce263d11cba18faa04cd9a536360e03740068ac4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305613"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nó de Escopo Raiz do Skype for Business Server
  
@@ -42,7 +42,7 @@ O **nó do Lync Server** lista os sites centrais em sua topologia. É possível 
     
 - **Instalar Banco de Dados**. Permite que você crie os bancos de dados necessários para sua implantação.
     
-- **Mesclar Topologia do Office Communications Server 2007 R2**. Inicia o assistente Mescla de Construtor de Topologia. Essa ferramenta coleta informações sobre seu ambiente anterior do Office Communications Server, incluindo informações do Servidor de Borda, e publica essas informações em um banco de dados compartilhado. 
+- **Mesclar Topologia do Office Communications Server 2007 R2**. Inicia o assistente Mescla de Construtor de Topologia. Esta ferramenta coleta informações sobre seu ambiente anterior Office Communications Server, incluindo informações do Servidor de Borda, e publica essas informações em um banco de dados compartilhado. 
     
 - **Remover Implantação**. Inicia o assistente Remover Implantação, que permite que você comece a remover toda a implantação.
     

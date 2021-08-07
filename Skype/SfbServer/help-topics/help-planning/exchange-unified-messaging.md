@@ -1,5 +1,5 @@
 ---
-title: Unificação de Mensagens do Exchange (Ferramenta de Planejamento)
+title: Skype for Business Server Exchange ferramenta de planejamento de Unificação de Mensagens
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: O Skype for Business Server 2015 oferece suporte à integração com a UM (Unificação de Mensagens) do Exchange para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
-ms.openlocfilehash: f85062c5c239c817fe141e36ff2b04c9809c0279
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server oferece suporte à integração com Exchange Unificação de Mensagens para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
+ms.openlocfilehash: 47bf74dfd543537ecd90aa7dfc2b588fabacd49b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116099"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772912"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>Unificação de Mensagens do Exchange (Ferramenta de Planejamento)
+# <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>Skype for Business Server Exchange ferramenta de planejamento de Unificação de Mensagens
 
-O Skype for Business Server 2015 oferece suporte à integração com a UM (Unificação de Mensagens) do Exchange para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
+Skype for Business Server 2015 oferece suporte à integração com Exchange Unificação de Mensagens (UM) para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
 
 Veja mais detalhes em:
 

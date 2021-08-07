@@ -1,5 +1,5 @@
 ---
-title: Habilitar o Atendimento de Chamadas de Grupo para usuários e atribuir um número de grupo no Skype for Business
+title: Habilitar a Coleta de Chamada de Grupo para usuários e atribuir um número de grupo Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: Habilita os usuários para Coleta de Chamadas de Grupo no Skype for Business Server Enterprise Voice e atribua um número de grupo.
-ms.openlocfilehash: 5469e9634e16b855993518092114184a2dca7359
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Habilita os usuários para a Coleta de Chamada de Grupo Skype for Business Server Enterprise Voice e atribua um número de grupo.
+ms.openlocfilehash: 6765cfab12cd888bb5e86f7b1c9b709b8edc7a8855d35de071ebb25619e48ce8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305903"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar o Atendimento de Chamadas de Grupo para usuários e atribuir um número de grupo no Skype for Business
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar a Coleta de Chamada de Grupo para usuários e atribuir um número de grupo Skype for Business
 
-Habilita os usuários para Coleta de Chamadas de Grupo no Skype for Business Server Enterprise Voice e atribua um número de grupo.
+Habilita os usuários para a Coleta de Chamada de Grupo Skype for Business Server Enterprise Voice e atribua um número de grupo.
 
 Depois de adicionar números de grupo de retirada de chamada à tabela de órbita do estacionamento de chamada, use a ferramenta SEFAUtil para atribuir os números de grupo aos usuários e habilitar a Coleta de Chamada de Grupo para eles.
 

@@ -13,25 +13,25 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Saiba mais sobre o gerenciamento de pool de front-end no Skype for Business Server, incluindo o gerenciamento de pools, perda de quórum e etapas especiais para pools com apenas dois Servidores Front-End.
-ms.openlocfilehash: 47e4b2157961a2856256e3d96a0676dd86d3f996
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 697cebf352d4fa0e2f245f50395107477ac3bae712346302e94746f173ce4d39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276616"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidade e gerenciamento do Pool de Front End
  
 Saiba mais sobre o gerenciamento de pool de front-end no Skype for Business Server, incluindo o gerenciamento de pools, perda de quórum e etapas especiais para pools com apenas dois Servidores Front-End.
   
-No Skype for Business Server, a arquitetura dos pools de Front-End usa um modelo de sistemas distribuídos, com os dados de cada usuário mantidos em até três Servidores Front-End no pool. Recomendamos que todos os pools de front-end do Enterprise Edition incluam pelo menos três Servidores Front-End.
+No Skype for Business Server, a arquitetura dos pools de Front-End usa um modelo de sistemas distribuídos, com os dados de cada usuário mantidos em até três Servidores Front-End no pool. Recomendamos que todos os seus Edição Enterprise de front-end incluam pelo menos três Servidores Front-End.
 
 > [!NOTE]
-> O Skype for Business Server 2019 não dá suporte a pools de Front-End do Enterprise Edition com dois Servidores Front-End e não permitirá que a topologia seja publicada nesse cenário.
+> Skype for Business Server 2019 não dá suporte Edição Enterprise pools de Front-End com dois Servidores Front-End e não permitirá que a topologia seja publicada nesse cenário.
   
 ## <a name="planning-for-the-management-of-front-end-pools"></a>Planejamento para o gerenciamento de pools de Front-End
 
- O Skype for Business Server usa um modelo de sistemas distribuídos com base no Windows Fabric. Neste modelo, os dados importantes para cada usuário e conferência são armazenados em três Servidores Front-End em um pool de Front-End. Esses três servidores que armazenaram um determinado conjunto de dados são chamados dereplicas.
+ Skype for Business Server usa um modelo de sistemas distribuídos com base em Windows Fabric. Neste modelo, os dados importantes para cada usuário e conferência são armazenados em três Servidores Front-End em um pool de Front-End. Esses três servidores que armazenaram um determinado conjunto de dados são chamados dereplicas.
   
 Com o modelo distribuído para pools de Front-End, um determinado número de servidores de um pool deve estar sendo executado para que o pool funcione. Há dois modos de perda para um pool.
   
@@ -56,7 +56,7 @@ Na primeira vez que você iniciar um novo pool de Front-End, é essencial que 85
 |10   <br/> |8   <br/> |
 |11  <br/> |9   <br/> |
 |12   <br/> |10   <br/> |
-|16 **Para o Skype for Business Server 2019** <br/> |12   <br/> |
+|16 **Para Skype for Business Server 2019** <br/> |12   <br/> |
 
 
    
@@ -67,7 +67,7 @@ Sempre que o pool for iniciado, 85% dos servidores devem ser iniciados (conforme
   
 #### <a name="pool-level-quorum-loss"></a>Perda de quórum no nível do pool
 
-Para que um pool de Front-End funcione, ele não pode estar em perda de quórum no nível do pool. Se o número de servidores em execução ficar abaixo do nível funcional, conforme mostrado na tabela a seguir, os servidores restantes no pool interromperão todos os serviços do Skype for Business Server. Observe que os números na tabela a seguir pressuem que os Servidores Back-End no pool estão sendo executados.
+Para que um pool de Front-End funcione, ele não pode estar em perda de quórum no nível do pool. Se o número de servidores em execução ficar abaixo do nível funcional, conforme mostrado na tabela a seguir, os servidores restantes no pool interromperão todos os Skype for Business Server serviços. Observe que os números na tabela a seguir pressuem que os Servidores Back-End no pool estão sendo executados.
   
 |Número total de Servidores de Front End no pool  <br/> |Número de servidores que devem estar em execução para o pool ser funcional  <br/> |
 |:-----|:-----|
@@ -77,7 +77,7 @@ Para que um pool de Front-End funcione, ele não pode estar em perda de quórum 
 |7   <br/> |Qualquer 4  <br/> |
 |8-9  <br/> |Qualquer um dos 4 primeiros 7 servidores  <br/> |
 |10-12  <br/> |Qualquer um dos 5 primeiros 9 servidores  <br/> |
-|12 a 16  **para o Skype for Business Server 2019**  <br/> |Qualquer um dos 7 primeiros 12 servidores  <br/> |
+|12 a 16 **para Skype for Business Server 2019**  <br/> |Qualquer um dos 7 primeiros 12 servidores  <br/> |
    
 Na tabela anterior, os "primeiros servidores" são os servidores que foram trazidos primeiro, cronologicamente, quando o pool foi iniciado pela primeira vez. Para determinar esses servidores, você pode usar  `Get-CsComputer` o cmdlet com a `-PoolFqdn` opção. Este cmdlet mostrará os servidores na ordem em que aparecem na topologia, e os que estão na parte superior da lista são os primeiros servidores.
   
@@ -94,7 +94,7 @@ Você deve observar alguns outros fatores para garantir que seus pools de Front-
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Pool de Front-End com dois servidores Front-End
 
-Não recomendamos implantar um pool de Front Ends que contém apenas dois Servidores de Front End. Esse pool pequeno não fornecerá uma solução robusta de alta disponibilidade, como faria um pool maior, e precisa de um cuidado extra no gerenciamento. Além disso, se o Servidor Back-End de um pool de dois servidores tiver sido baixado, o pool inteiro provavelmente também será baixado em breve. Se você deseja implantar apenas um ou dois servidores executando o Skype for Business Server, recomendamos implantá-los como servidores Standard Edition.
+Não recomendamos implantar um pool de Front Ends que contém apenas dois Servidores de Front End. Esse pool pequeno não fornecerá uma solução robusta de alta disponibilidade, como faria um pool maior, e precisa de um cuidado extra no gerenciamento. Além disso, se o Servidor Back-End de um pool de dois servidores tiver sido baixado, o pool inteiro provavelmente também será baixado em breve. Se você quiser implantar apenas um ou dois servidores executando Skype for Business Server, recomendamos implantá-los como servidores Edição Standard.
   
 Se você precisar implantar um pool com dois Servidores Front-End, siga estas diretrizes:
   

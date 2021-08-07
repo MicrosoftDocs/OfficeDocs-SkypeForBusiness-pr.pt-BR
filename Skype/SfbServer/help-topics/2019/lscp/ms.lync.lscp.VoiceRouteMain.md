@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: a9b55948228144fecbddc0d70b69c883b96590cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 99d4d86c42534307a9f935cba81a314d33b931dd785e50c9c597a273661b49a9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277306"
 ---
 # <a name="voice-route"></a>Rota de voz
 

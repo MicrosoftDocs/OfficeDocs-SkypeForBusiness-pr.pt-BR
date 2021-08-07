@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
-description: 'Resumo: Saiba como excluir configurações de Qualidade de Experiência (QoE) no Skype for Business Server.'
-ms.openlocfilehash: b48ddb9af715cd33b11d3c2f1c7ea90b3746aa4a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como excluir as configurações de Qualidade da Experiência (QoE) no Skype for Business Server.'
+ms.openlocfilehash: 8f97ed5fc1a59b68a4087406c14ad4414cc106ad25401322f025101f09aabe4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305423"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Excluir configurações de Qualidade de Experiência no Skype for Business Server
  
@@ -25,17 +25,17 @@ ms.locfileid: "51095275"
   
 Os atributos métricos da Qualidade da Experiência (QoE) rastreiam a qualidade das chamadas de áudio e vídeo feitas na organização, inclusive o número de pacotes de rede perdidos, o ruído de fundo e a quantidade de "jitter" (diferenças no atraso de pacotes). Esses atributos métricos são armazenados em um banco de dados separado de outros dados (como registros de detalhes das chamadas), permitindo a habilitação e desabilitação do QoE, independentemente de outros registros de dados.
   
-Quando você instala o Skype for Business Server, uma única coleção global de configurações de QoE é criada para você. Os administradores também têm a opção de criar conjuntos personalizados de definições que podem ser aplicados a sites individuais. Por design, as configurações no escopo do site têm precedência sobre configurações no escopo global. Se você excluir definições no escopo do site, o QoE será gerenciado naquele site usando as configurações globais.
+Quando você instala Skype for Business Server, uma única coleção global de configurações de QoE é criada para você. Os administradores também têm a opção de criar conjuntos personalizados de definições que podem ser aplicados a sites individuais. Por design, as configurações no escopo do site têm precedência sobre configurações no escopo global. Se você excluir definições no escopo do site, o QoE será gerenciado naquele site usando as configurações globais.
   
 Observe que você também pode "excluir" as configurações globais. Contudo, elas não serão realmente removidas. Em vez disso, todas as propriedades naquele conjunto serão redefinidas de acordo com os valores padrão. Por exemplo, por padrão, a exclusão é habilitada em um conjunto de configurações de QoE. Digamos que você modifique o conjunto global para que a exclusão seja desabilitada. Se depois você resolver apagar as definições globais, todas as propriedades serão redefinidas para os valores padrão. Nesse caso, isso significa que a exclusão será habilitada novamente.
   
-Você pode remover as configurações de QoE usando o Painel de Controle do Skype for Business Server ou usando o cmdlet [Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
+Você pode remover as configurações de QoE usando o Painel de Controle Skype for Business Server ou usando o cmdlet [Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
   
-### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para excluir as configurações de QoE usando o Painel de Controle do Skype for Business Server
+### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para excluir as configurações de QoE usando Skype for Business Server Painel de Controle
 
 1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.  
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle.  
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e arquivamento** e em **Dados de Qualidade da Experiência**.
     
@@ -43,9 +43,9 @@ Você pode remover as configurações de QoE usando o Painel de Controle do Skyp
     
 5. Clique em **OK**.
     
-## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Removendo configurações de QoE usando Windows PowerShell cmdlets
+## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Removendo a configuração de QoE Configurações usando Windows PowerShell cmdlets
 
-Você pode excluir as configurações de QoE usando Windows PowerShell e o cmdlet **Remove-CsQoEConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+Você pode excluir as configurações de QoE usando Windows PowerShell e o cmdlet **Remove-CsQoEConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 Usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>Para remover um conjunto especificado de definições de configuração de QoE
 
@@ -75,4 +75,4 @@ Para obter detalhes, [consulte Remove-CsQoEConfiguration](/powershell/module/sky
   
 ## <a name="see-also"></a>Confira também
 
-[Limpar manualmente o registro de detalhes da chamada e os bancos de dados de Qualidade da Experiência no Skype for Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[Limpar manualmente o registro de detalhes de chamada e os bancos de dados de Qualidade da Experiência no Skype for Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)

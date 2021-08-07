@@ -1,5 +1,5 @@
 ---
-title: Adicionar uma política de local a um site de rede no Skype for Business Server
+title: Adicionar uma política de local a um site de rede Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Atribua políticas de local E9-1-1 a sites de rede no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 887c2fcab63acd5d143ba80f6be6976e8fe2b39f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Atribua políticas de localização E9-1-1 a sites de rede Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: bdb34209a164375b1e21f9e896ec53d7d242c006ec4df4053634918857f8ea4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804271"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305933"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Adicionar uma política de local a um site de rede no Skype for Business Server
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Adicionar uma política de local a um site de rede Skype for Business Server
  
-Atribua políticas de local E9-1-1 a sites de rede no Skype for Business Server Enterprise Voice. 
+Atribua políticas de localização E9-1-1 a sites de rede Skype for Business Server Enterprise Voice. 
   
-Os exemplos a seguir mostram como adicionar a política de local **redmond** definida em Criar políticas de local no [Skype for Business Server](create-location-policies.md) a um local de rede existente e como criar um novo site de rede que usa a política de local **redmond.**
+Os exemplos a seguir mostram como adicionar a política de local **de Redmond** definida em Criar políticas de localização no [Skype for Business Server](create-location-policies.md) a um site de rede existente e como criar um novo site de rede que usa a política de local **redmond.**
   
 Para obter detalhes sobre como trabalhar com sites de rede, consulte a documentação do Shell de Gerenciamento do Lync Server para os seguintes cmdlets:
   
@@ -41,11 +41,11 @@ Para obter detalhes sobre como trabalhar com sites de rede, consulte a documenta
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>Para atribuir uma política de local a um site de rede existente
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 2. Execute os cmdlets a seguir para modificar um site de rede existente.
     
-    Atribua a política de localização marcada de **Redmond** a um site de rede existente chamado **Redmond**.
+    Atribua a política local com marcação **redmond** a um site de rede existente chamado **Redmond**.
     
    ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
@@ -53,7 +53,7 @@ Para obter detalhes sobre como trabalhar com sites de rede, consulte a documenta
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>Para atribuir uma política de local a um novo site de rede
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 2. Execute o seguinte cmdlet para criar um novo site de rede.
     

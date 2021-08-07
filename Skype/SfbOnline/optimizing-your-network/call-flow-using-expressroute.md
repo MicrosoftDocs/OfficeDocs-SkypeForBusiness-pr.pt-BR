@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Este artigo ajuda a explicar os princípios centrais do fluxo de chamadas do Skype for Business Online e da Rota Expressa, além de fornecer alguns exemplos detalhados de fluxos de chamadas para que você possa entender e planejar corretamente.
-ms.openlocfilehash: bca31191356d127245d251117904c0a300862aa5
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 098949c41430bc939197a21373489b1aaa10c1678943d0ee695cd7ade02be142
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304633"
 ---
 # <a name="call-flow-using-expressroute"></a>Fluxo de chamadas usando Rota Expressa
 
@@ -83,7 +83,7 @@ O tráfego de rede para Skype for Business Online se enquadra em duas categorias
 
 Os destinos para esse tráfego são [encontrados Office 365 URLs](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) e intervalos de endereços IP para todos os serviços Microsoft 365 ou Office 365 ip. Para cada URL, ele indica se essa parte do tráfego pode atravessar o ExpressRoute para Microsoft 365 ou Office 365. Para diagramas que mostram que a Internet ainda é usada para algum tráfego quando o ExpressRoute está habilitado, consulte [Azure ExpressRoute for Office 365](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd). É importante entender que até mesmo URLs listadas como sendo rupíveis sobre ExpressRoute também são rupíveis pela Internet. Isso significa que, em alguns cenários, a determinação sobre se a Internet ou ExpressRoute será usada depende da localização do cliente e da configuração de servidores proxy e firewalls. Também é importante entender que, como nem todas as URLs associadas ao Microsoft 365 ou Office 365 são capazes de usar ExpressRoute, uma conexão com a Internet é necessária mesmo se você comprar o ExpressRoute de um parceiro do ExpressRoute.
 
-O tráfego que só pode ser enviado pela Internet inclui dependências comuns da Internet, como Listas de Revogação de Certificados (CRLs), pesquisas DNS e resolução de nomes, URLs para serviços de Microsoft 365 ou Office 365 compartilhados, como para o centro de administração do Microsoft 365 e alguns recursos de comunicação não em tempo real do Skype for Business Online, como telemetria e federação para interoperabilidade com o consumidor do Skype, bem como mídia que é transmitida para o Reunião do Skype Broadcast. Para ajudar você a tomar decisões, veja [Roteamento com o ExpressRoute para Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) para obter mais considerações durante o planejamento de seu roteamento de rede.
+O tráfego que só pode ser enviado pela Internet inclui dependências comuns da Internet, como Listas de Revogação de Certificados (CRLs), pesquisas DNS e resolução de nomes, URLs para serviços de Microsoft 365 ou Office 365 compartilhados, como para o Centro de administração do Microsoft 365, e alguns recursos de comunicação não em tempo real do Skype for Business Online, como telemetria e federação para interoperabilidade com o consumidor Skype, bem como mídia que é transmitida para o Reunião do Skype Broadcast. Para ajudar você a tomar decisões, veja [Roteamento com o ExpressRoute para Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) para obter mais considerações durante o planejamento de seu roteamento de rede.
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>Princípios para fluxos de chamadas com o Skype for Business
 

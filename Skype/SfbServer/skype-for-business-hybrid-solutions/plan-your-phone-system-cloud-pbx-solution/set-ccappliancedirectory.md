@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
-description: O Set-CcApplianceDirectory cmdlet define o diretório de trabalho no servidor host do Skype for Business Cloud Connector Edition. Todos os arquivos de implantação são armazenados nesse diretório.
-ms.openlocfilehash: a410d20c41fbb0bfef88449aaac96be727218add
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O Set-CcApplianceDirectory cmdlet define o diretório de trabalho no servidor Skype for Business Cloud Connector Edition host. Todos os arquivos de implantação são armazenados neste diretório.
+ms.openlocfilehash: 8ca6b8b8e175058e5f19c86a9dd1c6e0cf8a43ab6ef7a439eee4e09b5430f6a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306592"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
-O Set-CcApplianceDirectory cmdlet define o diretório de trabalho no servidor host do Skype for Business Cloud Connector Edition. Todos os arquivos de implantação são armazenados nesse diretório.
+O Set-CcApplianceDirectory cmdlet define o diretório de trabalho no servidor Skype for Business Cloud Connector Edition host. Todos os arquivos de implantação são armazenados neste diretório.
   
 ```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
@@ -49,16 +49,16 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O Set-CcApplianceDirectory cmdlet não aceita entrada em pipeline.
+Nenhum. O Set-CcApplianceDirectory cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 

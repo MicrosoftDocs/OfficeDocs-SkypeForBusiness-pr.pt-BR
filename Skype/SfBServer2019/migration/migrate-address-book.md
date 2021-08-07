@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Em geral, o Address Book é migrado junto com o restante da sua topologia. No entanto, talvez você precise executar algumas etapas pós-migração se tiver personalizado o seguinte em seu ambiente herdado:'
-ms.openlocfilehash: 6d2ccf0d38814d149495518a71f888f0c2999d24
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 'Em geral, o Livro de Endereços é migrado juntamente com o restante de sua topologia. No entanto, talvez seja necessário executar algumas etapas pós-migração se tiver personalizado o seguinte em seu ambiente herdado:'
+ms.openlocfilehash: 19ff3b0ca389832cfb2b1739aeb85738c30238576143d3542388fd1ef97a6498
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306214"
 ---
 # <a name="migrate-address-book"></a>Migrar o Catálogo de Endereços
 
-Em geral, o Address Book é migrado junto com o restante da sua topologia. No entanto, talvez você precise executar algumas etapas pós-migração se tiver personalizado o seguinte em seu ambiente herdado: 
+Em geral, o Livro de Endereços é migrado juntamente com o restante de sua topologia. No entanto, talvez seja necessário executar algumas etapas pós-migração se tiver personalizado o seguinte em seu ambiente herdado: 
 
 - Personalizou as regras de normalização do Catálogo de Endereços
 
@@ -29,21 +29,21 @@ Em geral, o Address Book é migrado junto com o restante da sua topologia. No en
 
  **Regras de Normalização do Catálogo de Endereços**
 
-Se você personalizava regras de normalização do Livro de Endereços em seu ambiente herdado, você deve migrar as regras personalizadas para seu pool piloto. Se você não personalizou regras de normalização do Catálogo de Endereços, não há nada para migrar para o serviço do Catálogo de Endereços. As regras de normalização padrão do Skype for Business Server 2019 são as mesmas regras padrão para a instalação herdada. Siga o procedimento posteriormente nesta seção para migrar regras de normalização personalizadas.
+Se você personalizava as regras de normalização do Livro de Endereços em seu ambiente herdado, você deve migrar as regras personalizadas para o pool piloto. Se você não personalizou regras de normalização do Catálogo de Endereços, não há nada para migrar para o serviço do Catálogo de Endereços. As regras de normalização padrão para Skype for Business Server 2019 são as mesmas que as regras padrão para a instalação herdda. Siga o procedimento posteriormente nesta seção para migrar regras de normalização personalizadas.
 
 > [!NOTE]
 > Se sua organização usa controle de chamadas remotas e você personalizou regras de normalização do Catálogo de Endereços, deve executar o procedimento deste tópico antes de usar o controle de chamadas remotas. O procedimento requer a associação no grupo RTCUniversalServerAdmins ou direitos equivalentes. 
 
  **UseNormalizationRules definido como Falso**
 
-Se você definir o valor de **UseNormalizationRules** como False para que os usuários possam usar números de telefone conforme definidos nos Serviços de Domínio Active Directory sem que o Skype for Business Server 2019 aplique regras de normalização, será necessário definir os parâmetros **UseNormalizationRules** e **IgnoreGenericRules** como True. Siga o procedimento posteriormente nesta seção para definir esses parâmetros como Verdadeiro. 
+Se você definir o valor para **UseNormalizationRules** como False para que os usuários possam usar números de telefone como são definidos nos Serviços de Domínio do Active Directory sem que o Skype for Business Server 2019 aplique regras de normalização, você precisará definir os parâmetros **UseNormalizationRules** e **IgnoreGenericRules** como True. Siga o procedimento posteriormente nesta seção para definir esses parâmetros como Verdadeiro. 
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>Para migrar regras de normalização personalizadas do Catálogo de Endereços
 
-1. Encontre o Company_Phone_Number_Normalization_Rules.txt na raiz da pasta compartilhada do Livro de Endereços e copie-o para a raiz da pasta compartilhada do Livro de Endereços no pool piloto do Skype for Business Server 2019.
+1. Encontre o arquivo Company_Phone_Number_Normalization_Rules.txt na raiz da pasta compartilhada do Livro de Endereços e copie-o para a raiz da pasta compartilhada do Livro de Endereços no pool piloto Skype for Business Server 2019.
 
     > [!NOTE]
-    > The sample Address Book normalization rules have been installed in your ABS Web component file directory. O caminho é **$installedDriveLetter:\Program Files\Microsoft Skype for Business Server 2019\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt**. Esse arquivo pode ser copiado e renomeado como **Company_Phone_Number_Normalization_Rules.txt** para o diretório raiz da pasta compartilhada do livro de endereços. Por exemplo, o livro de endereços compartilhado no **$serverX**, o caminho será semelhante **\\ a: $serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**. 
+    > The sample Address Book normalization rules have been installed in your ABS Web component file directory. O caminho é **$installedDriveLetter:\Arquivos de Programas\Microsoft Skype for Business Server 2019\Componentes da Web\Arquivos** do Livro de Endereços\Arquivos\ Sample_Company_Phone_Number_Normalization_Rules.txt. Esse arquivo pode ser copiado e renomeado como **Company_Phone_Number_Normalization_Rules.txt** para o diretório raiz da pasta raiz do livro de endereços compartilhado. Por exemplo, o livro de endereços compartilhado em **$serverX**, o caminho será semelhante **\\ a: $serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**. 
 
 2. Use um editor de texto, como o Bloco de Notas para abrir o arquivo Company_Phone_Number_Normalization_Rules.txt.
 
@@ -63,17 +63,17 @@ Se você definir o valor de **UseNormalizationRules** como False para que os usu
 
 ## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a>Para definir UseNormalizationRules e IgnoreGenericRules como verdadeiro
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** clique em **Microsoft Skype for Business Server 2019** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique em **Microsoft Skype for Business Server 2019** e clique em Skype for Business Server **Shell de Gerenciamento.**
 
-2. Siga um destes procedimentos:
+2. Faça um dos seguintes:
 
-   - Se sua implantação incluir apenas o Skype for Business Server 2019, execute o seguinte cmdlet no nível global para alterar os valores de **UseNormalizationRules** e **IgnoreGenericRules** para True: 
+   - Se sua implantação incluir apenas Skype for Business Server 2019, execute o seguinte cmdlet no nível global para alterar os valores de **UseNormalizationRules** e **IgnoreGenericRules** para True: 
 
    ```PowerShell
    Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
-   - Se sua implantação inclui uma combinação do Skype for Business Server 2019 e uma instalação herdada, execute o seguinte cmdlet e atribua-o a cada pool do Skype for Business Server 2019 na topologia:
+   - Se sua implantação incluir uma combinação de Skype for Business Server 2019 e uma instalação herdada, execute o seguinte cmdlet e atribua-o a cada pool Skype for Business Server 2019 na topologia:
 
    ```PowerShell
    New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
@@ -81,11 +81,11 @@ Se você definir o valor de **UseNormalizationRules** como False para que os usu
 
 3. Aguarde a replicação do armazenamento de Gerenciamento Central ocorrer em todos os pools.
 
-4. Modifique o arquivo de regras de normalização de telefone, "Company_Phone_Number_Normalization_Rules.txt", para sua implantação apagar o conteúdo. O arquivo está no compartilhamento de arquivos de cada pool do Skype for Business Server 2019. Se o arquivo não estiver presente, crie então um arquivo vazio chamado "Company_Phone_Number_Normalization_Rules.txt".
+4. Modifique o arquivo de regras de normalização de telefone, "Company_Phone_Number_Normalization_Rules.txt", para sua implantação apagar o conteúdo. O arquivo está no compartilhamento de arquivos de cada pool Skype for Business Server 2019. Se o arquivo não estiver presente, crie então um arquivo vazio chamado "Company_Phone_Number_Normalization_Rules.txt".
 
-5. Aguarde vários minutos para que todos os pools de Front End leiam os novos arquivos.
+5. Aguarde vários minutos para que todos os pools de Front-End leiam os novos arquivos.
 
-6. Execute o seguinte cmdlet em cada pool do Skype for Business Server 2019 em sua implantação:
+6. Execute o seguinte cmdlet em cada pool Skype for Business Server 2019 em sua implantação:
 
    ```PowerShell
    Update-CsAddressBook

@@ -1,5 +1,5 @@
 ---
-title: Configurar um tronco sem bypass de mídia no Skype for Business Server
+title: 'Skype for Business Server: configurar um tronco sem bypass de mídia'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
-description: 'Resumo: Configure um tronco sem bypass de mídia habilitado para o Skype for Business Server.'
-ms.openlocfilehash: ff1c34e36906c8b9f5c88495e3c24239f572184a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: Configure um tronco sem bypass de mídia habilitado para Skype for Business Server.'
+ms.openlocfilehash: 4cf17da7233697d31f386501be6f7089bf803205
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772422"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar um tronco sem bypass de mídia no Skype for Business Server
+# <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype for Business Server: configurar um tronco sem bypass de mídia
 
-**Resumo:** Configure um tronco sem bypass de mídia habilitado para o Skype for Business Server.
+**Resumo:** Configure um tronco sem bypass de mídia habilitado para Skype for Business Server.
 
 Se quiser configurar um tronco com desvio de mídia desabilitado, siga estas etapas. Se você quiser configurar um tronco com bypass de mídia habilitado, consulte [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md).
 
@@ -33,7 +33,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 
 ### <a name="to-configure-a-trunk-without-media-bypass"></a>Para configurar um tronco sem bypass de mídia
 
-1. Abra o Painel de Controle do Skype for Business Server.
+1. Abra Skype for Business Server Painel de Controle.
 
 2. Na barra de navegação esquerda, clique em **Roteamento de Voz** e clique em **Configuração de Tronco**.
 
@@ -64,7 +64,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 
 7. Se o par de tronco dá suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação, selecione a caixa de seleção Habilitar envio **consultar o gateway.**
 
-8. (Opcional) Para habilitar o roteamento entre troncos, associe e configure os registros de uso de PSTN a essa configuração de tronco. Os usos PSTN associados a essa configuração de tronco serão aplicados para todas as chamadas de entrada por meio do tronco que não são originadas de um ponto de extremidade do Skype for Business Server. Para gerenciar registros de uso de PSTN associados a uma configuração de tronco, use um dos seguintes métodos:
+8. (Opcional) Para habilitar o roteamento entre troncos, associe e configure os registros de uso de PSTN a essa configuração de tronco. Os usos PSTN associados a essa configuração de tronco serão aplicados para todas as chamadas de entrada pelo tronco que não são originadas de um ponto de extremidade Skype for Business Server de entrada. Para gerenciar registros de uso de PSTN associados a uma configuração de tronco, use um dos seguintes métodos:
 
    - Para selecionar um ou mais registros de uma lista de todos os registros de uso PSTN disponíveis em sua implantação Enterprise Voice, clique em **Selecionar**. Destaque os registros que deseja associar a essa configuração de tronco e clique em **OK**.
 
@@ -108,12 +108,12 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
      c. Clique em **OK**.
 
      > [!IMPORTANT]
-     > É importante associar registros de uso de PSTN de acordo com o par do Servidor de Mediação associado ao tronco que está sendo configurado. Se o par do Servidor de Mediação for um gateway PSTN ou um Controlador de Borda de Sessão (SBC), é altamente recomendável que a configuração do tronco não esteja associada a um registro de uso PSTN que se encaminhe para um destino PSTN ou qualquer outro sistema downstream conectado via Skype for Business Server.
+     > É importante associar registros de uso de PSTN de acordo com o par do Servidor de Mediação associado ao tronco que está sendo configurado. Se o par do Servidor de Mediação for um gateway PSTN ou um Controlador de Borda de Sessão (SBC), é altamente recomendável que a configuração do tronco não esteja associada a um registro de uso PSTN que se encaminhe para um destino PSTN ou qualquer outro sistema downstream conectado por meio de Skype for Business Server.
 
 9. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição de um registro na lista, selecione o registro de uso PSTN e clique nas setas para cima ou para baixo.
 
     > [!IMPORTANT]
-    > A ordem em que os registros de uso de PSTN são listados na configuração de tronco é importante. O Skype for Business Server percorre a lista de cima para baixo.
+    > A ordem em que os registros de uso de PSTN são listados na configuração de tronco é importante. Skype for Business Server percorre a lista de cima para baixo.
 
 10. **Habilitar engatador RTP** deve ser selecionado para habilitar bypass de mídia para clientes sob um NAT ou firewall e um SBC que dê suporte ao engatador.
 
@@ -127,7 +127,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 
     - Para escolher uma ou mais regras em uma lista de todas as regras de conversão disponíveis em sua implantação Enterprise Voice, clique em **Selecionar**. Em **Selecionar Regras de Conversão**, clique nas regras que deseja associar ao tronco e clique em **OK**.
 
-    - Para definir uma nova regra de conversão e associá-la ao tronco, clique em **Novo**. Para obter detalhes sobre regras de conversão, consulte [Regras de conversão no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+    - Para definir uma nova regra de conversão e associá-la ao tronco, clique em **Novo**. Para obter detalhes sobre regras de conversão, consulte [Regras de conversão em Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
     - Para editar uma regra de conversão que já está associada ao tronco, clique no nome da regra e, depois, em **Mostrar detalhes**.
 
@@ -142,7 +142,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 
     - Para escolher uma ou mais regras em uma lista de todas as regras de conversão disponíveis em sua implantação Enterprise Voice, clique em **Selecionar**. Em **Selecionar Regras de Conversão**, clique nas regras que deseja associar ao tronco e clique em **OK**.
 
-    - Para definir uma nova regra de conversão e associá-la ao tronco, clique em **Novo**. Para obter detalhes sobre regras de conversão, consulte [Regras de conversão no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+    - Para definir uma nova regra de conversão e associá-la ao tronco, clique em **Novo**. Para obter detalhes sobre regras de conversão, consulte [Regras de conversão em Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
     - Para editar uma regra de conversão que já está associada ao tronco, clique no nome da regra e, depois, em **Mostrar detalhes**.
 
@@ -156,17 +156,17 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 16. Certifique-se de que as regras de conversão do tronco sejam organizadas na ordem correta. Para alterar a posição de uma regra na lista, realça o nome da regra e clique na seta para cima ou para baixo.
 
     > [!IMPORTANT]
-    > O Skype for Business Server percorre a lista de regras de conversão de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um tronco de modo que um número discado possa corresponder a mais de uma regra de conversão, certifique-se de que as regras mais restritivas estejam classificadas acima das regras menos restritivas. Por exemplo, se você tiver incluído uma regra de conversão que corresponde a qualquer número de 11 dígitos e uma regra de conversão que corresponde a apenas  números de 11 dígitos que começam com +1425, certifique-se de que a regra que corresponde a qualquer número de 11 dígitos seja classificação abaixo da regra mais restritiva.
+    > Skype for Business Server percorre a lista de regras de conversão da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um tronco de modo que um número discado possa corresponder a mais de uma regra de conversão, certifique-se de que as regras mais restritivas estejam classificadas acima das regras menos restritivas. Por exemplo, se você tiver incluído uma regra de conversão que corresponde a qualquer número de 11 dígitos e uma regra de conversão que corresponde a apenas  números de 11 dígitos que começam com +1425, certifique-se de que a regra que corresponde a qualquer número de 11 dígitos seja classificação abaixo da regra mais restritiva.
 
 17. Depois de concluir a configuração do tronco, clique em **OK**.
 
 18. Na página **Configuração do Tronco**, clique em **Confirmar** e clique em **Confirmar tudo**.
 
     > [!NOTE]
-    > Sempre que você criar ou modificar uma configuração de tronco, execute o comando **Confirmar tudo** para publicar a alteração da configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz no Skype for Business na documentação Operações.
+    > Sempre que você criar ou modificar uma configuração de tronco, execute o comando **Confirmar tudo** para publicar a alteração da configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz Skype for Business na documentação Operações.
 
 ## <a name="see-also"></a>Confira também
 
-[Configurar um tronco com bypass de mídia no Skype for Business Server](configure-trunk-with-media-bypass.md)
+[Configurar um tronco com bypass de mídia Skype for Business Server](configure-trunk-with-media-bypass.md)
 
 [Definindo regras de conversão](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)

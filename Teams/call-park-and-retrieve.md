@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba como usar o estacionamento de chamada e recuperar para colocar uma chamada em espera no Microsoft Teams.
-ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
-ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
+ms.openlocfilehash: 751101a250c7a3f38ac7ba51dc8a22cc91d4d7b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53147179"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772602"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -53,7 +53,7 @@ Para habilitar uma política de estacionamento de chamada
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Políticas**  >  **de estacionamento de Chamada de Voz**.
 2. Na guia **Gerenciar políticas,** clique em **Adicionar**.
-3. Dê um nome à política e **alterne Permitir** estacionamento de chamada para **On**.
+3. Dê um nome à política e **alterne Permitir** estacionamento de chamada para **On**. (O intervalo de retirada de chamada e o tempo de saída não podem ser personalizados.)
 
     ![Captura de tela das configurações de política de estacionamento de chamada](media/call-park-add-policy.png)
 
