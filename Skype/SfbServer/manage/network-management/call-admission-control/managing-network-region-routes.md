@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Uma rota de região de rede define a rota entre um par de regiões de rede. Cada par de regiões de rede de sua implantação de controle de admissão de chamadas exige uma rota de região de rede.
-ms.openlocfilehash: c91f46ff45dd50f638cdb4f256fb93f2d33781ec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 822785657020e9f1f071623f844766cfb1a12dd1b5cee1c20c23edcf584addad
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118550"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590755"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gerenciando roteamento de regiões de rede no Skype for Business Server
 
@@ -24,20 +24,20 @@ Uma *rota de região de rede* define a rota entre um par de regiões de rede. Ca
 
 ## <a name="view-network-region-route-information"></a>Exibir informações de rota de região de rede 
 
-Cada região de um configuração de CAC (controle de admissão de chamadas) deve ter alguma forma de acessar todas as outras regiões. Enquanto os links da região definem limitações nas conexões entre regiões e representam também os links físicos, uma rota determina o caminho vinculado que a conexão percorrerá de uma região a outra. Use os procedimentos a seguir para exibir as rotas de região de rede existentes no Painel de Controle do Skype for Business Server ou no Shell de Gerenciamento do Skype for Business Server. 
+Cada região de um configuração de CAC (controle de admissão de chamadas) deve ter alguma forma de acessar todas as outras regiões. Enquanto os links da região definem limitações nas conexões entre regiões e representam também os links físicos, uma rota determina o caminho vinculado que a conexão percorrerá de uma região a outra. Use os procedimentos a seguir para exibir as rotas de região de rede existentes Skype for Business Server Painel de Controle ou Skype for Business Server Shell de Gerenciamento. 
 
-### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>Para exibir informações de rota de região de rede no Painel de Controle do Skype for Business Server
+### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>Para exibir informações de rota de região de rede no Skype for Business Server Painel de Controle
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região.**
 
 4.  Na página **Rota de Região**, clique na rota de região que deseja exibir.
 
 
-    > [!NOTE]  
+    > [!NOTE]
     > É possível ver apenas uma rota de região por vez.
 
 
@@ -46,34 +46,34 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 ### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de rota de região de rede usando Windows PowerShell cmdlets
 
-As informações de rota de região de rede podem ser exibidas usando Windows PowerShell e o cmdlet Get-CsNetworkInterRegionRoute de rede. Esse cmdlet pode ser executado no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
+As informações de rota de região de rede podem ser exibidas usando Windows PowerShell e o cmdlet Get-CsNetworkInterRegionRoute de rede. Esse cmdlet pode ser executado no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
 
 ### <a name="to-view-network-region-route-information"></a>Para exibir informações de rota de região de rede
 
-  - Para exibir informações sobre todas as rotas de região de rede, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:
+  - Para exibir informações sobre todas as suas rotas de região de rede, digite o seguinte comando no Shell de Gerenciamento Skype for Business Server e pressione ENTER:
     
-        Get-CsNetworkInterRegionRoute
+    **Get-CsNetworkInterRegionRoute**
     
     Isto retorna informações semelhantes à seguinte:
     
-        Identity                  : TransAmericaRoute
-        NetworkRegionLinks        : {NorthwestToNortheast}
-        InterNetworkRegionRouteID : TransAmericaRoute
-        NetworkRegionID1          : Pacific Northwest
-        NetworkRegionID2          : Northeast
+    Identidade : TransAmericaRoute<br/>
+    NetworkRegionLinks : {NorthwestToNortheast}<br/>
+    InterNetworkRegionRouteID : TransAmericaRoute<br/>
+    NetworkRegionID1 : Noroeste do Pacífico<br/>
+    NetworkRegionID2 : Noroeste<br/>
 
 Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 
 
 ## <a name="create-or-modify-network-region-routes"></a>Criar ou modificar rotas de região de rede
 
-Cada região de um configuração de CAC (controle de admissão de chamadas) deve ter alguma forma de acessar todas as outras regiões. Enquanto os links da região definem limitações nas conexões entre regiões e representam também os links físicos, uma rota determina o caminho vinculado que a conexão percorrerá de uma região a outra. Você pode usar o Painel de Controle do Skype for Business Server para configurar rotas de região de rede. No Painel de Controle do Skype for Business Server, você pode criar, modificar ou excluir uma rota de região de rede. Use este tópico para criar ou modificar uma rota de região de rede. 
+Cada região de um configuração de CAC (controle de admissão de chamadas) deve ter alguma forma de acessar todas as outras regiões. Enquanto os links da região definem limitações nas conexões entre regiões e representam também os links físicos, uma rota determina o caminho vinculado que a conexão percorrerá de uma região a outra. Você pode usar o Painel de Controle Skype for Business Server para configurar rotas de região de rede. No painel Skype for Business Server controle, você pode criar, modificar ou excluir uma rota de região de rede. Use este tópico para criar ou modificar uma rota de região de rede. 
 
 ### <a name="to-create-a-network-region-route"></a>Para criar uma rota de região de rede
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região.**
 
@@ -82,7 +82,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 5.  Em **Nova Rota de Região**, digite um valor no campo **Nome**.
    
     > [!NOTE]  
-    > Esse valor deve ser exclusivo na implantação do Skype for Business Server.
+    > Esse valor deve ser exclusivo em sua Skype for Business Server implantação.
 
 6.  Na lista listada da região de rede **\# 1,** selecione uma das duas regiões a serem conectadas por essa rota.
 
@@ -100,7 +100,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região.**
 
@@ -115,13 +115,13 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 ## <a name="delete-existing-network-region-routes"></a>Excluir rotas de região de rede existentes
 
-Cada região de um configuração de CAC (controle de admissão de chamadas) deve ter alguma forma de acessar todas as outras regiões. Enquanto os links da região definem limitações nas conexões entre regiões e representam também os links físicos, uma rota determina o caminho vinculado que a conexão percorrerá de uma região a outra. Você pode usar o Painel de Controle do Skype for Business Server para configurar rotas de região de rede. No Painel de Controle do Skype for Business Server, você pode criar, modificar ou excluir uma rota de região de rede. Use este tópico para excluir rotas de região de rede existentes. 
+Cada região de um configuração de CAC (controle de admissão de chamadas) deve ter alguma forma de acessar todas as outras regiões. Enquanto os links da região definem limitações nas conexões entre regiões e representam também os links físicos, uma rota determina o caminho vinculado que a conexão percorrerá de uma região a outra. Você pode usar o Painel de Controle Skype for Business Server para configurar rotas de região de rede. No painel Skype for Business Server controle, você pode criar, modificar ou excluir uma rota de região de rede. Use este tópico para excluir rotas de região de rede existentes. 
 
 ### <a name="to-delete-a-network-region-route"></a>Para excluir uma rota de região de rede
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região.**
 

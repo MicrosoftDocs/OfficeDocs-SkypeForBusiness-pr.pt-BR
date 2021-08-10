@@ -88,8 +88,8 @@ additionalContent:
   sections:
     - title: Precisa de ajuda adicional?
     - items:
-        - title: Envolver o FastTrack para assistência de implantação
-          summary: 'Quando Teams de implantação exigem assistência mais envolvida, os clientes com assinaturas qualificadas podem envolver o FastTrack para obter suporte.'
+        - title: Envolver FastTrack para assistência de implantação
+          summary: 'Quando Teams de implantação exigem assistência mais envolvida, os clientes com assinaturas qualificadas podem FastTrack suporte.'
           url: 'https://www.microsoft.com/fasttrack'
         - title: Encontrar um parceiro da Microsoft
           summary: Precisa de orientações adicionais? Os provedores de soluções da Microsoft podem ajudá-lo a gerenciar a técnica e a logística da atualização.

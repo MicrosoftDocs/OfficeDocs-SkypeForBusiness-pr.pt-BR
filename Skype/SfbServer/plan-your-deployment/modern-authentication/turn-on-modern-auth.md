@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Este artigo descreve os cmdlets que dão aos administradores mais controle dos métodos de autenticação usados dentro e fora de uma empresa. Os administradores podem ativar ou desativar os métodos de autenticação internamente ou externamente para sua rede.
-ms.openlocfilehash: 3d7217167f7e72c4db0ec438fb20d746cd612cc2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c9d4cce512ebb296cb442c6a78482f19bf7062aaceb8fe8704cbca3c277e4e92
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306872"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planejando desativar os métodos de autenticação herdou interna e externamente para sua rede.
 
@@ -30,7 +30,7 @@ ms.locfileid: "51116049"
   
 A Autenticação Moderna não apenas habilita métodos mais seguros de autenticação, como Two-Factor Auth ou Autenticação baseada em certificado, ela pode realizar a autorização do usuário sem precisar de um nome de usuário ou senha também. É muito útil.
 
-Este artigo ajudará você a conectar os buracos que foram explorados para ataques de Negação de Serviço (DOS) em Servidores do Skype for Business, desligando métodos mais antigos usados para autenticação, externamente, internamente ou ambos, para sua rede. Por exemplo, um bom método para ajudar a parar ataques de DOS seria desativar a Autenticação Integrada do Windows (que inclui NTLM e Kerberos). Desligar o NTLM externamente e confiar na autenticação baseada em certificado ajuda a proteger senhas contra exposição. Isso porque o NTLM usa credenciais de senha para autenticar usuários, mas a autenticação baseada em certificado , habilitada pela Modern Auth, não. Isso significa que uma opção ideal para reduzir ataques de DOS é bloquear o NTLM externamente e usar apenas a autenticação baseada em certificados.
+Este artigo ajudará você a conectar os buracos que foram explorados para ataques de Negação de Serviço (DOS) em servidores Skype for Business, desligando métodos mais antigos usados para autenticação, externamente, internamente ou ambos, para sua rede. Por exemplo, um bom método para ajudar a parar ataques de DOS seria desativar Windows Autenticação Integrada (que inclui NTLM e Kerberos). Desligar o NTLM externamente e confiar na autenticação baseada em certificado ajuda a proteger senhas contra exposição. Isso porque o NTLM usa credenciais de senha para autenticar usuários, mas a autenticação baseada em certificado , habilitada pela Modern Auth, não. Isso significa que uma opção ideal para reduzir ataques de DOS é bloquear o NTLM externamente e usar apenas a autenticação baseada em certificados.
 
 Tudo bem, vamos começar.
 
@@ -47,7 +47,7 @@ Esses cmdlets serão instalados somente após a atualização cumulativa de julh
 É importante ter em mente que essas são as Topologias Com Suporte envolvidas neste cenário! Se você precisar ir até Suporte para ajudar a bloquear um método, por exemplo, você precisará ter uma configuração entre os tipos abaixo. 
 
 > [!IMPORTANT]
-> Na tabela e descrições *abaixo,* Autenticação Moderna é abreviada como __MA__ e a Autenticação Integrada do *Windows* é abreviada como __Win__. Como lembrete, a Autenticação Integrada do Windows é formada por dois métodos: autenticação NTLM e Kerberos. Você precisará saber disso para ler a tabela corretamente!
+> Na tabela e descrições *abaixo,* Autenticação Moderna é abreviada como __MA__ e Windows *Autenticação* Integrada é abreviada como __Win__. Como lembrete, Windows Autenticação Integrada é formada por dois métodos: autenticação NTLM e Kerberos. Você precisará saber disso para ler a tabela corretamente!
 
 
 |       |Externamente  |Internamente  |Parâmetro  |
@@ -58,7 +58,7 @@ Esses cmdlets serão instalados somente após a atualização cumulativa de julh
 |__Tipo 4__   |  MA       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
 |__Tipo 5__   |  MA + Win       | Win        | BlockModernAuthInternally         |
 
-__Descrição do tipo 1:__ Esse é o cenário padrão quando o MA é __ligado__ para o Skype for Business Server. Em outras palavras, este é o *ponto de partida quando* o MA é configurado.
+__Descrição do tipo 1:__ Esse é o cenário padrão quando o MA está __ligado__ para Skype for Business Server. Em outras palavras, este é o *ponto de partida quando* o MA é configurado.
 
 __Descrição do tipo 2:__ Essa topologia bloqueia o NTLM externamente , mas permite que NTLM ou Kerberos (para clientes que não suportam a ADAL) *funcionem internamente.* Se seus clientes deem suporte ao ADAL, eles usarão a MA internamente.
 
@@ -68,7 +68,7 @@ __Descrição do tipo 4:__ Essa topologia bloqueia o NTLM *externamente* e o MA 
 
 __Tipo 5 Descrição:__ *Externamente*, seus clientes modernos ADAL usarão MA e quaisquer clientes que não suportam a ADAL usarão métodos de autenticação herdados. Mas, *internamente,* *todos os clientes* usarão autenticação herdda (incluindo todos os clientes com capacidade ADAL).
 
-É muito fácil perder o controle da meta de proteger suas senhas nas opções disponíveis. Lembre-se de que a situação ideal é usar a MA externamente (por exemplo, configurando autth baseada em certificado), para evitar ataques dos DOS. Se você aproveitar internamente para seus clientes modernos, também provará a sua rede em relação aos ataques do DOS do Skype for Business Server.
+É muito fácil perder o controle da meta de proteger suas senhas nas opções disponíveis. Lembre-se de que a situação ideal é usar a MA externamente (por exemplo, configurando autth baseada em certificado), para evitar ataques dos DOS. Se você aproveitar internamente para seus clientes modernos, você também provará a sua rede em relação aos ataques Skype for Business Server DOS.
 
 ## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>Por que usar Set-CsAuthConfig no nível global
 
@@ -95,10 +95,10 @@ Talvez seja mais sensato fazer um Get- para esses valores e para captura de tela
 
 > [!NOTE]
 > 
-> Se você usar o parâmetro BlockWindowsAuthExternally para bloquear externamente o NTLM, saiba que isso também bloqueia o NTLM internamente para o canal SIP. No entanto, os clientes skype for Business e Lync mais novos do que 2010 ainda poderão fazer logon porque eles usarão NTLM sobre HTTP para entrar, internamente e, em seguida, buscar um certificado para fazer logon sobre SIP. No entanto, clientes com mais de 2010 não poderão fazer logon internamente nessa circunstância, e talvez você queira considerar atualizar esses aplicativos para que seus usuários possam retomar a funcionalidade segura.
+> Se você usar o parâmetro BlockWindowsAuthExternally para bloquear externamente o NTLM, saiba que isso também bloqueia o NTLM internamente para o canal SIP. No entanto, Skype for Business clientes do Skype for Business e do Lync mais novos do que 2010 ainda poderão fazer logon porque eles usarão o NTLM sobre HTTP para entrar, internamente, e buscar um certificado para fazer logon sobre SIP. No entanto, clientes com mais de 2010 não poderão fazer logon internamente nessa circunstância, e talvez você queira considerar atualizar esses aplicativos para que seus usuários possam retomar a funcionalidade segura.
 
 > [!IMPORTANT] 
-> Alguns dos aplicativos Web do Skype for Business não suportam MA. Portanto, usando o cenário BlockWindowsAuthExternallyAndInternally, você não poderá acessar esses aplicativos. Os aplicativos sem suporte para MA são Agendador da Web, Página discada, Painel de Controle do Skype for Business (CSCP) e Página de Configurações do Grupo de Resposta. 
+> Alguns dos aplicativos Skype for Business Web não suportam MA. Portanto, usando o cenário BlockWindowsAuthExternallyAndInternally, você não poderá acessar esses aplicativos. Os aplicativos sem suporte para MA são Agendador da Web, Página discada, Skype for Business Painel de Controle (CSCP) e Página de Configurações Grupo de Resposta. 
 
 ## <a name="links"></a>Links 
 - Para obter mais informações do PowerShell:
@@ -107,7 +107,7 @@ Talvez seja mais sensato fazer um Get- para esses valores e para captura de tela
 
 - Para obter mais informações sobre como usar os comandos ou na CU necessária para instalá-los:
     - [Reunião de cmdlets](https://support.microsoft.com/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - [Atualizações do Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) (Geral)
-    - O Skype for Business Server 2015 de julho de [2018, Componentes Principais CU](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
+    - [Atualizações para Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) (Geral)
+    - Os componentes principais CU (6.0.9319.534) de julho de [2018 Skype for Business Server 2015](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)
 
 

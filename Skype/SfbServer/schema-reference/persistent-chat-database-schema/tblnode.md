@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-description: TblNode contém a árvore de objetos (com nós de categoria ou sala de chat) como gerenciados no painel de controle e cmdlets administrativos.
-ms.openlocfilehash: cd2353d768ef61787b81efcdfe35f9c57409cc12
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblNode contém a árvore de objetos (com nós de categoria ou sala de chat) como gerenciada no painel de controle e cmdlets administrativos.
+ms.openlocfilehash: 2d26e61fc9404e2649ca71d4e48d4bb3f147c88ec787dfd798753eaa5f83a5b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306712"
 ---
 # <a name="tblnode"></a>tblNode
  
-TblNode contém a árvore de objetos (com nós de categoria ou sala de chat) como gerenciados no painel de controle e cmdlets administrativos.
+tblNode contém a árvore de objetos (com nós de categoria ou sala de chat) como gerenciada no painel de controle e cmdlets administrativos.
   
 **Columns**
 
@@ -35,8 +35,8 @@ TblNode contém a árvore de objetos (com nós de categoria ou sala de chat) com
 |nodeName  <br/> |nvarchar (256), não nulo  <br/> |Nome do nó.  <br/> |
 |nodeDesc  <br/> |nvarchar (256), não nulo  <br/> |Descrição do nó.  <br/> |
 |invite  <br/> |bit  <br/> | Para categorias: <br/>  Verdadeiro se convites estiverem ativados. <br/>  Falso se convites estiverem desativados. <br/>  Para salas: <br/>  Falso se convites estiverem desativados (substitui a categoria pai). <br/>  Nulo se a configuração de convites for herdada da categoria pai. <br/> |
-|logged  <br/> |bit  <br/> | Para categorias: <br/>  Verdadeiro se o histórico de chat estiver ativado. <br/>  Falso se o histórico de chat estiver desativado. <br/>  Para salas: <br/>  Nulo. <br/> |
-|filePost  <br/> |bit  <br/> | Para categorias: <br/>  Verdadeiro se o carregamento de arquivos for permitido. <br/>  Falso se o carregamento de arquivos não for permitido. <br/>  Para salas: <br/>  Nulo. <br/> |
+|logged  <br/> |bit  <br/> | Para categorias: <br/>  Verdadeiro se o histórico de chat estiver ativado. <br/>  Falso se o histórico de chat estiver desativado. <br/>  Para salas: <br/>  Null. <br/> |
+|filePost  <br/> |bit  <br/> | Para categorias: <br/>  Verdadeiro se o carregamento de arquivos for permitido. <br/>  Falso se o carregamento de arquivos não for permitido. <br/>  Para salas: <br/>  Null. <br/> |
 |desabilitadas  <br/> |bit, não nulo  <br/> |Verdadeiros se a sala de chat estiver desabilitada. Aplica-se somente a salas de chat (falso para categorias).  <br/> |
 |behavior  <br/> |smallint, not null  <br/> | Comportamento (consultado na tabela EnumValue): <br/>  4: Normal (salas de chat normais). <br/>  5: Auditório (salas de chat de auditório, somente apresentadores podem contribuir). <br/>  Aplica-se somente a salas de chat <br/> |
 |visibility  <br/> |smallint, não nulo  <br/> | Visibilidade (consultado na tabela EnumValue): <br/>  2: Particular <br/>  3: Com escopo <br/>  6: Abrir <br/>  Aplica-se somente a salas de chat <br/> |

@@ -15,61 +15,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Saiba como habilitar a QoS para dispositivos usados em sua organização que usam um sistema operacional diferente do Windows.
-ms.openlocfilehash: c22f9c98c796ee11d06e3d58a02a36befef4539e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81350ae252252a85bd3f88a000d6cd78d85408e43ca56335517de7b50bb6fd49
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814171"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590925"
 ---
-# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Habilitando a QoS no Skype for Business Server para dispositivos que não são baseados no Windows
+# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Habilitando a QoS Skype for Business Server dispositivos que não se baseiam em Windows
 
 
-Quando você instala o Skype for Business Server, a QoS (Qualidade de Serviço) não será habilitada para dispositivos usados em sua organização que usem um sistema operacional diferente do Windows. Você pode verificar isso executando o seguinte comando no Shell do Skype for Business ServerManagement:
+Ao instalar o Skype for Business Server, a Qualidade do Serviço (QoS) não será habilitada para quaisquer dispositivos usados em sua organização que usem um sistema operacional diferente do Windows. Você pode verificar isso executando o seguinte comando no shell Skype for Business ServerManagement:
 
-    Get-CsMediaConfiguration
+**Get-CsMediaConfiguration**
 
-Supondo que você não tenha feito alterações em suas definições de configuração de mídia, você deve obter informações semelhantes a esta:
+Supondo que você não tenha feito alterações nas configurações de mídia, você deve obter informações semelhantes a esta:
 
-    Identity                          : Global
-    EnableQoS                         : False
-    EncryptionLevel                   : RequireEncryption
-    EnableSiren                       : False
-    MaxVideoRateAllowed               : VGA600K
-    EnableG722StereoCodec             : True
-    EnableH264Codec                   : True
-    EnableAdaptiveBandwidthEstimation : True
+Identidade : Global<br/>
+EnableQoS : False<br/>
+EncryptionLevel : RequireEncryption<br/>
+EnableSiren : False<br/>
+MaxVideoRateAllowed : VGA600K<br/>
+EnableG722StereoCodec : True<br/>
+EnableH264Codec : True<br/>
+EnableAdaptiveBandwidthEstimation : True<br/>
 
-Se a propriedade EnableQoS estiver definida como False (como na saída anterior), isso significa que a Qualidade de Serviço não está habilitada para computadores e dispositivos que usam um sistema operacional diferente do Windows.
+Se a propriedade EnableQoS estiver definida como False (como na saída anterior), isso significa que a Qualidade do Serviço não está habilitada para computadores e dispositivos que usam um sistema operacional diferente do Windows.
 
-Para habilitar a Qualidade de Serviço no escopo global, execute o seguinte comando no Shell de Gerenciamento do Skype for Business Server:
+Para habilitar a Qualidade do Serviço no escopo global, execute o seguinte comando de dentro do Shell de Gerenciamento Skype for Business Server gerenciamento:
 
-    Set-CsMediaConfiguration -EnableQoS $True
+**Set-CsMediaConfiguration -EnableQoS $True**
 
-O comando anterior habilita o QoS no escopo global; no entanto, é importante observar que as definições de configuração de mídia também podem ser aplicadas ao escopo local. Se for necessário habilitar a Qualidade de Serviço para um site, inclua a Identidade das definições de configuração ao chamar Set-CsMediaConfiguration. Por exemplo, este comando habilita o QoS para o site Redmond:
+O comando anterior habilita o QoS no escopo global; no entanto, é importante observar que as definições de configuração de mídia também podem ser aplicadas ao escopo local. Se você precisar habilitar a Qualidade do Serviço para um site, inclua a Identidade das configurações ao chamar Set-CsMediaConfiguration. Por exemplo, este comando habilita o QoS para o site Redmond:
 
-    Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
-
-
-
-> [!NOTE]  
-> Você precisa habilitar a QoS no escopo do site? Isso depende. As configurações atribuídas ao escopo do site têm precedência sobre as configurações atribuídas ao escopo global. Suponha que você tenha a QoS habilitada no escopo global, mas desabilitada no escopo do site (para o site Redmond). Nesse caso, a Qualidade de Serviço seria desabilitada para o site Redmond; isso porque as configurações do site têm precedência. Para habilitar a QoS para o site redmond, você teria que fazer isso usando as definições de configuração de mídia aplicadas a esse site.
+**Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True**
 
 
-Se você quiser habilitar simultaneamente a QoS para todas as definições de configuração de mídia (independentemente do escopo), execute este comando no Shell de Gerenciamento do LSkype for Business Server:
+> [!NOTE]
+> Você precisa habilitar a QoS no escopo do site? Isso depende. Configurações atribuído ao escopo do site têm precedência sobre as configurações atribuídas ao escopo global. Suponha que você tenha a QoS habilitada no escopo global, mas desabilitada no escopo do site (para o site redmond). Nesse caso, a Qualidade do Serviço seria desabilitada para o site redmond; isso porque as configurações do site têm precedência. Para habilitar a QoS para o site redmond, você teria que fazer isso usando as configurações de mídia aplicadas a esse site.
 
-    Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 
-Você pode desabilitar a QoS para dispositivos que usam um sistema operacional diferente do Windows definindo o valor da propriedade EnableQoS como False. Por exemplo:
+Se você quiser habilitar simultaneamente a QoS para todas as configurações de mídia (independentemente do escopo), execute este comando de dentro do Shell de Gerenciamento do LSkype for Business Server:
 
-    Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
+**Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True**
+
+Você pode desabilitar a QoS para dispositivos que usam um sistema operacional diferente Windows definindo o valor da propriedade EnableQoS como False. Por exemplo:
+
+**Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False**
 
 Isto oferece a habilidade de implementar o QoS em algumas partes da sua rede (por exemplo, no local Redmond) enquanto deixa a Qualidade do Serviço desabilitada em outras partes da sua rede.
 
-A QoS só pode ser habilitada e desabilitada usando o Windows PowerShell. Essas opções não estão disponíveis no Painel de Controle do Skype for Business Server.
+A QoS só pode ser habilitada e desabilitada usando Windows PowerShell. Essas opções não estão disponíveis no Painel Skype for Business Server Controle.
 
 > [!NOTE]
-> Os clientes do Skype for Business para iOS versão 6.17 e posterior agora são suportados para QoS.  Esse recurso de QoS só é aplicável aos clientes do Skype for Business e dispositivos de telefone IP que são registrados diretamente em um Skype for Business interno ou servidor de pool do Lync em redes gerenciadas. A QoS não é aplicável ao tráfego roteado pela Internet.
-
-
-
+> Skype for Business clientes para iOS Versão 6.17 e posterior agora suportam QoS.  Esse recurso QoS só é aplicável Skype for Business clientes e dispositivos de telefone IP que são registrados diretamente em um servidor de pool interno Skype for Business ou Lync em redes gerenciadas. A QoS não é aplicável ao tráfego roteado pela Internet.

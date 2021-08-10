@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre o Microsoft 365 e Office 365 ID padrão do chamador (número de telefone atribuído a um usuário), também conhecido como ID de Linha de Chamada. Você pode alterar ou bloquear a ID do chamador do usuário.
-ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
-ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
+ms.openlocfilehash: ea3d9676caf0984c19137abe286f792aacfcceca393fd4ccfeff9117edef9011
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53388646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275947"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Definir a identificação de chamadas para um usuário
 

@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Saiba o código de prática para planos de chamada PSTN para Skype for Business Reino Unido, incluindo, onde obter ajuda e como enviar reclamações e resolver disputas.
-ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689757"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306562"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planos de chamada Microsoft 365 - Código de prática para o Reino Unido (Reino Unido)
 
@@ -44,7 +44,7 @@ Se tiver dúvidas sobre vendas, cobrança ou suporte técnico, entre em contato 
 
 Número de telefone de chamada gratuita: 0800 032 6417
 
-Online: entre no centro de administração Microsoft 365 e envie uma solicitação de serviço selecionando **Nova solicitação de serviço** em **Suporte**.
+Online: entre no Centro de administração do Microsoft 365 e envie uma solicitação de serviço selecionando **Nova solicitação de serviço** em **Suporte**.
 
 O horário comercial é de segunda a sexta, 9h-17h.
 

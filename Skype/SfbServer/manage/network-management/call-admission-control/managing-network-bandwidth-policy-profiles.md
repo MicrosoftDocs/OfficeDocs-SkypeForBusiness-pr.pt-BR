@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Use os procedimentos deste artigo para exibir, criar, modificar ou excluir perfis de política de largura de banda de rede.
-ms.openlocfilehash: 47a4d268c24cd8d57c8aeda4deacc6b03e795c2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4905a80f402b15328f4bca5476dc47262030f323cee8ec12910b25e35aee6eda
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096667"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590955"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gerenciando perfis de política de largura de banda no Skype for Business Server
 
@@ -24,13 +24,13 @@ Use os procedimentos deste artigo para exibir, criar, modificar ou excluir perfi
 
 ## <a name="view-network-bandwidth-policy-profile-information"></a>Exibir informações de perfil de política de largura de banda de rede
 
-Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largura de banda é utilizada para definir limites para certas modalidades. No Skype for Business Server, somente as modalidades de áudio e vídeo podem ser atribuídas a limitações de largura de banda. Você pode configurar os limites gerais de banda e os limites de sessão. Você pode usar o Painel de Controle do Skype for Business Server para criar, modificar ou excluir um perfil de contêiner para essas políticas. Cada perfil de política de largura de banda pode ser associado a um ou mais sites de rede. Use os procedimentos a seguir para exibir um perfil de política de largura de banda. 
+Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largura de banda é utilizada para definir limites para certas modalidades. No Skype for Business Server, somente as modalidades de áudio e vídeo podem ser atribuídas a limitações de largura de banda. Você pode configurar os limites gerais de banda e os limites de sessão. Você pode usar o painel Skype for Business Server controle para criar, modificar ou excluir um perfil de contêiner para essas políticas. Cada perfil de política de largura de banda pode ser associado a um ou mais sites de rede. Use os procedimentos a seguir para exibir um perfil de política de largura de banda. 
 
 ### <a name="to-view-a-bandwidth-policy-profile"></a>Para exibir um perfil de política de largura de banda
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação à esquerda, clique em **Configuração de rede** e, em seguida, clique em **Política de largura de banda**.
 
@@ -41,38 +41,37 @@ Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largur
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de perfil de política de largura de banda de rede usando Windows PowerShell cmdlets
 
-Os perfis de largura de banda de rede podem ser exibidos usando Windows PowerShell e o cmdlet Get-CsNetworkBandwidthPolicyProfile de rede. Esse cmdlet pode ser executado no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
+Os perfis de largura de banda de rede podem ser exibidos usando Windows PowerShell e o cmdlet Get-CsNetworkBandwidthPolicyProfile de rede. Esse cmdlet pode ser executado no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>Para exibir informações de perfil de política de largura de banda de rede
 
-  - Para exibir informações sobre todos os perfis de política de largura de banda de rede, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:
+  - Para exibir informações sobre todos os perfis de política de largura de banda de rede, digite o seguinte comando no Shell de Gerenciamento Skype for Business Server e pressione ENTER:
     
-        Get-CsNetworkBandwidthPolicyProfile
+    **Get-CsNetworkBandwidthPolicyProfile**
     
     Isto retorna informações semelhantes à seguinte:
     
-        Identity          : RedmondBandwidthPolicy
-        BWPolicy          : {BWLimit=200;BWSessionLimit=200;
-                            BWPolicyModality=Audio, 
-                            BWLimit=1400;BWSessionLimit=500;
-                            BWPolicyModality=Video}
-        BWPolicyProfileID : RedmondBandwidthPolicy
-        Description       :
-
+    Identidade : RedmondBandwidthPolicy<br/>
+    BWPolicy : {BWLimit=200; BWSessionLimit=200;<br/>
+                        BWPolicyModality=Audio, <br/>
+                        BWLimit=1400; BWSessionLimit=500;<br/>
+                        BWPolicyModality=Video}<br/>
+    BWPolicyProfileID : RedmondBandwidthPolicy<br/>
+    Descrição :
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkBandwidthPolicyProfile.](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>Criar ou modificar perfis de política de largura de banda
 
-Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largura de banda é utilizada para definir limites para certas modalidades. No Skype for Business Server, somente as modalidades de áudio e vídeo podem ser atribuídas a limitações de largura de banda. Você pode configurar os limites gerais de banda e os limites de sessão. Você pode usar o Painel de Controle do Skype for Business Server para criar, modificar ou excluir um perfil de contêiner para essas políticas. Cada perfil de política de largura de banda pode ser associado a um ou mais sites de rede. Use os procedimentos a seguir para criar ou modificar um perfil de política de largura de banda. 
+Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largura de banda é utilizada para definir limites para certas modalidades. No Skype for Business Server, somente as modalidades de áudio e vídeo podem ser atribuídas a limitações de largura de banda. Você pode configurar os limites gerais de banda e os limites de sessão. Você pode usar o painel Skype for Business Server controle para criar, modificar ou excluir um perfil de contêiner para essas políticas. Cada perfil de política de largura de banda pode ser associado a um ou mais sites de rede. Use os procedimentos a seguir para criar ou modificar um perfil de política de largura de banda. 
 
 ### <a name="to-create-a-new-bandwidth-policy-profile"></a>Para criar um novo perfil de política de largura de banda
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Largura de Banda.**
 
@@ -100,7 +99,7 @@ Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largur
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Largura de Banda.**
 
@@ -118,13 +117,13 @@ Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largur
   
 ## <a name="delete-network-bandwidth-policy-profiles"></a>Excluir perfis de política de largura de banda de rede
 
-Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largura de banda é utilizada para definir limites para certas modalidades. No Skype for Business Server, somente as modalidades de áudio e vídeo podem ser atribuídas a limitações de largura de banda. Você pode configurar os limites gerais de banda e os limites de sessão. Você pode usar o Painel de Controle do Skype for Business Server para criar, modificar ou excluir um perfil de contêiner para essas políticas. Use os seguintes procedimentos para excluir um perfil de política de largura de banda de rede. 
+Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largura de banda é utilizada para definir limites para certas modalidades. No Skype for Business Server, somente as modalidades de áudio e vídeo podem ser atribuídas a limitações de largura de banda. Você pode configurar os limites gerais de banda e os limites de sessão. Você pode usar o painel Skype for Business Server controle para criar, modificar ou excluir um perfil de contêiner para essas políticas. Use os seguintes procedimentos para excluir um perfil de política de largura de banda de rede. 
 
 ### <a name="to-delete-a-bandwidth-policy-profile"></a>Para excluir um perfil de política de largura de banda
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Largura de Banda.**
 

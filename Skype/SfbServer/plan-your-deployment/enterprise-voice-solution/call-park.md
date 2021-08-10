@@ -1,5 +1,5 @@
 ---
-title: Planejar o Estacionamento de Chamadas no Skype for Business
+title: Planejar estacionamento de chamada no Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
-description: Planejamento para estacionamento de chamada no Skype for Business Server Enterprise Voice, que permite colocar chamadas em espera e transferir chamadas para departamentos. Inclui planejamento de capacidade, chamadas com suporte e clientes suportados.
-ms.openlocfilehash: c324e8d61f6d0e9e67870f05597a9157965a3eb3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Planejando o estacionamento de chamadas Skype for Business Server Enterprise Voice, o que permite colocar chamadas em espera e transferir chamadas para departamentos. Inclui planejamento de capacidade, chamadas com suporte e clientes com suporte.
+ms.openlocfilehash: 40f6b08512bd76401a8bb881429737f0da53be952e2774099e82396522b79aeb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306862"
 ---
-# <a name="plan-for-call-park-in-skype-for-business"></a>Planejar o Estacionamento de Chamadas no Skype for Business
+# <a name="plan-for-call-park-in-skype-for-business"></a>Planejar estacionamento de chamada no Skype for Business
  
-Planejamento para estacionamento de chamada no Skype for Business Server Enterprise Voice, que permite colocar chamadas em espera e transferir chamadas para departamentos. Inclui planejamento de capacidade, chamadas com suporte e clientes suportados.
+Planejando o estacionamento de chamadas Skype for Business Server Enterprise Voice, o que permite colocar chamadas em espera e transferir chamadas para departamentos. Inclui planejamento de capacidade, chamadas com suporte e clientes com suporte.
   
-O aplicativo Estacionamento de Chamada permite que os usuários do Enterprise Voice faça o seguinte:
+O aplicativo Estacionamento de Chamada permite Enterprise Voice usuários para fazer o seguinte:
   
 - Coloque uma chamada em espera e recupere a chamada do mesmo telefone ou de outro telefone.
     
@@ -35,28 +35,28 @@ O aplicativo Estacionamento de Chamada permite que os usuários do Enterprise Vo
     
 - Coloque uma chamada em espera e mantenha o telefone de atendimento original livre para outras chamadas.
     
-Quando um usuário estaciona uma chamada, o Skype for Business Server transfere a chamada para um número temporário, chamado órbita, onde a chamada é mantida até que seja recuperada ou o tempo se esvae. O Skype for Business Server envia a órbita para o usuário que estacionou a chamada. Para recuperar a chamada estacionada, o usuário pode discar o número da órbita ou clicar no link de órbita ou no botão na janela conversa. 
+Quando um usuário estaciona uma chamada, Skype for Business Server transfere a chamada para um número temporário, chamado de órbita, onde a chamada é mantida até que seja recuperada ou ela se esvae. Skype for Business Server envia a órbita para o usuário que estacionou a chamada. Para recuperar a chamada estacionada, o usuário pode discar o número da órbita ou clicar no link de órbita ou no botão na janela Conversa. 
   
-O usuário que estacionou uma chamada pode notificar alguém para recuperar a chamada usando um mecanismo externo, como mensagens instantâneas (IM) ou um sistema de paging, para comunicar o número da órbita a outra pessoa. O usuário que estacionou a chamada pode deixar a janela conversa aberta para receber notificação quando a chamada é recuperada.
+O usuário que estacionou uma chamada pode notificar alguém para recuperar a chamada usando um mecanismo externo, como mensagens instantâneas (IM) ou um sistema de pajamento, para comunicar o número da órbita a outra pessoa. O usuário que estacionou a chamada pode deixar a janela Conversa aberta para receber notificação quando a chamada for recuperada.
   
-Como os intervalos de órbitas são globalmente exclusivos, é possível recuperar chamadas de qualquer site do Skype for Business Server ou telefone PBX se o roteamento estiver configurado adequadamente. Se ninguém recuperar a chamada dentro de um período de tempo configurável, a chamada tocará de volta para a pessoa que a estacionou. Se essa pessoa não atender o retorno de toque, a chamada será transferida para um destino de fallback, como para um operador, se estiver configurado. Você pode configurar o número de vezes que a chamada toca antes de ser transferida de uma a dez vezes. Se ninguém atender a uma chamada transferida, ela será desconectada. A órbita é liberada quando a chamada é recuperada ou desconectada.
+Como os intervalos de órbita são globalmente exclusivos, é possível recuperar chamadas de qualquer site Skype for Business Server ou telefone PBX se o roteamento estiver configurado adequadamente. Se ninguém recuperar a chamada em um período configurável, a chamada tocará de volta para a pessoa que a estacionou. Se essa pessoa não responder ao toque de retorno, a chamada será transferida para um destino de fallback, como para um operador, se estiver configurado. Você pode configurar o número de vezes que a chamada toca antes de ser transferida de uma a dez vezes. Se ninguém atender a uma chamada transferida, a chamada será desconectada. A órbita é liberada quando a chamada é recuperada ou desconectada.
   
-Ao implantar o Estacionamento de Chamada, você precisa reservar intervalos de ramais para estacionar chamadas. Essas extensões precisam ser extensões virtuais: extensões que não têm nenhum usuário ou telefone atribuído a elas. Em seguida, configure a tabela de órbita de estacionamento de chamada com os intervalos de números de ramal e especifique qual serviço de aplicativo hospeda o aplicativo Estacionamento de Chamada que lida com cada intervalo. Cada pool de Front-End tem uma tabela estacionamento de chamadas no Servidor back-end correspondente que é usado para gerenciar chamadas estacionadas no pool. A lista de intervalos de órbitas é armazenada no armazenamento de Gerenciamento Central e é usada para rotear órbitas para o pool de destino. Cada pool do Skype for Business Server onde o aplicativo Estacionamento de Chamada é implantado e configurado pode ter um ou mais intervalos de órbitas. Os intervalos de órbita devem ser globalmente exclusivos na implantação do Skype for Business Server. 
+Ao implantar o Estacionamento de Chamadas, você precisa reservar intervalos de números de ramal para chamadas de estacionamento. Essas extensões precisam ser extensões virtuais: extensões que não têm usuário ou telefone atribuído a eles. Em seguida, configure a tabela de órbita do estacionamento de chamada com os intervalos de números de extensão e especifique qual serviço application hospeda o aplicativo Estacionamento de Chamada que lida com cada intervalo. Cada pool de Front-End tem uma tabela estacionamento de chamadas no Servidor Back-End correspondente que é usado para gerenciar chamadas estacionadas no pool. A lista de intervalos de órbitas é armazenada no Armazenamento de Gerenciamento Central e é usada para rotear órbitas para o pool de destino. Cada Skype for Business Server pool em que o aplicativo Estacionamento de Chamada é implantado e configurado pode ter um ou mais intervalos de órbita. Os intervalos de órbita devem ser globalmente exclusivos em toda Skype for Business Server implantação. 
   
-Você também define outras configurações de Estacionamento de Chamadas, como para onde as chamadas são redirecionadas se o tempo passar e se a pessoa no telefone ouve música enquanto está estacionada. Você também pode especificar o arquivo de música a ser tocar enquanto a chamada estiver em espera.
+Você também configura outras configurações de Estacionamento de Chamadas, como onde as chamadas são redirecionadas se o tempo de saída e se a pessoa no telefone ouvir música enquanto estacionada. Você também pode especificar o arquivo de música a ser reproduzir enquanto a chamada está em espera.
   
 > [!NOTE]
-> Arquivos de música de espera personalizados para Estacionamento de Chamada não são armazenados como parte do processo de recuperação de desastres do Skype for Business Server e serão perdidos se os arquivos carregados no pool estão danificados, corrompidos ou apagados. Sempre mantenha uma cópia de backup separada dos arquivos de música de espera personalizados que você carregou para o Estacionamento de Chamada. 
+> Arquivos personalizados de música em espera para Estacionamento de Chamada não são backups como parte do processo de recuperação de desastres do Skype for Business Server e serão perdidos se os arquivos carregados no pool são danificados, corrompidos ou apagados. Sempre mantenha uma cópia de backup separada dos arquivos personalizados de música em espera que você carregou para Estacionamento de Chamada. 
   
-O aplicativo Estacionamento de Chamada é um componente do Enterprise Voice. Quando você implanta o Enterprise Voice, o aplicativo Estacionamento de Chamada é instalado e ativado automaticamente. Antes de poder usar o Estacionamento de Chamada, no entanto, o administrador do Enterprise Voice deve configurá-lo e habilita-lo para os usuários por meio da política de voz.
+O aplicativo Estacionamento de Chamada é um componente Enterprise Voice. Quando você implanta Enterprise Voice, o aplicativo Estacionamento de Chamada é instalado e ativado automaticamente. Antes de poder usar o Estacionamento de Chamadas, no entanto, o Enterprise Voice administrador deve configurá-lo e habilita-lo para os usuários por meio da política de voz.
   
 ## <a name="deployment-and-requirements"></a>Implantação e requisitos
 
-O aplicativo Estacionamento de Chamada é instalado automaticamente quando você implanta o Enterprise Voice. Você habilita o Estacionamento de Chamada configurando a política de voz.
+O aplicativo Estacionamento de Chamada é instalado automaticamente quando você implanta Enterprise Voice. Você habilita o Estacionamento de Chamadas configurando a política de voz.
   
 ### <a name="software-requirements"></a>Requisitos de software
 
-Todos os servidores Front End e Standard Edition onde o Estacionamento de Chamada é implantado devem ter o Windows Media Format Runtime instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou o Windows Server 2012 R2. Para o Windows Server 2008 R2, o Windows Media Format Runtime é instalado como parte da Experiência Desktop do Windows. O Tempo de Execução do Windows Media Format ou o Microsoft Media Foundation são necessários para arquivos .wma (Windows Media Audio) que o Estacionamento de Chamada reproduz para música em espera.
+Todos os servidores front-end e servidores Edição Standard onde o Estacionamento de Chamada está implantado devem ter o tempo de execução do formato de mídia do Windows instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Tempo de Execução de Formato de Mídia é instalado como parte do Windows Desktop Experience. Windows O Tempo de Execução de Formato de Mídia ou o Microsoft Media Foundation é necessário para Windows arquivos de Áudio de Mídia (.wma) que o Estacionamento de Chamada reproduz para música em espera.
   
 ### <a name="port-requirements"></a>Requisitos de porta
 
@@ -67,7 +67,7 @@ O aplicativo Estacionamento de Chamada usa **a Porta 5075 para**  solicitações
   
 ### <a name="audio-file-requirements"></a>Requisitos de arquivo de áudio
 
-O aplicativo Estacionamento de Chamada dá suporte apenas a arquivos .wma (Windows Media Audio) para música em espera. É possível usar o Microsoft Expression Encoder 4 para personalizar arquivos de música em espera. Para baixar o Expression Encoder 4, consulte   ["Expression Encoder 4"](https://go.microsoft.com/fwlink/p/?linkId=202843). Use a ferramenta para converter o arquivo no formato .wma. O formato recomendado para arquivos de música de espera do Estacionamento de Chamada é Media Audio 9, 44 kHz, 16 bits, Mono, CBR, 32 kbps.
+O aplicativo Estacionamento de Chamada dá suporte Windows arquivos de Áudio de Mídia (.wma) para música em espera. É possível usar o Microsoft Expression Encoder 4 para personalizar arquivos de música em espera. Para baixar o Codificador de Expressão 4, consulte   ["Codificador de Expressão 4"](https://go.microsoft.com/fwlink/p/?linkId=202843). Use a ferramenta para converter o arquivo no formato .wma. O formato recomendado para arquivos de música de espera do Estacionamento de Chamada é Media Audio 9, 44 kHz, 16 bits, Mono, CBR, 32 kbps.
   
 > [!NOTE]
 > O arquivo convertido é reproduzido no telefone somente a 16 kHz, mesmo que tenha sido gravado a 44 kHz. 
@@ -76,14 +76,14 @@ O aplicativo Estacionamento de Chamada dá suporte apenas a arquivos .wma (Windo
 
 Os seguintes clientes e tipos de chamadas são suportados para Estacionamento de Chamadas
   
-### <a name="clients-supported-for-parking-calls"></a>Clientes com suporte para estacionamento de chamadas
+### <a name="clients-supported-for-parking-calls"></a>Clientes com suporte para chamadas de estacionamento
 
-Chamadas de qualquer IP, PBX (central privada de comução), PSTN (rede telefônica pública comutado) ou telefone celular podem ser estacionadas.
+As chamadas de qualquer IP, PBX (private branch exchange), PSTN (rede telefônica pública comutado) ou telefone celular podem ser estacionadas.
   
 > [!NOTE]
-> Somente chamadas de áudio podem ser estacionadas. As mensagens instantâneas e conferências não podem ser estacionadas. 
+> Somente chamadas de áudio podem ser estacionadas. Mensagens instantâneas e conferências não podem ser estacionadas. 
   
-Os clientes a seguir podem usar o Estacionamento de Chamada para estacionar chamadas:
+Os seguintes clientes podem usar Call Park para estacionar chamadas:
   
 - Skype for Business
     
@@ -100,11 +100,11 @@ Os clientes a seguir podem usar o Estacionamento de Chamada para estacionar cham
   
 ### <a name="clients-supported-for-retrieving-calls"></a>Clientes com suporte para recuperação de chamadas
 
-Os intervalos de órbita são configurados como blocos de extensões virtuais (extensões sem um usuário ou telefone atribuído). Quando você configura órbitas como extensões virtuais, telefones celulares e telefones PSTN não podem recuperar chamadas estacionadas.
+Intervalos de órbita são configurados como blocos de extensões virtuais (extensões sem um usuário ou telefone atribuído). Quando você configura órbitas como extensões virtuais, telefones celulares e telefones PSTN não podem recuperar chamadas estacionadas.
   
 Os usuários federados não podem recuperar chamadas estacionadas.
   
-Os clientes a seguir podem recuperar chamadas estacionadas no Estacionamento de Chamadas:
+Os seguintes clientes podem recuperar chamadas estacionadas no Estacionamento de Chamadas:
   
 - Skype for Business
     
@@ -118,7 +118,7 @@ Os clientes a seguir podem recuperar chamadas estacionadas no Estacionamento de 
     
 - Telefones de área comum IP
     
-- Telefones não IP que estão conectados à infraestrutura do Skype for Business Server, incluindo telefones de área comum e telefones PBX (central privada de comutamento)
+- Telefones não IP conectados à infraestrutura Skype for Business Server, incluindo telefones de área comum e telefones PBX (private branch exchange)
     
 ## <a name="call-park-capacity-planning"></a>Planejamento de capacidade do Estacionamento de Chamada
 

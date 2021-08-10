@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
-description: O Search-CcLog cmdlet pesquisa os logs de chamadas de entrada e saída no diretório de log de dispositivos do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O Search-CcLog cmdlet pesquisa os logs de chamadas de entrada e de saída no diretório de log Skype for Business Cloud Connector Edition de dispositivos.
+ms.openlocfilehash: 5fd062295ac9145660ca9a53f56973f77783cd9730993d958c7348b7761c4387
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824227"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306602"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
-O Search-CcLog cmdlet pesquisa os logs de chamadas de entrada e saída no diretório de log de dispositivos do Skype for Business Cloud Connector Edition.
+O Search-CcLog cmdlet pesquisa os logs de chamadas de entrada e de saída no diretório de log Skype for Business Cloud Connector Edition de dispositivos.
   
 ```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
@@ -41,7 +41,7 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 
 ### <a name="example-2"></a>Exemplo 2
 
-O próximo exemplo pesquisa os logs de chamadas de entrada e saída usando o nome e o caminho de arquivo determinados:
+O próximo exemplo pesquisa os logs de chamadas de entrada e saída usando o caminho e o nome de arquivo determinados:
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
@@ -64,12 +64,12 @@ O cmdlet Search-CsClsLogging fornece uma opção de linha de comando para pesqui
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O Search-CcLog cmdlet não aceita entrada em pipeline.
+Nenhum. O Search-CcLog cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

@@ -1,5 +1,5 @@
 ---
-title: Load Balancer (Planning Tool)
+title: Skype for Business Server Ferramenta de planejamento do Balanceador de Carga
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
-description: 'Se você tiver pools de Front-End, pools de Diretores ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Veja mais detalhes em:'
-ms.openlocfilehash: 4c33afcb5666e889214ba1603be5b078141053e6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Se você tiver pools de Front-End, pools de diretores ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Veja mais detalhes em:'
+ms.openlocfilehash: a0be3533f4cd34392d33be65aa226f4af55c802f4bcd24035875e2904936764f
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828991"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590965"
 ---
-# <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
+# <a name="skype-for-business-server-load-balancer-planning-tool"></a>Skype for Business Server Ferramenta de planejamento do Balanceador de Carga
  
-Se você tiver pools de Front-End, pools de Diretores ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Veja mais detalhes em:
+Se você tiver pools de Front-End, pools de diretores ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Veja mais detalhes em:
   
-- [Requisitos de balanceamento de carga para o Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [Requisitos de balanceamento de carga para Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [Requisitos de DNS para o Skype for Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
+- [Requisitos dns para Skype for Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
     
-

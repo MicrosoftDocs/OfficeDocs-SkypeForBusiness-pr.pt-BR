@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas. '
-ms.openlocfilehash: 163f214b05ba0dca3bc7dd4ec722f148cafe724e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 449901d771a1ac473a4e183b44edd270cad4542473abf7ad06b1bb9a9ebad1f8
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096677"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591085"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Vincular regiões de rede no Skype for Business Server
 
@@ -24,20 +24,20 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 ## <a name="view-network-region-link-information"></a>Exibir informações de link de região de rede 
 
-Você pode visualizar os links entre duas regiões de redes como parte do controle de admissão de chamadas (CAC). Regiões dentro de uma rede são vinculadas por conectividade de WAN física. Você pode usar o Painel de Controle do Skype for Business Server para exibir um link existente entre duas regiões de rede. 
+Você pode visualizar os links entre duas regiões de redes como parte do controle de admissão de chamadas (CAC). Regiões dentro de uma rede são vinculadas por conectividade de WAN física. Você pode usar o painel Skype for Business Server de controle para exibir um link existente entre duas regiões de rede. 
 
 
-### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>Para exibir um link de região de rede no Painel de Controle do Skype for Business Server
+### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>Para exibir um link de região de rede no Skype for Business Server Painel de Controle
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região.**
 
 4.  Na página **Link da região**, clique no link da região que você deseja ver.
     
-    > [!NOTE]  
+    > [!NOTE]
     > Você pode ver informações somente sobre um link da região por vez.
 
 5.  No menu **Editar**, selecione **Mostras detalhes**.
@@ -49,17 +49,13 @@ Você pode exibir links de região de rede usando Windows PowerShell e o cmdlet 
 
 ### <a name="to-view-network-region-link-information"></a>Para ver informações do link de região de rede
 
-  - Para exibir informações sobre todos os links de região de rede, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:
+  - Para exibir informações sobre todos os links de região de rede, digite o seguinte comando no Shell de Gerenciamento Skype for Business Server e pressione ENTER:
     
-        Get-CsNetworkRegionLink
+    **Get-CsNetworkRegionLink**
     
     Esse comando retornará informações parecidas com:
     
-        Identity            : NorthwestToCalifornia
-        BWPolicyProfileID   :
-        NetworkRegionLinkID : NorthwestToCalifornia
-        NetworkRegionID1    : Pacific Northwest
-        NetworkRegionID2    : California
+       Identidade : NorthwestToCalifornia BWPolicyProfileID : NetworkRegionLinkID : NorthwestToCalifornia NetworkRegionID1 : Pacific Northwest NetworkRegionID2 : Califórnia
 
 
 Para detalhes, consulte [Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink).
@@ -67,13 +63,13 @@ Para detalhes, consulte [Get-CsNetworkRegionLink](/powershell/module/skype/Get-C
 
 ## <a name="configure-network-region-links"></a>Configurar links de região de rede 
 
-Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas. Regiões dentro de uma rede são vinculadas por conectividade de WAN física. Você pode usar o Painel de Controle do Skype for Business Server para definir um link entre duas regiões de rede e definir as limitações de largura de banda em conexões de áudio e vídeo entre essas regiões.
+Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas. Regiões dentro de uma rede são vinculadas por conectividade de WAN física. Você pode usar o painel Skype for Business Server de controle para definir um link entre duas regiões de rede e definir as limitações de largura de banda em conexões de áudio e vídeo entre essas regiões.
 
 ### <a name="to-create-a-network-region-link"></a>Para criar um link de região de rede
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região.**
 
@@ -82,7 +78,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 5.  Em **Novo Link de Região**, digite um valor no campo **Nome**.
  
     > [!NOTE]  
-    > Esse valor deve ser exclusivo na implantação do Skype for Business Server.
+    > Esse valor deve ser exclusivo em sua Skype for Business Server implantação.
 
 6.  Na lista listada da região de rede **\# 1,** selecione uma das duas regiões a serem vinculadas.
 
@@ -96,7 +92,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região.**
 
@@ -111,13 +107,13 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 ## <a name="delete-network-region-links"></a>Excluir links de região de rede
 
-Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas. Regiões dentro de uma rede são vinculadas por conectividade de WAN física. Você pode usar o Painel de Controle do Skype for Business Server para excluir um link existente entre duas regiões de rede. 
+Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas. Regiões dentro de uma rede são vinculadas por conectividade de WAN física. Você pode usar o painel Skype for Business Server de controle para excluir um link existente entre duas regiões de rede. 
 
 ### <a name="to-delete-a-network-region-link"></a>Para excluir um link de região de rede
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região.**
 

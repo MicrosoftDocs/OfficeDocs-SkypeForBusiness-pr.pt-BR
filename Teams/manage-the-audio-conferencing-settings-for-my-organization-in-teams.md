@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Consulte Microsoft Teams para atribuir uma licença de conferência discada e uma ID de conferência a um usuário e muitas outras configurações de conferência discada. '
-ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d779a0740e5f0a8c0b305e4b441c01b628571f9ddf3292a1d92cd6c2d3ecb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101087"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276407"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gerenciar as Configurações de audioconferência da sua organização no Microsoft Teams
 
@@ -40,13 +40,13 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 ## <a name="assign-an-audio-conferencing-license"></a>Atribuir uma licença de Audioconferência
 
 > [!NOTE]
-> Não é possível atribuir licenças usando Teams. Você deve usar o Microsoft 365 de administração. Consulte [Atribuir Microsoft Teams licenças de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> Não é possível atribuir licenças usando Teams. Você deve usar o Centro de administração do Microsoft 365. Consulte [Atribuir Microsoft Teams licenças de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **Para atribuir uma licença para um usuário**
   
 1. Entre no Microsoft 365 com sua conta de trabalho ou de estudante.
     
-2. Na navegação à esquerda do centro de administração **Microsoft 365,** vá para **Usuários**  >  **Usuários ativos e** selecione o usuário ou os usuários na lista de usuários disponíveis.
+2. Na navegação à esquerda do **Centro de administração do Microsoft 365,** vá para **Usuários**  >  **Usuários ativos e** selecione o usuário ou os usuários na lista de usuários disponíveis.
     
     > [!NOTE]
     > [!DICA] Para atribuir licenças a mais de 20 usuários ao mesmo tempo, você pode usar o menu suspenso **Selecionar uma exibição** e escolher uma das opções ou criar sua própria exibição. Em seguida, **clique** em Editar , **Em** seguida, selecione a licença e clique em **Enviar**.  

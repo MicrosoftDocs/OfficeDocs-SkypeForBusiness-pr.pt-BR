@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre como a Audioconferência em Microsoft 365 ou Office 365 permite que os usuários liguem para reuniões de seus telefones.
-ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111267"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799062"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Audioconferência em Microsoft 365
-A audioconferência em Microsoft 365 e Office 365 permite que os usuários liguem para reuniões de seus telefones. Podem participar até 250 pessoas em audioconferências no telefone.
+A audioconferência em Microsoft 365 e Office 365 permite que os usuários liguem para reuniões de seus telefones. Audioconferência permite até 1.000 participantes de telefone.
 
 ## <a name="what-is-audio-conferencing"></a>O que é audioconferência?
 É muito útil participar de reuniões quando os usuários estão viajando e não podem participar de uma reunião usando o aplicativo Microsoft Teams ou Skype for Business em computadores ou dispositivos móveis. No entanto, há outros cenários nos quais usar um telefone para participar de uma reunião do Skype for Business ou do Microsoft Teams pode ser melhor do que usar um aplicativo em um computador:

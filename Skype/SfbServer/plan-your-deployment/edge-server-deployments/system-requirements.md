@@ -1,5 +1,5 @@
 ---
-title: Requisitos do sistema do Servidor de Borda no Skype for Business Server
+title: Requisitos do sistema do Servidor de Borda Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
-description: 'Resumo: saiba mais sobre os requisitos do sistema para o Servidor de Borda no Skype for Business Server.'
-ms.openlocfilehash: d5003a265a53c3603892133077a961f54c974401
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba mais sobre os requisitos do sistema para o Servidor de Borda Skype for Business Server.'
+ms.openlocfilehash: dc1541604a4a26c9af3c184282648ef2f96469fa4346a6b6cc379eed2f5f023f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112737"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306972"
 ---
-# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos do sistema do Servidor de Borda no Skype for Business Server
+# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos do sistema do Servidor de Borda Skype for Business Server
  
-**Resumo:** Saiba mais sobre os requisitos do sistema para o Servidor de Borda no Skype for Business Server.
+**Resumo:** Saiba mais sobre os requisitos do sistema para o Servidor de Borda Skype for Business Server.
   
-Quando se trata de sua implantação do Servidor de Borda do Skype for Business Server, essas são as coisas que você precisará fazer para o servidor ou servidores que estão no próprio ambiente, bem como para planejar a estrutura do ambiente. Para obter mais informações sobre topologia, DNS, certificados e outras preocupações de infraestrutura, confira a documentação de requisitos ambientais.
+Quando se trata de sua implantação do servidor de borda Skype for Business Server, essas são as coisas que você precisará fazer para o servidor ou servidores que estão no próprio ambiente, bem como para planejar a estrutura do ambiente. Para obter mais informações sobre topologia, DNS, certificados e outras preocupações de infraestrutura, confira a documentação de requisitos ambientais.
   
 ## <a name="components"></a>Componentes
 
-Ao discutir o ambiente do Servidor de Borda, estamos fazendo referência a componentes que, na maioria das vezes, são implantados em uma rede de perímetro (ou seja, está em um grupo de trabalho ou em um domínio que está fora da estrutura de domínio do Skype for Business Server).
+Ao discutir o ambiente do Servidor de Borda, estamos fazendo referência a componentes que, na maioria das vezes, são implantados em uma rede de perímetro (ou seja, está em um grupo de trabalho ou em um domínio que está fora da sua estrutura de domínio Skype for Business Server).
   
 Tendo isso em mente, esses são os componentes que você precisará ter em mente para implantar seu Edge com êxito:
   
@@ -50,20 +50,20 @@ Temos mais detalhes sobre cada um deles abaixo:
 ### <a name="edge-servers"></a>Servidores de Borda
 <a name="EdgeServers"> </a>
 
-Esses são os servidores do Skype for Business implantados em seu ambiente de perímetro. Sua função é enviar e receber tráfego de rede para usuários externos para os serviços oferecidos pela implantação interna do Skype for Business Server. Para fazer isso com êxito, cada Servidor de Borda é executado:
+Esses são os servidores Skype for Business implantados em seu ambiente de perímetro. Sua função é enviar e receber tráfego de rede para usuários externos para os serviços oferecidos pela sua implantação Skype for Business Server interna. Para fazer isso com êxito, cada Servidor de Borda é executado:
   
 - **Serviço de Borda de** Acesso : fornece um único ponto de conexão confiável para tráfego SIP (Protocolo de Iniciação de Sessão de saída e de entrada).
     
-- **Serviço de Borda de WebConferência**: permite que usuários externos participem de reuniões hospedadas em seu ambiente interno do Skype for Business Server.
+- **Serviço de Borda de WebConferência**: permite que usuários externos participem de reuniões hospedadas em seu ambiente interno Skype for Business Server ambiente.
     
 - **Serviço de Borda A/V:** disponibiliza áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos para usuários externos.
     
 - **Serviço proxy XMPP**: aceita e envia mensagens extensíveis e mensagens de protocolo de presença (XMPP) para e de parceiros federados XMPP configurados.
     
-Os usuários externos autorizados podem usar seus Servidores de Borda para se conectar à implantação interna do Skype for Business Server, mas, caso contrário, eles não fornecem outro acesso à sua rede interna para qualquer pessoa.
+Os usuários externos autorizados podem usar seus Servidores de Borda para se conectar à sua implantação Skype for Business Server interna, mas, caso contrário, eles não fornecem outro acesso à sua rede interna para qualquer pessoa.
   
 > [!NOTE]
-> Os Servidores de Borda são implantados para fornecer conexões para clientes do Skype for Business habilitados e outros Servidores de Borda (em cenários de federação). Você não pode se conectar a partir de outros tipos de cliente ou servidor de ponto de extremidade. O servidor gateway XMPP pode permitir conexões com parceiros XMPP configurados. Mas, novamente, esses são os únicos tipos de cliente e federação que funcionarão. 
+> Os Servidores de Borda são implantados para fornecer conexões para clientes Skype for Business e outros Servidores de Borda (em cenários de federação). Você não pode se conectar a partir de outros tipos de cliente ou servidor de ponto de extremidade. O servidor gateway XMPP pode permitir conexões com parceiros XMPP configurados. Mas, novamente, esses são os únicos tipos de cliente e federação que funcionarão. 
 
 > [!NOTE]
 > Gateways XMPP e proxies estão disponíveis no Skype for Business Server 2015, mas não são mais suportados no Skype for Business Server 2019. Consulte [Migrando federação XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obter mais informações.
@@ -71,7 +71,7 @@ Os usuários externos autorizados podem usar seus Servidores de Borda para se co
 ### <a name="reverse-proxies"></a>Proxies reversos
 <a name="ReverseProxies"> </a>
 
-Um servidor de proxy reverso (RP) não tem função do Skype for Business Server, mas é um componente essencial de uma implantação do Servidor de Borda. Um proxy reverso permite que os usuários externos:
+Um servidor de proxy reverso (RP) não tem Skype for Business Server função, mas é um componente essencial de uma implantação do Servidor de Borda. Um proxy reverso permite que os usuários externos:
   
 - conecte-se a reuniões ou conferências discdas usando URLs simples.
     
@@ -89,9 +89,9 @@ E para dispositivos móveis:
   
 - ele permite que eles descubram automaticamente Servidores Front-End que oferecem serviços de mobilidade.
     
-- ele habilita notificações por push do Microsoft 365 ou Office 365 para dispositivos móveis.
+- habilita notificações por push de Microsoft 365 ou Office 365 para dispositivos móveis.
     
-Nossas recomendações de proxy reverso atuais podem ser encontradas na página Infraestrutura de Telefonia [para Skype for Business.](../../../SfbPartnerCertification/certification/infra-gateways.md) Portanto, seu proxy reverso:
+Nossas recomendações de proxy reverso atuais podem ser encontradas na página Infraestrutura de [Telefonia para](../../../SfbPartnerCertification/certification/infra-gateways.md) Skype for Business. Portanto, seu proxy reverso:
   
 - deve ser capaz de usar o TLS (transport layer security) introduzido no seu ambiente por meio de certificados públicos para se conectar aos serviços Web externos publicados de:
     
@@ -129,24 +129,24 @@ Você precisa colocar sua implantação de Borda atrás de um firewall externo, 
 ### <a name="directors"></a>Diretores
 <a name="Directors"> </a>
 
-Esta é uma função opcional. Pode ser um único servidor ou um pool de servidores executando a função Diretor. É uma função encontrada no ambiente interno do Skype for Business Server.
+Esta é uma função opcional. Pode ser um único servidor ou um pool de servidores executando a função Diretor. É uma função encontrada no ambiente de Skype for Business Server interno.
   
-O Diretor é um servidor interno de próximo salto que recebe tráfego SIP de entrada dos Servidores de Borda destinados aos servidores internos do Skype for Business Server. Ele pré-autentica solicitações de entrada e redireciona-as para o pool ou servidor de um usuário. Essa pré-autenticação permite que você solte solicitações de conta de usuário não identificadas.
+O Diretor é um servidor de próximo salto interno que recebe tráfego SIP de entrada dos Servidores de Borda destinados a servidores Skype for Business Server internos. Ele pré-autentica solicitações de entrada e redireciona-as para o pool ou servidor de um usuário. Essa pré-autenticação permite que você solte solicitações de conta de usuário não identificadas.
   
-Por que isso importa? Uma função importante para um Diretor é proteger servidores Standard Edition e Servidores Front-End ou pools de Front-End contra tráfego mal-intencionado, como ataques de negação de serviço (DoS). Se sua rede estiver inundada com tráfego externo inválido, o tráfego será interrompido no Diretor.
+Por que isso importa? Uma função importante para um Diretor é proteger servidores Edição Standard e Servidores front-end ou pools de front-end contra tráfego mal-intencionado, como ataques de negação de serviço (DoS). Se sua rede estiver inundada com tráfego externo inválido, o tráfego será interrompido no Diretor.
   
 ### <a name="load-balancers"></a>Balanceadores de Carga
 <a name="LoadBalancers"> </a>
 
-A topologia de Borda consolidada em escala do Skype for Business Server é otimizada para balanceamento de carga DNS para novas implantações e recomendamos isso. Se você precisar de alta disponibilidade, recomendamos usar um balanceador de carga de hardware para uma situação específica:
+A Skype for Business Server de Borda consolidada em escala é otimizada para balanceamento de carga DNS para novas implantações e recomendamos isso. Se você precisar de alta disponibilidade, recomendamos usar um balanceador de carga de hardware para uma situação específica:
   
-- UM do Exchange para usuários remotos que usam a UM do Exchange **antes** do Exchange 2013.
+- Exchange UM para usuários remotos usando Exchange UM **antes** Exchange 2013.
     
 > [!IMPORTANT]
-> É fundamental observar que você não pode misturar balanceadores de carga. No seu ambiente do Skype for Business Server, todas as interfaces devem usar DNS ou HLB. 
+> É fundamental observar que você não pode misturar balanceadores de carga. No seu ambiente Skype for Business Server todas as interfaces devem usar DNS ou HLB. 
   
 > [!NOTE]
-> O NAT de retorno de servidor direto (DSR) não é suportado para o Skype for Business Server. 
+> O NAT de retorno de servidor direto (DSR) não é suportado para Skype for Business Server. 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>requisitos de balanceador de carga de hardware para Servidores de Borda de Servidores de Borda executando o serviço de Borda A/V
 
@@ -164,7 +164,7 @@ Para qualquer Servidor de Borda executando o serviço de Borda A/V, estes são o
     
 #### <a name="hlb-requirements"></a>Requisitos de HLB
 
-O Skype for Business Server não tem muitos requisitos de afinidade baseados em cookie. Portanto, você não precisa usar uma persistência baseada em cookie, a menos **que** (e isso seja específico do Skype for Business Server 2015), você terá servidores front-end do Lync Server 2010 ou pools de front-end em seu ambiente do Skype for Business Server. Eles precisariam de afinidade baseada em cookie no método de configuração recomendado para o Lync Server 2010.
+Skype for Business Server não tem muitos requisitos de afinidade baseada em cookie. Portanto, você não precisa usar uma persistência baseada em cookie, a menos **que** (e isso seja específico Skype for Business Server 2015) você terá servidores front-end do Lync Server 2010 ou pools de front-end em seu ambiente de Skype for Business Server. Eles precisariam de afinidade baseada em cookie no método de configuração recomendado para o Lync Server 2010.
   
 > [!NOTE]
 > Se você decidir ativar a afinidade baseada em cookie para o seu HLB, não haverá problema em fazer isso, mesmo que seu ambiente não precise dele. 
@@ -195,7 +195,7 @@ Se você estiver implantando dispositivos móveis, seu HLB deve ser capaz de bal
   
 Aqui estão os requisitos de HLB para o Diretor (opcional) e (necessário) Serviços Web do pool de front-end:
   
-- Para seus VIPs de Serviços Web internos, de definir Source_addr persistência (porta interna 80, 443) em seu HLB. Para o Skype for Business Server, Source_addr persistência significa que várias conexões provenientes de um único endereço IP são sempre enviadas para um servidor, para manter o estado da sessão.
+- Para seus VIPs de Serviços Web internos, de definir Source_addr persistência (porta interna 80, 443) em seu HLB. Para Skype for Business Server, Source_addr persistência significa que várias conexões provenientes de um único endereço IP são sempre enviadas para um servidor, para manter o estado da sessão.
     
 - Use um tempo de ociosidade TCP de 1800 segundos.
     
@@ -215,13 +215,13 @@ Você define o monitoramento de porta em seus balanceadores de carga de hardware
   
 |**IP/porta virtual**|**Porta do nó**|**Máquina/monitor do nó**|**Perfil de persistência**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |Nenhum  <br/> |HTTPS  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |Nenhum  <br/> |HTTP  <br/> |
+|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |None  <br/> |HTTPS  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |None  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>Requisitos de hardware e software
 
-Abordamos os requisitos de hardware e software do Servidor de Borda em nossos requisitos gerais do Servidor para [o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e requisitos do sistema para a documentação do Skype for Business Server [2019.](../../../SfBServer2019/plan/system-requirements.md)
+Abordamos os requisitos de hardware e software do Servidor de Borda em nossos requisitos gerais do Servidor para Skype for Business Server [2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e requisitos do sistema para Skype for Business Server [2019.](../../../SfBServer2019/plan/system-requirements.md)
   
 ## <a name="collocation"></a>Collocation
 
-Abordamos a localização do Servidor de Borda em nossa [documentação do Noções Básicas de Topologia do Skype for Business Server.](../../plan-your-deployment/topology-basics/topology-basics.md)
+Abordamos a localização do Servidor de Borda em nossas [Noções Básicas](../../plan-your-deployment/topology-basics/topology-basics.md) de Topologia para Skype for Business Server documentação.

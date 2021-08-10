@@ -10,56 +10,56 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Na maioria das implantações do Skype for Business Server, onde o controle de admissão de chamadas (CAC) é implementado, normalmente haverá um grande número de sub-redes. Por isso, geralmente é melhor configurar sub-redes do Shell de Gerenciamento do Skype for Business Server.
-ms.openlocfilehash: ef771ad78f00085374038203e1049790a9179e88
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Na maioria das implantações de Skype for Business Server onde o controle de admissão de chamada (CAC) é implementado, normalmente haverá um grande número de sub-redes. Devido a isso, geralmente é melhor configurar sub-redes a partir do Shell Skype for Business Server Gerenciamento.
+ms.openlocfilehash: c42d0cf4a3970a354183de3bb39878f7955b8678aae93c4f0703257a1ae1f901
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122435"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591095"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Gerenciando sub-redes de rede no Skype for Business Server
 
-Você pode usar o Painel de Controle do Skype for Business Server ou o Shell de Gerenciamento do Skype for Business Server para gerenciar sub-redes de rede. Na maioria das implantações do Skype for Business Server, onde o controle de admissão de chamadas (CAC) é implementado, normalmente haverá um grande número de sub-redes. Por isso, geralmente é melhor configurar sub-redes do Shell de Gerenciamento do Skype for Business Server.
+Você pode usar o Painel de Controle Skype for Business Server ou o Shell de Gerenciamento Skype for Business Server para gerenciar sub-redes de rede. Na maioria das implantações de Skype for Business Server onde o controle de admissão de chamada (CAC) é implementado, normalmente haverá um grande número de sub-redes. Devido a isso, geralmente é melhor configurar sub-redes a partir do Shell Skype for Business Server Gerenciamento.
 
 Use as seções deste artigo para exibir informações de sub-rede de rede ou criar, modificar ou excluir sub-redes de rede. 
 
 ## <a name="view-network-subnet-information"></a>Exibir informações da sub-rede de rede 
 
-Você pode utilizar o seguinte procedimento para visualizar uma sub-rede da rede. No Painel de Controle do Skype for Business Server, você pode criar, modificar ou excluir uma sub-rede de rede. 
+Você pode utilizar o seguinte procedimento para visualizar uma sub-rede da rede. No painel Skype for Business Server controle, você pode criar, modificar ou excluir uma sub-rede de rede. 
 
 ### <a name="to-view-a-network-subnet"></a>Para visualizar uma sub-rede de rede
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Sub-rede**.
 
 4.  Na página de **Sub-rede**, clique na sub-rede que deseja visualizar.
  
-    > [!NOTE]  
+    > [!NOTE]
     > Você só pode visualizar uma sub-rede por vez.
 
 5.  No painel **Ações**, clique em **Mostrar detalhes**.
 
-### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Exibir informações de configuração de sub-rede de rede usando Windows PowerShell cmdlets
+### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Exibir informações de configuração de sub-rede usando Windows PowerShell cmdlets
 
-As informações da sub-rede de rede podem ser exibidas usando Windows PowerShell e o cmdlet Get-CsNetworkSubnet rede. Esse cmdlet pode ser executado no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
+As informações da sub-rede de rede podem ser exibidas usando Windows PowerShell e o cmdlet Get-CsNetworkSubnet rede. Esse cmdlet pode ser executado no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
 
 ### <a name="to-view-network-subnet-information"></a>Para exibir informações de sub-rede de rede
 
-  - Para exibir informações sobre todas as sub-redes de rede, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:
+  - Para exibir informações sobre todas as sub-redes de rede, digite o seguinte comando no Shell de Gerenciamento Skype for Business Server e pressione ENTER:
     
-        Get-CsNetworkSubnet
+    **Get-CsNetworkSubnet**
     
     Isto retorna informações semelhantes à seguinte:
     
-        Identity      : 172.11.15.0
-        MaskBits      : 28
-        Description   :
-        NetworkSiteID : Redmond
-        SubnetID      : 172.11.15.0
+    Identidade : 172.11.15.0<br/>
+    MaskBits : 28<br/>
+    Descrição :<br/>
+    NetworkSiteID : Redmond<br/>
+    SubnetID : 172.11.15.0<br/>
 
 
 Para mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet).
@@ -67,16 +67,16 @@ Para mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetwor
 
 ## <a name="create-or-modify-network-subnets"></a>Criar ou modificar sub-redes de rede 
 
-É necessário associar uma subrede da rede com um site de rede para fins de determinar o local geográfico do host que pertence a esta subrede. Você pode usar o Painel de Controle do Skype for Business Server para configurar sub-redes. No Painel de Controle do Skype for Business Server, você pode criar, modificar ou excluir uma sub-rede de rede. 
+É necessário associar uma subrede da rede com um site de rede para fins de determinar o local geográfico do host que pertence a esta subrede. Você pode usar o painel Skype for Business Server de controle para configurar sub-redes. No painel Skype for Business Server controle, você pode criar, modificar ou excluir uma sub-rede de rede. 
 
-Na maioria das implantações do Skype for Business Server, onde o controle de admissão de chamadas (CAC) é implementado, normalmente haverá um grande número de sub-redes. Por isso, geralmente é melhor configurar sub-redes do Shell de Gerenciamento do Skype for Business Server. A partir daí, você pode chamar **New-CsNetworkSubnet** em conjunto com o cmdlet **Windows PowerShell Import-CSV**. Usando estes cmdlets em conjunto, é possível ler nas configurações de subrede de um arquivo de valores separados por vírgula (.csv) e criar várias subredes ao mesmo tempo. Para obter exemplos de como criar sub-redes a partir de um arquivo .csv, consulte [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
+Na maioria das implantações de Skype for Business Server onde o controle de admissão de chamada (CAC) é implementado, normalmente haverá um grande número de sub-redes. Devido a isso, geralmente é melhor configurar sub-redes a partir do Shell Skype for Business Server Gerenciamento. A partir daí, você pode chamar **New-CsNetworkSubnet** em conjunto com o cmdlet **Windows PowerShell Import-CSV**. Usando estes cmdlets em conjunto, é possível ler nas configurações de subrede de um arquivo de valores separados por vírgula (.csv) e criar várias subredes ao mesmo tempo. Para obter exemplos de como criar sub-redes a partir de um arquivo .csv, consulte [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
 
 
 ### <a name="to-create-a-network-subnet"></a>Para criar uma sub-rede
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Sub-rede**.
 
@@ -100,7 +100,7 @@ Na maioria das implantações do Skype for Business Server, onde o controle de a
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Sub-rede**.
 
@@ -114,16 +114,16 @@ Na maioria das implantações do Skype for Business Server, onde o controle de a
 
 ## <a name="delete-network-subnets"></a>Excluir sub-redes de rede
 
-É possível usar o seguinte procedimento para excluir uma subrede. No Painel de Controle do Skype for Business Server, você pode criar, modificar ou excluir uma sub-rede de rede. 
+É possível usar o seguinte procedimento para excluir uma subrede. No painel Skype for Business Server controle, você pode criar, modificar ou excluir uma sub-rede de rede. 
 
-Na maioria das implantações do Skype for Business Server, onde o controle de admissão de chamadas (CAC) é implementado, normalmente haverá um grande número de sub-redes. Por isso, geralmente é melhor configurar sub-redes do Shell de Gerenciamento do Skype for Business Server. A partir daí, você pode chamar **New-CsNetworkSubnet** em conjunto com o cmdlet **Windows PowerShell Import-CSV**. Usando estes cmdlets em conjunto, é possível ler nas configurações de subrede de um arquivo de valores separados por vírgula (.csv) e criar várias subredes ao mesmo tempo. Para ver exemplos de como criar subredes de um arquivo .csv, consulte [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
+Na maioria das implantações de Skype for Business Server onde o controle de admissão de chamada (CAC) é implementado, normalmente haverá um grande número de sub-redes. Devido a isso, geralmente é melhor configurar sub-redes a partir do Shell Skype for Business Server Gerenciamento. A partir daí, você pode chamar **New-CsNetworkSubnet** em conjunto com o cmdlet **Windows PowerShell Import-CSV**. Usando estes cmdlets em conjunto, é possível ler nas configurações de subrede de um arquivo de valores separados por vírgula (.csv) e criar várias subredes ao mesmo tempo. Para ver exemplos de como criar subredes de um arquivo .csv, consulte [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
 
 
 ### <a name="to-delete-a-network-subnet"></a>Para excluir uma subrede
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Sub-rede**.
 

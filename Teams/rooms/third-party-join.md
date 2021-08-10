@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Este artigo discute como configurar sua organização e dispositivos Salas do Teams para dar suporte à junção de reuniões de terceiros à Cisco WebEx e zoom.
-ms.openlocfilehash: ef14d1f342c6f2b34ad7c948a2688fa39a09801d
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 9857c4dee31c02c96212ccead33408b9e55b989de5b00d1d38aa975dc0413aab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796685"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275927"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Habilitar Teams dispositivos de sala para ingressar em reuniões de terceiros
 

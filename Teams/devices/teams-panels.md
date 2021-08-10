@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams painéis.
-ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fcb482303eb82990936ee090be6d8d78146f57c1f9ba78f967803bd3f37a599b
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102137"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591115"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams painéis
 
@@ -48,7 +48,7 @@ Para saber mais sobre esses recursos e como usá-los, consulte [Use Microsoft Te
 Você pode adquirir seus Teams de painéis de um dos seguintes parceiros:
 
 - Crestron
-- (Em breve) Yealink
+- Yealink
 
 ## <a name="teams-panels-requirements"></a>Teams de painéis
 
@@ -105,7 +105,7 @@ O planejamento de configuração e implantação abrange as seguintes áreas pri
 
 Cada Teams de painéis requer uma Microsoft 365 de recurso de sala. Você usa as credenciais da conta de recurso para entrar Microsoft Teams aplicativo no dispositivo de painéis.
 
-Para configurar uma conta de recurso Microsoft 365 para painéis Teams, recomendamos que você compre uma licença [Salas do Microsoft Teams Standard.](#license-requirement) Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
+Para configurar uma conta de recurso Microsoft 365 para painéis Teams, recomendamos que você compre uma licença [Salas do Microsoft Teams Standard.](#license-requirement) Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create a resource account using the Centro de administração do Microsoft 365](resource-account-ui.md).
 
 > [!NOTE]
 >

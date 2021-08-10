@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d908373cf3e8df6429823d9245cf53a52fbf901
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2088272756886b210ae99b32f8c3148d237b10ccb367702745f0327cc4e2896
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796535"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590775"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -45,12 +45,12 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 **Ações suportadas:**
 
-| A caixa de correio do usuário está hospedada em:                                        | Descoberta eletrônica       | Bloqueio&nbsp;Legal    | Retenção  | Gerenciamento de Canal e Equipe | Criar e exibir reuniões no Teams | Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar Contatos do Outlook | Caixa postal  | Adicionar e configurar conectores | Adicionar e configurar guias | Adicionar e configurar bots |
-|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                 | Sim <sup>1</sup> | Sim <sup>1</sup>   | Sim        | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim        | Sim                          | Sim                    | Sim                    |
-| **Exchange Online Dedicated vNext**                                 | Sim <sup>1</sup> | Sim <sup>1</sup>   | Sim        | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim        | Sim                          | Sim                    | Sim                    |
-| **Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)  | Sim <sup>1</sup> | Sim <sup>(1,2)</sup> | Sim <sup>3</sup> | Sim                   | Não                                | Não                          | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>                   | Sim                    | Sim                    |
-| **Exchange no local** (sincronizar com o Azure AD) | Sim <sup>1,9</sup> | Sim <sup>1</sup>   | Sim <sup>3</sup> | Sim                   | Sim <sup>8</sup>         | Sim                          | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>                   | Sim                    | Sim                    |
+| A caixa de correio do usuário está hospedada em:                                       | Descoberta eletrônica         | Bloqueio&nbsp;Legal    | Retenção        | Gerenciamento de Canal e Equipe | Criar e exibir reuniões no Teams | Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar Contatos do Outlook | Caixa postal        | Adicionar e configurar conectores | Adicionar e configurar guias | Adicionar e configurar bots |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | Sim <sup>1</sup>   | Sim <sup>1</sup>   | Sim              | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim              | Sim                          | Sim                    | Sim                    |
+| **Exchange Online Dedicated vNext**                                | Sim <sup>1</sup>   | Sim <sup>1</sup>   | Sim              | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim              | Sim                          | Sim                    | Sim                    |
+| **Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD) | Sim <sup>1</sup>   | Sim <sup>(1,2)</sup> | Sim <sup>3</sup> | Sim                   | Não                                | Não                          | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>             | Sim                    | Sim                    |
+| **Exchange no local** (sincronizar com o Azure AD)                        | Sim <sup>1,9</sup> | Sim <sup>1</sup>   | Sim <sup>3</sup> | Sim                   | Sim <sup>8</sup>                  | Sim<sup>10</sup>            | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>             | Sim                    | Sim                    |
 
 <sup>1</sup> Descoberta eletrônica e Retenção legal para conformidade nas mensagens de canal têm suporte para todas as opções de hospedagem.
 
@@ -64,11 +64,13 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 <sup>6</sup> Somente contatos na pasta de contatos padrão. Não há suporte para o acesso a outras pastas de contatos ou subpastas.
 
-<sup>7</sup>O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a **configuração -SetPhotoEnabled** estiver desabilitada na política, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil, para que a imagem de arquivo porfile não seja sincronizada com as equipes se o administrador alterar a foto.
+<sup>7</sup>O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a **configuração -SetPhotoEnabled** estiver desabilitada na política, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil, para que a imagem do perfil não seja sincronizada com as equipes se o administrador alterar a foto.
 
 <sup>8</sup> Você precisa atender aos requisitos listados na seção[Requisitos para criar e exibir reuniões para caixas de correio do local](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
 <sup>9</sup> Um mínimo de uma licença Exchange Online Plano 1 também é necessário. Para obter mais informações, [consulte Search for Teams chat data for on-premises users](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
+
+<sup>10</sup> Os usuários locais podem usar o Teams para atualizar sua imagem de perfil, mesmo que a Outlook na política de caixa de correio da `SetPhotoEnabled` Web seja definida como `false` .
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Treinamentos para ajudar seus usuários a usufruir ao máximo o Microsoft Teams
 
