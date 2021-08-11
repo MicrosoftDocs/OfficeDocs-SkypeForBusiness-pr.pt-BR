@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Se você precisar remover o servidor de arquivos que está atuando como o armazenamento de arquivos para sua implantação do Skype for Business Server 2015 ou se precisar fazer outras alterações que indisponíveis o armazenamento de arquivos atual, primeiro você precisará criar um novo compartilhamento. Em seguida, você precisa executar as seguintes etapas:'
-ms.openlocfilehash: 2d65e517b10a76013fbeb332b183b5b816e99083
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d57bfe10df36f200f927d4a2c9850eee0d21e9cf38724f31cc62bf84f76708e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119640"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307112"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Mover dados do armazenamento de arquivos para um novo armazenamento de arquivos no Skype for Business Server 2015
 
 Se você precisar remover o servidor de arquivos que está atuando como o armazenamento de arquivos para sua implantação do Skype for Business Server 2015 ou se precisar fazer outras alterações que indisponíveis o armazenamento de arquivos atual, primeiro você precisará criar um novo compartilhamento. Em seguida, você precisa executar as seguintes etapas:
 
-1. Feche os serviços do Skype for Business Server 2015 que usam o armazenamento de arquivos que você planeja remover.
+1. Desligue os serviços Skype for Business Server 2015 que usam o armazenamento de arquivos que você planeja remover.
 
 2. Defina o armazenamento de arquivos no Construtor de Topologias e publique as alterações para disponibilizar o novo armazenamento de arquivos para sua implantação.
 
@@ -38,15 +38,15 @@ Se você precisar remover o servidor de arquivos que está atuando como o armaze
 
 1. Faça logon em um computador como membro do grupo RTCUniversersalServerAdmins ou CsServerAdministrator onde o Skype for Business Server 2015, Ferramentas Administrativas estão instalados.
 
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle.
 
 3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
 
-4. Para cada pool de diretores, diretor, servidor Standard Edition e pool de Front-End que usa o armazenamento de arquivos que você planeja remover, selecione o servidor ou pool, clique em **Ação** e clique em **Parar todos os serviços**.
+4. Para cada pool de diretores, diretor, servidor Edição Standard e pool de Front-End que usa o armazenamento de arquivos que você planeja remover, selecione o servidor ou pool, clique em **Ação** e clique em **Parar todos os serviços**.
 
 5. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
 
-6. Iniciar Construtor de Topologias: **clique** em Iniciar, em Todos os **Programas,** em **Skype for Business Server 2015** e em Construtor de Topologia do **Skype for Business Server 2015**.
+6. Iniciar Construtor de Topologias: **clique** em Iniciar, em Todos os **Programas,** Skype for Business Server **2015** e clique em **Skype for Business Server Construtor deTopologia 2015**.
 
 7. Selecione um servidor ou pool que use o armazenamento de arquivos e faça o seguinte:
 
@@ -65,7 +65,7 @@ Se você precisar remover o servidor de arquivos que está atuando como o armaze
 
 13. Em **Editar Propriedades,** em **Associações**, no **Armazenamento** de arquivos, selecione o novo compartilhamento de arquivos e clique em **OK**.
 
-14. Publique a topologia, verifique o status da replicação e execute o Assistente de Implantação do Skype for Business Server conforme necessário. Para obter detalhes, consulte [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
+14. Publique a topologia, verifique o status da replicação e execute o Assistente Skype for Business Server implantação, conforme necessário. Para obter detalhes, consulte [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
 
 15. Inicie um prompt de comando: clique em **Iniciar,** clique em **Executar** e digite cmd.exe.
 
