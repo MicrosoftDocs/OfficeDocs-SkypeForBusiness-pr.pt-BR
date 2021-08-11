@@ -1,5 +1,5 @@
 ---
-title: Alta disponibilidade do Servidor back-end no Skype for Business Server
+title: Alta disponibilidade do Servidor Back-End no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
-description: Saiba mais sobre as opções de alta disponibilidade do Servidor Back-End com suporte no Skype for Business Server, incluindo Grupos de Disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn, espelhamento de banco de dados e SQL cluster de failover.
-ms.openlocfilehash: 31ec37d898bd1f04c07142de1849928656f3238e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba mais sobre as opções de alta disponibilidade do Servidor Back-End com suporte no Skype for Business Server, incluindo Grupos de Disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn, espelhamento de banco de dados e SQL clustering de failover.
+ms.openlocfilehash: 5cc325b0726afab72581f679873fe454d8302dec5a478685c24e84b430a25017
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318734"
 ---
-# <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Alta disponibilidade do Servidor back-end no Skype for Business Server
+# <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Alta disponibilidade do Servidor Back-End no Skype for Business Server
  
-Saiba mais sobre as opções de alta disponibilidade do Servidor Back-End com suporte no Skype for Business Server, incluindo Grupos de Disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn, espelhamento de banco de dados e SQL cluster de failover.
+Saiba mais sobre as opções de alta disponibilidade do Servidor Back-End com suporte no Skype for Business Server, incluindo Grupos de Disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn, espelhamento de banco de dados e SQL clustering de failover.
   
 Para melhorar a alta disponibilidade para seus Servidores Back-End, você tem quatro opções:
   
@@ -34,33 +34,33 @@ Para melhorar a alta disponibilidade para seus Servidores Back-End, você tem qu
     
 - SQL clustering de failover
     
-Usar uma dessas soluções é opcional, mas é recomendável manter a continuidade de negócios da sua organização. Caso contrário, ter um único servidor de banco de dados para baixo pode causar a perda de dados significativos do Skype for Business Server. 
+Usar uma dessas soluções é opcional, mas é recomendável manter a continuidade de negócios da sua organização. Caso contrário, ter um único servidor de banco de dados para baixo pode causar a perda de dados Skype for Business Server significativos. 
   
-Você pode configurar o espelhamento de banco de dados usando apenas o Construtor de Topologias. Para Grupos de Disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn ou SQL clustering de failover, você usa o SQL Server para criar a solução de alta disponibilidade e, em seguida, pode usar o Construtor de Topologias para associá-lo a um pool de Front-End.
+Você pode configurar o espelhamento de banco de dados usando apenas o Construtor de Topologias. Para Grupos de Disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn ou SQL de failover, você usa o SQL Server para criar a solução de alta disponibilidade e, em seguida, pode usar o Construtor de Topologias para associá-lo a um pool de Front-End.
   
 Se você usar o Servidor Back-End de alta disponibilidade em um pool de Front-End que está emparelhado com outro pool de Front-End para recuperação de desastres, use a mesma solução de alta disponibilidade de Back End em ambos os pools. 
   
 ## <a name="database-mirroring"></a>Espelhamento do banco de dados
 
-O Skype for Business Server dá suporte ao espelhamento com o seguinte software de banco de dados:
+Skype for Business Server o espelhamento com o seguinte software de banco de dados:
   
-- SQL Server 2019, tanto Enterprise Edition quanto Standard Edition
+- SQL Server 2019, tanto Edição Enterprise quanto Edição Standard
 
-- SQL Server 2017, Enterprise Edition e Standard Edition
+- SQL Server 2017, tanto Edição Enterprise quanto Edição Standard
 
-- SQL Server 2016, Enterprise Edition e Standard Edition
+- SQL Server 2016, tanto Edição Enterprise quanto Edição Standard
 
-- SQL Server 2014, Enterprise Edition e Standard Edition
+- SQL Server 2014, tanto Edição Enterprise quanto Edição Standard
     
-- SQL Server 2012 SP2 e CU2, Enterprise Edition e Standard Edition
+- SQL Server 2012 SP2 e CU2, Edição Enterprise e Edição Standard
     
 
 > [!NOTE]
-> SQL espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os métodos de cluster de cluster AlwaysOn Availability Groups, FCI (Instâncias de Cluster de Failover AlwaysOn) e SQL de failover são as únicas opções com suporte com o Skype for Business Server 2019.
+> SQL O espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os métodos de cluster de cluster AlwaysOn Availability Groups, FCI (Instâncias de Cluster de Failover AlwaysOn) e SQL de failover são as únicas opções suportadas com Skype for Business Server 2019.
     
 O espelhamento de banco de dados assíncrono não é suportado para alta disponibilidade do Servidor Back End no Skype for Business Server. No restante deste documento, espelhamento de banco de dados significa espelhamento de banco de dados síncrono, a menos que seja explicitamente declarado. 
   
-Quando você implanta o espelhamento de banco de dados em um pool de Front-End, todos os bancos de dados do Skype for Business Server no pool são espelhados, incluindo o armazenamento de Gerenciamento Central, se ele estiver localizado nesse pool, bem como o banco de dados de aplicativos do Grupo de Resposta e o banco de dados de aplicativos estacionamento de chamada, se esses aplicativos estão sendo executados no pool. 
+Quando você implanta o espelhamento de banco de dados em um pool de Front-End, todos os bancos de dados Skype for Business Server no pool são espelhados, incluindo o armazenamento de Gerenciamento Central, se ele estiver localizado neste pool, bem como o banco de dados de aplicativos do Grupo de Resposta e o banco de dados de aplicativos estacionamento de chamada, se esses aplicativos estão sendo executados no pool. 
   
 Com o espelhamento de banco de dados, você não precisa usar o armazenamento compartilhado para os servidores. Cada servidor mantém sua cópia dos bancos de dados no armazenamento local. 
   
@@ -78,9 +78,9 @@ Em geral, a configuração do espelhamento SQL entre os dois servidores back-end
     
 - Que o principal e o espelho tenham a mesma edição do SQL Server. A testemunha pode ter uma edição diferente.
     
-Para SQL práticas recomendadas em termos de quais versões SQL são suportadas para uma função Testemunha, consulte  ["Testemunha de Espelhamento](/sql/database-engine/database-mirroring/database-mirroring-witness) de Banco de Dados" no Biblioteca MSDN.
+Para SQL práticas recomendadas em termos de quais versões SQL são suportadas para uma função Testemunha, consulte ["Testemunha de Espelhamento](/sql/database-engine/database-mirroring/database-mirroring-witness) de Banco de Dados" no Biblioteca MSDN.
   
-Antes de configurar o espelhamento de servidor, você deve primeiro configurar SQL de banco de dados corretamente. Para obter detalhes, consulte  ["Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)"](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability).
+Antes de configurar o espelhamento do servidor, você deve primeiro configurar SQL de banco de dados corretamente. Para obter detalhes, consulte ["Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)"](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability).
   
 Com o espelhamento SQL, o modo de recuperação de banco de dados fica sempre definido como **Completo**, o que significa que você deve monitorar de perto o tamanho dos logs de transações, fazendo backup regular deles para evitar o esgotamento do espaço em disco dos servidores back-end. A frequência dos backups dos logs de transações depende da taxa de expansão dos logs, que, por sua vez, depende das transações do banco de dados provenientes de atividades de usuários no pool front-end. Recomendamos que você determine a expansão dos logs de transação esperada para a carga de trabalho de implantação do Lync, de modo que seja possível realizar um planejamento adequado. Os artigos a seguir fornecem mais informações sobre o gerenciamento de logs e backups do SQL:
   
@@ -88,7 +88,7 @@ Com o espelhamento SQL, o modo de recuperação de banco de dados fica sempre de
 > Usar o Construtor de Topologias ou cmdlets para configurar e remover SQL espelhamento só é suportado quando os servidores primário, espelho e testemunha (se desejado) pertencem ao mesmo domínio. Caso deseje configurar o espelhamento SQL entre servidores de domínios diferentes, consulte a documentação do SQL Server. 
 
 > [!NOTE]
-> SQL espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de cluster de failover são preferenciais com o Skype for Business Server 2019.
+> SQL O espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de clustering de failover são preferenciais com o Skype for Business Server 2019.
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>Tempo de recuperação para failover automático do Servidor back-end com espelhamento de banco de dados
 
@@ -106,33 +106,33 @@ Se o diretor e o Servidor de Back-End espelho falharem ou se um destes servidore
   
 ## <a name="alwayson-availability-groups-and-alwayson-failover-cluster-instances"></a>Grupos de Disponibilidade AlwaysOn e Instâncias de Cluster de Failover AlwaysOn
 
-O Skype for Business Server dá suporte a Grupos de Disponibilidade AlwaysOn apenas como ativo/passivo, não ativo/ativo. 
+Skype for Business Server dá suporte a Grupos de Disponibilidade AlwaysOn apenas como ativo/passivo, não ativo/ativo. 
   
 Para usar Grupos de Disponibilidade AlwaysOn ou Instâncias de Cluster de Failover AlwaysOn, primeiro use SQL Server para configurar e configurar a solução de alta disponibilidade. Em seguida, você pode usar o Construtor de Topologias para associá-lo a um pool de Front-End.
 
-O Skype for Business Server dá suporte a AlwaysOn com o seguinte software de banco de dados:
+Skype for Business Server suporta AlwaysOn com o seguinte software de banco de dados:
 
-- SQL Server 2019 Enterprise Edition
+- SQL Server 2019 Edição Enterprise
 
-- SQL Server 2019 Standard Edition com limitações, consulte observação abaixo
+- SQL Server 2019 Edição Standard com limitações, consulte observação abaixo
 
-- SQL Server 2017 Enterprise Edition
+- SQL Server 2017 Edição Enterprise
 
-- SQL Server 2017 Standard Edition com limitações, consulte observação abaixo
+- SQL Server 2017 Edição Standard com limitações, consulte observação abaixo
 
-- SQL Server 2016 Enterprise Edition
+- SQL Server 2016 Edição Enterprise
 
-- SQL Server 2016 Standard Edition com limitações, consulte observação abaixo
+- SQL Server 2016 Edição Standard com limitações, consulte observação abaixo
 
-- SQL Server 2014 Enterprise Edition
+- SQL Server 2014 Edição Enterprise
     
-- SQL Server 2012 SP2 e CU2 Enterprise Edition
+- SQL Server 2012 SP2 e CU2 Edição Enterprise
 
 > [!NOTE]
-> SQL Server 2019, 2017 e 2016 são as únicas versões com suporte do Skype for Business Server 2019.
+> SQL Server 2019, 2017 e 2016 são as únicas versões suportadas pelo Skype for Business Server 2019.
 
 > [!NOTE]
-> Os Grupos de  Disponibilidade Always On não são suportados nas Edições Padrão SQL 2016, 2017 e 2019, mas você pode usar Instâncias de Cluster de Failover Always On. Confira edições e recursos com suporte [do SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) para saber mais.
+> Os Grupos de  Disponibilidade Always On não são suportados nas Edições Padrão SQL 2016, 2017 e 2019, mas você pode usar Instâncias de Cluster de Failover Always On. Consulte [edições e recursos com suporte do SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) para saber mais.
   
 > [!IMPORTANT]
 > Os nomes de instância para várias instâncias do Grupo de Disponibilidade AlwaysOn devem ser os mesmos. 
@@ -141,17 +141,17 @@ Para etapas para implantar Grupos de Disponibilidade AlwaysOn, consulte [Deploy 
   
 ## <a name="sql-server-failover-clustering"></a>SQL Server Failover Clustering
 
-O Skype for Business Server oferece suporte SQL Server cluster de failover com o seguinte software de banco de dados:
+Skype for Business Server suporta SQL Server de failover com o seguinte software de banco de dados:
   
-- SQL Server 2019, tanto Enterprise Edition quanto Standard Edition
+- SQL Server 2019, tanto Edição Enterprise quanto Edição Standard
 
-- SQL Server 2017, Enterprise Edition e Standard Edition
+- SQL Server 2017, tanto Edição Enterprise quanto Edição Standard
 
-- SQL Server 2016, Enterprise Edition e Standard Edition
+- SQL Server 2016, tanto Edição Enterprise quanto Edição Standard
 
-- SQL Server 2014, Enterprise Edition e Standard Edition
+- SQL Server 2014, tanto Edição Enterprise quanto Edição Standard
     
-- SQL Server 2012 SP2 e CU2, Enterprise Edition e Standard Edition
+- SQL Server 2012 SP2 e CU2, Edição Enterprise e Edição Standard
 
 Para usar SQL cluster de failover, você deve primeiro configurar e configurar o cluster SQL Server antes de implantar seu pool de Front-End. Para obter as práticas recomendadas e instruções de instalação para cluster de failover no SQL Server 2012, consulte [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) .
 

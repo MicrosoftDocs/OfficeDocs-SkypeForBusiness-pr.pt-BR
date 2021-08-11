@@ -1,5 +1,5 @@
 ---
-title: Tronco SIP no Skype for Business Server
+title: Tronco SIP em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Saiba mais sobre tronco SIP no Skype for Business Server Enterprise Voice
-ms.openlocfilehash: ca3e30c8974e5ac26c2d9c395da228f85c92bac0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8254df8366fdbfd03dd5ad0aa2f3253e5f4284b8248d26b131f056d28714bd77
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289729"
 ---
-# <a name="sip-trunking-in-skype-for-business-server"></a>Tronco SIP no Skype for Business Server
+# <a name="sip-trunking-in-skype-for-business-server"></a>Tronco SIP em Skype for Business Server
 
 Saiba mais sobre tronco SIP no Skype for Business Server Enterprise Voice
 
@@ -51,9 +51,9 @@ Uma vez que os troncos SIP se conectam diretamente ao provedor de serviço, voc�
 
 ### <a name="expanded-voip-services"></a>Serviços de VoIP expandidos
 
-Os recursos de voz são frequentemente o principal motivo para implantar o tronco SIP, mas o suporte de voz é apenas a primeira etapa. Com o tronco SIP, você pode estender os recursos VoIP e habilitar o Skype for Business Server para fornecer um conjunto mais rico de serviços. Por exemplo:
+Os recursos de voz são frequentemente o principal motivo para implantar o tronco SIP, mas o suporte de voz é apenas a primeira etapa. Com o tronco SIP, você pode estender os recursos VoIP e permitir Skype for Business Server fornecer um conjunto mais rico de serviços. Por exemplo:
 
-- A detecção de presença aprimorada para dispositivos que não executam o Skype for Business Server pode oferecer melhor integração com telefones celulares, permitindo que você veja quando um usuário está em uma chamada de telefone celular.
+- A detecção de presença aprimorada para dispositivos que não estão executando Skype for Business Server pode oferecer melhor integração com telefones celulares, permitindo que você veja quando um usuário está em uma chamada de telefone celular.
 
 - A chamada de emergência do E9-1-1 permite que as autoridades que atendam às chamadas do 911 determinem a localização do chamador a partir de seu número de telefone.
 
@@ -62,21 +62,21 @@ Os recursos de voz são frequentemente o principal motivo para implantar o tronc
 
 ### <a name="sip-trunks-vs-direct-sip-connections"></a>Troncos SIP vs. Conexões diretas do cabo SIP
 
-O termo tronco  deriva da tecnologia de comutação de circuitos. Refere-se a uma linha física dedicada que conecta o equipamento de comutação telefônica. Assim como seus troncos predecessores, de multiplexação de divisão de tempo (TDM), os troncos SIP são conexões entre duas redes SIP separadas, o Skype for Business Server enterprise e o ITSP. Diferentemente dos troncos de comutação de circuitos, os troncos SIP são conexões virtuais que podem ser estabelecidas sobre qualquer tipo de conexão de troncos SIP compatíveis.
+O termo tronco  deriva da tecnologia de comutação de circuitos. Refere-se a uma linha física dedicada que conecta o equipamento de comutação telefônica. Assim como seu predecessor, troncos TDM (multiplexação de divisão de tempo), os troncos SIP são conexões entre duas redes SIP separadas, o Skype for Business Server enterprise e o ITSP. Diferentemente dos troncos de comutação de circuitos, os troncos SIP são conexões virtuais que podem ser estabelecidas sobre qualquer tipo de conexão de troncos SIP compatíveis.
 
-As conexões SIP diretas, por outro lado, são conexões de SIP que não atravessam o limite de rede local (ou seja, elas se conectam a um gateway PSTN ou PBX dentro de sua rede interna). Para obter detalhes sobre como você pode usar conexões SIP diretas com o Skype for Business Server, consulte [Direct SIP connections in Skype for Business Server](direct-sip.md).
+As conexões SIP diretas, por outro lado, são conexões de SIP que não atravessam o limite de rede local (ou seja, elas se conectam a um gateway PSTN ou PBX dentro de sua rede interna). Para obter detalhes sobre como você pode usar conexões SIP diretas com Skype for Business Server, consulte [Direct SIP connections in Skype for Business Server](direct-sip.md).
 
 ## <a name="how-do-i-implement-sip-trunking"></a>Como implementar tronco SIP?
 
-Para implementar o tronco SIP, você deve rotear a conexão por meio de um Servidor de Mediação, que atua como um proxy para sessões de comunicação entre clientes do Skype for Business Server e o provedor de serviços e transcodifica mídia, quando necessário.
+Para implementar o tronco SIP, você deve rotear a conexão por meio de um Servidor de Mediação, que atua como um proxy para sessões de comunicação entre clientes Skype for Business Server e o provedor de serviços e transcodifica mídia, quando necessário.
 
 Cada Servidor de Mediação tem uma interface de rede interna e uma interface de rede externa. A interface interna se conecta aos Servidores Front-End. A interface externa é comumente chamada de interface de gateway porque tradicionalmente foi usada para conectar o Servidor de Mediação a um gateway PSTN (rede telefônica pública comutado) ou a um IP-PBX. Para implementar um tronco SIP, você conecta a interface externa do Servidor de Mediação ao componente de borda externa do ITSP. O componente de borda externa do ITSP pode ser um SBC (controlador de borda da sessão), um roteador ou um gateway.
 
-Para obter detalhes sobre servidores de mediação, consulte Componente do Servidor [de Mediação no Skype for Business Server](mediation-server.md).
+Para obter detalhes sobre servidores de mediação, consulte [Componente do Servidor de Mediação em Skype for Business Server](mediation-server.md).
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>Tronco SIP centralizado versus distribuído
 
-O tronco SIP centralizado encaminha todo o tráfego VoIP, incluindo o tráfego de site de filial, por meio de seu site central. O modelo de implantação centralizado é simples, econômico e geralmente é a abordagem recomendada para implementar troncos SIP com o Skype for Business Server.
+O tronco SIP centralizado encaminha todo o tráfego VoIP, incluindo o tráfego de site de filial, por meio de seu site central. O modelo de implantação centralizado é simples, econômico e geralmente é a abordagem recomendada para implementar troncos SIP com Skype for Business Server.
 
 Tronco SIP distribuído é um modelo de implantação no qual você implementa troncos SIP locais em um ou mais sites de filial. O tráfego VoIP é então roteado do site de filial diretamente para um provedor de serviços sem passar pelo site central.
 
@@ -94,20 +94,20 @@ Dependendo da localização geográfica dos sites e do tráfego antecipado em su
 
 - Quais números DID (discagem direta interna) em cada site recebem a maioria das chamadas?
 
-A decisão sobre implantar um tronco SIP centralizado ou distribuído exige uma análise com bom custo benefício. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se não for necessário. Em uma implantação completamente centralizada, todo o tráfego de site de filial é roteado por links WAN. Em vez de pagar pela largura de banda exigida pelo link de WAN, convém usar o tronco SIP distribuído. Por exemplo, talvez você queira implantar um servidor Standard Edition em um site de filial com federação para o site central, ou talvez você queira implantar um Aparelho de Filial Desavivável ou um Servidor de FilialVivível com um gateway pequeno.
+A decisão sobre implantar um tronco SIP centralizado ou distribuído exige uma análise com bom custo benefício. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se não for necessário. Em uma implantação completamente centralizada, todo o tráfego de site de filial é roteado por links WAN. Em vez de pagar pela largura de banda exigida pelo link de WAN, convém usar o tronco SIP distribuído. Por exemplo, talvez você queira implantar um servidor Edição Standard em um site de filial com federação para o site central, ou talvez você queira implantar um Aparelho de Filial Desavivável ou um Servidor de FilialVivível com um gateway pequeno.
 
 > [!NOTE]
-> Para obter detalhes sobre o tronco SIP distribuído, consulte Tronco SIP de site de filial [no Skype for Business Server](branch-site.md).
+> Para obter detalhes sobre o tronco SIP distribuído, consulte [Tronco SIP de site](branch-site.md)de filial em Skype for Business Server .
 
 ### <a name="supported-sip-trunking-connection-types"></a>Tipos de conexão de tronco SIP suportadas
 
-O Skype for Business Server oferece suporte aos seguintes tipos de conexão para tronco SIP:
+Skype for Business Server dá suporte aos seguintes tipos de conexão para tronco SIP:
 
 - MPLS (Multiprotocol Label Switching) é uma rede privada que direciona e transporta dados de um nó de rede para o próximo. A largura de banda em uma rede MPLS é compartilhada com outros assinantes e cada pacote de dados recebe um rótulo para distinguir os dados de um assinante dos de outro. Esse tipo de conexão não exige VPN. Uma possível desvantagem é que o tráfego IP excessivo pode interferir com a operação VoIP, a menos que o tráfego VoIP tenha prioridade.
 
 - Uma conexão privada sem outro tráfego—por exemplo, uma conexão de fibra ótica arrendada ou linha T1—é normalmente o tipo de conexão mais confiável e segura (por exemplo, uma conexão de fibra óptica. Este tipo de conexão oferece a maior capacidade de realização de chamadas, mas é geralmente o mais caro. VPN não é necessário. Conexões privadas são adequadas para organizações com alto volume de chamadas ou com requisitos de segurança e disponibilidade rígidos.
 
-- A Internet é o tipo de conexão menos caro, mas também o menos confiável. A conexão com a Internet é o único tipo de conexão SIP do Skype for Business Server que requer VPN.
+- A Internet é o tipo de conexão menos caro, mas também o menos confiável. A conexão com a Internet é o único tipo Skype for Business Server de conexão SIP que requer VPN.
 
 #### <a name="selecting-a-connection-type"></a>Selecionando um tipo de conexão
 
@@ -130,7 +130,7 @@ Largura de banda de pico do tronco SIP = máximo de chamadas simultâneas x (64 
 
 ### <a name="codec-support"></a>Suporte ao codec
 
-O Skype for Business Server dá suporte apenas aos seguintes codecs:
+Skype for Business Server dá suporte apenas aos seguintes codecs:
 
 - G.711 a-law (usado principalmente fora da América do Norte)
 
@@ -147,7 +147,7 @@ Para obter detalhes sobre os provedores de tronco SIP certificado pela Microsoft
 
 ### <a name="topologies-and-components-for-sip-trunking"></a>Topologias e componentes para tronco SIP
 
-A figura a seguir mostra a topologia de tronco SIP no Skype for Business Server.
+A figura a seguir mostra a topologia de tronco SIP em Skype for Business Server.
 
 **Topologia de tronco SIP**
 

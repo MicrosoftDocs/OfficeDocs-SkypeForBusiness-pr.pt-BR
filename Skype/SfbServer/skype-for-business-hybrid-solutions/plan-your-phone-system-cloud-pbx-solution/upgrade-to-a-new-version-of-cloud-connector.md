@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Saiba como atualizar sua implantação do Cloud Connector Edition.
-ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2670557f3f5ab44545c511b759971a457bd37e333d01b323ad6cc35d82526858
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109127"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279967"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Atualizar para uma nova versão do Cloud Connector
 
 > [!Important]
-> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com Skype for Business Online. Depois que sua organização tiver sido atualizada para Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
  
 Saiba como atualizar sua implantação do Cloud Connector Edition.
   
@@ -58,7 +58,7 @@ A atualização automática exige que o serviço do Cloud Connector está em exe
     
   - Desinstalar o arquivo msi antigo; instale o novo arquivo msi.
     
-  - Baixe a nova versão dos bits do Skype for Business.
+  - Baixe a nova versão de Skype for Business bits.
     
   - Registre o dispositivo chamando Register-CcAppliance.
     
@@ -106,7 +106,7 @@ Se houver apenas um dispositivo no site que você deseja atualizar, faça o segu
 
 Se houver mais de um dispositivo no site, siga as etapas anteriores para atualizar cada dispositivo um por um.
   
-Se você quiser atualizar o administrador de domínio, administrador de máquina virtual, administrador de modo seguro e credenciais de administrador de locatários, você pode executar o cmdlet com o parâmetro  _UpdateAllCredentials_ para redefinir todas as credenciais:
+Se você quiser atualizar o administrador de domínio, administrador de máquina virtual, administrador do modo Cofre e credenciais de administrador de locatários, você pode executar o cmdlet com o parâmetro _UpdateAllCredentials_ para redefinir todas as credenciais:
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials

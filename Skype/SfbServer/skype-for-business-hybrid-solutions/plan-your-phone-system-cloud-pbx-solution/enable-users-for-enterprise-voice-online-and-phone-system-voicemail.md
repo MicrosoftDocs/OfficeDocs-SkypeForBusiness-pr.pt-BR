@@ -18,34 +18,34 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Saiba como habilitar os serviços de voz do Sistema de Telefonia para seus usuários do Skype for Business.
-ms.openlocfilehash: f1c59505073a7113407f28b7ebbe3a323724782e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba como habilitar Sistema de Telefonia de voz para seus Skype for Business usuários.
+ms.openlocfilehash: fea5da3bb82281c05edd73ce8e69c7164440513080b7aa804b31abc5d4c65ba7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289069"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar os usuários do Enterprise Voice online e da Caixa Postal do Sistema de Telefone
  
 > [!Important]
-> O Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto](/MicrosoftTeams/direct-routing-landing-page).
+> Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
 
-Saiba como habilitar os serviços de voz do Sistema de Telefonia para seus usuários do Skype for Business.
+Saiba como habilitar Sistema de Telefonia de voz para seus Skype for Business usuários.
   
-A etapa final na implantação do Sistema de Telefonia com conectividade PSTN local é habilitar seus usuários para o Sistema de Telefonia e a caixa postal. Para habilitar esses recursos, você deve ser um usuário com a função Administrador Global e poder executar o PowerShell remoto. Você precisa seguir as etapas deste tópico para todas as contas de usuário que ainda não Enterprise Voice habilitadas para o Skype for Business Online.
+A etapa final na implantação Sistema de Telefonia com conectividade PSTN local é habilitar seus usuários para Sistema de Telefonia e caixa postal. Para habilitar esses recursos, você deve ser um usuário com a função Administrador Global e poder executar o PowerShell remoto. Você precisa seguir as etapas deste tópico para todas as contas de usuário que ainda não Enterprise Voice habilitadas para Skype for Business Online.
   
-## <a name="enable-phone-system-voice-services"></a>Habilitar serviços de voz do Sistema de Telefonia
+## <a name="enable-phone-system-voice-services"></a>Habilitar Sistema de Telefonia serviços de voz
 
-Para habilitar um usuário para Voz do Sistema de Telefonia e caixa postal, você precisará executar algumas etapas iniciais, como verificar se o Conector do Skype for Business Online está implantado em seus servidores e habilitar seus usuários para a caixa postal hospedada.
+Para habilitar um usuário para Sistema de Telefonia Voz e caixa postal, você precisará executar algumas etapas iniciais, como verificar se o conector online do Skype for Business está implantado em seus servidores e habilitar seus usuários para a caixa postal hospedada.
   
-### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar seus usuários para voz e caixa postal do Sistema de Telefonia
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar seus usuários para Sistema de Telefonia voz e caixa postal
 
 > [!NOTE]
-> O Skype for Business Online Connector atualmente faz parte do módulo do PowerShell mais recente do Teams.
-> Se você estiver usando a versão pública mais recente do [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o Conector do Skype for Business Online.
+> Skype for Business No momento, o Conector Online faz parte do módulo Teams PowerShell mais recente.
+> Se você estiver usando a versão pública mais [recente Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o conector Skype for Business Online.
 
-1. Antes de começar, verifique se o módulo do Teams PowerShell está instalado em seus Servidores Front-End. Se não estiver, instale usando as instruções na Instalação do [Módulo do PowerShell do Teams.](/microsoftteams/teams-powershell-install)
+1. Antes de começar, verifique se o módulo Teams PowerShell está instalado em seus Servidores Front-End. Se não estiver, instale usando as instruções em Teams [Instalação do Módulo do PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Inicie Windows PowerShell como administrador.
     
@@ -75,24 +75,24 @@ Para habilitar um usuário para Voz do Sistema de Telefonia e caixa postal, voc�
     > [!NOTE]
     > Você também pode especificar um usuário por seu endereço SIP, nome da Entidade de Usuário (UPN), nome de domínio e nome de usuário (domínio\nome de usuário) e nome de exibição no Active Directory ("Bob Kelly"). 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>Atualizar o URI de linha e o plano de discagem para usuários habilitados para o Sistema de Telefonia
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>Atualize o URI de linha e o plano de discagem para usuários habilitados para Sistema de Telefonia
 
-Esta seção descreve como atualizar o URI de linha e o plano de discagem para usuários habilitados para o Sistema de Telefonia. 
+Esta seção descreve como atualizar o URI de linha e o plano de discagem para usuários habilitados para Sistema de Telefonia. 
   
 ### <a name="to-update-the-line-uri"></a>Para atualizar o URI de linha
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2. Use o menu Iniciar ou o atalho da área de trabalho para abrir o Painel de Controle do Skype for Business Server.
+2. Use o menu Iniciar ou o atalho da área de trabalho para abrir o painel Skype for Business Server Controle.
     
     > [!NOTE]
-    > Você também pode abrir uma janela do navegador e inserir a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+    > Você também pode abrir uma janela do navegador e inserir a URL do Administrador para abrir o painel Skype for Business Server Controle. 
   
 3. Na barra de navegação à esquerda, clique em **Usuários**.
     
 4. Na caixa **Pesquisar usuários**, digite todo ou parte do nome de exibição, nome, sobrenome, nome da conta SAM, endereço SIP ou URI de linha da conta do usuário que deseja habilitar e clique em **Localizar**.
     
-5. Na tabela, clique na conta de usuário do Skype for Business que você deseja alterar o URI de linha.
+5. Na tabela, clique na Skype for Business de usuário que você deseja alterar o URI de linha.
     
 6. Clique **em URI** de linha e digite um número de telefone exclusivo e normalizado (por exemplo, tel:+14255550200). Em seguida, **clique em Commit**.
     
@@ -127,14 +127,14 @@ Você pode atribuir planos de discagem por usuário com Windows PowerShell e o c
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
-## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Atualizar as políticas de roteamento de voz usando cmdlets Windows PowerShell locais
+## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Atualizar as políticas de roteamento de voz usando cmdlets locais Windows PowerShell cmdlets
 
-Esta seção descreve como atualizar as políticas de roteamento de voz para usuários habilitados para o Sistema de Telefonia.
+Esta seção descreve como atualizar as políticas de roteamento de voz para usuários habilitados para Sistema de Telefonia.
   
-Os usuários do Sistema de Telefonia devem ter uma Política de Roteamento de Voz atribuída a eles para que as chamadas roteem com êxito. Isso difere dos usuários de voz comerciais locais que exigem que uma Política de Voz seja atribuída a eles para permitir que as chamadas sejam roteadas com êxito. A Política de Roteamento de Voz deve conter usos PSTN que definem chamadas autorizadas e rotas para usuários do Sistema de Telefonia. Você pode copiar esses usos PSTN de Políticas de Voz existentes para novas Políticas de Roteamento de Voz. Para obter mais informações, [consulte New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Sistema de Telefonia usuários devem ter uma Política de Roteamento de Voz atribuída a eles para que as chamadas roteem com êxito. Isso difere dos usuários de voz comerciais locais que exigem que uma Política de Voz seja atribuída a eles para permitir que as chamadas sejam roteadas com êxito. A Política de Roteamento de Voz deve conter usos PSTN que definem chamadas e rotas autorizadas para Sistema de Telefonia usuários. Você pode copiar esses usos PSTN de Políticas de Voz existentes para novas Políticas de Roteamento de Voz. Para obter mais informações, [consulte New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Todos os usuários do Sistema de Telefonia são atribuídos à mesma Política de Voz online chamada BusinessVoice, que define os recursos de chamada permitidos; por exemplo, Permitir Anel Simultâneo. 
+> Todos Sistema de Telefonia usuários são atribuídos à mesma Política de Voz online chamada BusinessVoice, que define os recursos de chamada permitidos; por exemplo, Permitir Anel Simultâneo. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Para atribuir uma política de roteamento de voz por usuário a um único usuário
 

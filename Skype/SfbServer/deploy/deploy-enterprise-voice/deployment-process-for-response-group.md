@@ -1,5 +1,5 @@
 ---
-title: Processo de implantação do Grupo de Resposta no Skype for Business
+title: Processo de implantação do Grupo de Resposta Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
-description: Processo de implantação e etapas para o Grupo de Resposta no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: b1a29c4f43deb260987492e0731b740500bff87e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Processo de implantação e etapas para o Grupo de Resposta Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 74edec198bf061a66b18ea013d21e59ab066438d486b1ff6e85bcd02707ddb16
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103497"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326567"
 ---
-# <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processo de implantação do Grupo de Resposta no Skype for Business
+# <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processo de implantação do Grupo de Resposta Skype for Business
 
-Processo de implantação e etapas para o Grupo de Resposta no Skype for Business Server Enterprise Voice.
+Processo de implantação e etapas para o Grupo de Resposta Skype for Business Server Enterprise Voice.
 
 O Grupo de Resposta é um recurso Enterprise Voice que encaminha e enfileria chamadas de entrada para grupos de pessoas, chamados de agentes, como um suporte de ajuda ou um atendimento ao cliente.
 
@@ -71,13 +71,13 @@ Talvez seja necessário executar as seguintes tarefas antes de configurar o Grup
 
 ### <a name="enabling-users"></a>Permitir usuários
 
-A primeira etapa na configuração do Grupo de Resposta é criar grupos de agentes. Antes de criar um grupo de agentes, você deve habilitar os usuários que serão agentes do Grupo de Resposta para Skype for Business e Enterprise Voice. A habilitação de usuários para o Skype for Business normalmente é uma etapa na implantação do servidor Enterprise Edition ou do servidor Standard Edition. Para obter detalhes sobre como habilitar usuários para o Skype for Business, consulte [Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). Habilitar usuários para Enterprise Voice geralmente é uma etapa na implantação de Enterprise Voice. Para obter detalhes, [consulte Enable users for Enterprise Voice in Skype for Business Server](enable-users-for-enterprise-voice.md).
+A primeira etapa na configuração do Grupo de Resposta é criar grupos de agentes. Antes de criar um grupo de agentes, você deve habilitar os usuários que serão agentes do Grupo de Resposta para Skype for Business e Enterprise Voice. A habilitação de usuários para Skype for Business geralmente é uma etapa na implantação do servidor Edição Enterprise ou Edição Standard servidor. Para obter detalhes sobre como habilitar usuários para Skype for Business, consulte [Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). Habilitar usuários para Enterprise Voice geralmente é uma etapa na implantação de Enterprise Voice. Para obter detalhes, [consulte Enable users for Enterprise Voice in Skype for Business Server](enable-users-for-enterprise-voice.md).
 
 ### <a name="complying-with-fips-requirements"></a>Conformidade com os requisitos FIPS
 
 Esta seção somente se aplica a você sea  sua organização precisa cumprir com o FIPS (Federal Information Processing Standards).
 
-Para ser compatível com o FIPS, você precisará modificar o arquivo Web.config de nível de aplicativo para usar um algoritmo de criptografia diferente depois de instalar os serviços da Web. Você precisa especificar que o ASP.NET usa o algoritmo Triple Data Encryption Standard (3DES) para processar os dados de estado de exibição. Para o aplicativo grupo de resposta, esse requisito se aplica à Ferramenta de Configuração do Grupo de Resposta e ao console de entrada e saída do agente. Para obter detalhes sobre esse requisito, consulte o artigo 911722 da Base de Dados de Conhecimento da Microsoft, "Você pode receber uma mensagem de erro ao acessar ASP.NET páginas da Web que tenham o ViewState habilitado após a atualização do ASP.NET 1.1 para o ASP.NET 2.0", em [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183) .
+Para ser compatível com o FIPS, você precisará modificar o arquivo Web.config de nível de aplicativo para usar um algoritmo de criptografia diferente depois de instalar os serviços da Web. Você precisa especificar que o ASP.NET usa o algoritmo Triple Data Encryption Standard (3DES) para processar os dados de estado de exibição. Para o aplicativo grupo de resposta, esse requisito se aplica à Ferramenta de Configuração do Grupo de Resposta e ao console de entrada e saída do agente. Para obter detalhes sobre esse requisito, consulte o artigo da Base de Dados de Conhecimento da Microsoft 911722, "Você pode receber uma mensagem de erro quando acessar páginas da Web ASP.NET que tenham o ViewState habilitado após a atualização do ASP.NET 1.1 para o ASP.NET 2.0", em [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183) .
 
 Para modificar o arquivo Web.config, faça o seguinte:
 
@@ -93,7 +93,7 @@ Para modificar o arquivo Web.config, faça o seguinte:
 
 4. Salve o arquivo Web.config.
 
-5. Reinicie o serviço do Serviços de Informações da Internet (IIS) executando o seguinte comando em um prompt de comando:
+5. Reinicie o Serviços de Informações da Internet (IIS) executando o seguinte comando em um prompt de comando:
 
    ```console
    iisreset
@@ -118,9 +118,9 @@ Para oferecer suporte a caracteres Yi, Meng ou Zang, você precisará modificar 
 
 - dbo. Fluxos de trabalho
 
-Para SQL Server 2008 R2 e SQL Server 2012, use o Latin_General_100 (Accent Sensitive). Se você usar esse agrupamento, todos os nomes de objeto não se diferenciarão entre maiúsculas e minúsculas.
+Para SQL Server 2008 R2 e SQL Server 2012, use o colamento Latin_General_100 (Accent Sensitive). Se você usar esse agrupamento, todos os nomes de objeto não se diferenciarão entre maiúsculas e minúsculas.
 
-Você pode alterar o agrupamento usando o Microsoft SQL Server Management Studio. Para obter detalhes sobre como usar essa ferramenta, consulte ["Using SQL Server Management Studio"](/sql/ssms/sql-server-management-studio-ssms). Siga essas etapas para alterar o agrupamento:
+Você pode alterar o agrupamento usando o Microsoft SQL Server Management Studio. Para obter detalhes sobre como usar essa ferramenta, consulte ["Usando SQL Server Management Studio"](/sql/ssms/sql-server-management-studio-ssms). Siga essas etapas para alterar o agrupamento:
 
 1. Certifique-se de que o SQL Server Management Studio está configurado para permitir alterações que precisam que as tabelas sejam recriadas. Para obter detalhes, consulte a caixa de diálogo ["Salvar (Não Permitido) "](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box). Para obter detalhes sobre a configuração de um colamento de coluna, consulte ["How to: Set Column Collation (Visual Database Tools)"](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105)).
 
@@ -136,9 +136,9 @@ Você pode alterar o agrupamento usando o Microsoft SQL Server Management Studio
 
 |**Fase**|**Etapas**|**Permissões**|**Documentação de Implantação**|
 |:-----|:-----|:-----|:-----|
-|Habilitar usuários para o Skype for Business e para Enterprise Voice  <br/> |Habilitar usuários que serão agentes do Skype for Business e Enterprise Voice. Os usuários devem ser habilitados antes de adicioná-los a grupos de agente. Normalmente, os usuários são habilitados para o Skype for Business durante a implantação do servidor Enterprise Edition ou Standard Edition. Os usuários estão habilitados para Enterprise Voice durante Enterprise Voice implantação.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Habilitar ou desabilitar usuários para Visualização do Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [Habilitar usuários para Enterprise Voice no Skype for Business Server](enable-users-for-enterprise-voice.md) <br/> |
-|Criar e configura grupos de resposta, que consistem de grupos de agentes, filas e fluxos de trabalho  <br/> |1. Use o Painel de Controle do Skype for Business Server ou o Shell de Gerenciamento do Skype for Business Server para fazer o seguinte:  <br/> a. Criar e configurar grupos de agentes.  <br/> b. Criar e configurar filas.  <br/> 2. Opcionalmente, use o Shell de Gerenciamento do Skype for Business Server para criar horários comerciais e feriados predefinidos do grupo de resposta.  <br/> 3. Use a Ferramenta de Configuração do Grupo de Resposta ou o Shell de Gerenciamento do Skype for Business Server para criar fluxos de trabalho (grupos de busca ou fluxos de chamadas ivr interativos), incluindo horários comerciais e feriados do grupo de resposta personalizados.  <br/> Você pode acessar a Ferramenta de Configuração de Grupo de Resposta por meio do Painel de Controle do Skype for Business Server.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Criar grupos de agentes dos grupos de resposta](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Criar filas de grupos de resposta](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Opcional) Definir o horário comercial do Grupo de Resposta no Skype for Business](optional-define-response-group-business-hours.md) <br/> [(Opcional) Definir conjuntos de feriados do Grupo de Resposta no Skype for Business](optional-define-response-group-holiday-sets.md) <br/> [Criando e criando fluxos de trabalho de grupo de resposta no Skype for Business](designing-and-creating-response-group-workflows.md) <br/> |
-|(Opcional) Personalizar configurações a nível de aplicativo  <br/> |Use o Shell de Gerenciamento do Skype for Business Server para personalizar a configuração padrão de música em espera, o arquivo de áudio padrão de música em espera, o período de retorno de toque do agente e a configuração de contexto de chamada.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gerenciando configurações do Grupo de Resposta no nível do aplicativo no Skype for Business](managing-application-level-response-group-settings.md) <br/> |
+|Habilitar usuários para Skype for Business e para Enterprise Voice  <br/> |Habilitar usuários que serão agentes para Skype for Business e Enterprise Voice. Os usuários devem ser habilitados antes de adicioná-los a grupos de agente. Normalmente, os usuários são habilitados para Skype for Business durante a implantação Edição Enterprise ou Edição Standard servidor. Os usuários estão habilitados para Enterprise Voice durante Enterprise Voice implantação.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Habilitar ou desabilitar usuários para Visualização do Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [Habilitar usuários para Enterprise Voice em Skype for Business Server](enable-users-for-enterprise-voice.md) <br/> |
+|Criar e configura grupos de resposta, que consistem de grupos de agentes, filas e fluxos de trabalho  <br/> |1. Use o painel de Skype for Business Server ou o Shell de Gerenciamento Skype for Business Server para fazer o seguinte:  <br/> a. Criar e configurar grupos de agentes.  <br/> b. Criar e configurar filas.  <br/> 2. Opcionalmente, use Skype for Business Server Shell de Gerenciamento para criar horários comerciais e feriados predefinidos do grupo de resposta.  <br/> 3. Use a Ferramenta de Configuração do Grupo de Resposta ou o Shell de Gerenciamento Skype for Business Server para criar fluxos de trabalho (grupos de busca ou fluxos de chamadas de ivr (resposta de voz interativa), incluindo horários comerciais e feriados personalizados do grupo de resposta.  <br/> Você pode acessar a Ferramenta de Configuração do Grupo de Resposta Skype for Business Server Painel de Controle.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Criar grupos de agentes dos grupos de resposta](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Criar filas de grupos de resposta](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Opcional) Definir o horário comercial do Grupo de Resposta em Skype for Business](optional-define-response-group-business-hours.md) <br/> [(Opcional) Definir conjuntos de feriados do Grupo de Resposta Skype for Business](optional-define-response-group-holiday-sets.md) <br/> [Criando e criando fluxos de trabalho de grupo de resposta Skype for Business](designing-and-creating-response-group-workflows.md) <br/> |
+|(Opcional) Personalizar configurações a nível de aplicativo  <br/> |Use Skype for Business Server Shell de Gerenciamento para personalizar a configuração padrão de música em espera, o arquivo de áudio padrão de música em espera, o período de carência de toque do agente e a configuração de contexto de chamada.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gerenciando configurações do Grupo de Resposta no nível do aplicativo Skype for Business](managing-application-level-response-group-settings.md) <br/> |
 |(Opcional) Delega o gerenciamento dos grupos de resposta  <br/> |Atribua aos usuários a função CsResponseGroupManager para delegar a configuração dos grupos de resposta. Em seguida, os Gerentes de Grupo de Resposta podem configurar os grupos de resposta atribuídos a eles.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planejando o controle de acesso baseado em função](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) <br/> |
 |Verificar a implantação do grupo de respostas  <br/> |Teste responder chamadas para seu fluxo de trabalho de resposta de voz interativa e grupo coletivo para garantir que sua configuração funcione como esperado.  <br/> |-  <br/> |-  <br/> |
 

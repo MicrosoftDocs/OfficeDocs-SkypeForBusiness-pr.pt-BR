@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
-description: Exporta a configuração do Skype for Business Cloud Connector Edition para um arquivo local no servidor host do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: cd0745081e3f069aaf58c9ffdbf24494bfb3ece1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Exporta a configuração Skype for Business Cloud Connector Edition para um arquivo local no servidor Skype for Business Cloud Connector Edition host.
+ms.openlocfilehash: f34f8454dfc3129be50b26114f71fdeee4a4b633f66ca9f80dc621c51c5af6ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288830"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
-Exporta a configuração do Skype for Business Cloud Connector Edition para um arquivo local no servidor host do Skype for Business Cloud Connector Edition.
+Exporta a configuração Skype for Business Cloud Connector Edition para um arquivo local no servidor Skype for Business Cloud Connector Edition host.
   
 ```powershell
 Export-CcConfiguration [-Path] <String> [<CommonParameters>]
@@ -42,7 +42,7 @@ Export-CcConfiguration -Path "C:\test\CloudConnector.ini"
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="Examples"> </a>
 
-O Export-CcConfiguration cmdlet permite que você salve a configuração do Cloud Connector em um arquivo em um caminho selecionado. Este comando foi introduzido na versão 2.0 do Cloud Connector Edition.
+O Export-CcConfiguration cmdlet permite salvar a configuração do Cloud Connector em um arquivo em um caminho selecionado. Este comando foi introduzido no Cloud Connector Edition versão 2.0.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="Examples"> </a>
@@ -54,7 +54,7 @@ O Export-CcConfiguration cmdlet permite que você salve a configuração do Clou
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="Examples"> </a>
 
-Nenhum. O Export-CcConfiguration cmdlet não aceita entrada em pipeline.
+Nenhum. O Export-CcConfiguration cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="Examples"> </a>

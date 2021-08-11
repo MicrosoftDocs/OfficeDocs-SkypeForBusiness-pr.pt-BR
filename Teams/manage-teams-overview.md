@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: Roteiro para artigos sobre como gerenciar e monitorar Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1682565d015d104ca4a60d2770e526453bea535a
-ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
+ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279698"
 ---
 # <a name="manage-and-monitor-teams"></a>Gerenciar e monitorar Teams
 
@@ -43,7 +43,7 @@ Este artigo fornece um roteiro para o conteúdo que você precisará gerenciar e
 
 - [Monitore e gerencie a qualidade da chamada.](monitor-call-quality-qos.md) Leia este artigo para entender como usar as ferramentas disponíveis para monitorar e melhorar a qualidade das chamada para sua organização.
 
-- [Relatórios no centro de Teams de administração](teams-analytics-and-reports/teams-reporting-reference.md) e relatórios no Microsoft 365 de [administração.](teams-activity-reports.md) Leia estes artigos para entender quais relatórios estão disponíveis e como usar esses relatórios para monitorar Teams uso e a saúde do serviço.
+- [Relatórios no centro de Teams de administração](teams-analytics-and-reports/teams-reporting-reference.md) e relatórios no [Centro de administração do Microsoft 365](teams-activity-reports.md). Leia estes artigos para entender quais relatórios estão disponíveis e como usar esses relatórios para monitorar Teams uso e a saúde do serviço.
 
 - [Opere seu serviço e](teams-analytics-and-reports/teams-reporting-reference.md) [aprimora seu serviço.](upgrade-enhance-my-service.md) Leia estes artigos para ver diretrizes e roteiros sobre como operar e aprimorar seu Teams serviço.
 

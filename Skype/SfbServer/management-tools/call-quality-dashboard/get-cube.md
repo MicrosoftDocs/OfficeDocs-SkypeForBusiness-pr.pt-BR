@@ -12,32 +12,32 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 'Resumo: saiba mais sobre a operação Obter Cubo, que faz parte da API de Dados do Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
-ms.openlocfilehash: a3527f21bc1751c23bba088ae06c3e6702cb8c8e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre a operação Get Cube, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: bc65a9d6886b9375a799c62a6abaefd33738dae5fd8a4d4aee83a536d9a82948
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278719"
 ---
 # <a name="get-cube"></a>Obter o Cubo
  
-**Resumo:** Saiba mais sobre a operação Obter Cubo, que faz parte da API de Dados do Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Get Cube, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
   
-A operação Obter Cubo faz parte da API de Dados do Painel de Qualidade da Chamada.
+A operação Get Cube faz parte da API de Dados para Painel de Qualidade de Chamada.
   
 ## <a name="get-cube"></a>Obter o Cubo
 
-A operação Obter Cubo retorna a lista de dimensões e medidas disponíveis.
+A operação Get Cube retorna a lista de dimensões e medidas disponíveis.
   
 
-|**Method**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
 |OBTER  <br/> |https:// \<portal\> /QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** - Nenhum.
+ **Parâmetros URI** - Nenhum.
   
- **Solicitação de headers** - nenhum outro.
+ **Headers de solicitação** - Sem headers adicionais.
   
  **Corpo da Solicitação** - Nenhum.
   
@@ -45,9 +45,9 @@ A operação Obter Cubo retorna a lista de dimensões e medidas disponíveis.
   
  **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
   
- **Response Headers** - Sem outros headers.
+ **Headers de resposta** - Sem headers adicionais.
   
- **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON.
+ **Corpo da Resposta** - Abaixo está uma carga de resposta de exemplo no JSON.
   
 > [!NOTE]
 > Este exemplo mostra apenas os dois primeiros elementos de cada grupo de elementos Cube. 
@@ -93,10 +93,10 @@ A operação Obter Cubo retorna a lista de dimensões e medidas disponíveis.
 }
 ```
 
- *KPIs*  - Reservado. A seção KPIs de uma carga de solicitação permite que a operação Executar Consulta retorne valores para os KPIs definidos no cubo. Ainda não há KPIs no Cubo QoE.
+ *KPIs*  - Reservado. A seção KPIs de uma carga de solicitação permite executar a operação de consulta para retornar valores para os KPIs definidos no cubo. Nenhum KPIs ainda existe no Cubo QoE.
   
- *Dimensões*  - A lista de dimensões que podem ser usadas nas seções Filtros e Dimensões de uma carga de solicitação para a operação Executar Consulta. Para usar uma dimensão em uma expressão de filtro, você precisa especificar um membro de dimensão, que pode ser obtido usando a operação Obter Membros da Dimensão.
+ *Dimensões*  - A lista de dimensões que podem ser usadas nas seções Filtros e Dimensões de uma carga de solicitação para executar a operação de consulta. Para usar uma dimensão em uma expressão de filtro, você precisa especificar um membro de dimensão, que pode ser obtido usando a operação Obter Membros da Dimensão.
   
- *Medidas*  - A lista de medidas que podem ser usadas na seção Medidas de uma carga de solicitação para a operação Executar Consulta.
+ *Medidas*  - A lista de medidas que podem ser usadas na seção Medidas de uma carga de solicitação para executar a operação de consulta.
   
 

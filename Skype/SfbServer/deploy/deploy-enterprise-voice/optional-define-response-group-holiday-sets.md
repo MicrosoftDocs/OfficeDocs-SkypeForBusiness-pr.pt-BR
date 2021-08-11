@@ -1,5 +1,5 @@
 ---
-title: (Opcional) Definir conjuntos de feriados do Grupo de Resposta no Skype for Business
+title: (Opcional) Definir conjuntos de feriados do Grupo de Resposta Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Criar ou modificar conjuntos de feriados do Grupo de Resposta, no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Crie ou modifique conjuntos de feriados do Grupo de Resposta, Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: a265f1c8a09133dec6a9f88a705ca6041b1a09a167b5a24252a540e8152deca8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103677"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298691"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Opcional) Definir conjuntos de feriados do Grupo de Resposta no Skype for Business
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Opcional) Definir conjuntos de feriados do Grupo de Resposta Skype for Business
  
-Criar ou modificar conjuntos de feriados do Grupo de Resposta, no Skype for Business Server Enterprise Voice.
+Crie ou modifique conjuntos de feriados do Grupo de Resposta, Skype for Business Server Enterprise Voice.
   
 As configurações de feriados definem os dias nos quais um grupo de respostas estará fechado para negócios e especificam a ação a ser tomada nesses dias. Um conjunto de feriados é a coleção de feriados que se aplicam a um grupo de respostas.
   
@@ -33,7 +33,7 @@ As configurações de feriados definem os dias nos quais um grupo de respostas e
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Para cada feriado que você deseja definir, execute:
     
@@ -57,7 +57,7 @@ As configurações de feriados definem os dias nos quais um grupo de respostas e
 
 ## <a name="see-also"></a>Confira também
 
-[Criando e criando fluxos de trabalho de grupo de resposta no Skype for Business](designing-and-creating-response-group-workflows.md)
+[Criando e criando fluxos de trabalho de grupo de resposta Skype for Business](designing-and-creating-response-group-workflows.md)
 
 [New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

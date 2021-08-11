@@ -12,21 +12,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
-description: Verificando a implantação do aplicativo Comunicado no Skype for Business Server Enterprise Voice. Isso afeta como as chamadas para números não atribuídos são tratadas.
-ms.openlocfilehash: 0dfa59d83441208c1ef44b80d33f0183995ebecb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Verificando sua implantação do aplicativo De comunicado no Skype for Business Server Enterprise Voice. Isso afeta como as chamadas para números não atribuídos são manipuladas.
+ms.openlocfilehash: 72ce822a587723ef08430d1b16eee86641453d5768554b795b6f01019cb704ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830911"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326523"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(Opcional) Verificar a implantação do Comunicado no Skype for Business
  
-Verificando a implantação do aplicativo Comunicado no Skype for Business Server Enterprise Voice. Isso afeta como as chamadas para números não atribuídos são tratadas.
+Verificando sua implantação do aplicativo De comunicado no Skype for Business Server Enterprise Voice. Isso afeta como as chamadas para números não atribuídos são manipuladas.
   
 Após instalar e configurar o Comunicado, você precisará verificar a configuração para garantir que as chamadas a números não atribuídos funcionem conforme o esperado. No mínimo, verifique o seguinte:
   
-- Ligue para um número válido para sua organização, mas que seja um número não atribuído.
+- Chame um número que é válido para sua organização, mas é um número não atribuído.
     
 - Ligue para o número não atribuído e verifique se o comunicado correto foi reproduzido.
     

@@ -1,5 +1,5 @@
 ---
-title: Configurar o banco de dados de localização no Skype for Business Server
+title: Configurar o banco de dados de localização em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Configure, preencha e publique o banco de dados de localização do E9-1-1 no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Configure, preencha e publique o banco de dados de localização E9-1-1 no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 9e97c959af9dc88ff43fd93e734e21bae051583206be3dd89390dcae59c6ca0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326597"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados de localização no Skype for Business Server
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados de localização em Skype for Business Server
  
-Configure, preencha e publique o banco de dados de localização do E9-1-1 no Skype for Business Server Enterprise Voice. 
+Configure, preencha e publique o banco de dados de localização E9-1-1 no Skype for Business Server Enterprise Voice. 
   
 Para que os clientes possam detectar automaticamente seu local na rede, primeiro configure o banco de dados de localização. 
   
 Para configurar o banco de dados de localização, execute as seguintes tarefas:
   
-- Preencha o banco de dados com um mapeamento de elementos de rede para os locais. Se você usar um gateway ELIN (Número de Identificação de Local de Emergência), será necessário incluir o ELIN no \<CompanyName\> campo.
+- Preencha o banco de dados com um mapeamento de elementos de rede para os locais. Se você usar um gateway ELIN (Número de Identificação de Local de Emergência), você precisará incluir o ELIN no \<CompanyName\> campo.
     
     Se você não preencher o banco de dados local e o **Local necessário** na Política de Localização está definido para **Sim** ou **Isenção de Responsabilidade**, o cliente solicitará que o usuário insira um local manualmente.
     
@@ -120,7 +120,7 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar endereços localizados no banco de dados de localização
 
-1.  Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1.  Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 2. Execute os cmdlets a seguir para configurar a conexão com o provedor de serviços de emergência.
     
@@ -141,11 +141,11 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 
 Os novos locais adicionados ao banco de dados de localização não serão disponibilizados para o cliente até que sejam publicados.
   
-Se você usar gateways ELIN (Número de Identificação de Local de Emergência), também precisará carregar os ELINs no banco de dados ALI (Identificação de Local Automática) da operadora PSTN. Sua operadora PSTN pode exigir que você use um formato específico para os registros ELIN. Entre em contato com sua operadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados do serviço de Informações de Local e formatá-los conforme necessário.
+Se você usar gateways ELIN (Número de Identificação de Local de Emergência), também precisará carregar os ELINs para o banco de dados de Identificação Automática de Localização (ALI) da operadora PSTN (rede telefônica pública comutado). Sua operadora PSTN pode exigir que você use um formato específico para os registros ELIN. Entre em contato com sua operadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados do serviço Informações de Local e formatar-os conforme necessário.
   
 ### <a name="to-publish-the-location-database"></a>Para publicar o banco de dados de localização
 
--  Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+-  Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 - Execute o cmdlet a seguir para publicar o banco de dados de localização.
     

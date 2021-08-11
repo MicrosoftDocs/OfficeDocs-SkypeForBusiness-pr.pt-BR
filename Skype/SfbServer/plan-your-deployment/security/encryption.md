@@ -1,5 +1,5 @@
 ---
-title: Criptografia para o Skype for Business Server
+title: Criptografia para Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: O Skype for Business Server usa TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor requer MTLS, independentemente de o tráfego estar confinado à rede interna ou cruzar o perímetro de rede interno. Ao conectar o Skype for Business Server a sistemas IPPBX de terceiros ou troncos SIP TLS é opcional, mas altamente recomendado entre o Servidor de Mediação e o gateway de mídia. Se o TLS estiver configurado neste link, MTLS será necessário. Portanto, o gateway deve ser configurado com um certificado de uma AC confiável pelo Servidor de Mediação.
-ms.openlocfilehash: 269a5394f5438802c68dabed17081c71a353a2b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server usa TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor requer MTLS, independentemente de o tráfego estar confinado à rede interna ou cruzar o perímetro de rede interno. Ao conectar Skype for Business Server a sistemas IPPBX de terceiros ou troncos SIP TLS é opcional, mas altamente recomendado entre o Servidor de Mediação e o gateway de mídia. Se o TLS estiver configurado neste link, MTLS será necessário. Portanto, o gateway deve ser configurado com um certificado de uma AC confiável pelo Servidor de Mediação.
+ms.openlocfilehash: a315b26f14db16759eb2c6c6fc9d6d6562060221efdd1b642f259aeecffadc7b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104227"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289529"
 ---
-# <a name="encryption-for-skype-for-business-server"></a>Criptografia para o Skype for Business Server
+# <a name="encryption-for-skype-for-business-server"></a>Criptografia para Skype for Business Server
  
-O Skype for Business Server usa TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor requer MTLS, independentemente de o tráfego estar confinado à rede interna ou cruzar o perímetro de rede interno. Ao conectar o Skype for Business Server a sistemas IPPBX de terceiros ou troncos SIP TLS é opcional, mas altamente recomendado entre o Servidor de Mediação e o gateway de mídia. Se o TLS estiver configurado neste link, MTLS será necessário. Portanto, o gateway deve ser configurado com um certificado de uma AC confiável pelo Servidor de Mediação.
+Skype for Business Server usa TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor requer MTLS, independentemente de o tráfego estar confinado à rede interna ou cruzar o perímetro de rede interno. Ao conectar Skype for Business Server a sistemas IPPBX de terceiros ou troncos SIP TLS é opcional, mas altamente recomendado entre o Servidor de Mediação e o gateway de mídia. Se o TLS estiver configurado neste link, MTLS será necessário. Portanto, o gateway deve ser configurado com um certificado de uma AC confiável pelo Servidor de Mediação.
   
 > [!NOTE]
-> Um aviso de segurança sobre o SSL 3.0 foi publicado em 2014. Desabilitar o SSL 3.0 no Skype for Business Server 2015 é uma opção suportada. Para saber mais sobre a consultoria de segurança, consulte [Desabilitando o SSL 3.0 no Lync Server 2013 e no Skype for Business Server 2015](/archive/blogs/uclobby/disabling-ssl-3-0-in-lync-server-2013).<br/>
+> Um aviso de segurança sobre o SSL 3.0 foi publicado em 2014. Desabilitar o SSL 3.0 no Skype for Business Server 2015 é uma opção suportada. Para saber mais sobre a consultoria de segurança, consulte [Desabilitando o SSL 3.0 no Lync Server 2013 e Skype for Business Server 2015](/archive/blogs/uclobby/disabling-ssl-3-0-in-lync-server-2013).<br/>
 **Observação de segurança:** Para garantir que o protocolo criptográfico mais forte seja usado, o Skype for Business Server 2015 oferecerá protocolos de criptografia TLS na seguinte ordem para clientes: **TLS 1.2 , TLS 1.1, TLS 1.0**. O TLS é um aspecto crítico do Skype for Business Server 2015 e, portanto, é necessário para manter um ambiente com suporte.<br/>
 **Observação de segurança:** Para garantir que o protocolo criptográfico mais forte seja usado, o Skype for Business Server 2019 oferecerá protocolos de criptografia TLS na seguinte ordem para clientes: **TLS 1.3, TLS 1.2**. O TLS é um aspecto crítico do Skype for Business Server 2019 e, portanto, é necessário para manter um ambiente com suporte. 
   
@@ -52,4 +52,4 @@ O tráfego de mídia é criptografado usando SRTP, um perfil de protocolo RTP qu
   
 ## <a name="fips"></a>FIPS
 
-O Skype for Business Server e o Microsoft Exchange Server 2016 operam com suporte para algoritmos FIPS (Federal Information Processing Standard) 140-2 se os sistemas operacionais Windows Server estão configurados para usar os algoritmos FIPS 140-2 para criptografia do sistema. Para implementar o suporte a FIPS, você deve configurar cada servidor que executa o Skype for Business Server para dar suporte a ele.
+Skype for Business Server e Microsoft Exchange Server 2016 operam com suporte para algoritmos FIPS (Federal Information Processing Standard) 140-2 se os sistemas operacionais do Windows Server estão configurados para usar os algoritmos FIPS 140-2 para criptografia do sistema. Para implementar o suporte a FIPS, você deve configurar cada servidor executando Skype for Business Server para dar suporte a ele.

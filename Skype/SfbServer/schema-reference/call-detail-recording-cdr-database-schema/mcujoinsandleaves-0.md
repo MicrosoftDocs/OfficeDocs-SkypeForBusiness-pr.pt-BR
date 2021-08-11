@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: A exibição McuJoinsAndLeaves armazena informações sobre ingresso e saída de usuários de um servidor de conferências. Cada registro nessa exibição inclui os detalhes da chamada sobre uma combinação da entrada ou saída de um usuário e o servidor de conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 03e800bf785d45bc58d93ef1468d497b81adb9ab
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 50213655ad1dc48e85015d47ac4bd5bb450e05559556e0d6b4123dc2c9c32d69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318711"
 ---
 # <a name="mcujoinsandleaves-view"></a>Exibição McuJoinsAndLeaves
  
@@ -32,9 +32,9 @@ A exibição McuJoinsAndLeaves armazena informações sobre ingresso e saída de
 |**McuUriType** <br/> |nvarchar(256)  <br/> |URI do servidor de conferências ao qual o usuário está conectado. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI do usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI do usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas. Consulte a [tabela Tenants para](tenants.md) obter mais informações. <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas. Consulte a [tabela Locatários](tenants.md) para obter mais informações. <br/> |
 |**UserClientVersion** <br/> |nvarchar(256)  <br/> |Versão do cliente usado pelo usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas.  <br/> |
-|**UserClientType** <br/> |int  <br/> |Cliente usado pelo usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas. Consulte a [tabela UserAgentDef para](useragentdef.md) obter mais detalhes. <br/> |
+|**UserClientType** <br/> |int  <br/> |Cliente usado pelo usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas. Consulte a [tabela UserAgentDef](useragentdef.md) para obter mais detalhes. <br/> |
 |**UserClientCategory** <br/> |nvarchar(64)  <br/> |Nome da categoria do cliente usado pelo usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas.  <br/> |
 |**McuUserInstance** <br/> |int  <br/> |Identificador exclusivo da combinação de usuário/dispositivo para usuários que fizeram logon simultâneo em vários dispositivos.  <br/> |
 |**IsUserFromPstn** <br/> |bit  <br/> |Bit que representa se o usuário é interno ou não.  <br/> |

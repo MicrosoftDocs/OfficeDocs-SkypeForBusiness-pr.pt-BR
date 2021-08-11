@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Saiba mais sobre como implantar vários sites PSTN no Cloud Connector Edition.
-ms.openlocfilehash: 059b9a39a082e876b1dd9cd772a235c384a29107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098397"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289379"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implantar vários sites no Cloud Connector
 
 > [!Important] 
-> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com Skype for Business Online. Depois que sua organização tiver sido atualizada para Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
 
 Saiba mais sobre como implantar vários sites PSTN no Cloud Connector Edition.
   
@@ -34,7 +34,7 @@ Esta seção descreve como implantar vários sites PSTN (Rede Telefônica Públi
   
 ## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>Vários sites PSTN (Rede Telefônica Pública Comutado)
 
-A seguir, mostra um exemplo de configuração para implantar o Skype for Business Cloud Connector Edition para diferentes sites PSTN. Certifique-se de que as configurações estão corretas antes de iniciar uma implantação.
+A seguir, mostra um exemplo de configuração para implantar Skype for Business Cloud Connector Edition para sites PSTN diferentes. Certifique-se de que as configurações estão corretas antes de iniciar uma implantação.
   
 PSTN Site 1
   
@@ -98,4 +98,4 @@ A tabela a seguir lista as diferenças entre um único site com suporte a HA e u
 |Configurar  <br/> |Registro DNS  <br/> |Adicionar registros com os **mesmos** FQDNs de Acesso Externo e **endereços** IP diferentes <br/> |Adicionar registros  com FQDNs de Acesso Externo diferentes e **endereços** IP diferentes <br/> |
 |Configurar  <br/> |Locatário híbrido  <br/> |Definir HybridPSTNSite  <br/> Definir PeerDestination para fallback  <br/> |Definir HybridPSTNSite  <br/> Definir PeerDestination para fallback  <br/> |
 |Configurar  <br/> |Gateway  <br/> |Mapeamento MS GW **M:N** neste site <br/> |Os gateways PSTN em cada site PSTN devem se conectar apenas aos Servidores de Mediação no mesmo site  <br/> |
-|Configurar  <br/> |User  <br/> |Definir UserPSTNSettings  <br/> |Definir UserPSTNSettings  <br/> |
+|Configurar  <br/> |Usuário  <br/> |Definir UserPSTNSettings  <br/> |Definir UserPSTNSettings  <br/> |
