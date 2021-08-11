@@ -17,22 +17,22 @@ search.appverid: MET150
 description: Saiba como atribuir Microsoft 365 Business Voice licenças a seus usuários
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5da524c636ade2c177acece602d16d7292fc81fd
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 53ae830e12ea360ed212cec56190e09f94aaae0870a01e880f0f1872a996e56b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312949"
 ---
 # <a name="step-3-assign-business-voice-licenses"></a>Etapa 3: Atribuir licenças do Business Voice
 
 Cada usuário que precisa usar Microsoft 365 Business Voice precisa ter licenças atribuídas para o Business Voice.
 
-O vídeo a seguir mostra como concluir essas etapas no Microsoft 365 de administração.
+O vídeo a seguir mostra como concluir essas etapas no Centro de administração do Microsoft 365.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENAx]
 
-1. Abra o Microsoft 365 de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+1. Abra o Centro de administração do Microsoft 365 e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever para Microsoft 365).
 1. No painel de navegação esquerdo, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">   >  **Licenças de Cobrança**</a>.
 1. Selecione **Microsoft 365 Business Voice**.
 1. Na página detalhes do produto, selecione **Atribuir licenças**.

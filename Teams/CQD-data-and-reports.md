@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre os dados e relatórios disponíveis no Microsoft Call Quality Dashboard (CQD).
-ms.openlocfilehash: 47fce642bf90b1be9285a11cf19a5e6421aa262b
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 9d13823981ced4d631ed50fe9fd964765c761a029831d630de103bdc5c43e206
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331113"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Dados e relatórios no Painel de Qualidade de Chamada (CQD)
 

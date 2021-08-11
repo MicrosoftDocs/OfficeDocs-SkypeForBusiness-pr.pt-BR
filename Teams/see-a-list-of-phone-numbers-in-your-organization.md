@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Aprenda a usar o Microsoft Teams de administração para ver uma lista de todos os números de telefone em sua organização e todos os números atribuídos aos usuários ou não atribuídos.
-ms.openlocfilehash: 41eceb3618fae61308b90a88165ce1935ad6b30b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6d66b1fb1b4118bca60dc37fed7f4eac8c18090c34fa68ba6a61fba860fb5710
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339439"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 

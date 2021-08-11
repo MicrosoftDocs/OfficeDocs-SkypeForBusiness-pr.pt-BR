@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI para exibir Atendedor Automático dados históricos da Fila de Chamada.
-ms.openlocfilehash: dd6214871a471341ed2d3836e72c5f729e3f6a9f
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: 844ab5caee23cb504420925c9f13bc261d4d839cce19f7ae557d4637562a963e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660689"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331083"
 ---
 # <a name="what-are-the-requirements"></a>Quais são os requisitos? 
 Você precisa ter Power BI Desktop instalado. Você pode instalá-lo no [Microsoft Windows Store](https://aka.ms/pbidesktopstore).

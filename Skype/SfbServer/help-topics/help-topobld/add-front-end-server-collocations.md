@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
-description: Para uma implantação do Enterprise Edition, o serviço de Conferência A/V é alocado no pool de Front-End. Você também pode colocar o Servidor de Mediação no pool de Front-End ou implantá-lo como um servidor autônomo. O serviço de Conferência A/V sempre será alocado se a conferência estiver habilitada.
-ms.openlocfilehash: 97f883f0d29f59961a0c396b57b14bbb9eb7f0cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Para uma Edição Enterprise, o serviço de Conferência A/V é alocado no pool de Front-End. Você também pode colocar o Servidor de Mediação no pool de Front-End ou implantá-lo como um servidor autônomo. O serviço de Conferência A/V sempre será alocado se a conferência estiver habilitada.
+ms.openlocfilehash: 496264b412e9caabb99cc8249d6933be72bcd10364eaed752b9e1921140d2868
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119740"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321723"
 ---
 # <a name="add-front-end-server-collocations"></a>Adicionar Colocações de Servidor Front-end
 
-Para uma implantação do Enterprise Edition, o serviço de Conferência A/V é alocado no pool de Front-End. Você também pode colocar o Servidor de Mediação no pool de Front-End ou implantá-lo como um servidor autônomo. O serviço de Conferência A/V sempre será alocado se a conferência estiver habilitada.
+Para uma Edição Enterprise, o serviço de Conferência A/V é alocado no pool de Front-End. Você também pode colocar o Servidor de Mediação no pool de Front-End ou implantá-lo como um servidor autônomo. O serviço de Conferência A/V sempre será alocado se a conferência estiver habilitada.
 
 > [!NOTE]
-> Um serviço de Conferência A/V é exigido se **Conferência** foi selecionada na página **Selecionar recursos**. Um pool de Front-End do Enterprise Edition usa um serviço de Conferência A/V alocado. Se a Conferência não tiver sido selecionada, o serviço Posicionar Conferência A/V não estará disponível.
+> Um serviço de Conferência A/V é exigido se **Conferência** foi selecionada na página **Selecionar recursos**. Um Edição Enterprise de front-end usa um serviço de Conferência A/V alocado. Se a Conferência não tiver sido selecionada, o serviço Posicionar Conferência A/V não estará disponível.
 
 É possível posicionar a função de Servidor de Mediação em um pool de Servidores Front-End Server Standard Edition ou um pool de Front-End Enterprise Edition. Se você implantar conexões SIP Direto com um gateway PSTN (rede telefônica pública comutada) qualificado que suporta bypass de mídia e balanceamento de carga DNS (Domain Name System), um pool de Servidores de Mediação autônomo não será necessário. Um pool de Servidores de Mediação autônomo não é necessário, pois os gateways qualificados são capazes de balanceamento de carga DNS para um pool de Servidores de Mediação e podem receber tráfego de qualquer Servidor de Mediação em um pool. Também recomendamos que você cole o Servidor de Mediação em um pool de Front-End quando tiver implantado o IP-PBXs ou se conectar a um Controlador de Borda de Sessão do Provedor de Telefonia da Internet (SBC), desde que qualquer uma das seguintes condições seja atendida:
 

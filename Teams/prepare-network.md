@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: 282a6646c321d14618b9aaede36918db8db58c774d7bd99ff79f15cac729f83e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420826"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312689"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar a rede da organização para o Microsoft Teams 
 
@@ -306,7 +306,7 @@ Os requisitos de largura de banda **Mínimo**, **Recomendado** e **Melhor desemp
 
 - Os requisitos **mínimos** de largura de banda para chamadas de vídeo são resolução de até 240p, taxas de enquadramento de conteúdo de compartilhamento de tela adaptáveis de 1,875 a 7,5fps e vídeo modo conferência/galeria grande de até 540p de resolução.  
 
-- Os requisitos **mínimos** de largura de banda para chamadas de vídeo são resolução de até 1080p<sup>\*</sup>, taxas de enquadramento de conteúdo de compartilhamento de tela adaptáveis de 7,5 a 7,30fps e vídeo modo conferência/galeria grande de até 1080p de resolução<sup>\*</sup>.  
+- Os requisitos **mínimos** de largura de banda para chamadas de vídeo são resolução de até 1080p <sup>\*</sup>, taxas de enquadramento de conteúdo de compartilhamento de tela adaptáveis de 7,5 a 7,30fps e vídeo modo conferência/galeria grande de até 1080p de resolução <sup>\*</sup>.  
 
 - As diretrizes de **melhor desempenho** permitem um vídeo de fidelidade mais alta para reuniões com maiores participantes, ambientes de alta perda e maior conteúdo de movimento com taxas adaptáveis de enquadramento de conteúdo de compartilhamento de tela de 15 a 30fps.
 

@@ -1,5 +1,5 @@
 ---
-title: Logs de captura de pesquisa criados pelo Serviço de Log Centralizado no Skype for Business Server 2015
+title: Logs de captura de pesquisa criados pelo Serviço de Log Centralizado Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,23 +13,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
-description: 'Resumo: Saiba como pesquisar e ler logs de captura do Serviço de Log Centralizado no Skype for Business Server 2015.'
-ms.openlocfilehash: 1a030e18f9e59fa26c4bd51aa8c6e69dd96004ba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como pesquisar e ler logs de captura do Serviço de Log Centralizado Skype for Business Server 2015.'
+ms.openlocfilehash: f1136166798b1f0570f18342cce04a51957b4cace83319183889eff3c98f7298
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294198"
 ---
-# <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Logs de captura de pesquisa criados pelo Serviço de Log Centralizado no Skype for Business Server 2015
+# <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Logs de captura de pesquisa criados pelo Serviço de Log Centralizado Skype for Business Server 2015
  
-**Resumo:** Saiba como pesquisar e ler os logs de captura do Serviço de Log Centralizado no Skype for Business Server 2015.
+**Resumo:** Saiba como pesquisar e ler logs de captura do Serviço de Log Centralizado Skype for Business Server 2015.
   
-Os recursos de pesquisa no Serviço de Log Centralizado são úteis e poderosos pelos seguintes motivos: 
+Os recursos de pesquisa no Serviço de Log Centralizado são úteis e avançados pelos seguintes motivos: 
   
 - Sua pesquisa e seus resultados são executados em um único computador, em um escopo de grupo, site ou global, com base no critério que você definir.
     
-- Suas pesquisas podem ser iniciadas de forma ampla e reduzidas para um critério mais definido como hora, componente ou computador. Você pesquisa nos mesmos logs e não precisa executar uma sessão de registro em log novamente quando os critérios de pesquisa mudarem.
+- Suas pesquisas podem ser iniciadas de forma ampla e reduzidas para um critério mais definido como hora, componente ou computador. Você pesquisa os mesmos logs e não precisa executar uma sessão de registro em log novamente quando os critérios de pesquisa mudarem.
     
 - Os resultados da sua pesquisa são reunidos de todos os computadores e pools no escopo, coletados e agregados em um único arquivo de resultados que representa todos os resultados do critério de pesquisa (limitado para cenários em execução e os dados capturados pelos cenários). Você usa ferramentas familiares como o **Snooper** ou o **Bloco de notas** para ler o arquivo de resultados e rastrear mensagens pela sua implantação.
     
@@ -37,9 +37,9 @@ O CLSAgent em cada computador cria os logs com base no cenário ou cenários (do
   
 Após cada pesquisa, o cmdlet **Sync-CsClsLogging** é executado e descarrega o cache usado pelas pesquisas (não deve ser confundido com os arquivos de cache mantidos pelo CLSAgent). Descarregar o cache ajuda a garantir que há um log limpo e um armazenamento de captura de arquivo de rastreamento no CLSController para a próxima operação de pesquisa.
   
-Para obter o máximo benefício do Serviço de Log Centralizado, você precisa ter uma boa compreensão de como configurar a pesquisa para retornar somente mensagens de rastreamento do computador e logs de pool que são relevantes para o problema que você está pesquisando. issues
+Para obter o maior benefício do Serviço de Registro Em Log Centralizado, você precisa ter uma boa compreensão de como configurar a pesquisa para retornar apenas mensagens de rastreamento do computador e logs de pool relevantes para o problema que você está pesquisando. issues
   
-Para executar as funções de pesquisa do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server, você deve ser membro dos grupos de segurança RBAC CsAdministrator ou CsServerAdministrator ou uma função RBAC personalizada que contenha um desses dois grupos. Para retornar uma lista de todas as funções do RBAC às quais este cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você mesmo tenha criado), execute o seguinte comando no Shell de Gerenciamento do Skype for Business Server ou no prompt do Windows PowerShell:
+Para executar as funções de pesquisa do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server, você deve ser membro dos grupos de segurança CsAdministrator ou CsServerAdministrator de controle de acesso baseado em função (RBAC) ou uma função RBAC personalizada que contenha um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais este cmdlet foi atribuído (incluindo quaisquer funções RBAC personalizadas que você mesmo tenha criado), execute o seguinte comando no Shell de Gerenciamento do Skype for Business Server ou no prompt Windows PowerShell:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -53,9 +53,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 O lembrete deste tópico se focaliza em como definir uma pesquisa para otimizar sua resolução de problemas.
   
-### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Para executar uma pesquisa básica usando o Serviço de Log Centralizado
+### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Para executar uma pesquisa básica usando o Serviço de Registro Em Log Centralizado
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 2. Certifique-se de ter o cenário AlwaysOn em execução na sua implantação no escopo global e digite o seguinte no prompt de comando:
     
@@ -100,7 +100,7 @@ Por exemplo:
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-4. Ao usar os comandos de pesquisa, os pools podem ser qualquer pool em sua implantação, como pools de Front-End, pools de Borda, pools de Servidor de Chat Persistente ou outros definidos como um pool em sua implantação.
+4. Ao usar os comandos de pesquisa, os pools podem ser qualquer pool em sua implantação, como pools de Front-End, pools de Borda, pools de Servidor de Chat Persistente ou outros que são definidos como um pool em sua implantação.
     
     Por exemplo:
     
@@ -110,18 +110,18 @@ Por exemplo:
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>Para executar uma pesquisa usando parâmetros de tempo
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
-2. Por padrão, a hora de início para parâmetros específicos de tempo de uma pesquisa é de 25 minutos antes de cinco minutos após a hora em que você iniciar a pesquisa. Em outras palavras, se pesquisarmos às 16h00, a hora de início da pesquisa será das 15h35 às 16h05. Se você precisar pesquisar 60 minutos ou 3 horas antes da hora atual, use o parâmetro -StartTime e de definir a cadeia de caracteres de data e hora para indicar a hora em que você deseja que a pesquisa seja iniciar. 
+2. Por padrão, a hora de início dos parâmetros específicos de uma pesquisa é de 25 minutos antes de cinco minutos após o momento em que você inicia a pesquisa. Em outras palavras, se pesquisarmos às 16:00, o horário de início da pesquisa será das 15:35:00 às 16:00. Se você precisar pesquisar 60 minutos ou 3 horas antes da hora atual, use o parâmetro -StartTime e de definir a cadeia de caracteres de data e hora para indicar a hora que você deseja que a pesquisa inicie. 
     
-    Por exemplo, usando -StartTime e -EndTime para definir um intervalo de data e hora, você pode definir uma pesquisa entre 8 e 9 horas em 20/11/2012 em seu pool. É possível definir o caminho de resultado para gravar os resultados em um arquivo chamado c:\logfile.txt como a seguir:
+    Por exemplo, usando -StartTime e -EndTime para definir um intervalo de data e hora, você pode definir uma pesquisa entre 8:00 e 9:00 em 20/11/2012 em seu pool. É possível definir o caminho de resultado para gravar os resultados em um arquivo chamado c:\logfile.txt como a seguir:
     
    ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 > [!NOTE]
-> A cadeia de caracteres de data e hora que você especificar pode ser "date time" ou "time date." " O comando analisará a cadeia de caracteres e usará os valores apropriados para data e hora e suas configurações de localidade e cultura no computador em que você está executando o cmdlet. 
+> A cadeia de caracteres de data e hora especificada pode ser "data" ou "data/hora". " O comando analisará a cadeia de caracteres e usará os valores apropriados para data e hora e suas configurações de localidade e cultura no computador de onde você está executando o cmdlet. 
   
 3. Se você quiser recuperar logs a partir das 11:00:00 em 20/11/2012, defina -StartTime. O intervalo de tempo padrão para a pesquisa é de 30 minutos, a menos que você defina um -EndTime específico. A pesquisa resultante retornará logs do computador ou pools definidos de 11:00 horas a 11:30 horas.
     
@@ -131,7 +131,7 @@ Por exemplo:
   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
-4. Para conduzir uma pesquisa de logs dentro de um período específico de tempo, defina -StartTime e -EndTime. Você precisa de logs de 13:00 horas às 14:45 horas no computador edge01.contoso.net. 
+4. Para conduzir uma pesquisa de logs em um período específico de tempo, defina -StartTime e -EndTime. Você precisa de logs de 13:00 horas às 14:45 horas no computador edge01.contoso.net. 
     
 Por exemplo:
     
@@ -141,7 +141,7 @@ Por exemplo:
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>Para executar uma pesquisa avançada usando outro critério e opções correspondentes
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 2. Para executar um comando para coletar rastreamentos de componentes específicos, digite o seguinte:
     
@@ -157,7 +157,7 @@ Por exemplo:
 
 A pesquisa resultante retorna todas as entradas de log com componentes de rastreamento para SIPStack, S4 e UserServices em todos os computadores e pools na sua implantação pelos últimos 30 minutos.
     
-3. Para limitar a pesquisa com os mesmos componentes apenas ao seu pool de front-end chamado pool01.contoso.net, digite:
+3. Para limitar a pesquisa com os mesmos componentes apenas ao pool de Front-End chamado pool01.contoso.net, digite:
     
    ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -175,22 +175,22 @@ A pesquisa resultante retorna todas as entradas de log com componentes de rastre
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Ler logs de captura do Serviço de Log Centralizado
+## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Ler logs de captura do Serviço de Registro Centralizado
 
-Você percebe o benefício real do Serviço de Registro em Log Centralizado depois de executar a pesquisa e tem um arquivo que pode ser usado para rastrear um problema relatado. Existe um número de formas que você pode ler o arquivo. O arquivo de resultado está em um formato de texto padrão e você pode usar Notepad.exe ou qualquer outro programa que permitirá abrir e ler um arquivo de texto. Para arquivos maiores e problemas mais complexos, você poderia usar uma ferramenta como Snooper.exe que foi projetada para ler e analisar a saída de log do Serviço de Log Centralizado. O Snooper está incluído nas Ferramentas de Depuração disponíveis como um download separado. Você pode baixar as Ferramentas de Depuração aqui: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) . Quando você instala as Ferramentas de Depuração, atalhos e itens de menu não são criados. Depois de instalar as Ferramentas de Depuração, abra o Windows Explorer, uma janela de linha de comando ou o Shell de Gerenciamento do Skype for Business Server e vá para o diretório (local padrão) C:\Arquivos de Programas\Skype for Business Server 2015\Ferramentas de Depuração. Clique duas vezes Snooper.exe ou digite Snooper.exe e pressione ENTER se estiver usando a linha de comando ou o Shell de Gerenciamento do Skype for Business Server.
+Você percebe o benefício real do Serviço de Log Centralizado depois de executar a pesquisa e tem um arquivo que pode ser usado para rastrear um problema relatado. Existe um número de formas que você pode ler o arquivo. O arquivo de resultado está em um formato de texto padrão e você pode usar Notepad.exe ou qualquer outro programa que permitirá abrir e ler um arquivo de texto. Para arquivos maiores e problemas mais complexos, você pode usar uma ferramenta como Snooper.exe que foi projetada para ler e analisar a saída de log do Serviço de Registro Em Log Centralizado. O Snooper está incluído nas Ferramentas de Depuração que estão disponíveis como um download separado. Você pode baixar as Ferramentas de Depuração aqui: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) . Quando você instala as Ferramentas de Depuração, os atalhos e os itens de menu não são criados. Depois de instalar as Ferramentas de Depuração, abra o Windows Explorer, uma janela de linha de comando ou o Shell de Gerenciamento Skype for Business Server e vá para o diretório (local padrão) C:\Arquivos de Programas\Skype for Business Server 2015\Ferramentas de Depuração. Clique duas Snooper.exe ou digite Snooper.exe e pressione ENTER se estiver usando a linha de comando ou Skype for Business Server Shell de Gerenciamento.
   
 > [!IMPORTANT]
-> A intenção deste tópico não é detalhar e discutir técnicas de resolução de problemas. A resolução de problemas e os processos relacionados é um assunto complexo. Para obter detalhes sobre como solucionar problemas básicos e solucionar problemas de cargas de trabalho específicas, consulte o livro microsoft Lync Server 2010 Resource Kit em [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) . Os processos e procedimentos ainda se aplicam ao Skype for Business Server 2015. 
+> A intenção deste tópico não é detalhar e discutir técnicas de resolução de problemas. A resolução de problemas e os processos relacionados é um assunto complexo. Para obter detalhes sobre como solucionar problemas básicos e solucionar problemas de cargas de trabalho específicas, consulte o livro kit de recursos do Microsoft Lync Server 2010 em [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) . Os processos e procedimentos ainda se aplicam ao Skype for Business Server 2015. 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>Para abrir um arquivo de log no Snooper
 
 1. Para usar o Snooper e abrir arquivos de log, você precisará de acesso de leitura aos arquivos de log. Para usar o Snooper e acessar os arquivos de log, você deve ser membro dos grupos de segurança RBAC CsAdministrator ou CsServerAdministrator ou uma função RBAC personalizada que contém um destes dois grupos. 
     
-2. Após a instalação das Ferramentas de Depuração (LyncDebugTools.msi), altere o diretório para o local do Snooper.exe usando o Windows Explorer ou a partir da linha de comando. Por padrão, as ferramentas de depuração estão localizadas em C:\Arquivos de Programas\Skype for Business Server 2015\Ferramentas de Depuração. Clique duas vezes ou execute Snooper.exe.
+2. Após a instalação das Ferramentas de Depuração (LyncDebugTools.msi), altere o diretório para o local do Snooper.exe usando Windows Explorer ou da linha de comando. Por padrão, as ferramentas de depuração estão localizadas em C:\Arquivos de Programas\Skype for Business Server 2015\Ferramentas de Depuração. Clique duas vezes ou execute Snooper.exe.
     
 3. Após o Snooper estar aberto, clique com o botão direito em **Arquivo**, clique em **Abrir arquivo**, encontre seus arquivos de log, selecione um arquivo na caixa de diálogo **Abrir** e clique em **Abrir**.
     
-4. As mensagens de rastreamento **do arquivo** de log são exibidas na **guia** Rastreamento. Clique na **guia Mensagens** para exibir o conteúdo da mensagem dos rastreamentos coletados.
+4. As mensagens trace **do** arquivo de log são exibidas na **guia** Rastreamento. Clique na **guia Mensagens** para exibir o conteúdo da mensagem dos rastreamentos coletados.
     
 ### <a name="to-display-a-call-flow-diagram"></a>Para exibir um fluxograma da chamada
 
@@ -201,7 +201,7 @@ Você percebe o benefício real do Serviço de Registro em Log Centralizado depo
 3. Clique em **Fluxo de chamadas**.
     
 > [!NOTE]
-> Se você clicar em uma mensagem ou rastreamento que não faz parte de um fluxo de chamada, o diagrama não será exibido e uma mensagem de status aparecerá na parte inferior do Snooper informando "Esta mensagem não está qualificada para o fluxo de chamada". Escolha outra mensagem ou rastreamento e o fluxo de chamadas aparecerá se a mensagem ou o rastreamento faz parte de um fluxo de chamadas. 
+> Se você clicar em uma mensagem ou rastreamento que não faz parte de um fluxo de chamada, o diagrama não aparecerá e uma mensagem de status aparecerá na parte inferior do Snooper informando "Essa mensagem não está qualificada para chamada". Escolha outra mensagem ou rastreamento e o fluxo de chamadas aparecerá se a mensagem ou o rastreamento faz parte de um fluxo de chamadas. 
   
 4. Mova pelas Mensagens ou linhas de Rastreamento e observe se o fluxograma de chamada atualiza ou muda para exibir um novo diagrama.
     

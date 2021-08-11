@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 2fb232fb8171f8887bf7a1756123cf6fb282cf26
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 80ebbee3e19521357dc8f0ef5bcb85fc87e7791170a1396a48a3c599401b37a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120973"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321893"
 ---
 # <a name="registrar-security-settings"></a>Definições de Segurança de Registrador
 
@@ -32,4 +32,4 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Excluir um Registrador](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-registrar-configuration-settings)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78282b464dd1d9cb25c5d4d2b338c74a2c91d374
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 719f97e72f099edb4d14c22ef9d5a3de0f787ea7411f42f1d777ea842bcc4e27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855920"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339639"
 ---
 # <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Desativar a conversão de mensagens em Microsoft Teams
 
@@ -47,4 +47,4 @@ Desativar a política usando o cmdlet [Set-CsTeamsMessagingPolicy.](/powershell/
 No centro **de** administração Microsoft Teams,  selecione Políticas de Mensagens na navegação à esquerda, crie uma nova política ou edite uma política existente e de definir a opção **Traduzir** mensagens como **Off**.
 
 > [!NOTE]
-> O serviço faz a conversão e a entrega ao cliente sem efeito no conteúdo capturado nos registros de conformidade. Para saber mais sobre tradução, consulte [O que é o Microsoft Tradutor?](/azure/cognitive-services/translator/translator-info-overview)
+> O serviço faz a conversão e a entrega ao cliente sem efeito no conteúdo capturado nos registros de conformidade. Para saber mais sobre tradução, consulte [O que é Microsoft Translator?](/azure/cognitive-services/translator/translator-info-overview)

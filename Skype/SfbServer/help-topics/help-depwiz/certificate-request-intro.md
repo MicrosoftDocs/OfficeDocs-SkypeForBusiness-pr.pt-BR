@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 description: Para continuar com o processo de solicitação de certificado, clique em Avançar. Para sair do processo sem fazer alterações no sistema, clique em Cancelar.
-ms.openlocfilehash: f6df5e78fdc1d9d44d93c848639b458ae36432be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cd6a58fb524bc407e52175e206f9303c923598911a0c1d6e7a2317fff611a33c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805271"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285131"
 ---
 # <a name="certificate-request-intro"></a>Solicitação de Certificado (Introdução)
  

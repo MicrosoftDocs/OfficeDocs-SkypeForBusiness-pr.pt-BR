@@ -1,5 +1,5 @@
 ---
-title: Gerenciar configurações de reunião no Skype for Business Server
+title: Gerenciar configurações de reunião em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: 'Resumo: Saiba como gerenciar as configurações de reunião no Skype for Business Server.'
-ms.openlocfilehash: 1e6ef11992a547456d2a971c2f8de6f3097b166e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como gerenciar as configurações de reunião em Skype for Business Server.'
+ms.openlocfilehash: 9bd0cefb32074f6e11d524e65096fa0999db4ae35b5244c202616d76ded81085
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321673"
 ---
-# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações de reunião no Skype for Business Server
+# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações de reunião em Skype for Business Server
  
-**Resumo:** Saiba como gerenciar as configurações de reunião no Skype for Business Server.
+**Resumo:** Saiba como gerenciar as configurações de reunião em Skype for Business Server.
   
-Este tópico descreve como gerenciar as configurações de reunião. Para obter mais informações sobre como planejar e implantar a conferência, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) e Deploy [conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Este tópico descreve como gerenciar as configurações de reunião. Para obter mais informações sobre como planejar e implantar conferências, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-As configurações de reunião determinam o tipo de reuniões que os usuários podem criar, além de controlar como (ou mesmo se) usuários anônimos e usuários de conferência discada podem participar dessas reuniões. Observe que essas configurações afetam apenas reuniões agendadas; eles não afetam reuniões ad hoc criadas clicando na opção Reunir Agora no Skype for Business.
+As configurações de reunião determinam o tipo de reuniões que os usuários podem criar, além de controlar como (ou mesmo se) usuários anônimos e usuários de conferência discada podem participar dessas reuniões. Observe que essas configurações afetam apenas reuniões agendadas; eles não afetam reuniões ad hoc criadas clicando na opção Reunir Agora em Skype for Business.
   
 As configurações de reunião definem o seguinte:
   
@@ -37,23 +37,23 @@ As configurações de reunião definem o seguinte:
     
 - Se os usuários anônimos (não autenticados) são admitidos por padrão
     
-Você pode definir características de reuniões usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server. 
+Você pode definir características de reuniões usando Skype for Business Server Painel de Controle ou usando Skype for Business Server Shell de Gerenciamento. 
   
 Você pode especificar as configurações de reunião no nível global (criado por padrão), no nível do site ou no nível do pool. Por padrão, as configurações globais definem a experiência de reunião. Se você criar configurações a nível de pool, elas se aplicarão a todas as reuniões hospedadas pelo pool. Se você não criar configurações a nível de pool, as configurações a nível local serão aplicadas, caso existam. Se você não definir as configurações a nível local, as configurações globais serão aplicadas a todas as reuniões.
   
-## <a name="manage-meeting-settings-by-using-skype-for-business-server-control-panel"></a>Gerenciar configurações de reunião usando o Painel de Controle do Skype for Business Server
+## <a name="manage-meeting-settings-by-using-skype-for-business-server-control-panel"></a>Gerenciar configurações de reunião usando Skype for Business Server Painel de Controle
 
-Para gerenciar as configurações de reunião usando o Painel de Controle do Skype for Business Server:
+Para gerenciar as configurações de reunião usando Skype for Business Server Painel de Controle:
   
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2.  Abra o Painel de Controle do Skype for Business Server.
+2.  Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação esquerda, clique **em Conferência** e em **Configuração de Reunião.**
     
-## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>Gerenciar configurações de reunião usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>Gerenciar configurações de reunião usando Skype for Business Server Shell de Gerenciamento
 
-Para gerenciar reuniões usando o Shell de Gerenciamento do Skype for Business Server, use os seguintes cmdlets:
+Para gerenciar reuniões usando Skype for Business Server Shell de Gerenciamento, use os seguintes cmdlets:
   
 **Definições de configuração de reunião**
 

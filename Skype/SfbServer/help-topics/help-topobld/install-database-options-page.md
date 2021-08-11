@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 'Você configura opções avançadas para o posicionamento de arquivos de banco de dados e de log em seu SQL Server. As opções disponíveis são:'
-ms.openlocfilehash: 392db6eb9b882ff66a9f15e1f5c4f0918cb140a5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6b9ad2dc1dd91eeb0834c43394f00221d687d0d66058c5037e6d90c83cd10bad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321713"
 ---
 # <a name="install-database-options-page"></a>Instalar Página de Opções de Banco de Dados
 

@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 6b4fe394bbeacf99510a9da3d6d2f66fd859176a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: db229077d658b9efee902270fc0a294ec3cce40558f6a2509379d09c1e5ba009
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099467"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321903"
 ---
 # <a name="pin-policy"></a>Política de PIN
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
- **Trabalhar com política de PIN para telefones IP** Essa política de pin (número de identificação pessoal) dá suporte à autenticação para usuários que se conectam ao Skype for Business Server usando um telefone IP.
+ **Trabalhar com política de PIN para telefones IP** Essa política de pin (número de identificação pessoal) dá suporte à autenticação para usuários que se conectam Skype for Business Server usando um telefone IP.
 - [Criar uma nova política de PIN no Skype for Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
 
 - [Modificar uma política de PIN existente no Skype for Business Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
@@ -40,4 +40,4 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Excluir configurações de PIN de conferência discada para um local ou grupo de usuários](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

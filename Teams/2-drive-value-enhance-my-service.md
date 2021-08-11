@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa5102934cdeadf6b2418ab437bc0be28764307cda075139bfc6435c9d61948e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779187"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278239"
 ---
 # <a name="enhance-my-service"></a>Aprimorar meu serviço
 
@@ -32,7 +32,7 @@ Este artigo fornece uma visão geral dos requisitos para obter o máximo dos ser
 ## <a name="enhance-my-service-overview"></a>Aprimorar a visão geral do meu serviço
 Depois de ter implantado com êxito a Audioconferência ou Sistema de Telefonia serviços de Planos de Chamada para sua organização e operar o serviço com qualidade e confiabilidade, a próxima etapa é avaliar regularmente se você tem alguma oportunidade de aprimorar seus serviços. Isso faz parte do planejamento de melhoria contínua do serviço que é um padrão moderno para gerenciamento de serviços na nuvem. 
 
-Uma ótima maneira de garantir que você esteja sempre recebendo o máximo de seus serviços é monitorar os roteiros Teams públicos para novos [aprimoramentos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de recursos que podem ser de interesse para sua organização. Se você tiver acesso ao centro de administração Microsoft 365 você receberá atualizações regulares de nós sobre recursos novos e de alteração por meio do nosso Centro de Mensagens. 
+Uma ótima maneira de garantir que você esteja sempre recebendo o máximo de seus serviços é monitorar os roteiros Teams públicos para novos [aprimoramentos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de recursos que podem ser de interesse para sua organização. Se você tiver acesso ao Centro de administração do Microsoft 365 receberá atualizações regulares de nós sobre recursos novos e de alteração por meio do nosso Centro de Mensagens. 
 
 Além disso, como as organizações crescem e mudam, você deve levar tempo para revisitar e atualizar seus casos de uso comercial em intervalos regulares para garantir que o serviço seja configurado para atender às necessidades atuais da sua organização.  Certifique-se de que você está recebendo comentários do mundo real de seus usuários e campeões internos estabelecendo canais de comentários em sua organização. Podem ser conversas informais, reuniões regulares ou por meio de um canal Teams ou Yammer comunidade. 
 

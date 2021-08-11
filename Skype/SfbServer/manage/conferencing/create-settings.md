@@ -1,5 +1,5 @@
 ---
-title: Criar configurações de reunião no Skype for Business Server
+title: Criar configurações de reunião em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Resumo: Saiba como criar configurações de reunião no Skype for Business Server.'
-ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como criar configurações de reunião em Skype for Business Server.'
+ms.openlocfilehash: 11871685d51a73f5f2e9dbcbaa2835060d8a7cdc59958af1785d689c3c9246ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119510"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321684"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Criar configurações de reunião no Skype for Business Server
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Criar configurações de reunião em Skype for Business Server
  
-**Resumo:** Saiba como criar configurações de reunião no Skype for Business Server.
+**Resumo:** Saiba como criar configurações de reunião em Skype for Business Server.
   
-Você pode criar configurações de reunião usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
+Você pode criar definições de configuração de reunião usando Skype for Business Server Painel de Controle ou usando Skype for Business Server Shell de Gerenciamento.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Criar configurações de reunião usando o Painel de Controle do Skype for Business Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Criar configurações de reunião usando Skype for Business Server Painel de Controle
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2.  Abra o Painel de Controle do Skype for Business Server.
+2.  Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação esquerda, clique **em Conferência** e em **Configuração de Reunião.**
     
@@ -53,7 +53,7 @@ Você pode criar configurações de reunião usando o Painel de Controle do Skyp
     
 8. Para evitar que usuários anônimos (não autenticados) sejam aceitos automaticamente, desmarque a caixa de seleção **Aceitar usuários anônimos por padrão**. Por padrão, os usuários anônimos são aceitos automaticamente nas reuniões.
     
-9. Para personalizar o convite da reunião enviado para os participantes, faça o seguinte. Observe que o comprimento máximo das URLs e o texto do rodapé padrão é de 1KB. Exceto para a **URL de ajuda**, se você não especificar um valor para as personalizações, não serão incluídas na reunião. Se você não incluir uma URL de ajuda personalizada, a URL de ajuda padrão do Skype for Business será exibida no convite. 
+9. Para personalizar o convite da reunião enviado para os participantes, faça o seguinte. Observe que o comprimento máximo das URLs e o texto do rodapé padrão é de 1KB. Exceto para a **URL de ajuda**, se você não especificar um valor para as personalizações, não serão incluídas na reunião. Se você não incluir uma URL de ajuda personalizada, a URL de ajuda padrão para Skype for Business será exibida no convite. 
     
    - Para personalizar o logotipo exibido no convite da reunião, em **URL do logotipo**, insira o local do logotipo. O logotipo deve ser uma imagem GIF ou JPG com um tamanho de 188 por 30 pixels. 
     
@@ -65,7 +65,7 @@ Você pode criar configurações de reunião usando o Painel de Controle do Skyp
     
 10. Clique em **Confirmar**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Criar configurações de reunião usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Criar configurações de reunião usando Skype for Business Server Shell de Gerenciamento
 
 Para criar configurações de reunião, use o cmdlet **New-CsMeetingConfiguration.**
   

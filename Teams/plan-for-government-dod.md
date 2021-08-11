@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
 audience: admin
-description: Diretrizes para os profissionais de Office 365 <2> <1> implantações em entidades que lidam com dados sujeitos à regulamentação do DoD do governo dos EUA.
+description: Diretrizes para os profissionais de Office 365 implantações em entidades que lidam com dados sujeitos à regulamentação do DoD do governo dos EUA.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd649507c0108e9a3d500f4d30cae46a3181d75d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 318ea793a037ecf47d48663e94b1c19e09fb2bcb8556b9f401f314d0bb9e998d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339469"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Planejar Office 365 Government - Implantações do DoD
 
@@ -90,7 +90,7 @@ Determine seus requisitos de governança e como você pode atender a eles. Acess
 
 Após a integração com o Office 365 Government – DoD, siga o caminho de implantação recomendado descrito em [How to roll out Microsoft Teams](./deploy-overview.md). Certifique-se de se envolver com sua equipe de Gerenciamento de Alterações e adoção e Teams campeões.
 
-Você também pode trabalhar com [o FastTrack ou](https://www.microsoft.com/fasttrack) seu parceiro escolhido para integração ao serviço.
+Você também pode trabalhar com [FastTrack](https://www.microsoft.com/fasttrack) ou com seu parceiro escolhido para integrar o serviço.
 
 > [!NOTE]
 > O cliente mac Teams para ambientes do DOD ainda não tem suporte.

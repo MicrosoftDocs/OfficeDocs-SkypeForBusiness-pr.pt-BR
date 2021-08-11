@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também pode associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:'
-ms.openlocfilehash: 1a528fbeeabc4ca9a4c676a9f064b651c37298c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3564457b392e2c122577fb421f5511beb9febd7fbff5ac15bdaec2803263b043
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122652"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285291"
 ---
 # <a name="add-front-end-associations"></a>Adicionar Associações de Front-end
 

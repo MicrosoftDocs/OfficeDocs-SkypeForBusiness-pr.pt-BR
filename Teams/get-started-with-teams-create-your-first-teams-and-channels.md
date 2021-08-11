@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 33efab40cb8c2579712a06ad6c2d7dcbf58fbdde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7e4105b9ab205a3a409ae166cfe2d0221509fd17028b7fb394a58ae8b3380f67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809541"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312919"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Criar as primeiras equipes e canais no Microsoft Teams
 
@@ -73,7 +73,7 @@ Localize a equipe que você criou e clique em **Mais opções ˙˙˙** > **Geren
 ### <a name="create-a-channel-in-a-team"></a>Criar um canal na equipe
 Encontre a equipe que você criou, clique em **Mais opções ...** > **Adicionar canal**. É possível também clicar em **Gerenciar equipe** e adicionar um canal na guia **Canais**. 
 
-![Captura de tela das opções disponíveis quando você clica em mais opções](media/get-started-with-teams-add-channel.png "Captura de tela das opções "Adicionar canal", "Gerenciar equipe" e outras opções disponíveis ao clicar na guia "Mais opções" de uma equipe") 
+![Captura de tela das opções disponíveis quando você clica em mais opções](media/get-started-with-teams-add-channel.png "Captura de tela das opções &quot;Adicionar canal&quot;, &quot;Gerenciar equipe&quot; e outras opções disponíveis ao clicar na guia &quot;Mais opções&quot; de uma equipe") 
 
 Atribua um nome descritivo para que os usuários entendam facilmente a finalidade do canal. 
 

@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
-description: Executar Comandos exibe um resumo em execução das tarefas executadas para implantar a função de servidor. Depois que as tarefas são concluídas— implantar e ativar ou desativar e desinstalar um resumo é exibido. Além disso, na lista suspensa, selecione quaisquer arquivos de log criados quando os comandos são executados. Use a lista suspensa para selecionar o arquivo de log que você deseja exibir e clique em Exibir Log.
-ms.openlocfilehash: a9ce68a2cc474889391252da2c345bfb521ada12
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Executar Comandos exibe um resumo em execução das tarefas executadas para implantar a função de servidor. Depois que as tarefas são concluídas, implante e ative ou desative e desinstale um resumo é exibido. Além disso, na lista suspensa, selecione quaisquer arquivos de log criados quando os comandos são executados. Use a lista suspensa para selecionar o arquivo de log que você deseja exibir e clique em Exibir Log.
+ms.openlocfilehash: d14e794c349bcff25efec8f468e8dae9160c26222543ca91eec95893843da889
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285081"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Configurar ou Remover Componentes do Skype for Business Server (Invocar)
  
-**Executar Comandos** exibe um resumo em execução das tarefas executadas para implantar a função de servidor. Depois que as tarefas são concluídas— implantar e ativar ou desativar e desinstalar um resumo é exibido. Além disso, na lista suspensa, selecione quaisquer arquivos de log criados quando os comandos são executados. Use a lista suspensa para selecionar o arquivo de log que você deseja exibir e clique em **Exibir Log**.
+**Executar Comandos** exibe um resumo em execução das tarefas executadas para implantar a função de servidor. Depois que as tarefas são concluídas, implante e ative ou desative e desinstale um resumo é exibido. Além disso, na lista suspensa, selecione quaisquer arquivos de log criados quando os comandos são executados. Use a lista suspensa para selecionar o arquivo de log que você deseja exibir e clique em **Exibir Log**.
   
 Após a conclusão da revisão do resumo e dos arquivos de log, clique em **Concluir**.
   

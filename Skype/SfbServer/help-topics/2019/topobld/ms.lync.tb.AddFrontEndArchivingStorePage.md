@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: O arquivamento requer uma edição de 64 bits suportada do software de banco de dados Microsoft SQL Server para armazenar os dados de arquivamento. Você pode selecionar um banco de dados de SQL Server definido anteriormente para ser usado para arquivamento ou definir um novo banco de dados SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados SQL Server deve residir, além da instância do SQL Server que você deseja usar para o novo banco de dados SQL Server (que pode ser a instância padrão) ou uma instância nomeada que você especificar).
-ms.openlocfilehash: ae9c90cedc7be4e60689978b28eecce2031a4991
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: O arquivamento requer uma edição de 64 bits suportada do software de banco de dados Microsoft SQL Server para armazenar os dados de arquivamento. Você pode selecionar um banco de dados de SQL Server definido anteriormente para ser usado para arquivamento ou definir um novo banco de dados SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados SQL Server deve residir, além da instância do SQL Server que você deseja usar para o novo banco de dados SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
+ms.openlocfilehash: da7f43720359a379bcd7c917bd6b81f7c6f0ce3d25b349de11d95a377cd8f100
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122662"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302835"
 ---
 # <a name="add-front-end-archiving-store"></a>Adicionar Repositório de Arquivamento Front-end
 
-O arquivamento requer uma edição de 64 bits suportada do software de banco de dados Microsoft SQL Server para armazenar os dados de arquivamento. Você pode selecionar um banco de dados de SQL Server definido anteriormente para ser usado para arquivamento ou definir um novo banco de dados SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados SQL Server deve residir, além da instância do SQL Server que você deseja usar para o novo banco de dados SQL Server (que pode ser a instância padrão) ou uma instância nomeada que você especificar).
+O arquivamento requer uma edição de 64 bits suportada do software de banco de dados Microsoft SQL Server para armazenar os dados de arquivamento. Você pode selecionar um banco de dados de SQL Server definido anteriormente para ser usado para arquivamento ou definir um novo banco de dados SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados SQL Server deve residir, além da instância do SQL Server que você deseja usar para o novo banco de dados SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
 
 > [!NOTE]
 > Se a conta usada para publicar a topologia tiver os direitos de usuário e permissões apropriadas, será possível criar o banco de dados de monitoramento ao publicar sua topologia. Também é possível criar o banco de dados posteriormente, incluído como parte do procedimento de instalação.

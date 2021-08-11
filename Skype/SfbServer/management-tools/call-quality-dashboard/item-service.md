@@ -12,50 +12,50 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
-description: 'Resumo: saiba mais sobre o Serviço de Item, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
-ms.openlocfilehash: b904f814a837af13e4015af5fbaca924739b8997
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre o Serviço de Item, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: 4e46cb213502e646a9fc3c750e7aeb40ffb6aff47b4d2aba0c19e04c56ce6cc0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827701"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331223"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Serviço de Item para Painel de Qualidade de Chamada (CQD)
  
-**Resumo:** Saiba mais sobre o Serviço de Item, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre o Serviço de Item, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
   
-O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada.
+O Serviço de Item faz parte da API de Repositório para Painel de Qualidade de Chamada.
   
 ## <a name="item-service"></a>Serviço de Itens
 
-A API de repositório oferece um serviço de gerenciamento de conteúdo simples, conhecido como serviço de item, que pode ser usado para armazenar qualquer conteúdo definido pelo aplicativo para os usuários. 
+A API de repositório oferece um serviço de gerenciamento de conteúdo simples, conhecido como serviço de item, que pode ser usado para armazenar qualquer conteúdo definido pelo aplicativo para usuários. 
   
-O conteúdo do sistema é de propriedade do usuário do sistema e compartilhado por todos os usuários com acesso somente leitura. O conteúdo dedicado do usuário pertence a usuários regulares e somente os proprietários podem modificá-los ou excluí-los, mas todos os usuários ainda têm acesso somente leitura a eles.
+O conteúdo do sistema pertence ao usuário do sistema e compartilhado por todos os usuários com acesso somente leitura. O conteúdo dedicado do usuário pertence a usuários regulares e somente os proprietários podem modificá-los ou excluí-los, mas todos os usuários ainda têm acesso somente leitura a eles.
   
 > [!NOTE]
-> Esta documentação da API abrange operações somente leitura da API de Repositório. 
+> Esta documentação da API abrange operações somente leitura da API do Repositório. 
   
-O Painel de Qualidade da Chamada salva Relatórios e Consultas como Itens no banco de dados de repositório. Um Item pode ter sub-itens opcionais, e o Painel de Qualidade de Chamada organiza relatórios e consultas em uma estrutura hierárquica usando o recurso sub-itens.
+O Painel de Qualidade de Chamada salva Relatórios e Consultas como Itens no banco de dados do repositório. Um Item pode ter sub-Itens opcionais e o Painel de Qualidade de Chamada organiza Relatórios e Consultas em uma estrutura hierárquica usando o recurso sub-Items.
   
-O serviço de item inclui os seguintes conceitos:
+O serviço item inclui os seguintes conceitos:
   
-- **Item** - o elemento básico do repositório. Cada item pertence a exatamente um usuário.
+- **Item** - o elemento básico do repositório. Cada Item pertence a exatamente um Usuário.
     
-- **Sub-Item** - a mecânica organizacional básica do repositório. O item pode ter zero, um ou mais itens subordinados.
+- **Sub-Item** - a mecânica organizacional básica do repositório. Item pode ter zero, um ou mais Itens subordinados.
     
-- **Item Ancestrales** - a lista de itens, começando do item mais alto, que é o item padrão do usuário, levando a um determinado Item.
+- **Item Ancestrales** - a lista de Itens, começando a partir do Item mais alto, que é o Item padrão do Usuário, levando a um determinado Item.
     
-- **Conteúdo do Item** - o conteúdo específico do aplicativo armazenado em Itens. O Painel de Qualidade da Chamada salva representações JSON de Relatórios e Consultas no Conteúdo.
+- **Conteúdo do** Item - o conteúdo específico do aplicativo armazenado em Itens. O Painel de Qualidade de Chamada salva representações JSON de Relatórios e Consultas no Conteúdo.
     
 As operações REST estão incluídas na tabela a seguir.
   
 
 |**Operação**|**Descrição**|
 |:-----|:-----|
-|[Obter itens](get-items.md) <br/> |Get Items retorna todos os itens no repositório.  <br/> |
+|[Obter itens](get-items.md) <br/> |Get Items retorna todos os Itens no repositório.  <br/> |
 |[Obter item](get-item.md) <br/> |Get Item retorna um Item específico.  <br/> |
-|[Obter subitens](get-sub-items.md) <br/> |Get Sub-Items retorna sub-itens de um item específico.  <br/> |
-|[Obter o Item Predecessor](get-item-ancestors.md) <br/> |Get Item Ancestors retorna ancestrais de um item específico.  <br/> |
+|[Obter subitens](get-sub-items.md) <br/> |Obter Sub-Items retorna sub-Itens de um item específico.  <br/> |
+|[Obter o Item Predecessor](get-item-ancestors.md) <br/> |Obter Ancestrais de Item retorna os ancestrais de um item específico.  <br/> |
 |[Atualizar Item](update-item.md) <br/> |Atualize um item específico no repositório.  <br/> |
    
 
