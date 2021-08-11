@@ -1,5 +1,5 @@
 ---
-title: Gerenciando configurações do Grupo de Resposta no nível do aplicativo no Skype for Business
+title: Gerenciando configurações do Grupo de Resposta no nível do aplicativo Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Gerenciando configurações do Grupo de Resposta no nível do aplicativo, como configurações de música em espera e toque, no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Gerenciando configurações do Grupo de Resposta no nível do aplicativo, como configurações de música em espera e toque, em Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: a6883247f7be8816a8363c9b2790d6d0e45599484037d23af860b3e0f191dc10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103467"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337151"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gerenciando configurações do Grupo de Resposta no nível do aplicativo no Skype for Business
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gerenciando configurações do Grupo de Resposta no nível do aplicativo Skype for Business
  
-Gerenciando configurações do Grupo de Resposta no nível do aplicativo, como configurações de música em espera e toque, no Skype for Business Server Enterprise Voice.
+Gerenciando configurações do Grupo de Resposta no nível do aplicativo, como configurações de música em espera e toque, em Skype for Business Server Enterprise Voice.
   
 As configurações no nível do aplicativo do Grupo de Resposta incluem a configuração padrão de música em espera, o arquivo de áudio padrão de música em espera, o período de grace de retorno de toque do agente e a configuração de contexto de chamada. É possível definir apenas um conjunto de configurações a nível de aplicativo por pool. Para exibir as configurações no nível do aplicativo, use o cmdlet **Get-CsRgsConfiguration.** Para modificar as configurações no nível do aplicativo, use o cmdlet **Set-CsRgsConfiguration.**
   
@@ -35,7 +35,7 @@ A música padrão em espera é tocada quando uma chamada é colocada em espera s
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Na linha de comando, execute:
     

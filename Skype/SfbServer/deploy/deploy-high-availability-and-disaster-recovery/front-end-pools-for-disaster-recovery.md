@@ -1,5 +1,5 @@
 ---
-title: Implantar pools de front-end emparelhados para recuperação de desastre no Skype for Business Server
+title: Implantar pools front-end emparelhados para recuperação de desastres Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: Você pode optar por usar pools de Front End emparelhados para fornecer proteção de recuperação de desastres, mas fazer isso não é um requisito.
-ms.openlocfilehash: 7d066de60bf3ab98d73d8aeee08044803fad983c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Você pode optar por usar pools front-end emparelhados para fornecer proteção de recuperação de desastres, mas fazer isso não é um requisito.
+ms.openlocfilehash: bc061e05931c6a4b58d754623bde580e35c2c51367228a05126783d83d3fd27a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312049"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Implantar pools de front-end emparelhados para recuperação de desastre no Skype for Business Server
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Implantar pools front-end emparelhados para recuperação de desastres Skype for Business Server
  
-Você pode optar por usar pools de Front End emparelhados para fornecer proteção de recuperação de desastres, mas fazer isso não é um requisito.
+Você pode optar por usar pools front-end emparelhados para fornecer proteção de recuperação de desastres, mas fazer isso não é um requisito.
   
-Você pode implantar facilmente a topologia de recuperação de desastres de pools de front-end emparelhados usando o Construtor de Topologias. 
+Você pode implantar facilmente a topologia de recuperação de desastres de pools front-end emparelhados usando o Construtor de Topologias. 
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>Para implantar um par de pools do Front-End
 
-1. Se os pools são novos e ainda não foram definidos, use o Construtor de Topologias para criar os pools.
+1. Se os pools são novos e ainda não definidos, use o Construtor de Topologias para criar os pools.
     
-2. No Construtor de Topologias, clique com o botão direito do mouse em um dos dois pools e clique em **Editar Propriedades.**
+2. No Construtor de Topologias, clique com o botão direito do mouse em um dos dois pools e clique em **Editar Propriedades**.
     
 3. Clique em **Resiliência** no painel esquerdo e selecione **Pool de backup associado** no painel direito.
     
@@ -53,15 +53,15 @@ Você pode implantar facilmente a topologia de recuperação de desastres de poo
 
     Isto configura outros serviços necessários para que o emparelhamento de backup funcione corretamente.
     
-9. Depois que o Bootstrapper terminar de instalar os componentes necessários para o emparelhamento de backup em cada Servidor Front-end em ambos os pools, certifique-se de aplicar novamente qualquer Atualização Cumulativa existente que tenha sido aplicada anteriormente nesses Servidores front-end em ambos os pools e, em seguida, continue com a próxima etapa.
+9. Depois que o Bootstrapper concluir a instalação dos componentes necessários para o emparelhamento de backup em todos os Servidores Front-end em ambos os pools, certifique-se de aplicar novamente qualquer Atualização Cumulativa existente que tenha sido aplicada anteriormente nesses Servidores Front-End em ambos os pools e continue com a próxima etapa.
 
-10. Em um prompt de comando do Shell de Gerenciamento do Skype for Business Server, execute o seguinte: 
+10. Em um prompt Skype for Business Server de comando do Shell de Gerenciamento, execute o seguinte: 
     
    ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-11. Force o usuário e os dados de conferência de ambos os pools a serem sincronizados uns com os outros com os seguintes cmdlets:
+11. Force o usuário e os dados de conferência de ambos os pools a serem sincronizados uns com os seguintes cmdlets:
     
     ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -82,8 +82,8 @@ Você pode implantar facilmente a topologia de recuperação de desastres de poo
     ```
 
 > [!NOTE]
-> O **failover automático** e failback para a opção Voz e os intervalos de tempo associados no Construtor de Topologias se aplicam somente aos recursos de resiliência de voz que foram introduzidos no Lync Server. Selecionar esta opção não implica que o failover de pool discutido neste documento seja automático. O failover de pool e failback sempre exige que um administrador invoque manualmente os cmdlets de failover e failback, respectivamente.
+> A **opção failover e failback** automáticos para Voz e os intervalos de tempo associados no Construtor de Topologias aplicam-se apenas aos recursos de resiliência de voz introduzidos no Lync Server. Selecionar esta opção não implica que o failover de pool discutido neste documento seja automático. O failover de pool e failback sempre exige que um administrador invoque manualmente os cmdlets de failover e failback, respectivamente.
   
 ## <a name="see-also"></a>Confira também
 
-[Recuperação de desastre do pool de front-end no Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Recuperação de desastre de pool de front-end no Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

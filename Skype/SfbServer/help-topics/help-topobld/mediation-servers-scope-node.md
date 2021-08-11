@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 description: 'O nó pools de Mediação lista os pools de Mediação na sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: aa03067fa89dd2b290978c4acbf59c349fb88fd5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 26c0deff360b359c2f53c9d230c17f0288321b2a5c944cec9cd5a90b746d1403
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806701"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320363"
 ---
 # <a name="mediation-servers-scope-node"></a>Nó de Escopo de Servidores de Mediação
  

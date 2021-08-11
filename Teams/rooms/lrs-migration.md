@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: Leia este tópico para saber como migrar dispositivos do Sistema de Sala do Lync para usar o Salas do Microsoft Teams software.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e850b5f5f0f210abf7defc2e53cc510c5c0b0c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a700e66a966035b52a3036210e39c09612ed18b5df34430545987c51c40575f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301067"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrar dispositivos LRS (Sistema de Sala do Lync) para Salas do Microsoft Teams
 

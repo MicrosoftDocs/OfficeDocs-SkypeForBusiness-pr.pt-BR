@@ -1,5 +1,5 @@
 ---
-title: Atualizar para o Skype for Business Server 2015
+title: Atualizar para Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,86 +16,86 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
-description: 'Resumo: Saiba como atualizar do Lync Server 2013 para o Skype for Business Server 2015. Baixe uma avaliação gratuita do Skype for Business Server 2015 do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: cda83d03db697a0adf404af4f6fe6e350abf6b58
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como atualizar do Lync Server 2013 para o Skype for Business Server 2015. Baixe uma avaliação gratuita do Skype for Business Server 2015 no Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
+ms.openlocfilehash: a295b723dce318fc51121f3a5290dbf9b1fef3d41df9d7716780816168e6a2df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292259"
 ---
-# <a name="upgrade-to-skype-for-business-server-2015"></a>Atualizar para o Skype for Business Server 2015
+# <a name="upgrade-to-skype-for-business-server-2015"></a>Atualizar para Skype for Business Server 2015
  
-**Resumo:** Saiba como atualizar do Lync Server 2013 para o Skype for Business Server 2015. Baixe uma avaliação gratuita do Skype for Business Server 2015 do Centro [de Avaliação da Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
+**Resumo:** Saiba como atualizar do Lync Server 2013 para o Skype for Business Server 2015. Baixe uma avaliação gratuita do Skype for Business Server 2015 no Centro [de Avaliação da Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
-Use os procedimentos deste documento para atualizar do Lync Server 2013 para o Skype for Business Server 2015 usando o Construtor de Topologias do Skype for Business Server e o novo recurso In-Place Atualização. Se você quiser atualizar do Lync Server 2010 ou do Office Communications Server 2007 R2, consulte Plano para atualizar para o [Skype for Business Server 2015.](../plan-your-deployment/upgrade.md)
+Use os procedimentos neste documento para atualizar do Lync Server 2013 para o Skype for Business Server 2015 usando o Construtor de Topologias do Skype for Business Server e o novo recurso de atualização In-Place. Se você deseja atualizar do Lync Server 2010 ou do Office Communications Server 2007 R2, consulte [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).
 
 > [!NOTE]
-> As atualizações in-place estavam disponíveis no Skype for Business Server 2015, mas não têm mais suporte no Skype for Business Server 2019. A coexistência lado a lado é suportada, confira Migração para [o Skype for Business Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) para obter mais informações.
+> As atualizações in-locar estavam disponíveis no Skype for Business Server 2015, mas não são mais suportadas no Skype for Business Server 2019. Coexistência lado a lado é suportada, consulte [Migration to Skype for Business Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) para obter mais informações.
   
 ## <a name="upgrade-from-lync-server-2013"></a>Atualização do Lync Server 2013
 
-A atualização do Lync Server 2013 para o Skype for Business Server 2015 envolve a instalação de softwares de pré-requisitos, o uso do Construtor de Topologias do Skype for Business Server para atualizar bancos de dados no pool e o uso da Atualização do Skype for Business Server In-Place em cada um dos servidores associados ao pool. Para concluir a atualização, conclua as oito etapas deste tópico.
+Atualizar o Lync Server 2013 para o Skype for Business Server 2015 envolve a instalação de softwares de pré-requisito, o uso do Construtor de Topologias do Skype for Business Server para atualizar bancos de dados no pool e o uso da atualização do Skype for Business Server In-Place em cada um dos servidores associados ao pool. Para concluir a atualização, vá pelas oito etapas deste tópico.
   
 ### <a name="before-you-begin"></a>Antes de começar
 
 - Review [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).
     
-- Revise [os requisitos do Servidor para o Skype for Business Server 2015.](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+- Revisar [os requisitos do servidor Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
-- [Instale os pré-requisitos do Skype for Business Server 2015.](install/install-prerequisites.md)
+- [Instalar pré-requisitos para Skype for Business Server 2015](install/install-prerequisites.md) .
     
-- [Instale o Skype for Business Server 2015.](install/install.md)
+- [Instale Skype for Business Server 2015](install/install.md) .
     
 ### <a name="step-1-install-administrator-tools-and-download-topology"></a>Etapa 1: Instalar ferramentas de administrador e baixar topologia
 
-1. Conecte-se ao computador na topologia que não tenha o Lync OCSCore ou qualquer outro componente do Lync instalado.
+1. Conexão computador na topologia que não tenha o Lync OCSCore ou qualquer outro componente do Lync instalado.
     
-2. Na mídia de instalação do Skype for Business Server 2015, execute **Setup.exe** de **OCS_Volume\Setup\AMD64**. 
+2. A partir Skype for Business Server mídia de instalação 2015, executeSetup.exe **de** **OCS_Volume\Setup\AMD64**. 
     
 3. Clique em **Instalar**. 
     
 4. Aceitar o Contrato de Licença.
     
-5. No Assistente de Implantação, clique **em Instalar ferramentas do Administrador** e siga as etapas para instalar.
+5. No Assistente de Implantação, clique em **Instalar ferramentas de administrador** e siga as etapas a serem instaladas.
     
-     ![Screen shot of Deployment Wizard with link to the Install Administrator Tools called out.](../media/5bbac2d6-a5b3-42b4-a243-7bcf2b04477a.png)
+     ![Captura de tela do Assistente de Implantação com link para as Ferramentas de Administrador de Instalação chamadas.](../media/5bbac2d6-a5b3-42b4-a243-7bcf2b04477a.png)
   
-6. Na tela inicial do Windows, abra o Construtor de Topologias do Skype for Business Server.
+6. Na tela Windows Inicial, abra Skype for Business Server Construtor de Topologias.
     
-7. Clique **em Baixar topologia da implantação existente** e clique em **Próximo.**
+7. Clique **em Baixar topologia da implantação existente** e clique em **Próximo**.
     
-8. Insira um nome para a topologia e clique em **Salvar.**
+8. Insira um nome para a topologia e clique em **Salvar**.
     
 9. Vá para o local onde você salvou a topologia e faça uma cópia da topologia.
     
-### <a name="step-2-upgrade-and-publish-topology-using-topology-builder"></a>Etapa 2: Atualizar e publicar a topologia usando o Construtor de Topologias
+### <a name="step-2-upgrade-and-publish-topology-using-topology-builder"></a>Etapa 2: atualizar e publicar topologia usando o Construtor de Topologias
 
-Antes de iniciar o processo de atualização, todos os serviços devem estar em execução para os pools que você planeja atualizar. Isso é para que as alterações de topologia sejam replicadas para o banco de dados local dos servidores no pool.
+Antes de iniciar o processo de atualização, todos os serviços devem estar sendo executados para os pools que você planeja atualizar. Isso é para que as alterações de topologia sejam replicadas para o banco de dados local dos servidores no pool.
   
 > [!IMPORTANT]
->  Salve uma cópia do arquivo de topologia antes de atualizar. Depois de atualizar, você não poderá fazer downgrade na topologia.> Se seus serviços estão nos mesmos servidores que seus bancos de dados, como o serviço de Chat Persistente está no mesmo servidor que o banco de dados de Chat Persistente, ignore esta etapa e vá para a etapa 4. Depois de interromper os serviços, execute a configuração In-Place Atualização em cada servidor para atualizar os bancos de dados locais.
+>  Salve uma cópia do arquivo de topologia antes de atualizar. Depois de atualizar, você não poderá rebaixar a topologia.> Se seus serviços estão nos mesmos servidores que seus bancos de dados, como o serviço de Chat Persistente está no mesmo servidor que o banco de dados de Chat Persistente, ignore esta etapa e vá para a etapa 4. Depois de interromper os serviços, execute a configuração In-Place Atualização em cada servidor para atualizar os bancos de dados locais.
   
 > [!NOTE]
-> Se a topologia tiver um banco de dados back-end espelhado, você verá os bancos de dados Principal e Espelhado aparecerem quando você publicar a **topologia** usando o Construtor de Topologias. Certifique-se de que todos os bancos de dados estão sendo executados na entidade de segurança e selecione apenas a entidade de segurança, não o espelho, ao publicar a topologia caso contrário, você verá um aviso depois de publicar a topologia.
+> Se a topologia tiver um banco de dados back-end espelhado, você verá os bancos de dados Principal e Espelhado aparecerem quando você publicar a **topologia** usando o Construtor de Topologias. Certifique-se de que todos os bancos de dados estão sendo executados na Entidade e selecione apenas a Entidade, não o espelho, ao publicar a topologia caso contrário, você verá um aviso depois de publicar a topologia.
   
-Escolha uma das opções abaixo para atualizar e publicar uma nova topologia usando o Construtor de Topologias do Skype for Business Server 2015. Depois de concluir as etapas e publicar a topologia atualizada, vá para a Etapa 3 deste tópico.
+Escolha uma das opções abaixo para atualizar e publicar uma nova topologia usando o Construtor de Topologias Skype for Business Server 2015. Depois de concluir as etapas e publicar a topologia atualizada, vá para a Etapa 3 neste tópico.
   
 #### <a name="option-1-upgrade-an-isolated-front-end-pool-and-associated-archiving-and-monitoring-stores"></a>Opção 1: Atualizar um pool de Front-End isolado e os armazenamentos de Arquivamento e Monitoramento associados
 
-Se o pool que você está atualizando tiver uma dependência de armazenamento de Arquivamento e Monitoramento, quando você usar as etapas a seguir, o armazenamento de Arquivamento e Monitoramento também será atualizado.
+Se o pool que você está atualizando tiver uma dependência do armazenamento de Arquivamento e Monitoramento, quando você usar as etapas a seguir, o armazenamento de Arquivamento e Monitoramento também será atualizado.
   
-1. No Construtor de Topologias, clique com o botão direito do mouse em um pool do Lync Server 2013, selecione Atualizar para **o Skype for Business Server 2015** e siga as etapas. 
+1. No Construtor de Topologias, clique com o botão direito do mouse em um pool do Lync Server 2013, selecione Atualizar para Skype for Business Server **2015** e siga as etapas. 
     
-     ![Captura de tela do menu com o botão direito do mouse com a opção de atualização do Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
+     ![Captura de tela do menu com o botão direito do mouse com a opção de atualização para o Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-2. In Topology Builder, click **Action**  >  **Publish topology** or **Action**  >  **Topology**  >  **Publish**. 
+2. No Construtor de Topologias, clique em  >  **Topologia de Ação Publicar** ou **Publicação** de  >    >  **Topologia de Ação.** 
     
      ![Captura de tela do menu Ação com a opção Publicar topologia no Construtor de Topologias.](../media/d6712634-9205-401f-a0b0-3ea096ca51bf.png)
   
 3. Durante a publicação, escolha instalar um banco de dados no armazenamento de Arquivamento e Monitoramento.
     
-#### <a name="option-2-upgrade-front-end-pool-without-upgrading-archiving-and-monitoring-stores"></a>Opção 2: Atualizar o pool de Front-End sem atualizar os armazenamentos de Arquivamento e Monitoramento
+#### <a name="option-2-upgrade-front-end-pool-without-upgrading-archiving-and-monitoring-stores"></a>Opção 2: Atualizar pool de front-end sem atualizar os armazenamentos de Arquivamento e Monitoramento
 
 Se você usar as etapas a seguir, o arquivamento e o monitoramento do pool selecionado serão desabilitados. O pool não terá armazenamentos de Arquivamento e Monitoramento após a atualização.
   
@@ -103,106 +103,106 @@ Se você usar as etapas a seguir, o arquivamento e o monitoramento do pool selec
     
 2. Remova a dependência dos armazenamentos de Arquivamento e Monitoramento do Lync Server 2013. 
     
-   - Vá para **propriedades de** Edição  >  **de Ação.**
+   - Vá até **Action**  >  **Edit properties**.
     
-   - Des **clear the Archiving** check box.
+   - Des **limpar a caixa de seleção** Arquivamento.
     
      ![Captura de tela da caixa de seleção Arquivamento na caixa de diálogo Editar propriedades.](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
-   - Des limpe **a caixa de seleção** Monitoramento.
+   - **Desempure a caixa de seleção** Monitoramento.
     
      ![Captura de tela da caixa de diálogo Editar propriedades que mostra a caixa de seleção Monitoramento.](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. Clique com o botão direito do mouse no pool do Lync Server 2013, selecione Atualizar para **o Skype for Business Server 2015** e siga as etapas. 
+3. Clique com o botão direito do mouse no pool do Lync Server 2013, selecione Atualizar para Skype for Business Server **2015** e siga as etapas. 
     
-     ![Captura de tela do menu com o botão direito do mouse com a opção de atualização do Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
+     ![Captura de tela do menu com o botão direito do mouse com a opção de atualização para o Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-4. In Topology Builder, click **Action**  >  **Publish topology** or **Action**  >  **Topology**  >  **Publish**. 
+4. No Construtor de Topologias, clique em  >  **Topologia de Ação Publicar** ou **Publicação** de  >    >  **Topologia de Ação.** 
     
-#### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>Opção 3: Atualizar o pool de front-end e associá-lo aos novos armazenamentos de Arquivamento e Monitoramento do Skype for Business Server 2015
+#### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>Opção 3: Atualizar pool de front-end e associá-lo aos novos Skype for Business Server de Arquivamento e Monitoramento 2015
 
-Se você usar as etapas a seguir, o arquivamento e o monitoramento serão parados no armazenamento anterior e começarão no novo armazenamento que você criou. 
+Se você usar as etapas a seguir, o arquivamento e o monitoramento serão parados no armazenamento anterior e começarão no novo armazenamento criado. 
   
 1. No Construtor de Topologias, selecione o pool do Lync Server 2013 que você deseja atualizar. 
     
 2. Remova a dependência dos armazenamentos de Arquivamento e Monitoramento do Lync Server 2013. 
     
-   - Vá para **propriedades de** Edição  >  **de Ação.**
+   - Vá até **Action**  >  **Edit properties**.
     
-   - Des **clear the Archiving** check box.
+   - Des **limpar a caixa de seleção** Arquivamento.
     
      ![Captura de tela da caixa de seleção Arquivamento na caixa de diálogo Editar propriedades.](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
-   - Des limpe **a caixa de seleção** Monitoramento.
+   - **Desempure a caixa de seleção** Monitoramento.
     
      ![Captura de tela da caixa de diálogo Editar propriedades que mostra a caixa de seleção Monitoramento.](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. Clique com o botão direito do mouse no pool do Lync Server 2013, selecione Atualizar para **o Skype for Business Server 2015** e siga as etapas. 
+3. Clique com o botão direito do mouse no pool do Lync Server 2013, selecione Atualizar para Skype for Business Server **2015** e siga as etapas. 
     
-     ![Captura de tela do menu com o botão direito do mouse com a opção de atualização do Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
+     ![Captura de tela do menu com o botão direito do mouse com a opção de atualização para o Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-4. Crie um novo armazenamento SQL para Arquivamento. 
+4. Crie um novo SQL para Arquivamento. 
     
-   - Selecione o pool e as **propriedades de Edição** de  >  **Ação.** 
+   - Selecione as propriedades pool e **Action**  >  **Edit**. 
     
    -  Marque a caixa de seleção **Arquivamento**.
     
    - Clique em **Novo**.
     
-     ![Captura de tela da caixa de diálogo Editar propriedades que mostram o botão Novo na seção Arquivamento.](../media/3a4a18e7-8251-4736-837c-2b486f64f896.png)
+     ![Captura de tela da caixa de diálogo Editar propriedades que mostram Novo botão em Seção Arquivamento.](../media/3a4a18e7-8251-4736-837c-2b486f64f896.png)
   
-5. Crie um novo armazenamento SQL para Monitoramento. 
+5. Crie um novo SQL para Monitoramento. 
     
-   - Selecione o pool e as **propriedades de Edição** de  >  **Ação.** 
+   - Selecione as propriedades pool e **Action**  >  **Edit**. 
     
    -  Marque a **caixa de seleção** Monitoramento.
     
    - Clique em **Novo**.
     
-     ![Captura de tela da caixa de diálogo Editar propriedades que mostram o botão Novo na seção Monitoramento.](../media/729c72a7-0068-4e0d-99dc-e480a6bfbf1d.png)
+     ![Captura de tela da caixa de diálogo Editar propriedades que mostram Novo botão em Seção Monitoramento.](../media/729c72a7-0068-4e0d-99dc-e480a6bfbf1d.png)
   
-6. In Topology Builder, click **Action**  >  **Publish topology** or **Action**  >  **Topology**  >  **Publish**. 
+6. No Construtor de Topologias, clique em  >  **Topologia de Ação Publicar** ou **Publicação** de  >    >  **Topologia de Ação.** 
     
 7. Durante a publicação, escolha instalar o banco de dados no novo armazenamento de Arquivamento e Monitoramento.
     
 ### <a name="step-3-wait-for-replication"></a>Etapa 3: Aguardar replicação
 
-Dê algum tempo à replicação para publicar a topologia atualizada em todos os servidores no ambiente.
+Dê algum tempo à replicação para publicar a topologia atualizada em todos os servidores do ambiente.
   
-### <a name="step-4-stop-all-services-in-pool-to-be-upgraded"></a>Etapa 4: Interromper a atualização de todos os serviços no pool
+### <a name="step-4-stop-all-services-in-pool-to-be-upgraded"></a>Etapa 4: Parar todos os serviços no pool a serem atualizados
 
-Em cada servidor que está atendendo o pool que você vai atualizar, execute o seguinte cmdlet no PowerShell:
+Em cada servidor que esteja atendendo o pool que você vai atualizar, execute o seguinte cmdlet no PowerShell:
   
 ```powershell
 Disable-CsComputer -Scorch
 ```
 
-Recomendamos usar o Disable-CsComputer porque talvez seja necessário reiniciar o servidor durante o processo de In-Place Atualização. Se você usar Stop-CsWindowsService, alguns serviços poderão ser reiniciados automaticamente após uma reinicialização. Isso pode fazer com que a In-Place atualização falhe.
+Recomendamos o uso Disable-CsComputer porque talvez seja necessário reiniciar o servidor durante o processo In-Place Atualização. Se você usar Stop-CsWindowsService, alguns serviços poderão ser reiniciados automaticamente após uma reinicialização. Isso pode fazer com que a atualização In-Place falha.
   
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Etapa 5: Atualizar pools de front-end e servidores de pool não front-end
 
 > [!NOTE]
->  Antes de atualizar, instale todos os novos pré-requisitos necessários para o Skype for Business Server 2015, que incluem: > Pelo menos 32 GB de espaço livre antes de tentar uma atualização. Além disso, certifique-se de que a unidade seja uma unidade local fixa, não esteja conectada por USB ou Firewire, está formatado com o sistema de arquivos NTFS, não está compactado e não contém um arquivo de página.> PowerShell versão 6.2.9 200.0 ou posterior.> A atualização cumulativa mais recente do Lync Server 2013 instalada.> SQL Server 2012 SP1 instalado.> A seguinte KB está instalada (instalada automaticamente se estiver usando o Microsoft Update):> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Antes de atualizar, instale todos os novos pré-requisitos necessários para o Skype for Business Server 2015, que incluem:> Pelo menos 32 GB de espaço livre antes de tentar uma atualização. Além disso, certifique-se de que a unidade é uma unidade local fixa, não está conectada por USB ou Firewire, é formatado com o sistema de arquivos NTFS, não é compactado e não contém um arquivo de página.> PowerShell versão 6.2.92 00.0 ou posterior.> A atualização cumulativa mais recente do Lync Server 2013 instalada.> SQL Server 2012 SP1 instalada.> O KB a seguir instalado (instalado automaticamente se estiver usando o Microsoft Update):> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
-Use a In-Place atualização em cada servidor para atualizar o pool de Front-End, pool de Borda, servidor de Mediação e o pool de Chat Persistente.
+Use o In-Place Atualização em cada servidor para atualizar o pool de Front-End, Pool de Borda, Servidor de Mediação e o pool de Chat Persistente.
   
-1. Em cada servidor, execute **Setup.exe** de **OCS_Volume\Setup\amd64** na mídia de instalação do Skype for Business Server 2015.
+1. Em cada servidor, execute **Setup.exe** de **OCS_Volume\Setup\amd64** na mídia de instalação Skype for Business Server 2015.
     
-2. Aceite o contrato de licença e siga as solicitações para o In-Place Atualização.
+2. Aceite o contrato de licença e siga os prompts para o In-Place Upgrade.
     
-3. Repita essas etapas para cada servidor no pool de Front-End e em cada servidor de pool não Front-End.
+3. Repita estas etapas para cada servidor no pool de Front-End e em cada servidor de pool não Front-End.
     
 > [!NOTE]
-> Você pode ser solicitado a reiniciar o servidor durante a atualização In-Place atualização. Tudo bem. Após a reinicialização, a In-Place Atualização continuará de onde foi deixada. 
+> Você pode ser solicitado a reiniciar o servidor durante a atualização In-Place Atualização. Está okey. Após a reinicialização, In-Place atualização continuará de onde ela foi deixada. 
   
-Quando a In-Place atualização for concluída com êxito, você verá a seguinte mensagem.
+Quando a In-Place Upgrade for concluída com êxito, você verá a seguinte mensagem.
   
-![Screen shot that shows in-place upgrade completed successfully.](../media/2f52cb50-9bb4-4714-a982-9c7a0865f78a.png)
+![Captura de tela que mostra a atualização in-local concluída com êxito.](../media/2f52cb50-9bb4-4714-a982-9c7a0865f78a.png)
   
 ### <a name="step-6-restart-services-on-all-upgraded-servers"></a>Etapa 6: Reiniciar serviços em todos os servidores atualizados
 
 > [!NOTE]
-> Antes de reiniciar os serviços, verifique se %ProgramData%\WindowsFabric não existe em todos os servidores front-end. Se existir, exclua-o antes de iniciar os serviços. 
+> Antes de reiniciar os serviços, verifique se %ProgramData%\WindowsFabric não existe em todos os Servidores Front-End. Se existir, exclua-o antes de iniciar os serviços. 
   
 - Depois de atualizar todos os servidores no pool de Front-End, reinicie os serviços usando o seguinte comando do PowerShell: 
     
@@ -211,9 +211,9 @@ Quando a In-Place atualização for concluída com êxito, você verá a seguint
   ```
 
     > [!NOTE]
-    > Se já houver uma reinicialização pendente do sistema necessária antes de iniciar a execução do In-Place Upgrade, a atualização do In-Place não solicitará a reinicialização no final da instalação. Isso fará com que algumas exceções de assembly sejam lançadas no primeiro servidor front-end quando você tentar iniciar serviços usando o Start-CSPool cmdlet. Para resolver esses erros, reinicie todos os servidores no pool e execute o cmdlet novamente. 
+    > Se já houver uma reinicialização pendente do sistema necessária antes de começar a executar In-Place Atualização, o In-Place Upgrade não solicitará que você seja reiniciado no final da instalação. Isso fará com que algumas exceções de assembly sejam lançadas no primeiro servidor Front-End quando você tentar iniciar serviços usando o cmdlet Start-CSPool. Para resolver esses erros, reinicie todos os servidores no pool e execute o cmdlet novamente. 
   
-- Nos servidores de pool não Front-End, reinicie os serviços usando o seguinte comando:
+- Nos servidores de pool que não são front-end, reinicie os serviços usando o seguinte comando:
     
   ```powershell
   Start-CsWindowsService
@@ -221,32 +221,32 @@ Quando a In-Place atualização for concluída com êxito, você verá a seguint
 
 Depois de clicar **em OK** na página In-Place Atualização, você verá o lembrete a seguir para concluir esta etapa.
   
-![Captura de tela que mostra as próximas etapas após a conclusão bem-sucedida da atualização in-place.](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
+![Captura de tela que mostra as próximas etapas após a conclusão da atualização local com êxito.](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
   
-### <a name="step-7-verify-skype-for-business-functionality-works"></a>Etapa 7: Verificar se a funcionalidade do Skype for Business funciona
+### <a name="step-7-verify-skype-for-business-functionality-works"></a>Etapa 7: verificar se Skype for Business funcionalidade funciona
 
-Para garantir que a atualização foi bem-sucedida, para o pool que foi atualizado, teste o Skype for Business para garantir que a funcionalidade está funcionando conforme o esperado. 
+Para garantir que a atualização tenha sido bem-sucedida, para o pool que foi atualizado, teste Skype for Business para garantir que a funcionalidade está funcionando conforme o esperado. 
   
 ### <a name="step-8-upgrade-secondary-pools"></a>Etapa 8: Atualizar pools secundários
 
-Repita as etapas deste tópico para atualizar quaisquer pools adicionais que você tenha em seu ambiente.
+Repita as etapas deste tópico para atualizar os pools adicionais que você tem em seu ambiente.
   
-## <a name="troubleshoot-issues-with-the-in-place-upgrade"></a>Solucionar problemas com a atualização In-Place atualização
+## <a name="troubleshoot-issues-with-the-in-place-upgrade"></a>Solucionar problemas com o In-Place Upgrade
 
-Se a In-Place atualização falhar, você poderá ver uma mensagem semelhante à que está na imagem a seguir. 
+Se a atualização In-Place falha, você pode ver uma mensagem semelhante ao que está na imagem a seguir. 
   
-![Screen shot that shows in-place upgrade failing because a required cumulative update isn't installed.](../media/f84db06b-0841-45a9-870d-7ba4b5a463d5.png)
+![Captura de tela que mostra falha na atualização local porque uma atualização cumulativa necessária não está instalada.](../media/f84db06b-0841-45a9-870d-7ba4b5a463d5.png)
   
 Revise a mensagem completa na parte inferior da página para ajudá-lo a solucionar o problema. Clique **em Exibir logs** para obter mais detalhes.
   
-Se a atualização do In-Place  falhar na verificação da preparação da atualização ou na instalação de pré-requisitos **ausentes,** verifique se o servidor tem todas as atualizações mais recentes do Windows Server, do Lync Server e do SQL Server aplicadas e se todos os softwares e funções necessários estão instalados. Para uma lista do que é necessário, consulte Requisitos de servidor para [o Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e pré-requisitos de instalação para o Skype for Business Server [2015.](install/install-prerequisites.md)
+Se a atualização do In-Place  falhar em Verificar a preparação da atualização ou a instalação de pré-requisitos **ausentes,** verifique se o servidor tem todas as atualizações mais recentes do Windows Server, do Lync Server e do SQL Server aplicadas, e todos os softwares e funções necessários estão instalados. Para uma lista do que é necessário, consulte Requisitos de [servidor para Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e [Instalar pré-requisitos para Skype for Business Server 2015](install/install-prerequisites.md).
   
 ## <a name="see-also"></a>Confira também
 
 [Planejar a atualização para o Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
   
-[Requisitos de servidor para o Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Requisitos de servidor para Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Instalar os pré-requisitos do Skype for Business Server 2015](install/install-prerequisites.md)
+[Instalar pré-requisitos para o Skype for Business Server 2015](install/install-prerequisites.md)
   
-[Instalar o Skype for Business Server 2015](install/install.md)
+[Instalar Skype for Business Server 2015](install/install.md)

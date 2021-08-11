@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Um Diretor é um servidor que executa Skype for Business Server software de comunicações 2015 que pode autenticar solicitações de usuário, mas não abriga nenhuma conta de usuário.
-ms.openlocfilehash: 964a86ee4959a56e88db054ff9229fbd4363e4fe
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: c6f1a9a16d8d97888be4b9453a7ce3746298cce4cf38beebcf82ff2f89e77904
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283253"
 ---
 # <a name="director-planning-tool"></a>Ferramenta de planejamento de diretores
  

@@ -1,5 +1,5 @@
 ---
-title: Configurar opções de arquivamento para lidar com falhas no Skype for Business Server
+title: Configurar opções de arquivamento para lidar com falhas em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 'Resumo: saiba como bloquear sessões de IM e conferência no caso de uma falha do Skype for Business Server que impediria o arquivamento.'
-ms.openlocfilehash: 8bfe4d3f8e02fa0d7d7d3f1f6b55f224aaa1451a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como bloquear sessões de IM e conferência no caso de uma falha Skype for Business Server que impediria o arquivamento.'
+ms.openlocfilehash: 8baf245b1c8e95394aec756cb019b9562555f4bbe17dc0444615d5815da846df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095445"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320263"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opções de arquivamento para lidar com falhas no Skype for Business Server
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opções de arquivamento para lidar com falhas em Skype for Business Server
 
-**Resumo:** Saiba como bloquear sessões de IM e conferência no caso de uma falha do Skype for Business Server que impediria o arquivamento.
+**Resumo:** Saiba como bloquear sessões de IM e conferência no caso de uma falha Skype for Business Server que impediria o arquivamento.
   
-Se o arquivamento for um requisito para sua organização, você poderá bloquear sessões de IM e conferência no caso de uma falha do Skype for Business Server que impediria o arquivamento. Às vezes, isso é chamado de modo crítico. Por exemplo, se houver um problema com um serviço de armazenamento, o IM seria bloqueado para usuários cujas comunicações estão habilitadas para arquivamento. As mensagens instantâneas e conferências são recuperadas automaticamente após as falhas serem corrigidas. 
+Se o arquivamento for um requisito para sua organização, você poderá bloquear sessões de IM e conferência no caso de uma falha Skype for Business Server que impediria o arquivamento. Às vezes, isso é chamado de modo crítico. Por exemplo, se houver um problema com um serviço de armazenamento, o IM seria bloqueado para usuários cujas comunicações estão habilitadas para arquivamento. As mensagens instantâneas e conferências são recuperadas automaticamente após as falhas serem corrigidas. 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>Configurar o modo crítico usando o Painel de Controle
 
@@ -31,7 +31,7 @@ Para especificar se as sessões de comunicação devem ser permitidas em caso de
   
 1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna. 
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e clique em **Configuração do Arquivamento**.
     

@@ -1,5 +1,5 @@
 ---
-title: Testar conferência discada no Skype for Business Server
+title: Testar conferência discagem no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Resumo: saiba como testar a conferência discada no Skype for Business Server.'
-ms.openlocfilehash: be1cf5bba5a5bec2076f78880343582be19eda70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: Saiba como testar a conferência discagem em Skype for Business Server.'
+ms.openlocfilehash: 6ed82ac33fc9fc63bab127834c039d045e585c9efd4ea2c15b5dba2fdaf8edbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096727"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283343"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Testar conferência discada no Skype for Business Server
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Testar conferência discagem no Skype for Business Server
  
-**Resumo:** Saiba como testar a conferência discada no Skype for Business Server.
+**Resumo:** Saiba como testar a conferência discagem no Skype for Business Server.
   
-Como verificação final da configuração da conferência discada, você pode pesquisar planos de discagem com uma região de conferência discada que não seja usada por nenhum número de acesso e números de acesso que não possuem uma região de conferência discada especificada. Você também deve verificar se a página da Web Configurações de Conferência Discar e os números de acesso discado funcionam corretamente.
+Como verificação final da configuração da conferência discada, você pode pesquisar planos de discagem com uma região de conferência discada que não seja usada por nenhum número de acesso e números de acesso que não possuem uma região de conferência discada especificada. Você também deve verificar se a página da Web de Conferência Discar Configurações e os números de acesso discado funcionam corretamente.
   
 ## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>Encontre planos de discagem com uma região de conferência discada que não seja usada por um número de acesso
 
 1. Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função Cs-ServerAdministrator ou CsAdministrator.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Execute o seguinte no prompt de comando:
     
@@ -45,7 +45,7 @@ Para obter mais informações, [consulte Get-CsDialInConferencingAccessNumber](/
 
 1. Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função Cs-ServerAdministrator ou CsAdministrator.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Execute o seguinte no prompt de comando:
     
@@ -69,7 +69,7 @@ Para verificar se a página da Web de Configurações de Conferência Discada e 
 
 1. Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função Cs-ServerAdministrator ou CsAdministrator.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Execute o seguinte no prompt de comando:
     

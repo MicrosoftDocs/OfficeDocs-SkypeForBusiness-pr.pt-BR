@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: 'Resumo: saiba mais sobre a operação Obter Últimos Dados de Integração, que faz parte da API de Dados para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
-ms.openlocfilehash: c40041e41e04d2bdc62a9eb9fa1eb699697a5b3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre a operação Obter Dados de Última Integração, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: 42542a092baba41e334f30ba50029ab7efa70bf1af59b7ecf8cf2bd05f3f1b62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278409"
 ---
 # <a name="get-last-integration-data"></a>Obter os Últimos Dados de Integração
  
-**Resumo:** Saiba mais sobre a operação Obter Últimos Dados de Integração, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Dados de Última Integração, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
   
-A operação Obter Últimos Dados de Integração faz parte da API de Dados do Painel de Qualidade da Chamada.
+A operação Obter Últimos Dados de Integração faz parte da API de Dados para Painel de Qualidade de Chamada.
   
 ## <a name="get-last-integration-data"></a>Obter os Últimos Dados de Integração
 
-A operação Obter Dados da Última Integração retorna a lista dos últimos 5 êxitos/falhas de arquivamento e processamento de cubos.
+Get Last Integration Data operation returns the list of last 5 success/failure of archiving and cube processing.
   
-Esse recurso está desabilitado por padrão e precisa ser habilitado configurando a API de Dados.
+Esse recurso é desabilitado por padrão e precisa ser habilitado configurando a API de Dados.
   
 
-|**Method**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
 |OBTER  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** - Nenhum.
+ **Parâmetros URI** - Nenhum.
   
- **Solicitação de headers** - nenhum outro.
+ **Headers de solicitação** - Sem headers adicionais.
   
  **Corpo da Solicitação** - Nenhum.
   
@@ -47,9 +47,9 @@ Esse recurso está desabilitado por padrão e precisa ser habilitado configurand
   
  **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
   
- **Response Headers** - Sem outros headers.
+ **Headers de resposta** - Sem headers adicionais.
   
- **Corpo de Resposta** - Abaixo está um exemplo de status do log.
+ **Corpo da Resposta** - Abaixo está um status de log de exemplo.
   
 ```json
 {

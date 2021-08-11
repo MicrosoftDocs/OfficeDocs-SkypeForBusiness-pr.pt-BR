@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Resumo: saiba como excluir uma configuração de arquivamento no Skype for Business Server.'
-ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6a8aec925bf6bfb7914b6cf830ee6e38751ed7187c862ca2d26104ca3384f39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320253"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Excluir uma configuração de arquivamento no Skype for Business Server
 
@@ -31,7 +31,7 @@ Para excluir uma configuração de arquivamento usando o Painel de Controle:
   
 1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna. 
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e clique em **Configuração do Arquivamento**.
     
@@ -58,7 +58,7 @@ O comando a seguir remove todas as configurações de arquivamento aplicadas ao 
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
-O próximo comando remove todas as configurações de arquivamento em que o arquivamento do Exchange foi desabilitado:
+O próximo comando remove todas as configurações de arquivamento em que Exchange arquivamento foi desabilitado:
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration

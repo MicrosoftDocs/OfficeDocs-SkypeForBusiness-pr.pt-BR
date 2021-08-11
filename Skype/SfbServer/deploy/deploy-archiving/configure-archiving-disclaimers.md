@@ -1,5 +1,5 @@
 ---
-title: Configurar avisos de isenção de responsabilidade de arquivamento para usuários externos no Skype for Business Server
+title: Configurar avisos de isenção de responsabilidade de arquivamento para usuários externos Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,39 +11,39 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
-description: 'Resumo: Leia este tópico para saber como configurar um aviso de isenção de responsabilidade de arquivamento para o Skype for Business Server.'
-ms.openlocfilehash: 055c94f0fba18dcd9de35ff5a73e37de0b45595b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: leia este tópico para saber como configurar um aviso de isenção de responsabilidade de arquivamento para Skype for Business Server.'
+ms.openlocfilehash: 1afacace566cc75659e5b53e05346461b99f0cb888497f79da6340130585c959
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820661"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312139"
 ---
-# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurar avisos de isenção de responsabilidade de arquivamento para usuários externos no Skype for Business Server
+# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurar avisos de isenção de responsabilidade de arquivamento para usuários externos Skype for Business Server
  
-**Resumo:** Leia este tópico para saber como configurar um aviso de isenção de responsabilidade de arquivamento para o Skype for Business Server.
+**Resumo:** Leia este tópico para saber como configurar um aviso de isenção de responsabilidade de arquivamento para Skype for Business Server.
   
-Se sua organização se comunica com parceiros externos, você precisa informar a eles que está arquivando as comunicações com eles. Ao implantar um Servidor de Borda e habilitar a federação para sua organização, você será perguntado se deseja enviar automaticamente um aviso de isenção de responsabilidade de arquivamento para parceiros externos. 
+Se sua organização se comunicar com parceiros externos, você precisará informar a eles que está arquivando comunicações com eles. Quando você implanta um Servidor de Borda e habilita a federação para sua organização, é perguntado se deseja enviar automaticamente um aviso de isenção de responsabilidade de arquivamento para parceiros externos. 
   
-Se você precisar alterar essa configuração, poderá usar o Painel de Controle do Skype for Business Server ou o cmdlet **Set-CsAccessEdgeConfiguration** do Windows PowerShell. Os cmdlets podem ser executados a partir do shell de gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell.
+Se você precisar alterar essa configuração, poderá usar o Painel de Controle Skype for Business Server ou o cmdlet **Windows PowerShell Set-CsAccessEdgeConfiguration.** Os cmdlets podem ser executados no shell de gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell.
   
-Para permitir que usuários externos colaborem com usuários em sua implantação do Skype for Business Server, você também deve configurar pelo menos uma política de acesso externo para suportar o acesso de usuários externos. Para obter detalhes, consulte Gerenciar Parceiros Federados XMPP para Sua Organização. Para obter detalhes sobre como controlar o acesso a domínios federados específicos, consulte Control Access by Individual Federated Domains.
+Para permitir que usuários externos colaborem com usuários em sua implantação Skype for Business Server, você também deve configurar pelo menos uma política de acesso externo para dar suporte ao acesso de usuário externo. Para obter detalhes, consulte Manage XMPP Federated Partners for Your Organization. Para obter detalhes sobre como controlar o acesso a domínios federados específicos, consulte Control Access by Individual Federated Domains.
   
 ## <a name="enable-or-disable-archiving-disclaimer-using-the-control-panel"></a>Habilitar ou desabilitar o aviso de isenção de responsabilidade de arquivamento usando o Painel de Controle
 
-1. Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
+1. De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
     
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
     
 3. Na barra de navegação esquerda, clique em **Acesso Externo e Federado** e clique em **Configuração de Borda de Acesso**.
     
 4. Na guia **Configuração de Borda de Acesso**, clique em **Global**, em **Editar** e clique em **Mostrar detalhes**.
     
-5. Em **Editar** Configuração de Borda de Acesso, em Habilitar federação e conectividade de **IM** pública, marque ou des limpe a caixa de seleção Enviar aviso de isenção de responsabilidade de arquivamento para parceiros **federados** para habilitar ou desabilitar o envio automático do aviso de isenção de responsabilidade de arquivamento.
+5. Em **Editar Configuração** de Borda de Acesso , em Habilitar a conectividade de **IM** pública e federação, selecione ou desembolse a caixa de seleção Enviar aviso de isenção de responsabilidade de arquivamento para parceiros **federados** para habilitar ou desabilitar o envio automático do aviso de isenção de responsabilidade de arquivamento.
     
 6. Clique em **Confirmar**.
     
-## <a name="enable-or-disable-archiving-disclaimer-using-windows-powershell"></a>Habilitar ou desabilitar o aviso de isenção de responsabilidade de arquivamento usando o Windows PowerShell
+## <a name="enable-or-disable-archiving-disclaimer-using-windows-powershell"></a>Habilitar ou desabilitar o aviso de isenção de responsabilidade de arquivamento usando Windows PowerShell
 
 Para habilitar a isenção de responsabilidade de arquivamento, defina o valor da propriedade **EnableArchivingDisclaimer** para True ($True):
   
