@@ -1,5 +1,5 @@
 ---
-title: 'Implantar o armazenamento unificado de contatos no Skype for Business Server '
+title: 'Implantar o armazenamento unificado de contatos Skype for Business Server '
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,46 +11,46 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
-description: 'Resumo: Habilitar o armazenamento unificado de contatos no Skype for Business Server.'
-ms.openlocfilehash: 7bf4dcb884dc9fecee15209f5acb563fce9efd43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Habilita o armazenamento unificado de contatos Skype for Business Server.'
+ms.openlocfilehash: 6311b760daf2c397cfc5c75ddeb5e28fd2fb6503c0c2db11ef9ed6de71a7562e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812551"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310010"
 ---
-# <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implantar o armazenamento unificado de contatos no Skype for Business Server
+# <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implantar o armazenamento unificado de contatos Skype for Business Server
  
-**Resumo:** Habilita o armazenamento unificado de contatos no Skype for Business Server.
+**Resumo:** Habilita o armazenamento unificado de contatos Skype for Business Server.
   
-A habilitação do armazenamento unificado de contatos no Skype for Business Server não exige configurações de topologia. Para habilitar o armazenamento unificado de contatos para usuários:
+Habilenciar o armazenamento unificado de contatos Skype for Business Server não requer configurações de topologia. Para habilitar o armazenamento unificado de contatos para usuários:
   
 - Que a política do repositório unificado de contatos esteja habilitada (ela é habilitada por padrão).
     
-- Os usuários podem entrar com o Skype for Business pelo menos uma vez.
+- Os usuários se conectarão Skype for Business pelo menos uma vez.
     
-Depois que os contatos de um usuário são migrados, o que acontece automaticamente quando um usuário entra no Skype for Business, o usuário pode acessar e gerenciar seus contatos do Skype for Business, Outlook 2013 ou Outlook Web Access. O usuário não precisa estar conectado ao Skype for Business para gerenciar seus contatos no Outlook ou no Outlook Web Access.
+Depois que os contatos de um usuário são migrados, o que acontece automaticamente quando um usuário faz logor com o Skype for Business, o usuário pode acessar e gerenciar seus contatos do Skype for Business do Skype for Business, Outlook 2013 ou Outlook Web Access. O usuário não precisa estar conectado Skype for Business gerenciar seus contatos do Outlook ou Outlook Web Access.
   
 > [!IMPORTANT]
-> Se um usuário entrar no Skype for Business após a migração, os contatos e os grupos estarão disponíveis e atualizados, mas o usuário não poderá gerenciar (ou seja, adicionar, excluir, mover, marcar, desatar ou modificar) esses contatos. 
+> Se um usuário entrar no Skype for Business após a migração, os contatos e grupos estarão disponíveis e atualizados, mas o usuário não poderá gerenciar (ou seja, adicionar, excluir, mover, marcar, desatar ou modificar) esses contatos. 
   
 ## <a name="enable-users-for-unified-contact-store"></a>Habilitar usuários para o armazenamento unificado de contatos
 
-Quando você implanta o Skype for Business Server e publica a topologia, o armazenamento unificado de contatos é habilitado para todos os usuários por padrão. Não é necessário tomar medidas adicionais para habilitar o armazenamento unificado de contatos depois de implantar o Skype for Business Server. Contudo, você pode usar o **Set-CsUserServicesPolicy** cmdlet para definir quais usuários têm o armazenamento unificado de contatos disponível. Você pode habilitar esse recurso globalmente, por local, por tenant ou por indivíduos ou grupos de indivíduos.
+Quando você implanta Skype for Business Server e publica a topologia, o armazenamento unificado de contatos é habilitado para todos os usuários por padrão. Você não precisa tomar nenhuma ação adicional para habilitar o armazenamento unificado de contatos depois de implantar Skype for Business Server. Contudo, você pode usar o **Set-CsUserServicesPolicy** cmdlet para definir quais usuários têm o armazenamento unificado de contatos disponível. Você pode habilitar esse recurso globalmente, por local, por tenant ou por indivíduos ou grupos de indivíduos.
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>Para permitir o armazenamento unificado de contatos
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business** e no Shell de Gerenciamento do Skype for Business **Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **e** clique Skype for Business Server Shell **de Gerenciamento.**
     
 2. Faça um dos seguintes:
     
-   - Para habilitar o armazenamento unificado de contatos globalmente para todos os usuários do Skype for Business Server, entre os seguintes cmdlets na interface de linha de comando do Windows PowerShell:
+   - Para habilitar o armazenamento de contatos unificado globalmente para todos os Skype for Business Server usuários, entre o seguinte cmdlet na interface Windows PowerShell linha de comando:
     
    ```powershell
    Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
    ```
 
-   - Para habilitar o armazenamento unificado de contatos para os usuários em um site específico, digite no prompt:
+   - Para habilitar o armazenamento unificado de contatos para os usuários em um site específico, no prompt, digite:
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
@@ -74,7 +74,7 @@ Quando você implanta o Skype for Business Server e publica a topologia, o armaz
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
    ```
 
-   - Para habilitar o armazenamento unificado de contatos para usuários específicos, digite no prompt:
+   - Para habilitar o armazenamento unificado de contatos para usuários específicos, no prompt, digite:
     
    ```powershell
    New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
@@ -100,11 +100,11 @@ Os contatos de um usuário são migrados automaticamente para o servidor Exchang
   
 - For atribuído com uma política de serviços do usuário com UcsAllowed definido para True.
     
-- Foi provisionado com uma caixa de correio do Exchange 2013 e entrou na caixa de correio pelo menos uma vez.
+- Foi provisionado com uma caixa de correio Exchange 2013 e entrou na caixa de correio pelo menos uma vez.
     
-- Faz login usando um cliente rico do Skype for Business.
+- Entre usando um cliente Skype for Business rich.
     
-Se o usuário faz logon com um cliente Lync ou anterior, ou se o usuário não estiver conectado a um servidor Exchange 2013, a política de serviços do usuário será ignorada e os contatos do usuário permanecerão no Skype for Business Server.
+Se o usuário entrar com um Lync ou cliente anterior ou se o usuário não estiver conectado a um servidor do Exchange 2013, a política de serviços de usuário será ignorada e os contatos do usuário permanecerão em Skype for Business Server.
   
 É possível determinar se os contatos do usuário foram migrados usando um dos seguintes métodos: 
   
@@ -112,9 +112,9 @@ Se o usuário faz logon com um cliente Lync ou anterior, ou se o usuário não e
     
     HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<\\ URL SIP \> \UCS
     
-    Se os contatos do usuário são armazenados no Exchange 2013, essa chave contém um valor de InUCSMode com um valor de 2165.
+    Se os contatos do usuário são armazenados no Exchange 2013, essa chave contém um valor inUCSMode com um valor de 2165.
     
-- Execute o cmdlet **Test-CsUnifiedContactStore**. Na linha de comando do Shell de Gerenciamento do Skype for Business Server, digite:
+- Execute o cmdlet **Test-CsUnifiedContactStore**. Na linha de comando Skype for Business Server Shell de Gerenciamento, digite:
     
   ```powershell
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
@@ -124,23 +124,23 @@ Se o usuário faz logon com um cliente Lync ou anterior, ou se o usuário não e
     
 ## <a name="roll-back-migrated-users"></a>Reverter usuários migrados
 
-Se você precisar reverter o recurso de armazenamento unificado de contatos, reverter os contatos somente se você mover o usuário de volta para o Exchange 2010 ou o Lync Server 2010. Para reverter, desabilite a política do usuário e execute o cmdlet **Invoke-CsUcsRollback**. Apenas executar o **Invoke-CsUcsRollback** não é suficiente para garantir uma reversão permanente, porque a migração do repositório de contato unificado será iniciada novamente se a política não estiver desabilitada. Por exemplo, se um usuário for reacionado porque o Exchange 2013 é reacionado para o Exchange 2010 e, em seguida, a caixa de correio do usuário é movida para o Exchange 2013, a migração do armazenamento unificado de contatos será iniciada novamente sete dias após a reação, desde que o armazenamento unificado de contatos ainda esteja habilitado para o usuário na política de serviços de usuário.
+Se você precisar reverter o recurso de armazenamento unificado de contatos, reverter os contatos somente se você mover o usuário de volta para o Exchange 2010 ou Lync Server 2010. Para reverter, desabilite a política do usuário e execute o cmdlet **Invoke-CsUcsRollback**. Apenas executar o **Invoke-CsUcsRollback** não é suficiente para garantir uma reversão permanente, porque a migração do repositório de contato unificado será iniciada novamente se a política não estiver desabilitada. Por exemplo, se um usuário for reacionado porque o Exchange 2013 é reacionado para o Exchange 2010 e, em seguida, a caixa de correio do usuário é movida para o Exchange 2013, a migração do armazenamento de contatos unificado será iniciada novamente sete dias após a reação, desde que o armazenamento unificado de contatos ainda esteja habilitado para o usuário na política de serviços de usuário.
   
-O cmdlet **Move-CsUser** automaticamente faz o armazenamento de contatos do usuário do Exchange 2013 para o Skype for Business Server nas seguintes situações:
+O cmdlet **Move-CsUser** rola automaticamente o armazenamento de contatos do usuário de Exchange 2013 para Skype for Business Server nas seguintes situações:
   
-- Quando os usuários são movidos do Skype for Business Server para o Microsoft Lync Server 2013 ou Lync Server 2010. 
+- Quando os usuários são movidos do Skype for Business Server para o Microsoft Lync Server 2013 ou o Lync Server 2010. 
     
 - Quando os usuários são migrados entre locais, como quando um usuário é movido do Skype for Business Online para o Skype for Business Server local ou vice-versa.
     
 Importar os dados do repositório de contato unificado de um banco de dados de backup pode causar com que os dados do repositório de contato unificado e os dados do usuário sejam corrompidos se o modo do repositório de contato unificado mudar entre a exportação e a importação. Por exemplo:
   
-- Se você exportar listas de contatos antes que os contatos dos usuários sejam migrados para o Exchange 2013 e, depois da migração, importar os mesmos dados, os dados do armazenamento unificado de contatos e as listas de contatos serão corrompidos.
+- Se você exportar listas de contatos antes que os contatos dos usuários sejam migrados para o Exchange 2013 e, depois da migração, importar os mesmos dados, os dados do armazenamento unificado de dados e listas de contatos serão corrompidos.
     
-- Se você exportar dados do usuário depois de migrar usuários para o Exchange 2013, reverter a migração e, por algum motivo, importar os dados após a migração, os dados do armazenamento unificado de contatos e as listas de contatos serão corrompidos.
+- Se você exportar dados do usuário depois de migrar usuários para o Exchange 2013, reverter a migração e, por algum motivo, importar os dados após a migração, os dados de armazenamento unificado e listas de contatos serão corrompidos.
     
 > [!IMPORTANT]
-> Antes de mover uma caixa de correio do Exchange do Exchange 2013 para o Exchange 2010, o administrador do Exchange deve certificar-se de que o administrador do Skype for Business Server tenha voltado primeiro os contatos de usuário do Skype for Business Server do Exchange 2013 para o Skype for Business Server. Para reverter os contatos do armazenamento unificado de contatos para o Skype for Business Server, consulte o procedimento "Para reverter os contatos do armazenamento unificado de contatos do Exchange 2013 para o Skype for Business Server", posteriormente nesta seção. 
+> Antes de mover uma caixa de correio do Exchange do Exchange 2013 para o Exchange 2010, o administrador do Exchange deve certificar-se de que o administrador do Skype for Business Server tenha rolado primeiro os contatos do usuário do Skype for Business Server do Exchange 2013 para Skype for Business Server. Para reverter os contatos unificados do armazenamento de contatos para Skype for Business Server, consulte o procedimento "Para reverter contatos unificados do armazenamento de contatos do Exchange 2013 para Skype for Business Server", mais adiante nesta seção. 
   
- **Como reverter contatos do usuário:** Se você usar o cmdlet **Move-CsUser** para mover usuários entre o Skype for Business Server 2015 e o Lync Server 2010, poderá pular essas etapas porque o cmdlet **Move-CsUser** automaticamente retorna o armazenamento unificado de contatos ao mover usuários do Skype for Business Server 2015 para o Lync Server 2010. **Move-CsUser** não desabilita a política de armazenamento unificado de contatos, portanto, a migração para o armazenamento unificado de contatos será recursada se o usuário for movido de volta para o Skype for Business Server 2015.
+ **Como reverter contatos do usuário:** Se você usar o cmdlet **Move-CsUser** para mover usuários entre o Skype for Business Server 2015 e o Lync Server 2010, poderá ignorar essas etapas porque o cmdlet **Move-CsUser** reajusta automaticamente o armazenamento unificado de contatos quando ele move os usuários do Skype for Business Server 2015 para o Lync Server 2010. **O Move-CsUser** não desabilita a política de armazenamento unificado de contatos, portanto, a migração para o armazenamento unificado de contatos será recorrência se o usuário for movido de volta para o Skype for Business Server 2015.
   
 

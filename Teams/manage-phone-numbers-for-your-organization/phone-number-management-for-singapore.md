@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone em Cingapura para Microsoft Teams.
-ms.openlocfilehash: 250e3bb0822b7587d276725517b85858d844b52e
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 5374cffd5141338b1b8744c784127761f8d9f0678935c8cb3d52193b60acf658
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281564"
 ---
 # <a name="phone-number-management-for-singapore"></a>Telefone gerenciamento de números para Cingapura
 

@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Este tópico contém as etapas recomendadas de implantação do cliente que você deve seguir antes de migrar para o Skype for Business Server 2019. Essas alterações de configuração devem ser feitas no Lync Server 2013 ou no Skype for Business Server 2015.
-ms.openlocfilehash: 46a193e3896b6e7ad2dddd405eda413a2544fe3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Este tópico contém as etapas recomendadas de implantação do cliente que você deve seguir antes de migrar para Skype for Business Server 2019. Essas alterações de configuração devem ser feitas no Lync Server 2013 ou Skype for Business Server 2015.
+ms.openlocfilehash: 2eae39832a88e0dcbc9b56308718478ab801d5efc262cbfe78e5be756e08970b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281374"
 ---
 # <a name="configure-clients-for-migration"></a>Configurar os clientes para migração
 
-Este tópico contém as etapas recomendadas de implantação do cliente que você deve seguir antes de migrar para o Skype for Business Server 2019. Essas alterações de configuração devem ser feitas no Lync Server 2013 ou no Skype for Business Server 2015 (a versão de onde você está **migrando).**
+Este tópico contém as etapas recomendadas de implantação do cliente que você deve seguir antes de migrar para Skype for Business Server 2019. Essas alterações de configuração devem ser feitas no Lync Server 2013 ou Skype for Business Server 2015 (a versão de onde você está **migrando).**
   
 ### <a name="to-configure-clients-before-migration"></a>Para configurar clientes antes da migração
 

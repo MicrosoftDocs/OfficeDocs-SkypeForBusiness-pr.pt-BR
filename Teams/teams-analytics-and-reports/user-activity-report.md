@@ -17,12 +17,12 @@ description: Saiba como usar o relatório Teams atividade do usuário no centro 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d2d261358fc5c373304c46b48684d1f116fc06
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 0c30de61ab01c10854fe54e07b92457926a221a0418bbe92a7b024bda1909404
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282524"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 

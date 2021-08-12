@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: aeb81aef1b2dba23dc3daaa6ec8a788c0b232529
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c3f6bcf9c60b8126416bd330eeb67b2a58cff3d9cf2ce8f905f429936f011a05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122515"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309450"
 ---
 # <a name="unassigned-phone-number"></a>Número de Telefone Não Atribuído
 
@@ -53,10 +53,10 @@ A lista a seguir descreve os comandos na página.
 
 - **Editar** Abre o intervalo de números não atribuídos selecionado para edição, seleciona todos os intervalos de números não atribuídos na lista ou exclui o intervalo de números não atribuídos selecionado.
 
-- **Mover para cima** Move o intervalo de números não atribuídos selecionado para cima na lista para que o Skype for Business Server o encontre mais cedo e aplique a ação especificada antes de aplicar ações especificadas para outros intervalos na lista.
+- **Mover para cima** Move o intervalo de números não atribuídos selecionado para cima na lista para que Skype for Business Server encontre-o mais cedo e aplique a ação especificada antes de aplicar ações especificadas para outros intervalos na lista.
 
     > [!NOTE]
-    > O Skype for Business Server pesquisa a tabela de números não atribuídos de cima para baixo e usa o primeiro intervalo que corresponde ao número não atribuído. Por exemplo, se você tiver um intervalo que especifica uma ação de última instância, certifique-se de que o intervalo esteja no final da lista.
+    > Skype for Business Server pesquisa a tabela de números não atribuídos de cima para baixo e usa o primeiro intervalo que corresponde ao número não atribuído. Por exemplo, se você tiver um intervalo que especifica uma ação de última instância, certifique-se de que o intervalo esteja no final da lista.
 
 - **Mover para baixo** Move o intervalo de números não atribuídos selecionado para baixo na lista.
 
@@ -81,4 +81,4 @@ A lista a seguir descreve os campos na página.
 
 - **Comunicado** O comunicado que será tocado para esse intervalo de números não atribuídos.
 
-Para obter detalhes sobre recursos e recursos do Comunicado, consulte [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) na documentação Operações.
+Para obter detalhes sobre recursos e recursos do Comunicado, consulte [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação Planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) na documentação Operações.

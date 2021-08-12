@@ -1,5 +1,5 @@
 ---
-title: Considerações sobre a migração do Sistema de Sala do Skype
+title: Skype Considerações sobre a migração do Sistema de Sala
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,54 +11,54 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: Leia este tópico para saber mais sobre como implantar o Sistema de Sala do Skype em um ambiente que tem várias versões do Skype for Business Server e do Lync Server.
-ms.openlocfilehash: 30b2a4733ea2e2e42b8a879914a2e0e3c4903c8e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Leia este tópico para saber como implantar o Skype Room System em um ambiente que tenha várias versões do Skype for Business Server e do Lync Server.
+ms.openlocfilehash: bcbb8a14cf1d998c68f83875bce25935d73e92b7a755cd370526a65aef202e36
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805781"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310040"
 ---
-# <a name="skype-room-system-migration-considerations"></a>Considerações sobre a migração do Sistema de Sala do Skype
+# <a name="skype-room-system-migration-considerations"></a>Skype Considerações sobre a migração do Sistema de Sala
  
-Leia este tópico para saber mais sobre como implantar o Sistema de Sala do Skype em um ambiente que tem várias versões do Skype for Business Server e do Lync Server.
+Leia este tópico para saber como implantar o Skype Room System em um ambiente que tenha várias versões do Skype for Business Server e do Lync Server.
   
 ## <a name="migration-considerations"></a>Considerações de migração
 
-Esta seção fornece orientações se você estiver implantando o Sistema de Sala do Skype em um ambiente de vários pools que inclui versões diferentes do Skype for Business Server ou do Lync Server. 
+Esta seção fornece orientações se você estiver implantando o Skype Room System em um ambiente de vários pools que inclui diferentes versões do Skype for Business Server ou do Lync Server. 
   
-O componente Replicador de usuários (UR) no Lync Server obtém objetos de usuário do Active Directory e os coloca no banco de dados do SQL Server back-end do Lync Server. Somente o UR no Lync Server 2013 está ciente dos objetos do Sistema de Sala do Skype. O UR em versões anteriores do Lync Server e do Office Communications Server não detecta os atributos do Active Directory que designam objetos LRS e, portanto, não tinha conhecimento deles. 
+O componente replicador de usuário (UR) no Lync Server obtém objetos do usuário do Active Directory e os coloca no banco de dados de back-end do Lync Server SQL Server. Somente a UR no Lync Server 2013 está ciente Skype objetos do Sistema de Sala. A UR nas versões anteriores do Lync Server e do Office Communications Server não detecta os atributos do Active Directory que designam objetos LRS e, portanto, não estava ciente deles. 
   
-Se uma conta do Sistema de Sala do Skype tentar entrar no Lync e realizar a descoberta automática com base no registro SRV ou na pesquisa do registro DNS A, e se essas contas apontarem para uma versão anterior do Lync Server ou do Office Communications Server, o LRS receberá uma resposta 404 Não Encontrado do pool herdado. O pool herdado não poderá redirecionar o Sistema de Sala do Skype para seu pool Lync Server 2013. 
+Se uma conta do sistema de sala Skype tentar entrar no Lync e executar a descoberta automática com base no registro SRV ou no registro DNS A, e se essas contas apontarem para uma versão anterior do Lync Server ou do Office Communications Server, o LRS receberá uma resposta 404 Not Found do pool herdado. O pool herdado não poderá redirecionar o Skype Room System para seu pool lync Server 2013. 
   
 Você pode resolver esse problema com as seguintes opções: 
   
 - Aponte seu registro SRV de descoberta automática (_sipinternaltls._tcp.contoso.com) para o pool do Lync Server 2013.
     
-- Se a primeira opção não for possível, você deverá configurar manualmente o LRS e fornecer o endereço do pool do Lync Server 2013 configurando-o diretamente no aplicativo de console do Sistema de Sala do Skype. 
+- Se a primeira opção não for possível, você deverá configurar manualmente o LRS e fornecer o endereço do pool do Lync Server 2013 configurando-o diretamente no aplicativo de console do sistema de sala Skype. 
     
-- Se o Sistema de Sala do Skype for implantado fora da rede corporativa e um Servidor de Borda do Lync tiver sido implantado e configurado para apontar para um pool ou diretor herdado, um site secundário do Servidor de Borda será necessário, que aponta para o pool do Lync Server 2013. Consulte a documentação de implantação do Servidor de Borda para obter mais informações sobre como implantar um Servidor de Borda secundário. 
+- Se Skype Room System for implantado fora da rede corporativa e um Servidor de Borda do Lync tiver sido implantado e configurado para apontar para um pool ou diretor herdado, será necessário um site secundário do Servidor de Borda, que aponta para o pool do Lync Server 2013. Consulte a documentação de implantação do Servidor de Borda para obter mais informações sobre como implantar um Servidor de Borda secundário. 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Interoperabilidade do sistema de sala do Skype com um pool do Lync Server 2010
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype Interoperabilidade do Sistema de Sala com um Pool do Lync Server 2010
 
-Durante a migração, se um usuário que está em um pool do Lync Server 2010 agendar uma reunião e convidar a conta do Sistema de Sala do Skype, o cliente do Sistema de Sala do Skype terá funcionalidade limitada ao participar da reunião. 
+Durante a migração, se um usuário que está em um pool do Lync Server 2010 agendar uma reunião e convidar a conta do sistema de sala do Skype, o cliente do sistema de sala do Skype terá funcionalidade limitada durante a reunião. 
   
-Quando o cliente do Sistema de Sala do Skype participa de uma chamada agendada em conferência organizada por um usuário no Lync Server 2010, o Sistema de Sala do Skype tem as seguintes limitações de reunião: 
+Quando o cliente Skype Room System ins junta uma chamada de conferência agendada que foi organizada por um usuário no Lync Server 2010, o Skype Room System tem as seguintes limitações na reunião: 
   
-- O Sistema de Sala do Skype não pode mostrar a galeria de vídeos com várias exibições.
+- Skype O Sistema de Sala não pode mostrar a galeria de vídeo com vários visualizações.
     
-- Se o cliente do Sistema de Sala do Skype for o apresentador, ele não poderá aplicar bloqueio de vídeo aos participantes.
+- Se o Skype do sistema de sala for o apresentador, ele não poderá aplicar o bloqueio de vídeo aos participantes.
     
-- O Sistema de Sala do Skype não pode mostrar a resolução de vídeo de 1080p (entrada ou saída), mesmo se a política de conferência do Lync Server 2013 permitir, devido ao seguinte: 
+- Skype O Sistema de Sala não pode mostrar a resolução de vídeo 1080p (entrada ou saída), mesmo se a política de conferência do Lync Server 2013 permitir isso, devido ao seguinte: 
     
-  - O Lync Server 2010 não dá suporte à resolução de 1080p.
+  - O Lync Server 2010 não dá suporte à resolução 1080p.
     
-  - O Sistema de Sala do Skype é sempre limitado pela política de conferência do organizador para resolução de vídeo. Portanto, mesmo que o pool do Lync 2010 dê suporte à resolução de 720p, o Sistema de Sala do Skype não poderá aproveitar a resolução de 720p, desde que a política do organizador não dê suporte a ele. 
+  - Skype O Sistema de Sala é sempre limitado pela política de conferência do organizador para resolução de vídeo. Portanto, mesmo que o pool do Lync 2010 dê suporte à resolução 720p, o Skype Room System não poderá tirar proveito da resolução 720p, desde que a política do organizador não a suporte. 
     
-- Os clientes do Lync 2013 detectam a presença do LRS na sala de reunião e fazem o mudo automático para evitar eco na sala de reunião física. Esse recurso não funciona em reuniões hospedadas no Lync Server 2010.
+- Os clientes do Lync 2013 detectam a presença de LRS na sala de reunião e fazem o mudo automático para evitar eco na sala de reunião física. Esse recurso não funciona em reuniões hospedadas no Lync Server 2010.
     
 - Há limitações no desempenho de compartilhamento de área de trabalho para reuniões hospedadas no Lync Server 2010.
     
-- Os usuários não poderão participar de reuniões privadas (restritas) hospedadas no Lync 2010 com o Sistema de Sala do Skype.
+- Os usuários não poderão participar de reuniões privadas (restritas) hospedadas no Lync 2010 com o Skype Room System.
     
 

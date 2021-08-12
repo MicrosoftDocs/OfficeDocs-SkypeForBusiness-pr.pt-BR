@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 02afbcc062501a14f0d5d9f3ed905b88b4060992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f384baff6aa12b241e69e0214f5aa9561e5c1df68970c949d9448a344b94cb7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282554"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams
 
@@ -44,7 +44,7 @@ Baixe estas ferramentas para usar durante o planejamento, implantação e adoç�
 
    Sua jornada para Teams é muito parecido com a experiência de nossos clientes corporativos. À Teams se torna geralmente disponível para seus locatários, recomendamos que você comece com nosso Plano para Microsoft 365 [Governamental -](plan-for-government-gcc.md) artigo GCC implantações do GCC e Guia de início rápido do [administrador.](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Nossa [visão geral de segurança e conformidade](security-compliance-overview.md) ajudará você a ter confiança sobre Teams em seu ambiente.
 
-- [Teams educação - Início rápido para administradores](./teams-quick-start-edu.yml)
+- [Teams para Educação - Início rápido para administradores](./teams-quick-start-edu.yml)
 
     Use este tutorial para passar por uma Teams para sua organização educacional.
 

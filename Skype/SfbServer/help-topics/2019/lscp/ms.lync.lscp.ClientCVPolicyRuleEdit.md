@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Uma política de versão de cliente é composta por um conjunto de regras de versão de cliente. Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente.
-ms.openlocfilehash: a461dad500f0c7d3095ef56483a6b592cec6c20d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f30ddcc69ad8ebc4374bfed67b84de0317c584192b58ccb09bf1842eb311bd5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282164"
 ---
 # <a name="client-version-rule"></a>Regra da Versão de Cliente
 
@@ -44,7 +44,7 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 |:-----|:-----|
 |Lync 2013, Lync 2010, Office Communicator  <br/> |OC  <br/> |
 |Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
-|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
+|Lync Telefone Edition, Office Communicator Telefone  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition Platform  <br/> |CPE  <br/> |
 |Unified Communications Platform  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
@@ -87,16 +87,16 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
   - **Permitir** Permite que o cliente faça logoff.
 
-  - **Permitir e atualizar** Permite que o cliente faça logoff e receba atualizações do Windows Server Update Service ou do Microsoft Update. Esta ação está disponível apenas quando o agente do usuário **OC** é selecionado.
+  - **Permitir e atualizar** Permite que o cliente faça logoff e receba atualizações Windows Server Update Service ou Microsoft Update. Esta ação está disponível apenas quando o agente do usuário **OC** é selecionado.
 
     > [!NOTE]
-    > Selecionar essa ação faz com que uma notificação apareça na próxima vez que os usuários entrarem no Skype for Business. A notificação declara que uma atualização está disponível, mesmo se as atualizações ainda não tiverem sido lançadas pelo Windows Server Update Service ou Microsoft Update. Para evitar confusão, você deve escolher esta ação apenas após as atualizações se tornarem disponíveis.
+    > Selecionar essa ação faz com que uma notificação apareça na próxima vez que os usuários entrarem Skype for Business. A notificação declara que uma atualização está disponível, mesmo se as atualizações ainda não tiverem sido lançadas pelo Windows Server Update Service ou Microsoft Update. Para evitar confusão, você deve escolher esta ação apenas após as atualizações se tornarem disponíveis.
 
   - **Permitir com URL** Permite que o cliente faça logoff e exibe uma mensagem sobre onde baixar outra versão do cliente. Especifique o URL no campo **URL**.
 
   - **Bloquear** Impede que o cliente entre em log.
 
-  - **Bloquear e atualizar** Impede o cliente de fazer logon e permite que o cliente receba atualizações do Windows Server Update Service ou do Microsoft Update. Essa ação estará disponível somente quando o agente usuário **OC** for selecionado.
+  - **Bloquear e atualizar** Impede o cliente de fazer logon e permite que o cliente receba atualizações do serviço de atualização do Windows Server Update ou do Microsoft Update. Essa ação estará disponível somente quando o agente usuário **OC** for selecionado.
 
   - **Bloquear com URL** Impede que o cliente faça logon e exibe uma mensagem sobre onde baixar outra versão do cliente. Especifique o URL no campo **URL**.
 

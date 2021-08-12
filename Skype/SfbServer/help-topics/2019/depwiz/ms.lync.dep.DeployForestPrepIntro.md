@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para começar a tarefa Preparar Floresta, clique em Avançar. A execução da tarefa Preparar Floresta cria configurações globais e grupos universais para uso pelo Skype for Business Server.
-ms.openlocfilehash: 2e4b2838d8a863c6c17a75b70395dffaec6bfe14
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para começar a tarefa Preparar Floresta, clique em Avançar. Executar a tarefa Preparar Floresta cria configurações globais e cria grupos universais para uso por Skype for Business Server.
+ms.openlocfilehash: 3e6466561fb873e9aaa2be38ee814c7b3063054396aee0e9ebef468462dbc4ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282194"
 ---
 # <a name="prepare-current-forrest-intro"></a>Preparar Floresta Atual (Introdução)
  
-Para começar a tarefa **Preparar Floresta**, clique em **Avançar**. A execução **da tarefa Preparar** Floresta cria configurações globais e grupos universais para uso pelo Skype for Business Server.
+Para começar a tarefa **Preparar Floresta**, clique em **Avançar**. A execução **da tarefa Preparar Floresta** cria configurações globais e cria grupos universais para uso por Skype for Business Server.
   
 

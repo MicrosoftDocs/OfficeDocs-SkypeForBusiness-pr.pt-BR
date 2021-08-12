@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Saiba como corrigir problemas para administradores e usuários de Skype for Business em Microsoft 365 e Office 365.
-ms.openlocfilehash: b64cd39cee9a9981c5a5d605953d1e11c5ba06f0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310100"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Solucionar problemas com o Skype for Business Online
 

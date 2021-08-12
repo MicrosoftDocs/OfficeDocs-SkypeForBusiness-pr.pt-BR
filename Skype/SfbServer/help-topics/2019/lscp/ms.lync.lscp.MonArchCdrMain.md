@@ -15,20 +15,20 @@ localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 38f98075cb81dfde17fbe2a80ec741e2a4b0a66c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 156359b8e59bef72d12268632cda71b979a08dbe2aa1d1fe4e8578daafaafad8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282054"
 ---
 # <a name="call-detail-recording"></a>Registro de Detalhes de Chamada
  
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
   
-- [Habilitar o registro de detalhes das chamadas no Skype for Business Server](../../../manage/health-and-monitoring/enable-cdr.md)
+- [Habilitar o registro de detalhes de chamada Skype for Business Server](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Especificar retenção de dados de CDR no Skype for Business Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [Especifique a retenção de dados cdr no Skype for Business Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 
