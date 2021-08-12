@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5514e550bb8ba259779f390b1a87d74dcb7e3e3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335862"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Criar suas primeiras equipes no Microsoft Teams
 
@@ -42,7 +42,7 @@ Dentro Microsoft Teams, a [](/microsoftteams/platform/concepts/tabs/tabs-overvie
 
 ![Captura de tela mostrando guias padrão e personalizadas](media/teams-adoption-tab-example.png)
 
-Em suas equipes iniciais, sugerimos fixar os itens a seguir para facilitar a referência em seus canais de equipe. Esses ativos são além de suas OneNote bloco de anotações. Se você estiver trabalhando com nossa equipe do FastTrack, eles o ajudarão na configuração dessas primeiras equipes. 
+Em suas equipes iniciais, sugerimos fixar os itens a seguir para facilitar a referência em seus canais de equipe. Esses ativos são além de suas OneNote bloco de anotações. Se você estiver trabalhando com nossa equipe FastTrack, eles o ajudarão na configuração dessas primeiras equipes. 
 
 |Nome da equipe/canal | Guia Fixado |
 |----------------- | ---------- |

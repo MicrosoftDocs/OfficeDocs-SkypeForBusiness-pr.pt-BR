@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: A tabela SessionCorrelation é uma tabela de suporte. Cada registro representa um CorrelationID usado para correlacionar várias sessões.
-ms.openlocfilehash: 36b617517f3642a2150c72369db858eee62a4a87
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2029d78a0a083bcf8817b3a819cd28e74824995d79575036ecafd85998bd5218
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314417"
 ---
 # <a name="sessioncorrelation-table"></a>Tabela SessionCorrelation
  
@@ -27,8 +27,8 @@ A tabela SessionCorrelation é uma tabela de suporte. Cada registro representa u
 |**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**Soma de verificação** <br/> |int  <br/> |||
-|**CorrelationKey** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica este Servidor de Conferência A/V.  <br/> |
-|**CorrelationID** <br/> |nvarchar(256)  <br/> |Exclusivo  <br/> |As sessões correlacionadas terão a mesma ID de correlação.  <br/> |
+|**CorrelationKey** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica esse Servidor de Conferência A/V.  <br/> |
+|**CorrelationID** <br/> |nvarchar(256)  <br/> |Unique  <br/> |As sessões correlacionadas terão a mesma ID de correlação.  <br/> |
 |**NextUpdateTS** <br/> |datetime  <br/> | <br/> |Apenas para uso interno.  <br/> |
    
 

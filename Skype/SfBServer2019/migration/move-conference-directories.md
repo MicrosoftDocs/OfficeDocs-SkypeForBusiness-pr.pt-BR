@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Antes de descompactar um pool, você deve executar o procedimento a seguir para cada diretório de conferência em seu pool herddo.
-ms.openlocfilehash: 8a25b955ae769a712750ff08325b3fa29538be8a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Antes de desmantelar um pool, você deve executar o procedimento a seguir para cada diretório de conferência em seu pool herdável.
+ms.openlocfilehash: 7e124a81b8aed561419e5965c930ad64988c122540df6660ae68006fe6af9a55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313849"
 ---
 # <a name="move-conference-directories"></a>Mover de diretórios de conferência
 
-Antes de descompactar um pool, você deve executar o procedimento a seguir para cada diretório de conferência em seu pool herddo.
+Antes de desmantelar um pool, você deve executar o procedimento a seguir para cada diretório de conferência em seu pool herdável.
   
-### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a>Para mover um diretório de conferência para o Skype for Business Server 2019
+### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a>Para mover um diretório de conferências para Skype for Business Server 2019
 
-1. Abra o Shell de Gerenciamento do Skype for Business Server.
+1. Abra o Shell Skype for Business Server Gerenciamento.
     
 2. Para obter a identidade dos diretórios de conferência em sua organização, execute o seguinte comando:
     
@@ -32,7 +32,7 @@ Antes de descompactar um pool, você deve executar o procedimento a seguir para 
    Get-CsConferenceDirectory
    ```
 
-    O comando anterior retorna todos os diretórios de conferência em sua organização. Por isso, talvez você queira limitar os resultados ao pool que está sendo desativado. Por exemplo, se você estiver descomissionando o pool com o nome de domínio totalmente qualificado (FQDN) pool01.contoso.net, use este comando para limitar os dados retornados aos diretórios de conferência desse pool:
+    O comando anterior retorna todos os diretórios de conferência em sua organização. Por isso, talvez você queira limitar os resultados ao pool que está sendo desativado. Por exemplo, se você estiver desativando o pool com o nome de domínio totalmente qualificado (FQDN) pool01.contoso.net, use este comando para limitar os dados retornados aos diretórios de conferência desse pool:
     
    ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
@@ -46,7 +46,7 @@ Antes de descompactar um pool, você deve executar o procedimento a seguir para 
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
-    Por exemplo, para mover o diretório de conferência 3, use este comando, especificando um pool do Skype for Business Server 2019 como TargetPool:
+    Por exemplo, para mover o diretório de conferência 3, use este comando, especificando um pool Skype for Business Server 2019 como TargetPool:
     
    ```PowerShell
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
@@ -58,7 +58,7 @@ Antes de descompactar um pool, você deve executar o procedimento a seguir para 
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-Baixe [a desinstalação](https://go.microsoft.com/fwlink/p/?linkId=246227) da versão herdada da Microsoft e a remoção de funções de servidor para obter instruções passo a passo abrangentes sobre como desinstalar pools herdados.
+Baixe [Desinstalando](https://go.microsoft.com/fwlink/p/?linkId=246227) o legado da Microsoft e removendo funções de servidor para obter instruções completas e passo a passo sobre a desativação de pools herdados.
   
 Ao mover diretórios de conferência, você pode encontrar o seguinte erro:
   
@@ -69,6 +69,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-Esse erro normalmente ocorre quando o Shell de Gerenciamento do Skype for Business Server exige um conjunto atualizado de permissões do Active Directory para concluir uma tarefa. Para resolver o problema, feche a instância atual do Shell de Gerenciamento, abra uma nova instância do shell e execute o comando outra vez para mover o diretório de conferência.
+Esse erro normalmente ocorre quando o Shell de Gerenciamento Skype for Business Server requer um conjunto atualizado de permissões do Active Directory para concluir uma tarefa. Para resolver o problema, feche a instância atual do Shell de Gerenciamento e abra uma nova instância do shell e execute o comando para mover o diretório de conferência.
   
 

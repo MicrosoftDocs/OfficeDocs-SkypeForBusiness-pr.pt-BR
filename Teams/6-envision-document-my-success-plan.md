@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512808"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314317"
 ---
 # <a name="document-my-success-plan"></a>Documentar meu plano de sucesso
 
@@ -108,7 +108,7 @@ A seguir, um exemplo de um plano de execução trimestral para a fase Envision d
 
 ## <a name="communications-and-governance-plan"></a>Plano de comunicação e governança
 
-Para manter os participantes do projeto atualizados com o andamento da implantação, você precisa estabelecer um plano de como as comunicações ocorrerão entre os principais membros da equipe do projeto e com os participantes para discutir questões relacionadas ao status do projeto, etapas importantes, bloqueadores e várias análises do projeto em relação aos KSIs estabelecidos , métricas operacionais e metas estratégicas.
+Para manter os participantes do projeto atualizados com o andamento da implantação, você precisa estabelecer um plano de como as comunicações ocorrerão entre os principais membros da equipe de projeto e com os participantes para discutir questões relacionadas ao status do projeto, etapas importantes, bloqueadores e várias avaliações do projeto em relação aos KSIs estabelecidos,  métricas operacionais e metas estratégicas.
 
 A seguir, um exemplo de um plano de comunicação e governança que você pode aproveitar em seu projeto de implementação de voz na nuvem.
 
@@ -133,7 +133,7 @@ A seguir, um exemplo de um plano de comunicação e governança que você pode a
 
 Um plano de sucesso é o resumo da documentação que você criou na fase Envision.
 
-O plano de sucesso fornece à equipe do projeto, que pode incluir o FastTrack ou um parceiro de implantação, informações suficientes para realizar as metas da sua organização com a implementação da Audioconferência ou Sistema de Telefonia com o serviço Plano de Chamada.
+O plano de sucesso fornece à equipe do projeto, que pode incluir FastTrack ou um parceiro de implantação, informações suficientes para realizar as metas da sua organização com a implementação da Audioconferência ou Sistema de Telefonia com o serviço Plano de Chamada.
 
 Em geral, um plano de sucesso contém as seções principais a seguir, muitas nas quais você terá trabalhado durante a fase Envision:
 

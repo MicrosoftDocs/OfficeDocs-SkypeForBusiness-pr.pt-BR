@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Cada Dispositivo de FilialVivível (SBA) está associado a um pool de Front-End que serve como um registrador de backup para o SBA. Quando o pool de Front-End é migrado para o Skype for Business Server 2019, o SBA deve ser desassociado do pool de Front-End enquanto o pool é atualizado, Depois que o pool tiver sido migrado para o Skype for Business Server 2019, o SBA poderá ser reassociado com o pool de Front-End atualizado. Isso envolve excluir o SBA da topologia herdada no Construtor de Topologias e adicionar o SBA à topologia do Skype for Business Server 2019. Os usuários que estão no SBA herdado devem primeiro ser movidos para outro pool de Front-End antes de remover o SBA da topologia. Depois que o SBA for adicionado à topologia do Skype for Business Server 2019, esses usuários poderão ser movidos de volta para o SBA. Essas etapas estão resumidas abaixo:'
-ms.openlocfilehash: e56bae1631a315b6f42042fb6a7bedd4f144a1b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Cada Dispositivo de FilialVivível (SBA) está associado a um pool de Front-End que serve como um registrador de backup para o SBA. Quando o pool de Front-End é migrado para o Skype for Business Server 2019, o SBA deve ser desassociado do pool de Front-End enquanto o pool é atualizado, Depois que o pool for migrado para o Skype for Business Server 2019, o SBA poderá ser reassociado com o pool de Front-End atualizado. Isso envolve excluir o SBA da topologia herdda no Construtor de Topologias e adicionar o SBA à topologia Skype for Business Server 2019. Os usuários que estão no SBA herdado devem primeiro ser movidos para outro pool de Front-End antes de remover o SBA da topologia. Depois que o SBA for adicionado à topologia Skype for Business Server 2019, esses usuários poderão ser movidos de volta para o SBA. Essas etapas estão resumidas abaixo:'
+ms.openlocfilehash: 4977868c45b274adea514d84e251f682da02cc8ee486a5a182d984ee652f3ae2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313869"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar um aparelho de filial persistente
 
-Cada Dispositivo de FilialVivível (SBA) está associado a um pool de Front-End que serve como um registrador de backup para o SBA. Quando o pool de Front-End é migrado para o Skype for Business Server 2019, o SBA deve ser desassociado do pool de Front-End enquanto o pool é atualizado. Depois que o pool for migrado para o Skype for Business Server 2019, o SBA poderá ser reassociado ao pool de Front-End atualizado. Isso envolve excluir o SBA da topologia herdada no Construtor de Topologias e adicionar o SBA à topologia do Skype for Business Server 2019. Os usuários que estão no SBA herdado devem primeiro ser movidos para outro pool de Front-End antes de remover o SBA da topologia. Depois que o SBA for adicionado à topologia do Skype for Business Server 2019, esses usuários poderão ser movidos de volta para o SBA. Essas etapas estão resumidas abaixo:
+Cada Dispositivo de FilialVivível (SBA) está associado a um pool de Front-End que serve como um registrador de backup para o SBA. Quando o pool de Front-End é migrado para o Skype for Business Server 2019, o SBA deve ser desassociado do pool de Front-End enquanto o pool é atualizado. Depois que o pool for migrado para o Skype for Business Server 2019, o SBA poderá ser reassociado ao pool de Front-End atualizado. Isso envolve excluir o SBA da topologia herdda no Construtor de Topologias e adicionar o SBA à topologia Skype for Business Server 2019. Os usuários que estão no SBA herdado devem primeiro ser movidos para outro pool de Front-End antes de remover o SBA da topologia. Depois que o SBA for adicionado à topologia Skype for Business Server 2019, esses usuários poderão ser movidos de volta para o SBA. Essas etapas estão resumidas abaixo:
   
 1. Mover usuários de filial que estão no SBA herdado para outro pool de Front-End.
     
 2. Remova o SBA da topologia herdado para desconectar o pool de Front-End existente como registrador de backup.
     
-3. Adicione o SBA à topologia do Skype for Business Server 2019 e configure esse novo pool de Front-End como registrador de backup. 
+3. Adicione o SBA à topologia Skype for Business Server 2019 e configure esse novo pool de Front-End como registrador de backup. 
     
-4. Mova os usuários de filial para o novo SBA do Skype for Business Server 2019.
+4. Mova os usuários de filial para o novo Skype for Business Server SBA 2019.
     
 ### <a name="add-legacy-sba-branch-site-to-your-topology"></a>Adicionar site de filial SBA herddo à sua topologia
 
@@ -52,7 +52,7 @@ Cada Dispositivo de FilialVivível (SBA) está associado a um pool de Front-End 
     
 7. Clique **em** Próximo e, em seguida, se você estiver usando um Aparelho de Filial Ou Servidor Desavivável neste site, certifique-se de limpar a caixa de seleção **Abrir** o Novo Assistente De Sobrevivência quando esse assistente fechar. Clique em **Concluir**.
     
-8. Para associar o SBA herdados ao pool de Front-End do Skype for Business Server 2019:
+8. Para associar o SBA herdados ao pool de front-end Skype for Business Server 2019:
     
     1. Expanda o local ramificado que foi criado. 
     

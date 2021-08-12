@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
-description: O Stop-CcLogging cmdlet para de gerar o log de chamadas de entrada e saída para um dispositivo do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: 8a012e9b1a94c3698cc61da4326eb0ccbb27bca2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O Stop-CcLogging cmdlet deixa de gerar o log de chamadas de entrada e saída para um Skype for Business Cloud Connector Edition de entrada.
+ms.openlocfilehash: 7813acf9867829cadaa26d84a0e8a6c33f825ef45b9fca781840a44f94574930
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347556"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
-O Stop-CcLogging cmdlet para de gerar o log de chamadas de entrada e saída para um dispositivo do Skype for Business Cloud Connector Edition.
+O Stop-CcLogging cmdlet deixa de gerar o log de chamadas de entrada e saída para um Skype for Business Cloud Connector Edition de entrada.
   
 ```powershell
 Stop-CcLogging [-RemoveCache]
@@ -33,7 +33,7 @@ Stop-CcLogging [-RemoveCache]
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir para de gerar o log de chamadas de entrada e saída: 
+O exemplo a seguir deixa de gerar o log de chamadas de entrada e saída: 
   
 ```powershell
 Stop-CcLogging
@@ -41,7 +41,7 @@ Stop-CcLogging
 
 ### <a name="example-2"></a>Exemplo 2
 
-O próximo exemplo para de gerar o log de chamadas de entrada e saída e limpa os arquivos de cache:
+O próximo exemplo deixa de gerar o log de chamadas de entrada e saída e limpa os arquivos de cache:
   
 ```powershell
 Stop-CcLogging -RemoveCache
@@ -50,7 +50,7 @@ Stop-CcLogging -RemoveCache
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O Stop-CcLogging cmdlet interrompe o registro em log de chamadas de entrada e saída em um dispositivo. Por padrão, o registro em log será automaticamente parar após quatro horas.
+O Stop-CcLogging cmdlet interrompe o registro em log de chamadas de entrada e saída em um dispositivo. Por padrão, o registro em log será automaticamente parado após quatro horas.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>
@@ -62,12 +62,12 @@ O Stop-CcLogging cmdlet interrompe o registro em log de chamadas de entrada e sa
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O Stop-CcLogging cmdlet não aceita entrada em pipeline.
+Nenhum. O Stop-CcLogging cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

@@ -1,5 +1,5 @@
 ---
-title: Configurar o Servidor de Interop de Vídeo no Skype for Business Server
+title: Configurar o Servidor de Interop de Vídeo Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: 'Resumo: Configure a função servidor de interop de vídeo (VIS) no Skype for Business Server.'
-ms.openlocfilehash: 8d5da36d07583cc1c20407d842b94531062947ba
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: Configure a função Vis (Servidor de Interop de Vídeo) no Skype for Business Server.'
+ms.openlocfilehash: 8f32be864e950d100faa0e3b5f5065d12018c5752610f5c1684aa2c73c84c73b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313679"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar o Servidor de Interop de Vídeo no Skype for Business Server
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar o Servidor de Interop de Vídeo Skype for Business Server
  
-**Resumo:** Configure a função Vis (Servidor de Interop de Vídeo) no Skype for Business Server.
+**Resumo:** Configure a função VIS (Video Interop Server) no Skype for Business Server.
   
  Configure as configurações que o VIS associará aos troncos de vídeo usando Windows PowerShell. Uma configuração de tronco de vídeo com escopo global é criada depois que o serviço VIS é instalado. Essa configuração de tronco de vídeo é aplicada pelo VIS a todos os troncos que não têm configuração de tronco de vídeo com um escopo mais específico. Observe que a configuração do tronco de vídeo é uma coleção de configurações aplicáveis aos troncos de vídeo.
   
@@ -30,7 +30,7 @@ ms.locfileid: "51120300"
 
 Use os comandos Windows PowerShell a seguir para especificar a configuração do tronco de vídeo e o plano de discagem a serem associados aos troncos recém-definidos definidos no Documento de Topologia entre o VIS e todos os Gateways de Vídeo. Todas essas configurações podem ser definidas nos níveis Global, Site ou Service (Video Gateway). 
   
-Um plano de discagem com escopo global é criado por implantação do Skype for Business Server. Esse plano de discagem é aplicado pelo VIS a todos os troncos que não têm nenhum plano de discagem com escopo mais específico. 
+Um plano de discagem com escopo global é criado por Skype for Business Server implantação. Esse plano de discagem é aplicado pelo VIS a todos os troncos que não têm nenhum plano de discagem com escopo mais específico. 
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Configurar o VIS usando Windows PowerShell
 
@@ -74,7 +74,7 @@ O **comando Remove-CsVoiceNormalizationRule** é necessário para substituir uma
 Para uma chamada de tronco SIP de vídeo de um Gateway de Vídeo cujo URI de solicitação contém um número não E.164, o VIS lerá o nome do plano de discagem associado ao tronco associado e incluirá o nome do plano de discagem na parte de contexto de telefone do URI de solicitação no Convite que o VIS envia para o Front-End. Em seguida, o Aplicativo de Tradução no Front-End extrai e aplica as regras de normalização associadas ao plano de discagem ao URI de solicitação.
 ## <a name="trunk-configuration-options"></a>Opções de configuração de tronco
 
-Os Windows PowerShell cmdlets para configuração de tronco de vídeo mencionados anteriormente eram novos para o Skype for Business Server 2015. As configurações associadas à configuração do tronco de vídeo exigem uma breve explicação.
+Os Windows PowerShell cmdlets de configuração de tronco de vídeo mencionados anteriormente eram novos para Skype for Business Server 2015. As configurações associadas à configuração do tronco de vídeo exigem uma breve explicação.
   
  **GatewaySendsRtcpForActiveCalls** Este parâmetro determina se os pacotes RTCP são enviados do VTC para o VIS para chamadas ativas. Nesse contexto, uma chamada ativa é uma chamada na qual a mídia pode partir em pelo menos uma direção. Se GatewaySendsRtcpForActiveCalls estiver definido como True, o VIS poderá encerrar uma chamada se não receber pacotes RTCP por um período superior a 30 segundos. O padrão é **True**.
   
@@ -88,4 +88,4 @@ Os Windows PowerShell cmdlets para configuração de tronco de vídeo mencionado
   
 ## <a name="see-also"></a>Confira também
 
-[Configurar o CUCM para interoperação com o Skype for Business Server](configure-cucm-for-interoperation.md)
+[Configurar o CUCM para Interoperação com Skype for Business Server](configure-cucm-for-interoperation.md)

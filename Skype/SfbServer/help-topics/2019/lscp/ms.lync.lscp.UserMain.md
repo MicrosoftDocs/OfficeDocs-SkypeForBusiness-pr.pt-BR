@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
-description: Você pode usar os resultados de uma consulta de pesquisa para configurar usuários para o Skype for Business Server. É possível pesquisar por usuários por nome de exibição, nome, sobrenome, nome de conta SAM (Gerenciador de contas de segurança), endereço SIP ou URI (Uniform Resource Identifier) de linha. Você também pode pesquisar usuários usando o Painel de Controle do Lync Server ou o snap-in Usuários e Computadores do Active Directory.
-ms.openlocfilehash: ff98ed04ce4d411c118e9b0b497a2118ba38e17e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Você pode usar os resultados de uma consulta de pesquisa para configurar usuários para Skype for Business Server. É possível pesquisar por usuários por nome de exibição, nome, sobrenome, nome de conta SAM (Gerenciador de contas de segurança), endereço SIP ou URI (Uniform Resource Identifier) de linha. Você também pode pesquisar usuários usando o Painel de Controle do Lync Server ou o snap-in Usuários e Computadores do Active Directory.
+ms.openlocfilehash: 963eec6e1db213a86c945abf4024fa188d5fd7f8aecf901c1ec944ee5892b029
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120090"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324350"
 ---
 # <a name="control-panel---updated-user-search"></a>Painel de Controle - atualizado: Pesquisa de Usuário
 
-Você pode usar os resultados de uma consulta de pesquisa para configurar usuários para o Skype for Business Server. É possível pesquisar por usuários por nome de exibição, nome, sobrenome, nome de conta SAM (Gerenciador de contas de segurança), endereço SIP ou URI (Uniform Resource Identifier) de linha. Você também pode pesquisar usuários usando o Painel de Controle do Lync Server ou o snap-in Usuários e Computadores do Active Directory.
+Você pode usar os resultados de uma consulta de pesquisa para configurar usuários para Skype for Business Server. É possível pesquisar por usuários por nome de exibição, nome, sobrenome, nome de conta SAM (Gerenciador de contas de segurança), endereço SIP ou URI (Uniform Resource Identifier) de linha. Você também pode pesquisar usuários usando o Painel de Controle do Lync Server ou o snap-in Usuários e Computadores do Active Directory.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -40,7 +40,7 @@ Você pode executar as seguintes tarefas na página Painel de Controle de **Pesq
 
 - [Atribuir políticas aos usuários](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
-- [Habilitar usuários para Enterprise Voice no Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Habilitar usuários para Enterprise Voice em Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [Configurar federação, acesso de usuário remoto e conectividade de IM pública para usuários](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -76,7 +76,7 @@ Adicione outro texto descritivo, conforme o apropriado.
 
 ### <a name="search-results-menus"></a>Menus de resultados da pesquisa
 
-- **Habilitar usuários** Clique para abrir a caixa de diálogo Usuários: Novo Usuário do [Lync Server,](ms.lync.lscp.UserNew.md) onde você pode adicionar um novo usuário ao Skype for Business Server.
+- **Habilitar usuários** Clique para abrir a caixa de diálogo Usuários: Novo Usuário do [Lync Server,](ms.lync.lscp.UserNew.md) onde você pode adicionar um novo usuário Skype for Business Server.
 
     Para adicionar um novo contato, clique na seta para baixo e selecione **Habilitar contatos** para abrir a caixa de diálogo [Users: New Contact Objects](ms.lync.lscp.UserNewContact.md).
 
@@ -86,7 +86,7 @@ Adicione outro texto descritivo, conforme o apropriado.
 
   - **Habilitar para o Lync Server** Habilita a conta de usuário selecionada após ter sido temporariamente desabilitada.
 
-  - **Desabilitar temporariamente para o Lync Server** Desabilita a conta de usuário no Skype for Business Server até que você a habilita, sem remover a conta de usuário.
+  - **Desabilitar temporariamente para o Lync Server** Desabilita a conta de usuário Skype for Business Server até que você a habilita, sem remover a conta de usuário.
 
   - **Atribuir políticas** Abre a [caixa de diálogo Usuários: Atribuir Políticas,](ms.lync.lscp.UserAssignPolicy.md) onde você pode configurar as políticas atribuídas ao usuário.
 

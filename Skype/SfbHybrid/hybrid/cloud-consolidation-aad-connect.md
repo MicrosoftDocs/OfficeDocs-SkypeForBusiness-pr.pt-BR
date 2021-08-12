@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apêndice inclui etapas detalhadas para atualizar o AAD Conexão incluir mais de uma floresta como parte da consolidação de nuvem para Teams e Skype for Business.
-ms.openlocfilehash: 5ca5789ca50f24266ce5fccf16bcf06118e42742
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295928"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>Atualizar o AAD Connect para incluir mais de uma floresta
 
@@ -40,6 +40,6 @@ O Azure AD Conexão dá suporte à [sincronização de várias florestas.](/azur
  ![A página Identificando seus usuários com exclusividade](../media/cloud-consolidation-uniquely-identifying-your-users.png)
 
 
-## <a name="see-also"></a>Confira também:
+## <a name="see-also"></a>Confira também
 
 [Consolidação de nuvem para Teams e Skype for Business](cloud-consolidation.md)

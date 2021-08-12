@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: Guia de segurança para o Skype for Business Online <add description>
-ms.openlocfilehash: 5b99744b9b798f7748870f9155b48bff16ad2b24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0100eaab0a06cdbc618f39bd02ae832dca71abd5ac0498143fd51e8da9ea0e3e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295938"
 ---
 # <a name="security-and-skype-for-business-online"></a>Segurança e Skype for Business Online
 
@@ -83,7 +83,7 @@ Um ataque de reprodução ocorre quando uma transmissão de mídia válida entre
 Spim é uma mensagem instantânea comercial não solicitada ou pedidos de inscrição de presença. Embora não seja por si só um comprometimento da rede, é, no mínimo, irritante, pois pode reduzir a disponibilidade e a produção de recursos e levar a um comprometimento da rede. Um exemplo disso é quando os usuários fazem "spimming" uns para os outros, por meio de envios de solicitações. Os usuários podem bloquear uns aos outros para evitar isso, mas com a federação, se um ataque spim coordenado for estabelecido, isso poderá ser difícil de superar, a não ser que você desabilite a federação do parceiro.
 
 ### <a name="viruses-and-worms"></a>Vírus e Worms
-Um vírus é uma unidade de código cujo objetivo é reproduzir outras unidades de código semelhantes. Para trabalhar, um vírus precisa de um host, como um arquivo, um email ou um programa. Como um vírus, um worm é uma unidade de código que é codificada para reproduzir unidades de código adicionais semelhantes, mas que, ao contrário de um vírus, não precisa de um host. Os vírus e os worms aparecem principalmente durante transferências de arquivos entre clientes ou quando as URLs são enviadas por outros usuários. Um vírus no seu computador pode, por exemplo, usar sua identidade e enviar mensagens instantâneas em seu nome. Práticas recomendadas de segurança padrão para o cliente, como a verificação periódica de vírus, podem atenuar esse problema. 
+Um vírus é uma unidade de código cujo objetivo é reproduzir outras unidades de código semelhantes. Para funcionar, um vírus precisa de um hospedeiro, como um arquivo, email ou programa. Assim como um vírus, um worm é uma unidade de código que é codificada para reproduzir unidades de código semelhantes, mas que, ao contrário de um vírus, não precisa de um hospedeiro. Os vírus e worms aparecem principalmente durante as transferências de arquivos entre clientes ou quando URLs são enviados de outros usuários. Se houver um vírus em seu computador, ele pode, por exemplo, usar sua identidade e enviar mensagens instantâneas em seu nome. As práticas recomendadas de segurança padrão para o cliente, como a verificação periódica de vírus, podem atenuar esse problema. 
 
 ## <a name="personally-identifiable-information"></a>Informações de Identificação Pessoal
 O SfBO tem o potencial de divulgar informações por meio de uma rede pública que pode ser vinculada a um indivíduo. Os tipos de informações podem ser separados em duas categorias específicas:

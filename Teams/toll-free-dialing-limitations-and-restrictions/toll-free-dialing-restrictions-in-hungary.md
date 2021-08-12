@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre como discar números gratuitos na Hungria, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: 3426c294c205b761340c06979a33e191a2cd451a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 76600d0029c5abb96fd3248beb1e809a04e5e62409da69de237ebe965c5fd594
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116699"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335851"
 ---
 # <a name="toll-free-dialing-restrictions-in-hungary"></a>Restrições de discagem de chamada gratuita na Hungria
 

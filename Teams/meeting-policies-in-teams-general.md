@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações gerais de política de reunião Teams.
-ms.openlocfilehash: ecbdceefa5d60ca3c7d5b09aaa094054b88f60f915b17934a734fa07bdf3da23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850292"
 ---
 # <a name="meeting-policy-settings---general"></a>Configurações de política de reunião - Geral
 
@@ -124,9 +124,9 @@ Essa é uma política por usuário. Essa configuração controla se o organizado
 
 No momento, você só pode usar o PowerShell para definir essa configuração de política. Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
 
-Para permitir que o organizador de uma reunião baixe o relatório de participação da reunião, defina o parâmetro **AllowEngagementReport** para **Habilitado**. Quando habilitada, a opção para baixar o relatório é exibida no painel **Participantes**.
+Para permitir que um organizador da reunião baixe o relatório de participação da reunião, de definir o **parâmetro AllowEngagementReport** **como Habilitado**. Quando habilitada, a opção para baixar o relatório é exibida no painel **Participantes**. Por padrão, essa configuração está habilitada.
 
-Para impedir que o organizador da reunião baixe o relatório, defina o parâmetro como **Desabilitado**. Por padrão, essa configuração está desabilitada e a opção de baixar o relatório não está disponível.
+Para impedir que o organizador da reunião baixe o relatório, defina o parâmetro como **Desabilitado**.
 
 ## <a name="meeting-provider-for-islands-mode"></a>Provedor de reuniões para modo Ilhas
 

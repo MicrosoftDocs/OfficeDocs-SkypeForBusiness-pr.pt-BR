@@ -1,5 +1,5 @@
 ---
-title: Exemplo coletando requisitos para controle de admissão de chamadas no Skype for Business Server
+title: Requisitos de coleta de exemplo para controle de admissão de chamada Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: Fornece um exemplo detalhado de planejamento do controle de admissão de chamadas no Skype for Business Server Enterprise Voice, incluindo a coleta de informações sobre sites, regiões e largura de banda da sua rede.
-ms.openlocfilehash: 65bf3c07b2186ae8251c570880d54242944ff6e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Fornece um exemplo detalhado de planejamento para o controle de admissão de chamada no Skype for Business Server Enterprise Voice, incluindo a coleta de informações sobre sites, regiões e largura de banda da sua rede.
+ms.openlocfilehash: 47f44f6b20779cce80c5499eb792945276fec7144fb7661e8aca8ce97e1e09ae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324121"
 ---
-# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemplo: reunir requisitos para controle de admissão de chamadas no Skype for Business Server
+# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemplo: reunir requisitos para controle de admissão de chamada Skype for Business Server
 
-Fornece um exemplo detalhado de planejamento do controle de admissão de chamadas no Skype for Business Server Enterprise Voice, incluindo a coleta de informações sobre sites, regiões e largura de banda da sua rede.
+Fornece um exemplo detalhado de planejamento para o controle de admissão de chamada no Skype for Business Server Enterprise Voice, incluindo a coleta de informações sobre sites, regiões e largura de banda da sua rede.
 
 Este exemplo mostra como planejar e implementar o CAC (controle de admissão de chamadas). Em um alto nível, isso consiste nas seguintes atividades:
 
 1. Identificar todos os seus hubs e backbones de rede (conhecidos como regiões de rede).
 
-2. Identifique o site central do Skype for Business Server que gerenciará o CAC para cada região de rede.
+2. Identifique o Skype for Business Server local central que gerenciará o CAC para cada região de rede.
 
 3. Identificar e definir os sites de rede conectados a cada região de rede.
 
-4. Para cada site de rede cuja conexão com a WAN é restrita à largura de banda, descreva a capacidade de largura de banda da conexão WAN e os limites de largura de banda que o administrador de rede definiu para o tráfego de mídia do Skype for Business Server, se aplicável. Não é necessário incluir sites cuja conexão com a WAN não sofra restrições de largura de banda.
+4. Para cada site de rede cuja conexão com a WAN é restrita à largura de banda, descreva a capacidade de largura de banda da conexão WAN e os limites de largura de banda que o administrador de rede definiu para o tráfego de mídia Skype for Business Server, se aplicável. Não é necessário incluir sites cuja conexão com a WAN não sofra restrições de largura de banda.
 
 5. Associe cada sub-rede em sua rede a um site de rede.
 
-6. Mapeie os links entre as regiões de rede. Para cada link, descreva sua capacidade de largura de banda e quaisquer limites que o administrador de rede tenha colocado no tráfego de mídia do Skype for Business Server.
+6. Mapeie os links entre as regiões de rede. Para cada link, descreva sua capacidade de largura de banda e quaisquer limites que o administrador de rede tenha colocado Skype for Business Server tráfego de mídia.
 
 7. Defina uma rota entre cada par de regiões de rede.
 
@@ -53,20 +53,20 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
     Nosso exemplo de topologia têm três regiões de rede: América do Norte, EMEA e APAC. Uma região de rede contém uma coleção de sites de rede. Trabalhe com seu administrador de rede para definir as regiões de rede para sua empresa.
 
-2. Identifique o site central associado de cada região de rede. Um site central contém pelo menos um Servidor De Front-End e é a implantação do Skype for Business Server que gerenciará o CAC para todo o tráfego de mídia que passa pela conexão WAN da região de rede.
+2. Identifique o site central associado de cada região de rede. Um site central contém pelo menos um Servidor front-end e é a implantação Skype for Business Server que gerenciará o CAC para todo o tráfego de mídia que passa pela conexão WAN da região de rede.
 
    **Um exemplo de rede de empresa dividida em três regiões de rede**
 
      ![Exemplo de topologia de rede com 3 regiões de rede](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Uma rede MPLS (Multiprotocol Label Switching) deve ser representada como uma região de rede na qual cada local geográfico tem um site de rede correspondente. Para obter detalhes, consulte [Componentes e topologias para controle de](components-and-topologies.md)admissão de chamadas no Skype for Business . 
+    > Uma rede MPLS (Multiprotocol Label Switching) deve ser representada como uma região de rede na qual cada local geográfico tem um site de rede correspondente. Para obter detalhes, consulte [Componentes e topologias para controle de](components-and-topologies.md)admissão de chamada em Skype for Business . 
 
-    No exemplo anterior de topologia de rede, há três regiões de rede, cada uma com um site central do Skype for Business Server que gerencia o CAC. O site central apropriado para uma região de rede é escolhido pela proximidade geográfica. Como o tráfego de mídia será o mais intenso nas regiões de rede, a propriedade por proximidade geográfica o tornará autocontido e continuará funcionando mesmo se outros sites centrais ficarem indisponíveis. 
+    No exemplo anterior de topologia de rede, há três regiões de rede, cada uma com um Skype for Business Server central que gerencia o CAC. O site central apropriado para uma região de rede é escolhido pela proximidade geográfica. Como o tráfego de mídia será o mais intenso nas regiões de rede, a propriedade por proximidade geográfica o tornará autocontido e continuará funcionando mesmo se outros sites centrais ficarem indisponíveis. 
 
-    Neste exemplo, uma implantação do Skype for Business chamada Chicago é o site central da região da América do Norte.
+    Neste exemplo, uma implantação Skype for Business chamada Chicago é o site central da região da América do Norte.
 
-    Todos os usuários do Skype for Business na América do Norte estão em casa em servidores na implantação de Chicago. A tabela a seguir mostra os sites centrais de todas as três regiões de rede.
+    Todos Skype for Business usuários na América do Norte estão em casa em servidores na implantação de Chicago. A tabela a seguir mostra os sites centrais de todas as três regiões de rede.
 
     **Regiões de rede e seus sites centrais associados**
 
@@ -77,7 +77,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
     |APAC  <br/> |Pequim  <br/> |
 
     > [!NOTE]
-    > Dependendo da topologia do Skype for Business Server, o mesmo site central pode ser atribuído a várias regiões de rede. 
+    > Dependendo da topologia Skype for Business Server, o mesmo site central pode ser atribuído a várias regiões de rede. 
 
 3. Para cada região de rede, identifique todos os sites de rede (escritórios ou locais) cujas conexões WAN não sofrem restrições de largura de banda. Como esses sites não sofrem restrições de largura de banda, não é necessário aplicar as políticas de largura de banda de CAC neles.
 
@@ -113,11 +113,11 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
 5. Para cada link de WAN com restrição de largura de banda, determine o seguinte:
 
-   - Limite de largura de banda geral que você deseja definir para todas as sessões de áudio simultâneas. Se uma nova sessão de áudio fizer com que esse limite seja excedido, o Skype for Business Server não permitirá o início da sessão.
+   - Limite de largura de banda geral que você deseja definir para todas as sessões de áudio simultâneas. Se uma nova sessão de áudio fizer com que esse limite seja excedido, Skype for Business Server não permitirá que a sessão inicie.
 
    - Limite de largura de banda que você deseja definir para cada sessão de áudio individual. O limite padrão de largura de banda de CAC é de 175 kbps, mas o administrador pode modificá-lo.
 
-   - Limite de largura de banda geral que você deseja definir para todas as sessões de vídeo simultâneas. Se uma nova sessão de vídeo fizer com que esse limite seja excedido, o Skype for Business Server não permite o início da sessão.
+   - Limite de largura de banda geral que você deseja definir para todas as sessões de vídeo simultâneas. Se uma nova sessão de vídeo fizer com que esse limite seja excedido, Skype for Business Server não permitirá que a sessão inicie.
 
    - Limite de largura de banda que você deseja definir para cada sessão de vídeo individual. O limite padrão de largura de banda de CAC é de 700 kbps, mas o administrador pode modificá-lo.
 
@@ -175,13 +175,13 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
    | Detroit  <br/>     | América do Norte  <br/> | (sem limite)  <br/> | (sem limite)  <br/> | (sem limite)  <br/>       | (sem limite)  <br/> | (sem limite)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
 
 
-7. No controle de admissão de chamadas do Skype for Business Server, as conexões entre regiões de rede são chamadas de links de região. Para cada link de região, determine o seguinte, da mesma forma que fez para os sites de rede:
+7. No Skype for Business Server de admissão de chamadas, as conexões entre regiões de rede são chamadas de links de região. Para cada link de região, determine o seguinte, da mesma forma que fez para os sites de rede:
 
-   - Limite de largura de banda geral que você deseja definir para todas as sessões de áudio simultâneas. Se uma nova sessão de áudio fizer com que esse limite seja excedido, o Skype for Business Server não permitirá o início da sessão.
+   - Limite de largura de banda geral que você deseja definir para todas as sessões de áudio simultâneas. Se uma nova sessão de áudio fizer com que esse limite seja excedido, Skype for Business Server não permitirá que a sessão inicie.
 
    - Limite de largura de banda que você deseja definir para cada sessão de áudio individual. O limite padrão de largura de banda de CAC é de 175 kbps, mas o administrador pode modificá-lo.
 
-   - Limite de largura de banda geral que você deseja definir para todas as sessões de vídeo simultâneas. Se uma nova sessão de vídeo fizer com que esse limite seja excedido, o Skype for Business Server não permite o início da sessão.
+   - Limite de largura de banda geral que você deseja definir para todas as sessões de vídeo simultâneas. Se uma nova sessão de vídeo fizer com que esse limite seja excedido, Skype for Business Server não permitirá que a sessão inicie.
 
    - Limite de largura de banda que você deseja definir para cada sessão de vídeo individual. O limite padrão de largura de banda de CAC é de 700 kbps, mas o administrador pode modificá-lo.
 
@@ -215,11 +215,11 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
 9. Para cada par de sites de rede conectados diretamente por um único link (chamado de link entre sites), determine o seguinte:
 
-     - Limite de largura de banda geral que você deseja definir para todas as sessões de áudio simultâneas. Se uma nova sessão de áudio fizer com que esse limite seja excedido, o Skype for Business Server não permitirá o início da sessão.
+     - Limite de largura de banda geral que você deseja definir para todas as sessões de áudio simultâneas. Se uma nova sessão de áudio fizer com que esse limite seja excedido, Skype for Business Server não permitirá que a sessão inicie.
 
      - Limite de largura de banda que você deseja definir para cada sessão de áudio individual. O limite padrão de largura de banda de CAC é de 175 kbps, mas o administrador pode modificá-lo.
 
-     - Limite de largura de banda geral que você deseja definir para todas as sessões de vídeo simultâneas. Se uma nova sessão de vídeo fizer com que esse limite seja excedido, o Skype for Business Server não permite o início da sessão.
+     - Limite de largura de banda geral que você deseja definir para todas as sessões de vídeo simultâneas. Se uma nova sessão de vídeo fizer com que esse limite seja excedido, Skype for Business Server não permitirá que a sessão inicie.
 
      - Limite de largura de banda que você deseja definir para cada sessão de vídeo individual. O limite padrão de largura de banda de CAC é de 700 kbps, mas o administrador pode modificá-lo.
 
@@ -235,7 +235,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
 ### <a name="next-steps"></a>Próximas Etapas
 
-Depois de ter coletado as informações necessárias, você pode executar a implantação do CAC usando o Shell de Gerenciamento do Skype for Business Server ou o Painel de Controle do Skype for Business Server.
+Depois de ter coletado as informações necessárias, você pode executar a implantação do CAC usando o Shell de Gerenciamento Skype for Business Server ou Skype for Business Server Painel de Controle.
 
 > [!NOTE]
-> Embora você possa executar a maioria das tarefas de configuração de rede usando o Painel de Controle do Skype for Business Server, para criar sub-redes e links entresite, você deve usar o Shell de Gerenciamento do Skype for Business Server. Para obter detalhes, [consulte New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) e [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
+> Embora você possa executar a maioria das tarefas de configuração de rede usando Skype for Business Server Painel de Controle, para criar sub-redes e links entresites, você deve usar Skype for Business Server Shell de Gerenciamento. Para obter detalhes, [consulte New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) e [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).

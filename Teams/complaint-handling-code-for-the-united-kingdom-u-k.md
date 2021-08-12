@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Faça uma reclamação Skype serviços de chamada para empresas (PSTN Calling no Reino Unido), cronogramas para respostas e resolução de disputas para reclamações não resolvidas.
-ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347406"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planos de chamada em Microsoft 365 - Código de tratamento de reclamações para o Reino Unido (Reino Unido)
 
@@ -40,7 +40,7 @@ A satisfação do cliente é uma prioridade para o Skype for Business. No entant
 
 - Número de telefone de chamada gratuita: 0800 032 6417
 
-- Online: entre no centro de administração Microsoft 365 e envie uma solicitação de serviço selecionando **Nova solicitação de serviço** em **Suporte**.
+- Online: entre no Centro de administração do Microsoft 365 e envie uma solicitação de serviço selecionando **Nova solicitação de serviço** em **Suporte**.
 
 ## <a name="timelines"></a>Linhas do tempo
 

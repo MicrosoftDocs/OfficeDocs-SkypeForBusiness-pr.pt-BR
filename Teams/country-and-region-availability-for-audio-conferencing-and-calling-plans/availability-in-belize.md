@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Belize.
-ms.openlocfilehash: 362a8bccb8d52e97b52dfc45929b99b5abe39c0e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d70de62d3bcf394053bd79be9bf46229316b5bc8acebe7669fec72c84134b08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314107"
 ---
 # <a name="availability-in-belize"></a>Disponibilidade em Belize
 

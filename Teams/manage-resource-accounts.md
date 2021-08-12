@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos Microsoft Teams.
-ms.openlocfilehash: 21824c360e26e568ae47a9729960fca01a100ae8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324101"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -47,7 +47,7 @@ Cada conta de recurso requer uma licença para trabalhar com atendimentos autom�
 
 Abrangemos como atribuir a licença a uma conta de recurso posteriormente neste artigo.
 
-Para obter a licença de Usuário Virtual, no centro de administração do Microsoft 365, vá para Cobrança  >    >  **Assinaturas** de complemento de serviços de Compra e role até o final - você verá Sistema de Telefonia - Licença de Usuário *Virtual.* Selecione **Comprar agora**. Há um custo zero, mas você ainda precisa seguir estas etapas para adquirir a licença.
+Para obter a licença de Usuário Virtual, no Centro de administração do Microsoft 365, vá para Cobrança Assinaturas de complemento de serviços de Compra e role até o final - você verá Sistema de Telefonia - Licença de  >    >   *Usuário Virtual.* Selecione **Comprar agora**. Há um custo zero, mas você ainda precisa seguir estas etapas para adquirir a licença.
 
 ### <a name="obtain-service-numbers"></a>Obter números de serviço
 
@@ -79,13 +79,13 @@ Você pode criar uma conta de recurso no Teams de administração.
 
 Para cada conta de recurso, você deve atribuir uma Microsoft 365 Sistema de Telefonia *- licença* de usuário virtual *ou Sistema de Telefonia.*
 
-![Captura de tela da interface do usuário atribuir licenças no Microsoft 365 de administração](media/resource-account-assign-virtual-user-license.png)
+![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365](media/resource-account-assign-virtual-user-license.png)
 
-1. No centro Microsoft 365 de administração, clique na conta de recurso à qual você deseja atribuir uma licença.
+1. Na Centro de administração do Microsoft 365, clique na conta de recurso à qual deseja atribuir uma licença.
 
 2. Na guia **Licenças e Aplicativos,** em **Licenças,** selecione **Microsoft 365 Sistema de Telefonia - Usuário Virtual**.
 
-3. Clique **em Salvar alterações**.
+3. Clique em **Salvar alterações**.
 
 ## <a name="assign-a-service-number"></a>Atribuir um número de serviço
 
@@ -120,7 +120,7 @@ Você pode editar a conta de recurso **Nome de exibição** e **tipo de** conta 
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Alterar uma conta de recurso existente para usar uma licença de usuário virtual
 
-Se você decidir alternar as licenças em  sua conta de recurso existente de uma licença de Sistema de Telefonia para uma licença de Usuário Virtual, você precisará adquirir a licença de usuário virtual gratuita e, em seguida, seguir as etapas no centro de administração do Microsoft 365 para Mover usuários para uma assinatura [diferente.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+Se você decidir alternar as licenças em sua conta de recurso existente de uma licença de Sistema de Telefonia para uma licença de Usuário Virtual, você precisará adquirir **a** licença de Usuário Virtual gratuita e, em seguida, seguir as etapas no Centro de administração do Microsoft 365 para Mover usuários para uma assinatura [diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
 > Sempre remova uma licença de Sistema de Telefonia e atribua a licença de Usuário Virtual na mesma atividade de licença. Se você remover a licença antiga, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta de recurso poderá não funcionar mais conforme esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para a licença de Usuário Virtual e remova a conta de recurso quebrada.
@@ -150,7 +150,7 @@ Para implementações híbridas com Skype for Business Server:
 
 Certifique-se de dissociar o número de telefone da conta de recurso antes de excluí-lo, para evitar que seu número de serviço seja travado no modo pendente.
 
-Depois de fazer isso, você pode excluir a conta de recurso no Microsoft 365 de administração, na guia Usuários.
+Depois de fazer isso, você pode excluir a conta de recurso no Centro de administração do Microsoft 365, na guia Usuários.
 
 Para desassociar um número de telefone de roteamento direto da conta de recurso, use o seguinte cmdlet:
 
