@@ -19,28 +19,27 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6420fdff102533c44bdd3ccb2ab503a646c354b8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5fc2a18d2a7199bf35e2a06ae8cce2b781b570846014443cbc30b393e39e52aa
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848426"
 ---
-<a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams
-==============================================================
+# <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams
 
 Este guia ajudará você a obter um conjunto de usuários em execução para que eles possam explorar Planos de Chamada em Teams.
 
 Leia o comunicado de 12 de dezembro de 2017 sobre Planos de Chamada no Teams: Comunicações Inteligentes dá a próxima etapa com a chamada [no Teams](https://aka.ms/ipyqus)
 
 > [!NOTE]
-> Recomendamos que, em paralelo com este guia [](calling-plan-landing-page.md) de início rápido, você leia Sistema de Telefonia planos de chamada e [o FastTrack](https://aka.ms/cloudvoice) para planejar e conduzir uma rolagem bem-sucedida.
+> Recomendamos que, em paralelo com esse guia [](calling-plan-landing-page.md) de início rápido, [](https://aka.ms/cloudvoice) você leia Sistema de Telefonia com Planos de Chamada e FastTrack para planejar e conduzir uma aprovação bem-sucedida.
 
 Adicionando Planos de Chamadas - um recurso de Microsoft 365 e Office 365 alimentado pelo Skype for Business - agora você pode usar o Teams para fazer e receber chamadas telefônicas para ou para linhas de telefone fixo e telefones celulares por meio da PSTN (rede telefônica pública comutado).
 
 ![Captura de tela mostrando a página Contatos no Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Pré-requisitos para habilite a guia **Chamadas** no Teams
-Para habilitar Teams guia Chamadas no Teams os usuários precisam ter a chamada 1:1 habilitada no Teams e usando um cliente Teams que oferece suporte Teams chamada 1:1.  Para saber como gerenciar chamadas 1:1 no Teams, leia [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber quais clientes suportam a chamada, leia [Limites e especificações para Microsoft Teams](./limits-specifications-teams.md).
+Para habilitar Teams guia Chamadas no Teams os usuários precisam ter a chamada 1:1 habilitada no Teams e usando um cliente Teams que oferece suporte Teams chamada 1:1.  Para saber como gerenciar chamadas 1:1 no Teams, leia [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy). Para saber quais clientes suportam a chamada, leia [Limites e especificações para Microsoft Teams](./limits-specifications-teams.md).
 
 > [!NOTE]
 > Atualmente, a Caixa Postal não estará disponível na guia Chamadas, a menos que o usuário esteja habilitado para chamadas PSTN. 

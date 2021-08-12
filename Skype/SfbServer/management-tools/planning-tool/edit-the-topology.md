@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Após concluir as perguntas iniciais de entrevista, você pode editar o FQDN (nome de domínio totalmente qualificado) e endereços IP do site. Para isso, na página Topologia Global, clique duas vezes no site que deseja editar.
-ms.openlocfilehash: 9a345c753195c32907d078d5ee4a267b8b96d6b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 017b1e9e04851d321c9fd6f08508c8ffeccb4b4b558a3b0668c7e6f0efdd1f15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093179"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347906"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar a topologia no Skype for Business Server 2015
 
@@ -31,7 +31,7 @@ A Ferramenta de Planejamento exibe a topologia do site para o site selecionado. 
 
 - Topologia do Site - A página exibida atualmente com uma visão geral visual da topologia conforme recomendado.
 
-- Diagrama de Rede de Borda - A página Diagrama de Rede de Borda é onde o designer faz a maior parte do trabalho na Ferramenta de Planejamento. O diagrama exibe a configuração de rede de uma topologia recomendada do Skype for Business Server 2015, com entradas editáveis para endereços IP e FQDNs para servidores, pool e balanceadores de carga dns e hardware.
+- Diagrama de Rede de Borda - A página Diagrama de Rede de Borda é onde o designer faz a maior parte do trabalho na Ferramenta de Planejamento. O diagrama exibe a configuração de rede para uma topologia recomendada Skype for Business Server 2015, com entradas editáveis para endereços IP e FQDNs para servidores, pool e balanceadores de carga DNS (Sistema de Nomes de Domínio e hardware).
 
 - Relatório de Administrador de Borda - O Relatório de Administração de Borda contém um total de quatro relatórios:
 

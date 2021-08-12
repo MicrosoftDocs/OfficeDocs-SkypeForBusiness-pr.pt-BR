@@ -1,5 +1,5 @@
 ---
-title: Certificados av de estágio e OAuth no Skype for Business Server usando -Roll em Set-CsCertificate
+title: Certificados AV e OAuth de estágio em Skype for Business Server usando -Roll no Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumo: Estágio AV e certificados OAuth para Skype for Business Server.'
-ms.openlocfilehash: 87527d4bb51a5c38e0f85f72b299b67f235f2cf8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f030dfd4a8958fe4efdc20c350b0e3b377da6cf2762604a57eecd3adca3e3430
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319164"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Certificados av de estágio e OAuth no Skype for Business Server usando -Roll em Set-CsCertificate
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Certificados AV e OAuth de estágio em Skype for Business Server usando -Roll no Set-CsCertificate
  
 **Resumo:** Estágio AV e certificados OAuth para Skype for Business Server.
   
@@ -29,12 +29,12 @@ As comunicações de áudio/vídeo (A/V) são um componente-chave do Skype for B
 > [!IMPORTANT]
 > Esse novo recurso foi projetado para funcionar para o serviço de Borda A/V e para o certificado OAuthTokenIssuer. Outros tipos de certificado podem ser provisionados juntamente com o serviço de Borda A/V e o tipo de certificado OAuth, mas não se beneficiarão do comportamento de coexistência que o certificado de serviço de Borda A/V irá.
   
-Os cmdlets do Shell de Gerenciamento do Skype for Business Server PowerShell usados para gerenciar certificados do Skype for Business Server referem-se ao certificado de serviço de Borda A/V como o tipo de certificado AudioVideoAuthentication e o certificado OAuthServer como typeOAuthTokenIssuer. Para o restante deste tópico e identificar exclusivamente os certificados, eles serão referenciados pelo mesmo tipo de identificador, AudioVideoAuthentication eOAuthTokenIssuer.
+Os cmdlets do Shell de Gerenciamento do PowerShell do Skype for Business Server usados para gerenciar certificados Skype for Business Server referem-se ao certificado de serviço de Borda A/V como o tipo de certificado AudioVideoAuthentication e o certificado OAuthServer como typeOAuthTokenIssuer. Para o restante deste tópico e identificar exclusivamente os certificados, eles serão referenciados pelo mesmo tipo de identificador, AudioVideoAuthentication eOAuthTokenIssuer.
   
-O serviço de Autenticação A/V é responsável pela emissão de tokens que são usados por clientes e outros consumidores A/V. Os tokens são gerados a partir de atributos no certificado e, quando o certificado expirar, a perda de conexão e a necessidade de se reunir com um novo token gerado pelo novo certificado resultarão. Um novo recurso no Skype for Business Server aliviará esse problema - a capacidade de estágio de um novo certificado antes do antigo expirar e permitir que ambos os certificados continuem a funcionar por um período de tempo. Esse recurso usa a funcionalidade atualizada no cmdlet Set-CsCertificate Shell de Gerenciamento do Skype for Business Server. O novo parâmetro -Roll, com o parâmetro existente -EffectiveDate, colocará o novo certificado AudioVideoAuthentication no armazenamento de certificados. O certificado AudioVideoAuthentication mais antigo ainda permanecerá para tokens emitidos a serem validados. A partir da colocação do novo certificado AudioVideoAuthentication, ocorrerá a seguinte série de eventos:
+O serviço de Autenticação A/V é responsável pela emissão de tokens que são usados por clientes e outros consumidores A/V. Os tokens são gerados a partir de atributos no certificado e, quando o certificado expirar, a perda de conexão e a necessidade de se reunir com um novo token gerado pelo novo certificado resultarão. Um novo recurso no Skype for Business Server aliviará esse problema - a capacidade de estágio de um novo certificado antes do antigo expirar e permitir que ambos os certificados continuem a funcionar por um período de tempo. Esse recurso usa a funcionalidade atualizada no cmdlet Set-CsCertificate Skype for Business Server Shell de Gerenciamento. O novo parâmetro -Roll, com o parâmetro existente -EffectiveDate, colocará o novo certificado AudioVideoAuthentication no armazenamento de certificados. O certificado AudioVideoAuthentication mais antigo ainda permanecerá para tokens emitidos a serem validados. A partir da colocação do novo certificado AudioVideoAuthentication, ocorrerá a seguinte série de eventos:
   
 > [!TIP]
-> Usando os cmdlets do Shell de Gerenciamento do Skype for Business Server para gerenciar certificados, você pode solicitar certificados separados e distintos para cada finalidade no Servidor de Borda. Usar o Assistente de Certificado no Assistente de Implantação do Skype for Business  Server ajuda você na criação de certificados, mas normalmente é do tipo padrão que casa todos os certificados usa para o Servidor de Borda em um único certificado. A prática recomendada se você for usar o recurso de certificado de rolagem é desacompilar o certificado AudioVideoAuthentication de outras finalidades de certificado. Você pode provisionar e estágio de um certificado do tipo Padrão, mas somente a parte AudioVideoAuthentication do certificado combinado se beneficiará da preparação. Um usuário envolvido em (por exemplo) uma conversa de mensagens instantâneas quando o certificado expirar precisará fazer logoff e fazer logoff novamente para fazer uso do novo certificado associado ao serviço de Borda de Acesso. Comportamento semelhante ocorrerá para um usuário envolvido em uma conferência da Web usando o serviço de Borda de WebConferência. O certificado OAuthTokenIssuer é um tipo específico compartilhado em todos os servidores. Você cria e gerencia o certificado em um só lugar e o certificado é armazenado no armazenamento de Gerenciamento Central para todos os outros servidores.
+> Usando os cmdlets Skype for Business Server Shell de Gerenciamento para gerenciar certificados, você pode solicitar certificados separados e distintos para cada finalidade no Servidor de Borda. Usar o Assistente de Certificado no Assistente de Implantação Skype for Business Server ajuda você na  criação de certificados, mas normalmente é do tipo padrão que casa todos os certificados usa para o Servidor de Borda em um único certificado. A prática recomendada se você for usar o recurso de certificado de rolagem é desacompilar o certificado AudioVideoAuthentication de outras finalidades de certificado. Você pode provisionar e estágio de um certificado do tipo Padrão, mas somente a parte AudioVideoAuthentication do certificado combinado se beneficiará da preparação. Um usuário envolvido em (por exemplo) uma conversa de mensagens instantâneas quando o certificado expirar precisará fazer logoff e fazer logoff novamente para fazer uso do novo certificado associado ao serviço de Borda de Acesso. Comportamento semelhante ocorrerá para um usuário envolvido em uma conferência da Web usando o serviço de Borda de WebConferência. O certificado OAuthTokenIssuer é um tipo específico compartilhado em todos os servidores. Você cria e gerencia o certificado em um só lugar e o certificado é armazenado no armazenamento de Gerenciamento Central para todos os outros servidores.
   
 Detalhes adicionais são necessários para entender totalmente suas opções e requisitos ao usar o cmdlet Set-CsCertificate e usá-lo para estágios de certificados antes da expiração do certificado atual. O parâmetro -Roll é importante, mas essencialmente único. Se você defini-lo como um parâmetro, você estará informando Set-CsCertificate que fornecerá informações sobre o certificado que será afetado definido por -Type (por exemplo, AudioVideoAuthentication e OAuthTokenIssuer), quando o certificado se tornará efetivo definido por -EffectiveDate.
   
@@ -42,7 +42,7 @@ Detalhes adicionais são necessários para entender totalmente suas opções e r
   
  **-EffectiveDate**: o parâmetro -EffectiveDate define quando o novo certificado se tornará co-ativo com o certificado atual. O -EffectiveDate pode estar próximo do tempo de expiração do certificado atual, ou pode ser um período mais longo de tempo. Um mínimo recomendado -EffectiveDate para o certificado AudioVideoAuthentication seria de 8 horas, que é o tempo de vida do token padrão para tokens de serviço de Borda AV emitidos usando o certificado AudioVideoAuthentication.
   
-Ao fazer a preparação de certificados OAuthTokenIssuer, há requisitos diferentes para o tempo de entrega antes que o certificado possa ser efetivado. O tempo mínimo que o certificado OAuthTokenIssuer deve ter pelo seu tempo de entrega é de 24 horas antes do tempo de expiração do certificado atual. O tempo de entrega estendido para a coexistência é devido a outras funções de servidor que dependem do certificado OAuthTokenIssuer (Exchange Server, por exemplo) que tem um tempo de retenção maior para os materiais chave de autenticação e criptografia criados pelo certificado.
+Ao fazer a preparação de certificados OAuthTokenIssuer, há requisitos diferentes para o tempo de entrega antes que o certificado possa ser efetivado. O tempo mínimo que o certificado OAuthTokenIssuer deve ter pelo seu tempo de entrega é de 24 horas antes do tempo de expiração do certificado atual. O tempo de vantagem estendido para a coexistência é devido a outras funções de servidor que dependem do certificado OAuthTokenIssuer (Exchange Server, por exemplo) que tem um tempo de retenção maior para os materiais chave de autenticação e criptografia criados pelo certificado.
   
  **-Thumbprint**: A impressão digital é um atributo no certificado exclusivo desse certificado. O parâmetro -Thumbprint é usado para identificar o certificado que será afetado pelas ações do cmdlet Set-CsCertificate.
   

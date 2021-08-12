@@ -1,5 +1,5 @@
 ---
-title: Roteamento Direto do Sistema de Telefonia
+title: 'Teams: Gerenciar notificações de chamada'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,16 +18,16 @@ description: Notificação de chamada de Roteamento Direto
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0dea709f77cb971f8027bb848087f2da820f8007277abb227d2130da3e6a9058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b251040f9433d9ac51b388d12fa530b7c982e0773580d6ac69d41825fbba1ae6
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848316"
 ---
 # <a name="manage-call-notifications"></a>Gerenciar notificações de chamadas
 
-Este artigo descreve como gerenciar notificações de chamada para seus usuários. Você pode configurar pontos de extremidade de chamada para Teams e para um PbX (Private Branch Exchange) de terceiros ou Controlador de Borda de Sessão (SBC).  Isso é útil, por exemplo, se você quiser enviar uma chamada para os telefones móveis e de mesa de um usuário ao mesmo tempo.   
+Este artigo descreve como gerenciar notificações de chamada para seus usuários. Você pode configurar pontos de extremidade de chamada para Teams e para um PbX (Private Branch Exchange) de terceiros ou Controlador de Borda de Sessão (SBC).  Essa configuração é útil, por exemplo, se você quiser enviar uma chamada para os telefones móveis e de mesa de um usuário ao mesmo tempo.   
 
 No diagrama a seguir, a Irena do usuário tem dois pontos de extremidade:
 
@@ -45,9 +45,9 @@ Você pode impedir a notificação de "Chamada Perdida" configurando o SBC para 
 
 MOTIVO: SIP; cause=200;text"Call completed elsewhere" 
 
-Observe que a chamada não será registrada nos registros de detalhes de chamada do Telefone Microsoft System como uma chamada bem-sucedida. A chamada será registrada como uma "Tentativa" com o Código SIP Final "487", o subcodigo final da Microsoft "540200" e a frase de código SIP final "Chamada concluída em outro lugar".  (Para exibir os registros de detalhes da chamada, acesse o portal de administração do Teams, Análise e Relatórios, Relatórios de Uso e selecione Uso de PSTN.)
+A chamada não será registrada nos registros de detalhes de chamada do Telefone Microsoft System como uma chamada bem-sucedida. A chamada será registrada como uma "Tentativa" com o Código SIP Final "487", o subcodigo final da Microsoft "540200" e a frase de código SIP final "Chamada concluída em outro lugar".  (Para exibir os registros de detalhes da chamada, acesse o portal de administração do Teams, Análise e Relatórios, Relatórios de Uso e selecione Uso de PSTN.)
 
 
 O diagrama a seguir ilustra a escala SIP do Fork 1, explica o fluxo de chamada e o MOTIVO esperado na mensagem Cancelar. 
 
-![Diagrama mostrando pontos Teams pontos de extremidade bifurcados](media/direct-routing-call-notification-2.png)
+![Diagrama mostra pontos Teams pontos de extremidade bifurcados](media/direct-routing-call-notification-2.png)

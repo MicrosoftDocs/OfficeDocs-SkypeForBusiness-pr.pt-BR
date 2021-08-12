@@ -1,5 +1,5 @@
 ---
-title: Roteamento Direto do Sistema de Telefonia
+title: Telefone roteamento direto do sistema em Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,20 +15,20 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Saiba mais sobre Roteamento Direto, como configuração, decisões de implantação principais necessárias e considerações de roteamento de voz.
+description: Saiba mais sobre configuração de Roteamento Direto, decisões de implantação básicas necessárias e considerações sobre roteamento de voz.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cfa0f6aecf2dfeb708d51ff6ebd98f13a36167125f295329f3e37b2e39c0daf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848066"
 ---
-# <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema de Telefonia
+# <a name="phone-system-direct-routing"></a>Telefone roteamento direto do sistema
 
 Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Talvez você tenha implantado [Reuniões & conferência.](deploy-meetings-microsoft-teams-landing-page.md) Agora você está pronto para adicionar cargas de trabalho de voz na nuvem e decidiu usar sua própria operadora de telefonia para conectividade PSTN (Rede Telefônica Pública Comugada) usando Sistema de Telefonia Roteamento Direto. Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
 
@@ -50,7 +50,7 @@ Além disso, talvez você queira ler os seguintes artigos, dependendo de seus re
 -  [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Assista à sessão a seguir para saber mais sobre Roteamento Direto: [Roteamento Direto no Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação
+## <a name="core-deployment-decisions"></a>Decisões principais de implantação
 
 Estas são as principais decisões a considerar para Roteamento Direto. 
 

@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Leia este tópico para saber como planejar seus sites PSTN do Cloud Connector Edition para garantir o roteamento de chamadas eficiente e econômico.
-ms.openlocfilehash: b42f9109a52b5c30996abc3e42ef4ff0aa5f31dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339957"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plano para sites PSTN do Cloud Connector Edition
 
 > [!Important]
-> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com Skype for Business Online. Depois que sua organização tiver sido atualizada para Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
  
 Leia este tópico para saber como planejar seus sites PSTN do Cloud Connector Edition para garantir o roteamento de chamadas eficiente e econômico.
   
@@ -40,7 +40,7 @@ Como parte do seu planejamento para o Cloud Connector, é essencial que você fa
   
 Cada dispositivo do Cloud Connector pode ser conectado a vários Gateways IP, PBXs IP ou Controladores de Borda de Sessão (SBCs). Como os Gateways e PBXs estão conectados a troncos telco (troncos PRI ou SIP), os dispositivos do Cloud Connector são logicamente conectados a troncos PSTN para chamadas de entrada e saída. Com o Cloud Connector e a conectividade PSTN local, você obtém o tronco e os números de telefone associados de sua operadora local. Se sua empresa for uma grande empresa, você poderá ter mais de uma operadora, especialmente se sua empresa abranger mais de uma cidade, estado ou país. Como sua operadora é proprietária do número de telefone, a operadora é responsável por lidar com chamadas de emergência.
   
-O Skype for Business Online trata todos os dispositivos do Cloud Connector em um site igualmente e roteia chamadas de saída em rotação para dispositivos do Cloud Connector no mesmo site. Cada Cloud Connector em um site é conectado ao mesmo conjunto de troncos PSTN (totalmente meshed). Como cada usuário está associado a um site PSTN do Cloud Connector, qualquer chamada de saída desse usuário (normal ou emergência) será atribuída a um dos dispositivos do Cloud Connector no site PSTN ao qual o usuário está associado. 
+Skype for Business Online trata todos os dispositivos do Cloud Connector em um site igualmente e roteia chamadas de saída em rotação para dispositivos do Cloud Connector no mesmo site. Cada Cloud Connector em um site é conectado ao mesmo conjunto de troncos PSTN (totalmente meshed). Como cada usuário está associado a um site PSTN do Cloud Connector, qualquer chamada de saída desse usuário (normal ou emergência) será atribuída a um dos dispositivos do Cloud Connector no site PSTN ao qual o usuário está associado. 
   
 O Cloud Connector faz o roteamento de chamadas estáticas para seus Gateways IP anexados, IP-PBXs, SBCs ou troncos PSTN diretos. O Cloud Connector ainda não é capaz de roteamento dinâmico para um tronco com base no destino (para roteamento de menor custo) ou com base na origem (chamada de emergência estática ou dinâmica). As chamadas de entrada não são um problema, pois a chamada só pode vir de um tronco associado ao número. As chamadas de saída, no entanto, podem ir para qualquer dispositivo do Cloud Connector em um site (e, por extensão, os troncos PSTN anexados a esse dispositivo do Cloud Connector) que podem causar chamadas de longa distância indesejadas. Além disso, as chamadas de emergência não passarão se o site PSTN do Cloud Connector for estendido entre datacenters com diferentes códigos de área ou operadoras.
   

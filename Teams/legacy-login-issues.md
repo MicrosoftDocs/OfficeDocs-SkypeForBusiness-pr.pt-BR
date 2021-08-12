@@ -17,15 +17,14 @@ description: Solucionar problemas relacionados ao recebimento de mensagens e cha
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1c209d1acc83e63792722b00b63be5a6b9f3721a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b013817ab363b91f7041d285616f7bd919dc84b9afd1298ec74d8e9dc64046a5
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848376"
 ---
-<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problemas de recebimento de mensagens e chamadas em sistemas herdadas
-==============================================================
+# <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problemas de recebimento de mensagens e chamadas em sistemas herdadas
 
 Os usuários podem ter problemas para receber mensagens ou chamadas se eles estão usando versões mais antigas Teams ou se fizeram logo in-lo com outros aplicativos.
 

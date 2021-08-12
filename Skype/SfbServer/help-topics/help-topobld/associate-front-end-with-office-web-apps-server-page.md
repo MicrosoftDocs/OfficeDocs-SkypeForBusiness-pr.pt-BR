@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
-description: O Servidor do Office Web Apps fornece serviços semelhantes a um apresentador carregando um documento para uso em uma reunião, mas habilita recursos adicionais que as versões anteriores não fizeram.
-ms.openlocfilehash: 7f5411b2a30fd027125eb2e86f68ba48663ed06b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: O Office Web Apps Server fornece serviços semelhantes a um apresentador carregando um documento para uso em uma reunião, mas habilita recursos adicionais que as versões anteriores não fizeram.
+ms.openlocfilehash: 32716f1dab5cbde7eed222a3178fa2db01748c14a579aa6866d1ce125c1cd7fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106887"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303724"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Associar Front-end com a Página do Servidor do Office Web Apps
 
-O Servidor do Office Web Apps fornece serviços semelhantes a um apresentador carregando um documento para uso em uma reunião, mas habilita recursos adicionais que as versões anteriores não fizeram.
+O Office Web Apps Server fornece serviços semelhantes a um apresentador carregando um documento para uso em uma reunião, mas habilita recursos adicionais que as versões anteriores não fizeram.
 
-Selecione um Servidor do Office Web Apps para sua implantação se tiver escolhido Conferência como uma das opções de recurso para sua configuração do Skype for Business Server 2015.
+Selecione um servidor Office Web Apps para sua implantação se tiver escolhido Conferência como uma das opções de recurso para sua configuração Skype for Business Server 2015.
 
 As opções nessa caixa de diálogo são as seguintes:
 
-1. **Associar pool a um Servidor do Office Web Apps** - Marque essa caixa de seleção se fornecer e implantar um Servidor do Office Web Apps para seus usuários de conferência.
+1. **Associar pool a um servidor Office Web Apps** – selecione essa caixa de seleção se fornecer e implantar um servidor Office Web Apps para seus usuários de conferência.
 
 2. Se você tiver marcado a caixa de seleção, use a lista para selecionar um Office Web Apps Server já definido.
 

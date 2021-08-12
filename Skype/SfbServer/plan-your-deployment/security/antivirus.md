@@ -1,5 +1,5 @@
 ---
-title: Exclusões de verificação de antivírus para o Skype for Business Server
+title: Exclusões de verificação de antivírus para Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Visão geral da interoperação do scanner antivírus com o Skype for Business Server.
-ms.openlocfilehash: 64646304b98de075fd9af0a82096da8c0bff2f12
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Visão geral da interoperação do scanner antivírus com Skype for Business Server.
+ms.openlocfilehash: 2f44b5a07bf62f06f3363b2f6938e48d9f5866626be44626bd0bd3cb4cf3a2d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347806"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusões de verificação de antivírus para o Skype for Business Server
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusões de verificação de antivírus para Skype for Business Server
 
-Visão geral da interoperação do scanner antivírus com o Skype for Business Server.
+Visão geral da interoperação do scanner antivírus com Skype for Business Server.
 
-Para garantir que o scanner antivírus não interfira na operação do Skype for Business Server, você deve excluir processos e diretórios específicos para cada servidor do Skype for Business Server ou função de servidor na qual você execute um scanner antivírus. Os seguintes processos e diretórios devem ser excluídos:
+Para garantir que o scanner antivírus não interfira na operação do Skype for Business Server, exclua processos e diretórios específicos para cada servidor Skype for Business Server ou função de servidor na qual você execute um scanner antivírus. Os seguintes processos e diretórios devem ser excluídos:
 
 > [!NOTE]
-> Os locais de pasta e arquivo listados abaixo são os locais padrão para o Skype for Business Server. Para os locais nos quais você não usou o padrão, exclua os locais especificados para a sua organização em vez dos locais padrão especificados neste tópico.
+> Os locais de pasta e arquivo listados abaixo são os locais padrão para Skype for Business Server. Para os locais nos quais você não usou o padrão, exclua os locais especificados para a sua organização em vez dos locais padrão especificados neste tópico.
 
 > [!IMPORTANT]
 > Observe que alguns programas antivírus podem precisar de caminhos absolutos, não relativos, para sua lista de exclusão.
 
-- Processos do Skype for Business Server:
+- Skype for Business Server processos:
 
   - ABServer.exe
 
@@ -82,7 +82,7 @@ Para garantir que o scanner antivírus não interfira na operação do Skype for
 
   - XmppTGW.exe
 
-- Processos do Windows Fabric Host Service:
+- Windows Fabric Processos de Serviço host:
 
   - Fabric.exe
 
@@ -113,7 +113,7 @@ Para garantir que o scanner antivírus não interfira na operação do Skype for
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe
 
-  - Instância RTC de Instalação standard Edition
+  - Edição Standard Instância RTC de instalação
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 
@@ -126,7 +126,7 @@ Para garantir que o scanner antivírus não interfira na operação do Skype for
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > Observe que esses caminhos são específicos da versão do Skype for Business Server.
+    > Observe que esses caminhos são específicos para Skype for Business Server versão.
 
   - %programfiles%\Skype for Business Server 2015
 
@@ -142,4 +142,4 @@ Para garantir que o scanner antivírus não interfira na operação do Skype for
 
   - Os dados e arquivos de log do  SQL Server, incluindo para o banco de dados de Back-End, repositório de usuários, repositório de arquivamento, repositório de monitoramento e repositório do aplicativo. Os arquivos de log e banco de dados podem ser especificados no Construtor de Topologias. Para obter detalhes sobre os arquivos de dados e de log para cada banco de dados, incluindo nomes padrão, consulte [SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) na documentação de Implantação.
 
-  - SQL Server dados e arquivos de log, incluindo aqueles para o banco de dados front-end, o armazenamento do Skype for Business e o armazenamento RtcDatabase. Eles normalmente estão em %localdrive%\CSData.
+  - SQL Server dados e arquivos de log, incluindo aqueles para o banco de dados front-end, o Skype for Business store e o armazenamento RtcDatabase. Eles normalmente estão em %localdrive%\CSData.

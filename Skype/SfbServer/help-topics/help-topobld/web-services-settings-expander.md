@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
-description: No Construtor de Topologias, você pode modificar as configurações de porta usadas para seus serviços Web internos e externos. Além disso, se você estiver implantando o balanceamento de carga DNS (Sistema de Nomes de Domínio), poderá usar o Construtor de Topologias para configurar o FQDN (nome de domínio totalmente qualificado) do pool que é resolvido para os endereços IP físicos de todos os servidores nesse pool.
-ms.openlocfilehash: 00fbf89b6e8121b5e2cd8d1b8d544531cc411e3f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: No Construtor de Topologias, você pode modificar as configurações de porta usadas para seus serviços Web internos e externos. Além disso, e se você estiver implantando o balanceamento de carga DNS (Sistema de Nomes de Domínio), poderá usar o Construtor de Topologias para configurar o FQDN (nome de domínio totalmente qualificado) do pool que se resolve para os endereços IP físicos de todos os servidores nesse pool.
+ms.openlocfilehash: 718d5966d08c923c1ad87360b6337282cf6ec6af432db1f2d13590467db4fbf3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347976"
 ---
 # <a name="web-services-settings-expander"></a>Expansor de Configurações de Serviços da Web
  
-No Construtor de Topologias, você pode modificar as configurações de porta usadas para seus serviços Web internos e externos. Além disso, se você estiver implantando o balanceamento de carga DNS (Sistema de Nomes de Domínio), poderá usar o Construtor de Topologias para configurar o FQDN (nome de domínio totalmente qualificado) do pool que é resolvido para os endereços IP físicos de todos os servidores nesse pool.
+No Construtor de Topologias, você pode modificar as configurações de porta usadas para seus serviços Web internos e externos. Além disso, e se você estiver implantando o balanceamento de carga DNS (Sistema de Nomes de Domínio), poderá usar o Construtor de Topologias para configurar o FQDN (nome de domínio totalmente qualificado) do pool que se resolve para os endereços IP físicos de todos os servidores nesse pool.
   
 ### <a name="editing-web-services-settings"></a>Editando Definições de Serviços Web
 
@@ -33,9 +33,9 @@ No Construtor de Topologias, você pode modificar as configurações de porta us
 2. Na caixa de diálogo **Editar Propriedades**, clique na guia **Serviços Web**.
     
     > [!CAUTION]
-    > Se você tiver mais de um pool de Front-End ou Servidor Front-End, o FQDN dos serviços Web externos deverá ser exclusivo. Por exemplo, se você definir o FQDN de serviços Web externos de um Servidor front-end como **pool01.contoso.com**, não poderá usar o **pool01.contoso.com** para outro pool de front-end ou servidor front-end. Se você também estiver implantando Diretores, o FQDN de serviços Web externos definido para qualquer Diretor ou pool de Diretores deverá ser exclusivo de qualquer outro Diretor ou pool de Diretores, bem como de qualquer pool de Front-End ou Servidor Front-End. Se você decidir substituir os serviços Web internos por um FQDN autodefina, cada FQDN deverá ser exclusivo de qualquer outro pool de Front-End, Diretor ou pool de Diretores.
+    > Se você tiver mais de um pool de Front-End ou Servidor Front-End, o FQDN de serviços Web externos deve ser exclusivo. Por exemplo, se você definir o FQDN de serviços Web externos de um Servidor Front-End como **pool01.contoso.com**, não poderá usar o **pool01.contoso.com** para outro pool de Front-End ou Servidor Front-End. Se você também estiver implantando Diretores, o FQDN de serviços Web externos definido para qualquer diretor ou pool de diretores deve ser exclusivo de qualquer outro diretor ou pool de diretores, bem como qualquer pool de Front-End ou Servidor Front-End. Se você decidir substituir os serviços Web internos por um FQDN auto-definido, cada FQDN deve ser exclusivo de qualquer outro pool de Front-End, Diretor ou pool de Diretores.
   
-3. Caso esteja editando as propriedades de um pool Enterprise Edition, você terá a opção de escolher **Substituir FQDN**. Esta opção deve ser selecionada apenas caso esteja usando balanceamento de carga DNS (Domain Name System). Se estiver usando balanceamento de carga DNS, selecione **Substituir FQDN** e, na caixa de texto, digite o FQDN do pool que resolve para todos os endereços IP físicos dos servidores no pool em questão. Caso não esteja usando balanceamento de carga DNS e não selecionar **Substituir FQDN**, você não poderá alterar o FQDN dos serviços web internos. O FQDN de serviços Web internos é a URL usada por usuários internos para se conectar ao Skype for Business Server.
+3. Caso esteja editando as propriedades de um pool Enterprise Edition, você terá a opção de escolher **Substituir FQDN**. Esta opção deve ser selecionada apenas caso esteja usando balanceamento de carga DNS (Domain Name System). Se estiver usando balanceamento de carga DNS, selecione **Substituir FQDN** e, na caixa de texto, digite o FQDN do pool que resolve para todos os endereços IP físicos dos servidores no pool em questão. Caso não esteja usando balanceamento de carga DNS e não selecionar **Substituir FQDN**, você não poderá alterar o FQDN dos serviços web internos. O FQDN de serviços Web internos é a URL usada por usuários internos para se conectar a Skype for Business Server.
     
 4. Insira, opcionalmente, novos valores HTTP, HTTPS ou HTTP e HTTPS para as **Portas de escuta** e as **Portas publicadas**. Portas de escuta são as portas usadas pelos IIS (Internet Information Services) para escutar por tráfego SIP (Session Initiation Protocol) de entrada; portas publicadas são portas configuradas em um balanceador de carga ou servidor de proxy reverso e também são usadas para escutar o tráfego SIP de entrada. Por padrão, tanto a porta de escuta HTTP quanto a porta publicada HTTP estão definidas à porta 80; as portas HTTPS correspondentes estão ambas definidas à 443. O valor padrão para as duas portas publicadas HTTP é 8080 e as portas HTTPS correspondentes estão definidas como 4443.
     

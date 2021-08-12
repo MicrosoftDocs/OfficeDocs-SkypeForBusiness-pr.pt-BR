@@ -1,5 +1,5 @@
 ---
-title: Roteamento Direto do Sistema de Telefonia
+title: 'Teams roteamento direto do sistema de telefonia: definições e padrões RFC'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,17 +14,17 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Protocolos de Roteamento Direto
+description: Como Telefone Microsoft Roteamento Direto do Sistema implementa protocolos padrão RFC.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88fb4459192ad9ff5af8702878d1cbf6a59d8e9d
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: 19e3b459cef954bc432f97c93c90eaa92091d27bb17c77cecc17e8699e83e65b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848056"
 ---
-# <a name="direct-routing---definitions-and-rfc-standards"></a>Roteamento Direto - Definições e padrões RFC
+# <a name="direct-routing---definitions-and-rfc-standards"></a>Roteamento direto - definições e padrões RFC
 
 Este artigo descreve como o Telefone Microsoft roteamento direto do sistema implementa protocolos padrão RFC. Este artigo destina-se aos administradores de voz responsáveis por configurar a conexão entre o SBC (Controlador de Borda de Sessão) local e o serviço proxy SIP (Session Initiation Protocol).
 

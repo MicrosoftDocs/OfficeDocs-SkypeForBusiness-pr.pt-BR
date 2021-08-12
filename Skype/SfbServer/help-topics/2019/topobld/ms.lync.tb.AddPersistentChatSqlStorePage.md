@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você configura os SQL Server que fornecerão bancos de dados para o servidor de chat persistente ou o pool do Servidor de Chat Persistente.
-ms.openlocfilehash: 67361310c9dec723dcc187791a0805dc59ee0fea
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8384b6d1a6df3d4e5e11f46de891b6af16cf6271addfd69e3330a6dc26218bd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340087"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>Adicionar Chat Persistente do Repositório do SQL Server
 
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para obter mais informações, consulte [Atualização do Skype for Business para o Microsoft Teams.](/MicrosoftTeams/upgrade-start-here) Se você precisar usar o chat persistente, suas opções são migrar usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015.
+> O chat persistente está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para obter mais informações, [consulte Skype for Business para Microsoft Teams atualização](/MicrosoftTeams/upgrade-start-here). Se você precisar usar o chat persistente, suas opções são migrar usuários que exigem essa funcionalidade para Teams ou continuar usando o Skype for Business Server 2015.

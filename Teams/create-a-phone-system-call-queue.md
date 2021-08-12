@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 2b07275b75fdb9e915fad026e8ef1c96dcb3ec89
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: d7072871bfc6e1a2c510824276e6918ccbe5a0eeade865158deac78701b87f11
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848646"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -143,7 +143,7 @@ As contas do Teams dos agentes precisam ser definidas para o modo apenas Teams. 
 > O modo de conferência não será suportado se as chamadas telefônicas são roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Local.
 
 > [!TIP]
-> Definir **o modo de conferência** como **Automático** é a configuração recomendada.
+> Definir **o modo de conferência** como **On** é a configuração recomendada.
 
 O **método de roteamento** determina a ordem na qual os agentes recebem chamadas da fila. Escolha uma destas opções:
 
@@ -206,7 +206,7 @@ Quando você tiver selecionado as opções de tempo limite de chamada, clique em
 
 As seguintes configurações são recomendadas:
 
-- **Modo de conferência** para **Automático**
+- **Modo de conferência** para **On**
 - **Método de roteamento** para **Round robin** ou **Ocioso por mais tempo**
 - **Roteamento baseado em presença** para **Ativado**
 - **Tempo de alerta do agente:** para **20 segundos**
