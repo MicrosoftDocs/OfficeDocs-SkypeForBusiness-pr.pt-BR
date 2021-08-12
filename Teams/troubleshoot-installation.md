@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba como solucionar problemas de instalação e atualização para o aplicativo cliente de área de trabalho do Teams no Windows.
-ms.openlocfilehash: 6235bd6336940d7d36a7de526eaaf1fbb93f5323
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 7b482daae7378027418896fee718ae5beb88f02f0bcccc9ed8ce6fc988cf8ab6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350184"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Solucionar problemas de instalação e atualização do Microsoft Teams no Windows
 
@@ -52,7 +52,7 @@ Se o SquirrelSetup.log não indicar a causa ou se você precisar de mais informa
 Quando o Teams é instalado com êxito, o local do log alterna de %LocalAppData%\SquirrelTemp para %LocalAppData%\Microsoft\Teams. Neste local, há dois arquivos de log de interesse, SquirrelSetup.log e logs.txt.
 
 - O arquivo SquirrelSetup.log neste local é escrito por Update.exe, que é um executável que usa o aplicativo Teams.
-- O arquivo logs.txt é usado pelo aplicativo Teams (especificamente Teams.exe) para registrar eventos significativos de aplicativos. Provavelmente, contém informações de falha.
+- O arquivo Logs.txt é usado pelo aplicativo Teams (especificamente Teams.exe) para registrar eventos significativos do aplicativo. Ele provavelmente conterá informações de falha.
 
 Esses arquivos de log contêm informações de identificação pessoal (PII) e, portanto, não são enviados para a Microsoft.
 
@@ -80,7 +80,7 @@ Esta seção descreve como coletar e analisar os logs do aplicativo e do sistema
         ```console
         cd /d %TEMP%
         ```
-    2. Copie os logs de aplicativos e de configuração. Observe que, dependendo do ponto de falha, alguns desses registros podem não estar presentes.
+    2. Copie a instalação e os logs do aplicativo. Observe que, dependendo do ponto de falha, alguns desses logs podem não estar presentes.
 
         ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log

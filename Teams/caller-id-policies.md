@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de ID do chamador Microsoft Teams alterar ou bloquear a ID do chamador de Teams usuários em sua organização.
-ms.openlocfilehash: cd928af5213a1e6fa927662adaba0fefecb687d5
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7157f1a2a7997a8278ac05ac74db676cb551b20d5858b8732e373429f4b5e5aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341436"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gerenciar políticas de identificação de chamadas no Microsoft Teams
 

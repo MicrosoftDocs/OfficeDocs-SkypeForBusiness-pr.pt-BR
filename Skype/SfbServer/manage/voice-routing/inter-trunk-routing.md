@@ -1,5 +1,5 @@
 ---
-title: Roteamento entre troncos no Skype for Business Server
+title: 'Skype for Business Server: roteamento entre troncos'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,24 +10,24 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'O Skype for Business Server fornece gerenciamento básico de sessão por meio do suporte ao roteamento entre confianças. '
-ms.openlocfilehash: d509b4f9de489e65ed8443fd1aad92e24363fb55
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Skype for Business Server fornece gerenciamento básico de sessão por meio do suporte ao roteamento entre confianças. '
+ms.openlocfilehash: 917f6bb1eb114202f06e1f1d2be0c7c126f42d8cf1614c2a05dcce0dde6bb9a6
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850166"
 ---
-# <a name="inter-trunk-routing-in-skype-for-business-server"></a>Roteamento entre troncos no Skype for Business Server
+# <a name="skype-for-business-server-inter-trunk-routing"></a>Skype for Business Server: roteamento entre troncos
 
-O Skype for Business Server fornece gerenciamento básico de sessão por meio do suporte ao roteamento entre confianças. Esse recurso permite que o Skype for Business Server forneça funcionalidades de controle de chamada para sistemas de telefonia downstream. O roteamento entre troncos pode interconectar um IP-PBX a um gateway de rede de telefone pública comutada (PSTN) de forma que as chamadas de um telefone de central privada de comutação telefônica (PBX) possam ser encaminhadas para o PSTN, e as chamas PSTN de entrada possam ser encaminhadas para um telefone PBX. Da mesma forma, o Skype for Business Server pode interconectar dois ou mais sistemas IP-PBX para que as chamadas possam ser feitas e recebidas entre telefones PBX de diferentes sistemas IP-PBX. 
+Skype for Business Server fornece gerenciamento básico de sessão por meio do suporte ao roteamento entre confianças. Essa funcionalidade permite que Skype for Business Server funcionalidades de controle de chamada para sistemas de telefonia downstream. O roteamento entre troncos pode interconectar um IP-PBX a um gateway de rede de telefone pública comutada (PSTN) de forma que as chamadas de um telefone de central privada de comutação telefônica (PBX) possam ser encaminhadas para o PSTN, e as chamas PSTN de entrada possam ser encaminhadas para um telefone PBX. Da mesma forma, Skype for Business Server pode interconectar dois ou mais sistemas IP-PBX para que as chamadas possam ser feitas e recebidas entre telefones PBX dos diferentes sistemas IP-PBX. 
 
 
-A figura a seguir ilustra o Skype for Business Server fornecendo interconectividade entre um gateway PSTN e um IP-PBX.
+A figura a seguir ilustra Skype for Business Server a interconectividade entre um gateway PSTN e um IP-PBX.
 
-![Interconexão entre um gateway PSTN e um IP-PBX](../../media/pstn-gateway-ip-pbx.jpg)
+![Interconectividade entre um gateway PSTN e um IP-PBX](../../media/pstn-gateway-ip-pbx.jpg)
 
-A próxima figura ilustra a conexão do Skype for Business Server com dois sistemas IP-PBX.
+A próxima figura ilustra Skype for Business Server conectar dois sistemas IP-PBX.
 
-![Skype for Business Server conectando dois sistemas IP-PGX](../../media/two-ip-pbx-systems.jpg)
+![Skype for Business Server conectar dois sistemas IP-PGX](../../media/two-ip-pbx-systems.jpg)
 

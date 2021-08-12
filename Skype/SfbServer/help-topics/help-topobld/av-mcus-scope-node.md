@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
-description: 'O nó  Pool de Conferência A/V  lista os pools de Conferência A/V da sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 42538978fcf03ea3b55c7f0c5ac05fc5af9c9a53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'O nó  Pool de Conferência A/V  lista os pools de Conferência A/V da sua topologia. Você pode realizar a seguinte ação:'
+ms.openlocfilehash: c2ab9ddccf2b9187899f618b930b350f623dfb1fbb80bf76f797b65fef8223d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833251"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298281"
 ---
 # <a name="av-mcus-scope-node"></a>Nó de Escopol AV de MCUs
  

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée ete. "
-ms.openlocfilehash: fca5860c09439a4c5f16910962cdfa186aa3ab8d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 269e53cf75938c789e3b51177ae02dcdbf40f14e1b24da96f327051a93433e5a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333013"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 

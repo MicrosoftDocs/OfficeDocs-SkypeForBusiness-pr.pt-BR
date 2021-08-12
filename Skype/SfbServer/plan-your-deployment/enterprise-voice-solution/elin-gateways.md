@@ -1,5 +1,5 @@
 ---
-title: Gerenciar locais para gateways ELIN no Skype for Business Server
+title: Gerenciar locais para gateways ELIN em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-description: Decisões necessárias para o planejamento de um banco de dados de informações de local ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando gateways ELIN, no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: dd16270aa5a41e3ca50e92859bd1a789426e647b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Decisões necessárias para o planejamento de um banco de dados de informações de local ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando gateways ELIN, em Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092909"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323073"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gerenciar locais para gateways ELIN no Skype for Business Server
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gerenciar locais para gateways ELIN em Skype for Business Server
 
-Decisões necessárias para o planejamento de um banco de dados de informações de local ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando gateways ELIN, no Skype for Business Server Enterprise Voice.
+Decisões necessárias para o planejamento de um banco de dados de informações de local ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando gateways ELIN, em Skype for Business Server Enterprise Voice.
 
-Para que o Skype for Business Server forneça automaticamente locais para clientes em uma rede, você precisa executar as seguintes tarefas:
+Para que Skype for Business Server locais para clientes em uma rede, você precisa executar as seguintes tarefas:
 
 - Preencha o banco de dados do serviço informações de local com um mapa de rede e inclua os NÚMEROS de Identificação de Local de Emergência (ELINs) no campo CompanyName.
 
 - Publique as localizações, dessa forma, elas estarão disponíveis para os clientes da sua rede.
 
-- Carregue os ELINs no banco de dados de Identificação Automática de Localização (ALI) da operadora PSTN.
+- Upload os ELINs para o banco de dados ali da sua rede telefônica pública comutado (PSTN).
 
 Para obter detalhes sobre como executar essas tarefas, consulte [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) na Documentação de Implantação.
 
 > [!NOTE]
-> Os locais adicionados ao banco de dados de localização central não estão disponíveis para o cliente até que tenham sido publicados usando um comando Shell de Gerenciamento do Skype for Business Server e são replicados para os armazenamentos locais do pool. Para obter detalhes, consulte [Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) na Documentação da Implantação.
+> Os locais adicionados ao banco de dados de localização central não estarão disponíveis para o cliente até que tenham sido publicados usando um comando Skype for Business Server Shell de Gerenciamento e sejam replicados para os armazenamentos locais do pool. Para obter detalhes, consulte [Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) na Documentação da Implantação.
 
 Essa seção descreve coisas a serem consideradas conforme você planeja atualizar e manter seu banco de dados de locais.
 
@@ -52,7 +52,7 @@ O campo  Local do serviço de Informações de Localização, que contém o loca
 
 - Um nome fácil de entender que identifica o local do chamador 911 para ajudar a garantir que os respondentes de emergência encontrem o local específico prontamente quando chegarem ao endereço cívico. Esse nome de local pode incluir um número de construção, um número de piso, um designador de asa, um número de sala e assim por diante. Evite apelidos conhecidos apenas pelos funcionários, o que pode fazer com que os respondentes de emergência acessem o local errado.
 
-- Um identificador de local que ajuda os usuários a ver facilmente que seu cliente escolheu o local correto. O cliente skype for Business concatena automaticamente e exibe os campos **Local** e **Cidade** descobertos em seu header. Uma boa prática é adicionar o endereço de rua do edifício a cada identificador de local (por exemplo, "1º Andar <street number> "). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
+- Um identificador de local que ajuda os usuários a ver facilmente que seu cliente escolheu o local correto. O Skype for Business cliente automaticamente concatena e exibe os campos **Local** e **Cidade** descobertos em seu header. Uma boa prática é adicionar o endereço de rua do edifício a cada identificador de local (por exemplo, "1º Andar <street number> "). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
 
 - Se o local for aproximado porque ele é determinado por um ponto de acesso sem fio, talvez você queira adicionar a palavra **[Near]** (por exemplo, "Próximo ao 1º Andar 1234").
 
@@ -84,9 +84,9 @@ Onde os dados existem e quais etapas você precisa executar para converter os da
 
  **Você tem um banco de dados de terceiros que já contém um mapeamento de locais?**
 
-Usando a opção serviço Informações de Local Secundário para se conectar a um banco de dados de terceiros, você pode agrupar e gerenciar locais usando uma plataforma offline. Um benefício dessa abordagem é que além de associar locais aos identificadores de rede, é possível associar locais a um usuário. Isso significa que o serviço Informações de Local pode retornar vários endereços, provenientes do serviço Informações de Localização Secundária, para um cliente do Skype for Business. Em seguida, o usuário pode escolher o local mais apropriado.
+Usando a opção serviço Informações de Local Secundário para se conectar a um banco de dados de terceiros, você pode agrupar e gerenciar locais usando uma plataforma offline. Um benefício dessa abordagem é que além de associar locais aos identificadores de rede, é possível associar locais a um usuário. Isso significa que o serviço informações de local pode retornar vários endereços, provenientes do serviço Informações de Localização Secundária, para um cliente Skype for Business local. Em seguida, o usuário pode escolher o local mais apropriado.
 
-Para integrar-se ao serviço Informações de Local, o banco de dados de terceiros deve seguir o esquema Solicitação/Resposta de Local do Skype for Business Server. Para obter detalhes, [consulte Web Service for E911 Support Protocol](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd). Para obter detalhes sobre como implantar um serviço de Informações de Local Secundário, consulte [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) na documentação de implantação.
+Para integrar-se ao serviço informações de local, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta Skype for Business Server local. Para obter detalhes, [consulte Web Service for E911 Support Protocol](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd). Para obter detalhes sobre como implantar um serviço de Informações de Localização Secundária, consulte [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) na documentação implantação.
 
 Para obter detalhes sobre como preencher o banco de dados de localização, consulte [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) na documentação de Implantação.
 
@@ -98,6 +98,6 @@ Depois de preencher o banco de dados de local, é necessário desenvolver uma es
 
 Há vários cenários que exigem uma atualização para o banco de dados de localização, incluindo a adição de waps (pontos de acesso sem fio), recorrência do office (resultando em atribuições de comutadores diferentes) e expansão de sub-rede. Você atualizará diretamente cada local individual ou realizará uma atualização em massa de todos os locais usando um arquivo CSV?
 
- **Você usará um aplicativo SNMP para corresponder endereços MAC de cliente do Skype for Business a identificadores de porta e de opção?**
+ **Você usará um aplicativo SNMP para corresponder Skype for Business mac cliente a identificadores de porta e de opção?**
 
 Se você usar um aplicativo SNMP, precisará desenvolver um processo manual para manter as informações de chassi de comutador e de porta consistentes entre o aplicativo SNMP e o banco de dados de local. Se o aplicativo SNMP retornar um endereço IP de chassi ou uma ID de porta que não está incluído no banco de dados, o serviço de Informações de Local não poderá retornar um local para o cliente.

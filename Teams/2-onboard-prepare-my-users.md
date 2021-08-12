@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825079"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322873"
 ---
 # <a name="prepare-my-users"></a>Preparar meus usuários
 
@@ -92,7 +92,7 @@ A preparação organizacional ajuda a determinar o quão receptivos (ou não) se
 
  
 > [!TIP]
-> A aprendizagem não é de tamanho único. Ao compreender como seus usuários aprendem melhor, você pode criar um programa de treinamento robusto para ajudar a acelerar o aprendizado. Se muitos usuários são auto-motivadas, a vinculação a vídeos e guias de usuário pode ser suficiente. Para aqueles que precisam de atenção especializada, certifique-se de agendar algumas vezes ou inscrever seus campeões para ajudar esses usuários na &mdash; curva de aprendizado.
+> Learning não é de tamanho único. Ao compreender como seus usuários aprendem melhor, você pode criar um programa de treinamento robusto para ajudar a acelerar o aprendizado. Se muitos usuários são auto-motivadas, a vinculação a vídeos e guias de usuário pode ser suficiente. Para aqueles que precisam de atenção especializada, certifique-se de agendar algumas vezes ou inscrever seus campeões para ajudar esses usuários na &mdash; curva de aprendizado.
 
 <!--ENDOFSECTION-->
 
@@ -140,7 +140,7 @@ Para cada caso de uso, discuta o seguinte com sua equipe de projeto:
 
 -   Como a nova solução otimizará a experiência do usuário?
 
-Para exemplos de casos de uso, visite a [Biblioteca de Produtividade do FastTrack.](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)
+Para exemplos de casos de uso, visite o FastTrack [Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary).
 
 <!--ENDOFSECTION-->
 

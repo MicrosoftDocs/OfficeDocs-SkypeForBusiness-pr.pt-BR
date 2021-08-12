@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Áustria.
-ms.openlocfilehash: 96ef030f814c4f261092d2e2d9a8a7e46f4a9be6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bdf47a162c9028f8a5afab82be330906c4cfa4fec1436e0ada89a74e2aed647b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341387"
 ---
 # <a name="availability-in-austria"></a>Disponibilidade na Áustria
 

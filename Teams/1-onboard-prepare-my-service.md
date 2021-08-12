@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42ded974ba5f4400bdcb5796410a8277fbed4488
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a8aa2818cb2b4be85054f8804fa6a11112c4e8a68cc171e9b9f7191e3f3a5bfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103967"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322913"
 ---
 # <a name="prepare-my-service"></a>Preparar meu serviço
 
@@ -56,7 +56,7 @@ Embora seja recomendável que você siga as listas de verificação em ordem, a 
 Quando você está integrando usuários por site, recomendamos que você use o Manual de Habilitações de Site para Voz [(Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como um guia complementar para essas listas de verificação.
 
 >[!NOTE]
->A maioria das configurações é comum entre Teams e Skype for Business Online. Você usa o Microsoft 365 De administração e o Microsoft Teams de administração para configurar essas configurações.
+>A maioria das configurações é comum entre Teams e Skype for Business Online. Use a Central Administração Microsoft 365 e o Microsoft Teams de administração para configurar essas configurações.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Who será responsável por supervisionar a conclusão das listas de verificação de integração?</li></ul></td></tr>

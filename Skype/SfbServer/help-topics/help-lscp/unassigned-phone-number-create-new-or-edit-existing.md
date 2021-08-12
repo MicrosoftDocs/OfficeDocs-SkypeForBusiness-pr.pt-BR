@@ -1,5 +1,5 @@
 ---
-title: Número de telefone não atribuído Criar Novo ou Editar Existente
+title: Número não atribuído Telefone Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: c757be0b49638c39a9f20f83baf680508a907b20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13b2caaa8e7b364fa60ab32e6c62f982612121c4861197cd2b76597975c0ba50
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116179"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313389"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de Telefone Não Atribuído: Criar Novo ou Editar Existente
 
@@ -43,7 +43,7 @@ A lista a seguir descreve os campos na página.
 
   - O número deve corresponder à expressão regular `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` . Isso significa que o número pode começar com a cadeia de caracteres (se você não especificar essa cadeia de caracteres será adicionada automaticamente para você), um sinal de a mais (+) e um dígito `tel:` de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido por uma extensão no formato ;ext= seguido pelo número de extensão.
 
-- **Serviço de comunicado** Selecione **Comunicado** para que o aplicativo Comunicado manipular a chamada de entrada ou a UM do Exchange para que um **um UM** do Exchange Atendedor Automático lidar com a chamada de entrada.
+- **Serviço de comunicado** Selecione **Comunicado** para que o aplicativo Comunicado manipular a chamada de entrada ou Exchange UM para ter um Exchange **de** UM Atendedor Automático lidar com a chamada de entrada.
 
 - Se você tiver selecionado **Anúncio** para **Serviço de anúncio**:
 
@@ -53,6 +53,6 @@ A lista a seguir descreve os campos na página.
 
 - Se você tiver selecionado **U do Exchange** para **Serviço de anúncio**:
 
-  - **Atendedor Automático telefone** Selecione o número de telefone do exchange um Atendedor Automático.
+  - **Atendedor Automático telefone** Selecione o número de telefone do Exchange um Atendedor Automático.
 
-Para obter detalhes sobre recursos e recursos do Comunicado, consulte [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) na documentação Operações.
+Para obter detalhes sobre recursos e recursos do Comunicado, consulte [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação Planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) na documentação Operações.

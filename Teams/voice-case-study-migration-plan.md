@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams de caso de voz para corporação multi-nacional: Planejamento de atualização.'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a458f2c98b0f6de8bc2d3b3d23e2b68e4cadd931
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 2c2d64e93e8f9ab53cd2a696af69de4b7f0d4f7348fec27a189b60896ee1ec02
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350173"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Estudo de caso contoso: Teams plano de atualização
 

@@ -1,5 +1,5 @@
 ---
-title: Componentes voIP do servidor front-end para o Skype for Business Server
+title: Componentes voIP do servidor front-end para Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
-description: Saiba mais sobre os Enterprise Voice que estão localizados em Servidores Front-End no Skype for Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
-ms.openlocfilehash: 830f54e59e0d2135e3748fd03474b19e22741136
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba mais sobre os Enterprise Voice que estão localizados em Servidores Front-End em Skype for Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
+ms.openlocfilehash: 5df2937d0329796f634c5b4fac21b6921001d65bf3795589ce718ba08ecd9c36
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333113"
 ---
-# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Componentes voIP do servidor front-end para o Skype for Business Server
+# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Componentes voIP do servidor front-end para Skype for Business Server
 
-Saiba mais sobre os Enterprise Voice que estão localizados em Servidores Front-End no Skype for Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
+Saiba mais sobre os Enterprise Voice que estão localizados em Servidores Front-End em Skype for Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
 
 Os componentes VoIP localizados em Servidores Front-End são os seguinte:
 
@@ -39,7 +39,7 @@ Os componentes VoIP localizados em Servidores Front-End são os seguinte:
 
 - Componente de roteamento entre clusters
 
-- [Componente do Servidor de Mediação no Skype for Business Server](mediation-server.md)
+- [Componente do Servidor de Mediação Skype for Business Server](mediation-server.md)
 
 ## <a name="translation-service"></a>Serviço de Conversão
 
@@ -47,19 +47,19 @@ O Serviço de Conversão é o componente de servidor responsável pela conversã
 
 ## <a name="inbound-routing-component"></a>Componente de Roteamento de Entrada
 
-O componente roteamento de entrada lida com chamadas de entrada em grande parte de acordo com as preferências especificadas pelos usuários em seus Enterprise Voice clientes. Também facilita a delegação de chamada e chamada simultânea, se configurada pelo usuário. Por exemplo, os usuários especificam se as chamadas não atendidas são encaminhadas ou simplesmente conectadas para notificação. Se o encaminhamento de chamadas estiver habilitado, os usuários poderão especificar se as chamadas não respondidas devem ser encaminhadas para outro número ou para um servidor de UM do Exchange configurado para fornecer atendimento de chamadas. O componente roteamento de entrada é instalado por padrão em todos os servidores Standard Edition e Servidores Front-End.
+O componente roteamento de entrada lida com chamadas de entrada em grande parte de acordo com as preferências especificadas pelos usuários em seus Enterprise Voice clientes. Também facilita a delegação de chamada e chamada simultânea, se configurada pelo usuário. Por exemplo, os usuários especificam se as chamadas não atendidas são encaminhadas ou simplesmente conectadas para notificação. Se o encaminhamento de chamadas estiver habilitado, os usuários poderão especificar se as chamadas não respondidas devem ser encaminhadas para outro número ou para um servidor de UM Exchange que foi configurado para fornecer atendimento de chamadas. O componente roteamento de entrada é instalado por padrão em todos os servidores Edição Standard e Servidores Front-End.
 
 ## <a name="outbound-routing-component"></a>Componente de Roteamento de Saída
 
-O componente de Roteamento de Saída direciona as chamadas para destinos do PBX ou PSTN. Ele aplica regras de autorização de chamada, conforme definido pela política de voz do usuário, aos chamadores e determina o gateway PSTN ideal para rotear cada chamada. O componente roteamento de saída é instalado por padrão em todos os servidores Standard Edition e Servidores Front-End.
+O componente de Roteamento de Saída direciona as chamadas para destinos do PBX ou PSTN. Ele aplica regras de autorização de chamada, conforme definido pela política de voz do usuário, aos chamadores e determina o gateway PSTN ideal para rotear cada chamada. O componente roteamento de saída é instalado por padrão em todos os servidores Edição Standard e Servidores Front-End.
 
 A lógica de roteamento usada pelo Componente de Roteamento de Saída é, em grande parte, configurada pelos administradores de rede e de telefonia, de acordo com os requisitos das organizações.
 
 ## <a name="exchange-um-routing-component"></a>Componente de Roteamento da UM do Exchange
 
-O componente de roteamento de UM do Exchange lida com o roteamento entre o Skype for Business Server e servidores que executam a Unificação de Mensagens do Exchange (UM), para integrar o Skype for Business Server aos recursos de Unificação de Mensagens.
+O Exchange de roteamento de UM lida com o roteamento entre Skype for Business Server e servidores executando Exchange Unificação de Mensagens (UM), para integrar Skype for Business Server com recursos de Unificação de Mensagens.
 
-O componente de roteamento de UM do Exchange também lida com o redirecionar de caixa postal pela PSTN se os servidores de UM do Exchange não estão disponíveis. Se você tiver Enterprise Voice usuários em sites de filial que não tenham um link WAN resiliente para um site central, o Aparelho de Filial Persistente implantado no site de filial fornece sobrevivência de caixa postal para usuários de filial durante uma inatividade wan. Quando o link WAN está indisponível, o Aparelho de Filial Suportável faz o seguinte:
+O Exchange de roteamento de UM também lida com o redirecionar de caixa postal pela PSTN se Exchange servidores de UM não estão disponíveis. Se você tiver Enterprise Voice usuários em sites de filial que não tenham um link WAN resiliente para um site central, o Aparelho de Filial Persistente implantado no site de filial fornece sobrevivência de caixa postal para usuários de filial durante uma inatividade wan. Quando o link WAN está indisponível, o Aparelho de Filial Suportável faz o seguinte:
 
 - faz um novo roteamento de chamadas não respondidas sobre o PSTN para o servidor de Unificação de Mensagens do Exchange no site central
 
@@ -67,7 +67,7 @@ O componente de roteamento de UM do Exchange também lida com o redirecionar de 
 
 - coloca em fila notificações de chamada perdida e as carrega no servidor de UM do Exchange quando o link de WAN for restaurado.
 
-Para habilitar o redirecionamento de caixa postal, recomendamos que o administrador do Exchange configure o Exchange UM Atendedor Automático (AA) para aceitar apenas mensagens.
+Para habilitar o redirecionamento de caixa postal, recomendamos que o administrador do Exchange configure Exchange um Atendedor Automático (AA) para aceitar apenas mensagens.
 
 Para obter detalhes sobre esses recursos, consulte [On-Premises Exchange Unified Messaging Integration](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration) e [Planning for Enterprise Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency), respectivamente.
 
@@ -83,4 +83,4 @@ Outros componentes que residem no Servidor front-end ou diretor que fornecem sup
 
 - **Replicador do Usuário.** Extrai números de telefone do usuário dos Serviços de Domínio do Active Directory e os grava em tabelas no banco de dados RTC, onde eles estão disponíveis para Serviços de Usuário e Servidor de Livro de Endereços. O Replicador de Usuários é um componente principal em todos os Servidores Front-End.
 
-- **Servidor do Catálogo de Endereço.** Fornece informações de lista de endereços globais dos Serviços de Domínio do Active Directory para clientes do Skype for Business Server. Ele também recupera informações de usuário e contato do banco de dados RTC, grava as informações nos arquivos do Livro de Endereços e armazena os arquivos em uma pasta compartilhada onde eles são baixados pelos clientes do Skype for Business. O Servidor de Livro de Endereços grava as informações no banco de dados RTCAb, que é usado pelo serviço de Consulta Da Web do Livro de Endereços para responder às consultas de pesquisa do usuário do Skype for Business mobile. Ele, opcionalmente, normaliza os números de telefone do usuário corporativo gravados no banco de dados RTC com a finalidade de provisionar contatos de usuários no Skype for Business. O serviço de Livro de Endereços é instalado por padrão em todos os Servidores Front-End. O serviço de Consulta Web do Livro de Endereços é instalado por padrão com os serviços Web em cada Servidor Front-End.
+- **Servidor do Catálogo de Endereço.** Fornece informações de lista de endereços globais dos Serviços de Domínio do Active Directory para Skype for Business Server clientes. Ele também recupera informações de usuário e contato do banco de dados RTC, grava as informações nos arquivos do Livro de Endereços e armazena os arquivos em uma pasta compartilhada onde são baixados por clientes Skype for Business. O Servidor de Livro de Endereços grava as informações no banco de dados RTCAb, que é usado pelo serviço de Consulta Da Web do Livro de Endereços para responder às consultas de pesquisa do usuário Skype for Business celular. Ele, opcionalmente, normaliza os números de telefone do usuário corporativo gravados no banco de dados RTC com a finalidade de provisionar contatos de usuários no Skype for Business. O serviço de Livro de Endereços é instalado por padrão em todos os Servidores Front-End. O serviço de Consulta Web do Livro de Endereços é instalado por padrão com os serviços Web em cada Servidor Front-End.

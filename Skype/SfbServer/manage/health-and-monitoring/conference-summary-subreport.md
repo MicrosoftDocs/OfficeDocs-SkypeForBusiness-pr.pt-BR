@@ -1,5 +1,5 @@
 ---
-title: Sub-relatório de resumo de conferências no Skype for Business Server
+title: Sub-relatório de resumo de conferência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Resumo: saiba mais sobre o Sub-relatório de Resumo de Conferências no Skype for Business Server.'
-ms.openlocfilehash: 9a42e16bc22f01f196274f1e25396d8516e26af2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Saiba mais sobre o Sub-relatório resumo da conferência Skype for Business Server.'
+ms.openlocfilehash: ec72c499a7a523dfcac3adaad43728c8e623526a5ff7264e12a7d6eb77df75cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298161"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Sub-relatório de resumo de conferências no Skype for Business Server
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Sub-relatório de resumo de conferência no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Sub-relatório de Resumo de Conferências no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Sub-relatório resumo da conferência Skype for Business Server.
   
 O Subrelatório de Resumo da Conferência oferece uma visão geral das sessões de conferência em falha. Estas sessões em falha são detalhadas pelo tipo de sessão: Sessão de foco e sessões MCU.
   

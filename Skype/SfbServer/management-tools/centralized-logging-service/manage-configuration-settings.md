@@ -1,5 +1,5 @@
 ---
-title: Gerenciar configurações do Serviço de Log Centralizado no Skype for Business Server 2015
+title: Gerenciar configurações do Serviço de Log Centralizado Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,28 +13,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
-description: 'Resumo: Saiba como recuperar, atualizar e criar configurações para o Serviço de Log Centralizado no Skype for Business Server 2015.'
-ms.openlocfilehash: fb2d66e6ff72bc5fb5a4c8c987713f3ca7030ab5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como recuperar, atualizar e criar configurações para o Serviço de Log Centralizado Skype for Business Server 2015.'
+ms.openlocfilehash: 627106900dbb3b174fc0105c6e61bb5a3c20f8028f45985a591d479c9962f49b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098857"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350143"
 ---
-# <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Gerenciar configurações do Serviço de Log Centralizado no Skype for Business Server 2015
+# <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Gerenciar configurações do Serviço de Log Centralizado Skype for Business Server 2015
 
-**Resumo:** Saiba como recuperar, atualizar e criar configurações para o Serviço de Log Centralizado no Skype for Business Server 2015.
+**Resumo:** Saiba como recuperar, atualizar e criar configurações para o Serviço de Log Centralizado Skype for Business Server 2015.
 
 O Serviço de Log Centralizado é controlado e configurado por configurações e parâmetros criados e usados pelo Controlador de Serviço de Log Centralizado (CLSController) para enviar comandos ao ClSAgent (Agente de Serviço de Log Centralizado) do computador individual. O agente processa os comandos enviados a ele e (no caso de um comando Start) usa a configuração dos cenários, provedores, duração do rastreamento e sinalizadores para começar a coletar logs de rastreamento de acordo com as informações de configuração fornecidas.
 
 > [!IMPORTANT]
->  Nem todos Windows PowerShell cmdlets listados para o Serviço de Log Centralizado são destinados para uso com implantações locais do Skype for Business Server 2015. Embora pareçam funcionar, os cmdlets a seguir não foram projetados para funcionar com implantações locais do Skype for Business Server 2015:
+>  Nem todos os cmdlets Windows PowerShell listados para o Serviço de Log Centralizado são destinados para uso com implantações locais Skype for Business Server 2015. Embora pareçam funcionar, os cmdlets a seguir não foram projetados para funcionar com implantações locais Skype for Business Server 2015:
 
 -  **Cmdlets CsClsRegion:** [Get-CsClsRegion,](/powershell/module/skype/get-csclsregion?view=skype-ps) [Set-CsClsRegion,](/powershell/module/skype/set-csclsregion?view=skype-ps) [New-CsClsRegion](/powershell/module/skype/new-csclsregion?view=skype-ps)e [Remove-CsClsRegion](/powershell/module/skype/remove-csclsregion?view=skype-ps).
 -  **Cmdlets CsClsSearchTerm:** [Get-CsClsSearchTerm](/powershell/module/skype/get-csclssearchterm?view=skype-ps) e [Set-CsClsSearchTerm](/powershell/module/skype/set-csclssearchterm?view=skype-ps).
 -  **Cmdlets CsClsSecurityGroup:** [Get-CsClsSecurityGroup](/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-CsClsSecurityGroup](/powershell/module/skype/set-csclssecuritygroup?view=skype-ps),  [New-CsClsSecurityGroup](/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)e [Remove-CsClsSecurityGroup](/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
 
-As configurações definidas nesses cmdlets não prejudicarão ou causarão qualquer comportamento adverso, mas foram projetadas para uso com o Microsoft 365 ou o Office 365 e não gerarão os resultados esperados em implantações locais. Isso não quer dizer que não há uso para esses cmdlets em implantações locais, mas sua utilização é um tópico mais avançado que não é abordado nesta documentação.
+As configurações definidas nesses cmdlets não prejudicarão ou causarão qualquer comportamento adverso, mas foram projetadas para uso com Microsoft 365 ou Office 365 e não gerarão os resultados esperados em implantações locais. Isso não quer dizer que não há uso para esses cmdlets em implantações locais, mas sua utilização é um tópico mais avançado que não é abordado nesta documentação.
 
 O Serviço de Log Centralizado pode ser executado em um escopo que inclui um único computador ou um pool de computadores, em um escopo de site (ou seja, um site definido como o site Redmond que contém um conjunto de computadores e pools em sua implantação) ou em um escopo global (ou seja, todos os computadores e pools em sua implantação).
 
@@ -51,7 +51,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Há diferenças fundamentais entre os comandos de linha de comando que você pode executar em Windows PowerShell ou CLSController. Windows PowerShell fornece um método rico para configurar e definir cenários e reutilizar esses cenários de forma significativa para seus cenários de solução de problemas. Embora o CLSController does forneça uma maneira rápida e eficiente para emitir comandos e obter resultados, o conjunto de comandos do CLSController está limitado aos comandos finitos que você tem disponível na linha de comando. Ao contrário dos cmdlets Windows PowerShell, o CLSController não pode definir novos cenários, gerenciar escopo em um site ou nível global e muitas outras limitações de um conjunto de comandos finito que não pode ser configurado dinamicamente. Embora CLSController fornece um meio para execução rápida, o Windows PowerShell fornece um meio para estender a funcionalidade de Serviço de Log Centralizado além do que é possível com CLSController.
+> Há diferenças fundamentais entre os comandos de linha de comando que você pode executar em Windows PowerShell ou CLSController. Windows PowerShell fornece um método rico para configurar e definir cenários e reutilizar esses cenários de forma significativa para seus cenários de solução de problemas. Embora o CLSController does forneça uma maneira rápida e eficiente para emitir comandos e obter resultados, o conjunto de comandos do CLSController está limitado aos comandos finitos que você tem disponível na linha de comando. Ao contrário dos cmdlets Windows PowerShell, o CLSController não pode definir novos cenários, gerenciar escopo em um site ou nível global e muitas outras limitações de um conjunto de comandos finito que não pode ser configurado dinamicamente. Embora o CLSController fornece um meio para execução rápida, o Windows PowerShell fornece um meio para estender a funcionalidade de Serviço de Log Centralizado além do que é possível com CLSController.
 
 Um único escopo de computador pode ser definido durante a execução de [um comando Search-CsClsLogging,](/powershell/module/skype/search-csclslogging?view=skype-ps) [Show-CsClsLogging,](/powershell/module/skype/show-csclslogging?view=skype-ps) [Start-CsClsLogging,](/powershell/module/skype/start-csclslogging?view=skype-ps) [Stop-CsClsLogging,](/powershell/module/skype/stop-csclslogging?view=skype-ps) [Sync-CsClsLogging](/powershell/module/skype/sync-csclslogging?view=skype-ps) e [Update-CsClsLogging](/powershell/module/skype/update-csclslogging?view=skype-ps) usando o parâmetro -Computers. O parâmetro -Computers aceita uma lista separada por vírgulas de FQDNs (nomes de domínio totalmente qualificados) para o computador de destino.
 
@@ -65,7 +65,7 @@ Os escopos de site e global são definidos nos cmdlets **New-**, **Set-** e **Re
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Para recuperar a configuração atual do Serviço de Log Centralizado
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 2. Digite o seguinte no prompt de linha de comando:
 
@@ -79,7 +79,7 @@ Use os cmdlets **New-CsClsConfiguration** e **Set-CsClsConfiguration** para cria
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Para recuperar a configuração atual do Serviço de Log Centralizado do armazenamento local do computador
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 2. Digite o seguinte no prompt de linha de comando:
 
@@ -90,7 +90,7 @@ Use os cmdlets **New-CsClsConfiguration** e **Set-CsClsConfiguration** para cria
 Quando você usa o primeiro exemplo em **que Get-CsClsConfiguration** não especifica parâmetros, o comando faz referência ao armazenamento de Gerenciamento Central para os dados. Se você especificar o parâmetro -LocalStore, o comando referencia o localStore do computador em vez do repositório de Gerenciamento Central.
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Para recuperar uma lista de cenários definidos no momento
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 2. Digite o seguinte no prompt de linha de comando:
 
@@ -105,9 +105,9 @@ Quando você usa o primeiro exemplo em **que Get-CsClsConfiguration** não espec
    ```
 
 O cmdlet **Get-CsClsConfiguration** sempre exibe os cenários que fazem parte da configuração de um determinado escopo. Na maioria dos casos, nem todos os cenários são exibidos e estão truncados. O comando usado aqui lista todos os cenários e as informações parciais sobre quais provedores, configurações e sinalizadores são usados.
-### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo global para o Serviço de Log Centralizado usando Windows PowerShell
+### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo global para o Serviço de Registro Em Log Centralizado usando Windows PowerShell
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 2. Digite o seguinte no prompt de linha de comando:
 
@@ -122,9 +122,9 @@ O cmdlet **Get-CsClsConfiguration** sempre exibe os cenários que fazem parte da
    ```
 
 O comando diz ao CLSAgent em cada computador e pool na implantação para definir o tamanho do valor de sobreposição no arquivo de rastreamento para 40 megabytes. Os computadores e pools em todos os sites são afetados pelo comando, e definirão seu valor configurado de sobreposição de log de rastreamento para 40 megabytes.
-### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo de site para o Serviço de Registro Em Log Centralizado usando Windows PowerShell
+### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo de site para o Serviço de Log Centralizado usando Windows PowerShell
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 2. Digite o seguinte no prompt de linha de comando:
 
@@ -144,7 +144,7 @@ O comando diz ao CLSAgent em cada computador e pool na implantação para defini
 O comando diz ao CLSAgent em cada computador e pool no site da Redmond para definir o tamanho do valor de sobreposição no arquivo de rastreamento para 40 megabytes. Os computadores e pools em outros sites não serão afetados pelo comando, e continuarão a usar o valor atualmente configurado de sobreposição de log de rastreamento definido pelo padrão (20 megabytes) ou durante o início da sessão de log.
 ### <a name="to-create-a-new-centralized-logging-service-configuration"></a>Para criar uma nova configuração do Serviço de Log Centralizado
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 2. Digite o seguinte no prompt de linha de comando:
 
@@ -153,7 +153,7 @@ O comando diz ao CLSAgent em cada computador e pool no site da Redmond para defi
    ```
 
     > [!NOTE]
-    > New-CsClsConfiguration fornece acesso a um grande número de definições de configuração adicionais. Para obter detalhes sobre as opções de configuração, consulte [Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps) e [Understanding Centralized Logging Service Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-understanding-centralized-logging-service-configuration-settings).
+    > New-CsClsConfiguration fornece acesso a um grande número de definições de configuração adicionais. Para obter detalhes sobre as opções de configuração, consulte [Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps) e [Understanding Centralized Logging Service Configuration Configurações](/previous-versions/office/lync-server-2013/lync-server-2013-understanding-centralized-logging-service-configuration-settings).
 
 Por exemplo, para criar uma nova configuração que defina uma pasta de rede para arquivos de cache, o período de tempo de sobreposição dos arquivos de log e tamanho de sobreposição dos arquivos de log, você deverá digitar:
 
@@ -164,7 +164,7 @@ Por exemplo, para criar uma nova configuração que defina uma pasta de rede par
 Você deve planejar cuidadosamente a criação de novas configurações e como definir novas propriedades para o Serviço de Registro Em Log Centralizado. Você deve ter cuidado ao fazer alterações e ter certeza que compreende o impacto da sua capacidade de registrar cenários de problema corretamente. Você deve fazer alterações na configuração que melhorarão sua capacidade de gerenciar logs para um tamanho e período de sobreposição que permita resolver problemas, quando surgirem.
 ### <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Para remover uma configuração existente do Serviço de Log Centralizado
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 2. Digite o seguinte no prompt de linha de comando:
 
@@ -184,11 +184,11 @@ Por exemplo, para remover uma configuração do Serviço de Log Centralizado que
 Se decidir remover a configuração no nível do site, o site usará as configurações globais.
 ## <a name="see-also"></a>Confira também
 
-[Configurar provedores para o Serviço de Log Centralizado no Skype for Business Server 2015](configure-providers.md)
+[Configurar provedores para o Serviço de Log Centralizado Skype for Business Server 2015](configure-providers.md)
 
-[Configurar cenários para o Serviço de Log Centralizado no Skype for Business Server 2015](configure-scenarios.md)
+[Configurar cenários para o Serviço de Log Centralizado Skype for Business Server 2015](configure-scenarios.md)
 
-[Serviço de Log Centralizado no Skype for Business 2015](centralized-logging-service.md)
+[Serviço de Log Centralizado Skype for Business 2015](centralized-logging-service.md)
 
 [Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 

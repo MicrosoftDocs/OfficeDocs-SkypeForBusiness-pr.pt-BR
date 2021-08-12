@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 'No Construtor de Topologias, você pode editar as propriedades de um Monitoring Server individual clicando com o botão direito do mouse no Monitoring Server na árvore de console e clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em Editar Propriedades e alterando qualquer uma das seguintes opções:'
-ms.openlocfilehash: f5543b4ead3f496cd2ae37841a37a317b87f8d9c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'No Construtor de Topologias, você pode editar as propriedades de um Servidor de Monitoramento individual clicando com o botão direito do mouse no Servidor de Monitoramento na árvore de console e clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em Editar Propriedades e alterando qualquer uma das seguintes opções:'
+ms.openlocfilehash: 27b29b62980c7df7e1fea24102b73b3acc0957c63104c5df5ddd9ec027c6b77e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803221"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298211"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Monitoramento
  
-No Construtor de Topologias, você pode editar as propriedades de um Monitoring Server individual clicando  com o botão direito do mouse no Monitoring Server na árvore de console e clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em **Editar** Propriedades e alterando qualquer uma das seguintes opções:
+No Construtor de Topologias, você pode editar as propriedades de um Servidor de Monitoramento individual clicando com o botão direito do mouse no Servidor de Monitoramento na árvore de console e clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em **Editar** Propriedades e alterando qualquer uma das seguintes opções: 
   
 - **FQDN**, para alterar o FQDN (nome de domínio totalmente qualificado) do servidor que você deseja implantar como Monitoring Server.
     
