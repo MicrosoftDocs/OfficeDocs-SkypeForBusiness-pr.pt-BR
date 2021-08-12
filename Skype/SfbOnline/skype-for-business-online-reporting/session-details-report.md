@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: O painel Relatórios mostra a visão geral da atividade nos produtos Microsoft 365 ou Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto.
-ms.openlocfilehash: 8b861cc863603a8ab51451e9906cd62313bd9cf9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308012"
 ---
 # <a name="session-details-report"></a>Relatório de detalhes da sessão
 
@@ -37,7 +37,7 @@ Confira Visão [geral de relatórios](https://support.office.com/article/0d6dfb1
 Este relatório, juntamente com os outros relatórios Skype for Business, dão detalhes sobre a atividade, incluindo os detalhes da sessão em toda a sua organização. Esses detalhes são muito úteis ao investigar, planejar e tomar outras decisões de negócios para sua organização e para configurar [créditos de comunicação.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Você pode ver todos os relatórios de Skype for Business quando fizer logoff como administrador no centro de administração Microsoft 365 local. 
+> Você pode ver todos os relatórios Skype for Business quando fizer logoff como administrador no Centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Como chegar ao relatório de Skype for Business de sessão
 

@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 'Resumo: saiba como criar uma nova política de arquivamento para o Skype for Business Server.'
-ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como criar uma nova política de arquivamento para Skype for Business Server.'
+ms.openlocfilehash: 7793575e75fcee4509c96cd6a569520a4a34576e850818a52dd20518ee725de2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095415"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280974"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Criar uma nova política de arquivamento no Skype for Business Server
 
-**Resumo:** Saiba como criar uma nova política de arquivamento para o Skype for Business Server.
+**Resumo:** Saiba como criar uma nova política de arquivamento para Skype for Business Server.
   
 Você pode criar novas políticas de arquivamento usando o Painel de Controle ou usando Windows PowerShell cmdlets.
   
@@ -31,7 +31,7 @@ Para criar uma nova política de arquivamento usando o Painel de Controle:
   
 1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna. 
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e em **Política de Arquivamento**.
     

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Para editar as configurações de um pool de Borda de um único ou vários servidores existente, você pode usar as seguintes seções:'
-ms.openlocfilehash: 5b4bbb302f76a38a5a485d17ad6df5c0d1db1c6b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 28d998986f21e089b34c9a58b9acb238c2aa8ab3108296566ce14210c87220d7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281114"
 ---
 # <a name="edge-settings-expander"></a>Expansor de Configurações de Borda
 
@@ -38,7 +38,7 @@ Para editar as configurações de um pool de Borda de um único ou vários servi
 
 FQDN (nome de domínio totalmente qualificado) de pool interno do pool de Servidor de Borda. Edite o FQDN do pool para alterar essa configuração.
 
-Marque a caixa de seleção Habilitar federação para este pool de Borda **(Porta 5061)** se você configurar a federação com um parceiro confiável do Lync Server 2013, microsoft Lync Server 2010 ou Microsoft Office Communications Server 2007 R2.
+Marque a caixa de seleção Habilitar federação para esse pool de Borda **(Porta 5061)** se você configurar a federação com um parceiro confiável do Lync Server 2013, microsoft Lync Server 2010 ou Microsoft Office Communications Server 2007 R2.
 
 Selecione **Habilitar federação XMPP para este pool de Bordas** para habilitar a federação XMPP.
 

@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Você pode excluir qualquer política de site ou usuário listada no Painel de Controle do Skype for Business Server na página Política de Acesso Externo.
-ms.openlocfilehash: 407e90af201055f371dc92485ab258bac851a258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Você pode excluir qualquer política de site ou usuário listada no Painel de Controle Skype for Business Server na página Política de Acesso Externo.
+ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309250"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Excluir um site ou uma política de usuário para acesso de usuário externo
 
@@ -31,14 +31,14 @@ Se você criou ou configurou políticas de acesso de usuário externo que não v
   - Redefinir a política global para as configurações padrão. As configurações de política global padrão negam qualquer acesso de usuário externo. A política global não pode ser excluída.
 
 
-Você pode excluir qualquer política de site ou usuário listada no Painel de Controle do Skype for Business Server na página **Política de Acesso** Externo. Excluir a política global não causa sua exclusão propriamente dita, mas apenas a redefine para suas configurações padrão, que não incluem suporte para nenhuma opção de acesso de usuário externo. Para obter detalhes sobre como redefinir a política global, consulte [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).
+Você pode excluir qualquer política de site ou usuário listada no Painel de Controle Skype for Business Server na página **Política de Acesso** Externo. Excluir a política global não causa sua exclusão propriamente dita, mas apenas a redefine para suas configurações padrão, que não incluem suporte para nenhuma opção de acesso de usuário externo. Para obter detalhes sobre como redefinir a política global, consulte [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Para excluir uma política de site ou de usuário para o acesso de usuário externo
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Clique em **Acesso de Usuário Externo**, em **Política de Acesso Externo**.
 
@@ -49,7 +49,7 @@ Você pode excluir qualquer política de site ou usuário listada no Painel de C
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Removendo políticas de PIN usando Windows PowerShell cmdlets
 
-As políticas de acesso externo podem ser excluídas usando o Windows PowerShell e o cmdlet Remove-CsExternalAccessPolicy. Esse cmdlet pode ser executado no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
+As políticas de acesso externo podem ser excluídas usando-se o Windows PowerShell e o cmdlet Remove-CsExternalAccessPolicy. Esse cmdlet pode ser executado no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>Para remover uma política de acesso externo específica

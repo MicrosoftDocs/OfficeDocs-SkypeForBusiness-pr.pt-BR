@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: c5b35d54147b3858e48b9e76dee30ab41f29ae65
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4def26fd4e2e52c5b9871627f6612998343500bd355be0822f0d3f5f516fee15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280176"
 ---
 # <a name="users-new-user"></a>Usuários: Novo Usuário
 
@@ -34,7 +34,7 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Especificar versões do cliente com suporte para entrar por um usuário](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Atribuir uma política de PIN por usuário no Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Atribuir uma política de PIN por usuário em Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [Configurar federação, acesso de usuário remoto e conectividade de IM pública para usuários](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -42,7 +42,7 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Atribuir uma Política de Local a um Usuário](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [Habilitar usuários para Enterprise Voice no Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Habilitar usuários para Enterprise Voice em Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [Configurar federação, acesso de usuário remoto e conectividade de IM pública para usuários](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

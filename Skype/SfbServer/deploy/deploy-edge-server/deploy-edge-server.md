@@ -1,5 +1,5 @@
 ---
-title: Implantar o Servidor de Borda no Skype for Business Server
+title: Implantar o Servidor de Borda Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,37 +14,37 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
-description: 'Resumo: saiba como implantar um Servidor de Borda ou um pool de Borda em seu ambiente do Skype for Business Server.'
-ms.openlocfilehash: edd2ff501320c4252b8032d1528ede7b83b8fcd6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como implantar um Servidor de Borda ou um pool de Borda em seu Skype for Business Server ambiente.'
+ms.openlocfilehash: 6855da316b72ff16468f0cc3ae2cabbba1154ea3429195805e5e871a700f5b0f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307932"
 ---
-# <a name="deploy-edge-server-in-skype-for-business-server"></a>Implantar o Servidor de Borda no Skype for Business Server
+# <a name="deploy-edge-server-in-skype-for-business-server"></a>Implantar o Servidor de Borda Skype for Business Server
  
-**Resumo:** Saiba como implantar um Servidor de Borda ou um pool de Borda em seu ambiente do Skype for Business Server.
+**Resumo:** Saiba como implantar um Servidor de Borda ou um pool de Borda em seu Skype for Business Server ambiente.
   
-Por que implantar um Servidor de Borda ou um pool de Borda em seu ambiente do Skype for Business Server? É necessário que usuários externos que não estão conectados à rede interna da sua organização sejam capazes de interagir com usuários internos. Esses usuários externos podem ser usuários remotos autenticados e anônimos, parceiros federados ou outros clientes móveis.
+Por que implantar um Servidor de Borda ou um pool de Borda em seu Skype for Business Server ambiente? É necessário se você precisar de usuários externos que não estão conectados à rede interna da sua organização para poder interagir com usuários internos. Esses usuários externos podem ser autenticados e anônimos usuários remotos, parceiros federados ou outros clientes móveis.
   
-## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Lista de verificação de implantação para o Edge, para o Skype for Business Server
+## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Lista de verificação de implantação do Edge, para Skype for Business Server
 
-Conforme mencionado acima, muito entra em uma implantação do Servidor de Borda para o Skype for Business Server. Esta lista de verificação fornece uma visão geral das tarefas que você precisará executar e links para etapas mais detalhadas.
+Conforme mencionado acima, muito entra em uma implantação do Servidor de Borda para Skype for Business Server. Esta lista de verificação fornece uma visão geral das tarefas que você precisará executar e links para etapas mais detalhadas.
   
-Esperamos que você tenha começado na seção Planejar implantações do Servidor de Borda [no Skype for Business Server.](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Caso não seja, muitos dos aspectos a que nos referimos estão detalhados lá. A seção de implantação contém apenas procedimentos, portanto, se você quiser saber o raciocínio por trás dessas etapas, o planejamento é o local para começar.
+Esperamos que você tenha começado na seção [Planejar implantações](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) do Servidor de Borda Skype for Business Server. Caso não seja, muitas das coisas a que nos referimos são detalhadas lá. A seção implantação contém apenas procedimentos, portanto, se você quiser saber o raciocínio por trás dessas etapas, o planejamento é o local para começar.
   
-Esta documentação também presume que você já concluiu a Implantação Básica do Skype for Business Server. Você pode estar fazendo essa implantação lado a lado com a Borda, mas precisa seguir essas etapas primeiro e, em seguida, poderá fazer as alterações de topologia para a Borda documentadas aqui.
+Esta documentação também presume que você já concluiu a Implantação Básica do Skype for Business Server. Você pode estar fazendo essa implantação lado a lado com a Borda, mas precisa seguir essas etapas primeiro e, em seguida, poderá fazer as alterações de topologia para a Borda documentada aqui.
   
-Estas são as etapas de alto nível que você precisará seguir e os locais onde você encontrará essas etapas:
+Estas são as etapas de alto nível que você precisará seguir e os locais que você encontrará essas etapas:
   
-- [Requisitos de sistema do Servidor de Borda no Skype for Business Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+- [Requisitos do sistema do Servidor de Borda Skype for Business Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
     
-- [Requisitos ambientais do Servidor de Borda no Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
+- [Requisitos ambientais do Servidor de Borda em Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
     
-- [Criar sua topologia de borda para o Skype for Business Server](create-your-edge-topology.md)
+- [Crie sua topologia de borda para Skype for Business Server](create-your-edge-topology.md)
     
-- [Implantar Servidores de Borda no Skype for Business Server](deploy-edge-servers.md)
+- [Implantar servidores de borda Skype for Business Server](deploy-edge-servers.md)
     
 - [Validar sua implantação de Borda no Skype for Business Server](validate-edge-deployment.md)
     

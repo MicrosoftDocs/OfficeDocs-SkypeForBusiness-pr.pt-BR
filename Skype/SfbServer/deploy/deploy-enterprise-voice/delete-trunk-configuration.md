@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumo: saiba como excluir uma coleção de configurações de tronco usando o painel Skype for Business Server Controle.'
-ms.openlocfilehash: 294a6c2e39387aa9245af0c23eec56d1fd59dbc2
+ms.openlocfilehash: 8927b06c3945be48685f13f33dcee83ff08ae653ade5b2d51228407a3554ef70
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772862"
+ms.locfileid: "54307842"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server: excluir uma coleção existente de configurações de tronco SIP 
  

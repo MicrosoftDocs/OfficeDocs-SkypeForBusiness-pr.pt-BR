@@ -1,5 +1,5 @@
 ---
-title: Configurar um VTC para interoperação com o Skype for Business Server
+title: Configurar um VTC para Interoperação com Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,46 +12,46 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
-description: 'Resumo: configure os dispositivos VTC para trabalhar com o Skype for Business Server.'
-ms.openlocfilehash: 7697fd9f33a4fece4871b056a05264ece888d357
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Configure os dispositivos VTC para trabalhar com Skype for Business Server.'
+ms.openlocfilehash: 0c96766daf67ff3c8f7872a75423f64f64acba8e51d3fbc4c0edef841cc529e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307772"
 ---
-# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurar um VTC para interoperação com o Skype for Business Server
+# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurar um VTC para Interoperação com Skype for Business Server
  
-**Resumo:** Configure os dispositivos VTC para trabalhar com o Skype for Business Server.
+**Resumo:** Configure os dispositivos VTC para trabalhar com Skype for Business Server.
   
-Você precisará executar os seguintes procedimentos de personalização de configuração para cada VTC que se conectará ao servidor VIS do Skype for Business por meio de um tronco SIP e gateway de vídeo cisco Unified Communications Manager (CallManager ou CUCM).
+Você precisará executar os seguintes procedimentos de personalização de configuração para cada VTC que se conectará ao servidor Skype for Business VIS por meio de um tronco SIP e gateway de vídeo do Cisco Unified Communications Manager (CallManager ou CUCM).
   
-As configurações descritas aqui são apenas exemplos de como o CUCM pode ser configurado para funcionar com um VIS. Outras configurações e/ou usos de funcionalidades alternativas do CUCM também podem ser usadas para obter o mesmo resultado. Nenhuma recomendação está implícita quanto à configuração ideal para um cenário específico.
+As configurações descritas aqui são destinadas apenas como exemplos de como o CUCM pode ser configurado para funcionar com um VIS. Outras configurações e/ou usos da funcionalidade CUCM alternativa também podem ser usados para obter o mesmo resultado. Nenhuma recomendação está implícita quanto à configuração ideal para um cenário específico.
   
-### <a name="configure-a-vtc-registered-with-cucm"></a>Configurar um VTC registrado no CUCM
+### <a name="configure-a-vtc-registered-with-cucm"></a>Configurar um VTC registrado com o CUCM
 
-1. Faça logoff no dispositivo Cisco VTC e navegue até Configuração - \> Configuração do Sistema \> - Provisionamento.
+1. Faça logoff no dispositivo Cisco VTC e navegue até Configuration- \> System Configuration- \> Provisioning.
     
 2. Verifique as seguintes configurações, corrigindo conforme necessário: 
     
    |**Parâmetro**|**Configuração recomendada**|
    |:-----|:-----|
    |Modo de provisionamento  <br/> | CUCM <br/> |
-   |Endereço ExternalManager  <br/> | FQDN do CUCM <br/> |
-   | Domínio ExternalManager <br/> |Domínio do CUCM  <br/> |
+   |Endereço ExternalManager  <br/> | FQDN da CUCM <br/> |
+   | Domínio ExternalManager <br/> |Domínio cucm  <br/> |
    
-3. Navegue até Configuração - \> Configuração do Sistema - \> Rede.
+3. Navegue até Configuração- \> Configuração do Sistema- \> Rede.
     
 4. Verifique as seguintes configurações, corrigindo conforme necessário: 
     
    |**Parâmetro**|**Configuração recomendada**|
    |:-----|:-----|
    |Nome de domínio DNS  <br/> | Nome de domínio do CUCM <br/> |
-   |Endereço dns server 1  <br/> | seu endereço de servidor DNS desejado <br/> |
+   |Endereço DNS Server 1  <br/> | seu endereço de servidor DNS desejado <br/> |
    
-5. Navegue até Configuração - \> Configuração do Sistema - \> Serviços de Rede. Verifique se o modo H.323 está desligado e o modo SIP está ligado. 
+5. Navegue até Configuração- \> Configuração do Sistema- \> Serviços de Rede. Verifique se o modo H.323 está desligado e o modo SIP está ligado. 
     
-6. Essas opções são definidas automaticamente quando o ponto de extremidade é registrado no CUCM. Verifique as seguintes configurações, corrigindo conforme necessário: 
+6. Essas opções são definidas automaticamente quando o ponto de extremidade é registrado com CUCM. Verifique as seguintes configurações, corrigindo conforme necessário: 
     
    |**Parâmetro**|**Configuração recomendada**|
    |:-----|:-----|
@@ -62,7 +62,7 @@ As configurações descritas aqui são apenas exemplos de como o CUCM pode ser c
    |WelcomeText  <br/> | Habilitado <br/> |
    |Modo XMLAPI  <br/> | Habilitado <br/> |
    
-7. Navegue até Configuração - \> Configuração do Sistema - \> SIP.
+7. Navegue até Configuração- \> Configuração do Sistema - \> SIP.
     
 8. Verifique as seguintes configurações, corrigindo conforme necessário: 
     
@@ -75,40 +75,40 @@ As configurações descritas aqui são apenas exemplos de como o CUCM pode ser c
    |Perfil 1 - URI  <br/> | Atribuído automaticamente no registro CUCM <br/> |
    |Proxy 1 - Endereço  <br/> |O nome de host do CUCM  <br/> |
    
-O VTC agora está configurado para interoperação. Antes que o serviço possa começar, há etapas finais para executar no lado do CUCM.
+O VTC agora está configurado para interoperação. Antes que o serviço possa começar, há etapas finais para executar no lado cucm.
 ### <a name="configure-vtc-devices-on-cucm"></a>Configurar dispositivos VTC no CUCM
 
-1. Faça logon no CUCM e navegue até Administração do Cisco Unified CM - \> Dispositivo- \> Telefone- \> Encontrar. 
+1. Faça logon no CUCM e navegue até Cisco Unified CM \> Administration- Device- \> Telefone- \> Find. 
     
-2. Selecione o dispositivo VTC a ser configurado. Verifique as seguintes configurações na tela Configuração do Telefone, corrigindo conforme necessário. Depois que essas configurações foram alteradas ou verificadas, clique em **Salvar.**
+2. Selecione o dispositivo VTC a ser configurado. Verifique as configurações a seguir na tela Telefone Configuração, corrigindo conforme necessário. Depois que essas configurações foram alteradas ou verificadas, clique em **Salvar**.
     
    |**Parâmetro**|**Configuração recomendada**|
    |:-----|:-----|
-   |Informações do Dispositivo - Modelo de Botão de Telefone  <br/> | Codec de Telepresência da Cisco C40 padrão <br/> |
-   |Informações do Dispositivo - Perfil de Telefone Comum  <br/> | Perfil de Telefone Comum Padrão <br/> |
-   |Informações do Dispositivo - Espaço de Pesquisa de Chamada  <br/> | CSS_SfBVideoInterop <br/> |
-   |Informações do Dispositivo - Espaço de Pesquisa de Chamada AAR  <br/> | CSS_SfBVideoInterop <br/> |
-   |Informações do Dispositivo - Lista de Grupos de Recursos de Mídia  <br/> | MRGL_SfBVideoInterop <br/> |
-   |Informações Específicas do Protocolo - Perfil de Segurança do Dispositivo  <br/> | Cisco Telepresence Codec C40 <br/> |
-   |Informações Específicas do Protocolo - Redirecionando o Espaço de Pesquisa de Chamada  <br/> | CSS_SfBVideoInterop <br/> |
-   |Informações Específicas do Protocolo - Espaço de Pesquisa de Chamada SUBSCRIBE  <br/> | CSS_SfBVideoInterop <br/> |
-   |Informações Específicas do Protocolo - Perfil SIP  <br/> | Perfil SIP padrão para o ponto de extremidade de telepresência <br/> |
+   |Informações do dispositivo - Telefone modelo de botão  <br/> | Codec de Telepresence Padrão cisco C40 <br/> |
+   |Informações do dispositivo - Perfil Telefone Comum  <br/> | Perfil de Telefone Padrão <br/> |
+   |Informações do dispositivo - Espaço de Pesquisa de Chamada  <br/> | CSS_SfBVideoInterop <br/> |
+   |Informações do dispositivo - Espaço de Pesquisa de Chamada do AAR  <br/> | CSS_SfBVideoInterop <br/> |
+   |Informações do dispositivo - Lista de Grupos de Recursos de Mídia  <br/> | MRGL_SfBVideoInterop <br/> |
+   |Informações específicas do protocolo - Perfil de Segurança do Dispositivo  <br/> | Cisco Telepresence Codec C40 <br/> |
+   |Informações específicas do protocolo - Redirecionando o espaço de pesquisa de chamada  <br/> | CSS_SfBVideoInterop <br/> |
+   |Informações específicas do protocolo - SUBSCREVER Espaço de Pesquisa de Chamada  <br/> | CSS_SfBVideoInterop <br/> |
+   |Perfil SIP de Informações Específicas do Protocolo  <br/> | Perfil SIP padrão para ponto de extremidade de telepresência <br/> |
    
-3. Depois que a configuração VTC for salva, navegue novamente até a tela Configuração do Telefone do dispositivo. Na parte superior da tela do grupo Associação, clique na associação para a Interop de Vídeo. Isso exibe a tela Configuração do Número de Diretório. 
+3. Depois que a configuração do VTC for salva, navegue novamente até a tela Telefone configuração do dispositivo. Na parte superior da tela no grupo Associação, clique na associação para a Interop de Vídeo. Isso traz a tela Configuração de Número de Diretório. 
     
 4. Verifique as seguintes configurações, corrigindo conforme necessário: 
     
-    Faça as alterações apropriadas, conforme mostrado nas Informações do Número de Diretório e nas Configurações do Número de Diretório.
+    Faça as alterações apropriadas conforme mostrado nas Informações de Número do Diretório e no número de diretório Configurações.
     
    |**Parâmetro**|**Configuração recomendada**|
    |:-----|:-----|
-   | Informações de Número de Diretório - Partição de Rota <br/> | SfBVideoInterop_RoutePartition <br/> |
-   |Configurações de Número de Diretório - Espaço de Pesquisa de Chamada  <br/> | CSS_SfBVideoInterop <br/> |
-   |Configurações de Nível de Acesso Confidencial e De Terceiros Alternativos MLPP - Espaço de Pesquisa de Chamada MLPP  <br/> | CSS_SfBVideoInterop <br/> |
+   | Informações sobre o número do diretório - Partição de Rota <br/> | SfBVideoInterop_RoutePartition <br/> |
+   |Número do diretório Configurações - Espaço de Pesquisa de Chamada  <br/> | CSS_SfBVideoInterop <br/> |
+   |MlPP Alternate Party and Confidential Access Level Configurações - MlPP Calling Search Space  <br/> | CSS_SfBVideoInterop <br/> |
    |Linha 1 no dispositivo - Exibição (ID do chamador)  <br/> | Conforme desejado <br/> |
    |Linha 1 no dispositivo - Exibição ASCII (ID do chamador)  <br/> | Conforme desejado <br/> |
    
-5. Quando terminar, role até a parte superior da tela e pressione **Save**. 
+5. Quando terminar, role até a parte superior da tela e pressione **Salvar**. 
     
 A configuração agora está concluída para este dispositivo VTC. Você precisará repetir esse processo para outros dispositivos VTC em sua empresa.
 

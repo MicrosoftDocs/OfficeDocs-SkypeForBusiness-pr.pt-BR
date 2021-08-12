@@ -1,5 +1,5 @@
 ---
-title: Criar ou modificar um intervalo de números de Retirada de Chamadas de Grupo no Skype for Business
+title: Criar ou modificar um intervalo de números de Retirada de Chamada de Grupo Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: Crie ou modifique um intervalo de números de Retirada de Chamadas de Grupo no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: e71915519014b1fa4cfffa3172327e9949ed73a2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Crie ou modifique um intervalo de números de Retirada de Chamada de Grupo Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 73c2c0b74c27fd59d94d97c5ee05e0da88219601e839d42dc12e0ec659db0aa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307872"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Criar ou modificar um intervalo de números de Retirada de Chamadas de Grupo no Skype for Business
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Criar ou modificar um intervalo de números de Retirada de Chamada de Grupo Skype for Business
 
-Crie ou modifique um intervalo de números de Retirada de Chamadas de Grupo no Skype for Business Server Enterprise Voice.
+Crie ou modifique um intervalo de números de Retirada de Chamada de Grupo Skype for Business Server Enterprise Voice.
 
 A Retirada de Chamada de Grupo se baseia no aplicativo Estacionamento de Chamada. Ao implantar a Coleta de Chamadas de Grupo, você deve configurar a tabela de órbita do estacionamento de chamadas com intervalos de números de telefone designados como números de grupo de retirada de chamadas. Esses números de grupo são os números que os usuários discam para atender chamadas que estão tocando para outro usuário.
 
@@ -34,7 +34,7 @@ Assim como os números de órbita do estacionamento de chamada, os números do g
 Use o procedimento a seguir para criar ou modificar um intervalo de números de grupo de retirada de chamada na tabela de órbita do estacionamento de chamada.
 
 > [!NOTE]
-> Você deve usar o Shell de Gerenciamento do Skype for Business Server para criar, modificar, remover e exibir intervalos de números de Retirada de Chamadas de Grupo na tabela de órbita do estacionamento de chamadas. Os intervalos de número de retirada de chamadas de grupo não estão disponíveis no Painel de Controle do Skype for Business Server.
+> Você deve usar Skype for Business Server Shell de Gerenciamento para criar, modificar, remover e exibir intervalos de números de Retirada de Chamada de Grupo na tabela de órbita do estacionamento de chamada. Os intervalos de números de Retirada de Chamada de Grupo não estão disponíveis no Painel de Controle Skype for Business Server Grupo.
 
 Os intervalos de número do grupo de retirada de chamada devem estar em conformidade com as seguintes regras:
 
@@ -46,13 +46,13 @@ Os intervalos de número do grupo de retirada de chamada devem estar em conformi
 
 - Se o intervalo de números começar com o caractere \* ou #, o intervalo deverá ser maior que 100.
 
-- Valores válidos: deve corresponder à cadeia de caracteres de expressão regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Isso significa que o valor deve ser uma cadeia de caracteres começando com o caractere ou # ou um \* número de 1 a 9 (o primeiro caractere não pode ser um zero). Se o primeiro caractere for ou #, o caractere a seguir deverá ser um \* número de 1 a 9 (não pode ser um zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000", " \* 92000", " \* 95551212" e "915551212"). Se o primeiro caractere não for ou #, o primeiro caractere deverá ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um com um número de \* 0 a 9 (por exemplo, "915551212", "41212", "300").
+- Valores válidos: deve corresponder à cadeia de caracteres de expressão regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Isso significa que o valor deve ser uma cadeia de caracteres começando com o caractere ou # ou um \* número de 1 a 9 (o primeiro caractere não pode ser um zero). Se o primeiro caractere for ou #, o caractere a seguir deverá ser um \* número de 1 a 9 (não pode ser um zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000", " \* 92000", " 95551212" e \* "915551212"). Se o primeiro caractere não for ou #, o primeiro caractere deverá ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um com um número de \* 0 a 9 (por exemplo, "915551212", "41212", "300").
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>Para criar ou modificar um intervalo de grupo de retirada de chamada
 
-1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários,** conforme descrito em Permissões de Instalação do Representante.
+1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários** conforme descrito em Permissões de Instalação do Representante .
 
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 3. Use **New-CsCallParkOrbit** para criar um novo intervalo de números de grupo de retirada de chamadas. Use **Set-CsCallParkOrbit** para modificar um intervalo existente de números de retirada de chamadas.
 

@@ -14,30 +14,30 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
-description: 'Configure as opções para seu Servidor de Chat Persistente ou pool de Servidor de Chat Persistente definindo as seguintes propriedades:'
-ms.openlocfilehash: acc80c76e79364be730ec56a2b64e5dcd001f661
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Você configura opções para seu Servidor de Chat Persistente ou pool de Servidor de Chat Persistente definindo as seguintes propriedades:'
+ms.openlocfilehash: 76556335f87a673c5ae6d8df576bd6fd47d140ae9338c27183d58971ebe4a439
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281104"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definir Propriedades e Opções para Pool de Chat Persistente
  
-Configure as opções para seu Servidor de Chat Persistente ou pool de Servidor de Chat Persistente definindo as seguintes propriedades:
+Você configura opções para seu Servidor de Chat Persistente ou pool de Servidor de Chat Persistente definindo as seguintes propriedades:
   
- **Nome de exibição** do pool de Chat Persistente: uma propriedade necessária que define um nome amigável que será exibido para este Servidor de Chat Persistente ou pool de Servidor de Chat Persistente.
+ **Nome de exibição do pool** de Chat Persistente : Uma propriedade necessária que define um nome amigável que será exibido para este Servidor de Chat Persistente ou pool de Servidor de Chat Persistente.
   
- **Porta de Chat** Persistente : uma propriedade necessária que definirá o número da porta que este Servidor de Chat Persistente ou pool de Servidor de Chat Persistente escutará.
+ **Porta de Chat Persistente**: uma propriedade necessária que definirá o número de porta que esse Servidor de Chat Persistente ou Pool de Servidor de Chat Persistente escutará.
   
- **Habilitar conformidade:** marque a caixa de seleção se você planeja implantar e implementar o recurso e o banco de dados de conformidade opcional de Chat Persistente.
+ **Habilitar a** conformidade : marque a caixa de seleção se você planeja implantar e implementar o recurso opcional de conformidade do Chat Persistente e o banco de dados.
   
- **Use os armazenamentos** de backup do SQL Server para habilitar a recuperação de desastre: marque essa caixa de seleção se planeja implantar e implementar a recuperação de desastre dos armazenamentos do SQL Server de Chat Persistente de um conjunto de backup configurado de armazenamentos em outro SQL Server. Para obter detalhes, [consulte Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+ **Use os SQL Server** de backup para habilitar a recuperação de desastres : marque essa caixa de seleção se você planeja implantar e implementar a recuperação de desastres dos armazenamentos de Chat Persistente SQL Server de um conjunto de backup configurado de armazenamentos em outro SQL Server. Para obter detalhes, consulte [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 > [!NOTE]
 > Essa opção está disponível somente para pools com múltiplos servidores. 
   
- **Use este pool como \<site that this server or pool is being configured in\> padrão para** o site: marque essa caixa de seleção se for o Servidor de Chat Persistente ou o pool de Servidor de Chat Persistente padrão para o site. Você deve ter um servidor de Chat Persistente padrão ou pol por site.
+ **Use esse pool como \<site that this server or pool is being configured in\> padrão para** o site : Marque essa caixa de seleção se esse será o servidor de chat persistente padrão ou o pool de Servidor de Chat Persistente para o site. Você deve ter um servidor de Chat Persistente padrão ou pol por site.
   
 > [!NOTE]
 > Se sua topologia incluir múltiplos sites, uma caixa de seleção para **Usar este pool como padrão para todos os sites** também será exibida.
@@ -52,6 +52,6 @@ Clique em **Ajuda** para acessar a ajuda sensível ao contexto, como esta págin
   
 ## <a name="see-also"></a>Confira também
 
-[Plano para Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planejar o Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Adicionar Servidor de Chat Persistente à sua topologia do Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Adicionar Servidor de Chat Persistente à topologia Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

@@ -17,12 +17,12 @@ description: Saiba como usar o relatório Teams uso do dispositivo no centro de 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d47888884ce86bfa56546a9df600ce958380e0d
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 15dfe1fe7e79e909b11093c019ac38c6cb5d967e46146d4ce0262499ca880018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308372"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Relatório de uso de dispositivos do Microsoft Teams
 
@@ -51,9 +51,9 @@ O Teams de uso do dispositivo no centro de administração Microsoft Teams forne
 
 Para tornar os dados no Teams de uso do dispositivo anônimo, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e ID do AAD no relatório e sua exportação.
 
-1. No Microsoft 365 de administração, vá para a **Configurações** \> **Org Configurações** e, em  Serviços, escolha **Relatórios**.
+1. Em Centro de administração do Microsoft 365, vá para **a** Configurações \> **Org Configurações** e, em **Serviços,** escolha **Relatórios**.
     
-2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos.** Essa configuração é aplicada aos relatórios de uso no Microsoft 365 de administração, bem como Teams centro de administração.
+2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos.** Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como Teams centro de administração.
   
 3. Selecione **Salvar alterações**.
 

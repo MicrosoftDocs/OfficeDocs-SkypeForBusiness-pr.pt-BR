@@ -16,20 +16,20 @@ localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os Servidores de Borda podem ser configurados para permitir que seus usuários internos e externos acessem contatos em organizações ou serviços parceiros.
-ms.openlocfilehash: 4c6790ee5825e57a6c0bd41d85dae6b3c84a095e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96e1a4d575670013d01fb784945293855d35fc0190aa8c0d72c2b3969ed151d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103537"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280106"
 ---
 # <a name="federation-planning-tool"></a>Federação (Ferramenta de Planejamento)
  
 Os Servidores de Borda podem ser configurados para permitir que seus usuários internos e externos acessem contatos em organizações ou serviços parceiros.
   
- A federação funciona no Skype for Business Server como no Microsoft Lync 2013. Para obter mais detalhes sobre como preparar seu ambiente para Federação, consulte os seguintes tópicos:
+ A federação funciona Skype for Business Server como no Microsoft Lync 2013. Para obter mais detalhes sobre como preparar seu ambiente para Federação, consulte os seguintes tópicos:
   
-- [Planejamento do Lync Server 2013 e federação do Office Communications Server](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
+- [Planejamento do Lync Server 2013 e federação Office Communications Server](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
     
 - [Planejamento para conectividade de mensagens instantâneas públicas no Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-public-instant-messaging-connectivity)
     
