@@ -1,5 +1,5 @@
 ---
-title: Gerenciar autenticação no Skype for Business Server
+title: Gerenciar autenticação em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,36 +12,36 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
-description: 'Resumo: use os procedimentos a seguir para gerenciar a segurança e a autenticação do Skype for Business Server.'
-ms.openlocfilehash: 08cfe113c73c3abc39e617da8340d63f758438c3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: use os procedimentos a seguir para gerenciar Skype for Business Server segurança e autenticação.'
+ms.openlocfilehash: ce142b4f28c40e13d17e8990696d88a24e8e212bfbfe2b4f0c2635131b35f352
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341906"
 ---
-# <a name="manage-authentication-in-skype-for-business-server"></a>Gerenciar autenticação no Skype for Business Server
+# <a name="manage-authentication-in-skype-for-business-server"></a>Gerenciar autenticação em Skype for Business Server
  
-**Resumo:** Use os procedimentos a seguir para gerenciar a segurança e a autenticação do Skype for Business Server.
+**Resumo:** Use os procedimentos a seguir para gerenciar Skype for Business Server segurança e autenticação.
   
-Use os procedimentos a seguir para gerenciar a segurança e a autenticação do Skype for Business Server.
+Use os procedimentos a seguir para gerenciar Skype for Business Server segurança e autenticação.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Como usar a Autenticação Moderna (ADAL) com o Skype for Business](/microsoft-365/enterprise/hybrid-modern-auth-overview)
+- [Como usar a Autenticação Moderna (ADAL) com Skype for Business](/microsoft-365/enterprise/hybrid-modern-auth-overview)
     
-- [Certificados av de estágio e OAuth no Skype for Business Server usando -Roll em Set-CsCertificate](stage-av-and-oauth-certificates.md)
+- [Certificados AV e OAuth de estágio em Skype for Business Server usando -Roll em Set-CsCertificate](stage-av-and-oauth-certificates.md)
     
-- [Atribuir um certificado de autenticação de servidor para servidor ao Skype for Business Server](assign-a-server-to-server-certificate.md)
+- [Atribua um certificado de autenticação de servidor para servidor Skype for Business Server](assign-a-server-to-server-certificate.md)
 
-- [Configure a autenticação de servidor para servidor para um ambiente híbrido do Skype for Business Server.](configure-a-hybrid-environment.md)
+- [Configure a autenticação de servidor para servidor para um ambiente Skype for Business Server híbrido.](configure-a-hybrid-environment.md)
 
-- [Configurar um aplicativo de parceiro local para o Skype for Business Server](configure-an-on-premises-partner-app.md)
+- [Configurar um aplicativo parceiro local para Skype for Business Server](configure-an-on-premises-partner-app.md)
     
-- [Gerenciar configurações do Registrador no Skype for Business Server](registrar-configuration-settings.md)
+- [Gerenciar configurações do Registrador em Skype for Business Server](registrar-configuration-settings.md)
     
-- [Gerenciar configurações do Serviço Web no Skype for Business Server](web-service-configuration-settings.md)
+- [Gerenciar configurações do Serviço Web em Skype for Business Server](web-service-configuration-settings.md)
     
-- [Gerenciar configurações de PIN no Skype for Business Server](pin-settings.md)
+- [Gerenciar configurações de PIN em Skype for Business Server](pin-settings.md)
     
-- [Gerenciar autenticação de dois fatores no Skype for Business Server](two-factor-authentication.md)
+- [Gerenciar a autenticação de dois fatores Skype for Business Server](two-factor-authentication.md)

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Você pode editar as propriedades de uma implantação existente com as seguintes seções:'
-ms.openlocfilehash: a49fe0872d83011c433d011e1bb5ce7a348f1bd2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 79a2ab248e27037edf62ade9a3e9689d06be50c90a5fff33ab5b61acdaa5c355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333713"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de Configurações de Implantação
 

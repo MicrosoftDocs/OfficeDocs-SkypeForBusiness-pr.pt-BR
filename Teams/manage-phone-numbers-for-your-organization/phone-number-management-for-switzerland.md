@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Suíça para Microsoft Teams.
-ms.openlocfilehash: 533d2aa7ede85f58920027079a2ad8bfdab47746
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: ff20aab1c95f425f9ba4436a284d1ee730c21edcd87bd66c875e64bfc7ff4190
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349443"
 ---
 # <a name="phone-number-management-for-switzerland"></a>Telefone gerenciamento de números para a Suíça
 

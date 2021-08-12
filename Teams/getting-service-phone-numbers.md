@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Saiba como obter novos números de telefone e porta ou transferir números existentes para audioconferências, atendimentos automáticos e filas de chamada (números de serviço) para Teams.
-ms.openlocfilehash: 72436591411070ed7ffc67aab5d8d4470f39521d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d5bc1ebcb8fa6e9d14d013a8c3dcb886e92078b61a9947a0fb13183840928519
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315257"
 ---
 # <a name="getting-service-phone-numbers"></a>Obter números de telefone de serviço
 

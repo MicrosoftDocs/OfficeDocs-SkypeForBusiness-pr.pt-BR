@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Os tópicos desta seção descrevem as tarefas que você deve concluir antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação de nível de produção.
-ms.openlocfilehash: 2af1d78d866a935a975b3baa520f54fc780b0922
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Os tópicos nesta seção descrevem tarefas que você deve concluir antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação em nível de produção.
+ms.openlocfilehash: aaeb1f30f71d802e91e7243ce6ce07c6da57167421d5c4f5ba98ea855c20e240
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315067"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Fase 6: Mover da implantação piloto para produção
 
-Os tópicos desta seção descrevem as tarefas que você deve concluir antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação de nível de produção.
+Os tópicos nesta seção descrevem tarefas que você deve concluir antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação de nível de produção.
   
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -30,6 +30,6 @@ Os tópicos desta seção descrevem as tarefas que você deve concluir antes de 
     
 - [Alterar URLs simples após a migração](change-simple-urls-after-migration.md)
     
-- [Mover os usuários restantes para o Skype for Business Server 2019](move-remaining-users.md)
+- [Mover usuários restantes para Skype for Business Server 2019](move-remaining-users.md)
     
 

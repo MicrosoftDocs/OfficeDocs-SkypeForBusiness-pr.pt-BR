@@ -1,5 +1,5 @@
 ---
-title: Gerenciar configurações do servidor de conferência no Skype for Business Server
+title: Gerenciar configurações do servidor de conferência em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 'Resumo: saiba como gerenciar as configurações do servidor de conferência no Skype for Business Server.'
-ms.openlocfilehash: db44ad62acb99bab32b732ea0686784b14c3b2b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como gerenciar as configurações do servidor de conferência em Skype for Business Server.'
+ms.openlocfilehash: 2175b1bc66425b98ade2a421a3f3cb477856ffb240bd835646164bc85dd668d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099087"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341886"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações do servidor de conferência no Skype for Business Server
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações do servidor de conferência em Skype for Business Server
  
-**Resumo:** Saiba como gerenciar as configurações do servidor de conferência no Skype for Business Server.
+**Resumo:** Saiba como gerenciar as configurações do servidor de conferência em Skype for Business Server.
   
-Este tópico descreve como gerenciar as configurações de conferência. Para obter mais informações sobre como planejar e implantar a conferência, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) e Deploy [conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Este tópico descreve como gerenciar as configurações de conferência. Para obter mais informações sobre como planejar e implantar conferências, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-As configurações de conferência determinam coisas como o tamanho máximo permitido para conteúdo de reunião e apostilas; quantidade máxima de largura de banda para o serviço de Conferência de Compartilhamento de Aplicativos; limites de armazenamento e períodos de expiração; as URLs para downloads internos e externos do cliente com suporte; ponteiros para URLs internas e externas onde os usuários podem obter ajuda e recursos de conferência; e as portas usadas para compartilhamento de aplicativos, áudio do cliente, transferências de arquivos e tráfego de mídia. Essas configurações permitem que você gerencie os servidores reais por conta própria. Essas configurações podem ser definidas usando o Shell de Gerenciamento do Skype for Business Server.
+As configurações de conferência determinam coisas como o tamanho máximo permitido para conteúdo de reunião e apostilas; quantidade máxima de largura de banda para o serviço de Conferência de Compartilhamento de Aplicativos; limites de armazenamento e períodos de expiração; as URLs para downloads internos e externos do cliente com suporte; ponteiros para URLs internas e externas onde os usuários podem obter ajuda e recursos de conferência; e as portas usadas para compartilhamento de aplicativos, áudio do cliente, transferências de arquivos e tráfego de mídia. Essas configurações permitem que você gerencie os servidores reais por conta própria. Essas configurações podem ser definidas usando Skype for Business Server Shell de Gerenciamento.
   
-Ao instalar o Skype for Business Server, o sistema fornece uma única coleção de configurações de conferência (o conjunto global). Se precisar criar definições personalizadas para um site ou serviço, utilize o cmdlet **New-CsConferencingConfiguration**. Observe que as novas configurações só podem ser aplicadas no escopo do site ou do serviço; não é possível criar uma nova coleção global de configurações de conferência, mas você pode modificar a coleção global usando o cmdlet **Set-CsConferencingConfiguration.** Além disso, nenhum site ou serviço pode hospedar mais de uma coleção de definições. Se você tentar criar novas definições para o site de Redmond e ele já hospedar uma coleção de definições de configuração de conferências, o comando falhará.
+Ao instalar o Skype for Business Server, o sistema fornece uma única coleção de configurações de conferência (a coleção global). Se precisar criar definições personalizadas para um site ou serviço, utilize o cmdlet **New-CsConferencingConfiguration**. Observe que as novas configurações só podem ser aplicadas no escopo do site ou do serviço; não é possível criar uma nova coleção global de configurações de conferência, mas você pode modificar a coleção global usando o cmdlet **Set-CsConferencingConfiguration.** Além disso, nenhum site ou serviço pode hospedar mais de uma coleção de definições. Se você tentar criar novas definições para o site de Redmond e ele já hospedar uma coleção de definições de configuração de conferências, o comando falhará.
   
-## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Gerenciar configurações de conferência usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Gerenciar configurações de conferência usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 
-Para gerenciar as configurações de conferência usando o Shell de Gerenciamento do Skype for Business Server, use os seguintes cmdlets:
+Para gerenciar as configurações de conferência usando Skype for Business Server Shell de Gerenciamento, use os seguintes cmdlets:
   
 **Configurações de conferência**
 

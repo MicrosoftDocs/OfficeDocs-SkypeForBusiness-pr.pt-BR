@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Os fluxos de trabalho do Grupo de Resposta definem as ações que são tomadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
-ms.openlocfilehash: d5ab0f197817a5905df54e236db10a3d526685bd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 56c0f111cde8d2fbfdd1c704310a7804e0998294da6449303e2e5025c4572527
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333833"
 ---
 # <a name="response-groups-workflow"></a>Fluxo de Trabalho de Grupos de Resposta
 

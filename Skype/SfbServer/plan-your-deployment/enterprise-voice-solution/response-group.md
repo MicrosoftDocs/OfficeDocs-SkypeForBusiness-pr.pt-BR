@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-description: Planejando grupos de resposta no Skype for Business Server Enterprise Voice, o que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
-ms.openlocfilehash: b27f3d1c40a384bd7465e7d2c8843a0523687d19
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Planejando grupos de resposta em Skype for Business Server Enterprise Voice, o que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
+ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290079"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planejar o aplicativo grupo de resposta no Skype for Business Server
 
-Planejando grupos de resposta no Skype for Business Server Enterprise Voice, o que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
+Planejando grupos de resposta em Skype for Business Server Enterprise Voice, o que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
 
 Se sua organização tiver grupos de pessoas que atendam e gerenciem determinados tipos de chamadas, como para atendimento ao cliente, uma assistência técnica interna ou suporte telefônico geral para um departamento, você pode implantar o aplicativo grupo de resposta para gerenciar esses tipos de chamadas. O aplicativo grupo de resposta encaminha e enfileria chamadas de entrada para pessoas designadas, conhecidas como agentes. Você pode aumentar o uso de serviços de suporte telefônico e reduzir a sobrecarga de execução desses serviços usando grupos de resposta.
 
@@ -48,7 +48,7 @@ Um fluxo de trabalho define o comportamento de uma chamada desde a hora que o te
 
 ## <a name="management-of-response-groups"></a>Gerenciamento de grupos de resposta
 
-No Skype for Business Server, duas funções de gerenciamento estão disponíveis para gerenciar grupos de resposta: Gerente de Grupo de Resposta e Administrador do Grupo de Resposta. Os Administradores do Grupo de Resposta podem gerenciar qualquer aspecto de qualquer grupo de resposta. Os Gerentes de Grupo de Resposta só podem gerenciar determinados aspectos e somente para os grupos de resposta que eles têm. A função Gerenciador pode ajudá-lo a reduzir os custos de administração, pois você pode delegar responsabilidades limitadas para grupos de resposta específicos para qualquer usuário habilitado para Enterprise Voice. Observe que um usuário pode ser um Gerente de Grupo de Resposta e um Administrador de Grupo de Resposta.
+No Skype for Business Server, duas funções de gerenciamento estão disponíveis para gerenciar grupos de resposta: Gerente de Grupo de Resposta e Administrador do Grupo de Resposta. Os Administradores do Grupo de Resposta podem gerenciar qualquer aspecto de qualquer grupo de resposta. Os Gerentes de Grupo de Resposta só podem gerenciar determinados aspectos e somente para os grupos de resposta que eles têm. A função Gerenciador pode ajudá-lo a reduzir os custos de administração, pois você pode delegar responsabilidades limitadas para grupos de resposta específicos a qualquer usuário habilitado para Enterprise Voice. Observe que um usuário pode ser um Gerente de Grupo de Resposta e um Administrador de Grupo de Resposta.
 
 Para acomodar a função Gerenciador, o aplicativo grupo de resposta usa um **Tipo de Fluxo de Trabalho** gerenciado ou não gerenciado. A tabela a seguir descreve os grupos de respostas Gerenciado ou Não gerenciado.
 
@@ -56,7 +56,7 @@ Para acomodar a função Gerenciador, o aplicativo grupo de resposta usa um **Ti
 
 |**Tipo de grupo de respostas**|**Descrição**|
 |:-----|:-----|
-|Nãomanaged  <br/> | Os grupos de respostas não gerenciados não têm gerentes atribuídos. Somente o Administrador do Grupo de Resposta pode configurar esses grupos de resposta. <br/>  Vários grupos de respostas não gerenciados podem compartilhar uma fila ou grupo de agentes. <br/>  Quando você migra grupos de resposta de uma versão anterior para o Skype for Business Server, o tipo é definido como Não-managed. <br/> |
+|Nãomanaged  <br/> | Os grupos de respostas não gerenciados não têm gerentes atribuídos. Somente o Administrador do Grupo de Resposta pode configurar esses grupos de resposta. <br/>  Vários grupos de respostas não gerenciados podem compartilhar uma fila ou grupo de agentes. <br/>  Quando você migra grupos de resposta de uma versão anterior para Skype for Business Server, o tipo é definido como Nãomanaged. <br/> |
 |Gerenciado  <br/> | Os administradores do Grupo de Resposta podem configurar qualquer aspecto dos grupos de resposta gerenciados. <br/>  Os Gerentes de Grupo de Resposta não podem exibir ou modificar grupos de resposta que não são atribuídos explicitamente a eles. <br/>  Os Gerentes de Grupo de Resposta podem configurar apenas algumas configurações para os grupos de resposta que são explicitamente atribuídos a eles. <br/>  Os grupos de respostas gerenciados não podem compartilhas filas nem grupos de agentes com outros grupos de respostas, sejam gerenciados ou não gerenciados. <br/> |
 
 A tabela a seguir descreve as ações que os Gerentes de Grupo de Resposta podem e não podem executar para os grupos de resposta atribuídos a eles.
@@ -72,13 +72,13 @@ Os Gerentes de Grupo de Resposta podem usar as ferramentas a seguir para gerenci
 - Painel de Controle do Skype for Business Server
 
     > [!NOTE]
-    > Os Gerentes de Grupo de Resposta só podem gerenciar as configurações do Grupo de Resposta com essa ferramenta. Outras configurações do Skype for Business Server não estão disponíveis para Gerentes.
+    > Os Gerentes de Grupo de Resposta só podem gerenciar as configurações do Grupo de Resposta com essa ferramenta. Outras Skype for Business Server configurações não estão disponíveis para Gerentes.
 
 - Ferramenta de Configuração do Grupo de Resposta
 
 - Shell de Gerenciamento do Skype for Business Server
 
-O Grupo de Resposta é dimensionado bem para ambientes de grupo de trabalho ou departamentos (para obter detalhes, consulte [Capacity Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) e pode ser implantado em instalações de telefonia totalmente novas. Ele dá suporte a chamadas de entrada da implantação Enterprise Voice e da rede de operadora local. Os agentes podem usar o Skype for Business, o Lync 2013, o Lync 2010, o Lync 2010 Attendant ou o Lync Phone Edition para levar as chamadas roteada para eles.
+O Grupo de Resposta é dimensionado bem para ambientes de grupo de trabalho ou departamentos (para obter detalhes, consulte [Capacity Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) e pode ser implantado em instalações de telefonia totalmente novas. Ele dá suporte a chamadas de entrada da implantação Enterprise Voice e da rede de operadora local. Os agentes podem usar Skype for Business, Lync 2013, Lync 2010, Lync 2010 Attendant ou Lync Telefone Edition para atender às chamadas roteada para eles.
 
 ## <a name="deployment-and-requirements"></a>Implantação e requisitos
 
@@ -88,9 +88,9 @@ O aplicativo grupo de resposta é habilitado automaticamente quando você implan
 
 O aplicativo grupo de resposta tem os mesmos requisitos de hardware, requisitos do sistema operacional e pré-requisitos de software que Servidores Front-End.
 
-Se você usar arquivos do Windows Media Audio (.wma) para música e comunicados do Grupo de Resposta, todos os Servidores front-end ou servidores Standard Editions que executam o aplicativo grupo de resposta devem ter o Windows Media Format Runtime instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou o Windows Server 2012 R2. Para o Windows Server 2008 R2, o Windows Media Format Runtime é instalado como parte da Experiência da Área de Trabalho do Windows.
+Se você usar arquivos do Windows Media Audio (.wma) para música e comunicados do Grupo de Resposta, todos os Servidores front-end ou servidores Standard Editions que executam o aplicativo grupo de resposta devem ter o tempo de execução do formato de mídia do Windows instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Tempo de Execução de Formato de Mídia é instalado como parte do Windows Desktop Experience.
 
-O Grupo de Resposta **usa pacotes de idiomas** para dar suporte ao reconhecimento de texto para fala e fala. Essas tecnologias de fala são usadas ao configurar mensagens, como a mensagem de boas-vindas e outros prompts, e questões e respostas de IVR (resposta interativa de voz). Por padrão, os 26 pacotes de idiomas com suporte são instalados quando você implanta o Skype for Business Server.
+O Grupo de Resposta **usa pacotes de idiomas** para dar suporte ao reconhecimento de texto para fala e fala. Essas tecnologias de fala são usadas ao configurar mensagens, como a mensagem de boas-vindas e outros prompts, e questões e respostas de IVR (resposta interativa de voz). Por padrão, os 26 pacotes de idiomas com suporte são instalados quando você implanta Skype for Business Server.
 
 ### <a name="port-requirements"></a>Requisitos de porta
 
@@ -104,13 +104,13 @@ O aplicativo grupo de resposta usa as seguintes portas:
     > Essa porta é usada para o serviço Match Making e é necessária quando o aplicativo grupo de resposta é implantado em um pool que tem mais de um Servidor Front-End.
 
    > [!NOTE]
-   > Essas portas são as configurações padrão que podem ser alteradas com o uso do cmdlet **Set-CsApplicationServer**. Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de Gerenciamento do Skype for Business Server.
+   > Essas portas são as configurações padrão que podem ser alteradas com o uso do cmdlet **Set-CsApplicationServer**. Para obter detalhes sobre esse cmdlet, consulte a documentação Skype for Business Server Shell de Gerenciamento.
 
 ### <a name="audio-file-requirements"></a>Requisitos do arquivo de áudio
 
-O aplicativo grupo de resposta dá suporte ao formato de arquivo wave (.wav) e ao formato de arquivo de áudio do Windows Media (.wma) para mensagens do Grupo de Resposta, música em espera ou perguntas de resposta de voz interativa (IVR).
+O aplicativo do Grupo de Resposta dá suporte ao formato de arquivo wave (.wav Windows) e ao formato de arquivo de áudio de mídia (.wma) para mensagens do Grupo de Resposta, música em espera ou perguntas de ivr (resposta de voz interativa).
 
-O formato de arquivo de áudio do Windows Media exige que o Windows Media Format Runtime seja instalado em Servidores Front-End que executam o Windows Server 2008 R2 e o Windows Server 2008. Para mais detalhes, consulte "Requisitos de software", anteriormente nesta seção.
+O formato de arquivo de áudio Windows Media exige que o tempo de execução do formato de mídia Windows está instalado em Servidores front-end que executam o Windows Server 2008 R2 e o Windows Server 2008. Para mais detalhes, consulte "Requisitos de software", anteriormente nesta seção.
 
 #### <a name="supported-wave-file-formats"></a>Formatos de arquivo wave suportados
 
@@ -172,7 +172,7 @@ O console de agente suporta as combinações de sistemas operacionais e navegado
 
 O aplicativo grupo de resposta dá suporte aos seguintes clientes:
 
-- Cliente de área de trabalho do Skype for Business
+- Skype for Business cliente da área de trabalho
 
 - Cliente de área de trabalho do Lync 2013
 
@@ -191,9 +191,9 @@ O cliente específico que você pode usar depende do tipo de usuário do Grupo d
 
 - **Chamadores** podem chamar um grupo de resposta usando quaisquer clientes listados anteriormente e usando um telefone padrão através da rede telefônica pública comutada (PSTN).
 
-- **Agentes informais** (agentes que não entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando Attendant, Lync ou Lync Phone Edition. Os agentes informais são automaticamente assinados em seus grupos ao entrar no Skype for Business Server usando um desses clientes.
+- **Agentes informais** (agentes que não entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Attendant, o Lync ou o Lync Telefone Edition. Os agentes informais são automaticamente assinados em seus grupos quando Skype for Business Server entrar no Skype for Business Server usando um desses clientes.
 
-- **Agentes formais** (agentes que devem entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Skype for Business e acessando o console do agente a partir do item de menu, ou usando o Attendant e acessando o console do agente diretamente do Internet Explorer.
+- **Agentes** formais (agentes que devem entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Skype for Business e acessando o console do agente a partir do item de menu ou usando o Attendant e acessando o console do agente diretamente do Internet Explorer.
 
 ## <a name="capacity-planning"></a>Planejamento de capacidade
 
@@ -207,7 +207,7 @@ A tabela a seguir descreve o modelo de usuário do Grupo de Resposta que você p
 
 **Modelo de Usuário do Grupo de Resposta**
 
-|**Indicador**|**Por pool enterprise edition  <br/> (com 8 servidores front-end)**|**Por servidor Standard Edition**|
+|**Indicador**|**Por Edição Enterprise pool <br/> (com 8 servidores front-end)**|**Por servidor Standard Edition**|
 |:-----|:-----|:-----|
 |Chamadas de entrada por segundo  <br/> |16   <br/> |2  <br/> |
 |Chamadas concorrentes conectadas ao IVR ou MoH  <br/> |480  <br/> |60  <br/> |

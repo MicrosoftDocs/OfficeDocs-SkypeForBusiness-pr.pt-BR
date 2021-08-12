@@ -1,5 +1,5 @@
 ---
-title: Gerenciar sua topologia no Skype for Business Server
+title: Gerenciar sua topologia em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
-description: 'Resumo: saiba mais sobre as etapas para gerenciar sua topologia no Skype for Business Server.'
-ms.openlocfilehash: bf8a6efd745cd6746e8494f2e2f1ef0da8e93f7f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre as etapas para gerenciar sua topologia Skype for Business Server.'
+ms.openlocfilehash: 7738d7ad662a1d06c9536e016456d91882c775a030857c9c839fd04a55d0da76
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290269"
 ---
-# <a name="manage-your-topology-in-skype-for-business-server"></a>Gerenciar sua topologia no Skype for Business Server 
+# <a name="manage-your-topology-in-skype-for-business-server"></a>Gerenciar sua topologia em Skype for Business Server 
  
-**Resumo:** Saiba mais sobre as etapas para gerenciar sua topologia no Skype for Business Server.
+**Resumo:** Saiba mais sobre as etapas para gerenciar sua topologia Skype for Business Server.
   
-Os tópicos a seguir fornecem instruções passo a passo sobre tarefas envolvidas no gerenciamento da topologia do Skype for Business Server e dos Servidores Front-End.
+Os tópicos a seguir fornecem instruções passo a passo sobre tarefas envolvidas no gerenciamento de sua topologia Skype for Business Server e seus Servidores Front-End.
   
 - [Gerenciar Servidores Front-End](manage-front-end-servers.md)
     
 - [Gerenciar bancos de dados com um Grupo de Disponibilidade AlwaysOn](manage-databases.md)
 
-- [Corrigir ou atualizar um servidor Back End ou um servidor Standard Edition](patch-or-update-a-back-end-or-standard-edition-server.md)
+- [Corrigir ou atualizar um servidor back-end ou Edição Standard servidor](patch-or-update-a-back-end-or-standard-edition-server.md)
     
 - [Mover dados do armazenamento de arquivos para um novo armazenamento de arquivos](../../help-topics/help-topobld/move-file-store-data.md)
 

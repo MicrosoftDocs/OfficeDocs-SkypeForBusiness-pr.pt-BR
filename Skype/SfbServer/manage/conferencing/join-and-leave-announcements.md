@@ -1,5 +1,5 @@
 ---
-title: Gerenciar anúncios de união e saída de conferências no Skype for Business Server
+title: Gerenciar comunicados de união e saída de conferências Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Resumo: saiba como gerenciar anúncios de união e saída de conferências no Skype for Business Server.'
-ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como gerenciar a junção de conferências e deixar anúncios no Skype for Business Server.'
+ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119450"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290379"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Gerenciar anúncios de união e saída de conferências no Skype for Business Server
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Gerenciar comunicados de união e saída de conferências Skype for Business Server
  
-**Resumo:** Saiba como gerenciar anúncios de junção e saída de conferências no Skype for Business Server.
+**Resumo:** Saiba como gerenciar a junção de conferências e deixar comunicados Skype for Business Server.
   
-Quando os usuários discados inserem ou saem de uma conferência, o aplicativo Comunicado de Conferência pode anunciar sua entrada ou saída tocando um tom ou dizendo seus nomes. Você pode alterar como os anúncios funcionam usando o Shell de Gerenciamento do Skype for Business Server e o cmdlet **Set-CsDialinConferencing** com os seguintes parâmetros:
+Quando os usuários discados inserem ou saem de uma conferência, os aplicativo Comunicado de Conferência podem anunciar sua entrada ou saída tocando um tom ou dizendo seus nomes. Você pode alterar como os anúncios funcionam usando o Shell de Gerenciamento Skype for Business Server **Set-CsDialinConferencing** com os seguintes parâmetros:
   
 - EnableNameRecording - Determina se os participantes anônimos são solicitados a gravar seu nome antes de entrar na conferência. O valor padrão é "$true", que significa que os participantes receberão essa solicitação. (Os participantes autenticados não registram seus nomes, pois em vez disso exibem seus nomes de exibição.)
     
@@ -38,7 +38,7 @@ Quando os usuários discados inserem ou saem de uma conferência, o aplicativo C
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função Cs-ServerAdministrator ou CsAdministrator.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Execute o seguinte no prompt de comando:
     
@@ -46,7 +46,7 @@ Quando os usuários discados inserem ou saem de uma conferência, o aplicativo C
    Get-CsDialinConferencingConfiguration
    ```
 
-Este cmdlet recupera informações sobre se os participantes devem registrar seu nome ao ingressar em uma conferência e como o Skype for Business Server responde quando os participantes inserem ou saem de uma conferência discada.
+Este cmdlet recupera informações sobre se os participantes devem gravar seu nome ao ingressar em uma conferência e como o Skype for Business Server responde quando os participantes inserem ou saem de uma conferência discada.
     
 4. Execute o seguinte no prompt de comando:
     

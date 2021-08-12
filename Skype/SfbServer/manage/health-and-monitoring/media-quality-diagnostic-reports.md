@@ -1,5 +1,5 @@
 ---
-title: Relatórios de Diagnóstico de Qualidade de Mídia no Skype for Business Server
+title: Relatórios de diagnóstico de qualidade de mídia no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,40 +11,40 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
-description: 'Resumo: saiba mais sobre os Relatórios de Diagnóstico de Qualidade de Mídia no Skype for Business Server.'
-ms.openlocfilehash: a00084605941af80435dd5da73efbfea89a6272f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre os Relatórios de Diagnóstico de Qualidade de Mídia Skype for Business Server.'
+ms.openlocfilehash: 3f252fb3871f455f79ea39018b8a87c06c12b3247189541d0a0ec3139dbe15b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290339"
 ---
-# <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Relatórios de Diagnóstico de Qualidade de Mídia no Skype for Business Server
+# <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Relatórios de diagnóstico de qualidade de mídia no Skype for Business Server
  
-**Resumo:** Saiba mais sobre os Relatórios de Diagnóstico de Qualidade de Mídia no Skype for Business Server.
+**Resumo:** Saiba mais sobre os Relatórios de Diagnóstico de Qualidade de Mídia Skype for Business Server.
   
 Os Relatórios de Diagnóstico de Qualidade de Mídia oferecem informações sobre a qualidade de chamadas e informações sobre diagnóstico de solução de problemas para chamadas com falhas.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Relatório de Resumo de Qualidade de Mídia no Skype for Business Server](summary.md) Fornece dados gerais de qualidade para diferentes tipos de ponto de extremidade, incluindo chamadas ponto a ponto do Enterprise Voice, chamadas de conferência do Enterprise Voice e chamadas que dependem, pelo menos em parte, da PSTN (rede telefônica pública comutado).
+- [Relatório de Resumo de Qualidade de Mídia no Skype for Business Server](summary.md) Fornece dados gerais de qualidade para diferentes tipos de ponto de extremidade, incluindo chamadas ponto Enterprise Voice ponto a ponto, chamadas de conferência Enterprise Voice e chamadas que dependem, pelo menos em parte, da PSTN (rede telefônica pública comutado).
     
-- [Relatório de Comparação de Qualidade de Mídia no Skype for Business Server](comparison.md) Fornece uma comparação de valores de qualidade de chamada para diferentes tipos de chamadas de áudio (por exemplo, chamadas feitas por uma rede sem fio versus chamadas feitas em uma conexão com fio).
+- [Relatório de comparação de qualidade de mídia no Skype for Business Server](comparison.md) Fornece uma comparação de valores de qualidade de chamada para diferentes tipos de chamadas de áudio (por exemplo, chamadas feitas em uma rede sem fio versus chamadas feitas em uma conexão com fio).
     
-- [Relatório de desempenho do servidor no Skype for Business Server](server-performance.md) Lista os servidores que têm mais problemas, com base em medições de tais métricas de qualidade principais, como degradação, perda de pacotes e tremição.
+- [Relatório de Desempenho do Servidor em Skype for Business Server](server-performance.md) Lista os servidores que sofreram mais problemas, com base em medidas de métricas de qualidade importantes como degradação, perda de pacotes e tremeamento.
     
-- [Relatório de localização no Skype for Business Server](location-report.md) Fornece uma lista de locais de rede e um resumo da qualidade de mídia das chamadas que ocorrem em cada local. Para esse relatório, os locais se baseiam em sub-redes IP.
+- [Relatório de Localização no Skype for Business Server](location-report.md) Fornece uma lista de locais de rede e um resumo da qualidade da mídia das chamadas que ocorrem em cada local. Para esse relatório, os locais se baseiam em sub-redes IP.
     
-- [Relatório de dispositivos no Skype for Business Server](device-report.md) Fornece um resumo dos dispositivos usados para chamadas do Enterprise Voice e inclui a qualidade média de mídia das chamadas por dispositivo.
+- [Relatório de dispositivos no Skype for Business Server](device-report.md) Fornece um resumo dos dispositivos usados para chamadas Enterprise Voice e inclui a qualidade média de mídia das chamadas por dispositivo.
     
-- [Relatório de Lista de Chamadas no Skype for Business Server](call-list-report-0.md) Fornece informações detalhadas sobre chamadas telefônicas feitas ou recebidas em sua organização.
+- [Relatório de Lista de Chamada no Skype for Business Server](call-list-report-0.md) Fornece informações detalhadas sobre chamadas telefônicas feitas ou recebidas em sua organização.
     
-- [Relatório detalhado de chamadas no Skype for Business Server](call-detail-report.md) Fornece informações detalhadas sobre chamadas telefônicas feitas de ou recebidas em sua organização.
+- [Relatório de Detalhes de Chamada no Skype for Business Server](call-detail-report.md) Fornece informações detalhadas sobre chamadas telefônicas feitas de ou recebidas em sua organização.
     
-- [Relatório de tendências de qualidade de mídia do servidor no Skype for Business Server](server-media-quality-trend-report.md) Oferece uma maneira gráfica de comparar até cinco servidores em métricas de Qualidade da Experiência, como volume de chamada, porcentagem de chamada ruim, perda de pacotes e trem tremida.
+- [Relatório de tendência de qualidade de mídia do servidor no Skype for Business Server](server-media-quality-trend-report.md) Fornece uma maneira de comparar graficamente até cinco servidores em métricas de Qualidade da Experiência, como volume de chamada, porcentagem de chamada ruim, perda de pacote e tremeamento.
     
-- [O Relatório de Distribuição da Métrica de Qualidade de Mídia no Skype for Business Server](media-quality-metrics-distribution-report.md) Fornece um gráfico que mostra os valores de distribuição para uma métrica de Qualidade da Experiência, como trem tremida ou perda de pacotes.
+- [O Relatório de Distribuição de Métricas](media-quality-metrics-distribution-report.md) de Qualidade de Mídia no Skype for Business Server Fornece um gráfico que mostra os valores de distribuição para uma métrica de Qualidade da Experiência, como tremeamento ou perda de pacote.
     
-- [Relatório de tendências de local no Skype for Business Server](location-trend-report.md) Fornece informações de tendência de qualidade de chamada para locais de rede.
+- [Relatório de Tendências de Localização no Skype for Business Server](location-trend-report.md) Fornece informações de tendência de qualidade de chamada para locais de rede.
     
 

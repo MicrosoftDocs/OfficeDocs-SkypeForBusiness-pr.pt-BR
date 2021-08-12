@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
-description: Use o assistente Mover Usuários para mover contas de usuário que estão em um pool local para serem ativas no Skype for Business Online. Para obter mais informações, consulte Usar o assistente de Capacidade de Gerenciamento Híbrida.
-ms.openlocfilehash: ad4b4cce7a06b2cc01125d2bc6c630e977b53e08
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Use o assistente Mover Usuários para mover contas de usuário em um pool local para serem ativas Skype for Business Online. Para obter mais informações, consulte Use the Hybrid Manageability wizard.
+ms.openlocfilehash: 15cf58026797898441bd92e12842c5c87d4e4665ddf4065c5056c8b630b510e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334203"
 ---
 # <a name="hybrid-wizard-move-user"></a>Assistente Híbrido: Mover Usuário
 
-Use o assistente Mover Usuários para mover contas de usuário que estão em um pool local para serem ativas no Skype for Business Online. Para obter mais informações, [consulte Usar o assistente de Gerenciabilidade Híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)
+Use o assistente Mover Usuários para mover contas de usuário em um pool local para serem ativas Skype for Business Online. Para obter mais informações, [consulte Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
 
 

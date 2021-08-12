@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Leia este tópico para saber como implantar a Aparência de Linha Compartilhada (SLA) no Skype for Business Server 2015, Atualização Cumulativa de novembro de 2015. SLA é um recurso para lidar com várias chamadas em um número específico chamado número compartilhado.
-ms.openlocfilehash: 7758354b7c4be123cb9b5a482af3304b069931a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de0b0d54fed0b76c1e20b67b743dfef2c4f784589b2eb3867529201493242e32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104907"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314907"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Implantar a aparência de linha compartilhada no Skype for Business Server 2015
 
@@ -30,11 +30,11 @@ Leia este tópico para saber como implantar a Aparência de Linha Compartilhada 
 
 Para obter mais informações sobre esse recurso, consulte [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
-A Aparência de Linha Compartilhada (SLA) é um novo recurso no Skype for Business Server, Atualização Cumulativa de novembro de 2015. Para habilitar esse recurso, você deve ter implantado primeiro essa atualização cumulativa.
+Aparência de linha compartilhada (SLA) é um novo recurso Skype for Business Server atualização cumulativa de novembro de 2015. Para habilitar esse recurso, você deve ter implantado primeiro essa atualização cumulativa.
 
 ### <a name="install-shared-line-appearance"></a>Instalar a aparência de linha compartilhada
 
-1. Depois que o Skype for Business Server, a Atualização Cumulativa de novembro de 2015 for implantada, execute o patch em cada  `SkypeServerUpdateInstaller.exe` Servidor de Front-End no pool.
+1. Após Skype for Business Server, a Atualização Cumulativa de novembro de 2015 é implantada, execute o patch em `SkypeServerUpdateInstaller.exe` cada Servidor Front-End no pool.
 
 2. O instalador implantará a versão mais recente do aplicativo SLA, no entanto, o aplicativo não está habilitado por padrão. Ele é habilitado seguindo as etapas descritas abaixo:
 
@@ -66,9 +66,9 @@ A Aparência de Linha Compartilhada (SLA) é um novo recurso no Skype for Busine
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
    ```
 
-    O Set-CsSlaConfiguration cmdlet marca o SLAGroup1 da conta Enterprise Voice como uma entidade SLA, e o número de SLAGroup1 se torna o número do grupo SLA. Todas as chamadas para SLAGroup1 tocarão todo o grupo SLA.
+    O cmdlet Set-CsSlaConfiguration marca o SLAGroup1 da conta Enterprise Voice como uma entidade SLA, e o número de SLAGroup1 se torna o número do grupo SLA. Todas as chamadas para SLAGroup1 tocarão todo o grupo SLA.
 
-    O exemplo a seguir cria um grupo SLA para um usuário Enterprise Voice existente, SLAGroup1, e usa o número atribuído para SLAGroup1 como o número de linha principal SLA.
+    O exemplo a seguir cria um grupo SLA para um usuário Enterprise Voice existente, SLAGroup1, e usa o número atribuído para SLAGroup1 como o número de linha principal do SLA.
 
     O comando define o número máximo de chamadas simultâneas para o novo grupo SLA como 3 e para chamadas em excesso ouvirem um sinal de ocupado:
 
@@ -79,7 +79,7 @@ A Aparência de Linha Compartilhada (SLA) é um novo recurso no Skype for Busine
     Você pode usar Set-CsSlaConfiguration para criar um novo grupo SLA ou modificar um existente.
 
     > [!NOTE]
-    > Observe que o que você especificar deve ser uma conta de usuário Enterprise Voice  `-Identity` habilitada para uso.
+    > Observe que o que você especificar deve ser uma conta de usuário Enterprise Voice `-Identity` habilitada para uso.
 
 2. Adicione representantes ao grupo usando o cmdlet [Add-CsSlaDelegates:](/powershell/module/skype/add-cssladelegates?view=skype-ps)
 

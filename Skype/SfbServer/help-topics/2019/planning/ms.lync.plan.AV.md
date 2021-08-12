@@ -1,5 +1,5 @@
 ---
-title: Audio Video Conferencing (Planning Tool)
+title: Audio Videoconferência (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
-description: A conferência de áudio/vídeo (A/V) do Skype for Business Server permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
-ms.openlocfilehash: c2d491308a3886a172ba800ba39ca9a5f637be02
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server A conferência de áudio/vídeo (A/V) permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
+ms.openlocfilehash: 6e9429c030ed3ed21c4873b80907adcee086ddf6554109c0c12d0ebb1b1c5b71
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300057"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
+# <a name="audio-video-conferencing-planning-tool"></a>Audio Videoconferência (Ferramenta de Planejamento)
  
-A conferência de áudio/vídeo (A/V) do Skype for Business Server permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
+Skype for Business Server A conferência de áudio/vídeo (A/V) permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
   
-Para detalhes de planejamento sobre como habilite a conferência A/V em sua organização, consulte o tópico a seguir e seus subtópicos: 
+Para planejar detalhes sobre como habiltar a conferência A/V em sua organização, consulte o tópico a seguir e seus subtópicos: 
   
-- [Planejar a conferência no Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Planejar conferências em Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
 
