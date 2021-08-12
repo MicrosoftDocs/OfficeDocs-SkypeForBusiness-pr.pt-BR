@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: e163e80e3c3a14dba2431f812b53167e8d0af31a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238007"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334423"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Como faço para criar um tíquete de suporte para validação de endereços?
 
@@ -100,7 +100,7 @@ A validação de endereço é uma parte importante da configuração de Planos d
 8. Confira as informações e clique em **Enviar solicitação**.
     
 > [!TIP]
-> O número de referência será listado na página **Solicitações de** serviço no Microsoft 365 de administração.
+> O número de referência será listado na página **Solicitações de** serviço no Centro de administração do Microsoft 365.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)

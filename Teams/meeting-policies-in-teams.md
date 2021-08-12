@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas de reunião
+title: 'Teams: Gerenciar políticas de reunião'
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: 09d821eb4a0ae6f1315ff5ff817c4b702512a974
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 02dd4cdca98f021230aed937317070ba1202d2969b185e624b6910a9dc19e298
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850096"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -470,9 +470,9 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 |---------|---------|
 |**Todos**   |Todos os participantes da reunião participam da reunião diretamente, sem aguardar no lobby. Isso inclui usuários autenticados, usuários externos de organizações confiáveis (federado), convidados e usuários anônimos.     |
 |**Pessoas da minha organização e organizações confiáveis**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações confiáveis, entram na reunião diretamente sem aguardar no lobby. Os usuários anônimos esperam no lobby.   |
-|**Pessoas na minha organização e convidados**    |Usuários autenticados dentro da organização, incluindo usuários convidados, entram na reunião diretamente sem aguardar no lobby. Os usuários de organizações confiáveis e usuários anônimos aguardam o lobby. Essa é a configuração padrão.           |
+|**Pessoas na minha organização e convidados**    |Usuários autenticados dentro da organização, incluindo usuários convidados, ingressam na reunião diretamente sem aguardar no lobby. Os usuários de organizações confiáveis e usuários anônimos aguardam no lobby. Essa é a configuração padrão.           |
 |**Organizador somente**    |Somente os organizadores da reunião participam da reunião diretamente, sem aguardar no lobby. Todas as outras pessoas, incluindo os usuários autenticados dentro da organização, os usuários convidados, os usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby.           |
-|**Pessoas na minha organização**  |Usuários autenticados de dentro da organização, excluindo usuários convidados, ingressam na reunião diretamente, sem esperar no lobby. Convidados e usuários de organizações confiáveis e usuários anônimos aguardam no lobby.|
+|**Pessoas na minha organização**  |Usuários autenticados dentro da organização, excluindo usuários convidados, ingressam na reunião diretamente sem aguardar no lobby. Convidados e usuários de organizações confiáveis e usuários anônimos aguardam no lobby.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de acesso telefônico ignorem o lobby
 

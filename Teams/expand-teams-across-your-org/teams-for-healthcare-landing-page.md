@@ -4,6 +4,7 @@ description: Saiba mais sobre os recursos de administrador disponíveis para voc
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.topic: article
 audience: admin
 f1.keywords:
 - NOCSH
@@ -16,18 +17,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a813bef73bb58d9b61be33364c63387913398f9b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c50f223854504a025ad57ebdebb137bab170b6c9a5bdbfb91ce32b24961d208e
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849516"
 ---
 # <a name="teams-for-healthcare"></a>Teams para Serviços de Saúde
 
 Teams oferece às equipes de saúde e profissionais de saúde uma maneira segura de se comunicar, coordenar o cuidado do paciente e melhorar a eficiência operacional. Aqui você encontrará os recursos de administração necessários para gerenciar o Teams para equipes de saúde em sua organização.
 
-|               |               |
+|    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
 | ![Captura de tela da mão com um dedo apontando para um ícone de seta](../media/get-started-teams.svg)  |  [Introdução ao Teams para Organizações de Saúde](./healthcare/teams-in-hc.md) |
 | ![Captura de tela de um ícone de mapa](../media/walkthrough-map-teams.svg) | [Introdução aos modelos do Teams para Organizações de Saúde](./healthcare/healthcare-templates-admin-console.md) |

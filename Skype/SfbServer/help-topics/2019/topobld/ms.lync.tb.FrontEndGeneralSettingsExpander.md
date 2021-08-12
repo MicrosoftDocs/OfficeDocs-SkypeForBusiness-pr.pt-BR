@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as configurações de um pool Front-End existente ou servidor Standard Edition, as seguintes seções são disponibilizadas:'
-ms.openlocfilehash: 0eff10b89c05980e5b2d425c43266fafd70461e6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b4dd6cee4c612cf929c1c058001b79dcfad0e9c88c055a78351297e125c40e90
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323363"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de Configurações Gerais de Front-end
 
@@ -36,7 +36,7 @@ Para editar as configurações de um pool Front-End existente ou servidor Standa
 
 ## <a name="front-end-pool"></a>Pool de Front-Ends
 
-Você pode, para um pool de Front-Ends, configurar definições gerais, de resiliência, de serviços web e de Servidor de Mediação. Para maiores detalhes, leia as informações nas subseções a seguir. Para obter detalhes sobre como definir as configurações para o pool de Front-Ends, consulte [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
+Para um pool de Front-Ends, é possível definir configurações gerais, de resiliência, serviços Web e do Servidor de Mediação. Para obter detalhes, consulte as informações nas subseções a seguir. Para obter detalhes sobre como definir as configurações para o pool de Front-Ends, consulte [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
 
 ### <a name="general-settings"></a>Configurações Gerais
 
@@ -50,7 +50,7 @@ Você pode, para um pool de Front-Ends, configurar definições gerais, de resil
 
   - **Conferência**. Inclui áudio, vídeo e compartilhamento de aplicativos. Após selecionar esta opção, você pode selecionar conferência discada (PSTN). Você especifica e define um gateway de PSTN (rede telefônica pública comutada) na subseção "Configurações de Servidor Mediação" mais tarde nesta seção.
 
-  - **Enterprise Voice**. Habilita chamadas internas de voz sobre IP para dispositivos e dispositivos qualificados e clientes do Skype for Business. Para habilitar os recursos de chamada externa, é necessário incluir um Servidor de Mediação. Para obter detalhes, consulte "Servidor de Mediação" posteriormente neste tópico.
+  - **Enterprise Voice**. Habilita chamadas internas de voz sobre IP a dispositivos e dispositivos qualificados e Skype for Business clientes. Para habilitar os recursos de chamada externa, é necessário incluir um Servidor de Mediação. Para obter detalhes, consulte "Servidor de Mediação" posteriormente neste tópico.
 
 - Em **Associações**, edite ou especifique o seguinte:
 
@@ -147,7 +147,7 @@ Você pode configurar as definições gerais, de Servidor de Mediação, serviç
 
   - **Conferência**. Inclui áudio, vídeo e compartilhamento de aplicativos. Após selecionar esta opção, você pode selecionar **Conferência discada (PSTN)**. Você pode especificar e definir um gateway PSTN mais tarde nas definições do Servidor de Mediação.
 
-  - **Enterprise Voice**. Habilita chamadas internas de voz sobre IP para dispositivos e dispositivos qualificados e clientes do Skype for Business. Para habilitar os recursos de chamada externa, é necessário incluir um Servidor de Mediação. Para obter detalhes, consulte "Servidor de Mediação" posteriormente neste tópico.
+  - **Enterprise Voice**. Habilita chamadas internas de voz sobre IP a dispositivos e dispositivos qualificados e Skype for Business clientes. Para habilitar os recursos de chamada externa, é necessário incluir um Servidor de Mediação. Para obter detalhes, consulte "Servidor de Mediação" posteriormente neste tópico.
 
 - Em **Associações**, é possível editar o seguinte:
 

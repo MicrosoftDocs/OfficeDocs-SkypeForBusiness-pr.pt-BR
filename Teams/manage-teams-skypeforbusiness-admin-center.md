@@ -21,15 +21,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 036d4ddd2768a531d32eed03d5bc4b35e09a0a229ad98a0d6fd0d17adcf09d5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef613b992f11ca8ab53ed03292480021c554661c701efc60e5eaa2e9f0206f76
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850106"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
-======================================================
+# <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
@@ -46,43 +45,43 @@ A tabela a seguir identifica as seções da experiência Teams que foram migrada
 
 |Seção de Teams no Centro de administração do Microsoft 365  |Nome da configuração (nível de locatário)  |Microsoft Teams de centro de administração   |Nível: Locatário ou Usuário   |
 |---------|---------|---------|---------|
-|Geral     |Mostrar gráfico organizacional no perfil pessoal        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Locatário       |
-|Geral     |Use Skype for Business para destinatários que não têm Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Integração de email     |Permitir que os usuários enviem emails para canais         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Integração de email     |Permitir lista de envios         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Locatário         |
-|Armazenamento em nuvem personalizado     |Box         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Armazenamento em nuvem personalizado     |Dropbox        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Armazenamento em nuvem personalizado     |Egnyte        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Armazenamento em nuvem personalizado     |Google Drive        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Armazenamento em nuvem personalizado     |ShareFile        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
+|Geral     |Mostrar gráfico organizacional no perfil pessoal        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)       |  Locatário       |
+|Geral     |Use Skype for Business para destinatários que não têm Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Locatário         |
+|Integração de email     |Permitir que os usuários enviem emails para canais         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Locatário         |
+|Integração de email     |Permitir lista de envios         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)        |Locatário         |
+|Armazenamento em nuvem personalizado     |Box         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Locatário         |
+|Armazenamento em nuvem personalizado     |Dropbox        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Locatário         |
+|Armazenamento em nuvem personalizado     |Egnyte        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Locatário         |
+|Armazenamento em nuvem personalizado     |Google Drive        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Locatário         |
+|Armazenamento em nuvem personalizado     |ShareFile        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Locatário         |
 |Configurações por tipo de usuário/licença     |Ativar Microsoft Teams para todos os usuários          |Preterido<sup>1</sup>        |         |
 |Equipes e canais     |         |Redireciona para Azure Active Directory Gerenciamento de Grupo (o mesmo que a experiência atual).              |Usuário         |
 |Equipes e canais     |         |Redireciona para o Gerenciamento de Grupo do AAD (mesmo que a experiência atual).             |Usuário          |
 |Aplicativos|Habilitar novos aplicativos externos por padrão|Configurações de aplicativos em toda a organização|Locatário|
 |Aplicativos|Permitir aplicativos externos|Configurações de aplicativos em toda a organização|Locatário|
-|Aplicativos|Permitir sideload de aplicativos<sup>externos 2</sup>|[TeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Usuário|
+|Aplicativos|Permitir sideload de aplicativos<sup>externos 2</sup>|[TeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy)|Usuário|
 |Aplicativos|Aplicativos<sup>padrão 3</sup>|TeamsAppPermissionPolicy|Usuário|
 |Aplicativos|Aplicativos<sup>externos 3</sup>|TeamsAppPermissionPolicy|Usuário|
-|Chamadas e reuniões     |Permitir o agendamento de reuniões privadas         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
-|Chamadas e reuniões     |Permitir reunião de canal ad hoc         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
-|Chamadas e reuniões     |Permitir o agendamento de reuniões de canal         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
-|Chamadas e reuniões     |Permitir vídeos em reuniões         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
-|Chamadas e reuniões     |Permitir compartilhamento de tela em reuniões         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
-|Chamadas e reuniões     |Permitir chamada privada         |[TeamsCallingPolicy ](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Usuário          |
-|Mensagens     |Habilitar Giphy para que os usuários possam adicionar GIFs a conversas         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
-|Mensagens     |Classificação de conteúdo         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
-|Mensagens     |Habilitar memes que os usuários podem editar e adicionar a conversas         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
-|Mensagens     |Habilitar adesivos que os usuários podem editar e adicionar a conversas         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
-|Mensagens     |Permitir que os proprietários excluam todas as mensagens         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
-|Mensagens     |Permitir que os usuários editem suas próprias mensagens         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
-|Mensagens     |Permitir que os usuários excluam suas próprias mensagens         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
-|Mensagens     |Permite que os usuários conversem em particular         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
+|Chamadas e reuniões     |Permitir o agendamento de reuniões privadas         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |Usuário          |
+|Chamadas e reuniões     |Permitir reunião de canal ad hoc         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |Usuário          |
+|Chamadas e reuniões     |Permitir o agendamento de reuniões de canal         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |Usuário          |
+|Chamadas e reuniões     |Permitir vídeos em reuniões         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |Usuário          |
+|Chamadas e reuniões     |Permitir compartilhamento de tela em reuniões         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |Usuário          |
+|Chamadas e reuniões     |Permitir chamada privada         |[TeamsCallingPolicy ](/powershell/module/skype/set-csteamscallingpolicy)        |Usuário          |
+|Mensagens     |Habilitar Giphy para que os usuários possam adicionar GIFs a conversas         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Usuário         |
+|Mensagens     |Classificação de conteúdo         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Usuário         |
+|Mensagens     |Habilitar memes que os usuários podem editar e adicionar a conversas         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Usuário         |
+|Mensagens     |Habilitar adesivos que os usuários podem editar e adicionar a conversas         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Usuário         |
+|Mensagens     |Permitir que os proprietários excluam todas as mensagens         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Usuário         |
+|Mensagens     |Permitir que os usuários editem suas próprias mensagens         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Usuário         |
+|Mensagens     |Permitir que os usuários excluam suas próprias mensagens         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Usuário         |
+|Mensagens     |Permite que os usuários conversem em particular         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Usuário         |
 
 <sup>1</sup> Preterido para Convidado. A habilitação/desabilitação do Convidado agora pode ser gerenciada no Microsoft Teams de administração. A habilitação/desabilitação Teams para Empresas Enterprise, Estudante Edu e Professores Edu serão preterida em breve. Isso deve ser gerenciado atribuindo licenças no Centro de administração do Microsoft 365. Consulte [Gerenciar o acesso do usuário Microsoft Teams](user-access.md).
 <br><br>
 <sup>2</sup> Sideloading é dividido da seguinte forma:
 
-- Permitir que um usuário sideload de aplicativos que podem ser gerenciados em um nível de usuário no [TeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
+- Permitir que um usuário sideload de aplicativos que podem ser gerenciados em um nível de usuário no [TeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy).
 - Permitir que os usuários em um locatário interajam com aplicativos personalizados que podem ser gerenciados em um nível de locatário em configurações de aplicativos em toda a organização.
 
 <sup>3</sup> Aplicativos padrão e aplicativos externos podem ser habilitados e desabilitados no nível do usuário no TeamsAppPermissionPolicy. Além disso, os aplicativos podem ser bloqueados no nível do locatário em configurações de aplicativos em toda a organização que substituem qualquer configuração de usuário e de nível de locatário.

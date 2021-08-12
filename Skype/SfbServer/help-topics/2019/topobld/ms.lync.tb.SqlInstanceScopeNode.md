@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. É possível executar as seguintes ações:'
-ms.openlocfilehash: 5e9363c90f9b9b06b06fe5845c60ba77416a5c15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) desse Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. É possível executar as seguintes ações:'
+ms.openlocfilehash: 4412cacf94a39341ffc73878ffff9280193847454dc27e8c9d1d7637854b5f27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805541"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311679"
 ---
 # <a name="sql-instance-scope-node"></a>Nó de Escopo de Instância SQL
  
-Este nó mostra o FQDN (nome de domínio totalmente qualificado) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. É possível executar as seguintes ações:
+Este nó mostra o FQDN (nome de domínio totalmente qualificado) desse Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. É possível executar as seguintes ações:
   
-- **Editar Propriedades**. Abre  a página Editar Propriedades deste servidor, onde você pode alterar o FQDN do servidor (se a topologia ainda não tiver sido publicada) e a instância do SQL Server a ser usada.
+- **Editar Propriedades**. Abre a página Editar **Propriedades** deste servidor, onde você pode alterar o FQDN do servidor (se a topologia ainda não tiver sido publicada) e a instância do SQL Server a ser usada.
     
 - **Excluir**. Exclui o servidor da topologia.
     

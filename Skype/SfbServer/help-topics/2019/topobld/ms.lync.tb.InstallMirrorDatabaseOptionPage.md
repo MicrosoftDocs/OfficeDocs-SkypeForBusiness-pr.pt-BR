@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Define as Configurações de Banco de Dados definindo o seguinte:'
-ms.openlocfilehash: 99dab88ecadc52d021531e03a0d6aea904cc4ce8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ae2c32201b2d8f3e594469cd84a41ce307897ac7bd214cdd7951feb02bc42646
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323313"
 ---
 # <a name="install-mirror-database-option-page"></a>Instalar Página de Opção de Banco de Dados de Espelhamento
  
 > [!NOTE]
-> O espelhamento sql está disponível no Skype for Business Server 2015, mas não é mais suportado no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, instâncias de cluster de failover AlwaysOn (FCI) e métodos de cluster de failover SQL são preferenciais com o Skype for Business Server 2019.
+> SQL O espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de clustering de failover são preferenciais com o Skype for Business Server 2019.

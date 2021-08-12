@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
-description: 'Para editar propriedades para Aparelho de Filial Sobrevivência ou Servidor de Filial Survivable, em Geral, configure:'
-ms.openlocfilehash: 72bbd89ffd20108cc6b4bcf0786fec7130eea382
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Para editar propriedades para Aparelho de Filial Desavivável ou Servidor de Filial Desavivável, em Geral, configure:'
+ms.openlocfilehash: 178e7acd1a5e8b34bc4d3b01a10be369834636e6a67c6a2145f650e2211cadca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833211"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313319"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais de Aparelho de Filial para Lync Server 2010
  
-Para editar propriedades para Aparelho de Filial Survivable ou Servidor de Filial Survivable, em **Geral,** configure:
+Para editar propriedades para Aparelho de Filial Desavivável ou Servidor de Filial Desavivável, em **Geral,** configure:
   
-- **FQDN**: digite o nome de domínio totalmente qualificado do Aparelho de Filial Survivável ou Servidor de Filial Survivable.
+- **FQDN**: Digite o nome de domínio totalmente qualificado do Aparelho de Filial Desavivável ou Servidor de FilialVivível.
     
-    **Use todos os endereços IP configurados** que usam os endereços IP configurados no Aparelho de Filial Survivável ou no Servidor de Filial Survivable para todos os fins.
+    **Use todos os endereços IP** configurados usa os endereços IP configurados no Aparelho de Filial Suportável ou Servidor de Filial Desavivável para todos os fins.
     
     **Limitar uso do serviço para os endereços IP selecionados** Configure o endereço distinto que define o servidor e o endereço IP a ser usado para PSTN.
     
@@ -36,17 +36,17 @@ Para editar propriedades para Aparelho de Filial Survivable ou Servidor de Filia
     
     **Endereço IP PSTN**: o endereço IP associado às funções de PSTN (rede telefônica pública comutada).
     
-- Configure **associações para** garantir que outras funções de servidor sejam configuradas e associadas ao Aparelho de Filial Survivável ou Servidor de Filial Survivável.
+- Configure **associações para** garantir que outras funções de servidor sejam configuradas e associadas ao Aparelho de Filial Desavivável ou Ao Servidor de Filial Desavivável.
     
-    **Associar Servidor de Arquivamento** Selecione na lista o Servidor de Arquivamento que você deseja associar ao Aparelho de Filial Survivável ou Ao Servidor de FilialVivível
+    **Associar Servidor de Arquivamento** Selecione na lista o Servidor de Arquivamento que você deseja associar ao Aparelho de Filial Suportável ou Ao Servidor de FilialVivível
     
-    Clique **em** Novo se você não tiver criado o Servidor de Arquivamento que deseja associar a esse Aparelho de Filial Survivável ou Servidor de Filial Survivable
+    Clique **em** Novo se você não tiver criado o Servidor de Arquivamento que deseja associar a esse Aparelho de Filial Desavivável ou Servidor de Filial Desavivável
     
-    **Associar Monitoring Server** Selecione na lista o Monitoring Server que você deseja associar ao Aparelho de Filial Survivable ou Ao Servidor de Filial Survivable
+    **Associar o Servidor de Monitoramento** Selecione na lista o Servidor de Monitoramento que você deseja associar ao Aparelho de Filial Suportável ou Ao Servidor de FilialVivível
     
-    Clique **em** Novo se você não tiver criado o Monitoring Server que deseja associar a esse Aparelho de FilialVivível ou Servidor de FilialVivível
+    Clique **em** Novo se você não tiver criado o Servidor de Monitoramento que deseja associar a este Aparelho de Filial ESUvivável ou Servidor de Filial Desavivável
     
-    **Associar pool de Borda (para componentes de mídia)** Selecione na lista o Servidor de Borda ou pool de Borda que você deseja associar ao Aparelho de Filial Survivável ou Ao Servidor de FilialVivável
+    **Associar pool de borda (para componentes de mídia)** Selecione na lista o Servidor de Borda ou pool de Borda que você deseja associar ao Aparelho de Filial Desavivável ou Ao Servidor de Filial Suportável
     
   **OK** aceita e confirma as alterações na caixa de diálogo.
   

@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: O Skype for Business Server de mobilidade oferece suporte Skype funcionalidade em dispositivos móveis. Para obter detalhes, consulte Planning for Mobility.
-ms.openlocfilehash: b2c5a573e010c1003fab185a24f7867c66261d4f
+ms.openlocfilehash: 5f7ed387e163c5eb9ad63fabd9b5811841b504de2ae9a1f8d980ac3c2d3b9ad9
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772922"
+ms.locfileid: "54344980"
 ---
 # <a name="skype-for-business-server-client-settings-planning-tool"></a>Skype for Business Server Ferramenta de planejamento Configurações cliente
 

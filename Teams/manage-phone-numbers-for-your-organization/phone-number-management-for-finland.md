@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Finlândia para Microsoft Teams.
-ms.openlocfilehash: efe358fc42ca6c2cb12bb1b55b9e6ddb44fd447385c273eec491f9e6bef284f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5314b4069be7145706080c2b69e1a8c1f7c42b6252f5588a0af1f4fd7ecb9e1d
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849484"
 ---
 # <a name="phone-number-management-for-finland"></a>Telefone gerenciamento de números para a Finlândia
 
@@ -37,11 +37,11 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.<br/> |Na Finlândia, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [contate PTSN para obter instruções.](contact-pstn-service-desk.md)<br/><br/>Nova solicitação de número de telefone para a Finlândia (v.1.0) (en-fi).<br/><br/> Para que os números de telefone possam ser atribuídos a você, você deve baixar o arquivo Conheça seu cliente para a Finlândia [(v.1.0) (fi-FI)](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf) Conheça seu formulário de cliente, conclua-o na íntegra e envie-o para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado.   |
-|Obter números de telefone transferidos para nós.| Baixe este formulário. <br/>[Carta de Autorização (LOA) para a Finlândia (todos os números) (v.1.0) (en-fi)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md). <br/><br/>A transferência de números pode levar de duas a três semanas para ser concluída neste mercado. <br/><br/> Esses números não podem ser usados para conferência no momento.   |
-|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
-|Altere o número de um usuário para um número de serviço.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
-|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato [com o service desk PSTN](contact-pstn-service-desk.md). |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.<br/> |Na Finlândia, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e contate o [Service Desk PTSN para obter instruções.](contact-pstn-service-desk.md)<br/><br/>Nova solicitação de número de telefone para a Finlândia (v.1.0) (en-fi).<br/><br/> Para que os números de telefone possam ser atribuídos a você, você deve baixar o arquivo Conheça seu cliente para a Finlândia [(v.1.0) (fi-FI)](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf) Conheça seu formulário de cliente, conclua-o na íntegra e envie-o para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado.   |
+|Obter números de telefone transferidos para nós.| Baixe este formulário. <br/>[Carta de Autorização (LOA) para a Finlândia (todos os números) (v.1.0) (en-fi)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md). <br/><br/>A transferência de números pode levar de duas a três semanas para ser concluída neste mercado. <br/><br/> Esses números não podem ser usados para conferência no momento.   |
+|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
+|Altere o número de um usuário para um número de serviço.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato com o service [desk PSTN para obter instruções.](contact-pstn-service-desk.md) |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 

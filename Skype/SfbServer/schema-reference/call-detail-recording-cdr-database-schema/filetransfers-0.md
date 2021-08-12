@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 description: Cada registro representa uma sessão de transferência de arquivos.
-ms.openlocfilehash: fde871bb434a2aa458bc59cfdf098c82ba3a7093
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ca1386919027e7f64444014f3569a2c4251e0ad7dbef79484eb812dc33eabf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334802"
 ---
 # <a name="filetransfers-table-in-skype-for-business-server-2015"></a>Tabela FileTransfers no Skype for Business Server 2015
  
@@ -34,6 +34,6 @@ Cada registro representa uma sessão de transferência de arquivos.
 |**Accept** <br/> |bit  <br/> ||Pode ser TRUE ou NULL. Se for TRUE, Rejeitar e Cancelar serão NULL.  <br/> |
 |**Reject** <br/> |bit  <br/> ||Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Cancelar serão NULL.  <br/> |
 |**Cancel** <br/> |bit  <br/> ||Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Rejeitar serão NULL.  <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno pelo serviço de Monitoramento.  <br/> Esse campo foi introduzido no Skype for Business Server 2015.  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno pelo serviço de Monitoramento.  <br/> Este campo foi introduzido no Skype for Business Server 2015.  <br/> |
    
 

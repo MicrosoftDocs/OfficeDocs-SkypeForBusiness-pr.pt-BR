@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: e9ef3d9090ff494afe8595c139bcc9206215435b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3eb1228e06dbf5880789ea5a8175d325a5439d9aefc7642c045963884fde70c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334433"
 ---
 # <a name="skype-for-business-online-reporting"></a>Relatórios do Skype for Business Online
 
@@ -32,7 +32,7 @@ ms.locfileid: "52238137"
 
 Como administrador da sua organização, seria útil ter uma lista completa de todos os diferentes relatórios disponíveis no Skype for Business Online. Isso inclui todos os diferentes relatórios e informações que você pode obter em cada relatório.
   
-Para acessar os relatórios Skype for Business Online, faça logoff no centro de administração Microsoft 365 usando sua conta de usuário e senha. A conta que você usar para fazer logon deverá ter a função de usuário administrador Global ou a função de administrador representante do serviço Skype for Business para que você visualize os relatórios.
+Para acessar os relatórios Skype for Business Online, faça logoff no Centro de administração do Microsoft 365 usando sua conta de usuário e senha. A conta que você usar para fazer logon deverá ter a função de usuário administrador Global ou a função de administrador representante do serviço Skype for Business para que você visualize os relatórios.
   
 > [!NOTE]
 > Para verificar permissões, no centro de administração > **usuários**  >  **ativos**. Clique o nome para exibição do usuário e em **Editar** e na página de propriedades de conta, clique em **Funções**

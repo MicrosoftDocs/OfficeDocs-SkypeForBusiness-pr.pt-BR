@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as configurações para um Aparelho de Filial Persistente ou um Servidor de Borda Persistente, veja as seções a seguir:'
-ms.openlocfilehash: be0deea657fa33db300c7aa73c9e3f3304113f0f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 44a85b18b4abc659fb82922b39792ab0427a781b73e6d914136a82c47b5ae24f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118660"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334343"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de Configurações Gerais de Aparelho de Filial
 
@@ -56,10 +56,10 @@ In **Associations**, you can edit or specify the following:
 
 A resiliência oferece alta disponibilidade para o pool de Registradores. Ao providenciar um Registrador de backup, se o Registrador primário falhar, o Registrador de backup poderá assumir as funções do Registrador com falha, permitindo que usuários se conectem e comuniquem. Talvez ocorra uma redução de funcionalidades para os usuários, dependendo em quais sistemas tenham falhado com o Registrador primário.
 
-Na listada, selecione o pool de Front-End enterprise Edition ou o Servidor De Front-End Standard Edition que atuará como o Registrador de backup para o Aparelho de Filial Desavivável ou Servidor de Filial Desavivável. Você também pode escolher habilitar os intervalos de tempo de Failover e Fallback. Habilitar as definições de tempo de failover e fallback (especificadas em segundos) permite a detecção automática da falha de um Registrador, enquanto o tempo de fallback permite a determinação automática de que o primário está funcionando novamente e pode assumir o processo de Registrador.
+Na listada, selecione o pool de front-end Edição Enterprise ou o servidor de front-end Edição Standard que atuará como o Registrador de backup para o Aparelho de Filial Desavivável ou Servidor de Filial Desavivável. Você também pode escolher habilitar os intervalos de tempo de Failover e Fallback. Habilitar as definições de tempo de failover e fallback (especificadas em segundos) permite a detecção automática da falha de um Registrador, enquanto o tempo de fallback permite a determinação automática de que o primário está funcionando novamente e pode assumir o processo de Registrador.
 
 > [!IMPORTANT]
-> Tome cuidado, quando definir o intervalo de detecção de falha e de fallback, para não inserir um intervalo que causará com que o failover e fallback ocorram se o Registrador falhar em responder por um curto período de tempo. É possível que o Registrador primário não responda por curtos períodos de tempo, baseado no carregamento do pool ou servidores. Os valores padrão para um Aparelho de FilialVivível ou um Servidor de Filial Desavivável em um site para um pool ou Servidor De Front-End Standard Edition são 120 segundos para failover e 240 segundos para fallback.
+> Tome cuidado, quando definir o intervalo de detecção de falha e de fallback, para não inserir um intervalo que causará com que o failover e fallback ocorram se o Registrador falhar em responder por um curto período de tempo. É possível que o Registrador primário não responda por curtos períodos de tempo, baseado no carregamento do pool ou servidores. Os valores padrão para um Aparelho de FilialVivível ou um Servidor de Filial Desavivável em um site para um pool ou Edição Standard Servidor front-end é de 120 segundos para failover e 240 segundos para fallback.
 
 ### <a name="mediation-server"></a>Servidor de Mediação
 

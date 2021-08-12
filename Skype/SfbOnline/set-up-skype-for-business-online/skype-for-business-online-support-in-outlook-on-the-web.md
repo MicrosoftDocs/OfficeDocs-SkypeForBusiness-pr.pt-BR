@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Outlook na Web (Outlook Web App) em Microsoft 365 ou Office 365 oferece um cliente Web básico Skype for Business da barra de navegação. Esse cliente básico está disponível para usuários online cujo administrador não configurou uma URL de vaidade para seus Microsoft 365 e Office 365. Enquanto a conta do usuário estiver online e não tiver uma URL de vaidade, ele ainda verá a experiência, mesmo que sua organização tenha algumas contas de usuário que estão no local. Os usuários que têm contas de usuário no local (quer tenham uma URL falsa ou não) ou sejam gerenciados pela Microsoft verão a experiência do Lync no aplicativo Outlook Web.
-ms.openlocfilehash: aa6f82f6647db1816c630486bee0d415d05b3b77
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: Outlook na Web (Outlook Web App) no Microsoft 365 ou Office 365 oferece um cliente Web básico Skype for Business da barra de navegação. Esse cliente básico está disponível para usuários online cujo administrador não configurou uma URL de vaidade para seus Microsoft 365 e Office 365. Enquanto a conta do usuário estiver online e não tiver uma URL de vaidade, ele ainda verá a experiência, mesmo que sua organização tenha algumas contas de usuário que estão no local. Os usuários que têm contas de usuário no local (quer tenham uma URL falsa ou não) ou sejam gerenciados pela Microsoft verão a experiência do Lync no aplicativo Outlook Web.
+ms.openlocfilehash: a8ac60b9710720410a0bf0de39d6c5bc5473909bceeaf576add8f65008553183
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239566"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294968"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Suporte para o Skype for Business Online no Outlook na Web
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Outlook na Web (Outlook Web App) em Microsoft 365 ou Office 365 oferece um cliente Web básico Skype for Business da barra de navegação. Esse cliente básico está disponível para usuários online cujo administrador não configurou uma URL de vaidade para seus Microsoft 365 e Office 365. Enquanto a conta do usuário estiver online e não tiver uma URL de vaidade, ele ainda verá a experiência, mesmo que sua organização tenha algumas contas de usuário que estão no local. Os usuários que têm contas de usuário no local (quer tenham uma URL falsa ou não) ou sejam gerenciados pela Microsoft verão a experiência do Lync no aplicativo Outlook Web.
+Outlook na Web (Outlook Web App) no Microsoft 365 ou Office 365 oferece um cliente Web básico Skype for Business da barra de navegação. Esse cliente básico está disponível para usuários online cujo administrador não configurou uma URL de vaidade para seus Microsoft 365 e Office 365. Enquanto a conta do usuário estiver online e não tiver uma URL de vaidade, ele ainda verá a experiência, mesmo que sua organização tenha algumas contas de usuário que estão no local. Os usuários que têm contas de usuário no local (quer tenham uma URL falsa ou não) ou sejam gerenciados pela Microsoft verão a experiência do Lync no aplicativo Outlook Web.
   
 A tabela a seguir resume as diferentes configurações que você pode ter e o cliente Web usado.
   

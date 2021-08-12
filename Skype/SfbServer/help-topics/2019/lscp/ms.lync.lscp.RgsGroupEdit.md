@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os grupos de agente definem quem podem responder às chamadas para um grupo de respostas (conhecido como agentes) e as configurações que se aplicam a todos os agentes no grupo.
-ms.openlocfilehash: 944cd48745a2524ccfcd795d9edc60e806859301
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 732aef1d5c4e6c23fc084e8f178705888d1fec0ef938f5aeef65eb250b48f42b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291559"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Grupos de Resposta: Criar Novo ou Editar Grupo de Agentes Existente
 
@@ -56,7 +56,7 @@ A lista a seguir descreve os campos na página.
 
 - **Agentes** Selecione os usuários que devem ser agentes do grupo de resposta de uma das seguintes maneiras:
 
-  - Selecione **Usar uma lista de distribuição de email existente** para usar uma lista de distribuição do Exchange. Digite o endereço de email da lista de distribuição em **Endereço da lista de distribuição**.
+  - Selecione **Usar uma lista de distribuição de email existente** para usar uma Exchange de distribuição. Digite o endereço de email da lista de distribuição em **Endereço da lista de distribuição**.
 
     > [!NOTE]
     > É possível selecionar apenas uma lista de distribuição para um grupo de agentes. Se a lista de distribuição incluir listas de distribuição aninhadas, as listas de distribuição aninhadas não serão incluídas no grupo de agentes.

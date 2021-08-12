@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Argélia.
-ms.openlocfilehash: 7e75a158be3231ce91d2e4806a22568b2e73e903
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d6633362c12a1e4abf5e58276ce58a367ad75e66603da9f863b151b73e557aa0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334822"
 ---
 # <a name="availability-in-algeria"></a>Disponibilidade na Argélia
 

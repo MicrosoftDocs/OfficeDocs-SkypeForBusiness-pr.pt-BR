@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você quer gerenciar.
-ms.openlocfilehash: e18d54b660b675334d2cd37320a10340ea2f1497
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 57795ac509a57b514adebc92935cddd5285672b34473c65bf3168825438ba5be
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334573"
 ---
 # <a name="administering-servers-after-migration"></a>Administrar servidores após migração
 
-Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você quer gerenciar. Você não pode instalar ferramentas administrativas de versões diferentes no mesmo computador.
+Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você quer gerenciar. Não é possível instalar ferramentas administrativas de versões diferentes no mesmo computador.
   
 > [!IMPORTANT]
-> Após a implantação de um pool piloto do Skype for Business Server, você não poderá usar o Construtor de Topologias ou o Painel de Controle para gerenciar recursos de 2019. Você deve usar as ferramentas de 2019 para gerenciar todos os recursos de versão atuais e anteriores. 
+> Depois que um Skype for Business Server piloto for implantado, você não poderá usar o Construtor de Topologias ou o Painel de Controle para gerenciar recursos de 2019. Você deve usar as ferramentas 2019 para gerenciar todos os recursos de versão atual e anterior. 
   

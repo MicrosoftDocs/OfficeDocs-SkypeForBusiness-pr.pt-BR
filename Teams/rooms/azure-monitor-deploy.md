@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos Salas do Microsoft Teams de forma integrada e de ponta a ponta usando o Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312679"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: o gerenciamento com :::no-loc text="Azure Monitor":::
 
@@ -379,7 +379,7 @@ Configure uma regra de alerta que verifica dispositivos que encontraram :::no-lo
     2.  Forneça nomes adequados para os campos *Nome do grupo ação* e Nome *curto.*
     3.  Especifique um *Nome de Ação exclusivo* e selecione **Email/SMS/Push/Voice** e selecione **Editar detalhes**.
     4.  Marque a **caixa de** seleção Email e forneça o endereço de email da pessoa ou grupo que receberá os alertas.
-    5.  Você também pode fornecer seu número de telefone para ser notificado SMS, uma chamada de voz ou ambos.
+    5.  Você também pode fornecer seu número de telefone para ser notificado com SMS, uma chamada de voz ou ambos.
     6. Selecione **OK**.
 
 8. **Personalize Ações** se você quiser substituir a linha de assunto dos emails de alerta.

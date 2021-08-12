@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Irlanda para Microsoft Teams.
-ms.openlocfilehash: ed4496cfc8f1a5882d2126cb1f9bc3225bae0e03bb1b770849bd8862221775a9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 54e1e99dbcebdc68113370ed4a06199c38a73dfdfa99314a1dcd50d5d94ce3c3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849736"
 ---
 # <a name="phone-number-management-for-ireland"></a>Gerenciamento de números de telefone para a Irlanda
 
@@ -35,10 +35,10 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. <br/> |Na Irlanda, você não pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você deve enviar uma solicitação de novo número de telefone. <br/><br/>Baixe este formulário.<br/>[Nova solicitação de número de telefone para a Irlanda (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md).  <br/> |
-|Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para a Irlanda (todos os números) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md). <br/> |
-|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
-|Altere o número de um usuário para um número de serviço.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. <br/> |Na Irlanda, você não pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você deve enviar uma solicitação de novo número de telefone. <br/><br/>Baixe este formulário.<br/>[Nova solicitação de número de telefone para a Irlanda (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Preencha-o e entre [em contato com o Service Desk PTSN para obter instruções.](contact-pstn-service-desk.md)  <br/> |
+|Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para a Irlanda (todos os números) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md). <br/> |
+|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
+|Altere o número de um usuário para um número de serviço.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
 |Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato [com o service desk PSTN](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Tópicos relacionados

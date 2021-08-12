@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone no Japão para Microsoft Teams.
-ms.openlocfilehash: 2d4d64232d0422a4ff0c2857f10cf7f2dbb2ea6fb9b2f0a258dc06fb1a7a5263
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6a5922c866113523a54f55aee823c7529da3d4ac6cb45034354292524a8d9582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849706"
 ---
 # <a name="phone-number-management-for-japan"></a>Telefone gerenciamento de números para o Japão
 
@@ -39,12 +39,12 @@ Para obter mais informações, consulte  [Manage phone numbers for your organiza
 |**O que você deseja fazer?**|**Execute estas etapas e baixe os formulários corretos**|
 |:-----|:-----|
 |Obter novos números de telefone de usuário para Planos de Chamadas no Japão.|Entre em contato [com o SoftBank Calling](https://aka.ms/SoftBankVoicePlan) para novos números de telefone para seus usuários. Em seguida, eles adicionarão esses números à sua organização para que você possa atribuí-los aos seus usuários. <br/>
-|Obter novos números de telefone de serviço para audioconferências, atendimentos automáticos e filas de chamadas no Japão.|[Contate PTSN para obter instruções](contact-pstn-service-desk.md).|
+|Obter novos números de telefone de serviço para audioconferências, atendimentos automáticos e filas de chamadas no Japão.|[Entre em contato com o Service Desk PTSN para obter instruções.](contact-pstn-service-desk.md)|
 |Obter números de telefone transferidos para Microsoft 365 ou Office 365 para **usuários** no Japão.|Entre em contato [com o SoftBank Calling](https://aka.ms/SoftBankVoicePlan) para transferir números de telefone do usuário. Em seguida, eles adicionarão esses números à sua organização.  <br/> |
 |Obter números de telefone transferidos para Microsoft 365 ou Office 365 **filas de chamadas** no Japão.|Entre em contato [com a Chamada do SoftBank](https://aka.ms/SoftBankVoicePlan) para transferir números de telefone do serviço. Em seguida, eles adicionarão esses números à sua organização.|
 |Altere o endereço de emergência atribuído aos usuários que possuem um número de telefone do Plano de Chamadas.|Entre em contato [com o SoftBank Calling](https://aka.ms/SoftBankVoicePlan) para fazer alterações de endereço de emergência. Eles podem atualizar essas informações para você.|
 |Altere um número de usuário para um número de serviço. |Atualmente, não há suporte ao uso de Chamada do SoftBank.|
-|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato [com o service desk PSTN](contact-pstn-service-desk.md). |
+|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou de atendimento automático, entre em contato com [o Service Desk PTSN para obter instruções.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
