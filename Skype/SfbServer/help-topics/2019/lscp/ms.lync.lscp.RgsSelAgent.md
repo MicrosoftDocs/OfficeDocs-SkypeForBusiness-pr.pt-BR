@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Os agentes são usuários designados para atender às chamadas do Grupo de Resposta. Os grupos de resposta precisam ter um grupo de agentes atribuídos que identifica os agentes que podem receber chamadas para o grupo de respostas. Uma forma de criar um grupo de agentes é definir um grupo personalizado selecionando usuários elegíveis. Os usuários qualificados estão habilitados para o Skype for Business Server e Enterprise Voice.
-ms.openlocfilehash: 399ad65a2fe232d217ce4891061aeed8284277b9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Os agentes são usuários designados para atender às chamadas do Grupo de Resposta. Os grupos de resposta precisam ter um grupo de agentes atribuídos que identifica os agentes que podem receber chamadas para o grupo de respostas. Uma forma de criar um grupo de agentes é definir um grupo personalizado selecionando usuários elegíveis. Os usuários qualificados estão habilitados para Skype for Business Server e Enterprise Voice.
+ms.openlocfilehash: f98f82f6820c08bf306579344a8323e63529be9e2bed74cd6ddd47e5bb1c4f53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279259"
 ---
 # <a name="select-agents"></a>Selecionar Agentes
 
-Os agentes são usuários designados para atender às chamadas do Grupo de Resposta. Os grupos de resposta precisam ter um grupo de agentes atribuídos que identifica os agentes que podem receber chamadas para o grupo de respostas. Uma forma de criar um grupo de agentes é definir um grupo personalizado selecionando usuários elegíveis. Os usuários qualificados estão habilitados para o Skype for Business Server e Enterprise Voice.
+Os agentes são usuários designados para atender às chamadas do Grupo de Resposta. Os grupos de resposta precisam ter um grupo de agentes atribuídos que identifica os agentes que podem receber chamadas para o grupo de respostas. Uma forma de criar um grupo de agentes é definir um grupo personalizado selecionando usuários elegíveis. Os usuários qualificados estão habilitados para Skype for Business Server e Enterprise Voice.
 
 Use a caixa de diálogo **Selecionar Agentes** para selecionar os usuários que serão adicionados a um grupo de agentes.
 
@@ -32,7 +32,7 @@ Use a caixa de diálogo **Selecionar Agentes** para selecionar os usuários que 
 
 A lista a seguir descreve os controles na caixa de diálogo **Selecionar Agentes**.
 
-- **Find** Pesquisa o endereço SIP ou o nome de exibição de um usuário. Insira parte ou todo o endereço ou nome. Deixe a caixa de pesquisa vazia para exibir todos os usuários habilitados para o Skype for Business Server e Enterprise Voice.
+- **Find** Pesquisa o endereço SIP ou o nome de exibição de um usuário. Insira parte ou todo o endereço ou nome. Deixe a caixa de pesquisa vazia para exibir todos os usuários habilitados para Skype for Business Server e Enterprise Voice.
 
 - **Máximo de usuários a exibir** Altera o número de resultados retornados exibidos. Use esse contador para limitar a pesquisa, se você esperar muitos resultados.
 

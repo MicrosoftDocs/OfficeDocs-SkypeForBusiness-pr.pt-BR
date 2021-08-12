@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: Leia este tópico para saber como planejar vários números de emergência no Skype for Business Server.
-ms.openlocfilehash: 47ac1a93a39a95710bf1581aace0ec12a39caec6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Leia este tópico para saber como planejar vários números de emergência Skype for Business Server.
+ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329545"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planejar vários números de emergência no Skype for Business Server
  
-Leia este tópico para saber como planejar vários números de emergência no Skype for Business Server.
+Leia este tópico para saber como planejar vários números de emergência Skype for Business Server.
   
-O Skype for Business Server agora dá suporte à configuração de vários números de emergência para um cliente. Vários números de emergência é um novo recurso introduzido na Atualização Cumulativa de junho de 2016. Embora os Estados Unidos tenha um único número de emergência, 911, muitos países suportam vários números de emergência. O Reino Unido, por exemplo, dá suporte a 999, o número de emergência específico do Reino Unido, e 112, o número de emergência para a União Europeia. 
+Skype for Business Server agora suporta a configuração de vários números de emergência para um cliente. Vários números de emergência é um novo recurso introduzido na Atualização Cumulativa de junho de 2016. Embora os Estados Unidos tenha um único número de emergência, 911, muitos países suportam vários números de emergência. O Reino Unido, por exemplo, dá suporte a 999, o número de emergência específico do Reino Unido, e 112, o número de emergência para a União Europeia. 
   
 Esse recurso também é útil para provedores de saúde nos Estados Unidos que querem ter suporte móvel para vários números de emergência azul de código.
   
@@ -35,14 +35,14 @@ Esse recurso também é útil para provedores de saúde nos Estados Unidos que q
 
 Configure a chamada de emergência criando políticas de local que definem como a chamada de emergência será implementada. Você usa a política de local para definir qual número constitui uma chamada de emergência, por exemplo, 911 nos Estados Unidos; 999 e 112 no Reino Unido. A política de local determina se um usuário está habilitado para chamada de emergência e, em caso afirmativo, qual é o comportamento de uma chamada de emergência. Você também pode definir se a segurança corporativa deve ser notificada automaticamente e como a chamada deve ser roteada.
   
-Para obter mais informações sobre como definir e modificar uma política de local, consulte [Plan location policies for Skype for Business Server](location-policies.md) e Create location policies in Skype for Business [Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Estes tópicos descrevem conceitos sobre políticas de localização; no entanto, você deve seguir as instruções em [Configurar vários números de emergência no Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar vários números de emergência.
+Para obter mais informações sobre como definir e modificar uma política de local, consulte [Plan location policies for Skype for Business Server](location-policies.md) and Create location policies in [Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Estes tópicos descrevem conceitos sobre políticas de localização; no entanto, você deve seguir as instruções em [Configure multiple emergency numbers in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar vários números de emergência.
   
 Ao planejar vários números de emergência, lembre-se do seguinte:
   
 - Com a Atualização Cumulativa de junho de 2016, você pode definir até 5 números de emergência para uma determinada política de local. Com a Atualização Cumulativa de novembro de 2016, esse número aumenta para 100.
     
     > [!NOTE]
-    > Se você ainda não tiver atualizado para a Atualização Cumulativa de novembro de 2016, consulte Atualizações para [o Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
+    > Se você ainda não tiver atualizado para a Atualização Cumulativa de novembro de 2016, consulte [Updates to Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
   
 - Para cada número de emergência, você pode especificar zero ou mais máscaras de discagem de emergência, que são exclusivas de uma determinada política de local.
     
@@ -52,10 +52,10 @@ Ao planejar vários números de emergência, lembre-se do seguinte:
     
 - Se uma política de local tiver os parâmetros EmergencyNumbers e DialString definidos e o cliente suportar vários números de emergência, o número de emergência terá precedência. Se o cliente não suportar vários números de emergência, a cadeia de caracteres de discagem de emergência será usada.
     
-- Para obter informações sobre quais clientes skype for Business e Lync suportam receber vários números de emergência, máscaras de discagem e usos de PSTN (rede telefônica pública comutado), consulte Suporte para [cliente](multiple-emergency-numbers.md#BKMK_Clients).
+- Para obter informações sobre quais clientes Skype for Business e Lync suportam receber vários números de emergência, máscaras de discagem e usos de PSTN (rede telefônica pública comutado), consulte Suporte ao [cliente](multiple-emergency-numbers.md#BKMK_Clients).
     
 > [!NOTE]
-> Não é possível configurar vários números de emergência usando o Painel de Controle do Skype for Business. Você deve usar o PowerShell para configurar vários números de emergência. 
+> Não é possível configurar vários números de emergência usando o painel Skype for Business Controle. Você deve usar o PowerShell para configurar vários números de emergência. 
   
 Antes de configurar vários números de emergência, lembre-se do seguinte:
   
@@ -101,9 +101,9 @@ A tabela a seguir mostra o suporte do cliente para vários números de emergênc
 ||DC (Canal Adiado) lançado em 11 de outubro de 2016 - Versão 1605 (Build 6965.2092)  <br/> |
 |**MSI** <br/> |Atualização de 7 de junho - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac e iOS** <br/> |**Versão** <br/> |
-||Cliente Skype for Business Mac versão 16.9  <br/> Cliente IOS do Skype for Business versão 6.16  <br/> |
+||Skype for Business Mac client versão 16.9  <br/> Skype for Business cliente iOS versão 6.16  <br/> |
 |**Android** <br/> |**Versão** <br/> |
-||Cliente Skype for Business Android versão 6.17  <br/> |
+||Skype for Business Versão 6.17 do cliente Android  <br/> |
 |**Lync Phone Edition** <br/> |**Versão** <br/> |
 || Telefones Aastra 6721ip e Aastra 6725ip - atualização cumulativa de setembro de 2016 (Build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || Telefones HP 4110 e HP 4120 - atualização cumulativa de setembro de 2016 (Build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |

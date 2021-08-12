@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre o Salas do Microsoft Teams gerenciado.
 f1keywords: ''
-ms.openlocfilehash: beb8c0a7cf4a2a78364b145da1da83e2ae04bd0b
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: c6ec09b889272b7efb02e6e2f0223f8fc3bf6da3f4332c4bfb50b58895c90bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858014"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280696"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas do Microsoft Teams serviço gerenciado
 
@@ -41,7 +41,7 @@ Aqui está uma visão geral dos recursos do serviço Salas do Microsoft Teams ge
 |**Planejamento e lançamento de sala**   |Recursos de planejamento de sala que permitem compreender o inventário de equipamentos de sala e tomar decisões sobre os padrões de equipamento para novas implantações de sala.         |
 |**Monitoramento e solução de problemas**  |Monitoramento de saúde de sala que detecta problemas com o sistema de sala e periféricos e fornece uma resposta proativa de gerenciamento de incidentes orientada pela Microsoft.         |
 |**Gerenciamento de atualizações**    |Gerenciamento e entrega de atualizações de aplicativos e firmware para sistemas de sala e seus periféricos executados pela Microsoft.         |
-|**Insights e recomendações**     |Insights sobre a saúde do cliente, uso, utilização e confiabilidade do equipamento.         |
+|**Insights e recomendações**     |Insights em saúde do cliente, uso, utilização e confiabilidade do equipamento.         |
 |**Conformidade e certificações**   |Atende a todos os padrões aplicáveis para Microsoft Online Services.         |
 |**Suporte ao cliente**   |Suporte a tíquetes 24x7x365 por meio do Centro de Operação de Serviço gerenciado (SOC) dedicado Salas do Microsoft Teams serviço gerenciado. Escalonamento em seu nome para outros fornecedores principais quando aplicável. Para saber mais, confira [Suporte ao cliente](#customer-support).|
 |**Dispositivos suportados**    |Sistemas Salas do Microsoft Teams certificados e seus periféricos.<br>*Surface Hub suporte chegando no segundo semestre de 2021*        |

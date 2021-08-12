@@ -1,5 +1,5 @@
 ---
-title: Alta disponibilidade de compartilhamento de arquivos no Skype for Business Server
+title: Alta disponibilidade de compartilhamento de arquivos Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: Saiba mais sobre como garantir alta disponibilidade de seus compartilhamentos de arquivos no Skype for Business Server, usando DFS.
-ms.openlocfilehash: f47d8207969063472af23d898ef8a52c2383df0d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba mais sobre como garantir alta disponibilidade de seus compartilhamentos de arquivos Skype for Business Server, usando DFS.
+ms.openlocfilehash: c707a1049bf1c54302c4dde270856379e4731fd4e23b1e886b3144445b4e2aaf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337759"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Alta disponibilidade de compartilhamento de arquivos no Skype for Business Server
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Alta disponibilidade de compartilhamento de arquivos Skype for Business Server
  
-Saiba mais sobre como garantir alta disponibilidade de seus compartilhamentos de arquivos no Skype for Business Server, usando DFS.
+Saiba mais sobre como garantir alta disponibilidade de seus compartilhamentos de arquivos Skype for Business Server, usando DFS.
   
-Para garantir alta disponibilidade para compartilhamento de arquivos em sua implantação do Skype for Business Server, você pode usar o DFS (Sistema de Arquivos Distribuídos). O DAS oferece suporte a failover de um servidor de arquivos para outro no mesmo data Center. Para uma implantação em grande escala, nós recomendamos que você use servidores de arquivos dedicados emparelhados usando DAS. Para obter mais informações sobre o DFS no Windows Server 2012, consulte [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) . Para obter informações sobre o DFS no Windows Server 2008, consulte [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) .
+Para garantir alta disponibilidade para compartilhamento de arquivos em sua implantação Skype for Business Server, você pode usar o DFS (Sistema de Arquivos Distribuídos). O DAS oferece suporte a failover de um servidor de arquivos para outro no mesmo data Center. Para uma implantação em grande escala, nós recomendamos que você use servidores de arquivos dedicados emparelhados usando DAS. Para obter mais informações sobre o DFS Windows Server 2012, consulte [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) . Para obter informações sobre o DFS no Windows Server 2008, consulte [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) .
   
 Dependendo do tamanho da rede e da quantidade de resiliência desejada, você pode usar um par de servidores para hospedar todos os compartilhamentos de arquivos em um site ou usar um par por pool de front-end.
   

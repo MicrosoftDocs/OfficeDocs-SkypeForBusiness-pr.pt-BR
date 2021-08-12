@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: O ConferenceSessionDetails visualiza as informações dos repositórios sobre sessões com vários participantes. Cada registro representa uma sessão de conferência, que poderia ser a sessão com Foco ou a sessão com um servidor de conferência específico. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: d7ea4e7e793f26c377386082e26376a0ca5acb7d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d11573f8911f02001101c2d6f2e13dd5ec2112017ada115282b9c0ed008176f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337649"
 ---
 # <a name="conferencesessiondetails-view"></a>Exibição ConferenceSessionDetails
  
@@ -36,21 +36,21 @@ O ConferenceSessionDetails visualiza as informações dos repositórios sobre se
 |**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI de servidor de conferência. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI do usuário envolvido na sessão.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI do usuário que fez parte da sessão. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário que fez parte da sessão. Consulte a [tabela Tenants para](tenants.md) obter mais informações. <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário que fez parte da sessão. Consulte a [tabela Locatários](tenants.md) para obter mais informações. <br/> |
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> |Identificador exclusivo do usuário que fez parte da sessão.  <br/> |
 |**EndTime** <br/> |datetime  <br/> |Hora de término da sessão.  <br/> |
 |**ConferenceClientVersion** <br/> |nvarchar(256)  <br/> |Versão do servidor de conferência.  <br/> |
 |**ConferenceClientType** <br/> |int  <br/> |Tipo de servidor de conferência. Consulte a [tabela UserAgentDef para](useragentdef.md) obter mais informações. <br/> |
 |**ConferenceCategory** <br/> |nvarchar(64)  <br/> |Categoria do servidor de conferência.  <br/> |
 |**UserClientVersion** <br/> |nvarchar(256)  <br/> |Versão do cliente utilizado pelo usuário que participou da sessão.  <br/> |
-|**UserClientType** <br/> |int  <br/> |Cliente utilizado pelo usuário que participou da sessão. Consulte a [tabela UserAgentDef para](useragentdef.md) obter mais detalhes. <br/> |
+|**UserClientType** <br/> |int  <br/> |Cliente utilizado pelo usuário que participou da sessão. Consulte a [tabela UserAgentDef](useragentdef.md) para obter mais detalhes. <br/> |
 |**UserClientCategory** <br/> |nvarchar(64)  <br/> |Nome da categoria do cliente utilizado pelo usuário que foi parte da sessão.  <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar(450)  <br/> |URI do usuário em cujo nome a sessão foi iniciada.  <br/> |
 |**OnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI do usuário em cujo nome a sessão foi iniciada. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário em cujo nome a sessão foi iniciada. Consulte a [tabela Tenants para](tenants.md) obter mais informações. <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário em cujo nome a sessão foi iniciada. Consulte a [tabela Locatários](tenants.md) para obter mais informações. <br/> |
 |**ReferredByUri** <br/> |nvarchar(450)  <br/> |URI do usuário que se refere à sessão.  <br/> |
 |**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI do usuário que se refere à sessão. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
-|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário que se refere à sessão. Consulte a [tabela Tenants para](tenants.md) obter mais informações. <br/> |
+|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário que se refere à sessão. Consulte a [tabela Locatários](tenants.md) para obter mais informações. <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |Identificação da caixa de diálogo SIP. O formato é  <br/> :d ialog;from-tag;to-tag  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Número de identificação para identificar o diálogo que foi substituído pela sessão atual. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**ReplaceDialogIdSeq** <br/> |int  <br/> |Número de identificação para identificar a sessão. Utilizado em conjunto com o ReplaceDialogIdTime para identificar de forma exclusiva a sessão que foi substituída por esta sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |

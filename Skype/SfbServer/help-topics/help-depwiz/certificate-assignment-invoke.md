@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 description: A página Comandos em Execução exibe as ações realizadas pelas tarefas para atribuir o certificado ao servidor. Quando as tarefas são concluídas, é possível exibir o log com os detalhes do processo de atribuição do certificado. Para exibir o arquivo de log, clique em Exibir Log.
-ms.openlocfilehash: 7d3d1ee260f99079b8e7ede0f5c9d9d3d2d079e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f14f1ab34c1efcd9d486624b08bc11ca924066747c85e4a1a429499d4d38d3ac
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320693"
 ---
 # <a name="certificate-assignment-invoke"></a>Atribuição de Certificado (Invocar)
  

@@ -1,5 +1,5 @@
 ---
-title: Configurações de Unificação de Mensagens do Exchange (Ferramenta de Planejamento)
+title: Exchange Unificação de Mensagens Configurações (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
-description: O Skype for Business Server 2015 oferece suporte à integração com a UM (Unificação de Mensagens) do Exchange para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
-ms.openlocfilehash: e23c1e44dc0724651c9072fd0a9d93e06d12cd4d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server 2015 oferece suporte à integração com Exchange Unificação de Mensagens (UM) para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
+ms.openlocfilehash: 272c3d51085f9bac2491835bd44317e31784c4729393010f857d5f147fa6bd0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121649"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311859"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Configurações de Unificação de Mensagens do Exchange (Ferramenta de Planejamento) no Skype for Business 2015
+# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange Unified Messaging Configurações (Ferramenta de Planejamento) no Skype for Business 2015
 
 > [!NOTE]
-> A Unificação de Mensagens do Exchange, como conhecida anteriormente, não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e deixar a gravação na caixa de correio do Exchange de um usuário. Consulte [Plan Cloud Voicemail service para](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) obter mais informações.
+> Exchange A Unificação de Mensagens, como conhecida anteriormente, não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e, em seguida, deixar a gravação na caixa de correio Exchange do usuário. Consulte [Plan Caixa postal na Nuvem service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
 
-O Skype for Business Server 2015 oferece suporte à integração com a UM (Unificação de Mensagens) do Exchange para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
+Skype for Business Server 2015 oferece suporte à integração com Exchange Unificação de Mensagens (UM) para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
 
 Veja mais detalhes em:
 

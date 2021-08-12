@@ -15,29 +15,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: 'Resumo: Saiba como exportar ou importar um arquivo de configuração de roteamento de voz no Skype for Business Server usando o Painel de Controle do Skype for Business Server.'
-ms.openlocfilehash: df5ca58ebc7b92fea5236b957f4819ed3602d896
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como exportar ou importar um arquivo de configuração de roteamento de voz Skype for Business Server usando o Painel de Controle Skype for Business Server voz.'
+ms.openlocfilehash: bef3e1caf80ecc2dc065949dcec684ad6e342902cfabf0e9daebab237d09c7ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320813"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportar ou importar um arquivo de configuração de rota de voz no Skype for Business
  
-**Resumo:** Saiba como exportar ou importar um arquivo de configuração de roteamento de voz no Skype for Business Server usando o Painel de Controle do Skype for Business Server.
+**Resumo:** Saiba como exportar ou importar um arquivo de configuração de roteamento de voz no Skype for Business Server usando o painel de Skype for Business Server de controle.
   
-Se você deseja salvar sua configuração de roteamento de voz sem publicá-la, siga estas etapas para salvar e recuperar um instantâneo da configuração de roteamento de voz. 
+Se você quiser salvar sua configuração de roteamento de voz sem publicá-la, siga estas etapas para salvar e recuperar um instantâneo da configuração de roteamento de voz. 
   
-Quando você importa um arquivo de configuração de roteamento de voz (.vcfg), mas houve  alterações na configuração de roteamento de voz no servidor enquanto isso, as páginas no grupo roteamento de voz no Painel de Controle do Skype for Business Server indicarão que há alterações não confirmados no roteamento de voz. Essas alterações não confirmadas são as diferenças entre as duas configurações que exigem reconciliação.
+Ao importar um arquivo de configuração de roteamento de voz (.vcfg), mas as alterações  foram feitas na configuração de roteamento de voz no servidor enquanto isso, as páginas no grupo roteamento de voz no Painel de Controle Skype for Business Server indicarão que há alterações não comprometidas no roteamento de voz. Essas alterações não confirmadas são as diferenças entre as duas configurações que exigem reconciliação.
   
-Se você tiver feito alterações não confirmados nas configurações de qualquer página do grupo, as alterações serão salvas no arquivo de configuração de voz exportado (.vcfg). Isso permite que você faça alterações de configuração de roteamento de voz durante várias sessões antes de publicar as alterações. 
+Se você tiver feito alterações não comprometidas nas configurações em qualquer página dentro do grupo, as alterações serão salvas no arquivo de configuração de voz exportado (.vcfg). Isso permite que você faça alterações de configuração de roteamento de voz durante várias sessões antes de publicar as alterações. 
   
 ### <a name="to-export-a-voice-routing-configuration"></a>Para exportar uma configuração de roteamento de voz
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função administrativa **CsVoiceAdministrator**, **CsServerAdministrator** ou **CsAdministrator**.
     
-2. Abra o Painel de Controle do Skype for Business Server.
+2. Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação esquerda, clique em **Roteamento de voz**.
     
@@ -49,7 +49,7 @@ Se você tiver feito alterações não confirmados nas configurações de qualqu
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função administrativa **CsVoiceAdministrator**, **CsServerAdministrator** ou **CsAdministrator**.
     
-2. Abra o Painel de Controle do Skype for Business Server.
+2. Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação esquerda, clique em **Roteamento de Voz**.
     
@@ -60,6 +60,6 @@ Se você tiver feito alterações não confirmados nas configurações de qualqu
 6. Clique em **Confirmar** e, em seguida, clique em **Confirmar tudo**.
     
     > [!NOTE]
-    > Sempre que importar um arquivo de configuração de voz, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, [consulte Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Sempre que importar um arquivo de configuração de voz, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz Skype for Business na documentação Operações.
   
 

@@ -1,5 +1,5 @@
 ---
-title: Atribuir políticas de conferência no Skype for Business Server
+title: Atribuir políticas de conferência em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
-description: 'Resumo: saiba como atribuir políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 61082a9189b085c852e7593207fc86dcc6509139
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como atribuir políticas de conferência em Skype for Business Server.'
+ms.openlocfilehash: aae4f76f333adef8e54eaa6627157d7424e11ee01c0b62ff9dc1eb24634fc604
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329575"
 ---
-# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Atribuir políticas de conferência no Skype for Business Server
+# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Atribuir políticas de conferência em Skype for Business Server
  
-**Resumo:** Saiba como atribuir políticas de conferência no Skype for Business Server.
+**Resumo:** Saiba como atribuir políticas de conferência em Skype for Business Server.
   
-Você pode atribuir políticas de conferência aos usuários usando o Shell de Gerenciamento do Skype for Business Server e o cmdlet **Grant-CsConferencingPolicy.**
+Você pode atribuir políticas de conferência aos usuários usando Skype for Business Server Shell de Gerenciamento e o cmdlet **Grant-CsConferencingPolicy.**
   
-## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Atribuir políticas de conferência usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Atribuir políticas de conferência usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 
 No exemplo a seguir, a política SalesConferencingPolicy é atribuída ao usuário com a identidade "Ken Myer":
   

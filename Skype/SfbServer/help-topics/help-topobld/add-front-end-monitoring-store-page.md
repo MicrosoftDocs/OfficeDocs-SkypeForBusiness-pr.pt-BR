@@ -14,35 +14,35 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
-description: 'Defina o armazenamento do SQL Server de monitoramento configurando as seguintes propriedades:'
-ms.openlocfilehash: 5f8a3ccb22aea1efde0b214b9afa61c140e63014
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Você define o armazenamento SQL Server monitoramento configurando as seguintes propriedades:'
+ms.openlocfilehash: db0956b14f7fa4f594c752bfe16a366b166ac7274abc303d947e2511b334378d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803541"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290759"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Adicionar Página de Repositório de Monitoramento de Front-end
  
-Defina **o armazenamento do SQL Server de monitoramento** configurando as seguintes propriedades:
+Você **define o armazenamento SQL Server monitoramento** configurando as seguintes propriedades:
   
-- **Monitoramento do armazenamento do SQL Server:** selecione um nome de domínio totalmente qualificado do SQL Server (e, opcionalmente, uma instância) na lista.
+- **Monitoring SQL Server store**: SQL Server selecione um nome de domínio totalmente qualificado (e, opcionalmente, uma instância) na lista.
     
-    Clique **em** Novo para criar uma nova definição FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento do Monitoring Server.
+    Clique **em Novo** para criar uma nova SQL Server FQDN e, opcionalmente, um nome de instância para o armazenamento do Servidor de Monitoramento.
     
-- Marque a **caixa de seleção Habilitar** espelhamento do armazenamento do SQL Server se quiser adicionar espelhamento de banco de dados para o Monitoring Server.
+- Marque a **caixa de seleção Habilitar SQL Server espelhamento** de armazenamento se quiser adicionar espelhamento de banco de dados para o Servidor de Monitoramento.
     
-    Selecione um espelho existente **do armazenamento do SQL Server de monitoramento** na lista.
+    Selecione um espelho **de SQL Server de armazenamento** existente na lista.
     
-    Clique **em Novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento espelho.
+    Clique **em Novo** para criar uma nova SQL Server FQDN e, opcionalmente, um nome de instância para o armazenamento espelho.
     
-- Se você selecionou Habilitar espelhamento do armazenamento do **SQL Server,** selecione Usar testemunha de espelhamento do SQL Server para habilitar o **failover** automático para selecionar um armazenamento testemunha de espelhamento do SQL Server na lista.
+- Se você selecionou **Habilitar SQL Server** espelhamento de armazenamento, selecione Usar SQL Server testemunha de espelhamento para habilitar o **failover** automático para selecionar um SQL Server de espelhamento de testemunha na lista.
     
-    Clique **em Novo** para criar uma nova definição FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento de testemunha de espelhamento.
+    Clique **em Novo** para criar uma nova SQL Server FQDN e, opcionalmente, um nome de instância para o armazenamento de testemunha de espelhamento.
     
 Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
-Clique **em Avançar** depois de terminar de inserir as opções dessa caixa de diálogo para prosseguir com a configuração.
+Clique **em Avançar** depois de terminar de inserir as opções para que essa caixa de diálogo prossiga com a configuração.
   
 Clique **em Cancelar** para descartar todas as alterações e encerrar o assistente.
   

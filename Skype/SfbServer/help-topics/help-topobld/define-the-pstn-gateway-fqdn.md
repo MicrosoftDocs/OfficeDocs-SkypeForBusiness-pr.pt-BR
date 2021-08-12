@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Você especifica o FQDN (nome de domínio totalmente qualificado) do gateway PSTN (rede telefônica pública comutado) que conectará seus componentes Enterprise Voice a um PSTN ou pbx (private branch exchange).
-ms.openlocfilehash: 3d5620ba9cf186ffb2b7c971683f299288302a1a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c3fbc1aabb29d06c3b4006078864839dd587f80c653771ac63fe2dd11d1746ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106877"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290809"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Definir o Gateway PSTN do FQDN
 
 Você especifica o FQDN (nome de domínio totalmente qualificado) do gateway PSTN (rede telefônica pública comutado) que conectará seus componentes Enterprise Voice a um PSTN ou pbx (private branch exchange).
 
-Para obter detalhes, consulte Componentes de conectividade [PSTN no Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Para obter detalhes, consulte [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>Confira também
 

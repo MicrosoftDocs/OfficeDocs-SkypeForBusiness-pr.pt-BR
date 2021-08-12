@@ -1,5 +1,5 @@
 ---
-title: Call Admission Control (Planning Tool)
+title: Controle de Admissão de Chamada (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,17 +16,17 @@ localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo.
-ms.openlocfilehash: 36d221b787dfa7ed3846b72b19f9dc5474c08eb2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: df65cf8e78f595748158b7ad8412fca1c288a19f0060f4a1af99a1c530439b85
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311879"
 ---
-# <a name="call-admission-control-planning-tool"></a>Call Admission Control (Planning Tool)
+# <a name="call-admission-control-planning-tool"></a>Controle de Admissão de Chamada (Ferramenta de Planejamento)
  
 O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo.
   
-Para obter detalhes sobre como planejar o controle de admissão de chamadas, consulte [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Para obter detalhes sobre o planejamento do controle de admissão de chamada, consulte [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 

@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 'O nó servidores de aplicativos confiáveis lista os pools de aplicativos confiáveis neste site. Os pools de aplicativos confiáveis contêm servidores que executem aplicativos confiáveis do Microsoft Unified Communications, mas não executem funções do Skype for Business Server. Você pode executar as seguintes ações:'
-ms.openlocfilehash: b200593ea206f2c23f8c521dddbf3498d6ced838
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'O nó Servidores de aplicativos confiáveis lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contêm servidores que executem aplicativos de Comunicações Unificadas da Microsoft confiáveis, mas não Skype for Business Server funções. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 6615a113e8c2169db6105675de816558d29bff808bf6b90fda4ad4f9d2e51f8d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290739"
 ---
 # <a name="external-applications-scope-node"></a>Nó de Escopo de Aplicativos Externos
  
-O **nó servidores de aplicativos** confiáveis lista os pools de aplicativos confiáveis neste site. Os pools de aplicativos confiáveis contêm servidores que executem aplicativos confiáveis do Microsoft Unified Communications, mas não executem funções do Skype for Business Server. Você pode executar as seguintes ações:
+O **nó Servidores de aplicativos confiáveis** lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contêm servidores que executem aplicativos de Comunicações Unificadas da Microsoft confiáveis, mas não Skype for Business Server funções. Você pode executar as seguintes ações:
   
 - **Novo Pool de aplicativos confiáveis**. Inicia o assistente para  **Definir novo Pool de aplicativos confiáveis** que é usado para adicionar um novo pool de aplicativos confiáveis à topologia.
     

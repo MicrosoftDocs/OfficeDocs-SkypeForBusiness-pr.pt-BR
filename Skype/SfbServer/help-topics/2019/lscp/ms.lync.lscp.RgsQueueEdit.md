@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: As filas do Grupo de Resposta resitem chamadas para um grupo de resposta até que um agente responda à chamada.
-ms.openlocfilehash: ee99ac8cb4f3ea9c2f0e1804914eaf30c909a2b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1754e2c3634bf2b37341e0b73608dd5aa23f5bc8b070bc9075fe1b583055ec67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279249"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Fila de Grupos de Resposta: Criar Nova ou Editar Existente
 
@@ -36,7 +36,7 @@ A lista a seguir descreve os campos na página.
 
 - **Grupos** Selecione os grupos de agentes que você deseja atribuir à fila. Clique em **Selecionar** para adicionar grupos de agente à lista. Clique em **Remover** para excluir o grupo de agentes selecionado da lista.
 
-    As setas para cima e para baixo movem um grupo de agentes selecionado para cima e para baixo na lista. A ordem dos grupos de agentes afeta a ordem na qual o Skype for Business Server pesquisa um agente disponível. Ou seja, o primeiro grupo na lista é pesquisado primeiro em busca de um agente disponível, seguindo pelo segundo grupo e assim por diante.
+    As setas para cima e para baixo movem um grupo de agentes selecionado para cima e para baixo na lista. A ordem dos grupos de agentes afeta a ordem na qual Skype for Business Server procura um agente disponível. Ou seja, o primeiro grupo na lista é pesquisado primeiro em busca de um agente disponível, seguindo pelo segundo grupo e assim por diante.
 
 - **Habilitar o tempo de espera da fila** Marque essa caixa de seleção para especificar um período máximo de tempo para um chamador aguardar em espera antes que um agente responda à chamada. Se você selecionar essa opção, também precisará especificar o seguinte:
 

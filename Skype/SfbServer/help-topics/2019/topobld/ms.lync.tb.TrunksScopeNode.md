@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Clique com o botão direito do mouse em Troncos no Construtor de Topologias para executar o seguinte:'
-ms.openlocfilehash: fdef7e2fa020692ba8132ede221629a715278fd9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2760f0b1c0187f6662d68aa886bde5cf6f09247abb1177f37934354dddcea3d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807541"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278999"
 ---
 # <a name="trunks-scope-node"></a>Nó de Escopo de Troncos
  
-Clique com o botão **direito do mouse em Troncos** no Construtor de Topologias para executar o seguinte:
+Clique com o botão direito do mouse **em Troncos** no Construtor de Topologias para executar o seguinte:
   
 - **Novo Tronco**: inicia o assistente **Definir Novo Tronco** usado para definir um novo tronco SIP.
     
