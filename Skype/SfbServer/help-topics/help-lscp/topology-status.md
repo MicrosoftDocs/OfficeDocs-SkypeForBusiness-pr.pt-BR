@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
-description: 'A página Topologia: Status exibe o status dos servidores em sua topologia do Skype for Business.'
-ms.openlocfilehash: 993410a52cd8e843b7df64141354aca9272198a0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'A página Topologia: Status exibe o status dos servidores em sua Skype for Business topologia.'
+ms.openlocfilehash: a4af861e23592ce58590593ef3fd73af1b2a2a25b47b3b3ce1a8249544cf6b98
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099257"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331343"
 ---
 # <a name="topology-status"></a>Topologia: Status
 
-A **página Topologia**: **Status** exibe o status dos servidores em sua topologia do Skype for Business.
+A **página Topologia**: **Status** exibe o status dos servidores em sua Skype for Business topologia.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -38,4 +38,4 @@ A **página Topologia**: **Status** exibe o status dos servidores em sua topolog
 
 - [Impedir novas conexões com serviços](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

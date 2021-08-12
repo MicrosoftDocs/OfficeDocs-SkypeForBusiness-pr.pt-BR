@@ -1,5 +1,5 @@
 ---
-title: Instalar SQL Server De relatórios no Skype for Business Server
+title: Instalar SQL Server Reporting Services no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-description: 'Resumo: saiba onde ir para encontrar informações sobre SQL Server De relatórios usados pelo Skype for Business Server.'
-ms.openlocfilehash: 449ca513503209f062b3e35fe7474bd11162790f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba onde ir para encontrar informações sobre SQL Server Reporting Services usadas pelo Skype for Business Server.'
+ms.openlocfilehash: 5abf1a1ef2043ce4c82c61d1b0ff8585f02abdc4f697a9c1c265bb4c5ba22e6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101957"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322343"
 ---
-# <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Instalar SQL Server De relatórios no Skype for Business Server 
+# <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Instalar SQL Server Reporting Services no Skype for Business Server 
  
-**Resumo:** Saiba onde ir para encontrar informações sobre o SQL Server de Relatórios usados pelo Skype for Business Server.
+**Resumo:** Saiba onde ir para encontrar informações sobre SQL Server Reporting Services usadas por Skype for Business Server.
   
-O Skype for Business Server pode usar SQL Server SSRS (Reporting Services) para exibir e monitorar relatórios. Para usar essa funcionalidade, você precisará ter o Reporting Services instalado e configurado.
+Skype for Business Server pode usar SQL Server Reporting Services (SSRS) para exibir e monitorar relatórios. Para usar essa funcionalidade, você precisará ter o Reporting Services instalado e configurado.
   
 ## <a name="install-sql-server-reporting-services"></a>Instalar o SQL Server Reporting Services
 
-Se você pretende usar Relatórios de Monitoramento do Skype for Business Server (consulte o próximo artigo desta documentação para obter mais informações) primeiro instale o SQL Server Reporting Services; Os Serviços de Relatório podem ser instalados ao mesmo tempo que você instala Microsoft SQL Server ou a qualquer momento após SQL Server tiver sido instalado. Se você não tiver instalado SQL Server, siga as instruções fornecidas anteriormente nesta documentação. Ao instalar o SQL Server, certifique-se de que, na página Seleção de Recursos, selecione Reporting Services. Isso instalará o SQL Server Reporting Services.
+Se você pretende usar Skype for Business Server Relatórios de Monitoramento (consulte o próximo artigo desta documentação para obter mais informações) você deve primeiro instalar SQL Server Reporting Services; Os Serviços de Relatório podem ser instalados ao mesmo tempo que você instala Microsoft SQL Server ou a qualquer momento após SQL Server tiver sido instalado. Se você não tiver instalado SQL Server, siga as instruções fornecidas anteriormente nesta documentação. Ao instalar SQL Server, certifique-se de que, na página Seleção de Recursos, selecione Reporting Services. Isso instalará SQL Server Reporting Services.
   
-Para saber como instalar o SQL Server Reporting Services, [consulte SQL Server Reporting Services (SSRS)](/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports).
+Para saber como instalar SQL Server Reporting Services, [consulte SQL Server Reporting Services (SSRS)](/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports).
   
-Se você já instalou o SQL Server, mas não instalou o SQL Server Reporting Services, você pode adicionar esse recurso seguindo o conjunto apropriado de instruções para o SQL Server Reporting Services. 
+Se você já instalou SQL Server mas não instalou SQL Server Reporting Services você pode adicionar esse recurso seguindo o conjunto apropriado de instruções para SQL Server Reporting Services. 

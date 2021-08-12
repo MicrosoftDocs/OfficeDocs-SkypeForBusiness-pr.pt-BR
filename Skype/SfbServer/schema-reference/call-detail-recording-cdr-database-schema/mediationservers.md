@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
-description: A tabela MediationServers é uma tabela de suporte. Cada registro armazena informações sobre um Servidor de Mediação envolvido em chamadas que possuem registros no banco de dados.
-ms.openlocfilehash: e498409087ee5cf41b32b29ec5f66a147290e1ad
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: A tabela MediationServers é uma tabela de suporte. Cada registro armazena informações sobre um Servidor de Mediação que está envolvido em chamadas que têm registros no banco de dados.
+ms.openlocfilehash: ef980b18aece83b26619efc375f232040745a7b20d3dca4745e0ffcd60d6e57b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814761"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286250"
 ---
 # <a name="mediationservers-table"></a>Tabela MediationServers
  
-A tabela MediationServers é uma tabela de suporte. Cada registro armazena informações sobre um Servidor de Mediação envolvido em chamadas que possuem registros no banco de dados.
+A tabela MediationServers é uma tabela de suporte. Cada registro armazena informações sobre um Servidor de Mediação que está envolvido em chamadas que têm registros no banco de dados.
   
 |**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**MediationServerId** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica este Servidor de Mediação.  <br/> |
+|**MediationServerId** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica esse Servidor de Mediação.  <br/> |
 |**MediationServer** <br/> |nvarchar(256)  <br/> | <br/> |Nome do Servidor de Mediação.  <br/> |
    
 

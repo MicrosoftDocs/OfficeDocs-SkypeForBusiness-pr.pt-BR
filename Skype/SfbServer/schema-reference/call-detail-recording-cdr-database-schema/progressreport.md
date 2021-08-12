@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
-description: Relatórios de andamento são baseados nos dados carregados pelo cliente no banco de dados após a conclusão de uma chamada ou sessão. Relatórios de progresso serão gravados apenas para chamadas e sessões que o Skype for Business Server 2015 determina que podem ser úteis para fins de diagnóstico.
-ms.openlocfilehash: 4169ab029c0ce491b77b39735e309e102ac6e356
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Relatórios de andamento são baseados nos dados carregados pelo cliente no banco de dados após a conclusão de uma chamada ou sessão. Os relatórios de progresso serão gravados somente para chamadas e sessões que Skype for Business Server 2015 determina podem ser úteis para fins de diagnóstico.
+ms.openlocfilehash: 6429700f902caec80db02f3db6c78420b5c108ce6a39383da8914955df16f80d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286220"
 ---
 # <a name="progressreport-table"></a>Tabela ProgressReport
  
-Relatórios de andamento são baseados nos dados carregados pelo cliente no banco de dados após a conclusão de uma chamada ou sessão. Relatórios de progresso serão gravados apenas para chamadas e sessões que o Skype for Business Server 2015 determina que podem ser úteis para fins de diagnóstico.
+Relatórios de andamento são baseados nos dados carregados pelo cliente no banco de dados após a conclusão de uma chamada ou sessão. Os relatórios de progresso serão gravados somente para chamadas e sessões que Skype for Business Server 2015 determina podem ser úteis para fins de diagnóstico.
   
 Os campos ErrorTime, ErrorReportSeq e ProgressReportSeq não se referem necessariamente a erros, mas a mensagens que indicam o status de chamadas ou mensagens.
   
@@ -33,7 +33,7 @@ Os campos ErrorTime, ErrorReportSeq e ProgressReportSeq não se referem necessar
 |**ErrorReportSeq** <br/> |int  <br/> |Primário, externo  <br/> |Número de ID que identifica o relatório de erros. O ErrorReporSeq é usado em conjunto com o ErrorTime para identificar exclusivamente um relatório de erros. Consulte a [tabela ErrorReport no Skype for Business Server 2015](errorreport.md) para obter mais informações <br/> Este campo foi introduzido no Microsoft Lync Server 2013.  <br/> |
 |**ProgressReportSeq** <br/> |int  <br/> |Primário  <br/> |Número de ID para identificar o relatório de andamento. Usado junto com ErrorTime e ErrorReportSeq para identificar exclusivamente um relatório de andamento.  <br/> |
 |**MsDiagId** <br/> |int  <br/> ||ID do diagnóstico do relatório de andamento.  <br/> Este campo foi introduzido no Microsoft Lync Server 2013.  <br/> |
-|**SourceId** <br/> |int  <br/> |Externo  <br/> |Servidor que enviou o relatório de erros (se o relatório foi enviado de um componente do servidor), Consulte a Servers Table para obter mais informações. Consulte a [tabela Servidores para](servers.md) obter mais informações. Este campo foi introduzido no Microsoft Lync Server 2013. <br/> |
+|**SourceId** <br/> |int  <br/> |Foreign  <br/> |Servidor que enviou o relatório de erros (se o relatório foi enviado de um componente do servidor), Consulte a Servers Table para obter mais informações. Consulte a [tabela Servidores para](servers.md) obter mais informações. Este campo foi introduzido no Microsoft Lync Server 2013. <br/> |
 |**ApplicationId** <br/> |int  <br/> ||O processo do Lync Server do qual o relatório trata. Consulte a Application Table para obter mais informações  <br/> |
 |**Ver os detalhes** <br/> |imagem  <br/> ||Detalhes do relatório de andamento armazenados em formato binário para economizar espaço. Esses dados podem ser convertidos em formato de texto usando essa sintaxe:  <br/> cast(cast(Detail as varbinary(max)) as varchar(max))  <br/> |
 |**TelemetryId** <br/> |uniqueIdentifier  <br/> ||Identificador exclusivo que correlaciona as informações da hora de ingresso com os diferentes componentes envolvidos em uma conferência.  <br/> Este campo foi introduzido no Microsoft Lync Server 2013.  <br/> |

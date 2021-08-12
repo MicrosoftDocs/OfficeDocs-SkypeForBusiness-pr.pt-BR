@@ -1,5 +1,5 @@
 ---
-title: Instalar e configurar opções de ocupado para o Skype for Business Server
+title: Instalar e configurar Opções de Ocupado para Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: Leia sobre como instalar e configurar opções de ocupado no Skype for Business Server.
-ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Leia sobre como instalar e configurar Opções de Ocupado no Skype for Business Server.
+ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322393"
 ---
-# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar e configurar opções de ocupado para o Skype for Business Server
+# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar e configurar Opções de Ocupado para Skype for Business Server
 
-Leia sobre como instalar e configurar opções de ocupado no Skype for Business Server.
+Leia sobre como instalar e configurar Opções de Ocupado no Skype for Business Server.
 
 Opções de Ocupado é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016 que permite configurar como as chamadas de entrada são tratadas quando um usuário já está em uma chamada ou conferência ou tem uma chamada colocada em espera. Chamadas novas ou de entrada podem ser rejeitadas com um sinal de ocupado ou encaminhadas para a caixa postal.
 
-Se As Opções de Ocupado estiver habilitada para a organização, todos os usuários da Enterprise, tanto Enterprise Voice quanto não Enterprise Voice usuários não Enterprise Voice, poderão usar as seguintes opções de configuração:
+Se Opções de Ocupado estiver habilitada para a organização, todos os usuários no Enterprise, usuários Enterprise Voice usuários não Enterprise Voice, poderão usar as seguintes opções de configuração:
 
 - Ocupado em Ocupado - Em que novas chamadas de entrada serão rejeitadas com um sinal de ocupado se o usuário estiver ocupado.
 
@@ -40,7 +40,7 @@ Para obter mais informações sobre o recurso Opções de Ocupado, consulte [Pla
 
 ## <a name="install"></a>Instalar
 
-Certifique-se de ter a versão mais recente do Skype for Business Server instalada e se você instalou o patch mais recente. Para fazer isso, primeiro pare todos os serviços e execute o instalador de atualização do Skype for Business Server da seguinte forma:
+Certifique-se de ter a versão mais recente do Skype for Business Server instalada e se você instalou o patch mais recente. Para fazer isso, primeiro pare todos os serviços e execute o Skype for Business Server instalador de atualização da seguinte forma:
 
 1. Execute o Stop-CsWindowsService comando.
 
@@ -91,7 +91,7 @@ O instalador implantará a versão mais recente do aplicativo Opções de Ocupad
    Update-CsAdminRole
    ```
 
-5. Por fim, inicie os serviços do Windows do Skype for Business Server em todos os servidores Front-End em todos os pools em que as Opções de Ocupado foram instaladas e habilitadas executando o comando [Start-CsWindowsService:](/powershell/module/skype/start-cswindowsservice?view=skype-ps)
+5. Por fim, inicie os serviços Skype for Business Server Windows em todos os servidores Front-End em todos os pools em que opções de ocupado foram instaladas e habilitadas executando o comando [Start-CsWindowsService:](/powershell/module/skype/start-cswindowsservice?view=skype-ps)
 
    ```powershell
    Start-CsWindowsService
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-Você também pode usar o Visualizador de Eventos do Windows para verificar se a instalação de Opções de Ocupado foi bem-sucedida e se o Skype for Business Server carregou opções de ocupado com êxito. Para verificar Opções de Ocupado, abra o Visualizador de Eventos - Logs de Aplicativos e Serviços **\> - Servidor skype \> (ou Lync)** e pesquise a ID do Evento = 30253.
+Você também pode usar Windows Visualizador de Eventos para verificar se a instalação de Opções de Ocupado foi bem-sucedida e que Skype for Business Server opções de ocupado carregadas com êxito. Para verificar Opções de Ocupado, abra o Visualizador de Eventos - Logs de Aplicativos e Serviços **\> - Skype \> (ou Lync) Server** e pesquise a ID do Evento = 30253.

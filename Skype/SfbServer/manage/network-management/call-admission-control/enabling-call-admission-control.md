@@ -11,30 +11,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: " Depois de configurar a rede cac (controle de admissão de chamada), você deve habilitar o CAC para impor as limitações de largura de banda."
-ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86a3cbead644ac265fc29d15c4ee9167bb214925c9176f9dfd11efe89df12079
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312999"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Habilitar o controle de admissão de chamada no Skype for Business Server
 
-O serviço de controle de admissão de chamadas (CAC) é uma rede de regiões, sites e sub-redes que permite impor restrições às transmissões de áudio e vídeo com base na largura de banda disponível. Após configurar a rede CAC, habilite o CAC para impor as limitações de largura de banda. Você pode usar o Painel de Controle do Skype for Business Server para fazer isso.
+O serviço de controle de admissão de chamadas (CAC) é uma rede de regiões, sites e sub-redes que permite impor restrições às transmissões de áudio e vídeo com base na largura de banda disponível. Após configurar a rede CAC, habilite o CAC para impor as limitações de largura de banda. Você pode usar o painel Skype for Business Server controle para fazer isso.
 
 
-## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Para habilitar o CAC no Painel de Controle do Skype for Business Server
+## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Para habilitar o CAC do painel de Skype for Business Server de controle
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Global**.
 
 4.  Na página **Global**, clique na configuração **Global**.
    
     > [!NOTE]  
-    > Somente uma rede pode ser configurada para qualquer implantação do Skype for Business Server, portanto, nunca haverá mais de uma configuração de rede na lista. Você não pode renomear a configuração Global.
+    > Somente uma rede pode ser configurada para qualquer implantação Skype for Business Server, portanto, nunca haverá mais de uma configuração de rede na lista. Você não pode renomear a configuração Global.
 
 5.  No menu **Editar**, clique em **Mostrar detalhes**.
 

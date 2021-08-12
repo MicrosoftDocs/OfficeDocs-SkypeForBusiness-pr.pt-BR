@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
-description: Planejamento para roteamento baseado em local no Skype for Business Server Enterprise Voice, incluindo interação com toque e delegação simultâneos e cenários com suporte para roteamento baseado em local.
-ms.openlocfilehash: 99a76d3cda40bb1fdc71bdffc7f6c896c96c5cc2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Planejamento para roteamento baseado em local em Skype for Business Server Enterprise Voice, incluindo interação com toque simultâneo e delegação e cenários com suporte para roteamento baseado em local.
+ms.openlocfilehash: 3d76fad2b87c850e18bf5d152234dea4d1321a3ed2e123be694e6a1f107f58ae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101477"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286620"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planejar o Location-Based roteamento no Skype for Business
 
-Planejamento para roteamento baseado em local no Skype for Business Server Enterprise Voice, incluindo interação com toque e delegação simultâneos e cenários com suporte para roteamento baseado em local.
+Planejamento para roteamento baseado em local em Skype for Business Server Enterprise Voice, incluindo interação com toque simultâneo e delegação e cenários com suporte para roteamento baseado em local.
 
-Location-Based roteamento possibilita restringir o roteamento de chamadas entre pontos de extremidade VoIP e pontos de extremidade PSTN com base no local das partes na chamada. Location-Based Routing é um recurso de gerenciamento de chamadas que controla como as chamadas são roteadas pelo Skype for Business Server. Ele impõe regras de autorização de chamada sobre se as chamadas podem ser roteados para pontos de extremidade PBX ou PSTN com base na localização geográfica do chamador do Skype for Business.
+Location-Based roteamento possibilita restringir o roteamento de chamadas entre pontos de extremidade VoIP e pontos de extremidade PSTN com base no local das partes na chamada. Location-Based Routing é um recurso de gerenciamento de chamadas que controla como as chamadas são roteadas por Skype for Business Server. Ele impõe regras de autorização de chamada sobre se as chamadas podem ser roteados para pontos de extremidade PBX ou PSTN com base na localização geográfica do Skype for Business do chamador.
 
 Location-Based routing introduz um novo conjunto de regras que modifica o roteamento de chamadas PSTN nacionais e internacionais para evitar o desvio de chamada Location-Based Routing fornece a flexibilidade para escopo dessas regras para regiões específicas, gateways específicos ou para um conjunto específico de usuários.
 
 Os cenários a seguir ilustram os principais tipos de restrições que o roteamento Location-Based pode impor:
 
-- Chamadas de saída - o roteamento Location-Based pode impor chamadas de saída para saída a um gateway PSTN localizado na mesma região em que o chamador deve impedir o desvio de chamada PSTN, o que impede chamadas para saída para um gateway PSTN localizado em uma região diferente do chamador.
+- Egress chamadas - o roteamento do Location-Based pode impor chamadas de saída para saída para um gateway PSTN localizado na mesma região em que o chamador deve impedir o desvio de chamada PSTN, o que impede chamadas para saída para um gateway PSTN localizado em uma região diferente do chamador.
 
-- Chamadas de entrada - Location-Based Roteamento pode impedir chamadas PSTN de entrada para tocar pontos de extremidade do Skype for Business se o gateway PSTN que roteia a chamada de entrada não estiver localizado na mesma região que o usuário chamado Skype for Business.
+- Chamadas de entrada - o roteamento Location-Based pode impedir que chamadas PSTN de entrada toquem em pontos de extremidade Skype for Business se o gateway PSTN que roteia a chamada de entrada não estiver localizado na mesma região que o usuário Skype for Business chamado.
 
 - Regiões desconhecidas - Location-Based Roteamento restringe chamadas PSTN de entrada e saída de usuários que estão localizados em locais indeterminados (ou seja, usuários remotos que se conectam da Internet ou localizados em regiões desconhecidas).
 
@@ -47,11 +47,11 @@ Location-Based Roteamento, dependendo da situação, pode ser aplicado no local 
 
 ### <a name="applying-location-based-routing-at-the-users-location"></a>Aplicando Location-Based roteamento no local do usuário
 
-Location-Based Roteamento aproveita as mesmas regiões de rede, sites e sub-redes definidas no Skype for Business Server usado pelo E9-1-1, CAC e Desvio de Mídia para aplicar restrições de roteamento de chamadas para impedir o desvio de chamada PSTN. A localização de um usuário é determinada pela sub-rede IP dos pontos de extremidade do Skype for Business do usuário que estão conectados. Cada sub-rede IP é associada a um site de rede, que é agregado em regiões de rede definidas pelo administrador. Location-Based Roteamento é imposto com base no site de rede do usuário.
+Location-Based Roteamento aproveita as mesmas regiões de rede, sites e sub-redes, conforme definido no Skype for Business Server usado por E9-1-1, CAC e Desvio de Mídia para aplicar restrições de roteamento de chamadas para evitar o desvio de chamada PSTN. A localização de um usuário é determinada pela sub-rede IP dos pontos de extremidade Skype for Business do usuário estão conectados. Cada sub-rede IP é associada a um site de rede, que é agregado em regiões de rede definidas pelo administrador. Location-Based Roteamento é imposto com base no site de rede do usuário.
 
 Location-Based regras de roteamento são aplicadas por site de rede, o que significa que um determinado conjunto de regras será aplicado a todos os pontos de extremidade habilitados para o roteamento Location-Based que estão localizados no mesmo site de rede. Os administradores podem aplicar Location-Based roteamento a sites de rede que o exigem.
 
-As políticas de roteamento de voz podem ser definidas por site de rede para definir um gateway PSTN específico que deve ser usado por todos os usuários localizados no site de rede para chamar números de telefone PSTN. Essas políticas de roteamento de voz terão precedência sobre o roteamento definido pela política de voz do usuário quando o usuário estiver localizado em um site de rede habilitado para roteamento de Location-Based e impedirá o roteamento de chamadas por meio de outros gateways PSTN habilitados para roteamento Location-Based. Quando um usuário do Skype for Business faz uma chamada PSTN, a política de voz do usuário determina se o usuário pode ser autorizado a fazer a chamada. Se a política de voz do usuário permitir que o usuário coloque a chamada, Location-Based Routing determinará de qual gateway PSTN a chamada deverá surgir. Location-Based Routing faz essa determinação com base na localização do usuário.
+As políticas de roteamento de voz podem ser definidas por site de rede para definir um gateway PSTN específico que deve ser usado por todos os usuários localizados no site de rede para chamar números de telefone PSTN. Essas políticas de roteamento de voz terão precedência sobre o roteamento definido pela política de voz do usuário quando o usuário estiver localizado em um site de rede habilitado para roteamento de Location-Based e impedirá o roteamento de chamadas por meio de outros gateways PSTN habilitados para roteamento Location-Based. Quando um Skype for Business faz uma chamada PSTN, a política de voz do usuário determina se o usuário pode ser autorizado a fazer a chamada. Se a política de voz do usuário permitir que o usuário coloque a chamada, Location-Based Routing determinará de qual gateway PSTN a chamada deverá surgir. Location-Based Routing faz essa determinação com base na localização do usuário.
 
 Um local do usuário pode ser categorizado das seguintes maneiras:
 
@@ -75,7 +75,7 @@ Os troncos podem ser habilitados para Location-Based roteamento de duas maneiras
 
 - O tronco é definido para um gateway PSTN que egresse chamadas para a PSTN. As chamadas de entrada roteadas por um tronco desse tipo serão roteadas somente para pontos de extremidade localizados no mesmo site de rede que o tronco.
 
-- O tronco é definido para um par do Servidor de Mediação que não egressa chamadas para a PSTN e serviços usuários com telefones herdado em locais estáticos (ou seja, telefones PBX). Para essa configuração específica, todas as chamadas de entrada roteadas por um tronco desse tipo serão consideradas originadas do mesmo site de rede do tronco. As chamadas dos usuários pbx terão a mesma Location-Based roteamento que os usuários do Skype for Business localizados no mesmo site de rede do tronco. Se dois sistemas PBX localizados em sites de rede separados estão conectados por meio do Skype for Business Server, o roteamento Location-Based permitirá o roteamento de um ponto de extremidade PBX em um site de rede para outro ponto de extremidade PBX no outro site de rede. Esse cenário não será bloqueado por Location-Based Routing. Além desse cenário e de forma semelhante a um usuário do Skype for Business no mesmo local, os pontos de extremidade conectados a um par do Servidor de Mediação com essa configuração poderão fazer ou receber chamadas de e para outro par do Servidor de Mediação que não roteiem chamadas para o PSTN (ou seja, um ponto de extremidade conectado a um PBX diferente) independentemente do site de rede ao qual o par do Servidor de Mediação está associado. Todas as chamadas de entrada, chamadas de saída, transferências de chamadas e encaminhamentos de chamadas envolvendo pontos de extremidade PSTN estarão sujeitas ao Roteamento Baseado em Local para usar somente gateways PSTN definidos como locais para esse ponto do Servidor de Mediação.
+- O tronco é definido para um par do Servidor de Mediação que não egressa chamadas para a PSTN e serviços usuários com telefones herdado em locais estáticos (ou seja, telefones PBX). Para essa configuração específica, todas as chamadas de entrada roteadas por um tronco desse tipo serão consideradas originadas do mesmo site de rede do tronco. As chamadas dos usuários pbx terão a mesma Location-Based roteamento que Skype for Business usuários localizados no mesmo site de rede que o tronco. Se dois sistemas PBX localizados em sites de rede separados são conectados por meio de Skype for Business Server, o roteamento Location-Based permitirá o roteamento de um ponto de extremidade PBX em um site de rede para outro ponto de extremidade PBX no outro site de rede. Esse cenário não será bloqueado por Location-Based Routing. Além desse cenário e de forma semelhante a um usuário do Skype for Business no mesmo local, os pontos de extremidade conectados a um par do Servidor de Mediação com essa configuração poderão fazer ou receber chamadas de e para outro par do Servidor de Mediação que não roteiem chamadas para o PSTN (ou seja, um ponto de extremidade conectado a um PBX diferente) independentemente do site de rede ao qual o par do Servidor de Mediação está associado. Todas as chamadas de entrada, chamadas de saída, transferências de chamadas e encaminhamentos de chamadas envolvendo pontos de extremidade PSTN estarão sujeitas ao Roteamento Baseado em Local para usar somente gateways PSTN definidos como locais para esse ponto do Servidor de Mediação.
 
 ## <a name="scenarios-for-location-based-routing"></a>Cenários para roteamento de Location-Based
 
@@ -110,25 +110,25 @@ A tabela a seguir ilustra como Location-Based roteamento afeta o roteamento de c
 
 Quando um ponto de extremidade PSTN está envolvido, Location-Based Routing analisa o local do ponto de extremidade do chamador e o ponto de extremidade para o qual a chamada será transferida ou encaminhada (ou seja, destino de transferência/encaminhamento). Location-Based Routing determina se a chamada deve ser transferida ou encaminhada, dependendo do local dos dois pontos de extremidade.
 
-A tabela a seguir ilustra o cenário de um usuário do Skype for Business em uma chamada com um ponto de extremidade PSTN, e o usuário do Skype for Business transfere a chamada para outro usuário do Skype for Business. Dependendo do local do site de rede do ponto de extremidade do transferidor, Location-Based Roteamento afeta o roteamento da transferência de chamada ou encaminhamento.
+A tabela a seguir ilustra o cenário de um usuário Skype for Business em uma chamada com um ponto de extremidade PSTN e o usuário Skype for Business transfere a chamada para outro Skype for Business usuário. Dependendo do local do site de rede do ponto de extremidade do transferidor, Location-Based Roteamento afeta o roteamento da transferência de chamada ou encaminhamento.
 
 **Iniciando transferência de chamada ou encaminhamento**
 
 |**Usuário iniciando a transferência/encaminhamento de chamada**|**O ponto de extremidade de destino está no mesmo site de rede que o usuário iniciando a transferência ou encaminhamento de chamada**|**O ponto de extremidade de destino está em um site de rede diferente à medida que o usuário inicia a transferência ou encaminhamento de chamada**|**O ponto de extremidade de destino está em site de rede ou site de rede desconhecido não habilitado para Location-Based Routing**|
 |:-----|:-----|:-----|:-----|
-|Usuário do Skype for Business  <br/> |O encaminhamento de chamada ou a transferência são permitidos  <br/> |Não é permitido encaminhar ou transferir chamada  <br/> |Não é permitido encaminhar ou transferir chamada  <br/> |
+|Skype for Business usuário  <br/> |O encaminhamento de chamada ou a transferência são permitidos  <br/> |Não é permitido encaminhar ou transferir chamada  <br/> |Não é permitido encaminhar ou transferir chamada  <br/> |
 
-Por exemplo: um usuário do Skype for Business em uma chamada com um ponto de extremidade PSTN transfere a chamada para outro usuário do Skype for Business que está no mesmo site de rede. Nesse caso, a transferência de chamada é permitida.
+Por exemplo: um Skype for Business usuário em uma chamada com um ponto de extremidade PSTN transfere a chamada para outro usuário Skype for Business que está no mesmo site de rede. Nesse caso, a transferência de chamada é permitida.
 
-A tabela a seguir ilustra o cenário de um usuário do Skype for Business em uma chamada com outro usuário do Skype for Business e um dos usuários transfere a chamada para um ponto de extremidade PSTN. Dependendo do local do usuário para o qual a chamada está sendo transferida, a tabela detalha como o roteamento Location-Based afeta a chamada.
+A tabela a seguir ilustra o cenário de um usuário Skype for Business em uma chamada com outro Skype for Business usuário, e um dos usuários transfere a chamada para um ponto de extremidade PSTN. Dependendo do local do usuário para o qual a chamada está sendo transferida, a tabela detalha como o roteamento Location-Based afeta a chamada.
 
 **Transferência de chamada ou encaminhamento para o ponto de extremidade PSTN**
 
-|**Destino do ponto de extremidade de transferência/encaminhamento de chamada**|**Usuários do Skype for Business no mesmo site de rede**|**Usuários do Skype for Business em sites de rede diferentes**|**Um ou ambos usuários do Skype for Business em site de rede desconhecido ou site de rede não habilitado para Location-Based Routing**|
+|**Destino do ponto de extremidade de transferência/encaminhamento de chamada**|**Skype for Business usuários no mesmo site de rede**|**Skype for Business usuários em sites de rede diferentes**|**Um ou ambos Skype for Business usuários em site de rede desconhecido ou site de rede não habilitado para Location-Based Routing**|
 |:-----|:-----|:-----|:-----|
 |Ponto de extremidade PSTN  <br/> |Encaminhar ou transferir chamadas permitidas pela política de roteamento de voz do site do usuário transferido  <br/> |Encaminhar ou transferir chamadas permitidas pela política de roteamento de voz do site do usuário transferido  <br/> |Encaminhar ou transferir chamadas permitidas pela política de voz do usuário transferido somente por meio de troncos não habilitados para roteamento Location-Based roteamento  <br/> |
 
-Por exemplo: um usuário do Skype for Business em uma chamada com outro usuário do Skype for Business que está no mesmo site de rede transfere a chamada para um ponto de extremidade PSTN e a transferência de chamada é permitida.
+Por exemplo: um usuário Skype for Business em uma chamada com outro usuário Skype for Business que está no mesmo site de rede transfere a chamada para um ponto de extremidade PSTN e a transferência de chamada é permitida.
 
 ### <a name="simultaneous-ringing"></a>Toque simultâneo
 
@@ -140,9 +140,9 @@ A tabela a seguir ilustra um usuário configurado com toque simultâneo, e o des
 
 |**Chamada PSTN de entrada para**|**Localizado no mesmo site de rede que o chamador**|**Localizado em um site de rede diferente do chamador**|**Localizado em site de rede desconhecido ou não habilitado para roteamento Location-Based.**|
 |:-----|:-----|:-----|:-----|
-|Usuário do Skype for Business  <br/> |Anel simultâneo permitido  <br/> |Anel simultâneo não permitido  <br/> |Anel simultâneo não permitido  <br/> |
+|Skype for Business usuário  <br/> |Anel simultâneo permitido  <br/> |Anel simultâneo não permitido  <br/> |Anel simultâneo não permitido  <br/> |
 
-A tabela a seguir ilustra uma chamada de um usuário do Skype for Business (ou seja, chamador do Skype for Business) no mesmo site de rede, em um site de rede diferente ou em um site de rede desconhecido. O chamador tem um ponto de extremidade PSTN (ou seja, celular) configurado como um destino de anel simultâneo. Nesse cenário, Location-Based Routing determinará se a chamada deve ser roteada para o destino de anel simultâneo (ou seja, celular) do chamador ou não.
+A tabela a seguir ilustra uma chamada de um usuário Skype for Business (ou seja, Skype for Business chamador) no mesmo site de rede, em um site de rede diferente ou em um site de rede desconhecido. O chamador tem um ponto de extremidade PSTN (ou seja, celular) configurado como um destino de anel simultâneo. Nesse cenário, Location-Based Routing determinará se a chamada deve ser roteada para o destino de anel simultâneo (ou seja, celular) do chamador ou não.
 
 ****
 
@@ -150,33 +150,33 @@ A tabela a seguir ilustra uma chamada de um usuário do Skype for Business (ou s
 |:-----|:-----|:-----|:-----|
 |Ponto de extremidade PSTN  <br/> |Toque simultâneo permitido por meio da política de roteamento de voz do site do chamador  <br/> |Toque simultâneo permitido por meio da política de roteamento de voz do site do chamador  <br/> |Anel simultâneo permitido por meio da política de voz do chamador para troncos não habilitados para roteamento Location-Based  <br/> |
 
-### <a name="skype-for-business-cumulative-update-4"></a>Atualização Cumulativa 4 do Skype for Business
+### <a name="skype-for-business-cumulative-update-4"></a>Skype for Business Atualização Cumulativa 4
 
 Com a Atualização Cumulativa 4, você verá o seguinte:
 
-- Location-Based Roteamento continuará habilitado por meio da Política de Voz, incluindo clientes skype for Business Mobile.
+- Location-Based o roteamento continuará a ser habilitado por meio da Política de Voz, incluindo Skype for Business clientes Móveis.
 
-- O comportamento de chamada para clientes skype for Business Mobile será baseado em se eles estão habilitados para roteamento Location-Based e o cliente de comunicação. Isso foi projetado para ser estático, mas pode haver, em determinadas situações, um esforço para associar um cliente skype for Business Mobile a um gateway PSTN local e permitir determinados comportamentos, como uma escalada
+- O comportamento de chamada Skype for Business clientes Móveis será baseado em se eles estão habilitados para roteamento Location-Based e o cliente de comunicação. Isso foi projetado para ser estático, mas pode haver, em determinadas situações, um esforço para associar um cliente Skype for Business Mobile a um gateway PSTN local e permitir determinados comportamentos, como uma escalada
 
-- Independentemente do seu sistema operacional, seu cliente Skype for Business Mobile deve ter a mesma funcionalidade.
+- Independentemente do sistema operacional, seu Skype for Business mobile deve ter a mesma funcionalidade.
 
 A tabela a seguir o acompanhará em alguns dos cenários pós-cumulativo da Atualização 4:
 
 |**Usuário de roteamento baseado em local**|**Outra parte**|**Ação**|**Resultado**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Mobile  <br/> |PSTN  <br/> |O Skype for Business Mobile recebe uma chamada PSTN de entrada.  <br/> |A chamada é roteada por Meio de Chamada via Trabalho (CvW) e não por VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |PSTN  <br/> |O Skype for Business Mobile faz uma chamada PSTN de saída.  <br/> |A chamada é roteada por CvW e não por VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |PSTN  <br/> |O Skype for Business Mobile está em uma chamada PSTN. O Skype for Business Mobile escalona a chamada para outro usuário ou contato.  <br/> |A chamada é roteada via VoIP se o usuário ou contato for local para a etapa de gateway PSTN.  <br/> Se o usuário ou contato estiver remoto da etapa de gateway PSTN, a chamada será roteada via CvW.  <br/> Se o usuário de destino não estiver acessível por meio da PSTN, a chamada falhará.  <br/> Se o contato de destino for um Atendedor Automático (CAA), a chamada será bloqueada.  <br/> |
-|Skype for Business Mobile  <br/> |Cliente skype for Business ou usuário federado  <br/> |Um Skype for Business Mobile inicia uma chamada de voz para outro cliente do Skype for Business ou usuário federado.  <br/> |A chamada é concluída por meio de VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |Cliente skype for Business ou usuário federado  <br/> | Um cliente do Skype for Business ou usuário federado inicia uma chamada de voz para um usuário de roteamento do Skype for Business Mobile Location-Based Roteamento. <br/> |A chamada é concluída por meio de VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |Cliente skype for Business ou usuário federado  <br/> |Um cliente do Skype for Business ou um usuário federado está em uma chamada VoIP para um usuário do Skype for Business Mobile. Uma das partes é escalonada para um usuário adicional do Skype for Business ou Federado.  <br/> |A chamada é concluída por meio de VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |Usuário federado  <br/> |Um Usuário Federado está em chamada de voz para um usuário de roteamento do Skype for Business Mobile Location-Based Roteamento; uma parte do Skype for Business Mobile é escalonada para um usuário PSTN.  <br/> |A chamada está bloqueada.  <br/> |
-|Skype for Business Mobile  <br/> |Usuário federado  <br/> |Um usuário federado está em uma chamada VoIP para um usuário de roteamento de Location-Based Skype for Business Mobile; qualquer parte é escalada para um contato CAA.  <br/> |A chamada escalonada é bloqueada, com uma mensagem de erro apropriada.  <br/> |
-|Skype for Business Mobile  <br/> |Usuário federado  <br/> |Um usuário federado está em uma chamada VoIP para um usuário de roteamento do Skype for Business Mobile Location-Based e o usuário federado é escalado para um usuário PSTN.  <br/> |A escalonamento será permitida ou não permitida com base no Location-Based roteamento do usuário federado. O aplicativo do usuário de roteamento do Skype for Business Mobile Location-Based não toma nenhuma ação.  <br/> |
+|Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Business Mobile recebe uma chamada PSTN de entrada.  <br/> |A chamada é roteada por Meio de Chamada via Trabalho (CvW) e não por VoIP.  <br/> |
+|Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Business Mobile faz uma chamada PSTN de saída.  <br/> |A chamada é roteada por CvW e não por VoIP.  <br/> |
+|Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Business Mobile está em uma chamada PSTN. Skype for Business Mobile, em seguida, escalona a chamada para outro usuário ou contato.  <br/> |A chamada é roteada via VoIP se o usuário ou contato for local para a etapa de gateway PSTN.  <br/> Se o usuário ou contato estiver remoto da etapa de gateway PSTN, a chamada será roteada via CvW.  <br/> Se o usuário de destino não estiver acessível por meio da PSTN, a chamada falhará.  <br/> Se o contato de destino for um Atendedor Automático (CAA), a chamada será bloqueada.  <br/> |
+|Skype for Business Mobile  <br/> |Skype for Business cliente ou usuário federado  <br/> |Um Skype for Business Mobile inicia uma chamada de voz para outro Skype for Business cliente ou usuário federado.  <br/> |A chamada é concluída por meio de VoIP.  <br/> |
+|Skype for Business Mobile  <br/> |Skype for Business cliente ou usuário federado  <br/> | Um Skype for Business cliente ou usuário federado inicia uma chamada de voz para um usuário de roteamento de Skype for Business Mobile Location-Based. <br/> |A chamada é concluída por meio de VoIP.  <br/> |
+|Skype for Business Mobile  <br/> |Skype for Business cliente ou usuário federado  <br/> |Um Skype for Business cliente ou usuário federado está em uma chamada VoIP para um usuário Skype for Business Mobile. Uma das partes é escalonada para um usuário Skype for Business ou federado adicional.  <br/> |A chamada é concluída por meio de VoIP.  <br/> |
+|Skype for Business Mobile  <br/> |Usuário federado  <br/> |Um Usuário Federado está em chamada de voz para um usuário de roteamento de Skype for Business Mobile Location-Based; uma Skype for Business mobile é escalonado para um usuário PSTN.  <br/> |A chamada está bloqueada.  <br/> |
+|Skype for Business Mobile  <br/> |Usuário federado  <br/> |Um usuário federado está em uma chamada VoIP para um usuário de roteamento de Skype for Business mobile Location-Based. qualquer parte é escalada para um contato CAA.  <br/> |A chamada escalonada é bloqueada, com uma mensagem de erro apropriada.  <br/> |
+|Skype for Business Mobile  <br/> |Usuário federado  <br/> |Um usuário federado está em uma chamada VoIP para um usuário de roteamento de Skype for Business mobile Location-Based e o usuário federado é escalado para um usuário PSTN.  <br/> |A escalonamento será permitida ou não permitida com base no Location-Based roteamento do usuário federado. O Skype for Business de Location-Based o aplicativo do usuário de roteamento móvel não toma nenhuma ação.  <br/> |
 
 ### <a name="delegation"></a>Delegação
 
-Os recursos de delegação no Skype for Business são afetados pelo Location-Based roteamento da seguinte maneira:
+Os recursos de delegação Skype for Business são afetados pela Location-Based roteamento da seguinte maneira:
 
 - Quando um representante habilitado para Location-Based Roteamento faz uma chamada em nome de um gerente, a política de voz do representante é usada para autorizar a chamada e a política de roteamento de voz do site do representante será usada para rotear a chamada
 
@@ -200,11 +200,11 @@ A configuração Location-Based roteamento afeta o planejamento de onde você im
 
 ## <a name="client-and-server-support-for-location-based-routing"></a>Suporte para cliente e servidor para roteamento Location-Based cliente
 
-Location-Based Roteamento é imposto pelo Skype for Business Server. O Skype for Business Server pode identificar os sites de rede de onde os usuários estão se conectando dentro da rede corporativa. Como os usuários remotos estão fora da rede corporativa, sua localização é considerada desconhecida.
+Location-Based Roteamento é imposto por Skype for Business Server. Skype for Business Server podem identificar os sites de rede nos quais os usuários estão se conectando dentro da rede corporativa. Como os usuários remotos estão fora da rede corporativa, sua localização é considerada desconhecida.
 
 ### <a name="server-support"></a>Suporte a servidor
 
-Location-Based Routing exige que o Skype for Business Server ou o Lync Server 2013 CU1 seja implantado em todos os pools de Front-End e servidores Standard Edition em uma determinada topologia. Se essas versões do servidor não estão instaladas, as restrições de roteamento baseadas em localização não poderão ser totalmente impostas.
+Location-Based Routing requer que o Skype for Business Server ou o Lync Server 2013 CU1 seja implantado em todos os pools de Front-End e servidores Edição Standard em uma determinada topologia. Se essas versões do servidor não estão instaladas, as restrições de roteamento baseadas em localização não poderão ser totalmente impostas.
 
 A tabela a seguir identifica a combinação de funções de servidor e versões com suporte para Location-Based Routing.
 
@@ -212,10 +212,10 @@ A tabela a seguir identifica a combinação de funções de servidor e versões 
 
 |**Versão do pool**|**Versão do Servidor de Mediação**|**Com suporte**|
 |:-----|:-----|:-----|
-|Atualização Cumulativa do Skype for Business Server ou Lync Server 2013 fevereiro de 2013  <br/> |Atualização Cumulativa do Skype for Business Server ou Lync Server 2013 fevereiro de 2013  <br/> |sim  <br/> |
-|Atualização Cumulativa do Skype for Business Server ou Lync Server 2013 fevereiro de 2013  <br/> |Lync Server 2013  <br/> |não  <br/> |
-|Atualização Cumulativa do Skype for Business Server ou Lync Server 2013 fevereiro de 2013  <br/> |Lync Server 2010  <br/> |não  <br/> |
-|Atualização Cumulativa do Skype for Business Server ou Lync Server 2013 fevereiro de 2013  <br/> |Office Communications Server 2007 R2  <br/> |não  <br/> |
+|Skype for Business Server ou Lync Server 2013 Atualização Cumulativa de fevereiro de 2013  <br/> |Skype for Business Server ou Lync Server 2013 Atualização Cumulativa de fevereiro de 2013  <br/> |sim  <br/> |
+|Skype for Business Server ou Lync Server 2013 Atualização Cumulativa de fevereiro de 2013  <br/> |Lync Server 2013  <br/> |não  <br/> |
+|Skype for Business Server ou Lync Server 2013 Atualização Cumulativa de fevereiro de 2013  <br/> |Lync Server 2010  <br/> |não  <br/> |
+|Skype for Business Server ou Lync Server 2013 Atualização Cumulativa de fevereiro de 2013  <br/> |Office Communications Server 2007 R2  <br/> |não  <br/> |
 |Lync Server 2013  <br/> |qualquer  <br/> |não  <br/> |
 |Lync Server 2010  <br/> |qualquer  <br/> |não  <br/> |
 |Office Communications Server 2007 R2  <br/> |qualquer  <br/> |não  <br/> |
@@ -239,11 +239,11 @@ A tabela a seguir identifica os clientes com suporte Location-Based Routing.
 |Lync Mobile 2010  <br/> |sim  <br/> ||
 
 > [!NOTE]
-> Para desabilitar o VoIP para clientes do Skype for Business, atribua uma política de mobilidade com a configuração, IP Audio/Video, desabilitada para todos os usuários habilitados para Location-Based Routing. Para obter mais detalhes sobre a política de mobilidade, consulte [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> Para desabilitar o VoIP para clientes Skype for Business, atribua uma política de mobilidade com a configuração, IP Audio/Video, desabilitada para todos os usuários habilitados para Location-Based Routing. Para obter mais detalhes sobre a política de mobilidade, consulte [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>Recursos não suportados pelo Location-Based Routing
 
-Location-Based Routing não se aplica aos seguintes tipos de interações. Location-Based o roteamento não é imposto quando os pontos de extremidade do Skype for Business interagem com pontos de extremidade PSTN usando esses recursos.
+Location-Based Routing não se aplica aos seguintes tipos de interações. Location-Based Roteamento não é imposto quando Skype for Business pontos de extremidade interagem com pontos de extremidade PSTN usando esses recursos.
 
 - Discagem PSTN para conferências
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Leia este tópico para revisar considerações de planejamento para implementar o bypass de mídia com o Cloud Connector Edition versão 2.0 e posterior. Para obter informações sobre como implantar o bypass de mídia, consulte Deploy media bypass in Cloud Connector Edition.
-ms.openlocfilehash: bae10c77a6b382eaca7189ed6ae52960a6fb1bf9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 622bb6cbc4acf5987d28a2c4823bdfd0e495445cba84ed01762423c8e65de576
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339887"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plano para bypass de mídia no Cloud Connector Edition
  
@@ -37,15 +37,15 @@ O bypass de mídia pode melhorar a qualidade da voz reduzindo a latência, a pos
 
 Enquanto a sinalização tem o mesmo caminho com ou sem bypass de mídia, o fluxo de mídia será diferente. Os diagramas a seguir mostram caminhos de mídia e sinalização em topologias com e sem bypass de mídia. 
   
-Por exemplo, na topologia a seguir, que não emprega bypass de mídia, um cliente do Skype for Business coloca uma chamada PSTN para um número externo, a sinalização SIP vai para o Microsoft 365 ou Office 365, que direciona o tráfego de sinalização de acordo com a política de voz do usuário final. Para usuários do Cloud Connector, a política de voz direciona o tráfego de sinalização para o Servidor de Borda do Cloud Connector, que, em seguida, encaminha o tráfego de sinalização para um controlador de borda de sessão PSTN (SBC) ou gateway por meio do Servidor de Mediação do Cloud Connector. A mídia flui do cliente Skype for Business para o Servidor de Mediação do Cloud Connector e, em seguida, para o SBC ou gateway, conforme mostrado no diagrama a seguir:
+Por exemplo, na topologia a seguir, que não emprega bypass de mídia, um cliente Skype for Business coloca uma chamada PSTN para um número externo, a sinalização SIP vai para Microsoft 365 ou Office 365, que direciona o tráfego de sinalização de acordo com a política de voz do usuário final. Para usuários do Cloud Connector, a política de voz direciona o tráfego de sinalização para o Servidor de Borda do Cloud Connector, que, em seguida, encaminha o tráfego de sinalização para um controlador de borda de sessão PSTN (SBC) ou gateway por meio do Servidor de Mediação do Cloud Connector. A mídia flui do cliente Skype for Business para o Servidor de Mediação do Cloud Connector e, em seguida, para o SBC ou gateway, conforme mostrado no diagrama a seguir:
   
 **Caminhos de mídia e sinalização sem bypass de mídia**
 
 ![sinalização sem bypass de mídia](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
-Uma chamada de entrada da PSTN usa o mesmo caminho de sinalização na direção inversa. Para usuários internos, a mídia ainda fluirá entre o cliente do Skype for Business e o Servidor de Mediação do Cloud Connector e, em seguida, o SBC ou gateway.
+Uma chamada de entrada da PSTN usa o mesmo caminho de sinalização na direção inversa. Para usuários internos, a mídia ainda fluirá entre o cliente Skype for Business e o Servidor de Mediação do Cloud Connector e, em seguida, o SBC ou gateway.
   
-Na próxima topologia, que emprega bypass de mídia, a sinalização segue o mesmo caminho, mas a mídia flui diretamente entre o cliente skype for Business e o SBC ou gateway, conforme mostrado no diagrama a seguir:
+Na próxima topologia, que emprega bypass de mídia, a sinalização segue o mesmo caminho, mas a mídia flui diretamente entre o cliente Skype for Business e o SBC ou gateway, conforme mostrado no diagrama a seguir:
   
 **Caminhos de mídia e sinalização com bypass de mídia**
 
@@ -59,13 +59,13 @@ O bypass de mídia também é útil quando você deseja fornecer serviços de te
 
 ![Exemplo de multisite do Cloud Connector](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. O tráfego SIP flui do usuário em Zurique para o Microsoft 365 ou Office 365.
+1. O tráfego SIP flui do usuário em Richrich para Microsoft 365 ou Office 365.
     
 2. Em seguida, o tráfego é roteado para o dispositivo Cloud Connector em Amsterdã, conforme especificado na política de roteamento de voz do usuário.
     
 3. O dispositivo Cloud Connector em Amsterdã envia o tráfego SIP para o gateway central em Amsterdã.
     
-4. O gateway central em Amsterdã toma as decisões de roteamento apropriadas e envia o tráfego para um SBC ou gateway em Zurique, enquanto a mídia flui diretamente entre o cliente skype for Business e o SBC ou gateway em Amsterdã.
+4. O gateway central em Amsterdã toma as decisões de roteamento apropriadas e envia o tráfego para um SBC ou gateway em Zurique, enquanto a mídia flui diretamente entre o cliente Skype for Business e o SBC ou gateway em Amsterdã.
     
    Essa abordagem permite atender a mais usuários por uma implantação do Cloud Connector em que o Cloud Connector está centralizado. Mesmo que o Cloud Connector seja eliminado do caminho de mídia, em uma mídia de cenário multi site centralizada ainda pode percorrer a WAN duas vezes conforme necessário para fluir pelo SBC centralizado ou gateway.
   
@@ -75,14 +75,14 @@ Se um cliente estiver fora da rede corporativa fazendo uma chamada de saída, o 
   
 ## <a name="supported-clients-for-media-bypass"></a>Clientes com suporte para bypass de mídia
 
-Com a primeira versão do bypass de mídia, o único cliente com suporte é o Cliente Windows do Skype for Business 2016 que faz parte do Microsoft 365 Apps para empresas, versão 16.0.7870.2020 ou superior. Os clientes podem usar qualquer canal: Current, Deferred ou First Release Adiado. 
+Com a primeira versão do bypass de mídia, o único cliente com suporte é o cliente Skype for Business 2016 Windows que faz parte do Microsoft 365 Apps para Grandes Empresas, versão 16.0.7870.2020 ou superior. Os clientes podem usar qualquer canal: Current, Deferred ou First Release Adiado. 
   
 > [!NOTE]
-> Se você estiver usando uma solução VPN do cliente em combinação com o cliente skype for Business, o bypass de mídia só será suportado com uma configuração de túnel dividido VPN. 
+> Se você estiver usando uma solução VPN do cliente em combinação com o cliente Skype for Business, o bypass de mídia só será suportado com uma configuração de túnel dividido vpn. 
   
-Para obter mais informações sobre os canais de lançamento, consulte [Overview of update channels for Microsoft 365 Apps for enterprise](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
+Para obter mais informações sobre os canais de lançamento, consulte [Overview of update channels for Microsoft 365 Apps para Grandes Empresas](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-Para a versão atual dos clientes em diferentes canais, consulte Informações de versão para atualizações do [Microsoft 365 Apps para empresas.](/officeupdates/release-notes-office365-proplus) 
+Para a versão atual dos clientes em diferentes canais, consulte Informações de versão [para atualizações para Microsoft 365 Apps para Grandes Empresas](/officeupdates/release-notes-office365-proplus). 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>Considerações sobre a capacidade do Cloud Connector com bypass de mídia
 

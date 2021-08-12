@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: Você publica a topologia configurada usando o Construtor de Topologias. Você é solicitado a selecionar em uma lista qual servidor front-end ou pool de front-end assumirá a função de manter o armazenamento de Gerenciamento Central. Somente um servidor front-end ou pool de front-end pode manter essa função a qualquer momento.
-ms.openlocfilehash: c55cd337e7c49f943705671983a436397bf4e4e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5cdc82b85bdebedf2ace94b98296990cf6fbfb4c7e239ad91116d961e27dfbb6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104397"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346527"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publicar Página CMS de Seleção de Topologia
 

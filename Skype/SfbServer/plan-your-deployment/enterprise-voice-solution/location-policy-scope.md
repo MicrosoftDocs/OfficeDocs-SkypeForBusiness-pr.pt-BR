@@ -1,5 +1,5 @@
 ---
-title: Atribuir escopo de política de local no Skype for Business Server
+title: Atribuir escopo de política de local Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
-description: Planejamento de políticas de local para uma implantação do E9-1-1 no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 586aabe919ea4236dc724446da717b5f300d88e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Planejando políticas de local para uma implantação do E9-1-1 no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: b56b3fa2205939b458635d5a461dc4f8d55134cf2703ce1872a2be2141d5d635
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286500"
 ---
-# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Atribuir escopo de política de local no Skype for Business Server
+# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Atribuir escopo de política de local Skype for Business Server
  
-Planejamento de políticas de local para uma implantação do E9-1-1 no Skype for Business Server Enterprise Voice.
+Planejando políticas de local para uma implantação do E9-1-1 no Skype for Business Server Enterprise Voice.
   
-Assim como com outras políticas do Skype for Business Server, as políticas de local podem ser atribuídas em vários níveis de escopo: global, site e usuário. No entanto, o escopo das políticas de local no nível do usuário se comporta um pouco diferente de outras políticas do Skype for Business Server. Não só as políticas de local por usuário podem ser aplicadas a objetos de ponto de extremidade (como objetos de contato usuários e telefone de área comum), como também podem ser aplicadas aos sites de rede do Skype for Business Server. Os sites de rede são agrupamentos de sub-redes de clientes associados a uma localidade geográfica (mas podem não ser necessariamente todas as sub-redes em todo o site central ou site de filial). Quaisquer clientes conectados às sub-redes em um site de rede automaticamente selecionam a política de local designada para o site de rede. Nos casos em que uma política de local no nível do usuário é atribuída a um usuário e a um site de rede, a política de local baseada em site de rede substitui qualquer configuração de política por usuário.
+Assim como em outras Skype for Business Server políticas de Skype for Business Server, as políticas de local podem ser atribuídas em vários níveis de escopo: global, site e usuário. No entanto, o escopo das políticas de localização no nível do usuário se comporta um pouco diferente das outras Skype for Business Server políticas. Não só as políticas de localização por usuário podem ser aplicadas a objetos de ponto de extremidade (como usuários e objetos de contato Telefone área comum), como também podem ser aplicadas Skype for Business Server sites de rede. Os sites de rede são agrupamentos de sub-redes de clientes associados a uma localidade geográfica (mas podem não ser necessariamente todas as sub-redes em todo o site central ou site de filial). Quaisquer clientes conectados às sub-redes em um site de rede automaticamente selecionam a política de local designada para o site de rede. Nos casos em que uma política de local no nível do usuário é atribuída a um usuário e a um site de rede, a política de local baseada em site de rede substitui qualquer configuração de política por usuário.
   
 Cada site de rede possui uma política de local atribuída a ele e cada política terá diferentes valores para Usos do PSTN, URIs de Notificação e URIs da Conferência atribuídos a ela.
   
 > [!NOTE]
-> O motivo para esse comportamento especial de scoping de política é que, quando um usuário que está em um pool em um site do escritório visita outro site e precisa fazer uma chamada de emergência, as configurações de roteamento de chamada E9-1-1 apropriadas para esse local de rede serão aplicadas independentemente do pool ou site ao qual o usuário está atribuído. 
+> O motivo para esse comportamento especial de escoamento de política é para que, quando um usuário em um pool em um site do office visita outro site e precisa fazer uma chamada de emergência, as configurações de roteamento de chamadas do E9-1-1 apropriadas a esse site de rede serão aplicadas independentemente do pool ou do site ao qual o usuário é atribuído. 
   
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Para uma implantação Enterprise Edition, você pode colocar tanto o serviço de Conferência A/V quanto o Servidor de Mediação, ou ambos, no pool de Front-Ends, ou você pode implantar cada um como servidores autônomos. Em uma implantação do servidor Standard Edition, o serviço de Conferência A/V é sempre colocado quando a conferência está habilitada.
-ms.openlocfilehash: e9091a72d6909251a428ed7ee5273356eea387cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd26cbe684fdf5d5eeecd0a6a1f5b925d98b742a6baf9d081d9451be37afbf1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119750"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346597"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Adicionar Colocações de Servidor Front-end 2010
 
@@ -37,4 +37,4 @@ Para uma implantação Enterprise Edition, você pode colocar tanto o serviço d
 
 Você pode usar o Microsoft Lync Server 2013, Ferramenta de Planejamento para avaliar se o pool de Front-End onde você deseja colocar o Servidor de Mediação pode manipular a carga. Se o seu ambiente não pode cumprir estes requisitos, você deve implantar um pool do Servidor de Mediação autônomo.
 
-Em geral, a colocação do Servidor de Conferência A/V ou do Servidor de Mediação não é recomendada se sua organização tiver requisitos de alta disponibilidade e escalabilidadePara obter detalhes sobre como localizar essas funções de servidor em um pool de Front-End em uma implantação do Enterprise Edition, consulte Definir e Configurar um [Pool de Front-End](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) na documentação de Implantação. Para maiores detalhes sobre o recurso e os componentes de Conferência A/V, consulte [Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) na documentação de Planejamento. Para obter detalhes sobre Enterprise Voice e componentes, incluindo o Servidor de Mediação, consulte [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) na documentação planejamento.
+Em geral, a colocação do Servidor de Conferência A/V ou do Servidor de Mediação não é recomendada se sua organização tem requisitos de alta disponibilidade e escalabilidadePara obter detalhes sobre como localizar essas funções de servidor em um pool de Front-End em uma implantação Edição Enterprise, consulte Definir e Configurar um [Pool de Front-End](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) na documentação de Implantação. Para maiores detalhes sobre o recurso e os componentes de Conferência A/V, consulte [Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) na documentação de Planejamento. Para obter detalhes sobre Enterprise Voice e componentes, incluindo o Servidor de Mediação, consulte [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) na documentação planejamento.

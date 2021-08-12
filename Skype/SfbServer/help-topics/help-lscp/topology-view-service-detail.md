@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: a757c7bd4bc12f0aa03ec50ea3dff6e2a3db3992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 69317b1386995af7f105dc7fa516d12a3f593f9301e2f68bad889c274bbf7450
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331303"
 ---
 # <a name="topology-view-service-detail"></a>Topologia: Exibir Detalhes do Serviço
 
@@ -34,4 +34,4 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Impedir novas conexões com serviços](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

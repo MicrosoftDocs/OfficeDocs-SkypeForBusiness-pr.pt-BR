@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
-description: 'Para configurar um Monitoring Server e associá-lo ao Diretor ou pool de Diretores:'
-ms.openlocfilehash: f4c61893ab6d703afd9dc82b5fc21a9b611261fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Para configurar um Servidor de Monitoramento e associá-lo ao pool diretor ou diretor:'
+ms.openlocfilehash: d8edad120b8f2d8e90e32cfd23beca597e08ecd513a688b4a1a65323cf9c6547
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346567"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Associar Diretor com Página de Monitoramento para Lync Server 2010
  
-Para configurar um Monitoring Server e associá-lo ao Diretor ou pool de Diretores:
+Para configurar um Servidor de Monitoramento e associá-lo ao pool diretor ou diretor:
   
-Em **Monitoring Server,** selecione na lista um Monitoring Server.
+Em **Servidor de Monitoramento,** selecione na lista um Servidor de Monitoramento.
   
-Se não houver um Monitoring Server e você quiser criar um Monitoring Server agora, clique em **Novo.**
+Se não houver servidor de monitoramento e você quiser criar um Servidor de Monitoramento agora, clique em **Novo**.
   
  **Voltar**: volta para a caixa de diálogo anterior
   
