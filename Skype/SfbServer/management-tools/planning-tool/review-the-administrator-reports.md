@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Os Relatórios de Administrador são informações detalhadas para implantações e operações. Os relatórios são gerados com base nas seleções marcadas em Sites de Design. O designer pode adicionar mais valor aos Relatórios de Administrador editando os diagramas de rede, definindo os endereços IP completos e os FQDNs (nome de domínio totalmente qualificado) para servidores, pools e balanceadores de carga.
-ms.openlocfilehash: dbef33351e7032e769e1d5ee68c5f0d582317eb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c74237f5d92d54a1a421ede7707565bba59582141e00d1a944a88c2e8c096c88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104317"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293968"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Revisar os Relatórios de Administrador no Skype for Business Server 2015
 
@@ -38,7 +38,7 @@ O recurso De relatórios de administrador permite que você:
 ## <a name="review-the-summary-report"></a>Revisar o Relatório de Resumo
 <a name="Summary_report"> </a>
 
-O Relatório de Administrador do Skype for Business é o primeiro de quatro relatórios valiosos que documentam seu design em detalhes. As informações neste relatório e os outros três relatórios associados são úteis para suas Equipes de Tecnologia da Informação:
+O Skype for Business de administrador é o primeiro de quatro relatórios valiosos que documentam seu design em detalhes. As informações neste relatório e os outros três relatórios associados são úteis para o seu Teams:
 
 ![Relatório de Administração de Resumo Geral](../../media/General_Summary_Report_Admin_Report.png)
 
@@ -57,7 +57,7 @@ Você também pode exibir relatórios mais detalhados:
 ## <a name="review-the-certificates-report"></a>Revisar o Relatório de Certificados
 <a name="Certificates_Report"> </a>
 
-O Relatório de Certificados contém todos os certificados necessários na implantação recomendada do Skype for Business Server 2015. A Ferramenta de Planejamento conta os nomes de assunto e nomes alternativos de assunto inseridos. O texto padrão não emitido pode representar um desafio potencial para a equipe responsável por solicitar e emitir os certificados. As informações do certificado também incluem informações sobre o local de onde o certificado pode ser normalmente emitido. Se a infraestrutura não tiver uma infraestrutura de chave pública interna (PKI), todos os certificados poderão ser solicitados por meio de um provedor de certificados público. Os campos EKU (Uso Estendido de Chave) e Atribuir a do relatório são muito úteis para ajudar a compreender quais devem ser a finalidade e a localização de cada certificado.
+O Relatório de Certificados contém todos os certificados necessários na implantação recomendada Skype for Business Server 2015. A Ferramenta de Planejamento conta os nomes de assunto e nomes alternativos de assunto inseridos. O texto padrão não emitido pode representar um desafio potencial para a equipe responsável por solicitar e emitir os certificados. As informações do certificado também incluem informações sobre o local de onde o certificado pode ser normalmente emitido. Se a infraestrutura não tiver uma infraestrutura de chave pública interna (PKI), todos os certificados poderão ser solicitados por meio de um provedor de certificados público. Os campos EKU (Uso Estendido de Chave) e Atribuir a do relatório são muito úteis para ajudar a compreender quais devem ser a finalidade e a localização de cada certificado.
 
 ![Relatório de Administrador de Certificados](../../media/Certificates_Report_Admin_Report.png)
 
@@ -70,7 +70,7 @@ Revise cuidadosamente e entenda o uso e a finalidade de cada certificado na impl
 ## <a name="review-the-firewall-report"></a>Revisar o Relatório de Firewall
 <a name="Firewall_report"> </a>
 
-O Skype for Business Server 2015 tem um conjunto potencialmente complexo de regras de firewall. A Ferramenta de Planejamento reduz essa complexidade gerando um relatório que define detalhadamente todos os requisitos de firewall, com base nos critérios de entrada do designer. O administrador de firewall de TI pode usar esse relatório para configurar e definir as regras necessárias.
+Skype for Business Server 2015 tem um conjunto potencialmente complexo de regras de firewall. A Ferramenta de Planejamento reduz essa complexidade gerando um relatório que define detalhadamente todos os requisitos de firewall, com base nos critérios de entrada do designer. O administrador de firewall de TI pode usar esse relatório para configurar e definir as regras necessárias.
 
 Do ponto de vista do gerenciamento de firewall, o relatório deve ser cuidadosamente revisado para garantir que não haja conflitos com a saída de regras de firewall e que não há políticas ou procedimentos que possam ser violados.
 

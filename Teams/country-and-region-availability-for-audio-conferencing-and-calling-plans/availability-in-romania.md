@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços para Skype for Business e Microsoft Teams disponíveis para a Romênia.
-ms.openlocfilehash: c094a08cd748adac8cd07b406cce3e43cf4ae17c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 4d9bfd3b0d6f5dc13b6922b12b4c005fd86130889b5c923ecf9955a12852fc01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337529"
 ---
 # <a name="availability-in-romania"></a>Disponibilidade na Romênia
 

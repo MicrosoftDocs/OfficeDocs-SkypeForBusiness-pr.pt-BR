@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Você pode configurar Servidores de Borda para permitir que seus usuários internos e externos acessem contatos em organizações ou serviços parceiros.
-ms.openlocfilehash: d0f7526a8cbe2822bbbf6350ced81ca16063cfb7
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 875bce92c5727c28938c66706fe46c340765c2261761d32fea9fedbed4ba2d16
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318884"
 ---
 # <a name="federation-planning-tool"></a>Ferramenta de planejamento de federação
  

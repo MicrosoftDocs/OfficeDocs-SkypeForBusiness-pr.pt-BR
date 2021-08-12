@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre como discar números gratuitos na Malásia, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: a3aa7b9c99b42a5a04bb1fc63fcaa83a6f36679e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 47ff1cba1348554dfe33437ad2f9f6034716173570b64d067e3d0aa6cc4e002c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097887"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345180"
 ---
 # <a name="toll-free-dialing-restrictions-in-malaysia"></a>Restrições de discagem de chamada gratuita na Malásia
 

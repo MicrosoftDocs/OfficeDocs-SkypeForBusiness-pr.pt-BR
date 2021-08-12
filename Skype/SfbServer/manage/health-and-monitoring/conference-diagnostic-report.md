@@ -1,5 +1,5 @@
 ---
-title: Relatório de Diagnóstico de Conferência no Skype for Business Server
+title: Relatório de Diagnóstico de Conferência Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico de Conferência usado no Skype for Business Server.'
-ms.openlocfilehash: e3a22e55a106713d1db108a5571df883c673dcde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico de Conferência usado Skype for Business Server.'
+ms.openlocfilehash: 31410ec98e3902e3ab64967061611e5c94a132258fca0a87a5332efdf0057a21
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328146"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Relatório de Diagnóstico de Conferência no Skype for Business Server
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Relatório de Diagnóstico de Conferência Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Relatório de Diagnóstico de Conferência usado no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Diagnóstico de Conferência usado Skype for Business Server.
   
-O Relatório de Diagnóstico de Conferência oferece informações sobre êxito e falha de todas as sessões de conferência. Observe que o Skype for Business Server distingue entre os diferentes tipos de falha:
+O Relatório de Diagnóstico de Conferência oferece informações sobre êxito e falha de todas as sessões de conferência. Observe que Skype for Business Server diferencia entre diferentes tipos de falha:
   
 - **Falha esperada**. Uma falha esperada normalmente é uma falha apenas no sentido mais técnico. Por exemplo, suponha que alguém inicie uma conferência mas desligue antes que alguém possa ingressar. Tecnicamente, é uma falha: a conferência foi iniciadas mas não concluída. No entanto, essa é uma falha que você poderia esperar que acontecesse: se o organizador cancela a conferência antes que alguém possa ingressar, você não esperaria que essa conferência fosse concluída.
     
@@ -35,11 +35,11 @@ Obseve que a soma das métricas de Êxitos, Falhas esperadas e Falhas inesperada
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16   <br/> |2521  <br/> |
    
-Se somar 2024 + 469 + 16 você obtém um total de 2.509 sessões, e no entanto a coluna de Total de sessões mostra um total de 2.521 sessões. As 12 sessões "faltando" são sessões que o sistema não foi capaz de categorizar como êxito ou falha. Esse será, às vezes, o caso quando um produto de terceiros introduz um novo código de diagnóstico que não é familiar para o Monitoring Server. Quando isso acontece, chamadas feitas usando o produto, e os relatórios sobre o código de diagnóstico nem sempre podem ser categorizados como Êxitos, Falhas esperadas ou Falhas inesperadas.
+Se somar 2024 + 469 + 16 você obtém um total de 2.509 sessões, e no entanto a coluna de Total de sessões mostra um total de 2.521 sessões. As 12 sessões "faltando" são sessões que o sistema não foi capaz de categorizar como êxito ou falha. Às vezes, esse será o caso quando um produto de terceiros introduz um novo código de diagnóstico que não é familiar para o Monitoring Server. Quando isso acontece, chamadas feitas usando o produto, e os relatórios sobre o código de diagnóstico nem sempre podem ser categorizados como Êxitos, Falhas esperadas ou Falhas inesperadas.
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Acessando o Relatório de Diagnóstico de Conferência
 
-O Relatório de Diagnóstico de Conferência é acessado a partir da página inicial de Relatórios de Monitoramento. Você pode acessar o [Relatório de Distribuição de Falhas no Skype for Business Server](failure-distribution-report.md) clicando em uma das seguintes métricas:
+O Relatório de Diagnóstico de Conferência é acessado a partir da página inicial de Relatórios de Monitoramento. Você pode acessar o [Relatório de Distribuição](failure-distribution-report.md) de Falhas Skype for Business Server clicando em uma das seguintes métricas:
   
 - Volume de falhas inesperadas
     
@@ -47,7 +47,7 @@ O Relatório de Diagnóstico de Conferência é acessado a partir da página ini
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Usando o Relatório de Diagnóstico de Conferência da melhor maneira possível
 
-O Relatório de Diagnóstico de Conferência inclui uma série de gráficos. Cada uma das colunas exibidas no gráfico é, na verdade, um hiperlink. Se clicar em uma coluna, você irá detalhar o Relatório de Distribuição de Falhas no [Skype for Business Server](failure-distribution-report.md) para esse período de tempo e esse tipo de conferência.
+O Relatório de Diagnóstico de Conferência inclui uma série de gráficos. Cada uma das colunas exibidas no gráfico é, na verdade, um hiperlink. Se você clicar em uma coluna, [](failure-distribution-report.md) será analisado o Relatório de Distribuição de Falhas no Skype for Business Server para esse período e esse tipo de conferência.
   
 ## <a name="filters"></a>Filtros
 
@@ -61,9 +61,9 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Diag
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
-|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Mensalmente (é possível exibir no máximo 12 meses) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com uma data de início de 7/7/2015 e uma data de término de 28/02/2015, os dados serão exibidos para os dias 7/8/2015 12:00 a 7/9/2015 00:00 (ou seja, um total de 31 dias de dados). <br/> |
+|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Mensalmente (é possível exibir no máximo 12 meses) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com uma data de início de 7/7/2015 e uma data de término de 28/02/2015, os dados serão exibidos para os dias 7/08/2015 12:00 a 7/09/2015 12:00 (ou seja, um total de 31 dias de dados). <br/> |
 |**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do pool de Registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Tudo]** para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.<br/> |
-|**Sessões de conferência** <br/> | Indica o tipo de sessão de conferência. Selecione uma das seguintes opções: <br/>  [Tudo] <br/>  Sessões de foco <br/>  Todas as sessões MCU <br/>  Conferência de IM <br/>  Compartilhamento de aplicativos <br/>  Conferências A/V <br/> |
+|**Sessões de conferência** <br/> | Indica o tipo de sessão de conferência. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Sessões de foco <br/>  Todas as sessões MCU <br/>  Conferência de IM <br/>  Compartilhamento de aplicativos <br/>  Conferências A/V <br/> |
    
 ## <a name="metrics"></a>Métrica
 

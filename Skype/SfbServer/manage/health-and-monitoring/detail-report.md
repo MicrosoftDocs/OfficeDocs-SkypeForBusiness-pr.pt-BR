@@ -1,5 +1,5 @@
 ---
-title: Relatório detalhado de conferências no Skype for Business Server
+title: Relatório de Detalhes da Conferência Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 'Resumo: saiba mais sobre o Relatório detalhado de conferências usado no Skype for Business Server.'
-ms.openlocfilehash: 245691fcb304a872942be4d5a9aabe8183b4db14
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre o Relatório de Detalhes da Conferência usado Skype for Business Server.'
+ms.openlocfilehash: 5da5c703916cb1f8ac24624efa14c5a65cec5cdd7b3d45da5d13ce8ac00fbfcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816901"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328116"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>Relatório detalhado de conferências no Skype for Business Server
+# <a name="conference-detail-report-in-skype-for-business-server"></a>Relatório de Detalhes da Conferência Skype for Business Server
 
-**Resumo:** Saiba mais sobre o Relatório detalhado de conferências usado no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Detalhes da Conferência usado Skype for Business Server.
 
 O Relatório de Detalhe da Conferência oferece informações detalhadas sobre todos os usuários que participaram de uma conferência. Por exemplo, você pode ver tal informação como a data e hora que um usuário participou da conferência, a data e hora que o usuário saiu da conferência e o agente do usuário do ponto de extremidade que foi usado para conectar o usuário à conferência. Também é possível ver informações da função do usuário em cada conferência (por exemplo, Apresentador ou Participante). Talvez, o mais importante, você pode ver rapidamente quais usuários participaram com sucesso e concluíram a conferência e quais usuários não puderam participar e concluir a conferência.
 

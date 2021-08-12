@@ -1,5 +1,5 @@
 ---
-title: Criando e criando fluxos de trabalho de grupo de resposta no Skype for Business
+title: Criando e criando fluxos de trabalho de grupo de resposta Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: Projete e crie fluxos de trabalho do Grupo de Resposta, no Skype for Business Server Enterprise Voice. Tanto os fluxos de trabalho de grupo de busca quanto os fluxos de trabalho interativos são abordados.
-ms.openlocfilehash: 678dcb25f5f802f101016a2a289015a60e48ba88
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Projete e crie fluxos de trabalho do Grupo de Resposta, Skype for Business Server Enterprise Voice. Tanto os fluxos de trabalho de grupo de busca quanto os fluxos de trabalho interativos são abordados.
+ms.openlocfilehash: ac77753e82acc2a7733fb5d273a55b4c9fd0d0fd5466262fec6fdc9a2c223030
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105777"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303115"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Criando e criando fluxos de trabalho de grupo de resposta no Skype for Business
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Criando e criando fluxos de trabalho de grupo de resposta Skype for Business
 
-Projete e crie fluxos de trabalho do Grupo de Resposta, no Skype for Business Server Enterprise Voice. Tanto os fluxos de trabalho de grupo de busca quanto os fluxos de trabalho interativos são abordados.
+Projete e crie fluxos de trabalho do Grupo de Resposta, Skype for Business Server Enterprise Voice. Tanto os fluxos de trabalho de grupo de busca quanto os fluxos de trabalho interativos são abordados.
 
 Um fluxo de trabalho define o comportamento de uma chamada desde a hora que o telefone toca até a hora que alguém atende essa chamada. O fluxo de trabalho especifica a fila a ser usada para a realização da chamada e especifica o método de roteamento a ser usado para a busca de fluxos de trabalho de grupo ou as perguntas e respostas a ser usadas para fluxos de trabalho de grupo de resposta interativos.
 
@@ -40,7 +40,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
 
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle.
 
 3. Na barra de navegação à esquerda, clique em **Grupos de Resposta** e em **Fluxo de Trabalho**.
 
@@ -51,7 +51,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
     > [!NOTE]
     > A Ferramenta de Configuração do Grupo de Resposta é aberta. Você também pode abrir a Ferramenta de Configuração de Grupo de Resposta diretamente de um navegador da Web digitando a seguinte URL: \<webPoolFqdn\> https:// /RgsConfig.
 
-6. Siga um destes procedimentos:
+6. Faça um dos seguintes:
 
    - Em **Criar um Novo Fluxo de Trabalho,** ao lado de Grupo de **Busca,** clique em **Criar**.
 
@@ -65,10 +65,10 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 8. Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação**. Você também deve ter uma política de acesso externo que se aplique ao aplicativo do Grupo de Resposta configurado para federação.
 
     > [!NOTE]
-    > A política de acesso externo global se aplica ao aplicativo grupo de resposta. Você pode configurar a política global para federação do grupo de resposta usando o Painel de Controle do Skype for Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obter detalhes sobre a configuração de federação, consulte [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > A política de acesso externo global se aplica ao aplicativo grupo de resposta. Você pode configurar a política global para federação de grupo de resposta usando o Painel de Controle Skype for Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obter detalhes sobre a configuração de federação, consulte [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
-    > Os usuários hospedados no Skype for Business Online não podem fazer chamadas para grupos de resposta hospedados em uma implantação local. Isso é verdadeiro em implantações híbridas e em casos em que uma implantação local é federada com uma implantação do Skype for Business Online.
+    > Os usuários hospedados no Skype for Business Online não podem fazer chamadas para grupos de resposta hospedados em uma implantação local. Isso é verdadeiro em implantações híbridas e em casos em que uma implantação local é federada com uma implantação Skype for Business Online.
 
 9. Para ocultar a identidade de operadores durante as chamadas, selecione a opção **Habilitar anonimato do operador**.
 
@@ -163,7 +163,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
 
     > [!NOTE]
-    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [(Opcional) Definir conjuntos](optional-define-response-group-holiday-sets.md)de feriados do Grupo de Resposta no Skype for Business .
+    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [(Opcional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md).
 
 25. Se você deseja reproduzir uma mensagem nos feriados, selecione a opção **Reproduzir uma mensagem durante os feriados** e especifique a mensagem a ser executada realizado um dos seguintes procedimentos:
 
@@ -200,11 +200,11 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
 29. Clique em **Implantar**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Para usar o Shell de Gerenciamento do Skype for Business Server para criar ou modificar um fluxo de trabalho de grupo de busca
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Para usar Skype for Business Server Shell de Gerenciamento para criar ou modificar um fluxo de trabalho de grupo de busca
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
 
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 3. Crie o prompt a ser tocado para a mensagem de boas-vindas e salve-o em uma variável. Na linha de comando, execute:
 
@@ -244,7 +244,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Se você quiser definir horário comercial e feriados, você precisa crie-os antes de criar ou modificar o fluxo de trabalho. Para obter detalhes, consulte [(Opcional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md) e [(Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md).
+6. Se você quiser definir horário comercial e feriados, você precisa crie-os antes de criar ou modificar o fluxo de trabalho. Para obter detalhes, consulte [(Opcional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md).
 
 7. Se você quiser ter prompts para chamadas recebidas fora do horário comercial ou em feriados, use o cmdlet **New-CsRgsPrompt** para definir o prompt e use **o New-CsRgsCallAction** para definir a ação a ser tomada após o prompt. Para obter detalhes, [consulte New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) e [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
@@ -283,7 +283,7 @@ O aplicativo grupo de resposta oferece reconhecimento de fala e recursos de text
 Os fluxos de trabalho interativos suportam até dois níveis de perguntas, com cada pergunta tendo até quatro respostas possíveis. A IVR faz uma pergunta ao chamador e, dependendo da resposta do chamador, encaminha o chamador para uma fila ou faz uma segunda pergunta. A segunda pergunta também pode ter quatro respostas possíveis. Dependendo da resposta à pergunta de segundo nível, o chamador é roteado para a fila adequada.
 
 > [!NOTE]
-> Ao projetar fluxos de chamadas usando o Shell de Gerenciamento do Skype for Business Server, você pode definir qualquer número de níveis de perguntas IVR e qualquer número de respostas. No entanto, para melhor usabilidade do chamador, recomendamos que você não use mais de três níveis de perguntas, com não mais do que cinco respostas cada. Além disso, se você projetar um fluxo de chamadas com mais de dois níveis de perguntas com mais de quatro respostas cada, não será possível editar o fluxo de chamadas usando o Painel de Controle do Skype for Business Server.
+> Ao projetar fluxos de chamada usando Skype for Business Server Shell de Gerenciamento, você pode definir qualquer número de níveis de perguntas IVR e qualquer número de respostas. No entanto, para melhor usabilidade do chamador, recomendamos que você não use mais de três níveis de perguntas, com não mais do que cinco respostas cada. Além disso, se você projetar um fluxo de chamada que tenha mais de dois níveis de perguntas com mais de quatro respostas cada, não será possível editar o fluxo de chamada usando o Painel de Controle Skype for Business Server.
 
 As perguntas ivr e as respostas do chamador são fornecidas ao agente que responde que aceita a chamada.
 
@@ -373,7 +373,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
 
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle.
 
 3. Na barra de navegação à esquerda, clique em **Grupos de Resposta** e em **Fluxo de Trabalho**.
 
@@ -398,10 +398,10 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 8. Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação**. Você também deve ter uma política de acesso externo que se aplique ao aplicativo do Grupo de Resposta configurado para federação.
 
     > [!NOTE]
-    > A política de acesso externo global se aplica ao aplicativo grupo de resposta. Você pode configurar a política global para federação do grupo de resposta usando o Painel de Controle do Skype for Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obter detalhes sobre a configuração de federação, consulte **Set-CsExternalAccessPolicy** na documentação..
+    > A política de acesso externo global se aplica ao aplicativo grupo de resposta. Você pode configurar a política global para federação de grupo de resposta usando o Painel de Controle Skype for Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obter detalhes sobre a configuração de federação, consulte **Set-CsExternalAccessPolicy** na documentação..
 
     > [!NOTE]
-    > Os usuários hospedados no Skype for Business Online não podem fazer chamadas para grupos de resposta hospedados em uma implantação local. Isso é verdadeiro em implantações híbridas e em casos em que uma implantação local é federada com uma implantação do Skype for Business Online.
+    > Os usuários hospedados no Skype for Business Online não podem fazer chamadas para grupos de resposta hospedados em uma implantação local. Isso é verdadeiro em implantações híbridas e em casos em que uma implantação local é federada com uma implantação Skype for Business Online.
 
 9. Para ocultar a identidade de operadores durante as chamadas, selecione a opção **Habilitar anonimato do operador**.
 
@@ -419,7 +419,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
 13. Em **Número de Exibição**, digite o número conforme deseja que apareça para o grupo de resposta  (por exemplo, +1 (425) 555-0165).
 
-14. (Opcional) Em **Descrição**, digite uma descrição do fluxo de trabalho que você deseja que apareça no cartão de visita no Skype for Business.
+14. (Opcional) Em **Descrição**, digite uma descrição do fluxo de trabalho que você deseja que apareça no cartão de visita Skype for Business.
 
 15. Em **Tipo de fluxo de trabalho**, selecione **Gerenciado** se este fluxo de trabalho será gerenciado pelo Gerente do grupo de resposta. Faça o seguinte para atribuir Gerentes de Grupo de Resposta ao fluxo de trabalho:
 
@@ -490,7 +490,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
 
     > [!NOTE]
-    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [(Opcional) Definir conjuntos](optional-define-response-group-holiday-sets.md)de feriados do Grupo de Resposta no Skype for Business .
+    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [(Opcional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md).
 
 25. Se você deseja reproduzir uma mensagem nos feriados, selecione a opção **Reproduzir uma mensagem durante os feriados** e especifique a mensagem a ser executada realizado um dos seguintes procedimentos:
 
@@ -533,7 +533,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
     > [!NOTE]
     > O símbolo "#" é traduzido pelo mecanismo de conversão de texto em fala como a palavra "número". Se for necessário fazer referência à tecla #, use o nome da tecla no prompt, em vez do símbolo. Por exemplo, "Para falar com vendas, pressione a tecla jogo da velha."
 
-    - Para usar um arquivo de áudio pré-gravado que contenha a pergunta, clique em **Selecionar uma gravação** e clique no link **uma gravação** para carregar o arquivo. Na nova janela do navegador, clique em **Procurar**, selecione o arquivo de áudio e clique em **Abrir**. Clique **em Carregar** para carregar o arquivo e, opcionalmente, você pode digitar a pergunta na caixa de texto (isso permite que a pergunta e a resposta do chamador sejam encaminhadas para o agente que responde).
+    - Para usar um arquivo de áudio pré-gravado que contenha a pergunta, clique em **Selecionar uma gravação** e clique no link **uma gravação** para carregar o arquivo. Na nova janela do navegador, clique em **Procurar**, selecione o arquivo de áudio e clique em **Abrir**. Clique **Upload** carregar o arquivo e, opcionalmente, você pode digitar a pergunta na caixa de texto (isso permite que a pergunta e a resposta do chamador sejam encaminhadas para o agente que responde).
 
       > [!NOTE]
       > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
@@ -560,11 +560,11 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
 32. Clique em **Implantar**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Para usar o Shell de Gerenciamento do Skype for Business Server para criar ou modificar um fluxo de trabalho interativo
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Para usar Skype for Business Server Shell de Gerenciamento para criar ou modificar um fluxo de trabalho Interativo
 
 1.  Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
 
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
 3. Recupere o nome do serviço do serviço de Grupo de resposta e atribua-o a uma variável. Na linha de comando, execute:
 
@@ -646,9 +646,9 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
 ## <a name="see-also"></a>Confira também
 
-[(Opcional) Definir conjuntos de feriados do Grupo de Resposta no Skype for Business](optional-define-response-group-holiday-sets.md)
+[(Opcional) Definir conjuntos de feriados do Grupo de Resposta Skype for Business](optional-define-response-group-holiday-sets.md)
 
-[(Opcional) Definir o horário comercial do Grupo de Resposta no Skype for Business](optional-define-response-group-business-hours.md)
+[(Opcional) Definir o horário comercial do Grupo de Resposta em Skype for Business](optional-define-response-group-business-hours.md)
 
 [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 

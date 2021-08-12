@@ -1,5 +1,5 @@
 ---
-title: Configurar lista de contatos inteligentes em clientes do Skype for Business
+title: Configurar a lista de contatos inteligentes em Skype for Business clientes
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
-description: 'Resumo: Saiba como ativar o recurso de lista de contatos inteligentes no cliente Skype for Business.'
-ms.openlocfilehash: 1f049493d591cd561b87611f8a34f9176ace165a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como ativar o recurso de lista de contatos inteligentes no Skype for Business cliente.'
+ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303145"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurar lista de contatos inteligentes em clientes do Skype for Business
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurar a lista de contatos inteligentes em Skype for Business clientes
 
-**Resumo:** Saiba como ativar o recurso de lista de contatos inteligentes no cliente Skype for Business.
+**Resumo:** Saiba como ativar o recurso de lista de contatos inteligentes no Skype for Business cliente.
 
-O recurso de lista de contatos inteligentes permite a população automática de listas de contatos para seus usuários finais. Ao primeiro usar o Skype for Business, os usuários verão automaticamente o gerente e outras pessoas em sua equipe. Esse recurso é ativado por padrão para usuários do Microsoft 365 e do Office 365, mas você deve habilitar explicitamente esse recurso para seus usuários locais configurando a configuração de política do cliente.
+O recurso de lista de contatos inteligentes permite a população automática de listas de contatos para seus usuários finais. Ao usar o Skype for Business, os usuários verão automaticamente o gerente e outras pessoas em sua equipe. Esse recurso é ativado por padrão para usuários Microsoft 365 e Office 365, mas você deve habilitar explicitamente esse recurso para seus usuários locais configurando a configuração de política do cliente.
 
 Lembre-se do seguinte ao configurar este recurso:
 
@@ -82,8 +82,8 @@ Se a lista de contatos inteligentes não estiver funcionando conforme o esperado
 
 - Confirme se as informações da organização do AD estão preenchidas.
 
-- Coletar logs de cliente do Skype for Business em um novo usuário para análise mais detalhada.
+- Coletar Skype for Business logs de cliente em um novo usuário para análise mais detalhada.
 
-- Confirme se a interface do usuário do cliente do Skype for Business não está exibindo uma mensagem de que não pode se conectar ao Livro de Endereços. Para confirmar a conectividade do Livro de Endereços, execute uma pesquisa para um usuário na barra de pesquisa do cliente skype for Business.
+- Confirme se Skype for Business interface do usuário do cliente não está exibindo uma mensagem de que não pode se conectar ao Livro de Endereços. Para confirmar a conectividade do Livro de Endereços, execute uma pesquisa para um usuário na barra de pesquisa Skype for Business cliente.
 
-- Problemas de replicação do AD DS podem fazer com que os contatos não sejam resolvidos quando um usuário entrar pela primeira vez no Skype for Business.
+- Problemas de replicação do AD DS podem fazer com que os contatos não sejam resolvidos quando um usuário entrar pela primeira vez Skype for Business.

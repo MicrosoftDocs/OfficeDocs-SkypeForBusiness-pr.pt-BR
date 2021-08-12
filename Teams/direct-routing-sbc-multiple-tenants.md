@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um Controlador de Borda de Sessão (SBC) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293908"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -112,15 +112,15 @@ Para configurar a base e os subdomas, siga as etapas descritas abaixo. No exempl
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Verifique se você tem direitos apropriados no locatário da operadora
 
-Você só poderá adicionar novos domínios se entrar no centro de administração Microsoft 365 como Administrador Global. 
+Você só poderá adicionar novos domínios se entrar no Centro de administração do Microsoft 365 como Administrador Global. 
 
-Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( , acesse Usuários Usuários ativos e verifique se você tem uma função de Administrador https://portal.office.com)   >  Global. 
+Para validar a função que você tem, entre no Centro de administração do Microsoft 365 ( , acesse Usuários ativos e verifique se você tem uma função https://portal.office.com)   >  de Administrador Global. 
 
 Para obter mais informações sobre funções de administrador e como atribuir uma função em Microsoft 365 ou Office 365, consulte [Sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Adicionar um domínio base ao locatário e confirmá-lo
 
-1. No centro Microsoft 365 de administração, vá para **Setup**  >  **Domains**  >  **Add domain**.
+1. No Centro de administração do Microsoft 365, vá para **Setup**  >  **Domains**  >  **Add domain**.
 2. Na caixa **Inserir um domínio que você possui,** digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *customers.adatum.biz*.
 
     ![Captura de tela mostrando a página Adicionar um domínio](media/direct-routing-2-sbc-add-domain.png)
@@ -156,14 +156,14 @@ Você precisará criar um nome de subdomínio exclusivo para cada cliente. Neste
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>Verifique se você tem direitos apropriados no locatário do cliente
 
-Você só poderá adicionar novos domínios se entrar no centro de administração Microsoft 365 como Administrador Global. 
+Você só poderá adicionar novos domínios se entrar no Centro de administração do Microsoft 365 como Administrador Global. 
 
-Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( , acesse Usuários Usuários ativos e verifique se você tem uma função de Administrador https://portal.office.com)   >  Global. 
+Para validar a função que você tem, entre no Centro de administração do Microsoft 365 ( , acesse Usuários ativos e verifique se você tem uma função https://portal.office.com)   >  de Administrador Global. 
 
 Para obter mais informações sobre funções de administrador e como atribuir uma função em Microsoft 365 ou Office 365, consulte [Sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Adicione um subdomínio ao locatário do cliente e verifique se ele
-1. No centro Microsoft 365 de administração, vá para **Setup**  >  **Domains**  >  **Add domain**.
+1. No Centro de administração do Microsoft 365, vá para **Setup**  >  **Domains**  >  **Add domain**.
 2. Na caixa **Inserir um domínio que você possui,** digite o FQDN do subdomínio para esse locatário. No exemplo abaixo, o subdomínio é sbc1.customers.adatum.biz.
 
     ![Captura de tela da página Adicionar um domínio](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
     Para obter mais informações, consulte [Create DNS records at any DNS hosting provider](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
-7. Volte para o centro de administração Microsoft 365 cliente e clique em **Verificar**. 
+7. Volte para o cliente Centro de administração do Microsoft 365 clique em **Verificar**. 
 8. Na próxima página, selecione **Eu mesmo adicionarei os registros DNS** e clique em **Next**.
 
     ![Captura de tela de opções na página Atualizar configurações de DNS](media/direct-routing-9-sbc-update-dns.png)

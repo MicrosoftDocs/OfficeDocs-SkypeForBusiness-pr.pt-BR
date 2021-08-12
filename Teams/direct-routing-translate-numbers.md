@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar o Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337409"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traduzir números de telefone para um formato alternativo
 
@@ -72,8 +72,8 @@ Nos exemplos a seguir, há dois usuários, Alice e Bob. Alice é uma Teams cujo 
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Exemplo 1: chamada de entrada para um número de dez dígitos
 
-Bob chama Alice usando um número de dez dígitos que não seja E.164. Bob disca 2065550100 para alcançar Alice.
-SBC usa 2065550100 nos headers RequestURI e To e 42555550100 no header From.
+Bob chama Alice usando um número de dez dígitos que não seja E.164. Bob disca 2065550100 para chegar a Alice.
+SBC usa 2065550100 nos headers RequestURI e To e 4255550100 no header From.
 
 
 |Header  |Original |Header traduzido |Parâmetro e regra aplicados  |
@@ -99,7 +99,7 @@ SBC usa 0100 nos headers RequestURI e To e 4255550100 no header From.
 Alice chama Bob usando um número de dez dígitos. Alice disca 425 555 0100 para alcançar Bob.
 O SBC está configurado para usar números de dez dígitos que não são E.164 para usuários Teams ESTN.
 
-Nesse cenário, um plano de discagem converte o número antes de enviá-lo para a interface de Roteamento Direto. Quando Alice insseja 425 555 0100 no cliente Teams, o número é convertido em +14255550100 pelo plano de discagem do país. Os números resultantes são uma normalização cumulativa das regras de plano de discagem e Teams de conversão. As Teams de conversão removem o "+1" adicionado pelo plano de discagem.
+Nesse cenário, um plano de discagem converte o número antes de enviá-lo para a interface de Roteamento Direto. Quando Alice inseja 425 555 0100 no cliente Teams, o número é convertido em +14255550100 pelo plano de discagem do país. Os números resultantes são uma normalização cumulativa das regras de plano de discagem e Teams de conversão. As Teams de conversão removem o "+1" adicionado pelo plano de discagem.
 
 
 |Header  |Original |Header traduzido |Parâmetro e regra aplicados  |

@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: O arquivamento em Skype for Business Server permite arquivar as comunicações enviadas por meio Skype for Business Server.
-ms.openlocfilehash: c23053f61c6b9029c6e62c5f344c780588bfb6e4
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 14278bcd6e7bc046449eaa5bc275659ae53003c87984475b97ab269f1c0951b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646812"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318914"
 ---
 # <a name="archiving-planning-tool"></a>Ferramenta de planejamento de arquivamento
  
