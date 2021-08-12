@@ -1,5 +1,5 @@
 ---
-title: Criar ou modificar uma regra de normalização no Skype for Business
+title: Criar ou modificar uma regra de normalização em Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 'Resumo: Saiba como definir, criar e modificar uma regra de normalização no Skype for Business Server.'
-ms.openlocfilehash: 3550e27884d125f065c4688fec2ace797f9e8ce2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como definir, criar e modificar uma regra de normalização em Skype for Business Server.'
+ms.openlocfilehash: e491c58951be9c5341927a4edc949f7d119145533d77b9f2cb65d9e6a1a3cc4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320843"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Criar ou modificar uma regra de normalização no Skype for Business
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Criar ou modificar uma regra de normalização em Skype for Business
 
-**Resumo:** Saiba como definir, criar e modificar uma regra de normalização no Skype for Business Server.
+**Resumo:** Saiba como definir, criar e modificar uma regra de normalização em Skype for Business Server.
 
-Definir, criar e modificar regras de normalização no Skype for Business Server.
+Definir, criar e modificar regras de normalização em Skype for Business Server.
 
 ### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a>Para definir uma regra de normalização usando Build a Normalization Rule
 
-1. Painel de Controle do Skype for Business Server
+1. Abrir Skype for Business Server Painel de Controle
 
-2. (Opcional) Siga as etapas em Criar ou modificar um plano de discagem no [Skype for Business Server](dial-plans.md) através da etapa 11 ou [Modificar](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan) um Plano de Discagem através da etapa 10.
+2. (Opcional) Siga as etapas em [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or Modify a Dial [Plan](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan) through step 10.
 
 3. Em **Nova Regra de Normalização** ou Editar Regra de **Normalização**, digite um nome que descreve o padrão de número que está sendo normalizado em **Name** (por exemplo, 5DigitExtension).
 
@@ -51,7 +51,7 @@ Definir, criar e modificar regras de normalização no Skype for Business Server
 
      Os valores inseridos nesses campos são refletidos em **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você deixar dígitos in-locar **vazios,** digite7 no campo Comprimento e selecione **Exatamente**, e especifique 0 em  **Dígitos** a ser removido , a expressão regular resultante no **Padrão** a ser corresponder é:
 
-     ^(\d {7} )$
+     ^(\d{7})$
 
 6. Em **Regra de conversão**, especifique um padrão para o formato de números de telefone E.164 convertido da seguinte maneira:
 
@@ -66,7 +66,7 @@ Definir, criar e modificar regras de normalização no Skype for Business Server
 8. (Opcional) Insira um número para testar a regra de normalização e clique em **Ir**. Os resultados do teste são exibidos em **Inserir um número para testar**.
 
     > [!NOTE]
-    > É possível salvar uma regra de normalização que ainda não passou no teste e reconfigurá-la posteriormente. Para obter detalhes, consulte [Test Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing).
+    > É possível salvar uma regra de normalização que não passou ainda no teste e reconfigurá-la mais tarde. Para obter detalhes, consulte [Test Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing).
 
 9. Clique em **OK** para salvar a regra de normalização.
 
@@ -75,13 +75,13 @@ Definir, criar e modificar regras de normalização no Skype for Business Server
 11. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.
 
     > [!NOTE]
-    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz no Skype for Business na documentação Operações.
+    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz Skype for Business na documentação Operações.
 
 ### <a name="to-define-a-normalization-rule-manually"></a>Para definir uma regra de normalização manualmente
 
-1. Painel de Controle do Skype for Business Server
+1. Abrir Skype for Business Server Painel de Controle
 
-2. (Opcional) Siga as etapas em [Criar ou modificar um plano de discagem no Skype for Business Server](dial-plans.md).
+2. (Opcional) Siga as etapas em [Criar ou modificar um plano de discagem em Skype for Business Server](dial-plans.md).
 
 3. Em **Nova Regra de Normalização** ou Editar Regra de **Normalização,** digite um nome que descreve o padrão de número que está sendo normalizado em **Name** (por exemplo, nomeia a regra de normalização5DigitExtension).
 
@@ -95,7 +95,7 @@ Definir, criar e modificar regras de normalização no Skype for Business Server
 
    - Em **Regra de tradução**, especifique um padrão para o formato dos números de telefone E.164 traduzidos.
 
-     Por exemplo, se você inserir ^(\d )$ em Corresponder a esse padrão {7} e+1425$1 na regra de conversão, a regra normaliza 5550100 a +14255550100.  
+     Por exemplo, se você inserir ^(\d )$ em Corresponder a esse padrão {7} e+1425$1 na regra conversão, a regra normaliza 5550100 para +14255550100.  
 
 7. (Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.
 
@@ -108,4 +108,4 @@ Definir, criar e modificar regras de normalização no Skype for Business Server
 11. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.
 
     > [!NOTE]
-    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz no Skype for Business na documentação Operações.
+    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz Skype for Business na documentação Operações.

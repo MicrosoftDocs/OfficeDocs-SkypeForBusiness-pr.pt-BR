@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5464e84526e466bdfaa643e912ecf90ccc252b2070fcffc810374dc6f03b52bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101267"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295168"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
@@ -228,4 +228,4 @@ O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade d
 - [Promover a adoção](adopt-microsoft-teams-landing-page.md) de conferências e reuniões em toda a organização.
 - [Adicionar audioconferência](deploy-audio-conferencing-teams-landing-page.md)
 - [Implementar o Cloud Voice](cloud-voice-landing-page.md)
-- Incluir os aplicativos em destaque, como o Planner, na implementação inicial do Teams. Adicionar outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) ao promover a adoção do Teams.
+- Incluir aplicativos em destaque - como o Planner - em seu lançamento inicial das Teams. Adicionar outros [aplicativos, bots, & conectores](deploy-apps-microsoft-teams-landing-page.md) à medida que você impulsiona a adoção das Teams.

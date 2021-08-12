@@ -15,23 +15,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Você pode excluir qualquer política de site ou usuário listada no Painel de Controle Skype for Business Server na página Política de Acesso Externo.
-ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79858592b8ba7dbcee692807bba3d2a472a8579cbc843ddeb96c25c811cc6df7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848676"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Excluir um site ou uma política de usuário para acesso de usuário externo
 
-Se você criou ou configurou políticas de acesso de usuário externo que não vai mais usar, poderá fazer o seguinte:
+Se você tiver criado ou configurado políticas de acesso de usuário externo que não deseja mais usar, poderá fazer o seguinte método:
 
   - Excluir qualquer política local ou de usuário que você criou.
 
   - Redefinir a política global para as configurações padrão. As configurações de política global padrão negam qualquer acesso de usuário externo. A política global não pode ser excluída.
 
 
-Você pode excluir qualquer política de site ou usuário listada no Painel de Controle Skype for Business Server na página **Política de Acesso** Externo. Excluir a política global não causa sua exclusão propriamente dita, mas apenas a redefine para suas configurações padrão, que não incluem suporte para nenhuma opção de acesso de usuário externo. Para obter detalhes sobre como redefinir a política global, consulte [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).
+Você pode excluir qualquer política de site ou usuário listada no Painel de Controle Skype for Business Server na página **Política de Acesso** Externo. A exclusão da política global não a exclui, mas apenas a redefine para as configurações padrão, que não incluem suporte para qualquer opção de acesso de usuário externo. Para obter detalhes sobre como redefinir a política global, consulte [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Para excluir uma política de site ou de usuário para o acesso de usuário externo
@@ -54,23 +54,17 @@ As políticas de acesso externo podem ser excluídas usando-se o Windows PowerSh
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>Para remover uma política de acesso externo específica
 
-  - Este comando remove a política de acesso externo aplicada ao site Redmond:
-    
-        Remove-CsExternalAccessPolicy -Identity "site:Redmond"
+  - Este comando remove a política de acesso externo aplicada ao site Redmond:<br/><br/>Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
 
 ## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>Para remover todas as políticas de acesso externo aplicadas ao escopo por usuário
 
-  - Este comando remove todas as políticas de acesso externo configuradas no escopo por usuário:
-    
-        Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
+  - Este comando remove todas as políticas de acesso externo configuradas no escopo por usuário:<br/><br/>Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
 
 ## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Para remover todas as políticas de acesso externo em que o acesso externo do usuário está desabilitado
 
-  - Este comando exclui todas as políticas de acesso externo com acesso de usuário externo desabilitado:
-    
-        Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
+  - Este comando exclui todas as políticas de acesso externo com acesso de usuário externo desabilitado:<br/><br/>Get-CsExternalAccessPolicy | Where-Object {$_. EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsExternalAccessPolicy.](/powershell/module/skype/Remove-CsExternalAccessPolicy)

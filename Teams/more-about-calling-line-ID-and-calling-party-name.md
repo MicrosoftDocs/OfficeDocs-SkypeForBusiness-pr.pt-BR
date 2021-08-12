@@ -20,12 +20,12 @@ ms.custom:
 - Calling Plans
 ms.service: msteams
 description: Saiba mais sobre a ID da Linha de Chamada e o Nome da Parte de Chamada.
-ms.openlocfilehash: dd68327c8fb3f63bf17e0736f9d41b727efc1ff8
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7baae8ff6ed48919e4ee540890dd31a47ad81c943e5ce8e9db8d934331d0ce75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350633"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Mais informações sobre a Identificação da Linha de Chamada e o Nome do Chamador
 

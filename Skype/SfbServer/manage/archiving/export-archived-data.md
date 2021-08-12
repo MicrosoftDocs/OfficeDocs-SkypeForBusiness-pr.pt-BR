@@ -1,5 +1,5 @@
 ---
-title: Exportar dados arquivados no Skype for Business Server
+title: Exportar dados arquivados em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: 'Resumo: saiba como exportar dados arquivados para o Skype for Business Server.'
-ms.openlocfilehash: e69c283304395d697e99ef0607e2aec1eb7960e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como exportar dados arquivados para Skype for Business Server.'
+ms.openlocfilehash: bb23861ea7615584de3ce6247f7281d94b5c60853767aaaa6ae495d3a6264dc7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311079"
 ---
-# <a name="export-archived-data-in-skype-for-business-server"></a>Exportar dados arquivados no Skype for Business Server
+# <a name="export-archived-data-in-skype-for-business-server"></a>Exportar dados arquivados em Skype for Business Server
 
-**Resumo:** Saiba como exportar dados arquivados para o Skype for Business Server.
+**Resumo:** Saiba como exportar dados arquivados para Skype for Business Server.
   
-Os dados arquivados em bancos de dados de arquivamento não são pesquisáveis ou em um formato acessível, mas você pode usar o cmdlet **Export-CsArchivingData** para extrair registros do banco de dados e salvá-los como um arquivo de Email Eletrônico do Outlook (EML).
+Os dados arquivados em bancos de dados de arquivamento não são pesquisáveis ou em um formato acessível, mas você pode usar o cmdlet **Export-CsArchivingData** para extrair registros do banco de dados e salvá-los como um arquivo Outlook Email Eletrônico (EML).
   
-Se você habilitar a integração com o Microsoft Exchange, os dados serão arquivados nos armazenamentos do Exchange. Os dados arquivados no Exchange são pesquisáveis e descobertos. Para obter detalhes sobre como acessar dados arquivados no Exchange, consulte a documentação do Exchange.
+Se você habilitar a integração Exchange Microsoft, os dados serão arquivados Exchange armazenamentos. Os dados arquivados no Exchange são pesquisáveis e descobertos. Para obter detalhes sobre como acessar dados arquivados no Exchange, consulte a documentação Exchange.
   
 ## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Exportando dados de arquivamento usando Windows PowerShell cmdlets
 

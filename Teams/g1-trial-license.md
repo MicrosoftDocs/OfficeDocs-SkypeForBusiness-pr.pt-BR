@@ -15,15 +15,14 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b10c62ddee396128b6622303906c6a37a10adec3f62ac386b55c084c3feb4a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f249f48c143d727175f97fb0929b383643e7595fb74327371fecd661f7514ce3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848556"
 ---
-<a name="manage-the-office-365-g1-trial-for-us-government"></a>Gerenciar a Avaliação do Office 365 G1 para o governo dos EUA 
-==============================
+# <a name="manage-the-office-365-g1-trial-for-us-government"></a>Gerenciar a Avaliação do Office 365 G1 para o governo dos EUA 
 
 A partir do dia 01º de julho de 2020, a licença de avaliação do Office 365 E1 não estará mais disponível. Se você precisar licenciar usuários para o Microsoft Teams, leia a [Descrição do serviço do Microsoft Teams](/office365/servicedescriptions/teams-service-description) para obter uma lista de assinaturas pagas que incluem o Teams. 
 

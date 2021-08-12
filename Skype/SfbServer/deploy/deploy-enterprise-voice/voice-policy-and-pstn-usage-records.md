@@ -1,5 +1,5 @@
 ---
-title: Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype for Business
+title: Criar ou modificar uma política de voz e configurar registros de uso PSTN em Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,24 +15,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
-description: 'Resumo: crie ou modifique políticas de voz e configure registros de uso PSTN usando o Painel de Controle do Skype for Business Server.'
-ms.openlocfilehash: ca97c4c75004849f2ea404c083878da6c726c2e6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: crie ou modifique políticas de voz e configure registros de uso PSTN usando o painel de Skype for Business Server Controle.'
+ms.openlocfilehash: f81d54314d60b6dbb69efa84a2fc5bb9cd22123ff2158080ed2878102611b7a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105757"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320833"
 ---
-# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype for Business
+# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Criar ou modificar uma política de voz e configurar registros de uso PSTN em Skype for Business
 
-**Resumo:** Crie ou modifique políticas de voz e configure registros de uso PSTN usando o Painel de Controle do Skype for Business Server.
+**Resumo:** Crie ou modifique políticas de voz e configure registros de uso de PSTN usando o painel Skype for Business Server Controle.
 
 > [!NOTE]
 > Cada política de voz deve ter pelo menos um registro de uso da PSTN (Rede Telefônica Pública Comugada). Para ver uma listagem de todos os registros de uso PSTN disponíveis em sua implantação Enterprise Voice e exibir suas propriedades, consulte [View PSTN usage records in Skype for Business](view-pstn-usage-records.md).
 
 ### <a name="to-create-a-voice-policy"></a>Para criar uma política de voz
 
-1. Abra o Painel de Controle do Skype for Business Server.
+1. Abra Skype for Business Server Painel de Controle.
 
 2. Na barra de navegação esquerda, clique em **Roteamento de Voz** e clique em **Política de Voz**.
 
@@ -54,9 +54,9 @@ ms.locfileid: "51105757"
    - **A saída de** caixa postal impede que as chamadas são roteadas imediatamente para o sistema de caixa postal do telefone celular do usuário quando o toque simultâneo é configurado e o telefone está desligado, sem bateria ou fora do intervalo.
 
      > [!NOTE]
-     > Esse recurso só é configurável por meio do Shell de Gerenciamento do Skype for Business Server
+     > Esse recurso só é configurável por meio do Shell Skype for Business Server Gerenciamento
 
-   - **Encaminhamento de chamada** permite que os usuários encaminhem chamadas a outros telefones e dispositivos clientes. O Skype for Business Server fornece uma gama significativamente maior de opções de configuração para encaminhamento de chamadas. Por exemplo, se uma organização não deseja permitir que as chamadas recebidas sejam encaminhadas externamente à PSTN, um administrador pode aplicar um política de voz especial para implantar essa restrição. Habilitado por padrão.
+   - **Encaminhamento de chamada** permite que os usuários encaminhem chamadas a outros telefones e dispositivos clientes. Skype for Business Server fornece uma variedade significativamente maior de opções de configuração para encaminhamento de chamada. Por exemplo, se uma organização não deseja permitir que as chamadas recebidas sejam encaminhadas externamente à PSTN, um administrador pode aplicar um política de voz especial para implantar essa restrição. Habilitado por padrão.
 
    - **Delegação** permite que o usuário especifique outros usuários para enviar e receber chamadas em seu nome. No Skype for Business Server, um representante pode configurar o toque simultâneo que permite que as chamadas de entrada para seu gerente toquem todos os destinos simultâneos de toque do representante. Com isso, o representante tem mais flexibilidade para atender a chamadas direcionadas ao gerente. Habilitado por padrão.
 
@@ -64,7 +64,7 @@ ms.locfileid: "51105757"
 
    - **Estacionamento de chamada** permite que os usuários estacionem chamadas em espera e atendam à chamada de um telefone ou cliente diferente. Desabilitado por padrão.
 
-   - **Toque simultâneo** permite as chamadas em entrada tocarem em telefones adicionais (por exemplo, um telefone celular) ou outros dispositivos de ponto de extremidade. O Skype for Business Server fornece uma variedade significativamente maior de opções de configuração para toque simultâneo. Habilitado por padrão.
+   - **Toque simultâneo** permite as chamadas em entrada tocarem em telefones adicionais (por exemplo, um telefone celular) ou outros dispositivos de ponto de extremidade. Skype for Business Server fornece uma variedade significativamente maior de opções de configuração para toque simultâneo. Habilitado por padrão.
 
    - **Chamada de equipe** permite que os usuários de uma equipe definida respondam às chamadas de outros membros da equipe. Habilitado por padrão.
 
@@ -77,7 +77,7 @@ ms.locfileid: "51105757"
 
    - **O rastreamento de chamadas** mal-intencionadas permite que os usuários reportem chamadas mal-intencionadas (como ameaças) usando a interface do usuário do cliente, que, por sua vez, sinaliza as chamadas nos Registros de Detalhes de Chamadas (CDRs). Desabilitado por padrão.
 
-   - **As opções de** ocupado habilitam ou desabilitam opções de ocupado para a política de voz especificada. Opções de ocupado permite que as chamadas de entrada sejam roteados para a caixa postal ou rejeitadas com um sinal de ocupado quando o usuário de destino da chamada estiver no telefone. Opções de Ocupado é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016. A verificação desse parâmetro habilita Opções de Ocupado e desmarcar desabilita As Opções de Ocupado. Para obter mais informações, consulte [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and Install and configure Busy Options for Skype for Business [Server](install-and-configure-busy-options.md).
+   - **As opções de** ocupado habilitam ou desabilitam opções de ocupado para a política de voz especificada. Opções de ocupado permite que as chamadas de entrada sejam roteados para a caixa postal ou rejeitadas com um sinal de ocupado quando o usuário de destino da chamada estiver no telefone. Opções de Ocupado é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016. A verificação desse parâmetro habilita Opções de Ocupado e desmarcar desabilita As Opções de Ocupado. Para obter mais informações, consulte [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and Install and configure Busy Options for [Skype for Business Server](install-and-configure-busy-options.md).
 
 7. Para associar e configurar os registros de uso PSTN para esta política de voz, faça um dos seguintes:
 
@@ -125,13 +125,13 @@ ms.locfileid: "51105757"
 8. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição de um registro na lista, realça o nome do registro e clique na seta para cima ou para baixo.
 
     > [!IMPORTANT]
-    > A ordem na qual os registros de uso PSTN são listados na política de voz é significante. O Skype for Business Server percorre a lista de cima para baixo. Recomendamos que você organize a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > A ordem na qual os registros de uso PSTN são listados na política de voz é significante. Skype for Business Server percorre a lista de cima para baixo. Recomendamos que você organize a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 9. Para associar e configurar registros de uso do PSTN para essa política de voz, execute um destes procedimentos:
 
    - Para usar os mesmos registros de uso do PSTN para encaminhamento de chamadas e toque simultâneo como esta política de voz, selecione a opção **Rotear com usos de PSTN de chamada** no menu suspenso.
 
-   - Para permitir o encaminhamento de chamadas e toque simultâneo apenas para usuários internos do Skype for Business, selecione a opção Encaminhar para usuários internos do **Skype for Business** apenas no menu suspenso. As chamadas não serão encaminhadas para números PSTN externos.
+   - Para permitir o encaminhamento de chamada e toque simultâneo para usuários internos Skype for Business, selecione **a** opção Rotear para usuários internos Skype for Business somente no menu suspenso. As chamadas não serão encaminhadas para números PSTN externos.
 
    - Para especificar registros de uso de PSTN diferentes para encaminhamento de chamadas e toque simultâneos que os usados para esta política de voz, selecione a opção **Encaminhar usando usos de PSTN personalizados** no menu suspenso. Essa opção exibe um controle para selecionar registros de uso de PSTN existentes ou criar novos registros de uso de PSTN especificamente para encaminhamento de chamadas e toque simultâneo.
 
@@ -183,13 +183,13 @@ ms.locfileid: "51105757"
 12. Na página **Política de Voz**, clique em **Confirmar** e em **Confirmar todos**.
 
     > [!NOTE]
-    > Sempre que você criar ou modificar uma política de voz, será necessário executar o comando **Confirmar tudo** para publicar a alteração de configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz no Skype for Business na documentação Operações.
+    > Sempre que você criar ou modificar uma política de voz, será necessário executar o comando **Confirmar tudo** para publicar a alteração de configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz Skype for Business na documentação Operações.
 
 13. (Opcional) A Caixa Postal Escape detecta que uma chamada foi atendida imediatamente pela caixa postal do celular do usuário e desconecta a chamada para a caixa postal do celular. Isso permite que a chamada continue a tocar nos outros pontos de extremidade do usuário, dando ao usuário a oportunidade de responder à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configure voice mail escape in Skype for Business](configure-voice-mail-escape.md).
 
 ### <a name="to-modify-a-voice-policy"></a>Para modificar uma política de voz
 
-1. Abra o Painel de Controle do Skype for Business Server.
+1. Abra Skype for Business Server Painel de Controle.
 
 2. Na barra de navegação esquerda, clique em **Roteamento de Voz** e em **Política de Voz**.
 
@@ -205,9 +205,9 @@ ms.locfileid: "51105757"
    - **A saída de** caixa postal impede que as chamadas são roteadas imediatamente para o sistema de caixa postal do telefone celular do usuário quando o toque simultâneo é configurado e o telefone está desligado, sem bateria ou fora do intervalo.
 
      > [!NOTE]
-     > Esse recurso só é configurável por meio do Shell de Gerenciamento do Skype for Business Server
+     > Esse recurso só é configurável por meio do Shell Skype for Business Server Gerenciamento
 
-   - **Encaminhamento de chamada** permite que os usuários encaminhem chamadas a outros telefones e dispositivos clientes. O Skype for Business Server fornece uma gama significativamente maior de opções de configuração para encaminhamento de chamadas. Por exemplo, se uma organização não deseja permitir que as chamadas recebidas sejam encaminhadas externamente à PSTN, um administrador pode aplicar um política de voz especial para implantar essa restrição. Habilitado por padrão.
+   - **Encaminhamento de chamada** permite que os usuários encaminhem chamadas a outros telefones e dispositivos clientes. Skype for Business Server fornece uma variedade significativamente maior de opções de configuração para encaminhamento de chamada. Por exemplo, se uma organização não deseja permitir que as chamadas recebidas sejam encaminhadas externamente à PSTN, um administrador pode aplicar um política de voz especial para implantar essa restrição. Habilitado por padrão.
 
    - **Delegação** permite que o usuário especifique outros usuários para enviar e receber chamadas em seu nome. No Skype for Business Server, um representante pode configurar o toque simultâneo que permite que as chamadas de entrada para seu gerente toquem todos os destinos simultâneos de toque do representante. Com isso, o representante tem mais flexibilidade para atender a chamadas direcionadas ao gerente. Habilitado por padrão.
 
@@ -215,7 +215,7 @@ ms.locfileid: "51105757"
 
    - **Estacionamento de chamada** permite os usuários estacionarem chamadas em espera e responderem a chamada de um telefone ou cliente diferente. Desabilitado por padrão.
 
-   - **Toque simultâneo** permite as chamadas em entrada tocarem em telefones adicionais (por exemplo, um telefone celular) ou outros dispositivos de ponto de extremidade. O Skype for Business Server fornece uma variedade significativamente maior de opções de configuração para toque simultâneo. Habilitado por padrão.
+   - **Toque simultâneo** permite as chamadas em entrada tocarem em telefones adicionais (por exemplo, um telefone celular) ou outros dispositivos de ponto de extremidade. Skype for Business Server fornece uma variedade significativamente maior de opções de configuração para toque simultâneo. Habilitado por padrão.
 
    - **Chamada de equipe** permite que os usuários de uma equipe definida respondam às chamadas de outros membros da equipe. Habilitado por padrão.
 
@@ -274,13 +274,13 @@ ms.locfileid: "51105757"
 7. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição de um registro na lista, realça o nome do registro e clique na seta para cima ou para baixo.
 
     > [!NOTE]
-    > A ordem na qual os registros de uso PSTN são listados na política de voz é significante. O Skype for Business Server percorre a lista de cima para baixo. Recomendamos que você organize a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > A ordem na qual os registros de uso PSTN são listados na política de voz é significante. Skype for Business Server percorre a lista de cima para baixo. Recomendamos que você organize a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 8. Para associar e configurar registros de uso do PSTN para essa política de voz, execute um destes procedimentos:
 
    - Para usar os mesmos registros de uso do PSTN para encaminhamento de chamadas e toque simultâneo como esta política de voz, selecione a opção **Rotear com usos de PSTN de chamada** no menu suspenso.
 
-   - Para permitir o encaminhamento de chamadas e toque simultâneo apenas para usuários internos do Skype for Business, selecione Rotear para usuários internos do **Skype for Business** apenas no menu suspenso. As chamadas não serão encaminhadas para números PSTN externos.
+   - Para permitir o encaminhamento de chamada e toque simultâneo  para usuários internos Skype for Business, selecione Rotear para usuários internos Skype for Business somente no menu suspenso. As chamadas não serão encaminhadas para números PSTN externos.
 
    - Para usar registros de uso do PSTN diferentes dos usados nesta política de voz para encaminhamento de chamadas e toque simultâneo, selecione a opção **Rotear com usos de PSTN personalizados** no menu suspenso. Esta opção exibe um controle para selecionar registros de uso do PSTN existentes ou criar novos registros de uso do PSTN, especificamente para encaminhamento de chamadas e toques simultâneos.
 
@@ -332,16 +332,16 @@ ms.locfileid: "51105757"
 11. Na página **Política de Voz**, clique em **Confirmar** e em **Confirmar todos**.
 
     > [!NOTE]
-    > Sempre que criar ou modificar uma política de voz, você deve executar o comando **Confirmar todos** para publicar a alteração da configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz no Skype for Business na documentação Operações.
+    > Sempre que criar ou modificar uma política de voz, você deve executar o comando **Confirmar todos** para publicar a alteração da configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz Skype for Business na documentação Operações.
 
 12. (Opcional) A Caixa Postal Escape detecta que uma chamada foi atendida imediatamente pela caixa postal do celular do usuário e desconecta a chamada para a caixa postal do celular. Isso permite que a chamada continue a tocar nos outros pontos de extremidade do usuário, dando ao usuário a oportunidade de responder à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configure voice mail escape in Skype for Business](configure-voice-mail-escape.md).
 
 ## <a name="see-also"></a>Confira também
 
-[Exibir registros de uso de PSTN no Skype for Business](view-pstn-usage-records.md)
+[Exibir registros de uso de PSTN em Skype for Business](view-pstn-usage-records.md)
 
 [Criar ou modificar uma rota de voz no Skype for Business](create-or-modify-a-voice-route.md)
 
-[Publicar alterações pendentes na configuração de roteamento de voz no Skype for Business](voice-route-config-changes.md)
+[Publicar alterações pendentes na configuração de roteamento de voz Skype for Business](voice-route-config-changes.md)
 
-[Configurar escape de caixa postal no Skype for Business](configure-voice-mail-escape.md)
+[Configurar a saída de caixa postal no Skype for Business](configure-voice-mail-escape.md)

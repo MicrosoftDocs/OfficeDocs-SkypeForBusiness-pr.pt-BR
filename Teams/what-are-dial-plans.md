@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Saiba que tipo de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com Teams e como escolher um para sua organização.  '
-ms.openlocfilehash: f4ab90b01fb0fa75e45b07382ee6d59c945e797b747cf6ed38663a947d83a2aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d5c004a8ea7d4ce851cfa6717abc2483102ed26b5526b49bcbf69f6d495f2b7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848716"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
-Um plano de discagem é um conjunto nomeado de regras de normalização que converte os números de telefone discados por um usuário em um formato alternativo (normalmente E.164) para fins de autorização e roteamento de chamadas.
+Um plano de discagem é um conjunto nomeado de regras de normalização que convertem números de telefone discados por um usuário individual em um formato alternativo (normalmente E.164) para fins de autorização de chamada e roteamento de voz.
 
 Um plano de discagem consiste em uma ou mais regras de normalização que definem como os números de telefone expressos em vários formatos são convertidos para um formato alternativo. A mesma cadeia de caracteres de discagem pode ser interpretada e traduzida de forma diferente em planos de discagem diferentes, portanto, dependendo de qual plano de discagem é atribuído a um determinado usuário, o mesmo número discado pode ser convertido e roteado de forma diferente. Pode haver no máximo 1.000 planos de discagem de locatários.
 

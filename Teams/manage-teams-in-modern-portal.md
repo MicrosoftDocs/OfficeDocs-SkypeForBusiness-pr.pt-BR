@@ -1,5 +1,5 @@
 ---
-title: Gerenciar equipes no centro de administração do Microsoft Teams
+title: Gerenciar o Microsoft Teams no Centro de administração do Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95a9769fad45917515a27b0f3d726d2eb3dbc931efbfa4fd26af19eced92d190
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86feedbb0212908ebd61f89c6e62e6d468813bd14ed1d86edec3abc00bf1d582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848186"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 
@@ -37,7 +37,7 @@ Como administrador, você pode precisar exibir ou atualizar as equipes que sua o
 - Administrador Global
 - Administrador do Teams
 
-Você pode aprender mais sobre as funções administrativas do Teams em [Usar funções administrativas do Microsoft Teams para gerenciar Equipes](using-admin-roles.md) e pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência de cmdlets do Microsoft Teams](/powershell/teams/?view=teams-ps).
+Você pode aprender mais sobre as funções administrativas do Teams em [Usar funções administrativas do Microsoft Teams para gerenciar Equipes](using-admin-roles.md) e pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência de cmdlets do Microsoft Teams](/powershell/teams/).
 
 
 
@@ -121,7 +121,7 @@ Algumas de suas equipes estão faltando na lista de equipes na grade de visão g
 
 **Resolução: defina manualmente a propriedade com o valor correto por meio do MS Graph**
 
-Substitua **{groupid}** na Consulta para o GroupId atual em questão, que você pode obter por meio do Exchange Online PowerShell, com o cmdlet **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"**, como o atributo "**ExternalDirectoryObjectId**".
+Substitua **{groupid}** na Consulta para o GroupId atual em questão, que você pode obter por meio do Exchange Online PowerShell, com o cmdlet **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup)"**, como o atributo "**ExternalDirectoryObjectId**".
 
 1. Acesse o [Explorador do Graph](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -137,6 +137,6 @@ Substitua **{groupid}** na Consulta para o GroupId atual em questão, que você 
 
 ## <a name="learn-more"></a>Saber mais
 
-- [Referência de cmdlet Teams](/powershell/teams/?view=teams-ps)  
+- [Referência de cmdlet Teams](/powershell/teams/)  
 - [Use funções de administrador do Teams para gerenciar Equipes](using-admin-roles.md)
 - [Planejar o gerenciamento do ciclo de vida no Teams](plan-teams-lifecycle.md)

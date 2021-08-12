@@ -1,5 +1,5 @@
 ---
-title: Assistente Híbrido Editar Usuários
+title: Usuários de Edição do Assistente Híbrido
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
-description: Use o assistente Editar Usuários para modificar as contas de usuário em sua implantação. Para obter mais informações, consulte Usar o assistente de Capacidade de Gerenciamento Híbrida.
-ms.openlocfilehash: 3c53565161e82e59d0ace646412e20aab13116e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Use o assistente Editar Usuários para modificar as contas de usuário em sua implantação. Para obter mais informações, consulte Use the Hybrid Manageability wizard.
+ms.openlocfilehash: 663ce0f1807684ac93a7b892cdc5b04b46075f17c673604ef75be887c8628531
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804001"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342156"
 ---
 # <a name="hybrid-wizard-edit-users"></a>Assistente Híbrido: Editar usuários
 
-Use o assistente Editar Usuários para modificar as contas de usuário em sua implantação. Para obter mais informações, [consulte Usar o assistente de Gerenciabilidade Híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)
+Use o assistente Editar Usuários para modificar as contas de usuário em sua implantação. Para obter mais informações, [consulte Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
 
 

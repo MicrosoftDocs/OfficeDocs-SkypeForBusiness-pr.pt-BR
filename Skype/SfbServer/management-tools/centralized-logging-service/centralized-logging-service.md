@@ -1,5 +1,5 @@
 ---
-title: Serviço de Log Centralizado no Skype for Business 2015
+title: Serviço de Log Centralizado Skype for Business 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
-description: 'Resumo: saiba mais sobre os componentes de serviço e as configurações do Serviço de Log Centralizado no Skype for Business Server 2015.'
-ms.openlocfilehash: 7cc49d258011334d7c72bca3f55d5f83ae5d06af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba mais sobre os componentes de serviço e as configurações do Serviço de Log Centralizado Skype for Business Server 2015.'
+ms.openlocfilehash: 112a8d59637048729afcdf142fc891863365943593ac6ed7b0cd8f8cc84947d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295398"
 ---
-# <a name="centralized-logging-service-in-skype-for-business-2015"></a>Serviço de Log Centralizado no Skype for Business 2015
+# <a name="centralized-logging-service-in-skype-for-business-2015"></a>Serviço de Log Centralizado Skype for Business 2015
  
-**Resumo:** Saiba mais sobre os componentes de serviço e as configurações do Serviço de Log Centralizado no Skype for Business Server 2015.
+**Resumo:** Saiba mais sobre os componentes de serviço e as configurações do Serviço de Log Centralizado Skype for Business Server 2015.
   
 O Serviço de Log Centralizado pode: 
   
@@ -44,32 +44,32 @@ O Serviço de Log Centralizado pode:
     
   - Defina o escopo da sessão de registro em log a partir das opções **Site** (para executar capturas de registro em log somente em computadores nesse site) ou **Global** (para executar capturas de log em todos os computadores na implantação).
     
-O Serviço de Log Centralizado é uma ferramenta poderosa de solução de problemas para problemas grandes ou pequenos, desde a análise de causa raiz até os problemas de desempenho. Todos os exemplos são mostrados usando o Shell de Gerenciamento do Skype for Business Server. A ajuda é fornecida para a ferramenta de linha de comando por meio da própria ferramenta, mas há um conjunto limitado de funções que você pode executar a partir da linha de comando. Usando o Shell de Gerenciamento do Skype for Business Server, você tem acesso a um conjunto muito maior e muito mais configurável de recursos, de modo que sempre deve ser sua primeira opção. 
+O Serviço de Log Centralizado é uma ferramenta poderosa de solução de problemas para problemas grandes ou pequenos, desde a análise de causa raiz até os problemas de desempenho. Todos os exemplos são mostrados usando o Shell Skype for Business Server Gerenciamento. A ajuda é fornecida para a ferramenta de linha de comando por meio da própria ferramenta, mas há um conjunto limitado de funções que você pode executar a partir da linha de comando. Ao usar Skype for Business Server Shell de Gerenciamento, você tem acesso a um conjunto muito maior e muito mais configurável de recursos, de modo que sempre deve ser sua primeira opção. 
   
 ## <a name="logging-service-components"></a>Componentes de serviço de registro em log
 
  O Serviço de Log Centralizado é executado em todos os servidores em sua implantação e é feito dos seguintes agentes e serviços:
   
-- O Agente de Serviço de Log Centralizado ClsAgent é executado em todas as máquinas com o Skype for Business Server implantado. Ele escuta ( nas portas **TCP 50001-50003**) comandos de ClsController sobre WCF e envia respostas de volta ao controlador. Ele gerencia sessões de log (início/parada/atualização) e pesquisa logs. Ele também executa operações de manutenção doméstica, como arquivamento de log e limpeza. 
+- O Agente de Serviço de Log Centralizado ClsAgent é executado em todas as máquinas com Skype for Business Server implantados. Ele escuta ( nas portas **TCP 50001-50003**) comandos de ClsController sobre WCF e envia respostas de volta ao controlador. Ele gerencia sessões de log (início/parada/atualização) e pesquisa logs. Ele também executa operações de manutenção doméstica, como arquivamento de log e limpeza. 
     
-- Cmdlets do Controlador de Serviço de Log Centralizado O Shell de Gerenciamento do Skype for Business Server envia comandos Start, Stop, Flush e Search para o ClsAgent. Quando os comandos de pesquisa são enviados, os logs resultantes são retornados para o ClsControllerLib.dll e agregados. O controlador envia comandos para o agente, recebe o status desses comandos e gerencia os dados do arquivo de log de pesquisa conforme são retornados de todos os agentes em qualquer computador no escopo de pesquisa e agrega os dados de log em um conjunto de saída significativo e ordenado. As informações nos tópicos a seguir se concentram no uso do Shell de Gerenciamento do Skype for Business Server.
+- Cmdlets do Controlador de Serviço de Log Centralizado O Shell de Gerenciamento Skype for Business Server envia comandos Start, Stop, Flush e Search para o ClsAgent. Quando os comandos de pesquisa são enviados, os logs resultantes são retornados para o ClsControllerLib.dll e agregados. O controlador envia comandos para o agente, recebe o status desses comandos e gerencia os dados do arquivo de log de pesquisa conforme são retornados de todos os agentes em qualquer computador no escopo de pesquisa e agrega os dados de log em um conjunto de saída significativo e ordenado. As informações nos tópicos a seguir se concentram no uso do Shell Skype for Business Server Gerenciamento.
     
 **Comunicações clsController para ClsAgent**
 
 ![Relação entre CLSController e CLSAgent.](../../media/Ops_CLS_Architecture.jpg)
   
-Você emmitiu comandos usando a interface de linha de comando do Windows Server ou usando o Shell de Gerenciamento do Skype for Business Server. Os comandos são executados no computador em que você está conectado e enviado para o ClsAgent localmente ou para outros computadores e pools em sua implantação.
+Você em problemas de comandos usando a interface de linha de comando do Windows Server ou usando o Shell de Gerenciamento Skype for Business Server servidor. Os comandos são executados no computador em que você está conectado e enviado para o ClsAgent localmente ou para outros computadores e pools em sua implantação.
   
 ClsAgent mantém um arquivo de índice de todos . Arquivos CACHE que ele tem no computador local. O ClsAgent aloca-os para que sejam distribuídos uniformemente entre volumes definidos pela opção CacheFileLocalFolders, nunca consumindo mais de 80% de cada volume (ou seja, o local do cache local e a porcentagem é configurável usando o cmdlet **Set-CsClsConfiguration).** ClsAgent também é responsável pelo envelhecimento de arquivos antigos de log de rastreamento de eventos em cache (.etl) do computador local. Após duas semanas (ou seja, o período de tempo é configurável usando o cmdlet **Set-CsClsConfiguration)** esses arquivos são copiados para um compartilhamento de arquivos e excluídos do computador local. Para obter detalhes, [consulte Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Quando uma solicitação de pesquisa é recebida, os critérios de pesquisa são usados para selecionar o conjunto de arquivos .etl armazenados em cache para executar a pesquisa com base nos valores no índice mantido pelo agente.
   
 > [!NOTE]
 > Os arquivos movidos para o compartilhamento de arquivos do computador local podem ser pesquisados pelo ClsAgent. Depois que ClsAgent move os arquivos para o compartilhamento de arquivos, o envelhecimento e a remoção de arquivos não são mantidos pelo ClsAgent. Você deve definir uma tarefa administrativa para monitorar o tamanho dos arquivos no compartilhamento de arquivos e excluí-los ou arquivar-los. 
   
-Os arquivos de log resultantes podem ser lidos e  analisados usando uma variedade de ferramentas, incluindoSnooper.exee qualquer ferramenta que possa ler um arquivo de texto, como **Notepad.exe**. Snooper.exe faz parte das Ferramentas de Depuração do Skype for Business Server 2015 e está disponível como download [da Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
+Os arquivos de log resultantes podem ser lidos e  analisados usando uma variedade de ferramentas, incluindoSnooper.exee qualquer ferramenta que possa ler um arquivo de texto, como **Notepad.exe**. Snooper.exe faz parte do Skype for Business Server de depuração 2015 e está disponível como download [da Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
   
 Assim como o OCSLogger, o Serviço de Log Centralizado tem vários componentes para rastrear e oferece opções para selecionar sinalizadores, como TF_COMPONENT e TF_DIAG. O Serviço de Log Centralizado também mantém as opções de nível de log do OCSLogger.
   
-A vantagem mais importante para usar o Shell de Gerenciamento do Skype for Business Server sobre a linha de comando ClsController é que você pode configurar e definir novos cenários usando provedores selecionados que visam o espaço de problema, sinalizadores personalizados e níveis de registro em log. Os cenários disponíveis para ClsController são limitados àqueles definidos para o executável.
+A vantagem mais importante para usar o Shell de Gerenciamento Skype for Business Server sobre a linha de comando ClsController é que você pode configurar e definir novos cenários usando provedores selecionados destinados ao espaço de problema, sinalizadores personalizados e níveis de registro em log. Os cenários disponíveis para ClsController são limitados àqueles definidos para o executável.
   
 Nas versões anteriores, OCSLogger.exe para permitir que administradores e equipes de suporte coletem arquivos de rastreamento de computadores na implantação. O OCSLogger, para todos os seus pontos fortes, tinha uma deficiência. Você só poderia coletar logs em um computador de cada vez. Você pode fazer logoff em vários computadores usando cópias separadas do OCSLogger, mas acabou com vários logs e nenhuma maneira fácil de agregar os resultados.
   
@@ -78,14 +78,14 @@ Quando um usuário solicita uma pesquisa de log, o ClsController determina para 
 Ao iniciar uma sessão de registro em log, especifique cenários relativos ao problema que você está tentando resolver. Você pode ter dois cenários em execução a qualquer momento. Um desses dois cenários deve ser o cenário AlwaysOn. Como o nome sugere, ele sempre deve estar em execução em sua implantação, coletando informações em todos os computadores, pools e componentes.
   
 > [!IMPORTANT]
-> Por padrão, o cenário AlwaysOn não está sendo executado em sua implantação. Você deve iniciar explicitamente o cenário. Depois de iniciado, ele continuará a ser executado até ser interrompido explicitamente, e o estado de execução persistirá por meio das reinicializações dos computadores. Para obter detalhes sobre como iniciar e interromper cenários, consulte Iniciar ou interromper a captura de [log CLS no Skype for Business Server 2015](start-or-stop-log-capture.md). 
+> Por padrão, o cenário AlwaysOn não está sendo executado em sua implantação. Você deve iniciar explicitamente o cenário. Depois de iniciado, ele continuará a ser executado até ser interrompido explicitamente, e o estado de execução persistirá por meio das reinicializações dos computadores. Para obter detalhes sobre como iniciar e interromper cenários, consulte Iniciar ou interromper a captura de [log CLS Skype for Business Server 2015](start-or-stop-log-capture.md). 
   
 Quando ocorrer um problema, inicie um segundo cenário relacionado ao problema relatado. Reproduza o problema e pare o log do segundo cenário. Inicie suas pesquisas de log em relação ao problema relatado. A coleção agregada de logs produz um arquivo de log que contém mensagens de rastreamento de todos os computadores em seu site ou escopo global de sua implantação. Se a pesquisa retornar mais dados do que você pode analisar viávelmente (normalmente conhecida como taxa de sinal para ruído, onde o ruído é muito alto), execute outra pesquisa com parâmetros mais estreitos. Neste ponto, você pode começar a perceber padrões que aparecem e podem ajudá-lo a ter um foco mais claro no problema. Por fim, depois de executar algumas pesquisas refinadas, você pode encontrar dados relevantes para o problema e descobrir a causa raiz.
   
 > [!TIP]
 > Quando apresentar um cenário de problema no Skype for Business Server, comece perguntando a si mesmo "O que eu já sei sobre o problema?" Se você quantificar os limites do problema, poderá eliminar uma grande parte das entidades operacionais no Skype for Business Server. 
   
-Considere um cenário de exemplo em que você sabe que os usuários não estão recebendo resultados atuais ao procurar um contato. Não faz sentido procurar problemas nos componentes de mídia, Enterprise Voice, conferência e vários outros componentes. O que você pode não saber é onde o problema está realmente: no cliente ou se isso é um problema do lado do servidor? Os contatos são coletados do Active Directory pelo Replicador de Usuários e entregues ao cliente por meio do Servidor de Livro de Endereços (ABServer). O ABServer obtém suas atualizações do banco de dados RTC (onde o Replicador de Usuários as escreveu) e as coleta em arquivos de livro de endereços, por padrão - 1:30 AM. Os clientes do Skype for Business Server recuperam o novo livro de endereços em uma agenda aleatória. Como você sabe como o processo funciona, você pode reduzir sua pesquisa para a causa potencial para um problema relacionado a dados que estão sendo coletados do Active Directory pelo Replicador de Usuários, o ABServer não recuperar e criar os arquivos do livro de endereços ou os clientes que não baixam o arquivo do livro de endereços.
+Considere um cenário de exemplo em que você sabe que os usuários não estão recebendo resultados atuais ao procurar um contato. Não faz sentido procurar problemas nos componentes de mídia, Enterprise Voice, conferência e vários outros componentes. O que você pode não saber é onde o problema está realmente: no cliente ou se isso é um problema do lado do servidor? Os contatos são coletados do Active Directory pelo Replicador de Usuários e entregues ao cliente por meio do Servidor de Livro de Endereços (ABServer). O ABServer obtém suas atualizações do banco de dados RTC (onde o Replicador de Usuários as escreveu) e as coleta em arquivos de livro de endereços, por padrão - 1:30 AM. Os Skype for Business Server clientes recuperam o novo livro de endereços em uma agenda aleatória. Como você sabe como o processo funciona, você pode reduzir sua pesquisa para a causa potencial para um problema relacionado a dados que estão sendo coletados do Active Directory pelo Replicador de Usuários, o ABServer não recuperar e criar os arquivos do livro de endereços ou os clientes que não baixam o arquivo do livro de endereços.
   
 ## <a name="current-configuration"></a>Configuração atual
 
@@ -93,7 +93,7 @@ O Serviço de Log Centralizado é configurado para definir o que o serviço de r
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>Para exibir a configuração atual do Serviço de Log Centralizado
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 2. Digite o seguinte em uma linha de comando do promt:
     
@@ -124,4 +124,4 @@ O Serviço de Log Centralizado é configurado para definir o que o serviço de r
 |**CacheFileMaxDiskUsage** <br/> |Definido como a porcentagem de espaço em disco que pode ser utilizado pelos arquivos de cache.  <br/> |
 |**ComponentThrottleLimit** <br/> |Definido como o número máximo de rastreios por segundo que um componente pode produzir antes de o limitador de aceleração automática é acionado.  <br/> |
 |**ComponentThrottleSample** <br/> |Número de vezes em 60 segundos em que o ComponentThrottleLimit pode ser excedido.  <br/> |
-|**MinimumClsAgentServiceVersion** <br/> |A versão mínima do CLSAgent que pode ser executada. Esse elemento destina-se ao Microsoft 365 ou Office 365.  <br/> |
+|**MinimumClsAgentServiceVersion** <br/> |A versão mínima do CLSAgent que pode ser executada. Esse elemento destina-se Microsoft 365 ou Office 365.  <br/> |

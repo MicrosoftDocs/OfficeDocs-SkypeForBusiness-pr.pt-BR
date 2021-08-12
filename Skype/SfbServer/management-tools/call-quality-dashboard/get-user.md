@@ -12,31 +12,31 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 'Resumo: saiba mais sobre a operação Obter Usuário, que faz parte do Serviço de Usuário. O Serviço de Usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
-ms.openlocfilehash: dd2bb5e46ddbe3e65faf441a11e39cbc5429e473
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre a operação Obter Usuário, que faz parte do Serviço de Usuário. O Serviço de Usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: bb99ec52cb270bdef51eac65070c1f5204bb03b93c81dd46d31f86a2ffc3b836
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832411"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311039"
 ---
 # <a name="get-user"></a>Obter os Usuário
  
-**Resumo:** Saiba mais sobre a operação Obter Usuário, que faz parte do Serviço de Usuário. O Serviço de Usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Usuário, que faz parte do Serviço de Usuário. O Serviço de Usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
   
-A operação Obter Usuários faz parte do Serviço de Usuário na API de Repositório para Painel de Qualidade de Chamada.
+A operação Get Users faz parte do Serviço de Usuário na API de Repositório para Painel de Qualidade de Chamada.
   
 ## <a name="get-user"></a>Obter os Usuário
 
-Obter Usuário retorna um registro de usuário do repositório.
+Get User retorna um registro de usuário do repositório.
   
-|**Method**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
 |OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** - Nenhum.
+ **Parâmetros URI** - Nenhum.
   
- **Solicitação de headers** - nenhum outro.
+ **Headers de solicitação** - Sem headers adicionais.
   
  **Corpo da Solicitação** - Nenhum.
   
@@ -44,9 +44,9 @@ Obter Usuário retorna um registro de usuário do repositório.
   
  **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK). Se uma ID de usuário especificada não for encontrada, ela retornará o código de status 404 (Não Encontrado).
   
- **Response Headers** - Sem outros headers.
+ **Headers de resposta** - Sem headers adicionais.
   
- **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON.
+ **Corpo da Resposta** - Abaixo está uma carga de resposta de exemplo no JSON.
   
 ```json
 {
@@ -58,11 +58,11 @@ Obter Usuário retorna um registro de usuário do repositório.
 
  *userId*  - ID do usuário.
   
- *loginName*  - Identificação de usuário externo para usuários regulares. Se a Autenticação do Windows for usada para autenticar usuários, esse pode ser um FQDN do usuário.
+ *loginName*  - Identificação de usuário externo para usuários regulares. Se Windows Autenticação for usada para autenticação de usuários, isso pode ser um FQDN do usuário.
   
- *defaultItemId*  - ID do Item padrão para este usuário. O Item padrão é o item mais alto que está associado ao usuário. Todos os outros itens que este usuário possui podem ser navegados a partir do Item padrão.
+ *defaultItemId*  - ID do Item padrão para este usuário. O Item padrão é o item mais alto que está associado ao usuário. Todos os outros itens que esse usuário possui podem ser navegados a partir do Item padrão.
   
 > [!NOTE]
-> Fornece o  `defaultItemId` valor da operação Obter Item para recuperar os detalhes do Item padrão.
+> Fornece o  `defaultItemId` valor à operação Obter Item para recuperar os detalhes do Item padrão.
   
 

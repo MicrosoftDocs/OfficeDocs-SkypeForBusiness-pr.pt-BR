@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Como habilitar e desabilitar o acesso de usuário anônimo Skype for Business Server.
+ms.openlocfilehash: c06135c0678309c527ec4bda341c17de2d643ce4d6b947077a3a2d02d71dea55
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848696"
 ---
-# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Habilitar ou desabilitar o acesso de usuário anônimo no Skype for Business Server
+# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Habilitar ou desabilitar o acesso de usuário anônimo Skype for Business Server
 
 Os usuários anônimos são usuários que não têm uma conta de usuário nos Serviços de Domínio active Directory da sua organização ou em um domínio federado com suporte, mas podem ser convidados a participar remotamente de uma conferência local. Ao permitir a participação anônima em reuniões, você habilita os usuários anônimos (isto é, usuários cuja identidade é verificada apenas por meio da chave de reunião ou conferência) a participarem de reuniões. Para permitir a participação anônima em sua organização, é necessário que você habilite esse recurso.
 
@@ -35,7 +35,7 @@ Se mais tarde você quiser prevenir o acesso de usuários anônimos temporariame
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  No menu de navegação à esquerda, clique em **Acesso de Usuário Externo** e depois em **Configuração de Borda de Acesso**.
 
@@ -52,21 +52,17 @@ Se mais tarde você quiser prevenir o acesso de usuários anônimos temporariame
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Habilitando ou desabilitando o acesso de usuário anônimo usando Windows PowerShell cmdlets
 
-Você pode gerenciar o acesso de usuário anônimo usando Windows PowerShell e o cmdlet **Set-CsAccessEdgeConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
+Você pode gerenciar o acesso de usuário anônimo usando Windows PowerShell e o cmdlet **Set-CsAccessEdgeConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
 
 ## <a name="to-enable-anonymous-user-access"></a>Para habilitar o acesso de usuário anônimo
 
-  - Para habilitar o acesso de usuário anônimo, defina o valor da propriedade **AllowAnonymousUsers** para Verdadeiro ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - Para habilitar o acesso de usuário anônimo, defina o valor da propriedade **AllowAnonymousUsers** para Verdadeiro ($True):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>Para desabilitar o acesso de usuário anônimo
 
-  - Para desabilitar o acesso de usuário anônimo, defina o valor da propriedade **AllowAnonymousUsers** para Falso ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - Para desabilitar o acesso de usuário anônimo, defina o valor da propriedade **AllowAnonymousUsers** para Falso ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

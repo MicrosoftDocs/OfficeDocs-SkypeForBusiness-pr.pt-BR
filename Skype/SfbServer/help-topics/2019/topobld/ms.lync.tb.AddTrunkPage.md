@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Defina um novo tronco SIP (session initiation protocol) fornecendo as seguintes informações:'
-ms.openlocfilehash: 540076814d2916f74a5e11be42f99b57711da2b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 49411ca6416a99d30d7a889aca0151f3ef89b9f7a8b7e559c39366c585144378
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295418"
 ---
 # <a name="define-a-new-trunk"></a>Definir um Novo Tronco
 

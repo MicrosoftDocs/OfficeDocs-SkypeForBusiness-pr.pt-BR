@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 'Resumo: saiba como atribuir uma política de arquivamento aos usuários no Skype for Business Server.'
-ms.openlocfilehash: 1fce0dbd0cc7b0595dcf3cd91baeba9ed364e28a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como atribuir uma política de arquivamento aos usuários em Skype for Business Server.'
+ms.openlocfilehash: b7dbd8a4222065c2bc53029b75672d6905dcd73b3a79e0d35ebfc6ce980f9865
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311089"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Aplicar uma política de arquivamento aos usuários no Skype for Business Server
 
-**Resumo:** Saiba como atribuir uma política de arquivamento aos usuários no Skype for Business Server.
+**Resumo:** Saiba como atribuir uma política de arquivamento aos usuários em Skype for Business Server.
   
-Se você tiver criado uma ou mais políticas de usuário para arquivamento de usuários no Skype for Business Server, poderá implementar o suporte de arquivamento para usuários específicos aplicando as políticas apropriadas a esses usuários ou grupos de usuários. Por exemplo, se você criar uma política para dar suporte ao arquivamento de comunicações internas, poderá aplicá-la a pelo menos um usuário ou grupo de usuários para dar suporte ao arquivamento das comunicações do Skype for Business Server do usuário.
+Se você tiver criado uma ou mais políticas de usuário para arquivamento para usuários que estão no Skype for Business Server, você poderá implementar o suporte de arquivamento para usuários específicos aplicando as políticas apropriadas a esses usuários ou grupos de usuários. Por exemplo, se você criar uma política para dar suporte ao arquivamento de comunicações internas, poderá aplicá-la a pelo menos um usuário ou grupo de usuários para dar suporte ao arquivamento das comunicações Skype for Business Server do usuário.
   
 > [!NOTE]
-> Se você habilitar a integração do Microsoft Exchange para sua implantação, as políticas de In-Place de Espera do Exchange controlarão se o arquivamento está habilitado para os usuários que estão no Exchange e têm suas caixas de correio colocadas em In-Place Hold. Para obter detalhes, [consulte Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) e Configure integration with Exchange storage for Skype for Business [Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Se você habilitar Exchange integração do Microsoft Exchange para sua implantação, as políticas de Exchange In-Place Detiver controlarão se o arquivamento está habilitado para os usuários que estão no Exchange e têm suas caixas de correio colocadas em In-Place Hold. Para obter detalhes, [consulte Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Aplicar uma política de usuário usando o Painel de Controle
 
@@ -34,7 +34,7 @@ Para aplicar uma política de usuário usando o Painel de Controle:
   
 1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna. 
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
     
 3. Na barra de navegação esquerda, clique em **Usuários** e pesquise a conta de usuário que deseja configurar. 
     

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 'Esse nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:'
-ms.openlocfilehash: ca5354ce12c8e56e3fe725edb0d67f348d77e9b9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: acda6242dcd3666ccf03814ab3574e0dcf35c8fa5c3fdb8d9c3c06009a90fccb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286900"
 ---
 # <a name="edge-server-scope-node"></a>Nó de Escopo de Servidor de Borda
  
