@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 6c925ecfa749402f98d21d5562dae5e5bf663af8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 25cc2b74e19ecc7f3a2d7cc300e5acd1dfd32b4ff673a23b058a3e1e0569ed4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287520"
 ---
 # <a name="users-assign-policies"></a>Usuários: Atribuir Políticas
 
@@ -30,7 +30,7 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Especificar versões do cliente com suporte para entrar por um usuário](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Atribuir uma política de PIN por usuário no Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Atribuir uma política de PIN por usuário em Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [Configurar federação, acesso de usuário remoto e conectividade de IM pública para usuários](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

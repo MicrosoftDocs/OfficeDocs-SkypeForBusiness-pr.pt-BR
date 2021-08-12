@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com Sistema de Telefonia Roteamento Direto, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a498f432c927cf8e3818c42a538949d81e99f69d0f8af84ff2734b6ce9b25ca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6806af0889f3667e85cc49856e605bbe0334d1be3ea3601a844a3b9f568e7619
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848936"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -223,7 +223,7 @@ O ponto de conexão para Roteamento Direto é o seguinte FQDN:
 
 O FQDN sip.pstnhub.gov.teams.microsoft.us será resolvido para um endereço IP a partir da seguinte sub-rede:
 
-- 52.127.64.0/21
+- 52.127.88.0/21
 
 Você precisa abrir portas para todos esses intervalos DE IP no firewall para permitir o tráfego de entrada e saída dos endereços para sinalização.  Se o firewall for compatível com nomes DNS, o FQDN sip.pstnhub.gov.teams.microsoft.us resolverá todas essas sub-redes IP. 
 

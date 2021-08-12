@@ -1,5 +1,5 @@
 ---
-title: Recursos do Microsoft Teams para administradores de Educação
+title: Introdução ao Microsoft Teams para aprendizado remoto
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 5b811ca1dfbbe763fd2b5b31c762356951838ca77913319ca473883635b4d27b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849116"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -230,7 +230,7 @@ Estudantes e professores aproveitarão ao máximo o Teams ao usá-lo com barreir
 
 #### <a name="recommended-best-practices"></a>Práticas recomendadas
 
-- Implantação antecipada! Implante antecipadamente para garantir que tudo esteja funcionando de maneira confiável e pronta para o primeiro dia de escola.
+- Implante antecipadamente! Implante antecipadamente para garantir que tudo esteja funcionando de forma confiável e pronta para o primeiro dia da escola.
 - Se você tiver mais de 500.000 equipes, recomendamos usar o [método de criação da equipe liderada por educadores](#educator-led-team-creation-from-office-365-class-groups). Isso reduz as equipes não usadas e a desordem, criando apenas equipes de classe relevantes e necessárias.  
 - Caso haja algum problema (por exemplo, as classes não estiverem presentes) com a criação automática SDS de equipe e os educadores precisarem delas imediatamente, eles poderão usar o [método de criação de equipe liderada por educadores](#educator-led-team-creation-from-office-365-class-groups) para tentar novamente. [A criação manual de equipe](#manual-team-creation) é outra solução, no entanto, não mantém a participação da equipe atualizada.  
 - O limite da equipe de locatários é de 500.000 equipes. Portanto, os administradores devem tentar reduzir proativamente o número de equipes não utilizadas para evitar o seu tempo de configuração. Para saber mais sobre os limites, confira [Limites e especificações para o Microsoft Teams](limits-specifications-teams.md).  

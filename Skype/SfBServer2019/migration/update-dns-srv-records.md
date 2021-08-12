@@ -11,28 +11,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Para concluir com êxito este procedimento, você deverá estar conectado no servidor ou domínio como um membro do grupo de Administradores de Domínio ou membro do grupo DnsAdmins.
-ms.openlocfilehash: 26bb80618868a2bec03d1de32f6c010869b8cf8c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0c3454bd4fbf8ecdc28730da378357e9d50efec3c12ba5b3926abb61010979ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753263"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327047"
 ---
 # <a name="update-dns-srv-records"></a>Atualizar registros de DNS SRV
 
 Para concluir com êxito este procedimento, você deverá estar conectado no servidor ou domínio como um membro do grupo de Administradores de Domínio ou membro do grupo DnsAdmins.
   
-Este tópico descreve como atualizar os registros dns após migrar para o Skype for Business Server 2019. Depois que todos os usuários tiverem sido movidos para o Skype for Business Server 2019, mas antes que o pool ou Diretor herdado seja desativado, você deve atualizar os registros SRV dns em seu DNS interno para cada domínio SIP. Este procedimento supõe que o DNS interno tem zonas para os domínios de usuário do SIP.
+Este tópico descreve como atualizar os registros DNS (Sistema de Nomes de Domínio) após a migração para Skype for Business Server 2019. Depois que todos os usuários tiverem sido movidos para o Skype for Business Server 2019, mas antes que o pool herdado ou o Diretor seja desativado, você deve atualizar os registros SRV DNS em seu DNS interno para cada domínio SIP. Este procedimento supõe que o DNS interno tem zonas para os domínios de usuário do SIP.
   
 ## <a name="to-configure-a-dns-srv-record"></a>Para configurar um registro SRV de DNS
 
 1. No servidor DNS, clique em **Iniciar**, clique em **Ferramentas Administrativas** e em **DNS**.
     
-2. Na árvore de console do seu domínio SIP, expanda **Zonas** de Busca Encaminhar, expanda o domínio SIP no qual o Skype for Business Server 2019 está instalado e navegue até a configuração **de** _tcp. 
+2. Na árvore de console do seu domínio SIP, expanda **Zonas** de Busca Encaminhar, expanda o domínio SIP no qual o Skype for Business Server 2019 está instalado e navegue até a configuração **_tcp.** 
     
-3. No painel direito, clique com o botão direito do mouse **_sipinternaltls** e selecione **Propriedades.**
+3. No painel direito, clique com o botão direito do **mouse _sipinternaltls** e selecione **Propriedades**.
     
-4. No **Host que oferece esse serviço,** atualize o FQDN do host para apontar para o pool do Skype for Business Server 2019.
+4. No **Host que oferece esse serviço,** atualize o FQDN do host para apontar para o pool Skype for Business Server 2019.
     
 5. Clique em **OK**.
     
@@ -42,9 +42,9 @@ Este tópico descreve como atualizar os registros dns após migrar para o Skype 
     
 2. Clique em **Iniciar** e em **Executar**.
     
-3. Na caixa **Abrir,** digite cmd e clique em **OK.**
+3. Na caixa **Abrir,** digite cmd e clique em **OK**.
     
-4. No prompt de comando, digite nslookup _\<FQDN of the Front End pool\>_ ou  _\<FQDN of the Standard Edition server\>_ e pressione ENTER.
+4. No prompt de comando, digite nslookup _\<FQDN of the Front End pool\>_ ou , e pressione  _\<FQDN of the Standard Edition server\>_ ENTER.
     
 5. Verifique se recebeu uma resposta que resolve para o endereço IP apropriado para o FQDN.
     

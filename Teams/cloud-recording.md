@@ -19,12 +19,12 @@ description: Orientação prática para a implantação de recursos de voz em nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4688c0a7d86e09b8114ddd00c85996c6a7c917e10e561013b1a3e902ce98c0ac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9664cbad906149eccfce3f93d366f93b53e77798be0c080c3b57c3e46d3114d6
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848966"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -262,6 +262,11 @@ O tamanho de uma gravação de 1 hora é de 400 MB. Certifique-se de entender a 
 > O recurso de expiração automática discutido neste artigo ainda não foi iniciado. Consulte [o roteiro (ID do recurso: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) para obter mais informações sobre sua data de entrega. 
 > 
 > Estamos fornecendo informações sobre como esse recurso funcionará no FUTURO, para que você possa planejar essa alteração e modificar as configurações de política do Teams com antecedência. 
+>
+> O CMD para alterar preventivamente a configuração MeetingExpirationDays no Teams ainda não está disponível. Ele estará disponível para definição para todos os locatários até 1º de setembro, antes que o recurso de expiração seja habilitado.
+>
+> Você pode usar o PowerShell para modificar “MeetingRecordingExpirationDays.” Isso pode ser feito após 1º de setembro, quando a configuração estiver presente no PowerShell, mesmo que o recurso ainda não esteja habilitado. Um comando de exemplo é: “Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50.”
+>
 
 Consulte as perguntas frequentes para administradores e usuários finais coletarem insights sobre como a expiração automática das gravações de reunião do Teams funcionará, quais ações você pode executar agora e quais ações você pode executar após o lançamento do recurso. 
   
@@ -287,16 +292,40 @@ Os clientes forneceram um número enorme de comentários de que desejam mais con
   
 Acreditamos que quase todos os clientes se beneficiarão da carga de armazenamento reduzida em seu locatário removendo gravações que provavelmente nunca serão re-assistidas após 60 dias. É nossa meta fornecer uma experiência o mais limpa possível para todos os clientes por padrão. 
   
+**Será excluído automaticamente após 30 dias, mesmo que os dados sejam acessados ou baixados?**
+  
+Acessar o arquivo não altera a data de expiração. 
+  
+**A data de expiração é visível como uma coluna na lista?**
+
+Todos com acesso de visualização verão um ícone vermelho ao lado do arquivo na pasta do OneDrive ou do Microsoft Office SharePoint Online 14 dias antes que o arquivo expire. Atualmente, não há nenhuma maneira de adicionar uma coluna a uma lista com data de expiração.
+  
 **Como a data de expiração é calculada?**
   
 A data de expiração é calculada como o dia em que a gravação da reunião é criada, além do número padrão de dias definido na configuração do Teams pelo administrador. 
   
+**A data de expiração pode ser alterada para cada TMR, como dados A com data de expiração de 30 dias e a dados B com expiração de 60 dias?**
+
+Sim, a data de expiração é definida por arquivo. Os usuários podem modificar a data de expiração no painel de detalhes de um arquivo selecionado no OneDrive ou no Microsoft Office SharePoint Online.
+
 **Como um administrador pode alterar a data de expiração?**
   
 Os administradores podem alterar a configuração de expiração padrão no PowerShell hoje. Quando o recurso é iniciado, os administradores podem alterar essa configuração no centro de administração do Teams. Alterar as configurações de expiração afetará apenas TMRs recém-criados desse ponto em diante. Isso não afetará as gravações feitas antes dessa data. 
 
 A configuração máxima de dias de expiração que um Administrador pode aplicar é de 99.999 dias ou 273 anos. Os administradores não podem alterar a data de validade em TMRs existentes já carregadas no OneDrive ou no SharePoint antes do lançamento desse recurso. Isso protege a intenção do usuário que possui a TMR. 
+  
+**Reproduzir a gravação altera a data de expiração?**
 
+Não, a reprodução não afeta a data de expiração.
+  
+**O que acontecerá com a data de expiração se o TMR for baixado e carregado novamente?**
+
+A data de expiração será removida após o recarregamento, independentemente da SKU do usuário.
+  
+**O que acontece se eu copiar ou mover o TMR para um local ou site diferente?**
+
+A data é mantida apenas para um arquivo TMR movido. Um arquivo copiado não terá a data de validade, assim como um TMR carregado novamente.
+  
   Exemplo de comando do PowerShell: 
   
   ```powershell

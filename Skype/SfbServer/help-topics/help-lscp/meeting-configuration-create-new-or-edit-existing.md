@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: As definições de configuração de reunião definem a experiência de ingresso do usuário em conferências agendadas por usuários. Essas configurações se aplicam apenas às reuniões agendadas. Eles não se aplicam a reuniões ad hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: 21cc12cd025edfc573e1e2f21ed08181f1a0c926
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 290de1525079810b25e7a2f8eac755015be345d32739ccc2e921dd343ff83ca3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301567"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuração de Reunião: Criar Novo ou Editar Existente
 
@@ -44,7 +44,7 @@ A lista a seguir descreve os campos na página.
 
   - **Todos** Selecione essa opção para designar automaticamente qualquer pessoa para ser apresentador.
 
-- **Tipo de conferência atribuído por padrão** Essa configuração controla se o Outlook Conferencing Addin sempre agenda conferências usando a conferência atribuída do organizador, o que significa que as conferências agendadas sempre têm a mesma URL de junção e informações de áudio. Marque essa caixa de seleção para que as conferências agendadas sempre usem o mesmo URL de ingresso. Desmarque essa caixa de seleção para usar URL de ingresso diferente para cada conferência.
+- **Tipo de conferência atribuído por padrão** Essa configuração controla se o Outlook de Conferência sempre agenda conferências usando a conferência atribuída do organizador, o que significa que as conferências agendadas sempre têm a mesma URL de junção e informações de áudio. Marque essa caixa de seleção para que as conferências agendadas sempre usem o mesmo URL de ingresso. Desmarque essa caixa de seleção para usar URL de ingresso diferente para cada conferência.
 
 - **Admitir usuários anônimos por padrão** Marque essa caixa de seleção se usuários anônimos (ou seja, não autenticados) podem participar de conferências por padrão. Desmarque essa caixa de seleção se os usuários anônimos não tiverem permissão de participar de conferências por padrão.
 

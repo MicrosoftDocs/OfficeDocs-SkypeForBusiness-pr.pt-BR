@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar a floresta dos Serviços de Domínio do Active Directory, você deve estender com êxito o esquema, conforme descrito no tópico Running Schema Preparation, e certificar-se de que o esquema foi replicado.
-ms.openlocfilehash: 3a143ebc58fe14712c194abb18eb9de98c2ca2cb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bf84512443e95b8f9c4391cf9ff223edd067d040bb29af85367ee4a146e5e220
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097317"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337819"
 ---
 # <a name="prepare-current-forest"></a>Preparar Floresta Atual
 
@@ -33,7 +33,7 @@ Depois de atender a esses pré-requisitos, você pode começar a **Etapa 3: prep
 2. Na página **Preparar Floresta**, clique em **Próximo**.
 
     > [!NOTE]
-    > A Preparação da Floresta permite que você escolha onde colocar os Grupos Universais para o Skype for Business Server. Escolha um local que atenda aos requisitos de sua organização.
+    > A Preparação da Floresta permite que você escolha onde colocar os Grupos Universais para Skype for Business Server. Escolha um local que atenda aos requisitos de sua organização.
 
 3. Na página **Executando Comandos**, procure por **Status da tarefa: concluída** e clique em **Exibir Log**. Certifique-se de que não haja erros. Revise os avisos a fim de determinar se são esperados e normais para sua infraestrutura.
 
@@ -42,4 +42,4 @@ Depois de atender a esses pré-requisitos, você pode começar a **Etapa 3: prep
 5. Aguarde a conclusão da replicação dos Serviços de Domínio do **Active Directory** ou force a replicação a todos os controladores de domínio listados no snap-in Sites e Serviços do Active Directory para o controlador de domínio raiz da floresta, antes de executar a preparação do domínio. Force a replicação entre os controladores de domínio em todos os sites do Active Directory para que a replicação nos sites ocorra dentro de alguns minutos.
 
     > [!TIP]
-    > Se você precisar revisar os arquivos de log criados pelo Assistente de Implantação do Skype for Business Server, poderá encontrá-los no computador onde o Assistente de Implantação foi executado, no diretório Usuários do usuário dos Serviços de Domínio do Active Directory que executaram a etapa. Por exemplo, se o usuário fez logon como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp
+    > Se você precisar revisar os arquivos de log criados pelo Assistente de Implantação do Skype for Business Server, poderá encontrá-los no computador onde o Assistente de Implantação foi executado, no diretório Usuários do usuário dos Serviços de Domínio active Directory que executaram a etapa. Por exemplo, se o usuário fez logon como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp

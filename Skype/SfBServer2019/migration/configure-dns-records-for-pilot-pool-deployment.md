@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Antes de implantar o pool piloto, você deve atualizar as entradas do Host DNS A para o pool piloto. Para concluir com êxito este procedimento, você deverá estar conectado no servidor ou domínio como um membro do grupo de Administradores de Domínio ou membro do grupo DnsAdmins.
-ms.openlocfilehash: d934e3bdc46ab9deffa3c588b15ab793111c1a68
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Antes de implantar o pool piloto, você deve atualizar as entradas dns host A para o pool piloto. Para concluir com êxito este procedimento, você deverá estar conectado no servidor ou domínio como um membro do grupo de Administradores de Domínio ou membro do grupo DnsAdmins.
+ms.openlocfilehash: 270b0bda7da679cb0c75e9a99e10a898dcee6ac70413ce276abfe19ba1eb2231
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337829"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>Configurar os registros DNS para a implantação do pool piloto
 
-Antes de implantar o pool piloto, você deve atualizar as entradas do Host DNS A para o pool piloto. Para concluir com êxito este procedimento, você deverá estar conectado no servidor ou domínio como um membro do grupo de Administradores de Domínio ou membro do grupo DnsAdmins.
+Antes de implantar o pool piloto, você deve atualizar as entradas dns host A para o pool piloto. Para concluir com êxito este procedimento, você deverá estar conectado no servidor ou domínio como um membro do grupo de Administradores de Domínio ou membro do grupo DnsAdmins.
   
 ### <a name="to-configure-dns-host-a-records"></a>Para configurar os registros de DNS Host A
 
@@ -30,9 +30,9 @@ Antes de implantar o pool piloto, você deve atualizar as entradas do Host DNS A
     
 3. Clique em **Novo Host (A ou AAAA)**.
     
-4. Click **Name**, type the host name for the Skype for Business Server 2019 pool (the domain name is assumed from the zone that the record is defined in and does not need to be entered as part of the A record).
+4. Clique em Nome , digite o nome do host do pool Skype for Business Server 2019 (o nome de domínio é assumido da zona em que o registro é definido e não precisa ser inserido como parte do registro A).
     
-5. Clique **no endereço IP** e digite o endereço IP do pool de Front-End.
+5. Clique **em Endereço IP** e digite o endereço IP para o pool de Front-End.
     
 6. Clique em **Adicionar Host** e depois clique em **OK**. 
     

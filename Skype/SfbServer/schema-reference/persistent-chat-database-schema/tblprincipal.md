@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal contém todas as entidades, incluindo usuários, pastas e grupos.
-ms.openlocfilehash: ee9e16d0fcd5d7206bb73ff8b13cdc9d930b6b97
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 50d20aee156a4a919effac26ff29c371ec2cf886c12300ecd07268576730ae49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815891"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338019"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
@@ -29,17 +29,17 @@ tblPrincipal contém todas as entidades, incluindo usuários, pastas e grupos.
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, não nulo  <br/> |ID principal.  <br/> |
-|prinGuid  <br/> |GUID, não nulo  <br/> |GUID da entidade. Isso é amplamente usado como uma chave primária alternativa porque seu significado cruza o espaço dos Serviços de Domínio Active Directory. (O GUID de uma entidade em cache é igual ao GUID de objeto correspondente no Active Directory).  <br/> |
+|prinGuid  <br/> |GUID, não nulo  <br/> |GUID da entidade. Isso é amplamente usado como uma chave primária alternativa porque seu significado se cruza para o espaço serviços de domínio do Active Directory. (O GUID de uma entidade em cache é igual ao GUID de objeto correspondente no Active Directory).  <br/> |
 |prinUri  <br/> |nvarchar (256), não nulo  <br/> |URI de entidade. O esquema do SIP é usado para usuários e o ma-grp é usado para quase tudo.  <br/> |
 |prinName  <br/> |nvarchar (256)  <br/> |Nome comum. Usado apenas por tipos de usuário.  <br/> |
 |prinDisplayName  <br/> |Nvarchar (256)  <br/> |Nome de exibição. Usado somente pelos tipos de usuário.  <br/> |
 |prinCompanyName  <br/> |nvarchar (256)  <br/> |Nome da empresa. Usado somente pelos tipos de usuário.  <br/> |
 |prinEmail  <br/> |nvarchar (256)  <br/> |Email. Usado apenas pelos tipos de usuários.  <br/> |
 |prinADPath  <br/> |nvarchar (384)  <br/> |Nome de domínio do objeto do Active Directory do qual a entidade é uma versão em cache. Pode ser nulo para tipos que não são objetos do Active Directory (como os usuários do sistema).  <br/> |
-|prinADUserPrincipalName  <br/> |nvarchar (256)  <br/> |Nome UPN do usuário. Usado somente pelos tipos de usuário regular.  <br/> |
-|prinDisabled  <br/> |smallint, não nulo  <br/> | 0: a entidade está ativa. <br/>  1: a entidade de segurança está desabilitada porque os recursos SIP do usuário estão desabilitados. <br/>  2: a entidade é excluída porque o objeto associado do AD foi excluído. <br/> |
+|prinADUserPrincipalName  <br/> |nvarchar (256)  <br/> |Nome principal do usuário (UPN). Usado somente pelos tipos de usuário regular.  <br/> |
+|prinDisabled  <br/> |smallint, não nulo  <br/> | 0: a entidade está ativa. <br/>  1: Principal está desabilitado porque os recursos SIP do usuário estão desabilitados. <br/>  2: a entidade é excluída porque o objeto associado do AD foi excluído. <br/> |
 |prinTypeID  <br/> |smallint, não nulo  <br/> |Tipo de entidade (da tabela tblPrincipalType).  <br/> |
-|prinPoolID  <br/> |Int  <br/> |Atribuição do pool de clientes do Skype for Business para a entidade de serviço.  <br/> |
+|prinPoolID  <br/> |Int  <br/> |Skype for Business pool de clientes para a entidade principal.  <br/> |
 |prinPolicyID  <br/> |Int  <br/> |Valor da política do Servidor de Chat Persistente para o usuário, se a política de tipo de marca estiver presente.  <br/> |
 |prinAddedBy  <br/> |int  <br/> |ID da entidade do criador.  <br/> |
 |prinAddedOn  <br/> |bigint, não nulo  <br/> |Carimbo de data/hora para a hora da criação.  <br/> |

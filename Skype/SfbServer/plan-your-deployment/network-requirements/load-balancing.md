@@ -1,5 +1,5 @@
 ---
-title: Requisitos de balanceamento de carga para o Skype for Business
+title: Requisitos de balanceamento de carga para Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: 'Resumo: revise as considerações de balanceamento de carga antes de implementar o Skype for Business Server.'
-ms.openlocfilehash: 7a3851b73443db6be12ef2fd1a875b034eafff74
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: revise as considerações de balanceamento de carga antes de implementar Skype for Business Server.'
+ms.openlocfilehash: 867c9454aec26e3803447dec8565f210b243db6cf5a2997d18ca08e363eb6c43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095005"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338069"
 ---
-# <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para o Skype for Business
+# <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para Skype for Business
  
-**Resumo:** Revise as considerações de balanceamento de carga antes de implementar o Skype for Business Server.
+**Resumo:** Revise as considerações de balanceamento de carga antes de implementar Skype for Business Server.
   
 O balanceamento de carga distribui o tráfego entre os servidores em um pool. Se você tiver pools de Front-End, pools de Servidor de Mediação ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools.
   
-O Skype for Business Server oferece suporte a dois tipos de soluções de balanceamento de carga para tráfego de cliente para servidor: balanceamento de carga DNS (Sistema de Nomes de Domínio) e balanceamento de carga de hardware (geralmente abreviado como HLB). O balanceamento de carga DNS oferece várias vantagens, incluindo administração mais simples, solução de problemas mais eficiente e a capacidade de isolar grande parte do tráfego do Skype for Business Server contra possíveis problemas de balanceador de carga de hardware.
+Skype for Business Server oferece suporte a dois tipos de soluções de balanceamento de carga para tráfego de cliente para servidor: balanceamento de carga DNS (Sistema de Nomes de Domínio) e balanceamento de carga de hardware (geralmente abreviado como HLB). O balanceamento de carga DNS oferece várias vantagens, incluindo administração mais simples, solução de problemas mais eficiente e a capacidade de isolar grande parte do seu tráfego Skype for Business Server de quaisquer possíveis problemas de balanceador de carga de hardware.
   
 Decida por si mesmo qual solução de balanceamento de carga é apropriada para cada pool em sua implantação, mas tenha em mente as seguintes restrições: 
   
@@ -39,17 +39,17 @@ Decida por si mesmo qual solução de balanceamento de carga é apropriada para 
     
 Se você optar por usar o balanceamento de carga DNS para um pool mas ainda precisa implementar balanceadores de carga de hardware para o tráfego, como o tráfego HTTP, a administração dos balanceadores de carga de hardware é bastante simplificada. Por exemplo, configurar o balanceador de carga de hardware será mais simples, pois ele gerenciará apenas o tráfego HTTP e HTTPS, enquanto todos os outros protocolos serão gerenciados pelo balanceamento de carga DNS. Para obter detalhes, consulte [DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing). 
   
-Para tráfego de servidor para servidor, o Skype for Business Server usa balanceamento de carga com conhecimento de topologia. Os servidores leem a topologia publicada no armazenamento de Gerenciamento Central para obter os FQDNs dos servidores na topologia e distribuem automaticamente o tráfego entre os servidores. Os administradores não precisam configurar ou gerenciar esse tipo de balanceamento de carga. 
+Para tráfego servidor para servidor, o Skype for Business Server usa balanceamento de carga com conhecimento de topologia. Os servidores leem a topologia publicada no armazenamento de Gerenciamento Central para obter os FQDNs dos servidores na topologia e distribuem automaticamente o tráfego entre os servidores. Os administradores não precisam configurar ou gerenciar esse tipo de balanceamento de carga. 
   
 Se você usar o balanceamento de carga DNS e precisar bloquear o tráfego para um computador específico, não é suficiente apenas remover as entradas de endereço IP do FQDN do Pool. Você também deve remover a entrada DNS do computador. 
   
 ## <a name="hardware-load-balancer-requirements"></a>Requisitos do balanceador de carga de hardware
 
-A topologia de Borda consolidada em escala do Skype for Business Server é otimizada para balanceamento de carga DNS para novas implantações federadas principalmente com outras organizações usando o Skype for Business Server ou o Lync Server. Se a alta disponibilidade for necessária para qualquer um dos cenários a seguir, um balanceador de carga de hardware deverá ser usado nos pools do Servidor de Borda para o seguinte: 
+A Skype for Business Server de Borda consolidada em escala é otimizada para balanceamento de carga DNS para novas implantações federando principalmente com outras organizações usando o Skype for Business Server ou o Lync Server. Se a alta disponibilidade for necessária para qualquer um dos cenários a seguir, um balanceador de carga de hardware deverá ser usado nos pools do Servidor de Borda para o seguinte: 
   
-- Federação com organizações que usam o Office Communications Server 2007 R2 ou o Office Communications Server 2007
+- Federação com organizações usando Office Communications Server 2007 R2 ou Office Communications Server 2007
     
-- UM do Exchange para usuários remotos que usam a UM do Exchange antes do Exchange 2010 com SP1
+- Exchange UM para usuários remotos usando Exchange UM antes de Exchange 2010 com SP1
     
 - Conectividade para usuários públicos de mensagens instantâneas
     
@@ -60,9 +60,9 @@ A topologia de Borda consolidada em escala do Skype for Business Server é otimi
 > Se estiver usando um balanceador de carga de hardware, o balanceador de carga implantado para conexões com a rede interna deverá ser configurado para balancear apenas cargas do tráfego de servidores que executam o serviço de Borda de Acesso e o serviço de Borda A/V. Ele não poderá balancear a carga do tráfego do serviço interno de Borda de Webconferência ou do serviço interno de Proxy XMPP. 
   
 > [!NOTE]
-> O NAT de retorno de servidor direto (DSR) não é suportado com o Skype for Business Server. 
+> O NAT de retorno do servidor direto (DSR) não é suportado com Skype for Business Server. 
   
-Para determinar se o balanceador de carga de hardware dá suporte aos recursos necessários exigidos pelo Skype for Business Server, consulte [Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md). 
+Para determinar se o balanceador de carga de hardware dá suporte aos recursos necessários Skype for Business Server, consulte [Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md). 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Requisitos do balanceador de carga de hardware para servidores de borda que executam o serviço de Borda A/V
 
@@ -82,7 +82,7 @@ A seguir estão os requisitos do balanceador de carga de hardware para Servidore
     
 ### <a name="other-hardware-load-balancer-requirements"></a>Outros requisitos do Balanceador de Carga de Hardware
 
-Os requisitos de afinidade baseada em cookie são muito reduzidos no Skype for Business Server para serviços Web. Se você estiver implantando o Skype for Business Server e não manterá nenhum Servidor Front-End do Lync Server 2010 ou pools de Front-End, não será necessário persistência baseada em cookie. No entanto, se você reter temporariamente ou permanentemente qualquer Servidor front-end do Lync Server 2010 ou pools de front-end, você ainda usará persistência baseada em cookie à medida que ele for implantado e configurado para o Lync Server 2010. 
+Os requisitos de afinidade com base em cookie são muito reduzidos Skype for Business Server para serviços Web. Se você estiver implantando Skype for Business Server e não manterá nenhum Servidor Front-End do Lync Server 2010 ou pools de Front-End, não será necessário persistência baseada em cookie. No entanto, se você reter temporariamente ou permanentemente qualquer Servidor front-end do Lync Server 2010 ou pools de front-end, você ainda usará persistência baseada em cookie à medida que ele for implantado e configurado para o Lync Server 2010. 
   
 > [!NOTE]
 > **Se decidir usar a afinidade baseada em cookie mesmo que sua implantação não exija**, isso não causará um impacto negativo. 
@@ -116,7 +116,7 @@ Se estiver implantando dispositivos móveis, o balanceador de carga de hardware 
   
 A seguir, são apresentados os requisitos do balanceador de carga de hardware para serviços Web do pool de diretores e de front-end:
   
-- Para VIPs de serviços Web internos, defina a persistência Source_addr (porta interna 80, 443) no balanceador de carga de hardware. Para o Skype for Business Server, Source_addr persistência significa que várias conexões provenientes de um único endereço IP são sempre enviadas para um servidor para manter o estado da sessão.
+- Para VIPs de serviços Web internos, defina a persistência Source_addr (porta interna 80, 443) no balanceador de carga de hardware. Para Skype for Business Server, Source_addr persistência significa que várias conexões provenientes de um único endereço IP são sempre enviadas a um servidor para manter o estado da sessão.
     
 - Use um tempo de ociosidade de TCP de 1.800 segundos.
     
@@ -138,20 +138,20 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 
 |**IP/porta virtual**|**Porta do nó**|**Máquina/monitor do nó**|**Perfil de persistência**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-end  <br/> 5061  <br/> |Origem  <br/> |HTTPS  <br/> |
-|\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-end  <br/> 5061  <br/> |Origem  <br/> |HTTP  <br/> |
+|\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-end  <br/> 5061  <br/> |Source  <br/> |HTTPS  <br/> |
+|\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-end  <br/> 5061  <br/> |Source  <br/> |HTTP  <br/> |
    
 **Pool de Usuários do Servidor Front-End - Interface Externa HLB**
 
 |**IP/porta virtual**|**Porta do nó**|**Máquina/monitor do nó**|**Perfil de persistência**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |Nenhum  <br/> |HTTPS  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |Nenhum  <br/> |HTTP  <br/> |
+|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |None  <br/> |HTTPS  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |None  <br/> |HTTP  <br/> |
    
 ## <a name="dns-load-balancing"></a>Balanceamento de carga DNS
 <a name="BKMK_DNSLoadBalancing"> </a>
 
-O Skype for Business Server habilita o balanceamento de carga DNS, uma solução de software que pode reduzir consideravelmente a sobrecarga de administração para o balanceamento de carga em sua rede. O balanceamento de carga DNS equilibra o tráfego de rede exclusivo do Skype for Business Server, como tráfego SIP e tráfego de mídia.
+Skype for Business Server habilita o balanceamento de carga DNS, uma solução de software que pode reduzir consideravelmente a sobrecarga de administração para o balanceamento de carga em sua rede. O balanceamento de carga DNS equilibra o tráfego de rede exclusivo Skype for Business Server, como tráfego SIP e tráfego de mídia.
   
 Se você implantar o balanceamento de carga DNS, a sobrecarga de administração da sua organização para balanceadores de carga de hardware será minimizada. Além disso, a solução complexa de problemas relacionados à configuração incorreta de balanceadores de carga de tráfego SIP será eliminada. Você também pode impedir as conexões de servidor para que seja possível assumir servidores offline. O balanceamento de carga DNS também garante que os problemas de balanceador de carga de hardware não afetem elementos do tráfego SIP, como o roteamento básico de chamada.
 
@@ -161,15 +161,15 @@ O diagrama a seguir mostra um exemplo que inclui o balanceamento de carga DNS in
 
 ![exemplo de diagrama de rede DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-Se você usar o balanceamento de carga DNS, também poderá adquirir os balanceadores de carga de hardware de custo mais baixo do que se usasse os balanceadores de carga de hardware para todos os tipos de tráfego. Você deve usar balanceadores de carga que passaram no teste de qualificação de interoperabilidade com o Skype for Business Server. Para obter detalhes sobre o teste de interoperabilidade do balanceador de carga, consulte [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). O conteúdo lá se aplica ao Skype for Business Server.
+Se você usar o balanceamento de carga DNS, também poderá adquirir os balanceadores de carga de hardware de custo mais baixo do que se usasse os balanceadores de carga de hardware para todos os tipos de tráfego. Você deve usar balanceadores de carga que passaram no teste de qualificação de interoperabilidade com Skype for Business Server. Para obter detalhes sobre o teste de interoperabilidade do balanceador de carga, consulte [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). O conteúdo lá se aplica a Skype for Business Server.
   
 O balanceamento de carga DNS é compatível com pools de Front-end, pools de Servidor de Borda, pools de Diretores e pools de Servidor de mediação autônomos.
   
-O balanceamento de carga do DNS normalmente é implementado no nível do aplicativo. O aplicativo (por exemplo, um cliente executando o Skype for Business), tenta se conectar a um servidor em um pool conectando-se a um dos endereços IP retornados do registro DNS A e AAAA (se o endereçamento IPv6 for usado) para o nome de domínio totalmente qualificado do pool (FQDN). 
+O balanceamento de carga do DNS normalmente é implementado no nível do aplicativo. O aplicativo (por exemplo, um cliente executando um Skype for Business), tenta se conectar a um servidor em um pool conectando-se a um dos endereços IP retornados da consulta de registro DNS A e AAAA (se o endereçamento IPv6 for usado) para o FQDN (nome de domínio totalmente qualificado do pool). 
   
 Por exemplo, se houver três servidores front end em um pool chamado pool01.contoso.com, acontecerá o seguinte:
   
-- Clientes que executam o DNS de consulta do Skype for Business para pool01.contoso.com. A consulta retorna três endereços IP e os armazena em cache da seguinte forma (não necessariamente nesta ordem):
+- Clientes executando Skype for Business DNS de consulta para pool01.contoso.com. A consulta retorna três endereços IP e os armazena em cache da seguinte forma (não necessariamente nesta ordem):
     
     pool01.contoso.com 192.168.10.90
     
@@ -181,7 +181,7 @@ Por exemplo, se houver três servidores front end em um pool chamado pool01.cont
     
 - Se a conexão TCP for bem-sucedida, o cliente negociará tLS para se conectar ao registrador principal no pool01.contoso.com.
     
-- Se o cliente tentar todas as entradas armazenadas em cache sem uma conexão bem-sucedida, o usuário será notificado de que nenhum servidor executando o Skype for Business Server está disponível no momento.
+- Se o cliente tentar todas as entradas armazenadas em cache sem uma conexão bem-sucedida, o usuário será notificado de que nenhum servidor que Skype for Business Server estiver disponível no momento.
     
 > [!NOTE]
 > O balanceamento de carga baseado em DNS é diferente do round robin de DNS (DNS RR), que normalmente faz referência ao balanceamento de carga confiando no DNS para fornecer uma ordem diferente de endereços IP correspondentes aos servidores em um pool. Normalmente o DNS RR só habilita a distribuição de carga, mas não habilita o failover. Por exemplo, se a conexão com o único endereço IP retornado pela consulta DNS A e AAAA (se você estiver usando endereçamento IPv6) falhar, a conexão falhará. Portanto, o round robin de DNS por si só é menos confiável do que o balanceamento de carga baseado em DNS. O round robin de DNS pode ser usado em conjunto com o balanceamento de carga do DNS. 
@@ -218,11 +218,11 @@ Embora você ainda precisará de balanceadores de carga de hardware para estes p
   
 #### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Balanceamento de carga DNS e suporte aos clientes e servidores mais antigos
 
-O balanceamento de carga DNS dá suporte apenas ao failover automático para servidores que executam o Skype for Business Server ou o Lync Server 2010 e para clientes do Lync 2013 e do Skype for Business. Versões anteriores dos clientes e do Office Communications Server ainda podem se conectar a pools que executam o balanceamento de carga DNS, mas se eles não puderem fazer uma conexão com o primeiro servidor ao que o balanceamento de carga DNS os refere, eles não poderão fazer fail over para outro servidor no pool. 
+O balanceamento de carga DNS dá suporte apenas ao failover automático para servidores que executam o Skype for Business Server ou o Lync Server 2010 e para clientes do Lync 2013 e Skype for Business. As versões anteriores dos clientes e do Office Communications Server ainda podem se conectar aos pools que executam o balanceamento de carga DNS, mas se eles não puderem fazer uma conexão com o primeiro servidor ao que o balanceamento de carga DNS os refere, eles não poderão fazer fail over para outro servidor no pool. 
   
-Além disso, se você estiver usando a UM do Exchange, deverá usar um mínimo do Exchange 2010 SP1 para obter suporte para o balanceamento de carga DNS do Skype for Business Server. Se você usar uma versão anterior do Exchange, seus usuários não terão recursos de failover para esses cenários de UM do Exchange:
+Além disso, se você estiver usando Exchange UM, deverá usar um mínimo de Exchange 2010 SP1 para obter suporte para Skype for Business Server balanceamento de carga DNS. Se você usar uma versão anterior do Exchange, os usuários não terão recursos de failover para esses Exchange de UM:
   
-- Tocar sua caixa postal enterprise em seu telefone
+- Tocar suas Enterprise caixa postal no telefone
     
 - Transferindo chamadas de um Atendedor Automático UM do Exchange
     
@@ -249,15 +249,15 @@ Você pode implantar o balanceamento de carga DNS em pools de servidor de borda.
   
 Usar o balanceamento de carga DNS nos servidores de borda provoca uma perda da capacidade de failover nos seguintes cenários:
   
-- Federação com organizações que executam versões do Skype for Business Server lançadas antes do Lync Server 2010.
+- Federação com organizações que executam versões de Skype for Business Server lançadas antes do Lync Server 2010.
     
 - Troca de mensagens instantâneas com usuários de serviços públicos de mensagens instantâneas (IM) AOL e Yahoo!, além de provedores e servidores baseados em XMPP, como o Google Talk, atualmente o único parceiro XMPP com suporte.
     
 Esses cenários funcionarão desde que todos os servidores de borda no pool estejam funcionando. Se um servidor de borda estiver disponível, as solicitações enviadas para esses cenários falharão, em vez de rotear para outro servidor de borda.
   
- Se você estiver usando a UM do Exchange, deverá usar um mínimo do Exchange 2013 para obter suporte para o balanceamento de carga DNS do Skype for Business Server no Edge. Se você usar uma versão anterior do Exchange, seus usuários remotos não terão recursos de failover para esses cenários de UM do Exchange:
+ Se você estiver usando Exchange UM, deverá usar um mínimo de Exchange 2013 para obter suporte para Skype for Business Server balanceamento de carga DNS no Edge. Se você usar uma versão anterior do Exchange, os usuários remotos não terão recursos de failover para esses Exchange de UM:
   
-- Tocar sua caixa postal enterprise em seu telefone
+- Tocar suas Enterprise caixa postal no telefone
     
 - Transferindo chamadas de um Atendedor Automático UM do Exchange
     
@@ -289,4 +289,4 @@ Para implantar o balanceamento de carga DNS em um pool do Servidor de Mediação
 
 Se você usar o balanceamento de carga DNS e precisar bloquear o tráfego para um computador específico, não é suficiente apenas remover as entradas de endereço IP do FQDN do Pool. Você também deve remover a entrada DNS do computador. 
   
-Observe que, para tráfego servidor para servidor, o Skype for Business Server usa balanceamento de carga com conhecimento de topologia. Os servidores leem a topologia publicada no armazenamento de Gerenciamento Central para obter os FQDNs dos servidores na topologia e distribuem automaticamente o tráfego entre os servidores. Para impedir que um servidor receba tráfego de servidor para servidor, você deve remover o servidor da topologia. 
+Observe que, para o tráfego servidor para servidor, Skype for Business Server usa balanceamento de carga com conhecimento de topologia. Os servidores leem a topologia publicada no armazenamento de Gerenciamento Central para obter os FQDNs dos servidores na topologia e distribuem automaticamente o tráfego entre os servidores. Para impedir que um servidor receba tráfego de servidor para servidor, você deve remover o servidor da topologia. 

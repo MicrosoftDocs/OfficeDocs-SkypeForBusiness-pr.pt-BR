@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o Caixa postal na Nuvem para seus usuários. '
-ms.openlocfilehash: c6fbd02e30c5be0280b05088a1cec281c2534039
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: eb1d3d054cf1109ddb9ba048c69dc3dda665aa1e8e0d3e2b1d72926835389a39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316697"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a Caixa postal na nuvem
 
@@ -60,7 +60,7 @@ Para configurar Skype for Business usuários de servidor para Caixa postal na Nu
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Habilitando a caixa postal protegida em sua organização
 
-Quando alguém deixa uma mensagem de caixa postal para um usuário em sua organização, a caixa postal é entregue à caixa de correio do usuário como um anexo de mensagem de email. Usando regras de fluxo de emails para aplicar criptografia de mensagens, você pode impedir que essas mensagens de caixa postal seja encaminhada para outros destinatários. Quando você habilita a caixa postal protegida, os usuários podem ouvir mensagens de caixa postal protegidas ligando para a caixa de correio de caixa postal ou abrindo Outlook mensagem no Outlook, Outlook na Web ou no Outlook para Android ou iOS. As mensagens de caixa postal protegidas não podem ser abertas Skype for Business ou Microsoft Teams.
+Quando alguém deixa uma mensagem de caixa postal para um usuário em sua organização, a caixa postal é entregue à caixa de correio do usuário como um anexo de mensagem de email. Usando regras de fluxo de emails para aplicar criptografia de mensagens, você pode impedir que essas mensagens de caixa postal seja encaminhada para outros destinatários. Quando você habilita a caixa postal protegida, os usuários podem ouvir mensagens de caixa postal protegidas chamando em suas caixas de correio de caixa postal ou abrindo a mensagem no Outlook, Outlook na Web ou no Outlook para Android ou iOS. As mensagens de caixa postal protegidas não podem ser abertas Skype for Business ou Microsoft Teams.
 
 Para obter mais informações sobre criptografia de mensagens, consulte [Criptografia de email](/microsoft-365/compliance/email-encryption?view=o365-worldwide).
 

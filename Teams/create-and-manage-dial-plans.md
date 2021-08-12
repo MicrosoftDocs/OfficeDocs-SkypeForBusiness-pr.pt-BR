@@ -21,16 +21,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como usar o centro de administração Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem (planos de discagem de chamada PSTN).
-ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849196"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
-Depois de planejar os planos de discagem para sua organização e descobrir todas as regras de normalização que precisam ser criadas para roteamento de chamadas, você estará pronto para criar os planos de discagem. Com uma conta de administrador com uma licença de Teams válida, você pode usar o centro de administração Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem.  
+Depois de planejar os planos de discagem para sua organização e descobrir todas as regras de normalização que precisam ser criadas para roteamento de voz, você estará pronto para criar os planos de discagem. Com uma conta de administrador com uma licença de Teams válida, você pode usar o centro de administração Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
