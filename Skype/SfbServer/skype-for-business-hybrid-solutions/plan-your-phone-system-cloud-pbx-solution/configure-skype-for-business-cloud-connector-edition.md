@@ -1,5 +1,5 @@
 ---
-title: Configurar e gerenciar o Skype for Business Cloud Connector Edition
+title: Configurar e gerenciar Skype for Business Cloud Connector Edition
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -20,17 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Saiba como configurar o Skype for Business Cloud Connector Edition, uma topologia local mínima para habilitar a integração da infraestrutura de voz local com os serviços de voz do Sistema de Telefonia (Cloud PBX) no Skype for Business Online.
-ms.openlocfilehash: 4d24e5a312275158f276856aa78396ad63dff615
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 23502d95ad1c6b0282dfb5cd074c48560b11717175befe8bc460bb73523ab69f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349613"
 ---
-# <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Configurar e gerenciar o Skype for Business Cloud Connector Edition
+# <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Configurar e gerenciar Skype for Business Cloud Connector Edition
  
 > [!Important]
-> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com Skype for Business Online. Depois que sua organização tiver sido atualizada para Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
 
 Saiba como configurar o Skype for Business Cloud Connector Edition, uma topologia local mínima para habilitar a integração da infraestrutura de voz local com os serviços de voz do Sistema de Telefonia (Cloud PBX) no Skype for Business Online. 
   
@@ -39,7 +39,7 @@ Antes de começar, você deve revisar os pré-requisitos em [Plan for Skype for 
 > [!IMPORTANT]
 > As etapas deste tópico aplicam-se somente ao Cloud Connector Edition 1.4.1 e posterior. Se você ainda não tiver atualizado para o Cloud Connector Edition 2.1, consulte [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md). Você pode baixar o arquivo de instalação de [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) . 
   
-## <a name="steps-to-configure-skype-for-business-cloud-connector-edition"></a>Etapas para configurar o Skype for Business Cloud Connector Edition
+## <a name="steps-to-configure-skype-for-business-cloud-connector-edition"></a>Etapas para configurar Skype for Business Cloud Connector Edition
 
 A tabela a seguir lista as etapas necessárias para instalar e configurar o Cloud Connector Edition:
   
@@ -48,7 +48,7 @@ A tabela a seguir lista as etapas necessárias para instalar e configurar o Clou
 |[Preparar o dispositivo do Cloud Connector](prepare-your-cloud-connector-appliance.md) <br/> |Baixe o arquivo de instalação, prepare certificados, configure o Hyper-V e prepare seu ambiente para a implantação do Cloud Connector.  <br/> |
 |[Implantar um único site no Cloud Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |Crie um site em sua implantação do Cloud Connector.  <br/> |
 |[Implantar vários sites no Cloud Connector](deploy-multiple-sites-in-cloud-connector.md) <br/> |Adicione sites à sua implantação e saiba mais sobre as diferenças entre implantações individuais e multi-sites.  <br/> |
-|[Configurar a integração do Cloud Connector com sua organização do Microsoft 365 ou Office 365](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |Adicionar registros DNS, configurar híbridos, configurar gateways PSTN e habilitar usuários para caixa postal do Sistema de Telefonia.  <br/> |
+|[Configurar a integração do Cloud Connector com sua Microsoft 365 ou Office 365 organização](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |Adicione registros DNS, configure híbrido, configure gateways PSTN e habilita os usuários para Sistema de Telefonia caixa postal.  <br/> |
 |[Validar a implantação do Cloud Connector](validate-your-cloud-connector-deployment.md) <br/> |Certifique-se de que sua implantação está funcionando corretamente.  <br/> |
 |[Atualizar para uma nova versão do Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |Atualize sua implantação existente do Cloud Connector para a versão 2.1.  <br/> |
 |[Modificar a configuração de uma implantação do Cloud Connector existente](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |Altere as configurações no Cloud Connector depois que ele já for implantado.  <br/> |

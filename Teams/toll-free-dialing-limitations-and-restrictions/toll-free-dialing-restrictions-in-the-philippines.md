@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre a discagem de números gratuitos nas Filipinas, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: 9d6c84a6f96e795b777033a0a0456eabe1136620
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: debf3e915a1ee246657bb3e470016e5029fa932ccc82e236612184808e02b7bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116579"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341127"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>Restrições de discagem de chamada gratuita nas Filipinas
 

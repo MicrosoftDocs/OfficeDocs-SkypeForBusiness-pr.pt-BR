@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Leia este tópico para obter informações sobre como implantar Salas do Microsoft Teams em um ambiente híbrido com Exchange local.
-ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117349"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296648"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implantar as Salas do Microsoft Teams com o Exchange no local
 
@@ -69,7 +69,7 @@ Se você estiver implantando Salas do Microsoft Teams com Exchange local, você 
     > [!NOTE]
     > Selecionar **Senha nunca expira é** um requisito para Skype for Business Server no Salas do Microsoft Teams. As regras do domínio podem proibir senhas que não expiram. Em caso afirmado, você precisará criar uma exceção para cada Salas do Microsoft Teams de dispositivo.
   
-4. Depois de criar a conta, execute a sincronização do diretório. Quando estiver concluída, vá até a página usuários no centro de administração do Microsoft 365 e verifique se a conta criada nas etapas anteriores foi mesclada para online.
+4. Depois de criar a conta, execute a sincronização do diretório. Quando estiver concluída, vá até a página usuários em seu Centro de administração do Microsoft 365 e verifique se a conta criada nas etapas anteriores foi mesclada para online.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Habilitar a caixa de correio remota e as propriedades definidas
 
@@ -185,7 +185,7 @@ Skype for Business O PowerShell online é usado para gerenciar serviços para Mi
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Atribuir uma licença à sua Salas do Microsoft Teams de usuário
 
-1. Faça logoff como administrador de locatário, abra o Microsoft 365 de administração e clique no aplicativo Administrador.
+1. Faça logoff como administrador de locatário, abra o Centro de administração do Microsoft 365 e clique no aplicativo Administrador.
 2. Clique em **Usuários e Grupos** e clique em **Adicionar usuários, redefinir senhas e muito mais**.
 3. Clique na Salas do Microsoft Teams e clique no ícone de caneta para editar as informações da conta.
 4. Clique em **Licenças**.

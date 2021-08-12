@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5c2f6029b0c5314c507de7734abf8c479af709
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 073f5ecf262d51853aecf14f982af144434791b19be617887f4ac788f11b301c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312499"
 ---
 # <a name="share-to-teams-from-outlook"></a>Compartilhar para Teams de Outlook
 
@@ -49,9 +49,9 @@ Para habilitar o Outlook usado pelo Share para Teams, execute o [cmdlet encontra
 
 ## <a name="browsers-and-single-sign-on"></a>Navegadores e Login Único
 
-O compartilhamento Teams, em ambos os Outlook na Web e Outlook da área de trabalho, depende de um WebView do navegador. Consulte [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) for details on which clients use which specific browsers. 
+O compartilhamento Teams, em clientes de Outlook na Web e Outlook desktop, depende de um WebView do navegador. Consulte [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) for details on which clients use which specific browsers. 
 
 > [!IMPORTANT]
 > O compartilhamento Teams requer que cookies de terceiros e acesso de armazenamento local sejam habilitados para navegadores dos usuários.
 
-O share to Teams usa o SSO (Single Sign-on), o que significa que os usuários não precisam fornecer suas credenciais ao usar o complemento por meio do Share to Teams. O SSO para Outlook na Web oferece suporte https://outlook.office365.com/owa/extSSO.aspx e https://outlook.office.com/owa/extSSO.aspx responde URLs por padrão. Para domínios de vaidade, os administradores precisam adicionar a URL Azure Active Directory resposta apropriada.
+O share to Teams usa o SSO (Single Sign-on), o que significa que os usuários não precisam fornecer suas credenciais ao usar o complemento por meio do Share to Teams. O SSO para Outlook na Web https://outlook.office365.com/owa/extSSO.aspx suporta e responde https://outlook.office.com/owa/extSSO.aspx URLs por padrão. Para domínios de vaidade, os administradores precisam adicionar a URL Azure Active Directory resposta apropriada.

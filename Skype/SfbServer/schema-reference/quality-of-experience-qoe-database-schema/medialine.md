@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: O MediaLine View armazena informações sobre cada linha de mídia no banco de dados. Uma sessão de áudio normalmente contém uma linha de mídia de áudio. Uma sessão de áudio e vídeo (A/V) normalmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo; no entanto, a sessão pode conter duas linhas de mídia de vídeo se um dispositivo de conferência ou o modo de exibição de galeria for usado. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: c31fe1c5b8f6ed97d49c695986ad14fd890ae26f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fa527c31c1011fdcad38d21534e9ec1c1a4ec96e4a704dd79722313e73a39056
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296918"
 ---
 # <a name="medialine-view"></a>Exibição MediaLine
  
@@ -39,11 +39,11 @@ O MediaLine View armazena informações sobre cada linha de mídia no banco de d
 |CallerMacAddress  <br/> |varchar(256)  <br/> |Endereço MAC da interface de rede usada pelo chamador.  <br/> |
 |CallerRelayIPAddr  <br/> |var(50)  <br/> |Endereço IP do serviço de borda A/V usado pelo chamador. Consulte a [tabela IPAddress para](ipaddress.md) obter mais informações. <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Porta usada no serviço de Borda de A/V usado pelo chamador.  <br/> |
-|CallerReflexiveIPAddr  <br/> |var(50)  <br/> |Endereço IP do chamador conforme relatado pelo serviço de Borda A/V. Este endereço pode ser diferente do endereço na coluna CallerIPAddr se o cliente estiver localizado atrás de uma NAT, por exemplo.  <br/> |
+|CallerReflexiveIPAddr  <br/> |var(50)  <br/> |O endereço IP do chamador conforme relatado pelo serviço de Borda A/V. Este endereço pode ser diferente do endereço na coluna CallerIPAddr se o cliente estiver localizado atrás de uma NAT, por exemplo.  <br/> |
 |CallerCaptureDev  <br/> |varchar(256)  <br/> |Nome do dispositivo de captura do chamador.  <br/> |
 |CallerRenderDev  <br/> |varchar(256)  <br/> |Nome do dispositivo de renderização do chamador.  <br/> |
 |CallerCaptureDevDriver  <br/> |varchar(256)  <br/> |Nome do driver do dispositivo de captura do chamador.  <br/> |
-|CallerRenderDevDriver  <br/> |varchar(256)  <br/> |Nome do driver do dispositivo de renderização do chamador.  <br/> |
+|CallerRenderDevDriver  <br/> |varchar(256)  <br/> |Nome do driver de dispositivo de renderização do chamador.  <br/> |
 |CallerWifiDriverDeviceDesc  <br/> |varchar(256  <br/> |Descrição do driver Wifi do chamador.  <br/> |
 |CallerWifiDriverVersion  <br/> |varchar(256)  <br/> |Versão do driver Wifi do chamador.  <br/> |
 |CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |Detalhes da conexão de rede do chamador. Consulte a [tabela NetworkConnectionDetail para](networkconnectiondetail.md) obter mais informações. <br/> |
@@ -55,21 +55,21 @@ O MediaLine View armazena informações sobre cada linha de mídia no banco de d
 |CalleeMacAddress  <br/> |varchar(256)  <br/> |Endereço MAC da interface de rede usada pelo receptor da chamada.  <br/> |
 |CalleeRelayIPAddr  <br/> |var(50)  <br/> |Endereço IP do serviço de Borda de A/V usado pelo receptor da chamada. Consulte a [tabela IPAddress para](ipaddress.md) obter mais informações. <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Porta usada no serviço de Borda de A/V usado pelo receptor da chamada.  <br/> |
-|CalleeReflexiveIPAddr  <br/> |var(50)  <br/> |Endereço IP do destinatário da chamada conforme relatado pelo serviço de Borda A/V. Este endereço pode ser diferente do endereço na coluna CalleeIPAddr se o cliente estiver localizado atrás de uma NAT, por exemplo.  <br/> |
-|CalleeCaptureDev  <br/> |var(50)  <br/> |Nome do dispositivo de captura do destinatário da chamada.  <br/> |
-|CalleeRenderDev  <br/> |varchar(256)  <br/> |Nome do dispositivo de renderização do destinatário da chamada.  <br/> |
-|CalleeCaptureDevDriver  <br/> |varchar(256)  <br/> |Nome do driver do dispositivo de captura do destinatário da chamada.  <br/> |
-|CalleeRenderDevDriver  <br/> |varchar(256)  <br/> |Nome do driver do dispositivo de renderização do destinatário da chamada.  <br/> |
-|CalleeWifiDriverDeviceDesc  <br/> |varchar(256)  <br/> |Descrição do driver Wifi do destinatário da chamada.  <br/> |
-|CalleeWifiDriverVersion  <br/> |varchar(256  <br/> |Versão do driver Wifi do destinatário da chamada.  <br/> |
-|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |Detalhes da conexão de rede do destinatário da chamada. Consulte a [tabela NetworkConnectionDetail para](networkconnectiondetail.md) obter mais informações. <br/> |
-|CalleeBssid  <br/> |varchar(256)  <br/> |Identificador do Conjunto de Serviços Básicos usado pela conexão WiFi do destinatário da chamada.  <br/> |
+|CalleeReflexiveIPAddr  <br/> |var(50)  <br/> |O endereço IP do chamador conforme relatado pelo serviço de Borda A/V. Este endereço pode ser diferente do endereço na coluna CalleeIPAddr se o cliente estiver localizado atrás de uma NAT, por exemplo.  <br/> |
+|CalleeCaptureDev  <br/> |var(50)  <br/> |Nome do dispositivo de captura do chamador.  <br/> |
+|CalleeRenderDev  <br/> |varchar(256)  <br/> |Nome do dispositivo de renderização do chamador.  <br/> |
+|CalleeCaptureDevDriver  <br/> |varchar(256)  <br/> |Nome do driver do dispositivo de captura do chamador.  <br/> |
+|CalleeRenderDevDriver  <br/> |varchar(256)  <br/> |Nome do driver do dispositivo de renderização do chamador.  <br/> |
+|CalleeWifiDriverDeviceDesc  <br/> |varchar(256)  <br/> |Descrição do driver Wifi do destinatário.  <br/> |
+|CalleeWifiDriverVersion  <br/> |varchar(256  <br/> |Versão do driver Wifi do destinatário.  <br/> |
+|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |Detalhes da conexão de rede do chamador. Consulte a [tabela NetworkConnectionDetail para](networkconnectiondetail.md) obter mais informações. <br/> |
+|CalleeBssid  <br/> |varchar(256)  <br/> |Identificador de Conjunto de Serviços Básico usado pela conexão WiFi do chamador.  <br/> |
 |CalleeVPN  <br/> |bit  <br/> |Indica se o receptor da chamada se conectou por uma rede virtual privada. 1 é rede virtual privada (VPN), 0 é não-VPN.  <br/> |
 |ConversationalMOS  <br/> |decimal(3,2)  <br/> |MOS da Conversa de Banda Estreita das sessões de áudio (com base nos dois fluxos de áudio).  <br/> |
 |AppliedBandwidthLimit  <br/> |int  <br/> |Esta é a largura de banda real aplicada a um dado fluxo de envio, considerando várias configurações de política (TURN, API, SDP, Servidor de Políticas, etc.). Não deve ser confundida com a largura de banda real porque pode haver uma largura de banda real menor com base na estimativa da largura de banda. Esta é basicamente a largura de banda máxima que o fluxo de envio pode usar, salvo limites impostos pela estimativa da largura de banda.  <br/> |
-|AppliedBandwidthSource  <br/> |varchar(256)  <br/> |Origem da capacidade da largura de banda imposta. Ele descreve de onde vem o limite de largura de banda (por exemplo, "Servidor de Políticas", "Servidor TURN" ou "Modalidade").  <br/> |
+|AppliedBandwidthSource  <br/> |varchar(256)  <br/> |Origem da capacidade da largura de banda imposta. Ele descreve de onde vem o limite de largura de banda (por exemplo, "Servidor de Política", "SERVIDOR TURN" ou "Modalidade").  <br/> |
 |Chamador  <br/> |bit  <br/> |Indica se as métricas do chamador foram recebidas; 1 é sim, 0 é não.  <br/> |
-|Destinatário da chamada  <br/> |bit  <br/> |Indica se as métricas do receptor da chamada foram recebidas; 1 é sim, 0 é não.  <br/> |
+|Chamador  <br/> |bit  <br/> |Indica se as métricas do receptor da chamada foram recebidas; 1 é sim, 0 é não.  <br/> |
 |MidCallReport  <br/> |bit  <br/> |Indica se o relatório refere-se a uma parte da chamada ou à chamada completa.  <br/> |
 |ClassifiedPoorCall  <br/> |bit  <br/> |Indica se uma chamada foi classificada como ruim (1) ou boa (0).  <br/> |
 |CallerConnectivityICE  <br/> |tinyint  <br/> |Indica se o chamador se conectou à rede usando o protocolo ICE (Internet Connectivity Establishment).  <br/> |

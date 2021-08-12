@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número gratuito.
-ms.openlocfilehash: e88142c4eeb6fa7052e12105fe3191019bc19be4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d11070337abf16292983b11d8f8f84ac515e26711330e78d75c35ddba2c988ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312419"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>Restrições de discagem gratuita na Suíça
 

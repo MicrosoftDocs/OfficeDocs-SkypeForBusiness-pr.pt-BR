@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: A nova Skype for Business de Relatórios do Centro de Administração mostra a atividade de chamada e audioconferência em sua organização. Ele permite que você faça uma análise de relatórios para dar uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório Skype for Business pools de minutos PSTN para ver o número de minutos consumidos durante o mês atual em sua organização.
-ms.openlocfilehash: d82f360c48b6e7478ef552826ee80ecaf508db0f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: dae86688a5fb0204802f62d28504c3454613bb3d7f7d23f17d09972b94303390
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850246"
 ---
 # <a name="pstn-minute-pools-report"></a>Relatório de pools de minutos PSTN
 
@@ -40,7 +40,7 @@ Confira a visão geral [relatórios](https://support.office.com/article/0d6dfb17
 Este relatório, juntamente com os outros relatórios Skype for Business, fornece detalhes sobre as atividades em toda a sua organização. Esses detalhes são muito úteis ao investigar, planejar e tomar outras decisões de negócios para sua organização e para configurar [créditos de comunicação](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Você pode ver todos os relatórios de Skype for Business quando fizer logoff como administrador no centro de administração Microsoft 365 local. 
+> Você pode ver todos os relatórios Skype for Business quando fizer logoff como administrador no Centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Como chegar ao relatório de pools de minutos Skype for Business PSTN
 
@@ -56,8 +56,6 @@ Este relatório, juntamente com os outros relatórios Skype for Business, fornec
 Você pode obter uma exibição nos pools de Skype for Business de minuto do usuário, observando cada uma das colunas exibidas.
   
 Esta é a aparência do relatório.
-  
-## 
 
 ![Skype for Business Relatório de pools de minutos PSTN](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   

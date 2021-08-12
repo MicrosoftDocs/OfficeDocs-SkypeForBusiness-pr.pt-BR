@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostrarão os códigos de acesso necessários em cada país/região para discar o número gratuito.
-ms.openlocfilehash: e8232eb982808e95455d2bba66de2fdf5772f332
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0c857d730259b465092c85cddbcdcc4f9a2bd11dbbbcfa7827af28116b7dd012
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332353"
 ---
 # <a name="toll-free-dialing-restrictions-in-ecuador"></a>Restrições de discagem de chamada gratuita no Equador
 

@@ -16,16 +16,16 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams exibições.
-ms.openlocfilehash: 8b91667265531833920e31a5ab99fca307d151d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a812aad7b26758ce41052672b20e5031da0729e7d1b1b802513ed2b311353b30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322673"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams exibe
 
-Microsoft Teams displays são uma categoria de dispositivos de Teams exclusivos que apresentam uma tela sensível ao toque ambiente e uma experiência prática com a Cortana. Este artigo fornece uma visão geral Teams exibições e pode ajudá-lo a planejar, entregar e gerenciar Teams exibições em sua organização.
+Microsoft Teams displays são uma categoria de dispositivos de Teams exclusivos que apresentam uma tela sensível ao toque ambiente e uma experiência prática com Cortana. Este artigo fornece uma visão geral Teams exibições e pode ajudá-lo a planejar, entregar e gerenciar Teams exibições em sua organização.
 
 Teams exibe seus recursos favoritos Teams chat, reuniões, chamadas, calendário e arquivos em &ndash; &ndash; um único dispositivo. Com Teams, os usuários podem usar microfone, câmera e alto-falantes (ou Bluetooth headset) para uma experiência confiável de chamada e reunião. Teams exibe integrações com os PCs Windows usuários para trazer uma experiência de companhia que permite a interação perfeita entre dispositivos.
 
@@ -37,7 +37,7 @@ Além dos recursos [suportados](phones-for-teams.md#features-supported-by-teams-
 
 - **Exibições dedicadas para Teams** Os usuários podem acessar todos os recursos Teams principais, incluindo chat, reuniões, chamadas, equipes e canais, arquivos e muito mais.
 - **Experiência ambiente** Os usuários podem ficar sempre atentos ao trabalho com exibições sempre ativas e relances para ver atividades e notificações importantes sem alternar por contexto em seu dispositivo de trabalho principal. Os usuários também podem personalizar Teams exibições personalizando o plano de fundo por meio de configurações.
-- **Mãos livres com a Cortana** Os usuários podem interagir com Teams exibições usando sua voz para participar e participar de reuniões sem esforço, ditar respostas a um Teams chat, verificar o que está no calendário e muito mais.
+- **Mãos livres com Cortana** Os usuários podem interagir com Teams exibições usando sua voz para participar e participar de reuniões sem esforço, ditar respostas a um Teams chat, verificar o que está no calendário e muito mais.
 - **Deixar uma observação na tela de bloqueio** Os convidados podem optar por deixar notas de áudio, vídeo e texto, e os usuários podem verificar as anotações deixadas pelos convidados e ver quem parou.  
 
 ## <a name="required-licenses"></a>Licenças necessárias
@@ -70,4 +70,4 @@ Teams é a evolução dos telefones Teams. Você pode atualizar Teams telefones 
 
 [Atualizar telefones IP para Teams displays](upgrade-phones-to-displays.md)
 
-[Assistência de voz da Cortana em Teams](../cortana-in-teams.md)
+[Cortana de voz no Teams](../cortana-in-teams.md)

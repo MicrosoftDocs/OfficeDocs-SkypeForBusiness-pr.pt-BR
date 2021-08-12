@@ -1,5 +1,5 @@
 ---
-title: Alterações feitas pela preparação da floresta no Skype for Business Server
+title: Alterações feitas pela preparação da floresta em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Esta seção descreve os objetos e as configurações globais, além dos grupos universais de serviço e administração criados pela etapa de preparação de floresta.
-ms.openlocfilehash: b304dbb12cb7e05e7bc82bdc56ffc330ce0221c7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098647"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349723"
 ---
-# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Alterações feitas pela preparação da floresta no Skype for Business Server
+# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Alterações feitas pela preparação da floresta em Skype for Business Server
 
 Esta seção descreve os objetos e as configurações globais, além dos grupos universais de serviço e administração criados pela etapa de preparação de floresta.
 
 ## <a name="active-directory-global-settings-and-objects"></a>Objetos e configurações globais do Active Directory
 
-Se você armazenar configurações globais no contêiner De configuração (como é o caso de todas as novas implantações do Skype for Business Server), a preparação da floresta usará o contêiner de Serviços existente e adiciona um **objeto RTC Service** no objeto Configuration\Services. Sob a implantação do Serviço de RTC, a preparação da floresta adiciona um objeto **Configurações Globais** do tipo msRTCSIP-GlobalContainer. O objeto de configurações globais contém todas as configurações que se aplicam à implantação do Skype for Business Server. Se você armazenar as configurações globais no contêiner Sistema, a preparação da floresta usará um contêiner Microsoft sob o contêiner Sistema do domínio raiz e um objeto Serviço de RTC sob o objeto Sistema\Microsoft.
+Se você armazenar configurações globais no contêiner De configuração (como é o caso de todas as novas implantações de Skype for Business Server), a preparação da floresta usará o contêiner de Serviços existente e adiciona um **objeto RTC Service** no objeto Configuration\Services. Sob a implantação do Serviço de RTC, a preparação da floresta adiciona um objeto **Configurações Globais** do tipo msRTCSIP-GlobalContainer. O objeto de configurações globais contém todas as configurações que se aplicam à implantação Skype for Business Server global. Se você armazenar as configurações globais no contêiner Sistema, a preparação da floresta usará um contêiner Microsoft sob o contêiner Sistema do domínio raiz e um objeto Serviço de RTC sob o objeto Sistema\Microsoft.
 
 A preparação de floresta também adiciona um novo objeto **msRTCSIP-Domain** ao domínio raiz no qual o procedimento é executado.
 
@@ -36,11 +36,11 @@ A preparação de floresta cria grupos universais com base no domínio especific
 
 Os grupos universais permitem que os administradores acessem e gerenciem as configurações e serviços globais. A preparação da floresta adiciona os seguintes tipos de grupos universais:
 
-- **Grupos administrativos** Esses grupos definem funções de administrador para uma rede do Skype for Business Server.
+- **Grupos administrativos** Esses grupos definem funções de administrador para uma Skype for Business Server rede.
 
-- **Grupos de infraestrutura** Esses grupos fornecem permissão para acessar áreas específicas da infraestrutura do Skype for Business Server. Eles funcionam como componentes dos grupos administrativos. Não modifique esses grupos ou adicione usuários diretamente a eles.
+- **Grupos de infraestrutura** Esses grupos fornecem permissão para acessar áreas específicas da infraestrutura de Skype for Business Server. Eles funcionam como componentes dos grupos administrativos. Não modifique esses grupos ou adicione usuários diretamente a eles.
 
-- **Grupos de serviços** Esses grupos são contas de serviço necessárias para acessar vários serviços do Skype for Business Server.
+- **Grupos de serviços** Esses grupos são contas de serviço que são necessárias para acessar vários Skype for Business Server serviços.
 
 A tabela seguir descreve os grupos administrativos.
 
@@ -58,11 +58,11 @@ A tabela seguir descreve os grupos de infraestrutura.
 
 |**Grupo de infraestrutura**|**Descrição**|
 |:-----|:-----|
-|RTCUniversalGlobalWriteGroup  <br/> |Concede acesso de gravação a objetos de configuração global para o Skype for Business Server.  <br/> |
-|RTCUniversalGlobalReadOnlyGroup  <br/> |Concede acesso somente leitura a objetos de configuração global para o Skype for Business Server.  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |Concede acesso somente leitura às configurações de usuário do Skype for Business Server.  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Concede acesso somente leitura às configurações do Skype for Business Server. Este grupo não tem acesso às configurações no nível do pool, mas apenas às configurações específicas de um servidor individual.  <br/> |
-|RTCUniversalSBATechnicians  <br/> |Concede acesso somente leitura à configuração do Skype for Business Server e é colocado no grupo Administradores Locais dos dispositivos de filial que podem servivíveis durante a instalação.  <br/> |
+|RTCUniversalGlobalWriteGroup  <br/> |Concede acesso de gravação a objetos de configuração global para Skype for Business Server.  <br/> |
+|RTCUniversalGlobalReadOnlyGroup  <br/> |Concede acesso somente leitura a objetos de configuração global para Skype for Business Server.  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |Concede acesso somente leitura a Skype for Business Server do usuário.  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Concede acesso somente leitura a Skype for Business Server configurações. Este grupo não tem acesso às configurações no nível do pool, mas apenas às configurações específicas de um servidor individual.  <br/> |
+|RTCUniversalSBATechnicians  <br/> |Concede acesso somente leitura à configuração Skype for Business Server e é colocado no grupo Administradores Locais dos dispositivos de filial que podem servivíveis durante a instalação.  <br/> |
 
 A tabela seguir descreve os grupos de serviço.
 
@@ -70,11 +70,11 @@ A tabela seguir descreve os grupos de serviço.
 
 |**Grupo de serviço**|**Descrição**|
 |:-----|:-----|
-|RTCHSUniversalServices  <br/> |Inclui contas de serviço usadas para executar servidores Front End Server e Standard Edition. Esse grupo permite aos servidores acesso de leitura/gravação às configurações globais do Skype for Business Server e aos objetos de usuário do Active Directory.  <br/> |
+|RTCHSUniversalServices  <br/> |Inclui contas de serviço usadas para executar servidores front-end e Edição Standard servidores. Esse grupo permite aos servidores acesso de leitura/gravação Skype for Business Server configurações globais e objetos de usuário do Active Directory.  <br/> |
 |RTCComponentUniversalServices  <br/> |Inclui contas de serviço usadas para executar Servidores de Conferência A/V, Serviços Web, Servidor de Mediação, Servidor de Arquivamento e Servidor de Monitoramento.  <br/> |
-|RTCProxyUniversalServices  <br/> |Inclui contas de serviço usadas para executar Servidores de Borda do Skype for Business Server.  <br/> |
-|RTCUniversalConfigReplicator  <br/> |Inclui servidores que podem participar da replicação do armazenamento de Gerenciamento Central do Skype for Business Server.  <br/> |
-|RTCSBAUniversalServices  <br/> |Concede acesso somente leitura às configurações do Skype for Business Server, mas permite a configuração para a instalação de um servidor de filial suportável e implantação de dispositivo de filial.  <br/> |
+|RTCProxyUniversalServices  <br/> |Inclui contas de serviço usadas para executar Skype for Business Server Servidores de Borda.  <br/> |
+|RTCUniversalConfigReplicator  <br/> |Inclui servidores que podem participar da replicação do Skype for Business Server do Armazenamento de Gerenciamento Central.  <br/> |
+|RTCSBAUniversalServices  <br/> |Concede acesso somente leitura a Skype for Business Server configurações, mas permite a configuração para a instalação de um servidor de filial e implantação de dispositivos de filial suportáveis.  <br/> |
 
 Em seguida, a preparação de floresta adiciona os grupos de serviço e administração aos grupos de infraestrutura apropriados, da seguinte maneira:
 
@@ -110,7 +110,7 @@ A preparação da floresta também cria os seguintes grupos RBAC (controle de ac
 
 Para obter detalhes sobre as funções de RBAC e as tarefas permitidas para cada, consulte [Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) na documentação Planejamento.
 
-A preparação de floresta cria ACEs particulares e públicas. Ele cria ACEs privadas no contêiner de configurações globais usado pelo Skype for Business Server. Esse contêiner é usado apenas pelo Skype for Business Server e está localizado no contêiner Configuração ou no contêiner System no domínio raiz, dependendo de onde você armazena as configurações globais. As ACEs públicas criadas pela preparação de floresta estão listadas na tabela a seguir.
+A preparação de floresta cria ACEs particulares e públicas. Ele cria ACEs privadas no contêiner de configurações globais usado por Skype for Business Server. Esse contêiner é usado apenas por Skype for Business Server e está localizado no contêiner Configuration ou no contêiner System no domínio raiz, dependendo de onde você armazena as configurações globais. As ACEs públicas criadas pela preparação de floresta estão listadas na tabela a seguir.
 
 **ACEs públicas criadas pela preparação de floresta**
 

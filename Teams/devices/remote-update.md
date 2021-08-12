@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Atualizar Microsoft Teams telefones, Teams painéis e barras de colaboração remotamente usando o Teams de administração
-ms.openlocfilehash: 67b76d8330de5a801625a22c25cd1f9637048d05
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 8ff925756e91c72c42d1557a1c735e5323691272a82405d5e4047ab4ff9828b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347882"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322683"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Atualizar Microsoft Teams dispositivos remotamente
 

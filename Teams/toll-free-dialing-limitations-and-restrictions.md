@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: Saiba mais sobre discagem de números gratuitos em um país/região, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: b56e923f12182501459c1eeab923bdb668c44dc3
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
+ms.openlocfilehash: ef461e5c69c84355e967fbb78317cbcbf87c751e7733fa817e13aab8a8cf84be
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332363"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitações e restrições de discagem gratuita
 

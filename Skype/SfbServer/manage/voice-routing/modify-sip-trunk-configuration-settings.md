@@ -1,5 +1,5 @@
 ---
-title: Modificar configurações de tronco SIP no Skype for Business Server
+title: Skype for Business Configurações de tronco SIP serverModify
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. '
-ms.openlocfilehash: e426f2d9980f49a5203bec2cb47555f94f7551f3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'As configurações de tronco SIP definem a relação e os recursos entre um Servidor de Mediação e o gateway de rede telefônica pública comutado, um PBX (exchange de filial pública IP) ou um Controlador de Borda de Sessão (SBC) no provedor de serviços. '
+ms.openlocfilehash: 7f6a0d0bd39ff466b279bbef3b5727e1d3ea17e3285e71f646b26ff2689fa760
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849916"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar configurações de tronco SIP no Skype for Business Server
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for Business Configurações de tronco SIP serverModify
 
 As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. Estas configurações fazem coisas como especificar:
 
@@ -26,9 +26,9 @@ As definições de configuração de tronco SIP definem o relacionamento e as ca
 - As condições nas quais os pacotes RTCP são enviados.
 - Se a criptografia SRTP é obrigatória em cada tronco.
 
-Quando você instala o Skype for Business Server, uma coleção global de configurações de tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN). Qualquer uma dessas coleções pode ser modificada posteriormente usando o Painel de Controle do Skype for Business Server ou Windows PowerShell.
+Quando você instala Skype for Business Server, uma coleção global de configurações de tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN). Qualquer uma dessas coleções pode ser modificada posteriormente usando o Painel de Controle Skype for Business Server ou Windows PowerShell.
 
-Ao modificar as configurações de tronco SIP usando o Painel de Controle do Servidor do Skype for Business Server, as seguintes opções estão disponíveis para você:
+Ao modificar as configurações de tronco SIP usando o Painel de Controle do Servidor Skype for Business Server, as seguintes opções estão disponíveis para você:
 
 |Configuração de UI |Parâmetro do PowerShell |Descrição |
 |--|--|--|
@@ -53,13 +53,13 @@ Ao modificar as configurações de tronco SIP usando o Painel de Controle do Ser
 |||
 
 > [!Note]
-> Os cmdlets CsTrunkConfiguration do Skype for Business Server suportam propriedades adicionais não mostradas no Painel de Controle do Skype for Business Server. Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsTrunkConfiguration.](/powershell/module/skype/Set-CsTrunkConfiguration) 
+> Os cmdlets Skype for Business Server CsTrunkConfiguration suportam propriedades adicionais não mostradas no Painel de Controle Skype for Business Server. Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsTrunkConfiguration.](/powershell/module/skype/Set-CsTrunkConfiguration) 
 
-**Para modificar as configurações do tronco SIP usando o Painel de Controle do Skype for Business Server**
+**Para modificar as configurações do tronco SIP usando o painel de controle Skype for Business Server de controle**
 
-1. No Painel de Controle do Skype for Business Server, clique em **Roteamento** de Voz e clique em **Configuração de Tronco.**
+1. No painel Skype for Business Server controle, clique em **Roteamento** de Voz e clique em **Configuração do Tronco.**
 2. Na guia **Configuração de Tronco**, clique duas vezes nas configurações do tronco a ser modificado. Observe que é possível editar somente uma coleção de configurações por vez. Se quiser fazer as mesmas alterações em múltiplas coleções, use Windows PowerShell.
 3. Na caixa **de diálogo Editar Configuração** do Tronco, faça as seleções apropriadas e clique em **OK**.
 4. A propriedade Estado da coleção será atualizada para Não vinculado. Para confirmação das alterações e para excluir a coleção, clique em **Confirmação** e clique em **Comprometer Tudo.**
 5. Na caixa **de diálogo Configuração de Voz Não** Confirmado, clique em **OK**.
-6. Na caixa de diálogo Painel de Controle do **Skype for Business Server,** clique em **OK**.
+6. Na caixa **Skype for Business Server Painel de Controle,** clique em **OK**.

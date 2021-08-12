@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: A exibição FileTransfer armazena informações sobre sessões de transferência de arquivos ponto a ponto. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 8b3c2db012b8969bd4b5b75ca19ed090f8227c53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: O exibição FileTransfer armazena informações sobre sessões de transferência de arquivos ponto a ponto. Essa exibição foi introduzida no Microsoft Lync Server 2013.
+ms.openlocfilehash: e805b770038eb7fae93337c5d6c26d7059e5764436328f6321e65c948e40c88d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349683"
 ---
 # <a name="filetransfers-view"></a>Exibição FileTransfers
  
-A exibição FileTransfer armazena informações sobre sessões de transferência de arquivos ponto a ponto. Essa exibição foi introduzida no Microsoft Lync Server 2013.
+O exibição FileTransfer armazena informações sobre sessões de transferência de arquivos ponto a ponto. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 > [!NOTE]
 > O exibição FileTransfers contém todas as colunas no [exibição SessionDetails,](sessiondetails-0.md) além das colunas listadas abaixo.

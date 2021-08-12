@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de dados de registro de detalhes das chamadas (CDR).
-ms.openlocfilehash: 5b271d336cfe5dd17a83cf318debf7eb2675d344
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7b22676a675d70359cf895261f3f0ad3cec13a6835805efefaacb6be7a7416ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296964"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Detalhes da tabela CDR no Skype for Business Server 2015
  
@@ -26,7 +26,7 @@ Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de d
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Tabela application in Skype for Business Server 2015](application.md)
+- [Tabela de aplicativos Skype for Business Server 2015](application.md)
     
 - [Tabela CallPriorities no Skype for Business Server 2015](callpriorities.md)
     
@@ -38,9 +38,9 @@ Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de d
     
 - [Tabela ConferenceMessageCount no Skype for Business Server 2015](conferencemessagecount.md)
     
-- [Tabela Conferences no Skype for Business Server 2015](conferences.md)
+- [Tabela de conferências no Skype for Business Server 2015](conferences.md)
     
-- [Tabela ConferenceSessionDetails no Skype for Business Server 2015](conferencesessiondetails-0.md)
+- [Tabela ConferenceSessionDetails Skype for Business Server 2015](conferencesessiondetails-0.md)
     
 - [Tabela ConferenceUris no Skype for Business Server 2015](conferenceuris.md)
     
@@ -48,9 +48,9 @@ Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de d
     
 - [Tabela DeRegisterType no Skype for Business Server 2015](deregistertype.md)
     
-- [Tabela Devices no Skype for Business Server 2015](devices.md)
+- [Tabela Dispositivos no Skype for Business Server 2015](devices.md)
     
-- [Tabela Dialogs in Skype for Business Server 2015](dialogs.md)
+- [Tabela caixas de diálogo no Skype for Business Server 2015](dialogs.md)
     
 - [Tabela EdgeServers no Skype for Business Server 2015](edgeservers.md)
     
@@ -74,13 +74,13 @@ Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de d
     
 - [Tabela Locais no Skype for Business Server 2015](locations.md)
     
-- [Tabela Manufacturers no Skype for Business Server 2015](manufacturers.md)
+- [Tabela fabricantes Skype for Business Server 2015](manufacturers.md)
     
 - [Tabela McuJoinsAndLeaves no Skype for Business Server 2015](mcujoinsandleaves.md)
     
 - [Tabela Mcus no Skype for Business Server 2015](mcus.md)
     
-- [Tabela De mídia](media.md)
+- [Tabela de mídia](media.md)
     
 - [Tabela MediaList](medialist.md)
     
@@ -98,9 +98,9 @@ Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de d
     
 - [Tabela de registro](registration.md)
     
-- [Tabela Roles](roles.md)
+- [Tabela Funções](roles.md)
     
-- [Tabela Servers](servers.md)
+- [Tabela Servidores](servers.md)
     
 - [Tabela SessionDetails](sessiondetails.md)
     
@@ -112,11 +112,11 @@ Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de d
     
 - [Tabela de tarefas](task.md)
     
-- [Tabela Tenants](tenants.md)
+- [Tabela tenants](tenants.md)
     
 - [Tabela UriTypes](uritypes.md)
     
-- [Tabela Users](users.md)
+- [Tabela Usuários](users.md)
     
 - [Tabela UserAgentDef](useragentdef.md)
     

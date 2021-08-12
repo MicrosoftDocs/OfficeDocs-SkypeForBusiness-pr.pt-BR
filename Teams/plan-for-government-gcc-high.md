@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: daro
-description: Diretrizes para os profissionais de Office 365 <2> <1> implantações em entidades que lidam com dados sujeitos à regulamentação governamental dos EUA.
+description: Diretrizes para os profissionais de Office 365 implantações em entidades que lidam com dados sujeitos à regulamentação governamental dos EUA.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5f8df087ca7ad999a9756467925be68c60e96f
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: bf66e1d14ab283839de2b07f584386dbe542a60b20341f129a275a22b75c8e0f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296698"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Plan for Office 365 Government - GCC High deployments
 
@@ -90,4 +90,4 @@ Determine seus requisitos de governança e como você pode atender a eles. Acess
 
 Depois de ter sido internado para Office 365 Government – GCC Alta, siga o caminho de implantação recomendado descrito em [How to roll out Microsoft Teams](./deploy-overview.md). Certifique-se de se envolver com sua equipe de Gerenciamento de Alterações e adoção e Teams campeões.
 
-Você também pode trabalhar com [o FastTrack ou](https://www.microsoft.com/fasttrack) seu parceiro escolhido para integração ao serviço.
+Você também pode trabalhar com [FastTrack](https://www.microsoft.com/fasttrack) ou com seu parceiro escolhido para integrar o serviço.
