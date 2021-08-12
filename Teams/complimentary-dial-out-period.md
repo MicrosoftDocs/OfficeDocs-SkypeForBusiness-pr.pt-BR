@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Saiba mais sobre o período de discagem complementar para Microsoft 365 ou Office 365 De chamada e Office 365 Audioconferência em Microsoft Teams.
-ms.openlocfilehash: 0f40e35e30de5698ffcb4bf9592868685d8223ed
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bf82b9ffc24000244a2666dedf2bb3ff8cd280cb476d6550747807411a4b9475
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918877"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347385"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -48,7 +48,7 @@ Para clientes que estão adotando nosso serviço de Audioconferência do Microso
 
 Além disso, há um limite de 900 minutos durante o período de discagem complementar como tal:
 
-Os usuários com um local de uso de licença (o local é o local do país do usuário definido na área de licenciamento do centro de administração do Microsoft 365) em qualquer ___ país podem discar de uma conferência para qualquer um dos 44 países e regiões de Zona [A.](audio-conferencing-zones.md) Cada usuário recebe 900 minutos por  usuário por mês para qualquer um dos países e regiões de [Zona A](audio-conferencing-zones.md), que são poolados no nível do locatário. Por exemplo, um cliente comprou 115 licenças de assinatura de Audioconferência e tem 10 usuários nos EUA, 100 usuários no Reino Unido e 5 usuários na Índia, todos com licenças de assinatura de Audioconferência atribuídas aos seus usuários.
+Os usuários com um local de uso de licença (o local é o local do país do usuário definido na área de licenciamento do Centro de administração do Microsoft 365) em qualquer _país_ _ podem discar de uma conferência para qualquer um dos 44 países e regiões de Zona [A.](audio-conferencing-zones.md) Cada usuário recebe 900 minutos por  usuário por mês para qualquer um dos países e regiões de [Zona A](audio-conferencing-zones.md), que são poolados no nível do locatário. Por exemplo, um cliente comprou 115 licenças de assinatura de Audioconferência e tem 10 usuários nos EUA, 100 usuários no Reino Unido e 5 usuários na Índia, todos com licenças de assinatura de Audioconferência atribuídas aos seus usuários.
 
 - Todos os 115 usuários compartilham um pool de (115 usuários X 900 min) = 103.500 minutos de discagem de conferência por mês do calendário, que pode ser usado para fazer chamadas de saída para qualquer um dos países e regiões de [Zona A.](audio-conferencing-zones.md)
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Selecione cada recurso que deseja habilitar para o pool de Front-Ends. Implante, no mínimo, o IM (sistema de mensagens instantâneas), que sempre fica habilitado e não pode ser desmarcado. Você também tem a opção de implantar outros recursos, como conferência, Enterprise Voice e o controle de admissão de chamadas. Alguns recursos dependem da sua topologia.
-ms.openlocfilehash: 12fb968a9ed0b1f9c88419158c8774fd0dc9f25c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 82b67016b4e7902e258b73889134f60c59b0cabf59a125d3f1e8bde88011f355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291449"
 ---
 # <a name="add-front-end-features"></a>Adicionar Recursos de Front-end
 

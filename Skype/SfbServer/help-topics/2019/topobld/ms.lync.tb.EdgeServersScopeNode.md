@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'O nó Pools de Borda lista os pools de Borda da sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 3f83bd4ed82a89d053b26181dda61855661c9ab2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'O nó Pools de Borda lista os pools de Borda da sua topologia. É possível realizar a seguinte ação:'
+ms.openlocfilehash: 4782495357c6bee08adb88df5ccac45b75ca4ed79f2e3534c41e9c5a2af48ad3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822501"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291409"
 ---
 # <a name="edge-servers-scope-node"></a>Nó de Escopo de Servidores de Borda
  

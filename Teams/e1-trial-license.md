@@ -15,18 +15,16 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fbc1e51c22fbc2efc5ab286b1082f1169c14e89c2abae573ae810a8be04dd63
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7e1b8eb064b273bbc41b823fba6dae40a83bedbc3085a156cd6770578cd3c53
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849346"
 ---
-<a name="manage-the-office-365-e1-trial"></a>Gerenciar a avaliação do Office 365 E1
-==============================
+# <a name="manage-the-office-365-e1-trial"></a>Gerenciar a avaliação do Office 365 E1
 
 A partir de 01º de julho de 2020, a licença de avaliação do Office 365 E1 não estará mais disponível. Se você precisar licenciar usuários para o Microsoft Teams, leia a [Descrição do serviço do Microsoft Teams](/office365/servicedescriptions/teams-service-description) para obter uma lista de assinaturas pagas que incluem o Teams. Como alternativa, as organizações qualificadas podem usar a **[Versão gratuita do Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, ou os funcionários podem ativar a experiência **[Exploratória do Teams](teams-exploratory.md)**.
-
 
 Se você for um cliente do Teams for Education, consulte a licença gratuita do [Office 365 A1](teams-edu-licensing.md).
 

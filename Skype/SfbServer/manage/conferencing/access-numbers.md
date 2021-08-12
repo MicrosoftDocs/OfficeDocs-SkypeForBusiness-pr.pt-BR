@@ -1,5 +1,5 @@
 ---
-title: 'Gerenciar números de acesso de conferência discada no Skype for Business Server '
+title: 'Gerenciar números de acesso de conferência discagem em Skype for Business Server '
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Resumo: Saiba como gerenciar números de acesso de conferência discada no Skype for Business Server.'
-ms.openlocfilehash: 4008293015beaa684f9a3d9fa0ec0dedf05e5b2b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como gerenciar números de acesso de conferência discagem em Skype for Business Server.'
+ms.openlocfilehash: 58e4de5a2c429a5e36a43f90793fc1e12939b1d235b846ae8db372a2b13d8135
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302495"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gerenciar números de acesso de conferência discada no Skype for Business Server
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gerenciar números de acesso de conferência discagem em Skype for Business Server
  
-**Resumo:** Saiba como gerenciar números de acesso de conferência discada no Skype for Business Server.
+**Resumo:** Saiba como gerenciar números de acesso de conferência discado Skype for Business Server.
   
 Ao implantar uma conferência discada, você precisa configurar números de telefone que os usuários poderão discar da PSTN para participar da parte de áudio das conferências. Esses números de acesso de discagem aparecem nos convites de reunião e na página Configurações de Conferência Discada. 
   
@@ -29,13 +29,13 @@ Este tópico descreve como exibir, modificar ou excluir números de acesso de co
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Exibir números de acesso de conferência discado
 
-Você pode exibir números de acesso à conferência discada usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
+Você pode exibir números de acesso à conferência discada usando o Painel de Controle Skype for Business Server ou usando o Shell de Gerenciamento Skype for Business Server.
   
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Exibir números de acesso discado usando o Painel de Controle do Skype for Business Server
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Exibir números de acesso discado usando Skype for Business Server Painel de Controle
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2.  Abra o Painel de Controle do Skype for Business Server.
+2.  Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação à esquerda, clique em **Conferências**, e então em **Número de acesso discado**.
     
@@ -43,7 +43,7 @@ Você pode exibir números de acesso à conferência discada usando o Painel de 
     
 5. Em **Editar**, marque a caixa **de seleção Mostrar Detalhes.**
     
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Exibir números de acesso discado usando o Shell de Gerenciamento do Skype for Business Server
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Exibir números de acesso discado usando Skype for Business Server Shell de Gerenciamento
 
 Para exibir informações sobre números de acesso discado, use o cmdlet **Get-CsDialInConferencingAccessNumber.**
   
@@ -74,13 +74,13 @@ Para obter mais informações, [consulte Get-CsDialInConferencingAccessNumber](/
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>Modificar números de acesso de conferência discado
 
-Você pode modificar números de acesso discado usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
+Você pode modificar números de acesso discado usando Skype for Business Server Painel de Controle ou usando o Shell de Gerenciamento Skype for Business Server.
   
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Modificar números de acesso discado usando o Painel de Controle do Skype for Business Server
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Modificar números de acesso discado usando Skype for Business Server Painel de Controle
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2.  Abra o Painel de Controle do Skype for Business Server.
+2.  Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação à esquerda, clique em **Conferências**, e então em **Número de acesso discado**.
     
@@ -93,7 +93,7 @@ Você pode modificar números de acesso discado usando o Painel de Controle do S
     
     Esse número é exibido em convites de reunião e na página da Web de Configurações de Conferência Discada.
     
-6. Em **Nome para exibição**, digite uma descrição para o número de acesso de discagem. Esse é o nome associado ao número de acesso discado nos resultados da pesquisa do Skype for Business.
+6. Em **Nome para exibição**, digite uma descrição para o número de acesso de discagem. Esse é o nome associado ao número de acesso discado nos Skype for Business de pesquisa.
     
     Esse nome é exibido no cliente quando um usuário disca o número de acesso. 
     
@@ -109,7 +109,7 @@ Você pode modificar números de acesso discado usando o Painel de Controle do S
     > [!NOTE]
     > O mesmo URI do SIP não pode ser reusado por outro número de acesso de conferência discada. O URI do SIP não pode ser modificado depois de o número de acesso ter sido criado. A única maneira de altera o URI do SIP é excluir e recriar o número de acesso. 
   
-   Na caixa lista listada, clique no domínio do aplicativo Atendedor de Conferência que oferece suporte a esse número de acesso discado.
+   Na caixa lista listada, clique no domínio do aplicativo Atendedor de Conferência que dá suporte a esse número de acesso discado.
     
 9. Em **Pool**, clique no pool que está executado a instância Atendedor de Conferência que dá suporte ao número de acesso de discagem.
     
@@ -130,7 +130,7 @@ Você pode modificar números de acesso discado usando o Painel de Controle do S
     
 14. Clique em **Confirmar**.
     
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Modificar números de acesso discado usando o Shell de Gerenciamento do Skype for Business Server
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Modificar números de acesso discado usando Skype for Business Server Shell de Gerenciamento
 
 Para modificar números de acesso discado, use o cmdlet **Set-CsDialInConferencingAccessNumber.**
   
@@ -150,13 +150,13 @@ Para obter mais informações, [consulte Set-CsDialInConferencingAccessNumber](/
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>Excluir um número de acesso de conferência discado
 
-Você pode excluir um número de acesso de conferência discada usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
+Você pode excluir um número de acesso de conferência discada usando o Painel de Controle Skype for Business Server ou usando o Shell de Gerenciamento Skype for Business Server.
   
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Excluir um número de acesso de conferência discada usando o Painel de Controle do Skype for Business Server
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Excluir um número de acesso de conferência discada usando Skype for Business Server Painel de Controle
 
-1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou Skype for Business Server.
     
-2.  Abra o Painel de Controle do Skype for Business Server.
+2.  Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação à esquerda, clique em **Conferências**, e então em **Número de acesso discado**.
     
@@ -164,7 +164,7 @@ Você pode excluir um número de acesso de conferência discada usando o Painel 
     
 5. Clique em **OK**.
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Excluir um número de acesso de conferência discada usando o Shell de Gerenciamento do Skype for Business Server
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Excluir um número de acesso de conferência discada usando Skype for Business Server Shell de Gerenciamento
 
 Para excluir um número de acesso de conferência discada, use **Remove-CsDialInConferencingAccessNumber**.
   
