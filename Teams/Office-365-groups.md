@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Saiba mais sobre como Microsoft 365 grupos e associações de grupo funcionam com Microsoft Teams.
-ms.openlocfilehash: d258fa4252f6bbb02d2b9a8211dd5919c2d7a67b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282894"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Grupos e Microsoft Teams
 
@@ -42,9 +42,9 @@ Ao criar um grupo Microsoft 365 no Outlook ou SharePoint, a caixa de correio de 
 
 ## <a name="group-membership"></a>Associação a grupos
 
-Se você remover um membro de uma equipe, eles também serão removidos Microsoft 365 grupo. A remoção do grupo remove imediatamente a equipe e os canais do Teams cliente. Se você remover uma pessoa de um grupo usando o centro de administração do Microsoft 365, ela não terá mais acesso aos outros aspectos colaborativos, como biblioteca de documentos do SharePoint Online, grupo Yammer ou OneNote. No entanto, eles ainda terão acesso à funcionalidade de chat da equipe por aproximadamente duas horas.
+Se você remover um membro de uma equipe, eles também serão removidos Microsoft 365 grupo. A remoção do grupo remove imediatamente a equipe e os canais do Teams cliente. Se você remover uma pessoa de um grupo usando o Centro de administração do Microsoft 365, ela não terá mais acesso aos outros aspectos colaborativos, como biblioteca de documentos do SharePoint Online, grupo Yammer ou OneNote. No entanto, eles ainda terão acesso à funcionalidade de chat da equipe por aproximadamente duas horas.
 
-Como prática prática de gerenciamento de membros da equipe, adicione e remova-os do cliente Teams para garantir que as atualizações de permissões para outras cargas de trabalho conectadas a grupos ocorram rapidamente. Se você adicionar ou remover membros da equipe fora do cliente Teams (usando o centro de administração do Microsoft 365, o Azure AD ou o Exchange Online PowerShell), pode levar até 24 horas para que as alterações sejam refletidas no Teams.
+Como prática prática de gerenciamento de membros da equipe, adicione e remova-os do cliente Teams para garantir que as atualizações de permissões para outras cargas de trabalho conectadas a grupos ocorram rapidamente. Se você adicionar ou remover membros da equipe fora do cliente Teams (usando o Centro de administração do Microsoft 365, o Azure AD ou o Exchange Online PowerShell), pode levar até 24 horas para que as alterações sejam refletidas no Teams.
 
 ## <a name="deleting-groups-and-teams"></a>Excluir grupos e equipes
 

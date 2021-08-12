@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aacc1166-0f3b-4593-9747-85bb42ee4599
 description: Se o endereço IP deste pool de Borda for convertido por uma NAT (conversão de endereços de rede), será necessário especificar o endereço IP público a ser convertido. Esse endereço deve ser o endereço IP externo do serviço de Borda A/V.
-ms.openlocfilehash: 444571787846944b51ff52a1e0e5170cc2718e0c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e889242cedbcc9092f196944ec4d824a5bcc80a79f40677c5e5a684c0dab914c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284841"
 ---
 # <a name="add-edge-server-nat-ip-2010"></a>Adicionar IP NAT de Servidor de Borda 2010
  

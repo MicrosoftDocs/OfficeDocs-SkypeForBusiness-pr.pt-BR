@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.custom: httpsfix
 description: O tópico a seguir fornece orientações para atualizar entradas DNS, mover o Servidor de Gerenciamento de Conteúdo, desativar pools e desativar e remover servidores e pools de uma implantação herdda. Nem todos os procedimentos listados nesta seção são obrigatórios. Leia a documentação e determine qual procedimento de descomissionamento usar.
-ms.openlocfilehash: b1080c68e3b4075ce92aaef497854855135dc47d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285511"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Encerrar os pools herdados
 
@@ -32,7 +32,7 @@ Para um artigo datado, porém exaustivo, sobre a remoção de servidores e funç
 
 > [Atualizar registros de DNS SRV](update-dns-srv-records.md)
 > 
-> [Mover o Servidor de Gerenciamento Central de instalação herdada para o Skype for Business Server 2019](move-the-central-management-server.md)
+> [Mover o Servidor de Gerenciamento Central de instalação herdado para Skype for Business Server 2019](move-the-central-management-server.md)
 > 
 > [Mover diretórios de conferência](move-conference-directories.md)
 > 
@@ -40,6 +40,6 @@ Para um artigo datado, porém exaustivo, sobre a remoção de servidores e funç
 > 
 > [Remover a associação do Servidor de Monitoramento](remove-the-monitoring-server-association.md)
 > 
-> [Remover o Servidor front-end enterprise edition ou o servidor front-end standard edition](remove-the-front-end-server.md)
+> [Remover o servidor Edição Enterprise front-end ou Edição Standard servidor front-end](remove-the-front-end-server.md)
 > 
 > [Remover instâncias SQL Server e bancos de dados no Servidor Back-End](remove-sql-server-instances-and-databases-on-the-back-end-server.md)

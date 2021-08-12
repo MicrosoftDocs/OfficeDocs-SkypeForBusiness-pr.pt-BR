@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48fedc9050b397e3c14f76a240e34f192b9d7565
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7801e2a80f65e90a26cd99124047f229c04222a8b4d846acf53bd46a9d8510f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285660"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar os comentários e relatórios de adoção do Microsoft Teams
 
-Certifique-se de que você está recebendo sinais de volta do seu serviço e de seus funcionários seguindo nossas práticas recomendadas para comentários do usuário e relatórios de saúde do serviço.  Em alguns casos, você pode precisar de direitos de administrador para acessar determinados relatórios de uso e de saúde do serviço. Se você não for o administrador Microsoft 365 ou Office 365 sua organização, trabalhe com esse indivíduo para ter a função de leitor de relatório no centro de administração do Microsoft 365 para acessar alguns desses dados.
+Certifique-se de que você está recebendo sinais de volta do seu serviço e de seus funcionários seguindo nossas práticas recomendadas para comentários do usuário e relatórios de saúde do serviço.  Em alguns casos, você pode precisar de direitos de administrador para acessar determinados relatórios de uso e de saúde do serviço. Se você não for o administrador Microsoft 365 ou Office 365 sua organização, trabalhe com esse indivíduo para ter a função de leitor de relatório no Centro de administração do Microsoft 365 acessar alguns desses dados.
 
 ## <a name="incorporating-feedback"></a>Incorporando comentários 
 

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
-description: O Backup-CcCertificationAuthority o cmdlet faz o back up do serviço de autoridade de certificação do Skype for Business Cloud Connector Edition em um arquivo e o salva na pasta ac no diretório de compartilhamento de site.
-ms.openlocfilehash: 4e12b2349f5834866fc69442fb2947425416fe23
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O Backup-CcCertificationAuthority cmdlet faz o back-up do serviço de autoridade de certificação do Skype for Business Cloud Connector Edition em um arquivo e o salva na pasta ca no diretório de compartilhamento de sites.
+ms.openlocfilehash: abf94977abe2a0c3548b549ae0101ae399e124769eaaa9f05aabf203c69656a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282953"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
-O Backup-CcCertificationAuthority o cmdlet faz o back up do serviço de autoridade de certificação do Skype for Business Cloud Connector Edition em um arquivo e o salva na pasta ac no diretório de compartilhamento de site.
+O Backup-CcCertificationAuthority cmdlet faz o back-up do serviço de autoridade de certificação do Skype for Business Cloud Connector Edition em um arquivo e o salva na pasta ca no diretório de compartilhamento de sites.
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -37,7 +37,7 @@ Nenhum
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir faz o back up do serviço de autoridade de certificação em um arquivo e o salva na pasta AC sob o diretório de compartilhamento de site:
+O exemplo a seguir faz o back up the certification authority service to a file and saves it to the CA folder under the site share directory:
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -46,17 +46,17 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O backup da autoridade de certificação pode ser útil se você planeja reimplantar um dispositivo do Cloud Connector com o mesmo certificado em caso de desastre ou se quiser mover o dispositivo para um novo hardware. O comando salva a cópia do serviço de autoridade de certificação do Cloud Connector do Servidor AD em " \< SiteRootDirectory \> \CA\SfB CCE Root.p12".
+O backup da autoridade de certificação pode ser útil se você planeja reimplantar um dispositivo do Cloud Connector com o mesmo certificado em caso de desastre ou se quiser mover o dispositivo para um novo hardware. O comando salva a cópia do serviço de autoridade de certificação do Cloud Connector do AD Server para " \<SiteRootDirectory\> \CA\SfB CCE Root.p12".
   
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O Backup-CcCertificationAuthority cmdlet não aceita entrada em pipeline.
+Nenhum. O Backup-CcCertificationAuthority cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

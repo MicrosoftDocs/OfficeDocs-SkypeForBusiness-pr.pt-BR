@@ -1,5 +1,5 @@
 ---
-title: Planejar bypass de mídia no Skype for Business
+title: Planejar o bypass de mídia Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
-description: Decisões necessárias para o planejamento de bypass de mídia no Skype for Business Server Enterprise Voice. Inclui a interoperação com o controle de admissão de chamada (CAC).
-ms.openlocfilehash: 62a3c1605c7a54043539bc94892fdb8e3923f21a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Decisões necessárias para o planejamento de bypass de mídia Skype for Business Server Enterprise Voice. Inclui a interoperação com o controle de admissão de chamada (CAC).
+ms.openlocfilehash: 386272fd2a20d2d780f146c8eb03d75878cdf69cdfa27145d42c0421ba4ba91f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284697"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business"></a>Planejar bypass de mídia no Skype for Business
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>Planejar o bypass de mídia Skype for Business
 
-Decisões necessárias para o planejamento de bypass de mídia no Skype for Business Server Enterprise Voice. Inclui a interoperação com o controle de admissão de chamada (CAC).
+Decisões necessárias para o planejamento de bypass de mídia Skype for Business Server Enterprise Voice. Inclui a interoperação com o controle de admissão de chamada (CAC).
 
 Desvio de mídia refere-se à remoção do Servidor de Mediação do caminho da mídia, sempre que possível para chamadas cuja sinalização percorre o Servidor de Mediação.
 
@@ -41,7 +41,7 @@ A figura a seguir exibe caminhos de mídia e sinalização básicos em topologia
 
 ![Imposição de conexão de bypass de mídia do CAC de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-O bypass de mídia é útil quando você deseja minimizar o número de Servidores de Mediação implantados. Geralmente, um pool de Servidores de Mediação será implantado em um site central e controlará os gateways em sites locais. Habilitar o bypass de mídia permite que a mídia para chamadas PSTN de clientes em sites locais flua diretamente pelos gateways para estes sites. As rotas de chamadas de saída do Skype for Business Server e as políticas de Enterprise Voice devem ser configuradas corretamente para que as chamadas PSTN de clientes em um site de filial sejam roteadas para o gateway apropriado.
+O bypass de mídia é útil quando você deseja minimizar o número de Servidores de Mediação implantados. Geralmente, um pool de Servidores de Mediação será implantado em um site central e controlará os gateways em sites locais. Habilitar o bypass de mídia permite que a mídia para chamadas PSTN de clientes em sites locais flua diretamente pelos gateways para estes sites. Skype for Business Server de chamadas de saída e Enterprise Voice políticas devem ser configuradas corretamente para que as chamadas PSTN de clientes em um site de filial sejam roteadas para o gateway apropriado.
 
 As redes Wi-Fi geralmente enfrentam uma maior perda de pacotes do que as redes com fio. A recuperação desta perda de pacotes não é algo que geralmente possa ser acomodado por gateways. Assim, recomendamos a avaliação da qualidade da rede Wi-Fi antes de determinar se o bypass deve estar habilitado para uma sub-rede sem fio. Há uma compensação na redução da latência contra a recuperação da perda de pacotes a considerar. RTAudio, um codec disponível para chamadas que não ignorem o Servidor de Mediação, é mais adequado para tratar da perda de pacotes.
 
@@ -109,12 +109,12 @@ O desvio de mídia e o controle de admissão de chamadas trabalham juntos para g
 
 ## <a name="technical-requirements"></a>Requisitos técnicos
 
-Para cada chamada para a PSTN, o Servidor de Mediação determina se a mídia do ponto de extremidade do Skype for Business pode ser enviada diretamente para um par do Servidor de Mediação sem atravessar o Servidor de Mediação. O par pode ser um gateway PSTN, um IP-PBX ou um SBC (Controlador de Borda de Sessão) em um ITSP (provedor de serviços de telefonia da Internet) associado ao tronco entre o Servidor de Mediação para o qual a chamada é encaminhada.
+Para cada chamada para o PSTN, o Servidor de Mediação determina se a mídia do ponto de extremidade Skype for Business de origem pode ser enviada diretamente para um par do Servidor de Mediação sem atravessar o Servidor de Mediação. O par pode ser um gateway PSTN, um IP-PBX ou um SBC (Controlador de Borda de Sessão) em um ITSP (provedor de serviços de telefonia da Internet) associado ao tronco entre o Servidor de Mediação para o qual a chamada é encaminhada.
 
 O desvio de mídia pode ser empregado quando os seguintes requisitos são atendidos:
 
 - Um par do Servidor de Mediação deve dar suporte aos recursos necessários para o bypass de mídia, o mais importante é a capacidade de lidar com várias respostas bifurcadas (conhecidas como "caixas de diálogo in-loco"). Contate o fabricante do seu gateway ou PBX ou seu ITSP para obter o valor do número máximo de caixas de diálogo iniciais que o gateway, o PBX ou o SBC pode aceitar.
 
-- O par do Servidor de Mediação deve aceitar o tráfego de mídia diretamente dos pontos de extremidade do Skype for Business. Muitos ITSPs permitem que seu SBC receba tráfego apenas do Servidor de Mediação. Entre em contato com seu ITSP para determinar se o SBC aceita o tráfego de mídia diretamente dos pontos de extremidade do Skype for Business.
+- O par do Servidor de Mediação deve aceitar o tráfego de mídia diretamente Skype for Business pontos de extremidade. Muitos ITSPs permitem que seu SBC receba tráfego apenas do Servidor de Mediação. Entre em contato com o ITSP para determinar se o SBC aceita o tráfego de mídia diretamente Skype for Business pontos de extremidade.
 
-- Os clientes do Skype for Business e um par do Servidor de Mediação devem estar bem conectados, o que significa que eles estão localizados na mesma região de rede ou em sites de rede que se conectam à região por meio de links WAN que não têm restrições de largura de banda
+- Skype for Business clientes e um par do Servidor de Mediação devem estar bem conectados, o que significa que eles estão localizados na mesma região de rede ou em sites de rede que se conectam à região por meio de links WAN que não têm restrições de largura de banda

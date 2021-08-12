@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: Configure um aplicativo SNMP para trabalhar com o E9-1-1 no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: f8b4c7503524dacdc20e85fc68f0a79286e38c2e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Configure um aplicativo SNMP para trabalhar com o E9-1-1 em Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: cf1dcb324360f5bb85066f97300ebe97b6cf084edb7d784be0e33ae9c93d19ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283883"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Configurar um aplicativo SNMP no Skype for Business Server
  
-Configure um aplicativo SNMP para trabalhar com o E9-1-1 no Skype for Business Server Enterprise Voice. 
+Configure um aplicativo SNMP para trabalhar com o E9-1-1 em Skype for Business Server Enterprise Voice. 
   
-O Skype for Business Server inclui uma interface de serviço Web padrão que você pode usar para conectar o serviço de Informações de Localização a aplicativos SNMP (Simple Network Management Protocol) que combinam endereços MAC com informações de porta e de comutamento. 
+Skype for Business Server inclui uma interface de serviço Web padrão que você pode usar para conectar o serviço de Informações de Localização a aplicativos SNMP (Protocolo de Gerenciamento de Rede Simples) que combinam endereços MAC com informações de porta e de comutamento. 
   
 Se um aplicativo SNMP estiver instalado e o serviço de Informações de Localização não encontrar uma combinação no banco de dados de localização, o serviço de Informações de Local consultará automaticamente o aplicativo usando o endereço MAC fornecido pelo cliente. Em seguida, o serviço Informações de Local usa as informações de porta e alternam retornadas pelo aplicativo SNMP para consultar o banco de dados de localização novamente.
   
 > [!NOTE]
-> Os endereços MAC não estão disponíveis em computadores que executam o Windows 8. 
+> Os endereços MAC não estão disponíveis em computadores que executam Windows 8. 
   
 ### <a name="to-configure-the-snmp-application-url"></a>Para configurar a URL do aplicativo SNMP
 
-1.  Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1.  Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 2. Execute o seguinte cmdlet para configurar a URL do aplicativo SNMP. 
     

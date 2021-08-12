@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia do COVID-19 (Coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3196796e702a458d7bbf813e5bed8166b764b0de
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7e132251623de86ad9635b03b13b9eb6dbc0aed40752fb916fcff23b9fd4ede1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284112"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Ofereça suporte aos funcionários públicos remotos que usam o Microsoft Teams
 

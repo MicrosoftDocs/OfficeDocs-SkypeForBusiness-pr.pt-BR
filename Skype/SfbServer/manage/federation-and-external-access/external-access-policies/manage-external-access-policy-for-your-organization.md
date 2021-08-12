@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Depois de implantar um ou mais Servidores de Borda, você deve habilitar os tipos de acesso externo que terão suporte na sua organização.
-ms.openlocfilehash: 71797e865860107d23095659461c1b02e6d47cd7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0de747552ff19852d7947178e0882aec227c9e2d75f9210597f8183b6703f101
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817251"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284751"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Gerenciar a política de acesso externo da sua organização
 
@@ -28,11 +28,11 @@ Depois de implantar um ou mais Servidores de Borda, você deve habilitar os tipo
 
 Por padrão, não há políticas configuradas para suportar o acesso de usuário externo, incluindo o acesso de usuário remoto, acesso de usuário federado, mesmo que você já tenha habilitado o suporte de acesso de usuário externo para sua organização. Para controlar o uso de acesso de usuário externo, você deve configurar uma ou mais políticas, especificando o tipo de acesso de usuário externo suportado para cada política. Os escopos da política a seguir estão disponíveis para criação e configuração. Por padrão, a política global é criada, mas não pode ser excluída.
 
-  - **Política global**   A política global é criada quando você implanta seus Servidores de Borda. Por padrão, nenhuma opção de acesso do usuário externo está habilitada na política global. Para suportar o acesso do usuário externo a nível global, você deve configurar a política global para suportar um ou mais tipos de opções de acesso do usuário externo. A política global se aplica a todos os usuários na sua organização, mas as políticas locais e as políticas de usuário substituem a política global. Ao excluir a política global, ela não é removida. Ao invés, é redefinida para a configuração padrão.
+  - **Política global**   A política global é criada quando você implanta seus Servidores de Borda. Por padrão, nenhuma opção de acesso de usuário externo está habilitada na política global. Para suportar o acesso de usuário externo em nível global, configure a política global para suportar um ou mais tipos de opções de acesso de usuário externo. A política global se aplica a todos os usuários na sua organização, mas as políticas de site e de usuário substituem a política global. Se você excluir a política global, ela não será removida. Em vez disso, ela será redefinida para a configuração padrão.
 
-  - **Política de site**   Você pode criar e configurar uma ou mais políticas de site para limitar o suporte ao acesso de usuários externos a sites específicos. A configuração da política de local substitui a política global, mas apenas para o local específico e coberto por essa política. Por exemplo, se você ativar o acesso de usuário remoto na política global, pode especificar uma política de local que o desative para um local específico. Por padrão, a política de local é aplicada a todos os usuários do local, mas você pode atribuir uma política de usuário para substituir a configuração da política de local.
+  - **Política de local**   Você pode criar e configurar uma ou mais políticas de local para limitar o suporte do acesso de usuário externo a locais específicos. A configuração da política de local substitui a política global, mas apenas para o local específico e coberto por essa política. Por exemplo, se você ativar o acesso de usuário remoto na política global, pode especificar uma política de local que o desative para um local específico. Por padrão, a política de local é aplicada a todos os usuários do local, mas você pode atribuir uma política de usuário para substituir a configuração da política de local.
 
-  - **Política de usuário**   Você pode criar e configurar uma ou mais políticas de usuário para limitar o suporte ao acesso de usuário remoto a usuários específicos. A configuração da política de usuário substitui a política global e a do local, mas apenas para usuários específicos aos quais a política de usuário é atribuída. Por exemplo, se você ativar o acesso de usuário remoto na política global e na de local, deve especificar uma política de usuário que a desative e depois atribuir essa política de usuário a usuários específicos. Se você criar uma política de usuário, deve aplicá-la a um ou mais usuários antes que ela surta efeito.
+  - **Política de usuário**   Você pode criar e configurar uma ou mais políticas de usuário para limitar o suporte do acesso de usuário remoto a usuáruis específicos. A configuração da política de usuário substitui a política global e a do local, mas apenas para usuários específicos aos quais a política de usuário é atribuída. Por exemplo, se você ativar o acesso de usuário remoto na política global e na de local, deve especificar uma política de usuário que a desative e depois atribuir essa política de usuário a usuários específicos. Se você criar uma política de usuário, deve aplicá-la a um ou mais usuários antes que ela surta efeito.
 
 
 > [!IMPORTANT]  
@@ -41,10 +41,10 @@ Por padrão, não há políticas configuradas para suportar o acesso de usuário
 
 Essas opções incluem os seguintes tipos de acesso externo:
 
-  - **Habilitar comunicações com usuários federados**   Habilita isso se quiser dar suporte ao acesso de usuário a domínios de parceiros federados. Essa configuração define a capacidade dos usuários se comunicarem com outros domínios sip federados, bem como com provedores hospedados como o Microsoft 365 ou o Office 365. 
+  - **Habilitar comunicações com usuários federados**   Habilita isso se quiser dar suporte ao acesso do usuário a domínios de parceiros federados. Essa configuração configura a capacidade de os usuários se comunicarem com outros domínios federados SIP, bem como provedores hospedados, como Microsoft 365 ou Office 365. 
 
 
-  - **Habilitar comunicações com usuários remotos**   Habilita essa opção se quiser que os usuários em sua organização que estão fora do firewall, como telecomutadores e usuários que estejam viajando, sejam capazes de se conectar ao Skype for Business Server pela Internet.
+  - **Habilitar comunicações com usuários remotos**   Habilita essa opção se você quiser que os usuários em sua organização que estejam fora do firewall, como os operadores de telecomunicações e os usuários que estão viajando, sejam capazes de se conectar ao Skype for Business Server pela Internet.
 
   - **Habilitar comunicações com usuários públicos**   Habilita essa opção se quiser que os usuários internos sejam capazes de se comunicar com contatos do provedor de IM público.
    

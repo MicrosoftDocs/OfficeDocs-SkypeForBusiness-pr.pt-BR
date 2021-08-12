@@ -13,35 +13,35 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
-description: 'Resumo: Revise este tópico ao planejar a integração do Skype for Business Server com o Exchange 2013.'
-ms.openlocfilehash: 3ce06118f8225e78c5c84a8f9124e4815f79d593
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: revise este tópico ao planejar a integração Skype for Business Server com Exchange 2013.'
+ms.openlocfilehash: 12f76c1e10eea445adb21147c20ab79f33e38f3c8c578aeab8ec24296bb06594
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816251"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284621"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planejar o armazenamento unificado de contatos no Skype for Business Server 2015
  
-**Resumo:** Revise este tópico ao planejar a integração do Skype for Business Server com o Exchange 2013 ou 2016.
+**Resumo:** Revise este tópico ao planejar a integração Skype for Business Server com Exchange 2013 ou 2016.
   
-O armazenamento unificado de contatos fornece uma experiência de contato consistente em produtos do Microsoft Office e permite que os usuários armazenem todas as informações de contato no Exchange 2013, mas permite que as informações sejam disponibilizadas globalmente no Skype for Business, Exchange, Outlook e Outlook Web Access.
+O armazenamento unificado de contatos fornece uma experiência de contato consistente em produtos Microsoft Office e permite que os usuários armazenem todas as informações de contato no Exchange 2013, mas permite que as informações sejam disponibilizadas globalmente em Skype for Business, Exchange, Outlook e Outlook Web Access.
   
 ## <a name="requirements-for-unified-contact-store"></a>Requisitos para o armazenamento unificado de contatos
 
-Para implementar o armazenamento unificado de contatos no Skype for Business Server:
+Para implementar o armazenamento unificado de contatos Skype for Business Server:
   
-- Você deve estar executando o Skype for Business Server e o Exchange 2013 ou 2016.
+- Você deve estar executando Skype for Business Server e Exchange 2013 ou 2016.
     
-- Os usuários devem usar o Skype for Business para migrar seus contatos do Skype for Business Server para o Exchange 2013 ou 2016.
+- Os usuários devem usar Skype for Business para migrar seus contatos do Skype for Business Server para Exchange 2013 ou 2016.
     
-- As caixas de correio do usuário devem ser migradas para o Exchange 2013.
+- As caixas de correio de usuário devem ser migradas para Exchange 2013.
     
-- Você deve ter a autenticação de servidor para servidor configurada entre o Skype for Business Server e o Exchange 2013 ou 2016.
+- Você deve ter a autenticação servidor para servidor configurada entre Skype for Business Server e Exchange 2013 ou 2016.
     
     > [!NOTE]
-    > Para requisitos detalhados sobre como configurar a autenticação entre o Skype for Business Server e o Exchange 2013 ou 2016, consulte [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) in the Operations documentation.
+    > Para requisitos detalhados sobre como configurar a autenticação entre o Skype for Business Server e o Exchange 2013 ou 2016, consulte [Manage server-to-server authentication (OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md) and partner applications in Skype for Business Server na documentação Operações.
   
 ## <a name="see-also"></a>Confira também
 
-[Implantar o armazenamento unificado de contatos no Skype for Business Server](../../deploy/deploy-unified-contact-store.md)
+[Implantar o armazenamento unificado de contatos Skype for Business Server](../../deploy/deploy-unified-contact-store.md)

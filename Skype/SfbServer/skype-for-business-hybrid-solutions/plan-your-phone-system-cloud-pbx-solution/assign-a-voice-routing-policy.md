@@ -18,41 +18,41 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
-description: 'Resumo: leia este tópico para saber como atribuir uma política de voz para usuários que usam o Sistema de Telefonia com conectividade PSTN local.'
-ms.openlocfilehash: 43e2b560cc0886bacd6faaec6c113ee1f237eff7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: leia este tópico para saber como atribuir uma política de voz para usuários que usam Sistema de Telefonia com conectividade PSTN local.'
+ms.openlocfilehash: f01fcc314cd618150df2c67a2de8b4ea3ee8f9bd7fdb5f4a4c8b3ae24537ee3f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282993"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Atribuir uma política de roteamento de voz
  
 > [!Important]
-> O Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto](/MicrosoftTeams/direct-routing-landing-page).
+> Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
 
-**Resumo:** Leia este tópico para saber como atribuir uma política de voz para usuários que usam o Sistema de Telefonia com conectividade PSTN local. 
+**Resumo:** Leia este tópico para saber como atribuir uma política de voz para usuários que usam Sistema de Telefonia com conectividade PSTN local. 
   
-Quando um usuário está no Skype for Business Online e usa o Sistema de Telefonia com conectividade PSTN local, duas políticas de voz serão aplicadas a eles. Um deles é uma política de roteamento de voz local que você atribuirá no local. Essa política pode ser global ou específica do usuário e define quais registros de uso PSTN estão associados ao usuário. Este tópico explica como atribuir essa política.
+Quando um usuário está no Skype for Business Online e usando Sistema de Telefonia com conectividade PSTN local, duas políticas de voz serão aplicadas a eles. Um deles é uma política de roteamento de voz local que você atribuirá no local. Essa política pode ser global ou específica do usuário e define quais registros de uso PSTN estão associados ao usuário. Este tópico explica como atribuir essa política.
   
-A outra política de voz define quais recursos de chamada estão disponíveis para o usuário; essa política de voz é definida pela Microsoft e é idêntica para todos os sistemas de telefonia com usuários de conectividade PSTN locais. Ele é atribuído automaticamente aos usuários do Sistema de Telefonia.
+A outra política de voz define quais recursos de chamada estão disponíveis para o usuário; essa política de voz é definida pela Microsoft e é idêntica para todos os Sistema de Telefonia com usuários de conectividade PSTN locais. Ele é atribuído automaticamente aos Sistema de Telefonia usuários.
   
-||**Usuário local**|**Sistema de Telefonia com usuário de conectividade PSTN local**|
+||**Usuário local**|**Sistema de Telefonia com o usuário de conectividade PSTN local**|
 |:-----|:-----|:-----|
-|Recursos de chamada definidos em  <br/> |Política de voz  <br/> |Política de voz pré-definida, atribuída automaticamente quando o usuário é licenciado para o Sistema de Telefonia.  <br/> |
+|Recursos de chamada definidos em  <br/> |Política de voz  <br/> |Política de voz pré-definida, atribuída automaticamente quando o usuário é licenciado para Sistema de Telefonia.  <br/> |
 |Registros de uso de PSTN associados  <br/> |Política de voz  <br/> |Política de roteamento de voz, atribuída enquanto o usuário ainda está no local.  <br/> |
    
 Execute as etapas a seguir usando sua implantação local, enquanto o usuário ainda está na implantação local.
   
 ## <a name="using-a-global-voice-routing-policy"></a>Usando uma política de roteamento de voz global
 
-Antes de usar uma política de roteamento de voz global para seu Sistema de Telefonia com usuários de conectividade PSTN locais, você deve adicionar registros de uso PSTN à política.
+Antes de usar uma política de roteamento de voz global para sua Sistema de Telefonia com usuários de conectividade PSTN locais, você deve adicionar registros de uso PSTN à política.
   
 ### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a>Para atribuir registros de uso PSTN à política de roteamento de voz global
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Adicione os registros de uso PSTN à política:
     
@@ -72,7 +72,7 @@ Antes de usar uma política de roteamento de voz global para seu Sistema de Tele
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Crie uma nova política de roteamento de voz:
     
@@ -96,7 +96,7 @@ Não importa se você usa a política de roteamento de voz global ou as específ
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 3. Atribua uma política de voz existente a um usuário:
     

@@ -1,5 +1,5 @@
 ---
-title: Assistente Híbrido Editar Usuários
+title: Usuários de Edição do Assistente Híbrido
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use o assistente Editar Usuários para modificar as contas de usuário em sua implantação. Para obter mais informações, consulte Usar o assistente de Capacidade de Gerenciamento Híbrida.
-ms.openlocfilehash: 1dc7c62c5f10032df5b2915972f1ac9a4bfa6c75
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Use o assistente Editar Usuários para modificar as contas de usuário em sua implantação. Para obter mais informações, consulte Use the Hybrid Manageability wizard.
+ms.openlocfilehash: b7d3a3453ec7c706aab79829dfa6c10ebd7b29d0c0668a0f531aec84d024d420
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285461"
 ---
 # <a name="hybrid-wizard-edit-users"></a>Assistente Híbrido: Editar usuários
 
-Use o assistente Editar Usuários para modificar as contas de usuário em sua implantação. Para obter mais informações, [consulte Usar o assistente de Gerenciabilidade Híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)
+Use o assistente Editar Usuários para modificar as contas de usuário em sua implantação. Para obter mais informações, [consulte Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
 
 

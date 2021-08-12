@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ada92509adc0f066bf957ddaa8f5de8dd0c47653
-ms.sourcegitcommit: 8906fc384cd13255972df53d2a07d12589154d42
+ms.openlocfilehash: 1859286fd14e3820a75615adc5da82fea863e74101e5a7911e888490e5799db3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52085843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285800"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Perguntas frequentes sobre governança do Microsoft Education para administradores
 
@@ -38,7 +38,7 @@ Para evitar nomes inadequados ou enganoso ou apenas para fornecer mais estrutura
 -   **Classificação** Você pode criar classificações que os usuários em sua organização podem definir quando eles criam um Microsoft 365 Group. 
 
 > [!IMPORTANT]
-> Usar Microsoft 365 Política de Azure Active Directory Premium Nomenização de Grupos requer licenças P1 ou licenças do Azure AD Basic EDU para cada usuário exclusivo que seja membro de um ou mais grupos Microsoft 365.
+> O uso Microsoft 365 Política de Nomenis de Grupos requer licenças Azure Active Directory Premium P1 ou licenças EDU básicas do Azure AD para cada usuário exclusivo que seja membro de um ou mais grupos Microsoft 365.
 
 Para obter instruções detalhadas, [consulte Office política de nomenis de nomes de grupos.](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
@@ -78,7 +78,7 @@ Recomendamos que você pense primeiro em como você deseja lidar com os dados Te
 -   **Equipe de arquivamento:** Essa configuração coloca as equipes no modo somente leitura. Eles ainda podem ser navegados e pesquisados, mas ninguém pode adicionar novas postagens. [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) descreve como os proprietários de equipe podem arquivar uma equipe; Os proprietários de equipe também podem usar [a API Graph (beta)](/graph/api/resources/teams-api-overview) para arquivar ou restaurar uma equipe.
  
 > [!IMPORTANT]
-> O uso Microsoft 365 Política de Expiração de Grupos exige Azure Active Directory Premium P1 para cada usuário exclusivo que seja membro de um ou mais grupos Microsoft 365 grupos.
+> O uso Microsoft 365 Política de Expiração de Grupos requer Azure Active Directory Premium P1 licenças para cada usuário exclusivo que seja membro de um ou mais grupos Microsoft 365 grupos.
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>Há modelos de equipe para os membros do meu corpo docente usarem ao criar uma equipe?
 

@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, quais recursos você obterá com ele, como comprá-las para seu produto e como usar sua operadora existente com elas. Você pode obter informações sobre preços e detalhes dos planos do Office 365, Créditos de Comunicação e planos de Chamadas. '
-ms.openlocfilehash: 5bbd455a0cb3bf2bff8bc7bf0dd4362135214a39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 39bc25454e5a8be7513c17124392ab1201bdcafccb821dd3f3e176de8246596e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283903"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licenciamento de complementos do Skype for Business
 
@@ -84,7 +84,7 @@ Para uma lista detalhada de recursos e comparações para cada plano Skype for B
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Como ver os preços e comprar licenças complementares
 <a name="bkmk_how"> </a>
 
- **Depois de comprar um Microsoft 365,** você verá preços e comprar complementos por meio do centro de administração Microsoft 365 de administração.
+ **Depois de comprar um Microsoft 365,** você verá preços e comprar complementos por meio do Centro de administração do Microsoft 365 .
 
 Dependendo dos complementos que desejar, recomendamos [que faça uma comparação para determinar o custo-benefício](https://go.microsoft.com/fwlink/?linkid=844053) de mudar para um plano que já inclua aqueles recursos.
 

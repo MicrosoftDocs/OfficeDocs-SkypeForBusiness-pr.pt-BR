@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use a caixa de diálogo Selecionar do Active Directory para encontrar contatos que você deseja habilitar para o Skype for Business. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do contato que deseja localizar. Para recuperar todos os contatos disponíveis, deixe a caixa de pesquisa vazia.
-ms.openlocfilehash: 20b3c4355f773c0eaad0a6053bf460128dcbe03c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Use a caixa de diálogo Selecionar do Active Directory para encontrar contatos que você deseja habilitar para Skype for Business. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do contato que deseja localizar. Para recuperar todos os contatos disponíveis, deixe a caixa de pesquisa vazia.
+ms.openlocfilehash: c981de5361e734249a9ab57322118fcc13f1c24a4a345be3627fcd233334af5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285351"
 ---
 # <a name="select-contacts-from-active-directory"></a>Selecionar Contatos no Active Directory
  
-Use a **caixa de diálogo Selecionar** do Active Directory para encontrar contatos que você deseja habilitar para o Skype for Business. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do contato que deseja localizar. Para recuperar todos os contatos disponíveis, deixe a caixa de pesquisa vazia.
+Use a **caixa de diálogo** Selecionar do Active Directory para encontrar contatos que você deseja habilitar para Skype for Business. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do contato que deseja localizar. Para recuperar todos os contatos disponíveis, deixe a caixa de pesquisa vazia.
   
  
   
