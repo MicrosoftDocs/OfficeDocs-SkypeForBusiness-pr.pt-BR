@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: Cada registro representa uma chamada de dois participantes na qual pelo menos um usuário utiliza VoIP.
-ms.openlocfilehash: 900598c99965292e7d349520cc2dfa55443bb5a9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2314317f23db8edc4d0c2e0cc203cb74104168c472fa81cdfacc1a6595619278
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336401"
 ---
 # <a name="voipdetails-table"></a>Tabela VoipDetails
  
@@ -28,14 +28,14 @@ Cada registro representa uma chamada de dois participantes na qual pelo menos um
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primário  <br/> |Tempo da solicitação de sessão. Usado em conjunto com **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primário  <br/> |O número de ID para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**FromNumberId** <br/> |int  <br/> |Externo  <br/> |**PhoneId** do chamador. Consulte a [tabela Telefones para](phones.md) obter mais informações. Se não é NULL e **FromGatewayId** não é nulo, o chamador era um usuário PSTN. <br/> |
-|**ConnectedNumberId** <br/> |int  <br/> |Externo  <br/> |**PhoneId** do receptor de chamada. Consulte a [tabela Telefones para](phones.md) obter mais informações. Se não é NULL e **ToGatewayId** não é nulo, o receptor de chamada era um usuário PSTN. <br/> |
-|**FromMediationServerId** <br/> |int  <br/> |Externo  <br/> |O Servidor de Mediação de onde a chamada está vindo. Consulte a [tabela MediationServers para](mediationservers.md) obter mais informações. <br/> |
-|**ToMediationServerId** <br/> |int  <br/> |Externo  <br/> |O Servidor de Mediação para onde vai a chamada. Consulte a [tabela MediationServers para](mediationservers.md) obter mais informações. <br/> |
-|**FromGatewayId** <br/> |int  <br/> |Externo  <br/> |O Gateway de onde a chamada é feita. Consulte a [tabela Gateways no Skype for Business Server 2015](gateways.md) para obter mais informações. <br/> |
-|**ToGatewayId** <br/> |int  <br/> |Externo  <br/> |O Gateway para onde a chamada vai. Consulte a [tabela Gateways no Skype for Business Server 2015](gateways.md) para obter mais informações. <br/> |
-|**DisconnectedbyURIId** <br/> |int  <br/> |Externo  <br/> |URI do usuário que desconectou a chamada, se o usuário tem um URI. Consulte a [tabela Usuários para](users.md) obter mais informações. <br/> |
-|**DisconnectedbyPhoneId** <br/> |int  <br/> |Externo  <br/> |A ID do telefone que desconectou a chamada foi desconectada de um telefone. Consulte a [tabela Telefones para](phones.md) obter mais informações. <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno pelo serviço de Monitoramento.  <br/> Esse campo foi introduzido no Skype for Business Server 2015.  <br/> |
+|**FromNumberId** <br/> |int  <br/> |Foreign  <br/> |**PhoneId** do chamador. Consulte a [tabela Telefones para](phones.md) obter mais informações. Se não é NULL e **FromGatewayId** não é nulo, o chamador era um usuário PSTN. <br/> |
+|**ConnectedNumberId** <br/> |int  <br/> |Foreign  <br/> |**PhoneId** do receptor de chamada. Consulte a [tabela Telefones para](phones.md) obter mais informações. Se não é NULL e **ToGatewayId** não é nulo, o receptor de chamada era um usuário PSTN. <br/> |
+|**FromMediationServerId** <br/> |int  <br/> |Foreign  <br/> |O Servidor de Mediação de onde a chamada está vindo. Consulte a tabela [MediationServers para](mediationservers.md) obter mais informações. <br/> |
+|**ToMediationServerId** <br/> |int  <br/> |Foreign  <br/> |O Servidor de Mediação para onde vai a chamada. Consulte a tabela [MediationServers para](mediationservers.md) obter mais informações. <br/> |
+|**FromGatewayId** <br/> |int  <br/> |Foreign  <br/> |O Gateway de onde a chamada é feita. Consulte a [tabela Gateways no Skype for Business Server 2015](gateways.md) para obter mais informações. <br/> |
+|**ToGatewayId** <br/> |int  <br/> |Foreign  <br/> |O Gateway para onde a chamada vai. Consulte a [tabela Gateways no Skype for Business Server 2015](gateways.md) para obter mais informações. <br/> |
+|**DisconnectedbyURIId** <br/> |int  <br/> |Foreign  <br/> |URI do usuário que desconectou a chamada, se o usuário tem um URI. Consulte a [tabela Usuários para](users.md) obter mais informações. <br/> |
+|**DisconnectedbyPhoneId** <br/> |int  <br/> |Foreign  <br/> |A ID do telefone que desconectou a chamada foi desconectada de um telefone. Consulte a [tabela Telefones para](phones.md) obter mais informações. <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno pelo serviço de Monitoramento.  <br/> Este campo foi introduzido no Skype for Business Server 2015.  <br/> |
    
 

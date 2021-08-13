@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 5d00e622a76d605eec28c54e00ca2c335de0d447
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9165395f84aff0c95b38efc959c692018a10eaeb18a88f640e5d86b3bb5fe7f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331273"
 ---
 # <a name="topology-view-simple-url-detail"></a>Topologia: Exibir Detalhe de URL Simples
 
@@ -32,4 +32,4 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Gerenciando URLs simples](/previous-versions/office/lync-server-2013/lync-server-2013-managing-simple-urls)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

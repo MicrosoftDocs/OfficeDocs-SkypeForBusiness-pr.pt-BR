@@ -1,5 +1,5 @@
 ---
-title: Excluir uma coleção existente de configurações de tronco SIP no Skype for Business Server
+title: Skype for Business Server - Excluir uma coleção existente de configurações de tronco SIP
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. '
-ms.openlocfilehash: 98e255f82face68132b24f798f45bc12134c9b3cbbbebe1fce5ac886361a7b46
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 44adc98247fef2e0cac79a6ec5866871207e572f
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333333"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232856"
 ---
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Excluir uma coleção existente de configurações de tronco SIP no Skype for Business Server
+# <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server - Excluir uma coleção existente de configurações de tronco SIP
 
 As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. Estas configurações fazem coisas como especificar:
 

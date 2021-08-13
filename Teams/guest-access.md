@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: ac699c662c8e0ac61180c1031cfc77c300c51d19
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 70890cecc1b952aed743e801413c0416c214c5b77bc5dc9e89cac4da01f0cd8f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336171"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 

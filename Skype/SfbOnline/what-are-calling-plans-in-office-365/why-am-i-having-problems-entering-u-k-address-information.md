@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
 description: Aqui estão alguns motivos pelos quais você pode estar com problemas para obter seu endereço ou endereço para validar corretamente no Reino Unido (Reino Unido).
-ms.openlocfilehash: 7751f2b23ecb15140fc5ff67aa3ede90fadfaf06
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7b3cd80b351c64d3d9f5911d0854a215ba1b407d6e4b2b439d1f28d68d06db7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237927"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324640"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Por que estou tendo problemas para entrar no Reino Unido. informações de endereço?
 

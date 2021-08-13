@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre a discagem de números gratuitos no Reino Unido, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: 6e27a73724fc272ff2b870cf32d2b97fb2a2c156
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1dd248f015eecc17cd4fc5fad6b224ef2ce29ae4539841b6fc6b9c21d2fdb161
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324790"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>Restrições de discagem de chamada gratuita no Reino Unido (RU)
 

@@ -15,15 +15,14 @@ description: Crie uma estratégia de gerenciamento de alterações para Microsof
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f40d50c4193bd1670360a75c1b8357c7bbc0bfa407600dc7118634c80c01aff8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9340d33f4f22af551fd9fb3421dc3e9ca2a1eff9
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347506"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232822"
 ---
-<a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
-=======================================================
+# <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 
 Uma estratégia de gerenciamento de mudanças para a conscientização dos usuários finais e a adoção de novas tecnologias é fundamental para a distribuição bem-sucedida de qualquer nova tecnologia em uma organização. A conclusão com êxito desse esforço assegurará a adoção e a satisfação dos usuários da nova experiência.  As etapas identificadas abaixo podem ser alteradas, dependendo do tamanho da empresa. No entanto, é primordial assegurar uma comunicação contínua com os participantes, defensores, administradores de TI e usuários para implementar uma mudança bem-sucedida.  
 
@@ -53,8 +52,7 @@ Boas práticas de gerenciamento de mudanças para os Teams:
 
 7.  Ajustar suas mensagens e métodos baseados em feedback, repetir.
 
-<a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identifique os principais participantes, defensores e perfis de usuários
------------------------------------------------
+## <a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identifique os principais participantes, defensores e perfis de usuários
 
 A primeira regra de uma adoção bem-sucedida é criar uma equipe dinâmica composta pelos principais participantes e pessoas certas capazes de motivar e produzir mudanças em outras. Uma estratégia de adoção bem-sucedida começa com uma equipe de indivíduos comprometidos que representam uma seção transversal da sua organização. As funções dos participantes incluem um patrocinador executivo, proprietários de serviços, profissionais de TI e defensores.
 
@@ -72,15 +70,13 @@ Recomendamos a realização de uma reunião regular dessas partes envolvidas par
 > [!TIP]
 > As pessoas que podem ser os maiores obstáculos de mudança podem se tornar seus melhores aliados em uma implantação desse tipo. Recomendamos que você se envolva com esses membros da organização o quanto antes e com bastante frequência para ouvir suas preocupações e problemas. Muitas vezes, eles têm feedbacks valiosos que aumentarão o sucesso da sua campanha.
 
-<a name="user-profiles"></a>Perfis de usuários
--------------
+## <a name="user-profiles"></a>Perfis de usuários
 
 É igualmente importante compreender os tipos de usuários do seu ambiente. Você tem usuários trabalham muito externamente? Há alguns que estão constantemente em reuniões ou que fazem apresentações? Você sabe quais dos seus usuários têm mais dificuldades com as suas soluções de colaboração existentes? A segmentação da sua comunidade de usuários pode ajudar você a encontrar grupos que estão mais abertos para mudanças. Eles costumam ser os melhores alvos para os seus primeiros pilotos de negócios e o feedback deles costuma ser extremamente valioso.
 
 Compreender o cotidiano na vida dos seus usuários ajudará você a priorizar seus resultados comerciais, projetar metas de adoção apropriadas para a sua implantação e manter o uso ao longo do tempo.
 
-<a name="champions"></a>Defensores
----------
+## <a name="champions"></a>Defensores
 
 Identificar os indivíduos que podem se tornar seus defensores de colaboração lhe proporciona uma equipe de suporte avançada para a sua implementação. Crie uma comunidade, lhes fornecendo insights antecipados e feedback dos seus planos. Todos os investimentos que você fizer nessa comunidade, seja tempo, atenção ou recompensas serão devolvidos à sua implementação por meio de seu apoio e zelo.
 
@@ -88,8 +84,7 @@ Identificar os indivíduos que podem se tornar seus defensores de colaboração 
 
 Para saber como construir um programa de defensores, obtenha o [Programa de construção de defensores](https://go.microsoft.com/fwlink/?linkid=854665).
 
-<a name="identify-and-select-your-business-scenarios"></a>Identifique e selecione os cenários comerciais
----------------------------------------------------------------
+## <a name="identify-and-select-your-business-scenarios"></a>Identifique e selecione os cenários comerciais
 
 Após identificar os principais participantes e segmentos de usuários, será muito mais fácil identificar seus cenários comerciais. Seguem alguns exemplos de resultados comerciais:
 
@@ -107,8 +102,7 @@ Também é aconselhável considerar os usuários que estão incorporados nesses 
 
 Os projetos de tecnologia se tornam um desafio quando pouca ou nenhuma atenção é dada às necessidades humanas de gerenciamento de mudanças. Ao seguir essas recomendações, você aumentará suas chances de sucesso!
 
-<a name="design-launch-and-manage-your-adoption-campaign"></a>Projetar, lançar e gerenciar a adoção da sua campanha
--------------------------------------------------
+## <a name="design-launch-and-manage-your-adoption-campaign"></a>Projetar, lançar e gerenciar a adoção da sua campanha
 
 Para os seus pilotos iniciais e para a sua distribuição final na empresa, suas comunicações internas devem ser uma prioridade. Elas incluem:
 
@@ -142,8 +136,7 @@ Assim como acontece em qualquer campanha de comunicação e adoção, você dese
 
 -   Presença nos eventos de aprendizagem
 
-<a name="measure-and-share-success"></a>Mensure e compartilhe o sucesso
--------------------------------------------------
+## <a name="measure-and-share-success"></a>Mensure e compartilhe o sucesso
 
 A equipe do projeto deve incluir administradores de TI da sua empresa. Esses indivíduos terão acesso aos relatórios de Microsoft 365 ou Office 365 Microsoft Teams de uso que são integrados à Centro de administração do Microsoft 365 experiência. Esta informação pode mostrar o uso do Microsoft Teams em sua empresa. Recomendamos também que você obtenha feedback diretamente dos usuários sobre sua experiência com o Teams e outras ideias que eles têm para uso. Compartilhar exemplos reais de sua própria empresa é muito importante para viabilizar uma mudança contínua ao longo do tempo na comunidade de usuários.  
 

@@ -1,5 +1,5 @@
 ---
-title: Recursos do Microsoft Teams para administradores de Educação
+title: 'Microsoft Teams: Recursos para administradores de Educação'
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 801ef646b23b410c8671b9c04a66e57f60731e7ad9b6d1ff0548dbdc335fcbb8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0960d48ab493b36067b8640cf1da3d0659865314
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316967"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233226"
 ---
-<a name="microsoft-teams-resources-for-education-admins"></a>Recursos do Microsoft Teams para administradores de Educação
-==============================================
+# <a name="microsoft-teams-resources-for-education-admins"></a>Recursos do Microsoft Teams para administradores de Educação
 
 ## <a name="resources-for-remote-learning"></a>Recursos para aprendizado remoto
 
@@ -39,21 +38,21 @@ Leia os [termos e condições antes](https://github.com/MicrosoftDocs/OfficeDocs
 
 ### <a name="physical-assets"></a>Ativos físicos
 
-| |  |
+|&nbsp; | &nbsp; |
 |---------|---------|
-|Cartazes - [personalizáveis](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) e [prontos para impressão](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Captura de tela de um cartaz](media/edu-adoption-posters.png)     |[Apostilas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Captura de tela de um manual](media/edu-adoption-handouts.png)|
-|[Folhetos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Captura de tela de um folheto](media/edu-adoption-flyers.png)   |[Anúncios de livro](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Captura de tela de um anúncio de livro](media/edu-adoption-book-adverts.png)         |
-|[Dicas livreto e Truques](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Captura de tela](media/edu-adoption-get-started.png)    |
+|Cartazes - [personalizáveis](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) e [prontos para impressão](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Foto de um cartaz](media/edu-adoption-posters.png)     |[Apostilas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Foto de um manual](media/edu-adoption-handouts.png)|
+|[Folhetos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Foto de um folheto](media/edu-adoption-flyers.png)   |[Anúncios de livro](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Foto de um anúncio de livro.](media/edu-adoption-book-adverts.png)         |
+|[Foto do Dicas e do folheto Truques.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Foto do livreto de exemplo](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Ativos digitais
 
 Certifique-se de fazer check-out do [Guia de Toolkit digital](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) para maximizar sua Teams de lançamento! 
 
-|  |  |
+| &nbsp; |&nbsp;  |
 |---------|---------|
-|[Modelos de email](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Captura de tela](media/edu-adoption-email-templates.png)    |[GIFs](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Captura de tela de um GIF](media/edu-adoption-gifs.png)      |
-|[Faixas da Web](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Captura de tela de um banner da Web](media/edu-adoption-web-banners.png)    |[Vídeos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Captura de tela](media/edu-adoption-videos.png)          |
-|[Anúncios de tela digital](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Captura de tela de um anúncio de tela digital](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[Modelos de email](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Foto do exemplo de apostila.](media/edu-adoption-email-templates.png)    |[GIFs](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Captura de tela de um GIF](media/edu-adoption-gifs.png)      |
+|[Faixas da Web](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Foto de um banner da Web de exemplo](media/edu-adoption-web-banners.png)    |[Vídeos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Captura de tela do abridor de vídeo de exemplo](media/edu-adoption-videos.png)          |
+|[Anúncios de tela digital](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Foto de um anúncio de tela digital](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>Chamada à ação
 

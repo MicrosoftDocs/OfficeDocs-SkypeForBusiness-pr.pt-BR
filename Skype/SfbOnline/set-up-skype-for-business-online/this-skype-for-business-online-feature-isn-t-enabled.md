@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.FeatureNotEnabled
 description: 'Encontre possíveis causas e sugestões de ação quando você obter um Skype for Business recurso Online não está habilitado erro. '
-ms.openlocfilehash: ffe80aa252eecf88a5ef8c3e5b4bc7a294b463d7
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 89920c366d9465534279bd8fe2e31f6a3140027a4ed8e21697ad489da8ab552d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239420"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332303"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Esse Skype for Business online não está habilitado
 
@@ -36,9 +36,9 @@ Desculpe, parece que o usuário não está licenciado para esse recurso.
   
 |**Possível causa**|**Ação sugerida**|
 |:-----|:-----|
-|Você tem licenças disponíveis, mas ainda não ativas o recurso para esse usuário.  <br/> |Vá para o centro **de administração Microsoft 365 usuários**  >  **ativos** para licenciar esse usuário. <br/> |
-|O usuário está em um local onde esse recurso não está disponível.  <br/> |Se possível, vá para Microsoft 365 **centro** de administração Usuários ativos e atribua esse usuário a um local onde  >   o recurso está disponível. <br/> |
-|O recurso não foi ligado para sua organização.  <br/> |Vá para **Microsoft 365 centro de** administração  >  **Skype for Business** e a turn on the feature for your entire organization. <br/> |
+|Você tem licenças disponíveis, mas ainda não ativas o recurso para esse usuário.  <br/> |Vá para **o** Centro de administração do Microsoft 365  >  **usuários ativos** para licenciar esse usuário. <br/> |
+|O usuário está em um local onde esse recurso não está disponível.  <br/> |Se possível, vá **para** Centro de administração do Microsoft 365 usuários  >  **ativos** e atribua esse usuário a um local onde o recurso está disponível. <br/> |
+|O recurso não foi ligado para sua organização.  <br/> |Vá para **Centro de administração do Microsoft 365**  >  **Skype for Business** ativar o recurso para toda a sua organização. <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece orientações sobre como usar dispositivos Teams painéis.
-ms.openlocfilehash: d7f7e34bec83d8d1debeed39eeed162e98d011ac3656517025005ce31db24b65
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: f00136f5ef7b448531c16d388ac879a26b53c2cc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848076"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233046"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Como usar Microsoft Teams painéis
 

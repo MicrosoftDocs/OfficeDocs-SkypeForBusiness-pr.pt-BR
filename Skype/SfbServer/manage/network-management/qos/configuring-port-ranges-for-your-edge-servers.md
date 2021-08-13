@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Este artigo descreve como configurar intervalos de porta para Servidores de Borda e como configurar uma política de Qualidade de Serviço para seus Servidores de Borda A/V.
-ms.openlocfilehash: f21a5612889e0368a93bc8a55e5f023a28b226a9aa8843275faa696675b94d7e
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 076f7bd6f3118155eeed6a03268326247394e2b7
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591125"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232636"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de Qualidade de Serviço para seus Servidores de Borda em Skype for Business Server
 
@@ -55,7 +55,7 @@ Por exemplo, suponha que você configurou seus servidores de Conferência, Aplic
 <td><p>8348</p></td>
 </tr>
 <tr class="odd">
-<td><p>Vídeo</p></td>
+<td><p>Vídeos</p></td>
 <td><p>57500</p></td>
 <td><p>8034</p></td>
 </tr>

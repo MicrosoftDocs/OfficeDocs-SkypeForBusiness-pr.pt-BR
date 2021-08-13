@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: saiba como migrar as configurações do usuário e mover os usuários para Teams.'
-ms.openlocfilehash: 1df8c617d40b88813074319d7eb041995ff71ca5
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 1b5a2f909a05ffd30902ca4ca32dc5b5621b3013e779cece3f0ffcd2dada731e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509772"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324700"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Migrar usuários de um ambiente local para o Teams
 
@@ -118,7 +118,7 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 Por padrão, o valor de DownloadTeams é True; no entanto, ele só *será* honrado se NotifySfbUser = True para um determinado usuário.
 
-## <a name="see-also"></a>Confira também:
+## <a name="see-also"></a>Confira também
 
 [Move-CsUser](/powershell/module/skype/move-csuser)
 

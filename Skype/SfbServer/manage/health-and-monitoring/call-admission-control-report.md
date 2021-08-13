@@ -1,5 +1,5 @@
 ---
-title: Relatório de Controle de Admissão de Chamadas no Skype for Business Server
+title: Relatório de Controle de Admissão de Chamada Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Resumo: saiba mais sobre os Relatórios de Controle de Admissão de Chamadas usados no Skype for Business Server.'
-ms.openlocfilehash: ce7f8e622ece066d58cbc2c23a6423e19b084622
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre os Relatórios de Controle de Admissão de Chamada usados Skype for Business Server.'
+ms.openlocfilehash: 36dfe7c15948ea8405558d9e97fa4de4ac4a8081a22aa7e6bd83256a40c8c9f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336621"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>Relatório de Controle de Admissão de Chamadas no Skype for Business Server
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Relatório de Controle de Admissão de Chamada Skype for Business Server
  
-**Resumo:** Saiba mais sobre os Relatórios de Controle de Admissão de Chamadas usados no Skype for Business Server.
+**Resumo:** Saiba mais sobre os Relatórios de Controle de Admissão de Chamada usados Skype for Business Server.
   
-O Relatório de Controle de Admissão de Chamadas fornece informações sobre sessões de conferência e ponto a ponto que eram conduzidas sob restrições impostas pelo Controle de Admissão de Chamadas. O Controle de Admissão de Chamada oferece uma maneira para os administradores permitirem (ou não) sessões de comunicação com base nas restrições de largura de banda. Por exemplo, os administradores podem criar políticas que impõe um limite na quantidade de banda disponível para chamadas de voz e vídeo. Caso o limite de banda tenha sido alcançado, novas chamadas de voz ou vídeo não poderão ser feitas até que uma das chamadas atuais termine e libere os recursos de rede necessários.
+O Relatório de Controle de Admissão de Chamadas fornece informações sobre sessões de conferência e ponto a ponto que eram conduzidas sob restrições impostas pelo Controle de Admissão de Chamadas. O Controle de Admissão de Chamada fornece uma maneira para os administradores permitirem (ou não permitir) sessões de comunicação com base em restrições de largura de banda. Por exemplo, os administradores podem criar políticas que impõe um limite na quantidade de banda disponível para chamadas de voz e vídeo. Caso o limite de banda tenha sido alcançado, novas chamadas de voz ou vídeo não poderão ser feitas até que uma das chamadas atuais termine e libere os recursos de rede necessários.
   
 ## <a name="accessing-the-call-admission-control-report"></a>Acessando o Relatório de Controle de Admissão de Chamadas
 
 O Relatório de Controle de Admissão de Chamadas é acessado através da página de Relatórios de Monitoramento. A partir do Relatório de Controle de Admissão de Chamadas você pode buscar mais detalhes em um dos seguintes relatórios:
   
-- Relatório detalhado de conferências - Para acessar esse relatório, clique na métrica Detalhes de uma sessão de conferência. 
+- Relatório de Detalhes da Conferência - Para acessar este relatório, clique na métrica Detalhes de uma sessão de conferência. 
     
-- Relatório Detalhado de Sessão Ponto a Ponto - Para acessar esse relatório, clique na métrica Detalhes de uma sessão ponto a ponto.
+- Relatório de Detalhes de Sessão Ponto a Ponto - Para acessar este relatório, clique na métrica Detalhes de uma sessão ponto a ponto.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Usando o Relatório de Controle de Admissão de Chamadas da melhor maneira possível
 
@@ -54,8 +54,8 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Cont
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas sempre correm do domingo até sábado.  <br/> |
 |**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do pool de Registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Tudo]** para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.<br/> |
-|**Tipo de atividade** <br/> | Tipo de atividade. Selecione uma das seguintes atividades: <br/>  [Tudo] <br/>  Ponto a ponto <br/>  Conferência <br/> |
-|**Categoria da chamada** <br/> | Indica o motivo de o CAC ter sido usado para a chamada. Selecione uma das seguintes opções: <br/>  [Tudo] <br/>  Chamada rejeitada devido ao controle de admissão de chamada <br/>  Chamadas reencaminhadas por PSTN devido ao controle de admissão de chamada <br/> |
+|**Tipo de atividade** <br/> | Tipo de atividade. Selecione uma das seguintes atividades: <br/>  [Todos] <br/>  Ponto a ponto <br/>  Conferência <br/> |
+|**Categoria da chamada** <br/> | Indica o motivo de o CAC ter sido usado para a chamada. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Chamada rejeitada devido ao controle de admissão de chamada <br/>  Chamadas reencaminhadas por PSTN devido ao controle de admissão de chamada <br/> |
    
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para sessões ponto a ponto
 

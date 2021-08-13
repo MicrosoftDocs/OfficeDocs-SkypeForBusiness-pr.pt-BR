@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Clique com o botão direito do mouse em um tronco SIP existente no Construtor de Topologias para executar o seguinte:'
-ms.openlocfilehash: 3b1d27e08c947d8558c888f2dd0ee5d2b59f1a66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a4cb9dc241ce5e18610645431739422ad5949e6162eb82028771971cdcffd986
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335381"
 ---
 # <a name="trunk-scope-node"></a>Nó de Escopo de Tronco
  
 Clique com o botão direito do mouse em um tronco SIP existente no Construtor de Topologias para executar o seguinte:
   
-- **Editar Propriedades:** inicia o assistente **Editar Propriedades** usado para editar ou redefinir a configuração de um tronco SIP existente
+- **Editar Propriedades**: inicia o assistente **Editar Propriedades** usado para editar ou redefinir a configuração de um tronco SIP existente
     
 Além da opção Editar Propriedades, você pode executar as seguintes tarefas gerais:
   

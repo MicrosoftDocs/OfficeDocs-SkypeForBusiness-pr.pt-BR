@@ -1,5 +1,5 @@
 ---
-title: Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup
+title: Gerenciamento de recuperação de desastres, alta disponibilidade e Serviço de Backup
 ms.reviewer: ''
 author: cichur
 ms.author: v-cichur
@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Saiba mais sobre os procedimentos para operações de recuperação de desastres, bem como para manter o Serviço de Backup, que sincroniza os dados em pools de Front-End emparelhados.
-ms.openlocfilehash: e486a71203b64b4fc351888869ac64a24689ba7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Saiba mais sobre procedimentos para operações de recuperação de desastres, bem como para manter o Serviço de Backup, que sincroniza os dados em pools front-end emparelhados.
+ms.openlocfilehash: a6740f5ebc0cc05982a5ad14efb5b2c10a8e06c22124aae331725d4c74a5aac2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336651"
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gerenciamento de recuperação de desastre, alta disponibilidade e Serviço de Backup do Skype for Business Server
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gerenciamento Skype for Business Server recuperação de desastres, alta disponibilidade e Serviço de Backup
 
 Esta seção contém procedimentos para operações de recuperação de desastres, bem como para manter o Serviço de Backup, que sincroniza os dados em pools de Front-End emparelhados.
 
 Os procedimentos de recuperação de desastres, o failover e o failback, são manuais. Se ocorrer um desastre, o administrador deve chamar manualmente os procedimentos de failover. O mesmo se aplica ao failback após a reparação do pool.
 
-Os procedimentos de recuperação de desastres nesta seção pressupom o seguinte:
+Os procedimentos de recuperação de desastres nesta seção assumem o seguinte:
 
-  - Você tem uma implantação com pools de front-end emparelhados, localizados em sites diferentes, conforme descrito em Planejar alta [disponibilidade e recuperação de desastres.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) O Serviço de Backup é executado nestes pools emparelhados para mantê-los sincronizados.
+  - Você tem uma implantação com pools front-end emparelhados, localizados em sites diferentes, conforme descrito em [Plan for high availability and disaster recovery](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). O Serviço de Backup é executado nestes pools emparelhados para mantê-los sincronizados.
 
-  - Se o armazenamento de Gerenciamento Central estiver hospedado em qualquer pool, ele será instalado e executado em ambos os pools emparelhados, com um desses pools hospedando o mestre ativo e o outro pool hospedando o modo de espera.
+  - Se o armazenamento de Gerenciamento Central estiver hospedado em um dos pools, ele será instalado e executado em ambos os pools emparelhados, com um desses pools hospedando o mestre ativo e o outro pool hospedando o modo de espera.
 
 > [!IMPORTANT]
 > Nos procedimentos a seguir, o parâmetro *PoolFQDN* se refere ao FQDN do pool afetado pelo desastre, e não o pool para o qual os usuários afetados foram redirecionados. Para o mesmo conjunto de usuários afetados, ele se refere ao mesmo pool em ambos os cmdlets de failover e failback (ou seja, o pool que primeiramente hospedou os usuários antes do failover).<BR><br>Por exemplo, pressuponha um caso em que todos os usuários hospedados no pool P1 foram transferidos para o pool de backup, o P2. Se o administrador deseja mover todos os usuários que utilizam os serviços de P2 para utilizarem os serviços de P1, o administrador deve executar as seguintes etapas: 
@@ -43,5 +43,5 @@ Os procedimentos de recuperação de desastres nesta seção pressupom o seguint
 
 ## <a name="see-also"></a>Confira também
 
-[Planejar alta disponibilidade e recuperação de desastre](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
+[Planejar alta disponibilidade e recuperação de desastres](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
   

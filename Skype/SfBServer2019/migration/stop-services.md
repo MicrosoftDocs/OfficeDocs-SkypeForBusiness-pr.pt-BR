@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Você pode usar o Painel de Controle do Skype for Business Server para iniciar ou parar todos os serviços herdado em execução em um computador específico ou para iniciar ou parar um serviço herdado específico.
-ms.openlocfilehash: 2aca4cd9fb5d85bcf0744dc2b9e9551adc2a2336
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Você pode usar Skype for Business Server Painel de Controle para iniciar ou interromper todos os serviços herdado em execução em um computador específico ou para iniciar ou interromper um serviço herdado específico.
+ms.openlocfilehash: 058c9d3833f323634b08dc6f2019e987456e8d031c23f7339aad97a78d5e7181
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324710"
 ---
 # <a name="stop-legacy-services"></a>Interromper serviços herdados
 
-Você pode usar o Painel de Controle do Skype for Business Server para iniciar ou parar todos os serviços herdado em execução em um computador específico ou para iniciar ou parar um serviço herdado específico.
+Você pode usar Skype for Business Server Painel de Controle para iniciar ou interromper todos os serviços herdado em execução em um computador específico ou para iniciar ou interromper um serviço herdado específico.
   
-## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Para iniciar ou parar todos os serviços do Skype for Business Server em um computador
+## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Para iniciar ou interromper todos os Skype for Business Server em um computador
 
-1. Abra o Painel de Controle do Skype for Business Server.
+1. Abra Skype for Business Server Painel de Controle.
     
 2. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
     
@@ -36,7 +36,7 @@ Você pode usar o Painel de Controle do Skype for Business Server para iniciar o
     
 ## <a name="to-start-or-stop-a-specific-service"></a>Para iniciar ou parar um serviço específico
 
-1. Abra o Painel de Controle do Skype for Business Server.
+1. Abra Skype for Business Server Painel de Controle.
     
 2. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
     

@@ -13,19 +13,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde no mínimo um usuário é um usuário VoIP. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: b42fecc7a0f43f86dba2439a373c7013c605a5e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9e8eeaa0e907496d03a4541792f6f100a9191324497ee7603a65ec5a71fba592
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351950"
 ---
 # <a name="voipdetails-view"></a>Exibição VoIPDetails
  
 O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde no mínimo um usuário é um usuário VoIP. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 > [!NOTE]
-> O visualização VoIPDetails contém todas as colunas no [exibição SessionDetails,](sessiondetails-0.md) além das colunas listadas abaixo.
+> O exibição VoIPDetails contém todas as colunas no [exibição SessionDetails,](sessiondetails-0.md) além das colunas listadas abaixo.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: (Opcional) Verificar a implantação do Grupo de Resposta no Skype for Business
+title: (Opcional) Verificar a implantação do Grupo de Resposta Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-description: Verifique o sucesso da implantação do Grupo de Resposta no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: e593b46d260e8cabb8a4cbb311a7a79852a93c18
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Verifique o sucesso da implantação do Grupo de Resposta, Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 130ec066682f246a13df32835cb1ed1e3bb40428b3c80ef820ab5ede1dc5c00f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324530"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Opcional) Verificar a implantação do Grupo de Resposta no Skype for Business
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Opcional) Verificar a implantação do Grupo de Resposta Skype for Business
  
-Verifique o sucesso da implantação do Grupo de Resposta no Skype for Business Server Enterprise Voice.
+Verifique o sucesso da implantação do Grupo de Resposta, Skype for Business Server Enterprise Voice.
   
 Depois de configurar o Grupo de Resposta, você precisa verificar a configuração para garantir que seus grupos de resposta funcionem conforme o esperado. Como mínimo, verifique os seguintes cenários usando os seguintes tipos de usuários:
   
@@ -36,7 +36,7 @@ Depois de configurar o Grupo de Resposta, você precisa verificar a configuraç�
     
   **Cenários**
   
-- O usuário do Skype for Business chama o grupo de resposta.
+- O Skype for Business usuário chama o grupo de resposta.
     
 - O usuário externo chama o grupo de resposta.
     
