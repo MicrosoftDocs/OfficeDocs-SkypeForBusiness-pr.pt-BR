@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Uma política de conferência define os recursos e recursos que os usuários têm disponíveis durante uma conferência (também conhecida como reunião).
-ms.openlocfilehash: 0599411cd8e0832b1d5d09fc2f8ac6bc676d931d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: af3769f1a5dd7b1025ea7add7fc8b83ae956a56f7ebc490cc7370e24cf0707e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314867"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Política de Conferência: Criar Novo ou Editar Existente
 
@@ -63,7 +63,7 @@ A lista a seguir descreve os campos na página.
 
 - **Permitir que participantes anônimos discem** Marque essa caixa de seleção se você permitir que os usuários discem para conferências e você deseja permitir que usuários não autenticados (anônimos) participem de uma conferência usando a discagem discada. Com a telefonia de discagem, o servidor de conferência chama o usuário e o usuário atende ao telefone para ingressar na conferência.
 
-- **Permitir que os participantes não habilitados para Enterprise Voice discar** Se você habilitar áudio em **Áudio/vídeo,** marque essa caixa de seleção para permitir que os usuários que não estão habilitados para Enterprise Voice participem de uma conferência usando o fonagem discada. Com a telefonia de discagem, o servidor de conferência liga para o usuário e o usuário atende ao telefone para ingressar na conferência.
+- **Permitir que os participantes não habilitados Enterprise Voice discar** Se você habilitar áudio em **Áudio/vídeo,** marque essa caixa de seleção para permitir que os usuários que não estão habilitados para Enterprise Voice participem de uma conferência usando o fonagem discada. Com a telefonia de discagem, o servidor de conferência liga para o usuário e o usuário atende ao telefone para ingressar na conferência.
 
 - **Permitir vários fluxos de vídeo** Se você habilitar vídeo em **Áudio/vídeo,** marque essa caixa de seleção para permitir que os usuários organizem conferências com o vídeo do Modo de Exibição de Galeria. Quando essa caixa de seleção é marcada, os usuários podem organizar conferências que enviam múltiplos fluxos de vídeo. Quando essa caixa de seleção não é marcada, os usuário podem apenas organizar conferências que enviam um único fluxo de vídeo.
 
@@ -80,7 +80,7 @@ A lista a seguir descreve os campos na página.
 
   - **Habilitar anotações** Se você permitir a colaboração de dados, marque essa caixa de seleção para permitir que os participantes façam anotações na tela sobre o conteúdo compartilhado durante a conferência.
 
-  - **Habilitar anotações do PowerPoint** Se você permitir anotação, marque essa caixa de seleção para permitir que os participantes façam anotações em slides do PowerPoint compartilhados durante a conferência.
+  - **Habilitar PowerPoint anotações** Se você permitir anotação, marque essa caixa de seleção para permitir que os participantes façam anotações PowerPoint slides compartilhados durante a conferência.
 
   - **Habilitar votações** Se você permitir a colaboração de dados, marque essa caixa de seleção para permitir que os participantes realizarem uma sondagem durante uma conferência.
 

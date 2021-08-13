@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Saiba como planejar e implantar Skype for Business pequenas, médias e grandes organizações e disponibilizar para seus usuários. '
-ms.openlocfilehash: e23d4310d47bfae68a12c2b928741a2994588a57
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: e503455827759966af675ff186f3d72568df613ea407f372450691511a9a6ee5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300487"
 ---
 # <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>Implantar o Skype for Business cliente no Microsoft 365 ou Office 365
 
@@ -47,21 +47,21 @@ Antes de implantar Skype for Business para seus usuários, certifique-se de ter 
 
 Como [administrador,](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504) você pode optar por disponibilizar o aplicativo Skype for Business para os usuários.
   
-- **Para controlar se** todos em sua empresa obtém o software : entre no centro de administração do Microsoft 365, vá para Instalar meu software e selecione o **software** que você deseja estar disponível para os usuários.
+- **Para controlar se** todos em sua empresa obtém o software : entre no Centro de administração do Microsoft 365, vá para Instalar meu software e selecione o **software** que você deseja estar disponível para os usuários.
     
     ![Escolha o software que você deseja disponibilizar para as pessoas em sua empresa.](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- Para controlar se pessoas específicas da sua empresa obterão o **software**: entre no centro de administração do Microsoft 365, vá para **Usuários** ativos, selecione a pessoa que você deseja dar acesso ao software e clique em Editar ao lado de Licenças de produto e acione  >  ou desabilite a licença.  
+- Para controlar se as pessoas específicas da sua empresa obterão o  **software**: entre no Centro de administração do Microsoft 365, vá para Usuários ativos, selecione a pessoa que você deseja dar acesso ao software e clique em Editar ao lado de Licenças do produto e acione ou  >  desligue a licença.  
     
     ![Escolha qual software você deseja que o usuário acesse.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Se você precisar ver quais planos são atribuídos às pessoas em sua organização, entre no centro de administração Microsoft 365 > **usuários**  >  **ativos**. Selecione a pessoa na lista e, em seguida, procure em **Licenças de produto**. Se você estiver usando o centro de administração clássico, procure em **Licença atribuída**. 
+> Se você precisar ver quais planos são atribuídos às pessoas em sua organização, entre no Centro de administração do Microsoft 365 > **Usuários**  >  **ativos**. Selecione a pessoa na lista e, em seguida, procure em **Licenças de produto**. Se você estiver usando o centro de administração clássico, procure em **Licença atribuída**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Implantando manualmente Skype for Business para seus usuários
 <a name="bkmk_manual_1"> </a>
 
-Se você quiser que seus usuários instalem o aplicativo Skype for Business de um local em sua rede, em vez da Internet, você pode baixar os arquivos de instalação. Para fazer isso, vá para a **seção Implantar manualmente o software do usuário** do Microsoft 365 de administração. Em seguida, você pode **selecionar Instalar** e salvar o arquivo .exe de instalação em um local de rede.
+Se você quiser que seus usuários instalem o aplicativo Skype for Business de um local em sua rede, em vez da Internet, você pode baixar os arquivos de instalação. Para fazer isso, vá para a **seção Implantar manualmente o software do** usuário do Centro de administração do Microsoft 365. Em seguida, você pode **selecionar Instalar** e salvar o arquivo .exe de instalação em um local de rede.
   
 Outra opção é baixar o aplicativo Skype for Business Basic para seus usuários. Você pode baixar [o Microsoft Skype for Business Basic (32 ou 64 bits)](https://www.microsoft.com/download/details.aspx?id=49440).
   
@@ -78,11 +78,11 @@ Em muitas empresas ou grandes organizações, os usuários não têm permissão 
   
 Com Office 365, você tem várias opções para implantar o aplicativo Skype for Business se quiser controlar de onde ele está instalado. Algumas dessas opções incluem:
   
-- Baixe o Skype for Business para sua rede local no centro de administração Microsoft 365, conforme descrito em Implantação manual Skype for Business [para seus usuários.](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)
+- Baixe o Skype for Business para sua rede local no Centro de administração do Microsoft 365, conforme descrito em Implantação manual Skype for Business [para seus usuários.](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)
     
 - Use a **[Office de](https://go.microsoft.com/fwlink/p/?LinkID=626065)** Implantação para baixar o Microsoft 365 Apps para Grandes Empresas ou o aplicativo Skype for Business para sua rede local. Em seguida, use a Office de Implantação para implantar o aplicativo para seus usuários. A Office de Implantação oferece a capacidade de controlar determinados aspectos da implantação, como idiomas e versão (32 bits ou 64 bits).
     
-- Use suas ferramentas e processos de implantação de software existentes, como Microsoft Endpoint Configuration Manager, para implantar o Microsoft 365 Apps para Grandes Empresas ou o aplicativo Skype for Business para seus usuários. Você pode usar suas ferramentas e processos existentes com [a](https://go.microsoft.com/fwlink/p/?LinkID=626065) Ferramenta de Implantação Office ou com o software que você baixou do centro de administração Microsoft 365.
+- Use suas ferramentas e processos de implantação de software existentes, como Microsoft Endpoint Configuration Manager, para implantar o Microsoft 365 Apps para Grandes Empresas ou o aplicativo Skype for Business para seus usuários. Você pode usar suas ferramentas e processos existentes com [a](https://go.microsoft.com/fwlink/p/?LinkID=626065) Ferramenta de Implantação Office ou com o software que você baixou do Centro de administração do Microsoft 365.
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>Mais informações sobre como usar a ferramenta Office implantação
 
@@ -106,7 +106,7 @@ Para obter detalhes sobre como usar o Office de implantação e o arquivo config
     
 ### <a name="more-info-on-using-microsoft-endpoint-configuration-manager"></a>Mais informações sobre como usar Microsoft Endpoint Configuration Manager
 
-Você pode usar suas ferramentas e processos de implantação de software existentes, como Microsoft Endpoint Configuration Manager, para implantar o Skype for Business aplicativo. Você pode usar essas ferramentas e processos com o software que você baixa do centro de administração Microsoft 365 ou com a Office de Implantação.
+Você pode usar suas ferramentas e processos de implantação de software existentes, como Microsoft Endpoint Configuration Manager, para implantar o Skype for Business aplicativo. Você pode usar essas ferramentas e processos com o software que você baixa do Centro de administração do Microsoft 365 ou com a Office de Implantação.
   
 Para obter mais informações sobre como usar o Configuration Manager para implantar software, consulte os seguintes artigos:
   

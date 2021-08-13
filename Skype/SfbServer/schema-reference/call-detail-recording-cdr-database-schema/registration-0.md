@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
-description: A visualização "Registro" armazena informações sobre o registro do usuário. Esta exibição foi introduzida no Lync Server 2013.
-ms.openlocfilehash: 12508e7efcd96bdb9e3956b4e62c1065235a3f60
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: A visualização "Registro" armazena informações sobre o registro do usuário. Essa exibição foi introduzida no Lync Server 2013.
+ms.openlocfilehash: a28b094fd78f0a5d8b339edc372acf4503ba854d7e59e8cc81fff942e22cdcfc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341696"
 ---
 # <a name="registration-view"></a>Exibição de registro
  
-A visualização "Registro" armazena informações sobre o registro do usuário. Esta exibição foi introduzida no Lync Server 2013.
+A visualização "Registro" armazena informações sobre o registro do usuário. Essa exibição foi introduzida no Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
@@ -31,13 +31,13 @@ A visualização "Registro" armazena informações sobre o registro do usuário.
 |**RegisterTime** <br/> |datetime  <br/> |Hora do registro.  <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI do usuário registrado.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de  URI do usuário registrado. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário registrado. Consulte a [tabela Tenants para](tenants.md) obter mais informações. <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário registrado. Consulte a [tabela Locatários](tenants.md) para obter mais informações. <br/> |
 |**EndpointId** <br/> |uniqueidentifier  <br/> |Identificador exclusivo do ponto de extremidade em que o usuário se registrou.  <br/> |
 |**EndpointEra** <br/> |uniqueidentifier  <br/> |Identificador exclusivo usado para diferenciar registros que envolvam o mesmo usuário e o mesmo ponto de extremidade.  <br/> |
 |**DeRegisterType** <br/> |datetime  <br/> |Hora do cancelamento do registro.  <br/> |
 |**DeRegisterReason** <br/> |nvarchar(256)  <br/> |Motivo para o cancelamento do registro.  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |Versão do cliente usada no registro.  <br/> |
-|**ClientType** <br/> |int  <br/> |Cliente usado pelo usuário no registro. Consulte a [tabela UserAgentDef para](useragentdef.md) obter mais detalhes. <br/> |
+|**ClientType** <br/> |int  <br/> |Cliente usado pelo usuário no registro. Consulte a [tabela UserAgentDef](useragentdef.md) para obter mais detalhes. <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |Categoria do cliente do usuário no registro.  <br/> |
 |**IpAddress** <br/> |nvarchar(256)  <br/> |Endereço IP com o qual o usuário se registrou. Pode ser um endereço IPv4 ou IPv6.  <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |ID do diálogo de SIP. O formato é:  <br/> dialog;from-tag;to-tag  <br/> |
@@ -50,7 +50,7 @@ A visualização "Registro" armazena informações sobre o registro do usuário.
 |**IsUserServiceAvailable** <br/> |bit  <br/> |Indica se o UserService estava disponível no momento do registro.  <br/> |
 |**IsPrimaryRegistrar** <br/> |bit  <br/> |Indica se o registro foi feito com o registrador principal.  <br/> |
 |**DeviceMacAddress** <br/> |bigint  <br/> |Endereço MAC do dispositivo registrado.  <br/> |
-|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Fabricante do dispositivo registrado. Consulte a [tabela Manufacturers no Skype for Business Server 2015](manufacturers.md) para obter mais informações. <br/> |
+|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Fabricante do dispositivo registrado. Consulte a [tabela Fabricantes no Skype for Business Server 2015](manufacturers.md) para obter mais informações. <br/> |
 |**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |Versão do hardware do dispositivo registrado. Consulte a [tabela HardwareVersions no Skype for Business Server 2015](hardwareversions.md) para obter mais informações. <br/> |
    
 

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
 description: A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 2bc70c06ac5423864f7861fc44bbb2529a3d04f2
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 844c33efae8ce0492b55ea597fdf82e38356bd2462f67640f4e823728453bab1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237787"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325548"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Por que a ativação de número está listada como atualização?
 
@@ -96,7 +96,7 @@ A validação de endereço é uma parte importante da configuração de Planos d
 8. Confira as informações e clique em **Enviar solicitação**.
     
 > [!TIP]
-> O número de referência será listado na página **Solicitações de** serviço no Microsoft 365 de administração.
+> O número de referência será listado na página **Solicitações de** serviço no Centro de administração do Microsoft 365.
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

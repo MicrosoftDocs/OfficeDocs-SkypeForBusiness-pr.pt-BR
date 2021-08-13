@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Resumo: saiba mais sobre a operação Executar Consulta, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
-ms.openlocfilehash: bff24ca5a4d651ba276b4b0d795afabce3c6d0dd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre a operação Executar Consulta, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: 860760303510b792cba70fc211ac8b7f9b994996b4937aa333ed54fcffb6eb75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803111"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340857"
 ---
 # <a name="run-query"></a>Executar Consulta
 
-**Resumo:** Saiba mais sobre a operação Executar Consulta, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Executar Consulta, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
 
-A operação Executar Consulta faz parte da API de Dados do Painel de Qualidade da Chamada.
+A operação Executar Consulta faz parte da API de Dados para Painel de Qualidade de Chamada.
 
 ## <a name="run-query"></a>Executar Consulta
 
-A operação Executar Consulta oferece a capacidade de executar uma consulta no cubo com base em dimensões, medições e filtros especificados e retornar os dados.
+Executar a operação de consulta fornece a capacidade de executar uma consulta no cubo com base em dimensões, medidas e filtros especificados e retornar os dados.
 
 
-|**Method**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
 |POSTAR  <br/> |https:// \<portal\> /QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
- **Parâmetros de URI** - Nenhum.
+ **Parâmetros URI** - Nenhum.
 
- **Solicitação de headers** - nenhum outro.
+ **Headers de solicitação** - Sem headers adicionais.
 
- **Corpo da** solicitação - Aqui está um exemplo de carga de solicitação em JSON. Ele contém dimensões, filtros e medidas necessárias para uma consulta.
+ **Corpo da Solicitação** - Aqui está uma carga de solicitação de exemplo no JSON. Ele contém dimensões, filtros e medidas necessárias para uma consulta.
 
 ```json
 {
@@ -74,21 +74,21 @@ A operação Executar Consulta oferece a capacidade de executar uma consulta no 
 }
 ```
 
- *Filtros*  - Uma lista de expressões de filtro a serem aplicadas de forma que o conjunto de dados resultante reflita somente o subconjunto dos dados de interesse.
+ *Filtros*  - Uma lista de expressões de filtro a serem aplicadas para que o conjunto de dados resultante reflita apenas o subconjunto dos dados que são de interesse.
 
  *Dimensões*  - Uma lista de dimensões que serão usadas para agregar os dados. Pelo menos uma dimensão é necessária, mas várias dimensões podem ser especificadas para obter nível adicional de sub-agregação.
 
  *Medidas*  - Uma lista de medidas, também conhecidas como fatos, que são as métricas desejadas a serem agregadas com base nas dimensões especificadas.
 
- *Tendência*  - Instruções de controle adicionais para personalizar os dados de resultado.
+ *Tendência*  - Instruções de controle adicionais para personalizar os dados de resultados.
 
  **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
 
  **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
 
- **Response Headers** - Sem outros headers.
+ **Headers de resposta** - Sem headers adicionais.
 
- **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON. Ele contém uma tabela de dados que contém os dados, além de conter um metadados, que mostra o tempo de execução da consulta e se os dados são do cache ou não.
+ **Corpo da Resposta** - Abaixo está uma carga de resposta de exemplo no JSON. Ele contém uma tabela de dados que contém os dados, também conterá um metadados, que mostra o tempo de execução da consulta e se os dados são ou não do cache.
 
 ```json
 {
@@ -123,8 +123,8 @@ A operação Executar Consulta oferece a capacidade de executar uma consulta no 
 }
 ```
 
- *Tempo de execução*  - O tempo total que o servidor levou para retornar os dados. Isso pode ou não envolver cache.
+ *Tempo de execução*  - O tempo total que levou para o servidor retornar os dados. Isso pode ou não envolver cache.
 
- *Resultado de*  Dados - O resultado da consulta. Trata-se de uma matriz bidimensional contendo todas as permutações dos membros das dimensões e cada elemento contendo os nomes dos membros das dimensões, bem como os valores agregados das Medidas especificadas.
+ *Resultado dos*  dados - O resultado da consulta. É uma matriz bidimensional que contém todas as permutações dos membros das dimensões e cada elemento que contém os nomes de membros das dimensões, bem como os valores agregados das Medidas especificadas.
 
- *O resultado é De Cache*  - Para diagnóstico. Indica se o resultado veio do cache ou do cubo QoE.
+ *Result is From Cache*  - For diagnostics. Indica se o resultado veio do cache ou do Cubo QoE.

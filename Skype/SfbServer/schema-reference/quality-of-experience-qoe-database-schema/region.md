@@ -1,5 +1,5 @@
 ---
-title: Tabela de região
+title: Tabela região
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
 description: A tabela Regions é uma tabela de suporte. Cada registro representa um país ou uma região definida na configuração de rede.
-ms.openlocfilehash: fe38d71c433e540a381e87d7952a8eb6d57ecb5b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 538d574037d7cd3798b63c6d8773f99e1c376d9f5ad115f73bfa725a9aec6b55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341656"
 ---
-# <a name="region-table"></a>Tabela de região
+# <a name="region-table"></a>Tabela região
  
 A tabela Regions é uma tabela de suporte. Cada registro representa um país ou uma região definida na configuração de rede.
   
 |**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**RegionKey** <br/> |int  <br/> |Primário  <br/> |Número exclusivo de identificação de país/região.  <br/> |
-|**RegionName** <br/> |nvarchar(128)  <br/> |Exclusivo  <br/> |O nome do país/região.  <br/> |
+|**RegionName** <br/> |nvarchar(128)  <br/> |Unique  <br/> |O nome do país/região.  <br/> |
    
 

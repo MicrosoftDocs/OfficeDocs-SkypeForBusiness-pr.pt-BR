@@ -1,5 +1,5 @@
 ---
-title: Remover o Servidor de Front End Enterprise Edition ou o Servidor front-end Standard Edition
+title: Remover o servidor Edição Enterprise front-end ou Edição Standard servidor front-end
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Os procedimentos descritos neste tópico foram projetados para orientá-lo pelo processo de remoção de um pool de front-end Enterprise Edition ou um servidor de front-end Standard Edition. Depois de migrar para o Skype for Business Server 2019, esta é uma das primeiras etapas para descomissionar seu ambiente herdado.
-ms.openlocfilehash: 2fbcebec1c873c595b0ad1d40b1d1d3e9b115a32
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Os procedimentos descritos neste tópico foram projetados para orientá-lo pelo processo de remover um pool de front-end Edição Enterprise ou um servidor Edição Standard front-end. Depois de migrar para Skype for Business Server 2019, essa é uma das primeiras etapas para desmantelar seu ambiente herdado.
+ms.openlocfilehash: 4a0240d185bfbc715a7d9b9f42bd15df04e81337642b4f5697083a6b5b8f02cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300527"
 ---
 # <a name="remove-the-front-end-server"></a>Remover o Servidor Front-End
 
-Os procedimentos descritos nesta seção foram projetados para orientá-lo pelo processo de remoção de um pool de front-end Enterprise Edition ou um servidor de front-end Standard Edition. Depois de migrar para o Skype for Business Server 2019, esta é uma das primeiras etapas para descomissionar seu ambiente herdado.
+Os procedimentos descritos nesta seção foram projetados para orientá-lo pelo processo de remover um pool de front-end Edição Enterprise ou um servidor Edição Standard front-end. Depois de migrar para Skype for Business Server 2019, essa é uma das primeiras etapas para desmantelar seu ambiente herdado.
   
 ## <a name="in-this-section"></a>Nesta seção
 

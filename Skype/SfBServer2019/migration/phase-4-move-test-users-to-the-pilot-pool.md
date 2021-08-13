@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Você pode mover um único usuário ou grupos de usuários para sua nova implantação do Microsoft Skype for Business Server 2019 usando os dois métodos a seguir: Painel de Controle do Skype for Business Server e Shell de Gerenciamento do Skype for Business Server. Os tópicos desta seção descrevem as tarefas que você deve concluir durante a implantação piloto, bem como antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação de nível de produção.'
-ms.openlocfilehash: 776cb3a3f7be7c610d0f796593e4ec4a4d25a285
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 'Você pode mover um único usuário ou grupos de usuários para sua nova implantação do Microsoft Skype for Business Server 2019 usando os dois métodos a seguir: Painel de Controle Skype for Business Server e Skype for Business Server Shell de Gerenciamento. Os tópicos nesta seção descrevem tarefas que você deve concluir durante a implantação piloto, bem como antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação de nível de produção.'
+ms.openlocfilehash: 612ec4dd77821a6ad36d6bb06feddd1c59f9cb3b0c78836db3b4133741aa3262
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300537"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Fase 4: Mover usuários de teste para o pool piloto
 
-Você pode mover um único usuário ou grupos de usuários para sua nova implantação do Microsoft Skype for Business Server 2019 usando os dois métodos a seguir: Painel de Controle do Skype for Business Server e Shell de Gerenciamento do Skype for Business Server. Os tópicos desta seção descrevem as tarefas que você deve concluir durante a implantação piloto, bem como antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação de nível de produção.
+Você pode mover um único usuário ou grupos de usuários para sua nova implantação do Microsoft Skype for Business Server 2019 usando os dois métodos a seguir: Painel de Controle Skype for Business Server e Skype for Business Server Shell de Gerenciamento. Os tópicos nesta seção descrevem tarefas que você deve concluir durante a implantação piloto, bem como antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação de nível de produção.
   
 ## <a name="in-this-section"></a>Nesta seção
 

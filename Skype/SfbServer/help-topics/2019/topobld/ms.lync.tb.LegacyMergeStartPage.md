@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para começar a mesclar uma implantação herdada com o Skype for Business Server, clique em Próximo.
-ms.openlocfilehash: 0518b045fc5b7333fc092391a03e53f1854e535d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para começar a mesclar uma implantação herdda com Skype for Business Server, clique em Next.
+ms.openlocfilehash: f71187c29f087730fab71ecafd32edcaa0bb814c8629f8b55ef4bd48e74405fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299927"
 ---
 # <a name="legacy-merge-start"></a>Início da Mesclagem de Legado
  
-Para começar a mesclar uma implantação herdada com o Skype for Business Server, clique em **Próximo.** 
+Para começar a mesclar uma implantação herdado com Skype for Business Server, clique em **Próximo**. 
   
 
