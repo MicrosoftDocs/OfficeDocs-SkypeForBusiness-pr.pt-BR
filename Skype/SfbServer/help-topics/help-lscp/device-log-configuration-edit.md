@@ -1,5 +1,5 @@
 ---
-title: Edição da Configuração do Log de Dispositivo
+title: Edição de Configuração de Log de Dispositivo
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,24 +14,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
-description: Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de Log que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.
-ms.openlocfilehash: 694729b74209715bd87bed0c3bd59d80f31fff59
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de Log que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo em que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.
+ms.openlocfilehash: a2900d452dd0342ddd60813e35d4611b6ea6ccca6cad114237d87bd915243191
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304043"
 ---
 # <a name="device-log-configuration-edit"></a>Configuração de Log de Dispositivo: Editar
  
-Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de **Log** que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.
+Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de **Log** que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo em que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.
   
 > [!CAUTION]
 > A exclusão permanente dos arquivos os remove do sistema de arquivos. Depois de excluir um arquivo, ele não pode ser recuperado. 
   
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-É possível executar as seguintes tarefas na página **Editar Configuração de Log:**
+Você pode executar as seguintes tarefas na página **Editar Configuração de Log:**
   
 - Adicione uma configuração de log de dispositivo globalmente ou para um site específico.
     
@@ -51,7 +51,7 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
     
 - **Minutos para liberar o cache (1 a 60)** Você pode especificar com que frequência as informações armazenadas no cache do arquivo de log são gravadas no arquivo de log real. Depois que os dados são registrados, o cache é limpo. O padrão é cinco minutos.
     
-- **Dias para manter os arquivos de log (1-365)** Você pode especificar o número de dias que os arquivos de log serão mantidos antes que sejam limpos. O padrão é 10 dias.
+- **Dias para manter arquivos de log (1-365)** Você pode especificar o número de dias em que os arquivos de log são mantidos antes que eles sejam limpos. O padrão é 10 dias.
     
 ## <a name="see-also"></a>Confira também
 

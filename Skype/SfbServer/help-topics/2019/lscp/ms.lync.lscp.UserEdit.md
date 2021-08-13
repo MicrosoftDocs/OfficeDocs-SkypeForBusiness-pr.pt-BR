@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 5d0f8b0039b12bca19dbfc90adbc6065e7bf9f87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ccd11709a5a024fa428e37bef7e0f8b191c81f2ed45db19e8a10a42638fb86e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304253"
 ---
 # <a name="users-edit-user"></a>Usuários: Editar Usuário
 
@@ -28,13 +28,13 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Habilitar ou desabilitar usuários](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)
 
-- [Habilitar usuários para Enterprise Voice no Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Habilitar usuários para Enterprise Voice em Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [Atribuir uma política de conferência para modificar a experiência de reunião padrão de um usuário](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
 
 - [Especificar versões do cliente com suporte para entrar por um usuário](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Atribuir uma política de PIN por usuário no Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Atribuir uma política de PIN por usuário em Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [Configurar federação, acesso de usuário remoto e conectividade de IM pública para usuários](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

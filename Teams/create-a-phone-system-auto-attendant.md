@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315387"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -143,7 +143,7 @@ O formato necessário para inserir a extensão no campo número de telefone do u
 - Exemplo 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - Exemplo 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-Você pode definir a extensão no centro de administração [Microsoft 365](https://admin.microsoft.com/) ou no Azure Active Directory [de administração.](https://aad.portal.azure.com) Pode levar até 12 horas antes que as alterações sejam disponibilizadas para os atendimentos automáticos e filas de chamada.
+Você pode definir a extensão [no](https://admin.microsoft.com/) Centro de administração do Microsoft 365 ou no Azure Active Directory [de administração.](https://aad.portal.azure.com) Pode levar até 12 horas antes que as alterações sejam disponibilizadas para os atendimentos automáticos e filas de chamada.
 
 > [!NOTE]
 > Se você quiser usar os recursos  **Discar** por nome e Discar por extensão, você pode atribuir uma chave de discagem no seu atendimento automático principal para alcançar um atendimento automático habilitado para Discagem **pelo nome**. Nesse atendimento automático, você pode atribuir a tecla 1 (que não tem letras associadas a ela) para alcançar o atendimento automático **Discar** por extensão.

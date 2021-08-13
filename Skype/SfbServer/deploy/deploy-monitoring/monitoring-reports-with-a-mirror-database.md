@@ -1,5 +1,5 @@
 ---
-title: Associar Relatórios de Monitoramento a um banco de dados espelho no Skype for Business Server
+title: Associar relatórios de monitoramento a um banco de dados espelho em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,59 +11,59 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 'Resumo: Saiba como associar relatórios de monitoramento a um banco de dados espelho usado pelo Skype for Business Server.'
-ms.openlocfilehash: 4ce6d420f6b29a5c6160b9b220e5fd190a977f9d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como associar Relatórios de Monitoramento a um banco de dados espelho usado por Skype for Business Server.'
+ms.openlocfilehash: 99b30eaf7388bfec71f55e2e3f1f784271a3258d1280953426291b1dbfe14750
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304353"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associar Relatórios de Monitoramento a um banco de dados espelho no Skype for Business Server 
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associar relatórios de monitoramento a um banco de dados espelho em Skype for Business Server 
  
-**Resumo:** Saiba como associar relatórios de monitoramento a um banco de dados espelho usado pelo Skype for Business Server.
+**Resumo:** Saiba como associar Relatórios de Monitoramento a um banco de dados espelho usado por Skype for Business Server.
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Monitorar relatórios com um banco de dados espelho
 
-Se você configurar um espelho para o banco de dados de monitoramento, esse banco de dados espelho assumirá como o banco de dados principal se ocorrer um failover. No entanto, se você usar os Relatórios de Monitoramento do Skype for Business Server e ocorrer um failover, poderá descobrir que seus Relatórios de Monitoramento não estão se conectando ao banco de dados espelho. Isso acontece porque, ao instalar os Relatórios de Monitoramento, você especifica apenas o local do banco de dados primário; você não especifica o local do banco de dados espelho.
+Se você configurar um espelho para o banco de dados de monitoramento, esse banco de dados espelho assumirá como o banco de dados principal se ocorrer um failover. No entanto, se você usar Skype for Business Server Relatórios de Monitoramento e ocorrer um failover, você poderá descobrir que seus Relatórios de Monitoramento não estão se conectando ao banco de dados espelho. Isso acontece porque, ao instalar relatórios de monitoramento, você especifica apenas o local do banco de dados principal; você não especifica o local do banco de dados espelho.
   
-Para fazer com que os Relatórios de Monitoramento sejam automaticamente failover para o banco de dados espelho, você deve adicionar o banco de dados espelho como um "parceiro de failover" aos dois bancos de dados usados pelos Relatórios de Monitoramento (um banco de dados para dados de Registro de Detalhe da Chamada e outro para dados de QoE (Qualidade da Experiência). (Observe que esta etapa deve ser executada após a instalação dos Relatórios de Monitoramento.) Você pode adicionar as informações do parceiro de failover editando manualmente os valores de sequência de conexão usados por esses dois bancos de dados. Para fazer isso, conclua o seguinte procedimento:
+Para fazer com que relatórios de monitoramento sejam automaticamente failover no banco de dados espelho, você deve adicionar o banco de dados espelho como um "parceiro de failover" aos dois bancos de dados usados pelos Relatórios de Monitoramento (um banco de dados para dados do Registro de Detalhes de Chamada e o outro para dados de QoE (Qualidade da Experiência). (Observe que essa etapa deve ser executada após a instalação dos Relatórios de Monitoramento.) Você pode adicionar as informações do parceiro de failover editando manualmente os valores de cadeia de conexão usados por esses dois bancos de dados. Para fazer isso, conclua o seguinte procedimento:
   
-1. Use o Internet Explorer para abrir a **home page do SQL Server Reporting Services.** A URL da home page do Reporting Services inclui:
+1. Use o Internet Explorer para abrir a **SQL Server Reporting Services** página inicial. A URL da home page do Reporting Services inclui:
     
    - O **prefixo http:**
     
-   - O FQDN (nome de domínio totalmente qualificado) do computador em que o Reporting Services está instalado (por exemplo, **atl-sql-001.litwareinc.com**).
+   - O FQDN (nome de domínio totalmente qualificado) do computador onde os Serviços de Relatório estão instalados (por exemplo, **atl-sql-001.litwareinc.com**).
     
    - A cadeia de **caracteres /Reports_**.
     
-   - O nome da instância do banco de dados onde os Relatórios de Monitoramento estão instalados (por exemplo, **archinst**).
+   - O nome da instância do banco de dados em que os Relatórios de Monitoramento estão instalados (por exemplo, **archinst**).
     
-     Por exemplo, se o SQL Server Reporting Services tiver sido instalado no computador atl-sql-001.litwareinc.com e os Relatórios de Monitoramento usarem o arquivamento de instância de banco de dados, a URL da home page terá esta aparência:
+     Por exemplo, se SQL Server Reporting Services foi instalado no computador atl-sql-001.litwareinc.com e os Relatórios de Monitoramento usarem o archinst de instância do banco de dados, a URL da home page teria esta aparência:
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Depois de acessar a home page do Reporting Services, clique em **ServerReports** e clique em **Reports_Content**. Isso levará você para a página **Reports_Content** para os Relatórios de Monitoramento do Skype for Business Server.
+2. Depois de acessar a home page do Reporting Services, clique em **ServerReports** e clique **em Reports_Content**. Isso o levará à **página** Reports_Content para os relatórios Skype for Business Server monitoramento.
     
 3. Na página **Reports_Content,** clique na fonte de dados **CDRDB.**
     
-4. Na página **CDRDB,** na guia **Propriedades,** procure a caixa de texto rotulada **Sequência de** conexão. A cadeia de conexão atual será semelhante a esta:
+4. Na página **CDRDB,** na guia **Propriedades,** procure a caixa de texto rotulada **Cadeia de caracteres de conexão**. A cadeia de caracteres de conexão atual será semelhante a esta:
     
     Data source=(local)\archinst;initial catalog=LcsCDR
     
-5. Edite a cadeia de conexão para incluir o nome do servidor e a instância do banco de dados para o banco de dados espelho. Por exemplo, se o servidor for nomeado como atl-mirror-001 e o banco de dados espelho estiver na instância archinst, você precisará adicionar para especificar o banco de dados espelho usando esta sintaxe:
+5. Edite a cadeia de caracteres de conexão para incluir o nome do servidor e a instância do banco de dados do espelho. Por exemplo, se o servidor for nomeado atl-mirror-001 e o banco de dados espelho estiver na instância archinst, você precisará adicionar para especificar o banco de dados espelho usando esta sintaxe:
     
     Failover Partner=atl-mirror-001\archinst
     
-    Sua sequência de conexão editada terá a aparência a seguir:
+    Sua cadeia de caracteres de conexão editada será assim:
     
-    Data source=(local)\archinst; Failover Partner=atl-mirror-001\archinst;initial catalog=LcsCDR
+    Fonte de dados=(local)\archinst; Failover Partner=atl-mirror-001\archinst;catalog=LcsCDR
     
-6. Depois de atualizar a cadeia de conexão, clique em **Aplicar.**
+6. Depois de atualizar a cadeia de caracteres de conexão, clique em **Aplicar**.
     
-7. Na página **CDRDB,** clique **Reports_Content** link. Clique na **fonte de dados QMSDB** e edite a cadeia de conexão para o banco de dados de QoE. Por exemplo:
+7. Na página **CDRDB,** clique **no** Reports_Content link. Clique na **fonte de dados QMSDB** e edite a cadeia de conexão do banco de dados QoE. Por exemplo:
     
-    Data source=(local)\archinst; Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics
+    Fonte de dados=(local)\archinst; Failover Partner=atl-mirror-001\archinst;catalog=QoEMetrics
     
 8. Clique em **Aplicar**.
     

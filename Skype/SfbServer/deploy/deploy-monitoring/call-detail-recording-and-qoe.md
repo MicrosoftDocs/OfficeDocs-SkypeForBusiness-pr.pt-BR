@@ -1,5 +1,5 @@
 ---
-title: Definir o registro de detalhes das chamadas e as configurações de Qualidade da Experiência no Skype for Business Server
+title: Configurar o registro de detalhes de chamada e as configurações de Qualidade da Experiência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,52 +11,52 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: 'Resumo: saiba como configurar o CDR e a QoE no Skype for Business Server.'
-ms.openlocfilehash: dd8611723e3d83f8a4553ba2148ee5ae29791e88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como configurar CDR e QoE em Skype for Business Server.'
+ms.openlocfilehash: 7c7cd1efefb2cfc52e6cf40d3b78cbc87774b40db4e4d2b012e79d1f657994cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304363"
 ---
-# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Definir o registro de detalhes das chamadas e as configurações de Qualidade da Experiência no Skype for Business Server
+# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Configurar o registro de detalhes de chamada e as configurações de Qualidade da Experiência no Skype for Business Server
  
-**Resumo:** Saiba como configurar o CDR e a QoE no Skype for Business Server.
+**Resumo:** Saiba como configurar CDR e QoE em Skype for Business Server.
   
-Configure o monitoramento de CDR e QoE usando relatórios do SQL Server Reporting Services para o Skype for Business Server.
+Configure o monitoramento de CDR e QoE usando SQL Server Reporting Services relatórios para Skype for Business Server.
   
 ## <a name="configure-cdr-and-qoe"></a>Configurar CDR e QoE
 
-Depois de associar um armazenamento de monitoramento a um pool de Front-End, configurar o armazenamento de monitoramento e, em seguida, instalar e configurar o SQL Server Reporting Services e os Relatórios de Monitoramento, você poderá gerenciar o monitoramento do Registro de Detalhes das Chamadas (CDR) e qualidade da experiência (QoE) usando o Shell de Gerenciamento do Skype for Business Server. Os cmdlets do Shell de Gerenciamento do Skype for Business Server permitem habilitar e desabilitar o monitoramento CDR e/ou QoE para um site específico ou para toda a sua implantação do Skype for Business Server; que pode ser feito com um comando tão simples quanto este:
+Depois de associar um armazenamento de monitoramento a um pool de Front-End, configure o armazenamento de monitoramento e instale e configure o SQL Server Reporting Services e Relatórios de Monitoramento, você pode gerenciar o cdr (registro de detalhes de chamada) e o monitoramento de Qualidade da Experiência (QoE) usando o Shell de Gerenciamento Skype for Business Server. Skype for Business Server Os cmdlets do Shell de Gerenciamento permitem que você habilita e desabilite o monitoramento de CDR e/ou QoE para um site específico ou para toda a implantação Skype for Business Server. que pode ser feito com um comando tão simples quanto este:
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-Ao instalar o Skype for Business Server, você também instalará um conjunto predefinido de definições de configuração globais para CDR e QoE. Os valores padrão para algumas das configurações usados com mais frequência pelo Registro de Detalhes das Chamadas são exibidos na tabela a seguir:
+Ao instalar o Skype for Business Server, você também instalará uma coleção predefinida de configurações globais para CDR e QoE. Os valores padrão para algumas das configurações usados com mais frequência pelo Registro de Detalhes das Chamadas são exibidos na tabela a seguir:
   
-|**Propriedade**|**Descrição**|**Valor padrão**|
+|**Property**|**Descrição**|**Valor padrão**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |Indica se o CDR está habilitado ou não. Se for Verdadeiro, todos os registros de CDR serão coletados e gravados no banco de dados de monitoramento.  <br/> |Verdadeiro  <br/> |
 |EnablePurging  <br/> |Indica se os registros CDR serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pelas propriedades KeepCallDetailForDays (para registros CDR) e KeepErrorReportForDays (para erros de CDR). Se for Falso, os registros CDR serão mantidos indefinidamente.  <br/> |Verdadeiro  <br/> |
 |KeepCallDetailForDays  <br/> |Indica o número de dias durante os quais os registros CDR serão mantidos no banco de dados; quaisquer registros mais antigos do que o número especificado de dias serão automaticamente excluídos. No entanto, isso ocorrerá somente se a exclusão tiver sido habilitada.  <br/> KeepCallDetailForDays pode ser definido como qualquer valor inteiro entre 1 e 2562 dias (aproximadamente 7 anos).  <br/> |60 dias  <br/> |
-|KeepErrorReportForDays  <br/> |Indica o número de dias durante os quais esses relatórios de erro CDR serão mantidos; quaisquer relatórios mais antigos do que o número especificado de dias serão automaticamente excluídos. Os relatórios de erros de CDR são relatórios de diagnóstico carregados por aplicativos cliente, como o Skype for Business Server.  <br/> É possível definir essa propriedade como qualquer valor inteiro entre 1 e 2562 dias.  <br/> |60 dias  <br/> |
+|KeepErrorReportForDays  <br/> |Indica o número de dias durante os quais esses relatórios de erro CDR serão mantidos; quaisquer relatórios mais antigos do que o número especificado de dias serão automaticamente excluídos. Os relatórios de erro de CDR são relatórios de diagnóstico carregados por aplicativos cliente, como Skype for Business Server.  <br/> É possível definir essa propriedade como qualquer valor inteiro entre 1 e 2562 dias.  <br/> |60 dias  <br/> |
    
 Da mesma forma, os valores padrão para as configurações de QoE selecionadas são exibidas nesta tabela:
   
-|**Propriedade**|**Descrição**|**Valor padrão**|
+|**Property**|**Descrição**|**Valor padrão**|
 |:-----|:-----|:-----|
 |EnableQoE  <br/> |Indica se o monitoramento de QoE está habilitado ou não. Se for Verdadeiro, todos os registros de QoE serão coletados e gravados no banco de dados de monitoramento.  <br/> |Verdadeiro  <br/> |
 |EnablePurging  <br/> |Indica se os registros de QoE serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pela propriedade KeepQoEDataForDays. Se for Falso, os registros de QoE serão mantidos indefinidamente.  <br/> |Verdadeiro  <br/> |
 |KeepQoEDataForDays  <br/> |Indica o número de dias durante os quais os registros de QoE serão mantidos no banco de dados; quaisquer registros mais antigos do que o número especificado de dias serão automaticamente excluídos. No entanto, isso ocorrerá somente se a exclusão tiver sido habilitada.  <br/> KeepCallDetailForDays pode ser definido como qualquer valor inteiro entre 1 e 2562 dias.  <br/> |60 dias  <br/> |
    
-Se for necessário modificar essas configurações globais, você poderá fazer isso usando os cmdlets Set-CsCdrConfiguration e Set-CsQoEConfiguration. Por exemplo, esse comando (executado de dentro do Shell de Gerenciamento do Skype for Business Server) desabilita o monitoramento CDR no escopo global; isso é feito definindo a propriedade EnableCDR como False ($False):
+Se for necessário modificar essas configurações globais, você poderá fazer isso usando os cmdlets Set-CsCdrConfiguration e Set-CsQoEConfiguration. Por exemplo, esse comando (executado de dentro do Shell de Gerenciamento Skype for Business Server) desabilita o monitoramento de CDR no escopo global; isso é feito definindo a propriedade EnableCDR como False ($False):
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 ```
 
-Observe que a desabilitação do monitoramento não desassocia o repositório de monitoramento do pool Front-End, nem desinstala ou afeta de outra forma o banco de dados de monitoramento backend. Quando você usa o Shell de Gerenciamento do Skype for Business Server para desabilitar o monitoramento CDR ou QoE, tudo o que você realmente faz é impedir temporariamente o Skype for Business Server de coletar e arquivar dados de monitoramento. Se quiser continuar, nesse caso, a coleta e o arquivamento de dados CDR, tudo o que você precisa fazer é definir a propriedade EnableCDR de volta para Verdadeiro ($True):
+Observe que a desabilitação do monitoramento não desassocia o repositório de monitoramento do pool Front-End, nem desinstala ou afeta de outra forma o banco de dados de monitoramento backend. Quando você usa Skype for Business Server Shell de Gerenciamento para desabilitar o monitoramento de CDR ou QoE, tudo o que você realmente faz é interromper temporariamente Skype for Business Server de coletar e arquivar dados de monitoramento. Se quiser continuar, nesse caso, a coleta e o arquivamento de dados CDR, tudo o que você precisa fazer é definir a propriedade EnableCDR de volta para Verdadeiro ($True):
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
@@ -82,7 +82,7 @@ As novas configurações de QoE podem ser criadas no escopo do site usando um co
 New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 15
 ```
 
-Para obter mais informações, digite os seguintes comandos no Shell de Gerenciamento do Skype for Business Server:
+Para obter mais informações, digite os seguintes comandos de dentro do Shell de Gerenciamento Skype for Business Server gerenciamento:
   
 ```powershell
 Get-Help New-CsCdrConfiguration | more

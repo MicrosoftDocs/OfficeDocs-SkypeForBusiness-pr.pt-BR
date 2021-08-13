@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se Teams usuários em sua organização podem enviar comentários sobre Teams para a Microsoft.
-ms.openlocfilehash: 66f14467e66456f244664a8273e0ff962297c05f
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 749027ae6dcb9766564444b659d5695abfe733210bc11837946bd4b328d3ab47
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310679"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários em Microsoft Teams
 
@@ -47,7 +47,7 @@ Os usuários também podem taxar sua experiência com Teams e nos enviar detalhe
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Definir se os usuários podem enviar comentários sobre Teams para a Microsoft
 
-Como administrador, você pode controlar se os usuários em sua organização  podem enviar comentários sobre o Teams para a Microsoft por meio de Comentários e se eles receberão a pesquisa. Por padrão, todos os usuários em sua organização são atribuídos automaticamente à política global (padrão em toda a organização), e o recurso Dar **comentários** e a pesquisa estão habilitados na política. A exceção é Teams educação, onde os recursos são habilitados para professores e desabilitados para alunos.
+Como administrador, você pode controlar se os usuários em sua organização  podem enviar comentários sobre o Teams para a Microsoft por meio de Comentários e se eles receberão a pesquisa. Por padrão, todos os usuários em sua organização são atribuídos automaticamente à política global (padrão em toda a organização), e o recurso Dar **comentários** e a pesquisa estão habilitados na política. A exceção é Teams para Educação, onde os recursos são habilitados para professores e desabilitados para alunos.
 
 Você pode editar a política global ou criar e atribuir uma política personalizada. Depois de editar a política global ou atribuir uma política personalizada, pode levar algumas horas para que as alterações entre em vigor.
 

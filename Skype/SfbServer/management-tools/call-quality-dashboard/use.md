@@ -1,5 +1,5 @@
 ---
-title: Usar o Painel de Qualidade de Chamadas para o Skype for Business Server
+title: Usar o Painel de Qualidade de Chamada para Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Resumo: Saiba como usar o Painel de Qualidade de Chamada. O Painel de Qualidade de Chamadas é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: d4787671955159d2bef0144872c50caccbbbb8eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: Saiba como usar o Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098957"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317576"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar o Painel de Qualidade de Chamadas para o Skype for Business Server
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar o Painel de Qualidade de Chamada para Skype for Business Server
 
-**Resumo:** Saiba como usar o Painel de Qualidade de Chamada. O Painel de Qualidade de Chamadas é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba como usar o Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
 
 O Painel de Qualidade de Chamada (CQD) permite que os profissionais de IT usem dados agregados para identificar problemas de criação de problemas de qualidade de mídia comparando estatísticas para grupos de usuários para identificar tendências e padrões. O CQD não se concentra na solução de problemas de chamada individuais, mas na identificação de problemas e soluções que se aplicam a muitos usuários.
 
 ## <a name="call-quality-dashboard-user-guide"></a>Guia do usuário do Painel de Qualidade de Chamada
 
-O CQD é um portal da Web para criar e organizar relatórios rapidamente com base nos dados de QoE (Qualidade da Experiência). O CQD implanta um cubo SSAS para agregar os dados no banco de dados de Métricas de QoE e permite aos administradores criar e modificar relatórios ou fazer investigações em tempo real. Embora seja possível usar o Excel para se conectar diretamente ao cubo, o portal é otimizado para vários fluxos de trabalho envolvendo dados QoE. Os dados incluem:
+O CQD é um portal da Web para criar e organizar relatórios rapidamente com base nos dados de QoE (Qualidade da Experiência). O CQD implanta um cubo SSAS para agregar os dados no banco de dados de Métricas de QoE e permite aos administradores criar e modificar relatórios ou fazer investigações em tempo real. Embora seja possível usar o Excel para se conectar diretamente ao cubo, o portal é otimizado para vários fluxos de trabalho envolvendo dados de QoE. Os dados incluem:
 
 - Dados de relatório armazenados em cache para acesso rápido
 - Links profundos para relatar páginas para compartilhamento e publicação de informações
@@ -53,9 +53,9 @@ Mova o mouse sobre os gráficos de barras e linhas de tendência para mostrar va
 
 Quando você acessa pela primeira vez o portal do Painel de Qualidade de Chamada, um conjunto padrão de relatórios é criado automaticamente. Esses relatórios às vezes são chamados de relatórios do sistema. Você pode modificar ou excluir esses relatórios livremente ou ampliá-los criando novos relatórios irmãos e filhos.
 
-No nível superior, o relatório "Tendência Mensal de Fluxos de Áudio" mostra a tendência mensal para todos os fluxos de áudio. Mova o mouse sobre as barras em um gráfico de barras para mostrar uma exibição mais detalhada dos dados representados pelo gráfico de barras. Clique no título do relatório de Tendência Mensal de Fluxos de Áudio para navegar até o relatório "Fluxos de Áudio Gerenciados versus Não Gerenciados", onde os relatórios são divididos entre chamadas gerenciadas e não gerenciadas. Chamadas gerenciadas são chamadas feitas de dentro do firewall corporativo por conexões com fio. As chamadas não realizadas incluem chamadas feitas de fora do firewall corporativo e todas as chamadas feitas por Wi-Fi.
+No nível superior, o relatório "Audio Fluxos Tendência Mensal" mostra a tendência mensal para todos os fluxos de áudio. Mova o mouse sobre as barras em um gráfico de barras para mostrar uma exibição mais detalhada dos dados representados pelo gráfico de barras. Clique no título do relatório de tendência mensal de áudio Fluxos para navegar até o relatório "Managed vs Unmanaged Audio Fluxos", onde os relatórios são divididos entre chamadas gerenciadas e não gerenciadas. Chamadas gerenciadas são chamadas feitas de dentro do firewall corporativo por conexões com fio. As chamadas não realizadas incluem chamadas feitas de fora do firewall corporativo e todas as chamadas feitas por Wi-Fi.
 
-O outro relatório de nível superior é chamado de "Histograma de classificação de qualidade de chamada relatado pelo usuário". Classificações de Qualidade de Chamadas são os números dados pelos usuários do Skype for Business no final de uma chamada para indicar a qualidade da chamada. Os números de classificação variam de 1 a 5, 1 é o pior e 5 é o melhor. O histograma mostra o número de chamadas de áudio que tiveram a classificação indicada em um mês.
+O outro relatório de nível superior é chamado de "Histograma de classificação de qualidade de chamada relatado pelo usuário". Classificações de Qualidade de Chamada são os números Skype for Business usuários no final de uma chamada para indicar a qualidade da chamada. Os números de classificação variam de 1 a 5, 1 é o pior e 5 é o melhor. O histograma mostra o número de chamadas de áudio que tiveram a classificação indicada em um mês.
 
 Clique no título de qualquer um dos relatórios para navegar em relatórios com mais filtros nos dados. Nos relatórios do sistema, cada relatório filho exibe um subconjunto dos dados disponíveis em seu relatório pai. O modelo de solução de problemas é simples: investigar a qual sub-re-porte os dados ou tendência sugerindo um problema está limitado e restringir gradualmente o espaço do problema. A capacidade de criar sub-reportes permite que você investigue suas próprias suposições sobre a causa das tendências de dados específicas.
 
@@ -167,14 +167,14 @@ Por padrão, esta próxima tabela tem uma entrada (0, 'Unknown', 0, null).
 |Construção |nvarchar(500) |Sim |O Nome da Construção em que o Ponto de Acesso WiFi está localizado. |
 ||||
 
-## <a name="cqd-streams"></a>Fluxos CQD
+## <a name="cqd-streams"></a>CQD Fluxos
 
 Um fluxo CQD é considerado bom, ruim ou não classificado. O CQM 1.5 agora usa a seguinte definição de CQD:
 
 - Um fluxo ruim é qualquer combinação das métricas de chamada ruins além do limite.
 - Quando um fluxo em uma chamada é ruim, ambos os fluxos da chamada são sinalizados como ruins. Em conferências, cada participante é contado como uma chamada exclusiva e é relatado independentemente de todos os outros.
 - Fluxos não classificados são fluxos sem métricas de qualidade (ou seja, Transações Sintéticas ou chamadas curtas).
-- Fluxos válidos = clientes não móveis
+- Válido Fluxos = clientes não móveis
 - Classificador não pode ser modificado
 
 **Definição/classificador de chamada ruim**
@@ -222,9 +222,9 @@ Uma consulta bem formada contém todos os três parâmetros:
 
 - Medida
 - Dimensão
-- Filtrar
+- Filter
 
-Um exemplo de uma consulta bem formada seria "Mostrar-me Fluxos Ruins [Medida] pela Sub-rede [Dimensão] para o Edifício 6 [Filtro]".
+Um exemplo de uma consulta bem formada seria "Show me Poor Fluxos [Measurement] by Subnet [Dimension] for Building 6 [Filter]".
 
 ## <a name="what-does-union-do"></a>O que a UNION faz?
 
@@ -240,9 +240,9 @@ Se o Wireless for gerenciado internamente, você poderá recriar os relatórios 
 
 ## <a name="operational-processes"></a>Processos Operacionais
 
-Revise e remediar os Fluxos Gerenciados primeiro. A qualidade nessa área deve estar 100% dentro do seu controle e, portanto, mais fácil de ser remediada.
+Revisar e remediar o managed Fluxos primeiro. A qualidade nessa área deve estar 100% dentro do seu controle e, portanto, mais fácil de ser remediada.
 
-### <a name="managed-streams"></a>Fluxos gerenciados
+### <a name="managed-streams"></a>Gerenciada Fluxos
 
 Revise e remediar fluxos gerenciados na seguinte ordem:
 
@@ -250,7 +250,7 @@ Revise e remediar fluxos gerenciados na seguinte ordem:
 2. Server-Wired-Inside
 3. Wired-Wired-Inside
 
-### <a name="unmanaged-streams"></a>Fluxos nãomanageados
+### <a name="unmanaged-streams"></a>Sem gestão Fluxos
 
 Revise e remedia fluxos nãomanejados na seguinte ordem:
 

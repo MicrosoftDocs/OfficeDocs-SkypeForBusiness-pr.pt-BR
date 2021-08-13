@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
-description: Criar e gerenciar salas de Chat Persistente é muito mais fácil com o uso correto de categorias. Um administrador de Chat Persistente pode definir AllowedMembers e Criadores para cada categoria e também pode definir as configurações e comportamentos padrão da sala de chat que serão aplicadas a todas as salas de chat criadas na categoria. Os administradores de Chat Persistente criam e gerenciam categorias usando o Painel de Controle do Skype for Business Server ou Windows PowerShell cmdlets.
-ms.openlocfilehash: 7d98ff058251b8bd14eb37a0ae5ba633f5a99c48
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Criar e gerenciar salas de Chat Persistente é muito mais fácil com o uso correto de categorias. Um administrador de Chat Persistente pode definir AllowedMembers e Criadores para cada categoria e também pode definir as configurações e comportamentos padrão da sala de chat que serão aplicadas a todas as salas de chat criadas na categoria. Os administradores de Chat Persistente criam e gerenciam categorias usando Skype for Business Server Painel de Controle ou Windows PowerShell cmdlets.
+ms.openlocfilehash: bc00bada9bdecb35d708ee93ad5536a6758e4eda10ca3ccc671d386a8e8bcdf8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303923"
 ---
 # <a name="select-creators"></a>Selecionar Criadores
 
-Criar e gerenciar salas de Chat Persistente é muito mais fácil com o uso correto de categorias. Um administrador de Chat Persistente pode definir **AllowedMembers** e Criadores para cada categoria e também pode definir as configurações e comportamentos padrão da sala de chat que serão aplicadas a todas as salas de chat **criadas** na categoria. Os administradores de Chat Persistente criam e gerenciam categorias usando o Painel de Controle do Skype for Business Server ou Windows PowerShell cmdlets.
+Criar e gerenciar salas de Chat Persistente é muito mais fácil com o uso correto de categorias. Um administrador de Chat Persistente pode definir **AllowedMembers** e Criadores para cada categoria e também pode definir as configurações e comportamentos padrão da sala de chat que serão aplicadas a todas as salas de chat **criadas** na categoria. Os administradores de Chat Persistente criam e gerenciam categorias usando Skype for Business Server Painel de Controle ou Windows PowerShell cmdlets.
 
 ## <a name="tasks-that-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -34,7 +34,7 @@ Criar e gerenciar salas de Chat Persistente é muito mais fácil com o uso corre
 
 - [Novos recursos de servidor de chat persistente](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar as categorias para salas de chat
 

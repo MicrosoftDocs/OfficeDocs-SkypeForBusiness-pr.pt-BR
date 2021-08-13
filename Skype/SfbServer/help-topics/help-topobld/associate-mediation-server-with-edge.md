@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 'Para definir um Servidor de Mediação, especifique as configurações que associam o Servidor de Mediação a um Servidor Front-End e a um pool ou Servidor de Borda. Para associar o Servidor de Mediação ou o pool a um Servidor de Borda ou pool de Servidores de Borda, faça o seguinte:'
-ms.openlocfilehash: ffd369c76db96185e76665728a88ed8d8419a03d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 20a6e3de81bae13fd14683af62a6c79627a148cf00d50d7584c15ca27d8da0ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315807"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Associar Servidor de Mediação com Borda
  

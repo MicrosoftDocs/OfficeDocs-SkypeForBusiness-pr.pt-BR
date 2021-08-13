@@ -1,5 +1,5 @@
 ---
-title: Diretrizes de implantação para o Servidor de Mediação no Skype for Business Server
+title: Diretrizes de implantação para o Servidor de Mediação Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Este tópico descreve diretrizes de planejamento para implantação do Servidor de Mediação.
-ms.openlocfilehash: ffb60abaf3027541f13fe73294eafda51e5d1d0f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 693a24f6e71b2eee0a3b2881295b65087fe50bf25b03a2647df6df970509f26e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317456"
 ---
-# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Diretrizes de implantação para o Servidor de Mediação no Skype for Business Server
+# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Diretrizes de implantação para o Servidor de Mediação Skype for Business Server
  
 Este tópico descreve diretrizes de planejamento para implantação do Servidor de Mediação.
   
 ## <a name="collocated-or-stand-alone-mediation-server"></a>Servidor de Mediação Alocado ou Autônomo?
 
-O Servidor de Mediação é, por padrão, alocado no servidor Standard Edition ou no Servidor Front-End em um pool de Front-End em sites centrais. O número de chamadas PSTN (rede telefônica pública comutado) que podem ser manipuladas e o número de máquinas necessárias no pool dependerá de:
+O Servidor de Mediação é, por padrão, alocado no servidor Edição Standard ou servidor front-end em um pool de Front-End em sites centrais. O número de chamadas PSTN (rede telefônica pública comutado) que podem ser manipuladas e o número de máquinas necessárias no pool dependerá de:
   
 - O número de pares de gateway que o pool do Servidor de Mediação controla.
     
@@ -42,14 +42,14 @@ Se você implantou gateways PSTN, IP-PBXs ou Controladores de Borda de Sessão (
     
 - Aceite o tráfego de qualquer Servidor de Mediação em um pool.
     
-Você pode usar a Ferramenta de Planejamento do Skype for Business para avaliar se a localização do Servidor de Mediação com o pool de Front-End pode manipular a carga. Se seu ambiente não puder atender a esses requisitos, você precisará implantar um pool de Servidor de Mediação autônomo.
+Você pode usar a ferramenta de planejamento Skype for Business para avaliar se a localização do Servidor de Mediação com o pool de Front-End pode manipular a carga. Se seu ambiente não puder atender a esses requisitos, você precisará implantar um pool de Servidor de Mediação autônomo.
   
 ## <a name="central-site-and-branch-site-considerations"></a>Considerações sobre o site central e site de filial
 
  Os servidores de mediação no site central podem ser usados para rotear chamadas para gateways IP PBXs ou PSTN em sites de flial. No entanto, se você implantar troncos SIP, será preciso implantar um Servidor de Mediação no site em que cada tronco será encerrado. Ter um Servidor de Mediação no site central roteia chamadas para um gateway IP-PBX ou PSTN em um site de filial não exige o uso de bypass de mídia, mas um bypass de mídia é recomendado. Isso porque, se você puder habilitar o bypass de mídia, ele reduzirá a latência do caminho de mídia e, consequentemente, resultará em melhor qualidade de mídia, pois o caminho de mídia não é necessário para seguir o caminho de sinalização. O bypass de mídia também irá diminuir a carga de processamento no pool.
   
 > [!NOTE]
-> O bypass de mídia não interopera com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com o Cisco IP-PBXs. O bypass de mídia é suportado apenas com produtos e versões listados no Programa de Interoperabilidade Aberta de Comunicações Unificadas - Lync Server no [Explore tested devices, infrastructure, and tools](http://partnersolutions.skypeforbusiness.com/solutionscatalog)that support and extend your Skype for Business experience . 
+> O bypass de mídia não interopera com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com o Cisco IP-PBXs. O bypass de mídia só é suportado com produtos e versões listados no Programa de Interoperabilidade Aberta de Comunicações Unificadas - Lync Server no [Explore tested devices, infrastructure, and tools](http://partnersolutions.skypeforbusiness.com/solutionscatalog)that support and extend your Skype for Business experience . 
   
 Se a flexibilidade do site de filial for necessária, um Aparelho de Filial Persistente ou uma combinação de um servidor Front-End, um servidor de mediação e um gateway devem ser implantados na filial. (A suposição com a resiliência do site de filial é que a presença e a conferência não são resilientes no site.) Para obter orientações sobre o planejamento de site de filial para voz, consulte [Plan for Enterprise Voice resiliency in Skype for Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   

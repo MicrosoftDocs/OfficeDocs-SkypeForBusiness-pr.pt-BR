@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
-description: 'Resumo: Saiba como excluir políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 9aadaf82aea7f057cf1969f06d4257992b64a86a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como excluir políticas de conferência no Skype for Business Server.'
+ms.openlocfilehash: 76648fed55f01790e2e81f8683dedde4c24ac0cdfcff956f7813735872c801eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119500"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315617"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Excluir políticas de conferência no Skype for Business Server
  
-**Resumo:** Saiba como excluir políticas de conferência no Skype for Business Server.
+**Resumo:** Saiba como excluir políticas de conferência em Skype for Business Server.
   
-Você pode excluir políticas de conferência usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
+Você pode excluir políticas de conferência usando Skype for Business Server Painel de Controle ou usando Skype for Business Server Shell de Gerenciamento.
   
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Excluir políticas de conferência usando o Painel de Controle do Skype for Business Server
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Excluir políticas de conferência usando Skype for Business Server Painel de Controle
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2.  Abra o Painel de Controle do Skype for Business Server.
+2.  Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação esquerda, clique **em Conferência** e em Política **de Conferência.**
     
 4. Na lista de políticas de conferência, clique no site ou na política de usuário que você deseja **excluir,** clique em **Editar** e clique em Excluir .
     
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Excluir políticas de conferência usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Excluir políticas de conferência usando Skype for Business Server Shell de Gerenciamento
 
 Para excluir políticas de conferência, use o cmdlet **Remove-CsConferencingPolicy.**
   

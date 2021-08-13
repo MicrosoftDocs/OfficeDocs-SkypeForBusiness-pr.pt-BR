@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74974f7b94a5d1bcadb340e132dae9e3b39a7704
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 2bec8b60385185cf1e7417fb5396ef164eb585bad03d003eb174d0bb9cf30c4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315297"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Visão geral da associação dinâmica de equipes
 
@@ -33,7 +33,7 @@ Com a associação dinâmica, você pode configurar equipes para determinados gr
 - Uma universidade pode criar uma equipe para todos os professores em uma determinada universidade, incluindo um corpo docente adjunta que muda com frequência.
 - Uma companhia aérea deseja criar uma equipe para cada voo (como uma tarde de terça-feira sem parar de Chicago para Atlanta) e ter uma equipe de voo com frequência mudando automaticamente atribuída ou removida conforme necessário.
 
-Usando esse recurso, os membros de uma determinada equipe são atualizados automaticamente com base em um conjunto específico de critérios, em vez de gerenciar manualmente a associação. Isso exige que as licenças do Azure AD Premium [](/azure/active-directory/users-groups-roles/groups-dynamic-membership) P1 e a associação à equipe possam ser atribuídas por um administrador de locatários às propriedades do Azure AD de qualquer usuário, desde que você tenha um locatário e uma conta de administrador.
+Usando esse recurso, os membros de uma determinada equipe são atualizados automaticamente com base em um conjunto específico de critérios, em vez de gerenciar manualmente a associação. Isso requer Azure AD Premium P1 licenças e associação de [](/azure/active-directory/users-groups-roles/groups-dynamic-membership) equipe podem ser atribuídas por um administrador de locatários às propriedades do Azure AD de qualquer usuário, desde que você tenha um locatário e uma conta de administrador.
 
 Microsoft Teams pode levar de alguns minutos a até duas horas para refletir as alterações dinâmicas de associação depois que elas entrarem em vigor no grupo Microsoft 365 para uma equipe.
 

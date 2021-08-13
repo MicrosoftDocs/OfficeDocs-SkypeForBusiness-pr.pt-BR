@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Edite as propriedades do Servidor front-end ou pool de front-end editando ou configurando os atributos a seguir. A página de configuração é separada nas seguintes seções:'
-ms.openlocfilehash: 63c784cbd254decdb108d8d8408cd01ef44657a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c0174d6a0badadc217119b5b2ea1028bc01367278739d5b6b03bb4ae83c0f21d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315757"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais de Front-end para Lync Server 2010
 
@@ -39,15 +39,15 @@ Edite as propriedades do Servidor front-end ou pool de front-end editando ou con
 
     **Recursos e funcionalidade**
 
-- **Conferência**: marque a caixa de seleção se você quiser recursos de conferência em sua implantação. A conferência inclui áudio, vídeo, compartilhamento de aplicativo, compartilhamento de desktop e conferência da Web. Você precisará criar e associar um Servidor do Office Web Apps para Webconferência (definido posteriormente nesta página Propriedades).
+- **Conferência**: marque a caixa de seleção se você quiser recursos de conferência em sua implantação. A conferência inclui áudio, vídeo, compartilhamento de aplicativo, compartilhamento de desktop e conferência da Web. Você precisará criar e associar um servidor Office Web Apps para Webconferência (definido posteriormente nesta página Propriedades).
 
 - Se você selecionou Conferência, será possível selecionar **Conferência discada (PSTN)**. Marque a caixa de seleção para habilitar os recursos de conferência discada.
 
-- Marque a caixa de seleção Enterprise Voice se você pretende implantar recursos para permitir que o Lync Server 2013 aja como seu sistema de voz telefônica usando tecnologias voIP (voz sobre IP), incluindo **a** opção de implantar telefones de telefone de telefone, troncos SIP ou conectividade de rede telefônica pública comutado usando o Servidor de Mediação, Gateways PSTN e IP-PBX, em combinação ou sozinha, com base no design e nos requisitos. Para detalhes sobre Enterprise Voice, consulte [Enterprise Voice](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) [plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Marque a caixa de seleção Enterprise Voice se você pretende implantar recursos para habilitar o Lync Server 2013 a atuar como seu sistema de voz telefônica usando tecnologias voIP (voz sobre IP), incluindo **a** opção de implantar telefones de telefone de telefone, troncos SIP ou conectividade de rede telefônica pública comutado usando o Servidor de Mediação, Gateways PSTN e IP-PBX, em combinação ou sozinha, com base no design e nos requisitos. Para detalhes sobre Enterprise Voice, consulte [Enterprise Voice](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) [e Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associações**
 
-- **SQL Server :** o FQDN do SQL Server (e, opcionalmente, uma instância nomeada) associado ao Servidor de Front-End ou pool de Front-End. Selecione o SQL Server store na lista ou crie um novo SQL Server store clicando em **Novo**
+- **SQL Server :** O FQDN do SQL Server (e, opcionalmente, uma instância nomeada) associado ao Servidor de Front-End ou pool de Front-End. Selecione o SQL Server store na lista ou crie um novo SQL Server store clicando em **Novo**
 
 - **Armazenamento de** arquivos : você seleciona o FQDN do servidor e o compartilhamento (no formato ) que atuará como o local do armazenamento de arquivos para os arquivos compartilhados que o Lync Server 2013 cria e usa para replicação, diretórios de conferência e outras  `\\<FQDN of server>\<share name>` finalidades. Selecione o Repositório de arquivo na lista ou crie um novo Repositório de arquivo clicando em **Novo**
 
@@ -91,7 +91,7 @@ Edite as propriedades do Servidor front-end ou pool de front-end editando ou con
     Se você tiver mais de um gateway associado a um Servidor de Mediação, poderá especificar o gateway padrão selecionando o gateway que deseja tornar o padrão e clicando em **Tornar Padrão**. Se você escolher remover o gateway padrão, selecione o gateway e clique em **Desfazer Padrão**.
 
 > [!IMPORTANT]
-> Se você fizer alterações nas propriedades nesta caixa de diálogo, deverá publicar a topologia e executar o Assistente de Implantação do Skype for Business Server em todos os servidores afetados. Depois de publicar a nova topologia, uma lista de servidores afetados onde o Assistente de Implantação do Skype for Business Server deve ser executado é fornecida como um link na tela de resumo de publicação de topologia bem-sucedida. Para obter detalhes sobre como publicar a topologia atualizada, consulte [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Para obter detalhes sobre o Assistente de Implantação do Skype for Business Server, consulte [Lync Server Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools).
+> Se você fizer alterações nas propriedades nesta caixa de diálogo, deverá publicar a topologia e executar o Assistente de Implantação Skype for Business Server em todos os servidores afetados. Depois de publicar a nova topologia, uma lista de servidores afetados onde o Assistente de Implantação Skype for Business Server deve ser executado é fornecida para você como um link na tela de resumo de publicação de topologia bem-sucedida. Para obter detalhes sobre como publicar a topologia atualizada, consulte [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Para obter detalhes sobre o Skype for Business Server de Implantação, consulte [Ferramentas Administrativas do Lync Server.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
 
 Clique em **OK** para salvar e confirmar suas alterações no documento de topologia.
 

@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Resumo: Saiba como alterar as políticas de arquivamento do usuário para o Skype for Business Server.'
-ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como alterar as políticas de arquivamento do usuário para Skype for Business Server.'
+ms.openlocfilehash: 571f32a4cf5fb0bddd006719f3a9886c852df3f7196adf774f554cda216ea0a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817701"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315707"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Alterar uma política de arquivamento existente no Skype for Business Server
  
-**Resumo:** Saiba como alterar as políticas de arquivamento do usuário para o Skype for Business Server.
+**Resumo:** Saiba como alterar as políticas de arquivamento do usuário para Skype for Business Server.
   
-Ao implantar pela primeira vez o Skype for Business Server, você configura políticas iniciais de arquivamento que determinam como o arquivamento é implementado para os usuários em sua implantação. Este tópico descreve como gerenciar e alterar políticas. 
+Ao implantar o Skype for Business Server, você configura políticas iniciais de arquivamento que determinam como o arquivamento é implementado para os usuários em sua implantação. Este tópico descreve como gerenciar e corrigir políticas. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Alterar políticas de arquivamento usando o Painel de Controle
 
 1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna. 
     
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e em **Política de Arquivamento**.
     
@@ -50,11 +50,11 @@ Ao implantar pela primeira vez o Skype for Business Server, você configura pol�
 6. Clique em **Confirmar**.
     
     > [!IMPORTANT]
-    > As configurações de uma política de usuário somente se aplicam aos usuários e grupos de usuários específicos aos quais você aplicar a política. Para obter detalhes, [consulte Aplicar uma política de arquivamento aos usuários no Skype for Business Server.](apply-a-policy-to-users.md) 
+    > As configurações de uma política de usuário somente se aplicam aos usuários e grupos de usuários específicos aos quais você aplicar a política. Para obter detalhes, [consulte Apply an archiving policy to users in Skype for Business Server](apply-a-policy-to-users.md). 
   
-## <a name="change-archiving-policies-by-using-windows-powershell"></a>Alterar políticas de arquivamento usando o Windows PowerShell
+## <a name="change-archiving-policies-by-using-windows-powershell"></a>Alterar políticas de arquivamento usando Windows PowerShell
 
-Você também pode alterar as políticas de arquivamento usando o cmdlet **Set-CsArchivingPolicy** do Windows PowerShell.
+Você também pode alterar as políticas de arquivamento usando o cmdlet **Windows PowerShell Set-CsArchivingPolicy.**
   
 ### <a name="enable-archiving-policies"></a>Habilitar políticas de arquivamento
 
@@ -70,7 +70,7 @@ Para habilitar o arquivamento de sessões de comunicação externa, de definir o
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
-Para habilitar o arquivamento de sessões de comunicação interna e externa, de definir o valor dos parâmetros ArchiveInternal e ArchiveExternal como True: 
+Para habilitar o arquivamento de sessões de comunicação internas e externas, de definir o valor dos parâmetros ArchiveInternal e ArchiveExternal como True: 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ao obter números de telefone ou números de portabilidade (transferência) para sua organização, pode ser necessário obter ajuda e suporte na central de serviços PSTN.
-ms.openlocfilehash: b3925fbd473094b06133fb7cfe31479396434b80
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: MT
+ms.openlocfilehash: 4fa1a72c68c43f82715fb5f54a77a2e3a2181445f37afeb4f1bf640bb2766de6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510272"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310669"
 ---
 # <a name="pstn-service-desk"></a>Central de Serviços PSTN 
 
@@ -48,7 +48,7 @@ Para entrar em contato com a central de serviços:
 > [!NOTE]
 > Apenas alguém do mesmo locatário terá permissão para criar uma ocorrência. Ou seja, alguém de @fabrikam.com não pode criar uma ocorrência em nome de @contoso.com. 
 
-A partir da Central de Serviços de Número de Telefone, você pode criar novas ocorrências, visualizar ocorrências existentes, comunicar-se com a central de serviços e gerenciar seu perfil de usuário. Essas tarefas estão descritas com mais detalhes nas seções a seguir.
+No Centro de Serviços de Número de Telefone, você pode criar novos casos, exibir casos existentes, comunicar-se com a central de serviços e gerenciar seu perfil de usuário. Essas tarefas são descritas mais detalhadamente nas seções a seguir.
 
 - **Central de Serviços de Número de Telefone**  - navegue até a página inicial do portal. 
 

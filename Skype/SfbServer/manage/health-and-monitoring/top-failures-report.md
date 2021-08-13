@@ -1,5 +1,5 @@
 ---
-title: Relatório das principais falhas no Skype for Business Server
+title: Relatório de Falhas Principais no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Resumo: saiba mais sobre o Relatório das Principais Falhas no Skype for Business Server.'
-ms.openlocfilehash: bd03dc921e8df122f4e1ac3ca5cf15195a84b13e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre o Relatório de Falhas Principais Skype for Business Server.'
+ms.openlocfilehash: 04088bce640ec19675afb1513645639a59ed4351ab581280bbec4904d57f835e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317546"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>Relatório das principais falhas no Skype for Business Server
+# <a name="top-failures-report-in-skype-for-business-server"></a>Relatório de Falhas Principais no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Relatório de Falhas Principais no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Falhas Principais Skype for Business Server.
   
 O Relatório de Falhas Principais apresenta uma noção das falhas mais frequentemente relatadas e suas tendências ao longo do tempo. As falhas são baseadas em uma combinação das duas seguintes métricas:
   
 - **ID de Diagnóstico**. Identificador único (na forma de um cabeçalho ms-diagnostics) que é anexado a uma mensagem SIP. As IDs de Diagnóstico fornecem informações úteis na solução de problemas relacionados a chamadas.
     
-- **Código de resposta**. Os códigos de resposta são utilizados nas sessões de comunicação SIP para responder solicitações SIP. Por exemplo, suponha que Ken envie a solicitação INVITE a Pilar Ackerman (isto é, suponha que Ken Myer ligue para Pilar Ackerman). Se Pilar responder, o telefone enviará o código de resposta 200 (OK), permitindo que o telefone de Ken saiba que Pilar atendeu. O Relatório de Falhas Principais inclui apenas códigos de resposta que foram enviados em resposta a uma falha de chamada; O Skype for Business Server não mantém o controle de todos os códigos de resposta emitidos durante uma chamada.
+- **Código de resposta**. Os códigos de resposta são utilizados nas sessões de comunicação SIP para responder solicitações SIP. Por exemplo, suponha que Ken envie a solicitação INVITE a Pilar Ackerman (isto é, suponha que Ken Myer ligue para Pilar Ackerman). Se Pilar responder, o telefone enviará o código de resposta 200 (OK), permitindo que o telefone de Ken saiba que Pilar atendeu. O Relatório de Falhas Principais inclui apenas códigos de resposta que foram enviados em resposta a uma falha de chamada; Skype for Business Server não mantém o controle de todos os códigos de resposta emitidos durante o curso de uma chamada.
     
 A informação é relatada não apenas para o número total de sessões quando uma falha ocorre, mas também para o número total de usuários que foram impactados pela falha.
   
 ## <a name="accessing-the-top-failures-report"></a>Acessando o Relatório de Falhas Principais
 
-O Relatório de Falhas Principais é acessado a partir da página Relatórios de Monitoramento. Clicar na métrica Sessões relatadas levará você ao Relatório de Distribuição [de Falhas no Skype for Business Server.](failure-distribution-report.md)
+O Relatório de Falhas Principais é acessado a partir da página Relatórios de Monitoramento. Clicar na métrica sessões relatadas o levará ao Relatório de Distribuição de Falhas [em Skype for Business Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Fazendo o melhor uso do Relatório de Falhas Principais
 
-O Relatório de Falhas Principais é incomum quanto a uma coisa: ele permite a filtragem de até 5 IDs de diagnóstico de uma vez. (Normalmente, você só pode filtrar um item, como um endereço SIP de usuário, por vez.) Para filtrar várias IDs de diagnóstico, basta inserir cada ID na caixa IDs de diagnóstico, separando as IDs usando vírgulas. (Se quiser, você pode deixar um espaço em branco após cada vírgula.) Por exemplo:
+O Relatório de Falhas Principais é incomum quanto a uma coisa: ele permite a filtragem de até 5 IDs de diagnóstico de uma vez. (Normalmente, você só pode filtrar em um item - como um endereço SIP de usuário - de cada vez.) Para filtrar várias IDs de diagnóstico, basta inserir cada ID na caixa IDs de diagnóstico, separando as IDs usando vírgulas. (Se quiser, você pode deixar um espaço em branco após cada vírgula.) Por exemplo:
   
 1011, 2412, 1033, 52116, 1008
   
@@ -59,7 +59,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são contadas de domingo até sábado.  <br/> |
-|**Tipo de atividade** <br/> | Tipo de atividade. Selecione um dos seguintes: <br/>  [Tudo] <br/>  Ponto a ponto <br/>  Conferência <br/> |
+|**Tipo de atividade** <br/> | Tipo de atividade. Selecione um dos seguintes: <br/>  [Todos] <br/>  Ponto a ponto <br/>  Conferência <br/> |
 |**Modalidade** <br/> |Neste momento, a única opção disponível é **[Todos]**.  <br/> |
 |**Pool** <br/> |FQDN (nome de domínio totalmente qualificado do pool de Registrador ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Todos]** para exibir dados de todos os pools. Esta lista suspensa é preenchida automaticamente com base nos registros contidos no banco de dados.<br/> |
 |**Categoria** <br/> | Tipo de falha ocorrido. Selecione um dos seguintes: <br/>  Falha inesperada e esperada <br/>  Falha inesperada <br/>  Uma "falha esperada" é aquela que se espera que ocorra. Por exemplo, se um usuário tiver definido seu status como Não incomodar, é esperado que toda chamada encaminhada para esse usuário falhe. "Falha inesperada" é uma falha que ocorre em um sistema que parecia estar em bom estado.Por exemplo, uma chamada não deve ser finalizada se o chamador é colocado em espera. Se isso ocorrer, a situação será sinalizada como falha inesperada. <br/> |
