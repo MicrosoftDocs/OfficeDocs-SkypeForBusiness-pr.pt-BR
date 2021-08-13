@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
-description: O Reset-CcCACertificate cmdlet reinstala o Servidor AD do Serviço de Autoridade de Certificação para criar um novo certificado de AUTORIDADE de Certificação raiz.
-ms.openlocfilehash: 6a7f377642ca8aa8722933e503a6c0c2f2613544
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O cmdlet Reset-CcCACertificate reinstala o Servidor AD do Serviço de Autoridade de Certificação para criar um novo certificado de AC raiz.
+ms.openlocfilehash: 8e0cb93e6f10f28df28213579674a6cda6e7e2cd1cf201319f77dc26be69de80
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340717"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
-O Reset-CcCACertificate cmdlet reinstala o Servidor AD do Serviço de Autoridade de Certificação para criar um novo certificado de AUTORIDADE de Certificação raiz.
+O cmdlet Reset-CcCACertificate reinstala o Servidor AD do Serviço de Autoridade de Certificação para criar um novo certificado de AC raiz.
   
 ```powershell
 Reset-CcCACertificate
@@ -37,7 +37,7 @@ Nenhum
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir reinstala o Servidor AD do Serviço de Autoridade de Certificação para criar um novo certificado de autoridade de certificação raiz:
+O exemplo a seguir reinstala o Servidor AD do Serviço de Autoridade de Certificação para criar um novo certificado de AC raiz:
   
 ```powershell
 Reset-CcCACertificate
@@ -46,14 +46,14 @@ Reset-CcCACertificate
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-Se o certificado de AC raiz estiver comprometido ou não for mais seguro, você deverá atualizar o certificado de ac raiz e todos os certificados emitidos pela CA raiz. O cmdlet Reset-CcCACertificate revoga todos os certificados, desinstala e reinstala a Autoridade de Certificação e limpa todos os certificados relacionados ao antigo serviço de Autoridade de Certificação. 
+Se o certificado de AC raiz estiver comprometido ou não estiver mais seguro, você deverá atualizar o certificado ca raiz e todos os certificados emitidos pela AC raiz. O cmdlet Reset-CcCACertificate revoga todos os certificados, desinstala e reinstala a Autoridade de Certificação e limpa todos os certificados relacionados ao antigo serviço de Autoridade de Certificação. 
   
-Para obter mais informações, consulte "Certificados de autoridade de certificação ou certificados internos emitidos para CMS, Servidor de Mediação e Servidor de Borda estão próximos de expirar ou estão comprometidos" na Solução de problemas de sua implantação do Cloud Connector.
+Para obter mais informações, consulte "Certificados de autoridade de certificado ou certificados internos emitidos para CMS, Servidor de Mediação e Servidor de Borda estão próximos da expiração ou estão comprometidos" em Solução de problemas da implantação do Cloud Connector.
   
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O Reset-CcCACertificate cmdlet não aceita entrada em pipeline.
+Nenhum. O Reset-CcCACertificate cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
@@ -63,9 +63,9 @@ Nenhum.
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
-[Renew-CcCACertificate](renew-cccacertificate.md) Somente a versão 1.4.2
+[Renew-CcCACertificate](renew-cccacertificate.md) Versão 1.4.2 somente
   
-[Renew-CcServerCertificate](renew-ccservercertificate.md) Somente a versão 1.4.2
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Versão 1.4.2 somente
   
 [Update-CcCACertificate](update-cccacertificate.md) Versão 2.0 e posterior
   

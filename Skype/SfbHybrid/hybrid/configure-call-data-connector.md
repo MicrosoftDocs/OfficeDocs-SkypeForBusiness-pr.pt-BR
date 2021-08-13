@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para configurar o Conector de Dados de Chamada, que permite que a telemetria Skype for Business local seja exibida usando ferramentas Skype for Business Online.
-ms.openlocfilehash: 28a9ba2f00a071ff5b1c0781240cf54a2de929e8
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: bc9346919e3f70d8fe8fe3e43e61a0e715cf0eb9bf52534a2beb2f8604b920f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510592"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323683"
 ---
 # <a name="configure-call-data-connector"></a>Configurar o Conector de Dados de Chamada
 

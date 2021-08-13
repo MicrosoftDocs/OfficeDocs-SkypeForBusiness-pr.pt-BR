@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: Estas seções detalham as colunas em cada tabelas de esquema do banco de dados do QoE (Quality of Experience).
-ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42085494d2d302742c2a18b5af17506ba8f79a3ff9812f86b817506ea401d98f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815751"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321593"
 ---
 # <a name="qoe-table-details"></a>Detalhes da tabela de QoE
  
@@ -38,15 +38,15 @@ Estas seções detalham as colunas em cada tabelas de esquema do banco de dados 
     
 - [Tabela CodecDescription](codecdescription.md)
     
-- [Tabela conference](conference.md)
+- [Tabela de conferências](conference.md)
     
-- [Tabela device](device.md)
+- [Tabela de dispositivos](device.md)
     
 - [Tabela DeviceDriver](devicedriver.md)
     
-- [Tabela Dialog](dialog.md)
+- [Tabela de diálogo](dialog.md)
     
-- [Tabela endpoint](endpoint.md)
+- [Tabela de ponto de extremidade](endpoint.md)
     
 - [Tabela EndpointSubnet](endpointsubnet.md)
     
@@ -64,23 +64,23 @@ Estas seções detalham as colunas em cada tabelas de esquema do banco de dados 
     
 - [Tabela PayloadDescription](payloaddescription.md)
     
-- [Tabela Pool](pool.md)
+- [Tabela pool](pool.md)
     
 - [Tabela PurgeSettings (QoE)](purgesettings-qoe.md)
     
-- [Tabela de região](region.md)
+- [Tabela região](region.md)
     
-- [Tabela Server](server.md)
+- [Tabela de servidor](server.md)
     
-- [Tabela Session](session.md)
+- [Tabela de sessão](session.md)
     
 - [Tabela SessionCorrelation](sessioncorrelation.md)
     
-- [Tabela Sub-rede](subnet.md)
+- [Tabela sub-rede](subnet.md)
     
 - [Tabela TraceRoute](traceroute.md)
     
-- [Tabela User](user-0.md)
+- [Tabela do usuário](user-0.md)
     
 - [Tabela UserAgent](useragent.md)
     

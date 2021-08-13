@@ -10,31 +10,31 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Depois de remover um pool de #A0 ou reconfigurar o pool para usar um banco de dados diferente, você pode remover os bancos de dados do SQL Server que hospedaram os dados do pool. Use os procedimentos a seguir para remover as definições do Construtor de Topologias e, em seguida, remova o banco de dados e os arquivos de log do servidor de banco de dados.'
-ms.openlocfilehash: 9047486708b92c07e6ec099fce43ec4c708fa900
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Depois de remover um pool de Front-End ou reconfigurar o pool para usar um banco de dados diferente, você pode remover os bancos de dados SQL Server que hospedaram os dados do pool. Use os procedimentos a seguir para remover as definições do Construtor de Topologias e, em seguida, remova o banco de dados e os arquivos de log do servidor de banco de dados.
+ms.openlocfilehash: 01a28beabb85aa7cda25043680537f519872d58654dee5418f03ae9f5f702a19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340317"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Remover o banco de dados do SQL Server para um pool Front-End
 
-Depois de remover um pool de #A0 ou reconfigurar o pool para usar um banco de dados diferente, você pode remover os bancos de dados do SQL Server que hospedaram os dados do pool. Use os procedimentos a seguir para remover as definições do Construtor de Topologias e, em seguida, remova o banco de dados e os arquivos de log do servidor de banco de dados.
+Depois de remover um pool de Front-End ou reconfigurar o pool para usar um banco de dados diferente, você pode remover os bancos de dados SQL Server que hospedaram os dados do pool. Use os procedimentos a seguir para remover as definições do Construtor de Topologias e, em seguida, remova o banco de dados e os arquivos de log do servidor de banco de dados.
   
-## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>Para remover o banco de dados do SQL Server usando o Construtor de Topologias
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>Para remover o banco de dados SQL Server usando o Construtor de Topologias
 
-1. No Servidor front-end do Skype for Business Server 2019, abra o Construtor de Topologias e baixe a topologia existente. 
+1. Na página Skype for Business Server 2019, abra o Construtor de Topologias e baixe a topologia existente. 
     
-2. No Construtor de Topologias, navegue até **Componentes Compartilhados** e, em seguida, Armazenamentos do SQL Server, clique com o botão direito do mouse na instância do SQL Server associada ao pool de #A0 removido ou reconfigurado e clique em  **Excluir.**
+2. No Construtor de Topologias, navegue até **Componentes Compartilhados** e, em seguida, SQL Server Stores , clique com o botão direito do mouse na instância SQL Server associada ao pool de Front-End removido ou reconfigurado e clique em  **Excluir**.
     
 3. Publique a topologia e verifique o status da replicação. 
     
-## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>Para remover bancos de dados de usuários e aplicativos do SQL Server
+## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>Para remover bancos de dados de usuários e aplicativos do SQL servidor
 
-1. Para remover os bancos de dados no sql server, você deve ser membro do grupo sysadmins do SQL Server para o sql server onde você está removendo os arquivos de banco de dados. 
+1. Para remover os bancos de dados no servidor SQL, você deve ser membro do grupo SQL Server sysadmins para o servidor SQL onde você está removendo os arquivos de banco de dados. 
     
-2. Abra o Shell de Gerenciamento do Skype for Business Server.
+2. Abra Skype for Business Server Shell de Gerenciamento.
     
 3. Para remover o banco de dados do repositório de usuários do pool, digite:
     
@@ -52,6 +52,6 @@ Depois de remover um pool de #A0 ou reconfigurar o pool para usar um banco de da
 
     Onde está o FQDN do servidor de banco de dados e é a instância nomeada do banco de dados  _\<FQDN\>_  _\<instance\>_ (ou seja, se uma foi definida). 
     
-5. Quando o cmdlet **Uninstall-CsDataBase** solicitar que você confirme as ações, leia as informações e pressione Y (ou Enter) para continuar ou pressione N e Enter se quiser interromper o cmdlet (se houver erros). 
+5. Quando o cmdlet **Uninstall-CsDataBase** solicita que você confirme as ações, leia as informações e pressione Y (ou Enter) para continuar ou pressione N e digite se quiser interromper o cmdlet (se houver erros). 
     
 

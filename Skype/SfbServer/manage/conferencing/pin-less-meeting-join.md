@@ -12,16 +12,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Resumo: saiba como configurar a opção de junção de reunião sem PIN no Skype for Business Server.'
-ms.openlocfilehash: 76a2fb401c684e0eb685b733cb1b0a63ecbd9907
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6e31c3befbabacac26595ea0cd73d8ca575816013d30f17ae4b2ea785934f28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119390"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320203"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar a junção de reunião sem PIN no Skype for Business Server
  
-**Resumo:** Saiba como configurar a opção de junção de reunião sem PIN no Skype for Business Server.
+**Resumo:** Saiba como configurar a opção de junção de reunião sem PIN Skype for Business Server.
   
 Quando um chamador discado tenta ingressar em uma reunião, o serviço de Conferência Atendedor Automático (CAA) coloca o chamador em uma caneta de espera diferente do Lobby &#x2014; se um apresentador ainda não estiver em uma chamada e o chamador de discagem não tiver inserido um PIN líder. A opção de ingresso de reunião sem PIN permite que os chamadores de discagem participem de uma reunião sem inserir um PIN líder, mesmo que sejam a primeira pessoa em uma chamada. 
   

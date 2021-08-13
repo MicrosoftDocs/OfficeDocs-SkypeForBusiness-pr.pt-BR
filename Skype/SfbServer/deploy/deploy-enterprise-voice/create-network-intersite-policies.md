@@ -1,5 +1,5 @@
 ---
-title: Criar políticas de intersite de rede no Skype for Business Server
+title: Criar políticas de intersite de rede Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: Crie políticas entre sites de rede, que são usadas Enterprise Voice controle de admissão de chamadas no Skype for Business Server.
-ms.openlocfilehash: 7c0ca45c691ab1ef70d3660c3d49a08c40bdd40d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Crie políticas entre sites de rede, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server.
+ms.openlocfilehash: 8e5fb020ece1762868f9d943eb2aad955903b91329d636a981e644b2e9892b67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093079"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338749"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Criar políticas de intersite de rede no Skype for Business Server
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Criar políticas de intersite de rede Skype for Business Server
  
-Crie políticas entre sites de rede, que são usadas Enterprise Voice controle de admissão de chamadas no Skype for Business Server. 
+Crie políticas entre sites de rede, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server. 
   
 Uma política entre sites de rede define limitações de largura de banda entre sites que têm links wan diretos entre eles.
   
@@ -36,7 +36,7 @@ Na região América do Norte da topologia de exemplo, existe um link direto entr
   
 ### <a name="to-create-a-network-inter-site-policy"></a>Para criar uma política entre sites de rede
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 2. Execute o cmdlet New-CsNetworkInterSitePolicy para criar políticas entre sites de rede e aplicar um perfil de política de largura de banda apropriado para dois sites que tenham um link cruzado direto. Por exemplo, execute:
     

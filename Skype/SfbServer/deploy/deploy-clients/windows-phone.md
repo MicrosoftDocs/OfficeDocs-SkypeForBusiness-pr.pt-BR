@@ -1,5 +1,5 @@
 ---
-title: Instalar e testar o Skype for Business para Windows Phone
+title: Instalar e testar Skype for Business para Windows Phone
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,52 +11,52 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
-description: 'Resumo: saiba como instalar e testar o Skype for Business em seu Windows Phone.'
-ms.openlocfilehash: 8323231f67e8aca87d3670cfee1a2137f0dd6c21
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como instalar e testar Skype for Business em seu Windows Phone.'
+ms.openlocfilehash: bbb1947ac1982b54ab8cd2e0005cdf4c7aec62ff69e88f8f32df881616c7d11f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812711"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338859"
 ---
-# <a name="install-and-test-skype-for-business-for-windows-phone"></a>Instalar e testar o Skype for Business para Windows Phone
+# <a name="install-and-test-skype-for-business-for-windows-phone"></a>Instalar e testar Skype for Business para Windows Phone
  
-**Resumo:** Saiba como instalar e testar o Skype for Business em seu Windows Phone.
+**Resumo:** Saiba como instalar e testar Skype for Business em seu Windows Phone.
   
-O aplicativo Skype for Business para Windows Phone traz a presença do Skype for Business, mensagens instantâneas (IM) e chamadas de voz e vídeo para dispositivos móveis windows. Os usuários com o Lync 2013 receberão o aplicativo atualizado automaticamente ou serão solicitados a atualizá-lo manualmente, dependendo das configurações do usuário. Novos usuários podem baixá-lo do [Windows Phone Marketplace.](https://go.microsoft.com/fwlink/p/?linkid=231901) O aplicativo Skype for Business para Windows Phone só está disponível no Windows Phone 8.1 e posterior.
+O Skype for Business para Windows Phone aplicativo traz Skype for Business presença, mensagens instantâneas (IM) e chamadas de voz e vídeo para Windows dispositivos móveis. Os usuários com o Lync 2013 receberão o aplicativo atualizado automaticamente ou serão solicitados a atualizá-lo manualmente, dependendo das configurações do usuário. Novos usuários podem baixá-lo [do Windows Phone Marketplace](https://go.microsoft.com/fwlink/p/?linkid=231901). O Skype for Business para Windows Phone app só está disponível no Windows Phone 8.1 e posterior.
   
-Antes de direcionar os usuários em sua organização para baixar o aplicativo, execute os seguintes testes para garantir que ele seja integrado corretamente ao seu ambiente. 
+Antes de direcionar os usuários em sua organização para baixar o aplicativo, você vai querer executar os testes a seguir para garantir que ele seja integrado corretamente ao seu ambiente. 
   
-## <a name="install-skype-for-business-windows-phone-81"></a>Instalar o Skype for Business Windows Phone 8.1
+## <a name="install-skype-for-business-windows-phone-81"></a>Instalar Skype for Business Windows Phone 8.1
 
-1. Navegue até a central [de atualização do Windows Phone 8](https://www.windowsphone.com/en-us/how-to/wp8/update-central) para atualizar seu telefone para o Windows Phone 8.1.
+1. Navegue até Windows Phone central de atualização [8](https://www.windowsphone.com/en-us/how-to/wp8/update-central) para atualizar seu telefone para Windows Phone 8.1.
     
-2. No seu telefone, vá para a **Loja** e procure **o Skype for Business.**
+2. No telefone, vá para a **Loja** e procure **por** Skype for Business .
     
-3. Toque **em Instalar.** 
+3. Toque **em Instalar**. 
     
-## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Entrar no Skype for Business pela primeira vez
+## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Entre na Skype for Business pela primeira vez
 
-1. Na tela **inicial,** passe o dedo para a esquerda para exibir os aplicativos instalados, procure o Skype for Business para Windows Phone e toque no ícone para abrir o aplicativo.
+1. Na tela **Inicial,** passe o dedo para a esquerda para exibir seus aplicativos instalados, procure Skype for Business para Windows Phone e toque no ícone para abrir o aplicativo.
     
-2. Insira seu endereço de entrada (por exemplo, user@domain.com) e senha e toque em **Done**.
+2. Insira seu endereço de entrada (por exemplo, user@domain.com) e senha e toque em **Feito**.
     
-     Talvez lhe seja solicitado o nome de usuário e o endereço de entrada. O nome de usuário é o que você usa para entrar na rede da sua organização, user@domain.com domínio ou nome de usuário.
+     Talvez lhe seja solicitado o nome de usuário e o endereço de entrada. O nome de usuário é o que você usa para entrar na rede da sua organização, user@domain.com ou domínio\nome de usuário.
     
-3. Na tela **Programa de Aperfeiçoamento** da Experiência do Usuário, toque em  Ingressar para enviar dados anônimos sobre problemas de aplicativo e uso para a Microsoft, ou Não, obrigado se preferir não participar. 
+3. Na tela **Programa de** Aperfeiçoamento  da Experiência do Cliente, toque em Participar para enviar dados anônimos sobre problemas de aplicativo e uso para a Microsoft, ou **Não,** obrigado se preferir não participar.
     
-4. Na tela **Nunca Perder Suas Chamadas de Trabalho,** insira seu número de celular com códigos de país e região. Quando o Skype for Business para Windows Phone não puder usar uma rede de dados do Wi-Fi ou celular para fazer uma chamada de áudio ou vídeo, você será automaticamente chamado nesse número e conectado à parte de áudio da chamada.
+4. Na tela **Nunca Perder Suas Chamadas de** Trabalho, insira seu número de celular com códigos de país e região. Quando Skype for Business para Windows Phone não pode usar uma rede de dados Wi-Fi celular ou celular para fazer uma chamada de áudio ou vídeo, você será automaticamente chamado nesse número e conectado à parte de áudio da chamada.
     
-5. Toque **em Próximo** e revise as configurações de acesso à notificação e à agenda:
+5. Toque **em Próximo** e revise as configurações de notificação e acesso à lista telefônica:
     
-   - **Notificações por push** Receba um alerta quando receber uma nova mensagem de IM ou chamada. Normalmente **1** (recomendado).
+   - **Notificações por push** Receba um alerta quando receber um novo IM ou chamada. Normalmente **on** (recomendado).
     
      > [!IMPORTANT]
-     > Se você desativar essa configuração, não será notificado sobre mensagens celulares, chamadas ou outros alertas do Skype for Business para Windows Phone, a menos que o aplicativo esteja ativo. 
+     > Se você desativar essa configuração, não será notificado de mensagens, chamadas ou outros alertas Skype for Business para Windows Phone a menos que o aplicativo esteja ativo. 
   
-   - **Permitir acesso à agenda** Pesquise contatos em seu celular quando você procurar contatos no Skype for Business para Windows Phone.
+   - **Permitir acesso à lista telefônica** Pesquise contatos em seu telefone celular quando procurar contatos no Skype for Business para Windows Phone.
     
-6. Toque **em Próximo** para começar a usar o Skype for Business para Windows Phone.
+6. Toque **em Próximo** para começar a usar Skype for Business para Windows Phone.
     
     [Precisa de ajuda para entrar?](https://support.office.com/article/6b827683-ad55-471a-bd4b-3d4ec098bf75)
     
@@ -66,23 +66,23 @@ Depois de configurar o cliente e entrar com êxito, use os testes a seguir para 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>Procure um contato no diretório corporativo
 
-1. Na lista Contatos, toque em **Pesquisar.**
+1. Na lista Contatos, toque em **Pesquisar**.
     
 2. Procure um contato que conste apenas na lista de endereços global.
     
 3. Verifique se o nome do contato aparece nos resultados da pesquisa.
     
-### <a name="test-instant-messaging-and-presence"></a>Testar mensagens instantâneas e presença
+### <a name="test-instant-messaging-and-presence"></a>Testar a presença e a mensagem instantânea
 
 1. Na lista Contatos, toque em um contato.
     
-2. No cartão de visita, toque no sistema de mensagens instantâneas (IM) ![Ícone para mensagens instantâneas no Skype for Business](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png).
+2. No cartão de visita, toque na mensagem instantânea (IM) ![Ícone para mensagens instantâneas no Skype for Business](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png).
     
-3. Verifique se uma janela de IM aparece e se você pode digitar e enviar uma IM.
+3. Verifique se uma janela de IM é exibida e se você pode digitar e enviar um IM.
     
 ### <a name="test-dial-out-conferencing"></a>Teste a conferência discada
 
-1. No Outlook, agende uma reunião do Skype for Business.
+1. Em Outlook, agende uma Skype for Business reunião.
     
 2. Em seu Windows Phone, abra o convite da reunião.
     
@@ -92,25 +92,25 @@ Depois de configurar o cliente e entrar com êxito, use os testes a seguir para 
     
 ### <a name="test-push-notifications"></a>Teste as notificações por push
 
-1. Selecione duas contas de usuário diferentes para esse teste. 
+1. Selecione duas contas de usuário diferentes para este teste. 
     
-2. No Windows Phone do usuário A, entre no Skype for Business para Windows Phone com a conta do usuário A.
+2. No usuário A Windows Phone, entre Skype for Business para Windows Phone com a conta do usuário A.
     
 3. Abra outro aplicativo no dispositivo.
     
-4. Em um cliente diferente, como o cliente da área de trabalho, entre no Skype for Business com a conta do usuário B.
+4. Em um cliente diferente, como o cliente da área de trabalho, entre Skype for Business com a conta do usuário B.
     
 5. Envie uma mensagem instantânea do usuário B para o usuário A.
     
 6. Verifique se a notificação de IM aparece no dispositivo móvel do usuário A.
     
-## <a name="remove-skype-for-business-from-your-windows-phone"></a>Remover o Skype for Business do seu Windows Phone
+## <a name="remove-skype-for-business-from-your-windows-phone"></a>Remova Skype for Business do seu Windows Phone
 
-Para remover o aplicativo Skype for Business para Windows Phone do seu dispositivo móvel: 
+Para remover o Skype for Business para Windows Phone do seu dispositivo móvel: 
   
 1. Na tela inicial, passe o dedo para ver a lista de aplicativos. 
     
-2. Toque e segure o aplicativo Skype for Business para Windows Phone e selecione **Desinstalar.**
+2. Toque e segure o aplicativo Skype for Business para Windows Phone e selecione **Desinstalar**.
     
 
 

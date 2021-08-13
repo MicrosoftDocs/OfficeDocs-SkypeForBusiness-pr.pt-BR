@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Aprenda a configurar seu domínio, usuários, mensagens instantâneas e presença para sua organização para instalar o Skype for Business. Veja também como configurar uma audioconferência, o Sistema de Telefonia e os Planos de Chamada e a transmissão do Reunião do Skype. '
-ms.openlocfilehash: fcca1a3181ca0f5753fd53811290d710e8030064
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340287"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar o Skype for Business Online
 
@@ -105,7 +105,7 @@ Para instruções, confira [Configurar a presença no Skype for Business Online]
 
 Para usar o Skype for Business em seu PC, Mac ou dispositivo móvel, você e outras pessoas em sua empresa precisam primeiramente baixar e instalar o Skype for Business em seus dispositivos.
 
-- [Instalar Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): Instruções sobre como baixar o aplicativo do centro de administração Microsoft 365 e instalá-lo em seu computador ou Mac.
+- [Instalar Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): Instruções sobre como baixar o aplicativo no Centro de administração do Microsoft 365 e instalá-lo em seu computador ou Mac.
 
 - [Implante o cliente Skype for Business no Office 365](deploy-the-skype-for-business-client-in-office-365.md): instruções para implantar o aplicativo em uma grande empresa.
 

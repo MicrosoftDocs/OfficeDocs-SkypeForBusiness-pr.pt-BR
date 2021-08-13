@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: Os requisitos a seguir são realmente importantes para garantir a saúde e o sucesso a longo prazo para todos os Skype for Business online que você está configurando para sua organização. Sabemos que alguns de vocês são muito técnicos- este documento é para você, mas alguns de vocês não são. Se você precisar de ajuda para configurar o Skype for Business Online, leia este documento para se familiarizar com as coisas que você precisa considerar. Ele também lhe dará coisas sobre as quais falar quando você estiver trabalhando com o Centro do Microsoft FastTrack, seus Microsoft Services e equipes de conta ou com parceiros da Microsoft para descobrir como você pode atender a esses requisitos.
-ms.openlocfilehash: a32e7864a15945fc9bad64c12466aa376cb924f9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: Os requisitos a seguir são realmente importantes para garantir a saúde e o sucesso a longo prazo para todos os Skype for Business online que você está configurando para sua organização. Sabemos que alguns de vocês são muito técnicos- este documento é para você, mas alguns de vocês não são. Se você precisar de ajuda para configurar o Skype for Business Online, leia este documento para se familiarizar com as coisas que você precisa considerar. Ele também lhe dará coisas sobre as quais falar quando você estiver trabalhando com o Microsoft FastTrack Center, seus Microsoft Services e equipes de conta ou com parceiros da Microsoft para descobrir como você pode atender a esses requisitos.
+ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240221"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323653"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Como otimizar sua rede para o Skype for Business Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Os requisitos a seguir são realmente importantes para garantir a saúde e o sucesso a longo prazo para todos os Skype for Business online que você está configurando para sua organização. Sabemos que alguns de vocês são muito técnicos- este documento é para você, mas alguns de vocês não são. Se você precisar de ajuda para configurar o Skype for Business Online, leia este documento para se familiarizar com as coisas que você precisa considerar. Ele também lhe dará coisas sobre as quais falar quando você estiver trabalhando com o [Centro do Microsoft FastTrack,](https://fasttrack.microsoft.com/office)seus Microsoft Services e equipes de conta ou com parceiros [da Microsoft](https://partnercenter.microsoft.com/pcv/search) para descobrir como você pode atender a esses requisitos.
+Os requisitos a seguir são realmente importantes para garantir a saúde e o sucesso a longo prazo para todos os Skype for Business online que você está configurando para sua organização. Sabemos que alguns de vocês são muito técnicos- este documento é para você, mas alguns de vocês não são. Se você precisar de ajuda para configurar o Skype for Business Online, leia este documento para se familiarizar com as coisas que você precisa considerar. Ele também lhe dará coisas sobre as quais falar quando você estiver trabalhando com o [Microsoft FastTrack Center,](https://fasttrack.microsoft.com/office)seus Microsoft Services e equipes de conta ou com parceiros [da Microsoft](https://partnercenter.microsoft.com/pcv/search) para descobrir como você pode atender a esses requisitos.
 
 ## <a name="a-quick-overview"></a>Uma rápida visão geral
 

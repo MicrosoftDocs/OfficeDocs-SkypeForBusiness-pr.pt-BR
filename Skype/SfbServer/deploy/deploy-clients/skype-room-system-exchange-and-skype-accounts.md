@@ -1,5 +1,5 @@
 ---
-title: Provisionamento de contas do Skype Room System Exchange e Skype
+title: Provisionamento de Skype room system Exchange e Skype Contas
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
-description: Leia estes tópicos para saber como provisionar contas do Exchange e do Skype para o Skype Room System.
-ms.openlocfilehash: 0e8c73bc83a62465dc711b4a6f2725f1d9c576f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Leia estes tópicos para saber como provisionar Exchange e Skype contas para Skype Room System.
+ms.openlocfilehash: bee430c434a710f0560e78eef9ebce31d198549fdb4ee9a88861afb5ab9e8760
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113057"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338879"
 ---
-# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Provisionamento de contas do Skype Room System Exchange e Skype
+# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Provisionamento de Skype room system Exchange e Skype Contas
  
-Leia estes tópicos para saber como provisionar contas do Exchange e do Skype para o Skype Room System. 
+Leia estes tópicos para saber como provisionar Exchange e Skype contas para Skype Room System. 
 
 > [!NOTE]
-> As Salas do Microsoft Teams são um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre salas do Microsoft Teams, consulte a visão geral de implantação das Salas do Microsoft [Teams.](/MicrosoftTeams/rooms/rooms-deploy)
+> Salas do Microsoft Teams é um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre Salas do Microsoft Teams, consulte a visão geral Salas do Microsoft Teams [implantação.](/MicrosoftTeams/rooms/rooms-deploy)
   
 > [!NOTE]
-> O provisionamento da conta do Sistema de Sala do Skype depende do tipo de topologia que sua organização tem. Para saber mais sobre topologias do Active Directory, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+> Skype O provisionamento da conta do Sistema de Sala depende do tipo de topologia que sua organização tem. Para saber mais sobre topologias do Active Directory, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Provisionamento de contas do Skype Room System &amp; Exchange Skype for Business
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Provisionamento de contas Skype Room System Exchange &amp; Skype for Business
 
-Os tópicos a seguir descrevem como provisionar e gerenciar contas do Skype Room System Exchange e skype for Business para:
+Os tópicos a seguir descrevem como provisionar e gerenciar Skype de Exchange e Skype for Business de sala para:
   
 - Implantação de uma única floresta no local
     
@@ -42,6 +42,6 @@ Os tópicos a seguir descrevem como provisionar e gerenciar contas do Skype Room
     
 - Implantações híbridas
     
-- Skype Room System e parceiros federados do Skype for Business
+- Skype Sistema de Sala e Skype for Business federados
     
 - Gerenciar contas do Sistema de Salas Skype

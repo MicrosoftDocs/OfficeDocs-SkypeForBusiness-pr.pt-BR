@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
-description: 'Resumo: saiba mais sobre a operação Atualizar Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
-ms.openlocfilehash: 78da2fa414b4ba266f9e6aba4feac5ff73150062
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre a operação Atualizar Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: ad615e5b6c6187a51293e86bcf3b1e2ee20c820f8c8c7a48b013d95befd03d87
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340797"
 ---
 # <a name="update-item"></a>Atualizar Item
  
-**Resumo:** Saiba mais sobre a operação Atualizar Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Atualizar Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
   
 A operação Atualizar Item faz parte do Serviço de Item na API de Repositório para Painel de Qualidade de Chamada.
   
@@ -30,13 +30,13 @@ A operação Atualizar Item faz parte do Serviço de Item na API de Repositório
 Atualizar Item atualiza um item específico no repositório.
   
 
-|**Method**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repositório/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** - Nenhum.
+ **Parâmetros URI** - Nenhum.
   
- **Request Headers** -Content-Type: application/json.
+ **Solicitação de Headers** -Content-Type: application/json.
   
  **Corpo da Solicitação** - JSON.
   
@@ -49,17 +49,17 @@ Carga de solicitação de exemplo:
 }
 ```
 
- *content*  Dados formatados JSON a serem armazenados como o novo conteúdo de um sub-item existente. Tecnicamente, um repositório pode armazenar qualquer conteúdo de qualquer esquema, mas quando usado para o Painel de Qualidade da Chamada, ele deve ser um relatório ou uma consulta. *type*  Sempre especifique "application/json" para o Painel de Qualidade da Chamada.
+ *content*  Dados formatados JSON a serem armazenados como o novo conteúdo de um sub-Item existente. Tecnicamente, um repositório pode armazenar qualquer conteúdo de qualquer esquema, mas quando usado para o Painel de Qualidade de Chamada, ele deve ser um relatório ou uma consulta. *type*  Sempre especifique "application/json" para Painel de Qualidade de Chamada.
   
  **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de Status** - Uma operação bem-sucedida retorna o código de status 204 (Sem Conteúdo). Se uma ID de item especificada não for encontrada, retornará o código de status 404 (Não Encontrado).
+ **Código de Status** - Uma operação bem-sucedida retorna o código de status 204 (Sem Conteúdo). Se uma ID de item especificada não for encontrada, ela retornará o código de status 404 (Não Encontrado).
   
 > [!IMPORTANT]
-> "Nenhum Conteúdo" não é um status de erro. Isso significa que uma resposta não retornou nada no corpo (por outro lado, 200 OK retorna conteúdo no corpo). Indica que o Item foi atualizado com êxito. 
+> "Sem Conteúdo" não é um status de erro. Isso significa que uma resposta não retornou nada no corpo (por outro lado, 200 OK retorna conteúdo em Body). Indica que o Item foi atualizado com êxito. 
   
- **Response Headers** - None.
+ **Headers de resposta** - Nenhum.
   
- **Corpo de Resposta** - Nenhum.
+ **Corpo da resposta** - Nenhum.
   
 

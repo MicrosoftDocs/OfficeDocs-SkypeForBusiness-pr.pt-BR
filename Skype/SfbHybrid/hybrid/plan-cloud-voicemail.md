@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve benefícios, considerações de planejamento e requisitos para implementar o Caixa postal na Nuvem da Microsoft serviço. Para obter informações sobre como configurar Caixa postal na Nuvem, consulte Configuring Caixa postal na Nuvem.
-ms.openlocfilehash: cfde9867bcdd4c2b7492f8b50df782a5ca6fe34b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509832"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323673"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar Caixa postal na Nuvem serviço para usuários locais
 
@@ -64,7 +64,7 @@ As chamadas não respondidas são tratadas da seguinte forma:
 3. Em seguida, o serviço deposita a caixa postal Exchange caixa de correio do usuário, se a caixa de correio está local ou online.  
 4. Os usuários podem acessar a caixa postal de seus clientes Skype for Business ou Outlook cliente.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Os requisitos a seguir pressuem que você já Skype for Business Server implantado em uma topologia com suporte.  Seus requisitos dependem do cenário:
 

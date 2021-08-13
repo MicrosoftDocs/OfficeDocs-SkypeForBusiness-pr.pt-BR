@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: b4503e3f97132bab4724aa13da2ff260390697dd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d9e2ac8ce611b2eb349c3123eaca6b41a202241000231be316a5af4969bf403f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120120"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323473"
 ---
 # <a name="topology-view-service-detail"></a>Topologia: Exibir Detalhes do Serviço
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Exibir uma lista de computadores executando o Skype for Business Server ou o Lync Server](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
+- [Exibir uma lista de computadores executando Skype for Business Server ou Lync Server](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
 - [Exibir detalhes sobre um serviço](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 

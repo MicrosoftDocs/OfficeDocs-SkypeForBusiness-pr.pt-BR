@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Infelizmente, há determinadas licenças de usuário que são bloqueadas quando o usuário vai para e deseja usar Reunião do Skype https://broadcast.skype.com Transmissão. Se um usuário vir essa mensagem, ele terá uma das licenças bloqueadas atribuídas a eles. Se você ainda quiser que eles o usem, atribua a eles outra Office 365 de usuário.
-ms.openlocfilehash: a29bdca6deaea9fc622ec34996f9f2ac8be3b023
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d60b945cdcbf050fd869520c0fa9ff86d39d88f0a41d29e34d4be03f0b3bfc2b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237037"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339269"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Licenças de usuário bloqueadas para hospedagem Reunião do Skype Transmissão
 
@@ -61,7 +61,7 @@ Os Reunião do Skype de transmissão serão bloqueados se qualquer uma das licen
     
 - Office 365 A1 o benefício de uso do aluno
     
-- Microsoft 365 Benefícios de uso do aluno A1
+- Microsoft 365 A1 os benefícios de uso do aluno
 
     
 ## <a name="related-topics"></a>Tópicos relacionados

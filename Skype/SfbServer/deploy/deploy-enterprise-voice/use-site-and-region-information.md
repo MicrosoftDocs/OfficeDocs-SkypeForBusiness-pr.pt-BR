@@ -1,5 +1,5 @@
 ---
-title: Definir configurações globais de bypass de mídia no Skype for Business Server para usar informações de site e região
+title: Configurar configurações globais de bypass de mídia Skype for Business Server usar informações de site e região
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
-description: Configure o bypass de mídia para ser usado apenas para determinados sites e regiões no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 58fd4fca90029a8a5f4cd82c6a9616ae66e69cd0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Configure o bypass de mídia a ser usado apenas para determinados sites e regiões no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 38fa42374b4b5dd8c8f304de04c9beeb59f2635d955b2e9ee5afb1fb16de7789
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830581"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322333"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Definir configurações globais de bypass de mídia no Skype for Business Server para usar informações de site e região
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurar configurações globais de bypass de mídia Skype for Business Server usar informações de site e região
  
-Configure o bypass de mídia para ser usado apenas para determinados sites e regiões no Skype for Business Server Enterprise Voice. 
+Configure o bypass de mídia a ser usado apenas para determinados sites e regiões no Skype for Business Server Enterprise Voice. 
   
- Se você usar as etapas deste tópico para definir configurações globais para bypass de mídia, a suposição é de que você não tem uma boa conectividade entre todos os pontos de extremidade do Skype for Business e qualquer ponto para o qual tenha configurado o bypass de mídia na conexão de tronco.
+ Se você usar as etapas deste tópico para definir configurações globais para bypass de mídia, a suposição é de que você não tem uma boa conectividade entre todos os pontos de extremidade Skype for Business e qualquer ponto para o qual você configurou o bypass de mídia na conexão de tronco.
   
 > [!NOTE]
 > As informações de região de rede e de site de rede são compartilhadas entre os recursos avançados do Enterprise Voice de controle de admissão de chamadas e de desvio de mídia quando os dois estão habilitados. Portanto, se você já configurou o controle de admissão de chamadas, não é preciso usar o procedimento a seguir para editar as informações do site e da região especificamente para o desvio de mídia. Siga as etapas neste procedimento se você ainda não tiver configurado as regiões e os sites de rede quanto ao controle de admissão de chamadas e se quiser alterar as configurações do desvio de chamada. 
   
-Para que o bypass de mídia funcione corretamente, deve haver consistência entre um site, conforme definido no Construtor de Topologias e definido quando você configura regiões de rede e sites de rede. Por exemplo, se você tiver um site de filial definido no Construtor de Topologias como tendo apenas um gateway PSTN implantado, esse site de filial deverá ser configurado com uma política do Enterprise Voice que permita que os usuários do site de filial tenham suas chamadas PSTN roteadas através do gateway PSTN no site de filial.
+Para que o bypass de mídia funcione corretamente, deve haver consistência entre um site conforme definido no Construtor de Topologias e como ele é definido quando você configura regiões de rede e sites de rede. Por exemplo, se você tiver um site de filial definido no Construtor de Topologias como tendo apenas um gateway PSTN implantado, esse site de filial deve ser configurado com uma política de Enterprise Voice que permite que os usuários do site de filial tenham suas chamadas PSTN roteadas pelo gateway PSTN no site de filial.
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>Para configurar informações de site e de região para desvio de mídia
 
-1. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server.  
+1. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle.  
     
 2. Na barra de navegação à esquerda, clique em **Configurações de rede**.
     
@@ -53,11 +53,11 @@ Para que o bypass de mídia funcione corretamente, deve haver consistência entr
   
 7. Clique em **Confirmar**.
     
-Em seguida, adicione sub-redes ao site da rede, conforme descrito em [Associar uma sub-rede a um site de rede.](deploy-network.md#BKMK_AssociateSubnets) Depois de associar todas as sub-redes com os sites de rede, a implantação do desvio de mídia estará completa.
+Em seguida, adicione sub-redes ao site de rede, conforme descrito em [Associar uma sub-rede a um site de rede.](deploy-network.md#BKMK_AssociateSubnets) Depois de associar todas as sub-redes com os sites de rede, a implantação do desvio de mídia estará completa.
 > [!IMPORTANT]
-> Se ainda não tiverem sido criadas as regiões e os sites de rede, é preciso criá-los antes de prosseguir com a implantação do desvio de mídia. Para obter detalhes, [consulte Implantar regiões de rede, sites e sub-redes no Skype for Business.](deploy-network.md) 
+> Se ainda não tiverem sido criadas as regiões e os sites de rede, é preciso criá-los antes de prosseguir com a implantação do desvio de mídia. Para obter detalhes, [consulte Deploy network regions, sites and subnets in Skype for Business](deploy-network.md). 
   
 ## <a name="see-also"></a>Confira também
 
-[Associar uma sub-rede a um local de rede](deploy-network.md#BKMK_AssociateSubnets)
+[Associar uma sub-rede a um site de rede](deploy-network.md#BKMK_AssociateSubnets)
 

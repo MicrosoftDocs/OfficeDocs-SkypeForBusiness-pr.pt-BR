@@ -13,29 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: Navegue pela Ferramenta de Planejamento do Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos de página e painéis específicos de contexto. Os painéis específicos de contexto fornecem informações de design para planejamento e capacidade relevantes para as opções de seleção em uma página específica.
-ms.openlocfilehash: 80e455abcd1534cc37ed9747e801b81fd778cf25
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Navegue pela Ferramenta de Planejamento Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos de página e painéis específicos de contexto. Os painéis específicos de contexto fornecem informações de design para planejamento e capacidade relevantes para as opções de seleção em uma página específica.
+ms.openlocfilehash: ea73545643b8023ea0e6866b78669757bd663d60327ec614e6d1a256542fd595
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104367"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320134"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegue pela Ferramenta de Planejamento no Skype for Business Server 2015
 
-Navegue pela Ferramenta de Planejamento do Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos de página e painéis específicos de contexto. Os painéis específicos de contexto fornecem informações de design para planejamento e capacidade relevantes para as opções de seleção em uma página específica.
+Navegue pela Ferramenta de Planejamento Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos de página e painéis específicos de contexto. Os painéis específicos de contexto fornecem informações de design para planejamento e capacidade relevantes para as opções de seleção em uma página específica.
 
-Ao iniciar a Ferramenta de Planejamento, um designer primeiro vê a página Bem-vindo à Ferramenta de Planejamento **do Skype for Business Server 2015.**
+Ao iniciar a Ferramenta de Planejamento, um designer primeiro vê a página Bem-vindo à Ferramenta de Planejamento para Skype for Business Server **2015.**
 
 ![Página de boas-vindas da Ferramenta de Planejamento](../../media/Planning_Tool_Welcome.png)
 
-Na página Bem-vindo, o designer escolhe **Começar,** **Projetar Sites** ou **Exibir**. Para obter detalhes, [consulte Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md).
+Na página Bem-vindo, o designer escolhe **Introdução,** **Design Sites** ou **Exibir**. Para obter detalhes, [consulte Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md).
 
 Na parte superior da Ferramenta de Planejamento está uma barra de ferramentas que fornece acesso fácil a funções usadas com frequência. A barra de ferramentas é exibida aqui para referência, e cada função será discutida em tópicos relacionados.
 
 ![Barra de Ferramentas de Planejamento](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
-A Ferramenta de Planejamento tem uma seção Links Externos no lado esquerdo da ferramenta. A partir de lá, o designer tem fácil acesso às informações de planejamento e implantação e outros recursos técnicos como treinamento, artigos técnicos, fóruns e outros recursos baixáveis. Também na seção Links Externos está um link de feedback para a equipe da Ferramenta de Planejamento do Skype for Business Server 2015.
+A Ferramenta de Planejamento tem uma seção Links Externos no lado esquerdo da ferramenta. A partir de lá, o designer tem fácil acesso às informações de planejamento e implantação e outros recursos técnicos como treinamento, artigos técnicos, fóruns e outros recursos baixáveis. Também na seção Links Externos está um link de feedback para a equipe Skype for Business Server Ferramenta de Planejamento 2015.
 
 ![Caixa de diálogo Links Externos da Ferramenta de Planejamento](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
@@ -47,7 +47,7 @@ Além disso, as informações de hardware são exibidas na visão geral no paine
 
 ## <a name="see-also"></a>Confira também
 
-[Criar o design inicial de topologia para o Skype for Business Server 2015](create-the-initial-design.md)
+[Criar o design de topologia inicial para Skype for Business Server 2015](create-the-initial-design.md)
 
 [Editando o design](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)
 

@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: O cmdlet Restore Cc-Credentials restaura todas as credenciais da implantação atual do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O cmdlet Restore Cc-Credentials restaura todas as credenciais da implantação Skype for Business Cloud Connector Edition atual.
+ms.openlocfilehash: 95b93e28bb109c26927a940324edef20479bed8c193efea6923c74058995a5bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340667"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-O cmdlet Restore Cc-Credentials restaura todas as credenciais da implantação atual do Skype for Business Cloud Connector Edition. 
+O cmdlet Restore Cc-Credentials restaura todas as credenciais da implantação Skype for Business Cloud Connector Edition atual. 
   
-Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 2.1.
+Este cmdlet se aplica Skype for Business Cloud Connector Edition 2.1.
   
 ```powershell
 Restore-CcCredentials 
@@ -32,7 +32,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>Descrição detalhada
 
-O Restore-CcCredentials limpa todas as credenciais e solicita que você insira todas as credenciais usadas para a implantação atual do Skype for Business Cloud Connector.
+O Restore-CcCredentials cmdlet limpa todas as credenciais e solicita que você insira todas as credenciais usadas para a implantação atual do Skype for Business Cloud Connector.
   
 ## <a name="parameters"></a>Parâmetros
 
@@ -40,7 +40,7 @@ Nenhum
   
 ## <a name="input-types"></a>Tipos de entrada
 
-Nenhum. O Restore-CcCredentials cmdlet não aceita entrada em pipeline.
+Nenhum. O Restore-CcCredentials cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de retorno
 

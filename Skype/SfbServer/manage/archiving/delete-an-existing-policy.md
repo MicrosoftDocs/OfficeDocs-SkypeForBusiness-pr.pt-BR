@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: 'Resumo: saiba como excluir uma política de arquivamento para o Skype for Business Server.'
-ms.openlocfilehash: 2baad7d862b1b6739019a4459492bfb3b67e04cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como excluir uma política de arquivamento para Skype for Business Server.'
+ms.openlocfilehash: bee5cb3d48c079f0c918e15c607c163f3f67aea9e1dfed92309700b1795c699d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095385"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320243"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Excluir uma política de arquivamento existente no Skype for Business Server
 
-**Resumo:** Saiba como excluir uma política de arquivamento para o Skype for Business Server.
+**Resumo:** Saiba como excluir uma política de arquivamento para Skype for Business Server.
   
-Você pode excluir uma política de usuário ou uma política de site, mas não a política global. Se você excluir a política global, o Skype for Business Server redefine automaticamente a política para os valores padrão.
+Você pode excluir uma política de usuário ou uma política de site, mas não a política global. Se você excluir a política global, Skype for Business Server redefinir automaticamente a política para os valores padrão.
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>Excluir uma política usando o Painel de Controle
 
 1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna. 
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e em **Política de Arquivamento**.
     
