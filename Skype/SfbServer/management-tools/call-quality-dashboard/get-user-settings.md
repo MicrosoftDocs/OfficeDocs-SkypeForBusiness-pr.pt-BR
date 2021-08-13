@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 'Resumo: saiba mais sobre a operação Obter Configurações do Usuário, que faz parte do Serviço de Configurações do Usuário. O Serviço de Configurações do Usuário faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
-ms.openlocfilehash: e2ebf39ba5a7de5d36a8b1ea0441808b6e71f97b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre a operação Obter Configurações usuário, que faz parte do Serviço de Configurações Usuário. O Serviço Configurações usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: b541cacf3c777ca5991640f3bff05265cf6eeeb5c88f59f9731d46318247c171
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298141"
 ---
 # <a name="get-user-settings"></a>Obter Configurações de Usuário
  
-**Resumo:** Saiba mais sobre a operação Obter Configurações do Usuário, que faz parte do Serviço de Configurações do Usuário. O Serviço de Configurações do Usuário faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Configurações usuário, que faz parte do Serviço de Configurações Usuário. O Serviço Configurações usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
   
-A operação Obter Configurações do Usuário faz parte do Serviço de Configurações do Usuário na API de Repositório do Painel de Qualidade da Chamada.
+A operação Get User Configurações faz parte do Serviço Configurações usuário na API de Repositório para Painel de Qualidade de Chamada.
   
 ## <a name="get-user-settings"></a>Obter Configurações de Usuário
 
-Obter configurações do usuário retorna uma lista de configurações para um usuário especificado.
+Get User Configurações retorna uma lista de configurações para um usuário especificado.
   
 
-|**Method**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
 |OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI**
+ **Parâmetros URI**
   
-- *efetivo*  - Opcional. Esse parâmetro só se aplica quando o padrão de ID de usuário especial é usado. Em outros casos, ele será ignorado. `True` retorna configurações efetivas do usuário `false` e retorna apenas as configurações do usuário (padrão).
+- *effective*  - Opcional. Esse parâmetro só se aplica quando o padrão de ID de usuário especial é usado. Em outros casos, ele será ignorado. `True` retorna configurações efetivas do usuário `false` e retorna apenas as configurações do usuário (padrão).
     
-  **Solicitação de headers** - nenhum outro.
+  **Headers de solicitação** - Sem headers adicionais.
   
   **Corpo da Solicitação** - Nenhum.
   
@@ -47,9 +47,9 @@ Obter configurações do usuário retorna uma lista de configurações para um u
   
   **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
   
-  **Response Headers** - Sem outros headers.
+  **Headers de resposta** - Sem headers adicionais.
   
-  **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON.
+  **Corpo da Resposta** - Abaixo está uma carga de resposta de exemplo no JSON.
   
 ```json
 [{

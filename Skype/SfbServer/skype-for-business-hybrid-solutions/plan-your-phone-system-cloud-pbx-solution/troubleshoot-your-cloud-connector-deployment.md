@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solucionar problemas de implantação do Cloud Connector Edition.
-ms.openlocfilehash: 9da10f1b3e8dd800e57b46f6a56eb6a82c29e22c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7982cd153dcd9cc615201044c080479e9693550a0446b12c9a8a73c4366a9d57
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344570"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solução de problemas de implantação do Cloud Connector
 
 > [!Important]
-> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com Skype for Business Online. Depois que sua organização tiver sido atualizada para Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
  
 Solucionar problemas de implantação do Cloud Connector Edition.
   
@@ -122,9 +122,9 @@ A seguir estão soluções para problemas comumente encontrados:
 
 - 
     
-    **Problema: o servidor host foi reiniciado quando as atualizações do Windows foram aplicadas e as chamadas a serviço do servidor estão falhando.**
+    **Problema: o servidor host foi reiniciado quando Windows as atualizações foram aplicadas e as chamadas a serviço pelo servidor estão falhando.**
     
-    **Resolução:** Se você implantou um ambiente de alta disponibilidade, a Microsoft fornece um cmdlet para ajudar a mover uma máquina host (instância de implantação) para dentro ou para fora da topologia atual ao verificar e instalar a atualização do Windows manualmente. Use as etapas a seguir para fazer isso:
+    **Resolução:** Se você implantou um ambiente de alta disponibilidade, a Microsoft fornece um cmdlet para ajudar a mover uma máquina host (instância de implantação) para dentro ou para fora da topologia atual ao verificar e instalar Windows atualização manualmente. Use as etapas a seguir para fazer isso:
     
 1. No servidor host, inicie um console do PowerShell como administrador e execute:
     
@@ -142,19 +142,19 @@ A seguir estão soluções para problemas comumente encontrados:
 
 - 
     
-    **Problema: quando uma chamada é feita de um cliente do Skype for Business usando um número PSTN, a chamada não pode ser escalonada para uma conferência convidando outro número PSTN.**
+    **Problema: quando uma chamada é feita de um cliente Skype for Business usando um número PSTN, a chamada não pode ser escalonada para uma conferência convidando outro número PSTN.**
     
-    **Resolução:** Para resolver esse problema, consulte [Configure online hybrid Mediation Server Settings](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer).
+    **Resolução:** Para resolver esse problema, consulte [Configure online hybrid Mediation Server Configurações](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer).
     
-- **Problema: uma mensagem de aviso é exibida sobre o Windows Update quando você está instalando o servidor do Active Directory - "A atualização automática do Windows não está habilitada. Para garantir que sua função ou recurso recém-instalado seja atualizado automaticamente, ata o Windows Update."**
+- **Problema: uma mensagem de aviso é exibida Windows atualização quando você está instalando o servidor do Active Directory - "Windows atualização automática não está habilitada. Para garantir que sua função ou recurso recém-instalado seja atualizado automaticamente, a Windows Update."**
     
-    **Resolução:** Iniciar uma sessão do Tenant Remote PowerShell usando credenciais de administrador de locatários do Skype for Business e execute o seguinte cmdlet para verificar a configuração _EnableAutoUpdate_ do seu site:
+    **Resolução:** Iniciar uma sessão do Tenant Remote PowerShell usando Skype for Business de administrador de locatários e execute o seguinte cmdlet para verificar a configuração _EnableAutoUpdate_ do seu site:
     
   ```powershell
   Get-CsHybridPSTNSite
   ```
 
-    Se  _EnableAutoUpdate_ estiver definido como **True**, você poderá ignorar com segurança essa mensagem de aviso porque o serviço CCEManagement tratará do download e da instalação de atualizações do Windows para máquinas virtuais e para o servidor host. Se  _EnableAutoUpdate_ for definido como **False**, execute o seguinte cmdlet para defini-lo como **True**.
+    Se _EnableAutoUpdate_ estiver definido como **True**, você poderá ignorar com segurança essa mensagem de aviso porque o serviço CCEManagement tratará de baixar e instalar atualizações Windows para máquinas virtuais e o servidor host. Se  _EnableAutoUpdate_ for definido como **False**, execute o seguinte cmdlet para defini-lo como **True**.
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -197,7 +197,7 @@ A seguir estão soluções para problemas comumente encontrados:
     
 - **Problema: certificados de autoridade de certificado ou certificados internos emitidos para o Armazenamento de Gerenciamento Central, o Servidor de Mediação e o Servidor de Borda estão próximos de expirar ou estão comprometidos.**
     
-    **Resolução:** Os certificados de autoridade de certificação do Skype for Business são válidos por cinco anos. Os certificados internos emitidos para o Armazenamento de Gerenciamento Central, o Servidor de Mediação e o Servidor de Borda são válidos por dois anos.
+    **Resolução:** Skype for Business certificados de autoridade de certificação são válidos por cinco anos. Os certificados internos emitidos para o Armazenamento de Gerenciamento Central, o Servidor de Mediação e o Servidor de Borda são válidos por dois anos.
     
     > [!NOTE]
     > No Cloud Connector versão 2.0 e posterior, o cmdlet Renew-CcServerCertificate foi alterado para Update-CcServerCertificate e o cmdlet Renew-CcCACertificate foi alterado para Update-CcCACertificate. 
@@ -306,9 +306,9 @@ A seguir estão soluções para problemas comumente encontrados:
      ```
     
     
-- **Problema: você recebe a seguinte mensagem de erro no Log de Serviço de Gerenciamento do Cloud Connector, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": Erro CceService: 0 : exceção inesperada ao relatar o status para online: System.Management.Automation.CmdletInvocationException: Falha no logon para o usuário \<Global Tenant Admin\> . Crie um novo objeto de credencial, certifique-se de ter usado o nome de usuário e a senha corretos. ---\>**
+- **Problema: você recebe a seguinte mensagem de erro no Log de Serviço de Gerenciamento do Cloud Connector, "C:\Arquivos de Programas\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": Erro CceService: 0 : exceção inesperada ao relatar o status para online: System.Management.Automation.CmdletInvocationException: Falha no logon para o usuário \<Global Tenant Admin\> . Crie um novo objeto de credencial, certifique-se de ter usado o nome de usuário e a senha corretos. ---\>**
     
-    **Resolução:** As credenciais de administrador global do locatário do Microsoft 365 ou office 365 foram alteradas desde que o dispositivo do Cloud Connector foi registrado. Para atualizar as credenciais armazenadas localmente no dispositivo do Cloud Connector, execute o seguinte do Administrador do PowerShell no dispositivo host:
+    **Resolução:** As Microsoft 365 ou Office 365 de administrador de locatários globais foram alteradas desde que o dispositivo do Cloud Connector foi registrado. Para atualizar as credenciais armazenadas localmente no dispositivo do Cloud Connector, execute o seguinte do Administrador do PowerShell no dispositivo host:
     
   ```powershell
   Set-CcCredential -AccountType TenantAdmin
@@ -316,13 +316,13 @@ A seguir estão soluções para problemas comumente encontrados:
 
 - **Problema: depois de alterar a senha da conta de servidor host usada para a implantação, você recebe a seguinte mensagem de erro: "ConvertTo-SecureString : Chave não válida para uso no estado especificado." em %ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log ou durante a execução do cmdlet Get-CcCredential.**
     
-    **Resolução:** Todas as credenciais do Cloud Connector são armazenadas no seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . xml". Quando a senha no servidor host for mudada, você precisará atualizar as credenciais armazenadas localmente.
+    **Resolução:** Todas as credenciais do Cloud Connector são armazenadas no seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml". Quando a senha no servidor host for mudada, você precisará atualizar as credenciais armazenadas localmente.
     
     **Se você estiver executando o Cloud Connector versão 1.4.2,** regenere todas as senhas do Cloud Connector seguindo estas etapas:
     
   1. Reinicie o servidor host.
     
-  2. Exclua o seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . xml".
+  2. Exclua o seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml".
     
   3. Iniciar um console do PowerShell como administrador e executar "Register-CcAppliance -Local" para inserir as senhas após a descrição. Insira as mesmas senhas inseridas antes para a implantação do Cloud Connector.
     
@@ -330,7 +330,7 @@ A seguir estão soluções para problemas comumente encontrados:
     
   4. Reinicie o servidor host.
     
-  5. Exclua o seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . xml" .
+  5. Exclua o seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml" .
     
   6. Iniciar um console do PowerShell como administrador e executar "Register-CcAppliance -Local" para inserir as senhas após a descrição. 
     
@@ -388,13 +388,13 @@ A seguir estão soluções para problemas comumente encontrados:
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- **Problema: você precisa verificar e instalar as atualizações do Windows manualmente no servidor host ou em máquinas virtuais.**
+- **Problema: você precisa verificar e instalar Windows atualizações manualmente no servidor host ou em máquinas virtuais.**
     
-   **Resolução:** Recomendamos que você aproveite as atualizações automatizadas do sistema operacional fornecidas pelo Skype for Business Cloud Connector Edition. Depois que um dispositivo é registrado para gerenciamento online e a atualização automática do sistema operacional está habilitada, o servidor host e máquinas virtuais verificarão e instalarão as Atualizações do Windows automaticamente de acordo com as configurações da janela de tempo de atualização do sistema operacional.
+   **Resolução:** Recomendamos que você aproveite as atualizações automatizadas do sistema operacional fornecidas pelo Skype for Business Cloud Connector Edition. Depois que um dispositivo é registrado para o gerenciamento online e a atualização automática do sistema operacional está habilitada, o servidor Windows host e máquinas virtuais verificarão e instalarão as atualizações automaticamente de acordo com as configurações da janela de atualização do sistema operacional.
     
-   Se você precisar verificar e instalar o Windows Updates manualmente, siga as etapas nesta seção que se aplicam ao seu tipo de implantação. Você deve planejar a atualização do servidor host e das máquinas virtuais em execução nele ao mesmo tempo para minimizar a quantidade de tempo de inação necessária para as atualizações.
+   Se você precisar verificar e instalar Windows atualizações manualmente, siga as etapas nesta seção que se aplicam ao seu tipo de implantação. Você deve planejar a atualização do servidor host e das máquinas virtuais em execução nele ao mesmo tempo para minimizar a quantidade de tempo de inação necessária para as atualizações.
     
-   Se preferir, você pode usar um servidor do Windows Server Update Services (WSUS) para fornecer atualizações para servidores do Cloud Connector. Basta configurar o Windows Update para não **instalar** automaticamente.
+   Se preferir, você pode usar um servidor Windows Server Update Services (WSUS) para fornecer atualizações para servidores do Cloud Connector. Apenas certifique-se de configurar o Windows Update para **não instalar** automaticamente.
     
    Para obter informações sobre como atualizar manualmente sua implantação do Cloud Connector, consulte a seção a seguir.
     
@@ -423,15 +423,15 @@ O PowerShell cria esse arquivo como um cache de cmdlets a partir de módulos que
      b. Para alterações persistentes, inicie o PowerShell como administrador e execute os seguintes comandos, um a um: $CurrentValue = [Environment]::GetEnvironmentVariable("PSModulePath", "Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue + "; C:\Arquivos de Programas\WindowsPowerShell\Modules", "Machine")
 
     
-## <a name="install-windows-updates-manually"></a>Instalar atualizações do Windows manualmente
+## <a name="install-windows-updates-manually"></a>Instalar Windows atualizações manualmente
 
-Se você não quiser usar atualizações automáticas em seu ambiente, siga estas etapas para verificar manualmente e aplicar atualizações do Windows. Verificar e instalar atualizações do Windows pode exigir uma reinicialização do servidor. Quando um servidor host estiver sendo reiniciado, os usuários não poderão usar o Cloud Connector para fazer ou receber chamadas. Você pode verificar manualmente e instalar atualizações para controlar quando as atualizações ocorrem e reiniciar os dispositivos conforme necessário durante os horários que você optar por evitar interrupção dos serviços.
+Se você não quiser usar atualizações automáticas em seu ambiente, siga estas etapas para verificar manualmente e aplicar Windows atualizações. Verificar e instalar as atualizações Windows pode exigir uma reinicialização do servidor. Quando um servidor host estiver sendo reiniciado, os usuários não poderão usar o Cloud Connector para fazer ou receber chamadas. Você pode verificar manualmente e instalar atualizações para controlar quando as atualizações ocorrem e reiniciar os dispositivos conforme necessário durante os horários que você optar por evitar interrupção dos serviços.
   
-Para verificar manualmente as atualizações, conecte-se a cada servidor host e abra o **Painel de Controle**. Selecione **Sistema e Segurança do Windows \> Update** e, em seguida, gerencie as atualizações e reinicializações do servidor conforme apropriado para seu ambiente.
+Para verificar manualmente as atualizações, conecte-se a cada servidor host e abra o **Painel de Controle**. Selecione **Sistema e Segurança Windows \> Atualização** e, em seguida, gerencie as atualizações e reinicializações do servidor conforme apropriado para seu ambiente.
   
-- Se houver apenas um dispositivo no site, conecte-se a cada máquina virtual e abra o **Painel de Controle**. Selecione **Sistema e Segurança do Windows \> Update** e, em seguida, configure as atualizações e reinicializações do servidor conforme apropriado.
+- Se houver apenas um dispositivo no site, conecte-se a cada máquina virtual e abra o **Painel de Controle**. Selecione **Sistema e Segurança Windows \> Atualização** e, em seguida, configure as atualizações e reinicializações do servidor conforme apropriado.
     
-- Se houver mais de um dispositivo no site, a instância que está sendo atualizada e reiniciada não poderá ser acessada pelos usuários durante as atualizações. Os usuários se conectarão a outras instâncias na implantação até que todas as máquinas virtuais e todos os serviços do Skype for Business comecem nas máquinas virtuais após a conclusão das atualizações. Para evitar possíveis interrupções no serviço, você pode remover a instância do HA enquanto aplica as atualizações e restaurá-la quando concluída. Para fazer isso:
+- Se houver mais de um dispositivo no site, a instância que está sendo atualizada e reiniciada não poderá ser acessada pelos usuários durante as atualizações. Os usuários se conectarão a outras instâncias na implantação até que todas as máquinas virtuais e todos os serviços Skype for Business iniciem nas máquinas virtuais após a conclusão das atualizações. Para evitar possíveis interrupções no serviço, você pode remover a instância do HA enquanto aplica as atualizações e restaurá-la quando concluída. Para fazer isso:
     
 1. Em cada servidor host, abra um console do PowerShell como administrador.
     

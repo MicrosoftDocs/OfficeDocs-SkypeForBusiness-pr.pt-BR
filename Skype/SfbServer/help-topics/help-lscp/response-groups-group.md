@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Um grupo de agentes é um grupo de pessoas designadas para atender chamadas do Grupo de Resposta.
-ms.openlocfilehash: 70b691a98a2b58229ed3abd85494b1d854313a2e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 299317d4610c377b3c9d6ab07579b35472d60c0269a7f8933cb4e707372d0880
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299797"
 ---
 # <a name="response-groups-group"></a>Grupos de Resposta: Grupo
 

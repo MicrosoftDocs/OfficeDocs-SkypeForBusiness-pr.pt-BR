@@ -16,23 +16,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Saiba mais sobre como implantar um único site PSTN no Cloud Connector Edition.
-ms.openlocfilehash: 32c981b0f7de3d596dc25c3336000871db9fee65
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 52c10b8c5e386f72415ce5a379b68b0b469f825f5cf52be9b225f28dcf8232b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298121"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Implantar um único site no Cloud Connector
  
 > [!Important]
-> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com Skype for Business Online. Depois que sua organização tiver sido atualizada para Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
 
 Saiba mais sobre como implantar um único site PSTN no Cloud Connector Edition.
   
-Você pode implantar o Skype for Business Cloud Connector Edition com ou sem suporte a ALTA Disponibilidade (HA). Se você quiser habilitar a HA, precisará implantar dois ou mais dispositivos em um site. Você também pode converter um dispositivo existente para dar suporte a HA depois que ele for implantado.
+Você pode implantar Skype for Business Cloud Connector Edition com ou sem suporte a ALTA Disponibilidade (HA). Se você quiser habilitar a HA, precisará implantar dois ou mais dispositivos em um site. Você também pode converter um dispositivo existente para dar suporte a HA depois que ele for implantado.
   
-## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Implantar o primeiro dispositivo Skype for Business Cloud Connector Edition
+## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Implantar o primeiro Skype for Business Cloud Connector Edition dispositivo
 
 Para implantar o primeiro dispositivo em um site, abra um console do PowerShell como administrador e execute o seguinte cmdlet para registrar o dispositivo:
   
@@ -58,7 +58,7 @@ Você pode estender um site do Cloud Connector existente para dar suporte a HA a
   
 1. Siga as etapas para preparar seu dispositivo do Cloud Connector conforme descrito em [Prepare your Cloud Connector appliance](prepare-your-cloud-connector-appliance.md). Observe que algumas etapas são necessárias apenas para o primeiro dispositivo em sua implantação. Confirme se o diretório do site existe e está configurado corretamente para suporte a HA.
     
-2. Execute o cmdlet a seguir apenas no servidor host recém-adicionado para atualizar informações de topologia na configuração da organização do Microsoft 365 ou office 365. Se você quiser adicionar vários dispositivos ao mesmo tempo, execute o cmdlet em cada servidor host recém-adicionado um por um:
+2. Execute o cmdlet a seguir apenas no servidor host recém-adicionado para atualizar informações de topologia em sua configuração Microsoft 365 ou Office 365 organização. Se você quiser adicionar vários dispositivos ao mesmo tempo, execute o cmdlet em cada servidor host recém-adicionado um por um:
     
    ```powershell
    Register-CcAppliance
@@ -83,7 +83,7 @@ Você pode estender um site do Cloud Connector existente para dar suporte a HA a
 
 Se você quiser remover um dispositivo de um site existente:
   
-1. Execute o cmdlet a seguir somente nos servidores host que você deseja remover do site para atualizar as informações de topologia em sua configuração da organização do Microsoft 365 ou Office 365.
+1. Execute o cmdlet a seguir somente nos servidores host que você deseja remover do site para atualizar as informações de topologia em sua configuração Microsoft 365 ou Office 365 organização.
     
    ```powershell
    Unregister-CcAppliance

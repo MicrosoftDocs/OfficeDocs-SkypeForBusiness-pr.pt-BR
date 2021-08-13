@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: Use a caixa de diálogo Selecionar Rotas para localizar rotas de voz existentes que você possa usar.
-ms.openlocfilehash: 76a7927ec4e73ab8462f307e42477ab53030e399
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c4e0b867d82a7a7b112ce5ad1e0551876a05106f74d0b91a65e5bf1031d9a69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803731"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299738"
 ---
 # <a name="select-routes"></a>Selecionar Rotas
  
@@ -29,6 +29,6 @@ Use a caixa de diálogo **Selecionar Rotas** para localizar rotas de voz existen
 > [!NOTE]
 > Clique no ícone de busca na caixa de busca sem digitar nada para obter todas as rotas de voz disponíveis. 
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

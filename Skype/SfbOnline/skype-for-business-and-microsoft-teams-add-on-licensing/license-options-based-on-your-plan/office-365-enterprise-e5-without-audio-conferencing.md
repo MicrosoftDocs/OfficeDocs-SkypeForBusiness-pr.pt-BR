@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre recursos e licenças de complemento e como comprar os planos do Office 365 Enterprise (sem audioconferência). '
-ms.openlocfilehash: 92029f5b8d4430d9bfec51dd5130c001f34d3e09
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3c4ad93d8e1429e2971fd3a9505f0cb391641435c019eb15639c16533d68873c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316407"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (sem audioconferência)
 

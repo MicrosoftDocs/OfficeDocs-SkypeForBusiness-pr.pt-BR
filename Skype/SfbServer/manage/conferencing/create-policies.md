@@ -1,5 +1,5 @@
 ---
-title: Criar políticas de conferência no Skype for Business Server
+title: Criar políticas de conferência em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Resumo: Saiba como criar políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como criar políticas de conferência em Skype for Business Server.'
+ms.openlocfilehash: 2cce451135c82894d9d82c89e6a62682d95526d31082d209bcaf8144752426b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344740"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Criar políticas de conferência no Skype for Business Server
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Criar políticas de conferência em Skype for Business Server
  
-**Resumo:** Saiba como criar políticas de conferência no Skype for Business Server.
+**Resumo:** Saiba como criar políticas de conferência em Skype for Business Server.
   
-Você pode criar políticas de conferência usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
+Você pode criar políticas de conferência usando Skype for Business Server Painel de Controle ou usando Skype for Business Server Shell de Gerenciamento.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Criar políticas de conferência usando o Painel de Controle do Skype for Business Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Criar políticas de conferência usando Skype for Business Server Painel de Controle
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2. Abra o Painel de Controle do Skype for Business Server.
+2. Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação esquerda, clique **em Conferência** e em Política **de Conferência.**
     
@@ -84,7 +84,7 @@ Você pode criar políticas de conferência usando o Painel de Controle do Skype
     
     - Para impedir as transferências de arquivo, desmarque a caixa de seleção **Permitir que participantes transfiram arquivos**. Por padrão, os usuários podem transferir arquivos.
     
-    - Para impedir o uso de anotações, desmarque a caixa de seleção **Habilitar anotações**. Para o uso de anotações em apresentações compartilhadas do PowerPoint, desbaixe **as anotações habilitar** o PowerPoint . Por padrão, as anotações são permitidas.
+    - Para impedir o uso de anotações, desmarque a caixa de seleção **Habilitar anotações**. Para o uso de anotações em apresentações PowerPoint compartilhadas, desinformar as anotações **Habilitar PowerPoint.** Por padrão, as anotações são permitidas.
     
     - Para impedir o uso de pools, desmarque a caixa de seleção **Habilitar pools**. Por padrão, os pools são permitidos.
     
@@ -116,7 +116,7 @@ Você pode criar políticas de conferência usando o Painel de Controle do Skype
     
 21. Clique em **Confirmar**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Criar políticas de conferência usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Criar políticas de conferência usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 
 Para criar políticas de conferência, use o cmdlet **New-CsConferencingPolicy.**
   

@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: O Skype for Business Online 1 foi retirado. No entanto, se você tiver uma assinatura atual para Skype for Business Plano 1 Online, essa alteração não afetará você imediatamente. Quando você estiver pronto para mudar para um novo plano, agora ou durante a renovação, você terá três opções.
-ms.openlocfilehash: 11ee9f7ce323555b0ce7c21a326115ba05014c97
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1fcab902c9d3c05713a3bf263fa54cf33e7036f1b8cf9b7b8935fe966f8d5659
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316367"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Aposentadoria do Skype for Business Online Plan 1 
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-O Skype for Business Online 1 foi retirado. No entanto, se você tiver uma assinatura atual para Skype for Business Plano 1 Online, essa alteração não afetará você imediatamente. Como administrador de Office 365 global, você receberá atualizações de email e verá postagens no centro de mensagens (parte do centro de administração do Microsoft 365) com informações sobre quando você precisa tomar medidas. Enquanto isso, você pode continuar a usar suas licenças Skype for Business Plano 1 online existentes.
+O Skype for Business Online 1 foi retirado. No entanto, se você tiver uma assinatura atual para Skype for Business Plano 1 Online, essa alteração não afetará você imediatamente. Como administrador de Office 365 global, você receberá atualizações de email e verá postagens no centro de mensagens (parte do Centro de administração do Microsoft 365) com informações sobre quando você precisa tomar medidas. Enquanto isso, você pode continuar a usar suas licenças Skype for Business Plano 1 online existentes.
 
 Quando estiver pronto para mudar para um novo plano — agora ou durante a renovação — você terá a opção de alternar para Office 365 F1 ou outro plano Office 365 de sua escolha.
 
@@ -45,7 +45,7 @@ Essa opção é ideal se você quiser aproveitar a funcionalidade adicional que 
 
 ### <a name="how-to-switch"></a>Como alternar 
 
-Você pode alternar para Office 365 F1 agora ou aguardar até que seja hora de renovar e atualizar durante o processo de renovação. De qualquer forma, você trabalhará com seu representante de conta ou parceiro para fazer a opção, a menos que tenha comprado sua assinatura diretamente da Microsoft, nesse caso, você poderá alternar para Office 365 F1 no centro de administração do Microsoft 365.
+Você pode alternar para Office 365 F1 agora ou aguardar até que seja hora de renovar e atualizar durante o processo de renovação. De qualquer forma, você trabalhará com seu representante de conta ou parceiro para fazer a opção, a menos que tenha comprado sua assinatura diretamente da Microsoft, nesse caso, você poderá alternar para Office 365 F1 si mesmo no Centro de administração do Microsoft 365.
 
 
 ## <a name="switching-to-another-office-365-offer"></a>Alternando para outra Office 365 oferta

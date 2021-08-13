@@ -12,32 +12,32 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: 'Resumo: saiba mais sobre a operação Obter Configuração do Usuário, que faz parte do Serviço de Configurações do Usuário. O Serviço de Configurações do Usuário faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
-ms.openlocfilehash: 82632f5de7ae215d6f34d9f0b39e500fb713a1be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre a operação Obter Configuração do Usuário, que faz parte do Serviço de Configurações Usuário. O Serviço Configurações usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: 5ea18a5ae5307bbf392796f95f7dcce8393371bdb8ddcfc192cb32d819494aa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298151"
 ---
 # <a name="get-user-setting"></a>Obter as Configuração de Usuário
  
-**Resumo:** Saiba mais sobre a operação Obter Configuração do Usuário, que faz parte do Serviço de Configurações do Usuário. O Serviço de Configurações do Usuário faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Configuração do Usuário, que faz parte do Serviço de Configurações Usuário. O Serviço Configurações usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
   
-A operação Obter Configuração do Usuário faz parte do Serviço de Configurações do Usuário na API de Repositório para Painel de Qualidade da Chamada.
+A operação Obter Configuração do Usuário faz parte do Serviço Configurações usuário na API de Repositório para Painel de Qualidade de Chamada.
   
 ## <a name="get-user-setting"></a>Obter as Configuração de Usuário
 
-Obter Configuração do Usuário retorna uma configuração de usuário único.
+Obter Configuração do Usuário retorna uma única configuração de usuário.
   
 
-|**Method**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
 |OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting/{key}  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** - Nenhum.
+ **Parâmetros URI** - Nenhum.
   
- **Solicitação de headers** - nenhum outro.
+ **Headers de solicitação** - Sem headers adicionais.
   
  **Corpo da Solicitação** - Nenhum.
   
@@ -45,9 +45,9 @@ Obter Configuração do Usuário retorna uma configuração de usuário único.
   
  **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
   
- **Response Headers** - Sem outros headers.
+ **Headers de resposta** - Sem headers adicionais.
   
- **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON.
+ **Corpo da Resposta** - Abaixo está uma carga de resposta de exemplo no JSON.
   
 ```json
 {
@@ -59,8 +59,8 @@ Obter Configuração do Usuário retorna uma configuração de usuário único.
 
  *userId*  - ID do usuário.
   
- *chave*  - Chave da configuração.
+ *key*  - Chave da configuração.
   
- *valor*  - Valor da configuração.
+ *value*  - Valor da configuração.
   
 

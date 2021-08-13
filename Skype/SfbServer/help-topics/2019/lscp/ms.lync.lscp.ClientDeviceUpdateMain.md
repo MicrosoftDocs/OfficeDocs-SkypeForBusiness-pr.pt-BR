@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
-description: A Microsoft lança periodicamente um novo conjunto de atualizações de firmware de dispositivo para o Skype for Business Phone Edition, que você pode importar para seus servidores e distribuir para os usuários. Você pode obter o conjunto mais recente de regras de atualização de dispositivo indo para a página Ajuda e Suporte no site da Microsoft e pesquisando porPhone Edition.Baixe o pacote de atualização mais recente e extraia os arquivos para uma pasta no computador onde as atualizações devem ser carregadas. Após a extração dos arquivos, você poderá usar o cmdlet Import-CsDeviceUpdate para importar as regras de atualização de dispositivo encontradas no arquivo .CAB extraído (que terá o nome UCUpdates.cab). Para obter detalhes, consulte Import-CsDeviceUpdate.
-ms.openlocfilehash: f62ece38e33bfdc02a6110bb7cc4e53210c9b500
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: A Microsoft lança periodicamente um novo conjunto de atualizações de firmware de dispositivo para o Skype for Business Telefone Edition, que você pode importar para seus servidores e distribuir para os usuários. Você pode obter o conjunto mais recente de regras de atualização de dispositivo indo para a página Ajuda e Suporte no site da Microsoft e pesquisando porPhone Edition.Baixe o pacote de atualização mais recente e extraia os arquivos para uma pasta no computador onde as atualizações devem ser carregadas. Após a extração dos arquivos, você poderá usar o cmdlet Import-CsDeviceUpdate para importar as regras de atualização de dispositivo encontradas no arquivo .CAB extraído (que terá o nome UCUpdates.cab). Para obter detalhes, consulte Import-CsDeviceUpdate.
+ms.openlocfilehash: da5ef8e529a7f70757dd2b17772fbd1bff15cb06dc497857e0f72a1c3ca63574
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120250"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330405"
 ---
 # <a name="device-update"></a>Atualização de Dispositivo
 
-A Microsoft lança periodicamente um novo conjunto de atualizações de firmware de dispositivo para o Skype for Business Phone Edition, que você pode importar para seus servidores e distribuir para os usuários. É possível obter o conjunto mais recente de regras de atualização de dispositivo acessando a página Ajuda e Suporte no site da Microsoft e pesquisando por "Phone Edition". Baixe o pacote de atualizações mais recente e extraia os arquivos para uma pasta no computador onde as atualizações deverão ser carregadas. Após a extração dos arquivos, você poderá usar o cmdlet **Import-CsDeviceUpdate** para importar as regras de atualização de dispositivo encontradas no arquivo .CAB extraído (que terá o nome UCUpdates.cab). Para obter detalhes, [consulte Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps).
+A Microsoft lança periodicamente um novo conjunto de atualizações de firmware de dispositivo para o Skype for Business Telefone Edition, que você pode importar para seus servidores e distribuir para os usuários. É possível obter o conjunto mais recente de regras de atualização de dispositivo acessando a página Ajuda e Suporte no site da Microsoft e pesquisando por "Phone Edition". Baixe o pacote de atualizações mais recente e extraia os arquivos para uma pasta no computador onde as atualizações deverão ser carregadas. Após a extração dos arquivos, você poderá usar o cmdlet **Import-CsDeviceUpdate** para importar as regras de atualização de dispositivo encontradas no arquivo .CAB extraído (que terá o nome UCUpdates.cab). Para obter detalhes, [consulte Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps).
 
 Depois que as regras de atualização de  dispositivos foram importadas, você pode usar a página Atualização de Dispositivo para exibir e gerenciar essas regras para os dispositivos da sua organização.
 

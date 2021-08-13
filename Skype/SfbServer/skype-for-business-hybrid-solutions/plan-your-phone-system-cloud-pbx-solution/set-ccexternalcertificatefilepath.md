@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: O Set-CcExternalCertificateFilePath cmdlet especifica o caminho onde o certificado para o Servidor de Mediação ou Servidor de Borda está armazenado.
-ms.openlocfilehash: 9216b82626da7160d6e1bfa8d611757321a2683a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 7b9b494b27f3ed05dd1ef1cdb91bd583abf2d2b391f1a49c0b2615fd3485187c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344560"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
 O Set-CcExternalCertificateFilePath cmdlet especifica o caminho onde o certificado para o Servidor de Mediação ou Servidor de Borda está armazenado.
   
-Esse certificado é necessário durante a implantação ou ao adicionar novos dispositivos do Skype for Business Cloud Connector Edition. O comando também permite importar um novo certificado para o Servidor de Mediação após a implantação.
+Esse certificado é necessário durante a implantação ou ao adicionar novos dispositivos de Skype for Business Cloud Connector Edition. O comando também permite importar um novo certificado para o Servidor de Mediação após a implantação.
   
-Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
+Este cmdlet se aplica Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServer} [-Path] <string> [-Import]  [<CommonParameters>]
@@ -62,9 +62,9 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-Durante a implantação ou ao modificar a topologia, você precisa especificar o caminho para o certificado do Servidor de Borda e, opcionalmente, para o certificado do Servidor de Mediação. 
+Durante a implantação ou durante a modificação da topologia, você precisa especificar o caminho para o certificado do Servidor de Borda e, opcionalmente, para o certificado do Servidor de Mediação. 
   
-O certificado para o Servidor de Mediação é necessário se o TLS for usado entre o (s) gateway(s) e o Servidor de Mediação. Quando você implanta um dispositivo do Cloud Connector e deseja implantar o TLS, só é possível especificar o caminho para o certificado que será implantado no Servidor de Mediação. No entanto, se você quiser atualizar o certificado de Mediação em um dispositivo já implantado, será necessário especificar o caminho e o parâmetro -Import. Para ver o caminho, use o Get-CCExternalCertificateFilePath cmdlet.
+O certificado para o Servidor de Mediação será necessário se o TLS for usado entre o gateway (s) e o Servidor de Mediação. Quando você implanta um dispositivo do Cloud Connector e deseja implantar o TLS, você só pode especificar o caminho para o certificado que será implantado no Servidor de Mediação. No entanto, se você quiser atualizar o certificado de Mediação em um dispositivo já implantado, será necessário especificar o caminho e o parâmetro -Import. Para ver o caminho, use o Get-CCExternalCertificateFilePath cmdlet.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>
@@ -77,12 +77,12 @@ O certificado para o Servidor de Mediação é necessário se o TLS for usado en
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-O Set-CcExternalCertificateFilePath cmdlet não aceita entrada em pipeline.
+O Set-CcExternalCertificateFilePath cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

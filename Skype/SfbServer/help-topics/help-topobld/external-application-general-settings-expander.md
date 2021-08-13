@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Para editar as propriedades de um servidor de aplicativos confiável que já foi definido, siga estas instruções.
-ms.openlocfilehash: 55f6bfee68370f8f341080e54953120e48f628f8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cbc1d58c3e4ecf5a3db6efd26cd66879c75f18b1b24baa036a4266a14bf0878b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804761"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329765"
 ---
 # <a name="external-application-general-settings-expander"></a>Expansor de Configurações Gerais de Aplicativo Externo
  
@@ -40,7 +40,7 @@ Selecione  **Habilite a replicação dos dados de configuração para este pool*
   
 ## <a name="next-hop-settings"></a>Configurações de Próximo Salto
 
-Você pode especificar o servidor do próximo salto do pool de servidores de aplicativos confiáveis selecionando o pool de Front-End Enterprise Edition definido ou o Servidor de Front End Standard Edition na lista lista drop-down. Um Diretor ou pool de Diretores não é uma escolha válida para um próximo salto de servidor de aplicativos confiáveis e não aparecerão na lista.
+Você pode especificar o servidor de próximo salto do pool de servidores de aplicativos confiável selecionando o pool de front-end definido Edição Enterprise ou Edição Standard Servidor Front-End na listada. Um Diretor ou pool de Diretores não é uma escolha válida para um próximo salto de servidor de aplicativos confiáveis e não aparecerão na lista.
   
 
 

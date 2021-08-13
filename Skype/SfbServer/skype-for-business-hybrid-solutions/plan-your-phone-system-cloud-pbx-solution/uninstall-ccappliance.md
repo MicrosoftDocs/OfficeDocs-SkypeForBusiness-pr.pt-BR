@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
-description: O Uninstall-CcAppliance cmdlet desinstala o dispositivo do Skype for Business Cloud Connector Edition em execução no servidor host.
-ms.openlocfilehash: c92ad5c31e2e254e4f10511835b6cc9f60c7c43c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O Uninstall-CcAppliance cmdlet desinstala o dispositivo Skype for Business Cloud Connector Edition do servidor host.
+ms.openlocfilehash: f82459e71ee3c7eea88030a2f265f0076a633a280ee3182920e599402f69a96c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344550"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
-O Uninstall-CcAppliance cmdlet desinstala o dispositivo do Skype for Business Cloud Connector Edition em execução no servidor host. 
+O Uninstall-CcAppliance cmdlet desinstala o dispositivo Skype for Business Cloud Connector Edition do servidor host. 
   
 ```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
@@ -41,7 +41,7 @@ Uninstall-CcAppliance
 
 ### <a name="example-2"></a>Exemplo 2
 
-O próximo exemplo esvazia e força a desinstalação do dispositivo do Cloud Connector em execução no servidor host, mesmo se o processo de esvaziamento falhar:
+O próximo exemplo esvazia e desinstala à força o dispositivo do Cloud Connector em execução no servidor host, mesmo se o processo de drenagem falhar:
   
 ```powershell
 Uninstall-CcAppliance -Force
@@ -58,26 +58,26 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-Se você estiver desinstalando a versão atual em execução do Cloud Connector, os serviços de esvaziamento serão executados primeiro no Servidor de Mediação e no Servidor de Borda para permitir que as chamadas simultâneas sejam finalizada antes de desinstalar as máquinas virtuais. Se você estiver desinstalando uma versão de backup, a drenagem não será executada.
+Se você estiver desinstalando a versão atual em execução do Cloud Connector, os serviços de drenagem serão executados pela primeira vez no Servidor de Mediação e no Servidor de Borda para permitir que as chamadas simultâneas terminem antes de desinstalar as máquinas virtuais. Se você estiver desinstalando uma versão de backup, o esvaziamento não será executado.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>
 
 |**Parâmetro**|**Required**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| Versão <br/> | Opcional <br/> |System.String  <br/> | A versão do Cloud Connector que será desinstalada do servidor host. Se não for especificado, desinstale a versão atual em execução. <br/> |
-|Force  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Se estiver desinstalando a versão atual em execução, tente esvaziar os servidores no Servidor de Mediação e no Servidor de Borda antes de desinstalar as máquinas virtuais. Se você especificar a opção "Force", mesmo se os serviços de esvaziamento falharem, as máquinas virtuais serão desinstaladas. Esse parâmetro só é usado para desinstalar a versão atual em execução.  <br/> |
-|Confirmar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Peça confirmação ao usuário para desinstalar as máquinas virtuais. O valor padrão é TRUE.  <br/> |
+| Versão <br/> | Opcional <br/> |System.String  <br/> | A versão do Cloud Connector que será desinstalada do servidor host. Se não for especificado, desinstale a versão em execução atual. <br/> |
+|Force  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Se desinstalar a versão em execução atual, tente drenar servidores no Servidor de Mediação e no Servidor de Borda antes de desinstalar as máquinas virtuais. Se você especificar a opção "Force", mesmo que os serviços de drenagem falhem, as máquinas virtuais serão desinstaladas. Esse parâmetro é usado apenas para desinstalar a versão em execução atual.  <br/> |
+|Confirmar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Peça confirmação do usuário para desinstalar as máquinas virtuais. O valor padrão é TRUE.  <br/> |
    
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O Uninstall-CcAppliance cmdlet não aceita entrada em pipeline.
+Nenhum. O Uninstall-CcAppliance cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Saiba como mover os usuários para Skype for Business Online.
-ms.openlocfilehash: fcb1d508230c4faa18da4a473d9e24d384b047a6
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: dd0d154194de79716665a16e8a156c8bf825a0838e91a43ef15246970c48b48e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298911"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuários do ambiente local para o Skype for Business Online
 
@@ -78,6 +78,6 @@ Se a conta de administrador estiver habilitada para MFA (Autenticação Multifa 
 12. No sublinhado à direita, selecione o modo de coexistência desejado e clique em **Aplicar**.
  
 
-## <a name="see-also"></a>Confira também:
+## <a name="see-also"></a>Confira também
 
 [Move-CsUser](/powershell/module/skype/move-csuser)

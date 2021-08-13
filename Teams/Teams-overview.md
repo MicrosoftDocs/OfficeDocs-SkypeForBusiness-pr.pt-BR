@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0e20b4b9b696d7fc23c227afcd67d2132c5952
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598390"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298101"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Quando você estiver pronto para começar com o Teams, [comece com Como implantar o Teams](./deploy-overview.md) e [Configurar a colaboração segura com o Microsoft 365 e o Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
@@ -79,7 +79,7 @@ O Teams é o principal cliente para comunicações inteligentes no Microsoft 365
 Se você está executando o Skype for Business e está pronto para atualizar para o Microsoft Teams ou se está executando o Skype for Business e o Microsoft Teams lado a lado e está pronto para mudar totalmente para o Microsoft Teams, temos ferramentas, dicas e diretrizes para garantir o sucesso de sua transição. Para saber mais, confira [Atualizar para o Teams](upgrade-start-here.md).
 
 ## <a name="teamwork"></a>Trabalho em equipe
-Cada equipe é diferente. Não há uma abordagem única para a colaboração. O Microsoft 365 e Office 365 foram projetados para atender às necessidades exclusivas de cada equipe, capacitando as pessoas a se comunicarem, colaborarem e alcançarem mais com aplicativos integrados de propósito específico.
+Cada equipe é diferente; não há uma abordagem de tamanho único para a colaboração. O Microsoft 365 e o Office 365 foram projetados para atender às necessidades exclusivas de cada equipe, capacitando as pessoas a se comunicarem, colaborarem e alcançarem mais com aplicativos integrados e criados com finalidades específicas.
 
 Ao decidir quais aplicativos e serviços do Microsoft 365 ou do  Office 365 usar, pense no trabalho de sua organização e nos tipos de conversas que as equipes precisam ter. 
 

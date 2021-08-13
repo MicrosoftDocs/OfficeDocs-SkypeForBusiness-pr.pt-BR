@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planeje implementar a conectividade híbrida entre Skype for Business Server e Teams configurando Skype for Business modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c52edf0fa8e90f0fc6a86f0d87192fdbba6a24c8ef540f18607645a82d7badfe
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849266"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planejar conectividade híbrida entre Skype for Business Server e Teams
 
@@ -45,7 +45,7 @@ Depois de ler este tópico e estiver pronto para configurar a conectividade híb
 ## <a name="implications-of-the-upcoming-retirement-of-skype-for-business-online"></a>Implicações da próxima aposentadoria do Skype for Business Online
 É importante lembrar que, antes e após a aposentadoria do Skype for Business Online, os usuários que estão no Skype for Business Server local podem usar o Teams, mas não podem ser o TeamsOnly. (Por padrão, os usuários estão no modo Ilhas). Os usuários só podem experimentar os benefícios completos da Teams, em particular o suporte a federação e PSTN, uma vez que estão no modo TeamsOnly. 
 
-A próxima reforma do Skype for Business Online não afeta o ciclo de vida de suporte existente do Skype for Business Server ou do Lync Server 2013.  No entanto, a próxima reforma do Skype for Business Online afetará determinados apsects de como os clientes com o Skype for Business Server local ou o Lync Server 2013, incluindo organizações híbridas existentes, transicionam para a nuvem. O que não mudará após a aposentadoria é que o uso do híbrido como o meio de transição do local para a nuvem permanece inalterado.
+A próxima reforma do Skype for Business Online não afeta o ciclo de vida de suporte existente do Skype for Business Server ou do Lync Server 2013.  No entanto, a próxima reforma do Skype for Business Online afetará determinados aspectos de como os clientes com o Skype for Business Server local ou o Lync Server 2013, incluindo organizações híbridas existentes, transiem para a nuvem. O que não mudará após a aposentadoria é que o uso do híbrido como o meio de transição do local para a nuvem permanece inalterado.
 
 Atualmente, e até a aposentadoria do Skype for Business Online, as organizações híbridas podem consistir em três tipos básicos de usuários: 
 - Usuários locais (que podem ou não usar Teams, mas não no Teams somente) 
@@ -53,7 +53,7 @@ Atualmente, e até a aposentadoria do Skype for Business Online, as organizaçõ
 - Usuários do TeamsOnly.
 
 No entanto, após a Skype for Business online, as organizações híbridas só podem consistir em dois tipos básicos de usuários: 
-- Usuários locais (Who podem ou podem usar Teams, mas não no modo TeamsOnly)
+- Usuários locais (Who podem ou não usar Teams, mas não no modo TeamsOnly)
 - Teams Somente usuários. 
 
 Para que as organizações mudem do Skype for Business Server ou do Lync Server 2013 para o Teams, elas ainda devem configurar e configurar o híbrido usando o mesmo conjunto de *ferramentas,* exatamente como antes da reforma . O que mudou é que, ao mover um usuário do local para o Teams, não é mais necessário especificar a opção para mover os usuários diretamente do local para o `-MoveToTeams` `Move-CsUser` TeamsOnly. Anteriormente, se essa opção não foi especificada, os usuários mudaram de Skype for Business Server local para o Skype for Business Online, e seu modo permaneceu inalterado. Em preparação para a aposentadoria, ao mover um usuário do local para a nuvem com , os usuários agora são atribuídos automaticamente ao modo TeamsOnly e suas reuniões do local são automaticamente convertidas em reuniões Teams, como se a opção tivesse sido especificada, independentemente de a opção ser `Move-CsUser` `-MoveToTeams` realmente especificada. (Isso inclui migrações do Lync Server 2013, que nunca tiveram a `MoveToTeams` opção.) 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) do pool, a configuração de replicação e o pool de próximo salto para esse pool de aplicativos confiáveis. Você pode executar as seguintes ações:'
-ms.openlocfilehash: e28aab7db916615b1c5a07125f37c33ea0ba52d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 62c837aef82c9063d3df3ffc8a0e6920909f52c3e2b3bccfd31309373097a052
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330295"
 ---
 # <a name="external-application-scope-node"></a>Nó de Escopo de Aplicativo Externo
  
@@ -28,7 +28,7 @@ Este nó mostra o FQDN (nome de domínio totalmente qualificado) do pool, a conf
   
 - **Novo Servidor**. Inicia o assistente **Definir Novo Servidor** que você usa para adicionar outro servidor para este pool de aplicativos confiáveis.
     
-- **Editar Propriedades**. Abre  a página Editar Propriedades deste servidor, onde você pode definir o FQDN e a porta do pool interno e externo, habilitar e desabilitar a federação e a conversão de endereços de rede (NAT) e especificar o pool do próximo salto.
+- **Editar Propriedades**. Abre a página Editar **Propriedades** deste servidor, onde você pode definir o FQDN e a porta do pool interno e externo, habilitar e desabilitar a nat (conversão de endereço de rede e federação) e especificar o pool de próximo salto.
     
 - **Excluir**. Exclui o pool da topologia.
     

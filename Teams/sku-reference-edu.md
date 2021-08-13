@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Lista planos de licenciamento de professores e alunos de educação e IDs de SKU.
 f1keywords: ''
-ms.openlocfilehash: dc8b476e4af134199fe402c998a20dbd84d0919d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 38bfcfc39179253a30b45f2ce2c52be1b605a4b65832a5565521209c308a6205
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297767"
 ---
 # <a name="education-sku-reference"></a>Referência de SKU do Education
 
@@ -58,9 +58,9 @@ Este artigo lista os planos de licenciamento de professores e alunos da Educaç�
 |Microsoft 365 Education A3 para alunos      |M365EDU_A3_STUDENT         |7cfd9a2b-e110-4c39-bf20-c6a3f36a3121         |
 |Microsoft 365 Education O A3 para Alunos usa benefícios       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
 |Microsoft 365 Education A5 para alunos        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
-|Microsoft 365 Benefícios de uso do A5 Student     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
+|Microsoft 365 A5 Benefícios de uso do aluno     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
 |Microsoft 365 A5 sem Audioconferência para Alunos      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
-|Microsoft 365 A5 sem Audioconferência para Alunos usa benefício    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
+|Microsoft 365 A5 sem Audioconferência para Alunos usam benefício    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3 para alunos     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
 |Office 365 A3 Benefício de uso do aluno     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
 |Office 365 A5 Benefício de uso do aluno    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |

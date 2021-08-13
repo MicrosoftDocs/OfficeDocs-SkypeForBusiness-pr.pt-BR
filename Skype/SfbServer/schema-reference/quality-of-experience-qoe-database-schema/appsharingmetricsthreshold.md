@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: A tabela AppSharingMetricsThreshold contém valores ideais e aceitáveis de métricas de Qualidade de Experiência usadas no compartilhamento de aplicativos. Esses limites são usado para determinar se a experiência de compartilhamento de aplicativos deve ser classificada como inadequada.
-ms.openlocfilehash: 747497affbf561976bc6dd626bdce060efc1eca8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c3ee6c9742935cf7fc076c809a7aa3e09706391a58a6b1cc8025f5c5044dc5d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344590"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>Tabela AppSharingMetricsThreshold
  
@@ -31,8 +31,8 @@ Esta tabela foi introduzida no Microsoft Lync Server 2013.
 |**CallType** <br/> |int  <br/> |Primário  <br/> |Tipo de chamada feita.  <br/> |
 |**AppliedBandwidthLimitOptimal** <br/> |int  <br/> ||Limitação de largura de banda ideal para compartilhamento de aplicativos. O valor padrão é 1000000.  <br/> |
 |**AppliedBandwidthLimitAcceptable** <br/> |int  <br/> ||Limitação de largura de banda aceitável para compartilhamento de aplicativos. O valor padrão é 500000.  <br/> |
-|**SpoiledTilePercentTotalOptimal** <br/> |decimal(5,2)  <br/> ||Taxa de porcentagem ideal para blocos "destruídos" para classificar uma qualidade de Compartilhamento de Aplicativos. Esse valor é o percentual de conteúdo do compartilhador que não alcançou o visualizador. O conteúdo pode ser descartado (ou danificado) quando o compartilhador descarta blocos da origem gráfica ou os blocos ASMCU descartam blocos do compartilhador, respectivamente. O valor padrão é 11%.  <br/> |
-|**SpoiledTilePercentTotalAcceptable** <br/> |decimal(5,2)  <br/> ||Taxa de porcentagem aceitável para blocos "destruídos" para classificar uma qualidade de Compartilhamento de Aplicativos. Esse valor é o percentual de conteúdo do compartilhador que não alcançou o visualizador. O conteúdo pode ser descartado (ou danificado) quando o compartilhador descarta blocos da origem gráfica ou os blocos ASMCU descartam blocos do compartilhador, respectivamente. O valor padrão é 36%.  <br/> |
+|**SpoiledTilePercentTotalOptimal** <br/> |decimal(5,2)  <br/> ||Taxa percentual ideal para blocos "estragados" para classificar uma qualidade de Compartilhamento de Aplicativos. Esse valor é o percentual de conteúdo do compartilhador que não alcançou o visualizador. O conteúdo pode ser descartado (ou danificado) quando o compartilhador descarta blocos da origem gráfica ou os blocos ASMCU descartam blocos do compartilhador, respectivamente. O valor padrão é 11%.  <br/> |
+|**SpoiledTilePercentTotalAcceptable** <br/> |decimal(5,2)  <br/> ||Taxa percentual aceitável para blocos "estragados" para classificar uma qualidade de Compartilhamento de Aplicativos. Esse valor é o percentual de conteúdo do compartilhador que não alcançou o visualizador. O conteúdo pode ser descartado (ou danificado) quando o compartilhador descarta blocos da origem gráfica ou os blocos ASMCU descartam blocos do compartilhador, respectivamente. O valor padrão é 36%.  <br/> |
 |**JitterInterArrivalOptimal** <br/> |int  <br/> ||Esta coluna não é usada no Microsoft Lync Server 2013.  <br/> |
 |**JitterInterArrivalAcceptable** <br/> |int  <br/> ||Esta coluna não é usada no Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayBurstDensityOptimal** <br/> |flutuação  <br/> ||Esta coluna não é usada no Microsoft Lync Server 2013.  <br/> |
@@ -41,7 +41,7 @@ Esta tabela foi introduzida no Microsoft Lync Server 2013.
 |**RDPTileProcessingLatencyBurstDensityAcceptable** <br/> |flutuação  <br/> ||Esta coluna não é usada no Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayAverageOptimal** <br/> |flutuação  <br/> ||Valor ideal do atraso unidirecional relativo entre dois pontos de extremidade de mídia envolvidos no compartilhamento de aplicativos. Esta é uma medida de latência de salto único. O valor padrão é 1,0 segundo.  <br/> A coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayAverageAcceptable** <br/> |flutuação  <br/> ||Valor ideal do atraso unidirecional relativo entre dois pontos de extremidade de mídia envolvidos no compartilhamento de aplicativos. Esta é uma medida de latência de salto único. O valor padrão é 1,75 segundo.  <br/> A coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
-|**RDPTileProcessingLatencyAverageOptimal** <br/> |flutuação  <br/> ||Valor ideal da latência média de processamento de blocos RDP no Servidor de Conferência AS pelo tempo da sessão de visualização. Latência é a diferença de tempo entre quando o Quadro Inicial é codificado no servidor (sharer ou MCU, dependendo do cenário) e o mesmo Quadro Inicial é decodificado no visualizador.  <br/> Uma média alta reflete um atraso maior na experiência de visualização. Um servidor de conferência sobrecarregado pode ter atrasos médios maiores. O valor padrão é 200 ms.  <br/> A coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
-|**RDPTileProcessingLatencyAverageAcceptable** <br/> |flutuação  <br/> ||Valor aceitável da latência média de processamento de blocos RDP no Servidor de Conferência AS pelo tempo da sessão de visualização. Latência é a diferença de tempo entre quando o Quadro Inicial é codificado no servidor (sharer ou MCU, dependendo do cenário) e o mesmo Quadro Inicial é decodificado no visualizador.  <br/> Uma média alta reflete um atraso maior na experiência de visualização. Um servidor de conferência sobrecarregado pode ter atrasos médios maiores. O valor padrão é 200 ms.  <br/> A coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
+|**RDPTileProcessingLatencyAverageOptimal** <br/> |flutuação  <br/> ||Valor ideal da latência média de processamento de blocos RDP no Servidor de Conferência AS pelo tempo da sessão de visualização. Latência é a diferença de tempo entre quando o Quadro inicial é codificado no servidor (sharer ou MCU, dependendo do cenário) e o mesmo Quadro inicial é decodificado no visualizador.  <br/> Uma média alta reflete um atraso maior na experiência de visualização. Um servidor de conferência sobrecarregado pode ter atrasos médios maiores. O valor padrão é 200 ms.  <br/> A coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
+|**RDPTileProcessingLatencyAverageAcceptable** <br/> |flutuação  <br/> ||Valor aceitável da latência média de processamento de blocos RDP no Servidor de Conferência AS pelo tempo da sessão de visualização. Latência é a diferença de tempo entre quando o Quadro inicial é codificado no servidor (sharer ou MCU, dependendo do cenário) e o mesmo Quadro inicial é decodificado no visualizador.  <br/> Uma média alta reflete um atraso maior na experiência de visualização. Um servidor de conferência sobrecarregado pode ter atrasos médios maiores. O valor padrão é 200 ms.  <br/> A coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
    
 

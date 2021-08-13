@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos Skype for Business Phone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
-ms.openlocfilehash: 60d9ab8c09b648df14758056fed6096439b7f811
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos Skype for Business Telefone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
+ms.openlocfilehash: c8f1b8e453bf92c103808c0e3500597d1a81b57ed61e4cc22856aeab2284e5b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316307"
 ---
 # <a name="device-configuration"></a>Configuração do dispositivo
  
-Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos Skype for Business Phone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade. 
+Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos Skype for Business Telefone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade. 
   
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 

@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Os tópicos desta seção descrevem as tarefas que você precisará executar depois de concluir a migração para o Skype for Business Server 2019.
-ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Os tópicos nesta seção descrevem tarefas que você precisará executar depois de concluir sua migração para Skype for Business Server 2019.
+ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298901"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: Tarefas completas pós-migração
 
-Os tópicos desta seção descrevem as tarefas que você precisará executar depois de concluir a migração para o Skype for Business Server 2019.
+Os tópicos nesta seção descrevem tarefas que você precisará executar depois de concluir sua migração para Skype for Business Server 2019.
   
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -40,7 +40,7 @@ Os tópicos desta seção descrevem as tarefas que você precisará executar dep
     
 - [Configurar servidores de aplicativo confiáveis](configure-trusted-application-servers.md)
     
-- [Implantar clientes do Skype for Business Server 2019](deploy-clients.md)
+- [Implantar Skype for Business Server 2019](deploy-clients.md)
     
 - [Conectar um aparelho de filial persistente](connect-a-survivable-branch-appliance.md)
     

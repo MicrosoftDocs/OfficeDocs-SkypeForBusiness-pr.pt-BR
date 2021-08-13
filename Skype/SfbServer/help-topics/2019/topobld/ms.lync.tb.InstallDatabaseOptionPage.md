@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você configura opções avançadas para o posicionamento de arquivos de banco de dados e de log em seu SQL Server. As opções disponíveis são:'
-ms.openlocfilehash: 4b4323f2b0e953ff24a458a2f28f75f52d4f0149
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1dcf386be6978a8f2b3524310ff53ae7fb2be5c1b59991c13db7251d833ed341
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330185"
 ---
 # <a name="install-database-options-page"></a>Instalar Página de Opções de Banco de Dados
 

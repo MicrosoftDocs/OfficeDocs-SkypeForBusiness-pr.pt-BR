@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: As filas do Grupo de Resposta resitem chamadas para grupos de resposta até que um agente responda à chamada. As filas têm grupos de agente atribuídos. Ao criar ou editar uma fila, você usa a caixa de diálogo Selecionar Grupos para selecionar um ou mais grupos de agente para atribuição à fila.
-ms.openlocfilehash: 9ea42d4418bebd4192954d681f041923327fa355
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e9cc1f96e15449c444115ec098d3f292ee7bd6ec008f6f1955776f5c04014bc7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330005"
 ---
 # <a name="select-groups"></a>Selecionar Grupos
 

@@ -19,12 +19,12 @@ ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: Os administradores podem aprender a adicionar novos convidados a uma organização Microsoft Teams clientes da área de trabalho e da Web e Azure Active Directory portal de colaboração B2B.
-ms.openlocfilehash: 1d44aff9b62a5ba6de7c22499f5a20f187d7781b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1525a389b5299491dc7d0de2adfd744d0d3437aff7fbeb5832cd37790ab24ffb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109077"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344390"
 ---
 # <a name="add-a-guest-to-a-team"></a>Adicionar um convidado a uma equipe
 

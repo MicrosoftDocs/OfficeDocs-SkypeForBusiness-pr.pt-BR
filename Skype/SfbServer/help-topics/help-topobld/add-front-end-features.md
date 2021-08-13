@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: Selecione cada recurso que deseja habilitar para o pool de Front-Ends. Implante, no mínimo, o IM (sistema de mensagens instantâneas), que sempre fica habilitado e não pode ser desmarcado. Você também tem a opção de implantar outros recursos, como conferência, Enterprise Voice e o controle de admissão de chamadas. Alguns recursos dependem da sua topologia.
-ms.openlocfilehash: 250e95bf90362ac187dfcbe231306ffbb8341960
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9c55d0dbd9f40da1782bba13ed280774fd8dfad62e9855f53bf4f6cc6e60c26d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298331"
 ---
 # <a name="add-front-end-features"></a>Adicionar Recursos de Front-end
 
