@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Exibir relatórios de administradores para Teams de conector EHR
-ms.openlocfilehash: d0a0862811e1a10fc9a450b986bbc59b603c4254
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: 96f0efac9e1293197e92768e24cbd15187127410f75e70abbd77afa50d0baacf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299230"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Relatórios de administração do conector EHR
 

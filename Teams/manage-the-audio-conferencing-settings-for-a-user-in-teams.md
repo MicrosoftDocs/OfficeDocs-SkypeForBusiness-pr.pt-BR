@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Um administrador Microsoft 365 ou Office 365 pode editar as configurações de Audioconferência de Teams, incluindo provedor, número de tarifação padrão ou gratuita, ID de conferência ou PIN para um usuário.
-ms.openlocfilehash: 80f8627efddae70388c17ed7585c74f6b4d97cc3
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 859e0c1751ca8573fafcece386ae17439166eeb048ff136257f004136254094d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343984"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de Audioconferência de um usuário no Microsoft Teams
 

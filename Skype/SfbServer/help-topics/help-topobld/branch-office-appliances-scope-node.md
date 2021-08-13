@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: 'O nodo de  Aparelhos de Filial Persistentes   lista os Aparelhos de Filial Persistentes neste site de filial. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 0d6b790d8775a46f27145c41a590c38c3f567a7e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a54158de8bc7a030c6b64b293fe5a87ffea7e681e44d4ea371b1cbff886040ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299578"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nó de Escopo de Aparelhos de Filial
  
 O nodo de  **Aparelhos de Filial Persistentes** lista os Aparelhos de Filial Persistentes neste site de filial. Você pode executar as seguintes ações:
   
-- **Novo Aparelho de Filial Persistente**. Inicia o assistente Definir Novo Aparelho de Filial **Survivível,** que você usa para adicionar um novo Aparelho de FilialVivível a este site.
+- **Novo Aparelho de Filial Persistente**. Inicia o assistente Definir Novo Aparelho **de Filial** Suportável, que você usa para adicionar um novo Aparelho de Filial Suportável a este site.
     
-Além da opção Aparelho de Filial Sobrevivência, você pode executar as seguintes tarefas gerais:
+Além da opção Aparelho de Filial Suportável, você pode executar as seguintes tarefas gerais:
   
 - **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     

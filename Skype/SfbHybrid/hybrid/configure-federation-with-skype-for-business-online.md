@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: saiba como configurar a interoperabilidade entre sua implantação local e Teams.'
-ms.openlocfilehash: a0e33c781e307785456698b20738dec2db02b8b4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 8a5d40ea56ca4cfdce6f748bea1d276bbb2727eb2669390e6ee6fb006bfd22ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319564"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configure o Skype for Business híbrido
 
@@ -35,11 +35,11 @@ Para configurar o Skype for Business híbrido, você precisa:
 - [Configure seu ambiente local para confiar Teams e habilitar o espaço de endereço SIP compartilhado.](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams)
 - [Habilitar o espaço de endereço SIP compartilhado em sua Teams organização](#enable-shared-sip-address-space-in-your-organization).
 
-Se você tiver Exchange local, talvez queira configurar o OAuth entre seus ambientes Exchange local e Skype for Business Online. Para obter mais informações, consulte [Manage server-to-server authentication in Skype for Business Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) and Plan to integrate Skype for Business and [Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support). 
+Se você tiver Exchange local, talvez você queira configurar o OAuth entre seus ambientes Exchange locais e online. Para obter mais informações, consulte [Manage server-to-server authentication in Skype for Business Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) and Plan to integrate Skype for Business and [Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support). 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-teams"></a>Configure seu serviço de Borda local para federar com Teams
 
-A federação permite que os usuários em sua implantação local se comuniquem com Teams e Skype for Business online em sua organização. Para configurar a federação, execute o seguinte cmdlet no Shell Skype for Business Server Gerenciamento:
+A federação permite que os usuários em sua implantação local se comuniquem com Teams usuários em sua organização. Para configurar a federação, execute o seguinte cmdlet no Shell Skype for Business Server Gerenciamento:
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -80,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > O atributo SharedSipAddressSpace precisa permanecer "True" até que a mudança para online seja final e nenhum usuário permaneça no local. 
   
-Para estabelecer uma sessão remota do PowerShell com Teams (ou Skype for Business Online), primeiro você precisa instalar o [módulo Teams PowerShell](/microsoftteams/teams-powershell-install). O Teams powershell substitui o Skype para o módulo conector busines online, que foi retirado.
+Para estabelecer uma sessão remota do PowerShell com Teams, você primeiro precisa instalar o módulo [Teams PowerShell](/microsoftteams/teams-powershell-install). O Teams powershell substitui o Skype para o módulo conector busines online, que foi retirado.
   
 Depois de instalar o módulo, você pode estabelecer uma sessão remota com os seguintes cmdlets:
    ```powershell
@@ -95,6 +95,6 @@ Para obter mais informações sobre como estabelecer uma sessão remota do Power
   
 
 
-## <a name="see-also"></a>Confira também:
+## <a name="see-also"></a>Confira também
 
 [New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)

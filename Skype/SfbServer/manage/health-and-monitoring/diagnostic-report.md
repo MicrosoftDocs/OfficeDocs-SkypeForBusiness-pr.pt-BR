@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Resumo: Saiba mais sobre o Relatório de Diagnóstico no Skype for Business Server.'
-ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico no Skype for Business Server.'
+ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297217"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Relatório de Diagnóstico no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Relatório de Diagnóstico no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Diagnóstico Skype for Business Server.
   
 O Relatório de diagnóstico fornece diagnósticos e informações para a solução de problemas de uma sessão com falha. Essas informações incluem a ID de diagnóstico e o cabeçalho de Diagnóstico que foram importados quando a sessão falhou. A ID de diagnóstico é um identificador exclusivo (na forma de um cabeçalho ms-diagnostics) que é anexado a uma mensagem SIP, enquanto a cabeçalho de Diagnóstico fornece uma descrição da ID de diagnóstico. O relatório também pode conter detalhes importantes para a solução de problemas e que são conhecidos pelo componente de relatório. Por exemplo:
   
@@ -33,7 +33,7 @@ O Relatório de diagnóstico fornece diagnósticos e informações para a soluç
     
 ## <a name="accessing-the-diagnostic-report"></a>Acessando o relatório de diagnósticos
 
-O Relatório de Diagnóstico pode ser acessado clicando na métrica Relatório de Diagnóstico (Detalhes) no Relatório de Detalhes de Sessão Ponto a Ponto no [Skype for Business Server](peer-to-peer-session-detail-report.md) ou no Relatório de Detalhes da Conferência.
+O Relatório de Diagnóstico pode ser acessado clicando na métrica Relatório de Diagnóstico (Detalhes) no Relatório de Detalhes de Sessão Ponto [a](peer-to-peer-session-detail-report.md) Ponto no Skype for Business Server ou no Relatório de Detalhes da Conferência.
   
 ## <a name="filters"></a>Filtros
 
@@ -55,7 +55,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 |**Representante do usuário de origem** <br/> |Não  <br/> |Software usado pelo ponto de extremidade do usuário que iniciou a sessão.  <br/> |
 |**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (no formato de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente oferece informações úteis para resolução de erros.  <br/> |
 |**Tipo de conteúdo** <br/> |Não  <br/> |Tipo de conteúdo de mídia que falhou. Por exemplo, um tipo de conteúdo comum é Application/sdp. SDP (Protocolo de descrição de sessão) é um protocolo padrão de Internet usado para anúncios de sessão, convites de sessão e outras formas de início de sessão multimídia.  <br/> |
-|**Aplicativo** <br/> |Não  <br/> |Aplicativo envolvido no erro.  <br/> |
+|**Aplicação** <br/> |Não  <br/> |Aplicativo envolvido no erro.  <br/> |
 |**URI do usuário de destino** <br/> |Não  <br/> |Endereço SIP do usuário convidado para a sessão.  <br/> |
 |**Hora de ingresso de conferência (ms)** <br/> |Não  <br/> |Tempo (em milissegundos) que o usuário precisou para ingressar na conferência.  <br/> |
 |**Cabeçalho do diagnóstico** <br/> |Não  <br/> |Descrição do ID de diagnóstico.  <br/> |

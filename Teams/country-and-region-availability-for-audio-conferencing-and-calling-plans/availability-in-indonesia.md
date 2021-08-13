@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Indonésia.
-ms.openlocfilehash: 5d52c894c61988ae8d4bbf9598f036c766df5d4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a75e80f9201166965d09b4a7fdefd12e106c4002e3858862fd1aa5d1cba1a602
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299349"
 ---
 # <a name="availability-in-indonesia"></a>Disponibilidade na Indonésia
 

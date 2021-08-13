@@ -1,5 +1,5 @@
 ---
-title: Usar Config.xml para executar tarefas de instalação em clientes do Skype for Business
+title: Usar Config.xml para executar tarefas de instalação em Skype for Business clientes
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Resumo: como usar o arquivo Config.xml para especificar instruções de instalação adicionais.'
-ms.openlocfilehash: dbf4c4ba4e652f4b777e0c901fee4ffb0ad68af3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7c04a9c08f6a5dd51c21a189ce3a07d81a589cf694e5020a75cf6f646bd1cef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332043"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Usar Config.xml para executar tarefas de instalação em clientes do Skype for Business
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Usar Config.xml para executar tarefas de instalação em Skype for Business clientes
 
 **Resumo:** Como usar o arquivo Config.xml para especificar instruções de instalação adicionais.
 
@@ -37,27 +37,27 @@ Embora a Ferramenta de Personalização do Office (OCT) seja a ferramenta princi
 
 - Adicionar ou remover idiomas da instalação.
 
-Recomendamos que você use o arquivo Config.xml para configurar a instalação silenciosa do Skype for Business. 
+Recomendamos que você use o arquivo Config.xml para configurar Skype for Business instalação silenciosa. 
 
-Por padrão, o arquivo Config.xml que é armazenado na pasta principal do produto (por exemplo, \ _produto_. WW) direciona a Instalação para instalar esse produto. Por exemplo, o arquivo Config.xml na pasta a seguir instala o Skype for Business:
+Por padrão, o arquivo Config.xml que é armazenado na pasta principal do produto (por exemplo, \ _produto_. WW) direciona a Instalação para instalar esse produto. Por exemplo, o arquivo Config.xml na pasta a seguir instala Skype for Business:
 
-- \\server\share\Skype15\Skype.WW \Config.xml
+- \\server\share\Skype15\Skype. WW \Config.xml
 
-Os Config.xml mais comumente usados para a instalação do Skype for Business estão listados na tabela a seguir.
+Os Config.xml mais comumente usados para Skype for Business instalação são listados na tabela a seguir.
 
 **Elementos de Config.xml**
 
 
 | **Elemento**              | **Descrição**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configuração  <br/>     | Elemento de nível superior (obrigatório). Contém o atributo Product, por exemplo: Product=Lync (Isso funcionará para clientes do Skype for Business)  <br/>                                                                                                                                                          |
+| Configuração  <br/>     | Elemento de nível superior (obrigatório). Contém o atributo Product, por exemplo: Product=Lync (Isso funcionará para Skype for Business clientes)  <br/>                                                                                                                                                          |
 | OptionState  <br/>       | Especifica como os recusos de produto específicos são manipulados durante a instalação. Use os atributos a seguir para impedir a instalação de Serviços Corporativos de Conectividade, que inclui componentes compartilhados que interferem no Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Display  <br/>           | O nível deUI que a Instalação exibe para o usuário. Entre os atributos comuns estão os seguintes: <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
-| Registro em log  <br/>           | Opções para o tipo de registro em log executado pela Instalação. Entre os atributos comuns estão os seguintes: <br/>  Digite ="Off"                                                                                                                                                                                       |
-| Configuração  <br/>           | Especifica valores para as propriedades do Windows Installer. Entre os atributos comuns estão os seguintes:<br/>  Definindo Id=" *nome*" (o nome da propriedade Windows Installer)  <br/>  Valor=" *valor*" (o valor a ser atribuído à propriedade)  <br/>                                                             |
+| Registrar em log  <br/>           | Opções para o tipo de registro em log executado pela Instalação. Entre os atributos comuns estão os seguintes: <br/>  Digite ="Off"                                                                                                                                                                                       |
+| Setting  <br/>           | Especifica valores para as propriedades do Windows Installer. Entre os atributos comuns estão os seguintes:<br/>  Definindo Id=" *nome*" (o nome da propriedade Windows Installer)  <br/>  Valor=" *valor*" (o valor a ser atribuído à propriedade)  <br/>                                                             |
 | DistributionPoint  <br/> | O caminho totalmente qualificado do ponto de instalação de rede do qual a instalação deve ser executada. Inclui o atributo Location:<br/>  Caminho *Location="*"  <br/>                                                                                                                                     |
 
-O exemplo a seguir mostra um arquivo Config.xml para uma instalação silenciosa típica do cliente Skype for Business. 
+O exemplo a seguir mostra um arquivo Config.xml para uma instalação silenciosa típica do Skype for Business cliente. 
 
 ```xml
 <Configuration Product="Lync"> 
@@ -69,7 +69,7 @@ O exemplo a seguir mostra um arquivo Config.xml para uma instalação silenciosa
 </Configuration>
 ```
 
-Informações detalhadas sobre como usar o arquivo Config.xml para executar tarefas de instalação e manutenção do Office estão disponíveis em [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) .
+Informações detalhadas sobre como usar o arquivo Config.xml para executar Office tarefas de instalação e manutenção estão disponíveis em [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) .
 
 ## <a name="to-customize-the-configxml-file"></a>Para personalizar o arquivo Config.xml
 

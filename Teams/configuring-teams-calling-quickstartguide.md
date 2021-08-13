@@ -19,14 +19,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fc2a18d2a7199bf35e2a06ae8cce2b781b570846014443cbc30b393e39e52aa
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0acdfe123a8cd92dab773f5de2e831782d82473273ad01b32847cb5052d7f6c7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299398"
 ---
-# <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams
+<a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams
+==============================================================
 
 Este guia ajudará você a obter um conjunto de usuários em execução para que eles possam explorar Planos de Chamada em Teams.
 
@@ -39,7 +40,7 @@ Adicionando Planos de Chamadas - um recurso de Microsoft 365 e Office 365 alimen
 
 ![Captura de tela mostrando a página Contatos no Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Pré-requisitos para habilite a guia **Chamadas** no Teams
-Para habilitar Teams guia Chamadas no Teams os usuários precisam ter a chamada 1:1 habilitada no Teams e usando um cliente Teams que oferece suporte Teams chamada 1:1.  Para saber como gerenciar chamadas 1:1 no Teams, leia [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy). Para saber quais clientes suportam a chamada, leia [Limites e especificações para Microsoft Teams](./limits-specifications-teams.md).
+Para habilitar Teams guia Chamadas no Teams os usuários precisam ter a chamada 1:1 habilitada no Teams e usando um cliente Teams que oferece suporte Teams chamada 1:1.  Para saber como gerenciar chamadas 1:1 no Teams, leia [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber quais clientes suportam a chamada, leia [Limites e especificações para Microsoft Teams](./limits-specifications-teams.md).
 
 > [!NOTE]
 > Atualmente, a Caixa Postal não estará disponível na guia Chamadas, a menos que o usuário esteja habilitado para chamadas PSTN. 

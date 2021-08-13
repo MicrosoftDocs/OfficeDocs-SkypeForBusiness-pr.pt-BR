@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB (como fones de ouvido, viva-voz, webcams e monitores) são certificados para Microsoft Teams.
-ms.openlocfilehash: 6f1cec1c4db15f0a0e5c3ddb6d42d43d071e67f1c65a241f22c148b4f0f3dedf
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 7a59f979d98af6051e0eb7f54d0299684b0316fb914ae1039e960290301ce46d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848086"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344330"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para Microsoft Teams
 
@@ -74,12 +74,10 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela Atualizada agosto de 2021*
+*Tabela Atualizada em julho de 2021*
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa Certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Poly                 |Voyager 4320                                               |8/6/2021        |Certificado para Microsoft Teams                           |
-|Poly                 |Voyager 4310                                               |8/6/2021        |Certificado para Microsoft Teams                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Certificado para Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Certificado para Microsoft Teams                           |
 |NEC                  |Exibição de colaboração Windows WD551                        |5/21/2021       |Certificado para Microsoft Teams                           |

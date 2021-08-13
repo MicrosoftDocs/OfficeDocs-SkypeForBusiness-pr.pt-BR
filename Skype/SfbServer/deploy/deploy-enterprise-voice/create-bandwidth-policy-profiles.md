@@ -1,5 +1,5 @@
 ---
-title: Criar perfis de política de largura de banda no Skype for Business Server
+title: Criar perfis de política de largura de banda Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Crie ou modifique políticas de largura de banda, que são usadas Enterprise Voice controle de admissão de chamadas no Skype for Business Server.
-ms.openlocfilehash: 9458c5576d2c89254c4ee6477ede33c010cb4a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Crie ou modifique políticas de largura de banda, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server.
+ms.openlocfilehash: 9a0cbbb4f398872504eea38bda7a3a4e79a62ac00331946b73a62bbf9c57a2df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332033"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Criar perfis de política de largura de banda no Skype for Business Server 
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Criar perfis de política de largura de banda Skype for Business Server 
  
-Crie ou modifique políticas de largura de banda, que são usadas Enterprise Voice controle de admissão de chamadas no Skype for Business Server. 
+Crie ou modifique políticas de largura de banda, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server. 
   
 Políticas de largura de banda definem limitações de uso de largura de banda para modalidades de áudio e vídeo em tempo real. As políticas de largura de banda são aplicadas aos perfis de política debandwidth, que podem ser aplicados a vários sites de rede para controle de admissão de chamada.
   
@@ -44,9 +44,9 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
 > [!NOTE]
 > O valor mínio para o Limite de Sessão de Áudio é 40 kbps. O valor mínimo para o Limite de Sessão de Vídeo é 100 kbps. 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Para criar perfis de política de largura de banda usando o Shell de Gerenciamento do Skype for Business Server
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Para criar perfis de política de largura de banda usando Skype for Business Server Shell de Gerenciamento
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
 2. Para cada perfil de política de largura de banda que desejar criar, execute o cmdlet New-CsNetworkBandwidthPolicyProfile. Por exemplo, execute:
     
@@ -66,9 +66,9 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Para criar perfis de política de largura de banda usando o Painel de Controle do Skype for Business Server
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Para criar perfis de política de largura de banda usando Skype for Business Server Painel de Controle
 
-1. Abra o Painel de Controle do Skype for Business Server.
+1. Abra Skype for Business Server Painel de Controle.
     
 2. Na barra de navegação à esquerda, clique em **Configuração da Rede**.
     

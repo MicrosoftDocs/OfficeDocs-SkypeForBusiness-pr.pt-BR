@@ -1,5 +1,5 @@
 ---
-title: Implantações híbridas do Sistema de Sala do Skype
+title: Skype Implantações híbridas do Sistema de Sala
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,48 +11,48 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
-description: Leia este tópico para saber como implantar o Sistema de Sala do Skype em um ambiente híbrido.
-ms.openlocfilehash: 47be9204155a1ff6cf6e8d9dfa67723a370fec26
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Leia este tópico para saber como implantar o Skype Room System em um ambiente híbrido.
+ms.openlocfilehash: f25f9c57a64f5a6711283e2d5cdb97331e6e699b5fbceab2728221441c9463f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805891"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332053"
 ---
-# <a name="skype-room-system-hybrid-deployments"></a>Implantações híbridas do Sistema de Sala do Skype
+# <a name="skype-room-system-hybrid-deployments"></a>Skype Implantações híbridas do Sistema de Sala
 
-Leia este tópico para saber como implantar o Sistema de Sala do Skype em um ambiente híbrido.
+Leia este tópico para saber como implantar o Skype Room System em um ambiente híbrido.
   
 ## <a name="hybrid-deployments"></a>Implantações híbridas
 
-Siga estas etapas se sua topologia tiver o Skype for Business Server e o Exchange Online e você quiser hospedar a caixa de correio de recursos do Sistema de Sala do Skype no Exchange Online. Esta seção também aborda um cenário híbrido em que você tem o Exchange Online e o Exchange Server implantados.
+Siga estas etapas se sua topologia tiver Skype for Business Server e Exchange Online, e você quiser hospedar Skype caixa de correio de recurso do Sistema de Sala Exchange Online. Esta seção também aborda um cenário híbrido em que você Exchange Online e Exchange Server implantados.
   
 Para fins ilustrativos, usamos LyncSample.com para o domínio local e LyncSample.ccstp.net para o domínio online.
   
-1. Crie uma caixa de correio de recursos no centro de administração do Exchange (LyncSample.ccsctp.net) conectando-se ao shell de Gerenciamento do Exchange Online, conforme descrito no Provisionamento do Exchange Online.
+1. Crie uma caixa de correio de recurso Exchange centro de administração (LyncSample.ccsctp.net) conectando-se ao shell de gerenciamento de Exchange Online conforme descrito em Exchange Online Provisionamento.
     
    ```powershell
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
-    Você pode verificar a conectividade OWA usando lrstest5@LyncSample.ccsctp.net para fazer logoff.
+    Você pode verificar a conectividade do OWA usando lrstest5@LyncSample.ccsctp.net fazer logoff.
     
-2. No Centro de administração do Microsoft 365 ou Office 365 Exchange, adicione um endereço de email lrstest5@LyncSample.com (domínio local) e de definida como o endereço de resposta.
+2. No centro de administração Microsoft 365 ou Office 365 Exchange, adicione um endereço de email lrstest5@LyncSample.com (domínio local) e desmarcar como o endereço de resposta.
     
 3. Crie um endereço de usuário local do Active Directory lrstest5@LyncSample.com, de definir o endereço de email como lrstest5@LyncSample.com e de definir o endereço de destino como lrstest5@LyncSample.com.
     
-4. Acionar a sincronização de diretórios e, após a conclusão da sincronização, verifique se os usuários são mesclados no AAD e se você não consegue alterar as propriedades nos recursos do destinatário no Centro de administração do Microsoft 365 ou Office 365 Exchange.
+4. Acionar a sincronização de diretórios e, após a conclusão da sincronização, verifique se os usuários se mesclam no AAD e se você não é capaz de alterar as propriedades nos recursos do destinatário no centro de administração Microsoft 365 ou Office 365 Exchange.
     
-5. Verifique a conectividade do OWA usando lrstest5@LyncSample.com. (Anteriormente, você verificou a conectividade OWA usando o domínio online.)
+5. Verifique a conectividade OWA usando lrstest5@LyncSample.com. (Anteriormente, você verificou a conectividade OWA usando o domínio online.)
     
-    Depois de criar a caixa de correio, você pode Set-CalendarProcessing no Shell de Gerenciamento do Exchange Online para configurar a caixa de correio. Consulte as etapas de 3 a 6 em Implantações De floresta única no prem para obter mais detalhes.
+    Depois de criar a caixa de correio, você pode Set-CalendarProcessing no Shell de Gerenciamento Exchange Online para configurar a caixa de correio. Consulte as etapas 3 a 6 em Implantações de Floresta Única No momento para obter mais detalhes.
     
    > [!NOTE]
-   > Se você tiver um ambiente híbrido com o Exchange Server e o Exchange Online, vá para o Shell de Gerenciamento do Exchange e Enable-RemoteMailbox lrstest5@LyncSample.com -RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net -Room. Em seguida, acionar a Sincronização de Diretórios. 
+   > Se você tiver um ambiente híbrido com Exchange Server e Exchange Online, vá para o Shell de Gerenciamento Exchange e Enable-RemoteMailbox lrstest5@LyncSample.com -RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net -Room. Em seguida, acionar a Sincronização de Diretórios. 
   
-    Se você deseja hospedar a caixa de correio do Sistema de Sala do Skype no Exchange Online, essas etapas do Shell de Gerenciamento do Exchange não são necessárias e você pode prosseguir para a etapa 6.
+    Se você deseja hospedar Skype caixa de correio do Sistema de Sala no Exchange Online, essas etapas do Shell de Gerenciamento Exchange não são necessárias e você pode prosseguir para a etapa 6.
     
-6. Habilita a conta do Sistema de Sala do Skype for Business executando o seguinte cmdlet no Shell de Gerenciamento do Skype for Business:
+6. Habilita a Skype do Sistema de Sala para Skype for Business executando o seguinte cmdlet no Shell de Gerenciamento Skype for Business:
     
    ```powershell
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
@@ -60,6 +60,6 @@ Para fins ilustrativos, usamos LyncSample.com para o domínio local e LyncSample
    ```
 
 > [!NOTE]
-> Se você tiver o Skype for Business Online em vez do Skype for Business Server no cenário acima, depois de provisionar a caixa de correio de recursos do Exchange, provisione uma conta do Skype for Business conforme descrito no Provisionamento do Skype for Business Online. 
+> Se você tiver Skype for Business Online em vez de Skype for Business Server no cenário acima, depois de provisionar Exchange caixa de correio de recurso do Exchange, provisione uma conta Skype for Business conforme descrito no provisionamento Skype for Business Online. 
   
 

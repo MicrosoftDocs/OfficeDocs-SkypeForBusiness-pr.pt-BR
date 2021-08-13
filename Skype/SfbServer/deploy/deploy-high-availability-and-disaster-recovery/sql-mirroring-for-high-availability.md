@@ -1,5 +1,5 @@
 ---
-title: Implantar SQL espelhamento para alta disponibilidade do Servidor Back-End no Skype for Business Server 2015
+title: Implantar SQL espelhamento para alta disponibilidade do Servidor Back End no Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para que seja possível implantar o espelhamento SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: principal, espelho e testemunha. Para obter detalhes, consulte Pacote de atualização cumulativa 9 para SQL Server 2008 Service Pack 1 .'
-ms.openlocfilehash: 38c3e749b39cd510623232e9f29ace03a1c19f6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 454222526790e4185b7416c2f7df36ea024ebf5a40fc085cdc37d56dfa646217
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319484"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar SQL espelhamento para alta disponibilidade do Servidor Back-End no Skype for Business Server 2015
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar SQL espelhamento para alta disponibilidade do Servidor Back End no Skype for Business server 2015
 
 
 Para que seja possível implantar o espelhamento SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: principal, espelho e testemunha. Para obter detalhes, consulte Pacote de atualização [cumulativa 9 para SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
@@ -32,7 +32,7 @@ Em geral, a configuração do espelhamento SQL entre os dois servidores back-end
 
 - Que o principal e o espelho tenham a mesma edição do SQL Server. A testemunha pode ter uma edição diferente.
 
-Para SQL práticas recomendadas em termos de quais SQL versões são suportadas para uma função Testemunha, consulte [Database Mirroring Witness](/sql/database-engine/database-mirroring/database-mirroring-witness).
+Para SQL práticas recomendadas em termos de quais versões SQL são suportadas para uma função Testemunha, consulte [Database Mirroring Witness](/sql/database-engine/database-mirroring/database-mirroring-witness).
 
 Você usa o Construtor de Topologias para implantar SQL espelhamento. Você seleciona uma opção no Construtor de Topologias para espelhar os bancos de dados, e o Construtor de Topologia configura o espelhamento (incluindo a configuração de uma testemunha, se quiser) ao publicar a topologia. Observe que a testemunha é configurada ou removida ao mesmo tempo que o espelho. Não há um comando separado para implantar ou remover somente a testemunha.
 
@@ -61,7 +61,7 @@ Com o espelhamento SQL, você pode configurar a topologia do espelhamento no mom
 3. Publique a topologia.
 
 > [!NOTE]
-> Um compartilhamento de arquivos deve ser criado para que os arquivos espelho sejam gravados, e o serviço ao SQL Server e SQL agente está sendo executado em necessidades de acesso de leitura/gravação. Se o serviço SQL Server estiver em execução no contexto do Serviço de Rede, você poderá adicionar<SQLSERVERNAME $ dos Servidores de SQL Principal e Mirror às permissões de \<Domain\> \\ \> compartilhamento. O $ é importante para identificar que essa é uma conta de computador.
+> Um compartilhamento de arquivos deve ser criado para que os arquivos espelho sejam gravados e o serviço que SQL Server e SQL Agente estão sendo executados em necessidades de acesso de leitura/gravação. Se o serviço SQL Server estiver em execução no contexto do Serviço de Rede, você poderá adicionar<SQLSERVERNAME $ dos Servidores de SQL Principal e Mirror às permissões de \<Domain\> \\ \> compartilhamento. O $ é importante para identificar que essa é uma conta de computador.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Para configurar SQL espelhamento ao criar um pool no Construtor de Topologias
 
@@ -123,11 +123,11 @@ Lembre-se disto ao configurar o espelhamento SQL:
 
   - [O Ponto de Extremidade de Espelhamento de Banco de Dados (SQL Server)](/sql/database-engine/database-mirroring/the-database-mirroring-endpoint-sql-server)
 
-## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Usando cmdlets do Shell de Gerenciamento do Skype for Business Server 2015 para configurar SQL espelhamento
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Usando Skype for Business Server cmdlets do Shell de Gerenciamento 2015 para configurar SQL espelhamento
 
 A maneira mais fácil de configurar o espelhamento é usando o Construtor de Topologias, mas você também pode fazer isso usando cmdlets.
 
-1. Abra uma janela do Shell de Gerenciamento do Skype for Business Server 2015 e execute o seguinte cmdlet:
+1. Abra uma Skype for Business Server do Shell de Gerenciamento 2015 e execute o seguinte cmdlet:
 
    ```powershell
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose

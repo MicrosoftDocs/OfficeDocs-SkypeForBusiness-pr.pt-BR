@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17520645f23500550c6bc991c9d25ad2f72b2b6e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 87f1be3a538d708c62aef46dd673e7fd3ed5c1156c3e50c986fc9ec0753cad39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598420"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299240"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Ajuda para situações de baixa largura de banda para Teams para EDU
 
@@ -42,7 +42,7 @@ Este artigo fornecerá as melhores práticas a serem seguidas para várias ativi
 
 ## <a name="resolving-low-bandwidth-issues-for-admins"></a>Resolvendo problemas de baixa largura de banda para administradores
 
-O importante a se lembrar, como administrador de TI, é que, embora você tenha soluções para problemas de baixa largura de banda amplamente difundidos que resolverão os problemas rapidamente, as soluções devem ser consideradas com cuidado. Alguns problemas podem ser resolvidos com um enfoque mais restrito ao educador ou mesmo ao nível do aluno/pai.
+O importante a ser lembrado, como um Administrador de TI, é que, embora você tenha soluções para problemas de baixa largura de banda amplos que possam ser solucionados rapidamente, isso deve ser analisado cuidadosamente, pois alguns problemas podem ser resolvidos com um enfoque mais restrito ao educador ou mesmo ao nível do aluno/pai.
 
 Resumindo, se o problema de largura de banda baixa ocorre para um grande grupo de alunos, agir como um administrador de TI faz sentido, e também faz sentido se as ações realizadas no nível do aluno/educador não foram úteis.
 
@@ -51,7 +51,7 @@ Resumindo, se o problema de largura de banda baixa ocorre para um grande grupo d
 
 ### <a name="meetings-and-video"></a>Reuniões e vídeo
 
-Um foco principal para problemas de baixa largura de banda são as reuniões; especificamente, vídeo em reuniões. Um administrador de TI deve considerar as ações abaixo ao lidar com problemas relatados por alunos ou educadores em relação a ter a melhor experiência de reunião em um ambiente educacional.
+Um foco principal para problemas de baixa largura de banda são as reuniões; especificamente, vídeo em reuniões. Um Administrador de TI deve considerar as ações abaixo ao lidar com problemas relatados por alunos ou educadores em relação a ter a melhor experiência de reunião em um ambiente educacional.
 
 #### <a name="meeting-policies"></a>Políticas de reunião
 
@@ -91,6 +91,6 @@ Para obter mais informações, confira [Usar o Teams para a trabalhos escolares 
 
 Há situações também, e você deve discuti-las proativamente com seus professores, onde o problema de largura de banda pode estar no lado do aluno (por exemplo, um grande número de alunos pode assistir as lições de vídeo sem problemas, mas um pequeno número de alunos pode ter dificuldades).
 
-Não é razoável esperar que muitos pais consigam solucionar esses problemas. Problemas de baixa largura de banda podem estar fora do controle do aluno ou dos pais (a casa pode não ter acesso a alta largura de banda, pode haver várias pessoas em sua área imediata consumindo largura de banda e afetando o que podem fazer, pode haver instabilidade da Internet e assim em).
+Não é razoável esperar que muitos pais consigam solucionar esses problemas. Problemas de baixa largura de banda podem estar fora do controle de um aluno ou pai (sua casa pode não ter acesso à alta largura de banda, pode ter uma grande quantidade de pessoas em sua vizinhança consumindo banda e afetando o que elas podem fazer, pode haver instabilidade na Internet e assim por diante).
 
 Reunimos as diretrizes em nosso artigo [Usar o Teams para dever de casa quando a largura de banda estiver baixa](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) para pais e alunos, e, além disso, você pode revisar e testar essas recomendações se estiver tendo problemas.

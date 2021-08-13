@@ -1,5 +1,5 @@
 ---
-title: Exibir configurações de reunião no Skype for Business Server
+title: Exibir configurações de reunião em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 'Resumo: Saiba como exibir as configurações de reunião no Skype for Business Server.'
-ms.openlocfilehash: 81f5ef1bc0ce28c7741aa99529e7ba107ff4127f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6bca4edebe82cfee421ed3163006b6bbe272f41ea1da2b9a2a0aa020f503fc7f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096697"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299478"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Exibir configurações de reunião no Skype for Business Server
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Exibir configurações de reunião em Skype for Business Server
  
-**Resumo:** Saiba como exibir as configurações de reunião no Skype for Business Server.
+**Resumo:** Saiba como exibir as configurações de reunião em Skype for Business Server.
   
-Você pode exibir as configurações de reunião usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
+Você pode exibir as definições de configuração de reunião usando Skype for Business Server Painel de Controle ou usando Skype for Business Server Shell de Gerenciamento.
   
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Exibir configurações de reunião usando o Painel de Controle do Skype for Business Server
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Exibir configurações de reunião usando Skype for Business Server Painel de Controle
 <a name="BKMK_ViewJoinSettings"> </a>
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2.  Abra o Painel de Controle do Skype for Business Server.
+2.  Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação esquerda, clique **em Conferência** e em **Configuração de Reunião.**
     
@@ -42,7 +42,7 @@ Você pode exibir as configurações de reunião usando o Painel de Controle do 
     
     Para obter detalhes sobre como configurar as configurações, consulte [Create meeting configuration settings in Skype for Business Server](create-settings.md).
     
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Exibir configurações de reunião usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Exibir configurações de reunião usando Skype for Business Server Shell de Gerenciamento
 <a name="BKMK_ViewJoinSettings"> </a>
 
 Para exibir informações sobre todas as configurações de reunião, use o cmdlet **Get-CsMeetingConfiguration:**
