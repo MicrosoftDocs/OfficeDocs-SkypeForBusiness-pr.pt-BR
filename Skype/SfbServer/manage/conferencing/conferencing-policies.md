@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas de conferência no Skype for Business Server
+title: Gerenciar políticas de conferência em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
-description: 'Resumo: Saiba como gerenciar políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 39855aac09b88852d0931c9b8fbdb8e2e9187c71
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: Saiba como gerenciar políticas de conferência em Skype for Business Server.'
+ms.openlocfilehash: e3d1e9c3ef3ef50cadd5f1cce03508896cbb3950a03a889092e9fbf7d2d5b93b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301397"
 ---
-# <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Gerenciar políticas de conferência no Skype for Business Server
+# <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Gerenciar políticas de conferência em Skype for Business Server
  
-**Resumo:** Saiba como gerenciar políticas de conferência no Skype for Business Server.
+**Resumo:** Saiba como gerenciar políticas de conferência em Skype for Business Server.
   
-Este tópico descreve como gerenciar políticas de conferência. Para obter mais informações sobre como planejar e implantar a conferência, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) e Deploy [conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Este tópico descreve como gerenciar políticas de conferência. Para obter mais informações sobre como planejar e implantar conferências, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 As políticas de conferência permitem definir uma ampla variedade de opções de agendamento e participação, desde se uma reunião pode incluir áudio IP e vídeo até o número máximo de pessoas que podem participar. Você pode usar políticas de conferência para gerenciar a segurança, largura de banda e aspectos legais das reuniões.
   
@@ -31,19 +31,19 @@ Você pode definir a política de conferência em três níveis: escopo global, 
   
 Há uma política global por padrão, portanto você não pode criar uma nova política global. Você também não pode deletar a política global existente, mas pode alterar a política global existente para personalizar suas configurações padrão.
   
-## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Gerenciar políticas de conferência usando o Painel de Controle do Skype for Business Server
+## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Gerenciar políticas de conferência usando Skype for Business Server Painel de Controle
 
-Para gerenciar políticas de conferência usando o Painel de Controle do Skype for Business Server:
+Para gerenciar políticas de conferência usando Skype for Business Server Painel de Controle:
   
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2.  Abra o Painel de Controle do Skype for Business Server.
+2.  Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação esquerda, clique **em Conferência** e em Política **de Conferência.**
     
-## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Gerenciar políticas de conferência usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Gerenciar políticas de conferência usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 
-Para gerenciar reuniões usando o Shell de Gerenciamento do Skype for Business Server, use os seguintes cmdlets:
+Para gerenciar reuniões usando Skype for Business Server Shell de Gerenciamento, use os seguintes cmdlets:
   
 **Configurações de política de conferência**
 

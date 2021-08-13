@@ -1,5 +1,5 @@
 ---
-title: Usar o Painel de Controle do Skype for Business Server 2015
+title: Usar o painel Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
-description: Para obter detalhes sobre os diferentes procedimentos que podem ser realizados usando o Painel de Controle do Skype for Business Server, consulte Manage Skype for Business Server 2015.
-ms.openlocfilehash: 671852a267c9c7f04e531c5961f10df55651a10d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte Manage Skype for Business Server 2015.
+ms.openlocfilehash: a8a1dcbe1cd620807f1eb9f2af34fdcbae60784038fbaff9f0c0841ea81224d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826751"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335201"
 ---
-# <a name="use-the-skype-for-business-server-2015-control-panel"></a>Usar o Painel de Controle do Skype for Business Server 2015
+# <a name="use-the-skype-for-business-server-2015-control-panel"></a>Usar o painel Skype for Business Server 2015
  
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

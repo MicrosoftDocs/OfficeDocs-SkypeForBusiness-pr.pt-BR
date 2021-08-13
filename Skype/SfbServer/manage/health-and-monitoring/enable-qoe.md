@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: 'Resumo: saiba como habilitar a QoE (Qualidade da Experiência) no Skype for Business Server.'
-ms.openlocfilehash: 9f3e032506641cd22fbaa78054fcf6e40a72665e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como habilitar a QoE (Qualidade da Experiência) em Skype for Business Server.'
+ms.openlocfilehash: 12428d02784c858f07f8aeb937420299f0c5e1220772e19c49c388a49eef216a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095205"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301357"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Habilitar a qualidade da experiência no Skype for Business Server
 
@@ -30,11 +30,11 @@ Use o procedimento a seguir para habilitar QoE para toda sua organização ou pa
 > [!NOTE]
 > Para habilitar o QoE, é necessário primeiro configurar o monitoramento e um back-end de monitoramento. Para obter detalhes, consulte [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring).
 
-### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>Para habilitar a QoE usando o Painel de Controle do Skype for Business Server
+### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>Para habilitar a QoE usando Skype for Business Server Painel de Controle
 
-1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou Skype for Business Server.
 
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle.
 
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e em **Dados da Qualidade da Experiência**.
 
@@ -42,7 +42,7 @@ Use o procedimento a seguir para habilitar QoE para toda sua organização ou pa
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Habilitando a QoE usando Windows PowerShell Cmdlets
 
-Você pode habilitar a QoE usando Windows PowerShell e o cmdlet **Set-CsQoEConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+Você pode habilitar a QoE usando Windows PowerShell e o cmdlet **Set-CsQoEConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 Usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>Para habilitar o QoE para um único local
 

@@ -20,20 +20,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
-ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
+ms.openlocfilehash: d753b93d248a84632f4ce606ca6b31a1a25c39f089e798c0791c4517156c85e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321393"
 ---
 # <a name="edit-guest-user-information"></a>Editar informações do usuários convidados
 
-Você pode editar informações de convidados do centro de administração Microsoft 365 ou do portal Azure Active Directory local.
+Você pode editar informações de convidados do Centro de administração do Microsoft 365 ou do portal Azure Active Directory.
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Usuários convidados no Microsoft 365 administrador
 
-1. Para editar as informações de convidados no centro de administração [Microsoft 365,](https://admin.microsoft.com)selecione **Usuários**  >  **Convidados Usuários**.
+1. Para editar as informações de convidados no [Centro de administração do Microsoft 365](https://admin.microsoft.com), selecione **Usuários**  >  **Convidados Usuários**.
 
    ![As informações do usuário convidado que estão sendo editadas](media/access-guest-user.png)
 

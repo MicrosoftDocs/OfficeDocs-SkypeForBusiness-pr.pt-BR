@@ -18,12 +18,12 @@ localization_priority: Priority
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 136cca899b0c79b549ee9ae890e90f1e84c04eaa
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 96077e5b50dff12f29f6e1ccf903cd0f7de96352dacf0d8b3c2cc7406750737e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321133"
 ---
 # <a name="teams-update-process"></a>Processo de atualização do Teams
 
@@ -31,7 +31,7 @@ O aplicativo Web do Teams é atualizado semanalmente.
 
 As atualizações do cliente de área de trabalho do Teams são lançadas a cada duas semanas após rigorosos testes internos e validação por meio de nosso Programa de Adoção de Tecnologia (TAP). A atualização geralmente ocorre em uma Terça-feira. Se uma atualização crítica for necessária, o Teams ignorará essa programação e lançará a atualização assim que estiver disponível.
 
-O cliente de área de trabalho se atualiza automaticamente. O Teams verifica se há atualizações a cada poucas horas nos bastidores, faz o download e espera que o computador fique ocioso antes de instalar a atualização silenciosamente.
+O cliente da área de trabalho se atualiza automaticamente. O Teams verifica se há atualizações a cada algumas horas nos bastidores, baixa-as e aguarda até que o computador esteja ocioso antes de instalar silenciosamente a atualização.
 
 Os usuários também podem baixar as atualizações manualmente selecionando **Verificar se há atualizações** no menu suspenso **Perfil** no canto superior direito do aplicativo. Se houver uma atualização disponível, ela será baixada e instalada silenciosamente quando o computador estiver ocioso.
 

@@ -10,31 +10,31 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: O Skype for Business Server oferece suporte a chamadas Aprimoradas 9-1-1 (E9-1-1) de clientes do Skype for Business. Quando você configura o Skype for Business Server para e9-1-1, as chamadas de emergência feitas do Skype for Business incluem informações de Local de Resposta de Emergência (ERL) do banco de dados de serviço informações de local.
-ms.openlocfilehash: 4b786d3285b5075a13f43f3b7c7cb75b79182a9f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server suporta a chamada Aprimorada 9-1-1 (E9-1-1) de Skype for Business clientes. Quando você configura o Skype for Business Server para E9-1-1, as chamadas de emergência feitas a partir do Skype for Business incluem informações de Local de Resposta de Emergência (ERL) do banco de dados de serviço informações de local.
+ms.openlocfilehash: 03fee1a411b88e51f0b994de7bba65ba3f2d3edfecb14d004e6a7f98842002ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099057"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297277"
 ---
-# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gerenciar o 9-1-1 aprimorado e o serviço De localização no Skype for Busines Server
+# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gerenciar o 9-1-1 aprimorado e o serviço de localização no Skype para o Busines Server
 
-O Skype for Business Server oferece suporte a chamadas Aprimoradas 9-1-1 (E9-1-1) de clientes do Skype for Business. Quando você configura o Skype for Business Server para e9-1-1, as chamadas de emergência feitas do Skype for Business incluem informações de Local de Resposta de Emergência (ERL) do banco de dados de serviço informações de local. Use os procedimentos deste artigo para gerenciar a política de local.
+Skype for Business Server suporta a chamada Aprimorada 9-1-1 (E9-1-1) de Skype for Business clientes. Quando você configura o Skype for Business Server para E9-1-1, as chamadas de emergência feitas a partir do Skype for Business incluem informações de Local de Resposta de Emergência (ERL) do banco de dados de serviço informações de local. Use os procedimentos deste artigo para gerenciar a política de local.
 
 > [!Note]
 > Para obter detalhes sobre como implantar recursos de Enterprise Voice avançados, como o E9-1-1 e o serviço informações de local, consulte [Deploy advanced Enterprise Voice features](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md).
 
 No Skype for Business Server, você pode usar a política de local para aplicar configurações relacionadas à funcionalidade Avançada 9-1-1 (E9-1-1) e às configurações de local para usuários ou contatos. A política de local determina se o usuário está habilitado para o E9-1-1 e, se estiver, qual vai ser o comportamento de uma chamada de emergência. Por exemplo, é possível usar a política de local para definir o número que constitui uma chamada de emergência (911 nos Estados Unidos), se a segurança da empresa deve ser automaticamente notificada e como a chamada é roteada.
 
-Você pode configurar políticas de local do grupo **Configuração de** Rede no Painel de Controle do Skype for Business Server. No Painel de Controle do Skype for Business Server, você pode exibir, criar, modificar ou excluir políticas de local. Use o procedimento a seguir para exibir informações sobre políticas de localização. 
+Você pode configurar políticas de local a partir do grupo **Configuração** de Rede no Painel Skype for Business Server Controle. No painel Skype for Business Server controle você pode exibir, criar, modificar ou excluir políticas de local. Use o procedimento a seguir para exibir informações sobre políticas de localização. 
 
 
 ## <a name="view-location-policy-information"></a>Exibir informações da política de local 
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local.**
 
@@ -50,14 +50,14 @@ Uma política única, chamada de Global, existe por padrão e não pode ser excl
 
 ## <a name="create-or-modify-a-location-policy"></a>Criar ou modificar uma política de local 
 
-No Skype for Business Server, você pode substituir o tempo padrão entre solicitações de cliente para uma atualização de local do serviço Informações de Local. O valor padrão é de 4 horas. Use o cmdlet **Set-CsLocationPolicy** com o parâmetro LocationRefreshInterval para substituir o valor padrão.
+Em Skype for Business Server, você pode substituir o tempo padrão entre solicitações de cliente para uma atualização de local do serviço Informações de Local. O valor padrão é de 4 horas. Use o cmdlet **Set-CsLocationPolicy** com o parâmetro LocationRefreshInterval para substituir o valor padrão.
 
 
-### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>Para criar uma nova política de local no Painel de Controle do Skype for Business Server
+### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>Para criar uma nova política de local no painel Skype for Business Server Controle
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local.**
 
@@ -69,7 +69,7 @@ No Skype for Business Server, você pode substituir o tempo padrão entre solici
 
 5.  Preencha os campos restantes da seguinte forma:
     
-      - **Habilitar serviços de emergência aprimorados**   Marque essa caixa de seleção para habilitar os usuários associados a essa política para E9-1-1. Quando os serviços de emergência são habilitados, os clientes do Skype for Business Server recuperarão informações de local no registro e incluirão essas informações quando uma chamada de emergência for feita.
+      - **Habilitar serviços de emergência aprimorados**   Marque essa caixa de seleção para habilitar os usuários associados a essa política para E9-1-1. Quando os serviços de emergência estão habilitados, Skype for Business Server clientes recuperarão informações de local no registro e incluirão essas informações quando uma chamada de emergência for feita.
     
       - **Local**   Especifique um dos seguintes valores:
         
@@ -77,10 +77,10 @@ No Skype for Business Server, você pode substituir o tempo padrão entre solici
         
           - **Não obrigatório**   O usuário não será solicitado a localizar. Quando uma chamada é feita sem informações de local, o provedor de serviços de emergência responderá à chamada e solicitará um local.
         
-          - **Aviso de isenção de responsabilidade**   Essa opção é a mesma que **Obrigatório,** exceto que o usuário não pode descartar o prompt sem inserir informações de local. O usuário ainda pode concluir uma chamada de emergência, mas nenhuma outra chamada pode ser concluída sem inserir as informações. Além disso, o texto de aviso de isenção de responsabilidade será exibido para o usuário que pode alertá-lo sobre as consequências do declínio para inserir informações de local. Para definir o texto de aviso de isenção de responsabilidade, você deve usar o Shell de Gerenciamento do Skype for Business Server para executar o cmdlet **Set-CsLocationPolicy** ou o cmdlet **New-CsLocationPolicy** com o parâmetro EnhancedEmergencyServiceDisclaimer. Para obter detalhes, [consulte Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
+          - **Aviso de isenção de responsabilidade**   Essa opção é a mesma que **Obrigatório,** exceto que o usuário não pode descartar o prompt sem inserir informações de local. O usuário ainda pode concluir uma chamada de emergência, mas nenhuma outra chamada pode ser concluída sem inserir as informações. Além disso, o texto de aviso de isenção de responsabilidade será exibido para o usuário que pode alertá-lo sobre as consequências do declínio para inserir informações de local. Para definir o texto de isenção de responsabilidade, você deve usar o Shell de Gerenciamento Skype for Business Server para executar o cmdlet **Set-CsLocationPolicy** ou o cmdlet **New-CsLocationPolicy** com o parâmetro EnhancedEmergencyServiceDisclaimer. Para obter detalhes, [consulte Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
           
     
-      - **Usar apenas o local para serviços de emergência** O Skype for Business pode usar informações de local por vários motivos (por exemplo, para notificar os colegas de equipe do seu local atual). Marque essa caixa de seleção para garantir que as informações de local estão disponíveis apenas para uso com uma chamada de emergência.
+      - **Use o local para serviços** de emergência Skype for Business pode usar informações de local por vários motivos (por exemplo, para notificar os colegas de equipe sobre sua localização atual). Marque essa caixa de seleção para garantir que as informações de local estão disponíveis apenas para uso com uma chamada de emergência.
     
       - **Uso de PSTN**   O uso de PSTN (rede telefônica pública comutado) que será usado para determinar qual rota de voz será usada para rotear chamadas de emergência de clientes que usam esse perfil. A rota associada a esse uso deve apontar para um tronco SIP dedicado a chamadas de emergência ou a um gateway de Emergency Location Identification Number (ELIN) que encaminha as chamadas de emergência ao Public Safety Answering Point (PSAP) mais próximo.
     
@@ -110,11 +110,11 @@ No Skype for Business Server, você pode substituir o tempo padrão entre solici
     > Quando você cria uma política de usuário, inicialmente essa política não se aplica a nenhum usuário ou sites de rede. Para aplicar a política a um usuário, clique **em Usuários** na barra de navegação esquerda. Encontre o usuário ao qual você deseja aplicar a política. No painel **Ações**, clique em **Mostrar detalhes**. Na página **Editar Usuário do Servidor,** selecione  a nova política de local na listada lista listada da política de local e clique em **Confirmação**.<BR>Para aplicar a política a um site de rede, clique em **Configuração** de Rede na barra de navegação esquerda e clique em **Site**. Encontre o site de rede ao qual você deseja aplicar a política. No painel **Ações**, clique em **Mostrar detalhes**. Em **Editar Site,** selecione a  nova política de local na listada lista listada da política de local e clique em **Confirmação**.
 
 
-### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Para modificar uma política de local no Painel de Controle do Skype for Business Server
+### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Para modificar uma política de local no painel Skype for Business Server Controle
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local.**
 
@@ -132,7 +132,7 @@ No Skype for Business Server, você pode substituir o tempo padrão entre solici
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local.**
 

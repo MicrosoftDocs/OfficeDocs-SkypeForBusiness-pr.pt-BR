@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Esta seção aborda os tópicos de planejamento para migrar para o Skype for Business Server 2019.
-ms.openlocfilehash: 312a8ef1dcf5beb1a0d23fe0df58a3916d66981f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Esta seção aborda os tópicos de planejamento para migrar para Skype for Business Server 2019.
+ms.openlocfilehash: b7e6b72de69dafbf6218196c23eec82cbb7ad33c2996185e6cbbc70cd16fd0d1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300587"
 ---
 # <a name="phase-1-plan-your-migration"></a>Fase 1: Planejar sua migração
 
-Esta seção aborda os tópicos de planejamento para migrar para o Skype for Business Server 2019. 
+Esta seção aborda os tópicos de planejamento para migrar para Skype for Business Server 2019. 
   
 ## <a name="in-this-section"></a>Nesta seção
 

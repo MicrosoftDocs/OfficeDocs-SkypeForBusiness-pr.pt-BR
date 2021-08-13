@@ -16,16 +16,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd3e60fafecd3cf025187935a9dc28b492c39d1b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f8521de23466f0551d9c09e072aa0b10b487bbedd6ed473e4ff2a9997f456d28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121409"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346307"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Visão geral da implantação do Microsoft Teams empresarial
 
-Se você for uma empresa de médio ou grande porte, pense em como implantará o serviço para seus usuários, como implantará o cliente do Microsoft Teams para eles, como seu design de rede pode afetar a qualidade da comunicação em tempo real e assim por diante. Confira as seções a seguir para ver sugestões de artigos que ajudarão você a planejar para o Teams em sua organização.
+Se você for uma empresa de médio ou grande porte, precisará pensar em como implantará o serviço para seus usuários, como implantará o cliente do Microsoft Teams neles, como seu design de rede pode afetar a qualidade da comunicação em tempo real e assim por diante. Confira as seções a seguir para obter indicações de artigos que ajudarão você a planejar o Teams em sua organização.
 
 > [!NOTE]
 > Se você ainda não fez isso, sugerimos que você inicie a implantação do Teams com um piloto. Um piloto permitirá que você e alguns dos primeiros adotantes se familiarizem com o Teams e suas características antes do seu planejamento e eventual lançamento. Para obter mais informações sobre como iniciar seu piloto, consulte [Começar a usar o Microsoft Teams](get-started-with-teams-quick-start.md).

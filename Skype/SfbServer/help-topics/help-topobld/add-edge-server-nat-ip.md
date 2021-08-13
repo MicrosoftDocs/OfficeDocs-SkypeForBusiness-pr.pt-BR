@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
-description: O endereço IP público é o endereço IP usado pela NAT (conversão de endereço de rede). O endereço IP deve ser publicamente roteável. Isso é necessário porque você selecionou O endereço IP externo deste pool de Borda é convertido pela opção NAT na página Selecionar recursos deste assistente.
-ms.openlocfilehash: cf5cb61dce8d71e97ba3977e241df4480c30a403
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: O endereço IP público é o endereço IP utilizado pela NAT (conversão de endereços de rede). O endereço IP deve ser publicamente roteável, porque você selecionou a opção O endereço IP externo deste pool de Borda é convertido pela NAT na página Selecionar recursos deste assistente.
+ms.openlocfilehash: c4f49f9677ff6f636ae165dc72280828a63e30d5281b40adc2a0abdbab0027a9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335211"
 ---
 # <a name="add-edge-server-nat-ip"></a>Adicionar IP NAT de Servidor de Borda
 
@@ -29,4 +29,4 @@ O endereço IP público é o endereço IP utilizado pela NAT (conversão de ende
 > [!NOTE]
 > NAT (Conversão de Endereço de Rede) permite que clientes ou servidores em uma rede privada (por exemplo, na faixa 192.168.0.0) se comuniquem com sistemas em redes remotas via redes públicas de Internet. NAT funciona utilizando um único endereço IP público em uma interface externa e associando os endereços IP internos com o endereço IP público. O mapeamento NAT mapeia um endereço interno ao endereço IP público externo. O sistema remoto vê apenas o endereço público da fonte. O sistema remoto responde à fonte e a fonte consulta o mapa NAT para determinar para qual endereço IP interno a resposta deve ser retornada.
 
-É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior. Para obter detalhes sobre como adicionar Servidores de Borda a uma topologia existente, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) na documentação Implantação do Servidor de Borda.
+É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior. Para obter detalhes sobre como incluir Servidores de Borda na topologia existente, consulte  [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology), na documentação de Implantação do Servidor de Borda.

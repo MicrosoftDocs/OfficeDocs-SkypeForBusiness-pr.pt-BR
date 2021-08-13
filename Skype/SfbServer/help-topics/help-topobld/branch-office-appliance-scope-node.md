@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), pools e servidores associados e informações de resiliência sobre esse Aparelho de FilialVivível. É possível executar as seguintes ações:'
-ms.openlocfilehash: 5a8d23759d7cec93f606fed91e5bba869abf1399
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), pools e servidores associados e informações de resiliência sobre esse Aparelho de Filial Desavivável. É possível executar as seguintes ações:'
+ms.openlocfilehash: d366ddc4343b9feeb5f42c03e4c45c958711501c7d73e53277a225e3cd218ce1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301527"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nó de Escopo de Aparelho de Filial
  
-Este nó mostra o FQDN (nome de domínio totalmente qualificado), pools e servidores associados e informações de resiliência sobre esse Aparelho de FilialVivível. É possível executar as seguintes ações:
+Este nó mostra o FQDN (nome de domínio totalmente qualificado), pools e servidores associados e informações de resiliência sobre esse Aparelho de Filial Desavivável. É possível executar as seguintes ações:
   
-- **Editar Propriedades**. Abre  a página Editar Propriedades deste Aparelho de FilialVivível, onde você pode alterar o FQDN (se a topologia ainda não tiver sido publicada), as associações e as configurações de resiliência.
+- **Editar Propriedades**. Abre a página Editar **Propriedades** para este Aparelho de Filial Desavivável, onde você pode alterar o FQDN (se a topologia ainda não tiver sido publicada), as associações e as configurações de resiliência.
     
 - **Excluir**. Exclui o servidor da topologia.
     

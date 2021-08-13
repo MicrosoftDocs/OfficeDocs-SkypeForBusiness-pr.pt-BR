@@ -15,49 +15,49 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Você controla quem pode convidar usuários anônimos, configurando uma política de conferência para dar suporte a usuários anônimos e aplicando-a a usuários específicos.
-ms.openlocfilehash: 57d100569722cbe89811d15eb9fbe04e5d375711
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 371f1b94dcf1bfe3f99b734fc7c244fbee29c855c5900d1f9cf5683a85a7d6db
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817451"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297247"
 ---
-# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Atribuir políticas de conferência para dar suporte a usuários anônimos no Skype for Business Server 
+# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Atribuir políticas de conferência para dar suporte a usuários anônimos Skype for Business Server 
 
 
-Por padrão, todos os usuários são impedidos de convidar usuários anônimos a participar de uma reunião. Você controla quem pode convidar usuários anônimos, configurando uma política de conferência para dar suporte a usuários anônimos e aplicando-a a usuários específicos. Para obter detalhes sobre como configurar uma política de conferência para suportar usuários anônimos, consulte Criar políticas de conferência no [Skype for Business Server](../../conferencing/create-policies.md) e gerenciar federação e acesso externo ao Skype for Business [Server.](../managing-federation-and-external-access.md)
+Por padrão, todos os usuários são impedidos de convidar usuários anônimos a participar de uma reunião. Você controla quem pode convidar usuários anônimos, configurando uma política de conferência para dar suporte a usuários anônimos e aplicando-a a usuários específicos. Para obter detalhes sobre como configurar uma política de conferência para dar suporte a usuários anônimos, consulte [Create conferencing policies in Skype for Business Server](../../conferencing/create-policies.md) and Managing federation and external access to [Skype for Business Server](../managing-federation-and-external-access.md).
 
-Use o procedimento nesta seção para aplicar uma política de conferência que você já tenha criado para um ou mais usuários ou grupos de usuários.
+Use o procedimento nesta seção para aplicar uma política de conferência que você já criou a um ou mais usuários ou grupos de usuários.
 
 > [!NOTE]  
-> Além de configurar e aplicar uma política para permitir que os usuários convidem usuários anônimos, você também deve habilitar o suporte para usuários anônimos da sua organização. Para obter detalhes, [consulte Configurar políticas para controlar o acesso de usuário público no Skype for Business Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+> Além de configurar e aplicar uma política para permitir que os usuários convidem usuários anônimos, você também deve habilitar o suporte para usuários anônimos para sua organização. Para obter detalhes, consulte [Configure policies to control public user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 
 ## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>Para configurar uma política de usuário para participação anônima em reuniões
 
-1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação esquerda, clique em **Conferência** e siga um destes procedimentos:
     
-    1.  Para criar uma nova política de usuário, clique em **Nova** e em **Política de usuário**. Crie um nome  exclusivo no campo Nome que indique o que a política de usuário cobre (por exemplo, **EnableAnonymous** para uma política de usuário que permite comunicações com usuários anônimos).
+    1.  Para criar uma nova política de usuário, clique em **Nova** e em **Política de usuário**. Crie um nome exclusivo no campo **Nome** que indica o que a política de usuário abrange (por exemplo, **EnableAnonymous** para uma política de usuário que habilita as comunicações com usuários anônimos).
     
     2.  Para configurar uma política de usuário existente, clique na política apropriada listada na tabela, clique em **Editar** e em **Mostrar detalhes.**
 
-4.  Na caixa **de diálogo Políticas** de Conferência, marque a caixa de seleção Permitir que os participantes **convidem usuários anônimos.**
+4.  Na caixa **de diálogo Políticas de** Conferência, marque a caixa de seleção Permitir que os participantes **convidem usuários anônimos.**
 
 5.  Clique em **Confirmar**.
 
-6.  Na barra de navegação esquerda, clique **em Usuários,** pesquise a conta de usuário que você deseja configurar.
+6.  Na barra de navegação esquerda, clique em **Usuários**, pesquise na conta de usuário que você deseja configurar.
 
 7.  Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
 
-8.  Em **Editar Usuário do Skype for Business Server** em **Política** de Conferência, selecione a política de usuário com a configuração de acesso de usuário anônimo que você deseja aplicar a esse usuário.  
+8.  Em **Editar Skype for Business Server Usuário** em **Política** de Conferência, selecione a política de usuário com a configuração de acesso de usuário anônimo que você deseja aplicar a esse usuário.  
 
     > [!NOTE]  
     > As <STRONG> &lt; configurações &gt; </STRONG> automáticas aplicam as configurações de instalação padrão do servidor e são aplicadas automaticamente pelo servidor.
 
 
-Para habilitar usuários para convidar usuários anônimos para conferências, você também deve habilitar o suporte para usuários anônimos em sua organização. Para obter detalhes, [consulte Configurar políticas para controlar o acesso de usuário público no Skype for Business Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+Para habilitar usuários para convidar usuários anônimos para conferências, você também deve habilitar o suporte para usuários anônimos em sua organização. Para obter detalhes, consulte [Configure policies to control public user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
