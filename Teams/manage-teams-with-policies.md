@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319944"
 ---
 # <a name="manage-teams-with-policies"></a>Gerenciar Teams com políticas
 
@@ -52,9 +52,9 @@ Além disso, uma política de reunião pode ser usada para controlar configuraç
 
 ### <a name="teams-for-education"></a>Teams para o ensino
 
-Você também pode usar o assistente de [política Teams educação](easy-policy-setup-edu.md) para configurar e gerenciar facilmente políticas para seu ambiente de aprendizagem.
+Você também pode usar o assistente [de Teams para Educação de](easy-policy-setup-edu.md) política para configurar e gerenciar facilmente políticas para seu ambiente de aprendizagem.
 
-![Captura de tela Teams assistente de política de Educação.](media/easy-policy-setup-quick-setup.png)
+![Captura de tela do Teams para Educação de política.](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>Tipos de políticas
 
@@ -74,4 +74,4 @@ Tipo de política | Descrição
 * [Gerenciar políticas de comentários em Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Gerenciar políticas de equipes em Microsoft Teams](teams-policies.md)
 * [Prepare-se para eventos ao vivo no Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams políticas e pacotes de políticas educacionais](policy-packages-edu.md)
+* [Teams para Educação políticas e pacotes de política](policy-packages-edu.md)

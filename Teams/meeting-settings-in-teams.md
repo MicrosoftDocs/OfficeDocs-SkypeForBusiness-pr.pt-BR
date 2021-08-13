@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c859cfe3b062bcf8ad379544078684624a6586cc6d528ac0dce6493de8004a0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319864"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -74,7 +74,7 @@ Você deve ser um administrador de serviço do Teams para acessar esta configura
 
 ## <a name="customize-meeting-invitations"></a>Personalizar convites para reuniões
 
-Você pode personalizar os convites para reuniões do Teams para atender às necessidades da sua organização. Você pode adicionar o logotipo da sua organização e incluir informações úteis, como links para o site de suporte, aviso legal e um rodapé somente texto.
+Você pode personalizar os convites de reunião do Teams para atender às necessidades da sua organização. Você pode adicionar o logotipo da sua organização e incluir informações úteis, como links para seu site de suporte e aviso de isenção de responsabilidade legal e um rodapé somente texto.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Dicas para criar um logotipo para convites de reuniões  
 
@@ -82,7 +82,7 @@ Você pode personalizar os convites para reuniões do Teams para atender às nec
 2. Salve a imagem no formato JPG ou PNG.
 3. Armazene a imagem em um local que todos os que receberem o convite possam acessar, como um site público.
 
-    Agora você pode adicioná-la aos seus convites para reuniões. Veja os próximos passos.
+    Agora você pode adicioná-la aos seus convites para reuniões. Veja as próximas etapas.
 
 ### <a name="customize-your-meeting-invitations"></a>Personalize seus convites para reuniões
 

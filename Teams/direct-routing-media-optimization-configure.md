@@ -1,5 +1,5 @@
 ---
-title: Configurar a otimização de mídia local para roteamento direto Teams
+title: Otimização de mídia local de roteamento direto
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurar a Otimização de Mídia Local para Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53296b54cd55d6444f665476de020be1ee314e807f905d561ee181e50486333
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 9b617ab6721b940756f1d2bc8c758f1eff39e38463dd01380bef9cebb48f09c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848636"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318484"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurar a Otimização de Mídia Local para Roteamento Direto
 
@@ -111,7 +111,7 @@ Todos os parâmetros são sensíveis a minúsculas, portanto, você precisa gara
 
 ### <a name="define-network-regions"></a>Definir regiões de rede
 
-Para definir regiões de rede, use o cmdlet New-CsTenantNetworkRegion de rede. O parâmetro RegionID é um nome lógico que representa a geografia da região e não tem dependências ou restrições. O parâmetro CentralSite `<site ID>` é opcional.
+Para definir regiões de rede, use o cmdlet New-CsTenantNetworkRegion de rede. O parâmetro RegionID é um nome lógico que representa a geografia da região e não tem dependências ou restrições. O parâmetro CentralSite <site ID> é opcional.
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -262,19 +262,19 @@ Observação: Como um usuário pode ter vários pontos de extremidade, o suporte
 
 O diagrama a seguir mostra a lista SIP para chamada de entrada com o modo AlwaysBypass e o usuário está no mesmo local que o SBC.
 
-![Diagrama mostrando a escala SIP.](media/direct-routing-media-op-11.png)
+![Diagrama mostrando a tabela SIP](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>Chamadas de saída e o usuário é externo com Sempre Ignorar
 
 | Modo |    Usuário |  Site |  Direção da chamada
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externo |  N/D | Saída |
+AlwaysBypass |  Externo |  Não disponível | Saída |
 
 
 O diagrama a seguir mostra a escala SIP para uma chamada de saída com o modo AlwaysBypass e o usuário é externo:
 
-![O diagrama mostra a escala SIP.](media/direct-routing-media-op-12.png)
+![Diagrama mostrando a tabela SIP](media/direct-routing-media-op-12.png)
 
 A tabela a seguir mostra os headers X-MS enviados pelo serviço de Roteamento Direto:
 
@@ -288,13 +288,13 @@ A tabela a seguir mostra os headers X-MS enviados pelo serviço de Roteamento Di
 
 | Modo | Usuário | Site |  Direção da chamada |
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externo |  N/D |   Entrada |
+AlwaysBypass |  Externo |  Não disponível |   Entrada |
 
 Para uma chamada de entrada, o SBC conectado ao Roteamento Direto precisa enviar um novo convite (por padrão, os candidatos de mídia local sempre são oferecidos) se o local do usuário for externo.  O X-MediaPath é calculado com base Record-Route e o usuário SBC especificado.
 
 O diagrama a seguir mostra a escala SIP para uma chamada de entrada com o modo AlwaysBypass e o usuário é externo.
 
-![Diagrama novamente mostrando a escala SIP.](media/direct-routing-media-op-13.png)
+![Diagrama mostrando a tabela SIP](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>Somente para o modo de usuários locais
@@ -322,7 +322,7 @@ A tabela a seguir mostra a configuração e a ação do usuário final:
 
 O diagrama a seguir mostra uma chamada de saída com o modo OnlyForLocalUsers e o usuário está no mesmo local que o SBC. Esse é o mesmo fluxo mostrado em chamadas de saída quando o usuário está no [mesmo local que o SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
-![O diagrama novamente mostra a escala SIP.](media/direct-routing-media-op-14.png)
+![Diagrama mostrando a tabela SIP](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>Chamadas de entrada e o usuário está no mesmo local que o SBC com Somente para usuários locais
@@ -333,7 +333,7 @@ O diagrama a seguir mostra uma chamada de saída com o modo OnlyForLocalUsers e 
 
 O diagrama a seguir mostra uma chamada de entrada com o modo OnlyForLocalUsers e o usuário está no mesmo local que o SBC. Esse é o mesmo fluxo mostrado em chamadas de entrada quando o usuário está no [mesmo local que o SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
-![Outro diagrama mostrando a escala SIP.](media/direct-routing-media-op-15.png)
+![Diagrama mostrando a tabela SIP](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>O usuário não está no mesmo local que o SBC, mas está na rede corporativa com Somente para usuários locais
@@ -347,7 +347,7 @@ O roteamento direto calcula o X-MediaPath com base no local relatado do usuário
 
 O diagrama a seguir mostra uma chamada de saída com o modo OnlyForLocalUsers e um usuário interno que não está no mesmo local que o SBC.
 
-![Outro diagrama mostra a escala SIP.](media/direct-routing-media-op-16.png)
+![Diagrama mostrando a tabela SIP](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>Chamada de entrada e o usuário é interno, mas não está no mesmo local que o SBC com Somente para usuários locais
@@ -358,7 +358,7 @@ O diagrama a seguir mostra uma chamada de saída com o modo OnlyForLocalUsers e 
 
 O diagrama a seguir mostra uma chamada de entrada com o modo OnlyForLocalUsers e um usuário interno que não está no mesmo local que o SBC.
 
-![Outro diagrama mostrando a escala SIP.](media/direct-routing-media-op-17.png)
+![Diagrama mostrando a tabela SIP](media/direct-routing-media-op-17.png)
 
 
 

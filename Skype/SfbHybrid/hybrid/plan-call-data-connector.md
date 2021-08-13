@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso Skype for Business de telemetria online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318066"
 ---
 # <a name="plan-call-data-connector"></a>Conector de Dados do Plano de Chamada
 
@@ -56,7 +56,7 @@ Para obter mais informações, consulte [Call Analytics and Call Quality Dashboa
 
 ![SfB Caixa postal na Nuvem](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Os requisitos a seguir pressuem que você já Skype for Business Server implantado em uma topologia com suporte.  Para obter mais informações sobre como implantar Skype for Business Server topologias com suporte, consulte [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md). Para configurar o Conector de Dados de Chamada, você deve:
 

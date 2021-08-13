@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c665b96c0c44c2ea763c343bb2857d4c2b9dbb26
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e33e31c5fc6b005459e8b216a2cfec984b80e73dc821d4e13fcaac0d02acf86
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319674"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Exemplo de script do PowerShell, criar e atribuir uma política de mensagens
 
 Use este script do PowerShell para criar uma política de mensagens no Microsoft Teams e atribuí-la aos usuários. 
 
-Para obter mais informações sobre como usar esse script do PowerShell, consulte [Início rápido - Teams para Educação](../teams-quick-start-edu.yml).
+Para obter mais informações sobre como usar esse script do PowerShell, consulte Início rápido [- Teams para Educação](../teams-quick-start-edu.yml).
 
 Este script usa o cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que está no módulo Skype for Business PowerShell Online. Consulte [Teams visão geral do PowerShell](../teams-powershell-overview.md) para saber mais sobre como gerenciar Teams usando o PowerShell.
 

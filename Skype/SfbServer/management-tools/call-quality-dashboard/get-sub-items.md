@@ -12,32 +12,32 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: 'Resumo: saiba mais sobre a operação Sub-Items obter, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
-ms.openlocfilehash: defb0b898c5101513cbb4f6da4382a8bb43bce6e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre a operação Obter Sub-Items, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
+ms.openlocfilehash: 7b68262b3bcfdb9e16d1e9b07750e12b1c5a08b901cfe93f905df8bfb32bb9b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832501"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333283"
 ---
 # <a name="get-sub-items"></a>Obter os Subitens
  
-**Resumo:** Saiba mais sobre a operação Sub-Items obter, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Sub-Items, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
   
-A operação Obter Sub-Items é parte do Serviço de Item na API de Repositório para Painel de Qualidade de Chamada.
+A operação Obter Sub-Items faz parte do Serviço de Item na API de Repositório para Painel de Qualidade de Chamada.
   
 ## <a name="get-sub-items"></a>Obter os Subitens
 
-Get Sub-Items retorna sub-itens de um Item específico.
+Obter Sub-Items retorna os sub-itens de um Item específico.
   
 
-|**Method**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}/subtentem  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repositório/item/{itemId}/subitem  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** - Nenhum.
+ **Parâmetros URI** - Nenhum.
   
- **Solicitação de headers** - nenhum outro.
+ **Headers de solicitação** - Sem headers adicionais.
   
  **Corpo da Solicitação** - Nenhum.
   
@@ -45,9 +45,9 @@ Get Sub-Items retorna sub-itens de um Item específico.
   
  **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK). Se uma ID de usuário especificada não for encontrada, ela retornará o código de status 404 (Não Encontrado).
   
- **Response Headers** - Sem outros headers.
+ **Headers de resposta** - Sem headers adicionais.
   
- **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON.
+ **Corpo da Resposta** - Abaixo está uma carga de resposta de exemplo no JSON.
   
 > [!NOTE]
 > Uma matriz do objeto Item é retornada. 
@@ -65,13 +65,13 @@ Get Sub-Items retorna sub-itens de um Item específico.
 }]
 ```
 
-O objeto Item retornado pela Sub-Items contém apenas os três campos a seguir. 
+O objeto Item retornado pela operação Sub-Items contém apenas os três campos a seguir. 
   
  *itemId*  - ID do item.
   
- *userId*  - ID do usuário que possui este Item.
+ *userId*  - ID do Usuário que é o proprietário deste Item.
   
- *tipo*  - O tipo do conteúdo. Esse campo é definido pelos aplicativos.
+ *type*  - O tipo do conteúdo. Esse campo é definido pelos aplicativos.
   
 > [!NOTE]
 >  `Content` e `subItems` os campos não são incluídos na resposta para reduzir a quantidade de dados transmitidos pela rede.

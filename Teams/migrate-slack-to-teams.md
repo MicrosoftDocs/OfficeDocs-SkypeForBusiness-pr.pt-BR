@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Orientação completa para migrar do Slack para o Microsoft Teams.
-ms.openlocfilehash: b1e04a0dc8c829ed938b925e498e2716529356f9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 63bb33e225a45710ee0c2ef2a8bc2ddd51adda32c1881b31f20829067baa0783
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098357"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319834"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrar do Slack para o Microsoft Teams
 
@@ -37,7 +37,7 @@ O diagrama a seguir mostra a arquitetura do Slack em alto nível.
 
 ## <a name="plan-your-migration-from-slack"></a>Planeje sua migração do Slack
 ### <a name="what-you-can-and-cant-migrate"></a>O que pode e não pode migrar
-O seu plano de serviço do Slack determinará o que pode e não pode migrar. Por exemplo, alguns planos de serviço do Slack permitem exportar apenas arquivos e histórico de canais públicos, outros exigem uma solicitação do DocuSign para incluir Canais Privados e Mensagens Diretas. 
+Seu plano de serviço do Slack determinará o que você pode ou não migrar. Por exemplo, alguns planos de serviço do Slack só permitem exportar arquivos e histórico de canais públicos, outros exigem uma solicitação do DocuSign para incluir Canais Privados e Mensagens Diretas. 
 
 Para determinar o nível de serviço do seu Slack Workspace, faça logon no Slack e observe o tipo de plano na página **Sobre este Workspace**.
 
@@ -69,7 +69,7 @@ Se você possui um plano de serviço pago do Slack (qualquer outro que não seja
 Para saber mais sobre as opções de exportação do Slack, vá para o site do Slack: https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
 > [!IMPORTANT]
-> Verifique os requisitos de privacidade e conformidade da sua organização em relação aos dados do canal. Sua organização pode ter requisitos de conformidade em relação ao manuseio, armazenamento e processamento desses dados, além de cumprir o ciclo de vida do conteúdo identificável do usuário final (EUII).
+> Verifique os requisitos de privacidade e conformidade da sua organização em relação aos dados do canal. Sua organização pode ter requisitos de conformidade em relação ao tratamento, armazenamento e processamento desses dados, além de estar em conformidade com o ciclo de vida do conteúdo de identificação do usuário final (EUII).
 
 ### <a name="export-direct-messages"></a>Exportar Mensagens Diretas
 As Mensagens Diretas são iguais aos chats no Teams, que são de 1:1 ou 1 para várias conversas que não são de canal. A capacidade de exportação depende do plano de serviço do Slack e se você tiver solicitado a inclusão de Mensagens Diretas no seu Slack Export. O Teams não dá suporte a importação de Mensagens Diretas no momento. Consulte um parceiro da Microsoft para saber mais sobre as soluções de terceiros que você pode explorar e que trazem o conteúdo de Mensagens Diretas para o Teams.
@@ -78,7 +78,7 @@ Para exportar Mensagens Diretas, confira as ferramentas, como o Export, na Loja 
 
 ### <a name="apps-and-custom-integrations"></a>Aplicativos e integrações personalizadas
 
-Os aplicativos no Slack são como os aplicativos no Teams. Depois de ter uma lista de aplicativos e suas configurações no Workspace, você poderá pesquisar na Loja de Aplicativos do Teams para ver se eles estão disponíveis para o Teams*. 
+Aplicativos no Slack são como aplicativos no Teams. Depois de ter uma lista de aplicativos e suas configurações no espaço de trabalho, você pode pesquisar na Loja de Aplicativos do Teams para ver se eles estão disponíveis para o Teams*. 
 
 Vá para <your Slack workspace>.slack.com/apps/manage para obter uma lista de Aplicativos e Integrações Personalizadas. Essa página também mostra o número de configurações em que cada aplicativo está em uso. As Integrações Personalizadas variam em sua "capacidade de migração". Se for um Web Hook, você poderá enviá-lo a um Conector do Microsoft 365 ou Office 365 para mudar o fluxo de trabalho no Teams. Avalie bots e outros aplicativos caso a caso ao planejar movê-los para o Teams.
 
@@ -196,11 +196,11 @@ As soluções de terceiros têm estatísticas de uso para ajudá-lo a avaliar o 
 Ao usar o inventário de Canais compilados na seção de Planejamento acima, trabalhe com os proprietários e administradores do Slack para descobrir quais canais devem se tornar equipes e quais devem se tornar canais em uma equipe. Use o Excel ou o PowerBI para ajudar nessa análise. Ambos podem fornecer informações adicionais que ajudam a orientar essas discussões sobre quais canais manter.
 
 > [!TIP]
-> Atualmente, o Teams têm um limite de 200 canais por equipe. Se a sua lista de canais estiver chegando perto desse limite, descubra uma maneira de dividi-los em duas equipes diferentes.
+> Atualmente, o Teams tem um limite de 200 canais por equipe. Se sua lista de canais estiver se aproximando desse limite, você deverá descobrir uma maneira de dividi-los em duas equipes separadas.
 
 ### <a name="channel-history"></a>Histórico de Canal
 
-Existem soluções gratuitas no GitHub e soluções pagas que você pode usar, dependendo dos requisitos da sua organização para manter o Histórico de Canal de canais Públicos e Privados. Além disso, isso poderia ser controlado por script no Teams.
+Há soluções gratuitas no GitHub e soluções pagas que você pode usar, dependendo dos requisitos da sua organização para manter o Histórico de Canais de Canais Públicos e Privados. Além disso, isso pode ser gerado por script no Teams.
 
 Depois de configurar a sua nova estrutura de equipe e de canal no Teams, você poderá copiar os arquivos exportados para as bibliotecas de documentos apropriadas nos canais do Teams.
 
@@ -208,7 +208,7 @@ Para automatizar a importação de seu conteúdo, há várias abordagens que voc
 
 ### <a name="channel-files"></a>Arquivos de Canal
 
-A maioria das soluções exportará arquivos. No entanto, eles geralmente são fornecidos como links no Histórico de Canal que exigem uma chave de API para ser recuperada de forma programática.
+A maioria das soluções exportará arquivos. No entanto, eles normalmente são fornecidos como links no Histórico de Canais que exigem uma chave de API para recuperar programaticamente.
 
 Para arquivos armazenados no Slack, uma vez configurado suas equipes e canais em Teams, será possível copiá-los de forma programática do Slack para o canal de destino do Teams.
 
@@ -342,7 +342,7 @@ A seguir estão exemplos de soluções do Slack em que um Conector do Microsoft 
 - New Relic
   - Confira a solução de usuário para [Enviar alertas New Relic ao Teams](https://discuss.newrelic.com/t/new-relic-alerts-not-working-with-microsoft-teams/48609/3)
 - Nagios 
-  - Hoje, os alertas podem ser integrados via conectores. https://github.com/isaac-galvan/nagios-teams-notify
+  - Hoje, os alertas podem ser integrados via conectores.https://github.com/isaac-galvan/nagios-teams-notify
 - ZenDesk
   - O aplicativo existe no Teams Store
 - Jenkins

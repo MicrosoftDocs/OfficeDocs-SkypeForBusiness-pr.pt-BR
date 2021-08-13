@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: 'Clique com o botão direito do mouse nos Servidores do Office Web Apps no Construtor de Topologias para executar o seguinte:'
-ms.openlocfilehash: 77478c20e3182320a206724f1479281414808889
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Clique com o botão direito do mouse Office Servidores Web Apps no Construtor de Topologias para executar o seguinte:'
+ms.openlocfilehash: 856abe56bf0515f8c9ae728d143912ef5750a2629490d2b505ad08efded920f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823901"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333563"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de Nó de Escopo do Servidor Office Web Apps
  
-Clique com o botão direito do **mouse nos Servidores do Office Web Apps** no Construtor de Topologias para executar o seguinte:
+Clique com o botão direito do **mouse Office Servidores Web Apps** no Construtor de Topologias para executar o seguinte:
   
-- **Novo Servidor do Office Web Apps**: inicia o assistente Definir Novo Servidor do Office Web **Apps** usado para definir um novo Servidor do Office Web Apps.
+- **Novo Office Web Apps Server**: inicia o assistente Definir Novo Servidor Office Web **Apps** usado para definir um novo servidor Office Web Apps.
     
-Além da opção Novo Servidor do Office Web Apps, você pode executar as seguintes tarefas gerais:
+Além da opção Novo Servidor Office Web Apps, você pode executar as seguintes tarefas gerais:
   
-![Nó de Escopo de Servidor do Office WebApps](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office Nó de Escopo do Servidor WebApps](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     

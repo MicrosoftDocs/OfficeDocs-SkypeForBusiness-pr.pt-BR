@@ -1,5 +1,5 @@
 ---
-title: Configurando troncos no Skype for Business Server
+title: Configurando troncos em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,26 +10,26 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Como parte da implantação do Enterprise Voice, você pode configurar um tronco entre um Servidor de Mediação e um ou mais pares para fornecer conectividade PSTN (rede telefônica pública comutado) para clientes e dispositivos Enterprise Voice em sua organização.
-ms.openlocfilehash: 57b8635d635c0fd0b8c41c95f92af768ff84dfd4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Como parte da implantação Enterprise Voice, você pode configurar um tronco entre um Servidor de Mediação e um ou mais pares para fornecer conectividade PSTN (rede telefônica pública comutado) para Enterprise Voice clientes e dispositivos em sua organização.
+ms.openlocfilehash: 82491d566e36ce819456c3d2a8983f97dd6c4f17d4d7cece71a066342d48efea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800111"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333453"
 ---
-# <a name="configuring-trunks-in-skype-for-business-server"></a>Configurando troncos no Skype for Business Server
+# <a name="configuring-trunks-in-skype-for-business-server"></a>Configurando troncos em Skype for Business Server
 
-Como parte da implantação do Enterprise Voice, você pode configurar um tronco entre um Servidor de Mediação e um ou mais dos seguintes pares para fornecer conectividade PSTN (rede telefônica pública comutado) para clientes e dispositivos Enterprise Voice em sua organização:
+Como parte da implantação Enterprise Voice, você pode configurar um tronco entre um Servidor de Mediação e um ou mais dos seguintes pares para fornecer conectividade PSTN (rede telefônica pública comutado) para clientes e dispositivos Enterprise Voice em sua organização:
 
 - Conexão tronco SIP em um provedor de serviço de telefonia por Internet (ITSP)
 - Gateway PSTN
 - Central privada de comutação telefônica (PBX)
 
-Para obter detalhes, [consulte Plano para conectividade PSTN no Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)
+Para obter detalhes, [consulte Plan for PSTN connectivity in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
 
 > [!IMPORTANT]
-> Antes de começar a configuração do tronco, verifique se a topologia foi criada e se o Servidor de Mediação e seu par foram configurados e associados um ao outro. Para obter detalhes, [consulte Definir um gateway no Construtor de Topologias no Skype for Business Server.](../../deploy/deploy-enterprise-voice/define-a-gateway.md)
+> Antes de começar a configuração do tronco, verifique se a topologia foi criada e se o Servidor de Mediação e seus pares foram configurados e associados um ao outro. Para obter detalhes, [consulte Define a gateway in Topology Builder in Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
 
 > [!NOTE]
-> Como parte da configuração de tronco, você pode habilitar o recurso de bypass de mídia do Skype for Business Server, que permite que a mídia ignore o Servidor de Mediação. Os troncos podem ser configurados com ou sem o desvio de mídia habilitado, mas recomendamos fortemente que você o habilite. Para obter detalhes, [consulte Plano para bypass de mídia no Skype for Business.](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+> Como parte da configuração do tronco, você pode habilitar o recurso Skype for Business Server de desvio de mídia, que permite que a mídia ignore o Servidor de Mediação. Os troncos podem ser configurados com ou sem o desvio de mídia habilitado, mas recomendamos fortemente que você o habilite. Para obter detalhes, consulte [Plan for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).

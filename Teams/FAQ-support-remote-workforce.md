@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para oferecer suporte à sua força de trabalho remota quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318624"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Perguntas frequentes: Suporte para sua força de trabalho remota
 
@@ -81,7 +81,7 @@ O Teams está disponível gratuitamente em alguns programas diferentes:
 
 - Se você trabalha com Educação e deseja configurar o Teams para professores, alunos e administradores, use o Office 365 a1, a versão gratuita do Office 365, disponível para instituições de ensino. Inscreva-se em [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
-### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Já tenho o Microsoft 365, mas não uso o Teams. Vocês estão fornecendo licenças de avaliação?
+### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Já tenho o Microsoft 365, mas não uso o Teams. Você está fornecendo licenças de avaliação?
 
 Se você tiver o Microsoft 365, já tem o Teams. [Ative](Office-365-set-up.md) para todos os usuários. Após a ativação, os usuários podem executar o Teams, instalando [área de trabalho](get-clients.md#desktop-client) e clientes [móveis](get-clients.md#mobile-clients) ou [a partir do navegador](get-clients.md#mobile-clients) em [https://teams.microsoft.com](https://teams.microsoft.com). 
 

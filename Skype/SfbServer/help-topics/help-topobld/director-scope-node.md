@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), as portas e o repositório de arquivos associado a este pool de Diretores. Você pode realizar as seguintes ações:'
-ms.openlocfilehash: 9c3978314ab1e4e227e5a5efff2d183c75a4353d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4ebb472f04e9ffde1ec37c96062a8fba40124a5e2b75e29820fc79f020d9c599
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333663"
 ---
 # <a name="director-scope-node"></a>Nó de Escopo de Diretor
  

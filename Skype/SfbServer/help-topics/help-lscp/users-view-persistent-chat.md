@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Membros da função CsPersistentChatAdministrator (Administradores de Chat Persistente) podem conceder direitos e permissões ao gerente de sala de chat para outros usuários e para si mesmos.
-ms.openlocfilehash: 9af0467d278855a6cb07d5e5ebc77697f838c0ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96bb8c4924fad3709d756696bb8965cafcbce676f8ac44865671cbbb895f9ca6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115077"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348226"
 ---
 # <a name="users-view-persistent-chat"></a>Usuários: Exibir Chat Persistente
 
@@ -48,4 +48,4 @@ Você pode executar as seguintes tarefas na página **Usuários: Exibir Chat Per
 
 - [Noções básicas sobre associação ao chat persistente](/previous-versions/office/lync-server-2013/understanding-persistent-chat-membership)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

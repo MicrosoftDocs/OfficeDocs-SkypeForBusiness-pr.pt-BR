@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
-description: O Get-CcApplianceLogDirectory cmdlet mostra o diretório atual onde os logs de um dispositivo do Skype for Business Cloud Connector Edition são armazenados.
-ms.openlocfilehash: 284846bbc305d76602ae1e2f065fcdd571c9deb2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O Get-CcApplianceLogDirectory cmdlet mostra o diretório atual onde os logs de um Skype for Business Cloud Connector Edition estão armazenados.
+ms.openlocfilehash: 75f3ba3a5de5198456e053bd51ef567df1a0ae43461e9888e87294d3af406288
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318654"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
-O Get-CcApplianceLogDirectory cmdlet mostra o diretório atual onde os logs de um dispositivo do Skype for Business Cloud Connector Edition são armazenados.
+O Get-CcApplianceLogDirectory cmdlet mostra o diretório atual onde os logs de um Skype for Business Cloud Connector Edition estão armazenados.
   
-Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
+Este cmdlet se aplica Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -39,7 +39,7 @@ Nenhum
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir mostra a pasta atual onde os logs do dispositivo atual do Cloud Connector estão armazenados:
+O exemplo a seguir mostra a pasta atual onde os logs do dispositivo atual do Cloud Connector são armazenados:
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -48,7 +48,7 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O Get-CcApplianceLogDirectory cmdlet mostra o diretório atual onde os logs de um dispositivo do Cloud Connector estão armazenados. A pasta padrão é C:\Users \% userprofile%\CloudConnector\ApplianceRoot\Logs. 
+O Get-CcApplianceLogDirectory cmdlet mostra o diretório atual onde os logs de um dispositivo Cloud Connector são armazenados. A pasta padrão é C:\Users \% userprofile%\CloudConnector\ApplianceRoot\Logs. 
   
 Você pode alterar o diretório usando o Set-CcApplianceDirectory cmdlet. 
   
@@ -57,7 +57,7 @@ Observação: não há cmdlet que altera apenas o local da pasta de log sem alte
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O Get-CcApplianceLogDirectory cmdlet não aceita entrada em pipeline.
+Nenhum. O Get-CcApplianceLogDirectory cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>

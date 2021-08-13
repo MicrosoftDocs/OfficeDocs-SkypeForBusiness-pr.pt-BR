@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Este artigo explica as considerações de planejamento relevantes para a implantação Salas do Microsoft Teams, a próxima geração de Skype Sistemas de Sala.
-ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 6112e341d9a76b77d2c8f1a93d27c2c24d0d86cd7c17a499e0e55cfa7d2e1b23
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646982"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348776"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar Salas do Microsoft Teams
 

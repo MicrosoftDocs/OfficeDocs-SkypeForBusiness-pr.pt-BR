@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Guam.
-ms.openlocfilehash: 46e29df9990c6631c71a748ed51073549c533c9a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d37de29936565afa0b6e23c70d6f91f8ee06896a742ea68f7f20ef17248fa974
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118039"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319994"
 ---
 # <a name="availability-in-guam"></a>Disponibilidade no Guam
 

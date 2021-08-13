@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostrarão os códigos de acesso necessários em cada país/região para discar o número gratuito.
-ms.openlocfilehash: 818c796b45f5207b074bb94d2a533702c3a8a25e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 47fb110a66428cd3c6cf44e6c56b0bf300bd11a495e0f3537c9240ba1d5e5215
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318185"
 ---
 # <a name="toll-free-dialing-restrictions-in-uruguay"></a>Restrições de discagem de chamada gratuita no Uruguai
 

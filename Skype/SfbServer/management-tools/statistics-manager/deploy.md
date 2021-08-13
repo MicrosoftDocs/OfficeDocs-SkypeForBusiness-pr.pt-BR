@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 'Resumo: leia este tópico para saber como implantar o Gerenciador de Estatísticas para o Skype for Business Server.'
-ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: leia este tópico para saber como implantar o Gerenciador de Estatísticas para Skype for Business Server.'
+ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333253"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implantar Gerenciador de Estatísticas do Skype for Business Server
  
-**Resumo:** Leia este tópico para saber como implantar o Gerenciador de Estatísticas para o Skype for Business Server.
+**Resumo:** Leia este tópico para saber como implantar o Gerenciador de Estatísticas para Skype for Business Server.
   
- O Gerenciador de Estatísticas do Skype for Business Server é uma ferramenta poderosa que permite exibir dados de desempenho e de desempenho do Skype for Business Server em tempo real. Você pode sondar dados de desempenho em centenas de servidores a cada poucos segundos e exibir os resultados instantaneamente no Site do Gerenciador de Estatísticas.
+ O Gerenciador de Estatísticas para Skype for Business Server é uma ferramenta poderosa que permite exibir Skype for Business Server dados de desempenho e de saúde em tempo real. Você pode sondar dados de desempenho em centenas de servidores a cada poucos segundos e exibir os resultados instantaneamente no Site do Gerenciador de Estatísticas.
   
 Antes de tentar instalar o Gerenciador de Estatísticas, certifique-se de estar familiarizado com os requisitos de software, rede e hardware. Para obter mais informações, [consulte Plan for Statistics Manager for Skype for Business Server](plan.md).
   
@@ -55,12 +55,12 @@ Para implantar o Gerenciador de Estatísticas, siga estas etapas:
     
 3. Instale o Site no computador host.
     
-4. Instale um Agente em cada máquina do Skype for Business Server que você deseja monitorar.
+4. Instale um Agente em cada Skype for Business Server que você deseja monitorar.
     
 5. Importe a topologia para os servidores que você está monitorando.
     
 > [!NOTE]
-> Redis, o serviço Ouvinte e o Site devem estar todos instalados no mesmo computador host. Certifique-se de que o computador host não tenha o Skype for Business Server instalado. 
+> Redis, o serviço Ouvinte e o Site devem estar todos instalados no mesmo computador host. Certifique-se de que o computador host não Skype for Business Server instalado. 
   
 ### <a name="prepare-the-listener-host-machine"></a>Preparar a máquina host do Ouvinte
 
@@ -150,7 +150,7 @@ O instalador da Web adiciona um grupo de segurança local, chamado StatsManWebSi
   
 ### <a name="install-the-agents"></a>Instalar os Agentes
 
-Instale um Agente em cada Servidor do Skype for Business que você deseja monitorar executando o StatsManPerfAgent.msi e especificando o seguinte:
+Instale um Agente em cada Skype for Business Server que você deseja monitorar executando o StatsManPerfAgent.msi e especificando o seguinte:
   
 1. Revise o Contrato de Licença e, se concordar, selecione **Aceito** os termos no contrato de licença e clique em **Próximo**. 
     
@@ -179,11 +179,11 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>Importar a topologia
 <a name="BKMK_ImportTopology"> </a>
 
-Depois que o Gerenciador de Estatísticas for instalado e executado, você precisará importar a topologia do Skype for Business Server para que o Gerenciador de Estatísticas conheça o Site, o Pool e a Função de cada servidor. Para importar sua topologia do Skype for Business Server, você usará o cmdlet [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) para recuperar informações sobre cada pool em uso em sua organização e, em seguida, importar essas informações para o Gerenciador de Estatísticas.
+Depois que o Gerenciador de Estatísticas for instalado e executado, você precisará importar a topologia Skype for Business Server para que o Gerenciador de Estatísticas conheça o Site, o Pool e a Função de cada servidor. Para importar sua topologia Skype for Business Server, você usará o cmdlet [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) para recuperar informações sobre cada pool em uso em sua organização e, em seguida, importar essas informações para o Gerenciador de Estatísticas.
   
-Para importar a topologia do Skype for Business Server, siga estas etapas:
+Para importar a topologia Skype for Business Server, siga estas etapas:
   
-1. Em um host que tenha os cmdlets do PowerShell do Skype for Business Server:
+1. Em um host que tenha os cmdlets Skype for Business Server PowerShell:
     
     a. Execute o seguinte comando: 
     
@@ -243,7 +243,7 @@ Se um Agente falhar ao iniciar, verifique o seguinte:
     
     1. Certifique-se de seguir as instruções para importar a topologia. Consulte [Importar a topologia](deploy.md#BKMK_ImportTopology).
         
-    2. Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós em um cluster SQL AlwaysOn), você precisará adicionar o Agente manualmente seguindo as instruções em Importar a [topologia](deploy.md#BKMK_ImportTopology).
+    2. Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós em um cluster AlwaysOn do SQL), você precisará adicionar o Agente manualmente seguindo as instruções em Importar a [topologia](deploy.md#BKMK_ImportTopology).
     
 - O Agente pode entrar em contato com o Ouvinte?
     
@@ -305,4 +305,4 @@ Para obter mais informações, confira o seguinte:
     
 - [Atualizar o Gerenciador de estatísticas do Skype for Business Server](upgrade.md)
     
-- [Solucionar problemas do Gerenciador de Estatísticas do Skype for Business Server](troubleshoot.md) ß
+- [Solucionar problemas do Gerenciador de Estatísticas Skype for Business Server](troubleshoot.md) ß

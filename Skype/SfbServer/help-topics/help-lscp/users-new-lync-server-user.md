@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 988640963eb6028cb85eee5afc243f6060a99950
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 36022fe928769e4e5113a48723143036dbbaf87914584964164a439e5b9015e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348236"
 ---
 # <a name="users-new-lync-server-user"></a>Usuários: Novo Usuário do Servidor Lync
 
@@ -52,4 +52,4 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Atribuir uma Per-User de Chat Persistente](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

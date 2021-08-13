@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone em Portugal para Microsoft Teams.
-ms.openlocfilehash: 529d96eedeb9e7223a5bde76651a321de68060b31a2facfb57437fb6aa0305c0
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 245fe5d619a5113339e9f6e48ef75b09d9a4bdb34170a148c3893dd091b46dca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849256"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348964"
 ---
 # <a name="phone-number-management-for-portugal"></a>Telefone gerenciamento de números para Portugal
 
@@ -34,11 +34,11 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixe os formulários corretos e os envie para nós**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.   <br/> |Baixe um desses formulários. <br/>  [Nova solicitação de número de telefone para Portugal (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Nova solicitação de número de telefone para Portugal (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md).<br/><br/> Você também deve preencher um contrato de três partes, assinar e entrar em contato com o [Service Desk PTSN para obter instruções.](contact-pstn-service-desk.md) Esse formulário será enviado para você pela nossa equipe de serviço PSTN depois de fazer um pedido para obter novos números de telefone. <br/><br/>|
-|Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para Portugal (todos os números) (v.6.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md). <br/><br/> Você também deve preencher um contrato de três partes, assinar e entrar em contato com o [Service Desk PTSN para obter instruções.](contact-pstn-service-desk.md) Esse formulário será enviado para você pela nossa equipe de serviço PSTN depois de fazer uma ordem para transferir números de telefone.<br/><br/>|
-|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/não publicar.      <br/> |
-|Altere o número de um usuário para um número de serviço.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
-|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou de atendimento automático, entre em contato com [o Service Desk PTSN para obter instruções.](contact-pstn-service-desk.md) |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.   <br/> |Baixe um desses formulários. <br/>  [Nova solicitação de número de telefone para Portugal (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Nova solicitação de número de telefone para Portugal (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md).<br/><br/> Você também deve preencher um contrato de três partes, assinar e contatar [PTSN para obter instruções.](contact-pstn-service-desk.md) Esse formulário será enviado para você pela nossa equipe de serviço PSTN depois de fazer um pedido para obter novos números de telefone. <br/><br/>|
+|Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para Portugal (todos os números) (v.6.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md). <br/><br/> Você também deve preencher um contrato de três partes, assinar e contatar [PTSN para obter instruções.](contact-pstn-service-desk.md) Esse formulário será enviado para você pela nossa equipe de serviço PSTN depois de fazer uma ordem para transferir números de telefone.<br/><br/>|
+|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de telefone que você deseja publicar/não publicar.      <br/> |
+|Altere o número de um usuário para um número de serviço.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato [com o service desk PSTN](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

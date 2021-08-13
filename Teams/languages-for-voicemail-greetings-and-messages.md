@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba quais idiomas você pode definir em Skype for Business para as mensagens padrão do sistema e saudações de caixa postal.
-ms.openlocfilehash: 78faf285e4875319d7495b4afb7d66f418ef9d37
-ms.sourcegitcommit: eca3f5e83e4a07be197936db19f539cbfa2c2bd2
+ms.openlocfilehash: f8e16be05b5c6001be8a9c37b6e0e23dac0525a16938c8c378450439f57aee88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52804641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348994"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams idiomas para saudações e mensagens de caixa postal
 

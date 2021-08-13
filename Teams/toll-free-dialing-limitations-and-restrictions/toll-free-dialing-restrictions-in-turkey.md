@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre a discagem de números gratuitos na Turquia, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: 4e082cf2ea2ae069960136c9ab9c13d52e35f44d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e09cf25c070644b0b7dd86a1184faa25eaa6926549694eb78a7fb221f4763c22
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318195"
 ---
 # <a name="toll-free-dialing-restrictions-in-turkey"></a>Restrições de discagem de chamada gratuita na Turquia
 

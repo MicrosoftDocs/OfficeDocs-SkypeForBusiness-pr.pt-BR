@@ -1,5 +1,5 @@
 ---
-title: Definindo regras de normalização no Skype for Business Server
+title: Definindo regras de normalização em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,34 +10,34 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: As regras de normalização do Skype for Business Server usam .NET Framework expressões regulares para traduzir números de telefone discados para o formato E.164; em outras palavras, as regras de normalização levam o número de telefone discado por um usuário e convertem esse número no formato usado internamente pelo Skype for Business Server. Cada plano de discagem deve ter uma ou mais regras de normalização atribuídas.
-ms.openlocfilehash: 1be34e5c40a4da4e9def4de294ece134f2fe229d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server regras de normalização usam .NET Framework expressões regulares para traduzir números de telefone discados para o formato E.164; em outras palavras, as regras de normalização levam o número de telefone discado por um usuário e convertem esse número no formato usado internamente por Skype for Business Server. Cada plano de discagem deve ter uma ou mais regras de normalização atribuídas.
+ms.openlocfilehash: bb229760bd8f41086211245e8e7090453fa8985abb72dc721b249c5c5df81238
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333433"
 ---
-# <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definindo regras de normalização no Skype for Business Server
+# <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definindo regras de normalização em Skype for Business Server
 
-As regras de normalização do Skype for Business Server usam .NET Framework expressões regulares para traduzir números de telefone discados para o formato E.164; em outras palavras, as regras de normalização levam o número de telefone discado por um usuário e convertem esse número no formato usado internamente pelo Skype for Business Server. Cada plano de discagem deve ter uma ou mais regras de normalização atribuídas.
+Skype for Business Server regras de normalização usam .NET Framework expressões regulares para traduzir números de telefone discados para o formato E.164; em outras palavras, as regras de normalização levam o número de telefone discado por um usuário e convertem esse número no formato usado internamente por Skype for Business Server. Cada plano de discagem deve ter uma ou mais regras de normalização atribuídas.
 
 Para obter detalhes sobre regras de normalização, consulte [Planos de discagem e regras de normalização.](/previous-versions/office/lync-server-2013/lync-server-2013-dial-plans-and-normalization-rules)
 
 Para obter detalhes sobre como escrever expressões regulares, [consulte .NET Framework Expressões Regulares](/dotnet/standard/base-types/regular-expressions).
 
 É possível usar um dos seguintes métodos para definir ou editar uma regra de normalização:
-- Use a ferramenta Criar uma Regra de [ **Normalização**](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) para especificar valores para os dígitos, comprimento, dígitos a ser removidos e dígitos a adicionar e, em seguida, permitir que o Painel de Controle do Skype for Business Server gere o padrão correspondente e a regra de conversão para você.
+- Use a ferramenta Criar uma Regra de [ **Normalização**](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) para especificar valores para os dígitos, comprimento, dígitos a ser removidos e dígitos a adicionar e, em seguida, permitir que o Painel de Controle Skype for Business Server gere o padrão correspondente e a regra de conversão para você.
 - [Escreva expressões regulares manualmente para](#create-or-modify-a-normalization-rule-manually) definir o padrão correspondente e a regra de conversão. 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>Criar ou modificar uma regra de normalização usando Build a Normalization Rule
 
-Conclua as etapas a seguir se quiser criar ou modificar uma regra de normalização no Painel de Controle do Skype for Business Server. 
+Conclua as etapas a seguir se quiser criar ou modificar uma regra de normalização Skype for Business Server Painel de Controle. 
 
 **Para definir uma regra usando Compilar uma Regra de Normalização**
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle Skype for Business, consulte [Instalar e abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
 3. (Opcional) Siga as etapas em [Criar um plano de discagem](../../deploy/deploy-enterprise-voice/dial-plans.md#to-create-a-dial-plan) através da etapa 11 ou Modificar um plano de [discagem através](../../deploy/deploy-enterprise-voice/dial-plans.md#to-modify-a-dial-plan) da etapa 10. 
 4. Em **Nova Regra de Normalização** ou **Editar Regra de Normalização**, digite um nome que descreva o padrão numérico que está sendo normalizado em **Nome** (por exemplo, **5DigitExtension**).
 5. (Opcional) Em **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Converte extensões de cinco dígitos").
@@ -75,7 +75,7 @@ Conclua as etapas a seguir para criar ou modificar uma regra de normalização m
 **Para definir uma regra de normalização manualmente**
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle Skype for Business, consulte [Instalar e abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
 3. (Opcional) Siga as etapas em [Criar um plano de discagem](GET LINK AFTER MIGRATION) através da etapa 11 ou Modificar um plano de [discagem através](GET LINK AFTER MIGRATION) da etapa 10.  
 4. Em **Nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreve o padrão de número que está sendo normalizado em **Nome** (por exemplo, o nome da regra de normalização **5DigitExtension**).
 5. (Opcional) Em **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Converte extensões de cinco dígitos").
@@ -84,7 +84,7 @@ Conclua as etapas a seguir para criar ou modificar uma regra de normalização m
     - Em **Corresponder este padrão**, especifique o padrão que você deseja usar para coincidir com o número de telefone discado.
     - Em **Regra de tradução**, especifique um padrão para o formato dos números de telefone E.164 traduzidos.
 
-    Por exemplo, se você inserir **^(\d {7} )$** em Corresponder a esse padrão e **+1425$1** **na** regra de conversão, a regra normaliza 5550100 a +14255550100. 
+    Por exemplo, se você inserir **^(\d {7} )$** em Corresponder a esse padrão e **+1425$1** **na** regra de conversão, a regra normaliza 5550100 para +14255550100. 
 
 8. (Opcional) Se a regra de normalização resultar em um número de telefone interno em sua organização, selecione **Extensão interna**.
 9. (Opcional) Insira um número para testar a regra de normalização e clique em **Ir**. Os resultados do teste são exibidos em **Inserir um número para testar**.

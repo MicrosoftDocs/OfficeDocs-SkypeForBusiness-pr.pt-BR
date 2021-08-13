@@ -1,5 +1,5 @@
 ---
-title: Definindo regras de conversão no Skype for Business Server
+title: Definindo regras de conversão em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,28 +10,28 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: O Skype for Business Server Enterprise Voice chamadas com base nos números de telefone normalizados para o formato E.164. Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas para o formato E.164 com a finalidade de executar a RNL (busca de número reverso) para que possam ser traduzidas para o URI SIP correspondente. O Skype for Business Server oferece a capacidade de manipular a ID chamada e a apresentação da ID do chamador.
-ms.openlocfilehash: f3a37a48ec2e4497d644e2051a6e6d37ccef9707
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server Enterprise Voice encaminha chamadas com base em números de telefone normalizados para o formato E.164. Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas para o formato E.164 com a finalidade de executar a RNL (busca de número reverso) para que possam ser traduzidas para o URI SIP correspondente. Skype for Business Server fornece a capacidade de manipular a ID chamada e a apresentação da ID do chamador.
+ms.openlocfilehash: f297ca2d2f6aea52494557083b1b7d3206276ba40fbdf1a5c018716bccc55e25
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333363"
 ---
-# <a name="defining-translation-rules-in-skype-for-business-server"></a>Definindo regras de conversão no Skype for Business Server
+# <a name="defining-translation-rules-in-skype-for-business-server"></a>Definindo regras de conversão em Skype for Business Server
 
-O Skype for Business Server Enterprise Voice chamadas com base nos números de telefone normalizados para o formato E.164. Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas para o formato E.164 com a finalidade de executar a RNL (busca de número reverso) para que possam ser traduzidas para o URI SIP correspondente. O Skype for Business Server oferece a capacidade de manipular a ID chamada e a apresentação da ID do chamador.
+Skype for Business Server Enterprise Voice encaminha chamadas com base em números de telefone normalizados para o formato E.164. Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas para o formato E.164 com a finalidade de executar a RNL (busca de número reverso) para que possam ser traduzidas para o URI SIP correspondente. Skype for Business Server fornece a capacidade de manipular a ID chamada e a apresentação da ID do chamador.
 
-Com o Skype for Business Server, o número de telefone da parte chamada (ou seja, o número de telefone chamado) pode ser convertido do formato E.164 para o formato de discagem local exigido pelo par de tronco (ou seja, o gateway associado, o PBX ou o tronco SIP). Para fazer isso, você deve definir uma ou mais regras de conversão para traduzir o URI de solicitação antes de roteá-lo para o ponto de tronco.
+Com Skype for Business Server, o número de telefone da parte chamada (ou seja, o número de telefone chamado) pode ser convertido do formato E.164 para o formato de discagem local exigido pelo par de tronco (ou seja, o gateway associado, o PBX (private branch exchange) ou o tronco SIP). Para fazer isso, você deve definir uma ou mais regras de conversão para traduzir o URI de solicitação antes de roteá-lo para o ponto de tronco.
 
 ## <a name="caller-id-presentation"></a>Apresentação de ID do chamador
 
-O Skype for Business Server oferece a opção de também traduzir o número de telefone do chamador (ou seja, o número de telefone do qual o chamador está chamando) do formato E.164 para o formato de discagem local exigido pelo ponto de tronco. Por exemplo, você pode criar uma regra de conversão para remover +44 do começo de uma sequência de caracteres de discagem e o substituir por 0144.
+Skype for Business Server oferece a opção de também traduzir o número de telefone do chamador (ou seja, o número de telefone do qual o chamador está chamando) do formato E.164 para o formato de discagem local exigido pelo ponto de tronco. Por exemplo, você pode criar uma regra de conversão para remover +44 do começo de uma sequência de caracteres de discagem e o substituir por 0144.
 
-**Para configurar a ID do Chamador usando o Painel de Controle do Skype for Business Server**
+**Para configurar a ID do Chamador usando o painel de Skype for Business Server de controle**
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle Skype for Business, consulte [Instalar e abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
 3. Na barra de navegação esquerda, clique em **Roteamento de Voz** e clique em **Configuração de Tronco**.
 4. Na página Configuração do Tronco, clique duas vezes em um tronco existente (por exemplo, o **tronco Global)** para exibir a caixa de diálogo Editar Configuração **do** Tronco.
 5. Para configurar a apresentação da ID do chamador:
@@ -51,7 +51,7 @@ O Skype for Business Server oferece a opção de também traduzir o número de t
 
 Você pode usar um dos seguintes métodos para compilar ou modificar uma regra de conversão:
 
-- [Use a](#create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool) ferramenta Criar uma Regra de Conversão para especificar valores para os dígitos, comprimento, dígitos a ser removidos e dígitos a adicionar e, em seguida, permitir que o Painel de Controle do Skype for Business Server gere o padrão correspondente e a regra de conversão para você.
+- [Use a](#create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool) ferramenta Criar uma Regra de Conversão para especificar valores para os dígitos, comprimento, dígitos a ser removidos e dígitos a adicionar e, em seguida, permitir que o Painel de Controle Skype for Business Server gere o padrão correspondente e a regra de conversão para você.
 - [Escreva expressões regulares manualmente para](#create-or-modify-a-translation-rule-manually) definir o padrão correspondente e a regra de conversão.
 
 > [!Note]
@@ -59,12 +59,12 @@ Você pode usar um dos seguintes métodos para compilar ou modificar uma regra d
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>Criar ou modificar uma regra de conversão usando a ferramenta Criar uma Regra de Conversão
 
-Siga estas etapas se quiser definir uma regra de conversão inserindo um conjunto de valores na ferramenta Criar uma Regra de Conversão e habilitando o Painel de Controle do Skype for Business Server para gerar o padrão correspondente e a regra de conversão para você. 
+Siga estas etapas se quiser definir uma regra de conversão inserindo um conjunto de valores na ferramenta Criar uma Regra de Conversão e habilitando o Painel de Controle Skype for Business Server para gerar o padrão correspondente e a regra de conversão para você. 
 
 **Para definir uma regra usando a ferramenta Compilar uma Regra de Conversão**
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle Skype for Business, consulte [Instalar e abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
 3. Para começar a definir uma regra de conversão, siga as etapas em [Configure a trunk](GET LINK AFTER MIGRATION)with media bypass through step 10 ou Configure a trunk without media [bypass](GET LINK AFTER MIGRATION) through step 9.
 4. Em **Nome** na página **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreve o padrão numérico que está convertido.
 5. (Opcional) Em **Descrição**, digite uma descrição da regra de conversão - por exemplo, discagem internacional de **longa distância dos EUA.**
@@ -99,7 +99,7 @@ Siga estas etapas para definir uma regra de conversão desenvolvendo uma express
 **Como definir uma regra de conversão manualmente**
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle Skype for Business, consulte [Instalar e abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
 3. Para começar a definir uma regra de conversão, siga as etapas em [Configure a trunk](GET LINK AFTER MIGRATION)with media bypass through step 10 ou Configure a trunk without media [bypass](GET LINK AFTER MIGRATION) through step 9.
 4. No campo **Nome**, na página **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreva o padrão de número sendo convertido.
 5. (Opcional) Em **Descrição**, digite uma descrição da regra de conversão; por exemplo, **discagem de longa distância** internacional dos EUA.
