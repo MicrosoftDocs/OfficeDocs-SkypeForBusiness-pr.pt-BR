@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: e6904139d73b8fe671c8013af7cac5917fe88305d81af5fd33501d92b81e2d61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 608971b330196127eb95a406b7c5330dd364e363
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316577"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233796"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamada de emergência
 
@@ -149,7 +149,7 @@ Você pode atribuir uma política de roteamento de chamadas de emergência a uma
 
 - Se uma política de roteamento de chamadas de emergência estiver associada ao site, a política de site será usada para configurar chamadas de emergência.
 
-- Se não houver nenhuma política de roteamento de chamadas de emergência associada ao site ou se o cliente estiver conectado em um site indefinido, a política de roteamento de chamadas de emergência associada à conta de usuário será usada para configurar a chamada de emergência. 
+- Se não houver nenhuma política de roteamento de chamadas de emergência associada ao site, se o cliente estiver conectado em um site indefinido ou se o número discado não corresponder a nenhum dos números de emergência definidos na política de roteamento de chamadas de emergência associada ao site, a política de roteamento de chamadas de emergência associada à conta de usuário será usada para configurar a chamada de emergência. 
 
 - Se o Teams cliente não conseguir obter uma política de roteamento de chamadas de emergência, o usuário não está habilitado para chamadas de emergência.
 

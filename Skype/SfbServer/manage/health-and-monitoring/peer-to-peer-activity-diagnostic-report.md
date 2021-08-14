@@ -1,5 +1,5 @@
 ---
-title: Relatório de Diagnóstico de Atividades Ponto a Ponto no Skype for Business Server
+title: Relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico de Atividades Ponto a Ponto no Skype for Business Server.'
-ms.openlocfilehash: 1988dbbc6cf1e2bc54eeafee95756e7633d0ffde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico de Atividade Ponto a Ponto no Skype for Business Server.'
+ms.openlocfilehash: d303bd820a7494be2061eb4e36c5413787b83ffcd4fc794f8e98ac3a8d806261
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827731"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325098"
 ---
-# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Relatório de Diagnóstico de Atividades Ponto a Ponto no Skype for Business Server
+# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Relatório de Diagnóstico de Atividades Ponto a Ponto no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Diagnóstico de Atividade Ponto a Ponto no Skype for Business Server.
   
-O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que o Skype for Business Server distingue entre os diferentes tipos de falha:
+O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que Skype for Business Server diferencia entre diferentes tipos de falha:
   
-- **Falha esperada**. Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, essa foi uma falha esperada: o Skype for Business Server não espera que você atenda ao telefone se não estiver disponível para atender o telefone. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
+- **Falha esperada**. Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, essa foi uma falha esperada: Skype for Business Server não espera que você atenda o telefone se não estiver disponível para atender o telefone. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
     
-- **Falha inesperada**. Uma falha inesperada é exatamente o que o nome diz: um erro que, baseado nas circunstâncias, você não esperaria que ocorrese. Por exemplo, suponha que você ligue para alguém e que essa pessoa está disponível para atender a chamada; No entanto, quando o Skype for Business Server tenta encaminhar sua chamada para a caixa postal, a chamada falha porque a conectividade com a Unificação de Mensagens do Exchange foi perdida. Esse é um erro inesperado: você esperaria que as chamadas sempre poderiam ser roteados para a caixa postal. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
+- **Falha inesperada**. Uma falha inesperada é exatamente o que o nome diz: um erro que, baseado nas circunstâncias, você não esperaria que ocorrese. Por exemplo, suponha que você chame alguém e essa pessoa está disponível para atender a chamada; no entanto, quando Skype for Business Server tenta roteá-la para a caixa postal, a chamada falha porque a conectividade com Exchange Unificação de Mensagens foi perdida. Esse é um erro inesperado: você deve esperar que as chamadas sempre sejam roteados para a caixa postal. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
     
 Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não acrescentem à métrica Total de sessões. Por exemplo, na ilustração anterior, temos os seguintes valores:
   
@@ -35,11 +35,11 @@ Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não 
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16   <br/> |2521  <br/> |
    
-Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim a coluna Total de sessões mostrará um total de 2.521 sessões. As 12 sessões que "faltam" são sessões que o sistema não pode categorizar como bem-sucedida ou sem sucesso. Às vezes, esse será o caso quando um produto de terceiros introduz um novo código de diagnóstico que não é familiar para o Skype for Business Server. Quando isso acontece, as chamadas feitas usando esse produto, e o relatório desse código de diagnóstico, não podem sempre ser categorizados como Sucesso, Falha esperada ou Falha inesperada.
+Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim a coluna Total de sessões mostrará um total de 2.521 sessões. As 12 sessões que "faltam" são sessões que o sistema não pode categorizar como bem-sucedida ou sem sucesso. Às vezes, esse será o caso quando um produto de terceiros introduz um novo código de diagnóstico que não é familiar para Skype for Business Server. Quando isso acontece, as chamadas feitas usando esse produto, e o relatório desse código de diagnóstico, não podem sempre ser categorizados como Sucesso, Falha esperada ou Falha inesperada.
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Acessando o Relatório de Diagnóstico de Atividades Ponto a Ponto
 
-O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. Você pode acessar o [Relatório de Distribuição de Falhas no Skype for Business Server](failure-distribution-report.md) clicando em uma das seguintes métricas:
+O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. Você pode acessar o [Relatório de Distribuição](failure-distribution-report.md) de Falhas Skype for Business Server clicando em uma das seguintes métricas:
   
 - Volume de falhas inesperadas
     
@@ -61,9 +61,9 @@ A tabela a seguir lista os filtros que você pode utilizar com o Relatório de D
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
-|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Mensalmente (é possível exibir no máximo 12 meses) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com uma data de início de 7/7/2015 e uma data de término de 28/02/2015, os dados serão exibidos para os dias 7/8/2015 12:00 a 7/9/2015 00:00 (ou seja, um total de 31 dias de dados). <br/> |
+|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Mensalmente (é possível exibir no máximo 12 meses) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com uma data de início de 7/7/2015 e uma data de término de 28/02/2015, os dados serão exibidos para os dias 7/08/2015 12:00 a 7/09/2015 12:00 (ou seja, um total de 31 dias de dados). <br/> |
 |**Pool** <br/> |FQDN (nome de domínio totalmente qualificado) do pool de Registrador ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Todos]** para visualizar os dados para todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.<br/> |
-|**Modalidade** <br/> | Indica o tipo de atividade de comunicação que ocorreu. Selecione um dos seguintes: <br/>  [Tudo] <br/>  Mensagens instantâneas <br/>  Transferência de arquivo <br/>  Compartilhamento de aplicativos <br/>  Áudio <br/>  Vídeo <br/> |
+|**Modalidade** <br/> | Indica o tipo de atividade de comunicação que ocorreu. Selecione um dos seguintes: <br/>  [Todos] <br/>  Mensagens instantâneas <br/>  Transferência de arquivo <br/>  Compartilhamento de aplicativos <br/>  Áudio <br/>  Vídeo <br/> |
    
 ## <a name="metrics-per-modality"></a>Medidas (por modalidade)
 

@@ -1,5 +1,5 @@
 ---
-title: Relatório de tendências de qualidade de mídia do servidor no Skype for Business Server
+title: Relatório de tendência de qualidade de mídia do servidor no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: 'Resumo: saiba mais sobre o Relatório de Tendências de Qualidade de Mídia do Servidor no Skype for Business Server.'
-ms.openlocfilehash: 29be4d84103caa045e6f3ea2d3c5a215d9630ea5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre o Relatório de Tendências de Qualidade de Mídia do Servidor Skype for Business Server.'
+ms.openlocfilehash: 48be49557e686b69d5b601da5d25ebb161b7ac12f97d1ef003ddc7c984902061
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814301"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326397"
 ---
-# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Relatório de tendências de qualidade de mídia do servidor no Skype for Business Server
+# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Relatório de tendência de qualidade de mídia do servidor no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Relatório de Tendências de Qualidade de Mídia do Servidor no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Tendência de Qualidade de Mídia do Servidor Skype for Business Server.
   
-O Relatório de Tendências de Qualidade de Mídia do Servidor oferece uma maneira gráfica de comparar até cinco servidores em métricas de Qualidade da Experiência, como volume de chamada, porcentagem de chamada ruim, perda de pacotes e trem tremida. Ele facilita determinadas tarefas como identificar servidores com desempenho ruim, subutilizados e superutilizados.
+O Relatório de Tendência de Qualidade de Mídia do Servidor oferece uma maneira de comparar graficamente até cinco servidores em métricas de Qualidade da Experiência, como volume de chamada, porcentagem de chamada ruim, perda de pacotes e tremeamento. Ele facilita determinadas tarefas como identificar servidores com desempenho ruim, subutilizados e superutilizados.
   
 ## <a name="accessing-the-server-media-quality-trend-report"></a>Acessando o relatório de tendências de qualidade de mídia do servidor
 
 O relatório de tendências de qualidade de mídia do servidor pode ser acessado por um destes relatórios:
   
-- [Relatório de desempenho do servidor no Skype for Business Server](server-performance.md) (clicando na métrica Tendência)
+- [Relatório de Desempenho do Servidor Skype for Business Server](server-performance.md) (clicando na métrica Tendência)
     
-- [Relatório detalhado de chamadas no Skype for Business Server](call-detail-report.md) (clicando na métrica do servidor de borda A/V. Se o chamador ou o chamador for um servidor, você também poderá acessar o Relatório de Tendências de Mídia de Qualidade do Servidor clicando no nome do ponto de extremidade.)
+- [Relatório de Detalhes](call-detail-report.md) de Chamada Skype for Business Server (clicando na métrica do servidor de borda A/V. Se o chamador ou chamador for um servidor, você também poderá acessar o Relatório de Tendência de Mídia de Qualidade do Servidor clicando no nome do ponto de extremidade.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Aproveitando ao máximo o relatório de tendências de qualidade de mídia do servidor
 
-Quando você clica na métrica Tendência no Relatório de Desempenho do Servidor no [Skype for Business Server](server-performance.md) para um servidor específico, o Relatório de Tendências de Qualidade de Mídia do Servidor será aberto. No entanto, você verá uma instância em branco do relatório; o servidor selecionado no Relatório de desempenho do servidor não será exibido na tela. Será necessário selecionar o servidor em questão no menu suspenso "Servidores". O menu suspenso "Servidores" apresenta também a opção "Seleciontar tudo". Essa opção não funcionará caso haja mais de cinco servidores; o relatório de tendências de qualidade de mídia do servidor só pode exibir dados para, no máximo, cinco servidores por vez.
+Quando você clica na métrica Tendência no Relatório de [Desempenho](server-performance.md) do Servidor Skype for Business Server um servidor específico, o Relatório de Tendência de Qualidade de Mídia do Servidor será aberto. No entanto, você verá uma instância em branco do relatório; o servidor selecionado no Relatório de desempenho do servidor não será exibido na tela. Será necessário selecionar o servidor em questão no menu suspenso "Servidores". O menu suspenso "Servidores" apresenta também a opção "Seleciontar tudo". Essa opção não funcionará caso haja mais de cinco servidores; o relatório de tendências de qualidade de mídia do servidor só pode exibir dados para, no máximo, cinco servidores por vez.
   
-Nos gráficos exibidos pelo Relatório de Tendências de Qualidade de Mídia do Servidor, os pontos rotulados de Volume de Chamada e Percentual de Chamada Ruim são hotlinks; Clicar em um ponto no gráfico abrirá uma instância do Relatório de Lista de Chamadas no [Skype for Business Server](call-list-report-0.md) mostrando o total de chamadas (ou chamadas ruins) para o período de tempo especificado.
+Nos gráficos exibidos pelo Relatório de Tendência de Qualidade de Mídia do Servidor, os pontos rotulados volume de chamada e porcentagem de chamada ruim são hotlinks; clicar em um ponto no gráfico abrirá uma instância do Relatório de Lista de Chamadas em Skype for Business Server mostrando o total de chamadas (ou chamadas ruins) para o período de tempo especificado. [](call-list-report-0.md)
   
 ## <a name="filters"></a>Filtros
 
@@ -49,12 +49,12 @@ Os filtros são uma forma de obter dados mais direcionados ou visualizar os dado
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
-|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com uma data de início de 7/8/2015 e uma data de término de 28/9/2015, os dados serão exibidos para os dias 7/8/2015 12:00 a 7/9/2015 00:00 (ou seja, um total de 31 dias de dados). <br/> |
+|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com uma data de início de 7/08/2015 e uma data de término de 28/09/2015, os dados serão exibidos para os dias 7/08/2015 12:00 a 7/9/2015 12:00 (ou seja, um total de 31 dias de dados). <br/> |
 |**Tipo de servidor** <br/> | Tipo de servidor envolvido na chamada. Os valores permitidos são <br/>  Servidor de mediação <br/>  Servidor de Conferência A/V <br/>  Servidor de Borda A/V <br/>  Gateway (servidor de mediação) <br/>  Gateway (Bypass do servidor de mediação) <br/>  Servidor de conferência AS <br/> |
 |**Servidores** <br/> |Nome do servidor envolvidona sessão; essa lista suspensa é preenchida automaticamente com base no valor do filtro de tipo de arquivo. É possível selecionar até cinco servidores diferentes ao compilar o relatório.  <br/> |
-|**Tipo de acesso** <br/> | Indica se o participante fez logon a partir da rede interna ou de uma rede externa. Os valores permitidos são: <br/>  [Tudo] <br/>  Interno <br/>  Externo <br/> |
-|**Tipo de rede** <br/> | Indicao tipo de rede ao qual o participante estava conectado. Osvalores permitidos são: <br/>  [Tudo] <br/>  Com fio <br/>  Sem fio <br/> |
-|**VPN** <br/> | Indica se o participante externos estava usando conexão VPN durante a sessão. Os valores permitidos são: <br/>  [Tudo] <br/>  VPN <br/>  Não VPN <br/> |
+|**Tipo de acesso** <br/> | Indica se o participante fez logon a partir da rede interna ou de uma rede externa. Os valores permitidos são: <br/>  [Todos] <br/>  Interno <br/>  Externo <br/> |
+|**Tipo de rede** <br/> | Indicao tipo de rede ao qual o participante estava conectado. Osvalores permitidos são: <br/>  [Todos] <br/>  Com fio <br/>  Sem fio <br/> |
+|**VPN** <br/> | Indica se o participante externos estava usando conexão VPN durante a sessão. Os valores permitidos são: <br/>  [Todos] <br/>  VPN <br/>  Não VPN <br/> |
    
 ## <a name="metrics"></a>Métrica
 
@@ -65,7 +65,7 @@ A tabela a seguir lista as informações fornecidas no relatório de tendências
 |**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas.  <br/> |
-|**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média de degradação de MOS (pontuação média de opção) experimentado durante uma chamada. Os valores de degradação podem variar de um baixo de 0,0 a um alto de 5,0; um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. O Skype for Business Server usa um conjunto de algoritmos para prever como os usuários classificariam uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
+|**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média de degradação de MOS (pontuação de opção média) experimentado durante uma chamada. Os valores de degradação podem variar de um baixo de 0,0 a uma alta de 5,0; um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. Skype for Business Server usa um conjunto de algoritmos para prever como os usuários classificariam uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
 |**Percentual de chamadas ruins** <br/> |Não  <br/> |O número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).  <br/> |
 |**Viagem de ida e volta (ms)** <br/> |Não  <br/> |Quantidade média de tempo (em milésimos de seguntos) exigida para que um pacote (protocolo de transporte em tempo real) viaje até outra extremidade e retorne. Tempos de viagem de ida e volta de 200 milésimos de segundo ou menos são considerados de qualidade aceitável.  <br/> Viagens de ida e volta com altos valores podem ser resultado do roteamento de chamadas internacionais, configurações incorretas de roteamento ou servidor de mídia sobrecarregado. Viagens de ida e volta com altos valores resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
 |**Perda de pacote** <br/> |Não  <br/> |Taxa média de perda de pacotes de Protocolo de Transporte em Tempo Real (RTP). (A perda de pacotes ocorre quando pacotes RTP, um protocolo usado para transmitir áudio e vídeo pela internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.  <br/> |

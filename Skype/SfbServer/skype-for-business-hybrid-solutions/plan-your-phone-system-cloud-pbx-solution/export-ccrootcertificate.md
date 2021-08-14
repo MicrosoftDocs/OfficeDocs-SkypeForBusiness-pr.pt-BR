@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
-description: O Export-CcRootCertificate cmdlet exporta o certificado de AC raiz para um arquivo local no servidor host do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: 2b252eba4688deb790d85b0c3663b09a9e85e7b9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O Export-CcRootCertificate cmdlet exporta o certificado ca raiz para um arquivo local no servidor Skype for Business Cloud Connector Edition host.
+ms.openlocfilehash: 04ba7af5801f124a76e515b311a0507e3cbb764a6f2769d9f1d9080ec8c7d9d9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800911"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326247"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  
-O Export-CcRootCertificate cmdlet exporta o certificado de AC raiz para um arquivo local no servidor host do Skype for Business Cloud Connector Edition. 
+O Export-CcRootCertificate cmdlet exporta o certificado ca raiz para um arquivo local no servidor Skype for Business Cloud Connector Edition host. 
   
 ```powershell
 Export-CcRootCertificate [[-Path] <string>]
@@ -54,16 +54,16 @@ O Export-CcRootCertificate cmdlet permite que você salve os certificados raiz e
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O Export-CcRootCertificate cmdlet não aceita entrada em pipeline. 
+Nenhum. O Export-CcRootCertificate cmdlet não aceita entrada canalada. 
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 

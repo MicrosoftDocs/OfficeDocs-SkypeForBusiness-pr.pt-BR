@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para o Benim.
-ms.openlocfilehash: 35b646993a4be8196ff9ce73f5bce661268c62f0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cf13801b1b7719300be6cf6ae990d5687290048e13c4588cc1cc8ff3563a5f7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351121"
 ---
 # <a name="availability-in-benin"></a>Disponibilidade no Benin
 

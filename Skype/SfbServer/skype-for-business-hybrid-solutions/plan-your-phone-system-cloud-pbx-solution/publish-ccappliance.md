@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
-description: O Publish-CcAppliance cmdlet obtém informações de alta disponibilidade da configuração de locatário online e as publica no dispositivo do Skype for Business Cloud Connector Edition no servidor host.
-ms.openlocfilehash: 159247614733261cac4b3381e35d8dd297cf9a23
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O Publish-CcAppliance cmdlet obtém informações de alta disponibilidade da configuração de locatário online e as publica no dispositivo Skype for Business Cloud Connector Edition no servidor host.
+ms.openlocfilehash: 83b0a7e3806a271a358085bb0cca2a2ef6a518e67e124f0be97c1ff4616e3dcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326177"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
-O Publish-CcAppliance cmdlet obtém informações de alta disponibilidade da configuração de locatário online e as publica no dispositivo do Skype for Business Cloud Connector Edition no servidor host. 
+O Publish-CcAppliance cmdlet obtém informações de alta disponibilidade da configuração de locatário online e as publica no dispositivo Skype for Business Cloud Connector Edition no servidor host. 
   
 ```powershell
 Publish-CcAppliance
@@ -37,7 +37,7 @@ Nenhum
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir obtém informações de alta disponibilidade da configuração de locatário online e as publica no dispositivo do Cloud Connector no servidor host:
+O exemplo a seguir obtém informações de alta disponibilidade da configuração de locatário online e as publica no dispositivo Cloud Connector no servidor host:
   
 ```powershell
 Publish-CcAppliance
@@ -46,17 +46,17 @@ Publish-CcAppliance
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-As informações de alta disponibilidade contêm os FQDNs e endereços IP do Servidor de Mediação do site PSTN. Novos registros DNS A são adicionados ao Servidor AD para endereços IP do Servidor de Mediação. Novos itens de topologia são atualizados para o Armazenamento de Gerenciamento Central para os FQDNs e endereços IP do Servidor de Mediação. 
+As informações de alta disponibilidade contêm os FQDNs do Servidor de Mediação e endereços IP do site PSTN. Novos registros DNS A são adicionados ao Servidor AD para endereços IP do Servidor de Mediação. Novos itens de topologia são atualizados para o Armazenamento de Gerenciamento Central para os FQDNs do Servidor de Mediação e endereços IP. 
   
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O Publish-CcAppliance cmdlet não aceita entrada em pipeline.
+Nenhum. O Publish-CcAppliance cmdlet não aceita entrada canalada.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+None
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

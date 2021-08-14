@@ -18,14 +18,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 09a231690815be5be2109b1079195bdeb8100ca935a6b2bdcd06962cc4c08c92
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0eadd46cdf9862db364f64744d68a92b9bd7195ce0494e3f61d11a6a486432c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848106"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326197"
 ---
-# <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descoberta ambiental para uma Microsoft Teams de lançamento
+<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descoberta ambiental para uma Microsoft Teams de lançamento
+===================================================
 
 A descoberta é uma das primeiras etapas principais que você toma ao planejar sua jornada para Microsoft Teams.
 
@@ -42,7 +43,8 @@ O questionário é dividido em várias seções para confirmar a prontidão da s
 > [!TIP]
 > Você pode começar copiando o questionário para um Microsoft Word documento. Tente responder a todas as perguntas e capturar todos os detalhes à medida que você passar.
 
-### <a name="project-team"></a>Project equipe
+<a name="project-team"></a>Project equipe
+---
 
 Capture informações detalhadas sobre os principais participantes do seu projeto de Teams de lançamento. Observe que uma pessoa pode desempenhar várias funções em todo o projeto.
 
@@ -65,7 +67,8 @@ Capture informações detalhadas sobre os principais participantes do seu projet
 > | Líder da equipe de vídeo | | | |
 > | Business Unit Leads | | | |
 
-## <a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 ou Office 365 da organização
+<a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 ou Office 365 da organização
+---
 
 É altamente recomendável que você tenha uma organização Microsoft 365 ou Office 365 enquanto trabalha com este questionário. Se você ainda não ativou ou configurou uma organização Microsoft 365 ou Office 365, consulte Plan your [setup of Microsoft 365 for business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
@@ -85,7 +88,8 @@ Use a tabela a seguir para capturar informações sobre a Microsoft 365 ou Offic
 > | Se você atualmente mantém uma Microsoft 365<br/>ou Office 365 locatário, é o domínio SMTP/SIP de <br/>seus usuários direcionados associados ao locatário? | <input type="checkbox">N/A – Sem Microsoft 365 ou<br/>&nbsp;&nbsp; &nbsp; Office 365 locatário no local <br/> <input type="checkbox"> Não, SMTP/SIP dos usuários <br/>&nbsp;&nbsp; &nbsp; domínio não está associado <br/>&nbsp;&nbsp; &nbsp; com quaisquer locatários em <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 ou Office 365<br/> <input type="checkbox"> Sim, SMTP/SIP dos usuários <br/>&nbsp;&nbsp; &nbsp; domínio está associado <br/>&nbsp;&nbsp; &nbsp; com um locatário existente em <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 ou Office 365 | |
 > | Os UPNs do usuário combinam com o endereço SMTP principal? | <input type="checkbox"> Sim <br/> <input type="checkbox"> Não <br/> <input type="checkbox"> Inconsistentemente | |
 
-## <a name="existing-collaboration-platform-summary"></a>Resumo da plataforma de colaboração existente
+<a name="existing-collaboration-platform-summary"></a>Resumo da plataforma de colaboração existente
+---
 
 Use a tabela a seguir para capturar informações sobre a implantação da plataforma de colaboração existente.
 
@@ -101,7 +105,8 @@ Use a tabela a seguir para capturar informações sobre a implantação da plata
 > | Qual é a solução atual de telefonia e conferência <br/>dos usuários que estão no escopo dessa iniciativa? | | |
 > | Você tem [SBCs que suportam Roteamento Direto](./direct-routing-plan.md#supported-session-border-controllers-sbcs) implantado <br/>para seus escritórios que estão no escopo dessa iniciativa? Se Sim,<br/>observe os detalhes na coluna Comentários.| <input type="checkbox"> Sim <br/> <input type="checkbox"> Não ||
 
-## <a name="collaboration-platform-deployment-details"></a>Detalhes da implantação da plataforma de colaboração
+<a name="collaboration-platform-deployment-details"></a>Detalhes da implantação da plataforma de colaboração
+---
 
 ### <a name="microsoft-teams-if-applicable"></a>Microsoft Teams (se aplicável)
 
@@ -144,7 +149,8 @@ Se aplicável, capture os detalhes da sua implantação Skype for Business usand
 > | Selecione serviços que sua função de Borda fornece hoje. | <input type="checkbox"> Acesso de usuário externo (usuários corporativos) <br/> <input type="checkbox"> Acesso de usuário remoto (anônimo <br/>&nbsp;&nbsp; &nbsp; participantes externos da reunião) <br/> <input type="checkbox"> Federação <br/> <input type="checkbox"> Retransmissão de mídia | |
 > | Qual dos seguintes recursos de chamada de voz você <br/>atualmente tem dependências? <br/>Observe quaisquer dependências adicionais nos Comentários <br/>column. | <input type="checkbox"> Opções de ocupado <br/> <input type="checkbox"> Estacionamento de chamada <br/> <input type="checkbox"> Retirada de chamada ou retirada de chamada de grupo <br/> <input type="checkbox"> Telefones de área comum ou "hot desking" <br/> <input type="checkbox"> Grupos de resposta ou grupos de busca <br/> <input type="checkbox"> Aparência de linha compartilhada <br/> <input type="checkbox"> Linha privada <br/> <input type="checkbox"> Caixa Postal <br/> <input type="checkbox"> Chamada via trabalho <br/> <input type="checkbox"> Números de emergência ou informações <br/>&nbsp;&nbsp; &nbsp; (911, 811, 411) <br/> <input type="checkbox"> Discagem de extensão <br/> <input type="checkbox"> Atendedor Automático <br/> <input type="checkbox"> Acesso ao assinante <br/> <input type="checkbox"> Dispositivos analógicos <br/> <input type="checkbox"> Fax <br/> <input type="checkbox"> Mascaramento ou alteração da ID do chamador <br/> <input type="checkbox"> Roteamento baseado em local <br/> <input type="checkbox"> Roteamento de menor custo <br/> <input type="checkbox"> Telefones de elevador | |
 
-## <a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>Rede e acesso a serviços Microsoft 365 e Office 365 serviços
+<a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>Rede e acesso a serviços Microsoft 365 e Office 365 serviços
+---
 
 Use a tabela a seguir para capturar os detalhes de rede da sua organização e como seus usuários estão (ou serão) conectados aos serviços Microsoft 365 e Office 365 da sua organização.
 
@@ -160,7 +166,8 @@ Use a tabela a seguir para capturar os detalhes de rede da sua organização e c
 > | Você pode priorizar o Teams de áudio e vídeo <br/>para impulsionar uma experiência de alta qualidade? | <input type="checkbox"> Sim <br/> <input type="checkbox"> Não | |
 > | Todos os locais em uma região têm saída da Internet, <br/>ou a saída da Internet é centralizada para toda a região? | <input type="checkbox"> Acesso regional à Internet <br/> <input type="checkbox"> Acesso centralizado ao <br/>&nbsp;&nbsp; &nbsp; internet | |
 
-## <a name="endpoints"></a>Pontos de extremidade
+<a name="endpoints"></a>Pontos de extremidade
+---
 
 Use a tabela a seguir para capturar os detalhes dos clientes e pontos de extremidade em uso.
 
@@ -173,7 +180,8 @@ Use a tabela a seguir para capturar os detalhes dos clientes e pontos de extremi
 > | Como os dispositivos móveis são fornecidos? <br/>Selecione todos os que se aplicam. | <input type="checkbox"> Dispositivos corporativos <br/> <input type="checkbox"> Traga seu próprio dispositivo | |
 > | Quais dispositivos os usuários atualmente usam para acessar <br/>serviços de voz e conferência <br/>(handsets, fones de ouvido, telefones, vídeo)? | | |
 
-## <a name="operations"></a>Operações
+<a name="operations"></a>Operações
+---
 
 Use a tabela a seguir para capturar os detalhes dos aspectos operacionais do seu ambiente.
 
@@ -188,7 +196,8 @@ Use a tabela a seguir para capturar os detalhes dos aspectos operacionais do seu
 > | Você tem problemas de qualidade das chamadas? | <input type="checkbox"> Sim<br/> <input type="checkbox"> Não | |
 > | Como e quando você fornece treinamento para seu <br/>helpdesk em novos serviços e recursos? | | |
 
-## <a name="adoption-and-readiness"></a>Adoção e preparação
+<a name="adoption-and-readiness"></a>Adoção e preparação
+---
 
 Use a tabela a seguir e registre o estado atual de adoção e preparação de sua organização.
 

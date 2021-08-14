@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como atualizar os Teams para Teams são exibidos no centro de administração Microsoft Teams.
-ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115579"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327756"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Atualizar Teams telefones para Teams displays
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115579"
 
 Este artigo fornece uma visão geral de como atualizar seus telefones Teams para Teams para exibir dispositivos no centro de administração Microsoft Teams. Isso permite que os dispositivos forneçam uma experiência rica para seus usuários como Teams de exibição.
 
-Teams displays são uma categoria de dispositivos de Teams exclusivos com uma tela sensível ao toque ambiente e uma experiência prática com a Cortana. Teams displays são a evolução de Teams telefones. Além dos recursos suportados por telefones Teams [,](phones-for-teams.md#features-supported-by-teams-phones)Teams displays incluem recursos como uma exibição always-on na qual todas as opções de atividade e colaboração Teams estão sempre disponíveis. Para saber mais sobre recursos exclusivos Teams exibições, [consulte Microsoft Teams displays](teams-displays.md).
+Teams displays são uma categoria de dispositivos de Teams exclusivos com uma tela sensível ao toque ambiente e uma experiência prática com Cortana. Teams displays são a evolução de Teams telefones. Além dos recursos suportados por telefones Teams [,](phones-for-teams.md#features-supported-by-teams-phones)Teams displays incluem recursos como uma exibição always-on na qual todas as opções de atividade e colaboração Teams estão sempre disponíveis. Para saber mais sobre recursos exclusivos Teams exibições, [consulte Microsoft Teams displays](teams-displays.md).
 
 ## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>O que você precisa saber sobre a atualização para Teams displays
 
@@ -90,4 +90,4 @@ Se determinados aplicativos não estão na tela inicial após a atualização, s
 
 [Telefones IP certificados para Microsoft Teams](teams-ip-phones.md)
 
-[Assistência de voz da Cortana em Teams](../cortana-in-teams.md)
+[Cortana de voz no Teams](../cortana-in-teams.md)

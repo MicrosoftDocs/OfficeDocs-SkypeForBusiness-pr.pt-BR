@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Granada.
-ms.openlocfilehash: 5f9fc0d27d401359e659d5ad7a2afc2b297d1db6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cdbb8b482f129ce57f71a6b205f41ab95b44c26be19a9a9de02b20c5cf3ac8f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349174"
 ---
 # <a name="availability-in-grenada"></a>Disponibilidade emNada
 

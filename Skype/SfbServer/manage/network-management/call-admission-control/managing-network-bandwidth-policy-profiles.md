@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Use os procedimentos deste artigo para exibir, criar, modificar ou excluir perfis de política de largura de banda de rede.
-ms.openlocfilehash: 4905a80f402b15328f4bca5476dc47262030f323cee8ec12910b25e35aee6eda
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: af3ca2d956e1a280ca6b3d55aa68e9abf1a53aa1
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590955"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233656"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gerenciando perfis de política de largura de banda no Skype for Business Server
 
@@ -139,7 +139,7 @@ Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largur
     > Você não pode excluir um perfil de política de largura de banda que esteja associado a um site da rede. É preciso primeiro remover a associação com o site antes de poder excluir o perfil. 
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Gerenciando o controle de admissão de chamada para sites](managing-call-admission-control-for-sites.md)
  

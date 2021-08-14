@@ -1,5 +1,5 @@
 ---
-title: Otimização de mídia local de roteamento direto
+title: Otimização de mídia local para a emissão direta
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Otimização de mídia local para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dcb6d92fda4b4165bc8894d77f3977746592719f1f362bf009897dc5f767357
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42234a80d87b01f9ee4b87943216d104caaa7fde
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321433"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233586"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Otimização de mídia local para roteamento direto
 
@@ -83,11 +83,12 @@ Para criar uma solução em que os serviços PSTN são fornecidos a todas as fil
 
 Tabela 1. Exemplo de parâmetros de rede para SBCs 
 
+
 | Localização | SBC FQDN | Sub-rede interna | NAT externo (IP confiável) | Endereço IP externo SBC | Endereço IP interno SBC |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | Amsterdã | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
 | Alemanha | Não implantado | 192.168.6.0/24 | 172.16.76.74 | Não implantado |  Não implantado |
-| França | Não implantado | 192.168.7.0/24 | 172.16.76.75 | Não implantado |  Não implantado ||||
+| França | Não implantado | 192.168.7.0/24 | 172.16.76.75 | Não implantado |  Não implantado |
 
 
 ### <a name="internal-user"></a>Usuário interno
@@ -104,7 +105,7 @@ No local, o usuário é atribuído à filial local na Alemanha. O usuário faz u
 
 Diagrama 1. Fluxo de tráfego quando o usuário está no site 'home' com um SBC centralizado e com um tronco SIP centralizado conectado
 
-![Diagrama mostrando o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-1.png "Fluxo de tráfego quando o usuário está no site 'home' com SBC centralizado com Tronco SIP centralizado conectado")
+![Diagrama mostrando o fluxo de tráfego Otimização de Mídia Local.](media/direct-routing-media-op-1.png "Fluxo de tráfego quando o usuário está no site 'home' com SBC centralizado com Tronco SIP centralizado conectado")
 
 
 ### <a name="external-user"></a>Usuário externo
@@ -121,7 +122,7 @@ Nesse caso, o comportamento é semelhante se o usuário é local para a filial n
 
 Diagrama 2. Fluxo de tráfego quando o usuário é externo com um SBC centralizado e com um Tronco SIP centralizado conectado
 
-![Diagrama mostrando o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-2.png "Fluxo de tráfego quando o usuário é externo no caso de SBC centralizado com tronco SIP centralizado conectado")
+![O diagrama mostra o fluxo de tráfego Otimização de Mídia Local.](media/direct-routing-media-op-2.png "Fluxo de tráfego quando o usuário é externo no caso de SBC centralizado com tronco SIP centralizado conectado")
 
 ## <a name="proxy-sbc-with-connected-downstream-sbcs"></a>SBC de proxy com SBCs de downstream conectados
 
@@ -160,7 +161,7 @@ Para obter mais informações sobre modos possíveis e comportamentos relevantes
 
 Diagrama 3. Fluxo de tráfego quando o usuário está na rede "home" com um SBC proxy e com SBCs de downstream conectados 
 
-![Diagrama mostrando o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-3.png "Fluxo de tráfego no caso de SBC de proxy com SBCs de downstream conectados quando o usuário está na rede &quot;home&quot;")
+![Diagrama novamente mostrando o fluxo de tráfego Otimização de Mídia Local.](media/direct-routing-media-op-3.png "Fluxo de tráfego no caso de SBC de proxy com SBCs de downstream conectados quando o usuário está na rede &quot;home&quot;")
 
 ### <a name="external-user"></a>Usuário externo
 
@@ -178,7 +179,7 @@ O diagrama a seguir mostra o fluxo de tráfego quando um usuário está fora dos
 
 Diagrama 4. Fluxo de tráfego quando o usuário é externo com um SBC proxy e com SBCs de downstream conectados
 
-![Diagrama mostrando o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-4.png "Fluxo de tráfego no caso de SBC proxy com SBCs de downstream conectados quando o usuário é externo")
+![O diagrama mostra novamente o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-4.png "Fluxo de tráfego no caso de SBC proxy com SBCs de downstream conectados quando o usuário é externo")
 
 ## <a name="local-media-optimization-modes"></a>Modos de Otimização de Mídia Local
 
@@ -232,7 +233,7 @@ O diagrama a seguir mostra o fluxo de tráfego de alto nível para o usuário in
 
 Diagrama 5.  Fluxo de tráfego com o modo "Sempre Ignorar" e o usuário está no site "home"
 
-![Diagrama mostrando o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-5.png "Fluxo de tráfego com o modo &quot;Sempre Ignorar&quot; e o usuário está no site &quot;home&quot;")
+![Um diagrama mostrando o fluxo de tráfego Otimização de Mídia Local.](media/direct-routing-media-op-5.png "Fluxo de tráfego com o modo &quot;Sempre Ignorar&quot; e o usuário está no site &quot;home&quot;")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Cenário 2: o usuário e os gateways estão em sites diferentes
@@ -255,7 +256,7 @@ O diagrama a seguir mostra o fluxo de tráfego de alto nível quando o usuário 
 
 Diagrama 6.  Fluxo de tráfego com o modo "Sempre Ignorar" e o usuário não está no site "home", mas na rede interna
 
-![Diagrama mostrando o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-6.png "Fluxo de tráfego com o modo &quot;Sempre Ignorar&quot; e o usuário não está no site &quot;home&quot;, mas na rede interna")
+![Um diagrama mostra o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-6.png "Fluxo de tráfego com o modo &quot;Sempre Ignorar&quot; e o usuário não está no site &quot;home&quot;, mas na rede interna")
 
 ### <a name="mode-2-only-for-local-users"></a>Modo 2: somente para usuários locais
 
@@ -295,7 +296,7 @@ No diagrama a seguir, um usuário atribuído à filial local no Vietnã, enquant
 
 Diagrama 7. Fluxo de tráfego com o modo "Somente Para Usuários Locais" e o usuário está no site "home"
 
-![Diagrama mostrando o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-7.png "Fluxo de tráfego com o modo &quot;Somente Para Usuários Locais&quot; e o usuário está no site &quot;home&quot;")
+![Outro diagrama mostrando o fluxo de tráfego Otimização de Mídia Local.](media/direct-routing-media-op-7.png "Fluxo de tráfego com o modo &quot;Somente Para Usuários Locais&quot; e o usuário está no site &quot;home&quot;")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Cenário 2. O usuário e gateways estão em sites diferentes
@@ -325,7 +326,7 @@ No diagrama a seguir, o usuário interno, enquanto estiver no escritório da fil
 
 Diagrama 8.  Fluxo de tráfego com o modo "Somente Para Usuários Locais" e o usuário não está no site "home", mas na rede interna
 
-![Diagrama mostrando o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-8.png "Fluxo de tráfego com o modo &quot;Somente Para Usuários Locais&quot;, o usuário não está no site &quot;home&quot;, mas na rede interna")
+![Outro diagrama mostra o fluxo de tráfego Otimização de Mídia Local.](media/direct-routing-media-op-8.png "Fluxo de tráfego com o modo &quot;Somente Para Usuários Locais&quot;, o usuário não está no site &quot;home&quot;, mas na rede interna")
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
@@ -333,7 +334,7 @@ Veja a seguir uma lista de problemas conhecidos que estão atualmente presentes 
 
 | Problema | Solução alternativa |
 | :--- | :--- |
-| Teams cliente não é identificado como **interno** quando o IP público do cliente Teams corresponde à lista de IP confiáveis do cliente. | A Otimização de Mídia Local exige que Teams de cliente corresponde a uma sub-rede de [rede configurada pelo locatário](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams cliente não é identificado como **interno** quando o IP público do cliente Teams corresponde à lista de IP confiáveis do cliente. | A Otimização de Mídia Local exige que Teams de cliente corresponde a uma sub-rede de [rede configurada pelo locatário](/powershell/module/skype/new-cstenantnetworksubnet)|
 | As escalonamentos de chamadas resultam em chamadas não ativas quando o cliente Teams é identificado como interno.| Desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
 | Escalonamentos de chamadas de 1 a 1 entre clientes internos para chamadas de várias partes com cliente/recurso externo resultam em chamadas inoadas | Trabalhe em andamento em uma correção. Como alternativa, desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
 | Teams usuário coloca a chamada em espera. A música é reproduzida no final da PSTN e a Otimização de Mídia Local está funcionando. O Teams usuário retoma a chamada. A chamada para PSTN é retomada, mas a Otimização de Mídia Local não está funcionando e a chamada continua via SBC Central (Proxy) | Quando um usuário estaciona uma chamada para iniciar a música em espera (MoH), ela está sendo escalonada de 1:1 para uma chamada multipartidária pelo Controlador de Chamada para invocar o Controlador de Mídia e o Processador de Mídia (servindo como misturador AVMCU) por meio do qual o MoH atinge um usuário que foi colocado em espera. O escalonamento para uma chamada 1:1 depois que a chamada é retomada nunca acontece de acordo com o design. Desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|

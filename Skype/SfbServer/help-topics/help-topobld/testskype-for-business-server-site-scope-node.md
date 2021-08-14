@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 description: 'Este nó mostra um dos sites definidos na sua topologia. É possível realizar as seguintes ações:'
-ms.openlocfilehash: a696c1a301bacee893990cb000cd70872cf8be37
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5790ae6ce02ebc2c323bdba8d856fd7283034e73dd573b2b67464584c2ed630b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328166"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Teste - Site Nó de Escopo Raiz do Skype for Business Server
  

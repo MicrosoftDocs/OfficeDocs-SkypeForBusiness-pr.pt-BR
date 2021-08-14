@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 description: No Especificar Grupo Somente Leitura, especifique o grupo para quem você deseja conceder acesso somente leitura aos relatórios de Monitoramento.
-ms.openlocfilehash: 07058d17d2f75750201725bf1ff548e02c48351a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 401aefb19ec192e4096bd956d54763c4c7663b0571cb9cfd708e34e6373084f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829591"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328346"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (Grupos)
 
-No **Especificar Grupo Somente Leitura**, especifique o grupo para quem você deseja conceder acesso somente leitura aos relatórios de Monitoramento. Use o grupo de &lt; acesso de domínio de &gt; \\ &lt; &gt; formato. Por exemplo: contoso\RTCUniversalReadOnlyAdmins.
+No **Especificar Grupo Somente Leitura**, especifique o grupo para quem você deseja conceder acesso somente leitura aos relatórios de Monitoramento. Use o grupo de &lt; acesso ao domínio de formato &gt; \\ &lt; &gt; . Por exemplo: contoso\RTCUniversalReadOnlyAdmins.
   
 A atribuição de um grupo acesso somente leitura é opcional. Se você não quiser conceder acesso somente leitura agora, poderá configurá-lo mais tarde diretamente nos SQL Server Reporting Services.
   

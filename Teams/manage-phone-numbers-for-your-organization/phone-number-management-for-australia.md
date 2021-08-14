@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália para Microsoft Teams.
-ms.openlocfilehash: 15d98740dee93176e08efcf4fcdeafa13c73c8010c7e36deaf00e474b501cff5
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c9f74c8f3cb427c0b9870d0892a12ce4770dbb56
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849886"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233836"
 ---
 # <a name="phone-number-management-for-australia"></a>Gerenciamento de números de telefone para a Austrália
 

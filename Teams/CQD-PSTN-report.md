@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use o Microsoft Teams de Qualidade de Chamada (CQD)) relatório de Roteamento Direto PSTN para monitorar e solucionar problemas de chamadas PSTN no Microsoft Teams.
-ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351251"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usando o relatório de Roteamento Direto PSTN PSTN
 
@@ -40,7 +40,7 @@ O Relatório de Roteamento Direto PSTN do CQD tem quatro seções:
 
   - [Parâmetros de rede](#network-parameters)
 
-## <a name="highlights"></a>Destaques
+## <a name="highlights"></a>Realçadores
 
 1. Analisar por tipo de chamada, SBC, país chamador e chamador
 
@@ -101,7 +101,7 @@ Por exemplo:
 
 Essa é a mesma métrica que aparece no painel Saúde Geral. Você pode verificar o número de NER por hora com os detalhes de chamadas afetadas para ambas as direções de chamada (entrada/saída) na taxa de eficácia da rede por hora e gráfico de motivos de término de chamada abaixo.
 
-  - **NER** - A capacidade (%) de uma rede para fornecer chamadas medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.
+  - **NER** - A capacidade (%) de uma rede de fazer chamadas medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.
 
   - **Código de resposta SIP**- Um código de resposta inteiro de três dígitos mostra o status da chamada.
 
