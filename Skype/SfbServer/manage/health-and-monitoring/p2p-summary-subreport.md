@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 'Resumo: saiba mais sobre o Sub-relatório de resumo P2P no Skype for Business Server.'
-ms.openlocfilehash: 518047fbca3c46cdc9b99299b8222d4f4fbd48ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre o Sub-relatório resumo P2P no Skype for Business Server.'
+ms.openlocfilehash: 07d354ba14c8503571459081aaaf3445ec540fdb9a5caecc4b40576f6662f038
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345548"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Sub-relatório de resumo P2P no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Sub-relatório de Resumo P2P no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Sub-relatório resumo P2P no Skype for Business Server.
   
-O Sub-relatório de Resumo P2P fornece uma visão geral de suas sessões de comunicação ponto a ponto com falhas.
+O Sub-relatório resumo P2P fornece uma exibição geral de suas sessões de comunicação ponto a ponto com falha.
   
 ## <a name="filters"></a>Filtros
 
-Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou de exibir os dados retornados de maneiras diferentes. A tabela a seguir lista os filtros que você pode usar com o Sub-relatório de Resumo P2P.
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou de exibir os dados retornados de maneiras diferentes. A tabela a seguir lista os filtros que você pode usar com o Sub-relatório resumo P2P.
   
-**Filtros do sub-relatório de resumo P2P**
+**Filtros de sub-relatório de resumo P2P**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -39,15 +39,15 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
    
 ## <a name="metrics"></a>Métrica
 
-A tabela a seguir lista as informações fornecidas no Sub-relatório de Resumo P2P.
+A tabela a seguir lista as informações fornecidas no Sub-relatório resumo P2P.
   
-**Métricas do sub-relatório de resumo P2P**
+**Métricas de sub-relatório de resumo P2P**
 
 |**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Total de sessões** <br/> |Não  <br/> |Número total de sessões, incluindo sessões bem-sucedidas, com falha (tanto falhas esperadas quanto inesperadas) e sessões não categorizadas.  <br/> |
 |**Taxa de falha** <br/> |Não  <br/> |Percentual de sessões ponto a ponto que falharam.  <br/> |
-|**Sessões por modalidade** <br/> |Não  <br/> |Número total de sessões agrupadas por modalidade (por exemplo, mensagens instantâneas).  <br/> |
+|**Sessões por Modalidade** <br/> |Não  <br/> |Número total de sessões agrupadas por modalidade (por exemplo, mensagens instantâneas).  <br/> |
 |**Taxa de falha por modalidade** <br/> |Não  <br/> |Número total de sessões com falha agrupadas por modalidade (por exemplo, mensagens instantâneas).  <br/> |
    
 

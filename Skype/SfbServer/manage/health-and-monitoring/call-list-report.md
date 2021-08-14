@@ -1,5 +1,5 @@
 ---
-title: Relatório de Lista de Chamadas do Grupo de Resposta no Skype for Business Server
+title: Relatório de Lista de Chamada do Grupo de Resposta no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 'Resumo: saiba mais sobre o aplicativo Grupo de Resposta no Skype for Business Server.'
-ms.openlocfilehash: 416a0e7b7a7aebaeae84a00c04a7ab5c4e1a5bf8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre o aplicativo grupo de resposta no Skype for Business Server.'
+ms.openlocfilehash: 0761e58027260a4528f7764858ba54d00b4a9c146f32945222a4ed6763912b0e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345688"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Relatório de Lista de Chamadas do Grupo de Resposta no Skype for Business Server
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Relatório de Lista de Chamada do Grupo de Resposta no Skype for Business Server
 
-**Resumo:** Saiba mais sobre o aplicativo Grupo de Resposta no Skype for Business Server.
+**Resumo:** Saiba mais sobre o aplicativo grupo de resposta Skype for Business Server.
 
-O aplicativo Grupo de Resposta permite que o Skype for Business Server atenda e encaminhe chamadas telefônicas com base no número discado e, opcionalmente, nas respostas do chamador a uma série de perguntas. Normalmente, as chamadas do Grupo de Resposta não são roteadas a uma única pessoa, mas, em vez disso, são roteadas a uma equipe de pessoas chamada de grupo de agentes. Por exemplo, se alguém ligar para o número de telefone do seu help desk, o Skype for Business Server poderá roteá-la automaticamente para o primeiro agente de help desk disponível. Como alternativa, o Skype for Business Server pode fazer uma série de perguntas ("Pressione 1 se você estiver com problemas de hardware. Pressione 2 se estiver com problemas de software. Pressione 3 se você estiver com problemas de rede.") e, em seguida, roteie a chamada para o agente de help desk mais apropriado com base na resposta a essas perguntas.
+O aplicativo grupo de resposta fornece uma maneira de Skype for Business Server atender e rotear chamadas telefônicas com base no número que foi discado e, opcionalmente, nas respostas do chamador a uma série de perguntas. Normalmente, as chamadas do Grupo de Resposta não são roteadas a uma única pessoa, mas, em vez disso, são roteadas a uma equipe de pessoas chamada de grupo de agentes. Por exemplo, se alguém chamar o número de telefone do seu help desk, Skype for Business Server pode roteá-la automaticamente para o primeiro agente de atendimento de ajuda disponível. Como alternativa, Skype for Business Server poderia fazer uma série de perguntas ("Pressione 1 se você estiver com problemas de hardware. Pressione 2 se estiver com problemas de software. Pressione 3 se você estiver com problemas de rede.") e, em seguida, rotee a chamada para o agente de atendimento de ajuda mais apropriado com base na resposta a essas perguntas.
 
 O Relatório de lista de chamadas do grupo de resposta representa uma coleção de chamadas feitas por um período específico de tempo e para um tipo específico de chamada. O Relatório de uso de grupo de resposta (que deve ser aberto primeiro, antes de abrir o Relatório de lista de chamadas do grupo de resposta) reconhece os seguintes tipos de chamadas:
 
 - **Chamadas recebidas**. Número total de chamadas recebidas por todas as instâncias do aplicativo Grupo de Resposta.
 
-- **Chamadas bem-sucedidas**. Número total de chamadas atendendo pelo aplicativo Grupo de Resposta.
+- **Chamadas bem-sucedidas**. Número total de chamadas que foram atendendo ao aplicativo grupo de resposta.
 
 - **Chamadas oferecidas**. Número total de chamadas que foram transferidas ao um agente do Grupo de Resposta.
 
@@ -41,7 +41,7 @@ O Relatório de lista de chamadas do grupo de resposta representa uma coleção 
 
 ## <a name="accessing-the-response-group-call-list-report"></a>Como acessar o Relatório de Lista de Chamadas de Grupo de Resposta
 
-O Relatório de Lista de Chamadas do Grupo de Resposta só pode ser acessado clicando em uma das seguintes métricas encontradas no Relatório de Uso do Grupo de Resposta no [Skype for Business Server:](response-group-usage-report.md)
+O Relatório de Lista de Chamada do Grupo de Resposta só pode ser acessado clicando em uma das seguintes métricas encontradas no Relatório de Uso do Grupo de Resposta [em Skype for Business Server](response-group-usage-report.md):
 
 - Chamadas recebidas
 
@@ -57,7 +57,7 @@ O Relatório de Lista de Chamadas do Grupo de Resposta só pode ser acessado cli
 
 O Relatório de Lista de Chamadas de Grupo de Resposta permite que você limite os dados exibidos para chamadas que envolvem um fluxo de trabalho específico de Grupo de Resposta. Para fazer isso, você precisa inserir o URI do fluxo de trabalho (o endereço SIP do fluxo de trabalho) na caixa do URI do fluxo de trabalho. Antes que você possa fazer isso, no entanto, é necessário realmente poder ver a caixa do URI do fluxo de trabalho. Para exibir as opções de filtragem do Relatório de Lista de Chamadas de Grupo de Resposta, clique no botão Exibir/Ocultar Parâmetros, na parte superior esquerda da janela do relatório.
 
-Observe que a lista de chamadas do grupo de resposta não exibe informações sobre o código de Resposta nem do ID do Diagnóstico se você manter o mouse sobre uma dessas métricas. Se precisar de mais informações, você poderá anotar o código de resposta e/ou a ID de diagnóstico e, em seguida, procurar esses valores no Relatório de Falhas Principais no [Skype for Business Server.](top-failures-report.md)
+Observe que a lista de chamadas do grupo de resposta não exibe informações sobre o código de Resposta nem do ID do Diagnóstico se você manter o mouse sobre uma dessas métricas. Se precisar de mais informações, você poderá observar o código de resposta e/ou a ID de Diagnóstico e, em seguida, pesquisar esses valores no Relatório de Principais Falhas [no Skype for Business Server](top-failures-report.md).
 
 uma pergunta como esta: "Qual é o fluxo de trabalho individual que recebeu a maioria das chamadas?", é possível fazer o seguinte:
 

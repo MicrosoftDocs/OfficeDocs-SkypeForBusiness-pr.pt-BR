@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Coreia do Sul.
-ms.openlocfilehash: 3adf43e6e9aecda74af2232392b9dcfc281330fe
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6da4cd3ae830bd52120960cc827d754b8740b2a3da5451ee852431d3ac6ccf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098457"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343005"
 ---
 # <a name="availability-in-south-korea"></a>Disponibilidade na Coreia do Sul
 

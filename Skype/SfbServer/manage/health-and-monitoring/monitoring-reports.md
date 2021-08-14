@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 'Resumo: saiba mais sobre relatórios de monitoramento no Skype for Business Server.'
-ms.openlocfilehash: 32e16d02f458ca36fb18b52790966c68a354503e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Saiba mais sobre Relatórios de Monitoramento no Skype for Business Server.'
+ms.openlocfilehash: 8a1dd4e75b813f2208eb59f7608622b757d4f3ac58c93a012722afbc051a6de1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827761"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345558"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Usando relatórios de monitoramento no Skype for Business Server 
  
-**Resumo:** Saiba mais sobre relatórios de monitoramento no Skype for Business Server.
+**Resumo:** Saiba mais sobre Relatórios de Monitoramento Skype for Business Server.
   
-O Skype for Business Server inclui um conjunto de relatórios padrão publicados pelo Microsoft SQL Server Reporting Service. Esses relatórios, que podem ser acessados com um navegador da Web, oferecem informações sobre utilização, diagnóstico de chamadas e qualidade de mídia, todas baseadas nos registros de detalhes das chamadas (CDR) e de Qualidade da Experiência (QoE) armazenados nos bancos de dados de CDR e QoE.
+Skype for Business Server inclui um conjunto de relatórios padrão publicados pelo Microsoft SQL Server Reporting Service. Esses relatórios, que podem ser acessados com um navegador da Web, oferecem informações sobre utilização, diagnóstico de chamadas e qualidade de mídia, todas baseadas nos registros de detalhes das chamadas (CDR) e de Qualidade da Experiência (QoE) armazenados nos bancos de dados de CDR e QoE.
   
-Para usar esses relatórios, você deve instalar os Relatórios de Monitoramento em um computador que está executando uma instância do SQL Server.
+Para usar esses relatórios, você deve instalar Relatórios de Monitoramento em um computador que está executando uma instância do SQL Server.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Usando o Painel de Monitoramento no Skype for Business Server](monitoring-dashboard.md) Fornece aos administradores uma visão geral rápida da sua saúde do sistema e do uso do sistema.
+- [Usando o Painel de Monitoramento no Skype for Business Server](monitoring-dashboard.md) Fornece aos administradores uma visão geral rápida da saúde do sistema e do uso do sistema.
     
-- [Relatórios de uso do sistema no Skype for Business Server](system-usage-reports.md) Fornece informações de uso do sistema com base nos dados de CDR coletados pelo Skype for Business Server.
+- [Relatórios de uso do sistema em Skype for Business Server](system-usage-reports.md) Fornece informações de uso do sistema com base nos dados de CDR coletados por Skype for Business Server.
     
-- [Relatórios de Diagnóstico de Chamadas (por usuário) no Skype for Business Server](call-diagnostic-reports-per-user.md) Fornece informações por usuário sobre falhas em sessões ponto a ponto e de conferência.
+- [Chamar Relatórios de Diagnóstico (por usuário) Skype for Business Server](call-diagnostic-reports-per-user.md) Fornece informações por usuário sobre sessões ponto a ponto com falha e conferência.
     
-- [Relatórios de Diagnóstico de Chamadas no Skype for Business Server](call-diagnostic-reports.md) Fornece informações de resumo e dados de diagnóstico para falhas em sessões ponto a ponto e de conferência.
+- [Chamar Relatórios de Diagnóstico no Skype for Business Server](call-diagnostic-reports.md) Fornece informações resumidas e dados de diagnóstico para sessões ponto a ponto com falha e conferência.
     
-- [Relatórios de Diagnóstico de Qualidade de Mídia no Skype for Business Server](media-quality-diagnostic-reports.md) Fornece informações sobre a qualidade da chamada, bem como informações de diagnóstico e solução de problemas para chamadas com falha.
+- [Relatórios de diagnóstico de qualidade de mídia em Skype for Business Server](media-quality-diagnostic-reports.md) Fornece informações sobre a qualidade da chamada, bem como informações de diagnóstico e solução de problemas para chamadas com falha.
     
 ## <a name="locating-records"></a>Localizar registros
 
-Os relatórios de monitoramento mostram apenas um número limitado de registros na tela a qualquer momento. O número real de registros exibidos em uma tela varia de acordo com o relatório. Para exibir os registros que não são mostrados na tela no momento, você pode usar o controle padrão para frente e para trás (encontrado na barra de ferramentas de cada relatório) que permitem que você page os dados. Você pode saltar rapidamente para a primeira página ou a última página do conjunto de dados.
+Os relatórios de monitoramento mostram apenas um número limitado de registros na tela a qualquer momento. O número real de registros exibidos em uma tela varia de acordo com o relatório. Para exibir os registros que não são mostrados atualmente na tela, você pode usar o controle padrão para frente e para trás (encontrado na barra de ferramentas de cada relatório) que permite que você page pelos dados. Você pode saltar rapidamente para a primeira página ou a última página do conjunto de dados.
   
 Além disso, usando os controles para ir para frente e para trás, você pode também saltar para qualquer página no conjunto de dados simplesmente digitando o número da página na caixa **Página Atual** e pressionando ENTER.
   
@@ -49,7 +49,7 @@ Além de fornecer a capacidade de percorrer os dados, cada relatório também in
   
 Como observado, os relatórios de monitoramento fornecem apenas as funções mais básicas de pesquisa. Por exemplo, você não pode especificar em qual campo o valor deve ser encontrado. O mecanismo de pesquisa automaticamente procura valores correspondentes em cada campo de cada registro. Você não pode usar caracteres curinga em pesquisas e todas as pesquisas procura valores parciais. Isso significa que se você procurar 111 a pesquisa retorna o valor 111 junto com os valores 11100, 811, 3112, 611A5B e outros campos que incluam o valor 111 em qualquer lugar dentro desse campo.
   
-Cada relatório é configurado para exibir um conjunto de registros padrão. Por exemplo, por padrão o Relatório de Registro de Usuário exibe as atividades de registro de usuário da semana passada. Em alguns casos, isso pode resultar em um relatório que não retorna registros. Nesse caso, significa que nenhum registro de usuário ocorreu na semana passada. Se você vir a mensagem "Nenhum resultado combina com os filtros de relatório", tente alterar os valores de filtro (por exemplo, alterar o período de tempo para o mês passado em vez da semana passada) e tente novamente a consulta. Para obter detalhes, consulte "Filtragem de dados", seção que está mais adiante neste tópico.
+Cada relatório é configurado para exibir um conjunto de registros padrão. Por exemplo, por padrão o Relatório de Registro de Usuário exibe as atividades de registro de usuário da semana passada. Em alguns casos, isso pode resultar em um relatório que não retorna registros. Nesse caso, significa que nenhum registro de usuário ocorreu na semana passada. Se você vir a mensagem "Sem resultados que corresponderem aos filtros de relatório", tente alterar os valores do filtro (por exemplo, altere o período de tempo para o mês anterior, em vez da semana passada) e reexame a consulta. Para obter detalhes, consulte "Filtragem de dados", seção que está mais adiante neste tópico.
   
 ## <a name="filtering-data"></a>Filtragem de dados
 

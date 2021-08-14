@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: A nova Skype for Business de Relatórios do Centro de Administração mostra a atividade de chamada e audioconferência em sua organização. Ele permite que você faça uma análise de relatórios para dar uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório Skype for Business pools de minutos PSTN para ver o número de minutos consumidos durante o mês atual em sua organização.
-ms.openlocfilehash: 8c69a0555c95a7cb700b31db04103a0f7f502729
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 02f2d2bad1bbf948dfe9b39c49c389423437fd05877811c647220df41502c558
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342566"
 ---
 # <a name="pstn-minute-pools-report"></a>Relatório de pools de minutos PSTN
 
@@ -56,6 +56,8 @@ Este relatório, juntamente com os outros relatórios Skype for Business, fornec
 Você pode obter uma exibição nos pools de Skype for Business de minuto do usuário, observando cada uma das colunas exibidas.
   
 Esta é a aparência do relatório.
+  
+## 
 
 ![Skype for Business Relatório de pools de minutos PSTN](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   

@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: O painel Relatórios mostra a visão geral da atividade nos produtos Microsoft 365 ou Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de uso do dispositivo Skype for Business para ver os dispositivos, incluindo sistemas operacionais baseados em Windows e dispositivos móveis, que têm o aplicativo Skype for Business instalado e o estão usando para mensagens de IM e reuniões. Confira Relatórios de Atividades no centro de administração para saber mais.
-ms.openlocfilehash: d093e13a4f5895de2b31d00669e3aff3d28eee49
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f7a3269b19b2a051bfc6739b1c453bf33c7df1acf2976658a019e75c772d9223
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238236"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342676"
 ---
 # <a name="device-usage-report"></a>Relatório de uso de dispositivos
 
@@ -38,7 +38,7 @@ Confira a visão [geral relatórios](https://support.office.com/article/0d6dfb17
 Este relatório, juntamente com os outros relatórios Skype for Business, fornece detalhes sobre os tipos de clientes/dispositivos usados em toda a sua organização. Esses detalhes são muito úteis na investigação, no planejamento e na tomada de outras decisões de negócios para a sua organização.
   
 > [!NOTE]
-> Você pode ver todos os relatórios de Skype for Business quando fizer logoff como administrador no centro de administração Microsoft 365 local. 
+> Você pode ver todos os relatórios Skype for Business quando fizer logoff como administrador no Centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Como chegar ao relatório de uso do Skype for Business dispositivo
 

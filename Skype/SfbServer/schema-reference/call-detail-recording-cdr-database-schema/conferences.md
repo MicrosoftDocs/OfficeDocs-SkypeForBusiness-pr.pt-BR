@@ -1,5 +1,5 @@
 ---
-title: Tabela Conferences no Skype for Business Server 2015
+title: Tabela de conferências no Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,31 +13,31 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Cada registro nesta tabela contém detalhes de chamada sobre uma conferência.
-ms.openlocfilehash: 85da16807d6f314fb4f9239601c77a7aed2842ad
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d7079097b3eb29999d00a44b23f05127daf95ee4ad1eb87097ec9e77a93682b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813211"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343255"
 ---
-# <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabela Conferences no Skype for Business Server 2015
+# <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabela de conferências no Skype for Business Server 2015
  
 Cada registro nesta tabela contém detalhes de chamada sobre uma conferência.
   
 |**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primário  <br/> |Hora em que a solicitação de conferência foi capturada pelo agente CDR. Usado somente como chave primária para identificar exclusivamente uma instância de conferência.  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primário  <br/> |Hora em que a solicitação de conferência foi capturada pelo agente CDR. Usada apenas como uma chave primária para identificar exclusivamente uma instância de conferência.  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primário  <br/> |O número de ID para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma instância de conferência. * <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Externo  <br/> |URI da conferência. Consulte a [tabela ConferenceUris no Skype for Business Server 2015](conferenceuris.md) para obter mais informações. <br/> |
-|**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |Útil para conferências recorrentes; cada instância de uma conferência recorrente tem o mesmo **ConferenceUri**, mas terá um **ConfInstance diferente**. <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |URI da conferência. Consulte a [tabela ConferenceUris no Skype for Business Server 2015](conferenceuris.md) para obter mais informações. <br/> |
+|**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |Útil para conferências recorrentes; cada instância de uma conferência recorrente tem o mesmo **ConferenceUri**, mas terá uma **ConfInstance diferente.** <br/> |
 |**ConferenceStartTime** <br/> |datetime  <br/> | <br/> |Hora de início da conferência.  <br/> |
 |**ConferenceEndTime** <br/> |datetime  <br/> | <br/> |Hora de início da conferência.  <br/> |
-|**PoolId** <br/> |int  <br/> |Externo  <br/> |Número de identificação para identificar o pool no qual a conferência foi capturada. Consulte a [tabela Pools](pools.md) para obter mais informações. <br/> |
-|**OrganizerId** <br/> |Int  <br/> |Externo  <br/> |Número de ID para identificar o URI do organizador desta conferência. Consulte a [tabela Usuários para](users.md) obter mais informações. <br/> |
+|**PoolId** <br/> |int  <br/> |Foreign  <br/> |Número da ID para identificar o pool no qual a conferência foi capturada. Consulte a [tabela Pools para](pools.md) obter mais informações. <br/> |
+|**OrganizerId** <br/> |Int  <br/> |Foreign  <br/> |Número da ID para identificar o URI do organizador desta conferência. Consulte a [tabela Usuários para](users.md) obter mais informações. <br/> |
 |**Flag** <br/> |smallint  <br/> || Uma máscara de bits que contém atributos de conferência. Os valores possíveis são: <br/>  0X01 <br/>  Sintético <br/>  Transação <br/> |
 |**Processado** <br/> |bit  <br/> ||Campo interno usado pelo serviço de Monitoramento.  <br/> Este campo foi introduzido no Microsoft Lync Server 2013.  <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno pelo serviço de Monitoramento.  <br/> Esse campo foi introduzido no Skype for Business Server 2015.  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno pelo serviço de Monitoramento.  <br/> Este campo foi introduzido no Skype for Business Server 2015.  <br/> |
    
-\* Para a maioria das sessões, SessionIdSeq terá o valor 1. Se duas sessões começarem exatamente ao mesmo tempo, SessionIdSeq para uma será 1, e para a outra será 2 e assim por diante.
+\* Para a maioria das sessões, SessionIdSeq terá o valor de 1. Se duas sessões começarem exatamente ao mesmo tempo, SessionIdSeq para uma será 1 e para a outra será 2 e assim por diante.
   
 

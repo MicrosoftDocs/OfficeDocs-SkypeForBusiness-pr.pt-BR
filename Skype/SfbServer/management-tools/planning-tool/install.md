@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
-description: Antes de começar a projetar e planejar sua infraestrutura do Skype for Business Server 2015 usando a Ferramenta de Planejamento do Skype for Business Server 2015, você deve primeiro instalar a Ferramenta de Planejamento. A Ferramenta de Planejamento não precisa ser implantada em uma estação de trabalho ou servidor que faz parte do domínio ou da infraestrutura em que você planeja instalar o Skype for Business Server 2015. O arquivo Readme que acompanha a Ferramenta de Planejamento detalha informações importantes sobre como instalar e usar a ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
-ms.openlocfilehash: 29a3bd35191cf326cafd1f4ad4f14fab50e47ea3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Antes de começar a projetar e planejar sua infraestrutura Skype for Business Server 2015 usando a Ferramenta de Planejamento Skype for Business Server 2015, você deve primeiro instalar a Ferramenta de Planejamento. A Ferramenta de Planejamento não precisa ser implantada em uma estação de trabalho ou servidor que faça parte do domínio ou da infraestrutura em que você planeja instalar o Skype for Business Server 2015. O arquivo Readme que acompanha a Ferramenta de Planejamento detalha informações importantes sobre como instalar e usar a ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
+ms.openlocfilehash: ffa1bceca3e59e42276718b5f139ac6525d36f85face94c762ceebe3013c7487
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343405"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar a Ferramenta de Planejamento no Skype for Business Server 2015
 
-Antes de começar a projetar e planejar sua infraestrutura do Skype for Business Server 2015 usando a Ferramenta de Planejamento do Skype for Business Server 2015, você deve primeiro instalar a Ferramenta de Planejamento. A Ferramenta de Planejamento não precisa ser implantada em uma estação de trabalho ou servidor que faz parte do domínio ou da infraestrutura em que você planeja instalar o Skype for Business Server 2015. O arquivo Readme que acompanha a Ferramenta de Planejamento detalha informações importantes sobre como instalar e usar a ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
+Antes de começar a projetar e planejar sua infraestrutura Skype for Business Server 2015 usando a Ferramenta de Planejamento Skype for Business Server 2015, você deve primeiro instalar a Ferramenta de Planejamento. A Ferramenta de Planejamento não precisa ser implantada em uma estação de trabalho ou servidor que faça parte do domínio ou da infraestrutura em que você planeja instalar o Skype for Business Server 2015. O arquivo Readme que acompanha a Ferramenta de Planejamento detalha informações importantes sobre como instalar e usar a ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
 
 > [!IMPORTANT]
 > A Ferramenta de Planejamento exige a instalação por um usuário com direitos e permissões de administrador no computador no qual a ferramenta deve ser instalada.
@@ -56,15 +56,15 @@ Depois que os requisitos de pré-instalação são atendidos, você pode instala
 
 1. Faça logoff no computador local como membro do grupo Administradores.
 
-2. Usando o Windows Explorer ou uma janela de comando, localize o diretório onde você baixou os arquivos de instalação da Ferramenta de Planejamento.
+2. Usando Windows Explorer ou uma janela de comando, localize o diretório onde você baixou os arquivos de instalação da Ferramenta de Planejamento.
 
 3. Localize o SkypeForBusinessPlanningTool.msi. No Windows Explorer, clique duas vezes no arquivo. Na janela de comando, digite o nome do arquivo e pressione **Enter** para executar o arquivo.
 
-4. Na página De boas-vindas do **Skype for Business Server 2015, Assistente** de Instalação da Ferramenta de Planejamento, clique em **Próximo**.
+4. Na página Bem-vindo do **Skype for Business Server 2015, Assistente** de Instalação da Ferramenta de Planejamento, clique em **Próximo**.
 
 5. Revise o **Contrato de Licença de Usuário Final**, selecione **Aceito os termos do Contrato de Licença** se você escolher aceitar os termos de uso do contrato de licença e clique em **Avançar**.
 
-6. Escolha onde instalar os arquivos da Ferramenta de Planejamento. O local padrão é C:\Arquivos de Programas (x86)\Skype for Business Server 2015\Planning Tool. Se você quiser alterar o local de instalação, clique em **Alterar**. Em **Alterar pasta de destino**, procure ou digite o local para instalar os arquivos, clique em **OK** e clique em **Avançar**.
+6. Escolha onde instalar os arquivos da Ferramenta de Planejamento. O local padrão é C:\Arquivos de Programas (x86)\Skype for Business Server 2015\Ferramenta de Planejamento. Se você quiser alterar o local de instalação, clique em **Alterar**. Em **Alterar pasta de destino**, procure ou digite o local para instalar os arquivos, clique em **OK** e clique em **Avançar**.
 
 7. O instalador agora está pronto para instalar a Ferramenta de Planejamento. Clique em **Instalar** para começar o processo de instalação.
 
@@ -75,11 +75,11 @@ Depois que os requisitos de pré-instalação são atendidos, você pode instala
 ## <a name="optional-software"></a>Software opcional
 <a name="Optional_Software"> </a>
 
-A Ferramenta de Planejamento do Skype for Business Server 2015 foi projetada para exportar para o Microsoft Excel e o Microsoft Visio. Embora esses aplicativos não sejam necessários para a operação da Ferramenta de Planejamento, eles adicionam valor significativo à implantação e documentação do seu design.
+A Skype for Business Server de Planejamento 2015 foi projetada para exportar para o Microsoft Excel e o Microsoft Visio. Embora esses aplicativos não sejam necessários para a operação da Ferramenta de Planejamento, eles adicionam valor significativo à implantação e documentação do seu design.
 
 ### <a name="microsoft-excel"></a>Microsoft Excel
 
-Exportar seu design para o Microsoft Excel cria um relatório que exibe sete guias na planilha:
+Exportar seu design para Microsoft Excel cria um relatório que exibe sete guias na planilha:
 
 - Resumo - Exibe informações sobre a configuração do site, incluindo contagem de usuários, configurações de capacidade e informações de perfil de servidor.
 
@@ -102,9 +102,9 @@ Exportar seu design para o Microsoft Visio cria um diagrama para ser usado com s
 > [!NOTE]
 > Se seu design for grande o suficiente para exigir mais de três Servidores Front-End, uma página adicional será criada para o pool de Front-End, Servidores Front-End, o computador que executa SQL Server, endereços IP e FQDNs.
 
-- Topologia Global - Diagrama de sites configurados do Skype for Business Server 2015.
+- Topologia Global - Diagrama de sites Skype for Business Server 2015 configurados.
 
-- Guia Nome do Site - Exibe a topologia de configuração do site com Servidor de Borda, firewall, PSTN (rede telefônica pública comutado) com gateways e a implantação interna do servidor. A implantação interna consiste em servidores e pools configurados, incluindo os pools de Front-End, servidores baseados em SQL Server, Serviços de Domínio do Active Directory, Diretores, servidores de Unificação de Mensagens do Exchange (UM), Servidores de Caixa de Correio do Exchange, Servidores do Office Web Apps, Servidores de Mediação e Servidores de Chat Persistente.
+- Guia Nome do Site - Exibe a topologia de configuração do site com Servidor de Borda, firewall, PSTN (rede telefônica pública comutado) com gateways e a implantação interna do servidor. A implantação interna consiste em servidores e pools configurados, incluindo os pools de Front-End, servidores baseados em SQL Server, Serviços de Domínio do Active Directory, Diretores, servidores Exchange de Unificação de Mensagens (UM), Servidores de Caixa de Correio do Exchange, Servidores Office Web Apps, Servidores de Mediação e Servidores de Chat Persistente.
 
 - Diagrama de Rede de Borda - Diagrama detalhando a configuração do Servidor de Borda com endereços IP e FQDNs associados. Balanceamento de carga de DNS e balanceadores de carga de hardware também estão incluídos. Além disso, os Diretores e o Servidor front-end ou pool de front-end são exibidos, com DNS LB ou HLB associado e o endereço IP atribuído (a Ferramenta de Planejamento dá suporte a endereços IPv4 e IPv6) e FQDN.
 

@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostrarão os códigos de acesso necessários em cada país/região para discar o número gratuito.
-ms.openlocfilehash: 859ac9fc6cca0bcb13897fd4408a324359e435e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96f9f5c7578b11305318057e28a3404b731bff5ab5ff6b0162d04d703c7364d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097927"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342716"
 ---
 # <a name="toll-free-dialing-restrictions-in-luxembourg"></a>Restrições de discagem de chamada gratuita em Luxemburgo
 

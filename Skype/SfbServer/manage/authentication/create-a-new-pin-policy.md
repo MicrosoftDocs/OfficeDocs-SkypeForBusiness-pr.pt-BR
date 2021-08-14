@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
-description: 'Resumo: Crie uma nova política de PIN no Skype for Business Server.'
-ms.openlocfilehash: b0d1be74e509fbaddfc59250f4f5ce05a2021260
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: crie uma nova política de PIN Skype for Business Server.'
+ms.openlocfilehash: a4bacce5d6a3bcaae2d2c114b6b4dd7dfda5bf6147da4ba51c14abd4d10ed1d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345698"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Criar uma nova política de PIN no Skype for Business Server
  
-**Resumo:** Crie uma nova política de PIN no Skype for Business Server.
+**Resumo:** Crie uma nova política de PIN Skype for Business Server.
   
-Você pode usar a **página Política** de PIN para fornecer autenticação de PIN (número de identificação pessoal) para usuários que estão se conectando ao Skype for Business com telefones IP. Para usar a autenticação PIN, certifique-se de que **Habilitar Autenticação PIN** esteja selecionado nas configurações do Web Service.
+Você pode usar a **página Política de PIN** para fornecer autenticação de número de identificação pessoal (PIN) aos usuários que estão se conectando Skype for Business com telefones IP. Para usar a autenticação PIN, certifique-se de que **Habilitar Autenticação PIN** esteja selecionado nas configurações do Web Service.
   
 Siga estas etapas para criar uma política de PIN de nível de usuário ou de nível de site. 
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>Para criar uma política de PIN de usuário ou de site
 
-1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou Skype for Business Server.
     
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
     
 3. Na barra de navegação à esquerda, clique em **Segurança** e em **Política de PIN**.
     

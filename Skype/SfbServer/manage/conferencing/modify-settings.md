@@ -1,5 +1,5 @@
 ---
-title: Modificar configurações de reunião no Skype for Business Server
+title: Modificar as configurações de reunião no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: 'Resumo: Saiba como modificar as configurações de reunião no Skype for Business Server.'
-ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como modificar as configurações de reunião no Skype for Business Server.'
+ms.openlocfilehash: e1b283c5d50c955464d4af9b8f92f9e210f60f35a1fad5320c9f6bb8b6ede11d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343455"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar configurações de reunião no Skype for Business Server
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar as configurações de reunião no Skype for Business Server
  
 **Resumo:** Saiba como modificar as configurações de reunião no Skype for Business Server.
   
-Você pode modificar as configurações de reunião usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
+Você pode modificar as definições de configuração de reunião usando Skype for Business Server Painel de Controle ou usando Skype for Business Server Shell de Gerenciamento.
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modificar configurações de reunião usando o Painel de Controle do Skype for Business Server
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modificar definições de configuração de reunião usando Skype for Business Server Painel de Controle
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2.  Abra o Painel de Controle do Skype for Business Server.
+2.  Abra Skype for Business Server Painel de Controle.
     
 3. Na barra de navegação esquerda, clique **em Conferência** e em **Configuração de Reunião.**
     
@@ -39,7 +39,7 @@ Você pode modificar as configurações de reunião usando o Painel de Controle 
     
 6. Clique em **Confirmar**.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modificar configurações de reunião usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modificar configurações de reunião usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 
 Para modificar as configurações de reunião, use o cmdlet **Set-CsMeetingConfiguration.**
   

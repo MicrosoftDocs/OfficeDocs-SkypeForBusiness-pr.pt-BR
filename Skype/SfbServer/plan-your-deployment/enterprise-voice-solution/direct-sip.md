@@ -1,5 +1,5 @@
 ---
-title: Conexões SIP diretas no Skype for Business Server
+title: Conexões SIP diretas em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
-description: Há suporte para conexões SIP diretas entre o Skype for Business Server e gateways PSTN e IP-PBX em Enterprise Voice.
-ms.openlocfilehash: 7a70a6f3afd303ef5847993240b26b47d1b4ceac
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: As conexões SIP diretas são suportadas entre Skype for Business Server gateways PSTN e IP-PBX em Enterprise Voice.
+ms.openlocfilehash: cac0cf06843ed3bf623bd2d3bbe9e92cf6b32a091fd434ac4d422812cc59e60f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096411"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343365"
 ---
-# <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexões SIP diretas no Skype for Business Server
+# <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexões SIP diretas em Skype for Business Server
 
-Há suporte para conexões SIP diretas entre o Skype for Business Server e gateways PSTN e IP-PBX em Enterprise Voice.
+As conexões SIP diretas são suportadas entre Skype for Business Server gateways PSTN e IP-PBX em Enterprise Voice.
 
-Você pode usar conexões SIP diretas para conectar o Skype for Business Server a um dos seguintes:
+Você pode usar conexões SIP diretas para Skype for Business Server conectar um dos seguintes itens:
 
 - Um PBX IP
 
@@ -40,15 +40,15 @@ Para implantar uma conexão SIP direta, você segue, basicamente, as mesmas etap
 ### <a name="skype-for-business-server-stand-alone"></a>Skype for Business Server Stand-Alone
 <a name="BKMK_CommunicationsServerStand-Alone"> </a>
 
-Se sua organização usar uma das implantações descritas nesta seção, você poderá usar o Skype for Business Server como a única solução de telefonia para parte ou para toda uma organização. Esta seção descreve as seguintes implantações em detalhes:
+Se sua organização usa uma das implantações descritas nesta seção, você pode usar o Skype for Business Server como a única solução de telefonia para parte ou toda uma organização. Esta seção descreve as seguintes implantações em detalhes:
 
-- **Implantação incremental:** Essa opção supõe que você tenha uma infraestrutura de pbx (troca de filial privada) existente e pretende introduzir o Enterprise Voice incrementalmente para grupos ou equipes menores em sua organização.
+- **Implantação incremental:** Essa opção supõe que você tenha uma infraestrutura de pbx (troca de filial privada) existente e pretende apresentar o Enterprise Voice incrementalmente a grupos ou equipes menores em sua organização.
 
 - **Implantação somente voIP:** essa opção pressupo que você está pensando em implantar Enterprise Voice em um site que não tenha uma infraestrutura de telefonia tradicional.
 
 #### <a name="incremental-deployment"></a>Implantação Incremental
 
-Na implantação incremental, o Skype for Business Server é a única solução de telefonia para equipes ou departamentos individuais, enquanto o restante dos usuários em uma organização continua a usar um PBX. Essa estratégia de implantação incremental fornece uma maneira de introduzir a telefonia IP em sua empresa por meio de programas piloto controlados. Grupos de trabalho cujas necessidades de comunicação são melhor atendidas pela Microsoft Unified Communications são movidos para Enterprise Voice, enquanto outros usuários permanecem no PBX existente. Grupos de trabalho adicionais podem ser migrados para Enterprise Voice, conforme necessário.
+Na implantação incremental, Skype for Business Server é a única solução de telefonia para equipes ou departamentos individuais, enquanto o restante dos usuários em uma organização continua a usar um PBX. Essa estratégia de implantação incremental fornece uma maneira de introduzir a telefonia IP em sua empresa por meio de programas piloto controlados. Grupos de trabalho cujas necessidades de comunicação são melhor atendidas pela Microsoft Unified Communications são movidos para Enterprise Voice, enquanto outros usuários permanecem no PBX existente. Grupos de trabalho adicionais podem ser migrados para Enterprise Voice, conforme necessário.
 
 A opção incremental é recomendada se você tiver definido claramente grupos de usuários que têm requisitos de comunicação em comum e que se prestam ao gerenciamento centralizado. Essa opção também é eficaz se você tiver equipes ou departamentos espalhados por áreas geográficas amplas, onde a economia em encargos de longa distância pode ser significativa. Na verdade, essa opção é útil para criar equipes virtuais cujos membros podem ser espalhados pelo mundo. Você pode criar, modificar ou dispersar essas equipes em resposta rápida aos requisitos comerciais de mudança.
 
@@ -59,22 +59,22 @@ A figura a seguir mostra a topologia genérica para implantação de Enterprise 
 ![Diagrama de Opção de Migração De Departamento](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> Se você estiver conectando sua implantação do Skype for Business Server a um parceiro SIP direto certificado, não será necessário um gateway PSTN (rede telefônica pública comutado) entre o Servidor de Mediação e o PBX. Para ver uma lista de parceiros SIP diretos certificados, consulte o Programa de Interoperabilidade Aberta de Comunicações [Unificadas da Microsoft.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
+> Se você estiver conectando sua implantação Skype for Business Server a um parceiro SIP direto certificado, não será necessário um gateway PSTN (rede telefônica pública comutado) entre o Servidor de Mediação e o PBX. Para ver uma lista de parceiros SIP diretos certificados, consulte o Programa de Interoperabilidade Aberta de Comunicações [Unificadas da Microsoft.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
 
 > [!NOTE]
 > O caminho de mídia mostrado nesta figura tem bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia será roteado pelo Servidor de Mediação.
 
-Nesta topologia, os departamentos ou grupos de trabalho selecionados estão habilitados para Enterprise Voice. Um gateway PSTN vincula o grupo de trabalho habilitado para VoIP (Voice over Internet Protocol) para o PBX. Os usuários habilitados para Enterprise Voice, incluindo funcionários remotos, se comunicam pela rede IP. As chamadas Enterprise Voice usuários para o PSTN e para colegas de trabalho que não estão habilitados para Enterprise Voice são roteadas para o gateway PSTN apropriado. As chamadas de colegas que ainda estão no sistema PBX ou de chamadores no PSTN são roteadas para o gateway PSTN, que encaminha as chamadas para o Skype for Business Server para roteamento.
+Nesta topologia, os departamentos ou grupos de trabalho selecionados estão habilitados para Enterprise Voice. Um gateway PSTN vincula o grupo de trabalho habilitado para VoIP (Voice over Internet Protocol) para o PBX. Os usuários habilitados para Enterprise Voice, incluindo funcionários remotos, se comunicam pela rede IP. As chamadas Enterprise Voice usuários para o PSTN e para colegas de trabalho que não estão habilitados para Enterprise Voice são roteadas para o gateway PSTN apropriado. As chamadas de colegas que ainda estão no sistema PBX ou de chamadores no PSTN são roteadas para o gateway PSTN, que encaminha as chamadas para Skype for Business Server para roteamento.
 
-Há duas configurações recomendadas para Enterprise Voice conexão com uma infraestrutura PBX existente para interoperabilidade: Enterprise Voice atrás do PBX e Enterprise Voice na frente do PBX.
+Há duas configurações recomendadas para conectar o Enterprise Voice a uma infraestrutura PBX existente para interoperabilidade: Enterprise Voice atrás do PBX e Enterprise Voice na frente do PBX.
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice atrás do PBX
+#### <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice Atrás do PBX
 
 Quando Enterprise Voice é implantado por trás do PBX, todas as chamadas da PSTN chegam ao PBX, que encaminha chamadas para usuários Enterprise Voice para um gateway PSTN e chama usuários PBX para o PBX.
 
 #### <a name="enterprise-voice-in-front-of-the-pbx"></a>Enterprise Voice na frente do PBX
 
-Quando Enterprise Voice é implantado na frente do PBX, todas as chamadas chegam ao gateway PSTN, que encaminha chamadas para usuários do Enterprise Voice para o Skype for Business Server e chama usuários PBX para o PBX. As chamadas para o PSTN de usuários Enterprise Voice e PBX são roteados pela rede IP para o gateway PSTN mais eficiente em termos de custo. A tabela a seguir mostra as vantagens e desvantagens dessa configuração.
+Quando Enterprise Voice é implantado na frente do PBX, todas as chamadas chegam ao gateway PSTN, que encaminha chamadas para usuários Enterprise Voice para Skype for Business Server e chama usuários PBX para o PBX. As chamadas para o PSTN de usuários Enterprise Voice e PBX são roteados pela rede IP para o gateway PSTN mais eficiente em termos de custo. A tabela a seguir mostra as vantagens e desvantagens dessa configuração.
 
 **Vantagens e desvantagens da implantação Enterprise Voice na frente do PBX**
 
@@ -86,12 +86,12 @@ Quando Enterprise Voice é implantado na frente do PBX, todas as chamadas chegam
 
 #### <a name="voip-only-deployment"></a>VoIP-Only Implantação
 
-Enterprise Voice fornece novas empresas e também novos sites do office para empresas existentes, com a oportunidade de implementar uma solução VoIP com recursos completos sem ter que se preocupar com a integração pbx ou incorrer nos custos substanciais de implantação e manutenção de uma infraestrutura IP-PBX. Essa solução dá suporte a funcionários locais e remotos.
+Enterprise Voice fornece novas empresas e também novos sites do office para empresas existentes, com a oportunidade de implementar uma solução VoIP com recursos completos sem precisar se preocupar com a integração pbx ou incorrer nos custos substanciais de implantação e manutenção de uma infraestrutura IP-PBX. Essa solução dá suporte a funcionários locais e remotos.
 
-Nesta implantação, todas as chamadas são roteados pela rede IP. As chamadas para a PSTN são roteados para o gateway PSTN apropriado. O Skype for Business ou o Lync Phone Edition serve como um softphone. O controle de chamada remota não está disponível e desnecessário porque não há telefones PBX para os usuários controlarem. Os serviços de caixa postal e atendimento automático estão disponíveis por meio da implantação opcional da Unificação de Mensagens do Exchange (UM).
+Nesta implantação, todas as chamadas são roteados pela rede IP. As chamadas para a PSTN são roteados para o gateway PSTN apropriado. Skype for Business ou Lync Telefone Edition serve como um softphone. O controle de chamada remota não está disponível e desnecessário porque não há telefones PBX para os usuários controlarem. Os serviços de caixa postal e atendimento automático estão disponíveis por meio da implantação opcional de um Exchange Unificação de Mensagens (UM).
 
 > [!NOTE]
-> Além da infraestrutura de rede necessária para dar suporte ao Skype for Business Server, uma implantação somente VoIP pode usar um gateway pequeno e qualificado para dar suporte a máquinas de fax e dispositivos analógicos.
+> Além da infraestrutura de rede necessária para dar suporte a Skype for Business Server, uma implantação somente VoIP pode usar um gateway pequeno e qualificado para dar suporte a máquinas de fax e dispositivos analógicos.
 
 A figura a seguir mostra uma topologia típica para uma implantação somente VoIP.
 
@@ -110,7 +110,7 @@ Gateways PSTN são componentes de hardware de terceiros que convertem sinais e m
 
 Normalmente, uma empresa com vários sites implantaria um ou mais gateways em cada site. Os sites de filial podem se conectar ao PSTN por meio de um gateway ou por meio de um Aparelho de Filial Desavivável, que combina gateway e servidores em uma única caixa. Se os sites de filial usarem um gateway, um Registrador e um Servidor de Mediação serão necessários no site, a menos que o link WAN seja resiliente. Um ou mais Servidores de Mediação, que são alocados em Servidores Front-End, podem rotear chamadas para um ou mais gateways em cada site. Recomendamos que o Registrador, o Servidor de Mediação e o gateway necessários no site sejam implantados como um Aparelho de Filial Desavivável.
 
-Determinar o número, o tamanho e a localização dos gateways PSTN talvez seja a decisão mais importante e cara que você deve tomar ao planejar sua Enterprise Voice infraestrutura.
+Determinar o número, o tamanho e a localização dos gateways PSTN é talvez a decisão mais importante e cara que você deve tomar ao planejar sua infraestrutura de Enterprise Voice.
 
 Há várias perguntas a considerar. Tenha em mente que as respostas destas perguntas são interdependentes
 
@@ -126,7 +126,7 @@ Há várias perguntas a considerar. Tenha em mente que as respostas destas pergu
 
 Os Servidores de Mediação podem rotear chamadas por meio de vários gateways, controladores de borda de sessão (SBCs) fornecidos por provedores de serviços de telefonia da Internet ou uma combinação dos dois. Além disso, vários Servidores de Mediação no pool podem interagir com vários gateways. A rota lógica definida entre um Servidor de Mediação e um gateway é chamada de tronco. Quando um usuário interno faz uma chamada PSTN, a lógica de roteamento de saída no pool de Front-End escolhe qual tronco encaminhar de todas as combinações possíveis que podem estar disponíveis para rotear essa chamada específica. Com o balanceamento de carga DNS, se uma chamada não conseguir alcançar um gateway devido a um problema com um determinado Servidor de Mediação no pool, a chamada será recuperada para um Servidor de Mediação alternativo no pool.
 
-Para obter detalhes sobre o planejamento de vários gateways, consulte [Tronco M:N no Skype for Business Server](m-n-trunk.md).
+Para obter detalhes sobre o planejamento de vários gateways, consulte [Tronco M:N em Skype for Business Server](m-n-trunk.md).
 
 Para obter detalhes sobre outros aprimoramentos de roteamento de saída, consulte [Call Routes](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes).
 

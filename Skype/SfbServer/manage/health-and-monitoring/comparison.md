@@ -1,5 +1,5 @@
 ---
-title: Relatório de Comparação de Qualidade de Mídia no Skype for Business Server
+title: Relatório de Comparação de Qualidade de Mídia Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-description: 'Resumo: saiba mais sobre o Relatório de Comparação de Qualidade de Mídia no Skype for Business Server.'
-ms.openlocfilehash: bb8a14ae9685e53ed2441201b25449bdde3f9b0c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba mais sobre o Relatório de Comparação de Qualidade de Mídia Skype for Business Server.'
+ms.openlocfilehash: 4ce020e923d66d5d5ee3b8757f3259e35c65ecbb306cbce238d68e8c05351039
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345628"
 ---
-# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Relatório de Comparação de Qualidade de Mídia no Skype for Business Server
+# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Relatório de Comparação de Qualidade de Mídia Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Relatório de Comparação de Qualidade de Mídia no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Comparação de Qualidade de Mídia Skype for Business Server.
   
 O Relatório de Comparação de Qualidade da Mídia permite você comparar os valores de qualidade da chamada para diferentes tipos de chamadas de áudio (por exemplo, chamadas realizadas através de uma rede sem fio contra chamadas realizadas em uma conexão com fio).
   
@@ -39,9 +39,9 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
-|**Chamadas** <br/> | Tipo de chamada a ser usada como o item de comparação principal. Os valores permitidos são: <br/>  [Tudo] <br/>  Externo <br/>  Interno <br/>  VPN <br/>  Não VPN <br/>  Com fio <br/>  Sem fio <br/>  Externa e com fio <br/>  Externa e sem fio <br/>  Externa e VPN <br/>  Externa e não-VPN <br/>  Interna e com fio <br/>  Interna e sem fio <br/> |
-|**Comparar com chamadas** <br/> | Tipo de chamada a ser usada como o item de comparação secundária. Os valores permitidos são: <br/>  [Tudo] <br/>  Externo <br/>  Interno <br/>  VPN <br/>  Não VPN <br/>  Com fio <br/>  Sem fio <br/>  Externa e com fio <br/>  Externa e sem fio <br/>  Externa e VPN <br/>  Externa e não-VPN <br/>  Interna e com fio <br/>  Interna e sem fio <br/> |
-|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com uma data de início de 7/7/2015 e uma data de término de 28/02/2015, os dados serão exibidos para os dias 7/8/2015 12:00 a 7/9/2015 00:00 (ou seja, um total de 31 dias de dados). <br/> |
+|**Chamadas** <br/> | Tipo de chamada a ser usada como o item de comparação principal. Os valores permitidos são: <br/>  [Todos] <br/>  Externo <br/>  Interno <br/>  VPN <br/>  Não VPN <br/>  Com fio <br/>  Sem fio <br/>  Externa e com fio <br/>  Externa e sem fio <br/>  Externa e VPN <br/>  Externa e não-VPN <br/>  Interna e com fio <br/>  Interna e sem fio <br/> |
+|**Comparar com chamadas** <br/> | Tipo de chamada a ser usada como o item de comparação secundária. Os valores permitidos são: <br/>  [Todos] <br/>  Externo <br/>  Interno <br/>  VPN <br/>  Não VPN <br/>  Com fio <br/>  Sem fio <br/>  Externa e com fio <br/>  Externa e sem fio <br/>  Externa e VPN <br/>  Externa e não-VPN <br/>  Interna e com fio <br/>  Interna e sem fio <br/> |
+|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com uma data de início de 7/7/2015 e uma data de término de 28/02/2015, os dados serão exibidos para os dias 7/08/2015 12:00 a 7/09/2015 12:00 (ou seja, um total de 31 dias de dados). <br/> |
    
 ## <a name="metrics"></a>Métrica
 
@@ -52,7 +52,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Comparaçã
 |**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas.  <br/> |
-|**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média de degradação de MOS (pontuação média de opinião) experimentado durante uma chamada. Os valores de degradação podem variar de um baixo de 0,0 a um alto de 5,0; um valor de 0,5 ou menos representa degradação aceitável. Historicamente, os resultados de opinião médias eram calculados com os usuários taxando a qualidade de uma chamada em uma escala de 1 a 5. O Skype for Business Server usa um conjunto de algoritmos para prever como os usuários classificariam uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
+|**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média de degradação de MOS (pontuação média de opinião) experimentado durante uma chamada. Os valores de degradação podem variar de um baixo de 0,0 a uma alta de 5,0; um valor de 0,5 ou menos representa degradação aceitável. Historicamente, as pontuações médias de opinião foram calculadas fazendo com que os usuários taxam a qualidade de uma chamada em uma escala de 1 a 5. Skype for Business Server usa um conjunto de algoritmos para prever como os usuários classificariam uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
 |**Percentual de chamadas ruins** <br/> |Não  <br/> |O número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).  <br/> |
 |**Viagem de ida e volta (ms)** <br/> |Não  <br/> |Quantidade média de (em milissegundos) exigida para que um pacote de Protocolo de Transporte em Tempo Real viaje até outra extremidade e retorne. Tempos de viagem de ida e volta de 200 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Altos valores de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
 |**Perda de pacote** <br/> |Não  <br/> |Taxa média de perda de pacotes de Protocolo de Transporte em Tempo Real (RTP). (A perda de pacotes ocorre quando pacotes RTP, um protocolo usado para transmitir áudio e vídeo pela internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.  <br/> |

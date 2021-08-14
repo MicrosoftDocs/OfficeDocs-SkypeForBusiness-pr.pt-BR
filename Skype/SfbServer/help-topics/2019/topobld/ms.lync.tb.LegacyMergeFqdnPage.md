@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: O FQDN interno do Pool de Borda de Acesso é usado para uma variedade de cenários em que os usuários internos se comunicam com usuários externos para federação, acesso de usuário remoto e conectividade de IM pública. Se um Servidor de Borda com balanceamento de carga tiver sido implantado no seu ambiente herdado, insira o FQDN (nome de domínio totalmente qualificado) do balanceador de carga interno.
-ms.openlocfilehash: 9e4446a89b1f8976db4d325175c3e760865ac118
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0bfbff4fcd04d0e2e202febe8601079364d4a02e966449242b1e87693c5634f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827441"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342326"
 ---
 # <a name="legacy-merge-fqdn"></a>FQDN de Mesclagem de Legado
  

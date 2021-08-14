@@ -1,5 +1,5 @@
 ---
-title: Tabela Manufacturers no Skype for Business Server 2015
+title: Tabela fabricantes Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
-description: A tabela Manufacturers é uma tabela de suporte. Cada registro armazena informações sobre um fabricante de dispositivo (telefone de mesa).
-ms.openlocfilehash: f3cdd6e33732eb226cc2d99ff403495ac19f5567
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: A tabela Fabricantes é uma tabela de suporte. Cada registro armazena informações sobre um fabricante de dispositivo (telefone de mesa).
+ms.openlocfilehash: 5669f6d4b08fa70883d25509a3d0de88a4309086c125ddcb0146b05f064f94b9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343215"
 ---
-# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Tabela Manufacturers no Skype for Business Server 2015
+# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Tabela fabricantes Skype for Business Server 2015
  
-A tabela Manufacturers é uma tabela de suporte. Cada registro armazena informações sobre um fabricante de dispositivo (telefone de mesa).
+A tabela Fabricantes é uma tabela de suporte. Cada registro armazena informações sobre um fabricante de dispositivo (telefone de mesa).
   
 |**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|

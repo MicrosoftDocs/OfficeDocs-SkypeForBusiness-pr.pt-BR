@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
-description: No IPv4 externo, insira o endereço IP externo que aponta para o serviço de Borda de Acesso, serviço de Borda de Webconferência e serviço de Borda A/V.
-ms.openlocfilehash: 6535fecc1a6aa813807f7bd6d71fdf27a7d6874d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Em IPv4 externo, insira o endereço IP externo que aponta para o serviço de Borda de Acesso, serviço de Borda de WebConferência e serviço de Borda A/V.
+ms.openlocfilehash: c86fc50b11951a46311150cfffd4ed4d535c69d71ad149f34c691a83b9d65f6f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343615"
 ---
 # <a name="add-edge-machine-external-ipv4"></a>Adicionar IPv4 de Máquina Externa de Borda
  
-Em **IPv4** externo, insira o endereço IP externo que aponta para o serviço de Borda de Acesso, serviço de Borda de Webconferência e serviço de Borda A/V.
+Em **IPv4** externo, insira o endereço IP externo que aponta para o serviço de Borda de Acesso, serviço de Borda de WebConferência e serviço de Borda A/V.
   
 

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
-description: As exibições oferecem uma forma fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR. É recomendável que você use exibições para a criação de relatórios personalizados em vez de usar as tabelas de banco de dados CDR reais; isso porque as exibições de banco de dados têm maior probabilidade de manter a compatibilidade com versões futuras.
-ms.openlocfilehash: 0a3b40c9b31bb521075e78a1a8d46479200249d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: As exibições oferecem uma forma fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR. É recomendável que você use exibições para a criação de relatórios personalizados em vez de usar as tabelas de banco de dados CDR reais; isso porque os modo de exibição do banco de dados têm mais probabilidade de manter a compatibilidade com versões futuras.
+ms.openlocfilehash: 3e0598c33dac7fb139166a8dd9b82deed134a59e24d59cbe8c1884778cb627a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343235"
 ---
 # <a name="list-of-cdr-views"></a>Lista de exibições de CDR
  
-As exibições oferecem uma forma fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR. É recomendável que você use exibições para a criação de relatórios personalizados em vez de usar as tabelas de banco de dados CDR reais; isso porque as exibições de banco de dados têm maior probabilidade de manter a compatibilidade com versões futuras.
+As exibições oferecem uma forma fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR. É recomendável que você use exibições para a criação de relatórios personalizados em vez de usar as tabelas de banco de dados CDR reais; isso porque os modo de exibição do banco de dados têm mais probabilidade de manter a compatibilidade com versões futuras.
   
 |**Nome do Modo de Exibição**|**Descrição**|
 |:-----|:-----|
@@ -35,10 +35,10 @@ As exibições oferecem uma forma fácil de acessar informações sobre os cená
 |[Exibição FileTransfers](filetransfers.md) <br/> |Retorna informações sobre sessões de transferência de arquivos, incluindo o nome do arquivo e se a transferência foi aceitada, rejeitada ou cancelada.  <br/> |
 |[Exibição FocusJoinsAndLeaves](focusjoinsandleaves-0.md) <br/> |Retorna informações sobre as atividades de participação e saída da conferência.  <br/> |
 |[Exibição McuJoinsAndLeaves](mcujoinsandleaves-0.md) <br/> |Retorna informação combinada sobre as atividades de participação e saída da conferência (cada participação da conferência é emparelhada com a saída correspondente).  <br/> |
-|[Mcus view](mcus-0.md) <br/> |Retorna informações sobre os servidores de Conferência.  <br/> |
+|[Exibição Mcus](mcus-0.md) <br/> |Retorna informações sobre os servidores de Conferência.  <br/> |
 |[Exibição de mídia](media-0.md) <br/> |Retorna informações sobre os tipos de mídia usados nas sessões de comunicação ponto a ponto.  <br/> |
 |[Exibição ProgressReport](progressreport-0.md) <br/> |Retorna informações sobre as sessões concluídas.  <br/> |
-|[Exibição de registro](registration-0.md) <br/> |Retorna informações sobre registros com o Skype for Business Server 2015.  <br/> |
+|[Exibição de registro](registration-0.md) <br/> |Retorna informações sobre registros com Skype for Business Server 2015.  <br/> |
 |[Exibição SessionDetails](sessiondetails-0.md) <br/> |Retorna informações sobre as sessões ponto a ponto, incluindo chamadas de telefone VoIP-VoIP, sessões de IM de terceiros ou outras sessões de comunicação ponto a ponto.  <br/> |
 |[Exibição do usuário](user.md) <br/> |Retorna informações sobre os usuários que participaram das sessões de comunicação.  <br/> |
 |[Exibição VoIPDetails](voipdetails.md) <br/> |Retorna informações para sessões ponto a ponto envolvendo pelo menos um usuário VoIP (Voz por IP).  <br/> |
