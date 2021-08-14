@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 72f5f353f09df16512cefa3efc700fb254d8d1b385f76c5b3d3bd9e6030e7999
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328956"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Ofereça suporte a trabalhadores remotos usando o Microsoft Teams
 
@@ -84,7 +84,7 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
 
 1. Certifique-se de que seus funcionários tenham acesso a Internet e largura de banda adequados para o Teams. Use a orientação em [Prepare a rede de sua organização para o Teams](prepare-network.md) e aprenda sobre como obter a largura de banda adequada.
 
-   - A largura de banda limitada pode afetar a qualidade do áudio nas reuniões do Teams. Para garantir a melhor experiência de reunião com condições de pouca largura de banda, estimule os usuários a limitar o vídeo e a usar a PSTN para chamadas e áudio de reunião. 
+   - A largura de banda limitada pode afetar a qualidade do áudio nas reuniões do Teams. Para garantir a melhor experiência de reunião em condições de baixa largura de banda, incentive os usuários a limitarem o vídeo e a usarem o PSTN para chamadas e áudio da reunião. 
 
    - Leia esta postagem oportuna no blog (6 de março de 2020), [Como otimizar rapidamente o tráfego do Microsoft365 ou do Office 365 para a equipe remota e reduzir a carga em sua infraestrutura](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
 

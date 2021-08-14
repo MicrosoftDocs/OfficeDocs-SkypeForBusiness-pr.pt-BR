@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como provisionar e entrar remotamente em dispositivos Teams Android
-ms.openlocfilehash: b0c2658bac556febb9a4289fc5053c38feec32c343901ee679a744641f9f1144
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337969"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235376"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para dispositivos Teams Android
 
@@ -43,6 +43,8 @@ A lista a seguir mostra os requisitos de firmware de dispositivo Android.
 |Teams telefones|  Poly Trio C60|  7.0.2.1071|
 |Teams telefones|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams telefones|  Códigos de áudio C448HD/C450HD/C470HD|   1.10.120|
+|Teams painéis|  Crestron 770/1070|  1.004.0115|
+
 
 ## <a name="add-a-device-mac-address"></a>Adicionar um endereço MAC de dispositivo
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 8783845acbda7dce4e88cc489d096db4f2645e85
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 505aa480383f9787259f7a5c3a11507b2f6f4ecdbc4b189fc2be57479e7d35b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120200"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328716"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>Filtro URL: Criar Novo ou Editar Existente
 

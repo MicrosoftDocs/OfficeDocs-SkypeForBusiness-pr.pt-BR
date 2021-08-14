@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações gerais de política de reunião Teams.
-ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850292"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235206"
 ---
 # <a name="meeting-policy-settings---general"></a>Configurações de política de reunião - Geral
 

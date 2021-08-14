@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar o Telefone Microsoft System para sua empresa. '
-ms.openlocfilehash: ce4be849a1cf57dc47b6d41b84548b1e0e3591cdd2d963e60d5816c833579648
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f1bd1ff71a0f8eec818e005e430618a1ef69b340
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349044"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235016"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Veja o que você obtém com o Sistema de Telefonia
 
@@ -38,6 +38,10 @@ Os clientes estão disponíveis para PC, Mac e dispositivos móveis, que fornece
 
  > [!Note]
 > Para obter detalhes sobre Teams de telefone em diferentes plataformas, [consulte Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+
+Para usar Sistema de Telefonia recursos, sua organização deve ter uma Sistema de Telefonia de usuário. Para obter mais informações sobre licenciamento, confira [Licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+Esteja ciente de que a maioria dos recursos exige que você atribua a Sistema de Telefonia e verifique se os usuários estão "habilitados para voz". Para atribuir a licença, use o [cmdlet Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) e de definir o parâmetro **enterprisevoiceenabled** como $true. Alguns recursos, como o atendimento automático na nuvem, não exigem que um usuário seja habilitado para voz. Exceções são chamadas na tabela abaixo.
   
 ## <a name="phone-system-features"></a>Sistema de Telefonia recursos
 

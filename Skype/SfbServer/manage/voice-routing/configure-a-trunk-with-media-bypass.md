@@ -1,5 +1,5 @@
 ---
-title: Configurar um tronco com bypass de mídia Skype for Business Server
+title: Skype for Business Server - Configurar um tronco com bypass de mídia
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Siga estas etapas para configurar um tronco com bypass de mídia habilitado. '
-ms.openlocfilehash: 861a57c50aa7092bf654fb626d4f1e94e3b3449539d33ead72b4925f8b102f4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Como configurar um tronco com bypass de mídia habilitado. "
+ms.openlocfilehash: 72d0e4b3197fab76c0ac2963f3b1517e812862e9
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349243"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233976"
 ---
-# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurar um tronco com bypass de mídia Skype for Business Server
+# <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>Skype for Business Server - Configurar um tronco com bypass de mídia 
 
 Siga estas etapas para configurar um tronco com bypass de mídia habilitado. Para configurar um tronco com bypass de mídia desabilitado, consulte [Configure a trunk without media bypass in Skype for Business Server](configure-a-trunk-without-media-bypass.md). O bypass de mídia é útil quando você deseja minimizar o número de Servidores de Mediação implantados. Geralmente, um pool de Servidores de Mediação será implantado em um site central e controlará os gateways em sites locais. Habilitar o bypass de mídia permite que a mídia para chamadas PSTN de clientes em sites locais flua diretamente pelos gateways para estes sites. Skype for Business Server de chamadas de saída e Enterprise Voice políticas devem ser configuradas corretamente para que as chamadas PSTN de clientes em um site de filial sejam roteadas para o gateway apropriado.
 

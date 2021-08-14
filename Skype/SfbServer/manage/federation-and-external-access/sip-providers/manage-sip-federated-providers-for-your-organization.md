@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Saiba como configurar o suporte para usuários de provedores sip federados.
-ms.openlocfilehash: 8d4c6224a66454f8fb28bb4f991faf6ad672f596
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Saiba como configurar o suporte para usuários de provedores federados SIP.
+ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336691"
 ---
-# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Gerenciar provedores SIP federados para sua organização no Skype for Business Server
+# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Gerenciar provedores federados SIP para sua organização em Skype for Business Server
 
 Para configurar o suporte de usuários de provedores SIP federados, você precisará fazer o seguinte:
 
@@ -32,32 +32,32 @@ Para configurar o suporte de usuários de provedores SIP federados, você precis
 
   - Especifique quais provedores públicos de IM você deseja suportar
 
-## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>Criar ou editar provedores sip públicos federados no Skype for Business Server
+## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>Criar ou editar provedores federados SIP públicos Skype for Business Server
 
-A conectividade pública de mensagens instantâneas (IM) permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de mensagens instantâneas fornecidos por provedores públicos.
+A conectividade de mensagens instantâneas públicas (IM) permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de mensagens instantâneas fornecidos por provedores públicos.
 
-O Skype for Business Server tem configurações de provedor público para mensagens instantâneas. Cada provedor público é configurado com o nome de domínio totalmente qualificado do servidor de Borda do provedor e o nível de verificação padrão permite que os usuários se comuniquem somente com pessoas em sua lista de Contatos que usam esse **provedor.**
+Skype for Business Server tem configurações de provedor público para mensagens instantâneas. Cada provedor público é configurado com o nome de domínio totalmente qualificado do servidor de Borda do provedor e o nível de verificação padrão Permite que os usuários se comuniquem apenas com pessoas em sua lista de contatos que usam esse **provedor**.
 
-Como configuração padrão, nenhum dos provedores públicos está habilitado. Você deve concluir o contrato de licença e o trabalho de provisionamento antes de habilitá-los. Você pode habilitar o provedor antes de concluir o trabalho de licenciamento e provisionamento. Os usuários não poderão se comunicar com os contatos desses provedores até que o trabalho de pré-requisito seja concluído. Para obter detalhes sobre licenciamento e provisionamento de provedores públicos, consulte Configurar políticas [para controlar o acesso de usuários públicos.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+Como configuração padrão, nenhum dos provedores públicos está habilitado. Você deve concluir o contrato de licença e o trabalho de provisionamento antes de habilitá-los. Você pode habilitar o provedor antes de concluir o trabalho de licenciamento e provisionamento. Os usuários não poderão se comunicar com contatos nesses provedores até que o trabalho de pré-requisito seja concluído. Para obter detalhes sobre licenciamento e provisionamento de provedores públicos, consulte [Configure policies to control public usercces](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 Use o procedimento a seguir para criar ou editar provedores públicos.
 
 
 ### <a name="to-create-or-edit-public-providers"></a>Para criar ou editar provedores públicos
 
-1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação à esquerda, clique em **Federação e Acesso Externo** e em **Provedores Federados SIP**.
 
-4.  Se você precisar criar um novo provedor público, clique em **Novo** e em **Provedor público.**
+4.  Se você precisar criar um novo provedor público, clique em **Novo** e em **Provedor Público.**
 
 5.  Se você precisar editar uma entrada da lista de provedores públicos, selecione um provedor público, clique em **Editar** e em **Mostrar detalhes.**
 
 6.  Na página **Editar Provedor Federado SIP**, você pode digitar ou editar as seguintes configurações:
     
-      - **Habilitar comunicações com este provedor**   Selecionar essa configuração habilita as IMs com os usuários desse provedor.
+      - **Habilitar comunicações com esse provedor**   Selecionar essa configuração habilita o IM com os usuários desse provedor.
     
       - **Nome do provedor:**    Uma propriedade obrigatória, digite o nome do provedor conforme ele será refletido na listagem de Provedores Federados SIP.
     
@@ -69,9 +69,9 @@ Use o procedimento a seguir para criar ou editar provedores públicos.
 
 7.  Ao concluir a configuração das definições, clique em **Confirmar** para salvar ou em **Cancelar** para descartar as alterações.
 
-## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Criar ou editar provedores federados SIP hospedados no Skype for Business Server
+## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Criar ou editar provedores federados SIP hospedados em Skype for Business Server
 
-A conectividade de mensagens instantâneas (IM) do provedor hospedado permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de mensagens instantâneas fornecidos por provedores hospedados.
+A conectividade de mensagens instantâneas do provedor hospedado (IM) permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com os usuários dos serviços de mensagens instantâneas fornecidos por provedores hospedados.
 
 Cada provedor hospedado é configurado com o nome de domínio totalmente qualificado do servidor de Borda do provedor e o nível de verificação padrão **Permitir que os usuários se comuniquem somente com pessoas em suas listas de Contatos que usam este provedor**.
 
@@ -79,9 +79,9 @@ Use o procedimento a seguir para criar ou editar provedores hospedados.
 
 ### <a name="to-create-or-edit-hosted-providers"></a>Para criar ou editar provedores hospedados
 
-1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
 3.  Na barra de navegação à esquerda, clique em **Federação e Acesso Externo** e em **Provedores Federados SIP**.
 
@@ -95,7 +95,7 @@ Use o procedimento a seguir para criar ou editar provedores hospedados.
     
       - **Nome do provedor:**    Uma propriedade obrigatória, digite o nome do provedor conforme ele será refletido na listagem de Provedores Federados SIP.
     
-      - **Serviço de Borda de Acesso (FQDN):**   Uma propriedade necessária, digite o nome de domínio totalmente qualificado do serviço de Borda de Acesso do provedor hospedado que você está configurando. Esta informação deve ser fornecida pelo provedor hospedado, e só deve ser alterada se o provedor fizer uma mudança no FQDN do serviço de Borda de Acesso.
+      - **Serviço de Borda de Acesso (FQDN):**    Uma propriedade obrigatória, digite o nome de domínio totalmente qualificado do serviço de Borda de Acesso do provedor hospedado que estiver configurando. Esta informação deve ser fornecida pelo provedor hospedado, e só deve ser alterada se o provedor fizer uma mudança no FQDN do serviço de Borda de Acesso.
     
       - **Nível de verificação padrão:**    A configuração padrão, **Permitir que os usuários se comuniquem somente com pessoas em suas listas de Contatos que usam este provedor**, limitará a comunicação aos contatos que foram aceitos e estão em sua lista de contatos.
         
@@ -107,7 +107,7 @@ Use o procedimento a seguir para criar ou editar provedores hospedados.
 ## <a name="see-also"></a>Confira também
 
 
-[Configurar políticas para controlar as acessos de usuário público](../external-access-policies/configure-policies-to-control-public-user-access.md)
+[Configurar políticas para controlar as acções do usuário público](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [Habilitar ou desabilitar federação e conectividade de IM pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

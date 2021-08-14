@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: aaf94d1c2536fd96c7162eb29b9cf4b7c7e1a1b3
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237907"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330585"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Por que a ativação de número está pendente?
 
@@ -96,7 +96,7 @@ A validação de endereço é uma parte importante da configuração de Planos d
 8. Confira as informações e clique em **Enviar solicitação**.
     
 > [!TIP]
-> O número de referência será listado na página **Solicitações de** serviço no Microsoft 365 de administração.
+> O número de referência será listado na página **Solicitações de** serviço no Centro de administração do Microsoft 365.
 
 
 > [!NOTE]

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
 audience: admin
-description: Diretrizes para os profissionais de Microsoft 365 <2> <6> implantações em entidades que lidam com dados sujeitos à regulamentação do governo dos EUA
+description: Diretrizes para os profissionais de Microsoft 365 implantações em entidades que lidam com dados sujeitos à regulamentação do governo dos EUA
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ecc733c181e268dd6092f169e91d2f9acb4ee47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 989d1cbd469edac8a4d69c9b5ac18f2965ddf21e3d273411f740a82d4ab220f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330895"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planejar Microsoft 365 Government - GCC implantações
 
@@ -110,7 +110,7 @@ Determine seus requisitos de governança e como você pode atender a eles. Acess
 
 Depois de ter sido Microsoft 365 a GCC, siga o caminho de implantação recomendado descrito em [How to roll out Microsoft Teams](./deploy-overview.md). Certifique-se de se envolver com sua equipe de Gerenciamento de Alterações e adoção e Teams campeões.
 
-Você também pode trabalhar com [o FastTrack ou](https://www.microsoft.com/fasttrack) seu parceiro escolhido para integração ao serviço.
+Você também pode trabalhar com [FastTrack](https://www.microsoft.com/fasttrack) ou com seu parceiro escolhido para integrar o serviço.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Etapa 7. Implantar Teams reuniões e voz
 

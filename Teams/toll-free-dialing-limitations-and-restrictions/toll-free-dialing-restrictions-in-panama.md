@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre como discar números gratuitos no Panamá, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: f1dca1950854c5fc8b78b97fea3278018062f243
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e00830c9ee740ddd1108bc4952cff9349ba7c13d1b47edc7a7c8f9dd0bb9f84e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330835"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>Restrições de discagem de chamada gratuita no Panamá
 

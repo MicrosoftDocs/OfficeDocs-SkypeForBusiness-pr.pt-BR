@@ -22,15 +22,14 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a617cdabba70a836327f6b2153ccecacb5d695040c99007845c79e776e478a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20204d0c766a9ff248ff8354d9367a9903149d46
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321323"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235006"
 ---
-<a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatórios
-============================
+# <a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatórios
 
 Os rótulos de relatório são usados em sua organização para indicar os locais físicos de escritórios, edifícios ou sites organizacionais. A página Rótulos de relatório no centro de administração Microsoft Teams permite fornecer um arquivo de texto (.csv ou .tsv) contendo uma lista de locais físicos e suas sub-redes de rede associadas. Esse arquivo é usado pelo Call Analytics para gerar relatórios. Ao carregar o mapeamento de sub-rede, os relatórios fornecidos por esses serviços também conterão os nomes de local, facilitando a compreensão e o uso dos relatórios para a correção de possíveis problemas.
 

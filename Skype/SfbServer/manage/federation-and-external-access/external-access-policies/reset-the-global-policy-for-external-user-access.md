@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Não é possível excluir completamente uma política global. Usar a **opção Excluir** na política global apenas redefine a política global para as configurações padrão, que não incluem suporte para qualquer opção de acesso de usuário externo.
-ms.openlocfilehash: ebdd18d85570156a00cb4b31d36ec5660365223318ed748b799e9100c1deaaa5
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: a60516ce3eef125eb754d8d9635b3112d91d51dd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848666"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234816"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Redefinir a política global para acesso de usuário externo Skype for Business Server 
 

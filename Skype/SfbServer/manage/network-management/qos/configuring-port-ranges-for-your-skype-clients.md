@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Este artigo descreve como configurar intervalos de porta para seus clientes e configurar políticas de Qualidade de Serviço no Skype for Business Server para clientes em execução em Windows 10.
-ms.openlocfilehash: d2d38ff777322aa952efd427c7e528afbb0e333252aabec2a943b1a9007d0ca7
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 4d8736c9249bbef25438be7232d7802f3ddb3e9a
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591135"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234016"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de Qualidade de Serviço para seus clientes em Skype for Business Server
 
@@ -93,7 +93,7 @@ Para poder implementar o QoS, cada um destes intervalos de porta precisarão ser
 <td><p>20</p></td>
 </tr>
 <tr class="even">
-<td><p>Vídeo</p></td>
+<td><p>Vídeos</p></td>
 <td><p>58000</p></td>
 <td><p>20</p></td>
 </tr>
@@ -152,7 +152,7 @@ O exemplo a seguir usa esse conjunto de intervalos de porta para criar uma polí
 <td><p>20</p></td>
 </tr>
 <tr class="even">
-<td><p>Vídeo</p></td>
+<td><p>Vídeos</p></td>
 <td><p>58000</p></td>
 <td><p>20</p></td>
 </tr>

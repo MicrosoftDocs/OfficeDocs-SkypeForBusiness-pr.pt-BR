@@ -16,12 +16,12 @@ description: Saiba como comprar aplicativos de terceiros para Teams no Microsoft
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5fa6c57b009ce7a7d6fef7ce1dd353ae32521a690fda254e469159cf0661dcd0
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c87b81fecd1e6624f8c36b1eebbe74a79994b7db
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849672"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235186"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicativos de terceiros para Teams
 

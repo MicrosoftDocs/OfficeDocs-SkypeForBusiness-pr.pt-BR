@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Resumo: Gerencie a autenticação de dois fatores Skype for Business Server.'
-ms.openlocfilehash: d73f088798938da6f5a87a8d21fa2922188f3bdc35e589dcda32b3f62747f0d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db40d3c2f899ec40ba01e0a45304e147513b9c03
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297297"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235506"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gerenciar a autenticação de dois fatores Skype for Business Server
  
@@ -36,7 +36,7 @@ As Atualizações Cumulativas do Lync Server 2013: cliente de área de trabalho 
   
 ## <a name="topology-requirements"></a>Requisitos de topologia
 
-Os clientes são fortemente incentivados a implantar a autenticação de dois fatores usando Skype for Business Server com Pools de Borda, Diretor e Usuário. Para habilitar a autenticação passiva para usuários, outros métodos de autenticação devem ser desabilitados para outras funções e serviços, incluindo o seguinte:
+Os clientes são incentivados a implantar a autenticação de dois fatores usando Skype for Business Server com Pools de Borda, Diretor e Usuário. Para habilitar a autenticação passiva para usuários, outros métodos de autenticação devem ser desabilitados para outras funções e serviços, incluindo estes:
   
 |**Tipo de configuração**|**Tipo de serviço**|**Função de servidor**|**Tipo de autenticação a ser desabilitado**|
 |:-----|:-----|:-----|:-----|
@@ -53,7 +53,7 @@ Os registros DNS usados por clientes internos e/ou externos para descobrir Skype
   
 ## <a name="exchange-authentication"></a>Exchange Autenticação
 
-Os clientes que implantaram a autenticação de dois fatores para a Microsoft Exchange podem descobrir que determinados recursos no cliente estão indisponíveis. Isso é atualmente por design, pois o cliente Skype for Business não oferece suporte à autenticação de dois fatores para recursos que dependem da integração Exchange.
+Os clientes que implantaram a autenticação de dois fatores para a Microsoft Exchange podem descobrir que determinados recursos no cliente estão indisponíveis. Esse comportamento é por design, pois o cliente Skype for Business não oferece suporte à autenticação de dois fatores para recursos que dependem da integração Exchange.
   
 ## <a name="contacts"></a>Contatos
 
@@ -81,11 +81,11 @@ Se os usuários não são solicitados intencionalmente a solicitar credenciais a
   
 Para evitar o prompt adicional de credenciais, crie a seguinte entrada do Registro na estação de trabalho local ou use o modelo administrativo Skype for Business para aplicar a todos os usuários para um determinado pool usando a Política de Grupo:
   
-    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
-    REG_DWORD: DisableNTCredentials
-  
-    Value: 0x0
+REG_DWORD: DisableNTCredentials
+
+Valor: 0x0
   
 ### <a name="savepassword"></a>SavePassword
 
@@ -93,11 +93,11 @@ Quando um usuário faz logo Skype for Business pela primeira vez, o usuário é 
   
 A configuração do Registro **SavePassword** deve ser desabilitada quando Skype for Business estiver configurada para dar suporte à autenticação de dois fatores. Para impedir que os usuários salvam suas senhas, altere a seguinte entrada do Registro na estação de trabalho local ou use o modelo administrativo Skype for Business para aplicar a todos os usuários para um determinado pool usando a Política de Grupo:
   
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
+HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
-    REG_DWORD: SavePassword
+REG_DWORD: SavePassword
   
-    Value: 0x0
+Valor: 0x0
   
 ## <a name="ad-fs-20-token-replay"></a>Reprodução de token do AD FS 2.0
 
@@ -105,7 +105,7 @@ O AD FS 2.0 fornece um recurso conhecido como detecção de repetição de token
   
 Esse recurso deve ser habilitado em situações em que a segurança é uma preocupação muito alta, como ao usar quiosques. Para obter mais informações sobre a detecção de repetição de token, consulte [Best Practices for Secure Planning and Deployment of AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10)).
   
-## <a name="external-user-access"></a>Acesso de usuário externo
+## <a name="guest-user-access"></a>Acesso de usuário convidado
 
 A configuração de um Proxy ADFS ou Proxy Reverso para dar suporte Skype for Business autenticação de dois fatores de redes externas não é abordada nesses tópicos.
   

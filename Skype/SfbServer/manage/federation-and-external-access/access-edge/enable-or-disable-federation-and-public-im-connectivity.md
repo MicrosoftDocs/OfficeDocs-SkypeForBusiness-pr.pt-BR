@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: O suporte para federação é necessário para permitir que os usuários que têm uma conta com um cliente ou uma organização parceira confiável, incluindo domínios de parceiros e usuários de provedores de mensagens instantâneas públicas (IM) que você suporta, colaborem com usuários em sua organização.
-ms.openlocfilehash: f9c7b4ee7a861bc395c8599283f8d993b25ef4774d9487263e334207e9e277c8
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 105ed8a4090835be22847aa1ce2cc9788af74b5d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849966"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234166"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Habilitar ou desabilitar a conectividade de IM pública e federação Skype for Business Server
 

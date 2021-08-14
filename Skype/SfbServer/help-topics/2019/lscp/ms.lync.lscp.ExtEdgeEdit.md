@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: a0c5c997688ef22759cd788b14710653878ea739
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: baa38129ada19dbfca0b5a8dc0092c4745c5045d07578d811a4428b675d7c50e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328766"
 ---
 # <a name="access-edge-configuration-edit"></a>Configuração de Borda de Acesso: Editar
 

@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre como atribuir uma licença de usuário Sistema de Telefonia-Virtual ou uma licença de usuário Sistema de Telefonia paga a contas de recursos em sua organização.
-ms.openlocfilehash: 8e5322ccf7e3e7ad05c499b3dbcfdac65d0dfedb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2481d119bd1f053f0836c57d237d34edfbf6e260d9b8be9b9f7d40033dc6282a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116919"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328936"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Sistema de Telefonia – Licença do Usuário Virtual
 
@@ -65,7 +65,7 @@ A Contoso deve considerar o redesenho do atendimento automático e do sistema de
 Se você decidir alternar a licença em sua conta de recurso de uma Sistema de Telefonia para uma Microsoft 365 Sistema de Telefonia – Licença de usuário virtual:
 
 1. Obter a nova Microsoft 365 Sistema de Telefonia – Licença de usuário virtual.
-2. Siga as etapas vinculadas no centro de administração Microsoft 365 para [Mover usuários para uma assinatura diferente.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+2. Siga as etapas vinculadas no Administração Microsoft 365 para [Mover usuários para uma assinatura diferente.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > Sempre remova uma licença completa Sistema de Telefonia e atribua a licença Microsoft 365 Sistema de Telefonia – Usuário Virtual na mesma atividade de licença. Se você remover a licença antiga, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta de recurso poderá não funcionar mais conforme esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para a licença Microsoft 365 Sistema de Telefonia – Usuário Virtual e remova a conta de recurso quebrada. 

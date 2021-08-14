@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Na maioria das implantações de Skype for Business Server onde o controle de admissão de chamada (CAC) é implementado, normalmente haverá um grande número de sub-redes. Devido a isso, geralmente é melhor configurar sub-redes a partir do Shell Skype for Business Server Gerenciamento.
-ms.openlocfilehash: c42d0cf4a3970a354183de3bb39878f7955b8678aae93c4f0703257a1ae1f901
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: a31e8b40e0523b8bc0a4b90a97fb0ae98fbc7668
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591095"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234956"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Gerenciando sub-redes de rede no Skype for Business Server
 
@@ -137,7 +137,7 @@ Na maioria das implantações de Skype for Business Server onde o controle de ad
 6.  Clique em **OK**.
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)  
 

@@ -14,14 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para incorporar um Servidor de Monitoramento ao seu design de topologia, você deve especificar o FQDN (nome de domínio totalmente qualificado) do servidor no qual deseja implantar o Monitoring Server. Antes de publicar uma topologia que inclua o Servidor de Monitoramento e a instalação do Skype for Business Server no servidor, você deve concluir todos os pré-requisitos para implantar o monitoramento. Para obter detalhes sobre os pré-requisitos, consulte  Deploying Monitoring na documentação de Implantação.
-ms.openlocfilehash: 77d798de9136ed73d28d51c9a310f42187b33f25
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Para incorporar um Servidor de Monitoramento ao seu design de topologia, você deve especificar o FQDN (nome de domínio totalmente qualificado) do servidor no qual deseja implantar o Monitoring Server. Antes de publicar uma topologia que inclua o Monitoring Server e a instalação Skype for Business Server no servidor, você deve concluir todos os pré-requisitos para implantar o monitoramento. Para obter detalhes sobre os pré-requisitos, consulte  Deploying Monitoring na documentação de Implantação.
+ms.openlocfilehash: 8a347fd0122e2ac8cbb2119035615b32e473b96c63122dc6108a3086ad979f43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328516"
 ---
 # <a name="add-monitoring-server"></a>Adicionar Servidor de Monitoramento
 
-Para incorporar um Servidor de Monitoramento ao seu design de topologia, você deve especificar o FQDN (nome de domínio totalmente qualificado) do servidor no qual deseja implantar o Monitoring Server. Antes de publicar uma topologia que inclua o Servidor de Monitoramento e a instalação do Skype for Business Server no servidor, você deve concluir todos os pré-requisitos para implantar o monitoramento. Para obter detalhes sobre os pré-requisitos, consulte  [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring) na documentação de Implantação.
+Para incorporar um Servidor de Monitoramento ao seu design de topologia, você deve especificar o FQDN (nome de domínio totalmente qualificado) do servidor no qual deseja implantar o Monitoring Server. Antes de publicar uma topologia que inclua o Monitoring Server e a instalação Skype for Business Server no servidor, você deve concluir todos os pré-requisitos para implantar o monitoramento. Para obter detalhes sobre os pré-requisitos, consulte  [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring) na documentação de Implantação.

@@ -1,5 +1,5 @@
 ---
-title: Dial-in Conferencing (Planning Tool)
+title: Conferência discda (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
-description: A conferência discada do Skype for Business Server permite que os usuários participem da parte de áudio de uma conferência do Skype for Business Server usando um telefone PSTN sem a necessidade de um provedor de serviços de audioconferência de terceiros.
-ms.openlocfilehash: 3db6869688b2db05fb3d4bca416cb520f1560abd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server conferência discada permite aos usuários ingressar na parte de áudio de uma conferência Skype for Business Server usando um telefone PSTN (rede telefônica pública comutado) sem exigir um provedor de audioconferência de terceiros.
+ms.openlocfilehash: ebf5f5239f48f9362e6092bcaf867da74c513c073ff2215f32f7b594f1abb834
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328566"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
+# <a name="dial-in-conferencing-planning-tool"></a>Conferência discda (Ferramenta de Planejamento)
  
-A conferência discada do Skype for Business Server permite que os usuários participem da parte de áudio de uma conferência do Skype for Business Server usando um telefone PSTN sem a necessidade de um provedor de serviços de audioconferência de terceiros.
+Skype for Business Server conferência discada permite aos usuários ingressar na parte de áudio de uma conferência Skype for Business Server usando um telefone PSTN (rede telefônica pública comutado) sem exigir um provedor de audioconferência de terceiros.
   
-Para detalhes de planejamento sobre a habilitação da conferência discda para sua organização, consulte o tópico a seguir e os tópicos aos que ele se vincula: 
+Para detalhes de planejamento sobre como habilcar a conferência discagem para sua organização, consulte o tópico a seguir e os tópicos aos que ele se vincula: 
   
-- [Planejar a conferência no Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Planejar conferências em Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
 

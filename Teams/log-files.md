@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre logs de depuração, mídia e área de trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eba1acc94f87e59991230a85054cad14678efc9c92b8efa96567b81ef4e65ed6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a39078371ffa30caab6ee43df90bc825c4c081a3
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350893"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235316"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar Microsoft Teams
 
@@ -114,7 +114,6 @@ Consulte a _seção Coletar e habilitar o registro em log_ para obter Windows e 
 Para coletar logs para Linux: clique no ícone Microsoft Teams na bandeja do sistema e selecione **Obter Logs.**
 Os arquivos estarão disponíveis em ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
-
 ## <a name="browser-trace"></a>Rastreamento do navegador
 
 Para algumas categorias de erros, o Suporte da Microsoft pode exigir que você colete um rastreamento do navegador. Essas informações podem fornecer detalhes importantes sobre o estado do cliente Teams quando o erro ocorrer.
@@ -132,7 +131,22 @@ Depois de entrar, selecione um dos links a seguir, conforme apropriado para seu 
 -   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> Nas etapas, substitua todas as referências ao portal do Azure pelo Teams cliente. 
+> Nas etapas, substitua todas as referências ao portal do Azure pelo Teams cliente.
+  
+## <a name="webrtc-logs-in-browsers"></a>Logs webRTC em navegadores
+Os logs webRTC podem ajudar o Suporte da Microsoft fornecendo detalhes de conexão para chamadas de áudio e vídeo. Siga as etapas para acessar os logs WebRTC no Edge (Chromium) ou Chrome: 
+  
+1.  Abra uma nova guia e vá para uma das seguintes URLs:
+    -   Borda (Chromium): "edge://webrtc-internals/"
+    -   Chrome: "chrome://webrtc-internals/"
+  
+2.  Abra o Teams Web e reproduza o problema.
+  
+3.  Volte para a guia acessada na etapa 1 e você verá pelo menos duas guias:
+    -   Solicitações GetUserMedia
+    -   https://teams.microsoft.com/url
+
+4.  Escolha a guia com o nome do aplicativo Teams e salve o conteúdo da página.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

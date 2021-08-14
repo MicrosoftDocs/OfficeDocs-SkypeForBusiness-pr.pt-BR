@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76348dcbc71c706915db3d8ad9a21e65ad6abdd7d661a8bace6c6e6d349ae116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d12f09fe5043093b55e57d32bb70d9c332157511
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292878"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234426"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para visualização de Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "54292878"
 > As transmissões somente para visualização estão disponíveis no Microsoft 365 E3/E5 e Microsoft 365 A3/A5. Este recurso será habilitado em 1º de março de 2021 como DESLIGADO padrão. O recurso no Microsoft 365 Government Community Cloud (GCC) começará a ser implementado no final de março de 2021. Government Community Cloud High (GCCH) e Department of Defense (DoD) serão implementados posteriormente. Você deve alterar a política padrão após essa data se quiser que o recurso seja ativado por padrão. Use o Windows PowerShell para habilitar a política `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
-> Se sua reunião atingir a capacidade, Teams será dimensionada perfeitamente para acomodar uma experiência de transmissão somente para exibição de 10.000 pessoas. Além disso, durante este período de maior trabalho remoto, aproveite as transmissões ainda maiores para 20.000 pessoas até o final deste ano.
+> Se sua reunião atingir a capacidade, Teams será dimensionada perfeitamente para acomodar uma experiência de transmissão somente para exibição de 10.000 pessoas. Além disso, durante este período de maior trabalho remoto, aproveite as transmissões ainda maiores para 20.000 pessoas até o final deste ano. Atualmente, os Webinars não suportam uma experiência de transmissão somente para exibição.
 
 O Microsoft Teams permite que até 10.000 participantes participem de uma reunião do Teams. Depois que a capacidade da reunião principal for atingida (que é quando 1.000 usuários entram em uma reunião), os participantes adicionais ingressarão com uma experiência somente de exibição.
 
@@ -40,7 +40,7 @@ Os participantes que ingressarem depois que a capacidade da reunião principal f
 Os participantes poderão ingressar na experiência somente para exibição por meio de desktop, web e Teams mobile (Android e iOS).
 
 > [!Note]
-> A capacidade de limite atual da "reunião principal", ou seja, o número de usuários totalmente interativos é 1000 e inclui GCC.
+> A capacidade de limite atual da "reunião principal", ou seja, o número de usuários totalmente interativos é 1000 e inclui GCC e webinars.
 
 ## <a name="teams-view-only-experience-controls"></a>Teams de experiência somente exibição
 
