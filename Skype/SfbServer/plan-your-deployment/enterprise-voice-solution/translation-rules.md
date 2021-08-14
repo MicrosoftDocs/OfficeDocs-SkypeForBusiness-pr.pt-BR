@@ -1,5 +1,5 @@
 ---
-title: Regras de conversão no Skype for Business Server
+title: Regras de conversão em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
-description: Saiba mais sobre regras de conversão e normalização de cadeia de caracteres de discagem no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: d02e4d3b84c03ee40dddbcb9b174adb66dcd6cd0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba mais sobre regras de conversão e normalização da cadeia de caracteres de discagem Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: c053ea0244c6b8d0578b9776da9d7ecd40bb8043b0f5884c9d7437b688f5dd65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352689"
 ---
-# <a name="translation-rules-in-skype-for-business-server"></a>Regras de conversão no Skype for Business Server
+# <a name="translation-rules-in-skype-for-business-server"></a>Regras de conversão em Skype for Business Server
 
-Saiba mais sobre regras de conversão e normalização de cadeia de caracteres de discagem no Skype for Business Server Enterprise Voice.
+Saiba mais sobre regras de conversão e normalização da cadeia de caracteres de discagem Skype for Business Server Enterprise Voice.
 
  Enterprise Voice requer que todas as cadeias de caracteres de discagem sejam normalizadas para o formato E.164 com a finalidade de executar a RNL (busca de número reverso). As regras de conversão são suportadas para números chamados e números de chamadas. O partrunk (ou seja, o gateway associado, PBX (private branch exchange) ou tronco SIP) pode exigir que os números sejam em um formato de discagem local. Para converter os números do formato E.164 em um formato de discagem local, você pode definir uma ou mais regras de conversão para manipular a URI da solicitação antes de roteá-la para o ponto do tronco. Por exemplo, é possível elaborar uma regra de conversão para remover o +44 do início de uma cadeia de caracteres de discagem e substituí-lo por 0144.
 

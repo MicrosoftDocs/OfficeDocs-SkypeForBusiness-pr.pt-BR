@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Configurações de tronco SIP serverModify
+title: Modificar configurações de tronco SIP em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'As configurações de tronco SIP definem a relação e os recursos entre um Servidor de Mediação e o gateway de rede telefônica pública comutado, um PBX (exchange de filial pública IP) ou um Controlador de Borda de Sessão (SBC) no provedor de serviços. '
-ms.openlocfilehash: befb9aac46d815cd89b25104c11a08ef2653a7ab
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: 'As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. '
+ms.openlocfilehash: 73ab5eed311cf10b674034edad58afce0f6e66c9deb5b763e8ef0f38b95822a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351481"
 ---
-# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for Business Configurações de tronco SIP serverModify
+# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar configurações de tronco SIP em Skype for Business Server
 
 As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. Estas configurações fazem coisas como especificar:
 
@@ -44,12 +44,12 @@ Ao modificar as configurações de tronco SIP usando o Painel de Controle do Ser
 |Habilitar dados de encaminhamento P-Asserted-Identity|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador.|
 |Habilitar timer de failover do roteamento de saída|EnableFastFailoverTimer|Indica se chamadas de saída não atendidas pelo gateway em 10 segundos serão roteadas ao próximo tronco disponível; se não houver troncos adicionais, a chamada cairá automaticamente. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente.|
 |Uso associado de PSTNsages|PSTNUsages|Coleção de usos de PSTN atribuídos ao tronco.|
-|Número convertido para testar|N/D|Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.|
+|Número convertido para testar|N/A|Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.|
 |Regras de conversão associadas|OutboundTranslationRulesList|Coleção de regras de conversão de números de telefone que se aplicam a chamadas tratadas pelo Roteamento de saída (chamadas roteadas para destinos de PBX ou PSTN).|
 |Regras de conversão do número chamado|OutboundCallingNumberTranslationRulesList|Coleção de regras de conversão do número de chamada de saída atribuído ao tronco.|
-|Número de telefone a ser de testado.|N/D|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
-|Número de chamada|N/D|Indica que o número de telefone a ser testado é o número do chamador.|
-|Número chamado|N/D|Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.|
+|Número de telefone a ser de testado.|N/A|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
+|Número de chamada|N/A|Indica que o número de telefone a ser testado é o número do chamador.|
+|Número chamado|N/A|Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.|
 |||
 
 > [!Note]

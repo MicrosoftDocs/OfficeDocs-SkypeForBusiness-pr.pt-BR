@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Croácia.
-ms.openlocfilehash: 27f51dba37a62519d87098ddd205905a44d92e33
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7a273871c5d090365738222f319254900c95679d1b9554094697f6ffb2c21168
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352389"
 ---
 # <a name="availability-in-croatia"></a>Disponibilidade na Croácia
 

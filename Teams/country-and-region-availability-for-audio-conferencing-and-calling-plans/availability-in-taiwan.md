@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 Office 365 de Skype for Business e Microsoft Teams disponíveis para Taiwan.
-ms.openlocfilehash: 3c7c07273953b5b32d212bf33c2f106f2ff45ec9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 84621398fd8e82ff5a0a6412bfd868e137cff56b11f496a408eb31ef14743986
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352339"
 ---
 # <a name="availability-in-taiwan"></a>Disponibilidade em Taiwan
 

@@ -1,6 +1,6 @@
 ---
 title: Como usar Microsoft Teams painéis
-ms.author: serdars
+ms.author: v-mdhiman
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece orientações sobre como usar dispositivos Teams painéis.
-ms.openlocfilehash: f00136f5ef7b448531c16d388ac879a26b53c2cc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 28026f53f53fcb7b489abe3cf7d12a82d25f335907b1044591f92d4884853e03
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325058"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Como usar Microsoft Teams painéis
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 94e872130c57d08d509a99d6a2a1b593a79eb54f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0193b97c1c2fa6134b0ab5865dfc9d7306e796d0abf562856ad55ad36b3e5ef5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351731"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -60,16 +60,16 @@ Se você estiver se perguntando qual é o custo das chamadas para Planos de Cham
 Para usar números de chamada gratuita, os Créditos de Comunicação são necessários, pois essas chamadas são cobradas por minuto. Além disso, recomendamos configurar créditos de comunicação para seus usuários de Plano de Chamada e Audioconferência que precisam da capacidade de discar para qualquer **destino PSTN.** Muitos países/regiões estão incluídos, mas alguns destinos podem não estar incluídos em seu Plano de Chamada ou assinaturas de Audioconferência. Se você não configurar Créditos de Comunicação ou atribuir uma licença aos usuários e ficar sem minutos para sua organização (dependendo do plano de chamadas, do plano de audioconferência ou do país/região), esses usuários não poderão fazer chamadas ou discar em reuniões de Audioconferência Online.
   
 > [!NOTE]
-> Você deve configurar créditos de comunicações e atribuir uma licença de Créditos de Comunicações para cada usuário no centro de administração Microsoft 365  >  **Usuários**  >  **Ativos**. As licenças de Créditos de Comunicações serão exibidas como ilimitadas em quantidade à medida que elas são usadas para conceder acesso ao saldo de Créditos de Comunicações para qualquer usuário ao qual você atribua a licença de Créditos de Comunicação.
+> Você deve configurar créditos de comunicação e atribuir uma licença de Créditos de Comunicação para cada usuário no Centro de administração do Microsoft 365  >  **Usuários**  >  **Ativos**. As licenças de Créditos de Comunicações serão exibidas como ilimitadas em quantidade à medida que elas são usadas para conceder acesso ao saldo de Créditos de Comunicações para qualquer usuário ao qual você atribua a licença de Créditos de Comunicação.
   
 É recomendável avaliar cuidadosamente o uso do Serviço PSTN da sua organização para entender a melhor configuração para Créditos de Comunicação. Você pode ver mais sobre serviços PSTN lendo Sistema de Telefonia [e Planos](calling-plan-landing-page.md) de Chamada e [Audioconferência perguntas comuns.](Audio-Conferencing-common-questions.md)
   
 Você pode configurar a cobrança  de consumo usando um financiamento único do saldo **pré-pago** **OU** configurando um valor de recarga automática **(** recomendado ) com um saldo mínimo que disparará uma compra para esse valor de recarga. Inicialmente, é sugerido que você configure valores de recarga automática que permitam monitorar o uso real e encontrar os limites certos de recarga automática que atendam às suas necessidades e padrões de uso. Os Créditos de Comunicações devem ser monitorados ao longo do tempo e, em seguida, ajustar o saldo mínimo e os valores de recarga conforme necessário para serem adaptados para as necessidades de cada organização.
   
 > [!NOTE]
-> Você pode ver os planos [](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e os preços ao entrar no centro de administração Microsoft 365 e ir para Cobrança  >  **de Assinaturas**  >  **Adicionar assinaturas**. 
+> Você pode ver os planos e os preços ao entrar no Centro de administração do Microsoft 365 [e](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) ir para **Cobrança**  >  **Assinaturas**  >  **Adicionar assinaturas**. 
   
-No centro **Microsoft 365** de administração Cobrança de Serviços de Compra Adicionar  >    >    >  **Ons,** você pode selecionar Créditos de Comunicação para adicionar os créditos, e você pode adicionar crédito manualmente a qualquer momento. Você também pode habilitar a opção **Recarga automática**, que permitirá a recarga automática da conta quando o saldo ficar abaixo do limite definido. Se você optar por financiar seu saldo de Créditos de Comunicação com um valor único e, em seguida, o saldo cair para zero, os cenários de chamadas adicionais acima não funcionarão mais, incluindo números de telefone gratuitos. Como tal, é recomendável que  você use a configuração de recarga automática para evitar qualquer interrupção do serviço caso o saldo de Créditos de Comunicação atinja 0 (zero). Você pode exibir seu saldo atual de Créditos de Comunicação, indo para **Cobrança**  >  **dos Créditos** de Comunicações  >  **de Seus produtos.**
+Na **Centro de administração do Microsoft 365** Adicionar Serviços de Compra de Cobrança, você pode selecionar Créditos de Comunicação para adicionar os créditos e adicionar crédito manualmente a  >    >    >   qualquer momento. Você também pode habilitar a opção **Recarga automática**, que permitirá a recarga automática da conta quando o saldo ficar abaixo do limite definido. Se você optar por financiar seu saldo de Créditos de Comunicação com um valor único e, em seguida, o saldo cair para zero, os cenários de chamadas adicionais acima não funcionarão mais, incluindo números de telefone gratuitos. Como tal, é recomendável que  você use a configuração de recarga automática para evitar qualquer interrupção do serviço caso o saldo de Créditos de Comunicação atinja 0 (zero). Você pode exibir seu saldo atual de Créditos de Comunicação, indo para **Cobrança**  >  **dos Créditos** de Comunicações  >  **de Seus produtos.**
 
 > [!NOTE]
 >Você receberá emails para todos os usuários **com** Administrador de Serviço do Lync, Administrador da Empresa, Administrador de Cobrança, Administrador da Empresa, Administrador de Conta de Usuário, Administrador do Helpdesk, Administrador de Suporte ao Serviço, Administrador de Cobrança, Administrador de Serviços do Lync, Administrador de Aplicativos, Administrador de Licença, Administrador de Dispositivo de Nuvem, Administrador de Autenticação Privilegiada Teams, Administrador de Autenticação Privilegiada, Administrador de Comunicações do Teams, Engenheiro de Suporte de Comunicações, Especialista de Suporte de Comunicações do Teams, funções de administrador do Teams, quando as transações de recarga são bem-sucedidas, as transações de recarga falham (como um cartão de crédito expirado) e ou seu saldo de Créditos de Comunicações atinge 0 (zero).
@@ -118,7 +118,7 @@ Você pode ver os planos e os preços visitando um dos seguintes links:
     
 - [Sistema de Telefonia](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-Você também pode ver informações sobre preços ao entrar no centro de administração Microsoft 365 [e](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) ir para **Serviços de** Compra de  >  **Cobrança.**
+Você também pode ver informações sobre preços ao [entrar no](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) Centro de administração do Microsoft 365 e ir para Serviços de Compra **de**  >  **Cobrança.**
   
 Para ver uma tabela com a licença ou licenças que você precisará para cada recurso, [consulte Microsoft Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
