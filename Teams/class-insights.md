@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0048b4b4b7c58f5a967cca40122b424d0af42b8d6229c3e50f326be2804ca5ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c55733e6175efb4adb02a621210ddc5d78ac9f6
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322763"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234186"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -210,14 +210,22 @@ Sinta-se à vontade para distribuir o seguinte material para seus **educadores**
 Material para **líderes educacionais**:
 *   [Página de suporte do Insights para organizações de educação.](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)
 
-## <a name="turn-insights-on-or-off"></a>Ativar ou desativar o Insights
-Por padrão, o Insights está ativado. Quando você optar por não participar, *apagamos todos os dados coletados* para o Insights. Ative novamente o Insights e começamos a coletar dados a partir do momento em que ele é reativado.
+### <a name="turn-insights-on-or-off"></a>Ativar ou desativar o Insights
+
+Por padrão, o Insights é ativado, o que nos permite coletar análises das atividades dos alunos no Teams, a serem usadas em Insights. Você pode optar por recusar o Insights. Nesse caso, podemos excluir *todos os dados coletados* para o Insights e parar de coletar dados futuros. Se você ativar novamente o Insights, iniciaremos a coleta de dados a partir do momento em que eles forem reabilitar.
+
+* Para ativar ou desativar o Insights, abra o centro de administração do [Centro de administração do SDS](https://sds.microsoft.com/) e vá para as **Configurações** > **Gerenciar Insights educacionais**. Desative/ative a **Coleta de dados de atividade para o Insights** para ativar ou desativar o Insights.
+
+:::image type="content" source="media/insights-settings.png" alt-text="Uma captura de tela da página do Centro de Administração do SDS em que você tem uma opção de configurações para ativar ou desativar o Insights.":::
+
+> [!NOTE]
+> Se você tiver desativado o Insights, os dados coletados serão excluídos. Os dados excluídos na recusa podem ser restaurados posteriormente, mesmo que o Insights seja reabilitar.
+
+### <a name="turn-sds-for-insights-on-or-off"></a>Ativar ou desativar o SDS para Insights
 
 O School Data Sync (SDS) ajuda a automatizar a importação e sincronização de dados do Sistema de Informações do Aluno (SIS) com o Teams.
 
 A utilização do Insights *não* requer o uso do SDS. No entanto, você pode optar por não participar do Insights a qualquer momento. 
-
-* Para ligar/desligar o Insights, ao mesmo tempo, abra o [Centro de Administração do SDS](https://sds.microsoft.com/) e vá para **Configurações** > **Gerenciar o Insights para Educação**. Desative/ative a  '**Coleta de dados de atividade para o Insights**' para ativar/desativar o Insights.
 
 * Para desativar o uso de Insights do School Data Sync, siga as instruções em [Desativando o SDS para Insights](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights).
 
