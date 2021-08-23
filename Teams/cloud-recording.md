@@ -19,12 +19,12 @@ description: Orientação prática para a implantação de recursos de voz em nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b2402e94dbbf123d9a7df7f18cb99321c5fa331f
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: a07b6f46d24679b4e05ce826059958e0404ba084
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234126"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398970"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -263,7 +263,7 @@ O tamanho de uma gravação de 1 hora é de 400 MB. Certifique-se de entender a 
 > 
 > Estamos fornecendo informações sobre como esse recurso funcionará no FUTURO, para que você possa planejar essa alteração e modificar as configurações de política do Teams com antecedência. 
 >
-> O CMD para alterar preventivamente a configuração MeetingExpirationDays no Teams ainda não está disponível. Ele estará disponível para definição para todos os locatários até 1º de setembro, antes que o recurso de expiração seja habilitado.
+> O CMD para alterar preventivamente a configuração MeetingExpirationDays no Teams ainda não está disponível para ser definido.  Publicaremos uma postagem atualizada do centro de mensagens quando a configuração estiver disponível para modificação.
 >
 > Você pode usar o PowerShell para modificar “MeetingRecordingExpirationDays.” Isso pode ser feito após 1º de setembro, quando a configuração estiver presente no PowerShell, mesmo que o recurso ainda não esteja habilitado. Um comando de exemplo é: “Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50.”
 >
@@ -310,7 +310,7 @@ Sim, a data de validade é definida por arquivo. Os usuários podem modificar a 
 
 **Como um administrador pode alterar a data de expiração?**
   
-Os administradores podem alterar a configuração de expiração padrão no PowerShell hoje. Quando o recurso é iniciado, os administradores podem alterar essa configuração no centro de administração do Teams. Alterar as configurações de expiração afetará apenas TMRs recém-criados desse ponto em diante. Isso não afetará as gravações feitas antes dessa data. 
+Os administradores poderão alterar a configuração de expiração padrão no PowerShell ou no Centro de Administração do Teams antes do lançamento do recurso. A configuração ainda não está disponível para modificação. Publicaremos uma postagem atualizada do centro de mensagens quando a configuração estiver disponível para modificação. Quando o recurso é iniciado, os administradores podem alterar essa configuração no centro de administração do Teams. Alterar as configurações de expiração afetará apenas TMRs recém-criados desse ponto em diante. Isso não afetará as gravações feitas antes dessa data. 
 
 A configuração máxima de dias de expiração que um Administrador pode aplicar é de 99.999 dias ou 273 anos. Os administradores não podem alterar a data de validade em TMRs existentes já carregadas no OneDrive ou no SharePoint antes do lançamento desse recurso. Isso protege a intenção do usuário que possui a TMR. 
   

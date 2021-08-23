@@ -16,16 +16,16 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: O administrador pode saber quais Controladores de Borda de Sessão (SBCs) foram certificados para Roteamento Direto.
+description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15345077914ae36abe18a0ec760c0506ce132f73
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284212"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365788"
 ---
-# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
+# <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
 A Microsoft faz parceria com fornecedores selecionados de Controlador de Borda da Sessão (SBC) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
 
@@ -73,7 +73,7 @@ Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamen
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.20 com suporte (Recomendado 4.0)        |  &#10004;    |  &#10004;   |
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 para Bypass de Mídia)      |     |    |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 para Bypass de Mídia)      | &#10004; | &#10004; |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Elemento de borda unificada cisco (CUBE) para roteadores de serviços integrados da série 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |    &#10004;     |   |  
 |                                   |     Elemento de borda unificada cisco (CUBE) para roteadores de serviços integrados da série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |   &#10004;      |    |  
 |                                   |     Cube (Elemento de Borda Unificada) da Cisco para Roteador de Serviços de Nuvem da Série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |    &#10004;     |    |  
@@ -104,7 +104,40 @@ Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamen
 - [Gateway de Emergência Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
 
-## <a name="direct-routing-and-analog-devices-interoperability"></a>Roteamento direto e interoperabilidade de dispositivos analógicos
+## <a name="support-for-local-media-optimization"></a>Suporte para Otimização de Mídia Local
+
+A tabela a seguir descreve quais fornecedores de SBC têm suporte para [Otimização de Mídia Local.](direct-routing-media-optimization.md) 
+
+| Fornecedor | Produto |    Versão de software |
+|:------------|:-------|:-------|
+| [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
+|            |  Mediant 800 SBC |   7.20A.256 | 
+|            |  Mediant 2600 SBC |  7.20A.256 | 
+|            |  Mediant 4000 SBC |  7.20A.256 | 
+|            |  Mediant 1000B SBC | 7.20A.256 | 
+|            |  Mediant 9000 SBC |  7.20A.256 | 
+|            |  Virtual Edition SBC |   7.20A.256 | 
+|            |  Mediant Cloud Edition SBC | 7.20A.256 |
+| [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
+|            |  SBC 5210         | 8.2  |
+|            |  SBC 5400         | 8.2  |
+|            |  SBC 7000         | 8.2  |
+|            |  SBC SWe          | 8.2  |
+| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
+| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
+| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.0 |
+|        | AP 4600 | 8.4.0.0.0 | 
+|        | AP 6300 | 8.4.0.0.0 |
+|        | AP 6350 | 8.4.0.0.0 | 
+|        | VME     | 8.4.0.0.0 |
+
+
+
+
+## <a name="direct-routing-and-analog-devices-interoperability"></a>Roteamento Direto e interoperabilidade de dispositivos analógicos
 
 A tabela a seguir lista os dispositivos verificados para interoperabilidade entre o Roteamento Direto e Dispositivos Analógicos.
 
