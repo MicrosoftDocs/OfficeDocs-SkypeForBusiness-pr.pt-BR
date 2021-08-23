@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso Skype for Business de telemetria online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318066"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407170"
 ---
 # <a name="plan-call-data-connector"></a>Conector de Dados do Plano de Chamada
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -40,7 +40,7 @@ Com o Conector de Dados de Chamada, você pode executar as seguintes tarefas usa
 
 Com o Conector de Dados de Chamada, o Skype for Business Server pressiona dados de chamada para o serviço de nuvem para que você possa aproveitar as ferramentas Skype for Business de Análise de Chamada Online (CA) e CQD (Call Quality Dashboard), conforme mostrado no diagrama a seguir:
 
-![SfB Caixa postal na Nuvem](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![Diagrama de Caixa postal na Nuvem SfB.](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 O servidor empurra dados de Qualidade de Experiência (QoE) e CdR (Registro de Detalhes de Chamada) para o serviço online.
 
@@ -50,13 +50,13 @@ As ferramentas de Análise de Chamadas e CQD permitem monitorar a qualidade das 
 
 - O Painel de Qualidade de Chamada se concentra no desempenho da rede e em problemas em uma organização. Skype for Business administradores e engenheiros de rede usam essa ferramenta para solucionar problemas e otimizar o desempenho da rede.
 
-Para obter mais informações, consulte [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Para obter mais informações, consulte [Call Analytics and Call Quality Dashboard diagram with Monitoring Server details.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 É claro que você pode querer manter alguns dados de qualidade de chamada no local. Esse pode ser o caso, por exemplo, se você estiver usando uma solução de terceiros com relatórios e fluxos de trabalho personalizados.  O Conector de Dados de Chamada permite configurar o envio de dados para o serviço online e também manter uma cópia dos dados em seu servidor local, conforme mostrado no diagrama a seguir:
 
 ![SfB Caixa postal na Nuvem](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Os requisitos a seguir pressuem que você já Skype for Business Server implantado em uma topologia com suporte.  Para obter mais informações sobre como implantar Skype for Business Server topologias com suporte, consulte [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md). Para configurar o Conector de Dados de Chamada, você deve:
 

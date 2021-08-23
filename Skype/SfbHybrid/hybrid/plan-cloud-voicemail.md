@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve benefícios, considerações de planejamento e requisitos para implementar o Caixa postal na Nuvem da Microsoft serviço. Para obter informações sobre como configurar Caixa postal na Nuvem, consulte Configuring Caixa postal na Nuvem.
-ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a2fea02417a271e3858adff435a2406fda8c5ae
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323673"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407160"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar Caixa postal na Nuvem serviço para usuários locais
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -64,7 +64,7 @@ As chamadas não respondidas são tratadas da seguinte forma:
 3. Em seguida, o serviço deposita a caixa postal Exchange caixa de correio do usuário, se a caixa de correio está local ou online.  
 4. Os usuários podem acessar a caixa postal de seus clientes Skype for Business ou Outlook cliente.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Os requisitos a seguir pressuem que você já Skype for Business Server implantado em uma topologia com suporte.  Seus requisitos dependem do cenário:
 
@@ -95,11 +95,11 @@ Se você estiver planejando implantar o Skype for Business Server 2019 e/ou Exch
 
 Interoperabilidade de versão e topologias com suporte para Caixa postal na Nuvem estão listadas na tabela a seguir, que compara as versões Skype for Business Server em que o usuário pode estar em casa com a versão possível fornecendo sua caixa de correio Exchange. Você precisa usar Caixa postal na Nuvem se quiser usar o Skype for Business 2019 com Exchange Online ou Exchange Server 2019.
 
-| | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
+| Skype/versão do Lync | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Caixa Postal em Nuvem | Caixa Postal em Nuvem |
-| Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | Sem suporte | Caixa Postal em Nuvem |
-| Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Não suportado | Caixa Postal em Nuvem |
+| Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Caixa Postal na Nuvem | Caixa Postal na Nuvem |
+| Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | Sem suporte | Caixa Postal na Nuvem |
+| Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Não suportado | Caixa Postal na Nuvem |
 
 A Microsoft recomenda os seguintes caminhos de migração:
 

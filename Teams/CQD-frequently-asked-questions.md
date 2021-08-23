@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Leia perguntas frequentes (perguntas frequentes) e respostas sobre Microsoft Teams Painel de Qualidade de Chamada (CQD).
-ms.openlocfilehash: b6d2782418b2cba1c7268fdadad7c577a4730c18ddfb84903d13535185c2dd7b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a733abb5f1fb41e149dd0801b5e25dd1bf948bf6
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334842"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339849"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Painel de Qualidade de Chamada (CQD) Perguntas frequentes (perguntas frequentes)
 
@@ -36,15 +36,13 @@ ms.locfileid: "54334842"
 
 [Por que vejo até 0,2% de diferença nos valores de chamada e contagem de usuários em medidas e como obter volumes mais precisos? ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
 
-[Por que os dados do CQD Skype for Business diferentes dos dados CQD do Teams?](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
-
 [Por que não consigo ver EUII no CQD?](#why-cant-i-see-euii-in-cqd)
 
 [Por que estou vendo Skype for Business informações no CQD quando filtrei Teams apenas?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [Por que meus relatórios personalizados só retornam no máximo 10.000 linhas quando eu sei que deve haver mais entradas?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
-[Por que as conexões VPN WiFi mostram como Wired em vez de WiFi?](#why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi)
+[Por que Wi-Fi conexões VPN mostram como Wired em vez de Wi-Fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Por que o CQD marca uma chamada como "Boa" se um ou mais participantes da reunião tiveram uma experiência ruim?
 
@@ -73,23 +71,14 @@ Crie relatórios detalhados no CQD e filtre a ID da Reunião para ver todos os u
 A telemetria não chamará necessariamente o problema, mas poderá ajudá-lo a entender melhor onde procurar e informar suas decisões. São atualizações de rede, dispositivo, driver ou firmware, uso ou usuário?
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Por que vejo até 0,2% de diferença nos valores de chamada e contagem de usuários em medidas e como obter volumes mais precisos? 
+
 Para calcular a contagem de chamada e as medidas de contagem de usuários, uma operação countif distinta é executada em relação à chamada ou aos identificadores do usuário no conjunto de dados. Em conjuntos de dados grandes, há um erro de até 0,2% inerente à operação countif distinta. Para o volume mais preciso, você deve depender das medidas de contagem de fluxo, pois elas não dependem dessa operação countif distinta. A filtragem para reduzir o volume de dados pode reduzir o erro, mas pode não eliminar essa fonte de erro em contagens distintas de chamada e de usuário. Consulte [Dimensões e medidas disponíveis no Painel](dimensions-and-measures-available-in-call-quality-dashboard.md) de Qualidade de Chamada para as quais as medidas são impactadas.
-
-
-### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>Por que os dados do CQD Skype for Business diferentes dos dados CQD do Teams? 
-
-
-> [!IMPORTANT]
-> A partir de 1º de julho de 2020, o CQD mais antigo (CQD.lync.com) usa dados do CQD mais recente (CQD.Teams.microsoft.com). Os dados CQD mais antigos não estão mais disponíveis e você não pode exportar seus dados de construção ou relatório. Você ainda pode usar CQD.lync.com (disponível no centro de administração do Skype for Business), mas desativaremos o acesso ao CQD.lync.com em breve, portanto, você deve mudar para o CQD. Teams.microsoft.com se você ainda não fez isso.
-
-
-Se você estiver tentando comparar dados entre o CQD mais antigo do portal herdado do Skype for Business (cqd.lync.com) e o CQD mais recente do centro de administração do Teams (cqd.teams.microsoft.com), você notará rapidamente que os dados não são comparados. Isso porque os relatórios mais recentes do CQD sobre muitos cenários de chamada adicionais. Se você ainda estiver usando relatórios do CQD mais antigo, use este artigo para ajudá-lo a interpretar esses relatórios: [Painel](/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)de Qualidade de Chamada para Skype for Business Server .
-
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>Por que não consigo ver EUII no CQD?
 
 Essas funções de administrador podem acessar o CQD, mas não podem exibir EUII (informações de identificação do usuário final):
+
 - Microsoft 365 Leitor de relatórios
 - Teams Especialista em Suporte de Comunicações
 
@@ -101,9 +90,9 @@ Quando você filtra para Teams somente em relatórios CQD (isTeams = 1),  você 
 
 O CQDv2 e o CQDv3 sempre terão contagens totais diferentes, pois o CQDv3 terá novos cenários que o CQDv2 não terá. É por isso que a comparação de números de resumo total ou all-up agregados sem filtros terá essas diferenças esperadas.  
 
-Dependendo do cenário dos clientes, o CQDv3 incluirá chamadas locais do SFB 2019 (se o SFB 2019 for usado com um conector de dados), chamadas de bot Skype (AA, CVI, VDI), Eventos Ao Vivo e chamadas PSTN. Cenários/recursos que estão disponíveis para os clientes, mas seus dados não estão no CQD V2.
+Dependendo do cenário dos clientes, o CQDv3 incluirá chamadas locais do SFB 2019 (se o SFB 2019 for usado com um conector de dados), chamadas de Bot do Skype (AA, CVI, VDI), Eventos Ao Vivo e chamadas PSTN. Cenários/recursos disponíveis para os clientes, mas seus dados não estão no CQD V2.
 
-Por exemplo, é esperado que seus clientes e você vejam 200.000 fluxos de áudio, com 5.000 falhas no Relatório de Resumo do CQD V2; versus 300.000 fluxos de áudio com 5500 falhas (provenientes de chamadas 2019 on-prem, chamadas CVI, chamadas PSTN etc.) no CQD V3.
+Por exemplo, é esperado que seus clientes e você vejam 200.000 fluxos de áudio, com 5.000 falhas no Relatório de Resumo do CQD V2, versus 300.000 fluxos de áudio com 5.500 falhas (provenientes de chamadas 2019 on-prem, chamadas CVI, chamadas PSTN e assim por diante) no CQD V3.
 
 Para determinar se há diferenças inesperadas, você deve verificar várias repartições dos dados gerais.  Compare com intenção.  Cortar os dados pelo User Agent Category Pair é uma das primeiras coisas que recomendamos.  *O Primeiro Produto* *e o Segundo Produto* também são bons cortadores de dados.  
 
@@ -111,11 +100,11 @@ Para determinar se há diferenças inesperadas, você deve verificar várias rep
 
 O CQD foi projetado para consultas de dados resumidas e não foi projetado para exportação de dados. Recomendamos a reestruturação de seus relatórios, sempre que possível, para evitar que o limite de 10.000 linhas seja excedido. Comece olhando seus KPIs usando dimensões mais amplas e de menor cardinalidade, como Mês, Ano, Data, Região, País, etc. A partir daí, você pode detalhar as dimensões cada vez mais elevadas. O Helpdesk e Location-Enhanced relatórios fornecem bons exemplos desse fluxo de trabalho de detalhamento.
 
-### <a name="why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi"></a>Por que as conexões VPN WiFi mostram como Wired em vez de WiFi?
+### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>Por que Wi-Fi conexões VPN mostram como Wired em vez de Wi-Fi?
 
 Isso é esperado. O fornecedor vpn criou um adaptador ethernet virtual que é tratado como uma conexão com fio. Como não está rotulado corretamente, o sistema operacional não sabe que é uma conexão WiFi e a relata como com fio.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Melhorar e monitorar a qualidade de chamada para Teams](monitor-call-quality-qos.md)
 

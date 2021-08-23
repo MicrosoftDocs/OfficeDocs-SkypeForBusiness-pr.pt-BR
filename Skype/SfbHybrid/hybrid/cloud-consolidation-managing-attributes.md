@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo descreve como gerenciar atributos após a desativação do ambiente local.
-ms.openlocfilehash: 7a2e1f7337462b948d28d85582460d924941d9ce139a6c026553d44a9cbcd7c7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f130cce4a464a2e7a7c1823d6b3d297931d02ab
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315177"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365808"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Decidir como gerenciar os atributos após o encerramento
 
@@ -72,7 +72,7 @@ Essa opção requer esforço adicional e planejamento adequado, pois os usuário
 > Esse processo é mais simples para usuários que têm um endereço sip correspondente e UserPrincipalName. Para organizações que têm usuários com valores não correspondentes nesses dois atributos, é necessário ter cuidado extra, conforme abaixo, para uma transição suave.
 
 > [!NOTE]
-> Se você configurou pontos de extremidade de aplicativo híbrido local para Atendimento Automático ou Filas de Chamada, não deixe de mover esses pontos de extremidade para Microsoft 365 antes de desativá-los Skype for Business Server.
+> Se você configurou pontos de extremidade de aplicativo híbrido local para Atendimento Automático ou Filas de Chamada, não deixe de mover esses pontos de extremidade para Microsoft 365 antes de desativá-los Skype for Business Server. Para obter detalhes, [consulte Migrar pontos](decommission-move-on-prem-endpoints.md)de extremidade de aplicativo híbrido antes de encerrar seu ambiente local .  
 
 
 1. Confirme se o seguinte cmdlet local Skype for Business PowerShell retornará um resultado vazio. Um resultado vazio significa que nenhum usuário está no local e foi movido para Microsoft 365 ou desabilitado:
