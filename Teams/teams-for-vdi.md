@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f635e3b5e292d6b9eeb62fc8cbbf9552e2d0b2e2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233626"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406950"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -100,7 +100,7 @@ Com a instalação por máquina, as atualizações automáticas são desabilitad
 
 Para atualizar para a versão Teams versão mais recente, comece com o procedimento de desinstalação seguido pela implantação Teams versão mais recente.
 
-Para Teams otimização de AV em ambientes VDI funcione corretamente, o ponto de extremidade do cliente fino deve ter acesso à Internet. Se o acesso à Internet não estiver disponível no ponto de extremidade do cliente fino, a inicialização de otimização não será bem-sucedida. Isso significa que o usuário está em um estado de mídia não otimizado.
+Para Teams otimização av em ambientes VDI funcione corretamente, o ponto de extremidade do cliente fino deve ter acesso à Internet. Se o acesso à Internet não estiver disponível no ponto de extremidade do cliente fino, a inicialização de otimização não será bem-sucedida. Isso significa que o usuário está em um estado de mídia não otimizado.
 
 #### <a name="dedicated-persistent-setup"></a>Instalação persistente dedicada
 
@@ -471,7 +471,7 @@ if($cleanup){
 - Em ambientes Citrix, se o usuário se desconectar da Máquina Virtual enquanto o Teams está em execução, as atualizações Teams podem fazer com que o usuário esteja em um estado não otimizado para AV quando se reconectar. Recomendamos que os usuários Teams antes de se desconectar da Máquina Virtual citrix para evitar esse cenário.
 - Teams deve ser implantado por usuário ou por máquina. Não há suporte Teams implantação de Teams para usuários simultâneos e por máquina. Para migrar de cada máquina ou por usuário para um desses modos, siga o procedimento de desinstalação e reimplante para ambos os modos.
 - A Área de Trabalho Virtual do Azure não dá suporte a clientes baseados em macOS e Linux no momento.
-- A opção de locatário rápido pode resultar em problemas relacionados a chamada na VDI. Reiniciar o cliente atenua esses problemas.
+- A opção de locatário rápido pode resultar em problemas relacionados a chamada na VDI, como compartilhamento de tela não disponível, lista de participantes incorreta exibida etc. Reiniciar o cliente atenua esses problemas.
 
 ### <a name="calling-and-meetings"></a>Chamada e reuniões
 
@@ -498,14 +498,14 @@ A seguir estão os problemas conhecidos e limitações de chamada e reuniões:
 - A resolução de fluxo de vídeo de entrada e saída é limitada à resolução de 720p.
 - Há suporte para apenas um fluxo de vídeo de uma câmera de entrada ou de um fluxo de compartilhamento de tela. Quando há um compartilhamento de tela de entrada, esse compartilhamento de tela é mostrado, em vez do vídeo do alto-falante dominante.
 - Teams alternar para usar o último dispositivo de áudio que um usuário selecionou, se o dispositivo estiver desconectado e, em seguida, reconectado.
+- Os eventos ao vivo não são otimizados.
 - Compartilhamento de tela de saída:
     - Não há suporte para compartilhamento de aplicativos.
 - Dê controle e controle:
     - Não há suporte durante uma sessão de compartilhamento de tela ou de aplicativo.
     - Suportado durante uma sessão de PowerPoint de compartilhamento.
 - Limitações somente para Citrix
-    - Quando o compartilhamento de tela em uma instalação com vários monitores, apenas o monitor principal é compartilhado.
-    - Não há suporte para dimensionamento de DPI alto no CWA.
+   - Não há suporte para dimensionamento de DPI alto no CWA.
 
 Para Teams problemas conhecidos que não estão relacionados à VDI, consulte [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 

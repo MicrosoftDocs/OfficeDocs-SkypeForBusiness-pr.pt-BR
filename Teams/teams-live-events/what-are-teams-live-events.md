@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: d4a4e57acf5987d670ebb75385bdcfc4406ba505
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233236"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359208"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams?
 
@@ -43,7 +43,7 @@ Os eventos ao vivo do Microsoft Teams são considerados a próxima versão da Tr
 
 Então vamos começar. Primeiro, dê uma olhada no diagrama a seguir que mostra os componentes de alto nível envolvidos nos eventos ao vivo do Microsoft 365 e como eles estão conectados.
 
-![Os componentes principais dos eventos ao vivo](../media/live-event-flow-diagram1.png  "Componentes principais de eventos ao vivo, agendamento, produção, plataforma de streaming, terceiros certificados e fornecedores de eCDN.")
+![Os componentes principais dos eventos ao vivo](../media/live-events-flow-diagram.png  "Componentes principais de eventos ao vivo, agendamento, produção, plataforma de streaming, terceiros certificados e fornecedores de eCDN.")
 
 > [!Note]
 > Gostaríamos de enfatizar que os eventos ao vivo das equipes, devido à natureza da tecnologia de difusão, muitas vezes excedem as populações de reuniões normais (internas).

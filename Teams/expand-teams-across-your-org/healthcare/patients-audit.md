@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: Saiba mais sobre como auditar o aplicativo Patients para Teams administradores
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 288877032c662ee03e0fd575a1f9ce2e96d1b4336c290899e98eeef92a11fecf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308730"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380605"
 ---
 # <a name="audit-logs-for-patients-app"></a>Logs de auditoria para o aplicativo de pacientes
 
@@ -67,7 +67,7 @@ O aplicativo Patients tem suas próprias atividades registradas, listadas na tab
 | Adicionado paciente à lista | PatientListAddPatient | Um paciente foi adicionado a uma lista de pacientes. |
 | Observação adicionada para o paciente | PatientNoteAdd | Uma observação foi adicionada a um registro de paciente. |
 | Esquema de paciente criado | PatientSchemaCreate | Um conjunto de colunas usadas no registro do paciente foi criado. |
-| O usuário iniciou uma exportação | ExportInitiation | Os dados do paciente foram exportados do aplicativo Patients para um arquivo Excel de pacientes. O arquivo será salvo no site do SharePoint team. |
+| O usuário iniciou uma exportação | ExportInitiation | Os dados do paciente foram exportados do aplicativo Patients para um arquivo Excel de pacientes. O arquivo será salvo no site SharePoint Equipe. |
 | Lista de pacientes criada | PatientListCreate | Um usuário criou uma lista de pacientes.|
 | Definir lista de pacientes padrão| PatientListDefaultSet| Um usuário definir uma lista específica como a lista padrão.|
 | Paciente removido da lista| PatientListRemovePatient | Um paciente foi removido de uma lista de pacientes. |

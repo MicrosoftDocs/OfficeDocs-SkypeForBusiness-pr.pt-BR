@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone no Reino Unido para Microsoft Teams.
-ms.openlocfilehash: 3360534637e86f868c88ea9d4705115d8fa6a06b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 5803e6adcd19801d3e5bca5b5bc7978191a58f25
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234096"
+ms.locfileid: "58348503"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>Telefone gerenciamento de números para o Reino Unido
 
@@ -36,7 +36,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.   <br/> |Baixe este formulário. <br/> [Nova solicitação de número de telefone para o Reino Unido (v.5.0) (en-gb)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md).  <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.   <br/> |Baixe este formulário. <br/> [Nova solicitação de número de telefone para o Reino Unido (v.5.0) (en-gb)](https://download.microsoft.com/download/e/e/9/ee9f629e-4f2b-41c3-8fa3-f206660f4db3/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf) <br/><br/>Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md).  <br/> |
 |Obter números de telefone transferidos para nós.  <br/> |Baixe este formulário: <br/> [Carta de Autorização (LOA) para o Reino Unido (todos os números) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md).  <br/> |
 |Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |

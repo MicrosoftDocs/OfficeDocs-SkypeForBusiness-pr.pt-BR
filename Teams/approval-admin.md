@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffcb99684c3f92bcc442c5f732d41643bf549b3f3c1d2aca7e5cb42df4269ebe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df725792ec8843b77ba2ff4956617d2959e718e2
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288419"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399080"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -45,7 +45,7 @@ Este artigo descreve os requisitos e as funções do aplicativo Aprovações.
 
 ## <a name="required-permissions-and-licenses"></a>Permissões e licenças necessárias
 
-Para usar o aplicativo Aprovações, você precisa de permissão para os seguintes itens:
+Para implantar o aplicativo Aprovações, você precisa de permissão para os seguintes itens:
 
 - Permissões para criar um banco de dados de CDS da Microsoft.
 
@@ -56,6 +56,8 @@ Para usar o aplicativo Aprovações, você precisa de permissão para os seguint
 - Licença para um [Power Automate](/power-automate/get-started-approvals), um Office 365 ou um Dynamics 365.
 
 - A licença do Microsoft Forms é necessária para os usuários configurarem novos modelos de aprovação.
+
+Para usar o aplicativo Aprovações, você precisa de uma licença para Power Automate e sua conta será adicionada automaticamente à função Aprovações Usuário no ambiente de destino em sua primeira atribuição de aprovação.
 
 ## <a name="storage-with-cds"></a>Armazenamento com CDS
 

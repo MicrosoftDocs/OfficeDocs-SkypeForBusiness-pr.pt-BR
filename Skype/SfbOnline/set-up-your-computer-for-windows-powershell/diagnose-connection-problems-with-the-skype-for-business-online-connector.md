@@ -1,5 +1,5 @@
 ---
-title: Diagnosticar problemas de conexão usando Skype for Business Conector Online
+title: Diagnosticar problemas de conexão no conector Skype for Business Online
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,15 +18,15 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Solução de problemas na criação de uma sessão remota do PowerShell para se conectar ao Skype for Business Online, incluindo Problemas de importação de módulo, shell simultâneo, ID do Live e permissão.
-ms.openlocfilehash: cb9268efc5e35ec5f25ed93314a77347b4a9363f038744c4de9a934528ae371f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Solucionar problemas de criação de uma sessão remota do PowerShell para se conectar ao Skype for Business Online, incluindo erros de importação e módulo, shell simultâneo, ID ao vivo e permissão.
+ms.openlocfilehash: 81b612b8b3e2ab82f0986110b2aa612fafe6402f
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295948"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407010"
 ---
-# <a name="diagnose-connection-problems-using-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão usando Skype for Business Conector Online
+# <a name="diagnose-connection-problems-in-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão no conector Skype for Business Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -126,7 +126,7 @@ Você não pode fazer uma conexão remota do PowerShell com oSkype for Business 
 
 Para usar o PowerShell para gerenciar o Skype for Business Online, a propriedade EnableRemotePowerShellAccess de sua política de locatário do PowerShell deve ser definida como `True` . Se não estiver, sua conexão falhará e você receberá a seguinte mensagem de erro:
 
-- **Erro**: *New-PSSession : [admin vdomain.com] O processamento de dados do administrador do servidor remoto vdomain.com falhou com a seguinte mensagem de erro: a capacidade de se conectar a esse locatário usando uma sessão remota do PowerShell foi \. \. desabilitada. Entre em contato com a Ajuda do Lync para verificar a Política de Locatário do Powershell deste locatário. Para obter mais informações, consulte [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting).*
+- **Erro**: New-PSSession : [admin.vdomain.com] O processamento de dados do servidor remoto admin.vdomain.com falhou com a seguinte mensagem de erro: a capacidade de se conectar a esse locatário usando uma sessão remota do PowerShell foi *desabilitada. Entre em contato com a Ajuda do Lync para verificar a Política de Locatário do Powershell deste locatário. Para obter mais informações, consulte [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting).*
 
 - **Resolução**: se você vir essa mensagem de erro, precisará entrar em contato com o Suporte da Microsoft e habilitar o acesso remoto do PowerShell.
   
@@ -135,7 +135,7 @@ Para usar o PowerShell para gerenciar o Skype for Business Online, a propriedade
 
 Cada administrador tem permissão para um máximo de três conexões remotas simultâneas Skype for Business Online. Se você tiver três conexões remotas do PowerShell funcionando, qualquer tentativa de fazer uma quarta conexão simultânea falhará, com a seguinte mensagem de erro:
 
-- **Erro**: *New-PSSession : [admin vdomain.com] A conexão com o administrador do servidor remoto vdomain.com falhou com a seguinte mensagem de erro : o serviço WS-Management não pode processar \. a \. solicitação. O número máximo de shells simultâneos para esse usuário foi excedido. Feche os shells existentes ou aumente a cota para esse usuário. Para obter mais informações, consulte [a Solução de Problemas Remotos](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
+- **Erro**: New-PSSession : [admin.vdomain.com] A conexão ao servidor remoto admin.vdomain.com falhou com a seguinte mensagem de erro : o serviço WS-Management não pode processar *a solicitação. O número máximo de shells simultâneos para esse usuário foi excedido. Feche os shells existentes ou aumente a cota para esse usuário. Para obter mais informações, consulte [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting).*
 
 - **Resolução**: a única maneira de resolver esse problema é fechar uma ou mais das conexões anteriores. Quando você terminar com uma sessão Skype for Business Online, recomendamos que você use o cmdlet **Remove-PSSession** para encerrar a sessão. Essa ação ajudará você a evitar esse problema.
   
@@ -144,7 +144,7 @@ Cada administrador tem permissão para um máximo de três conexões remotas sim
 
 Embora cada administrador possa ter até três conexões simultâneas com um locatário Skype for Business Online, nenhum locatário único pode ter mais de 20 conexões simultâneas. Por exemplo, seis administradores podem ter três sessões abertas. Se um sétimo administrador tentar abrir mais de duas conexões (resultando em um total de 21 conexões simultâneas), essa tentativa falhará, com a seguinte mensagem de erro:
   
-- **Erro**: New-PSSession : [admin.vdomain.com] A conexão ao servidor remoto admin.vdomain.com falhou com a seguinte mensagem de erro : o serviço WS-Management não pode processar *a solicitação. O número máximo de shells simultâneos para esse locatário foi excedido. Feche os shells existentes ou eleva a cota para esse locatário. Para obter mais informações, consulte [Solução de Problemas Remotos](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **Erro**: New-PSSession : [admin.vdomain.com] A conexão ao servidor remoto admin.vdomain.com falhou com a seguinte mensagem de erro : o serviço WS-Management não pode processar *a solicitação. O número máximo de shells simultâneos para esse locatário foi excedido. Feche os shells existentes ou eleva a cota para esse locatário. Para obter mais informações, consulte [a Solução de Problemas Remotos](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
 
 - **Resolução**: a única maneira de resolver esse problema é fechar uma ou mais das conexões anteriores. Quando você terminar com uma sessão Skype for Business Online, recomendamos que você use o cmdlet **Remove-PSSession** para encerrar essa sessão. Isso ajudará você a evitar esse problema.  
  

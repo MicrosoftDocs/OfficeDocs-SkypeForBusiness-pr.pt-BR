@@ -1,5 +1,5 @@
 ---
-title: Otimização de mídia local para a emissão direta
+title: Otimização de mídia local para roteamento direto
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,14 +16,14 @@ f1.keywords:
 description: Otimização de mídia local para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42234a80d87b01f9ee4b87943216d104caaa7fde
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2513a72502573689b0ab988ea9647384688c9255
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233586"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365648"
 ---
-# <a name="local-media-optimization-for-direct-routing"></a>Otimização de mídia local para roteamento direto
+# <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planejar otimização de mídia local para roteamento direto
 
 A voz PSTN (Rede Telefônica Pública Comugada) é considerada um aplicativo crítico para os negócios com altas expectativas para a qualidade da voz. O Roteamento Direto permite controlar fluxos de tráfego de mídia para acomodar uma infinidade de topologias de rede e configurações de telefonia local para várias empresas em todo o mundo. 
 
@@ -43,6 +43,8 @@ Este artigo descreve a funcionalidade do recurso e os cenários e soluções do 
 
   > [!NOTE]
   > Se você quiser manter a mídia local dentro dos limites da intranet, a Otimização de Mídia Local é recomendada. Se você já tiver o Desvio de Mídia e usar apenas os endereços IP públicos de seus SBCs, não é obrigatório mudar para Otimização de Mídia Local. Você pode continuar a usar o Desvio de Mídia. Para obter mais informações, consulte [Plan Media Bypass](direct-routing-plan-media-bypass.md).
+
+Para obter informações sobre quais fornecedores SBC suportam a Otimização de Mídia Local, consulte Controladores de Borda de Sessão [Certificados para Roteamento Direto.](direct-routing-border-controllers.md)
 
 
 ## <a name="supported-customer-scenarios"></a>Cenários de clientes com suporte

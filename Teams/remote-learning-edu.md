@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c1fe798b4077524b14588d4bb0824ecaae2a20b2
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234246"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380385"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -127,7 +127,7 @@ Vamos percorrer várias opções para ajudá-lo a escolher o caminho de implanta
 
 #### <a name="automatic-team-creation-using-sds"></a>Criação automática de equipe usando SDS
 
-A automação da criação de equipe economiza o tempo dos administradores de TI e dos professores. Isso garante que os professores tenham todas as equipes de classe criadas e prontas para serem configuradas ao entrar. [A SDS (School Data Sync)](/SchoolDataSync) é uma ferramenta gratuita do Office 365 Education que lê os dados do sistema de um registro de instituição educacional, por exemplo, um SIS (sistema de informações de alunos) ou LMS (sistema de gerenciamento de aprendizagem). O SDS usa os dados para enriquecer a configuração do Office 365 de várias maneiras, incluindo a criação de equipes de classe em massa e a manutenção da sincronização com o seu sistema de informações para que o instrutor e a associação do aluno sejam atualizados conforme as alterações no registro. O SDS pode importar dados de qualquer sistema de registro e tem conectores internos para muitos dos [fornecedores SIS](/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support) existentes do mundo. É altamente recomendável usar SDS, uma vez que fornece os seguintes benefícios.  
+A automação da criação de equipe economiza o tempo dos administradores de TI e dos professores. Isso garante que os professores tenham todas as equipes de classe criadas e prontas para serem configuradas ao entrar. [A SDS (School Data Sync)](/SchoolDataSync) é uma ferramenta gratuita do Office 365 Education que lê os dados do sistema de um registro de instituição educacional, por exemplo, um SIS (sistema de informações de alunos) ou LMS (sistema de gerenciamento de aprendizagem). O SDS usa os dados para enriquecer a configuração do Office 365 de várias maneiras, incluindo a criação de equipes de classe em massa e a manutenção da sincronização com o seu sistema de informações para que o instrutor e a associação do aluno sejam atualizados conforme as alterações no registro. O SDS pode importar dados de qualquer sistema de registro e tem conectores internos para muitos dos [fornecedores SIS](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support) existentes do mundo. É altamente recomendável usar SDS, uma vez que fornece os seguintes benefícios.  
 
 ###### <a name="benefits"></a>Benefícios
 

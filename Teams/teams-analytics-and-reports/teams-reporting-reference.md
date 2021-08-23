@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os relatórios Teams que estã
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d134e80727a39d88239802b696b86565a60847aa0f7d934cfad5d53377b8668d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61e40646318105d633b14d44a2eb8bfe41f13fa8
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321264"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399100"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -31,7 +31,7 @@ Uma nova experiência de análise e relatório para Microsoft Teams está dispon
 
 ## <a name="how-to-access-the-reports"></a>Como acessar os relatórios
 
-Para acessar os relatórios, você deve ser um administrador global no Microsoft 365 ou Office 365, Teams de serviço ou Skype for Business administrador. Para saber mais sobre Teams de administrador e quais relatórios cada função de administrador pode acessar, consulte [Use Teams funções](../using-admin-roles.md)de administrador para gerenciar Teams .
+Para acessar os relatórios, você deve ser um administrador global no Microsoft 365 ou Office 365, leitor global no Microsoft 365 ou Office 365, administrador de serviço Teams ou Skype for Business administrador. Para saber mais sobre Teams de administrador e quais relatórios cada função de administrador pode acessar, consulte [Use Teams funções](../using-admin-roles.md)de administrador para gerenciar Teams .
 
 Vá para o Microsoft Teams de administração, na navegação à esquerda, selecione **Análise & relatórios** e, em Relatório, escolha o relatório que deseja executar. 
 
@@ -54,7 +54,7 @@ Estamos melhorando continuamente a experiência de relatório Teams e adicionand
 |[Teams Relatório de pools de minutos PSTN](pstn-minute-pools-report.md) |  País ou região<br>Funcionalidade (licença) <br>Total de minutos<br>Minutos usados<br>Minutos disponíveis|
 |[Teams Relatório de uso de PSTN - Planos de Chamada](pstn-usage-report.md#calling-plans)|  Carimbo de data/hora<br>Nome de usuário<br>Telefone número<br>Tipo de chamada <br>Chamado para<br>Para país ou região <br>Chamado de <br>Do país ou região<br>Charge<br>Moeda<br>Duração<br>Doméstico/Internacional<br>ID da chamada<br>Tipo de número<br>País ou região<br>ID de conferência<br>Funcionalidade (licença)|
 |[Teams Relatório de uso PSTN - Roteamento Direto](pstn-usage-report.md#direct-routing)  |  Carimbo de data/hora<br>Nome para exibição<br>Endereço SIP<br>Telefone número <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>SBC FQDN<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcodigo final da Microsoft<br>Frase SIP final<br>ID de correlação  |
-|[Teams relatório de licença de proteção de informações - Roteamento Direto](information-protection-license-report.md)  | <br>Se os usuários têm licenças válidas para enviar suas mensagens por meio de notificações de alteração</br><br>Número total de eventos de notificação de alteração trigerados por um usuário</br><br>Quais aplicativos estão escutando eventos de notificação de alterações em toda a organização</br>|
+|[Teams relatório de licença de proteção de informações - Roteamento Direto](information-protection-license-report.md)  | <br>Se os usuários têm licenças válidas para enviar suas mensagens por meio de notificações de alteração</br><br>Número total de eventos de notificação de alteração disparados por um usuário</br><br>Quais aplicativos estão escutando eventos de notificação de alterações em toda a organização</br>|
 
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c4e9b4e3133927aaea883fb64d4798b6761b65ebe83f6a887bf9b50ba589e70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9f97065a6bf7dd8be3d3a417b7482b3b5f50935
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285680"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365668"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Início rápido - reuniões, seminários via web e eventos ao vivo 
 
@@ -83,7 +83,7 @@ A tabela a seguir destaca os principais artigos que você quer revisar:
 | Artigo | Descrição | 
 |----------|--------|
 | [Configurações de reunião](meeting-settings-in-teams.md) |  Descreve como definir configurações de reuniões para usuários anônimos, convites de reunião e tráfego de mídia.  |
-| [Políticas de reunião](meeting-policies-in-teams.md)  | Descreve como criar e gerenciar as políticas que determinam quais recursos estão disponíveis para os participantes da reunião. | 
+| [Políticas de reunião](meeting-policies-overview.md)  | Descreve como criar e gerenciar as políticas que determinam quais recursos estão disponíveis para os participantes da reunião. | 
 | [Gerenciar a gravação de reunião na nuvem do Teams](cloud-recording.md) | Descreve como gerenciar gravações de reunião. |
 | [Gerenciar os dispositivos da sua organização](device-management.md)| Descreve como gerenciar os dispositivos da sua organização, como telefones e Salas do Teams. |
 ||

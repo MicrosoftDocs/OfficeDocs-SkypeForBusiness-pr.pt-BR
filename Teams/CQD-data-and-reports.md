@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre os dados e relatórios disponíveis no Microsoft Call Quality Dashboard (CQD).
-ms.openlocfilehash: 9d13823981ced4d631ed50fe9fd964765c761a029831d630de103bdc5c43e206
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04330069f04c948ad82b953bee20e5d20c9ab964
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331113"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339859"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Dados e relatórios no Painel de Qualidade de Chamada (CQD)
 
@@ -396,8 +396,6 @@ Ao analisar seus dados, você pode ver diferenças nos dados entre Teams e Skype
   - Teams gerenciamento dinâmico de largura de banda. Skype for Business não.
 - Diferenças nos [intervalos de endereços IP](Office-365-URLs-IP-address-ranges.md) entre Teams e Skype for Business. Os Teams ip são mais novos, o que pode causar problemas de conectividade no firewall.
 
-> [!IMPORTANT]
-> A partir de 1º de julho de 2020, a versão herdada do CQD (cqd.lync.com) acessa dados do novo CQD ( e você não pode mais exportar dados de criação e https://CQD.teams.microsoft.com) relatório. A partir de 31 de julho de 2021, coincidindo com a aposentadoria do Skype for Business Online, desativaremos o CQD herdado e você não poderá mais acessá-lo.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

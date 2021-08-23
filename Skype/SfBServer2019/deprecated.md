@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: esses recursos foram removidos do Skype for Business Server 2019.'
-ms.openlocfilehash: 43fa8bae64e65fcba1aaf21c75e06d396d3c47eee8df40cec0db0eb1d5d646eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6ba9d9945ae5dde2a9898fe5adfd44192faceb5
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282464"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372051"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>O que é preterido do Skype for Business Server 2019
 
@@ -27,7 +27,7 @@ Alguns recursos não enfatizados estão incluídos no Skype for Business Server 
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Recursos preterido no Skype for Business Server 2019 
 
-    The following features and functionality have been deprecated in Skype for Business Server 2019.
+Os seguintes recursos e funcionalidades foram preterido no Skype for Business Server 2019.
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>Gateways XMPP para Skype for Business Server
 
@@ -35,7 +35,7 @@ Skype for Business Server 2015 e seus predecessores permitiram configurar um pro
 
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Chat Persistente para Skype for Business Server
 
-O Servidor de Chat Persistente é uma função opcional que permite que vários usuários em sua organização participem de conversas de sala de chat que persistem ao longo do tempo. O chat persistente não pode ser implantado com o Skype for Business Server 2019. Essa função de servidor é removida do Construtor de Topologias, bem como do código. 
+O Servidor de Chat Persistente é uma função opcional que permite que vários usuários em sua organização participem de conversas de sala de chat que persistem ao longo do tempo. O chat persistente não pode ser implantado com o Skype for Business Server 2019. Essa função de servidor é removida do Construtor de Topologias e do código. 
 
 A mesma funcionalidade está disponível no Teams. Para obter mais informações, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).
 
@@ -45,11 +45,9 @@ SQL O espelhamento não pode ser implantado com o Skype for Business Server 2019
 
 ### <a name="in-place-upgrades"></a>Atualizações no local 
 
-As atualizações in-locar estavam disponíveis no Skype for Business Server 2015, mas não são mais suportadas no Skype for Business Server 2019. Há suporte para atualização e coexistência lado a lado, consulte [Migration to Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) para obter mais informações.
+As atualizações in-locar estavam disponíveis no Skype for Business Server 2015, mas não são mais suportadas no Skype for Business Server 2019. Há suporte para atualização e coexistência lado a lado. Para obter mais informações, [consulte Migration to Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md).
 
 ### <a name="mobility-service-mcx"></a>Serviço de Mobilidade (Mcx)
-
-O suporte ao Serviço de Mobilidade usado por clientes móveis herdados não está mais disponível no Skype for Business Server 2019. Isso foi anunciado anteriormente no Skype for Business Server 2015.
 
 Todos os clientes Skype for Business móveis atuais já usam a UCWA (Unified Communications Web API) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o Mcx precisarão atualizar para um cliente atual.
 
@@ -57,7 +55,7 @@ Para obter mais detalhes, [consulte Plan for Mobility for Skype for Business Ser
 
 ## <a name="tools"></a>Ferramentas
 
-As ferramentas a seguir não estarão disponíveis para uso na versão inicial do Skype for Business Server 2019:
+As seguintes ferramentas não estarão disponíveis para uso na versão inicial do Skype for Business Server 2019:
 
 - Calculadora de Planejamento de Capacidade do Skype for Business Server
 - Skype for Business Server Ferramentas de depuração
@@ -66,7 +64,7 @@ As ferramentas a seguir não estarão disponíveis para uso na versão inicial d
     - Console do usuário de lookup
     - Migração de anúncio de número não atribuído
 
-As seguintes ferramentas não são suportadas com Skype for Business Server 2019:
+As seguintes ferramentas não são suportadas com o Skype for Business Server 2019:
 
 - Metodologia de Qualidade de Chamada (mas não Painel de Qualidade de Chamada)
 - Scorecard da Metodologia de Qualidade de Chamada da Microsoft, v1.5

@@ -15,12 +15,12 @@ description: Use essas diretrizes para lançar Microsoft Teams como sua primeira
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc107db668a582ad164e20f3b3ded169bd5d86125d949fe45d4d2f89090a8f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b52bbef87b08fd541a444e5613aed17032739f67
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312569"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380435"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Roll out Microsoft Teams First
 
@@ -48,7 +48,7 @@ Para começar a Teams primeira implantação, você precisará atender, no míni
 4.  Rede da organização preparada para Teams  
     Para entender a preparação da rede, leia [Prepare your organization's network for Teams](prepare-network.md).
 
-5.  Permitir acesso à rede Exchange, Sharepoint e OneDrive for Business em Microsoft 365 ou Office 365: [Office 365 URLs e intervalos de endereços IP](/office365/enterprise/urls-and-ip-address-ranges).
+5.  Permitir acesso à rede Exchange, SharePoint e OneDrive for Business em Microsoft 365 ou Office 365: [urls Office 365 e intervalos de endereços IP.](/office365/enterprise/urls-and-ip-address-ranges)
 
 > [!NOTE]
 > Os locatários criados após 1º de setembro de 2019 são provisionados Teams modo Somente.

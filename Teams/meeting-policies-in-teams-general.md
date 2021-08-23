@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações gerais de política de reunião Teams.
-ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
+ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235206"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58392918"
 ---
 # <a name="meeting-policy-settings---general"></a>Configurações de política de reunião - Geral
 
@@ -38,7 +38,9 @@ Este artigo descreve as seguintes configurações gerais de política para reuni
 - [Permitir o agendamento de reuniões privadas](#allow-scheduling-private-meetings)
 - [Permitir Reunir Agora em reuniões privadas](#allow-meet-now-in-private-meetings)
 - [Modo de função de apresentador designado](#designated-presenter-role-mode)
-- [Relatório de participação na reunião](#meeting-attendance-report)
+- [Permitir relatório de envolvimento](#allow-engagement-report)
+- [Permitir registro de reunião](#allow-meeting-registration)
+- [Who pode se registrar](#who-can-register)
 - [Provedor de reuniões para modo Ilhas](#meeting-provider-for-islands-mode)
 
 ## <a name="allow-meet-now-in-channels"></a>Permitir Reunir agora nos canais
@@ -108,7 +110,7 @@ Essa é uma política por usuário. Essa configuração permite alterar o valor 
 
 A configuração **Quem pode apresentar?** permite que os organizadores de reunião escolham quem pode apresentar na reunião. Para saber mais, confira [Alterar as configurações de participante de uma reunião do Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) e [Funções em uma reunião do Teams](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-No momento, você só pode usar o PowerShell para definir essa configuração de política. Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
+No momento, você só pode usar o PowerShell para definir essa configuração de política. Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
 
 Para especificar o valor padrão da configuração **Quem pode apresentar?** no Teams, defina o parâmetro **DesignatedPresenterRoleMode** para um dos seguintes:
 
@@ -118,15 +120,44 @@ Para especificar o valor padrão da configuração **Quem pode apresentar?** no 
 
 Lembre-se de que, depois de definir o valor padrão, os organizadores de reunião ainda poderão alterar essa configuração no Teams e escolher quem poderá apresentar nas reuniões agendadas por eles.
 
-## <a name="meeting-attendance-report"></a>Relatório de participação na reunião
+## <a name="allow-engagement-report"></a>Permitir relatório de envolvimento
 
 Essa é uma política por usuário. Essa configuração controla se o organizador da reunião pode baixar o relatório de participação da [Reunião](teams-analytics-and-reports/meeting-attendance-report.md).
 
-No momento, você só pode usar o PowerShell para definir essa configuração de política. Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
+Essa política está desligada por padrão e permite que seus organizadores vejam quem registrou e participou das reuniões e webinars que eles configuraram. Para ativar isso no centro de administração Teams, vá para **Políticas** de Reunião de Reuniões e de definir a  >  política como **Habilitado**.
 
-Para permitir que um organizador da reunião baixe o relatório de participação da reunião, de definir o **parâmetro AllowEngagementReport** **como Habilitado**. Quando habilitada, a opção para baixar o relatório é exibida no painel **Participantes**. Por padrão, essa configuração está habilitada.
+Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
+
+Para permitir que um organizador da reunião baixe o relatório de participação da reunião, de definir o **parâmetro AllowEngagementReport** **como Habilitado**. Quando habilitada, a opção para baixar o relatório é exibida no painel **Participantes**. Por padrão, essa configuração não está habilitada.
 
 Para impedir que o organizador da reunião baixe o relatório, defina o parâmetro como **Desabilitado**.
+
+## <a name="allow-meeting-registration"></a>Permitir registro de reunião
+
+Essa é uma política por usuário. Se você ativar isso, os usuários de sua organização poderão configurar webinars. Essa política é habilitada por padrão.
+
+Para editar essa política no centro de administração Teams, vá para **Políticas de Reunião** de  >  **Reuniões.** Para desativar o registro de reunião, de definir a política como **Desativar**.
+
+Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
+
+Para ativar o registro de reunião, de definir  **o parâmetro AllowMeetingRegistration** como **True**. Isso é definido como **True** por padrão.
+
+Para desativar o registro de reunião e impedir que os usuários agendam webinars, de definir o parâmetro como **False**.
+
+## <a name="who-can-register"></a>Who pode se registrar
+
+Essa política controla quais usuários podem registrar e participar de webinars. Essa política tem duas opções, que só estarão disponíveis se Permitir o registro **de reunião** estiver ligado.
+
+- Definir **Who pode** se  registrar em Todos se você quiser permitir que todos, incluindo usuários anônimos, registrem e participem de webinars que os usuários de sua organização configuraram.
+- Definir **Who pode** se  registrar em Todos na organização se você quiser permitir que apenas os usuários em sua organização registrem e participem de webinars.
+
+Por padrão, **Who pode se registrar** é definido como **Todos**. Para editar essa política no centro de administração Teams, vá para **Políticas de Reunião** de  >  **Reuniões.**
+
+Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
+
+Para permitir que todos, incluindo usuários anônimos, registrem e participem de webinars, de definir o **parâmetro WhoCanRegister** como **Todos**. Isso é definido como **Todos** por padrão.
+
+Para permitir que apenas usuários em sua organização registrem e participem de webinars, de definir o parâmetro como **EveryoneInCompany**.
 
 ## <a name="meeting-provider-for-islands-mode"></a>Provedor de reuniões para modo Ilhas
 
@@ -134,7 +165,7 @@ Essa é uma política por usuário. Essa configuração controla qual suplemento
 
 Você só pode aplicar esta política aos usuários que estão no modo Uso Paralelo e possuem o parâmetro **AllowOutlookAddIn** definido como **Verdadeiro** na política de reunião do Teams.
 
-No momento, você só pode usar o PowerShell para definir essa política. Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
+No momento, você só pode usar o PowerShell para definir essa política. Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
 
 Para especificar o suplemento de reunião que você deseja disponibilizar para os usuários, defina o parâmetro **PreferredMeetingProviderForIslandsMode** da seguinte maneira:
 
@@ -153,5 +184,5 @@ As reações de reunião estão ativadas por padrão. Desativar as reações par
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
+- [Atribuir políticas em Teams](policy-assignment-overview.md)
 - [Remover a política de reunião do Teams RestrictedAnonymousAccess dos usuários](meeting-policies-restricted-anonymous-access.md)

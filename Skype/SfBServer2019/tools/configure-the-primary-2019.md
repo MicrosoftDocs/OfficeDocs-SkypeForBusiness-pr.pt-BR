@@ -1,5 +1,5 @@
 ---
-title: Configurar o Servidor de Gerenciamento Primário
+title: Configurar o servidor de gerenciamento principal
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: configure seu servidor de gerenciamento principal, instale o System Center Operations Manager e importe pacotes de gerenciamento para Skype for Business Server 2019.'
-ms.openlocfilehash: 2606c87d5874bdec4e6dded494b024bc7810de70db000c2c65892e0d80e5a6d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7fd7350cb4cf5a9697e789806c963f4fbe46636
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277526"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372231"
 ---
-# <a name="configure-the-primary-management-server"></a>Configurar o Servidor de Gerenciamento Primário
+# <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype for Business Server: Configurar o servidor de gerenciamento principal
 
 **Resumo:** Configure seu servidor de gerenciamento principal, instale System Center Operations Manager e importe pacotes de gerenciamento para Skype for Business Server 2019.
 

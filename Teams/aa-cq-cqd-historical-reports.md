@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI para exibir Atendedor Automático dados históricos da Fila de Chamada.
-ms.openlocfilehash: 04b18e8f1767f7c32818e53305aead863e1ed753bec23a6c6f86a43464b03d5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3bae6b1e874026a452798d27b4629207f7ec0035
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298091"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398940"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Atendedor Automático & Histórico da Fila de Chamada
 
@@ -296,7 +296,11 @@ Execute as seguintes etapas:
 |Data                                    |date                     |                                                    |
 
 
-## <a name="known-issues"></a>Problemas conhecidos
+> [!NOTE]
+> 1) Este relatório mostra as contagens de chamadas da perspectiva dos agentes e, portanto, o total da contagem de chamadas neste relatório normalmente será maior do que o número total de chamadas no relatório análise de fila de chamadas **na** nuvem. Cada chamada na fila pode ser apresentada a um ou mais agentes pelo menos uma vez antes de ser atendida. Cada chamada de fila de chamada apresentada a um agente é contada neste relatório, mesmo que não tenha sido atendida pelo agente. A diferença nas contagens de chamada entre esses dois relatórios é mais pronunciada com a opção de roteamento **attendant** que toca todos os agentes para cada chamada. 
+> 2) Quando uma chamada chega pela primeira vez à primeira fila de chamadas,  se o número de chamadas já aguardando nessa fila exceder o limite de tratamento de estouro de chamada e se a opção de redirecionamento enviar chamadas para uma segunda fila de chamadas, os agentes na segunda fila de chamadas serão mostrados como sendo na primeira fila de chamadas neste relatório. 
+
+## <a name="known-issues"></a>Problemas Conhecidos
 
 - A fila de chamada e os atendimentos automáticos são mostrados pela ID da conta de recurso em vez de nomes de fila de chamada/atendimento automático.  Para mostrar todo o tráfego de um atendimento automático ou fila de chamada, você deve selecionar todas as contas de recursos atribuídas ao atendimento automático ou fila de chamada.
 

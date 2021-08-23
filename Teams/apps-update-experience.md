@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como atualizar aplicativos em Microsoft Teams.
-ms.openlocfilehash: e271af73800e87ddf5c0f83009fbd85002fc059e8da3f2479198de9ae64ea698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1a5cc6d926e7bc183db9950f1d11c1e3ffcd06c
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288399"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359138"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Atualizar aplicativos no Microsoft Teams
 
@@ -32,11 +32,9 @@ Na maioria dos casos, depois que os desenvolvedores de aplicativos publicam uma 
 * Um bot foi adicionado ou removido
 * A propriedade "botId" de um bot existente foi alterada
 * A propriedade "isNotificationOnly" de um bot existente foi alterada
-* A propriedade "supportsFiles" do bot foi alterada
-* Uma extensão de mensagens foi adicionada ou removida
+* A funcionalidade SupportsCalling, SupportsVideo e SupportsFiles de um bot foi adicionada
+* Uma extensão de mensagens foi adicionada
 * Um novo conector foi adicionado
-* Uma nova guia estática foi adicionada
-* Uma nova guia configurável foi adicionada
 * Propriedades dentro de "webApplicationInfo" alteradas
 
 ![nova versão disponível](media/manage-your-custom-apps-update1.png)

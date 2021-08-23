@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Este artigo ajuda a explicar os princípios centrais do fluxo de chamadas do Skype for Business Online e da Rota Expressa, além de fornecer alguns exemplos detalhados de fluxos de chamadas para que você possa entender e planejar corretamente.
-ms.openlocfilehash: 098949c41430bc939197a21373489b1aaa10c1678943d0ee695cd7ade02be142
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 35936e1e33f2914345aa5443ca745dc2c5260ad7
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304633"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407200"
 ---
 # <a name="call-flow-using-expressroute"></a>Fluxo de chamadas usando Rota Expressa
 
@@ -196,9 +196,9 @@ Skype for Business Os cenários de uso online envolvem usuários que estão em c
 
  **Resumo do fluxo de chamadas do Skype for Business Online**
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
 |**Cenário de uso** <br/> |**Pontos de extremidade** <br/> |**Caminho de sinalização** <br/> |**Caminho de mídia** <br/> |**Fluxo de exemplo** <br/> |**Observações** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Chamada ponto a ponto  <br/> |Dois clientes: ambos em sua rede.  <br/> |ExpressRoute  <br/> |local  <br/> |[Chamada ponto a ponto para Microsoft 365 ou Office 365 de dentro da rede do cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |Chamada ponto a ponto  <br/> |Dois clientes, um em sua rede (interna) e o outro cliente na Internet (externo).  <br/> |Usuário interno: Rota Expressa  <br/> Usuário externo: Internet  <br/> |Usuário interno: Rota Expressa  <br/> Usuário externo: Internet para Microsoft 365 ou Office 365 de Borda.  <br/> |[Chamada ponto a ponto para usuários Microsoft 365 ou Office 365 de dentro da rede do cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> |Supõe que o firewall bloqueia as conexões diretas entre os clientes, o que exige um servidor de borda online. O tráfego do usuário interno para o servidor de Borda Online segue caminho semelhante ao do servidor de conferência para chamada de conferência.  <br/> |
 |Chamada ponto a ponto para um usuário em uma organização federada  <br/> |Dois clientes: em sua rede (interna) e no usuário online na rede da organização federada (federada).  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Usuário online de sua rede ingressando em uma conferência hospedada online](call-flow-using-expressroute.md#bk_Figure3) <br/> |Supõe que o firewall bloqueia as conexões diretas entre os clientes, o que exige um servidor de borda online. O tráfego do usuário interno para o servidor de borda online segue um caminho similar ao do servidor de conferência para chamada em conferência.  <br/> |
@@ -215,9 +215,10 @@ Skype for Business Os cenários de uso online envolvem usuários que estão em c
 
 Os fluxos de chamadas híbridos são aplicáveis quando há uma implantação do Skype for Business que inclui pelo menos alguns usuários hospedados localmente. Os fluxos de chamadas nesta seção incluem conferências locais e chamadas ponto a ponto ou PSTN com pelo menos um usuário local.
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
+
 |**Cenário de uso** <br/> |**Pontos de extremidade** <br/> |**Caminho de sinalização** <br/> |**Caminho de mídia** <br/> |**Fluxo de exemplo** <br/> |**Observações** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Chamada ponto a ponto  <br/> |Dois clientes: na rede do cliente e hospedados localmente  <br/> |Local  <br/> |local  <br/> |[Chamada ponto a ponto para Microsoft 365 ou Office 365 de dentro da rede do cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> |Como os usuários estão no local, a sinalização flui localmente para o datacenter local, em vez da nuvem.  <br/> |
 |Chamada ponto a ponto  <br/> |Dois clientes: ambos se conectam pela rede do cliente. Um está hospedado online; o outro, localmente.  <br/> |Usuário online: Rota Expressa  <br/> Usuário local: local  <br/> |local  <br/> |[Chamada ponto a ponto para usuários Microsoft 365 ou Office 365 de dentro da rede do cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> |Somente o usuário de residência online envia tráfego de sinalização para a nuvem.  <br/> |
 |Chamada ponto a ponto para um usuário em uma organização federada  <br/> |Dois clientes: usuário local na rede do cliente (interna) e usuário online na rede da empresa federada (federada).  <br/> |Usuário interno: local  <br/> Usuário federado: Rota Expressa  <br/> |Internet ou Rota Expressa (depende se for usado o servidor de borda online ou local)  <br/> |[Usuário online em sua](call-flow-using-expressroute.md#bk_Figure3) rede participando de uma conferência hospedada Online e parte do servidor de Borda local com Microsoft 365 ou [Office 365 conferências](call-flow-using-expressroute.md#bk_Figure5) hospedadas (para tráfego de mídia). <br/> |Supõe que o firewall bloqueia as conexões diretas entre os clientes, o que exige um servidor de borda online. A negociação ICE oferecerá tanto servidores online (pelo usuário online) quanto servidores de borda locais (pelo usuário local) para conectividade.  <br/> |
@@ -228,9 +229,10 @@ Os fluxos de chamadas híbridos são aplicáveis quando há uma implantação do
 
 Os usuários que vão se conectar ao Cloud Connector Edition estão todos hospedados online. Isso significa que as conferências estarão online, e a sinalização seguirá os mesmos padrões que os dos usuários online. Para cenários que não são de chamadas PSTN, o fluxo de chamadas ocorrerá exatamente como descrito anteriormente para o Skype for Business Online.
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
+
 |**Cenário de uso** <br/> |**Pontos de extremidade** <br/> |**Caminho de sinalização** <br/> |**Caminho de mídia** <br/> |**Fluxo de exemplo** <br/> |**Observações** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Chamada PSTN  <br/> |Usuário online em sua rede usando o Cloud Connector Edition.  <br/> |local  <br/> |local  <br/> |[Chamada PSTN usando o Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |Chamada PSTN  <br/> |Usuário online usando a Internet com o Cloud Connector Edition.  <br/> |Internet  <br/> |Internet  <br/> |Combinação do servidor de Borda local com Microsoft 365 ou [Office 365 conferências](call-flow-using-expressroute.md#bk_Figure5) hospedadas e chamada [PSTN usando Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Os usuários de Internet se conectam pelo servidor de borda que é incluído no Cloud Connector, e o Cloud Connector se conecta à rede PSTN.  <br/> |
 

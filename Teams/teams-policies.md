@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: Saiba como usar e gerenciar políticas de equipes em sua organização para controlar o que os usuários podem fazer em equipes e canais.
-ms.openlocfilehash: 4c980f6881a1ec73131e35cae1f04bf33f844026dccb1c14045d8310e2c755a5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f5c8e638b5166c15223f0aee0034f1b18743bcf
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321103"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359148"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas de equipes em Microsoft Teams
 
@@ -63,6 +63,8 @@ Você pode editar a política global ou quaisquer políticas personalizadas que 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
+[Gerenciar Teams sites conectados e sites de canal](/SharePoint/teams-connected-sites)
 
 [Canais privados no Teams](private-channels.md)
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cff5f74d5ece9cf28887783ed07b9bfc8e5cd32287a96aeb2efbfaf29bce515
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9c1a08bfe63db87332035dd51b93281cc8ac0f25
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350443"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398950"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configure a hierarquia de segmentação de sua equipe
 
@@ -60,7 +60,7 @@ A permissão para publicar depende se um usuário é membro de qualquer equipe n
 
 ### <a name="guidelines"></a>Diretrizes
 
-* Só pode haver um arquivo de hierarquia aplicado por organização. No entanto, você pode incluir diferentes partes da sua organização juntas como hierarquias distintas de nós em um arquivo CSV. Por exemplo, a Contoso Pharmaceuticals tem um nó raiz de Farmácia e um nó raiz retail. Ambos os nós raiz têm várias linhas de descendentes e não há sobreposição entre eles.
+* Só pode haver um arquivo de hierarquia aplicado por organização. No entanto, você pode incluir diferentes partes da sua organização juntas como hierarquias distintas de nós em um arquivo. Por exemplo, a Contoso Pharmaceuticals tem um nó raiz de Farmácia e um nó raiz retail. Ambos os nós raiz têm várias linhas de descendentes e não há sobreposição entre eles.
 * Somente nós folha podem ser destinatários de uma publicação. Outros nós na hierarquia são úteis para selecionar destinatários de uma publicação.
 * Uma equipe só pode ser representada uma vez em uma hierarquia.
 * Uma hierarquia pode conter até 15.000 nós. Planejamos trabalhar com clientes para elevar esse limite para organizações maiores.
@@ -76,7 +76,7 @@ Por exemplo, na hierarquia a seguir, Recall, Communications e HR podem publicar 
 > [!NOTE]
 > O restante deste artigo aborda a configuração de uma hierarquia de equipe no contexto de tarefas de publicação para equipes de destinatários. Consulte [Manage the Tasks app for your](./manage-tasks-app.md) organization in Teams for an overview of the Tasks app, where task publishing appears when enabled.
 
-O esquema que define sua hierarquia é baseado em um arquivo CSV (valores separados por vírgula). Cada linha no arquivo CSV corresponde a um nó dentro da hierarquia de equipes. Cada linha contém informações que nomeia o nó dentro da hierarquia, opcionalmente o vincula a uma equipe e inclui atributos que podem ser usados para filtrar equipes em aplicativos que o suportam.
+O esquema que define sua hierarquia é baseado em um arquivo CSV (valores separados por vírgula). O arquivo deve estar no formato UTF-8. Cada linha no arquivo CSV corresponde a um nó dentro da hierarquia de equipes. Cada linha contém informações que nomeia o nó dentro da hierarquia, opcionalmente o vincula a uma equipe e inclui atributos que podem ser usados para filtrar equipes em aplicativos que o suportam.
 
 Você também pode definir buckets , que são categorias que a equipe de publicação pode usar para organizar o conteúdo enviado às **equipes** de destinatários para facilitar a exibição, classificação e foco em conteúdo relevante.
 

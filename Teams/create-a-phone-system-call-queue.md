@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: b5e9cf54430b82079429e1aab3ee98b802b875c1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8a805c90ef68f6ee5d6c754cdad7834c7a6ddff0
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233066"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398930"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -67,6 +67,8 @@ Digite um nome para a fila de chamadas.
 ![Captura de tela das configurações da conta de recurso](media/call-queue-name-language.png)
 
 Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**. (Os agentes verão o nome da conta de recurso quando receberem uma chamada de entrada.)
+
+Consulte [Gerenciar Teams de recursos para](manage-resource-accounts.md) obter mais informações.
 
 ### <a name="assign-calling-id"></a>Atribuir ID de chamada
 

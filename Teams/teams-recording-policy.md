@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b0f5fb378287d820762b66375d86903b9e89cebdd74378b302f62bf121fc1c5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 82f1e348ad4f81ec61ac7cf0a47c1574aa7f139a
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285630"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399110"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução Teams gravação baseada em política para & reuniões
 
@@ -62,7 +62,7 @@ Cada uma das categorias envolve requisitos diferentes para como as gravações s
 | Proprietário do Access           | Usuário               | Conformidade      |
 | Política de Retenção?      | Opcional           | Sim             |
 
-Teams oferece vários recursos para [gravação](./cloud-recording.md) prática e funcional para reuniões e eventos ao vivo. O registro organizacional significa permitir que as organizações que adotam o Teams para chamadas e reuniões estipulem, por meio de uma política administrativa, quando chamadas e reuniões online devem ser gravadas e capturadas automaticamente para processamento e retenção subsequentes, conforme exigido pela política corporativa ou regulatória relevante. Os usuários sob essa política estarão cientes de que suas interações digitais com o Teams estão sendo gravadas, mas não poderão desabilitar a gravação e não terão acesso à gravação depois que a interação for concluída. A gravação torna-se parte do arquivo morto organizacional disponível para conformidade e equipe jurídica para Descoberta e Descoberta, retenção legal e outros usos de retenção corporativa.
+Teams oferece vários recursos para [registro](./cloud-recording.md) prático e funcional de reuniões e eventos ao vivo. O registro organizacional significa permitir que as organizações que adotam o Teams para chamadas e reuniões estipulem, por meio de uma política administrativa, quando chamadas e reuniões online devem ser gravadas e capturadas automaticamente para processamento e retenção subsequentes, conforme exigido pela política corporativa ou regulatória relevante. Os usuários sob essa política estarão cientes de que suas interações digitais com o Teams estão sendo gravadas, mas não poderão desabilitar a gravação e não terão acesso à gravação depois que a interação for concluída. A gravação torna-se parte do arquivo morto organizacional disponível para conformidade e equipe jurídica para Descoberta e Descoberta, retenção legal e outros usos de retenção corporativa.
 
 ## <a name="example-user-needs"></a>Exemplo de necessidades do usuário
 
@@ -116,7 +116,7 @@ As soluções de registro de conformidade são integradas Teams conforme mostrad
 ## <a name="recorder"></a>Gravador
 
 O componente principal da solução de registro de conformidade é o gravador.
-Os gravadores são construídos como serviços dimensionáveis baseados no Azure (bots) que aproveitam a plataforma de comunicações da [Microsoft](/graph/cloud-communications-concept-overview) e se registram como aplicativos com o Microsoft Graph. O gravador fornece a interação direta com as [APIs](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) da plataforma de comunicações Teams reuniões e fornece o ponto de extremidade para ingestão de mídia.
+Os gravadores são construídos como serviços dimensionáveis baseados no Azure (bots) que usam a plataforma de comunicações da [Microsoft](/graph/cloud-communications-concept-overview) e se registram como aplicativos com o Microsoft Graph. O gravador fornece a interação direta com as [APIs](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) da plataforma de comunicações Teams reuniões e fornece o ponto de extremidade para ingestão de mídia.
 
 Um [aplicativo de gravador de conformidade](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) de exemplo está disponível que mostra como configurar o bot, criar a instância do aplicativo e atribuir as políticas de conformidade. O exemplo também tem exemplos sobre o uso [](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) da API para gravar interações específicas, como manipular o roteamento de chamadas de [entrada,](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)alterar estados de gravação e remover o usuário que está [sendo gravado](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
 Graph documentação sobre APIs específicas pode ser encontrada aqui para [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) e [incomingContext](/graph/api/resources/incomingcontext?view=graph-rest-1.0).
@@ -206,6 +206,9 @@ O suporte para notificações é habilitado usando as experiências Teams client
 - Audioconferência
 - Chamadores PSTN
 
+> [!NOTE]
+> O Registro de Conformidade não é suportado com filas de chamada do modo conferência. Use filas de chamada do modo de transferência.
+
 ## <a name="compliance-recording-for-teams-certification-programs"></a>Registro de conformidade para Teams de certificação
 
 Além de publicar APIs disponíveis publicamente, permitindo que os parceiros desenvolvam e integrem soluções CCaaS com o Teams, desenvolvemos o registro de conformidade para o programa de certificação do Microsoft Teams para fornecer aos clientes a garantia de que a solução de cada parceiro participante foi testada e verificada para fornecer a qualidade, compatibilidade e confiabilidade esperadas das soluções da Microsoft.  
@@ -238,4 +241,4 @@ Essa lista será atualizada à medida que mais parceiros ingressarem e atenderem
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Se você for um fornecedor que está tentando ingressar no programa de certificação, por favor,  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>.
+Se você for um fornecedor que está tentando ingressar no programa de certificação, envie emails [para](mailto:Teamscategorypartner@microsoft.com)Teamscategorypartner@microsoft.com .

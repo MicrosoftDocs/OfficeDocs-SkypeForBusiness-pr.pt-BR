@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone no Canadá para Microsoft Teams.
-ms.openlocfilehash: 3b12b7c019527088f90be12acfea855a6e2e4bb7
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ee4888d0f2cb7fb683eecd0bbf16e38165f16354
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233456"
+ms.locfileid: "58348493"
 ---
 # <a name="phone-number-management-for-canada"></a>Gerenciamento de números de telefone para o Canadá
 
@@ -36,7 +36,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 
 | **O que você deseja fazer?** | **Execute estas etapas e baixe os formulários corretos** |
 |:---   |:---    |
-| Obter novos números de telefone de usuário e serviço que não estão listados no Microsoft Teams de administração.  <br/>   | Baixe um destes formulários: <br/> [Nova solicitação de número de telefone para o Canadá (v.5.0) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(v.5.0)-(en-ca).pdf?raw=true) <br/>[Nova solicitação de número de telefone para o Canadá (v.5.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(v.5.0)-(fr-ca).pdf?raw=true)  <br/> <br>Preencha o formulário e [o envie para nós](mailto:ptn@microsoft.com).      |
+| Obter novos números de telefone de usuário e serviço que não estão listados no Microsoft Teams de administração.  <br/>   | Baixe um destes formulários: <br/> [Nova solicitação de número de telefone para o Canadá (v.5.0) (en-ca)](https://download.microsoft.com/download/b/4/6/b460be9b-74c6-4ed7-8cdb-e1bebab5d667/new-phone-number-request-for-canada-(v.5.0)-(en-ca).pdf) <br/>[Nova solicitação de número de telefone para o Canadá (v.5.0) (fr-ca)](https://download.microsoft.com/download/b/0/2/b020b607-a802-41da-bc6c-b307903c51f1/new-phone-number-request-for-canada-(v.5.0)-(fr-ca).pdf)  <br/> <br>Preencha o formulário e [o envie para nós](mailto:ptn@microsoft.com).      |
 |Obter números de telefone transferidos para nós.  <br/> | Baixe um destes formulários: <br/> [Carta de Autorização (LOA) para o Canadá (números de usuário e serviço) (v.3.2) (en-ca)](https://download.microsoft.com/download/7/5/2/7525e2cb-d496-4133-87a9-bac3ee4a3216/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.3.2)-(en-ca).pdf) <br/> [Carta de Autorização (LOA) para o Canadá (números de usuário e de serviço) (v.1.0)(fr-ca)](https://download.microsoft.com/download/b/1/a/b1ada279-0711-4144-bc6c-d0f5541c27ef/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf)<br/> [Carta de Autorização (LOA) para o Canadá (números gratuitos) (v.3.2) (en-ca)](https://download.microsoft.com/download/1/7/1/1712dc2a-6b36-4b77-8588-fc33e80f2228/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf ) <br/>[Carta de Autorização (LOA) para o Canadá (números de chamada gratuita) (v.1.1)(fr-ca)](https://download.microsoft.com/download/1/7/1/1712dc2a-6b36-4b77-8588-fc33e80f2228/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf)<br/> <br>**Observação:** Se você estiver tentando obter mais de 999 números de telefone de assinante ou usuário, precisará preencher uma Carta de Autorização (LOA) e enviá-la para nós. Confira [Transferir números de telefone para Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) para obter mais informações. <br/> <br>Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md).  <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/>                                 | [Contate PTSN para obter instruções](contact-pstn-service-desk.md) para seu PIN e a lista de números de usuário que você deseja converter em números de serviço. Para configurar um PIN, vá [aqui](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).  <br/> |
 |Transferir números de um Microsoft 365 ou Office 365 para outro.  <br/>               | contate o Service [Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de telefone do usuário (assinante) que você deseja transferir juntamente com o PIN da organização de origem da qual você deseja transferir os números. Para configurar um PIN, vá [aqui](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).  <br/> |

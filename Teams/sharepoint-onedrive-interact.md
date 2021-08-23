@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e550acd5d47c0199318c820f595253eb8f2477421f62d90e3a7d16ced2336d05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b47ca7c1c0a9a5154f681a8e09d175ba17ad8013
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308482"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359188"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Como SharePoint e OneDrive interagir com Microsoft Teams
 
@@ -78,6 +78,8 @@ A **guia Arquivos** no Teams se parece muito com o SharePoint de documentos. Na 
 O tipo de link de compartilhamento mostrado por padrão quando um usuário compartilhou um arquivo é definido no SharePoint de administração. Consulte [Alterar o tipo de link padrão quando os usuários receberem links para compartilhamento](/sharepoint/change-default-sharing-link) para obter informações.
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
+[Gerenciar Teams sites conectados e sites de canal](/SharePoint/teams-connected-sites)
 
 [SharePoint e Teams: melhor juntos.](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
 

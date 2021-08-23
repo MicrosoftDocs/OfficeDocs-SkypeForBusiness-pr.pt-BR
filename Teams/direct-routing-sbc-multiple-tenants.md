@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um Controlador de Borda de Sessão (SBC) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bf5ec69e539796bb68325679da41c0954c3d6da6
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293908"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398960"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -137,7 +137,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 ### <a name="activate-the-domain-name"></a>Ativar o nome de domínio
 
-Depois de registrar um nome de domínio, você precisará ativá-lo adicionando pelo menos um usuário com uma licença Sistema de Telefonia e atribuindo um endereço SIP com a parte FQDN do endereço SIP correspondente ao domínio base criado. A licença pode ser revogada após a ativação do domínio (pode levar até 24 horas).
+Depois de registrar um nome de domínio, você precisará ativá-lo adicionando pelo menos um usuário com uma licença Sistema de Telefonia e atribuindo um endereço SIP com a parte FQDN do endereço SIP correspondente ao domínio base criado.
 
 > [!NOTE]
 > O locatário da Operadora deve manter pelo menos uma licença Sistema de Telefonia atribuída ao locatário para evitar a remoção da configuração Skype for Business de usuário. 
@@ -205,7 +205,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 ### <a name="activate-the-subdomain-name"></a>Ativar o nome do subdomínio
 
-Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário e atribuindo um endereço SIP com a parte FQDN do endereço SIP que corresponde ao subdomínio criado no locatário do cliente. A licença pode ser revogada do usuário após a ativação do subdomínio (pode levar até 24 horas).
+Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário e atribuindo um endereço SIP com a parte FQDN do endereço SIP que corresponde ao subdomínio criado no locatário do cliente. 
 
 *Confira [Obter ajuda com Microsoft 365 ou Office 365 domínios](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários em Microsoft 365 ou Office 365 organizações.*
 
@@ -255,7 +255,7 @@ Para migrar da implementação atual do modelo hospedado da operadora para o nov
 
 Consulte as instruções do fornecedor [SBC](#deploy-and-configure-the-sbc) sobre como configurar o envio do nome FQDN de subdomas no header contato.
 
-## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Considerações sobre como configurar o failover muti-tenant 
+## <a name="considerations-for-setting-up-multi-tenant-failover"></a>Considerações sobre como configurar o failover de vários locatários 
 
 Para configurar o failover para um ambiente de vários locatários, você precisará fazer o seguinte:
 

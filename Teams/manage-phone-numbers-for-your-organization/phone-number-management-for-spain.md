@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Espanha para Microsoft Teams.
-ms.openlocfilehash: 3a584a2417d465fd8f8776f4699d0675ffb74ad5dba5699a4c3f2b48a5a82377
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c09e2aa42bfeb9799f6c0ec5fc2a5143ed4b9e06
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350883"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380425"
 ---
 # <a name="phone-number-management-for-spain"></a>Gerenciamento de números de telefone para a Espanha
 
@@ -36,11 +36,11 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.   <br/> | Baixe um desses formulários.</br> [Nova solicitação de número de telefone para a Espanha (v.5.0) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf?raw=true) <br/>  [Nova solicitação de número de telefone para a Espanha (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>    Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md).  <br/> |
-|Obter números de telefone transferidos para nós.  <br/> |Baixe este formulário. <br/>[Carta de Autorização (LOA) para Espanha (todos os números) (v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md)para[enviá-lo para nós](mailto:ptneu@microsoft.com). <br/> |
-|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
-|Altere o número de um usuário para um número de serviço.  <br/> |[Contate PTSN para obter instruções](contact-pstn-service-desk.md) sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
-|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou atendimento automático, entre em contato [com o service desk PSTN](contact-pstn-service-desk.md). |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.   <br/> | Baixe um desses formulários.</br> [Nova solicitação de número de telefone para a Espanha (v.5.0) (es-es)](https://download.microsoft.com/download/a/b/3/ab310e4a-2d25-4cf1-a413-cfb84d66c7ad/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf) <br/>  [Nova solicitação de número de telefone para a Espanha (v.5.0) (en-us)](https://download.microsoft.com/download/9/e/8/9e8bef13-808d-418b-aafa-af36d1e76984/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf)<br/><br/>    Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md).  <br/> |
+|Obter números de telefone transferidos para nós.  <br/> |Baixe este formulário. <br/>[Carta de Autorização (LOA) para Espanha (todos os números) (v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md)para[enviá-lo para nós](mailto:ptneu@microsoft.com). <br/> |
+|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
+|Altere o número de um usuário para um número de serviço.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou de atendimento automático, entre em contato com [o Service Desk PTSN para obter instruções.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

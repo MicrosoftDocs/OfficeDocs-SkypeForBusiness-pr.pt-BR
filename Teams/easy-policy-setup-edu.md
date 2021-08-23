@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar o assistente de política Teams para Educação para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
-ms.openlocfilehash: 335061c2dfb662673a4ec026bb3a29015cdb59b4b198bdafc9a971e4480938d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e046e108f899f95e76df8c03d5fd6d25de4a942
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344054"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386680"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use o Assistente Teams para Educação política para aplicar facilmente políticas para um ambiente de aprendizado seguro
 
@@ -205,6 +205,8 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |  |        |Permitir o suplemento do Outlook         |Desabilitado       |Habilitado|
 |  |        |Permitir o agendamento de reunião do canal        |Desabilitado      |Habilitado|
 |  |        |Permitir o agendamento de reuniões particulares       |Desabilitado      |Habilitado|
+|  |        |Permitir registro de reunião              |Habilitado       |Habilitado|
+|  |        |Who pode se registrar    |Todos na organização      |Todos na organização|
 |  |Vídeo & áudio        |Permitir transcrição        |Habilitado       |Habilitado|
 |  |        |Permitir gravação na nuvem         |Desabilitado      |Habilitado|
 |  |        |Modo de áudio IP       |Áudio de saída e entrada habilitado        |Áudio de saída e entrada habilitado|
@@ -233,7 +235,7 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |  |       |Apagar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Chat         |Desabilitado         |Habilitado|
+|  |       |Bate-papo         |Desabilitado         |Habilitado|
 |  |       |Usar Giphys em conversas         |Desabilitado         |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
 |  |       |Usar Memes em conversas         |Habilitado         |Habilitado|
@@ -273,6 +275,8 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 |  |        |Permitir o suplemento do Outlook         |Habilitado       |Habilitado|
 |  |        |Permitir o agendamento de reunião do canal        |Habilitado      |Habilitado|
 |  |        |Permitir o agendamento de reuniões particulares       |Habilitado      |Habilitado|
+|  |        |Permitir registro de reunião              |Habilitado       |Habilitado|
+|  |        |Who pode se registrar    |Todos na organização      |Todos na organização|
 |  |Vídeo & áudio        |Permitir transcrição        |Habilitado       |Habilitado|
 |  |        |Permitir gravação na nuvem         |Habilitado      |Habilitado|
 |  |        |Modo de áudio IP       |Áudio de saída e entrada habilitado        |Áudio de saída e entrada habilitado|
@@ -301,7 +305,7 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 |  |       |Apagar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Chat         |Habilitado         |Habilitado
+|  |       |Bate-papo         |Habilitado         |Habilitado
 |  |       |Usar Giphys em conversas         |Habilitado        |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
 |  |       |Usar Memes em conversas         |Habilitado         |Habilitado|

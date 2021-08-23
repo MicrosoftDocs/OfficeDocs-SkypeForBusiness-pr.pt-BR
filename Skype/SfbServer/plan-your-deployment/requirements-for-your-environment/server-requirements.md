@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumo: prepare seus Skype for Business Server 2015 com este tópico. Hardware, so, bancos de dados, software, todos os requisitos e recomendações do sistema estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do farm de servidores.'
-ms.openlocfilehash: 8dd32e9d27120e4809cb2f5ce557657e0b4864d60d7095a5e2eb799dc7fdfc83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c709dbc3afa2290cc9260dd71b73ab5da898d88
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276606"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372071"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor para Skype for Business Server 2015
  
@@ -68,7 +68,7 @@ Hardware recomendado para Servidores de Borda, Servidores de Mediação autônom
 
 Depois de ter o hardware instalado, você precisará instalar os sistemas operacionais (SO). Esses são os so que permitirão que você instale e use com êxito Skype for Business Server 2015.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Windows Server 2019 (Você precisa Skype for Business Atualização Cumulativa 9 ou posterior). <br/> |Windows Server 2016 (Você precisa Skype for Business Atualização Cumulativa 5 ou posterior. Para obter mais informações, verifique [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Windows Server 2012 Sistema operacional do Datacenter R2 com todas as atualizações necessárias instaladas.  <br/> |Windows Server 2012 R2 Sistema operacional padrão com todas as atualizações necessárias instaladas.  <br/> |
@@ -98,7 +98,7 @@ Ao instalar o Skype for Business Server 2015 Edição Standard, você também te
   
 Skype for Business Server 2015 Edição Enterprise é um pouco mais complicado, mas a lista suportada está abaixo (tudo é edição de 64 bits, você notará, por favor, não use edições de 32 bits):
   
-||||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|:-----|
 |Microsoft SQL Server 2019 Enterprise (edição de 64 bits) e recomendamos a execução com o service pack mais recente. <br/> |Microsoft SQL Server 2017 Enterprise (edição de 64 bits) e recomendamos a execução com o service pack mais recente. <br/> |Microsoft SQL Server 2016 Enterprise (edição de 64 bits) com Service Pack 1 ou posterior, e você deve executar com Skype for Business Atualização Cumulativa 7 ou posterior ( baixar Skype for Business[Atualização Cumulativa](https://support.microsoft.com/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (edição de 64 bits) e você deve executar com a Atualização Cumulativa 6 ou posterior ([baixe a Atualização Cumulativa 6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (edição de 64 bits) e recomendamos a execução com o service pack mais recente.  <br/> |
 |Microsoft SQL Server 2019 Standard (edição de 64 bits) e recomendamos a execução com o service pack mais recente. <br/> |Microsoft SQL Server 2017 Standard (edição de 64 bits) e recomendamos a execução com o service pack mais recente. <br/> |Microsoft SQL Server 2016 Standard (edição de 64 bits) com Service Pack 1 ou posterior, e você deve executar com Skype for Business Atualização Cumulativa 7 ou posterior ( baixar Skype for Business[Atualização Cumulativa](https://support.microsoft.com/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (edição de 64 bits) e você deve executar com a Atualização Cumulativa 6 ou posterior ([baixe a Atualização Cumulativa 6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (edição de 64 bits) e recomendamos a execução com o service pack mais recente.  <br/> |
@@ -112,7 +112,7 @@ Se você não vir a SQL Server edição que deseja usar listada aqui, não poder
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange armazenamento
 Conteúdo de reuniões, como apresentações em PowerPoint, são arquivados como anexos. Se você deseja armazenar Skype for Business dados de arquivo morto com dados de conformidade Exchange, você deve usar o Exchange para sua implantação Exchange e garantir que o tamanho máximo de armazenamento suporta o armazenamento dos arquivos de conteúdo da reunião. Você deve implantar Exchange antes da implantação e habilitação do arquivamento usando a opção de Exchange de integração da Microsoft. 
     
-    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
+Se você optar por usar o armazenamento Exchange, não precisará implantar bancos de dados SQL Server separados para arquivamento, a menos que você tenha Skype for Business usuários que não estão em casa em seus servidores Exchange. Se você implantar o arquivamento usando Exchange opção de integração do Microsoft Exchange, os dados de arquivo morto Skype for Business serão armazenados com dados de conformidade Exchange somente para os usuários que estão armazenados em seus servidores Exchange. 
   
 ## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Requisitos de hardware e software para arquivamento no Skype for Business Server 2015
   

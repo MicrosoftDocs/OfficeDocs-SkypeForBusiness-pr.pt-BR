@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações de política de reunião Teams para participantes e convidados.
-ms.openlocfilehash: 30ef20368adeb7b0f14ff0c811a1c6ec9d4ce29b6debeeb198f0b74ae75d441d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12b5690a39df5081960dce22a335c24673ee8780
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293268"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365598"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -39,7 +39,7 @@ Essas configurações controlam quais participantes da reunião devem aguardar n
 - [Permitir chat em reuniões](#allow-chat-in-meetings)
 
 > [!NOTE]
->As opções para ingressar em uma reunião variam, dependendo das configurações de cada grupo do Teams e do método de conexão. Se o seu grupo tiver audioconferência e a usar para se conectar, confira [Audioconferência](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Se o seu grupo do Teams não tiver audioconferência, confira [Participar de uma reunião do Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+>As opções para ingressar em uma reunião variam, dependendo das configurações de cada grupo do Teams e do método de conexão. Se o seu grupo tiver audioconferência e a usar para se conectar, confira [Audioconferência](/microsoftteams/audio-conferencing-in-office-365). Se o seu grupo do Teams não tiver audioconferência, confira [Participar de uma reunião do Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Permitir que pessoas anônimas iniciem uma reunião
 
@@ -62,11 +62,11 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 |Valor de configuração  |Comportamento de ingresso |
 |---------|---------|
 |**Todos**   |Todos os participantes da reunião participam da reunião diretamente, sem aguardar no lobby. Isso inclui usuários autenticados, usuários externos de organizações confiáveis (federado), convidados e usuários anônimos.     |
-|**Pessoas na minha organização e convidados**     |Os usuários autenticados dentro da organização, incluindo os usuários convidados, insto na reunião diretamente sem esperar no lobby.  Os usuários anônimos aguardam o lobby.   |
+|**Pessoas na minha organização e convidados**     |Os usuários autenticados dentro da organização, incluindo os usuários convidados, insto na reunião diretamente sem esperar no lobby. Os usuários de organizações confiáveis e usuários anônimos aguardam no lobby. Essa é a configuração padrão.    |
 |**Pessoas da minha organização e organizações confiáveis**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações confiáveis, entram na reunião diretamente sem aguardar no lobby.  Os usuários anônimos aguardam o lobby.   |
-|**Todos na minha organização**    |Usuários autenticados dentro da organização, incluindo usuários convidados, entram na reunião diretamente sem aguardar no lobby.  Os usuários de organizações confiáveis e usuários anônimos aguardam o lobby. Essa é a configuração padrão.           |
-|**Organizador somente**    |Somente os organizadores da reunião participam da reunião diretamente, sem aguardar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, usuários convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby.           |
-|**Somente usuários convidados**    |Somente usuários convidados e organizadores de reuniões podem participar da reunião diretamente sem esperar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, usuários convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby.           |
+|**Pessoas na minha organização**    |Os usuários autenticados de dentro da organização insuem na reunião diretamente sem esperar no lobby.  Os usuários de organizações confiáveis, usuários convidados e usuários anônimos aguardam no lobby.          |
+|**Organizador somente**    |Somente os organizadores da reunião participam da reunião diretamente, sem aguardar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, usuários convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página Teams de reunião do cliente, ele aparece como "Somente eu".          |
+|**Somente usuários convidados**    |Somente usuários convidados e organizadores de reuniões podem participar da reunião diretamente sem esperar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, usuários convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página Teams de reunião do cliente, ela aparece como "Pessoas que eu convidar".          |
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de acesso telefônico ignorem o lobby
 

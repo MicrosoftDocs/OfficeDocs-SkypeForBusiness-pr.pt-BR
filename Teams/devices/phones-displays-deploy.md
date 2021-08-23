@@ -1,5 +1,5 @@
 ---
-title: Implantar Teams telefones e Teams displays usando o Intune
+title: Implantar Teams telefones, Teams e Salas do Microsoft Teams no Android usando o Intune
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -16,20 +16,20 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams exibições.
-ms.openlocfilehash: 1ccf933cfb0f4e9eab4af4f884cbd6503d0667138d56d8c005574c57d839626a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7772de5767b9aefe69e1192051be65ccb632656
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321473"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359158"
 ---
-# <a name="deploy-teams-phones-and-teams-displays-using-intune"></a>Implantar Teams telefones e Teams displays usando o Intune
+# <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Implantar Teams telefones, Teams e Salas do Microsoft Teams no Android usando o Intune
 
-Este artigo fornece uma visão geral de como implantar. Teams telefones e Teams exibição usando o Intune.
+Este artigo fornece uma visão geral de como implantar telefones Teams, Teams e Salas do Microsoft Teams no Android usando o Intune.
 
 ## <a name="conditional-access"></a>Acesso condicional
 
-O Acesso Condicional é um recurso Azure Active Directory (Azure AD) que ajuda você a garantir que os dispositivos que acessam seus recursos Office 365 sejam gerenciados corretamente e sejam seguros.  Se você aplicar políticas de Acesso Condicional ao serviço Teams, dispositivos Android (incluindo telefones Teams e telas Teams) que o acesso Teams precisa ser inscrito no Intune e suas configurações precisam estar em conformidade com suas políticas.  Se o dispositivo não estiver inscrito no Intune ou se estiver inscrito, mas suas configurações não estão em conformidade com suas políticas, o Acesso Condicional impedirá que um usuário entre ou use o aplicativo Teams no dispositivo.
+O Acesso Condicional é um recurso Azure Active Directory (Azure AD) que ajuda você a garantir que os dispositivos que acessam seus recursos Office 365 sejam gerenciados corretamente e sejam seguros.  Se você aplicar políticas de Acesso Condicional ao serviço Teams, dispositivos Android (incluindo telefones Teams, exibições do Teams e Salas do Microsoft Teams no Android) que acessam o Teams precisam ser inscritos no Intune e suas configurações precisam estar em conformidade com suas políticas.  Se o dispositivo não estiver inscrito no Intune ou se estiver inscrito, mas suas configurações não estão em conformidade com suas políticas, o Acesso Condicional impedirá que um usuário entre ou use o aplicativo Teams no dispositivo.
 
 Normalmente, as políticas de conformidade definidas no Intune são atribuídas a grupos de usuários.  Isso significa que, se você atribuir uma política de conformidade do Android ao user@contoso.com, essa política se aplicará igualmente ao seu smartphone Android e a qualquer dispositivo Teams android no user@contoso.com conectado.
 
@@ -59,9 +59,9 @@ Teams Os dispositivos baseados em Android são gerenciados pelo Intune por meio 
    Os usuários Teams dispositivos que se registram no Intune devem ter uma licença válida do Intune. Para obter mais informações, consulte Atribuir licenças aos usuários para [que eles possam registrar dispositivos no Intune](/intune/fundamentals/licenses-assign).
 1. Atribuir políticas de conformidade do Administrador de Dispositivos.  
 
-   a. Crie uma política de conformidade do Administrador de Dispositivos Android.
+   1. Crie uma política de conformidade do Administrador de Dispositivos Android.
 
-   b. Atribua-o ao grupo Azure Active Directory que contém os usuários que entrarão no Teams dispositivos. Consulte [Usar políticas de conformidade para definir regras para dispositivos que você gerencia com o Intune](/mem/intune/protect/device-compliance-get-started).
+   1. Atribua-o ao grupo Azure Active Directory que contém os usuários que entrarão no Teams dispositivos. Consulte [Usar políticas de conformidade para definir regras para dispositivos que você gerencia com o Intune](/mem/intune/protect/device-compliance-get-started).
 
 ## <a name="see-also"></a>Confira também
 

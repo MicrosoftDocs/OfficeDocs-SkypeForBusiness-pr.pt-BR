@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização em Microsoft Teams.
-ms.openlocfilehash: d64b730549a98b597de0f28c53fbe45f793e9f77b5270aa464a722692f59aaae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a7b0eef37f335aeb0094dba568dcc98a3fd1bd07
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340437"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399050"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas em Microsoft Teams
 
@@ -35,7 +35,7 @@ Como mencionado anteriormente, há dois tipos de marcas Teams.
 - **Marcação por turno**: com esse recurso, as pessoas são atribuídas automaticamente marcas que corresponderem ao nome do grupo de turnos e agendamento no aplicativo [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) no Teams. Por exemplo, a marca "EngineerOnCall" atinge todos os engenheiros agendados em Shifts para trabalhar no momento em que a marca é usada em uma postagem de chat ou canal. Com a marcação por turno, Teams faz a suposição de saber o nome da equipe de turno quando os usuários precisam retransmitir rapidamente as informações. A marcação por turno também pode ser respaldada pelos principais sistemas de gerenciamento de força de trabalho, como JDA, Kronos e AMiON, integrando-os com Shifts em Teams. Para saber mais sobre como configurar esse recurso, consulte [Configurar marcação por turno](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> As marcas ainda não são suportadas em canais privados. As marcas não estão disponíveis em GCC alta ou organizações do Departamento de Defesa (DoD). 
+> As marcas ainda não são suportadas em canais privados. As marcas não estão disponíveis em organizações do Departamento de Defesa (DoD). 
 
 ## <a name="how-tags-work"></a>Como as marcas funcionam
 

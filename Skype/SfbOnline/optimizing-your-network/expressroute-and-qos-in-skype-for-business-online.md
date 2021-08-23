@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 0dd1b95006dcc493baa46a31ea34c5aaff1465010146c16926c9af151e6442af
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6854c1a515fc5aa22a2766944366d6b644e14483
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325658"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407220"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute e QoS no Skype for Business Online
 
@@ -66,7 +66,7 @@ A Dewey Law LLC. é uma empresa relativamente nova, os advogados e outros membro
   
  **Distribuição de usuários por locais e posições**
   
-||**Sede (NY)**|**Escritórios regionais (3)**|**Filiais grandes (24)**|**Filiais pequenas (50)**|
+|Equipe |**Sede (NY)**|**Escritórios regionais (3)**|**Filiais grandes (24)**|**Filiais pequenas (50)**|
 |:-----|:-----|:-----|:-----|:-----|
 |Executivos  <br/> |20  <br/> |10  <br/> |1  <br/> |1  <br/> |
 |Parceiros  <br/> |150  <br/> |50  <br/> |10  <br/> |5  <br/> |
@@ -357,7 +357,7 @@ A associação recomendada de prioridades da Camada 3 para a Camada 2 é mostrad
   
  **Associações de prioridades recomendadas da Camada 3 para a Camada 2**
   
-||**Marcações da Camada 3**|**Camada 2 (Valor de PCP)**|**Wi-Fi (Categoria de acesso)**|
+|&nbsp; |**Marcações da Camada 3**|**Camada 2 (Valor de PCP)**|**Wi-Fi (Categoria de acesso)**|
 |:-----|:-----|:-----|:-----|
 |Controle de rede  <br/> |Comportamento por salto (PHB) - Seletor de Classe (CS) 6  <br/> |6  <br/> |1 (AC_VO)  <br/> |
 |Valor de DSCP - 48  <br/> |

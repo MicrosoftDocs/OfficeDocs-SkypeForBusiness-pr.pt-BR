@@ -20,33 +20,43 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb6950bbb78bf04b01194bbab5ec6d9030a53137
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f9d6f3f03e84e42f7aece380baedb928495560f8
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235743"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386760"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams aplicativos/linha de negócios (LOB) suporte a aplicativos Teams painéis
 
-Teams painéis adicionam suporte Teams aplicativos/aplicativos de linha de negócios (LOB). Isso permitirá que as empresas adicionem experiências adicionais nos painéis para atender às necessidades da sua organização. Esta versão dá suporte ao conteúdo estático da Web.
+Teams painéis adicionam suporte Teams [aplicativos/aplicativos de linha de negócios (LOB).](/microsoftteams/platform/overview) Isso permitirá que as empresas adicionem experiências adicionais nos painéis para atender às necessidades da sua organização. Esta versão dá suporte ao conteúdo estático da Web.
 
 > [!IMPORTANT]
 > Esse recurso só estará disponível depois de atualizar seus dispositivos Teams painéis. Você precisa ter o aplicativo Teams versão 1449/1.0.97.2021070601 ou mais recente para ter suporte a aplicativos em Teams painéis.
 
+## <a name="teams-app-experience-on-teams-panels"></a>Teams experiência do aplicativo em Teams painéis
+
+![Captura de tela do Teams de administração mostrando qual seção permitirá que os usuários naveguem até aplicativos.](media/tac1update.png) 
+
+*A Teams tela inicial dos painéis inclui opções de navegação do aplicativo, descritas na captura de tela em vermelho. Observe que esses são ícones de exemplo e podem não estar disponíveis para uso.*
+
+![Captura de tela da tela do aplicativo onde os aplicativos podem ser adicionados.](media/appscreen.png)
+
+*Quando um usuário final toca em um dos ícones do aplicativo, ele verá a Teams de aplicativos exibida na captura de tela anterior. O retângulo cinza na captura de tela é onde os aplicativos são exibidos Teams painel. A barra de aplicativos é fixa e parte do aplicativo Teams painéis.*
+
 ## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Configurar e gerenciar Teams de painéis no Teams de administração 
 
-Microsoft Teams aplicativos trazem informações importantes, ferramentas comuns e processos confiáveis para onde as pessoas coletam, aprendem e trabalham. Teams aplicativos funcionam [por meio de recursos integrados.](/platform/concepts/capabilities-overview) Agora, como administrador de TI, você tem a opção de quais aplicativos incluir no dispositivo de painéis Teams sua organização e personalizar permissões por meio do centro de administração do Teams.
+Microsoft Teams aplicativos trazem informações importantes, ferramentas comuns e processos confiáveis para onde as pessoas coletam, aprendem e trabalham. Teams aplicativos funcionam [por meio de recursos integrados.](/microsoftteams/platform/concepts/capabilities-overview) Agora, como administrador de TI, você tem a opção de quais aplicativos incluir no dispositivo de painéis Teams sua organização e personalizar permissões por meio do centro de administração [Teams.](https://admin.teams.microsoft.com/)
 
-Agora você pode usar os Teams aplicativos Teams painéis e personalizar a experiência do usuário com base nas necessidades da sua organização. Você pode decidir qual aplicativo Web seus usuários podem acessar e usar e priorizar os exibições do aplicativo. Algumas opções, como o bot e os recursos de mensagens, não são suportadas no momento. Saiba mais sobre os Teams aplicativos e como gerenciar seus dispositivos Microsoft Teams.
+Agora você pode usar os Teams aplicativos Teams painéis e personalizar a experiência do usuário com base nas necessidades da sua organização. Você pode decidir qual aplicativo Web seus usuários podem acessar e usar e priorizar os exibições do aplicativo. Algumas opções, como o bot e os recursos de mensagens, não são suportadas no momento. Saiba mais sobre [os aplicativos Teams e](/microsoftteams/platform/overview) como gerenciar seus [dispositivos em Microsoft Teams](/microsoftteams/devices/device-management).
 
 ## <a name="manage-apps-on-teams-panels-in-teams-admin-center"></a>Gerenciar aplicativos Teams painéis no Teams de administração
 
-**Observação**: você deve ser um administrador global ou um administrador de serviço Teams para acessar o Teams de administração.
+**Observação**: você deve ser um administrador global ou um administrador de serviço Teams para acessar o [Teams de administração.](https://admin.teams.microsoft.com/)
 
-Os usuários finais podem exibir, mas não instalar aplicativos Teams painéis. Como administrador, você pode exibir e gerenciar todos os aplicativos Teams para sua organização por meio do Teams de administração. Saiba mais sobre como gerenciar seus aplicativos no centro de administração Microsoft Teams por meio da página **Gerenciar aplicativos.** A **página Gerenciar aplicativos** no centro de administração Teams também é onde você pode carregar [aplicativos personalizados.](/manage-apps#publish-a-custom-app-to-your-organizations-app-store)
+Os usuários finais podem exibir, mas não instalar aplicativos Teams painéis. Como administrador, você pode exibir e gerenciar todos os aplicativos Teams para sua organização por meio do Teams de administração. Saiba mais sobre como gerenciar [seus aplicativos](/microsoftteams/manage-apps) no centro de administração Microsoft Teams por meio da página **Gerenciar aplicativos.** A **página Gerenciar aplicativos** no centro de administração Teams também é onde você pode carregar [aplicativos personalizados.](/microsoftteams/manage-apps#publish-a-custom-app-to-your-organizations-app-store)
 
-Depois de configurar aplicativos, você [](/teams-app-setup-policies) pode [usar](/teams-app-permission-policies) políticas de permissão de aplicativo e políticas de configuração de aplicativos para configurar a experiência do aplicativo para contas de sala específicas em sua organização.
+Depois de configurar aplicativos, você [](/microsoftteams/teams-app-setup-policies) pode [usar](/microsoftteams/teams-app-permission-policies) políticas de permissão de aplicativo e políticas de configuração de aplicativos para configurar a experiência do aplicativo para contas de sala específicas em sua organização.
 
 ## <a name="pin-apps-on-teams-panels-with-app-setup-policies"></a>Fixar aplicativos em Teams painéis com políticas de configuração de aplicativos
 
@@ -58,19 +68,23 @@ Para gerenciar aplicativos fixados exibidos nos painéis Teams, entre no centro 
 
 ![Captura de tela da seção aplicativos fixados na interface do usuário.](media/appsetup2.png) 
 
+*Os aplicativos incluídos nesta imagem são apenas exemplos e podem não estar disponíveis para uso.*
+
 A Microsoft recomenda que você **Upload**  aplicativos personalizados e Permitir o pinamento do usuário para a melhor Teams de aplicativos em Teams painéis.
 
-Para obter mais informações sobre como fixar aplicativos, consulte [Manage app setup policies](/teams-app-setup-policies).
+Para obter mais informações sobre como fixar aplicativos, consulte [Manage app setup policies](/microsoftteams/teams-app-setup-policies).
 
 ## <a name="manage-apps-display-order-in-teams-panels"></a>Gerenciar a ordem de exibição de aplicativos Teams painéis 
 
-![Captura de tela da seção aplicativos dentro da interface do usuário.](media/appsetup3.png) 
+![Captura de tela da seção aplicativos dentro da interface do usuário.](media/appsetup3.png)
+
+*Os aplicativos incluídos nesta imagem são apenas exemplos e podem não estar disponíveis para uso.*
 
 Para gerenciar a ordem na qual os aplicativos são exibidos nos painéis Teams, entre no centro de administração do Teams para sua organização e navegue até **Teams** políticas de Instalação de aplicativos Selecione os aplicativos fixados em \>  \>  \> **política:** **Mover para cima/para baixo**.
 
 ## <a name="assigning-setup-policies-to-a-room-resource-account"></a>Atribuir políticas de instalação a uma conta de recurso de sala
 
-Depois de criar a política de instalação, o administrador precisará atribuir essa política à conta de recurso de sala que será assinada nos painéis Teams de sala. Para obter mais informações, consulte [Atribuir políticas a usuários e grupos.](/assign-policies-users-and-groups)
+Depois de criar a política de instalação, o administrador precisará atribuir essa política à conta de recurso de sala que será assinada nos painéis Teams de sala. Para obter mais informações, consulte [Atribuir políticas a usuários e grupos.](/microsoftteams/assign-policies-users-and-groups)
 
 ## <a name="faq"></a>Perguntas frequentes
 
@@ -102,10 +116,12 @@ Se os aplicativos foram instalados anteriormente por meio de outras políticas d
 
 ### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Por que não consigo encontrar um aplicativo no painel "Adicionar aplicativos fixados"?
 
-Nem todos os aplicativos podem ser fixados Teams por meio de uma política de configuração de aplicativo. Alguns aplicativos podem não dar suporte a essa funcionalidade. Para encontrar aplicativos que podem ser fixados, pesquise o aplicativo no painel **Adicionar aplicativos** fixados. Para obter mais informações, consulte perguntas [frequentes em Trabalhando com políticas de configuração de aplicativos.](/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)
+Nem todos os aplicativos podem ser fixados Teams por meio de uma política de configuração de aplicativo. Alguns aplicativos podem não dar suporte a essa funcionalidade. Para encontrar aplicativos que podem ser fixados, pesquise o aplicativo no painel **Adicionar aplicativos** fixados. Para obter mais informações, consulte perguntas [frequentes em Trabalhando com políticas de configuração de aplicativos.](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)
 
 ### <a name="why-am-i-seeing-an-allow-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-allow-user-pinning"></a>Por que estou vendo um pop-up "Permitir que o usuário fixe" no painel de políticas de configuração depois que eu desativar "Permitir pinamento de usuário?"
 
-![Captura de tela da seção de política de instalação dentro da interface do usuário com um pop-up confirmando que o pining do usuário está ativo.](media/appsetup4.png) 
+![Captura de tela da seção de política de instalação dentro da interface do usuário com um pop-up confirmando que o pining do usuário está ativo.](media/appsetup4.png)
+
+*Os aplicativos incluídos nesta imagem são apenas exemplos e podem não estar disponíveis para uso.* 
 
 Esse comportamento é esperado para um dispositivo em um espaço compartilhado e ajuda a evitar o pinamento de aplicativo não intencional.
