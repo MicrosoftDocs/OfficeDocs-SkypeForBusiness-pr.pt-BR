@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como provisionar e entrar remotamente em dispositivos Teams Android
-ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235376"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483108"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para dispositivos Teams Android
 
@@ -44,7 +44,17 @@ A lista a seguir mostra os requisitos de firmware de dispositivo Android.
 |Teams telefones|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams telefones|  Códigos de áudio C448HD/C450HD/C470HD|   1.10.120|
 |Teams painéis|  Crestron 770/1070|  1.004.0115|
-
+|Salas do Teams no Android|Logitech Rally Bar Mini|1.2.982|
+|Salas do Teams no Android|Barra de Rali logitech|1.2.982|
+|Salas do Teams no Android|AudioCodes RXV80|1.13.361|
+|Salas do Teams no Android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Salas do Teams no Android|Yealink MeetingBar A30|133.15.0.60|
+|Salas do Teams no Android|Yealink MeetingBar A20|133.15.0.60|
+|Salas do Teams no Android|Console de toque yealink CTP18|137.15.0.37|
+|Salas do Teams no Android|Poly Studio X30|3.5.0.344025|
+|Salas do Teams no Android|Poly Studio X50|3.5.0.344025|
+|Salas do Teams no Android|Console touch Poly TC8 |3.5.0.210489|
+|Salas do Teams no Android|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>Adicionar um endereço MAC de dispositivo
 

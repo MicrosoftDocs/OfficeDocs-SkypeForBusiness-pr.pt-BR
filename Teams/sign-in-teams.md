@@ -17,24 +17,24 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec7796d27f6606c4738d3ce415a32a6f966af6cead1a090dd053df293fcfadfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d8f77e1050e90821f8d99996022b4c97042a5f63
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332493"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483128"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 
 ## <a name="windows-users"></a>Usuários do Windows
 
-A Microsoft recomenda que as organizações usem versões recentes do Windows 10 com a configuração de Ingresso do Domínio Híbrido ou Ingresso no Azure AD. O uso de versões recentes garante que as contas dos usuários sejam preparadas no Gerenciador de Contas da Web do Windows, que por sua vez permite o logon único no Teams e em outros aplicativos da Microsoft. O logon único fornece uma melhor experiência do usuário (logon silencioso) e uma melhor postura de segurança.
+A Microsoft recomenda que as organizações usem versões recentes do Windows 10 com a configuração de Ingresso do Domínio Híbrido ou Ingresso no Azure AD. O uso de versões recentes garante que as contas dos usuários sejam preparadas no Gerenciador de Contas da Web do Windows, que por sua vez permite o logon único no Teams e em outros aplicativos da Microsoft. A entrada única fornece uma melhor experiência do usuário (logon silencioso) e uma melhor postura de segurança.
 
 O Microsoft Teams usa autenticação moderna para manter a experiência de inscrição simples e segura. Para ver como os usuários entram no Teams, leia [Entrar no Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ### <a name="how-modern-authentication-works"></a>Como funciona a autenticação moderna
 
-A autenticação moderna é um processo que permite que as Equipes saibam que os usuários já inseriram suas credenciais, como email de trabalho e senha em outro lugar, e não há necessidade de inseri-las novamente para iniciar o aplicativo. A experiência varia dependendo de alguns fatores, como, por exemplo, se os usuários estão trabalhando no Windows ou em um Mac. Também irá variar dependendo se a sua organização habilitou a autenticação de fator único ou a autenticação de vários fatores. A autenticação multifator geralmente envolve a verificação de credenciais por meio de um telefone, fornecendo um código exclusivo, inserindo um PIN ou apresentando uma impressão digital. Este é um resumo de cada cenário de autenticação moderna.
+A autenticação moderna é um processo que permite que as Equipes saibam que os usuários já inseriram suas credenciais, como email de trabalho e senha em outro lugar, e não há necessidade de inseri-las novamente para iniciar o aplicativo. A experiência varia dependendo de alguns fatores, como, por exemplo, se os usuários estão trabalhando no Windows ou em um Mac. Ele também variará dependendo se sua organização habilitou a autenticação de fator único ou a autenticação multifator. A autenticação multifator geralmente envolve a verificação de credenciais por meio de um telefone, fornecendo um código exclusivo, inserindo um PIN ou apresentando uma impressão digital. Este é um resumo de cada cenário de autenticação moderna.
 
 A autenticação moderna está disponível para todas as organizações que usam Microsoft Teams. Se os usuários não conseguirem concluir o processo, pode haver um problema subjacente com a configuração do Azure Active Directory da sua organização. Para obter mais informações, confira [Por que estou tendo problemas para entrar no Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
@@ -42,7 +42,7 @@ A autenticação moderna está disponível para todas as organizações que usam
 
 - A Microsoft recomenda usar do Windows 10 versão 1903 ou posterior para a melhor experiência de Single Sign-On.
 
-- Se os usuários não estiverem inscritos em sua conta de trabalho ou escola Microsoft em qualquer outro lugar, quando iniciar o Teams, eles são solicitados a fornecer autenticação de um ou vários fatores (SFA ou MFA). Este processo depende do que sua organização tenha decidido que eles gostaria que o procedimento de entrada exigia.
+- Se os usuários não estiverem conectados à conta corporativa ou de estudante da Microsoft em outro lugar, quando iniciarem o Teams, eles serão solicitados a fornecer autenticação de fator único ou multifator (SFA ou MFA). Esse processo depende do que sua organização decidiu que gostaria que o procedimento de entrada exigia.
 
 - Se os usuários estiverem conectados a um computador com domínio, quando se inicia o Teams, eles poderão ser solicitados a passar por mais uma etapa de autenticação, dependendo se sua organização optou por requerer o MFA ou se seu computador já requer o MFA para se conectar. Se o computador deles já exige que o MFA faça o login, quando abrir o Teams, o aplicativo é iniciado automaticamente.
 
@@ -54,10 +54,6 @@ A autenticação moderna está disponível para todas as organizações que usam
 
     > [!NOTE]
     > Pular ou ignorar o pré-preenchimento do nome do usuário para nomes de usuários que terminam com ".local" ou ".corp" está ativado por padrão, por isso, não é necessário definir uma chave de registro para desativá-los.
-
-### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Sair do Teams após concluir a autenticação moderna
-
-Para sair do Teams, os usuários podem selecionar a imagem do perfil na parte superior do aplicativo e, em seguida, selecionar **Sair**. Eles também podem clicar com o botão direito do mouse no ícone do aplicativo na barra de tarefas e, em seguida, selecionar **Fazer logoff**. Depois de sair do Teams, eles precisam inserir suas credenciais novamente para iniciar o aplicativo.
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Login em outra conta em um computador Associado ao Domínio
 
@@ -88,7 +84,7 @@ As imagens a seguir mostram como os usuários podem adicionar várias contas nos
 
 ## <a name="restrict-sign-in-to-teams"></a>Restringir login para o Microsoft Teams
 
-A organização pode querer restringir como os aplicativos aprovados pela empresa são usados em dispositivos gerenciados, por exemplo, para restringir a capacidade dos estudantes ou funcionários de acessar dados de outras organizações ou usar aplicativos aprovados pela empresa para cenários pessoais. Estas restrições podem ser aplicadas definindo Políticas de Dispositivos que os aplicativos do Teams reconhecem.   
+A organização pode querer restringir como os aplicativos aprovados pela empresa são usados em dispositivos gerenciados, por exemplo, para restringir a capacidade dos estudantes ou funcionários de acessar dados de outras organizações ou usar aplicativos aprovados pela empresa para cenários pessoais. Estas restrições podem ser aplicadas definindo Políticas de Dispositivos que os aplicativos do Teams reconhecem.
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Como restringir o login em dispositivos móveis
 
@@ -113,11 +109,13 @@ Para criar uma política de configuração de aplicativo para dispositivos iOS/i
 Para criar uma política de configuração de aplicativo para dispositivos Android gerenciados, confira [Adicionar políticas de configuração de aplicativo para dispositivos Android gerenciados](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Como restringir o login em dispositivos desktop
+
 Os aplicativos do Teams no Windows e no macOS estão ganhando suporte para políticas de dispositivo que restringem o acesso à sua organização. As políticas podem ser definidas por meio de soluções usuais de Gerenciamento de Dispositivos, como MDM (Gerenciamento de dispositivos Móveis) ou GPO (Objeto de Política de Grupo). 
 
 Quando esta política é configurada em um dispositivo, os usuários só podem entrar com contas hospedadas em um locatário do Azure Active Directory incluído na “Lista de Permissões de Locatário” definida na política. A política se aplica a todos os logins, incluindo contas iniciais e adicionais. Se sua organização abrange vários locatários do Azure Active Directory, você pode incluir várias IDs de Locatário na Lista de Permissões. Os links para adicionar outra conta podem continuar visíveis no aplicativo Microsoft Teams, mas não estarão operacionais.
 
 > [!NOTE]
+> 
 >1. A política restringe apenas as assinaturas. Ela não restringe a possibilidade de os usuários serem convidados como convidados em outros locatários do Microsoft Azure Active Directory, ou mudar para esses outros locatários (onde os usuários foram convidados como convidados).
 >2. A política requer o Teams para Windows versão 1.3.00.30866 ou superior e o Teams para macOS versão 1.3.00.30882 (lançado em meados de novembro de 2020).
 
@@ -139,21 +137,11 @@ Exemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAcco
 - Tipo de Dados: Cadeia de Caracteres
 - Comentários: insira uma lista separada por vírgulas de IDs de locatário do Azure Active Directory
 
+### <a name="global-sign-in"></a>Entrada global
 
-## <a name="sign-out-on-mobile-devices"></a>Sair em dispositivos móveis
+O aplicativo Teams Para Android agora é compatível com a entrada global, para fornecer uma experiência de entrada sem complicações para trabalhadores de linha de frente. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de fazer o logoff para fazer o logoff globalmente no dispositivo. Consulte [Sair do Teams](sign-out-of-teams.md) para saber mais. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
-Os usuários de dispositivos móveis podem sair do Teams acessando o menu, selecionando o menu **Mais** e selecionando **Sair**. Depois de desconectados, os usuários precisarão inserir novamente suas credenciais na próxima vez que iniciarem o aplicativo.
-
-> [!NOTE]
-> O Teams para Android usa SSO (logon único) para simplificar a experiência de entrada. Os usuários devem se desconectar de **todos** os aplicativos da Microsoft, além do Teams, para fazer logoff completamente na plataforma Android.
-
-### <a name="global-sign-in-and-sign-out"></a>Login e logout globais
-
-O aplicativo do Microsoft Teams para Android agora oferece suporte para entrada e saída global, para fornecer uma experiência de entrada e saída sem complicações para funcionários da linha de frente. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de fazer o logoff para fazer o logoff globalmente no dispositivo. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
-
-A experiência de login é semelhante à nossa experiência de assinatura do MIcrosoft Teams padrão, enquanto o logout se parece com as duas imagens a seguir:
-
-![demonstração de saída com o telefone celular](media/global-SignOut.png)  
+A experiência de entrada é semelhante à nossa experiência de entrada padrão do Teams.
 
 ## <a name="urls-and-ip-address-ranges"></a>URLs e intervalos de endereços IP
 

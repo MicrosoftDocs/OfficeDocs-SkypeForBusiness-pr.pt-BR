@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 047ff506a2d9ebccda96ecadedb4a30222ba59bf
-ms.sourcegitcommit: 3884bd3a849e92cde5980c3185d53bd4287fe764
+ms.openlocfilehash: 1a39d3f13239cd97b90fdf247c62ec5d7da0598b
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2021
-ms.locfileid: "58455956"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483118"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -92,9 +92,9 @@ Consulte [Gerenciar o ciclo de vida dos canais privados no Teams](private-channe
 Cada canal privado tem seu próprio site do SharePoint. O site separado é para garantir que o acesso aos arquivos do canal privado seja restrito apenas aos membros do canal privado. Esses sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um site completo por meio da [interface de gerenciamento de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada site é criado na mesma região geográfica do site de equipe pai. Esses sites leves têm uma ID de modelo personalizada, "TEAMCHANNEL# 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph. 
 
 >[!NOTE]
->Apenas usuários com permissões de proprietário ou membro concedidas no Microsoft Teams terão acesso ao conteúdo no site de canal privado.
->Os sites de canal privado do Microsoft Office SharePoint Online não estão incluídos na página de sites ativos do novo Centro de Administração do SharePoint.
->Os sites do Microsoft Office SharePoint Online de canal privado criados após 28 de junho de 2021 terão o modelo personalizado ID TEAMCHANNEL#1.
+>- Apenas usuários com permissões de proprietário ou membro concedidas no Microsoft Teams terão acesso ao conteúdo no site de canal privado.
+>- Os sites de canal privado do Microsoft Office SharePoint Online não estão incluídos na página de sites ativos do novo Centro de Administração do SharePoint.
+>- Os sites do Microsoft Office SharePoint Online de canal privado criados após 28 de junho de 2021 terão o modelo personalizado ID TEAMCHANNEL#1.
 
 
 Um site de canal privado sincroniza a classificação de dados e herda permissões de acesso de convidado do conjunto do site da equipe pai. A associação do proprietário do site e dos grupos de membros é mantida em sincronia com a associação do canal privado no Teams. As alterações na associação de grupos de Proprietário ou Membro no SharePoint serão revertidas para a associação de canal privado dentro de quatro horas automaticamente. 
