@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dda26fafd48c56c11e2d6e085a1932a00307c64e96996bc30f22faaa80ed5639
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8dc1c36c0a82bb7323f5919c788508a4ef028f21
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306383"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523812"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o Roteamento baseado na localização para o Roteamento direto
 
@@ -36,7 +36,7 @@ Este artigo descreve como habilitar o roteamento Location-Based roteamento diret
 - Configurações de gateway
 - Políticas de chamadas
 
-Você pode usar o Centro de [administração da Equipe](#using-the-microsoft-teams-admin-center) da Microsoft ou o [PowerShel](#using-powershell)l para habilitar Location-Based Routing.
+Você pode usar o Microsoft Teams [de administração](#using-the-microsoft-teams-admin-center) ou [o PowerShel](#using-powershell)l para habilitar Location-Based Routing.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 

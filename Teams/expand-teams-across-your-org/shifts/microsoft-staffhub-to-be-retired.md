@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b6483ad432eb066e5f3a62e839704b33f65ed8e14ac2f32dedb227ba0c98d1ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 07e2b94b1c4dea84136a2faad5748fcc412e4097
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336231"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523792"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>O Microsoft StaffHub foi retirado
 
@@ -144,7 +144,7 @@ Para saber mais, consulte [How SharePoint Online and OneDrive for Business inter
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Há integração entre Shifts e o Outlook calendário? Posso exportar um cronograma para um calendário?
  
-Os funcionários de linha de frente podem ver todo o cronograma de trabalho rapidamente em Shifts. Ofereceremos suporte à integração nativa com Outlook calendário como parte de nosso roteiro. Enquanto isso, use o Microsoft Flow para configurar a integração com shifts em Teams e Outlook e calendários do Google.
+Os funcionários de linha de frente podem ver todo o cronograma de trabalho rapidamente em Shifts. Ofereceremos suporte à integração nativa com Outlook calendário como parte de nosso roteiro. Enquanto isso, use o Power Automate para configurar a integração com shifts em Teams e Outlook e calendários do Google.
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Quais controles de administrador estão disponíveis para gerenciar se os usuários da minha organização podem usar Shifts?  
   

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: O Serviço de Migração de Reunião (MMS) é um serviço executado em segundo plano e atualiza automaticamente Skype for Business reuniões Microsoft Teams para usuários. O MMS foi projetado para eliminar a necessidade de os usuários executarem a Ferramenta de Migração de Reunião para atualizar suas Skype for Business e Microsoft Teams reuniões.
-ms.openlocfilehash: 71fefa3986d9daf3a9eb7cd1403ba9490cbbf7ff687853a7876f05cd0a75eed1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68a3ef384c67835b25ff5db7ee6dfccf8b2ca1a7
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298871"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523862"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Usando o Meeting Migration Service (MMS)
 
@@ -183,6 +183,7 @@ Se você vir quaisquer migrações que falharam, tome medidas para resolver esse
     - Fazer os usuários criarem novas reuniões do Skype.
     - [Contatar o suporte](/microsoft-365/Admin/contact-support-for-business-products).
 
+O cmdlet pode ser usado para recuperar o status das migrações que foram `Get-CsMeetingMigrationStatus` disparadas nos últimos 150 dias. Registros para migrações com mais de 150 dias são limpos do sistema.
 
 ### <a name="enabling-and-disabling-mms"></a>Habilitando e desabilitando o MMS
 

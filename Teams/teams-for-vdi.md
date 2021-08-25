@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: eabb53932dcc9892632e0e2ae58b7a4506595343
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406950"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523832"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -471,7 +471,7 @@ if($cleanup){
 - Em ambientes Citrix, se o usuário se desconectar da Máquina Virtual enquanto o Teams está em execução, as atualizações Teams podem fazer com que o usuário esteja em um estado não otimizado para AV quando se reconectar. Recomendamos que os usuários Teams antes de se desconectar da Máquina Virtual citrix para evitar esse cenário.
 - Teams deve ser implantado por usuário ou por máquina. Não há suporte Teams implantação de Teams para usuários simultâneos e por máquina. Para migrar de cada máquina ou por usuário para um desses modos, siga o procedimento de desinstalação e reimplante para ambos os modos.
 - A Área de Trabalho Virtual do Azure não dá suporte a clientes baseados em macOS e Linux no momento.
-- A opção de locatário rápido pode resultar em problemas relacionados a chamada na VDI, como compartilhamento de tela não disponível, lista de participantes incorreta exibida etc. Reiniciar o cliente atenua esses problemas.
+- A opção de locatário rápido pode resultar em problemas relacionados a chamada na VDI, como compartilhamento de tela não disponível. Reiniciar o cliente atenua esses problemas.
 
 ### <a name="calling-and-meetings"></a>Chamada e reuniões
 

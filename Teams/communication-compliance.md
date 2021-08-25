@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc66dda7b4c7c87b3b0dd97846f5e45aae20c4c70daa870f0cdb2adb2373529
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b697f83ce568004cfd94340d3d2d50f0e8dda54b
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308940"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523802"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformidade de comunicação com Microsoft Teams
 
@@ -46,7 +46,7 @@ Começar com a conformidade de comunicação no [](/microsoft-365/compliance/com
 Teams administradores podem configurar políticas de conformidade de comunicação nos seguintes níveis:
 
 - **Nível do** usuário: as políticas nesse nível se aplicam a um usuário Teams usuário individual ou podem ser aplicadas a todos os usuários Teams em sua organização. Essas políticas abrangem mensagens que esses usuários podem enviar em chats de grupo ou 1:1. As comunicações de chat para os usuários são monitoradas automaticamente em todos os Microsoft Teams onde os usuários são membros.
-- **Teams nível**: as políticas nesse nível se aplicam a um canal da Equipe da Microsoft, incluindo um canal Privado. Essas políticas abrangem mensagens enviadas somente Teams canal.
+- **Teams nível:** as políticas nesse nível se aplicam a um canal Microsoft Teams, incluindo um canal Privado. Essas políticas abrangem mensagens enviadas somente Teams canal.
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Agir em mensagens inadequadas em Microsoft Teams
 
