@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Este artigo discute considerações de planejamento para usar o Azure Monitor para administrar Salas do Microsoft Teams dispositivos em sua Skype for Business ou Teams implementação.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd5ee73fa9414a07385c7e94cce2b3387ecd217a105d072755752f979e77599a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348827"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505409"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planejar Salas do Microsoft Teams gerenciamento com o Azure Monitor
  
@@ -50,7 +50,7 @@ Você deve se familiarizar conforme necessário sobre como usar o Designer de Ex
 
 1. Depois de inscrito no Azure Monitor Log Analytics, crie campos personalizados (conforme descrito em [Mapear](azure-monitor-deploy.md#Custom_fields)campos personalizados ) necessários para analisar as informações que serão enviadas de consoles Salas do Microsoft Teams mapa. Isso inclui o entendimento do esquema JSON documentado em [Compreender as entradas de log](azure-monitor-manage.md#understand-the-log-entries).
     
-2. Desenvolva um Salas do Microsoft Teams de gerenciamento no Log Analytics. Você pode criar [um painel Salas do Microsoft Teams usando](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) o método import ou Criar um painel Salas do Microsoft Teams [manualmente.](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)
+2. Desenvolva um Salas do Microsoft Teams de gerenciamento no Log Analytics. Você pode [criar um painel Salas do Microsoft Teams manualmente](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually).
     
 ## <a name="individual-microsoft-teams-rooms-console-requirements"></a>Requisitos Salas do Microsoft Teams console individuais
 

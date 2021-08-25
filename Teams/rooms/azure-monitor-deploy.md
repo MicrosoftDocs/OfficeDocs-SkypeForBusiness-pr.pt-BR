@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos Salas do Microsoft Teams de forma integrada e de ponta a ponta usando o Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234236"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505399"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: o gerenciamento com :::no-loc text="Azure Monitor":::
 
@@ -160,16 +160,9 @@ Depois que os dados são coletados e os campos personalizados são mapeados, voc
 
 > [!NOTE]
 > As etapas anteriores neste guia devem ter sido concluídas para que os blocos do painel funcionem corretamente.
-
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Criar um painel Salas do Microsoft Teams usando o método import
-
-Você pode importar um :::no-loc text="Microsoft Teams Rooms"::: painel e começar a monitorar seus dispositivos rapidamente. Tome as seguintes etapas para importar o painel:
-
-1.  Obter o [arquivo de painel SkypeRoomSystems_v2.omsview.](https://go.microsoft.com/fwlink/?linkid=835675)
-2.  Entre no [ :::no-loc text="Microsoft Azure"::: portal e](https://portal.azure.com) vá para :::no-loc text="Log Analytics"::: e selecione seu espaço de trabalho.
-3.  Open **View Designer**.
-4.  Selecione **Importar** e selecione o arquivo **SkypeRoomSystems_v2.omsview.**
-5.  Selecione **Salvar**.
+>
+> [!IMPORTANT]
+> View Designer no Azure Monitor está se retirando em 31 de agosto de [2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) e as funcionalidades de criação e clonagem foram desabilitadas em 30 de novembro de 2020. Em vez disso, as guias de trabalho podem ser usadas. Para obter mais informações sobre o guia de transição do designer de exibição para as planilhas, consulte Início rápido com modelos de designer de exibição [predefinidos.](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Criar um painel Salas do Microsoft Teams manualmente
 

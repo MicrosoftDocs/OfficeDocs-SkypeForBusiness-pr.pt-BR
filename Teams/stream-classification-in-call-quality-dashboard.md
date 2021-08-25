@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamada (CQD) para Microsoft Teams e Skype for Business Online.
-ms.openlocfilehash: 595ed77fd0fa6c2fb3a9bf778ff8b94e837314da1c83acb5a099bb0c795eabe1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341147"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505419"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classificação de fluxo no Painel de Qualidade de Chamada (CQD)
 
@@ -41,11 +41,9 @@ Se uma ou mais das seguintes condições são atendidas, um fluxo de áudio é m
 
 |Indicador|Cenário|Condição|Explicação|
 |:-----|:-----|:-----|:-----|
-|Audio Degradation Avg|Descrição da carga não é SATIN|> 1,0|Degradação média de pontuação de opinião de rede para fluxo. Quanta perda de rede e tremedeira afetaram a qualidade do áudio recebido.|
 |Ida e volta|ALL|> 500|Tempo médio de propagação de rede de ida e volta, calculado em milissegundos. Detalhes disponíveis em [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Taxa de perda de pacotes|ALL|> 0,1|Taxa média de perda de pacotes para fluxo.|
 |Tremulação|ALL|> 30|Tremência média para fluxo em milissegundos.|
-|Ratio Concealed Samples Avg|Descrição da carga não é SATIN|> 0,07|Taxa média do número de quadros de áudio com amostras ocultas geradas pela recuperação de perda de pacotes para o número total de quadros de áudio.|
 ||||
 
 ### <a name="video-classifier-due-to-freeze"></a>Classificador de Vídeo devido a Freeze
