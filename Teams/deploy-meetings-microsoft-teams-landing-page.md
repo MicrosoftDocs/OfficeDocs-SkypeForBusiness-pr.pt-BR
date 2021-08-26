@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5464e84526e466bdfaa643e912ecf90ccc252b2070fcffc810374dc6f03b52bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e17efec2d363083ac2169623b8b561ea6fbed333
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295168"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523972"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
@@ -99,7 +99,7 @@ As configurações de reuniões servem para controlar se usuários anônimos pod
 
 ### <a name="meeting-policies"></a>Políticas de reunião
 
-As políticas de reunião servem para controlar quais recursos estão disponíveis para os usuários, quando eles ingressam em reuniões do Teams. Você pode usar a política padrão ou criar uma ou mais políticas de reunião personalizadas para as pessoas que organizam reuniões na organização. Para saber mais, confira o [Tutorial de reuniões do Microsoft Teams](tutorial-meetings-in-teams.yml).
+As políticas de reunião servem para controlar quais recursos estão disponíveis para os usuários, quando eles ingressam em reuniões do Teams. Você pode usar a política padrão ou criar uma ou mais políticas de reunião personalizadas para as pessoas que organizam reuniões na organização. Para saber mais, consulte o tutorial [Reuniões no Microsoft Teams](tutorial-meetings-in-teams.yml).
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
@@ -228,4 +228,4 @@ O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade d
 - [Promover a adoção](adopt-microsoft-teams-landing-page.md) de conferências e reuniões em toda a organização.
 - [Adicionar audioconferência](deploy-audio-conferencing-teams-landing-page.md)
 - [Implementar o Cloud Voice](cloud-voice-landing-page.md)
-- Incluir aplicativos em destaque - como o Planner - em seu lançamento inicial das Teams. Adicionar outros [aplicativos, bots, & conectores](deploy-apps-microsoft-teams-landing-page.md) à medida que você impulsiona a adoção das Teams.
+- Inclua os aplicativos em destaque — como o Planner — no seu lançamento inicial do Teams. Adicione outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) à medida que você impulsiona a adoção do Teams.

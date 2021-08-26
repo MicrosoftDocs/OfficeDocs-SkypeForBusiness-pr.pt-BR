@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 510806c6b33260913454fa30f560b785b862b661dc04bf8eaf5279995c5a51a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 002aa42786e1464e4aa62c72755c21b37e3225d4
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352280"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523842"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams
 
@@ -54,7 +54,7 @@ Os clientes de desktop podem ser baixados e instalados diretamente pelos usuári
 Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação aos computadores de sua organização. Entre os exemplos estão o Microsoft Endpoint Configuration Manager (Windows) ou Jamf Pro (macOS). Para obter o pacote MSI para distribuições do Windows, consulte [Instalar o Microsoft Teams usando MSI](msi-deployment.md).
 
 > [!NOTE]
-> A distribuição do cliente por esses mecanismos é apenas para a instalação inicial dos clientes Microsoft Teams, e não para atualizações futuras.
+> A distribuição do cliente por meio desses mecanismos é apenas para a instalação inicial dos clientes do Microsoft Teams e não para atualizações futuras.
 
 ### <a name="windows"></a>Windows
 
