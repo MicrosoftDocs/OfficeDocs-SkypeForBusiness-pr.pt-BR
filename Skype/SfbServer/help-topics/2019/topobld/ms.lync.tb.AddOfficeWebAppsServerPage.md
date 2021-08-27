@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddOfficeWebAppsServerPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O assistente Definir Novo Office Web Apps Server define um novo servidor Office Web Apps em sua implantação. Preencha com as seguintes informações:'
-ms.openlocfilehash: 92dfe7d681453e432c7d1e3fb32377db32995641d5e7e47982db86af8185295a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 09ce8e0db72fdcd4dfcc4ce668302e89c40b9281
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302785"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605300"
 ---
 # <a name="add-office-web-apps-server"></a>Adicionar Servidor do Office Web Apps
 

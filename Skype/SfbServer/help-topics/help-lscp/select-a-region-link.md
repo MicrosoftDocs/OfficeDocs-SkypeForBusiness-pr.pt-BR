@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsSelRegionLink
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: Use a caixa de diálogo Link de Região para encontrar links de região disponíveis em seu ambiente. Para usar um link de região existente, clique em um link de região na lista e clique em OK.
-ms.openlocfilehash: d493093e55ae1ce1c53061ae616c98459bc6e806c147eb8cca1157b407a39610
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1af8db1402d9fd54768f904024acb178faaa4094
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302695"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578985"
 ---
 # <a name="select-a-region-link"></a>Selecionar um Link de Região
  

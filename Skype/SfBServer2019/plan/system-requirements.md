@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: 'Resumo: prepare seus Skype for Business Server 2019 e a infraestrutura de domínio com este tópico. Hardware, SO, bancos de dados, software, todos os requisitos e recomendações do sistema, juntamente com as informações de DNS de certificado, compartilhamento de arquivos e Active Directory, estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do farm de servidores.'
-ms.openlocfilehash: 3d7c8f4346ce0d965c9d9d87cc9fc124824f1d65f24cb7c05ef5d3aa58df1a07
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a994d2546cb6e15830b8cb2439968a53047a6389
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295978"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578205"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos do sistema para Skype for Business Server 2019
  

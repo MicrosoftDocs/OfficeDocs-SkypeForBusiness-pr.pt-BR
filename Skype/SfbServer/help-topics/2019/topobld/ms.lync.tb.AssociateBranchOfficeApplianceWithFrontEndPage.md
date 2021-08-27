@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithFrontEndPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para associar o Aparelho de Filial Subvivível ou o Servidor de Filial Desavivável a um pool de Front-End ou a um servidor Edição Standard, na página Selecionar o pool de Front-End, selecione o pool de Front-End ou um servidor Edição Standard na lista lista de listada do pool de front-end. Clique em Avançar para continuar.
-ms.openlocfilehash: e1e27a60655839d57f32eb95280de49b1346f54deef5d457cc4fa9120a2e7acf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25fae504335f443731c5c345d1207bce9df74f0c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323353"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579195"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>Associar Aparelho de Filial com Front-end
  

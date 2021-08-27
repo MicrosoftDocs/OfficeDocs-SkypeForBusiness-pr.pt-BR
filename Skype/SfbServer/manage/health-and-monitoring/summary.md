@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 'Resumo: saiba mais sobre o Relatório de Resumo de Qualidade de Mídia no Skype for Business Server.'
-ms.openlocfilehash: d8c8bcee2d5869ef0812c9a34ccb1fcc376dcb5b84e41a84110b712713fec4a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8478ed9d4ba3bc35451c140346bec4e407c25596
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349363"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598845"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de Qualidade de Mídia no Skype for Business Server
  
@@ -77,7 +77,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
   
 **Filtros do Relatório de Resumo de Qualidade de Mídia**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
@@ -91,7 +91,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Q
   
 **Métricas do Relatório de Resumo de Qualidade de Mídia: Resumo da chamada de áudio**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de Chamada/Tipo de Ponto de Extremidade** <br/> |Não  <br/> | Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem: <br/>  Chamadas Ponto a Ponto de UC <br/>  Sessões de Conferência de UC <br/>  Sessões de Conferência PSTN <br/>  Chamadas PSTN: Desvio de Mídia <br/>  Chamadas PSTN (Não Ignorar): Trecho de UC <br/>  Chamadas PSTN (Não Ignorar): Trecho de Gateway <br/>  Outros Tipos de Chamada <br/> |
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas por tipo de chamada.  <br/> |
@@ -109,7 +109,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Q
    
 **Métricas do Relatório de Resumo de Qualidade de Mídia: Resumo da chamada de vídeo**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de Chamada/Tipo de Ponto de Extremidade** <br/> |Não  <br/> | Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem: <br/>  Chamadas Ponto a Ponto de UC <br/>  Sessões de Conferência de UC <br/>  Sessões de Conferência PSTN <br/>  Chamadas PSTN: Desvio de Mídia <br/>  Chamadas PSTN (Não Ignorar): Trecho de UC <br/>  Chamadas PSTN (Não Ignorar): Trecho de Gateway <br/>  Outros Tipos de Chamada <br/> |
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas por tipo de chamada.  <br/> |
@@ -128,7 +128,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Q
    
 **Métricas do Relatório de resumo de qualidade de mídia: Resumo de chamada de compartilhamento de aplicativos**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de Chamada/Tipo de Ponto de Extremidade** <br/> |Não  <br/> | Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem: <br/>  Chamadas Ponto a Ponto de UC <br/>  Sessões de Conferência de UC <br/>  Sessões de Conferência PSTN <br/>  Chamadas PSTN: Desvio de Mídia <br/>  Chamadas PSTN (Não Ignorar): Trecho de UC <br/>  Chamadas PSTN (Não Ignorar): Trecho de Gateway <br/>  Outros Tipos de Chamada <br/> |
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas por tipo de chamada.  <br/> |

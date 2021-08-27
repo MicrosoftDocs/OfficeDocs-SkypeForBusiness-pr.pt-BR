@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada pool de Front-Ends e Aparelho de Filial Persistente pode ter apenas um Servidor de Monitoramento associado a ele. Quando o monitoramento é habilitado para o site, o Servidor de Monitoramento fornece conjunto de dados e relatórios do registro de detalhe da chamada (CDR) e de Qualidade da experiência (QoE).
-ms.openlocfilehash: ab54bb380a8f2abf0784b6d9eed1a7d8e3d312690d3c4e3a636b0ad9a01ea7b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ba33da6b04d8c1bdd9e124ee7670fd1f806fbbd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309900"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605410"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (Introdução)
  

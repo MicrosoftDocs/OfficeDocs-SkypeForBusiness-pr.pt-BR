@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Este artigo descreve as preferências e os padrões do cliente disponíveis para o Skype for Business no cliente Mac e como editá-los de fora do Aplicativo.
-ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ece447b7d3bce37784e0f1d0b3f8fe3746fce86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325488"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578125"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar a experiência do cliente Mac no Skype for Business
  
@@ -40,7 +40,7 @@ Para definir essas preferências, vá para um prompt de terminal no Mac do clien
 |internalAutoDiscoveryURL    |Cadeia de caracteres    |URL de descoberta automática completa    |URL de descoberta automática interna    |
 |externalAutoDiscoveryURL    |Cadeia de caracteres    |URL de descoberta automática completa    |URL de descoberta automática externa    |
 |httpProxyDomain    |Cadeia de caracteres    ||Domínio proxy HTTP    |
-|httpProxyUserName    |String    ||Nome de usuário de proxy HTTP    |
+|httpProxyUserName    |Cadeia de caracteres    ||Nome de usuário de proxy HTTP    |
 |httpProxyPassword    |Cadeia de caracteres    ||Senha de proxy HTTP    |
 |trustedDomainList    |Matriz    ||Lista de domínios confiáveis para redirecionamentos HTTP.    |
 |autoAcceptTimeout    |Número    |300 (padrão)    |Tempo de tempo de aceitação automática para usuários sem Histórico de Conversas do lado do servidor.    |

@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.FeatureNotEnabled
 description: 'Encontre possíveis causas e sugestões de ação quando você obter um Skype for Business recurso Online não está habilitado erro. '
-ms.openlocfilehash: 89920c366d9465534279bd8fe2e31f6a3140027a4ed8e21697ad489da8ab552d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 890fe064e77e6cbd78ba231dc33bf4852f868269
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332303"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592005"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Esse Skype for Business online não está habilitado
 

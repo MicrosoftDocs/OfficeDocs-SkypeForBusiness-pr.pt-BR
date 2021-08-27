@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 ms.appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOIDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Este resumo de Skype for Business configurações da organização e do usuário pode ajudá-lo a saber mais sobre conectividade de IM pública, convites de reunião, gravação de chamadas e reuniões e muito mais.  '
-ms.openlocfilehash: 7c7bb451411b8aa865f94679f70c07df1efdc2bf0b2df0c0ee0da5b92438f63a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a1320951049e5558574c36e4bde4feea46d8ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295098"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592025"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumo de configurações do Skype for Business Online
 

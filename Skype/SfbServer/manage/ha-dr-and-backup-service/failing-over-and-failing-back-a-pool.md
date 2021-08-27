@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 55dd80e5c71dd52dacd82f3fb12e1141a8bff470000280b582eccde7581231b1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c0c18672296254d1b532f0b33cdf809e68d249b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336661"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612270"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Falhando e falhando em um pool Skype for Business Server
 
@@ -162,11 +162,11 @@ Se o pool de Borda onde você Skype for Business Server federação configurada 
 
 1.  No servidor de front-end, abra o Construtor de Topologia. Expanda **pools de** borda e clique com o botão direito do mouse no servidor de Borda ou no pool de servidores de Borda que está configurado no momento para Federação. Selecione **Editar propriedades**.
 
-2.  Em **Editar propriedades**, em **Geral**, desmarque **Habilitar federação para este pool de Borda (Porta 5061)**. Clique em **OK**.
+2.  Em **Editar propriedades**, em **Geral**, desmarque **Habilitar federação para este pool de Borda (Porta 5061)**. Selecione **OK**.
 
 3.  Expanda **pools de** borda e clique com o botão direito do mouse no servidor de Borda ou no pool de servidores de Borda que você agora deseja usar para Federação. Selecione **Editar propriedades**.
 
-4.  Em **Editar propriedades**, em **Geral**, selecione **Habilitar federação para este pool de Borda (Porta 5061)**. Clique em **OK**.
+4.  Em **Editar propriedades**, em **Geral**, selecione **Habilitar federação para este pool de Borda (Porta 5061)**. Selecione **OK**.
 
 5.  Selecione **Ação,** selecione **Topologia,** selecione **Publicar**. Quando solicitado em **Publicar a topologia,** selecione **Próximo**. Quando a publicação for concluída, selecione **Concluir**.
 
@@ -219,11 +219,11 @@ Depois que um pool de Borda com falha que era usado para hospedar a federação 
     
       - No servidor de front-end, abra o Construtor de Topologia. Expanda **pools de** borda e clique com o botão direito do mouse no servidor de Borda ou no pool de servidores de Borda que está configurado no momento para Federação. Selecione **Editar propriedades**.
     
-      - Em **Editar propriedades**, em **Geral**, desmarque **Habilitar federação para este pool de Borda (Porta 5061)**. Clique em **OK**.
+      - Em **Editar propriedades**, em **Geral**, desmarque **Habilitar federação para este pool de Borda (Porta 5061)**. Selecione **OK**.
     
       - Expanda **pools de** borda e clique com o botão direito do mouse no servidor de Borda original ou no pool de servidores de Borda que você deseja usar novamente para Federação. Selecione **Editar propriedades**.
     
-      - Em **Editar propriedades**, em **Geral**, selecione **Habilitar federação para este pool de Borda (Porta 5061)**. Clique em **OK**.
+      - Em **Editar propriedades**, em **Geral**, selecione **Habilitar federação para este pool de Borda (Porta 5061)**. Selecione **OK**.
     
       - Selecione **Ação,** selecione **Topologia,** selecione **Publicar**. Quando solicitado em **Publicar a topologia,** selecione **Próximo**. Quando a publicação for concluída, selecione **Concluir**.
     
@@ -262,4 +262,4 @@ Se um pool de borda cair, mas o pool de front-ends do mesmo local ainda estiver 
 
 3.  Na seção **Associações**, em **Associar Pool de Borda (para componentes de mídia)**, use a caixa suspensa para selecionar o pool de borda ao qual deseja associar o pool de front-ends.
 
-4.  Clique em **OK**.
+4.  Selecione **OK**.

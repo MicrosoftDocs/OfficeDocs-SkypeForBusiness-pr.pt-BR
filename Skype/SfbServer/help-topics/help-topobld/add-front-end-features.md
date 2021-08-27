@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: Selecione cada recurso que deseja habilitar para o pool de Front-Ends. Implante, no mínimo, o IM (sistema de mensagens instantâneas), que sempre fica habilitado e não pode ser desmarcado. Você também tem a opção de implantar outros recursos, como conferência, Enterprise Voice e o controle de admissão de chamadas. Alguns recursos dependem da sua topologia.
-ms.openlocfilehash: 9c55d0dbd9f40da1782bba13ed280774fd8dfad62e9855f53bf4f6cc6e60c26d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79aadaa3d7adde3c047c6d389626d72fbfc88dc3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298331"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578945"
 ---
 # <a name="add-front-end-features"></a>Adicionar Recursos de Front-end
 

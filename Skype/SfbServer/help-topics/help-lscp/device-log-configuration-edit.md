@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de Log que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo em que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.
-ms.openlocfilehash: a2900d452dd0342ddd60813e35d4611b6ea6ccca6cad114237d87bd915243191
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff199e0fcf7257137307211827bd6d9a0e8a4c4c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304043"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579015"
 ---
 # <a name="device-log-configuration-edit"></a>Configuração de Log de Dispositivo: Editar
  

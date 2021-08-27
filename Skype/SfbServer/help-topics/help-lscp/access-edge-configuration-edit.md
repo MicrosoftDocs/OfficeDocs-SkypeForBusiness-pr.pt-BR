@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtEdgeEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 5a30b1d92037ba4d162505c7c2d8fdc94d41f84102ccdf7906a9d49e967afd16
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f77ea4e67a7ee63e570fc6b2d11b4b7ce1a662a9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579135"
 ---
 # <a name="access-edge-configuration-edit"></a>Configuração de Borda de Acesso: Editar
 

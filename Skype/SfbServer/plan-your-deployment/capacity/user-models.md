@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: Os modelos de usuário descritos aqui fornecem a base para as medições e recomendações de planejamento de capacidade descritas em Uso do modelo de usuário de planejamento de capacidade para Skype for Business Server.
-ms.openlocfilehash: cc28f5add54c5654e74b5206113736690156a771d4dc972aa6e786d30ebbab83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3086699cc73968b3a3f902ff1f8e99d9e78d7fe3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585025"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Modelos de usuário em Skype for Business Server
  

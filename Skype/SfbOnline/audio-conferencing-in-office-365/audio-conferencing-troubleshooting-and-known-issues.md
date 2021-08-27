@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Obter uma lista de problemas conhecidos ao usar a Microsoft como provedor de conferência discado, status e algumas soluções alternativas. '
-ms.openlocfilehash: ee47417941ae39eff966ab2a2d4eb0e07e7d451e404b95ddb66816c61be42664
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6304de40d7c7cd9f3d798af2050276ee6fe2b104
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578155"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solução de problemas e problemas conhecidos da audioconferência
 

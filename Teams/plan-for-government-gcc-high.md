@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daro
 description: Diretrizes para os profissionais de Office 365 implantações em entidades que lidam com dados sujeitos à regulamentação governamental dos EUA.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf66e1d14ab283839de2b07f584386dbe542a60b20341f129a275a22b75c8e0f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34ef18970aa601c359aacbcfd8239d9fca2419d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296698"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625973"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Plan for Office 365 Government - GCC High deployments
 

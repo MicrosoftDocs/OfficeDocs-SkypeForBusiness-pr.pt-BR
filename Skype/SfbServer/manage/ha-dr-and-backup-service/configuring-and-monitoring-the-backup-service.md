@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Você pode usar Skype for Business Server do Shell de Gerenciamento para configurar e monitorar o Serviço de Backup.
-ms.openlocfilehash: 27d73088fbf4214777d9eb010e0074073517a35220cdd5137ee794addda0c983
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df0e7d985e9941e4af41a4cec5456774e5a3a4dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336671"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612290"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Configurando e monitorando o Serviço de Backup Skype for Business Server
 
@@ -27,21 +27,15 @@ Você pode usar os seguintes comandos Skype for Business Server Shell de Gerenci
 
 ## <a name="to-see-the-backup-service-configuration"></a>Para ver a configuração do Serviço de Backup
 
-Execute o seguinte cmdlet:
-
-    Get-CsBackupServiceConfiguration
+Execute o seguinte cmdlet:<br/><br/>Get-CsBackupServiceConfiguration
 
 O padrão para SyncInterval é dois minutos.
 
 ## <a name="to-set-the-backup-service-sync-interval"></a>Para definir o intervalo de sincronização do Serviço de Backup
 
-Execute o seguinte cmdlet:
+Execute o seguinte cmdlet:<br/><br/>Set-CsBackupServiceConfiguration intervalo -SyncInterval
 
-    Set-CsBackupServiceConfiguration -SyncInterval interval
-
-Por exemplo, o seguinte define o intervalo para três minutos.
-
-    Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
+Por exemplo, o seguinte define o intervalo para três minutos.<br/><br/>Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
 
 > [!IMPORTANT]  
@@ -49,24 +43,18 @@ Por exemplo, o seguinte define o intervalo para três minutos.
 
 ## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>Para obter o status do Serviço de Backup para um determinado pool
 
-Execute o seguinte cmdlet:
-
-    Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
+Execute o seguinte cmdlet:<br/><br/>Get-CsBackupServiceStatus -PoolFqdn \<pool-FQDN>
 
 > [!NOTE]  
 > O status de sincronização do Serviço de Backup é definido unidirecionalmente de um pool (P1) para seu pool de backup (P2). O status de sincronização de P1 para P2 pode ser diferente do que de P2 para P1. Para P1 para P2, o Serviço de Backup está em estado "pronto" se todas as alterações realizadas em P1 são completamente replicadas para P2 dentro do intervalo de sincronização. Está no estado “final” se não há mais mudanças a serem sincronizadas de P1 para P2. Ambos os estados indicam um instantâneo do Serviço de Backup no momento que o cmdlet é executado. Não implica que o estado retornado permanecerá como é posteriormente. Em particular, o estado “final” continuará a manter apenas se P1 não gerar qualquer mudança após o cmdlet ser executado. Isto é verdadeiro em caso de falha de P1 por P2 após P1 ser inserido no modo somente leitura como parte da lógica de execução do **Invoke-CsPoolfailover**.
 
 ## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>Para obter informações sobre a relação de backup de um determinado pool
 
-Execute o seguinte cmdlet:
-
-    Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
+Execute o seguinte cmdlet:<br/><br/>Get-CsPoolBackupRelationship -PoolFQDN \<poolFQDN>
 
 ## <a name="to-force-a-backup-service-sync"></a>Para forçar uma sincronização do Serviço de Backup
 
-Execute o seguinte cmdlet:
-
-    Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
+Execute o seguinte cmdlet:<br/><br/>Invoke-CsBackupServiceSync -PoolFqdn \<poolFqdn> [-BackupModule {All| PresenceFocus| DataConf| CMSMaster}]
 
 ## <a name="restore-conference-contents-using-the-backup-service"></a>Restaurar o conteúdo da conferência usando o Serviço de Backup 
 
@@ -74,12 +62,8 @@ Se as informações de conferência armazenadas no armazenamento de arquivos de 
 
 Você também deve efetuar tal tarefa caso todo um pool falhe e você tenha que executar failover nos usuários para um pool de backup. Quando esses usuários retornarem para o pool original, você deve utilizar este procedimento para copiar o conteúdo de conferência de volta para o pool original.
 
-Presuma que o Pool1 está pareado com Pool2, e os dados de conferência de Pool1 foram perdidos. Você pode usar o seguinte cmdlet para invocar o Serviço de Backup para restaurar o conteúdo:
+Presuma que o Pool1 está pareado com Pool2, e os dados de conferência de Pool1 foram perdidos. Você pode usar o seguinte cmdlet para invocar o Serviço de Backup para restaurar o conteúdo:<br/><br/>Invoke-CsBackupServiceSync -PoolFqdn \<Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
-
-Restaurar o conteúdo pode levar algum tempo, dependendo do tamanho. Você pode utilizar o seguinte cmdlet para verificar o status do processo:
-
-    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
+Restaurar o conteúdo pode levar algum tempo, dependendo do tamanho. Você pode utilizar o seguinte cmdlet para verificar o status do processo:<br/><br/>Get-CsBackupServiceStatus -PoolFqdn \<Pool2 FQDN> -BackupModule ConfServices.DataConf
 
 O processo é concluído quando este cmdlet retorna um valor de Estado Estável para o módulo de conferência de dados.

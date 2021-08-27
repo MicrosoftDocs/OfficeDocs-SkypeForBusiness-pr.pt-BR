@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: Para Solicitar, Atribuir, Remover ou Exibir certificados, use o Assistente de Certificado. É necessário estar conectado como membro do grupo RTCUniversalServerAdmins. Para solicitar um certificado de uma autoridade de certificação (CA) pública, não são necessárias quaisquer associações de grupo adicionais. Para solicitar um certificado da PKI (infraestrutura de chave pública) da sua organização, você precisa confirmar quais associações de grupo adicionais, se alguma, você precisará. Durante a tarefa Solicitar, você pode inserir credenciais alternativas que serão usadas para solicitar o certificado da CA de emissão do PKI.
-ms.openlocfilehash: 03c4cd91137f30206d7a1e2076e2e2bdf72080b9221f0857b4f2e08b5df603b8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 489c4218a062c17bc4b7a8979b2ff9a68cd4cd29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299877"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605210"
 ---
 # <a name="certificate-wizard"></a>Assistente de Certificado
  
