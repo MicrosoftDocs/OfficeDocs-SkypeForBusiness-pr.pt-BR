@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Depois que seus usuários são movidos para Skype for Business Server pools 2019, você pode migrar seus grupos de resposta. Migrar grupos de resposta inclui copiar grupos de agentes, filas, fluxos de trabalho, arquivos de áudio e mover objetos de contato do Grupo de Resposta da implantação herdada para o pool Skype for Business Server 2019. Depois de migrar seus grupos de resposta herdados, as chamadas para os grupos de resposta são manipuladas pelo aplicativo grupo de resposta no pool Skype for Business Server 2019. As chamadas aos grupos de resposta não serão mais processadas pelo pool antigo.
-ms.openlocfilehash: 83edbfd97fac08aded66ce042adecda9fee7b539588e717323eeaeda36003041
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96eecb0ad10a900a9d00d26383e149ceec4cbfe8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303555"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588023"
 ---
 # <a name="migrate-response-groups"></a>Migrar grupos de resposta
 
@@ -57,7 +57,7 @@ O procedimento a seguir para migrar as configurações do Grupo de Resposta pres
     
 2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique em **Microsoft Skype for Business Server 2019** e clique em Skype for Business Server **Shell de Gerenciamento.**
     
-3. Executar:
+3. Execute:  
     
    ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
@@ -97,7 +97,7 @@ O procedimento a seguir para migrar as configurações do Grupo de Resposta pres
    Get-Help <cmdlet name> -Detailed
    ```
 
-3. Executar:
+3. Execute:  
     
    ```PowerShell
    Get-CsRgsAgentGroup
@@ -105,7 +105,7 @@ O procedimento a seguir para migrar as configurações do Grupo de Resposta pres
 
 4. Verifique se todos os grupos de agentes em seu ambiente herdados estão incluídos na lista.
     
-5. Executar:
+5. Execute:  
     
    ```PowerShell
    Get-CsRgsQueue
@@ -113,7 +113,7 @@ O procedimento a seguir para migrar as configurações do Grupo de Resposta pres
 
 6. Verifique se todas as filas em seu ambiente herdável estão incluídas na lista.
     
-7. Executar:
+7. Execute:  
     
    ```PowerShell
    Get-CsRgsWorkflow

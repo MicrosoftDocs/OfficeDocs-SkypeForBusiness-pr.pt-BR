@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: Saiba as etapas de implantação para obter o firmware correto, atualizá-lo, se necessário, atribuir licenças e configurar configurações para Skype for Business telefones online
-ms.openlocfilehash: 072a7caa6d5b9caa1827f5f93973a12e77c1823063fad8706469a4fabfa87ff2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295798"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607438"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implantando telefones do Skype for Business Online
 
@@ -180,8 +180,8 @@ Você pode saber mais sobre Planos de Chamada lendo Sistema de Telefonia [e Plan
 |Online  <br/> |Local  <br/> |Web Sign-in  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
 |Online  <br/> |Local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Local  <br/> |Online/local  <br/> |Autenticação PIN  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
-|Local  <br/> |Online/local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |Não disponível  <br/> |
-|Local  <br/> |Online/local  <br/> |Entrar por computador (BTOE)  <br/> |Sim  <br/> |Sim  <br/> |Não disponível  <br/> |
+|Local  <br/> |Online/local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
+|Local  <br/> |Online/local  <br/> |Entrar por computador (BTOE)  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
    
 - **Telefone recursos** O conjunto de recursos pode variar ligeiramente com base no parceiro de telefone IP. Para obter o conjunto de recursos completo e para obter mais informações sobre os recursos para cada fabricante de telefone, consulte Obter telefones [para Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     

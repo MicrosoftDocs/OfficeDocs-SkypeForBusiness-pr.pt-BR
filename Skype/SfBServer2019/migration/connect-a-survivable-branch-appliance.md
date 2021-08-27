@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Cada Dispositivo de FilialVivível (SBA) está associado a um pool de Front-End que serve como um registrador de backup para o SBA. Quando o pool de Front-End é migrado para o Skype for Business Server 2019, o SBA deve ser desassociado do pool de Front-End enquanto o pool é atualizado, Depois que o pool for migrado para o Skype for Business Server 2019, o SBA poderá ser reassociado com o pool de Front-End atualizado. Isso envolve excluir o SBA da topologia herdda no Construtor de Topologias e adicionar o SBA à topologia Skype for Business Server 2019. Os usuários que estão no SBA herdado devem primeiro ser movidos para outro pool de Front-End antes de remover o SBA da topologia. Depois que o SBA for adicionado à topologia Skype for Business Server 2019, esses usuários poderão ser movidos de volta para o SBA. Essas etapas estão resumidas abaixo:'
-ms.openlocfilehash: 4977868c45b274adea514d84e251f682da02cc8ee486a5a182d984ee652f3ae2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c431451503efd23039b4c358488bfc5bce03ba65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313869"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588043"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar um aparelho de filial persistente
 

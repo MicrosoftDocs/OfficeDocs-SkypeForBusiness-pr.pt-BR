@@ -9,17 +9,17 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: O administrador pode aprender sobre uma lista de problemas conhecidos para Salas do Microsoft Teams, incluindo atualização, interface do usuário, hardware e limitações e comportamentos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2fdc4a641c5f507ed52f76779cee77aebe3897188f508f46a54747b4710ba424
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: adf3b0fb7642b4a9774459527af304fe33167352
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345360"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578315"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
@@ -61,7 +61,9 @@ O SkypeRoomSystemv2 não oferece suporte à entrada HDCP, pois foi observado que
 
 ***
 
-Se você desejar que uma tela frontal da sala alterna automaticamente para uma fonte de vídeo ativa (como um console MTR) quando a origem acordar do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas tem suporte Salas do Microsoft Teams software, desde que o hardware subjacente suporte o recurso. Uma TV de consumidor usada como tela frontal de sala precisa dar suporte ao recurso CeC (Controle eletrônico de consumidor) do HDMI.  Dependendo do dock ou console selecionado (que pode não dar suporte ao CEC, consulte a documentação de suporte do fabricante), um controlador como [um HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado. 
+Se você desejar que uma tela frontal da sala alterna automaticamente para uma fonte de vídeo ativa (como um console MTR) quando a origem acordar do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas tem suporte Salas do Microsoft Teams software, desde que o hardware subjacente suporte o recurso. Uma TV de consumidor usada como tela frontal de sala precisa dar suporte ao recurso CeC (Controle eletrônico de consumidor) do HDMI.  Dependendo do dock ou console selecionado (que pode não dar suporte ao CEC, consulte a documentação de suporte do fabricante), um controlador como [um HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado.
+
+Além disso, uma TV de consumidor usada como tela frontal da sala pode causar problemas de estabilidade com Salas do Microsoft Teams software. Isso ocorre devido à implementação inconsistente de modos de espera, seleção de fonte de vídeo ativa e comunicação de informações de EDID com falha ao Salas do Microsoft Teams dispositivo. Os sintomas conhecidos são uma tela preta/cinza na tela frontal da sala ou o console Salas do Microsoft Teams ficar sem resposta após acordar do modo de espera.  Se tiver problemas ao usar TVs de consumidor, recomendamos instalar um controlador EDID configurável ou um emulador EDID, como o [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) da Crestron ou [dr-EDID Emulator do](https://fsrinc.com/fsr-products/product/dr-edid-manager-learner/category_pathway-143) FSR Video Products Group.
 
 ***
 

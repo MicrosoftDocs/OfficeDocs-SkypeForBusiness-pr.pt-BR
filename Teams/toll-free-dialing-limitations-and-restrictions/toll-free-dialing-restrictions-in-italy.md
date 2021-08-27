@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número gratuito.
-ms.openlocfilehash: f03fd38c6ae06459c3099896fc936420565e60876a87df5867d93f6ec4a52425
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04bf9363511293a4c43bf0f035d6b692365c3156
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345170"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601056"
 ---
 # <a name="toll-free-dialing-restrictions-in-italy"></a>Restrições de discagem gratuita na Itália
 

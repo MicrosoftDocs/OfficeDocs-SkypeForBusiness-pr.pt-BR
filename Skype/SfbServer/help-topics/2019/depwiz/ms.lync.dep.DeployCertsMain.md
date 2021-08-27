@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para Solicitar, Atribuir, Remover ou Exibir certificados, use o Assistente de Certificado. É necessário estar conectado como membro do grupo RTCUniversalServerAdmins. Para solicitar um certificado de uma autoridade de certificação (CA) pública, não são necessárias quaisquer associações de grupo adicionais. Para solicitar um certificado da PKI (infraestrutura de chave pública) da sua organização, você precisa confirmar quais associações de grupo adicionais, se alguma, você precisará. Durante a tarefa Solicitar, você pode inserir credenciais alternativas que serão usadas para solicitar o certificado da CA de emissão do PKI.
-ms.openlocfilehash: 16b49874302e7756558537b93637100ed82229bbd0d6976b6efed395486060fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d966786f65311920370890a7091012929af7fa3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297525"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621683"
 ---
 # <a name="certificate-wizard"></a>Assistente de Certificado
  

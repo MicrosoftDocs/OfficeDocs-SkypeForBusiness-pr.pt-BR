@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: Aprenda as etapas de implantação para obter o firmware correto, atualizá-lo, se necessário, atribuir licenças e definir configurações para Telefones de Área Comum.
-ms.openlocfilehash: a73de696e8ac7410e9cccbca99dbabb74df392f58a8bf0ad82e5bdf1ec9ccd75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14c7a76ed8f0aa319049d4352c1cdc6ce4c4ce98
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300397"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607418"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar telefones de área comum
 

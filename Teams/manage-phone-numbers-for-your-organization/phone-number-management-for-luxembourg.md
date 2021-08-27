@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone no Luxemburgo para Microsoft Teams.
-ms.openlocfilehash: 3d7aa278f15a5b0256e271b627afa675aa25c274
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 375f449a92f7f107d3b1a9a56e07162f0dd1bb5d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601136"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Telefone gerenciamento de números para Luxemburgo
 
