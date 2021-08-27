@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Você pode anexar arquivos a uma reunião Skype for Business, que os participantes podem abrir e baixar. Os arquivos anexados às reuniões do Skype for Business são mantidos nas caixas de correio de qualquer participante cuja caixa de correio é colocada em Retenção de Litígio, tem uma política de retenção Microsoft 365 ou Office 365 aplicada ou é colocada em uma retenção associada a um caso de Descoberta Eletrônico no Centro de Conformidade Microsoft 365. Esse conteúdo é salvo nas pastas Itens Recuperáveis dos participantes em suas caixas de correio.
-ms.openlocfilehash: 10d793afce0485de749a5609b77f2c769c55fa9d5305a4a815351ef62ff9a8b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1733cb1b0111bb83bbeddf5253bd1b65b919a4a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316487"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581985"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Reter arquivos grandes anexados a uma Skype for Business reunião
 

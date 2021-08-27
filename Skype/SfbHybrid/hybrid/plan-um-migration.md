@@ -8,15 +8,15 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: skype-for-business-itpro
 description: Este tópico aborda o que você precisa considerar ao decidir migrar suas implantações de Skype for Business Server ou Exchange Server existentes para a versão mais recente ou para o Skype for Business Online ou Exchange Online.
-ms.openlocfilehash: e933f1754023daa0991961204224176c34254f7821168eedbc30956c0188410a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: edc6256bc9e366b4ee75a637c41141ec3d435da2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341067"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596115"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Plano de migração para o Skype for Business Server e Exchange Server
 
@@ -70,7 +70,7 @@ A ordem na qual você move os usuários para o Exchange 2019 e Skype for Busines
 | Caixa de correio localizada em:            | Usuário localizado no Skype for Business Server 2015 | Usuário localizado no Skype for Business Server 2019  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
 | Exchange 2013/Exchange 2016    | UM do Exchange                             | UM do Exchange                              |
-| Exchange 2019                  | Sem suporte                           | Caixa Postal em Nuvem                          |
+| Exchange 2019                  | Sem suporte                           | Caixa Postal na Nuvem                          |
 
 Antes de iniciar a migração para Skype for Business Server 2019 e Exchange 2019, lembre-se do seguinte:
 

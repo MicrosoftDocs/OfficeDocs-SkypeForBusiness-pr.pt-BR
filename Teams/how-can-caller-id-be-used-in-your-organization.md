@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: A ID do chamador pode ser controlada para chamadas de entrada e de saída para usuários Sistema de Telefonia usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: ddd01d899597a96b5085c92ac9e20681b0a5c92b18ca342008b499e44892743a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 97070be995d56451a7b6b1969c8d3751ebaaffe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293818"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624603"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 

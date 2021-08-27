@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Você remove os Microsoft SQL Server e instâncias após remover os servidores em execução que dependem deles ou depois de reconfigurar os servidores para usar outro banco de dados. Você precisa executar o procedimento neste tópico quando você retirar o SQL Server atual ou reconfigurar o servidor atual de forma que ele renderiza os bancos de dados obsoletos ou indisponíveis.
-ms.openlocfilehash: f9e942f1f5516c0bf3437dd3fc9e2dc25b4cc4236e3cffabbf07ff08dde1e404
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dafd1589bc4d1624a71998813fe785841cbfb713
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306204"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582025"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Remover a Instância do SQL Server e os bancos de dados no Servidor Back-End
 

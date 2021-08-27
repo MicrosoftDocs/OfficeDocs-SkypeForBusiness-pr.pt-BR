@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Saiba o que você precisa e como os organizadores da reunião podem chamar outras pessoas usando Skype for Business.
-ms.openlocfilehash: 9b87fb911cf4e010a82aba8b9874b25efa60d1b6b795502cc7f0d56cd58eea12
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298891"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581975"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Discar de uma reunião Skype for Business para que outras pessoas possam participar dela
 

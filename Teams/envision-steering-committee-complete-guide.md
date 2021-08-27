@@ -11,17 +11,17 @@ audience: admin
 description: Identifique um grupo de participantes principais e líderes do projeto para identificar objetivos de implantação, acompanhar o progresso e remover bloqueadores.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e064548e1a4879fda88d41584de9ada096a61feb18126d9d73b67a5aea928ef4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cd8234e1ee86ffb5f14952d0aad6f9640ecf26f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284122"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624643"
 ---
 # <a name="steering-committee"></a>Comitê de direção
 

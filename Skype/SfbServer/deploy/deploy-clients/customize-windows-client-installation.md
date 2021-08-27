@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 'Resumo: Visão geral dos métodos e ferramentas de instalação para Skype for Business.'
-ms.openlocfilehash: 9679dbf9b5673cc1393f62ba55bcafaeb6423c9d23df6a21d31d57d52017292a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 710d040bbdb29f91e76ef276595464c2cfccc876
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581805"
 ---
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personalizar Windows instalação do cliente no Skype for Business Server
  

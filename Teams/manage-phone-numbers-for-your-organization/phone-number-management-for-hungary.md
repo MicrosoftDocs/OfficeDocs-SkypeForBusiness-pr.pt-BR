@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Hungria para Microsoft Teams.
-ms.openlocfilehash: 2be6aae220be6c38fbef203c9cc1487dd409071a
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: ce6f5bee548ba1169d424304027e2fcef7b6a270
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348303"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617287"
 ---
 # <a name="phone-number-management-for-hungary"></a>Telefone gerenciamento de números para a Hungria
 

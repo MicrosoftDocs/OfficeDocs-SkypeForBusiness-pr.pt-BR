@@ -16,19 +16,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, quais recursos você obterá com ele, como comprá-las para seu produto e como usar sua operadora existente com elas. Você pode obter informações sobre preços e detalhes dos planos do Office 365, Créditos de Comunicação e planos de Chamadas. '
-ms.openlocfilehash: 39bc25454e5a8be7513c17124392ab1201bdcafccb821dd3f3e176de8246596e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60684102e563e23e99ea5ea18a16bcf51f6d82db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283903"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624523"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licenciamento de complementos do Skype for Business
 

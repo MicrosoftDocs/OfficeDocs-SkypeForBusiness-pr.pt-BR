@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
 description: A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 844c33efae8ce0492b55ea597fdf82e38356bd2462f67640f4e823728453bab1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f3468e7328180788451a5dc13c2be8e08d3b9ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325548"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596105"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Por que a ativação de número está listada como atualização?
 

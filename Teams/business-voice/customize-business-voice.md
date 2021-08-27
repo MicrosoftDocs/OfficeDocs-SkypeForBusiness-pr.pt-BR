@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Aprenda a personalizar o Microsoft 365 Business Voice para atender às necessidades específicas de sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a15b3ff90d6656fc662ea69f9a54f8b0af50a969626a876b341d230d74cdef3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9991d02eafe54136e83aae84d0c7a859dd3f4e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286070"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603630"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>Personalizar o Microsoft 365 Business Voice
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: O Unregister-CcAppliance cmdlet não faz o registro do dispositivo Skype for Business Cloud Connector Edition atual de um site PSTN na configuração de locatário online.
-ms.openlocfilehash: de872082f6a025a736b871a76d41061c888acb1f401739229ba7ad670a0c19ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c48a7b53d757dab446a8939a3e3203d8e66fccab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344540"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603650"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
@@ -79,7 +79,7 @@ Nenhum. O Unregister-CcAppliance cmdlet não aceita entrada canalada.
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

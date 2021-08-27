@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: Escolha um modelo de implantação, desenvolva uma matriz raci (raci) informada por responsabilidade, crie planos de execução e governança.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b891db54d7202eb24df969e3d510a4cc5d7c8be3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314317"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624813"
 ---
 # <a name="document-my-success-plan"></a>Documentar meu plano de sucesso
 
@@ -93,9 +93,9 @@ A seguir, um exemplo de um plano de execução trimestral para a fase Envision d
 | EUA: Nova York                             | 2000                | Sim                | Sistema de Telefonia com Planos de Chamadas | Q1 CY2018          |
 | Irlanda: Dublin                          | 300                 | Sim                | Sistema de Telefonia com Planos de Chamadas | Q1 CY2018          |
 | Áustria: Viena                          | 500                 | Sim                | Roteamento Direto do Sistema de Telefonia     | Q2 CY2018          |
-| Itália: Milão                             | 200                 | Sim                | Não disponível                             | Q2 CY2018          |
+| Itália: Milão                             | 200                 | Sim                | N/D                             | Q2 CY2018          |
 | América do Sul: Brasil                    | 1500                | Sim                | Roteamento Direto do Sistema de Telefonia     | Q2 CY2018          |
-| Índia: Deli                             | 7000                | Sim                | Não disponível                             | Q3 CY2018          |
+| Índia: Deli                             | 7000                | Sim                | N/D                             | Q3 CY2018          |
 
 
 <table>

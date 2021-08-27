@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Gana.
-ms.openlocfilehash: 966dfd2e9d7533c185a50547703c71367179b23b4dd44cd8f6e7f86259dcd2f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e172189e4f9e80d1f81beadad9a0a24a6b2f26e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318534"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603590"
 ---
 # <a name="availability-in-ghana"></a>Disponibilidade no Gana
 

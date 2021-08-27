@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Se você implantou o Servidor de Arquivamento e o Servidor de Monitoramento em seu ambiente herdado, poderá implantar esses servidores em seu ambiente Skype for Business Server 2019 depois de migrar seus pools de Front-End. Se a funcionalidade de arquivamento e monitoramento for essencial para sua organização, no entanto, você deve adicionar arquivamento e monitoramento ao pool piloto do Skype for Business Server 2019 antes de migrar para que a funcionalidade seja disponibilizada durante o processo de migração.
-ms.openlocfilehash: b1f497019d2043a7ea43c1134af615ae4db6183cd3d16593bfab6e835fa4db32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5b839a1eb7d460a57d6adf36901c50479f203ad
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303545"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596165"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>Migrando servidores de arquivamento e monitoramento
 

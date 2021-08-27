@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: O cmdlet Export-CcConfigurationSampleFile exporta um Skype for Business Cloud Connector Edition de configuração de exemplo (.ini) para o diretório de dispositivos de um dispositivo do Cloud Connector. Você pode modificar e renomear o arquivo a ser usado para sua implantação.
-ms.openlocfilehash: f59e93cf241ca762dcb41cf23d617017a62581b453cb84cebc915b1703f5a019
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 409514761c3bfeccebb671d289201fc67f58d220
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326257"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603660"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -60,7 +60,7 @@ Nenhum. O Export-CcConfigurationSampleFile cmdlet não aceita entrada canalada.
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
