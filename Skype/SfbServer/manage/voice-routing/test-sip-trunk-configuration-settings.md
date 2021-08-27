@@ -1,5 +1,5 @@
 ---
-title: Testar configurações de tronco SIP em Skype for Business Server
+title: Skype for Business Server - Testar configurações de tronco SIP
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. '
-ms.openlocfilehash: 15e417a03da634efc79aab048eccf4dc64296c309c2d13db0a35d8276dc24ecc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PST), um PBX ou um SBC no provedor de serviços. '
+ms.openlocfilehash: 1684a2a45de1dd6608ab5fea70fa3bf2e1652723
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351461"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617817"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Testar configurações de tronco SIP em Skype for Business Server
+# <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>Skype for Business Server - Testar configurações de tronco SIP
 
 As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. Estas configurações fazem coisas como especificar:
 

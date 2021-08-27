@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Informações de privacidade específicas relacionadas à transferência de dados ou informações entre operadoras e a Microsoft, especificamente em relação ao operador Conexão.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324820"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582185"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Transferências de dados entre operadoras e Microsoft para operadores Conexão
 

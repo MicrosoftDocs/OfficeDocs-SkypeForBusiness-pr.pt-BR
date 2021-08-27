@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportamento de coexistência entre Teams & Skype for Business, incluindo parâmetros de roteamento, roteamento de chamadas de chat &, chats & chamadas de threads pré-existentes, & presença.
-ms.openlocfilehash: 2b98fead25ccfd8098e5281749358db931d64bc32a24be2a9d186c62a1d1a57b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: efd40be76e1a733e74d3e85c767cf2847d3cccbc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351151"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582425"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -102,8 +102,8 @@ Nas tabelas a seguir:
 
 |<br><br>Modo|Originador<br><br>Cliente|<br><br>SfB &nbsp; homed|<br><br>Route->|Destinatário<br><br>TeamsOnly|
 |---|---|---|:---:|---|
-|Ilhas|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Microsoft Teams* <br> Microsoft Teams <br> *Microsoft Teams*|
-|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|*Microsoft Teams* <br> *Microsoft Teams*|
+|Ilhas|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Microsoft Teams* <br> Microsoft Teams <br> *Teams*|
+|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|*Teams* <br> *Teams*|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 ||||||
 
@@ -148,8 +148,8 @@ As tabelas abaixo descrevem qual cliente receberá uma chamada do originador (tr
 
 |<br><br>Modo|Originador<br><br>Cliente|<br><br>SfB homed|<br><br>Route->|Destinatário<br><br>TeamsOnly|
 |---|---|---|:---:|---|
-|Ilhas|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Microsoft Teams* <br> **Não é possível** <br> *Microsoft Teams*|
-|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|*Microsoft Teams* <br> *Microsoft Teams*|
+|Ilhas|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Teams* <br> **Não é possível** <br> *Teams*|
+|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|*Teams* <br> *Teams*|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 ||||||
 

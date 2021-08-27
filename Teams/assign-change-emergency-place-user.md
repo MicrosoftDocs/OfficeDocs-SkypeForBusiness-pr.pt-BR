@@ -13,17 +13,17 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá a atribuir ou alterar o local para um local de emergência para usuários em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d60cb3f5ec1daf5e65064fe659ff4be677ad4d06290f3c29af8caf6dae95fb9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 146c97be9b416b0e338b6b6c49eeb19171b26cee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340647"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617597"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Atribuir ou alterar o local para um local de emergência para um usuário
 

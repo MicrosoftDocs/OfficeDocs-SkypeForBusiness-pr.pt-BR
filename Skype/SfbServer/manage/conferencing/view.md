@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 'Resumo: saiba como exibir políticas de conferência em Skype for Business Server.'
-ms.openlocfilehash: 9cc55d9546337bd50e9508f85fc5f79e449df42278fe6166c7b32342a80babd1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f3e41eaa136674e7ab91af0b947daf6def872be5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313209"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578805"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Exibir políticas de conferência no Skype for Business Server
  

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Resumo: saiba mais sobre o Relatório de Atividades do Usuário Skype for Business Server.'
-ms.openlocfilehash: df120a5b16843d15555e5e53ef7f1102a8c7724e5e75c739e672b0e7bee0794f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d2f303751219c0ba156f45d792196673a4283159
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347956"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617867"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Relatório de Atividades do Usuário no Skype for Business Server
 
@@ -117,13 +117,13 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Ativi
 **Filtros de relatório de atividades do usuário**
 
 
-| **Nome**                   | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Name**                   | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |:---------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **De** <br/>             | Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são sempre de domingo a sábado.  <br/>                                                      |
 | **To** <br/>               | Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são contadas de domingo até sábado.  <br/>                                                             |
 | **Tipo de atividade** <br/>    | Tipo de atividade. Selecione um dos seguintes: <br/>  [Todos] <br/>  Ponto a ponto <br/>  Conferência <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Modalidade** <br/>         | A Modalidade disponível para você varia dependendo do tipo de atividade selecionado. Se o Tipo de Atividade for Ponto a Ponto, você poderá selecionar IM; Transferência de arquivo; Compartilhamento de Aplicativos; Voz; ou Vídeo como a modalidade.  <br/> Se o Tipo de Atividade for Conferência, você poderá selecionar IM Telefone conferência; Web conference; Compartilhamento de Aplicativos; Conferência de voz/vídeo; ou Conferência de telefonia.  <br/>                                                                                                                                                                                                                                            |
-| **Categoria da sessão** <br/> | Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Êxito <br/>  Falha esperada <br/>  Falha inesperada <br/>  Uma "falha esperada" é uma falha esperada; por exemplo, se um usuário tiver definido seu status como Não Incomodar, você espera que qualquer chamada para esse usuário falhe. Uma "falha inesperada" ocorre em um sistema que parecia saudável. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada. <br/> |
+| **Categoria da sessão** <br/> | Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Sucesso <br/>  Falha esperada <br/>  Falha inesperada <br/>  Uma "falha esperada" é uma falha esperada; por exemplo, se um usuário tiver definido seu status como Não Incomodar, você espera que qualquer chamada para esse usuário falhe. Uma "falha inesperada" ocorre em um sistema que parecia saudável. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada. <br/> |
 | **Prefixo URI do usuário** <br/>  | Endereço SIP para o usuário. Para exibir registros apenas para o usuário Ken Myer, você precisa inserir o endereço SIP de Ken Myer. Por exemplo:  <br/> sip:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para sessões ponto a ponto
@@ -132,7 +132,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 **Métricas para sessões ponto a ponto**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Ver os detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório de Detalhes de Sessão Ponto a Ponto da sessão selecionada.  <br/> |
 |**Do usuário** <br/> |Sim  <br/> |Endereço SIP do usuário que iniciou a sessão ponto a ponto.  <br/> |
@@ -149,7 +149,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 **Métricas para sessões de conferência**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**URI de conferência** <br/> |Sim  <br/> |Identificador exclusivo de conferência. Quando você clica nesse item, o relatório mostra o Relatório de Detalhes da Conferência da sessão selecionada. Quando você expande esse item, o relatório mostra informações sobre os participantes da conferência. Para obter detalhes, consulte a seção "Métricas para Participantes de Conferência" mais adiante neste tópico.  <br/> |
 |**Organizador** <br/> |Sim  <br/> |Endereço SIP do usuário que organizou a conferência.  <br/> |
@@ -163,7 +163,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 **Métricas para participantes da conferência**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Função** <br/> |Não  <br/> |Função de conferência (por exemplo, Apresentador) para o usuário.  <br/> |
 |**Participante** <br/> |Não  <br/> |Endereço SIP do usuário.  <br/> |

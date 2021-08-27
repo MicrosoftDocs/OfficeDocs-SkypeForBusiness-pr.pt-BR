@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Este tópico orienta você pelo processo de remover um pool de Front-End ou um Edição Standard Servidor Front-End. Quando você remove um pool de Front-End, remove cada Servidor Front-End que pertence ao pool como parte do processo de remoção do pool. Ao remover um servidor Edição Standard front-end, você deve remover a definição SQL Store do Construtor de Topologias.
-ms.openlocfilehash: 97407c05afc6055c02b7b54343bbd551c88e6a04236528a74da91f326bf9e25c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04ff2120fcbbe0c914a0a105669083eeb13a8347
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589245"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>Remover um pool Front-End ou um servidor Standard Edition
 

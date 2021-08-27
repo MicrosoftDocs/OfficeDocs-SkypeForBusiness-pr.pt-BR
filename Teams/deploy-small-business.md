@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Configurar o Teams em sua pequena empresa para permitir que os usuários colaborem usando chat e compartilhamento de arquivos, configurar e participar de reuniões pequenas e grandes e conversar por meio de vídeo e voz.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 92bd4ef4d53cbae8902719da3ce55a5b88a270c4b18d43bfe75ab89578fe204a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a7e15a8a327d40ea11412229205fca6e856e9f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322693"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596315"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurar o Microsoft Teams em sua pequena empresa
 

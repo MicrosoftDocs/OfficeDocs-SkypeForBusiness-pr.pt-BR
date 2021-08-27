@@ -1,5 +1,5 @@
 ---
-title: Exibir informações sobre troncos SIP individuais em Skype for Business Server
+title: Skype for Business Server - Exibir informações sobre troncos SIP individuais
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: No Skype for Business Server, vários troncos podem ser atribuídos a um único gateway PSTN; Isso significa que gateways e troncos não são um e o mesmo, e os administradores devem usar o cmdlet Get-CsTrunk para exibir informações sobre um tronco SIP individual.
-ms.openlocfilehash: 1fd465bcbf547471f9ca5ead562d8b77976be79621bd4246be85341126577936
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: No Skype for Business Server, vários troncos podem ser atribuídos a um único gateway PSTN. Gateways e troncos não são um e os mesmos, e os administradores devem usar o cmdlet Get-CsTrunk para exibir informações sobre um tronco SIP individual.
+ms.openlocfilehash: 2c39a35ee0a42e2f54e87541cec857b3d90cd2c6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351451"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617797"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Exibir informações sobre troncos SIP individuais em Skype for Business Server
+# <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype for Business Server - Exibir informações sobre troncos SIP individuais
 
 No Skype for Business Server, vários troncos podem ser atribuídos a um único gateway PSTN; isso significa que gateways e troncos não são um e os mesmos, e que os administradores devem usar o cmdlet [Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) para exibir informações sobre um tronco SIP individual.
 

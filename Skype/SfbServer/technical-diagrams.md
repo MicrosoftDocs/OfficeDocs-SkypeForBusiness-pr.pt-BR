@@ -9,19 +9,19 @@ ms.topic: hub-page
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 'Resumo: revise esses cartazes conforme necessário durante o planejamento, implementação ou gerenciamento de Skype for Business Server.'
-ms.openlocfilehash: 1d25122d4372fb3bce7fa98f8c21e7b430b63a1221cecb0abceae92485025d85
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbf454cbd59076dc8822719831da014eb17b5df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302125"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617707"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Diagramas técnicos para Skype for Business Server
 

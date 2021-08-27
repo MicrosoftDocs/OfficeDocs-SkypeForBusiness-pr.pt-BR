@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: reference
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Leia este artigo para localizar códigos de país de caminho de mídia para Roteamento Direto para que você possa selecionar o caminho de mídia ideal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36124a8aadc94bfd73ffd195ec8ee0a2acf0c2a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327736"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582345"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Códigos de país do caminho de mídia de roteamento direto
 
@@ -95,7 +95,7 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Ilha Christmas | CX |
 | Ilhas Cocos (Quilha) | CC |
 | Colômbia        | CO |
-| Comores         | km |
+| Comores         | KM |
 | Congo           | CG |
 | Congo (DRC)     | CD |
 | Ilhas Cook    | CK |
@@ -142,7 +142,7 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Guiné          | GN |
 | Guinea-Bissau   | GW |
 | Guiana          | GY |
-| Haiti           | Oi |
+| Haiti           | OI |
 | Ilha Heard e Ilhas McDonald | HM |
 | Honduras        | HN |
 | RAE de Hong Kong   | HK |
@@ -213,7 +213,7 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Coreia do Norte     | KP |
 | Macedônia do Norte | MK |
 | Ilhas Marianas do Norte | NP |
-| Noruega          | Não |
+| Noruega          | NÃO |
 | Omã            | OM |
 | Paquistão        | PK |
 | Palau           | PW |
@@ -253,7 +253,7 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Eslováquia        | SK |
 | Eslovênia        | SL |
 | Ilhas Salomão | SB |
-| Somali         | Então |
+| Somali         | ENTÃO |
 | África do Sul    | ZA |
 | Ilhas Geórgia do Sul e Sanduiche do Sul | GS |
 | Sudão do Sul     | SS |
@@ -273,7 +273,7 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Timor-Leste     | TL |
 | Togo            | TG |
 | Tokelau         | TK |
-| Tonga           | Para |
+| Tonga           | PARA |
 | Trinidad e Tobago | TT |
 | Tunísia         | TN |
 | Turquia          | TR |

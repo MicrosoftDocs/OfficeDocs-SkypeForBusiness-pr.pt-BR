@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Resumo: saiba mais sobre o Relatório de Detalhes de Chamada usado Skype for Business Server.'
-ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 173df324b61fc719ee989a6102ccfbb9cf850f92
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336581"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617857"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Relatório de Detalhes de Chamada no Skype for Business Server
  
@@ -87,7 +87,7 @@ A tabela a seguir lista as informações fornecidas no Relatório Detalhado de C
   
 **Métricas do Relatório Detalhado de Chamadas**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**PAI do chamador** <br/> |Não  <br/> |O P-Asserted-Identity do usuário que iniciou a chamada. Essa identidade é usada para transportar a identidade comprovada de um usuário dentro de uma rede confiável.  <br/> |
 |**URI do chamador** <br/> |Não  <br/> |Endereço SIP do usuário que iniciou a chamada.  <br/> |

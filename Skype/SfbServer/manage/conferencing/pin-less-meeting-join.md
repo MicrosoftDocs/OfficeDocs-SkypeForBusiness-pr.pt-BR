@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Resumo: saiba como configurar a opção de junção de reunião sem PIN no Skype for Business Server.'
-ms.openlocfilehash: b6e31c3befbabacac26595ea0cd73d8ca575816013d30f17ae4b2ea785934f28
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e11a727e42ce4d65e21d3e001404a421fc52541
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320203"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617887"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar a junção de reunião sem PIN no Skype for Business Server
  

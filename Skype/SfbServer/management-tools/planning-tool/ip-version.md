@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.IPVersion
 - ms.lync.plan.IPVersion
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: 'Você tem três opções ao configurar endereços IP no Skype for Business Server 2015: você pode configurar o Skype for Business Server 2015 para dar suporte apenas a IP versão 4 (IPv4), somente IP versão 6 (IPv6) ou uma combinação de ambos (conhecido como pilha dupla).'
-ms.openlocfilehash: 7147c4c9c6df797ddfaf8340faaf53168be2301877c75e20b6f8d956afe21481
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0140abac90377c9658ca6de29a8429ca1296539e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343395"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617757"
 ---
 # <a name="ip-version-planning-tool"></a>Ferramenta de planejamento de versão IP
  

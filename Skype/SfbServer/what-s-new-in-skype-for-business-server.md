@@ -10,16 +10,16 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 'Resumo: leia este tópico para saber mais sobre novos recursos no Skype for Business Server 2015. Para obter informações detalhadas sobre a nova experiência do cliente, consulte Lync agora Skype for Business -- confira novidades.'
-ms.openlocfilehash: e32b55c6eb41a5800f4bceb1e213a44efed5d2292ccd57766dbf56c1c0cd6e4b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df0a16855ab7430e87847a392d263f35c6ec2993
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344510"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617617"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Novidades no Skype for Business Server 2015
 
@@ -159,7 +159,7 @@ Skype for Business Server 2015 habilita recursos de gerenciamento e administraç
 > [!NOTE]
 > Não há nenhuma alteração do Lync Online 2013 e Exchange experiência de suporte local. 
   
-## <a name="multi-factor-authentication"></a>Autenticação multifator
+## <a name="multi-factor-authentication"></a>Multi-factor Authentication
 
 A autenticação multifato é um método de autenticação que requer o uso de mais de um método de verificação e adiciona uma segunda camada de segurança crítica às insuções e transações do usuário. Por exemplo, exigindo um nome de usuário e senha e um certificado. Skype for Business Server 2015 continua a se basear nos recursos de autenticação multifato disponíveis nas Atualizações Cumulativas do Lync Server 2013. As alterações significativas na autenticação multifa factor são:
   

@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Siga o núcleo, tarefas e atividades a fazer nesta lista de verificação quando você configurar Microsoft 365 ou Office 365 para Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e082b1226df351768d33e2ab04ed6902cafe55502816aa757de8d76a51004ea0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88ddd7de72bbf9f39344776292573cbb85320e3e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324840"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582195"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Habilitar Microsoft 365 ou Office 365
  
