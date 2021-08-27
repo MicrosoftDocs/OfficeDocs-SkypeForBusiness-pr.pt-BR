@@ -1,7 +1,7 @@
 ---
 title: Configurar a Caixa postal na nuvem
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o Caixa postal na Nuvem para seus usuários. '
-ms.openlocfilehash: eb1d3d054cf1109ddb9ba048c69dc3dda665aa1e8e0d3e2b1d72926835389a39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 477bc16de7953033bafb0b32d0ac3d2eac74f90a
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548296"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a Caixa postal na nuvem
 
@@ -39,12 +39,9 @@ Este artigo é para o administrador Microsoft 365 ou Office 365 conforme descrit
 > [!NOTE]
 > Quando um representante responde a uma chamada em nome de um representante, as notificações não estão disponíveis Caixa postal na Nuvem. Os usuários podem receber notificações para chamadas perdidas.
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>Ambientes somente na nuvem: configurar o Caixa postal na Nuvem para usuários Sistema de Telefonia online
+## <a name="cloud-voicemail-for-teams-users"></a>Caixa postal na Nuvem para Teams usuários
 
-Para usuários Sistema de Telefonia online, Caixa postal na Nuvem é automaticamente configurada e provisionada para usuários depois que você atribui uma Sistema de Telefonia **aos** usuários. 
-
-> [!NOTE]
-> Para usuários Skype for Business Sistema de Telefonia online com números de telefone fornecidos no local, talvez seja necessário habilitar a caixa postal hospedada com [Set-CsUser -HostedVoicemail $True](/powershell/module/skype/set-csuser?view=skype-ps). 
+Para Teams usuários, Caixa postal na Nuvem é automaticamente configurada e provisionada. Observe que uma Sistema de Telefonia de Sistema de Telefonia não é necessária para Caixa postal na Nuvem. 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Configurar o Caixa postal na Nuvem para Exchange Server de Caixa de Correio
 

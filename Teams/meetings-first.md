@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: lsomi
 description: Saiba mais sobre Reuniões Primeiro, onde os usuários podem criar sua reunião Teams, enquanto continuam a usar Skype for Business para chat, chamada e presença.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9053c3ff27300f8699a3f4fdd7de6175d752df78684eb133be457da61873f65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4da9ef3034b4918e51fbe00bdae3df01df1a6495
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276147"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590755"
 ---
 # <a name="meetings-first"></a>Meetings First
 

@@ -164,7 +164,7 @@
 | 4/29/2021 | [Perguntas frequentes sobre governança do Microsoft Education para administradores](/MicrosoftTeams/plan-teams-governance-edu) | modificado |
 | 4/29/2021 | [Pesquisar o registro de auditoria de eventos no Teams](/MicrosoftTeams/audit-log-events) | modificado |
 | 4/30/2021 | [Telefones e dispositivos para Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
-| 4/30/2021 | [Comprar, configurar e habilitar o Career Coach para Microsoft Teams](/MicrosoftTeams/career-coach) | adicionado |
+| 4/30/2021 | [Comprar, configurar e habilitar Coach de carreira para Microsoft Teams](/MicrosoftTeams/career-coach) | adicionado |
 | 4/30/2021 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
 | 4/30/2021 | [Gerenciar seus aplicativos no Microsoft Teams de administração](/MicrosoftTeams/manage-apps) | modificado |
 | 4/30/2021 | [Atribuir números de telefone do Business Voice aos seus usuários](/MicrosoftTeams/business-voice/set-up-assign-numbers) | adicionado |
@@ -184,7 +184,7 @@
 
 | Publicado em |Título do tópico | Alteração |
 |------|------------|--------|
-| 4/19/2021 | [Assistência de voz da Cortana no Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modificado |
+| 4/19/2021 | [Cortana de voz no Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modificado |
 | 4/19/2021 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
 | 4/19/2021 | [Telefones e dispositivos para Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
 | 4/19/2021 | [Microsoft Teams Notas de versão do PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
@@ -270,4 +270,4 @@
 | 4/16/2021 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
 | 4/16/2021 | [Introdução à Teams gravação baseada em política para & reuniões](/MicrosoftTeams/teams-recording-policy) | modificado |
 | 4/16/2021 | [Dimensões e medidas - Painel de Qualidade de Chamada (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
-| 4/16/2021 | [Instalar, gerenciar e atribuir permissões para o Microsoft Viva Learning (visualização privada)](/MicrosoftTeams/teams-learning-app-overview) | modificado |
+| 4/16/2021 | [Instalar, gerenciar e atribuir permissões para Aprendizagem do Microsoft Viva (visualização privada)](/MicrosoftTeams/teams-learning-app-overview) | modificado |

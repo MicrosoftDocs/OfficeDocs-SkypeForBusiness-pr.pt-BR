@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Leia este tópico para saber como atribuir políticas de conferência para Skype do Sistema de Sala.
-ms.openlocfilehash: 7f9d1e349563e20d29736d33900b4afce99f39c10b9222b23d291f5a9fa417b7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 202440953aedaa54ac69a7bd4549bf7dcbd8d865
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618197"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Política de conferência para Skype do Sistema de Sala
  
@@ -27,7 +27,7 @@ Leia este tópico para saber como atribuir políticas de conferência para Skype
 
 A política de conferência atribuída à conta Skype Room System deve ter determinadas características. Na maioria das vezes, o cliente Skype Room System ins junta uma reunião agendada e, portanto, a política de conferência do organizador da reunião afetará a conferência. No entanto, Skype for Business Server, determinados recursos dependem da configuração do participante. Por exemplo, se a política do participante permitir uma resolução de vídeo máxima de 1080p, os participantes experimentarão esse recurso de vídeo de resolução mais alta na conferência, mesmo se a política do organizador não permitir. A tabela a seguir descreve várias dessas configurações que você deve estar ciente ao configurar políticas de conferência para Skype contas do Sistema de Sala em sua organização. 
   
-|Recurso  <br/> |Valor  <br/> |Comment  <br/> |
+|Recurso  <br/> |Valor  <br/> |Comentário  <br/> |
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Deve ser verdadeiro para Skype áudio do Sistema de Sala  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Deve ser verdadeiro para que Skype áudio do Sistema de Sala funcione em sessões de quadro de Skype de Reunião Agora (ad hoc)  <br/> |

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre a discagem de números gratuitos na Espanha, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: a0e66b49178709aa7db6540e7901bdb3f2c27693feab3436ede1270b5b9050ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e467eb8c5e93ebda9f40d78bbf926fc7f800f8e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345150"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577765"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>Restrições de discagem de chamada gratuita na Espanha
 

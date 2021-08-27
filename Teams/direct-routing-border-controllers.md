@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15345077914ae36abe18a0ec760c0506ce132f73
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 0def7a1b9938a97a09e08f158c45f04a69879d64
+ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365788"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531021"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -97,7 +97,7 @@ Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamen
 
 <br/>
 
-* Provedores de serviço de emergência
+\* **911 prestadores de serviços**
 
 - [Roteamento de Local Dinâmico de Largura de Banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [ERS (Serviço de Roteamento de Emergência Intrado)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)

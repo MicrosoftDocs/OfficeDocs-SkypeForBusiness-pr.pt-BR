@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Para remover o Servidor de Monitoramento, você precisa alterar ou limpar a dependência no pool de Front-End associado, Servidor Front-End, Aparelho de Filial E Servidor de Filial Desavivável. Edite as propriedades do pool front-end, servidor front-end, aparelho de filial e servidor de filial que sobrevive para remover a dependência. Depois de limpar a dependência e excluir o servidor no Construtor de Topologias, você será notificado de que o objeto de armazenamento de banco de dados associado no Construtor de Topologias também será excluído.
-ms.openlocfilehash: 8e4c4b08c6126f6ac2c03d66e9ddcfe921b79850e704c54c65d6951c1449aa9f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 703fbfa68fe75d4e8c4a297c81eae27b0f5118c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280396"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590585"
 ---
 # <a name="remove-the-monitoring-server-association"></a>Remover a associação do Servidor de Monitoramento
 

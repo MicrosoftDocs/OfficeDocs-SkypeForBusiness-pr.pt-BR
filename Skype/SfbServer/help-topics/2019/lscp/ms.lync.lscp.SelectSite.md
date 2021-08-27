@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar um Site para encontrar sites disponíveis em seu ambiente. Para usar um site existente, escolha um site na lista e clique em OK.
-ms.openlocfilehash: ff3ed4fe757d7cd3457d11fa2290d7ac963840033a59738b8ff966e0da3af760
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4579d65fa0b46a014513a80aecc0884c5217dcb1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584305"
 ---
 # <a name="select-a-site"></a>Selecionar um Site
 

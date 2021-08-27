@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'A migração do aplicativo Estacionamento de Chamada inclui o provisionamento do pool do Skype for Business Server 2019 com qualquer música personalizada em arquivos de espera que tenham sido carregados na instalação herdada, restaurando as configurações de nível de serviço e retargeting all Call Park orbits to the Skype for Business Server 2019 pool. Se os arquivos personalizados de música em espera foram configurados no pool, esses arquivos precisam ser copiados para o novo pool Skype for Business Server 2019. Além disso, é recomendável que você faça backup de todos os arquivos de música em espera personalizados do Estacionamento de Chamada para outro destino para manter uma cópia de backup separada de todos os arquivos personalizados de música em espera que tenham sido carregados para o Estacionamento de Chamada. Os arquivos de música em espera personalizados para o aplicativo Estacionamento de Chamada são armazenados no armazenamento de arquivos do pool. Para copiar os arquivos de áudio de um armazenamento de arquivos de pool para um armazenamento de arquivos Skype for Business Server 2019, use o comando Xcopy com os seguintes parâmetros:'
-ms.openlocfilehash: f83e1095361ddd272a35bf9100171c0d06caf003dfae84f19c01b2aa53de7977
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8d2c5a898ca9ce4c2c1e8be4b9cbf3e7355a8cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312319"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597535"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migrar configurações do aplicativo do Estacionamento de Chamada
 

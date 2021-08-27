@@ -10,18 +10,18 @@ audience: admin
 description: Use este script do PowerShell para exportar uma lista de gerentes e seus diretos para sua organização, em preparação para criar uma equipe para cada gerente com seus directs como membros da equipe.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 120ee0fe4b0211d929722685700b3bbdbc4df2231b0bf5c9e3f53c5d423c2f75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a25e743f1f8191db8323b29bf33c3fed75261fa1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345330"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577815"
 ---
 # <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemplo de script do PowerShell - Exportar gerentes e seus directs
 

@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Resumo: saiba como criar, publicar e exportar sua topologia do Servidor de Borda em Skype for Business Server.'
-ms.openlocfilehash: da0ec9709f53e22122a911015e94484fc673c6741ba5122fa796e7dded0105b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db5c4c2f9c68803d0e6823070c83c654df542035
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322463"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584345"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Crie sua topologia de borda para Skype for Business Server
  
@@ -108,7 +108,7 @@ Se você não tiver certeza do que precisa, antes de começar a seguir essas eta
     
 13. A próxima tela para cima **é Definir o próximo salto**. Na caixa **Pool de próximo salto,** selecione o nome do pool interno, que pode ser um pool front-end ou um pool autônomo. Se você tiver um Diretor em seu ambiente, escolha o Diretor. Depois, clique em **Avançar**.
     
-14. Na tela **Associar pools front-end,** você precisará especificar um ou mais pools internos, incluindo pools de front-end e servidores Edição Standard, para associar a esse Servidor de Borda. Basta escolher os nomes dos pools internos que você deseja usar esse Servidor de Borda para se comunicar com usuários externos com suporte. Clique em **Próximo**.
+14. Na tela **Associar pools front-end,** você precisará especificar um ou mais pools internos, incluindo pools de front-end e servidores Edição Standard, para associar a esse Servidor de Borda. Basta escolher os nomes dos pools internos que você deseja usar esse Servidor de Borda para se comunicar com usuários externos com suporte. Clique em **Avançar**.
     
     > [!NOTE]
     > Algo para ter em mente aqui é que, se seus pools internos ou servidores autônomo Skype for Business Server s já estão usando um servidor de borda diferente, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que está nessa situação, você verá um aviso aparecer avisando sobre o outro Servidor de Borda e poderá decidir se deseja continuar ou não. Se você continuar com essa nova associação, a conexão com o outro Servidor de Borda será parada. 
@@ -176,7 +176,7 @@ Se você não tiver certeza do que precisa, antes de começar a seguir essas eta
     
 16. A próxima tela para cima **é Definir o próximo salto**. Na caixa **Pool de próximo salto,** selecione o nome do pool interno, que pode ser um pool front-end ou um pool autônomo. Se você tiver um Diretor em seu ambiente, escolha o Diretor. Depois, clique em **Avançar**.
     
-17. Na tela **Associar pools front-end,** você precisará especificar um ou mais pools internos, incluindo pools de front-end e pools Edição Standard, para associar a esse Servidor de Borda. Basta escolher os nomes dos pools internos que você deseja usar esse Servidor de Borda para se comunicar com usuários externos com suporte. Clique em **Próximo**.
+17. Na tela **Associar pools front-end,** você precisará especificar um ou mais pools internos, incluindo pools de front-end e pools Edição Standard, para associar a esse Servidor de Borda. Basta escolher os nomes dos pools internos que você deseja usar esse Servidor de Borda para se comunicar com usuários externos com suporte. Clique em **Avançar**.
     
     > [!NOTE]
     > Algo para ter em mente aqui é que, se seus pools internos ou servidores autônomo Skype for Business Server s já estão usando um servidor de borda diferente, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que está nessa situação, você verá um aviso aparecer avisando sobre o outro Servidor de Borda e poderá decidir se deseja continuar ou não. Se você continuar com essa nova associação, a conexão com o outro Servidor de Borda será parada. 
@@ -245,7 +245,7 @@ Se você não tiver certeza do que precisa, antes de começar a seguir essas eta
     
 15. A próxima tela para cima **é Definir o próximo salto**. Na caixa **Pool de próximo salto,** selecione o nome do pool interno, que pode ser um pool front-end ou um pool autônomo. Se você tiver um Diretor em seu ambiente, escolha o Diretor. Depois, clique em **Avançar**.
     
-16. Na tela **Associar pools front-end,** você precisará especificar um ou mais pools internos, incluindo pools de front-end e pools Edição Standard, para associar a esse Servidor de Borda. Basta escolher os nomes dos pools internos que você deseja usar esse Servidor de Borda para se comunicar com usuários externos com suporte. Clique em **Próximo**.
+16. Na tela **Associar pools front-end,** você precisará especificar um ou mais pools internos, incluindo pools de front-end e pools Edição Standard, para associar a esse Servidor de Borda. Basta escolher os nomes dos pools internos que você deseja usar esse Servidor de Borda para se comunicar com usuários externos com suporte. Clique em **Avançar**.
     
     > [!NOTE]
     > Algo para ter em mente aqui é que, se seus pools internos ou servidores autônomo Skype for Business Server s já estão usando um servidor de borda diferente, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que está nessa situação, você verá um aviso aparecer avisando sobre o outro Servidor de Borda e poderá decidir se deseja continuar ou não. Se você continuar com essa nova associação, a conexão com o outro Servidor de Borda será parada. 
@@ -256,7 +256,7 @@ Se você não tiver certeza do que precisa, antes de começar a seguir essas eta
     
 ## <a name="publish-your-edge-server-topology"></a>Publicar sua topologia do Servidor de Borda
 
-Depois de terminar as etapas acima, é hora de publicar essa nova topologia, que também permitirá que você exporte-a para seu servidor de borda ou pool de Borda Skype for Business Server de borda. Siga estas etapas:
+Depois de terminar as etapas acima, é hora de publicar essa nova topologia, que também permitirá que você exporte-a para seu servidor de borda ou pool de Borda Skype for Business Server de borda. Siga esses passos:
   
 1. Inicie **o Construtor de Topologias** (se ainda não tiver sido iniciado no procedimento anterior).
     

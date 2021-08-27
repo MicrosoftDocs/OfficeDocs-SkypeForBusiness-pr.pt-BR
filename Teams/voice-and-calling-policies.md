@@ -9,18 +9,18 @@ ms.reviewer: ''
 search.appverid: ''
 description: Saiba mais sobre Teams de voz e chamadas.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b3cea712fee971ce441e5406bc32c1304c4a53374baf290046945595d3bea1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c5207f9bbfc7212d09394f5b507559c715e561b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335801"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577735"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de voz e chamadas em Microsoft Teams
 

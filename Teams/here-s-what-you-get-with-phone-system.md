@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar o Telefone Microsoft System para sua empresa. '
-ms.openlocfilehash: f1bd1ff71a0f8eec818e005e430618a1ef69b340
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: eb39ea455ef298e00982a5ee414415ddbf66207a
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235016"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548286"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Veja o que você obtém com o Sistema de Telefonia
 
@@ -66,8 +66,8 @@ Sistema de Telefonia fornece os seguintes recursos. A menos que seja notado de o
 |[Bloco de discagem integrado](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Permite que os usuários discem por nome ou por número em qualquer lugar da barra de pesquisa e no bloco de discagem, acelerando o processo de fazer chamadas de saída. <br/> |
 |Chamada federada  <br/> |Permite que os usuários se conectem, se comuniquem e colaborem com usuários em locatários federados.  <br/> |
 |[Fazer e receber uma chamada de vídeo](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Se a conta do usuário estiver habilitada para chamadas de vídeo, o usuário poderá fazer chamadas de vídeo face a face com seus contatos. Só precisam de uma câmera, alto-falantes e microfone do computador. Os usuários também podem usar um fone de ouvido se o computador não tiver um dispositivo de áudio integrado.<br/> |
-|[Caixa postal na nuvem*](set-up-phone-system-voicemail.md) <br/> | Quando um usuário recebe uma caixa postal, ela é entregue à caixa de correio Exchange como um email com a mensagem de caixa postal como um anexo. Os usuários podem ouvir suas mensagens em seu telefone de área de trabalho certificado e em todos os Teams ou Skype for Business aplicativos. O suporte para transcrição de caixa postal foi adicionado a partir de março de 2017 e está habilitado por padrão para todas as organizações e usuários.   <br/> |
-|[Configurações do usuário de caixa postal na nuvem*](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permite que os usuários configurem suas configurações de cliente para saudações de caixa postal, regras de atendimento de chamada e idioma de saudação, incluindo saudações fora do escritório.   |
+|[Caixa Postal da Nuvem](set-up-phone-system-voicemail.md) <br/> | Quando um usuário recebe uma caixa postal, ela é entregue à caixa de correio Exchange como um email com a mensagem de caixa postal como um anexo. Os usuários podem ouvir suas mensagens em seu telefone de área de trabalho certificado e em todos os Teams ou Skype for Business aplicativos. O suporte para transcrição de caixa postal foi adicionado a partir de março de 2017 e está habilitado por padrão para todas as organizações e usuários. <br> Observe que *os usuários não precisam* de uma Sistema de Telefonia, nem precisam estar habilitados para voz para usar Caixa postal na Nuvem recursos.    <br/> |
+|[Caixa postal na Nuvem configurações do usuário](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permite que os usuários configurem suas configurações de cliente para saudações de caixa postal, regras de atendimento de chamada e idioma de saudação, incluindo saudações fora do escritório. <br> Observe que *os usuários não precisam* de uma Sistema de Telefonia, nem precisam estar habilitados para voz para usar Caixa postal na Nuvem recursos.   |
 |[Anelador secundário](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Os usuários com vários dispositivos de alto-falante conectados ao computador podem optar por definir um dispositivo secundário para tocar, além do alto-falante padrão. Por exemplo, um usuário com um fone de ouvido conectado ao computador e alto-falantes de mesa pode optar por ter fones de ouvido e alto-falantes de mesa tocar quando uma chamada chegar para que ele não perca uma chamada.  |
 |[Alertas de toque distintos](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (Teams somente)<br/> |Permite que os usuários escolham toques separados para chamadas normais, chamadas encaminhadas e chamadas delegadas para que possam distinguir o tipo de chamada.  <br/> |
 |[Aparência de linha compartilhada ](shared-line-appearance.md) <br/> | Permite que os usuários compartilhem suas linhas telefônicas para que outro usuário possa fazer e receber chamadas em seu nome.|
@@ -76,8 +76,6 @@ Sistema de Telefonia fornece os seguintes recursos. A menos que seja notado de o
 |[Telefones de área comum](set-up-common-area-phones.md) <br/> | Um telefone de área comum normalmente é colocado em uma área como um lobby ou sala de conferência, disponibilizando-o para várias pessoas. Os telefones de área comum são definidos como dispositivos em vez de usuários e podem entrar automaticamente em uma rede.|
 |[Suporte a bypass de mídia](direct-routing-plan-media-bypass.md) (somente Teams roteamento direto) <br/> | Para melhorar o desempenho, a mídia é mantida entre o Controlador de Borda de Sessão (SBC) e o cliente, em vez de enviá-la por meio do Telefone Microsoft System. |
 
-
-\* Os usuários não precisam estar habilitados para voz para usar os recursos de caixa postal.
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Disponibilidade em GCC nuvens Alta e DoD
 <a name="bkmk_setup"> </a>

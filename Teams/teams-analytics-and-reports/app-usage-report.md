@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-quhur
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso Teams aplicativo no centro de a
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 592b333a8a46e90d6092445a6021341887f1b64ff8f26932f4912a6d9a8e7e56
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f1e5c6805b215a0099ee71b1ccb72511bf5fa200
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308362"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590715"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams de uso do aplicativo
 

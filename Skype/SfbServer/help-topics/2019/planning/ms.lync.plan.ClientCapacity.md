@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.ClientCapacity
 - ms.lync.plan.ClientCapacity
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
 description: O recurso de mobilidade no Skype for Business Server 25 oferece suporte Skype for Business funcionalidade em dispositivos móveis. Para obter detalhes, consulte Planning for Mobility.
-ms.openlocfilehash: 754cc06ede1b03affd2c4180ecc9a155ce6d6e522c65bda5b005e02f65dc91d0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a2cb4fa0cddd712aa542841da2760dea0fbfca77
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285321"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604090"
 ---
 # <a name="client-settings-planning-tool"></a>Cliente Configurações (Ferramenta de Planejamento)
 
