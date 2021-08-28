@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployReplicaConfig
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 description: Para começar a instalação do banco de dados que armazenará a cópia somente leitura local do armazenamento de Gerenciamento Central, selecione entre recuperar a configuração definida publicada usando o Construtor de Topologia no armazenamento de Gerenciamento Central já instalado e configurado ou lendo a configuração definida de outras mídias. Para um computador que está na rede interna da sua organização, selecione Recuperar configuração automaticamente no Armazenamento de Gerenciamento Central.
-ms.openlocfilehash: 6035603e638a8d1459310c8b73002b5c9e922fc76e166cbd880ad9614f161563
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c5b90e0758c892a42286637fa30a6739932bdfb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285111"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635475"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Instalar Invocação do Repositório de Configuração Local (Configuração)
  

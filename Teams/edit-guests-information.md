@@ -14,17 +14,17 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá como um administrador pode editar informações sobre convidados no Azure Active Directory portal.
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: b3168c1302c5a735aeb416702cef5a78833c2bd2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: da5e5e5a19aa36a0633c9826426cdc16fbc5e7cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234576"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604570"
 ---
 # <a name="edit-guest-information"></a>Editar informações de convidados
 
