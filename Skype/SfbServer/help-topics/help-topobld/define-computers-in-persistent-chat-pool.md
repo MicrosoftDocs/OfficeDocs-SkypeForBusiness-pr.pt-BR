@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: Você define os computadores que serão parte de um pool de Servidores de Chat Persistente digitando o FQDN (nome de domínio totalmente qualificado) no FQDN do computador. Esse precisa ser o nome do computador definido nos registros (A ou AAAA) do host DNS (sistema de nome de domínio).
-ms.openlocfilehash: e658f6d9392b67050b2c540acf7c3fb8d47d0d7439bd51afaea5e84c916bb200
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f0e17a04d2e7165014adc06ddfeddeccf4ae89b4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305473"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622483"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Definir Computadores no Pool de Chat Persistente
  

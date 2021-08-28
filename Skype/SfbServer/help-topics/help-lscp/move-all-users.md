@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserMoveAll
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: Na caixa de diálogo Mover Usuários, você pode selecionar os pools de origem e destino para mover contas de usuário de um pool para outro em sua implantação.
-ms.openlocfilehash: 65a34b4c96d0a16b48ab422aba2def28361748302cee23e8d1fb8d960009d7d8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c76141f2660b9a341493bcde45830612fd20ee36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287100"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622573"
 ---
 # <a name="move-all-users"></a>Mover Todos os Usuários
 

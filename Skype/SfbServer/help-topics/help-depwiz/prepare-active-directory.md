@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainADPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 description: Para começar a instalação do Skype for Business Server 2015, você deve preparar o esquema, a floresta e os domínios dos Serviços de Domínio active Directory que hospedarão servidores e usuários. O Skype for Business Server Assistente de Implantação guiará você pelas etapas necessárias para preparar o Active Directory, começando com o esquema e, em seguida, na preparação da floresta. Depois de confirmar se a replicação do Active Directory foi bem-sucedida, você prepara cada domínio que hospedará usuários ou servidores.
-ms.openlocfilehash: 415cd3287eacbb820c8dc3e896805b3250ca7e105db5233056ad4df96b6a25aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1a50936858c2a6d40b92fca3c5fc6e6663a00bb3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311509"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602826"
 ---
 # <a name="prepare-active-directory"></a>Preparar o Active Directory
 

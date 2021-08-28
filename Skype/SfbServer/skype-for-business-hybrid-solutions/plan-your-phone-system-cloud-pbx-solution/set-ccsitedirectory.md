@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: O Set-CcSiteDirectory cmdlet define o diretório onde os arquivos de configuração de nível de site Skype for Business Cloud Connector Edition serão armazenados. A pasta conterá os arquivos de configuração base VHD e Cloud Connector.
-ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5685ac8c203338365141a4a7ba59daa82a06ef0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286240"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610528"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
@@ -53,7 +53,7 @@ A pasta padrão é C:\Users \% userprofile%\CloudConnector\SiteRoot. O caminho p
 
 |**Parâmetro**|**Required**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | Obrigatório <br/> | System.String <br/> |Fornece o caminho para a pasta onde os arquivos de site do Cloud Connector serão armazenados.  <br/> |
+| Caminho <br/> | Obrigatório <br/> | System.String <br/> |Fornece o caminho para a pasta onde os arquivos de site do Cloud Connector serão armazenados.  <br/> |
    
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
@@ -63,7 +63,7 @@ Nenhum. O Set-CcSiteDirectory cmdlet não aceita entrada canalada.
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

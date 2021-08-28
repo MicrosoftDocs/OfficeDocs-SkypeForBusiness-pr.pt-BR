@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na República Tcheca para Microsoft Teams.
-ms.openlocfilehash: 332870d84dd816da9bf40ca4408cf7ebe24b2ac7
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: a4dfdb9cf64b62502d3fc26280ca246299c10eaf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348463"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611680"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Telefone gerenciamento de números para a República Tcheca
 

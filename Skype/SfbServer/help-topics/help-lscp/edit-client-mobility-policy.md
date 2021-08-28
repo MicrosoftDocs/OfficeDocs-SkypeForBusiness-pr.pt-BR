@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: Na caixa de diálogo Editar Política de Mobilidade, edite os detalhes de uma política de mobilidade.
-ms.openlocfilehash: d5fe36caefefc94e09a259abd03323b5df0b69154d5a6ba69122b84ef63e4275
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e42deefefbafa6cd73c754ea331c02f61887d495
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309660"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622603"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar Política de Mobilidade do Cliente
 

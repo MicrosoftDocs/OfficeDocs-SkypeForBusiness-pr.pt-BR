@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Gerenciar Microsoft Teams configurações no Surface Hub usando Microsoft Intune e Windows Designer de Configuração
-ms.openlocfilehash: 6bcf1d8780c1214637e1c12d5830edd3f2534ffd86898b14095f573bb08932b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39d62296a87fa50722bce98a4fcd5e0372b362cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275987"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602156"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Gerenciar Microsoft Teams configurações no Surface Hub
 
