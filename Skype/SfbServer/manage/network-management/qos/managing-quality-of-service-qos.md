@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: A Qualidade de Serviço (QoS) é uma tecnologia de rede usada em algumas organizações para ajudar a fornecer a melhor experiência ao usuário final para comunicações de áudio e vídeo.
-ms.openlocfilehash: bc09ef8368034787201caee8bc077fe11a3f93a0451d2556eb677ceaab632b10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33c580e61be0dcd2a5a193a654294a5ea9087d12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281804"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612160"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>Gerenciando a qualidade do serviço (QoS) no Skype for Business Server
 

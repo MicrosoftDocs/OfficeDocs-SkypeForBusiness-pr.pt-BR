@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies, gageames
 audience: admin
 description: Saiba como analisar e gerenciar o desempenho de mídia em tempo real Microsoft Teams usando o Painel de Qualidade de Chamada (CQD).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 45fe1737aec2fca951ab71e0925961ada57873ab289abcafd33b2588f189e259
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 275d1c9b3b60a5a1cd25c0991e35f40712fa332e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332563"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627313"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>Use o CQD para gerenciar a qualidade de chamada e reunião no Microsoft Teams 
 

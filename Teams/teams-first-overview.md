@@ -9,18 +9,18 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 ms.reviewer: lsomi
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Use essas diretrizes para lançar Microsoft Teams como sua primeira carga de trabalho Microsoft 365 ou Office 365 primeira.
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b52bbef87b08fd541a444e5613aed17032739f67
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: c94768c4e95799d0d6f2c98f24a900ac096abd6e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380435"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627033"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Roll out Microsoft Teams First
 

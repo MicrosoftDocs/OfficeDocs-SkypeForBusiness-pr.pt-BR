@@ -11,16 +11,16 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Saiba como proteger seus dispositivos Salas do Microsoft Teams segurança.
-ms.openlocfilehash: 33ace09520f43804a6e6aa8cdd36a6016b195a650e821036f0caa2953e73f8ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d3b0f244f36ed30376fbe72e9669b6f84f9f9629
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296658"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627283"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Salas do Microsoft Teams Segurança
 

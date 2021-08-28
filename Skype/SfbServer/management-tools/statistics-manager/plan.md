@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumo: leia este tópico para saber mais sobre o Gerenciador de Estatísticas para Skype for Business Server.'
-ms.openlocfilehash: 045586a1fd6c53ff1985602b20e390416142fd3dc9d3ddc3f6b9384d8d9955ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612070"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar o Gerenciador de Estatísticas do Skype for Business Server
 
@@ -124,7 +124,7 @@ O diagrama a seguir mostra uma implantação local, na qual o sistema de cache D
 
 ![Implantação local do Gerenciador de Estatísticas](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 <a name="BKMK_Requirements"> </a>
 
 Você precisará considerar os seguintes requisitos de software, rede e hardware antes de implantar o Gerenciador de Estatísticas.
