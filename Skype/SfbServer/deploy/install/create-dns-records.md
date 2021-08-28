@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Resumo: saiba como configurar o DNS e criar registros DNS para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 94d4f9d0713c2516e466ae25faf05808a56ac103c0571dd151bdc25e2a892f8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307742"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585527"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Criar registros DNS para Skype for Business Server
  
@@ -42,7 +42,7 @@ Os registros DNS são necessários para que Skype for Business Server funcionem 
 Este exemplo está usando um FQDN balanceado de carga DNS chamado pool.contoso.local. Esse pool consiste em três servidores executando Skype for Business Server Edição Enterprise. Um Edição Standard servidor front-end só pode conter um único servidor. Usando o Edição Standard, você usaria apenas o FQDN (nome de domínio totalmente qualificado) do servidor Edição Standard único ao fazer referência à função front-end em vez de criar um pool balanceado de carga DNS de servidores, como este exemplo mostra. Este exemplo simples que usa apenas a função front-end inclui as entradas DNS na tabela a seguir. Para planejar seus requisitos DNS específicos, consulte [REQUISITOS DNS para Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md). 
   
  
-|**Descrição**|**Tipo de registro**|**Nome**|**Resolvido como**|**Tipo de balanceamento de carga**|
+|**Descrição**|**Tipo de registro**|**Name**|**Resolvido como**|**Tipo de balanceamento de carga**|
 |:-----|:-----|:-----|:-----|:-----|
 |FQDN dos Serviços Web Internos  <br/> |A  <br/> |webint.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware com suporte  <br/> |
 |FQDN do pool  <br/> |A  <br/> |pool.contoso.local  <br/> |Endereço IP do servidor SFB01  <br/> |DNS  <br/> |

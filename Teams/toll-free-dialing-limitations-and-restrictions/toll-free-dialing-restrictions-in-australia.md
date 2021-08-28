@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre discagem de números gratuitos na Austrália, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
-ms.openlocfilehash: 8fd69301cac8a2889800488c5147111400f829bae5fb870fc602609c30e7e2f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a2d3b79e95eadc9c85abd0d5812dbf7ba785c6d8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300807"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608658"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Restrições de discagem gratuita na Austrália
 

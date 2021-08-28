@@ -9,7 +9,7 @@ ms.reviewer: ''
 audience: admin
 search.appverid: MET150
 description: Saiba como atualizar facilmente da versão gratuita do Microsoft Teams para a versão completa comprando um plano de assinatura Microsoft 365 ou Office 365 para seus usuários.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c64e4ffc576bea4a68c8eac41d0cb533aad7e9fa55a97dd5f59d9d2fcb54df27
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d8cad14108d7cdfe8ca049124cdffdda2f433088
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337889"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631155"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Atualizar Microsoft Teams versão gratuita para assinatura
 

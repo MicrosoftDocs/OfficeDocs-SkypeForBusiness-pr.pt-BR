@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Leia este tópico para encontrar scripts de exemplo para provisionamento Skype contas do Sistema de Sala.
-ms.openlocfilehash: b485a8d08dc5b121d43545ab89ce9c992b4a5860eb874ba806b57c4ac09cfbe3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3786f4b25fc05ba8fda2583aad6d83bde6bd4f89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294928"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585935"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Scripts de configuração de sala do Sistema de Sala
  

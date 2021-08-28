@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorAssociationPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
 description: Você define se o pool diretor ou diretor terá um Servidor de Monitoramento associado a ele. Marque a caixa de seleção para associar um Servidor de Monitoramento ao pool diretor ou diretor.
-ms.openlocfilehash: 69844db8cf43c2f3a3fe11d92683a0dd83cee2503fee27f9344975bed14b1463
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d2a2583ff3cc190839d890c60ef33d5cb388dcf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319210"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630915"
 ---
 # <a name="add-director-association-for-lync-server-2010"></a>Adicionar Associação de Diretores para o Lync Server 2010
  

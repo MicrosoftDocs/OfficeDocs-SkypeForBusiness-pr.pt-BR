@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Este tópico discute os procedimentos de implantação para usar Skype for Business ao se conectar a uma área de trabalho virtual remota.
-ms.openlocfilehash: 0a1e96db4dd59d57ea89a84624c3a103fb73669179130e82030d00b9943e0fb4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d745321a398828d6ec31a55528008b467ddea47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325508"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608608"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Implantar o plug-in VDI do Lync com Skype for Business Server
  

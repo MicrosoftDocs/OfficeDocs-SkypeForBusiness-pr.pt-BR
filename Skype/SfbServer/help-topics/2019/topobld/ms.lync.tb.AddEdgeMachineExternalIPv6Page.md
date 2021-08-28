@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIPv6Page
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
 ROBOTS: NOINDEX, NOFOLLOW
 description: No endereço IPv6 externo, insira o endereço IP externo que aponta para o serviço de Borda de Acesso, serviço de Borda de WebConferência e serviço de Borda A/V.
-ms.openlocfilehash: 55ee9f9ac2e2dd44b9bf25c99c99f9b937e62b7588dd7d8f337d4e3d8c2d32c8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 986c997210631edc729a625850a5ca5b5134a2a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294368"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631095"
 ---
 # <a name="add-edge-machine-external-ipv6"></a>Adicionar IPv6 Externo de Máquina de Borda
  

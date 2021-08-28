@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: Os requisitos a seguir são realmente importantes para garantir a saúde e o sucesso a longo prazo para todos os Skype for Business online que você está configurando para sua organização. Sabemos que alguns de vocês são muito técnicos- este documento é para você, mas alguns de vocês não são. Se você precisar de ajuda para configurar o Skype for Business Online, leia este documento para se familiarizar com as coisas que você precisa considerar. Ele também lhe dará coisas sobre as quais falar quando você estiver trabalhando com o Microsoft FastTrack Center, seus Microsoft Services e equipes de conta ou com parceiros da Microsoft para descobrir como você pode atender a esses requisitos.
-ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c4af624a59e0606b3ee5f9c115ad61a65dffbd0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323653"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586019"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Como otimizar sua rede para o Skype for Business Online
 

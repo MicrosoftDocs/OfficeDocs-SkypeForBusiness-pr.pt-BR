@@ -9,19 +9,19 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Visão geral do uso Skype for Business de telemetria online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407170"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608638"
 ---
 # <a name="plan-call-data-connector"></a>Conector de Dados do Plano de Chamada
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
