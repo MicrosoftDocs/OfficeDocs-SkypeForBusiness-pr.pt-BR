@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planeje sua implementação do Mobility para Skype for Business Server.
-ms.openlocfilehash: 4af41fd9b62205cc8672646bc8967426aa246ad1af495ccf1713090c32616698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 59523076dc3b59b92af41fc85ef4193a92c87d08
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352669"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632715"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planejar mobilidade para Skype for Business Server
  
@@ -242,7 +242,7 @@ Temos uma tabela para ajudar com alguns dos recursos que estão disponíveis par
 > [!NOTE]
 > Os escopos de todos esses recursos são Global/Site/User. 
   
-|**Recurso**|**Nome do parâmetro**|**Descrição**|**Configuração Padrão**|
+|**Característica**|**Nome do parâmetro**|**Descrição**|**Configuração Padrão**|
 |:-----|:-----|:-----|:-----|
 |Habilitar Mobilidade  <br/> |EnableMobility  <br/> |Controla os usuários em um determinado escopo que Skype for Business cliente móvel instalado. Se a política for definida como False, os usuários não poderão entrar com o cliente.  <br/> |Verdadeiro  <br/> |
 |Outside Voice  <br/> |EnableOutsideVoice  <br/> |Permite que um usuário use Call Via Work, que permite que os usuários enviem e recebam chamadas usando seu número de trabalho em vez de seu número móvel. Se estiver definido como False, os usuários não poderão fazer ou receber chamadas no celular ao usar o número de telefone do trabalho.  <br/> |Verdadeiro  <br/> |

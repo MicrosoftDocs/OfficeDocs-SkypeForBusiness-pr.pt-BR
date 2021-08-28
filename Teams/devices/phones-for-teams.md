@@ -15,14 +15,14 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Este artigo aborda a lista de telefones certificados para Microsoft Teams e os recursos com suporte nos telefones certificados para Microsoft Teams.
-ms.openlocfilehash: ab205a8a23b2cc83461cfcab047458fa4027db7e4257f95891caa0a5a6998ec9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a206c60e466a0bafab4e19701080cd6c25124b86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321453"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632505"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 

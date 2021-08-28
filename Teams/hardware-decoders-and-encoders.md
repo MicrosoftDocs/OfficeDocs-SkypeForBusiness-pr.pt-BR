@@ -10,7 +10,7 @@ ms.topic: reference
 ms.service: msteams
 ms.collection:
 - M365-voice
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Lista as combinações de sistema operacional, modelo e drivers que não estão habilitados para aceleração de hardware devido a problemas de driver.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bf2ceafdfc1742a24927d30ecfb44bdeb400030f84f70a8902d44801f3721d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8d483f914c486c9912f608f16de5ab421d0fa47e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322533"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632115"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recomendações para o driver codificador e decodificador de hardware
 

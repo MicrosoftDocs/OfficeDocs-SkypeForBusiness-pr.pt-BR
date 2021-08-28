@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Este apêndice inclui etapas detalhadas para atualizar o certificado de borda como parte da consolidação de nuvem para Teams e Skype for Business.
-ms.openlocfilehash: 7370fe6949c471a6aad9b45ee246f1565b43bdb465eba2110a03f53afa69fe28
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330625"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610198"
 ---
 # <a name="update-the-edge-certificate"></a>Atualizar o certificado de borda
 
@@ -37,7 +37,7 @@ Atualizar o certificado de borda é a etapa fundamental para garantir que um amb
 
 O nome alternativo do assunto (SAN) do certificado em todos os servidores de borda no ambiente local deve ser atualizado para incluir todos os domínios SIP existentes no locatário online puro (excluindo qualquer onmicrosoft. <span> domínios com), no formato "sip. \<domain> ".  Em nosso exemplo, isso é sip. OriginalCompany. <span> com. Esta etapa é fundamental antes de migrar qualquer usuário para a nuvem.
 
-**Etapas:**
+**Passos:**
 
 1.  Obtenha um novo certificado de Borda Externa para a borda que tenha todas as entradas existentes mais entradas adicionais na SAN para todos os domínios SIP no ambiente de nuvem (excluindo *.onmicrosoft.com domínios) no formato "sip. <DomainName> ".
 2.  Instale o certificado localmente em cada servidor de borda e atribua-o ao serviço Skype Edge em cada um dos serviços de borda.  Para etapas detalhadas, consulte a seção "Certificados de interface de borda externa" em [Deploy Edge Service in Skype for Business Server 2015](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md).

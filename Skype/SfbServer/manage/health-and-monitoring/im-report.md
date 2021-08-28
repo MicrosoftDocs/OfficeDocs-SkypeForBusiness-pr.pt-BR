@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Resumo: saiba mais sobre o Relatório de IM Ponto a Ponto no Skype for Business Server.'
-ms.openlocfilehash: 32f68fcf4d191896fc86aa1bc18007920f0b0f7cb29ba446385ced478dc5879c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26edc017b0877d08a5990e88dcfaf830bb7e4851
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276806"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632865"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Relatório de IM ponto a ponto no Skype for Business Server
  
@@ -43,7 +43,7 @@ Os filtros fornecem uma maneira de obter um resultado mais refinado de conjunto 
   
 **Filtros do Relatório do Sistema de Mensagens Instantâneas Ponto a Ponto**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data e hora de início para o intervalo de tempo. Para exibir os dados por horas, digite a data e a hora de início da seguinte maneira:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para visualizar por semana ou por mês, digite uma data qualquer da semana ou mês (não é necessário digitar o primeiro dia da semana ou mês)  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data e hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -56,7 +56,7 @@ A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema d
   
 **Medição da sessão do Sistema de Mensagens Instantâneas Ponto a Ponto por Pool**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Pool** <br/> |Não  <br/> |Nome do pool de Registradores ou Servidor de Borda.  <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e hora em que a sessões ocorreram.  <br/> |
@@ -68,9 +68,9 @@ A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema d
   
 **Medição da sessão do Sistema de Mensagens Instantâneas Ponto a Ponto por tipo de autenticação**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Tipo de Autenticação**: <br/> |Não  <br/> | Tipo de autenticação usada pelos participantes da sessão. Normalmente, os valores são um dos seguintes: <br/>  Enterprise <br/>  Federado <br/>  PIC <br/> |
+|**Tipo de Autenticação**: <br/> |Não  <br/> | Tipo de autenticação usada pelos participantes da sessão. Normalmente, os valores são um dos seguintes: <br/>  Empresa <br/>  Federado <br/>  PIC <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e hora em que a sessões ocorreram.  <br/> |
 |**Total** <br/> |Não  <br/> |Número total de sessões ou de contagem total de mensagens.  <br/> |
    

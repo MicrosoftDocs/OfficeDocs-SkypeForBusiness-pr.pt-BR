@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: Leia este tópico para saber como implantar o Skype Room System em um ambiente local de várias florestas.
-ms.openlocfilehash: dc1d7fa3a3ca7cbcf62f7c038fb8fd6b4fcedc84319452ec8eaf02781f311bf3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 944042777174539b9b9f0a1d49754d9234a1d255
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310060"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609938"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Implantações locais de várias florestas do Sistema de Sala
  
