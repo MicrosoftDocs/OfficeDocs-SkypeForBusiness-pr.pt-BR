@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planeje implementar a conectividade híbrida entre Skype for Business Server e Teams configurando Skype for Business modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 090aab3d376a228915779c8bf55864484cee715d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c1faef42d6c5842649bfb8b8bf79531ac2e367b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234046"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600876"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planejar conectividade híbrida entre Skype for Business Server e Teams
 

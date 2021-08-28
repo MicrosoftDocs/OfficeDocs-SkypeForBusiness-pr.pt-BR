@@ -9,15 +9,15 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumo: esses recursos são novos no Skype for Business Server 2019.'
-ms.openlocfilehash: cbdfcd92fbb6fbaefb75024dcb1e393ad5049e636e463bc4ad97588279702151
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b58c61702d447a7b68e9fa7e09cc6e539e682582
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295958"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600896"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>O que há no Skype for Business Server 2019
 
@@ -25,7 +25,7 @@ ms.locfileid: "54295958"
 
 Novos recursos no Skype for Business Server 2019 incluem o seguinte:
   
-- Caixa Postal em Nuvem  
+- Caixa Postal na Nuvem  
 - Conector de Chamada de Dados 
 - Migração lado a lado
 

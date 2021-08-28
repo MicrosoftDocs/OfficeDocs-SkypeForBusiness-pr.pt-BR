@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Os tópicos desta seção ajudam você a entender como planejar e implantar Skype for Business Server para que você possa planejar adequadamente o número de usuários em sua organização e planejar a carga do servidor que suas atividades geram.
-ms.openlocfilehash: aaa34d4ec935735215da36d888ab3c5155f158b89fd366546eac14b3f6259482
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 090d209d1b60d866ddabe976ffb8b04394712525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600886"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planejamento de Capacidade para Skype for Business Server 2019
 
