@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. As filas do Grupo de Resposta resitem chamadas para um grupo de resposta até que um agente responda à chamada.
-ms.openlocfilehash: a04d80d3ecea5d10c85c11cf4705b481daa1b12b3a9b152fd87430f8cb23c355
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bec9a6e004610067e2f1facf9bfb2ecb124b384e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309880"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579785"
 ---
 # <a name="response-groups-queue"></a>Fila de Grupos de Resposta
 

@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
 description: Saiba como usar o Teams para monitorar a saúde da rede, manter os usuários envolvidos e se preparar para novas funcionalidades.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Teams-upgrade-guidance
 - seo-marvel-mar2020
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c7665cb48b77733ff3a49a8cc1abb66f3609a6459092f43448e7cb0df202cb8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 415535ea4ec2902d089d0229cd6c4b578837f03f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329216"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628383"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Como usar o Microsoft Teams efetivamente
 

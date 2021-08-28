@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como se conectar Skype for Business Server com Skype consumidor. Também conhecido como Skype conectividade.'
-ms.openlocfilehash: 752bae0797da1129d677dd962ad9dc6e4b9a6e99123babcf30ab8bd11bdbf668
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605540"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar Skype conectividade no Skype for Business Server
 
@@ -54,8 +54,8 @@ A tabela a seguir descreve o suporte para Skype Pesquisa de Diretório.
 
 ||**Skype for Business Server Front-End**|**Front-End do Lync Server 2013 (ou mais antigo)**|**Comments**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server Borda  <br/> |Com suporte  <br/> |Não Suportado  <br/> |Skype for Business Server e Borda são pré-requisitos para Skype Pesquisa de Diretório  <br/> |
-|Skype for Business Server Borda + Lync Server 2013 Borda implantada lado a lado  <br/> |Com suporte  <br/> |Não Suportado  <br/> |Skype O tráfego de Pesquisa de Diretório flui Skype for Business Server de Borda. O tráfego de federação passa pela borda configurada pelo administrador. Por exemplo, o administrador poderia optar por continuar a enviar tráfego de federação por meio de servidores de Borda do Lync Server 2013 que não suportam Skype Pesquisa de Diretório.  <br/> |
+|Skype for Business Server Borda  <br/> |Compatível  <br/> |Não Suportado  <br/> |Skype for Business Server e Borda são pré-requisitos para Skype Pesquisa de Diretório  <br/> |
+|Skype for Business Server Borda + Lync Server 2013 Borda implantada lado a lado  <br/> |Compatível  <br/> |Não Suportado  <br/> |Skype O tráfego de Pesquisa de Diretório flui Skype for Business Server de Borda. O tráfego de federação passa pela borda configurada pelo administrador. Por exemplo, o administrador poderia optar por continuar a enviar tráfego de federação por meio de servidores de Borda do Lync Server 2013 que não suportam Skype Pesquisa de Diretório.  <br/> |
 |Borda do Lync Server 2013 (ou mais antigo)  <br/> |Não Suportado  <br/> |Não Suportado  <br/> ||
    
 > [!NOTE]
@@ -109,7 +109,7 @@ A comunicação entre qualquer implantação Skype for Business local e Skype us
   
 As implantações locais são necessárias para publicar um registro SRV DNS de Federação para cada domínio que eles hospedam. As diretrizes estão disponíveis no [planejamento dns.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) Cada domínio deve ser resolvido pela consulta DNS SRV para um FQDN de servidor de borda que satisfaça uma match de sufixo de nível superior do domínio. Por exemplo, considere o domínio "contoso.com":
 
-|**FQDNs válidos**|**Comentário**|
+|**FQDNs válidos**|**Comment**|
 |:-----|:-----|
 |sip.contoso.com   ||
 |sipfed.contoso.com   |Em cada caso, o FQDN exato deve estar presente no SN ou na SAN do certificado externo instalado no servidor de borda.   |
@@ -221,7 +221,7 @@ A configuração Skype conectividade também pode ser feita usando apenas o Powe
 A tabela a seguir descreve o status de interop entre a versão mais recente do consumidor Skype e a versão mais recente do Skype for Business.
   
 
-|**Skype Clientes**|**Adicionar contatos, mensagens de IM, presença, áudio e chamada de vídeo**|**Comentário**|
+|**Skype Clientes**|**Adicionar contatos, mensagens de IM, presença, áudio e chamada de vídeo**|**Comment**|
 |:-----|:-----|:-----|
 |Skype Windows Desktop  <br/> |7,6 ou superior, Windows XP e superior  <br/> |**NOVO**: o suporte adicionado Windows Skype cliente em execução no Windows XP e Windows Vista (requer a versão **7.26 ou** superior do cliente mais recente) <br/> |
 |Skype Mobile - Android Telefone e Tablet  <br/> |6.19 ou superior, executando o sistema operacional Android versão 4.0.3 ou superior  <br/> |Dispositivos de especificação baixa podem não suportar a chamada de vídeo  <br/> |

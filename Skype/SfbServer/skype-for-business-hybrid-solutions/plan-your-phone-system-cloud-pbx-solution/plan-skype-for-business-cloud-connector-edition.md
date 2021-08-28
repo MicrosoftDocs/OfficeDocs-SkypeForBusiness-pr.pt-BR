@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre Skype for Business Cloud Connector Edition, um conjunto de VMs (Máquinas Virtuais) empacotados que implementam a conectividade PSTN local com Sistema de Telefonia (Cloud PBX).
-ms.openlocfilehash: 147fabd9866386b67c17022a37369149273de3caeecf40e471abbed40e0e33cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65e1d78a894b967391f44d6859c7fe50f42a7145
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288849"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628453"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planejar Skype for Business Cloud Connector Edition
 
@@ -350,7 +350,7 @@ Esta tabela mostra as portas e os intervalos de porta para habilenciar a comunic
 |SBC/PSTN Gateway  <br/> |Componente de Mediação do Cloud Connector  <br/> |Qualquer  <br/> |TCP 5068/ TLS 5067  <br/> |
 |Componente de Mediação do Cloud Connector  <br/> |SBC/PSTN Gateway  <br/> |UDP 49 152 - 57 500  <br/> |Any\*\*\*  <br/> |
 |SBC/PSTN Gateway  <br/> |Componente de Mediação do Cloud Connector  <br/> |Any\*\*\*  <br/> |UDP 49 152 - 57 500  <br/> |
-|Componente de Mediação do Cloud Connector  <br/> |Clientes internos  <br/> |TCP 49 152 - 57 500\*  <br/> |TCP 50.000-50.019  <br/> (Opcional)  <br/> |
+|Componente de Mediação do Cloud Connector  <br/> |Clientes internos  <br/> |TCP 49 152 - 57 500\*  <br/> |TCP 50.000-50.019  <br/> Opcional.  <br/> |
 |Componente de Mediação do Cloud Connector  <br/> |Clientes internos  <br/> |UDP 49 152 - 57 500\*  <br/> |UDP 50.000-50.019  <br/> |
 |Clientes internos  <br/> |Componente de Mediação do Cloud Connector  <br/> |TCP 50.000-50.019  <br/> |TCP 49 152 - 57 500\*  <br/> |
 |Clientes internos  <br/> |Componente de Mediação do Cloud Connector  <br/> |UDP 50.000-50.019  <br/> |UDP 49 152 -57 500\*  <br/> |
@@ -422,7 +422,7 @@ Nesse caso, todo o tráfego de mídia para o ponto final na Internet pode fluir 
 
 O computador host deve ser capaz de alcançar recursos externos para instalar, atualizar e gerenciar com êxito o Cloud Connector. A tabela a seguir mostra os destinos e portas necessários entre o computador host e os recursos externos.
 
-|Direção  <br/> |IP de origem  <br/> |IP de destino  <br/> |Porta de origem  <br/> |Porta de destino  <br/> |Protocolo  <br/> |Objetivo  <br/> |
+|Direção  <br/> |IP de origem  <br/> |IP de destino  <br/> |Porta de origem  <br/> |Porta de destino  <br/> |Protocolo  <br/> |Finalidade  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Saída  <br/> |Cloud Connector host IPs  <br/> |qualquer  <br/> |qualquer  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Saída  <br/> |Cloud Connector host IPs  <br/> |qualquer  <br/> |qualquer  <br/> |80, 443  <br/> |TCP  <br/> |Lista de Revogação de Certificados (CRL)  <br/> |

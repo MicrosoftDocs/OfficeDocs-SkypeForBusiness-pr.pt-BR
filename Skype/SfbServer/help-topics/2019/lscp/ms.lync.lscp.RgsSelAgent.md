@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os agentes são usuários designados para atender às chamadas do Grupo de Resposta. Os grupos de resposta precisam ter um grupo de agentes atribuídos que identifica os agentes que podem receber chamadas para o grupo de respostas. Uma forma de criar um grupo de agentes é definir um grupo personalizado selecionando usuários elegíveis. Os usuários qualificados estão habilitados para Skype for Business Server e Enterprise Voice.
-ms.openlocfilehash: f98f82f6820c08bf306579344a8323e63529be9e2bed74cd6ddd47e5bb1c4f53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0751bfc3e5b4c836a2be52f45844a0ce38cd5019
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279259"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579775"
 ---
 # <a name="select-agents"></a>Selecionar Agentes
 

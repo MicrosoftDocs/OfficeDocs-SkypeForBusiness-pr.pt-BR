@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar o acesso a aplicativos personalizados construídos na Plataforma Do Microsoft Power no Microsoft Teams de administração.
-ms.openlocfilehash: df9ae85d3b59eaeb44f0a15fe9113615a6c0ecfd448ed0f4f4699d48ffe6b43e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bd2155342fa1618f8201a86db8f9fc07c2af0e90
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332823"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628323"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos da Plataforma Microsoft Power no Microsoft Teams de administração
 
