@@ -9,7 +9,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: As seções a seguir descrbiem como configurar um ambiente com várias florestas em um modelo de floresta de recurso/usuário para fornecer funcionalidade em um cenário híbrido.
-ms.openlocfilehash: d622b225c03002e96c7f613a25d31fc047a52b5d8eb751364c62e9ad608d3edd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277446"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625773"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implantar uma topologia de floresta de recursos
 
@@ -70,7 +70,7 @@ Para obter a sincronização de identidade adequada, os seguintes atributos prec
 |**Florestas de usuários**|**Florestas de recursos**|
 |:-----|:-----|
 |atributo de link de conta escolhido  <br/> |atributo de link de conta escolhido  <br/> |
-|Email  <br/> |Email  <br/> |
+|email  <br/> |email  <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    

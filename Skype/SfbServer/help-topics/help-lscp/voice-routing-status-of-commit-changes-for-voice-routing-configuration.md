@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoicePublishSum
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: Se as alterações não forem concluídas, examine as mensagens nessa caixa de diálogo, altere sua configuração de roteamento de voz e tente novamente.
-ms.openlocfilehash: 041a7a2ff9b9e13f93c392fbeaa18b055dd7db247c3647d4de269a5454f26b10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4fa0de36774716805ad818176d0dce848ee8398d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315887"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626703"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Roteamento de voz: Status das Alterações de Compromisso para Configuração do Roteamento de Voz
  

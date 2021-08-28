@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Resumo: Saiba mais sobre o CDR (registro de detalhes de chamada) no Skype for Business Server.'
-ms.openlocfilehash: 1a1e78fbca4ec0d011cb8cbbcade04888b0099040d15a4289d8cc846cfef825b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9b30eee578fd83dd0d94fbd78a490bf1b0e65de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346427"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626603"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Criar ou modificar uma coleção de configurações de CDR no Skype for Business Server
  

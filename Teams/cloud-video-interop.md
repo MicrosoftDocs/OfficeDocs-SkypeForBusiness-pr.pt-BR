@@ -11,7 +11,7 @@ ms.reviewer: naforer
 f1.keywords:
 - NOCSH
 description: Use o Cloud Video Interop como uma solução intermediária para permitir que dispositivos de sala de reunião de terceiros participem Microsoft Teams reuniões.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12ddd59e1bb126e69557ba69fc34113c69f31868600414f9c686665f9b546bd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39452a659f1a95d66aeac4a18a4d7801764437ae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336431"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618637"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 

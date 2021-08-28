@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Projete e crie fluxos de trabalho do Grupo de Resposta, Skype for Business Server Enterprise Voice. Tanto os fluxos de trabalho de grupo de busca quanto os fluxos de trabalho interativos são abordados.
-ms.openlocfilehash: ac77753e82acc2a7733fb5d273a55b4c9fd0d0fd5466262fec6fdc9a2c223030
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 63069268621ff7f5e2b3783a661e163ff6fe6416
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303115"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603111"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Criando e criando fluxos de trabalho de grupo de resposta Skype for Business
 

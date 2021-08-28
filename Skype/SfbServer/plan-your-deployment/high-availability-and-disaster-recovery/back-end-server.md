@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Saiba mais sobre as opções de alta disponibilidade do Servidor Back-End com suporte no Skype for Business Server, incluindo Grupos de Disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn, espelhamento de banco de dados e SQL clustering de failover.
-ms.openlocfilehash: 5cc325b0726afab72581f679873fe454d8302dec5a478685c24e84b430a25017
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ce84429d77b8da426913d873d99d2f70badc4d12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318734"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595479"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Alta disponibilidade do Servidor Back-End no Skype for Business Server
  
