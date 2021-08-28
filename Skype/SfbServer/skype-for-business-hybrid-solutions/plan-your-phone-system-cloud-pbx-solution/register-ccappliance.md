@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: O Register-CcAppliance registra informações do dispositivo em um site PSTN em uma configuração de locatário online. Um dispositivo deve ser registrado antes de poder ser implantado e gerenciado pelo serviço Skype for Business Cloud Connector Edition de gerenciamento.
-ms.openlocfilehash: 5b63ce38b358d41fea15551df1e8134d1b56db00851317cbc5c81ac8f3aea058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 159e74f91ca26cd0f8bdd214c9cd6ac45b5c1196
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288799"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589955"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -101,7 +101,7 @@ Nenhum. O Register-CcAppliance cmdlet não aceita entrada canalada.
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

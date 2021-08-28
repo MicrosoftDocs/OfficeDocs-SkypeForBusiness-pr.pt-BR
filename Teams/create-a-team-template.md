@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Saiba como criar um modelo de equipe personalizado em Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abbfd257297475ee059ca80ca854fc1372cf51b26cc6afdf96a00b1abce9fde4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346317"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589765"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Criar um modelo de equipe personalizado Microsoft Teams
 

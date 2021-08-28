@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Cada registro representa métricas de sinal de áudio para um ponto de extremidade. Normalmente, cada chamada tem dois registros, um é para chamador e um é para chamador.
-ms.openlocfilehash: 36ece4a9481400c3fae9e248d00cc59f3ec161b21aa03d8e824fc4d21931d04f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f021b438fe31bf180ee06ce83dad86e01c04070
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309200"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592395"
 ---
 # <a name="audiosignal-table"></a>Tabela AudioSignal
  

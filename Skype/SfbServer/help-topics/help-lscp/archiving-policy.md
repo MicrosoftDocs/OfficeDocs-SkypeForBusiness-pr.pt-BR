@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Você usa políticas de arquivamento para habilitar e desabilitar o arquivamento para usuários que estão em Skype for Business Server. Em cada política de Arquivamento, você pode habilitar ou desabilitar o arquivamento para ambos os seguintes:'
-ms.openlocfilehash: e4c51ed2103bf7abee6bc91fd4a5bd44cb68a2556ec409757d064ecdd7f745d0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd0bd831aeb408862ee16b9f09e2c5247f205e82
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301607"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591575"
 ---
 # <a name="archiving-policy"></a>Política de Arquivamento
  

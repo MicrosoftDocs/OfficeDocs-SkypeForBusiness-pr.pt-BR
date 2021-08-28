@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 'Resumo: saiba mais sobre o Relatório de Detalhes de Sessão Ponto a Ponto no Skype for Business Server.'
-ms.openlocfilehash: 14df5ae82706a719086c31a3c8582009ed48d85b825057ab49ce6e92fa258116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 014851a7c070a11366ec54682b9f94d999ac73de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286800"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591165"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Relatório de detalhes de sessão ponto a ponto no Skype for Business Server
  
@@ -61,7 +61,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
   
 **Métricas de informações da sessão**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**FQDN do pool** <br/> |Nome de domínio totalmente qualificado (FQDN) do pool de Registradores ou Servidor de Borda envolvido na sessão.  <br/> |
 |**Hora do convite** <br/> |Data e hora em que o convite de sessão foi originalmente enviado.  <br/> |
@@ -88,7 +88,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
   
 **Métricas para modalidades**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Modalidades** <br/> |Não  <br/> |Modalidades usadas na sessão. Por exemplo, mensagens instantâneas ou transferência de arquivo.  <br/> |
 |**Mensagens do usuário de origem** <br/> |Não  <br/> |Número de mensagens enviadas pelo usuário que iniciou a sessão.  <br/> |
@@ -100,7 +100,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
   
 **Métricas para relatórios de diagnóstico**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Ver os detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório de Diagnóstico da sessão.  <br/> |
 |**Hora do relatório** <br/> |Não  <br/> |Data e hora em que o relatório foi gravado.  <br/> |

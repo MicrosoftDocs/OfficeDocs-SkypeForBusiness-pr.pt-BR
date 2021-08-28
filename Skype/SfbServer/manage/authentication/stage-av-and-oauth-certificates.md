@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumo: Estágio AV e certificados OAuth para Skype for Business Server.'
-ms.openlocfilehash: f030dfd4a8958fe4efdc20c350b0e3b377da6cf2762604a57eecd3adca3e3430
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 335b1a3db8044329fd8055cf2a97f6e4e2bffc02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319164"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591215"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Certificados AV e OAuth de estágio em Skype for Business Server usando -Roll no Set-CsCertificate
  
@@ -88,7 +88,7 @@ Para entender ainda mais o processo que Set-CsCertificate, -Roll e -EffectiveDat
 |:-----|:-----|
 |1  <br/> |Início: 22/07/2015 12:00:00  <br/> O certificado audiovideoAuthentication atual deve expirar às 14:00:00 em 22/07/2015. Isso é determinado pelo carimbo de data/hora expira no certificado. Planeje a substituição e a substituição do certificado para levar em conta uma sobreposição de 8 horas (tempo de vida do token padrão) antes que o certificado existente atinja o tempo de expiração. O tempo de avanço das 2:00:00 é usado neste exemplo para permitir que o administrador coloque e provisione os novos certificados com antecedência do horário efetivo das 6:00:00.  <br/> |
 |2  <br/> |22/07/2015 2:00:00 - 22/07/2015 05:59:59  <br/> Definir Certificados em Servidores de Borda com tempo efetivo de 6:00:00 (o tempo de vantagem de 4 horas é para este exemplo, mas pode ser maior) usando o Set-CsCertificate \<certificate usage type\> -Type -Thumbprint \<thumbprint of new certificate\> -Roll -EffectiveDate \<datetime string of the effective time for new certificate\>  <br/> |
-|3  <br/> |22/07/2015 06:00 - 22/07/2015 14:00  <br/> Para validar tokens, o novo certificado será experimentado primeiro e, se o novo certificado não validar o token, o certificado antigo será tentado. Esse processo é usado para todos os tokens durante o período de sobreposição de 8 horas (tempo de vida do token padrão).  <br/> |
+|3   <br/> |22/07/2015 06:00 - 22/07/2015 14:00  <br/> Para validar tokens, o novo certificado será experimentado primeiro e, se o novo certificado não validar o token, o certificado antigo será tentado. Esse processo é usado para todos os tokens durante o período de sobreposição de 8 horas (tempo de vida do token padrão).  <br/> |
 |4   <br/> |Fim: 22/07/2015 14:00:01  <br/> O certificado antigo expirou e o novo certificado foi assumido. O certificado antigo pode ser removido com segurança com Remove-CsCertificate -Type \<certificate usage type\> -Previous  <br/> |
    
 Quando a hora efetiva é atingida (22/07/2015 6:00:00), todos os novos tokens são emitidos pelo novo certificado. Ao validar tokens, os tokens serão validados primeiro em relação ao novo certificado. Se a validação falhar, o certificado antigo será tentado. O processo de tentar o novo e voltar ao certificado antigo continuará até o tempo de expiração do certificado antigo. Depois que o certificado antigo expirar (22/07/2015 14:00), os tokens serão validados apenas pelo novo certificado. O certificado antigo pode ser removido com segurança usando o cmdlet Remove-CsCertificate com o parâmetro -Previous.

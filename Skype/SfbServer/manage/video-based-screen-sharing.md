@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Server de planejamento e configuração para vbSS (compartilhamento de tela baseado em vídeo)
-ms.openlocfilehash: 0dacf7372a0c72d8cdaf01c1e3b12564fb5580a4526738f401d2227983c25c01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349273"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591125"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Compartilhamento de tela baseado em vídeo do Skype for Business Server 
  
@@ -36,7 +36,7 @@ Parte do objetivo de melhorar o compartilhamento de tela é que as transições 
 
 Alternar para o VbSS tem como objetivo fazer três melhorias principais:
   
-1. Fazer compartilhamento de tela (até 5%) mais confiável em comparação com o RDP sozinho.
+1. Tornar o compartilhamento de tela (até 5%) mais confiável em comparação com o RDP sozinho.
 
 2. Tornar a configuração da sessão e a experiência de vídeo mais rápidas em comparação com o RDP (configuração na metade do tempo, com uma melhoria de 6:1 em quadros por segundo).
 
@@ -105,7 +105,7 @@ Os números nesta tabela são influenciados por redes individuais e pelo conteú
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200kbps  <br/> |12 mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
-|Vídeo  <br/> |5 mbps  <br/> |7mbps  <br/> |1,3mbps  <br/> |2,2mbps  <br/> |
+|Vídeos  <br/> |5 mbps  <br/> |7mbps  <br/> |1,3mbps  <br/> |2,2mbps  <br/> |
    
 ### <a name="network-bandwidth-requirements-for-media-traffic"></a>Requisitos de largura de banda de rede para tráfego de mídia
 

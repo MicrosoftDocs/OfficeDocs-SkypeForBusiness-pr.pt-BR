@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.TrunksScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Clique com o botão direito do mouse em Troncos no Construtor de Topologias para executar o seguinte:'
-ms.openlocfilehash: d5cf58ffad359c4504fba8f8a039c8a05d9bc4aa718a091fb0908ab40ba2e5db
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c7d8802ae50b3bdea1a6b984e01e6b2db7d957d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592585"
 ---
 # <a name="trunks-scope-node"></a>Nó de Escopo de Troncos
  

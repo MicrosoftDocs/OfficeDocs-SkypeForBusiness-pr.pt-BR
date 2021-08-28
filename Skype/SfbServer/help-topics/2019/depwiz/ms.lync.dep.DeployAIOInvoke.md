@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 ROBOTS: NOINDEX, NOFOLLOW
 description: Na página Executando comandos, as tarefas de instalação do SQL Server Express e configuração para atuar como o armazenamento de Gerenciamento Central podem ser exibidas no painel de tarefas. Por padrão, uma instância de um banco de dados SQL Server baseado em SQL Server chamado RTC é criada. Regras de firewall também são criadas para permitir acesso de entrada e saída aos servidores e clientes para comunicação com o banco de dados e a instância. Após a conclusão da tarefa, será possível selecionar o arquivo de log na lista suspensa. O arquivo de log é chamado de  Máquina local de inicialização . Após selecionar o arquivo de log, clique em  Exibir Log . Verifique se há erros e avisos no arquivo de log. Quando estiver pronto para prosseguir, clique em  Concluir . Agora, você deve definir sua topologia com o Construtor de Topologias se ainda não tiver feito isso.
-ms.openlocfilehash: b218fe92f46fb930dda7ffdc3c52dc986447ad7ef14f1f6ff93c70837e21aa3d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9e51339e49d798b882d4395c27b7273a3ee9128d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292139"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590535"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Preparar Servidor Standard Edition Único (Invocar)
  

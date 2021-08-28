@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: O painel Relatórios mostra a visão geral da atividade nos produtos Microsoft 365 ou Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto.
-ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c369f93c126629673996aec44d1ce86f561c4947
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592915"
 ---
 # <a name="session-details-report"></a>Relatório de detalhes da sessão
 

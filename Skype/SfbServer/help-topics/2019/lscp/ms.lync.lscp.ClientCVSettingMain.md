@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Além de especificar a versão dos clientes que você deseja suportar em seu ambiente, também é possível especificar uma ação padrão para clientes ainda não têm uma política de versão definida. Isso permite que você restrinja quais versões de cliente são usadas em seu ambiente, o que pode ajudá-lo a controlar os custos associados ao suporte de múltiplas versões de cliente.
-ms.openlocfilehash: 3daf09f47ce289a91505404b7600dd5c4b9c11ffdf131f33089c22470f648b10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e60e9a0225da3dbb2379f31eba3043a00c4e9144
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592775"
 ---
 # <a name="client-version-configuration"></a>Configuração da Versão de Cliente
 

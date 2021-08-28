@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 'Resumo: saiba mais sobre o Relatório de Resumo do Tempo de Junção de Conferência Skype for Business Server.'
-ms.openlocfilehash: 4b8f82c543e8c4f43c6d902ed828ba83436bfc6228f361b9c2ef2c1f55bfb6fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1a7a5ec6b4ed5d5b3c2f9281766cb83079dc2f05
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276786"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591175"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>Relatório de Tempo de Junção de Conferência Skype for Business Server
  
@@ -35,7 +35,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado 
   
 **Filtros de Relatório de Tempo de Ingresso em Conferência**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -49,7 +49,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Tempo de In
   
 **Métricas do Relatório de Tempo de Ingresso em Conferência**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Date** <br/> O título para essa métrica irá variar dependendo do Intervalo selecionado.  <br/> |Não  <br/> |Data e horário em que aconteceu a conferência.  <br/> |
 |**Total de sessões** <br/> |Não  <br/> |Número total de sessões, incluindo sessões bem-sucedidas, com falha (tanto falhas esperadas quanto inesperadas) e sessões não categorizadas.  <br/> |

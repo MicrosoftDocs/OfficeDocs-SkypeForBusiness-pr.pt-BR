@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 description: A tabela UserAgent é uma tabela de suporte que armazena uma lista dos vários agentes de usuário que participaram de sessões gravadas no banco de dados. Cada registro na tabela representa um agente de usuário
-ms.openlocfilehash: a2480131b224dfe0469b39e34296b7848461bb33bd71c39c313016f8203f6266
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c23582550e659f4a48661c80770c385e168ed3c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301247"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590055"
 ---
 # <a name="useragent-table"></a>Tabela UserAgent
  
