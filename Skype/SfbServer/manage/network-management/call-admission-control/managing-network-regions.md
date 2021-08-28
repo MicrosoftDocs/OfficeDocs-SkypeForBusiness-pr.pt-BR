@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Região de rede* são os hubs de rede ou backbones usados na configuração do controle de admissão de chamada, E9-1-1 e desvio de mídia.
-ms.openlocfilehash: 9e38528dd34f25fa2b70b51485657168868d6628
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 0fc7b1cdc41f73535aef83e6ec46f9bd4622da48
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232796"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630575"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gerenciando regiões de rede no Skype for Business Server
 
@@ -141,7 +141,7 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
     > Uma região de rede não pode ser removida se estiver associada a um site de rede. Se você tentar remover uma região associada a um site, receberá uma mensagem de erro. Para ver se um região está associada a algum site, selecione a região e clique em **Mostrar detalhes** no menu **Editar**.
 
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 [Gerenciando rotas de região de rede](managing-network-region-routes.md)
 

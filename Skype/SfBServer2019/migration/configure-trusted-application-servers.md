@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Em um ambiente misto, se você criar um novo servidor de aplicativos confiável, deverá definir o pool de próximo salto como um pool de Skype for Business Server 2019. Em um ambiente misto, o pool herdado e o pool Skype for Business Server 2019 aparecem na lista lista listada. Selecionar o pool herdado não é suportado.
-ms.openlocfilehash: 6db3aaadfe028e6d1975521ecacb52ad26754b7bcf8766af345d4786bc825f31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9965af757a570cfd787bb482a932d2817fd07ab0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584465"
 ---
 # <a name="configure-trusted-application-servers"></a>Configurar os servidores de aplicativos confiáveis
 
@@ -33,7 +33,7 @@ Em um ambiente misto, se você criar um novo servidor de aplicativos confiável,
     
 3. Insira o **FQDN do** pool de aplicativos confiáveis e selecione se ele será de servidor único ou de vários servidores. 
     
-4. Clique em **Próximo**.
+4. Clique em **Avançar**.
     
 5. Na página **Selecionar o próximo salto,** na lista, selecione o pool de front-end Skype for Business Server 2019. 
     

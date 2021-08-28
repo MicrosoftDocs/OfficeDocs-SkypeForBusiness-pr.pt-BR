@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Saiba mais sobre regiões de rede, sites de rede e sub-redes IP. Todos eles devem ser configurados para implantar Plan for media bypass em Skype for Business, Plan for call admission control in Skype for Business Server) ou Plan for emergency services in Skype for Business Server in Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: e502f1ec12628ef0e885d651ba38ed48a712eea0edb38976d7360ad7ac4333d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607998"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configurações de rede para os recursos de Enterprise Voice avançados no Skype for Business Server
 

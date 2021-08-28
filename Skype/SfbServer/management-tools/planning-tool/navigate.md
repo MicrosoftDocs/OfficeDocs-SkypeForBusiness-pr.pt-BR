@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Navegue pela Ferramenta de Planejamento Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos de página e painéis específicos de contexto. Os painéis específicos de contexto fornecem informações de design para planejamento e capacidade relevantes para as opções de seleção em uma página específica.
-ms.openlocfilehash: ea73545643b8023ea0e6866b78669757bd663d60327ec614e6d1a256542fd595
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33cf2875b12726cd054beb75911981a1ff2334cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320134"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583925"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegue pela Ferramenta de Planejamento no Skype for Business Server 2015
 

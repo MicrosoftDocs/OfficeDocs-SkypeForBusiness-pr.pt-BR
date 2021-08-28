@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Preparar e implementar a desabilitação do TLS 1.0 e 1.1 em seus ambientes.
-ms.openlocfilehash: 9bb737466595420770c4374d7d1b76bcc0319e38d188f550fb284b686df7e19f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f10aae3e85e7bcc00aceaf7acf9f22d57e921aa2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337769"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608078"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Desabilitar o TLS 1.0/1.1 no Skype for Business Server 2015
 
@@ -91,7 +91,7 @@ Infelizmente, Windows Fabric 1.0 **não dá suporte a TLS 1.2.  No entanto, atua
 
 Se sua organização for necessária para desabilitar o TLS 1.0 e 1.1, e você usar o Lync Server 2013 no momento, recomendamos que você inicie seu processo de planejamento, com a possibilidade de ter que atualizar in-loco ou migrar lado a lado (novos pools, mover usuários) para Skype for Business Server 2015 ou superior.  Ou talvez você queira acelerar a migração para Skype for Business Online.
 
-#### <a name="call-quality-dashboard"></a>Painel de Qualidade de Chamadas
+#### <a name="call-quality-dashboard"></a>Painel de Qualidade da Chamada
 
 No momento, o Painel de Qualidade de Chamada Local tem uma dependência do TLS 1.0 durante a nova instalação (primeira vez que você instala seus ambientes locais).  No momento, estamos investigando esse problema e planejamos liberar uma correção em um futuro próximo.  Se você estiver planejando instalar o CQD e também desabilitar o TLS 1.0, recomendamos que você conclua a instalação do CQD primeiro e prossiga com a desabilitação do TLS 1.0.
 

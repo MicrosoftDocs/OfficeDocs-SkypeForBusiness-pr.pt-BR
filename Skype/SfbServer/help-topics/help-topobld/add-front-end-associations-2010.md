@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 'Você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores associando as funções de servidor ao pool de Front-End neste momento. Também pode associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:'
-ms.openlocfilehash: c431ed232d3be1532ac4d1598dbe352ef714c7ab0fce43ea1536b731d34ef548
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aaf43da757283779899a9efab5bcff0751ee48cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290779"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608238"
 ---
 # <a name="add-front-end-associations-2010"></a>Adicionar Associações de Front-end 2010
 

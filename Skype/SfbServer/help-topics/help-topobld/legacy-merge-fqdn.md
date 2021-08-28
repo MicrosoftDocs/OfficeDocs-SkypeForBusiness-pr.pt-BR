@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: O FQDN interno do Pool de Borda de Acesso é usado para uma variedade de cenários em que os usuários internos se comunicam com usuários externos para federação, acesso de usuário remoto e conectividade de IM pública. Se um Servidor de Borda com balanceamento de carga tiver sido implantado no seu ambiente herdado, insira o FQDN (nome de domínio totalmente qualificado) do balanceador de carga interno.
-ms.openlocfilehash: b9c2e2977f2cfb579bc4c96d76d49883198a80a6901ba3e0fb0200b6c4704f6d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5131f6c5cb563e66a0a83f0c4c608d8e7e8895a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608208"
 ---
 # <a name="legacy-merge-fqdn"></a>FQDN de Mesclagem de Legado
  
