@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Decisões necessárias para o planejamento de um banco de dados de informações de localização ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: cd62ad46fc592f8ea5357d44b65bf94809c858e74472a6f2830047a5f37f5aba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: add2bc3ffea29d6fb61db84b899d3e39ef50fd02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286490"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602426"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gerenciar locais para provedores de serviços de tronco SIP em Skype for Business Server
 

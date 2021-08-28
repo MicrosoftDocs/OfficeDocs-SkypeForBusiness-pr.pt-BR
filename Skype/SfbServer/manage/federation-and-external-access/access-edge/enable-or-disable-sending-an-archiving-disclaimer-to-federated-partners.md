@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Ativar ou desativar o envio de um aviso de isenção de responsabilidade de arquivamento para parceiros federados Skype for Business Server.
-ms.openlocfilehash: a44643d5a46d796e253a0fe444a45bdf610bd572
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c3f0522073443d5fdd5b4f098052041772d4cf63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235076"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602496"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de arquivamento para parceiros federados Skype for Business Server
 

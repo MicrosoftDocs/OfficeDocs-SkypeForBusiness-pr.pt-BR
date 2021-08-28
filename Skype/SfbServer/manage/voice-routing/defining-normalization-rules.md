@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server regras de normalização usam .NET Framework expressões regulares para traduzir números de telefone discados para o formato E.164; em outras palavras, as regras de normalização levam o número de telefone discado por um usuário e convertem esse número no formato usado internamente por Skype for Business Server. Cada plano de discagem deve ter uma ou mais regras de normalização atribuídas.
-ms.openlocfilehash: bb229760bd8f41086211245e8e7090453fa8985abb72dc721b249c5c5df81238
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b78207f90bb013b8be4161b7319cb605ad148e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333433"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602486"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definindo regras de normalização em Skype for Business Server
 

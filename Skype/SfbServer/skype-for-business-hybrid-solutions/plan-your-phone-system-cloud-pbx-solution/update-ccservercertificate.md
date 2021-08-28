@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
 description: O Update-CcServerCertificate cmdlet renova os certificados para Skype for Business Cloud Connector Edition quando eles estão próximos de expirar ou já expiraram.
-ms.openlocfilehash: 0545f4923a4f1abd654674024313c6f22665cb7123d87d9d21c3676452bd8fcf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1e8afb05d691a1e3e696b619c816cfc45dd26f1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344520"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623373"
 ---
 # <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
@@ -69,7 +69,7 @@ Nenhum. O Update-CcServerCertificate cmdlet não aceita entrada canalada.
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

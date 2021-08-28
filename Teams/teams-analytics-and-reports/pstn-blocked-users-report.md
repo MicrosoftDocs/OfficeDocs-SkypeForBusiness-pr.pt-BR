@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-rifer
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-voice
@@ -17,12 +17,12 @@ description: Use o relatório de usuários bloqueados PSTN no centro de administ
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 18c68579a4bc3886f19e73198c576590f06180dbc2d83e1b847da51e9df93411
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: da60a0005fbccd04e3257f3dd7466d5b1a32a544
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350403"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594463"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams Relatório de usuários bloqueados PSTN
 

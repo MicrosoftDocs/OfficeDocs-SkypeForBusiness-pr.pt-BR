@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: As configurações de tronco SIP definem a relação entre um Servidor de Mediação e o gateway PSTN (rede telefônica pública comutado), um PBX (exchange de filial pública IP) ou um Controlador de Borda de Sessão (SBC) no provedor de serviços.
-ms.openlocfilehash: 41cfc9e4c9c20eee43352b4cf62e32c3305c534d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: a2117858b34bc6c90c30444b3ab53a025f062152
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602506"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server: criar uma nova coleção de configurações de tronco
 
@@ -31,7 +31,7 @@ Ao criar configurações de tronco SIP usando o Painel de Controle do Servidor D
 
 |Configuração de UI | Parâmetro do PowerShell | Descrição |
 |--|--|--|
-|Nome|Identidade|Identificador exclusivo para a coleção. Esta propriedade é somente leitura; não é possível modificar a Identidade de uma coleção de configurações do tronco.|
+|Nome|Identity|Identificador exclusivo para a coleção. Esta propriedade é somente leitura; não é possível modificar a Identidade de uma coleção de configurações do tronco.|
 |Descrição|Descrição|Fornece uma forma para os administradores armazenarem informações sobre as configurações (por exemplo, o motivo da configuração do tronco).|
 |Máximo de diálogos iniciais suportados|MaxEarlyDialogs|O número máximo de respostas bifurcadas que um Gateway PSTN, IP-PBX ou SBC no Provedor de serviços pode receber em resposta a um convite que ele enviou ao Servidor de mediação.|
 |Nível de suporte de criptografia|SRTPMode|Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando os cmdlets [New-CsMediaConfiguration](/powershell/module/skype/New-CsMediaConfiguration) e [Set-CsMediaConfiguration.](/powershell/module/skype/Set-CsMediaConfiguration)<br/>Os valores permitidos são:<br/><br/>**Obrigatório:** a criptografia SRTP deve ser usada.<br/>**Opcional**: SRTP será usado se o gateway for compatível com ele.<br/>**Sem suporte:** a criptografia SRTP não é suportada e, portanto, não será usada.<br/><br/>SRTPMode é usado apenas se o gateway estiver configurado para usar a Segurança da Camada de Transporte (TLS). Se o gateway estiver configurado com o Protocolo de Controle de Transmissão (TCP) como transporte, SRTPMode será internamente definido como NotSupported.|
@@ -43,12 +43,12 @@ Ao criar configurações de tronco SIP usando o Painel de Controle do Servidor D
 |Habilitar dados de encaminhamento P-Asserted-Identity|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador.|
 |Habilitar timer de failover do roteamento de saída|EnableFastFailoverTimer|Indica se chamadas de saída não atendidas pelo gateway em 10 segundos serão roteadas ao próximo tronco disponível; se não houver troncos adicionais, a chamada cairá automaticamente. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente.|
 |Uso associado de PSTNsages|PSTNUsages|Coleção de usos de PSTN atribuídos ao tronco.|
-|Número convertido para testar|N/D|Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.|
+|Número convertido para testar|N/A|Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.|
 |Regras de conversão associadas|OutboundTranslationRulesList|Coleção de regras de conversão de números de telefone que se aplicam a chamadas tratadas pelo Roteamento de saída (chamadas roteadas para destinos de PBX ou PSTN).|
 |Regras de conversão do número chamado|OutboundCallingNumberTranslationRulesList|Coleção de regras de conversão do número de chamada de saída atribuído ao tronco.|
-|Número de telefone a ser de testado.|N/D|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
-|Número de chamada|N/D|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
-|Número chamado|N/D|Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.|
+|Número de telefone a ser de testado.|N/A|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
+|Número de chamada|N/A|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
+|Número chamado|N/A|Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.|
 ||||
 
 > [!Note]

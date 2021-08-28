@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Saiba que tipo de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com Teams e como escolher um para sua organização.  '
-ms.openlocfilehash: cfe90a65fb7e1bbc0aae30cd5d0a0dc052f86cb4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 231df0f5fa5e025f81379c2736de54bcd0f353fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234406"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594433"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 

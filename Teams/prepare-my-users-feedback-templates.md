@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Reúna comentários do usuário para melhorar a implementação de voz na nuvem Microsoft Teams ou Skype for Business.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1d12d859f2d6d828db0ad5cfb9aa474143d89c94ddfa4a0b6ccc0d9233fb256c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f08760e7af5b40a063f0dd43c1b728444884bb9d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312709"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594513"
 ---
 # <a name="user-feedback-surveys"></a>Pesquisas de comentários do usuário 
 

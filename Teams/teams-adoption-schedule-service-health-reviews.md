@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar as avaliações de saúde do serviço em sua Teams adoção para compartilhar informações sobre uso, saúde, recurso/roteiro do projeto e outras atualizações.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd66b3a5bed27a9fbe05ba4273c24a97cf837cda9bfab19a2e5ab9b4656d8f5a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c203096f10f3263c8e0b16a62d0d7ede004adde
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330865"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594473"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Agendar revisões de integridade do serviço para a adoção do Microsoft Teams
 

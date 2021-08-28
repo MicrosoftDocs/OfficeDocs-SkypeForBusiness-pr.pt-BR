@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: O próximo salto para o pool de Borda é um pool de Front-End (que pode ser um pool de Enterprise ou um servidor Edição Standard) ou, se sua implantação incluir um Diretor, o próximo salto será o Diretor.
-ms.openlocfilehash: e19fe2158128d893e2ebc62ebe936bab5cb69756bb64141ba4a2d7b75990e8db
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e629df03bd9ee7d495ac3bdde8bb2f89eb9bc175
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615827"
 ---
 # <a name="add-edge-server-next-hop"></a>Adicionar Próximo Salto de Servidor de Borda
 

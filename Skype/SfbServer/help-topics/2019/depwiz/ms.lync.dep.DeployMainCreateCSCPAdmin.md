@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para conceder acesso ao Skype for Business Server, faça o seguinte:'
-ms.openlocfilehash: 191149db88df737d0f20cdeb510bb03b4f17ddc40a4e85918240571a50ba5e5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1fb3f5e303851c434ca54ebd9e4a57b62efa6f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282154"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594039"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Criar Administradores do Painel de Controle do Skype for Business Server
  
