@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Para remover um Servidor de Arquivamento, você precisa alterar ou limpar a dependência no pool de Front-End associado, Servidor Front-End, Aparelho de Filial E Servidor de Filial Desavivável. Edite as propriedades do pool front-end, servidor front-end, aparelho de filial e servidor de filial que sobrevive para remover a dependência. Depois de limpar a dependência e excluir o servidor no Construtor de Topologias, você será notificado de que o objeto de armazenamento de banco de dados associado no Construtor de Topologias também será excluído.
-ms.openlocfilehash: 6265642a45b891180e53d3b00d39a9053b663a434aaa1a4a26e92b619dfba257
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 489eeb276b495598ec2f11fc9b4502935beedf30
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340327"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617067"
 ---
 # <a name="remove-the-archiving-server-association"></a>Remover a associação de Servidor de Arquivamento
 

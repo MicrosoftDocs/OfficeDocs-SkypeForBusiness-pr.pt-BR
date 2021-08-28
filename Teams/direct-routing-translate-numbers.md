@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar o Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d6b767ace4f00e581e99ec73585b0b596029b17e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337409"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619457"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traduzir números de telefone para um formato alternativo
 
@@ -79,8 +79,8 @@ SBC usa 2065550100 nos headers RequestURI e To e 4255550100 no header From.
 |Header  |Original |Header traduzido |Parâmetro e regra aplicados  |
 |---------|---------|---------|---------|
 |RequestURI  |CONVIDAR sip:2065550100@sbc.contoso.com|CONVIDAR sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
-|Para    |Para: \<sip:2065550100@sbc.contoso.com>|Para: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
-|De   |De: \<sip:4255550100@sbc.contoso.com>|De: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
+|PARA    |PARA: \<sip:2065550100@sbc.contoso.com>|PARA: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
+|DE   |DE: \<sip:4255550100@sbc.contoso.com>|DE: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Exemplo 2: chamada de entrada para um número de quatro dígitos
 
@@ -91,8 +91,8 @@ SBC usa 0100 nos headers RequestURI e To e 4255550100 no header From.
 |Header  |Original |Header traduzido |Parâmetro e regra aplicados  |
 |---------|---------|---------|---------|
 |RequestURI  |CONVIDAR sip:0100@sbc.contoso.com          |CONVIDAR sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
-|Para    |Para: \<sip:0100@sbc.contoso.com>|Para: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'         |
-|De   |De: \<sip:4255550100@sbc.contoso.com>|De: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules 'AddPlus1'        |
+|PARA    |PARA: \<sip:0100@sbc.contoso.com>|PARA: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'         |
+|DE   |DE: \<sip:4255550100@sbc.contoso.com>|DE: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules 'AddPlus1'        |
 
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Exemplo 3: Chamada de saída usando um número não E.164 de dez dígitos
 
@@ -105,8 +105,8 @@ Nesse cenário, um plano de discagem converte o número antes de enviá-lo para 
 |Header  |Original |Header traduzido |Parâmetro e regra aplicados  |
 |---------|---------|---------|---------|
 |RequestURI  |CONVIDAR sip:+14255550100@sbc.contoso.com          |CONVIDAR sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRules 'StripPlus1'         |
-|Para    |Para: \<sip:+14255550100@sbc.contoso.com>|Para: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules 'StripPlus1'       |
-|De   |De: \<sip:+12065550100@sbc.contoso.com>|De: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
+|PARA    |PARA: \<sip:+14255550100@sbc.contoso.com>|PARA: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules 'StripPlus1'       |
+|DE   |DE: \<sip:+12065550100@sbc.contoso.com>|DE: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
 
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Exemplo 4: Chamada de saída usando um número não E.164 de quatro dígitos
 
@@ -117,8 +117,8 @@ O SBC está configurado para usar números de quatro dígitos que não são E.16
 |Header  |Original |Header traduzido |Parâmetro e regra aplicados  |
 |---------|---------|---------|---------|
 |RequestURI  |CONVIDAR sip:0100@sbc.contoso.com           |CONVIDAR sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
-|Para    |Para: \<sip:0100@sbc.contoso.com>|Para: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
-|De   |De: \<sip:+12065550100@sbc.contoso.com>|De: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules 'StripPlus1' |
+|PARA    |PARA: \<sip:0100@sbc.contoso.com>|PARA: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
+|DE   |DE: \<sip:+12065550100@sbc.contoso.com>|DE: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules 'StripPlus1' |
 
 ## <a name="see-also"></a>Confira também
 

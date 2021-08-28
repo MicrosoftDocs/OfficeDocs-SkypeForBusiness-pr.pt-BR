@@ -13,18 +13,18 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: O seguinte descreve On-network para Audioconferência.
-ms.openlocfilehash: 63a76bd8cb7765816c417d60640d931acbe856bae7c1c7c3531e9598524e59c3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d477826c79b1a1630616cc51130348bfb953fa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351221"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620707"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Conferência na rede para Audioconferência
 

@@ -12,19 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Orientação prática para a implantação de recursos de voz em nuvem no Teams para gravar reuniões e chamadas em grupo do Teams, capturando áudio, vídeo e atividade de compartilhamento de tela.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
-ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
+ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531011"
+ms.locfileid: "58620697"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -240,7 +240,7 @@ Se uma gravação de reunião não for capaz de ser carregada no OneDrive for Bu
 
 As gravações de reunião podem acabar neste armazenamento temporário pelos seguintes motivos:
 
-- Para reuniões que não são de canal se a gravação do usuário não tiver uma configuração OneDrive for Business ou o OneDrive for Business tiver atingido sua cota de armazenamento
+- Para reuniões que não são do canal, se a gravação do usuário não tiver um OneDrive for Business configurado ou se o OneDrive for Business tiver atingido sua cota de armazenamento
 - Para uma reunião de canal se o site do SharePoint Online atingiu sua cota de armazenamento ou o site ainda não foi provisionado
 - Se as OneDrive for Business e as políticas do SharePoint Online estão habilitadas, restringindo os usuários de carregar arquivos quando não estão em intervalos de IP específicos, etc.
 
@@ -291,7 +291,7 @@ Os clientes forneceram um número enorme de comentários de que desejam mais con
   
 Acreditamos que quase todos os clientes se beneficiarão da carga de armazenamento reduzida em seu locatário removendo gravações que provavelmente nunca serão re-assistidas após 60 dias. É nossa meta fornecer uma experiência o mais limpa possível para todos os clientes por padrão. 
   
-**Será excluído automaticamente após 30 dias, mesmo que os dados sejam acessados ou baixados?**
+**Serão excluídos automaticamente mesmo se os dados forem acessados ou baixados?**
   
 Acessar o arquivo não altera a data de expiração. 
   

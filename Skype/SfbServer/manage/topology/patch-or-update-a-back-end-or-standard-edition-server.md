@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Resumo: saiba como instalar uma atualização ou patch em um Servidor Back-End em Skype for Business Server.'
-ms.openlocfilehash: 6da04dda24400e8dfa00bcaac5d3620cbf6509a5f4bef2d7d988682597b732f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2b7292b71f57d7396c5b90bce3746b73b98f6f43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290279"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619747"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Corrigir ou atualizar um servidor back-end ou Edição Standard no Skype for Business Server
  

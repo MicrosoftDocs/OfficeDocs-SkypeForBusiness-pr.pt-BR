@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerInternalIpPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 661dd74e-c42a-4905-a9c6-6efe02acc5f8
 description: Use esta página para especificar o endereço IP interno e o nome de domínio totalmente qualificado (FQDN) interno do Servidor de Borda.
-ms.openlocfilehash: 7c4951ec7e2c906ea7913ab8d3942310942c9091f25e5b3d1ecc88d85d93e14a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4336048d4482da2f50539fcdbd27402ebe48fde4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302565"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621267"
 ---
 # <a name="add-edge-server-internal-ip-2010"></a>Adicionar IP Interno de Servidor de Borda 2010
 

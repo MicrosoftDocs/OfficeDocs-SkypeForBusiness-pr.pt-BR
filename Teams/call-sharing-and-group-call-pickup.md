@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: O compartilhamento de chamadas e o recebimento de chamadas em grupo permitem que os usuários compartilhem chamadas de entrada com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
-ms.openlocfilehash: 27c24ce632cb0803b5be27bd3c7f523815c6913e07a3983ebdad449d4e237d37
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ce4f51fe2ffeef6051212b825bde84612e766115
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351161"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619637"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 

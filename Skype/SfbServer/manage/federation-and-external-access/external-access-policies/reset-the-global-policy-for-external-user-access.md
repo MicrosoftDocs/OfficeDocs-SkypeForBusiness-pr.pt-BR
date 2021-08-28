@@ -13,28 +13,28 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Não é possível excluir completamente uma política global. Usar a opção **Excluir** na política global simplesmente a redefine para as configurações padrão, o que não inclui suporte a opções de acesso de usuário externo.
-ms.openlocfilehash: 824d9f6c924a197a379f668263a23a6df89c27a980c82ea4d13abdd8621968da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: Não é possível excluir completamente uma política global. Usar a **opção Excluir** na política global apenas redefine a política global para as configurações padrão, que não incluem suporte para qualquer opção de acesso de usuário externo.
+ms.openlocfilehash: 316e0dab6004c3f4b5d07e8428215b4cc0f2deab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343425"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621047"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Redefinir a política global para acesso de usuário externo Skype for Business Server 
 
-Se você criou ou configurou políticas de acesso de usuário externo que não vai mais usar, poderá fazer o seguinte:
+Se você tiver criado ou configurado políticas de acesso de usuário externo que não deseja mais usar, poderá usar os seguintes métodos:
 
   - Excluir qualquer política local ou de usuário que você criou.
 
   - Redefinir a política global para as configurações padrão. As configurações de política global padrão negam qualquer acesso de usuário externo. A política global não pode ser excluída.
 
-Não é possível excluir completamente uma política global. Usar a opção **Excluir** na política global simplesmente a redefine para as configurações padrão, o que não inclui suporte a opções de acesso de usuário externo.
+Não é possível excluir completamente uma política global. A **opção Excluir** na política global apenas redefine a política global para as configurações padrão, que não incluem suporte para qualquer opção de acesso de usuário externo.
 
 ## <a name="to-reset-the-global-policy-to-the-default-settings"></a>Para redefinir a política global para as configurações padrão
 
-1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins ou que tem direitos de usuário equivalentes ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle.
 
@@ -47,12 +47,10 @@ Não é possível excluir completamente uma política global. Usar a opção **E
 
 ## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>Redefinindo a Política de Acesso Externo Global usando Windows PowerShell Cmdlets
 
-A política de acesso externo global pode ser redefinida usando Windows PowerShell e o cmdlet Remove-CsExternalAccessPolicy. Esse cmdlet pode ser executado no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota Windows PowerShell. 
+A política de acesso externo global pode ser redefinida usando Windows PowerShell e o cmdlet Remove-CsExternalAccessPolicy. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota Windows PowerShell. 
 
 ## <a name="to-reset-the-global-external-access-policy"></a>Para redefinir a política de acesso externo global
 
-  - Esse comendo redefine a política de acesso externo global:
-    
-        Remove-CsExternalAccessPolicy -Identity "global"
+  - Esse comendo redefine a política de acesso externo global:<br/><br/>Remove-CsExternalAccessPolicy -Identity "global"
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsExternalAccessPolicy.](/powershell/module/skype/Remove-CsExternalAccessPolicy)

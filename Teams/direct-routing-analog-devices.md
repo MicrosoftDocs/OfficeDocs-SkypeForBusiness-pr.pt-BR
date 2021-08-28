@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: conceptual
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este artigo para saber como usar dispositivos analógicos com Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: 275566d97d63bf4c9a4918dd590a3a2d40265d3b6d4a93c550580e1c24f287b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 93ce20366cfb29d5719a94af0842285d299e50e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337429"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619477"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Como usar dispositivos analógicos com Sistema de Telefonia Roteamento Direto
 

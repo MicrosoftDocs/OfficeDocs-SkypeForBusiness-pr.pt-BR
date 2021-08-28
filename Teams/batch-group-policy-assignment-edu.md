@@ -13,16 +13,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como atribuir políticas a grandes conjuntos de usuários em sua instituição educacional com base na associação ao grupo ou diretamente por meio de uma atribuição em lotes para fins de escola remota (teleescola, teleescola).
 f1keywords: ''
-ms.openlocfilehash: 31f853d43f4c4cc9be5a647a98824ee22656e12c7cce471afd3aae92c2ef4a86
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29e32229462d9ac9e256c3c8ece0ab3f02312631
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340497"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619647"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Atribuir políticas a grandes conjuntos de usuários em sua escola
 

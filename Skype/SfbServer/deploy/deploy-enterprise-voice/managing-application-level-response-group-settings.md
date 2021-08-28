@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Gerenciando configurações do Grupo de Resposta no nível do aplicativo, como configurações de música em espera e toque, em Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: a6883247f7be8816a8363c9b2790d6d0e45599484037d23af860b3e0f191dc10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 75a9216251b44048811cf1308be431c0eaeae045
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337151"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620167"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gerenciando configurações do Grupo de Resposta no nível do aplicativo Skype for Business
  
