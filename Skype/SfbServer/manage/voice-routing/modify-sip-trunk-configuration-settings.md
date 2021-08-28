@@ -1,5 +1,5 @@
 ---
-title: Modificar configurações de tronco SIP em Skype for Business Server
+title: Skype for Business Configurações de tronco SIP serverModify
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. '
-ms.openlocfilehash: 73ab5eed311cf10b674034edad58afce0f6e66c9deb5b763e8ef0f38b95822a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'As configurações de tronco SIP definem a relação e os recursos entre um Servidor de Mediação e o gateway de rede telefônica pública comutado, um PBX (exchange de filial pública IP) ou um Controlador de Borda de Sessão (SBC) no provedor de serviços. '
+ms.openlocfilehash: dbc7dec8af1f27769505b39b5cd2778f66dec0a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351481"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582725"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar configurações de tronco SIP em Skype for Business Server
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for Business Configurações de tronco SIP serverModify
 
 As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. Estas configurações fazem coisas como especificar:
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para obter detalhes sobre como usar o Assistente de Implantação para Skype for Business Server, consulte Install Skype for Business Server.
-ms.openlocfilehash: fa3fc4939cd6bd04120432db49a8079a892b4467f20e533cb6145a2fac58eb46
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6180963da2e8d480347e7a14220a642832f4b58b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314847"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606560"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>Assistente de Implantação: API de Comunicações Unificadas
  

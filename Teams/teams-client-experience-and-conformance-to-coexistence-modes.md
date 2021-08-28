@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
 description: Saiba mais Teams experiência do cliente e conformidade com modos de coexistência (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e49e8d7fd76bb3ecb14ad1c3d19142fbca28f978144578f42e5d106ef7c1d511
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dedac139aa4831b61a25bd6b65b6520288238d6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321243"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606962"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiência e conformidade do cliente do Teams a modos de coexistência
 
@@ -65,7 +65,7 @@ Conforme descrito acima, o impacto do modo de coexistência de um usuário é a 
 
 |**Modalidade (App)**|**Policy.Setting**|
 |---|---|
-|Chat|TeamsMessagingPolicy.AllowUserChat|
+|Bate-papo|TeamsMessagingPolicy.AllowUserChat|
 |Chamadas|TeamsCallingPolicy.AllowPrivateCalling|
 |Agendamento de reuniões|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||

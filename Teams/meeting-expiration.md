@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: nej
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Saiba como usar as configurações de política de reunião para controlar a expiração da reunião Microsoft Teams.
-ms.openlocfilehash: ee93aeb3b341ce9d046443675e3c6404e370bd00dd3f9589b6a96bc87917c2ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 84a944fe23c7ccb54362f1038958763dec2eb1a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607158"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Políticas de reunião e expiração de reunião Microsoft Teams
 

@@ -11,15 +11,15 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Saiba mais sobre o suporte ao ciclo de vida Salas do Microsoft Teams, incluindo a estrutura de suporte dinâmico e suas fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7fe78132b9e3a945c7d70a53f7808ea1b1527c21cbabf8778970b73e156fa6d0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7ecfd878b5d8aa22a19b4b2831c04a73e0d8911e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341227"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607024"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salas do Microsoft Teams de versão do aplicativo
  

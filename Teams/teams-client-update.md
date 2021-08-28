@@ -14,16 +14,16 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá sobre o processo de atualização do cliente de área de trabalho do Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 96077e5b50dff12f29f6e1ccf903cd0f7de96352dacf0d8b3c2cc7406750737e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2f0bc329910f4e4d89f07684f92ddcc1c340edf3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321133"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606940"
 ---
 # <a name="teams-update-process"></a>Processo de atualização do Teams
 

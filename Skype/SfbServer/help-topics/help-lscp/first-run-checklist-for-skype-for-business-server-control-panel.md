@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.Home1stRunChkList
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Bem-vindo ao Skype for Business Server de controle, a interface de usuário baseada na Web para administração e gerenciamento de Skype for Business Server. Você pode usar o painel de controle para executar os tipos de tarefas administrativas que foram executadas usando o Console de Gerenciamento da Microsoft em versões anteriores.
-ms.openlocfilehash: eea197a27a1bb1f155231ec3d33c0f70e414f68e4b80932b7ff35b3b24b44a54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39fe263d41be18068935811efaec923473e59c95
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287120"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580785"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Lista de Verificação da Primeira Execução para o Painel de controle do Skype for Business Server
 
@@ -35,7 +35,7 @@ Há várias tarefas importantes que recomendamos que você execute após a impla
 
 Recomendamos que você revise as tarefas mencionadas neste tópico e execute os procedimentos apropriados para a implantação do Lync Server em sua organização.
 
-|**Tarefa**|**Grupo painel de controle**|**Documentação**|
+|**Task**|**Grupo painel de controle**|**Documentação**|
 |:-----|:-----|:-----|
 |Verifique se os serviços instalados em sua topologia estão sendo executados como esperado.  <br/> |**Topologia** <br/> |[Exibir detalhes sobre um serviço](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service) <br/> |
 |Habilitar usuários para Skype for Business Server. Opcionalmente e, se migrar de uma versão anterior, mova os usuários para Skype for Business Server.  <br/> |**Usuários** <br/> |[Gerenciando usuários](/previous-versions/office/lync-server-2013/lync-server-2013-user-accounts-enabled-for-lync-server) <br/> |

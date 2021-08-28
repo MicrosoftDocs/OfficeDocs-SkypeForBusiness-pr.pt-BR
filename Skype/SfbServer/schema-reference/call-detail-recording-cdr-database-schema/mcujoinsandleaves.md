@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: Cada registro nesta tabela contém detalhes de chamada sobre uma combinação de um servidor de união ou saída do usuário e conferência. Por exemplo, se um usuário ingressar em uma conferência que inclua elementos de webconferência e áudio/vídeo, um registro será criado para a junção de webconferência desse usuário e outro registro será criado para a junção de conferência de áudio/vídeo do usuário.
-ms.openlocfilehash: 9f879a683e45a4272096bfdacc500b48d405bb6c8fb02721fda543134726b181
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d01781dd0d16abb3f03cdc8f6021981e7ebfff7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326277"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629463"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>Tabela McuJoinsAndLeaves no Skype for Business Server 2015
  

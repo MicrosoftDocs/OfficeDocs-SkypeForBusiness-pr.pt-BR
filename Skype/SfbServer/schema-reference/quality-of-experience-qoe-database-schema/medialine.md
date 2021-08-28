@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: O MediaLine View armazena informações sobre cada linha de mídia no banco de dados. Uma sessão de áudio normalmente contém uma linha de mídia de áudio. Uma sessão de áudio e vídeo (A/V) normalmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo; no entanto, a sessão pode conter duas linhas de mídia de vídeo se um dispositivo de conferência ou o modo de exibição de galeria for usado. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: fa527c31c1011fdcad38d21534e9ec1c1a4ec96e4a704dd79722313e73a39056
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 778e322f737a80c71a046073611c234071e3f24b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296918"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582565"
 ---
 # <a name="medialine-view"></a>Exibição MediaLine
  

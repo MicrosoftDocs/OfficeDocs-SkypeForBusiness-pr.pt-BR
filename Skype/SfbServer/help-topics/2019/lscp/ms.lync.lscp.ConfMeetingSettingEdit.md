@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: As definições de configuração de reunião definem a experiência de ingresso do usuário em conferências agendadas por usuários. Essas configurações se aplicam apenas às reuniões agendadas. Eles não se aplicam a reuniões ad hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: 4038f4175849481c43d2d8a9fc0849f44f0530906c3702580a892cd0edb17871
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13eb6ffb440bf50da7525b36307b56e158f6f93f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326483"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607224"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuração de Reunião: Criar Novo ou Editar Existente
 

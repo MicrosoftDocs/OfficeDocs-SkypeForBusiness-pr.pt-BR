@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: Este artigo ajuda a explicar os princípios centrais do fluxo de chamadas do Skype for Business Online e da Rota Expressa, além de fornecer alguns exemplos detalhados de fluxos de chamadas para que você possa entender e planejar corretamente.
-ms.openlocfilehash: 35936e1e33f2914345aa5443ca745dc2c5260ad7
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: d2de62c29c06b498cff812014014bb1b9acb3cf2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407200"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606770"
 ---
 # <a name="call-flow-using-expressroute"></a>Fluxo de chamadas usando Rota Expressa
 

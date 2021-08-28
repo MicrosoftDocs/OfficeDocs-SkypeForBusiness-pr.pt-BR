@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar e configurar o console Salas do Microsoft Teams e seus periféricos.
-ms.openlocfilehash: 470230a9c855be3e0bacfefc9fc13087943fa9893488c97a118b91423ebf26e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 81da06df24dc98e0cde2bc18c081ff46b54e07b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629303"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar um console de Salas do Microsoft Teams
 

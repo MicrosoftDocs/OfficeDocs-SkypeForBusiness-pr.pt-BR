@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server Enterprise Voice encaminha chamadas com base em números de telefone normalizados para o formato E.164. Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas para o formato E.164 com a finalidade de executar a RNL (busca de número reverso) para que possam ser traduzidas para o URI SIP correspondente. Skype for Business Server fornece a capacidade de manipular a ID chamada e a apresentação da ID do chamador.
-ms.openlocfilehash: f297ca2d2f6aea52494557083b1b7d3206276ba40fbdf1a5c018716bccc55e25
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333363"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629633"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definindo regras de conversão em Skype for Business Server
 

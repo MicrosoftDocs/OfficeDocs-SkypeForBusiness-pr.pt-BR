@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
-description: O Backup-CcCertificationAuthority cmdlet faz o back-up do serviço de autoridade de certificação do Skype for Business Cloud Connector Edition em um arquivo e o salva na pasta ca no diretório de compartilhamento de sites.
-ms.openlocfilehash: abf94977abe2a0c3548b549ae0101ae399e124769eaaa9f05aabf203c69656a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: O Backup-CcCertificationAuthority cmdlet faz o Skype for Business Cloud Connector Edition de certificação em um arquivo e o salva na pasta ca no diretório de compartilhamento de sites.
+ms.openlocfilehash: f7803a1c773ca3561b13ef5a263002cc4b8e049a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282953"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582525"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
-O Backup-CcCertificationAuthority cmdlet faz o back-up do serviço de autoridade de certificação do Skype for Business Cloud Connector Edition em um arquivo e o salva na pasta ca no diretório de compartilhamento de sites.
+O Backup-CcCertificationAuthority cmdlet faz o Skype for Business Cloud Connector Edition de certificação em um arquivo e o salva na pasta ca no diretório de compartilhamento de sites.
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -56,7 +56,7 @@ Nenhum. O Backup-CcCertificationAuthority cmdlet não aceita entrada canalada.
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

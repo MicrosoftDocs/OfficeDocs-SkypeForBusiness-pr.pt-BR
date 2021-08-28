@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: A Microsoft está retirando o serviço Exchange Unificação de Mensagens Online (ExchUMO) até 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar a continuidade dos negócios.
-ms.openlocfilehash: 933ba625506496c01242b26712e9b6d5b020dbb199c5f515444f7a8734fb84b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279589"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606820"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -129,7 +129,7 @@ Recomendamos que você inicie a instalação dos novos atendentes automáticos m
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matriz de recursos de serviços baseados em nuvem do ExchUMO e do Azure
 
-| Serviço | Nível de recurso | Recurso | Notas  | VM/AA de nuvem  | ExUMO |
+| Serviço | Nível de recurso | Recurso | Observações  | VM/AA de nuvem  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Recursos de serviço| Suporte a PBX de terceiros    | Incluindo todos os recursos fornecidos para PBX de terceiros, como MWI (Indicador de Espera de Mensagens) usando mensagens de notificação SIP de Exchange UM Online | N   | Y    |
 | VM | Recursos de serviço  | Suporte Skype for Business Server   |  | S | S    |
@@ -175,7 +175,7 @@ Recomendamos que você inicie a instalação dos novos atendentes automáticos m
 | VM | Tenant-Admin recursos | Mascaramento de profanidade de transcrição|  | Y | N    |
 | VM | Tenant-Admin recursos | Política de caixa postal    |   | S | S    |
 | VM | Tenant-Admin recursos | Administração do portal da Web   |  | CY19   | Y    |
-| VM | Tenant-Admin recursos | PowerShell   |  | S | S    |
+| VM | Tenant-Admin recursos | Windows PowerShell   |  | S | S    |
 | UM | Recursos do usuário | Indicador de Espera de Mensagem (MWI) em Skype for Business certificados   |Pode ser fornecido pelo parceiro de telefone  | Não | Sim    |
 | AA | Recursos de serviço | AA support 3rd-party PBX    |  | N | Y    |
 | AA | Recursos de serviço | Suporte Skype for Business Server   |  | S | S    |
