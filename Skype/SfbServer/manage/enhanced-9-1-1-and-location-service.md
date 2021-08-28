@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server suporta a chamada Aprimorada 9-1-1 (E9-1-1) de Skype for Business clientes. Quando você configura o Skype for Business Server para E9-1-1, as chamadas de emergência feitas a partir do Skype for Business incluem informações de Local de Resposta de Emergência (ERL) do banco de dados de serviço informações de local.
-ms.openlocfilehash: 03fee1a411b88e51f0b994de7bba65ba3f2d3edfecb14d004e6a7f98842002ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ac2b594a5ad13401c01ad5fcf1ea46f46cd016f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297277"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580605"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gerenciar o 9-1-1 aprimorado e o serviço de localização no Skype para o Busines Server
 

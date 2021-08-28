@@ -11,7 +11,7 @@ ms.service: msteams
 description: Descreve atendedores automáticos de nuvem e filas de chamadas e explica como você pode atender a essas chamadas em Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7b9510b3e7c31005c2ec75d6358c1f911daba752298b726e960bf38c63e11e4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314257"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580285"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 
@@ -66,7 +66,7 @@ O Teams cliente só tem suporte com um modo de [co-existência de Teams Somente]
 
 Para receber chamadas de atendimento automático e fila de chamadas no Microsoft Teams, você precisa configurar a política de interoperabilidade e a política de atualização. Consulte [Migração e interoperabilidade para organizações que usam Teams em conjunto com Skype for Business](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendimento automático e/ou fila de chamada configurada e gostaria de fazer isso, consulte [Configurar](create-a-phone-system-auto-attendant.md) um atendimento automático na nuvem e Criar uma fila de chamada [na nuvem.](create-a-phone-system-call-queue.md)
 
-## <a name="known-issues"></a>Problemas conhecidos
+## <a name="known-issues"></a>Problemas Conhecidos
 
 Quando os agentes de fila de chamadas recebem uma chamada em seu dispositivo móvel, as chamadas podem ficar em espera se o dispositivo estiver bloqueado. O usuário deve desbloquear o dispositivo primeiro e, em seguida, atender à chamada.
 

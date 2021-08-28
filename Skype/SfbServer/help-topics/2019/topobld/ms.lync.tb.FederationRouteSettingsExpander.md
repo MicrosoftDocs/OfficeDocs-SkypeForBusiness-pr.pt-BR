@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FederationRouteSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir uma atribuição de rota de federação de local, primeiro você deve habilitar a federação no Servidor de Borda ou no pool de Servidores de Borda. Se a federação não estiver habilitada no Servidor de Borda ou no pool, significa que as configurações de atribuição de rota de federação para o local não estarão disponíveis para modificação.
-ms.openlocfilehash: 58013888042eb7b793bea416724e4e75149d656259e40753173e01866fbd1861
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c331fb80e070062ad2aeb373d2b7b19d583f4c34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629003"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de Configurações de Rota de Federação
  

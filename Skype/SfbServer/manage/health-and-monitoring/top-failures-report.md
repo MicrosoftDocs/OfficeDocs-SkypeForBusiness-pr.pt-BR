@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 'Resumo: saiba mais sobre o Relatório de Falhas Principais Skype for Business Server.'
-ms.openlocfilehash: 04088bce640ec19675afb1513645639a59ed4351ab581280bbec4904d57f835e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b932833aa80d11134133b7b3ed13cdfd2a57e29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317546"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606150"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Relatório de Falhas Principais no Skype for Business Server
  
@@ -55,7 +55,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
   
 **Filtros de Relatório de Falhas Principais**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são contadas de domingo até sábado.  <br/> |
@@ -72,7 +72,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falhas Prin
   
 **Medição do Relatório de Falhas Principais**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Sim  <br/> |Classificação relativa com base no número de sessões relatadas.  <br/> |
 |**Sessões relatadas** <br/> |Sim  <br/> |Número total de sessões com falha baseadas na ID de diagnóstico e no código de resposta SIP.  <br/> |

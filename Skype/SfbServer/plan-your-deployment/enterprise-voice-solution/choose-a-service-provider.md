@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: Escolher seu provedor de serviços para uma implantação do E9-1-1 no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: ab114934b66696675986f4eb17f84badf5fcefe3184fc59e64a67115abd5d84e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 834e0c730721e17253ac644559fd67c930ccaa02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580495"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Escolha um provedor de serviços E9-1-1 para Skype for Business Server
  

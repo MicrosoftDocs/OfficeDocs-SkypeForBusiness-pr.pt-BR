@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Clique com o botão direito do mouse em Componentes Compartilhados na árvore de hierarquia do Construtor de Topologias para criar novos componentes compartilhados ou acessar opções de nível de Topologia.
-ms.openlocfilehash: 048905cbf5adfaf23670ec4e2b7791d2eed3d0e45f9fe362e5d6a57ce712aea4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 01f5d0e2a4a507800055a53adffeff4e8df5bb4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283383"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606301"
 ---
 # <a name="shared-components-scope-node"></a>Nó de Escopo de Componentes Compartilhados
  

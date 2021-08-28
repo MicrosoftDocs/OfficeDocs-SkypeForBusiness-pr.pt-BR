@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Resumo: revise os requisitos de vídeo do cliente durante o planejamento para Skype for Business Server.'
-ms.openlocfilehash: 895345ddee8ac17338977bdb161172bf975de343d7d86be1a053ccac8f4f0e7f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: efd1bfe80f770b62e974fe598d791d7b179a8b48
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293928"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606100"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business de vídeo cliente
  
@@ -39,7 +39,7 @@ Consulte também [Windows e requisitos de hardware do Mac.](https://products.off
   
 ### <a name="video-hardware-requirements"></a>Requisitos de hardware de vídeo
 
-|**Recurso**|**Requisito**|
+|**Característica**|**Requisito**|
 |:-----|:-----|
 |Decodificação H.264 acelerada pelo hardware usando a Aceleração de Vídeo DirectX (DXVA)  <br/> |• A placa gráfica deve dar suporte ao DirectX 9.0 e deve expor o modo DXVA2_ModeH264_VLD_NoFGT decodificação e a API DirectX 9.  <br/> • O driver de placa gráfica mais recente deve ser instalado.  <br/> |
 |Codificação H.264 acelerada por hardware: Requisitos de chipset  <br/> |As seguintes soluções de codificação de vídeo aceleradas de hardware intel são suportadas:  <br/> • Chipsets Intel HD Graphics 2000, 2500, 3000 e 4000 de segunda e terceira geração (ou versões posteriores) com codificadores de vídeo de hardware integrados. A instalação do driver intel HD Graphics 15.28.9.2884 ou do driver mais recente que contém o seguinte é necessária:  <br/> • Exibir o driver 9.17.10.2884 ou o driver mais recente  <br/> • Transformação de base de mídia de hardware (HMFT) versão 3.12.10.31 ou o HMFT mais recente  <br/> As seguintes soluções de codificação de vídeo aceleradas de hardware AMD são suportadas:  <br/> • Mecanismo de Codec de Vídeo AMD, que está disponível em várias placas gráficas discretas e em unidades de processamento aceleradas integradas de processadores acelerados da série AMD. O driver do Mecanismo de Codec de Vídeo AMD 9.12.0.0 ou superior deve ser instalado.  <br/> |
@@ -101,7 +101,7 @@ As três tabelas a seguir explicam a capacidade máxima de codificação e decod
 
 A tabela a seguir descreve as resoluções de vídeo máximas disponíveis em dispositivos móveis com suporte. Para obter mais informações sobre o suporte a dispositivos móveis, comparação de recursos do cliente [móvel para Skype for Business](mobile-feature-comparison.md).
   
-|**Recurso**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
+|**Característica**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Resolução máxima de codificação H.264  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S e posteriores  <br/> |VGA: iPad 2 e posterior/iPad mini 1 e posterior  <br/> 720p: iPad Air/iPad mini 2/iPad Pro e posterior  <br/> |Até VGA, dependendo do modelo de dispositivo  <br/> |
 |Resolução máxima de decodificação de H.264  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S e posteriores  <br/> |VGA: iPad 2 e posterior/iPad mini 1 e posterior  <br/> 720p: iPad Air/iPad mini 2/iPad Pro e posterior  <br/> |Até VGA, dependendo do modelo de dispositivo  <br/> |

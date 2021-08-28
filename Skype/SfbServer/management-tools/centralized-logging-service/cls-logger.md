@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Resumo: Saiba como usar o Agente de Log Centralizado (CLS) no Skype for Business Server 2015.'
-ms.openlocfilehash: 38cc7007476fbdfa6a02cf4d244fa0173e958d6bfe055d042be8ba4cf2d049e4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317486"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628613"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>ClS Logger for Skype for Business Server 2015
  
@@ -89,21 +89,21 @@ Para pesquisar logs, selecione a guia "Pesquisar Logs CLS" e clique no botão "L
 > 
 > **Hora de Término** O período em que o CLS para de consultar os logs. (Obrigatório)
 > 
-> **Componentes** Usado para selecionar quais componentes adicionar à consulta. (Opcional)
+> **Componentes** Usado para selecionar quais componentes adicionar à consulta. Opcional.
 > 
-> **ID de chamada** A ID de chamada de qualquer caixa de diálogo SIP a ser filtrada. Observação: este campo usa correspondência exata. (Opcional)
+> **ID de chamada** A ID de chamada de qualquer caixa de diálogo SIP a ser filtrada. Observação: este campo usa correspondência exata. Opcional.
 > 
-> **ID da conferência** A ID da conferência de todas as conferências a serem filtradas. Observação: este campo usa correspondência exata. (Opcional)
+> **ID da conferência** A ID da conferência de todas as conferências a serem filtradas. Observação: este campo usa correspondência exata. Opcional.
 > 
-> **Endereço IP** O endereço IP que deve ser filtrado. Observação: este campo usa correspondência exata. (Opcional)
+> **Endereço IP** O endereço IP que deve ser filtrado. Observação: este campo usa correspondência exata. Opcional.
 > 
-> **IDs de correlação** Trace instruções que são logicamente vinculadas por essa ID. (Opcional)
+> **IDs de correlação** Trace instruções que são logicamente vinculadas por essa ID. Opcional.
 > 
-> **Telefone Número** Filtrar por número de telefone. (Opcional)
+> **Telefone Número** Filtrar por número de telefone. Opcional.
 > 
-> **URI SIP** Filtrar por URI SIP. (Opcional)
+> **URI SIP** Filtrar por URI SIP. Opcional.
 > 
-> **Conteúdo da mensagem SIP contém** Filtrar pelo conteúdo da mensagem SIP, isso substring search within this field. (Opcional)
+> **Conteúdo da mensagem SIP contém** Filtrar pelo conteúdo da mensagem SIP, isso substring search within this field. Opcional.
 > 
 > **Corresponder a qualquer** Pesquisa usando um OR lógico se verificado. O padrão é Exact match of all parameters.
 > 

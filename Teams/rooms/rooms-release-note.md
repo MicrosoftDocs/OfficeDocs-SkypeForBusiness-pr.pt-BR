@@ -9,17 +9,17 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a76d2ba56a56b3055d0ca6838e512e2074afcf72c93c5590510a22bb946a63eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aed319f4621cb95b653294f4b27d2ff37ffafb72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346138"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629233"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ExternalApplicationsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O nó Servidores de aplicativos confiáveis lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contêm servidores que executem aplicativos de Comunicações Unificadas da Microsoft confiáveis, mas não Skype for Business Server funções. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 75341423b1df2f3ffde9536b342f08bfe91fb1dd896d43ffed206e60a993849e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f1324f73db7f102206177aaa74dddc02a1f69bbf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606440"
 ---
 # <a name="external-applications-scope-node"></a>Nó de Escopo de Aplicativos Externos
  

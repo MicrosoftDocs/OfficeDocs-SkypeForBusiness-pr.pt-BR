@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: O Switch-CcVersion cmdlet desconecta o dispositivo em execução e alterna para um dispositivo recém-implantado ou de backup.
-ms.openlocfilehash: 1558f34d2388dc75bf4398ba15fc09cd36c439e2d70a39588ee697bc0ef04341
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b15310956f80a9269c8fb611a0f7c6c06f561e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580325"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -62,16 +62,16 @@ O Switch-CcVersion o cmdlet drena os serviços do Cloud Connector no Servidor de
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 

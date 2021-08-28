@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: A exibição FocusJoinsAndLeaves armazena informações sobre como ingressar e deixar informações para uma conferência. Cada conferência é representada nesta exibição por um registro escrito sempre que um usuário ins junta e sai da conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 12bfac794378a27c612a5afa06d63c57ba23bbcdce3ea1bd7e928a663d99fd3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 102e520c9bfdb9988061db64dec621a8683b1b5e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278359"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628553"
 ---
 # <a name="focusjoinsandleaves-view"></a>Exibição FocusJoinsAndLeaves
  

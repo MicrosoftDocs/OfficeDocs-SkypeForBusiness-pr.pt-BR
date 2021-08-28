@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Como testar permissões de administrador no Skype for Business Server
-ms.openlocfilehash: 7dd9e1b95df35cb363617690cb9667c1a16ef904
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 08721b556de6e7b162eb76fbed953dae422b33b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580555"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Testar permissões de administrador no Skype for Business Server
 

@@ -9,16 +9,16 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Saiba como exibir permissões solicitadas por aplicativos e conceder consentimento de administrador a aplicativos na página Gerenciar aplicativos do Microsoft Teams de administração.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5dadf59457813f1bd25b43c13d361ca4302aaa7891003f09dd231aced7441f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e4875eca0c7a9848d7676be77e4677de45cf8db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314157"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580235"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Exibir permissões de aplicativo e conceder consentimento de administrador no Microsoft Teams de administração
 

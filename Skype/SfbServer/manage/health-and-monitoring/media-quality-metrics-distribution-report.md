@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Resumo: saiba mais sobre o Relatório de Distribuição de Métricas de Qualidade de Mídia Skype for Business Server.'
-ms.openlocfilehash: b90b54ede899d8eb085ad65392280e3910498128e5a43c927260b20e501e2292
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ba1bfadee22d731a6ef6c523ba22261a8f22202
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606180"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>O Relatório de Distribuição de Métricas de Qualidade de Mídia no Skype for Business Server 
  
@@ -29,7 +29,7 @@ O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um
 |:-----|:-----|
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
-|3  <br/> |50  <br/> |
+|3   <br/> |50  <br/> |
 |4   <br/> |50  <br/> |
 |5   <br/> |50  <br/> |
 |6   <br/> |50  <br/> |
@@ -50,7 +50,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
   
 **Filtros do Relatório de Distribuição da Métrica de Qualidade de Mídia**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
