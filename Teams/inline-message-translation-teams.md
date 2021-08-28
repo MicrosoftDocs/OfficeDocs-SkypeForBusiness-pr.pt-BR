@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 ms.reviewer: salilda
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como ativar a tradução em linha no Microsoft Teams usando o centro de administração Microsoft Teams ou o PowerShell.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 719f97e72f099edb4d14c22ef9d5a3de0f787ea7411f42f1d777ea842bcc4e27
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bfaa03ff8fa8654fca48fbd2bd31d8d6518e2de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593075"
 ---
 # <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Desativar a conversão de mensagens em Microsoft Teams
 

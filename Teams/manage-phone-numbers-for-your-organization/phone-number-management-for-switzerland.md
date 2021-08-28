@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Suíça para Microsoft Teams.
-ms.openlocfilehash: 65c9b6d1464a802a20653f806cfd08607aabdd6e
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 104f4b061dcbb4e71d1989fd4e89fd828f4b573d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348313"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592995"
 ---
 # <a name="phone-number-management-for-switzerland"></a>Telefone gerenciamento de números para a Suíça
 

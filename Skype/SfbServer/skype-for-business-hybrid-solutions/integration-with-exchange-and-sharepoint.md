@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumo: saiba mais sobre Skype for Business Server integração 2015 com Exchange e SharePoint.'
-ms.openlocfilehash: 6026d66ec6972dc8d51857f185fccc0ff96482c4f658d6740034c94e9bbdaae2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5859e247f816739f9febadb9d973ab081d1e4ccc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340017"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593335"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integracão com o Exchange e o Microsoft Office SharePoint Online
 
@@ -43,7 +43,7 @@ As tabelas a seguir listam os recursos com suporte em uma implantação híbrida
  **Skype for Business Server local e Exchange local**
 
 
-|**Recurso**|**Anotações**|
+|**Característica**|**Anotações**|
 |:-----|:-----|
 |IM/Presença no Outlook  <br/> |Para obter mais informações, consulte [IM e Presence](/previous-versions/office/lync-server-2013/lync-server-2013-im-and-presence).  <br/> |
 |Agendar e participar da reunião online por meio Outlook  <br/> |Para obter mais informações, consulte [Integrar Skype for Business Server 2015 com Exchange Server](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
@@ -63,7 +63,7 @@ As tabelas a seguir listam os recursos com suporte em uma implantação híbrida
  **Skype for Business Server local e Exchange Online**
 
 
-|**Recurso**|**Anotações**|
+|**Característica**|**Anotações**|
 |:-----|:-----|
 |IM/Presença no Outlook  <br/> |Para obter mais informações, consulte [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |Agendar e participar da reunião online por meio Outlook  <br/> ||
