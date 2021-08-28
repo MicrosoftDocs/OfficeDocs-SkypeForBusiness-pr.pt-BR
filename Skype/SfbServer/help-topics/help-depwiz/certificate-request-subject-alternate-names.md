@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestSanDesc
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 description: A página Nome da Entidade / Nomes de Entidade Alternativos apresenta um resumo do nome de entidade e todos os nomes de entidade alternativos que preencherão o certificado. Os nomes apresentados para nomes de assunto e nomes alternativos de assunto são coletados no documento de definição, pois ele foi criado quando você definiu a implantação no Construtor de Topologias.
-ms.openlocfilehash: b194ade5e946c1bee6671908046106afc8818a63e85ae0d2d41eda4b6ddd425f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: de0ebd21def75b3b90af1fa406b94b9542767127
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304083"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612620"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Solicitação de Certificado (Nomes de Entidade Alternativos)
  

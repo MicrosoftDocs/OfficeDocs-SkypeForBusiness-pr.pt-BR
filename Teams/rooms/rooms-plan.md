@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Este artigo explica as considerações de planejamento relevantes para a implantação Salas do Microsoft Teams, a próxima geração de Skype Sistemas de Sala.
-ms.openlocfilehash: 6112e341d9a76b77d2c8f1a93d27c2c24d0d86cd7c17a499e0e55cfa7d2e1b23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e23c28bc39c9c4b70ae9ae10a6867427a5f51f39
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348776"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598345"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar Salas do Microsoft Teams
 
@@ -62,13 +62,13 @@ Você pode implantar Salas do Microsoft Teams com Microsoft Teams, Skype for Bus
 | ![identificar atividades](../media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Identifique quem realizará as principais atividades em toda a sua implantação.</li><li>Revise as salas de reunião que você tem (e planeje a configuração) para entender onde você deseja implantar Salas do Microsoft Teams e os dispositivos periféricos que seriam apropriados para o tamanho da sala.</li></ul> |
 | | |
 
-## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment&quot;></a>Identificar quem realizará as principais atividades em toda a sua implantação
+## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identificar quem realizará as principais atividades em toda a sua implantação
 
 Use a abordagem ilustrada abaixo para orientá-lo através de sua implantação e personalizar as saídas de exemplo fornecidas em todos esses artigos, conforme necessário para sua organização.
 
 Comece compreendendo quais salas de conferência você tem e visualizando o que funcionaria melhor para você no futuro e, em seguida, vá selecionando e selecionando o equipamento de que precisa, preparando seus sites, configurando e implantando seu serviço, gerenciando alterações e adoção do usuário e desenvolvendo operações e procedimentos de manutenção.
 
-![Comece compreendendo o que você tem e visualizando o que funcionaria melhor para você e, em seguida, vá selecionando e selecionando o equipamento de que você precisa, preparando seus sites, configurando e implantando seu serviço, gerenciando a mudança e a adoção do usuário e desenvolvendo operações e procedimentos de manutenção.](../media/room-systems-image2.png &quot;Comece compreendendo o que você tem e visualizando o que funcionaria melhor para você e, em seguida, vá selecionando e selecionando o equipamento de que você precisa, preparando seus sites, configurando e implantando seu serviço, gerenciando a mudança e a adoção do usuário e desenvolvendo operações e procedimentos de manutenção.")
+![Comece compreendendo o que você tem e visualizando o que funcionaria melhor para você e, em seguida, vá selecionando e selecionando o equipamento de que você precisa, preparando seus sites, configurando e implantando seu serviço, gerenciando a mudança e a adoção do usuário e desenvolvendo operações e procedimentos de manutenção.](../media/room-systems-image2.png "Comece compreendendo o que você tem e visualizando o que funcionaria melhor para você e, em seguida, vá selecionando e selecionando o equipamento de que você precisa, preparando seus sites, configurando e implantando seu serviço, gerenciando a mudança e a adoção do usuário e desenvolvendo operações e procedimentos de manutenção.")
 
 Talvez seja necessário coordenar essas atividades em várias equipes. Fornecemos uma visão de alto nível das principais atividades que você deve abranger e também sugestões para as equipes que normalmente estão envolvidas na implantação e gerenciamento de sistemas de sala de conferência, para ajudá-lo a decidir com quem você precisa trabalhar.
 

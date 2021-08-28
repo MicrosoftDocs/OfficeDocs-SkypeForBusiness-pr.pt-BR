@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: Uma Edição Standard de servidor instala automaticamente o software Microsoft SQL Server Express de banco de dados e o banco de dados SQL Server de dados. Portanto, todas as opções são pré-populadas e você não pode fazer alterações na configuração padrão.
-ms.openlocfilehash: b6b0cd35f0436278b39c6126ed59bc3c95d1fb44131a80fb898297fdec512eda
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fc6e1eb168cfa68a997b462be3557b87990f926d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314587"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596635"
 ---
 # <a name="add-front-end-sql-server-store"></a>Adicionar Front-end do Repositório do SQL Server
 

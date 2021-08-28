@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Resumo: revise as considerações de URL simples neste tópico antes de implementar registros DNS para Skype for Business Server.'
-ms.openlocfilehash: 11e3b5222e7ec1929580049f355525c40884b8d3aa9a55ccfbbdc18264a24500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a36805566b7bdb9f95ef14b572a8efdccdeb916b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280944"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622133"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos dns para URLs simples em Skype for Business Server
 
@@ -71,7 +71,7 @@ Se usar esta opção, você precisará de um registro A de DNS separado para cad
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
 | Meet  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
 | Discagem  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| Admin  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Administrador  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
 Com a Opção 2, AS URLs simples são baseadas no nome de domínio SfB2015.contoso.com. Por isso, você precisará somente de um registro A de DNS que permita todos os três tipos de URL simples. Este registro DNS A faz referência SfB2015.contoso.com. além disso, você ainda precisa separar os registros A de DNS para os outros domínios SIP da sua organização. 
 
@@ -82,7 +82,7 @@ Com a Opção 2, AS URLs simples são baseadas no nome de domínio SfB2015.conto
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
 | Meet  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
 | Discagem  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
 A opção 3 é mais útil se você tiver muitos domínios SIP e desejar que eles tenham URLs Reunir separadas, mas desejar minimizar o registro de DNS e os requisitos de certificação para esses URLs simples. 
 
@@ -93,7 +93,7 @@ A opção 3 é mais útil se você tiver muitos domínios SIP e desejar que eles
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
 | Meet  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
 | Discagem  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
 ## <a name="disaster-recovery-option-for-simple-urls"></a>Opção recuperação de desastres para URLs simples
 <a name="BK_Valid"> </a>

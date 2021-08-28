@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: O Install-CcAppliance cmdlet instala o dispositivo Skype for Business Cloud Connector Edition, incluindo o AD, o Armazenamento de Gerenciamento Central, o Servidor de Mediação e as máquinas virtuais do Servidor de Borda no servidor host.
-ms.openlocfilehash: b88b869e3c30783a69bc16ab690a258506ebcc90e849eb474a17859140485e8d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ed13282039b84975bea3e26f5ae1d7f79122a11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343175"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635835"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -123,7 +123,7 @@ Nenhum. O Install-CcAppliance cmdlet não aceita entrada canalada.
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

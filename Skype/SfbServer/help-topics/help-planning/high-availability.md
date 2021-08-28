@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: O principal esquema de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server 2015 se baseia na redundância do servidor por meio do pool. Se um servidor executando uma certa função de servidor falha, os ouros servidores no pool executando a mesma função assumem a carga daquele servidor.
-ms.openlocfilehash: d8c6a16ba29d5725a148810c71a17325bdbab763
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8fe42fb60d6588eee7a62ec49aa33f46c9a2e535
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234696"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596745"
 ---
 # <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype for Business Server Ferramenta de planejamento de alta disponibilidade
  

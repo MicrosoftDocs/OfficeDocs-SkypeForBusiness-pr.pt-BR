@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Para preparar o esquema para os Serviços de Domínio do Active Directory, execute a etapa Preparar Esquema no Assistente Skype for Business Server Implantação. Clique em Executar para começar a preparação do esquema. A etapa Preparar Esquema lê os arquivos de definição de esquema fornecidos no diretório /Program Files/Microsoft Lync Server 2013/Deployment/Setup no sistema no qual o Assistente de Implantação está sendo executado. Esses arquivos também estão disponíveis na mídia de instalação no diretório Suporte/Esquema. A etapa Preparar Esquema estenderá o esquema e informará o status do processo. Também o notificará quando o processo estiver concluído. A tela de resumo permitirá que você exiba os logs do processo. Revise os logs para ter certeza de que a preparação foi concluída e teve êxito.
-ms.openlocfilehash: 8225b023dec35dc3820e514f19d55100967ce33cd0fd21173e7f92a1b77cb9ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3adc63ec8eaa16b4eaebe528508f1f063e9cd7b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309620"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612560"
 ---
 # <a name="prepare-schema"></a>Preparar Esquema
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchCdrEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: c0b005fe011c4de85a7fd4623aee8330b5ade6488c5e2b3a2616ad0c09095abc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b3a6322b522379135cef07df79df72e948d75a23
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302735"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596835"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Registro de Detalhes de Chamadas: Criar Nova ou Editar Existente
  

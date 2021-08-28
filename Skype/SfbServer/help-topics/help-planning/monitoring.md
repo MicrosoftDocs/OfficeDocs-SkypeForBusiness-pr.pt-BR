@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.Monitoring
 - ms.lync.plan.Monitoring
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: No Skype for Business Server 2015, o monitoramento é usado para coletar informações de uso e dados de Qualidade da Experiência (QoE) sobre as sessões de comunicação em que seus usuários estão envolvidos.
-ms.openlocfilehash: 8023054ad0e8d71c3a55fdaeafbaf80b6bac8cf2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: a6410745ed1bdcf54f9ecd4356bad27e6e41d79b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235156"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596715"
 ---
 # <a name="skype-for-business-server-monitoring-planning-tool"></a>Skype for Business Server: Ferramenta de planejamento de monitoramento
 
