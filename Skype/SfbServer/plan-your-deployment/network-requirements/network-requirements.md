@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumo: revise as considerações do componente de rede abaixo antes de implementar Skype for Business Server.'
-ms.openlocfilehash: dc2e56c1c918a9ebdaf8a40bfcdb6530fae283b6b2733b4def890c6b26630c29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 272ac60f4322d1d9153a6518e20d02c07e066def
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323003"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623573"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planejar requisitos de rede para Skype for Business
 
@@ -142,7 +142,7 @@ A versão estéreo do codec G.722 é usada por sistemas que se baseiam no Lync R
 
 |**Codec de vídeo**|**Resolução e proporção**|**Taxa máxima de bits de carga de vídeo (Kbps)**|**Taxa mínima de bits de carga de vídeo (Kbps)**|
 |:-----|:-----|:-----|:-----|
-|H.264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15  <br/> |
+|H.264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15   <br/> |
 |H.264/RTVideo  <br/> |424x240 (16:9)  <br/> 320x240 (4:3)  <br/> |350  <br/> |100  <br/> |
 |H.264  <br/> |480x270 (16:9)  <br/> 424x320 (4:3)  <br/> |450  <br/> |200  <br/> |
 |H.264/RTVideo  <br/> |640x360 (16:9)  <br/> 640x480 (4:3)  <br/> |800  <br/> |300  <br/> |
@@ -150,7 +150,7 @@ A versão estéreo do codec G.722 é usada por sistemas que se baseiam no Lync R
 |H.264  <br/> |960x540 (16:9)  <br/> |2000  <br/> |500  <br/> |
 |H.264/RTVideo  <br/> |1280x720 (16:9)  <br/> |2500  <br/> |700  <br/> |
 |H.264  <br/> |1920x1080 (16:9)  <br/> |4000  <br/> |1500  <br/> |
-|H.264/RTVideo  <br/> |960x144 (20:3)  <br/> |500  <br/> |15  <br/> |
+|H.264/RTVideo  <br/> |960x144 (20:3)  <br/> |500  <br/> |15   <br/> |
 |H.264  <br/> |1280x192 (20:3)  <br/> |1000  <br/> |250  <br/> |
 |H.264  <br/> |1920x288 (20:3)  <br/> |2000  <br/> |500  <br/> |
 
@@ -194,7 +194,7 @@ Além da largura de banda necessária par ao tráfego do protocolo de transporte
 |:-----|:-----|
 |Áudio  <br/> |5   <br/> |
 |Vídeo (Somente H.264 ou RTVideo sendo enviado/recebido)  <br/> |10   <br/> |
-|Vídeo (H.264 e RTVideo sendo enviados/recebidos)  <br/> |15  <br/> |
+|Vídeo (H.264 e RTVideo sendo enviados/recebidos)  <br/> |15   <br/> |
 
 Para o planejamento de capacidade, as duas estatísticas a seguir são de interesse:
 

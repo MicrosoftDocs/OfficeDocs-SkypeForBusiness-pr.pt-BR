@@ -8,19 +8,19 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karuanag
 description: Ferramentas de planejamento, workshops e kits de introdução para ajudar as empresas a começar a usar o Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f384baff6aa12b241e69e0214f5aa9561e5c1df68970c949d9448a344b94cb7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 159ff348fcc519b2ddc837021263f5c6851214d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282554"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636665"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams
 

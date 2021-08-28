@@ -9,18 +9,18 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Saiba como usar o assistente de integração do Trabalho de Linha de Frente para implantar rapidamente uma experiência no Teams que é personalizada para os funcionários e gerentes de linha de frente em sua organização.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e73a4c4008d028e564c25b5842c7b59e2a57b
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: da44a5eb25e56a974214472782e424cda735b6dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636799"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Use o assistente de integração do Trabalho de Linha de Frente para fazer sua força de trabalho de linha de frente funcionar
 
