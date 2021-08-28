@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Resumo: saiba como criar um compartilhamento de arquivos Windows Server como parte da instalação do Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 5b21f2b28c7f4c33105f5cffa96067668a08fbb00978737fd2fbf448cca6a8f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3ffda81449a3719e6ba3feffba14266b7f79cb3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310000"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595955"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Criar um compartilhamento de arquivos Skype for Business Server
  

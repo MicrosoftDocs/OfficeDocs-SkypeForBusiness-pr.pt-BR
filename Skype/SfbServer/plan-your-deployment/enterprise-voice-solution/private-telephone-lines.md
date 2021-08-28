@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: Planejamento de linhas telefônicas privadas (secundárias) Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: e76f43ebdc4ee38a266651ddc81630c51a9ef976a1f18e6117cec9a1925fe5ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f682d6d150bd52093d8c7bbb050b53b95ac3125
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302355"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603840"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planejar linhas telefônicas privadas com Skype for Business
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerOptionsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 'Selecione cada recurso que você deseja habilitar para o pool de Borda. Por padrão, o pool de Borda dá suporte a usuários remotos em sua organização que se insere fora do firewall usando uma VPN (rede virtual privada). Você também tem as seguintes opções de recurso de pool de borda:'
-ms.openlocfilehash: 2b373f1821b754ee274dcd67d5c5812792f2dac6cb65d235a212f40aedbee63f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b50d91f77a50579db7ba4d84b9a97f720372b680
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636125"
 ---
 # <a name="add-edge-server-options"></a>Adicionar Opções de Servidor de Borda
 

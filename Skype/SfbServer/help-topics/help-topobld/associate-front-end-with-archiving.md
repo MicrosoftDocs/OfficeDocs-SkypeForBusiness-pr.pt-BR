@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithArchivingPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 description: Cada pool de Front-Ends e Aparelho de Filial Persistente pode ter somente um Servidor de Arquivamento associado. Quando o arquivamento estiver habilitado no local, o Servidor de Arquivamento coletará e registrará conteúdo de mensagens do sistema de IM (sistema de mensagens instantâneas) e de Webconferências das conversas envolvendo os usuários hospedados nos pools e Aparelhos de Filial Persistentes associados.
-ms.openlocfilehash: 3c9c6a97cafdfb16f536a9f822e6becb89a63e317a0ea5e510e559ea4839c312
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e595062b3f61a213fd9af70097266f6a1e017e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616697"
 ---
 # <a name="associate-front-end-with-archiving"></a>Associar Front-end com Arquivamento
  

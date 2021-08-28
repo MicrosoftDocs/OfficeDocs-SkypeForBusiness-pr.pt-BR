@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewLoc
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 8f6596ccbd58526a14f814a0655f65d7547987c14d28d5a63bc823282bcf20dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 452fa7eaaf5cac0514359b4f0e54afbeda8231c2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345070"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623933"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Usuários: Exibir ou Configurar Política de Local
 

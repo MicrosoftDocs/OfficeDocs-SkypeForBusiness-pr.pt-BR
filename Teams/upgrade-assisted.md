@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: billkau
 audience: admin
 description: Visão geral das atualizações assistidas do Skype for Business Online para Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c9183ffd67455e93f4d22306dbb26a66af65a81b2cc01bc44024ba124f1d671
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bc890a4a84d86086ace0f85e25aa0c86c99a0e43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589461"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Atualizações assistidas do Skype for Business Online para Microsoft Teams
 

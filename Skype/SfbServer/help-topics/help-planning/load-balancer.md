@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 'Se você tiver pools de Front-End, pools de diretores ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Veja mais detalhes em:'
-ms.openlocfilehash: 8cdce9f6214d6427798f1e0edfea45033fab212d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 262541ff04fcb1b9ed1f2be9713ee92746169cfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234006"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636185"
 ---
 # <a name="skype-for-business-server-load-balancer-planning-tool"></a>Skype for Business Server Ferramenta de planejamento do Balanceador de Carga
  

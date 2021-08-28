@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 'Resumo: saiba como gerenciar políticas de usuário para arquivamento para Skype for Business Server.'
-ms.openlocfilehash: d04406de44510c1d1bc63921e5fa6c5dab817ad81c8cba7dc391ec0ee8454716
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47c88ea294a3b8ea96f7904041a95fa6f0330816
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329585"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616577"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Gerenciar políticas de arquivamento em Skype for Business Server
 
