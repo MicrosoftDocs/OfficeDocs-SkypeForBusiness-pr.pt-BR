@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre diferentes combinações de criação de usuário e quais combinações são suportadas ou sem suporte.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5b272ba42235b37b15c44d69fb4d96a444bd3b79498d0ade02aa0e1d15668a4c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34a531c19ba0b7aebc16b09b360c363eff4a1198
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279728"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634845"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 

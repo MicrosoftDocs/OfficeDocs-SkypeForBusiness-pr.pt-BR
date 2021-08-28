@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Marrocos.
-ms.openlocfilehash: 70fb0596e9ba9c8d78fffb659dba58c996977382b587c18869fddd746b4fd539
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 232e50d35f746a4f1281f1efd93f9d28874b4dc3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296898"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634885"
 ---
 # <a name="availability-in-morocco"></a>Disponibilidade no Marrocos
 

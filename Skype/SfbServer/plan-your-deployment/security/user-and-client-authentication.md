@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Um usuário confiável é aquele cujas credenciais foram autenticadas por um servidor confiável em Skype for Business Server. Esse servidor geralmente é um Standard Edition, Front-End Enterprise Edition ou Diretor. Skype for Business Server se baseia nos Serviços de Domínio do Active Directory como o repositório único e confiável de credenciais de usuário.
-ms.openlocfilehash: 5c0a193f8164faac112a5539154eb95baac20ce5313d07607a96c509a3d06736
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 069ce556f37591f7332e8e968dc02e657b090d03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346407"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627793"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Autenticação de usuário e cliente para Skype for Business Server
  

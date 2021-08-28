@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Use políticas de retenção do Microsoft Teams para manter as mensagens de que sua organização precisa para estar em conformidade com políticas internas, regulamentos do setor ou requisitos legais e excluir mensagens que são consideradas uma vulnerabilidade ou que não têm valor comercial legal.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a122bd1d0bb3c8cba450293b43f7532f36c510831bd301ed30d9955a9a1f8d31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296688"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634835"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gerenciar políticas de retenção para o Microsoft Teams.
 

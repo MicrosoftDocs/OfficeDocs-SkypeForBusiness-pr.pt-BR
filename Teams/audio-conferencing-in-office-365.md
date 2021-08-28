@@ -17,7 +17,7 @@ audience: admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre como a Audioconferência em Microsoft 365 ou Office 365 permite que os usuários liguem para reuniões de seus telefones.
-ms.openlocfilehash: 46c3c1c7e2fde92d2c8fa37978c9c3c19928dadd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ffb24b35171e59ec99d9145362a51c51cd5f2ecb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232816"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633435"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Audioconferência em Microsoft 365
 A audioconferência em Microsoft 365 e Office 365 permite que os usuários liguem para reuniões de seus telefones. Audioconferência permite até 1.000 participantes de telefone.

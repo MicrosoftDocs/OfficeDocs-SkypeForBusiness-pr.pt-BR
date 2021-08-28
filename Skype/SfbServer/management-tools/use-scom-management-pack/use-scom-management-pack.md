@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumo: saiba como configurar sua infraestrutura Skype for Business Server 2015 para trabalhar com System Center Operations Manager.'
-ms.openlocfilehash: d2a026de164a58365377f697aa88cf91b728722875aa9cdf8733444055742ce1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5dc5a4c01cd4e45c6b1145725b17073d910e66f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283213"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627973"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gerenciar Skype for Business Server 2015 usando o pacote de gerenciamento SCOM
  
@@ -130,7 +130,7 @@ Skype for Business Server pacotes de gerenciamento 2015 fornecem cobertura maior
 |:-----|:-----|:-----|
 |1  <br/> |Registro (logon do usuário)  <br/> |Lync Server 2010 disponível e além  <br/> |
 |2  <br/> |Serviço de Livro de Endereços (download de arquivo)  <br/> |Lync Server 2010 disponível e além  <br/> |
-|3  <br/> |Consulta à web do Catálogo de endereços  <br/> |Lync Server 2010 disponível e além  <br/> |
+|3   <br/> |Consulta à web do Catálogo de endereços  <br/> |Lync Server 2010 disponível e além  <br/> |
 |4   <br/> |Presença  <br/> |Lync Server 2010 disponível e além  <br/> |
 |5   <br/> |Armazenamento de Contato Unificado  <br/> |Lync Server 2013 disponível e além  <br/> |
 ||||   
@@ -149,11 +149,11 @@ Skype for Business Server pacotes de gerenciamento 2015 fornecem cobertura maior
 |:-----|:-----|:-----|
 |9   <br/> |Conferências de áudio/vídeo  <br/> |Disponível no Lync Server 2010 e além  <br/> |
 |10   <br/> |Conferência de Dados  <br/> |Disponível no Lync Server 2013 e além  <br/> |
-|11  <br/> |Conferência de Mensagens Instantâneas  <br/> |Disponível no Lync Server 2010 e além  <br/> |
+|11   <br/> |Conferência de Mensagens Instantâneas  <br/> |Disponível no Lync Server 2010 e além  <br/> |
 |12   <br/> | Chat persistente <br/> |Disponível no Lync Server 2013 e além  <br/> |
-|13  <br/> |Ingressar no Launcher (reuniões agendadas)  <br/> |Disponível no Lync Server 2013 e além  <br/> |
+|13   <br/> |Ingressar no Launcher (reuniões agendadas)  <br/> |Disponível no Lync Server 2013 e além  <br/> |
 |14   <br/> |Discar em conferência  <br/> |Novo no Skype for Business Server 2015  <br/> |
-|15  <br/> |Conferência de Compartilhamento de Aplicativos  <br/> |Novo no Skype for Business Server 2015  <br/> |
+|15   <br/> |Conferência de Compartilhamento de Aplicativos  <br/> |Novo no Skype for Business Server 2015  <br/> |
 |16   <br/> |Conferência UCWA (união de reunião da Web)  <br/> |Novo no Skype for Business Server 2015  <br/> |
 ||||
 

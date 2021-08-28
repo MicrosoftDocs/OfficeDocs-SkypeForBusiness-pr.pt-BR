@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como carregar seus aplicativos personalizados no armazenamento de aplicativos da sua organização no Microsoft Teams de administração.
-ms.openlocfilehash: add429a0f662db852f78d9b178b046611ecb4e39ebf86729a1d0398fa1583e2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e5eecc0bb5f5ed7c03552057cca6d42f7395ca2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321043"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634695"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar um aplicativo personalizado carregando um pacote de aplicativos
 
