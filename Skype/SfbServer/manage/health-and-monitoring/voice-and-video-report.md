@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 'Resumo: saiba mais sobre o Relatório de Voz Ponto a Ponto e Vídeo no Skype for Business Server.'
-ms.openlocfilehash: 66d121965d7046a823e26bff8a14fba6ce8213690fcaa4a21ab7a31f4db9f904
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b5b9bb3ad0bed9182c41734ed6e173ae9e3febd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324320"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601466"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Relatório de voz ponto a ponto e vídeo no Skype for Business Server
  
@@ -55,7 +55,7 @@ Os filtros fornecem uma maneira de você retornar um conjunto de dados mais dire
   
 **Filtros de relatório de voz e vídeo ponto a ponto**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data e hora de início para o intervalo de tempo. Para exibir os dados por horas, digite a data e a hora de início da seguinte maneira:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -70,7 +70,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Voz Ponto a
   
 **Métricas para atividade de voz ponto a ponto e vídeo por pool**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Pool** <br/> |Não  <br/> |Nome do pool de Registradores ou Servidor de Borda usado para a chamada.  <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e período de tempo em que a chamada ocorreu.  <br/> |
@@ -82,7 +82,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Voz Ponto a
   
 **Métricas para atividade de voz ponto a ponto e vídeo por tipo de chamada**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de chamada** <br/> |Não  <br/> | Indica o tipo de chamada realizada. Os valores são um dos seguintes: <br/>  UC-para-UC <br/>  UC-to-PSTN <br/>  PSTN-to-UC <br/>  PSTN-to-PSTN <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e período de tempo em que a chamada ocorreu.  <br/> |
@@ -94,7 +94,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Voz Ponto a
   
 **Métricas para atividade de voz e vídeo ponto a ponto por tipo de acesso**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de atividade** <br/> |Não  <br/> | Indica se os clientes estavam conectados à rede interna ou à rede externa quando a chamada foi feita. Normalmente, os valores são um dos seguintes: <br/>  Interno <br/>  Externo <br/>  Mistos <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e período de tempo em que a chamada ocorreu.  <br/> |
@@ -106,7 +106,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Voz Ponto a
   
 **Métricas para atividade de voz e vídeo ponto a ponto pelo servidor de mediação**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Servidor de mediação** <br/> |Não  <br/> |Nome do Servidor de Mediação.  <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e período de tempo em que a chamada ocorreu.  <br/> |

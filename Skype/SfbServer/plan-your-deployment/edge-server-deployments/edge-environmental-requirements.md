@@ -9,19 +9,19 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumo: saiba mais sobre os requisitos ambientais para o Servidor de Borda Skype for Business Server.'
-ms.openlocfilehash: c5ca6786d2935209930fe815ea32a24643febb18a7df87f29b26f3c396ca0c66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 492a4c2ec5a90ea8e2c3eb55ea48a4afec16c67f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302525"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635235"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos ambientais do Servidor de Borda em Skype for Business Server
  
@@ -103,16 +103,16 @@ Pode ser um pouco mais complicado com topologias consolidadas em escala, portant
 |**Número de Servidores de Borda por pool**|**Número de endereços IP necessários para balanceamento de carga DNS**|**Número de endereços IP necessários para balanceamento de carga de hardware**|
 |:-----|:-----|:-----|
 |2  <br/> |6   <br/> |3 (1 por VIP) + 6  <br/> |
-|3  <br/> |9   <br/> |3 (1 por VIP) + 9  <br/> |
+|3   <br/> |9   <br/> |3 (1 por VIP) + 9  <br/> |
 |4   <br/> |12   <br/> |3 (1 por VIP) + 12  <br/> |
-|5   <br/> |15  <br/> |3 (1 por VIP) +15  <br/> |
+|5   <br/> |15   <br/> |3 (1 por VIP) +15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>Requisitos de endereço IP para Borda consolidada de escala (endereço IP único para todas as funções)
 
 |**Número de Servidores de Borda por pool**|**Número de endereços IP necessários para balanceamento de carga DNS**|**Número de endereços IP necessários para balanceamento de carga de hardware**|
 |:-----|:-----|:-----|
 |2  <br/> |2  <br/> |1 (1 por VIP) + 2  <br/> |
-|3  <br/> |3  <br/> |1 (1 por VIP) + 3  <br/> |
+|3   <br/> |3   <br/> |1 (1 por VIP) + 3  <br/> |
 |4   <br/> |4   <br/> |1 (1 por VIP) + 4  <br/> |
 |5   <br/> |5  <br/> |1 (1 por VIP) + 5  <br/> |
    

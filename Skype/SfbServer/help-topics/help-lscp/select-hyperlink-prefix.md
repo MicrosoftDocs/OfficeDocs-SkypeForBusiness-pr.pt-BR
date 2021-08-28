@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Utilize a caixa de diálogo Selecionar Prefixo de Hiperlinkpara selecionar os tipos de hiperlinks que deseja bloquear, enviar uma mensagem de aviso, ou permitir selecionando (bloquear ou enviar uma mensagem de aviso) ou anulando a seleção (para permitir) das caixas de diálogo para suas extensões das categorias sob Prefixos de Hiperlink. Clique na seta para expandir uma categoria e exibir todos os seus prefixos de hiperlink. Para selecionar todos os prefixos de hiperlink de uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: ba1301bc8c659b4be4a4e8a8a0c2cf8c2c4df2d66aa337dd8853e2d2b7eaf501
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cdbaad047fbac4f18509ec035bd2ffb2f1d15fd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329995"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619057"
 ---
 # <a name="select-hyperlink-prefix"></a>Selecionar Prefixo de Hiperlink
  

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumo: Configure seus requisitos de não servidor para Skype for Business Server 2015. Há uma variedade de coisas que você deseja configurar antes de fazer sua implantação, incluindo Active Directory, DNS, Certs e Fileshares.'
-ms.openlocfilehash: a7e71fb74180223f2dec76ac29c5b7c4b8f85f18f953762db383f43812bfd5e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dfaf19ac3c34a13055cd496ad25d02cd4b89c783
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341856"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601326"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos ambientais Skype for Business Server 2015
  

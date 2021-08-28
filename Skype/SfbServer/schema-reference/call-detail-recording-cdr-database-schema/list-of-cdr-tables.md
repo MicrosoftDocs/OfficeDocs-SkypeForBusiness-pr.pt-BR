@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: O esquema de banco de dados de registro de detalhes das chamadas (CDR) consiste nas seguintes tabelas.
-ms.openlocfilehash: 27381a95a5de2613845fa831e8730a1bc06d374ae7936eaedb31d239b3dbb0cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343245"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635125"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Lista de tabelas cdr no Skype for Business Server 2015
  

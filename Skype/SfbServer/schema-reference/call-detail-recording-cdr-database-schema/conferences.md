@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Cada registro nesta tabela contém detalhes de chamada sobre uma conferência.
-ms.openlocfilehash: d7079097b3eb29999d00a44b23f05127daf95ee4ad1eb87097ec9e77a93682b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dfc1c12908e60c7a5b205c154e30175168871ceb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635205"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabela de conferências no Skype for Business Server 2015
  

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
 description: O artigo é para administradores de IT e descreve estratégias para implementar sua atualização de Skype for Business para Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3247ff29d99769a94314f2bff42699ba071bdce8976b2332b38232bdd7bfc0b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c44d988bdcfbd08f462a99c76b4095bb01ac60c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619337"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Estratégias de atualização para administradores de IT
 

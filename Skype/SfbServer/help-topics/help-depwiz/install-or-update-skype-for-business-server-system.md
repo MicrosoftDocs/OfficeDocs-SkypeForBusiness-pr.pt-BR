@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainDeploySystem
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 description: Para iniciar a instalação ou atualizar uma implantação existente do Skype for Business Server 2015, clique em Instalar ou Atualizar Skype for Business Server. As etapas nesta seção instalarão componentes específicos de uma determinada função de servidor, com base no documento construtor de topologias. Antes de começar essa série de etapas, você deve definir a implantação no Construtor de Topologias. Você deve estar conectado ao computador que está implantando como administrador local e como membro do grupo Administradores de Domínio no domínio onde o servidor está localizado. O computador deve ser ingressado no domínio antes de concluir esta etapa.
-ms.openlocfilehash: a088a700695bca1ceea05411003b48c1f6aa2ca6836d6628b84157a99c3305bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08574a5f4816eeb9a0e15a28c6e84180cf3af0e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313535"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601616"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Instalar ou Atualizar o Sistema Skype for Business Server
 

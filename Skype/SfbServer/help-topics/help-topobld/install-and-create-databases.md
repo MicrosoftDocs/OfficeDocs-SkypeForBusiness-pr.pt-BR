@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Selecione os bancos de dados que você deseja criar para sua implantação. Por padrão, o banco de dados será criado no SQL Server definido no site definido e implantará e configurará automaticamente os arquivos de banco de dados com base no SQL Server em que você está colocando os bancos de dados.
-ms.openlocfilehash: 1a26353ed44529cd19f94b70fdf25f72fbd8f8d4bb81aa0da41c523d3d35a500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f79ac80aac6133396ab2c8dd1a008d82c33c4176
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281054"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618857"
 ---
 # <a name="install-and-create-databases"></a>Instalar e Criar Bancos de Dados
 

@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Resumo: saiba como criar, publicar e verificar uma nova topologia antes de instalar Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: cc5647211732189ba172d75a64e12d93e988c4063827f132b476e8ca96ee2808
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21c37ee17d6a7fbb1db4cce9716fa84f338e4062
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331873"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619157"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Criar e publicar nova topologia no Skype for Business Server
  
@@ -247,4 +247,4 @@ Você pode usar Skype for Business Server Construtor de Topologias para projetar
     
     A mensagem "Concluído com avisos" para a criação do banco de dados não significa que houve um erro. O processo de instalação precisa alterar as configurações no SQL Server para que Skype for Business Server funcione corretamente. Quando uma configuração é alterada SQL Server, ela é registrada como um aviso para que os administradores SQL Server possam entender exatamente o que o processo de instalação foi concluído. Se você receber um aviso, poderá selecionar o registro e clicar em **Exibir Logs** para exibir os detalhes do aviso.
     
-    Quando a topologia for publicada com êxito, você poderá começar a instalar uma réplica local do armazenamento de Gerenciamento Central em cada servidor executando o Skype for Business Server em sua topologia. Recomendamos que você comece com o primeiro pool de Front-End. 
+    Quando a topologia tiver sido publicada com êxito, você poderá começar a instalar uma réplica local do armazenamento de Gerenciamento Central em cada servidor executando Skype for Business Server em sua topologia. Recomendamos que você comece com o primeiro pool de Front-End. 

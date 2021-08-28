@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Skype for Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário das políticas de cliente ou conferência, onde você pode ter várias combinações, há três políticas de acesso externo predefinidas que podem abranger a maioria dos cenários.
-ms.openlocfilehash: 4db20c286f342662adffeeaeae17737651791f56f74be6558138756b7e65e767
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d0ecf5051de17f923983e16f35eb22b66c41571e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282384"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619267"
 ---
 # <a name="create-custom-external-access-policies"></a>Criar políticas personalizadas de acesso externo
 

@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Informações sobre a ferramenta de planejamento Skype for Business Server Visão Geral de Recursos.
-ms.openlocfilehash: 3729efd7269680ae9186cf498eb7df21fe1abc959344fac2207a6bd5e02e3903
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 74436290cfade5993a466b1e444d81a256e5882e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338289"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618867"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype for Business Server Ferramenta de planejamento de visão geral de recursos
  

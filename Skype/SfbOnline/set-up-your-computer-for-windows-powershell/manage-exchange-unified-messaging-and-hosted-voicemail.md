@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: Use o PowerShell para gerenciar Exchange de Unificação de Mensagens, como Atendedor Automático e Acesso para Assinantes e caixa postal hospedada no Skype for Business Online.
-ms.openlocfilehash: 88ee063b644a24dd2cc0922be5df049af4949699745bb2f6cb27f4d3c8203a57
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb7aa3dc025551fe2759efe3f4bb35ca0dc7ae17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601996"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Gerenciar a Unificação de Mensagens do Exchange e a caixa postal hospedada
 
