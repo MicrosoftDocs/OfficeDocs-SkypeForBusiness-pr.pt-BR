@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Resumo: saiba como verificar se a implantação do Servidor de Borda ou pool do Servidor de Borda está funcionando Skype for Business Server.'
-ms.openlocfilehash: b2d44018bc43f8335081bcfc961108255240095031983066d54463dabc2538ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 175baab9770e6013820e0e632712bf75b7669a57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320923"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583235"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar sua implantação de Borda no Skype for Business Server
  

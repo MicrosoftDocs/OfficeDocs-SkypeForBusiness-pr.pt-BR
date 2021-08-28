@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Comece a trabalhar com o Teams implementando suas primeiras equipes e canais, para que você possa aumentar sua experiência com o Teams antes de implantá-lo o em sua organização.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8d2fed3a011936507febdfcd6bb7dae5aa4c7d385a3ea3fccc49e018f7749a95
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306373"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630205"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
 
@@ -47,9 +47,9 @@ Recomendamos implementar o Teams em etapas, uma carga de trabalho por vez, à me
 
 Se você tiver uma organização de médio ou grande porte, [use o Consultor do Teams para ajudá-lo a lançar o Microsoft Teams](use-advisor-teams-roll-out.md) para ajudá-lo a implantar essas cargas de trabalho em toda a sua organização. O Consultor usa o próprio Teams para criar tarefas de plano e atribuí-las a proprietários, compartilhar documentos e habilitar discussões entre sua equipe de implantação.
 
-## <a name="make-sure-youre-ready&quot;></a>Verifique se você está pronto
+## <a name="make-sure-youre-ready"></a>Verifique se você está pronto
 
-Com o intuito de se preparar para a implantação do Teams, confira aqui o que você precisa fazer, seja o Teams sua primeira carga de trabalho (&quot;Teams Primeiro") ou a próxima carga de trabalho em uma implantação existente do Microsoft 365 ou Office 365:
+Com o intuito de se preparar para a implantação do Teams, confira aqui o que você precisa fazer, seja o Teams sua primeira carga de trabalho ("Teams Primeiro") ou a próxima carga de trabalho em uma implantação existente do Microsoft 365 ou Office 365:
 
 - [Preparo da rede da sua organização para o Teams](prepare-network.md)
   - Isso inclui configurar seu domínio do Microsoft 365 ou Office 365, SharePoint Online, Exchange Online e OneDrive for Business.

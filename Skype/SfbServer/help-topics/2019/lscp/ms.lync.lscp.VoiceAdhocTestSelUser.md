@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar Enterprise Voice Usuários para encontrar usuários habilitados para Enterprise Voice. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do usuário que você deseja localizar e clique em Localizar. Para selecionar um usuário, clique no usuário na lista de resultados da pesquisa e clique em OK. Se você não conseguir encontrar o usuário que você está procurando, esse usuário pode não estar habilitado para Enterprise Voice.
-ms.openlocfilehash: 67ccafdcaa4db3a235fcf4176379ed5cb7647b3ae2a4cfc5c642cca82a991bf7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25430def4c98cc074ca76058b54df51da9b5a758
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328536"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583125"
 ---
 # <a name="select-enterprise-voice-users"></a>Selecionar Usuários do Enterprise Voice
  

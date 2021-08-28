@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: Leia estes tópicos para saber como provisionar Exchange e Skype contas para Skype Room System.
-ms.openlocfilehash: bee430c434a710f0560e78eef9ebce31d198549fdb4ee9a88861afb5ab9e8760
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 00fb6c2d3d9a0eb9a68d4aca868f035c1300aff3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338879"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583305"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Provisionamento de Skype room system Exchange e Skype Contas
  

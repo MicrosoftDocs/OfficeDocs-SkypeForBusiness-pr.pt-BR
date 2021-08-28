@@ -12,15 +12,15 @@ ms.custom:
 - ms.lync.plan.Mobility
 - ms.lync.plan.Mobility
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: O recurso de mobilidade no Skype for Business Server oferece suporte Skype for Business funcionalidade em dispositivos móveis.
-ms.openlocfilehash: f8853aedbfcb59f43452c9d48eba9c782255b0005d90a27767dc939f522eb5c4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c03de74d6c67b005938405700ad5331030839001
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342516"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582995"
 ---
 # <a name="skype-for-business-server-mobility-planning-tool"></a>Skype for Business Server Ferramenta de planejamento de mobilidade
  

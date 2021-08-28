@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Consulte como selecionar os idiomas de atendimento automático de audioconferência para um número de audioconferência em Microsoft Teams.
-ms.openlocfilehash: 1238cebfa9be1c37e6754234338273738f06e07a8e495631361cb76fdcbc63cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 427510e5026a5812ab14db21a7410c4d9c3e2a8f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630053"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Definir idiomas para o atendedor automático de Audioconferência no Microsoft Teams
 

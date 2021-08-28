@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.EdgeNetwork
 - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os componentes a seguir comem a topologia de Borda da rede de perímetro. Exceto quando notados, os componentes fazem parte dos cenários do Servidor de Borda Skype for Business Server e estão na rede de perímetro. Os componentes de Borda incluem:'
-ms.openlocfilehash: f3f9f3bbdbfb385229ffc221de38462b0dccd182654f8625784531796a2efc0b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd53b8526ffa2610ad279584464ba3b77e155b34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311899"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583005"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Rede de Borda (Ferramenta de Planejamento) em Skype for Business 
  

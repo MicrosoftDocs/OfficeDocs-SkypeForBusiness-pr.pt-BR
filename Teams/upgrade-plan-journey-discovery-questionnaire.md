@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Use esta orientação para saber mais sobre os requisitos para avaliar corretamente seu ambiente atual para atualização para Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32687604a0ad531ab06b67401d27001ab9559eb95f77fabaaea5ef57dc9e2b9a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7b8fa73141777bb55a020871558a7c6b95aba17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332333"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629903"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>Questionário de descoberta - Avaliar seu ambiente
 

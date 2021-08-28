@@ -14,18 +14,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre licenças de complemento para Microsoft Teams e os recursos que você recebe com cada licença.
-ms.openlocfilehash: 568ff0edd9dea24bca6eba02f0972f04990721cc4d68522fd6c9d6d76adc2bc0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 238b49964169e3128cd18d47eddc1f39255823aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350423"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630003"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams licenças de complemento
 

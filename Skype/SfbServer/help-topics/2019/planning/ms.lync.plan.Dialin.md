@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.Dialin
 - ms.lync.plan.Dialin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server conferência discada permite aos usuários ingressar na parte de áudio de uma conferência Skype for Business Server usando um telefone PSTN (rede telefônica pública comutado) sem exigir um provedor de audioconferência de terceiros.
-ms.openlocfilehash: ebf5f5239f48f9362e6092bcaf867da74c513c073ff2215f32f7b594f1abb834
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bf45b8b19e09131ddc3bf5c32cb3a80808b797fe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328566"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583025"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Conferência discda (Ferramenta de Planejamento)
  

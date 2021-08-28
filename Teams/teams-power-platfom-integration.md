@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais Teams integração com ferramentas do Microsoft Power Platform, incluindo Power BI, aplicativos do Power, Power automate e Power Virtual Agents.
-ms.openlocfilehash: 35663c2e16afe26d339b54ba4c093beb2c8a9f7f1ade8ece1204a673cff28fd7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 521085303ed77f23aae0bd8a87001483cc8d530f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312469"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629943"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams integração com a Plataforma Microsoft Power
 

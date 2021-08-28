@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Altere as configurações da ponte de audioconferência, incluindo notificações de entrada e saída, reproduza nomes ou números de telefone, tons e chamadores de prompt para registrar seu nome.
-ms.openlocfilehash: eaa757a45c94d0dd6d01366db3039150dce057243709b30c711a7ca69963cbca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 434142eb0e7d8cd4759eec180e903eaecad47525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607848"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de audioconferência
 
