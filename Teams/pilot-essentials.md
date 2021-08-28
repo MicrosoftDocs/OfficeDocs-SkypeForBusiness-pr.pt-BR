@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Diretrizes para iniciar um Microsoft Teams piloto para explorar tudo o que Teams pode oferecer à sua organização, enquanto você continua a usar Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68cd0101629444c7b1bb03e363ce5881bbf67fb80f78bbffd170f25314be0011
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6164d1db4117550519c170b982cc8285196203a2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613610"
 ---
 # <a name="conduct-a-user-pilot"></a>Realizar um piloto de usuário
 

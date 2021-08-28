@@ -11,18 +11,18 @@ search.appverid: MET150
 description: Saiba como Microsoft Teams dá suporte a equipes associadas Microsoft 365 grupos usando associação dinâmica.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bec8b60385185cf1e7417fb5396ef164eb585bad03d003eb174d0bb9cf30c4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3a18e2cbe1a34fe78f5e84b4df4ae9a95c46fd9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315297"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613630"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Visão geral da associação dinâmica de equipes
 

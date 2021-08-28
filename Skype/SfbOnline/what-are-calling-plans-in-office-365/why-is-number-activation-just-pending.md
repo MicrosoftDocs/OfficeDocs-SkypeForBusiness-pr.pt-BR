@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62558171dc8f6fb93d140995d3ce7cff56227519
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330585"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599566"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Por que a ativação de número está pendente?
 

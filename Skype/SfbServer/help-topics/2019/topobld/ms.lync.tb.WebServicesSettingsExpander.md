@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: No Construtor de Topologias, você pode modificar as configurações de porta usadas para seus serviços Web internos e externos. Além disso, e se você estiver implantando o balanceamento de carga DNS (Sistema de Nomes de Domínio), poderá usar o Construtor de Topologias para configurar o FQDN (nome de domínio totalmente qualificado) do pool que se resolve para os endereços IP físicos de todos os servidores nesse pool.
-ms.openlocfilehash: aafce1b005969c660dc6822e02ceef27ee8be8c0eabff59917c0f8160bed0c50
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f160259a78f5d95bd7e5e7e974579ddebe738115
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596985"
 ---
 # <a name="web-services-settings-expander"></a>Expansor de Configurações de Serviços da Web
  

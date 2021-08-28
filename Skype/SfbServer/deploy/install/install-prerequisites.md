@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Resumo: saiba mais sobre os servidores e funções de servidor que você deve configurar antes de instalar Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 5d44a95be8c05b8a171b7bd72b9aaeaf19ff8fbc67247388e89cfea16dc6e21a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 998fa2371e0d0b0d62ce3755a6be881f49956eef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280296"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624363"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Instalar pré-requisitos para Skype for Business Server
  

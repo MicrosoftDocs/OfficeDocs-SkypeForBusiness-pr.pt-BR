@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber mais sobre as etapas para implantar o bypass de mídia com o Cloud Connector Edition versão 2.0 e posterior.
-ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: edc00467d878f0f2ae137c86f179f864bb2ca53f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289429"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613771"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar bypass de mídia no Cloud Connector Edition
  

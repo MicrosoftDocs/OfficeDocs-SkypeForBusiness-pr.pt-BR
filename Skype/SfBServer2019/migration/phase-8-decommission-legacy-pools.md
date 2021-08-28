@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: httpsfix
 description: O tópico a seguir fornece orientações para atualizar entradas DNS, mover o Servidor de Gerenciamento de Conteúdo, desativar pools e desativar e remover servidores e pools de uma implantação herdda. Nem todos os procedimentos listados nesta seção são obrigatórios. Leia a documentação e determine qual procedimento de descomissionamento usar.
-ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7285ffd7c4d4087dba3b9fe9bf7ff2fadba2b62e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613300"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Encerrar os pools herdados
 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Saiba mais sobre como planejar sua atualização se alisando aos participantes e, em seguida, desempare o projeto.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 186f7f2e3e4d6c07714925162b7aa492873824dd30bef23f4f64c68273b60c15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33b6e23a5259c81612a392b6befd7b7e6d256287
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323733"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623153"
 ---
 # <a name="plan-for-your-upgrade"></a>Planejar sua atualização
 

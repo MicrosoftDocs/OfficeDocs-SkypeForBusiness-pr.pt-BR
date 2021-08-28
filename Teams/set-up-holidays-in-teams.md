@@ -13,19 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Saiba como configurar feriados em Microsoft Teams para uso com seus atendentes automáticos.
-ms.openlocfilehash: c7fa5d44f836e35022acab24c2d4b7ad6c60536295bba7adba8fc568b1560443
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f914243984c9fef70b1217cce504ffd983263e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351741"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623223"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar feriados no Microsoft Teams
 

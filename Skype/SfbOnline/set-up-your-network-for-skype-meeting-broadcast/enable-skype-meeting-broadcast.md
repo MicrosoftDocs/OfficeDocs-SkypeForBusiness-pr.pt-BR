@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
 description: Para que as pessoas em sua organização possam usar Reunião do Skype Transmissão, você precisa habilita-la. Para fazer isso, você precisa saber como usar Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um Parceiro Microsoft para realizar essa etapa para você.
-ms.openlocfilehash: 99e5464ac092f30edf2667dbfd772b11c41ca4a795893e1e3415a54cf566ee44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f16444a07c81b44e4078a2c294208f59e4d7775
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339259"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599666"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar a Transmissão de Reunião do Skype
 

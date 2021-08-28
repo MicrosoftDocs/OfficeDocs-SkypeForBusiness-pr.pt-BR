@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone em Portugal para Microsoft Teams.
-ms.openlocfilehash: b0f462ac4ade1c89e512a62f18cd219978533bd4
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 623b5fb6b93f5f195a932751ff041d0f0040a3d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380575"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613620"
 ---
 # <a name="phone-number-management-for-portugal"></a>Telefone gerenciamento de números para Portugal
 

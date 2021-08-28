@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Você pode mover usuários para a nova implantação Skype for Business Server 2019 usando o Painel de Controle Skype for Business Server ou o Shell de Gerenciamento Skype for Business Server. Você deve atender a alguns requisitos para garantir uma transição suave para Skype for Business Server 2019. Para obter detalhes sobre os pré-requisitos para concluir os procedimentos neste tópico, consulte Configure clients for migration. Para etapas detalhadas sobre como mover usuários, consulte Fase 4: Mover usuários de teste para o pool piloto.'
-ms.openlocfilehash: a2742acf32899aca71c28da733c723640a8c1e9200f26f793a918eac04714f15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60742068bc684470d181593e94615da2a8d79ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300627"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623103"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Mover usuários restantes para Skype for Business Server 2019
 

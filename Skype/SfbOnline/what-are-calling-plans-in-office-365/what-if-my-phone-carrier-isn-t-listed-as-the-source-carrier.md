@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
 description: 'Saiba o que fazer se sua operadora não estiver listada Skype for Business. '
-ms.openlocfilehash: 263e8584179a523934ab76083b601854527bb995bc9f0297bf9bab34a012dd41
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c9916c38496365884e75e8777f42958c45bb0e59
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320963"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599616"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>E se minha operadora de telefonia não estiver listada como operadora de origem?
 

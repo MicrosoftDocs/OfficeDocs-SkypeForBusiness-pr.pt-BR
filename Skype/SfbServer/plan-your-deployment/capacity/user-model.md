@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Este artigo fornece orientações sobre quantos servidores você precisa em um site para o número de usuários nesse site, de acordo com o uso descrito em Modelos de usuário em Skype for Business Server.
-ms.openlocfilehash: b7222390f379bca79dfee7ab2e9f2c081118b22d635a1ef2edb2f1fc9ac0b70b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eaf5318e78761143d1c711b1603797b3b8e699f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338109"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599926"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Uso do modelo de usuário de planejamento de capacidade para Skype for Business Server
 

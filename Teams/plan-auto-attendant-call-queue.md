@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre os atendimentos automáticos e filas de chamada e como usá-los para ajudar os chamadores a passar por um sistema de menus para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 45617fa683c726cf7f2432fed6008b6626ae30ad1a551db842974ea7a9bc18c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d4a3a71e2d94de88f01c3a62dc507095ffef49e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310450"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613600"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar Teams atendimentos automáticos e filas de chamada
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: 'Resumo: saiba mais sobre as etapas para gerenciar sua topologia Skype for Business Server.'
-ms.openlocfilehash: 7738d7ad662a1d06c9536e016456d91882c775a030857c9c839fd04a55d0da76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b617104a1dfe45f867376f49fd4ac24900f6510
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290269"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599946"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>Gerenciar sua topologia em Skype for Business Server 
  

@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Resumo: Saiba como implantar servidores de borda em seu ambiente Skype for Business Server ambiente.'
-ms.openlocfilehash: 6d098a78fe0fbb005bc023790e59416601eeab8c3c4d8b1378a71bfcf3d59a02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 611e2e6b4bbc3ef8f1d140b02d8dc3f2bc719953
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623023"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implantar servidores de borda Skype for Business Server
  
@@ -151,9 +151,9 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. Clique no certificado raiz emitido por sua AC. Clique com o botão direito do mouse no certificado, escolha **Todas as** Tarefas no menu e selecione **Exportar**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. O **Assistente de Exportação de Certificados** é aberto. Clique em **Próximo**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. O **Assistente de Exportação de Certificados** é aberto. Clique em **Avançar**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. Na caixa **de diálogo Exportar Formato de** Arquivo, escolha o formato para o qual você deseja exportar. Nossa recomendação é **Padrão de Sintaxe de Mensagem Criptográfica - PKCS #7 Certificados (P7b)**. Se essa também for sua escolha, lembre-se de também selecionar a caixa de seleção Incluir todos os certificados no caminho de certificação, se possível, pois isso também exportará a cadeia de certificados, incluindo o certificado ca raiz e quaisquer **certificados** Intermediários. Clique em **Próximo**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. Na caixa **de diálogo Exportar Formato de** Arquivo, escolha o formato para o qual você deseja exportar. Nossa recomendação é **Padrão de Sintaxe de Mensagem Criptográfica - PKCS #7 Certificados (P7b)**. Se essa também for sua escolha, lembre-se de também selecionar a caixa de seleção Incluir todos os certificados no caminho de certificação, se possível, pois isso também exportará a cadeia de certificados, incluindo o certificado ca raiz e quaisquer **certificados** Intermediários. Clique em **Avançar**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viii. Na caixa de diálogo Arquivo para **Exportar,** na entrada nome do arquivo, digite um caminho e um nome de arquivo (a extensão padrão seria .p7b) para o certificado exportado. Se for mais fácil para você, escolha o botão **Procurar** para ir até o local para o qual você deseja salvar o certificado exportado e nomee o certificado exportado aqui. Clique **em** Salvar e **em Próximo** quando estiver pronto.
     
@@ -177,9 +177,9 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;g. Na árvore de console, expanda **Certificados (Computador Local),** clique com o botão direito do mouse em Autoridades de Certificação Raiz **Confiáveis,** vá para Todas as Tarefas **e** clique em **Importar**.
     
-&nbsp;&nbsp;&nbsp;h. No assistente que aparece,  na caixa de texto Arquivo a importar, especifique o nome de arquivo do certificado (o nome que você deu ao arquivo .p7b na seção anterior). Clique em **Próximo**.
+&nbsp;&nbsp;&nbsp;h. No assistente que aparece,  na caixa de texto Arquivo a importar, especifique o nome de arquivo do certificado (o nome que você deu ao arquivo .p7b na seção anterior). Clique em **Avançar**.
     
-&nbsp;&nbsp;&nbsp;i. Deixe o botão de opção em **Colocar todos os certificados no seguinte armazenamento, pois autoridades de** certificação raiz confiáveis devem ser selecionadas. Clique em **Próximo**.
+&nbsp;&nbsp;&nbsp;i. Deixe o botão de opção em **Colocar todos os certificados no seguinte armazenamento, pois autoridades de** certificação raiz confiáveis devem ser selecionadas. Clique em **Avançar**.
     
 &nbsp;&nbsp;&nbsp;j. Revise o resumo e clique em **Concluir** para concluir a importação.
     
@@ -193,7 +193,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;c. Na página **Solicitações** Atrasadas ou Imediatas, escolha Enviar a solicitação imediatamente para uma autoridade de certificação **online** se você tiver acesso a uma de seu ambiente de Borda ou Preparar a solicitação **agora,** mas enviá-la posteriormente caso contrário.
     
-&nbsp;&nbsp;&nbsp;d. Na página Arquivo de **Solicitação** de Certificado, insira a parte completa e o nome do arquivo para onde o arquivo será salvo (como c:\SkypeInternalEdgeCert.cer). Clique em **Próximo**.
+&nbsp;&nbsp;&nbsp;d. Na página Arquivo de **Solicitação** de Certificado, insira a parte completa e o nome do arquivo para onde o arquivo será salvo (como c:\SkypeInternalEdgeCert.cer). Clique em **Avançar**.
     
 &nbsp;&nbsp;&nbsp;e. Na página **Especificar Modelo** de Certificado Alternativo, para usar um modelo  diferente do modelo WebServer padrão, marque a caixa de seleção Usar modelo de certificado alternativo para a Autoridade de Certificação selecionada. Caso contrário, não faça nada.
     
@@ -205,7 +205,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. Se você precisar de um certificado exportável, verifique a caixa de seleção Marcar chave privada do certificado **como exportável.**
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iv. Clique em **Próximo**.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iv. Clique em **Avançar**.
     
 &nbsp;&nbsp;&nbsp;g. Na página **Informações da Organização,** insira o nome da sua organização e unidade organizacional (OU). Você pode inserir sua divisão ou departamento (TI, por exemplo).
     
@@ -247,7 +247,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;d. Na caixa **Adicionar ou Remover Snap-ins,** clique em **Certificados** e clique em **Adicionar**.
     
-&nbsp;&nbsp;&nbsp;e. Na caixa de diálogo Snap-in **Certificados,** escolha **Conta de computador**. Clique em **Próximo**.
+&nbsp;&nbsp;&nbsp;e. Na caixa de diálogo Snap-in **Certificados,** escolha **Conta de computador**. Clique em **Avançar**.
     
 &nbsp;&nbsp;&nbsp;f. Na caixa **de diálogo Selecionar Computador,** selecione **Computador local: (o** computador em que o console está sendo executado) . Clique em **Concluir**. Clique **em OK** e a configuração do console MMC é concluída.
     
@@ -307,7 +307,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;d. Na página **Solicitações Atrasadas ou Imediatas**, clique em **Preparar a solicitação agora, mas enviá-la depois**.
     
-&nbsp;&nbsp;&nbsp;e. Na página Arquivo de **Solicitação** de Certificado, insira a parte completa e o nome do arquivo para onde o arquivo será salvo (como c:\SkypeInternalEdgeCert.cer). Clique em **Próximo**.
+&nbsp;&nbsp;&nbsp;e. Na página Arquivo de **Solicitação** de Certificado, insira a parte completa e o nome do arquivo para onde o arquivo será salvo (como c:\SkypeInternalEdgeCert.cer). Clique em **Avançar**.
     
 &nbsp;&nbsp;&nbsp;f. Na página **Especificar Modelo** de Certificado Alternativo, para usar um modelo  diferente do modelo WebServer padrão, marque a caixa de seleção Usar modelo de certificado alternativo para a Autoridade de Certificação selecionada.
     
@@ -319,7 +319,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. Se você precisar de um certificado exportável, verifique a caixa de seleção Marcar chave privada do certificado **como exportável.**
     
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv. Clique em **Próximo**.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv. Clique em **Avançar**.
     
 &nbsp;&nbsp;&nbsp;h. Na página **Informações da Organização,** insira o nome da sua organização e unidade organizacional (OU). Você pode inserir sua divisão ou departamento (TI, por exemplo).
     
@@ -375,7 +375,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;d. Na caixa **Adicionar ou Remover Snap-ins,** clique em **Certificados** e clique em **Adicionar**.
     
-&nbsp;&nbsp;&nbsp;e. Na caixa de diálogo Snap-in **Certificados,** escolha **Conta de computador**. Clique em **Próximo**.
+&nbsp;&nbsp;&nbsp;e. Na caixa de diálogo Snap-in **Certificados,** escolha **Conta de computador**. Clique em **Avançar**.
     
 &nbsp;&nbsp;&nbsp;f. Na caixa **de diálogo Selecionar Computador,** selecione **Computador local: (o** computador em que o console está sendo executado) . Clique em **Concluir**. Clique **em OK** e a configuração do console MMC é concluída.
     
