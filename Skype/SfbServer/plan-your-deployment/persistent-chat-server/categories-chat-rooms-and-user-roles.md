@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumo: leia este tópico para saber mais sobre categorias, salas de chat e funções de usuário e administrador para o Servidor de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 9724daf78114ede5d46ae690f2ab41cc36c170d2dd73c3664718e7ac4bb995f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352599"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615557"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorias de chat persistente, salas de chat e funções de usuário Skype for Business Server 2015
  
@@ -60,7 +60,7 @@ Além dos Membros Permitidos e Negados para categorias, você também pode contr
     > [!IMPORTANT]
     > Se o gerente for também o criador em outra categoria, ele poderá alterar a categoria para uma em que ele esteja autorizado a criar salas. 
   
-- **Membro**: usuários que são membros de uma sala de chat. Esses usuários podem ver as salas de chat no diretório (mesmo que a sala de chat seja secreta), bem como assinar a sala de chat (incluindo opções de metadados, como mensagens não lidas, filtros de ego e filtros de palavra-chave) e participar da sala de chat (pode postar, a menos que a sala seja uma sala de auditório onde somente apresentadores podem postar , obter conteúdo e pesquisa). Os usuários que não são membros da sala de chat podem pesquisar pela sala de chat se eles estão na lista Membros Permitidos da categoria, mas precisam solicitar acesso para ingressar nessas salas de chat para acessar o conteúdo. (Não há acesso à solicitação ou aprovações internas no sistema; elas são feitas externamente por email, telefone ou outras formas de contato.)
+- **Membro**: usuários que são membros de uma sala de chat. Esses usuários podem ver as salas de chat no diretório (mesmo que a sala de chat seja secreta), bem como se inscrever na sala de chat (incluindo opções de metadados, como mensagens não lidas, filtros de ego e filtros de palavra-chave) e participar da sala de chat (pode postar, a menos que a sala seja uma sala de auditório onde somente apresentadores podem postar,  obter conteúdo e pesquisa). Os usuários que não são membros da sala de chat podem pesquisar pela sala de chat se eles estão na lista Membros Permitidos da categoria, mas precisam solicitar acesso para ingressar nessas salas de chat para acessar o conteúdo. (Não há acesso à solicitação ou aprovações internas no sistema; elas são feitas externamente por email, telefone ou outras formas de contato.)
     
 - **Apresentador**: usuários que podem postar em uma sala de auditório.
     

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: revise as considerações de uso da porta antes de implementar Skype for Business Server.'
-ms.openlocfilehash: d2e3cf07dbdf7471cd1e2f535d619e8bece74ecc0a9f9e16d416b7cba46548c1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4e991d816ea00a51260b16d7af4cbe7e3f326688
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352619"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615577"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -51,7 +51,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
   
 **Portas do servidor necessárias (por Função de servidor)**
 
-|Função de servidor|Nome do serviço|Porta|Protocolo|Notas|
+|Função de servidor|Nome do serviço|Porta|Protocolo|Observações|
 |:-----|:-----|:-----|:-----|:-----|
 |Todos os servidores  |Navegador do SQL  |1434  |UDP  |SQL Navegador para a cópia replicada local do banco de dados do Armazenamento de Gerenciamento Central.  |
 |Front-End Servidores  |Skype for Business Server Front-End serviço  |5060  |TCP  |Usada como opção pelos servidores Standard Edition e Servidores Front-End para rotas estáticas para serviços confiáveis, como servidores de controle de chamada remota.  |
@@ -152,7 +152,7 @@ Seus pools do Front-End e do Diretor que usam o balanceamento de carga DNS tamb�
 
 **Portas do cliente necessárias**
 
-|Componente|Porta|Protocolo|Notas|
+|Componente|Porta|Protocolo|Observações|
 |:-----|:-----|:-----|:-----|
 |Clientes  |67/68  |DHCP  |Usado por Skype for Business Server para encontrar o FQDN do Registrador (isto é, se o SRV DNS falhar e as configurações manuais não estão configuradas).  |
 |Clientes  |443  |TCP (TLS)  |Usada para tráfego SIP do cliente para o servidor para acesso de usuário externo.  |

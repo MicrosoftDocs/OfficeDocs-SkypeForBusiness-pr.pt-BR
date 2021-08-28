@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumo: leia este tópico para saber mais sobre o planejamento de capacidade para o Servidor de Chat Persistente Skype for Business Server 2015.'
-ms.openlocfilehash: 3b21ce2fdcb05101fb5a3fe1641e766003733fb7675331dbb12c273b1c44d7e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 430bceb547be9208348d61dc919ddb463f2d5ca2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334832"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615567"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejamento de capacidade para o Servidor de Chat Persistente Skype for Business Server 2015
  
@@ -80,7 +80,7 @@ A tabela de exemplo a seguir pode ajudá-lo a planejar o gerenciamento do acesso
 |Salas gerenciados por grupos de usuários  <br/> |50%  <br/> |90%  <br/> |100%  <br/> ||
 |Grupos de usuários na lista de associação de cada sala de chat para salas abertas (não especificado explicitamente)  <br/> |0  <br/> |0  <br/> |0  <br/> ||
 |Usuários na lista de associação de cada sala de chat para salas não abertas  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Grupos de usuários na lista de associação de cada sala de chat para salas não abertas  <br/> |3  <br/> |5   <br/> |10   <br/> ||
+|Grupos de usuários na lista de associação de cada sala de chat para salas não abertas  <br/> |3   <br/> |5   <br/> |10   <br/> ||
 |Usuários e grupos de usuários na lista de gerentes de cada sala de chat (para salas abertas e não abertas)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |Usuários e grupos de usuários na lista de apresentadores de cada sala de chat de auditório (para salas abertas e não abertas)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |Entidades de associação baseadas no usuário em todas as salas não abertas  <br/> |465,600  <br/> |15,520  <br/> |-  <br/> ||
@@ -89,7 +89,7 @@ A tabela de exemplo a seguir pode ajudá-lo a planejar o gerenciamento do acesso
 |Entidades de gerente baseadas em usuários e grupos de usuários em todas as listas de gerentes de salas de chat  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |Usuários ativos por sala de chat  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
 |Salas de chat por usuário  <br/> |12   <br/> |2  <br/> |2  <br/> |16   <br/> |
-|Grupos de usuários na lista de associação de cada sala de chat  <br/> |10   <br/> |10   <br/> |15  <br/> ||
+|Grupos de usuários na lista de associação de cada sala de chat  <br/> |10   <br/> |10   <br/> |15   <br/> ||
 |Salas gerenciados por grupos de usuários  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |Entidades de participação baseadas em grupos de usuário em todas as salas de chat  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
 |Entidades de participação baseadas em usuários em todas as salas de chat  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
@@ -136,7 +136,7 @@ Os dados de exemplo na tabela a seguir pressuem que, na página Configurações 
 |Taxa de chat por sala (por dia)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
 |Taxa de chat (por segundo) em todas as salas  <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
 |Modelo 2 - Iniciar com o número de mensagens postadas por usuário por dia  <br/> |||||
-|Taxa de chat por usuário por dia  <br/> |15  <br/> |5   <br/> |0.1  <br/> |20  <br/> |
+|Taxa de chat por usuário por dia  <br/> |15   <br/> |5   <br/> |0.1  <br/> |20  <br/> |
 |Taxa de chat por sala (por dia)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
 |Taxa de chat (por segundo) em todas as salas  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
    

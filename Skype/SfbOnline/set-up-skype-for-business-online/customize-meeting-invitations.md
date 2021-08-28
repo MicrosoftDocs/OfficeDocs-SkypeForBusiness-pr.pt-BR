@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Personalizar Skype de reunião com logotipos gráficos, URLs de ajuda e legais e texto do rodapé. '
-ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306174"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614933"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar convites para reuniões
 
@@ -43,7 +43,7 @@ Como administrador, você pode garantir que todos os Skype for Business de reuni
     
 3. Armazene a imagem em um local central que todos na sua empresa possam acessar, como um compartilhamento de rede, uma pasta OneDrive for Business compartilhada, Dropbox, etc.
     
-    Agora você pode adicioná-la aos seus convites para reuniões. Veja os próximos passos.
+    Agora você pode adicioná-la aos seus convites para reuniões. Veja as próximas etapas.
     
 ## <a name="customize-your-meeting-invitations"></a>Personalize seus convites para reuniões
 <a name="__top"> </a>

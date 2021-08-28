@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithWacPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: O Office Web Apps Server fornece serviços semelhantes a um apresentador carregando um documento para uso em uma reunião, mas habilita recursos adicionais que as versões anteriores não fizeram.
-ms.openlocfilehash: 32716f1dab5cbde7eed222a3178fa2db01748c14a579aa6866d1ce125c1cd7fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b45a29e1e65e786492b890050cfa894001989e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303724"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634395"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Associar Front-end com a Página do Servidor do Office Web Apps
 
