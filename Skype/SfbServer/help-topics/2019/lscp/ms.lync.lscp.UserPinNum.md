@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para usar email para enviar o PIN para o usuário, clique em Abrir meu aplicativo de email para enviar o novo PIN ao usuário. Para copiar o PIN para a mensagem de email, selecione Mostrar PIN.
-ms.openlocfilehash: 40a6343cab7b65f0525dc1f5638e483b3cac645798470eafa564f93e181846e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef31f10dfdcdb53bd3bb30ead93d985b52515000
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331823"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600516"
 ---
 # <a name="pin-set-successfully"></a>PIN Definido com Sucesso
  

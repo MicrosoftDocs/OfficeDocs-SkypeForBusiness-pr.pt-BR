@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: Exporta a configuração Skype for Business Cloud Connector Edition para um arquivo local no servidor Skype for Business Cloud Connector Edition host.
-ms.openlocfilehash: f34f8454dfc3129be50b26114f71fdeee4a4b633f66ca9f80dc621c51c5af6ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b2b3ea0171b68701b47b8ae2ed239f2e0495855b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288830"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625003"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
@@ -49,7 +49,7 @@ O Export-CcConfiguration cmdlet permite salvar a configuração do Cloud Connect
 
 |**Parâmetro**|**Required**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|Path  <br/> |Obrigatório  <br/> |System.String  <br/> |Caminho completo do arquivo onde as configurações do Cloud Connector serão armazenadas.  <br/> |
+|Caminho  <br/> |Obrigatório  <br/> |System.String  <br/> |Caminho completo do arquivo onde as configurações do Cloud Connector serão armazenadas.  <br/> |
    
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="Examples"> </a>

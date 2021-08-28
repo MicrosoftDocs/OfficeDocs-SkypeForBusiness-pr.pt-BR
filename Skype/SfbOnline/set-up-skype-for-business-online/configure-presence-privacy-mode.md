@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: 'Saiba como configurar o modo de privacidade para seus usuários para que eles possam controlar melhor como as pessoas veem sua disponibilidade. '
-ms.openlocfilehash: 29eb3baad5ee270d594d283ba51cb1cde75222d8ad66e34ca4df33676aeab2da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6ef0bf1ef5256f3753b3ca161b3ee9c0a9f18559
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339315"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597355"
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurar o modo de privacidade de presença
 

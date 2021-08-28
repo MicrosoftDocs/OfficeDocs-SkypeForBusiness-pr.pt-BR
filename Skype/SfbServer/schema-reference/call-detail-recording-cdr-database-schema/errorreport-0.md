@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: A exibição ErrorReport armazena informações sobre erros relatados. Cada registro é uma ocorrência de erro. Os erros são capturados pelo agente CDR em execução no servidor front-end ou enviados do cliente. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 324c22f58883207d49c0224043b8672560f1cf6e64551ca93b9ac43540d46ceb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b1461b8ee8657033802763cfa9d38b94448f93ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295378"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613851"
 ---
 # <a name="errorreport-view"></a>Exibição ErrorReport
  
@@ -44,7 +44,7 @@ A exibição ErrorReport armazena informações sobre erros relatados. Cada regi
 |**ClientType** <br/> |int  <br/> |Cliente usado pelo usuário que originou o erro. Consulte a [tabela UserAgentDef](useragentdef.md) para obter mais detalhes. <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |Nome da categoria do cliente usado pelo usuário que originou o erro.  <br/> |
 |**Fonte** <br/> |nvarchar(256)  <br/> |Nome do servidor que originou o erro (se o relatório foi enviado de um componente do servidor).  <br/> |
-|**Aplicação** <br/> |nvarchar(256)  <br/> |Nome de um aplicativo que originou o erro (se o relatório foi enviado de um componente do servidor).  <br/> |
+|**Aplicativo** <br/> |nvarchar(256)  <br/> |Nome de um aplicativo que originou o erro (se o relatório foi enviado de um componente do servidor).  <br/> |
 |**ResponseCode** <br/> |int  <br/> |Código de resposta SIP para a sessão da mensagem SIP que contém o relatório de erro.  <br/> |
 |**RequestType** <br/> |varchar(max)  <br/> |Tipo de solicitação que falhou.  <br/> |
 |**ContentType** <br/> |varchar(max)  <br/> |Tipo de conteúdo da solicitação que falhou.  <br/> |

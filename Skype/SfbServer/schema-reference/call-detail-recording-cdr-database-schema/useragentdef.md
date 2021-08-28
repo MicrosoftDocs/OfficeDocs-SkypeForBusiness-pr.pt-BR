@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: A tabela UserAgentDef mapeia identificadores de agente do usuário para os nomes descritivos do agente. Os agentes de usuário são clientes de software usados para se conectar ao Skype for Business Server 2015. Esta tabela foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: bef3d9755b7475277ed2741541d43ad813a21f14430bf3dc6c939201d011b6dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 717d8fa52429c768cc27334ef863f2fc6a9ce613
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349653"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598665"
 ---
 # <a name="useragentdef-table"></a>Tabela UserAgentDef
  

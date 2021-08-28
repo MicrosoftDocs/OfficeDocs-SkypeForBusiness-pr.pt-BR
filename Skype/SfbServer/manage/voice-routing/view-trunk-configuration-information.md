@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços.
-ms.openlocfilehash: 8c57a29bd0117afe216d54204d4af275716c07278a311a34e3b5d391cadfed6e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 204f6f17387499719cf3b4bbe33638a849a4e363
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351431"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614061"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Exibir informações de configuração de tronco em Skype for Business Server
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 description: O FQDN de Próximo Salto identifica o servidor de próximo salto para o qual o Servidor de Borda herdado encaminha o tráfego interno. Digite o nome de domínio totalmente qualificado (FQDN) do servidor de próximo salto para o qual esse Servidor de Borda encaminha o tráfego interno e selecione se é um Pool de Front-Ends ou um Diretor.
-ms.openlocfilehash: 2f3578a8e8aa8554931a89842cb97adc7552a30e519c9e1eaa7a769a912e8116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39e08c5d182660e831b95989696071699554657c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336911"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600096"
 ---
 # <a name="legacy-merge-next-hop"></a>Próximo Salto de Mesclagem de Legado
  

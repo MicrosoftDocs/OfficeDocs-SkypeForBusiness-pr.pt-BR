@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoInteropServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 ROBOTS: NOINDEX, NOFOLLOW
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server.
-ms.openlocfilehash: 5b64d515c7e84c99fffe55aa815828aa00caff23d07701d7777a6264eb890738
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a9404dbf103ec277ed09c2d3e339d1e16dcab1e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323323"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626823"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>Servidores de Interoperabilidade de Vídeo - Escopo do Nó
  

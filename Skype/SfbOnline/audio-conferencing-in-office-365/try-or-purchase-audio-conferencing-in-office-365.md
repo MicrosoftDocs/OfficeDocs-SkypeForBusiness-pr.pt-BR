@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: 15d412bb91cf6a65aa642f88ae183ad24bcb2148e53a42f36aac9d01d54f312f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332313"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597425"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Experimente ou compre Audioconferência em Microsoft 365 ou Office 365 para Skype for Business Online
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorFileStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 description: Você deve especificar um compartilhamento de arquivos a ser usado como o repositório de arquivos para Diretores. Você pode usar um compartilhamento de arquivos existente para o repositório de arquivos ou pode definir um novo especificando o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos no qual o compartilhamento de arquivos deve estar localizado e um nome de pasta para o novo compartilhamento de arquivos.
-ms.openlocfilehash: a937ef8e820df1d9585d56ea88697b197efd1f33184aa52d969726309ee0fff1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5de21190637cbbac65d5cb7f4dc69f8a7591b962
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346717"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600286"
 ---
 # <a name="add-director-file-store"></a>Adicionar Repositório de Arquivo Diretor
 

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planejando o estacionamento de chamadas Skype for Business Server Enterprise Voice, o que permite colocar chamadas em espera e transferir chamadas para departamentos. Inclui planejamento de capacidade, chamadas com suporte e clientes com suporte.
-ms.openlocfilehash: 40f6b08512bd76401a8bb881429737f0da53be952e2774099e82396522b79aeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306862"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625173"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planejar estacionamento de chamada no Skype for Business
  

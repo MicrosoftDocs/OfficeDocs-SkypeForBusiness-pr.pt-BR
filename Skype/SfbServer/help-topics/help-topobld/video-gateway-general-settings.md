@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoGatewayGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server 2015.
-ms.openlocfilehash: 26e55693b0ffd814928271a9c45d1b0db865daef8f9e0e5771b1c3f05e21964f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b29b9ebd759652e93b23e214f034474738df1742
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290681"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600076"
 ---
 # <a name="video-gateway-general-settings"></a>Configurações gerais de Gateway de Vídeo
  
