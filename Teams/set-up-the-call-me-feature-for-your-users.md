@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Saiba como configurar o recurso Chamar-me no Teams para que os usuários possam ingressar na parte de áudio por telefone ao usar seu computador para áudio pode não ser possível.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 f1.keywords:
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 972368de75f38ef1ad1d3f268bfa21526eda261658792b67ce8b0d51c3281b2e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ffdd467f73b590aae153cb8606c225258ef384c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324810"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618437"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurar o recurso Telefonar para Mim para os usuários
 

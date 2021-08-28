@@ -9,16 +9,16 @@ ms.topic: reference
 ms.prod: skype-for-business-server
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações para Skype for Business Server 2015/2019 e Lync 2013 em um só lugar. Use os links nesta página para saber mais e baixar as atualizações.
-ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2101e8ca02d227837aef0b9c49ce0d2e8d1144bb
+ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341516"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683315"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -56,6 +56,7 @@ O KB 4470124 é o KB mestre do Skype for Business Server 2019, que tem toda a li
 
 |Número do pacote|Número de KB|Data do lançamento|
 |:--- |:--- |:--- |
+|Skype for Business Server Atualização Cumulativa 11 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2021 |
 |Skype for Business Server 2015 Cumulativo Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Julho de 2020 |
 |Skype for Business Server Atualização Cumulativa 11 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 de maio de 2020 |
 |Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2019 |
@@ -271,3 +272,4 @@ As atualizações de software incluem qualquer atualização, pacote cumulativo 
 - [Instalar Skype for Business Server 2015](./deploy/install/install.md)
 - [Atualizar para Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Atualizações mais recentes para versões Skype for Business que usam Windows Installer (MSI)](sfb-client-updates.md)
+- 

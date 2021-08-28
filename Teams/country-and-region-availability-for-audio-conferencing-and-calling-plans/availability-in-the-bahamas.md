@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 Office 365 de Skype for Business e Microsoft Teams disponíveis para as Bahamas.
-ms.openlocfilehash: 71ec974345725d9bc33b320f425cb24989cdabe09b1eaf84940c18a5c76f34fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec62268d9acb8498c230e2ce65b1077c9f7a1ffb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618527"
 ---
 # <a name="availability-in-the-bahamas"></a>Disponibilidade nas Bahamas
 

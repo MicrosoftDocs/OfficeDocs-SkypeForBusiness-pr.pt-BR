@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserPinNum
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 description: Para usar email para enviar o PIN para o usuário, clique em Abrir meu aplicativo de email para enviar o novo PIN ao usuário. Para copiar o PIN para a mensagem de email, selecione Mostrar PIN.
-ms.openlocfilehash: 2d778887099d03a68877a5d3722684c26077a81a9ebc507dfb4785304d474098
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77198e7ad9bd4e6a5a23f3cb621beb22f4dd2307
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277056"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599224"
 ---
 # <a name="pin-set-successfully"></a>PIN Definido com Sucesso
  

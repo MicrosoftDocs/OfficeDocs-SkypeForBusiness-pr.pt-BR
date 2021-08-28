@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Crie ou modifique uma fila do Grupo de Resposta, Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338739"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611256"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Criar ou modificar uma fila em Skype for Business
  

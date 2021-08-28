@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Antes de implantar o Skype for Business Server 2019 em um estado de coexistência, você deve executar mais algumas tarefas do Active Directory para configurar o esquema, a floresta e o domínio para Skype for Business Server 2019. As extensões de esquema adicionam as classes e atributos do Active Directory exigidos pelo Skype for Business Server 2019. Para obter mais informações, consulte o tópico Preparando os Serviços de Domínio do Active Directory para Skype for Business Server 2019.
-ms.openlocfilehash: 70d5c01524cb047f9aeedb801a1cde3f587c3cd0
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 632d5f209243aae17f87823088b5c03484dbc635
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372011"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592135"
 ---
 # <a name="skype-for-business-server-prepare-active-directory-for-skype"></a>Skype for Business Server: Preparar o Active Directory para Skype
 

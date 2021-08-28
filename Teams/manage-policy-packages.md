@@ -17,15 +17,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.policypackages.overview
 - seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política Microsoft Teams simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: e70002590f3b1335e2c1ea0d8208c9685c803f17
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2db3b926a7e241a83ab46de4285cc4b7ef0882e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243549"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637067"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: Gerenciar pacotes de política
 

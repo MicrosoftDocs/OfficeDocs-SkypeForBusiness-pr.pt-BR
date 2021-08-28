@@ -16,18 +16,18 @@ ms.collection:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 description: A seguir estão algumas das principais perguntas que temos de nossos clientes que querem usar Audioconferência.
-ms.openlocfilehash: 3770807d9cd5ea69152a4c5039651c94411a8b801f80c3e7804acba195342614
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec0af1c51775b564553d37e64a0f2afa5964f04a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626383"
 ---
 # <a name="audio-conferencing-common-questions"></a>Perguntas comuns sobre a Audioconferência
 

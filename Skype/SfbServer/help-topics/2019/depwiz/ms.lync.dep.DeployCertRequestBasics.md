@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página Nome e Segurança Configurações fornece uma caixa de texto para definir um Nome Amigável, uma listada para o comprimento de bit do par de chaves pública e privada e uma caixa de seleção que permite marcar a chave privada do certificado como exportável.
-ms.openlocfilehash: f84e28f6d3e8d067b06cd640e1a532084edc61d9d789f569bae546a6331cae4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 051c883525582559756a4c3ec3b03e921314e9ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282215"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591875"
 ---
 # <a name="certificate-request-basic"></a>Solicitação de Certificado (Básico)
  

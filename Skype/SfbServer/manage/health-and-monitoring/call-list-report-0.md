@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Resumo: saiba mais sobre o Relatório de Lista de Chamada usado Skype for Business Server.'
-ms.openlocfilehash: 301ace0e4d9af8b2635f95f6c3a750c859ca1300f6f3cc277870bdac2c8cc989
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599000"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Relatório de Lista de Skype for Business Server
  
@@ -75,7 +75,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Lista de Ch
   
 **Métricas do Relatório de Lista de Chamada**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra informações adicionais sobre a chamada.  <br/> |
 |**Caller** <br/> |Sim  <br/> |Endereço SIP da pessoa que iniciou a chamada.  <br/> |

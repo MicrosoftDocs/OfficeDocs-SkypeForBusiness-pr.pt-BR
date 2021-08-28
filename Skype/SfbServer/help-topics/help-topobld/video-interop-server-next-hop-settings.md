@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoInteropServerNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server 2015.
-ms.openlocfilehash: e7f848312a2f5fc9c859350d81e0bb55357b7724a5c544c168b67f9d11730ebd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58c97b20182bc988e92ffc54f277ca5bc2aa30a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599022"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>Configurações de Próximo Salto do Servidor de Interoperabilidade de Vídeo
  

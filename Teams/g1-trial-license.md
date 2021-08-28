@@ -8,19 +8,19 @@ audience: Admin
 ms.reviewer: aarimm
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: Para os EUA, se você não possui o Microsoft Teams e precisa dele rapidamente, distribua a Avaliação do Office 365 G1 para os seus usuários que precisam trabalhar remotamente ou em casa (WFH) em resposta ao surto de COVID-19 (coronavírus).
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad58e4388c6a20dc64f67dff5097158ac5c26bbf
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c1208636547258524816ca77e57ddc3b83646144
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234516"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618467"
 ---
 # <a name="manage-the-office-365-g1-trial-for-us-government"></a>Gerenciar a Avaliação do Office 365 G1 para o governo dos EUA 
 
