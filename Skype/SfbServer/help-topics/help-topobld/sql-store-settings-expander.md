@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: Para editar as propriedades de um banco de dados SQL Server, você deve alterar a instância SQL Server banco de dados. Não é possível usar a caixa de diálogo Editar Propriedades para executar tarefas como mover seu banco de dados do Servidor de Arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo Editar Propriedades para alterar a instância do SQL Server que hospeda o armazenamento de Gerenciamento Central.
-ms.openlocfilehash: bb89251ac2f29ee15aa10caadf942a9d0896156aedf39394a763b44d6ce9e8d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83bf11af40e8c51693b2b1768f1d71c9bc2f37f9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341916"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609368"
 ---
 # <a name="sql-store-settings-expander"></a>Expansor de Configurações de Repositório SQL
  

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerIPOptionsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Skype for Business Server permite configurar endereços IPv4 e IPv6 para cada interface para o pool de Borda e Servidor de Borda. Para fazer isso, faça o seguinte:'
-ms.openlocfilehash: 60b9931a8fd3fad950f3277a27deb420ddb749dbee9269ca628023ea0806e14c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3ff5b8a1c829d1a01e26f6b2e854010a2a971a4c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631895"
 ---
 # <a name="add-edge-server-ip-options"></a>Adicionar Opções de IP de Servidor de Borda
  

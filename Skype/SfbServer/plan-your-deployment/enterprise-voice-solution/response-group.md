@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planejando grupos de resposta em Skype for Business Server Enterprise Voice, o que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
-ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631575"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planejar o aplicativo grupo de resposta no Skype for Business Server
 

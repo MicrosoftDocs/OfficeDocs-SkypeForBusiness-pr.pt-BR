@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: michalbr
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,16 +18,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb472822f7d55636bfd5ee4c48e7c962a705f6e05fd65b263952895040d69f7c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 031f49d79659e0d5af1152e054466255d208a146
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631455"
 ---
 # <a name="manage-live-components-in-teams"></a>Gerenciar componentes em tempo Teams
 
-Componentes ao vivo Teams chat oferecem uma nova maneira de idear, criar e tomar decisões juntos. Envie um componente, como uma tabela, uma lista de tarefas ou um parágrafo, onde todos no chat podem editar em linha e ver alterações à medida que são feitas. Isso significa que você pode coletar ideias e comentários de sua equipe enquanto realiza menos reuniões e minimiza a necessidade de threads de chat longos.
+Os componentes ao Teams chat oferecem uma nova maneira de criar, criar e tomar decisões juntos. Envie um componente, como uma tabela, uma lista de tarefas ou um parágrafo, onde todos no chat podem editar em linha e ver alterações à medida que são feitas. Isso significa que você pode coletar ideias e comentários de sua equipe enquanto realiza menos reuniões e minimiza a necessidade de threads de chat longo.
 
 **Realizar tarefas mais rápidas juntos.** Origem de uma agenda, controle os itens de ação de um grupo ou tome anotações coletivamente. Esses são apenas alguns cenários mais fáceis com componentes ao vivo.
 
@@ -43,7 +43,7 @@ A partir do início de setembro, os componentes ao vivo estarão disponíveis gl
 
 ## <a name="settings-management"></a>Configurações gerenciamento
 
-Os componentes do Live são Microsoft Fluid Framework com suporte no Microsoft 365 e controlados do SharePoint Online e não do centro de administração Teams.
+Os componentes live são construídos com Microsoft Fluid Framework com suporte no Microsoft 365 e controlados do SharePoint Online e não do centro de administração Teams do Teams.
 
 Você precisará da versão mais recente do módulo SharePoint [PowerShell Online](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell) para habilitar ou desabilitar todas as Experiências Fluidas em seu Office 365 locatário. Microsoft Fluid Framework padrão para **ON para** todos os locatários de versão direcionada. Como os componentes ao vivo são projetados para colaboração, os componentes são sempre compartilhados como editáveis por outras pessoas, mesmo que seu locatário seja definido como padrão para exibição somente para outros tipos de arquivo. Consulte o link **Saiba mais** ao lado da configuração para obter mais detalhes.
 
@@ -65,7 +65,7 @@ Você precisará da versão mais recente do módulo SharePoint [PowerShell Onlin
 
 O recurso estará disponível em Teams Windows Desktop, Mac, iOS, Android. Quando habilitado, os usuários verão uma nova opção para inserir componentes ao vivo na experiência de composição de mensagens para esses clientes.
 
-## <a name="disabling-fluid-framework-through-sharepoint-online-powershell-cmdlet"></a>Desabilitando o Fluid Framework por meio SharePoint Do PowerShell Online
+## <a name="disabling-fluid-framework-through-sharepoint-online-powershell-cmdlet"></a>Desabilitando o Fluid Framework por meio SharePoint Cmdlet do PowerShell Online
 
 1. [Conexão para SharePoint PowerShell Online.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
@@ -101,25 +101,25 @@ PS C:\\WINDOWS\\system32&gt;
 
 **Como `.fluid` são armazenados?**
 
-Os componentes ao vivo criados Teams são respaldados `.fluid` por um arquivo armazenado no OneDrive for Business. Ser um arquivo em OneDrive for Business significa que os usuários podem criar, descobrir e gerenciar componentes ao vivo (arquivos) tão facilmente quanto qualquer documento `.fluid` Office.
+Os componentes ao vivo criados Teams são respaldados por um arquivo armazenado no `.fluid` OneDrive for Business. Ser um arquivo no OneDrive for Business significa que os usuários podem criar, descobrir e gerenciar componentes ao vivo (arquivos) tão facilmente quanto qualquer documento `.fluid` Office.
 
-Os usuários podem pesquisar conteúdo em `.fluid` arquivos Office.com e OneDrive for Business.
-`.fluid` os arquivos trabalham com recursos de governança de dados, como Descoberta e Descoberta, auditoria, relatórios e ressarcimento legal.
+Os usuários podem pesquisar conteúdo `.fluid` em arquivos Office.com e OneDrive for Business.
+`.fluid` os arquivos funcionam com recursos de governança de dados, como Descoberta eDiscovery, auditoria, relatórios e ressarcimento legal.
 
 `.fluid`os arquivos agora serão exibidos em Office.com e OneDrive for Business, como nas áreas Recente e Recomendada.
 `.fluid`os arquivos podem ser restaurados para versões anteriores OneDrive for Business.
 
 Os participantes do chat devem ter uma OneDrive para criar componentes ao vivo. Sem uma conta OneDrive, os participantes de chat ainda poderão colaborar em um componente criado por outros usuários que tenham uma conta OneDrive válida, mas não podem criar suas próprias.
 
-[Mover](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b) um arquivo de OneDrive para um site de SharePoint resultará em falha no carregamento do componente ao vivo `.fluid` Teams chat.
+[Mover](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b) um arquivo de OneDrive para um site de SharePoint resultará em falha na carga do componente ao vivo `.fluid` no Teams chat.
 
 **O que acontece se o proprietário do arquivo sair da empresa?**
 
-[OneDrive políticas de retenção](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide#when-a-user-leaves-the-organization) se aplicam a arquivos da mesma forma `.fluid` que fazem com outros conteúdos criados pelo usuário.
+[OneDrive de retenção se](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide#when-a-user-leaves-the-organization) aplicam aos arquivos da mesma forma `.fluid` que fazem com outros conteúdos criados pelo usuário.
 
 **Como os `.fluid` arquivos são compartilhados?**
 
-Os componentes ao vivo podem ser inseridos Teams chat ou copiados de um chat para outro. (Os componentes live ainda não têm suporte em canais.) Eles são padrão para as permissões existentes do locatário, mas os usuários podem alterar as permissões antes de enviar para garantir que todos tenham acesso.
+Os componentes ao vivo podem ser inseridos Teams chat ou copiados de um chat para outro. (Os componentes ao vivo ainda não têm suporte em canais.) Eles são padrão para as permissões existentes do locatário, mas os usuários podem alterar as permissões antes de enviar para garantir que todos tenham acesso.
 
 Abrir componentes Teams chat no Office.com oferece funcionalidade de compartilhamento na parte superior da janela, semelhante às opções de compartilhamento oferecidas para outros documentos Office.
 

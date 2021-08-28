@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumo: escolha sua topologia para Skype for Business Server. Saiba mais sobre a localização do servidor para Skype for Business Server.'
-ms.openlocfilehash: 922bc26ee6eeea720c62cbbc744953aa5edecf4c03a792fac56ee7910806b6e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609208"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Noções básicas de topologia para Skype for Business Server
 
@@ -251,7 +251,7 @@ Eles não podem ser alocados no servidor Edição Standard, mas podem ir para um
 
 - Qualquer banco de dados back-end para um pool Edição Enterprise front-end
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>Empresa
 
 Os bancos de dados a seguir podem ser alocados no mesmo back-end SQL Server:
 

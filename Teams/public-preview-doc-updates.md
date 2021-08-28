@@ -17,13 +17,13 @@ f1.keywords:
 description: Obtenha mais informações sobre a prévia pública no Microsoft Teams. Experimente novos recursos e forneça comentários.
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
-ms.openlocfilehash: c9e6ba763edd0791310d30f8dc1e71cccc8a4cf8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: high
+ms.openlocfilehash: 84e37bc76fe6c9f52aedae95c3ef01bb49e00cf0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235196"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586545"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 

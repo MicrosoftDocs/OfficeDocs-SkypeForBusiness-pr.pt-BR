@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Leia uma visão geral das etapas que você precisará aprender a dar suporte à habilitação em larga escala do Teams para sua organização.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86255086796d7a48d9e46b5507a92a9f2bc478d94b3eaa042dfa9e574e7aa360
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308472"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586503"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de adoção do Microsoft Teams - Dimensionamento
 

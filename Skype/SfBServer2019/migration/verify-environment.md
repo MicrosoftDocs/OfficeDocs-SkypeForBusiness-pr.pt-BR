@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Antes de implantar Skype for Business Server 2019 em um estado de coexistência, você precisa verificar se os serviços herdados foram configurados e iniciados. É importante identificar os principais serviços e recursos existentes em seu ambiente herdado, antes de implantar um pool piloto Skype for Business Server 2019. Antes de implantar o Microsoft Skype for Business Server XMPP 2019 em um estado de coexistência com uma implantação XMPP herdada, você precisa verificar se os serviços XMPP herdados foram configurados e iniciados e identificar qual parceiro federado a configuração XMPP herdada está suportando.
-ms.openlocfilehash: 67583f875a8da0e58cc2c380352a0e1a96415003a9f493ee4f3172f8942972ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586235"
 ---
 # <a name="verify-the-legacy-environment"></a>Verificar o ambiente herdável
 

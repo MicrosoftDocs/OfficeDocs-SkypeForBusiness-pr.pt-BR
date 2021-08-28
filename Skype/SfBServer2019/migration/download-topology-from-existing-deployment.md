@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Ao criar um pool Skype for Business Server 2019, você usará o Armazenamento de Gerenciamento Central associado à instalação herdada. Quando você inicia o Construtor de Topologias no primeiro uso e sessões de edição subsequentes, você é solicitado a usar o local onde deseja que o Construtor de Topologias carregue o documento de configuração atual. Como você já tem uma topologia definida e estabeleceu o armazenamento de Gerenciamento Central, você deve optar por baixar uma topologia de uma implantação existente. O Construtor de Topologia lerá o banco de dados e recuperará a definição atual.
-ms.openlocfilehash: e20b6fbf8c65d7b59678c0061eee45b21a8e4130132da320494c0d230fffcb1d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 124a1bbb09307edc50842bb5ce6461766e151114
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586245"
 ---
 # <a name="download-topology-from-existing-deployment"></a>Baixar a topologia da implantação existente
 
