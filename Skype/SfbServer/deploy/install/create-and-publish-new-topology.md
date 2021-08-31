@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Resumo: saiba como criar, publicar e verificar uma nova topologia antes de instalar Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 21c37ee17d6a7fbb1db4cce9716fa84f338e4062
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619157"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725990"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Criar e publicar nova topologia no Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58619157"
   
 Antes de instalar o Skype for Business Server em cada um dos servidores na topologia, você deve criar uma topologia e publicá-lo. Ao publicar uma topologia, você está carregando as informações de topologia no banco de dados do Armazenamento de Gerenciamento Central. Se for um pool Edição Enterprise, você criará o banco de dados do Armazenamento de Gerenciamento Central na primeira vez que publicar uma nova topologia. Se isso for Edição Standard, você precisará executar o processo Preparar o primeiro servidor Edição Standard do Assistente de Implantação antes de publicar uma topologia. Isso se prepara para Edição Standard instalando uma instância do SQL Server Express Edition e criando o Armazenamento de Gerenciamento Central. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 em ordem e após as etapas 1 a 5, conforme descrito no diagrama. Como criar e publicar uma nova topologia é descrito na etapa 6 de 8.
   
-![Diagrama de visão geral](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
+![Diagrama de visão geral.](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
 ## <a name="create-and-publish-new-topology"></a>Criar e publicar nova topologia
 

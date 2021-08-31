@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9973df9bc36319cfcac465363875398bb3e87aeeb6324e6e550c3356be9ace54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe74237f1f1cfd93d92e0de01a01d3b576a82ec2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347256"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727620"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams
 
@@ -33,7 +33,7 @@ Para especificar o Skype para o Aplicativo de Reuniões como o aplicativo prefer
 2. No painel esquerdo, em **Configurações de** toda a organização, selecione **Teams atualização**.
 3. Na página Teams de atualização, em **Preferências** de aplicativo, selecione Skype **De** reuniões no aplicativo Preferencial para que os usuários participem **Skype for Business** lista de reuniões.
 
-    ![Escolha Aplicativo preferencial para que os usuários participem Skype for Business reuniões](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![Escolha Aplicativo preferencial para que os usuários participem Skype for Business reuniões.](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>Limitações conhecidas
 

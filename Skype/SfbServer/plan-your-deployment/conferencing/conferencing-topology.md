@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Resumo: leia este tópico para saber mais sobre como planejar sua topologia de conferência Skype for Business Server.'
-ms.openlocfilehash: d5a048603e68b020f0aba750a4dd34cfd334f182
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599906"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732630"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planeje sua topologia de conferência para Skype for Business Server
  
@@ -103,7 +103,7 @@ Uma única reunião grande requer pelo menos um Servidor Front-End e um Servidor
   
 **Topologia de reunião grande**
 
-![Topologia de reunião grande](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
+![Topologia de reunião grande.](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
 O usuário que hospeda as grandes reuniões deve ter sua conta de usuário hospedada no pool de Front-End. No entanto, não recomendamos que você hospede outras contas de usuário neste pool. Em vez disso, use-o apenas para reuniões grandes. A prática prática é criar uma conta de usuário especial neste pool para ser usada apenas para hospedar grandes reuniões. Como a configuração de reunião grande é otimizada para o desempenho, usá-la como um usuário normal pode ter problemas, como a incapacidade de promover uma sessão P2P para uma reunião quando um ponto de extremidade PSTN está envolvido.
   

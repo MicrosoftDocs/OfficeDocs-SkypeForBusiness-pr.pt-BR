@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Atualizar Microsoft Teams telefones, Teams painéis e barras de colaboração remotamente usando o Teams de administração
-ms.openlocfilehash: 4166d8543c0c0e847e4463ecf3cf0760876a7b37
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c35fc24be2456c4ee1583e7a073a7c4dcf8e7214
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632175"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727460"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Atualizar Microsoft Teams dispositivos remotamente
 
@@ -72,7 +72,7 @@ Para atualizar manualmente dispositivos remotos, faça o seguinte:
 
 O que você verá dependerá se você tiver um ou vários dispositivos selecionados. A imagem à esquerda abaixo mostra vários dispositivos selecionados enquanto a imagem à direita mostra um único dispositivo selecionado.
 
-:::image type="content" source="../media/device-update-status.png" alt-text="Exibições de dispositivo único e múltiplos no painel de status de atualização do dispositivo":::
+:::image type="content" source="../media/device-update-status.png" alt-text="Exibições de dispositivo único e múltiplos no painel de status de atualização do dispositivo.":::
 
 Ao selecionar vários dispositivos, você pode escolher quais tipos de atualização serão aplicados a cada dispositivo selecionado. Selecione os tipos de atualização que você deseja aplicar e selecione **Atualizar**.
 

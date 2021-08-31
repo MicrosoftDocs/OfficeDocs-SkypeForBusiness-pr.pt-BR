@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Saiba mais sobre o controle de admissão de chamadas, que pode impedir que as chamadas ocorrem se elas não têm qualidade de mídia ruim, Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623593"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725960"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planejar o controle de admissão de chamada Skype for Business Server
 
@@ -98,7 +98,7 @@ A figura a seguir ilustra como o CAC é aplicado em conexões PSTN, com e sem o 
 
 **Aplicação de controle de admissão de chamada em conexões para o PSTN**
 
-![Imposição de conexão de bypass de mídia do CAC de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Voice CAC Media Bypass Connection Enforcement.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>Definindo seus requisitos para controle de admissão de chamada
 

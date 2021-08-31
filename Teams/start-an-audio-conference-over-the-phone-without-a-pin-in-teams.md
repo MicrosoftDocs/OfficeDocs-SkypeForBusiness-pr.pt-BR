@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Saiba como habilitar ou desabilitar os chamadores anônimos de ingressar em uma reunião do Teams de administração. '
-ms.openlocfilehash: 7b67cf357b9230b4dfd2448d84d4ce007149efe9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a2abd84514e46a19f3f698650d3acf1ec931410
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604400"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732740"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Iniciar uma audioconferência por telefone sem um PIN no Microsoft Teams
 
@@ -42,7 +42,7 @@ Um PIN não será necessário para o organizador da reunião se alguém tiver in
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar ou desabilitar chamadores anônimos para participar de uma reunião
 
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, clique em **Usuários**. 
 

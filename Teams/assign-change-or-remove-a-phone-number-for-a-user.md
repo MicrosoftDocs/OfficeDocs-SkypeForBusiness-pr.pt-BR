@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone de trabalho para seus usuários Teams para que empresas e clientes externos possam chamar.
-ms.openlocfilehash: 938377f200d31ddaef2338f5c21811150571732e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44254c8d8c8886e72b699c3890017a2b817cd135
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595219"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727500"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Atribuir, alterar ou remover um número de telefone para um usuário (Planos de Chamadas)
 
@@ -42,7 +42,7 @@ Para saber como obter Planos de Chamada em Teams e quanto eles custam, consulte 
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Atribuir um número de telefone a um usuário
  
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
     
 1. Na navegação à esquerda, clique **em Voz Telefone**  >  **números**.
 2. Na página **Telefone números,** selecione um número não atribuído na lista e clique em **Editar**.  
@@ -59,7 +59,7 @@ Para um exemplo do PowerShell, consulte [Set-CsOnlineVoiceUser](/powershell/modu
   
 ## <a name="change-a-phone-number-for-a-user"></a>Alterar um número de telefone para um usuário
  
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
     
 1. Na navegação à esquerda, clique em **Usuários,** localize e clique duas vezes no usuário que você deseja, clique em Conta **e** em Informações **Gerais,** anote o número de telefone atribuído ao usuário.
 2. Na navegação à esquerda, clique **em Voz Telefone**  >  **números**.
@@ -75,7 +75,7 @@ Para um exemplo do PowerShell, consulte [Set-CsOnlineVoiceUser](/powershell/modu
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Remover um número de telefone de um usuário
  
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, clique em **Usuários,** localize e clique duas vezes no usuário que você deseja, clique em Conta **e** em Informações **Gerais,** anote o número de telefone atribuído ao usuário.
 2. Na navegação à esquerda, clique **em Voz Telefone**  >  **números**.

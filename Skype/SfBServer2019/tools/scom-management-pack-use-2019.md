@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumo: saiba como configurar sua infraestrutura Skype for Business Server 2019 para trabalhar com System Center Operations Manager.'
-ms.openlocfilehash: cdb201280afb1419e5b8975b31e3c7725902cd72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 90c40560ef1d39b462ce58b39804006dc7121024
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582005"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727590"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gerenciar Skype for Business Server 2019 usando o pacote de Gerenciamento SCOM
  
@@ -128,7 +128,7 @@ Skype for Business Server pacotes de gerenciamento 2019 oferecem cobertura maior
 |:-----|:-----|:-----|
 |1  <br/> |Registro (logon do usuário)  <br/> |Lync Server 2010 disponível e além  <br/> |
 |2  <br/> |Serviço de Livro de Endereços (download de arquivo)  <br/> |Lync Server 2010 disponível e além  <br/> |
-|3   <br/> |Consulta à web do Catálogo de endereços  <br/> |Lync Server 2010 disponível e além  <br/> |
+|3  <br/> |Consulta à web do Catálogo de endereços  <br/> |Lync Server 2010 disponível e além  <br/> |
 |4   <br/> |Presença  <br/> |Lync Server 2010 disponível e além  <br/> |
 |5   <br/> |Armazenamento de Contato Unificado  <br/> |Lync Server 2013 disponível e além  <br/> |
    
@@ -151,7 +151,7 @@ Skype for Business Server pacotes de gerenciamento 2019 oferecem cobertura maior
 |10   <br/> |Conferência de Dados  <br/> |Disponível no Lync Server 2013 e além  <br/> |
 |11   <br/> |Conferência de Mensagens Instantâneas  <br/> |Disponível no Lync Server 2010 e além  <br/> |
 |12   <br/> | Chat persistente <br/> |Disponível no Lync Server 2013 e além  <br/> |
-|13   <br/> |Ingressar no Launcher (reuniões agendadas)  <br/> |Disponível no Lync Server 2013 e além  <br/> |
+|13  <br/> |Ingressar no Launcher (reuniões agendadas)  <br/> |Disponível no Lync Server 2013 e além  <br/> |
 |14   <br/> |Discar em conferência  <br/> |Disponível no Skype for Business Server 2015 e além <br/> |
 |15   <br/> |Conferência de Compartilhamento de Aplicativos  <br/> |Disponível no Skype for Business Server 2015 e além <br/> |
 |16   <br/> |Conferência UCWA (união de reunião da Web)  <br/> |Disponível no Skype for Business Server 2015 e além <br/> |
@@ -185,13 +185,13 @@ A tabela a seguir mostra os estados de saúde dos objetos do Skype for Business 
 |Skype for Business Server Port Watcher  <br/> |Uma instância de Porta verifica em execução em um pool.  <br/> |
 |Simples Url Watcher  <br/> |Executa a sondagem HTTPS das URLs simples configuradas em uma implantação.  <br/> |
    
-![SCOM Rollup](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![Rollup SCOM.](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 Um pool Skype for Business Server pode conter vários sistemas Skype for Business Server individuais (com mais de uma função de Skype for Business Server, serviço Skype for Business Server e componente Skype for Business Server). Portanto, a falha de um servidor ou componente individual é menos crítica para a saúde geral do pool de Skype for Business Server, pois outros servidores no mesmo pool podem fornecer o serviço de aplicativo ao cliente. A saúde será acumulada em um nível percentual para o pool de Skype for Business Server. 
   
 O Skype for Business Server Pool Watcher executa transações sintéticas em um pool Skype for Business Server pool. A falha consecutiva de uma ou mais transações sintéticas (um processo conhecido como intervalo de sondagem consecutivo) reverterá o estado crítico de saúde para o nível do pool (o pior de qualquer transação sintética), conforme mostrado no diagrama a seguir. 
   
-![Sondagem consecutiva de acúmulo de SCOM](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![Votação consecutiva de rolagem de SCOM.](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## <a name="best-practice-create-a-management-pack-for-customizations"></a>Práticas práticas: criar um pacote de gerenciamento para personalizações
 

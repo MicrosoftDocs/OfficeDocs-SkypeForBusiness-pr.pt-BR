@@ -18,12 +18,12 @@ description: Saiba as diferentes maneiras de atribuir políticas aos usuários e
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: c33cfec3f0c242381ab4a3cd09b83eea02521375
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 858a28843fc883712ab12b868eca505069e5ab4f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626393"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727880"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Atribuir políticas aos usuários no Microsoft Teams
 
@@ -41,17 +41,17 @@ Um usuário tem uma política efetiva para cada tipo de política. É possível,
 
 Se um usuário for atribuído diretamente a uma política (individualmente ou por meio de uma atribuição em lotes), essa política tem precedência. No exemplo visual a seguir, a política efetiva do usuário é a política de reunião do Quadrado do Lincoln, que é atribuída diretamente ao usuário.
 
-![Diagrama mostrando como uma política atribuída diretamente tem precedência](media/assign-policies-example-directly-assigned.png)
+![Diagrama mostrando como uma política atribuída diretamente tem precedência.](media/assign-policies-example-directly-assigned.png)
 
 Se um usuário não receber diretamente uma política de um determinado tipo, a política atribuída a um grupo do qual o usuário é membro tem precedência. Se um usuário for membro de vários grupos, [](#group-assignment-ranking) a política com a classificação de atribuição de grupo mais alta para o tipo de política determinado terá precedência.
 
 Neste exemplo visual, a política efetiva do usuário é a política Teams e HD do Exec, que tem a classificação de atribuição mais alta em relação a outros grupos dos quais o usuário é membro e que também recebe uma política do mesmo tipo de política.  
 
-![Diagrama mostrando como uma política herdada do grupo tem precedência](media/assign-policies-example-group.png)
+![Diagrama mostrando como uma política herdada do grupo tem precedência.](media/assign-policies-example-group.png)
 
 Se um usuário não recebe uma política diretamente ou não é membro de nenhum grupo atribuído a uma política, o usuário obtém a política global (padrão em toda a organização) para esse tipo de política. Veja um exemplo visual.
 
-![Diagrama mostrando como uma política global tem precedência](media/assign-policies-example-global.png)
+![Diagrama mostrando como uma política global tem precedência.](media/assign-policies-example-global.png)
 
 Para saber mais, confira [Regras de precedência.](#precedence-rules)
 
@@ -476,7 +476,7 @@ Quando você atribui o pacote de política, ele é imediatamente atribuído ao g
     
     1. Selecione **Aplicar**.
     
-    ![mostra a atribuição de política de grupo](media/group-pkg-assignment.png)
+    ![mostra a atribuição de política de grupo.](media/group-pkg-assignment.png)
 
 5. Para gerenciar a classificação de um tipo de política específico, navegue até a página de política específica.
 

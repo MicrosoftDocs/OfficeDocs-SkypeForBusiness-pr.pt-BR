@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Saiba mais sobre os serviços do Enhanced 9-1-1 (E9-1-1) no Skype for Business Server Enterprise Voice, incluindo aquisição de local e roteamento de chamadas.
-ms.openlocfilehash: 2e7e3a2464f7c6e3579a9779a7926be2d87492d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592505"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732750"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planejar serviços de emergência no Skype for Business Server
 
@@ -78,7 +78,7 @@ O cliente Skype for Business inclui os dados PIDF-LO como parte de uma chamada d
 
 O diagrama a seguir mostra como um cliente Skype for Business adquire um local (exceto o método de localização baseado em endereço MAC do cliente de terceiros):
 
-![Como o cliente adquire um diagrama de localização](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
+![Como o cliente adquire um diagrama de local.](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
 
 Para um cliente adquirir uma localização, as seguintes etapas devem ser executadas:
 
@@ -98,7 +98,7 @@ O diagrama a seguir mostra como uma chamada de emergência é roteada do Skype f
 
 **Encaminhando chamadas do E9-1-1 por meio de um tronco SIP**
 
-![Roteamento de chamadas de emergência do Lync Server para o PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
+![Roteamento de chamadas de emergência do Lync Server para o PSAP.](../../media/Plan_LyncServer_E911_CallRouting.jpg)
 
 Quando uma chamada de emergência é feita de um cliente Skype for Business Server compatível:
 

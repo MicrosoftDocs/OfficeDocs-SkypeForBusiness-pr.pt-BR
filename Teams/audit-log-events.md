@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91111f211234058d9b438f8100e0310eec7a9db0
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: b0e2c1cf68097aede8fefd6410791ac103fcea68
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386690"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725660"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -63,11 +63,11 @@ O período de tempo em que um registro de auditoria é mantido e pesquisável no
 
 Aqui estão dicas para pesquisar Teams atividades no log de auditoria.
 
-![Captura de tela da página de pesquisa de log de auditoria](media/audit-log-search-page.png)
+![Captura de tela da página de pesquisa de log de auditoria.](media/audit-log-search-page.png)
 
 - Você pode selecionar atividades específicas para pesquisar clicando no nome da atividade. Ou você pode pesquisar todas as atividades em um grupo (como atividades de arquivo e **pasta)** clicando no nome do grupo. Se uma atividade estiver selecionada, você poderá clicar nele para cancelar a seleção. Você também pode usar a caixa de pesquisa para exibir as atividades que contêm a palavra-chave que você digita.
 
-  ![Captura de tela da pesquisa de log de auditoria](media/audit-log-search.png)
+  ![Captura de tela da pesquisa de log de auditoria.](media/audit-log-search.png)
 
 - Para exibir eventos para atividades executados usando cmdlets, selecione **Mostrar resultados de** todas as atividades na lista **Atividades.** Se você sabe o nome da operação para essas atividades, pesquise todas as atividades e filtre os resultados digitando o nome da operação na caixa na coluna **Atividade.** Para saber mais, confira [Etapa 3: Filtrar os resultados da pesquisa](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results).
 
@@ -87,13 +87,13 @@ Depois de definir uma política de detecção de atividade, ela começa a gerar 
 
 Um cenário em que você pode querer ficar de olho, de uma perspectiva de negócios, é a adição de usuários externos ao seu ambiente Teams ambiente. Se os usuários externos estão habilitados, monitorar sua presença é uma boa ideia.  Você pode usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para identificar possíveis ameaças.
 
-![Política para monitorar a adição de usuários externos](media/TeamsExternalUserAddPolicy.png)
+![Política para monitorar a adição de usuários externos.](media/TeamsExternalUserAddPolicy.png)
 
 A captura de tela dessa política para monitorar a adição de usuários externos permite nomear a política, definir a gravidade de acordo com suas necessidades de negócios, defini-la como (nesse caso) uma única atividade e, em seguida, estabelecer os parâmetros que monitorarão especificamente apenas a adição de usuários não internos e limitar essa atividade a Teams.
 
 Os resultados dessa política podem ser exibidos no log de atividades:
 
-![Eventos disparados pela política de usuários externos](media/TeamsExternalUserList.png)
+![Eventos disparados pela política de usuários externos.](media/TeamsExternalUserList.png)
 
 Aqui você pode revisar as combinações com a política definida e fazer quaisquer ajustes conforme necessário ou exportar os resultados a ser usado em outro lugar.
 
@@ -101,13 +101,13 @@ Aqui você pode revisar as combinações com a política definida e fazer quaisq
 
 Como mencionado anteriormente, você pode monitorar cenários de exclusão. É possível criar uma política que monitore a exclusão em massa de Teams sites. Neste exemplo, uma política baseada em alerta é configurada para detectar a exclusão em massa das equipes em um intervalo de 30 minutos.
 
-![Política mostrando a configuração de uma política para detecção de exclusão de equipe em massa](media/TeamsMassDeletePolicy.png)
+![Política mostrando a configuração de uma política para detecção de exclusão de equipe em massa.](media/TeamsMassDeletePolicy.png)
 
 Como mostra a captura de tela, você pode definir muitos parâmetros diferentes para essa política para monitorar as exclusões de Teams, incluindo gravidade, ação única ou repetida e parâmetros que limitam isso a Teams e exclusão de site. Isso pode ser feito independentemente de um modelo ou você pode ter um modelo criado para basear essa política, dependendo das suas necessidades organizacionais.
 
 Depois de estabelecer uma política que funcione para sua empresa, você poderá revisar os resultados no log de atividades à medida que os eventos são disparados:
 
-![Eventos de captura de tela disparados por exclusões em massa](media/TeamsMassDeleteList.png)
+![Eventos de captura de tela disparados por exclusões em massa.](media/TeamsMassDeleteList.png)
 
 Você pode filtrar até a política definida para ver os resultados dessa política. Se os resultados que você está recebendo no log de atividades não são satisfatórios (talvez você esteja vendo muitos resultados ou nada), isso pode ajudá-lo a ajustar a consulta para torná-la mais relevante para o que você precisa fazer.
 
@@ -115,7 +115,7 @@ Você pode filtrar até a política definida para ver os resultados dessa polít
 
 Você pode definir alertas e enviar emails para administradores e outros usuários quando uma política de atividade é disparada. Você pode definir ações de governança automatizadas, como suspender um usuário ou fazer com que um usuário entre novamente de forma automatizada. Este exemplo mostra como uma conta de usuário pode ser suspensa quando uma política de atividade é disparada e determina que um usuário excluiu duas ou mais equipes em 30 minutos.
 
-![Captura de tela de alertas e ações de governança para uma política de atividade](media/audit-log-governance.png)
+![Captura de tela de alertas e ações de governança para uma política de atividade.](media/audit-log-governance.png)
 
 ## <a name="teams-activities"></a>Teams atividades
 

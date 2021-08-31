@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 982d0515468109d1adf8ac2d7f00cce36732faf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 360d580b57ca9528eddf96d80b773c04c71c361b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620297"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727710"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Atribuir a Microsoft como provedor de audioconferência
 
@@ -42,7 +42,7 @@ A Conferência de Áudio da Microsoft fornece números de telefone discados, PIN
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Atribuir a Microsoft como provedor de audioconferência
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Um ícone mostrando o logotipo Skype for Business](../images/sfb-logo-30x30.png) Usar o Centro de administração do Skype for Business
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) Usar o Centro de administração do Skype for Business
 
 1. Vá para o **Microsoft Teams de administração portal**  >  **herdado**.
     

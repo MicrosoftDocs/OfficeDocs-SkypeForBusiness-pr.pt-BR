@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbc7deee746679b4e82b34dae8a0dd89b07ed37d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b62032ac94bed2c8f393e36724249abd4c9bb81
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583575"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727780"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
 
@@ -43,10 +43,10 @@ Conclua as etapas a seguir com estes adotantes inseríveis:
 
 Use os componentes de Microsoft 365 ou Office 365 para coletar comentários para seu projeto.
   
-![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png) Decisão: se sua organização já tiver um investimento em uma rede Yammer, você poderá usá-lo como um fórum de comentários para seu programa de adoção antecipado. Caso não seja, e seu programa de adoção inicial tiver menos de 5.000 membros, crie uma equipe em Teams para coletar comentários e fornecer treinamento.
+![Um ícone que representa um ponto de decisão.](media/teams-adoption-decision-icon.png) Decisão: se sua organização já tiver um investimento em uma rede Yammer, você poderá usá-lo como um fórum de comentários para seu programa de adoção antecipado. Caso não seja, e seu programa de adoção inicial tiver menos de 5.000 membros, crie uma equipe em Teams para coletar comentários e fornecer treinamento.
   
 > [!Note]
 > Algumas organizações combinarão os canais para comentários do adotante antecipado na equipe do programa de campeões do trabalho em equipe. Essa é uma boa abordagem porque muitos adotantes inserdos podem se tornar campeões no futuro e criar uma comunidade mais forte. 
 
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Suporte à integração](teams-adoption-onboard-support.md).
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: [Suporte à integração](teams-adoption-onboard-support.md).

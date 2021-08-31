@@ -18,12 +18,12 @@ description: Saiba as diferentes maneiras de atribuir pacotes de política a usu
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601196"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727190"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Atribuir pacotes de política a usuários e grupos
 
@@ -42,7 +42,7 @@ Um pacote de política no Teams é uma coleção de políticas e configurações
 2. Na página do usuário, selecione **Políticas** e, ao lado de **Pacote de Política,** selecione **Editar**.
 3. No painel **Atribuir pacote de** política, selecione o pacote que você deseja atribuir e selecione **Salvar**.
 
-![Teams captura de tela do centro de administração para atribuição de pacote de política a um usuário](media/assign-policypackages-user.png)
+![Teams captura de tela do centro de administração para atribuição de pacote de política a um usuário.](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Atribuir um pacote de política a vários usuários
 
@@ -51,7 +51,7 @@ Um pacote de política no Teams é uma coleção de políticas e configurações
 3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 4. Quando terminar de adicionar usuários, selecione **Salvar**.
 
-![Teams captura de tela do centro de administração para atribuição de pacote de política a vários usuários](media/assign-policypackages-multipleusers.png)
+![Teams captura de tela do centro de administração para atribuição de pacote de política a vários usuários.](media/assign-policypackages-multipleusers.png)
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Atribua o pacote de política a um grupo.
 
@@ -79,7 +79,7 @@ Quando você atribui o pacote de política, ele é imediatamente atribuído ao g
 
     d. Selecione **Aplicar**.
 
-![mostra a atribuição de política de grupo](media/group-pkg-assignment.png)
+![mostra a atribuição de política de grupo.](media/group-pkg-assignment.png)
 
 5. Para gerenciar a classificação de um tipo de política específico, navegue até a página de política específica.
 6. Para reatribuir um pacote de política a um grupo, primeiro remova a atribuição de política de grupo. Em seguida, siga as etapas acima para atribuir o pacote de política a um grupo.

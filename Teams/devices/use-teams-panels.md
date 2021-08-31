@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece orientações sobre como usar dispositivos Teams painéis.
-ms.openlocfilehash: 0fccd3e733cdeec2cfe84b721cbade5834b05b03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a172eab55e8e9b16432da5ce2f26b39cf71886d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626263"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732700"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Como usar Microsoft Teams painéis
 
@@ -54,7 +54,7 @@ Na tela Inicial, você pode exibir detalhes de local e reunião, reservar um esp
 
 A captura de tela a seguir mostra diferentes partes ou blocos na tela inicial Teams painéis:
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Esta captura de tela exibe diferentes áreas na tela inicial Teams painéis":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Esta captura de tela exibe diferentes áreas na tela inicial Teams painéis.":::
 
 Consulte a tabela a seguir para uma descrição de cada telha:
 
@@ -73,7 +73,7 @@ A aparência desse telha e seus recursos variam dependendo da disponibilidade do
 
 O azulejo aparece em roxo para um espaço de reunião reservado para uma reunião agendada (agendada por meio de Outlook ou Teams). Ele exibe o título da reunião em texto proeminente, horários de início e término da reunião e o nome do organizador da reunião. Para uma Teams, o logotipo Teams também é exibido. Com os detalhes da reunião exibidos com destaque, os participantes podem confirmar facilmente que estão no espaço de reunião certo, no momento certo e na reunião certa.
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams tela inicial dos painéis mostrando que o espaço de reunião está reservado para uma reunião agendada":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams tela inicial dos painéis mostrando que o espaço de reunião está reservado para uma reunião agendada.":::
 
 > [!NOTE]
 >
@@ -84,13 +84,13 @@ O azulejo aparece em roxo para um espaço de reunião reservado para uma reuniã
 
 O azulejo aparece em roxo para um espaço de reunião reservado [para uma reunião ad hoc.](#reserve-meeting-spaces-for-ad-hoc-meetings) Ele exibe **Reservado em texto** proeminente juntamente com os horários de início e término da reunião. As reuniões ad hoc são agendadas automaticamente como reuniões Teams, portanto, o logotipo Teams sempre aparece na tela.
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams tela inicial dos painéis mostrando que o espaço de reunião está reservado para uma reunião ad hoc":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams tela inicial dos painéis mostrando que o espaço de reunião está reservado para uma reunião ad hoc.":::
 
 #### <a name="meeting-space-is-available"></a>O espaço de reunião está disponível
 
 O azulejo aparece em verde para um espaço de reunião disponível. Ele exibe **Available em texto** proeminente, e um botão **Reserva** também aparece que você pode tocar para reservar o espaço de reunião para uma reunião [ad hoc](#reserve-meeting-spaces-for-ad-hoc-meetings). Você pode verificar o próximo calendário do espaço de reunião (azulejo inferior direito) para decidir a hora de término da reunião ad hoc.
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="Esta captura de tela mostra como Teams tela inicial dos painéis aparece quando o espaço de reunião está disponível":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="Esta captura de tela mostra como Teams tela inicial dos painéis aparece quando o espaço de reunião está disponível.":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>Reservar espaços de reunião para reuniões ad hoc
 
@@ -104,10 +104,10 @@ Para reuniões ad hoc reservadas diretamente de painéis:
 Para reservar um espaço de reunião disponível para uma reunião ad hoc:
 
 1. Na tela Inicial, toque no **botão Reserva.**
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams tela inicial dos painéis mostrando o botão Reserva":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams tela inicial dos painéis mostrando o botão Reserva.":::
 2. Na tela **de reunião Ad hoc,** revise as opções de hora de término disponíveis. Você pode usar as setas direita ou esquerda para procurar as opções de hora de término disponíveis.
 
-    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Tela de reunião ad hoc mostrando intervalos de tempo de término":::
+    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Tela de reunião ad hoc mostrando intervalos de tempo de término.":::
 
     > [!Note]
     >
@@ -118,10 +118,10 @@ Para reservar um espaço de reunião disponível para uma reunião ad hoc:
 3. Toque no intervalo de tempo de término desejado e toque em **Reserva**.
 
     Uma janela de confirmação aparece com um emoji polegar para cima, hora de início e término da reunião e nome do espaço de reunião.
-    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Mensagem de confirmação de reunião ad hoc":::
+    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Mensagem de confirmação de reunião ad hoc.":::
 O azulejo direito na tela inicial agora aparece em roxo e exibe o texto **Reservado** e o logotipo Teams. Isso indica que o espaço de reunião agora está reservado para uma reunião Teams ad hoc.
   
-    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Tela inicial mostrando que o espaço de reunião está reservado para uma reunião ad hoc":::
+    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Tela inicial mostrando que o espaço de reunião está reservado para uma reunião ad hoc.":::
 
     > [!NOTE]
     > Se o espaço de reunião for uma  sala Microsoft Teams, você poderá participar dessa reunião Teams com a sala de Microsoft Teams sala ou Surface Hub dispositivos.
@@ -185,7 +185,7 @@ Para acessar a **opção Painels app Configurações:**
 5. Toque no **botão Painels app Configurações** na tela direita.
     A tela com as configurações do aplicativo **Painéis** disponíveis é exibida.
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Esta captura de tela exibe a tela com as configurações do aplicativo Painéis disponíveis":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Esta captura de tela exibe a tela com as configurações do aplicativo Painéis disponíveis.":::
 
     Use esta tela para atualizar as seguintes **configurações do Aplicativo painéis** para seu dispositivo:
 
@@ -199,7 +199,7 @@ Alterar a imagem de papel de parede da tela inicial.
 1. [Aplicativo **de Painéis de Acesso Configurações**](#access-panels-app-settings).
 2. Toque **em Papel de Parede**.
 3. Em **Escolher sua imagem,** selecione uma imagem para definir como a imagem de plano de fundo da tela inicial. Visualizar a imagem selecionada em **Plano de Fundo**.
-:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Esta captura de tela exibe a tela de configurações do papel de parede":::
+:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Esta captura de tela exibe a tela de configurações do papel de parede.":::
 4. Volte para a tela inicial e verifique se o papel de parede foi atualizado.
 
 #### <a name="change-the-busy-state-led-color"></a>Alterar a cor do LED de estado ocupado
@@ -209,7 +209,7 @@ Os administradores podem escolher vermelho ou roxo como a cor LED para indicar q
 1. [Aplicativo **de Painéis de Acesso Configurações**](#access-panels-app-settings).
 2. Toque **em LED Configurações**.
 3. Em **Escolher a cor do LED,** selecione a cor desejada.
-:::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de tela exibe as configurações de estado de ocupado de cor led":::
+:::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de tela exibe as configurações de estado de ocupado da cor do LED.":::
 4. Volte para a tela inicial e verifique se a cor do LED para o estado de ocupado está atualizada. Se o espaço de reunião estiver disponível no momento, tente agendar uma reunião de teste para verificar a alteração na cor do LED para o estado de disponibilidade.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes

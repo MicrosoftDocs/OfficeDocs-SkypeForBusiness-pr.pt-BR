@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 30fafae99505c685a4042a4a79a6a30ff084d8f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0eddd5f7af724d9b981091ea1fca7f95ee1af8d9
+ms.sourcegitcommit: 1904d6a6b91ce613e2cf61af1e784ae046c3d6b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579607"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58744454"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -40,7 +40,7 @@ Um ícone de cadeado indica um canal particular. Apenas membros de canais partic
 
 Quando um canal privado é criado, ele é vinculado à equipe pai e não pode ser movido para uma equipe diferente. Além disso, os canais privados não podem ser convertidos em canais padrão e vice-versa.
 
-![Captura de tela de canais privados em uma equipe](media/private-channels-in-teams.png)
+![Captura de tela de canais privados em uma equipe.](media/private-channels-in-teams.png)
 
 ## <a name="private-channel-creation"></a>Criação de canal privado
 
@@ -66,7 +66,7 @@ Cada canal privado tem suas próprias configurações que o proprietário do can
 
 O proprietário do canal privado pode clicar em **Gerenciar canal** e, em seguida, usar as guias **Membros** e **Configurações** para adicionar ou remover membros e editar configurações.
 
-![Captura de tela das configurações de canal privado](media/private-channels-in-teams-channel-settings.png)
+![Captura de tela das configurações de canal privado.](media/private-channels-in-teams-channel-settings.png)
 
 ## <a name="private-channel-owner-and-member-actions"></a>Ações de proprietário e membro do canal privado
 
@@ -74,14 +74,14 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 
 |Ação  |Proprietário de equipe|Membro da equipe|Convidado da equipe|Proprietário do canal privado|Membro do canal privado|Convidado do canal privado|
 |---------|---------|---------|---------|---------|---------|---------|
-|Criar um canal privado|Controlado pelo administrador|Controlado pelo administrador e proprietário da equipe|Não|N/D|N/D|Não disponível|
+|Criar um canal privado|Controlado pelo administrador|Controlado pelo administrador e proprietário da equipe|Não|N/D|Não disponível|Não disponível|
 |Excluir canal privado|Sim|Não|Não|Sim|Não|Não|
 |Sair do canal privado|Não disponível|N/D|N/D|Sim, a menos que eles sejam o último proprietário|Sim|Sim|
-|Editar canal privado|Não|N/D|N/D|Sim|Não|Não|
+|Editar canal privado|Não|Não disponível|N/D|Sim|Não|Não|
 |Restaurar canal privado excluído|Sim|Não|Não|Sim|Não|Não|
-|Adicionar membros|Não|N/D|N/D|Sim|Não|Não|
-|Editar configurações|Não|N/D|N/D|Sim|Não|Não|
-|Gerenciar guias e aplicativos|Não|N/D|N/D|Sim, os aplicativos devem ser instalados para a equipe|Controle de proprietário do canal|Não|
+|Adicionar membros|Não|Não disponível|N/D|Sim|Não|Não|
+|Editar configurações|Não|Não disponível|N/D|Sim|Não|Não|
+|Gerenciar guias e aplicativos|Não|Não disponível|N/D|Sim, os aplicativos devem ser instalados para a equipe|Controle de proprietário do canal|Não|
 
 ## <a name="manage-the-lifecycle-of-private-channels"></a>Gerenciar o ciclo de vida de canais privados
 
@@ -91,13 +91,12 @@ Consulte [Gerenciar o ciclo de vida dos canais privados no Teams](private-channe
 
 Cada canal privado tem seu próprio site do SharePoint. O site separado é para garantir que o acesso aos arquivos do canal privado seja restrito apenas aos membros do canal privado. Esses sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um site completo por meio da [interface de gerenciamento de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada site é criado na mesma região geográfica do site de equipe pai. Esses sites leves têm uma ID de modelo personalizada, "TEAMCHANNEL# 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph. 
 
->[!NOTE]
->- Apenas usuários com permissões de proprietário ou membro concedidas no Microsoft Teams terão acesso ao conteúdo no site de canal privado.
->- Os sites de canal privado do Microsoft Office SharePoint Online não estão incluídos na página de sites ativos do novo Centro de Administração do SharePoint.
->- Os sites do Microsoft Office SharePoint Online de canal privado criados após 28 de junho de 2021 terão o modelo personalizado ID TEAMCHANNEL#1.
+> [!NOTE]
+> Apenas usuários com permissões de proprietário ou membro concedidas no Microsoft Teams terão acesso ao conteúdo no site de canal privado.
+> Os sites de canal privado do Microsoft Office SharePoint Online não estão incluídos na página de sites ativos do novo Centro de Administração do SharePoint.
+> Os sites do Microsoft Office SharePoint Online de canal privado criados após 28 de junho de 2021 terão o modelo personalizado ID TEAMCHANNEL#1.
 
-
-Um site de canal privado sincroniza a classificação de dados e herda permissões de acesso de convidado do conjunto do site da equipe pai. A associação do proprietário do site e dos grupos de membros é mantida em sincronia com a associação do canal privado no Teams. As alterações na associação de grupos de Proprietário ou Membro no SharePoint serão revertidas para a associação de canal privado dentro de quatro horas automaticamente. 
+Um site de canal privado sincroniza a classificação de dados e herda permissões de acesso de convidado do conjunto do site da equipe pai. A associação do proprietário do site e dos grupos de membros é mantida em sincronia com a associação do canal privado no Teams. As permissões de site para um site de canal privado não podem ser gerenciadas independentemente por meio do Microsoft Office SharePoint Online. 
 
 O Teams gerencia o ciclo de vida do site de canal privado. Se o site for excluído fora do Teams, um trabalho em segundo plano restaurará o site dentro de quatro horas, desde que o canal privado ainda esteja ativo. Se o site for excluído permanentemente, um novo site será provisionado para o canal privado.
 

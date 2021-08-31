@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar e conectar seu SBC ao Sistema de Telefonia Roteamento Direto.
-ms.openlocfilehash: 97b3bc7df52a431f1b3c64edaf7767b242838c22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d18ff8a8f0c398979a2c04d3aca1ff69b8bdc8f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608988"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726120"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conexão controlador de borda de sessão (SBC) para Roteamento Direto
 
@@ -43,7 +43,7 @@ Você pode usar o [Microsoft Teams de](#using-the-microsoft-teams-admin-center) 
 3. Insira um FQDN para o SBC. <br><br>Certifique-se de que a parte do nome de domínio do FQDN corresponde a um domínio registrado em seu locatário e tenha em mente que o nome de domínio não é suportado para o nome de domínio `*.onmicrosoft.com` FQDN SBC. Por exemplo, se você tiver dois nomes de domínio `contoso.com` e , use como o nome `contoso.onmicrosoft.com` `sbc.contoso.com` SBC. Se estiver usando um subdomínio, certifique-se de que esse subdomínio também esteja registrado em seu locatário. Por exemplo, se você quiser usar `sbc.service.contoso.com` , então precisa ser `service.contoso.com` registrado.
 4. Configure as configurações a seguir para o SBC, com base nas necessidades da sua organização. Para obter detalhes sobre cada uma dessas configurações, consulte [Configurações SBC](#sbc-settings).
 
-    ![Captura de tela da página adicionar SBC no Microsoft Teams de administração](media/direct-routing-add-sbc.png)
+    ![Captura de tela da página adicionar SBC no Microsoft Teams de administração.](media/direct-routing-add-sbc.png)
 
 5. Quando terminar, clique em **Salvar**.
 

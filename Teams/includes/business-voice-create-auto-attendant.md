@@ -33,13 +33,13 @@ Você pode criar uma conta de recurso no Teams de administração.
 
 3. No painel **Adicionar conta de** recurso, preencha **Nome** de exibição , Nome de **usuário** e escolha **Atendimento** automático para o tipo de conta **de recurso**
 
-    ![Captura de tela da interface do usuário adicionar conta de recurso](../media/resource-account-add.png)
+    ![Captura de tela da interface do usuário adicionar conta de recurso.](../media/resource-account-add.png)
 
 4. Clique em **Salvar**.
 
     A nova conta aparecerá na lista de contas.
 
-    ![Captura de tela de uma lista de contas de recursos](../media/resource-accounts-page.png)
+    ![Captura de tela de uma lista de contas de recursos.](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Atribuir uma licença
 
@@ -51,7 +51,7 @@ Você deve atribuir uma *Microsoft 365 Sistema de Telefonia - Licença de usuár
 
 3. Clique em **Salvar alterações**.
 
-    ![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
+    ![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365.](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="assign-a-service-number"></a>Atribuir um número de serviço
 
@@ -63,7 +63,7 @@ Se você precisar que esse atendimento automático seja acessível por um númer
 
 3. Na caixa **Número de telefone atribuído,** pesquise o número que deseja usar e clique em **Adicionar**.
 
-    ![Captura de tela da interface do usuário atribuir número de serviço](../media/resource-account-assign-phone-number.png)
+    ![Captura de tela da interface do usuário atribuir número de serviço.](../media/resource-account-assign-phone-number.png)
 
 4. Clique em **Salvar**.
 
@@ -86,7 +86,7 @@ Para configurar um atendimento automático
 
 6. Escolha se deseja habilitar entradas de voz. Quando habilitada, o nome de cada opção de menu se torna uma palavra-chave de reconhecimento de fala. Por exemplo, os chamadores podem dizer "Um" para selecionar a opção de menu mapeada para a tecla 1 ou podem dizer "Vendas" para selecionar a opção de menu chamada "Vendas".
 
-    ![Captura de tela das configurações de atendimento automático para nome, operador, fuso horário, idioma e entradas de voz](../media/auto-attendant-general-info-page-new.png)
+    ![Captura de tela das configurações de atendimento automático para nome, operador, fuso horário, idioma e entradas de voz.](../media/auto-attendant-general-info-page-new.png)
 
 7. Click **Next**.
 
@@ -103,7 +103,7 @@ Escolha suas opções de fluxo de chamada
 
     Se você selecionar **Digitar uma** mensagem de saudação, o sistema lerá o texto que você digitará (até 1000 caracteres) quando o atendemento automático atender a uma chamada.
 
-    ![Captura de tela das configurações da mensagem de saudação](../media/auto-attendant-call-flow-greeting-message.png)
+    ![Captura de tela das configurações da mensagem de saudação.](../media/auto-attendant-call-flow-greeting-message.png)
 
 2. Escolha como você deseja rotear a chamada.
 
@@ -113,7 +113,7 @@ Escolha suas opções de fluxo de chamada
 
     Se você selecionar Opções de menu  Reproduzir, poderá  optar por Reproduzir um arquivo de áudio ou Digitar uma mensagem de saudação e escolher entre opções de **menu** e pesquisa de diretório.
 
-    ![Captura de tela das configurações de roteamento de chamadas](../media/auto-attendant-call-flow-route-call-message.png)
+    ![Captura de tela das configurações de roteamento de chamadas.](../media/auto-attendant-call-flow-route-call-message.png)
 
 3. Se você quiser que os chamadores usem teclas de discagem para navegar, em Definir opções de **menu,** escolha o que você deseja que aconteça quando os chamadores pressionarem uma tecla de discagem. (Se você estiver criando esse atendimento automático como um diretório da empresa, deixe as opções da chave de discagem em branco.)
 
@@ -135,7 +135,7 @@ Escolha suas opções de fluxo de chamada
 
     - **Redirecionar** para onde você deseja que a chamada vá quando os chamadores escolherem essa opção. Se você estiver redirecionando para um atendimento automático ou fila de chamada, escolha a conta de recurso associada a ela.
 
-    ![Captura de tela das opções de teclas de discagem](../media/auto-attendant-call-flow-menu-options-complete.png)
+    ![Captura de tela das opções de teclas de discagem.](../media/auto-attendant-call-flow-menu-options-complete.png)
 
 4. Se você quiser usar esse assistente automático como diretório da empresa, em **Pesquisa de** diretório, selecione **Discar por nome**. Quando você habilita essa opção, os chamadores podem dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online com uma Sistema de Telefonia é um usuário qualificado e pode ser encontrado com Dial pelo nome. 
 
@@ -154,7 +154,7 @@ Dependendo de como você configurou seus atendimentos automáticos e filas de ch
 
 Se você quiser roteamento de chamadas separado para chamadores após o horário, especifique seu horário comercial para cada dia. Clique **em Adicionar novo horário** para especificar vários conjuntos de horas para um determinado dia, por exemplo, para especificar uma pausa de almoço.
 
-![Captura de tela das configurações de dia e hora após o expediente](../media/auto-attendant-business-hours.png)
+![Captura de tela das configurações de dia e hora após o horário.](../media/auto-attendant-business-hours.png)
 
 Depois de especificar seu horário comercial, escolha suas opções de roteamento de chamadas para o horário de expediente. As mesmas opções estão disponíveis para o roteamento de chamadas de horário comercial especificado na **Etapa 3 - Fluxo de chamadas.**
 
@@ -177,19 +177,19 @@ O seu atendente automático pode ter um fluxo de chamada para cada feriado que v
 
 4. Escolha o tipo de saudação que você deseja usar.
 
-    ![Captura de tela das configurações de saudação de feriados e feriados](../media/auto-attendant-holiday-greeting.png)
+    ![Captura de tela das configurações de saudação de feriados e feriados.](../media/auto-attendant-holiday-greeting.png)
 
 5. Escolha se deseja **desconectar ou** **redirecionar** a chamada.
 
 6. Se você optou por redirecionar, escolha o destino de roteamento de chamadas para a chamada.
 
-    ![Captura de tela das configurações de ação de chamada de feriado](../media/auto-attendant-holiday-actions.png)
+    ![Captura de tela das configurações de ação de chamada de feriado.](../media/auto-attendant-holiday-actions.png)
 
 7. Clique em **Salvar**.
 
     Repita o procedimento conforme necessário para cada feriado adicional.
 
-    ![Captura de tela das configurações de feriados com feriados listados](../media/auto-attendant-holiday-call-settings.png)
+    ![Captura de tela das configurações de feriados com feriados listados.](../media/auto-attendant-holiday-call-settings.png)
 
     Quando você adicionou todos os feriados, clique em **Próximo**.
 
@@ -202,7 +202,7 @@ O *escopo de* discagem define quais usuários estão disponíveis no diretório 
 
 Você pode incluir ou excluir  usuários específicos  selecionando Grupo de usuários personalizado em **Incluir** ou Excluir e escolher um ou mais grupos de Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem. (Se um usuário estiver em ambas as listas, ele será excluído do diretório.)
 
-![Captura de tela do escopo de discagem incluem e excluem opções](../media/auto-attendant-dial-scope.png)
+![Captura de tela do escopo de discagem incluem e excluem opções.](../media/auto-attendant-dial-scope.png)
 
 > [!NOTE]
 > Pode levar até 36 horas para que um novo usuário tenha seu nome listado no diretório.
@@ -220,11 +220,11 @@ Para adicionar uma conta de recurso
 
 1. Clique **em Adicionar** e pesquisar a conta que você deseja adicionar. Clique **em Adicionar** e, em seguida, clique em **Adicionar**.
 
-    ![Captura de tela do painel adicionar contas de conta de recurso](../media/auto-attendant-add-resource-account.png)
+    ![Captura de tela do painel contas de recurso adicionar contas.](../media/auto-attendant-add-resource-account.png)
 
 2. Quando terminar de adicionar contas de serviço, clique em **Enviar**.
 
-    ![Captura de tela da lista de contas de recursos mostrando a conta de recurso com o número de serviço atribuído](../media/auto-attendant-resource-account-assigned.png)
+    ![Captura de tela da lista de contas de recursos mostrando a conta de recurso com o número de serviço atribuído.](../media/auto-attendant-resource-account-assigned.png)
 
     Isso conclui a configuração do atendimento automático.
 

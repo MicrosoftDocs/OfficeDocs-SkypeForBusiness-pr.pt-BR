@@ -17,12 +17,12 @@ description: Use o relatório de usuários bloqueados PSTN no centro de administ
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da60a0005fbccd04e3257f3dd7466d5b1a32a544
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c1f703c672859c68d79a56af754dc087f68407c1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594463"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733090"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams Relatório de usuários bloqueados PSTN
 
@@ -32,7 +32,7 @@ O relatório de usuários bloqueados PSTN no centro de administração Microsoft
 
 Na navegação à esquerda do centro de administração Microsoft Teams, clique **em Análise & relatórios** de  >  **uso.** Na guia **Exibir relatórios,** em **Relatório,** selecione **Usuários bloqueados PSTN** e clique em **Executar relatório**.
 
-![Captura de tela do relatório de relatório de usuários bloqueados PSTN no centro de administração](../media/teams-reports-pstn-blocked-users-with-callouts.png "Captura de tela do relatório de usuários bloqueados do PSTN no centro de administração Microsoft Teams com callouts numerados")
+![Captura de tela do relatório de relatório de usuários bloqueados PSTN no centro de administração.](../media/teams-reports-pstn-blocked-users-with-callouts.png "Captura de tela do relatório de usuários bloqueados do PSTN no centro de administração Microsoft Teams com callouts numerados")
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 

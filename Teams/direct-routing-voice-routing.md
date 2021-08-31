@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar o roteamento de voz com Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: b5f3cc1cec5928a423e2dfb74d4c5921047e7330
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7d02eb6a2eb1546e11693e8e2475b1ed6e2b7685
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632165"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727130"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>Configurar roteamento de voz para Roteamento Direto
 
@@ -68,7 +68,7 @@ O diagrama a seguir mostra dois exemplos de políticas de roteamento de voz em u
 
 **Chame Flow 2 (à direita):** Se um usuário fizer uma chamada para +1 425 XXX XX XX ou +1 206 XXX XX, a chamada será roteada pela primeira vez para SBC sbc1.contoso.biz ou sbc2.contoso.biz. Se nenhum SBC estiver disponível, a rota com prioridade mais baixa será tentada (sbc3.contoso.biz e sbc4.contoso.biz). Se nenhum dos SBCs estiver disponível, a chamada será retirada. 
 
-![Mostra exemplos de política de roteamento de voz](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
+![Mostra exemplos de política de roteamento de voz.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
 Em ambos os exemplos, enquanto a rota de voz é atribuída prioridades, os SBCs nas rotas são tentados em ordem aleatória.
 
@@ -77,7 +77,7 @@ Em ambos os exemplos, enquanto a rota de voz é atribuída prioridades, os SBCs 
 
 No exemplo mostrado no diagrama a seguir, uma rota de voz é adicionada para enviar chamadas para todos os outros números dos EUA e do Canadá (chamadas que vão para o padrão de número chamado +1 XXX XXX XX XX).
 
-![Mostra a política de roteamento de voz com uma terceira rota](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
+![Mostra a política de roteamento de voz com uma terceira rota.](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
 Para todas as outras chamadas, se um usuário tiver ambas as licenças (Telefone Microsoft System e Plano de Chamadas da Microsoft), a rota automática será usada. Se nada corresponde aos padrões de número nas rotas de voz online criadas pelo administrador, a chamada será roteada por meio do Plano de Chamadas da Microsoft. Se o usuário tiver apenas Telefone Microsoft System, a chamada será descartada porque não há regras correspondentes disponíveis.
 
@@ -310,11 +310,11 @@ Os exemplos mostrados atribuem a política Somente EUA ao usuário Spencer Low e
 
 - John Woods – Política internacional.  As chamadas têm permissão para qualquer número. Ao chamar para o intervalo de números redmond, o conjunto específico de SBCs deve ser usado. Os números que não são dos EUA serão roteados usando sbc2.contoso.biz e sbc5.contoso.biz.
 
-![Mostra a política de roteamento de voz atribuída ao usuário Spencer Low](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![Mostra a política de roteamento de voz atribuída ao usuário Spencer Low.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
 Para todas as outras chamadas, se um usuário tiver ambas as licenças (Telefone Microsoft System e Plano de Chamadas da Microsoft), a rota automática será usada. Se nada corresponde aos padrões de número nas rotas de voz online criadas pelo administrador, a chamada será roteada usando o Plano de Chamadas da Microsoft.  Se o usuário tiver apenas Telefone Microsoft System, a chamada será descartada porque não há regras correspondentes disponíveis.
 
-![Mostra a política de roteamento de voz atribuída ao usuário John Woods](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![Mostra a política de roteamento de voz atribuída ao usuário John Woods.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
 A tabela a seguir resume as designações de uso e as rotas de voz da política de roteamento "Sem Restrições". 
 

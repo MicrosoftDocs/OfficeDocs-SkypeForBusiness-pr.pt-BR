@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planejando a chamada via trabalho no Skype for Business Server, que permite a integração entre o Skype for Business e seu sistema de telefonia PBX, para que os usuários possam usar o Skype for Business para controlar seus telefones PBX.
-ms.openlocfilehash: 287f549d0b416e432eea771c07a7331e38a0b594
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc2a20741f4f89d4a535b9aa0278fea85a8f44c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592525"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732580"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planejar a chamada via trabalho no Skype for Business Server
  
@@ -47,7 +47,7 @@ A Call Via Work usa a UCWA (Unified Communications Web API) como o agente de usu
 
 O seguinte ilustra como um usuário habilitado para o Call Via Work pode usar o Skype for Business Server para fazer uma chamada:
   
-![Mostra as etapas durante uma chamada via trabalho; primeiro, o chamador clica para chamar alguém no Skype for Business cliente; em seguida, o UCWA toca o telefone do chamador. Quando o chamador atende o telefone, o destinatário é chamado](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![Mostra as etapas durante uma chamada via trabalho; primeiro, o chamador clica para chamar alguém no Skype for Business cliente; em seguida, o UCWA toca o telefone do chamador. Quando o chamador atende o telefone, o destinatário é chamado.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
 1. O usuário seleciona um usuário em seu Skype for Business cliente e clica no ícone do telefone para chamá-lo. Ou, durante uma conversa de IM, o usuário clica para chamar o usuário com o que está tendo a sessão.
     

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI para exibir Atendedor Automático dados históricos da Fila de Chamada.
-ms.openlocfilehash: cd32c732162c15cdaf4cfeac4c83cb53ebd5fe10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a474b2f8e4acc89a92edcc0b20f1414d8cf38fde
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598615"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732730"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Atendedor Automático & Histórico da Fila de Chamada
 
@@ -64,7 +64,7 @@ Execute as seguintes etapas:
 
 - Você será solicitado a selecionar a região do pipeline de dados CQD. Selecione a região onde seu locatário está localizado.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela selecionando a região do pipeline de dados CQD":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela selecionando a região do pipeline de dados CQD.":::
 
 - A região onde seu locatário está localizado pode ser obtida usando o cmdlet [Get-CsTenant.](/powershell/module/skype/get-cstenant)
 
@@ -81,11 +81,11 @@ Execute as seguintes etapas:
  
  - Para ver seus próprios dados, selecione **Atualizar** na guia Home em Consultas Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela selecionando a opção de atualização":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela selecionando a opção de atualização.":::
 
 - Em seguida, você será solicitado a entrar. Selecione **Conta da Organização** e, em seguida, selecione **Entrar**.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela mostrando logon":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela mostrando logon.":::
 
 - Selecione **Conexão** e assista à atualização de dados.
 
@@ -108,11 +108,11 @@ As etapas a seguir pressuem que você já concluiu as etapas de instalação.
 Execute as seguintes etapas:
 - Selecione **Exibir guia** na faixa de opções.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de tela selecionando a guia exibir para alterar o esquema de cores":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de tela selecionando a guia exibir para alterar o esquema de cores.":::
 
 - Selecione o esquema de cores na listada.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de tela mostrando vários esquemas de cores":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de tela mostrando vários esquemas de cores.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Atendedor Automático e Definições de Relatórios Históricos da Fila de Chamada
 

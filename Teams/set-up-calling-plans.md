@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar Planos de Chamadas, incluindo planos de exibição disponíveis em sua região, comprar & atribuir licenças, obter números de telefone e adicionar endereços de emergência & locais.
-ms.openlocfilehash: 0e44c9ec30efef26840bcb79582186ed5e0e3678
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618477"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725720"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 
@@ -78,7 +78,7 @@ A Microsoft recomenda enviar emails ou usar o método de comunicação preferenc
  
 No **Microsoft Teams**, os usuários podem ver o número de telefone clicando em **Chamadas** no painel de navegação à esquerda. O número de telefone é mostrado acima do teclado de discagem.
 
-![Captura de tela das opções disponíveis após clicar em Chamadas](media/teams-phone-number.png)
+![Captura de tela das opções disponíveis após clicar em Chamadas.](media/teams-phone-number.png)
 
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>Você quer atribuir números telefônicos automaticamente?

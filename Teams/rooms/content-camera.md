@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Use uma câmera de conteúdo em uma Sala do Microsoft Teams, que interage com o software de processamento de imagem para permitir que os apresentadores desenhem em um quadro de comunicações analógico.
-ms.openlocfilehash: e24a90e65a5d844a5431951283153a5de2406498
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613000"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726010"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
@@ -48,7 +48,7 @@ O posicionamento ideal de uma câmera de conteúdo é centralizado verticalmente
 
 Você poderá instalar a câmera até 6 polegadas (152 mm) acima da parte superior do quadro de comunicações e centralizada no quadro branco, conforme mostrado. Certifique-se de que a imagem da câmera inclua uma borda de pelo menos 6 polegadas (152 mm) em ambos os lados horizontalmente. Você pode usar a visualização da câmera no aplicativo Salas do Microsoft Teams para determinar o posicionamento final da câmera.
 
-![Diagrama de posicionamento da câmera de conteúdo](../media/Magic-whiteboard.png)
+![Diagrama de posicionamento da câmera de conteúdo.](../media/Magic-whiteboard.png)
 
 ### <a name="camera-distances"></a>Distâncias da câmera
 
@@ -88,12 +88,12 @@ Ou consulte o marketplace de dispositivos do Microsoft Teams para obter os Kits 
 
 Quando a câmera estiver instalada na sala, configurar-a no console de Salas do Microsoft Teams dessa sala:
 
-1. Selecione **Configurações** ![Ícone de configurações](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png), entre como administrador e selecione **Configurações do dispositivo**.
+1. Selecione **Configurações** ![ Configurações ícone. , ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) faça logoff como Administrador e selecione **Dispositivo Configurações**.
 2. Na seção **Padrões da câmera**, selecione a câmera de conteúdo e certifique-se de que a opção **Aprimoramentos de conteúdo** esteja selecionada.
 3. (Opcional) Se a câmera foi instalada de cabeça para baixo porque a câmera foi montada no teto, marque a opção **Girar câmera de conteúdo 180°**.
 4. Selecione **Salvar e sair**.
 
-![Configuração da câmera de conteúdo](../media/content-camera.png)
+![Configuração da câmera de conteúdo.](../media/content-camera.png)
 
 Você também poderá ajustar essas configurações remotamente usando um [arquivo de configuração XML](xml-config-file.md).
 

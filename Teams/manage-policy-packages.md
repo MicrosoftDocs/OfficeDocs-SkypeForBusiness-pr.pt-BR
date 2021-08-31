@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política Microsoft Teams simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 2db3b926a7e241a83ab46de4285cc4b7ef0882e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a9e7c8a83d7700840a49febdf0ab88104a7e2d9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637067"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58750028"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: Gerenciar pacotes de política
 
@@ -33,7 +33,7 @@ Um pacote de política no Microsoft Teams é um conjunto de políticas e configu
 
 Você pode usar os pacotes [de política incluídos no Teams](#policy-packages-included-in-teams) ou criar seus próprios pacotes de política [personalizados.](#custom-policy-packages)
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de tela da página Pacotes de política no centro de administração":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de tela da página Pacotes de política no centro de administração.":::
 
 Você pode personalizar as configurações das políticas em um pacote de política para atender às necessidades de seus usuários. Quando você altera as configurações de políticas em um pacote, todos os usuários atribuídos a esse pacote obterão as configurações atualizadas. Você gerencia pacotes de política usando o Microsoft Teams de administração ou o PowerShell.
 
@@ -79,7 +79,7 @@ Teams atualmente inclui os seguintes pacotes de política.
 Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas.
 Por exemplo, quando você atribui o pacote de política de Educação (Professor) aos professores em sua escola, uma política chamada Education_Teacher é criada para cada política no pacote.
 
-![Captura de tela do pacote de política educação (professor)](media/policy-packages-education_teacher.png)
+![Captura de tela do pacote de política Educação (Professor).](media/policy-packages-education_teacher.png)
 
 ## <a name="custom-policy-packages"></a>Pacotes de política personalizados
 
@@ -91,11 +91,11 @@ Para criar um novo pacote de política personalizado:
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, selecione **Pacotes** de política e clique em **Adicionar**.
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de tela do botão Adicionar em pacotes de política no centro de administração":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de tela do botão Adicionar em Pacotes de política no centro de administração.":::
 
 2. Insira um nome e uma descrição para o pacote.
 
-    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Captura de tela da adição de um novo pacote de política personalizado":::
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Captura de tela da adição de um novo pacote de política personalizado.":::
 
 3. Selecione os tipos de política e os nomes de política a incluir no pacote.
 
@@ -105,7 +105,7 @@ Para criar um novo pacote de política personalizado:
 
 As estruturas a seguir explicam como usar pacotes de política em sua organização.
 
-![Visão geral de como usar pacotes de política](media/manage-policy-packages-overview.png)
+![Visão geral de como usar pacotes de política.](media/manage-policy-packages-overview.png)
 
 - **[Exibir](#view-the-settings-of-a-policy-in-a-policy-package)**: Exibir as políticas em um pacote de política. Em seguida, exibir as configurações de cada política em um pacote antes de atribuir o pacote. Certifique-se de entender cada configuração. Decida se os valores predefinidos são apropriados para sua organização ou se você precisa alterá-los para que sejam mais restritivos ou tolerantes com base nas necessidades da sua organização.
 

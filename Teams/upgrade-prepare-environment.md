@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b12ed0ad9b662f4cc36a68ae7ee3b4340960517f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d3cae31f89b625c840fcc946d2b282a58bca445
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616137"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725440"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar seu ambiente para atualização para Teams
 
-![Atualizar diagrama de jornada, enfatizando o estágio de Preparação Técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica")
+![Atualize o diagrama de jornada, enfatizando o estágio de Preparação Técnica.](media/upgrade-banner-tech-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica")
 
 Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme se você concluiu essas atividades de estágios anteriores:
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos Salas do Microsoft Teams de forma integrada e de ponta a ponta usando o Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77b1e18e9f30e13cc209040ab876324afa232766
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6713b8651432766e6858f3376ff9804d638babcc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613020"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726110"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: o gerenciamento com :::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ Você pode configurar dentro para fornecer telemetria básica e :::no-loc text="
 
 Seguindo este guia, você pode usar um painel como o exemplo a seguir para obter relatórios detalhados de status para disponibilidade do dispositivo, a saúde do aplicativo e do hardware e a distribuição de versão do aplicativo e do sistema :::no-loc text="Microsoft Teams Rooms"::: operacional.
 
-![Captura de tela do exemplo de exibição do Log Analytics para Salas do Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Exemplo de exibição de Análise de Log para Salas do Microsoft Teams")
+![Captura de tela do exemplo de exibição do Log Analytics para Salas do Microsoft Teams.](../media/Deploy-Azure-Monitor-1.png "Exemplo de exibição de Análise de Log para Salas do Microsoft Teams")
 
 Em um nível superior, é necessário executar as seguintes tarefas:
 
@@ -65,7 +65,7 @@ Você precisa configurar para :::no-loc text="Log Analytics"::: coletar os logs 
 
 Para configurar :::no-loc text="Log Analytics"::: para coletar os eventos, consulte fontes de dados :::no-loc text="Microsoft Teams Rooms"::: do log de eventos [ :::no-loc text="Windows"::: em :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Captura de tela das configurações do log de eventos](../media/Deploy-Azure-Monitor-2.png "Configurações de log de eventos")
+![Captura de tela das configurações do log de eventos.](../media/Deploy-Azure-Monitor-2.png "Configurações de log de eventos")
 
 > [!IMPORTANT]
 > Configure as configurações do Log de Eventos e insira como nome do log de eventos e selecione as caixas de seleção :::no-loc text="Windows"::: **:::no-loc text="Skype Room System":::** **Erro,** **Aviso** e **Informações.**

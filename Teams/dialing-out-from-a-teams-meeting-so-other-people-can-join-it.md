@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Os organizadores da reunião podem aprender a discar usando o aplicativo Teams para permitir que outras pessoas participem da mesma reunião usando seus telefones.
-ms.openlocfilehash: db6d900a5892753eee60c3a150579cffb4dbd258
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 690ae9a1597f2d6f1621deb264d9115780d35622
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623313"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725640"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 
@@ -46,10 +46,10 @@ Quando você disca para alguém, recomendamos que você faça isso usando seus n
 
 Veja como fazer a discagem funcionar:
 
- **Etapa 1:** Na reunião, use a opção **Adicionar captura** de tela de pessoas da opção Adicionar pessoas ![ para ](media/add-people-button.png) discar para um número de telefone.
+ **Etapa 1:** Na reunião, use a Captura de tela **Adicionar pessoas** do botão ![ Adicionar pessoas.](media/add-people-button.png) para discar para um número de telefone.
  **Etapa 2:** Insira o número de telefone completo, incluindo o código de país/região na **caixa Convidar alguém ou discar um** número.
   
-![Captura de tela da caixa Convidar alguém ou discar um número](media/invite-someone-box.png)
+![Captura de tela da caixa Convidar alguém ou discar um número.](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>Países e regiões com suporte
 

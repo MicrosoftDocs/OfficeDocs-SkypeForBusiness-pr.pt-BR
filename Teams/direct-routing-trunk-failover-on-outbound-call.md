@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este tópico para saber como lidar com failovers de tronco em chamadas de saída de Teams para o Controlador de Borda de Sessão (SBC).
-ms.openlocfilehash: 878a4735585ee183f0156b44c253b079c2e6e24c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83320e93df7cbf476d71b3b9165d50ca387292b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619447"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727860"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Failover de tronco em chamadas de saída
 
@@ -45,12 +45,12 @@ Esse SBC específico pode estar com dificuldades para se conectar ao chamador, t
 No diagrama a seguir, quando um usuário faz uma chamada para um número de telefone, há dois SBCs na rota que podem entregar essa chamada. Inicialmente, SBC1.contoso.com está selecionado para a chamada, mas SBC1.contoso.com não é capaz de alcançar uma rede PTSN devido a um problema de rede.
 Por padrão, a chamada será concluída neste momento. 
  
-![Diagrama mostrando que o SBC não consegue alcançar o PSTN devido a um problema de rede](media/direct-routing-failover-response-codes1.png)
+![Diagrama mostrando que o SBC não consegue alcançar o PSTN devido a um problema de rede.](media/direct-routing-failover-response-codes1.png)
 
 Mas há mais um SBC na rota que potencialmente pode entregar a chamada.
 Se você configurar o parâmetro , o segundo SBC será `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` SBC2.contoso.com no diagrama a seguir:
 
-![Diagrama mostrando o roteamento para o segundo SBC](media/direct-routing-failover-response-codes2.png)
+![Diagrama mostrando o roteamento para o segundo SBC.](media/direct-routing-failover-response-codes2.png)
 
 Definir o parâmetro -FailoverResponseCodes e especificar os códigos ajuda você a ajustar o roteamento e evitar possíveis problemas quando um SBC não pode fazer uma chamada devido a problemas de rede ou outros problemas.
 

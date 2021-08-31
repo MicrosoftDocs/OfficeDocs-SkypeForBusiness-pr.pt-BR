@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba como usar guias internas e personalizadas para incluir recursos, como conversas, arquivos, mapas e muito mais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5eb82e322f8e8f28c7e1afc8c3c0b76ce277a36
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: cf48eef40ec71d1ca661b98ce6f6c842fe636942
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372061"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727170"
 ---
 # <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar guias internas e personalizadas no Microsoft Teams
 
@@ -53,7 +53,7 @@ Os proprietários e membros da equipe podem incluir guias em um canal, chat priv
 
 - Instruções detalhadas são fornecidas quando um membro da equipe tenta adicionar uma guia personalizada ao seu canal ou chat. Quando uma guia personalizada é adicionada a um canal, uma conversa **tab** é criada que permite que os membros da equipe tenham discussões focadas sobre o conteúdo.
 
-    ![Captura de tela de uma guia personalizada com uma conversa de tabulação à direita](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![Captura de tela de uma guia personalizada com uma conversa de tabulação à direita.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## <a name="develop-custom-tabs"></a>Desenvolvimento de guias personalizadas
 

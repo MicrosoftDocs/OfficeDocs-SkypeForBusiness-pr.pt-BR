@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dedac139aa4831b61a25bd6b65b6520288238d6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4cb617c1d3d73e38ce1d66c4c261f9b0e74e845b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606962"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732840"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiência e conformidade do cliente do Teams a modos de coexistência
 
@@ -50,11 +50,11 @@ A funcionalidade disponível no Teams depende do modo de coexistência do usuár
 
 As capturas de tela a seguir ilustram a diferença entre Teams **modo Somente** ou **Ilhas** e todos os outros modos. Observe que os ícones de chat e  chamada estão disponíveis por padrão com o modo Somente Teams ou **Ilhas** (captura de tela à esquerda), mas não com os outros modos (captura de tela à direita):
 
-![Uma comparação lado a lado de Teams modos](media/teams-mode-comparison.png)
+![Uma comparação lado a lado de Teams modos.](media/teams-mode-comparison.png)
 
 Além disso, a auto-presença não está disponível nos outros modos, conforme mostrado aqui.
 
-![Captura de tela de auto-presença em Reuniões Primeiro](media/meetings-first-no-self-presence-general.png)
+![Captura de tela de auto-presença em Reuniões Primeiro.](media/meetings-first-no-self-presence-general.png)
  
 **Observação:** 
  <sup>1</sup> Neste momento, SfBwithTeamsCollab e SfBOnly se comportam da mesma forma, mas a intenção é que o modo SfBOnly também desabilite a funcionalidade Canais e Arquivos no Teams. Nesse ínterim, os canais podem ser ocultos usando a política permissões do aplicativo.
@@ -65,7 +65,7 @@ Conforme descrito acima, o impacto do modo de coexistência de um usuário é a 
 
 |**Modalidade (App)**|**Policy.Setting**|
 |---|---|
-|Bate-papo|TeamsMessagingPolicy.AllowUserChat|
+|Chat|TeamsMessagingPolicy.AllowUserChat|
 |Chamadas|TeamsCallingPolicy.AllowPrivateCalling|
 |Agendamento de reuniões|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||

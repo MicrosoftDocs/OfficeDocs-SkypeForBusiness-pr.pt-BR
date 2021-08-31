@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre como ativar ou desativar o recurso de acesso de convidado no Microsoft Teams como um administrador do Office 365.
-ms.openlocfilehash: e9701defbf987d68f2c0ce79a9797064a07111bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 433d0f3b73da465cdfd11382889b9cd13a1e7b06
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590735"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725520"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "58590735"
 
 3. Defina **Permitir acesso de convidado no Microsoft Teams** como **Ativado**.
 
-    ![Permita que a opção de acesso de convidados seja definida como Ativada ](media/guest-access-setting.png)
+    ![Permitir que a opção de acesso de convidado seja definida como On .](media/guest-access-setting.png)
 
 4. Em **Chamadas**, **Reunião** e **Mensagens**, selecione **Ativado** ou **Desativado** para cada recurso, dependendo do que você deseja permitir para usuários convidados.
 
@@ -70,7 +70,7 @@ ms.locfileid: "58590735"
       - **Usar memes em conversas** - **Ativar** essa configuração para permitir que os convidados usem memes nas conversas.
       - **Usar Figurinhas em conversas** - **Ativar** essa configuração para permitir que os convidados usem figurinhas nas conversas.
 
-    ![Configurações de permissões de convidado no Teams](media/manage-guest-access-image1.png)
+    ![Configurações de permissões de convidado Teams.](media/manage-guest-access-image1.png)
 
 5. Selecione **Salvar**.
 

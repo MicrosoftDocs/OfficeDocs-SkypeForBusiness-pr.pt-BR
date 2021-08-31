@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Saiba como habilitar ou desabilitar Skype enviar emails para os usuários quando configurações como alterações de pino ou o número de conferência padrão é Microsoft Teams. '
-ms.openlocfilehash: 3d9284d78c20b65c3474475a91e041600c232049
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f81572feb976ab68a6a65631ec772ec4421f2b1e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635695"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727440"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Ativar ou desativar o envio de e-mails quando as configurações de audioconferência são alteradas no Microsoft Teams
 
@@ -36,7 +36,7 @@ Se você desabilitar o envio de emails, os emails de Audioconferência não ser�
   
 Aqui está um exemplo do email que é enviado aos usuários quando eles estão habilitados para Audioconferência:
   
-![Exemplo de uma mensagem de email de Audioconferência](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![Exemplo de uma mensagem de email de Audioconferência.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Quando os emails são enviados para seus usuários?
 
@@ -59,7 +59,7 @@ Aqui está um exemplo do email que é enviado aos usuários quando eles estão h
 
 Você pode usar Microsoft Teams ou Windows PowerShell para habilitar ou desabilitar emails enviados aos usuários.
 
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 

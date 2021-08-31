@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Navegue pela Ferramenta de Planejamento Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos de página e painéis específicos de contexto. Os painéis específicos de contexto fornecem informações de design para planejamento e capacidade relevantes para as opções de seleção em uma página específica.
-ms.openlocfilehash: 33cf2875b12726cd054beb75911981a1ff2334cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37a5a3e9ba2934422ef9a89ef7c0cb3df25f1a4a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583925"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725700"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegue pela Ferramenta de Planejamento no Skype for Business Server 2015
 
@@ -27,23 +27,23 @@ Navegue pela Ferramenta de Planejamento Skype for Business Server 2015 usando um
 
 Ao iniciar a Ferramenta de Planejamento, um designer primeiro vê a página Bem-vindo à Ferramenta de Planejamento para Skype for Business Server **2015.**
 
-![Página de boas-vindas da Ferramenta de Planejamento](../../media/Planning_Tool_Welcome.png)
+![Página de boas-vindas da Ferramenta de Planejamento.](../../media/Planning_Tool_Welcome.png)
 
 Na página Bem-vindo, o designer escolhe **Introdução,** **Design Sites** ou **Exibir**. Para obter detalhes, [consulte Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md).
 
 Na parte superior da Ferramenta de Planejamento está uma barra de ferramentas que fornece acesso fácil a funções usadas com frequência. A barra de ferramentas é exibida aqui para referência, e cada função será discutida em tópicos relacionados.
 
-![Barra de Ferramentas de Planejamento](../../media/Planning_Tool_Toolbar_Annotated.jpg)
+![Barra de Ferramentas de Planejamento.](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
 A Ferramenta de Planejamento tem uma seção Links Externos no lado esquerdo da ferramenta. A partir de lá, o designer tem fácil acesso às informações de planejamento e implantação e outros recursos técnicos como treinamento, artigos técnicos, fóruns e outros recursos baixáveis. Também na seção Links Externos está um link de feedback para a equipe Skype for Business Server Ferramenta de Planejamento 2015.
 
-![Caixa de diálogo Links Externos da Ferramenta de Planejamento](../../media/Planning_Tool_External_Links_Dialog.jpg)
+![Caixa de diálogo Links Externos da Ferramenta de Planejamento.](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
 Um painel Ações sensíveis ao contexto é exibido em muitas páginas na Ferramenta de Planejamento. O painel Ações oferece ao designer acesso fácil às seções principais da topologia. Os links disponíveis no painel Ações mudam com base no nível de detalhes em sua topologia. O painel Ações está disponível depois que você concluiu as perguntas da entrevista e exibiu sua topologia. Incluída no painel Ações está a seção Visão geral, que exibe os números inseridos pelo designer como parte do processo de entrevista. A visão geral é contextualmente relacionada às informações exibidas.
 
 Além disso, as informações de hardware são exibidas na visão geral no painel de Ações. A configuração de hardware exibe uma lista de requisitos de hardware recomendados pela topologia atual.
 
-![Painel de Ações da Ferramenta de Planejamento](../../media/Planning_Tool_Actions_Pane.jpg)
+![Painel de Ações da Ferramenta de Planejamento.](../../media/Planning_Tool_Actions_Pane.jpg)
 
 ## <a name="see-also"></a>Confira também
 

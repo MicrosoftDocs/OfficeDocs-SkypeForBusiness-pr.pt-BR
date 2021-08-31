@@ -18,12 +18,12 @@ description: Notificação de chamada de Roteamento Direto
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 27e06a45cef49f2291fdf75a8375026b9a930953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80c7c5487d61447a38852ca30328126b19c0499b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617407"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725920"
 ---
 # <a name="manage-call-notifications"></a>Gerenciar notificações de chamadas
 
@@ -37,7 +37,7 @@ No diagrama a seguir, a Irena do usuário tem dois pontos de extremidade:
 Quando uma chamada chega, o SBC bifurca a chamada entre Sistema de Telefonia Roteamento Direto e o SBC de terceiros.
 
 
-![Diagrama mostrando pontos Teams pontos de extremidade bifurcados](media/direct-routing-call-notification-1.png)
+![Diagrama mostrando pontos Teams pontos de extremidade bifurcados.](media/direct-routing-call-notification-1.png)
 
 Se a chamada for aceita no Fork 2 (pelo SBC de terceiros), Teams gerará uma notificação de "Chamada Perdida".  
 
@@ -50,4 +50,4 @@ A chamada não será registrada nos registros de detalhes de chamada do Telefone
 
 O diagrama a seguir ilustra a escala SIP do Fork 1, explica o fluxo de chamada e o MOTIVO esperado na mensagem Cancelar. 
 
-![Diagrama mostra pontos Teams pontos de extremidade bifurcados](media/direct-routing-call-notification-2.png)
+![O diagrama mostra pontos Teams pontos de extremidade bifurcados.](media/direct-routing-call-notification-2.png)

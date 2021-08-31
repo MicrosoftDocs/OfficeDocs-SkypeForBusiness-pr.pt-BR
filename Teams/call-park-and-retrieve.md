@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba como usar o estacionamento de chamada e recuperar para colocar uma chamada em espera no Microsoft Teams.
-ms.openlocfilehash: 44884c98f3e98c15106b3d1a341eaa75b2176b0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e58cf8ead120cb7265665abecc0683ea9a96f559
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628413"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732540"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -55,7 +55,7 @@ Para habilitar uma política de estacionamento de chamada
 2. Na guia **Gerenciar políticas,** clique em **Adicionar**.
 3. Dê um nome à política e **alterne Permitir** estacionamento de chamada para **On**. (O intervalo de retirada de chamada e o tempo de saída não podem ser personalizados.)
 
-    ![Captura de tela das configurações de política de estacionamento de chamada](media/call-park-add-policy.png)
+    ![Captura de tela das configurações de política de estacionamento de chamada.](media/call-park-add-policy.png)
 
 4. Selecione **Salvar**.
 
@@ -70,7 +70,7 @@ Para atribuir uma política de estacionamento de chamada a um grupo
 3. Escolha uma classificação em comparação com outras atribuições de grupo.
 4. Em **Selecionar uma política,** escolha a política à qual você deseja atribuir esse grupo.
 
-    ![imagem de políticas de estacionamento](media/call-park-assign-policy-to-group.png)
+    ![imagem de políticas de estacionamento.](media/call-park-assign-policy-to-group.png)
 
 5. Selecione **Aplicar**.
 

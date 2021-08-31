@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Saiba como obter novos números de telefone e porta ou transferir números existentes para audioconferências, atendimentos automáticos e filas de chamada (números de serviço) para Teams.
-ms.openlocfilehash: 0122b75bbe698154f3966bb0352522c5335e4da6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb0025796ad9bbb91c5172cf2cb551de6ecf619b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598545"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732910"
 ---
 # <a name="getting-service-phone-numbers"></a>Obter números de telefone de serviço
 
@@ -49,7 +49,7 @@ Há três maneiras de obter números de serviço:
   
 ## <a name="get-new-service-numbers"></a>Obtenha novos números de serviço
 
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Voz**  >  **Telefone números** e clique em **Adicionar**.
 2. Insira um nome para a ordem e adicione uma descrição.
@@ -73,7 +73,7 @@ Se seu país ou região não estiver listado no assistente de portabilidade, voc
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Exibir os números de telefone para sua organização
 
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams** 
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams** 
 
 Na navegação à esquerda, vá até **Voz** Telefone para exibir os números da sua organização, incluindo local, tipo de número  >   e informações de status.
 

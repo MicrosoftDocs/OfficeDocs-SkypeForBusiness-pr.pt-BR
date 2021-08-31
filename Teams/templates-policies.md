@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar modelos de equipe no centro de administração
-ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578185"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732820"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gerenciar modelos de equipe no centro de administração
 
@@ -42,7 +42,7 @@ Assista a este breve vídeo para saber como gerenciar políticas de modelo.
 
 3. Selecione **Adicionar**.
 
-    ![As políticas de modelo são selecionadas e Add é realçada](media/template-policies-1.png)
+    ![As políticas de modelo são selecionadas e Add é realçada.](media/template-policies-1.png)
 
 1. Na seção **Políticas de modelos Configurações,** conclua os seguintes campos:
 
@@ -52,7 +52,7 @@ Assista a este breve vídeo para saber como gerenciar políticas de modelo.
 
 2. Na tabela **Modelos Exibiveis,** selecione os modelos que você deseja ocultar e selecione **Ocultar**.
 
-    ![Os modelos selecionados com ocultação realçada](media/template-policies-2.png)
+    ![Os modelos selecionados com ocultação realçada.](media/template-policies-2.png)
 
     Você pode ver os modelos selecionados para ocultar na tabela **Modelos Ocultos.**
 
@@ -60,7 +60,7 @@ Assista a este breve vídeo para saber como gerenciar políticas de modelo.
 
 2. Selecione os modelos a ser desaconsudidados e selecione **Mostrar**.
 
-   ![Os modelos selecionados que não estão ocultos](media/template-policies-3.png)
+   ![Os modelos selecionados que não estão ocultos.](media/template-policies-3.png)
 
    Os modelos selecionados serão exibidos na tabela **Modelos Exibiveis.**
 3. Selecione **Salvar**.
@@ -75,7 +75,7 @@ Os usuários atribuídos a uma política só poderão exibir os modelos que pode
 
 2. Digite os usuários a atribuir a essa política.
 
-   ![atribuir usuários a uma política de modelo](media/template-policies-4.png)
+   ![atribuir usuários a uma política de modelo.](media/template-policies-4.png)
 
 3. Selecione **Aplicar**.
 
@@ -122,7 +122,7 @@ R: No Centro de administração:
 2. Selecione o filtro na tabela de lista Usuários e filtre a política de modelo de equipe.
 3. Selecione **Aplicar**.
 
-![A política de modelo selecionada e exibir usuários](media/template-policies-5.png)
+![A política de modelo selecionada e exibir usuários.](media/template-policies-5.png)
 
 **P: Posso gerenciar políticas de modelos por meio do PowerShell?**
 

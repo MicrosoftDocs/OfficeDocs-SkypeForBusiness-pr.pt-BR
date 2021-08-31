@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Saiba como ativar ou desativar notificações de telefone celular para que os usuários possam receber alertas sobre entrada, caixa postal e mensagens instantâneas perdidas.
-ms.openlocfilehash: f44daa163dcce9298a43310b9157256c4b44fbb2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c085c02dbae8fa07b73c39c6592f4ffa0da12d55
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584415"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727560"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Ativar ou desativar notificações do telefone celular
 
@@ -41,7 +41,7 @@ Nos telefones Android e Windows Phone, as notificações do Skype for Business a
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Desative as notificações push para todos os dispositivos Windows Phone ou Apple na sua organização
 <a name="__top"> </a>
 
-![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração**
 
 1. Entre no Microsoft 365.
     

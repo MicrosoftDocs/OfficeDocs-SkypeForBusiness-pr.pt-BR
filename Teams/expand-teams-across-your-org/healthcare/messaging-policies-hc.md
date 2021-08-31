@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Aprenda a personalizar uma política de Mensagens Seguras para o Microsoft Teams que pode incluir confirmação de leitura e notificações prioritárias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: efad01c1731ba3c7bacbae012c0062350bd92b39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72a0ab4ebce59a9fa65ec67b413892afa0b1e045
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595075"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727240"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para organizações de saúde
 
@@ -37,11 +37,11 @@ Você pode usar a política global (padrão para toda a organização) ou criar 
 
 As políticas podem ser facilmente gerenciadas no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com), entrando com as credenciais de administrador e escolhendo as **Políticas de mensagens** no painel de navegação esquerdo.
 
- ![Captura de tela da página de políticas de Mensagens](../../media/hc-messaging-policy-admin-center.png)
+ ![Captura de tela da página Políticas de mensagens.](../../media/hc-messaging-policy-admin-center.png)
 
 Para editar a política de Mensagens padrão existente para sua organização, clique em **Global (padrão em toda a organização)** e faça as suas alterações. Para criar uma nova política de mensagens personalizada, clique em **Adicionar** e selecione as suas configurações. Escolha **Salvar** quando terminar.
 
-![Captura de tela das configurações da política de mensagens](../../media/hc-messaging-policy.png)
+![Captura de tela das configurações de política de mensagens.](../../media/hc-messaging-policy.png)
 
 As configurações a seguir são de interesse especial para os aplicativos de saúde e devem ser consideradas na concepção de uma política customizada para uso no campo de saúde:
 

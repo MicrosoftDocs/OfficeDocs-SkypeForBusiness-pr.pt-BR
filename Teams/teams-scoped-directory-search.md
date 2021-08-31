@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82fb18f60bf812bcc6b7535cdbf2589e60e1d399
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 844681b4941ef19db21d90e9e1bbc9ed7ee1dde9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627423"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733070"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar a pesquisa de diretório no escopo do Microsoft Teams
 
@@ -57,7 +57,7 @@ Para saber como usar políticas de livro de endereços, leia [Políticas de Barr
 
 3. Em **Pesquisa**, ao lado da pesquisa de diretório escopo no Teams usando uma política de Exchange de **endereços (ABP),** a opção **Ativar**.
 
-    ![Pesquisa de diretório com escopo no Microsoft Teams de administração](media/teams-scoped-directory-search-image1.png)
+    ![Pesquisa de diretório com escopo Microsoft Teams centro de administração.](media/teams-scoped-directory-search-image1.png)
 
 
 > [!IMPORTANT]

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Resumo: Revise um tutorial e exemplos de desenvolvimento para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603870"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727510"
 ---
 # <a name="cqd-development-samples"></a>Amostras de Desenvolvimento para o CQD
 
@@ -42,7 +42,7 @@ O CQD oferece acesso rápido e fácil às informações de qualidade de chamada 
 
 Os relatórios mostrados no portal da Web são agrupados em "conjuntos de relatórios". A figura mostra um conjunto de relatórios com dois relatórios. Cada relatório neste painel abaixo mostra os resultados da consulta sobre o número de chamadas boas, chamadas ruins e porcentagem de chamadas ruins por vários meses, com vários filtros aplicados. 
 
-![Relatório de exemplo do CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![Relatório de exemplo do CQD.](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 O CQD é criado seguindo a Metodologia de Qualidade de Chamada (CQM), portanto, o conjunto padrão de relatórios foi projetado para se alinhar ao fluxo de investigação introduzido pelo CQM. Os usuários também têm a flexibilidade de editar ou criar relatórios personalizados para atender às suas necessidades. No entanto, como há várias maneiras de visualizar os dados, a visualização fornecida pelo CQD pode não atender totalmente às necessidades de cada usuário. Nessas situações, um usuário pode aproveitar as APIs de Dados e APIs do Repositório para criar páginas de relatório personalizadas. Vamos passar por uma série de exemplos neste tutorial.
 
@@ -54,7 +54,7 @@ Ao navegar até a página inicial do CQD (por exemplo, o conjunto de relatórios
 
 O CQD já tem muita flexibilidade na personalização de relatórios, mas pode haver situações em que os usuários podem querer agregar dados em vários relatórios criados no CQD. Por exemplo, pode haver uma necessidade de criar um relatório que mostre as porcentagens de chamada ruins de todas as combinações possíveis de chamadas com fio em uma tabela (um resultado como a figura):
 
-![Tabela CQD](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
+![Tabela CQD.](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
 Usando o Portal fornecido pelo CQD, um usuário teria que navegar até vários relatórios para extrair e registrar a chamada ruim % para cada um deles, o que pode ser trabalhoso se houver muitos pontos de dados que precisam ser coletados. As APIs de dados fornecem aos usuários uma maneira programática de fazer isso, recuperando dados do Serviço de Dados (por exemplo, por meio de chamadas AJAX). 
 
@@ -62,7 +62,7 @@ Usando o Portal fornecido pelo CQD, um usuário teria que navegar até vários r
 
 Vejamos primeiro um exemplo simples. Se quisermos mostrar o Fluxo de Áudio Bom e a contagem de fluxos de Áudio Ruim de fevereiro de 2015 em uma página HTML como a figura:
 
-![Relatório de Exemplo do CQD](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![Relatório de Exemplo do CQD.](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 O que precisamos é enviar uma chamada para o Serviço de Dados com os parâmetros adequados e mostrar os resultados da consulta em uma tabela HTML. Veja a seguir um exemplo do código JavaScript:
 
@@ -199,7 +199,7 @@ Pode ser difícil para alguém descobrir como escrever a lista completa de medid
 
 Neste exemplo, criaremos uma página da Web como a mostrada na figura em que um usuário pode inserir a ID de qualquer conjunto de relatório existente (ou relatório) e mostrar a definição do conjunto de relatório ou relatório na página da Web. Em seguida, o usuário pode conectar a cadeia de caracteres JSON de cada relatório em um código semelhante ao mostrado no Exemplo 1 e construir qualquer relatório personalizado que o usuário desejar. 
 
-![Exemplo de CQD](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
+![Exemplo de CQD.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
 Para criar a ferramenta visualizador de definição de relatório, precisamos enviar chamadas para o Serviço de Repositório para recuperar as representações de cadeia de caracteres JSON das definições de cada conjunto de relatório que quisermos. A API do Repositório retornará a definição de conjunto de relatório com base em uma determinada ID do conjunto de relatório. 
 

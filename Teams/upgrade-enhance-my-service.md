@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239beb9f7b3fcc53ed6870a265c45740d1523db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b48f06d0a7a380756f391e98103bd0be24179795
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618377"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733020"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Obter o máximo de Teams depois de atualizar
 
-![Atualizar diagrama de jornada, enfatizando o estágio de Excelência Operacional](media/upgrade-banner-op-excellence.png "Estágios da jornada de atualização, com ênfase no estágio de Excelência Operacional")
+![Atualize o diagrama de jornada, enfatizando o estágio de Excelência Operacional.](media/upgrade-banner-op-excellence.png "Estágios da jornada de atualização, com ênfase no estágio de Excelência Operacional")
 
 Este artigo faz parte do estágio de Excelência Operacional da sua jornada de atualização, que começa assim que você conclui a atualização do Skype for Business para o Teams.
 

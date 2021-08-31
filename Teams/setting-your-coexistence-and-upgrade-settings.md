@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb4c5de3db934b9a14a58504b9a7b7b676a038051b347560f3f7121577849d1a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39d2592d15e0c74f21109edae9e5af29206e6050
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345320"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725980"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>Definir suas configurações de coexistência e atualização
 
@@ -38,7 +38,7 @@ Você pode obter uma melhor compreensão dos modos que estão disponíveis para 
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Definir opções de atualização para todos os usuários em sua organização
 
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. No centro [Microsoft Teams de](https://admin.teams.microsoft.com/)administração , na navegação à esquerda, acesse **Configurações** em toda  >  **a organização Teams atualização**. 
 
@@ -70,7 +70,7 @@ Você pode obter uma melhor compreensão dos modos que estão disponíveis para 
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Definir opções de atualização para um único usuário em sua organização
 
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Usuários** e selecione o usuário na lista. 
 2. Na guia **Conta** do usuário, em Teams **atualização,** clique em **Editar**.

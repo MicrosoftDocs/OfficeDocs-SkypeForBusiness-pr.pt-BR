@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3547f23d43f07d8de28ba8ca53626be119de30de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f87dfea2eb847a8bf6ae4c6aa95b099d93b0c1e0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595283"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732930"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (Qualidade de Serviço) no Microsoft Teams
 
@@ -45,7 +45,7 @@ Para que a QoS seja eficaz, você deve aplicar configurações de QoS consistent
 
 _Figura 1. A relação entre as redes de uma organização e os serviços Microsoft 365 ou Office 365 de uma organização_
 
-![Ilustração da relação entre redes e serviços](media/Qos-in-Teams-Image1.png "A relação entre as redes de uma organização e os serviços Microsoft 365 ou Office 365: rede local e dispositivos se conectam a uma rede de interconexão, que, por sua vez, se conecta aos serviços Microsoft 365 ou Office 365 Cloud Voice e Audioconferência.")
+![Ilustração da relação entre redes e serviços.](media/Qos-in-Teams-Image1.png "A relação entre as redes de uma organização e os serviços Microsoft 365 ou Office 365: rede local e dispositivos se conectam a uma rede de interconexão, que, por sua vez, se conecta aos serviços Microsoft 365 ou Office 365 Cloud Voice e Audioconferência.")
 
 ## <a name="qos-implementation-checklist"></a>Lista de verificação de implementação de QoS
 
@@ -102,7 +102,7 @@ Ao implementar a QoS, você define várias filas usando um dos vários recursos 
 
 _Figura 2. Exemplos de filas QoS_
 
-![Ilustração de filas de QoS e divisão de largura de banda](media/Qos-in-Teams-Image2.png "A largura de banda total disponível é dividida entre várias filas, áudio, vídeo e outros tráfegos, que foram atribuídas a prioridades diferentes.")
+![Ilustração das filas de QoS e divisão de largura de banda.](media/Qos-in-Teams-Image2.png "A largura de banda total disponível é dividida entre várias filas, áudio, vídeo e outros tráfegos, que foram atribuídas a prioridades diferentes.")
 
 Uma analogia simples é que o QoS cria "faixas de carpool" virtuais em sua rede de dados para que alguns tipos de dados nunca ou raramente encontram um atraso. Depois de criar essas faixas, você pode ajustar seu tamanho relativo e gerenciar muito mais efetivamente a largura de banda de conexão que você tem, enquanto ainda fornece experiências de nível comercial para os usuários da sua organização.
 

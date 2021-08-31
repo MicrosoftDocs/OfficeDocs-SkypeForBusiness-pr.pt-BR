@@ -17,18 +17,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a433a7a372c89a2d22bac7991effdd5081ac298d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fe0ac66b8d1ff9afe43d4d57783e803f426c23c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616247"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732950"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar a interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
 Depois de escolher seus parceiros de [Interop](cloud-video-interop.md)de Vídeo na Nuvem, você precisará planejar sua implantação, configurar-se com detalhes de provisionamento e chave de locatário do parceiro e consentir com o aplicativo de interop de vídeo em sua organização. O diagrama a seguir descreve o processo. 
 
-![Implantando o CVI em sua organização](media/deploying-cvi.png)
+![Implantando o CVI em sua organização.](media/deploying-cvi.png)
 
 ## <a name="plan"></a>Plano
 
@@ -57,7 +57,7 @@ Para configurar o Cloud Video Interop, siga estas etapas.
  
 A chave de locatário será a discagem para o serviço parceiro. No exemplo a seguir, 813878896@t.plcm.vc é a chave do locatário. 
 
-![Exemplo de chave de locatário](media/tenant-key-example.png) 
+![Exemplo de chave de locatário.](media/tenant-key-example.png) 
 
 Você precisará executar os cmdlets a seguir para provisionar a chave de locatário e também habilitar usuários selecionados ou toda a sua organização para criar reuniões com coordenadas de interop de vídeo.
 

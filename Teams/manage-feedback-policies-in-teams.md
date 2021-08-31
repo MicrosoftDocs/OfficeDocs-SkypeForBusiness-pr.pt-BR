@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se Teams usuários em sua organização podem enviar comentários sobre Teams para a Microsoft.
-ms.openlocfilehash: 2308b196dfd31f6d6576f57dbe06ed5eda42cb86
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5aa828a68de40ec369a6b19bf57f065ab1f483a6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635675"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733110"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários em Microsoft Teams
 
@@ -37,13 +37,13 @@ Os usuários em sua organização podem enviar comentários sobre Teams para a M
 
 Os usuários podem enviar comentários e sugestões sobre Teams para nós, indo para **Ajudar** a dar  >  **comentários** em Teams. Os dados  enviados por meio de Feedback são considerados como "Dados de Suporte" em seu contrato Microsoft 365 ou Office 365, incluindo informações que, de outra forma, seriam consideradas "Dados do Cliente" ou "Dados Pessoais".
 
-![Captura de tela da opção Dar comentários em Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+![Captura de tela da opção Dar comentários Teams.](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **Pesquisas**
 
 Os usuários também podem taxar sua experiência com Teams e nos enviar detalhes sobre a classificação que eles dão. Essa pesquisa pop-up é exibida para os usuários de tempos em tempos Teams. Quando um usuário seleciona **Fornecer comentários** na notificação, a pesquisa é exibida para que ele seja concluído.
 
-![a notificação e o formulário de pesquisa Teams](media/manage-feedback-policies-in-teams-survey.png)
+![a notificação e o formulário de pesquisa Teams.](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Definir se os usuários podem enviar comentários sobre Teams para a Microsoft
 

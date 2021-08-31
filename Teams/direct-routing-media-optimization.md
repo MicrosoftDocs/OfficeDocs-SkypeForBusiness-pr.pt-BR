@@ -16,12 +16,12 @@ f1.keywords:
 description: Otimização de mídia local para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2513a72502573689b0ab988ea9647384688c9255
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: ef1d4f0a2b2770f048d308f8f497754e33f8f797
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365648"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725510"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planejar otimização de mídia local para roteamento direto
 
@@ -181,7 +181,7 @@ O diagrama a seguir mostra o fluxo de tráfego quando um usuário está fora dos
 
 Diagrama 4. Fluxo de tráfego quando o usuário é externo com um SBC proxy e com SBCs de downstream conectados
 
-![O diagrama mostra novamente o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-4.png "Fluxo de tráfego no caso de SBC proxy com SBCs de downstream conectados quando o usuário é externo")
+![O diagrama mostra novamente o fluxo de tráfego Otimização de Mídia Local.](media/direct-routing-media-op-4.png "Fluxo de tráfego no caso de SBC proxy com SBCs de downstream conectados quando o usuário é externo")
 
 ## <a name="local-media-optimization-modes"></a>Modos de Otimização de Mídia Local
 
@@ -258,7 +258,7 @@ O diagrama a seguir mostra o fluxo de tráfego de alto nível quando o usuário 
 
 Diagrama 6.  Fluxo de tráfego com o modo "Sempre Ignorar" e o usuário não está no site "home", mas na rede interna
 
-![Um diagrama mostra o fluxo de tráfego Otimização de Mídia Local](media/direct-routing-media-op-6.png "Fluxo de tráfego com o modo &quot;Sempre Ignorar&quot; e o usuário não está no site &quot;home&quot;, mas na rede interna")
+![Um diagrama mostra o fluxo de tráfego Otimização de Mídia Local.](media/direct-routing-media-op-6.png "Fluxo de tráfego com o modo &quot;Sempre Ignorar&quot; e o usuário não está no site &quot;home&quot;, mas na rede interna")
 
 ### <a name="mode-2-only-for-local-users"></a>Modo 2: somente para usuários locais
 

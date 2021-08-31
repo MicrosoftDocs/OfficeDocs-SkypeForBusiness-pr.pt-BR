@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: revise este tópico ao planejar a integração Skype for Business Server com Exchange 2013 ou 2016.'
-ms.openlocfilehash: 382d432947ea099db35831a5db0d9ba649796b88
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633525"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725670"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar a Exchange unificação de mensagens no Skype for Business
 
@@ -117,7 +117,7 @@ As seguintes configurações de exemplo fornecem resiliência de UM do Exchange.
 
 **Exemplo 1: resiliência de UM do Exchange**
 
-![Exchange Diagrama de Resiliência de UM](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![Exchange Diagrama de Resiliência de UM.](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 No exemplo 1, os servidores UM 1 e 2 do Exchange são ativados no data center de Tukwila e os servidores UM 3 e 4 do Exchange são ativados no data center de Dublin. No caso de uma Exchange de UM em Tukwila, os registros A do Sistema de Nomes de Domínio (DNS) dos servidores 1 e 2 devem ser configurados para apontar para os servidores 3 e 4, respectivamente. No caso de uma Exchange de UM em Dublin, os registros DNS A para os servidores 3 e 4 devem ser configurados para apontar para os servidores 1 e 2, respectivamente.
 
@@ -126,7 +126,7 @@ No exemplo 1, os servidores UM 1 e 2 do Exchange são ativados no data center de
 
 **Exemplo 2: resiliência de UM do Exchange**
 
-![Exchange Diagrama de Resiliência de UM](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![Exchange Diagrama de Resiliência de UM.](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 No exemplo 2, sob condições operacionais comuns, os servidores UM 1 e 2 do Exchange são ativados no data center de Tukwila e os servidores UM 3 e 4 do Exchange são ativados no data center de Dublin. Os quatro servidores estão incluídos no plano de discagem de URI do SIP dos usuários de Tukwila; no entanto, os servidores 3 e 4 estão desativados. No caso de uma paralisação UM Exchange em Tukwila, por exemplo, os servidores UM 1 e 2 do Exchange devem ser desativados e os servidores UM 3 e 4 do Exchange devem ser habilitados para que o tráfego UM do Exchange de Tukwila seja roteado para os servidores em Dublin.
 

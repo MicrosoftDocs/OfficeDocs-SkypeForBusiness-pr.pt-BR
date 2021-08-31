@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 88f928facce4d384e38108c2e9d41820895be7be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5511814a8f9c826ff19d94304b10bd26d1d7a315
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620277"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727540"
 ---
 # <a name="conference-organizer-activity-report"></a>Relatório de atividades dos organizadores de conferências
 
@@ -50,24 +50,24 @@ Este relatório, juntamente com os outros relatórios Skype for Business, fornec
 
 Você pode obter uma exibição em suas conferências Skype for Business que foram organizadas olhando para os gráficos **Atividade,** **Usuários** e **Minutos.**
   
-![Skype relatório de conferências organizadas para empresas](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
+![Skype relatório de conferências organizadas para empresas.](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>No relatório **Atividade dos organizadores de conferências do Skype for Business**, é possível ver as tendências dos últimos sete, 30, 90 ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (veja o número 7) mostrará dados por 30 dias, até a data (consulte o número 2) para quando o relatório foi gerado.
+![Número 1.](../images/sfbcallout1.png)<br/>No relatório **Atividade dos organizadores de conferências do Skype for Business**, é possível ver as tendências dos últimos sete, 30, 90 ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (veja o número 7) mostrará dados por 30 dias, até a data (consulte o número 2) para quando o relatório foi gerado.
 
 > [!NOTE]
 > Se você clicar nos detalhes de um dia específico, a tabela mostrará apenas os dados dos 30 dias até a data em que o relatório foi gerado.
 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>Cada relatório tem uma data de geração. Os relatórios geralmente refletem uma latência de 24 a 48 horas do tempo de atividade. 
+![Número 2.](../images/sfbcallout2.png)<br/>Cada relatório tem uma data de geração. Os relatórios geralmente refletem uma latência de 24 a 48 horas do tempo de atividade. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>Use o gráfico interativo e os dados em tempo real do gráfico **Atividade** para conhecer as tendências de uso e ver o número total de conferências organizadas e os tipos de conferência que estão sendo realizadas em sua organização. Ele mostrará o número total e os tipos de conferências de **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web**, **Discagem - terceiros** e **Discagem da Microsoft** que foram organizadas em toda a sua organização.  
+![Número 3.](../images/sfbcallout3.png)<br/>Use o gráfico interativo e os dados em tempo real do gráfico **Atividade** para conhecer as tendências de uso e ver o número total de conferências organizadas e os tipos de conferência que estão sendo realizadas em sua organização. Ele mostrará o número total e os tipos de conferências de **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web**, **Discagem - terceiros** e **Discagem da Microsoft** que foram organizadas em toda a sua organização.  
 ***
-![Número 4](../images/sfbcallout4.png)<br/>Use o gráfico interativo e os dados em tempo real do gráfico **Usuários** para conhecer as tendências de uso e ver o número de usuários exclusivos que organizaram conferências que estão sendo realizadas em sua organização. Ele mostrará o número total de usuários, junto com os tipos de conferências de **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web**, **Discagem - terceiros** e **Discagem da Microsoft** que foram organizadas.  
+![Número 4.](../images/sfbcallout4.png)<br/>Use o gráfico interativo e os dados em tempo real do gráfico **Usuários** para conhecer as tendências de uso e ver o número de usuários exclusivos que organizaram conferências que estão sendo realizadas em sua organização. Ele mostrará o número total de usuários, junto com os tipos de conferências de **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web**, **Discagem - terceiros** e **Discagem da Microsoft** que foram organizadas.  
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Use o gráfico interativo e os dados em tempo real do gráfico **Minutos** para conhecer as tendências de uso e ver o número de minutos usados pelos usuários ao organizar conferências com áudio/vídeo e com a Microsoft como provedor de conferências discadas. Ele mostrará o número total de minutos de **Áudio/vídeo**, Discagem - terceiros e **Minutos de discagem de entrada da Microsoft** e **Minutos de discagem de saída da Microsoft** que foram usados durante as conferências organizadas. 
+![Número 5.](../images/sfbcallout5.png)<br/>Use o gráfico interativo e os dados em tempo real do gráfico **Minutos** para conhecer as tendências de uso e ver o número de minutos usados pelos usuários ao organizar conferências com áudio/vídeo e com a Microsoft como provedor de conferências discadas. Ele mostrará o número total de minutos de **Áudio/vídeo**, Discagem - terceiros e **Minutos de discagem de entrada da Microsoft** e **Minutos de discagem de saída da Microsoft** que foram usados durante as conferências organizadas. 
 ***
-![Número 6](../images/sfbcallout6.png)<br/>
+![Número 6.](../images/sfbcallout6.png)<br/>
 Cada gráfico tem um eixo "X" (horizontal) e um "Y" (vertical).
 *    No gráfico de atividade **Atividade**, o eixo Y representa o número total de conferências de mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, Web, discagem - terceiros e discagem da Microsoft que os usuários organizaram na sua organização. 
 *    No gráfico de atividade **Usuários**, o eixo Y representa o número total de usuários que realizaram conferências de mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, Web, discagem - terceiros e discagem da Microsoft que os usuários organizaram na sua organização.
@@ -75,9 +75,9 @@ Cada gráfico tem um eixo "X" (horizontal) e um "Y" (vertical).
 
 O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse relatório específico. 
 ***
-![Número 7](../images/sfbcallout7.png)<br/>Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico **Atividade**, clique ou toque em **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web**, **Discagem - terceiros** e **Discagem da Microsoft** para ver apenas as informações relacionadas a cada uma das opções. Essa seleção não altera as informações contidas na tabela de grade. 
+![Número 7.](../images/sfbcallout7.png)<br/>Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico **Atividade**, clique ou toque em **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web**, **Discagem - terceiros** e **Discagem da Microsoft** para ver apenas as informações relacionadas a cada uma das opções. Essa seleção não altera as informações contidas na tabela de grade. 
 ***
-![Número 8](../images/sfbcallout8.png)<br/>A tabela mostra uma divisão das atividades de conferência organizadas por usuário. São exibidos todos os usuários que têm o Skype for Business atribuído a eles e as conferências que eles organizaram. Você pode adicionar mais colunas à tabela. 
+![Número 8.](../images/sfbcallout8.png)<br/>A tabela mostra uma divisão das atividades de conferência organizadas por usuário. São exibidos todos os usuários que têm o Skype for Business atribuído a eles e as conferências que eles organizaram. Você pode adicionar mais colunas à tabela. 
 * **Nome de usuário** é o nome do usuário. 
 * **Excluído** indica que a licença do usuário foi removida.<br/><br/>
   > [!NOTE]
@@ -97,9 +97,9 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 
 Se as políticas da sua organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar a configuração de privacidade para todos esses relatórios. Confira a seção **Como ocultar detalhes do nível do usuário?** na seção Relatórios de Atividades no centro de [administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
-![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Skype for Business Botão Exportar Relatórios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
+![Número 9.](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Skype for Business Botão Exportar Relatórios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
 ***
-![Número 10](../images/sfbcallout10.png)<br/>Clique ou toque no **ícone Colunas** em qualquer uma das colunas para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+![Número 10.](../images/sfbcallout10.png)<br/>Clique ou toque no **ícone Colunas** em qualquer uma das colunas para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 

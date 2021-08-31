@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como carregar seus aplicativos personalizados no armazenamento de aplicativos da sua organização no Microsoft Teams de administração.
-ms.openlocfilehash: 2e5eecc0bb5f5ed7c03552057cca6d42f7395ca2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5f145f32f86f47aac65573303fb4e7a08a8a368
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634695"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727580"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar um aplicativo personalizado carregando um pacote de aplicativos
 
@@ -31,7 +31,7 @@ ms.locfileid: "58634695"
 
 Este artigo fornece orientações de ponta a ponta sobre como levar seu aplicativo Teams do desenvolvimento para a implantação até a descoberta. Essa orientação se concentra nos aspectos Teams do aplicativo e destina-se a administradores e profissionais de IT. Para obter mais informações sobre o desenvolvimento Teams aplicativos, consulte a <a href="/microsoftteams/platform" target="_blank">documentação Teams desenvolvedor.</a>
 
-![Visão geral do seu aplicativo do desenvolvimento à implantação](media/upload-custom-apps.png)
+![Visão geral do seu aplicativo do desenvolvimento para a implantação.](media/upload-custom-apps.png)
 
 ## <a name="develop"></a>Desenvolver
 
@@ -77,7 +77,7 @@ Para disponibilizar o aplicativo aos usuários na loja de aplicativos da sua org
 1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Clique **Upload,** clique em **Selecionar um** arquivo e selecione o pacote de aplicativos que você recebeu do desenvolvedor.
 
-   ![Captura de tela do carregamento de um aplicativo no centro de administração](media/manage-your-lob-apps-upload-new-app.png) 
+   ![Captura de tela do carregamento de um aplicativo no centro de administração.](media/manage-your-lob-apps-upload-new-app.png) 
 
 ## <a name="set-up-and-manage"></a>Configurar e gerenciar
 
@@ -99,7 +99,7 @@ Antes de poder pesquisar o log de auditoria, você precisa ativar a auditoria no
 
 Os usuários que têm permissões para o aplicativo podem encontrá-lo na loja de aplicativos da sua organização. Vá para **Built for Your Organization *Name*** na página Aplicativos para encontrar os aplicativos personalizados da sua organização.
 
-![Captura de tela da página Aplicativos mostrando aplicativo publicado ](media/custom-app-lifecycle-discovery.png)
+![Captura de tela da página Aplicativos mostrando o aplicativo publicado.](media/custom-app-lifecycle-discovery.png)
 
 Se você criou e atribuiu uma política de configuração de aplicativo, o aplicativo será fixado na barra de aplicativos Teams acesso fácil para os usuários que foram atribuídos à política.
 
@@ -123,9 +123,9 @@ Na maioria dos casos, depois de concluir uma atualização de aplicativo, a nova
 * Uma nova guia configurável foi adicionada
 * Propriedades dentro de "webApplicationInfo" alteradas
 
-![Captura de tela da lista de aplicativos, mostrando aplicativos que têm uma nova versão disponível](media/manage-your-custom-apps-update1.png)
+![Captura de tela da lista de aplicativos, mostrando aplicativos que têm uma nova versão disponível.](media/manage-your-custom-apps-update1.png)
 
-![Captura de tela da opção de atualização para um aplicativo](media/manage-your-custom-apps-update2.png)
+![Captura de tela da opção de atualização para um aplicativo.](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8cad14108d7cdfe8ca049124cdffdda2f433088
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6312b9d6fb75c625c175fbb8b64d64f4cb6c5f99
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631155"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733000"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Atualizar Microsoft Teams versão gratuita para assinatura
 
@@ -83,7 +83,7 @@ Lembre-se das seguintes limitações:
 
 Para atualizar para a versão completa do Teams, selecione **Atualizar** no Teams.
 
-![captura de tela mostrando o botão Atualizar](media/teams-freemium-upgrade-image1.png)
+![captura de tela mostrando o botão Atualizar.](media/teams-freemium-upgrade-image1.png)
 
 Insira o endereço de email que você usa para entrar no Teams e, em seguida, compre um Microsoft 365 Business Standard plano. Se você quiser comprar uma Microsoft 365 Business Basic ou uma Enterprise de Office 365, [entre em contato com o suporte](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
 

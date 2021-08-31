@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Saiba que tipo de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com Teams e como escolher um para sua organização.  '
-ms.openlocfilehash: 231df0f5fa5e025f81379c2736de54bcd0f353fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 405a8902c9c367c09f7f467cb00358d75112de1f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594433"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727370"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
@@ -47,7 +47,7 @@ Os planos de discagem de locatários podem ser divididos em dois escopos : escop
 
 A seguir está o modelo de herança de planos de discagem Teams.
 
-![Como os planos de discagem são herdados Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Como os planos de discagem são herdados Teams.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 A seguir são apresentados planos de discagem efetivos possíveis:
 

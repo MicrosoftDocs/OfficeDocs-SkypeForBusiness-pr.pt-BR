@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30a844f0ecd619e609a61500ac1b845cfbbad553
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd7c41070e867b96d9238ba280d828a3081352f5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623383"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725680"
 ---
 # <a name="prepare-my-users"></a>Preparar meus usuários
 
@@ -48,7 +48,7 @@ Definir sua visão de projeto permite que seus principais participantes vejam a 
 
 A imagem a seguir é um exemplo de uma instrução vision-to-value para um cliente atualizando de Skype for Business para Teams.
 
-![Tabela de duas colunas mostrando Visão e Valor](media/prepare-my-users-new-image1.png "Tabela de duas colunas com Visão - por que estamos fazendo isso? (nível da organização) à esquerda e Value - o que há nele para mim? (nível do usuário) à direita")
+![Tabela de duas colunas mostrando Visão e Valor.](media/prepare-my-users-new-image1.png "Tabela de duas colunas com Visão - por que estamos fazendo isso? (nível da organização) à esquerda e Value - o que há nele para mim? (nível do usuário) à direita")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Você articulou o benefício e o valor para seus usuários de uma maneira que obtém a compra para essa nova solução?</li></ul></td></tr>
@@ -128,7 +128,7 @@ Para cada grupo de persona, discuta o seguinte com sua equipe de projeto:
 
 A imagem a seguir é um exemplo de uma tabela persona.
 
-![Valores detalhes de persona de listagem de tabela](media/prepare-my-users-image2.png "Personas de listagem de tabela com suas funções comuns e dependências de soluções de comunicação e colaboração. A persona Executiva é realçada com detalhes sobre o perfil (dia da vida) e os recursos, dispositivos e treinamento de uma necessidade executiva.")
+![Valores detalhes de persona de listagem de tabela.](media/prepare-my-users-image2.png "Personas de listagem de tabela com suas funções comuns e dependências de soluções de comunicação e colaboração. A persona Executiva é realçada com detalhes sobre o perfil (dia da vida) e os recursos, dispositivos e treinamento de uma necessidade executiva.")
 
 Para cada caso de uso, discuta o seguinte com sua equipe de projeto:
 

@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d06a49069e04b9c2bce05c0ede214f9cbd8fec12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69a197d75f3b229f32117e7923a390691e8c4fa5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627493"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727380"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Compreender Microsoft Teams e Skype for Business coexistência e interoperabilidade
 
-![Diagrama da jornada de atualização, enfatizando o estágio de Definição do Projeto](media/upgrade-banner-project-definition.png "Etapas da jornada de atualização, com ênfase no estágio de Definição do Projeto")
+![Atualize o diagrama de jornada, enfatizando o estágio Project Definição.](media/upgrade-banner-project-definition.png "Etapas da jornada de atualização, com ênfase no estágio de Definição do Projeto")
 
 Este artigo faz parte do estágio de Definição do Projeto da sua jornada de atualização. Conclua depois de criar uma coligação de patrocinadores e equipe de projeto e definir o escopo, as metas e o plano do seu projeto. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
 
@@ -87,7 +87,7 @@ Quando no **Teams modo Somente,** Teams é o aplicativo padrão para o protocolo
 
 Para considerações adicionais sobre como mover **para o modo somente** Teams, consulte Teams [considerações do modo Only.](teams-only-mode-considerations.md)
 
-![Captura de tela Teams mensagem de confirmação](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business cliente em execução em um modo especial depois que o usuário é atualizado como um usuário somente Teams usuário")
+![Captura de tela Teams mensagem de confirmação.](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business cliente em execução em um modo especial depois que o usuário é atualizado como um usuário somente Teams usuário")
 
 ### <a name="skype-for-business-only"></a>Somente Skype for Business
 
@@ -155,11 +155,11 @@ Dependendo dos modos de coexistência atribuídos aos usuários (conforme descri
 
 Skype for Business usuários podem conversar um a um com Teams usuários e vice-versa. Um chat de interop precisa passar por um gateway de interop que faz parte Teams serviços de nuvem (e, portanto, só existe online). Os chats de interop são texto sem texto: não há suporte para rich text e emoticons. Os usuários Teams e em Skype for Business são notificados de que a conversa é uma conversa de interop.
 
-<!--![Screen shot of Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
+<!--![Screen shot of Interop chat experience from Teams.](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
 
 Skype for Business os usuários podem fazer chamadas de voz e vídeo um para Teams usuários, e Teams os usuários podem fazer o mesmo.
 
-<!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
+<!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
 > As experiências de interopção com uma implantação local de Skype for Business exigem que o ambiente local está em modo híbrido com Microsoft 365 ou Office 365 Skype for Business. Para obter detalhes, consulte [Diretrizes de migração e interoperabilidade.](./migration-interop-guidance-for-teams-with-skype.md)
@@ -200,11 +200,11 @@ Quando a sinalização indicava que a resposta veio (ou por meio) do gateway de 
 
 Para evitar esses falsos positivos, o serviço de presença agora está informando o cliente Skype for Business quando a outra parte é Teams **usuário** real. Isso permite que Skype for Business esteja ciente de que ele precisa criar uma conversa de interop antes de ela ter sido criada, e a janela de conversa para ser específica para a interop.
 
-![Captura de tela Teams mensagem para criar uma conversa de interopção com um Skype for Business usuário](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
+![Captura de tela Teams mensagem para criar uma conversa de interop com um Skype for Business usuário.](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
 Se o Skype for Business quiser compartilhar sua área de trabalho, por exemplo, ele será informado de que iniciaremos uma reunião e guiaremos as etapas.
 
-![Captura de tela Teams mensagem para iniciar a reunião com um Teams usuário](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
+![Captura de tela Teams mensagem para iniciar a reunião com um Teams usuário.](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
 Enquanto isso, o Teams usuário recebe uma mensagem de chat de entrada com o link para a reunião e é orientado a ingressar.
 
@@ -220,7 +220,7 @@ Em threads de interoperabilidade e em threads de interoperabilidade de federaç�
 
 Se os usuários estavam em uma chamada, o menu também avisa que a chamada atual entre Teams e Skype for Business será encerrada à medida que eles são colocados em uma reunião Teams. Se escolherem, poderão avisar o usuário Skype for Business antes de aceitar.
 
-![Captura de tela Teams mensagem para compartilhar a reunião com um Skype for Business usuário](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
+![Captura de tela Teams mensagem para compartilhar a reunião com um Skype for Business usuário.](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
 Após a aceitação, eles são colocados na Teams reunião; eles devem começar a compartilhar da bandeja de compartilhamento na reunião.
 
@@ -287,15 +287,15 @@ Essas diferenças são mostradas nas capturas de tela a seguir:
 
 Uma conversa Teams para Teams com User G3 Test
 
-![Diagrama mostrando uma conversa Teams para Teams nativa](media/teams-upgrade-native-thread.png)
+![Diagrama mostrando uma conversa Teams para Teams nativa.](media/teams-upgrade-native-thread.png)
 
 Uma conversa de interop com o mesmo Teste de Usuário G3
 
-![Diagrama mostrando uma conversa Teams para Teams interop](media/teams-upgrade-interop-thread.png)
+![Diagrama mostrando uma conversa Teams para Teams interopção.](media/teams-upgrade-interop-thread.png)
 
 Depois que um thread de conversa é criado, seu tipo nunca muda. Depois de criado, um thread de Teams sempre será roteado para o cliente de Skype for Business do usuário de destino. Um thread nativo sempre será roteado para o cliente de Teams do usuário de destino.  Se o modo do usuário do destinatário mudar, os threads de Teams existentes para esse usuário não funcionarão mais e uma observação será exibida nesse chat com um link para iniciar uma nova conversa nativa, conforme mostrado na captura de tela a seguir.
 
-![Diagrama mostrando um chat com o usuário Skype for Business atualizado](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
+![Diagrama mostrando um chat com o usuário Skype for Business atualizado.](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
 ### <a name="presence"></a>Presença
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: c00c06f86e55ed0f2c8b28315c6d83cc36ef3c25
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0eae158891648fb061c508b6702f05c1813eeea
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634825"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725730"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 
@@ -41,7 +41,7 @@ Como administrador, você pode usar políticas e configurações de aplicativo p
 
 Os usuários podem adicionar um aplicativo personalizado ao Teams carregando um pacote de aplicativos (em um arquivo .zip) diretamente para uma equipe ou no contexto pessoal. Isso é diferente de como os aplicativos são adicionados por meio do Teams de aplicativos. Adicionar um aplicativo personalizado carregando um pacote de aplicativos, também conhecido como sideload, permite testar um aplicativo enquanto ele está sendo desenvolvido, antes de estar pronto para ser amplamente distribuído. Ele também permite que você crie um aplicativo apenas para uso interno e compartilhe-o com sua equipe sem enviar para o catálogo de aplicativos Teams no Teams app store.
 
-![Captura de tela mostrando o carregamento de uma opção de aplicativo personalizada na loja de aplicativos](media/teams-custom-app-policy-and-settings-upload-app.png)
+![Captura de tela mostrando o carregamento de uma opção de aplicativo personalizada na loja de aplicativos.](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## <a name="custom-app-policy-and-settings"></a>Configurações e políticas de aplicativos personalizados
 
@@ -98,7 +98,7 @@ Se essa configuração estiver configurada:
 2. Clique **Configurações** e expanda **permissões de membro.**
 3. Marque ou deslele a caixa de seleção Permitir **que os membros carreguem aplicativos personalizados.**
 
-    ![Captura de tela mostrando a configuração do aplicativo personalizado da equipe](media/teams-custom-app-policy-and-settings-team.png)
+    ![Captura de tela mostrando a configuração do aplicativo personalizado da equipe.](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>Configuração de aplicativo personalizado em toda a organização
 
@@ -110,7 +110,7 @@ A **configuração** Permitir interação com aplicativos [](manage-apps.md) per
 2. Clique **em Configurações de aplicativos em toda a organização.**
 3. Em **Aplicativos personalizados,** a tela é 10 ou 2006, ativar ou desativar **Permitir interação com aplicativos personalizados.**
 
-    ![Captura de tela mostrando as configurações de aplicativo personalizado em toda a organização](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![Captura de tela mostrando as configurações de aplicativo personalizado em toda a organização.](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Como as políticas e configurações de aplicativos personalizadas funcionam em conjunto
 

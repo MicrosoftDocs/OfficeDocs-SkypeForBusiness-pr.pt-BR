@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: saiba como migrar as configurações do usuário e mover os usuários para Teams.'
-ms.openlocfilehash: ef1de7002bd3c757a9a08f3cbf8414a9cd4c32d9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2206c9b155c26a8559dd32346e1d9ad9e0e54978
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614965"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725480"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Migrar usuários de um ambiente local para o Teams
 
@@ -39,7 +39,7 @@ Quando um usuário é movido do local para o Teams Somente, a Skype for Business
 - As reuniões pré-existentes do usuário agendadas para o futuro serão migradas do local para Teams.
 - Os contatos que existiam no local estão disponíveis Teams logo após o usuário fazer logor pela primeira vez.
 - Os usuários não podem iniciar chamadas ou chats Skype for Business, nem podem agendar novas reuniões no Skype for Business. Se eles tentarem abrir o Skype for Business cliente, eles serão redirecionados para usar Teams como mostrado abaixo. Se o Teams cliente não estiver instalado, eles serão direcionados para a versão web do Teams usando seu navegador.<br><br>
-    ![Redirecionamento de mensagens de um usuário para Teams](../media/go-to-teams-page.png)
+    ![Redirecionamento de mensagens de um usuário para Teams.](../media/go-to-teams-page.png)
 
 Antes de mover qualquer usuário, revise os [pré-requisitos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover os usuários para a nuvem. Além disso, revise as diretrizes [de migração](/microsoftteams/migration-interop-guidance-for-teams-with-skype)e interoperabilidade para organizações que Teams em conjunto com Skype for Business .
 
@@ -101,7 +101,7 @@ As ferramentas de administração locais no Skype for Business Server 2015 com C
 > [!TIP]
 > Alguns servidores podem precisar reiniciar para que isso funcione Skype for Business 2015 com CU8.
 
-![Notificação da próxima movimentação para Teams](../media/teams-upgrade-notification.png)
+![Notificação da próxima movimentação para Teams.](../media/teams-upgrade-notification.png)
 
 Para notificar os usuários locais de que eles serão atualizados em breve para Teams, crie uma nova instância do TeamsUpgradePolicy com NotifySfBUsers=true. Em seguida, atribua essa política aos usuários que você deseja notificar, atribuindo a política diretamente ao usuário ou definindo a política no site, pool ou nível global. Os cmdlets a seguir criam e concedem uma política no nível do usuário:
 

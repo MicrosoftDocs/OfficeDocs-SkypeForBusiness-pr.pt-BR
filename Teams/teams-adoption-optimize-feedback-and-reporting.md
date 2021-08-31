@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4023a5bf998b4cc53ad0651d7af1e9146c05a110
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8aaee7a8c0b649150f93ea2a4a86a5130b80456f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631965"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732680"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar os comentários e relatórios de adoção do Microsoft Teams
 
@@ -60,4 +60,4 @@ Há três tipos de relatórios que você deve revisar ao implantar e adotar Micr
 - [Microsoft 365 relatórios](/microsoft-365/admin/activity-reports/activity-reports) no centro de administração – Microsoft 365 ou Office 365 exibir Microsoft 365 relatórios no centro de administração [- Microsoft Teams atividade do usuário](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity). Você também pode usar informações de outros sistemas em sua organização.
 - Satisfação do serviço – Coletado de fóruns e pesquisas da comunidade interna sobre experiências específicas
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [conscientização de unidade e implementar treinamento](teams-adoption-drive-awareness.md)
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Em seguida: [conscientização de unidade e implementação de treinamento](teams-adoption-drive-awareness.md)

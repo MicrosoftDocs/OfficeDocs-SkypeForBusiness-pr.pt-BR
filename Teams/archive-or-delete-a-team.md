@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df3dbdcaf0668caa4a58490371dd0a323ae8a3ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f5743dda03b7495bc8f7c275fb955f83d7db6be2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583665"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727200"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
 
@@ -45,7 +45,7 @@ Siga estas etapas para arquivar uma equipe. Você deve ser um administrador de s
 2. Selecione uma equipe clicando no nome da equipe.
 3. Selecione **Arquivar**. A seguinte mensagem será exibida.
 
-    ![Captura de tela da mensagem de arquivamento do Teams](media/teams-archive-message.png)
+    ![Captura de tela de Teams de arquivo morto.](media/teams-archive-message.png)
 
 4. Para impedir que as pessoas editem o conteúdo no site SharePoint e na guia Wiki associados à equipe, selecione Tornar o site SharePoint somente leitura para membros da **equipe.** (Teams proprietários ainda poderão editar esse conteúdo.)
 5. Selecione **Arquivar** para arquivar a equipe. O status da equipe será alterado para **Arquivada**.

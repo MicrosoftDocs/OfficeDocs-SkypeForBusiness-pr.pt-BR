@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Este artigo explica as considerações de planejamento relevantes para a implantação Salas do Microsoft Teams, a próxima geração de Skype Sistemas de Sala.
-ms.openlocfilehash: e23c28bc39c9c4b70ae9ae10a6867427a5f51f39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70fd1fabd416628fac4b934c2db5700f4e0f36c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598345"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727800"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar Salas do Microsoft Teams
 
@@ -58,8 +58,8 @@ Você pode implantar Salas do Microsoft Teams com Microsoft Teams, Skype for Bus
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-|![decidir implantação](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você implantará Salas do Microsoft Teams em sua organização? </li><li>Como você obterá seus sistemas Salas do Microsoft Teams , empacotados, como componentes separados ou como uma unidade integrada?</li></ul> |
-| ![identificar atividades](../media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Identifique quem realizará as principais atividades em toda a sua implantação.</li><li>Revise as salas de reunião que você tem (e planeje a configuração) para entender onde você deseja implantar Salas do Microsoft Teams e os dispositivos periféricos que seriam apropriados para o tamanho da sala.</li></ul> |
+|![decidir a implantação.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você implantará Salas do Microsoft Teams em sua organização? </li><li>Como você obterá seus sistemas Salas do Microsoft Teams , empacotados, como componentes separados ou como uma unidade integrada?</li></ul> |
+| ![identificar atividades.](../media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Identifique quem realizará as principais atividades em toda a sua implantação.</li><li>Revise as salas de reunião que você tem (e planeje a configuração) para entender onde você deseja implantar Salas do Microsoft Teams e os dispositivos periféricos que seriam apropriados para o tamanho da sala.</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identificar quem realizará as principais atividades em toda a sua implantação
@@ -96,7 +96,7 @@ Como parte da descoberta, é fundamental considerar a acústico e o layout da sa
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
-| ![Salas de deplyment](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Revise as salas no escopo e defina Salas do Microsoft Teams configurações para elas.</li></ul>|
+| ![salas de deplyment.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Revise as salas no escopo e defina Salas do Microsoft Teams configurações para elas.</li></ul>|
 
 _Inventário de sala de reunião/conferência de exemplo_
 
@@ -117,8 +117,8 @@ Com base no fornecedor que você preferir, use as informações fornecidas no ar
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![salas no escopo](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>No inventário, quais tipos de salas estão no escopo da implantação?</li><li>Quais sistemas você implantará para cada tipo de sala?</li></ul>|
-| ![coletar material](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a coletar material operacional de chave para seus sistemas escolhidos e envolva sua equipe de compras.</li></ul>|
+| ![salas no escopo.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>No inventário, quais tipos de salas estão no escopo da implantação?</li><li>Quais sistemas você implantará para cada tipo de sala?</li></ul>|
+| ![coletar material.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a coletar material operacional de chave para seus sistemas escolhidos e envolva sua equipe de compras.</li></ul>|
 
 _Exemplo Salas do Microsoft Teams de implantação para sua organização_
 
@@ -141,8 +141,8 @@ Dependendo da escala e da abordagem de implantação, você pode decidir ter os 
 
 |   &nbsp; |  &nbsp;   |
 |-----------|------------|
-| ![componentes de ship](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você enviará os componentes diretamente para um site ou para uma instalação de preparação?</li><li>Who gerenciará a instalação de preparação (se você decidir usar um)?</li></ul>|
-| ![plan operations](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Planejar operações.</li><li>Planejar a adoção e gerenciamento de alterações.</li></ul>|
+| ![componentes de ship.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você enviará os componentes diretamente para um site ou para uma instalação de preparação?</li><li>Who gerenciará a instalação de preparação (se você decidir usar um)?</li></ul>|
+| ![plan operations.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Planejar operações.</li><li>Planejar a adoção e gerenciamento de alterações.</li></ul>|
 
 ## <a name="plan-for-operations"></a>Planejar operações 
 
@@ -154,8 +154,8 @@ Considere qual fila de ajuda você roteiará Salas do Microsoft Teams Salas do M
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![escolher gerente](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quem gerenciará Salas do Microsoft Teams.</li><li>Decida para qual fila do helpdesk rotear Salas do Microsoft Teams chamadas relacionadas.</li></ul>|
-| ![preparar contas host](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Prepare-se para hospedar contas. </li></ul>|
+| ![escolha gerente.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quem gerenciará Salas do Microsoft Teams.</li><li>Decida para qual fila do helpdesk rotear Salas do Microsoft Teams chamadas relacionadas.</li></ul>|
+| ![preparar contas host.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Prepare-se para hospedar contas. </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>Planejar a adoção e gerenciamento de alterações
