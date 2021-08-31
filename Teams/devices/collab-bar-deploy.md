@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar Salas do Microsoft Teams no Android.
-ms.openlocfilehash: 38d8ce263e3a9628dde45d22729f1a9ce4f944a3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 472ccc8c71f05510101b9b0549b454d2f04e71f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632555"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728660"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Implantar Salas do Microsoft Teams no Android
 
@@ -53,8 +53,8 @@ Para considerações sobre a instalação física, consulte a documentação do 
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme se seus sites atendem aos requisitos de preparação do site para barras de colaboração para Microsoft Teams.</li><li>Confirme se você forneceu largura de banda suficiente para cada site.</li></ul>|
-| ![Um ícone que representa as próximas etapas](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a planejar a implantação e a configuração da barra de colaboração.</li></ul>|
+| ![Um ícone que representa pontos de decisão.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme se seus sites atendem aos requisitos de preparação do site para barras de colaboração para Microsoft Teams.</li><li>Confirme se você forneceu largura de banda suficiente para cada site.</li></ul>|
+| ![Um ícone que representa as próximas etapas.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a planejar a implantação e a configuração da barra de colaboração.</li></ul>|
 
 ## <a name="service-readiness"></a>Prontidão de serviço
 
@@ -74,8 +74,8 @@ Para obter mais informações sobre Microsoft 365 de recursos, consulte [Create 
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se deseja fazer ou receber chamadas telefônicas externas e identificar requisitos de licenciamento para suas contas de recursos.</li></ul>|
-| ![Um ícone que representa as próximas etapas](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Preparar contas de recursos.</li></ul>|
+| ![Um ícone que representa pontos de decisão.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se deseja fazer ou receber chamadas telefônicas externas e identificar requisitos de licenciamento para suas contas de recursos.</li></ul>|
+| ![Um ícone que representa as próximas etapas.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Preparar contas de recursos.</li></ul>|
 
 ## <a name="configuration-and-deployment"></a>Configuração e implantação
 
@@ -98,8 +98,8 @@ Se você quiser atribuir Salas do Teams usuários individuais para uso particula
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida a convenção de nomenistura para suas contas de recursos dedicadas.</li><li>Decida se você criará contas individuais ou usará scripts de provisionamento em massa.</li></ul>|
-| ![Um ícone que representa as próximas etapas](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a planejar a implantação do dispositivo.</li></ul>|
+| ![Um ícone que representa pontos de decisão.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida a convenção de nomenistura para suas contas de recursos dedicadas.</li><li>Decida se você criará contas individuais ou usará scripts de provisionamento em massa.</li></ul>|
+| ![Um ícone que representa as próximas etapas.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a planejar a implantação do dispositivo.</li></ul>|
 
 ### <a name="device-deployment"></a>Implantação de dispositivo
 
@@ -107,8 +107,8 @@ Em seguida, você precisa criar seu plano para entregar os dispositivos e seus d
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quem gerenciará a implantação site a site.</li><li> Identifique os recursos que instalarão Salas do Teams local e realizar a configuração e o teste.</li></ul>|
-| ![Um ícone que representa as próximas etapas](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Inicie o teste do dispositivo.</li></ul>|
+| ![Um ícone que representa pontos de decisão.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quem gerenciará a implantação site a site.</li><li> Identifique os recursos que instalarão Salas do Teams local e realizar a configuração e o teste.</li></ul>|
+| ![Um ícone que representa as próximas etapas.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Inicie o teste do dispositivo.</li></ul>|
 
 ### <a name="testing"></a> Testes
 

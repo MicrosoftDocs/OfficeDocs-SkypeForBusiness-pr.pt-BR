@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como usar o Painel de Saúde para monitorar a conexão entre o Controlador de Borda de Sessão e o Roteamento Direto.
-ms.openlocfilehash: aec8a0bb37af02f6103714a26c9d35e18879985c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4927f6473e74a6fc14add9105022fc8efbade260
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592335"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728210"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Painel de Saúde para Roteamento Direto
 
@@ -38,7 +38,7 @@ Você pode exibir o Painel de Saúde no Microsoft Teams e Skype for Business Adm
 
 O Painel de Saúde fornece as seguintes informações relacionadas à saúde geral dos SBCs conectados:
 
- ![Mostra estatísticas do Painel de Saúde](media/direct-routing-dashboard-stats1.png)
+ ![Mostra estatísticas do Painel de Saúde.](media/direct-routing-dashboard-stats1.png)
 
 - **Resumo de Roteamento** Direto - Mostra o número total de SBCs registrados no sistema. O registro significa que o administrador do locatário adicionou um SBC usando o comando New-CsOnlinePSTNGateway de locatário. Se o SBC foi adicionado ao PowerShell, mas nunca conectado, o Painel de Saúde o mostrará em um status não acessível.
 
@@ -82,7 +82,7 @@ O Painel de Saúde fornece as seguintes informações relacionadas à saúde ger
 
 Você também pode exibir as informações detalhadas de um SBC específico, conforme mostrado na captura de tela a seguir:
 
-![Detalhes do SBC do painel de saúde](media/direct-routing-dashboard-SBC-detail1.png)
+![Detalhes do SBC do painel de saúde.](media/direct-routing-dashboard-SBC-detail1.png)
 
 A exibição detalhada mostra os seguintes parâmetros adicionais:
 

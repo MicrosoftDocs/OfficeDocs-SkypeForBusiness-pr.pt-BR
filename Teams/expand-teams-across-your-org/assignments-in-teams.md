@@ -21,12 +21,12 @@ description: Saiba como gerenciar atribuições no Microsoft Teams de administra
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd8aef1a8d84a77f14824379383c5f77679f8c6f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef615924a4c449a3b2b408d929cf3d2678e4a1e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592287"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728670"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
@@ -100,11 +100,11 @@ O console de administrador é onde você pode criar uma integração e uma chave
 
 Selecione **Integrações** no menu lateral e selecione **Adicionar Integração** e dê um nome à integração.
 
-![Captura de tela mostrando a adição de uma nova integração](./educationImages/Assignments_mopo_turnitin2.png)
+![Captura de tela mostrando a adição de uma nova integração.](./educationImages/Assignments_mopo_turnitin2.png)
 
 O **TurnitinApiKey** será dado a você depois de seguir os prompts. Copie a chave da API e a colar no centro de Microsoft Teams de administração.  Esta é a única hora em que você pode exibir a chave.
 
-![Captura de tela mostrando a cópia da chave da API](./educationImages/Assignments_mopo_turnitin3.png)
+![Captura de tela mostrando a cópia da chave da API.](./educationImages/Assignments_mopo_turnitin3.png)
 
 Ao clicar no **botão Salvar** no centro de administração para essa configuração, permita algumas horas para que essas configurações entre em vigor.
 

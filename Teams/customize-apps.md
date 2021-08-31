@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como personalizar aplicativos em Microsoft Teams.
-ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634055"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730220"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicativos no Microsoft Teams
 
@@ -53,21 +53,21 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 2. Expanda **Teams Aplicativos** e selecione **Gerenciar aplicativos**.
 3. Verifique a **coluna Personalizável** da lista de aplicativos e classificar por aplicativos personalizáveis.
 
-   ![A coluna personalizar que está ordenada](media/customize-column.png)
+   ![A coluna personalizar que está ordenada.](media/customize-column.png)
 
    Há três pontos de entrada para acessar o recurso personalizar:
 
    - Selecione ao lado do aplicativo que você deseja personalizar e selecione **Personalizar**.
 
-     ![A opção de seleção de personalização 1](media/select-app-to-customize1.png)
+     ![A opção personalizar seleção 1.](media/select-app-to-customize1.png)
 
    - Selecione o nome do aplicativo e **personalizável**.
 
-     ![A opção personalizar seleção 2](media/app-details-customizable.png)
+     ![A opção personalizar seleção 2.](media/app-details-customizable.png)
 
    - Selecione o nome do aplicativo e selecione **Personalizar** no menu suspenso **Ações.**
 
-     ![A opção personalizar seleção 3](media/customize-action-menu.png)
+     ![A opção personalizar seleção 3.](media/customize-action-menu.png)
 
 4. Expanda **a seção Detalhes** e personalize os seguintes campos:
 
@@ -78,7 +78,7 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
     - URL da política de privacidade
     - URL de termos de uso
 
-   ![As configurações de personalização](media/customize-settings.png)
+   ![As configurações de personalização.](media/customize-settings.png)
 
 > [!Note]
 > Somente os campos atribuídos pelo desenvolvedor de aplicativos como personalizáveis estarão visíveis.
@@ -91,7 +91,7 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
    c. Selecione uma cor de destaque do aplicativo que corresponde ao ícone.
 
-    ![Personalizar as opções de cores do painel de ícones](media/customize-app-colors.png)
+    ![Personalize as opções de cores do painel de ícones.](media/customize-app-colors.png)
 
 6. Depois que seu aplicativo tiver sido personalizado, selecione **Aplicar**.
 
@@ -101,7 +101,7 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
 Agora, Teams usuários finais podem abrir o cliente Teams para ver o aplicativo personalizado.
 
-   ![Aplicativo personalizado no Teams cliente](media/contoso-app.png)
+   ![Aplicativo personalizado no Teams cliente.](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>Considerações especiais para personalizar um aplicativo
 
@@ -127,7 +127,7 @@ Talvez você queira ver os detalhes do aplicativo para revisar as informações.
 
 4. Exibir os detalhes do aplicativo, incluindo o nome do aplicativo original **Nome curto do editor**.
 
-   ![Personalizar o nome do aplicativo do painel de ícones](media/original-app-version.png)
+   ![Personalizar o nome do aplicativo do painel de ícones.](media/original-app-version.png)
 
    O **nome curto do campo editor** só será visível se você tiver alterado o nome curto do aplicativo.
 
@@ -143,7 +143,7 @@ A qualquer momento, você pode redefinir os detalhes do aplicativo para as confi
 
 4. Selecione **Redefinir como padrão** no menu suspenso **Ações.**
 
-   ![Selecione redefinir para o padrão realçado](media/select-reset.png)
+   ![Selecione redefinir para o padrão realçado.](media/select-reset.png)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

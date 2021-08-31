@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96052f270bb0b4a9c5a9da94131e55abf314fbf4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca020de2f2ce96daa3fe213b7b5c0d80b720165b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631275"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728620"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 
@@ -46,7 +46,7 @@ Sua organização pode exigir que você implemente controles estritos sobre como
 > Para ajudá-lo a planejar o futuro, [saiba mais sobre como definir essas políticas e quais licenças elas exigem](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> Limitar a criação de grupo e equipe pode reduzir a produtividade dos usuários, pois muitos serviços Microsoft 365 e Office 365 exigem que os grupos sejam criados para que o serviço funcione. Para obter informações adicionais, navegue até e [expanda Why control who creates Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Limitar a criação de grupo e equipe pode reduzir a produtividade dos usuários, pois muitos serviços Microsoft 365 e Office 365 exigem que os grupos sejam criados para que o serviço funcione. Para obter informações adicionais, visite [Plan for governance in Teams](/microsoft-365/solutions/manage-creation-of-groups).
 
 
 #### <a name="additional-information"></a>Informações adicionais
@@ -69,8 +69,8 @@ Sua organização pode ter requisitos adicionais para definir políticas de expi
 
 |-          |-           |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização exige a especificação de uma data de expiração para as equipes?</li><li>Sua organização exige que políticas de retenção de dados específicas sejam aplicadas às equipes?</li><li>Sua organização espera exigir a capacidade de arquivar equipes inativas para preservar o conteúdo em um estado somente leitura?</li></ul>|
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente os requisitos da sua organização para expiração de equipe, retenção de dados e arquivamento.</li><li>Planeje implementar esses requisitos como parte da sua Teams de lançamento.</li><li>Comunique e publique suas políticas para Teams os usuários do comportamento que eles podem esperar.</li></ul>|
+| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização exige a especificação de uma data de expiração para as equipes?</li><li>Sua organização exige que políticas de retenção de dados específicas sejam aplicadas às equipes?</li><li>Sua organização espera exigir a capacidade de arquivar equipes inativas para preservar o conteúdo em um estado somente leitura?</li></ul>|
+| ![Um ícone que representa as próximas etapas.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente os requisitos da sua organização para expiração de equipe, retenção de dados e arquivamento.</li><li>Planeje implementar esses requisitos como parte da sua Teams de lançamento.</li><li>Comunique e publique suas políticas para Teams os usuários do comportamento que eles podem esperar.</li></ul>|
 
 > [!TIP]
 > Use a tabela a seguir para capturar os requisitos da sua organização.
@@ -130,8 +130,8 @@ Outro aspecto importante do gerenciamento de governança e ciclo de vida para Te
 
 |-        |-        |
 |---------|---------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização exige a limitação Teams recursos para todo o locatário?</li><li>Sua organização exige a limitação Teams recursos para usuários específicos?</li></ul>|
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente os requisitos da sua organização para limitar Teams recursos no nível do locatário e do usuário.</li><li>Planeje implementar seus requisitos específicos como parte da Teams de lançamento.</li><li>Comunique e publique suas políticas para Teams os usuários do comportamento que eles podem esperar.</li></ul>|
+| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização exige a limitação Teams recursos para todo o locatário?</li><li>Sua organização exige a limitação Teams recursos para usuários específicos?</li></ul>|
+| ![Um ícone que representa as próximas etapas.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente os requisitos da sua organização para limitar Teams recursos no nível do locatário e do usuário.</li><li>Planeje implementar seus requisitos específicos como parte da Teams de lançamento.</li><li>Comunique e publique suas políticas para Teams os usuários do comportamento que eles podem esperar.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Teams de foco de gerenciamento de recursos
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Saiba mais sobre servidores de mediação Skype for Business Server, incluindo suas topologias com suporte e suas relações com troncos M:N, bypass de mídia e controle de admissão de chamada.
-ms.openlocfilehash: 6113bf05d788620c2ac0b4e91f74b4e347ecc121
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a41303072866aa47d5e5f45ff157d5812be2febc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608008"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728240"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente do Servidor de Mediação Skype for Business Server
  
@@ -57,7 +57,7 @@ A figura a seguir mostra os protocolos de sinalização e mídia usados pelo Ser
   
 **Protocolos de sinalização e a mídia usados pelo Servidor de Mediação**
 
-![Diagrama de Protocolos do Servidor de Mediação](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
+![Diagrama de Protocolos do Servidor de Mediação.](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
 > [!NOTE]
 > Se você estiver usando TCP ou RTP/RTCP (em vez de SRTP ou SRTCP) na rede entre o gateway PSTN e o Servidor de Mediação, recomendamos que você tome medidas para ajudar a garantir a segurança e a privacidade da rede. 
@@ -122,13 +122,13 @@ A figura a seguir mostra uma topologia simples que consiste em dois sites conect
   
 **Exemplo de sites conectados por um link WAN com um Servidor de Mediação no Site 1 e um gateway PSTN no Site 2**
 
-![Topologia de voz com Gateway WAN do Servidor de Mediação](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
+![Topologia de voz com Gateway WAN do Servidor de Mediação.](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 A próxima figura mostra uma topologia simples em que o Servidor de Mediação é alocado no pool de Front-End no Site 1 e tem uma conexão SIP direta com o IP-PBX no Site 1. Nesta figura, o Servidor de Mediação também controla um gateway PSTN no Site 2. Suponha que Skype for Business usuários existam nos Sites 1 e 2. Suponha também que o IP-PBX tenha um processador de mídia associado que deve ser percorrido por todas as mídias provenientes de pontos de extremidade Skype for Business antes de ser enviado para pontos de extremidade de mídia controlados pelo IP-PBX. Nesta topologia, o bypass de mídia está habilitado globalmente para usar informações de site e região, e os troncos para o gateway PBX e PSTN têm bypass de mídia habilitado.
   
 **Exemplo de sites conectados por um link WAN com um Servidor de Mediação no Site 1 e um PBX no Site 2**
 
-![Servidor de Mediação de Topologia de Voz WAN PBX](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
+![Servidor de Mediação de Topologia de Voz WAN PBX.](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
 A última figura deste tópico mostra uma topologia em que o Servidor de Mediação está conectado ao SBC de um Provedor de Serviços de Telefonia da Internet. 
   

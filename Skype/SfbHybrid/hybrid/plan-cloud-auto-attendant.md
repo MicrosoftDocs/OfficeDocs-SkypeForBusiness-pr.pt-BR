@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Visão geral do uso de um atendente automático na nuvem com Skype for Business Server 2019
-ms.openlocfilehash: 5d28618efc2b02240cdfe3e4c05945f9a6e4b575
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19be069ac5f61c9fb2b81df76156e6752350073b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610168"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728430"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Atendedores automáticos do plano da nuvem
 
@@ -34,7 +34,7 @@ Um atendimento automático é um serviço de nuvem que aceita chamadas do client
 
 Uma chamada de entrada para um atendente automático da nuvem pode tomar um dos vários caminhos, conforme mostrado aqui:
 
-![Diagrama para os atendimentos automáticos](../../SfBServer2019/media/AA-plan-concept.png)
+![Diagrama para os atendimentos automáticos.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype for Business Server 2019
 2. Por meio [de um controlador de borda de sessão](/MicrosoftTeams/direct-routing-border-controllers.md) e [roteamento direto](/MicrosoftTeams/direct-routing-plan.md)

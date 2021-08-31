@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Este relatório, juntamente com outros Skype for Business, fornece detalhes sobre a atividade, incluindo o uso de PSTN em toda a sua organização. '
-ms.openlocfilehash: f2708512dfb1cf03e367af09abb288e62329eaf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c88614d4ca7745f972f42b9fcf19a2858a1c6992
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606720"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732280"
 ---
 # <a name="users-blocked-report"></a>Relatório de usuários bloqueados
 
@@ -39,7 +39,7 @@ O novo painel Skype for Business **relatórios** mostra a visão geral da ativid
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Como chegar ao relatório Skype for Business usuários bloqueados
 
-![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração**
 
 - Vá para o centro de administração > **centros de administração Skype for Business** centro de  >  **administração**  >  **Relatórios usuários**  >  **bloqueados**.
     
@@ -49,21 +49,21 @@ Você pode obter uma exibição em usuários bloqueados olhando para cada uma da
   
 Esta é a aparência do relatório. 
   
-![Relatório de usuários bloqueados](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
+![Relatório de usuários bloqueados.](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
 A tabela mostra uma divisão de todos os usuários que estão impedidos de fazer chamadas. Isso mostra todos os usuários que Sistema de Telefonia ou Audioconferência atribuídas a eles. Você pode adicionar/remover colunas na tabela.
 ***
-![Número 1](../images/sfbcallout1.png)
+![Número 1.](../images/sfbcallout1.png)
 *   **A ID do** usuário é a assinatura do usuário.
 *   **Telefone número** é o número atribuído a um usuário. 
 *   **O tempo de ação de** bloqueio é a hora (UTC) que o usuário foi impedido de fazer chamadas.
 *   **Ação de** bloqueio é o tipo de ação que foi tomada para bloquear o usuário.
 *   **O motivo da ação de** bloqueio é o motivo pelo qual o usuário foi impedido de fazer chamadas.
 ***
-![Número 2](../images/sfbcallout2.png)<br/>
+![Número 2.](../images/sfbcallout2.png)<br/>
 Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas.
 ***
-![Número 3](../images/sfbcallout3.png)<br/>
+![Número 3.](../images/sfbcallout3.png)<br/>
 Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.   
 
 Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se você tiver menos de 2.000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.

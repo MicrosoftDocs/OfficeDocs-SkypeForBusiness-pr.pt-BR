@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Saiba como carregar locatários e criar dados no Painel de Qualidade de Chamada (CQD).
-ms.openlocfilehash: 847abe5aeb18f7cb19bdad9213334f119c101e20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02984b413418fff22da44d4edd4349a1bf980ed7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583695"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733130"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Upload locatário e a criação de dados no Painel de Qualidade de Chamada (CQD)
 
@@ -39,11 +39,11 @@ No painel Relatórios de Resumo do CQD, selecione Dados do **Locatário Upload**
 
 1. Abra o CQD (no centro de administração do Teams ou em ), selecione o ícone de engrenagem no canto superior direito e escolha Dados do Locatário Upload na página Relatórios de [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) Resumo.  
 
-   ![Captura de tela da caixa de diálogo que aparece enquanto os dados estão sendo carregados](media/qerguide-image-tenantdataupload.png)
+   ![Captura de tela da caixa de diálogo que aparece enquanto os dados estão sendo carregados.](media/qerguide-image-tenantdataupload.png)
     
 2. Como alternativa, se essa for sua primeira vez visitando o CQD, você será solicitado a carregar dados de construção. Você pode selecionar **Upload Agora** para navegar rapidamente até a página **De Upload** locatário.
 
-   ![Captura de tela do banner que notifica um usuário para carregar dados de construção](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Captura de tela do banner que notifica um usuário para carregar dados de construção.](media/qerguide-image-buildingdatauploadbanner.png)
 
 3. Na página **Dados do Locatário Upload,** selecione **Procurar** para escolher um arquivo de dados.
 
@@ -51,7 +51,7 @@ No painel Relatórios de Resumo do CQD, selecione Dados do **Locatário Upload**
 
 5. Depois de **selecionar a data de** início, selecione **Upload** para carregar o arquivo no CQD. <br><br>Antes de carregar o arquivo, ele é validado. Se a validação falhar, uma mensagem de erro será exibida solicitando que você corrija o arquivo. A figura a seguir mostra um erro que ocorre quando o número de colunas no arquivo de dados está incorreto.
 
-   ![Exemplo de caixa de diálogo exibindo um erro de carregamento de dados de construção](media/qerguide-image-buildingdatauploaderror.png)
+   ![Exemplo de caixa de diálogo exibindo um erro de carregamento de dados de construção.](media/qerguide-image-buildingdatauploaderror.png)
  
 6. Se nenhum erro ocorrer durante a validação, o carregamento de arquivo será bem-sucedido. Em seguida, você pode ver o arquivo de dados carregado na tabela **Meus carregamentos,** que mostra a lista completa de todos os arquivos carregados para o locatário atual na parte inferior dessa página.
 
@@ -146,11 +146,11 @@ A qualidade dos dados de experiência (QoE) que os clientes enviam para Microsof
 
 - Defina **um Nome de Rede** inserindo "VPN" neste campo para sub-redes VPN.
 
-  ![Captura de tela de relatório QCD mostrando VPN usando o nome da rede](media/qerguide-image-vpnnetworkname.png)
+  ![Captura de tela do relatório QCD mostrando VPN usando o nome da rede.](media/qerguide-image-vpnnetworkname.png)
 
 - Defina **um Nome de Construção** inserindo "VPN" neste campo para sub-redes VPN.
 
-  ![Captura de tela de relatório de QCD mostrando VPN usando nome de construção](media/qerguide-image-vpnbuildingname.png)
+  ![Captura de tela de relatório de QCD mostrando VPN usando nome de construção.](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
 > As conexões VPN são conhecidas por identificar erromente o tipo de conexão de rede como com fio quando a conexão subjacente é sem fio. Ao ver a qualidade sobre conexões VPN, não é possível supor que o tipo de conexão foi identificado com precisão.

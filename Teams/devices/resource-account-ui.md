@@ -11,12 +11,12 @@ author: flinchbot
 ms.author: mitressl
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 014c51182213ec17e940f466ddd5fa0cc13185be561e3670277430ce78a054c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5107521b6b3c3cb69ccb33df1a895edc5fe8b7d9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314087"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732010"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Criar uma Microsoft 365 de recursos usando a Centro de administração do Microsoft 365
 
@@ -40,10 +40,10 @@ Para obter mais informações sobre Sala de Reunião, Sistema de Telefonia e lic
 1. Entre no Microsoft 365 visitandohttps://admin.microsoft.com
 2. Forneça as credenciais de administrador para seu Microsoft 365 locatário. Isso o levará ao seu Centro de administração do Microsoft 365.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Centro de administração do Microsoft 365":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Centro de administração do Microsoft 365.":::
 3. No centro de administração, navegue até **Recursos** no painel esquerdo (talvez seja necessário selecionar **Mostrar** tudo primeiro) e selecione **Salas & equipamento**.
 
-:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Centro de administração do Microsoft 365 - Recursos":::
+:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Centro de administração do Microsoft 365 - Recursos.":::
 4. Selecione **Adicionar uma caixa de correio de recurso** para criar uma nova conta de sala. Insira um nome de exibição e um endereço de email para a conta, selecione **Adicionar** e selecione **Fechar**. Recomendamos que você padronizar uma convenção de nomenisco para todas as suas contas de recursos.
 
 > [!NOTE]
@@ -55,16 +55,16 @@ Para obter mais informações sobre Sala de Reunião, Sistema de Telefonia e lic
 >   - Duração máxima (horas): 24
 > - Solicitações de reunião de aceitação automática
 
-:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Centro de administração do Microsoft 365 - Adicionar recursos":::
+:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Centro de administração do Microsoft 365 - Adicionar recursos.":::
 5. Navegue até **a seção Usuários** no  centro de administração e, na lista Usuários ativos, você verá a sala que acabou de criar.
 
-:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Centro de administração do Microsoft 365 - Consulte usuários ativos":::
+:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Centro de administração do Microsoft 365 - Consulte usuários ativos.":::
 6. Selecione o nome da sala e um painel de propriedades da conta aparecerá à direita.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Centro de administração do Microsoft 365 - Propriedades do usuário":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Centro de administração do Microsoft 365 - Propriedades do usuário.":::
 7. Agora você precisa atribuir uma senha à conta de recurso. No painel, você pode ver as propriedades da conta e várias ações opcionais. Selecione o **ícone Redefinir a chave** de senha no nome de usuário para alterar a senha. Desmarcar **Exigir que esse usuário altere a senha quando entrar pela primeira vez.** Não é possível alterar a senha por meio do processo de entrada do dispositivo. Selecione **Redefinir**.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Centro de administração do Microsoft 365 - Redefinir senha":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Centro de administração do Microsoft 365 - Redefinir senha.":::
 8. Na seção **Licenças e Aplicativos,** de definir **Selecionar local** para o país ou região onde o dispositivo será instalado. Role para baixo e marque a caixa ao lado da licença a ser atribuída - como Sala de Reunião - e selecione **Salvar alterações**. A licença pode variar dependendo da sua organização.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Centro de administração do Microsoft 365 - Atribuir licença":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Centro de administração do Microsoft 365 - Atribuir licença.":::

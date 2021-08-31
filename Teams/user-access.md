@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fab726d5c9e25664259addf726436358d294ac18e9c6cd24a150725e8255744
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4a83d0da32c11406f76b9bc355ceb666d4ea308
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328796"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728060"
 ---
 # <a name="manage-user-access-to-teams"></a>Gerenciamento do acesso de usuários ao Teams
 
@@ -54,7 +54,7 @@ As etapas são diferentes, dependendo de você usar a página **Licenças** ou *
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Captura de tela 1 de Teams habilitada para um usuário](media/assign-teams-licenses-1.png)    | ![Captura de tela 2 de Teams habilitada para um usuário](media/assign-teams-licenses-2.png)        |
+|![Captura de tela 1 de Teams licença habilitada para um usuário.](media/assign-teams-licenses-1.png)    | ![Captura de tela 2 de Teams habilitada para um usuário](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>Remover uma Teams de Teams
 
@@ -65,7 +65,7 @@ Quando você remove uma Teams de um usuário, o Teams está desabilitado para es
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Captura de tela 1 da licença Teams desabilitada para um usuário](media/remove-teams-licenses-1.png)    | ![Captura de tela 2 da licença Teams desabilitada para um usuário](media/remove-teams-licenses-2.png)        |
+|![Captura de tela 1 da licença Teams desabilitada para um usuário.](media/remove-teams-licenses-1.png)    | ![Captura de tela 2 da licença Teams desabilitada para um usuário](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>Usando o Windows PowerShell
 

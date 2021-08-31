@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Saiba como habilitar ou desabilitar se os usuários podem gravar seus nomes quando ingressarem em uma reunião Microsoft Teams.
-ms.openlocfilehash: b670c6acb32902da56f76ad1cb2e1fd1a47edbf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fdf3f4dc973c199df7cacbe1f5399d21c5d6f170
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627573"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728190"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Permitir que usuários gravem seu nome ao entrar em uma reunião no Microsoft Teams
 
@@ -38,7 +38,7 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Definir se os chamadores devem gravar o nome
 
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 

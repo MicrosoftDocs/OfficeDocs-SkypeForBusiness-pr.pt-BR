@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este tópico destaca as configurações que você deve estar ciente antes de implantar o servidor de borda Skype for Business Server 2019. Os processos de implantação e configuração Skype for Business Server 2019 são muito semelhantes ao Skype for Business Server 2015. Esta seção destaca somente os principais pontos que você deve considerar como parte da implantação do pool piloto. Para obter etapas detalhadas, consulte Deploying external user access in Skype for Business Server 2019 in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.
-ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ec659c5099a7be9587c630aa487ddeda1df500
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615005"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728040"
 ---
 # <a name="deploy-pilot-edge-server"></a>Implantar um Servidor de Borda piloto
 
@@ -31,11 +31,11 @@ Conforme você navega pelo assistente **Definir Novo Pool de Borda**, reveja as 
     
 2. Navegue até o nó Skype for Business Server 2019. Clique com o botão direito em **Pools de borda** e clique em **Novo pool de borda**.
     
-     ![Definir a caixa de diálogo Novo Pool de Borda](../media/migration_ocs_topo_edgepool_page1.JPG)
+     ![Defina a caixa de diálogo Novo Pool de Borda.](../media/migration_ocs_topo_edgepool_page1.JPG)
   
 3. Um pool de Borda pode ser um **Pool de vários computadores** ou **Pool de computador único**.
     
-     ![Definir a caixa de diálogo FQDN do Pool de Borda](../media/migration_ocs_topo_edgepool_page2.JPG)
+     ![Defina a caixa de diálogo FQDN do Pool de Borda.](../media/migration_ocs_topo_edgepool_page2.JPG)
   
 4. Na página **Selecionar recursos**, não habilite a federação ou a federação XMPP. Federação e federação XMPP atualmente são roteados pelo Servidor de Borda herdado. Estes recursos são configurados em uma fase posterior da migração. 
 
@@ -44,11 +44,11 @@ Conforme você navega pelo assistente **Definir Novo Pool de Borda**, reveja as 
     
 6. Na página **Definir o servidor de próximo salto,** selecione o Diretor para o próximo salto do pool de Borda herddo. 
     
-     ![Definir a caixa de diálogo Próximo Salto](../media/migration_ocs_topo_edgepool_page7.JPG)
+     ![Defina a caixa de diálogo Próximo Salto.](../media/migration_ocs_topo_edgepool_page7.JPG)
   
 7. Na página **Associar pools de Front-End** ou Mediação, não associe um pool a esse pool de Borda no momento. O tráfego de mídia externa atualmente é roteado pelo Servidor de Borda herdado. Esta definição será configurada em uma fase posterior de migração. 
     
-     ![Caixa de diálogo Associar Pools de Front-End](../media/migration_ocs_topo_edgepool_page8.JPG)
+     ![Caixa de diálogo Associar Pools de Front-End.](../media/migration_ocs_topo_edgepool_page8.JPG)
   
 8. Clique **em Concluir** e, em **seguida, Publicar** a topologia. 
     

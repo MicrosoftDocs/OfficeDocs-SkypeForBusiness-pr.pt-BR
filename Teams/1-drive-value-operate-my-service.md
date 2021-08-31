@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8376f6d2c385f2c7feee3c7051d7978e1deb04b9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: feb801bb1e9ed7d573bee48a44d0796f8891221b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633445"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728410"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -41,7 +41,7 @@ O gerenciamento de serviços abrange todas as atividades e processos envolvidos 
 
 As tarefas e atividades neste guia são agrupadas em oito categorias, conforme descrito no diagrama a seguir. Cada uma dessas categorias será expandida nas seções a seguir.
 
-![Um diagrama que representa uma lista de categorias de tarefas e atividades](media/operate-my-service-image1.png "Um diagrama que representa uma lista de categorias de tarefas e atividades que o gerenciamento de serviços Teams inclui. O diagrama também mostra que o gerenciamento de serviços é em grande parte uma tarefa do cliente.")
+![Um diagrama que representa uma lista de categorias de tarefas e atividades.](media/operate-my-service-image1.png "Um diagrama que representa uma lista de categorias de tarefas e atividades que o gerenciamento de serviços Teams inclui. O diagrama também mostra que o gerenciamento de serviços é em grande parte uma tarefa do cliente.")
 
 
 <table>
@@ -317,7 +317,7 @@ NPS é um índice, que varia de –100 a 100, que mede a disposição de um clie
 
 -   De 1 a 6 são Detratores: Clientes insatisfeitos que podem danificar seu serviço e impedir o crescimento.
 
-![Um diagrama que demonstra a escala NPS](media/operate-my-service-image2.png "Este diagrama demonstra a escala NPS. Ele mostra que as classificações de 0 a 6 são destrators, 7 a 8 são passivas e 9 a 10 são promotores.")
+![Um diagrama que demonstra a escala NPS.](media/operate-my-service-image2.png "Este diagrama demonstra a escala NPS. Ele mostra que as classificações de 0 a 6 são destrators, 7 a 8 são passivas e 9 a 10 são promotores.")
 
 Embora o número NPS base seja útil, você obterá o maior valor analisando comentários do usuário. Eles ajudarão você a entender por que o usuário recomendaria (ou não) Teams outras pessoas. Esses comentários podem fornecer comentários valiosos para ajudar as equipes de gerenciamento do projeto ou do serviço a entender os ajustes necessários para fornecer um serviço de qualidade.
 
@@ -550,7 +550,7 @@ Por padrão, todos os usuários com uma caixa de correio Exchange Online têm pe
 
 [Melhorar e monitorar](monitor-call-quality-qos.md) a qualidade das Teams inclui um conjunto de atividades que avaliam e fornecem orientações de correção em áreas-chave que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado abaixo.
 
-![Diagrama de áreas a examinar durante uma Análise de Qualidade de Experiência](media/plan-my-service-management-image2.png "As principais áreas a examinar durante uma Análise de Qualidade de Experiência: resultados de pesquisa de áudio, confiabilidade e usuário.")
+![Diagrama de áreas a examinar durante uma Análise de Qualidade da Experiência.](media/plan-my-service-management-image2.png "As principais áreas a examinar durante uma Análise de Qualidade de Experiência: resultados de pesquisa de áudio, confiabilidade e usuário.")
 
 Ao avaliar continuamente e remediar as áreas descritas no guia, você pode reduzir seu potencial para afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3916eaad8834bc48c0bf937dd1ce561e720f5cf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8786d85a66d28914ead7ec11fd4185b0b0e9adfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631335"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732530"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -91,7 +91,7 @@ Esta seção descreve diferentes cenários para restringir o bypass de chamada d
 
 O diagrama a seguir mostra as restrições habilitadas Location-Based Roteamento em cada cenário. Usuários, sites de rede e gateways habilitados para Location-Based roteamento têm uma borda ao redor deles. Use o diagrama como um guia para ajudá-lo a entender como o roteamento Location-Based funciona em cada cenário.  
 
-![Diagrama mostrando cenários para roteamento Location-Based roteamento](media/lbr-direct-routing.png "Diagrama mostrando cenários para roteamento Location-Based roteamento")
+![Diagrama mostrando cenários para Location-Based Routing.](media/lbr-direct-routing.png "Diagrama mostrando cenários para roteamento Location-Based roteamento")
 
 ### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams usuário coloca uma chamada de saída para o PSTN
 

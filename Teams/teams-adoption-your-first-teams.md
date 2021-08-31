@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce16e1cf59f720402c2b5f1628c268aed927d145
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628253"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732400"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Criar suas primeiras equipes no Microsoft Teams
 
@@ -40,7 +40,7 @@ A melhor maneira de impulsionar a adoção de Teams é usar o produto. Recomenda
 
 Dentro Microsoft Teams, a [](/microsoftteams/platform/concepts/tabs/tabs-overview) galeria de guias oferece acesso a todos os aplicativos Microsoft 365 ou Office 365 e de terceiros que foram aados pelo administrador. Para obter o maior valor do seu produto, sugerimos fixar os recursos principais como guias em cada um dos canais apropriados. Consulte o exemplo abaixo.
 
-![Captura de tela mostrando guias padrão e personalizadas](media/teams-adoption-tab-example.png)
+![Captura de tela mostrando guias padrão e personalizadas.](media/teams-adoption-tab-example.png)
 
 Em suas equipes iniciais, sugerimos fixar os itens a seguir para facilitar a referência em seus canais de equipe. Esses ativos são além de suas OneNote bloco de anotações. Se você estiver trabalhando com nossa equipe FastTrack, eles o ajudarão na configuração dessas primeiras equipes. 
 
@@ -66,4 +66,4 @@ Em suas equipes iniciais, sugerimos fixar os itens a seguir para facilitar a ref
 
 À medida que você começa a usar Teams, será importante que você e o restante da equipe do projeto se comprometem a usar Teams chat, canais e recursos para executar seu projeto. Seu próprio uso de Teams é fundamental para a qualidade do seu projeto de adoção. Recomendamos que você resista a fragmentar seu projeto continuando a ter conversas com a equipe principal do projeto por email. Ao alternar para Teams você modelará o comportamento que você deseja que seus funcionários aceitem. De definir o tom, vá primeiro e comece a desfrutar de ter suas informações de projeto em um só lugar!  
 
-![Um ícone que representa a próxima etapa Next: Como sua organização está pronta ](media/teams-adoption-next-icon.png) [para Microsoft Teams?](teams-adoption-assess-readiness.md)
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Em seguida: [Como sua organização está pronta para Microsoft Teams?](teams-adoption-assess-readiness.md)

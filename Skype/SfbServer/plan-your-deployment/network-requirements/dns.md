@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Resumo: revise as considerações dns neste tópico antes de implementar Skype for Business Server.'
-ms.openlocfilehash: d065ad5d893cd42b853a3510bbda1c8449c6e970
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610618"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730370"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos dns para Skype for Business Server
 
@@ -44,7 +44,7 @@ As tabelas a seguir mostram registros DNS Skype for Business Server usos para fo
 
 **Mapeamentos DNS internos**
 
-|Tipo de Registro|Valor|Resolver para|Finalidade|Obrigatório|
+|Tipo de Registro|Valor|Resolver para|Objetivo|Obrigatório|
 |:-----|:-----|:-----|:-----|:-----|
 |A/AAAA   |FQDN do pool de front-end  <br/> *Fe-pool. <span></span> contoso <span></span> .com*   |Endereços IP do servidor de pool front-end  <br/>  DNS LB *para 192.168.21.122 192.168.21.123 192.168.21.124*   |Balanceamento de carga DNS de pools front-end. Mapas nome do pool front-end para um conjunto de endereços IP.  <br/> Consulte [Deploying DNS Load Balancing on Front End Pools and Director Pools](load-balancing.md#BK_FE_Dir)  |Y   |
 |A/AAAA   | FQDN de cada servidor front-end ou Edição Standard servidor em um pool ou um servidor autônomo <br/>  *FE01. <span></span> contoso. <span></span> com FE02. <span></span> contoso <span></span> .com FE03. <span></span> contoso <span></span> .com*   |IP correspondente de cada servidor  <br/> *192.168.21.122 192.168.21.123 192.168.21.124*   |Mapas nome do servidor para seu endereço IP.   |Y   |
@@ -82,11 +82,11 @@ O diagrama a seguir mostra um exemplo que inclui registros DNS internos e extern
 
 **Diagrama de rede de borda usando endereços IPv4 públicos**
 
-![exemplo de diagrama de rede DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![exemplo de diagrama de rede DNS.](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
 
 **Mapeamentos DNS de rede de perímetro (interfaces internas e externas)**
 
-|Tipo de Registro|Valor|Resolver para|Finalidade|Obrigatório|
+|Tipo de Registro|Valor|Resolver para|Objetivo|Obrigatório|
 |:--- |:--- |:--- |:--- |:--- |
 |A/AAAA   |FQDN do pool de borda interno  <br/>*EdgePool-int. <span></span> contoso <span></span> .com*  |Endereços IP do pool de Borda voltados para dentro  <br/> 172.25.33.10, 172.25.33.11   |Endereços IP da interface interna do Pool de Borda Consolidados   |Y   |
 |A/AAAA   |FQDN do Servidor de Borda  <br/>*Cons-1. <span></span> contoso <span></span> .com*  |IP do servidor voltado para interno para um servidor no pool de Borda  <br/> 172.25.33.10   |Crie um registro para cada servidor no pool com o FQDN do servidor apontando para seu IP do nó do servidor interno no pool, consulte [DNS Load Balancing on Edge Server Pools](load-balancing.md#BK_Edge).   |Y   |
@@ -99,7 +99,7 @@ O diagrama a seguir mostra um exemplo que inclui registros DNS internos e extern
 |SRV   |\_xmpp-server. \_ tcp. *<sipdomain \>* <br/>\_xmpp-server. \_ tcp. *<span></span> contoso <span></span> .com*  |FQDN de Borda de Acesso Externo  <br/>*Access1. <span></span> contoso <span></span> .com*  |O serviço proxy XMPP aceita e envia mensagens extensíveis e mensagens de protocolo de presença (XMPP) para e de parceiros federados XMPP configurados.   |Y, para implantar Federação, caso contrário, opcional  <br/> Não disponível no Skype for Business Server 2019.|
 |SRV   |\_sipfederationtls. \_ tcp.*\<sipdomain\>* <br/>\_sipfederationtls. \_ tcp. *<span></span> contoso <span></span> .com*  |FQDN de Borda de Acesso Externo  <br/>*Access1. <span></span> contoso <span></span> .com*  |Para dar suporte ao Serviço de Notificação por Push e ao serviço de Notificação por Push da Apple, crie um registro SRV para cada domínio SIP. &#x2778;  ||
 |A/AAAA   |FQDN do FQDN do pool front-end externo  <br/>*Web-ext. <span></span> contoso <span></span> .com*  |Endereço IP público de proxy reverso, proxies para o VIP de Serviços Web Externos para seu pool de front-end &#x2776; <br/> Proxy 131.107.155.1 para 192.168.21.120   |Interface externa do pool de front-end usada por Skype for Business Web App   |Y   |
-|A/AAAA/CNAME   |lyncdiscover.*\<sipdomain\>* <br/> lyncdiscover. *<span></span> contoso <span></span> .com*  |Endereço IP público de proxy reverso, resolve para o VIP de Serviços Web Externos para seu pool de Diretores, se você tiver um ou para seu pool de Front-End se você não tiver um diretor &#x2777; <br/> Proxy 131.107.155.1 para 192.168.21.120   | Registro externo para a Descoberta Automática do cliente, também usado pelo aplicativo Web Mobility, Skype for Business Web App e agendador, resolvido pelo servidor proxy reverso <br/> Para dar suporte ao Serviço de Notificação por Push e ao serviço de Notificação por Push da Apple, crie um registro SRV para cada domínio SIP que tenha clientes do Microsoft Lync Mobile. 3   |Y   |
+|A/AAAA/CNAME   |lyncdiscover.*\<sipdomain\>* <br/> lyncdiscover. *<span></span> contoso <span></span> .com*  |Endereço IP público de proxy reverso, resolve para o VIP de Serviços Web Externos para seu pool de Diretores, se você tiver um ou para seu pool de Front-End se você não tiver um diretor &#x2777; <br/> Proxy 131.107.155.1 para 192.168.21.120   | Registro externo para a Descoberta Automática do cliente, também usado pelo aplicativo Web Mobility, Skype for Business Web App e agendador, resolvido pelo servidor proxy reverso <br/> Para dar suporte ao Serviço de Notificação por Push e ao serviço de Notificação por Push da Apple, crie um registro SRV para cada domínio SIP que tenha clientes do Microsoft Lync Mobile. 3  |Y   |
 |A/AAAA   |meet.*\<sipdomain\>* <br/> meet. *<span></span> contoso <span></span> .com*  |Endereço IP público de proxy reverso, resolvido para a interface da Web externa para o pool de Front-End  <br/> Proxy 131.107.155.1 para 192.168.21.120   |Proxy para Skype for Business Web  <br/> Consulte [URLs simples](dns.md#BK_Simple)  |Y   |
 |A/AAAA   |discagem.*\<sipdomain\>* <br/> discagem. *<span></span> contoso <span></span> .com*  |Endereço IP público de proxy reverso, proxies para a interface Web externa para o pool de Front-End  <br/> Proxy 131.107.155.1 para 192.168.21.120   |Proxy para Skype for Business Web  <br/> Consulte [URLs simples](dns.md#BK_Simple)  |Y   |
 |A/AAAA   |Office FQDN do pool do Servidor web Apps  <br/> OWA. <span></span> contoso <span></span> .com   | Endereço IP público de proxy reverso, proxies para a interface web externa para o servidor Office Web Apps <br/> Proxy 131.107.155.1 para 192.168.1.5   | Office Endereço VIP do pool do Servidor de Aplicativos Web <br/> 192.168.1.5   |Define o FQDN do pool Office Web Apps Server   |

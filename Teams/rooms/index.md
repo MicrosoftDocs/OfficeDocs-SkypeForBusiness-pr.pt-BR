@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Saiba como configurar o Salas do Microsoft Teams, incluindo planejamento, implantação e gerenciamento do sistema para criar sua sala de reunião virtual ideal.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: e45ca5445356fcf6c847d8a7680a463a09bfe864
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f95d2ef04e4021a91b6881d4ca7537aa4e756420
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607034"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730421"
 ---
 # <a name="microsoft-teams-rooms"></a>Salas do Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "58607034"
        Para uma introdução rápida Salas do Teams, clique no vídeo à direita.
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salas do Microsoft Teams Vídeo da Microsoft Mechanics":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salas do Microsoft Teams Vídeo do Microsoft Mechanics.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
@@ -45,7 +45,7 @@ ms.locfileid: "58607034"
 |  **[Plano](./rooms-plan.md)** |  **[Implantar](./rooms-deploy.md)** |  **[Gerenciar](./rooms-manage.md)** |
 
 
-[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salas do Microsoft Teams Vídeo da Microsoft Mechanics":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salas do Microsoft Teams Vídeo do Microsoft Mechanics.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
 > Salas do Microsoft Teams é destinado para uso com Microsoft Teams, Skype for Business Online, Skype for Business Server 2019 ou Skype for Business Server 2015.

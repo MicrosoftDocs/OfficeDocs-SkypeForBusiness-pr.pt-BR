@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Os Relatórios de Administrador são informações detalhadas para implantações e operações. Os relatórios são gerados com base nas seleções marcadas em Sites de Design. O designer pode adicionar mais valor aos Relatórios de Administrador editando os diagramas de rede, definindo os endereços IP completos e os FQDNs (nome de domínio totalmente qualificado) para servidores, pools e balanceadores de carga.
-ms.openlocfilehash: 31639b124826368a1da11d359249bc6d08f64c8d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe2d14856a1d884dc04ff8cf2de4ebba41eb95eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591005"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730390"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Revisar os Relatórios de Administrador no Skype for Business Server 2015
 
@@ -40,7 +40,7 @@ O recurso De relatórios de administrador permite que você:
 
 O Skype for Business de administrador é o primeiro de quatro relatórios valiosos que documentam seu design em detalhes. As informações neste relatório e os outros três relatórios associados são úteis para o seu Teams:
 
-![Relatório de Administração de Resumo Geral](../../media/General_Summary_Report_Admin_Report.png)
+![Relatório de Administração de Resumo Geral.](../../media/General_Summary_Report_Admin_Report.png)
 
 O Relatório de Resumo lista informações gerais de configuração associadas à sua rede de Borda. O local, FQDN (nome de domínio totalmente qualificado) e endereço IP, tipo de rede e comentários específicos de uma determinada função são documentados.
 
@@ -59,7 +59,7 @@ Você também pode exibir relatórios mais detalhados:
 
 O Relatório de Certificados contém todos os certificados necessários na implantação recomendada Skype for Business Server 2015. A Ferramenta de Planejamento conta os nomes de assunto e nomes alternativos de assunto inseridos. O texto padrão não emitido pode representar um desafio potencial para a equipe responsável por solicitar e emitir os certificados. As informações do certificado também incluem informações sobre o local de onde o certificado pode ser normalmente emitido. Se a infraestrutura não tiver uma infraestrutura de chave pública interna (PKI), todos os certificados poderão ser solicitados por meio de um provedor de certificados público. Os campos EKU (Uso Estendido de Chave) e Atribuir a do relatório são muito úteis para ajudar a compreender quais devem ser a finalidade e a localização de cada certificado.
 
-![Relatório de Administrador de Certificados](../../media/Certificates_Report_Admin_Report.png)
+![Relatório de Administrador de Certificados.](../../media/Certificates_Report_Admin_Report.png)
 
 Revise cuidadosamente e entenda o uso e a finalidade de cada certificado na implantação. Se houver uma pergunta sobre o que um certificado faz, determine qual servidor ou serviço está falando com o que. Certificados no Skype for Business Server 2015 são usados para duas finalidades principais:
 
@@ -74,14 +74,14 @@ Skype for Business Server 2015 tem um conjunto potencialmente complexo de regras
 
 Do ponto de vista do gerenciamento de firewall, o relatório deve ser cuidadosamente revisado para garantir que não haja conflitos com a saída de regras de firewall e que não há políticas ou procedimentos que possam ser violados.
 
-![Relatório de Administração do Firewall](../../media/Firewall_Report_Admin_Report.png)
+![Relatório de Administração do Firewall.](../../media/Firewall_Report_Admin_Report.png)
 
 ## <a name="review-the-dns-report"></a>Revisar o Relatório DNS
 <a name="DNS_Report"> </a>
 
 O Relatório DNS, que faz parte do Relatório de Administrador, detalha todas as entradas recomendadas e conhecidas para o Dns (Sistema de Nomes de Domínio) nas redes internas, de perímetro e externas. Se o designer concluiu as edições para o diagrama de rede e todos os endereços IP e FQDNs (nomes de domínio totalmente qualificados) são definidos para seus valores de produção, o Relatório DNS fornece um excelente recurso de configuração. Este relatório também pode servir como um documento de solução de problemas operacionais.
 
-![Relatório de administrador dns](../../media/DNS_Report_Admin_Report.png)
+![Relatório de administrador dns.](../../media/DNS_Report_Admin_Report.png)
 
 Você deve fazer com que sua equipe de gerenciamento dns revise completamente o Relatório DNS para garantir que não haja erros que possam causar dificuldades durante a implantação ou que possam complicar uma sessão de solução de problemas.
 

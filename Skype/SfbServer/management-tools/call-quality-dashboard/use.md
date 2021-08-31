@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumo: Saiba como usar o Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634235"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728260"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar o Painel de Qualidade de Chamada para Skype for Business Server
 
@@ -40,7 +40,7 @@ Além disso, o CQD expõe APIs da Web que dão aos usuários acesso programátic
 
 Ao visitar o Painel de Qualidade de Chamada, você verá a seguinte tela:
 
-![Usar CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
+![Use CQD.](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. O "Painel de Resumo" é onde o contexto do "Conjunto de Relatório" (à direita) pode ser encontrado.
 2. Clique em "Editar" no Painel de ResumoReport para definir propriedades de nível (incluindo a altura do eixo Y).
@@ -63,7 +63,7 @@ Clique no título de qualquer um dos relatórios para navegar em relatórios com
 
 Clique em "Editar" no menu ação de um relatório para ver o Editor de Relatório. Cada relatório é respaldado por uma consulta no cubo. Um relatório é uma visualização dos dados retornados por sua consulta. O Editor de Relatório ajuda você a editar essas consultas e as opções de exibição do relatório. Ao abrir o Editor de Relatório, você verá:
 
-![Usar CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
+![Use CQD.](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
 1. Dimensões, medidas e filtros são escolhidos no painel esquerdo. Passe o mouse sobre um dos valores existentes para mostrar um botão "x" que permite que o valor seja removido. Clique no botão "mais" ao lado de um título para abrir a caixa de diálogo onde você pode adicionar uma nova dimensão, medida ou filtro.
 2. As opções de personalização do gráfico são exibidas na parte superior.
@@ -74,7 +74,7 @@ Clique em "Editar" no menu ação de um relatório para ver o Editor de Relatór
 
 Quando StartDate.Month é adicionado como uma dimensão e os dados são renderizados como uma tendência no formato de tabela, gráficos de barras e sparklines podem ser mostrados dentro das células da tabela. Mova o ponteiro do mouse sobre o gráfico de barras e os sparklines para mostrar os valores de meses individuais.
 
-![Usar CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
+![Use CQD.](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
 Para que os gráficos de barras e os sparklines apareçam, a caixa de seleção "Mostrar sparklines" na parte superior do Editor de Relatório deve ser verificada. Isso seleciona a opção Tendência e move Mês para baixo para ser a última dimensão, que também pode ser realizada clicando em Mês e usando as setas para cima e para baixo para mover StartDate.Month para cima ou para baixo.
 
@@ -82,7 +82,7 @@ Para que os gráficos de barras e os sparklines apareçam, a caixa de seleção 
 
 O menu configurações contém links para páginas úteis, como as páginas Sobre e Saúde do Sistema, e está localizado no canto superior direito do painel.
 
-![Usar CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
+![Use CQD.](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 Se para mostrar descrições e carimbos de data/hora, essas configurações só afetam a versão individual do painel e não modificam o conjunto de relatório ou o que outros usuários veem. Limpar o cache faz com que todas as consultas recarregem seus dados do cubo, enquanto a restauração de padrões exclui todos os relatórios criados pelo usuário ou modificados e recria o conjunto de relatórios do sistema — o que um usuário verá quando fizer logoff pela primeira vez.
 
@@ -236,7 +236,7 @@ Exemplo: para obter todos os fluxos de um edifício, o UNION fornece uma exibiç
 
 Se o Wireless for gerenciado internamente, você poderá recriar os relatórios sem fio no bucket gerenciado.
 
-![Divisão de Relatório do CQD](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![CQD Report Breakdown.](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 
 ## <a name="operational-processes"></a>Processos Operacionais
 

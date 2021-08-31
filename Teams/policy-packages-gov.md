@@ -17,12 +17,12 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de Teams de política para sua organização governamental.
-ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f0b998540121e05f4113b298446dffefc832cb5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582165"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731980"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams de política para o governo
 
@@ -49,11 +49,11 @@ Teams atualmente inclui os seguintes pacotes de política para o governo.
 |Gerenciador de frontline  |Gerentes de linha de frente em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos Gerentes de Linha de Frente em sua organização.|
 |Trabalhador de linha de frente  |Trabalhadores de linha de frente em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos Trabalhadores de Linha de Frente em sua organização.|
 
-![Captura de tela dos pacotes de política de saúde](media/policy-packages-gov.png)
+![Captura de tela de pacotes de política de saúde.](media/policy-packages-gov.png)
 
 Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de política de agente de segurança pública aos usuários em sua organização, uma política chamada PublicSafety_Officer é criada para cada política no pacote.
 
-![Captura de tela das políticas no pacote de funcionários clínicos da área de saúde](media/policy-packages-public-safety-officer.png)
+![Captura de tela de políticas no pacote de trabalho da assistência médica.](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Gerenciar pacotes de política
 
@@ -80,7 +80,7 @@ Atribua o pacote de política aos usuários. Se um usuário tiver uma política 
 
 Para atribuir um pacote de política a um ou vários usuários, na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Pacotes de política** e, em seguida, selecione **Gerenciar usuários**.  
 
-![Captura de tela de como atribuir um pacote de política no centro de administração](media/policy-packages-healthcare-assign.png)
+![Captura de tela de como atribuir um pacote de política no centro de administração.](media/policy-packages-healthcare-assign.png)
 
 Para saber mais, confira [Atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
 

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Saiba mais sobre quais informações são enviadas automaticamente aos usuários por email quando suas configurações de conferência discada mudarem Microsoft Teams. '
-ms.openlocfilehash: 288df4ebe5b207d08556eee14f08eb012a87a879
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c09ab0ebe00df0df99d9f0bb0576d99cf1b44da
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604490"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729970"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-mails enviados para os usuários quando suas configurações são alteradas no Microsoft Teams
 
@@ -43,7 +43,7 @@ Por padrão, há quatro tipos de email que serão enviados aos usuários habilit
 
     Aqui está um exemplo desse email:
 
-     ![Skype for Business Verify License](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+     ![Skype for Business Verificar Licença.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
     Para saber mais sobre licenciamento, [consulte Microsoft Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
@@ -86,7 +86,7 @@ Ao desativar o envio de emails para os usuários, o email não será enviado mes
 
 Por padrão, os emails serão enviados para seus usuários, mas se você quiser impedir que eles recebam emails para audioconferência, você pode usar Microsoft Teams ou Windows PowerShell. 
 
-![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 

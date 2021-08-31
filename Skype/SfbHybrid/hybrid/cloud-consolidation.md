@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Este artigo descreve como alcançar essa consolidação para organizações com implantações locais do Skype for Business (ou Lync) que estão procurando mover para mover sua carga de trabalho de UC para Teams.
-ms.openlocfilehash: b44af6e5229f7bef90fff51d52dd4ff65fc57ed7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99218c2a629a32d61e9625f8a7808d9f95e9f873
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597905"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731760"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Consolidação na nuvem para o Teams e Skype for Business
 
@@ -58,7 +58,7 @@ Considere uma organização com duas implantações locais federadas separadas S
 |---------|---------|
 |<ul><li>2 implantações Skype for Business locais independentes em florestas separadas do AD<li>No máximo 1 floresta está híbrida com Teams <li> As organizações são federadas umas com as outras <li>Os usuários não são sincronizados entre essas florestas<li> A organização pode ter uma organização Microsoft 365 e pode estar sincronizando seu diretório no Azure AD</ul>|<ul> <li>1 Microsoft 365 organização<li>Sem mais implantações locais, portanto, nenhum híbrido restante<li>Todos os usuários do local foram movidos para o Teams somente <li>Nenhuma pegada local de Skype for Business Server em qualquer lugar <li>Os usuários ainda têm autenticação local</ul> |
 
-![Consolidando duas implantações locais federadas separadas](../media/cloudconsolidationfig1.png)  
+![Consolidando duas implantações locais federadas separadas.](../media/cloudconsolidationfig1.png)  
 
 As etapas básicas para obter do estado original para o estado final desejado estão abaixo.  Observe que algumas organizações podem descobrir que seu ponto de partida está em algum lugar no meio dessas etapas. Consulte [Outros pontos de partida](#other-starting-points), posteriormente neste artigo. Por fim, em alguns casos, a ordem pode ser ajustada, dependendo da necessidade. [Restrições e limitações principais](#limitations) são descritas posteriormente.
 
@@ -96,21 +96,21 @@ Os diagramas abaixo mostram a configuração em vários pontos-chave durante ess
 - Todos os usuários abrigados no local.  
 - Skype for Business Híbrido *ainda não* está configurado.
 - Se os usuários em qualquer implantação usarem Teams, eles não poderão se federar uns com os outros (ou com qualquer organização), nem terão interoperabilidade com Skype for Business usuários. Nesse estágio, a Microsoft recomenda o uso de Teams somente para canais.<br><br>
-    ![Figura Um diagrama](../media/cloudconsolidationfiga.png)
+    ![Figura Um diagrama.](../media/cloudconsolidationfiga.png)
 
 ##### <a name="figure-b"></a>Figura B:
 
 - AcquiredCompany. <span> com é um [domínio](/powershell/module/skype/disable-csonlinesipdomain) SIP online desabilitado. Todos os usuários estão no local. Se eles usarem Teams não têm federação ou interoperabilidade. Nesse estágio, a Microsoft recomenda o uso de Teams somente para canais.
 - Skype for Business Híbrido foi habilitado para uma das organizações locais.
 - Alguns usuários na organização híbrida foram movidos para a nuvem e estão Teams Somente(usuário A, conforme indicado pelo sombreamento roxo). Esses usuários Teams somente os usuários têm suporte completo de interoperabilidade e federação com qualquer outro Skype for Business usuários.<br><br>
-    ![Figura B diagrama](../media/cloudconsolidationfigb.png)
+    ![Figura B diagrama.](../media/cloudconsolidationfigb.png)
 
 ##### <a name="figure-c"></a>Figura C:
 
 - Todos os usuários de OriginalCompany. <span> agora estão Teams modo Somente na nuvem. 
 - Skype for Business configuração híbrida com a OriginalCompany. <span> a implantação com foi desabilitada. A implantação local foi-se.
 - Se AcquiredCompany. <span> com não estava sincronizando anteriormente com o AAD, para continuar a partir daqui, ele precisa ser sincronizado agora. Mas ainda não é híbrido (espaço de endereço SIP compartilhado) e até que a organização esteja pronta para mudar para híbrido, o domínio SIP online para a organização local pura (AcquiredCompany.com) deve permanecer desabilitado, para que os usuários online Teams possam se comunicar com usuários locais.<br><br>
-    ![Diagrama da Figura C](../media/cloudconsolidationfigc.png)
+    ![Figura C diagrama.](../media/cloudconsolidationfigc.png)
 
 ##### <a name="figure-d"></a>Figura D:
 
@@ -118,7 +118,7 @@ Os diagramas abaixo mostram a configuração em vários pontos-chave durante ess
 - Local é atualizado para aceitar OriginalCompany. <span> com. (Ambos os domínios permitidos e certificados de borda são atualizados).
 - O Espaço de Endereço SIP compartilhado está habilitado entre AcquiredCompany. <span> com e Microsoft 365 organização.
 - Alguns usuários na organização híbrida podem ter sido movidos para a nuvem, como o Usuário D abaixo (indicado por sombreamento roxo).<br><br>
-    ![Diagrama da Figura D](../media/cloudconsolidationfigd.png)
+    ![Figura D diagrama.](../media/cloudconsolidationfigd.png)
 
 ## <a name="other-starting-points"></a>Outros pontos de partida
 
@@ -134,7 +134,7 @@ As etapas no exemplo canônico acima pressupom que a organização começa com d
         - Conclua a migração da organização híbrida existente e insira a sequência acima na etapa 10.  OR,
         - Se desejar sincronizar quaisquer outras florestas de Skype for Business no AAD antes de concluir a migração da organização híbrida, a organização deverá executar a etapa 7 (desabilitar todos os domínios SIP online em qualquer outra implantação de Skype for Business local que irá sincronizar com o AAD) e habilitar o AAD Conexão e, somente em seguida, continuar com a etapa 10 (desativar a implantação híbrida original).       
                 **Figura E**<br>
-                ![Figura E diagrama](../media/cloudconsolidationfige.png)
+                ![Figura E diagrama.](../media/cloudconsolidationfige.png)
 - Uma organização Teams only que federa com uma organização local Skype for Business local separada. Quando essa organização desabilita o domínio SIP online para a organização local e habilita o AAD Conexão para a organização local do Skype for Business, ela se parece com a organização hipotética mostrada na Figura **[C](#figure-c)** que concluiu as etapas 1-11.
 
 ## <a name="limitations"></a>Limitações

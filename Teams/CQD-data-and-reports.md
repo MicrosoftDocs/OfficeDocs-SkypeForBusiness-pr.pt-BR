@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre os dados e relatórios disponíveis no Microsoft Call Quality Dashboard (CQD).
-ms.openlocfilehash: 313ea0556f9f7ff8c0663209c6857f3d12e8ffe7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e184137c927361b1a557973d4ac8e55ea49cf1ea
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593305"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731800"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Dados e relatórios no Painel de Qualidade de Chamada (CQD)
 
@@ -144,7 +144,7 @@ Se você quiser usar o Power BI para analisar seus dados CQD, leia Use Power BI 
 Nos Relatórios resumo e Location-Enhanced, você  pode usar o drop-down Filtro de Produto para mostrar todos os dados do produto, somente Microsoft Teams dados ou somente dados Skype for Business Online.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de tela: mostra as opções de controle filtro de produto](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+> ![Captura de tela: mostra as opções de controle filtro de produto.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
 Em relatórios detalhados, você pode usar a **dimensão Is Teams** para filtrar os dados para Microsoft Teams ou Skype for Business online.
 
@@ -164,19 +164,19 @@ Estes são os relatórios que você verá no Painel do CQD quando entrar pela pr
 Use os dados nesta guia para avaliar o status e as tendências de qualidade de chamada com base em contagens de fluxo e porcentagens ruins. A legenda no canto superior direito mostra quais cores e elementos visuais representam essas métricas.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de tela: mostrar a guia Qualidade da Chamada](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+> ![Captura de tela: mostre a guia Qualidade da Chamada.](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
 Fluxos são classificados em três grupos: Bom, Ruim e Não Classificado. Também há valores  *de % ruins calculados*  que dão a você a taxa de fluxos classificados como *Ruim*  para a contagem total de fluxos classificados. Como *% Ruim = Fluxos Ruins/ (Fluxos Ruins+ Fluxos Bons) * 100*,  o *% Ruim* não é afetado pela presença de vários fluxos não classificados. Para ver o que classifica um fluxo como ruim ou bom, consulte Classificação de fluxo no Painel de Qualidade [de Chamada.](stream-classification-in-call-quality-dashboard.md)
   
 Use a escala à esquerda para medir os valores de contagem de fluxo.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de tela: mostra valores de contagem de fluxo](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+> ![Captura de tela: mostra valores de contagem de fluxo.](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
 Use a escala à direita para medir os valores % ruins.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de tela: mostra valores % ruins](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+> ![Captura de tela: mostra valores % ruins.](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
 Você também pode obter os valores numéricos reais ao passar o mouse sobre uma barra.
   
@@ -184,7 +184,7 @@ Você também pode obter os valores numéricos reais ao passar o mouse sobre uma
 > O exemplo a seguir é de um conjunto de dados de exemplo muito pequeno, e os valores não são realistas para uma implantação real.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de tela: mostra o mouse usado para acessar dados](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+> ![Captura de tela: mostra o mouse usado para acessar dados.](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 O volume geral do fluxo ajuda a determinar a relevância das porcentagens ruins calculadas. Quanto menor o volume de fluxos gerais, menos confiáveis são os valores de porcentagem ruins relatados.
   
@@ -288,7 +288,7 @@ Use filtros de relatório CQD para restringir o foco de suas investigações. Us
 
 Os relatórios do CQD apresentam vários filtros de detalhamento, que são ferramentas poderosas para restringir o foco de suas investigações de qualidade de chamada. Se você selecionar um campo de detalhamento, o relatório abrirá automaticamente a guia apropriada e filtra o valor selecionado. Se essa guia tiver seus próprios campos de pesquisa e um estiver selecionado, ambos os conjuntos de filtros serão aplicados, restringindo progressivamente o conjunto de dados resultante.
 
-![Diagrama que ilustra o fluxo de relatório de detalhamento](media/qerguide-image-drillthrureportflow.png)
+![Diagrama que ilustra o fluxo de relatório de detalhamento.](media/qerguide-image-drillthrureportflow.png)
 
 
 #### <a name="adding-and-editing-drill-down-fields"></a>Adicionando e editando campos de detalhamento
@@ -297,11 +297,11 @@ Ao editar um relatório, você tem a opção de especificar campos de detalhamen
 
 Comece clicando **em ...** para o relatório que você deseja editar e selecione **Editar**.
 
-![Captura de tela da edição de um campo de detalhamento](media/qerguide-image-addeditdrilldownfields.png)
+![Captura de tela da edição de um campo de detalhamento.](media/qerguide-image-addeditdrilldownfields.png)
 
 Selecione uma Dimensão na lista no lado esquerdo do Editor de Consulta. Em seguida, clique na lista suspenso abaixo do rótulo **Navegar** para e selecione a guia e o grupo do expansador para o que você deseja que Dimension faça a análise. Observação: Atualmente, a funcionalidade de detalhamento só funciona navegando para guias diferentes. O suporte para o detalhamento de um expansador específico será adicionado posteriormente. Por fim, **clique em Fechar** para salvar suas alterações na Dimensão e clique em **Salvar** para salvar e fechar o Editor de Consulta.
 
-![Captura de tela da seleção de uma dimensão no Editor de Consulta](media/qerguide-image-selectquerydimension.png)
+![Captura de tela da seleção de uma dimensão no Editor de Consulta.](media/qerguide-image-selectquerydimension.png)
 
 ### <a name="multi-select-filters"></a>Filtros de seleção multisseleccionáveis
 
@@ -309,7 +309,7 @@ Além da funcionalidade de detalhamento, o CQD também oferece suporte à especi
 
 Para selecionar vários valores de filtro, comece adicionando um novo filtro ao relatório. Clique **+** ao lado do rótulo **Filtros,** insira o nome da Dimensão que você deseja usar e clique em **Adicionar**.
 
-![Captura de tela da adição de um filtro com várias seleções](media/qerguide-image-addmultiselectfilter.png)
+![Captura de tela da adição de um filtro com várias seleções.](media/qerguide-image-addmultiselectfilter.png)
 
 Em seguida, **clique em Pesquisar** (um ícone de lupa ao lado do novo filtro). Você verá um campo de texto e várias opções, incluindo **Selecionar Tudo** e **Inverter**. Insira um valor e clique em **Pesquisar** ao lado desse campo para pesquisar. Como alternativa, deixe o campo de texto vazio e clique em **Pesquisar** para exibir até as primeiras 100 opções.
 
@@ -319,12 +319,12 @@ Em seguida, **clique em Pesquisar** (um ícone de lupa ao lado do novo filtro). 
 
 Exemplo:  
 
-![Captura de tela da adição de um filtro de consulta](media/qerguide-image-addfilter.png)
+![Captura de tela da adição de um filtro de consulta.](media/qerguide-image-addfilter.png)
 
 ### <a name="dashboard-level-filters"></a>Filtros de nível de painel
 Determinados relatórios CQD têm filtros no nível do painel adicionados a eles, facilitando a filtragem por parâmetros comuns. Esses filtros aparecem fora das guias de relatório regulares e diretamente abaixo do filtro Produto e se aplicam a todos os filtros no Painel.
 
-![Captura de tela de um filtro de painel](media/qerguide-image-dashboardfilters.png)
+![Captura de tela de um filtro de painel.](media/qerguide-image-dashboardfilters.png)
 ```powershell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```

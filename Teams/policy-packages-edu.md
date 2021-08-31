@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: 8120000599f2e0406d80a7e61b2e5720ffe2fd71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608858"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728160"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e pacotes de políticas para Educação
 
@@ -148,7 +148,7 @@ No momento, o Microsoft Teams inclui os seguintes pacotes de políticas:
 
 Cada política individual recebe o nome do pacote de políticas, para que você possa identificar políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de políticas Education_Teacher a educadores em sua instituição educacional, uma política chamada Education_Teacher é criada para cada política no pacote.
 
-![Captura de tela do pacote de política Education_Teacher](media/policy-packages-education_teacher.png)
+![Captura de tela do pacote de políticas de Educação_Professor.](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
 > Se você decidir que os educadores e a equipe de suporte administrativo precisam de políticas diferentes, poderá redefinir um pacote existente: identifique um pacote que não esteja usando no momento e altere as configurações para que sejam apropriadas para esse grupo. Você pode ter que anotar qual grupo tem qual pacote, mas esse é o único impedimento para a redefinição de um pacote.
@@ -178,7 +178,7 @@ Atribua o pacote de política aos usuários. Se um usuário tiver uma política 
 
 Para atribuir um pacote de política a um ou vários usuários, na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Pacotes de política** e, em seguida, selecione **Gerenciar usuários**.  
 
-![Captura de tela de como atribuir um pacote de política no centro de administração](media/policy-packages-healthcare-assign.png)
+![Captura de tela de como atribuir um pacote de políticas no centro administração.](media/policy-packages-healthcare-assign.png)
 
 Para saber mais, confira [Atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
 

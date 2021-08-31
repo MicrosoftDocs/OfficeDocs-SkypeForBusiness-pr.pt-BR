@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03a4192a753a834c6af99927370b2856ff4d817d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61a6cba9ff05e6ee088c96231e8eb947e5d56fed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590765"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733160"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Segurança e conformidade em Microsoft Teams
 
@@ -195,12 +195,12 @@ Na Microsoft, proteger seus dados é nossa prioridade mais alta. Para saber mais
 A figura a seguir indica o fluxo de ingestão de Teams dados para Exchange e SharePoint para Teams arquivos e mensagens.
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama do fluxo de trabalho de Teams dados para Exchange e SharePoint](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+> ![Diagrama do fluxo de trabalho dos dados do Microsoft Teams para o Exchange e o SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 A figura a seguir indica o fluxo de ingestão de Teams Reuniões e a chamada de dados para Exchange.
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama do fluxo de trabalho de Teams Reuniões e de chamada de dados para Exchange](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+> ![Diagrama do fluxo de trabalho de Teams reuniões e de chamada de dados para Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > Pode haver até 24 horas de atraso para descobrir Teams conteúdo.
@@ -221,7 +221,7 @@ No Teams, os dados são armazenados na região geográfica associada à sua orga
 Se você precisar ver qual região abriga dados para seu locatário, vá para [o](https://portal.office.com/adminportal/home)perfil Centro de administração do Microsoft 365  >  **Configurações**  >  **Organização.** Role para baixo até **Localização de dados**.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de tela da tabela de localização de dados, incluindo Teams no centro de administração](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+> ![Captura de tela da tabela De localização de dados, incluindo Teams no centro de administração.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## <a name="compliance-standards"></a>Padrões de conformidade
 

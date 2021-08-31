@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar filas de chamada para pequenas empresas em Microsoft 365 Business Voice.
-ms.openlocfilehash: 7267d2d7116f40d29405510a924b5ec560037d0e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a67771127d5c359d798dd5de688d4f26b3cf39e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605980"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732111"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
 
@@ -108,13 +108,13 @@ Você pode criar uma conta de recurso no Teams de administração.
 
 3. No painel **Adicionar conta de** recurso, preencha **Nome** de exibição, Nome de **usuário** e escolha **Fila** de chamada para o tipo de conta **de recurso**. Os agentes verão o nome de exibição quando receberem uma chamada de entrada da fila.
 
-    ![Captura de tela da interface do usuário adicionar conta de recurso](../media/resource-account-add-cq.png)
+    ![Captura de tela da interface do usuário adicionar conta de recurso.](../media/resource-account-add-cq.png)
 
 4. Clique em **Salvar**.
 
    A nova conta aparecerá na lista de contas.
 
-   ![Captura de tela de uma lista de contas de recursos](../media/resource-accounts-page.png)
+   ![Captura de tela de uma lista de contas de recursos.](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Atribuir uma licença
 
@@ -126,7 +126,7 @@ Você deve atribuir uma *Microsoft 365 Sistema de Telefonia - Licença de usuár
 
 3. Clique em **Salvar alterações**.
 
-    ![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
+    ![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365.](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -140,11 +140,11 @@ Em seguida, vamos começar a criar uma nova fila de chamada e atribuir a conta d
 
 3. (Opcional) Em **Atribuir ID** de chamada, clique em **Adicionar**, pesquisar as contas de recurso que você criou para o seu assistente automático, clique em Adicionar **e** clique em **Adicionar**. Isso dará aos seus agentes de chamada a ID do chamador da sua linha principal quando eles chamarem.
 
-    ![Captura de tela das configurações de ID de chamada](../media/call-queue-assign-calling-id.png)
+    ![Captura de tela das configurações de ID de chamada.](../media/call-queue-assign-calling-id.png)
 
 3. Escolha um idioma. Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
 
-    ![Captura de tela das configurações da conta de recurso](../media/call-queue-name-language.png)
+    ![Captura de tela das configurações da conta de recurso.](../media/call-queue-name-language.png)
 
 4. Especifique se você deseja reproduzir uma saudação aos chamadores quando eles chegarem na fila. Carregue um arquivo MP3, WAV ou WMA contendo a saudação que deseja reproduzir.
 
@@ -166,7 +166,7 @@ Para adicionar agentes à fila de chamada, vamos adicioná-los à equipe e ao ca
 3. Selecione o canal que você criou para a fila.
 3. Clique em **Aplicar**.
 
-    ![Captura de tela das configurações de usuários e grupos para filas de chamada](../media/call-queue-users-groups.png)
+    ![Captura de tela de usuários e configurações de grupos para filas de chamada.](../media/call-queue-users-groups.png)
 
 > [!NOTE]
 > Quando novos usuários são adicionados à equipe, pode levar até oito horas para a primeira chamada chegar.
@@ -190,7 +190,7 @@ Escolha o método de roteamento de chamadas que você deseja usar.
 
     - O **Ocioso por mais tempo** encaminha cada chamada para o agente que está ocioso há mais tempo. (Agentes cujo estado de presença foi afastado por mais de 10 minutos não estão incluídos.)
 
-    ![Captura de tela das configurações de método de roteamento e modo de conferência](../media/call-queue-conference-mode-routing-method.png)
+    ![Captura de tela das configurações do modo de conferência e do método de roteamento.](../media/call-queue-conference-mode-routing-method.png)
 
 3. Ativar **o roteamento baseado em** presença. Isso encaminha chamadas para agentes cujo status de presença **está Disponível**.
 
@@ -198,7 +198,7 @@ Escolha o método de roteamento de chamadas que você deseja usar.
 
 5. De definir **um tempo de alerta do** Agente para especificar por quanto tempo o telefone de um agente tocará antes que a fila redirecione a chamada para o próximo agente.
 
-    ![Captura de tela das configurações de roteamento, recusa e tempo de alerta](../media/call-queue-presence-agents-time.png)
+    ![Captura de tela das configurações de roteamento, de não aceitação e de tempo de alerta.](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
 > [Etapa 5 - Estouro de chamada >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
@@ -215,7 +215,7 @@ Escolha como você deseja lidar com chamadas que excedem o máximo na fila.
     - **Número de telefone externo** - qualquer número de telefone. Use este formato: +[código do país][código de área][número de telefone]
     - **Caixa** postal - você pode usar a caixa de correio de voz da equipe que você criou.
 
-    ![Captura de tela das configurações de estouro de chamadas](../media/call-queue-overflow-handling.png)
+    ![Captura de tela das configurações de estouro de chamada.](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
 > [Etapa 6 - Tempo de >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
@@ -232,7 +232,7 @@ Escolha o que você deseja que aconteça quando as chamadas estão esperando na 
     - **Número de telefone externo** - qualquer número de telefone. Use este formato: +[código do país][código de área][número de telefone]
     - **Caixa** postal - você pode usar a caixa de correio de voz da equipe que você criou.
 
-    ![Captura de tela das configurações de tempo limite de chamada](../media/call-queue-timeout-handling.png)
+    ![Captura de tela das configurações de tempo de tempo de chamada.](../media/call-queue-timeout-handling.png)
 
 3. Clique em **Salvar**.
 

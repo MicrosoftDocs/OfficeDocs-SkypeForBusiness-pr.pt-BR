@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos Teams na página Gerenciar ap
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 63c3baabcacd10bbbc2f4003f33eb90a9c302e74
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2541f23342613b585622577b3c5ebe2d3a8c97c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604440"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728640"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no Microsoft Teams de administração
 
@@ -39,11 +39,11 @@ Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá 
 
 Você pode exibir todos os aplicativos, incluindo as informações a seguir sobre cada aplicativo.
 
-![Captura de tela da página Aplicativos gerenciados](media/manage-apps.png)
+![Captura de tela da página Aplicativos gerenciados.](media/manage-apps.png)
 
 - **Nome**: o nome do aplicativo. Selecione o nome do aplicativo para ir até a página de detalhes do aplicativo para ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, se ele é permitido ou bloqueado, versão, política de privacidade, termos de uso, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo. Veja um exemplo:
 
-  ![Captura de tela da página de detalhes de aplicativos para um aplicativo](media/manage-apps-app-details.png)
+  ![Captura de tela da página de detalhes de aplicativos para um aplicativo.](media/manage-apps-app-details.png)
   
 - **Certificação**: se o aplicativo passou pela certificação, você verá Microsoft 365 **certificado** ou Publisher **atestado**. Selecione o link para exibir detalhes de certificação do aplicativo. Se você vir " **--** ", não temos informações de certificação para o aplicativo. Para saber mais sobre aplicativos certificados Teams, [leia Microsoft 365 Programa de Certificação de Aplicativos.](/teams-app-certification/all-apps)  
 - **Publisher:** nome do editor.
@@ -107,7 +107,7 @@ Quando você bloqueia ou permite um aplicativo na página Gerenciar aplicativos,
 
 Use o botão **Adicionar à equipe** para instalar um aplicativo em uma equipe. Lembre-se de que isso é apenas para aplicativos que podem ser instalados em um escopo de equipe. O **botão Adicionar** à equipe não está disponível para aplicativos que só podem ser instalados no escopo pessoal.
 
-![Captura de tela do botão Adicionar à equipe](media/manage-apps-add-app-team.png)
+![Captura de tela do botão Adicionar à equipe.](media/manage-apps-add-app-team.png)
 
 1. Pesquise o aplicativo que você deseja e selecione o aplicativo clicando à esquerda do nome do aplicativo.
 2. Selecione **Adicionar à equipe**.
@@ -138,7 +138,7 @@ Use as configurações de aplicativos em toda a organização para controlar se 
 
 1. Na página Gerenciar aplicativos, selecione **Configurações de aplicativo** em toda a organização. Você pode então definir as configurações desejadas no painel.
 
-    ![Captura de tela das configurações do aplicativo para toda a organização](media/manage-apps-org-wide-app-settings.png)
+    ![Captura de tela das configurações do aplicativo em toda a organização.](media/manage-apps-org-wide-app-settings.png)
 
 2. Em **Aplicativos de terceiros**, desabilite ou ative essas configurações para controlar o acesso a aplicativos de terceiros:
 
@@ -169,7 +169,7 @@ Para acessar informações do MCAS, siga estas etapas:
 1. Escolha um Microsoft 365 certificado.
 1. Selecione a **guia Segurança e conformidade.**
 
-![Captura de tela da Teams de segurança e conformidade do centro de administração](media/mcas.png)
+![Captura de tela da Teams de segurança e conformidade do centro de administração.](media/mcas.png)
 
 Nesta guia, você encontrará informações sobre segurança, conformidade e proteção de dados. Você também pode expandir cada listada para obter mais detalhes sobre quais recursos são suportados para o aplicativo selecionado.
 

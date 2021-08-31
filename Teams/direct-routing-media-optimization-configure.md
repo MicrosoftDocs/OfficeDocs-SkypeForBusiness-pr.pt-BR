@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurar a Otimização de Mídia Local para Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 49ed6df64957eea2f68a35554d0569ec1e6efaa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365628"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730310"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurar a Otimização de Mídia Local para Roteamento Direto
 
@@ -36,7 +36,7 @@ Para configurar a Otimização de Mídia Local, as etapas a seguir são necessá
 
 O diagrama a seguir mostra a configuração de rede usada nos exemplos ao longo deste artigo.
 
-![Diagrama mostrando a configuração de rede para exemplos](media/direct-routing-media-op-9.png "Configuração de rede para exemplos")
+![Diagrama mostrando a configuração de rede para exemplos.](media/direct-routing-media-op-9.png "Configuração de rede para exemplos")
 
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>Configurar o usuário e os sites SBC
@@ -207,7 +207,7 @@ A tabela a seguir mostra a configuração e a ação do usuário final:
 
 O diagrama a seguir mostra a escala SIP para uma chamada de saída com o modo sempre bypass e o usuário no mesmo local que o SBC.
 
-![Diagrama mostrando chamadas de saída](media/direct-routing-media-op-10.png "Chamadas de saída")
+![Diagrama mostrando chamadas de saída.](media/direct-routing-media-op-10.png "Chamadas de saída")
 
 A tabela a seguir mostra os headers X-MS enviados por Roteamento Direto:
 

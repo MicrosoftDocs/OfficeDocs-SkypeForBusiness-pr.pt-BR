@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar o bypass de mídia com Sistema de Telefonia Roteamento Direto para Microsoft Teams alternando todos os usuários de uma só vez ou implementando uma abordagem em fases (recomendado).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0f0ad9d25157058c048b0f12cf72b3755e65e11
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598575"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728680"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurar o bypass de mídia com Roteamento Direto
 
@@ -47,7 +47,7 @@ Você pode alternar todos os usuários de uma só vez ou implementar uma abordag
 
   Essa é a abordagem recomendada porque permite uma transição mais suave e uma experiência de usuário ininterrupta. Essa abordagem requer a configuração do SBC, um novo nome FQDN e configuração do firewall. Observe que você precisará certificar-se de que seu certificado dá suporte a ambos os troncos. Em SAN, você precisa ter dois nomes (**sbc1.contoso.com** e **sbc2.contoso.com**) ou ter um certificado curinga.
 
-![Migrar de troncos não ignorados para troncos habilitados para bypass)](media/direct-routing-media-bypass-8.png)
+![Migrar de troncos não ignorados para troncos habilitados para bypass).](media/direct-routing-media-bypass-8.png)
 
 Para obter instruções sobre como configurar os troncos e executar a migração, consulte a documentação do fornecedor SBC:
 

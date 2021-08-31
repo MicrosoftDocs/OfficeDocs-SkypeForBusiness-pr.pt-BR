@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80f0b731df6444ff4ab20ac0f8575f03766c0a40
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72bdeb6307970676de1b242738ec2d50789fa7c2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607004"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728080"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Fase 1 de adoção do Microsoft Teams - Início
 
@@ -73,4 +73,4 @@ O [microsoft technical Community](https://aka.ms/TechCommunity) fornece informa�
 - [Programa campeões](https://aka.ms/O365Champions) e a comunidade de adoção de direção – aprenda com seus colegas sobre como melhor impulsionar a adoção de cargas de trabalho de Microsoft 365 ou Office 365, como Teams, SharePoint, Yammer e outros produtos. Abra para profissionais de IT, usuários comerciais, desenvolvedor "acidental" e qualquer pessoa interessada em impulsionar a adoção de serviços de nuvem.  
 
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Compreender equipes e canais](teams-adoption-understand-teams-and-channels.md)
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)

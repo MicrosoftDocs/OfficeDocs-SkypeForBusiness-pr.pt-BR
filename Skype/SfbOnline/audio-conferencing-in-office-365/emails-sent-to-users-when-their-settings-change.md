@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba mais sobre quais informações são enviadas automaticamente aos usuários por email quando suas configurações de conferência discada mudarem no Skype for Business Online. '
-ms.openlocfilehash: 7f095e42eae2ba47573193546e441809ce3ae6e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b33fc6176d4103125432ebe0896ccab34e8fe269
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618297"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728030"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Emails enviados aos usuários quando suas configurações mudam no Skype for Business Online
 
@@ -48,7 +48,7 @@ Por padrão, há quatro tipos de email que serão enviados aos usuários habilit
   
     Aqui está um exemplo desse email:
     
-     ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
+     ![Skype for Business Verificar Licença.](../images/audio-conferencing-user-enabled.png)
   
     Você pode saber mais sobre as licenças do Skype for Business em [Licenciamento de complementos do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
@@ -114,7 +114,7 @@ Ao desativar o envio de emails para os usuários, o email não será enviado mes
   
 Por padrão, os emails serão enviados para seus usuários, mas se você quiser impedir que eles recebam emails para audioconferência, você pode usar o centro de administração Skype for Business ou Windows PowerShell. 
  
-![Um ícone mostrando o logotipo Skype for Business ](../images/sfb-logo-30x30.png) **usando o Skype for Business de administração**  
+![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png)  **Usando o Skype for Business de administração**
     
 1. No centro **Skype for Business de** administração , na navegação à esquerda, vá para **Configurações** de ponte da Microsoft de audioconferência.  >  
     
@@ -143,7 +143,7 @@ Você pode usar o cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/previou
     
     Este é um exemplo de email que será enviado a eles:
     
-     ![Email para conferência discada](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
+     ![Email de conferência discado.](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: Guia de segurança para o Skype for Business Online <add description>
-ms.openlocfilehash: 9eeaa4aec19a3113013ca93c76dfc686eb85b270
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 85084e3bc675aaadf190b2c486bfe3d6adcb684c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619287"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728436"
 ---
 # <a name="security-and-skype-for-business-online"></a>Segurança e Skype for Business Online
 
@@ -227,7 +227,7 @@ O TCP 50.000 de saída é usado no SfBO, inclusive para compartilhamento de apli
 A habilitação de usuários externos e internos para troca de mídia requer um serviço de Borda de Acesso para lidar com a sinalização SIP necessária para configurar e desativar uma sessão. Isso também requer um serviço de Borda A/V para atuar como um retransmissor para a transferência da mídia. A sequência de chamadas é ilustrada na figura a seguir.
 
 
-![Sequência de chamadas em Ingresso na Reunião](media/sfbo-call-sequence-security.png) 
+![Sequência de chamada no Meeting Join.](media/sfbo-call-sequence-security.png) 
 
 1. Um usuário recebe um email contendo um convite para ingressar em uma reunião no SfBO. O email contém uma chave de conferência e um URL baseado em HTTP vinculado à conferência. Tanto a chave quanto a URL são exclusivas de uma reunião específica.<p>O usuário inicia o procedimento de ingresso clicando no URL da reunião presente no email, que inicia um processo de detecção do cliente no computador do usuário. Se o cliente é detectado, ele é inicializado. Se não é detectado, ele é redirecionado para o cliente Web.<p/>
 2. O cliente do SfBO envia uma SIP INVITE contendo as credenciais do usuário. Um usuário federado ou remoto instala uma conferência usando suas credenciais corporativas. Para um usuário federado, a SIP INVITE é enviada primeiramente para o servidor doméstico, que autentica o usuário e encaminha a INVITE para o SfBO. Um usuário anônimo é obrigado a passar pela autenticação Digest.<p>O SfBO autentica o usuário remoto ou anônimo e notifica o cliente. Conforme mencionado na etapa 2, os usuários federados que ingressam em uma conferência são autenticados pela empresa deles.<p/>

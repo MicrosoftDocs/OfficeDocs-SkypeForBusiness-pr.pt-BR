@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2501c113eb3589ba26d4a9a6932e103f913c9239
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616127"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730150"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Visão geral da implementação da atualização
 
-![Estágios da jornada de atualização, com ênfase no estágio implantação e implementação](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")
+![Estágios da jornada de atualização, com ênfase no estágio implantação e implementação.](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")
 
 Este artigo faz parte do estágio implantação e implementação de sua jornada de atualização. 
 

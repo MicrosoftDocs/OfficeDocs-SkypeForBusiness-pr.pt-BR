@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: 'Resumo: prepare seus Skype for Business Server 2019 e a infraestrutura de domínio com este tópico. Hardware, SO, bancos de dados, software, todos os requisitos e recomendações do sistema, juntamente com as informações de DNS de certificado, compartilhamento de arquivos e Active Directory, estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do farm de servidores.'
-ms.openlocfilehash: a994d2546cb6e15830b8cb2439968a53047a6389
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578205"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728360"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos do sistema para Skype for Business Server 2019
  
@@ -302,17 +302,17 @@ Topologias com suporte no Skype for Business Server 2019 são:
     
 Temos diagramas e descrições para ajudá-lo a determinar qual topologia você tem em seu ambiente ou o que você pode precisar configurar antes de instalar o Skype for Business Server 2019. Para manter isso simples, também estamos incluindo uma chave:
   
-![O é uma chave para os ícones usados para Skype for Business diagramas de topologia](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
+![O é uma chave para os ícones usados para Skype for Business diagramas de topologia.](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### <a name="single-forest-with-single-domain"></a>Floresta única com domínio único
 
-![Diagrama da floresta única do Active Directory com um único domínio](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![Diagrama da floresta única do Active Directory com um único domínio.](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 Não fica mais fácil do que isso; é uma floresta de domínio único, uma topologia comum.
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>Floresta única com uma única árvore e vários domínios
 
-![Um único diagrama de floresta, árvore única e domínios mutiple](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![Um único diagrama de floresta, árvore única e domínios mutiple.](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 Este diagrama mostra uma única floresta, novamente, mas também tem um ou mais domínios filho (há três neste exemplo específico). Portanto, o domínio no qual os usuários são criados pode ser diferente do domínio Skype for Business Server 2019 é implantado. Por que se preocupar com isso? É importante lembrar que, quando você implanta um pool de Skype for Business Server front-end, todos os servidores nesse pool precisam estar em um único domínio. Você pode ter administração entre domínios por meio Skype for Business Server suporte Windows grupos de administradores universais.
   
@@ -320,7 +320,7 @@ No diagrama acima, você pode ver que os usuários de um domínio podem acessar 
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>Floresta única com várias árvores e namespaces não contíguos
 
-![Um único diagrama de floresta, várias árvores e namespaces diferentes](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![Uma única floresta, várias árvores e um diagrama de namespaces diferentes.](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 Você pode ter uma topologia semelhante a esse diagrama, onde você tem uma floresta, mas dentro dessa floresta há vários domínios, com namespaces AD separados. Nesse caso, este diagrama é uma boa ilustração, pois inclui usuários em três domínios diferentes acessando Skype for Business Server 2019. Linhas sólidas indicam que eles estão acessando um pool de Skype for Business Server em seu próprio domínio, enquanto uma linha tracejada indica que eles estão indo para um pool em uma árvore diferente completamente.
   
@@ -328,7 +328,7 @@ Como você pode ver, os usuários no mesmo domínio, na mesma árvore ou mesmo e
   
 #### <a name="multiple-forests-in-a-central-forest-topology"></a>Várias florestas em uma topologia de floresta central
 
-![Várias florestas em um diagrama de topologia de floresta central](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![Várias florestas em um diagrama de topologia de floresta central.](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 Skype for Business Server 2019 dá suporte a várias florestas configuradas em uma topologia de floresta central. Se você não tiver certeza de que é o que você tem, a floresta central na topologia usará objetos nele para representar usuários nas outras florestas e hospeda contas de usuário para todos os usuários na floresta.
   
@@ -339,7 +339,7 @@ Claramente, se a infraestrutura do AD estiver em uso, mudar para essa topologia 
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Várias florestas em uma topologia Skype for Business floresta de recursos
 <a name="BKMK_multipleforestopology"> </a>
 
-![Várias florestas em um diagrama de topologia de floresta de recursos](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![Várias florestas em um diagrama de topologia de floresta de recursos.](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 Uma topologia de floresta de recursos também é suportada; é onde uma floresta é dedicada à execução de seus aplicativos de servidor, como Microsoft Exchange Server e Skype for Business Server 2019. Essas florestas de recursos também hospedam uma representação sincronizada de objetos de usuário ativos, mas nenhuma conta de usuário habilitada para logon. Portanto, a floresta de recursos é um ambiente de serviços compartilhados para outras florestas nas quais os objetos de usuário residem e eles têm uma relação de confiança no nível da floresta com a floresta de recursos.
   

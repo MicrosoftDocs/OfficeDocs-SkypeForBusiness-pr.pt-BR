@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar configurações para Skype for Business recursos no centro de administração Microsoft Teams de administração.
-ms.openlocfilehash: e3679f80057349b60af9bc11b2aa43c3ceb6a431
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a21ea4d51902fc755f1a36e58e3faf0f70fa837b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636435"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731736"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gerenciar Skype for Business configurações no Microsoft Teams de administração
 
@@ -56,7 +56,7 @@ Na navegação à esquerda do centro de administração Microsoft Teams, vá par
 
 Use as configurações a seguir para gerenciar [Reunião do Skype Transmissão](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) em sua organização.
 
-:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Captura de tela de Reunião do Skype configurações de transmissão no centro de administração":::
+:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Captura de tela de Reunião do Skype configurações de transmissão no centro de administração.":::
 
 - **Reunião do Skype Transmissões**: ative isso para habilitar Reunião do Skype Transmissão para sua organização. Depois de habilitar esse recurso, você precisará [configurar sua rede para Reunião do Skype Transmissão](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast).
 - **Consulte recursos de visualização**: a ligue isso para obter acesso antecipado aos novos recursos.
@@ -73,7 +73,7 @@ Use as configurações a seguir para gerenciar [Reunião do Skype Transmissão](
 
 Use as configurações a seguir para gerenciar Skype for Business privacidade de presença e notificações móveis em sua organização.
 
-:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="Captura de tela das configurações de presença no centro de administração":::
+:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="Captura de tela das configurações de presença no centro de administração.":::
 
 #### <a name="presence"></a>Presença
 
@@ -103,7 +103,7 @@ Considere o seguinte:
 
 Para gerenciar Skype for Business configurações de usuários individuais, na navegação à esquerda do centro de administração do Teams, vá para **Usuários**, clique no nome de exibição do usuário para abrir a página de detalhes do usuário e selecione Skype for Business **guia** de configurações do Skype for Business. A partir daqui, você pode configurar configurações de acesso externo e reunião para o usuário.
 
-:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Captura de tela Skype for Business guia na página de detalhes do usuário":::
+:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Captura de tela Skype for Business guia na página de detalhes do usuário.":::
 
 ### <a name="external-access-settings"></a>Configurações de acesso externo
 

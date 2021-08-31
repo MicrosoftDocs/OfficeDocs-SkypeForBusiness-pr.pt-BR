@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Saiba como alternar entre Skype for Business e interfaces de usuário cliente do Lync usando o PowerShell no Microsoft 365 ou Office 365 '
-ms.openlocfilehash: 0a57bc5c246ac94926247805a0e1134f29e54937
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2345e30bf43a00342b1238533884d749e32095f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621893"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732260"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Alternando entre as interfaces do usuário do cliente Skype for Business e do cliente Lync
 
@@ -61,7 +61,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 Se definir a política corretamente, você verá:
   
-![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell: SkypeUIEnabled.](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
 Para permitir que todos os usuários de sua organização utilizem o cliente Skype for Business (Lync), abra o PowerShell Remoto e digite o seguinte: 
   
@@ -71,7 +71,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 Se definir a política corretamente, você verá:
   
-![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell: SkypeUIDisabled.](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
 Para permitir que um único usuário de sua organização utilize o cliente Skype for Business, abra o PowerShell Remoto e digite o seguinte:
   
@@ -81,7 +81,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 Se definir a política corretamente, você verá:
   
-![Skype for Business Online - Habilitar interface do usuário](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
+![Skype for Business Online - Habilitar a interface do usuário.](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
 Para permitir que um único usuário de sua organização utilize o cliente Skype for Business (Lync), abra o PowerShell Remoto e digite o seguinte:
   
@@ -91,7 +91,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 Se definir a política corretamente, você verá:
   
-![Skype for Business Online - Interface do Usuário Desabilitada](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![Skype for Business Online - Interface do Usuário Desabilitada.](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 Para permitir que vários usuários de sua organização utilizem o cliente Skype for Business, abra o PowerShell Remoto e digite o seguinte:
   

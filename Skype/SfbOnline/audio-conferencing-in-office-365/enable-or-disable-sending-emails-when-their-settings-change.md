@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 7bcbfc305ce250abb5f11aa1498a18802dde066c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2f322f9cfc9ba7daa60d030c043bdfda4d511d2c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589203"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728020"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar ou desabilitar o envio de emails quando as configurações de Audioconferência mudarem no Skype for Business Online
 
@@ -41,7 +41,7 @@ Se você desabilitar o envio de emails, os emails de Audioconferência não ser�
   
 Aqui está um exemplo do email que é enviado aos usuários quando eles estão habilitados para Audioconferência:
   
-![Email de audioconferência](../images/audio-conferencing-user-enabled.png)
+![Email de audioconferência.](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Quando os emails são enviados para seus usuários?
 
@@ -65,7 +65,7 @@ Aqui está um exemplo do email que é enviado aos usuários quando eles estão h
 Você pode usar o Skype for Business de administração ou Windows PowerShell para habilitar ou desabilitar emails enviados aos usuários.
 
  
-![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração**
     
 1. No centro **Skype for Business de** administração , na navegação à esquerda, clique **em Audioconferência**.
     

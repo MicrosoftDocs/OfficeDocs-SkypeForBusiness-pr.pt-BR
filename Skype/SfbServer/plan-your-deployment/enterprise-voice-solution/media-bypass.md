@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Decisões necessárias para o planejamento de bypass de mídia Skype for Business Server Enterprise Voice. Inclui a interoperação com o controle de admissão de chamada (CAC).
-ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b931d2415e0ac7563735181e76f539723330fe92
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630435"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733140"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planejar o bypass de mídia Skype for Business
 
@@ -39,7 +39,7 @@ A figura a seguir exibe caminhos de mídia e sinalização básicos em topologia
 
 **Caminhos de mídia e sinalização com e sem desvio de mídia**
 
-![Imposição de conexão de bypass de mídia do CAC de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Voice CAC Media Bypass Connection Enforcement.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 O bypass de mídia é útil quando você deseja minimizar o número de Servidores de Mediação implantados. Geralmente, um pool de Servidores de Mediação será implantado em um site central e controlará os gateways em sites locais. Habilitar o bypass de mídia permite que a mídia para chamadas PSTN de clientes em sites locais flua diretamente pelos gateways para estes sites. Skype for Business Server de chamadas de saída e Enterprise Voice políticas devem ser configuradas corretamente para que as chamadas PSTN de clientes em um site de filial sejam roteadas para o gateway apropriado.
 

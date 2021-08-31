@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como atribuir uma ID de conferência a um usuário no Skype for Business Online e quais os parâmetros de IDs de conferência devem ser. '
-ms.openlocfilehash: c8c3abcf515a0a60046cd2438833467b8be78231
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a400536050ea22d4f841e3b401e30c3c14729093
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607668"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727998"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário no Skype for Business Online
 
@@ -48,7 +48,7 @@ Um e-mail será enviado ao usuário com a ID da conferência e os números de te
 
 ### <a name="to-view-the-conference-id"></a>Para exibir a ID da conferência
 
-![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração**
 
 Você pode exibir sua ID de conferência e enviá-la aos usuários.
 
@@ -78,7 +78,7 @@ Consulte [Get-CsOnlineDialInConferencingUser](/powershell/module/skype/Get-CsOnl
 
 É possível redefinir uma ID de conferência para um usuário se, por exemplo, ele a esquecer.
 
-![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração**
 
 1. Entre com sua conta de trabalho ou de estudante.
 

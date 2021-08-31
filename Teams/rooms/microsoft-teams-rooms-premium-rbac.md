@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o controle de acesso baseado em função com o Salas do Microsoft Teams gerenciado.
 f1keywords: ''
-ms.openlocfilehash: dd6c89f9e391e2ae7234510c26304076bdee5226
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b1a3a770c8b56c9d9ed3b589fa13163d955c294
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608808"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728070"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Controle de acesso baseado em função com o serviço Salas do Microsoft Teams gerenciado
 
@@ -80,7 +80,7 @@ Para atribuir funções, você deve ser um Administrador Global ou Administrador
 
 1. Na navegação à esquerda do portal de serviço Salas do Microsoft Teams gerenciado, vá para **Configurações**  >  **Funções**.
 
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de tela da página de controle do Access mostrando funções":::
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de tela da página de controle do Access mostrando funções.":::
 
 2. Selecione a função que você deseja atribuir.
 3. No painel de funções, selecione **Atribuições**  >  **Adicionar**.

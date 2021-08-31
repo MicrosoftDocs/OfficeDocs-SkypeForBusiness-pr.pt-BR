@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Instalar Power BI conector para usar modelos de consulta do Painel de Qualidade de Chamada (CQD)
-ms.openlocfilehash: 258d3be034bd956c518f1ed7a67273f064b383b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e72f5731358ae1856b0379b47faefc5346ee3831
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593315"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730340"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Instalar o Conector de Qualidade de Chamada da Microsoft para Power BI usar modelos de consulta do Painel de Qualidade de Chamada
 
@@ -51,11 +51,11 @@ Para criar um relatório e executar consultas, primeiro você precisará se cone
 
 1. Na guia Página Power BI Desktop, clique em *Obter Dados*.
 
-    ![Captura de tela: Power BI Connector](media/CQD-power-bi-connector1-resize.png)
+    ![Captura de tela: Power BI Conector.](media/CQD-power-bi-connector1-resize.png)
 
 2. A *janela Obter Dados* deve aparecer neste ponto. Navegue *até Serviços Online,* selecione *Qualidade de Chamada da Microsoft (Beta)* e clique *Conexão*.
 
-    ![Captura de tela: Power BI Connector](media/CQD-power-bi-connector2-resize.png)
+    ![Captura de tela: Power BI Conector.](media/CQD-power-bi-connector2-resize.png)
 
 3. Você será solicitado a entrar em seguida. Use as mesmas credenciais que você usa para Painel de Qualidade de Chamada. <sup>2</sup>
 
@@ -73,18 +73,18 @@ Depois que a instalação for concluída, você deverá ver os nomes de várias 
 
 1. Selecione a visualização que você deseja usar no painel *Visualizações.* Uma versão em branco dessa visualização deve aparecer na página. Para os fins deste exemplo, vamos usar a visualização *tabela.*
 
-    ![Captura de tela: Power BI Connector](media/CQD-power-bi-connector3-resize.png)
+    ![Captura de tela: Power BI Conector.](media/CQD-power-bi-connector3-resize.png)
 
 2. Determine quais dimensões e medidas (denotadas por um símbolo de agregação pelo nome) que você deseja usar para sua consulta e selecione-as manualmente e arraste-as para a visualização em preto. Como alternativa, arraste-os para o campo *Valores* abaixo das opções de visualização.
 
-    ![Captura de tela: Power BI Connector](media/CQD-power-bi-connector4-resize2.png)
+    ![Captura de tela: Power BI Conector.](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > O Painel de Qualidade de Chamada requer uma medida para que qualquer consulta seja executado. A falha ao adicionar uma medida a uma consulta fará com que essa consulta falhe.
 
 3. Em seguida, selecione as dimensões que você deseja filtrar e arraste-as para o *Filtros* neste campo visual no painel *Filtros.* O conector de Qualidade de Chamada da Microsoft atualmente dá suporte à filtragem básica (selecione valores de uma lista de valores de dimensão possíveis), filtragem  avançada (especifique manualmente valores e operands para filtrar, semelhante ao Painel de Qualidade de Chamada) e filtragem de data relativa *(disponível* apenas para as dimensões Hora de Término e Hora de Início).    A filtragem de acordo *com o Top N* não é suportada pelo Painel de Qualidade de Chamada.
 
-    ![Captura de tela: Power BI Connector](media/CQD-power-bi-connector5-resize.png)
+    ![Captura de tela: Power BI Conector.](media/CQD-power-bi-connector5-resize.png)
 
     > [!IMPORTANT]
     > Os filtros só são suportados quando aplicados a Dimensões. A filtragem nos valores de Medidas não é suportada no Painel de Qualidade de Chamada.
@@ -102,11 +102,11 @@ Depois que a instalação for concluída, você deverá ver os nomes de várias 
 
 2. Selecione a dimensão que você deseja usar como um filtro passo a passo e arraste-os para o campo *Drillthrough* no painel *Visualizações.*
 
-    ![Captura de tela: Power BI Connector](media/CQD-power-bi-connector6-resize.png)
+    ![Captura de tela: Power BI Conector.](media/CQD-power-bi-connector6-resize.png)
 
 3. **É isso.\!** Qualquer outra consulta em outra página que use essa dimensão agora pode passar por essa página, aplicando automaticamente o valor da dimensão drillthrough como um filtro.
 
-    ![Captura de tela: Power BI Connector](media/CQD-power-bi-connector7-resize.png)
+    ![Captura de tela: Power BI Conector.](media/CQD-power-bi-connector7-resize.png)
 
 Ao contrário do Painel de Qualidade de Chamada, Power BI oferece suporte a drillthrough não sequencial. Se uma consulta incluir a dimensão necessária, ela poderá passar por qualquer outra página.
 

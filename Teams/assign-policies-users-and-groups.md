@@ -18,12 +18,12 @@ description: Saiba as diferentes maneiras de atribuir políticas a usuários e g
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: f3832c28f22c8e0a86b5c4f87a7d85e54420858e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a8182e1fe9058a5b7b7e8c88d0fdbac4070d48b7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631515"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732071"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Atribuir políticas a usuários e grupos
 
@@ -41,7 +41,7 @@ Para atribuir uma política a um usuário:
 2. Selecione o usuário clicando à esquerda do nome do usuário e selecione **Editar configurações**.
 3. Selecione a política que deseja atribuir e selecione **Aplicar**.
 
-![Atribuir uma política a um usuário no Teams de administração](media/assign-policy-user.png)
+![Atribua uma política a um usuário no Teams de administração.](media/assign-policy-user.png)
 
 Ou você também pode fazer o seguinte:
 
@@ -51,7 +51,7 @@ Ou você também pode fazer o seguinte:
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando terminar de adicionar usuários, selecione **Aplicar**.
 
-![Atribuir uma política a um usuário no centro de administração Teams por meio do segundo método](media/assign-policy-user2.png)
+![Atribua uma política a um usuário no centro de administração Teams por meio do segundo método.](media/assign-policy-user2.png)
 
 ### <a name="use-powershell"></a>Usar o PowerShell
 
@@ -136,7 +136,7 @@ Se você não especificar uma classificação, a atribuição de política receb
     3. Selecione a política que você deseja atribuir.
     4. Selecione **Aplicar**.
     
-![Atribuir uma política a um grupo no Teams de administração](media/assign-policy-group.png)
+![Atribua uma política a um grupo no Teams de administração.](media/assign-policy-group.png)
 
 Para remover uma atribuição de política de grupo, na **guia** Atribuição de política de grupo da página de política, selecione a atribuição de grupo e selecione **Remover**.
 

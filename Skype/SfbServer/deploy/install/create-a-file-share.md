@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Resumo: saiba como criar um compartilhamento de arquivos Windows Server como parte da instalação do Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: c3ffda81449a3719e6ba3feffba14266b7f79cb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7d766a38791a7fc21b4e86844684ed174769e60
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595955"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727960"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Criar um compartilhamento de arquivos Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58595955"
   
 Skype for Business Server requer um compartilhamento de arquivos para que os computadores em toda a topologia possam trocar arquivos. A criação de um compartilhamento de arquivos é a etapa 2 de 8 no processo de instalação para Skype for Business Server. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 em ordem e após as etapas 1 a 5, conforme descrito no diagrama. Para planejar detalhes sobre compartilhamento de arquivos, consulte [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md).
   
-![Diagrama de visão geral](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
+![Diagrama de visão geral.](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>Criar um compartilhamento de arquivos básico
 

@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11ccbac11b546aa53e6d66625f12b12f86483b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5975bfc6f0e93580ebdee3ce7f564efa9c380d99
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608958"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729950"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams
 
@@ -207,8 +207,8 @@ Os aplicativos móveis são distribuídos e atualizados somente por meio da loja
 
 | | | |
 |---|---|---|
-|![Um ícone representando um ponto de decisão](media/Get_clients_for_Microsoft_Teams_image4.png)|Ponto de decisão|Existe alguma restrição que esteja impedindo os usuários de instalar o cliente Microsoft Teams adequado em seus dispositivos?|
-|![Um ícone representando os próximos passos](media/Get_clients_for_Microsoft_Teams_image5.png)|Próximos passos|Se sua organização restringe a instalação de software, verifique se esse processo é compatível com o Microsoft Teams. Nota: Os direitos de administrador não são obrigatórios para a instalação do cliente PC, mas são obrigatórios para a instalação em Mac.|
+|![Um ícone representando um ponto de decisão.](media/Get_clients_for_Microsoft_Teams_image4.png)|Ponto de decisão|Existe alguma restrição que esteja impedindo os usuários de instalar o cliente Microsoft Teams adequado em seus dispositivos?|
+|![Um ícone representando os próximos passos.](media/Get_clients_for_Microsoft_Teams_image5.png)|Próximos passos|Se sua organização restringe a instalação de software, verifique se esse processo é compatível com o Microsoft Teams. Nota: Os direitos de administrador não são obrigatórios para a instalação do cliente PC, mas são obrigatórios para a instalação em Mac.|
 |
 
 ## <a name="client-update-management"></a>Gerenciamento de atualização do cliente

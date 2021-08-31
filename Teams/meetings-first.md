@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4da9ef3034b4918e51fbe00bdae3df01df1a6495
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 45f2bb9cc09625bcaaa27115745f19efbcaa14f7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590755"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728400"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -36,7 +36,7 @@ Reuniões Primeiro se baseia no modo de coexistência **SfBWithTeamsCollabAndMee
 
 Em Reuniões Primeiro, os usuários criam sua reunião Teams, enquanto continuam a usar Skype for Business para chat, chamada e presença. Não há sobreposição de modalidades entre Teams e Skype for Business. Chat, chamada e presença estão Skype for Business e desligados Teams. Isso permite cenários exclusivos "melhor juntos" entre Skype for Business e Teams que aprimoram a experiência do usuário durante a coexistência, bem como cenários de interoperabilidade com usuários **Teams Somente** usuários.
 
-![Captura de tela do cenário melhor em conjunto com Teams e Skype for Business](media/meetings-first-meeting-in-meeting.png)
+![Captura de tela do cenário melhor em conjunto com Teams e Skype for Business.](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
 > Reuniões Primeiro é uma melhor combinação para organizações que não têm nem poucos usuários Teams chat ativos. Os Teams de chat ativos não devem ser trocados para o modo Primeiro de Reuniões, pois eles perderiam a capacidade de conversar no Teams e acessar seu histórico de chat. Em vez disso,  esses usuários devem ser acossados no modo Ilhas, e as Reuniões Primeiro só são concedidas aos usuários que ainda não estão ativos no chat Teams.
@@ -61,7 +61,7 @@ A Reunião Primeiro reúne os seguintes recursos:
 - Experiência [de Teams de reunião superior.](tutorial-meetings-in-teams.yml)
 - "Melhor Juntos" entre Teams e Skype for Business: 
   - Espera automática: quando em uma reunião no Teams, entrar em uma chamada no Skype for Business colocará a reunião Teams em espera e vice-versa. Isso impede que os usuários tenha suas chamadas privadas ouvidas pelos participantes das reuniões.
-    ![Captura de tela do cenário melhor em conjunto com Teams e Skype for Business](media/meetings-first-better-together-hold.png)
+    ![Captura de tela do cenário melhor em conjunto com Teams e Skype for Business.](media/meetings-first-better-together-hold.png)
   - Reconciliação de presença: a atividade no Teams é refletida na presença do usuário, que é a Skype for Business, já que o chat e a chamada estão em Skype for Business. Especificamente, quando os primeiros usuários de reuniões estão em uma reunião Teams, sua presença será atualizada para refletir isso. Quando eles apresentarem sua tela, sua presença será atualizada para mostrar Não Incomodar (com base em suas configurações em Skype for Business).
   - Reconciliação de controle HID do dispositivo USB (também disponível no Mac): os controles HID são Teams durante reuniões Teams reuniões e por Skype for Business em todas as outras circunstâncias.
   - A menos que mencionado de outra forma, os recursos Better Together exigem clientes Windows de área de trabalho recentes no momento.
@@ -109,7 +109,7 @@ Depois de licenciar seus usuários e preparar sua organização para Teams reuni
 
 Todos os recursos e experiências do usuário em Reuniões [](teams-client-experience-and-conformance-to-coexistence-modes.md) Primeiro, incluindo a configuração do cliente Teams e a conformidade automática da experiência do usuário, o Serviço de Migração de Reuniões e os recursos Better Together, são configurados concedendo ao usuário (ou grupo de usuários ou locatário padrão) o modo de coexistência [SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) no centro de administração do [Microsoft Teams](manage-teams-in-modern-portal.md) ou usando o [PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
-![Captura de tela das configurações de administrador para habilitar reuniões primeiro](media/teams-meeting-admin-settings.png)
+![Captura de tela das configurações de administrador para habilitar reuniões primeiro.](media/teams-meeting-admin-settings.png)
 
 Opcionalmente, você deve ocultar o aplicativo Teams e Canais da navegação à esquerda do cliente Teams dos usuários para concentrar ainda mais sua experiência em reuniões, o que pode ser feito usando a política de Instalação de [Aplicativos](teams-app-setup-policies.md).
 

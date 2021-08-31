@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2766da88fee53124d43b4e2b66c9c104ea41b8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 15892a4eb3996923f7a0129805e2bb542cdc8d7c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610418"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731780"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -42,8 +42,8 @@ As permissões listadas abaixo em letras [maiúsculas,](/graph/permissions-refer
 
 | Título   | Descrição    |
 |-----------|------------|
-| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas abaixo como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
-| ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se você deseja permitir o acesso a ele em sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para bots personalizados da empresa, eles estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot exige essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
+| ![Um ícone que representa um ponto de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas abaixo como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
+| ![Um ícone que representa a próxima etapa.](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se você deseja permitir o acesso a ele em sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para bots personalizados da empresa, eles estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot exige essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
 
 Consulte também [Solicitar permissões de dispositivo para sua Microsoft Teams guia](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
 

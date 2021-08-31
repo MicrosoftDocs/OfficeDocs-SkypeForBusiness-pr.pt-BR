@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 275d1c9b3b60a5a1cd25c0991e35f40712fa332e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f9ea93f972f542adb743f0dba066e703358912d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627313"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732300"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>Use o CQD para gerenciar a qualidade de chamada e reunião no Microsoft Teams 
 
@@ -248,7 +248,7 @@ Operacionalize um conjunto de práticas de gerenciamento de qualidade - isso ofe
 
     -   Em segundo lugar estão as tarefas que sua organização gerencia para garantir acesso confiável ao serviço, como atualizar informações de construção e manter firewalls para novos endereços IP Office 365 como a infraestrutura é adicionada ao serviço.
 
-![Graph das categorias de qualidade em uma organização](media/qerguide-image-categories.png "As categorias de qualidade em uma organização: gerenciamento de serviços, pontos de extremidade e rede.")
+![Graph das categorias de qualidade em uma organização.](media/qerguide-image-categories.png "As categorias de qualidade em uma organização: gerenciamento de serviços, pontos de extremidade e rede.")
 
 Revise a lista a seguir das tarefas recomendadas para manter a qualidade. Você deve executar essas tarefas regularmente - por exemplo, semanalmente.
 
@@ -309,7 +309,7 @@ O CQD pode relatar Teams e Skype for Business. No entanto, pode haver momentos e
 
 Para modificar a página de relatórios de resumo Teams ou Skype for Business, selecione o menu suspenso Filtro de Produto na parte superior da tela e selecione o produto que deseja. 
 
-![Captura de tela do menu suspenso mostrando as opções de filtro](media/qerguide-image-productfilter.png)
+![Captura de tela do menu suspenso mostrando as opções de filtro.](media/qerguide-image-productfilter.png)
 
 #### <a name="detailed-reports"></a>Relatórios detalhados
 
@@ -327,7 +327,7 @@ Para obter mais informações sobre filtros de URL, leia [Relatórios de filtrag
 
 Para filtrar um relatório detalhado individual, adicione o filtro ao ``Is Teams`` relatório e de defini-lo como True ou False.
 
-![Captura de tela da página Adicionar filtro](media/qerguide-image-addteamsfilter.png)
+![Captura de tela da página Adicionar filtro.](media/qerguide-image-addteamsfilter.png)
 
 ### <a name="managed-versus-unmanaged-networks"></a>Redes gerenciadas versus não gerenciadas
 
@@ -550,7 +550,7 @@ Embora as dimensões usadas possam diferir ligeiramente entre o relatório, cada
 > Sub-redes comuns são difíceis de triagem devido ao seu uso generalizado. Um relatório separado que exibe o IP público do cliente (SEGUNDO IP local reflexivo) foi adicionado ao modelo Todas as Redes para ajudar na correção de escritórios que usam redes comuns.
 
 
-![Captura de tela mostrando o resumo de fluxo de áudio ruim](media/qerguide-image-poorqualitysummary.png)
+![Captura de tela mostrando o resumo de fluxo de áudio ruim.](media/qerguide-image-poorqualitysummary.png)
 
 ##### <a name="remediation"></a>Correção
 
@@ -590,7 +590,7 @@ Os relatórios nesta seção não fazem uma distinção entre fluxos bons e ruin
 
 Os relatórios TCP indicam o uso geral de TCP nos últimos sete meses. Todos os relatórios nesta seção se concentrarão em restringir edifícios e sub-redes específicos onde o TCP é mais usado. Relatórios separados estão disponíveis para fluxos de conferência e de duas partes.
 
-![Gráfico mostrando a porcentagem de fluxos de áudio que usam TCP](media/qerguide-image-audiostreamswithtcp.png)
+![Gráfico mostrando a porcentagem de fluxos de áudio que usam TCP.](media/qerguide-image-audiostreamswithtcp.png)
 
 ##### <a name="investigation"></a>Investigação
 
@@ -607,7 +607,7 @@ Se você observar que a tendência de uso TCP está aumentando ou acima do uso m
 
 Este relatório identifica o volume de relatórios de uso TCP versus UDP no mês mais recente para VBSS (compartilhamento de tela baseado em áudio, vídeo e vídeo). 
 
-![Relatório mostrando o volume de fluxos que usam TCP versus UDP](media/qerguide-image-tcpvsudp.png)
+![Relatório mostrando o volume de fluxos que usam TCP versus UDP.](media/qerguide-image-tcpvsudp.png)
 
 ##### <a name="analysis"></a>Análise
 
@@ -644,7 +644,7 @@ Sempre recomendamos que você configure o cliente para se conectar diretamente a
 
 O relatório de fluxo de proxy HTTP nesta seção do modelo é muito parecido com os relatórios TCP. Ele não vê se as chamadas são ruins ou boas, mas se a chamada está conectada por HTTP.
 
-![Captura de tela do relatório de fluxos de áudio que usam HTTP](media/qerguide-image-audiostreamswithhttp.png)
+![Captura de tela do relatório de fluxos de áudio que usam HTTP.](media/qerguide-image-audiostreamswithhttp.png)
 
 ##### <a name="analysis"></a>Análise
 

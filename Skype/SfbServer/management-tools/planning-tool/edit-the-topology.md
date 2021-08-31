@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Após concluir as perguntas iniciais de entrevista, você pode editar o FQDN (nome de domínio totalmente qualificado) e endereços IP do site. Para isso, na página Topologia Global, clique duas vezes no site que deseja editar.
-ms.openlocfilehash: 6c18b980f7dca770de46a8eaeed01e7c508486b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626593"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732320"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar a topologia no Skype for Business Server 2015
 
@@ -27,7 +27,7 @@ Após concluir as perguntas iniciais de entrevista, você pode editar o FQDN (no
 
 A Ferramenta de Planejamento exibe a topologia do site para o site selecionado. Na parte inferior da página do site, existem quatro guias:
 
-![Topologia do Site da Ferramenta de Planejamento](../../media/Planning_Tool_Site_Topology.png)
+![Topologia do Site da Ferramenta de Planejamento.](../../media/Planning_Tool_Site_Topology.png)
 
 - Topologia do Site - A página exibida atualmente com uma visão geral visual da topologia conforme recomendado.
 
@@ -35,7 +35,7 @@ A Ferramenta de Planejamento exibe a topologia do site para o site selecionado. 
 
 - Relatório de Administrador de Borda - O Relatório de Administração de Borda contém um total de quatro relatórios:
 
-     ![Página Relatório de Administração de Borda](../../media/Planning_Tool_Summary_Report.png)
+     ![Página Relatório do Administrador de Borda.](../../media/Planning_Tool_Summary_Report.png)
 
   - Relatório de Resumo - Um relatório geral das configurações da rede de Borda. Se você editar os  valores na página Diagrama de Rede de Borda para os valores de topologia TCP/IP e FQDN que serão usados na implantação real, esses endereços e nomes serão representados aqui. Caso contrário, o texto padrão aparecerá.
 
@@ -55,7 +55,7 @@ A Ferramenta de Planejamento exibe a topologia do site para o site selecionado. 
 
 A maioria do trabalho que um designer faz na Ferramenta de Planejamento do Skype for Business Server 2015 consiste em definir as entradas para os endereços IP e os FQDNs (nomes de domínio totalmente qualificados) para as entradas no diagrama de rede. As informações inseridas nesta página são fornecidas nos relatórios e outras informações contidas na Ferramenta de Planejamento.
 
-![Diagrama de Rede da Ferramenta de Planejamento](../../media/Planning_Tool_Network_Diagram.png)
+![Diagrama de Rede da Ferramenta de Planejamento.](../../media/Planning_Tool_Network_Diagram.png)
 
 A Ferramenta de Planejamento cria um diagrama de rede com texto padrão para endereços IP e FQDNs.
 

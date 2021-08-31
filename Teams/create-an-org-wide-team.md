@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6faac9e0c04f71bddb69b0a8bd7748072699edb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589745"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728200"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Criar uma equipe de toda a organização no Microsoft Teams
 
@@ -34,7 +34,7 @@ Com equipes de toda a organização, os administradores globais podem criar faci
 
 Somente administradores globais podem criar equipes em toda a organização. Atualmente, uma equipe de toda a organização está limitada a organizações com não mais de 10.000 usuários. Há também um limite de cinco equipes de toda a organização por locatário. Ao criar uma equipe, se esses requisitos  são atendidos, os administradores globais verão Toda a organização como uma opção ao selecionar Criar uma **equipe do zero**. 
 
-![Captura de tela da opção em toda a organização para criar uma equipe em toda a organização](media/create-org-wide-team.png "Captura de tela da opção Em toda a organização para criar uma equipe em toda a organização")
+![Captura de tela da opção em toda a organização para criar uma equipe em toda a organização.](media/create-org-wide-team.png "Captura de tela da opção Em toda a organização para criar uma equipe em toda a organização")
 
 Quando uma equipe de toda a organização é criada, todos os administradores globais e Teams de serviço são adicionados como proprietários de equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença do Microsoft Teams Exploratory. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md). 
 

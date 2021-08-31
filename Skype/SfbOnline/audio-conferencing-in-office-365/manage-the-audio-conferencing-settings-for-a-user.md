@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador de Microsoft 365 ou Office 365, você pode editar as configurações de Audioconferência do Skype for Business Online, como o provedor, o número de tarifação padrão ou gratuito, a ID da conferência ou o PIN para um usuário individual em sua organização. '
-ms.openlocfilehash: 7f25df3c9f395583273a4bf8ce68f3c93699a41d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 555902f233733ac31613a3ecb23f7aa8eec7af67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614943"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730050"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Gerenciar as configurações de audioconferência para um usuário no Skype for Business Online
 
@@ -44,7 +44,7 @@ Como administrador de Microsoft 365 ou Office 365, você pode editar as configur
     
 3. No centro Skype for Business de administração, escolha **Usuários**.
     
-4. Selecione o usuário para o qual você deseja gerenciar as configurações e, em seguida, no painel de ações, clique em **Editar**![Exibe o ícone Editar](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
+4. Selecione o usuário para o qual você deseja gerenciar as configurações e, no painel Ação, clique em **Editar** ![ Mostra o ícone Editar. ](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png) .
     
 5. Escolha **Audioconferência** no painel de navegação esquerdo e, em seguida, na página **Propriedades** do usuário, modifique qualquer uma das seguintes opções:
     
@@ -60,7 +60,7 @@ Como administrador de Microsoft 365 ou Office 365, você pode editar as configur
 |**Permitir que os chamadores não autenticados sejam as primeira pessoas em uma reunião** <br/> |Selecione essa opção para permitir que os chamadores não autenticados sejam os primeiros a ingressarem em reuniões.  <br/> |
 |**Restrições para chamadas de reuniões deste usuário** <br/> |Selecione uma opção nessa lista se desejar restringir as chamadas apenas para domésticas ou se desejar impedir todas as chamadas de reuniões.  <br/> |
   
-![Exibe a página Propriedades de audioconferência para um usuário](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
+![Mostra a página Propriedades de Audioconferência para um usuário.](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

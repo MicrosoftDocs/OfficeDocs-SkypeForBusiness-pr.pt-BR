@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb4eb1c1c681e0c2089ec1258f7729727fdb77f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586295"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732290"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para visualização de Teams
 
@@ -78,11 +78,11 @@ Quando a capacidade da reunião principal for atingida, um participante não pod
 
 Quando a capacidade da reunião principal for atingida, o organizador da reunião e os apresentadores verão uma faixa informando que os novos participantes ingressarão como participantes somente para exibição.
 
-  ![o cliente do Teams e a mensagem do banner para organizadores e apresentadores](media/chat-and-banner-message.png)
+  ![a Teams cliente e a mensagem em faixa para organizadores e apresentadores.](media/chat-and-banner-message.png)
 
 Quando a capacidade da reunião principal for atingida, os participantes da reunião serão informados na tela de pré-entrada que eles estão entrando no modo somente visualização.
 
-  ![a tela de pré-adesão das equipes e a mensagem para os participantes informando que eles entrarão no modo somente visualização](media/view-only-pre-join-screen.png)
+  ![a Teams de pré-participação e a mensagem para os participantes dizendo que eles ingressarão no modo somente exibição.](media/view-only-pre-join-screen.png)
 
 Se houver espaço, um usuário sempre participará da reunião principal. Se a reunião principal atingir a capacidade máxima e um ou mais participantes deixarem a reunião principal, a reunião principal terá capacidade disponível. Os participantes que ingressarem (ou reingressarem) na reunião entrarão na reunião principal até que ela atinja sua capacidade novamente. Os participantes que estão na experiência somente exibição não serão promovidos automaticamente para a reunião principal e não poderão ser promovidos manualmente para a reunião principal.
 

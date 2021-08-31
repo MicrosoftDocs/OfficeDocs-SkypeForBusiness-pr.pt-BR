@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Um administrador Microsoft 365 ou Office 365 pode editar as configurações de Audioconferência de Teams, incluindo provedor, número de tarifação padrão ou gratuita, ID de conferência ou PIN para um usuário.
-ms.openlocfilehash: 2dcfb194f6721ca121ca45ff6a0fcd0b07eeb10a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c565537adfc8eeae295c1608a335b8282d3372df
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603266"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732480"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de Audioconferência de um usuário no Microsoft Teams
 
 Como administrador de Microsoft 365 ou Office 365, você pode editar as configurações de Audioconferência, como o provedor, o número de tarifação padrão ou gratuito, a ID da conferência ou o PIN para um usuário individual em sua organização. Se você deseja editar configurações para sua organização, consulte Gerenciar as configurações de [Audioconferência para sua organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
@@ -53,7 +53,7 @@ Como administrador de Microsoft 365 ou Office 365, você pode editar as configur
 |**Usuários não autenticados podem ser a primeira pessoa na reunião**|Para alterar essa configuração, alternar usuários não **autenticados pode** ser a primeira pessoa na reunião On ou Off.
 |**Permissões de discagem**|Para alterar essa configuração, clique em **Editar** ao lado de **Audioconferência** e no painel **Audioconferência,** escolha uma opção em **Discagem de reuniões**.|
 
-![Mostra as configurações de Audioconferência para um usuário](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
+![Mostra as configurações de Audioconferência para um usuário.](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]

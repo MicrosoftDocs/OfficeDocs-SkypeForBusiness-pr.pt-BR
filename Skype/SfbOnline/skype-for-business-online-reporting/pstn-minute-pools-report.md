@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: A nova Skype for Business de Relatórios do Centro de Administração mostra a atividade de chamada e audioconferência em sua organização. Ele permite que você faça uma análise de relatórios para dar uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório Skype for Business pools de minutos PSTN para ver o número de minutos consumidos durante o mês atual em sua organização.
-ms.openlocfilehash: 3c9999a642480442f25dddad9daca503ade7851a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3b75fd81628e4cfcd49b7b120ceed3e3f327bdc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592895"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727990"
 ---
 # <a name="pstn-minute-pools-report"></a>Relatório de pools de minutos PSTN
 
@@ -44,7 +44,7 @@ Este relatório, juntamente com os outros relatórios Skype for Business, fornec
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Como chegar ao relatório de pools de minutos Skype for Business PSTN
 
-![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração**
 
 - Vá para o centro de administração > **centros de** administração Skype for Business de administração Relatórios de pools de minutos  >    >    >  **PSTN**.
     
@@ -57,10 +57,10 @@ Você pode obter uma exibição nos pools de Skype for Business de minuto do usu
   
 Esta é a aparência do relatório.
 
-![Skype for Business Relatório de pools de minutos PSTN](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![Skype for Business Relatório de pools de minutos PSTN.](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão de pools de minutos por licença (funcionalidade) e local de uso. 
+![Número 1.](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão de pools de minutos por licença (funcionalidade) e local de uso. 
 *    **A funcionalidade** é o plano de licença/serviço usado para a chamada. Os planos de licença/serviço que você pode ver neste relatório incluem:
      * MCOPSTN1 - Plano de Chamada Doméstica (planos da UE de 3.000 minutos dos EUA/1200 minutos
      * MCOPSTN2 - Plano de Chamada & Doméstico do qual você verá um pool doméstico (3.000 minutos EUA/Canadá/PR, países europeus de 1200 minutos) e um pool internacional (600 minutos). O limite de minutos é atingido sempre que o limite internacional -OR doméstico é atingido dentro do mês do calendário. 
@@ -73,9 +73,9 @@ Esta é a aparência do relatório.
 *    **Total de** minutos é o número total de minutos disponíveis para o mês. 
 *    **Percent Used** é a porcentagem de minutos usadas para o mês. 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas. 
+![Número 2.](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.    <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se você tiver menos de 2.000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
+![Número 3.](../images/sfbcallout3.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.    <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se você tiver menos de 2.000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 

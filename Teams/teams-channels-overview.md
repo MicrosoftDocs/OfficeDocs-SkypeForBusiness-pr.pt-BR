@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579575"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731940"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 
@@ -92,7 +92,7 @@ Abaixo estão alguns exemplos funcionais de como os diferentes tipos de usuário
 
 O Teams é ótimo para quebrar silos organizacionais e promover equipes multifuncionais, então incentive seus usuários a pensarem em equipes funcionais em vez de limites organizacionais.
 
-|Tipos de equipe  |Canais potenciais  |Aplicativos (Guias ![Um ícone representando uma pasta com uma guia](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Um ícone representando blocos de conexão](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Um ícone representando um pequeno robô](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Tipos de equipe  |Canais potenciais  |Aplicativos (Guias ![Um ícone representando uma pasta com uma guia.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Um ícone representando blocos de conexão](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Um ícone representando um pequeno robô](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Vendas     |Reunião anual de vendas<br></br> Avaliação trimestral de negócios<br></br> Avaliação mensal do pipeline de vendas<br></br> Conjunto de estratégias de vendas |Power BI<br></br>Trello<br></br>CRM<br></br>Resumir bot         |
 |Relações Públicas     |Notas de imprensa<br></br>Novidades e atualizações<br></br>Verificação de fatos         |RSS Feed<br></br>Twitter         |

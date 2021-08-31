@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Saiba como definir a interface do usuário em Teams Dispositivos Android.
-ms.openlocfilehash: 07d8b42de16c71a63efe7a3c18955e457577d60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d17158a6d76dd0d735392c8a441ca184968897a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637077"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732450"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Definir Microsoft Teams de usuário de dispositivos Android
 
@@ -34,15 +34,15 @@ Se você atribuir uma licença de usuário a uma conta, como uma licença E3 ou 
 
 As três imagens a seguir mostram como a interface do usuário muda com base na licença atribuída à conta de usuário. Na primeira imagem, a conta de usuário recebe uma licença E5. Esta é uma licença de usuário, portanto, o dispositivo mostra a interface padrão do usuário final:
 
-:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="Interface do modo de usuário":::
+:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="Interface do modo de usuário.":::
 
 Nesta imagem, a conta de usuário recebeu uma licença de telefone de área [comum.](/microsoftteams/set-up-common-area-phones) Telefones de área comum são usados principalmente para fazer e receber chamadas telefônicas. Dessa forma, o bloco de discagem é mostrado no visor:
 
-:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="Interface telefônica de área comum":::
+:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="Interface telefônica de área comum.":::
 
 Por fim, essa imagem mostra uma conta de usuário com [uma Salas do Microsoft Teams Standard](/MicrosoftTeams/rooms/rooms-licensing) atribuída. Salas do Teams licenças devem ser usadas em salas de reunião ou espaços compartilhados, portanto, a interface do usuário muda para facilitar a junção de uma reunião mostrando o modo de exibição do calendário:
 
-:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="Interface de reunião":::
+:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="Interface de reunião.":::
 
 > [!NOTE]
 > Alterar a interface do usuário não afeta sua capacidade de usar outros recursos licenciados. Por exemplo, mesmo que o modo de exibição padrão da licença salas de equipe seja o modo de exibição de calendário, você ainda poderá fazer e receber chamadas telefônicas PSTN (Rede Telefônica pública com Opção) se a conta estiver corretamente licenciada e configurada.

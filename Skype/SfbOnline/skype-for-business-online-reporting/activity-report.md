@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: bdb7f0df8148b89b90eac073a1d709aa658f06d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f6a54e75c240a3a2a1381597598f8486afa25d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605650"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730250"
 ---
 # <a name="activity-report"></a>Relatório de atividades
 
@@ -51,35 +51,35 @@ Este relatório, juntamente com os outros relatórios Skype for Business, fornec
 
 Para visualizar a atividade de seus usuários no Skype for Business, examine os gráficos **Atividade** e **Usuários**.
   
-![Skype for Business Online Activity Report](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
+![Skype for Business Relatório de Atividades Online.](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>
+![Número 1.](../images/sfbcallout1.png)<br/>
 O **Skype for Business** atividade de email atividade de atividade de atividade pode ser exibido para tendências nos últimos 7, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (veja o número 7) mostrará dados por até 28 dias a partir da data atual (não a data em que o relatório foi gerado).
 
 > [!NOTE]
 > Se você clicar nos detalhes de um dia específico, a tabela mostrará apenas os dados dos 30 dias até a data em que o relatório foi gerado.
 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>
+![Número 2.](../images/sfbcallout2.png)<br/>
 Cada relatório tem uma data de geração. Os relatórios geralmente refletem uma latência de 24 a 48 horas do tempo de atividade. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>Use os dados do gráfico interativo **Atividade** para conhecer as tendências de uso e ver o número de atividades de conferência que estão sendo realizadas na sua organização. Ele mostrará o número total e os tipos de **Sessões ponto a ponto**, sessões de conferência **Organizadas** e **Participadas** em toda a organização.  
+![Número 3.](../images/sfbcallout3.png)<br/>Use os dados do gráfico interativo **Atividade** para conhecer as tendências de uso e ver o número de atividades de conferência que estão sendo realizadas na sua organização. Ele mostrará o número total e os tipos de **Sessões ponto a ponto**, sessões de conferência **Organizadas** e **Participadas** em toda a organização.  
 ***
-![Número 4](../images/sfbcallout4.png)<br/>
+![Número 4.](../images/sfbcallout4.png)<br/>
 Use os dados do gráfico interativo **Usuários** para conhecer as tendências de uso e ver o número de usuários exclusivos participantes das atividades de conferência que estão sendo realizadas na sua organização. Ele mostrará o número total de usuários juntamente com os tipos de sessões ponto a **ponto,** **organizadas** e **participadas** de sessões de conferência.
 ***
-![Número 5](../images/sfbcallout5.png)<br/>
+![Número 5.](../images/sfbcallout5.png)<br/>
 Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico **Atividade,** clique ou toque em Sessões  ponto a **ponto,** Organizadas ou Participadas para ver apenas as informações **relacionadas** a cada uma delas. Essa seleção não altera as informações contidas na tabela de grade. 
 ***
-![Número 6](../images/sfbcallout6.png)<br/>
+![Número 6.](../images/sfbcallout6.png)<br/>
 Cada gráfico tem um eixo "X" (horizontal) e um "Y" (vertical).
 *    No gráfico **Atividade,** o eixo Y é o número total de sessões de conferência ponto a ponto, organizadas e participadas.
 *    No gráfico **de atividades** Usuários, o eixo Y é o número de usuários exclusivos que participam de cada tipo de conferência ponto a ponto, organizado e participado da conferência.
 
 O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse relatório específico. 
 ***
-![Número 7](../images/sfbcallout7.png)<br/>
+![Número 7.](../images/sfbcallout7.png)<br/>
 A tabela mostra uma divisão de todas as atividades de conferência por usuário. Isso mostra todos os usuários que Skype for Business atribuídos a eles e suas atividades de conferência. Você pode adicionar mais colunas à tabela.
 * **Nome** de usuário é o nome do usuário.
 * **Excluído** indica que a licença do usuário foi removida.<br/><br/>
@@ -95,10 +95,10 @@ A tabela mostra uma divisão de todas as atividades de conferência por usuário
 
 Se as políticas da sua organização impedirem que você veja relatórios em que as informações do usuário são identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **Ocultar detalhes do usuário na** seção Relatórios de Atividades no centro de [administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
-![Número 8](../images/sfbcallout8.png)<br/>
+![Número 8.](../images/sfbcallout8.png)<br/>
 Clique ou toque no **ícone Colunas** em qualquer uma das colunas para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
-![Número 9](../images/sfbcallout9.png)<br/>
+![Número 9.](../images/sfbcallout9.png)<br/>
 Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Skype for Business Botão Exportar Relatórios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> Esse protocolo exporta os dados de todos os usuários e permite que você execute a classificação e a filtragem simples para análises posteriores. Se você tiver menos de 2.000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar. 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?

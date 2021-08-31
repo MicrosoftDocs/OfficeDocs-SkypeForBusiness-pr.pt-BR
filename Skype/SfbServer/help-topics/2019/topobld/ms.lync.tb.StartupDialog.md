@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você inicia o Construtor de Topologias para configurar as propriedades e a configuração da sua implantação. Na inicialização, o Construtor de Topologia exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma de três opções:'
-ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621437"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732340"
 ---
 # <a name="topology-builder-startup-dialog"></a>Diálogo de Inicialização do Construtor de Topologia
  
@@ -32,5 +32,5 @@ Você inicia o Construtor de Topologias para configurar as propriedades e a conf
     
 - **Nova Topologia** Selecione essa opção para começar a configuração de um novo documento de topologia. Essa opção abre um novo documento de topologia que você configura para atender aos requisitos da implantação que você configurará.
     
-![Diálogo de Inicialização do Construtor de Topologia](../../../media/Topology_Builder_Startup_Dialog.jpg)
+![Caixa de diálogo de inicialização do Construtor de Topologias.](../../../media/Topology_Builder_Startup_Dialog.jpg)
   

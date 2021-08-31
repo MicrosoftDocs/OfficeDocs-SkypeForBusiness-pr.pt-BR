@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad66efadda775c11ab653cbe1bc46b2c5a4ab3c3a80edf77265dddabbb71c4a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347276"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732310"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento da área de trabalho no Microsoft Teams
 
@@ -39,11 +39,11 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
 
 1. Clique em **Reuniões** > **Políticas de reuniões**.
 
-    ![Políticas de reunião selecionadas](media/configure-desktop-sharing-image1.png)
+    ![Políticas de reunião selecionadas.](media/configure-desktop-sharing-image1.png)
 
 2. Na página **Políticas de reunião,** selecione **Adicionar**.
 
-    ![A mensagem Políticas de reunião](media/addMeeting.png)
+    ![A mensagem Políticas de reunião.](media/addMeeting.png)
 
 3. Atribua um título exclusivo à sua política e insira uma breve descrição.
 
@@ -53,7 +53,7 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
    - **Aplicativo único** – permite que os usuários limitem o compartilhamento de tela a um único aplicativo ativo.
    - **Desabilitado** – desativa o compartilhamento de tela.
 
-    ![As opções de modo de compartilhamento](media/configure-desktop-sharing-image3.png)
+    ![As opções de modo de compartilhamento.](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
   > Você não precisa habilitar a política de chamada para que os usuários usem o compartilhamento de tela do chat. No entanto, o áudio deles é desligado até que eles mesmos se desmuterem. Além disso, o usuário que compartilha a tela pode clicar em **Adicionar Áudio** para habilitar o áudio. Se a política de chamada estiver desabilitada, os usuários não poderão adicionar áudio ao compartilhamento de tela de uma sessão de chat.

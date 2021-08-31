@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como usar o centro de administração Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem (planos de discagem de chamada PSTN).
-ms.openlocfilehash: e6cc5e751efa412c24eb13f182ab5967360c677e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ecabfb04d8919ac289067818e736e170e6d181
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628373"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728700"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -38,7 +38,7 @@ Depois de planejar os planos de discagem para sua organização e descobrir toda
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Plano de**  >  **Discagem de Voz**.
 2. Clique **em Adicionar** e insira um nome e uma descrição para o plano de discagem.
-    ![Captura de tela mostrando a página Adicionar para criar um plano de discagem](media/create-dial-plan.png)
+    ![Captura de tela mostrando a página Adicionar para criar um plano de discagem.](media/create-dial-plan.png)
 3. Em **Detalhes do plano de** discagem, especifique um prefixo de discagem externa se os usuários precisarem discar um ou mais dígitos principais adicionais (por exemplo, 9) para obter uma linha externa. Para fazer isso:
     1. Na caixa **Prefixo de discagem externa,** insira um prefixo de discagem externa. O prefixo pode ter até quatro caracteres (#,*e 0-9).
     2. Ativar **a discagem otimizada do dispositivo**. Se você especificar um prefixo de discagem externa, também deverá ativar essa configuração para aplicar o prefixo para que as chamadas possam ser feitas fora da sua organização.

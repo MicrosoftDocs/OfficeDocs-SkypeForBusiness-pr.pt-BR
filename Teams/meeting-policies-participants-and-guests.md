@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações de política de reunião Teams para participantes e convidados.
-ms.openlocfilehash: 54a209756db16788e6f46f3b34a4367277ca8354
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b377c1c391f1fb3a82976db6d58e84c9eb2f9b94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635655"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728630"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -52,7 +52,7 @@ Essa configuração é uma política por organizador que permite reuniões de co
 
 Esta é uma política por organizador. Essa configuração controla se as pessoas participam de uma reunião ou esperam no lobby até que sejam admitidas por um usuário autenticado. Essa configuração não se aplica aos usuários de acesso telefônico.
 
-![Captura de tela mostrando uma reunião com um usuário no lobby](media/meeting-policies-lobby.png)
+![Captura de tela mostrando uma reunião com um usuário no lobby.](media/meeting-policies-lobby.png)
 
  Os organizadores de reuniões podem clicar em **Opções de reunião** no convite da reunião para alterar essa configuração para todas as reuniões agendadas.
 
@@ -79,7 +79,7 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 
 Essa configuração é uma política por usuário e se aplica durante uma reunião. Essa configuração controla se a opção **Ativar legendas ao vivo** está disponível para que o usuário ative e desative as legendas ao vivo nas reuniões que o usuário faz.  
 
-![Captura de tela mostrando a opção Ativar legendas ao vivo](media/meeting-policies-live-captions.png)
+![Captura de tela mostrando a opção Ativar legendas ao vivo.](media/meeting-policies-live-captions.png)
 
 |Valor de configuração |Comportamento  |
 |---------|---------|

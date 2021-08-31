@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Você pode permitir que seus usuários Skype for Business usem a ferramenta de feedback de aplicativos Skype for Business interna para permitir que os usuários reportem problemas e forneçam comentários diretamente à Microsoft sobre sua experiência.
-ms.openlocfilehash: b7be0629e0944f55147a8f0a772663737412f910
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9382c19c5abf78dc47dcaa3de33841a64e96f490
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611450"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728280"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Ativar ou desativar o relatório de comentários do cliente Skype for Business
 
@@ -32,11 +32,11 @@ ms.locfileid: "58611450"
 
 Você pode permitir que seus usuários Skype for Business Online usem a ferramenta de feedback interna Skype for Business aplicativos para permitir que os usuários reportem problemas e forneçam comentários diretamente à Microsoft sobre sua experiência. 
   
-![Fornecer ícone de feedback](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
+![Forneça o ícone Feedback.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
 Usando essa ferramenta, um usuário pode copiar os logs do aplicativo em seu dispositivo para ajudar a Microsoft a investigar melhor e solucionar problemas que podem ter. 
   
-![Relatar um problema usando Configurações ícone](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![Relatar um problema usando Configurações ícone.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 Também é possível usar a configuração  _EnableOnlineFeedbackScreenshot_ para que os usuários possam incluir uma captura de tela em seu dispositivo como parte de seu comentário.
   

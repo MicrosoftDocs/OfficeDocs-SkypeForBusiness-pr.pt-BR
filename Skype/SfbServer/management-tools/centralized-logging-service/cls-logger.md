@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Resumo: Saiba como usar o Agente de Log Centralizado (CLS) no Skype for Business Server 2015.'
-ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628613"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730230"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>ClS Logger for Skype for Business Server 2015
  
@@ -71,7 +71,7 @@ Para parar um cenário existente:
     
 4. A interface do usuário será habilitada novamente depois que o Cenário tiver parado, os detalhes da ação também serão mostrados na área Saída de Comando do PowerShell.
     
-![Início e parada do agente cls](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![Início e parada do agente cls.](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>Pesquisar logs
 
@@ -109,7 +109,7 @@ Para pesquisar logs, selecione a guia "Pesquisar Logs CLS" e clique no botão "L
 > 
 > **Ignorar logs de rede** Ignora a pesquisa de todos os logs de rede, se verificado.
     
-![Logs de pesquisa do AGENTE CLS](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![Logs de pesquisa do AGENTE CLS.](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Criar um cenário
 
@@ -124,7 +124,7 @@ Para pesquisar logs, selecione a guia "Pesquisar Logs CLS" e clique no botão "L
     
 ## <a name="modify-a-scenario"></a>Modificar um cenário
 
-![Captura de tela do agente cls, editar cenários](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![ClS Logger Screen shot, edit scenarios.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. Na guia **Editar Cenários,** localizou o cenário desejado para modificar.
     

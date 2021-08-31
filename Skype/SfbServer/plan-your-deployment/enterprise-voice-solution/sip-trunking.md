@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Saiba mais sobre tronco SIP no Skype for Business Server Enterprise Voice
-ms.openlocfilehash: a27967f322db816285db100696fa061f339e9f71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d10f14a8c3f65309c52351a0721aa042faad47b6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634195"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728230"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Tronco SIP em Skype for Business Server
 
@@ -151,7 +151,7 @@ A figura a seguir mostra a topologia de tronco SIP em Skype for Business Server.
 
 **Topologia de tronco SIP**
 
-![Topologia de Tronco SIP](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
+![Topologia de Tronco SIP.](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
 
 Conforme mostrado no diagrama, uma VPN (rede privada virtual ip) é usada para conectividade entre a rede corporativa e o provedor de serviço PSTN (rede telefônica pública comutado). O objetivo dessa rede privada é fornecer conectividade IP, aumentar a segurança e (opcionalmente) obter garantias de QoS (Qualidade de Serviço). Devido à natureza de uma VPN, você não precisa usar o TLS (Transport Layer Security) para tráfego de sinalização SIP ou o PROTOCOLO DE TRANSPORTE seguro em tempo real (SRTP) para o tráfego de mídia. As conexões entre a empresa e o provedor de serviços consistem, portanto, em conexões TCP simples para SIP e RTP (protocolo de transporte em tempo real) (sobre UDP) para mídia túnel por meio de uma VPN IP. Certifique-se de que todos os firewalls entre os roteadores VPN tenham portas abertas para permitir que os roteadores VPN se comuniquem e que os endereços IP nas bordas externas dos roteadores VPN sejam publicamente instável.
 

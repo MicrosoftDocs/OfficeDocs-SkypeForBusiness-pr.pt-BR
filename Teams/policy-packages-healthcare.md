@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização da área de saúde.
-ms.openlocfilehash: e81741e40928ec92717b686773078781b51b73be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d71945508055ddc7b6f6661d93e8918879d59d23
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608838"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731960"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Pacotes de políticas do Teams para a área de saúde
 
@@ -52,11 +52,11 @@ No momento, o Microsoft Teams inclui os seguintes pacotes de políticas.
 |Profissional de informações da área de saúde  |Operadores de informações em sua organização da área de saúde |Cria um conjunto de políticas e configurações de política que dão aos operadores de informações na sua organização da área de saúde, como equipe de TI, de informática, equipe financeira e responsáveis pela conformidade acesso total ao chat, chamadas e reuniões.|
 |Quartos dos pacientes de saúde  |Dispositivos de quarto dos pacientes|Cria um conjunto de políticas e configurações de política que se aplicam aos quartos dos pacientes em sua organização de saúde.|
 
-![Captura de tela dos pacotes de política de saúde](media/policy-packages-healthcare.png)
+![Captura de tela de pacotes de política de saúde.](media/policy-packages-healthcare.png)
 
 Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de políticas para trabalhadores clínicos da área de saúde a clínicos de sua organização, uma política chamada Healthcare_ClinicalWorker é criada para cada política do pacote.
 
-![Captura de tela das políticas no pacote de funcionários clínicos da área de saúde](media/policy-packages-healthcare-clinical-worker.png)
+![Captura de tela de políticas no pacote de trabalho da assistência médica.](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>Começar a trabalhar com pacotes de política
 
@@ -93,7 +93,7 @@ Atribua o pacote de política aos usuários. Se um usuário tiver uma política 
 
 Para atribuir um pacote de política a um ou vários usuários, na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Pacotes de política** e, em seguida, selecione **Gerenciar usuários**.  
 
-![Captura de tela de como atribuir um pacote de política no centro de administração](media/policy-packages-healthcare-assign.png)
+![Captura de tela de como atribuir um pacote de política no centro de administração.](media/policy-packages-healthcare-assign.png)
 
 Para saber mais, confira [Atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
 

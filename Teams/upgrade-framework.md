@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 327a2ed1105439e88d1ad4a4a743cd3636f3ec0b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f18f35a061334e9a7e426614574afcc6eda42df9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586453"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728470"
 ---
 # <a name="about-the-upgrade-framework"></a>Sobre a estrutura de atualização
 
@@ -33,7 +33,7 @@ Para ajudar a realizar a suposição de sua jornada de atualização, empregamos
 
 Comece reunindo os participantes certos e definindo seu plano de atualização (por exemplo, escopo, metas e linha do tempo). Com um plano em uso, confirme se seu ambiente técnico e seus usuários finais estão prontos para Teams. Em seguida, implemente sua atualização em estágios, mudando de um piloto para uma atualização em toda a organização quando estiver pronto. Depois que sua organização estiver Teams, estabeleça um plano operacional que monitore a qualidade e acelere a adoção do usuário.
 
-![Ilustração da estrutura de jornada de atualização](media/upgrade-banner-main.png "Certifique-se de que seu projeto está definido para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e a linha do tempo do projeto. Confirme a preparação técnica e do usuário. Execute seu plano de lançamento. Mantenha o impulso para maximizar os resultados.")
+![Ilustração da estrutura de jornada de atualização.](media/upgrade-banner-main.png "Certifique-se de que seu projeto está definido para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e a linha do tempo do projeto. Confirme a preparação técnica e do usuário. Execute seu plano de lançamento. Mantenha o impulso para maximizar os resultados.")
 
 Procure esse gráfico de estrutura em páginas relacionadas para identificar onde você está no processo de atualização.
 

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Saiba como atualizar os Teams para Teams são exibidos no centro de administração Microsoft Teams.
-ms.openlocfilehash: e504bde3b291deb0d38821a0551e70f1f7ac1d4d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a097cde5f8630e3a2ac8a6a932434baae2d92de6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588183"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728650"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Atualizar Teams telefones para Teams displays
 
@@ -55,11 +55,11 @@ Lembre-se de que, depois de atualizar um Teams para um Teams de exibição, a a�
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Devices**  >  **Phones**.
 2. Selecione os Teams que deseja atualizar e selecione **Atualizar**.
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Captura de tela mostrando Teams telefones selecionados para atualização para Teams displays":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Captura de tela mostrando Teams telefones selecionados para atualização para Teams são exibidos.":::
 
 3. Na caixa **Atualizar para Teams de** diálogo de exibição, selecione Agendar atualização para definir uma data e hora para a atualização ou Atualizar **agora.** 
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Captura de tela mostrando Upgrade to Teams de diálogo de exibição":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Captura de tela mostrando Upgrade to Teams caixa de diálogo de exibição.":::
 
 > [!NOTE]
 > Se você receber uma mensagem informando que seus telefones selecionados não podem ser atualizados, verifique se você seleciona telefones que suportam a atualização [e](#which-teams-phones-can-be-upgraded)tente novamente.

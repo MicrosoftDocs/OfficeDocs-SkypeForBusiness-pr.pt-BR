@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização em Microsoft Teams.
-ms.openlocfilehash: b7d6e6c5995a642c45fdc1d91b4a526495a8f1a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98c085dee7f91aebc6e34552217230384ba80b6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579645"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732520"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas em Microsoft Teams
 
@@ -53,7 +53,7 @@ Quando uma marca é @mentioned em uma conversa de canal, os membros da equipe as
 
 Como administrador, você pode controlar como as marcas são usadas em sua organização no Microsoft Teams de administração. Atualmente, você não pode usar o PowerShell para gerenciar marcas.
 
-![Captura de tela das configurações de marcação no Microsoft Teams de administração](media/manage-tags-admin-settings.png)
+![Captura de tela das configurações de marcação no Microsoft Teams de administração.](media/manage-tags-admin-settings.png)
 
 Uma equipe pode ter até 100 marcas, até 100 membros da equipe podem ser atribuídos a uma marca e até 25 marcas podem ser atribuídas a um único usuário. 
 
@@ -83,7 +83,7 @@ Você pode definir as seguintes configurações de marcas para controlar como as
 
 Se você acionou a configuração Permitir que os proprietários de equipe substituam quem pode gerenciar marcas no centro de administração Microsoft Teams, os proprietários da equipe poderão definir se os membros podem adicionar marcas no nível da equipe.  Para fazer isso, **na** guia Configurações uma equipe, vá para **Marcas** e escolha quem pode adicionar marcas.
 
-![Captura de tela da configuração de marcas no nível da equipe](media/manage-tags-team-settings.png)
+![Captura de tela da configuração de marcas no nível da equipe.](media/manage-tags-team-settings.png)
 
 ## <a name="use-tags"></a>Usar marcas
 
@@ -93,7 +93,7 @@ Veja como adicionar marcas personalizadas e como configurar a marcação por tur
 
 Para criar e atribuir marcas personalizadas, selecione **Teams** no lado esquerdo do aplicativo e encontre sua equipe na lista. Selecione **̇ ̇ ̇ Mais opções** e, em seguida, escolha Gerenciar **marcas**. Aqui, você pode criar marcas e atribuí-las a pessoas em sua equipe.
 
-![Captura de tela de como aplicar marcas no Teams cliente ](media/manage-tags-teams.png)
+![Captura de tela de como aplicar marcas no cliente Teams .](media/manage-tags-teams.png)
 
 Para excluir uma marca, selecione **̇ ̇ ̇ mais opções** ao lado da marca e selecione Excluir **marca**.
 

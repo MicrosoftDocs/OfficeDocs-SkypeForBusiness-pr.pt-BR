@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Resumo: leia este tópico para saber como implantar a conferência no Skype for Business Server.'
-ms.openlocfilehash: 85aa9b28ddcc262ae65700e0b0425ebec3dd0d12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cded58690f7ecc8481f3f273e0eba5e5ef20f03a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599536"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730030"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Implantar conferência em Skype for Business Server
 
@@ -65,7 +65,7 @@ O fluxograma de conferência discada mostra as etapas que você deve seguir, dep
 
 **Fluxograma de conferência discado**
 
-![Implantar gráfico de fluxo de conferência discado](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
+![Implantar o gráfico de fluxo de conferência discado.](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
 
 **Lista de verificação de implantação de conferência discagem**
 

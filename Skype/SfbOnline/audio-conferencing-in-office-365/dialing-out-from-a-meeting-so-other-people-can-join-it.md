@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Saiba o que você precisa e como os organizadores da reunião podem chamar outras pessoas usando Skype for Business.
-ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe8102db8306e4651de532b6e00de88ddb46247
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581975"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732380"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Discar de uma reunião Skype for Business para que outras pessoas possam participar dela
 
@@ -52,7 +52,7 @@ Para adicionar outros participantes por meio de discagem às reuniões da sua or
   
  **Etapa 2:** Insira o número de telefone completo, incluindo o código de país/região na caixa.
   
-![Número de telefone discado em Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Número de telefone discado em Skype for Business.](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>Países e regiões com suporte
 
