@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa38282f0c5dbaecfbea88deaf9a5efb88be08cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3406e14b64c0c15b2f76a84e42d22a2f726d9b3e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628293"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730870"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gerenciar controles de tecnologia de reconhecimento de voz para um Alto-falante Inteligente
 
@@ -62,11 +62,11 @@ Um Alto-falante Inteligente deve ser colocado a pelo menos 20 cm de distância d
 
    O diagrama mostra como o Alto-falante Inteligente está conectado ao dispositivo se o dispositivo incluir uma caixa de dados.
 
-   ![A configuração do Alto-falante Inteligente com o alto-falante, a caixa de energia e os dados. Uma linha vai para a porta USB do console e a outra vai para a energia. ](../media/intelligent-speakers1.png)
+   ![A configuração do Alto-falante Inteligente com o alto-falante, a caixa de energia e os dados. Uma linha vai para a porta USB do console e a outra vai para a energia.](../media/intelligent-speakers1.png)
 
    O diagrama mostra como o Alto-falante Inteligente está conectado ao dispositivo se o dispositivo não incluir uma caixa de dados.
 
-   ![A configuração do Alto-falante Inteligente com o alto-falante conectando-se diretamente ao console. ](../media/intelligent-speakers2.png)
+   ![A configuração do Alto-falante Inteligente com o alto-falante conectando-se diretamente ao console.](../media/intelligent-speakers2.png)
 
 > [!Note]
 > Os dispositivos EPOS e Yealink devem ter prefixo "EPOS" ou "Yealink" e conter "UAC2_RENDER" no nome do alto-falante e "UAC2_TEAMS" no nome do microfone. Se você não encontrar esses nomes de microfone e alto-falante no menu suspenso, reinicie o dispositivo De alto-falante inteligente.
@@ -88,7 +88,7 @@ A seguir estão as políticas necessárias para definir um Alto-falante Intelige
 
 No centro Teams de administração, de definir a **política Permitir transcrição.** Configurações estão **Desligados** por padrão.
 
-![o centro de administração com as políticas de reunião realçadas e Permitir transcrição selecionada](../media/allow-transcription1.png)
+![o centro de administração com as políticas de reunião realçadas e Permitir transcrição selecionada.](../media/allow-transcription1.png)
 
 ## <a name="frequently-asked-questions-faq"></a>Perguntas frequentes (FAQ)
 

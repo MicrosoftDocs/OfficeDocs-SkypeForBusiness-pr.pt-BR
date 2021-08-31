@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como atribuir políticas a grandes conjuntos de usuários em sua instituição educacional com base na associação ao grupo ou diretamente por meio de uma atribuição em lotes para fins de escola remota (teleescola, teleescola).
 f1keywords: ''
-ms.openlocfilehash: 29e32229462d9ac9e256c3c8ece0ab3f02312631
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8d7eed80375b87eb09cbad803e99d35578c5bbc8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619647"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731370"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Atribuir políticas a grandes conjuntos de usuários em sua escola
 
@@ -51,7 +51,7 @@ Lembre-se de que a política Global será aplicada a todos os usuários em sua e
 
 Neste tutorial, os alunos receberão a política de reunião global e atribuiremos uma política de reunião personalizada chamada EducatorMeetingPolicy a funcionários e educadores. Presumimos que você editou a política global para adaptar as configurações de reunião para alunos e criou uma política personalizada que define [a](policy-packages-edu.md) experiência de reunião para funcionários e educadores.
 
-![Captura de tela da página Políticas de reunião no Teams de administração](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![Captura de tela da página Políticas de reunião no Teams de administração.](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>Atribuir uma política a um grupo
 
@@ -89,7 +89,7 @@ Se você não conseguir implantar o SDS em seu ambiente, use este script do [Pow
 2. Selecione a **guia Atribuição de política de** grupo.
 3. Selecione **Adicionar grupo** e, em seguida, no painel Atribuir **política** ao grupo, faça o seguinte:
 
-    ![Captura de tela do painel Editar configurações, mostrando a política de reunião](media/batch-group-policy-assignment-edu-group.png)
+    ![Captura de tela do painel Editar configurações, mostrando a política de reunião.](media/batch-group-policy-assignment-edu-group.png)
     1. Na caixa **Selecionar um grupo,** pesquise e adicione o grupo de segurança que contém sua equipe e educadores.
     2. Na caixa **Selecionar classificação,** digite **1**.
     3. Na caixa **Selecionar uma política,** selecione **EducatorMeetingPolicy**.

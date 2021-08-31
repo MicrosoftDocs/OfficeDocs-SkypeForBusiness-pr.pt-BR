@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Resumo: leia este tópico para saber como planejar a alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: beb1bf01748d9ebb7336238d3ba2d3f1379e7b0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a07b9e84e390f8d012308895229eb0da369107c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607968"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731430"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente Skype for Business Server 2015
  
@@ -84,7 +84,7 @@ A Figura 1 mostra uma topologia ampliada do pool do Servidor de Chat Persistente
     
 **Pool de Servidor de Chat Persistente Estendido quando os data centers estão geo-localizados com alta largura de banda/baixa latência**
 
-![Pool Estendido de Chat Persistente com alta largura de banda/baixa latência](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+![Pool Estendido de Chat Persistente com alta largura de banda/baixa latência.](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
 A Figura 2 mostra uma topologia ampliada do pool do Servidor de Chat Persistente onde os data centers estão geo-localizados com baixa largura de banda/alta latência.
   
@@ -108,6 +108,6 @@ A Figura 2 mostra uma topologia ampliada do pool do Servidor de Chat Persistente
     
 **Pool de Servidor de Chat Persistente Estendido quando os data centers estão geo-localizados com baixa largura de banda/alta latência**
 
-![Pool Estendido de Chat Persistente com baixa largura de banda/alta latência](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+![Pool Estendido de Chat Persistente com baixa largura de banda/alta latência.](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   
 

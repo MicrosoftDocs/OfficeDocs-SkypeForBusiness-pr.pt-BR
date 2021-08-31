@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Preparar e implementar a desabilitação do TLS 1.0 e 1.1 em seus ambientes.
-ms.openlocfilehash: f10aae3e85e7bcc00aceaf7acf9f22d57e921aa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608078"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731460"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Desabilitar o TLS 1.0/1.1 no Skype for Business Server 2015
 
@@ -462,7 +462,7 @@ Como alternativa, você pode usar o Internet Explorer para testar conexões TLS 
 7. Volte para o Internet Explorer e desabilite a opção **para Usar somente o TLS 1.2.**
 8. Navegue novamente pela URL do Serviço Web Interno do pool do SfB 2015 (deve falhar ao se conectar).
 
-![Opções da Internet](../../media/internet-options.jpg)
+![Opções da Internet.](../../media/internet-options.jpg)
 
 ## <a name="advanced-deployment-scenarios"></a>Cenários de implantação avançada
 
@@ -521,14 +521,14 @@ Como alguns pré-requisitos de dependência são necessários para dar suporte a
 8. Instalar o Armazenamento de Configuração Local (Etapa 1): 
      - Abra o Assistente de Implantação, clique em Instalar ou Atualizar Skype for Business Server Sistema e clique em **Executar** na Etapa 1: Instalar o Armazenamento de Configuração Local.
      - Clique **em Próximo** na caixa de diálogo Instalar o Armazenamento de **Configuração** Local.
-     ![Caixa de diálogo Instalar o Armazenamento de Configuração Local](../../media/local-configuration-store.png)
+     ![Instalar a caixa de diálogo Armazenamento de Configuração Local.](../../media/local-configuration-store.png)
      - Revise os resultados e verifique se o Status da Tarefa foi Concluído. Revise o arquivo de log resultante clicando em **Exibir Log**.
-     ![O status da tarefa mostra como Concluído](../../media/local-configuration-task-completed.png)
+     ![O status da tarefa é como Concluído.](../../media/local-configuration-task-completed.png)
      - Clique em **Concluir**.
 9. Configurar ou remover Skype for Business Server Componentes (Etapa 2):
     - Abra o Assistente de Implantação, clique em  Instalar ou Atualizar Skype for Business Server **Sistema** e clique em Executar na Etapa 2: Configurar ou Remover Skype for Business Server Componentes
     - Clique **em Próximo** na caixa de diálogo Configurar Skype for Business Server Componentes.
-    ![a janela Configurar Skype for Business Server Componentes](../../media/set-up-skype-for-business-server-components-window.png)
+    ![a janela Configurar Skype for Business Server Componentes.](../../media/set-up-skype-for-business-server-components-window.png)
     - Revise o log usando o Log de Exibição e valide essa configuração concluída sem problemas. 
     - Clique em **Concluir**.
 10. Prossiga com a instalação e a configuração adicionais conforme necessário (você pode retomar os procedimentos normais de instalação neste ponto).

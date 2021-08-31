@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Saiba como configurar feriados em Microsoft Teams para uso com seus atendentes automáticos.
-ms.openlocfilehash: 3f914243984c9fef70b1217cce504ffd983263e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b72eec8778577454c55d9b3e2e999900fcb70143
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623223"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733200"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar feriados no Microsoft Teams
 
@@ -60,7 +60,7 @@ Para criar um feriado
 
 10. Selecione **Salvar**.
 
-    ![Captura de tela da interface do usuário de feriados com datas configuradas para três anos](media/holidays-set-up.png)
+    ![Captura de tela da interface do usuário de feriados com datas configuradas para três anos.](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>Alterar um feriado
 

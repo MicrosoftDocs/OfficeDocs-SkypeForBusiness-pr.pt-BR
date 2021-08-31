@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b47f0d9229a695b595255d26da773204e5b21a2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eaeec25c90e800fcc688dad924ecac8de687841a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608699"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733710"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Início rápido de governança no Microsoft Teams
 
@@ -37,7 +37,7 @@ As atividades a seguir ocorrerão simultaneamente e podem envolver toda ou parte
 
 Para saber mais, leia [Plan for governance in Teams](plan-teams-governance.md) and Plan for lifecycle management in [Teams](plan-teams-lifecycle.md).
 
-## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png)Decisões
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Um ícone que representa um ponto de decisão.](media/teams-adoption-decision-icon.png)Decisões
 
 Tomar as seguintes decisões (neste ponto, essas decisões se aplicam somente à Fase 2):
 
@@ -72,4 +72,4 @@ Em preparação para sua ampla implantação, você pode optar por usar rótulos
 
 Uma implementação Teams bem-sucedida continua em um ritmo ímpeto para garantir o momento, o foco e os aprendizados apropriados. Recomendamos que essa fase do seu projeto seja de 60 dias para garantir que seus primeiros adotantes concluam ciclos de negócios suficientes. Estender a experimentação por muito tempo aumenta o risco de um programa de alteração com falha; no entanto, esse tempo variará para cada organização.  
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Definir cenários de uso](teams-adoption-define-usage-scenarios.md)
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Em seguida: [Definir cenários de uso](teams-adoption-define-usage-scenarios.md)

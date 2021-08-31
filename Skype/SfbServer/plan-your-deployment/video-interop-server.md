@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Resumo: revise este tópico ao planejar a integração Skype for Business Server com dispositivos de teleconferência de terceiros.'
-ms.openlocfilehash: 0e94a7fc84d4174c3fe562355a6550a1b77d909c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0210082f4e505152833b68c182ddfcdd1ea7c2dc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607898"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731420"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planejar o Servidor de Interop de Vídeo Skype for Business Server
  
@@ -56,7 +56,7 @@ Os VTCs atualmente suportados são:
 
 O Servidor de Interop de Vídeo funciona no modo de tronco SIP, onde os VTCs continuam a se registrar com a infraestrutura da Cisco existente , por exemplo, o Cisco Call Manager (CUCM). Um tronco SIP de vídeo é definido entre o CUCM e o VIS para que as chamadas possam ser roteados entre os dois sistemas. Há suporte apenas para chamadas sobre o tronco SIP do VTC para o VIS. Assim, os VTCs podem discar para uma conferência Skype for Business (discando o número de telefone associado ao Atendente Automatizado de Chamadas), mas não podem ser arrastados e deixados para a conferência.
   
-![Diagrama do VIS no SfB](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
+![Diagrama do VIS em SfB.](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
   
 ## <a name="features"></a>Recursos
 
@@ -101,7 +101,7 @@ O VIS dá suporte a chamadas de entrada de um CUCM que são carregadas sobre um 
   
 1. **Failover do Pool VIS** Se o pool vis principal para o que o gateway de vídeo aponta estiver para baixo, a recuperação será possível se o gateway de vídeo tiver definido troncos para dois (ou mais) pools VIS. Se o gateway de vídeo determinar que ele não pode fazer chamadas para o pool vis principal, ele simplesmente encaminha as chamadas para um pool vis secundário.
     
-     ![Diagrama de failover do pool vis](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
+     ![Diagrama de failover do pool vis.](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
     Um pool vis específico pode ter troncos para vários gateways, mas normalmente um gateway específico não pode ter troncos para vários pools VIS, portanto, um truque precisa ser feito para dar suporte a esse failover: Definir 2 FDQNs no DNS que resolvem para o mesmo endereço IP de um gateway de vídeo. Represente cada FQDN como um gateway de vídeo separado no Documento de Topologia onde cada gateway de vídeo tem um tronco para um pool vis diferente e a recuperação agora é possível. (Se O TLS for usado, os vários nomes precisarão estar na SAN do certificado de gateway de vídeo.)
     
@@ -110,7 +110,7 @@ O VIS dá suporte a chamadas de entrada de um CUCM que são carregadas sobre um 
   
 2. **Failover front-end** Se um pool do VIS receber uma chamada do CUCM, mas não puder alcançar seu Registrador primário de próximo salto ou pool de Front-End, as chamadas serão roteados para um pool de Front-End de backup.
     
-     ![Diagrama de failover front-end](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
+     ![Diagrama de failover front-end.](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
   
     O VIS acompanhará o status de seu pool front-end principal e seu pool de Front-End de backup (a configuração é encontrada na configuração de backup do serviço Registrador no Documento de Topologia). Ele envia as sondagens de opções uma vez por minuto para ambos os pools e, se houver cinco falhas consecutivas, o VIS pressuina que um pool de Front-End específico está inosso. Se o pool de Front-End principal estiver marcado como baixo e houver um backup configurado disponível, o VIS enviará novas chamadas do gateway para o pool de Front-End de backup. Depois que o pool de Front-End primário voltar, o VIS retomará o uso do pool front-end principal para novas chamadas.
     

@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Saiba mais sobre as configurações de administrador no aplicativo Elogio no centro de administração Microsoft Teams local
-ms.openlocfilehash: 3f3269f812113d63c6c4abfeed9a2d00aa2354b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581225"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733410"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o Elogio no centro Microsoft Teams administrador
 
@@ -25,7 +25,7 @@ O Elogio aplicativo no Microsoft Teams ajuda os usuários a mostrar apreço aos 
 
 Os administradores podem controlar quais selos estão disponíveis para sua organização Microsoft Teams centro de administração. Na navegação à esquerda, acesse Teams **aplicativos > Gerenciar aplicativos**. Na lista de aplicativos, clique **em Elogio** e selecione **Configurações**.  A partir daqui, você pode optar por habilitar conjuntos de selos padrão e integrados e criar selos personalizados.
 
-![Captura de tela Configurações guia para o Elogio app](media/manage-praise-app-settings.png)
+![Captura de tela Configurações guia para o Elogio app.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > O Elogio de aplicativo não está disponível para nuvens do governo dos EUA.
@@ -40,7 +40,7 @@ Conjuntos integrados são conjuntos de selos projetados pela Microsoft para o El
 
 O conjunto de selos padrão foi projetado para ajudar Teams os usuários reconhecerem seus pares para ir além e acima com seu trabalho.
 
-![Visualização do conjunto de selos padrão](media/default-set-praise.png)
+![Visualização do conjunto de selos padrão.](media/default-set-praise.png)
 
 <a name="sel-edu-badges"></br></a>
 
@@ -48,7 +48,7 @@ O conjunto de selos padrão foi projetado para ajudar Teams os usuários reconhe
 
 Os educadores podem reconhecer alunos individuais para conquistas e comportamentos de aprendizagem social e afetiva (SEL) com selos que ilustram esses conceitos.
 
-![Visualização dos selos de aprendizagem social e afetiva para educação](media/sel-edu-set-praise.png)
+![Visualização dos selos de aprendizagem social e afetiva para educação.](media/sel-edu-set-praise.png)
 
 <a name="create-your-own-badges"></br></a>
 
@@ -56,7 +56,7 @@ Os educadores podem reconhecer alunos individuais para conquistas e comportament
 
 Selecione **Criar um selo personalizado.** A partir daqui, você pode projetar um selo personalizado no painel lateral. Você pode criar até 25 selos personalizados. 
 
-![Captura de tela de Criar um painel de selo personalizado](media/manage-praise-app-create-custom-badge.png)
+![Captura de tela de Criar um painel de selo personalizado.](media/manage-praise-app-create-custom-badge.png)
 
 1. Insira um nome de selo. Esse é o nome que aparecerá no selo quando os usuários enviarem elogios.
 
@@ -66,7 +66,7 @@ Selecione **Criar um selo personalizado.** A partir daqui, você pode projetar u
    > Se você for novo nos valores de hexaxa, este artigo inclui uma introdução rápida [para](#hex-colors-intro) mostrar como usá-los.
 
 3. Upload imagem de selo. O tipo de arquivo aceito é .PNG. O arquivo de imagem deve ter menos de 40 KB com dimensões máximas de 216 X 216 pixels.
-![Selo com campos de plano de fundo, texto e imagem rotulados](media/praise-app-badge-fields.png)
+![Selo com campos de plano de fundo, texto e imagem rotulados.](media/praise-app-badge-fields.png)
 
 4. Localize seu nome de selo: em **Nomes de selo localizados,** selecione **Adicionar**. Selecione a localidade desejada na listada. Em seguida, insira o nome do selo no idioma designado.
 
@@ -93,12 +93,12 @@ Abaixo está uma lista de cores de exemplo para começar:
 
 |Cor  |Valor de hexaxa|
 |-------|---------|
-|![cor hexaxa #FF6666](media/hexColor1.png)|  #FF6666   |
-|![cores hexaxas #7FFFD4](media/hexColor2.png)|  #7FFFD4   |
-|![cores hexaxas #FF75F0](media/hexColor3.png)|  #FF75F0   |
-|![cor hexaxa #00BFFF](media/hexColor4.png)|  #00BFFF   |
-|![cores hexaxas #800080](media/hexColor5.png)|  #800080   |
-|![cores hexaxas #000000](media/hexColor6.png)|  #000000   |
+|![cor hexaxa #FF6666.](media/hexColor1.png)|  #FF6666   |
+|![cor hexaxa #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
+|![cor hexaxa #FF75F0.](media/hexColor3.png)|  #FF75F0   |
+|![cor hexaxa #00BFFF.](media/hexColor4.png)|  #00BFFF   |
+|![cor hexaxa #800080.](media/hexColor5.png)|  #800080   |
+|![cor hexaxa #000000.](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
@@ -112,7 +112,7 @@ Abaixo está uma lista de cores de exemplo para começar:
 
 **Se a imagem do selo não for retangular, faça a imagem transparente.** Você precisará fazer isso antes de carregar o arquivo de imagem para Elogio.
 
-![Left: badge with non-transparent image, right: badge with transparent image](media/praise-app-best-practices.png)
+![Esquerda: selo com imagem não transparente, à direita: selo com imagem transparente.](media/praise-app-best-practices.png)
 
 ## <a name="badge-set-assets"></a>Ativos de conjunto de selos
 

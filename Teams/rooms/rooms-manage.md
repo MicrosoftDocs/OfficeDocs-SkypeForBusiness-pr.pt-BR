@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre como desenvolver e executar operações e manutenção contínuas para garantir que seus sistemas Salas do Microsoft Teams estão disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbe3a22b86fa9f4b0773e1a7397bb206deb093e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636635"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733580"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gerenciar Salas do Microsoft Teams
 
@@ -36,7 +36,7 @@ Com Microsoft Teams Admin Center, você pode:
 
 Para gerenciar Salas do Teams dispositivos, abra o centro de administração [Microsoft Teams e](https://admin.teams.microsoft.com) vá para   >  **Dispositivos Salas do Teams**.
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Salas do Teams de resumo no Teams de administração":::
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Salas do Teams de resumo no Teams de administração.":::
 
 > [!IMPORTANT]
 > Para gerenciar dispositivos usando o Teams de administração, você precisa ter as funções Administrador Global, Administrador Teams administrador ou Teams de Dispositivo.
@@ -147,7 +147,7 @@ Para exibir informações detalhadas sobre um dispositivo, selecione seu nome na
 
 A **guia Atividade** Teams detalhes do dispositivo room mostra informações detalhadas e de alto nível sobre todas as reuniões das que o dispositivo participou ao longo do tempo. Na guia **Atividade,** você pode ver quando uma reunião foi realizada, quantos participantes participaram da reunião e a qualidade do áudio durante a reunião.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Lista de resumos de atividades do dispositivo de sala":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Lista de resumos de atividades do dispositivo de sala.":::
 
 Para ver as informações detalhadas sobre uma reunião específica, selecione a data e a hora da reunião de que você deseja obter mais informações. Se uma reunião tiver apenas dois participantes, você verá a página de detalhes do participante, caso contrário, você verá uma página de resumo do participante.
 
@@ -155,10 +155,10 @@ Para ver as informações detalhadas sobre uma reunião específica, selecione a
 
 A página de resumo do participante mostra todos os participantes que participaram da reunião. Você pode ver quando cada participante ingressou na reunião, seu nome, qualidade de áudio e quais recursos foram usados durante a sessão. Para exibir os detalhes da sessão de um participante, selecione a hora de início da sessão para esse participante.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Detalhes da conferência do dispositivo de sala":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Detalhes da conferência do dispositivo de sala.":::
 
 ##### <a name="participant-details"></a>Detalhes do participante
 
 A página de detalhes do participante mostra informações de diagnóstico de ponta a ponta para a sessão desse participante. Conforme mostrado no gráfico a seguir,  as informações de **Dispositivo,** Sistema e Conectividade são fornecidas para o participante e para o Salas do Teams dispositivo. **Informações** de diagnóstico de rede entre o participante e o Salas do Teams dispositivo também são fornecidas. Selecione o ícone do contexto sobre o qual você deseja obter mais informações. Para obter informações de diagnóstico adicionais, selecione a **guia** Avançado.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Detalhes da chamada de dispositivo de sala":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Detalhes da chamada do dispositivo de sala.":::

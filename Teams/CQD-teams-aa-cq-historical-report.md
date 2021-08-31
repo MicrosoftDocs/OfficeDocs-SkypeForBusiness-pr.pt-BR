@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI para exibir Atendedor Automático dados históricos da Fila de Chamada.
-ms.openlocfilehash: 57cd28fef4a1e24ecc4f29344a6ec91af5e2dbec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73ffd8e993a3dacd0412123d49e19c704df0cb8c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593285"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731380"
 ---
 # <a name="what-are-the-requirements"></a>Quais são os requisitos? 
 Você precisa ter Power BI Desktop instalado. Você pode instalá-lo no [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
@@ -48,7 +48,7 @@ Execute estas etapas:
 
 - Você será solicitado a selecionar a região do pipeline de dados CQD. Selecione a região onde seu locatário está localizado.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração.":::
 
  - Você pode ver a região usando o cmdlet Skype for Business PS Online (Get-CsTenant). Saída serviceInstance. 
  A região será exibida após o /like neste exemplo: 
@@ -59,11 +59,11 @@ Execute estas etapas:
  
  - Para ver seus próprios dados, clique em **Atualizar** na guia Home em Consultas Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração.":::
 
 - Em seguida, você será solicitado a entrar. Selecione **Conta da Organização** e, em seguida, selecione **Entrar**.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração.":::
 
 - Selecione **Conexão** e assista à atualização de dados.
 
@@ -83,11 +83,11 @@ As etapas a seguir pressuem que você já concluiu as etapas de instalação.
 Execute estas etapas:
 - Selecione **Exibir guia** na faixa de opções.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração.":::
 
 - Selecione o esquema de cores na listada.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração.":::
 
 
 ## <a name="cqd-fields-description"></a>Descrição dos campos CQD

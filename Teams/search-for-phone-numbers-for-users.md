@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Veja como pesquisar números de telefone que você pode atribuir aos seus usuários, por país ou região e cidade, e especifique a quantidade de números necessários.
-ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31815ff2877cc487f090600560fe9203c840fe58
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602106"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733560"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Pesquisar números de telefone para usuários
 
@@ -40,7 +40,7 @@ Se você precisar de ajuda para obter números de telefone, consulte [Gerenciar 
 
 **Para pesquisar números de telefone para seus usuários**
 
-![Um ícone mostrando o logotipo Teams ](media/teams-logo-30x30.png) **usando o Microsoft Teams de administração**
+![Um ícone mostrando o logotipo Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
   
 1. Vá para o Microsoft Teams **de administração**.
 

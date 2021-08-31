@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar o assistente de política Teams para Educação para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
-ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604590"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733860"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use o Assistente Teams para Educação política para aplicar facilmente políticas para um ambiente de aprendizado seguro
 
@@ -36,7 +36,7 @@ Para manter um ambiente de aprendizado seguro e focado, é importante definir po
 
 As políticas devem ser ajustadas para alunos e educadores manterem a experiência de aprendizado segura. As políticas para alunos precisam ser mais restritivas para reduzir o risco de receber níveis inadequados de acesso. Educadores e funcionários precisam de um conjunto separado de políticas que podem ser mais permissivas para permitir que eles sejam bem-sucedidos. Por exemplo, permitir que os educadores agendem reuniões e restrinjam os alunos a fazer isso.
 
-:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de tela do assistente":::
+:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de tela do assistente.":::
 
 Este artigo explica como executar o assistente.
 
@@ -71,24 +71,24 @@ Siga estas etapas para executar o assistente.
 
 1. Se você for novo no Teams, o assistente será iniciado automaticamente. Caso contrário, você pode iniciar o assistente a qualquer momento a partir do painel. Na navegação à esquerda do centro de administração Microsoft Teams, vá  para **Painel** e, em seguida, na configuração de política fácil para um painel de ambiente de aprendizagem seguro, selecione **Configuração rápida**.
 
-    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de tela do assistente no painel":::
+    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de tela do assistente no painel.":::
 
 2. Selecione seu tipo de instituição educacional (**Ensino Fundamental** ou Secundário ou Superior **)** e selecione **Próximo**.
 
-    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de tela da página no assistente para selecionar tipo de instituição":::
+    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de tela da página no assistente para selecionar tipo de instituição.":::
 
 3. Pesquise e selecione um grupo que contém seus educadores e funcionários e selecione **Próximo**. Se você ainda não tiver grupos definidos para seus [](/microsoft-365/admin/create-groups/create-groups)educadores e funcionários, crie um grupo e execute o assistente de novo. <br/><br/>Atualmente, você só pode selecionar um grupo. Educadores e funcionários no grupo selecionado receberão um [conjunto de políticas](#policies-applied-by-the-wizard) personalizadas adaptadas às suas necessidades. Lembre-se de que esse conjunto de políticas é separado das políticas aplicadas aos alunos.
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Captura de tela do assistente de página para selecionar educador e grupo de funcionários":::
+    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Captura de tela do assistente de página para selecionar educador e grupo de funcionários.":::
 
 4. Revise suas seleções.
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Captura de tela do assistente de página para revisar seleções":::
+    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Captura de tela do assistente de página para revisar seleções.":::
 
 5. Selecione **Aplicar** para aplicar suas alterações. Isso pode levar alguns minutos para ser concluído.<br/><br/>As definições de política Global (padrão em toda a organização) são imediatamente aplicadas aos alunos. Para seus educadores e funcionários, pode levar algumas horas para que as políticas personalizadas sejam atribuídas a cada membro do grupo selecionado, dependendo do tamanho do grupo. Isso acontece em segundo plano, depois que você concluir com êxito esta etapa.
 6. Você está a caminho, mas ainda não terminou! Há mais algumas coisas a considerar. Em seguida, confira as etapas na seção [O que fazer após a execução da](#what-to-do-after-running-the-wizard) seção assistente deste artigo.
 
-    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Captura de tela do assistente de página no para as próximas etapas":::
+    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Captura de tela do assistente de página no para as próximas etapas.":::
 
 ## <a name="what-to-do-after-running-the-wizard"></a>O que fazer depois de executar o assistente
 
@@ -235,7 +235,7 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |  |       |Apagar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Bate-papo         |Desabilitado         |Habilitado|
+|  |       |Chat         |Desabilitado         |Habilitado|
 |  |       |Usar Giphys em conversas         |Desabilitado         |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
 |  |       |Usar Memes em conversas         |Habilitado         |Habilitado|
@@ -305,7 +305,7 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 |  |       |Apagar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Bate-papo         |Habilitado         |Habilitado
+|  |       |Chat         |Habilitado         |Habilitado
 |  |       |Usar Giphys em conversas         |Habilitado        |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
 |  |       |Usar Memes em conversas         |Habilitado         |Habilitado|

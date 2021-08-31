@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Skype for Business Server fornece gerenciamento básico de sessão por meio do suporte ao roteamento entre confianças. '
-ms.openlocfilehash: 67e22f2727c9ef5f741b71c781084ab8fc2cea27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e8ed3ab7b72474614011e4b9f7aaf49ffd5160b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630505"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730906"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>Skype for Business Server: roteamento entre troncos
 
@@ -25,9 +25,9 @@ Skype for Business Server fornece gerenciamento básico de sessão por meio do s
 
 A figura a seguir ilustra Skype for Business Server a interconectividade entre um gateway PSTN e um IP-PBX.
 
-![Interconectividade entre um gateway PSTN e um IP-PBX](../../media/pstn-gateway-ip-pbx.jpg)
+![Interconectividade entre um gateway PSTN e um IP-PBX.](../../media/pstn-gateway-ip-pbx.jpg)
 
 A próxima figura ilustra Skype for Business Server conectar dois sistemas IP-PBX.
 
-![Skype for Business Server conectar dois sistemas IP-PGX](../../media/two-ip-pbx-systems.jpg)
+![Skype for Business Server conectar dois sistemas IP-PGX.](../../media/two-ip-pbx-systems.jpg)
 

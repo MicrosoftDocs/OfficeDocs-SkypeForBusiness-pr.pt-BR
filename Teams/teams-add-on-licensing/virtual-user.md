@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre como atribuir uma licença de usuário Sistema de Telefonia-Virtual ou uma licença de usuário Sistema de Telefonia paga a contas de recursos em sua organização.
-ms.openlocfilehash: 0b45bc0c44ae8d3719636b85409c669dcadf07db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9ffe0e5f489aebb2aff75988dbbe557e88c845d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627079"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734190"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Sistema de Telefonia – Licença do Usuário Virtual
 
@@ -34,7 +34,7 @@ As organizações Sistema de Telefonia usuários licenciados podem atribuir uma 
 > [!TIP]
 > Nenhuma licença é necessária para contas de recursos que serão usadas com atendentes automáticos aninhados ou filas de chamadas que não tenham um número de telefone atribuído. Consulte o diagrama a seguir para fazer referência: 
 
-![Licenças de usuário virtual](../media/resource-account.png)
+![Licenças de usuário virtual.](../media/resource-account.png)
 
 ## <a name="virtual-user-license-allocation"></a>Alocação de licença de usuário virtual
 

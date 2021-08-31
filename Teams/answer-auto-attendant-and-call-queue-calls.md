@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580285"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733360"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 
@@ -42,7 +42,7 @@ Os usuários poderão diferenciar chamadas de entrada de um atendedores automát
 
 A ilustração a seguir mostra como uma chamada de entrada de um atendimento automático ou fila de chamadas aparecerá para um usuário.
 
-![Captura de tela de uma notificação de chamada de entrada](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Captura de tela de uma notificação de chamada de entrada.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Depois que um atendedo automático ou uma chamada de fila de chamada é atendido, o usuário pode processar a chamada como qualquer outra chamada &#x2014; ele pode adicionar ou conferência em outro usuário ou transferir a chamada para outra parte. Além disso, as chamadas de atendimento automático serão encaminhadas com base na configuração do usuário.
 

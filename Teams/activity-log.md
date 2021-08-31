@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5d1e593159d5dcc93e75a618224eaacdb7becf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 58df214ec15153abcee4275f42c6ae6208b5d4b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610398"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731240"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Exibir suas atribuições de política no log de atividades
 
 Quando você atribui políticas aos usuários no centro de administração Microsoft Teams, você pode exibir o status dessas atribuições de política no log de atividades. O log de atividades mostra atribuições de política para lotes de mais de 20 usuários por meio do Microsoft Teams de administração dos últimos 30 dias. Lembre-se de que o log de atividades não mostra atribuições de pacote de política, atribuições de política para lotes de menos de 20 usuários por meio do centro de administração do Microsoft Teams ou atribuições de política por meio do PowerShell.
 
-![Captura de tela da página de log atividade](media/activity-log.png)
+![Captura de tela da página de log atividade.](media/activity-log.png)
 
 ## <a name="view-your-policy-assignment-activities-in-the-activity-log"></a>Exibir suas atividades de atribuição de política no log de atividades
 
@@ -39,7 +39,7 @@ Para exibir suas atribuições de política no log de atividades:
 2. Você pode exibir todas as atribuições de política ou filtrar a lista por status para mostrar apenas as atribuições não iniciadas **,** em andamento **ou** **concluídas.** Você verá as seguintes informações sobre cada atribuição:
     - **Nome**: o nome da atribuição de política. Clique no link para exibir mais detalhes. Isso inclui o número de usuários aos que a política foi atribuída e o número de atribuições concluídas, em andamento e não iniciadas. Você também verá a lista de usuários no lote e o status e o resultado para cada usuário. Veja um exemplo:
 
-        ![Captura de tela do](media/activity-log-policy-assignment-detail.png)
+        ![Captura de tela do.](media/activity-log-policy-assignment-detail.png)
 
     - **Enviado**: Data e hora em que a atribuição de política foi enviada.
     - **Tempo de conclusão**: Data e hora em que a atribuição de política foi concluída.

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este artigo para saber como usar dispositivos analógicos com Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: 93ce20366cfb29d5719a94af0842285d299e50e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 083c5dd5b577e319a9e5308a4ec3630614254628
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619477"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733490"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Como usar dispositivos analógicos com Sistema de Telefonia Roteamento Direto
 
@@ -32,7 +32,7 @@ Quando um usuário faz uma chamada de um dispositivo analógico, a sinalização
 No diagrama a seguir, O Roteamento Direto é configurado para que qualquer Teams chame para e a partir dos números entre +1425 4XX XX e +1425 5XX XX XX deve tomar a rota vermelha (linha pontilhada), e qualquer chamada PSTN de e para números entre +1425 4XX XX e qualquer outro número, exceto o intervalo de números +1425 5XX XX, deve tomar a rota azul (linha sólida). 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama mostrando a configuração de Roteamento Direto](media/direct-routing-analog-device.png)
+> ![Diagrama mostrando a configuração de Roteamento Direto.](media/direct-routing-analog-device.png)
 
 ## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>Exemplo: como configurar o uso de dispositivos analógicos com Roteamento Direto
 

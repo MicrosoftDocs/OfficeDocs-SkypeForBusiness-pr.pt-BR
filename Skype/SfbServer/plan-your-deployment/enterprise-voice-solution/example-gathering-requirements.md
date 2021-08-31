@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Fornece um exemplo detalhado de planejamento para o controle de admissão de chamada no Skype for Business Server Enterprise Voice, incluindo a coleta de informações sobre sites, regiões e largura de banda da sua rede.
-ms.openlocfilehash: 88af4148bbdd4063f3897d246a7c56795928ad01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 180e62ca2784186c4cd9e646548183ddbcfeac30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590986"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731450"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemplo: reunir requisitos para controle de admissão de chamada Skype for Business Server
 
@@ -57,7 +57,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
    **Um exemplo de rede de empresa dividida em três regiões de rede**
 
-     ![Exemplo de topologia de rede com 3 regiões de rede](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
+     ![Exemplo de topologia de rede com 3 regiões de rede.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
     > Uma rede MPLS (Multiprotocol Label Switching) deve ser representada como uma região de rede na qual cada local geográfico tem um site de rede correspondente. Para obter detalhes, consulte [Componentes e topologias para controle de](components-and-topologies.md)admissão de chamada em Skype for Business . 
@@ -109,7 +109,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
    **Região de rede de CAC América do Norte com três sites de rede sem restrição de largura de banda (Chicago, Nova York e Detroit) e três sites de rede com restrição de largura de banda de WAN (Portland, Reno e Albuquerque)**
 
-     ![Exemplo de sites de rede restritos pela largura de banda wan](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![Exemplo de sites de rede restritos pela largura de banda WAN.](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. Para cada link de WAN com restrição de largura de banda, determine o seguinte:
 
@@ -187,7 +187,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
    **Links de região de rede com limites de largura de banda associados**
 
-     ![Exemplo de limitações entre 3 regiões](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
+     ![Exemplo de limitações entre 3 regiões.](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
 
    **Informações de largura de banda de link de região (largura de banda em kbps)**
 
@@ -225,7 +225,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
    **Região da rede CAC América do Norte mostrando as capacidades de largura de banda e limites de largura de banda para o link entre sites entre Reno e Albuquerque**
 
-     ![Exemplo de sites de rede restritos por largura de banda wan](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![Exemplo de sites de rede restritos por largura de banda wan.](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **Informações de largura de banda para link entre sites entre dois sites de rede (largura de banda em kbps)**
 

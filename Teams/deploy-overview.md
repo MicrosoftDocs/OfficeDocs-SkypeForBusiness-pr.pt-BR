@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596325"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730890"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Visão geral da implantação do Microsoft Teams
 
@@ -32,7 +32,7 @@ Olá! Obrigado por escolher o Microsoft Teams. Seja você um escritório de advo
 
 Como o Teams dá suporte a uma grande variedade de tipos de organizações e pontos de partida, há várias opções de configuração. Para ajudá-lo a encontrar as informações necessárias, dividimos alguns artigos em dois públicos-alvos: **Pequenas empresas** (menos de 50 usuários) e **Médias/grandes empresas** (mais de 50 usuários). Ao ler um artigo, escolha a guia do público-alvo que melhor corresponde à sua organização. Veja a aparência das guias:
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="Exemplo mostrando guias para público-alvo de pequenas e grandes que aparecem em alguns artigos":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="Exemplo que mostra guias de pequeno e grande público que aparecem em alguns artigos.":::
 
 Veja a seguir uma lista das seções que você pode escolher na seção **Iniciar** e uma breve descrição de cada uma.
 

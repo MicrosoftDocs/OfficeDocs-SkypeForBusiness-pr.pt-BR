@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: O painel Relatórios mostra a visão geral da atividade nos produtos Microsoft 365 ou Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de uso do dispositivo Skype for Business para ver os dispositivos, incluindo sistemas operacionais baseados em Windows e dispositivos móveis, que têm o aplicativo Skype for Business instalado e o estão usando para mensagens de IM e reuniões. Confira Relatórios de Atividades no centro de administração para saber mais.
-ms.openlocfilehash: 73f0558a295e6a11988331c48255a102dcc9d6eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca77c8728d691acb8c7e89824906f9fdd880c57f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612820"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730520"
 ---
 # <a name="device-usage-report"></a>Relatório de uso de dispositivos
 
@@ -46,7 +46,7 @@ Este relatório, juntamente com os outros relatórios Skype for Business, fornec
     
 2. Na página **Uso,** clique **Skype for Business uso do dispositivo** na lista Selecionar um **relatório** à esquerda. Ou, clique no **widget de Skype for Business**  atividade e clique Skype for Business uso do dispositivo na lista de Skype for Business **atividade.**
     
-     ![Skype for Business de relatório de uso do dispositivo](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
+     ![Skype for Business widget de relatório de uso do dispositivo.](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
     Dependendo da assinatura Microsoft 365 ou Office 365 você tem, talvez você não veja todos os produtos e relatórios de atividade mostrados aqui.
     
@@ -54,31 +54,31 @@ Este relatório, juntamente com os outros relatórios Skype for Business, fornec
 
 Você pode obter uma exibição nos dispositivos que estão usando o aplicativo Skype for Business olhando para os gráficos **Usuário** **e Distribuição.**
   
-![Skype para o relatório de uso do dispositivo de negócios](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
+![Skype for Business relatório de uso do dispositivo.](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>O **Skype for Business de** uso do dispositivo pode ser exibido para tendências nos últimos 7, 30, 90 ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (veja o número 7) mostrará dados por 30 dias, até a data (consulte o número 2) para quando o relatório foi gerado.
+![Número 1.](../images/sfbcallout1.png)<br/>O **Skype for Business de** uso do dispositivo pode ser exibido para tendências nos últimos 7, 30, 90 ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (veja o número 7) mostrará dados por 30 dias, até a data (consulte o número 2) para quando o relatório foi gerado.
 
 > [!NOTE]
 > Se você clicar nos detalhes de um dia específico, a tabela mostrará apenas os dados dos 30 dias até a data em que o relatório foi gerado.
     
 ***
-![Número 2](../images/sfbcallout2.png)<br/>
+![Número 2.](../images/sfbcallout2.png)<br/>
 Cada relatório tem uma data de geração. Os relatórios geralmente refletem uma latência de 24 a 48 horas do tempo de atividade. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>Use os dados do  gráfico interativo no gráfico Usuários para entender as tendências de uso e ver o número de usuários conectados usando o aplicativo Skype for Business que são usados em sua organização. Ele mostrará o número total de usuários e tipos de **Windows,** **Windows Phone,** **telefone Android,** **iPhone** e iPad que têm o aplicativo Skype for Business instalado e estão sendo usados em toda **a** sua organização.
+![Número 3.](../images/sfbcallout3.png)<br/>Use os dados do  gráfico interativo no gráfico Usuários para entender as tendências de uso e ver o número de usuários conectados usando o aplicativo Skype for Business que são usados em sua organização. Ele mostrará o número total de usuários e tipos de **Windows,** **Windows Phone,** **telefone Android,** **iPhone** e iPad que têm o aplicativo Skype for Business instalado e estão sendo usados em toda **a** sua organização.
 ***
-![Número 4](../images/sfbcallout4.png)<br/>Use os dados do gráfico interativo no gráfico **da** barra de distribuição para entender o uso para ver o número de usuários que usam dispositivos exclusivos em sua organização. Ele mostrará o número total de usuários Windows,  **Windows Phone,** **android,** **iPhone**  e iPad com um dispositivo em uso. 
+![Número 4.](../images/sfbcallout4.png)<br/>Use os dados do gráfico interativo no gráfico **da** barra de distribuição para entender o uso para ver o número de usuários que usam dispositivos exclusivos em sua organização. Ele mostrará o número total de usuários Windows,  **Windows Phone,** **android,** **iPhone**  e iPad com um dispositivo em uso. 
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico **Usuários,** clique ou toque em Windows **,** **Windows Phone,** **telefone Android,** **iPhone** ou **iPad** para ver apenas as informações relacionadas a cada uma delas. Essa seleção não altera as informações contidas na tabela de grade. 
+![Número 5.](../images/sfbcallout5.png)<br/>Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico **Usuários,** clique ou toque em Windows **,** **Windows Phone,** **telefone Android,** **iPhone** ou **iPad** para ver apenas as informações relacionadas a cada uma delas. Essa seleção não altera as informações contidas na tabela de grade. 
 ***
-![Número 6](../images/sfbcallout6.png)<br/>Cada gráfico tem um eixo "X" (horizontal) e um "Y" (vertical).
+![Número 6.](../images/sfbcallout6.png)<br/>Cada gráfico tem um eixo "X" (horizontal) e um "Y" (vertical).
 *    No gráfico **Usuários,** o eixo Y é o número total de usuários conectados a um dispositivo que tem o aplicativo Skype for Business instalado.
 *    No gráfico **de atividades** de distribuição, o eixo Y é o número de usuários que estão conectados a um determinado tipo de dispositivo com o aplicativo Skype for Business instalado. 
 
 O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse relatório específico.
 ***
-![Número 7](../images/sfbcallout7.png)<br/>A tabela mostra uma divisão de todas as atividades de conferência por usuário. Ela mostra todos os usuários que têm o Skype for Business atribuído a eles e suas atividades de conferência. Você pode adicionar mais colunas à tabela.
+![Número 7.](../images/sfbcallout7.png)<br/>A tabela mostra uma divisão de todas as atividades de conferência por usuário. Ela mostra todos os usuários que têm o Skype for Business atribuído a eles e suas atividades de conferência. Você pode adicionar mais colunas à tabela.
 *    **Nome de usuário** é o nome do usuário. 
 *    **Data da última atividade (UTC)** é a última vez que o usuário se envolveu em uma sessão entre pares, organizou uma conferência ou participou de uma.
 *    **Windows** é selecionado se o usuário tiver o aplicativo cliente Skype for Business instalado em um sistema operacional baseado em Windows e estiver usando-o. 
@@ -89,9 +89,9 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 
 Se as políticas da sua organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar a configuração de privacidade para todos esses relatórios. Confira a seção **Como ocultar detalhes do nível do usuário?** na seção Relatórios de Atividades no centro de [administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
-![Número 8](../images/sfbcallout8.png)<br/>Clique ou toque no **ícone Colunas** em qualquer uma das colunas para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+![Número 8.](../images/sfbcallout8.png)<br/>Clique ou toque no **ícone Colunas** em qualquer uma das colunas para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
-![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Skype for Business Botão Exportar Relatórios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar. 
+![Número 9.](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Skype for Business Botão Exportar Relatórios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar. 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros Skype for Business relatórios?
 

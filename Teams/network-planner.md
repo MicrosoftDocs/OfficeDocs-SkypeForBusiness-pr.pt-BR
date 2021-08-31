@@ -22,18 +22,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08884e7a8cf4aaebf7f2063cec0e80fcf5619ced
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594605"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731310"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Use o planejador de rede para Microsoft Teams
 
 O Planejador de Rede é uma nova ferramenta que está disponível no Teams de administração. Ele pode ser encontrado indo para **Planning**  >  **Network planner**. Em apenas algumas etapas, o Planejador de Rede pode ajudá-lo a determinar e organizar os requisitos de rede para conectar Microsoft Teams usuários em sua organização. Quando você fornece detalhes de sua rede e uso do Teams, o Planejador de Rede calcula seus requisitos de rede para implantar o Teams e o cloud voice nos locais físicos da sua organização.
 
-![Captura de tela do planejador de rede](media/network-planner.png)
+![Captura de tela do planejador de rede.](media/network-planner.png)
 
 O planejador de rede permite que você:
 

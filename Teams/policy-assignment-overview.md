@@ -18,12 +18,12 @@ description: Saiba as diferentes maneiras de atribuir políticas e pacotes de po
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb85ae05925a44db75ed63ada899c6fca92cbceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e17b468d2c3336dd6b34d0574b7a7c4e7c069186
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621983"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731050"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Atribuir políticas em Teams – iniciando
 
@@ -43,17 +43,17 @@ Um usuário tem uma política efetiva para cada tipo de política. É possível,
 
 Se um usuário for atribuído diretamente a uma política (individualmente ou por meio de uma atribuição em lotes), essa política tem precedência. No exemplo visual a seguir, a política efetiva do usuário é a política de reunião do Quadrado do Lincoln, que é atribuída diretamente ao usuário.
 
-![Diagrama mostrando como uma política atribuída diretamente tem precedência](media/assign-policies-example-directly-assigned.png)
+![Diagrama mostrando como uma política atribuída diretamente tem precedência.](media/assign-policies-example-directly-assigned.png)
 
 Se um usuário não receber diretamente uma política de um determinado tipo, a política atribuída a um grupo do qual o usuário é membro tem precedência. Se um usuário for membro de vários grupos, a política que tiver a maior[(](assign-policies-users-and-groups.md#group-assignment-ranking)classificação de atribuição de grupo ) para o tipo de política determinado terá precedência.
 
 Neste exemplo visual, a política efetiva do usuário é a política Teams e HD do Exec, que tem a classificação de atribuição mais alta em relação a outros grupos dos quais o usuário é membro e que também recebe uma política do mesmo tipo de política.  
 
-![Diagrama mostrando como uma política herdada do grupo tem precedência](media/assign-policies-example-group.png)
+![Diagrama mostrando como uma política herdada do grupo tem precedência.](media/assign-policies-example-group.png)
 
 Se um usuário não recebe uma política diretamente ou não é membro de nenhum grupo atribuído a uma política, o usuário obtém a política global (padrão em toda a organização) para esse tipo de política. Veja um exemplo visual.
 
-![Diagrama mostrando como uma política global tem precedência](media/assign-policies-example-global.png)
+![Diagrama mostrando como uma política global tem precedência.](media/assign-policies-example-global.png)
 
 Para saber mais, confira ([Regras de precedência](assign-policies-users-and-groups.md#precedence-rules)).
 
@@ -82,7 +82,7 @@ Siga estas etapas para definir as políticas globais (padrão em toda a organiza
 2. Selecione a **política Global (padrão em toda** a organização) para exibir as configurações atuais.
 3. Atualize a política conforme necessário e selecione **Aplicar**.
 
-![Atualizar política global no Teams de administração](media/assign-globalpolicy.png)
+![Atualize a política global Teams centro de administração.](media/assign-globalpolicy.png)
 
 ### <a name="using-powershell"></a>Usando o Windows PowerShell
 
@@ -122,7 +122,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 Quando você atribui políticas aos usuários no centro de administração Microsoft Teams, você pode exibir o status dessas atribuições de política no log de atividades. O log de atividades mostra atribuições de política para lotes de mais de 20 usuários por meio do Microsoft Teams de administração dos últimos 30 dias. Lembre-se de que o log de atividades não mostra atribuições de pacote de política, atribuições de política para lotes de menos de 20 usuários por meio do centro de administração do Microsoft Teams ou atribuições de política por meio do PowerShell.
 
-![Captura de tela da página de log atividade](media/activity-log.png)
+![Captura de tela da página de log atividade.](media/activity-log.png)
 
 ## <a name="view-your-policy-assignment-activities-in-the-activity-log"></a>Exibir suas atividades de atribuição de política no log de atividades
 
@@ -132,7 +132,7 @@ Para exibir suas atribuições de política no log de atividades:
 2. Você pode exibir todas as atribuições de política ou filtrar a lista por status para mostrar apenas as atribuições não iniciadas **,** em andamento **ou** **concluídas.** Você verá as seguintes informações sobre cada atribuição:
     - **Nome**: o nome da atribuição de política. Clique no link para exibir mais detalhes. Isso inclui o número de usuários aos que a política foi atribuída e o número de atribuições concluídas, em andamento e não iniciadas. Você também verá a lista de usuários no lote e o status e o resultado para cada usuário. Veja um exemplo:
 
-        ![Captura de tela do](media/activity-log-policy-assignment-detail.png)
+        ![Captura de tela do.](media/activity-log-policy-assignment-detail.png)
 
     - **Enviado**: Data e hora em que a atribuição de política foi enviada.
     - **Tempo de conclusão**: Data e hora em que a atribuição de política foi concluída.

@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c44d988bdcfbd08f462a99c76b4095bb01ac60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca1be1e71578f9ef43e785af5a3e3fd9b047e6ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619337"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733910"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Estratégias de atualização para administradores de IT
 
-![Estágios da jornada de atualização, com ênfase no estágio implantação e implementação](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")
+![Estágios da jornada de atualização, com ênfase no estágio implantação e implementação.](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")
 
 Este artigo é para administradores de IT que querem implementar sua atualização para Teams de Skype for Business.
 
@@ -93,7 +93,7 @@ Observações
 
 O diagrama a seguir mostra as fases conceituais da atualização de recursos selecionados para uma organização sem uso anterior de Teams. A altura das barras representa o número de usuários. Durante qualquer fase da atualização, todos os usuários podem se comunicar uns com os outros.  Skype for Business se comunicam com usuários do TeamsOnly usando o Interop e vice-versa. Os usuários no modo Ilhas devem ter certeza de executar ambos os clientes.
 
-![Diagrama mostrando a atualização de recursos selecionados sem uso prévio de Teams](media/teams-upgrade-1.png)
+![Diagrama mostrando a atualização de recursos selecionados sem uso prévio de Teams.](media/teams-upgrade-1.png)
 
 
 ## <a name="a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>Uma atualização de recursos selecionados para uma organização que já está usando Teams no modo Ilhas
@@ -137,7 +137,7 @@ Se alguns usuários em sua organização estão usando ativamente Teams no modo 
 O diagrama a seguir mostra as fases conceituais de uma transição de recursos selecionados na qual há usuários ativos das Ilhas no início. A altura das barras representa o número de usuários. Durante qualquer fase da atualização, todos os usuários podem se comunicar uns com os outros.  Skype for Business os usuários se comunicam com usuários do TeamsOnly usando a interop e vice-versa. 
 
 
-![Diagrama mostrando a atualização de recursos selecionados com usuários ativos no modo Ilhas](media/teams-upgrade-2.png)
+![Diagrama mostrando a atualização de recursos selecionados com usuários ativos no modo Ilhas.](media/teams-upgrade-2.png)
 
    
 

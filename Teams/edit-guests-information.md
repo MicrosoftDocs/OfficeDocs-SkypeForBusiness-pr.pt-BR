@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: da5e5e5a19aa36a0633c9826426cdc16fbc5e7cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fdb76abe4a262b1c4ef9c8577902ccfff36e9eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604570"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730700"
 ---
 # <a name="edit-guest-information"></a>Editar informações de convidados
 
@@ -34,16 +34,16 @@ Você pode editar informações de convidados do Centro de administração do Mi
 
 1. Para editar as informações de convidados no [Centro de administração do Microsoft 365](https://admin.microsoft.com), selecione **Usuários**  >  **Convidados Usuários**.
 
-   ![As informações do usuário convidado que estão sendo editadas](media/access-guest-user.png)
+   ![As informações do usuário convidado que estão sendo editadas.](media/access-guest-user.png)
 
 2. Selecione um usuário de **Usuários convidados**.
 
 3. Em informações de usuário convidado, selecione **Gerenciar informações de contato**.
 
-   ![Gerenciar informações de contato ](media/guest-user-data1.png)
+   ![Gerenciar informações de contato .](media/guest-user-data1.png)
 
 4. Edite todos os campos que você escolher, exceto para **Nome** de exibição em Gerenciar informações **de contato** e selecione Salvar **alterações**.
 
-   ![Editar as informações de contato do usuário convidado](media/manage-guest-contact.png)
+   ![Edite as informações de contato do usuário convidado.](media/manage-guest-contact.png)
 
 Você também pode editar o convidado do portal [Azure Active Directory .](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)

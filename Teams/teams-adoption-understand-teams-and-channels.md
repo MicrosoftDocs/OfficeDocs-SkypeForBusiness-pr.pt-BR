@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e999bb144a16ffb8963a7a03458fefb98311423b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2551d0de27bd945dfda1ba943462b33489d7cd42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627273"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733980"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Compreender as equipes e os canais no Microsoft Teams
 
@@ -55,10 +55,10 @@ Os tipos de acesso à equipe determinam quem pode ingressar em uma equipe:
 
 É uma prática ideal usar equipes para melhorar a colaboração entre organizações, e muitos projetos se empresarão para esse modelo. Além disso, líderes ou divisões dentro de uma organização podem querer uma equipe dedicada para suas próprias pessoas. Considere os modelos organizacionais e de projeto mostrados na ilustração a seguir.
 
-![Modelos de organização e projeto](media/teams-adoption-organization-project.png)
+![Modelos de organização e projeto.](media/teams-adoption-organization-project.png)
 
 Em uma equipe organizacional (mostrada à esquerda), informações importantes sobre como a organização executa seus negócios, eventos de equipe, estratégias principais e outras informações operacionais, como análises de negócios, podem ser compartilhadas. Para a equipe mostrada à direita, as informações do distrito são divididas em canais que representam as categorias de trabalho que estão sendo realizadas por essa equipe. Os membros dessa equipe podem ou não se reportar à mesma pessoa, mas estão todos envolvidos na direção dos resultados do distrito.
   
 Você trabalhará mais na estrutura de suas equipes na [fase 2](teams-adoption-phase2-experiment.md) de sua implementação.
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Seguinte: [Criar suas primeiras equipes](teams-adoption-your-first-teams.md)
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: [Criar suas primeiras equipes](teams-adoption-your-first-teams.md)

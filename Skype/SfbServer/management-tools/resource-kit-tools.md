@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Este artigo descreve as ferramentas no Kit de Recursos Skype for Business Server 2015, incluindo a finalidade de cada ferramenta e exemplos de seu uso. O Skype for Business Server 2015 Resource Kit ajuda a facilitar as tarefas de rotina para os administradores de IT que implantam e gerenciam o Skype for Business Server 2015. Por exemplo, a ferramenta Web Conf Data pode ser usada para controlar facilmente os dados carregados pelos usuários durante uma reunião online. A ferramenta SEFAUtil pode ser usada para configurar o encaminhamento de chamada delegada e o atendimento aos usuários. Incentivamos os administradores de IT a usar essas ferramentas para gerenciar com mais eficiência o Skype for Business Server 2015.
-ms.openlocfilehash: fe281a83790d42cbb08e4f8b12e07d8f5ffcfcbc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b12a09a2b69c3ee11aa9f773e0663a8d67b63063
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612100"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730780"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server documentação de Ferramentas de Kit de Recursos 2015
 
@@ -98,7 +98,7 @@ ABSConfig armazena a configuração do Serviço de Livro de Endereços no banco 
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
-### <a name="purpose"></a>Finalidade
+### <a name="purpose"></a>Objetivo
 
 ABSConfig fornece uma maneira rápida e fácil de personalizar Skype for Business Server Serviço de Livro de Endereços 2015.
 
@@ -166,7 +166,7 @@ A **guia Informações de Topologia** mostra uma lista de todos os links configu
 
 Não há saída de linha de comando; a saída do programa está contida na interface do usuário gráfica principal (GUI).
 
-### <a name="purpose"></a>Finalidade
+### <a name="purpose"></a>Objetivo
 
 O objetivo da ferramenta Monitor de Serviço de Política de Largura de Banda é permitir que os administradores visibilidade do estado de cada um dos serviços de Política de Largura de Banda definidos na topologia. Além disso, os administradores podem ver o uso de largura de banda em tempo real para todos os links definidos no documento de configuração de rede.
 
@@ -191,7 +191,7 @@ O Analisador de Utilização de Largura de Banda é implementado como um aplicat
 
 O Analisador de Utilização de Largura de Banda fornece plotações gráficas de capacidade de largura de banda e utilização de áudio para todos os links WAN configurados no sistema.
 
-### <a name="purpose"></a>Finalidade
+### <a name="purpose"></a>Objetivo
 
 Em qualquer implantação de voz e vídeo, é fundamental monitorar e entender a tendência de utilização de largura de banda do tráfego de mídia em toda a rede corporativa. A ferramenta Analisador de Utilização de Largura de Banda permite que um administrador alcance exatamente isso. Esta ferramenta faz o seguinte:
 
@@ -256,7 +256,7 @@ Registrar a linha do tempo permite que o usuário da ferramenta especifique o se
 
 2. **Data de término** Esta é a data de término da linha do tempo para a quais o relatório deve ser gerado; por exemplo, 30 de setembro de 2010.
 
-     ![Datas de início e término na Utilização de Largura de Banda A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
+     ![Datas de início e término na Utilização de Largura de Banda A.](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
 
 #### <a name="step-2---specify-the-file-directories"></a>Etapa 2 - Especificar os diretórios de arquivos
 
@@ -266,7 +266,7 @@ Os diretórios de arquivos a seguir podem ser especificados pelo usuário, confo
 
 - **Local de armazenamento de arquivo temporário** O local do arquivo temporário onde arquivos intermediários são armazenados enquanto o relatório está sendo gerado.
 
-    ![Diretórios de arquivos no Anal de Utilização de Largura de Banda](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+    ![Diretórios de arquivos no Anal de Utilização de Largura de Banda.](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
     > [!NOTE]
     > Certifique-se de que o acesso de arquivo suficiente aos logs do servidor e à pasta de armazenamento de arquivos temporários seja fornecido ao usuário da ferramenta.
@@ -275,11 +275,11 @@ Os diretórios de arquivos a seguir podem ser especificados pelo usuário, confo
 
 Para coletar os logs e iniciar o visualizador de relatórios, clique em **Executar** conforme mostrado abaixo. Esta etapa coleta os dados necessários.
 
-![Coletando dados na Análise de Utilização de Largura de Banda](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
+![Coletando dados na Análise de Utilização de Largura de Banda.](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
 Quando a validação de entrada é bem-sucedida, a mensagem mostrada abaixo é exibida.
 
-![Logs coletados notificação no Utili de Largura de Banda](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
+![Logs coletados notificação no Utili de Largura de Banda.](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
 Clique em **OK**. BandwidthUtilizationAnalyzer.xlsm é iniciado automaticamente. Siga as instruções na caixa de mensagem. Para obter detalhes, **consulte Using BandwidthUtilizationAnalyzer.xlsm** na próxima seção.
 
@@ -288,7 +288,7 @@ Clique em **OK**. BandwidthUtilizationAnalyzer.xlsm é iniciado automaticamente.
 
 1. Quando BandwidthUtilizationAnalyzer.xlsm é iniciado automaticamente, clique **em Atualizar,** conforme mostrado abaixo.
 
-     ![BandwidthUtilizationAnalyzer.xlsm](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
+     ![BandwidthUtilizationAnalyzer.xlsm.](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
 2. Quando uma pasta de arquivo for aberta, selecione consolidated.csv do local especificado na caixa de mensagem, conforme mostrado abaixo. Ele também mostra o local como **C:\Temp**.
 
@@ -415,7 +415,7 @@ Dependendo dos parâmetros de entrada especificados em um prompt de comando, o E
 
 - Órbitas reservadas para testar valores de órbita uniforme e aleatória
 
-### <a name="purpose"></a>Finalidade
+### <a name="purpose"></a>Objetivo
 
 O objetivo da ferramenta CPS é fornecer acesso de linha de comando ao banco de dados CPS. O administrador pode exibir o uso do CPS e determinar o número de órbitas atribuídas a um pool.
 
@@ -492,7 +492,7 @@ Essa ferramenta pode ser usada para diagnosticar vários problemas ou para ajuda
 
 Esta ferramenta saídas de relatórios predefinidos sobre o banco de dados Skype for Business Server 2015. **Caminho**: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
-### <a name="purpose"></a>Finalidade
+### <a name="purpose"></a>Objetivo
 
 Para instalar Dbanalyze.exe, copie-o para uma pasta local e execute a ferramenta. Para usar a ferramenta, execute o seguinte comando na linha de comando. `dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` As descrições das opções de linha de comando são mostradas abaixo.
 
@@ -870,7 +870,7 @@ O Visualizador de Configuração de Rede (NetworkConfigurationViewer.exe) permit
 
 - Exibir informações do site de topologia de rede cac, informações da região e políticas de largura de banda provisionadas e links de rede.
 
-### <a name="purpose"></a>Finalidade
+### <a name="purpose"></a>Objetivo
 
 Exibir links de topologia de rede CAC corporativos em uma interface gráfica.
 
@@ -902,7 +902,7 @@ Salvar e armazenar diagrama de topologia de rede CAC no formato JPG ou BMP: os a
 
  **Definir conectores personalizados** para links de topologia de rede cac (como links de WAN de site para região, região para região e site para site): os administradores do Skype for Business Server 2015 podem definir conectores gráficos personalizados para links WAN de configuração de rede do CAC usando a opção Configurações como mostrado abaixo. Isso ajuda a diferenciar entre vários tipos de links de rede provisionados na configuração de rede.
 
-![Ferramentas](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
+![Ferramentas.](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
  Exibir informações de site de topologia de rede **cac,** informações de região e políticas de largura de banda provisionadas: os administradores do Skype for Business Server 2015 podem exibir informações relacionadas da região de rede cac, informações de site e informações de provisionamento de largura de banda cac usando opções mostradas abaixo. (Por exemplo, clique **em Informações em** uma região de rede ou em um objeto de site de rede.)
 
@@ -921,7 +921,7 @@ O aplicativo grupo de resposta oferece aos agentes a capacidade de acessar infor
 
 O Agente do Grupo de Resposta Live é um aplicativo Windows que fornece funcionalidade de entrada e saída e algumas informações em tempo real (como associação ao grupo e número atual de chamadas) aos agentes do Grupo de Resposta. Ele deve ser uma versão aprimorada da página Grupos de Agentes (acessível Skype for Business.
 
-### <a name="purpose"></a>Finalidade
+### <a name="purpose"></a>Objetivo
 
 O aplicativo grupo de resposta faz filas de chamadas de entrada e as encaminha para grupos de agentes. Para tomar decisões informadas sobre quais chamadas para o serviço, os agentes podem acessar informações em tempo real sobre seus grupos de agentes, como quais outros agentes estão disponíveis e quantas chamadas estão aguardando em cada fila. Essas informações, inicialmente acessíveis somente por meio do serviço grupo de resposta, são disponibilizadas de forma intuitiva pelo Agente de Grupo de Resposta Live.
 
@@ -1025,7 +1025,7 @@ Esta ferramenta tem as seguintes limitações:
 
 A versão atual desta ferramenta fornece saída somente na janela Prompt de Comando. Para obter detalhes, consulte a seção Exemplos posteriormente neste documento.
 
-### <a name="purpose"></a>Finalidade
+### <a name="purpose"></a>Objetivo
 
 A seguir estão alguns dos principais cenários em que essa ferramenta pode ser usada:
 
@@ -1429,7 +1429,7 @@ SYSPrep.ps1 é um script Windows PowerShell que instalará os seguintes pré-req
 Antes de executar o script SYSPrep.ps1, você deve copiar os arquivos de pré-requisito para uma pasta local na máquina do sistema operacional Windows Server 2008 (por **exemplo, D:\Setup)**. Essa pasta também deve incluir uma cópia dos arquivos Skype for Business Server 2015, especificamente **Setup.exe.** Os arquivos de pré-requisito podem ser baixados nos seguintes locais:
 
 
-| **Pré-requisito**                                | **Localização**                                                            |
+| **Pré-requisito**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
@@ -1479,7 +1479,7 @@ O **script Move-CsAnnouncementConfiguration** indica na janela do Shell de Geren
 
 Se a execução da operação for interrompida por qualquer erro, os intervalos de números não atribuídos que foram movidos com êxito para o destino permanecerão no destino em uma forma operacional e o restante dos intervalos de números não atribuídos a serem migrados permanecerá na origem também em um formulário operacional. Para migrar totalmente o restante da configuração, reprise o script após endereçamento do erro.
 
-### <a name="purpose"></a>Finalidade
+### <a name="purpose"></a>Objetivo
 
 O script migração de anúncios de números não atribuídos pode ser usado nos três cenários a seguir:
 

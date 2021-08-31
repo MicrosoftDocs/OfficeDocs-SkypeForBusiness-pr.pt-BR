@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6164d1db4117550519c170b982cc8285196203a2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 521e5eb81d2688c924e3f2c76a25c86f6645b02d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613610"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733290"
 ---
 # <a name="conduct-a-user-pilot"></a>Realizar um piloto de usuário
 
-![Atualizar diagrama de jornada, realçando Implantação e Implementação](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")
+![Atualizar diagrama de jornada, realçando Implantação e Implementação.](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")
 
 Este artigo faz parte do estágio implantação e implementação da jornada de atualização e compartilha informações sobre como executar um piloto efetivo. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
 
@@ -44,8 +44,8 @@ Para obter os resultados mais realistas, o piloto deve envolver usuários reais,
 
 | | |
 |---|---|
-| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Como você usará um piloto para informar a direção do projeto?</li></ul> |
-| ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use as diretrizes abaixo para projetar e executar seu piloto formal.</li></ul>|
+| ![Um ícone que representa um ponto de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Como você usará um piloto para informar a direção do projeto?</li></ul> |
+| ![Um ícone que representa a próxima etapa.](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use as diretrizes abaixo para projetar e executar seu piloto formal.</li></ul>|
 
 > [!Tip]
 > Use os recursos [piloto de exemplo para](https://aka.ms/UpgradeSuccessKit) ajudar a projetar suas comunicações, plano de teste e pesquisa de feedback.

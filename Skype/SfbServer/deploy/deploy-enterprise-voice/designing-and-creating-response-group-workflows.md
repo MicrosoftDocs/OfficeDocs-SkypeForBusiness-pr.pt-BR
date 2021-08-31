@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Projete e crie fluxos de trabalho do Grupo de Resposta, Skype for Business Server Enterprise Voice. Tanto os fluxos de trabalho de grupo de busca quanto os fluxos de trabalho interativos são abordados.
-ms.openlocfilehash: 63069268621ff7f5e2b3783a661e163ff6fe6416
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603111"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730950"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Criando e criando fluxos de trabalho de grupo de resposta Skype for Business
 
@@ -51,7 +51,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
     > [!NOTE]
     > A Ferramenta de Configuração do Grupo de Resposta é aberta. Você também pode abrir a Ferramenta de Configuração de Grupo de Resposta diretamente de um navegador da Web digitando a seguinte URL: \<webPoolFqdn\> https:// /RgsConfig.
 
-6. Faça um dos seguintes:
+6. Siga um destes procedimentos:
 
    - Em **Criar um Novo Fluxo de Trabalho,** ao lado de Grupo de **Busca,** clique em **Criar**.
 
@@ -317,7 +317,7 @@ A figura a seguir mostra o fluxo da chamada.
 
  **Fluxo de chamada interativa de um nível**
 
-![Projetar fluxos de chamadas usando o Respo de Voz Interativa](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![Projetar fluxos de chamadas usando o Respo de Voz Interativa.](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>IVR com dois níveis de perguntas
 
@@ -349,7 +349,7 @@ A figura a seguir mostra o fluxo de chamadas.
 
  **Fluxo de chamada interativa de dois níveis**
 
-![Projetar fluxos de chamadas usando o Respo de Voz Interativa](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![Projetar fluxos de chamadas usando o Respo de Voz Interativa.](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>Práticas recomendadas
 

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Saiba como configurar Telefones de Área Comum para lobbies, áreas de recepção e salas de conferência '
-ms.openlocfilehash: 928c4c2a81f2e19524aa7dc43ac2bd597b1293dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad38f753b109aefd0e7628efe3e61472e7149597
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597955"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733750"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
@@ -42,7 +42,7 @@ Primeiro, você precisa comprar uma licença de área comum Telefone (CAP) e gar
 
 1. Na Centro de administração do Microsoft 365, vá para **Cobrança**  >  **Serviços de Compra** e, em seguida, **expanda Outros planos**.
 
-    ![Captura de tela mostrando o Telefone área comum](media/set-up-common-area-phone-image1.png)
+    ![Captura de tela mostrando o Telefone área comum.](media/set-up-common-area-phone-image1.png)
 
 2. Selecione **Área Comum Telefone** Comprar  >  **agora**.
 
@@ -92,7 +92,7 @@ A licença área comum Telefone suporta:
 
 6. Atribua as licenças ao usuário. Na mesma página, clique para expandir as **Licenças de produto**. A turn on the Common Area Telefone e pick either a **Domestic Calling Plan** or a Domestic and International Calling **Plan**. 
 
-    ![Captura de tela mostrando a atribuição de licença com plano de chamada doméstica e opções de plano doméstico e internacional realçadas](media/set-up-common-area-phone-image2.png)
+    ![Captura de tela mostrando a atribuição de licença com plano de chamada doméstica e opções de plano doméstico e internacional realçadas.](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > Se você estiver usando Telefone Microsoft Roteamento Direto do Sistema, não será necessário atribuir uma licença de Plano de Chamadas.
@@ -113,7 +113,7 @@ Use o Teams de administração para atribuir um número ao usuário.
 
 6. Clique em **Salvar** e seu usuário ficará assim:
 
-   ![Captura de tela mostra atribuição de licença de usuário de exemplo](media/set-up-common-area-phone-image3.png)
+   ![Captura de tela mostra a atribuição de licença de usuário de exemplo.](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > Os usuários só aparecerão se eles têm uma Sistema de Telefonia aplicada. Quando fizer isso, pode levar um tempo para que o usuário apareça na lista.

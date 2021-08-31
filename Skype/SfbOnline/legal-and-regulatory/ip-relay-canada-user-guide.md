@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Como usar uma conta de Retransmissão IP para o Canadá.
-ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18b6f356f6d90b4e6a962ef1b7709cb3cf39253c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618257"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730970"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>IP Relay no Canadá - Manual de instruções
 
@@ -70,7 +70,7 @@ Uma vez conectado, você verá instruções exibidas no lado esquerdo da tela.
 ### <a name="how-to-place-a-911-call"></a>Como fazer uma chamada do 911:
 Se você tiver uma emergência, poderá selecionar o botão de emergência apropriado localizado na parte inferior da tela (conforme mostrado abaixo).
 
-![Botões de emergência](../images/ip-relay-emergency-buttons.png)
+![Botões de emergência.](../images/ip-relay-emergency-buttons.png)
 
 O Operador de Retransmissão de Mensagens IP entrará em contato com o 911, confirmará seu endereço e traduzirá com vários centros de emergência até que ele não seja mais necessário e o departamento apropriado tenha sido enviado para sua localização.
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 841f471d548e26d9eb7eb876433330d3ecd20f67
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3cacf0ef5305ac1e7bc32ba1f0c8c91ab8ec723
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627443"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730830"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissão de aplicativos no Microsoft Teams
 
@@ -35,7 +35,7 @@ Como administrador, você pode usar políticas de permissão de aplicativo para 
 
 Você gerencia políticas de permissão de aplicativo no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Os usuários em sua organização obterão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Depois de editar ou atribuir uma política, pode levar algumas horas para que as alterações entrem em vigor.
 
-![Captura de tela da política de permissão do aplicativo](media/app-permission-policies.png)
+![Captura de tela da política de permissão do aplicativo.](media/app-permission-policies.png)
 
 > [!NOTE]
 > As configurações do aplicativo em toda a organização substituem a política global e quaisquer políticas personalizadas que você cria e atribui aos usuários.
@@ -53,7 +53,7 @@ Se você deseja controlar os aplicativos que estão disponíveis para diferentes
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Políticas de permissão**.
 2. Clique em **Adicionar**.<br>
-    ![Captura de tela da nova política de permissão do aplicativo](media/app-permission-policies-new-policy.png)
+    ![Captura de tela da nova política de permissão do aplicativo.](media/app-permission-policies-new-policy.png)
 3. Insira um nome e uma descrição para a política.
 4. Em **Aplicativos da Microsoft**, **Aplicativos de terceiros** e **Aplicativos personalizados**, selecione um dos seguintes:
 
@@ -90,13 +90,13 @@ Em uma implantação Microsoft 365 Government - GCCH e DoD do Teams, é importan
 
 No GCCH e no DoD, todos os aplicativos de terceiros são bloqueados por padrão. Além disso, você verá a seguinte observação sobre o gerenciamento de aplicativos de terceiros na página de políticas de permissão de aplicativos no centro de administração do Microsoft Teams.
 
-![Captura de tela da política de permissão do aplicativo no GCCH e no DoD](media/app-permission-policies-gcc.png)
+![Captura de tela da política de permissão do aplicativo no GCCH e no DoD.](media/app-permission-policies-gcc.png)
 
 Use as configurações de aplicativos de toda a organização para controlar se os usuários podem instalar aplicativos de terceiros. As configurações de aplicativo em toda a organização controlam o comportamento de todos os usuários e substituem quaisquer outras políticas de permissão de aplicativo atribuídas aos usuários. Você pode usá-los para controlar aplicativos maliciosos ou problemáticos.
 
 1. Na página **Políticas de permissão**, selecione **Configurações de aplicativos para toda a organização**. Você pode então definir as configurações desejadas no painel.
 
-    ![Captura de tela das configurações do aplicativo para toda a organização](media/app-permission-policies-gcc-org-wide.png)
+    ![Captura de tela das configurações do aplicativo em toda a organização.](media/app-permission-policies-gcc-org-wide.png)
     
 2. Em **Aplicativos de terceiros**, desabilite ou ative essas configurações para controlar o acesso a aplicativos de terceiros:
 

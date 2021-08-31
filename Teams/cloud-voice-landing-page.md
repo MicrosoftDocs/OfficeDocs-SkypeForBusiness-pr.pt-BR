@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Saiba mais sobre os Microsoft Teams de voz na nuvem e as decisões de implantação que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b82b858e49040628cd53c06c03be4235b3fdac9fa674cd733bd84f6ba8816cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb6796dff27cf078c2f8f1d2d2f1ffc00fddc5e0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347496"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730510"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planejar sua solução Teams voz 
 
@@ -37,7 +37,7 @@ Este artigo ajuda você a decidir qual solução de voz da Microsoft é ideal pa
 
 Talvez você queira a solução mais simples Sistema de Telefonia &mdash; com Plano de Chamada. Esta é a solução all-in-the-cloud da Microsoft que fornece a funcionalidade de PbX (Private Branch Exchange) e chamadas para a PSTN (Rede Telefônica Pública Comutado), conforme mostrado no diagrama a seguir. Com essa solução, a Microsoft é sua operadora PSTN.
 
-![O Diagrama 1 mostra Sistema de Telefonia com Plano de Chamada](media/voice-solutions-simple.png)
+![O Diagrama 1 mostra Sistema de Telefonia com Plano de Chamada.](media/voice-solutions-simple.png)
 
 Se você responder sim ao seguinte, Sistema de Telefonia com Plano de Chamada é a solução certa para você:
 
@@ -96,7 +96,7 @@ Este artigo apresenta os seguintes Sistema de Telefonia principais recursos e fu
 - [Caixa Postal da Nuvem](#cloud-voicemail)
 - [Identidade de chamada](#calling-identity)
 
-![O Diagrama 3 mostra Telefone sistema contém atendedores automáticos e consultas de chamada, caixa postal na nuvem e identidade de chamada](media/phone-system-contains.png)
+![O Diagrama 3 mostra Telefone sistema contém atendedores automáticos e consultas de chamada, caixa postal na nuvem e identidade de chamada.](media/phone-system-contains.png)
 
 Para obter informações sobre todos os Sistema de Telefonia e como configurar o Sistema de Telefonia, consulte os seguintes artigos:
 

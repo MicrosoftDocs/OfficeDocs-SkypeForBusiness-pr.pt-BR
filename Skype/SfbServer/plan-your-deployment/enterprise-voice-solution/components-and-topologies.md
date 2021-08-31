@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planejando o controle de admissão de chamada (CAC) se você tiver uma rede MPLS, um tronco SIP ou um gateway PSTN de terceiros ou PBX. Aplica-se Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631635"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730900"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Componentes e topologias para controle de admissão de chamada em Skype for Business
 
@@ -35,13 +35,13 @@ Em uma rede de Comutação de Rótulo Multiprotocolo (MPLS), todos os sites são
 
 **Exemplo de rede MPLS**
 
-![CAC com MPLS](../../media/CAC_MPLS_1.jpg)
+![CAC com MPLS.](../../media/CAC_MPLS_1.jpg)
 
 Para implantar um controle de admissão de chamada (CAC) em uma rede MPLS, é preciso criar uma região de rede para representar a nuvem MPLS, bem como criar um site de rede para representar cada site de satélite MPLS. A figura a seguir ilustra como a região de rede e os sites de rede devem ser configurados para representar a rede MPLS de exemplo na figura anterior. Os limites gerais da largura de banda e os limites de sessão da largura de banda têm base na capacidade do link WAN a partir de cada site de rede até a região de rede que representa a nuvem MPLS.
 
 **Região de rede e sites de rede para uma rede MPLS**
 
-![Cac (Controle de Admissão de Chamada) com diagrama MPLS](../../media/CAC_MPLS_2.jpg)
+![Controle de Admissão de Chamada (CAC) com diagrama MPLS.](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>Controle de admissão de chamada em um tronco SIP
 
@@ -51,7 +51,7 @@ A figura a seguir mostra um exemplo de implantação do CAC em um tronco SIP.
 
 **Configuração do CAC em um tronco SIP**
 
-![Diagrama de tronco SIP do Controle de Admissão de Chamada](../../media/CAC_SIP_trunk_1.jpg)
+![Diagrama de tronco SIP do Controle de Admissão de Chamada.](../../media/CAC_SIP_trunk_1.jpg)
 
 Para configurar o CAC em um tronco SIP, você terá que executar as seguintes tarefas durante a implantação do CAC:
 
@@ -74,7 +74,7 @@ O CAC pode ser implantado no link WAN da interface de gateway do Servidor de Med
 
 **Caso 1: CAC entre o Servidor de Mediação e um gateway PSTN**
 
-![Caso 1: CAC entre Gateway PSTN do Servidor de Mediação](../../media/CAC_gateways_1.jpg)
+![Caso 1: CAC entre Gateway PSTN do Servidor de Mediação.](../../media/CAC_gateways_1.jpg)
 
 Neste exemplo, o CAC é aplicado entre o Servidor de Mediação e um gateway PSTN. Se um usuário Skype for Business cliente no Site da Rede 1 coloca uma chamada PSTN por meio do gateway PSTN no Site da Rede 2, a mídia flui através do link WAN. Portanto, duas verificações CAC são executadas para cada sessão PSTN:
 
@@ -99,7 +99,7 @@ Esta configuração é similar ao Caso 1. Em ambos os casos, o Servidor de Media
 
 **Caso 2: CAC entre o Servidor de Mediação e um PBX de terceiros com MTP**
 
-![Caso 2: CAC entre o PBX do Servidor de Mediação com MTP](../../media/CAC_gateways_2.jpg)
+![Caso 2: CAC entre o PBX do Servidor de Mediação com MTP.](../../media/CAC_gateways_2.jpg)
 
 Neste exemplo, o CAC é aplicado entre o Servidor de Mediação e o PBX/MTP. Se um usuário Skype for Business cliente no Site da Rede 1 faz uma chamada PSTN por meio do PBX/MTP localizado no Site da Rede 2, a mídia flui através do link WAN. Portanto, para cada sessão PSTN duas verificações CAC são executadas:
 
@@ -124,7 +124,7 @@ O Caso 3 é um ligeiramente diferente dos dois primeiros. Se não houver MTP no 
 
 **Caso 3: CAC entre o Servidor de Mediação e um PBX de terceiros sem MTP**
 
-![Caso 3: CAC entre o SERVIDOR de Mediação PBX sem MTP](../../media/CAC_gateways_3.jpg)
+![Caso 3: CAC entre o Servidor de Mediação PBX sem MTP.](../../media/CAC_gateways_3.jpg)
 
 Neste exemplo, se um usuário Skype for Business cliente no Site da Rede 1 faz uma chamada a um usuário por meio do PBX, o Servidor de Mediação poderá executar verificações de CAC somente na etapa proxy (entre o aplicativo cliente Skype for Business e o Servidor de Mediação). Como o Servidor de Mediação não tem informações sobre o dispositivo de ponto de extremidade enquanto a sessão está sendo solicitada, verificações CAC não podem ser executadas no link WAN (entre o Servidor de Mediação e um ponto de extremidade de terceiros) antes do estabelecimento da chamada. Depois que a sessão é estabelecida, no entanto, o Servidor de Mediação facilita na contabilização da largura de banda usada no tronco.
 

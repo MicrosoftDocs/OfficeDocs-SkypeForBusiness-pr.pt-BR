@@ -21,12 +21,12 @@ f1.keywords:
 description: Saiba como treinar uma equipe de campeões para promover Teams adoção por meio da conscientização, adoção e educação em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 216323b34d2f0f2778844b901964d56a85d25716
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9a6c9c81b1f36655d99b9fdfeecacda406bab6f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612910"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731180"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Criar seu programa de defensores do Microsoft Teams
 
@@ -34,7 +34,7 @@ Os campeões são essenciais para impulsionar a conscientização, adoção e ed
 
 Os campeões se ajustarão ao seu planejamento de início geral de várias maneiras, conforme mostrado abaixo.
 
-![Ilustração do planejamento de início dos Campeões](media/teams-adoption-champions.png)
+![Ilustração do planejamento de início dos Campeões.](media/teams-adoption-champions.png)
 
 Os campeões devem:
 
@@ -60,5 +60,5 @@ Use nosso [Guia de Programa de Campeões](https://go.microsoft.com/fwlink/?linki
 
 - Treinar campeões com frequência: seu programa inicia reuniões mensais e pode ser usado para criar habilidades em sua comunidade de campeões. Use essas oportunidades para trazê-los a bordo, conduzir seu treinamento inicial, incentivá-los a participar de nossos cursos e garantir que eles estão prontos para dar suporte a seus funcionários à medida que avançam na fase de experimentação.  
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Concluir o início rápido da governança](teams-adoption-governance-quick-start.md)
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Em seguida: [Conclua o início rápido da governança](teams-adoption-governance-quick-start.md)
 

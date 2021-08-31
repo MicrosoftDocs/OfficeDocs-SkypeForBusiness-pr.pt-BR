@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 769790029adf0e18d6201b635659a5b267e5f27c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4571ef220fe972fb1aab27021ea22c01c5a836b4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597945"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734120"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configure a hierarquia de segmentação de sua equipe
 
@@ -31,7 +31,7 @@ Configurar uma hierarquia de direcionamento de equipe permitirá que sua organiz
 
 Veja um exemplo de como a hierarquia é representada no aplicativo Tarefas no Teams. Depois que uma lista de tarefas é criada, os membros da equipe de publicação podem selecionar as equipes de destinatários para enviar (publicar) a lista de tarefas para. Ao selecionar equipes, a equipe de publicação pode filtrar por hierarquia, por atributos ou uma combinação de ambos.<br>
 
-![Captura de tela da publicação da tarefa](media/manage-tasks-app-publish.png)
+![Captura de tela da publicação de tarefas.](media/manage-tasks-app-publish.png)
 
 ## <a name="terminology"></a>Terminologia
 
@@ -69,7 +69,7 @@ A permissão para publicar depende se um usuário é membro de qualquer equipe n
 
 Por exemplo, na hierarquia a seguir, Recall, Communications e HR podem publicar tarefas em cada nó inferior (equipe) na hierarquia, mas Zona Noroeste só pode publicar tarefas nas equipes da Loja de Nova York e da Loja de Boston. A hierarquia de exemplo permite que os grupos Recall, Communications e RH publiquem tarefas que se aplicam a toda a empresa, como informações de benefícios ou mensagens do CEO. A Zona Noroeste pode publicar tarefas como agendamento de funcionários, informações sobre o clima e assim por diante, somente para as equipes da Loja de Nova York e da Loja de Boston.
 
-![Exemplo hierárquico de equipe](media/team-targeting-schema-example-new.png)
+![Exemplo hierárquico de equipe.](media/team-targeting-schema-example-new.png)
 
 ## <a name="create-your-hierarchy"></a>Criar sua hierarquia
 

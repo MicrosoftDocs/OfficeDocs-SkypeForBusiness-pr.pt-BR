@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: saiba mais sobre o processo de implantação do Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: af43865c76b565ac126d80193b3b32b0bd870260
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc07bb721c0319d041bd7bbee4a4a327d77f28b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596565"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733590"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implantar o Painel de Qualidade de Chamada para Skype for Business Server
  
@@ -34,7 +34,7 @@ O Painel de Qualidade de Chamada (CQD) consiste em três componentes principais:
     
 - **Portal**, onde os usuários podem consultar facilmente e visualizar dados QoE.
     
-![Componentes CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![Componentes CQD.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 O processo de instalação do Arquivo de QoE envolve a criação do banco de dados de Arquivo morto de QoE, a implantação de um procedimento armazenado SQL Server que move os dados do banco de dados de Métricas QoE de origem para o banco de dados de Arquivo morto de QoE e a configuração do trabalho do agente SQL Server para executar o procedimento armazenado em um intervalo regular. 
   
@@ -146,18 +146,18 @@ Para gerenciar a autorização do usuário para o Portal, recomendamos usar a Au
   
 Qualquer site ou aplicativo Web herda a Autorização de URL padrão configurada para todo o IIS, que normalmente é "Permitir Todos os Usuários". Se o acesso ao Portal precisar ser mais restritivo, os administradores poderão conceder acesso apenas ao grupo específico de usuários editando as "Regras de Autorização".
   
-![Implantar Qualidade de Chamada - Regras de Autorização no IIS](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
+![Implantar Qualidade de Chamada - Regras de Autorização no IIS.](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
 > O ícone Regras de Autorização não deve ser confundido com a seção ".NET Authorization" na seção ASP.NET, que é um mecanismo de autorização diferente. 
   
 Os administradores devem primeiro remover a regra herdada "Permitir Todos os Usuários". Isso impede que usuários não autorizados acessem o Portal.
   
-![Implantar CQD](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
+![Implantar o CQD.](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
   
 Em seguida, os administradores devem adicionar novas Regras de Permissão e dar aos usuários específicos a permissão para acessar o Portal. É recomendável que um Grupo local chamado "CQDPortalUsers" seja criado para gerenciar os usuários.
   
-![Implantar o Painel de Qualidade de Chamadas](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
+![Implantar Painel de Qualidade de Chamada.](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
   
 Os detalhes da configuração são armazenados no web.config localizado no diretório físico do Portal.
   
@@ -174,15 +174,15 @@ A próxima etapa é configurar o painel do CQD. Depois que os usuários são aut
 
 1. Abra o Editor de Configuração para CQD.
     
-     ![Implantar o Painel de Qualidade de Chamadas](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
+     ![Implantar Painel de Qualidade de Chamada.](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
 2. Em Seção, escolha **system.webServer/serverRuntime**.
     
-     ![Implantar o Painel de Qualidade de Chamadas](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
+     ![Implantar Painel de Qualidade de Chamada.](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
 3. Altere authenticatedUserOverride para **UseWorkerProcessUser**.
     
-     ![Implantar Painel de Qualidade de Chamada - Editor de Configuração](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
+     ![Implantar Painel de Qualidade de Chamada - Editor de Configuração.](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
 4. Clique **em Aplicar** no lado direito da página.
     
@@ -213,19 +213,19 @@ Em casos raros, o instalador falha ao criar as configurações corretas no IIS. 
   
 1. Abra o Gerenciador do IIS e navegue até Site Padrão.
     
-     ![Implantar o Painel de Qualidade de Chamadas](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
+     ![Implantar Painel de Qualidade de Chamada.](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
 2. Clique em "Autenticação". Se a "Autenticação Anônima", "ASP.NET Representação", "Autenticação de Formulário" e "autenticação Windows" não corresponderem às configurações mostradas abaixo, altere-as manualmente para corresponder às configurações abaixo. Todos os outros mecanismos de autenticação devem ser desabilitados.
     
-     ![Implantar o Painel de Qualidade de Chamadas](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
+     ![Implantar Painel de Qualidade de Chamada.](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
 3. Para "Windows Autenticação", clique em Avançado Configurações no lado direito.
     
-     ![Implantar o Painel de Qualidade de Chamadas](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
+     ![Implantar Painel de Qualidade de Chamada.](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
 4. De definir "Proteção Estendida" como Aceitar e marque a caixa "Habilitar autenticação no modo Kernel".
     
-     ![Implantar o Painel de Qualidade de Chamadas](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
+     ![Implantar Painel de Qualidade de Chamada.](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
   
 5. Repita as etapas acima para cada uma das entradas "CQD", "QoEDataService" e "QoERepositoryService" abaixo de "Site Padrão".
     
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (você deve usar o fformat delimitado)  <br/> |
 |Controlador  <br/> |Construção  <br/> |Aruba AP 7  <br/> |
-|Dispositivo  <br/> |ess  <br/> |Controller1  <br/> |
+|Device  <br/> |ess  <br/> |Controller1  <br/> |
 |Radio  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>Processamento dos dados importados

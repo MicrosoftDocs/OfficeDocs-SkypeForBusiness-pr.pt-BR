@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de ID do chamador Microsoft Teams alterar ou bloquear a ID do chamador de Teams usuários em sua organização.
-ms.openlocfilehash: ee663a627e89d7ea2a569496a899d2d68b8366ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619627"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731220"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gerenciar políticas de identificação de chamadas no Microsoft Teams
 
@@ -40,7 +40,7 @@ Você gerencia políticas de ID do chamador indo para **políticas** de ID do Ch
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Políticas** de  >  **ID do Chamador de Voz.**
 2. Clique em **Adicionar**. <br>
-![Captura de tela da nova página de política de ID do chamador no centro de administração](media/caller-id-policies-add-policy.png)
+![Captura de tela da nova página de política de ID do chamador no centro de administração.](media/caller-id-policies-add-policy.png)
 3. Insira um nome e uma descrição para a política.
 4. A partir daqui, escolha as configurações que você deseja:
 

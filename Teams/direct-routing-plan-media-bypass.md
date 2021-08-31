@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com Sistema de Telefonia Roteamento Direto, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3350f1152f26841489a846749eecc6ad58117215
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8231a57d844539272c65709270b0a0477c50e214
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610328"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730480"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -37,7 +37,7 @@ Os diagramas a seguir ilustram a diferença no fluxo de chamada com e sem bypass
 Sem bypass de mídia, quando um cliente faz ou recebe uma chamada, a sinalização e o fluxo de mídia entre o SBC, o sistema Telefone Microsoft e o cliente Teams, conforme mostrado no diagrama a seguir:
 
 > [!div class="mx-imgBorder"]
-> ![Mostra sinalização e fluxo de mídia sem bypass de mídia](media/direct-routing-media-bypass-1.png)
+> ![Mostra sinalização e fluxo de mídia sem bypass de mídia.](media/direct-routing-media-bypass-1.png)
 
 
 Mas vamos supor que um usuário está no mesmo edifício ou rede que o SBC. Por exemplo, suponha que um usuário que está em um edifício em Frankfurt faça uma chamada para um usuário PSTN: 
@@ -49,7 +49,7 @@ Mas vamos supor que um usuário está no mesmo edifício ou rede que o SBC. Por 
 - **Com o bypass de** mídia, a mídia é mantida diretamente entre o usuário Teams e o SBC, conforme mostrado no diagrama a seguir:
 
   > [!div class="mx-imgBorder"]
-  > ![Mostra sinalização e fluxo de mídia com bypass de mídia](media/direct-routing-media-bypass-2.png)
+  > ![Mostra sinalização e fluxo de mídia com bypass de mídia.](media/direct-routing-media-bypass-2.png)
 
 O bypass de mídia aproveita protocolos chamados Desodorado Interativo de Conectividade (ICE) no cliente Teams e no ICE lite no SBC. Esses protocolos permitem que o Roteamento Direto use o caminho de mídia mais direto para obter a melhor qualidade. ICE e ICE Lite são padrões WebRTC. Para obter informações detalhadas sobre esses protocolos, consulte RFC 5245.
 
@@ -75,7 +75,7 @@ O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está ha
 - A sinalização SIP sempre tem caminhos 4 e 4' (dependendo da direção do tráfego). A mídia permanece local e segue o caminho 5b.
 
 > [!div class="mx-imgBorder"]
-> ![Mostra o fluxo de chamada com o Bypass de Mídia habilitado, o cliente é interno](media/direct-routing-media-bypass-3.png)
+> ![Mostra o fluxo de chamada com o Bypass de Mídia habilitado, o cliente é interno.](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Fluxo de chamada se o usuário não tiver acesso ao endereço IP público do SBC
@@ -96,7 +96,7 @@ O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está ha
 - A mídia é repassada pelos caminhos 3, 3', 4 e 4'
 
 > [!div class="mx-imgBorder"]
-> ![Mostra o fluxo de chamada se o usuário não tiver acesso ao IP público do SBC](media/direct-routing-media-bypass-4.png)
+> ![Mostra o fluxo de chamada se o usuário não tiver acesso ao IP público do SBC.](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Fluxo de chamada se um usuário estiver fora da rede e tiver acesso ao IP público do SBC
@@ -111,7 +111,7 @@ O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está ha
 - A sinalização SIP sempre tem caminhos 3 e 3' (dependendo da direção do tráfego). Fluxos de mídia usando o caminho 2.
 
 > [!div class="mx-imgBorder"]
-> ![Mostra o fluxo de chamada se o usuário não tiver acesso ao IP público do SBC](media/direct-routing-media-bypass-5.png)
+> ![Mostra o fluxo de chamada se o usuário não tiver acesso ao IP público do SBC.](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Uso de Processadores de Mídia e Retransmissão de Transporte
@@ -136,7 +136,7 @@ O diagrama a seguir mostra dois fluxos de chamada – um com bypass de mídia ha
 - O Proxy SIP é um componente que converte a sinalização REST HTTP usada Teams para SIP.    
 
 > [!div class="mx-imgBorder"]
-> ![Mostra fluxos de chamada com Bypass de Mídia habilitado e desabilitado](media/direct-routing-media-bypass-6.png)
+> ![Mostra fluxos de chamada com Desvio de Mídia habilitado e desabilitado.](media/direct-routing-media-bypass-6.png)
 
 
 A tabela a seguir resume a diferença entre Processadores de Mídia e Retransmissão de Transporte.
@@ -352,7 +352,7 @@ Usuários com tronco de bypass de mídia | 20 | sbc2.contoso.com:5060 | true |
 Ambos os troncos podem apontar para o mesmo SBC com o mesmo endereço IP público. As portas de sinalização TLS no SBC devem ser diferentes, conforme mostrado no diagrama a seguir. Observe que você precisará certificar-se de que seu certificado dá suporte a ambos os troncos. Em SAN, você precisa ter dois nomes (**sbc1.contoso.com** e **sbc2.contoso.com**) ou ter um certificado curinga.
 
 > [!div class="mx-imgBorder"]
-> ![Mostra que ambos os troncos podem apontar para o mesmo SBC com o mesmo IP público](media/direct-routing-media-bypass-7.png)
+> ![Mostra que ambos os troncos podem apontar para o mesmo SBC com o mesmo IP público.](media/direct-routing-media-bypass-7.png)
 
 Para obter informações sobre como configurar dois troncos no mesmo SBC, consulte a documentação fornecida pelo fornecedor SBC:
 

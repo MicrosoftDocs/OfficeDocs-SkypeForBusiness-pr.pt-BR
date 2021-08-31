@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcc9d8c4ed101017206e086a2282679ec698df27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: afef90629f771520bc4f61758c9ad6e51f22246a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634815"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734150"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams e Outlook de email
 
@@ -29,7 +29,7 @@ Microsoft Teams inclui recursos que facilitam que os usuários em sua organizaç
 
 **O compartilhamento Outlook** permite que os usuários compartilhem uma cópia de uma conversa Teams para um email no Outlook, sem precisar sair Teams. Esse recurso é útil se os usuários precisam compartilhar conversas ou atualizações de status com usuários fora de sua equipe imediata ou até mesmo sua organização. Vá para a parte superior da conversa no Teams, selecione **̇ ̇ ̇ Mais** opções e selecione **Compartilhar para** Outlook .  Para saber mais, confira [Compartilhar Outlook de Teams](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).
 
-![Captura de tela mostrando o recurso Compartilhar Outlook no Teams](media/share-to-outlook.png)
+![Captura de tela mostrando o recurso Compartilhar Outlook no Teams.](media/share-to-outlook.png)
 
 Para usar esse recurso, Outlook na Web deve ser ligado para o usuário. Se Outlook na Web estiver desligada, a opção **Compartilhar** para Outlook não será exibida no Teams para o usuário. Para ver as etapas sobre como ativar e desativar Outlook na Web, consulte [Enable or disable Outlook na Web for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
 
@@ -40,9 +40,9 @@ Os usuários receberão automaticamente emails de atividade perdida ativos que o
 > [!NOTE]
 > Esse recurso não é suportado em Outlook para Mac ou em algumas versões mais antigas do Outlook para Windows. Para obter mais informações, consulte [Mensagens ativas em Outlook e Office 365 Grupos](/outlook/actionable-messages/).
 
-![Captura de tela mostrando um email de atividade perdida](media/missed-activity-email.png)
+![Captura de tela mostrando um email de atividade perdida.](media/missed-activity-email.png)
 
-![Captura de tela mostrando como responder a um email de atividade perdida](media/missed-activity-email-reply.png)
+![Captura de tela mostrando como responder a um email de atividade perdida.](media/missed-activity-email-reply.png)
 
 Você pode usar o cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) juntamente com o parâmetro **SmtpActionableMessagesEnabled** para desativar emails ativas. Por padrão, o **parâmetro SmtpActionableMessagesEnabled** é definido como **true**. A configuração do parâmetro como **false** desliga mensagens de email ativas em Office 365. Para Teams usuários, isso significa que a opção **Responder** para responder diretamente Outlook não está disponível em emails de atividade perdida. Em vez disso, os emails de atividade perdida incluem uma **opção Responder Teams** para os usuários responderem Teams.
 

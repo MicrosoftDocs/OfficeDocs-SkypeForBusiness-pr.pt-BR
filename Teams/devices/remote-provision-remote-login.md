@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como provisionar e entrar remotamente em dispositivos Teams Android
-ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632195"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733310"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para dispositivos Teams Android
 
@@ -70,7 +70,7 @@ Na janela **Provisionar novos dispositivos,** você pode adicionar o endereço M
 
 1. Na guia **Aguardando ativação,** selecione **Adicionar ID MAC**.
 
-   ![adicionar manualmente um endereço mac de dispositivo](../media/remote-provision-6.png)
+   ![adicionar manualmente um endereço mac do dispositivo.](../media/remote-provision-6.png)
 
 1. Insira a ID MAC.
 1. Insira um local, que ajuda os técnicos a identificar onde instalar os dispositivos.
@@ -98,15 +98,15 @@ Quando o dispositivo é ligado e conectado à rede, o técnico provisiona o disp
 
 1. O técnico seleciona **Provisionamento do** **dispositivo** Configurações .  
 
-   ![Provisione a nova opção de dispositivo na guia Ações](../media/provision-device1.png)
+   ![Provisione a nova opção de dispositivo na guia Ações.](../media/provision-device1.png)
   
 2. O técnico ins fornece o código de verificação específico do dispositivo no campo de entrada fornecido.
 
-   ![Provisione a verificação de novo dispositivo](../media/provision-device-verification1.png)
+   ![Provisione a nova verificação de dispositivo.](../media/provision-device-verification1.png)
 
    Depois que o dispositivo for provisionado com êxito, o nome do locatário será exibido na página de entrada.
 
-   ![Nome do locatário na página de login](../media/provision-code.png)
+   ![Nome do locatário na página de login.](../media/provision-code.png)
 
 ## <a name="sign-in-remotely"></a>Entrar remotamente
 
@@ -118,7 +118,7 @@ O dispositivo provisionado aparece na guia **Aguardando** entrada. Inicie o proc
 
 2. Siga as instruções em **Entrar em um usuário** e selecione **Fechar**.
 
-   ![a janela Entrar em um usuário para dispositivos individuais](../media/sign-in-user.png)
+   ![a janela Entrar em um usuário para um dispositivo individual.](../media/sign-in-user.png)
 
 ## <a name="related-article"></a>Artigo relacionado
 

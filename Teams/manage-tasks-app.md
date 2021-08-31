@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41fa4ea8b32b3c8a1b427f95afbc25317933b5cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875aeeee6d283a97325ef5aa66402b2c112c4bbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586555"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730630"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
 
@@ -35,7 +35,7 @@ O aplicativo Tasks oferece uma experiência de gerenciamento de tarefas coesa pa
 > [!NOTE]
 > À medida que implementamos a experiência de tarefas nos clientes de área de trabalho do Teams, o nome do aplicativo aparecerá inicialmente como **Planejador** para os usuários. O nome será alterado temporariamente para **Tasks pelo Planner e To Do** e, posteriormente, será renomeado para **Tasks**. Em clientes móveis do Teams, os usuários sempre verão o nome do aplicativo como **Tasks**. Pode haver um pequeno atraso na disponibilidade da experiência móvel depois que a experiência na área de trabalho estiver disponível.
 
-   ![Captura de tela da exibição de lista de tarefas na Lista de equipes](media/manage-tasks-app-tasks.png)
+   ![Captura de tela da exibição de lista de tarefas Teams lista.](media/manage-tasks-app-tasks.png)
 
 Para organizações que desejam otimizar o gerenciamento de tarefas para os Trabalhadores da Linha de Frente, o Tasks também inclui recursos que permitem direcionar, publicar e rastrear tarefas em escala em toda a Força de Trabalho da Linha de Frente. Por exemplo, a liderança corporativa e regional pode criar e publicar listas de tarefas direcionadas a locais relevantes, como lojas de varejo específicas, e monitorar o progresso por meio de relatórios em tempo real. Os gerentes podem atribuir tarefas a seus funcionários e atividades diretas em seus locais, e os Trabalhadores de Linha de Frente têm uma lista priorizada de suas tarefas atribuídas no dispositivo móvel ou área de trabalho. Para habilitar a [publicação de tarefas](#task-publishing), você primeiro precisa configurar uma hierarquia de segmentação de equipe para sua organização, que define como todas as equipes na hierarquia estão relacionadas entre si.
 
@@ -90,12 +90,12 @@ Não recomendamos isso para profissionais da informação, mas pode haver alguns
 Com a publicação de tarefas, sua organização pode publicar listas de tarefas direcionadas a locais específicos (equipes) em sua organização para definir e compartilhar um plano de trabalho a ser concluído nesses locais.
 
 - Pessoas na equipe de publicação, como lideranças corporativas ou regionais, podem criar listas de tarefas e publicá-las para equipes específicas.<br>
-    ![Captura de tela da publicação da tarefa](media/manage-tasks-app-publish.png)
+    ![Captura de tela da publicação de tarefas.](media/manage-tasks-app-publish.png)
 - Os gerentes nas equipes destinatárias podem analisar as listas de tarefas publicadas e atribuir tarefas individuais aos membros da equipe.<br>
-    ![Captura de tela da atribuição de uma tarefa](media/manage-tasks-app-assign.png)
+    ![Captura de tela da atribuição de uma tarefa.](media/manage-tasks-app-assign.png)
 - Os funcionários da linha de frente têm uma experiência móvel simples para ver as tarefas atribuídas a eles. Eles podem anexar fotos para mostrar seu trabalho quando apropriado e marcar suas tarefas como concluídas.
 - Editores e gerentes podem visualizar relatórios para ver a atribuição e o status de conclusão de tarefas em cada nível, incluindo por local (equipe), lista de tarefas e tarefa individual.<br>
-    ![Captura de tela de tarefas atribuídas no celular](media/manage-tasks-app-reporting.png)
+    ![Captura de tela das tarefas atribuídas no celular.](media/manage-tasks-app-reporting.png)
 
 Os usuários criam, gerenciam e publicam listas de tarefas na guia **Listas publicadas** do aplicativo Tasks. Essa guia só é exibida para um usuário se sua organização[configurar uma hierarquia de segmentação de equipe](#set-up-your-team-targeting-hierarchy) e o usuário estiver em uma equipe incluída na hierarquia. A hierarquia determina se o usuário pode publicar ou receber listas de tarefas e visualizar relatórios de listas recebidas.
 

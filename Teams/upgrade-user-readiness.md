@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dd52a83620b0d4d20547e0da14cafa11ce30dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fd023e96301661db9e181ab38e1b9b1f9fe3515
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627383"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731550"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Preparar um plano de preparação para usuários
 
-![Estágios da jornada de atualização, realçando o estágio de Preparação do Usuário](media/upgrade-banner-user-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação do Usuário")
+![Estágios da jornada de atualização, realçando o estágio de Preparação do Usuário.](media/upgrade-banner-user-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação do Usuário")
 
 Este artigo faz parte do estágio de Preparação do Usuário da sua jornada de atualização, uma atividade que você conclui paralelamente ao estágio de Preparação Técnica. Antes de prosseguir, confirme se você concluiu essas atividades de estágios anteriores:
 
@@ -45,8 +45,8 @@ Um plano de preparação ideal do usuário incorpora como você se comunicará, 
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Como criar um plano de preparação para facilitar e acelerar a adoção do usuário da nova solução?</li><li>Você tem a conscientização, o treinamento e os recursos de suporte corretos que se alinham à capacidade dos usuários de lidar com a mudança e com a pessoa do usuário como você definiu?</li></ul> |
-| ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use a lista abaixo para gerar ideias para seu plano de preparação. Selecione as atividades mais relevantes ou adicione suas próprias para projetar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de amplo alcance (para toda a organização) e campanhas direcionadas (para laggards ou personas específicas) para resultados máximos.</li></ul>|
+| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Como criar um plano de preparação para facilitar e acelerar a adoção do usuário da nova solução?</li><li>Você tem a conscientização, o treinamento e os recursos de suporte corretos que se alinham à capacidade dos usuários de lidar com a mudança e com a pessoa do usuário como você definiu?</li></ul> |
+| ![Um ícone que representa a próxima etapa.](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use a lista abaixo para gerar ideias para seu plano de preparação. Selecione as atividades mais relevantes ou adicione suas próprias para projetar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de amplo alcance (para toda a organização) e campanhas direcionadas (para laggards ou personas específicas) para resultados máximos.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

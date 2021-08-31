@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar o acesso a aplicativos personalizados construídos na Plataforma Do Microsoft Power no Microsoft Teams de administração.
-ms.openlocfilehash: bd2155342fa1618f8201a86db8f9fc07c2af0e90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3bf125415f3459913d7b23f5a496cb44eb51856
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628323"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730660"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos da Plataforma Microsoft Power no Microsoft Teams de administração
 
@@ -80,13 +80,13 @@ Para permitir ou bloquear usuários específicos em sua organização de acessar
 
 Por exemplo, para impedir que usuários específicos acessem aplicativos criados no Power Apps, crie uma política de permissão de aplicativo personalizada para bloquear o **Power Apps** compartilhado e atribua a política a esses usuários.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Captura de tela da política de permissão de aplicativo personalizada de exemplo com bloqueio Power Apps compartilhado":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Captura de tela da política de permissão de aplicativo personalizada de exemplo com bloqueio Power Apps compartilhado.":::
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Usar logs de auditoria para investigar a atividade de instalação da Plataforma Microsoft Power
 
 Você pode usar logs de auditoria para Teams para investigar eventos em  que os usuários instalaram aplicativos da Plataforma Microsoft Power a partir da seção Criado por seus colegas da página Aplicativos no Teams. Para fazer isso, pesquise o [log](./audit-log-events.md) de auditoria do evento **Teams** aplicativo instalado (na operação **AppInstalled)** para um usuário ou conjunto de usuários. Para encontrar aplicativos instalados de **Built por** seus colegas, procure o valor **TemplatedInstance** na propriedade **AppDistributionMode** em detalhes de um determinado registro. 
 
-:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Captura de tela do valor TemplatedInstance na propriedade AppDistributionMode":::
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Captura de tela do valor TemplatedInstance na propriedade AppDistributionMode.":::
 
 > [!NOTE]
 > Você pode exportar registros de auditoria no formato CSV para facilitar a filtragem.

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4587c17f1c6f0a6ad95f493876b456f6192f3aa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92064eb31561f74285c338edc6d482fad0b7496f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636455"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734140"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimento específico do recurso em Microsoft Teams
 
@@ -77,7 +77,7 @@ Quando você bloqueia ou permite um aplicativo na página [Gerenciar aplicativos
 1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Na página Gerenciar aplicativos, selecione o aplicativo e clique em **Bloquear** para bloqueá-lo ou clique em **Permitir** para permitir.
 
-    ![Captura de tela dos aplicativos bloqueados em configurações em toda a organização](media/resource-specific-consent-allow-block-apps.png)
+    ![Captura de tela dos aplicativos bloqueados em configurações em toda a organização.](media/resource-specific-consent-allow-block-apps.png)
 
 #### <a name="app-permission-policy-assigned-to-the-team-owner"></a>Política de permissão de aplicativo atribuída ao proprietário da equipe
 

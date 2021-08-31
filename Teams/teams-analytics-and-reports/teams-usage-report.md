@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso do Teams no centro de administr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2913093cfa45bb7e242dbe5452657cd74f9e187
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 112e21d01034765c4cb7cd31b40e1bb83f613b32
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627243"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733990"
 ---
 # <a name="microsoft-teams-usage-report"></a>Relatório de uso do Microsoft Teams
 
@@ -33,7 +33,7 @@ O relatório de uso do Teams no centro de administração do Microsoft Teams apr
 1. Na navegação à esquerda do centro de administração Microsoft Teams, clique **em Análise & relatórios** de  >  **uso.** Na guia **Exibir relatórios,** em **Relatório,** selecione **Teams uso**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.
 
-    ![Captura de tela do relatório de Teams de uso no centro de administração Teams com callouts](../media/teams-reports-teams-usage-with-callouts1.png "Captura de tela do relatório de Teams de uso no centro de administração Teams com callouts")
+    ![Captura de tela do relatório Teams de uso no centro de administração Teams com explicações explicativas.](../media/teams-reports-teams-usage-with-callouts1.png "Captura de tela do relatório de Teams de uso no centro de administração Teams com callouts")
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 
@@ -45,7 +45,7 @@ O relatório de uso do Teams no centro de administração do Microsoft Teams apr
 |**4**   |Você pode filtrar o que se vê no gráfico clicando em um item na legenda. Por exemplo, clique em **Total** de usuários ativos, Teams &  **canais** ativos, canais ativos ou Mensagens para ver apenas as informações relacionadas a cada um. Ao alterar esta seleção, as informações da tabela não são alteradas. |
 |**5**   |A tabela oferece um detalhamento do uso por equipe. <ul><li>**Nome da** equipe é o nome de exibição da equipe. Você pode clicar no nome da equipe para ir até a página de configurações da equipe no Microsoft Teams de administração. </li> <li>**Privacidade** refere-se à equipe ser particular ou pública.</li> <li>**Usuários ativos** é o número de usuários ativos na equipe no período de tempo especificado.</li><li>**Convidados** é o número de convidados na equipe no período de tempo especificado.</li> <li>**Canais ativos** é o número de canais que têm pelo menos um usuário ativo no período especificado.</li> <li>**Post Messages** é o número de todas as mensagens de postagem em canais no período de tempo especificado.</li> <li>**Mensagens de** resposta é o número de todas as mensagens de resposta nos canais no período de tempo especificado.</li> <li>**Reuniões organizadas** é o número de reuniões agendadas e ad hoc que um usuário organizou durante o período de tempo especificado. </li><li>**Mensagens urgentes** é o número de todas as mensagens urgentes no período de tempo especificado.</li><li>**Reações** é o número de todas as reações a mensagens no período de tempo especificado.</li><li>**Menções** é o número de todas as menções usadas em mensagens no período de tempo especificado.</li><li>**Mensagens de** canal é o número de mensagens exclusivas que os usuários da equipe postaram em chats de equipe durante o período especificado.</li> </li> </ul>Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**6**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela.|
-|**7**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique **em Exportar para Excel** e, na guia **Downloads,** clique em **Baixar** para baixar o relatório quando estiver pronto.<br><br>![Captura de tela da guia Downloads mostrando relatórios exportados para download](../media/teams-reports-export-to-csv.png)|
+|**7**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique **em Exportar para Excel** e, na guia **Downloads,** clique em **Baixar** para baixar o relatório quando estiver pronto.<br><br>![Captura de tela da guia Downloads mostrando relatórios exportados para download.](../media/teams-reports-export-to-csv.png)|
 |**8** |Os pontos de dados da série de tempo no gráfico mostram diferentes métricas de uso agregadas no locatário|
 |**9** |Os dados tabular representam diferentes métricas de uso agregadas por equipe|
 

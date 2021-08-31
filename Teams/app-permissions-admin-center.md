@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e4875eca0c7a9848d7676be77e4677de45cf8db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae8a74e03b56b841fed8cce3558fad96fe5c8680
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580235"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733340"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Exibir permissões de aplicativo e conceder consentimento de administrador no Microsoft Teams de administração
 
@@ -34,7 +34,7 @@ Exemplos de permissões solicitadas por aplicativos incluem a capacidade de ler 
 
 A **coluna Permissões** indica se um aplicativo tem permissões que precisam de consentimento. Você verá um link **Exibir detalhes** para cada aplicativo registrado no Azure AD que tem permissões que precisam de consentimento. Lembre-se de que isso se aplica somente a aplicativos personalizados e de terceiros. Você não verá esse link ou precisará conceder consentimento de administrador para aplicativos publicados pela Microsoft.
 
-:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Captura de tela da coluna Permissões na página Gerenciar aplicativos":::
+:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Captura de tela da coluna Permissões na página Gerenciar aplicativos.":::
 
 Para conceder consentimento em toda a organização a um aplicativo, siga estas etapas:
 
@@ -45,13 +45,13 @@ Para conceder consentimento em toda a organização a um aplicativo, siga estas 
 
 3. Em **Permissões em toda a organização,** selecione Revisar permissões e **consentimento.**
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Captura de tela de permissões em toda a organização na guia Permissões para um aplicativo":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Captura de tela de permissões em toda a organização na guia Permissões para um aplicativo.":::
 
     Você deve ser um administrador global para fazer isso. Essa opção não está disponível para administradores Teams de serviço.
 
 4. Na guia **Permissões,** revise as permissões solicitadas pelo aplicativo.
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Captura de tela de permissões solicitadas por um aplicativo":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Captura de tela das permissões solicitadas por um aplicativo.":::
 
     > [!IMPORTANT]
     > Conceder consentimento em toda a organização a um aplicativo permite que o aplicativo acesse os dados da sua organização. Revise cuidadosamente as permissões solicitadas pelo aplicativo antes de conceder consentimento.
@@ -59,7 +59,7 @@ Para conceder consentimento em toda a organização a um aplicativo, siga estas 
 
 Depois de aceitar as permissões, você verá uma mensagem em **Permissões** em toda a organização na página de detalhes do aplicativo para que você saiba que o consentimento foi concedido. Para exibir detalhes sobre as permissões do aplicativo, clique no **link** Azure Active Directory para ir para a página do aplicativo no portal do Azure AD.
 
-:::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="Captura de tela da mensagem exibida quando o consentimento concedido":::
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="Captura de tela da mensagem exibida quando o consentimento é concedido.":::
 
 Se os usuários em sua organização têm permissão para conceder consentimento e se um ou mais usuários concederem consentimento a um aplicativo específico, você também verá a mesma mensagem para que você saiba que o consentimento foi concedido e o link Azure Active Directory para a página do aplicativo no portal do Azure AD.
 
@@ -80,7 +80,7 @@ Para exibir permissões RSC para um aplicativo, siga estas etapas:
 2. Pesquise o aplicativo que você deseja, clique no nome do aplicativo para ir até a página de detalhes do aplicativo e selecione a **guia** Permissões.
 3. Em **permissões Graph de RSC (consentimento** específico de recurso) da Microsoft, revise as permissões RSC solicitadas pelo aplicativo.
 
-    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="Captura de tela de permissões RSC para um aplicativo":::
+    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="Captura de tela de permissões RSC para um aplicativo.":::
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

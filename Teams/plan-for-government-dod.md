@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5503ceefb331098e62ef8aa72bc82119a6e563
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dfe5daabc060a3d6a6e83ba78d90a33b35ec4398
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625983"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730460"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Planejar Office 365 Government - Implantações do DoD
 
@@ -53,7 +53,7 @@ A [Office 365 descrição do](/office365/servicedescriptions/office-365-platform
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se Office 365 Government - DoD é apropriado para sua organização.</li><li>Confirme se sua organização atende aos requisitos de qualificação.</li></ul> |
+| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se Office 365 Government - DoD é apropriado para sua organização.</li><li>Confirme se sua organização atende aos requisitos de qualificação.</li></ul> |
 
 > [!Note]
 > Office 365 Government - O DoD só está disponível nos Estados Unidos. Os clientes do Governo não-EUA podem escolher entre vários Office 365 Government [planos.](https://products.office.com/en/government/compare-office-365-government-plans)
@@ -69,7 +69,7 @@ Recomendamos que você tenha tempo [](enable-features-office-365.md) para analis
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você precisará modificar qualquer uma das configurações de segurança padrão Office 365 Government - DoD, resolvendo primeiro entender o impacto de quaisquer alterações que você possa fazer.</li></ul> |
+| ![Um ícone que representa um ponto de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você precisará modificar qualquer uma das configurações de segurança padrão Office 365 Government - DoD, resolvendo primeiro entender o impacto de quaisquer alterações que você possa fazer.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---dod"></a>Etapa 4. Entenda quais Teams recursos estão disponíveis no Office 365 Government - DoD

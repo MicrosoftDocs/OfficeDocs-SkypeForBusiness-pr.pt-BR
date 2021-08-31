@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumo: leia este tópico para saber mais sobre o Gerenciador de Estatísticas para Skype for Business Server.'
-ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612070"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730750"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar o Gerenciador de Estatísticas do Skype for Business Server
 
@@ -122,7 +122,7 @@ Em uma implantação local, um único servidor hospeda todos os componentes do G
 
 O diagrama a seguir mostra uma implantação local, na qual o sistema de cache Do Gerenciador de Estatísticas, Hub, Ouvinte e Redis está hospedado em um único computador. O Gerenciador de Estatísticas está monitorando três servidores Skype for Business, cada um deles tem um único Agente transmitindo dados para o Ouvinte. Os usuários se conectam a um único site para exibir todos os dados agregados pelo Gerenciador de Estatísticas:
 
-![Implantação local do Gerenciador de Estatísticas](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Implantação local do Gerenciador de Estatísticas.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>Requisitos
 <a name="BKMK_Requirements"> </a>

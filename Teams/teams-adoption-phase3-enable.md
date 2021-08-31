@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586503"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733720"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de adoção do Microsoft Teams - Dimensionamento
 
@@ -41,4 +41,4 @@ Nesta fase, você usará seus aprendizados, equipe de projetos de talentos e rel
 7. Prepare-se para o envolvimento comercial em andamento.
 8. Prepare-se para análises de & de adoção em andamento.
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Definir resultados e sucesso](teams-adoption-define-outcomes.md)
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)

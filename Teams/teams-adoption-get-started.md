@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f3055c30c0b524927faa016ff5b1d371152a208
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab173455ea4de3ee141fb1d498945f22a3e3e9ae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613490"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733730"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Como começar a promover a adoção do Microsoft Teams
 
@@ -59,4 +59,4 @@ Cada projeto de adoção varia de tamanho e complexidade com base em seu ambient
 Cada uma dessas fases de adoção depende de sua preparação técnica e ambiental para Teams. Vamos começar!
 
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: Microsoft Teams [de adoção 1: Iniciar](teams-adoption-phase1.md)|
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: [Microsoft Teams fase de adoção 1: Iniciar](teams-adoption-phase1.md)|

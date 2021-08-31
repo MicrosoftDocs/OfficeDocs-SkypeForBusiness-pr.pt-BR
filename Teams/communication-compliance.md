@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 767c69d2c529b7fe6c93b667d6150e7b64d46ef2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: accdfbb8edc7e47013a96574c1a0a0b1ed46a89e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631365"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731070"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformidade de comunicação com Microsoft Teams
 
@@ -52,18 +52,18 @@ Teams administradores podem configurar políticas de conformidade de comunicaç�
 
 Depois de configurar suas políticas e receber alertas de conformidade de comunicação para mensagens Microsoft Teams, é hora de os revisadores de conformidade em sua organização tomarem medidas sobre essas mensagens. Os revisadores podem ajudar a proteger sua organização, revisando alertas de conformidade de comunicação e removendo mensagens sinalizadas da exibição Microsoft Teams.
 
-![Remover uma mensagem em Teams](./media/communication-compliance-remove-teams-message.png)
+![Remova uma mensagem em Teams.](./media/communication-compliance-remove-teams-message.png)
 
 Mensagens e conteúdo removidos são substituídos por notificações para os visualizadores explicando que a mensagem ou conteúdo foi removido e qual política é aplicável à remoção. O remetente da mensagem ou conteúdo removido também é notificado do status de remoção e fornecido com o conteúdo da mensagem original para contexto relacionado à sua remoção. O remetente também pode exibir a condição de política específica que se aplica à remoção da mensagem.
 
 Exemplo de dica de política vista pelo remetente:
 
-![Dica de política para remetente](./media/communication-compliance-warning-1.png)
+![Dica de política para remetente.](./media/communication-compliance-warning-1.png)
 
 Exemplo de notificação de condição de política vista pelo remetente:
 
-![Informações de condição de política para remetente](./media/communication-compliance-warning-2.png)
+![Informações de condição de política para remetente.](./media/communication-compliance-warning-2.png)
 
 Exemplo de dica de política vista pelo destinatário:
 
-![Dica de política para destinatário](./media/communication-compliance-warning-3.png)
+![Dica de política para destinatário.](./media/communication-compliance-warning-3.png)

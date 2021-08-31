@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a895b804d78dd3fe5ff45fac40457eaed2cf9c43d80e85137ad2a570c1e2018d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 95f284211f76017ee4dca85fbbf03c8a454aaa26
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322583"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733880"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -84,7 +84,7 @@ Microsoft Teams dados serão exibidos como IM ou Conversas na saída de exporta�
 
 Ao exibir o arquivo .pst para a equipe, todas as conversas estão localizadas na pasta Chat de Equipe em Histórico de Conversas. O título da mensagem contém o nome da equipe e o nome do canal. Por exemplo, a imagem abaixo mostra uma mensagem de Bob que Project canal padrão 7 da equipe de Especificações de Manufatura.
 
-![Captura de tela de uma pasta de Chat de Equipe na caixa de correio de um usuário no Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Captura de tela de uma pasta de bate-papo da equipe na caixa de correio de um usuário no Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 Chats privados na caixa de correio de um usuário são armazenados na pasta Chat de Equipe em Histórico de Conversas.
 
@@ -204,11 +204,11 @@ Ao exibir o conteúdo do cartão nos resultados da pesquisa de conteúdo, o cont
 
 **Conteúdo do cartão em Teams**
 
-![Conteúdo do cartão Teams mensagem de canal](media/CardContentTeams.png)
+![Conteúdo do cartão Teams mensagem de canal.](media/CardContentTeams.png)
 
 **Conteúdo do cartão nos resultados da pesquisa**
   
-![Mesmo conteúdo de cartão nos resultados de uma pesquisa de conteúdo](media/CardContentEdiscoverySearchResults.png)
+![Mesmo conteúdo de cartão nos resultados de uma pesquisa de conteúdo.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
 > Para exibir imagens do conteúdo do cartão nos resultados da pesquisa neste momento (como as marcas de seleção na captura de tela anterior), você precisa estar Teams no Teams (em uma guia diferente na mesma sessão do navegador que você usa para exibir os resultados da https://teams.microsoft.com) pesquisa. Caso contrário, os espaço reservados de imagem serão exibidos.

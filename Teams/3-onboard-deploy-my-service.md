@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c027da20c6c305fd5924cd6483c5cbd63b8ddd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624933"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733536"
 ---
 # <a name="deploy-my-service"></a>Implantar meu serviço
 
@@ -69,7 +69,7 @@ O foco da playbook é abordar os fatores que influenciam a percepção do usuár
 
 O [Manual de Reprodução de Habilitação de Site para Voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) é uma Microsoft Excel de trabalho. Cada uma dessas cinco áreas de foco é uma planilha separada na pasta de trabalho, e cada tarefa e atividade de implantação é agrupada em uma dessas planilhas.
 
-![Captura de tela do playbook de habilitação do site](media/deploy-my-service-image1.png "Captura de tela do playbook")
+![Captura de tela do playbook de habilitação do site.](media/deploy-my-service-image1.png "Captura de tela do playbook")
 
 > [!NOTE]
 > Você criará uma instância separada do playbook para cada site no escopo para sua Teams de lançamento.
@@ -88,17 +88,17 @@ Independentemente do tamanho e da complexidade do local, a habilitação de cada
 
 4. Insira o **nome do site, o código do site** e a data de início **planejada,** conforme ilustrado abaixo. Esta é uma etapa crítica, pois ajusta os prazos recomendados para cada atividade no playbook.
 
-   ![Exemplo com nome do site, código do site e data de início planejada](media/deploy-my-service-image2.png "Exemplo com o nome do site de Nova York, código do site NY01 e data de início planejada de 20-Mar-18")
+   ![Exemplo com nome do site, código do site e data de início planejada.](media/deploy-my-service-image2.png "Exemplo com o nome do site de Nova York, código do site NY01 e data de início planejada de 20-Mar-18")
 
 5. Revise cada atividade, tome as ações necessárias e atualize o status enquanto você passa pela linha do tempo. O status é representado graficamente, conforme descrito abaixo:
   
-   - ![Ilustração de uma marca de verificação verde Sim, ou não aplicável ](media/deploy-my-service-image3.png) **(verde):** a atividade foi concluída ou não é aplicável para este site e nenhuma ação é necessária.</li>
-   - ![Ilustração de um ponto de exclamação amarelo A atividade ainda não foi concluída ](media/deploy-my-service-image4.png) <strong>(amarela):</strong> a atividade ainda não foi concluída e deve ser atualizada para Sim ou Não em sua agenda.</li>
-   - ![Ilustração de um X vermelho indicando não (vermelho): a atividade não pode ser concluída devido a um problema e deve ser carregada para a reunião ](media/deploy-my-service-image5.png) <strong></strong> de status do projeto.</li></ul>
+   - ![Ilustração de uma marca de verificação verde.](media/deploy-my-service-image3.png) **Sim ou não aplicável (verde):** A atividade foi concluída ou não é aplicável para este site e nenhuma ação é necessária.</li>
+   - ![Ilustração de um ponto de exclamação amarelo.](media/deploy-my-service-image4.png) <strong>A atividade ainda não foi concluída (amarelo):</strong> A atividade ainda não foi concluída e deve ser atualizada para Sim ou Não em sua agenda.</li>
+   - ![Ilustração de um X vermelho indicando não.](media/deploy-my-service-image5.png) <strong>Não (vermelho):</strong> A atividade não pode ser concluída devido a um problema e deve ser levada para a reunião de status do projeto.</li></ul>
 
 6. O status é rolado para cima em cada seção e o título da seção é formatado com um desses indicadores de status. **O status semanal** também é atualizado automaticamente.
 
-![Captura de tela das roll-ups de status semanais no playbook](media/deploy-my-service-image6.png "Captura de tela das roll-ups de status semanais no playbook")
+![Captura de tela das roll-ups de status semanais no playbook.](media/deploy-my-service-image6.png "Captura de tela das roll-ups de status semanais no playbook")
 
 > [!TIP]
 > Repita as etapas acima para todos os locais que você tem.

@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso Teams PSTN no centro de adminis
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c83605e05e5d28b4ac230487baa5de47dd74aa5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf7432f33162b51199beb7783f68dac86f88d697
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631235"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731030"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams Relatório de uso de PSTN
 
@@ -42,7 +42,7 @@ A **guia Planos de** Chamadas mostra informações, incluindo o número de minut
 
 ### <a name="calling-plans"></a>Planos de Chamadas
 
-[Captura de tela do relatório de uso ![do PSTN planos](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Captura de tela do relatório de uso do PSTN no centro de administração Microsoft Teams com callouts numerados") de chamada no centro de administração ](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
+[! [Captura de tela do relatório de uso do PSTN planos de chamada no centro de administração] (.. /media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Captura de tela do relatório de uso do PSTN no centro de administração Microsoft Teams com explicações numeradas".](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Texto Explicativo |Descrição  |
 |--------|-------------|
@@ -57,7 +57,7 @@ A **guia Planos de** Chamadas mostra informações, incluindo o número de minut
 
 ### <a name="direct-routing"></a>Roteamento Direto
 
-[![Captura de tela do relatório de uso de PSTN](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Captura de tela do relatório de uso de PSTN de Roteamento Direto no centro de administração Microsoft Teams com callouts numerados") de Roteamento Direto no centro de administração](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
+[! [Captura de tela do relatório de uso do PSTN de Roteamento Direto no centro de administração] (.. /media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Captura de tela do relatório de uso de PSTN de Roteamento Direto no centro de administração Microsoft Teams com explicações explicativas numeradas".](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Texto Explicativo |Descrição  |
 |--------|-------------|

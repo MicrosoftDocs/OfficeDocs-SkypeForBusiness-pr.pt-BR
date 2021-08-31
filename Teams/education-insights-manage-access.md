@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8cfa1ea62472255825684d2e168be1411bb643
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604530"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730680"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Gerenciar acesso do usuário ao Education Insights
 
@@ -41,7 +41,7 @@ Para fornecer o Insights no nível da organização, você deve [importar dados 
 
 * Abra o aplicativo Insights, clique em **Configurações** e, selecione **Permissões de usuário**
 
-:::image type="content" source="media/insights-user-permissions.png" alt-text="Configurações":::
+:::image type="content" source="media/insights-user-permissions.png" alt-text="Configurações.":::
 
 > [!NOTE]
 > Quando você fornece permissão para um nível organizacional, o usuário pode ver todas as unidades da organização abaixo dele.
@@ -69,7 +69,7 @@ Se você usar o [formato de arquivo SDS V2.1](/schooldatasync/sds-v2.1-csv-file-
 * Para cada função, clique no ícone de lápis para selecionar o nível de permissão. O padrão é que a função não tem permissão para ver Insights.
 * Selecione o nível de permissão:**Exibir dados de sua organização** ou **Nenhum**.
 
-  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Painel de permissões baseadas em funções":::
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Painel de permissões baseadas em funções.":::
   
   Se você vir um usuário na lista que precisa de um nível de permissão com mais nuances, ajuste sua função e/ou organização nos [dados importados do seu SIS](education-insights-sis-data-sync.md) e [conceda a eles permissões individuais](#grant-individual-permission-to-a-user) (se necessário )
 
@@ -86,7 +86,7 @@ Use permissões individuais para ajustar a permissão de um usuário ou atribuir
   
   Você verá que os usuários em sua organização educacional concederam permissão individual. 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Permissões individuais":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Permissões individuais.":::
   
 ### <a name="grant-individual-permission-to-a-user"></a>Conceder permissão individual a um usuário
 * Clique em **Conceder permissão individual** na parte superior esquerda da tela.
@@ -103,6 +103,6 @@ Use permissões individuais para ajustar a permissão de um usuário ou atribuir
   * **Organização específica** significa que o usuário vê a unidade organizacional selecionada e todas as unidades da organização abaixo dela. Comece a digitar e selecione a unidade organizacional na lista.
   * **Nenhum** significa que o usuário só vê as unidades da organização atribuídas automaticamente por sua função (se houver).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Painel de permissões individuais":::.
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Painel de permissões individuais.":::
 
 * Clique em **Salvar alterações** para salvar.

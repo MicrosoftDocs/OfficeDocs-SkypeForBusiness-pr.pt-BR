@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e51ae79f1bebf03c7f9b54f5390d57f134e9415
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a1e0be197526a9ea8c1a04bada35670af7510518
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578215"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731300"
 ---
 # <a name="operate-your-service"></a>Operar seu serviço
 
-![Atualizar diagrama de jornada, enfatizando o estágio de Excelência Operacional](media/upgrade-banner-op-excellence.png "Estágios da jornada de atualização, com ênfase no estágio de Excelência Operacional")
+![Atualize o diagrama de jornada, enfatizando o estágio de Excelência Operacional.](media/upgrade-banner-op-excellence.png "Estágios da jornada de atualização, com ênfase no estágio de Excelência Operacional")
 
 Este artigo faz parte do estágio de Excelência Operacional da sua jornada de atualização, que começa assim que você conclui a atualização do Skype for Business para o Teams.
 
@@ -45,7 +45,7 @@ O gerenciamento de serviços abrange todas as atividades e processos envolvidos 
 
 As tarefas e atividades neste guia são agrupadas em oito categorias, conforme descrito no diagrama a seguir. Cada uma dessas categorias será expandida nas seções a seguir.
 
-![Um diagrama que representa uma lista de categorias de tarefas e atividades](media/operate-my-service-image1.png "Um diagrama que representa uma lista de categorias de tarefas e atividades que o gerenciamento de serviços Teams inclui. O diagrama também mostra que o gerenciamento de serviços é em grande parte uma tarefa do cliente.")
+![Um diagrama que representa uma lista de categorias de tarefas e atividades.](media/operate-my-service-image1.png "Um diagrama que representa uma lista de categorias de tarefas e atividades que o gerenciamento de serviços Teams inclui. O diagrama também mostra que o gerenciamento de serviços é em grande parte uma tarefa do cliente.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para Teams.</li></ul></td></tr>
@@ -322,7 +322,7 @@ NPS é um índice que varia de –100 a 100 que mede a disposição de um client
 
 - De 1 a 6 são Detratores: Clientes insatisfeitos que podem danificar seu serviço e impedir o crescimento.
 
-![Um diagrama que demonstra a escala NPS](media/operate-my-service-image2.png "Este diagrama demonstra a escala NPS. Ele mostra que as classificações de 0 a 6 são destrators, 7 a 8 são passivas e 9 a 10 são promotores.")
+![Um diagrama que demonstra a escala NPS.](media/operate-my-service-image2.png "Este diagrama demonstra a escala NPS. Ele mostra que as classificações de 0 a 6 são destrators, 7 a 8 são passivas e 9 a 10 são promotores.")
 
 Embora o número NPS base seja útil, você obterá o maior valor analisando comentários do usuário. Eles ajudarão você a entender por que o usuário recomendaria (ou não) Teams outras pessoas. Esses comentários podem fornecer comentários valiosos para ajudar as equipes de gerenciamento do projeto ou do serviço a entender os ajustes necessários para fornecer um serviço de qualidade.
 
