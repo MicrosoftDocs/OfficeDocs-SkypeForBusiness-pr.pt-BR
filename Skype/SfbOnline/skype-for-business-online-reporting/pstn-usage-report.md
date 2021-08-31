@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: A nova Skype for Business de Relatórios do Centro de Administração mostra a atividade de chamada e audioconferência em sua organização. Ele permite que você faça uma análise de relatórios para dar uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir detalhes de uso de PSTN de Audioconferência, incluindo o custo da chamada para que você possa entender seus detalhes de cobrança de chamada e uso para determinar o uso em sua organização.
-ms.openlocfilehash: 313b6e7528604cfca3b7d7b4a66986337617afa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad2ac65300e0cb1f1d1b3e879199f04506ceeb6c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614901"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731620"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso da PSTN
 
@@ -41,7 +41,7 @@ Este relatório, juntamente com os outros relatórios Skype for Business, fornec
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Como acessar o relatório de detalhes do uso de PSTN do Skype for Business
 
-![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração**
 
 - Vá para o centro de administração > **centros de administração** Skype for Business de administração Relatórios detalhes de uso  >    >    >  **PSTN**.
     
@@ -54,10 +54,10 @@ Você pode obter uma visão do uso de PSTN do Skype for Business feito pelo seu 
   
 Esta é a aparência do relatório.
   
-[![Skype for Business relatório de uso PSTN ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[![Skype for Business relatório de uso PSTN. ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão do uso de PSTN por usuário. Isso mostra todos os usuários que Skype for Business atribuídos a eles e seu uso PSTN. Você pode adicionar/remover colunas na tabela.
+![Número 1.](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão do uso de PSTN por usuário. Isso mostra todos os usuários que Skype for Business atribuídos a eles e seu uso PSTN. Você pode adicionar/remover colunas na tabela.
 *    **A ID da** chamada é a ID de chamada de uma chamada. É um identificador para a chamada que é usada ao chamar o suporte de serviço da Microsoft.
 *    **ID de usuário** é o nome que o usuário utiliza para entrar.
 *    **Telefone número** é o Skype for Business telefone que recebeu a chamada para chamadas de entrada ou o número discado para chamadas de saída.
@@ -107,7 +107,7 @@ Esta é a aparência do relatório.
 > [!NOTE]
 > Se você tiver um plano de chamada Telstra ou Softbank, não verá nenhum registro de detalhes de chamada no relatório de uso do PSTN. Entre em contato com Telstra ou Softbank para saber mais sobre suas necessidades de relatórios. 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas.
+![Número 2.](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas.
  ***
 
 ## <a name="exporting-pstn-usage-report"></a>Relatório de uso de PSTN de exportação

@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 6102b193f49953787f9ab25d491da76f3f567dac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27cd37df8516973ddf9fbe6401a1e4c21ce01e0a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588113"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731570"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implantar Salas do Microsoft Teams usando Microsoft Endpoint Configuration Manager
 
@@ -49,7 +49,7 @@ Com os métodos fáceis de usar fornecidos pelo Configuration Manager, você pod
 
 Use a abordagem ilustrada abaixo para orientá-lo através de sua configuração do Configuration Manager e personalizar os pacotes de exemplo e scripts fornecidos ao longo desta orientação, conforme necessário para sua organização.
 
-![Salas do Microsoft Teams de implantação usando o Configuration Manager](../media/room-systems-scale-image1.png)
+![Salas do Microsoft Teams de implantação usando o Configuration Manager.](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > Essa solução só foi testada com implantações Surface Pro baseadas em Surface Pro. Siga as diretrizes do fabricante para configurações que não se baseiam em Surface Pro.
@@ -746,7 +746,7 @@ Depois de concluir as Microsoft Endpoint Configuration Manager de tarefas, você
 
 9.  Depois que a sequência de tarefas de implantação terminar de configurar o dispositivo, você verá a tela de configuração a seguir que solicita que você configure as configurações Salas do Microsoft Teams aplicativo.
 
-    ![Tela de instalação inicial para Salas do Microsoft Teams aplicativo](../media/room-systems-scale-image2.png)
+    ![Tela de instalação inicial para Salas do Microsoft Teams aplicativo.](../media/room-systems-scale-image2.png)
 
 10.  Conecte o Surface Pro no console Salas do Microsoft Teams e configure as configurações do aplicativo.
 

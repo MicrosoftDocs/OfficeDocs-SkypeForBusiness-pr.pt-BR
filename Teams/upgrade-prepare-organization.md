@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf2faf2c70fb06efe67e2b108d44612fb2d4b430
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7438b1b4e1625e4c3e0cabed77af517eff3cb7b3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634785"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731580"
 ---
 # <a name="prepare-your-organization"></a>Preparar sua organização
 
-![Estágios da jornada de atualização, com ênfase no estágio de Preparação do Usuário](media/upgrade-banner-user-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação do Usuário")
+![Estágios da jornada de atualização, com ênfase no estágio de Preparação do Usuário.](media/upgrade-banner-user-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação do Usuário")
 
 Este artigo faz parte do estágio de Preparação do Usuário da sua jornada de atualização, uma atividade que você conclui paralelamente ao estágio de Preparação Técnica. Antes de prosseguir, confirme se você concluiu essas atividades de estágios anteriores:
 

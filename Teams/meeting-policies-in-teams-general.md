@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações gerais de política de reunião Teams.
-ms.openlocfilehash: 72cfbc77b6abcf264ddf96f66d3726031a2e31cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589673"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731660"
 ---
 # <a name="meeting-policy-settings---general"></a>Configurações de política de reunião - Geral
 
@@ -47,13 +47,13 @@ Este artigo descreve as seguintes configurações gerais de política para reuni
 
 Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião ad hoc em um Teams canal. Se você ativar isso, os usuários poderão clicar no botão **Atender** para iniciar uma reunião ad hoc ou agendar uma reunião no canal. O valor padrão é True.
 
-[![Captura de tela mostrando o ícone Reunir agora abaixo de uma mensagem ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![Captura de tela mostrando o ícone Reunir agora abaixo de uma mensagem. ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="allow-the-outlook-add-in"></a>Permitir o suplemento do Outlook
 
 Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se as reuniões do Teams podem ser agendadas a partir do Outlook (Windows, Mac, Web e dispositivo móvel).
 
-![Captura de tela mostrando a capacidade de agendar uma nova reunião](media/meeting-policies-outlook-add-in.png)
+![Captura de tela mostrando a capacidade de agendar uma nova reunião.](media/meeting-policies-outlook-add-in.png)
 
 Se você desativar isso, os usuários não poderão agendar Teams reuniões quando criarem uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a opção **Nova reunião do Teams** não será exibida na faixa de opções.
 
@@ -65,7 +65,7 @@ Se essa política estiver desligada, os usuários não poderão criar novas reun
 
 Agendar uma reunião será desabilitada.
 
-![Captura de tela mostrando a opção agendar uma reunião no Teams](media/schedule-meeting-option.png)
+![Captura de tela mostrando a opção Agendar uma reunião Teams.](media/schedule-meeting-option.png)
 
 A seleção de canal está desabilitada.
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Resumo: saiba como preparar seu domínio do Active Directory para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: a4a224da84d1e6b4b001e9c561529b1c64b0e995
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 928873f44b9cb3ad12069964e1b7f93b410f13de
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609808"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731630"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype for Business Server: Preparar o Active Directory
  
@@ -30,7 +30,7 @@ ms.locfileid: "58609808"
   
 Skype for Business Server funciona de perto com o Active Directory. Você deve preparar o domínio do Active Directory para trabalhar com Skype for Business Server. Esse processo é realizado no Assistente de Implantação e só é feito uma vez para o domínio. Isso porque o processo cria grupos e modifica o domínio, e você precisa fazer isso apenas uma vez. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 em ordem e após as etapas 1 a 5, conforme descrito no diagrama. Preparar o Active Directory é a etapa 4 de 8. Para obter mais informações sobre o planejamento do Active Directory, consulte [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md).
   
-![diagrama de visão geral](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
+![diagrama de visão geral.](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Preparar o Active Directory
 
