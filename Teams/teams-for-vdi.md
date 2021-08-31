@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be5a7181a3a3679b1cef33124bcd7ad9d689c7a8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c1353d46d77f12ea7d829f4170f6dedf335e9395
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602076"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729530"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -66,9 +66,9 @@ As plataformas a seguir têm soluções de infraestrutura de área de trabalho v
 
 |Plataforma|Solução|
 |----|---|
-|![O logotipo que representa a Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Área de trabalho virtual do Azure</a> |
-|![O logotipo que representa Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
-|![O logotipo que representa a VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
+|![O logotipo que representa a Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Área de trabalho virtual do Azure</a> |
+|![O logotipo que representa Citrix.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
+|![O logotipo que representa a VMware.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Área de trabalho virtual do Azure
 
@@ -86,7 +86,7 @@ Para saber mais sobre os requisitos de servidor e cliente mais recentes, [consul
 
 O VMware Horizon é uma plataforma moderna para entrega segura de desktops virtuais e aplicativos em toda a nuvem híbrida. Para oferecer uma ótima experiência do usuário final, o VMware Horizon fornece otimização de mídia para Teams. Essa otimização melhora a produtividade geral em áreas de trabalho virtuais e aplicativos e aprimora a experiência do usuário ao chamar e reunião usando Teams.
 
-Você pode baixar a versão mais recente do VMware Horizon na [página Downloads do VMware.](https://my.vmware.com/web/vmware/downloads/#all_products) Os componentes de otimização de mídia necessários fazem parte do Agente do Horizonte e do Cliente horizon por padrão e não há necessidade de instalar qualquer plug-in adicional para usar o recurso de otimização para Teams.
+Você pode baixar a versão mais recente do VMware Horizon na [página Downloads do VMware.](https://customerconnect.vmware.com/downloads/#all_products) Os componentes de otimização de mídia necessários fazem parte do Agente do Horizonte e do Cliente horizon por padrão e não há necessidade de instalar qualquer plug-in adicional para usar o recurso de otimização para Teams.
 
 Para obter os requisitos e instruções mais recentes sobre como configurar a otimização de mídia para Teams, consulte [este site VMware](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
@@ -158,7 +158,7 @@ Microsoft 365 Apps para Grandes Empresas não dá suporte a instalações por m�
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>Como excluir Teams implantação por meio Microsoft 365 Apps para Grandes Empresas
 
-Para saber mais sobre Teams e Microsoft 365 Apps para Grandes Empresas, consulte Como excluir o Teams de novas instalações do Microsoft 365 Apps para Grandes Empresas e Usar [a](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) Política de Grupo para controlar a instalação do [Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+Para saber mais sobre Teams e Microsoft 365 Apps para Grandes Empresas, consulte Como excluir o Teams de novas instalações do Microsoft 365 Apps para Grandes Empresas e Usar [a](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) Política de Grupo para controlar a instalação do [Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Implantar o Teams da área de trabalho na VM
 
@@ -227,7 +227,7 @@ Há uma variedade de configurações de configuração virtualizadas, cada uma c
 
 Além de chat e colaboração, o Teams em VDI com chamada e reuniões está disponível com plataformas de provedores de virtualização com suporte. Os recursos suportados são baseados na pilha de mídia WebRTC e na implementação do provedor de virtualização. O diagrama a seguir fornece uma visão geral da arquitetura.
 
-![Diagrama mostrando Teams na arquitetura VDI](media/teams-on-vdi-architecture.png)
+![Diagrama mostrando Teams na arquitetura VDI.](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
 > Se você atualmente executar o Teams sem otimização de AV na VDI e usar recursos que ainda não são suportados para otimização (como Dar e assumir controle ao compartilhar aplicativos), você terá que definir políticas de provedor de virtualização para desativar Teams redirecionamento. Isso significa que Teams sessões de mídia não serão otimizadas. Para saber mais sobre como definir políticas para desativar Teams redirecionamento, entre em contato com seu provedor de virtualização.

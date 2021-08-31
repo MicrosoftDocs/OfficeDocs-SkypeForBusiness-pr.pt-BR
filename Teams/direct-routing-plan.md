@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: 8c699b8893a35383b106271eacea2503f77495dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1239445effd958b97e9f50d4be9ed686ed594685
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582335"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728890"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -32,7 +32,7 @@ ms.locfileid: "58582335"
 
 Telefone Microsoft O Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente ao Telefone Microsoft System.  Com esse recurso, por exemplo, você pode configurar a conectividade PSTN (Rede Telefônica Pública Comutada) local com o cliente Microsoft Teams, conforme mostrado no diagrama a seguir: 
 
-![Diagrama mostrando a configuração da conectividade PSTN local](media/PlanDirectRouting1-PSTNwithTeams.png "Configuração da conectividade PSTN local com Microsoft Teams cliente")
+![Diagrama mostrando a configuração da conectividade PSTN local.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuração da conectividade PSTN local com Microsoft Teams cliente")
 
   > [!NOTE]
   > Skype for Business Online também permite emparelhar um SBC fornecido pelo cliente, mas isso requer uma implantação local do Skype for Business Server ou uma edição especial do Skype for Business, chamada Cloud Connector, entre o SBC e o Microsoft Cloud. Esse cenário é conhecido como voz híbrida. Por outro lado, o Roteamento Direto permite uma conexão direta entre o SBC com suporte e o Microsoft Cloud.

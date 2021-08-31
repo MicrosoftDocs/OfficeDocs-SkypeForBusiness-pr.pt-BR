@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Para recuperação de desastres, Skype for Business Server oferece emparelhamento de pool com failover no caso de um pool cair.
-ms.openlocfilehash: 728419a20fe99db004b739e599355c9b64a8844f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603830"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728830"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperação de desastre de pool de front-end no Skype for Business Server
  
@@ -26,7 +26,7 @@ Para recuperação de desastres, Skype for Business Server oferece emparelhament
   
 Para as opções de recuperação de desastres mais robustas Skype for Business Server, implante pares de pools de Front-End em dois sites geograficamente dispersos. Cada site tem um pool de Front-End que é emparelhado com um pool de Front-End correspondente no outro site. Ambos os sites estão ativos e o Serviço de Backup fornece replicação de dados em tempo real para manter os pools sincronizados. Consulte [Deploy paired Front End pools for disaster recovery in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) if you want to implement Front End pool pairing.
   
-![Mostra pools de front-end em dois sites diferentes, emparelhados uns com os outros](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![Mostra Pools de Front-End em dois sites diferentes, emparelhados uns com os outros.](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
 Se o pool em um site falhar, você poderá fazer fail over dos usuários desse pool para o pool no outro site, que atende a todos os usuários em ambos os pools. Para o planejamento de capacidade, você deve projetar cada pool para poder lidar com a carga de trabalho de todos os usuários em ambos os pools em caso de desastre.
   
@@ -66,7 +66,7 @@ O armazenamento de Gerenciamento Central contém dados de configuração sobre o
   
 Se você emparelhar o pool que hospeda o armazenamento de Gerenciamento Central, um banco de dados do armazenamento de Gerenciamento Central de backup será definido no pool de backup. A qualquer momento, um dos dois bancos de dados do Armazenamento de Gerenciamento Central está ativo e o outro é um modo de espera. O conteúdo é replicado pelo Serviço de Backup do banco de dados ativo para o modo de espera.
   
-![Mostra dois Pools front-end, um com o armazenamento CMS ativo e o outro com o armazenamento CMS de backup passivo](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![Mostra dois Pools front-end, um com o armazenamento CMS ativo e o outro com o armazenamento CMS de backup passivo.](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
 Durante um failover de pool que envolve o pool que hospeda o armazenamento de Gerenciamento Central, você deve falhar no armazenamento de Gerenciamento Central antes de falhar no pool de Front-End.
   

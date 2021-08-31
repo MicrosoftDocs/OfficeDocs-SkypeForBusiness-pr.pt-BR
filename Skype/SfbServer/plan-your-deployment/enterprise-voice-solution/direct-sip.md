@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: As conexões SIP diretas são suportadas entre Skype for Business Server gateways PSTN e IP-PBX em Enterprise Voice.
-ms.openlocfilehash: 40c8f5df636fcb6219af3d428de41c206bae906c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a3a2354074819f40780896897a8e9a2790a9421
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596515"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726260"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexões SIP diretas em Skype for Business Server
 
@@ -56,7 +56,7 @@ A figura a seguir mostra a topologia genérica para implantação de Enterprise 
 
 **Opção de implantação incremental**
 
-![Diagrama de Opção de Migração De Departamento](../../media/Fig28_Departmental_migration_option.jpg)
+![Diagrama de Opção de Migração Do Departamento.](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
 > Se você estiver conectando sua implantação Skype for Business Server a um parceiro SIP direto certificado, não será necessário um gateway PSTN (rede telefônica pública comutado) entre o Servidor de Mediação e o PBX. Para ver uma lista de parceiros SIP diretos certificados, consulte o Programa de Interoperabilidade Aberta de Comunicações [Unificadas da Microsoft.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
@@ -97,7 +97,7 @@ A figura a seguir mostra uma topologia típica para uma implantação somente Vo
 
 **Opção de implantação somente voIP**
 
-![Opção de implantação greenfidle](../../media/Fig29_Greenfield_deployment_option.jpg)
+![Opção de implantação greenfidle.](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
 > O caminho de mídia mostrado nesta figura tem bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia será roteado pelo Servidor de Mediação.

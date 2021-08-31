@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Leia este tópico para saber como monitorar sua implantação do Cloud Connector versão 2.1 e posterior usando o Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627723"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729020"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Monitor Cloud Connector utilizando Operations Management Suite (OMS).
 
@@ -55,7 +55,7 @@ Antes de usar o OMS para monitorar a implantação do Cloud Connector, você pre
 
 Você precisará configurar seu ambiente local do Cloud Connector para usar o OMS. Para fazer isso, você precisará da ID e da chave do espaço de trabalho OMS, que você pode encontrar usando o portal OMS da seguinte forma: Configurações - Fontes Conectadas - servidores \> \> Windows:
 
-![Captura de tela para OMS do Cloud Connector](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![Captura de tela para OMS do Cloud Connector.](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 A forma como você configura o Cloud Connector para usar o OMS depende do cenário:
 
@@ -104,7 +104,7 @@ No portal OMS, você deve especificar informações sobre os logs de eventos e o
 
    - Lync Server
 
-   - Aplicativo
+   - Application
 
      > [!NOTE]
      > Você deve inserir manualmente o Lync Server na caixa de texto. Ele não aparece como uma opção na listada. 

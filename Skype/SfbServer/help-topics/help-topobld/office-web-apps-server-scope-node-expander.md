@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 'Clique com o botão direito do mouse Office Servidores Web Apps no Construtor de Topologias para executar o seguinte:'
-ms.openlocfilehash: 652d62a9471d538b53184cda29887006035f36fe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6a22d104d026a95f750ca61ef06f4e6229a35f21
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601486"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729070"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de Nó de Escopo do Servidor Office Web Apps
  
@@ -30,7 +30,7 @@ Clique com o botão direito do **mouse Office Servidores Web Apps** no Construto
     
 Além da opção Novo Servidor Office Web Apps, você pode executar as seguintes tarefas gerais:
   
-![Office Nó de Escopo do Servidor WebApps](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office Nó de Escopo do Servidor WebApps.](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     

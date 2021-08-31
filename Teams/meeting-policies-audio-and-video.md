@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião em Teams para áudio e vídeo.
-ms.openlocfilehash: 2fcfb2525abf935cc8d26e7fe330fa4edff48f90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578355"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726560"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configurações de política de reunião para vídeo & áudio
 
@@ -54,7 +54,7 @@ Esta é uma combinação de uma política por usuário e por organizador. Essa c
 
 Pessoas de fora da sua organização, como usuários federados e anônimos, não conseguem iniciar a gravação. Os usuários convidados não podem iniciar ou interromper a gravação.
 
-![Captura de tela mostrando opções de gravação](media/meeting-policies-recording.png)
+![Captura de tela mostrando opções de gravação.](media/meeting-policies-recording.png)
 
 Observe o exemplo a seguir.
 
@@ -116,7 +116,7 @@ As reuniões organizadas por um usuário que possui essa configuração de polí
 
 | Cliente Teams da Web e da área de trabalho |Cliente de dispositivo móvel do Teams  |
 |:-------:|:-------:|
-|![Captura de tela mostrando o ingresso à reunião com as configurações de áudio/vídeo na área de trabalho](media/meeting-policies-audio-video-settings.png)    |![Captura de tela mostrando a tela de ingresso à reunião com as configurações de áudio/vídeo no dispositivo móvel](media/meeting-policies-mobile-join.png)          |
+|![Captura de tela mostrando a junção de reunião com configurações de áudio/vídeo na área de trabalho.](media/meeting-policies-audio-video-settings.png)    |![Captura de tela mostrando a tela de ingresso à reunião com as configurações de áudio/vídeo no dispositivo móvel](media/meeting-policies-mobile-join.png)          |
 
 Observe o exemplo a seguir.
 
@@ -199,7 +199,7 @@ Você pode adicionar imagens de plano de fundo personalizadas a serem usadas por
 
 2. Selecione **Políticas de Reunião** Personalizar imagens de  >  **reunião**.
 
-   ![A seleção de políticas de reunião com o botão Personalizar imagens de reunião realçada](media/custom-background-image-button.png)
+   ![A seleção de políticas de reunião com o botão Personalizar imagens de reunião realçada.](media/custom-background-image-button.png)
 
 3. Selecione **Em em** Imagens de plano de fundo de toda a **organização.**
 

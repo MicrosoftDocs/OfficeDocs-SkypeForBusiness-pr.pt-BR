@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Personalizar Skype de reunião com logotipos gráficos, URLs de ajuda e legais e texto do rodapé. '
-ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ad8a6c6f9bec3a03d68ba532454703c4deb1c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614933"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729280"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar convites para reuniões
 
@@ -48,7 +48,7 @@ Como administrador, você pode garantir que todos os Skype for Business de reuni
 ## <a name="customize-your-meeting-invitations"></a>Personalize seus convites para reuniões
 <a name="__top"> </a>
 
-![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração**
 
 1. Entre com sua conta de trabalho ou de estudante.
     
@@ -73,7 +73,7 @@ Como administrador, você pode garantir que todos os Skype for Business de reuni
     
 6. Aguarde uma hora ou mais para que as alterações se preencham em todos os Microsoft 365 ou Office 365 serviços. Em seguida, vá para Outlook e agende uma reunião Skype para ver como são suas alterações. 
     
-    ![Veja a aparência de um convite personalizado sem o gráfico](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![Veja a aparência de um convite personalizado, sem o gráfico.](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>Tópicos relacionados
 <a name="__top"> </a>

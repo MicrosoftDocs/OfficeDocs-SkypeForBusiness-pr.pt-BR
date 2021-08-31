@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab563bb4acd4ea79c35b90dc691bd95f506e5acd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a222dd7734fd8df3885b0601a5e511d1936922a3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593145"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726410"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams
 
@@ -37,7 +37,7 @@ Leia o comunicado de 12 de dezembro de 2017 sobre Planos de Chamada no Teams: Co
 
 Adicionando Planos de Chamadas - um recurso de Microsoft 365 e Office 365 alimentado pelo Skype for Business - agora você pode usar o Teams para fazer e receber chamadas telefônicas para ou para linhas de telefone fixo e telefones celulares por meio da PSTN (rede telefônica pública comutado).
 
-![Captura de tela mostrando a página Contatos no Teams](media/Calling_in_Teams.png)
+![Captura de tela mostrando a página Contatos Teams.](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Pré-requisitos para habilite a guia **Chamadas** no Teams
 Para habilitar Teams guia Chamadas no Teams os usuários precisam ter a chamada 1:1 habilitada no Teams e usando um cliente Teams que oferece suporte Teams chamada 1:1.  Para saber como gerenciar chamadas 1:1 no Teams, leia [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy). Para saber quais clientes suportam a chamada, leia [Limites e especificações para Microsoft Teams](./limits-specifications-teams.md).
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: 16a26cd3384ddaaa3003649a3026bbe876a38399
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 59d12bc7d7bde68be6c42aff4e415713d641679f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634865"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729080"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -60,7 +60,7 @@ Este vídeo mostra um exemplo básico de como criar um assistente automático no
 
 ## <a name="general-info"></a>Informações gerais
 
-![Captura de tela das configurações de atendimento automático para nome, operador, fuso horário, idioma e entradas de voz](media/auto-attendant-general-info-page-new.png)
+![Captura de tela das configurações de atendimento automático para nome, operador, fuso horário, idioma e entradas de voz.](media/auto-attendant-general-info-page-new.png)
 
 1. Digite um nome para o atendimento automático na caixa na parte superior.
 
@@ -79,7 +79,7 @@ Este vídeo mostra um exemplo básico de como criar um assistente automático no
 
 ## <a name="call-flow"></a>Fluxo de chamada
 
-![Captura de tela das configurações da mensagem de saudação](media/auto-attendant-call-flow-greeting-message.png)
+![Captura de tela das configurações da mensagem de saudação.](media/auto-attendant-call-flow-greeting-message.png)
 
 Escolha se deseja reproduzir uma saudação quando o atendente automático atender uma chamada.
 
@@ -87,7 +87,7 @@ Se você selecionar **Reproduzir um arquivo de** áudio, poderá usar o botão d
 
 Se você selecionar **Digitar uma mensagem de** saudação, o sistema lerá o texto que você digitar (até 1000 caracteres) quando o atende automaticamente atender a uma chamada.
 
-![Captura de tela das configurações de roteamento de chamadas](media/auto-attendant-call-flow-route-call-message.png)
+![Captura de tela das configurações de roteamento de chamadas.](media/auto-attendant-call-flow-route-call-message.png)
 
 Escolha como você deseja rotear a chamada.
 
@@ -99,7 +99,7 @@ Se você selecionar Opções de menu  Reproduzir, poderá  optar por Reproduzir 
 
 ### <a name="menu-options"></a>Opções de menu
 
-![Captura de tela das opções de teclas de discagem](media/auto-attendant-call-flow-menu-options-complete.png)
+![Captura de tela das opções de teclas de discagem.](media/auto-attendant-call-flow-menu-options-complete.png)
 
 Para opções de discagem, atribua as teclas de 0 a 9 no teclado do telefone a um dos destinos de roteamento de chamadas. (As chaves \* (Repetir) e \# (Voltar) são reservados pelo sistema e não podem ser reatribuídos.)
 
@@ -152,7 +152,7 @@ Depois de selecionar uma opção **de pesquisa diretório,** selecione **Próxim
 
 ## <a name="call-flow-for-after-hours"></a>Fluxo de chamada para depois do horário
 
-![Captura de tela das configurações de dia e hora após o expediente](media/auto-attendant-business-hours.png)
+![Captura de tela das configurações de dia e hora após o horário.](media/auto-attendant-business-hours.png)
 
 O horário comercial pode ser definido para cada atendimento automático. Se os horários comerciais não forem definidos, todos os dias e todas as horas do dia serão considerados horários comerciais, porque um cronograma 24/7 é definido por padrão. O horário comercial pode ser definido com pausas no tempo durante o dia e todas as horas que não estão definidas como horário comercial são consideradas após o horário. Você pode definir diferentes opções de tratamento de chamadas de entrada e saudações para o pós-horário.
 
@@ -166,7 +166,7 @@ Selecione **Próximo** quando terminar.
 
 ## <a name="call-flows-during-holidays"></a>Fluxos de chamada durante feriados
 
-![Captura de tela das configurações de saudação de feriados e feriados](media/auto-attendant-holiday-greeting.png)
+![Captura de tela das configurações de saudação de feriados e feriados.](media/auto-attendant-holiday-greeting.png)
 
 O seu atendimento automático pode ter um fluxo de chamada para cada Feriado que [você definiu](set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
@@ -178,7 +178,7 @@ O seu atendimento automático pode ter um fluxo de chamada para cada Feriado que
 
 4. Escolha o tipo de saudação que você deseja usar.
 
-    ![Captura de tela das configurações de ação de chamada de feriado](media/auto-attendant-holiday-actions.png)
+    ![Captura de tela das configurações de ação de chamada de feriado.](media/auto-attendant-holiday-actions.png)
 
 5. Escolha se deseja **desconectar ou** **redirecionar** a chamada.
 
@@ -186,7 +186,7 @@ O seu atendimento automático pode ter um fluxo de chamada para cada Feriado que
 
 7. Selecione **Salvar**.
 
-![Captura de tela das configurações de feriados com feriados listados](media/auto-attendant-holiday-call-settings.png)
+![Captura de tela das configurações de feriados com feriados listados.](media/auto-attendant-holiday-call-settings.png)
 
 Repita o procedimento conforme necessário para cada feriado adicional.
 
@@ -194,7 +194,7 @@ Quando você adicionou todos os feriados, selecione **Próximo**.
 
 ## <a name="dial-scope"></a>Escopo de discagem
 
-![Captura de tela do escopo de discagem incluem e excluem opções](media/auto-attendant-dial-scope.png)
+![Captura de tela do escopo de discagem incluem e excluem opções.](media/auto-attendant-dial-scope.png)
 
 O *escopo de* discagem define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários em sua organização que são usuários online ou hospedados no local usando Skype for Business Server.
 
@@ -209,11 +209,11 @@ Quando terminar de definir o escopo de discagem, selecione **Próximo**.
 
 Todos os atendentes automáticos devem ter uma conta de recurso associada.  Os atendentes automáticos de primeiro nível precisarão de pelo menos uma conta de recurso que tenha um número de serviço associado. Se desejar, você pode atribuir várias contas de recurso a um atendimento automático, cada uma com um número de serviço separado.
 
-![Captura de tela do painel adicionar contas de conta de recurso](media/auto-attendant-add-resource-account.png)
+![Captura de tela do painel contas de recurso adicionar contas.](media/auto-attendant-add-resource-account.png)
 
 Para adicionar uma conta de recurso, selecione **Adicionar conta** e procure a conta que você deseja adicionar. Selecione **Adicionar** e, em seguida, selecione **Adicionar**.
 
-![Captura de tela da lista de contas de recursos mostrando a conta de recurso com o número de serviço atribuído](media/auto-attendant-resource-account-assigned.png)
+![Captura de tela da lista de contas de recursos mostrando a conta de recurso com o número de serviço atribuído.](media/auto-attendant-resource-account-assigned.png)
 
 Quando terminar de adicionar contas de recurso, selecione **Enviar** para concluir a configuração do atendimento automático.
 

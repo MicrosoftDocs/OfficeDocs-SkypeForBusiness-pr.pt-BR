@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre Skype for Business Cloud Connector Edition, um conjunto de VMs (Máquinas Virtuais) empacotados que implementam a conectividade PSTN local com Sistema de Telefonia (Cloud PBX).
-ms.openlocfilehash: 65e1d78a894b967391f44d6859c7fe50f42a7145
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628453"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728800"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planejar Skype for Business Cloud Connector Edition
 
@@ -106,7 +106,7 @@ Este artigo contém as seguintes seções:
 
 Com o Cloud Connector Edition, você implanta um conjunto de VMs empacotados que contêm uma topologia Skype for Business Server mínima, que consiste em um componente de Borda, componente de Mediação e uma função de Armazenamento de Gerenciamento Central (CMS). Você também instalará um controlador de domínio, que é necessário para o funcionamento interno do Cloud Connector. Esses serviços são configurados para híbridos com sua organização Microsoft 365 ou Office 365 que inclui serviços Skype for Business Online.
 
-![Componentes do Cloud Connector Edition](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
+![Componentes do Cloud Connector Edition.](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
 Os componentes do Cloud Connector fornecem a seguinte funcionalidade:
 
@@ -182,7 +182,7 @@ Ao planejar sua topologia, considere o seguinte:
 
 O diagrama a seguir mostra um único dispositivo Cloud Connector Edition em um único site PSTN. Observe que o Cloud Connector consiste em quatro VMs instaladas em um computador host físico que está dentro de uma rede de perímetro para fins de segurança.
 
-![Um conector de nuvem com um site PSTN](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
+![Um Conector de Nuvem com um site PSTN.](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
 
 ### <a name="multiple-cloud-connector-appliances-within-a-single-pstn-site"></a>Vários dispositivos do Cloud Connector em um único site PSTN
 
@@ -200,7 +200,7 @@ O diagrama a seguir mostra um único dispositivo Cloud Connector Edition em um �
 
     Para a versão menor do Cloud Connector, as caixas N+2 suportam chamadas simultâneas de 50 N com \* disponibilidade de 99,9%.
 
-![Dois conectores de nuvem dentro de um site PSTN](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
+![Dois conectores de nuvem dentro de um site PSTN.](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
 ### <a name="multiple-pstn-sites-with-one-or-more-cloud-connectors-per-site"></a>Vários sites PSTN com um ou mais Conectores de Nuvem por site
 
@@ -208,7 +208,7 @@ Você também pode optar por ter vários sites PSTN com uma ou mais edições do
 
 Vários sites PSTN também permitem que você forneça conectividade a gateways mais próximos de seus usuários. Por exemplo, suponha que você tenha gateways PSTN em Seattle e Amsterdã. Você pode implantar dois sites PSTN — um em Seattle, um em Amsterdã — e atribuir usuários para usar o site PSTN mais próximo a eles. Os usuários de Seattle serão roteados para o site e gateways PSTN de Seattle, enquanto os usuários em Amsterdã serão roteados para o site e gateways PSTN de Amsterdã:
 
-![Cloud Connector Edition em 2 sites PSTN](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
+![Cloud Connector Edition em 2 sites PSTN.](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
 
 ## <a name="requirements-for-deployment"></a>Requisitos para implantação
 <a name="BKMK_Requirements"> </a>
@@ -422,7 +422,7 @@ Nesse caso, todo o tráfego de mídia para o ponto final na Internet pode fluir 
 
 O computador host deve ser capaz de alcançar recursos externos para instalar, atualizar e gerenciar com êxito o Cloud Connector. A tabela a seguir mostra os destinos e portas necessários entre o computador host e os recursos externos.
 
-|Direção  <br/> |IP de origem  <br/> |IP de destino  <br/> |Porta de origem  <br/> |Porta de destino  <br/> |Protocolo  <br/> |Finalidade  <br/> |
+|Direção  <br/> |IP de origem  <br/> |IP de destino  <br/> |Porta de origem  <br/> |Porta de destino  <br/> |Protocolo  <br/> |Objetivo  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Saída  <br/> |Cloud Connector host IPs  <br/> |qualquer  <br/> |qualquer  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Saída  <br/> |Cloud Connector host IPs  <br/> |qualquer  <br/> |qualquer  <br/> |80, 443  <br/> |TCP  <br/> |Lista de Revogação de Certificados (CRL)  <br/> |
@@ -647,7 +647,7 @@ No primeiro diagrama, um usuário interno coloca uma chamada de saída da seguin
 
 6. O componente de Mediação envia o tráfego para o gateway PSTN.
 
-![Fluxo de mídia de saída para o Cloud Connector](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
+![Fluxo de mídia de saída para o Cloud Connector.](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
 
 No próximo diagrama, um usuário interno recebe uma chamada de entrada da seguinte maneira:
 
@@ -663,7 +663,7 @@ No próximo diagrama, um usuário interno recebe uma chamada de entrada da segui
 
 6. O tráfego de mídia será estabelecido entre o gateway e o componente de Mediação e entre o componente de Mediação e o ponto final.
 
-![Entrada de mídia Flow para o Cloud Connector](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
+![Entrada de mídia Flow para o Cloud Connector.](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
 
 ## <a name="monitoring-and-troubleshooting"></a>Monitoramento e solução de problemas
 <a name="BKMK_Monitor"> </a>

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Leia este tópico para revisar considerações de planejamento para implementar o bypass de mídia com o Cloud Connector Edition versão 2.0 e posterior. Para obter informações sobre como implantar o bypass de mídia, consulte Deploy media bypass in Cloud Connector Edition.
-ms.openlocfilehash: 659b735502b6efaabd9167a4b0d820828232f5dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 182defd3d1fb7acf1fb2ba6fcc4e15e88e24a82c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626403"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729740"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plano para bypass de mídia no Cloud Connector Edition
  
@@ -41,7 +41,7 @@ Por exemplo, na topologia a seguir, que não emprega bypass de mídia, um client
   
 **Caminhos de mídia e sinalização sem bypass de mídia**
 
-![sinalização sem bypass de mídia](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
+![sinalização sem bypass de mídia.](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
 Uma chamada de entrada da PSTN usa o mesmo caminho de sinalização na direção inversa. Para usuários internos, a mídia ainda fluirá entre o cliente Skype for Business e o Servidor de Mediação do Cloud Connector e, em seguida, o SBC ou gateway.
   
@@ -49,7 +49,7 @@ Na próxima topologia, que emprega bypass de mídia, a sinalização segue o mes
   
 **Caminhos de mídia e sinalização com bypass de mídia**
 
-![sinalização com bypass de mídia](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
+![sinalização com Bypass de Mídia.](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
 ## <a name="multi-site-scenario-and-media-bypass"></a>Cenário de vários sites e bypass de mídia
 
@@ -57,7 +57,7 @@ O bypass de mídia também é útil quando você deseja fornecer serviços de te
   
 **Aplicativo multi-site**
 
-![Exemplo de multisite do Cloud Connector](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
+![Exemplo de multisite do Cloud Connector.](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
 1. O tráfego SIP flui do usuário em Richrich para Microsoft 365 ou Office 365.
     
@@ -71,7 +71,7 @@ O bypass de mídia também é útil quando você deseja fornecer serviços de te
   
 Se um cliente estiver fora da rede corporativa fazendo uma chamada de saída, o tráfego de mídia fluirá por meio dos servidores de Borda e Mediação do Cloud Connector e do link WAN entre Zurique e Amsterdã, conforme mostrado no diagrama a seguir:
   
-![Exemplo de multisite do Cloud Connector 2](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
+![Cloud Connector Multisite Exemplo 2.](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
   
 ## <a name="supported-clients-for-media-bypass"></a>Clientes com suporte para bypass de mídia
 
@@ -104,7 +104,7 @@ Para obter mais informações, [consulte Plan for Skype for Business Cloud Conne
   
 Por exemplo, no diagrama abaixo, os usuários da Europa devem estar bem conectados aos três Controladores de Borda de Sessão (SBCs) em Amsterdã, enquanto os usuários do Oeste dos EUA devem estar bem conectados aos dois SBCs em Seattle. Bem conectado significa que eles estão localizados nos mesmos sites de rede que os SBCs ou gateways, ou por meio de links WAN com largura de banda adequada.
   
-![Capacidade do Conector de Nuvem](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
+![Capacidade do Cloud Connector.](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
 > Se um usuário de Richrich viajar para o escritório de Seattle e você quiser usar a rede interna para fornecer tráfego de mídia entre o usuário em viagem e gateways na Europa (em vez de passar pela Internet), você deve garantir que o escritório de Seattle e o escritório de Amsterdã onde os SBCs ou gateways europeus estão localizados se qualificam como bem conectados. 

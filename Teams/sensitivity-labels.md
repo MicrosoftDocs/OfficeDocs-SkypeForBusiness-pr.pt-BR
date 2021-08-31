@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar rótulos de sensibilidade para proteger suas equipes Microsoft Teams.
-ms.openlocfilehash: d00ebe1861596ddb41e852c7e8fe6360df024ab7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4f6f3b790bb84b4d628760548b6ab1115f6326d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621953"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729590"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Rótulos de sensibilidade para Microsoft Teams
 
@@ -53,22 +53,22 @@ Por exemplo, você cria e publica um rótulo de confidencialidade chamado "Confi
 
 Quando um usuário cria uma nova equipe e seleciona o rótulo **Confidencial,** a única opção de privacidade disponível para o usuário é **Private**. Outras opções de privacidade, como Público e toda a organização, não estão disponíveis para o usuário selecionar:
 
-![Captura de tela do rótulo confidencial de confidencialidade](media/sensitivity-labels-confidential-example.png)
+![Captura de tela do rótulo confidencial de confidencialidade.](media/sensitivity-labels-confidential-example.png)
 
 Da mesma forma, você cria e publica um rótulo de sensibilidade chamado "Geral" que tem a opção de privacidade de rótulo configurada como **Pública**. Quando um usuário cria uma nova equipe, ele só pode criar equipes públicas ou em toda a organização quando seleciona esse rótulo:
 
-![Captura de tela do rótulo de sensibilidade geral](media/sensitivity-labels-general-example.png)
+![Captura de tela do rótulo de sensibilidade geral.](media/sensitivity-labels-general-example.png)
 
 Quando a equipe é criada, o rótulo de sensibilidade fica visível no canto superior direito dos canais na equipe. 
 
 > [!NOTE]
 > Se você estiver usando rótulos pai-filho hierárquicos, como "Confidencial\Finanças", somente o rótulo pai será mostrado no header do canal.
 
-![Captura de tela do rótulo de sensibilidade no canal de equipe](media/sensitivity-labels-channel.png)
+![Captura de tela do rótulo de sensibilidade no canal de equipe.](media/sensitivity-labels-channel.png)
 
 Um proprietário de equipe pode alterar o rótulo de sensibilidade e a configuração de privacidade da equipe a qualquer momento, indo para a equipe e clique em **Editar equipe**.
 
-![Captura de tela do rótulo de sensibilidade nas propriedades da equipe](media/sensitivity-labels-edit-team.png)
+![Captura de tela do rótulo de sensibilidade nas propriedades da equipe.](media/sensitivity-labels-edit-team.png)
 
 ### <a name="control-guest-access-to-teams"></a>Controlar o acesso de convidados às equipes
 

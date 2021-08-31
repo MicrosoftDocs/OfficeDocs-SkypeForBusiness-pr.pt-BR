@@ -17,18 +17,18 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais Teams integração com ferramentas do Microsoft Power Platform, incluindo Power BI, aplicativos do Power, Power automate e Power Virtual Agents.
-ms.openlocfilehash: 521085303ed77f23aae0bd8a87001483cc8d530f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af15b1cff05224a023fcbc80a166ed836d583ba5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629943"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729500"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams integração com a Plataforma Microsoft Power
 
 A Plataforma do Microsoft Power ajuda os usuários a acelerar seu desenvolvimento com ferramentas de baixo código **para** analisar dados usando Power BI, criar aplicativos personalizados usando **Power Apps,** automatizar processos usando **Power Automate** e criar bots inteligentes usando Power Virtual Agents **mais** rapidamente do que nunca. Com a mudança para o trabalho remoto e híbrido, a Microsoft Teams permitiu que as pessoas em todo o mundo continuasse a criar, colaborar e se comunicar. Com mais de 75 milhões de usuários ativos diários, Teams é como as pessoas estão trabalhando.
 
-:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Resumo de imagens Teams e Plataforma do Microsoft Power":::
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Imagem resumindo Teams Microsoft Power Platform.":::
 
 O Microsoft Power Platform fornece muitos recursos de integração com o Teams onde você pode inserir relatórios do **Power BI** no espaço de trabalho do Teams, incorporar aplicativos criados usando **o Power Apps** como uma guia ou aplicativo pessoal, disparar um fluxo **Power Automate de** qualquer mensagem ou usar cartões adaptáveis e adicionar seu bot criado usando o **Power Virtual Agents** para Teams para outros membros da sua organização interagirem.
 

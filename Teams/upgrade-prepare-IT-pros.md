@@ -19,16 +19,16 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9aad81e00b90a5a87df363a4257ed0c68e08977
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618327"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729310"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar sua equipe de IT para Microsoft Teams
 
-![Atualizar diagrama de jornada, enfatizando o estágio de Preparação Técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica")
+![Atualize o diagrama de jornada, enfatizando o estágio de Preparação Técnica.](media/upgrade-banner-tech-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica")
 
 Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme se você concluiu essas atividades de estágios anteriores:
 
@@ -50,7 +50,7 @@ Compartilhe os seguintes recursos com seus membros da equipe de TI e confirme se
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você já envolveu toda a equipe de suporte que provavelmente está envolvida na implantação e suporte Teams?</li><li>Você desenvolveu um plano de treinamento para integração de equipes adicionais à medida que a atualização progride?</li></ul> |
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Verifique se a equipe de IT tem as informações necessárias.</li><li>Revisite seus planos de treinamento e preparação à medida que novos recursos são lançados.</li></ul>|
+| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você já envolveu toda a equipe de suporte que provavelmente está envolvida na implantação e suporte Teams?</li><li>Você desenvolveu um plano de treinamento para integração de equipes adicionais à medida que a atualização progride?</li></ul> |
+| ![Um ícone que representa as próximas etapas.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Verifique se a equipe de IT tem as informações necessárias.</li><li>Revisite seus planos de treinamento e preparação à medida que novos recursos são lançados.</li></ul>|
 
 Depois de preparar sua equipe de TI para Teams, verifique se seu ambiente atende a todos [os pré-requisitos.](upgrade-plan-journey-prerequisites.md)

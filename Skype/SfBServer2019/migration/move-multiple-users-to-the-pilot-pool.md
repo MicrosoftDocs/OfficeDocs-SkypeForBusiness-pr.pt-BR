@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Você pode mover vários usuários do pool herdado para o pool piloto do Skype for Business Server 2019 usando o painel de controle Skype for Business Server 2019 ou o Shell de Gerenciamento Skype for Business Server 2019.
-ms.openlocfilehash: 50525ce139cb324d71ebcdce54ef96463dc933b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc4d14d26a76ff4dbfc690fc7517aba77afd253f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624573"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726310"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Mover vários usuários para o pool piloto
 
@@ -40,7 +40,7 @@ Você pode mover vários usuários do pool herdado para o pool piloto do Skype f
     
 3. Selecione dois usuários que você deseja mover para o pool Skype for Business Server 2019. Neste exemplo, vamos mover os usuários Chen Yang e Claus Hansen.
     
-     ![Mover usuários para pool de registro específico](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
+     ![Mova os usuários para um pool de registro específico.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
 4. No menu **Ação**, selecione **Mover usuários selecionados para o pool**.
     
@@ -48,7 +48,7 @@ Você pode mover vários usuários do pool herdado para o pool piloto do Skype f
     
 6. Clique em **Ação** e em **Mover usuários selecionados para o pool**. Clique em **OK**.
     
-     ![Mover Usuários, caixa de diálogo pool de registradores de destino](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
+     ![Mover Usuários, caixa de diálogo pool de registradores de destino.](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
 7. Verifique se a **coluna pool do Registrador** para os usuários agora contém o pool Skype for Business Server 2019, que indica que os usuários foram movidos com êxito. 
     
@@ -63,7 +63,7 @@ Você pode mover vários usuários do pool herdado para o pool piloto do Skype f
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
-    ![Exemplo de cmdlet Get-CsUser PowerShell](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![Exemplo de cmdlet Get-CsUser PowerShell.](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. Na linha de comando, digite o seguinte: 
     
@@ -73,7 +73,7 @@ Você pode mover vários usuários do pool herdado para o pool piloto do Skype f
 
 4. A identidade do **Pool de registradores** deve apontar agora para o pool especificado como **pool_FQDN** na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com sucesso. Repita a etapa para verificar **se User2** foi movido. 
     
-     ![Saída do cmdlet Get-UsUser -Identity do PowerShell](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
+     ![Saída do powerShell Get-UsUser cmdlet -Identity.](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>Para mover todos os usuários ao mesmo tempo usando o Shell de Gerenciamento Skype for Business Server 2019
 <a name="sectionSection2"> </a>
@@ -88,7 +88,7 @@ Neste exemplo, todos os usuários foram retornados ao pool herddo (pool01.contos
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
-     ![Cmdlet do PowerShell e resultados no Shell de Gerenciamento](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
+     ![Cmdlet do PowerShell e resultados no Shell de Gerenciamento.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. Execute **Get-CsUser** para um dos usuários piloto. 
     
@@ -100,6 +100,6 @@ Neste exemplo, todos os usuários foram retornados ao pool herddo (pool01.contos
     
 5. Além disso, podemos exibir a lista de usuários no Painel de Controle Skype for Business Server 2019 e verificar se o valor do Pool do Registrador agora aponta para o pool Skype for Business Server 2019.
     
-     ![Skype for Business Server lista de usuários do Painel de Controle 2019](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![Skype for Business Server lista de usuários do Painel de Controle 2019.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

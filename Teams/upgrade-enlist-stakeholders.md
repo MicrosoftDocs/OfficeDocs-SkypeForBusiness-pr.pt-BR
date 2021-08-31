@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21e08060c61e78919e514a099413f6d70380cf11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56a0c236b1fcbae2765c28ddcff424009b57b099
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600916"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729431"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Listar os participantes em seu projeto
 
-![Ilustração mostrando o estado do stakeholder da jornada de atualização](media/upgrade-banner-stakeholders.png "Estágios da jornada de atualização, com ênfase em reunir sua equipe de participantes do projeto")
+![Ilustração mostrando o estado do stakeholder da jornada de atualização.](media/upgrade-banner-stakeholders.png "Estágios da jornada de atualização, com ênfase em reunir sua equipe de participantes do projeto")
 
 Este artigo faz parte do estágio Project stakeholders da sua jornada de atualização, a primeira e mais essencial atividade concluída para o sucesso do seu projeto.
 
@@ -42,8 +42,8 @@ Opcionalmente, você pode criar um comitê de direção. Às vezes, projetos gra
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão | <ul><li>Who as pessoas certas para servir como sua equipe de stakeholders para este projeto?</li></ul> |
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Considere o escopo do seu projeto e atribua as partes interessadas relevantes.</li><li>Use a tabela a seguir como uma diretriz, mas observe que essa lista não é inclusiva.<br><strong>Dica</strong><br>Crie uma matriz [raci (raci)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) informada por responsabilidade para distinguir ainda mais aqueles que serão responsabilizados daqueles que simplesmente precisam ser mantidos informados em uma área específica do projeto.</li> |
+| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão | <ul><li>Who as pessoas certas para servir como sua equipe de stakeholders para este projeto?</li></ul> |
+| ![Um ícone que representa as próximas etapas.](media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Considere o escopo do seu projeto e atribua as partes interessadas relevantes.</li><li>Use a tabela a seguir como uma diretriz, mas observe que essa lista não é inclusiva.<br><strong>Dica</strong><br>Crie uma matriz [raci (raci)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) informada por responsabilidade para distinguir ainda mais aqueles que serão responsabilizados daqueles que simplesmente precisam ser mantidos informados em uma área específica do projeto.</li> |
 | <li>Decida se deve criar um comitê de direção e atribuir funções conforme apropriado.</li></ul> | |
 
 | Funções | Responsabilidade |

@@ -19,22 +19,22 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artigo descreve as funcionalidades do Microsoft Teams disponíveis para convidados.
-ms.openlocfilehash: 2469fe840d09708187c47671335992021c4b60b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632135"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729610"
 ---
 # <a name="guest-experience-in-teams"></a>Experiência de convidado no Teams
 
 Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensagem de boas-vindas por e-mail. Essa mensagem contém algumas informações sobre a equipe e o que esperar agora que ele é um membro. O convidado deve aceitar o convite selecionando **Abrir Microsoft Teams** na mensagem de e-mail antes de poder acessar a equipe e seus canais.
     
-![Captura de tela mostrando um exemplo de uma mensagem de email de boas-vindas](media/guest-experience-image1.png)
+![Captura de tela mostrando um exemplo de uma mensagem de email de boas-vindas.](media/guest-experience-image1.png)
     
 Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Uma marca no canto superior direito do encadeamento de canal indica o número de convidados na equipe e um rótulo de **(Convidado)** é exibido ao lado do nome de cada convidado.
 
-![Captura de tela mostrando o rótulo que indica o número de convidados na equipe](media/guest-experience-image2.png)
+![Captura de tela mostrando a marca que indica o número de convidados na equipe.](media/guest-experience-image2.png)
 
 Confira estes vídeos sobre a experiência de convidado no Teams:
 - [Participe de uma equipe como convidado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

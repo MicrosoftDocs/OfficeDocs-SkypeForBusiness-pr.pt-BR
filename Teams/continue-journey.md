@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415535ea4ec2902d089d0229cd6c4b578837f03f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4572e39eeb2093c69de5b055436b330428763380
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628383"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728910"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Como usar o Microsoft Teams efetivamente
 
-![Atualizar diagrama de jornada, enfatizando o estágio de Excelência Operacional](media/upgrade-banner-op-excellence.png "Estágios da jornada de atualização, com ênfase no estágio de Excelência Operacional")
+![Atualize o diagrama de jornada, enfatizando o estágio de Excelência Operacional.](media/upgrade-banner-op-excellence.png "Estágios da jornada de atualização, com ênfase no estágio de Excelência Operacional")
 
 Este artigo faz parte do estágio de Excelência Operacional da sua jornada de atualização, que começa assim que você conclui a atualização do Skype for Business para o Teams.
 
@@ -60,4 +60,4 @@ O ciclo de vida de qualquer tecnologia foi deslocado para um ciclo dinâmico de 
 - Implemente um formulário de planejamento de alterações (conforme ilustrado abaixo) para preparar e implementar novas funcionalidades. Certifique-se de incluir atividades técnicas e de preparação do usuário.
 
 
-![Formulário de exemplo mostrando datas e anotações de lançamento esperadas](media/upgrade-change-plan-form.png "Formulário de exemplo mostrando datas de lançamento esperadas e anotações sobre a nova funcionalidade, listadas com as próximas etapas e proprietários")
+![Formulário de exemplo mostrando datas e anotações de lançamento esperadas.](media/upgrade-change-plan-form.png "Formulário de exemplo mostrando datas de lançamento esperadas e anotações sobre a nova funcionalidade, listadas com as próximas etapas e proprietários")

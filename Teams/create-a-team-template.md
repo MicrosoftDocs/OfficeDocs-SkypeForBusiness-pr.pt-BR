@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589765"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726890"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Criar um modelo de equipe personalizado Microsoft Teams
 
@@ -86,11 +86,11 @@ Para começar:
 
 3. Na seção **Adicionar um aplicativo para este modelo,** adicione um aplicativo site.
 
-    ![adicionar um aplicativo para essa opção de modelo](media/add-an-app-template.png)
+    ![adicionar um aplicativo para essa opção de modelo.](media/add-an-app-template.png)
 
 4. Selecione o ícone de edição e input a URL de sua escolha.
 
-    ![adicionar uma url de aplicativo](media/add-url-app-template.png)
+    ![adicionar uma url de aplicativo.](media/add-url-app-template.png)
 
 5. Selecione **Salvar** para suas edições do aplicativo de tabulação e selecione **Aplicar** para salvar suas alterações.
 
@@ -104,7 +104,7 @@ No momento, estamos trabalhando em uma correção para equipes futuras criadas a
 
 **Problema**: ao usar Teams no navegador, alguns sites não suportam ser renderizados em uma guia Teams.
 
-![mensagem de erro do navegador](media/browser-error-message.png)
+![mensagem de erro do navegador.](media/browser-error-message.png)
 
 **Solução**: se você tiver problemas para exibir o conteúdo da guia site, será redirecionado para abrir a guia em uma página da Web separada ou abrir o Teams no aplicativo da área de trabalho em vez de exibir seu aplicativo de guia de site.
 

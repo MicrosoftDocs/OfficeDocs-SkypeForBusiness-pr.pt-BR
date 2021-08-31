@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 90804c7d266df81813aeccd4ed91711d6b4eaf27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b861278bd4ae8081f7bb930a94c602ba4f7507a7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635645"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726520"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams?
 
@@ -43,7 +43,7 @@ Os eventos ao vivo do Microsoft Teams são considerados a próxima versão da Tr
 
 Então vamos começar. Primeiro, dê uma olhada no diagrama a seguir que mostra os componentes de alto nível envolvidos nos eventos ao vivo do Microsoft 365 e como eles estão conectados.
 
-![Os componentes principais dos eventos ao vivo](../media/live-events-flow-diagram.png  "Componentes principais de eventos ao vivo, agendamento, produção, plataforma de streaming, terceiros certificados e fornecedores de eCDN.")
+![Os componentes principais dos eventos ao vivo.](../media/live-events-flow-diagram.png  "Componentes principais de eventos ao vivo, agendamento, produção, plataforma de streaming, terceiros certificados e fornecedores de eCDN.")
 
 > [!Note]
 > Gostaríamos de enfatizar que os eventos ao vivo das equipes, devido à natureza da tecnologia de difusão, muitas vezes excedem as populações de reuniões normais (internas).
@@ -69,7 +69,7 @@ Você pode ver da figura acima que existem cinco componentes principais usados c
 
 O Microsoft Teams permite que os organizadores criem um evento com as permissões apropriadas dos participantes, designem os membros da equipe de eventos, selecionem um método de produção e convidem participantes. Se o evento ao vivo tiver sido criado de um grupo do Yammer, os participantes do evento ao vivo poderão usar a conversa do Yammer para interagir com as pessoas no evento.
 
-![a Nova tela de eventos ao vivo](../media/teams-live-events-schedule.png "Captura de tela mostrando a tela do Novo evento ao vivo para criar e agendar um novo evento ao vivo")
+![a Nova tela de eventos ao vivo.](../media/teams-live-events-schedule.png "Captura de tela mostrando a tela do Novo evento ao vivo para criar e agendar um novo evento ao vivo")
 
 > [!IMPORTANT]
 > O Teams não permite que os usuários agendem reuniões ou eventos ao vivo quando estiverem offline ou executando com largura de banda limitada.
@@ -82,7 +82,7 @@ A entrada de vídeo é a base do evento ao vivo e pode variar de uma simples web
 
 - **Aplicativo ou dispositivo externo**: codificadores externos permitem aos usuários produzirem seus eventos ao vivo diretamente de um hardware externo ou codificador baseado no software com o [Microsoft Stream](https://stream.microsoft.com). Essa é a melhor opção se você já tiver equipamento com qualidade de estúdio (por exemplo, mixers de mídia) com suporte de streaming para um serviço de Protocolo de Mensagens em Tempo Real (RMTP). Esse tipo de produção geralmente é usado em eventos em grande escala como um evento corporativo - em que um único stream de um mixer de mídia é transmitido para a audiência. 
 
-    ![um evento ao vivo produzido usando um aplicativo ou dispositivo externo](../media/teams-live-events-external-encoder.png "Captura de tela mostrando um evento ao vivo produzido usando o método de produção com aplicativo ou dispositivo externo ")
+    ![um evento ao vivo produzido usando um aplicativo ou dispositivo externo.](../media/teams-live-events-external-encoder.png "Captura de tela mostrando um evento ao vivo produzido usando o método de produção com aplicativo ou dispositivo externo ")
 
 >[!Note]
 > A mudança do Microsoft Stream para o [OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião](../tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento você poderá optar por aceitar essa experiência, em novembro você terá que recusar se quiser continuar usando o Stream e, no início de 2021, exigiremos que todos os clientes usem o OneDrive for Business e o Microsoft Office SharePoint Online para novas gravações de reunião.
@@ -108,7 +108,7 @@ O objetivo do eCDN é tirar o conteúdo do vídeo da internet e distribuir o con
 
 A experiência do participante é o aspecto mais importante dos eventos ao vivo e é fundamental que os participantes possam participar no evento ao vivo sem quaisquer problemas. A experiência do participante usa o Player do Microsoft Stream (para eventos produzidos no Microsoft Teams) e o Player de Mídia do Azure (para eventos produzidos em aplicativo ou dispositivo externo) e funciona em desktop, navegador e celular (iOS e Android). O Microsoft 365 e o Office 365 fornecem o Yammer e o Microsoft Teams como dois hubs de colaboração e a experiência ao vivo do participante é integrada a essas ferramentas de colaboração.
 
-![Exemplo da experiência de participante dos eventos ao vivo](../media/teams-live-events-attendee.png "Captura de tela mostrando a experiência de participante dos eventos ao vivo")
+![Exemplo da experiência de participante dos eventos ao vivo.](../media/teams-live-events-attendee.png "Captura de tela mostrando a experiência de participante dos eventos ao vivo")
 
 ### <a name="live-event-usage-report"></a>Relatório de uso de evento ao vivo
 

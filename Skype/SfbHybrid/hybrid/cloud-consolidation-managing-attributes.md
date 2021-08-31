@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Este artigo descreve como gerenciar atributos após a desativação do ambiente local.
-ms.openlocfilehash: 9f78dbcfaf1c753d18cc2e85a6b209248c2feea8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64ba4844a1958cfd386a177d91b9c4f2dff89102
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636892"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58736020"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Decidir como gerenciar os atributos após o encerramento
 
@@ -57,7 +57,7 @@ Se você quiser fazer alterações no endereço sip de um usuário ou no número
 
 - Para modificar o número de telefone de um usuário, modifique `msRTCSIP-Line` *se ele já tiver um valor*.
 
-  ![Ferramenta de computadores e usuários do Active Directory](../media/disable-hybrid-1.png)
+  ![Ferramenta de usuários e computadores do Active Directory.](../media/disable-hybrid-1.png)
   
 -  Se o usuário não tiver originalmente um valor para o local antes da movimentação, você poderá modificar o número de telefone usando o parâmetro - no `msRTCSIP-Line` `onpremLineUri` [cmdlet Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) no módulo Teams PowerShell.
 

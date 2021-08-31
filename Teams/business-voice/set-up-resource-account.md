@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba como configurar uma conta de recurso Microsoft 365 Business Voice para uso com os atendentes automáticos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afc45df5ecf6336d2ddea86581fde67e85a6ab24
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c0cfe87861086105587e58aba178821f4db778c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630235"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726160"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>Etapa 4: Configurar uma conta de recurso do Business Voice
 
@@ -60,7 +60,7 @@ As contas de recursos exigem uma licença para trabalhar com os atendimentos aut
 
 Depois de receber sua Microsoft 365 Sistema de Telefonia *- Licença de Usuário Virtual,* você pode criar sua conta de recurso.
 
-![Captura de tela da interface do usuário adicionar conta de recurso](../media/resource-account-add.png)
+![Captura de tela da interface do usuário adicionar conta de recurso.](../media/resource-account-add.png)
 
 1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
 2. No painel de navegação esquerdo, vá para Configurações de toda a organização Contas <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">   >  **de recursos.**</a>
@@ -69,13 +69,13 @@ Depois de receber sua Microsoft 365 Sistema de Telefonia *- Licença de Usuário
 5. Em **Tipo de conta de recurso,** selecione Atendimento **automático**.
 6. Selecione **Salvar**.
 
-![Captura de tela de uma lista de contas de recursos](../media/resource-accounts-auto-attendant-only-page.png)
+![Captura de tela de uma lista de contas de recursos.](../media/resource-accounts-auto-attendant-only-page.png)
 
 ## <a name="assign-a-license"></a>Atribuir uma licença
 
 Depois de criar sua conta de recurso, você precisará atribuir uma Microsoft 365 Sistema de Telefonia *- licença* de usuário virtual *ou* Sistema de Telefonia licença.
 
-![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
+![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365.](../media/resource-account-assign-virtual-user-license.png)
 
 1. Abra o Centro de administração do Microsoft 365 e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever para Microsoft 365).
 1. No painel de navegação esquerdo, vá para <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank"> **Usuários**  >  **Usuários ativos.**</a>
@@ -85,7 +85,7 @@ Depois de criar sua conta de recurso, você precisará atribuir uma Microsoft 36
 
 ## <a name="assign-a-service-number"></a>Atribuir um número de serviço
 
-![Captura de tela da interface do usuário atribuir número de serviço](../media/resource-account-assign-phone-number.png)
+![Captura de tela da interface do usuário atribuir número de serviço.](../media/resource-account-assign-phone-number.png)
 
 1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
 1. No painel de navegação esquerdo, vá para Configurações de toda a organização Contas <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">   >  **de recursos.**</a>

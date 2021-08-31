@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como dar suporte à resiliência de voz Skype for Business Server Enterprise Voice, em sites centrais e sites de filial. As opções de site de filial incluem a implantação de Aparelhos de Filial Desaviváveis ou Servidores de Filial Desaviváveis.
-ms.openlocfilehash: 08bfa774b52a59dcb9b88cdf9b41d11035f09417
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cccce61eb575caaf6037d1d916f428aeecb452e4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617737"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729760"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planejar Enterprise Voice resiliência no Skype for Business Server
 
@@ -222,7 +222,7 @@ A figura a seguir mostra as topologias recomendadas para a resiliência do site 
 
 **Opções de resiliência do site de filial**
 
-![Opções de Resiliência de Filial de Voz](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
+![Opções de Resiliência de Filial de Voz.](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
 
 #### <a name="survivable-branch-appliance-details"></a>Detalhes do aparelho de filial persistente
 

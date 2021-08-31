@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Este artigo descreve benefícios, considerações de planejamento e requisitos para implementar o Caixa postal na Nuvem da Microsoft serviço. Para obter informações sobre como configurar Caixa postal na Nuvem, consulte Configuring Caixa postal na Nuvem.
-ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe3cc4cc9a7c009b2291875c6ffb4b9e8df4dbac
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594865"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729290"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar Caixa postal na Nuvem serviço para usuários locais
 
@@ -55,7 +55,7 @@ Com Caixa postal na Nuvem, suas tarefas de administração são muito simplifica
 
 O diagrama a seguir mostra Caixa postal na Nuvem em uma implantação híbrida:
 
-![SfB Caixa postal na Nuvem](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+![SfB Caixa postal na Nuvem.](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 As chamadas não respondidas são tratadas da seguinte forma:  
 

@@ -16,12 +16,12 @@ description: Saiba como comprar aplicativos de terceiros para Teams no Microsoft
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: da917d2c58282554e3e2a68464cea1f2249bd324
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05b280a789a6d41e459e2b8598606e1a7f11226f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616177"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726800"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicativos de terceiros para Teams
 
@@ -34,7 +34,7 @@ A [página Gerenciar aplicativos](manage-apps.md) no centro de administração M
 
 Aqui, você também pode comprar licenças para serviços oferecidos por aplicativos de terceiros para usuários em sua organização. A **coluna Licenças** na tabela indica se um aplicativo oferece uma assinatura SaaS para compra.
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Captura de tela mostrando aplicativos de terceiros que têm assinaturas SaaS":::
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Captura de tela mostrando aplicativos de terceiros que têm assinaturas SaaS.":::
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>Pesquisar e comprar serviços para um aplicativo de terceiros
 
@@ -56,7 +56,7 @@ Depois de comprar a oferta SaaS associada ao aplicativo Teams, você poderá exi
 - **Data de ativação da** licença : Data em que sua licença foi ativada. Se sua conta ainda não estiver configurada, isso será ativação **pendente de assinatura**.
 - **Licenças**: Número de licenças adquiridas.
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Captura de tela de planos e guia de preços da página de detalhes do aplicativo":::
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Captura de tela de Planos e guia de preços da página de detalhes do aplicativo.":::
 
 Selecione **Gerenciar licenças** para ir para o Centro de administração do Microsoft 365 para exibir e gerenciar as licenças que você comprou e gerenciar atribuições de licença para usuários.
 

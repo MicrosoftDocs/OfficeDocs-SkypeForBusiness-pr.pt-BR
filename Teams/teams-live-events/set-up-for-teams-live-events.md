@@ -20,12 +20,12 @@ description: Configurar para eventos ao vivo no Teams, incluindo configurar sua 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81b86121aceb0b0044f8b7dca422437331803689
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 261bea1f2abbe4194d0906078977bf870581d31c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636615"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726710"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -59,7 +59,7 @@ As políticas de eventos ao vivo são usadas para controlar quem em sua organiza
 
     Estas são as configurações que podem ser alteradas de acordo com as necessidades da sua organização.
 
-    ![Captura de tela de configurações de política de eventos ao vivo](../media/teams-live-events-policies.png "Captura de tela de configurações de política de eventos ao vivo no centro de administração do Microsoft Teams")
+    ![Captura de tela das configurações de política de eventos ao vivo.](../media/teams-live-events-policies.png "Captura de tela de configurações de política de eventos ao vivo no centro de administração do Microsoft Teams")
 
 |Configuração  |Descrição  |
 |---------|---------|

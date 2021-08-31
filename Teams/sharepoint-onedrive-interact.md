@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 00296ddb8de58d01880ce951a11688c50bf8de41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2163201f4b9b1090c62fbe42f5236665b09164f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577775"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729540"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Como SharePoint e OneDrive interagir com Microsoft Teams
 
@@ -53,7 +53,7 @@ O padrão SharePoint site e biblioteca de documentos não podem ser substituído
 
 Para cada usuário, a pasta **Arquivos de bate-papo do Microsoft Teams** do OneDrive é utilizada para armazenar todos os arquivos compartilhados em bate-papos privados com outros usuários (1:1 ou 1:muitos), com as permissões configuradas automaticamente para restringir o acesso somente para o usuário pretendido.
 
-![Diagrama da pasta OneDrive chamada Microsoft Teams Chat Files](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Diagrama da pasta OneDrive chamada Microsoft Teams Chat.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
 Observe que, para equipes públicas, o site SharePoint equipe é provisionado com acesso "Todos, exceto usuários externos". A equipe pública não é exibida no Teams para pessoas que não são membros dessa equipe. No entanto, eles podem acessar o conteúdo no site SharePoint equipe usando a URL do site SharePoint equipe. 
 

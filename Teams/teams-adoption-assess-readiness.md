@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2bd70c0b46d48333552a862ab26a763cfe5473d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613560"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726760"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Sua organização está preparada para o Microsoft Teams?
 
@@ -72,7 +72,7 @@ Nosso Guia do Programa De adoção Antecipado é um recurso útil para a libera�
 
 A mudança é um processo humano que não tem nada a ver com tecnologia. Há a psicologia comportamental e a neurociência que nos instrui sobre a resistência natural à mudança. Para tornar a mudança aceitável, é fundamental prever as necessidades dos usuários, expressar sua compreensão da situação e criar soluções que melhorem essa situação. Mesmo fazendo isso, você encontrará resistência natural à alteração.  
 
-![Graph que ilustram a resistência à alteração](media/teams-adoption-resistance.png)
+![Graph ilustrando a resistência à alteração.](media/teams-adoption-resistance.png)
 
 Todas as abordagens da organização mudam de forma diferente, dependendo da região, estilo de trabalho, perfil profissional e outros elementos da organização. Para avaliar a prontidão da sua organização, consulte [Avaliar a prontidão de alterações organizacionais.](upgrade-org-change-readiness.md) Use as diretrizes para responder às seguintes perguntas:
 
@@ -104,4 +104,4 @@ Combine esses dados com os perfis de participantes e os funcionários que deseja
 
 Você pode usar os campeões internos para resolver o problema de ter tipos de alteração diferentes. Aqui, os comentários são a chave para o sucesso: incentivar as pessoas a compartilhar seus desafios e necessidades. Aceite os disruptadores e os dissensos, dando a esses indivíduos ou grupos um assento na tabela durante a experimentação. Essa prática prática abrirá o caminho para uma implantação mais suave e ampla de suas melhorias de colaboração.  
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Microsoft Teams fase de adoção 2: Experimento](teams-adoption-phase2-experiment.md) 
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: [Microsoft Teams fase de adoção 2: Experimento](teams-adoption-phase2-experiment.md) 

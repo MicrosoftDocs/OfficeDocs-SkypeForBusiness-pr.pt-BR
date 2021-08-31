@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o armazenamento de aplicativos personalizados Microsoft Teams.
-ms.openlocfilehash: 12893fc0a424fc85b0bb72dd58da3008c2ba5085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 06663505a173d7fa1a5d53957fbf2df8fdd232d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584655"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728900"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Armazenamento de aplicativos personalizados Microsoft Teams
 
@@ -34,7 +34,7 @@ Agora você pode personalizar o armazenamento de aplicativos da sua organizaçã
 
 Você pode acessar o armazenamento personalizado no centro de administração selecionando **Teams**  >  **aplicativos personalizar o armazenamento**.
 
-  ![Recurso de personalização do armazenamento de console de administrador realçado](media/customize-app-store.png)
+  ![Recurso de personalização do armazenamento de console de administrador realçado.](media/customize-app-store.png)
 
 Este artigo descreve os recursos de armazenamento de aplicativos personalizados e como usá-los.
 
@@ -99,14 +99,14 @@ Certifique-se de que a cor do texto tenha contraste suficiente com o plano de fu
 
 Quando você seleciona **Escolher uma cor personalizada,** um seletor de cores é aberto. Selecione a cor que você deseja ajustando a escala do seletor de cores.
 
- ![o selador de cores](media/choose-a-custom-color.png)
+ ![o selador de cores.](media/choose-a-custom-color.png)
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>Concluir a personalização do armazenamento de aplicativos de equipe
 
 Quando terminar de personalizar o armazenamento de aplicativos, selecione **Salvar** para salvar suas alterações.
 Para visualizar suas alterações, selecione **Visualizar o armazenamento de aplicativos** para ver uma representação do armazenamento de aplicativos personalizados.
 
-![visualização do armazenamento de aplicativos personalizados](media/PowerAppsInStore650w.png)
+![visualização do armazenamento de aplicativos personalizados.](media/PowerAppsInStore650w.png)
 
 > [!Note]
 > A representação pode variar da versão final do armazenamento de aplicativos personalizados porque algumas cores padrão são baseadas na versão do cliente Teams usuários.

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 0a6277ffe3dcc8dc64f3e11a4de8c8a308c57a95
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa3bcdc05107722554b6fbce9074c0462ac6d73c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608718"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728870"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -47,7 +47,7 @@ Os aplicativos são fixados na barra de aplicativos, que é a barra no lado do c
 
 |Cliente de área de trabalho do Teams  |Cliente de dispositivo móvel do Teams |
 |---------|---------|
-|![O Teams da área de trabalho](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![O Teams cliente móvel](media/mobile-app-ui.png)      |
+|![O Teams da área de trabalho.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![O Teams cliente móvel](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > Se você Teams para Educação, é importante saber que o aplicativo Assignments está fixado por padrão na política global, mesmo que no momento, você não o veja listado na política global. Ele será o quarto aplicativo na lista de aplicativos fixados Teams clientes.
@@ -73,7 +73,7 @@ Para criar uma política de configuração de aplicativo para fixar aplicativos,
 
 8. Organize os aplicativos na ordem em que você deseja que eles apareçam Teams.
 
-   ![a seção Aplicativos fixados](media/app-setup-policies-new-policy-setup.png)
+   ![a seção Aplicativos fixados.](media/app-setup-policies-new-policy-setup.png)
 
 9. Selecione **Salvar**.
 
@@ -132,7 +132,7 @@ Você gerencia políticas de configuração de aplicativos no Microsoft Teams de
 
 Edite as configurações na política global para incluir os aplicativos que deseja. Para personalizar Teams diferentes grupos de usuários em sua organização, crie e atribua uma ou mais políticas personalizadas.
 
-![a página Políticas de configuração de aplicativo](media/app-setup-policies.png)
+![a página Políticas de configuração de aplicativos.](media/app-setup-policies.png)
 
 ### <a name="edit-an-app-setup-policy"></a>Editar uma política de configuração de aplicativo
 
@@ -193,7 +193,7 @@ Para exibir todos os aplicativos fixados para um usuário, os usuários podem te
 |Cliente de área de trabalho do Teams |Cliente de dispositivo móvel do Teams |
 |---------|---------|
 |Na barra de aplicativos ao lado do Teams, selecione **... Mais aplicativos**.| Na barra de aplicativos próxima à parte inferior Teams, passe o dedo para cima.|
-|![Mais aplicativos no cliente Teams área de trabalho](media/app-setup-policies-desktop-more-apps.png)<br>   |![mais aplicativos no cliente Teams celular](media/app-setup-policies-mobile-more-apps.png)  
+|![Mais aplicativos no cliente Teams desktop.](media/app-setup-policies-desktop-more-apps.png)<br>   |![mais aplicativos no cliente Teams celular](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>O que preciso saber sobre a experiência Teams celular
 

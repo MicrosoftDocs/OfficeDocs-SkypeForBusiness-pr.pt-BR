@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Visão geral do uso Skype for Business de telemetria online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608638"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726480"
 ---
 # <a name="plan-call-data-connector"></a>Conector de Dados do Plano de Chamada
 
@@ -54,7 +54,7 @@ Para obter mais informações, consulte [Call Analytics and Call Quality Dashboa
 
 É claro que você pode querer manter alguns dados de qualidade de chamada no local. Esse pode ser o caso, por exemplo, se você estiver usando uma solução de terceiros com relatórios e fluxos de trabalho personalizados.  O Conector de Dados de Chamada permite configurar o envio de dados para o serviço online e também manter uma cópia dos dados em seu servidor local, conforme mostrado no diagrama a seguir:
 
-![SfB Caixa postal na Nuvem](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![SfB Caixa postal na Nuvem.](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## <a name="requirements"></a>Requisitos
 

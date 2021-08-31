@@ -21,12 +21,12 @@ description: O administrador do Teams ou de TI pode configurar o acesso externo 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 255b714980db3ac63e9251c8db7af243d91dc72d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2739f1b7f97e39617471ecf292ecf9424a7ac396
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610298"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726860"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 
@@ -70,7 +70,7 @@ O acesso externo é ativado por padrão no Teams, o que significa que sua organi
 
 ### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Etapa 1 - Habilitar que sua organização se comunique com outras equipes ou organizações do Skype for Business
 
-![Um ícone mostrado o logotipo do Microsoft Teams](media/teams-logo-30x30.png)  **Usando centro de administração Microsoft Teams**
+![Um ícone mostrado o logotipo do Microsoft Teams.](media/teams-logo-30x30.png)  **Usando centro de administração Microsoft Teams**
 
 1. Na navegação à esquerda, acesse **Configurações em toda a organização** > **Acesso externo**.
 
@@ -109,13 +109,13 @@ Para testar sua configuração, você precisa de um usuário do Teams que não s
 
 Siga estas etapas para permitir que os usuários do Teams em sua organização conversem com usuários do Skype. Os usuários do Teams podem pesquisar e iniciar uma conversa de somente texto ou uma chamada de áudio/vídeo com usuários do Skype e vice-versa.
 
-![Um ícone mostrado o logotipo do Microsoft Teams](media/teams-logo-30x30.png)  **Usando centro de administração Microsoft Teams**
+![Um ícone mostrado o logotipo do Microsoft Teams.](media/teams-logo-30x30.png)  **Usando centro de administração Microsoft Teams**
 
 1. Na navegação à esquerda, acesse **Configurações em toda a organização** > **Acesso externo**.
 
 2. Ative a configuração **Os usuários podem se comunicar com os usuários do Skype**.
 
-    ![Captura de tela da configuração Os usuários podem se comunicar com o Skype ativada](media/manage-external-access-5.png).
+    ![Captura de tela da configuração Os usuários podem se comunicar com o Skype ativada.](media/manage-external-access-5.png).
 
 Para saber mais sobre as formas pelas quais os usuários do Teams e do Skype podem se comunicar, incluindo as limitações que se aplicam, confira [Teams e a interoperabilidade do Skype](teams-skype-interop.md).
 

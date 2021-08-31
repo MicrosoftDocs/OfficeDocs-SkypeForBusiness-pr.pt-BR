@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630205"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729220"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
 
@@ -43,7 +43,7 @@ Recomendamos implementar o Teams em etapas, uma carga de trabalho por vez, à me
 - [Reuniões e conferências](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
 
-![Diagrama ilustrando os caminhos para implantação do Teams](media/get-started-with-teams-quick-start-pathways.png)
+![Diagrama ilustrando os caminhos para implantação do Teams.](media/get-started-with-teams-quick-start-pathways.png)
 
 Se você tiver uma organização de médio ou grande porte, [use o Consultor do Teams para ajudá-lo a lançar o Microsoft Teams](use-advisor-teams-roll-out.md) para ajudá-lo a implantar essas cargas de trabalho em toda a sua organização. O Consultor usa o próprio Teams para criar tarefas de plano e atribuí-las a proprietários, compartilhar documentos e habilitar discussões entre sua equipe de implantação.
 

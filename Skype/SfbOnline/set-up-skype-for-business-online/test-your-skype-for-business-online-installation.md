@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611460"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729900"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testar a instalação do Skype for Business Online
 
@@ -53,7 +53,7 @@ Veja o que você precisa:
 ## <a name="set-up-test-accounts"></a>Configurar contas de teste
 <a name="__toc328126910"> </a>
 
-1. Vá para **Administrador Microsoft 365** ou Office 365 Usuários e grupos e selecione adicionar Adicionar e  >   insira as informações   >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) necessárias.
+1. Vá para **Administrador Microsoft 365** ou  >   **Office 365** Usuários  >  **e grupos** e selecione ![ adicionar.](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) e insira as informações necessárias.
 
 2. Quando você chegar na Etapa 4 (Email), digite seu endereço de email. Assim, você terá um registro do novo nome de usuário e senha.
 
@@ -66,7 +66,7 @@ Em cada computador de teste:
 
 1. Vá para a Microsoft 365 ou Office 365 página inicial e entre com credenciais de uma de suas contas de teste.
 
-2. Vá para **Configurações**![Configurações: atualizar seu perfil, instalar software e conectá-lo à nuvem](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) e clique em **Instale software e conecte-o à nuvem**.
+2. Vá para **Configurações** Configurações: atualize seu perfil, instale o software e conecte-o à nuvem. , clique em Instalar software e conecte-o ![ à ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **nuvem**.
 
 ## <a name="set-up-audio-conferencing"></a>Configurar a Audioconferência
 <a name="__toc328126912"> </a>
@@ -83,7 +83,7 @@ Depois de configurar seus usuários para a audioconferência, eles recebem uma m
 
 1. Clique **em Usuários de Audioconferência.**  >  
 
-2. Clique nos nomes dos usuários que você quer configurar para a conferência discada e clique em **Editar**![Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+2. Clique nos nomes dos usuários que você deseja configurar para conferência discada e clique em **Editar** ![ Editar. ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
 
 3. Selecione seu provedor de serviços de audioconferência, digite as informações solicitadas e clique em **Salvar**.
 

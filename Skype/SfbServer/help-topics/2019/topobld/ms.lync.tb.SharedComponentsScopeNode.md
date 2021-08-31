@@ -15,28 +15,28 @@ ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Clique com o botão direito do mouse em Componentes Compartilhados na árvore de hierarquia do Construtor de Topologias para criar novos componentes compartilhados ou acessar opções de nível de Topologia.
-ms.openlocfilehash: c88eb48da50648894cd1ede4bbcafa2357fc30bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c5107cf6d2cca601a52af547f3e098ff83848afd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616117"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726670"
 ---
 # <a name="shared-components-scope-node"></a>Nó de Escopo de Componentes Compartilhados
  
 Clique com o botão direito do mouse em **Componentes Compartilhados** na árvore de hierarquia do Construtor de Topologias para criar novos componentes compartilhados ou acessar opções de nível de Topologia.
   
-![Nó de Escopo de Componentes Compartilhados](../../../media/Shared_Components_Scope_Node.jpg)
+![Nó de Escopo de Componentes Compartilhados.](../../../media/Shared_Components_Scope_Node.jpg)
   
 Selecione **Novo** para criar um novo repositório de arquivos, um novo Gateway IP/PSTN, um novo servidor Office Web Apps, um novo repositório SQL Server ou um novo Tronco.
   
 > [!NOTE]
 > Consulte os tópicos de Ajuda para cada uma dessas opções. 
   
-![Nó de Escopo de Componentes Compartilhados](../../../media/Shared_Components_Scope_NodeB.jpg)
+![Nó de Escopo de Componentes Compartilhados.](../../../media/Shared_Components_Scope_NodeB.jpg)
   
 Selecione **Topologia para** clicar em opções para abrir um novo documento de topologia. Abra um documento de topologia existente, Baixe Topologia Atual do armazenamento de Gerenciamento Central, Salve uma Cópia do documento de topologia atual, Publique o documento de topologia atual, Instale Banco de Dados para criar as configurações de banco de dados configuradas no momento, Mesclar o Office Communications Server 2007 R2 na implantação atual ou remover a implantação.
   
-![Nó de Escopo de Componentes Compartilhados C](../../../media/Shared_Components_Scope_NodeC.jpg)
+![Nó C do Escopo de Componentes Compartilhados.](../../../media/Shared_Components_Scope_NodeC.jpg)
   
 

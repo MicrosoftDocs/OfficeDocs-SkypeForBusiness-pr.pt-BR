@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como definir a Audioconferência em sua pequena ou média empresa para pessoas que precisam usar um telefone para ligar para reuniões. '
-ms.openlocfilehash: db741461da3abc986cbb80ad7c8aa3d1bde4b272
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4624feb0ccacb7a5fd8ecf6d9ba06155950e90e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583635"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728930"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurar Audioconferência para pequenas e médias empresas
 
@@ -56,7 +56,7 @@ Obter uma licença de Audioconferência para cada pessoa que conduzirá as reuni
 2. Selecione **Microsoft 365 detalhes promocionais** de adoção de  >  **audioconferência** e selecione **Obter agora**.
 3. Insira o número de licenças que você precisa para seus organizadores de reunião e conclua seu pedido.
 
-    :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="Captura de tela da licença promocional de adoção de audioconferência":::
+    :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="Captura de tela da licença Promocional de Adoção de Audioconferência.":::
 
     > [!NOTE]
     > Desembaixe ou selecione a atribuição automática a todos os usuários sem **licenças,** dependendo se você deseja atribuir automaticamente uma licença de Audioconferência a todos os usuários que não têm essa licença.

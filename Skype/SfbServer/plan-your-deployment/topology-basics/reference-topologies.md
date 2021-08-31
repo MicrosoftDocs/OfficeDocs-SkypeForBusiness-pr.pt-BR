@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologias de referência para Skype for Business Server, incluindo diagramas e decisões a tomar para organizações grandes, médias e pequenas.
-ms.openlocfilehash: 76866e21c4abcd0defafb8dcdb4b758da2f376cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f6598415627ca48181a6346007704536163ea94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616447"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729750"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologias de referência para Skype for Business Server
 
@@ -37,7 +37,7 @@ A topologia de referência para pequenas organizações mostra como você pode i
 
 **Topologia de referência para pequenas organizações**
 
-![Topologia de referência implantando três diagramas de servidores](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
+![Topologia de referência implantando três diagramas de servidores.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
 - **Par de servidores Edição Standard implantados** Essa organização tem 4.000 usuários em seu site central. Eles implantaram dois servidores Edição Standard e os emparelhou para habilitar alta disponibilidade e recuperação de desastres. Cada servidor tem 2.000 usuários, mas as informações sobre todos os usuários são sincronizadas entre os dois servidores. Se um cair, um administrador poderá fazer fail over desses usuários para serem atendidos pelo outro servidor, com um mínimo de interrupção para os usuários. Para obter mais informações sobre recursos de recuperação de desastres e alta disponibilidade no Skype for Business Server, consulte [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
@@ -63,7 +63,7 @@ A topologia de referência com alta disponibilidade e um único data center é p
 
 **Topologia de referência para organizações médias**
 
-![Topologia de referência para diagrama de data center único](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
+![Topologia de referência para diagrama de data center único.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
 
 - **Acomodar mais usuários, adicionando mais Servidores Front-End.** A topologia exata neste diagrama tem três Servidores Front-End para oferecer suporte a 20.000 usuários. Se você tiver um único site central e mais usuários, poderá simplesmente adicionar mais Servidores Front-End ao pool. O número máximo de usuários por pool é de 80.000, com doze Servidores Front-End.
 
@@ -101,19 +101,19 @@ Essa topologia é mostrada em vários diagramas, com uma visão geral primeiro s
 
 **Visão geral da topologia de referência para grandes organizações com vários data centers**
 
-![Topologia de referência para vários data centers](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
+![Topologia de referência para vários data centers.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
 
 **Topologia de referência para grandes organizações: exibição detalhada do Site Central A**
 
-![Topologia 3-2](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
+![Topologia 3-2.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
 
 **Topologia de referência para grandes organizações: exibição detalhada do Site Central B**
 
-![Topologia 3-3](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
+![Topologia 3-3.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
 
 **Topologia de referência para grandes organizações: exibição detalhada do Site Central C**
 
-![Topologia 3 a 4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
+![Topologia 3 a 4.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
 - **Os pools de front-end são emparelhados para habilitar a recuperação de desastres.** Os pools de Front-End no Site A e no Site B são emparelhados uns com os outros, para oferecer suporte à recuperação de desastres. Se o pool em um site falhar, o administrador poderá fazer fail over dos usuários desse site para o pool de Front-End emparelhado no outro site, com um mínimo de interrupção de serviço para os usuários. Cada um desses dois pools de Front-End tem seis servidores, o que é suficiente para todos os 40.000 usuários em ambos os pools em caso de failover. Para obter mais informações, [consulte Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 

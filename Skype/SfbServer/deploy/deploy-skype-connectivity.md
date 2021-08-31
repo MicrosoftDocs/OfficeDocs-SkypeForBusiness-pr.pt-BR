@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como se conectar Skype for Business Server com Skype consumidor. Também conhecido como Skype conectividade.'
-ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605540"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729880"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar Skype conectividade no Skype for Business Server
 
@@ -54,8 +54,8 @@ A tabela a seguir descreve o suporte para Skype Pesquisa de Diretório.
 
 ||**Skype for Business Server Front-End**|**Front-End do Lync Server 2013 (ou mais antigo)**|**Comments**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server Borda  <br/> |Compatível  <br/> |Não Suportado  <br/> |Skype for Business Server e Borda são pré-requisitos para Skype Pesquisa de Diretório  <br/> |
-|Skype for Business Server Borda + Lync Server 2013 Borda implantada lado a lado  <br/> |Compatível  <br/> |Não Suportado  <br/> |Skype O tráfego de Pesquisa de Diretório flui Skype for Business Server de Borda. O tráfego de federação passa pela borda configurada pelo administrador. Por exemplo, o administrador poderia optar por continuar a enviar tráfego de federação por meio de servidores de Borda do Lync Server 2013 que não suportam Skype Pesquisa de Diretório.  <br/> |
+|Skype for Business Server Borda  <br/> |Com suporte  <br/> |Não Suportado  <br/> |Skype for Business Server e Borda são pré-requisitos para Skype Pesquisa de Diretório  <br/> |
+|Skype for Business Server Borda + Lync Server 2013 Borda implantada lado a lado  <br/> |Com suporte  <br/> |Não Suportado  <br/> |Skype O tráfego de Pesquisa de Diretório flui Skype for Business Server de Borda. O tráfego de federação passa pela borda configurada pelo administrador. Por exemplo, o administrador poderia optar por continuar a enviar tráfego de federação por meio de servidores de Borda do Lync Server 2013 que não suportam Skype Pesquisa de Diretório.  <br/> |
 |Borda do Lync Server 2013 (ou mais antigo)  <br/> |Não Suportado  <br/> |Não Suportado  <br/> ||
    
 > [!NOTE]
@@ -120,7 +120,7 @@ As implantações locais são necessárias para publicar um registro SRV DNS de 
 
 Outras orientações sobre Certificados Externos podem ser encontradas em [Planejamento de certificados.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)
 
-#### <a name="faqs"></a>Perguntas frequentes
+#### <a name="faqs"></a>Perguntas Frequentes
 
 **Por que o site de provisionamento está sendo desligado?**
 O mecanismo de provisionamento de IM pública (PIC) (pic.lync.com) implantado em 2006 não é mais serviceable e será desligado em 15/08/2019. Em vez disso, a federação de IM pública assumirá o mesmo modelo de federação usado pelo Skype for Business Online, conhecido como "descoberta de parceiros", em que uma implantação local é descoberta publicamente por seus registros DNS SRV de federação.
@@ -158,7 +158,7 @@ A federação é necessária para permitir que Skype usuários se comuniquem com
   
 A federação é necessária para permitir que Skype usuários se comuniquem com Skype for Business usuários em sua organização. A Pic (Conectividade de Mensagens Instantâneas Públicas) é uma classe de federação e deve ser configurada para permitir que seus usuários Skype for Business Server se comuniquem com Skype usuários. Federação e PIC são configurados usando a caixa de diálogo Configuração de Borda do Painel de Controle Skype for Business Server como mostrado na figura.
   
-![Definir Novo Pool de Borda](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
+![Definir Novo Pool de Borda.](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
   
 > [!NOTE]
 > Os atributos EnableSkypeIdRouting e EnableSkypeDirectorySearch precisam ser definidos como true nas configurações de provedor público (consulte instruções posteriores) para que a Pesquisa funcione. 
@@ -178,7 +178,7 @@ Usando o Shell de Gerenciamento Skype for Business Server, um administrador deve
   
 Para novas instalações, você pode configurar Skype Conectividade habilitando um provedor público Skype usando o Painel de Controle Skype for Business Server como mostrado na figura.
   
-![Provedores Federados SIP](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
+![Provedores Federados SIP.](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
   
 > [!NOTE]
 > Para configurar Skype Conectividade ao atualizar para Skype for Business Server você deve remover e adicionar o provedor Skype público existente. 

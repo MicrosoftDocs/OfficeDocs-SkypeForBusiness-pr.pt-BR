@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d1d63b827775f00aa4d6a2a53603a84b4e39edf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0dd2bb016498df23a98c1e289679fd1c4e4cfa38
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595115"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729690"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar e habilitar Coach de carreira para Microsoft Teams
 
@@ -136,7 +136,7 @@ Use a [página Gerenciar aplicativos](/microsoftteams/manage-apps) para exibir o
 
 4. Selecione **Coach de carreira** e selecione **Configurações.**  
 
-    ![mostra o Coach de carreira selecionado com a opção Configurações mostrando](media/career-coach-app.png)
+    ![mostra o Coach de carreira selecionado com a opção Configurações mostrando.](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>Configurar as configurações Coach de carreira aplicativos
 
@@ -162,7 +162,7 @@ De definir o nome, o logotipo e o idioma padrão da sua instituição educaciona
 > [!NOTE]
 > Esta é uma seção necessária- Coach de carreira não pode ser habilitada sem a Marca e as preferências enviadas.
 
-![a Coach de carreira de identidade visual do centro de administração](media/career-coach-brand.png)
+![a Coach de carreira de identidade visual do centro de administração.](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>Ícone da instituição educacional
 
@@ -197,17 +197,17 @@ Determine a página do LinkedIn da instituição educacional. Encontre a página
 
 2. Encontre a página do LinkedIn pesquisando no LinkedIn e selecionando Filtro escolar. Ou conecte-se a um membro da equipe de serviços de carreira para determinar a página escolar correta do LinkedIn a ser usada. [Como identificar páginas do LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
 
-    ![pesquisa do linkedin para escola](media/career-coach-school-search.png)
+    ![pesquisa do linkedin para a escola.](media/career-coach-school-search.png)
 
 3. Adicione a URL da página da escola do LinkedIn. A URL deve ser uma página de escola e não uma página da empresa e normalmente formatada como `https://www.linkedin.com/school/willow-university/` .
 
-   ![Exemplo da página da escola linkedin](media/career-coach-linkedin-page-url.png)
+   ![exemplo da página da escola do linkedin.](media/career-coach-linkedin-page-url.png)
 
 4. Selecione **Enviar**.
 
 5. Se enviada com êxito, a página será atualizada para mostrar o **link Verificação** e **expiração do link Verificação.** O link de verificação expira após 30 dias.
 
-   ![Conexões linkedin para o aplicativo de coach de carreira](media/career-coach-linked-in.png)  
+   ![Conexões linkedin para o aplicativo de coach de carreira.](media/career-coach-linked-in.png)  
 
 6. Copie o link de verificação e compartilhe-o com a página super admin do LinkedIn da sua instituição educacional. Saiba mais sobre a função de super-administrador de página do LinkedIn na documentação [de administrador de página do LinkedIn.](https://www.linkedin.com/help/linkedin/answer/102672)
 
@@ -216,7 +216,7 @@ Determine a página do LinkedIn da instituição educacional. Encontre a página
 > [!NOTE]
 > A verificação pelo super administrador de página do LinkedIn é necessária para concluir a conexão linkedIn para Coach de carreira.
 
-   ![verificação de página do linkedin no portal do desenvolvedor do linkedin](media/career-coach-linkedin-verification.png)
+   ![verificação de página do linkedin no portal do desenvolvedor do linkedin.](media/career-coach-linkedin-verification.png)
 
 #### <a name="course-catalog"></a>Catálogo de cursos
 
@@ -267,7 +267,7 @@ Incluir os campos recomendados melhora a experiência dos alunos retornando melh
 
 4. Selecione **Enviar**.
 
-   ![a seção catálogo de cursos do aplicativo de técnico de carreira](media/course-catalog.png)
+   ![a seção catálogo de cursos do aplicativo de técnico de carreira.](media/course-catalog.png)
 
 #### <a name="fields-of-study"></a>Campos de estudo
 

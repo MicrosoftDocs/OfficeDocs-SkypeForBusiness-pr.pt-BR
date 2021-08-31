@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumo: Explore esses links para saber como instalar e configurar o Skype for Business Server 2019.'
-ms.openlocfilehash: f5a37015e9688274b53fb9b9f72b21d7ad04f150
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04114b971ad299bed5a6c93f243473fbcee0fcca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592145"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729060"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Implantar Skype for Business Server 2019
  
@@ -38,15 +38,15 @@ Os artigos a seguir sobre como instalar e configurar Skype for Business Server e
   
 ||Conteúdo|Descrição|
 |:-----|:-----|:-----|
-|![Ícone para documentação](/office/media/icons/paragraph-writing-blue.svg)|[Requisitos do sistema para Skype for Business Server 2019](../plan/system-requirements.md)  <br/> |Saiba mais sobre os requisitos de servidor e ambiente para Skype for Business Server.  <br/> |
-|![Ícone para documentação](/office/media/icons/paragraph-writing-blue.svg)|[Noções básicas de topologia para Skype for Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Saiba mais sobre opções de topologia e cenários de localização de servidor para Skype for Business Server.  <br/> |
-|![Ícone numérico de como fazer](/office/media/icons/list-123-blue.svg)|[Instalar o Skype for Business Server](../../SfbServer/deploy/install/install.md)<br/> |Saiba como instalar o Skype for Business Server em várias topologias, em ambientes físicos e virtuais.  <br/> |
-|![Ícone numérico de como fazer](/office/media/icons/list-123-blue.svg)| [Migração para Skype for Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Saiba como migrar de versões anteriores do Skype for Business ou do Lync Server.  <br/> |
-|![Ícone numérico de como fazer](/office/media/icons/list-123-blue.svg)|[Configurar a experiência do cliente com Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |Saiba como configurar a experiência do cliente.  <br/> |
-|![Ícone numérico de como fazer](/office/media/icons/list-123-blue.svg)| [Configurar conectividade híbrida entre Skype for Business Server e Skype for Business Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |Saiba como configurar os pré-requisitos para uma implantação híbrida e, em seguida, configurar sua implantação para gerenciar usuários entre o Skype for Business Server local e o Skype for Business Online.  <br/> |
-|![Ícone numérico de como fazer](/office/media/icons/list-123-blue.svg)| [Implantar servidores de borda Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |Se os usuários em sua organização se comunicarem com usuários externos que não estão conectados à sua rede interna, você vai querer implantar o Servidor de Borda.  <br/> |
-|![Ícone numérico de como fazer](/office/media/icons/list-123-blue.svg)| [Implantar Enterprise Voice no Skype for Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Saiba como implantar uma solução de voz corporativa completa do Voice sobre IP (VoIP), fornecendo uma integração rica com o Outlook e o Exchange e muitos recursos avançados, como Grupos de Resposta, Estacionamento de Chamadas, Chamada de equipe, Atendimento de Chamadas de Grupo e Suporte Aprimorado de Emergência E9-1-1.  <br/> |
-| ![Ícone numérico de como fazer](/office/media/icons/list-123-blue.svg)| [Implantar o Servidor de Interop de Vídeo Skype for Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Se você quiser dar suporte à interoperação de vídeo, leia sobre como implantar o ViS (Video Interop Server).  <br/> |
+|![Ícone para documentação.](/office/media/icons/paragraph-writing-blue.svg)|[Requisitos do sistema para Skype for Business Server 2019](../plan/system-requirements.md)  <br/> |Saiba mais sobre os requisitos de servidor e ambiente para Skype for Business Server.  <br/> |
+|![Ícone para documentação.](/office/media/icons/paragraph-writing-blue.svg)|[Noções básicas de topologia para Skype for Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Saiba mais sobre opções de topologia e cenários de localização de servidor para Skype for Business Server.  <br/> |
+|![Ícone numérico como fazer isso.](/office/media/icons/list-123-blue.svg)|[Instalar o Skype for Business Server](../../SfbServer/deploy/install/install.md)<br/> |Saiba como instalar o Skype for Business Server em várias topologias, em ambientes físicos e virtuais.  <br/> |
+|![Ícone numérico como fazer isso.](/office/media/icons/list-123-blue.svg)| [Migração para Skype for Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Saiba como migrar de versões anteriores do Skype for Business ou do Lync Server.  <br/> |
+|![Ícone numérico como fazer isso.](/office/media/icons/list-123-blue.svg)|[Configurar a experiência do cliente com Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |Saiba como configurar a experiência do cliente.  <br/> |
+|![Ícone numérico como fazer isso.](/office/media/icons/list-123-blue.svg)| [Configurar conectividade híbrida entre Skype for Business Server e Skype for Business Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |Saiba como configurar os pré-requisitos para uma implantação híbrida e, em seguida, configurar sua implantação para gerenciar usuários entre o Skype for Business Server local e o Skype for Business Online.  <br/> |
+|![Ícone numérico como fazer isso.](/office/media/icons/list-123-blue.svg)| [Implantar servidores de borda Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |Se os usuários em sua organização se comunicarem com usuários externos que não estão conectados à sua rede interna, você vai querer implantar o Servidor de Borda.  <br/> |
+|![Ícone numérico como fazer isso.](/office/media/icons/list-123-blue.svg)| [Implantar Enterprise Voice no Skype for Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Saiba como implantar uma solução de voz corporativa completa do Voice sobre IP (VoIP), fornecendo uma integração rica com o Outlook e o Exchange e muitos recursos avançados, como Grupos de Resposta, Estacionamento de Chamadas, Chamada de equipe, Atendimento de Chamadas de Grupo e Suporte Aprimorado de Emergência E9-1-1.  <br/> |
+| ![Ícone numérico como fazer isso.](/office/media/icons/list-123-blue.svg)| [Implantar o Servidor de Interop de Vídeo Skype for Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Se você quiser dar suporte à interoperação de vídeo, leia sobre como implantar o ViS (Video Interop Server).  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Recursos adicionais sobre planejamento para Skype for Business Server
 
@@ -54,6 +54,6 @@ Os recursos a seguir sobre como planejar Skype for Business Server estão dispon
   
 ||**Conteúdo**|**Descrição**|
 |:-----|:-----|:-----|
-|![Ícone para Documentos](/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server para profissionais de IT](../../Hub/index.yml) <br/> |Visite a central de recursos para acessar vídeos, sites da comunidade, documentação, downloads e muito mais.|
-|![Ícone para conteúdo do desenvolvedor](/office/media/icons/developer-blue.svg)|[Skype Plataforma do Desenvolvedor](/skype-sdk/skypedeveloperplatform) <br/> |Encontre recursos de desenvolvedor para Skype for Business Server, incluindo exemplos de código, treinamento e SDKs.  <br/> |
-|![Ícone para notícias, blogs e assim por diante](/office/media/icons/blog-site-blue.svg)|[Gerenciamento e adoção de alterações](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs do Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype blog de equipe](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Acompanhe as notícias das equipes que criam e documentam Skype for Business Server.  <br/> |
+|![Ícone para Documentos.](/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server para profissionais de IT](../../Hub/index.yml) <br/> |Visite a central de recursos para acessar vídeos, sites da comunidade, documentação, downloads e muito mais.|
+|![Ícone para conteúdo do desenvolvedor.](/office/media/icons/developer-blue.svg)|[Skype Plataforma do Desenvolvedor](/skype-sdk/skypedeveloperplatform) <br/> |Encontre recursos de desenvolvedor para Skype for Business Server, incluindo exemplos de código, treinamento e SDKs.  <br/> |
+|![Ícone para notícias, blogs e assim por diante.](/office/media/icons/blog-site-blue.svg)|[Gerenciamento e adoção de alterações](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs do Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype blog de equipe](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Acompanhe as notícias das equipes que criam e documentam Skype for Business Server.  <br/> |

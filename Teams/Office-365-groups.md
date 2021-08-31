@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Saiba mais sobre como Microsoft 365 grupos e associações de grupo funcionam com Microsoft Teams.
-ms.openlocfilehash: e74e2e8c11753fbf97ef1161e8443f57dbb6146d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e140d50bb16c9ed99f126662545fb026c3df60a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631555"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729730"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Grupos e Microsoft Teams
 
 Microsoft 365 Grupos é o serviço de associação entre aplicativos Microsoft 365. Em um nível básico, um grupo Microsoft 365 é um objeto no Azure Active Directory com uma lista de membros e um acoplamento a cargas de trabalho relacionadas, incluindo um site de equipe do SharePoint, uma caixa de correio de Exchange compartilhada, o Planner e o Power BI de trabalho. Você pode adicionar ou remover pessoas ao grupo da mesma forma que faria com qualquer outro objeto de segurança baseado em grupo no Active Directory.
 
-![Diagrama mostrando Microsoft 365 grupos e serviços relacionados](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
+![Diagrama mostrando Microsoft 365 grupos e serviços relacionados.](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
 Por padrão, os usuários Microsoft 365 podem criar e gerenciar grupos. Para obter mais informações sobre Microsoft 365 Grupos, consulte [Learn about Microsoft 365 Groups](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) and the Groups in Microsoft 365 for IT [Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365) poster.
 

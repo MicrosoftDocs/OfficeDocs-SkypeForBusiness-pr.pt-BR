@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: O Skype for Business Server Skype Room Systems v1 (SRS v1, anteriormente conhecido como Sistema de Salas do Lync) Portal Da Web Administrativo é um portal da Web que as organizações podem usar para manter suas salas de conferência Skype Room Systems. Os administradores podem usar o SrS v1 Administrative Web Portal para monitorar a saúde do dispositivo, por exemplo, monitorando dispositivos de áudio/vídeo. Com esse portal, os administradores podem coletar remotamente informações de diagnóstico para monitorar a saúde da sala de conferência.
-ms.openlocfilehash: 2451d9892bc15b1b1f189a764823c2f9beb019ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618127"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729110"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implantar o SRS v1 Administrative Web Portal em Skype for Business Server
 
@@ -63,7 +63,7 @@ Para usar o Portal da Web Administrativo do SRS v1, você precisará instalar ou
 
     Crie o grupo com Escopo de Grupo como Global e Tipo de Grupo como Usuários habilitados para Security.SIP que são adicionados a esse grupo estão autorizados a usar todas as funcionalidades do portal de administração em uma única sala Skype. Para incluir suporte para gerenciamento em massa Skype salas, consulte a etapa 5.
 
-     ![Lista de grupos de administradores com função de grupo de segurança](../../media/LRS_LRSFullAccessAdminGroup.png)
+     ![Lista de Grupos de Administradores com função de grupo de segurança.](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. Crie um grupo de segurança do Active Directory com o nome LRSPowerUserAdminsGroup.
 
@@ -71,11 +71,11 @@ Para usar o Portal da Web Administrativo do SRS v1, você precisará instalar ou
 
 6. Adicione LRSFullAccessAdminGroup como membro do LRSSupportAdminGroup.
 
-     ![Página Membros das propriedades LRSSupportAdminGroup](../../media/LRS_Add_LRSSupportAdminGroup.png)
+     ![Página Membros das Propriedades LRSSupportAdminGroup.](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
 7. Crie um usuário do Active Directory habilitado para SIP com o nome LRSSupport. Adicione esse usuário a LRSSupportAdminGroup.
 
-     ![Página Membros das propriedades LRSSupportAdminGroup](../../media/LRS_Add_LRS_SIP_SupportUser.png)
+     ![Página Membros das Propriedades LRSSupportAdminGroup.](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
 8. Instale [ASP.NET MVC 4 para Visual Studio 2010 SP1 e Visual Web Developer 2010 SP1](https://go.microsoft.com/fwlink/p/?LinkId=323967).
 
@@ -126,7 +126,7 @@ Para verificar a instalação do SrS v1 Administrative Web Portal, faça o segui
 
     Você não deve ver nenhum erro, conforme mostrado na imagem a seguir:
 
-     ![Tela de entrada do Portal de Administração do Sistema de Sala do Lync](../../media/LRS_AdminPortalSignIn.png)
+     ![Tela de entrada do Portal de Administração do Sistema de Sala do Lync.](../../media/LRS_AdminPortalSignIn.png)
 
 2. Se você não vir nenhum erro, tente acessar a SEGUINTE URL de qualquer outro computador na topologia:
 
@@ -147,7 +147,7 @@ Depois de implantar o SRS no servidor, você pode verificar o status de todas as
 
 2. Insira as credenciais da conta LRSSupport ou de uma conta que foi adicionada ao grupo de segurança LRSSupportAdminGroup.
 
-![Tela de entrada do Portal de Administração do Sistema de Sala do Lync](../../media/LRS_AdminPortalSignIn.png)
+![Tela de entrada do Portal de Administração do Sistema de Sala do Lync.](../../media/LRS_AdminPortalSignIn.png)
 
 ### <a name="srs-administrative-web-portal-summary-page"></a>Página de resumo do Portal da Web Administrativo do SRS
 
@@ -163,7 +163,7 @@ A página de resumo fornece as seguintes informações para todas as salas SRS i
 
 - **Última atualização** Exibe a última vez que a página da Web foi atualizada.
 
-![Exibição de resumo do Portal do Administrador do Sistema de Sala do Lync](../../media/LRS_AdminPortal_Summary_view.png)
+![Exibição de Resumo do Portal do Administrador do Sistema de Sala do Lync.](../../media/LRS_AdminPortal_Summary_view.png)
 
 > [!NOTE]
 > Você só verá o menu Gerenciamento em Massa se você faz parte do grupo de segurança LRSPowerUserAdminsGroup.
@@ -176,13 +176,13 @@ A seção Informações da Sala do portal permite exibir e configurar salas SRS 
 
 Na seção Configurações, você pode definir a senha, a marca de sala e os níveis de volume padrão para a sala. Se você configurar essas configurações, as alterações serão replicadas somente depois que você reiniciar o console DOS. Você verá apenas as configurações de Atualizações do Sistema para dispositivos SRS usando a versão 15.12 e posterior.
 
-![Sala do Portal de Administração do Sistema de Sala do Lync Configurações](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Sala de Administração do Sistema de Sala do Lync Configurações.](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### <a name="details"></a>Detalhes
 
 A seção Detalhes fornece um resumo somente leitura das configurações da sala SRS, incluindo: a hora da última atualização; próxima reunião; últimas atualizações, manutenção e calibragem; configurações padrão de alto-falante, microfone e toque; version; URI SIP; número de telas e detalhes sobre cada tela; status e atividade.
 
-![Exibição de detalhes do Portal de Administração do Sistema de Sala do Lync](../../media/LRS_AdminPortal_Detail_view.png)
+![Exibição de detalhes do Portal de Administração do Sistema de Sala do Lync.](../../media/LRS_AdminPortal_Detail_view.png)
 
 #### <a name="troubleshooting"></a>Solução de problemas
 
@@ -192,7 +192,7 @@ A seção Solução de Problemas pode ser usada para coletar logs remotamente e 
 
 A seção Health fornece uma indicação visual da saúde da conexão Skype for Business Server, dispositivo de áudio, dispositivo de vídeo, estado de resiliência e dispositivo de tela.
 
-![Lync Room System Admin Portal Room Health](../../media/LRS_AdminPortal_RoomInfoHealth.png)
+![Lync Room System Admin Portal Room Health.](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>Observações adicionais sobre o Portal da Web Administrativo
 

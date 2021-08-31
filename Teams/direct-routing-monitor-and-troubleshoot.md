@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como monitorar e solucionar problemas de configuração de Roteamento Direto, incluindo Controladores de Borda de Sessão, Componentes de Roteamento Direto e Troncos de Telecomunicações.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618497"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726880"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Monitorar e solucionar problemas do Roteamento Direto
 
@@ -46,7 +46,7 @@ Por exemplo, se, para um usuário específico, houver vários SBCs disponíveis 
 
 O diagrama a seguir mostra um exemplo da configuração: 
 
-![Exemplo de configuração de opções SIP](media/sip-options-config-example.png)
+![Exemplo de configuração de opções SIP.](media/sip-options-config-example.png)
 
 Quando um usuário faz uma chamada para o número +1 425, \<any seven digits> o Roteamento Direto avalia a rota. Há dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. Ambos os SBCs têm prioridade igual na rota. Antes de escolher um SBC, o mecanismo de roteamento avalia a saúde dos SBCs com base em quando o SBC enviou as opções SIP da última vez. 
 
@@ -83,6 +83,6 @@ O Painel de Qualidade de Chamada fornece informações sobre qualidade e confiab
 
 Em caso de falhas de chamada, a Análise de Chamada fornece códigos SIP padrão para ajudá-lo na solução de problemas. 
 
-![Código SIP de exemplo para falha de chamada](media/failed-response-code.png)
+![Exemplo de código SIP para falha de chamada.](media/failed-response-code.png)
 
 No entanto, o Call Analytics só pode ajudar quando as chamadas chegam aos componentes internos do Roteamento Direto e falham. Em caso de problemas com o emparelhamento SBC ou problemas em que SIP "Invite" foi rejeitado (por exemplo, o nome do FQDN do tronco está mal configurado), a Análise de Chamada não ajudará. Nesse caso, consulte os logs SBC. Roteamento Direto envia uma descrição detalhada de problemas para os SBCs; esses problemas podem ser lidos nos logs SBC.

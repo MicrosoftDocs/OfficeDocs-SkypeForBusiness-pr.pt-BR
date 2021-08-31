@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planeje implementar a conectividade híbrida entre Skype for Business Server e Teams configurando Skype for Business modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: c1faef42d6c5842649bfb8b8bf79531ac2e367b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26b837b72769380c3b67e1d24eee54cefc2b7575
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600876"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727010"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planejar conectividade híbrida entre Skype for Business Server e Teams
 
@@ -74,7 +74,7 @@ Os modos de co-existência continuarão a existir após a aposentadoria do Skype
 
 Esse tipo de configuração se baseia na funcionalidade de espaço de endereço SIP compartilhado e, às vezes, é chamado de "domínio dividido"-- o que significa que os usuários de um domínio, como o contoso.com, são divididos entre o uso do Skype for Business Server local e o Teams, conforme mostrado no diagrama a seguir:
 
-![Skype for Business Híbrido conectividade - domínio dividido](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![Skype for Business Híbrido conectividade - domínio dividido.](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 Quando o espaço de endereço SIP compartilhado é configurado:
 
@@ -120,7 +120,7 @@ Para configurar sua implantação híbrida **com Teams**, você precisa ter uma 
   - Lync Server 2013 e Skype for Business Server 2019
   - Lync Server 2013 e Skype for Business Server 2015
 
-Se a voz híbrida for desejada em qualquer *topologia*, tanto o servidor de borda designado como a Borda de Federação quanto o pool associado à federação SIP devem estar executando Skype for Business 2015 ou posterior. Os usuários podem permanecer em um Pool do Lync 2013 se houver um. Para obter mais detalhes, consulte [Plan your voice solution](/MicrosoftTeams/cloud-voice-landing-page.md).
+Se a voz híbrida for desejada em qualquer *topologia*, tanto o servidor de borda designado como a Borda de Federação quanto o pool associado à federação SIP devem estar executando Skype for Business 2015 ou posterior. Os usuários podem permanecer em um Pool do Lync 2013 se houver um. Para obter mais detalhes, consulte [Plan your voice solution](/MicrosoftTeams/cloud-voice-landing-page).
 
 > [!NOTE]
 > O Lync Server 2010 não tem suporte com Teams.

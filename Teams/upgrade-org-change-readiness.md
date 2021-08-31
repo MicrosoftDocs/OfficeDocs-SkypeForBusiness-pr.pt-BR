@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4eb739826ffa0523f30fd510aa9cdaec173f30c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e24a35b2bc62de03d29e5c7ef80f9b6f0d61d266
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586315"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726490"
 ---
 # <a name="assess-organizational-change-readiness"></a>Avaliar preparação da mudança organizacional
 
-![Atualizar diagrama de jornada, enfatizando o estágio de Preparação do Usuário](media/upgrade-banner-user-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação do Usuário")
+![Atualize o diagrama de jornada, enfatizando o estágio de Preparação do Usuário.](media/upgrade-banner-user-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação do Usuário")
 
 Este artigo faz parte do estágio de Preparação do Usuário da sua jornada de atualização, uma atividade que você conclui paralelamente ao estágio de Preparação Técnica. Antes de prosseguir, confirme se você concluiu essas atividades de estágios anteriores:
 
@@ -48,8 +48,8 @@ Depois de ter protegido sua equipe de projeto e definido sua visão, escopo e me
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Qual é a cultura da sua organização quando se trata de mudança?</li><li>Como a nova tecnologia pode otimizar a maneira como os usuários trabalham?</li><li>Quais usuários provavelmente exigirão atenção especial para que eles mudem a maneira de trabalhar?</li></ul> |
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use as seguintes diretrizes e atividades associadas para capturar o perfil de preparação do usuário da sua organização.</li></ul>|
+| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Qual é a cultura da sua organização quando se trata de mudança?</li><li>Como a nova tecnologia pode otimizar a maneira como os usuários trabalham?</li><li>Quais usuários provavelmente exigirão atenção especial para que eles mudem a maneira de trabalhar?</li></ul> |
+| ![Um ícone que representa as próximas etapas.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use as seguintes diretrizes e atividades associadas para capturar o perfil de preparação do usuário da sua organização.</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>Preparação para alterações organizacionais
 
@@ -108,8 +108,8 @@ Para obter o máximo de Teams, crie uma estratégia de trabalho em equipe que in
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Quais cenários de trabalho em equipe relacionáveis você emprega para ajudar a acelerar a adoção de Teams usuário e facilitar sua atualização do Skype for Business?</li></ul> |
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use os exemplos abaixo para ajudar a criar seus próprios cenários de trabalho em equipe. Documente-os na [Guia de Trabalho de Atualização.](https://aka.ms/upgradesuccesskit)</li><li>Para obter cenários e exemplos adicionais, acesse a [Biblioteca de Produtividade](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
+| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Quais cenários de trabalho em equipe relacionáveis você emprega para ajudar a acelerar a adoção de Teams usuário e facilitar sua atualização do Skype for Business?</li></ul> |
+| ![Um ícone que representa as próximas etapas.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use os exemplos abaixo para ajudar a criar seus próprios cenários de trabalho em equipe. Documente-os na [Guia de Trabalho de Atualização.](https://aka.ms/upgradesuccesskit)</li><li>Para obter cenários e exemplos adicionais, acesse a [Biblioteca de Produtividade](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>Exemplos
 

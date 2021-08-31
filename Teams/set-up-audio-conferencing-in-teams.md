@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Aprenda a configurar a discagem ou a conferência de áudio para as pessoas da sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: 13cbbf8b8295886cec937091abd3b5a0d378f05e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc8a29e5a312d4a5a77b98929330ee9770e5543c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615207"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729580"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar a conferência de áudio do Microsoft Teams
 
@@ -78,7 +78,7 @@ Depois de obter seus números de telefone interurbano e/ou gratuito da sua ponte
 
 Siga essas etapas para atribuir um novo número de telefone à sua ponte de conferência de áudio.
 
-![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usar o centro de administração do Skype for Business:**
+![Um ícone mostrando o logotipo Skype for Business.](media/sfb-logo-30x30.png) **Usando o Skype for Business de administração:**
 
  1. Vá ao **Centro de administração do Microsoft 365** > **Centros de administração** > **Teams** > **Portal herdado**.
  2. Clique em **Voz** > **Números de telefone**.
@@ -89,7 +89,7 @@ Para obter mais detalhes, consulte [Altere os números de telefone na sua ponte 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>Etapa 5: defina os idiomas padrão e alternativos de uma ponte de conferência
 <a name="__top"> </a> Em seguida, você quer [Definir os idiomas do atendedor automático da audioconferência no Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que o atendedor automático de conferência usa para cumprimentar os chamadores quando eles discam para um número de telefone da audioconferência. 
 
-![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Use o centro de administração do Microsoft Teams**:
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o Microsoft Teams de administração**:
 
 1. No painel, vá para as **Pontes de conferência do** > **Meetings**.
 2. Clique no número do telefone da ponte de conferência, clique em **Editar** e escolha o idioma padrão.
@@ -99,7 +99,7 @@ Para obter mais detalhes, consulte [Altere os números de telefone na sua ponte 
     
 Após configurar sua ponte de conferência, verifique se as configurações padrão, como notificações de entrada/saída e o comprimento do PIN, são aquelas que deseja usar; caso contrário, você pode alterá-las. 
 
-![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Use o centro de administração do Microsoft Teams**:
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o Microsoft Teams de administração**:
 
 1. No painel, vá para as **Pontes de conferência do** > **Meetings**.
 2. Clique em **Configurações da ponte**. Esse procedimento abrirá o painel **Configurações da ponte**. 
@@ -112,7 +112,7 @@ Após ter criado uma ponte de audioconferênci, você precisará definir número
 
 Você precisará fazer isso para todas as pessoas na sua organização que irão agendar ou realizar as reuniões. 
 
-![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Use o centro de administração do Microsoft Teams**:
+![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o Microsoft Teams de administração**:
 
 1. No painel, clique em **Usuários**, clique no usuário da lista e selecione **Editar**.
 2. Clique em **Editar** ao lado da **Audioconferência**, e na página da **Audioconferência**, escolha um número nas listas de **Número de interurbano** e **Número gratuito**.

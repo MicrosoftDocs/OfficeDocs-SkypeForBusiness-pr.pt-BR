@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Resumo: saiba como instalar as ferramentas administrativas necessárias para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 4e5ec73f4702f3011d09b3338489cb397b7c5922
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 346022633f4c15d2e1601fddbca174f5b0e6f67d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607618"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726290"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Instalar ferramentas administrativas no Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58607618"
   
 As ferramentas administrativas incluem o Construtor de Topologias e o Painel de Controle. As ferramentas administrativas devem ser instaladas em pelo menos um servidor na topologia ou em uma estação de trabalho de gerenciamento de 64 bits executando uma versão do sistema operacional Windows com suporte para Skype for Business Server. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 em ordem e após as etapas 1 a 5, conforme descrito no diagrama. Instalar as ferramentas administrativas é a etapa 3 de 8.
   
-![Diagrama de visão geral](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
+![Diagrama de visão geral.](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
 ## <a name="install-skype-for-business-server-administrative-tools"></a>Instalar Skype for Business Server administrativas
 
@@ -65,7 +65,7 @@ Assista às etapas de vídeo para **Instalar ferramentas administrativas**:
     
      Depois que a instalação dos Componentes Principais for concluída, o Assistente Skype for Business Server de Implantação será acionado automaticamente, conforme mostrado na figura. 
     
-     ![Skype for Business Server Assistente de Implantação](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Skype for Business Server Assistente de Implantação.](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. Além dos Componentes Principais, você também precisará instalar Skype for Business Server Construtor de Topologias e Skype for Business Server Painel de Controle em pelo menos um servidor no ambiente. Clique **em Instalar Ferramentas Administrativas** no Assistente de Implantação.
     
@@ -73,7 +73,7 @@ Assista às etapas de vídeo para **Instalar ferramentas administrativas**:
     
 8. Depois que a instalação tiver sido concluída, clique em **Concluir**. As ferramentas administrativas agora são adicionadas ao servidor, conforme mostrado na figura.
     
-    ![Skype for Business Server Ferramentas Administrativas](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
+    ![Skype for Business Server Ferramentas Administrativas.](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
    - **Skype for Business Server construtor de topologias** Um programa usado para criar, implantar e gerenciar topologias.
     

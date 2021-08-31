@@ -17,12 +17,12 @@ description: Obtenha um relatório de participação de reunião no Teams. Este 
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93aad3cdee1c3819ee0d524a8538608dbeba1b0c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592181"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726370"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Relatório de participação de reunião do Microsoft Teams
 

@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Usar o Microsoft Teams para configurar seu Sistema de visitas virtuais
-ms.openlocfilehash: 5dd103651c4cd368b5304d4d33d753b5d13ab73d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46f29649665521b2bc59c2a4a73db617398bcf37
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596195"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726630"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuais com o Teams - Integração com EHR
 
@@ -148,7 +148,7 @@ Principais recursos da experiência do provedor:
 
 - O provedor pode ver atualizações em tempo real dos participantes que se conectam e desconectam para um determinado compromisso. O provedor pode ver quando o paciente está conectado a uma visita virtual.
 
-  ![Experiência do provedor de uma visita virtual com o paciente](../../media/ehc-provider-experience-6.png)
+  ![Experiência de provedor de uma visita virtual com o paciente.](../../media/ehc-provider-experience-6.png)
 
 ### <a name="patient-experience"></a>Experiência do paciente
 
@@ -166,7 +166,7 @@ Características principais da experiência do paciente:
 
 - O teste do vídeo e do microfone está disponível no saguão antes de entrar na visita virtual.
 
-  ![Experiência do paciente na visita virtual](../../media/ehc-virtual-visit-5.png)
+  ![Experiência do paciente da visita virtual.](../../media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku e Canto são marcas comerciais da Epic Systems Corporation.

@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f50a5f766740d3d5d8fa9effc0b49ec495c361cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f3b1942e1d9b6e93d78694c2b02027bf32c5d7d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593185"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726210"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
 O aplicativo Aprovações está disponível como um aplicativo pessoal para todos os usuários do Microsoft Teams.
 O aplicativo Aprovações oferece uma maneira simples de levar auditoria, conformidade, responsabilidade e fluxos de trabalho para Aprovações estruturadas e não estruturadas em Equipes.
 
- ![mostra o aplicativo aprovações](media/approvals-selection.png)
+ ![mostra o aplicativo aprovações.](media/approvals-selection.png)
 
 Os usuários podem fixar o aplicativo Aprovações para salvá-lo na barra de menus.
 
- ![mostra o aplicativo aprovações com a opção de fixar](media/approvalApp-pin.png)
+ ![mostra o aplicativo de aprovações com a opção pin.](media/approvalApp-pin.png)
 
 A primeira aprovação criada a partir do aplicativo Aprovações acionará o provisionamento da Solução de Aprovação no ambiente padrão de CDS (Serviço de Dados Comuns). As aprovações criadas a partir do aplicativo Aprovações serão armazenadas no ambiente de CDS padrão.
 
@@ -114,13 +114,13 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
   3. Procure o aplicativo Aprovações.
 
-     ![mostra a navegação do Centro de administração com Aplicativos do Teams > Gerenciar Aplicativos realçada](media/manage-approval-apps.png)
+     ![mostra a navegação do Centro de administração com Teams Aplicativos > Gerenciar Aplicativos realçadas.](media/manage-approval-apps.png)
 
   4. Selecione Aprovações.
 
   5. Selecione o alternância para desabilitar o aplicativo em sua organização.
 
-     ![mostra os detalhes do aplicativo Aprovações](media/approvals-details.png)
+     ![mostra os detalhes do aplicativo Aprovações.](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Política de retenção
 

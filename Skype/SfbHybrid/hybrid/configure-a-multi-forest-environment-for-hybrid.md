@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: As seções a seguir descrbiem como configurar um ambiente com várias florestas em um modelo de floresta de recurso/usuário para fornecer funcionalidade em um cenário híbrido.
-ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a6ca7c559a2c79979a44d8ca7c8555abf432b4d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625773"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727050"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implantar uma topologia de floresta de recursos
 
@@ -32,7 +32,7 @@ ms.locfileid: "58625773"
  
 As seções a seguir descrevem como configurar um ambiente com várias florestas em um modelo de floresta de recurso/usuário para fornecer funcionalidade em um cenário híbrido. 
   
-![Ambiente de várias florestas para híbridos](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![Ambiente de várias florestas para híbridos.](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## <a name="topology-requirements"></a>Requisitos de topologia
 
@@ -104,7 +104,7 @@ Essa implantação será uma implantação padrão do Windows Server 2012 R2 AD 
   
 Depois de implantado, você precisa editar a regra de declarações para corresponder à Âncora de Origem selecionada anteriormente. No MMC do AD FS, em Confianças de Parte Confiável, clique com o botão direito do mouse em Microsoft 365 **Identity Platform** ou Microsoft Office 365 **Identity Platform** e selecione Editar Regras de **Declaração.** Edite a primeira regra e altere ObjectSID para **employeeNumber**. 
   
-![Tela de regras de edição de várias florestas](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
+![Tela editar regras de várias florestas.](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## <a name="configure-aad-connect"></a>Configurar o AAD Conexão
 
@@ -114,7 +114,7 @@ Observe que o Azure AD Conexão não fornece sincronização no local entre a co
   
 Quando terminar e o Azure AD Conexão estiver mesclando, se você olhar para um objeto no metaverso, verá algo semelhante ao seguinte: 
   
-![Tela do objeto Metaverso de várias florestas](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
+![Tela do objeto Metaverso de várias florestas.](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
 Os atributos realçados em verde foram mesclados Microsoft 365, os amarelos são da floresta do usuário e o azul é da floresta de recursos. 
   

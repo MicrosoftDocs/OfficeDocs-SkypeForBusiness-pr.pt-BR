@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um Controlador de Borda de Sessão (SBC) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 824b550200fcb04ecf26ec6f939515586ec64544
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf047f458750c88baa4d3d04d712d56338cb0da3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619487"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726870"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -85,7 +85,7 @@ Quando uma chamada chega à interface Microsoft 365 ou Office 365 Roteamento Dir
 
 O diagrama a seguir resume os requisitos para domínio base, subdomas e header de contato.
 
-![Diagrama mostrando requisitos para domínios e header de contato](media/direct-routing-1-sbc-requirements.png)
+![Diagrama mostrando os requisitos para domínios e o header de contato.](media/direct-routing-1-sbc-requirements.png)
 
 O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a operadora precisa solicitar um certificado com CN e/ou SAN *\* .base_domain (por exemplo, \* .customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões com vários locatários atendidos de um único SBC.
 
@@ -123,17 +123,17 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 1. No Centro de administração do Microsoft 365, vá para **Setup**  >  **Domains**  >  **Add domain**.
 2. Na caixa **Inserir um domínio que você possui,** digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *customers.adatum.biz*.
 
-    ![Captura de tela mostrando a página Adicionar um domínio](media/direct-routing-2-sbc-add-domain.png)
+    ![Captura de tela mostrando a página Adicionar um domínio.](media/direct-routing-2-sbc-add-domain.png)
 
 3. Click **Next**.
 4. No exemplo, o locatário já adatum.biz como um nome de domínio verificado. O assistente não solicitará verificação adicional porque customers.adatum.biz é um subdomínio para o nome já registrado. No entanto, se você adicionar um FQDN que não tenha sido verificado antes, você precisará passar pelo processo de verificação. O processo de verificação é [descrito abaixo](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Captura de tela mostrando a confirmação de um nome de domínio verificado](media/direct-routing-3-sbc-verify-domain.png)
+    ![Captura de tela mostrando a confirmação de um nome de domínio verificado.](media/direct-routing-3-sbc-verify-domain.png)
 
 5. Clique **em Próximo** e, na página Atualizar **Configurações** DNS, selecione Eu mesmo adicionarei os registros **DNS** e clique em **Próximo**.
 6. Na próxima página, limpe todos os valores (a menos que você queira usar o nome de domínio para Exchange, SharePoint ou Teams/Skype for Business), clique em Next **e** clique em **Concluir**. Certifique-se de que seu novo domínio está no status completo da Instalação.
 
-    ![Captura de tela mostrando domínios com o status da Instalação concluída](media/direct-routing-14-sbc-setup-complete.png)
+    ![Captura de tela mostrando domínios com o status da Instalação concluído.](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>Ativar o nome de domínio
 
@@ -146,7 +146,7 @@ Depois de registrar um nome de domínio, você precisará ativá-lo adicionando 
 
 Por exemplo: test@customers.adatum.biz
 
-![Captura de tela da página de ativação de domínio base](media/direct-routing-4-sbc-domain-activation.png)
+![Captura de tela da página de ativação de domínio base.](media/direct-routing-4-sbc-domain-activation.png)
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>Registrar um nome de subdomínio em um locatário do cliente
 
@@ -166,39 +166,39 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 1. No Centro de administração do Microsoft 365, vá para **Setup**  >  **Domains**  >  **Add domain**.
 2. Na caixa **Inserir um domínio que você possui,** digite o FQDN do subdomínio para esse locatário. No exemplo abaixo, o subdomínio é sbc1.customers.adatum.biz.
 
-    ![Captura de tela da página Adicionar um domínio](media/direct-routing-5-sbc-add-customer-domain.png)
+    ![Captura de tela da página Adicionar um domínio.](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. Click **Next**.
 4. O FQDN nunca foi registrado no locatário. Na próxima etapa, você precisará verificar o domínio. Selecione **Adicionar um registro TXT em vez disso.** 
 
-    ![Captura de tela da página Verificar domínio](media/direct-routing-6-sbc-verify-customer-domain.png)
+    ![Captura de tela da página Verificar domínio.](media/direct-routing-6-sbc-verify-customer-domain.png)
 
 5. Clique **em Próximo** e observe o valor TXT gerado para verificar o nome de domínio.
 
-    ![Captura de tela de registros de texto na página Verificar domínio](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![Captura de tela de registros de texto na página Verificar domínio.](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Crie o registro TXT com o valor da etapa anterior no provedor de hospedagem DNS da operadora.
 
-    ![Captura de tela mostrando a criação do registro TXT](media/direct-routing-8-sbc-txt-record.png)
+    ![Captura de tela mostrando a criação do registro TXT.](media/direct-routing-8-sbc-txt-record.png)
 
     Para obter mais informações, consulte [Create DNS records at any DNS hosting provider](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Volte para o cliente Centro de administração do Microsoft 365 clique em **Verificar**. 
 8. Na próxima página, selecione **Eu mesmo adicionarei os registros DNS** e clique em **Next**.
 
-    ![Captura de tela de opções na página Atualizar configurações de DNS](media/direct-routing-9-sbc-update-dns.png)
+    ![Captura de tela das opções na página Atualizar configurações dns.](media/direct-routing-9-sbc-update-dns.png)
 
 9. Na página **Escolher seus serviços online,** des limpar todas as opções e clique em **Próximo**.
 
-    ![Captura de tela da página Escolher seus serviços online](media/direct-routing-10-sbc-choose-services.png)
+    ![Captura de tela da página Escolher seus serviços online.](media/direct-routing-10-sbc-choose-services.png)
 
 10. Clique **em Concluir** na página Atualizar **configurações dns.**
 
-    ![Captura de tela da página Atualizar configurações dns](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![Captura de tela da página Atualizar configurações dns.](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. Certifique-se de que o status da **Instalação está concluído.** 
     
-    ![Captura de tela da página mostrando o status da Instalação concluída](media/direct-routing-12-sbc-setup-complete.png)
+    ![Captura de tela da página mostrando o status da Instalação concluída.](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
 > A URL base e o subdomínio para o cliente individual devem estar no mesmo locatário para permitir que você adicione um _tronco de rota_ direta.
@@ -211,7 +211,7 @@ Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pel
 
 Por exemplo: test@sbc1.customers.adatum.biz
 
-![Captura de tela da página Ativação do subdomínio](media/direct-routing-13-sbc-activate-subdomain.png)
+![Captura de tela da página Ativação do subdomínio.](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>Criar um tronco e provisionamento de usuários
 

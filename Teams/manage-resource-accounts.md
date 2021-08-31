@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos Microsoft Teams.
-ms.openlocfilehash: 4456ff79049f0aebc206fd4d941df7b50caa690b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b58aae22afdff749e82ca67ff8b4a457f72b9de
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595035"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726640"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -63,7 +63,7 @@ Para por um número de outra operadora, consulte [Transfer phone numbers to Team
 
 Você pode criar uma conta de recurso no Teams de administração.
 
-![Captura de tela da interface do usuário adicionar conta de recurso](media/resource-account-add.png)
+![Captura de tela da interface do usuário adicionar conta de recurso.](media/resource-account-add.png)
 
 1. No centro Teams de administração, expanda **as** configurações de toda a organização e clique em **Contas de recursos.**
 
@@ -73,13 +73,13 @@ Você pode criar uma conta de recurso no Teams de administração.
 
 4. Clique em **Salvar**.
 
-![Captura de tela de uma lista de contas de recursos](media/resource-accounts-page.png)
+![Captura de tela de uma lista de contas de recursos.](media/resource-accounts-page.png)
 
 ## <a name="assign-a-license"></a>Atribuir uma licença
 
 Para cada conta de recurso, você deve atribuir uma Microsoft 365 Sistema de Telefonia *- licença* de usuário virtual *ou Sistema de Telefonia.*
 
-![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365](media/resource-account-assign-virtual-user-license.png)
+![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365.](media/resource-account-assign-virtual-user-license.png)
 
 1. Na Centro de administração do Microsoft 365, clique na conta de recurso à qual deseja atribuir uma licença.
 
@@ -91,7 +91,7 @@ Para cada conta de recurso, você deve atribuir uma Microsoft 365 Sistema de Tel
 
 Se você estiver planejando usar a conta de recurso com um atendimento automático ou fila de chamada que exija um número de serviço, atribua um número à conta de recurso.
 
-![Captura de tela da interface do usuário atribuir número de serviço](media/resource-account-assign-phone-number.png)
+![Captura de tela da interface do usuário atribuir número de serviço.](media/resource-account-assign-phone-number.png)
 
 1. No centro Teams de administração,  na página Contas de recursos, selecione a conta de recurso à qual você deseja atribuir um número de serviço e clique em **Atribuir/desatribuição.**
 

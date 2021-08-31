@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Resumo: saiba como configurar o DNS e criar registros DNS para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585527"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726320"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Criar registros DNS para Skype for Business Server
  
@@ -33,7 +33,7 @@ Para Skype for Business Server funcionar corretamente, uma série de configuraç
 > [!IMPORTANT]
 > É importante observar que este é apenas um exemplo de como criar registros DNS em um ambiente DNS Windows Servidor. Há muitas outras entradas DNS que são necessárias para Skype for Business Server, e o procedimento para criar registros DNS depende do sistema que você está usando para gerenciar o DNS em sua organização. Para uma lista completa de requisitos para DNS, consulte [DNS requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md). 
   
-![Diagrama de visão geral](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
+![Diagrama de visão geral.](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>Configurar DNS
 
@@ -42,7 +42,7 @@ Os registros DNS são necessários para que Skype for Business Server funcionem 
 Este exemplo está usando um FQDN balanceado de carga DNS chamado pool.contoso.local. Esse pool consiste em três servidores executando Skype for Business Server Edição Enterprise. Um Edição Standard servidor front-end só pode conter um único servidor. Usando o Edição Standard, você usaria apenas o FQDN (nome de domínio totalmente qualificado) do servidor Edição Standard único ao fazer referência à função front-end em vez de criar um pool balanceado de carga DNS de servidores, como este exemplo mostra. Este exemplo simples que usa apenas a função front-end inclui as entradas DNS na tabela a seguir. Para planejar seus requisitos DNS específicos, consulte [REQUISITOS DNS para Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md). 
   
  
-|**Descrição**|**Tipo de registro**|**Name**|**Resolvido como**|**Tipo de balanceamento de carga**|
+|**Descrição**|**Tipo de registro**|**Nome**|**Resolvido como**|**Tipo de balanceamento de carga**|
 |:-----|:-----|:-----|:-----|:-----|
 |FQDN dos Serviços Web Internos  <br/> |A  <br/> |webint.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware com suporte  <br/> |
 |FQDN do pool  <br/> |A  <br/> |pool.contoso.local  <br/> |Endereço IP do servidor SFB01  <br/> |DNS  <br/> |
@@ -68,7 +68,7 @@ Este exemplo está usando um FQDN balanceado de carga DNS chamado pool.contoso.l
     
 4. Clique com o botão direito do mouse no domínio SIP e selecione **Novo Host (A ou AAAA),** conforme mostrado na figura.
     
-     ![selecionando o novo registro A](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
+     ![selecionando o novo registro A.](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
   
 5. Na caixa **Nome,** digite o nome do registro host (o nome de domínio será acrescentado automaticamente).
     

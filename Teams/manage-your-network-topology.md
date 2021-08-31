@@ -19,12 +19,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como configurar as configurações de rede para recursos de voz na nuvem Microsoft Teams.
-ms.openlocfilehash: 7ed9837b676197b588669ae95db77c9e834371dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598415"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726570"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gerenciar sua topologia de rede para recursos de voz na nuvem Microsoft Teams
 
@@ -43,7 +43,7 @@ Você define regiões de rede, sites de rede e sub-redes na guia **Sites** de re
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Localizações** Topologia de Rede e clique na  >  guia **Sites de** rede.
 2. Clique **em Adicionar** e insira um nome e uma descrição para o site.
 
-    ![Captura de tela da página Adicionar site de rede](media/manage-network-topology-add-site.png)
+    ![Captura de tela da página Adicionar site de rede.](media/manage-network-topology-add-site.png)
 
 3. Para associar o site a uma região de rede, clique em **Adicionar** região de rede, selecione uma região existente ou clique em **Adicionar** para adicionar uma região e clique em **Link**.  
 4. Para habilitar Location-Based roteamento para o site, ative **o roteamento baseado em Local.**
@@ -71,7 +71,7 @@ Você gerencia endereços IP confiáveis externos na guia **IPs Confiáveis** na
 2. Clique em **Novo**.
 3. No painel **Adicionar endereço IP** confiável, especifique a versão IP, o endereço IP, o intervalo de rede, adicione uma descrição e clique em **Aplicar**.
 
-    ![Captura de tela do painel Adicionar endereço IP confiável](media/manage-network-topology-add-trusted-ip.png)
+    ![Captura de tela do painel Adicionar endereço IP confiável.](media/manage-network-topology-add-trusted-ip.png)
 
 #### <a name="edit-a-trusted-ip-address"></a>Editar um endereço IP confiável
 

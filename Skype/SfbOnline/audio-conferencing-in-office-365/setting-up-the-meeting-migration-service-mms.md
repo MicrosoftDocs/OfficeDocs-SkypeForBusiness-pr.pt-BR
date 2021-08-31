@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: O Serviço de Migração de Reunião (MMS) é um serviço executado em segundo plano e atualiza automaticamente Skype for Business reuniões Microsoft Teams para usuários. O MMS foi projetado para eliminar a necessidade de os usuários executarem a Ferramenta de Migração de Reunião para atualizar suas Skype for Business e Microsoft Teams reuniões.
-ms.openlocfilehash: 3fefc7aa45df3323f8c96801bde1cb301ff40572
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 008974d71d92667da96316aafa7b8c4adf478026
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613260"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726690"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Usando o Meeting Migration Service (MMS)
 
@@ -57,7 +57,7 @@ Quando o MMS é acionado para um determinado usuário, uma solicitação de migr
 3. Na mensagem de email, ela substitui o bloco de reunião online nos detalhes da reunião.
 4. Ele envia a versão atualizada dessa reunião para todos os destinatários da reunião em nome do organizador da reunião. Os convidados da reunião receberão uma atualização de reunião com coordenadas de reunião atualizadas em seus emails. 
 
-    ![O bloco de reuniões que são atualizadas pelo MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+    ![O bloco de reunião que é atualizado pelo MMS.](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
 A partir do momento em que o MMS é acionado, normalmente leva cerca de 2 horas até que as reuniões do usuário sejam migradas. No entanto, se o usuário tiver um grande número de reuniões, pode levar mais tempo. Se o MMS encontrar um erro migrando uma ou mais reuniões para o usuário, ele repetirá periodicamente até 9 vezes no intervalo de 24 horas.
 

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9ffdd467f73b590aae153cb8606c225258ef384c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a19a11e76320de08281079557344d9806f01332a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618437"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727070"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurar o recurso Telefonar para Mim para os usuários
 
@@ -41,19 +41,19 @@ Em Microsoft Teams, o **recurso Chamar-me** oferece aos usuários uma maneira de
 
 Clique **em Participar** para participar de uma reunião, Telefone **áudio** na tela **Escolher** suas opções de vídeo e áudio e clique em **Ingressar agora**. A partir daqui, os usuários podem fazer a chamada de reunião e juná-los ou discar manualmente para a reunião.
 
-![Captura de tela da opção Telefone áudio](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![Captura de tela da opção Telefone áudio.](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
 **Permitir a chamada Teams reunião**
 
 Na tela **Usar telefone para áudio,** o usuário entra no número de telefone e clica em **Chamar-me**. A reunião chama o usuário e os une à reunião.
 
-![Captura de tela da opção Chamar-me na tela Usar telefone para áudio](media/set-up-the-call-me-feature-for-your-users-call-me.png)
+![Captura de tela da opção Chamar-me na tela Usar telefone para áudio.](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
 **Discar manualmente**
 
 Outra maneira de ingressar é discar diretamente para a reunião. Na tela **Usar telefone para áudio,** clique em **Discar manualmente** para obter uma lista de números de telefone a usar para discar para a reunião.
 
-![Captura de tela da opção Discar manualmente](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
+![Captura de tela da opção Discar manualmente.](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
 ### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>Receber uma chamada de volta quando algo der errado com o áudio durante uma reunião
 
@@ -61,7 +61,7 @@ Se um usuário tiver problemas de áudio ao usar o computador durante uma reuni�
 
 Aqui está um exemplo da mensagem e da opção **Chamar-me** de volta que é exibida quando Teams não detecta um microfone.
 
-![Captura de tela da opção Chamar-me de volta](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+![Captura de tela da opção Chamar-me de volta.](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
 O usuário clica em **Chamar-me de volta**, que traz a **tela Usar telefone para** áudio. A partir daqui, eles podem inserir seu número de telefone e fazer a chamada Teams reunião e ingressá-los na reunião ou discar manualmente para a reunião.
 

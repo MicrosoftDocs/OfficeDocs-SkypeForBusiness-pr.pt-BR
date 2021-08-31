@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Leia este tópico para saber como planejar seus sites PSTN do Cloud Connector Edition para garantir o roteamento de chamadas eficiente e econômico.
-ms.openlocfilehash: 54f8ec9f89c6a3ef88b5ac8e70e9eebfd2968d2d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 50b30a5071dd14cc0016419d85406b7c50d85387
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616327"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729230"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plano para sites PSTN do Cloud Connector Edition
 
@@ -74,7 +74,7 @@ Como o usuário A em Redmond (Data Center A) e o usuário B em Bellevue (Data Ce
   
 Consequentemente, os usuários A e B e os troncos do Cloud Connector para Bellevue e Redmond provavelmente estarão no mesmo site PSTN do Cloud Connector, conforme mostrado no diagrama a seguir. Chamadas de emergência de usuários em um escritório podem ser roteados para troncos no outro. Você deve, no entanto, verificar com sua operadora que isso funcionará.
   
-![Como configurar sites PSTN](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
+![Como configurar sites PSTN.](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   
 Considere os exemplos a seguir também:
   

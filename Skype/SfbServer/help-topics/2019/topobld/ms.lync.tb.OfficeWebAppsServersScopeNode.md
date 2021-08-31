@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: Clique com o botão direito Office Servidores Web Apps e selecione Novo servidor Office Web Apps para abrir o assistente.
-ms.openlocfilehash: 85a1c45aafdcbe4f0f052df5e5ad89d34618e8a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb63610d8f887011d77d90d6426cd2351bb73a63
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593865"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729100"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nó do Escopo do Servidor Office Web Apps
 
 Clique com o **botão direito Office Servidores Web Apps** e selecione Novo servidor Office Web **Apps** para abrir o assistente.
 
-![Nó de Escopo de Servidores do OfficeWebApps](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![Nó de Escopo de Servidores do OfficeWebApps.](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
 - **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
 

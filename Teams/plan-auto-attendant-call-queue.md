@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre os atendimentos automáticos e filas de chamada e como usá-los para ajudar os chamadores a passar por um sistema de menus para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 9d4a3a71e2d94de88f01c3a62dc507095ffef49e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1bd9f1d299123812c4a2621e48578730126fe619
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613600"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729570"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar Teams atendimentos automáticos e filas de chamada
 
@@ -166,7 +166,7 @@ As chamadas redirecionadas de uma fila podem ser enviadas para qualquer um dos d
 
 O exemplo a seguir mostra um exemplo de roteamento de chamadas usando atendimentos automáticos e filas de chamadas.
 
-![Diagrama de roteamento de chamadas usando os atendimentos automáticos e filas de chamadas](media/attendant-and-queue-call-routing.png)
+![Diagrama de roteamento de chamadas usando os atendimentos automáticos e filas de chamadas.](media/attendant-and-queue-call-routing.png)
 
 No exemplo acima:
 

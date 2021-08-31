@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 556f220c9ca250f014ae604c96cabf9ef0b0ca0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f1424149a3f585b30cb7a31d7742370c06cae3d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636787"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58736120"
 ---
 # <a name="administrative-unit-functionality-for-device-management-in-teams"></a>Funcionalidade de unidade administrativa para gerenciamento de dispositivos Teams
 
@@ -34,17 +34,17 @@ Com o conceito de unidade administrativa, você garantirá o acesso a um conjunt
 
 Como exemplo, a Contoso tem operações em diferentes regiões geográficas. Alice é uma administradora de IT global em Londres, enquanto Prashant é um administrador de IT para a Índia. Hoje, quando Prashant entra no centro de administração Teams com a função Administrador de Dispositivos, eles podem ver dispositivos em todo o mundo. Alice deseja restringir o acesso de Prashant somente aos dispositivos que estão presentes na Índia. O conceito de unidades administrativas ajuda a resolver esse problema. Saiba mais [conceito de unidade administrativa](/azure/active-directory/roles/administrative-units).
 
-![um diagrama que mostra cenários](media/au-diagram.png)
+![um diagrama que mostra cenários.](media/au-diagram.png)
 
 ## <a name="creation-of-administrative-units"></a>Criação de Unidades Administrativas
 
 Crie unidades administrativas no portal do Azure e atribua administradores para as respectivas unidades administrativas. Saiba mais sobre a atribuição de unidades administrativas em [gerenciar unidades de administração.](/azure/active-directory/roles/admin-units-manage)
 
-![um exemplo de unidades administrativas da empresa](media/au-example.png)
+![um exemplo de unidades administrativas da empresa.](media/au-example.png)
 
 Depois de criado, o administrador de IT global pode adicionar usuários de dispositivo que correspondam a essa unidade administrativa.
 
-![um exemplo de empresa com visualização de usuários](media/au-example2.png)
+![um exemplo de empresa com visualização de usuários.](media/au-example2.png)
 
 A atribuição da função pode ser feita por meio do PowerShell usando o cmdlet [Add-AzureADMSScopedRoleMembership.](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0)
 

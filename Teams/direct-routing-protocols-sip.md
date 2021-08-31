@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a6bafcc7aade115684bce8621877f6fa6f196435b69c4b8388af731997b5dab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e0b4f3c19ed82362a066044ff9dd1c695b6690e2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321443"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729670"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento Direto - protocolo SIP
 
@@ -185,7 +185,7 @@ Um Teams usuário pode ter vários pontos de extremidade ao mesmo tempo. Por exe
 5.  Uma mensagem de Aceitação de Chamada é enviada com os candidatos finais do ponto de extremidade que aceitaram a chamada. A mensagem aceitação de chamada é convertida na mensagem SIP 200. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama mostrando vários pontos de extremidade tocando com resposta provisória](media/direct-routing-protocols-1.png)
+> ![Diagrama mostrando vários pontos de extremidade tocando com resposta provisória.](media/direct-routing-protocols-1.png)
 
 #### <a name="multiple-endpoints-ringing-without-provisional-answer"></a>Vários pontos de extremidade tocando sem resposta provisória
 
@@ -198,7 +198,7 @@ Um Teams usuário pode ter vários pontos de extremidade ao mesmo tempo. Por exe
 4.  Uma mensagem de Aceitação de Chamada é enviada com os candidatos finais do ponto de extremidade que aceitaram a chamada. A mensagem aceitação de chamada é convertida na mensagem SIP 200. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama mostrando vários pontos de extremidade tocando sem resposta provisória](media/direct-routing-protocols-2.png)
+> ![Diagrama mostrando vários pontos de extremidade tocando sem resposta provisória.](media/direct-routing-protocols-2.png)
 
 ### <a name="media-bypass-flow"></a>Fluxo de bypass de mídia
 
@@ -210,7 +210,7 @@ O esquema abaixo mostra um exemplo do fluxo de chamada de bypass.
 > Os candidatos à mídia podem vir de pontos de extremidade diferentes. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama mostrando vários pontos de extremidade tocando com resposta provisória](media/direct-routing-protocols-3.png)
+> ![Diagrama mostrando vários pontos de extremidade tocando com resposta provisória.](media/direct-routing-protocols-3.png)
 
 ## <a name="replaces-option"></a>Substitui a opção
 
@@ -256,7 +256,7 @@ Se o SBC indicar que o método Refer não tem suporte, o proxy SIP atuará como 
 A solicitação Refer que vem do cliente será encerrada no proxy SIP. (A solicitação Refer do cliente é mostrada como "Transferência de chamada para Dave" no diagrama a seguir.  Para obter mais informações, consulte a seção 7.1 de [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama mostrando vários pontos de extremidade tocando com resposta provisória](media/direct-routing-protocols-4.png)
+> ![Diagrama mostrando vários pontos de extremidade tocando com resposta provisória.](media/direct-routing-protocols-4.png)
 
 ### <a name="sip-proxy-send-the-refer-to-the-sbc-and-acts-as-a-transferor"></a>Proxy SIP envia o refer to the SBC e age como um Transferor
 
@@ -297,7 +297,7 @@ O header REFERRED-BY é um URI SIP com MRI transferor codificado nele, bem como 
 O tamanho do Header de Referência pode ter até 400 símbolos nesse caso. O SBC deve dar suporte ao tratamento de Encaminhar mensagens com tamanho de até 400 símbolos.
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama mostrando vários pontos de extremidade tocando com resposta provisória](media/direct-routing-protocols-5.png)
+> ![Diagrama mostrando vários pontos de extremidade tocando com resposta provisória.](media/direct-routing-protocols-5.png)
 
 ## <a name="session-timer"></a>Timer de sessão
 

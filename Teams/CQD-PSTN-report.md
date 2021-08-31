@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Use o Microsoft Teams de Qualidade de Chamada (CQD)) relatório de Roteamento Direto PSTN para monitorar e solucionar problemas de chamadas PSTN no Microsoft Teams.
-ms.openlocfilehash: 18e24690fe86bf7efd511bea674c3d3d7eba3e43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae36ff214de2142b74b8493e925e25f32572709c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635055"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726420"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usando o relatório de Roteamento Direto PSTN PSTN
 
@@ -45,23 +45,23 @@ O Relatório de Roteamento Direto PSTN do CQD tem quatro seções:
 1. Analisar por tipo de chamada, SBC, país chamador e chamador
 
    O relatório de Roteamento Direto PSTN do CQD agrega métricas de confiabilidade e uso para todos os SBCs em seu locatário nos últimos 7, 30 ou 180 dias (6 meses). Você pode analisar dados por tipo de chamada, SBC, país de chamador e chamador. Se você estiver interessado em um determinado SBC ou país, poderá identificar alterações nas tendências ao longo do intervalo de tempo selecionado.
-   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Captura de tela de filtros disponíveis no relatório de Roteamento Direto PSTN PSTN":::
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Captura de tela dos filtros disponíveis no relatório de Roteamento Direto do PSTN do CQD.":::
    
 2. Acompanhar tendências
 
     A análise de tendências é essencial ao tentar entender o uso e a confiabilidade do serviço. As tendências de hora em hora fornecem uma olhada de perto no desempenho diário, o que ajuda a identificar incidentes em tempo real. As tendências diárias permitem que você veja a saúde do serviço de uma perspectiva de longo prazo. É importante poder mudar entre esses dois modos com granularidade de dados apropriada. O relatório de Roteamento Direto PSTN do CQD fornece uma visão geral de tendências de 6 meses, tendências diárias de 7 e 30 dias e tendências por hora para que você possa analisar o desempenho em cada nível.
-    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Captura de tela dos gráficos de tendências no relatório de Roteamento Direto PSTN PSTN":::
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Captura de tela dos gráficos de tendências no relatório de Roteamento Direto do PSTN do CQD.":::
 
 3. Faça uma análise de SBC ou nível do usuário
 
    Estamos criando recursos de análise em várias categorias de dados no CQD, o que permite entender rapidamente a distribuição de uso ou confiabilidade no nível SBC ou do usuário. Usando o drill through, você pode rapidamente resolver problemas e entender o impacto real do usuário. Os recursos do relatório de Roteamento Direto do PSTN do CQD são detalhados nas métricas Detalhe do Serviço e Taxa de Eficácia da Rede. Clique no ponto de dados em que você está interessado para fazer uma análise de detalhes no nível do usuário ou SBC.
-   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Captura de tela mostrando a funcionalidade de drill-through em um ponto de dados":::
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Captura de tela mostrando a funcionalidade de drill-through em um ponto de dados.":::
 
 
 ## <a name="pstn-overview"></a>Visão geral do PSTN
 
 O Relatório de Roteamento Direto PSTN do CQD fornece as seguintes informações relacionadas à saúde geral do serviço nos últimos 180 dias.
-![Captura de tela: relatório CQD do PSTN](media/CQD-PSTN-report1.png)
+![Captura de tela: relatório CQD PSTN.](media/CQD-PSTN-report1.png)
 
 Por exemplo, se você estiver interessado no uso geral e na saúde sobre todas as chamadas de entrada que passam pelo SBC abc.bca.adatum.biz com os EUA como o país interno:
 
@@ -89,7 +89,7 @@ Esta página fornece tendências de uso do serviço por dia e análise de coment
 
   - **Comentários do usuário –** A pontuação "Rate My Call" vem do usuário. 3 a 5 é considerado uma boa chamada. 1-2 é considerado como uma chamada ruim.
 
-![Captura de tela: relatório CQD do PSTN](media/CQD-PSTN-report2.png)
+![Captura de tela: relatório CQD PSTN.](media/CQD-PSTN-report2.png)
 
 Por exemplo:
 
@@ -111,15 +111,15 @@ Essa é a mesma métrica que aparece no painel Saúde Geral. Você pode verifica
 
   - **Número de chamadas afetadas** – O número total de chamadas foi afetada durante o intervalo de tempo selecionado.
 
-> ![Captura de tela: relatório CQD do PSTN](media/CQD-PSTN-report3.png)
+> ![Captura de tela: relatório CQD PSTN.](media/CQD-PSTN-report3.png)
 > 
 Por exemplo:
 
-![Captura de tela: relatório CQD do PSTN](media/CQD-PSTN-report4.png)
+![Captura de tela: relatório CQD PSTN.](media/CQD-PSTN-report4.png)
 
 Se o NER Diário tiver um dip em 05/02/2020, você poderá clicar na data e outros gráficos aumentarão para essa data específica.
 
-![Captura de tela: relatório CQD do PSTN](media/CQD-PSTN-report5.png)
+![Captura de tela: relatório CQD PSTN.](media/CQD-PSTN-report5.png)
 
 No NER Good Percentage Hourly Trend, você pode encontrar que o dip acontece por volta das 21:00. Em seguida, clique novamente para ampliar para a hora 21 e verifique Detalhes da Chamada Efetiva para ver quantas chamadas falharam nessa hora e quais são os motivos de término da chamada. Você pode começar com disparos de autoprofissão em qualquer problema SBC ou relatar ao Service Desk se o problema não estiver relacionado ao SBC.
 
@@ -133,13 +133,13 @@ Todos os parâmetros de rede são medidos da interface roteamento direto para o 
 
   - **Latência** - (Também conhecido como tempo de viagem de ida e volta) é o tempo necessário para que um sinal seja enviado mais o tempo necessário para o reconhecimento desse sinal ser recebido. Esse atraso de tempo consiste nos tempos de propagação entre os dois pontos de um sinal.
 
-> ![Captura de tela: relatório CQD do PSTN](media/CQD-PSTN-report6.png)
+> ![Captura de tela: relatório CQD PSTN.](media/CQD-PSTN-report6.png)
 
 Por exemplo:
 
 Se você vir um pico em qualquer um dos quatro gráficos (Latência, Tremência, Taxa de Perda de Pacote, Atraso pós-discagem) para uma data específica, por exemplo, Latência em 14/02/2020, clique no ponto de data. E o gráfico de tendências por hora na parte inferior será atualizado para mostrar o número por hora. Você pode verificar os SBCs ou levantar um tíquete com o MS Service Desk.
 
-![Captura de tela: relatório CQD do PSTN](media/CQD-PSTN-report7.png)
+![Captura de tela: relatório CQD PSTN.](media/CQD-PSTN-report7.png)
 
 
 

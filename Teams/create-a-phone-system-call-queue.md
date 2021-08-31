@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 2d8f2e0eefd3e600b57f1a5fdeafc0a813dc4c22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e7696878ba84942c2dcc88a1df3d5fc29144f883
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595095"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728730"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -64,7 +64,7 @@ Digite um nome para a fila de chamadas.
 
 ## <a name="resource-accounts"></a>Contas de recursos
 
-![Captura de tela das configurações da conta de recurso](media/call-queue-name-language.png)
+![Captura de tela das configurações da conta de recurso.](media/call-queue-name-language.png)
 
 Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**. (Os agentes verão o nome da conta de recurso quando receberem uma chamada de entrada.)
 
@@ -72,7 +72,7 @@ Consulte [Gerenciar Teams de recursos para](manage-resource-accounts.md) obter m
 
 ### <a name="assign-calling-id"></a>Atribuir ID de chamada
 
-![Captura de tela das configurações de ID de chamada](media/call-queue-assign-calling-id.png)
+![Captura de tela das configurações de ID de chamada.](media/call-queue-assign-calling-id.png)
 
 Se você planeja usar um canal Teams para seus agentes de chamada, pode atribuir um número de ID do chamador de saída para os agentes especificando uma ou mais contas de recurso com um número de telefone.
 
@@ -82,13 +82,13 @@ Se você não estiver usando um canal Teams para controlar a associação de age
 
 ## <a name="language"></a>Linguagem
 
-![Captura de tela das configurações de idioma](media/call-queue-language.png)
+![Captura de tela das configurações de idioma.](media/call-queue-language.png)
 
 Escolha um [idioma com suporte](create-a-phone-system-call-queue-languages.md). Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>Saudações e música de espera na fila
 
-![Captura de tela de saudações e música em espera nas configurações de fila](media/call-queue-greetings-music.png)
+![Captura de tela de saudações e música em espera nas configurações de fila.](media/call-queue-greetings-music.png)
 
 Especifique se você deseja reproduzir uma saudação aos chamadores quando eles chegarem na fila. Carregue um arquivo MP3, WAV ou WMA contendo a saudação que deseja reproduzir. A gravação carregada não pode ser maior do que 5 MB.
 
@@ -101,7 +101,7 @@ O Teams fornece música padrão aos chamadores enquanto eles estão em espera em
 
 Revise os [pré-requisitos para adicionar agentes a uma fila de chamada.](plan-auto-attendant-call-queue.md#prerequisites)
 
-![Captura de tela das configurações de usuários e grupos para filas de chamada](media/call-queue-users-groups.png)
+![Captura de tela de usuários e configurações de grupos para filas de chamada.](media/call-queue-users-groups.png)
 
 ##### <a name="teams-channel"></a>Teams canal
 
@@ -132,7 +132,7 @@ Para adicionar um grupo à fila, clique em **Adicionar grupos**, procure o grupo
 
 ## <a name="call-routing"></a>Roteamento de chamadas
 
-![Captura de tela das configurações de método de roteamento e modo de conferência](media/call-queue-conference-mode-routing-method.png)
+![Captura de tela das configurações do modo de conferência e do método de roteamento.](media/call-queue-conference-mode-routing-method.png)
 
 O **Modo de conferência** reduz significativamente o tempo necessário para que um chamador seja conectado a um agente, depois que o agente aceita a chamada. Para que o modo de conferência funcione, os agentes na fila de chamada devem usar um dos seguintes clientes:
 
@@ -160,7 +160,7 @@ O **método de roteamento** determina a ordem na qual os agentes recebem chamada
 > [!TIP]
 > Definir **o Método de Roteamento** como Round **robin** ou **Longest idle** é a configuração recomendada.
 
-![Captura de tela das configurações de roteamento, recusa e tempo de alerta](media/call-queue-presence-agents-time.png)
+![Captura de tela das configurações de roteamento, de não aceitação e de tempo de alerta.](media/call-queue-presence-agents-time.png)
 
 O **Roteamento baseado em presença** usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **Disponível**, estão incluídos na lista de roteamento de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade está definido com qualquer outro status, são excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade volte para **Disponível**. 
 
@@ -185,7 +185,7 @@ O **Tempo de alerta do agente** especifica por quanto tempo o telefone de um age
 
 ## <a name="call-overflow-handling"></a>Administração de estouro de chamadas
 
-![Captura de tela das configurações de estouro de chamadas](media/call-queue-overflow-handling.png)
+![Captura de tela das configurações de estouro de chamada.](media/call-queue-overflow-handling.png)
 
 O **Número máximo de chamadas na fila** especifica o número máximo de chamadas que podem esperar na fila a qualquer momento. O padrão é 50, mas pode variar de 0 a 200. Quando o limite é atingido, a chamada é tratada como especificado pela configuração **Quando é atingido o número máximo de chamadas**.
 
@@ -196,7 +196,7 @@ Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um d
 
 ## <a name="call-timeout-handling"></a>Administração de tempo limite de chamada
 
-![Captura de tela das configurações de tempo limite de chamada](media/call-queue-timeout-handling.png)
+![Captura de tela das configurações de tempo de tempo de chamada.](media/call-queue-timeout-handling.png)
 
 **Tempo limite de chamada: o tempo máximo de espera** especifica o tempo máximo que uma chamada pode estar em espera na fila antes de ser redirecionada ou desconectada. É possível especificar um valor de 0 segundos a 45 minutos.
 

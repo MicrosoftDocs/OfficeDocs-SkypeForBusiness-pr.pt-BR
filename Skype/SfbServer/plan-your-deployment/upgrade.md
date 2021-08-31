@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Resumo: saiba mais sobre as coisas que você deve considerar ao planejar uma atualização para Skype for Business Server 2015. Baixe uma avaliação gratuita do Skype for Business Server 2015 no Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: a3a36bb7c1acbf5334c108429076aa8126860041
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e503fc555901a78fb2a6cc0fa5b7bc7f112f3eb2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630405"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729240"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planejar a atualização para o Skype for Business Server 2015
  
@@ -103,7 +103,7 @@ Use este método se você não quiser mover usuários entre pools de usuários. 
   
 O diagrama a seguir mostra uma visão geral desse processo.
   
-![Lync 2013 Para Skype usuários offline](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
+![Lync 2013 Para Skype usuários offline.](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
   
 > [!NOTE]
 > Se você tiver pools emparelhados, não desempacodá-los antes da atualização. 
