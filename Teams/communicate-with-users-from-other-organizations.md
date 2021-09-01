@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Aprenda como fazer uma chamada, bater papo, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando o acesso externo (federação) e o acesso para convidado.
-ms.openlocfilehash: b2a8b7a4fb7042596b5f96ab8ac59b65c5b2df58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b4665c17559f94152279e86a82bb44c3c73f016
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582405"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729860"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização
 
@@ -40,7 +40,7 @@ Configure o acesso externo se precisar localizar, fazer uma chamada, bater um pa
 
 Por padrão, o acesso externo é habilitado para todos os domínios. Você pode restringir o acesso externo permitindo ou bloqueando domínios específicos, ou desligando-o.
 
-![Captura de tela das configurações de acesso externo](media/external-access-federation-settings.png)
+![Captura de tela das configurações de acesso externo.](media/external-access-federation-settings.png)
 
 Para configurar o acesso externo, consulte [Gerenciar acesso externo](manage-external-access.md). 
 

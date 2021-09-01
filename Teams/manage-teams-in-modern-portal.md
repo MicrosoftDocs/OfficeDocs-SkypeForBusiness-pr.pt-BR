@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632035"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733831"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 
@@ -45,7 +45,7 @@ Você pode aprender mais sobre as funções administrativas do Teams em [Usar fu
 
 As ferramentas de gerenciamento para equipes estão no nó do **Teams** do centro de administração do Microsoft Teams. (No centro de administração, selecione **Teams** > **Gerenciar equipes**.) Cada equipe é apoiada por um Grupo Microsoft 365 e este nó fornece uma visão dos grupos que foram Microsoft Teams -ativado em sua organização.
 
-![Captura de tela da grade de visão geral do Teams](media/manage-teams-in-modern-portal-grid.png)  
+![Captura de tela da grade de visão geral do Teams.](media/manage-teams-in-modern-portal-grid.png)  
 
 A grade exibe as seguintes propriedades:
 
@@ -94,7 +94,7 @@ Você pode navegar até a página de perfil da equipe de qualquer equipe a parti
 - Adicionar ou remover canais (observe que você não pode remover o canal Geral).
 - Altere as configurações de equipe e grupo.
  
-![Captura de tela de um exemplo de perfil de equipe](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Captura de tela de um exemplo de perfil de equipe.](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>Fazendo alterações nas equipes
 

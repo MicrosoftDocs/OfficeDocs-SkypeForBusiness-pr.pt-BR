@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: 7f981ed6d4397d07dc0aae5bffc6174983e12e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629363"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728412"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -119,13 +119,13 @@ Selecione uma política existente na página **Políticas de reunião** ou selec
 
 Permitir que o **Reunir Agora** seja uma política por usuário e se aplicar antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião não planejada em um canal do Teams. Se você ativar essa configuração, os usuários poderão selecionar o botão **Reunir** para iniciar uma reunião não planejada ou agendar uma reunião no canal. O valor padrão é True.
 
-![Captura de tela mostrando o ícone Reunir Agora abaixo de uma mensagem](media/meeting-policies-meet-now.png)
+![Captura de tela mostrando o ícone Reunir agora abaixo de uma mensagem.](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir o suplemento do Outlook
 
 Permite que o suplemento do Outlook seja uma política por usuário e se aplica antes do início de uma reunião. Essa configuração controla se as reuniões do Teams podem ser agendadas a partir do Outlook (Windows, Mac, Web e dispositivo móvel).
 
-![Captura de tela mostrando a capacidade de agendar uma nova reunião](media/meeting-policies-outlook-add-in.png)
+![Captura de tela mostrando a capacidade de agendar uma nova reunião.](media/meeting-policies-outlook-add-in.png)
 
 Se você desabilitar esse recurso, os usuários não conseguirão agendar. As reuniões do Teams ao criar uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a opção **Nova reunião do Teams** não será exibida na faixa de opções.
 
@@ -137,7 +137,7 @@ Se essa política estiver desativada, os usuários não conseguirão criar novas
 
 Agendar uma reunião será desabilitada.
 
- ![A opção Agendar reunião no Teams](media/schedule-meeting-option.png)
+ ![A opção Agendar uma reunião no Microsoft Teams.](media/schedule-meeting-option.png)
 
 A seleção de canal está desabilitada.
 
@@ -146,15 +146,15 @@ A seleção de canal está desabilitada.
 Na página dos posts de canal, os seguintes recursos serão desabilitados:
 
 - Botão **Agendar uma reunião** na caixa de texto responder ao canal.
-  ![botão agendar uma reunião na caixa de texto responder ao canal](media/schedule-meeting-disabled-in-chat2.png)
+  ![caixa de texto de resposta do botão agendar uma reunião](media/schedule-meeting-disabled-in-chat2.png)
   
 - Botão **Agendar uma reunião** no cabeçalho do canal.
-  ![botão agendar uma reunião no cabeçalho do canal](media/schedule-now-in-header.png)
+  ![botão agendar uma reunião no cabeçalho do canal.](media/schedule-now-in-header.png)
 
 No calendário do canal:
 
 - Botão **Adicionar novo evento** no cabeçalho do calendário do canal será desabilitado.
-  ![botão no cabeçalho do calendário de canal desabilitado](media/add-new-event-disabled.png)
+  ![botão no cabeçalho do calendário de canal desabilitado.](media/add-new-event-disabled.png)
 
 - Os usuários não podem arrastar e selecionar um bloco de tempo no calendário do canal para criar uma reunião de canal.
 
@@ -164,7 +164,7 @@ No Centro de Administração:
 
 O aplicativo de calendário de canal será mostrado na seção **Aplicativos da Microsoft** na página de políticas de permissão do aplicativo.
 
- ![a política de permissões do aplicativo no Centro de Administração do Teams](media/manage-microsoft-apps-policy.png)
+ ![a política de permissões de aplicativo no centro de administração do Teams.](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Permitir o agendamento de reuniões particulares
 
@@ -191,7 +191,7 @@ Essa é uma política por usuário e se aplica antes de começar uma reunião. E
 
 Essa política ativa a Transcrição ao vivo. Permitir transcrição é uma política por usuário. Essa configuração controla se essa específica reunião do Teams pode ser transcrita.
 
-![opções de transcrição nas políticas de reunião](media/live-transcription.png)
+![opções de transcrição nas políticas de reunião.](media/live-transcription.png)
 
 A transcrição ao vivo mostra a conversão de fala em texto do conteúdo falado durante uma reunião do Teams em tempo real. O texto aparece junto com o vídeo da reunião, incluindo o nome do locutor e um carimbo de data/hora. Para saber mais, confira [Exibir transcrição ao vivo em uma reunião do Teams](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b).
 
@@ -212,7 +212,7 @@ A opção Permitir gravação na nuvem é controlada através de uma política p
 
 Pessoas de fora da sua organização, como usuários federados e anônimos, não conseguem iniciar a gravação. Os usuários convidados não podem iniciar ou interromper a gravação.
 
-![as opções de gravação](media/meeting-policies-recording.png)
+![as opções de gravação.](media/meeting-policies-recording.png)
 
 Para saber mais sobre a gravação de reunião na nuvem, confira [Gravação de reunião na nuvem do Teams](cloud-recording.md).
 
@@ -264,7 +264,7 @@ As reuniões organizadas por um usuário que possui essa configuração de polí
 
 | Cliente Teams da Web e da área de trabalho |Cliente de dispositivo móvel do Teams  |
 |:-------:|:-------:|
-|![Captura de tela mostrando o ingresso à reunião com as configurações de áudio/vídeo na área de trabalho](media/meeting-policies-audio-video-settings.png)    |![Captura de tela mostrando a tela de ingresso à reunião com as configurações de áudio/vídeo no dispositivo móvel](media/meeting-policies-mobile-join.png)          |
+|![Captura de tela mostrando o ingresso à reunião com as configurações de áudio/vídeo na área de trabalho.](media/meeting-policies-audio-video-settings.png)    |![Captura de tela mostrando a tela de ingresso à reunião com as configurações de áudio/vídeo no dispositivo móvel](media/meeting-policies-mobile-join.png)          |
 
 Observe o exemplo a seguir.
 
@@ -358,11 +358,11 @@ Essa é uma política por usuário. Essa configuração controla se o usuário p
 
 Se essa configuração estiver ativada para o usuário, a opção **Atribuir controle** será exibida na barra superior de uma sessão de compartilhamento.
 
-![Captura de tela mostrando a opção Conceder controle](media/meeting-policies-give-control.png)
+![Captura de tela mostrando a opção Conceder controle.](media/meeting-policies-give-control.png)
 
-Se as configurações estiverem desativadas para o usuário, a opção **Conceder Controle** não estará disponível.
+Se as configurações estiverem desativadas para o usuário, a opção **Conceder controle** não estará disponível.
 
-![Captura de tela mostrando que a opção Conceder controle não está disponível](media/meeting-policies-give-control-not-available.png)
+![Captura de tela mostrando que a opção Conceder controle não está disponível.](media/meeting-policies-give-control-not-available.png)
 
 Observe o exemplo a seguir.
 
@@ -459,7 +459,7 @@ Essa é uma política por organizador que permite reuniões de conferência sem 
 
 Esta é uma política por organizador. Essa configuração controla se as pessoas participam de uma reunião ou esperam no lobby até que sejam admitidas por um usuário autenticado. Essa configuração não se aplica aos usuários de acesso telefônico.
 
-![Captura de tela mostrando uma reunião com um usuário no lobby](media/meeting-policies-lobby.png)
+![Captura de tela mostrando uma reunião com um usuário no lobby.](media/meeting-policies-lobby.png)
 
  Os organizadores de reuniões podem selecionar **Opções de reunião** no convite da reunião para alterar essa configuração para cada reunião agendada.
 
@@ -489,7 +489,7 @@ As políticas de reunião têm uma configuração que permite aos membros da equ
 
 Essa é uma política por usuário e se aplica durante uma reunião. Essa configuração controla se a opção **Ativar legendas ao vivo** está disponível para que o usuário ative e desative as legendas ao vivo nas reuniões que o usuário faz.  
 
-![Captura de tela mostrando a opção Ativar legendas ao vivo](media/meeting-policies-live-captions.png)
+![Captura de tela mostrando a opção Ativar legendas ao vivo.](media/meeting-policies-live-captions.png)
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
@@ -520,7 +520,7 @@ Para especificar o valor padrão de **Quem pode apresentar?** configuração no 
 
 Além disso, você pode editar essa política no Centro de administração do Teams.
 
-![Captura de tela do Centro de administração do Teams](media/designated-presenter-role.png)
+![Captura de tela do centro de administração do Teams.](media/designated-presenter-role.png)
 
 Lembre-se de que, depois de definir o valor padrão, os organizadores de reunião ainda poderão alterar essa configuração no Teams e escolher quem poderá apresentar nas reuniões agendadas por eles.
 

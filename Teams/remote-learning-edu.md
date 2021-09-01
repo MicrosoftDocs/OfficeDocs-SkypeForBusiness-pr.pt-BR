@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c96412e93029858c5444d662e7db3e65224a21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578345"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729810"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -158,7 +158,7 @@ A criação da equipe liderada por educadores é uma ótima opção de implanta�
 
 Essa abordagem híbrida permite que você use o SDS para criar grupos para cada classe (recomendado) ou use a [API do Graph](/graph/api/educationroot-post-classes) para criá-las por conta própria. Depois que os grupos de classe estiverem preparados, os educadores poderão converter os grupos em equipes usando o ícone **Classes sugeridas**.
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Captura de tela mostrando o ícone Classes sugeridas":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Captura de tela mostrando o ícone Classes sugeridas.":::
 
 ##### <a name="benefits"></a>Benefícios
 

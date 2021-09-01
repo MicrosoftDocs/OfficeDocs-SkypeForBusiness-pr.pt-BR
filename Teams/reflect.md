@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d0800fb4d3f596abaad82a2714d8daaa0234337
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 368c2ea6b3d937bbd126eb056bf4e2db4163f31f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631955"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730100"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guia do administrador de IT para o Reflect no Microsoft Teams
 
@@ -65,11 +65,11 @@ Se você definiu anteriormente que é necessário dar permissão a cada aplicati
 ## <a name="where-do-educators-find-reflect"></a>Onde os educadores encontram o Reflect?
 Depois de habilitar o Reflect, os educadores vão para a classe e selecionam **Nova Conversa**. Em seguida, eles selecionam '**…**' para abrir as extensões de mensagens e digitam **Reflect** na barra de pesquisa. A caixa de diálogo orienta-os na definição da pergunta e de quem pode ver o quê.
 
-:::image type="content" source="media/reflect-add-app.png" alt-text="Adicionar o Reflect à equipe de classe":::
+:::image type="content" source="media/reflect-add-app.png" alt-text="Adicionar o Reflect à equipe de classe.":::
 
-Eles podem clicar com o botão direito do mouse no ícone do Reflect e selecionar **Fixar** pra fácil acesso.
+Eles podem clicar com o botão direito do mouse no ícone do Reflect e selecionar **Fixar** para facilitar o acesso.
 
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Fixar o aplicativo Reflect":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Fixar o aplicativo Reflect.":::
 
 > [!TIP]
 > Você também pode localizar o aplicativo Reflect por meio deste link: [https://aka.ms/getReflect](https://aka.ms/getReflect)

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66c3aec34baa10dc0cda644d84611800a8e9d97a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597665"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725820"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
@@ -38,21 +38,21 @@ A presença faz parte do perfil de um usuário do Microsoft Teams (e por todo o 
 
 |Usuário configurado|Aplicativo configurado|
 |:--- |:---|
-| ![Marca de seleção verde, indica Presença Disponível](media/Presence_Available.png) Disponível|![Marca de seleção verde, indica Presença Disponível](media/Presence_Available.png) Disponível|
-|| ![Marca de seleção verde aberta, indica at disponível](media/Presence_Available_OOF.png) Disponível, Ausência Temporária. Observação: a Ausência Temporária é definida automaticamente para os períodos nos quais os usuários configuram as “respostas automáticas”. Se o usuário estiver usando o aplicativo durante esses períodos, uma presença dupla pode ser mostrada, como “Ausência temporária, disponível”. |
-|  ![Círculo vermelho, indica Ocupado](media/Presence_Busy.png) Ocupado |  ![Círculo vermelho, indica Ocupado](media/Presence_Busy.png) Ocupado  |
-|| ![Círculo vermelho, indica Ocupado em uma chamada](media/Presence_Busy.png) Em uma chamada|
-|| ![Círculo vermelho, indica Ocupado em uma reunião](media/Presence_Busy.png) Em uma reunião |
-|| ![Círculo vermelho aberto, indica ocupado](media/Presence_Busy_OOF.png) Em uma chamada, ausência temporária|
-|  ![Círculo vermelho com linha branca, indica Não Incomodar](media/Presence_DND.png) Não incomodar ||
-|| ![Círculo vermelho com linha branca, indica Em Apresentação](media/Presence_DND.png) Em Apresentação|
-|| ![Círculo vermelho com linha branca, indica Focado](media/Presence_DND.png) Com foco. O foco acontece quando os usuários agendam o tempo de foco no MyAnalytics/Insights em seus calendários.|
-| ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente| ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente|
+| ![Marca de seleção verde sólida, indica Presença Disponível.](media/Presence_Available.png) Disponível|![Marca de seleção verde, indica Presença Disponível](media/Presence_Available.png) Disponível|
+|| ![Marca de seleção verde aberta, indica disponível.](media/Presence_Available_OOF.png) Disponível, Ausência Temporária. Observação: a Ausência Temporária é definida automaticamente para os períodos nos quais os usuários configuram as “respostas automáticas”. Se o usuário estiver usando o aplicativo durante esses períodos, uma presença dupla pode ser mostrada, como “Ausência temporária, disponível”. |
+|  ![Círculo vermelho sólido, indica Ocupado.](media/Presence_Busy.png) Ocupado |  ![Círculo vermelho, indica Ocupado](media/Presence_Busy.png) Ocupado  |
+|| ![Círculo vermelho sólido, indica Ocupado em uma chamada.](media/Presence_Busy.png) Em uma chamada|
+|| ![Círculo vermelho sólido, indica Ocupado em uma reunião.](media/Presence_Busy.png) Em reunião |
+|| ![Círculo vermelho aberto, indica Ocupado.](media/Presence_Busy_OOF.png) Em uma chamada, ausência temporária|
+|  ![Círculo vermelho com linha branca, indica Não Incomodar.](media/Presence_DND.png) Não incomodar ||
+|| ![Círculo vermelho com linha branca, indica Em Apresentação.](media/Presence_DND.png) Em Apresentação|
+|| ![Círculo vermelho com linha branca, indica Focado.](media/Presence_DND.png) Focado. O foco acontece quando os usuários agendam o tempo de foco no MyAnalytics/Insights em seus calendários.|
+| ![Ícone de relógio amarelo, indica ausente.](media/Presence_Away.png) Ausente| ![Ícone de relógio amarelo, indica ausente.](media/Presence_Away.png) Ausente|
 || ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente Visto por Último *horário*|
-|![Ícone de relógio amarelo, indica ausente, volto logo](media/Presence_Away.png) Volto Logo| |
-|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Invisível|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Desligada. Quando os usuários não estão conectados em nenhum dos seus dispositivos por alguns minutos, eles aparecem invisíveis. | |
-|| ![Círculo cinza aberta, indica status desconhecido](media/Presence_Unknown.png) Status desconhecido|
-|| ![Círculo púrpura com seta, indica Ausência temporária](media/Presence_OOF.png) Ausência Temporária. A Ausência Temporária é usada quando uma resposta automática é definida. |
+|![Ícone de relógio amarelo, indica ausente, volto logo.](media/Presence_Away.png) Volto logo| |
+|![Círculo cinza com x, indica Offline.](media/Presence_Offline.png) Invisível|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Desligada. Quando os usuários não estão conectados em nenhum dos seus dispositivos por alguns minutos, eles aparecem invisíveis. | |
+|| ![Círculo cinza aberto, indica status desconhecido.](media/Presence_Unknown.png) Status desconhecido|
+|| ![Círculo púrpura com seta, indica Ausência Temporária.](media/Presence_OOF.png) Ausência Temporária. A Ausência Temporária é usada quando uma resposta automática é definida. |
 |||
  > [!NOTE]
  > Para usuários que têm sua caixa de correio hospedada no local, são esperados atrasos de presença de uma hora (máximo).

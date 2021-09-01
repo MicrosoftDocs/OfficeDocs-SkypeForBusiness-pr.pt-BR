@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df39e778998d01b31b08ec0f537d4a35905a2ce2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621999"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727820"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -153,8 +153,8 @@ Use estes links para obter mais informações sobre como organizar as equipes:
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Qual é o objetivo da equipe?</li><li>Quem pertence à equipe?</li><li>A equipe será privada ou pública?</li><li>Os novos membros podem adicionar a si mesmos ou os proprietários da equipe devem adicioná-los?</li><li>Quem terá permissões para criar canais ou adicionar guias, bots e conectores?</li></ul> |
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Crie a equipe.</li><li>Planeje canais.</li></ul>|
+| ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Qual é o objetivo da equipe?</li><li>Quem pertence à equipe?</li><li>A equipe será privada ou pública?</li><li>Os novos membros podem adicionar a si mesmos ou os proprietários da equipe devem adicioná-los?</li><li>Quem terá permissões para criar canais ou adicionar guias, bots e conectores?</li></ul> |
+| ![Um ícone representando os próximos passos.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Crie a equipe.</li><li>Planeje canais.</li></ul>|
 
 
 #### <a name="set-up-channels"></a>Configure canais
@@ -167,8 +167,8 @@ Considere os nomes dos canais antes de criá-los, pois renomear um canal na equi
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Que canais iniciais serão adicionados à equipe?</li><li>Que diretrizes, se houver, serão fornecidas para a adição de novos canais? (Eles serão configurados por projeto, por tópico ou...?)</li></ul> |
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Crie canais iniciais.</li><li>Poste uma mensagem de boas-vindas.</li><li>Comece a colaborar.</li></ul>|
+| ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Que canais iniciais serão adicionados à equipe?</li><li>Que diretrizes, se houver, serão fornecidas para a adição de novos canais? (Eles serão configurados por projeto, por tópico ou...?)</li></ul> |
+| ![Um ícone representando os próximos passos.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Crie canais iniciais.</li><li>Poste uma mensagem de boas-vindas.</li><li>Comece a colaborar.</li></ul>|
 
 ### <a name="stage-2-middle"></a>Estágio 2: meio
 
@@ -188,8 +188,8 @@ Como as equipes são em forma de vida, ocasionalmente, elas precisam de verifica
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Quem monitorará o uso para identificar problemas?</li><li>Que métricas serão usadas para determinar a integridade de uma equipe?</li><li>Identifique equipes que chegaram ao fim de sua vida útil.</li><li>Identifique equipes não íntegras que ainda servem a um propósito, mas precisam ser revigoradas.</li></ul> |
-| ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Implemente um processo para monitorar a integridade de equipes individuais.</li></ul>|
+| ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Quem monitorará o uso para identificar problemas?</li><li>Que métricas serão usadas para determinar a integridade de uma equipe?</li><li>Identifique equipes que chegaram ao fim de sua vida útil.</li><li>Identifique equipes não íntegras que ainda servem a um propósito, mas precisam ser revigoradas.</li></ul> |
+| ![Um ícone representando o passo seguinte.](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Implemente um processo para monitorar a integridade de equipes individuais.</li></ul>|
 
 ### <a name="stage-3-end"></a>Etapa 3: fim
 
@@ -205,8 +205,8 @@ Para obter informações sobre como configurar políticas de expiração e reten
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Defina como é o fim da vida útil de uma equipe.</li><li>Decida se deseja manter o conteúdo de uma equipe disponível e por quanto tempo.</li></ul> |
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente as práticas recomendadas e as lições aprendidas.</li><li>Arquive os dados, se necessário.</li></ul>|
+| ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Defina como é o fim da vida útil de uma equipe.</li><li>Decida se deseja manter o conteúdo de uma equipe disponível e por quanto tempo.</li></ul> |
+| ![Um ícone representando os próximos passos.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente as práticas recomendadas e as lições aprendidas.</li><li>Arquive os dados, se necessário.</li></ul>|
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607688"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733430"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
@@ -216,11 +216,11 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de configuração**.
 2. Clique em  **Adicionar**.  
 3. Insira um nome e uma descrição para a política. Por exemplo, política de configuração do aplicativo de gerente de Linha de frente.
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Captura de tela do exemplo de nome e descrição da política de configuração de aplicativo do gerenciador de linha de frente":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Captura de tela do exemplo de nome e descrição da política de configuração de aplicativo do gerenciador de linha de frente.":::
 
 4. Desativar o **Carregamento de aplicativos personalizados**.
 5. Desativar a **Permissão de fixação do usuário**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Captura de tela da configuração Permitir fixação do usuário":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Captura de tela da configuração Permitir fixação do usuário.":::
 
 6. Se ainda não estiver listado, adicione o aplicativo **Turnos**. Para mais informações sobre Turnos, clique [aqui](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Captura de tela da tela Adicionar aplicativos fixados, mostrando o botão Adicionar para o aplicativo Turnos":::
@@ -234,7 +234,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
     - Calendário
     - Turnos
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Captura de tela de aplicativos para gerentes de linha de frente listados em ordem":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Captura de tela de aplicativos para gerentes de linha de frente listados em ordem.":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>Criar a política de configuração do aplicativo de trabalho da linha de frente
 
@@ -243,11 +243,11 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de configuração**.
 2. Clique em  **Adicionar**.
 3. Insira um nome e uma descrição para a política. Por exemplo, política de configuração de aplicativo de Trabalhador de linha de frente.
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Captura de tela do exemplo de nome e descrição da política de configuração de aplicativo de trabalhador de linha de frente":::
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Captura de tela do exemplo de nome e descrição da política de configuração de aplicativo de trabalhador de linha de frente.":::
 
 4. Desativar o **Carregamento de aplicativos personalizados**.
 5. Desativar a **Permissão de fixação do usuário**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Captura de tela da configuração Permitir fixação do usuário":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Captura de tela da configuração Permitir fixação do usuário.":::
 
 6. Se ainda não estiver listado, adicione o aplicativo **Turnos**. Para mais informações sobre Turnos, clique [aqui](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
@@ -260,7 +260,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
     - Teams
     - Turnos
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Captura de tela de aplicativos para trabalhadores da linha de frente listados em ordem":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Captura de tela de aplicativos para trabalhadores da linha de frente listados em ordem.":::
 
 ### <a name="create-teams-app-permission-policies"></a>Criar políticas de permissão de aplicativos do Teams
 
@@ -275,7 +275,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de permissão**.
 2. Clique em  **Adicionar**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de tela da página Adicionar política de permissão de aplicativo":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de tela da página Adicionar política de permissão do aplicativo.":::
 
 3. Insira um nome e uma descrição para a política. Por exemplo, política de permissão do aplicativo do gerente de Linha de Frente.
 4. Em  **aplicativos da Microsoft**, selecione **Permitir todos os aplicativos**.
@@ -290,7 +290,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de permissão**.
 2. Clique em  **Adicionar**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de tela da página Adicionar política de permissão de aplicativo":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de tela da página Adicionar política de permissão do aplicativo.":::
 
 3. Insira um nome e uma descrição para a política. Por exemplo, política de permissão do aplicativo de Trabalhador de linha de frente.
 4. Em  **aplicativos da Microsoft**, selecione **Permitir todos os aplicativos**.

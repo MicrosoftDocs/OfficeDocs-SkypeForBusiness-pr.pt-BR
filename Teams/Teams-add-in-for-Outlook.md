@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb1898d5c172c6f0ebc4f56cf9059bbb5986077b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 493d31189c4136799075554343aaddd694922b30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586747"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728220"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 
@@ -34,7 +34,7 @@ O suplemento de reunião do Teams permite que os usuários agendem uma reunião 
 
 O suplemento de Reunião do Teams é instalado automaticamente para usuários que possuem o Microsoft Teams e o Office 2013, Office 2016 ou Office 2019 instalado em seus computadores Windows. Os usuários verão o suplemento Reunião do Teams na faixa de opções do Calendário do Outlook.
 
-![Captura de tela do suplemento de reunião do Teams na faixa de opções do Outlook](media/Teams-add-in-for-Outlook.png)
+![Captura de tela do suplemento de Reunião do Teams na faixa de opções do Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
 > - Não há **nenhum URL direto** vinculado ao suplemento Teams.
@@ -53,7 +53,7 @@ As coordenadas da reunião (os números de discagem e de ingresso no Teams) ser�
 
 O botão Reunião do Teams no Outlook Web App aparecerá como parte da criação de um novo evento se o usuário estiver em uma versão anterior do novo Outlook na Web. Consulte o [Blog do Outlook](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral) para saber como os usuários podem experimentar a versão inicial do novo Outlook na Web.
 
-![Captura de tela do suplemento de reunião do Teams no Outlook Web App](media/teams-meeting-add-in-web.png)
+![Captura de tela do suplemento de Reunião do Teams no Microsoft Outlook Web App.](media/teams-meeting-add-in-web.png)
 
 As coordenadas da reunião (os números de discagem e de ingresso no Teams) serão adicionadas ao convite da reunião depois que o usuário clicar em **Enviar**.  
 
@@ -61,7 +61,7 @@ As coordenadas da reunião (os números de discagem e de ingresso no Teams) ser�
 
 O botão Reunião do Teams é exibido nas versões mais recentes do aplicativo do Outlook para iOS e Android.
 
-![Captura de tela do suplemento Reunião do Teams no Outlook mobile](media/teams-meeting-add-in-mobile.png)
+![Captura de tela do suplemento Reunião do Teams no Outlook mobile.](media/teams-meeting-add-in-mobile.png)
 
 As coordenadas da reunião (os números de discagem e de ingresso no Teams) serão adicionadas ao convite da reunião depois que o usuário clicar em **Enviar**.  
 

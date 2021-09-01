@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edeb3180710dede90df8cd2bd5ba54c7f2996bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057ac60f2033336df024b8a26daa6dff963dafa7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627063"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734090"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 
@@ -92,11 +92,11 @@ Você pode desativar a capacidade de um usuário de instalar aplicativos e servi
 
 1. Do Centro de administração do Microsoft 365, vá até **Configurações** > **Configurações da Organização**, selecione **Serviços** e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário**.
 
-    ![a página de Serviços no centro de administração](media/iw-trial-services.png)
+    ![a página de Serviços no centro de administração.](media/iw-trial-services.png)
 
 2. Desmarque a caixa de seleção **Permitir que os usuários instalem aplicativos e serviços de avaliação**.
 
-    ![a página de aplicativos e serviços de propriedade do Usuário no centro de administração](media/iw-trial-user-owned-apps-services.png)
+    ![a página de aplicativos e serviços de propriedade do Usuário no centro de administração.](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > Se a sua organização não estiver qualificada para a experiência do Teams Exploratory, você não verá a opção **Permitir que os usuários instalem aplicativos e serviços de avaliação**.
