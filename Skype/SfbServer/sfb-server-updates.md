@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações para Skype for Business Server 2015/2019 e Lync 2013 em um só lugar. Use os links nesta página para saber mais e baixar as atualizações.
-ms.openlocfilehash: aa9ae8c2b3b28790028635a9604687995549e6eb
-ms.sourcegitcommit: 22328f851153f3768175321b8b128a672d6adc50
+ms.openlocfilehash: fcdd7212cf7a3f612434594d028b2e7be104af36
+ms.sourcegitcommit: 5a4108219dd1b77468b3ef4aff0500cd19473fa5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58807444"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58852039"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -32,6 +32,8 @@ O KB 4470124 é o KB mestre do Skype for Business Server 2019, que tem toda a li
 
 |Número do pacote|Número de KB|Data do lançamento|
 |:--- |:--- |:--- |
+|Skype for Business Server Atualização Cumulativa 5 de 2019 |[KB 4470124 (MACP3)](https://support.microsoft.com/kb/4470124)| Março de 2021 |
+|Skype for Business Server hotfix cumulativo 4 1 da Atualização Cumulativa 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Novembro de 2020 |
 |Skype for Business Server Atualização Cumulativa 4 de 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Setembro de 2020 |
 |Skype for Business Server 2019 Cumulative Update 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Julho de 2020 |
 |Skype for Business Server Atualização Cumulativa 3 de 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Março de 2020 |
@@ -57,6 +59,7 @@ O KB 4470124 é o KB mestre do Skype for Business Server 2019, que tem toda a li
 |Número do pacote|Número de KB|Data do lançamento|
 |:--- |:--- |:--- |
 |Skype for Business Server Atualização Cumulativa 12 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2021 |
+|Skype for Business Server Hotfix cumulativo 11 da Atualização Cumulativa 2 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Novembro de 2020 |
 |Skype for Business Server 2015 Cumulativo Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Julho de 2020 |
 |Skype for Business Server Atualização Cumulativa 11 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 de maio de 2020 |
 |Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2019 |
