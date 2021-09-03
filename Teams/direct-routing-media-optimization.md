@@ -16,12 +16,12 @@ f1.keywords:
 description: Otimização de mídia local para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1d4f0a2b2770f048d308f8f497754e33f8f797
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e30b5928fb775453db9a4b149f4f464b30401a80
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725510"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866393"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planejar otimização de mídia local para roteamento direto
 
@@ -340,3 +340,4 @@ Veja a seguir uma lista de problemas conhecidos que estão atualmente presentes 
 | As escalonamentos de chamadas resultam em chamadas não ativas quando o cliente Teams é identificado como interno.| Desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
 | Escalonamentos de chamadas de 1 a 1 entre clientes internos para chamadas de várias partes com cliente/recurso externo resultam em chamadas inoadas | Trabalhe em andamento em uma correção. Como alternativa, desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
 | Teams usuário coloca a chamada em espera. A música é reproduzida no final da PSTN e a Otimização de Mídia Local está funcionando. O Teams usuário retoma a chamada. A chamada para PSTN é retomada, mas a Otimização de Mídia Local não está funcionando e a chamada continua via SBC Central (Proxy) | Quando um usuário estaciona uma chamada para iniciar a música em espera (MoH), ela está sendo escalonada de 1:1 para uma chamada multipartidária pelo Controlador de Chamada para invocar o Controlador de Mídia e o Processador de Mídia (servindo como misturador AVMCU) por meio do qual o MoH atinge um usuário que foi colocado em espera. O escalonamento para uma chamada 1:1 depois que a chamada é retomada nunca acontece de acordo com o design. Desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
+|Enquanto uma chamada está sendo estabelecida por alguns segundos, o usuário pode ouvir o silêncio.| Devido à complexidade da arquitetura de Otimização de Mídia Local, isso pode ocorrer em alguns casos.|
