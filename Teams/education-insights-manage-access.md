@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730680"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864191"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Gerenciar acesso do usuário ao Education Insights
 
@@ -64,7 +64,7 @@ Se você usar o [formato de arquivo SDS V2.1](/schooldatasync/sds-v2.1-csv-file-
   
   :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Permissões baseadas em funções":::
   
-  Se houver uma função em mais de um nível de organização, essa função aparecerá várias vezes, uma vez para cada nível. Na captura de tela, temos entidades de segurança no nível da escola e do distrito, portanto, há duas linhas para a "entidade de segurança".
+  Se houver uma função em mais de um nível de organização, essa função aparecerá várias vezes, uma vez para cada nível. Na captura de tela, temos diretores em nível de escola, distrito e departamento, portanto, há três linhas para 'diretor'.
   
 * Para cada função, clique no ícone de lápis para selecionar o nível de permissão. O padrão é que a função não tem permissão para ver Insights.
 * Selecione o nível de permissão:**Exibir dados de sua organização** ou **Nenhum**.
