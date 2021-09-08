@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 56d08bff329a92b5bf8ac4086e9515522140fa9e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f4049c2b969906e149a2f1a6d7ea5249eb0ed2e9
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589735"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935827"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -54,22 +54,17 @@ Os seguintes dispositivos são Certificados no Programa de Certificação Micros
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | Março de 2019                   |
 | AudioCodes C448HD (somente no modo CAP)      | C450HD_TEAMS_0.225                                       | Março de 2019                   |
 | Crestron UC-2                          |1.0.1.46                                                  | Julho de 2020                    |
-| Crestron M100                          | Este produto foi descontinuado. Para obter mais informações, visite [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) no site da Crestron. | Descontinuado (11/05/2020) |
-| Crestron Flex UC-P100-T & UC-P110-T    | Este produto foi descontinuado. Para obter mais informações, visite [UC Telefone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) no site da Crestron.                  | Descontinuado (11/05/2020) |
-| Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | Abril de 2020                   |
-| Poly Trio C60, Trio C60 NR, Trio C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | Abril de 2020                   |
-| Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | Janeiro de 2020                 |
-| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | Janeiro de 2020                 |
-| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | Dezembro de 2019                |
-| Poly Trio 8500/8800 (somente modo compartilhado) | 5.9.0.10869                                                                                                                                                                                                                                | Junho de 2019                    |
+| Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                     | Abril de 2020                   |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | 5.9.3.6155                                              | Abril de 2020                   |
+| Poly CCX400                            | 1.0.0.0200                                               | Janeiro de 2020                 |
+| Poly CCX600                            | 5.9.12.1122                                              | Janeiro de 2020                 |
+| Poly CCX500                            | 5.9.12.1122                                              | Dezembro de 2019                |                                                                                                                                                           
 | Yealink EXP50 suportado em T56, T58, MP56, MP58, VP59| Para cada modelo de dispositivo com suporte, consulte update #7 firmware version | Janeiro de 2021 |
 | Yealink MP58 | 122.15.0.27| Dezembro de 2020 |
 | Yealink MP54 | 122.15.0.27| Novembro de 2020 |
 | Yealink MP56 | 122.15.0.6 | Março de 2020    |
 | Yealink VP59 | 91.15.0.16 | Junho de 2019     |
 | Yealink T55  | 58.15.0.36 | Maio de 2019      |
-| Yealink CP 960| 73.15.0.20 | Dezembro de 2018|
-| Yealink T58 & série T56 | 58.15.0.20 | Dezembro de 2018 |
 
 ## <a name="currently-certified-teams-rooms-on-android"></a>Atualmente certificado Salas do Teams no Android
 

@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Usar o Microsoft Teams para configurar seu Sistema de visitas virtuais
-ms.openlocfilehash: 46f29649665521b2bc59c2a4a73db617398bcf37
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a5b04befbd3c4cf5d1730432a2c5dcad97e63675
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726630"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935847"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuais com o Teams - Integração com EHR
 
@@ -156,7 +156,7 @@ O conector oferece suporte a pacientes que ingressam em visitas virtuais por mei
 
 Características principais da experiência do paciente:
 
-- Os pacientes podem participar de visitas virtuais a partir de navegadores modernos no desktop e no celular sem a instalação de aplicativos.
+- Os pacientes podem participar de visitas virtuais de navegadores da Web modernos na área de trabalho e [em dispositivos móveis sem a instalação do aplicativo.](../mobile-browser-join.md)
 
 - Os pacientes podem participar de visitas virtuais com um único clique e não há outra conta ou entrada necessária.
 
