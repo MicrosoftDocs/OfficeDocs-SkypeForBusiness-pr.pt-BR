@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad01fc901772fdc815ec2bee84eb833479de01e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f41f1caf5956134c46ad16fceca41843e5edb9de
+ms.sourcegitcommit: 5712b5583f9b6e151f00f003a8fbea7ead07b09c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601086"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58941828"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
-> [!Note]
-> A mudança do Microsoft Stream para o Microsoft OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião será uma abordagem em fases.
+> [!NOTE]
+> A alteração do armazenamento de Teams de reuniões do Fluxo Clássico para OneDrive e SharePoint (ODSP) foi concluída a partir de 30 de agosto de 2020. Todas as gravações agora são armazenadas no ODSP. Essa alteração substitui a política RecordingStorageMode e a modificação da configuração no PowerShell não tem mais impacto.
 
 |Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Evento&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ ms.locfileid: "58601086"
 |A implantação começa em 7 de janeiro de 2021<br> *(Completo)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Todas as gravações de reunião do Teams serão salvas no OneDrive for Business e no SharePoint a menos que você atrase esta alteração ao modificar as políticas de Reunião do Teams da sua organização e configurá-las explicitamente para **Stream**. Ver o relatório de política como Stream não é suficiente. Você precisa definir explicitamente o valor da política para **Stream**.|
 |A implantação começa em 11 de janeiro de 2021<br> *(Completo)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Somente GCC**<br> Embora os clientes GCC possam recusar a partir de 5 de outubro, você não pode aceitar. Este recurso será implantado para todos os clientes GCC a partir de 11 de janeiro de 2021, a menos que você tenha recusado.<br>  <br>A partir de 11 de janeiro de 2021, todas as gravações de reunião do Teams para clientes GCC serão salvas no OneDrive for Business e no SharePoint, a menos que você atrase essa alteração ao modificar as políticas de Reunião do Teams da sua organização e configurá-las explicitamente para **Stream**. <br><br>Se você recusou mas está pronto para ativar este recurso, pode fazê-lo configurando explicitamente a Política de Reunião do Teams para **OneDrive for Business**. |
 |Em implantação a partir de 1 de março de 2021<br> *(Completo)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Somente GCC alto e DoD**<br> Agora, os clientes podem habilitar gravações de reunião na nuvem em seus Microsoft Teams pela primeira vez. Essa gravações serão armazenadas e reproduzidas no OneDrive e no SharePoint por padrão. |
-|Em implantação incremental a partir de 16 de agosto de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Todos os clientes (Enterprise, Education e GCC)**<br>As novas gravações de reunião não podem ser salvas no Microsoft Stream (Clássico); as gravações de reunião de todos os clientes serão salvas no OneDrive for Business e no SharePoint, mesmo se eles tiverem alterado as políticas de Reunião do Teams para Stream.<br><br> Recomendamos que os clientes, para controlar melhor a alteração na sua organização, aceitem quando estiverem confortáveis com a alteração em vez de esperar que ela aconteça. |
+|Em implantação incremental a partir de 16 de agosto de 2021 <br> *(Completo)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Todos os clientes (Enterprise, Education e GCC)**<br>As novas gravações de reunião não podem ser salvas no Microsoft Stream (Clássico); as gravações de reunião de todos os clientes serão salvas no OneDrive for Business e no SharePoint, mesmo se eles tiverem alterado as políticas de Reunião do Teams para Stream.<br><br> Recomendamos que os clientes, para controlar melhor a alteração na sua organização, aceitem quando estiverem confortáveis com a alteração em vez de esperar que ela aconteça. |
 
 O Microsoft Teams tem um novo método para salvar gravações de reunião. Como a primeira fase de uma transição do Microsoft Stream clássico para o [novo Stream](/stream/streamnew/new-stream), esse método armazena gravações do Microsoft OneDrive for Business e do SharePoint no Microsoft 365 e oferece muitos benefícios.
 

@@ -1430,6 +1430,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Visitas virtuais com o Bookings e o Teams
                 href: bookings-app-admin.md
+              - name: Gerenciar a experiência de adesão em navegadores de dispositivos móveis
+                href: expand-teams-across-your-org/mobile-browser-join.md
           - name: Exibir e atribuir pacotes de política
             href: policy-packages-healthcare.md
           - name: Mensagens seguras
