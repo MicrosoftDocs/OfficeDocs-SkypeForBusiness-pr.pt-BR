@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB (como fones de ouvido, viva-voz, webcams e monitores) são certificados para Microsoft Teams.
-ms.openlocfilehash: 747884e7d159753518ad3424c2d3d1b69728d088
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: d41212a1800664ea3803691e367a31a24d43d66b
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866373"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972989"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para Microsoft Teams
 
@@ -78,6 +78,7 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa Certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logitech             |Earbuds com fio de zona                                         |9/2/2021        |Certificado para Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |Certificado para Microsoft Teams                           |
 |Poly                 |Voyager 4320                                               |8/6/2021        |Certificado para Microsoft Teams                           |
 |Poly                 |Voyager 4310                                               |8/6/2021        |Certificado para Microsoft Teams                           |

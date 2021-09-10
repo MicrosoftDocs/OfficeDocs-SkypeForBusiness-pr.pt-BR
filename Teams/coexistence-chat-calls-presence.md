@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportamento de coexistência entre Teams & Skype for Business, incluindo parâmetros de roteamento, roteamento de chamadas de chat &, chats & chamadas de threads pré-existentes, & presença.
-ms.openlocfilehash: efd40be76e1a733e74d3e85c767cf2847d3cccbc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5383ff8c68b8950b449b5159a530a1439156a945
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582425"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972919"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -102,8 +102,8 @@ Nas tabelas a seguir:
 
 |<br><br>Modo|Originador<br><br>Cliente|<br><br>SfB &nbsp; homed|<br><br>Route->|Destinatário<br><br>TeamsOnly|
 |---|---|---|:---:|---|
-|Ilhas|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Microsoft Teams* <br> Microsoft Teams <br> *Teams*|
-|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|*Teams* <br> *Teams*|
+|Ilhas|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Microsoft Teams* <br> Microsoft Teams <br> *Microsoft Teams*|
+|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|*Microsoft Teams* <br> *Microsoft Teams*|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 ||||||
 
@@ -148,8 +148,8 @@ As tabelas abaixo descrevem qual cliente receberá uma chamada do originador (tr
 
 |<br><br>Modo|Originador<br><br>Cliente|<br><br>SfB homed|<br><br>Route->|Destinatário<br><br>TeamsOnly|
 |---|---|---|:---:|---|
-|Ilhas|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Teams* <br> **Não é possível** <br> *Teams*|
-|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|*Teams* <br> *Teams*|
+|Ilhas|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Microsoft Teams* <br> **Não é possível** <br> *Microsoft Teams*|
+|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|*Microsoft Teams* <br> *Microsoft Teams*|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 ||||||
 
@@ -173,7 +173,8 @@ Skype for Business threads não persistem além do tempo de sessão SIP de 10 mi
 Os comportamentos no locatário e federado descritos acima estão disponíveis, com as seguintes limitações:
 
 - Participantes externos cujos locatários residem em uma implantação ou geografia golocal diferente não verão chat de mensagens IM em uma reunião "federada"
-- Não há suporte para federação e interopção entre Multitenant O365 e Nuvens Soberanas
+- A federação e a interopção entre os Office 365 e Office 365 operados pela 21Vianet são suportados em cenários limitados.
+
 
 ## <a name="presence"></a>Presença
 
@@ -227,6 +228,20 @@ A tabela a seguir descreve a presença do Publisher que será vista por um Watch
 Para alinhar a presença e a capacidade de alcance em threads pré-existentes, a presença do destino exposta nesse thread precisa ser alinhada com o roteamento do thread, supondo que o roteamento seja possível.
 
 Em particular, se um destinatário com o que você tinha anteriormente um thread de conversa de interop persistente foi atualizado para Teams, esse thread não refletirá mais a presença precisa e não será mais routable. Você deve iniciar um novo thread.
+
+### <a name="federation-and-interop-with-office-365-operated-by-21vianet"></a>Federação e interopção com Office 365 operado pela 21Vianet
+
+A federação e a interopção entre os Office 365 e Office 365 operados pela 21Vianet são suportados quando os usuários de vários locatários Office 365 estão no modo Somente Teams. Nesse cenário, os usuários Skype for Business Online no Office 365 operados pela 21Vianet poderão se comunicar com o Teams Somente usuários em vários Office 365 por meio de chats e chamadas. A tabela a seguir mostra os cenários com suporte nesta configuração:
+ 
+|Cenário|Origem|Destinatário|Com suporte?|
+|---|---|---|---|
+|Presença|Microsoft Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Sim<br>Sim|
+|Bate-papo|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Sim (somente 1:1)<br>Sim(somente 1:1)|
+|Chamadas de áudio|Microsoft Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Sim (somente 1:1)<br>Sim (somente 1:1)|
+|Chamadas de vídeo|Microsoft Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Sim (somente 1:1)<br>Sim (somente 1:1)|
+|Compartilhamento de tela|Microsoft Teams <br> Skype for Business <br> | Skype for Business <br> Teams |Sim (por meio de uma reunião Teams promoção)<br>Sim (por meio de uma reunião SfB promovida)|
+|||||
+
 
 ## <a name="related-links"></a>Links relacionados
 [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](./migration-interop-guidance-for-teams-with-skype.md)

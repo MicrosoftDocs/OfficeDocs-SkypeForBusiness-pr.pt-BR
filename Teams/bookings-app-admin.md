@@ -1,5 +1,5 @@
 ---
-title: Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
+title: Gerenciar o aplicativo Bookings em Microsoft Teams
 author: dmaguire
 ms.author: serdars
 manager: serdars
@@ -18,56 +18,60 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Microsoft Teams e visitas virtuais com o aplicativo Bookings
-ms.openlocfilehash: cf6154099db5b6c6b52b9d82b4e58cd6c00c07b3
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+description: Saiba como gerenciar o aplicativo Bookings em Teams para usuários em sua organização.
+ms.openlocfilehash: 42e7c4741104f417f7e24a0e6441acb57cac203a
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935857"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973049"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
+# <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gerenciar o aplicativo Bookings em Microsoft Teams
 
-O aplicativo Bookings no Microsoft Teams oferece uma maneira simples de agendar compromissos presenciais e virtuais, como visitas médicas, consultas financeiras, entrevistas, atendimento ao cliente, horário comercial e muito mais.
+O aplicativo Bookings no Microsoft Teams oferece uma maneira simples de agendar compromissos presenciais e virtuais, como visitas médicas, consultas financeiras, entrevistas, atendimento ao cliente, horário comercial e muito mais. Para saber mais, confira [Visitas virtuais com Teams e o aplicativo Bookings.](expand-teams-across-your-org/bookings-virtual-visits.md)
 
-Os agendadores podem gerenciar vários calendários de departamentos e de funcionários, assim como comunicações com os participantes internos e externos em uma única experiência. Os próprios compromissos virtuais são realizados através do Microsoft Teams Meetings, que oferece recursos consistentes de videoconferência.
+Os agendadores podem gerenciar vários calendários de departamentos e de funcionários, assim como comunicações com os participantes internos e externos em uma única experiência. Os próprios compromissos virtuais são realizados Microsoft Teams reuniões, que oferecem recursos robustos de videoconferência.
 
 > [!NOTE]
-> Somente os agendadores precisam ter o aplicativo de Bookings instalado no Teams. Os funcionários que estão realizando ou participando de compromissos virtuais não precisam do aplicativo. Eles podem ingressar em compromissos pelo calendário do Outlook ou do Teams ou por um link no e-mail de confirmação da reserva.
+> Somente os agendadores precisam ter o aplicativo de Bookings instalado no Teams. A equipe que conduz ou participa de compromissos virtuais não precisa do aplicativo. Eles podem simplesmente ingressar em compromissos de seu calendário Outlook ou Teams ou do link de reunião Teams no email de confirmação de reserva.
 
 ## <a name="prerequisites-for-using-the-bookings-app-in-teams"></a>Pré-requisitos para usar o aplicativo Bookings no Teams
 
-- A caixa de correio do Exchange deve estar no Exchange Online. Não há suporte para as caixas de correio do Exchange Server locais.
+- A caixa de correio do Exchange deve estar no Exchange Online. Não há suporte Exchange Server caixas de correio locais.
 
 - O Microsoft Bookings deve ser ativado para a organização.
 
 - Os usuários devem ter uma licença apropriada*. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 e E5, Business Standard são suportados.
 
-- Todos os usuários do aplicativo Bookings e todos os funcionários que participam das reuniões devem ter uma licença que ofereça suporte ao agendamento de Reunião no Teams.
+- Todos os usuários do aplicativo Bookings e toda a equipe que participa das reuniões devem ter uma licença que suporte Teams agendamento de reuniões.
 
-- Seus sistemas devem atender a todos os [Pré-requisitos de software e de navegador](hardware-requirements-for-the-teams-app.md).
+- Seus sistemas devem atender a todos os [pré-requisitos de software e navegador ](hardware-requirements-for-the-teams-app.md).
 
 ## <a name="availability-of-bookings-in-teams"></a>Disponibilidade do Bookings no Teams
 
-O aplicativo Microsoft Bookings do Teams está disponível na área de trabalho e na Web. Ele pode ser encontrado em [Aplicativos no Microsoft Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) e em **Gerenciar aplicativos** no Centro de administração do Teams.
+O aplicativo do Microsoft Bookings para Teams está disponível na área de trabalho e na Web. Ele pode ser encontrado em [Aplicativos no Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) e em **Gerenciar Aplicativos** no Teams de administração.
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Controle o acesso ao Bookings na sua organização
 
-Há várias formas de controlar quem tem acesso ao aplicativo Bookings e aos recursos específicos do aplicativo. Para saber como ativar ou desativar o Microsoft Bookings no Centro de administração do Microsoft 365, assim como criar uma política do aplicativo Bookings para permitir que os usuários selecionados criem calendários do Bookings, consulte [Obter acesso ao Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Você também pode saber como [Criar uma política do aplicativo Teams para fixar o aplicativo Bookings aos usuários selecionados](teams-app-setup-policies.md).
+Há várias formas de controlar quem tem acesso ao aplicativo Bookings e aos recursos específicos do aplicativo.
 
-## <a name="recommended-meeting-policy-settings"></a>Configurações recomendadas da política de reunião
+Para saber como ativar ou desativar o Microsoft Bookings no Centro de administração do Microsoft 365 e como criar uma política de aplicativo do Bookings para permitir que os usuários selecionados criem calendários do Bookings, consulte Obter acesso ao [Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce).
 
-Para habilitar a melhor experiência de uso do Bookings, crie uma política de reunião de equipe para admitir automaticamente **Todos na sua organização**. Isso permitirá que os funcionários possam participar automaticamente do encontro e permitir a experiência de lobby dos participantes externos. Você pode saber mais sobre como [admitir automaticamente as pessoas nas reuniões](meeting-policies-participants-and-guests.md#automatically-admit-people).
+Você também pode criar uma política Teams configuração de [aplicativos para fixar o aplicativo Bookings para usuários selecionados.](teams-app-setup-policies.md)
 
-### <a name="optional-staff-approvals-setting"></a>Configuração opcional de aprovação de funcionários
+## <a name="recommended-meeting-policy-settings"></a>Configurações de política de reunião recomendadas
+
+Para habilitar a melhor experiência para o Bookings,  crie uma política de Teams de reunião para admitir automaticamente Todos em sua organização e atribuir a política à sua equipe. Isso permite que a equipe participe do compromisso automaticamente e habilita a experiência de lobby para participantes externos. Saiba mais sobre como admitir [automaticamente as pessoas em reuniões.](meeting-policies-participants-and-guests.md#automatically-admit-people)
+
+## <a name="optional-staff-approvals-setting"></a>Configuração opcional de aprovação de funcionários
 
 Como uma configuração de privacidade extra, você pode pedir que os funcionários optem por participar antes que suas informações de disponibilidade de horário sejam compartilhadas pelo Bookings e antes que eles possam agendar um compromisso.  
 
-Para habilitar essa configuração, acesse **Centro de administração do Microsoft 365** \> **Configurações** \> **Configurações** e selecione **Bookings**.
+Para habilitar essa configuração, vá **para Centro de administração do Microsoft 365** \> **Configurações** \> **Configurações** e selecione **Bookings**.
 
-Com essa configuração ativada, os funcionários receberão um e-mail solicitando que aprovem a adesão a um calendário de reservas.  
+Com essa configuração configurada, os funcionários receberão um email no qual serão solicitados a aprovar a associação a um calendário de reserva.  
 
-Esse recurso está sendo implementado gradualmente no mundo todo para os clientes do Microsoft 365 e Office 365. Se todas as opções ainda não estiverem disponíveis no seu ambiente, verifique novamente em breve.
+Esse recurso está sendo implementado gradualmente no mundo todo para os clientes do Microsoft 365 e Office 365. Se todas as opções ainda não estão disponíveis em seu ambiente, volte em breve.
 
 ## <a name="changing-your-default-domain-when-setting-up-bookings-mailboxes"></a>Alterar seu domínio padrão ao configurar as caixas de correio do Bookings
 
@@ -84,7 +88,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 Para obter mais informações, consulte a documentação do Windows PowerShell quanto ao cmdlet [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 > [!NOTE]
-> Se você estiver usando uma configuração híbrida do Exchange, recomendamos que você teste minuciosamente o fluxo de correio entre o Exchange no local e o Exchange Online ao mudar o domínio padrão.
+> Se você estiver usando uma configuração híbrida Exchange, recomendamos testar completamente o fluxo de emails entre o Exchange local e o Exchange Online ao alterar o domínio padrão.
 
 ## <a name="sending-feedback"></a>Enviar comentários
 
@@ -94,9 +98,9 @@ Apreciamos seus comentários em:
   - Lacunas de recursos ou funcionalidade ausente
   - Bugs ou problemas
   
-Para enviar comentários, clique no botão **Ajuda** perto da parte inferior da barra de navegação esquerda do Teams e clique em **Relatar um problema** para **TODOS** os problemas. Observe no início do seu relatório de comentários que você está enviando comentários sobre "Reservas" para que possamos identificar facilmente os problemas do Bookings.
+Para enviar comentários, selecione o botão **Ajuda** próximo à parte inferior da barra de navegação Teams esquerda e selecione **Relatar um** problema para **todos os** problemas. Indique no início do relatório de comentários que você está enviando comentários sobre "Bookings" para que possamos identificar facilmente problemas do Bookings.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Gerenciar a experiência de junção para Teams virtuais em navegadores móveis](expand-teams-across-your-org/mobile-browser-join.md)
 

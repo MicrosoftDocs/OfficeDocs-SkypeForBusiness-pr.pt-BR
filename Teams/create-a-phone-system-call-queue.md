@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: e7696878ba84942c2dcc88a1df3d5fc29144f883
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 308eb31592b6b98d613ccfb4ed41f421d51bd9e2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728730"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972999"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -137,7 +137,7 @@ Para adicionar um grupo à fila, clique em **Adicionar grupos**, procure o grupo
 O **Modo de conferência** reduz significativamente o tempo necessário para que um chamador seja conectado a um agente, depois que o agente aceita a chamada. Para que o modo de conferência funcione, os agentes na fila de chamada devem usar um dos seguintes clientes:
 
   - A versão mais recente do cliente de área de trabalho do Microsoft Teams, do aplicativo Android ou do aplicativo iOS
-  - Versão de telefone do Microsoft Teams 1449/1.0.94.2020051601 ou posterior
+  - Microsoft Teams Telefone versão 1449/1.0.94.2020051601 ou posterior
   
 As contas do Teams dos agentes precisam ser definidas para o modo apenas Teams. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas. É recomendável habilitar o modo de conferência para suas filas de chamadas se todos os agentes estiverem usando clientes compatíveis.
 
@@ -159,6 +159,9 @@ O **método de roteamento** determina a ordem na qual os agentes recebem chamada
 
 > [!TIP]
 > Definir **o Método de Roteamento** como Round **robin** ou **Longest idle** é a configuração recomendada.
+
+> [!NOTE]
+> Se [a gravação de](teams-recording-policy.md) conformidade estiver habilitada  nos agentes, não há suporte para a combinação do modo **de** conferência e do roteamento do Attendant. Se você precisar usar o modo **de** conferência, selecione **Roteamento Serial,** **Round robin** ou **Longest ocioso** como o **método Routing**. Se você precisar usar o **roteamento de atendentes,** de definir **o modo de conferência** como **Off**.
 
 ![Captura de tela das configurações de roteamento, de não aceitação e de tempo de alerta.](media/call-queue-presence-agents-time.png)
 
@@ -247,7 +250,7 @@ Você também pode usar o Windows PowerShell para criar e configurar filas de ch
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Veja o que você obtém com o Sistema de Telefonia](here-s-what-you-get-with-phone-system.md)
+[Veja o que você obter com Microsoft Teams Telefone](here-s-what-you-get-with-phone-system.md)
 
 [Obter números de telefone de serviço](getting-service-phone-numbers.md)
 

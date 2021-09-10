@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: 535d240054f3bdb670594635e8b89a2f9785d7e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73c354261d92044fea0a2efeb4e1613b3f3a63a9
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629313"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973019"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -76,35 +76,36 @@ Um usuário só pode ter uma política de mensagem atribuída por vez.
 Aqui estão as configurações de política de mensagens que você pode configurar.
 
 - **Os proprietários podem excluir as mensagens enviadas**  Use essa configuração para permitir que os proprietários excluam mensagens que os usuários enviaram por chat.
-- **Os usuários podem excluir as mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens que eles enviaram por chat.
-- **Os usuários podem editar as mensagens enviadas** Use essa configuração para permitir que os usuários editem mensagens que eles enviaram por chat.
+- **Excluir mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens enviadas no chat.
+- **Editar mensagens enviadas** Use essa configuração para permitir que os usuários editem as mensagens enviadas no chat.
 - **Ler recibos** Os recibos de leitura permitem que o remetente de uma mensagem de chat seja notificado quando sua mensagem foi lida pelo destinatário em 1:1 e chats de grupo com 20 pessoas ou menos. Os recibos de leitura de mensagens realizam a remoção sem ter a certeza se uma mensagem foi lida e melhoram a comunicação da equipe. Os recibos de leitura não são capturados no relatório de Descobertas E.  
     - **Controlado pelo usuário** Isso significa que os usuários decidem se desejam ATIVAR ou DESATIVAR os recibos de leitura. A configuração padrão dentro do aplicativo está ATIVA. Os usuários podem DESATIVÁ-LA.
-    - **Ativado para todos** Isso significa que todos os locatários terão o recurso ATIVADO, sem opção para desativá-lo. Ao usar  a configuração On para todos, a única maneira de definir recibos para todo o locatário é ter apenas uma política de mensagens para o locatário inteiro (a política padrão chamada "Global (Padrão em toda a organização)") ou ter todas as políticas de mensagens no locatário usar as mesmas configurações para recibos. O recurso de confirmações de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
-    - **Desativado para todos** Isso significa que o recurso está desabilitado e ninguém no locatário tem confirmações de leitura, nem pode habilitá-lo.
+    - **Ligado para todos** Isso significa que todos no locatário terão o recurso ON sem opção para a desativar. Ao usar  a configuração On para todos, a única maneira de definir recibos para todo o locatário é ter apenas uma política de mensagens para o locatário inteiro (a política padrão chamada "Global (Padrão em toda a organização)") ou ter todas as políticas de mensagens no locatário usar as mesmas configurações para recibos. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
+    - **Desligado para todos** Isso significa que o recurso está desabilitado e ninguém no locatário tem recibos de leitura nem pode aactivá-lo.
 <a name="bkchat"> </a>
 
 - **Chat**  Habilite essa configuração se quiser que os usuários da organização possam usar o aplicativo do Teams para conversar com outras pessoas.
-- **Usar Giphys em conversas**  Se você ativar Giphys, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo. Além de ativar essa configuração, você precisa habilitar Experiências Conectadas Opcionais [para](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) permitir Giphys em conversas.
+- **Usar Giphy em conversas**  Se você ativar Giphys, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo. Além de ativar essa configuração, você precisa habilitar Experiências Conectadas Opcionais [para](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) permitir Giphys em conversas.
 - **Classificação de conteúdo Giphy**
-    - **Sem restrições** Isso significa que os usuários poderão inserir qualquer Giphy em chats independentemente da classificação de conteúdo.
-    - **Moderado**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será moderadamente restringido.
-    - **Estrito**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será estritamente restringido.
-- **Usar Memes em conversas** Se você ativar Memes, os usuários poderão incluir Memes em conversas de chat com outras pessoas.
-- **Usar Figurinhas em conversas** Se você habilitar essa opção, os usuários poderão incluir Figurinhas em conversas de chat com outras pessoas.
+  - **Sem restrições** Isso significa que os usuários poderão inserir qualquer Giphy em chats independentemente da classificação de conteúdo.
+  - **Moderado**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será moderadamente restringido.
+  - **Estrito**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será estritamente restringido.
+- **Usar memes em conversas** Se você ativar Memes, os usuários poderão incluir Memes em conversas de chat com outras pessoas.
+- **Usar adesivos em conversas** Se você ativar isso, os usuários poderão incluir Adesivos em conversas de chat com outras pessoas.
 - **Permitir visualizações de URLs** Use essa configuração para ativar ou desativar a visualização automática de URLs nas mensagens.
-- **Permitir que os usuários traduzam mensagens** Ativar essa configuração para permitir que os usuários traduzam automaticamente Teams mensagens para o idioma especificado por suas configurações de idioma pessoal para Microsoft 365 ou Office 365.
+- **Traduzir mensagens** Ativar essa configuração para permitir que os usuários traduzam automaticamente Teams mensagens para o idioma especificado por suas configurações de idioma pessoal para Microsoft 365 ou Office 365.
 - **Permitir leitura avançada na exibição de mensagens** Ative essa configuração para permitir que os usuários exibam mensagens na Leitura Avançada da Microsoft. A Leitura Avançada é uma ferramenta de aprendizagem que fornece uma experiência de leitura em tela inteira para aumentar a legibilidade do texto.
 - **Enviar mensagens urgentes usando notificações de prioridade** Se você ativar isso, os usuários poderão enviar mensagens usando [notificações de prioridade](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). As notificações de prioridade notificam os usuários a cada 2 minutos por 20 minutos ou até que as mensagens marcadas como urgentes sejam escolhidas e lidas pelo destinatário.  Esse recurso aumenta a probabilidade de que a mensagem seja agida em tempo hábil.
-- **Criação de mensagens de áudio**
+- **Criar mensagens de voz**
   > [!Important]
   > As mensagens de áudio não são capturadas no relatório de Descobertas E.
-    - **Permitido em chats e canais** Isso significa que os usuários podem deixar mensagens de áudio nos chats e nos canais.
-    - **Permitido em apenas chats** Isso significa que os usuários podem deixar mensagens de áudio nos chats, mas nos canais.
-    - **Desabilitado** Isso significa que os usuários não podem criar mensagens de áudio em chats ou canais.  
+  - **Permitido em chats e canais** Isso significa que os usuários podem deixar mensagens de áudio nos chats e nos canais.
+  - **Permitido em apenas chats** Isso significa que os usuários podem deixar mensagens de áudio nos chats, mas nos canais.
+  - **Não habilitado** Isso significa que os usuários não podem criar mensagens de áudio em chats ou canais.  
 - **Em dispositivos móveis, exibir canais favoritos acima dos chats recentes** Habilite essa configuração para mover canais favoritos para a parte superior da tela de um dispositivo móvel de modo que o usuário não precise rolar para encontrá-los.
-- **Permitir que um usuário remova usuários de um chat em grupo** Habilite essa configuração para permitir que um usuário remova outros usuários de um chat em grupo. Esse recurso permite que você continue um chat com um grupo menor de pessoas sem perder o histórico do chat.
-- **Habilitar respostas sugeridas**  Ative essa configuração para habilitar respostas sugeridas para mensagens de chat.
+- **Remover usuários de chats em grupo** A opção Ativar essa configuração para permitir que um usuário remova outros usuários de um chat em grupo. Esse recurso permite que você continue um chat com um grupo menor de pessoas sem perder o histórico do chat.
+- **Previsões de texto** A opção Ativar essa configuração para permitir que um usuário receba previsões de texto para mensagens de chat.
+- **Respostas sugeridas**  Ative essa configuração para habilitar respostas sugeridas para mensagens de chat.
 - **Função de permissão de chat** Use essa configuração para definir a função de chat supervisionada do usuário.  Saiba mais sobre [conversas no](supervise-chats-edu.md).
 
 > [!NOTE]

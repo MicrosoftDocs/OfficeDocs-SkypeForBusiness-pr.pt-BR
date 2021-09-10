@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0e2c1cf68097aede8fefd6410791ac103fcea68
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 28aa07c3d9fa832e126bd6694b5d004c02c97d99
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725660"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972879"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -32,7 +32,8 @@ O log de auditoria pode ajudá-lo a investigar atividades específicas em Micros
 - Criação de equipes
 - Exclusão de equipes
 - Canal adicionado
-- Configuração alterada
+- Canal excluído
+- Configuração de canal alterada
 
 Para uma lista completa de Teams que são auditadas, consulte [Teams](#teams-activities) atividades e Turnos em atividades Teams [(em visualização)](#shifts-in-teams-activities).
 

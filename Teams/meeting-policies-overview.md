@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams e a usá-las para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627333"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973039"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Gerenciar políticas de reunião em Microsoft Teams
 
@@ -100,12 +100,12 @@ Ao selecionar uma política existente na página de **Políticas de reunião** o
 
 - [Geral](meeting-policies-in-teams-general.md)
 - [Áudio e vídeo](meeting-policies-audio-and-video.md)
+- [Gravar & transcrição](meetings-policies-recording-and-transcription.md)
 - [Compartilhamento de conteúdo](meeting-policies-content-sharing.md)
 - [Participantes e convidados](meeting-policies-participants-and-guests.md)
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
+- [Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)
 - [Remover a política de reunião do Teams RestrictedAnonymousAccess dos usuários](meeting-policies-restricted-anonymous-access.md)

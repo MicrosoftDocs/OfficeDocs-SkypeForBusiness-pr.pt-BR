@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião em Teams para áudio e vídeo.
-ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726560"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973029"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configurações de política de reunião para vídeo & áudio
 
@@ -33,40 +33,12 @@ ms.locfileid: "58726560"
 
 Este artigo descreve as configurações de política de reunião específicas para áudio e vídeo. Eles incluem o seguinte:
 
-- [Permitir transcrição](#allow-transcription)
-- [Permitir gravação em nuvem](#allow-cloud-recording)
 - [Modo de áudio IP](#mode-for-ip-audio)
 - [Modo de vídeo IP](#mode-for-ip-video)
 - [Permitir vídeo IP](#allow-ip-video)
 - [Taxa de bits de mídia (Kbs)](#media-bit-rate-kbs)
 - [Modo de filtros de vídeo](#video-filters-mode)
 - [Permitir configurações de plano de fundo personalizadas](#allow-custom-background-settings)
-
-### <a name="allow-transcription"></a>Permitir transcrição
-
-Esta é uma combinação de uma política por usuário e por organizador. Essa configuração controla se as legendas e os recursos de transcrição estão disponíveis durante a reprodução das gravações de reunião. Se você desativar essa opção, as opções **Pesquisar** e **CC** não estarão disponíveis durante a reprodução de uma gravação de reunião. A pessoa que iniciou a gravação precisa dessa configuração ativada para que a gravação também inclua a transcrição.
-
-Observe que, no momento, só há suporte para transcrição para reuniões gravadas para usuários que têm o idioma do Teams definido para o português e quando se fala português na reunião.
-
-### <a name="allow-cloud-recording"></a>Permitir gravação na nuvem
-
-Esta é uma combinação de uma política por usuário e por organizador. Essa configuração controla se as reuniões desse usuário podem ser gravadas. A gravação poderá ser iniciada pelo organizador da reunião ou por outro participante se a configuração de política estiver ativada para o participante e se for um usuário autenticado da mesma organização.
-
-Pessoas de fora da sua organização, como usuários federados e anônimos, não conseguem iniciar a gravação. Os usuários convidados não podem iniciar ou interromper a gravação.
-
-![Captura de tela mostrando opções de gravação.](media/meeting-policies-recording.png)
-
-Observe o exemplo a seguir.
-
-|Usuário |Políticas de reunião  |Permitir gravação na nuvem |
-|---------|---------|---------|
-|Daniela | Global   | Desabilitado |
-|Amanda | Location1MeetingPolicy | Habilitado|
-|João (usuário externo) | Não aplicável | Não aplicável|
-
-As reuniões organizadas por Daniela não podem ser gravadas e Amanda, que tem a configuração de política habilitada, não pode gravar reuniões organizadas por Daniela. As reuniões organizadas por Amanda podem ser registradas, no entanto, Daniela, que tem a configuração de política desabilitada e João que é um usuário externo, não podem gravar reuniões organizadas por Amanda.
-
-Para saber mais sobre a gravação de reunião na nuvem, confira [Gravação de reunião na nuvem do Teams](cloud-recording.md).
 
 ### <a name="mode-for-ip-audio"></a>Modo de áudio IP
 
@@ -116,7 +88,7 @@ As reuniões organizadas por um usuário que possui essa configuração de polí
 
 | Cliente Teams da Web e da área de trabalho |Cliente de dispositivo móvel do Teams  |
 |:-------:|:-------:|
-|![Captura de tela mostrando a junção de reunião com configurações de áudio/vídeo na área de trabalho.](media/meeting-policies-audio-video-settings.png)    |![Captura de tela mostrando a tela de ingresso à reunião com as configurações de áudio/vídeo no dispositivo móvel](media/meeting-policies-mobile-join.png)          |
+|![Captura de tela mostrando o ingresso à reunião com as configurações de áudio/vídeo na área de trabalho.](media/meeting-policies-audio-video-settings.png)    |![Captura de tela mostrando a tela de ingresso à reunião com as configurações de áudio/vídeo no dispositivo móvel](media/meeting-policies-mobile-join.png)          |
 
 Observe o exemplo a seguir.
 
@@ -228,4 +200,4 @@ Os participantes da reunião verão uma seleção de imagens em segundo plano qu
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
+- [Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)

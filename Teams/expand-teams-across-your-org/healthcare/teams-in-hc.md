@@ -26,12 +26,12 @@ description: Aprenda sobre recursos de saúde como a telessaúde do Microsoft Te
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0fa0976c4e69f205feda03a4047a6bbcb26b1183
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730670"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972899"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Começar com o Teams para organizações de saúde
 
@@ -70,7 +70,7 @@ Os cenários a seguir estão disponíveis para organizações de saúde:
 Use a plataforma completa de reuniões no Microsoft Teams para agendar, gerenciar e conduzir visitas virtuais com pacientes.
 
 - Se sua organização já utiliza os Registros Eletrônicos de Saúde, ou EHR, você pode integrar o Microsoft Teams para ter uma experiência mais uniforme. O Conector do Registro Eletrônico de Saúde (EHR) do Microsoft Teams facilita para os médicos a inicialização de uma visita virtual ou consulta com outro provedor no Teams diretamente do sistema EHR. Para saber mais, consulte [Visitas virtuais com o Teams - Integração com EHR](ehr-admin.md).
-- Se você não estiver usando um EHR com suporte, poderá usar o Microsoft Bookings e o aplicativo Bookings no Teams. Para saber mais, confira [Aplicativo Bookings e visitas virtuais no Microsoft Teams](../../bookings-app-admin.md).
+- Se você não estiver usando um EHR com suporte, poderá usar o Microsoft Bookings e o aplicativo Bookings no Teams. Para saber mais, confira [Visitas virtuais com Teams e o aplicativo Bookings.](../bookings-virtual-visits.md)
 
 ![Visitas virtuais com Microsoft Teams.](../../media/virtual-visits-teams.png)
 
