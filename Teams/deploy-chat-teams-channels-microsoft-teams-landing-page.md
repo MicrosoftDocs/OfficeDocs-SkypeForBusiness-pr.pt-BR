@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617447"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973009"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -93,7 +93,7 @@ A Política de mensagens controla quais recursos de chat e de mensagens de canal
 
 ### <a name="external-access"></a>Acesso externo
 
-O acesso externo (anteriormente conhecido como federação) permite que seus usuários do Teams e do Skype for Business se comuniquem com usuários que estão fora da sua organização. Ao ativá-lo e adicionar domínios à lista permitida, seus usuários podem se comunicar com usuários de outros domínios e organizações. O acesso externo difere do acesso de convidados porque um domínio completo recebe permissão de acesso, e não um indivíduo. O acesso externo é desativado por padrão.
+O acesso externo (anteriormente conhecido como federação) permite que seus usuários Teams e Skype for Business se comuniquem com usuários que estão fora de sua organização. Ao habilitar isso e adicionar domínios à lista permitida, seus usuários podem se comunicar com usuários em outros domínios e organizações. O acesso externo difere do acesso de convidado porque um domínio inteiro recebe permissão de acesso, não um indivíduo. O acesso externo está habilitado por padrão.
 
 |Pergunte a si mesmo|Ação |
 |------------|-------|
@@ -102,7 +102,7 @@ O acesso externo (anteriormente conhecido como federação) permite que seus usu
 
 ### <a name="guest-access"></a>Acesso de convidados
 
-O acesso de convidados no Teams permite que indivíduos fora da sua organização acessem equipes e canais. Você pode usar as configurações de acesso de convidados para controlar quais recursos os usuários convidados podem ou não usar. O acesso de convidados é desativado por padrão. Para saber mais, consulte [Acesso de convidados no Teams](./guest-access.md).
+No Teams, o acesso de convidado permite que pessoas que não pertencem à organização acessem canais e equipes. Você pode usar as configurações de acesso de convidado para controlar quais recursos os convidados podem ou não usar. O acesso de convidado está habilitado por padrão. Para saber mais, confira [Acesso de convidado do Teams](./guest-access.md).
 
 > [!NOTE]
 > Para obter mais informações sobre acesso externo e acesso de convidado, confira aqui: [Comunicar-se com usuários de outras organizações no Microsoft Teams](communicate-with-users-from-other-organizations.md)
@@ -226,7 +226,7 @@ O Teams confia muito no Exchange Online, SharePoint Online e Skype for Business 
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-|<br>Será necessário configurar acesso condicional para o Teams?|<ul><li>Para entender como as políticas de acesso funcionam, confira [Como funcionam as políticas de acesso condicional no Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Para configurar a MFA (Autenticação Multifator) para o Teams, confira:<ul><li>[Início rápido: exige o MFA para aplicativos específicos com acesso condicional do Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Referência de configurações de acesso condicional do Azure Active Directory](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Será necessário configurar acesso condicional para o Teams?|<ul><li>Para entender como as políticas de acesso funcionam, confira [Como funcionam as políticas de acesso condicional no Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Para configurar a autenticação multifator (MFA) para o Teams, consultar:<ul><li>[Início rápido: exige o MFA para aplicativos específicos com acesso condicional do Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Referência de configurações de acesso condicional do Azure Active Directory](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
