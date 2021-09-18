@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d3476b5ae1049e207f07d064ca1548e53fd3635
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609008"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432653"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -49,13 +49,14 @@ Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamen
 
 |                                                       Fornecedor                                                        |       Produto       | Sem bypass de mídia | Bypass de mídia | Versão de software | 911 Compatível com o Provedor de Serviços* | Compatível com ELIN |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Suporte para 7.20A.250 (recomendado 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Suporte para 7.20A.250 (recomendado 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Suporte para 7.20A.250 (recomendado 7.20A.258)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Suporte para 7.20A.250 (recomendado 7.20A.258)   |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pendente     |  Suporte para 7.20A.250 (recomendado 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  Suporte para 7.20A.250 (recomendado 7.20A.258)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Suporte para 7.20A.250 (recomendado 7.20A.258) |  &#10004;    |  &#10004;  |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.40A.100 com suporte (Recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.40A.100 com suporte (Recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.40A.100 com suporte (Recomendado 7.40A.100)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.40A.100 com suporte (Recomendado 7.40A.100)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  Suporte para 7.20A.250 (recomendado 7.20A.258)  |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.40A.100 com suporte (Recomendado 7.40A.100)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.40A.100 com suporte (Recomendado 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  7.40A.100 com suporte (Recomendado 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [Comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Suporte para 8.2 e 7.2 (Recomendado 9.2)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Suporte para 8.2 e 7.2 (Recomendado 9.2)       |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Suporte para 8.2 e 7.2 (Recomendado 9.2)       |   &#10004;  | |
@@ -102,6 +103,8 @@ Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamen
 - [Roteamento de Local Dinâmico de Largura de Banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [ERS (Serviço de Roteamento de Emergência Intrado)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Gateway de Emergência Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [Inteliquent](https://www.inteliquent.com/services/emergency-services/e911)
+
 <br/>
 
 ## <a name="support-for-local-media-optimization"></a>Suporte para Otimização de Mídia Local

@@ -19,12 +19,12 @@ description: Orientação prática para a implantação de recursos de voz em nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1e8bc4836cab206389fcc011e4d7a41d2b54f74
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973059"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432433"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -309,13 +309,13 @@ Sim, a data de validade é definida por arquivo. Os usuários podem modificar a 
 
 **Como um administrador pode alterar a data de expiração?**
   
-Os administradores poderão alterar a configuração de expiração padrão no PowerShell ou no Centro de Administração do Teams antes do lançamento do recurso. A configuração ainda não está disponível para modificação. Publicaremos uma postagem atualizada do centro de mensagens quando a configuração estiver disponível para modificação. Quando o recurso é iniciado, os administradores podem alterar essa configuração no centro de administração do Teams. Alterar as configurações de expiração afetará apenas TMRs recém-criados desse ponto em diante. Isso não afetará as gravações feitas antes dessa data.
+Os administradores poderão alterar a configuração de expiração padrão no PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) ou no Teams Admin Center antes do lançamento do recurso. **A configuração ainda não está disponível para modificação**. Publicaremos uma postagem atualizada do centro de mensagens quando a configuração estiver disponível para modificação. Quando o recurso é iniciado, os administradores podem alterar essa configuração no centro de administração do Teams. Alterar as configurações de expiração afetará apenas TMRs recém-criados desse ponto em diante. Isso não afetará as gravações feitas antes dessa data. 
 
 Os valores dos dias de expiração podem ser definidos da seguinte forma:
   
-- O valor pode ser de 1 a 99.999 dias (273 anos no máximo).
-- O valor também pode ser -1 para definir TMR para nunca expirar.
-
+- O valor pode ser de 1 a 9.999.
+- O valor também pode ser -1 para definir TMR para nunca expirar. 
+ 
 Os administradores não podem alterar a data de expiração de TMRs existentes já carregados no OneDrive ou no Microsoft Office SharePoint Online antes do lançamento desse recurso. Isso protege a intenção do usuário que possui a TMR.
   
 **Um administrador pode definir TMRs para nunca expirar?**
@@ -333,6 +333,11 @@ A data de expiração será removida após o recarregamento, independentemente d
 **O que acontece se eu copiar ou mover o TMR para um local ou site diferente?**
 
 A data é mantida apenas para um arquivo TMR movido. Um arquivo copiado não terá a data de validade, assim como um TMR carregado novamente.
+  
+
+**Qual o escopo de controle para a política de administração?**
+  
+As reuniões e chamadas serão controladas pela mesma `CsTeamsMeetingPolicy`configuração, `MeetingRecordingExpirationDays`. 
   
 **Como os usuários finais podem modificar a data de expiração em um arquivo TMR específico?**
   
@@ -369,7 +374,7 @@ O proprietário do arquivo receberá uma notificação por email quando a TMR ex
   
 **Quais SKUs são necessários para esse recurso?**
   
-Todas as SKUs terão esse recurso por padrão. Usuários A1 terão o padrão de um período de expiração de 30 dias e não poderão modificar a data de validade
+Todas as SKUs terão esse recurso por padrão. Usuários A1 terão o padrão de um período de expiração de 30 dias.
   
 **O arquivo expirar é um evento auditado e eu posso vê-lo em meus logs de auditoria?**
   

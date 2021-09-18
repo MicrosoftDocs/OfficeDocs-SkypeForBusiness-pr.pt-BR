@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: cc920db842d37129a122ed69a8816e66a4c16d9e
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866403"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432443"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -133,6 +133,7 @@ Atualmente, os dados são coletados das seguintes áreas nas equipes de classe:
 | **Arquivos** |   Carregar, baixar, acessar, modificar, comentar e compartilhar um arquivo (não incluindo o conteúdo do arquivo).|
 | **Caderno do OneNote** |  Edição de uma página ou seção em um bloco de notas (não incluindo o conteúdo da página).|
 | **Reuniões** |    Participação (não incluindo o conteúdo da reunião).|
+| **[Progresso da Leitura](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    Taxa de precisão, palavras mais desafiadoras e palavras por minuto.  |
 | **[Refletir](reflect.md)** |   Check-ins (incluindo valores).|
 
 > [!NOTE]
