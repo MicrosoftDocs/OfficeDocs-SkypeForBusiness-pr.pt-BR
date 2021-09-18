@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações para Skype for Business Server 2015/2019 e Lync 2013 em um só lugar. Use os links nesta página para saber mais e baixar as atualizações.
-ms.openlocfilehash: fcdd7212cf7a3f612434594d028b2e7be104af36
-ms.sourcegitcommit: 5a4108219dd1b77468b3ef4aff0500cd19473fa5
+ms.openlocfilehash: 4f9b8e4de19778d2ded55f14e0de894528590d50
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "58852039"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432303"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -95,6 +95,7 @@ O KB 4470124 é o KB mestre do Skype for Business Server 2019, que tem toda a li
 
 |Número do pacote|Número de KB|Data do lançamento|
 |:--- |:--- |:--- |
+|Hotfix cumulativo 10 do Lync Server 2013 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Setembro de 2021|
 |Hotfix cumulativo 10 do Lync Server 2013 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Julho de 2020|
 |Hotfix cumulativo 10 do Lync Server 2013 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Setembro de 2019|
 |Hotfix cumulativo 10 do Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Junho de 2019|
@@ -275,4 +276,4 @@ As atualizações de software incluem qualquer atualização, pacote cumulativo 
 - [Instalar Skype for Business Server 2015](./deploy/install/install.md)
 - [Atualizar para Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Atualizações mais recentes para versões Skype for Business que usam Windows Installer (MSI)](sfb-client-updates.md)
-- 
+

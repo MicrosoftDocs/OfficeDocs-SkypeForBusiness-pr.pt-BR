@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba se Audioconferência, Sistema de Telefonia, Planos de Chamadas, Créditos de Comunicação e números de telefone gratuitos e de chamada gratuita estão disponíveis em um país ou região.
-ms.openlocfilehash: 2cf9eaf4dab9fa52fc077e964874182d85bf73d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b34ae51dae05d59b320f4d3285efe57131db58d6
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578375"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432293"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 
@@ -195,9 +195,9 @@ Discar de uma reunião para outro país/região do mundo que não está listado 
 
 Com Sistema de Telefonia, você cria atendedores automáticos e filas de chamadas (com um número de chamada gratuita ou de chamada gratuita) para atender chamadas de entrada para sua organização. Quando você adiciona um Plano de Chamadas para usuários, eles podem usar o Skype for Business para cuidar de tarefas básicas de controle de chamadas, como fazer e receber chamadas, transferir chamadas e muting e desatar chamadas. **Sistema de Telefonia** os usuários clicam em um nome no seu livro de endereços e Skype for Business fazer uma chamada para essa pessoa. Para fazer e receber **chamadas,** Sistema de Telefonia usuários usam seus dispositivos móveis, um fone de ouvido com um laptop ou computador ou um dos muitos telefones IP que funcionam com Skype for Business.
 
-> A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário. Além de obter números de telefone para usuários individuais, também é possível pesquisar e adquirir números de telefone gratuitos ou de chamada gratuita para serviços como Audioconferência (para pontes de conferência), atendimentos automáticos e filas de chamadas. Eles são chamados de números de serviço. Confira [Obter números de telefone do serviço](../getting-service-phone-numbers.md) para obter números de telefone. No entanto, para os usuários, depois de atribuir um Plano de Chamada a eles, você pode atribuir um número de telefone para que eles possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, acesse [Obter números de telefone para seus usuários](../getting-phone-numbers-for-your-users.md). Você também pode conferir[Atribuir, alterar ou remover o número de telefone de um usuário](../assign-change-or-remove-a-phone-number-for-a-user.md).
+A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário. Além de obter números de telefone para usuários individuais, também é possível pesquisar e adquirir números de telefone gratuitos ou de chamada gratuita para serviços como Audioconferência (para pontes de conferência), atendimentos automáticos e filas de chamadas. Eles são chamados de números de serviço. Confira [Obter números de telefone do serviço](../getting-service-phone-numbers.md) para obter números de telefone. No entanto, para os usuários, depois de atribuir um Plano de Chamada a eles, você pode atribuir um número de telefone para que eles possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, acesse [Obter números de telefone para seus usuários](../getting-phone-numbers-for-your-users.md). Você também pode conferir[Atribuir, alterar ou remover o número de telefone de um usuário](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
-[Preços do sistema telefônico](https://products.office.com/skype-for-business/phone-system#Requirements)
+[Preços do sistema telefônico](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 
 > [!NOTE]
 > A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário.

@@ -20,12 +20,12 @@ description: Configurar para eventos ao vivo no Teams, incluindo configurar sua 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 261bea1f2abbe4194d0906078977bf870581d31c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f33490fdccbb67a000278d1e9085b0305204c8f5
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726710"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432323"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -85,7 +85,7 @@ Para que os usuários agendem eventos produzidos com um aplicativo ou dispositiv
    >[!Note]
    > A mudança do Microsoft Stream para o [OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião](../tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento você poderá optar por aceitar essa experiência, em novembro você terá que recusar se quiser continuar usando o Stream e, no início de 2021, exigiremos que todos os clientes usem o OneDrive for Business e o Microsoft Office SharePoint Online para novas gravações de reunião. Saiba mais sobre como você pode [**atribuir licenças aos usuários**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Stream. Verifique se Stream não está bloqueado para os usuários, conforme definido [**neste artigo**](/stream/disable-user-organization).
 
-2. Garanta que os usuários tenham permissão para a criação de evento ao vivo no Stream. Por padrão, os administradores podem criar eventos com um aplicativo ou dispositivo externo. O administrador do Stream pode [habilitar usuários adicionais para a criação de eventos ao vivo](/stream/live-event-administration#enabling-and-restricting-users-to-creating) no Stream.
+2. Garanta que os usuários tenham permissão para a criação de evento ao vivo no Stream. Por padrão, os administradores podem criar eventos com um aplicativo ou dispositivo externo. O administrador do Stream pode [habilitar usuários adicionais para a criação de eventos ao vivo](/stream/live-event-administration#restrict-who-can-create-events) no Stream.
 
 3. Garanta que os organizadores de eventos ao vivo sejam configurados pela política da empresa definida pelo administrador do Stream. Se um administrador do Stream tiver [configurado uma política de diretrizes da empresa](/stream/company-policy-and-consent) e exigir que os funcionários aceitem essa política antes de salvar o conteúdo, eles devem fazê-lo antes de criar um evento ao vivo (com um aplicativo ou dispositivo externo) no Teams. Antes de distribuir o recurso de eventos ao vivo na organização, certifique-se de que os usuários que criarão esses eventos ao vivo tenham consentido com a política.
 

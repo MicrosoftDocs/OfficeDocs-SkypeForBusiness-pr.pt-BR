@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Saiba mais sobre a opção de pagamento por minuto para habilitar recursos de Audioconferência para organizações que usam o Licenciamento por Volume da Microsoft.
-ms.openlocfilehash: ef741bfba6667711c03bd90d2018d7da2093eac8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcad09e00c106b38ad5f5a42add2e01b011c04ed
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593155"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432673"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferência Pagar por Minuto
 
@@ -52,10 +52,10 @@ Enquanto a oferta de licença de Audioconferência por usuário inclui o uso de 
 - Chamadas de saída feitas para números de telefone externos de dentro de uma reunião da sua organização.
     
 > [!NOTE]
-> Você pode encontrar as taxas de discagem e discagem associadas  a esses tipos de chamadas, revendo a seção Ver taxas para onde você deseja chamar em [Audioconferência](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
+> Você pode encontrar as taxas de discagem e discagem associadas a esses tipos de chamadas, revendo a seção Taxas de **Audioconferência** em [Audioconferência](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
   
-O pagamento por minuto exige que sua organização tenha [créditos de comunicação](what-are-communications-credits.md) definidos. Se quiser mais detalhes, consulte [Set up Communications Credits for](set-up-communications-credits-for-your-organization.md) your organization and/or Microsoft Teams [add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+O pagamento por minuto exige que sua organização tenha [créditos de comunicação](what-are-communications-credits.md) definidos. Se quiser mais detalhes, consulte [Set up Communications Credits for](set-up-communications-credits-for-your-organization.md) your organization and/or Microsoft Teams [add-on licensing](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
   
 Para habilitar o pagamento por minuto de Audioconferência para usuários em sua organização, consulte [Try or purchase AudioConncing in Microsoft Office 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).

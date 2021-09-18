@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Saiba como usar o aplicativo Bookings em Teams agendar, gerenciar e conduzir visitas virtuais.
-ms.openlocfilehash: 9c925e07bebe20e1f103a4f3acf3dc60f8409bcf
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: a37a024e31c75bbedbdb36d9aa0d6acfd2af614c
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973188"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432453"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
 
@@ -43,8 +43,8 @@ Com o Bookings, você tem uma experiência adaptada ao seu setor. Aqui estão al
 |Setor | Exemplos |
 |---------|---------|
 |Serviços financeiros    |  Visitas virtuais para vendas remotas e serviço<br/>Agende e gerencie compromissos virtuais para gerentes de relações bancárias, consultores financeiros e ajustadores de declarações, apenas para nomear alguns, para atender seus clientes com maior eficiência e conveniência.  |
-|Assistência médica   |  Visitas virtuais para atendimento ao paciente <br/>Agende e gerencie visitas virtuais para que os membros da equipe de assistência médica se reunirem com os pacientes ou outros provedores de saúde para discutir os cuidados médicos.   |         |
-|Varejo   | Experiências de compras virtuais <br/>Agende e gerencie compromissos para seus associados de vendas, especialistas em produtos e consultores de design para conduzir experiências de compras virtuais com os clientes.   |         |
+|Assistência médica   |  Visitas virtuais para atendimento ao paciente <br/>Agende e gerencie visitas virtuais para que os membros da equipe de assistência médica se reunirem com os pacientes ou outros provedores de saúde para discutir os cuidados médicos.   |
+|Varejo   | Experiências de compras virtuais <br/>Agende e gerencie compromissos para seus associados de vendas, especialistas em produtos e consultores de design para conduzir experiências de compras virtuais com os clientes.   |
 
 Este artigo fornece uma visão geral de como usar o aplicativo Bookings Teams agendar, gerenciar e conduzir visitas virtuais.
 

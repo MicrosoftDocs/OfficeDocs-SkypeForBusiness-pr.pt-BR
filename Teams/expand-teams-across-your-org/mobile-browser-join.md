@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Saiba mais sobre a experiência de junção para Teams virtuais em navegadores móveis.
-ms.openlocfilehash: 4017947d53078b33ce2a4195a6ace9af92adc85c
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58936138"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432683"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gerenciar a experiência de junção para Teams virtuais em navegadores móveis
 
@@ -82,7 +82,7 @@ Aqui estão os navegadores móveis com suporte no momento. Suportamos a versão 
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visitas virtuais com Teams e o aplicativo Bookings](../bookings-app-admin.md)
+- [Visitas virtuais com Teams e o aplicativo Bookings](bookings-virtual-visits.md)
 - [Criar um tipo de compromisso do Bookings](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Ingressar em um compromisso do Bookings como participante](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [Visitas virtuais com o Teams - Integração com EHR](healthcare/ehr-admin.md)

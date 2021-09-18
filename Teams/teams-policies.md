@@ -1,7 +1,7 @@
 ---
-title: Gerenciar políticas de equipes em Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Gerenciar políticas de canal em Microsoft Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -23,15 +23,15 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: Saiba como usar e gerenciar políticas de equipes em sua organização para controlar o que os usuários podem fazer em equipes e canais.
-ms.openlocfilehash: 92b49a31a4ae8cdedb9243293547c42699fed919
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Saiba como usar e gerenciar políticas de canal de equipes em sua organização para controlar o que os usuários podem fazer em equipes e canais.
+ms.openlocfilehash: 727bb8b133d5119cd396c79561dde453281206f0
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725490"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432263"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas de equipes em Microsoft Teams
+# <a name="manage-channel-policies-in-microsoft-teams"></a>Gerenciar políticas de canal em Microsoft Teams
 
 Como administrador, você pode usar as políticas do teams Microsoft Teams controlar o que os usuários em sua organização podem fazer em equipes e canais. Por exemplo, você pode definir se os usuários têm permissão para criar canais privados.
 

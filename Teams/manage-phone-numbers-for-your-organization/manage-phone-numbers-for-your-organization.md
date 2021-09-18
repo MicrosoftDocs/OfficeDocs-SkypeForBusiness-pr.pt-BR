@@ -1,5 +1,5 @@
 ---
-title: Gerenciar os números de telefone de sua organização
+title: Gerenciar números de telefone para Plano de Chamadas
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,16 +27,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como obter e gerenciar números de telefone de usuário (assinante) e serviço (chamada gratuita) para Microsoft Teams sua organização.
-ms.openlocfilehash: 03c8fd0c265918a2ef664f668e2900d85ac50cf8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630183"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432523"
 ---
-# <a name="manage-phone-numbers-for-your-organization"></a>Gerenciar os números de telefone de sua organização
+# <a name="manage-phone-numbers-for-calling-plan"></a>Gerenciar números de telefone para Plano de Chamadas
 
-Há quatro maneiras de obter números de telefone de usuário (assinante) e de serviço (chamada gratuita) para sua organização:
+Há quatro maneiras de obter números de telefone de usuário (assinante) e de serviço (chamada gratuita) para o Plano de Chamadas:
 
 - [Obter novos números de telefone de usuário no Microsoft Teams de administração](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users).
 - [Obter novos números de telefone de serviço no Microsoft Teams Admin Center](../getting-service-phone-numbers.md#get-new-service-numbers).
@@ -82,7 +82,9 @@ Se você sabe que tipo de formulários você está procurando, use o drop-down p
 
 ***
 
-## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Aqui está um pouco mais informações sobre esses formulários de solicitação de números.
+## <a name="number-request-forms"></a>Formulários de solicitação de número
+
+As seções a seguir descrevem formulários de solicitação para novos números e para transferir números existentes.
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Formulários de solicitação para novos números de telefone
 
@@ -92,9 +94,9 @@ Cada país ou região tem instruções diferentes, diferentes tipos de números 
 
 Nesse caso, você precisará baixar o formulário CORRETO DA LOA em PDF (por país ou região e tipo de números de telefone) e enviá-lo de volta para nós. Nosso service desk o levará de lá e começará a processar sua solicitação.
 
-### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>Cartas de Autorização (LOAs) para transferir/portar números de telefone existentes de outro provedor de serviços para Microsoft Teams
+### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>Cartas de Autorização (LOAs) para transferir/portar números de telefone existentes 
 
-Se precisar transferir/portar seus números de telefone existentes, será necessário baixar, preencher e enviar uma Carta de Autorização (LOA), que nos dá permissão para solicitar e transferir, em seu nome, esses números existentes de um provedor de serviços diferente para Microsoft Teams.
+Se você precisar transferir/portar seus números de telefone existentes de outro provedor de serviços para Teams, será necessário baixar, preencher e enviar uma Carta de Autorização (LOA). A LOA dá permissão à Microsoft para solicitar e transferir, em seu nome, esses números existentes de um provedor de serviços diferente para Teams.
 
 Envie-nos uma **LOA** se você tiver o seguinte com outra operadora:
 
@@ -107,7 +109,7 @@ Depois de ter **sua** LOA preenchida e assinada, entre em contato com nosso Serv
 
 ## <a name="still-need-assistance"></a>Ainda precisa de assistência?
 
-[Entre em contato com nosso Service Desk PSTN](./contact-pstn-service-desk.md) e vamos ajudá-lo assim que possível.
+Se precisar de assistência, entre [em contato com o Service Desk PSTN.](./contact-pstn-service-desk.md)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

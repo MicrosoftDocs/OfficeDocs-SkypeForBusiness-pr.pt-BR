@@ -1,7 +1,7 @@
 ---
 title: Gerenciar seus aplicativos no Microsoft Teams de administração
-author: cichur
-ms.author: v-cichur
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,20 +13,31 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: Saiba como gerenciar seus aplicativos Teams na página Gerenciar aplicativos do Microsoft Teams de administração
+description: Saiba como gerenciar seus aplicativos Teams na página Gerenciar aplicativos do Microsoft Teams de administração.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 2541f23342613b585622577b3c5ebe2d3a8c97c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 76b647e5c01d45eac3e634ccbc7e929eccd3dfba
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728640"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432663"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no Microsoft Teams de administração
 
-Como administrador, a página Gerenciar aplicativos no centro de administração Microsoft Teams é onde você visualiza e gerencia todos os Teams aplicativos para sua organização. Aqui, você pode ver o status e as propriedades de aplicativos no nível da organização, aprovar ou carregar novos aplicativos personalizados na loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização, adicionar aplicativos às equipes, comprar serviços para aplicativos de terceiros, exibir permissões solicitadas por aplicativos, conceder consentimento de administrador a aplicativos e gerenciar configurações de aplicativos em toda a organização.
+Como administrador, você pode exibir e gerenciar todos os aplicativos Teams para sua organização. Na página Gerenciar aplicativos no centro de administração Teams você pode:
+
+- [Permitir ou bloquear aplicativos no nível da organização](#allow-and-block-apps)
+- [Aplicativos bloqueados por editores](#apps-blocked-by-publishers)
+- [Adicionar aplicativos às equipes](#add-an-app-to-a-team)
+- [Aprovar ou carregar novos aplicativos personalizados na loja de aplicativos da sua organização](#publish-a-custom-app-to-your-organizations-app-store)
+- [Permissões de exibição solicitadas por aplicativos](#view-resource-specific-consent-permissions)
+- [Conceder consentimento a aplicativos](#grant-admin-consent-to-apps)
+- [Serviço de compra para aplicativos de terceiros](#purchase-services-for-third-party-apps)
+- [Consulte o status e as propriedades de aplicativos no nível da organização](#view-apps)
+- [Gerenciar configurações de aplicativos em toda a organização](#manage-org-wide-app-settings)
+- [Exibir informações de segurança e conformidade para Microsoft 365 aplicativos certificados](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
 
 A página Gerenciar aplicativos oferece uma exibição em todos os aplicativos disponíveis, fornecendo as informações necessárias para decidir quais aplicativos permitir ou bloquear em toda a sua organização. Em seguida, [você](teams-app-permission-policies.md)pode usar políticas de permissão de [aplicativo,](teams-app-setup-policies.md)políticas de configuração de aplicativo e políticas e configurações personalizadas do aplicativo para configurar a experiência do aplicativo para usuários [específicos](teams-custom-app-policies-and-settings.md) em sua organização.
 
@@ -49,12 +60,13 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
 - **Publisher:** nome do editor.
 - **Status de publicação**: Status de publicação de aplicativos personalizados.
 - **Status**: Status do aplicativo no nível da organização, que pode ser um dos seguintes:
-- **Permitido**: o aplicativo está disponível para todos os usuários em sua organização.
-- **Bloqueado**: o aplicativo está bloqueado e não está disponível para nenhum usuário em sua organização.
-- **Toda a organização bloqueada:** o aplicativo é bloqueado em configurações de aplicativo em toda a organização.
+    - **Permitido**: o aplicativo está disponível para todos os usuários em sua organização.
+    - **Bloqueado**: o aplicativo está bloqueado e não está disponível para nenhum usuário em sua organização.
+    - **Bloqueado pelo editor**: o aplicativo é bloqueado pelo editor e está oculto dos usuários finais por padrão. Depois de configurar o aplicativo usando as diretrizes do editor, você pode permitir ou bloquear o aplicativo para torná-lo disponível para os usuários finais.
+    - **Toda a organização bloqueada:** o aplicativo é bloqueado em configurações de aplicativo em toda a organização.
       É importante saber que essa coluna representa o status permitido e bloqueado dos **aplicativos** que anteriormente estavam no painel de configurações em toda a organização. Agora, você visualiza, bloqueia e permite aplicativos em toda a organização na página **Gerenciar aplicativos.**
 - **Licenças**: Indica se um aplicativo oferece uma assinatura software como serviço (SaaS) para compra. Esta coluna se aplica somente a aplicativos de terceiros. Cada aplicativo de terceiros terá um dos seguintes valores:
-- **Compre agora**: o aplicativo oferece uma assinatura SaaS e está disponível para compra.  
+- **Compra**: o aplicativo oferece uma assinatura SaaS e está disponível para compra.  
 - **Comprado**: o aplicativo oferece uma assinatura SaaS e você comprou licenças para ele.
 - **- -**: o aplicativo não oferece uma assinatura SaaS.
 - **Aplicativo personalizado**: se o aplicativo é um aplicativo personalizado.
@@ -63,7 +75,7 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
 - **- -**: O aplicativo não tem permissões que precisam de consentimento.
 - **Categorias**: categorias que se aplicam ao aplicativo.
 - **Versão**: Versão do aplicativo.
-- **O administrador pode instalar em reuniões**: Indica se um aplicativo pode ser instalado pelos administradores em reuniões de equipe. [Saiba Mais](teams-app-setup-policies.md#install-apps)
+- **O administrador pode instalar em reuniões**: Indica se um aplicativo pode ser instalado pelos administradores em reuniões de equipe. [Saber mais](teams-app-setup-policies.md#install-apps)
 
 Para ver as informações que você deseja na tabela, selecione **Editar Coluna** no canto superior direito para adicionar ou remover colunas à tabela.
 
@@ -102,6 +114,14 @@ Quando você bloqueia ou permite um aplicativo na página Gerenciar aplicativos,
 
  > [!NOTE]
  > Para desinstalar um aplicativo, clique  com o botão direito do mouse no aplicativo e clique em Desinstalar ou usar o menu **Mais aplicativos** no lado esquerdo.
+
+## <a name="apps-blocked-by-publishers"></a>Aplicativos bloqueados por editores
+
+Quando um ISV publica um aplicativo no armazenamento global de aplicativos, eles podem precisar de administradores para configurar ou personalizar a experiência do aplicativo. O administrador pode torná-lo disponível para os usuários finais quando o aplicativo estiver totalmente definido.
+
+Por exemplo, Contoso Electronics é um ISV que criou um aplicativo de help desk para Microsoft Teams. A Contoso Electronics deseja que seus clientes configurarem determinadas propriedades do aplicativo para que, quando os usuários interajam com ele, o aplicativo funcione conforme esperado. Antes que um administrador possa permitir ou bloquear o aplicativo, ele mostrará como **Bloqueado** pelo editor no centro de administração do Teams e ficará oculto dos usuários finais por padrão. Depois de seguir as diretrizes do editor para configurar o aplicativo, você pode disponibiliza-lo para os usuários alterando para status para **Permitido** ou impedindo que os usuários usem o aplicativo alterando o status para **Bloqueado**.
+
+![Captura de tela de bloqueado pelo status do editor no Centro de administração do Teams.](media/blocked-by-publisher.png)
 
 ## <a name="add-an-app-to-a-team"></a>Adicionar um aplicativo a uma equipe
 
