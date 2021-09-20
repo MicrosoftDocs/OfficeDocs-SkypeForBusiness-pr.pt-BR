@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre logs de depuração, mídia e área de trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a39078371ffa30caab6ee43df90bc825c4c081a3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235316"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456521"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar Microsoft Teams
 
@@ -46,16 +46,28 @@ Windows: clique com o botão direito do mouse no ícone Teams na bandeja do sist
 
 Mac: selecione o menu Ajuda e escolha **Coletar arquivos de suporte**.
 
+
 Os logs de depuração, área de trabalho e mídia serão coletados em uma pasta com o nome MSTeams Diagnostics Log <local data and time> . Essa pasta pode ser compactada e compartilhada quando você abre uma solicitação de suporte com o Suporte da Microsoft. A pasta conterá pastas para Área de Trabalho, Reunião (Mídia) e Depuração (Web). Você pode coletar os arquivos usando os seguintes atalhos de teclado:
 
 Windows: Ctrl + Alt + Shift + 1
 
 Mac: Opção + Comando + Turno + 1
 
+
 O registro de mídia está desabilitado por padrão. Para habilitar o log de mídia, os usuários devem ativar a opção no Teams cliente. Vá para **Configurações** Geral e selecione Habilitar log para diagnóstico de reunião (requer a  >   **reinicialização Teams)**. O Teams cliente deve ser reiniciado para iniciar o registro em log.
+
+Se ocorrer um problema com uma reunião ou evento ao vivo específico, é útil ter a URL associada à reunião. Isso fornece informações adicionais para ajudar a identificar a reunião exata ou o evento ao vivo nos logs. Essas informações podem ser coletadas de qualquer participante para uma reunião ou de apresentador ou produtor para um evento ao vivo. Essa URL pode ser capturada pairando sobre a URL de junção e escolhendo **Copiar Hiperlink**.
 
 > [!NOTE]
 > Se o log de mídia estiver habilitado, haverá arquivos adicionais incluídos na pasta Reunião que são necessários para investigar problemas de áudio e vídeo. Se o log de mídia não estiver habilitado, haverá um número limitado de logs disponíveis.
+  
+> [!NOTE]
+> Os logs de depuração estavam coletando anteriormente usando os atalhos de teclado abaixo. Eles ainda funcionam e concluirão a mesma captura de log que a **opção Coletar arquivos de** suporte.
+
+> Windows: Crtl + Alt + Shift + 1
+
+> Mac: Opção + Comando + Turno + 1
+
 
 A tabela a seguir descreve os vários clientes e seus logs associados. Os arquivos de registro são armazenados os locais específicos do cliente e do sistema operacional.
 

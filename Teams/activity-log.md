@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58df214ec15153abcee4275f42c6ae6208b5d4b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5735d69d45785e63cefbbea646a1780dc3aa4ecf
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731240"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456491"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Exibir suas atribuições de política no log de atividades
 
@@ -35,7 +35,7 @@ Quando você atribui políticas aos usuários no centro de administração Micro
 
 Para exibir suas atribuições de política no log de atividades:
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Painel** e, em Seguida, em **Log** de **Atividades,** selecione Exibir detalhes .
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Home** e, em Seguida, em **Log** de **Atividades,** selecione Exibir detalhes .
 2. Você pode exibir todas as atribuições de política ou filtrar a lista por status para mostrar apenas as atribuições não iniciadas **,** em andamento **ou** **concluídas.** Você verá as seguintes informações sobre cada atribuição:
     - **Nome**: o nome da atribuição de política. Clique no link para exibir mais detalhes. Isso inclui o número de usuários aos que a política foi atribuída e o número de atribuições concluídas, em andamento e não iniciadas. Você também verá a lista de usuários no lote e o status e o resultado para cada usuário. Veja um exemplo:
 

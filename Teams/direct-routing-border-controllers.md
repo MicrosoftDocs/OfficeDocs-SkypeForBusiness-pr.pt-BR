@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: b02bd27f15b6db4fed2835513d043c7f6561a681
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432653"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456531"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -75,11 +75,11 @@ Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamen
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.20 com suporte (Recomendado 4.0)        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 para Bypass de Mídia)      | &#10004; | &#10004; |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Elemento de borda unificada cisco (CUBE) para roteadores de serviços integrados da série 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |    &#10004;     |   |  
-|                                   |     Elemento de borda unificada cisco (CUBE) para roteadores de serviços integrados da série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |   &#10004;      |    |  
-|                                   |     Cube (Elemento de Borda Unificada) da Cisco para Roteador de Serviços de Nuvem da Série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |    &#10004;     |    |  
-|                                 |     CUBE (Elemento de Borda Unificada da Cisco) para roteadores dos Serviços de Agregação da Série 1000      |     &#10004;   | &#10004; |      IOS XE Amsterdã 17.2.1r com suporte (Recomendado 17.3.2)         |    &#10004;     |    |
-|                                 |     Cube (Elemento de Borda Unificada da Cisco) para Plataformas de Borda do Cube 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdã 17.3.2      |    &#10004;     |    |
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Elemento de borda unificada cisco (CUBE) para roteadores de serviços integrados da série 1000        |     &#10004;   | &#10004; |      Suportado no IOS XE Amsterdam 17.2.1r (recomendado 17.6.1a)         |    &#10004;     |   |  
+|                                   |     Elemento de borda unificada cisco (CUBE) para roteadores de serviços integrados da série 4000        |     &#10004;   | &#10004; |   Suportado no IOS XE Amsterdam 17.2.1r (recomendado 17.6.1a)         |   &#10004;      |    |  
+|                                   |     Cube (Elemento de Borda Unificada) da Cisco para Roteador de Serviços de Nuvem da Série 1000V       |     &#10004;   | &#10004; |      Suportado no IOS XE Amsterdam 17.2.1r (recomendado 17.3.3)         |    &#10004;     |    |  
+|                                 |     CUBE (Elemento de Borda Unificada da Cisco) para roteadores dos Serviços de Agregação da Série 1000      |     &#10004;   | &#10004; |      Suportado no IOS XE Amsterdam 17.2.1r (recomendado 17.6.1a)         |    &#10004;     |    |
+|                                 |     Cube (Elemento de Borda Unificada da Cisco) para Plataformas de Borda do Cube 8000      |     &#10004;   | &#10004; |      Suportado no IOS XE Amsterdam 17.3.2 (recomendado 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de Borda de Sessão Avaya para Empresas (ASBCE)    |     &#10004;     |       &#10004;     |       Versão 8.1.1 (8.1.2 para Bypass de Mídia)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de Borda de Sessão da Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Controlador de Borda de Sessão da Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |

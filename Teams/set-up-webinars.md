@@ -1,5 +1,5 @@
 ---
-title: Configurar para webinars em Microsoft Teams
+title: Preparar-se para webinars no Microsoft Teams
 author: KarliStites
 ms.author: kastites
 manager: serdars
@@ -19,14 +19,14 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Saiba como gerenciar políticas do Webinar para Teams reuniões.
-ms.openlocfilehash: 1ab4f082a270e4d9b3107c0b6ffbb27bd7c70110
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78c81e25d246dc450ffcd821d22148c330d38f23
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612970"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456311"
 ---
-# <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar para webinars em Microsoft Teams
+# <a name="set-up-for-webinars-in-microsoft-teams"></a>Preparar-se para webinars no Microsoft Teams
 
 Este artigo ajudará você a configurar sua organização para hospedar webinars.
 
@@ -73,7 +73,7 @@ Leia [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 
 ### <a name="allow-users-to-schedule-webinars"></a>Permitir que os usuários agendem webinars
 
-Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos**. Se você quiser desativar o registro de reunião, de definir **AllowMeetingRegistration** como **False**.
+Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos** para a política **Global (padrão em toda** a organização). Se você quiser desativar o registro de reunião, de definir **AllowMeetingRegistration** como **False**.
 
 > [!IMPORTANT]
 > **AllowPrivateMeetingScheduling** deve ser definido como **True** para **AllowMeetingRegistration** funcionar. Além disso, Listas da Microsoft precisa ser configurada em SharePoint. Para saber mais, confira [Configurações de controle para Listas da Microsoft](/sharepoint/control-lists).

@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a usar os controles do PowerShell para gerenciar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3a1bb503ca759835f34220aa8a963f162b73f36d879d4cf3e8a6321e6f5775e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e878acddd27044ecb57d33c76c1af755eaa7c5d8
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328916"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456541"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams Visão geral do PowerShell
 
@@ -39,7 +39,7 @@ O Microsoft Teams do PowerShell inclui os seguintes recursos:
 
 ##  <a name="data-collection"></a>Coleta de dados 
 
-Microsoft Teams As configurações padrão do módulo do PowerShell coletam dados de telemetria. A Microsoft agrega dados coletados para identificar padrões de uso e problemas comuns, como cmdlets com baixo sucesso, para nos ajudar a priorizar nosso trabalho para melhorar a experiência do Teams PowerShell. Microsoft Teams O módulo do PowerShell não coleta dados pessoais ou particulares.  
+Microsoft Teams As configurações padrão do módulo do PowerShell coletam dados de telemetria. A Microsoft agrega dados coletados para identificar padrões de uso e problemas comuns, como cmdlets com baixo sucesso, para nos ajudar a priorizar nosso trabalho para melhorar a experiência do Teams PowerShell. Microsoft Teams O módulo do PowerShell não coleta dados pessoais ou particulares. Para obter mais detalhes, consulte a [Declaração de Privacidade da Microsoft.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

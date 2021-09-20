@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar o assistente de política Teams para Educação para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
-ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cafe6e9725f8b365601d3d9152187b546cf2205a
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733860"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456321"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use o Assistente Teams para Educação política para aplicar facilmente políticas para um ambiente de aprendizado seguro
 
@@ -69,7 +69,7 @@ Agora, vamos começar!
 
 Siga estas etapas para executar o assistente.
 
-1. Se você for novo no Teams, o assistente será iniciado automaticamente. Caso contrário, você pode iniciar o assistente a qualquer momento a partir do painel. Na navegação à esquerda do centro de administração Microsoft Teams, vá  para **Painel** e, em seguida, na configuração de política fácil para um painel de ambiente de aprendizagem seguro, selecione **Configuração rápida**.
+1. Se você for novo no Teams, o assistente será iniciado automaticamente. Caso contrário, você pode iniciar o assistente a qualquer momento a partir do painel. Na navegação à esquerda do centro de administração do Microsoft Teams,  vá para Home **e,** em seguida, na configuração de política Fácil para um painel de ambiente de aprendizado seguro, selecione **Configuração rápida**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de tela do assistente no painel.":::
 
@@ -147,7 +147,7 @@ Mas verifique o [Centro](https://admin.microsoft.com/AdminPortal/Home?#/MessageC
 
 Se você precisar fazer alterações depois de executar o assistente, poderá re runá-lo e alterar suas seleções.
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá  para **Painel** e, em seguida, na configuração de política fácil para um painel de ambiente de aprendizagem seguro, selecione **Alterar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams,  vá para Home **e,** em seguida, na configuração de política Fácil para um painel de ambiente de aprendizado seguro, selecione **Alterar**.
 2. A partir daqui, continue por cada página do assistente para fazer suas alterações. Você pode alterar o tipo de instituição, o grupo de educadores e funcionários aos quais deseja atribuir políticas ou ambos.
 
 A tabela a seguir resume o que acontece quando você faz uma alteração no assistente.
@@ -235,7 +235,7 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |  |       |Apagar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Chat         |Desabilitado         |Habilitado|
+|  |       |Bate-papo         |Desabilitado         |Habilitado|
 |  |       |Usar Giphys em conversas         |Desabilitado         |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
 |  |       |Usar Memes em conversas         |Habilitado         |Habilitado|
@@ -305,7 +305,7 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 |  |       |Apagar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Chat         |Habilitado         |Habilitado
+|  |       |Bate-papo         |Habilitado         |Habilitado
 |  |       |Usar Giphys em conversas         |Habilitado        |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
 |  |       |Usar Memes em conversas         |Habilitado         |Habilitado|

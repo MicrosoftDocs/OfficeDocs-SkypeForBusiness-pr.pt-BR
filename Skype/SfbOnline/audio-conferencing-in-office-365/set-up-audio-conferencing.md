@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: 'Aprenda a configurar a discagem ou a conferência de áudio para as pessoas da sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 55edb015df6e0faf77eb644246677f637b7bace7
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725970"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456551"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar Audioconferência para Skype for Business
 
@@ -56,8 +56,8 @@ Acesse [Disponibilidade do país e região para audioconferência e planos de ch
     
 3. Também é recomendável que você atribua licenças créditos de comunicação (são gratuitas) para as mesmas pessoas a quem você atribuiu as licenças na etapa anterior. Para saber como configurar os créditos de comunicação, consulte [Configurar créditos de comunicação para sua organização](/microsoftteams/set-up-communications-credits-for-your-organization).
     
-> [!NOTE]
-> Você também pode configurar a [Audioconferencia paga por minuto](/microsoftteams/audio-conferencing-pay-per-minute)
+   > [!NOTE]
+   > Você também pode configurar a [Audioconferencia paga por minuto](/microsoftteams/audio-conferencing-pay-per-minute)
 
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>Etapa 3: Obtenha números de serviço para suas pontes de conferência
 <a name="__top"> </a>
@@ -92,7 +92,7 @@ Em seguida, você deseja definir idiomas de atendimento automático para [Audioc
 
 ![Um ícone mostrando o logotipo Microsoft Teams.](../images/teams-logo-30x30.png) **Usando o Microsoft Teams de administração**:
 
-1. No painel, vá para as **Pontes de conferência do** > **Meetings**.
+1. De Casa, vá para **Pontes de**  >  **Conferência de Reuniões.**
 2. Clique no número do telefone da ponte de conferência, clique em **Editar** e escolha o idioma padrão.
 
 ![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração**:
@@ -108,7 +108,7 @@ Após configurar sua ponte de conferência, verifique se as configurações padr
 
 ![Um ícone mostrando o logotipo Microsoft Teams.](../images/teams-logo-30x30.png) **Usando o Microsoft Teams de administração**:
 
-1. No painel, vá para as **Pontes de conferência do** > **Meetings**.
+1. De Casa, vá para **Pontes de**  >  **Conferência de Reuniões.**
 2. Clique em **Configurações da ponte**. Esse procedimento abrirá o painel **Configurações da ponte**. 
 
 Para mais detalhes, consulte [Alterar as configurações de uma ponte de audioconferência](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
@@ -128,7 +128,7 @@ Você precisará fazer isso para todas as pessoas na sua organização que irão
 
 ![Um ícone mostrando o logotipo Microsoft Teams.](../images/teams-logo-30x30.png) **Usando o Microsoft Teams de administração**:
 
-1. No painel, clique em **Usuários**, clique no usuário da lista e selecione **Editar**.
+1. Em Home, clique **em Usuários,** selecione o usuário na lista e selecione **Editar**.
 2. Clique em **Editar** ao lado da **Audioconferência**, e na página da **Audioconferência**, escolha um número nas listas de **Número de interurbano** e **Número gratuito**.
 
 ![Um ícone mostrando o logotipo Skype for Business.](../images/sfb-logo-30x30.png) **Usando o Skype for Business de administração:**
