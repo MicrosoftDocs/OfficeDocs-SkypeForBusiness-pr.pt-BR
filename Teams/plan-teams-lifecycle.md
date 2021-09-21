@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727820"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456371"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -65,49 +65,7 @@ Os tipos de usuários da equipe determinam o grau de controle que cada membro da
 > [!Note]
 > Saiba mais sobre os recursos de proprietário de equipe e de membro de equipe no artigo [Atribuir função e permissões no Microsoft Teams](assign-roles-permissions.md).
 
-As funções de administrador de equipe determinam quais recursos cada detentor da função de administrador tem. Isso é descrito na tabela a seguir.
-
-<table>
- <thead>
-  <tr>
-    <th width="0.5%"></th>
-    <th width="15.5%">Função&nbsp;&nbsp;</th>
-    <th width="25%">Descrição</th>
-    <th width="60%">Pode realizar as tarefas a seguir, usando as ferramentas indicadas</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-    <td valign="top" colspan="2">Administrador do Teams</td>
-    <td valign="top">Gerenciar o serviço do Teams; criar e gerenciar Grupos do Microsoft 365</td>
-    <td valign="top">Gerenciar reuniões, inclusive políticas de reunião, configurações e pontes de conferência<sup>1</sup><br><br>Gerenciar voz, inclusive políticas de chamada, inventário e atribuição de números de telefone, filas de chamadas e atendedores automáticos<sup>1</sup><br><br>Gerenciar mensagens, inclusive políticas de mensagens<sup>1</sup><br><br>Gerenciar todas as configurações de toda a organização, inclusive federação, atualização do Teams e configurações de cliente do Teams<sup>1</sup><br><br>Gerenciar as equipes na organização e as configurações associadas, inclusive associação<sup>2</sup><br><br>Exibir a página de perfil do usuário e solucionar problemas de qualidade de chamada do usuário usando o conjunto de ferramentas avançado de solução de problemas<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Administrador de Comunicações de Equipes</td>
-<td valign="top">Gerenciar recursos de chamadas e reuniões no serviço Microsoft Teams</td>
-<td valign="top">Gerenciar reuniões, inclusive políticas de reunião, configurações e pontes de conferência<sup>1</sup><br><br>Gerenciar voz, inclusive políticas de chamada, inventário e atribuição de números de telefone, filas de chamadas e atendedores automáticos<sup>1</sup><br><br>Exibir a página de perfil do usuário e solucionar problemas de qualidade de chamadas do usuário usando o conjunto de ferramentas avançado de solução de problemas<sup>1</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Especialista em Comunicações de Equipes</td>
-<td valign="top">Solucionar problemas de comunicação no Teams usando ferramentas básicas</td>
-<td valign="top">Acessar a página de perfil do usuário para solucionar problemas de chamadas na Análise de Chamada. Só pode exibir informações do usuário específico que está sendo pesquisado.<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Engenheiro de Suporte de Comunicações de Equipes</td>
-<td valign="top">Solucionar problemas de comunicação no Teams usando ferramentas avançadas</td>
-<td valign="top">Acessar a página de perfil do usuário para solucionar problemas de chamadas na Análise de Chamada. Pode exibir as informações completas do registro de chamada.<sup>3</sup></td>
-</tr>
-<tr>
-</tbody>
-<tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell - módulo do Skype for Business</a> ou <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Centro de administração do Microsoft Teams</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell - módulo do Microsoft Teams</a> ou <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Centro de administração do Microsoft Teams</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Centro de administração do Microsoft Teams</a> apenas</td>
-</tr>
-</tfoot>
-</table>
-
+As funções de administrador de equipe determinam quais recursos cada detentor da função de administrador tem. Estes são descritos no artigo a seguir: [Use funções de administrador do Microsoft Teams para gerenciar o Teams](using-admin-roles.md).
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>Decisões de TI a serem tomadas antes de começar
 
