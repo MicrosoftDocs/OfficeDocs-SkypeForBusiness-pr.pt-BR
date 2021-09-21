@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: 83ad01ef738cc8e68d0cfdf41ea082493eb7c7b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa14fc3a59d893b152f96d31a20c46119f8a71f9
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603390"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456331"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 
@@ -53,7 +53,7 @@ O acesso de convidado no Teams requer a definição de outras configurações no
 - Para configurar o acesso de convidado do Teams para uso geral, consulte [Colaborar com convidados em uma equipe](/microsoft-365/solutions/collaborate-as-team).
 - Para colaborar com uma organização parceira que usa o Azure Active Directory e permitir que os convidados se inscrevam para acesso da equipe, consulte [Criar uma extranet B2B com convidados gerenciados](/microsoft-365/solutions/b2b-extranet).
 
-O acesso de convidados no Teams é uma configuração em toda a organização e está desativado por padrão. Você pode controlar o acesso de convidados a equipes individuais usando [rótulos de confidencialidade](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+O acesso de convidado no Teams é uma configuração para toda a organização e está desativado por padrão. Você pode controlar o acesso de convidados a equipes individuais usando [rótulos de confidencialidade](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 ### <a name="turning-guest-access-off"></a>Desativando o acesso de convidado
 
