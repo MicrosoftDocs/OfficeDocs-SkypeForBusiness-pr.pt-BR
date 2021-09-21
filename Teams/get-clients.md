@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5975bfc6f0e93580ebdee3ce7f564efa9c380d99
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c33ad827e5d2674f9ecf15b3229979e4bd46ad71
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729950"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456381"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams
 
@@ -61,7 +61,7 @@ Os administradores de TI podem escolher seu método preferido para distribuir os
 A instalação do Microsoft Teams para Windows oferece instaladores para download nas arquiteturas de 32 bits e 64 bits.
 
 > [!NOTE]
-> A arquitetura (32 bits vs. 64 bits) do Microsoft Teams é independente da arquitetura do Windows e do Office instalados.
+> A arquitetura (32 bits vs. 64 bits) do Microsoft Teams é independente da arquitetura do Windows e do Office instalados. Recomendamos a versão de 64 bits do Microsoft Teams em sistemas de 64 bits.
 
 O cliente Windows é implantado na pasta AppData localizada no perfil do usuário. A implantação no perfil local do usuário permite que o cliente seja instalado sem exigir direitos elevados. O cliente Windows aproveita os seguintes locais:
 
