@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
 ms.localizationpriority: high
-search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: 92df4086252eb27c47615daafad0179f4c505d95
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 3abdf46229884996d2a0ba180a36928983c4f7d2
+ms.sourcegitcommit: 4a9ea18808d17e2eb6e4e2e7e3894e33c14e8631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432313"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59474946"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
