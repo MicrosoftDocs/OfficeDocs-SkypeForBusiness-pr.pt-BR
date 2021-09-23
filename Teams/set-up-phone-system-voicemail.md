@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o Caixa postal na Nuvem para seus usuários. '
-ms.openlocfilehash: c9e073a61501143c478d78b9184602f4eebe9264
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37cf89d4c728cab491d0312762a2c845bb711dcd
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590725"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482415"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a Caixa postal na nuvem
 
@@ -61,6 +61,7 @@ Quando alguém deixa uma mensagem de caixa postal para um usuário em sua organi
 
 Para obter mais informações sobre criptografia de mensagens, consulte [Criptografia de email](/microsoft-365/compliance/email-encryption?view=o365-worldwide).
 
+
 Para configurar a caixa postal protegida, faça o seguinte:
 
 1. Acesse e https://admin.microsoft.com entre usando uma conta com permissões de administrador global.
@@ -74,6 +75,9 @@ Para configurar a caixa postal protegida, faça o seguinte:
     > - [Configurar novos recursos de Criptografia de Mensagens](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Configurando e gerenciando modelos para a Proteção de Informações do Azure](/information-protection/deploy-use/configure-policy-templates)
     > - [Opção Não Encaminhar para emails](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
+
+    > [!NOTE]
+    > Você precisa definir a seguinte chave do Registro para usuários, empresas e organizações que querem que o formulário caixa postal apareça: [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins] "AllowVoicemailForm"=dword:00000001                           
 
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>Ajudar seus usuários a aprender Teams recursos de caixa postal
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: 1239445effd958b97e9f50d4be9ed686ed594685
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 546a26422ff4f907f88c3a47808ff0f9ea546d00
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728890"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482405"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -235,12 +235,6 @@ Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhu
 - 52.120.0.0/14
 
 Você precisa abrir portas para todos esses intervalos de endereços IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.  Se o firewall for compatível com nomes DNS, o FQDN **sip-all.pstnhub.microsoft.com** resolverá todas essas sub-redes IP. 
-
-> [!IMPORTANT]
-> Como parte da Teams melhoria de serviço e expansão do Roteamento Direto, implantamos novas instâncias da infraestrutura de Roteamento Direto na Austrália em novembro de 2020. Isso se reflete em dois endereços IP adicionais (52.114.16.74 e 52.114.20.29) para os quais os seguintes FQDNs serão resolvidos para clientes australianos – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa garantir que esses dois endereços IP (52.114.16.74 e 52.114.20.29) sejam permitidos em suas LISTAS de Controle de Acesso IP (ACLs) e as portas estão abertas para todos esses endereços IP no firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.
-
-> [!IMPORTANT]
-> Como parte da Teams de roteamento direto e melhoria de serviço, implantamos novas instâncias da infraestrutura de Roteamento Direto no Japão em maio de 2021. Isso se reflete em dois endereços IP adicionais (52.114.36.156 e 52.114.32.169) para os quais os seguintes FQDNs serão resolvidos para clientes japoneses – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa garantir que esses dois endereços IP (52.114.36.156 e 52.114.32.169) sejam permitidos em suas ACLs (Listas de Controle de Acesso IP) e as portas estão abertas para que todos esses endereços IP no firewall permitam o tráfego de entrada e saída dos endereços para sinalização.
 
 ### <a name="office-gcc-dod-environment"></a>Office GCC ambiente do DoD
 
