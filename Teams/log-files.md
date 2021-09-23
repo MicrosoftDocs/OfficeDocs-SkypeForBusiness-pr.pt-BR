@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre logs de depuração, mídia e área de trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
-ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
+ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460640"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482375"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar Microsoft Teams
 
@@ -94,9 +94,11 @@ Os registros de depuração mostram os seguintes fluxos de dados:
 
 -   Chamada/conversa
 
-Para coletar logs para Linux: atalho do teclado: Ctrl + Alt + Shift + 1 Os arquivos estarão disponíveis em ~/Downloads
+Para coletar logs para Linux: atalho do teclado: Ctrl + Alt + Shift + 1  
+      Os arquivos estarão disponíveis em ~/Downloads
 
-Para coletar logs para Navegador: Atalho do teclado: Ctrl + Alt + Shift + 1 Os arquivos estarão disponíveis em %userprofile%\Downloads
+Para coletar logs para Navegador e Windows: Atalho do teclado: Ctrl + Alt + Shift + 1  
+      Os arquivos estarão disponíveis em %userprofile%\Downloads
 
 ## <a name="media-logs"></a>Registros de mídia
 
@@ -106,7 +108,11 @@ O registro de mídia está desabilitado por padrão. Para registrar dados de dia
 
 Ao enviar os arquivos de log para o suporte da Microsoft, verifique a data e hora dos arquivos de log para garantir que os logs abrangem o período de tempo em que você reproduziu o problema.
 
-Para coletar logs para Linux: os arquivos estarão disponíveis em ~/.config/Microsoft/Microsoft Teams/media-stack/ .blog e *~/.config/Microsoft/Microsoft Teams/skylib/ .blog.*
+Para coletar logs para Linux:  
+Os arquivos estarão disponíveis no blog ~/.config/Microsoft/Microsoft Teams/media-stack/ \* \. e ~/.config/Microsoft/Microsoft Teams/skylib/blog. \* \.
+
+Para coletar logs para Windows:  
+Os arquivos estarão disponíveis em %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack blog e \\ \* \. %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib \\ \* \. blog.  
 
 Aqui está uma lista dos arquivos de log gerados e as informações que eles contêm.
 
@@ -123,7 +129,10 @@ Aqui está uma lista dos arquivos de log gerados e as informações que eles con
 Consulte a _seção Coletar e habilitar o registro em log_ para obter Windows e instruções do Mac. Os logs da área de trabalho, também conhecidos como logs de bootstrapper, contêm dados de log que ocorrem entre o cliente da área de trabalho e o navegador. Como os logs de mídia, esses logs só são necessários se solicitados pela Microsoft. Os logs são baseados em texto e podem ser lidos usando qualquer editor baseado em texto em um formato de cima para baixo.
 
 Para coletar logs para Linux: clique no ícone Microsoft Teams na bandeja do sistema e selecione **Obter Logs.**
-Os arquivos estarão disponíveis em ~/.config/Microsoft/Microsoft Teams/logs.txt.  
+Os arquivos estarão disponíveis em ~/.config/Microsoft/Microsoft Teams/logs.txt.
+  
+Para coletar logs para Windows: clique no ícone Microsoft Teams na bandeja do sistema e selecione **Obter Logs**.
+O logs.txt arquivo será aberto automaticamente no Bloco de notas.    
 
 ## <a name="browser-trace"></a>Rastreamento do navegador
 

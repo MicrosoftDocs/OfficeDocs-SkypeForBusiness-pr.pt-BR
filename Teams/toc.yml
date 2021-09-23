@@ -223,7 +223,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -755,6 +755,8 @@ items:
         items:
           - name: Visão geral
             href: rooms/index.md
+          - name: Orientações de sala de reunião para o Teams
+            href: teams-meeting-room-guidance.md
           - name: Serviços gerenciados de Salas do Microsoft Teams
             items:
               - name: Planejar gerenciamento
@@ -1608,8 +1610,6 @@ items:
             href: sharepoint-onedrive-interact.md
       - name: Dispositivos do Teams para a Educação
         href: devices-for-education.md
-      - name: Orientação de sala de reunião para o Teams
-        href: teams-meeting-room-guidance.md
       - name: Dispositivos suportados
         items:
           - name: Gerenciar seus dispositivos no Teams
