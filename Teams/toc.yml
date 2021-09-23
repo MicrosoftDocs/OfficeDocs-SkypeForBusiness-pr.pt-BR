@@ -223,7 +223,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -325,8 +325,6 @@ items:
         href: manage-teams-overview.md
       - name: Funções de administrador
         href: using-admin-roles.md
-      - name: Gerenciar as Equipes durante a transição para o novo Centro de Administração do Microsoft Teams
-        href: manage-teams-skypeforbusiness-admin-center.md
       - name: Gerenciar o Teams no Centro de administração do Microsoft Teams
         href: manage-teams-in-modern-portal.md
       - name: Gerenciar configurações do Teams para sua organização
@@ -1173,7 +1171,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: Chile
+              - name: 'Chile '
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md

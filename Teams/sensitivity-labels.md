@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar rótulos de sensibilidade para proteger suas equipes Microsoft Teams.
-ms.openlocfilehash: 5337f623a8535a840f1eead45c53506fb8f3fee7
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 135049e80d6a8c0e008886ca924cca64b5943695
+ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935837"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59496688"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Rótulos de sensibilidade para Microsoft Teams
 
@@ -30,13 +30,13 @@ ms.locfileid: "58935837"
 
 Atualmente, os rótulos de sensibilidade não têm suporte em equipes de classe para clientes que usam Teams Education SKUs. Para saber mais sobre licenciamento, consulte [Microsoft Teams descrição do serviço.](/office365/servicedescriptions/teams-service-description)
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Qual é a diferença entre rótulos de sensibilidade e rótulos Teams classificação?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>Qual é a diferença entre rótulos de sensibilidade e Teams classificação?
 
-Os rótulos de sensibilidade são diferentes dos rótulos de classificação, também conhecidos como classificação de grupo do Azure AD. Rótulos de classificação são cadeias de caracteres de texto que podem ser associadas a um grupo Microsoft 365, mas não têm políticas reais associadas a eles. Você usa rótulos de classificação como metadados e, em seguida, deve usar outros métodos, como ferramentas internas e scripts, para impor políticas.
+Os rótulos de sensibilidade são diferentes Teams classificação, também conhecida como classificação de grupo do Azure AD. As classificações são cadeias de caracteres de texto que podem ser associadas a um grupo Microsoft 365, mas não têm políticas reais associadas a elas. Você usa a classificação como metadados e, em seguida, deve usar outros métodos, como ferramentas internas e scripts, para impor políticas.
 
 O benefício de usar rótulos de sensibilidade é que suas políticas são impostas automaticamente de ponta a ponta por meio de uma combinação da plataforma Microsoft 365 Grupos, do centro de conformidade e dos serviços Teams. Os rótulos de sensibilidade oferecem suporte de infraestrutura eficiente para proteger os dados confidenciais da sua organização e garantir a conformidade com suas políticas ou regulamentos internos.
 
-Se você usa rótulos de classificação no momento, consulte a documentação a seguir para obter mais informações e instruções sobre como migrar para rótulos de sensibilidade: Classificação de grupo clássica do [Azure AD](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
+Se você atualmente usa Teams classificação, consulte a documentação a seguir para obter mais informações e instruções sobre como converter esses valores em rótulos de sensibilidade: classificação de grupo clássica do [Azure AD](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>Cenários de exemplo para rótulos de sensibilidade
 
@@ -59,10 +59,7 @@ Da mesma forma, você cria e publica um rótulo de sensibilidade chamado "Geral"
 
 ![Captura de tela do rótulo de sensibilidade geral.](media/sensitivity-labels-general-example.png)
 
-Quando a equipe é criada, o rótulo de sensibilidade fica visível no canto superior direito dos canais na equipe. 
-
-> [!NOTE]
-> Se você estiver usando rótulos pai-filho hierárquicos, como "Confidencial\Finanças", somente o rótulo pai será mostrado no header do canal.
+Quando a equipe é criada, o rótulo de sensibilidade fica visível para os usuários no canto superior direito dos canais na equipe. 
 
 ![Captura de tela do rótulo de sensibilidade no canal de equipe.](media/sensitivity-labels-channel.png)
 
@@ -83,10 +80,6 @@ Os rótulos de sensibilidade também são  visíveis  nas propriedades da equipe
 ## <a name="limitations"></a>Limitações
 
 Antes de usar rótulos de sensibilidade para Teams, esteja ciente das seguintes limitações:
-
-- **Os nomes de rótulo pai não são exibidos para sub-rótulos**
-    
-    Teams suporta sub-rótulos, mas não exibe o nome do rótulo pai. Por exemplo, **Confidencial** \\ **Todos os Funcionários** é exibido como **Todos os Funcionários.**
 
 - **Os rótulos de sensibilidade não têm suporte Teams Graph APIs, cmdlets do PowerShell e modelos**
     

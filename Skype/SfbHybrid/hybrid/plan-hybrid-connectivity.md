@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planeje implementar a conectividade híbrida entre Skype for Business Server e Teams configurando Skype for Business modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: ede3c000bf46cc5b3e1e2a181da2adc6dda93855
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 40d89076973e4667c41676684841e8c35c356396
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482395"
+ms.locfileid: "59491711"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planejar conectividade híbrida entre Skype for Business Server e Teams
 
@@ -64,7 +64,7 @@ Os modos de co-existência continuam a existir após a aposentadoria do Skype fo
 
 > [!Important]
 > - As organizações híbridas existentes com usuários Skype for Business Online que não são o TeamsOnly devem se concentrar na atualização desses usuários para Teams modo Somente assim que possível. Se sua organização ainda tiver usuários no Skype for Business Online que não são o TeamsOnly, você pode estar agendado para uma atualização assistida pela Microsoft para fazer a transição desses usuários para o TeamsOnly. Isso não afetará os usuários que estão Skype for Business Server local. As notificações de agendamento serão enviadas com antecedência para clientes híbridos com usuários Skype for Business online antes que esses usuários online, que não sejam do TeamsOnly, sejam atualizados para Teams.
-> - Em breve, não será mais possível atribuir um modo diferente do TeamsOnly a um usuário que está em casa online.
+> - Não é mais possível atribuir um modo diferente do TeamsOnly a um usuário que está em casa online.
 
 ## <a name="about-shared-sip-address-space-functionality"></a>Sobre a funcionalidade espaço de endereço SIP compartilhado
 

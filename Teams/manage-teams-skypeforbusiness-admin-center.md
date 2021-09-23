@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: ''
-search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como gerenciar as configurações de todos os locatários e usuários para Teams durante a transição do Teams no Centro de administração do Microsoft 365 para o novo centro de administração Teams.
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 32e863b244453599bed9c71fc2dede4df14ff1a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 727aa58f3e7a91336355730ce5f0a552ea09fdc9
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615327"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491731"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 
