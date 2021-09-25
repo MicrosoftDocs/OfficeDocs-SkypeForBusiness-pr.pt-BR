@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instruções para implementar a conectividade híbrida entre Skype for Business Server e Teams.
-ms.openlocfilehash: 272166852ef86da6318aa5fa2908697a93d65e02
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: fee7587c641f2fd55cd8b4ac4da72b3944b819a1
+ms.sourcegitcommit: 64b9f7297d33a883506893fb68d1ad5202b4df1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491691"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59682806"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Configurar conectividade híbrida entre Skype for Business Server e Teams
 
@@ -45,11 +45,11 @@ A tabela a seguir lista as tarefas necessárias para configurar Skype for Busine
 
 ## <a name="dns-implications-for-on-premises-organizations-that-become-hybrid"></a>Implicações de DNS para organizações locais que se tornam híbridas
 
-Por padrão, os locatários são criados como modo TeamsOnly. Os administradores não podem alterar essa configuração. No entanto, as organizações híbridas não devem ser o modo TeamsOnly porque isso quebraria a federação para seus usuários locais. Teams tem um mecanismo integrado para garantir que a configuração do TeamsOnly em todo o locatário não seja aplicada para novos locatários híbridos, nem é removida de locatários existentes que se tornam híbridos. Esse mecanismo se baseia no valor de um registro DNS do LyncDiscover para qualquer domínio Microsoft 365 verificado (porque uma implantação Skype for Business Server local terá, na maioria dos casos, esse registro), conforme descrito abaixo.
+Por padrão, os locatários são criados como modo TeamsOnly. Os administradores não podem alterar essa configuração. No entanto, as organizações híbridas não devem ser o modo TeamsOnly porque isso quebraria a federação para seus usuários locais. Teams tem um mecanismo integrado para garantir que a configuração do TeamsOnly em todo o locatário não seja aplicada a novos locatários híbridos e também que a configuração do TeamsOnly em todo o locatário seja removida dos *locatários existentes* que se tornam híbridos . Esse mecanismo baseia-se no valor do registro DNS do LyncDiscover para qualquer domínio Microsoft 365 verificado (porque uma implantação Skype for Business Server local terá, na maioria dos casos, esse registro), conforme descrito abaixo.
 
 Quando uma nova assinatura Microsoft 365 é processada pela primeira vez, ocorre o seguinte:
 - Se ainda não houver nenhum domínio Microsoft 365, o locatário será criado como modo TeamsOnly. O valor é definido por meio do TeamsUpgradeOverridePolicy, que só pode ser definido pela Microsoft. Se o valor da política for UpgradeToTeams, ele tem precedência sobre qualquer valor do TeamsUpgradePolicy.
-- Se houver domínios de Microsoft 365 verificados, mas não houver registros dns lyncDiscover públicos detectados ou se quaisquer registros LyncDiscover detectados apontarem para Microsoft 365 (sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us, etc),o locatário será criado como modo TeamsOnly (por meio do TeamsUpgradeOverridePolicy).
+- Se houver domínios Microsoft 365 verificados, mas não houver registros dns LyncDiscover públicos detectados ou se algum registro do LyncDiscover detectado apontar para Microsoft 365 (sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us etc),o locatário será criado como modo TeamsOnly (por meio do TeamsUpgradeOverridePolicy).
 - Se houver pelo menos um domínio verificado Microsoft 365 para o qual um registro LyncDiscover é detectado e esse registro aponta em algum lugar diferente do Microsoft 365, o locatário é criado como modo Ilhas.
 
 Quando um locatário de Microsoft 365 existente é re provisionado (normalmente devido a uma alteração em domínios verificados ou em detalhes de assinatura), ocorre o seguinte:
