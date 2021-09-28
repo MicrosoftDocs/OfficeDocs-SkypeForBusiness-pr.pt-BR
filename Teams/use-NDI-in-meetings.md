@@ -1,14 +1,14 @@
 ---
-title: Usar a NDI no Microsoft Teams
-author: cichur
-ms.author: v-cichur
-ms.reviewer: aaglick
+title: Transmitir conteúdo de reunião
+author: CarolynRowe
+ms.author: crowe
+ms.reviewer: aalinne
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Saiba como usar a NDI em Microsoft Teams.
+description: Saiba como usar NDI e SDI para transmitir conteúdo de reunião em Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,50 +16,55 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a82174fd09106f623bcf0f9a03a99c2978253ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65e47ccfa1963e8e95e13a1c8b94e1e051ff709c
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615107"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941876"
 ---
-# <a name="use-ndi-technology-in-microsoft-teams"></a>Usar a tecnologia NDI® em Microsoft Teams
+# <a name="broadcast-meeting-content"></a>Transmitir conteúdo de reunião 
 
- A tecnologia NewTek NDI® (Interface de Dispositivo de Rede) é uma solução moderna para conectar dispositivos de mídia (como uma câmera de estúdio e um mixer). Em vez de usar conexões físicas, a tecnologia ® NDI habilita a conectividade em uma intranet local, inclusive em uma máquina local.
 
-A tecnologia ® NDI se tornou uma solução padrão do setor para produzir conteúdo ao vivo para fluxos e ganhou uma conscientização significativa e adoção no mundo da transmissão profissional.
 
-Skype a funcionalidade de ® NDI foi adicionada Skype final de 2018. Microsoft Teams usa essa funcionalidade para melhorar a experiência de reunião.
+Teams oferece duas opções para transmitir Teams de reunião: Interface de Dispositivo de Rede (NewTek NDI®) e Interface Digital Serial (SDI):
 
-A ® NDI está limitada a uma rede local e deve ser considerada apenas uma parte do fluxo de trabalho de produção, não uma solução de transmissão.
+- A tecnologia newTek NDI® é uma solução moderna para conectar dispositivos de mídia (como uma câmera de estúdio e um mixer). Em vez de usar conexões físicas, a tecnologia ® NDI habilita a conectividade em uma intranet local, inclusive em uma máquina local.
 
-## <a name="turn-on-ndi-technology"></a>Ativar a tecnologia NDI®
+  A tecnologia ® NDI se tornou uma solução padrão do setor para produzir conteúdo ao vivo para fluxos e ganhou uma conscientização significativa e adoção no mundo da transmissão profissional.
 
-A tecnologia ® NDI requer duas etapas para ser 1 para um usuário.
-
-1. O administrador do locatário deve permitir que o usuário final tenha a NDI ativada para sua política de reunião. Isso pode ser feito individualmente no portal de administração Teams ou por meio do Teams PowerShell pela propriedade _AllowNDIStreaming_ em CsTeamsMeetingPolicy.
-
-    ```PowerShell
-    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-    ```
-
-2. Depois que essa alteração for preenchida, o usuário final deverá ativar a tecnologia NDI® para seu cliente específico Configurações  >  **Permissões**.
-
-Depois de ser ligado para um usuário e seu cliente específico, o usuário pode ativar a NDI por meio do menu de estouro e selecionar "Transmitir sobre NDI".
-
-Depois de iniciar a NDI e ter um ponto de extremidade inscrito em um feed de NDI, eles verão uma mensagem que os notifica de que a reunião está sendo transmitida. Se os usuários não quiserem ser incluídos na transmissão, eles precisarão sair da reunião.
-
-A imagem a seguir mostra a mensagem em faixa que um usuário vê em uma Teams reunião.
-
-![ele NDI® faixa de tecnologia que é exibida em uma Teams reunião.](media/NDI-disclosure.png)
-
-O banner tem um link para a [política de privacidade da Microsoft.](https://aka.ms/teamsprivacy)
+- O SDI é usado em produções de transmissão desde 1989 e tem suporte na maioria dos dispositivos de hardware de estúdio herdados. Dispositivos de hardware de Sistemas de Vídeo AJA e Design Blackmagic fornecem conectividade para dispositivos de transmissão herdados que usam SDI.
 
 > [!NOTE]
-> NDI® é ativado somente por sessão. Na próxima reunião, o usuário deve ativá-lo antes de usar o NDI®.
+> O recurso Saída de Hardware de Vídeo que oferece suporte ao SDI está atualmente na versão De visualização.
 
-## <a name="supported-locales-and-user-types"></a>Localidades e tipos de usuário com suporte
+A ® NDI e a tecnologia SDI são suportadas em todas as localidades.
 
-A ® NDI é suportada em todas as localidades.
+O acesso ao uso de NDI e SDI é determinado pela política de reunião do usuário que está tentando ativar o recurso. Para a solução mais segura, não a turn on the local streaming parameter as a global setting.
 
-O acesso ao uso da NDI é determinado pela política de reunião para o usuário que está tentando ativar o recurso. Para a solução mais segura, não apronte a política de NDI como uma configuração global.
+
+## <a name="enable-broadcast-features"></a>Habilitar recursos de transmissão
+
+Para habilitar recursos de transmissão NDI® e SDI para um usuário:
+
+1. O administrador do locatário deve permitir que o usuário final tenha o streaming local ativado para sua política de reunião. 
+
+2. O usuário final deve ativar o streaming local para seu cliente específico.
+
+
+Para habilitar o usuário final, você pode usar o centro de administração Teams ou Teams PowerShell da seguinte forma.
+
+No centro de Teams de administração, acesse Políticas de reunião > **áudio & vídeo** e selecione Permitir Streaming de **NDI**.
+
+Para usar o PowerShell, use o cmdlet Set-CsTeamsMeetingPolicy da seguinte forma:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+```
+
+Depois que essa alteração for preenchida, o usuário final deverá ativar o streaming local para seu cliente específico Configurações  >  **Permissões**. Para obter mais informações, [consulte Transmissão de áudio e vídeo de Teams](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3).
+
+
+
+
+

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ao obter números de telefone ou números de portabilidade (transferência) para sua organização, pode ser necessário obter ajuda e suporte na central de serviços PSTN.
-ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65ebe954fb9a8b101489c9add7739b24bdd529bc
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598465"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941854"
 ---
 # <a name="pstn-service-desk"></a>Central de Serviços PSTN 
 
@@ -61,7 +61,6 @@ No Centro de Serviços de Número de Telefone, você pode criar novos casos, exi
 - **[Enviar comentários](#view-and-manage-existing-cases)** - Compartilhe seus comentários conosco. 
 
 - **[Seu nome]**  - Atualize sua página de perfil. 
-
 
 ## <a name="create-a-new-case"></a>Criar uma nova ocorrência
 

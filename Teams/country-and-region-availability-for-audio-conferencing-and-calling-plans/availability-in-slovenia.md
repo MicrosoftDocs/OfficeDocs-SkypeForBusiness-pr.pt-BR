@@ -1,9 +1,9 @@
 ---
 title: Disponibilidade na Eslovênia
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: 69eefb76-7a86-4469-a1ac-5fab4a6a9dc8
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 Office 365 de Skype for Business e Microsoft Teams disponíveis para a Eslovênia.
-ms.openlocfilehash: ca0a7caca4296d48b47a547f3661e1011d511936
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 35c529a3953e6798ad4a05ba85c0f6705319d38e
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615367"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941844"
 ---
 # <a name="availability-in-slovenia"></a>Disponibilidade na Eslovênia
 
@@ -59,11 +59,10 @@ Aqui estão os serviços Microsoft 365 Office 365 de Skype for Business e Micros
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
-|É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
-
-Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
+|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
+|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês de calendário: <ul><li>Plano de Chamada Doméstica de 120 minutos </li><li>Plano de Chamada Doméstica de 240 minutos</li></li><li>Plano de Chamada Doméstica de 1200 minutos </li></li><li>Plano de Chamada Doméstica e Internacional: 1200 minutos de chamada doméstica -OR- 600 minutos de chamada internacional (o que for atingido primeiro no mês do calendário)</li></li></ul>|
+|Pode fazer chamadas de saída para números premium?  <br/> | Não há suporte no momento. <br/> |
+|É possível fazer chamadas de saída?  <br/> | Para 196 países ou regiões, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> 
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 

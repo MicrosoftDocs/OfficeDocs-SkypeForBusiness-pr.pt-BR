@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: 546a26422ff4f907f88c3a47808ff0f9ea546d00
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: a747879a0e95ab524e1a45cf12a366f0bd7e4fe4
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482405"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942376"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -320,11 +320,8 @@ O intervalo de portas dos Processadores de Mídia é mostrado na tabela a seguir
 
 ## <a name="media-traffic-media-processors-geography"></a>Tráfego de mídia: Geografia dos processadores de mídia
 
-O tráfego de mídia flui por meio de componentes chamados processadores de mídia. Os processadores de mídia são colocados nos mesmos datacenters que os proxies SIP. Além disso, há processadores de mídia adicionais para otimizar o fluxo de mídia. Por exemplo, não temos um componente proxy SIP agora na Austrália (fluxos SIP via Cingapura ou Hong Kong), mas temos o processador de mídia localmente na Austrália. A necessidade dos processadores de mídia localmente é ditada pela latência que vivenciamos enviando tráfego de longa distância, por exemplo, da Austrália para Cingapura ou Hong Kong. Embora a latência no exemplo de tráfego fluindo da Austrália para Hong Kong ou Cingapura seja aceitável para preservar uma boa qualidade de chamada para o tráfego SIP, para tráfego de mídia em tempo real não é.
+O tráfego de mídia flui por meio de componentes chamados processadores de mídia. Processadores de mídia são colocados nos mesmos datacenters que os proxies SIP:
 
-Local dos processadores de mídia:
-
-Locais onde os componentes de proxy SIP e processador de mídia implantados:
 - EUA (dois datacenters do Leste Dos EUA e oeste dos EUA)
 - Europa (datacenters de Amsterdã e Dublin)
 - Ásia (datacenter de Cingapura)

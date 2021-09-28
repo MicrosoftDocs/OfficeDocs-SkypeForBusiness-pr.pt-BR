@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Saiba como pagar os créditos de Comunicação (Consumo PSTN) por serviços Skype for Business e veja planos para manter seus usuários com acesso contínuo ao sistema de telefonia. '
-ms.openlocfilehash: fe3b80e41c6fdc411304ec43eebb0ab560063033
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d2b6eb0a1f487794cc93f9639e49e9557ca4fcd
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617607"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942044"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
@@ -60,10 +60,10 @@ A recarga automática completa automaticamente o saldo quando este fica abaixo d
   
 Você pode atualizar suas opções de pagamento a qualquer momento. Na página **Assinaturas,** selecione **Créditos de Comunicação** e faça suas atualizações.
   
-Os fundos serão aplicados somente aos Créditos de Comunicação às taxas publicadas da Microsoft quando os serviços são usados. Todos os fundos não usados dentro de doze (12) meses após a data de compra expiram e serão desem contagados.
+Os fundos serão aplicados somente aos Créditos de Comunicação às taxas publicadas da Microsoft quando os serviços são usados. Os fundos não usados no prazo de 12 meses a contar da data de compra expirarão e serão cancelados.
   
 > [!TIP]
-> Enviaremos notificações por email quando os fundos são adicionados por recarga automática, quando a recarga automática falhar (por exemplo, quando um cartão de crédito expirar) e quando o saldo ficar abaixo de zero.
+> Enviaremos notificações por email quando os fundos são adicionados por recarga automática, quando a recarga automática falhar (por exemplo, quando um cartão de crédito expirar) e quando o saldo atingir zero.
   
 Para obter mais informações, consulte [O que são créditos de comunicação?](what-are-communications-credits.md)
   
@@ -79,7 +79,7 @@ Você pode ver os planos e os preços visitando um dos seguintes links:
 
 Você também pode ver informações ao entrar no Centro de administração do Microsoft 365 e ir para **Cobrança**  >  **Assinaturas**  >  **Adicionar assinaturas**.
   
-Para ver uma tabela com a licença ou licenças que você precisará para cada recurso, [consulte Microsoft Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Para ver uma tabela com a licença ou licenças que você precisará para cada recurso, consulte [Microsoft Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

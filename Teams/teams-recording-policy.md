@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6e154f6e972fe54c29f8fcded8c554bf8893795
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 0bbfb13aac415d89f6853fe993ac8c7110ba7fa8
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432273"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941886"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução Teams gravação baseada em política para & reuniões
 
@@ -112,6 +112,10 @@ As soluções de registro de conformidade são integradas Teams conforme mostrad
 
 > [!div class="mx-imgBorder"]
 > ![Captura de tela mostrando a configuração do aplicativo personalizado da equipe.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "As imagens mostram o fluxo quando uma Teams ou chamada é enviada e recebida.")
+
+> [!NOTE]
+> Essa solução foi projetada especificamente para habilitar o registro de conformidade baseado em política com Teams. Qualquer outro uso dessa solução não será suportado.
+
 
 ## <a name="recorder"></a>Gravador
 
