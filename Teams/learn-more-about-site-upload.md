@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d875108648ca8fe91d67c03b7c569c59048cfa43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 189b821e7238911190c4c72c07b863fc961f3074
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589715"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984606"
 ---
 # <a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatórios
 
@@ -40,7 +40,7 @@ Os rótulos de relatório e os dados de localização que você fornece são uma
 
 **Para editar a tabela de sub-redes e locais**
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Locais**  >  **Relatórios rótulos**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Análise & relatórios**  >  **Rótulos de relatório.**
 2. Clique **Upload dados**.
 3. No painel **Upload** de dados, clique em Selecionar um arquivo **e** navegue até e carregue seu arquivo .csv ou .tsv editado.
 4. Clique **Upload**.

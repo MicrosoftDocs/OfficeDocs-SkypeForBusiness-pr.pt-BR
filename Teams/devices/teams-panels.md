@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams painéis.
-ms.openlocfilehash: 5779d9e41cb7adb4a502e590c87babbb277cc33e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 217cd39499975668677c0ec452ce2dd299b464bf
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596235"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984576"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams painéis
 
@@ -56,7 +56,7 @@ Os requisitos de hardware, software e rede para implantar dispositivos de painé
 
 ## <a name="license-requirement"></a>Requisito de licença
 
-Para usar Teams painéis, você precisa [Salas do Microsoft Teams Licença Padrão.](../rooms/rooms-licensing.md)
+Para usar Teams painéis, você precisa [Salas do Microsoft Teams Padrão Licença](../rooms/rooms-licensing.md).
 
 > [!Note]
 > Se você já Salas do Microsoft Teams implantado no espaço de reunião onde você está instalando painéis Teams, então não precisa de uma licença adicional para usar painéis Teams.
@@ -105,11 +105,11 @@ O planejamento de configuração e implantação abrange as seguintes áreas pri
 
 Cada Teams de painéis requer uma Microsoft 365 de recurso de sala. Você usa as credenciais da conta de recurso para entrar Microsoft Teams aplicativo no dispositivo de painéis.
 
-Para configurar uma conta de recurso Microsoft 365 para painéis Teams, recomendamos que você compre uma licença [Salas do Microsoft Teams Standard.](#license-requirement) Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create a resource account using the Centro de administração do Microsoft 365](resource-account-ui.md).
+Para configurar uma conta Microsoft 365 de recursos para Teams painéis, recomendamos que você compre uma licença [Salas do Microsoft Teams Padrão .](#license-requirement) Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create a resource account using the Centro de administração do Microsoft 365](resource-account-ui.md).
 
 > [!NOTE]
 >
->- Se você já tiver uma conta de recurso de sala configurada para o espaço de reunião onde você está instalando painéis, use a mesma conta de recurso de sala para entrar no dispositivo de painéis. No entanto, certifique-se de que a conta de recurso de sala tenha a Salas do Microsoft Teams Standard atribuída a ela para usá-la como conta de recurso de painéis.
+>- Se você já tiver uma conta de recurso de sala configurada para o espaço de reunião onde você está instalando painéis, use a mesma conta de recurso de sala para entrar no dispositivo de painéis. No entanto, certifique-se de que a conta de recurso de sala tenha a licença Salas do Microsoft Teams Padrão atribuída a ela para usá-la como conta de recurso de painéis.
 >
 >- Se você já tiver uma Salas do Microsoft Teams implantada no espaço de reunião onde você está instalando painéis Teams, não precisará comprar uma licença separada para implantar painéis. O administrador se ins conectado ao dispositivo de painéis com as mesmas credenciais que o Salas do Microsoft Teams para o mesmo espaço.
 >
@@ -125,7 +125,7 @@ Depois de ter implantado painéis, você deve testá-los. Verifique se os [recur
 
 ## <a name="manage-teams-panels-in-your-organization"></a>Gerenciar Teams painéis em sua organização
 
-Para gerenciar seus Teams painéis, na navegação à esquerda do centro de administração Microsoft Teams, vá para  >  **Dispositivos Teams painéis**. A partir daqui, você pode alterar o perfil de configuração do dispositivo, gerenciar atualizações, reiniciar dispositivos, adicionar e remover marcas de dispositivo e muito mais. Para obter mais informações, consulte [Manage your devices in Teams](device-management.md).
+Para gerenciar seus Teams de painéis, na navegação à esquerda do centro de administração Microsoft Teams, vá para **Teams**  >  **Dispositivos Teams painéis**. A partir daqui, você pode alterar o perfil de configuração do dispositivo, gerenciar atualizações, reiniciar dispositivos, adicionar e remover marcas de dispositivo e muito mais. Para obter mais informações, consulte [Manage your devices in Teams](device-management.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Atualizar Microsoft Teams telefones, Teams painéis e barras de colaboração remotamente usando o Teams de administração
-ms.openlocfilehash: c35fc24be2456c4ee1583e7a073a7c4dcf8e7214
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 68abf87a0e7e84f3fe5b9e6d7e4f57db55c63450
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727460"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984726"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Atualizar Microsoft Teams dispositivos remotamente
 
@@ -49,7 +49,7 @@ As atualizações de firmware do dispositivo são aplicadas automaticamente. Voc
 Para escolher o comportamento de atualização automática para seus dispositivos, faça o seguinte:
 
 1. Entre no centro de Microsoft Teams de administração visitando https://admin.teams.microsoft.com .
-2. Navegar **dispositivos**  >  **telefones IP** ou **barras** de colaboração ou **Teams painéis**.
+2. Navegue **Teams**  >  **telefones IP de dispositivos** ou barras de **colaboração** ou **Teams painéis**.
 3. Selecione um ou mais dispositivos e selecione **Atualizar**.
 4. Em **Atualização automática do firmware,** selecione um dos seguintes:
     - **Assim que disponível** A segunda atualização de firmware de dispositivo mais recente é aplicada no primeiro fim de semana após o lançamento da atualização mais recente.
@@ -66,7 +66,7 @@ Quando você atualiza um ou mais dispositivos usando o centro de administração
 Para atualizar manualmente dispositivos remotos, faça o seguinte:
 
 1. Entre no centro de Microsoft Teams de administração visitando https://admin.teams.microsoft.com .
-2. Navegar **dispositivos**  >  **telefones IP** ou **barras** de colaboração ou **Teams painéis**.
+2. Navegue **Teams**  >  **telefones IP de dispositivos** ou barras de **colaboração** ou **Teams painéis**.
 3. Selecione um ou mais dispositivos e selecione **Atualizar**.
 4. Em **Atualizações manuais,** selecione **Agendar** se quiser agendar a atualização para uma data e hora futuras. As atualizações são aplicadas na data e hora no timezone selecionado em **Timezone**.
 

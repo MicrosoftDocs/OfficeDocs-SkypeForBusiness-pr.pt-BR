@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião em Teams para áudio e vídeo.
-ms.openlocfilehash: 7dcd3f73d29dcbe635793d4a67db602b8e4c8a1c
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482385"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984616"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configurações de política de reunião para vídeo & áudio
 
@@ -169,7 +169,7 @@ Você pode adicionar imagens de plano de fundo personalizadas a serem usadas por
 
 1. Entre no Centro de administração do Teams.
 
-2. Selecione **Políticas de Reunião** Personalizar imagens de  >  **reunião**.
+2. Selecionar **Políticas de Reunião** De  >  **Reuniões** Personalizar imagens de  >  **reunião**.
 
    ![A seleção de políticas de reunião com o botão Personalizar imagens de reunião realçada.](media/custom-background-image-button.png)
 

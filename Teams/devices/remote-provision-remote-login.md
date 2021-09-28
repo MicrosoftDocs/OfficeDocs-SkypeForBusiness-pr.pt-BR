@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como provisionar e entrar remotamente em dispositivos Teams Android
-ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733310"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984736"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para dispositivos Teams Android
 
@@ -61,7 +61,7 @@ A lista a seguir mostra os requisitos de firmware de dispositivo Android.
 Conclua as etapas a seguir para provisionar um novo dispositivo.
 
 1. Entre no Centro de administração do Teams.
-2. Expanda **Dispositivos**.
+2. Expanda **Teams Dispositivos**.
 3. Selecione **Provisionr novo dispositivo** na guia **Ações.**
 
 Na janela **Provisionar novos dispositivos,** você pode adicionar o endereço MAC manualmente ou carregar um arquivo.

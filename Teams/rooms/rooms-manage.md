@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre como desenvolver e executar operações e manutenção contínuas para garantir que seus sistemas Salas do Microsoft Teams estão disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733580"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984666"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gerenciar Salas do Microsoft Teams
 
@@ -34,7 +34,7 @@ Com Microsoft Teams Admin Center, você pode:
 - Revise a atividade de reunião atual e passada (como detalhes sobre a qualidade da chamada, a saúde da rede e a conectividade e o número de participantes)
 - Consulte periféricos (como câmeras e projetores) conectados a um dispositivo Microsoft Teams Room
 
-Para gerenciar Salas do Teams dispositivos, abra o centro de administração [Microsoft Teams e](https://admin.teams.microsoft.com) vá para   >  **Dispositivos Salas do Teams**.
+Para gerenciar Salas do Teams, abra o centro de administração [Microsoft Teams e](https://admin.teams.microsoft.com) vá para o Teams **Devices**  >  **Salas do Teams**.
 
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Salas do Teams de resumo no Teams de administração.":::
 
@@ -109,7 +109,7 @@ Se você remover um dispositivo e ele ainda estiver configurado com um nome de u
 
 Para remover um ou mais dispositivos, faça o seguinte:
 
-1. Vá para  >  **Dispositivos Salas do Teams** e selecione os dispositivos que você deseja remover.
+1. Vá para **Teams**  >  **Dispositivos Salas do Teams** e selecione os dispositivos que você deseja remover.
 1. Selecione **Remover**.
 
 ## <a name="download-device-logs"></a>Baixar logs de dispositivo
@@ -118,7 +118,7 @@ Você pode baixar uma cópia dos arquivos de log de diagnóstico de um dispositi
 
 Para baixar logs de um Salas do Teams para seu computador, faça o seguinte:
 
-1. Vá para **Dispositivos** Salas do Teams e selecione o nome do dispositivo de onde você  >   deseja baixar logs.
+1. Vá para **Teams Dispositivos Salas do Teams** e selecione o nome do dispositivo do o que você deseja baixar  >   logs.
 1. Selecione **Baixar logs de dispositivo.** Pode levar vários minutos para que os logs de dispositivos se tornem disponíveis.
 1. Selecione a **guia Histórico** e selecione o link de arquivo de log em Arquivo **de Diagnóstico.** Um arquivo zip contendo os arquivos de log de diagnóstico do seu dispositivo será baixado para a pasta Downloads padrão do navegador.
 
