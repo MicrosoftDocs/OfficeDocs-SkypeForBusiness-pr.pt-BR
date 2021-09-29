@@ -1,17 +1,17 @@
 ---
-title: Começar com um modelo de equipe financeira usando o centro de administração
-author: cichur
-ms.author: v-cichur
-manager: serdars
+title: Usar modelos de equipe financeira
+author: lanachin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
-description: Saiba como usar modelos Teams para criar estruturas de equipe projetadas para necessidades financeiras, fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.
+description: Saiba como gerenciar e usar modelos de equipe financeira no centro de administração do Teams e com o Microsoft Graph para criar equipes de forma rápida e fácil para sua organização de serviços financeiros.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,39 +19,57 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 291c9e28dec5f779c8a23888b28d78c79919f1f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
+ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603430"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59991100"
 ---
-# <a name="use-financial-team-templates-in-the-admin-center"></a>Usar modelos de equipe financeira no centro de administração
+# <a name="use-financial-team-templates"></a>Usar modelos de equipe financeira
 
-Os modelos de equipe permitem que você crie equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
+Os modelos de equipe no Microsoft Teams permitem que você crie equipes de forma rápida e fácil, fornecendo uma estrutura de equipe predefinida de configurações, canais e aplicativos pré-instalados.
 
-Os modelos de equipe têm definições pré-criadas de estruturas de equipe projetadas em torno das necessidades financeiras. Você também pode estender os modelos de equipe para criar equipes adaptadas às suas necessidades organizacionais específicas.
+Para organizações de serviços financeiros, os modelos de equipe podem ser especialmente poderosos, pois ajudam você a implantar rapidamente equipes consistentes em sua organização. Os modelos também ajudam a equipe a se orientar sobre como usar efetivamente o Teams.
 
-Neste artigo, apresentaremos cada um dos modelos de equipe e recomendaremos como usá-los.
+O Teams inclui modelos projetados para organizações de serviços financeiros. Use esses modelos pré-criados para criar rapidamente equipes para que a equipe se comunique e colabore. Neste artigo, apresentamos cada um desses modelos e recomendamos como usá-los.
 
-Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização financeira. Você já implantou o serviço Teams em sua organização. Se você ainda não implementou o Teams, comece lendo [Como implementar o Microsoft Teams](./deploy-overview.md).
+A maneira como você gerencia e trabalha com modelos de equipe depende se você é um administrador ou desenvolvedor.
 
-Para saber mais sobre modelos de equipe em geral, consulte [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
+|Se você for: | Em seguida, você: |
+| ---- | --------- |
+| Um administrador ou profissional de TI |[Gerenciar modelos de equipe no centro de administração do Teams](#manage-team-templates-in-the-teams-admin-center). Exiba modelos de equipe e aplique políticas de modelos para controlar quais modelos sua equipe pode usar no Teams para criar equipes. |
+| Um desenvolvedor | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) para criar equipes com base em modelos de equipe. |
 
-## <a name="global-crisis-or-event"></a>Crise global ou evento
+## <a name="manage-team-templates-in-the-teams-admin-center"></a>Gerenciar modelos de equipe no centro de administração do Teams
 
-Centralize a colaboração para sua equipe de crise em unidades de negócios e ajude a criar planos de continuidade de negócios, compartilhar dicas de trabalho remoto, acompanhar as comunicações do cliente e manter todos em loop com comunicados e notícias.
+Como administrador, você pode gerenciar modelos de equipe no centro de administração do Microsoft Teams. Aqui, você pode exibir detalhes sobre cada modelo. Você também pode [criar e atribuir políticas de modelos](templates-policies.md) para sua equipe controlar quais modelos eles veem no Teams para [criação de equipes](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c).
 
-| Tipo de modelo base|baseTemplateId | Propriedades que vêm com este modelo base |
-| ------------------|-- |----------------------------------------------------- |
-| Colaborar em uma crise global ou evento|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canais: <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comunicados internos</li><li>Comunicados externos</li><li>Solicitação de aprovações</li><li>Reclamações de clientes</li><li>Kudos</li><li>Atualização executiva</li></ul>Apps: <ul><li>Elogio</li><li>Wiki</li><li>Site</li><li>Planner</li></ul>|
-||||
+Para saber mais sobre modelos de equipe em geral, consulte [Introdução aos modelos de equipe no centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
-## <a name="collaborate-within-a-bank-branch"></a>Colaborar em uma filial bancária
+Atualmente, oferecemos os seguintes modelos de equipe pré-criados para organizações de serviços financeiros. Para exibi-los, no painel de navegação esquerdo do Centro de administração do Teams, acesse **Teams** > **Modelos do Teams**.
 
-Centralize a colaboração para seus funcionários de filial bancária em Huddles, Customer Meetings, Business Processes, como Colaboração hipotecária, e mantenha todos em loop com Comunicados e Kudos.
+### <a name="collaborate-within-a-bank-branch"></a>Colaborar em uma filial bancária
 
-| Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
+Centralize a colaboração entre funcionários da sua agência bancária em conferências, reuniões com clientes, processos de negócios, como colaboração em hipotecas, e mantenha todos informados com comunicados e elogios.
+
+| Tipo de modelo |TemplateId| Propriedades que vêm com este modelo |
 | ------------------ |--|----------------------------------------------------- |
-|Colaborar em uma filial bancária|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canais: <ul><li>Geral<li>Comunicados</li><li>Insuidades</li><li>Reuniões do cliente</li><li>Solicitação de Aprovações</li><li>Coaching</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações de clientes</li><li>Kudos</li><li>Material divertido</li><li>Conformidade</li></ul>Apps:<ul><li>Elogio</li></ul>|
+|Filial bancária| `CollaborateWithinABankBranch`|Canais: <ul><li>Geral<li>Comunicados</li><li>Insuidades</li><li>Reuniões com clientes</li><li>Pedido de aprovação </li><li>Treinamento</li><li>Desenvolvimento de Habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Diversão</li><li>Conformidade</li></ul>Aplicativos:<ul><li>Elogio </li><li>Relator de Problemas</li><li>Wiki</li><li>Calendário</li><li>Aprovações</li><li>Boletins</li><li>Ideias</li></ul>|
 ||||
+
+## <a name="use-team-templates-with-microsoft-graph"></a>Usar modelos de equipe com Microsoft Graph
+
+Os desenvolvedores podem usar Microsoft Graph para criar equipes com base em modelos de equipe pré-criados. Para saber mais sobre como usar modelos de equipe com o Microsoft Graph, consulte [ Introdução aos modelos de equipe usando Microsoft Graph](get-started-with-teams-templates.md), [Visão geral da API do Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) e [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+
+### <a name="bank-branch"></a>Filial bancária
+
+Centralize a colaboração entre funcionários da sua agência bancária em conferências, reuniões com clientes, processos de negócios, como colaboração em hipotecas, e mantenha todos informados com comunicados e elogios.
+
+| Tipo de modelo |TemplateId| Canais de modelo |
+| ------------------ |--|----------------------------------------------------- |
+|Filial bancária|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|Geral<br>Comunicados<br>Insuidades<br>Reuniões com clientes<br>Pedido de aprovação<br>Treinamento<br>Desenvolvimento de Habilidades<br>Processamento de empréstimos<br>Reclamações do cliente<br>Parabéns<br>Diversão<br>Conformidade|
+||||
+
+> [!NOTE]
+> Para obter modelos adicionais que se aplicam à organização de serviços financeiros, consulte [Modelos de equipe criados no Microsoft Graph para pequenas e médias empresas](smb-templates.md).

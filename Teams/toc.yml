@@ -581,7 +581,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -1548,7 +1548,7 @@ items:
       - name: Teams para o Varejo
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Introdução aos modelos de equipe de Varejo
+          - name: Usar modelos de equipe de varejo
             href: get-started-with-retail-teams-templates.md
       - name: Teams para o Governo
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
