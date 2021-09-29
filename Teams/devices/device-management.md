@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 484ababae4faa4ba92594ab1afabc49e95a39156
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2baa4755f63bbb5867a1e259c9edc9a3aeca0718
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636995"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59993166"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gerenciar seus dispositivos no Microsoft Teams
 
@@ -50,13 +50,13 @@ Você pode gerenciar qualquer dispositivo certificado e inscrito Teams. Um dispo
 - [Teams exibe](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams painéis](teams-panels.md)
 
-Para gerenciar dispositivos, na navegação à esquerda do centro de administração [Microsoft Teams,](https://admin.teams.microsoft.com)vá para **Dispositivos** e selecione o tipo de dispositivo. Cada tipo de dispositivo tem sua própria seção respectiva, que permite gerenciá-los separadamente.
+Para gerenciar dispositivos, na navegação à esquerda do centro de administração [Microsoft Teams,](https://admin.teams.microsoft.com)vá para Teams **Dispositivos** e selecione o tipo de dispositivo. Cada tipo de dispositivo tem sua própria seção respectiva, que permite gerenciá-los separadamente.
 
 ## <a name="manage-teams-rooms-devices"></a>Gerenciar Salas do Teams dispositivos
 
 Você pode usar o Teams de administração para exibir e gerenciar remotamente seus Salas do Teams em toda a sua organização. O Teams de administração torna mais fácil ver, rapidamente, quais dispositivos são saudáveis e que precisam de atenção e permite que você se concentre em dispositivos específicos para ver informações detalhadas sobre a saúde do dispositivo, desempenho da reunião, qualidade de chamada e periféricos. 
 
-Aqui estão algumas coisas que você pode fazer para gerenciar seus Salas do Teams dispositivos. Salas do Teams dispositivos podem ser encontrados no centro de administração [Microsoft Teams em](https://admin.teams.microsoft.com)   >  **Dispositivos Salas do Teams**.
+Aqui estão algumas coisas que você pode fazer para gerenciar seus Salas do Teams dispositivos. Salas do Teams dispositivos podem ser encontrados no centro de administração [Microsoft Teams em](https://admin.teams.microsoft.com) **Teams Devices**  >  **Salas do Teams**.
 
 Para obter detalhes sobre como gerenciar seus dispositivos Salas do Teams, consulte [Manage Salas do Microsoft Teams](../rooms/rooms-manage.md).
 
@@ -84,7 +84,7 @@ Aqui estão alguns exemplos de como você pode gerenciar telefones, barras de co
 | Adicionar ou remover marcas de dispositivo               | Selecione um ou mais dispositivos > **Gerenciar marcas**. Para obter mais informações sobre marcas de dispositivo, consulte [Manage Teams device tags](manage-device-tags.md).                                                                                                                                                                 |
 | Reiniciar dispositivos                         | Selecione um ou mais dispositivos > **Reiniciar**.                                                                                                                                                                                                                                                                    |
 | Filtrar dispositivos usando marcas de dispositivo        | Selecione o ícone de filtro, selecione o campo **Marca,** especifique uma marca de dispositivo para filtrar e selecione **Aplicar**. Para obter mais informações sobre a filtragem de dispositivos usando marcas de dispositivo, [consulte Use filters to return devices with a specific tag](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag). |
-| Exibir histórico e diagnóstico do dispositivo     | Na coluna **Histórico,** clique no link **Exibir** para um dispositivo para exibir seu histórico de atualizações e detalhes diagóticos.                                                                                                                                                                                         |
+| Exibir histórico e diagnóstico do dispositivo     | Na coluna **Histórico,** clique no link **Exibir** para um dispositivo para exibir seu histórico de atualizações e detalhes de diagnóstico.                                                                                                                                                                                         |
 
 ### <a name="use-configuration-profiles-in-teams"></a>Usar perfis de configuração em Teams
 
@@ -94,7 +94,7 @@ Use perfis de configuração para gerenciar configurações e recursos para dife
 
 Para criar um perfil de configuração para um Teams tipo de dispositivo:
 
-1. Na navegação à esquerda, vá para **Dispositivos** > selecione o tipo Teams de dispositivo > **Perfis de configuração**. Por exemplo, selecione **Dispositivos**  >  **Teams painéis Perfis** de configuração para criar um novo perfil de configuração para Teams  >   painéis.
+1. Na navegação à esquerda, vá para Teams **Dispositivos** > selecione o tipo Teams de dispositivo > **perfis de configuração**. Por exemplo, selecione **Teams**  >  **Dispositivos Teams painéis Perfis** de configuração para criar um novo perfil de configuração para Teams  >   painéis.
 2. Clique em **Adicionar**.
 3. Insira um nome para o perfil e, opcionalmente, adicione uma descrição amigável.
 4. Especifique as configurações que você deseja para o perfil e clique em **Salvar**.
@@ -103,7 +103,7 @@ Para criar um perfil de configuração para um Teams tipo de dispositivo:
 #### <a name="assign-a-configuration-profile"></a>Atribuir um perfil de configuração
 Depois de criar um perfil de configuração para um Teams de dispositivo, atribua-o a um ou mais dispositivos.
 
-1. Na navegação à esquerda, vá para **Dispositivos** > selecione o tipo Teams de dispositivo. Por exemplo, para atribuir um perfil de configuração a um dispositivo Teams painéis, selecione **Dispositivos**  >  **Teams painéis**.
+1. Na navegação à esquerda, vá para Teams **Dispositivos** > selecione o tipo Teams dispositivo. Por exemplo, para atribuir um perfil de configuração a um Teams de painéis, selecione **Teams**  >  **Dispositivos Teams painéis**.
 2. Selecione um ou mais dispositivos e clique em **Atribuir configuração**.  
 3. No painel **Atribuir um painel de** configuração, pesquise o perfil de configuração a ser atribuído aos dispositivos selecionados.
 4. Clique em **Aplicar**.
