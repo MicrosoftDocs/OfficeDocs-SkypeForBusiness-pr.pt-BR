@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Saiba como redefinir o PIN de Audioconferência de um usuário no Microsoft Teams e saiba fatos importantes sobre PINs.
-ms.openlocfilehash: 206d625fdf656af5c4b30fdcc9f87dae760807cd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6e2e25f05be1b2e14a41d8a102e05f735ef6c09b
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730090"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60007771"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Redefinir o PIN de audioconferência no Microsoft Teams
 
@@ -37,7 +37,7 @@ As reuniões podem ser iniciadas quando um usuário autenticado ingressar usando
 
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
-![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do Microsoft Teams.](media/teams-logo-30x30.png) **Usando centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
@@ -52,11 +52,12 @@ As reuniões podem ser iniciadas quando um usuário autenticado ingressar usando
    
 ## <a name="have-a-user-reset-their-own-pin"></a>Fazer com que um usuário redefinir seu próprio PIN
 
-1. Fazer o usuário ir para [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) .
+1. Fazer o usuário ir para [https://dialin.teams.microsoft.com/usp](https://dialin.teams.microsoft.com/usp) .
 2. Clique **em Redefinir PIN**. 
 
 > [!NOTE]
-> Para GCCH, vá para: https://webdir2g.online.gov.skypeforbusiness.us/lscp/usp/pstnconferencing .
+> Para GCCH, vá para: https://dialin.cpc.gov.teams.microsoft.us/usp .
+> Para DoD, vá para: https://dialin.cpc.dod.teams.microsoft.us/usp .
 
 ## <a name="what-else-should-you-know-about-pins"></a>O que mais você deve saber sobre PINs?
 
