@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Consulte Skype for Business online para atribuir uma licença de conferência discada e uma ID de conferência a um usuário e muitas outras configurações de conferência discada. '
-ms.openlocfilehash: 68deefd4092d05081ffe8a7aac9a1dc92ea36940
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: eb5313729c2071a64e5d6495e460dbaa475df305
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726460"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012125"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gerenciar as configurações da Audioconferência para minha organização no Skype for Business Online
 
@@ -121,7 +121,7 @@ Consulte [Emails que são enviados automaticamente aos usuários quando suas con
 4. Na janela **Redefinir iD** da conferência? clique em **Sim**. Um ID de conferência será criado automaticamente e um email será enviado ao usuário com o novo ID de conferência, se o envio de email para seus usuários estiver ativado. Está ativado por padrão.
 
     > [!IMPORTANT]
-    >  [!IMPORTANTE] Depois que um novo ID de conferência for criado, o ID antigo não poderá ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que o novo ID de conferência seja incluído nos convites. Os usuários podem usar o Skype for Business de Migração de Reunião para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar Skype for Business Ferramenta de Atualização de Reunião do Skype for Business, consulte: Ferramenta de Atualização de Reunião para Skype for Business e [Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), Skype for Business Online, Ferramenta de Migração de Reunião [(64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)e Skype for Business Online, Ferramenta de Migração de Reunião [(32 bits)](https://www.microsoft.com/download/details.aspx?id=54079).
+    >  [!IMPORTANTE] Depois que um novo ID de conferência for criado, o ID antigo não poderá ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que o novo ID de conferência seja incluído nos convites. Os usuários podem usar o Skype for Business de Migração de Reunião para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar Skype for Business Ferramenta de Atualização de Reunião do Skype for Business, consulte: Ferramenta de Atualização de Reunião para Skype for Business e [Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), Skype for Business Online, Ferramenta de Migração de Reunião [(64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047) [e Skype for Business Online, Ferramenta de Migração de Reunião (32 bits)](https://www.microsoft.com/download/details.aspx?id=54079).
 
 Consulte [Redefinir o ID de conferência de um usuário](reset-a-conference-id-for-a-user.md).
 
@@ -331,7 +331,7 @@ Aqui estão as configurações no nível da organização:
 
   - [Uso do Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-    [!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+    [!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que é suportado apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em Baixar e instalar o módulo [Teams PowerShell](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

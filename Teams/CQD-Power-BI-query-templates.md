@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Use Power BI para analisar dados CQD para Microsoft Teams.
-ms.openlocfilehash: 67e6c8750d064c8472865a22f1367d297fd4fee5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4a96a53454f1f4d89feed3ea87342a7991d7975c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616317"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013765"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Use Power BI para analisar dados CQD para Microsoft Teams
 
@@ -33,7 +33,7 @@ Antes de poder usar esses arquivos PBIT, você precisará instalar o conector de
 
 Certifique-se de ter a função de acesso [CQD correta](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) para acessar os relatórios Power BI dados. 
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |<strong>(Novo!)</strong> CQD Teams Atendedor Automático & Relatório Histórico da Fila de Chamada.pbit     |  Este modelo fornece os três relatórios a seguir:</p><li>Atendedor Automático – mostrando a análise das chamadas que vêm para seus Assistentes Automáticos.</li><li>Fila de Chamadas – mostrando a análise das chamadas que vêm em suas Filas de Chamadas.</li><li>Linha do tempo do agente – mostrando uma exibição de linha do tempo dos agentes que estão ativos em chamadas de Fila de Chamadas.</li><br>Para saber mais, leia Atendedor Automático & Relatório Histórico [da Fila de Chamada.](aa-cq-cqd-historical-reports.md)        |
 |CQD Helpdesk Report.pbit     |Integrando dados de construção e EUII, este relatório foi projetado para permitir que você faça a pesquisa de um único usuário para encontrar a causa raiz upstream da qualidade de chamada ruim para esse usuário (por exemplo, o usuário está em um edifício que está enfrentando problemas de rede).         |

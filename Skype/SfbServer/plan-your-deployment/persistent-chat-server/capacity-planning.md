@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumo: leia este tópico para saber mais sobre o planejamento de capacidade para o Servidor de Chat Persistente Skype for Business Server 2015.'
-ms.openlocfilehash: 430bceb547be9208348d61dc919ddb463f2d5ca2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3ff8076a922d6242de0079239a3ff2c73b539a8
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615567"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012155"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejamento de capacidade para o Servidor de Chat Persistente Skype for Business Server 2015
  
@@ -51,13 +51,11 @@ Use a seguinte tabela de exemplo para determinar o número de usuários que voc�
   
 **Exemplo de capacidade máxima do pool do Servidor de Chat Persistente**
 
-|||
-|:-----|:-----|
-|Instâncias de serviço de Chat Persistente Ativo  <br/> |4   <br/> |
-|Instâncias de serviço de Chat Persistente  <br/> |8 (apenas um máximo de 4 pode estar ativo; 4 deve estar inativo)  <br/> |
-|Usuários ativos conectados  <br/> |80,000  <br/> |
-|Total de usuários provisionados  <br/> |150,000  <br/> |
-|Número de pontos de extremidade  <br/> |120,000  <br/> |
+- Instâncias de serviço de Chat Persistente Ativo: 4  <br/> 
+- Instâncias de serviço de Chat Persistente: 8 (no máximo 4 podem ser ativas; 4 devem estar inativas)  <br/>
+- Usuários ativos conectados: 80.000  <br/>
+- Total de usuários provisionados: 150.000  <br/>
+- Número de pontos de extremidade: 120.000  <br/>
    
 No exemplo anterior, o plano é dar suporte ao número máximo de usuários que o Servidor de Chat Persistente permite: quatro servidores/instâncias do serviço de Chat Persistente (pode ter mais quatro servidores passivos executando o Servidor de Chat Persistente para alta disponibilidade e recuperação de desastres) e 20.000 usuários por servidor, para um total de 80.000 usuários ativos.
   
@@ -67,36 +65,36 @@ A tabela de exemplo a seguir pode ajudá-lo a planejar o gerenciamento do acesso
   
 **Exemplo de gerenciamento de acesso à sala de chat**
 
-||**Salas de Chat Pequenas**|**Salas de Chat Médias**|**Salas de Chat Grandes**|**Total**|
+|&nbsp;|Salas de Chat Pequenas|Salas de Chat Médias|Salas de Chat Grandes|Total|
 |:-----|:-----|:-----|:-----|:-----|
-|Tamanho das salas de chat (número de usuários conectados)  <br/> |30 por sala  <br/> |150 por sala  <br/> |16.000 por sala  <br/> ||
-|Salas de chat  <br/> |32,000  <br/> |1,067  <br/> |10   <br/> |33,077  <br/> |
-|% de salas que são auditórios  <br/> |1%  <br/> |1%  <br/> |50%  <br/> ||
-|% das salas que estão abertas  <br/> |3%  <br/> |3%  <br/> |50%  <br/> ||
-|Salas abertas (sem associação explícita)  <br/> |960  <br/> |32  <br/> |5   <br/> |997  <br/> |
-|Salas não abertas (salas regulares com associação explícita)  <br/> |31,040  <br/> |1.035  <br/> |5   <br/> |32,080  <br/> |
-|Salas de auditório (entrada de apresentadores adicionais)  <br/> |0  <br/> |32  <br/> |5   <br/> ||
-|Salas gerenciadas por associação direta  <br/> |50%  <br/> |10%  <br/> |0%  <br/> ||
-|Salas gerenciados por grupos de usuários  <br/> |50%  <br/> |90%  <br/> |100%  <br/> ||
-|Grupos de usuários na lista de associação de cada sala de chat para salas abertas (não especificado explicitamente)  <br/> |0  <br/> |0  <br/> |0  <br/> ||
-|Usuários na lista de associação de cada sala de chat para salas não abertas  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Grupos de usuários na lista de associação de cada sala de chat para salas não abertas  <br/> |3   <br/> |5   <br/> |10   <br/> ||
-|Usuários e grupos de usuários na lista de gerentes de cada sala de chat (para salas abertas e não abertas)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
-|Usuários e grupos de usuários na lista de apresentadores de cada sala de chat de auditório (para salas abertas e não abertas)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
-|Entidades de associação baseadas no usuário em todas as salas não abertas  <br/> |465,600  <br/> |15,520  <br/> |-  <br/> ||
-|Entidades de associação baseadas em grupo de usuários em todas as salas não abertas  <br/> |46,560  <br/> |4656  <br/> |50  <br/> ||
-|Entidades baseadas em usuários e grupos de usuários em todas as salas de chat de auditório  <br/> |0  <br/> |192  <br/> |50  <br/> ||
-|Entidades de gerente baseadas em usuários e grupos de usuários em todas as listas de gerentes de salas de chat  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
-|Usuários ativos por sala de chat  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Salas de chat por usuário  <br/> |12   <br/> |2  <br/> |2  <br/> |16   <br/> |
-|Grupos de usuários na lista de associação de cada sala de chat  <br/> |10   <br/> |10   <br/> |15   <br/> ||
-|Salas gerenciados por grupos de usuários  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
-|Entidades de participação baseadas em grupos de usuário em todas as salas de chat  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
-|Entidades de participação baseadas em usuários em todas as salas de chat  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
-|Usuários e grupos de usuários no gerenciador de cada sala de chat, apresentador e listas de escopo  <br/> |6   <br/> |6   <br/> |6   <br/> ||
-|Usuários e grupos de usuários em todas as listas de gerente, apresentador e escopo das salas de chat  <br/> |192,000  <br/> |6400  <br/> |60  <br/> ||
-|Entradas de controle de acesso  <br/> |704,160  <br/> |26,768  <br/> |160  <br/> |731,088  <br/> |
-|Entradas de controle de máximo acesso  <br/> ||||2,000,000  <br/> |
+|Tamanho das salas de chat (número de usuários conectados)   |30 por sala   |150 por sala   |16.000 por sala   ||
+|Salas de chat   |32,000   |1,067   |10    |33,077   |
+|% de salas que são auditórios   |1%   |1%   |50%   ||
+|% das salas que estão abertas   |3%   |3%   |50%   ||
+|Salas abertas (sem associação explícita)   |960   |32   |5   |997   |
+|Salas não abertas (salas regulares com associação explícita)   |31,040   |1.035   |5   |32,080   |
+|Salas de auditório (entrada de apresentadores adicionais)   |0   |32   |5   ||
+|Salas gerenciadas por associação direta   |50%   |10%   |0%   ||
+|Salas gerenciados por grupos de usuários   |50%   |90%   |100%   ||
+|Grupos de usuários na lista de associação de cada sala de chat para salas abertas (não especificado explicitamente)   |0   |0   |0   ||
+|Usuários na lista de associação de cada sala de chat para salas não abertas   |30   |150   |16,000   ||
+|Grupos de usuários na lista de associação de cada sala de chat para salas não abertas   |3   |5   |10    ||
+|Usuários e grupos de usuários na lista de gerentes de cada sala de chat (para salas abertas e não abertas)   |6    |6    |6    ||
+|Usuários e grupos de usuários na lista de apresentadores de cada sala de chat de auditório (para salas abertas e não abertas)   |6    |6    |6    ||
+|Entidades de associação baseadas no usuário em todas as salas não abertas   |465,600   |15,520   |-   ||
+|Entidades de associação baseadas em grupo de usuários em todas as salas não abertas   |46,560   |4656   |50   ||
+|Entidades baseadas em usuários e grupos de usuários em todas as salas de chat de auditório   |0   |192   |50   ||
+|Entidades de gerente baseadas em usuários e grupos de usuários em todas as listas de gerentes de salas de chat   |192,000   |6,400   |60   ||
+|Usuários ativos por sala de chat   |30   |150   |16,000   ||
+|Salas de chat por usuário   |12    |2   |2   |16   |
+|Grupos de usuários na lista de associação de cada sala de chat   |10    |10    |15    ||
+|Salas gerenciados por grupos de usuários   |50%   |50%   |50%   ||
+|Entidades de participação baseadas em grupos de usuário em todas as salas de chat   |155,200   |5173   |68   ||
+|Entidades de participação baseadas em usuários em todas as salas de chat   |465,600   |77,600   |72,000   ||
+|Usuários e grupos de usuários no gerenciador de cada sala de chat, apresentador e listas de escopo   |6    |6    |6    ||
+|Usuários e grupos de usuários em todas as listas de gerente, apresentador e escopo das salas de chat   |192,000   |6400   |60   ||
+|Entradas de controle de acesso   |704,160   |26,768   |160   |731,088   |
+|Entradas de controle de máximo acesso   ||||2,000,000   |
    
 No exemplo anterior, quando você implanta os Servidores de Chat Persistente de acordo com as diretrizes recomendadas, eles podem lidar com até 80.000 usuários ativos em um pool de quatro servidores com a conformidade habilitada.
   
@@ -124,21 +122,21 @@ Os dados de exemplo na tabela a seguir pressuem que, na página Configurações 
   
 **Acesso à sala de chat por exemplo de convite**
 
-||**Salas de Chat Pequenas**|**Salas de Chat Médias**|**Salas de Chat Grandes**|**Total**|
+|&nbsp;|Salas de Chat Pequenas|Salas de Chat Médias|Salas de Chat Grandes|Total|
 |:-----|:-----|:-----|:-----|:-----|
-|Usuários que podem acessar a sala de chat  <br/> |30 por sala  <br/> |150 por sala  <br/> |16.000 por sala  <br/> ||
-|Porcentagem de salas que têm convites  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
-|Salas de chat configuradas para enviar convites  <br/> |16,000  <br/> |533  <br/> |5   <br/> ||
-|Usuários que podem acessar a sala de chat  <br/> |60  <br/> |225  <br/> |16,000  <br/> ||
-|Convites gerados pelo Servidor de Chat Persistente  <br/> |960,000  <br/> |120,000  <br/> |80,000  <br/> |1,160,000  <br/> |
-|Número de convites máximo permitido  <br/> ||||2,000,000  <br/> |
-|Modelo 1 - Iniciar com o número esperado de mensagens por sala por dia  <br/> |||||
-|Taxa de chat por sala (por dia)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
-|Taxa de chat (por segundo) em todas as salas  <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
-|Modelo 2 - Iniciar com o número de mensagens postadas por usuário por dia  <br/> |||||
-|Taxa de chat por usuário por dia  <br/> |15   <br/> |5   <br/> |0.1  <br/> |20  <br/> |
-|Taxa de chat por sala (por dia)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
-|Taxa de chat (por segundo) em todas as salas  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
+|Usuários que podem acessar a sala de chat   |30 por sala   |150 por sala   |16.000 por sala   ||
+|Porcentagem de salas que têm convites   |50%   |50%   |50%   ||
+|Salas de chat configuradas para enviar convites   |16,000   |533   |5   ||
+|Usuários que podem acessar a sala de chat   |60   |225   |16,000   ||
+|Convites gerados pelo Servidor de Chat Persistente   |960,000   |120,000   |80,000   |1,160,000   |
+|Número de convites máximo permitido   ||||2,000,000   |
+|Modelo 1 - Iniciar com o número esperado de mensagens por sala por dia   |||||
+|Taxa de chat por sala (por dia)   |50   |500   |100   |650   |
+|Taxa de chat (por segundo) em todas as salas   |55.56   |18.52   |0.03   |74   |
+|Modelo 2 - Iniciar com o número de mensagens postadas por usuário por dia   |||||
+|Taxa de chat por usuário por dia   |15    |5   |0.1   |20   |
+|Taxa de chat por sala (por dia)   |38   |375   |800   |1,213   |
+|Taxa de chat (por segundo) em todas as salas   |41.67   |13.89   |0.28   |56   |
    
 ### <a name="plan-capacity-for-persistent-chat-server-performance"></a>Capacidade do plano para o desempenho do Servidor de Chat Persistente
 
@@ -146,39 +144,37 @@ A tabela a seguir descreve o modelo de usuário para o Servidor de Chat Persiste
   
 **Modelo de usuário de desempenho do Servidor de Chat Persistente**
 
-|||
-|:-----|:-----|
-|Número de usuários ativos conectados  <br/> |80,000  <br/> |
-|Número de instâncias de serviço do Servidor de Chat Persistente  <br/> |4   <br/> |
-|Tamanho de salas de chat pequenas  <br/> |30 usuários  <br/> |
-|Tamanho médio de salas de chat  <br/> |150 usuários  <br/> |
-|Tamanho grande de salas de chat  <br/> |16.000 usuários  <br/> |
-|Número total de salas de chat  <br/> |33,077  <br/> |
-|Número de salas de chat pequenas  <br/> |32,000  <br/> |
-|Número de salas de chat médias  <br/> |1,067  <br/> |
-|Número de salas de chat grandes  <br/> |10   <br/> |
-|Número total de salas de chat por usuário  <br/> |16   <br/> |
-|Número de salas de chat pequenas por usuário  <br/> |12   <br/> |
-|Número de salas de chat médias por usuário  <br/> |2  <br/> |
-|Número de salas de chat grandes por usuário  <br/> |2  <br/> |
-|Número de salas ingressou por usuário  <br/> |24  <br/> |
-|Taxa de pico de associação  <br/> |10/segundo  <br/> |
-|Taxa de chat total  <br/> |24/segundo  <br/> |
-|Taxa de chat para pequenas salas de chat  <br/> |22,22/segundo  <br/> |
-|Taxa de chat para salas de chat médias  <br/> |1,67/segundo  <br/> |
-|Taxa de chat para salas de chat grandes  <br/> |~0,15/segundo  <br/> |
-|Porcentagem de salas de chat configuradas para convites  <br/> |50%  <br/> |
-|Porcentagem de participação direta em  <br/> |50%  <br/> |
-|Porcentagem de membros em grupo  <br/> |50%  <br/> |
-|Número médio de filiações ancestrais nos Serviços de Domínio do Active Directory  <br/> |100 - 200  <br/> |
-|Número de contatos inscritos por usuário  <br/> |80  <br/> |
-|Número médio de pontos de extremidade por usuário  <br/> |1,5  <br/> |
-|Número médio de salas de chat visíveis por ponto de extremidade  <br/> |1,5  <br/> |
-|Número médio de salas de chat visíveis por usuário  <br/> |2,25 (50% para 1 sala e 50% para 2 salas); Até 6 salas abertas, uma por monitor  <br/> |
-|Número de participantes sondados por intervalo  <br/> |25 por sala de chat visível  <br/> |
-|Duração do intervalo de sondagem  <br/> |5 minutos  <br/> |
-|Número de participantes sondados por segundo  <br/> |15.000  <br/> |
-|Número de alterações de presença por hora por usuário  <br/> |6   <br/> |
-|Número de alterações de presença por segundo  <br/> |133.33  <br/> |
+- Número de usuários ativos conectados: 80.000  <br/>
+- Número de instâncias de serviço do Servidor de Chat Persistente: 4  <br/>
+- Tamanho de salas de chat pequenas: 30 usuários  <br/> 
+- Tamanho de salas de chat médias: 150 usuários  <br/>
+- Tamanho de salas de chat grandes: 16.000 usuários  <br/>
+- Número total de salas de chat: 33.077  <br/> 
+- Número de salas de chat pequenas: 32.000  <br/> 
+- Número de salas de chat médias: 1.067  <br/> 
+- Número de salas de chat grandes: 10  <br/> 
+- Número total de salas de chat por usuário: 16  <br/> 
+- Número de salas de chat pequenas por usuário: 12  <br/> 
+- Número de salas de chat médias por usuário: 2  <br/> 
+- Número de salas de chat grandes por usuário: 2  <br/> 
+- Número de salas ingressados por usuário: 24  <br/>
+- Taxa de junção de pico: 10/segundo  <br/> 
+- Taxa total de chat: 24/segundo  <br/> 
+- Taxa de chat para salas de chat pequenas: 22,22/segundo  <br/> 
+- Taxa de chat para salas de chat médias: 1,67/segundo  <br/> 
+- Taxa de chat para salas de chat grandes: ~0,15/segundo  <br/> 
+- Porcentagem de salas de chat configuradas para convites: 50%  <br/>
+- Porcentagem de associações diretas: 50%  <br/>
+- Porcentagem de associações de grupo: 50%  <br/> 
+- Número médio de filiações ancestrais nos Serviços de Domínio do Active Directory: 100 - 200  <br/>
+- Número de contatos inscritos por usuário: 80  <br/> 
+- Número médio de pontos de extremidade por usuário: 1,5  <br/> 
+- Número médio de salas de chat visíveis por ponto de extremidade: 1,5  <br/> 
+- Número médio de salas de chat visíveis por usuário: 2,25 (50% para 1 sala e 50% para 2 salas); Até 6 salas abertas, uma por monitor  <br/> 
+- Número de participantes sondados por intervalo: 25 por sala de chat visível  <br/> 
+- Comprimento do intervalo de sondagem: 5 minutos  <br/> 
+- Número de participantes sondados por segundo: 15.000  <br/>
+- Número de alterações de presença por hora por usuário: 6  <br/> 
+- Número de alterações de presença por segundo: 133,33  
    
 

@@ -16,36 +16,36 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
-description: 'Resumo: revise as considerações de uso da porta antes de implementar Skype for Business Server.'
-ms.openlocfilehash: 4e991d816ea00a51260b16d7af4cbe7e3f326688
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Resumo: revise as considerações de uso da porta antes de implementar o Skype for Business Server.'
+ms.openlocfilehash: 2ed181bd7bbcdce772e7db88a29e60d4f78e9fe2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615577"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012985"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
-**Resumo:** Revise as considerações de uso da porta antes de implementar Skype for Business Server.
+**Resumo:** Revise as considerações de uso da porta antes de implementar o Skype for Business Server.
   
-Skype for Business Server exige que portas específicas nos firewalls externos e internos sejam abertas. Além disso, se a IPsec (Segurança do Protocolo de Internet) for implantada em sua organização, o IPsec deverá ser desabilitado no intervalo de portas usadas para a entrega de áudio, vídeo e vídeo panorâmica. 
+O Skype for Business Server exige que portas específicas nos firewalls externos e internos sejam abertas. Além disso, se a IPsec (Segurança do Protocolo de Internet) for implantada em sua organização, o IPsec deverá ser desabilitado no intervalo de portas usadas para a entrega de áudio, vídeo e vídeo panorâmica. 
   
-Embora isso possa parecer um pouco assustador, o trabalho pesado para planejar isso pode ser feito usando a Ferramenta de Planejamento Skype for Business Server [2015.](https://go.microsoft.com/fwlink/p/?LinkID=282725) Depois de passar pelas perguntas do assistente sobre quais recursos você planeja usar, para cada site definido, você pode exibir o Relatório de Firewall no Relatório de Administração de Borda e usar as informações listadas lá para criar suas regras de firewall. Você também pode fazer ajustes em muitos dos nomes e endereços IP usados, para obter detalhes em [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Lembre-se de que você pode exportar o Relatório de Administração de Borda para uma planilha de Excel, e o Relatório de Firewall será uma das planilhas no arquivo. 
+Embora isso possa parecer um pouco assustador, o trabalho pesado para planejar isso pode ser feito usando a Ferramenta de Planejamento do Skype for Business Server 2015. Depois de passar pelas perguntas do assistente sobre quais recursos você planeja usar, para cada site definido, você pode exibir o Relatório de Firewall no Relatório de Administração de Borda e usar as informações listadas lá para criar suas regras de firewall. Você também pode fazer ajustes em muitos dos nomes e endereços IP usados, para obter detalhes em [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Lembre-se de que você pode exportar o Relatório de Administração de Borda para uma planilha do Excel, e o Relatório de Firewall será uma das planilhas no arquivo. 
   
-Você encontra as informações nessas tabelas em forma de diagrama, revendo o cartaz Cargas de Trabalho de Protocolo vinculadas fora dos diagramas técnicos do artigo Skype for Business Server [2015.](../../technical-diagrams.md)
+Você encontra as informações nessas tabelas em forma de diagrama revendo o cartaz Cargas de Trabalho de Protocolo vinculadas ao artigo Diagramas técnicos do [Skype for Business Server 2015.](../../technical-diagrams.md)
 
 > [!NOTE]
-> - Se você estiver implementando o Skype for Business Online (Microsoft 365 ou Office 365) consulte Microsoft 365 [e Office 365 URLs](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)e intervalos de endereços IP. Os ambientes híbridos precisarão fazer referência a este tópico e também [planejar a conectividade híbrida.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)
-> - Você pode ter firewall de hardware ou software. Não exigimos modelos ou versões específicas. O que importa é quais portas são adicionadas a uma lista de Skype for Business Server.
+> - Se você estiver implementando o Skype for Business Online (Microsoft 365 ou Office 365) consulte URLs e intervalos de endereços IP do [Microsoft 365 e Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) Os ambientes híbridos precisarão fazer referência a este tópico e também [planejar a conectividade híbrida.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+> - Você pode ter firewall de hardware ou software. Não exigimos modelos ou versões específicas. O que importa é quais portas são adicionadas a uma lista de autorizações para que o firewall não adoe o funcionamento do Skype for Business Server.
   
 ## <a name="port-and-protocol-details"></a>Detalhes de Porta e Protocolo
 
-Esta seção resume as portas e protocolos usados por servidores, balanceadores de carga e clientes em uma implantação Skype for Business Server.
+Esta seção resume as portas e protocolos usados por servidores, balanceadores de carga e clientes em uma implantação do Skype for Business Server.
   
 > [!NOTE]
-> Quando Skype for Business Server, ele abre as portas necessárias no firewall Windows. Windows O firewall já deve estar sendo executado na maioria dos aplicativos normais, mas se ele não estiver sendo usado Skype for Business Server funcionará sem ele. 
+> Quando o Skype for Business Server é iniciado, ele abre as portas necessárias no Firewall do Windows. O Firewall do Windows já deve estar em execução na maioria dos aplicativos normais, mas se ele não estiver sendo usado, o Skype for Business Server funcionará sem ele. 
   
-Para obter detalhes sobre a configuração de firewall para componentes de borda, consulte Cenários do Servidor de Borda [Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md). 
+Para obter detalhes sobre a configuração de firewall para componentes de borda, consulte Cenários do Servidor de Borda [no Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md). 
   
 A tabela a seguir lista as portas que precisam ser abertas em cada função de servidor interno. 
   
@@ -54,18 +54,18 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 |Função de servidor|Nome do serviço|Porta|Protocolo|Observações|
 |:-----|:-----|:-----|:-----|:-----|
 |Todos os servidores  |Navegador do SQL  |1434  |UDP  |SQL Navegador para a cópia replicada local do banco de dados do Armazenamento de Gerenciamento Central.  |
-|Front-End Servidores  |Skype for Business Server Front-End serviço  |5060  |TCP  |Usada como opção pelos servidores Standard Edition e Servidores Front-End para rotas estáticas para serviços confiáveis, como servidores de controle de chamada remota.  |
-|Servidores Front-End  |Skype for Business Server Front-End serviço  |5061  | TCP (TLS) |Usada pelos servidores Standard Edition e pools Front-End para todas as comunicações SIP internas entre servidores (MTLS), para comunicações SIP entre o Servidor e o Cliente (TLS) e para comunicações SIP entre os Servidores Front-End e os Servidores de Mediação (MTLS). Também usado para comunicações com um Monitoring Server.  |
-| Servidores Front-End |Skype for Business Server Front-End serviço  |444  | HTTPS <br/> TCP  |Usado para comunicação HTTPS entre o Focus (o componente Skype for Business Server que gerencia o estado da conferência) e os servidores individuais.  <br/> Essa porta também é usada para comunicação TCP entre Aparelhos de Filial E Servidores Front-End.  |
-|Servidores Front-End  |Skype for Business Server Front-End serviço  |135  |DCOM e RPC (controle de procedimento remoto)  |Usada para operações com base em DCOM, como Movendo Usuários, Sincronização do Replicador do Usuário e Sincronização do Catálogo de Endereços.  |
-|Servidores Front-End  |Skype for Business Server Serviço de Conferência de IM  |5062  |TCP  |Usado para solicitações SIP de entrada para conferência de IM (mensagem instantânea).  |
-|Servidores Front-End  |Skype for Business Server Serviço de WebConferência  |8057  |TCP (TLS)  |Usada para escutar conexões PSOM (Modelo de Objeto Compartilhado Persistente) do cliente.  |
-|Servidores Front-End  |Skype for Business Server Serviço de Compatibilidade de WebConferência  |8058  |TCP (TLS)  |Usado para escutar conexões PSOM (Modelo de Objeto Compartilhado Persistente) do cliente Live Meeting e versões anteriores Skype for Business Server.  |
-|Servidores Front-End  |Skype for Business Server Serviço de Audioconferência de Vídeo  |5063  |TCP  |Usada para solicitações SIP de entrada para conferência de áudio/vídeo (A/V).  |
-|Servidores Front-End  |Skype for Business Server Serviço de Audioconferência de Vídeo  |57501-65535  |TCP/UDP  |Intervalo de porta de mídia usado para videoconferência.  |
-|Servidores Front-End  |Skype for Business Server Serviço de Compatibilidade da Web  |80  |HTTP  |Usada para comunicação dos Servidores Front-End com os FQDNs do farm da web (as URLs usadas pelos componentes da web IIS) quando HTTPS não é usado.  |
-|Servidores Front-End  |Skype for Business Server Serviço de Compatibilidade da Web  |443  |HTTPS  |Usado para comunicação dos servidores front-End no farm da web FQDNs (as URLs usadas pelos componentes da web do IIS).  |
-|Servidores Front-End  |Skype for Business Server Serviço de Compatibilidade da Web  |8080  |TCP e HTTP  |Usado por componentes da Web para acesso externo.  |
+|Front-End Servidores  |Serviço de Front-End Skype for Business Server  |5060  |TCP  |Usada como opção pelos servidores Standard Edition e Servidores Front-End para rotas estáticas para serviços confiáveis, como servidores de controle de chamada remota.  |
+|Servidores Front-End  |Serviço de Front-End Skype for Business Server  |5061  | TCP (TLS) |Usada pelos servidores Standard Edition e pools Front-End para todas as comunicações SIP internas entre servidores (MTLS), para comunicações SIP entre o Servidor e o Cliente (TLS) e para comunicações SIP entre os Servidores Front-End e os Servidores de Mediação (MTLS). Também usado para comunicações com um Monitoring Server.  |
+| Servidores Front-End |Serviço de Front-End Skype for Business Server  |444  | HTTPS <br/> TCP  |Usado para comunicação HTTPS entre o Focus (o componente do Skype for Business Server que gerencia o estado da conferência) e os servidores individuais.  <br/> Essa porta também é usada para comunicação TCP entre Aparelhos de Filial E Servidores Front-End.  |
+|Servidores Front-End  |Serviço de Front-End Skype for Business Server  |135  |DCOM e RPC (controle de procedimento remoto)  |Usada para operações com base em DCOM, como Movendo Usuários, Sincronização do Replicador do Usuário e Sincronização do Catálogo de Endereços.  |
+|Servidores Front-End  |Serviço de Conferência de IM do Skype for Business Server  |5062  |TCP  |Usado para solicitações SIP de entrada para conferência de IM (mensagem instantânea).  |
+|Servidores Front-End  |Serviço de WebConferência do Skype for Business Server  |8057  |TCP (TLS)  |Usada para escutar conexões PSOM (Modelo de Objeto Compartilhado Persistente) do cliente.  |
+|Servidores Front-End  |Serviço de Compatibilidade de WebConferência do Skype for Business Server  |8058  |TCP (TLS)  |Usado para escutar conexões PSOM (Modelo de Objeto Compartilhado Persistente) do cliente live meeting e versões anteriores do Skype for Business Server.  |
+|Servidores Front-End  |Serviço de Conferência de Áudio/Vídeo do Skype for Business Server  |5063  |TCP  |Usada para solicitações SIP de entrada para conferência de áudio/vídeo (A/V).  |
+|Servidores Front-End  |Serviço de Conferência de Áudio/Vídeo do Skype for Business Server  |57501-65535  |TCP/UDP  |Intervalo de porta de mídia usado para videoconferência.  |
+|Servidores Front-End  |Serviço de Compatibilidade da Web do Skype for Business Server  |80  |HTTP  |Usada para comunicação dos Servidores Front-End com os FQDNs do farm da web (as URLs usadas pelos componentes da web IIS) quando HTTPS não é usado.  |
+|Servidores Front-End  |Serviço de Compatibilidade da Web do Skype for Business Server  |443  |HTTPS  |Usado para comunicação dos servidores front-End no farm da web FQDNs (as URLs usadas pelos componentes da web do IIS).  |
+|Servidores Front-End  |Serviço de Compatibilidade da Web do Skype for Business Server  |8080  |TCP e HTTP  |Usado por componentes da Web para acesso externo.  |
 |Servidores Front-End  |Componente do servidor Web  |4443  |HTTPS  |HTTPS (do Proxy Reverso) e comunicações entre pools de front-end HTTPS para entrada de Descoberta Automática.  |
 |Servidores Front-End  |Componente do servidor Web  |8060  |TCP (MTLS)  ||
 |Servidores Front-End  |Componente do servidor Web  |8061  |TCP (MTLS)  ||
@@ -92,7 +92,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 |Servidores Front-End  |Skype for Business Server Serviço de Política de Largura de Banda  |448  |TCP  |Usado para controle de admissão de chamada pelo serviço Skype for Business Server Política de Largura de Banda.  |
 |Servidores Front-End onde o armazenamento de Gerenciamento Central reside  | Skype for Business Server Serviço do Agente Replicador Mestre |445  |TCP  |Usado para empurrar dados de configuração do armazenamento de Gerenciamento Central para servidores que executam Skype for Business Server.  |
 |Todos os servidores  |Navegador do SQL  |1434  |UDP  |SQL Navegador para cópia replicada local dos dados do armazenamento de gerenciamento central em instância SQL Server local  |
-|Todos os servidores internos  |Vários  |49152-57500  |TCP/UDP  |Intervalo de porta de mídia usado para audioconferência em todos os servidores internos. Usado por todos os servidores que encerram o áudio: Servidores front-end (para serviço Skype for Business Server Atendedor de Conferência, serviço Skype for Business Server Comunicado de Conferência e serviço Skype for Business Server Conferência de Áudio/Vídeo) e Servidor de Mediação.  |
+|Todos os servidores internos  |Vários  |49152-57500  |TCP/UDP  |Intervalo de porta de mídia usado para audioconferência em todos os servidores internos. Usado por todos os servidores que encerram o áudio: Servidores front-end (para serviço Skype for Business Server Atendedor de Conferência, Skype for Business Server Comunicado de Conferência serviço e Skype for Business Server Serviço de Conferência de Áudio/Vídeo) e Servidor de Mediação.  |
 |Office Servidores Web Apps  ||443  ||Usado por Skype for Business Server para se conectar ao Office Web Apps.  |
 |Diretores  |Skype for Business Server Front-End serviço  |5060  |TCP  |Usada como opção para rotas estáticas até os serviços confiáveis, como servidores de controle de chamada remota.  |
 |Diretores  |Skype for Business Server Front-End serviço  |444  |HTTPS  <br/> TCP  |A comunicação entre servidores Front-End e Diretor. Além disso, o certificado do cliente publica (em Servidores front-end) ou valida se o certificado do cliente já foi publicado.  |
@@ -160,17 +160,17 @@ Seus pools do Front-End e do Diretor que usam o balanceamento de carga DNS tamb�
 |Clientes  |443  |TCP (STUN/MSTURN)  |Usada para acesso de usuário externa às sessões de A/V e mídia (TCP)  |
 |Clientes  |3478  |UDP (STUN/MSTURN)  |Usado para acesso de usuário externo a sessões E/V e mídia (UDP)  |
 |Clientes  |5061  |TCP (MTLS)  |Usada para tráfego SIP do cliente para o servidor para acesso de usuário externo.  |
-|Clientes  |6891-6901  |TCP  |Usado para transferência de arquivos entre Skype for Business clientes e clientes anteriores.  |
+|Clientes  |6891-6901  |TCP  |Usado para transferência de arquivos entre clientes do Skype for Business e clientes anteriores.  |
 |Clientes  |1024-65535 \*  |TCP/UDP  |Intervalo de porta de áudio (mínimo de 20 portas necessárias)  |
 |Clientes  |1024-65535 \*  |TCP/UDP  |Intervalo de porta de vídeo (mínimo de 20 portas necessárias)  |
 |Clientes  |1024-65535 \*  |TCP  |Transferência de arquivos ponto a ponto (para transferência de arquivo de conferência, clientes que usam PSOM).  |
 |Clientes  |1024-65535 \*  |TCP  |Compartilhamento de aplicativos  |
-|Telefone de área comum Aastra 6721ip  <br/> Telefone de mesa Aastra 6725ip  <br/> Telefone IP HP 4110 (telefone de área comum)  <br/> Telefone IP HP 4120 (telefone de mesa)  <br/> Telefone de área comum IP Polycom CX500  <br/> Telefone de mesa IP Polycom CX600  <br/> Telefone de mesa IP Polycom CX700  <br/> Telefone de conferência IP Polycom CX3000  |67/68  |DHCP  |Usado pelos dispositivos listados para encontrar o certificado Skype for Business Server, o FQDN de provisionamento e o FQDN do Registrador.  |
+|Telefone de área comum Aastra 6721ip  <br/> Telefone de mesa Aastra 6725ip  <br/> Telefone IP HP 4110 (telefone de área comum)  <br/> Telefone IP HP 4120 (telefone de mesa)  <br/> Telefone de área comum IP Polycom CX500  <br/> Telefone de mesa IP Polycom CX600  <br/> Telefone de mesa IP Polycom CX700  <br/> Telefone de conferência IP Polycom CX3000  |67/68  |DHCP  |Usado pelos dispositivos listados para encontrar o certificado do Skype for Business Server, o FQDN de provisionamento e o FQDN do Registrador.  |
    
 \* Para configurar portas específicas para esses tipos de mídia, use o cmdlet CsConferencingConfiguration (parâmetros ClientMediaPortRangeEnabled, ClientMediaPort e ClientMediaPortRange).
   
 > [!NOTE]
-> Os programas de instalação para Skype for Business clientes criam automaticamente as exceções de firewall do sistema operacional necessárias no computador cliente. 
+> Os programas de instalação para clientes do Skype for Business criam automaticamente as exceções de firewall do sistema operacional necessárias no computador cliente. 
 
 > [!NOTE]
 > As portas usadas para acesso de usuário externo são necessárias para qualquer cenário no qual o cliente deve percorrer o firewall da organização (por exemplo, qualquer comunicação externa ou reuniões hospedadas por outras organizações). 

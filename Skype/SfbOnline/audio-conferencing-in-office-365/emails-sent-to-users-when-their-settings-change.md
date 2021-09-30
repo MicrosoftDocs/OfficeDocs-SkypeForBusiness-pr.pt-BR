@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba mais sobre quais informações são enviadas automaticamente aos usuários por email quando suas configurações de conferência discada mudarem no Skype for Business Online. '
-ms.openlocfilehash: b33fc6176d4103125432ebe0896ccab34e8fe269
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cb456b9345d8dce1aa7a1d619371f8a2f65eab36
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728030"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011945"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Emails enviados aos usuários quando suas configurações mudam no Skype for Business Online
 
@@ -164,7 +164,7 @@ Você pode usar o cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/previou
   - [Uso do Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > [!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+    > [!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que só tem suporte em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Baixar e instalar o módulo do Teams PowerShell][HELP](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)(/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

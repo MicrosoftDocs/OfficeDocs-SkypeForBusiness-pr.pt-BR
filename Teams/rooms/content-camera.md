@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Use uma câmera de conteúdo em uma Sala do Microsoft Teams, que interage com o software de processamento de imagem para permitir que os apresentadores desenhem em um quadro de comunicações analógico.
-ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 61c0a1a36630fa31190e57de08379d6e80321a34
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726010"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013155"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
@@ -65,7 +65,7 @@ A distância entre a câmera e o quadro de comunicações combina com a resoluç
 | 100°        | 1,26 pés (0,38 m)| 2,52 pés (0,77 m)   | 3,78 pés (1,15 m)   |5,03 pés (1,53 m)   |5,29 pés (1,61 m) |
 | 110°        | 1,05 pés (0,32 m)| 2,10 pés (0,64 m)   | 3,15 pés (0,96 m)   |4,2 pés (1,28 m)    |4,41 pés (1,31 m) |
 | 120°        | 0,87 pés (0,26 m)| 1,73 pés (0,52 m)   | 2,60 pés (0,79 m)   |3,46 pés (1,05 m)   |3,64 pés (1,10 m) |
-|             |               |                  |                  |        |                    |                  |
+             
 
 A distância entre a câmera de conteúdo e a parede na qual o quadro de comunicações está montado varia dependendo do HFoV para esse modelo de câmera. Instale câmeras com HFoV maior (120 graus, por exemplo) mais perto da parede, e câmeras com HFoV menor mais longe da parede. Verifique o HFoV antes de iniciar a instalação da câmera escolhida.
 

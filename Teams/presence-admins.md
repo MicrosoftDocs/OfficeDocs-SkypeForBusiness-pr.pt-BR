@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725820"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012955"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
@@ -33,6 +33,7 @@ A presença faz parte do perfil de um usuário do Microsoft Teams (e por todo o 
 
  > [!NOTE]
  > O Teams respeita sua configuração de privacidade, portanto, se você habilitou o modo de privacidade, sua presença não estará visível para usuários externos.
+
 ## <a name="presence-states-in-teams"></a>Estados de presença no Microsoft Teams
 
 
@@ -50,10 +51,10 @@ A presença faz parte do perfil de um usuário do Microsoft Teams (e por todo o 
 | ![Ícone de relógio amarelo, indica ausente.](media/Presence_Away.png) Ausente| ![Ícone de relógio amarelo, indica ausente.](media/Presence_Away.png) Ausente|
 || ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente Visto por Último *horário*|
 |![Ícone de relógio amarelo, indica ausente, volto logo.](media/Presence_Away.png) Volto logo| |
-|![Círculo cinza com x, indica Offline.](media/Presence_Offline.png) Invisível|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Desligada. Quando os usuários não estão conectados em nenhum dos seus dispositivos por alguns minutos, eles aparecem invisíveis. | |
+|![Círculo cinza com x, indica Offline.](media/Presence_Offline.png) Invisível|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Desligada. Quando os usuários não estão conectados em nenhum dos seus dispositivos por alguns minutos, eles aparecem invisíveis. |
 || ![Círculo cinza aberto, indica status desconhecido.](media/Presence_Unknown.png) Status desconhecido|
 || ![Círculo púrpura com seta, indica Ausência Temporária.](media/Presence_OOF.png) Ausência Temporária. A Ausência Temporária é usada quando uma resposta automática é definida. |
-|||
+
  > [!NOTE]
  > Para usuários que têm sua caixa de correio hospedada no local, são esperados atrasos de presença de uma hora (máximo).
 
@@ -82,7 +83,6 @@ Os estados configurados pelo usuário têm configurações de expiração padrã
 | Ocupado|1 dia|
 | Não incomodar|1 dia|
 | Outros|7 dias|
-|||
 
 > [!NOTE]
 > Um usuário também pode configurar manualmente uma duração para sua presença. Por exemplo, um usuário pode se definir como Invisível até amanhã pela manhã.

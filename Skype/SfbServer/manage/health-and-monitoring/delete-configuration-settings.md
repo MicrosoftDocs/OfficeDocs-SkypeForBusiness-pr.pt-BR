@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: 'Resumo: saiba como remover as configurações de CDR no Skype for Business Server.'
-ms.openlocfilehash: 0552997d5a682c222198adc45e4a67a913f24f1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bcc7330a2f09568159259e3a73cd0fd61a8dc6e4
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608178"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015095"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Excluir uma coleção existente de definições de configuração de CDR no Skype for Business Server
  
@@ -43,7 +43,7 @@ Você pode remover as configurações de CDR usando o Painel de Controle Skype f
     
 ## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Removendo configurações de CDR usando Windows PowerShell Cmdlets
 
-Você pode excluir definições de configuração de registro de detalhes de chamada usando Windows PowerShell e o cmdlet **Remove-CsCdrConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 Usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+Você pode excluir definições de configuração de registro de detalhes de chamada usando Windows PowerShell e o cmdlet **Remove-CsCdrConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>Para remover uma coleção especificada de configurações de CDR
 

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 'Resumo: Gerencie as configurações do Serviço Web Skype for Business Server.'
-ms.openlocfilehash: f007a93eb71fc015f71ddef51011008315de82e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875993a006cf175432984dc78fc37a34b45e92ee
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633605"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015165"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações do Serviço Web em Skype for Business Server
  
@@ -102,7 +102,7 @@ Siga estas etapas para excluir as configurações do serviço Web.
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Excluir a Configuração do Serviço Web Configurações usando Windows PowerShell Cmdlets
 
-Você pode excluir as configurações do serviço Web usando o Windows PowerShell e o cmdlet **Remove-CsWebServiceConfiguration.** Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 Usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+Você pode excluir as configurações do serviço Web usando o Windows PowerShell e o cmdlet **Remove-CsWebServiceConfiguration.** Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Para excluir um conjunto específico de definições de configuração do serviço da Web
 

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Resumo: saiba como associar Relatórios de Monitoramento a um banco de dados espelho usado por Skype for Business Server.'
-ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600656"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014395"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associar relatórios de monitoramento a um banco de dados espelho em Skype for Business Server 
  
@@ -33,15 +33,15 @@ Para fazer com que relatórios de monitoramento sejam automaticamente failover n
     
    - O **prefixo http:**
     
-   - O FQDN (nome de domínio totalmente qualificado) do computador onde os Serviços de Relatório estão instalados (por exemplo, **atl-sql-001.litwareinc.com**).
+   - O FQDN (nome de domínio totalmente qualificado) do computador onde os Serviços de Relatório estão instalados (por exemplo, `atl-sql-001.litwareinc.com` ).
     
    - A cadeia de **caracteres /Reports_**.
     
    - O nome da instância do banco de dados em que os Relatórios de Monitoramento estão instalados (por exemplo, **archinst**).
     
-     Por exemplo, se SQL Server Reporting Services foi instalado no computador atl-sql-001.litwareinc.com e os Relatórios de Monitoramento usarem o archinst de instância do banco de dados, a URL da home page teria esta aparência:
+     Por exemplo, se SQL Server Reporting Services foi instalado no computador e os Relatórios de Monitoramento usarem o archinst de instância do banco de dados, a URL da home page teria `atl-sql-001.litwareinc.com` esta aparência:
     
-     **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
 2. Depois de acessar a home page do Reporting Services, clique em **ServerReports** e clique **em Reports_Content**. Isso o levará à **página** Reports_Content para os relatórios Skype for Business Server monitoramento.
     
@@ -63,7 +63,7 @@ Para fazer com que relatórios de monitoramento sejam automaticamente failover n
     
 7. Na página **CDRDB,** clique **no** Reports_Content link. Clique na **fonte de dados QMSDB** e edite a cadeia de conexão do banco de dados QoE. Por exemplo:
     
-    Fonte de dados=(local)\archinst; Failover Partner=atl-mirror-001\archinst;catalog=QoEMetrics
+    `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     
 8. Clique em **Aplicar**.
     

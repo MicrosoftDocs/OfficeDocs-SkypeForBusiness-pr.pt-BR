@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 749cea72707f03b738330a39457d95fdfad33a43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e669e0454f65ef4d3d5ecc0b4832b33201d2703
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609058"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011755"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -96,7 +96,7 @@ Além de definir seus casos de uso comercial, para definir os limites do projeto
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Pontos de decisão|<ul><li>Quais são todos os casos de uso comercial para Audioconferência que você pode identificar em sua organização?</li><li>Quais são todos os casos de uso comercial para Planos de Chamada que você pode identificar em sua organização?</li><li>Quais são todos os casos de uso comercial para Roteamento Direto que você pode identificar em sua organização?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente todos os casos de uso comercial para Audioconferência para sua organização.</li><li>Documente todos os casos de uso comercial para Planos de Chamada para sua organização.</li><li>Documente todos os casos de uso comercial para Roteamento Direto para sua organização.</li></ul>|
@@ -131,9 +131,9 @@ Os casos de uso comercial definidos na etapa anterior incluem um escopo organiza
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Pontos de decisão|<ul><li>Who preencherá cada função de stakeholder principal para sua organização?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Pontos de decisão|<ul><li>Quem preencherá cada função de stakeholder principal para sua organização?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente todos os principais participantes e comunique as responsabilidades e expectativas da função a cada indivíduo atribuído.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -150,7 +150,7 @@ Os OKRs contêm os objetivos definidos no início do projeto e definem resultado
 > Exemplos de OKRs relevantes para uma implementação de Audioconferência podem ser referenciados abaixo:
 > <br>
 > 
-> **Visão: aumentar a produtividade maximizando Microsoft 365 ou Office 365 investimentos**
+> **Visão: aumentar a produtividade maximizando os investimentos do Microsoft 365 ou office 365**
 > 
 > |Objetivos  |Principais resultados  |Para fazer  |
 > |---------|---------|---------|
@@ -224,7 +224,7 @@ Você precisa identificar os riscos comerciais como parte desse exercício e def
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Pontos de decisão|<ul><li>O que sua organização&#39;OKRs e KSIs?</li><li>Quais riscos você identificou relevantes para a implementação da Audioconferência em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação de Planos de Chamada em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação do Roteamento Direto em sua organização? Quais são os planos de mitigação para os riscos identificados?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente os OKRs e KSIs e estabeleça o registro de riscos.</li></ul>|
@@ -265,7 +265,7 @@ O comitê de direção se reúne em um intervalo recorrente durante todo o tempo
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Pontos de decisão|<ul><li>Decida se um comitê de direção é necessário para sua organização.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Próximas etapas|<ul><li>Identificar membros do comitê de direção.</li><li>Agendar reuniões do comitê de direção.</li><li>Prepare-se para reuniões do comitê de direção.</li><li>Realizar reuniões do comitê de direção.</li><li>Tome medidas com base na entrada de reunião do comitê de direção.</li></ul>|

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 'Resumo: saiba como habilitar a QoE (Qualidade da Experiência) em Skype for Business Server.'
-ms.openlocfilehash: 5865417582f2676525e955efd800684647d9a191
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3edd7aa136499dcc4b1fd423a1369dcff33f0968
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580585"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014745"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Habilitar a qualidade da experiência no Skype for Business Server
 
@@ -42,7 +42,7 @@ Use o procedimento a seguir para habilitar QoE para toda sua organização ou pa
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Habilitando a QoE usando Windows PowerShell Cmdlets
 
-Você pode habilitar a QoE usando Windows PowerShell e o cmdlet **Set-CsQoEConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 Usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+Você pode habilitar a QoE usando Windows PowerShell e o cmdlet **Set-CsQoEConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>Para habilitar o QoE para um único local
 

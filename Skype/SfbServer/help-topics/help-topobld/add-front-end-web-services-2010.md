@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 97420584-3c2e-4d6d-9a2b-f7e361f1e2d1
-description: A URL base é a identidade dos Serviços Web para a URL, menos o https://. Por exemplo, se a URL completa dos Serviços Web do pool for , a https://pool01.contoso.net URL base será pool01.contoso.net.
-ms.openlocfilehash: 378ca3c92441b78aca3c83256c46905da93e2ed8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: A URL base é a identidade dos Serviços Web para a URL, menos o https://. Por exemplo, se a URL completa dos Serviços Web do pool for `https://pool01.contoso.net` , a URL base será `pool01.contoso.net` .
+ms.openlocfilehash: 1e3cfa9fbf56819cb7e920ca312a2fecdd3db6b5
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583985"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013985"
 ---
 # <a name="add-front-end-web-services-2010"></a>Adicionar Serviços Web de Front-end 2010
  
-A URL base é a identidade dos Serviços Web para a URL, menos o https://. Por exemplo, se a URL completa dos Serviços Web do pool for , a https://pool01.contoso.net URL base será pool01.contoso.net.
+A URL base é a identidade dos Serviços Web para a URL, menos o https://. Por exemplo, se a URL completa dos Serviços Web do pool for `https://pool01.contoso.net` , a URL base será `pool01.contoso.net` .
   
 Não é possível substituir o FQDN (nome de domínio totalmente qualificado) do pool de Serviços Web interno para um Edição Standard Server. Se você estiver configurando o balanceamento de carga dns (Sistema de Nomes de Domínio) para um pool de front-end do Edição Enterprise, poderá especificar uma URL base interna diferente (que deve ser diferente do FQDN do pool e pode ser, por exemplo, interna- \<your base URL\> ).
   
-Você pode especificar uma URL de base externa que é diferente da sua URL de base interna para diferenciar a nomenclatura de domínio. Por exemplo, seu domínio interno é contoso.net, porém seu nome de domínio externo é contoso.com. Você definiria a URL de base externa utilizando o nome de domínio contoso.com. Isto é importante para servidores de proxy reverso para uma implantação de borda. O nome de domínio de URL de base externa deve ser o mesmo que o nome de domínio do FQDN do proxy reverso. Mensagens instantâneas e presença exigem acesso HTTP ao pool de Front-End.
+Você pode especificar uma URL de base externa que é diferente da sua URL de base interna para diferenciar a nomenclatura de domínio. Por exemplo, seu domínio interno `contoso.net` é , mas seu nome de domínio externo é `contoso.com` . Você definiria a URL de base externa utilizando o nome de domínio contoso.com. Isto é importante para servidores de proxy reverso para uma implantação de borda. O nome de domínio de URL de base externa deve ser o mesmo que o nome de domínio do FQDN do proxy reverso. Mensagens instantâneas e presença exigem acesso HTTP ao pool de Front-End.
   
 

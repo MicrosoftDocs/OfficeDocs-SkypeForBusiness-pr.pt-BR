@@ -17,16 +17,16 @@ description: Os conectores mantêm sua equipe atualizada com conteúdo e atualiz
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 63dc00716afebf7e9789430b339c6a32e7d414f95852b832168370e12a86628f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3cc7bcd060caf737b23193e006dad20e316eec7
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318600"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011765"
 ---
-# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Use Microsoft 365 conectores personalizados e Microsoft Teams
+# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Use Microsoft 365 conectores personalizados e Microsoft Teams 
 
-Os conectores mantêm sua equipe atual, fornecendo atualizações de conteúdo e serviço usados com frequência diretamente em um canal. Com conectores, os usuários Microsoft Teams podem receber atualizações de serviços populares, como Trello, Wunderlist, GitHub e Azure DevOps Services no fluxo de chat em sua equipe.
+Os conectores mantêm sua equipe atual, fornecendo atualizações de conteúdo e serviço usados com frequência diretamente em um canal. Com conectores, os usuários Microsoft Teams podem receber atualizações de serviços populares, como Trello, Wunderlist, GitHub e Azure DevOps Services no fluxo de chat em sua equipe. 
 
 Qualquer membro de uma equipe pode conectar sua equipe a serviços de nuvem populares com os conectores se as permissões de equipe permitirem e todos os membros da equipe são notificados das atividades desse serviço. Os conectores continuarão a funcionar mesmo depois que o membro que tiver configurado inicialmente o conector tiver sido deixado. Qualquer membro da equipe com as permissões para adicionar\remover pode modificar a configuração de conectores por outros membros.
 

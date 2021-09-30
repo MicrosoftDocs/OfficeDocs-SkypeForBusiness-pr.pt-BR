@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre Skype for Business Cloud Connector Edition, um conjunto de VMs (Máquinas Virtuais) empacotados que implementam a conectividade PSTN local com Sistema de Telefonia (Cloud PBX).
-ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f27fdd41978cd686a7019876dedbfe63a29af9e9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728800"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014145"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planejar Skype for Business Cloud Connector Edition
 
@@ -61,7 +61,7 @@ Considere o seguinte ao planejar sua implantação do Cloud Connector Edition:
 
 - O Cloud Connector não exige uma implantação completa Skype for Business Server local.
 
-    Atualmente, o Cloud Connector não pode coexistir com o Lync ou Skype for Business servidores locais. Se você quiser mover usuários existentes do Lync ou Skype for Business para o Microsoft 365 e continuar fornecendo telefonia local para seus usuários, considere Sistema de Telefonia conectividade local usando uma implantação de Skype for Business Server existente. Para obter mais informações, consulte [Plan your Sistema de Telefonia (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md) and Plan Sistema de Telefonia with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Atualmente, o Cloud Connector não pode coexistir com o Lync ou Skype for Business servidores locais. Se você quiser mover usuários existentes do Lync ou Skype for Business para o Microsoft 365 e continuar fornecendo telefonia local para seus usuários, considere Sistema de Telefonia conectividade local usando uma implantação de Skype for Business Server existente. Para obter mais informações, consulte [Plan your Sistema de Telefonia (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page) and Plan Sistema de Telefonia with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - Se você teve uma implantação anterior do Skype for Business ou do Lync Server e estendeu o esquema, não é necessário limpar o esquema para a implantação do Cloud Connector, desde que tenha removido todos os componentes do Skype for Business ou do Lync Server do seu ambiente.
 
@@ -432,7 +432,7 @@ Se regras mais restritivas são necessárias, consulte as seguintes URLs de list
 
 - [URLs de lista de revogação de](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) certificado em [Office 365 URLs e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Atualização: [como configurar um firewall para atualizações de software](https://technet.microsoft.com/library/bb693717.aspx)
+- Windows Atualização: [gerenciar configurações de atualização Windows de atualização adicionais](/windows/deployment/update/waas-wu-settings)
 
 - Skype for Business Administrador online do PowerShell: \* .online.lync.com
 

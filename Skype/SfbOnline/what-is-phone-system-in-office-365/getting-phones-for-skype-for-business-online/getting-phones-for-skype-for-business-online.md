@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba quais telefones da Polycom, HP, and Mitel funcionam com o Skype for Business e as licenças necessárias. '
-ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b4a5e48a531a694b006126221ddc7fcba40e1c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607428"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013145"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obter telefones para o Skype for Business Online
 
@@ -46,12 +46,11 @@ A Microsoft está fazendo parcerias e trabalhando em estreita parceria com Polyc
   
 Ao solicitar novos telefones para Skype for Business, é importante comprar telefones com a *ID do produto correta.* Essas IDs de produto garantirão que os telefones recebidos tenham a versão Skype for Business online já instalada.
   
-|||
+|Parceiro de Telefone  |ID do produto específico para o Skype for Business  |
 |:-----|:-----|
-|**Parceiro de Telefone** <br/> |**ID do produto específico para o Skype for Business** <br/> |
-|Polycom  <br/> |ID do Produto -019  <br/> |
-|Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
-|AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
+|Polycom   |ID do Produto -019   |
+|Yealink   |SIP-TXXG Skype for Business Edition   |
+|AudioCodes   |UCXXXHDEG (SfB)   |
    
 Para obter mais detalhes sobre telefones Polycom, consulte [Poly Documentation Library](https://documents.polycom.com/category/voice).
   
@@ -68,13 +67,13 @@ Para obter mais detalhes sobre telefones AudioCodes, [consulte Skype for Busines
 
 Esta é a versão mínima de software necessária para que os telefones com suporte funcionem com Sistema de Telefonia:
   
-||||
+
+|Tipo de telefone |Firmware mínimo |Data de lançamento |
 |:-----|:-----|:-----|
-|**Tipo de telefone** <br/> |**Firmware mínimo** <br/> |**Data de lançamento** <br/> |
-|Otimizado (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |Maio 2015  <br/> |
-|Série VVX Polycom Certificada  <br/> |5.4.0A  <br/> |Dezembro de 2015  <br/> |
-|Yealink  <br/> |X.8.1.52  <br/> |Fevereiro de 2017  <br/> |
-|AudioCodes  <br/> |3.0.0.459.1  <br/> |Dezembro de 2016  <br/> |
+|Otimizado (Lync Phone Edition)   |4.0.7577.4463   |Maio 2015   |
+|Série VVX Polycom Certificada   |5.4.0A   |Dezembro de 2015   |
+|Yealink   |X.8.1.52   |Fevereiro de 2017   |
+|AudioCodes   |3.0.0.459.1   |Dezembro de 2016   |
 
 Para obter mais detalhes sobre as versões de firmware certificados atuais, [consulte Skype for Business IP Phones](../../../SfbPartnerCertification/certification/devices-ip-phones.md).
 
@@ -91,29 +90,29 @@ Os modelos de licenciamento do fabricante podem variar entre o SIP aberto e Skyp
 
 Para recursos e recursos completos do dispositivo, verifique os guias de usuário do fabricante.
   
-||||||
+
+|Recurso  |Polycom 3PIP  |Yealink 3PIP |AudioCodes 3PIP |LPE |
 |:-----|:-----|:-----|:-----|:-----|
-|**Recurso** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Entre com as credenciais dos usuários  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Entrar via PC (Emparelhamento), somente Windows  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Entrar usando (Entrada na Web)  <br/>  <br/> **Observação:** Verifique a matriz de suporte no guia de implantação.           |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Clique único para ingressar na reunião  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Clique para discar (Emparelhamento)  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Controles de reunião  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Caixa postal visual  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Trava de telefone  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Atualização de dispositivo  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Provisionamento em banda  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|QoE  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Upload de log  <br/> <br/> **Observação:** Atualmente, todos os logs são carregados apenas para a equipe de Suporte da Microsoft; o acesso do cliente aos logs de telefone ainda não está disponível.           |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Autenticação moderna  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Vários Números de Emergência  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |
-|Integração com o calendário do Exchange*  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> <br/> **Observação:** Requer a adoção de um computador           |
-|Integração de presença  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Diretório Corporativo  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Delegação  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Integração da imagem do contato  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |
-||||||
+|Entre com as credenciais dos usuários   |Sim  |Sim   |Sim   |Não   |
+|Entrar via PC (Emparelhamento), somente Windows   |Sim   |Sim   |Sim   |Sim   |
+|Entrar usando (Entrada na Web)  <br/>  <br/> **Observação:** Verifique a matriz de suporte no guia de implantação.  |Sim   |Sim   |Sim   |Não   |
+|Clique único para ingressar na reunião   |Sim   |Sim   |Sim   |Sim   |
+|Clique para discar (Emparelhamento)   |Sim   |Sim   |Sim   |Sim > |
+|Controles de reunião   |Sim   |Sim   |Sim   |Sim   |
+|Caixa postal visual   |Sim   |Sim   |Sim   |Sim   |
+|Trava de telefone   |Sim   |Sim   |Sim   |Sim   |
+|Atualização de dispositivo   |Sim   |Sim   |Sim   |Sim   |
+|Provisionamento em banda   |Sim   |Sim   |Sim   |Sim   |
+|QoE   |Sim   |Sim   |Sim   |Não  |
+|Upload de log  <br/> <br/> **Observação:** Atualmente, todos os logs são carregados apenas para a equipe de Suporte da Microsoft; o acesso do cliente aos logs de telefone ainda não está disponível.           |Sim   |Sim   |Sim   |Sim   |
+|Autenticação moderna   |Sim   |Sim   |Sim   |Não   |
+|Vários Números de Emergência   |Sim   |Não   |Não   |Sim   |
+|Integração com o calendário do Exchange*   |Sim   |Sim   |Sim   |Sim  <br/> <br/> **Observação:** Requer a adoção de um computador           |
+|Integração de presença   |Sim   |Sim   |Sim   |Sim   |
+|Diretório Corporativo   |Sim   |Sim   |Sim   |Sim   |
+|Delegação   |Sim   |Sim   |Sim   |Não   |
+|Integração da imagem do contato   |Não   |Sim  |Não   |Sim   |
+
 
      
 > [!NOTE]

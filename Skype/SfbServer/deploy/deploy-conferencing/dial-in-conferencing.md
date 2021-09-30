@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Resumo: leia este tópico para saber como configurar a conferência discagem no Skype for Business Server.'
-ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3533220dc84f131b02f180bb863883b371cbf365
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609948"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013785"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar a conferência discagem no Skype for Business Server
  
@@ -157,7 +157,7 @@ Antes de criar números de acesso discado, primeiro você precisa planejar as re
     
 6. Em **Nome para exibição**, digite uma descrição para o número de acesso de discagem. Esse é o nome associado ao número de acesso discado nos Skype for Business de pesquisa. Esse nome é exibido no cliente quando um usuário disca o número de acesso. 
     
-7. Em **URI da Linha**, digite o número E.164 do número de acesso de discagem em formato TEL URI, incluindo o símbolo + antes do número e excluindo espaços. Por exemplo, tel:+14255550200.
+7. Em **URI da Linha**, digite o número E.164 do número de acesso de discagem em formato TEL URI, incluindo o símbolo + antes do número e excluindo espaços. Por exemplo, `tel:+14255550200`.
     
     > [!NOTE]
     > O mesmo URI de Linha não pode ser reusada por outro número de acesso de conferência discada. 

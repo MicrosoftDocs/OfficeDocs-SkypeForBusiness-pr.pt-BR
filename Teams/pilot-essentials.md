@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 521e5eb81d2688c924e3f2c76a25c86f6645b02d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 22ee8e22f7954814aa98b43d1eac250ac38b17cd
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733290"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014605"
 ---
 # <a name="conduct-a-user-pilot"></a>Realizar um piloto de usuário
 
@@ -42,10 +42,10 @@ Implantando novas tecnologias, sua organização pode perceber o valor de negóc
 
 Para obter os resultados mais realistas, o piloto deve envolver usuários reais, imitar como eles se comunicam e colaborar e verificar experiências técnicas e de usuário. Se sua organização está considerando executar Skype for Business e Teams lado a lado, atualizar para o Teams no futuro ou implantar uma nova funcionalidade como uma chamada ou conferência, um piloto pode ajudar a identificar o caminho certo para a sua organização. Às vezes considerado a Fase 1 de uma implantação, o piloto ideal aproveita a preparação que você já iniciou e implementa seu plano definido com um grupo direcionado de usuários.
 
-| | |
+|&nbsp; | &nbsp;|
 |---|---|
-| ![Um ícone que representa um ponto de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Como você usará um piloto para informar a direção do projeto?</li></ul> |
-| ![Um ícone que representa a próxima etapa.](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use as diretrizes abaixo para projetar e executar seu piloto formal.</li></ul>|
+| ![Um ícone representando um ponto de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Como você usará um piloto para informar a direção do projeto?</li></ul> |
+| ![Um ícone representando o passo seguinte.](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use as diretrizes abaixo para projetar e executar seu piloto formal.</li></ul>|
 
 > [!Tip]
 > Use os recursos [piloto de exemplo para](https://aka.ms/UpgradeSuccessKit) ajudar a projetar suas comunicações, plano de teste e pesquisa de feedback.

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Processo de implantação e etapas para o Grupo de Resposta Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 1cb85ac95025b71de8a071758befb5287a6fafa4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef3c5810758d7d3c4df070ca2adf70ef80025ffe
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620177"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015295"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processo de implantação do Grupo de Resposta Skype for Business
 
@@ -77,7 +77,7 @@ A primeira etapa na configuração do Grupo de Resposta é criar grupos de agent
 
 Esta seção somente se aplica a você sea  sua organização precisa cumprir com o FIPS (Federal Information Processing Standards).
 
-Para ser compatível com o FIPS, você precisará modificar o arquivo Web.config de nível de aplicativo para usar um algoritmo de criptografia diferente depois de instalar os serviços da Web. Você precisa especificar que o ASP.NET usa o algoritmo Triple Data Encryption Standard (3DES) para processar os dados de estado de exibição. Para o aplicativo grupo de resposta, esse requisito se aplica à Ferramenta de Configuração do Grupo de Resposta e ao console de entrada e saída do agente. Para obter detalhes sobre esse requisito, consulte o artigo da Base de Dados de Conhecimento da Microsoft 911722, "Você pode receber uma mensagem de erro quando acessar páginas da Web ASP.NET que tenham o ViewState habilitado após a atualização do ASP.NET 1.1 para o ASP.NET 2.0", em [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183) .
+Para ser compatível com o FIPS, você precisará modificar o arquivo Web.config de nível de aplicativo para usar um algoritmo de criptografia diferente depois de instalar os serviços da Web. Você precisa especificar que o ASP.NET usa o algoritmo Triple Data Encryption Standard (3DES) para processar os dados de estado de exibição. Para o aplicativo grupo de resposta, esse requisito se aplica à Ferramenta de Configuração do Grupo de Resposta e ao console de entrada e saída do agente.
 
 Para modificar o arquivo Web.config, faça o seguinte:
 

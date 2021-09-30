@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Visão geral do uso de um atendente automático na nuvem com Skype for Business Server 2019
-ms.openlocfilehash: 19be069ac5f61c9fb2b81df76156e6752350073b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728430"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011505"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Atendedores automáticos do plano da nuvem
 
@@ -27,7 +27,7 @@ O atendimento automático usado com Exchange Unificação de Mensagens (Exchange
 
 Isso significa inerentemente que você terá uma implementação híbrida do Skype for Business Server 2019 se quiser usar recursos de Unificação de Mensagens, como os atendimentos automáticos. Consulte [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md) for details.
 
-Um atendimento automático é um serviço de nuvem que aceita chamadas do cliente e reproduz saudações, fornece opções de menu e interage com chamadores usando fala ou o bloco de discagem para rotear suas chamadas para o destino certo. Cada atendente automático recebe uma conta de recurso *(consulte* [Configure resource accounts](configure-onprem-ra.md)) em seu sistema Skype for Business Server 2019 que será vinculado diretamente a um atendimento automático no centro de administração do Microsoft Teams. Consulte [O que são os atendimentos automáticos](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) na nuvem? para obter mais detalhes sobre quais são os atendimentos automáticos e quais opções e recursos existem para os atendimentos automáticos.
+Um atendimento automático é um serviço de nuvem que aceita chamadas do cliente e reproduz saudações, fornece opções de menu e interage com chamadores usando fala ou o bloco de discagem para rotear suas chamadas para o destino certo. Cada atendente automático recebe uma conta de recurso *(consulte* [Configure resource accounts](configure-onprem-ra.md)) em seu sistema Skype for Business Server 2019 que será vinculado diretamente a um atendimento automático no centro de administração do Microsoft Teams. Consulte [Configurar um atendimento automático para](/microsoftteams/create-a-phone-system-auto-attendant) obter mais detalhes sobre quais são os atendimentos automáticos e quais opções e recursos existem para os atendimentos automáticos.
 
 > [!NOTE]
 > Você pode atribuir vários números de serviço da Microsoft, números de Roteamento Direto ou números híbridos a um atendimento automático.
@@ -37,7 +37,7 @@ Uma chamada de entrada para um atendente automático da nuvem pode tomar um dos 
 ![Diagrama para os atendimentos automáticos.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype for Business Server 2019
-2. Por meio [de um controlador de borda de sessão](/MicrosoftTeams/direct-routing-border-controllers.md) e [roteamento direto](/MicrosoftTeams/direct-routing-plan.md)
+2. Por meio [de um controlador de borda de sessão](/MicrosoftTeams/direct-routing-border-controllers) e [roteamento direto.](/microsoftteams/direct-routing-plan-media-bypass)
 3. Por meio de um número em casa online Microsoft 365 ou Office 365.
 
 Confira também:
@@ -57,10 +57,10 @@ Além dos requisitos acima, os requisitos a seguir devem ser configurados para s
 
 - Conectividade híbrida. Se você já tiver Skype for Business Server implantado e quiser habilitar o atendimento automático na nuvem para seus usuários locais, certifique-se de ter a conectividade híbrida configurada entre seus ambientes locais e online. Às vezes, isso é chamado de configuração de domínio dividido.
 
-   Para obter mais informações, consulte [Plan hybrid connectivity between Skype for Business Server](plan-hybrid-connectivity.md) and Microsoft 365 or Office 365 and Configure hybrid [connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
+   Para obter mais informações, consulte [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and Configure hybrid [connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
 
 - Se você estiver atribuindo um número de telefone ao seu atendimento automático, precisará de uma licença [Office 365 Enterprise E5.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
-- Crie uma conta [de recurso](/MicrosoftTeams/manage-resource-accounts.md) [](configure-onprem-ra.md) online ou conta de recurso local para cada atendimento automático e atribua números de telefone e licenças. 
+- Crie uma conta [de recurso](/MicrosoftTeams/manage-resource-accounts) [](configure-onprem-ra.md) online ou conta de recurso local para cada atendimento automático e atribua números de telefone e licenças. 
 
 ## <a name="migration-and-interoperability"></a>Migração e interoperabilidade
 
@@ -98,7 +98,7 @@ Quando você tiver uma estrutura sólida que atenda às suas necessidades e um s
 > [!CAUTION]
 > Conforme mencionado no [KB4480742,](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)não é desencorajado mover Exchange os atendentes automáticos de UM criados no Server 2015 para servidores que executam o Server 2019. Por enquanto, você teria que mantê-los em um pool Skype for Business Server 2015 em execução no modo de coexistência.
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Consulte Também
 
 [Plano de migração para o Skype for Business Server e Exchange Server](plan-um-migration.md)
 

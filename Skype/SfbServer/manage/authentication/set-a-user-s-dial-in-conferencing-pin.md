@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Resumo: defina o PIN de conferência discado de um usuário para Skype for Business Server.'
-ms.openlocfilehash: d3871fe99de89bdd1430e2b870f5ddd36be188ed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0532a5972a373bd92d9fb72d0883d6c40542a91e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614211"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012315"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Defina o PIN de conferência discado de um usuário em Skype for Business Server
  
@@ -81,7 +81,7 @@ Para ingressar em uma conferência discada como um usuário autenticado, um usu�
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Atribuir um PIN de usuário usando Windows PowerShell cmdlets
 
-Você também pode atribuir números PIN usando o cmdlet Set-CsClientPin. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 Usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server. 
+Você também pode atribuir números PIN usando o cmdlet Set-CsClientPin. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Para atribuir automaticamente um número de PIN a um usuário
 

@@ -16,43 +16,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
-description: 'Resumo: saiba como criar, publicar e verificar uma nova topologia antes de instalar Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Resumo: saiba como criar, publicar e verificar uma nova topologia antes de instalar o Skype for Business Server. Baixe uma avaliação gratuita do Skype for Business Server no Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
+ms.openlocfilehash: d50a2d2e89435bed7ae60c471c76fcca9f766567
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725990"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013355"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Criar e publicar nova topologia no Skype for Business Server
  
-**Resumo:** Saiba como criar, publicar e verificar uma nova topologia antes de instalar Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) .
+**Resumo:** Saiba como criar, publicar e verificar uma nova topologia antes de instalar o Skype for Business Server. Baixe uma avaliação gratuita do Skype for Business Server no Centro de Avaliação da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) .
   
-Antes de instalar o Skype for Business Server em cada um dos servidores na topologia, você deve criar uma topologia e publicá-lo. Ao publicar uma topologia, você está carregando as informações de topologia no banco de dados do Armazenamento de Gerenciamento Central. Se for um pool Edição Enterprise, você criará o banco de dados do Armazenamento de Gerenciamento Central na primeira vez que publicar uma nova topologia. Se isso for Edição Standard, você precisará executar o processo Preparar o primeiro servidor Edição Standard do Assistente de Implantação antes de publicar uma topologia. Isso se prepara para Edição Standard instalando uma instância do SQL Server Express Edition e criando o Armazenamento de Gerenciamento Central. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 em ordem e após as etapas 1 a 5, conforme descrito no diagrama. Como criar e publicar uma nova topologia é descrito na etapa 6 de 8.
+Antes de instalar o sistema do Skype for Business Server em cada um dos servidores na topologia, você deve criar uma topologia e publicá-la. Ao publicar uma topologia, você está carregando as informações de topologia no banco de dados do Armazenamento de Gerenciamento Central. Se for um pool do Enterprise Edition, você criará o banco de dados do Armazenamento de Gerenciamento Central na primeira vez que publicar uma nova topologia. Se for Standard Edition, você precisará executar o processo Preparar o Primeiro Servidor Standard Edition do Assistente de Implantação antes de publicar uma topologia. Isso se prepara para o Standard Edition instalando uma instância SQL Server Express Edition e criando o Armazenamento de Gerenciamento Central. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 em ordem e após as etapas 1 a 5, conforme descrito no diagrama. Como criar e publicar uma nova topologia é descrito na etapa 6 de 8.
   
 ![Diagrama de visão geral.](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
 ## <a name="create-and-publish-new-topology"></a>Criar e publicar nova topologia
 
-Você pode usar Skype for Business Server Construtor de Topologias para projetar, definir, configurar e publicar topologias. Esta ferramenta foi instalada quando você instalou ferramentas administrativas anteriormente no artigo. Há muitas opções diferentes que você pode fazer ao criar uma topologia. Neste procedimento, você criará uma topologia básica com conferência.
+Você pode usar o Construtor de Topologias do Skype for Business Server para projetar, definir, configurar e publicar topologias. Esta ferramenta foi instalada quando você instalou ferramentas administrativas anteriormente no artigo. Há muitas opções diferentes que você pode fazer ao criar uma topologia. Neste procedimento, você criará uma topologia básica com conferência.
   
 > [!IMPORTANT]
-> Skype for Business Server requer SQL Server para operar. Os bancos de dados principais são conhecidos como o Armazenamento de Gerenciamento Central. Se você estiver implantando Edição Enterprise, esses bancos de dados serão criados quando você publicar a topologia usando as etapas abaixo. Nesse caso, o Construtor de Topologias solicitará as informações de conexão para uma SQL Server instalação. Se você estiver planejando implantar o Edição Standard, será necessário instalar o SQL Server Express Edition antes de definir e publicar a nova topologia. Para instalar o SQL Server Express Edition, você deve abrir o Assistente de Implantação no servidor que atuará como o Front-End e, em seguida, executar Prepare First Edição Standard Server. Quando você clica em Preparar primeiro Edição Standard Servidor, o Assistente de Implantação instala automaticamente o SQL Server Express Edition e cria os bancos de dados do Armazenamento de Gerenciamento Central. 
+> O Skype for Business Server requer SQL Server para operar. Os bancos de dados principais são conhecidos como o Armazenamento de Gerenciamento Central. Se você estiver implantando o Enterprise Edition, esses bancos de dados serão criados quando você publicar a topologia usando as etapas abaixo. Nesse caso, o Construtor de Topologias solicitará as informações de conexão para uma instalação SQL Server local. Se você estiver planejando implantar o Standard Edition, precisará instalar o SQL Server Express Edition antes de definir e publicar a nova topologia. Para instalar SQL Server Express Edition, você deve abrir o Assistente de Implantação no servidor que atuará como o Front-End e executar Preparar o Primeiro Servidor Standard Edition. Quando você clica em Preparar o Primeiro Servidor Standard Edition, o Assistente de Implantação instala automaticamente o SQL Server Express Edition e cria os bancos de dados do Armazenamento de Gerenciamento Central. 
   
 ### <a name="create-a-new-topology"></a>Criar uma nova topologia
 
 1. Faça logoff como um usuário padrão com acesso ao Construtor de Topologias.
     
-2. Abra Skype for Business Server Construtor de Topologias.
+2. Abra o Construtor de Topologias do Skype for Business Server.
     
 3. Selecione **Nova Topologia** e clique em **OK**..
     
 4. Selecione um local e um nome de arquivo para o arquivo de configuração de topologia.
     
     > [!NOTE]
-    > A configuração de topologia é salva como um arquivo XML do Construtor de Topologias (.tbxml). Quando você publica uma topologia, você está empurrando as informações de configuração do arquivo para o banco SQL Server banco de dados. Ao abrir o Construtor de Topologias no futuro, você pode baixar a configuração existente do SQL Server diretamente no Construtor de Topologias e publicá-la novamente no SQL Server ou salvá-la como um arquivo de configuração do Construtor de Topologias. 
+    > A configuração de topologia é salva como um arquivo XML do Construtor de Topologias (.tbxml). Quando você publica uma topologia, você está empurrando as informações de configuração do arquivo para o banco SQL Server banco de dados. Ao abrir o Construtor de Topologias no futuro, você pode baixar a configuração existente do SQL Server diretamente no Construtor de Topologias e publicá-la de volta no SQL Server ou salvá-la como um arquivo de configuração do Construtor de Topologias. 
   
-5. Na tela **Definir o domínio primário,** insira o **domínio SIP principal** e clique em **Próximo.** Neste exemplo, estamos usando **contoso.local**, conforme mostrado na figura.
+5. Na tela **Definir o domínio primário,** insira o **domínio SIP principal** e clique em **Próximo.** Neste exemplo, estamos usando `contoso.local` , conforme mostrado na figura.
     
      ![Defina o domínio sip principal.](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
@@ -66,14 +66,14 @@ Você pode usar Skype for Business Server Construtor de Topologias para projetar
     
 9. Clique **em Concluir** para concluir o processo de definição de uma nova topologia. O Assistente de Novo Front-End é lançado automaticamente.
     
-### <a name="define-a-front-end-pool-or-standard-edition-server"></a>Definir um pool de front-end ou Edição Standard servidor
+### <a name="define-a-front-end-pool-or-standard-edition-server"></a>Definir um pool de front-end ou servidor Standard Edition
 
 1. Revise os pré-requisitos do assistente e clique em **Próximo**.
     
-2. Insira o FQDN (nome de domínio totalmente qualificado) do pool Edição Enterprise e selecione Pool de **Front-End** ou **Edição Standard Server** e clique em **Próximo,** conforme mostrado na figura.
+2. Insira o FQDN (nome de domínio totalmente qualificado) do pool e selecione Pool **de Front-End enterprise edition** ou Servidor Standard **Edition** e clique em **Próximo**, conforme mostrado na figura.
     
     > [!TIP]
-    > Skype for Business Server Edição Enterprise pode incluir vários servidores trabalhando juntos para fornecer a função front-end. Quando vários servidores são usados para cumprir a função, ele é chamado de pool. Assim, vários servidores trabalhando juntos para fornecer a função Front-End também são chamados de pool de Front-End. Skype for Business Server Edição Standard pode incluir apenas um único servidor para fornecer a função Front-End. É comum referir-se ao pool de Front-End mesmo se apenas um único servidor estiver fornecendo a função. 
+    > O Skype for Business Server Enterprise Edition pode incluir vários servidores trabalhando juntos para fornecer a função de Front-End. Quando vários servidores são usados para cumprir a função, ele é chamado de pool. Assim, vários servidores trabalhando juntos para fornecer a função Front-End também são chamados de pool de Front-End. O Skype for Business Server Standard Edition pode incluir apenas um único servidor para fornecer a função front-end. É comum referir-se ao pool de Front-End mesmo se apenas um único servidor estiver fornecendo a função. 
   
      ![Defina o pool de front-end.](../../media/c1447557-261e-4260-a362-ab8d19070eb9.png)
   
@@ -84,13 +84,13 @@ Você pode usar Skype for Business Server Construtor de Topologias para projetar
 4. Selecione os recursos que serão incluídos nesta topologia e clique em **Próximo,** conforme mostrado na figura.
     
     > [!NOTE]
-    > Skype for Business Server inclui muitos recursos avançados. Revise a documentação de planejamento e implantação para cada recurso específico que você deseja usar. 
+    > O Skype for Business Server inclui muitos recursos avançados. Revise a documentação de planejamento e implantação para cada recurso específico que você deseja usar. 
   
      ![Selecione recursos para a implantação.](../../media/77257588-d0e1-4517-a12a-869ffe009353.png)
   
 5. Na página **Selecionar funções** de servidor alocadas, você pode optar por colocar o servidor de Mediação no servidor front-end ou pode optar por implantá-lo como um servidor autônomo.
     
-    Se você pretende reajustar o servidor de Mediação no pool Edição Enterprise front-end, verifique se a caixa de seleção está selecionada. As funções de servidor serão implantadas nos servidores do pool. Se você pretende implantar o servidor de Mediação como um servidor autônomo, desajuste a caixa de seleção apropriada. Você implantará o servidor de Mediação em uma etapa de implantação separada depois de implantar completamente o servidor Front-End. Para planejar detalhes sobre uma localização, consulte [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
+    Se você pretende reajustar o servidor de Mediação no pool de Front-End enterprise edition, verifique se a caixa de seleção está selecionada. As funções de servidor serão implantadas nos servidores do pool. Se você pretende implantar o servidor de Mediação como um servidor autônomo, desajuste a caixa de seleção apropriada. Você implantará o servidor de Mediação em uma etapa de implantação separada depois de implantar completamente o servidor Front-End. Para planejar detalhes sobre uma localização, consulte [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
     
 6. Usando a **página Associar funções de servidor a esse pool de Front-End,** você pode definir e associar funções de servidor ao pool de Front-End. A seguinte função está disponível:
     
@@ -108,11 +108,11 @@ Você pode usar Skype for Business Server Construtor de Topologias para projetar
     
    - Nesse caso, você selecionará as funções que pretende implantar ou associar ao novo servidor Front-End. Em qualquer caso, você continuará com a definição das funções, configurar qualquer hardware necessário e continuar com a instalação.
     
-7. Em seguida, você definirá o SQL Server que será usado com a topologia. Neste exemplo, usamos a instância Padrão. Para obter mais informações sobre SQL Server recursos, como Alta Disponibilidade, consulte [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+7. Em seguida, você definirá o SQL Server que será usado com a topologia. Neste exemplo, usamos a instância Padrão. Para obter mais informações sobre SQL Server recursos, como Alta Disponibilidade, consulte Plan for high availability and [disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
     
    - Para usar um repositório de SQL Server existente que já foi definido em sua topologia, selecione uma instância do **Repositório SQL**.
     
-   - Para definir uma nova SQL Server para armazenar informações do pool, clique em Novo **e** especifique o **FQDN** SQL Server na caixa de diálogo Definir novo SQL **Store.**
+   - Para definir uma nova SQL Server para armazenar informações do pool, clique em Novo **e** especifique o **FQDN** SQL Server na caixa de diálogo **Definir** novo SQL Store.
     
    - Para especificar o nome de uma instância de SQL Server, selecione **Instância nomeada** e especifique o nome da instância.
     
@@ -121,13 +121,13 @@ Você pode usar Skype for Business Server Construtor de Topologias para projetar
    - Para usar SQL espelhamento, selecione Habilitar SQL **espelhamento** e selecione uma instância existente ou crie uma nova instância.
 
      > [!NOTE]
-     > SQL O espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de clustering de failover são preferenciais com o Skype for Business Server 2019.
+     > SQL espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de cluster de failover são preferenciais com o Skype for Business Server 2019.
     
-     Para este exemplo, inseriremos o **FQDN** de SQL Server , configuramos quaisquer configurações de alta disponibilidade relevantes e, em seguida, clicamos em **OK**, conforme mostrado na figura.
+     Para este exemplo, insiramos o **FQDN** SQL Server , configuramos qualquer configuração de alta disponibilidade relevante e, em seguida, clicamos em **OK**, conforme mostrado na figura.
     
      ![Crie um SQL Server store.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
-8. Decida se deseja habilitar SQL Server espelhamento ou SQL Server de espelhamento e clique em **Próximo.**
+8. Decida se deseja habilitar SQL Server espelhamento ou SQL Server de espelhamento e clique em **Próximo**.
     
 9. Defina o compartilhamento de arquivos que você deseja usar.
     
@@ -138,21 +138,21 @@ Você pode usar Skype for Business Server Construtor de Topologias para projetar
      Para este exemplo, clicaremos em Definir um novo armazenamento de **arquivos,** inseriremos o **FQDN** do servidor de arquivos e o **compartilhamento** de arquivos e clicaremos em **Próximo**.
     
      > [!NOTE]
-     > O compartilhamento de arquivos Skype for Business Server pode ser alocado, mas não é recomendado por motivos de desempenho. Observe que, neste exemplo, o compartilhamento de arquivos foi localizado em um único servidor dedicado que atuará como o compartilhamento de arquivos. No entanto, outros sistemas de compartilhamento de arquivos mais robustos, como DFS usando Windows Server 2012 R2, são recomendados. Para obter detalhes sobre sistemas de compartilhamento de arquivos suportados, consulte [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Para obter mais informações sobre como criar o compartilhamento de arquivos, consulte [Create a file share in Skype for Business Server](create-a-file-share.md). Você pode definir o compartilhamento de arquivos sem que este tenha sido criado. Será necessário criar o compartilhamento de arquivos no local que você definir antes de publicar a topologia. 
+     > O compartilhamento de arquivos para o Skype for Business Server pode ser alocado, mas não é recomendado por motivos de desempenho. Observe que, neste exemplo, o compartilhamento de arquivos foi localizado em um único servidor dedicado que atuará como o compartilhamento de arquivos. No entanto, outros sistemas de compartilhamento de arquivos mais robustos, como DFS usando o Windows Server 2012 R2, são recomendados. Para obter detalhes sobre sistemas de compartilhamento de arquivos suportados, consulte [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Para obter mais informações sobre como criar o compartilhamento de arquivos, consulte [Create a file share in Skype for Business Server](create-a-file-share.md). Você pode definir o compartilhamento de arquivos sem que este tenha sido criado. Será necessário criar o compartilhamento de arquivos no local que você definir antes de publicar a topologia. 
   
 10. Na página Especificar a URL dos Serviços Web, você deve decidir se precisa substituir a URL base interna do pool de Serviços Web. O motivo dessa substituição tem a ver com o balanceamento de carga. O tráfego SIP básico pode ser balanceado por meio do balanceamento de carga DNS simples. No entanto, o tráfego de rede de Serviços Web HTTP/S deve usar uma solução de balanceamento de carga de Hardware ou Software com suporte. Para balanceadores de carga com suporte, consulte [Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md). Neste exemplo, utilizamos o balanceamento de carga DNS para tráfego SIP e uma solução de balanceamento de carga de software com suporte. Como estamos dividindo o tráfego dessa maneira, precisamos substituir o FQDN do pool de Serviços Web interno. Como alternativa, se tivessemos um balanceador de carga de linha superior e enviasse todo o tráfego por ele em vez de usar o balanceamento de carga DNS para o tráfego SIP, não precisaríamos substituir a URL dos Serviços Web. 
     
-    Na seção DNS deste tópico, criamos um registro A para webint.contoso.local. Essa é a URL que estamos usando para o tráfego HTTP/S dos serviços Web e deve passar pelo balanceador de carga de software com suporte que configuramos. Portanto, neste exemplo, substituimos a URL para que Skype for Business Server saiba que todo o tráfego HTTP/S deve ir para webint.contoso.local em vez de pool.contoso.local, conforme mostrado na figura. Para obter mais informações sobre balanceamento de carga, consulte [Requisitos de balanceamento](../../plan-your-deployment/network-requirements/load-balancing.md)de carga para Skype for Business .
+    Na seção DNS deste tópico, criamos um registro A para `webint.contoso.local` . Essa é a URL que estamos usando para o tráfego HTTP/S dos serviços Web e deve passar pelo balanceador de carga de software com suporte que configuramos. Portanto, neste exemplo, substituimos a URL para Skype for Business Server que todo o tráfego HTTP/S deve ir para , como `webint.contoso.local` `pool.contoso.local` mostrado na figura. Para obter mais informações sobre balanceamento de carga, consulte [Requisitos de balanceamento](../../plan-your-deployment/network-requirements/load-balancing.md)de carga para Skype for Business .
     
     > [!IMPORTANT]
-    > A URL base é a identidade dos Serviços Web para a URL, menos o https://. Por exemplo, se a URL completa dos Serviços Web do pool for , a https://webint.contoso.local URL base será webint.contoso.local. 
+    > A URL base é a identidade dos Serviços Web para a URL, menos o https://. Por exemplo, se a URL completa dos Serviços Web do pool for `https://webint.contoso.local` , a URL base será `webint.contoso.local` . 
   
     - Se você estiver configurando o balanceamento de carga DNS, como estamos neste exemplo, marque a caixa de seleção Substituir **FQDN** do pool de Serviços Web internos e insira a URL base interna (que deve ser diferente do FQDN do pool) na URL base **interna.** 
     
     > [!CAUTION]
     > Se você decidir substituir os Serviços Web Internos por um FQDN auto-definido, cada FQDN deve ser exclusivo de qualquer outro pool de Front-End, Diretor ou Pool de Diretores. **Use somente caracteres** padrão (incluindo A-Z, a-z, 0-9 e hífens) quando você definir URLs ou nomes de domínio totalmente qualificados. Não use caracteres Unicode ou sublinhados. Caracteres não padrão em uma URL ou FQDN geralmente não são suportados por CAs (autoridades de certificação públicas e DNS externos) (ou seja, quando a URL ou FQDN deve ser atribuída ao nome do assunto ou nome alternativo do assunto no certificado).
   
-    - Opcionalmente, insira a URL base externa na **URL base externa**. Você inseriria a URL base externa para diferenciá-la do seu nome de domínio interno. Por exemplo, seu domínio interno é contoso.local, mas seu nome de domínio externo é contoso.com. Você definiria a URL usando o nome contoso.com domínio, pois ela deve ser resolvêvel a partir do DNS público. Isso também é importante no caso de um proxy reverso. O nome de domínio da URL base externa seria igual ao nome de domíniodo  FQDN do proxy inverso. O acesso HTTP ao pool de Front-End é necessário para mensagens instantâneas e presença em clientes móveis.
+    - Opcionalmente, insira a URL base externa na **URL base externa**. Você inseriria a URL base externa para diferenciá-la do seu nome de domínio interno. Por exemplo, seu domínio interno `contoso.local` é , mas seu nome de domínio externo é `contoso.com` . Você definiria a URL usando o `contoso.com` nome de domínio, pois ela deve ser resolvêvel a partir do DNS público. Isso também é importante no caso de um proxy reverso. O nome de domínio da URL base externa seria igual ao nome de domíniodo  FQDN do proxy inverso. O acesso HTTP ao pool de Front-End é necessário para mensagens instantâneas e presença em clientes móveis.
     
       ![Substituir serviços Web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
@@ -174,7 +174,7 @@ Você pode usar Skype for Business Server Construtor de Topologias para projetar
   
 2. No painel **URLs** simples, selecione **URLs** de Telefone de acesso: (Discagem) ou **URLs de Reunião:** (Reunir) para editar e clique em **Editar URL**.
     
-3. Atualize a URL para o valor desejado e clique em **OK** para salvar a URL editada. Você deve configurar a URL simples usando o domínio SIP externo para que os usuários externos possam participar de reuniões, por exemplo, contoso.com, que é externa, em vez de contoso.local, que é um domínio interno. Assim, o domínio SIP deve ser capaz de ser resolvido por DNS externo.
+3. Atualize a URL para o valor desejado e clique em **OK** para salvar a URL editada. Você deve configurar a URL simples usando o domínio SIP externo para que os usuários externos possam participar de reuniões, por exemplo, , que é externa, em vez de , que é `contoso.com` `contoso.local` um domínio interno. Assim, o domínio SIP deve ser capaz de ser resolvido por DNS externo.
     
 4. Edite a URL de Reunião usando as mesmas etapas, se necessário.
     
@@ -185,10 +185,10 @@ Você pode usar Skype for Business Server Construtor de Topologias para projetar
 2. Na caixa **URL de acesso** administrativo, insira a URL simples que você deseja para acesso administrativo Skype for Business Server Painel de Controle e clique em **OK**.
     
     > [!TIP]
-    > Recomendamos usar a URL mais simples possível para a URL Admin. A opção mais simples é https://admin _\<domain\>_ . A URL do administrador pode ser um domínio interno ou externo, por exemplo, contoso.local ou contoso.com, desde que um dos registros seja resolvido no DNS interno. 
+    > Recomendamos usar a URL mais simples possível para a URL Admin. A opção mais simples é https://admin _\<domain\>_ . A URL do administrador pode ser um domínio interno ou externo, por exemplo, ou , desde que um registro seja `contoso.local` `contoso.com` resolvido no DNS interno. 
   
     > [!IMPORTANT]
-    > Se você alterar uma URL simples após a implantação inicial, esteja ciente das alterações que afetam seus registros de DNS (Sistema de Nome de Domínio) e certificados para URLs simples. Se a alteração afetar a base de uma URL simples, você também deverá alterar os registros e certificados DNS. Por exemplo, mudar de para altera a URL base de sfb.contoso.com para meet.contoso.com, portanto, você precisaria alterar os registros DNS e certificados para se referir a https://sfb.contoso.com/Meet https://meet.contoso.com meet.contoso.com. Se você alterou a URL simples de para , a URL base do sfb.contoso.com permanece a mesma, portanto, https://sfb.contoso.com/Meet nenhuma alteração de DNS ou certificado é https://sfb.contoso.com/Meetings necessária. Sempre que você alterar um nome de URL simples, no entanto, você deve executar o cmdlet **Enable-CsComputer** em cada diretor e servidor front-end para registrar a alteração.
+    > Se você alterar uma URL simples após a implantação inicial, esteja ciente das alterações que afetam seus registros de DNS (Sistema de Nome de Domínio) e certificados para URLs simples. Se a alteração afetar a base de uma URL simples, você também deverá alterar os registros e certificados DNS. Por exemplo, mudar de `https://sfb.contoso.com/Meet` para altera a URL base de `https://meet.contoso.com` sfb.`contoso.com` para `meet.contoso.com` , portanto, você precisaria alterar os registros DNS e certificados para se referir `meet.contoso.com` a . Se você alterou a URL simples de para , a URL base de permanece a mesma, para que `https://sfb.contoso.com/Meet` nenhuma alteração de DNS ou certificado seja `https://sfb.contoso.com/Meetings` `sfb.contoso.com` necessária. Sempre que você alterar um nome de URL simples, no entanto, você deve executar o cmdlet **Enable-CsComputer** em cada diretor e servidor front-end para registrar a alteração.
   
 ### <a name="publish-and-verify-the-topology"></a>Publicar e verificar a topologia
 

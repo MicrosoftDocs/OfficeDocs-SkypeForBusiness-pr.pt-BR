@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Para que um usuário use Sistema de Telefonia (Cloud PBX), primeiro você deve habilita-los para Enterprise Voice e atribuí-los um número de telefone. Você faz isso usando sua implantação local enquanto o usuário ainda está em casa na implantação local.
-ms.openlocfilehash: 28943670a0919d80c96c97b7574cdc82ac68cfde
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613690"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012505"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilitar os usuários para Enterprise Voice local
  
@@ -51,7 +51,7 @@ Para que um usuário use Sistema de Telefonia (Cloud PBX), primeiro você deve h
     
 7. Em **Telefonia,** clique **em Enterprise Voice**.
     
-8. Clique **em URI** de linha e digite um número de telefone exclusivo e normalizado (por exemplo, tel:+14255550200). Em seguida, **clique em Commit**.
+8. Clique **em URI de** linha e digite um número de telefone exclusivo e normalizado (por exemplo, `tel:+14255550200` ). Em seguida, **clique em Commit**.
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Considerações especiais ao habiligá-Enterprise Voice no local
 

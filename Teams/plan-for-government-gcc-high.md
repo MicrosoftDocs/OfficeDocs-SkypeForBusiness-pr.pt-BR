@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ba5a17ab83cd390a4aae121ccae93adcdda3595
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b093cfae82c8cf5b41b40f1636f0a2f4a3571012
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732890"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013525"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Plan for Office 365 Government - GCC High deployments
 
@@ -51,9 +51,9 @@ A [Office 365 descrição do](/office365/servicedescriptions/office-365-platform
 > Talvez você queira transferir as tabelas de informações na descrição do serviço para uma Excel de trabalho e adicionar duas colunas: relevantes para minha organização **Y/N** e atende às necessidades da minha organização **Y/N**. Em seguida, você pode revisar essa lista com seus colegas para confirmar se esse serviço atende às necessidades da sua organização.
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se Office 365 Government - GCC High é apropriado para sua organização.</li><li>Confirme se sua organização atende aos requisitos de qualificação.</li></ul> |
+| ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se Office 365 Government - GCC High é apropriado para sua organização.</li><li>Confirme se sua organização atende aos requisitos de qualificação.</li></ul> |
 
 > [!Note]
 > Office 365 Government - GCC High só está disponível nos Estados Unidos. Os clientes do Governo não-EUA podem escolher entre vários Office 365 Government [planos.](https://products.office.com/en/government/compare-office-365-government-plans)
@@ -67,9 +67,9 @@ Depois de decidir que esse serviço é o correto para sua organização, inicie 
 
 Recomendamos que você tenha tempo [](enable-features-office-365.md) para analisar cuidadosamente suas configurações de administração e segurança antes de modificá-las e considerar os impactos na conformidade antes de fazer alterações nas configurações de segurança padrão.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Um ícone que representa um ponto de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você precisará modificar qualquer uma das configurações padrão de Office 365 Government - GCC alta segurança, resolvendo primeiro entender o impacto de quaisquer alterações que você possa fazer.</li></ul> |
+| ![Um ícone representando um ponto de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você precisará modificar qualquer uma das configurações padrão de Office 365 Government - GCC alta segurança, resolvendo primeiro entender o impacto de quaisquer alterações que você possa fazer.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>Etapa 4. Entenda quais Teams recursos estão disponíveis atualmente no Office 365 Government - GCC High
@@ -82,7 +82,7 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 
 Determine seus requisitos de governança e como você pode atender a eles. Acesse [Plan for governance in Teams](plan-teams-governance.md) para obter mais informações.
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|Ponto de decisão |<ul><li>Determine e documente seus requisitos de governança, seguindo as diretrizes em [Plan for governance in Teams](plan-teams-governance.md). </li></ul>|
 

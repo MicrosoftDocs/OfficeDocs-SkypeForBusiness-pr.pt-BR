@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações para Skype for Business Server 2015/2019 e Lync 2013 em um só lugar. Use os links nesta página para saber mais e baixar as atualizações.
-ms.openlocfilehash: 4f9b8e4de19778d2ded55f14e0de894528590d50
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432303"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012375"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -141,7 +141,7 @@ O KB 4470124 é o KB mestre do Skype for Business Server 2019, que tem toda a li
 
 #### <a name="pre-configured-vhds"></a>VHDs pré-configurados
 
-A topologia completa consiste em 7 máquinas virtuais que permitem avaliar totalmente o Microsoft Lync 2013, As APIs da plataforma de desenvolvedores UC do Microsoft Exchange 2013, SharePoint 2013 (incluindo o SDK do Microsoft Lync 2013, a API Gerenciada dos Serviços Web 2.0 do Exchange, o SDK do Microsoft Lync Server 2013 e a API Gerenciada pela Microsoft Unified Communications 4.0).
+A topologia completa consiste em 7 máquinas virtuais que permitem avaliar totalmente o Microsoft Lync 2013, o Microsoft Exchange 2013, o SharePoint 2013 e as APIs da plataforma de desenvolvedores de UC (incluindo o Microsoft Lync 2013 SDK, a API Gerenciada do Exchange Web Services 2.0, o SDK do Microsoft Lync Server 2013 e a API Gerenciada pela Unificação de Comunicações 4.0).
 
 Nome do Pacote |Data do lançamento|
 |:--- |:--- |
@@ -157,7 +157,7 @@ Nome do Pacote |Data do lançamento|
 | Analisador de Conectividade do Lync (64 bits) APOSENTADO |Junho de 2017 |
 | Analisador de Práticas Recomendadas do Lync Server 2013 |October 2012 |
 |[Calculadora de Capacidade do Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36828) |Julho de 2013 |
-|[Ferramentas de Depuração do Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35453) |Janeiro de 2014 |
+|Ferramentas de Depuração do Lync Server 2013 |Janeiro de 2014 |
 | Pacote de Gerenciamento do Lync Server 2013 |Maio de 2016 |
 | Kit de Recursos de Chat Persistente do Lync Server 2013 |Julho de 2013 |
 | Ferramenta de Planejamento do Lync Server 2013 |Julho de 2013 |
@@ -166,7 +166,7 @@ Nome do Pacote |Data do lançamento|
 | Visualizador de Arquivamento de Quadro de Trabalho do Lync Server 2013 |Fevereiro de 2013 |
 |[Plug-in do Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) |October 2012 |
 |[Plug-in do Lync VDI 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35454) |October 2012 |
-|[Novo Office Visio Estêncil](https://www.microsoft.com/download/details.aspx?id=35772) |Julho de 2016 |
+|[Novo Estêncil do Office Visio](https://www.microsoft.com/download/details.aspx?id=35772) |Julho de 2016 |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Documentação baixável do Lync 2013
 
@@ -273,7 +273,7 @@ As atualizações de software incluem qualquer atualização, pacote cumulativo 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Instalar Skype for Business Server 2015](./deploy/install/install.md)
-- [Atualizar para Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
-- [Atualizações mais recentes para versões Skype for Business que usam Windows Installer (MSI)](sfb-client-updates.md)
+- [Instalar o Skype for Business Server 2015](./deploy/install/install.md)
+- [Atualizar para o Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
+- [Atualizações mais recentes para versões do Skype for Business que usam o Windows Installer (MSI)](sfb-client-updates.md)
 

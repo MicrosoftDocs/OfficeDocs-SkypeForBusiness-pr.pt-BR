@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra o que você deve saber sobre PINs e como redefini-los no Skype for Business Online. '
-ms.openlocfilehash: 22a95c12f1ffe05899194fa357fe33e619f337d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3e33655a5d92dbc24522611a1551c4240c4c228
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594281"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011925"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir o PIN de Audioconferência no Skype for Business Online
 
@@ -103,7 +103,7 @@ Um usuário pode redefinir um PIN usando a opção **Redefinir PIN** na página 
   - [Uso do Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > [!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+    > [!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que é suportado apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em Baixar e instalar o módulo [Teams PowerShell](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

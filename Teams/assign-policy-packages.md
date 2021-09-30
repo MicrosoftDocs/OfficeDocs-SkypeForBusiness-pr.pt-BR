@@ -18,12 +18,12 @@ description: Saiba as diferentes maneiras de atribuir pacotes de política a usu
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 553e30fa694403b2ad5e2edfd86b53fe8231eed3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727190"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015065"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Atribuir pacotes de política a usuários e grupos
 
@@ -39,7 +39,9 @@ Um pacote de política no Teams é uma coleção de políticas e configurações
 ### <a name="assign-a-policy-package-to-one-user"></a>Atribuir um pacote de política a um usuário
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Usuários** e selecione o usuário.
+
 2. Na página do usuário, selecione **Políticas** e, ao lado de **Pacote de Política,** selecione **Editar**.
+
 3. No painel **Atribuir pacote de** política, selecione o pacote que você deseja atribuir e selecione **Salvar**.
 
 ![Teams captura de tela do centro de administração para atribuição de pacote de política a um usuário.](media/assign-policypackages-user.png)
@@ -47,11 +49,16 @@ Um pacote de política no Teams é uma coleção de políticas e configurações
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Atribuir um pacote de política a vários usuários
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para Pacotes de Política **e** selecione o pacote de política que você deseja atribuir clicando à esquerda do nome do pacote.
+
 2. Escolha **Gerenciar usuários**.
+
 3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+
 4. Quando terminar de adicionar usuários, selecione **Salvar**.
 
+
 ![Teams captura de tela do centro de administração para atribuição de pacote de política a vários usuários.](media/assign-policypackages-multipleusers.png)
+
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Atribua o pacote de política a um grupo.
 
@@ -67,21 +74,26 @@ Quando você atribui o pacote de política, ele é imediatamente atribuído ao g
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Atribuir um pacote de política a um grupo de usuários no centro de administração
 
 1. Entre no Centro de administração do Teams.
+
 2. Na navegação à esquerda, vá para a página pacote de política.
+
 3. Selecione a guia Atribuição de política de grupo.
+
 4. Selecione **Adicionar grupo** e, em seguida, no painel Atribuir um pacote de política ao grupo, faça o seguinte:
 
-    a. Pesquise e adicione o grupo ao que você deseja atribuir o pacote de política.
+    1. Pesquise e adicione o grupo ao que você deseja atribuir o pacote de política.
 
-    b. Selecione um pacote de política.
+    1. Selecione um pacote de política.
 
-    c. De definir a classificação para cada tipo de política.
+    1. De definir a classificação para cada tipo de política.
 
-    d. Selecione **Aplicar**.
+    1. Selecione **Aplicar**.
 
-![mostra a atribuição de política de grupo.](media/group-pkg-assignment.png)
+
+       ![mostra a atribuição de política de grupo.](media/group-pkg-assignment.png)
 
 5. Para gerenciar a classificação de um tipo de política específico, navegue até a página de política específica.
+
 6. Para reatribuir um pacote de política a um grupo, primeiro remova a atribuição de política de grupo. Em seguida, siga as etapas acima para atribuir o pacote de política a um grupo.
 
 ### <a name="work-with-powershell"></a>Trabalhar com o PowerShell
@@ -134,13 +146,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### <a name="see-the-status-of-a-batch-assignment"></a>Consulte o status de uma atribuição em lotes
 
-Execute o seguinte para obter o status de uma atribuição em lotes, onde OperationId é a ID da operação retornada pelo ```New-CsBatchPolicyAssignmentOperation``` cmdlet para um determinado lote.
+Execute o seguinte para obter o status de uma atribuição em lotes, onde OperationId é a ID da operação retornada pelo `New-CsBatchPolicyAssignmentOperation` cmdlet para um determinado lote.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-Se a saída mostrar que ocorreu um erro, execute o seguinte para obter mais informações sobre erros, que estão na ```UserState``` propriedade.
+Se a saída mostrar que ocorreu um erro, execute o seguinte para obter mais informações sobre erros, que estão na `UserState` propriedade.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState

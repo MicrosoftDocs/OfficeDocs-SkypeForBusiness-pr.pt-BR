@@ -1,5 +1,5 @@
 ---
-title: Experimente ou compre Audioconferência em Microsoft 365 ou Office 365 para Skype for Business Online
+title: Experimente ou compre Audioconferência no Microsoft 365 ou Office 365 para Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,26 +21,26 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8830457873ee5555e503e88a27151d15233e217
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597425"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012335"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Experimente ou compre Audioconferência em Microsoft 365 ou Office 365 para Skype for Business Online
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Experimente ou compre Audioconferência no Microsoft 365 ou Office 365 para Skype for Business Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Para obter informações sobre Audioconferência em Microsoft Teams, consulte [Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
+> Para obter informações sobre Audioconferência no Microsoft Teams, consulte [Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
 
 
 Às vezes, as pessoas da sua organização precisam usar um telefone para ligar para uma reunião. O Skype for Business inclui o recurso de audioconferência exatamente para essas ocasiões! As pessoas podem participar de uma reunião do Skype for Business usando um telefone em vez de usar o aplicativo Skype for Business em um dispositivo móvel ou computador.
 
 Você só precisa configurar a audioconferência para pessoas que planejam agendar ou conduzir reuniões. Participantes que fazem chamadas para a reunião não precisam ter licenças atribuídas a eles e nenhum outro tipo de configuração.
 
-Para informações de preços, consulte [Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Para obter informações sobre preços, consulte [audioconferência](https://www.microsoft.com/microsoft-teams/audio-conferencing).
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Etapa 1: Comprar e atribuir licenças de Audioconferência
 
@@ -54,9 +54,9 @@ Você deve ser um administrador para executar essas etapas. Consulte [Sobre fun�
 
    - **Experimentar** antes de comprar, você pode se inscrever para uma avaliação gratuita do Office 365 Enterprise E5 que inclui Audioconferência. Confira a [Avaliação do Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Compre-** o , [consulte Skype for Business e Microsoft Teams licenciamento de complemento.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+   - **Compre-** o , consulte Licenciamento de complementos do [Skype for Business e Microsoft Teams.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
-3. [Atribua ou remova licenças para Microsoft 365 Apps para Pequenos e Médios negócios](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que você comprou para as pessoas em sua organização que vão agendar ou conduzir reuniões.
+3. [Atribua ou remova licenças para o Microsoft 365 Apps para](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) empresas que você comprou para as pessoas em sua organização que vão agendar ou conduzir reuniões.
 
 4. Se você adquiriu licenças complementares de Audioconferência e Créditos de Comunicação, atribua-as também. Para obter instruções, [consulte Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
@@ -73,7 +73,7 @@ Se você for um cliente de Volume e Licenciamento, pode obter licenças de Audio
     > [!IMPORTANT]
     > Se os Créditos de Comunicação ainda não tiver sido configurados, a Audioconferência não funcionará para os usuários com licenças de pagamento por minuto. Além disso, se você tiver licenças pagas por minuto de Audioconferência, não será necessário atribuir licenças de Créditos de Comunicação separadamente a cada usuário especificamente para uso de Audioconferência, mas talvez ainda seja necessário atribuí-las para outro serviço.
 
-4. [Atribua ou remova licenças para Microsoft 365 Apps para Pequenos e Médios negócios](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que você comprou para as pessoas em sua organização que vão agendar ou conduzir reuniões.
+4. [Atribua ou remova licenças para o Microsoft 365 Apps para](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) empresas que você comprou para as pessoas em sua organização que vão agendar ou conduzir reuniões.
 
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Etapa 2: Configure o provedor de serviços de audioconferência para pessoas que lideram ou agendam reuniões
@@ -94,7 +94,7 @@ As etapas a seguir são **opcionais**, mas muitos administradores gostam de segu
 
 
 > [!NOTE]
-> Esse recurso ainda não está disponível para clientes que usam Microsoft 365 ou Office 365 operados pela 21Vianet na China. Para saber mais, [consulte Learn about Microsoft 365 or Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+> Esse recurso ainda não está disponível para clientes que usam o Microsoft 365 ou o Office 365 operado pela 21Vianet na China. Para saber mais, [confira Saiba mais sobre o Microsoft 365 ou Office 365 operado pela 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

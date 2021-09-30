@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como se conectar Skype for Business Server com Skype consumidor. Também conhecido como Skype conectividade.'
-ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c63e476cc413bbf0a676c7b28d02519bbc6f223d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729880"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013185"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar Skype conectividade no Skype for Business Server
 
@@ -52,11 +52,11 @@ Skype A funcionalidade de Pesquisa de Diretório Skype for Business aos usuário
 A tabela a seguir descreve o suporte para Skype Pesquisa de Diretório.
   
 
-||**Skype for Business Server Front-End**|**Front-End do Lync Server 2013 (ou mais antigo)**|**Comments**|
+|&nbsp;|Skype for Business Server Front-End|Front-End do Lync Server 2013 (ou mais antigo)|Comentários|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server Borda  <br/> |Com suporte  <br/> |Não Suportado  <br/> |Skype for Business Server e Borda são pré-requisitos para Skype Pesquisa de Diretório  <br/> |
-|Skype for Business Server Borda + Lync Server 2013 Borda implantada lado a lado  <br/> |Com suporte  <br/> |Não Suportado  <br/> |Skype O tráfego de Pesquisa de Diretório flui Skype for Business Server de Borda. O tráfego de federação passa pela borda configurada pelo administrador. Por exemplo, o administrador poderia optar por continuar a enviar tráfego de federação por meio de servidores de Borda do Lync Server 2013 que não suportam Skype Pesquisa de Diretório.  <br/> |
-|Borda do Lync Server 2013 (ou mais antigo)  <br/> |Não Suportado  <br/> |Não Suportado  <br/> ||
+|Skype for Business Server Borda   |Com suporte   |Não Suportado   |Skype for Business Server e Borda são pré-requisitos para Skype Pesquisa de Diretório   |
+|Skype for Business Server Borda + Lync Server 2013 Borda implantada lado a lado   |Com suporte   |Não Suportado   |Skype O tráfego de Pesquisa de Diretório flui Skype for Business Server de Borda. O tráfego de federação passa pela borda configurada pelo administrador. Por exemplo, o administrador poderia optar por continuar a enviar tráfego de federação por meio de servidores de Borda do Lync Server 2013 que não suportam Skype Pesquisa de Diretório.   |
+|Borda do Lync Server 2013 (ou mais antigo)   |Não Suportado   |Não Suportado   ||
    
 > [!NOTE]
 > O serviço de addressbook em execução Skype for Business Server Front End localiza a Borda pela existência da porta de pesquisa 4443 Skype no servidor de Borda. 
@@ -77,7 +77,7 @@ A tabela a seguir descreve o suporte para Skype Pesquisa de Diretório.
 
 Skype A conectividade também é um recurso do Skype for Business Online, que faz parte do Microsoft 365 e Office 365. Você pode habilitar o recurso Skype conectividade do Centro de Administração Skype for Business no Centro de administração do Microsoft 365.
   
-Para Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Education e Office 365 para Governo: entre no Centro de administração do Microsoft 365 e navegue até o Centro de Administração Skype for Business. Vá para Comunicações Externas. Em Provedores de Serviços de IM Pública, clique em Habilitar. Se você quiser controlar o acesso de usuários individuais Skype Conectividade, você pode fazer isso editando as configurações de Comunicações Externas de usuários individuais.
+Para Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Education e Office 365 para Governo: entre no Centro de administração do Microsoft 365 e navegue até o Skype for Business Centro de Administração. Vá para Comunicações Externas. Em Provedores de Serviços de IM Pública, clique em Habilitar. Se você quiser controlar o acesso de usuários individuais Skype Conectividade, você pode fazer isso editando as configurações de Comunicações Externas de usuários individuais.
   
 Para Office 365 Small Business Premium: entre no Office 365 e vá para o Serviço de Administração Configurações mensagens \> \> instantâneas, reuniões e conferências. Ativar comunicações externas. A opção Comunicações externas a Skype conectividade e comunicações com outras organizações que usam Skype for Business.
   
@@ -120,7 +120,7 @@ As implantações locais são necessárias para publicar um registro SRV DNS de 
 
 Outras orientações sobre Certificados Externos podem ser encontradas em [Planejamento de certificados.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)
 
-#### <a name="faqs"></a>Perguntas Frequentes
+#### <a name="faqs"></a>Perguntas frequentes
 
 **Por que o site de provisionamento está sendo desligado?**
 O mecanismo de provisionamento de IM pública (PIC) (pic.lync.com) implantado em 2006 não é mais serviceable e será desligado em 15/08/2019. Em vez disso, a federação de IM pública assumirá o mesmo modelo de federação usado pelo Skype for Business Online, conhecido como "descoberta de parceiros", em que uma implantação local é descoberta publicamente por seus registros DNS SRV de federação.
@@ -221,29 +221,29 @@ A configuração Skype conectividade também pode ser feita usando apenas o Powe
 A tabela a seguir descreve o status de interop entre a versão mais recente do consumidor Skype e a versão mais recente do Skype for Business.
   
 
-|**Skype Clientes**|**Adicionar contatos, mensagens de IM, presença, áudio e chamada de vídeo**|**Comment**|
+|Skype Clientes|Adicionar contatos, mensagens de IM, presença, áudio e chamada de vídeo|Comment|
 |:-----|:-----|:-----|
-|Skype Windows Desktop  <br/> |7,6 ou superior, Windows XP e superior  <br/> |**NOVO**: o suporte adicionado Windows Skype cliente em execução no Windows XP e Windows Vista (requer a versão **7.26 ou** superior do cliente mais recente) <br/> |
-|Skype Mobile - Android Telefone e Tablet  <br/> |6.19 ou superior, executando o sistema operacional Android versão 4.0.3 ou superior  <br/> |Dispositivos de especificação baixa podem não suportar a chamada de vídeo  <br/> |
-|Skype Mobile - iOS  <br/> |6,11 ou superior, no IOS 7 ou superior  <br/> |Não há suporte para iPhone 4 e anteriores, iPod 4ª geração e anterior, iPad 1ª geração  <br/> |
-|Skype Mac  <br/> |7,19 ou superior, no Mac OS X 10.9 (Mavericks) ou superior  <br/> |Requer Mac OSX 10.9 ou superior  <br/> |
-|Skype Universal Windows App (Windows 10) Desktop e Mobile  <br/> |Windows 10 (atualização do Redstone 1 ou posterior)  <br/> |Windows Aplicativo Universal receberá atualização no Fall 2016 adicionando suporte de interop  <br/> |
+|Skype Windows Desktop   |7,6 ou superior, Windows XP e superior   |**NOVO**: o suporte adicionado Windows Skype cliente em execução no Windows XP e Windows Vista (requer a versão **7.26 ou** superior do cliente mais recente)  |
+|Skype Mobile - Android Telefone e Tablet   |6.19 ou superior, executando o sistema operacional Android versão 4.0.3 ou superior   |Dispositivos de especificação baixa podem não suportar a chamada de vídeo   |
+|Skype Mobile - iOS   |6,11 ou superior, no IOS 7 ou superior   |Não há suporte para iPhone 4 e anteriores, iPod 4ª geração e anterior, iPad 1ª geração   |
+|Skype Mac   |7,19 ou superior, no Mac OS X 10.9 (Mavericks) ou superior   |Requer Mac OSX 10.9 ou superior   |
+|Skype Universal Windows App (Windows 10) Desktop e Mobile   |Windows 10 (atualização do Redstone 1 ou posterior)   |Windows Aplicativo Universal receberá atualização no Fall 2016 adicionando suporte de interop   |
    
 A tabela a seguir descreve o status de interop entre a versão mais recente do Skype for Business e a versão mais recente do Skype consumidor. 
   
-|**Cliente**|**Skype Pesquisa de Diretório e Adicionar Contatos**|**Skype A/V, interop de IM**|
+|Cliente|Skype Pesquisa de Diretório e Adicionar Contatos|Skype A/V, interop de IM|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |Sim  <br/> |Sim  <br/> |
-|Skype for Business no Mac  <br/> |Pode adicionar (sem pesquisa)  <br/> |Sim  <br/> |
-|Lync Desktop 2013  <br/> |Pode adicionar (sem pesquisa)  <br/> |Sim  <br/> |
-|Lync Web App - online e local  <br/> |N/D  <br/> |N/D  <br/> |
-|Lync Mobile - Windows Phone  <br/> |Em breve  <br/> |Sim  <br/> |
-|Lync Mobile - Android  <br/> |Em breve  <br/> |Sim  <br/> |
-|Lync Mobile - iOS  <br/> |Em breve  <br/> |Sim  <br/> |
-|Sistema de salas do Lync  <br/> |Em breve  <br/> |Sim  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |Sim  <br/> |Sim  <br/> |
-|Lync Mac 2011  <br/> |Pode adicionar (sem pesquisa)  <br/> |Sim  <br/> |
-|Lync Desktop 2010  <br/> |Pode adicionar (sem pesquisa)  <br/> |Sim  <br/> |
-|Lync Phone Edition  <br/> |N/D  <br/> |N/D  <br/> |
-|Lync Attendant  <br/> |N/D  <br/> |N/D  <br/> |
+|Skype for Business   |Sim   |Sim   |
+|Skype for Business no Mac   |Pode adicionar (sem pesquisa)   |Sim   |
+|Lync Desktop 2013   |Pode adicionar (sem pesquisa)   |Sim   |
+|Lync Web App - online e local   |N/D   |N/D   |
+|Lync Mobile - Windows Phone   |Em breve   |Sim   |
+|Lync Mobile - Android   |Em breve   |Sim   |
+|Lync Mobile - iOS   |Em breve   |Sim   |
+|Sistema de salas do Lync   |Em breve   |Sim   |
+|Lync Modern App (Win 8.1)   |Sim   |Sim   |
+|Lync Mac 2011   |Pode adicionar (sem pesquisa)   |Sim   |
+|Lync Desktop 2010   |Pode adicionar (sem pesquisa)   |Sim   |
+|Lync Phone Edition   |N/D   |N/D   |
+|Lync Attendant   |N/D   |N/D   |
    

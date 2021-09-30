@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Leia este tópico para saber como verificar se você tem uma licença de volume Skype for Business software.
-ms.openlocfilehash: 23ea556a8afd7160e20a1ddd0b4e1d044761d4d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dadb373bacd5af72c11d8e8945825acce7bc5b5e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583325"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011525"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Sistema de Sala: Skype for Business de software
  
@@ -30,8 +30,6 @@ Skype O Sistema de Sala usa um cliente Skype for Business instalado, o que reque
 Se KMS estiver no local e distribuir as Skype for Business de Licença de Volume, o Skype Room System ativará automaticamente o cliente Skype for Business. Para descobrir se KMS estão no local:
   
 Em um prompt de comando, execute:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
-  
-Para obter mais informações, consulte [How to discover Office and Windows KMS hosts via DNS and remove unauthorized instances](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
   
 Para configurar um KMS, consulte KMS ativação do [Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) e GVLKs para KMS e ativação do [Active Directory do Office 2013](/DeployOffice/vlactivation/gvlks)
   

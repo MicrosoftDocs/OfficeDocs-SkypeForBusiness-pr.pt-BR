@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumo: Saiba como usar o Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8bd18b7be66c4ea9b3a69cd81d4c72fb641603eb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728260"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015075"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar o Painel de Qualidade de Chamada para Skype for Business Server
 
@@ -78,7 +78,7 @@ Quando StartDate.Month é adicionado como uma dimensão e os dados são renderiz
 
 Para que os gráficos de barras e os sparklines apareçam, a caixa de seleção "Mostrar sparklines" na parte superior do Editor de Relatório deve ser verificada. Isso seleciona a opção Tendência e move Mês para baixo para ser a última dimensão, que também pode ser realizada clicando em Mês e usando as setas para cima e para baixo para mover StartDate.Month para cima ou para baixo.
 
-### <a name="settings"></a>Configurações
+### <a name="settings"></a>Settings
 
 O menu configurações contém links para páginas úteis, como as páginas Sobre e Saúde do Sistema, e está localizado no canto superior direito do painel.
 
@@ -119,7 +119,7 @@ Os dados usados para essas tabelas são definidos da seguinte forma:
 |InsideCorp |bit |Sim |Bit indica se o edifício faz parte da rede corporativa. |
 |BuildingOfficeType |nvarchar(150) |Sim |Descrição do tipo de escritório de construção. |
 |Região |varchar(25) |Sim |Região onde o edifício está localizado. |
-|||||
+
 
 **CqdNetwork**
 
@@ -130,7 +130,7 @@ Os dados usados para essas tabelas são definidos da seguinte forma:
 |NetworkNameID |int |Sim |Opcionalmente, mapeia para uma linha na tabela CqdNetworkName. |
 |BuildingKey |int |Sim |Chave estrangeira, corresponde a uma das entradas na tabela CqdBuilding. |
 |UpdatedDate |datetime |Não |Datetime for when the entry was last updated. |
-||||||
+
 
 Por padrão, esta próxima tabela tem uma entrada (0, 'Unknown').
 
@@ -140,7 +140,7 @@ Por padrão, esta próxima tabela tem uma entrada (0, 'Unknown').
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |Não |Chave primária para a tabela CqdBuildingType. |
 |BuildingTypeDesc |char(18) |Não |Descrição do tipo de construção. |
-|||||
+
 
 Por padrão, esta próxima tabela tem uma entrada (0, 'Unknown', 0, null).
 
@@ -152,7 +152,7 @@ Por padrão, esta próxima tabela tem uma entrada (0, 'Unknown', 0, null).
 |OwnershipTypeDesc |varchar(25) |Não |Descrição do tipo de propriedade. |
 |LeaseInd |tinyint |Sim |Index fazendo referência a outra linha na tabela CqdBuildingOwnershipType, usada para identificar edifícios arrendados. |
 |Proprietário |varchar(50) |Sim |Proprietário do edifício. |
-|||||
+
 
 Por padrão, esta próxima tabela tem uma entrada (0, 'Unknown', 0, null).
 
@@ -165,7 +165,7 @@ Por padrão, esta próxima tabela tem uma entrada (0, 'Unknown', 0, null).
 |phy |nvarchar (50) |Sim |Informações de phy. |
 |ap |nvarchar (50) |Sim |Nome do Ponto de Acesso Wifi. |
 |Construção |nvarchar(500) |Sim |O Nome da Construção em que o Ponto de Acesso WiFi está localizado. |
-||||
+
 
 ## <a name="cqd-streams"></a>CQD Fluxos
 
@@ -186,7 +186,7 @@ Um fluxo CQD é considerado bom, ruim ou não classificado. O CQM 1.5 agora usa 
 |PacketLossRate |Maior que 0,1 (10%) |
 |JitterInterArrival |Maior que 30 |
 |RatioConcealedSamplesAvg |Maior que 0,07 |
-|||
+
 
 Definição JPDR = Definição de chamada ruim menos RatioConcealedSamplesAvg
 
@@ -205,7 +205,7 @@ O CQD não usa campos Chamador/Chamador, em vez disso, usa "First" e "Second" po
 |2 (AVMCU) |4 (Skype for Business) |Ponto de extremidade 1 |Ponto de extremidade 2 |
 |2 (AVMCU) |1 (mMediationServer) |Ponto de extremidade 2 |Ponto de extremidade 1 |
 |4 (Skype for Business) |4 (Skype for Business) |O chamador em MediaLine |O Chamador no MMediaLine |
-|||||
+
 
 Se ambos os pontos de extremidade são do mesmo tipo, o CQD torna a entrada do Chamador primeiro e a segunda chamada. Para obter mais informações sobre nomes de pontos de extremidade, [consulte este blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
 
@@ -222,7 +222,7 @@ Uma consulta bem formada contém todos os três parâmetros:
 
 - Medida
 - Dimensão
-- Filtrar
+- Filter
 
 Um exemplo de uma consulta bem formada seria "Show me Poor Fluxos [Measurement] by Subnet [Dimension] for Building 6 [Filter]".
 

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Resumo: leia este tópico para saber mais sobre os requisitos de hardware e software para conferência em Skype for Business Server.'
-ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5209b024ae3e5f5161e7ff777c30b66c3237b3c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733530"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013375"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Requisitos de hardware e software para conferência em Skype for Business Server
 
@@ -109,8 +109,6 @@ aplicativo Atendedor de Conferência e aplicativo Comunicado de Conferência exi
 
 Skype for Business Server não dá suporte à personalização de prompts de voz e música para conferência discada. No entanto, se você tiver uma necessidade comercial forte que exija que você altere os arquivos de áudio padrão, consulte o artigo da Base de Dados de Conhecimento da Microsoft 961177, Como personalizar prompts de voz ou arquivos de música para conferência de áudio [discado](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
 
-Você também pode usar o utilitário de gerenciamento de Prompts de Voz Personalizados do [Microsoft Lync Server Atendedor de Conferência,](https://go.microsoft.com/fwlink/p/?LinkId=396880) que permite que os administradores substituam os prompts de voz padrão usados quando um chamador de telefone inserte uma reunião Skype for Business com prompts personalizados para fornecer uma experiência de entrada de reunião diferente. Os prompts de voz personalizados podem ser instalados em um Enterprise ou Edição Standard servidor.
-
 aplicativo Atendedor de Conferência e aplicativo Comunicado de Conferência os seguintes requisitos para arquivos de música em espera, nome gravado e prompt de áudio:
 
 - Formato de arquivo WMA (áudio do Windows Media)
@@ -144,7 +142,7 @@ Para usar os recursos de conferência, o Skype for Business Server exige que det
 |Servidores Front-End  <br/> |Skype for Business Server Serviço de Compartilhamento de Aplicativos  <br/> |5065  <br/> |TCP  <br/> |Usada para solicitações de escuta do SIP de entrada para compartilhamento de aplicativos.  <br/> |
 |Servidores Front-End  <br/> |Skype for Business Server Serviço de Compartilhamento de Aplicativos  <br/> |49152-65535  <br/> |TCP  <br/> |Intervalo de porta de mídia usado para compartilhamento de aplicativo.  <br/> |
 |Servidores Front-End  <br/> |Skype for Business Server Comunicado de Conferência serviço  <br/> |5073  <br/> |TCP  <br/> |Usado para solicitações SIP de entrada Skype for Business Server Comunicado de Conferência serviço de Skype for Business Server Comunicado de Conferência (ou seja, para conferência discagem).  <br/> |
-|Todos os servidores internos  <br/> |Vários  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usado para audioconferência em todos os servidores internos. Usado por todos os servidores que encerram o áudio: Servidores front-end (para serviço Skype for Business Server Atendedor de Conferência, serviço Skype for Business Server Comunicado de Conferência e serviço Skype for Business Server Conferência de Áudio/Vídeo) e Servidor de Mediação.  <br/> |
+|Todos os servidores internos  <br/> |Vários  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usado para audioconferência em todos os servidores internos. Usado por todos os servidores que encerram o áudio: Servidores front-end (para serviço Skype for Business Server Atendedor de Conferência, Skype for Business Server Comunicado de Conferência serviço e Skype for Business Server Serviço de Conferência de Áudio/Vídeo) e Servidor de Mediação.  <br/> |
 |Office Servidores Web Apps  <br/> ||443  <br/> ||Usado por Skype for Business Server para se conectar ao Office Web Apps.  <br/> |
 
 **Portas de cliente necessárias**

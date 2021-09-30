@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 'Resumo: instale os arquivos de agente do Operations Manager no computador Skype for Business Server 2015 a ser monitorado e configure o computador para atuar como um proxy System Center.'
-ms.openlocfilehash: dbca58ff7e8cc837ce5323d24bc127a9d3ee20ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efe7c7bd9ce2862cd423e0b36a5de21d03e32db0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606120"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015305"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>Configurar os computadores Skype for Business Server para monitorar
 
@@ -32,7 +32,7 @@ Cada Skype for Business Server 2015 que você deseja monitorar deve ser capaz de
 
 System Center Agentes do Operations Manager em execução em uma rede de perímetro (como um servidor de borda do Skype for Business Server), fora da empresa (como um nó do watcher de transações sintéticas externo) ou em um limite de confiança do Active Directory, podem exigir a configuração de um servidor gateway do Gerenciador de Operações System Center. Essa função de servidor permite que os agentes que não têm uma relação de confiança com o Servidor de Gerenciamento Raiz levantem alertas. Para obter detalhes, consulte [Managing Gateway Servers in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12)).
 
-Se você implantar um agente em um desses locais, também precisará solicitar e configurar um certificado que habilita o nó do watcher a enviar alertas para o System Center Operations Manager. Para simplificar esse processo, a equipe do Operations Manager criou um conjunto de utilitários que permitem que você solicite e instale o tipo certo de certificado no computador nó watcher. Para obter detalhes e baixar esses [utilitários, consulte Obtaining Certificates for Non-Domain Joined Agents Made Easy with Certificate Generation Wizard](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).
+Se você implantar um agente em um desses locais, também precisará solicitar e configurar um certificado que habilita o nó do watcher a enviar alertas para o System Center Operations Manager. Para simplificar esse processo, a equipe do Operations Manager criou um conjunto de utilitários que permitem que você solicite e instale o tipo certo de certificado no computador nó watcher. Para obter detalhes e baixar esses [utilitários, consulte Obtaining Certificates for Non-Domain Joined Agents Made Easy with Certificate Generation Wizard](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467).
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Instalando os Arquivos de Agente do Gerenciador de Operações
 

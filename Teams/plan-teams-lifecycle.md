@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456371"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012815"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -109,7 +109,7 @@ Use estes links para obter mais informações sobre como organizar as equipes:
 -   [Implantar o Cloud Voice](cloud-voice-landing-page.md)
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Qual é o objetivo da equipe?</li><li>Quem pertence à equipe?</li><li>A equipe será privada ou pública?</li><li>Os novos membros podem adicionar a si mesmos ou os proprietários da equipe devem adicioná-los?</li><li>Quem terá permissões para criar canais ou adicionar guias, bots e conectores?</li></ul> |
 | ![Um ícone representando os próximos passos.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Crie a equipe.</li><li>Planeje canais.</li></ul>|
@@ -123,7 +123,7 @@ Para despertar interesse, o proprietário do canal pode postar uma mensagem de b
 
 Considere os nomes dos canais antes de criá-los, pois renomear um canal na equipe não renomeia a pasta correspondente na biblioteca de documentos do Microsoft Office SharePoint Online, o que pode causar confusão para o usuário final. 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Que canais iniciais serão adicionados à equipe?</li><li>Que diretrizes, se houver, serão fornecidas para a adição de novos canais? (Eles serão configurados por projeto, por tópico ou...?)</li></ul> |
 | ![Um ícone representando os próximos passos.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Crie canais iniciais.</li><li>Poste uma mensagem de boas-vindas.</li><li>Comece a colaborar.</li></ul>|
@@ -144,7 +144,7 @@ Como as equipes são em forma de vida, ocasionalmente, elas precisam de verifica
 - Experimente diferentes colaborações de canal, como reuniões de canal ou conversas de guias referentes a documentos.
 - Use o aplicativo móvel Microsoft Teams para aumentar o engajamento.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Quem monitorará o uso para identificar problemas?</li><li>Que métricas serão usadas para determinar a integridade de uma equipe?</li><li>Identifique equipes que chegaram ao fim de sua vida útil.</li><li>Identifique equipes não íntegras que ainda servem a um propósito, mas precisam ser revigoradas.</li></ul> |
 | ![Um ícone representando o passo seguinte.](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Implemente um processo para monitorar a integridade de equipes individuais.</li></ul>|
@@ -161,7 +161,7 @@ As políticas de retenção aplicadas a equipes ou serviços associados, como o 
 
 Para obter informações sobre como configurar políticas de expiração e retenção, confira [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Defina como é o fim da vida útil de uma equipe.</li><li>Decida se deseja manter o conteúdo de uma equipe disponível e por quanto tempo.</li></ul> |
 | ![Um ícone representando os próximos passos.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documente as práticas recomendadas e as lições aprendidas.</li><li>Arquive os dados, se necessário.</li></ul>|

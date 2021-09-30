@@ -1,5 +1,5 @@
 ---
-title: Requisitos do sistema para Skype for Business Server 2019
+title: Requisitos do sistema para o Skype for Business Server 2019
 ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: ''
-description: 'Resumo: prepare seus Skype for Business Server 2019 e a infraestrutura de domínio com este tópico. Hardware, SO, bancos de dados, software, todos os requisitos e recomendações do sistema, juntamente com as informações de DNS de certificado, compartilhamento de arquivos e Active Directory, estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do farm de servidores.'
-ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Resumo: prepare seus servidores do Skype for Business Server 2019 e a infraestrutura de domínio com este tópico. Hardware, SO, bancos de dados, software, todos os requisitos e recomendações do sistema, juntamente com as informações de DNS de certificado, compartilhamento de arquivos e Active Directory, estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do farm de servidores.'
+ms.openlocfilehash: cb1d7464406ae089fd31c31971cb246d79a83edb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728360"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011745"
 ---
-# <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos do sistema para Skype for Business Server 2019
+# <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos do sistema para o Skype for Business Server 2019
  
-**Resumo:** Prepare-se para instalar Skype for Business Server 2019 com este tópico. Hardware, SO, software, bancos de dados, certificados, Diretoria Ativa, DNS e compartilhamentos de arquivos são abordados aqui. Todos os requisitos e recomendações do sistema estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do farm de servidores.
+**Resumo:** Prepare-se para instalar o Skype for Business Server 2019 com este tópico. Hardware, SO, software, bancos de dados, certificados, Diretoria Ativa, DNS e compartilhamentos de arquivos são abordados aqui. Todos os requisitos e recomendações do sistema estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do farm de servidores.
   
 Como você pode esperar, há algumas preparações a fazer antes de começar a implantar o Skype for Business Server 2019. Este artigo o acompanhará por meio do planejamento para o seguinte:
   
@@ -45,35 +45,35 @@ Como você pode esperar, há algumas preparações a fazer antes de começar a i
 ## <a name="hardware-for-skype-for-business-server-2019"></a>Hardware para Skype for Business Server 2019
 <a name="Hardware"> </a>
 
-Depois de ter sua topologia baixa (e se não tiver, você poderá conferir o tópico [Topologia Básicas do Skype for Business Server 2019),](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) é hora de pensar nos servidores. Skype for Business Server servidores 2019 exigem hardware de 64 bits. Nossas recomendações para hardware estão abaixo. Não são requisitos, mas refletem os requisitos necessários para o desempenho ideal. Temos documentação de planejamento de capacidade que o ajudará a determinar se você precisa de mais do que isso, dependendo das circunstâncias.
+Depois de ter sua topologia baixa (e se não tiver, você poderá conferir o tópico [Topologia Básicas do Skype for Business Server 2019),](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) é hora de pensar nos servidores. Os servidores do Skype for Business Server 2019 exigem hardware de 64 bits. Nossas recomendações para hardware estão abaixo. Não são requisitos, mas refletem os requisitos necessários para o desempenho ideal. Temos documentação de planejamento de capacidade que o ajudará a determinar se você precisa de mais do que isso, dependendo das circunstâncias.
   
-Hardware recomendado para servidores Edição Standard:
+Hardware recomendado para servidores Standard Edition:
 
-|**Componente de hardware**|**Recomendado**|
+|Componente de hardware|Recomendado|
 |:-----|:-----|
-|CPU  <br/> |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior.  <br/> Os processadores Intel Itanium não têm suporte para funções Skype for Business Server 2019.  <br/> |
-|Memória  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |OU:  <br/> • 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (dois dos discos que usam RAID 1 e 6 usando RAID 10).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 8 unidades de disco mecânicas de 10.000 RPM.  <br/> |
-|Rede  <br/> |1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam ser em equipe com um único endereço MAC e um único endereço IP).  <br/> Configurações duplas ou multi-homed não são suportadas para servidores front-end, servidores back-end e Edição Standard servidores.  <br/> Desde que eles não sejam expostos ao sistema operacional e sejam usados para monitorar e gerenciar o hardware do servidor, você pode ter sistemas de gerenciamento fora da banda, como DRAC ou ILO. Esse cenário não constitui um servidor multi-homed e é suportado.  <br/> |
+|CPU   |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior.  <br/> Processadores Intel Itanium não têm suporte para funções do Skype for Business Server 2019.   |
+|Memória   |32 gigabytes (GB).   |
+|Disco   |OU:  <br/> • 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (dois dos discos que usam RAID 1 e 6 usando RAID 10).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 8 unidades de disco mecânicas de 10.000 RPM.   |
+|Rede   |1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam ser em equipe com um único endereço MAC e um único endereço IP).  <br/> Configurações dual ou multi-homed **não** são suportadas para servidores Front-End, Servidores Back-End e Servidores Standard Edition. <br/> Desde que eles não sejam expostos ao sistema operacional e sejam usados para monitorar e gerenciar o hardware do servidor, você pode ter sistemas de gerenciamento fora da banda, como DRAC ou ILO. Esse cenário não constitui um servidor multi-homed e é suportado.   |
 
 
 Hardware recomendado para servidores front-end e servidores back-end:
   
-|**Componente de hardware**|**Recomendado**|
+|Componente de hardware|Recomendado|
 |:-----|:-----|
-|CPU  <br/> |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior. <br/> Os processadores Intel Itanium não têm suporte para funções Skype for Business Server 2019.  <br/> |
-|Memória  <br/> |64 gigabytes (GB).  <br/> |
-|Disco  <br/> |OU:  <br/> • 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (dois dos discos que usam RAID 1 e 6 usando RAID 10).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 8 unidades de disco mecânicas de 10.000 RPM.  <br/> |
-|Rede  <br/> |1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam ser em equipe com um único endereço MAC e um único endereço IP).  <br/> Configurações duplas ou multi-homed não são suportadas para servidores front-end, servidores back-end e Edição Standard servidores.  <br/> Desde que eles não sejam expostos ao sistema operacional e sejam usados para monitorar e gerenciar o hardware do servidor, você pode ter sistemas de gerenciamento fora da banda, como DRAC ou ILO. Esse cenário não constitui um servidor multi-homed e é suportado.  <br/> |
+|CPU   |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior. <br/> Processadores Intel Itanium não têm suporte para funções do Skype for Business Server 2019.   |
+|Memória   |64 gigabytes (GB).   |
+|Disco   |OU:  <br/> • 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (dois dos discos que usam RAID 1 e 6 usando RAID 10).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 8 unidades de disco mecânicas de 10.000 RPM.   |
+|Rede   |1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam ser em equipe com um único endereço MAC e um único endereço IP).  <br/> Configurações dual ou multi-homed **não** são suportadas para servidores Front-End, Servidores Back-End e Servidores Standard Edition. <br/> Desde que eles não sejam expostos ao sistema operacional e sejam usados para monitorar e gerenciar o hardware do servidor, você pode ter sistemas de gerenciamento fora da banda, como DRAC ou ILO. Esse cenário não constitui um servidor multi-homed e é suportado.   |
    
 Hardware recomendado para Servidores de Borda, Servidores de Mediação autônomos e Diretores:
   
-|**Componente de hardware**|**Recomendado**|
+|Componente de hardware|Recomendado|
 |:-----|:-----|
-|CPU  <br/> |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior.  <br/> Os processadores Intel Itanium não têm suporte para funções Skype for Business Server 2019.  <br/> |
-|Memória  <br/> |32 gigabytes.  <br/> |
-|Disco  <br/> |OU:  <br/> • 4 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (os discos devem estar em uma configuração raid 1 2x).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 4 unidades de disco mecânicas de 10.000 RPM.  <br/> |
-|Rede  <br/> |1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam ser em equipe com um único endereço MAC e um único endereço IP).  <br/> Configurações dual ou multi-homed não **são** suportadas para Servidores e Diretores de Interop de Vídeo. <br/> Os servidores de borda exigirão duas interfaces de rede que são adaptadores de rede de porta dupla, 1 Gbps ou superior (ou dois adaptadores de rede emparelhados, para um total de quatro, cada par sendo emparelhado com um único endereço MAC e um único endereço IP, para um total de dois pares).  <br/> Em Servidores de Mediação autônomos, há suporte para a instalação de nics (cartões de interface de rede) adicionais para permitir a configuração de um endereço IP PSTN específico.  <br/> |
+|CPU   |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior.  <br/> Processadores Intel Itanium não têm suporte para funções do Skype for Business Server 2019.   |
+|Memória   |32 gigabytes.   |
+|Disco   |OU:  <br/> • 4 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (os discos devem estar em uma configuração raid 1 2x).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 4 unidades de disco mecânicas de 10.000 RPM.   |
+|Rede   |1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam ser em equipe com um único endereço MAC e um único endereço IP).  <br/> Configurações dual ou multi-homed não **são** suportadas para Servidores e Diretores de Interop de Vídeo. <br/> Os servidores de borda exigirão duas interfaces de rede que são adaptadores de rede de porta dupla, 1 Gbps ou superior (ou dois adaptadores de rede emparelhados, para um total de quatro, cada par sendo emparelhado com um único endereço MAC e um único endereço IP, para um total de dois pares).  <br/> Em Servidores de Mediação autônomos, há suporte para a instalação de nics (cartões de interface de rede) adicionais para permitir a configuração de um endereço IP PSTN específico.   |
 
 
 > [!NOTE]
@@ -83,55 +83,52 @@ Hardware recomendado para Servidores de Borda, Servidores de Mediação autônom
 > - A configuração de fila RSS deve ser definida como 8 filas.
 
    
-## <a name="operating-systems-for-skype-for-business-server-2019"></a>Sistemas operacionais para Skype for Business Server 2019
+## <a name="operating-systems-for-skype-for-business-server-2019"></a>Sistemas operacionais do Skype for Business Server 2019
 <a name="OS"> </a>
 
-Depois de instalar o hardware, você precisará instalar o sistema operacional (OS) que permitirá que você instale e use com êxito o Skype for Business Server 2019.
+Depois de ter o hardware instalado, você precisará instalar o sistema operacional (OS) que permitirá instalar e usar com êxito o Skype for Business Server 2019.
   
-|||
-|:-----|:-----|
-|Windows Server 2019 <br/> |
-|Windows Server 2016 <br/> ||
-||
+- Windows Server 2019 
+- Windows Server 2016
    
-Qualquer outra coisa que não seja os sistemas operacionais listados aqui não funcionará corretamente; por favor, não tente isso para instalar o Skype for Business Server 2019. Por exemplo, a opção Server Core não está listada e, portanto, não tem suporte.
+Qualquer outra coisa que não seja os sistemas operacionais listados aqui não funcionará corretamente; não tente instalar o Skype for Business Server 2019. Por exemplo, a opção Server Core não está listada e, portanto, não tem suporte.
 
 > [!NOTE]
 > A atualização in-local do sistema operacional não é suportada com o Lync Server 2013. Você deve implantar um pool separado e migrar usuários para o novo pool com um sistema operacional diferente. Todos os servidores em um pool devem ter a mesma versão do sistema operacional.
 
 > [!NOTE]
 > 
-> Se você estiver instalando o Windows Admin Center 2019 no computador do Windows Server 2019, ele solicitará que uma porta seja escutada. Há uma liklihood que você pode escolher a porta 443, mas se esse computador tiver o Skype for Business Server 2019 instalado nele ou se o Skype for Business Server 2019 estiver instalado nele, você deverá escolher um número de porta diferente.
+> Se você estiver instalando o Windows Admin Center 2019 em seu computador do Windows Server 2019, ele solicitará que uma porta seja escutada. Há uma liklihood que você pode escolher a porta 443, mas se esse computador tiver o Skype for Business Server 2019 instalado nele ou se o Skype for Business Server 2019 estiver instalado nele, você deverá escolher um número de porta diferente.
 > 
->Por que esse é o caso? Se o centro de administração 2019 do Windows estiver em execução na porta 443, você não poderá se conectar ao servidor usando o Painel de Controle do Skype for Business, nem poderá se conectar a qualquer serviço Web interno em execução no servidor (Serviço Web do Livro de Endereços, Serviço de Descoberta Automática, Serviço WebTicket etc.).  Na verdade, você não poderá se conectar a nenhuma URL de Serviço Web Interno. Escolha uma porta diferente, caso você precise ou queira colocar o Windows Admin Center 2019 em um servidor com Skype for Business Server 2019.
+>Por que esse é o caso? Se o Windows Admin Center 2019 estiver em execução na porta 443, você não poderá se conectar ao servidor usando o Painel de Controle do Skype for Business, nem poderá se conectar a qualquer serviço Web interno em execução no servidor (Serviço Web do Livro de Endereços, Serviço de Descoberta Automática, Serviço WebTicket etc.).  Na verdade, você não poderá se conectar a nenhuma URL de Serviço Web Interno. Escolha uma porta diferente, caso você precise ou queira colocar o Windows Admin Center 2019 em um servidor com o Skype for Business Server 2019.
 > 
 
   
-## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2019-deployment"></a>Software que deve ser instalado antes de uma implantação Skype for Business Server 2019
+## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2019-deployment"></a>Software que deve ser instalado antes de uma implantação do Skype for Business Server 2019
 <a name="Software"> </a>
 
-Há algumas coisas que você precisará instalar ou configurar para qualquer servidor que esteja executando Skype for Business Server 2019. Eles estão listados abaixo, seguidos de requisitos adicionais para funções de servidor específicas.
+Há algumas coisas que você precisará instalar ou configurar para qualquer servidor que esteja executando o Skype for Business Server 2019. Eles estão listados abaixo, seguidos de requisitos adicionais para funções de servidor específicas.
 
 > [!IMPORTANT]
-> Skype Para Empresas 2019 dá suporte ao .Net Framework 4.8. 
+> O Skype For Business 2019 oferece suporte ao .Net Framework 4.8. 
   
  **Todos os servidores:**
   
-|**Software/função**|**Detalhes**|
+|Software/função|Detalhes|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |Todos Skype for Business Server servidores precisam Windows PowerShell 3.0 instalados.  <br/> • Isso deve ser instalado por padrão com Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |Os serviços WCF são **um recurso** que é instalado como um recurso Windows, em **Gerenciador** de Servidores , inicialmente nenhum download necessário. <br/> • Você precisa certificar-se de que, ao instalar esse recurso ou se ele já estiver instalado e estiver verificando, a opção Ativação **HTTP** também está marcada e instalada, assim como: <br/> ![Captura de tela mostrando a opção De ativação HTTP na .NET Framework recursos 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Não se preocupe se você receber um pop-up adicional dizendo que algumas outras coisas precisam ser instaladas para a ativação HTTP ser instalada. Isso é normal; clique em OK e vá em frente. Se você não receber esse pop-up, poderá supor que essas coisas já estão instaladas e vá em frente.  <br/> O Microsoft .NET Framework geralmente é instalado quando Windows Server 2016 é instalado. Skype for Business Server o Microsoft .NET Framework 4.7 ou 4.8, portanto, você provavelmente precisará atualizá-lo. Você pode encontrar a atualização [aqui](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
-|Media Foundation  <br/> |Para Windows Server 2016, o Windows Tempo de Execução de Formato de Mídia é instalado com o Microsoft Media Foundation.  <br/> Todos os servidores front-end e servidores Edição Standard Windows usados para conferência exigem um tempo de execução de formato de mídia Windows para executar os arquivos de áudio de mídia (.wma) que os aplicativos estacionamento de chamada, comunicado e grupo de resposta reproduzem para anúncios e música.  <br/> |
-|Windows Identity Foundation  <br/> |Precisamos Windows Identity Foundation 3.5 para dar suporte a cenários de autenticação de servidor para servidor para Skype for Business Server 2019.  <br/> • Para Windows Server 2016, não é necessário baixar nada. Abra **o Gerenciador de** Servidores e vá para o Assistente adicionar funções e **recursos.** **Windows Identity Foundation 3.5** está listado na **seção Recursos.** Se estiver selecionado, você será bom. Caso contrário, selecione-o **e clique** em Próximo para alcançar o **botão Instalar.** <br/> |
-|Ferramentas de Administração de Servidor Remoto  <br/> |Ferramentas de Administração de Função: ferramentas do AD DS e do AD LDS  <br/> |
+|Windows PowerShell 3.0   |Todos Skype for Business Server servidores precisam Windows PowerShell 3.0 instalados.  <br/> • Isso deve ser instalado por padrão com Windows Server 2016. |
+|Microsoft .NET Framework   |Os serviços WCF são **um recurso** que é instalado como um recurso Windows, em **Gerenciador** de Servidores , inicialmente nenhum download necessário. <br/> • Você precisa certificar-se de que, ao instalar esse recurso ou se ele já estiver instalado e estiver verificando, a opção Ativação **HTTP** também está marcada e instalada, assim como: <br/>![Captura de tela mostrando a opção De ativação HTTP na .NET Framework recursos 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Não se preocupe se você receber um pop-up adicional dizendo que algumas outras coisas precisam ser instaladas para a ativação HTTP ser instalada. Isso é normal; clique em OK e vá em frente. Se você não receber esse pop-up, poderá supor que essas coisas já estão instaladas e vá em frente.  <br/> O Microsoft .NET Framework geralmente é instalado quando Windows Server 2016 é instalado. Skype for Business Server o Microsoft .NET Framework 4.7 ou 4.8, portanto, você provavelmente precisará atualizá-lo. Você pode encontrar a atualização [aqui](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) |
+|Media Foundation   |Para Windows Server 2016, o Windows Tempo de Execução de Formato de Mídia é instalado com o Microsoft Media Foundation.  <br/> Todos os servidores front-end e servidores Edição Standard Windows usados para conferência exigem um tempo de execução de formato de mídia Windows para executar os arquivos de áudio de mídia (.wma) que os aplicativos estacionamento de chamada, comunicado e grupo de resposta reproduzem para anúncios e música.   |
+|Windows Identity Foundation   |Precisamos Windows Identity Foundation 3.5 para dar suporte a cenários de autenticação de servidor para servidor para Skype for Business Server 2019.  <br/> • Para Windows Server 2016, não é necessário baixar nada. Abra **o Gerenciador de** Servidores e vá para o Assistente adicionar funções e **recursos.** **Windows Identity Foundation 3.5** está listado na **seção Recursos.** Se estiver selecionado, você será bom. Caso contrário, selecione-o **e clique** em Próximo para alcançar o **botão Instalar.**  |
+|Ferramentas de Administração de Servidor Remoto   |Ferramentas de Administração de Função: ferramentas do AD DS e do AD LDS   |
    
  **Servidores front-end e Edição Standard servidor também precisam:**
   
-|**Software/função**|**Detalhes**|
+|Software/função|Detalhes|
 |:-----|:-----|
-|Serviços de Informações da Internet (IIS)  <br/> |O IIS é necessário em todos os Servidores Front-End, bem como em todos os servidores Edição Standard, com os seguintes módulos selecionados:  <br/> • Recursos HTTP comuns: Documento Padrão, Erros HTTP, Conteúdo Estático  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Desempenho: Compactação de Conteúdo Estático, Compactação dinâmica de conteúdo  <br/> • Segurança: Filtragem de Solicitação, Autenticação de Mapeamento de Certificados do Cliente, Windows Autenticação  <br/> • Desenvolvimento de aplicativos: Extensibilidade .NET 3.5, Extensibilidade .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, Extensões ISAPI, Filtros ISAPI  <br/> • Ferramentas de Gerenciamento: Console de Gerenciamento do IIS, Scripts e Ferramentas de Gerenciamento do IIS  <br/> Observe que o Acesso Anônimo também é necessário, mas você pode obter isso ao instalar o IIS, para que não tenha um local para selecioná-lo na lista.  <br/> |
-|Tempo de Execução do Windows Media Format  <br/> | Para Windows Server 2016, você precisará instalar o recurso **Media Foundation** no Gerenciador **de Servidores.** Na verdade, você pode iniciar sua instalação do Skype for Business Server 2019 sem isso, mas será solicitado a instalá-lo e reiniciar o servidor, antes que a instalação do Skype for Business Server 2019 continue. É melhor fazer isso com antecedência. <br/> |
-|Silverlight  <br/> |Você pode instalar a versão mais recente do Silverlight [aqui](https://www.microsoft.com/silverlight/).  <br/> |
+|IIS (Serviços de Informações da Internet)   |O IIS é necessário em todos os Servidores Front-End, bem como em todos os servidores Edição Standard, com os seguintes módulos selecionados:  <br/> • Recursos HTTP comuns: Documento Padrão, Erros HTTP, Conteúdo Estático  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Desempenho: Compactação de Conteúdo Estático, Compactação dinâmica de conteúdo  <br/> • Segurança: Filtragem de Solicitação, Autenticação de Mapeamento de Certificados do Cliente, Windows Autenticação  <br/> • Desenvolvimento de aplicativos: Extensibilidade .NET 3.5, Extensibilidade .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, Extensões ISAPI, Filtros ISAPI  <br/> • Ferramentas de Gerenciamento: Console de Gerenciamento do IIS, Scripts e Ferramentas de Gerenciamento do IIS  <br/> Observe que o Acesso Anônimo também é necessário, mas você pode obter isso ao instalar o IIS, para que não tenha um local para selecioná-lo na lista.   |
+|Tempo de Execução do Windows Media Format   | Para Windows Server 2016, você precisará instalar o recurso **Media Foundation** no Gerenciador **de Servidores.** Na verdade, você pode iniciar sua instalação do Skype for Business Server 2019 sem isso, mas será solicitado a instalá-lo e reiniciar o servidor, antes que a instalação do Skype for Business Server 2019 continue. É melhor fazer isso com antecedência.  |
+|Silverlight   |Você pode instalar a versão mais recente do Silverlight [aqui](https://www.microsoft.com/silverlight/).   |
    
 Para ajudá-lo, aqui está um exemplo de script do PowerShell que você pode executar para automatizar isso:
   
@@ -200,11 +197,9 @@ Ao instalar o Skype for Business Server 2019 Edição Standard, você terá SQL 
 
 Skype for Business Server 2019 Edição Enterprise exigirá um SQL Server completo, conforme indicado abaixo (apenas edição de 64 bits; não use edições de 32 bits):
   
-||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 (edição de 64 bits) e você deve executar com as atualizações mais recentes.  <br/> |Microsoft SQL Server 2017 (edição de 64 bits) e você deve executar com as atualizações mais recentes.  <br/> |
-Microsoft SQL Server 2016 (edição de 64 bits) e você deve executar com as atualizações mais recentes.|
- |
+- Microsoft SQL Server 2019 (edição de 64 bits) e você deve executar com as atualizações mais recentes.
+- Microsoft SQL Server 2017 (edição de 64 bits) e você deve executar com as atualizações mais recentes.
+- Microsoft SQL Server 2016 (edição de 64 bits) e você deve executar com as atualizações mais recentes.
 
 Se você não vir a SQL Server edição que deseja usar listada aqui, não poderá usá-la.
   
@@ -244,15 +239,15 @@ Não instale nenhum software cliente de IsA (Segurança e Aceleração da Intern
 
 Embora grande parte dos dados de configuração para servidores e serviços esteja armazenada no armazenamento de Gerenciamento Central do Skype for Business Server 2019, há algumas coisas ainda armazenadas no Active Directory:
   
-|**Objetos do Active Directory**|**Tipos de objeto**|
+|Objetos do Active Directory|Tipos de objeto|
 |:-----|:-----|
-|Extensões de esquema  <br/> |Extensões do objeto do usuário  <br/> |
-||Extensões para Skype for Business Server 2015 e Lync Server 2013, para manter a compatibilidade com versões anteriores com suporte  <br/> |
-|Dados  <br/> |URI SIP do usuário e outras configurações de usuário  <br/> |
-||Objetos de contato para aplicativos (como o aplicativo grupo de resposta e o aplicativo Atendedor de Conferência)  <br/> |
-||Dados publicados para compatibilidade com compatibilidade  <br/> |
-||Um ponto de controle de serviço (SCP) para o armazenamento de Gerenciamento Central  <br/> |
-||Conta de autenticação Kerberos (um objeto de computador opcional)  <br/> |
+|Extensões de esquema   |Extensões do objeto do usuário   |
+||Extensões para Skype for Business Server 2015 e Lync Server 2013, para manter a compatibilidade com versões anteriores com suporte   |
+|Data   |URI SIP do usuário e outras configurações de usuário   |
+||Objetos de contato para aplicativos (como o aplicativo grupo de resposta e o aplicativo Atendedor de Conferência)   |
+||Dados publicados para compatibilidade com compatibilidade   |
+||Um ponto de controle de serviço (SCP) para o armazenamento de Gerenciamento Central   |
+||Conta de autenticação Kerberos (um objeto de computador opcional)   |
    
 ### <a name="os-for-domain-controllers"></a>Sistema operacional para controladores de domínio
 
@@ -370,24 +365,24 @@ Nesse cenário, há suporte para implantar Exchange local, Exchange Online, uma 
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>Várias florestas em uma topologia de floresta de recursos com Skype for Business
 <a name="BKMK_multipleforestopology"> </a>
 
-Nesse cenário, há uma ou mais florestas de usuários locais, e o Skype for Business é implantado em uma floresta de recursos dedicada e é configurado para o modo híbrido com o Skype for Business Online. Exchange Server pode ser implantado no local na mesma floresta de recursos ou em uma floresta diferente e pode ser configurado para híbrido com Exchange Online. Como alternativa, os serviços de email podem ser fornecidos exclusivamente Exchange Online para as contas locais.
+Nesse cenário, há uma ou mais florestas de usuários locais, e o Skype for Business é implantado em uma floresta de recursos dedicada e é configurado para o modo híbrido com o Skype for Business Online. Exchange Server pode ser implantado no local na mesma floresta de recursos ou em uma floresta diferente e pode ser configurado para híbrido com o Exchange Online. Como alternativa, os serviços de email podem ser fornecidos exclusivamente pelo Exchange Online para as contas locais.
   
 Para obter mais informações, [consulte Configure a multi-forest environment for hybrid Skype for Business](../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
   
 ## <a name="domain-name-system-dns"></a>Sistema de Nomes de Domínio (DNS)
 <a name="DNS"> </a>
 
-Skype for Business Server 2019 requer DNS, pelos seguintes motivos:
+O Skype for Business Server 2019 requer DNS, pelos seguintes motivos:
   
-- O DNS permite Skype for Business Server 2019 para descobrir servidores internos ou pools, permitindo comunicações de servidor para servidor.
+- O DNS permite que o Skype for Business Server 2019 descubra servidores internos ou pools, permitindo comunicações de servidor para servidor.
     
-- O DNS permite que as máquinas cliente descubram o pool de Front-End ou Edição Standard servidor sendo usado para transações SIP.
+- O DNS permite que as máquinas cliente descubram o pool de Front-End ou o servidor Standard Edition que está sendo usado para transações SIP.
     
 - Ele associa URLs simples para conferências com os servidores que hospedam essas conferências.
     
 - O DNS permite que usuários externos e máquinas cliente se conectem aos Seus Servidores de Borda, ou ao proxy reverso HTTP, para mensagens instantâneas (IM) ou conferência.
     
-- Ele permite que os dispositivos de comunicações unificadas (UC) que não estão conectados descubram o pool de Front-End ou o servidor Edição Standard que está executando o serviço Web de Atualização de Dispositivo para obter atualizações e enviar logs.
+- Ele permite que os dispositivos de comunicações unificadas (UC) que não estão conectados descubram o pool de Front-End ou o servidor Standard Edition que está executando o serviço Web de Atualização de Dispositivo para obter atualizações e enviar logs.
     
 - O uso do DNS permite que os clientes móveis descubram automaticamente recursos de serviços Web sem exigir que os usuários insiram manualmente URLs em suas configurações de dispositivo.
     
@@ -397,7 +392,7 @@ Skype for Business Server 2019 requer DNS, pelos seguintes motivos:
   
 E é extremamente importante lembrar que qualquer nome no DNS seja idêntico ao nome do computador configurado em qualquer servidor que está sendo usado pelo Skype for Business Server 2019. Especificamente, não podemos ter nomes curtos no ambiente e devem ter FQDNs para Construtor de Topologias.
   
-Isso parece lógico para qualquer computador já ingressado em um domínio, mas se você tiver um Servidor de Borda que não está ingressado no seu domínio, ele pode ter um padrão de um nome curto, sem sufixo de domínio. Certifique-se de que esse não seja o caso, seja no DNS ou no Servidor de Borda, ou em qualquer servidor ou pool Skype for Business Server 2019, para esse assunto.
+Isso parece lógico para qualquer computador já ingressado em um domínio, mas se você tiver um Servidor de Borda que não está ingressado no seu domínio, ele pode ter um padrão de um nome curto, sem sufixo de domínio. Certifique-se de que esse não seja o caso, seja no DNS ou no Servidor de Borda, ou em qualquer servidor ou pool do Skype for Business Server 2019, para esse assunto.
   
 Definitivamente, não use caracteres Unicode ou sublinhados. Os caracteres padrão (que são A-Z, a-z, 0-9 e hífens) são suportados por DNS externos e autoridades públicas de certificados (você precisará atribuir FQDNs ao SN no certificado, é importante lembrar), portanto, você se poupará de muitos problemas se colocar isso em mente desde o início.
   
@@ -406,7 +401,7 @@ Para saber mais sobre os requisitos de DNS para Rede, confira a seção [Rede](.
 ## <a name="certificates"></a>Certificados
 <a name="Certs"> </a>
 
-Uma das coisas mais importantes que você pode fazer antes de implantar é garantir que você tenha seus certificados em ordem. Skype for Business Server 2019 precisa de uma infraestrutura de chave pública (PKI) para conexões de segurança de camada de transporte (TLS) e MTLS (mutual transport layer security). Basicamente, para se comunicar com segurança de forma padronizada, Skype for Business Server usa certificados emitidos pelas Autoridades de Certificação (CAs).
+Uma das coisas mais importantes que você pode fazer antes de implantar é garantir que você tenha seus certificados em ordem. O Skype for Business Server 2019 precisa de uma infraestrutura de chave pública (PKI) para conexões de segurança de camada de transporte (TLS) e MTLS (mutual transport layer security). Basicamente, para se comunicar com segurança de forma padronizada, o Skype for Business Server usa certificados emitidos pelas Autoridades de Certificação (CAs).
   
 Estas são algumas das coisas que o Skype for Business Server 2019 usa certificados para:
   
@@ -428,11 +423,11 @@ Portanto, o planejamento de certificados é necessário. Agora, vamos ver uma li
     
 - Todos os certificados de servidor devem conter um CDP (Ponto de Distribuição de CRL).
     
-- Todos os certificados devem ser assinados usando um algoritmo de assinatura com suporte do sistema operacional. Skype for Business Server 2019 oferece suporte ao pacote SHA-1 e SHA-2 de tamanhos digest (224, 256, 384 e 512 bits) e atende ou excede os requisitos do sistema operacional.
+- Todos os certificados devem ser assinados usando um algoritmo de assinatura com suporte do sistema operacional. O Skype for Business Server 2019 oferece suporte ao pacote SHA-1 e SHA-2 de tamanhos digest (224, 256, 384 e 512 bits) e atende ou excede os requisitos do sistema operacional.
     
-- O registro automático é suportado para servidores internos que executam Skype for Business Server 2019.
+- O registro automático é suportado para servidores internos que executam o Skype for Business Server 2019.
     
-- O registro automático não é suportado para servidores de borda Skype for Business Server 2019.
+- O registro automático não é suportado para Servidores de Borda do Skype for Business Server 2019.
     
 > [!NOTE]
 > O uso do algoritmo de assinatura RSASSA-PSS não é compatível e pode levar a erros em problemas de logon e encaminhamento de chamada, entre outros problemas. 
@@ -447,11 +442,11 @@ Isso é muito sobre o que pensar e há uma variedade de níveis de conforto com 
 
 Você precisará de certificados para a maioria dos seus servidores internos e, provavelmente, você os obterá de uma AC interna (que é uma AC localizada em seu domínio). Se quiser, você pode solicitar esses certificados de uma AC externa (uma localizada na Internet). Se você estiver se perguntando para qual ac pública você deve ir, confira a lista de parceiros de [certificados de Comunicações](../../SfbPartnerCertification/certification/services-ssl.md) Unificadas.
   
-Você também precisará de certificados quando o Skype for Business Server 2019 se comunicar com outros aplicativos e servidores, como Microsoft Exchange Server. Obviamente, isso precisará ser um certificado que esses outros aplicativos e servidores possam usar de forma suportada. Skype for Business Server 2019 e outros produtos Microsoft suportam o protocolo OAuth (Autorização Aberta) para autenticação e autorização de servidor para servidor. Se você estiver interessado nisso, temos um artigo de planejamento adicional para OAuth e Skype for Business Server 2019.
+Você também precisará de certificados quando o Skype for Business Server 2019 se comunicar com outros aplicativos e servidores, como Microsoft Exchange Server. Obviamente, isso precisará ser um certificado que esses outros aplicativos e servidores possam usar de forma suportada. O Skype for Business Server 2019 e outros produtos da Microsoft suportam o protocolo OAuth (Autorização Aberta) para autenticação e autorização de servidor para servidor. Se você estiver interessado nisso, temos um artigo de planejamento adicional para o OAuth e o Skype for Business Server 2019.
   
-Skype for Business Server 2019 também inclui suporte para certificados assinados (sem a necessidade) usando a função hash criptográfico SHA-256. Para dar suporte ao acesso externo usando SHA-256, o certificado externo precisa ser emitido por uma AC pública usando SHA-256.
+O Skype for Business Server 2019 também inclui suporte para certificados assinados (sem a necessidade) usando a função hash criptográfico SHA-256. Para dar suporte ao acesso externo usando SHA-256, o certificado externo precisa ser emitido por uma AC pública usando SHA-256.
   
-Para manter as coisas simples, colocamos os requisitos de certificado para servidores Edição Standard, pools front-end e outras funções, nas tabelas a seguir, com o contoso.com fictício sendo usado por exemplos (você provavelmente estará usando algo mais para seu ambiente). Todos eles são certificados de servidor Web padrão, com chaves privadas que não são exportáveis. Algumas coisas adicionais a observar:
+Para manter as coisas simples, colocamos os requisitos de certificado para servidores Standard Edition, pools front-end e outras funções, nas tabelas a seguir, com o contoso.com fictício sendo usado por exemplos (você provavelmente estará usando algo mais para seu ambiente). Todos eles são certificados de servidor Web padrão, com chaves privadas que não são exportáveis. Algumas coisas adicionais a observar:
   
 - O uso de chave aprimorada do servidor (EKU) é configurado automaticamente quando você usa o assistente de certificado para solicitar certificados.
     
@@ -459,41 +454,41 @@ Para manter as coisas simples, colocamos os requisitos de certificado para servi
     
 - De acordo com os nomes de exemplo abaixo, se você configurou sipinternal.contoso.com ou sipexternal.contoso.com em seu DNS, eles precisarão ser adicionados ao SAN (Subject Alternative Name) do certificado.
     
-Certificados para servidores Edição Standard:
+Certificados para servidores Standard Edition:
   
-|**Certificado**|**Nome do assunto/nome comum**|**Nome alternativo da entidade**|**Exemplo**|**Comments**|
+|Certificado|Nome do assunto/nome comum|Nome da entidade alternativo|Exemplo|Comentários|
 |:-----|:-----|:-----|:-----|:-----|
-|Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool é o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) é exigida na política do grupo, também é preciso de entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Se esse pool é o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |Em Edição Standard servidores, o FQDN do servidor é igual ao FQDN do pool.  <br/> O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também pode usar esse certificado para Autenticação de Servidor para Servidor.  <br/> |
-|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com  <br/> |Não é possível substituir o FQDN Da Web Interno no Construtor de Topologias.  <br/> Se você tiver várias URLs simples de Meet, deverá incluir todas elas como SANs.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
-|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • URL simples discado  <br/> • Atender a URLs simples por domínio SIP  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado coringa:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Se possuir vários Atender a URLs simples, devem-se incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Padrão   |FQDN do pool   |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool é o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) é exigida na política do grupo, também é preciso de entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).   |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Se esse pool é o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com   |Em servidores Standard Edition, o FQDN do servidor é o mesmo que o FQDN do pool.  <br/> O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também pode usar esse certificado para Autenticação de Servidor para Servidor.   |
+|Web interna   |FQDN do servidor   |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples   |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com   |Não é possível substituir o FQDN Da Web Interno no Construtor de Topologias.  <br/> Se você tiver várias URLs simples de Meet, deverá incluir todas elas como SANs.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.   |
+|Web externa   |FQDN do servidor   |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • URL simples discado  <br/> • Atender a URLs simples por domínio SIP  <br/> OU  <br/> • Uma entrada curinga para as URLs simples   |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado coringa:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com   |Se possuir vários Atender a URLs simples, devem-se incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.   |
    
 Certificados para servidores front-end em um pool de front-end:
   
-|**Certificado**|**Nome do assunto/nome comum**|**Nome alternativo da entidade**|**Exemplo**|**Comments**|
+|Certificado|Nome do assunto/nome comum|Nome da entidade alternativo|Exemplo|Comentários|
 |:-----|:-----|:-----|:-----|:-----|
-|Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool é o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) é exigida na política do grupo, também é preciso de entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Se esse pool é o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também pode usar esse certificado para Autenticação de Servidor para Servidor.  <br/> |
-|Web interna  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que NÃO é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • Skype for Business FQDN do pool  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com  <br/> |Se possuir vários Atender a URLs simples, devem-se incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
-|Web externa  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Se possuir vários Atender a URLs simples, devem-se incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Padrão   |FQDN do pool   |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool é o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) é exigida na política do grupo, também é preciso de entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).   |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Se esse pool é o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com   |O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também pode usar esse certificado para Autenticação de Servidor para Servidor.   |
+|Web interna   |FQDN do pool   |Cada um dos seguintes:  <br/> • FQDN da Web interna (que NÃO é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • Skype for Business FQDN do pool  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples   |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com   |Se possuir vários Atender a URLs simples, devem-se incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.   |
+|Web externa   |FQDN do pool   |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples   |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com   |Se possuir vários Atender a URLs simples, devem-se incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.   |
    
 Certificados para o Diretor:
   
-|**Certificado**|**Nome do assunto/nome comum**|**Nome alternativo da entidade**|**Exemplo**|
+|Certificado|Nome do assunto/nome comum|Nome da entidade alternativo|Exemplo|
 |:-----|:-----|:-----|:-----|
-|Padrão  <br/> |Director pool  <br/> |FQDN do Diretor, FQDN do pool de diretores.  <br/> Se esse pool for o servidor de logon automático para clientes e a correspondência dns estrita for necessária na política de grupo, você também precisará de entradas para sip.sipdomain (para cada domínio SIP que você tiver).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Se esse pool de Diretor for o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
-|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • Skype for Business FQDN do pool  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • Atender a URLs simples por domínio SIP  <br/> • URL simples discado  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |O FQDN da Web externo do Diretor deve ser diferente do pool de Front-End ou do Servidor Front-End.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|Padrão   |Director pool   |FQDN do Diretor, FQDN do pool de diretores.  <br/> Se esse pool for o servidor de logon automático para clientes e a correspondência dns estrita for necessária na política de grupo, você também precisará de entradas para sip.sipdomain (para cada domínio SIP que você tiver).   |pool.contoso.com; SAN=dir01.contoso.com  <br/> Se esse pool de Diretor for o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
+|Web interna   |FQDN do servidor   |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • Skype for Business FQDN do pool  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples   |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com   |
+|Web externa   |FQDN do servidor   |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • Atender a URLs simples por domínio SIP  <br/> • URL simples discado  <br/> OU  <br/> • Uma entrada curinga para as URLs simples   |O FQDN da Web externo do Diretor deve ser diferente do pool de Front-End ou do Servidor Front-End.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com   |
    
 Certificados para Servidor de Mediação Autônomo:
   
-|**Certificado**|**Nome do assunto/nome comum**|**Nome alternativo da entidade**|**Exemplo**|
+|Certificado|Nome do assunto/nome comum|Nome da entidade alternativo|Exemplo|
 |:-----|:-----|:-----|:-----|
-|Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool  <br/> FQDN do servidor membro do pool  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|Padrão   |FQDN do pool   |FQDN do pool  <br/> FQDN do servidor membro do pool   |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net   |
    
 Certificados para Aparelho de Filial Desavivável (Especificamente, Aparelho de Filial Desavivável 2015 para Skype for Business Server 2019):
   
-|**Certificado**|**Nome do assunto/nome comum**|**Nome alternativo da entidade**|**Exemplo**|
+|Certificado|Nome do assunto/nome comum|Nome da entidade alternativo|Exemplo|
 |:-----|:-----|:-----|:-----|
-|Padrão  <br/> |FQDN do aplicativo  <br/> |SIP.\<sipdomain\> (você precisa de apenas uma entrada por domínio SIP)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
+|Padrão   |FQDN do aplicativo   |SIP.\<sipdomain\> (você precisa de apenas uma entrada por domínio SIP)   |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
    
 ### <a name="certificates-for-external-user-access-edge"></a>Certificados para acesso de usuário externo (Borda)
 
@@ -521,18 +516,18 @@ Se for isso que você está vendo e se você tiver muitos domínios SIP (o que t
   
 Requisitos de certificado de pool de diretores e de pool de front-end:
   
-|**Descrição**|**Entrada SAN**|
+|Descrição|Entrada SAN|
 |:-----|:-----|
-|URL do serviço de Descoberta Automática Interna  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
-|URL do serviço de Descoberta Automática Externa  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|URL do serviço de Descoberta Automática Interna   |SAN=lyncdiscoverinternal.\<sipdomain\>   |
+|URL do serviço de Descoberta Automática Externa   |SAN=lyncdiscover.\<sipdomain\>   |
    
 Como alternativa, você pode usar SAN= \* .\<sipdomain\>
   
 Requisitos de certificado de Proxy Reverso (CA Pública):
   
-|**Descrição**|**Entrada SAN**|
+|Descrição|Entrada SAN|
 |:-----|:-----|
-|URL do serviço de Descoberta Automática Externa  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|URL do serviço de Descoberta Automática Externa   |SAN=lyncdiscover.\<sipdomain\>   |
    
 Essa SAN precisa ser atribuída ao certificado atribuído ao Ouvinte SSL em seu proxy reverso.
   

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: Este artigo descreve como gerenciar serviços executados em uma topologia de Skype for Business Server.
-ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be613203b9e15640ead1b136ebe1b89f4c4c50ea
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593635"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014175"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Gerenciar serviços para Skype for Business Server
 
@@ -55,7 +55,7 @@ Você pode usar Skype for Business Server Painel de Controle para exibir todos o
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Exibindo o status do serviço Windows cmdlets do Powershell
 
-Você também pode exibir o status do serviço usando Windows PowerShell e o cmdlet **Get-CsWindowsService.** Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 Usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+Você também pode exibir o status do serviço usando Windows PowerShell e o cmdlet **Get-CsWindowsService.** Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-view-service-status"></a>Para exibir o status do serviço
 

@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
+description: Saiba como recuperar dados do Microsoft Teams do log de auditoria no centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28aa07c3d9fa832e126bd6694b5d004c02c97d99
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: c176369914a2908134d541d30b8908aecef43cd4
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58972879"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015425"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-O log de auditoria pode ajudá-lo a investigar atividades específicas em Microsoft 365 serviços. Para Microsoft Teams, aqui estão algumas das atividades que são auditadas:
+O log de auditoria pode ajudá-lo a investigar atividades específicas nos serviços do Microsoft 365. Para o Microsoft Teams, aqui estão algumas das atividades que são auditadas:
 
 - Criação de equipes
 - Exclusão de equipes
@@ -35,7 +35,7 @@ O log de auditoria pode ajudá-lo a investigar atividades específicas em Micros
 - Canal excluído
 - Configuração de canal alterada
 
-Para uma lista completa de Teams que são auditadas, consulte [Teams](#teams-activities) atividades e Turnos em atividades Teams [(em visualização)](#shifts-in-teams-activities).
+Para ver uma lista completa das atividades do Teams auditadas, consulte Atividades do [Teams](#teams-activities) e Turnos nas [atividades do Teams (em visualização)](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Eventos de auditoria de canais privados também são registrados como são para equipes e canais padrão.
@@ -58,11 +58,11 @@ Antes de poder ver os dados de auditoria, você precisa primeiro ativar a audito
 > [!IMPORTANT]
 > Os dados de auditoria só serão visíveis no log de auditoria se a auditoria estiver 1ada.
 
-O período de tempo em que um registro de auditoria é mantido e pesquisável no log de auditoria depende de sua assinatura Microsoft 365 ou Office 365, e especificamente o tipo de licença atribuída aos usuários. Para saber mais, confira a descrição do serviço [& Centro de Conformidade.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
+O tempo em que um registro de auditoria é mantido e pesquisável no log de auditoria depende da sua assinatura do Microsoft 365 ou do Office 365 e, especificamente, do tipo de licença atribuída aos usuários. Para saber mais, confira a descrição do serviço [& Centro de Conformidade.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
 
-## <a name="tips-for-searching-the-audit-log"></a>Dicas pesquisar o log de auditoria
+## <a name="tips-for-searching-the-audit-log"></a>Dicas para pesquisar o log de auditoria
 
-Aqui estão dicas para pesquisar Teams atividades no log de auditoria.
+Aqui estão dicas para pesquisar atividades do Teams no log de auditoria.
 
 ![Captura de tela da página de pesquisa de log de auditoria.](media/audit-log-search-page.png)
 
@@ -76,21 +76,21 @@ Aqui estão dicas para pesquisar Teams atividades no log de auditoria.
 
 - Se 5.000 resultados são encontrados, você provavelmente pode supor que há mais de 5.000 eventos que atendidas aos critérios de pesquisa. Você pode refinar os critérios de pesquisa e reprisar a pesquisa para retornar menos resultados ou exportar todos os resultados da pesquisa selecionando **Exportar**  >  **Baixar todos os resultados**.
 
-Confira este [vídeo para](https://www.youtube.com/embed/UBxaRySAxyE) usar a pesquisa de log de áudio. Participe de Ansuman Acharya, um gerente de programa para Teams, pois ele demonstra como fazer uma pesquisa de log de auditoria para Teams.
+Confira este [vídeo para](https://www.youtube.com/embed/UBxaRySAxyE) usar a pesquisa de log de áudio. Insuman Acharya, gerente de programas do Teams, demonstra como fazer uma pesquisa de log de auditoria para o Teams.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar Cloud App Security para definir políticas de atividade
+## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar o Cloud App Security para definir políticas de atividade
 
-Usando [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integração, você [](/cloud-app-security/user-activity-policies) pode definir políticas de atividade para impor uma ampla variedade de processos automatizados usando as APIs do provedor de aplicativos. Essas políticas permitem monitorar atividades específicas realizadas por vários usuários ou seguir taxas inesperadamente altas de um determinado tipo de atividade.
+Usando a integração com o [](/cloud-app-security/user-activity-policies) [Microsoft Cloud App Security,](/cloud-app-security/what-is-cloud-app-security) você pode definir políticas de atividade para impor uma ampla variedade de processos automatizados usando as APIs do provedor de aplicativos. Essas políticas permitem monitorar atividades específicas realizadas por vários usuários ou seguir taxas inesperadamente altas de um determinado tipo de atividade.
 
-Depois de definir uma política de detecção de atividade, ela começa a gerar alertas. Os alertas só são gerados em atividades que ocorrem após a criação da política. Aqui estão alguns cenários de exemplo de como você pode usar as políticas de atividade no Cloud App Security para monitorar Teams atividades.
+Depois de definir uma política de detecção de atividade, ela começa a gerar alertas. Os alertas só são gerados em atividades que ocorrem após a criação da política. Aqui estão alguns cenários de exemplo de como você pode usar políticas de atividade no Cloud App Security para monitorar as atividades do Teams.
 
 ### <a name="external-user-scenario"></a>Cenário de usuário externo
 
-Um cenário em que você pode querer ficar de olho, de uma perspectiva de negócios, é a adição de usuários externos ao seu ambiente Teams ambiente. Se os usuários externos estão habilitados, monitorar sua presença é uma boa ideia.  Você pode usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para identificar possíveis ameaças.
+Um cenário em que você pode querer ficar de olho, de uma perspectiva comercial, é a adição de usuários externos ao seu ambiente do Teams. Se os usuários externos estão habilitados, monitorar sua presença é uma boa ideia.  Você pode usar [o Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para identificar possíveis ameaças.
 
 ![Política para monitorar a adição de usuários externos.](media/TeamsExternalUserAddPolicy.png)
 
-A captura de tela dessa política para monitorar a adição de usuários externos permite nomear a política, definir a gravidade de acordo com suas necessidades de negócios, defini-la como (nesse caso) uma única atividade e, em seguida, estabelecer os parâmetros que monitorarão especificamente apenas a adição de usuários não internos e limitar essa atividade a Teams.
+A captura de tela dessa política para monitorar a adição de usuários externos permite nomear a política, definir a gravidade de acordo com suas necessidades de negócios, defini-la como (nesse caso) uma única atividade e, em seguida, estabelecer os parâmetros que monitorarão especificamente apenas a adição de usuários não internos e limitar essa atividade ao Teams.
 
 Os resultados dessa política podem ser exibidos no log de atividades:
 
@@ -100,11 +100,11 @@ Aqui você pode revisar as combinações com a política definida e fazer quaisq
 
 ### <a name="mass-delete-scenario"></a>Cenário de exclusão em massa
 
-Como mencionado anteriormente, você pode monitorar cenários de exclusão. É possível criar uma política que monitore a exclusão em massa de Teams sites. Neste exemplo, uma política baseada em alerta é configurada para detectar a exclusão em massa das equipes em um intervalo de 30 minutos.
+Como mencionado anteriormente, você pode monitorar cenários de exclusão. É possível criar uma política que monitore a exclusão em massa de sites do Teams. Neste exemplo, uma política baseada em alerta é configurada para detectar a exclusão em massa das equipes em um intervalo de 30 minutos.
 
 ![Política mostrando a configuração de uma política para detecção de exclusão de equipe em massa.](media/TeamsMassDeletePolicy.png)
 
-Como mostra a captura de tela, você pode definir muitos parâmetros diferentes para essa política para monitorar as exclusões de Teams, incluindo gravidade, ação única ou repetida e parâmetros que limitam isso a Teams e exclusão de site. Isso pode ser feito independentemente de um modelo ou você pode ter um modelo criado para basear essa política, dependendo das suas necessidades organizacionais.
+Como mostra a captura de tela, você pode definir muitos parâmetros diferentes para essa política para monitorar exclusões do Teams, incluindo gravidade, ação única ou repetida e parâmetros que limitam isso ao Teams e à exclusão do site. Isso pode ser feito independentemente de um modelo ou você pode ter um modelo criado para basear essa política, dependendo das suas necessidades organizacionais.
 
 Depois de estabelecer uma política que funcione para sua empresa, você poderá revisar os resultados no log de atividades à medida que os eventos são disparados:
 
@@ -118,9 +118,9 @@ Você pode definir alertas e enviar emails para administradores e outros usuári
 
 ![Captura de tela de alertas e ações de governança para uma política de atividade.](media/audit-log-governance.png)
 
-## <a name="teams-activities"></a>Teams atividades
+## <a name="teams-activities"></a>Atividades do Teams
 
-Aqui está uma lista de todos os eventos que estão registrados para atividades de usuário e administrador no Teams no log de auditoria Microsoft 365 usuário. A tabela inclui o nome amigável exibido  na coluna Atividades e o nome da operação correspondente que aparece nas informações detalhadas de um registro de auditoria e no arquivo CSV quando você exporta os resultados da pesquisa.
+Aqui está uma lista de todos os eventos que estão registrados para atividades de usuário e administrador no Teams no log de auditoria do Microsoft 365. A tabela inclui o nome amigável exibido  na coluna Atividades e o nome da operação correspondente que aparece nas informações detalhadas de um registro de auditoria e no arquivo CSV quando você exporta os resultados da pesquisa.
 
 |Nome amigável  |Operação |Descrição |
 |:---------|:---------|:---------|
@@ -133,7 +133,7 @@ Aqui está uma lista de todos os eventos que estão registrados para atividades 
 |Configuração da organização alterada   |TeamsTenantSettingChanged         |A operação TeamsTenantSettingChanged é registrada quando as seguintes atividades são executadas por um administrador global no Centro de administração do Microsoft 365. Essas atividades afetam as configurações de Teams de toda a organização. Para saber mais, consulte [Manage Teams settings for your organization](enable-features-office-365.md). <br>Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses) é exibida na coluna **Item** nos resultados da pesquisa de log de auditoria.<ul><li>Habilita ou desabilita Teams para a organização (**Microsoft Teams**).</li><li>Habilita ou desabilita a interoperabilidade entre Microsoft Teams e Skype for Business para a organização (**Skype for Business interoperabilidade).**</li><li>Habilita ou desabilita o modo de exibição de gráfico organizacional Microsoft Teams clientes (**modo de exibição de gráfico de organização**).</li><li>Habilita ou desabilita a capacidade dos membros da equipe de agendar reuniões privadas (**Agendamento de reuniões particulares**).</li><li>Habilita ou desabilita a capacidade dos membros da equipe de agendar reuniões do canal (**Agendamento de reunião do canal**).</li><li>Habilita ou desabilita a chamada de vídeo Teams reuniões (**Vídeo para Skype reuniões).**</li><li>Habilita ou desabilita o compartilhamento de tela Microsoft Teams reuniões da organização ( Compartilhamento de tela **para Skype reuniões).**</li><li>Habilita ou desabilita a capacidade de adicionar imagens animadas (chamadas Giphys) Teams conversas (**imagens animadas**).</li><li>Altera a configuração de classificação de conteúdo para a organização (**Classificação de conteúdo**). A classificação de conteúdo restringe o tipo de imagem animada que pode ser exibida em conversas.</li><li>Habilita ou desabilita a capacidade dos membros da equipe de adicionar imagens personalizáveis (chamadas de memes personalizados) da Internet a conversas de equipe (**imagens personalizáveis da Internet**).</li><li>Habilita ou desabilita a capacidade dos membros da equipe de adicionar imagens editáveis (chamadas de adesivos) às conversas de equipe (**imagens editáveis**).</li><li>Habilita ou desabilita essa capacidade para os membros da equipe usarem bots em Microsoft Teams chats e canais (**bots em toda** a organização) .</li><li>Habilita bots específicos para Microsoft Teams. Isso não inclui o T-Bot, que é Teams bot de ajuda que está disponível quando os bots estão habilitados para a organização (**bots individuais**).</li><li>Habilita ou desabilita a capacidade dos membros da equipe de adicionar extensões ou guias (**Extensões ou guias**).</li><li>Habilita ou desabilita o side-loading de bots proprietários para Microsoft Teams (**Carregamento lateral de Bots**).</li><li>Habilita ou desabilita a capacidade de os usuários enviarem mensagens de email para um Microsoft Teams canal **(email do canal).**</li></ul>|
 |Função alterada dos membros na equipe    |MemberRoleChanged         |Um proprietário de equipe altera a função de membros em uma equipe. Os valores a seguir indicam o tipo de função atribuído ao usuário. <br><br>**1** - Indica a função Membro.<br>**2** - Indica a função Proprietário.<br>**3** - Indica a função Convidado.<br><br>A propriedade Members também inclui o nome da sua organização e o endereço de email do membro.        |
 |Configuração de equipe alterada    |TeamSettingChanged        |A operação TeamSettingChanged é registrada quando as seguintes atividades são executadas por um proprietário da equipe. Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses) é exibida na coluna **Item** nos resultados da pesquisa de log de auditoria.<ul><li>Altera o tipo de acesso de uma equipe. Teams pode ser definido como privado ou público (**Tipo de acesso de equipe**). Quando uma equipe é privada (a configuração padrão), os usuários podem acessar a equipe somente por convite. Quando uma equipe é pública, ela é descoberta por qualquer pessoa.</li><li>Altera a classificação de informações de uma equipe (**Classificação de equipe**). Por exemplo, os dados de equipe podem ser classificados como alto impacto comercial, médio impacto comercial ou baixo impacto comercial.</li><li>Altera o nome de uma equipe (**Nome da equipe**).</li><li>Altera a descrição da equipe (**Descrição da equipe**).</li><li>Alterações feitas nas configurações de equipe. Para acessar essas configurações, um proprietário da equipe pode clicar com o botão direito do mouse em uma equipe, selecione **Gerenciar** equipe e clique na **guia** Configurações. Para essas atividades, o nome da configuração que foi alterada é exibido na coluna **Item** nos resultados da pesquisa de log de auditoria.</li></ul>         |
-|Criado um chat <sup>1</sup>, <sup>2</sup>| ChatCreated|    Um Teams chat foi criado.|
+|Criado um chat <sup>1, </sup> <sup>2</sup>|    ChatCreated|    Um Teams chat foi criado.|
 |Equipe criada    |TeamCreated         |Um usuário cria uma equipe.         |
 |Excluiu uma mensagem  |MessageDeleted |Uma mensagem em um chat ou canal foi excluída.|
 |Excluído todos os aplicativos da organização|DeletedAllOrganizationApps           |Excluiu todos os aplicativos da organização do catálogo.     |
@@ -141,34 +141,34 @@ Aqui está uma lista de todos os eventos que estão registrados para atividades 
 |Canal excluído     |ChannelDeleted         |Um usuário exclui um canal de uma equipe.         |
 |Equipe excluída  |TeamDeleted            |Um proprietário de equipe exclui uma equipe.      |
 |Editei uma mensagem com um link de URL no Teams     |MessageEditedHasLink         |Um usuário edita uma mensagem e adiciona um link de URL a ela Teams.         |
-|Mensagens exportadas <sup>1</sup>, <sup>2</sup> | MessagesExported |Mensagens de chat ou canal foram exportadas|.
-|Chat buscado <sup> 1</sup, <sup>2</sup>>    |ChatRetrieved  |Um Microsoft Teams chat foi recuperado.|
-|Buscar todo o conteúdo hospedado de uma mensagem<sup>1</sup>, <sup>2</sup>  |MessageHostedContentsListed    |Todo o conteúdo hospedado em uma mensagem, como imagens ou trechos de código, foi recuperado.|
+|Mensagens exportadas <sup>1, </sup> <sup>2</sup> |    MessagesExported |Mensagens de chat ou canal foram exportadas.|
+|Chat buscado <sup>1, </sup> <sup>2</sup>   |ChatRetrieved  |Um Microsoft Teams chat foi recuperado.|
+|Buscar todo o conteúdo hospedado de uma mensagem<sup>1, </sup> <sup>2</sup> |MessageHostedContentsListed    |Todo o conteúdo hospedado em uma mensagem, como imagens ou trechos de código, foi recuperado.|
 |Aplicativo instalado |AppInstalled         |Um aplicativo foi instalado.   |
 |Ação executada no cartão|PerformedCardAction|Um usuário entrou em ação em um cartão adaptável dentro de um chat. Cartões adaptáveis geralmente são usados por bots para permitir a exibição rica de informações e interação em chats. <br/><br/>**Observação:** Somente ações de entrada em linha em um cartão adaptável dentro de um chat estarão disponíveis no log de auditoria. Por exemplo, quando um usuário envia uma resposta de sondagem em uma conversa de canal em um cartão adaptável gerado por um bot de Sondagem. Ações do usuário como "Exibir resultado", que abrirão uma caixa de diálogo ou ações do usuário dentro das caixas de diálogo não estarão disponíveis no log de auditoria.|
-|Postou uma nova mensagem <sup>1</sup>, <sup>2</sup>    |MessageSent Uma nova mensagem foi postada em um chat ou canal.|
+|Postou uma nova mensagem <sup>1, </sup> <sup>2</sup>   |MessageSent|   Uma nova mensagem foi postada em um chat ou canal.|
 |Aplicativo publicado |AppPublishedToCatalog           |Um aplicativo foi adicionado ao catálogo.     |
-|Ler uma mensagem <sup>1</sup>, <sup>2</sup>  |MessageRead    |Uma mensagem de um chat ou canal foi recuperada.|
-|Ler conteúdo hospedado de uma mensagem <sup>1</sup>, <sup>2</sup>    |MessageHostedContentRead   |O conteúdo hospedado em uma mensagem, como uma imagem ou um trecho de código, foi recuperado.|
+|Ler uma mensagem <sup>1, </sup> <sup>2</sup> |MessageRead    |Uma mensagem de um chat ou canal foi recuperada.|
+|Ler conteúdo hospedado de uma mensagem <sup>1, </sup> <sup>2</sup>   |MessageHostedContentRead   |O conteúdo hospedado em uma mensagem, como uma imagem ou um trecho de código, foi recuperado.|
 |Bot removido da equipe   |BotRemovedFromTeam         |Um usuário remove um bot de uma equipe.       |
 |Conector removido     |ConnectorRemoved         |Um usuário remove um conector de um canal.         |
 |Membros removidos    |MemberRemoved        |Um proprietário da equipe remove membros de uma equipe, canal ou chat de grupo.         |
 |Guia Removida    |TabRemoved         |Um usuário remove uma guia de um canal.         |
-|Mensagens recuperadas <sup>1</sup>, <sup>2</sup>  |MessagesListed |As mensagens de um chat ou canal foram recuperadas.|
+|Mensagens recuperadas <sup>1, </sup> <sup>2</sup> |MessagesListed |As mensagens de um chat ou canal foram recuperadas.|
 |Enviou uma mensagem com um link de URL no Teams |MessageCreatedHasLink|Um usuário envia uma mensagem contendo um link de URL Teams.|
-|Notificação de alteração enviada para criação <sup>de mensagens 1</sup>, <sup>2</sup>   |MessageCreatedNotification |Uma notificação de alteração foi enviada para notificar um aplicativo ouvinte inscrito de uma nova mensagem.|
-|Notificação de alteração enviada para exclusão <sup>de mensagem 1</sup>, <sup>2</sup>   |MessageDeletedNotification |Uma notificação de alteração foi enviada para notificar um aplicativo ouvinte inscrito de uma mensagem excluída.|
-|Notificação de alteração enviada para a atualização <sup>de mensagem 1</sup>, <sup>2</sup> |MessageUpdatedNotification |Uma notificação de alteração foi enviada para notificar um aplicativo ouvinte inscrito de uma mensagem atualizada.|
-|Inscrito nas notificações de alteração de mensagem <sup>1</sup>, <sup>2</sup>  |SubscribedToMessages   |Uma assinatura foi criada por um aplicativo ouvinte para receber notificações de alteração para mensagens.|
+|Notificação de alteração enviada para criação <sup>de mensagens 1, </sup> <sup>2</sup>  |MessageCreatedNotification |Uma notificação de alteração foi enviada para notificar um aplicativo ouvinte inscrito de uma nova mensagem.|
+|Notificação de alteração enviada para exclusão <sup>de mensagem 1, </sup> <sup>2</sup>  |MessageDeletedNotification |Uma notificação de alteração foi enviada para notificar um aplicativo ouvinte inscrito de uma mensagem excluída.|
+|Notificação de alteração enviada para a atualização <sup>de mensagem 1, </sup> <sup>2</sup>    |MessageUpdatedNotification |Uma notificação de alteração foi enviada para notificar um aplicativo ouvinte inscrito de uma mensagem atualizada.|
+|Inscrito nas notificações de alteração de mensagem <sup>1, </sup> <sup>2</sup> |SubscribedToMessages   |Uma assinatura foi criada por um aplicativo ouvinte para receber notificações de alteração para mensagens.|
 |Aplicativo desinstalado |AppUninstalled           |Um aplicativo foi desinstalado.     |
 |Aplicativo atualizado |AppUpdatedInCatalog           |Um aplicativo foi atualizado no catálogo.     |
-|Atualizado um chat <sup>1</sup>, <sup>2</sup>  |ChatUpdated    |Um Teams chat foi atualizado.|
-|Atualizado uma mensagem <sup>1</sup>, <sup>2</sup>   |MessageUpdated |Uma mensagem de um chat ou canal foi atualizada.|
+|Atualizado um chat <sup>1, </sup> <sup>2</sup> |ChatUpdated    |Um Teams chat foi atualizado.|
+|Atualizado uma mensagem <sup>1, </sup> <sup>2</sup>  |MessageUpdated |Uma mensagem de um chat ou canal foi atualizada.|
 |Conector atualizado    |ConnectorUpdated         |Um usuário modificou um conector em um canal.         |
 |Guia Atualizado   |TabUpdated         |Um usuário modificou uma guia em um canal.         |
 |Aplicativo atualizado |AppUpgraded           |Um aplicativo foi atualizado para sua versão mais recente no catálogo.     |
 |O usuário se inscreveu no Teams     |TeamsSessionStarted         |Um usuário se insinte em um Microsoft Teams cliente. Esse evento não captura atividades de atualização de token.         |
-||||
+
 
 > [!NOTE]
 > <sup>1</sup> Um registro de auditoria para esse evento só é registrado quando a operação é executada chamando uma API Graph Microsoft. Se a operação for executada no cliente Teams, um registro de auditoria não será registrado<br/><br/><sup>2</sup> Esse evento só está disponível na Auditoria Avançada. Isso significa que os usuários devem ter a licença apropriada antes que esses eventos sejam registrados no log de auditoria. Para obter mais informações sobre atividades disponíveis apenas na Auditoria Avançada, consulte [Auditoria Avançada em Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Para requisitos avançados de licenciamento de auditoria, consulte [Soluções de auditoria em Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements).
@@ -215,7 +215,7 @@ Você pode usar a API Office 365 Atividade de Gerenciamento para recuperar infor
 
 ## <a name="attribution-in-teams-audit-logs"></a>Atribuição em Teams logs de auditoria
 
-As alterações de associação ao Teams (como usuários adicionados ou excluídos) feitas por meio do Azure Active Directory (Azure AD), do portal de administração do Microsoft 365 ou da API de Grupos Microsoft 365 Graph serão exibidas em mensagens de auditoria do Teams e no canal Geral com uma atribuição a um proprietário existente da equipe e não ao iniciador real da ação. Nesses cenários, consulte o Azure AD ou [Microsoft 365 de](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) auditoria de grupo para ver as informações relevantes.
+As alterações de associação ao Teams (como usuários adicionados ou excluídos) feitas por meio do Azure Active Directory (Azure AD), portal de administração do Microsoft 365 ou api Graph Grupos do Microsoft 365 serão exibidas em mensagens de auditoria Teams e no canal Geral com uma atribuição a um proprietário existente da equipe e não para o iniciador real da ação. Nesses cenários, consulte o Azure AD ou [Microsoft 365 de](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) auditoria de grupo para ver as informações relevantes.
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Usar Cloud App Security para definir políticas de detecção de anomalias
 

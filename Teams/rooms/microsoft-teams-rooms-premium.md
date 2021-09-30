@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o Salas do Microsoft Teams gerenciado.
 f1keywords: ''
-ms.openlocfilehash: b60f920d6364599021f77d23fe890e11fae5c43e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7584011b3fc2f20318801b33e2be87f0f0cfe83e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597585"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012735"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas do Microsoft Teams serviço gerenciado
 
@@ -74,7 +74,7 @@ Sua organização ou um parceiro contratado pela sua organização deve estar pr
 
 O Salas do Microsoft Teams gerenciado é suportado por meio de um SOC Salas do Microsoft Teams serviço gerenciado dedicado. O modo principal de comunicação do SOC do serviço gerenciado Salas do Microsoft Teams para os clientes é por meio do portal de serviço gerenciado Salas do Microsoft Teams. O Salas do Microsoft Teams soc do serviço gerenciado fornece a primeira resposta e a escalonamento apropriado em tíquetes gerados pelo sistema ou pela sua organização.
 
-|  |  |
+|  | Descrição |
 |---------|---------|
 |**Escopo**   |Incidentes relacionados ao aplicativo de sala de reunião, dispositivos de sala e periféricos são incluídos no suporte Salas do Microsoft Teams serviço gerenciado.|
 |**Público-alvo**  |Somente operações de IT         |
@@ -111,7 +111,7 @@ A Salas do Microsoft Teams Premium de Salas do Microsoft Teams Premium está dis
 |**Experiência de compartilhamento**   |         |         |
 |A investigação de problemas nas configurações de reunião Salas do Microsoft Teams aplicativo e as diretrizes para configurar corretamente a Qualidade do Serviço no dispositivo são fornecidas sob solicitação.      |Análises ou investigações de causas raiz para problemas de qualidade de chamada ou problemas relacionados à rede são excluídos desse escopo.         |Suporte principal da Microsoft         |
 |**Correção, integração e continuidade**     |         |         |
-|Os clientes recebem orientações para levar suas salas aos padrões recomendados pelo serviço Salas do Microsoft Teams gerenciado na integração    |As investigações em relação a imagens de software personalizadas internas ou não compatíveis com as diretrizes de versão de software recomendadas Salas do Microsoft Teams serviço gerenciado não estão no escopo.          |         |
+|Os clientes recebem orientações para levar suas salas aos padrões recomendados pelo serviço Salas do Microsoft Teams gerenciado na integração    |As investigações em relação a imagens de software personalizadas internas ou não compatíveis com as diretrizes de versão de software recomendadas Salas do Microsoft Teams serviço gerenciado não estão no escopo.   | |       
 
 ## <a name="data-collection"></a>Coleta de dados
 

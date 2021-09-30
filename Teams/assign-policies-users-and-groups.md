@@ -18,12 +18,12 @@ description: Saiba as diferentes maneiras de atribuir políticas a usuários e g
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: a8182e1fe9058a5b7b7e8c88d0fdbac4070d48b7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b896e823339b1b40ff31036c0e53308bbbe1107b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732071"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011495"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Atribuir políticas a usuários e grupos
 
@@ -55,7 +55,7 @@ Ou você também pode fazer o seguinte:
 
 ### <a name="use-powershell"></a>Usar o PowerShell
 
-Cada tipo de política tem seu próprio conjunto de cmdlets para gere-lo. Use o ```Grant-``` cmdlet para um determinado tipo de política para atribuir a política. Por exemplo, use o ```Grant-CsTeamsMeetingPolicy``` cmdlet para atribuir uma Teams de reunião aos usuários. Esses cmdlets estão incluídos no módulo Teams PowerShell e estão documentados na referência Skype for Business [cmdlet .](/powershell/skype)
+Cada tipo de política tem seu próprio conjunto de cmdlets para gere-lo. Use o `Grant-` cmdlet para um determinado tipo de política para atribuir a política. Por exemplo, use o `Grant-CsTeamsMeetingPolicy` cmdlet para atribuir uma Teams de reunião aos usuários. Esses cmdlets estão incluídos no módulo Teams PowerShell e estão documentados na referência Skype for Business [cmdlet .](/powershell/skype)
 
  Baixe e instale o Teams versão pública do [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (caso ainda não tenha feito isso) e execute o seguinte para se conectar.
 
@@ -225,7 +225,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Aqui está um exemplo de como alterar a política efetiva para um usuário que recebe diretamente uma política.
 
-Primeiro, usamos o cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) juntamente com o parâmetro para obter detalhes das políticas de transmissão de reunião Teams associadas ao ```PolicySource``` usuário.
+Primeiro, usamos o cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) juntamente com o parâmetro para obter detalhes das políticas de transmissão de reunião Teams associadas ao `PolicySource` usuário.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -325,13 +325,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 
 #### <a name="get-the-status-of-a-batch-assignment"></a>Obter o status de uma atribuição em lotes
 
-Execute o seguinte para obter o status de uma atribuição em lotes, onde OperationId é a ID da operação retornada pelo ```New-CsBatchPolicyAssignmentOperation``` cmdlet para um determinado lote.
+Execute o seguinte para obter o status de uma atribuição em lotes, onde OperationId é a ID da operação retornada pelo `New-CsBatchPolicyAssignmentOperation` cmdlet para um determinado lote.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-Se a saída mostrar que ocorreu um erro, execute o seguinte para obter mais informações sobre erros, que estão na ```UserState``` propriedade.
+Se a saída mostrar que ocorreu um erro, execute o seguinte para obter mais informações sobre erros, que estão na `UserState` propriedade.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState

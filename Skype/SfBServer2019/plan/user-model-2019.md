@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: ''
-description: Os tópicos desta seção ajudam você a entender como planejar e implantar Skype for Business Server para que você possa planejar adequadamente o número de usuários em sua organização e planejar a carga do servidor que suas atividades geram.
-ms.openlocfilehash: 090d209d1b60d866ddabe976ffb8b04394712525
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Entenda como planejar e implantar Skype for Business Server para que você possa planejar adequadamente o número de usuários em sua organização e planejar a carga de servidor que suas atividades geram.
+ms.openlocfilehash: 61c6fc38df65782ce7c11fbeed1c60039a06cf6a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600886"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011885"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planejamento de Capacidade para Skype for Business Server 2019
 
@@ -29,12 +29,12 @@ Fizemos nosso teste de desempenho no hardware descrito na tabela abaixo. Todas a
 
 **Hardware usado no teste de desempenho**
 
-|**Componente de hardware**|**Recomendado**|
+|Componente de hardware|Recomendado|
 |:-----|:-----|
-|CPU  <br/> |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior.  <br/> Os processadores Intel Itanium não têm suporte para funções Skype for Business Server 2019.  <br/> |
-|Memória  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |OU:  <br/> • 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (dois dos discos que usam RAID 1 e 6 usando RAID 10).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 8 unidades de disco mecânicas de 10.000 RPM.  <br/> |
-|Rede  <br/> |1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam ser em equipe com um único endereço MAC e um único endereço IP).  <br/> Configurações duplas ou multi-homed não são suportadas para servidores front-end, servidores back-end e Edição Standard servidores.  <br/> Desde que eles não sejam expostos ao sistema operacional e sejam usados para monitorar e gerenciar o hardware do servidor, você pode ter sistemas de gerenciamento fora da banda, como DRAC ou ILO. Esse cenário não constitui um servidor multi-homed e é suportado.  <br/> |
+|CPU   |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior.  <br/> Os processadores Intel Itanium não têm suporte para funções Skype for Business Server 2019.   |
+|Memória   |32 gigabytes (GB).   |
+|Disco   |OU:  <br/> • 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (dois dos discos que usam RAID 1 e 6 usando RAID 10).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 8 unidades de disco mecânicas de 10.000 RPM.   |
+|Rede   |1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam ser em equipe com um único endereço MAC e um único endereço IP).  <br/> Configurações duplas ou multi-homed não são suportadas para servidores front-end, servidores back-end e Edição Standard servidores.  <br/> Desde que eles não sejam expostos ao sistema operacional e sejam usados para monitorar e gerenciar o hardware do servidor, você pode ter sistemas de gerenciamento fora da banda, como DRAC ou ILO. Esse cenário não constitui um servidor multi-homed e é suportado.   |
 
 ## <a name="summary-of-results"></a>Resumo dos resultados
 
@@ -42,13 +42,13 @@ A tabela a seguir resume nossas recomendações.
 
 |**Função de servidor**|**Número máximo de usuários suportados**|
 |:-----|:-----|
-|Pool de front-end com dezesseis servidores front-end e servidor back-end ou um par de servidores back-end com SQL Always On para alta disponibilidade.  <br/> |106.000 usuários exclusivos conectados simultaneamente, além de 50% de vários pontos de presença (MPOP) representando instâncias não móveis, além de 40% dos usuários habilitados para Mobilidade para um total de 210.000 pontos de extremidade.  <br/> |
-|Conferência A/V  <br/> |O serviço de Conferência A/V fornecido por um pool de Front-End dá suporte às conferências do pool supondo um tamanho máximo de conferência de 250 usuários e apenas uma conferência tão grande em execução por vez.  <br/> **Observação:** Além disso, você pode dar suporte a grandes conferências entre 250 e 1000 usuários implantando um pool de Front-End separado com dois Servidores Front-End para hospedar as grandes conferências. Para obter detalhes, [consulte Plan for large meetings in Skype for Business Server](../../SfbServer/plan-your-deployment/conferencing/large-meetings.md). <br/> |
-|Um Servidor de Borda  <br/> |18.000 usuários remotos simultâneos.  <br/> |
-|Um Diretor  <br/> |18.000 usuários remotos simultâneos.  <br/> |
-|Monitoramento e arquivamento  <br/> |Os serviços front-end de Monitoramento e Arquivamento são executados em cada Servidor Front-End, em vez de em funções de servidor separadas.  <br/> O monitoramento e o arquivamento ainda exigem seus próprios armazenamentos de banco de dados. Se você também executar o Exchange 2013 ou posterior, poderá manter seus dados de arquivamento em Exchange, em vez de em um banco de dados SQL dedicado.  <br/> |
-|Um Servidor de Mediação  <br/> |O Servidor de Mediação alocado com o Servidor Front-End é executado em todos os Servidores Front-End em um pool e deve fornecer capacidade suficiente para os usuários no pool. Para o Servidor de Mediação autônomo, consulte a seção "Servidor de Mediação" posteriormente neste tópico.  <br/> |
-|Um servidor Standard Edition  <br/> |Recomendamos que, se você usar servidores Edição Standard para hospedar usuários, sempre use dois servidores, emparelhados usando as recomendações em Planejamento para Alta Disponibilidade e Recuperação [de Desastres.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Cada servidor no par pode hospedar até 2.500 usuários e, se um servidor falhar, o servidor restante poderá suportar 5.000 usuários em um cenário de failover.  <br/>  Se sua implantação incluir uma quantidade significativa de tráfego de áudio ou vídeo, o desempenho do servidor poderá sofrer com mais de 2.500 usuários por servidor. Nesse caso, você deve considerar adicionar mais servidores Edição Standard ou mover para Skype for Business Server Edição Enterprise. <br/> |
+|Pool de front-end com dezesseis servidores front-end e servidor back-end ou um par de servidores back-end com SQL Always On para alta disponibilidade.   |106.000 usuários exclusivos conectados simultaneamente, além de 50% de vários pontos de presença (MPOP) representando instâncias não móveis, além de 40% dos usuários habilitados para Mobilidade para um total de 210.000 pontos de extremidade.   |
+|Conferência A/V   |O serviço de Conferência A/V fornecido por um pool de Front-End dá suporte às conferências do pool supondo um tamanho máximo de conferência de 250 usuários e apenas uma conferência tão grande em execução por vez.  <br/> **Observação:** Além disso, você pode dar suporte a grandes conferências entre 250 e 1000 usuários implantando um pool de Front-End separado com dois Servidores Front-End para hospedar as grandes conferências. Para obter detalhes, [consulte Plan for large meetings in Skype for Business Server](../../SfbServer/plan-your-deployment/conferencing/large-meetings.md).  |
+|Um Servidor de Borda   |18.000 usuários remotos simultâneos.   |
+|Um Diretor   |18.000 usuários remotos simultâneos.   |
+|Monitoramento e arquivamento   |Os serviços front-end de Monitoramento e Arquivamento são executados em cada Servidor Front-End, em vez de em funções de servidor separadas.  <br/> O monitoramento e o arquivamento ainda exigem seus próprios armazenamentos de banco de dados. Se você também executar o Exchange 2013 ou posterior, poderá manter seus dados de arquivamento em Exchange, em vez de em um banco de dados SQL dedicado.   |
+|Um Servidor de Mediação   |O Servidor de Mediação alocado com o Servidor Front-End é executado em todos os Servidores Front-End em um pool e deve fornecer capacidade suficiente para os usuários no pool. Para o Servidor de Mediação autônomo, consulte a seção "Servidor de Mediação" posteriormente neste tópico.   |
+|Um servidor Standard Edition   |Recomendamos que, se você usar servidores Edição Standard para hospedar usuários, sempre use dois servidores, emparelhados usando as recomendações em Planejamento para Alta Disponibilidade e Recuperação [de Desastres.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Cada servidor no par pode hospedar até 2.500 usuários e, se um servidor falhar, o servidor restante poderá suportar 5.000 usuários em um cenário de failover.  <br/>  Se sua implantação incluir uma quantidade significativa de tráfego de áudio ou vídeo, o desempenho do servidor poderá sofrer com mais de 2.500 usuários por servidor. Nesse caso, você deve considerar adicionar mais servidores Edição Standard ou mover para Skype for Business Server Edição Enterprise.  |
 
 ## <a name="front-end-server"></a>Servidor Front-End
 
@@ -77,7 +77,7 @@ A tabela a seguir mostra a largura de banda média para IM e presença, dado o m
 
 |**Largura de banda média por usuário**|**Requisitos de largura de banda por Servidor Front-End com 6.660 usuários**|
 |:-----|:-----|
-|3 a 3,75 KBps  <br/> |13 MBps  <br/> |
+|3 a 3,75 KBps   |13 MBps   |
 
 > [!NOTE]
 > Para melhorar o desempenho de mídia da funcionalidade do Servidor de Conferência e Mediação A/V em seus Servidores Front-End, você deve habilitar o RSS (dimensionamento do lado de recebimento) nos adaptadores de rede em seus Servidores Front-End. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, [consulte Receive Side Scaling (RSS) na documentação Windows Server 2012 .](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Para obter detalhes sobre como habilitar o RSS, você precisará consultar a documentação do adaptador de rede.
@@ -132,8 +132,8 @@ Todas as tabelas a seguir pressuem o uso como resumido em [Modelos de usuário e
 
 |**Hardware de servidor**|**Número máximo de chamadas**|**Número máximo de linhas T1**|**Número máximo de linhas E1**|
 |:-----|:-----|:-----|:-----|
-|Intel Xeon E5-2673 v3 processador duplo, 6 núcleos, 2,4 gigahertz (GHz) ou superior com **hiper threading** desabilitado , com memória de 64 GB e uma placa de adaptador de rede de porta dupla.  <br/> |1500  <br/> |64  <br/> |49  <br/> |
-|Intel Xeon E5-2673 v3 processador duplo, 6 núcleos, 2,4 gigahertz (GHz) ou superior, com memória de 64 GB e uma placa adaptador de rede de porta dupla.  <br/> |2000  <br/> |88  <br/> |66  <br/> |
+|Intel Xeon E5-2673 v3 processador duplo, 6 núcleos, 2,4 gigahertz (GHz) ou superior com **hiper threading** desabilitado , com memória de 64 GB e uma placa de adaptador de rede de porta dupla.   |1500   |64   |49   |
+|Intel Xeon E5-2673 v3 processador duplo, 6 núcleos, 2,4 gigahertz (GHz) ou superior, com memória de 64 GB e uma placa adaptador de rede de porta dupla.   |2000   |88   |66   |
 
 > [!NOTE]
 > Embora os servidores com 64 GB de memória tenham sido usados para testes de desempenho, os servidores com 32 GB de memória são suportados para o Servidor de Mediação autônomo e são suficientes para fornecer o desempenho mostrado nesta tabela.
@@ -142,7 +142,7 @@ Todas as tabelas a seguir pressuem o uso como resumido em [Modelos de usuário e
 
 |**Hardware de servidor**|**Número máximo de chamadas**|
 |:-----|:-----|
-|Intel Xeon E5-2673 v3 processador duplo, 6 núcleos, 2,4 gigahertz (GHz) ou superior., com memória de 64 GB e 2 placas adaptadores de rede de 1 GB.  <br/> |200  <br/> |
+|Intel Xeon E5-2673 v3 processador duplo, 6 núcleos, 2,4 gigahertz (GHz) ou superior., com memória de 64 GB e 2 placas adaptadores de rede de 1 GB.   |200   |
 
 > [!NOTE]
 > Esse número é muito menor do que os números do Servidor de Mediação autônomo. Isso porque o Servidor front-end precisa lidar com outros recursos e funções para os 6600 usuários que estão nele, além da transcodificação necessária para chamadas de voz.
@@ -162,29 +162,29 @@ Se você implantar o Monitoramento ou o Arquivamento, a funcionalidade de front-
 
 A tabela a seguir indica aproximadamente quanto armazenamento de banco de dados é necessário por usuário por dia para dados de Monitoramento e Arquivamento.
 
-||**CDR (Monitoramento)** <br/> |**QoE (Monitoramento)** <br/> |**Arquivamento** <br/> |
+|&nbsp;|CDR (Monitoramento)  |QoE (Monitoramento)  |Arquivamento  |
 |:-----|:-----|:-----|:-----|
-|Espaço em disco exigido por usuário por dia  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
+|Espaço em disco exigido por usuário por dia   |49 KB   |28 KB   |57 KB   |
 
 A Microsoft usou o hardware na tabela a seguir para o servidor de banco de dados para Monitoramento e Arquivamento durante seu teste de desempenho. Os testes coletaram os dados de dois pools de Front-End, cada um deles com 80.000 usuários.
 
 **Hardware usado no teste de desempenho de monitoramento e arquivamento**
 
-|**Componente de hardware**|**Recomendado**|
+|Componente de hardware|Recomendado|
 |:-----|:-----|
-|CPU  <br/> |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior.  <br/> |
-|Memória  <br/> |48 GB  <br/> |
-|Disco  <br/> | OU:<br/> • 4 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (os discos devem estar em uma configuração raid 1 2x). <br/>OU <br/>• Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 4 unidades de disco mecânicas de 10.000 RPM.   <br/> |
-|Rede  <br/> | 1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 recomendado, o que requer uma equipe com um único endereço MAC e um único endereço IP).  <br/> |
+|CPU   |Processador dual intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahertz (GHz) ou superior.   |
+|Memória   |48 GB   |
+|Disco   | OU:<br/> • 4 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco (os discos devem estar em uma configuração raid 1 2x). <br/>OU <br/>• Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho semelhante a 4 unidades de disco mecânicas de 10.000 RPM.    |
+|Rede   | 1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 recomendado, o que requer uma equipe com um único endereço MAC e um único endereço IP).   |
 
 **Configurações de disco recomendadas**
 
-|**Drive** <br/> |**Configuração RAID** <br/> |**Número de discos** <br/> |
+|Unidade  |Configuração RAID  |Número de discos  |
 |:-----|:-----|:-----|
-|Arquivos de dados de banco de dados de CDR, QoE e Arquivamento, em uma única unidade  <br/> |1+0  <br/> |16   <br/> |
-|Arquivo de log do banco de dados CDR  <br/> |1  <br/> |2  <br/> |
-|Arquivo de log do banco de dados QoE  <br/> |1  <br/> |2  <br/> |
-|Arquivo de log de banco de dados de arquivamento  <br/> |1  <br/> |2  <br/> |
+|Arquivos de dados de banco de dados de CDR, QoE e Arquivamento, em uma única unidade   |1+0   |16   |
+|Arquivo de log do banco de dados CDR   |1   |2   |
+|Arquivo de log do banco de dados QoE   |1   |2   |
+|Arquivo de log de banco de dados de arquivamento   |1   |2   |
 
 ## <a name="video-interop-server-capacity"></a>Capacidade do Servidor de Interop de Vídeo
 

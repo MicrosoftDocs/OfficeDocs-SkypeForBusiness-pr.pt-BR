@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Leia este tópico para saber como monitorar sua implantação do Cloud Connector versão 2.1 e posterior usando o Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf8a79b9b504b5a98592a169d3a507eb938353b9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729020"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012305"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Monitor Cloud Connector utilizando Operations Management Suite (OMS).
 
@@ -104,7 +104,7 @@ No portal OMS, você deve especificar informações sobre os logs de eventos e o
 
    - Lync Server
 
-   - Application
+   - Aplicativo
 
      > [!NOTE]
      > Você deve inserir manualmente o Lync Server na caixa de texto. Ele não aparece como uma opção na listada. 
@@ -164,7 +164,7 @@ Para criar esse par de alertas:
 
     A consulta usa o filtro do computador  *onde Computer contém "MediationServer"*  . O filtro seleciona apenas o computador cujo nome contém a cadeia de caracteres "MediationServer".
 
-     Você substituiria o filtro por seu próprio filtro de computador ou simplesmente o removeria. Você pode criar filtros de cadeia de caracteres complexos sem expressões regulares. Para obter mais informações, consulte [Operadores de cadeia de caracteres](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Você também pode optar por usar expressões regulares. Além disso, você pode criar um grupo de computadores salvando uma consulta de pesquisa e usando esse grupo como filtro de computador na consulta de alerta. Para obter mais informações, consulte [Grupos de computadores em Pesquisas de log do Log Analytics.](/azure/log-analytics/log-analytics-computer-groups)
+     Você substituiria o filtro por seu próprio filtro de computador ou simplesmente o removeria. Você pode criar filtros de cadeia de caracteres complexos sem expressões regulares. Você também pode optar por usar expressões regulares. Além disso, você pode criar um grupo de computadores salvando uma consulta de pesquisa e usando esse grupo como filtro de computador na consulta de alerta. Para obter mais informações, consulte [Grupos de computadores em Pesquisas de log do Log Analytics.](/azure/log-analytics/log-analytics-computer-groups)
 
     Para cada computador, a consulta de erro obterá o último log de eventos para o início do serviço RTCMEDSRV e a parada de serviço. Ele retornará um log se o último evento for o evento de parada de serviço; ele não retornará nada se o último evento for o evento de início do serviço. Em resumo, a consulta retornaria uma lista de servidores cujo RTCMEDSRV é interrompido na janela de tempo. 
 
@@ -252,8 +252,6 @@ Para obter mais informações sobre como trabalhar com OMS, consulte o seguinte:
 
 - [Encontrar dados usando pesquisas de log no Log Analytics](/azure/log-analytics/log-analytics-log-searches)
 
-- [Referência de idioma do Azure Log Analytics](https://docs.loganalytics.io/docs/Language-Reference)
-
 - [Noções básicas sobre alertas no Log Analytics](/azure/log-analytics/log-analytics-alerts)
 
-- [Conexão Windows para o serviço de Análise de Log no Azure](/azure/log-analytics/log-analytics-windows-agents)
+- [Conectar computadores Windows ao serviço de Análise de Log no Azure](/azure/log-analytics/log-analytics-windows-agents)

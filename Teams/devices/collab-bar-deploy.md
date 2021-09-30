@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar Salas do Microsoft Teams no Android.
-ms.openlocfilehash: 2f513bdd8d286c256de97e00373bf8e392080b33
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 4ac068e008b53882dceba5f4ceef6e730a47b3f3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984566"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011705"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Implantar Salas do Microsoft Teams no Android
 
@@ -51,7 +51,7 @@ Para considerações sobre a instalação física, consulte a documentação do 
 >
 > Não recomendamos a colocação de servidores proxy entre Teams dispositivos e a Internet. Para obter mais informações sobre servidores proxy e Teams, confira [Servidores Proxy para](../proxy-servers-for-skype-for-business-online.md)Teams .
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Um ícone representando pontos de decisão.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme se seus sites atendem aos requisitos de preparação do site para barras de colaboração para Microsoft Teams.</li><li>Confirme se você forneceu largura de banda suficiente para cada site.</li></ul>|
 | ![Um ícone que representa as próximas etapas.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a planejar a implantação e a configuração da barra de colaboração.</li></ul>|
@@ -72,7 +72,7 @@ Ao criar uma conta de recurso, você pode escolher se a conta pode aceitar ou re
 
 Para obter mais informações sobre Microsoft 365 de recursos, consulte [Create a resource account using the Centro de administração do Microsoft 365](resource-account-ui.md).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Um ícone representando pontos de decisão.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se deseja fazer ou receber chamadas telefônicas externas e identificar requisitos de licenciamento para suas contas de recursos.</li></ul>|
 | ![Um ícone que representa as próximas etapas.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Preparar contas de recursos.</li></ul>|
@@ -96,7 +96,7 @@ Se você quiser atribuir Salas do Teams usuários individuais para uso particula
 > [!TIP]
 > Tornar os nomes de exibição para suas Microsoft 365 de recursos descritivos e fáceis de entender. Esses são os nomes que os usuários verão ao pesquisar e adicionar Salas do Teams reuniões. Você pode usar uma convenção como Nome da Sala de *Site*( Capacidade Máxima da Sala ), portanto, por exemplo, Curie, uma sala de reunião de 4 pessoas em Londres, pode ter o nome de exibição - LON-CURIE(4).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Um ícone representando pontos de decisão.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida a convenção de nomenistura para suas contas de recursos dedicadas.</li><li>Decida se você criará contas individuais ou usará scripts de provisionamento em massa.</li></ul>|
 | ![Um ícone que representa as próximas etapas.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a planejar a implantação do dispositivo.</li></ul>|
@@ -105,7 +105,7 @@ Se você quiser atribuir Salas do Teams usuários individuais para uso particula
 
 Em seguida, você precisa criar seu plano para entregar os dispositivos e seus dispositivos periféricos atribuídos às suas salas e, em seguida, prosseguir com a instalação e a configuração.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Um ícone representando pontos de decisão.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quem gerenciará a implantação site a site.</li><li> Identifique os recursos que instalarão Salas do Teams local e realizar a configuração e o teste.</li></ul>|
 | ![Um ícone que representa as próximas etapas.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Inicie o teste do dispositivo.</li></ul>|

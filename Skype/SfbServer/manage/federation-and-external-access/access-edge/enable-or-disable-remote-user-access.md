@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Se você habilitar o acesso de usuário remoto para usuários remotos, os usuários remotos com suporte se conectam pela Internet e não têm que se conectar usando uma VPN para colaborar com usuários internos usando Skype for Business Server.
-ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 743ec476cc1541fa4163a838f333419280779611
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608188"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014525"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Habilitar ou desabilitar o acesso de usuário remoto Skype for Business Server
 
@@ -45,9 +45,9 @@ Para suportar acesso de usuário remoto, você deve habilitar o acesso de usuár
 
 5.  Em **Editar Configuração de Borda de Acesso**, execute uma das ações a seguir:
     
-      - Para habilitar o acesso ao usuário remoto para sua organização, marque a caixa de seleção **Habilitar comunicações com usuários federados**.
+    - Para habilitar o acesso ao usuário remoto para sua organização, marque a caixa de seleção **Habilitar comunicações com usuários federados**.
     
-      - Para desabilitar o acesso ao usuário remoto para sua organização, desmarque a caixa de seleção **Habilitar comunicações com usuários federados**.
+    - Para desabilitar o acesso ao usuário remoto para sua organização, desmarque a caixa de seleção **Habilitar comunicações com usuários federados**.
 
 6.  Clique em **Confirmar**.
 
@@ -60,14 +60,16 @@ O acesso de usuário remoto pode ser gerenciado usando Windows PowerShell e o cm
 
 ## <a name="to-enable-remote-user-access"></a>Para habilitar o acesso de usuário remoto
 
-  - Para habilitar o acesso de usuário remoto, defina o valor da propriedade **AllowOutsideUsers** para True ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+Para habilitar o acesso de usuário remoto, defina o valor da propriedade **AllowOutsideUsers** para True ($True):
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+```
 
 ## <a name="to-disable-remote-user-access"></a>Para desabilitar o acesso de usuário remoto
 
-  - Para desabilitar o acesso de usuário remoto, defina o valor da propriedade **AllowOutsideUsers** para False ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+Para desabilitar o acesso de usuário remoto, defina o valor da propriedade **AllowOutsideUsers** para False ($False):
 
-
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+```

@@ -21,20 +21,21 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba quais idiomas você pode definir em Skype for Business para as mensagens padrão do sistema e saudações de caixa postal.
-ms.openlocfilehash: 78c3bd30da636bb9a38d413275e2d5b1ae59f0c5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8393e8a50913548a8e6ec64bcf26154e0af5b148
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590795"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011935"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams idiomas para saudações e mensagens de caixa postal
 
 Teams os idiomas a seguir para saudações de caixa postal.
   
-||||||
+
+
+|Linguagem  |País/Região |Disponível para visualização do usuário no email? |Disponível quando o usuário liga? |Transcrição disponível?  |
 |:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
-|**Idioma**  |**País/região** |**Disponível para visualização do usuário no email?** |**Disponível quando o usuário liga?** |**Transcrição disponível?**  |
 |Árabe        |Egito              |Sim                                          |Sim                                   |Não  |
 |Árabe        |Saudi Arabia (المملكة العربية السعودية)       |Sim, mas árabe (Egito) é usado.             |Não                                    |Não  |
 |Búlgaro     |Bulgária           |Sim                                          |Sim                                   |Não  |

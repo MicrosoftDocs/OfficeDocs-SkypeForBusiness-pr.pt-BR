@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Resumo: Configure um aplicativo de parceiro local para Skype for Business Server.'
-ms.openlocfilehash: 4bc1461f01c60ba1f151cfca28c979b69e08a761
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d0907d73d6a23c0a5b9a1f1725503b72c5bce993
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587173"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012615"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar um aplicativo parceiro local para Skype for Business Server
  
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-Depois de copiar o código, salve o script usando a extensão de arquivo .PS1 (por exemplo, C:\Scripts\ServerToServerAuth.ps1). Observe que, antes de executar esse script, você deve substituir as URLs de metadados e as URLs de metadados usadas pelos servidores https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 Exchange 2013 e SharePoint, respectivamente. Consulte a documentação do produto Exchange 2013 e SharePoint para obter informações sobre como identificar a URL de metadados do respectivo produto.
+Depois de copiar o código, salve o script usando a extensão de arquivo .PS1 (por exemplo, C:\Scripts\ServerToServerAuth.ps1). Observe que, antes de executar esse script, você deve substituir as URLs de metadados e as URLs de metadados usadas pelos servidores `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` Exchange 2013 e SharePoint, respectivamente. Consulte a documentação do produto Exchange 2013 e SharePoint para obter informações sobre como identificar a URL de metadados do respectivo produto.
   
 Se você observar a última linha do script, perceberá que o cmdlet Set-CsOAuthConfiguration é chamado com o uso da sintaxe:
   

@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Diretrizes sobre como usar a Ferramenta de Planejamento Skype for Business Server 2015.
-ms.openlocfilehash: 7e532f33710da1f0a9f82f2c8169b5258dab50ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 55c45f4df4a30b223c76fcbdf829357e7410d4b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626563"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014735"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server Ferramenta de Planejamento 2015
  
 Diretrizes sobre como usar a Ferramenta de Planejamento Skype for Business Server 2015.
   
-A Skype for Business Server ferramenta de planejamento 2015 é uma ferramenta orientada por assistentes, como entrevista, que faz perguntas sobre a topologia Skype for Business Server 2015 que você está projetando. A Ferramenta de Planejamento usa as informações fornecidas, juntamente com as práticas preferenciais para design e capacidade de topologia, para apresentar uma topologia recomendada com base nas respostas fornecidas. Você pode baixar a Ferramenta de Planejamento Skype for Business Server Ferramenta de Planejamento [2015.](https://go.microsoft.com/fwlink/p/?LinkID=282725)
+A Skype for Business Server ferramenta de planejamento 2015 é uma ferramenta orientada por assistentes, como entrevista, que faz perguntas sobre a topologia Skype for Business Server 2015 que você está projetando. A Ferramenta de Planejamento usa as informações fornecidas, juntamente com as práticas preferenciais para design e capacidade de topologia, para apresentar uma topologia recomendada com base nas respostas fornecidas.
   
 Por fim, o objetivo da Ferramenta de Planejamento é facilitar a complexidade potencial do design de uma topologia completa Skype for Business Server 2015. A ferramenta também fornece referências contextuais à documentação de planejamento e implantação dentro da ferramenta, desde que uma conexão com a Internet está disponível para se conectar ao site da Microsoft.
   

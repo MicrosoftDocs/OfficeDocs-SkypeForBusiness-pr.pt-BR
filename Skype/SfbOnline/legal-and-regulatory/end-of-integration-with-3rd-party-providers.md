@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Em 31 de julho de 2021, o programa de fim de vida concluirá a integração do Skype for Business com provedores de audioconferência de terceiros (ACP de terceiros).
-ms.openlocfilehash: 75ee6616634b4670c633fe24d1c623bbe3d39499
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c159d201a284b683237df22688878ef268c442b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609988"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014375"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programa de fim de vida para a integração de Skype for Business com provedores de audioconferência de terceiros 
 
@@ -49,7 +49,7 @@ Como parte do anúncio do início do programa de fim de vida, as seguintes alter
 
 Para se preparar para essa alteração, incentivamos as organizações afetadas a notificar seus usuários habilitados sobre essa atualização planejada antes de 31 de julho de 2021. 
 
-Após 31 de julho de 2021, os usuários podem continuar a usar Skype for Business sem interrupção em suas reuniões online; no entanto, as organizações precisarão habilitar seus usuários para Audioconferência fornecidas pela Microsoft se exigirem audioconferência discada com Skype for Business ou Microsoft Teams. Para saber mais sobre a Audioconferência da Microsoft, consulte [Audioconferência](https://products.office.com/skype-for-business/audio-conferencing). 
+Após 31 de julho de 2021, os usuários podem continuar a usar Skype for Business sem interrupção em suas reuniões online; no entanto, as organizações precisarão habilitar seus usuários para Audioconferência fornecidas pela Microsoft se exigirem audioconferência discada com Skype for Business ou Microsoft Teams. Para saber mais sobre a Audioconferência da Microsoft, consulte [audioconferência](https://www.microsoft.com/microsoft-teams/audio-conferencing). 
 
 Dependendo do estado final desejado de uma organização, há três caminhos que podem ser seguidos:
 

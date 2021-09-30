@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Resumo: Saiba mais sobre o CDR (registro de detalhes de chamada) no Skype for Business Server.'
-ms.openlocfilehash: e9b30eee578fd83dd0d94fbd78a490bf1b0e65de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f508df7d139d81d3c91dc1cf9355b61fd028dbc
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626603"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015145"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Criar ou modificar uma coleção de configurações de CDR no Skype for Business Server
  
@@ -60,7 +60,7 @@ Você pode criar configurações de CDR usando o Painel de Controle Skype for Bu
     
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Criando configurações de CDR usando Windows PowerShell Cmdlets
 
-Você também pode criar configurações de CDR usando o Windows PowerShell e o cmdlet **New-CsCdrConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 Usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+Você também pode criar configurações de CDR usando o Windows PowerShell e o cmdlet **New-CsCdrConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>Para criar um novo conjunto de definições de configuração CDR
 

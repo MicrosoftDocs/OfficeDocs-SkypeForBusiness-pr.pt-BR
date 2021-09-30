@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumo: revise as considerações do componente de rede abaixo antes de implementar Skype for Business Server.'
-ms.openlocfilehash: 272ac60f4322d1d9153a6518e20d02c07e066def
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623573"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014665"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planejar requisitos de rede para Skype for Business
 
@@ -192,7 +192,7 @@ Além da largura de banda necessária par ao tráfego do protocolo de transporte
 
 |**Mídia**|**Largura de banda máxima RTCP (Kbps)**|
 |:-----|:-----|
-|Áudio  <br/> |5   <br/> |
+|Áudio  <br/> |5  <br/> |
 |Vídeo (Somente H.264 ou RTVideo sendo enviado/recebido)  <br/> |10   <br/> |
 |Vídeo (H.264 e RTVideo sendo enviados/recebidos)  <br/> |15   <br/> |
 
@@ -276,7 +276,7 @@ Skype for Business Server oferece suporte total para QoS: isso significa que as 
 
 
 > [!NOTE]
-> Se você estiver usando Windows Server 2012 ou Windows Server 2012 R2, talvez esteja interessado no novo conjunto de cmdlets Windows PowerShell disponíveis para gerenciar qoS nessa plataforma. Para obter mais informações, consulte [Network QoS Cmdlets in Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379).
+> Se você estiver usando Windows Server 2012 ou Windows Server 2012 R2, talvez esteja interessado no novo conjunto de cmdlets Windows PowerShell disponíveis para gerenciar qoS nessa plataforma. Para obter mais informações, [consulte Windows PowerShell Cmdlets for Networking](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11)).
 
 A QoS também é abordada no whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) com detalhes e profundidade adicionais. Embora o conteúdo se refira explicitamente ao Lync 2010 e ao Lync 2013, as considerações sobre Skype for Business Server são inalteradas.
 

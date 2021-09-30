@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Visão geral do uso Skype for Business de telemetria online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2584453ca120c3dce9b4b0ce432e244cd15ec53b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726480"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013325"
 ---
 # <a name="plan-call-data-connector"></a>Conector de Dados do Plano de Chamada
 
@@ -50,7 +50,7 @@ As ferramentas de Análise de Chamadas e CQD permitem monitorar a qualidade das 
 
 - O Painel de Qualidade de Chamada se concentra no desempenho da rede e em problemas em uma organização. Skype for Business administradores e engenheiros de rede usam essa ferramenta para solucionar problemas e otimizar o desempenho da rede.
 
-Para obter mais informações, consulte [Call Analytics and Call Quality Dashboard diagram with Monitoring Server details.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Para obter mais informações, [consulte Microsoft Teams: Monitorar e melhorar a qualidade da chamada.](/monitor-call-quality-qos)
 
 É claro que você pode querer manter alguns dados de qualidade de chamada no local. Esse pode ser o caso, por exemplo, se você estiver usando uma solução de terceiros com relatórios e fluxos de trabalho personalizados.  O Conector de Dados de Chamada permite configurar o envio de dados para o serviço online e também manter uma cópia dos dados em seu servidor local, conforme mostrado no diagrama a seguir:
 
@@ -62,7 +62,7 @@ Os requisitos a seguir pressuem que você já Skype for Business Server implanta
 
 - Habilitar conectividade híbrida. Se você já tiver Skype for Business Server e quiser habilitar o Conector de Dados de Chamada, certifique-se de ter a conectividade híbrida configurada entre seus ambientes locais e online. Às vezes, isso é chamado de configuração de domínio dividido.
 
-   Para obter mais informações, consulte [Plan hybrid connectivity between Skype for Business Server](plan-hybrid-connectivity.md) and Microsoft 365 or Office 365 and Configure hybrid [connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
+   Para obter mais informações, consulte [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and Configure hybrid [connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
 
 - Autenticar sua organização Microsoft 365 ou Office 365 e garantir que você tenha as seguintes funções habilitadas:
 

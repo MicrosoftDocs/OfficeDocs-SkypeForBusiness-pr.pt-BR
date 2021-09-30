@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: ae47dbc052a656dc5411ade96c1efe7328065c4cd859c8681e0ff34e64cd3aaa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 51d3f50b97d9505ed497f1a5c231dac55318dcd0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344004"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012085"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams sessões no Ignite 2020
 
@@ -21,7 +21,7 @@ ms.locfileid: "54344004"
 
 ## <a name="key-segments"></a>Segmentos principais
 
-| Título                      |  Resumo                                                |                    falantes                                                        |
+| Título                      |  Resumo                                                |                    Falantes                                                        |
 |--------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------|
 |[Criando um local de trabalho resiliente, inclusivo e híbrido com Microsoft Teams](https://aka.ms/IG20-DB156-R1) |As organizações estão mudando para um local de trabalho híbrido para dar suporte às necessidades de funcionários remotos e locais. Na primeira parte, saiba como as equipes podem permanecer conectadas Teams reuniões, eventos virtuais e chamada, juntamente com novas experiências de dispositivo. Mostraremos como a plataforma Teams pode ajudar a simplificar fluxos de trabalho, melhorar a tomada de decisões e integrar seu ecossistema de aplicativos. <br> Confira também a segunda parte desta série, código de sessão DB158.|Nicole Herskowitz                 |
 |[Conheça mais inteligente, mantenha o foco e alcance mais com Microsoft Teams reuniões](https://aka.ms/IG20-DB151)  |As reuniões são a base de como o trabalho é feito. Saiba como Teams reuniões podem ajudar você e sua organização a serem mais produtivas ao se adaptar a uma nova maneira de trabalhar.  |Xeiz Cupala|
@@ -33,14 +33,14 @@ ms.locfileid: "54344004"
 |[Reimaginando o trabalho com a plataforma Microsoft 365 de usuário](https://aka.ms/IG20-DB146)|A Microsoft 365 ajuda as organizações a adaptar cada faceta de seu ambiente para ajudar as pessoas a trabalhar e colaborar melhor. Descubra como cada aplicativo pode ir além adicionando informações e dados relevantes da Microsoft Graph. Saiba como cada aplicativo pode se integrar ao fluxo de trabalho entre aplicativos, incluindo Microsoft Teams. Veja como os aplicativos podem oferecer experiências exclusivas e envolvente em todos os dispositivos. Aproveite os principais blocos de construção que podem acelerar a criação de aplicativos.|Yina Arenas, Mike Ammerlaan|
 |[Simplificar o trabalho com soluções de baixo código para Microsoft Teams & Microsoft 365](https://aka.ms/IG20-DB141) |Teams e Microsoft 365 são plataformas para todos, mesmo que você não tenha qualquer experiência de desenvolvimento profissional.  Veja como as inovações de baixo código para o Teams e Microsoft 365 estão facilitando para as equipes criarem e usarem aplicativos personalizados, bots, automação e dados para lidar com processos empresariais desafiadores.|Karan Nigam, Weston Lander|
 |[Gerenciamento de segurança e conformidade no Microsoft Teams](https://aka.ms/IG20-OD268) | Habilenciar o trabalho seguro e remoto é importante. Nesta sessão, saiba mais sobre os recursos Teams e funcionalidades mais recentes em segurança e conformidade. Vamos abranger como usar a inteligência e a força do Microsoft 365 em Teams para manter sua organização segura e em conformidade. Os tópicos incluem manter suas informações protegidas contra vazamentos de dados, permitir reuniões seguras e inclusivas e manter uma organização em conformidade em todos os regulamentos e requisitos de negócios em todo o mundo.|John Gruszczyk|
-||                                                     |                                                                                     |
+
 
 ## <a name="pre-recorded-sessions"></a>Sessões pré-gravadas
 
 ### <a name="meetings-calling-and-devices"></a>Reuniões, Chamada e Dispositivos
 
-| Título | Resumo            | Nível| falantes  |
-|---|----------|---|---|---|
+| Título | Resumo            | Nível| Falantes  |
+|---|----------|---|---|
 |[Inovação em Teams reuniões e dispositivos com inteligência](https://aka.ms/PR104) |Estamos inovando continuamente e reimaginando reuniões. Saiba como estamos trazendo mais inteligência em reuniões e nossa inovação mais recente em dispositivos que trazem inteligência à vida.  |200|Shalendra Chhabra|
 |[Recursos avançados de chamada](https://aka.ms/IG20-OD265)|Vá mais fundo com a chamada à medida que exploramos a nova experiência de chamada. Receba mais informações sobre Chamadas Colaborativas, e911, Location-Based Roteamento e outros recursos. Saiba como a chamada está pronta para seus cenários avançados, independentemente do tamanho da sua empresa. |200|Alan Xie, Roy Kuntz|
 |[Microsoft Teams dispositivos para espaços compartilhados](https://aka.ms/IG20-OD261) |Microsoft Teams dispositivos são projetados para ajudar as pessoas a maximizar a energia do Teams e fazer a ponte entre espaços de trabalho remotos e compartilhados. Com Teams de reuniões, experiências de sala centradas no cliente e hardware líder do setor, os usuários se beneficiam de reuniões de baixo atrito, inclusão e interação. Os recursos de reunião estão disponíveis se os usuários ingressarão remotamente ou na sala de reunião. Saiba como dispositivos de espaço compartilhado, como Salas do Microsoft Teams, barras de colaboração e Surface Hub podem ajudar suas equipes a permanecer conectadas e colaborativas em todo o local de trabalho híbrido.|200|Greg Baribault, Kendra Baker, Sandhya Rao|
@@ -51,12 +51,12 @@ ms.locfileid: "54344004"
 |[Microsoft Teams Chamar e reuniões como uma plataforma](https://aka.ms/PR111) |Saiba mais sobre Teams de plataforma de Chamada e Reuniões com atualizações para APIs do Microsoft Graph Cloud Communications, Contact Center e Registro de Conformidade. Compartilharemos as próximas notícias em outras experiências de plataforma. |200|Srividhya Chandrasekaran, Mansoor Malik|
 |[Aproveite Teams para fornecer eventos virtuais envolventes para seus funcionários, clientes e comunidades](https://aka.ms/PR112) |Participe desta sessão para saber como Microsoft Teams dimensionar perfeitamente para ajudar a fornecer eventos de todos os tipos. Imagine townhalls da empresa, webinars de treinamento e conferências online. Também compartilharemos visão e roteiro de recursos para ajudar a dimensionar e personalizar suas reuniões virtuais e eventos. |200|Christina Torok, Ashwin Appiah|
 |[Práticas recomendadas para fornecer reuniões mais eficientes e impactante com Microsoft Teams](https://aka.ms/IG20-OD267)|Teams As reuniões estão evoluindo e se integrando profundamente no contínuo da colaboração. Fazemos reuniões mais produtivas, seguras e inclusivas. A inovação Teams ajudar você a preparar, executar e simplificar reuniões.  Nesta sessão, mostraremos dicas para ajudá-lo a obter o máximo de suas reuniões e permanecer no fluxo de trabalho.|200|Cupola de Xeiz|
-|||||
+
 
 ### <a name="deployment-management-and-security"></a>Implantação, Gerenciamento e Segurança
 
-| Título | Resumo            | Nível| falantes |
-|---|----------|---|---|---|
+| Título | Resumo            | Nível| Falantes |
+|---|----------|---|---|
 |[Impulsionando a adoção com eventos virtuais: práticas recomendadas para organizadores e produtores](https://aka.ms/PR101)|Esta sessão de lições do mundo real revisará nosso Manual de Eventos Virtuais para organizadores de eventos e profissionais de TI.  Saiba mais com Karuana Gatimu, produtor técnica dos principais eventos de flagship para Microsoft Teams Engenharia durante os estágios iniciais da pandemia. Ouvir as orientações coletadas da transição da Microsoft para eventos virtuais. Você pode usar Teams reuniões e eventos ao vivo para fornecer eventos atraentes que mantêm sua organização conectada.  |300|Karuana Gatimu, Ashwin Appiah|
 |[Imersão profunda na governança para Office 365 Grupos e Microsoft Teams](https://aka.ms/PR102)|Veja esta demonstração prática dos recursos e ferramentas de governança que gerenciarão a experiência dos usuários finais Microsoft Teams. Você se sentirá confiante sobre a segurança e a conformidade de suas informações. Inclui a configuração dos recursos de complemento do Azure Active Director. |300|Karuana Gatimu|
 |[Impulsionando a adoção do setor - Cenários e recursos especiais para Frontline, sem fins lucrativos, assistência médica e muito mais.](https://aka.ms/PR121)|Esta sessão orientada por cenário revisa recursos, existentes e novos, no contexto dos profissionais de TI que devem entregar neles.  A sessão inclui modelos de usuário final e ITPro e recursos móveis|200|Karuana Gatimu, Katia Minnis|
@@ -66,21 +66,21 @@ ms.locfileid: "54344004"
 |[Gerenciamento de segurança e conformidade no Microsoft Teams](https://aka.ms/OD268)|Fornecer uma experiência de colaboração segura é essencial. Revise os recursos de segurança e conformidade para Microsoft Teams de uma perspectiva ITPro. Gerenciamento de políticas, gerenciamento de conteúdo, procedimentos de retenção e conformidades de comunicação serão abordados. Consulte o complemento completo dos recursos para colaboração segura e compatível!|300|John Gruszczyk|
 |[Microsoft Teams Device Management Essentials](https://aka.ms/PR144) |A Windows AI Platform fornece aos profissionais ML a infraestrutura do sistema operacional de que precisam para criar e implantar com êxito ML experiências no Windows. Windows ML, a API de inferência da plataforma, está revolucionando como os desenvolvedores Windows implantar e executar ML modelos. Windows ML tem uma interface fácil de usar que simplesmente funciona em qualquer Windows dispositivo. Use o pacote de Windows ML redistribuível recém-disponível e aproveite o DirectML em seu uso do ONNX Runtime no Windows. Obter as informações que você precisa para configurar a visualização habilitando cargas de trabalho de treinamento baseadas em GPU ML dentro do Subsistema do Windows para Linux.|200|Ai, o Que é isso?|
 |[Criar espaços de trabalho devops em Microsoft Teams](https://aka.ms/PR128)|Veja como você pode usar Microsoft Teams e aplicativos para criar um hub para suas DevOps equipes.|200|Sid Uppal|
-|||||
+
 
 ### <a name="collaboration"></a>Colaboração
 
-| Título | Resumo            | Nível| falantes|
-|---|----------|---|---|---|
+| Título | Resumo | Nível| Falantes|
+|---|----------|---|---|
 |[Microsoft Teams Aplicativo Móvel: novidades & o que há de novo](https://aka.ms/OD255)|Confira o que há de novo e o que vem a seguir nos clientes Microsoft Teams móveis.|100|Marissa Salazar|
 |[Impulsionar o bem-estar e a inclusão com Microsoft Teams](https://aka.ms/PR140)|As pessoas precisam se sentir incluídas. As pessoas precisam ser incentivadas a estar presentes durante seu tempo pessoal. As pessoas precisam estar capacitadas com as ferramentas certas para defini-las para o sucesso em suas funções. Saiba como Teams capacita o trabalho em equipe inclusivo, garantindo que todos colaborem da maneira que funciona melhor para eles e equilibre o trabalho e a vida. |100|Chris Bryan, Ali Oberg|
 |[Colaborar dentro e fora da sua organização com chat e canais Microsoft Teams](https://aka.ms/PR142) |A mensagem instantânea continua sendo um dos meios de comunicação mais eficientes. Sem o planejamento adequado, as mensagens instantâneas podem limitar quem pode participar. Saiba como aplicar conversas de chat e canal para promover uma colaboração mais aberta com pessoas dentro e fora da sua organização. Discutiremos as diferenças, as práticas recomendadas e os recursos futuros nesta área.|200|Karuana Gatimu, Luis Escobar Reyes, Somak Bhattacharyya|
-||||||
+
 
 ### <a name="platform"></a>Plataforma
 
-| Título | Resumo            | Nível| falantes |
-|---|----------|---|---|---|
+| Título | Resumo    | Nível| Falantes |
+|---|----------|---|---|
 |[Digitalizar e transformar processos de negócios com blocos de construção sem código e modelos de aplicativos em Microsoft Teams](https://aka.ms/PR130)|As organizações estão transformando aprovações, gerenciamento de tarefas e a terceirização da organização para ideias principais.  Use blocos de construção incorporados e modelos de aplicativos prontos para produção para digitalizar e simplificar processos-chave. Nesta sessão, compartilharemos como os clientes estão usando essas soluções sem qualquer desenvolvimento personalizado necessário. Veja como algumas inovações recentes podem ajudar a simplificar esses processos.|200|Wes Lander, Aditya Challapally, Cristóvão Bryan|
 |[Criar experiências de reuniões mais ricas com Microsoft Teams aplicativos usando novos pontos de extensibilidade de reuniões](https://aka.ms/OD250) |Saiba como os desenvolvedores podem usar novos pontos de extensibilidade de reuniões para integrar seus Teams aplicativos nas superfícies de reuniões. Os aplicativos são usados em todo o ciclo de vida das reuniões (pré, durante, postagem). Os aplicativos fornecem aos usuários uma experiência de colaboração mais rica em reuniões.|300|Rajesh Rangarajan, Isabela Lubin|
 |[Navegando o ciclo de vida Teams aplicativos](https://aka.ms/PR132) |Entenda as ferramentas necessárias para gerenciar com segurança e eficiência o ciclo de vida Teams aplicativo. O ciclo de vida começa com desenvolvedores e administradores de TI e continua até os usuários finais. Vamos abranger Teams desenvolvimento de aplicativos, validação, envio, configuração, permissões e implantação que ajudarão você a navegar pelo gerenciamento e adoção de aplicativos.|300|Joey Glocke, Vaibhav Agarwal|
@@ -89,25 +89,25 @@ ms.locfileid: "54344004"
 |[Elevar as experiências do usuário com Teams e Cartão Adaptável](https://aka.ms/PR135)|Teams plataforma com Cartões Adaptáveis permite criar experiências de usuário perfeitamente integradas e ativas em Teams. Nesta sessão, vamos abranger como os desenvolvedores podem aproveitar novos recursos para criar experiências contextuais e compatíveis que elevam a colaboração no Teams.|300|Suryamanohar Mallela, Shubham Chauhan|
 |[Dicas e Truques: práticas recomendadas e desafios comuns ao criar Microsoft Teams aplicativos](https://aka.ms/PR136) |Abrangemos alguns desafios comuns que os desenvolvedores têm ao criar Teams aplicativos. Os desenvolvedores sairão desta sessão com dicas e ideias que podem usar à medida que continuarem sua jornada Teams desenvolvimento de aplicativos.|400|Adrian Solis, Erin Bailie|
 |[Criar aplicativos sem atrito & a adoção perfeita usando recursos de autorização e autenticação e o Microsoft Graph](https://aka.ms/PR137)|Desenvolva aplicativos com recursos poderosos, como SSO (single Sign-On), Resource-Specific Consent (RSC) e permissões granulares. Os administradores de TI podem aprender a usar Graph APIs para automatizar o ciclo de vida/gerenciamento de aplicativos.|400|Nick Kramer|
-||||||
+
 
 ### <a name="industry"></a>Setor
 
-| Título | Resumo            | Nível| falantes |
-|---|----------|---|---|---|
+| Título | Resumo            | Nível| Falantes |
+|---|----------|---|---|
 |[Implantação e governança de Teams para Educação](https://aka.ms/PR103) |Entenda a governança holística para sua instituição educacional. Esta sessão aborda políticas de chat, políticas de reunião, políticas de aplicativo, atribuições por meio de grupos, como configurar a segurança dos alunos e métodos para automatizar a criação de classes de equipe. |300|Jethro Seghers|
 |[Saúde virtual e colaboração com Microsoft Teams na área de saúde](https://aka.ms/PR116)|As organizações de saúde podem usar Microsoft Teams capacitar as equipes de saúde. Esta sessão se concentrará na colaboração da equipe de saúde e saúde virtual. Mergulhe profundamente em áreas como os comunicados mais recentes para Teams em saúde, visitas virtuais, histórias de clientes e muito mais. Você também aprenderá a usar o Microsoft Teams como uma plataforma para lidar com muitos cenários de saúde atuais.|200|Evan Westbergberger, Tom McGuinness, Kristina Behr, Daniel Canning|
 |[Personalizar Microsoft Teams para sua indústria](https://aka.ms/PR117)|Compartilharemos detalhes sobre como inicializar suas experiências de colaboração com Modelos. Use nossa Galeria do Setor. Personalize esses modelos para as necessidades da sua organização. Implante modelos em várias partes de nossa organização. Gerenciar por meio de pacotes de política.|200|Prem Kuchi, Aaron Glick|
 |[Colaboração e comunicação usando Microsoft Teams no Governo](https://aka.ms/PR118) |Agências estaduais, locais e federais usam Microsoft Teams para colaborar e melhorar os tempos de resposta e o envolvimento dos cidadãos. Aprenda a maximizar o uso de recursos existentes. Descubra o que está por vir e nossa visão futura para Microsoft Teams no governo. |200|Rima Reyes, Karuana Gatimu, Roxy Ndebumadu, Sara Gilbert|
 |[Integrar com Microsoft Teams para Educação App Platform](https://aka.ms/PR120)|Teams é uma plataforma aberta para instituições educacionais integrar aplicativos e criar fluxos de trabalho personalizados. Vamos abranger como o Teams de aplicativos é usado em toda a sala de aula de ensino para integração com os help desks de IT. Saiba mais sobre governança de aplicativos de terceiros, modelos de aplicativos de código aberto. Exibir um exemplo prático do App Studio para criar um aplicativo de site personalizado rápido para sua instituição.|300|Dominic Williamson|
 |[Aprendizado remoto e híbrido com Teams para Educação](https://aka.ms/PR139)|Aprofundamos tudo o que você precisa saber para aprendizado remoto e híbrido. Incluímos como criar reuniões online com as opções e políticas de reuniões corretas. Veja como criar equipes de classe por meio da automação. Saiba como dar suporte a ambientes de sala de aula colaborativos.|200|Juliano Menegazzo Souza|
-||||||
+
 
 ### <a name="frontline-worker"></a>Trabalhador de linha de frente
 
-| Título | Resumo            | Nível|  falantes|
-|---|----------|---|---|---|
+| Título | Resumo            | Nível|  Falantes|
+|---|----------|---|---|
 |[Habilitar a continuidade de negócios para sua força de trabalho de linha de frente com Microsoft Teams](https://aka.ms/OD258)|À medida que as organizações continuam a ajustar suas operações e força de trabalho para manter a continuidade dos negócios, os novos recursos Microsoft Teams ajudar os Trabalhadores de Linha de Frente a manterem o foco nas necessidades dos clientes.Esta sessão se concentrará em Turnos, Tarefas e comunicação principal, juntamente com os recursos do Walkie Talkie para criar uma experiência de usuário segura e centralizada que economiza tempo e dinheiro.|200|Scott Morrison, Zoé Hawtof|
 |[Implantar e gerenciar Teams dispositivos habilitados para atender às diversas necessidades de sua força de trabalho de linha de frente](https://aka.ms/PR114)|Saiba como implantar dispositivos específicos da Linha de Frente que permitem que os funcionários se concentrem no trabalho à sua frente.  Este passo a passo incluirá cenários para Teams Walkie Talkie e colaboração mãos-livres. |200|Abid Chaudhry, James Ellis|
 |[Gerenciar forças de trabalho de linha de frente distribuídas com recursos no Microsoft 365 Admin Center](https://aka.ms/PR115)|Descubra as práticas recomendadas e as diretrizes práticas sobre cenários populares de implantação e gerenciamento de IT em Microsoft 365 profissionais de linha de frente. Saiba como criar a experiência certa no Microsoft Teams e lançar com êxito a solução para dar suporte à sua força de trabalho frontline.|300|Irina Parsina, Zoe Hawtof|  
-|||||
+

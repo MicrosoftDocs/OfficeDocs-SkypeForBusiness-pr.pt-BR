@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733430"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012755"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
@@ -203,7 +203,7 @@ Como administrador, é possível usar as políticas de configuração de aplicat
 
 Os aplicativos são fixados na barra do aplicativo. Esta é a barra do lado do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams (iOS e Android).
 
-|Cliente de área de trabalho do Teams  |         |Cliente de dispositivo móvel do Teams  |
+|Cliente de área de trabalho do Teams  | &nbsp; |Cliente de dispositivo móvel do Teams  |
 |---------|---------|---------|
 |![Captura de tela do cliente de área de trabalho do Teams com aplicativos fixados na barra de aplicativos.](media/flw-teams-desktop-client.png)         |         |![Captura de tela do cliente móvel Teams com aplicativos fixados na barra inferior.](media/flw-teams-mobile-client.png) |
 

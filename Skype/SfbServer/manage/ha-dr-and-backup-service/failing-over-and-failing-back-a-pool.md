@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 2c0c18672296254d1b532f0b33cdf809e68d249b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e738faa84053f9a4d4c92127b008d397f042499
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612270"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013905"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Falhando e falhando em um pool Skype for Business Server
 
@@ -49,25 +49,33 @@ Se um Front-End pool falhar, mas o pool de Borda nesse site ainda estiver em exe
 
 1. Abra uma Skype for Business Server do Shell de Gerenciamento e digite o seguinte cmdlet:
 
-        Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
+    ```powershell
+    Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
+    ```
 
 **Para fazer fail over de um pool em um desastre**
 
 1. Encontre o pool de host para o Servidor de Gerenciamento Central digitando o seguinte cmdlet em um servidor Front-End no Pool2:
 
-        Invoke-CsManagementServerFailover -Whatif
+    ```powershell
+    Invoke-CsManagementServerFailover -Whatif
+    ```
 
     Os resultados deste cmdlet mostram qual pool atualmente hospeda o Servidor de Gerenciamento Central. No restante deste procedimento, esse pool é conhecido como Pool \_ CMS.
 
 2. Use o Construtor de Topologias para encontrar a versão do Skype for Business Server em execução no \_ Pool CMS. Se estiver executando Skype for Business Server, use o cmdlet a seguir para encontrar o pool de backup do Pool 1.
 
-        Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
+    ```powershell
+    Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
+    ```
 
     Deixe o \_ Pool de Backup ser o pool de backup.
 
 3. Verifique o status do armazenamento de Gerenciamento Central com o seguinte cmdlet:
 
-        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+    ```powershell
+    Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+    ```
 
     Este cmdlet deve mostrar que tanto ActiveMasterFQDN quanto ActiveFileTransferAgents estão apontando para o FQDN do \_ Pool CMS. Se eles estão vazios, o Servidor de Gerenciamento Central não está disponível e você deve reajustá-lo.
 
@@ -75,27 +83,37 @@ Se um Front-End pool falhar, mas o pool de Borda nesse site ainda estiver em exe
 
 5.  Para fazer fail over the Central Management store on a pool running Skype for Business Server, faça o seguinte:
 
-      - Primeiro, verifique qual Back-End Servidor no Pool de Backup executa a instância principal do armazenamento de Gerenciamento \_ Central digitando o seguinte:
+    1. Primeiro, verifique qual Back-End Servidor no Pool de Backup executa a instância principal do armazenamento de Gerenciamento \_ Central digitando o seguinte:
 
-            Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
+        ```powershell
+        Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
+        ```
     
-      - Se o servidor Back-End principal no Pool de \_ Backup for o principal, digite:
+    1. Se o servidor Back-End principal no Pool de \_ Backup for o principal, digite:
+
+        ```powershell        
+        Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
+        ```
         
-            Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
-        
-        Se o servidor Back-End espelho no Pool de \_ Backup for o principal, digite:
-        
-            Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
+    1. Se o servidor Back-End espelho no Pool de \_ Backup for o principal, digite:
     
-      - Valide se o failover do Servidor de Gerenciamento Central está concluído. Digite o seguinte comando:
-        
-            Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+        ```powershell
+        Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
+        ```
+    
+    1. Valide se o failover do Servidor de Gerenciamento Central está concluído. Digite o seguinte comando:
+    
+        ```powershell    
+        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+        ```
         
         Verifique se ActiveMasterFQDN e ActiveFileTransferAgents estão apontando para o FQDN do Pool de \_ Backup.
     
-      - Por fim, verifique o status da réplica para todos os servidores Front-End digitando o seguinte:
+    1. Por fim, verifique o status da réplica para todos os servidores Front-End digitando o seguinte:
         
-            Get-CsManagementStoreReplicationStatus 
+        ```powershell
+        Get-CsManagementStoreReplicationStatus 
+        ```
         
         Verifique se todas as réplicas possuem o valor Verdadeiro (True).
         
@@ -103,45 +121,57 @@ Se um Front-End pool falhar, mas o pool de Borda nesse site ainda estiver em exe
 
 6.  Instale o armazenamento de Gerenciamento Central no Servidor Back-End do Pool de \_ Backup.
     
-      - Primeiro, execute o seguinte comando:
-        ```PowerShell
-         
+    1. Primeiro, execute o seguinte comando:
+
+        ```powershell
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - Execute o próximo comando em um dos Servidores Front-End do Pool de Backup para \_ forçar a movimentação do armazenamento de Gerenciamento Central:
-        
-            Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
+    1. Execute o próximo comando em um dos Servidores Front-End do Pool de Backup para \_ forçar a movimentação do armazenamento de Gerenciamento Central:
+
+        ```powershell
+        Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force
+        ```
     
-      - Valide se a movimentação está concluída:
-        
-            Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+    1. Valide se a movimentação está concluída:
+
+        ```powershell
+        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+        ```
         
         Verifique se ActiveMasterFQDN e ActiveFileTransferAgents estão apontando para o FQDN do Pool de \_ Backup.
     
-      - Verifique o status da réplica para todos os servidores de Front End digitando:
-        
-            Get-CsManagementStoreReplicationStatus 
+    1. Verifique o status da réplica para todos os servidores de Front End digitando:
+
+        ```powershell
+        Get-CsManagementStoreReplicationStatus
+        ```
         
         Verifique se todas as réplicas possuem o valor Verdadeiro (True).
     
-      - Instale o serviço Servidor de Gerenciamento Central no restante dos Servidores Front-End no Pool de \_ Backup. Para fazer isso, execute o seguinte comando em todos os Servidores Front-End, exceto o que você usou ao forçar a movimentação do armazenamento de Gerenciamento Central anteriormente neste procedimento:
-        
-            Bootstrapper /Setup 
+    1. Instale o serviço Servidor de Gerenciamento Central no restante dos Servidores Front-End no Pool de \_ Backup. Para fazer isso, execute o seguinte comando em todos os Servidores Front-End, exceto o que você usou ao forçar a movimentação do armazenamento de Gerenciamento Central anteriormente neste procedimento:
+
+        ```console
+        Bootstrapper /Setup
+        ```
 
 7.  Fail over the users from Pool1 to Pool2 by running the following cmdlet in a Skype for Business Server Management Shell window:
-    
-        Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
+
+    ```powershell
+    Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
+    ```
     
     Como as etapas realizadas nas partes anteriores deste procedimento para verificar o status do armazenamento de Gerenciamento Central não são universais, ainda há uma chance de esse cmdlet falhar porque o armazenamento de Gerenciamento Central ainda não falhou totalmente. Nesse caso, você deve corrigir o armazenamento de Gerenciamento Central com base nas mensagens de erro que você vê e executar este cmdlet novamente.
     
     Se a mensagem de erro a seguir for apresentada, será necessário alterar o pool de Borda neste local para usar um pool diferente como próximo salto antes da fazer o failover do pool. Para detalhes, consulte os procedimentos no início deste tópico.
     
-        Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
-        topology as the next hop for the Edge server. Failing over this pool may cause External
-        access/Federation/Split-domain/XMPP features to stop working. Please use Topology Builder to
-        change the Edge internal next hop setting to point to a different Front-end pool,  before you
-        proceed.
+    ```console
+    Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
+    topology as the next hop for the Edge server. Failing over this pool may cause External
+    access/Federation/Split-domain/XMPP features to stop working. Please use Topology Builder to
+    change the Edge internal next hop setting to point to a different Front-end pool,  before you
+    proceed.
+    ```
 
 
 ## <a name="fail-back-a-pool"></a>Fail back a pool
@@ -151,8 +181,10 @@ Depois que o pool que passou por desastre voltar a ficar online (ou seja, o Pool
 O processo de failback leva vários minutos para ser concluído. Para referência, é esperado levar até 60 minutos para um pool de 20.000 usuários.
 
 Para fazer failback dos usuários que estavam originalmente hospedados no Pool1 e dos quais foi feito failover para o Pool2, digite o seguinte cmdlet:
-    
-    Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
+
+```powershell
+Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
+```
 
 Nenhuma outra etapa é necessária. Se você falhou no Servidor de Gerenciamento Central, pode deixá-lo no Pool2.
 
@@ -188,64 +220,76 @@ No procedimento a seguir, EdgePool1 é o pool, que originalmente hospedava a fed
 1.  Se você ainda não tiver outro pool de Borda implantado (além do que está atualmente em baixo), implante esse pool. 
 
 2.  Em cada Servidor de Borda no novo pool de borda no qual a federação XMPP estará hospedada no momento (EdgePool2), execute o seguinte cmdlet:
-    
-        Stop-CsWindowsService
+
+    ```powershell
+    Stop-CsWindowsService
+    ```
 
 3.  Execute o seguinte cmdlet para redirecionar a rota da federação XMPP para o EdgePool2:
-    
-        Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
+
+    ```powershell
+    Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
+    ```
     
     Neste exemplo, o Site2 é o site contendo o pool de borda no qual a rota da federação XMPP estará hospedada no momento e o EdgeServer2.contoso.com é o FQDN de um Servidor de Borda nesse pool.
 
 4.  No servidor DNS externo, altere o registro A de DNS da federação XMPP para apontar para o EdgeServer2.contoso.com.
 
 5.  Se você ainda não tiver um registro DNS SRV para a federação XMPP que resolva o pool de borda no qual a federação XMPP estará hospedada no momento, é necessário adicioná-lo, conforme no exemplo a seguir. O registro SRV deve ter um valor de porta de 5269.
-    
-        _xmpp-server._tcp.contoso.com
+
+    ```console
+    _xmpp-server._tcp.contoso.com
+    ```
 
 6.  Verifique se o pool de borda no qual a federação XMPP estará hospedada no momento possui uma porta 5269 aberta externamente.
 
 7.  Inicie os serviços em todos os Servidores de Borda no pool de borda no qual a federação XMPP estará hospedada no momento:
-    
-        Start-CsWindowsService
 
-## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Fail back do pool de borda usado para Skype for Business Server federação ou federação XMPP 
+    ```powershell
+    Start-CsWindowsService
+    ```
 
-Depois que um pool de Borda com falha que era usado para hospedar a federação foi trazido de volta online, use este procedimento para retornar a rota de federação Skype for Business Server e/ou a rota de federação XMPP para usar novamente esse pool de Borda restaurado.
+## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Fail back do pool de borda usado para federação do Skype for Business Server ou federação XMPP 
+
+Depois que um pool de Borda com falha que era usado para hospedar a federação foi trazido de volta online, use este procedimento para retornar a rota de federação do Skype for Business Server e/ou a rota de federação XMPP para usar novamente esse pool de Borda restaurado.
 
 1.  No pool de Borda disponível novamente, inicie os Serviços de Borda.
 
-2.  Se você quiser retornar a rota Skype for Business Server de federação para usar o Servidor de Borda restaurado, faça o seguinte:
+2.  Se você quiser retornar a rota de federação do Skype for Business Server para usar o Servidor de Borda restaurado, faça o seguinte:
     
-      - No servidor de front-end, abra o Construtor de Topologia. Expanda **pools de** borda e clique com o botão direito do mouse no servidor de Borda ou no pool de servidores de Borda que está configurado no momento para Federação. Selecione **Editar propriedades**.
+    1. No servidor de front-end, abra o Construtor de Topologia. Expanda **pools de** borda e clique com o botão direito do mouse no servidor de Borda ou no pool de servidores de Borda que está configurado no momento para Federação. Selecione **Editar propriedades**.
     
-      - Em **Editar propriedades**, em **Geral**, desmarque **Habilitar federação para este pool de Borda (Porta 5061)**. Selecione **OK**.
+    1. Em **Editar propriedades**, em **Geral**, desmarque **Habilitar federação para este pool de Borda (Porta 5061)**. Selecione **OK**.
     
-      - Expanda **pools de** borda e clique com o botão direito do mouse no servidor de Borda original ou no pool de servidores de Borda que você deseja usar novamente para Federação. Selecione **Editar propriedades**.
+    1. Expanda **pools de** borda e clique com o botão direito do mouse no servidor de Borda original ou no pool de servidores de Borda que você deseja usar novamente para Federação. Selecione **Editar propriedades**.
     
-      - Em **Editar propriedades**, em **Geral**, selecione **Habilitar federação para este pool de Borda (Porta 5061)**. Selecione **OK**.
+    1. Em **Editar propriedades**, em **Geral**, selecione **Habilitar federação para este pool de Borda (Porta 5061)**. Selecione **OK**.
     
-      - Selecione **Ação,** selecione **Topologia,** selecione **Publicar**. Quando solicitado em **Publicar a topologia,** selecione **Próximo**. Quando a publicação for concluída, selecione **Concluir**.
+    1. Selecione **Ação,** selecione **Topologia,** selecione **Publicar**. Quando solicitado em **Publicar a topologia,** selecione **Próximo**. Quando a publicação for concluída, selecione **Concluir**.
     
-      - No servidor de Borda, abra o assistente Skype for Business Server implantação. Selecione **Instalar ou Atualizar Skype for Business Server Sistema** e, em seguida, selecione Configurar ou Remover Skype for Business Server **Componentes**. Selecione **Executar Novamente**.
+    1. No servidor de Borda, abra o assistente de Implantação do Skype for Business Server. Selecione **Instalar ou atualizar o Sistema de Servidores** do Skype for Business e, em seguida, selecione Configurar ou Remover **Componentes do Skype for Business Server**. Selecione **Executar Novamente**.
     
-      - Selecione **Avançar**. A tela de resumo mostrará ações conforme são executadas. Depois que a implantação for feita, selecione **Exibir Log** para exibir arquivos de log disponíveis. Selecione **Concluir** para concluir a implantação.
+    1. Selecione **Avançar**. A tela de resumo mostrará ações conforme são executadas. Depois que a implantação for feita, selecione **Exibir Log** para exibir arquivos de log disponíveis. Selecione **Concluir** para concluir a implantação.
 
 3.  Se você deseja realizar o fail back da rota de federação XMPP para usar o Servidor de Borda restaurado, faça o seguinte:
     
-      - Execute o seguinte cmdlet para reapontar a rota de federação XMPP para o pool de Borda que irá hospedar agora a federação XMPP (neste exemplo, EdgeServer1):
-        
-            Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
+    1. Execute o seguinte cmdlet para reapontar a rota de federação XMPP para o pool de Borda que irá hospedar agora a federação XMPP (neste exemplo, EdgeServer1):
+  
+        ```powershell
+        Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
+        ```
         
         Neste exemplo, Site1 é o local contendo o pool de Borda que irá agora hospedar a rota de federação XMPP e EdgeServer1.contoso.com é o FQDN de um Servidor de Borda no pool.
     
-      - Se você ainda não tiver um registro DNS SRV para a federação XMPP que resolve o pool de Borda que hospedará a federação XMPP, você deve adicioná-lo, conforme no exemplo a seguir. Este registro SRV deve ter um valor de porta de 5269.
-        
-            _xmpp-server._tcp.contoso.com
+    1. Se você ainda não tiver um registro DNS SRV para a federação XMPP que resolve o pool de Borda que hospedará a federação XMPP, você deve adicioná-lo, conforme no exemplo a seguir. Este registro SRV deve ter um valor de porta de 5269.
+
+        ```console
+        _xmpp-server._tcp.contoso.com
+        ```
     
-      - No servidor DNS externo, altere o registro DNS A para federação XMPP apontar para o EdgeServer2.contoso.com.
+    1. No servidor DNS externo, altere o registro DNS A para federação XMPP apontar para o EdgeServer2.contoso.com.
     
-      - Verifique se o pool de Borda irá agora hospedar federação XMPP com porta 5269 aberta externamente.
+    1. Verifique se o pool de Borda irá agora hospedar federação XMPP com porta 5269 aberta externamente.
 
 4.  Se os pools de front-end permanecem executando no site contendo o pool de Borda que falhou e foi restaurado, você deve atualizar o Serviço de Conferência da Web e o Serviço de Conferência A/V nestes pools de front-end para usar novamente os pools de Borda em seu site local.
 

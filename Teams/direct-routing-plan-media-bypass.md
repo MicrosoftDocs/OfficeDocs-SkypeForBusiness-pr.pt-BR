@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com Sistema de Telefonia Roteamento Direto, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8231a57d844539272c65709270b0a0477c50e214
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 35d67f2547011d15fe7d72ab99a34ca507394f7a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730480"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013125"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -114,6 +114,7 @@ O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está ha
 > ![Mostra o fluxo de chamada se o usuário não tiver acesso ao IP público do SBC.](media/direct-routing-media-bypass-5.png)
 
 
+
 ## <a name="use-of-media-processors-and-transport-relays"></a>Uso de Processadores de Mídia e Retransmissão de Transporte
 
 Há dois componentes no Microsoft Cloud que podem estar no caminho do tráfego de mídia: Processadores de Mídia e Retransmissão de Transporte. 
@@ -141,13 +142,13 @@ O diagrama a seguir mostra dois fluxos de chamada – um com bypass de mídia ha
 
 A tabela a seguir resume a diferença entre Processadores de Mídia e Retransmissão de Transporte.
 
-|    | Processadores de mídia | Retransmissão de transporte|
+|  &nbsp; | Processadores de mídia | Retransmissão de transporte|
 | :--------------|:---------------|:------------|
-No caminho de mídia para chamadas não ignoradas para usuários finais | Always | Se o cliente não puder acessar diretamente o Processador de Mídia | 
-No caminho da mídia para chamadas ignoradas para usuários finais | Never | Se o cliente não puder alcançar o SBC no endereço IP público | 
-No caminho de mídia para aplicativos de voz | Always | Never | 
-Pode fazer transcodificação (B2BUA)\* | Sim | Não, somente retransmite áudio entre pontos de extremidade | 
-Número de instâncias em todo o mundo e local | 10 total: 2 nos EUA Leste e Oeste; 2 em Amsterdã e Dublin; 2 em Hong Kong e Cingapura; 2 no Japão; 2 na Austrália Leste e Sudeste | Vários
+|No caminho de mídia para chamadas não ignoradas para usuários finais | Always | Se o cliente não puder acessar diretamente o Processador de Mídia |
+|No caminho da mídia para chamadas ignoradas para usuários finais | Never | Se o cliente não puder alcançar o SBC no endereço IP público |
+|No caminho de mídia para aplicativos de voz | Always | Never |
+|Pode fazer transcodificação (B2BUA)\* | Sim | Não, somente retransmite áudio entre pontos de extremidade |
+|Número de instâncias em todo o mundo e local | 10 total: 2 nos EUA Leste e Oeste; 2 em Amsterdã e Dublin; 2 em Hong Kong e Cingapura; 2 no Japão; 2 na Austrália Leste e Sudeste | Vários|
 
 Os intervalos de IP são:
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254)
@@ -239,7 +240,7 @@ Você deve usar as seguintes portas:
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Definido no SBC |
+| SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Definido no SBC |
 | SIP/TLS | SBC | SIP Proxy | Definido no SBC | 5061 |
 
 
@@ -256,7 +257,7 @@ O cliente deve ter acesso às portas especificadas (consulte tabela) no endereç
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Cliente | SBC | 3478-3481 e 49152 – 53247| Definido no SBC |
+| UDP/SRTP | Cliente | SBC | 3478-3481 e 49152 – 53247| Definido no SBC |
 | UDP/SRTP | SBC | Cliente | Definido no SBC | 3478-3481 e 49152 – 53247  |
 
 
@@ -285,7 +286,7 @@ O intervalo de portas do Teams Retransmissão de Transporte (aplicável a todos 
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Retransmissão de transporte | SBC | 50 000 -59 999    | Definido no SBC |
+| UDP/SRTP | Retransmissão de transporte | SBC | 50 000 -59 999    | Definido no SBC |
 | UDP/SRTP | SBC | Retransmissão de transporte | Definido no SBC | 50 000 – 59 999, 3478-3481     |
 
 
@@ -323,7 +324,7 @@ O intervalo de portas dos Processadores de Mídia (aplicável a todos os ambient
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Processador de Mídia | SBC | 3478-3481 e 49 152 – 53 247    | Definido no SBC |
+| UDP/SRTP | Processador de Mídia | SBC | 3478-3481 e 49 152 – 53 247    | Definido no SBC |
 | UDP/SRTP | SBC | Processador de Mídia | Definido no SBC | 3478-3481 e 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos separados para bypass de mídia e bypass sem mídia  
@@ -346,8 +347,8 @@ O exemplo a seguir ilustra essa lógica.
 
 | Conjunto de usuários | Número de usuários | FQDN de tronco atribuído no OVRP | Bypass de mídia habilitado |
 | :------------ |:----------------- |:--------------|:--------------|
-Usuários com tronco de bypass que não seja de mídia | 980 | sbc1.contoso.com:5061 | false |
-Usuários com tronco de bypass de mídia | 20 | sbc2.contoso.com:5060 | true | 
+| Usuários com tronco de bypass que não seja de mídia | 980 | sbc1.contoso.com:5061 | false |
+| Usuários com tronco de bypass de mídia | 20 | sbc2.contoso.com:5060 | true | 
 
 Ambos os troncos podem apontar para o mesmo SBC com o mesmo endereço IP público. As portas de sinalização TLS no SBC devem ser diferentes, conforme mostrado no diagrama a seguir. Observe que você precisará certificar-se de que seu certificado dá suporte a ambos os troncos. Em SAN, você precisa ter dois nomes (**sbc1.contoso.com** e **sbc2.contoso.com**) ou ter um certificado curinga.
 

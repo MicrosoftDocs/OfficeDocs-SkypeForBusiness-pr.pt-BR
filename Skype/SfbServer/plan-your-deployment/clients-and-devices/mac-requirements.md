@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Leia este tópico para saber mais sobre os requisitos de hardware, software e infraestrutura para executar Skype for Business em um Mac.
-ms.openlocfilehash: dd7dc17c4166838a76b11d9905335575205f4b2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e25995173b44cf4f5892c1a34f77529042125c58
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604770"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014465"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business requisitos do cliente Mac
  
@@ -31,7 +31,7 @@ O [Skype for Business no Mac Client](https://products.office.com/skype-for-busin
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Requisitos de hardware e software para Skype for Business no Mac
 
-O Skype for Business no cliente Mac requer Mac OS X El Capitan e superior e usa pelo menos 100 MB de espaço em disco. Suportamos o uso de todos os dispositivos de áudio e vídeo integrados. Dispositivos externos devem estar no [catálogo Skype for Business Soluções.](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 
+O Skype for Business no cliente Mac requer Mac OS X El Capitan e superior e usa pelo menos 100 MB de espaço em disco. Suportamos o uso de todos os dispositivos de áudio e vídeo integrados. Dispositivos externos devem ser listados [em Microsoft Teams dispositivos](https://www.microsoft.com/microsoft-teams/across-devices/devices). 
   
 > [!NOTE]
 > Esta lista é preliminar e alguns dispositivos podem ser qualificados para o Lync, mas não são compatíveis Skype for Business no Mac. Consulte os [requisitos do sistema](https://products.office.com/office-system-requirements) para o hardware mínimo necessário.

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db18448960d2a2106005d292ebe6f232327fad2f
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729220"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014235"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
 
@@ -44,6 +44,7 @@ Recomendamos implementar o Teams em etapas, uma carga de trabalho por vez, à me
 - [Cloud voice](cloud-voice-landing-page.md)
 
 ![Diagrama ilustrando os caminhos para implantação do Teams.](media/get-started-with-teams-quick-start-pathways.png)
+
 
 Se você tiver uma organização de médio ou grande porte, [use o Consultor do Teams para ajudá-lo a lançar o Microsoft Teams](use-advisor-teams-roll-out.md) para ajudá-lo a implantar essas cargas de trabalho em toda a sua organização. O Consultor usa o próprio Teams para criar tarefas de plano e atribuí-las a proprietários, compartilhar documentos e habilitar discussões entre sua equipe de implantação.
 
@@ -76,8 +77,8 @@ Use as etapas abaixo para configurar algumas equipes e integrar alguns adotantes
 
 Se você chegou ao Teams pelo Skype for Business (online ou no local), ou se precisa de uma configuração híbrida, siga o caminho recomendado acima para implantar o Teams, mas antes você precisará fazer algum planejamento extra. Comece revisando as instruções na tabela abaixo que se aplicam ao perfil da sua organização.
 
-|  |O perfil da sua organização|Orientação  |
+|&nbsp;|O perfil da sua organização|Orientação  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|Estou usando Skype for Business Online e estou pronto para começar a usar o Teams. |Acesse [Atualizar para o Teams](upgrade-start-here.md).        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Minha organização está usando o Skype for Business Server e quero implementar o Teams. |Para uma distribuição completa do Teams, primeiro é necessário configurar a conectividade híbrida entre o seu ambiente local e o Microsoft 365. Comece lendo [Planejar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Você também deve rever [Atualizar para o Teams](upgrade-start-here.md).   |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Não tenho o Skype for Business Server, mas tenho uma solução PSTN (Rede Telefônica Pública Comutada) local. Quero implementar o Teams, mas manter minha solução PSTN no local. |Implemente o Teams seguindo as sugestões neste artigo.<br><br>Em seguida, leia [Planejar o Roteamento Direto](direct-routing-plan.md) para saber mais sobre como usar o Roteamento Direto de Sistema de Telefone para conectar a sua solução PSTN local com o Teams.|
+|<IMG src="/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|Estou usando Skype for Business Online e estou pronto para começar a usar o Teams. |Acesse [Atualizar para o Teams](upgrade-start-here.md). |
+|<IMG SRC="/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Minha organização está usando o Skype for Business Server e quero implementar o Teams. |Para uma distribuição completa do Teams, primeiro é necessário configurar a conectividade híbrida entre o seu ambiente local e o Microsoft 365. Comece lendo [Planejar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Você também deve rever [Atualizar para o Teams](upgrade-start-here.md).   |
+|<IMG src="/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Não tenho o Skype for Business Server, mas tenho uma solução PSTN (Rede Telefônica Pública Comutada) local. Quero implementar o Teams, mas manter minha solução PSTN no local. |Implemente o Teams seguindo as sugestões neste artigo.<br><br>Em seguida, leia [Planejar o Roteamento Direto](direct-routing-plan.md) para saber mais sobre como usar o Roteamento Direto de Sistema de Telefone para conectar a sua solução PSTN local com o Teams.|

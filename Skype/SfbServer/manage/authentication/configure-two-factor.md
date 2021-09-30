@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Resumo: Configure a autenticação de dois fatores Skype for Business Server.'
-ms.openlocfilehash: f4c8532d08a3ed6c06a702039eea224f231cbd06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 447039a5dd137482c330325fcf479dade583f395
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612390"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014365"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurar a autenticação de dois fatores Skype for Business Server
 
@@ -181,7 +181,7 @@ Para obter mais informações sobre o registro em nome dos usuários como agente
 A seção a seguir descreve como configurar os Serviços de Federação do Active Directory (AD FS 2.0) para dar suporte à autenticação multifacional. Para obter informações sobre como instalar o AD FS 2.0, consulte [AD FS 2.0 Passo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))a passo e Como Guias .
 
 > [!NOTE]
-> Ao instalar o AD FS 2.0, não use o Gerenciador de Servidores Windows para adicionar a função serviços de federação do Active Directory. Em vez disso, baixe e instale o pacote RTW dos Serviços de [Federação do Active Directory 2.0](https://go.microsoft.com/fwlink/p/?LinkId=313375).
+> Ao instalar o AD FS 2.0, não use o Gerenciador de Servidores Windows para adicionar a função serviços de federação do Active Directory. Em vez disso, baixe e instale os [Serviços de Federação do Active Directory.](/troubleshoot/windows-server/identity/availability-description-afds)
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>Para configurar o AD FS para autenticação de dois fatores
 
@@ -326,7 +326,7 @@ As etapas a seguir descrevem como criar uma configuração de proxy personalizad
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>Para criar uma configuração de proxy personalizada
 
-1. Na linha de comando do Shell de Gerenciamento do Skype for Business Server, crie uma nova configuração de proxy para cada Pool de Borda do Skype for Business Server, pool do Enterprise e servidor Edição Standard que será habilitado para autenticação passiva executando os seguintes comandos:
+1. Na linha de comando do Shell de Gerenciamento do Skype for Business Server, crie uma nova configuração de proxy para cada pool de borda do Skype for Business Server, pool Enterprise e servidor Edição Standard que serão habilitados para autenticação passiva executando os seguintes comandos :
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False

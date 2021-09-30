@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumo: saiba como configurar sua infraestrutura Skype for Business Server 2015 para trabalhar com System Center Operations Manager.'
-ms.openlocfilehash: a0473b3cf7c2417636536c9c475a430b09d4e1e6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0349949afe27c5351f9eefda7a5cc5f44a0a072d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725690"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014935"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gerenciar Skype for Business Server 2015 usando o pacote de gerenciamento SCOM
  
@@ -45,23 +45,23 @@ Os Pacotes de Gerenciamento podem ser usados com o System Center Operations Mana
   
 |Configuração|Com suporte?|
 |:-----|:-----|
-|Sistema operacional Windows Server 2008 R2  <br/> Windows Server 2012 Sistema operacional R2  <br/> |Sim. Tanto no servidor Skype for Business Server 2015 quanto nos nós do watcher de transações sintéticas.  <br/> |
-|Servidores em cluster  <br/> |Sem suporte.  <br/> |
-|Monitoramento sem agente  <br/> |Sem suporte.  <br/> |
-|Ambiente virtual  <br/> |Sim.  <br/> |
-|Funções de servidor ingressados no domínio  <br/> |Todas as funções Skype for Business Server servidor 2015 internas devem ser ingressados no domínio.  <br/> |
-|Funções de servidor autônomos  <br/> |Skype for Business Server Servidores de Borda 2015 não são necessários para ingressar no domínio.  <br/> |
-|Limitações de topologia  <br/> |Todas as funções de servidor em uma implantação devem ser monitoradas do mesmo Grupo de Gerenciamento do Operations Manager.  <br/> |
-|Nó do watcher de transações sintéticas  <br/> |Há suporte para a disponibilidade do cenário de monitoramento com um nó do watcher de transações sintéticas (configuração adicional necessária). Nós do watcher não são necessários para serem ingressados no domínio.  <br/> |
+|Sistema operacional Windows Server 2008 R2  <br/> Windows Server 2012 Sistema operacional R2   |Sim. Tanto no servidor Skype for Business Server 2015 quanto nos nós do watcher de transações sintéticas.   |
+|Servidores em cluster   |Sem suporte.   |
+|Monitoramento sem agente   |Sem suporte.   |
+|Ambiente virtual   |Sim.   |
+|Funções de servidor ingressados no domínio   |Todas as funções Skype for Business Server servidor 2015 internas devem ser ingressados no domínio.   |
+|Funções de servidor autônomos   |Skype for Business Server Servidores de Borda 2015 não são necessários para ingressar no domínio.   |
+|Limitações de topologia   |Todas as funções de servidor em uma implantação devem ser monitoradas do mesmo Grupo de Gerenciamento do Operations Manager.   |
+|Nó do watcher de transações sintéticas   |Há suporte para a disponibilidade do cenário de monitoramento com um nó do watcher de transações sintéticas (configuração adicional necessária). Nós do watcher não são necessários para serem ingressados no domínio.   |
    
 A tabela a seguir mostra a capacidade e os requisitos do sistema operacional para um nó do watcher de transação sintética:
   
 |Componente de hardware|Requisitos mínimos|
 |:-----|:-----|
-|CPU  <br/> |Um dos seguintes:  <br/> Processador de 64 bits, quad-core, 2,33 GHz ou superior  <br/> Processador 2 de 64 bits, dual-core, 2,33 GHz ou superior  <br/> |
-|Memória  <br/> |8 GB  <br/> |
-|Sistema operacional  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
-|Rede  <br/> |1 adaptador de rede a 1 Gbps  <br/> |
+|CPU   |Um dos seguintes:  <br/> Processador de 64 bits, quad-core, 2,33 GHz ou superior  <br/> Processador 2 de 64 bits, dual-core, 2,33 GHz ou superior   |
+|Memória   |8 GB   |
+|Sistema operacional   |Windows Server 2008 R2  <br/> Windows Server 2012 R2   |
+|Rede   |1 adaptador de rede a 1 Gbps   |
    
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -103,12 +103,12 @@ O Skype for Business Server 2015 Management Pack aproveita uma variedade de recu
   
 |Cenário de monitoramento|Descrição|
 |:-----|:-----|
-|Transações sintéticas  <br/> | Windows PowerShell cmdlets para testar e ajudar a garantir alta disponibilidade de cenários, como entrada, presença, IM e conferência para usuários. <br/> As transações sintéticas podem ser executados de qualquer local geográfico, incluindo dentro da empresa, fora da empresa e em filiais.  <br/> Quando uma transação sintética falha, os log HTML são criados para ajudar a determinar a natureza exata da falha. Isso inclui entender qual ação falhou, a latência de cada ação, a linha de comando usada para executar o teste e o erro específico que ocorreu.  <br/> |
-|Alertas de confiabilidade de chamada  <br/> |Os Registros de Detalhes de Chamada (CDRs) escritos pelos servidores Skype for Business Server 2015 refletem se os usuários podem se conectar a uma chamada ou por que uma chamada é encerrada. Os alertas de confiabilidade de chamada consultam o banco de dados CDR para produzir alertas que indicam quando um alto número de usuários tem problemas de conectividade para chamadas ponto a ponto ou funcionalidade básica de conferência.  <br/> A cobertura do cenário inclui chamadas de áudio, mensagens instantâneas ponto a ponto (IM) e outros recursos de conferência.  <br/> |
-|Alertas de qualidade de mídia  <br/> |Consultas de banco de dados que pesquisam relatórios de Qualidade de Experiência (QoE) publicados pelos clientes Skype for Business Server 2015 no final de cada chamada. Essas consultas produzem alertas que identificam cenários onde os usuários provavelmente experimentarão a qualidade de mídia comprometida durante chamadas e conferências. Os dados são construídos com base em métricas-chave, como latência e perda de pacotes, que contribuem diretamente para a qualidade da experiência do usuário.  <br/> |
-|Alertas de saúde do componente  <br/> |Os componentes individuais do servidor levantam alertas por meio de logs de eventos e contadores de desempenho para indicar condições de falha que podem afetar significativamente os cenários do usuário. Esses alertas indicam uma variedade de condições, como serviços que não estão em execução, altas taxas de falha, alta latência de mensagens ou problemas de conectividade.  <br/> |
-|Monitoramento de saúde de dependência  <br/> |Skype for Business Server pode falhar por vários motivos externos. O Pacote de Gerenciamento monitora e coleta dados para dependências externas críticas que podem indicar problemas graves. Essas dependências incluem Serviços de Informações da Internet disponibilidade (IIS) e CPU de servidores usados para Skype for Business Server.  <br/> |
-|||
+|Transações sintéticas   | Windows PowerShell cmdlets para testar e ajudar a garantir alta disponibilidade de cenários, como entrada, presença, IM e conferência para usuários. <br/> As transações sintéticas podem ser executados de qualquer local geográfico, incluindo dentro da empresa, fora da empresa e em filiais.  <br/> Quando uma transação sintética falha, os log HTML são criados para ajudar a determinar a natureza exata da falha. Isso inclui entender qual ação falhou, a latência de cada ação, a linha de comando usada para executar o teste e o erro específico que ocorreu.   |
+|Alertas de confiabilidade de chamada   |Os Registros de Detalhes de Chamada (CDRs) escritos pelos servidores Skype for Business Server 2015 refletem se os usuários podem se conectar a uma chamada ou por que uma chamada é encerrada. Os alertas de confiabilidade de chamada consultam o banco de dados CDR para produzir alertas que indicam quando um alto número de usuários tem problemas de conectividade para chamadas ponto a ponto ou funcionalidade básica de conferência.  <br/> A cobertura do cenário inclui chamadas de áudio, mensagens instantâneas ponto a ponto (IM) e outros recursos de conferência.   |
+|Alertas de qualidade de mídia   |Consultas de banco de dados que pesquisam relatórios de Qualidade de Experiência (QoE) publicados pelos clientes Skype for Business Server 2015 no final de cada chamada. Essas consultas produzem alertas que identificam cenários onde os usuários provavelmente experimentarão a qualidade de mídia comprometida durante chamadas e conferências. Os dados são construídos com base em métricas-chave, como latência e perda de pacotes, que contribuem diretamente para a qualidade da experiência do usuário.   |
+|Alertas de saúde do componente   |Os componentes individuais do servidor levantam alertas por meio de logs de eventos e contadores de desempenho para indicar condições de falha que podem afetar significativamente os cenários do usuário. Esses alertas indicam uma variedade de condições, como serviços que não estão em execução, altas taxas de falha, alta latência de mensagens ou problemas de conectividade.   |
+|Monitoramento de saúde de dependência   |Skype for Business Server pode falhar por vários motivos externos. O Pacote de Gerenciamento monitora e coleta dados para dependências externas críticas que podem indicar problemas graves. Essas dependências incluem Serviços de Informações da Internet disponibilidade (IIS) e CPU de servidores usados para Skype for Business Server.   |
+
    
 ### <a name="alert-prioritization"></a>Priorização de Alerta
 
@@ -126,45 +126,46 @@ Skype for Business Server pacotes de gerenciamento 2015 fornecem cobertura maior
   
 
 
-|Transações sintéticas com suporte para registro, presença e contatos|||
+|Transações sintéticas com suporte para registro, presença e contatos|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|1  <br/> |Registro (logon do usuário)  <br/> |Lync Server 2010 disponível e além  <br/> |
-|2  <br/> |Serviço de Livro de Endereços (download de arquivo)  <br/> |Lync Server 2010 disponível e além  <br/> |
-|3  <br/> |Consulta à web do Catálogo de endereços  <br/> |Lync Server 2010 disponível e além  <br/> |
-|4   <br/> |Presença  <br/> |Lync Server 2010 disponível e além  <br/> |
-|5   <br/> |Armazenamento de Contato Unificado  <br/> |Lync Server 2013 disponível e além  <br/> |
-||||   
+|1   |Registro (logon do usuário)   |Lync Server 2010 disponível e além   |
+|2   |Serviço de Livro de Endereços (download de arquivo)   |Lync Server 2010 disponível e além   |
+|3   |Consulta à web do Catálogo de endereços   |Lync Server 2010 disponível e além   |
+|4    |Presença   |Lync Server 2010 disponível e além   |
+|5   |Armazenamento de Contato Unificado   |Lync Server 2013 disponível e além   |
 
-|Transações sintéticas com suporte para serviços ponto a ponto|||
+  
+
+|Transações sintéticas com suporte para serviços ponto a ponto|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|6   <br/> |Mensagens Instantâneas ponto a ponto  <br/> |Disponível no Lync Server 2010 e além  <br/> |
-|7   <br/> |Vídeo de áudio ponto a ponto  <br/> |Disponível no Lync Server 2010 e além  <br/> |
-|8   <br/> |Mensagem Instantânea Ponto a Ponto MCX (móvel)  <br/> |Disponível na versão de setembro de 2011 do Lync Server 2010 para Skype for Business 2015  <br/> |
+|6    |Mensagens Instantâneas ponto a ponto   |Disponível no Lync Server 2010 e além   |
+|7    |Vídeo de áudio ponto a ponto   |Disponível no Lync Server 2010 e além   |
+|8    |Mensagem Instantânea Ponto a Ponto MCX (móvel)   |Disponível na versão de setembro de 2011 do Lync Server 2010 para Skype for Business 2015   |
  
 > [!NOTE]
 > O suporte ao MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes Skype for Business móveis atuais já usam a UCWA (Unified Communications Web API) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herdamentos usando MCX precisarão atualizar para um cliente atual.
 
 
-|Transações sintéticas com suporte para conferência e chat persistente|||
+|Transações sintéticas com suporte para conferência e chat persistente|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|9   <br/> |Conferências de áudio/vídeo  <br/> |Disponível no Lync Server 2010 e além  <br/> |
-|10   <br/> |Conferência de Dados  <br/> |Disponível no Lync Server 2013 e além  <br/> |
-|11   <br/> |Conferência de Mensagens Instantâneas  <br/> |Disponível no Lync Server 2010 e além  <br/> |
-|12   <br/> | Chat persistente <br/> |Disponível no Lync Server 2013 e além  <br/> |
-|13  <br/> |Ingressar no Launcher (reuniões agendadas)  <br/> |Disponível no Lync Server 2013 e além  <br/> |
-|14   <br/> |Discar em conferência  <br/> |Novo no Skype for Business Server 2015  <br/> |
-|15   <br/> |Conferência de Compartilhamento de Aplicativos  <br/> |Novo no Skype for Business Server 2015  <br/> |
-|16   <br/> |Conferência UCWA (união de reunião da Web)  <br/> |Novo no Skype for Business Server 2015  <br/> |
-||||
+|9    |Conferências de áudio/vídeo   |Disponível no Lync Server 2010 e além   |
+|10    |Conferência de Dados   |Disponível no Lync Server 2013 e além   |
+|11   |Conferência de Mensagens Instantâneas   |Disponível no Lync Server 2010 e além   |
+|12    | Chat persistente  |Disponível no Lync Server 2013 e além   |
+|13   |Ingressar no Launcher (reuniões agendadas)   |Disponível no Lync Server 2013 e além   |
+|14    |Discar em conferência   |Novo no Skype for Business Server 2015   |
+|15    |Conferência de Compartilhamento de Aplicativos   |Novo no Skype for Business Server 2015   |
+|16   |Conferência UCWA (união de reunião da Web)   |Novo no Skype for Business Server 2015   |
 
-|Transações sintéticas com suporte para dependências de rede e parceiros|||
+
+|Transações sintéticas com suporte para dependências de rede e parceiros|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|17   <br/> |Conectividade de Borda AV  <br/> |Disponível no Lync Server 2013 e além  <br/> |
-|18   <br/> |Conectividade de Borda AV Exchange Conectividade de Mensagem Unificada (caixa postal)  <br/> |Disponível no Lync Server 2013 e além  <br/> |
-|19  <br/> |Chamada ponto a ponto PSTN  <br/> |Disponível no Lync Server 2010 e além  <br/> |
-|20  <br/> |Mensagens Instantâneas XMPP (federação)  <br/> |Disponível no Lync Server 2013 e Skype for Business 2015  <br/> |
-| 21   <br/> |Servidor de Interoperabilidade de Vídeo  <br/> |Novo no Skype for Business Server 2015  <br/> |
-||||
+|17    |Conectividade de Borda AV   |Disponível no Lync Server 2013 e além   |
+|18    |Conectividade de Borda AV Exchange Conectividade de Mensagem Unificada (caixa postal)   |Disponível no Lync Server 2013 e além   |
+|19   |Chamada ponto a ponto PSTN   |Disponível no Lync Server 2010 e além   |
+|20   |Mensagens Instantâneas XMPP (federação)   |Disponível no Lync Server 2013 e Skype for Business 2015   |
+| 21    |Servidor de Interoperabilidade de Vídeo   |Novo no Skype for Business Server 2015   |
+
    
 ## <a name="how-health-rolls-up"></a>Como a saúde é acumulada
 
@@ -172,22 +173,22 @@ A tabela a seguir mostra os estados de saúde dos objetos do Skype for Business 
   
 |Objeto Management Pack|Descrição|
 |:-----|:-----|
-|Skype for Business Server Implantação  <br/> |Representa a implantação do Skype for Business Server 2015 na organização.  <br/> |
-|Skype for Business Server Site  <br/> |Representa locais geográficos diferentes onde os serviços são implantados.  <br/> |
-|Skype for Business Server Pool  <br/> |Um Pool (dentro de um Site) que fornece serviços de comunicação, como mensagens instantâneas e conferência, aos usuários. Aplicável a pools de Front-End, pools de Borda e Pools de Diretor, mesmo que haja apenas um único computador em um determinado pool.  <br/> |
-|Skype for Business Server Função  <br/> |Uma função de servidor que hospeda Skype for Business Server Service.  <br/> |
-|Skype for Business Server Serviço  <br/> |Representa uma funcionalidade implantada em um computador específico (por exemplo, serviço de usuário em fp01.contoso.com).  <br/> |
-|Skype for Business Server Componente  <br/> |Um componente do Serviço (por exemplo, o componente Download do Livro de Endereços faz parte do Serviço Web).  <br/> |
-|Skype for Business Server Pool Watcher  <br/> |Uma instância de transações sintéticas que estão sendo executados em um pool.  <br/> |
-|Skype for Business Server Registrador Watcher  <br/> |Uma instância de transações sintéticas que são executados em um pool de Registradores.  <br/> |
-|Skype for Business Server User Services Pool Watcher  <br/> |Uma instância de transações sintéticas que são executados em um pool de Serviços de Usuário.  <br/> |
-|Skype for Business Server Voice Pool Watcher  <br/> |Uma instância de transações sintéticas que são executados em um pool de Voz.  <br/> |
-|Skype for Business Server Port Watcher  <br/> |Uma instância de Porta verifica em execução em um pool.  <br/> |
-|Simples Url Watcher  <br/> |Executa a sondagem HTTPS das URLs simples configuradas em uma implantação.  <br/> |
+|Skype for Business Server Implantação   |Representa a implantação do Skype for Business Server 2015 na organização.   |
+|Skype for Business Server Site   |Representa locais geográficos diferentes onde os serviços são implantados.   |
+|Skype for Business Server Pool   |Um Pool (dentro de um Site) que fornece serviços de comunicação, como mensagens instantâneas e conferência, aos usuários. Aplicável a pools de Front-End, pools de Borda e Pools de Diretor, mesmo que haja apenas um único computador em um determinado pool.   |
+|Skype for Business Server Função   |Uma função de servidor que hospeda Skype for Business Server Service.   |
+|Skype for Business Server Serviço   |Representa uma funcionalidade implantada em um computador específico (por exemplo, serviço de usuário em fp01.contoso.com).   |
+|Skype for Business Server Componente   |Um componente do Serviço (por exemplo, o componente Download do Livro de Endereços faz parte do Serviço Web).   |
+|Skype for Business Server Pool Watcher   |Uma instância de transações sintéticas que estão sendo executados em um pool.   |
+|Skype for Business Server Registrador Watcher   |Uma instância de transações sintéticas que são executados em um pool de Registradores.   |
+|Skype for Business Server User Services Pool Watcher   |Uma instância de transações sintéticas que são executados em um pool de Serviços de Usuário.   |
+|Skype for Business Server Voice Pool Watcher   |Uma instância de transações sintéticas que são executados em um pool de Voz.   |
+|Skype for Business Server Port Watcher   |Uma instância de Porta verifica em execução em um pool.   |
+|Simples Url Watcher   |Executa a sondagem HTTPS das URLs simples configuradas em uma implantação.   |
    
 ![Rollup SCOM.](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-Um pool Skype for Business Server pode conter vários sistemas Skype for Business Server individuais (com mais de uma função de Skype for Business Server, serviço Skype for Business Server e componente Skype for Business Server). Portanto, a falha de um servidor ou componente individual é menos crítica para a saúde geral do pool de Skype for Business Server, pois outros servidores no mesmo pool podem fornecer o serviço de aplicativo ao cliente. A saúde será acumulada em um nível percentual para o pool de Skype for Business Server. 
+Um pool Skype for Business Server pode conter vários sistemas Skype for Business Server individuais (com mais de uma função Skype for Business Server, serviço Skype for Business Server e Skype for Business Server componente). Portanto, a falha de um servidor ou componente individual é menos crítica para a saúde geral do pool de Skype for Business Server, pois outros servidores no mesmo pool podem fornecer o serviço de aplicativo ao cliente. A saúde será acumulada em um nível percentual para o pool de Skype for Business Server. 
   
 O Skype for Business Server Pool Watcher executa transações sintéticas em um pool Skype for Business Server pool. A falha consecutiva de uma ou mais transações sintéticas (um processo conhecido como intervalo de sondagem consecutivo) reverterá o estado crítico de saúde para o nível do pool (o pior de qualquer transação sintética), conforme mostrado no diagrama a seguir. 
   
@@ -243,16 +244,9 @@ Para obter informações adicionais sobre o Operations Manager, consulte os segu
   
 - [Blog de Equipe do Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Blog OpsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
-    
 - [Ideias sobre OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
-- [Blog de Paulo Burri](https://rburri.wordpress.com/)
-    
-- [Espaço de Gerenciamento do BWren](https://blogs.technet.com/brianwren/default.aspx)
-    
-- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
-    
+   
 > [!IMPORTANT]
 > Todas as informações e conteúdos em sites que não são da Microsoft são fornecidos pelo proprietário ou pelos usuários do site. A Microsoft não faz garantias, expressas, implícitas ou estatutários, quanto às informações neste site. 
   

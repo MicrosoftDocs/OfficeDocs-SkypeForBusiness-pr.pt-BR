@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Saiba como alternar entre Skype for Business e interfaces de usuário cliente do Lync usando o PowerShell no Microsoft 365 ou Office 365 '
-ms.openlocfilehash: 2345e30bf43a00342b1238533884d749e32095f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ecb494ea274a9652024056c1b0725159565d22af
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732260"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014985"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Alternando entre as interfaces do usuário do cliente Skype for Business e do cliente Lync
 
@@ -41,7 +41,7 @@ Para organizações Skype for Business Online, você pode usar o PowerShell Remo
   
 ## <a name="switching-the-skype-for-business-user-interface-for-users"></a>Alternando a interface do Skype for Business para os usuários
 
-O módulo Windows PowerShell para Skype for Business Online permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, aceito somente em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft, em [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Para obter outras informações, consulte [Configurando o computador para gerenciamento do Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+[!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que é suportado apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em Baixar e instalar o módulo [Teams PowerShell](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)do Teams . Para obter outras informações, consulte [Configurando o computador para gerenciamento do Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 > [!IMPORTANT]
 > [!IMPORTANTE] A configuração da política  _Global_ para alternar a interface do usuário não será aplicada aos usuários que já têm uma política personalizada aplicada. Para alterar a interface, você precisará executar o seguinte para cada usuário que tiver uma política personalizada aplicada:

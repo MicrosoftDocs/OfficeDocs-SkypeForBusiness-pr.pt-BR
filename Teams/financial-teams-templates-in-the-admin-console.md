@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 19c6676bb742deacf97afae54f29b369d551b9ae
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991100"
+ms.locfileid: "60007761"
 ---
 # <a name="use-financial-team-templates"></a>Usar modelos de equipe financeira
 
@@ -36,14 +36,14 @@ O Teams inclui modelos projetados para organizações de serviços financeiros. 
 
 A maneira como você gerencia e trabalha com modelos de equipe depende se você é um administrador ou desenvolvedor.
 
-|Se você for: | Em seguida, você: |
+|Se você estiver: | Em seguida, você: |
 | ---- | --------- |
-| Um administrador ou profissional de TI |[Gerenciar modelos de equipe no centro de administração do Teams](#manage-team-templates-in-the-teams-admin-center). Exiba modelos de equipe e aplique políticas de modelos para controlar quais modelos sua equipe pode usar no Teams para criar equipes. |
+| Um administrador ou profissional de IT |[Gerenciar modelos de equipe no Centro de administração de Teams](#manage-team-templates-in-the-teams-admin-center). Exiba modelos de equipe e aplique políticas de modelos para controlar quais modelos sua equipe pode usar no Teams para criar equipes. |
 | Um desenvolvedor | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) para criar equipes com base em modelos de equipe. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Gerenciar modelos de equipe no centro de administração do Teams
 
-Como administrador, você pode gerenciar modelos de equipe no centro de administração do Microsoft Teams. Aqui, você pode exibir detalhes sobre cada modelo. Você também pode [criar e atribuir políticas de modelos](templates-policies.md) para sua equipe controlar quais modelos eles veem no Teams para [criação de equipes](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c).
+Como administrador, você pode gerenciar os modelos de equipe no Centro de administração do Microsoft Teams. Aqui, você pode exibir os detalhes sobre cada modelo. Você também pode [criar e atribuir políticas de modelos](templates-policies.md) para sua equipe controlar quais modelos são vistos no Teams para a [criação de equipes](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c).
 
 Para saber mais sobre modelos de equipe em geral, consulte [Introdução aos modelos de equipe no centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -60,7 +60,7 @@ Centralize a colaboração entre funcionários da sua agência bancária em conf
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Usar modelos de equipe com Microsoft Graph
 
-Os desenvolvedores podem usar Microsoft Graph para criar equipes com base em modelos de equipe pré-criados. Para saber mais sobre como usar modelos de equipe com o Microsoft Graph, consulte [ Introdução aos modelos de equipe usando Microsoft Graph](get-started-with-teams-templates.md), [Visão geral da API do Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) e [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Os desenvolvedores podem usar o Microsoft Graph para criar equipes a partir de modelos de equipe pré-criados. Para saber mais sobre como usar modelos de equipe com o Microsoft Graph, consulte [ Introdução aos modelos de equipe usando Microsoft Graph](get-started-with-teams-templates.md), [Visão geral da API do Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) e [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 ### <a name="bank-branch"></a>Filial bancária
 
@@ -72,4 +72,4 @@ Centralize a colaboração entre funcionários da sua agência bancária em conf
 ||||
 
 > [!NOTE]
-> Para obter modelos adicionais que se aplicam à organização de serviços financeiros, consulte [Modelos de equipe criados no Microsoft Graph para pequenas e médias empresas](smb-templates.md).
+> Para obter modelos de equipe adicionais que se aplicam a organizações de serviços financeiros, consulte [Modelos de equipe criados no Microsoft Graph para pequenas e médias empresas](smb-templates.md).

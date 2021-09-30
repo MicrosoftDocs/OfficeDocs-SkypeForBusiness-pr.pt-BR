@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumo: revise este tópico para obter informações sobre como integrar o Skype for Business Server com o Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 6c830636b8db5b2a4fba02a1a5f34489e691459c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2650e8a18767e70ab98e8763e9ec2863e99df90
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609218"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012555"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plano para integrar o Skype for Business e o Exchange
  
@@ -93,25 +93,25 @@ Se você estiver integrando o Skype for Business Server com o Exchange Online, s
 
 A tabela a seguir detalha os recursos com suporte em várias combinações online ou local para Exchange e Skype for Business.
   
-||**Exchange 2016/2013/2010 (local) + Skype for Business Server (local)**|**Exchange Online + Skype for Business Server (local)**|**Exchange 2010 (local) + Skype for Business Online**|**Exchange 2016/2013(local) + Skype for Business Online**|**Exchange Online + Skype for Business Online**|
+|&nbsp;|Exchange 2016/2013/2010 (local) + Skype for Business Server (local)|Exchange Online + Skype for Business Server (local)**|**Exchange 2010 (local) + Skype for Business Online|Exchange 2016/2013(local) + Skype for Business Online**|**Exchange Online + Skype for Business Online|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Presença no Outlook  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
-|Responder via IM, Chamada PSTN, Skype Chamada ou Vídeo de um email Outlook email  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
-|Agendar e participar de reuniões online por meio Outlook  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
-|Presença no Outlook Web App  <br/> |S  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Responder por IM, Chamada PSTN, Skype Chamada ou Chamada de Vídeo de um email do OWA  <br/> |S  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Agendar e participar de reuniões online por meio Outlook Web App  <br/> |S  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|IM/Presença em Clientes Móveis  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
-|Participar de reuniões online em clientes Móveis  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
-|Publicar status com base em Outlook de agenda livre/ocupado  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
-|Lista de contatos (por meio do Unified Contact Store)  <br/> |Y (precisa Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Foto de contato de alta resolução (requer clientes do Lync 2013 ou Skype for Business no mínimo. Não há suporte para LWA, aplicativos móveis, Lync 2010, Lync para Mac e outros clientes mais antigos.)  <br/> |Y (precisa Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |S  <br/> |S  <br/> |
-|Delegação de reunião  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
-|Histórico de Conversas Perdidas e Logs de Chamadas são gravados na caixa de correio do exchange do usuário  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
-|Conteúdo de Arquivamento (IM e Reunião) em Exchange  <br/> |Y (precisa Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Pesquisar conteúdo arquivado  <br/> |Y (precisa Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Exchange Caixa Postal de UM  <br/> |S  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
-|Histórico da Conversa do Lado do Servidor  <br/> |S  <br/> |Y  <br/> |N  <br/> |S  <br/> |S  <br/> |
+|Presença no Outlook   |S   |S   |S   |S   |S   |
+|Responder via IM, Chamada PSTN, Skype Chamada ou Vídeo de um email Outlook email   |S   |S   |S   |S   |S   |
+|Agendar e participar de reuniões online por meio Outlook   |S   |S   |S   |S   |S   |
+|Presença no Outlook Web App   |S   |Y   |N   |N   |Y   |
+|Responder por IM, Chamada PSTN, Skype Chamada ou Chamada de Vídeo de um email do OWA   |S   |Y   |N   |N   |Y   |
+|Agendar e participar de reuniões online por meio Outlook Web App   |S   |Y   |N   |N   |Y   |
+|IM/Presença em Clientes Móveis   |S   |S   |S   |S   |S   |
+|Participar de reuniões online em clientes Móveis   |S   |S   |S   |S   |S   |
+|Publicar status com base em Outlook de agenda livre/ocupado   |S   |S   |S   |S   |S   |
+|Lista de contatos (por meio do Unified Contact Store)   |Y (precisa Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|Foto de contato de alta resolução (requer clientes do Lync 2013 ou Skype for Business no mínimo. Não há suporte para LWA, aplicativos móveis, Lync 2010, Lync para Mac e outros clientes mais antigos.)   |Y (precisa Exchange 2016/2013)   |Y   |N   |S   |S   |
+|Delegação de reunião   |S   |S   |S   |S   |S   |
+|Histórico de Conversas Perdidas e Logs de Chamadas são gravados na caixa de correio do exchange do usuário   |S   |S   |S   |S   |S   |
+|Conteúdo de Arquivamento (IM e Reunião) em Exchange   |Y (precisa Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|Pesquisar conteúdo arquivado   |Y (precisa Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|Exchange Caixa Postal de UM   |S   |Y   |N   |N   |N   |
+|Histórico da Conversa do Lado do Servidor   |S   |Y   |N   |S   |S   |
 
 > [!NOTE]
 > Há um serviço Caixa postal na Nuvem com suporte para o Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015 e Lync Server 2013.

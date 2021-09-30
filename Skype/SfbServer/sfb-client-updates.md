@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Fornece aos profissionais de IT links para as informações de atualização mais recentes para versões perpétuas dos clientes Skype for Business 2016, Skype for Business 2015 e Lync 2013
-ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581335"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013935"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Atualizações mais recentes para versões Skype for Business que usam Windows Installer (MSI)
 
@@ -245,15 +245,15 @@ Número do pacote|Número de KB|Data do lançamento|
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>Clientes do Lync Telefone Edition no Centro de Download
 
-Nome do Pacote|Data do lançamento|
-|:--- |:--- |:--- |
+| Nome do Pacote | Data do lançamento|
+|:--- |:--- |
 |[Lync Telefone Edition para HP 4110 e HP 4120](https://www.microsoft.com/download/en/details.aspx?id=28158) | Abril de 2017 |
 |[Lync Telefone Edition para Polycom CX500, Polycom CX600 e Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | Abril de 2017 |
 |[Lync Telefone Edition para Polycom CX700 e LG-Nortel IP Telefone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | dezembro de 2015 |
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 Software
 
-Nome do Pacote|Data do lançamento|
+|Nome do Pacote|Data do lançamento| |
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35451) | October 2012 |
 |[Lync Basic 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35450) | October 2012 |

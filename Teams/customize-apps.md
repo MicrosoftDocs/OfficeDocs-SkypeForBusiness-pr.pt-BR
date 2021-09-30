@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como personalizar aplicativos em Microsoft Teams.
-ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5e42bd498c1332d2b36c03ec661ae488fcf16aa
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730220"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015015"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicativos no Microsoft Teams
 
@@ -50,7 +50,9 @@ Consulte o [Teams de manifesto para](/microsoftteams/platform/resources/schema/m
 Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
 1. Entre no Centro de administração do Teams.
+
 2. Expanda **Teams Aplicativos** e selecione **Gerenciar aplicativos**.
+
 3. Verifique a **coluna Personalizável** da lista de aplicativos e classificar por aplicativos personalizáveis.
 
    ![A coluna personalizar que está ordenada.](media/customize-column.png)
@@ -85,11 +87,11 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
 5. Expanda **a seção Ícone.**
 
-   a. Upload um ícone. Use um ícone de cor completa (192 x 192) pixel no formato PNG.
+   1. Upload um ícone. Use um ícone de cor completa (192 x 192) pixel no formato PNG.
 
-   b. Escolha uma cor de contorno de ícone. Use um pixel de contorno transparente (32x32) no formato PNG.
+   1. Escolha uma cor de contorno de ícone. Use um pixel de contorno transparente (32x32) no formato PNG.
 
-   c. Selecione uma cor de destaque do aplicativo que corresponde ao ícone.
+   1. Selecione uma cor de destaque do aplicativo que corresponde ao ícone.
 
     ![Personalize as opções de cores do painel de ícones.](media/customize-app-colors.png)
 

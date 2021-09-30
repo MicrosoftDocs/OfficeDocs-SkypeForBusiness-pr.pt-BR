@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9b8b3c057ae5748f135d9085a5a3caf8b26e7f72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5e9c92d977cc7ca5d61a4cf35fd00288e6151a5
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617217"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014815"
 ---
 # <a name="navigate-microsoft-teams"></a>Navegue Microsoft Teams
 
@@ -42,7 +42,7 @@ A funcionalidade dos Kaizala de ação atualmente existe dentro Microsoft Teams.
 
 Você pode compartilhar atualizações e informações importantes com sua força de trabalho com [comunicados em Teams](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992).
 
-Crie e envie mensagens destinadas a várias equipes ou grande número de funcionários por chat com o [aplicativo de comunicador da](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) empresa. Sua interface fácil permite que os usuários designados criem, visualizem, colaborem e enviem mensagens de forma direcionada. Crie recursos de comunicação personalizados direcionados, como telemetria personalizada, em quantos usuários reconheceram ou interagiram com uma mensagem com ideias diretamente vinculadas às decisões de gerenciamento.
+Crie e envie mensagens destinadas a várias equipes ou grande número de funcionários por chat com o [aplicativo de comunicador da](/microsoftteams/platform/samples/app-templates#company-communicator) empresa. Sua interface fácil permite que os usuários designados criem, visualizem, colaborem e enviem mensagens de forma direcionada. Crie recursos de comunicação personalizados direcionados, como telemetria personalizada, em quantos usuários reconheceram ou interagiram com uma mensagem com ideias diretamente vinculadas às decisões de gerenciamento.
 
 ### <a name="check-ins"></a>Check-ins
 

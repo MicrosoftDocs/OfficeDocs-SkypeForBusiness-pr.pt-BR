@@ -12,22 +12,22 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 'Resumo: Saiba mais sobre as configurações de QoE (Qualidade da Experiência) no Skype for Business Server.'
-ms.openlocfilehash: 564ab88b349b578cf577893e4119e5e1ebf26fb1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8c92f5844562e3a99cfc8d8701d7a72b9022267c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585095"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012165"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Criar configurações de Qualidade de Experiência no Skype for Business Server
  
-**Resumo:** Saiba mais sobre as configurações de QoE (Qualidade da Experiência) em Skype for Business Server.
+**Resumo:** Saiba mais sobre as configurações de QoE (Qualidade da Experiência) no Skype for Business Server.
   
 Os atributos métricos da Qualidade da Experiência (QoE) rastreiam a qualidade das chamadas de áudio e vídeo feitas na organização, inclusive o número de pacotes de rede perdidos, o ruído de fundo e a quantidade de "jitter" (diferenças no atraso de pacotes). Esses atributos métricos são armazenados em um banco de dados separado de outros dados (como registros de detalhes das chamadas), permitindo a habilitação e desabilitação do QoE, independentemente de outros registros de dados.
   
-Quando você instala Skype for Business Server, uma única coleção global de configurações de QoE é criada para você. Os administradores também podem ter a opção de criar configurações personalizadas no escopo local. Sempre que estas configurações de escopo local são usadas, elas têm precedência sobre as configurações globais. Por exemplo, se você criar configurações com escopo de site para o site redmond, essas configurações (em vez das configurações globais) serão usadas para gerenciar a QoE em Redmond.
+Quando você instala o Skype for Business Server, uma única coleção global de configurações de QoE é criada para você. Os administradores também podem ter a opção de criar configurações personalizadas no escopo local. Sempre que estas configurações de escopo local são usadas, elas têm precedência sobre as configurações globais. Por exemplo, se você criar configurações com escopo de site para o site redmond, essas configurações (em vez das configurações globais) serão usadas para gerenciar a QoE em Redmond.
   
-As configurações de QoE podem ser criadas usando o Painel de Controle Skype for Business Server ou o cmdlet [New-CsQoEConfiguration.](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Se você estiver usando Skype for Business Server Painel de Controle para criar novas configurações, as seguintes opções estarão disponíveis para você:
+As configurações de QoE podem ser criadas usando o Painel de Controle do Skype for Business Server ou o cmdlet [New-CsQoEConfiguration.](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Se você estiver usando o Painel de Controle do Skype for Business Server para criar novas configurações, as seguintes opções estarão disponíveis para você:
   
 |**Configuração da interface do usuário**|**Parâmetro PowerShell**|**Descrição**|
 |:-----|:-----|:-----|
@@ -37,13 +37,13 @@ As configurações de QoE podem ser criadas usando o Painel de Controle Skype fo
 |Manter dados QoE para duração máxima (dias)  <br/> |KeepQoEDataForDays  <br/> |O número de dias em que os dados de QoE serão armazenados antes de serem limpos do banco de dados. Esse valor será ignorado se a purgação estiver desabilitada.  <br/> |
    
 > [!NOTE]
-> O New-CsQoEConfiguration cmdlet inclui opções adicionais não disponíveis Skype for Business Server Painel de Controle. Para obter mais informações, consulte o [tópico de ajuda New-CsQoEConfiguration.](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)
+> O New-CsQoEConfiguration cmdlet inclui opções adicionais não disponíveis no Painel de Controle do Skype for Business Server. Para obter mais informações, consulte o [tópico de ajuda New-CsQoEConfiguration.](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)
   
-### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para criar configurações de QoE usando Skype for Business Server Painel de Controle
+### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para criar configurações de QoE usando o Painel de Controle do Skype for Business Server
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle.  
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.  
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e em **Dados da Qualidade da Experiência**.
     
@@ -61,9 +61,9 @@ As configurações de QoE podem ser criadas usando o Painel de Controle Skype fo
     
 7. Clique em **Confirmar**.
     
-## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Criando configuração de QoE Configurações usando Windows PowerShell cmdlets
+## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Criando configurações de QoE usando Windows PowerShell Cmdlets
 
-Você pode criar configurações de QoE usando o Windows PowerShell e o cmdlet New-CsQoEConfiguration. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 Usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+Você pode criar configurações de QoE usando o Windows PowerShell e o cmdlet New-CsQoEConfiguration. Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>Para criar uma nova coleção de configurações de QoE
 

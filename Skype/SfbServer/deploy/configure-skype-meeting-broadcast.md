@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Resumo: saiba mais sobre as etapas que você precisa executar para configurar Reunião do Skype Transmissão para sua implantação Skype for Business Server híbrida local.'
-ms.openlocfilehash: 92e09820d5c2634041ac91a84e97c90dec243a93
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596025"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013705"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurar sua implantação local para a Reunião do Skype Broadcast
  
@@ -48,12 +48,10 @@ Para habilitar a federação com Skype for Business online, você precisa config
     
 3. Configure o novo provedor com as seguintes configurações:
     
-|||
-|:-----|:-----|
-|**Habilitar comunicações com este provedor:** <br/> |Selecionado  <br/> |
-|**Nome do provedor:** <br/> |LyncOnlineResources  <br/> |
-|**Serviço de Borda de Acesso (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
-|**Nível de verificação padrão:** <br/> |Permitir que os usuários se comuniquem com todos que usam esse provedor.  <br/> |
+   - **Habilitar comunicações com este provedor:** Selected
+   - **Nome do provedor:** LyncOnlineResources
+   - **Serviço de Borda de Acesso (FQDN):** sipfed.resources.lync.com
+   - **Nível de verificação padrão:** Permitir que os usuários se comuniquem com todos que usam esse provedor. 
    
 Você também pode habilitar a federação com Skype for Business online executando o seguinte cmdlet no Shell de Gerenciamento Skype for Business Server:
   

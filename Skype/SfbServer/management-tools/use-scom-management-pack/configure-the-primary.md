@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Resumo: configure seu servidor de gerenciamento principal, instale o System Center Operations Manager e importe pacotes de gerenciamento para Skype for Business Server 2015.'
-ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20159d77c34ebaa4a8ed022a5d0f1467deeb89e0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635255"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012115"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Como configurar o Servidor de Gerenciamento Primário
 
@@ -44,13 +44,10 @@ Ao instalar o System Center Operations Manager, você precisará instalar todos 
 - Data warehouse
 
 > [!IMPORTANT]
-> O "[Microsoft Report Viewer 2010 Redistributable Package](https://www.microsoft.com/download/details.aspx?id=6442)" precisa ser instalado antes de instalar o System Center Operations Manager 2012.
+> O Microsoft Report Viewer pacote redistribuível 2010 deve ser instalado antes de instalar o System Center Operations Manager 2012.
 
-Para obter detalhes sobre esses produtos e sua instalação, consulte os seguintes links:
+Para obter detalhes sobre esses produtos e sua instalação, [consulte System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
-- [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
-
-- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
 Lembre-se de que você pode ter apenas um Servidor de Gerenciamento Raiz por Skype for Business Server implantação.
 

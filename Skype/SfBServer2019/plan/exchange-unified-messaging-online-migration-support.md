@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: A Microsoft está retirando o serviço Exchange Unificação de Mensagens Online (ExchUMO) até 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar a continuidade dos negócios.
-ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6d24b05b8f1c6b8d2b47533edbd9ad79c5022e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606820"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013285"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -113,10 +113,15 @@ os administradores da organização do Microsoft 365 e do Office 365 são necess
 Recomendamos que você inicie a instalação dos novos atendentes automáticos mais cedo para evitar problemas de última hora e se familiarizar com a funcionalidade e a experiência do serviço de Atendedor Automático nuvem. Para os atendimentos automáticos que exigem um ou mais recursos de lacuna, você pode criar e testar os atendimentos automáticos quando os recursos de lacuna estão disponíveis para preparar a implantação. Para obter mais informações sobre recursos de lacuna, consulte [o Apêndice](#appendix).
 
 1. Use os cmdlets Exchange UMO para exportar a configuração de atendentes automáticos existentes usando [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant).  
+
 2. Use o cmdlet [Export-UMprompt](/powershell/module/exchange/unified-messaging/export-umprompt) no Exchange Online PowerShell para exportar os arquivos de mídia de saudação (se usado) e convertê-los no formato .mp3.
-3. Siga as instruções em [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and Set up a Cloud auto attendant to create auto [attendants](/microsoftteams/create-a-phone-system-auto-attendant) by using the Microsoft Teams admin center or Powershell.
+
+3. Siga as instruções em [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and Set up a Cloud auto attendant to create auto [attendants](/microsoftteams/create-a-phone-system-auto-attendant) by using the Microsoft Teams admin center or PowerShell.
+
 4. Revise suas saudações se as opções de menu foram alteradas.
+
 5. Configure transferências para seus grupos de resposta usando a solução alternativa "transferência [](#known-issues) Atendedor Automático chamada para PSTN" na seção Problemas conhecidos deste artigo.  
+
 6. Teste os novos atendentes automáticos chamando-os internamente ou atribuindo um número de telefone de teste.  
 
 ### <a name="cutover"></a>Substituição
@@ -155,7 +160,7 @@ Recomendamos que você inicie a instalação dos novos atendentes automáticos m
 | VM | Recursos do usuário | Encaminhar uma caixa postal  | Encaminhar uma caixa postal recebida para outros usuários | S | S    |
 | VM | Recursos do usuário | Enviando uma mensagem de voz para um grupo de usuários  |Transmissão de caixa postal   | N | Y   |
 | VM | Recursos do usuário | Notificação de caixa postal usando SMS    | Os usuários podem receber um SMS quando têm uma nova caixa postal    | N | Y    |
-| VM | Recursos do usuário | Idiomas de saudação com suporte | Detalhes aqui: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
+| VM | Recursos do usuário | Idiomas de saudação com suporte | Detalhes aqui: [O que são os atendimentos automáticos na nuvem?](/microsoftteams/what-are-phone-system-auto-attendants) | S | S    |
 | VM | Recursos do usuário | Regras de atendimento de chamada |  | S | S    |
 | VM | Recursos do usuário | Tocar no telefone (PSTN)- para reproduzir mensagem | Chame-me no meu celular para ouvir a mensagem de voz  | N | Y    |
 | VM | Recursos do usuário | Tocar no telefone (Auth)- para reproduzir mensagem | Chame-me no meu dispositivo autenticado  | N | Y    |
@@ -165,24 +170,24 @@ Recomendamos que você inicie a instalação dos novos atendentes automáticos m
 | VM | Recursos do chamador  | Detecção de silêncio   |  | N | Y    |
 | VM | Tenant-Admin recursos | Caixa postal protegida no nível do servidor    | O administrador de locatários pode configurar uma regra de nível de serviço para marcar a caixa postal de entrada como protegida | S | S    |
 | VM | Tenant-Admin recursos | Alterar o limite de tempo de duração da gravação  |     | S | S    |
-| VM | Tenant-Admin recursos | Alterar o tempo de detecção de silêncio    |  | N/A    | Y    |
+| VM | Tenant-Admin recursos | Alterar o tempo de detecção de silêncio    |  | N/D    | Y    |
 | VM | Tenant-Admin recursos | Alterar o número de falhas de entrada | CVM: codificada para 3 | N | Y    |
 | VM | Tenant-Admin recursos | Alterar o idioma padrão |  | S | S    |
 | VM | Tenant-Admin recursos | Desabilitar/habilitar transcrição |  | S | S    |
 | VM | Tenant-Admin recursos | Desabilitar/habilitar a notificação de chamada perdida |  | N | Y    |
 | VM | Tenant-Admin recursos | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
-| VM | Tenant-Admin recursos | Personalizar mensagem de texto para usuários habilitados|  | N/A    | Y    |
+| VM | Tenant-Admin recursos | Personalizar mensagem de texto para usuários habilitados|  | N/D    | Y    |
 | VM | Tenant-Admin recursos | Mascaramento de profanidade de transcrição|  | Y | N    |
 | VM | Tenant-Admin recursos | Política de caixa postal    |   | S | S    |
 | VM | Tenant-Admin recursos | Administração do portal da Web   |  | CY19   | Y    |
-| VM | Tenant-Admin recursos | Windows PowerShell   |  | S | S    |
+| VM | Tenant-Admin recursos | PowerShell   |  | S | S    |
 | UM | Recursos do usuário | Indicador de Espera de Mensagem (MWI) em Skype for Business certificados   |Pode ser fornecido pelo parceiro de telefone  | Não | Sim    |
 | AA | Recursos de serviço | AA support 3rd-party PBX    |  | N | Y    |
 | AA | Recursos de serviço | Suporte Skype for Business Server   |  | S | S    |
 | AA | Recursos de serviço | Suporte Microsoft Teams|  | Y | N    |
 | AA | Recursos de serviço | Discar por nome, entrada DTMF    |  | S | S    |
 | AA | Recursos de serviço | Discar por nome, entrada de fala  |  | S | S    |
-| AA | Recursos de serviço | Suporte a vários idiomas | Detalhes do idioma aqui: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
+| AA | Recursos de serviço | Suporte a vários idiomas | Detalhes do idioma aqui: [O que são os atendimentos automáticos na nuvem?](/microsoftteams/what-are-phone-system-auto-attendants) | S | S    |
 | AA | Recursos de serviço | Transferir para operador, CQ ou usuário |  | S | S    |
 | AA | Recursos de serviço | Transferir para o número PSTN internamente (DID RNL)  |  | S | S    |
 | AA | Recursos de serviço | Transferir para o número PSTN externamente  |  | Confira a seção Problemas Conhecidos abaixo | Y    |
