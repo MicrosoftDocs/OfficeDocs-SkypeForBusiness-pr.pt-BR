@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 6c66556cdcd32bb99b29bd66291d47bad28d44fd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2fc412627bc211d3ec3290d2cb4c64698e0bca9b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608768"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045887"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicação da sua organização
 
@@ -85,9 +85,9 @@ Para obter mais informações, [consulte Microsoft Teams licenciamento de comple
     >[!IMPORTANT]
     >Se você for um cliente de licenciamento por volume, você pode escolher seu número enterprise agreement para pagamento. Se você tiver vários números enterprise agreement, você pode escolher qual prefere usar para o pagamento. Você também poderá especificar um número de ordem de compra que será associado ao número do enterprise agreement (se aplicável).
     
-Cada organização terá um uso diferente de volume e taxas do Plano de Chamada a considerar. You will need to get this type of usage data from your current service provider. As organizações que já usam o Skype for Business Online como provedor de serviços podem obter dados de uso revisando-os **no** relatório de detalhes de uso do  >    >  **PSTN** do centro de administração do Microsoft Teams.
+Cada organização terá um uso diferente de volume e taxas do Plano de Chamada a considerar. You will need to get this type of usage data from your current service provider. As organizações que já usam o Skype for Business Online como provedor de serviços podem obter dados de uso revisá-los no centro de administração do **Microsoft Teams** Analytics & relatórios Relatórios de uso relatório de uso  >    >    >  **PSTN** e SMS (visualização).
   
-Ao configurar os Créditos de Comunicação, você precisará investigar o uso de chamada para sua organização para determinar os valores necessários. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamada para Excel se precisar armazenar os dados ou criar relatórios personalizados. Para saber como ver o uso, leia o relatório de uso [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
+Ao configurar os Créditos de Comunicação, você precisará investigar o uso de chamada para sua organização para determinar os valores necessários. Você pode obter informações de uso de chamada revendo o relatório de uso **de PSTN e SMS (visualização).** Este relatório permite exportar os registros de dados de chamada para Excel se precisar armazenar os dados ou criar relatórios personalizados. Para saber como ver o uso, leia o relatório de uso [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Etapa 3: Atribuir uma licença de Créditos de Comunicação aos usuários
 
@@ -103,7 +103,7 @@ Ao configurar os Créditos de Comunicação, você precisará investigar o uso d
     > Mesmo que você tenha usuários que tenham uma licença **Enterprise E5,** ainda é recomendável que você faça isso.
 
     > [!TIP]
-    > Você pode usar o [Powershell](/powershell/module/skype/?view=skype-ps) para atribuir licenças e aplicativos a vários usuários com um comando.
+    > Você pode usar o [Powershell](/powershell/module/skype/?view=skype-ps&preserve-view=true) para atribuir licenças e aplicativos a vários usuários com um comando.
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>Quer saber mais sobre planos e preços?
 

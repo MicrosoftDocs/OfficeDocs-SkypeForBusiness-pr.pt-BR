@@ -1,7 +1,7 @@
 ---
 title: Gerenciar o aplicativo Turnos para sua organização
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7c1bdde4764b56e8c45a8ad9356437525f00b56
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727830"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045717"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -41,7 +41,7 @@ O aplicativo Shifts no Microsoft Teams mantém os funcionários de linha de fren
 - Os gerentes criam, atualizam e gerenciam cronogramas de turnos da equipe. Eles também podem enviar mensagens para uma pessoa ("há um derramamento no chão") ou para toda a equipe ("o gerente regional chega em 20 minutos"). Eles podem enviar documentos de política, boletins de notícias e vídeos.
 - Os funcionários visualizam os próximos turnos rapidamente, podem ver quem mais está agendado para o dia, solicitar uma troca de turno, oferecer um turno e solicitar folgas.
 
-É importante saber que Shifts atualmente não dá suporte a convidados. Isso significa que os convidados em uma equipe não podem ser adicionados ou usar escalas de turnos quando o acesso de Convidado estiver ativado no Teams. 
+É importante saber que shifts atualmente não suportam convidados. Isso significa que os convidados em uma equipe não podem ser adicionados ou usar escalas de turnos quando o acesso de Convidado estiver ativado no Teams. 
 
 > [!Note]
 > Para obter detalhes sobre os recursos do Turnos em diferentes plataformas, confira [Recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -68,7 +68,7 @@ O Turnos é habilitado por padrão para todos os usuários do Teams em sua organ
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Habilite ou desabilite o Turnos para usuários específicos em sua organização
 
-Para permitir ou bloquear usuários específicos em sua organização de usar Turnos, certifique-se de que Shifts está ligado para sua organização na página [Gerenciar aplicativos.](../../manage-apps.md) Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](../../teams-app-permission-policies.md).
+Para permitir ou bloquear usuários específicos em sua organização de usar Turnos, certifique-se de que shifts sejam ativos para sua organização na página [Gerenciar aplicativos.](../../manage-apps.md) Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](../../teams-app-permission-policies.md).
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Use a política de configuração do aplicativo FirstLineWorker para fixar Turnos Teams
 
@@ -76,9 +76,9 @@ As políticas de configuração de aplicativos permitem que você personalize o 
  
 Teams inclui uma política interna de configuração de aplicativos FirstLineWorker que você pode atribuir aos funcionários de linha de frente em sua organização. Por padrão, a política inclui os aplicativos Atividade, Turnos, Chat e Chamada.
 
-Para exibir **a** política FirstLineWorker, na navegação à esquerda do centro de administração Microsoft Teams, acesse Teams políticas de configuração  >  **do aplicativo.**
+Para exibir a política FirstLineWorker, na navegação à esquerda do centro de administração Microsoft Teams, acesse Teams **políticas** de  >  **Instalação de aplicativos**.
 
-![Captura de tela da política de configuração do aplicativo FirstLineWorker.](../../media/firstline-worker-app-setup-policy.png "Captura de tela da política de configuração do aplicativo FirstLineWorker no Microsoft Teams de administração")
+:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="Captura de tela da política de configuração do aplicativo FirstLineWorker no Microsoft Teams de administração" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Atribuir a política de configuração do aplicativo FirstLineWorker aos usuários
 
@@ -95,4 +95,4 @@ Antes de poder pesquisar o log de auditoria, você precisa ativar a auditoria no
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Ajuda de turnos para trabalhadores de linha de frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Atribuir políticas aos usuários no Microsoft Teams](../../assign-policies.md)
+- [Atribua políticas a seus usuários no Teams](../../assign-policies.md)

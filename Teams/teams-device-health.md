@@ -17,14 +17,15 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: d5e98e65c35b8319a7e4f8675b68d530fa382c31
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: fae26365a09cab2705d4c7fee5d57c2135203a65
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984766"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045807"
 ---
 # <a name="manage-the-health-of-teams-devices"></a>Gerenciar a saúde dos Teams dispositivos
+
 
 Os administradores podem monitorar a saúde dos dispositivos instalados com Microsoft Teams usando o status de saúde, o que indica a gravidade dos problemas. Para verificar a saúde de um dispositivo, você pode  ir para a lista de dispositivos presente na seção dispositivos Teams do centro de administração Teams. A coluna status de saúde nesta lista indica o status de saúde atual do dispositivo. Selecionar esse status abre o painel **Status de** saúde , que fornece mais detalhes sobre problemas de saúde.
 

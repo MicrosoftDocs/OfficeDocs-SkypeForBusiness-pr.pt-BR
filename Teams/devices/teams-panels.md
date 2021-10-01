@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams painéis.
-ms.openlocfilehash: 217cd39499975668677c0ec452ce2dd299b464bf
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 872aeed96b12679c809194425a1c7823ac6e663a
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984576"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045607"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams painéis
 
@@ -125,7 +125,7 @@ Depois de ter implantado painéis, você deve testá-los. Verifique se os [recur
 
 ## <a name="manage-teams-panels-in-your-organization"></a>Gerenciar Teams painéis em sua organização
 
-Para gerenciar seus Teams de painéis, na navegação à esquerda do centro de administração Microsoft Teams, vá para **Teams**  >  **Dispositivos Teams painéis**. A partir daqui, você pode alterar o perfil de configuração do dispositivo, gerenciar atualizações, reiniciar dispositivos, adicionar e remover marcas de dispositivo e muito mais. Para obter mais informações, consulte [Manage your devices in Teams](device-management.md).
+Para gerenciar seus Teams painéis, na navegação à esquerda do centro de administração Microsoft Teams, vá para Teams  >  **Painéis de Dispositivos**. A partir daqui, você pode alterar o perfil de configuração do dispositivo, gerenciar atualizações, reiniciar dispositivos, adicionar e remover marcas de dispositivo e muito mais. Para obter mais informações, consulte [Manage your devices in Teams](device-management.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

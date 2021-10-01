@@ -15,23 +15,25 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da44a5eb25e56a974214472782e424cda735b6dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 060604853b29111372a605ff0ad6212ba1e56a8a
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636799"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046417"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Use o assistente de integração do Trabalho de Linha de Frente para fazer sua força de trabalho de linha de frente funcionar
 
 > [!NOTE]
-> Este artigo descreve um recurso que ainda não foi lançado. Ele está chegando em breve. Se você for um administrador, poderá descobrir quando esse recurso será lançado no Centro de Mensagens (no Centro de administração do Microsoft 365 [).](https://portal.office.com/adminportal/home) Para ficar por dentro dos recursos Teams futuros, confira [o roteiro Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+> Ainda não vê esse recurso? Ele está sendo lançado no momento e pode não estar disponível em sua organização ainda. Para ficar por dentro dos recursos Teams futuros, confira [o roteiro Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="overview"></a>Visão Geral
 
 O assistente de integração do Trabalhador de Linha de Frente no Centro de administração do Microsoft 365 simplifica a integração de funcionários de linha de frente para sua organização. O assistente permite implantar rapidamente uma experiência no Microsoft Teams que é personalizada para sua força de trabalho de linha de frente. Usando o assistente, você pode facilmente começar sua implantação piloto de Teams para os funcionários de linha de frente em sua organização.
 
 O assistente configura uma equipe para seus funcionários de linha de frente e atribui licenças e pacotes de [política](manage-policy-packages.md) a cada membro da equipe. Você pode criar sua equipe do zero ou de um modelo [de equipe](get-started-with-teams-templates-in-the-admin-console.md)e, em seguida, adicionar usuários e atribuir funções. A função determina o pacote de política que o assistente atribui a cada usuário.
+
+Atualmente, o assistente dá suporte à adição de 100 usuários sempre que você o executar. Estamos trabalhando para aumentar o número de usuários por executar em breve. Confira aqui as atualizações mais recentes.
 
 O assistente está disponível para todas as organizações que tenham pelo menos uma Microsoft 365 F. Você pode executar o assistente quantas vezes precisar para Teams sua força de trabalho de linha de frente em locais ou sites diferentes em toda a sua organização.
 
@@ -40,27 +42,35 @@ O assistente está disponível para todas as organizações que tenham pelo meno
 
 ## <a name="run-the-wizard"></a>Executar o assistente
 
-1. Na navegação à esquerda [do](https://admin.microsoft.com/)Centro de administração do Microsoft 365, selecione **Configurar**. Vá para a seção **Aplicativos e email** e, em **Seguida,** em Obter sua força de trabalho de linha de frente funcionando , selecione **Exibir**. Aqui, você pode saber mais sobre os recursos que Microsoft 365 profissionais de linha de frente oferece.
+1. Na navegação à esquerda [do](https://admin.microsoft.com/)Centro de administração do Microsoft 365, escolha **Configurar**. Vá para a seção **Aplicativos e email** e, em **Seguida,** em Obter sua força de trabalho de linha de frente funcionando , selecione **Exibir**. Aqui, você pode saber mais sobre os recursos que Microsoft 365 profissionais de linha de frente oferece.
+
+    :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Captura de tela da página de detalhes da experiência de integração do Trabalho de Linha de Frente no Centro de administração do Microsoft 365":::
 
 2. Quando estiver pronto, selecione **Começar a** executar o assistente.
 
-3. Insira um nome para sua equipe, selecione uma configuração de privacidade e adicione um ou mais proprietários de equipe. Em seguida, escolha se deve criar sua equipe do zero ou de um modelo de equipe. Os modelos de equipe vêm com canais e guias predefinidos, que otimizam a equipe para uma determinada necessidade de negócios ou projeto.
+3. Insira um nome para sua equipe, adicione um ou mais proprietários de equipe e selecione uma configuração de privacidade. Em seguida, escolha se deve criar sua equipe do zero ou de um modelo de equipe. Os modelos de equipe vêm com canais e guias predefinidos, que otimizam a equipe para uma determinada necessidade de negócios ou projeto.
+
+    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Captura de tela da página Configurar uma equipe do assistente":::
 
 4. Adicione usuários à equipe. Você também pode adicionar grupos. Se você adicionar grupos, lembre-se de que licenças e pacotes de política são atribuídos diretamente a cada usuário no grupo, não ao grupo em si.
 
-5. Atribua uma das seguintes funções a cada membro da equipe.
+    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Captura de tela da página Adicionar usuários do assistente em que você adiciona usuários e grupos à sua equipe":::
 
-    - Trabalhador de linha de frente
-    - Gerenciador de frontline
-    - Nenhum
+5. Atribua uma das seguintes funções a cada membro da equipe: Frontline Worker, Frontline Manager, None. 
+  
+    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Captura de tela da página Atribuir funções de trabalho do assistente em que você atribui funções, locais e licenças aos membros da equipe":::
 
-    Ao atribuir uma função de gerente de linha de frente ou de linha de frente, esse usuário receberá uma experiência Teams que é adaptada à sua função. Isso inclui aplicativos e políticas pré-fixados para comunicação e colaboração de funcionários e gerentes de linha de frente saudáveis.
+    Ao atribuir uma função de Gerente de Linha de Frente ou Trabalhador de Linha de Frente, esse usuário receberá um pacote de política. O pacote de política criará uma experiência em Teams que é adaptada à sua função. Essa experiência inclui aplicativos e políticas pré-fixados para comunicação e colaboração de funcionários e gerentes de linha de frente saudáveis.
 
-    Em seguida, atribua uma Microsoft 365 F a cada membro da equipe. Se você não tiver licenças suficientes, poderá selecionar **Comprar mais licenças** para comprar mais licenças.  
+    Em seguida, selecione um local e atribua uma Microsoft 365 F a cada membro da equipe. Se você não tiver licenças suficientes, poderá selecionar **Comprar mais licenças** para comprar mais licenças.  
 
 6. Escolha quem recebe o email de status após a conclusão do assistente. O email contém informações de sucesso e falha sobre as ações executadas pelo assistente criando a equipe, adicionando membros da equipe e atribuindo uma licença e um pacote de política a cada membro &mdash; da equipe. Use essas informações para solucionar erros que possam ocorrer.
 
+    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Captura de tela da página Adicionar destinatários de email de status do assistente":::
+
 7. Revise suas seleções e selecione **Confirmar**.
+
+    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Captura de tela da página Revisar equipe do assistente em que você analisa as configurações da equipe":::
 
     O assistente cria sua equipe e atribui licenças e pacotes de política aos membros da equipe. Isso pode levar alguns minutos para ser concluído, após o qual os destinatários escolhidos receberão um email de status.
 

@@ -3,7 +3,7 @@ title: Pesquisar números de telefone para usuários
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark, oscarr
+ms.reviewer: davlick, roykuntz, jastark
 ms.topic: article
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
 ms.tgt.pltfrm: cloud
@@ -21,26 +21,27 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Confira como pesquisar números de telefone que você pode atribuir aos seus usuários, por país ou região e cidade, e especifique a quantidade de números necessários.
-ms.openlocfilehash: cb4bcac5a79f782e87ce53eb9cb93f8a024260bf
-ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
+ms.openlocfilehash: b44a25865f58dcabd8876f0e4bfa6732cd4cde54
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59496678"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046327"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Pesquisar números de telefone para usuários
 
 Ao configurar usuários em sua organização para fazer e receber chamadas telefônicas usando números de telefone fornecidos pela Microsoft, você deve primeiro usar o centro de administração do Microsoft Teams e adquirir números de telefone **para** serem atribuídos aos usuários. O número de telefone atribuído a um usuário será um número de telefone que você adquiriu anteriormente para sua organização; o número será listado na listada quando você editar as propriedades do usuário e clicar em **Atribuir**.
   
-Antes de poder atribuir números de telefone fornecidos pela  Microsoft aos seus usuários, você deve usar a página Obter novos números para pesquisar números de telefone que estão disponíveis para você. Você pode pesquisar por País  **(Mercado),** Tipo de número e **Local** e, em seguida, inserir a quantidade de números de telefone necessários para seus usuários.A página limitará automaticamente a quantidade com base na quantidade que você ainda tem disponível para adquirir. 
+Antes de poder atribuir números de telefone fornecidos pela  Microsoft aos seus usuários, você deve usar a página Obter novos números para pesquisar números de telefone que estão disponíveis para você. Você pode pesquisar por **País (Mercado),** **Tipo de número** e **Local.** Em seguida, você verá uma lista de operadores que fornecem números nesse país. 
+
+Se você selecionar a Microsoft como sua operadora, poderá adquirir os números do centro de administração do Teams inserindo a quantidade de números de telefone necessários para seus usuários.A página limitará automaticamente a quantidade com base na quantidade que você ainda tem disponível para adquirir. Se você selecionar um operador Conexão Operador, será direcionado para a página inicial do operador selecionado para concluir a ordem de número. 
 
 A forma como você adquire e gerencia números de telefone difere dependendo da sua opção de conectividade PSTN: Planos de Chamadas da Microsoft, Conexão operador ou Roteamento Direto. 
 
-Este artigo só se aplica aos Planos de Chamada da Microsoft. Para obter mais informações sobre todas as opções, consulte [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
-
+Este artigo se aplica aos [Planos de Chamada](#search-for-telephone-numbers-for-microsoft-calling-plans) e [operadores da](#search-for-telephone-numbers-for-operator-connect)Microsoft Conexão . Para obter mais informações sobre todas as opções, consulte [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
   
-## <a name="search-for-telephone-numbers"></a>Pesquisar números de telefone
+## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>Pesquisar números de telefone para Planos de Chamadas da Microsoft
 
 Para pesquisar números de telefone para seus usuários: 
   
@@ -49,7 +50,7 @@ Para pesquisar números de telefone para seus usuários:
 2. Na navegação à esquerda, selecione **Números Telefone**  >  **voz**  >  **Obter novos números**.
   
     > [!IMPORTANT]
-    > Para que você veja **a** opção **Voz** na navegação à esquerda no centro de administração do Microsoft Teams, primeiro compre pelo menos uma licença **do Enterprise E5**, uma licença de complemento Sistema de Telefonia ou uma licença de complemento de **Audioconferência.**  
+    > Para você ver **a** opção **Voz** na navegação à esquerda no centro de administração do Teams, primeiro você deve comprar pelo menos uma licença do Enterprise E5 ou **E3,** uma licença de complemento Sistema de Telefonia ou uma licença de complemento de **Audioconferência.**  
 
 3. Na página **Selecionar local e quantidade,** selecione um local na lista de listada país **(mercado).**
 
@@ -70,6 +71,28 @@ Para pesquisar números de telefone para seus usuários:
 9. Na página **Confirmação,** verifique suas opções e clique em **Colocar ordem**.
 
 10. Quando você retornar à **página** de Telefone números, selecione o número de telefone ou números que deseja atribuir e clique em **Editar** para atribuí-lo a um usuário.  
+
+
+## <a name="search-for-telephone-numbers-for-operator-connect"></a>Pesquisar números de telefone para operador Conexão
+
+1. Vá para o Microsoft Teams **de administração**.
+
+2. Na navegação à esquerda, selecione **Números Telefone**  >  **voz**  >  **Obter novos números**.
+  
+    > [!IMPORTANT]
+    > Para você ver **a** opção **Voz** na navegação à esquerda no centro de administração do Teams, primeiro você deve comprar pelo menos uma licença do Enterprise E5 ou **E3,** uma licença de complemento Sistema de Telefonia ou uma licença de complemento de **Audioconferência.**  
+
+3. Na página **Selecionar local e quantidade,** selecione um local na lista de listada país **(mercado).**
+
+4. Selecione **Usuário** na **listada** de tipos de número.
+
+5. Dependendo do País (Mercado) selecionado, agora você terá opções diferentes disponíveis para você usar para localizar os números de telefone necessários. Você pode filtrar para mostrar apenas os operadores adicionados selecionando **Mostrar meus operadores**.
+
+6. Se você já tiver fornecido consentimento para o operador, será direcionado para a página de aterrissagem do operador para concluir o processo de pedido. 
+
+7. Se você não tiver fornecido consentimento para o operador, você será direcionado para habilitar seu operador na página do operador escolhido no centro de Teams de administração. Para obter mais informações, consulte [Enable an operator](operator-connect-configure.md#enable-an-operator).
+
+8. Depois que seu pedido for concluído, sua operadora carregará números de telefone para seu locatário e você poderá atribuí-los aos usuários.  
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

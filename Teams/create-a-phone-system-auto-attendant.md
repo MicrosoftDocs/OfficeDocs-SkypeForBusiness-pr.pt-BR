@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: 59d12bc7d7bde68be6c42aff4e415713d641679f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 29e746c9db2da970d4709da126297b6cc38b6c81
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729080"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046027"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -223,13 +223,13 @@ Consulte [Gerenciar Teams de recursos para](manage-resource-accounts.md) obter m
 
 Consulte os [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que os atendimentos automáticos transfira chamadas externamente.  Além disso:
 
-- Para uma conta de recurso com uma licença [de](calling-plans-for-office-365.md)Plano de Chamada , o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código de área][número de telefone]).
+- Para uma conta [](calling-plans-for-office-365.md) de recurso [](operator-connect-plan.md) com uma licença de Plano de Chamada ou um número Conexão operador, o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código de área][número de telefone]).
 
 - Para uma conta de recurso com uma política Sistema de Telefonia de roteamento de voz online de Licença e Roteamento Direto, o formato de número de telefone de transferência externa depende das configurações do Controlador de Borda de Sessão [(SBC).](direct-routing-connect-the-sbc.md)
 
 O número de telefone de saída exibido é determinado da seguinte forma:
 
-  - Para números do Plano de Chamadas, o número de telefone do chamador original é exibido.
+  - Para números de plano de chamada e Conexão operador, o número de telefone do chamador original é exibido.
   - Para números de Roteamento Direto, o número enviado é baseado na configuração P-Asserted-Identity (PAI) no SBC, da seguinte forma:
     - Se definido como Desabilitado, o número de telefone do chamador original será exibido. Essa é a configuração padrão e recomendada.
     - Se definido como Habilitado, o número de telefone da conta de recurso será exibido.

@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Use Microsoft Teams modelos predefinidos integrados ao Microsoft Graph para criar equipes de forma rápida e fácil para pequenas e médias empresas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0855e7a61b52582b283a5c1f7c4c4f966045d743
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 324470ffc3366750777c75776e4ae4e783dbb17f
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991210"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045677"
 ---
 # <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Modelos de equipe integrados ao Microsoft Graph para pequenas e médias empresas
 
@@ -181,6 +181,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Começar a usar Teams modelos no console de administração](get-started-with-teams-templates-in-the-admin-console.md)
-- [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
+- [Introdução aos modelos de equipe no Centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md)
+- [Introdução aos modelos de equipe usando o Microsoft Graph](get-started-with-teams-templates.md)
 - [Criar equipe](/graph/api/team-post?view=graph-rest-beta) (na visualização)

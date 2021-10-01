@@ -1,7 +1,7 @@
 ---
 title: Configurar eventos ao vivo no Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: Configurar para eventos ao vivo no Teams, incluindo configurar sua 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f33490fdccbb67a000278d1e9085b0305204c8f5
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432323"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046187"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -50,16 +50,16 @@ As políticas de eventos ao vivo são usadas para controlar quem em sua organiza
 
 <a name="bkcreatepolicy"> </a>
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Políticas de** eventos do Meetings  >  **Live.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para a guia **Reuniões** Ao vivo  >  **políticas de gerenciamento**  >  **de** políticas.
 2. Faça uma das seguintes opções:
 
     - Se você quiser editar a política padrão existente, escolha **Global (padrão para toda a organização)**.
-    - Se você quiser criar uma nova política personalizada, escolha **Adicionar**.
+    - Se você quiser criar uma nova política personalizada, escolha **+Adicionar**.
     - Se você quiser editar uma política personalizada, selecione-a e, em seguida, escolha **Editar**.
 
     Estas são as configurações que podem ser alteradas de acordo com as necessidades da sua organização.
 
-    ![Captura de tela das configurações de política de eventos ao vivo.](../media/teams-live-events-policies.png "Captura de tela de configurações de política de eventos ao vivo no centro de administração do Microsoft Teams")
+    ![Captura de tela das configurações de política de eventos ao vivo.](../media/teams-live-events-policies-new.png "Captura de tela de configurações de política de eventos ao vivo no centro de administração do Microsoft Teams")
 
 |Configuração  |Descrição  |
 |---------|---------|

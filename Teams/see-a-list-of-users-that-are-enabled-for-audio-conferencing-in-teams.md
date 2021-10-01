@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Saiba como exibir uma lista de usuários em sua organização habilitados para conferência discada de dentro Microsoft Teams. '
-ms.openlocfilehash: 7d6c77eaefe3d3247e8b950cfffff156606db008
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579585"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045877"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Ver uma lista de usuários que estão habilitados para Audioconferência no Microsoft Teams
 
@@ -39,7 +39,6 @@ Depois de habilitar Microsoft Teams usuários em sua organização para Audiocon
 ## <a name="viewing-a-list-of-users"></a>Exibir uma lista de usuários
 
 - No centro Microsoft Teams de administração, na navegação à esquerda, clique em **Usuários**.
-
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
@@ -58,7 +57,7 @@ O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com
     
   - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps&preserve-view=true) para obter mais informações.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 

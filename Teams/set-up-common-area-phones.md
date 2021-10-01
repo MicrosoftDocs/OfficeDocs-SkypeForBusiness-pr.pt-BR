@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Saiba como configurar Telefones de Área Comum para lobbies, áreas de recepção e salas de conferência '
-ms.openlocfilehash: ad38f753b109aefd0e7628efe3e61472e7149597
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e2d81c047f4bf26d43da4fd8f9fc31c0702c28d8
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733750"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045557"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
@@ -105,7 +105,7 @@ Use o Teams de administração para atribuir um número ao usuário.
 
 1. No centro de Teams de administração, selecione **Voz**  >  **Telefone números**.
 
-3.    Selecione um número na lista de números de telefone e clique em **Atribuir**.
+3. Selecione um número na lista de números de telefone e clique em **Atribuir**.
 
 4. Na página **Atribuir,** na caixa Usuário voz, digite o nome do usuário que estará usando  o telefone e selecione o usuário na listada Selecionar um usuário de voz.
 

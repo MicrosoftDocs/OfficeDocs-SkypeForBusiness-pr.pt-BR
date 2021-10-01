@@ -1,7 +1,7 @@
 ---
 title: Atualizar Teams telefones para Teams displays
-ms.author: v-cichur
-author: cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Saiba como atualizar os Teams para Teams são exibidos no centro de administração Microsoft Teams.
-ms.openlocfilehash: e84c6157db4c7f98d94b276830f71afb52175740
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: b090522f93d8d41e9bf0e5a188030fd694672a5c
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984556"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045837"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Atualizar Teams telefones para Teams displays
 
@@ -55,7 +55,7 @@ Lembre-se de que, depois de atualizar um Teams para um Teams de exibição, a a�
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá **para Teams Devices**  >  **Phones**.
 2. Selecione os Teams que deseja atualizar e selecione **Atualizar**.
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Captura de tela mostrando Teams telefones selecionados para atualização para Teams são exibidos.":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select-new.png" alt-text="Captura de tela mostrando Teams telefones selecionados para atualização para Teams são exibidos." lightbox="../media/upgrade-phones-to-displays-select-new.png":::
 
 3. Na caixa **Atualizar para Teams de** diálogo de exibição, selecione Agendar atualização para definir uma data e hora para a atualização ou Atualizar **agora.** 
 

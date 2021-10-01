@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Aprenda a personalizar uma política de Mensagens Seguras para o Microsoft Teams que pode incluir confirmação de leitura e notificações prioritárias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72a0ab4ebce59a9fa65ec67b413892afa0b1e045
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727240"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045513"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para organizações de saúde
 
@@ -37,9 +37,9 @@ Você pode usar a política global (padrão para toda a organização) ou criar 
 
 As políticas podem ser facilmente gerenciadas no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com), entrando com as credenciais de administrador e escolhendo as **Políticas de mensagens** no painel de navegação esquerdo.
 
- ![Captura de tela da página Políticas de mensagens.](../../media/hc-messaging-policy-admin-center.png)
-
-Para editar a política de Mensagens padrão existente para sua organização, clique em **Global (padrão em toda a organização)** e faça as suas alterações. Para criar uma nova política de mensagens personalizada, clique em **Adicionar** e selecione as suas configurações. Escolha **Salvar** quando terminar.
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="Captura de tela da página Políticas de mensagens." lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ 
+ Para editar a política de Mensagens padrão existente para sua organização, clique em **Global (padrão em toda a organização)** e faça as suas alterações. Para criar uma nova política de mensagens personalizada, clique em **Adicionar** e selecione as suas configurações. Escolha **Salvar** quando terminar.
 
 ![Captura de tela das configurações de política de mensagens.](../../media/hc-messaging-policy.png)
 

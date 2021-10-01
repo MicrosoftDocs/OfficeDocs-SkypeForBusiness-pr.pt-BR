@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar filas de chamada para pequenas empresas em Microsoft 365 Business Voice.
-ms.openlocfilehash: 3a67771127d5c359d798dd5de688d4f26b3cf39e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 527d0512ae7e58e2141fcc913ba633ea991cc6e5
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732111"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045737"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
 
@@ -102,7 +102,7 @@ Cada fila de chamada que você criar requer uma conta de recurso. Isso é semelh
 
 Você pode criar uma conta de recurso no Teams de administração.
 
-1. No centro Teams de administração, expanda **as** configurações de toda a organização e clique em **Contas de recursos.**
+1. No centro Teams de administração, **expanda Voz** e clique em **Contas de recursos.**
 
 2. Clique em **Adicionar**.
 

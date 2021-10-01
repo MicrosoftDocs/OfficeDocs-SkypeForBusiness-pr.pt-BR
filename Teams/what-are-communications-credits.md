@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: cd52426a26a5dcefe3a5051a8c8e03e56a2991de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab0daa196de9768e277b292baf1de2b5d456fa78
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626983"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045847"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -72,11 +72,11 @@ Você pode configurar a cobrança  de consumo usando um financiamento único do 
 Na **Centro de administração do Microsoft 365** Adicionar Serviços de Compra de Cobrança, você pode selecionar Créditos de Comunicação para adicionar os créditos e adicionar crédito manualmente a  >    >    >   qualquer momento. Você também pode habilitar a opção **Recarga automática**, que permitirá a recarga automática da conta quando o saldo ficar abaixo do limite definido. Se você optar por financiar seu saldo de Créditos de Comunicação com um valor único e, em seguida, o saldo cair para zero, os cenários de chamadas adicionais acima não funcionarão mais, incluindo números de telefone gratuitos. Como tal, é recomendável que  você use a configuração de recarga automática para evitar qualquer interrupção do serviço caso o saldo de Créditos de Comunicação atinja 0 (zero). Você pode exibir seu saldo atual de Créditos de Comunicação, indo para **Cobrança**  >  **dos Créditos** de Comunicações  >  **de Seus produtos.**
 
 > [!NOTE]
->Você receberá emails para todos os usuários **com** Administrador de Serviço do Lync, Administrador da Empresa, Administrador de Cobrança, Administrador da Empresa, Administrador de Conta de Usuário, Administrador do Helpdesk, Administrador de Suporte ao Serviço, Administrador de Cobrança, Administrador de Serviços do Lync, Administrador de Aplicativos, Administrador de Licença, Administrador de Dispositivo de Nuvem, Administrador de Autenticação Privilegiada Teams, Administrador de Autenticação Privilegiada, Administrador de Comunicações do Teams, Engenheiro de Suporte de Comunicações, Especialista de Suporte de Comunicações do Teams, funções de administrador do Teams, quando as transações de recarga são bem-sucedidas, as transações de recarga falham (como um cartão de crédito expirado) e ou seu saldo de Créditos de Comunicações atinge 0 (zero).
+>Você será enviado  emails para todos os usuários com o Administrador de Serviço do Lync, Administrador da Empresa, Administrador de Cobrança, Administrador da Empresa, Administrador de Conta de Usuário, Administrador do Helpdesk, Administrador de Suporte ao Serviço, Administrador de Cobrança, Administrador de Serviço do Lync, Administrador de Dispositivos, Administrador de Aplicativos, Administrador de Licença, Administrador de Dispositivo de Nuvem, Administrador de Autenticação, Administrador de Autenticação Privilegiada, Teams Administrador de Comunicações, engenheiro de suporte de comunicações do Teams, especialista em Suporte Teams comunicações, funções de administrador do Teams, quando as transações de recarga são bem-sucedidas, as transações de recarga falham (como um cartão de crédito expirado) e o saldo de Créditos de Comunicações atinge 0 (zero).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
-Cada organização terá um uso diferente de volume e taxas de Planos de Chamada a considerar. You will need to get this type of usage data from your current service provider. Para organizações que já Teams como provedor de serviços, você pode obter dados de uso revisando-os no centro de administração do Microsoft Teams > **Analytics &** relatórios Relatórios de uso e, em seguida, selecione  >   **Uso PSTN**.
+Cada organização terá um uso diferente de volume e taxas de Planos de Chamada a considerar. You will need to get this type of usage data from your current service provider. Para organizações que já usam o Teams como provedor de serviços, você pode obter dados de uso revisando-os no centro de administração do Microsoft Teams > **Analytics &** relatórios Relatórios de uso e, em seguida, selecione PSTN e  >  SMS **(visualização)uso**.
   
 Ao configurar os Créditos de Comunicações, você precisará investigar o uso de chamada para sua organização para determinar os valores que você precisará colocar. Você pode obter informações de uso de chamada revendo o relatório de uso de PSTN. Este relatório permite exportar os registros de dados de chamada para Excel e criar relatórios personalizados.
 

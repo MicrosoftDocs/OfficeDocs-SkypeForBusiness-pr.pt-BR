@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Configurar a análise de chamada por usuário para identificar e solucionar problemas Microsoft Teams de qualidade de chamada.
-ms.openlocfilehash: c19a5b05027bd9d2aa0fd8d3a6c8599c30ae54cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f4e3d6586c699a3f8d9fd0cd782f45361bc69d1
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597565"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045543"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>Configurar análise de chamada para Microsoft Teams
 
@@ -53,7 +53,7 @@ Você pode adicionar informações de construção, site e locatário à anális
 
 Se você for um administrador Teams ou Skype for Business, poderá usar um locatário existente e criar arquivo de dados a partir do Teams ou do CQD (Painel de Qualidade de Chamada Skype for Business de chamada). Primeiro, você baixa o arquivo do CQD e o carrega para análise de chamada. 
 
-- Para baixar um arquivo de dados existente, vá **para** o centro de administração Microsoft Teams Painel de Qualidade de Chamada  >    >  **Upload agora**. Na lista **Meus carregamentos,** clique **em Baixar** ao lado do arquivo que você deseja. 
+- Para baixar um arquivo de dados existente, vá para Microsoft Teams centro de administração  >  **Analytics & relatórios**  >  **painel** de qualidade  >  **de chamada Upload agora**. Na lista **Meus carregamentos,** clique **em Baixar** ao lado do arquivo que você deseja. 
 
 - Para carregar o novo arquivo, vá Microsoft Teams centro de administração Locais e selecione Upload de local  >  ou Substituir dados **de localização**. 
   

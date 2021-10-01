@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Guia passo a passo detalhando como configurar o Sistema de Telefonia (Cloud PBX) para sua organização em Microsoft 365 ou Office 365.
-ms.openlocfilehash: ac52110762b6aad0b1041c14c55a39804e68a8c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 51884f63485b1509dbf9ee72739bc0e85385e940
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589643"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046137"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar o Sistema de telefonia da sua organização
 
@@ -52,6 +52,7 @@ Se os Planos de Chamadas não estão disponíveis para seu país ou região, con
 Antes de configurar usuários em sua organização para fazer e receber chamadas telefônicas, você deve obter números de telefone para eles.
 
 Você tem três maneiras de obter números para seus usuários:
+
 - Obter novos números usando o Teams de administração.
 - Obter novos números que não estão disponíveis no Teams de administração.
 - Port or transfer your existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365.

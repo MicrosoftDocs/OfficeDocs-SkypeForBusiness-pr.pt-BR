@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre os atendimentos automáticos e filas de chamada e como usá-los para ajudar os chamadores a passar por um sistema de menus para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 1bd9f1d299123812c4a2621e48578730126fe619
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 04cebedc40e64531b272fb5420d19120e15329f1
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729570"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045727"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar Teams atendimentos automáticos e filas de chamada
 
@@ -71,8 +71,11 @@ Para configurar os atendimentos automáticos e filas de chamada, você precisa d
 
 - Uma conta de recurso para cada atendimento automático e cada fila de chamada
 - Uma licença Sistema de Telefonia de usuário virtual para cada conta de recurso
-- Pelo menos um número [de serviço da Microsoft,](getting-service-phone-numbers.md)um número de roteamento direto ou um número híbrido para cada conta de recurso que você deseja discar diretamente
+- Pelo menos um número de serviço da [Microsoft,](getting-service-phone-numbers.md)um número de operador Conexão, um número de Roteamento Direto ou um número híbrido para cada conta de recurso que você deseja discar diretamente
  - O número de serviço pode ser um número gratuito ou de tarifação gratuita
+
+> [!NOTE]
+> As contas de recursos estão desabilitadas para entrar e devem permanecer assim. Chat e presença não são avaissaláveis para essas contas.
 
 Os agentes que recebem chamadas das filas de chamadas devem estar Enterprise Voice usuários online ou locais habilitados. Além disso, se as filas de chamadas estão usando números de Roteamento Direto, os agentes que precisam fazer chamadas de conferência ou transferência também exigem:
 
@@ -84,11 +87,14 @@ Se seus agentes estão usando o aplicativo Microsoft Teams para chamadas de fila
 Ao transferir chamadas para um número de telefone externo, a conta de recurso que executa a transferência (ou seja, a associada ao atendimento automático ou fila de chamadas) deve ter uma licença de usuário virtual Microsoft 365 Sistema de Telefonia e uma das seguintes atribuídas:
 
 - Uma [licença do Plano de](calling-plans-for-office-365.md) Chamadas e um número de telefone atribuído
+- Um [número de Conexão](operator-connect-plan.md) operador atribuído
 - Uma [política de roteamento de](manage-voice-routing-policies.md) voz online (atribuição de número de telefone é opcional ao usar Roteamento Direto)
 
 > [!NOTE]
-> Os números de serviço de Roteamento Direto para o atendimento automático e filas de chamadas são suportados somente Microsoft Teams usuários e agentes de chamada.<br>
-> Não há suporte para transferências entre troncos de Plano de Chamadas e Roteamento Direto.<br>
+> Os números de serviço de Roteamento Direto para o atendimento automático e filas de chamadas são suportados somente Microsoft Teams usuários e agentes de chamada.
+> 
+> Não há suporte para transferências entre o Plano de Chamadas, Conexão operador e troncos de Roteamento Direto.
+> 
 > Em um cenário híbrido, a conta de recurso deve ser criada no local. Para obter mais informações, consulte [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
 
 ## <a name="business-decisions"></a>Decisões de negócios
@@ -125,7 +131,7 @@ Se você tiver uma infraestrutura de fila de chamadas e atendimento automático 
 *O modo de* conferência é uma opção em filas de chamadas que reduz significativamente o tempo necessário para conectar Teams chamadas VOIP e PSTN a um agente. Para que o modo de conferência funcione, os agentes na fila de chamada devem usar um dos seguintes clientes:
 
 - A versão mais recente do cliente de área de trabalho do Microsoft Teams, do aplicativo Android ou do aplicativo iOS
-  - Versão de telefone do Microsoft Teams 1449/1.0.94.2020051601 ou posterior
+- Microsoft Teams Telefone versão 1449/1.0.94.2020051601 ou posterior
   
 De definir as contas Teams agentes para Teams modo somente de Teams. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas.
 

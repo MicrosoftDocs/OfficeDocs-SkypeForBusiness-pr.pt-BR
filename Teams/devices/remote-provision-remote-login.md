@@ -1,7 +1,7 @@
 ---
 title: Provisionamento remoto e entrada para dispositivos Teams Android
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prgholve
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como provisionar e entrar remotamente em dispositivos Teams Android
-ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984736"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046147"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para dispositivos Teams Android
 
@@ -70,7 +70,7 @@ Na janela **Provisionar novos dispositivos,** você pode adicionar o endereço M
 
 1. Na guia **Aguardando ativação,** selecione **Adicionar ID MAC**.
 
-   ![adicionar manualmente um endereço mac do dispositivo.](../media/remote-provision-6.png)
+   ![adicionar manualmente um endereço mac do dispositivo.](../media/remote-provision-6-new.png)
 
 1. Insira a ID MAC.
 1. Insira um local, que ajuda os técnicos a identificar onde instalar os dispositivos.
@@ -110,9 +110,9 @@ Quando o dispositivo é ligado e conectado à rede, o técnico provisiona o disp
 
 ## <a name="sign-in-remotely"></a>Entrar remotamente
 
-O dispositivo provisionado aparece na guia **Aguardando** entrada. Inicie o processo de entrada remota selecionando o dispositivo individual.
+O dispositivo provisionado aparece na guia **Aguardando entrada.** Inicie o processo de entrada remota selecionando o dispositivo individual.
 
-1. Selecione um dispositivo na guia **Aguardando entrada.**
+1. Selecione um dispositivo na **guia Aguardando entrada.**
 
    ![A janela com uma lista de dispositivos prontos para entrar.](../media/remote-device1.png)
 

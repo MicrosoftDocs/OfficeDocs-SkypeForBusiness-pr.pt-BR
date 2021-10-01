@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Aprenda a configurar a discagem ou a conferência de áudio para as pessoas da sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: db4b2eecbc6620c8f6d76a4ee4b80fd68eebc268
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: f520d9c77fb04a27dbb43194edb24f1080627a51
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456511"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046297"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar a conferência de áudio do Microsoft Teams
 
@@ -63,7 +63,7 @@ Acesse [Disponibilidade do país e região para audioconferência e planos de ch
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>Etapa 3: Obtenha números de serviço para suas pontes de conferência
 <a name="__top"> </a>
 
-Para audioconferências, você não pode usar números de telefone para usuários; será preciso obter os números de serviço. Você pode obter números de serviço tarifado ou gratuito para suas pontes de conferência. Há três maneiras de obter números de serviço tarifado ou gratuito: 
+Para audioconferências, você não pode usar números de telefone para usuários; será preciso obter os números de serviço. Você pode obter números de serviço tarifado ou gratuito para suas pontes de conferência. Há três maneiras de obter números de serviço tarifado ou gratuito:
   
 - **Use o centro de administração do Microsoft Teams.**. Em alguns países/regiões, você pode obter números de serviço para suas pontes de conferência usando o centro de administração do Microsoft Teams. Consulte [Obter números dos telefones de serviço](./getting-service-phone-numbers.md).
     
