@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Aprenda a gerenciar e usar os modelos de equipe de serviços de saúde no Centro de administração do Teams e com o Microsoft Graph para criar equipes de forma rápida e fácil para sua organização de saúde.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 00da42e4e573306a3737b1d35e89292b04df4fa4
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 5345f5e9886bbcb9e4a2274d21d2aabb0be373c6
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991120"
+ms.locfileid: "60007801"
 ---
 # <a name="use-healthcare-team-templates"></a>Usar modelos de equipe de cuidados de saúde
 

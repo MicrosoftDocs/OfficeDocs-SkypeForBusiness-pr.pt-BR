@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 073d9ee391b42a476b0657dbf910f8d019699358
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 2c2bda6467bf819bdf9cf82713c24e8e9cd18d9d
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991200"
+ms.locfileid: "60007791"
 ---
 # <a name="use-retail-team-templates"></a>Usar modelos de equipe de varejo
 
@@ -36,14 +36,14 @@ O Teams inclui modelos projetados especificamente para necessidades do varejista
 
 A maneira como você gerencia e trabalha com modelos de equipe depende se você é um administrador ou desenvolvedor.
 
-|Se você for: | Em seguida, você: |
+|Se você estiver: | Em seguida, você: |
 | ---- | --------- |
-| Um administrador ou profissional de TI |[Gerenciar modelos de equipe no centro de administração do Teams](#manage-team-templates-in-the-teams-admin-center). Exiba modelos de equipe e aplique políticas de modelos para controlar quais modelos sua equipe pode usar no Teams para criar equipes. |
+| Um administrador ou profissional de IT |[Gerenciar modelos de equipe no Centro de administração de Teams](#manage-team-templates-in-the-teams-admin-center). Exiba modelos de equipe e aplique políticas de modelos para controlar quais modelos sua equipe pode usar no Teams para criar equipes. |
 | Um desenvolvedor | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) para criar equipes com base em modelos de equipe. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Gerenciar modelos de equipe no centro de administração do Teams
 
-Como administrador, você pode gerenciar modelos de equipe no centro de administração do Microsoft Teams. Aqui, você pode exibir detalhes sobre cada modelo. Você também pode [criar e atribuir políticas de modelos](templates-policies.md) para sua equipe controlar quais modelos eles veem no Teams para [criação de equipes](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c). 
+Como administrador, você pode gerenciar os modelos de equipe no Centro de administração do Microsoft Teams. Aqui, você pode exibir os detalhes sobre cada modelo. Você também pode [criar e atribuir políticas de modelos](templates-policies.md) para sua equipe controlar quais modelos são vistos no Teams para a [criação de equipes](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c). 
 
 Para saber mais sobre modelos de equipe em geral, consulte [Introdução aos modelos de equipe no centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -70,9 +70,9 @@ O modelo de Colaboração do Gerente é ideal para criar uma equipe para que um 
 
 &sup1;Aplicativo adicionado ao canal como uma guia.
 
-## <a name="use-team-templates-with-microsoft-graph"></a>Usar modelos de equipe com Microsoft Graph
+## <a name="use-team-templates-with-microsoft-graph"></a>Usar os modelos do Teams com o Microsoft Graph
 
-Os desenvolvedores podem usar Microsoft Graph para criar equipes com base em modelos de equipe pré-criados. Para saber mais sobre como usar modelos de equipe com o Microsoft Graph, consulte [ Introdução aos modelos de equipe usando Microsoft Graph](get-started-with-teams-templates.md), [Visão geral da API do Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) e [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Os desenvolvedores podem usar o Microsoft Graph para criar equipes a partir de modelos de equipe pré-criados. Para saber mais sobre como usar modelos de equipe com o Microsoft Graph, consulte [ Introdução aos modelos de equipe usando Microsoft Graph](get-started-with-teams-templates.md), [Visão geral da API do Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) e [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 Aqui estão os modelos de equipe de varejo pré-criados.
 
@@ -110,7 +110,7 @@ Maneiras recomendadas de personalizar o modelo Colaboração de Gerente para sua
 
 ### <a name="how-to-use-team-templates-with-microsoft-graph"></a>Como usar modelos de equipe com o Microsoft Graph
 
-Para usar esses modelos, basta alterar a propriedade "template@odata.bind" no corpo da solicitação de "padrão" para as TemplateIds acima.  Para saber mais sobre como implantar modelos de equipe, confira o artigo do Microsoft Graph sobre como [criar uma equipe](/graph/api/team-post?view=graph-rest-beta).
+Para usar esses modelos, altere a propriedade 'template@odata.bind' no corpo da solicitação de 'padrão' para as TemplateIds acima.  Para saber mais sobre como implantar modelos de equipe, confira o artigo do Microsoft Graph sobre como [criar uma equipe](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Os canais no modelo serão criados automaticamente na guia **Geral**.
