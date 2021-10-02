@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política Microsoft Teams simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 7a9e7c8a83d7700840a49febdf0ab88104a7e2d9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3ea2a0b88b5c412cde4b4b6cbd3da6e1d7282e94
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58750028"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60081606"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: Gerenciar pacotes de política
 
@@ -82,8 +82,6 @@ Por exemplo, quando você atribui o pacote de política de Educação (Professor
 ![Captura de tela do pacote de política Educação (Professor).](media/policy-packages-education_teacher.png)
 
 ## <a name="custom-policy-packages"></a>Pacotes de política personalizados
-
-**Pacotes de política personalizados ainda não estão disponíveis para o Nuvem da Comunidade Governamental (GCC)**
 
 Pacotes de política personalizados permitem que você empacote seu próprio conjunto de políticas para usuários com funções semelhantes em sua organização. Crie seus próprios pacotes de política adicionando os tipos de política e as políticas de que você precisa.
 
