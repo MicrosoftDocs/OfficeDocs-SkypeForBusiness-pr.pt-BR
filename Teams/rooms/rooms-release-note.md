@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aed319f4621cb95b653294f4b27d2ff37ffafb72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f4f6c719a0be5e1d400eae37ba19be8e0dbd0214
+ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629233"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "60082871"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 
 |Versão |Publicado para <br/> Microsoft Store |
 |--- |--- |
+|4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
@@ -74,6 +75,25 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas do Microsoft Teams introdução de recursos e resolução de problemas
+
+### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
+
+Introduzido nesta atualização:
+- O controle remoto de sala permite que os usuários controlem a funcionalidade básica da sala usando Teams em seus celulares *
+- Logitech scribe content camera support for BLE button for sharing into meeting
+- Bolhas de chat fornecem notificações no chat de reunião para chamar a atenção para o que está sendo dito usando o chat de reunião *
+- O suporte ao modo galeria grande e ao modo Juntos agora está disponível no GCC High
+- Novas Habilidades adicionadas Cortana, Adicionar pessoa por nome à reunião e Chamada por nome 
+- Cortana Push to Talk é habilitado por padrão em todos os dispositivos. Para saber mais, [confira Cortana de voz em Teams](../cortana-in-teams.md).
+
+> [!NOTE]
+> Suporte 19H1 preterido. A versão do sistema operacional mínimo com suporte 4.10 é 19H2.
+
+> [!NOTE]
+> *Esses recursos são lançados usando o serviço Teams e funcionarão com todas as versões do aplicativo maiores que 4,9.
+
+> [!NOTE]
+> Para ingressar na reunião agendada tanto do aplicativo móvel quanto do MTR-W, encontre a conta de sala na lista no aplicativo móvel do Teams e pressione o menu "Controlar essa sala" e você pode controlar os controles de chamada do aplicativo. Teams
 
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 

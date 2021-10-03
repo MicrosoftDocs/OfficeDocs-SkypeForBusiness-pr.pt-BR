@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19c6676bb742deacf97afae54f29b369d551b9ae
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: 51ec855bc9065bb65c0f6eae14a3e41683cfbc6f
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007761"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046127"
 ---
 # <a name="use-financial-team-templates"></a>Usar modelos de equipe financeira
 
@@ -38,12 +38,12 @@ A maneira como você gerencia e trabalha com modelos de equipe depende se você 
 
 |Se você estiver: | Em seguida, você: |
 | ---- | --------- |
-| Um administrador ou profissional de IT |[Gerenciar modelos de equipe no Centro de administração de Teams](#manage-team-templates-in-the-teams-admin-center). Exiba modelos de equipe e aplique políticas de modelos para controlar quais modelos sua equipe pode usar no Teams para criar equipes. |
+| Um administrador ou profissional de IT |[Gerencie modelos de equipe no centro de administração do Teams](#manage-team-templates-in-the-teams-admin-center). Exiba modelos de equipe e aplique as políticas de modelos para controlar quais modelos sua equipe pode usar no Teams para criar equipes. |
 | Um desenvolvedor | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) para criar equipes com base em modelos de equipe. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Gerenciar modelos de equipe no centro de administração do Teams
 
-Como administrador, você pode gerenciar os modelos de equipe no Centro de administração do Microsoft Teams. Aqui, você pode exibir os detalhes sobre cada modelo. Você também pode [criar e atribuir políticas de modelos](templates-policies.md) para sua equipe controlar quais modelos são vistos no Teams para a [criação de equipes](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c).
+Como administrador, você pode gerenciar os modelos de equipe no Centro de administração do Microsoft Teams. Aqui, você pode exibir os detalhes sobre cada modelo. Você também pode [criar e atribuir políticas de modelos](templates-policies.md) para sua equipe controlar quais modelos são vistos no Teams para a [criação de equipes](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
 Para saber mais sobre modelos de equipe em geral, consulte [Introdução aos modelos de equipe no centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -73,3 +73,9 @@ Centralize a colaboração entre funcionários da sua agência bancária em conf
 
 > [!NOTE]
 > Para obter modelos de equipe adicionais que se aplicam a organizações de serviços financeiros, consulte [Modelos de equipe criados no Microsoft Graph para pequenas e médias empresas](smb-templates.md).
+
+## <a name="related-articles"></a>Artigos relacionados
+
+- [Introdução aos modelos de equipe no centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md)
+- [Criar uma equipe a partir de um modelo](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [Introdução aos modelos de equipe usando Microsoft Graph](get-started-with-teams-templates.md)
