@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: a747879a0e95ab524e1a45cf12a366f0bd7e4fe4
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: a0fe8cc7604e34fabb4c68ecb00c9a7a448afea4
+ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942376"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60127388"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -196,6 +196,7 @@ O certificado precisa ser gerado por uma das seguintes autoridades de certificad
 - Autoridade de Certificação RSA USERTrust
 - Hongkong Post Root CA 1,2,3
 - CA raiz do Sectigo
+- Harica  
 
 Para roteamento direto Office 365 ambientes GCCH e DoD, o certificado precisa ser gerado por uma das seguintes autoridades de certificado raiz:
 - AC Raiz Global digiCert
