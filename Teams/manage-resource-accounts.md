@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos Microsoft Teams.
-ms.openlocfilehash: 8b58aae22afdff749e82ca67ff8b4a457f72b9de
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 915547fea13a9d5b240e92b7d0a37515a271ebf9
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726640"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138247"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -65,7 +65,7 @@ Você pode criar uma conta de recurso no Teams de administração.
 
 ![Captura de tela da interface do usuário adicionar conta de recurso.](media/resource-account-add.png)
 
-1. No centro Teams de administração, expanda **as** configurações de toda a organização e clique em **Contas de recursos.**
+1. No centro Teams de administração, **expanda Voz** e clique em **Contas de recursos.**
 
 2. Clique em **Adicionar**.
 

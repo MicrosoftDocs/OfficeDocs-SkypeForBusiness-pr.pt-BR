@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use a telemetria em tempo real com detalhes sobre dispositivos, redes e conectividade para solucionar problemas do usuário com Microsoft Teams reuniões agendadas.
-ms.openlocfilehash: 2730cb41267e8d02572f72d4d9ed7f154e021d9d
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 94b303687995ac3bcd765991dbfeb41c6f1459e7
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082951"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138357"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar a telemetria em tempo real para solucionar problemas de qualidade de reunião ruim
 
@@ -65,6 +65,19 @@ Para obter informações adicionais sobre os participantes de uma reunião em an
 Para ver a telemetria de um determinado usuário para uma reunião em andamento, incluindo informações sobre detalhes de compartilhamento de dispositivo, rede, áudio, vídeo e conteúdo, selecione a **ID** da Reunião .
 
 ![Captura de tela dos dados de sessão do usuário de análise de chamada.](media/real-time-telemetry.png)
+
+## <a name="measures-available-in-real-time-analytics"></a>Medidas disponíveis no Real-Time Analytics
+
+|Nome da Medida |Unidades |Limite bom |Descrição |
+|:---|:---|:---|:---|
+|Tremulação |Milissegundos |Menos de 30 ms |Treme é uma medida da variação no atraso de pacotes para um fluxo de dados. Quando isso é muito alto, o áudio pode ficar inso. | 
+|Perda de pacote |Porcentagem |Menos de 5% |A perda de pacotes ocorre quando os pacotes de dados não conseguem chegar ao destino. A porcentagem de pacotes perdidos se baseia no número total de pacotes enviados. |
+|Hora da viagem de ida e volta |Milissegundos |Menos de 500 ms |O tempo de viagem de ida e volta é o tempo necessário para que um único pacote viaje do cliente para o ponto de extremidade remoto e volte para o cliente. O tempo de viagem de ida e volta alto pode causar atrasos na reprodução do fluxo. Um exemplo disso é quando duas pessoas em uma reunião estão falando umas sobre as outras sem querer devido ao atraso. |
+|Bitrate (Áudio) |Kilobits por segundo (Kbps) |Maior que 24 Kbps |Produtividade do fluxo de áudio expresso em quilobits por segundo. |
+|Taxa de bits (compartilhamento & aplicativo de vídeo) |Megabits por segundo (Mbps) | Somente informações |Produtividade do fluxo de vídeo expresso em megabits por segundo. |
+|Taxa de quadros (vídeo) |Quadros por segundo |360p ou melhor: 25-30 FPS <br/> 270p ou inferior: 7 a 15 FPS |Para fluxos de vídeo de saída, a taxa de quadros (FPS) é o número de quadros por segundo de vídeo que o cliente está enviando. Valores inferiores aos esperados aqui podem sugerir restrições de recursos do sistema, largura de banda de rede insuficiente ou dispositivos de captura de vídeo mal comportados. Resoluções diferentes têm diferentes intervalos de FPS aceitáveis. |
+|Taxa de Quadros (Compartilhamento de aplicativos) |Quadros por segundo (FPS) |Somente informações |Para o compartilhamento de aplicativos, a taxa de quadros é ciente de conteúdo para garantir que o máximo de quadros necessários seja enviado para garantir uma boa experiência, evitando o envio de quadros se não for necessário. Por exemplo, o compartilhamento de um documento de texto na tela requer apenas 1 quadro por segundo para produzir uma boa experiência, enquanto o compartilhamento de um vídeo ou conteúdo com mais atividades aumentará quadros por segundo para um máximo de 30 FPS para produzir uma experiência mais suave. |
+
 
 ## <a name="client-platforms-supported-for-real-time-telemetry"></a>Plataformas cliente com suporte para telemetria em tempo real
 

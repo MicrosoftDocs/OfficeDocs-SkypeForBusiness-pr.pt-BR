@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Saiba como gerenciar políticas do Webinar para Teams reuniões.
-ms.openlocfilehash: 78c81e25d246dc450ffcd821d22148c330d38f23
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 35c0cc2ab6c05d123aae45bc0c375cf815db36b4
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456311"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138207"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Preparar-se para webinars no Microsoft Teams
 
@@ -35,6 +35,9 @@ Este artigo ajudará você a configurar sua organização para hospedar webinars
 Webinars são reuniões estruturadas em que apresentadores e participantes têm funções claras, geralmente usadas para fins de treinamento ou cenários de geração de leads de vendas e marketing.
 
 Depois de configurar webinars em sua organização, os usuários podem agendar webinars e abrir o registro para os participantes. Ao contrário das reuniões tradicionais que incluem muitas discussões e atribuição de tarefas, os webinars são destinados a apresentações interativas e fornecem ferramentas para análise do participante.
+
+> [!IMPORTANT]
+> Para permitir que os usuários configurem webinars, Listas da Microsoft deve ser configurado em SharePoint habilitando a criação de listas pessoais. Para saber mais, confira [Configurações de controle para Listas da Microsoft](/sharepoint/control-lists).
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Permitir que os usuários agendem webinars no Teams de administração
 
@@ -76,7 +79,7 @@ Leia [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos** para a política **Global (padrão em toda** a organização). Se você quiser desativar o registro de reunião, de definir **AllowMeetingRegistration** como **False**.
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** deve ser definido como **True** para **AllowMeetingRegistration** funcionar. Além disso, Listas da Microsoft precisa ser configurada em SharePoint. Para saber mais, confira [Configurações de controle para Listas da Microsoft](/sharepoint/control-lists).
+> **AllowPrivateMeetingScheduling** deve ser definido como **True** para **AllowMeetingRegistration** funcionar.
 
 1. Ativar o registro de reunião
 

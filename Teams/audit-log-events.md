@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Saiba como recuperar dados do Microsoft Teams do log de auditoria no centro de conformidade do Microsoft 365.
+description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c176369914a2908134d541d30b8908aecef43cd4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015425"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138267"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-O log de auditoria pode ajudá-lo a investigar atividades específicas nos serviços do Microsoft 365. Para o Microsoft Teams, aqui estão algumas das atividades que são auditadas:
+O log de auditoria pode ajudá-lo a investigar atividades específicas em Microsoft 365 serviços. Para Microsoft Teams, aqui estão algumas das atividades que são auditadas:
 
 - Criação de equipes
 - Exclusão de equipes
@@ -35,7 +35,7 @@ O log de auditoria pode ajudá-lo a investigar atividades específicas nos servi
 - Canal excluído
 - Configuração de canal alterada
 
-Para ver uma lista completa das atividades do Teams auditadas, consulte Atividades do [Teams](#teams-activities) e Turnos nas [atividades do Teams (em visualização)](#shifts-in-teams-activities).
+Para uma lista completa de Teams que são auditadas, consulte [Teams](#teams-activities) atividades e Turnos em atividades Teams [(em visualização)](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Eventos de auditoria de canais privados também são registrados como são para equipes e canais padrão.
@@ -58,17 +58,18 @@ Antes de poder ver os dados de auditoria, você precisa primeiro ativar a audito
 > [!IMPORTANT]
 > Os dados de auditoria só serão visíveis no log de auditoria se a auditoria estiver 1ada.
 
-O tempo em que um registro de auditoria é mantido e pesquisável no log de auditoria depende da sua assinatura do Microsoft 365 ou do Office 365 e, especificamente, do tipo de licença atribuída aos usuários. Para saber mais, confira a descrição do serviço [& Centro de Conformidade.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
+O período de tempo em que um registro de auditoria é mantido e pesquisável no log de auditoria depende de sua assinatura Microsoft 365 ou Office 365, e especificamente o tipo de licença atribuída aos usuários. Para saber mais, confira a descrição do serviço [& Centro de Conformidade.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
 
-## <a name="tips-for-searching-the-audit-log"></a>Dicas para pesquisar o log de auditoria
+## <a name="tips-for-searching-the-audit-log"></a>Dicas pesquisar o log de auditoria
 
-Aqui estão dicas para pesquisar atividades do Teams no log de auditoria.
+Aqui estão dicas para pesquisar Teams atividades no log de auditoria.
 
-![Captura de tela da página de pesquisa de log de auditoria.](media/audit-log-search-page.png)
+![Captura de tela da página de log de auditoria](media/audit-log-search-page.png)
+
 
 - Você pode selecionar atividades específicas para pesquisar clicando no nome da atividade. Ou você pode pesquisar todas as atividades em um grupo (como atividades de arquivo e **pasta)** clicando no nome do grupo. Se uma atividade estiver selecionada, você poderá clicar nele para cancelar a seleção. Você também pode usar a caixa de pesquisa para exibir as atividades que contêm a palavra-chave que você digita.
 
-  ![Captura de tela da pesquisa de log de auditoria.](media/audit-log-search.png)
+  ![Captura de tela da lista de atividades de pesquisa de log de auditoria](media/audit-log-search.png)
 
 - Para exibir eventos para atividades executados usando cmdlets, selecione **Mostrar resultados de** todas as atividades na lista **Atividades.** Se você sabe o nome da operação para essas atividades, pesquise todas as atividades e filtre os resultados digitando o nome da operação na caixa na coluna **Atividade.** Para saber mais, confira [Etapa 3: Filtrar os resultados da pesquisa](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results).
 
@@ -76,21 +77,21 @@ Aqui estão dicas para pesquisar atividades do Teams no log de auditoria.
 
 - Se 5.000 resultados são encontrados, você provavelmente pode supor que há mais de 5.000 eventos que atendidas aos critérios de pesquisa. Você pode refinar os critérios de pesquisa e reprisar a pesquisa para retornar menos resultados ou exportar todos os resultados da pesquisa selecionando **Exportar**  >  **Baixar todos os resultados**.
 
-Confira este [vídeo para](https://www.youtube.com/embed/UBxaRySAxyE) usar a pesquisa de log de áudio. Insuman Acharya, gerente de programas do Teams, demonstra como fazer uma pesquisa de log de auditoria para o Teams.
+Confira este [vídeo para](https://www.youtube.com/embed/UBxaRySAxyE) usar a pesquisa de log de áudio. Participe de Ansuman Acharya, um gerente de programa para Teams, pois ele demonstra como fazer uma pesquisa de log de auditoria para Teams.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar o Cloud App Security para definir políticas de atividade
+## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar Cloud App Security para definir políticas de atividade
 
-Usando a integração com o [](/cloud-app-security/user-activity-policies) [Microsoft Cloud App Security,](/cloud-app-security/what-is-cloud-app-security) você pode definir políticas de atividade para impor uma ampla variedade de processos automatizados usando as APIs do provedor de aplicativos. Essas políticas permitem monitorar atividades específicas realizadas por vários usuários ou seguir taxas inesperadamente altas de um determinado tipo de atividade.
+Usando [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integração, você [](/cloud-app-security/user-activity-policies) pode definir políticas de atividade para impor uma ampla variedade de processos automatizados usando as APIs do provedor de aplicativos. Essas políticas permitem monitorar atividades específicas realizadas por vários usuários ou seguir taxas inesperadamente altas de um determinado tipo de atividade.
 
-Depois de definir uma política de detecção de atividade, ela começa a gerar alertas. Os alertas só são gerados em atividades que ocorrem após a criação da política. Aqui estão alguns cenários de exemplo de como você pode usar políticas de atividade no Cloud App Security para monitorar as atividades do Teams.
+Depois de definir uma política de detecção de atividade, ela começa a gerar alertas. Os alertas só são gerados em atividades que ocorrem após a criação da política. Aqui estão alguns cenários de exemplo de como você pode usar as políticas de atividade no Cloud App Security para monitorar Teams atividades.
 
 ### <a name="external-user-scenario"></a>Cenário de usuário externo
 
-Um cenário em que você pode querer ficar de olho, de uma perspectiva comercial, é a adição de usuários externos ao seu ambiente do Teams. Se os usuários externos estão habilitados, monitorar sua presença é uma boa ideia.  Você pode usar [o Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para identificar possíveis ameaças.
+Um cenário em que você pode querer ficar de olho, de uma perspectiva de negócios, é a adição de usuários externos ao seu ambiente Teams ambiente. Se os usuários externos estão habilitados, monitorar sua presença é uma boa ideia.  Você pode usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para identificar possíveis ameaças.
 
 ![Política para monitorar a adição de usuários externos.](media/TeamsExternalUserAddPolicy.png)
 
-A captura de tela dessa política para monitorar a adição de usuários externos permite nomear a política, definir a gravidade de acordo com suas necessidades de negócios, defini-la como (nesse caso) uma única atividade e, em seguida, estabelecer os parâmetros que monitorarão especificamente apenas a adição de usuários não internos e limitar essa atividade ao Teams.
+A captura de tela dessa política para monitorar a adição de usuários externos permite nomear a política, definir a gravidade de acordo com suas necessidades de negócios, defini-la como (nesse caso) uma única atividade e, em seguida, estabelecer os parâmetros que monitorarão especificamente apenas a adição de usuários não internos e limitar essa atividade a Teams.
 
 Os resultados dessa política podem ser exibidos no log de atividades:
 
@@ -100,11 +101,11 @@ Aqui você pode revisar as combinações com a política definida e fazer quaisq
 
 ### <a name="mass-delete-scenario"></a>Cenário de exclusão em massa
 
-Como mencionado anteriormente, você pode monitorar cenários de exclusão. É possível criar uma política que monitore a exclusão em massa de sites do Teams. Neste exemplo, uma política baseada em alerta é configurada para detectar a exclusão em massa das equipes em um intervalo de 30 minutos.
+Como mencionado anteriormente, você pode monitorar cenários de exclusão. É possível criar uma política que monitore a exclusão em massa de Teams sites. Neste exemplo, uma política baseada em alerta é configurada para detectar a exclusão em massa das equipes em um intervalo de 30 minutos.
 
 ![Política mostrando a configuração de uma política para detecção de exclusão de equipe em massa.](media/TeamsMassDeletePolicy.png)
 
-Como mostra a captura de tela, você pode definir muitos parâmetros diferentes para essa política para monitorar exclusões do Teams, incluindo gravidade, ação única ou repetida e parâmetros que limitam isso ao Teams e à exclusão do site. Isso pode ser feito independentemente de um modelo ou você pode ter um modelo criado para basear essa política, dependendo das suas necessidades organizacionais.
+Como mostra a captura de tela, você pode definir muitos parâmetros diferentes para essa política para monitorar as exclusões de Teams, incluindo gravidade, ação única ou repetida e parâmetros que limitam isso a Teams e exclusão de site. Isso pode ser feito independentemente de um modelo ou você pode ter um modelo criado para basear essa política, dependendo das suas necessidades organizacionais.
 
 Depois de estabelecer uma política que funcione para sua empresa, você poderá revisar os resultados no log de atividades à medida que os eventos são disparados:
 
@@ -118,9 +119,9 @@ Você pode definir alertas e enviar emails para administradores e outros usuári
 
 ![Captura de tela de alertas e ações de governança para uma política de atividade.](media/audit-log-governance.png)
 
-## <a name="teams-activities"></a>Atividades do Teams
+## <a name="teams-activities"></a>Teams atividades
 
-Aqui está uma lista de todos os eventos que estão registrados para atividades de usuário e administrador no Teams no log de auditoria do Microsoft 365. A tabela inclui o nome amigável exibido  na coluna Atividades e o nome da operação correspondente que aparece nas informações detalhadas de um registro de auditoria e no arquivo CSV quando você exporta os resultados da pesquisa.
+Aqui está uma lista de todos os eventos que estão registrados para atividades de usuário e administrador no Teams no log de auditoria Microsoft 365 usuário. A tabela inclui o nome amigável exibido  na coluna Atividades e o nome da operação correspondente que aparece nas informações detalhadas de um registro de auditoria e no arquivo CSV quando você exporta os resultados da pesquisa.
 
 |Nome amigável  |Operação |Descrição |
 |:---------|:---------|:---------|
