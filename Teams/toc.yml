@@ -111,8 +111,6 @@ items:
                 href: teams-for-vdi.md
               - name: Teams para ambiente de área de trabalho remota (RDP)
                 href: teams-on-rdp.md
-              - name: Implantar o Teams para o Surface Hub
-                href: teams-surface-hub.md
               - name: Atualizações de cliente do Teams
                 href: teams-client-update.md
               - name: Solucionar problemas de instalação e atualização
@@ -645,6 +643,8 @@ items:
                 href: cloud-video-interop.md
               - name: Experiência de reunião somente para visualização
                 href: view-only-meeting-experience.md
+              - name: Transmitir reuniões do Teams
+                href: stream-teams-meetings.md
           - name: Configurar o Serviço de Migração de Reunião (SMR)
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Configuração para webinars no Microsoft Teams
@@ -705,7 +705,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -1666,8 +1666,6 @@ items:
             href: alerts/device-health-status.md
           - name: Dispositivos e periféricos do Teams
             href: teams-device-health.md
-          - name: Funcionalidade de unidade administrativa para gerenciamento de dispositivos
-            href: administrative-unit.md
       - name: Windows PowerShell do Teams
         items:
           - name: Visão Geral
