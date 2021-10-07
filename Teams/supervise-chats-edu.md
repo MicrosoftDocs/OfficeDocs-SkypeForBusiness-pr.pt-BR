@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre chats supervisionados em Microsoft Teams reuniões.
-ms.openlocfilehash: 439c62b4993b68ba0c17f83857ad74034fdcd0c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcf2a14b2c05f657a3342c6a0a193b841df4ce27
+ms.sourcegitcommit: 689387de6a07e3f50b3ea65b33bda6960cf30356
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629193"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216009"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Chats supervisionados em Microsoft Teams
 
@@ -68,7 +68,7 @@ As funções não podem ser atribuídas aos convidados em seu locatário. Os con
 
 ### <a name="allow-supervised-chat"></a>Permitir chat supervisionado
 
-O chat supervisionado está desabilitado por padrão para seu locatário. Depois de definir funções de permissão de chat para seus usuários, você  pode habilitar o chat supervisionado em seu locatário, indo para configurações em toda a organização Teams Configurações e definindo a política de permissões de &gt;  **chat baseadas** em função como *Ativado.* Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Este cmdlet está em CsTeamsClientConfiguration.
+O chat supervisionado está desabilitado por padrão para seu locatário. Depois de definir funções de permissão de chat para seus usuários, você  pode habilitar o chat supervisionado em seu locatário, Teams Teams configurações e definir a política de permissões de &gt;  **chat baseadas** em função como *Ativado.* Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Este cmdlet está em CsTeamsClientConfiguration.
 
 O chat supervisionado deve ser habilitado para todos os usuários no locatário e não pode ser habilitado apenas para uma parte de seus usuários.
 
