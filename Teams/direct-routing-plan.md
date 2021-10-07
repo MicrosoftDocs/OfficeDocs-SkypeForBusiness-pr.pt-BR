@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: a0fe8cc7604e34fabb4c68ecb00c9a7a448afea4
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: d2069b7811b570bfa711e6d6c641c1ca9340c7bc
+ms.sourcegitcommit: d67617d5042d25ed0bf36c66c3a0605c3d4d233e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127388"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60224834"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -323,11 +323,13 @@ O intervalo de portas dos Processadores de Mídia é mostrado na tabela a seguir
 
 O tráfego de mídia flui por meio de componentes chamados processadores de mídia. Processadores de mídia são colocados nos mesmos datacenters que os proxies SIP:
 
-- EUA (dois datacenters do Leste Dos EUA e oeste dos EUA)
-- Europa (datacenters de Amsterdã e Dublin)
+- NOAM (Central Sul dos EUA, dois nos datacenters oeste e leste dos EUA)
+- Europa (datacenters do Reino Unido do Sul, Central da França, Amsterdã e Dublin)
 - Ásia (datacenter de Cingapura)
 - Japão (datacenters JP East e West)
 - Austrália (datacenters AU East e Southeast)
+- LATAM (Brasil Sul)
+- África (Norte da África do Sul)
 
 ## <a name="media-traffic-codecs"></a>Tráfego de mídia: Codecs
 
