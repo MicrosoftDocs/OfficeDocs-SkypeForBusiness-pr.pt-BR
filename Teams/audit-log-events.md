@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
+ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138267"
+ms.locfileid: "60148902"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -42,18 +42,20 @@ Para uma lista completa de Teams que são auditadas, consulte [Teams](#teams-act
 
 ## <a name="turn-on-auditing-in-teams"></a>Ativar a auditoria no Microsoft Teams
 
-Antes de poder ver os dados de auditoria, você precisa primeiro ativar a auditoria no Centro de Conformidade & [Segurança.](https://protection.office.com) Para ajudar a ativar a auditoria, leia Ativar ou desativar a pesquisa de [log de auditoria.](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+Antes de poder ver os dados de auditoria, você precisa ativar a auditoria pela primeira vez no Centro de conformidade do Microsoft 365. Para obter mais informações, [consulte Ativar ou desativar a auditoria.](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 > [!IMPORTANT]
 > Os dados de auditoria só estão disponíveis a partir do ponto em que você afirmou a auditoria.
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Recuperar dados do Microsoft Teams a partir do log de auditoria
 
-1. Para recuperar logs de auditoria, vá até o [Centro de Conformidade e Segurança](https://go.microsoft.com/fwlink/?linkid=855775). Em **Pesquisa,** selecione **Pesquisa de log de auditoria.**
+1. Para recuperar logs de auditoria para Teams atividades, vá para <https://compliance.microsoft.com> e selecione **Audit**.
 
-2. Use a **Pesquisa** para filtrar pelas atividades, datas e usuários que você deseja auditar.
+2. Na página **Pesquisa,** filtre as atividades, datas e usuários que você deseja auditar.
 
 3. Exporte os resultados para o Excel para analisá-los melhor.
+
+Para obter instruções passo a passo, consulte [Pesquisar o log de auditoria no centro de conformidade](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log).
 
 > [!IMPORTANT]
 > Os dados de auditoria só serão visíveis no log de auditoria se a auditoria estiver 1ada.
@@ -64,18 +66,17 @@ O período de tempo em que um registro de auditoria é mantido e pesquisável no
 
 Aqui estão dicas para pesquisar Teams atividades no log de auditoria.
 
-![Captura de tela da página de log de auditoria](media/audit-log-search-page.png)
+![Captura de tela da página de pesquisa de log de auditoria no centro de conformidade](media/audit-log-search-page.png)
 
+- Você pode selecionar atividades específicas para pesquisar clicando na caixa de seleção ao lado de uma ou mais atividades. Se uma atividade estiver selecionada, você poderá clicar nele para cancelar a seleção. Você também pode usar a caixa de pesquisa para exibir as atividades que contêm a palavra-chave que você digita.
 
-- Você pode selecionar atividades específicas para pesquisar clicando no nome da atividade. Ou você pode pesquisar todas as atividades em um grupo (como atividades de arquivo e **pasta)** clicando no nome do grupo. Se uma atividade estiver selecionada, você poderá clicar nele para cancelar a seleção. Você também pode usar a caixa de pesquisa para exibir as atividades que contêm a palavra-chave que você digita.
+  ![Captura de tela da listada de atividades na página de pesquisa de log de auditoria](media/audit-log-search.png)
 
-  ![Captura de tela da lista de atividades de pesquisa de log de auditoria](media/audit-log-search.png)
+- Para exibir eventos para atividades executados usando cmdlets, selecione **Mostrar resultados de** todas as atividades na lista **Atividades.** Se você sabe o nome da operação para essas atividades, digite-a na caixa de pesquisa para exibir a atividade e selecione-a.
 
-- Para exibir eventos para atividades executados usando cmdlets, selecione **Mostrar resultados de** todas as atividades na lista **Atividades.** Se você sabe o nome da operação para essas atividades, pesquise todas as atividades e filtre os resultados digitando o nome da operação na caixa na coluna **Atividade.** Para saber mais, confira [Etapa 3: Filtrar os resultados da pesquisa](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results).
+- Para limpar os critérios de pesquisa atuais, clique em **Limpar tudo**. O intervalo de datas retorna ao padrão dos últimos sete dias.
 
-- Para limpar os critérios de pesquisa atuais, clique em **Limpar**. O intervalo de datas retorna ao padrão dos últimos sete dias. Você também pode clicar em **Limpar tudo para mostrar resultados de todas as atividades para** cancelar todas as atividades selecionadas.
-
-- Se 5.000 resultados são encontrados, você provavelmente pode supor que há mais de 5.000 eventos que atendidas aos critérios de pesquisa. Você pode refinar os critérios de pesquisa e reprisar a pesquisa para retornar menos resultados ou exportar todos os resultados da pesquisa selecionando **Exportar**  >  **Baixar todos os resultados**.
+- Se 5.000 resultados são encontrados, você provavelmente pode supor que há mais de 5.000 eventos que atendidas aos critérios de pesquisa. Você pode refinar os critérios de pesquisa e reprisar a pesquisa para retornar menos resultados ou exportar todos os resultados da pesquisa selecionando **Exportar**  >  **Baixar todos os resultados**. Para obter instruções passo a passo para exportar logs de auditoria, consulte [Exportar os resultados da pesquisa para um arquivo](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file).
 
 Confira este [vídeo para](https://www.youtube.com/embed/UBxaRySAxyE) usar a pesquisa de log de áudio. Participe de Ansuman Acharya, um gerente de programa para Teams, pois ele demonstra como fazer uma pesquisa de log de auditoria para Teams.
 

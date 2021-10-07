@@ -21,25 +21,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: O Serviço de Migração de Reunião (MMS) é um serviço executado em segundo plano e atualiza automaticamente Skype for Business reuniões Microsoft Teams para usuários. O MMS foi projetado para eliminar a necessidade de os usuários executarem a Ferramenta de Migração de Reunião para atualizar suas Skype for Business e Microsoft Teams reuniões.
-ms.openlocfilehash: 008974d71d92667da96316aafa7b8c4adf478026
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: O Serviço de Migração de Reunião (MMS) é um serviço executado em segundo plano e atualiza automaticamente Skype for Business reuniões Microsoft Teams para usuários.
+ms.openlocfilehash: 9bd76037c59bcccf2f7be16ae79cab968ee6303a
+ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726690"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60148922"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Usando o Meeting Migration Service (MMS)
 
 O Serviço de Migração de Reunião (MMS) é um serviço que atualiza as reuniões existentes de um usuário nos seguintes cenários:
 
-- Quando um usuário é migrado do local para a nuvem (seja para Skype for Business Online ou para o TeamsOnly).
+- Quando um usuário é migrado do local para a nuvem.
 - Quando um administrador faz uma alteração nas configurações de audioconferência do usuário 
 - Quando um usuário online é atualizado apenas para Teams, ou quando o modo de um usuário no TeamsUpgradePolicy é definido como SfBwithTeamsCollabAndMeetings
 - Quando você usa o PowerShell 
 
 
-Por padrão, o MMS é disparado automaticamente em cada um desses casos, embora os administradores possam desabilitá-lo no nível do locatário. Além disso, os administradores podem usar um cmdlet do PowerShell para disparar manualmente a migração de reunião para um determinado usuário.
+Por padrão, MMS é disparado automaticamente em cada um desses casos. Além disso, os administradores podem usar um cmdlet do PowerShell para disparar manualmente a migração de reunião para um determinado usuário.
 
 
 **Limitações**: o serviço de migração de reunião não poderá ser usado se qualquer uma das seguintes aplicações:
@@ -53,7 +53,7 @@ Por padrão, o MMS é disparado automaticamente em cada um desses casos, embora 
 Quando o MMS é acionado para um determinado usuário, uma solicitação de migração para esse usuário é colocada em uma fila. Para evitar qualquer condição de corrida, a solicitação em fila é deliberadamente processada até que pelo menos 90 minutos tenham passado. Depois que o MMS processa a solicitação, ele executa as seguintes tarefas:
 
 1. Ele procura na caixa de correio do usuário todas as reuniões existentes organizadas por esse usuário e agendadas no futuro.
-2. Com base nas informações encontradas na caixa de correio do usuário, ele atualiza ou agenda novas reuniões no Teams ou Skype for Business Online para esse usuário, dependendo do cenário exato.
+2. Com base nas informações encontradas na caixa de correio do usuário, ele atualiza ou agenda novas reuniões no Teams para esse usuário, dependendo do cenário exato.
 3. Na mensagem de email, ela substitui o bloco de reunião online nos detalhes da reunião.
 4. Ele envia a versão atualizada dessa reunião para todos os destinatários da reunião em nome do organizador da reunião. Os convidados da reunião receberão uma atualização de reunião com coordenadas de reunião atualizadas em seus emails. 
 
@@ -81,12 +81,9 @@ Esta seção descreve o que acontece quando o MMS é acionado em cada um dos seg
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>Atualizando reuniões quando você move um usuário local para a nuvem
 
-Esse é o cenário mais comum em que o MMS ajuda a criar uma transição mais suave para seus usuários. Sem a migração de reuniões, as reuniões existentes organizadas por um usuário no Skype for Business Server local não funcionariam mais quando o usuário fosse movido online. Portanto, quando você usa as ferramentas de administração local (ou o Painel de Controle de Administração) para mover um usuário para a nuvem, as reuniões existentes são movidas automaticamente para a nuvem da seguinte `Move-CsUser` forma:
+Esse é o cenário mais comum em que o MMS ajuda a criar uma transição mais suave para seus usuários. Sem a migração de reuniões, as reuniões existentes organizadas por um usuário no Skype for Business Server local não funcionariam mais quando o usuário fosse movido online. Portanto, quando você usa as ferramentas de administração local (ou o Painel de Controle de Administração) para mover um usuário para a nuvem, as reuniões existentes são movidas automaticamente para a nuvem e convertidas no `Move-CsUser` TeamsOnly. 
 
-- Se a opção for especificada, as reuniões serão migradas diretamente para o Teams e o usuário `MoveToTeams` `Move-CsUser` estará no modo TeamsOnly. O uso dessa opção requer Skype for Business Server 2015 com CU8 ou posterior. Esses usuários ainda podem ingressar em qualquer Skype for Business que possam ser convidados, usando o cliente Skype for Business ou o Reunião do Skype App.
-- Caso contrário, as reuniões são migradas para Skype for Business Online.
-
-Em ambos os casos, se o usuário tiver sido atribuído uma licença de Audioconferência antes de ser movido para a nuvem, as reuniões serão criadas com coordenadas discadas. Se você mover um usuário do local para a nuvem e pretende que esse usuário use Audioconferência, recomendamos que você atribua primeiro a conferência de áudio antes de mover o usuário para que apenas 1 migração de reunião seja disparada.
+Se o usuário tiver sido atribuído uma licença de Audioconferência antes de ser movido para a nuvem, as reuniões serão criadas com coordenadas discadas. Se você mover um usuário do local para a nuvem e pretende que esse usuário use Audioconferência, recomendamos que você atribua primeiro a conferência de áudio antes de mover o usuário para que apenas 1 migração de reunião seja disparada.
 
 
 ### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>Atualizando reuniões quando as configurações de audioconferência de um usuário mudam
@@ -176,9 +173,9 @@ Se você vir quaisquer migrações que falharam, tome medidas para resolver esse
     ```PowerShell
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
-2. Para cada usuário afetado, execute a Ferramenta de Migração de Reunião para migrar manualmente suas reuniões.
+2. Para cada usuário afetado, revise o valor da propriedade LastMessage para determinar por que a migração de reunião falhou e quais ações corretivas devem ser tomadas. Depois que a ação corretiva for tomada, acionar novamente a migração de reunião para os usuários afetados, usando o `Start-CsExMeetingMigration` cmldet do PowerShell, conforme descrito acima. 
 
-3. Se a migração com a ferramenta de migração de reuniões também não funcionar, você terá duas opções:
+3. Se a migração ainda não funcionar, você tem duas opções:
 
     - Fazer os usuários criarem novas reuniões do Skype.
     - [Contatar o suporte](/microsoft-365/Admin/contact-support-for-business-products).
@@ -198,11 +195,7 @@ Para ver se o MMS está habilitado para sua organização, execute o seguinte co
 ```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
-Para habilitar ou desabilitar totalmente o MMS, use o `Set-CsTenantMigrationConfiguration` comando. Por exemplo, para desabilitar o MMS, execute o seguinte comando:
 
-```PowerShell
-Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
-```
 Se o MMS estiver habilitado na organização e você quiser verificar se ele está habilitado para atualizações de audioconferência, verifique o valor do parâmetro na saída `AutomaticallyMigrateUserMeetings` de `Get-CsOnlineDialInConferencingTenantSettings` . Para habilitar ou desabilitar o MMS para audioconferência, use `Set-CsOnlineDialInConferencingTenantSettings` . Por exemplo, para desabilitar o MMS para audioconferência, execute o seguinte comando:
 
 ```PowerShell
