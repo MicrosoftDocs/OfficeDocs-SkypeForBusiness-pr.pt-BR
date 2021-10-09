@@ -19,16 +19,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Saiba mais sobre a experiência de junção para Teams virtuais em navegadores móveis.
-ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432683"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249753"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gerenciar a experiência de junção para Teams virtuais em navegadores móveis
 
-Microsoft Teams torna mais fácil para as pessoas ingressarem em compromissos em seus dispositivos móveis sem precisar baixar Teams. Para uma experiência mais perfeita, os participantes podem ingressar em compromissos, como consultas de saúde, consultas financeiras, horários de escritório de educadores e assim por diante em um navegador móvel. Os participantes não precisam instalar o aplicativo móvel Teams em seus dispositivos móveis Android ou iOS.
+Microsoft Teams torna mais fácil para as pessoas ingressarem em compromissos em seus dispositivos móveis sem precisar baixar Teams. Para uma experiência mais perfeita, os participantes podem ingressar em compromissos como consultas de saúde, consultas financeiras, horários de escritório de educadores e assim por diante, de um navegador móvel. Os participantes não precisam instalar o aplicativo móvel Teams em seus dispositivos móveis Android ou iOS.
 
 Com a entrada do navegador móvel, quando um participante ins junta um compromisso de um dispositivo móvel, ele não é solicitado a baixar Teams. Em vez disso, Teams abre em um navegador móvel, onde o participante pode selecionar **Ingressar agora** para ingressar. Com esse recurso, lembre-se de que, se o Teams já estiver instalado no dispositivo móvel de um participante, o Teams abrirá em um navegador móvel e não no aplicativo.
 
@@ -76,6 +76,10 @@ Aqui estão os navegadores móveis com suporte no momento. Suportamos a versão 
 &sup1; Os aplicativos iOS no Safari não podem selecionar dispositivos de microfone e alto-falante. Por exemplo, Bluetooth dispositivos. Essa é uma limitação do sistema operacional, que controla a seleção de dispositivo padrão.
 
 &sup2; O Safari 14+ e o macOS 11+ são necessários para o suporte a vídeo de saída.
+
+## <a name="things-to-consider"></a>Coisas a considerar
+
+O membro da equipe que conduz a visita virtual pode compartilhar sua tela de seu cliente Teams desktop, móvel ou Web com um participante que participa de um navegador móvel. No entanto, os participantes não podem compartilhar sua tela de um navegador móvel.
 
 > [!NOTE]
 > Estamos adicionando mais recursos à experiência de junção de reunião em versões futuras do Teams, portanto, verifique novamente as informações mais atualizadas. Para ficar por dentro dos recursos Teams futuros, confira [o roteiro Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).

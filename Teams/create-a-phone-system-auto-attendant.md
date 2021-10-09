@@ -1,7 +1,7 @@
 ---
 title: Configurar um atendimento automático para Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: 29e746c9db2da970d4709da126297b6cc38b6c81
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 50c024854481a30f4a612db6320f51818b6d3b0d
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046027"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249523"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -260,7 +260,7 @@ Você também pode usar o PowerShell para criar e configurar os atendimentos aut
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Veja o que você obtém com o Sistema de Telefonia](./here-s-what-you-get-with-phone-system.md)
+[Veja o que você obter com Teams Telefone](./here-s-what-you-get-with-phone-system.md)
 
 [Obter números de telefone de serviço](./getting-service-phone-numbers.md)
 

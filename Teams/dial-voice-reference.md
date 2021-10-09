@@ -1,7 +1,7 @@
 ---
 title: Referência de discagem de fila de chamada e atendimento automático e reconhecimento de voz
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre as opções de discagem automática e fila de chamadas e reconhecimento de voz Teams.
-ms.openlocfilehash: 8201389c39dc58f80596a6055c927ecfbbf86e38
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: acd3202a3f27beaf40af09422687be490f0695c5
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605780"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249683"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referência de discagem de fila de chamada e atendimento automático e reconhecimento de voz
 
@@ -124,8 +124,6 @@ Os seguintes comandos de voz estão disponíveis para reconhecimento de fala:
 |Nove  |Pressione 9.|
 
 ## <a name="related-topics"></a>Tópicos relacionados
-
-[Veja o que você obtém com o Sistema de Telefonia](here-s-what-you-get-with-phone-system.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](./getting-service-phone-numbers.md)
 

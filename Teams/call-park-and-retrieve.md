@@ -1,7 +1,7 @@
 ---
 title: Estacionamento e recuperação de chamadas no Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: srividhc
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba como usar o estacionamento de chamada e recuperar para colocar uma chamada em espera no Microsoft Teams.
-ms.openlocfilehash: e58cf8ead120cb7265665abecc0683ea9a96f559
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9092e76b9d8db5e29c1dd5881cd6b0f69d70ae4a
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732540"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249503"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -80,8 +80,8 @@ Para atribuir uma política de estacionamento de chamada a um grupo
 
 [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
 
-[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
+[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
 
-[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
+[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
 
-[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)
+[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)

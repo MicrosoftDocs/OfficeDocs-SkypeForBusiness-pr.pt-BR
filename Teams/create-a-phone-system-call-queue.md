@@ -1,7 +1,7 @@
 ---
 title: Criar uma fila de chamadas no Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 308eb31592b6b98d613ccfb4ed41f421d51bd9e2
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 2967c2ce5f6d058415e39e68f6870aacf575377c
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58972999"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249513"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -95,7 +95,7 @@ Especifique se você deseja reproduzir uma saudação aos chamadores quando eles
 O Teams fornece música padrão aos chamadores enquanto eles estão em espera em uma fila. A música padrão fornecida nas filas de chamadas do Teams é livre de royalties pagáveis pela organização. Se você quiser reproduzir um arquivo de áudio específico, escolha **Reproduzir um arquivo de áudio** e carregue um arquivo MP3, WAV ou WMA.
 
 > [!NOTE]
-> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço de Microsoft Teams, que podem incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os proprietários de direitos relevantes, que podem incluir artistas, atores, atores, compositores, rótulos de gravação, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que têm, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
+> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço Microsoft Teams, que pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os proprietários de direitos relevantes, que podem incluir os artistas,  atores, executores, musicistas, compositores, compositores, rótulos de registro, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que têm, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
 
 ## <a name="call-agents"></a>Agentes de chamada
 
@@ -105,9 +105,9 @@ Revise os [pré-requisitos para adicionar agentes a uma fila de chamada.](plan-a
 
 ##### <a name="teams-channel"></a>Teams canal
 
-Você pode adicionar até 200 agentes por meio de um Teams canal.
+Você pode adicionar até 200 agentes por meio de um Teams canal. Observe que você deve ser membro da equipe ou criador ou proprietário do canal para adicionar um canal à fila.
 
-Se você quiser usar [um canal Teams para gerenciar](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)a fila, selecione a opção Escolher uma **equipe** e clique em Adicionar **um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar (somente canais padrão são suportados) e clique em **Aplicar**. Você deve ser membro da equipe ou criador ou proprietário do canal.
+Se você quiser usar [um canal Teams para gerenciar](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)a fila, selecione a opção Escolher uma **equipe** e clique em Adicionar **um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar (somente canais padrão são suportados) e clique em **Aplicar**. 
 
 Os seguintes clientes são suportados ao usar um canal Teams para filas de chamada: 
 

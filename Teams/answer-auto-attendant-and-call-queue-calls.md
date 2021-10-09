@@ -1,8 +1,8 @@
 ---
 title: Atender chamadas de fila de chamadas e atende a chamadas automáticas
 ms.reviewer: colongma
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 83659cba18674e04daa0f9d181b9ac5acf53b146
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733360"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249483"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 
@@ -73,8 +73,9 @@ Quando os agentes de fila de chamadas recebem uma chamada em seu dispositivo mó
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
--    [O que Sistema de Telefonia em Microsoft 365 ou Office 365](what-is-phone-system-in-office-365.md)
--    [Criar uma fila de chamada do Cloud](create-a-phone-system-call-queue.md)
--    [Quais são os atendedores automáticos do Cloud?](what-are-phone-system-auto-attendants.md)
--    [Configurar um atendedor automático do Cloud](create-a-phone-system-auto-attendant.md)
+[Criar uma fila de chamada do Cloud](create-a-phone-system-call-queue.md)
+
+[Quais são os atendedores automáticos do Cloud?](what-are-phone-system-auto-attendants.md)
+
+[Configurar um atendedor automático do Cloud](create-a-phone-system-auto-attendant.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Gerenciar contas de recursos no Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos Microsoft Teams.
-ms.openlocfilehash: 915547fea13a9d5b240e92b7d0a37515a271ebf9
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 84ca7a68cfc620c5f62dbdd6308c1862a7e7bda7
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138247"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249463"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 

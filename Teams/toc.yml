@@ -705,7 +705,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -775,6 +775,8 @@ items:
             items:
               - name: Visão geral do planejamento de Salas do Microsoft Teams
                 href: rooms/rooms-plan.md
+              - name: Dispositivos Teams apresentam comparação entre Windows e Android
+                href: rooms/teams-devices-feature-comparison.md
               - name: Suporte para versões
                 href: rooms/rooms-lifecycle-support.md
               - name: Notas de versão
