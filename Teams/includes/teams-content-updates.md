@@ -3,6 +3,46 @@
 
 
 
+## <a name="week-of-october-04-2021"></a>Semana de 04 de outubro de 2021
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 10/5/2021 | [Transmitir Teams reuniões](/MicrosoftTeams/stream-teams-meetings) | adicionado |
+| 10/5/2021 | Usar a funcionalidade de unidade administrativa no Microsoft Teams | removido |
+| 10/5/2021 | [Controladores de Borda de Sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 10/5/2021 | [Configurar a Otimização de Mídia Local para Roteamento Direto](/MicrosoftTeams/direct-routing-media-optimization-configure) | modificado |
+| 10/5/2021 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 10/5/2021 | [Gerenciar acesso externo (federação)](/MicrosoftTeams/manage-external-access) | modificado |
+| 10/5/2021 | Implantar o Microsoft Teams para o Surface Hub | removido |
+| 10/5/2021 | [Pesquisar o registro de auditoria de eventos no Teams](/MicrosoftTeams/audit-log-events) | modificado |
+| 10/5/2021 | [Gerenciar contas de recursos no Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
+| 10/5/2021 | [Experiência de chat nativa para usuários externos (federados) no Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modificado |
+| 10/5/2021 | [Requisitos das Salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
+| 10/5/2021 | [Ativar ou desativar o acesso de convidados ao Microsoft Teams](/MicrosoftTeams/set-up-guests) | modificado |
+| 10/5/2021 | [Preparar-se para webinars no Microsoft Teams](/MicrosoftTeams/set-up-webinars) | modificado |
+| 10/5/2021 | [Usar a telemetria em tempo real para solucionar problemas de qualidade de reunião ruim](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modificado |
+| 10/6/2021 | [Pesquisar o registro de auditoria de eventos no Teams](/MicrosoftTeams/audit-log-events) | modificado |
+| 10/6/2021 | [Usar chats supervisionados](/MicrosoftTeams/supervise-chats-edu) | modificado |
+| 10/7/2021 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 10/7/2021 | [Teams dispositivos para a comparação de recursos de Espaços Compartilhados entre Windows e Android](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | adicionado |
+| 10/8/2021 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 10/8/2021 | [Atendedor Automático & Histórico da Fila de Chamada](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modificado |
+| 10/8/2021 | [Atender chamadas de fila de chamadas e atende a chamadas automáticas](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | modificado |
+| 10/8/2021 | [Configurar um assistente automático para Microsoft Teams - tutorial de pequenas empresas](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modificado |
+| 10/8/2021 | [Criar uma fila de chamada no Microsoft Teams - tutorial de pequenas empresas](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modificado |
+| 10/8/2021 | [Estacionamento e recuperação de chamadas no Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modificado |
+| 10/8/2021 | [Configurar um atendimento automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 10/8/2021 | [Microsoft Teams de chamada com suporte para idiomas](/MicrosoftTeams/create-a-phone-system-call-queue-languages) | modificado |
+| 10/8/2021 | [Referência de discagem de fila de chamada e atendimento automático e reconhecimento de voz](/MicrosoftTeams/dial-voice-reference) | modificado |
+| 10/8/2021 | [Gerenciar a experiência de junção para Teams virtuais em navegadores móveis](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | modificado |
+| 10/8/2021 | [Gerenciar contas de recursos no Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
+| 10/8/2021 | [Configurar o operador Conexão](/MicrosoftTeams/operator-connect-configure) | modificado |
+| 10/8/2021 | [Operador Conexão](/MicrosoftTeams/operator-connect-plan) | modificado |
+| 10/8/2021 | [Planejar Teams atendimentos automáticos e filas de chamada](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+| 10/8/2021 | [Configurar feriados no Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | modificado |
+
+
 ## <a name="week-of-september-27-2021"></a>Semana de 27 de setembro de 2021
 
 
