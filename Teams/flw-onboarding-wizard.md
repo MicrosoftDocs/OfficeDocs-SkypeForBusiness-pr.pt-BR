@@ -15,17 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 060604853b29111372a605ff0ad6212ba1e56a8a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 056c82b1f2c7a1872693cc9f4298cee6eea1eefb
+ms.sourcegitcommit: 11882e93618b8d69d21586c7b1f6a4460b96dd7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046417"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60283025"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Use o assistente de integração do Trabalho de Linha de Frente para fazer sua força de trabalho de linha de frente funcionar
-
-> [!NOTE]
-> Ainda não vê esse recurso? Ele está sendo lançado no momento e pode não estar disponível em sua organização ainda. Para ficar por dentro dos recursos Teams futuros, confira [o roteiro Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="overview"></a>Visão Geral
 
@@ -38,7 +35,10 @@ Atualmente, o assistente dá suporte à adição de 100 usuários sempre que voc
 O assistente está disponível para todas as organizações que tenham pelo menos uma Microsoft 365 F. Você pode executar o assistente quantas vezes precisar para Teams sua força de trabalho de linha de frente em locais ou sites diferentes em toda a sua organização.
 
 > [!NOTE]
-> Esse assistente permite que você aborde rapidamente seus funcionários de linha de frente Teams pelo Centro de administração do Microsoft 365. Para obter mais informações sobre como implantar Teams seus funcionários de linha de frente usando scripts, consulte How to provision [Teams at scale for Frontline Workers](flw-scripted-deployment.md).
+> Esse assistente permite que você aborde rapidamente seus funcionários de linha de frente Teams pelo Centro de administração do Microsoft 365. Para obter informações sobre como implantar Teams para seus funcionários de linha de frente usando scripts, consulte Como provisionar Teams em escala para Trabalhadores de Linha de [Frente.](flw-scripted-deployment.md)
+
+> [!NOTE]
+> O assistente ainda não dá suporte a [rótulos de sensibilidade.](sensitivity-labels.md) Se sua organização exigir rótulos de sensibilidade para criar uma equipe, você não verá o assistente no Centro de administração do Microsoft 365.
 
 ## <a name="run-the-wizard"></a>Executar o assistente
 

@@ -20,21 +20,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre como atribuir uma licença de usuário Sistema de Telefonia-Virtual ou uma licença de usuário Sistema de Telefonia paga a contas de recursos em sua organização.
-ms.openlocfilehash: b9ffe0e5f489aebb2aff75988dbbe557e88c845d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f0a26c03a5654a3f2df9538fe8bbb74c4a5b58e4
+ms.sourcegitcommit: 11882e93618b8d69d21586c7b1f6a4460b96dd7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734190"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60282995"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Sistema de Telefonia – Licença do Usuário Virtual
 
-As organizações Sistema de Telefonia usuários licenciados podem atribuir uma licença de usuário Microsoft 365 Sistema de Telefonia – usuário virtual ou uma licença de usuário Sistema de Telefonia paga a contas de recursos. Um Plano de Chamada não é necessário. Todos os atendimentos automáticos ou filas de chamada exigem uma conta de recurso associada. As contas de recurso que exigem um número de telefone precisam de uma licença de usuário Microsoft 365 Sistema de Telefonia – usuário virtual ou uma licença de usuário Sistema de Telefonia paga antes que um número de telefone possa ser aplicado à conta de recurso.
+As organizações Sistema de Telefonia usuários licenciados podem atribuir uma licença de usuário Microsoft 365 Sistema de Telefonia – usuário virtual ou uma licença de usuário Sistema de Telefonia paga a contas de recursos. Nem sempre é necessário um Plano de Chamadas (consulte Plan for Teams Auto attendant and [call queues](../plan-auto-attendant-call-queue.md#prerequisites) for prerequisites when transfering calls to an external phone number). Todos os atendimentos automáticos ou filas de chamada exigem uma conta de recurso associada. As contas de recurso que exigem um número de telefone precisam de uma licença de usuário Microsoft 365 Sistema de Telefonia – usuário virtual ou uma licença de usuário Sistema de Telefonia paga antes que um número de telefone possa ser aplicado à conta de recurso.
 
 > [!TIP]
-> Nenhuma licença é necessária para contas de recursos que serão usadas com atendentes automáticos aninhados ou filas de chamadas que não tenham um número de telefone atribuído. Consulte o diagrama a seguir para fazer referência: 
+> Nenhuma licença é necessária para contas de recursos que serão usadas com atendentes automáticos aninhados ou filas de chamadas que não tenham um número de telefone atribuído. Consulte o diagrama a seguir para fazer referência.
 
-![Licenças de usuário virtual.](../media/resource-account.png)
+:::image type="content" alt-text="Licenças de usuário virtual." source="../media/resource-account.png":::
 
 ## <a name="virtual-user-license-allocation"></a>Alocação de licença de usuário virtual
 
@@ -57,8 +57,8 @@ A Contoso deve considerar o redesenho do atendimento automático e do sistema de
 2. Vá para **Complementos de**  >  **serviços de Compra** de  >  **Cobrança**
 3. Role até o final para encontrar a licença **Microsoft 365 Sistema de Telefonia – Usuário Virtual.** Selecione **Comprar agora**.
 
-> [!NOTE]
-> Lembre-se de que você ainda deve  **Comprar** a licença mesmo que ela tenha um custo zero.
+   > [!NOTE]
+   > Lembre-se de que você ainda deve **Comprar** a licença mesmo que ela tenha um custo zero.
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Alterar uma conta de recurso existente para usar uma licença Microsoft 365 Sistema de Telefonia – Usuário Virtual
 
