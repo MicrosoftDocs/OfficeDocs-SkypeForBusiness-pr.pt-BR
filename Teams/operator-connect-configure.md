@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47ed8fc4f8ca36a1d987456ff393a1b771c6fb10
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 6c19981f4cc7edb556b245da2aac0b320705cc64
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249673"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275565"
 ---
 # <a name="configure-operator-connect"></a>Configurar o operador Conexão
 
@@ -108,7 +108,7 @@ Para obter mais informações sobre a chamada de emergência, consulte [Manage e
    Remova o URI on-prem Line executando o seguinte comando do PowerShell:  
 
    ```
-   Set-CsUser -identity <user> - OnPremLineURI $null 
+   Set-CsUser -Identity <user> -OnPremLineURI $null 
    ```
 
 2. Remova qualquer PSTNUsage associado aos seus usuários, caso contrário, as chamadas serão roteadas para o gateway especificado no Uso de PSTN. Para saber como remover o uso de PSTN, consulte [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps).

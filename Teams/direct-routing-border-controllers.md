@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e5aeecf93146a628c897e22868dc6b4f6ed7b795
-ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
+ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268275"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275575"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -38,8 +38,14 @@ A Microsoft trabalha com cada fornecedor para:
 
   > [!NOTE]
   > A Microsoft só dá suporte ao Sistema de Telefonia se um dispositivo ou dispositivos certificado estiver conectado por meio do Roteamento Direto. A Microsoft se reserva o direito de rejeitar casos de suporte em que há um dispositivo não certificado conectado ao Sistema de Telefonia via Roteamento Direto. Se a Microsoft determinar que o problema de Roteamento Direto de um cliente está com o dispositivo SBC de um fornecedor, o cliente precisará contatar o fornecedor do SBC para obter suporte.
+  >
   > A certificação é concedida a versões específicas do firmware do SBC. Qualquer versão de firmware do SBC documentada abaixo é certificada e suportada. As versões de firmware superiores às documentadas são suportadas, desde que a versão principal secundária seja a mesma.
-  > Exemplo: Suportado 6.10.258 - neste caso, também oferecemos suporte às versões de firmware 6.10. (258 ou superior) Recomendado 6.20.100 - nesse caso, também recomendamos versões de firmware 6.20. (100 ou superior) Para perguntas de suporte sobre versões específicas, entre em contato com seu fornecedor do SBC.
+  >
+  > Exemplo:
+  >
+  > - 6.10.258 com suporte - neste caso, também oferecemos suporte às versões de firmware 6.10. (258 ou superior).
+  > - Recomendado 6.20.100 - neste caso, também recomendamos as versões de firmware 6.20. (100 ou superior).
+  > - Para perguntas de suporte sobre uma versão específica, entre em contato com o fornecedor do SBC.
 
 As tabelas que seguem a lista de dispositivos certificados para Roteamento Direto. (Para obter informações sobre quais fornecedores de SBC dão suporte à Otimização de Mídia Local, consulte [Configurar otimização de mídia local para roteamento direto](direct-routing-media-optimization-configure.md).)
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 2967c2ce5f6d058415e39e68f6870aacf575377c
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 073f1fa2fbc96ed78cddb6e16201476df2cafa96
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249513"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275605"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -155,13 +155,15 @@ O **método de roteamento** determina a ordem na qual os agentes recebem chamada
 
 - O **Round robin** equilibra o roteamento das chamadas de entrada para que cada agente de chamada receba o mesmo número de chamadas da fila. Isso pode ser desejável em um ambiente de vendas de entrada para garantir igualdade de oportunidades entre todos os agentes de chamada.
 
-- O **Ocioso por mais tempo** encaminha cada chamada para o agente que está ocioso há mais tempo. Um agente é considerado ocioso se seu estado de presença estiver Disponível ou se o estado de presença estiver Ausente por menos de 10 minutos. Os agentes cujo estado de presença esteja ausente há mais de 10 minutos não são considerados ociosos e não poderão receber chamadas até que alterem a presença para Disponível. 
+- O **Ocioso por mais tempo** encaminha cada chamada para o agente que está ocioso há mais tempo. Um agente é considerado ocioso se seu estado de presença estiver Disponível. Agentes cujo estado de presença não está Disponível não estarão qualificados para receber chamadas até que alterem sua presença para Disponível. 
 
 > [!TIP]
 > Definir **o Método de Roteamento** como Round **robin** ou **Longest idle** é a configuração recomendada.
 
 > [!NOTE]
 > Se [a gravação de](teams-recording-policy.md) conformidade estiver habilitada  nos agentes, não há suporte para a combinação do modo **de** conferência e do roteamento do Attendant. Se você precisar usar o modo **de** conferência, selecione **Roteamento Serial,** **Round robin** ou **Longest ocioso** como o **método Routing**. Se você precisar usar o **roteamento de atendentes,** de definir **o modo de conferência** como **Off**.
+> 
+> Ao usar **o mais** longo ocioso, pode haver momentos em que um agente recebe uma chamada da fila logo após ficar indisponível ou se há um pequeno atraso no recebimento de uma chamada da fila após a disponibilização.
 
 ![Captura de tela das configurações de roteamento, de não aceitação e de tempo de alerta.](media/call-queue-presence-agents-time.png)
 
