@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba como usar o estacionamento de chamada e recuperar para colocar uma chamada em espera no Microsoft Teams.
-ms.openlocfilehash: 9092e76b9d8db5e29c1dd5881cd6b0f69d70ae4a
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: ad35f5bdfa6cb60a842705c150f0f511ba45cb63
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249503"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356499"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -47,9 +47,13 @@ Para estacionar e recuperar chamadas, um usuário deve ser Enterprise Voice usu�
 
 Você deve ser um administrador Teams para configurar o estacionamento de chamada e recuperar. Ele está desabilitado por padrão. Você pode habilita-lo para usuários e criar grupos de usuários usando a política de estacionamento de chamada. Quando você aplica a mesma política a um conjunto de usuários, eles podem estacionar e recuperar chamadas entre si.
 
-O intervalo de números de retirada de chamada é predefinido de 10 a 99 e não pode ser modificado. A primeira chamada estacionada será renderizada com um código de retirada de 10, a próxima chamada estacionada será renderizada um código de retirada de 11, etc. até que 99 seja renderizado como um código de retirada. Depois disso, os códigos de retirada renderizados começam de 10 novamente.  Se houver mais de 89 chamadas estacionadas ativas, os códigos de retirada renderizados continuarão aumentando além de 99, de forma que a 90ª chamada estacionada ativa seria renderizada 100 para um código de retirada, a chamada estacionada ativa do 91st seria renderizada com um código de retirada de 101.
+Por padrão, o intervalo de números de retirada de chamada é de 10 a 99. Você também pode criar seu próprio intervalo personalizado entre 10-9999. A primeira chamada estacionada será renderizada um código de retirada do início do intervalo (por exemplo, 10). A próxima chamada estacionada será renderizada com um código de retirada incrementado em 1; ou seja, 11 e assim por diante, até o final do intervalo ser renderizado como um código de retirada. Depois disso, os códigos de retirada renderizados começam de novo desde o início do intervalo mais uma vez. 
 
-Para habilitar uma política de estacionamento de chamada
+Você pode especificar um tempo máximo como o número de segundos a ser aguardado antes de tocar de volta quando a chamada estacionada não foi a escolhida. O intervalo permitido é de 120 a 1800 segundos e o valor padrão é 300 segundos.
+
+Para definir o intervalo de estacionamento personalizado e o tempo de tempo de estacionamento, use os cmdlets New e Set-CsTeamsCallParkPolicy disponíveis no Módulo 2.6.0 do PowerShell Teams ou posterior. (Alterações personalizadas de intervalo de estacionamento e tempo de tempo de estacionamento não podem ser gerenciadas no centro de administração Teams de estacionamento. Observe que o Teams de administração continuará a mostrar os valores padrão.)
+
+Para habilitar uma política de estacionamento de chamada:
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Políticas**  >  **de estacionamento de Chamada de Voz**.
 2. Na guia **Gerenciar políticas,** clique em **Adicionar**.

@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurar a Otimização de Mídia Local para Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e383a9d0435dde2c17a38d8a1879b3bf3fb6e4d
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 59524c620525505b9fcc19d909f5b4b84cc60720
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127398"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356429"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurar a Otimização de Mídia Local para Roteamento Direto
 
@@ -51,10 +51,8 @@ Para configurar o usuário e os sites SBC, você precisará:
 3. [Defina a topologia de](#define-the-virtual-network-topology) rede virtual atribuindo SBC(s) a sites(s) com modos relevantes e valores SBC de proxy.
 
 > [!NOTE]
-> A lógica de Otimização de Mídia Local depende de endereços cliente que estão sendo configurados como externos ou internos, em relação a redes corporativas com acesso a uma interface interna SBC (Controlador de Borda de Sessão) certificada pelo Roteamento Direto. O local do cliente (interno/externo) é determinado durante o processamento de cada chamada, observando o endereço usado para alcançar retransmissão de transporte.
-> 
-> Em cenários VPN de túnel dividido em que retransmissão podem ser alcançadas por meio do ISP, a lógica de melhor rota do cliente prefere a rota padrão da interface local (por exemplo, WiFi público). Isso faz com que a Microsoft sinalize para o SBC que o cliente é externo, mesmo que possa alcançar a interface interna do SBC de Roteamento Direto do cliente. Os clientes de Roteamento Direto usando a Otimização de Mídia Local podem ter tempos de configuração de chamadas prolongados e, em alguns casos, nenhum áudio ao receber chamadas da PSTN.
-> 
+> A Otimização de Mídia Local depende de locais de cliente que estão sendo detectados como externos ou internos em relação às redes da empresa com acesso a uma interface interna do Controlador de Borda de Sessão (SBC) de Roteamento Direto (DR).
+> Em cenários vpn de túnel dividido quando o ponto de extremidade do cliente é detectado como externo à rede do cliente, a Microsoft sinaliza o local externo para o SBC, mesmo que o cliente possa alcançar a interface interna do SBC de Roteamento Direto do cliente. Os clientes de Roteamento Direto usando a Otimização de Mídia Local podem ter tempos de configuração de chamadas prolongados e, em alguns casos, nenhum áudio ao receber chamadas da PSTN.
 > Para evitar isso, os administradores de VPN devem bloquear o acesso entre usuários vpn remotos e a interface interna do SBC de Roteamento Direto.
 
 
@@ -252,7 +250,7 @@ O diagrama a seguir mostra a lista SIP para chamada de entrada com o modo Always
 
 | Modo |    Usuário |  Site |  Direção da chamada
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externo |  N/D | Saída |
+AlwaysBypass |  Externo |  Não disponível | Saída |
 
 
 O diagrama a seguir mostra a escala SIP para uma chamada de saída com o modo AlwaysBypass e o usuário é externo:
