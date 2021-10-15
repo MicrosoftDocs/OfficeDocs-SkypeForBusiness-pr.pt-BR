@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: f79fbab055e7dbc9148e2be11539ecbfbc9b0c03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727260"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367523"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Planos de chamada para Microsoft 365
 
@@ -48,7 +48,11 @@ Todos os usuários no mesmo país/região (este é o local do país do usuário 
 Visite [a disponibilidade de país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) para saber mais sobre os minutos mensais disponíveis para cada organização em cada país/região.
   
 > [!IMPORTANT]
-> O país/região baseia-se no local da licença do usuário no Centro de administração do Microsoft 365 Usuários ativos e NÃO no endereço de cobrança listado no Perfil da Organização no  >   **Centro de administração do Microsoft 365**.     
+> O país/região baseia-se no local da licença do usuário no Centro de administração do Microsoft 365 Usuários ativos e NÃO no endereço de cobrança listado no Perfil da Organização no  >   **Centro de administração do Microsoft 365**.   
+
+> [!NOTE]
+> O pool só está disponível em planos de chamada idênticos.
+
 ![Captura de tela do local da licença do usuário.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Para obter informações detalhadas sobre os limites de uso e os termos de uso, consulte [Audioconferência de discagem](complimentary-dial-out-period.md)complementar período .
