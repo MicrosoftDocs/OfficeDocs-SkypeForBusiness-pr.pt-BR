@@ -19,12 +19,12 @@ description: Orientação prática para a implantação de recursos de voz em nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432433"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356445"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -147,7 +147,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 Essa configuração controla se as legendas e os recursos de transcrição estão disponíveis durante a reprodução das gravações de reunião. Se você desativar essa opção, as opções **Pesquisar** e **CC** não estarão disponíveis durante a reprodução de uma gravação de reunião. A pessoa que iniciou a gravação precisa dessa configuração ativada para que a gravação também inclua a transcrição.
 
 > [!NOTE]
-> No momento, só há suporte para transcrição de reuniões gravadas dos usuários que têm o idioma do Teams definido com inglês, e quando se fala inglês na reunião. Eles são armazenados junto com as gravações de reunião no OneDrive for Business armazenamento em nuvem do SharePoint Online.
+> Essa transcrição para reuniões gravadas é atualmente suportada apenas para inglês (EUA), inglês (Canadá), inglês (Índia), inglês (Reino Unido), inglês (Austrália), inglês (Nova Zelândia), alemão (Alemanha), português (Brasil ), holandês (Países Baixos), holandês (Bélgica), francês (França), espanhol (Espanha), japonês (Japão), francês (Canadá), chinês (cantonês, tradicional), chinês (mandarim, simplificado), hindi (Índia), italiano (Itália), coreano (Coreia), espanhol (México), sueco (Suécia), polonês (Polônia), árabe (Emirados Árabes Unidos), árabe (Arábia Saudita), dinamarquês (Dinamarca), finlandês (Finlândia), norueguês (Noruega) e russo (Rússia). Eles são armazenados junto com as gravações de reunião no OneDrive for Business armazenamento em nuvem do SharePoint Online.
 
 Você pode usar o centro de administração do Microsoft Teams ou o PowerShell para definir uma política de reunião do Teams para controlar se o iniciador de gravação tem uma opção para transcrever a gravação da reunião.
 
@@ -309,7 +309,7 @@ Sim, a data de validade é definida por arquivo. Os usuários podem modificar a 
 
 **Como um administrador pode alterar a data de expiração?**
   
-Os administradores poderão alterar a configuração de expiração padrão no PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) ou no Teams Admin Center antes do lançamento do recurso. **A configuração ainda não está disponível para modificação**. Publicaremos uma postagem atualizada do centro de mensagens quando a configuração estiver disponível para modificação. Quando o recurso é iniciado, os administradores podem alterar essa configuração no centro de administração do Teams. Alterar as configurações de expiração afetará apenas TMRs recém-criados desse ponto em diante. Isso não afetará as gravações feitas antes dessa data. 
+Os administradores poderão alterar a configuração de expiração padrão no PowerShell ou no centro de administração do Teams antes do lançamento do recurso. **A configuração ainda não está disponível para modificação**. Publicaremos uma postagem atualizada do centro de mensagens quando a configuração estiver disponível para modificação. Quando o recurso é iniciado, os administradores podem alterar essa configuração no centro de administração do Teams. Alterar as configurações de expiração afetará apenas TMRs recém-criados desse ponto em diante. Isso não afetará as gravações feitas antes dessa data. 
 
 Os valores dos dias de expiração podem ser definidos da seguinte forma:
   
@@ -411,7 +411,7 @@ As legendas ocultas de hoje para o arquivo de vídeo de gravação estão vincul
 Quaisquer alterações futuras no link entre a transcrição no Teams e a gravação serão esclarecidas aqui e nas notificações do centro de mensagens. Se fizermos alterações no futuro, garantiremos que os arquivos de gravação com menos de 60 dias exibam a transcrição da reunião como legendas.
 
 > [!NOTE]
-> Haverá legendas ocultas somente em inglês (a transcrição da reunião ainda não está disponível no GCC).
+> A transcrição da reunião ainda não está disponível na GCC.
 
 ## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>Descoberta Eletrônica e Conformidade para gravações de reunião
 
