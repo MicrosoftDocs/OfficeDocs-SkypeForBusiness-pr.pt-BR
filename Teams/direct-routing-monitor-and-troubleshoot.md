@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como monitorar e solucionar problemas de configuração de Roteamento Direto, incluindo Controladores de Borda de Sessão, Componentes de Roteamento Direto e Troncos de Telecomunicações.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 97bc8afb3645fca4e06b859b765dfbf1e3fe1859
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726880"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462315"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Monitorar e solucionar problemas do Roteamento Direto
 
@@ -37,6 +37,19 @@ A capacidade de fazer e receber chamadas usando Roteamento Direto envolve os seg
 Se você tiver dificuldades para solucionar problemas, poderá abrir um caso de suporte com o fornecedor SBC ou a Microsoft. 
 
 A Microsoft está trabalhando no fornecimento de mais ferramentas para solução de problemas e monitoramento. Verifique periodicamente a documentação para atualizações. 
+
+## <a name="direct-routing-diagnostic-tool"></a>Ferramenta de Diagnóstico de Roteamento Direto
+
+Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstico para validar se um usuário está configurado corretamente para Roteamento Direto:
+
+1. Selecione **Executar Testes** abaixo, que preencherá o diagnóstico no Centro de Administração Microsoft 365. 
+
+   > [!div class="nextstepaction"]
+   > [Executar testes: Roteamento Direto](https://aka.ms/TeamsDirectRoutingDiag)
+
+2. No painel de diagnóstico Executar, insira o email do usuário que você deseja testar no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
+
+3. Os testes retornarão as melhores próximas etapas para abordar qualquer locatário, usuário ou configurações de política para validar se o usuário está configurado corretamente para Roteamento Direto no Microsoft Teams.
 
 ## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Monitorando a disponibilidade de controladores de borda de sessão usando mensagens de opções SIP (Session Initiation Protocol)
 

@@ -1047,6 +1047,8 @@ items:
             href: what-are-dial-plans.md
           - name: Criar e gerenciar planos de discagem
             href: create-and-manage-dial-plans.md
+          - name: Rotear chamadas para números não atribuídos
+            href: routing-calls-to-unassigned-numbers.md
           - name: Adicionar e atualizar rótulos de relatórios
             href: learn-more-about-site-upload.md
       - name: Configurações de rede e topologia
@@ -1187,7 +1189,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: 'Chile '
+              - name: Chile
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md

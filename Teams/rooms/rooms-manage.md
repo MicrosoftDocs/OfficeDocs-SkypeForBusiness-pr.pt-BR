@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre como desenvolver e executar operações e manutenção contínuas para garantir que seus sistemas Salas do Microsoft Teams estão disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984666"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462305"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gerenciar Salas do Microsoft Teams
 
@@ -89,6 +89,28 @@ Se você selecionar mais de um dispositivo, as configurações que suportam a ed
 | *Temas*                                                    |                                                        |                    |
 |                                                              | Padrão<br>Sem tema<br>Personalizado<br>Lista de temas integrados   | Sim                |
 
+## <a name="cortana-settings"></a>Cortana configurações 
+Você pode habilitar Cortana para a ativação de _voz_ ou _push_ para falar usando o PowerShell para todos os dispositivos em sua organização ou para cada dispositivo separadamente. 
+-   No nível da organização e do grupo, você deve usar o PowerShell.
+-   No nível do dispositivo, você tem algumas opções. Você pode usar o PowerShell, editar o arquivo de configuração XML ou alterar as configurações no Teams de administração. 
+
+Para saber mais sobre como usar o PowerShell para configurar o Cortana, consulte [Admin control and limitations for Cortana in Teams](/microsoftteams/cortana-in-teams#admin-control-and-limitations).
+
+Para saber mais sobre como configurar seu dispositivo usando o arquivo de configuração XML, consulte [Manage a Salas do Microsoft Teams console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file).
+
+No nível do dispositivo, você pode configurar Cortana ser ativado para:
+- _Push to talk_ using PowerShell  
+  - Como ative: Cortana Push _to talk_ está habilitado por padrão para todos os dispositivos que estão definidos com a localidade en-us, independentemente da região geográfica
+  - Como desativar: use o Powershell. 
+- _Ativação de_ voz usando arquivo de configuração XML ou Teams centro de administração.
+  - Como a ativar: definir no arquivo de configuração XML ou usar a configuração correspondente `<CortanaWakeWord>true</>` no Teams de administração
+  - Como desativar: Cortana ativação de voz está desligada por padrão 
+  
+  Lembre-se de que três condições devem ser atendidas para que Cortana _ativação de voz_ em seu dispositivo:
+    1. Sua organização deve ter Cortana habilitado
+    2. Seu dispositivo deve ser definido com uma das seguintes localidades: en-au, en-ca, en-gb, en-in, en-us
+    3. Você deve ter um dispositivo Cortana certificado conectado ao seu Teams Sala [Saiba mais](/microsoftteams/cortana-in-teams)   
+
 ### <a name="device-restart-options"></a>Opções de reinicialização do dispositivo
 
 As alterações nas configurações do dispositivo só terão efeito depois que os dispositivos foram reiniciados. Quando você faz alterações que precisam de uma reinicialização, você pode optar por reiniciar os dispositivos imediatamente ou agendar uma reinicialização. Aqui estão as opções de reinicialização disponíveis:
@@ -124,7 +146,7 @@ Para baixar logs de um Salas do Teams para seu computador, faça o seguinte:
 
 ## <a name="view-device-information"></a>Exibir informações do dispositivo
 
-No centro de Teams de administração, você pode exibir o status geral de todos os dispositivos em sua organização e exibir detalhes de cada dispositivo individualmente.
+No centro Teams de administração, você pode exibir o status geral de todos os dispositivos em sua organização e exibir detalhes de cada dispositivo individualmente.
 
 ### <a name="teams-rooms-system-dashboard"></a>Salas do Teams painel do sistema
 

@@ -18,22 +18,29 @@ f1.keywords:
 - NOCSH
 description: 'Saiba como adicionar, alterar ou remover um local de emergência para sua organização no Microsoft Teams de administração. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62604fc26f91baa77bd205869bbe4251d1a46a8a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6523a3a3f19b2c3145bb6e89f47029c4d982ab1
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602296"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465787"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
-Um local de emergência deve ser associado a um número de telefone, mas quando isso acontece pode variar entre países e regiões. Por exemplo, nos Estados Unidos, você precisa associar um local de emergência ao atribuir o número de telefone ao usuário. No Reino Unido, você precisa associar um local de emergência ao número de telefone quando você obter os números de telefone de Microsoft 365 ou Office 365 ou transferir números de telefone do seu provedor de serviços atual.
+**Independentemente da [opção de conectividade PSTN](pstn-connectivity.md) escolhida, planos de chamadas da Microsoft, Conexão operador ou roteamento direto, locais de emergência podem ser associados a um número de telefone. No entanto, dependendo da opção de conectividade PSTN, os requisitos de local podem variar.**
 
+**Para Planos de Chamadas,** um local de emergência deve estar associado a um número de telefone, mas quando isso acontece pode variar entre países e regiões. Por exemplo, nos Estados Unidos, você precisa associar um local de emergência ao atribuir o número de telefone ao usuário. No Reino Unido, você precisa associar um local de emergência ao número de telefone quando receber os números de telefone de Microsoft 365 ou transferir números de telefone do provedor de serviços atual.
+
+**Para operador Conexão, ...**
+
+**Para Roteamento Direto...**
+
+**ISSO É VERDADEIRO PARA TODOS OS TRÊS?**
 Não importa em qual país ou região você está, você pode adicionar um local ou locais a um local de emergência e remover um local de emergência. Dependendo do número de locais físicos em sua organização, você pode criar locais para edifícios, pisos e escritórios. Consulte [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
-  
-Para saber como obter um Plano de Chamada e quanto eles custam, [consulte Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 Você gerencia locais de emergência para sua organização no centro de administração Microsoft Teams ou usando o PowerShell.
+
+**Para atribuir um local de emergência, os usuários, números de telefone e locais de emergência precisam estar no mesmo país.**  Para obter mais informações, [consulte Atribuir ou alterar um local de emergência para um usuário](assign-change-emergency-location-user.md).
   
 ## <a name="add-an-emergency-location"></a>Adicionar um local de emergência
 
@@ -45,7 +52,7 @@ Você gerencia locais de emergência para sua organização no centro de adminis
 4. Selecione o país ou a região e insira o endereço.
 
    > [!NOTE]
-   > Na Bélgica, França, Alemanha, Irlanda, Países Baixos e Espanha, é importante entender que, para ativar com êxito um número de telefone no Microsoft 365 ou no Office 365, o endereço definido no local de emergência, que é usado para adquirir o número, deve corresponder ao código de área do número de telefone.
+   > Na Bélgica, França, Alemanha, Irlanda, Países Baixos e Espanha, é importante entender que, para ativar com êxito um número de telefone no Microsoft 365, o endereço definido no local de emergência, que é usado para adquirir o número, deve corresponder ao código de área do número de telefone.
 
 5. Se o endereço não for encontrado e você quiser editar manualmente o endereço, a opção **Editar o endereço manualmente.**
 6. Clique em **Salvar**.

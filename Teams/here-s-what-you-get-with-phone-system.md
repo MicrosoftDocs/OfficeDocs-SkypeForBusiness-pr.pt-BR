@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar o Telefone Microsoft System para sua empresa. '
-ms.openlocfilehash: 6784018e9bda245ab162b68cae88ef69ac15238f
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 57bffbdb9d8a6b7955106d369284f716b2723a97
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012965"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465811"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Veja o que você obtém com o Sistema de Telefonia
 
@@ -51,7 +51,7 @@ Sistema de Telefonia fornece os seguintes recursos. A menos que seja notado de o
 |:-----|:-----|
 |[Atendentes automáticos na nuvem](what-are-phone-system-auto-attendants.md)  |Permite que você crie um sistema de menus que permite que chamadores externos e internos localizem e façam ou transfira chamadas para usuários ou departamentos da empresa em sua organização.  <br/> Observe que *os usuários não precisam* ter voz habilitada para receber chamadas do atendimento automático. |
 |[Filas de chamada na nuvem](create-a-phone-system-call-queue.md) <br> |Permite configurar como as filas de chamada são gerenciadas para sua organização: por exemplo, configurar saudações e músicas em espera, procurar o próximo agente de chamada disponível para lidar com a chamada e assim por diante.  <br/> Observe que os *usuários precisam* estar habilitados para voz para receber chamadas de uma fila de chamadas.|
-|Música de espera | Reproduz a música padrão definida pelo serviço quando uma chamada externa da Rede Telefônica Pública Comuada (PSTN) é colocada em espera. Esse recurso funciona para chamadas PSTN para Teams, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece paridade de notificação de espera com outras plataformas. Esse recurso é configurável pelo administrador, [mas atualmente apenas por meio do PowerShell](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). A música de espera também não é suportada na transferência consultiva de uma chamada PSTN.|
+|Música de espera | Reproduz a música padrão definida pelo serviço quando uma chamada externa da Rede Telefônica Pública Comuada (PSTN) é colocada em espera. Esse recurso funciona para chamadas PSTN para Teams, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece paridade de notificação de espera com outras plataformas. Esse recurso é configurável pelo administrador, [mas atualmente apenas por meio do PowerShell](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). A música de espera também não é suportada na transferência consultiva de uma chamada PSTN. Para obter mais informações, consulte [Música em espera.](music-on-hold.md)|
 |Responder/iniciar chamadas (por nome e número)   |Permite que os usuários atendam chamadas de entrada com um toque e faça chamadas de saída discando o número de telefone completo ou clicando em um nome no cliente.   |
 |[Opções de encaminhamento de chamada e toque simultâneo](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)  |Permite que os usuários configurarem regras de encaminhamento para que as chamadas possam ir com elas para qualquer lugar, ou as chamadas podem ser encaminhadas para colegas ou para a caixa postal.   |
 |[Retirada de chamada de grupo e encaminhamento para grupo](call-sharing-and-group-call-pickup.md)  | Permite que os usuários compartilhem chamadas de entrada com colegas para que os colegas possam atender chamadas que ocorrem enquanto o usuário não está disponível. Menos prejudicial para destinatários do que outras formas de compartilhamento de chamadas (como encaminhamento de chamadas ou toque simultâneo) porque os usuários podem configurar como eles querem ser notificados de uma chamada compartilhada de entrada. |

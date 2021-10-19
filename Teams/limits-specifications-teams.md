@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1518c2bbdf39c53f21026edc9da3dae8cc8ef90c
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 9ac3ebe8d4b8e2572c5e4d6766d671a86101340b
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942386"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465821"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -67,7 +67,6 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 
 Os usuários que participam de conversas que fazem parte da lista de bate-papo do Teams precisam ter uma caixa de correio no Exchange Online (baseada em nuvem) para um administrador pesquisar as conversas de bate-papo. Isso ocorre porque as conversas que fazem parte da lista de bate-papo ficam armazenadas nas caixas de correio baseadas em nuvem dos participantes do bate-papo. Se um participante do bate-papo não tiver uma caixa de correio do Exchange Online, o administrador não poderá pesquisar nem fazer uma retenção das conversas de bate-papo. Por exemplo, em uma implantação híbrida do Exchange, os usuários com caixas de correio locais podem participar de conversas que fazem parte da lista de bate-papo do Teams. No entanto, nesse caso, o conteúdo dessas conversas não é pesquisável e não pode ser colocado em espera porque os usuários não têm caixas de correio baseadas em nuvem. (Para obter mais informações, confira [Como o Exchange e o Microsoft Teams interagem](exchange-teams-interact.md).)
 
-O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os limites de mensagens do Exchange sejam aplicados à função de bate-papo dentro do Teams.
 
 |Recurso  | Limite máximo  |
 |---------|---------|

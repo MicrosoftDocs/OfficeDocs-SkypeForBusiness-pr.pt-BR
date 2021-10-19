@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 073f1fa2fbc96ed78cddb6e16201476df2cafa96
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275605"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462345"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -249,6 +249,19 @@ Você também pode usar o Windows PowerShell para criar e configurar filas de ch
 - [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+
+## <a name="call-queue-diagnostic-tool"></a>Ferramenta de Diagnóstico de Fila de Chamada
+
+Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstico para validar se uma fila de chamadas é capaz de receber chamadas:
+
+1. Selecione **Executar Testes** abaixo, que preencherá o diagnóstico no Centro de Administração Microsoft 365. 
+
+   > [!div class="nextstepaction"]
+   > [Executar testes: Teams fila de chamada](https://aka.ms/TeamsCallQueueDiag)
+
+2. No painel de diagnóstico Executar, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
+
+3. Os testes retornarão as melhores próximas etapas para lidar com qualquer locatário, política e configurações de conta de recurso para validar se a fila de chamadas é capaz de receber chamadas.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

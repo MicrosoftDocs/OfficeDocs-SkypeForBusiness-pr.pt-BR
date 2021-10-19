@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e829cb078ee334c36c69aa489c9dec6f3c5eaa10
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: b0843ce2adf400dca9cf426789adc6180daf3f57
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007781"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465841"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informações no Microsoft Teams
 
@@ -191,7 +191,7 @@ O modo de barreiras de informações ajuda a fortalecer quem pode ser adicionado
 
 Microsoft 365 Os grupos criados antes de ativar uma política de barreira de informações são automaticamente definidos como *modo Open* por padrão. Depois de ativar políticas de IB em seu locatário, você deve atualizar o modo que reavalia grupos e sites e faz com que usuários não compatíveis sejam removidos automaticamente desses grupos e sites. Se você precisar alterar a configuração do modo *Open* em grupos conectados Teams existentes para atender aos requisitos de conformidade da sua organização, será necessário atualizar os modos [de IB](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) para sites SharePoint conectados à equipe Teams.
 
-Use o cmdlet *Set-UnifiedGroup* com o *parâmetro InformationBarrierMode* que corresponde ao modo que você deseja usar para seus segmentos. Lista de valores permitidos para o *parâmetro InformationBarrierMode* são *Open* e *Implicit*.
+Use o cmdlet [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) com o *parâmetro InformationBarrierMode* que corresponde ao modo que você deseja usar para seus segmentos. Lista de valores permitidos para o *parâmetro InformationBarrierMode* são *Open* e *Implicit*.
 
 Por exemplo, para configurar o modo *Implícito* para um grupo Microsoft 365, você usará o seguinte comando do PowerShell:
 

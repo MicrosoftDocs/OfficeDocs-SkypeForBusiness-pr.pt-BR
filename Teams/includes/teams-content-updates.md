@@ -3,6 +3,35 @@
 
 
 
+## <a name="week-of-october-11-2021"></a>Semana de 11 de outubro de 2021
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 10/11/2021 | [Telefones e dispositivos para Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
+| 10/11/2021 | [Controladores de Borda de Sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 10/12/2021 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 10/12/2021 | [Controladores de Borda de Sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 10/12/2021 | [Configurar o operador Conexão](/MicrosoftTeams/operator-connect-configure) | modificado |
+| 10/12/2021 | [Use o assistente de integração do Trabalho de Linha de Frente para fazer sua força de trabalho de linha de frente funcionar](/MicrosoftTeams/flw-onboarding-wizard) | modificado |
+| 10/12/2021 | [Microsoft 365 Sistema de Telefonia – Licenças de usuário virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modificado |
+| 10/13/2021 | [Pesquisar o registro de auditoria de eventos no Teams](/MicrosoftTeams/audit-log-events) | modificado |
+| 10/13/2021 | [Gravação de reuniões na nuvem do Microsoft Teams](/MicrosoftTeams/cloud-recording) | modificado |
+| 10/13/2021 | [Requisitos das Salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
+| 10/13/2021 | [Salas do Microsoft Teams de versão do aplicativo](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modificado |
+| 10/13/2021 | [Estacionamento e recuperação de chamadas no Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modificado |
+| 10/13/2021 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
+| 10/13/2021 | [Dimensões e medidas - Painel de Qualidade de Chamada (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 10/13/2021 | [Configurar a Otimização de Mídia Local para Roteamento Direto](/MicrosoftTeams/direct-routing-media-optimization-configure) | modificado |
+| 10/13/2021 | [Conduzir uma investigação de Descoberta EDiscovery de conteúdo](/MicrosoftTeams/ediscovery-investigation) | modificado |
+| 10/13/2021 | [Música em espera](/MicrosoftTeams/music-on-hold) | modificado |
+| 10/14/2021 | [Salas do Microsoft Teams de versão do aplicativo](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modificado |
+| 10/14/2021 | [Configurar a caixa postal na nuvem](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado |
+| 10/14/2021 | [Planos de chamada para Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modificado |
+| 10/14/2021 | [Introdução aos modelos de equipe no Centro de administração do Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modificado |
+| 10/14/2021 | [Comprar aplicativos de terceiros para Teams](/MicrosoftTeams/purchase-third-party-apps) | modificado |
+
+
 ## <a name="week-of-october-04-2021"></a>Semana de 04 de outubro de 2021
 
 
@@ -253,36 +282,3 @@
 | 9/17/2021 | [Salas do Microsoft Teams](/MicrosoftTeams/rooms/index) | modificado |
 | 9/17/2021 | [Pesquisar números de telefone para usuários](/MicrosoftTeams/search-for-phone-numbers-for-users) | modificado |
 | 9/17/2021 | [Consulte uma lista de números de telefone em sua organização](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | modificado |
-
-
-## <a name="week-of-september-06-2021"></a>Semana de 06 de setembro de 2021
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 9/3/2021 | [Gravação de reuniões na nuvem do Microsoft Teams](/MicrosoftTeams/cloud-recording) | modificado |
-| 9/8/2021 | [Visitas virtuais com o Microsoft Teams e o aplicativo Bookings](/MicrosoftTeams/bookings-app-admin) | modificado |
-| 9/8/2021 | [Gravação de reuniões na nuvem do Microsoft Teams](/MicrosoftTeams/cloud-recording) | modificado |
-| 9/8/2021 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
-| 9/8/2021 | [Dimensões e medidas - Painel de Qualidade de Chamada (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
-| 9/8/2021 | [Teams para Visitas virtuais](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
-| 9/8/2021 | [Gerenciar a experiência de junção para Teams virtuais em navegadores móveis](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | adicionado |
-| 9/8/2021 | [Rótulos de sensibilidade para Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modificado |
-| 9/8/2021 | [Usar o OneDrive for Business e o SharePoint para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 9/9/2021 | [Gerenciar políticas de reunião para gravação e transcrição](/MicrosoftTeams/meetings-policies-recording-and-transcription) | adicionado |
-| 9/9/2021 | [Configurar ServiceNow para Salas do Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | adicionado |
-| 9/9/2021 | [Diretrizes de sala de reunião para Teams](/MicrosoftTeams/teams-meeting-room-guidance) | adicionado |
-| 9/9/2021 | [Gerenciar políticas de reunião para áudio e vídeo](/MicrosoftTeams/meeting-policies-audio-and-video) | modificado |
-| 9/9/2021 | [Gerenciar políticas de reunião em Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | modificado |
-| 9/9/2021 | [Gerenciar políticas de mensagens no Teams](/MicrosoftTeams/messaging-policies-in-teams) | modificado |
-| 9/9/2021 | [Chat, equipes, canais e aplicativos no Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modificado |
-| 9/9/2021 | [Telefones e dispositivos para Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
-| 9/9/2021 | [Requisitos das Salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
-| 9/9/2021 | [Privacidade do Microsoft Teams](/MicrosoftTeams/teams-privacy) | modificado |
-| 9/9/2021 | [Visitas virtuais com o Microsoft Teams e o aplicativo Bookings](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | adicionado |
-| 9/9/2021 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 9/9/2021 | [Começar a Teams para organizações de saúde](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
-| 9/10/2021 | [Música em espera](/MicrosoftTeams/music-on-hold) | adicionado |
-| 9/10/2021 | [Configurar ServiceNow para Salas do Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | modificado |
-| 9/10/2021 | [Requisitos das Salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
-| 9/10/2021 | [Gerenciar políticas de canal em Microsoft Teams](/MicrosoftTeams/teams-policies) | modificado |

@@ -21,16 +21,19 @@ description: Saiba como usar e gerenciar políticas de roteamento de voz de emer
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 5f6d3f45c2a3a97980bec3eb17ee1f6b35952fe5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e7744f87d4fe5be9fb0788166a172ea9709206b
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619437"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465801"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Gerenciar políticas de roteamento de voz de emergência para Roteamento Direto
 
-Se você tiver implantado Sistema de Telefonia [Roteamento](direct-routing-landing-page.md) Direto em sua organização, poderá usar políticas de roteamento de voz de emergência no Microsoft Teams para configurar números de emergência e especificar como as chamadas de emergência são roteadas. Uma política de roteamento de voz de emergência determina se os serviços de emergência aprimorados estão habilitados para usuários que são atribuídos à política, os números usados para chamar serviços de emergência (por exemplo, 911 nos Estados Unidos) e como as chamadas aos serviços de emergência são roteadas.
+Se você tiver implantado o [Roteamento](direct-routing-landing-page.md) Direto em sua organização, poderá usar políticas de roteamento de voz de emergência Microsoft Teams configurar números de emergência e especificar como as chamadas de emergência são roteadas. Uma política de roteamento de voz de emergência determina se os serviços de emergência aprimorados estão habilitados para usuários que são atribuídos à política, os números usados para chamar serviços de emergência (por exemplo, 911 nos Estados Unidos) e como as chamadas aos serviços de emergência são roteadas. 
+
+> [!Note]
+> **Observe que essas políticas de roteamento de voz aplicam-se somente ao Roteamento Direto , elas não se aplicam a Planos de Chamada ou operador Conexão.**
 
 Você gerencia políticas de roteamento de voz de emergência indo para políticas de Emergência de Voz no centro de administração Microsoft Teams ou   >   usando Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede.](cloud-voice-network-settings.md)
 
@@ -49,7 +52,7 @@ Se você atribuiu uma política de roteamento de voz de emergência a um site de
 5. Defina um ou mais números de emergência. Para fazer isso, em **Números de emergência,** clique em **Adicionar** e faça o seguinte:
     1. **Cadeia de caracteres de discagem** de emergência : Insira a cadeia de caracteres de discagem de emergência. Essa cadeia de caracteres de discagem indica que uma chamada é uma chamada de emergência.
         > [!NOTE]
-        > Para Roteamento Direto, estamos fazendo a transição Teams clientes que enviam chamadas de emergência com um "+" em frente à cadeia de caracteres de discagem de emergência. Até que a transição seja concluída, o padrão de rota de voz para corresponder a uma cadeia de caracteres de discagem de emergência deve garantir que uma combinação seja feita para cadeias de caracteres que tenham e não tenham um "+" anterior, como 911 e +911. Por exemplo, ^ \\ +?911 ou .*.
+        > **Para Roteamento Direto, Teams clientes não enviam mais chamadas de emergência com um "+" na frente da cadeia de caracteres de discagem de emergência. Certifique-se de que o padrão de rota de voz para corresponder a uma cadeia de caracteres de discagem de emergência reflita essa alteração.**
     2. **Máscara de discagem de** emergência : Para cada número de emergência, você pode especificar zero ou mais máscaras de discagem de emergência. Uma máscara de discagem é o número que você deseja converter no valor da cadeia de caracteres de discagem de emergência. Isso permite que números de emergência alternativos sejam discados e ainda tenham a chamada para alcançar os serviços de emergência. <br>Por exemplo, você adiciona 112 como máscara de discagem de emergência, que é o número de serviço de emergência para a maioria da Europa e 911 como a cadeia de caracteres de discagem de emergência. Um Teams da Europa que está visitando pode não saber que o 911 é o número de emergência nos Estados Unidos e, quando ele disca 112, a chamada é feita para 911. Para definir várias máscaras de discagem, separe cada valor por ponto e vírgula. Por exemplo, 112;212.
     3. **Registro de uso PSTN**: Selecione o registro de uso PSTN (Rede Telefônica Pública Comutado). O registro de uso PSTN é usado para determinar qual rota é usada para rotear chamadas de emergência de usuários autorizados a usá-las. A rota associada a esse uso deve apontar para um tronco SIP (Session Initiation Protocol) dedicado a chamadas de emergência ou a um gateway ELIN (Número de Identificação de Local de Emergência) que encaminha chamadas de emergência para o PSAP (Ponto de Atendimento de Segurança Pública) mais próximo.
 

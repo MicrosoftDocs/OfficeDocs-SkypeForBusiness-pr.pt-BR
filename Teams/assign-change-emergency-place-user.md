@@ -1,7 +1,7 @@
 ---
 title: Atribuir, alterar locais para locais de emergência para usuários
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá a atribuir ou alterar o local para um local de emergência para usuários em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 146c97be9b416b0e338b6b6c49eeb19171b26cee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1edc7bd6f5a1ea1b7a09f6747c1ee61f7dd74758
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617597"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465971"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Atribuir ou alterar o local para um local de emergência para um usuário
 
-Cada número de telefone ativo deve ter um local de emergência associado quando você atribui o número de telefone a um usuário. (Você associa o endereço quando você tem um número de telefone no Office 365 ou quando você transfere um número de telefone.) Ao associar o número a um local de emergência, você também pode adicionar um local para fornecer um local mais exato em um local físico. Um local pode ser o piso, a asa de construção ou o número do escritório onde o usuário está localizado. Você pode ter um número ilimitado de locais para um determinado local de emergência e pode alterar o local se o usuário mudar para um escritório ou edifício diferente. Por exemplo, se o usuário mudar do piso 34 para o 35º andar.
-  
-Para saber como obter Planos de Chamada e quanto eles custam, [consulte Teams licenciamento de complemento.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Cada número de telefone ativo deve ter um local de emergência associado quando você atribui o número de telefone a um usuário. **Você associa o endereço quando você tem um número de telefone no Microsoft 365, quando você transfere um número de telefone para Microsoft 365 ou quando você obter um número de telefone de seu provedor.**
+
+Ao associar o número a um local de emergência, você também pode adicionar um local para fornecer um local mais exato em um local físico. Um local pode ser o piso, a asa de construção ou o número do escritório onde o usuário está localizado. Você pode ter um número ilimitado de locais para um determinado local de emergência e pode alterar o local se o usuário mudar para um escritório ou edifício diferente. Por exemplo, se o usuário mudar do piso 34 para o 35º andar.
   
 Você pode atribuir ou alterar o local para um local de emergência para um usuário no centro de administração Microsoft Teams ou usando o PowerShell.
 
