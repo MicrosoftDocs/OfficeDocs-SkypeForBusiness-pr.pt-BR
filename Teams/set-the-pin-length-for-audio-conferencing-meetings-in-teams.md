@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Saiba os parâmetros para o tamanho e os requisitos de um PIN e veja como definir o tamanho das reuniões em Microsoft Teams.
-ms.openlocfilehash: 7030849f59679ff63e71e6013757a1e455fa951d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3b50c555121e960ddf350e8c28079552a5589f9f
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731950"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537232"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Definir o tamanho do PIN para reuniões de audioconferência no Microsoft Teams
 
@@ -40,7 +40,7 @@ A ponte de audioconferência atende uma chamada feita por um usuário que discou
   
 ## <a name="setting-the-pin-length"></a>Configurar o tamanho do PIN
 
-![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como obter novos, porta ou transferir números existentes para Teams e como mostrar as alterações aos seus usuários.
-ms.openlocfilehash: 09b42acef400f28760c50cd8a570f5c1cb1e3392
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012105"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537072"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obter números de telefone para seus usuários
 
@@ -45,7 +45,7 @@ Há três maneiras de obter números de usuário:
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtenha novos números de telefone para seus usuários
 
-![Um ícone mostrando o logotipo do Microsoft Teams.](media/teams-logo-30x30.png) **Usando centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
@@ -77,7 +77,7 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Exibir os números de telefone para sua organização
 
-![Um ícone mostrando o logotipo do Microsoft Teams.](media/teams-logo-30x30.png) **Usando centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 Na navegação à esquerda do centro de administração, vá até **Voz** Telefone números para exibir os números da sua organização, incluindo informações de localização, tipo de  >   número e status.
   

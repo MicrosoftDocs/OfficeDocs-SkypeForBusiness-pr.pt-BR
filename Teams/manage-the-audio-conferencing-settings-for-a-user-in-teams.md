@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Um administrador Microsoft 365 ou Office 365 pode editar as configurações de Audioconferência de Teams, incluindo provedor, número de tarifação padrão ou gratuita, ID de conferência ou PIN para um usuário.
-ms.openlocfilehash: c565537adfc8eeae295c1608a335b8282d3372df
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a6a514b116cab63e321848d24785c3dab8b096dc
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732480"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537032"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de Audioconferência de um usuário no Microsoft Teams
 
 Como administrador de Microsoft 365 ou Office 365, você pode editar as configurações de Audioconferência, como o provedor, o número de tarifação padrão ou gratuito, a ID da conferência ou o PIN para um usuário individual em sua organização. Se você deseja editar configurações para sua organização, consulte Gerenciar as configurações de [Audioconferência para sua organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
+##  <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 

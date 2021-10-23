@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727810"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537048"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 
@@ -119,7 +119,7 @@ Quando esta política é configurada em um dispositivo, os usuários só podem e
 >1. A política restringe apenas as assinaturas. Ela não restringe a possibilidade de os usuários serem convidados como convidados em outros locatários do Microsoft Azure Active Directory, ou mudar para esses outros locatários (onde os usuários foram convidados como convidados).
 >2. A política requer o Teams para Windows versão 1.3.00.30866 ou superior e o Teams para macOS versão 1.3.00.30882 (lançado em meados de novembro de 2020).
 
-**Políticas para Windows** Arquivos de Modelo Administrativo (ADMX/ADML) estão disponíveis no [Centro de Download](https://www.microsoft.com/download/details.aspx?id=49030). (o nome descritivo da política no arquivo do modelo administrativo é "Restringir no Teams a entrada de contas de locatários específicos"). Além disso, você pode definir manualmente as chaves no Registro do Windows:
+**Políticas para Windows** Os arquivos de Modelo Administrativo (ADMX/ADML) estão disponíveis no [Centro de Download](https://www.microsoft.com/download/details.aspx?id=49030) (o nome descritivo da configuração de política no arquivo de modelo administrativo é "Restringir a entrada no Teams para as contas nos locatários específicos"). Além disso, você pode definir chaves manualmente no Registro do Windows:
 
 - Nome do valor: RestrictTeamsSignInToAccountsFromTenantList
 - Tipo de Valor: Cadeia de Caracteres
@@ -145,10 +145,8 @@ A experiência de entrada é semelhante à nossa experiência de entrada padrão
 
 ## <a name="urls-and-ip-address-ranges"></a>URLs e intervalos de endereços IP
 
-O Teams exige conectividade com a Internet. Para entender os terminais que devem ser alcançados pelos clientes que usam o Teams em planos do Office 365, Governo e outras nuvens, leia [URLs do Office 365 e intervalos de endereços IP](/office365/enterprise/urls-and-ip-address-ranges).
+O Teams requer conectividade com a Internet. Para entender os pontos de extremidade que devem ser acessíveis aos clientes que usam o Teams nos planos do Office 365, Governo e outras nuvens, leia [URLs do Office 365 e intervalos de endereços de IP](/office365/enterprise/urls-and-ip-address-ranges).
 
-> [!IMPORTANT]
-> O Teams atualmente exige o acesso (porta TCP 443) para o serviço ssl.gstatic.com do Google para todos os usuários; tal exigência é obrigatória mesmo que você não esteja usando o Gstatic. O Teams removerá esse requisito em breve (início de 2020), e atualizaremos este artigo de forma adequada neste momento.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

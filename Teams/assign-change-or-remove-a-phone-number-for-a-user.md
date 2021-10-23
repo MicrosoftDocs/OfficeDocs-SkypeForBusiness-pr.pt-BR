@@ -20,26 +20,28 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone de trabalho para seus usuários Teams para que empresas e clientes externos possam chamar.
-ms.openlocfilehash: a6e2c8075134817b61d99366633f29140599b447
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046177"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536502"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
-Ao configurar Planos de Chamadas ou **Conexão** operador, atribua números de telefone aos usuários. Em Microsoft Teams, o número de telefone atribuído é listado quando um usuário clica em **Chamadas**. 
+Ao configurar planos de chamadas ou Conexão operador, atribua números de telefone aos usuários. Em Microsoft Teams, o número de telefone atribuído é listado quando um usuário clica em **Chamadas**. 
 
-**Este artigo se aplica a Planos de Chamada e Conexão.** Para obter informações sobre como atribuir, alterar ou remover um número de telefone de um usuário em um cenário de Roteamento Direto, consulte [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+Este artigo se aplica a Planos de Chamada e Conexão. Para obter informações sobre como atribuir, alterar ou remover um número de telefone de um usuário em um cenário de Roteamento Direto, consulte [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
-**Antes de atribuir um número para um usuário Conexão plano de chamada ou operador, você deve obter números para seus usuários. Para obter mais informações, [consulte Obter números para usuários do](getting-phone-numbers-for-your-users.md) Plano de Chamada ou Configurar números para [operadores Conexão usuários](operator-connect-configure.md#set-up-phone-numbers).**
+Antes de atribuir um número para um usuário Conexão plano de chamada ou operador, você deve obter números para seus usuários. Para obter mais informações, [consulte Obter números para usuários do](getting-phone-numbers-for-your-users.md) Plano de Chamada ou Configurar números para [operadores Conexão usuários](operator-connect-configure.md#set-up-phone-numbers).
 
   
 > [!NOTE]
 > Uma maneira de ver se um usuário tem uma licença atribuída é indo para o Microsoft Teams de administração > **Usuários**. Se uma licença for atribuída, ela será indicada na página.  Você também pode usar o Centro de administração do Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Atribuir um número de telefone a um usuário
+
+Ao atribuir um número de telefone a um usuário, certifique-se de que o número de telefone e o local de uso do usuário sejam do mesmo país.
 
 Para atribuir um número usando o Teams de administração:
     
@@ -52,7 +54,7 @@ Para atribuir um número usando o Teams de administração:
 4. Para atribuir ou alterar o local de emergência associado, em **Local de** emergência, procure e selecione o local.
 
    > [!NOTE]
-   > **Se você estiver atribuindo números a usuários Conexão operadores, poderá ou não ser capaz de atribuir ou alterar o local de emergência associado. Essa funcionalidade dependerá do operador. Entre em contato com seu Operador para obter mais informações.**
+   > Se você estiver atribuindo números a usuários Conexão operadores, poderá ou não ser capaz de atribuir ou alterar o local de emergência associado. Essa funcionalidade dependerá do operador. Entre em contato com seu Operador para obter mais informações.
 
 5. Dependendo se você deseja enviar um email para o usuário com suas informações de número de telefone, desativar ou ativar o usuário de email com informações **de número de telefone**. Por padrão, isso está em. 
 
@@ -95,7 +97,7 @@ Para alterar um número de telefone para um usuário usando o Teams de administr
 8. Para atribuir ou alterar o local de emergência associado, em **Local de** emergência, procure e selecione o local.
 
       > [!NOTE]
-      > **Se você estiver alterando números para usuários Conexão operadores, poderá ou não ser capaz de atribuir ou alterar o local de emergência associado. Essa funcionalidade dependerá do operador. Entre em contato com seu Operador para obter mais informações.**
+      > Se você estiver alterando números para usuários Conexão operadores, poderá ou não ser capaz de atribuir ou alterar o local de emergência associado. Essa funcionalidade dependerá do operador. Entre em contato com seu Operador para obter mais informações.
 
 9. Clique em **Salvar**.
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282664"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536752"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Aparelho de Filial Desavivável (SBA) para Roteamento Direto
 
@@ -46,6 +46,11 @@ Para obter o firmware mais recente do Controlador de Borda de Sessão com o Apar
 - O SBC precisa ser configurado para Bypass de Mídia para garantir que o cliente Microsoft Teams no site de filial possa ter a mídia fluindo diretamente com o SBC. 
 
 - O TLS1.2 deve estar habilitado no sistema operacional VM do SBA.
+- As portas 3443, 4444 e 8443 são usadas pelo Microsoft SBA Server para se comunicar com o cliente Teams e devem ser permitidas no firewall. 
+- A porta 5061 (ou a configurada no SBC) é usada pelo Microsoft SBA Server para se comunicar com o SBC e deve ser permitida no firewall. 
+- A Porta UDP 123 é usada pelo Microsoft SBA Server para se comunicar com o servidor NTP e deve ser permitida no firewall.
+- A porta 443 é usada pelo Microsoft SBA Server para se comunicar com Microsoft 365 e deve ser permitida no firewall.
+- Os Intervalos ip do Azure e marcas de serviço para a Nuvem Pública devem ser definidos de acordo com as diretrizes descritas em: https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>Clientes Teams com suporte
 

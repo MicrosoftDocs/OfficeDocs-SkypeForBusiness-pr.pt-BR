@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Saiba como procurar os números de conferência discado disponíveis para audioconferência de dentro Microsoft Teams.
-ms.openlocfilehash: a65db16f0472c9d743d956baf18f7f1d20028837
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 09eef2b2aac4bd6bd0b1eb7ea3d4f9cb3296008c
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432253"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536682"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Ver uma lista de números de audioconferência no Microsoft Teams
 
@@ -44,7 +44,7 @@ Você pode ver [Definir os números de telefone incluídos](set-the-phone-number
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para exibir seus números de telefone de audioconferência
 
-![Um ícone mostrando o logotipo do Microsoft Teams.](media/teams-logo-30x30.png) **Usando centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para   >  **Pontes de Conferência de Reuniões.** 
 2. Exibir os números de telefone disponíveis para audioconferência.

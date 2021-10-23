@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: 2064ca1fdd816f1948af1f0efcda3021a1c7d2cb
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 80c1fcb9012efbc1809b1d1d4252c9801d148ba9
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462335"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537082"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 
-Com o acesso de convidado, você pode fornecer acesso às equipes, documentos em canais, recursos, chats e aplicativos para pessoas fora da sua organização, enquanto mantêm controle total sobre seus próprios dados corporativos. Confira [Configurar colaboração segura com Microsoft 365 e Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+Com o acesso de convidado, você pode fornecer acesso às equipes, documentos em canais, recursos, chats e aplicativos para pessoas fora da sua organização, enquanto mantêm controle total sobre seus próprios dados corporativos. Confira [Configurar colaboração segura com Microsoft 365 e Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams). O acesso de convidado no Teams é uma configuração para toda a organização e está desativado por padrão. Você pode controlar o acesso de convidados a equipes individuais usando [rótulos de confidencialidade](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 > [!NOTE]
 > Se você deseja encontrar, ligar, conversar e marcar reuniões com pessoas de outras organizações, use o [acesso externo](manage-external-access.md).
@@ -52,8 +52,6 @@ O acesso de convidado no Teams requer a definição de outras configurações no
 
 - Para configurar o acesso de convidado do Teams para uso geral, consulte [Colaborar com convidados em uma equipe](/microsoft-365/solutions/collaborate-as-team).
 - Para colaborar com uma organização parceira que usa o Azure Active Directory e permitir que os convidados se inscrevam para acesso da equipe, consulte [Criar uma extranet B2B com convidados gerenciados](/microsoft-365/solutions/b2b-extranet).
-
-O acesso de convidado no Teams é uma configuração para toda a organização e está desativado por padrão. Você pode controlar o acesso de convidados a equipes individuais usando [rótulos de confidencialidade](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 > [!NOTE]
 > Se você for um administrador e estiver tendo problemas com o Acesso de convidado no Microsoft Teams, selecione **Executar Testes** abaixo, que preencherá o diagnóstico de Acesso de convidado no Centro de administração do Microsoft 365. Esses testes verificarão sua configuração e recomendarão rapidamente as próximas etapas para habilitar o Acesso de Convidado para seu locatário.

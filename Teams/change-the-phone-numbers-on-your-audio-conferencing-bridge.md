@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Saiba as etapas necessárias para atribuir um novo número de telefone de serviço à ponte de conferência para expandir a cobertura para seus usuários.
-ms.openlocfilehash: ba12596ea7a10a0d2b0c5fea75beb4ae96b10f07
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f39a963759e768f4fab70d2a06e6d90b480699e0
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726930"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536712"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone em sua ponte de Audioconferência
 
@@ -43,7 +43,7 @@ Além dos números de telefone já atribuídos à ponte de conferência, você p
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Etapa 1 - Atribuir o novo número de telefone à ponte de audioconferência
 
-![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para **Voz** Telefone  >  **números**.
 
@@ -57,7 +57,7 @@ O número de telefone padrão da ponte de conferência define a ID do chamador q
 
 Somente um número de tarifa de serviço pode ser definido como o número padrão da ponte de conferência; **os números de serviço gratuito não podem ser definidos como o número padrão da ponte de conferência.** Se você estiver atribuindo um número de tarifa de serviço e quiser defini-lo como o novo número padrão da ponte de audioconferência, execute estas etapas:
 
-![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para Pontes **de**  >  **Conferência de Reuniões.**
 
@@ -69,7 +69,7 @@ Somente um número de tarifa de serviço pode ser definido como o número padrã
 
 Os números de telefone padrão de um usuário são os que estão incluídos em seus convites de reunião ao agendar uma reunião. Para obter mais informações, incluindo como os números de telefone padrão são [atribuídos para](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)novos usuários, consulte Definir os números de telefone incluídos em [convites](set-the-phone-numbers-included-on-invites-in-teams.md) no Microsoft Teams ou Definir os números de telefone incluídos em convites no Skype for Business Online .
 
-![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para **Usuários** e clique no nome de exibição do usuário desejado na lista.
 

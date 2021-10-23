@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Saiba como habilitar ou desabilitar os chamadores anônimos de ingressar em uma reunião do Teams de administração. '
-ms.openlocfilehash: 5a2abd84514e46a19f3f698650d3acf1ec931410
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: da31c734275113eab3e96b67230a578d0609c1bb
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732740"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537302"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Iniciar uma audioconferência por telefone sem um PIN no Microsoft Teams
 
@@ -42,7 +42,7 @@ Um PIN não será necessário para o organizador da reunião se alguém tiver in
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar ou desabilitar chamadores anônimos para participar de uma reunião
 
-![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, clique em **Usuários**. 
 
@@ -72,7 +72,7 @@ Consulte a [Microsoft Teams referência do PowerShell](/powershell/module/teams/
     
   - Se a reunião ainda não iniciou (não há ninguém na reunião ainda): Não será perguntado a uma chamadora se ela é a organizadora e nunca lhe será solicitado o PIN. Como a configuração do organizador está definida como off, a reunião será inicial e os chamadores anônimos ingressarão na reunião.
     
-  - Se a reunião já iniciou (alguém já está na reunião): Não será perguntado a uma chamadora se ele é a organizadora e nunca lhe será solicitado o PIN; a reunião já estará iniciada, e a chamadora ingressará.
+  - Se a reunião já tiver sido iniciada (outra pessoa já está na reunião): um chamador não será solicitado se ela for a organizadora e ela nunca será solicitado a solicitar o PIN; a reunião já foi iniciada e o chamador ingressará nele.
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 

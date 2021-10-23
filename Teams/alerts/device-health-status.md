@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Monitoramento e alerta de dispositivos
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ description: Saiba como usar os recursos Teams de monitoramento e alerta no cent
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ac8ace461e2fb2f5ca8c163a5972fa575baec21d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735348"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536912"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams monitoramento de saúde do dispositivo
 
@@ -72,7 +72,7 @@ Todos os dispositivos de entrada usados pela lista selecionada de usuários ser�
 
 ## <a name="notifications-in-teams-client"></a>Notificações no Teams cliente
 
-As notificações são entregues no canal **MonitoringAlerts** criado automaticamente da Equipe de **Alertas e** Notificações do Administrador.
+As notificações são entregues no canal **MonitoringAlerts** criado automaticamente da Equipe de **Alertas e** Notificações do Administrador. Você receberá um alerta dentro de 15 minutos após o dispositivo ficar offline. 
 
 Uma notificação offline de dispositivo pode incluir as seguintes informações:
 

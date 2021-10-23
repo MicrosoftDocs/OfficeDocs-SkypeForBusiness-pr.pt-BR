@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e769de858a7c0cb1ab14a538b1b1dc2a6559b21f
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: d817a89b60de260529b1e9d4a9891290d9ea404b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356469"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536882"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -89,8 +89,6 @@ Aqui está uma lista de todos os eventos que estão registrados para atividades 
 |Bot adicionado à equipe   |BotAddedToTeam        |Um usuário adiciona um bot a uma equipe.        |
 |Canal adicionado   |ChannelAdded         |Um usuário adiciona um canal a uma equipe.         |
 |Conector adicionado  |ConnectorAdded          |Um usuário adiciona um conector a um canal.        |
-|Adicionados detalhes sobre Teams reunião|MeetingDetail|Teams informações sobre uma reunião, incluindo a hora de início, a hora de término e a URL para ingressar na reunião.|
-|Adicionadas informações sobre participantes da reunião|MeetingParticipantTrack|Teams informações sobre os participantes de uma reunião, incluindo a ID do usuário de cada participante, a hora em que um participante ingressou na reunião e a hora em que um participante saiu da reunião.|
 |Membros adicionados    |MemberAdded         |Um proprietário de equipe adiciona membros a uma equipe, canal ou chat de grupo.         |
 |Guia Adicionada    |TabAdded         |Um usuário adiciona uma guia a um canal.        |
 |Configuração de canal alterada    |ChannelSettingChanged         |A operação ChannelSettingChanged é registrada quando as atividades a seguir são executadas por um membro da equipe. Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses é exibida na coluna **Item** nos resultados da pesquisa de log de auditoria. <ul><li>Altera o nome de um canal de equipe (**Nome do canal**)</li><li>Altera a descrição de um canal de equipe (**Descrição do canal**)</li> </ul>      |

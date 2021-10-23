@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: a17921eee249d8baf10256e0d0ea17d4462494c0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 28f3334ed2ddfdff8e43ba7853f6a4d279211b96
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462346"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536902"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -262,10 +262,10 @@ Você também pode usar o PowerShell para criar e configurar os atendimentos aut
 
 Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstico para validar se um atendimento automático pode receber chamadas:
 
-1. Selecione **Executar Testes** abaixo, que preencherá o diagnóstico no Centro de Administração Microsoft 365. 
+1. Selecione **Executar testes** abaixo, o que preencherá o diagnóstico no Centro de Administração do Microsoft 365. 
 
    > [!div class="nextstepaction"]
-   > [Executar testes: Teams Federação](https://aka.ms/TeamsAADiag)
+   > [Executar testes: Teams Atendedor Automático](https://aka.ms/TeamsAADiag)
 
 2. No painel de diagnóstico Executar, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
 

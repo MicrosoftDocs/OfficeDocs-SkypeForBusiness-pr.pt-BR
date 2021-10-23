@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Altere as configurações da ponte de audioconferência, incluindo notificações de entrada e saída, reproduza nomes ou números de telefone, tons e chamadores de prompt para registrar seu nome.
-ms.openlocfilehash: 413cd4eeb54785f32e0916b5872c477095318cda
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0c64fa8c8717ae7fd401c4476896e6e52e833769
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729090"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537042"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de audioconferência
 
@@ -43,7 +43,7 @@ A ponte de conferência atende a uma chamada e solicita ao chamador prompts de v
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
+##  <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, vá para   >  **Pontes de Conferência de Reuniões.** 
 

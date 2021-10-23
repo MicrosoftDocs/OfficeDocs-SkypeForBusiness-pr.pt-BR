@@ -359,8 +359,6 @@ items:
             items:
               - name: Sobre o acesso de convidados
                 href: guest-access.md
-              - name: Lista de verificação de acesso de convidados
-                href: /microsoft-365/solutions/collaborate-as-team
               - name: Experiência do convidado
                 href: guest-experience.md
               - name: Habilitar ou desabilitar o acesso dos convidados
@@ -1189,7 +1187,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: Chile
+              - name: 'Chile '
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md

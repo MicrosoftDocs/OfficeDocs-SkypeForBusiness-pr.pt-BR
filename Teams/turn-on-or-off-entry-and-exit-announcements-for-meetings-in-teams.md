@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: O administrador pode aprender sobre como ativar ou desativar anúncios de entrada e saída em uma reunião Microsoft Teams local.
-ms.openlocfilehash: 6a939495c3fe537873b464064656fc529719457f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ab69b64352508d15b5f1125629ab90b3ec58f851
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728860"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537272"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões no Microsoft Teams
 
@@ -39,7 +39,7 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
   
 ## <a name="setting-meeting-join-options"></a>Definir as opções de participação da reunião
 
-![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 

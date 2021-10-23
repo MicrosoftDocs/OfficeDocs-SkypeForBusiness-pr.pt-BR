@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'Veja como configurar o Skype for Business para permitir que os usuários conversem com usuários em outra organização ou permitir que contatos externos conversem com eles. '
-ms.openlocfilehash: e98f30718bb44a3ca2e5f48560d7f38552a2ef49
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1a1a86dc9b2eadc1bdf70448c1f9b79870f45558
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731110"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536722"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que os usuários entrem em contato com usuários externos do Skype for Business
 
@@ -53,7 +53,7 @@ Siga as etapas descritas neste artigo quando:
 
 Você deve ter [permissões de](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) administrador em Microsoft 365 ou Office 365 em ambas as organizações para fazer essa comunicação.
 
-![Um ícone mostrando o logotipo Microsoft Teams.](../images/teams-logo-30x30.png) **Usando o Teams de administração**
+ **Usando o Teams de administração**
   
 1. Entre com sua conta Microsoft 365 ou Office 365 administrador.
 

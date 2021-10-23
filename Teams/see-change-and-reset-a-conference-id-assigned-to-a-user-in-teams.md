@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Saiba como atribuir uma ID de conferência a um usuário no Microsoft Teams e quais os parâmetros de IDs de conferência devem ser.
-ms.openlocfilehash: 62cbb281af4db60db15676b109b2573c03eb7552
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 74e43f6dcb5599039007f784ad7ebdd5a053251e
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733250"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536862"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Exibir e redefinir uma ID de conferência atribuída a um usuário em Microsoft Teams
 
@@ -43,7 +43,7 @@ Um e-mail será enviado ao usuário com a ID da conferência e os números de te
 
 ### <a name="to-view-the-conference-id"></a>Para exibir a ID da conferência
 
-![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
@@ -63,7 +63,7 @@ Consulte a [Microsoft Teams referência do PowerShell](/powershell/module/teams/
 
 É possível redefinir uma ID de conferência para um usuário se, por exemplo, ele a esquecer.
   
-![Um ícone mostrando o logotipo Microsoft Teams.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 

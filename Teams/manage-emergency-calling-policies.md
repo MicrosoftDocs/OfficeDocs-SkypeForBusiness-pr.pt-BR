@@ -20,18 +20,16 @@ description: Saiba como usar e gerenciar políticas de chamada de emergência Mi
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: d4b44cf8ae822a3ab390e4247396ff326eb39501
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 842fa95be2c9aecaa14b1902ed5b3feb4ca0da7a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465981"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536542"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de chamada de emergência em Microsoft Teams
 
-**Se sua organização usa planos de chamadas da Microsoft, operador Conexão ou Roteamento Direto como sua opção de conectividade [PSTN,](pstn-connectivity.md)você pode usar políticas de chamada de emergência no Microsoft Teams para definir o que acontece quando um usuário Teams em sua organização faz uma chamada de emergência.**
-
-**TODOS OS SEGUINTES SE APLICA A TODOS OS 3?**
+Se sua organização usa planos de chamadas da Microsoft, operador Conexão ou Roteamento Direto como sua opção de conectividade [PSTN,](pstn-connectivity.md)você pode usar políticas de chamada de emergência no Microsoft Teams para definir o que acontece quando um usuário Teams em sua organização faz uma chamada de emergência.
 
 Você pode definir quem notificar e como eles são notificados quando um usuário que recebe a política chama os serviços de emergência. Por exemplo, você pode definir configurações de política para notificar automaticamente o escritório de segurança da sua organização e fazer com que eles ouçam chamadas de emergência.  
 

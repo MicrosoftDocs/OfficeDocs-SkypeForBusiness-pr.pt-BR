@@ -18,24 +18,18 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá sobre como atribuir ou alterar um local de emergência para usuários em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5395c74bfab124cb1036d696dd3613c920bed1e9
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465781"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537282"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Atribuir ou alterar um local de emergência para um usuário
 
-**O SEGUINTE SE APLICA A TODOS OS 3?**
+Um local de emergência precisa ser atribuído a cada número de telefone ou usuário. Para obter mais informações sobre endereços e locais de emergência, consulte [O que são locais de emergência, locais e roteamento de chamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).
 
-**Um local de emergência precisa ser atribuído a cada número de telefone ou usuário. Para obter mais informações sobre endereços e locais de emergência, consulte [O que são locais de emergência, locais e roteamento de chamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).**
-
-**Para Planos de Chamadas da Microsoft, em países europeus, o local de emergência é associado ao número de telefone quando você o Microsoft 365 ou quando você transfere um número de telefone para Microsoft 365. Nos Estados Unidos, o local de emergência é associado ao número de telefone quando é atribuído ao usuário. O endereço de emergência pode ser alterado se o usuário atribuído a ele se mover para um novo local.**
-
-**Para operador Conexão, ...**
-
-**Para Roteamento Direto,...**
+Para Planos de Chamadas da Microsoft, em países europeus, o local de emergência é associado ao número de telefone quando você o Microsoft 365 ou quando você transfere um número de telefone para Microsoft 365. Nos Estados Unidos, o local de emergência é associado ao número de telefone quando é atribuído ao usuário. O endereço de emergência pode ser alterado se o usuário atribuído a ele se mover para um novo local.
   
 Você pode atribuir ou alterar um local de emergência para um usuário no centro de administração Microsoft Teams ou usando o PowerShell.
 

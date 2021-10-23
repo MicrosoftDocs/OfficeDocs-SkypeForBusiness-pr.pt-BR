@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como rotear chamadas para números não atribuídos em sua organização.
-ms.openlocfilehash: 630ee818113cfb69bc25eb893ab384d186ff4137
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60466031"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536992"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Roteamento de chamadas para números não atribuídos
 
@@ -39,7 +39,7 @@ Como administrador, você pode rotear chamadas para números não atribuídos em
 
 - Rotee todas as chamadas para um determinado número não atribuído para o quadro de alternados principal.
 
-Você pode rotear chamadas para números não atribuídos para um usuário, para uma conta de recurso associada a um Atendedor Automático ou uma Fila de Chamadas ou para um serviço de anúncio que reproduzirá um arquivo de áudio personalizado para o chamador. O arquivo de áudio será reproduzindo repetidamente até o chamador ser travado.
+Você pode rotear chamadas para números não atribuídos para um usuário, para uma conta de recurso associada a um Atendedor Automático ou uma Fila de Chamadas ou para um serviço de anúncio que reproduzirá um arquivo de áudio personalizado para o chamador.
 
 ## <a name="configuration"></a>Configuração
 
@@ -51,7 +51,7 @@ Você precisa especificar o número ou intervalo de números chamado e o roteame
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
 
 
-New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -Priority 1
+New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
 O próximo exemplo especifica que todas as chamadas para o intervalo de números +1 (555) 333-0000 a +1 (555) 333-9999 serão roteados para o serviço de anúncio, que reproduzirá o arquivo de áudio MainAnnouncement.wav para o chamador.
@@ -63,7 +63,7 @@ $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content 
 
 $fid = [System.Guid]::Parse($AudioFile.Id)
 
-New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -Priority 2
+New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -TreatmentPriority 2
 ```
 
 ## <a name="notes"></a>Observações

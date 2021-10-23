@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Os administradores podem controlar o tipo de audioconferência e chamadas PSTN do usuário final que podem ser feitas pelos usuários.
-ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730320"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536872"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída de Audioconferências e Chamadas PSTN do usuário
 
@@ -49,7 +49,7 @@ Para descobrir quais países e regiões são considerados Zona A, consulte Zonas
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir chamadas de saída de audioconferência
 
-![o Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+**Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, selecione **Usuários** e selecione o nome de exibição do usuário na lista de usuários disponíveis.
 
@@ -59,20 +59,6 @@ Para descobrir quais países e regiões são considerados Zona A, consulte Zonas
 
 5. Selecione **Salvar**.
 
-![Um ícone mostrando o logotipo Skype for Business.](media/sfb-logo-30x30.png) **Usando o Skype for Business de administração**
-
-1. No centro **Skype for Business** de administração , na navegação à esquerda, vá para Usuários de Audioconferência e selecione o usuário na lista de usuários   >  disponíveis.
-
-2. No painel Ação, selecione **Editar**.
-
-3.  Em **Restrições a discagem de reuniões desse usuário,** selecione a opção de restrição de discagem que você deseja.
-
-      ![As opções Restrições para discagem.](media/restrictions-to-dial-outs.png)
-
-4. Selecione **Salvar**.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 **Usando o Windows PowerShell**
 
@@ -82,13 +68,13 @@ Você pode usar o cmdlet Get-CSOnlineDialOutPolicy para exibir as políticas de 
 
 **De definir a política em um nível por usuário com o cmdlet a seguir.** (O cmdlet Grant não contém a palavra "Online" como o cmdlet Get faz.)
 
-```
+```powershell
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
 **De definir a política no nível do locatário com o cmdlet a seguir.**
 
-```
+```powershell
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
 ```
 
