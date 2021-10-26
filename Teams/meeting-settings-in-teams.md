@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: 25d66dfc6487d411185e421a7bdef07c1e135156
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730640"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537092"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -37,7 +37,7 @@ Como administrador, você usa as configurações de reunião do Teams para contr
 
 Com o ingresso anônimo, qualquer pessoa pode ingressar na reunião como um usuário anônimo clicando no link do convite para a reunião. Para saber mais, consulte [Ingressar em uma reunião sem uma conta do Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-![Um ícone mostrando o logotipo do Microsoft Teams.](media/teams-logo-30x30.png) **Usando centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
@@ -59,7 +59,7 @@ Os usuários anônimos agora herdarão a política de permissão padrão global 
 > [!IMPORTANT]
 > Por padrão, a configuração para permitir que usuários anônimos interajam com aplicativos em reuniões está habilitada.
 
-![Um ícone mostrando o logotipo do Microsoft Teams.](media/teams-logo-30x30.png) **Usando centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 Você deve ser um administrador de serviço do Teams para acessar esta configuração. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
@@ -86,7 +86,7 @@ Você pode personalizar os convites de reunião do Teams para atender às necess
 
 ### <a name="customize-your-meeting-invitations"></a>Personalize seus convites para reuniões
 
-![Um ícone mostrando o logotipo do Microsoft Teams.](media/teams-logo-30x30.png) **Usando centro de administração do Microsoft Teams**
+ **Usando o centro de administração do Microsoft Teams**
 
 1. Vá para o centro de administração.
 2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
@@ -111,7 +111,7 @@ Se estiver usando Qualidade de serviço (QoS) para priorizar o tráfego de rede,
 > [!IMPORTANT]
 > Se você habilitar o QoS ou alterar as configurações no centro de administração do Microsoft Teams para o serviço Teams, também precisará [ aplicar configurações correspondentes a todos os dispositivos do usuário](QoS-in-Teams-clients.md) e todos os dispositivos de rede internos para implementar totalmente as alterações de QoS no Teams.
 
- ![Um ícone mostrando o logotipo do Microsoft Teams.](media/teams-logo-30x30.png) **Usando centro de administração do Microsoft Teams**
+  **Usando o centro de administração do Microsoft Teams**
 1. Vá para o centro de administração.
 2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
 3. Em **Rede**, faça o seguinte:
@@ -121,9 +121,9 @@ Se estiver usando Qualidade de serviço (QoS) para priorizar o tráfego de rede,
     - Para permitir que marcadores DSCP sejam usados para QoS, ative **Inserir marcadores Quality of Service (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar ou não usar marcadores; você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para obter mais informações sobre marcadores DSCP.
         > [!NOTE]
         > A marcação DSCP é normalmente feita por meio de portas de origem e o tráfego UDP será roteado para o retransmissão de transporte com a porta de destino 3478 por padrão. Se sua empresa exigir marcação nas portas de destino, entre em contato com o suporte para habilitar a comunicação com o Transport Relay com as portas UDP 3479 (Áudio), 3480 (Vídeo) e 3481 (Compartilhamento).
-    - Para especificar intervalos de portas, ao lado de **Selecione um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecione **Especificar intervalos de portas** e insira as portas inicial e final para compartilhamento de áudio, vídeo e tela. A seleção desta opção é necessária para implementar a QoS. 
+    - Para especificar os intervalos de portas, ao lado de **Selecionar um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecionar  **Especificar intervalos de portas**, e então digitar as portas inicial e final para áudio, vídeo e compartilhamento de tela. A seleção desta opção é necessária para implementar a QoS. 
         > [!Note]
-        > Se **Marcadores de qualidade de serviço (QoS) para tráfego de mídia em tempo real** está ligado, então você deve gerenciar suas configurações de porta.  Eles não são gerenciados automaticamente.
+        > Se **Marcadores de Qualidade de Serviço (QoS) para tráfego de mídia em tempo real** estiver ligado, então você tem que gerenciar suas configurações de porta. Eles não são gerenciados automaticamente.
         
         > [!IMPORTANT]
         > Se você selecionar **Usar automaticamente qualquer porta disponível**, serão usadas portas disponíveis entre 1024 e 65535. Use esta opção apenas quando não estiver implementando a QoS.
@@ -143,4 +143,4 @@ Tipo de tráfego de mídia| Intervalo de portas de origem do cliente \* |Protoco
 
 \* Os intervalos de porta que você atribui não podem se sobrepor e devem ser adjacentes uns aos outros.
 
-Depois que a QoS estiver em uso por um tempo, você terá informações de uso sobre a demanda para cada uma dessas três cargas de trabalho e poderá escolher as alterações a serem feitas com base em suas necessidades específicas. O [Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md) ajudará com isso.
+Depois que a QoS estiver em uso por algum tempo, você terá informações de uso sobre a demanda para cada uma dessas três cargas de trabalho, e poderá escolher que mudanças fazer com base em suas necessidades específicas. [O Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md) será útil para isso.

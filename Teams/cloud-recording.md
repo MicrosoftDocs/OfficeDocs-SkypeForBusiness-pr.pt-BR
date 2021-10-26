@@ -19,12 +19,12 @@ description: Orientação prática para a implantação de recursos de voz em nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462385"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536892"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -261,9 +261,9 @@ O tamanho de uma gravação de 1 hora é de 400 MB. Certifique-se de entender a 
 >
 > O recurso de expiração automática discutido neste artigo ainda não foi iniciado. Consulte [o roteiro (ID do recurso: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) para obter mais informações sobre sua data de entrega.
 > 
-> Estamos fornecendo informações sobre como esse recurso funcionará no FUTURO, para que você possa planejar essa alteração e modificar as configurações de política do Teams com antecedência.
+> Estamos fornecendo informações sobre como esse recurso funcionará no futuro, para que você possa planejar essa alteração e modificar as configurações de política do Teams com antecedência.
 >
-> O CMD para alterar preventivamente a configuração de expiração padrão no Teams ainda não está disponível para ser definido.  Publicaremos uma postagem atualizada do centro de mensagens quando a configuração estiver disponível para modificação.
+> O comando para alterar preventivamente a configuração de expiração padrão no Teams está atualmente em implantação, mas você pode ver o atributo no PowerShell. No momento, a configuração não está disponível nos centros de administração do Teams. Essas configurações estarão disponíveis e serão comunicadas em uma postagem do centro de mensagens pelo menos 30 dias antes de lançarmos o recurso.
 >
 >
 
@@ -309,7 +309,7 @@ Sim, a data de validade é definida por arquivo. Os usuários podem modificar a 
 
 **Como um administrador pode alterar a data de expiração?**
   
-Os administradores poderão alterar a configuração de expiração padrão no PowerShell ou no centro de administração do Teams antes do lançamento do recurso. **A configuração ainda não está disponível para modificação**. Publicaremos uma postagem atualizada do centro de mensagens quando a configuração estiver disponível para modificação. Quando o recurso é iniciado, os administradores podem alterar essa configuração no centro de administração do Teams. Alterar as configurações de expiração afetará apenas TMRs recém-criados desse ponto em diante. Isso não afetará as gravações feitas antes dessa data. 
+Os administradores poderão alterar a configuração de expiração padrão no PowerShell ou no centro de administração do Teams antes do lançamento do recurso. Alterar as configurações de expiração afetará apenas TMRs recém-criados desse ponto em diante. Isso não afetará as gravações feitas antes dessa data. As novas gravações não expiram automaticamente até que o recurso seja lançado, mesmo que você possa definir o atributo de política antes de ser lançado.
 
 Os valores dos dias de expiração podem ser definidos da seguinte forma:
   
@@ -317,6 +317,12 @@ Os valores dos dias de expiração podem ser definidos da seguinte forma:
 - O valor também pode ser -1 para definir TMR para nunca expirar. 
  
 Os administradores não podem alterar a data de expiração de TMRs existentes já carregados no OneDrive ou no Microsoft Office SharePoint Online antes do lançamento desse recurso. Isso protege a intenção do usuário que possui a TMR.
+  
+Para alterar o comportamento padrão de expiração automática para seu locatário, modifique o atributo a seguir no PowerShell. Neste exemplo, o padrão é alterado para 50 dias.
+ 
+Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDays 50
+
+A capacidade de alterar a configuração padrão no centro de administração do Teams será implantada posteriormente, pelo menos 30 dias antes de ativarmos o recurso de expiração automática por padrão.
   
 **Um administrador pode definir TMRs para nunca expirar?**
   
@@ -459,7 +465,7 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
    > [!div class="nextstepaction"]
    > [Executar testes: gravação de reunião ausente](https://aka.ms/MissingRecordingDiag)
 
-2. No painel Executar diagnóstico, insira a URL da reunião no campo **URL da reunião que foi gravada** (geralmente encontrada no convite da reunião), e a data da reunião em **Quando a reunião foi gravada? ** campo e selecione **Executar Testes**.
+2. No painel Executar diagnóstico, insira a URL da reunião no campo **URL da reunião que foi gravada** (geralmente encontrada no convite da reunião), e a data da reunião no campo **Quando a reunião foi gravada? ** e selecione **Executar Testes**.
 
 3. Os testes validam se a gravação da reunião foi concluída com êxito e foi carregada no Stream ou no OneDrive.
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 34c255dab5f2f231735abeba9a03ed091d10c205
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731940"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536562"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 
@@ -73,11 +73,11 @@ Além disso, se a moderação estiver configurada, os proprietários e membros d
 
 **Configurações da equipe** 
 
-Os proprietários de equipe podem gerenciar as configurações de toda a equipe diretamente no Teams. As configurações incluem a capacidade de adicionar uma imagem da equipe, permissões de configuração entre os membros da equipe para criar canais padrão e [canais privados](private-channels.md); poder adicionar guias e conectores, @menção da equipe ou canal completo e a utilização de GIFs, figurinhas e memes.
+Os proprietários das equipes podem gerenciar as configurações de toda a equipe diretamente no Teams. As configurações incluem a capacidade de adicionar uma imagem da equipe, definir permissões entre os membros da equipe para criar canais padrão e [privados](private-channels.md), adicionar guias e conectores, @menção de toda a equipe ou canal, e o uso de GIFs, adesivos e memes.
 
 Se você for um administrador do Teams no Microsoft 365, terá acesso às configurações de todo o sistema no Centro de administração do Teams. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode ativar um canal padrão, "Geral", para anúncios, discussões e recursos em toda a equipe, que será exibido em todas as equipes.
 
-Por padrão, todos os usuários têm permissão para criar uma equipe. Para modificar isso, consulte [Atribuir funções e permissões no Teams](assign-roles-permissions.md).
+Por padrão, todos os usuários têm permissões para criar uma equipe. Para modificar isto, veja [Atribuir funções e permissões no Teams](assign-roles-permissions.md).
 
 Uma atividade importante de planejamento inicial para envolver os usuários com o Teams é ajudar as pessoas a pensarem e compreenderem como o Teams pode aprimorar a colaboração no seu dia a dia. Converse com as pessoas e ajude-as a selecionar cenários de negócios em que elas estejam colaborando atualmente de maneira fragmentada. Reúna-os em um canal com as guias relevantes que os ajudarão a realizar seu trabalho. Um dos casos de uso mais eficientes do Microsoft Teams é em qualquer processo multiorganizacional.
 
@@ -111,7 +111,7 @@ O Teams é ótimo para quebrar silos organizacionais e promover equipes multifun
 
 ## <a name="org-wide-teams"></a>Equipes de toda a organização
 
-Se sua organização não tiver mais de 5.000 usuários, você poderá criar uma equipe de toda a organização. Equipes que abrangem toda a organização fornecem uma maneira automática para que todos em uma organização façam parte de uma única equipe para colaboração. Para obter mais informações, incluindo práticas recomendadas para criar e gerenciar uma equipe de toda a organização, consulte [Criar uma equipe de toda a organização no Microsoft Teams](create-an-org-wide-team.md).
+Se sua organização não tiver mais de 10.000 usuários, você pode criar uma equipe em toda a organização. Equipes que abrangem toda a organização fornecem uma maneira automática para que todos em uma organização façam parte de uma única equipe para colaboração. Para obter mais informações, incluindo práticas recomendadas para criar e gerenciar uma equipe de toda a organização, consulte [Criar uma equipe de toda a organização no Microsoft Teams](create-an-org-wide-team.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 
