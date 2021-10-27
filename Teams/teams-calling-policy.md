@@ -20,14 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88e4da290fe19f852d18687227768535d405ebd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636745"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60596854"
 ---
-#  <a name="calling-and-call-forwarding-in-teams"></a>Chamada e encaminhamento de chamada no Teams
+# <a name="calling-and-call-forwarding-in-teams"></a>Chamada e encaminhamento de chamada no Teams
 
 Em Microsoft Teams, as políticas de chamada controlam quais recursos de encaminhamento de chamada e chamada estão disponíveis para os usuários. As políticas de chamadas determinam se um usuário pode fazer chamadas privadas, usar encaminhamento de chamadas ou toque simultâneo para outros usuários ou números de telefone externos, rotear chamadas para caixa postal, enviar chamadas para grupos de chamadas, usar delegação para chamadas de entrada e saída e assim por diante.
 
@@ -65,7 +65,7 @@ Essa configuração controla todos os recursos de chamada Teams. Desativar isso 
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Encaminhamento de chamada e toque simultâneo para pessoas em sua organização
 
-Essa configuração controla se as chamadas de entrada podem ser encaminhadas para outros usuários ou podem tocar outra pessoa ao mesmo tempo. 
+Essa configuração controla se as chamadas de entrada podem ser encaminhadas para outros usuários ou podem tocar outra pessoa ao mesmo tempo.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Encaminhamento de chamadas e toque simultâneo para números de telefone externos
 
