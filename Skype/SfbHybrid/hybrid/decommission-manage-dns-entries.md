@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instruções sobre como gerenciar entradas DNS ao descomissionar seu ambiente local Skype for Business ambiente.
-ms.openlocfilehash: 70255314ecf87d55ef578a4daa0390b46179349c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7c6e803b089d8a34703dc26ea93e207c6d7aedf6
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735318"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579661"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>Atualizar entradas DNS para permitir que sua organização seja Teams Somente
 
@@ -35,7 +35,7 @@ Ao tentar conceder o TeamsOnly a todo o locatário, o Teams verificará o DNS pa
 
 ## <a name="how-to-identify-stale-dns-records"></a>Como identificar registros DNS antigos
 
-Para identificar todos os registros DNS que impeçam sua organização de se tornar Teams somente Teams, você pode usar o centro de administração Teams para alterar o modo de coexistência para o TeamsOnly. Vá para **Configuração em toda a**  ->  **organização Teams Atualização**. Quaisquer registros DNS que impeçam que a organização se torne Teams somente serão incluídos na mensagem de erro.  Caso nenhum registro DNS seja encontrado, o modo de coexistência da sua organização será alterado para TeamsOnly.   
+Para identificar todos os registros DNS que impeçam sua organização de se tornar Teams somente Teams, você pode usar o centro de administração Teams para alterar o modo de coexistência para o TeamsOnly. Vá para **Teams**  >  **Teams configurações de atualização**. Quaisquer registros DNS que impeçam que a organização se torne Teams somente serão incluídos na mensagem de erro.  Caso nenhum registro DNS seja encontrado, o modo de coexistência da sua organização será alterado para TeamsOnly.   
 
 Como alternativa, você pode usar Teams PowerShell para fazer o mesmo, conforme mostrado abaixo:
 

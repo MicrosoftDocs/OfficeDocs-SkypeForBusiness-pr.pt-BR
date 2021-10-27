@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone de trabalho para seus usuários Teams para que empresas e clientes externos possam chamar.
-ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536502"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579511"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -38,6 +38,9 @@ Antes de atribuir um número para um usuário Conexão plano de chamada ou opera
   
 > [!NOTE]
 > Uma maneira de ver se um usuário tem uma licença atribuída é indo para o Microsoft Teams de administração > **Usuários**. Se uma licença for atribuída, ela será indicada na página.  Você também pode usar o Centro de administração do Microsoft 365.
+
+> [!NOTE]
+> Esta observação se aplica aos clientes que têm uma implantação híbrida com um Active Directory local. Se você deseja atribuir um plano de chamada ou um número de telefone de operador Conexão a um usuário ou conta de recurso, certifique-se de que o número de telefone no Active Directory local foi removido e que a alteração foi sincronizada com Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Atribuir um número de telefone a um usuário
 
