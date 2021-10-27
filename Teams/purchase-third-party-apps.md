@@ -16,12 +16,12 @@ description: Saiba como comprar aplicativos de terceiros para Teams no Microsoft
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 6d7a6e1a38327cef327a9de119321127b58909fb
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 19403d35ad2e7263ad6f0d5a2c7a2b22d4249664
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367528"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600215"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicativos de terceiros para Teams
 
@@ -55,11 +55,7 @@ Aqui, você também pode comprar licenças para serviços oferecidos por aplicat
 > [!NOTE]
 > Você precisa ser um administrador global para adicionar uma nova conta de cobrança.
 
-7. Verifique se o perfil de cobrança correto está selecionado. Se você ainda não tiver um, adicione um novo selecionando **Adicionar novo**. Você tem a opção de pagar com um cartão de crédito, cartão de débito ou com cobrança de fatura. O perfil de cobrança também permite adicionar um número de pedido de compra para identificar seu pedido posteriormente. Para obter mais informações sobre perfis de cobrança, consulte [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
-
-> [!NOTE]
-> A cobrança de faturas só está disponível para transações acima de US$ 500.
-
+7. Verifique se o perfil de cobrança correto está selecionado. Se você ainda não tiver um, adicione um novo selecionando **Adicionar novo**. Você tem a opção de pagar com um cartão de crédito, cartão de débito ou com cobrança [de fatura.](#invoice-billing) O perfil de cobrança também permite adicionar um número de pedido de compra para identificar seu pedido posteriormente. Para obter mais informações sobre perfis de cobrança, consulte [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
 8. Selecione **Colocar ordem**.
 9. Selecione **Configurar para** ativar sua assinatura no site do editor. Se você não configurar sua assinatura após a compra, poderá fazer isso mais tarde selecionando **Gerenciar licenças.**
 
@@ -75,7 +71,14 @@ Selecione **Gerenciar licenças** para ir para o Centro de administração do Mi
 Os administradores globais podem adicionar mais licenças, remover licenças e cancelar assinaturas para compras feitas por qualquer pessoa na organização. Teams administradores de serviço podem executar as mesmas ações para compras feitas por si mesmos. No entanto, se um Teams de serviço também tiver a função de administrador de Cobrança, ele poderá gerenciar compras feitas por qualquer pessoa na organização.
 
 > [!NOTE]
-> Se um administrador global quiser gerenciar uma assinatura comprada por outro administrador global, ele precisará estar na mesma conta de cobrança. Você pode dar outro acesso de administrador global a uma assinatura que você comprou selecionando o aplicativo no Centro de administração do Microsoft 365. A partir daí, vá para **Exibir perfil de cobrança** Selecione conta de cobrança Atribuir  >    >  **funções** Adicionar outros  >  **administradores globais**.
+> Se um administrador global quiser gerenciar uma assinatura comprada por outro administrador global, ele precisará estar na mesma conta de cobrança. Você pode dar a outro administrador global acesso a uma assinatura que você comprou selecionando o aplicativo no Centro de administração do Microsoft 365. A partir daí, vá para **Exibir perfil de cobrança** Selecione conta de cobrança Atribuir  >    >  **funções** Adicionar outros  >  **administradores globais**.
+
+### <a name="invoice-billing"></a>Cobrança de faturas
+
+- A cobrança de faturas está disponível como uma opção de pagamento para algumas transações.
+- Uma revisão de crédito é necessária na primeira vez que você usa cobrança de fatura, que pode levar de 24 a 48 horas para aprovação. A cobrança de faturas não estará disponível até que a verificação de crédito seja concluída. Você pode fazer seu pedido com um cartão de crédito ou tentar novamente mais tarde depois que sua revisão de crédito for aprovada.
+- A cobrança de faturas só está disponível para administradores globais ou administradores com Teams de serviço e permissões de administrador de cobrança.
+- A cobrança de faturas não está disponível ao comprar um plano com uma avaliação gratuita de 30 dias.
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Tem uma oferta saaS para um aplicativo Teams que você deseja listar e vender no centro de administração Microsoft Teams e AppSource?
 

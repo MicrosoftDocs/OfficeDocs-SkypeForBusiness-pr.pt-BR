@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre os requisitos de suporte Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e exibições.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0cd552a743df29cc16ca40df2ebe6e48dda95fe
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 2634f7f48a1735f8b8421bc43598fc142db1a53b
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356459"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600255"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -79,6 +79,7 @@ Todos os pacotes e dispositivos da Sala do Microsoft Teams estão disponíveis e
   |Lenovo ThinkSmart Core Kit |Core i5|8 GB|128 GB|
   |[Tocar logitech com o Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Computador NUC do Tap logitech Tap e Intel Tiger Canyon |Core i5|8 GB|128 GB|
+  |Console TAP da Logitech com Computação Do Lenovo Core |Core i5|8 GB|128 GB|
   |[Logitech Tap e Lenovo ThinkSmart Minúsculo](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T com Lenovo ThinkSmart Minúsculo](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[Yealink MVC300 com Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
