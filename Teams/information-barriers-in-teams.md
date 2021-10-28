@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0843ce2adf400dca9cf426789adc6180daf3f57
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2d0452ff05b368e00875f31c365db59ec13d0ec7
+ms.sourcegitcommit: 9033c0c998c95ff37d0afd13c5c3ba598d58feb6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465841"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60607395"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informações no Microsoft Teams
 
@@ -198,9 +198,6 @@ Por exemplo, para configurar o modo *Implícito* para um grupo Microsoft 365, vo
 ```powershell
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
-
->[!NOTE]
->Se o administrador global atualizar o modo IB de um grupo de Microsoft 365 existente conectado ao Microsoft Teams *a Implícito,* atualize o modo IB do site Teams conectado como *Implícito*. Para obter mais informações, [consulte Get started with information barriers](/microsoft-365/compliance-information-barriers.md#information-barriers-modes-preview)]
 
 Para obter mais informações sobre como os usuários podem ser removidos automaticamente dos grupos, consulte o artigo Assistente de [conformidade de barreiras](/sharepoint/information-barriers-compliance-assistant) de informações (visualização).
 
