@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60596854"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60606950"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Chamada e encaminhamento de chamada no Teams
 
@@ -87,7 +87,7 @@ Essa configuração controla se as chamadas de entrada podem ser encaminhadas pa
 
 Essa configuração permite que as chamadas de entrada sejam roteados para representantes, permitindo que os representantes façam chamadas de saída em nome dos usuários para os quais eles delegaram permissões. Para obter mais informações, [consulte Compartilhar uma linha telefônica com um representante](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Impedir o desvio de chamada e enviar chamadas por meio da PSTN 
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Impedir o desvio de chamada e enviar chamadas por meio da PSTN
 
 Definir isso como **On** enviará chamadas por meio da PSTN e incorre em encargos em vez de enviá-las pela rede e ignorar os pedágios.
 
@@ -111,4 +111,4 @@ Essa configuração permite ativar ou desativar a música em espera quando um ch
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Atribua políticas a seus usuários no Teams](assign-policies.md)
+[Atribua políticas a seus usuários no Teams](policy-assignment-overview.md)
