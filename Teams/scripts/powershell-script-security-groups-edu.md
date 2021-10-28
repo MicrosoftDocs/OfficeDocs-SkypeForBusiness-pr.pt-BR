@@ -1,7 +1,7 @@
 ---
 title: Exemplo de script do PowerShell - Criar grupos de segurança para educadores e alunos em sua escola
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3cb1f40d79c25b7e0832c5d1576427b83ba980b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05b94c3c5deedcaf0cc375685eb00555288c3b24
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577805"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605157"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemplo de script do PowerShell - Criar grupos de segurança para educadores e alunos em sua escola
 
-Use este script do PowerShell para criar os grupos de segurança que você precisa gerenciar Microsoft Teams políticas em sua escola. O [recurso de atribuição](../assign-policies.md#assign-a-policy-to-a-group) de política a grupos Teams permite atribuir uma política a um grupo de usuários, como um grupo de segurança. As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência. À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas.
+Use este script do PowerShell para criar os grupos de segurança que você precisa gerenciar Microsoft Teams políticas em sua escola. O [recurso de atribuição](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de política a grupos Teams permite atribuir uma política a um grupo de usuários, como um grupo de segurança. As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência. À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas.
 
 Esse script do PowerShell cria dois grupos de segurança, um para funcionários e educadores e outro para alunos em sua escola, com base no tipo de licença. Em seguida, você pode atribuir políticas aos grupos de segurança criados. Para obter mais informações sobre como usar esse script, consulte [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).
 
@@ -39,7 +39,7 @@ Este script faz o seguinte:
 Você precisará executar esse script regularmente para manter os grupos de segurança atualizados e atualizados.
 
 > [!IMPORTANT]
-> É importante entender as regras [de precedência](../assign-policies.md#precedence-rules) e a classificação de atribuição de [grupo](../assign-policies.md#group-assignment-ranking) ao atribuir políticas a grupos. Leia e entenda os conceitos em O que você precisa saber sobre a atribuição de [política a grupos.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> É importante entender as regras [de precedência](../assign-policies-users-and-groups.md#precedence-rules) e a classificação de atribuição de [grupo](../assign-policies-users-and-groups.md#group-assignment-ranking) ao atribuir políticas a grupos. Leia e entenda os conceitos em O que você precisa saber sobre a atribuição de [política a grupos.](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ## <a name="before-you-start"></a>Antes de começar
 
@@ -275,4 +275,4 @@ Stop-Transcript
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Atribua políticas a seus usuários no Teams](../assign-policies.md)
+[Atribua políticas a seus usuários no Teams](../policy-assignment-overview.md)

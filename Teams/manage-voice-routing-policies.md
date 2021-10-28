@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como criar e gerenciar políticas de roteamento de voz Microsoft Teams.
-ms.openlocfilehash: 1717f1b0400f67346034bd9e92bd698305fdd324
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d9bd26f2322d9b99b0e2ff8e8ba01f0569abc24e
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727090"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605573"
 ---
 # <a name="manage-voice-routing-policies-for-direct-routing"></a>Gerenciar políticas de roteamento de voz para Roteamento Direto
 
@@ -78,4 +78,4 @@ Consulte também [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/gra
 
 [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
 
-[Atribua políticas a seus usuários no Teams](assign-policies.md)
+[Atribua políticas a seus usuários no Teams](policy-assignment-overview.md)

@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7ed3de69ed5deffcd0681f9f040dfeb074b2aa1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c41219f080e2270ed27d52688a03891f74ac26d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596345"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605357"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
@@ -80,7 +80,7 @@ Estas são as configurações que a maioria das organizações deseja alterar (s
 
 O Teams fornece um conjunto de funções de administrador personalizado que pode ser usado para administrar o Teams para sua organização. As funções fornecem vários recursos aos administradores. 
 
-| Pergunte a si mesmo | Ação |
+| Pergunte-se | Ação |
 |--------------|--------|
 |A quem será atribuída a função de Administrador de Comunicações de Equipes?|Para saber mais sobre as funções de administrador do Teams, confira [Usar funções de administrador para gerenciar o Microsoft Teams](using-admin-roles.md).|
 |A quem será atribuída função de Engenheiro de Suporte de Comunicações de Equipes?|Para atribuir funções de administrador, confira [Atribuir funções de administrador e não administrador aos usuários com o Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
@@ -103,7 +103,7 @@ As políticas de reunião servem para controlar quais recursos estão disponíve
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-|<ul><li>Personalizarei as políticas inicias de reunião?</li><li>Devo exigir várias políticas de reunião?</li><li>Como determinarei a quais grupos de usuários aplicar certas políticas de reunião?</li></ul>|<br>Leia [Gerenciar políticas de reunião no Teams](meeting-policies-in-teams.md).|
+|<ul><li>Personalizarei as políticas inicias de reunião?</li><li>Devo exigir várias políticas de reunião?</li><li>Como determinarei a quais grupos de usuários aplicar certas políticas de reunião?</li></ul>|<br>Leia [Gerenciar políticas de reunião no Teams](meeting-policies-overview.md).|
 |||
 
 ### <a name="audio-conferencing"></a>Audioconferência
@@ -137,12 +137,12 @@ Use relatórios de atividade para ver como os usuários da organização estão 
 
 Convém alterar essas configurações, com base nas necessidades da organização e da configuração.
 
-### <a name="bandwidth-planning"></a>Planejamento de largura de banda 
+### <a name="bandwidth-planning"></a>Planejamento de largura de banda
 
 Com o planejamento de largura de banda, as organizações podem calcular a largura de banda necessária para dar suporte às reuniões nas redes de longa distância e aos links da Internet. Dessa forma, elas podem confirmar se a rede foi provisionada corretamente para fornecer suporte à expansão do serviço de reunião.
 
 > [!IMPORTANT]
-> O Teams não permite que os usuários agendem reuniões ou eventos ao vivo quando estiverem offline ou executando com largura de banda limitada. 
+> O Teams não permite que os usuários agendem reuniões ou eventos ao vivo quando estiverem offline ou executando com largura de banda limitada.
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
@@ -160,7 +160,7 @@ Para saber mais, confira [Gravação de reuniões na nuvem do Microsoft Teams](c
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-| Ativarei o serviço de transcrição de reunião?|Confira [Ativar ou desativar a transcrição de gravações](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
+| Ativarei o serviço de transcrição de reunião?|Confira [Ativar ou desativar a transcrição de gravações](meetings-policies-recording-and-transcription.md#allow-transcription)|
 |||
 
 
@@ -209,7 +209,7 @@ Quando planejar uma implementação abrangente de dispositivos pessoais para dar
 
 O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade da chamada: [Análise de Chamadas e Painel de Qualidade de Chamadas](monitor-call-quality-qos.md). A Análise de Chamadas exibe informações detalhadas sobre dispositivos, redes e conectividade relacionados a chamadas e reuniões específicas para cada usuário. A Análise de Chamadas foi desenvolvida para ajudar administradores e agentes de assistência técnica a solucionar problemas de qualidade de chamadas com chamadas específicas, enquanto o Painel de Qualidade de Chamadas foi desenvolvido para ajudar administradores e engenheiros de rede a otimizar uma rede. O Painel de Qualidade de Chamadas desloca o foco de usuários específicos e analisa as informações agregadas de toda a organização do Teams. 
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |------------|-------|
 | Quem será responsável pelo monitoramento e a solução de problemas com a qualidade de chamadas? | Confira [Usar a Análise de Chamadas para solucionar problemas de baixa qualidade de chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md) para saber mais sobre os níveis de permissão necessários para solucionar problemas de qualidade de chamadas.|
 |||

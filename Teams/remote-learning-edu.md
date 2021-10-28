@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729810"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605837"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -93,12 +93,12 @@ Para obter instruções sobre como criar no Teams, confira: [criar uma equipe de
 
 As políticas do Teams oferecem a capacidade de controlar as opções disponíveis para usuários específicos ou grupos de usuários. As políticas podem ser aplicadas para definir quem deve ter permissão para usar o chat privado, chamadas particulares, agendamento de reuniões, tipos de conteúdo que podem ser compartilhados e muito mais.
 
-**A equipe de ensino superior, professores e estudantes** se beneficiam dos recursos incluídos nas políticas padrão (globais). Algumas configurações adicionais de política podem ser habilitadas para adicionar mais funcionalidade ao Microsoft Teams, incluindo o [habilitar recursos de tradução na política de mensagens](messaging-policies-in-teams.md#messaging-policy-settings) e [permitir a transcrição automática da reunião](meeting-policies-in-teams.md#allow-transcription) na política de reunião.
+**A equipe de ensino superior, professores e estudantes** se beneficiam dos recursos incluídos nas políticas padrão (globais). Algumas configurações adicionais de política podem ser habilitadas para adicionar mais funcionalidade ao Microsoft Teams, incluindo o [habilitar recursos de tradução na política de mensagens](messaging-policies-in-teams.md#messaging-policy-settings) e [permitir a transcrição automática da reunião](meetings-policies-recording-and-transcription.md#allow-transcription) na política de reunião.
 
 Talvez seja necessário restringir os recursos fornecidos aos **estudantes de ensino básico e fundamental**. As políticas definem os limites do que os alunos podem fazer. Como a população de alunos geralmente é o maior conjunto de usuários e, muitas vezes, eles recebem as configurações mais restritivas, é recomendável que as alterações na política do aluno sejam feitas nas políticas "Globais (padrão da organização)".
 
 > [!IMPORTANT]
-> Para atender às políticas atribuídas a qualquer usuário, recomendamos definir a configuração "Admitir pessoas automaticamente" para "Todos em sua organização". Essa configuração garantirá que usuários não autenticados sejam admitidos do lobby antes que possam participar de reuniões do Teams. Para mais informações, confira [Gerenciar políticas de reunião no Teams](./meeting-policies-in-teams.md#automatically-admit-people).
+> Para atender às políticas atribuídas a qualquer usuário, recomendamos definir a configuração "Admitir pessoas automaticamente" para "Todos em sua organização". Essa configuração garantirá que usuários não autenticados sejam admitidos do lobby antes que possam participar de reuniões do Teams. Para mais informações, confira [Gerenciar políticas de reunião no Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 **Os professores e funcionários do ensino básico** devem receber políticas que concedam os principais recurso que podem ser restritos aos alunos. Crie novas políticas que permitem o agendamento de reuniões e o chat privado (as configurações padrão para uma nova política). [Atribua essas políticas em massa para sua equipe e educadores](batch-group-policy-assignment-edu.md).
 

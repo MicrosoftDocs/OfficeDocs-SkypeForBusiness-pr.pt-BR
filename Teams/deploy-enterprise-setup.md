@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f05616de4f315cee115ee9767a52eea09297dfcf
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584625"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605817"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configure o Microsoft Teams na sua empresa
 
@@ -95,7 +95,7 @@ A **Audioconferência** permite que os participantes ingressem em reuniões por 
 | Decisão | Descrição |
 |--|--|
 | Quais configurações de reunião no mundo da organização devem ser aplicadas| As políticas de reunião controlam quais recursos de reunião estão disponíveis aos organizadores e participantes de reuniões. Você pode controlar se os participantes anônimos podem participar de reuniões, personalizar os convites das reuniões, controlar como a mídia é tratada em tempo real e muito mais. Quando você altera essas configurações, elas se aplicam a todas as reuniões da sua organização. <p>[Gerenciar configurações de reunião no Microsoft Teams](meeting-settings-in-teams.md)|
-| Quais políticas de mensagens devem ser aplicadas? | As políticas de reunião são usadas para controlar os recursos disponibilizados para os participantes de reuniões programadas pelos usuários de sua organização. Você pode controlar se os usuários podem agendar reuniões privadas, habilitar a opção Reunir agora, permitir que as reuniões sejam gravadas, e assim por diante. O Teams possui uma política global que se aplica a todos.<p> Se você quiser que a mesma política se aplique a todos, você só precisa fazer alterações nessa política global (por exemplo, desligar o suporte a memes nas reuniões). <p>Se você quiser diferentes políticas para diferentes grupos de pessoas (por exemplo, uma política para funcionários de escritório e outra para executivos), você pode criar e atribuir políticas. Quando você atribui uma política a um usuário, a política global não se aplica mais a ele.<p> [Gerenciar políticas de reunião no Teams](meeting-policies-in-teams.md)|
+| Quais políticas de mensagens devem ser aplicadas? | As políticas de reunião são usadas para controlar os recursos disponibilizados para os participantes de reuniões programadas pelos usuários de sua organização. Você pode controlar se os usuários podem agendar reuniões privadas, habilitar a opção Reunir agora, permitir que as reuniões sejam gravadas, e assim por diante. O Teams possui uma política global que se aplica a todos.<p> Se você quiser que a mesma política se aplique a todos, você só precisa fazer alterações nessa política global (por exemplo, desligar o suporte a memes nas reuniões). <p>Se você quiser diferentes políticas para diferentes grupos de pessoas (por exemplo, uma política para funcionários de escritório e outra para executivos), você pode criar e atribuir políticas. Quando você atribui uma política a um usuário, a política global não se aplica mais a ele.<p> [Gerenciar políticas de reunião no Teams](meeting-policies-overview.md)|
 | Você quer permitir a gravação e o arquivamento de reuniões?| Os organizadores da reunião podem gravar e arquivar reuniões na nuvem. Você pode ativar ou desativar a gravação e o arquivamento de reuniões usando as políticas de reunião.<p> [Gravação de reuniões na nuvem do Teams](cloud-recording.md) |
 
 ### <a name="audio-conferencing"></a>Audioconferência
@@ -145,12 +145,12 @@ O Teams e o Microsoft 365 fornecem muitas ferramentas que podem ajudá-lo a fica
 | [Conformidade de comunicações](communication-compliance.md)| Ajuda a reduzir os riscos de comunicação ao identificar e adotar medidas quanto a linguagem ofensiva, profana e assediadora; imagens de conteúdo adulto e chocante; assim como o compartilhamento de informações confidenciais. |
 | [Registros de chamadas e reuniões relacionados à política](teams-recording-policy.md)| Permite que você controle quando, ou se, as chamadas e reuniões devem ser registradas e armazenadas automaticamente para serem processadas, retidas ou analisadas posteriormente.|
 | [Rótulos de confidencialidade](sensitivity-labels.md)| Ajuda a proteger e regular o acesso às informações confidenciais, criando rótulos que reforçam as opções de privacidade selecionadas.|
-| [Prevenção contra a Perda de dados](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Permite criar regras que determinam como certas informações, tais como números de previdência social, números de cartão de crédito, entre outras, devem ser tratadas. Você pode proibir o envio de certas informações, impedindo que elas saiam da sua organização, e assim por diante.|
+| [Prevenção contra a Perda de dados](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Permite criar regras que determinam como certas informações, tais como números de previdência social, números de cartão de crédito, entre outras, devem ser tratadas. Você pode proibir o envio de certas informações, impedindo que elas saiam da sua organização, e assim por diante.|
 | [eDiscovery](eDiscovery-investigation.md)| Ajuda a procurar e recuperar conteúdo na sua organização, quando a mesma recebe exigências de descoberta nos processos judiciais. |
 | [Retenção legal](legal-hold.md)| Ajuda a reter informações na sua organização, mesmo que sejam apagadas por um usuário, quando necessário, durante processos judiciais, para que possam ser descobertas durante investigações de eDiscovery. |
 | [Pesquisa de conteúdo](content-search.md)| Fornece uma maneira de consultar as informações do Teams, que abrangem o Exchange, o SharePoint Online e o OneDrive for Business.|
 | [Auditoria](audit-log-events.md)| Permite que você consulte informações a respeito de uma ação específica, incluindo quem a executou, quando ela foi executada, o endereço de IP que foi usado, e assim por diante. A ação inclui a criação ou remoção de equipes, criação de canais, alteração de configurações no Teams, etc.|
-| [Chave do cliente](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Permite que você crie uma política de criptografia de dados usando chaves de criptografia fornecidas por você.|
+| [Chave do cliente](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Permite que você crie uma política de criptografia de dados usando chaves de criptografia fornecidas por você.|
 
 ## <a name="clients"></a>Clientes
 

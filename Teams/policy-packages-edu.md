@@ -21,19 +21,19 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 80e4b7becb720a6e4e89740ce7bf8c1c49e33af9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728160"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605377"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e pacotes de políticas para Educação
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Para obter um conhecimento amplo sobre políticas no Microsoft Teams, analise [Atribuir políticas a usuários no Microsoft Teams](assign-policies.md).
+> Para obter um conhecimento amplo sobre políticas no Microsoft Teams, analise [Atribuir políticas a usuários no Microsoft Teams](policy-assignment-overview.md).
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administradores: Introdução ao gerenciamento de política do Microsoft Teams
 
@@ -41,7 +41,7 @@ O Microsoft Teams permite que os usuários realizem ações como participar de r
 
 Aqui está uma lista das principais áreas de políticas que você encontrará no Microsoft Teams. Para saber mais sobre as políticas em cada área e os recursos que eles controlam, use os links a seguir:
 
-- [Reuniões](meeting-policies-in-teams.md)
+- [Reuniões](meeting-policies-overview.md)
 - [Eventos ao vivo](teams-live-events/configure-teams-live-events.md)
 - [Chamadas](teams-calling-policy.md) 
 - [Mensagens](messaging-policies-in-teams.md)
@@ -121,7 +121,7 @@ Um pacote de políticas no Teams coleta políticas predefinidas e configuraçõe
 
 As instituições educacionais em geral têm muitos usuários com necessidades únicas, dependendo em parte da idade e maturidade dos estudantes. Por exemplo, você pode conceder aos educadores e funcionários acesso total ao Microsoft Teams, mas deseja limitar os recursos do Microsoft Teams para que os alunos incentivem um ambiente de aprendizado seguro e focado. Você pode usar pacotes de políticas para personalizar as configurações com base nas necessidades de diferentes coortes na comunidade da sua instituição educacional.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Nossa principal recomendação é usar a definição de política global (padrão para toda a organização) para estudantes em vez de um pacote de política. Isso garante que os novos usuários nas organizações sempre tenham o conjunto de políticas mais estrito apropriado para os alunos. Se essa recomendação não atender às necessidades da sua instituição, um dos pacotes de política do aluno abaixo poderá ser uma boa alternativa. 
 
 Assim como a lista de políticas anteriormente neste artigo, os pacotes de políticas predefinem as políticas para:
@@ -180,7 +180,7 @@ Para atribuir um pacote de política a um ou vários usuários, na barra de nave
 
 ![Captura de tela de como atribuir um pacote de políticas no centro administração.](media/policy-packages-healthcare-assign.png)
 
-Para saber mais, confira [Atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
+Para saber mais, confira [Atribuir um pacote de política](assign-policy-packages.md).
 
 Se um usuário tiver uma política atribuída e, em seguida, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
 
@@ -190,13 +190,13 @@ Se um usuário tiver uma política atribuída e, em seguida, você atribuir uma 
 
 As atribuições de pacote de política aos grupos permitem atribuir várias políticas a um grupo de usuários, como uma lista de distribuição ou grupo de segurança. As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência. À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas. Esse método é recomendado para grupos de até 50.000 usuários, mas também funcionará com grupos maiores.
 
-Para saber mais, confira [Atribuir um pacote de política a um grupo](assign-policies.md#assign-a-policy-package-to-a-group).
+Para saber mais, confira [Atribuir um pacote de política a um grupo](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Atribuir um pacote de política a um conjunto grande (lote) de usuários
 
 Use a tarefa de pacote de política de lote para atribuir um pacote de política a grandes conjuntos de usuários por vez. Use o cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar um lote de usuários e o pacote de política que você deseja atribuir. As atribuições são processadas como uma operação de plano de fundo e uma ID de operação é gerada para cada lote.
 
-Um lote pode conter até 5.000 usuários. Você pode especificar os usuários por ID do objeto, UPN, endereço SIP ou endereço de email. Para saber mais, confira [Atribuir um pacote de política a um lote de usuários](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+Um lote pode conter até 5.000 usuários. Você pode especificar os usuários por ID do objeto, UPN, endereço SIP ou endereço de email. Para saber mais, confira [Atribuir um pacote de política a um lote de usuários](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Políticas que devem ser atribuídas à segurança do estudante
 

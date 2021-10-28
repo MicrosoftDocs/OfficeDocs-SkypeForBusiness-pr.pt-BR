@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de ID do chamador Microsoft Teams alterar ou bloquear a ID do chamador de Teams usuários em sua organização.
-ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a511e86efcaba8ec5dd81718bf768cc45fbf2ad0
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731220"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605427"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gerenciar políticas de identificação de chamadas no Microsoft Teams
 
@@ -70,8 +70,8 @@ Você pode editar a política global ou quaisquer políticas personalizadas que 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
 
-[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
 
-[Atribua políticas a seus usuários no Teams](assign-policies.md)
+[Atribua políticas a seus usuários no Teams](policy-assignment-overview.md)

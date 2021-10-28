@@ -1,7 +1,7 @@
 ---
 title: Gerenciar políticas de permissão de aplicativos no Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b3cacf0ef5305ac1e7bc32ba1f0c8c91ab8ec723
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2f29678b53171772bf905e2b5dfaddf3131016d9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730830"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605247"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissão de aplicativos no Microsoft Teams
 
@@ -155,4 +155,4 @@ Para políticas de permissão de aplicativo atribuídas a usuários específicos
 
 [Configurações de administrador para aplicativos no Teams](admin-settings.md)
 
-[Atribua políticas a seus usuários no Teams](assign-policies.md)
+[Atribua políticas a seus usuários no Teams](policy-assignment-overview.md)

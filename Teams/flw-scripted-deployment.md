@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 1505d8e9bd385d2dce35cb0c7dad24b5988bf0cc
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012755"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605807"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
@@ -387,7 +387,7 @@ O tratamento mínimo de erros foi implementado nesses scripts de exemplo.  Exist
 
 ## <a name="further-reading"></a>Leituras adicionais
 
-- [Novo canal da Equipe (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [Política de Mensagens para Novas Equipes (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
-- [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [Novo canal da Equipe (PowerShell)](/powershell/module/teams/new-teamchannel)
+- [Política de Mensagens para Novas Equipes (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy)
+- [Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)
 - [Atribuir licenças e contas de usuário usando o Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

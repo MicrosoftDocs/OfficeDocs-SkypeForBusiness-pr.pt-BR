@@ -1,7 +1,7 @@
 ---
 title: Teams para Infraestrutura de Área de Trabalho Virtualizada
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1353d46d77f12ea7d829f4170f6dedf335e9395
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ddd91c477f02e8e573c0850898a21b11586821ef
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729530"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605217"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -266,7 +266,7 @@ Você pode definir políticas usando o centro de administração Microsoft Teams
 
 [**Políticas de chamada**](teams-calling-policy.md): Teams inclui a política de chamada DisallowCalling interna, na qual todos os recursos de chamada estão desligados. Atribua a política DisallowCalling a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
 
-[**Políticas de**](meeting-policies-in-teams.md)reunião : Teams inclui a política de reunião AllOff interna, na qual todos os recursos de reunião estão desligados. Atribua a política AllOff a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
+[**Políticas de**](meeting-policies-overview.md)reunião : Teams inclui a política de reunião AllOff interna, na qual todos os recursos de reunião estão desligados. Atribua a política AllOff a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Atribuir políticas usando o Microsoft Teams de administração
 
@@ -322,7 +322,7 @@ Você pode usar o Microsoft Teams de administração ou o PowerShell para defini
 
 [**Políticas de chamada:**](teams-calling-policy.md)chamar políticas em Teams controle quais recursos de chamada estão disponíveis para os usuários. Teams inclui a política interna de chamada AllowCalling, na qual todos os recursos de chamada estão ativas. Para ativar todos os recursos de chamada, atribua a política AllowCalling. Ou crie uma política de chamada personalizada para ativar os recursos de chamada que você deseja e atribuí-la aos usuários.
 
-[**Políticas de**](meeting-policies-in-teams.md)reunião : as políticas de reunião em Teams controlam os tipos de reuniões que os usuários podem criar e os recursos que estão disponíveis para os participantes da reunião agendados pelos usuários em sua organização. Teams inclui a política de reunião AllOn interna, na qual todos os recursos de reunião estão ativas. Para ativar todos os recursos de reunião, atribua a política AllOn. Ou crie uma política de reunião personalizada para ativar os recursos de reunião que você deseja e atribuí-la aos usuários.
+[**Políticas de**](meeting-policies-overview.md)reunião : as políticas de reunião em Teams controlam os tipos de reuniões que os usuários podem criar e os recursos que estão disponíveis para os participantes da reunião agendados pelos usuários em sua organização. Teams inclui a política de reunião AllOn interna, na qual todos os recursos de reunião estão ativas. Para ativar todos os recursos de reunião, atribua a política AllOn. Ou crie uma política de reunião personalizada para ativar os recursos de reunião que você deseja e atribuí-la aos usuários.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Atribuir políticas usando o Microsoft Teams de administração
 

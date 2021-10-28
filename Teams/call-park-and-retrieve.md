@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba como usar o estacionamento de chamada e recuperar para colocar uma chamada em espera no Microsoft Teams.
-ms.openlocfilehash: ad35f5bdfa6cb60a842705c150f0f511ba45cb63
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: eac146ee80624152e3f0be1ab2523f848328bb95
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356499"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605797"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -65,7 +65,7 @@ Para habilitar uma política de estacionamento de chamada:
 
 Você pode editar a política selecionando-a na lista e clicando em **Editar**.
 
-Para que a política funcione, ela deve ser atribuída aos usuários. Você pode [atribuir a política aos usuários individualmente](assign-policies.md) ou atribuí-la a um grupo.
+Para que a política funcione, ela deve ser atribuída aos usuários. Você pode [atribuir a política aos usuários individualmente](assign-policies-users-and-groups.md) ou atribuí-la a um grupo.
 
 Para atribuir uma política de estacionamento de chamada a um grupo
 
@@ -82,7 +82,7 @@ Para atribuir uma política de estacionamento de chamada a um grupo
 
 [Estae uma chamada no Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
-[Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
+[Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)
 
 [New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
 

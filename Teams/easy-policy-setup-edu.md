@@ -1,7 +1,7 @@
 ---
 title: Teams para Educação Assistente de Política para aplicar facilmente políticas para aprendizado seguro
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar o assistente de política Teams para Educação para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
-ms.openlocfilehash: cafe6e9725f8b365601d3d9152187b546cf2205a
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: de58471732304cf551d3c798f7f52a3bf9be1126
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456321"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605397"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use o Assistente Teams para Educação política para aplicar facilmente políticas para um ambiente de aprendizado seguro
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O Microsoft Teams para Educação de Política simplifica o gerenciamento de políticas para seus alunos e educadores. Use-o para aplicar de forma fácil e rápida o conjunto mais importante de políticas relevantes para a criação de uma experiência de aprendizado segura e produtiva.
 
@@ -105,21 +105,21 @@ Em Teams, para uma determinada área de política, uma política pode ser aplica
 - Atribuição a um grupo de que o usuário é membro
 - Se o usuário não receber diretamente uma política ou não for membro de nenhum grupo atribuído a uma política, o usuário obtém automaticamente a política Global (padrão em toda a organização)
 
-Se mais de uma dessas atribuições de política existirem para um usuário, Teams a ordem a seguir para determinar qual atribuição de política entra em vigor. Para obter mais informações, consulte [Qual política tem precedência?](assign-policies.md#which-policy-takes-precedence) e [Regras de precedência.](assign-policies.md#precedence-rules)
+Se mais de uma dessas atribuições de política existirem para um usuário, Teams a ordem a seguir para determinar qual atribuição de política entra em vigor. Para obter mais informações, [consulte Qual política tem precedência ou](policy-assignment-overview.md#which-policy-takes-precedence) regras de [precedência para grupos](assign-policies-users-and-groups.md#precedence-rules).
 
 |Atribuições de política de um usuário|Política que entra em vigor |
 |---------|---------|
 |Política atribuída ao grupo: Não<br/>Política atribuída diretamente ao usuário: Não    |Política padrão global (em toda a organização)      |
 |Política atribuída ao grupo: Não<br/>Política atribuída diretamente ao usuário: Sim    |Política atribuída diretamente ao usuário         |
 |Política atribuída ao grupo: Sim<br/>Política atribuída diretamente ao usuário: Sim     |Política atribuída diretamente ao usuário         |
-|Política atribuída ao grupo: Sim<br/>Política atribuída diretamente ao usuário: Não     |Política atribuída ao grupo<br/><br/>Se o usuário for membro de vários grupos e cada grupo tiver uma política da mesma área de política, a política com a classificação de atribuição de grupo mais alta [entra](assign-policies.md#group-assignment-ranking) em vigor.       |
+|Política atribuída ao grupo: Sim<br/>Política atribuída diretamente ao usuário: Não     |Política atribuída ao grupo<br/><br/>Se o usuário for membro de vários grupos e cada grupo tiver uma política da mesma área de política, a política com a classificação de atribuição de grupo mais alta [entra](assign-policies-users-and-groups.md#group-assignment-ranking) em vigor.       |
 
 Devido a essa ordem, as políticas criadas pelo assistente não tomarão efeito se um usuário tiver atribuições diretas ou atribuições de grupo existentes. Isso significa que você terá que remover as atribuições de política existentes do usuário para que a política aplicada pelo assistente entre em vigor.
 
 Para cada [área de política aplicada pelo assistente,](#policies-applied-by-the-wizard)faça o seguinte:
 
 - Remova todas as atribuições diretas e atribuições de grupo existentes de seus alunos para que a definição de política Global (padrão em toda a organização) aplicada pelo assistente entre em vigor.
-- Remova quaisquer atribuições diretas conflitantes para seus educadores e funcionários para que a definição de política personalizada criada pelo assistente entre em vigor. Use a tabela acima para determinar os cenários que se aplicam a você. <br/><br/>Lembre-se de que o assistente atribui políticas aos seus educadores e grupo de funcionários usando [uma](assign-policies.md#group-assignment-ranking) classificação de atribuição de grupo de 1, que é a classificação mais alta. Se seus educadores e grupo de funcionários tiver uma política existente da mesma área de política atribuída a ela, essa política existente será movida para uma classificação mais baixa e a política atribuída pelo assistente entra em vigor.
+- Remova quaisquer atribuições diretas conflitantes para seus educadores e funcionários para que a definição de política personalizada criada pelo assistente entre em vigor. Use a tabela acima para determinar os cenários que se aplicam a você. <br/><br/>Lembre-se de que o assistente atribui políticas aos seus educadores e grupo de funcionários usando [uma](assign-policies-users-and-groups.md#group-assignment-ranking) classificação de atribuição de grupo de 1, que é a classificação mais alta. Se seus educadores e grupo de funcionários tiver uma política existente da mesma área de política atribuída a ela, essa política existente será movida para uma classificação mais baixa e a política atribuída pelo assistente entra em vigor.
 
 [Saiba mais](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) sobre como remover políticas atribuídas diretamente aos usuários.
 
@@ -235,7 +235,7 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |  |       |Apagar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Bate-papo         |Desabilitado         |Habilitado|
+|  |       |Chat         |Desabilitado         |Habilitado|
 |  |       |Usar Giphys em conversas         |Desabilitado         |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
 |  |       |Usar Memes em conversas         |Habilitado         |Habilitado|
@@ -305,7 +305,7 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 |  |       |Apagar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Bate-papo         |Habilitado         |Habilitado
+|  |       |Chat         |Habilitado         |Habilitado
 |  |       |Usar Giphys em conversas         |Habilitado        |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
 |  |       |Usar Memes em conversas         |Habilitado         |Habilitado|

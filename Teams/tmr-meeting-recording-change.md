@@ -1,7 +1,7 @@
 ---
 title: Usar o OneDrive for Business e o SharePoint para gravações de reunião
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edacf3cd2691a4f037882e25251ead3ec2521882
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6467aedfec406837dcbc79ddf6902aa95d6dde88
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011905"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605207"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -96,7 +96,7 @@ A opção de gravação de reunião é uma configuração no nível de política
    ```
 
 > [!Note]
-> Se alguns dos seus usuários tiverem atribuído uma política por organizador ou por usuário, você deve definir esta configuração nesta política se quiser que eles também armazenem as gravações de reunião no OneDrive for Business e no SharePoint. Para mais informações, confira [Gerenciar políticas de reunião no Teams](meeting-policies-in-teams.md).
+> Se alguns dos seus usuários tiverem atribuído uma política por organizador ou por usuário, você deve definir esta configuração nesta política se quiser que eles também armazenem as gravações de reunião no OneDrive for Business e no SharePoint. Para mais informações, confira [Gerenciar políticas de reunião no Teams](meeting-policies-overview.md).
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Recusar o OneDrive for Business e o SharePoint para continuar usando o Stream
 
@@ -155,7 +155,7 @@ Como vídeos são como qualquer outro arquivo no OneDrive for Business e no Shar
 
 **Como posso gerenciar as legendas?**
 
-As legendas ocultas para gravações de reunião do Teams estarão disponíveis durante a reprodução somente se o usuário tiver ativado a transcrição no momento da gravação. Os administradores devem [ativar a transcrição da gravação por meio da política](/microsoftteams/cloud-recording) para garantir que os usuários tenham a opção de gravar as reuniões com transcrição.
+As legendas ocultas para gravações de reunião do Teams estarão disponíveis durante a reprodução somente se o usuário tiver ativado a transcrição no momento da gravação. Os administradores [devem ativar a transcrição de gravação](meetings-policies-recording-and-transcription.md#allow-transcription) para garantir que seus usuários tenham a opção de gravar reuniões com transcrição.
 
 As legendas ajudam a criar conteúdo inclusivo para visualizadores de todas as habilidades. Como proprietário, você pode ocultar legendas na gravação da reunião, embora a transcrição da reunião ainda esteja disponível no Teams, a menos que você a exclua lá.
 
@@ -186,7 +186,7 @@ Confira [Como aplicar automaticamente um rótulo de retenção](/microsoft-365/c
 
 **Como atribuir políticas aos meus usuários no Microsoft Teams e quais políticas têm precedência?**
 
-Confira [Qual política tem precedência?](./assign-policies.md#which-policy-takes-precedence).
+Confira [Qual política tem precedência?](./policy-assignment-overview.md#which-policy-takes-precedence).
 
 **Para onde vai a gravação se o usuário não tiver OneDrive for Business ou SharePoint, ou se a cota de armazenamento estiver cheia?**
 

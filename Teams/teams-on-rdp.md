@@ -1,7 +1,7 @@
 ---
 title: Usar Teams com serviços de área de trabalho remota
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635635"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605567"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams serviços de área de trabalho remota
 
@@ -47,7 +47,7 @@ Você pode definir políticas usando o centro de administração Microsoft Teams
 
 [**Políticas de chamada**](teams-calling-policy.md): Teams inclui a política de chamada DisallowCalling interna, na qual todos os recursos de chamada estão desligados. Atribua a política DisallowCalling a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
 
-[**Políticas de**](meeting-policies-in-teams.md)reunião : Teams inclui a política de reunião AllOff interna, na qual todos os recursos de reunião estão desligados. Atribua a política AllOff a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
+[**Políticas de**](meeting-policies-overview.md)reunião : Teams inclui a política de reunião AllOff interna, na qual todos os recursos de reunião estão desligados. Atribua a política AllOff a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Atribuir políticas usando o Microsoft Teams de administração
 

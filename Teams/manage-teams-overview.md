@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: Roteiro para artigos sobre como gerenciar e monitorar Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9dde19876721cde124bb72f8ced2a5dc2e84102f
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279698"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605777"
 ---
 # <a name="manage-and-monitor-teams"></a>Gerenciar e monitorar Teams
 
@@ -39,7 +39,7 @@ Este artigo fornece um roteiro para o conteúdo que você precisará gerenciar e
 
 - [Comunicar-se com usuários de outras organizações.](communicate-with-users-from-other-organizations.md) Leia este artigo para entender as diferenças entre convidado e acesso externo e qual funcionalidade está disponível com ambos. Artigos adicionais nesta seção descrevem como gerenciar o acesso de convidados e externos.
 
-- [Gerenciar políticas](assign-policies.md). Leia este artigo para entender como definir e atribuir políticas para gerenciar usuários, permissões e Teams funcionalidade.
+- [Gerenciar políticas](policy-assignment-overview.md). Leia este artigo para entender como definir e atribuir políticas para gerenciar usuários, permissões e Teams funcionalidade.
 
 - [Monitore e gerencie a qualidade da chamada.](monitor-call-quality-qos.md) Leia este artigo para entender como usar as ferramentas disponíveis para monitorar e melhorar a qualidade das chamada para sua organização.
 

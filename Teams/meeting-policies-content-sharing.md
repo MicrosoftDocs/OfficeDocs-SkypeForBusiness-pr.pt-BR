@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião em Teams para compartilhamento de conteúdo.
-ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726500"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605617"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configurações de política de reunião - Compartilhamento de conteúdo
 
@@ -66,11 +66,11 @@ Essa configuração é uma política por usuário. Essa configuração controla 
 
 Se essa configuração estiver ativada para o usuário, a opção **Atribuir controle** será exibida na barra superior de uma sessão de compartilhamento.
 
-![Captura de tela mostrando a opção Dar Controle.](media/meeting-policies-give-control.png)
+![Captura de tela mostrando a opção Conceder controle.](media/meeting-policies-give-control.png)
 
-Se as configurações estiverem desativadas para o usuário, a opção **Conceder Controle** não estará disponível.
+Se as configurações estiverem desativadas para o usuário, a opção **Conceder controle** não estará disponível.
 
-![Captura de tela mostrando que a opção Dar Controle não está disponível.](media/meeting-policies-give-control-not-available.png)
+![Captura de tela mostrando que a opção Conceder controle não está disponível.](media/meeting-policies-give-control-not-available.png)
 
 Observe o exemplo a seguir.
 
@@ -144,5 +144,5 @@ Daniela pode fazer anotações nas reuniões da Amanda e a Amanda não pode faze
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
+- [Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)
 - [Remover a política de reunião do Teams RestrictedAnonymousAccess dos usuários](meeting-policies-restricted-anonymous-access.md)

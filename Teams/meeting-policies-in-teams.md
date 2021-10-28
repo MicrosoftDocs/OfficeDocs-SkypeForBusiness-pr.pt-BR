@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: 3abdf46229884996d2a0ba180a36928983c4f7d2
-ms.sourcegitcommit: 4a9ea18808d17e2eb6e4e2e7e3894e33c14e8631
+ms.openlocfilehash: 651d6ec34a86ac7e8468aac8b8a94b8e0c5f18a5
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59474946"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605237"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -579,6 +579,6 @@ As reações de reunião estão ativadas por padrão. Desativar as reações par
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
+- [Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)
 - [Remover a política de reunião do Teams RestrictedAnonymousAccess dos usuários](meeting-policies-restricted-anonymous-access.md)
 - [Preparar-se para webinars no Microsoft Teams](set-up-webinars.md)

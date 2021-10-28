@@ -1,7 +1,7 @@
 ---
 title: Controle de Administração de Locatários para reconhecimento de voz (perfil de voz) Salas do Teams
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4b67041b0fa78a43705f5421881ae751175fcdb
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: b42d60b644d202abecd061e5cece9169cd184a7d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866363"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605847"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gerenciar controles de tecnologia de reconhecimento de voz para um Alto-falante Inteligente
 
@@ -73,7 +73,7 @@ Um Alto-falante Inteligente deve ser colocado a pelo menos 20 cm de distância d
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Habilitar um reconhecimento de usuário de Alto-Falante Inteligente
 
-Os dados do perfil de voz podem ser usados em qualquer reunião com um Alto-falante Inteligente. Consulte [Teams políticas de reuniões](../meeting-policies-in-teams.md#allow-transcription) e os [cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) de reunião do PowerShell para obter informações sobre as configurações da reunião.
+Os dados do perfil de voz podem ser usados em qualquer reunião com um Alto-falante Inteligente. Consulte [Teams políticas de reuniões](../meetings-policies-recording-and-transcription.md#allow-transcription) e os [cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) de reunião do PowerShell para obter informações sobre as configurações da reunião.
 
 Os dados de perfil de voz do usuário são criados quando a política é definida para distinguir ou um convidado que não faz parte da reunião entra durante a reunião. Os dados do perfil de voz são ignorados no final da reunião.
 

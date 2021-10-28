@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a08e48a37b90a7d8a99053d01a844c3451314e00
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588143"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605587"
 ---
 # <a name="manage-teams-with-policies"></a>Gerenciar Teams com políticas
 
@@ -63,7 +63,7 @@ As políticas a seguir podem ser gerenciadas com Microsoft Teams.
 Tipo de política | Descrição
 ------------|------------
 [Pacotes de política](manage-policy-packages.md) | Um pacote de política no Microsoft Teams é uma coleção de políticas e configurações predefinidas que você pode atribuir aos usuários que têm funções semelhantes em sua organização.
-[Políticas de reunião](meeting-policies-in-teams.md) | Uma política de reunião é usada para controlar os recursos que estão disponíveis para os participantes da reunião para reuniões agendadas pelos usuários em sua organização. As políticas de reunião incluem os tópicos a seguir.<br> - Políticas de áudio e vídeo<br> - Políticas de compartilhamento de conteúdo e tela<br> - Participantes, convidados e políticas de acesso<br> - Políticas gerais
+[Políticas de reunião](meeting-policies-overview.md) | Uma política de reunião é usada para controlar os recursos que estão disponíveis para os participantes da reunião para reuniões agendadas pelos usuários em sua organização. As políticas de reunião incluem os tópicos a seguir.<br> - Políticas de áudio e vídeo<br> - Políticas de compartilhamento de conteúdo e tela<br> - Participantes, convidados e políticas de acesso<br> - Políticas gerais
 [Políticas de voz e chamada](voice-and-calling-policies.md)| As políticas de voz e chamada gerenciam essas configurações por meio de equipes como chamadas de emergência, roteamento de chamadas e ID do chamador.
 [Políticas de aplicativo](app-policies.md)| As políticas de aplicativos são usadas para controlar aplicativos Microsoft Teams. Os administradores podem permitir ou bloquear quais aplicativos os usuários podem instalar, fixar aplicativos na barra Teams de aplicativos do usuário e instalar o aplicativo em nome de seus usuários.
 [Políticas de mensagens](messaging-policies-in-teams.md)| As políticas de mensagens controlam a disponibilidade de recursos de chat e canal.
