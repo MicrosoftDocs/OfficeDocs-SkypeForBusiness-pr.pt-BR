@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4f6c719a0be5e1d400eae37ba19be8e0dbd0214
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 6f49c2d3babfdf97bb39405d1f48a84deb724db5
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082871"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624242"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 
 |Versão |Publicado para <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client versão | Outubro de 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -76,6 +77,23 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas do Microsoft Teams introdução de recursos e resolução de problemas
 
+### <a name="teams-rooms-web-client-update-october-2021"></a>Salas do Teams Atualização do cliente Web (outubro de 2021)
+
+Introduzido nesta atualização:
+- Controle de lista unificada com Teams de área de trabalho com agrupação de reuniões estruturadas, opções de reunião e controles para apresentadores/participantes, ordem de classificação de mão e capacidade de convidar usuários do Chat ou convite de reunião diretamente da lista de participantes 
+- Alinhamento de chamada de barra universal com cliente de área de trabalho em controles de chamada de reunião, botão Layout e informações de status da reunião
+- Suporte dinâmico de galeria para exibições de frente única e dupla de sala
+- Selador de layout unificado para a opção de layout da frente da sala consolidada
+- Destaque ou fixar vários participantes em reuniões Teams reuniões
+- Suporte a grandes reuniões com controles de apresentador/participantes acessíveis tocando no participante na lista de participantes
+- Capacidade de bloquear uma reunião para reuniões em que a sala é organizadora, bem como a conscientização sobre a reunião que está bloqueada
+- Suporte ao consumo do modo apresentador (weatherman) quando um usuário remoto compartilha conteúdo com a opção de modo de exibição do apresentador
+- Suporte a reação em Teams reuniões 
+
+
+> [!NOTE]
+> As atualizações do cliente Web estão disponíveis para todos os Salas do Teams com as versões 4.10 e 4.9 do aplicativo. Os administradores poderão se inscrever em um programa de visualização pública Salas do Teams obter o pico sorrateira dos recursos do cliente Web em breve.
+
 ### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
 
 Introduzido nesta atualização:
@@ -84,7 +102,7 @@ Introduzido nesta atualização:
 - Bolhas de chat fornecem notificações no chat de reunião para chamar a atenção para o que está sendo dito usando o chat de reunião *
 - O suporte ao modo galeria grande e ao modo Juntos agora está disponível no GCC High
 - Novas Habilidades adicionadas Cortana, Adicionar pessoa por nome à reunião e Chamada por nome 
-- Cortana Push to Talk é habilitado por padrão em todos os dispositivos. Para saber mais, [confira Cortana de voz em Teams](../cortana-in-teams.md).
+- Cortana Push to Talk é habilitado por padrão em todos os dispositivos. Para saber mais, consulte [Cortana de voz em Teams](../cortana-in-teams.md).
 
 > [!NOTE]
 > Suporte 19H1 preterido. A versão do sistema operacional mínimo com suporte 4.10 é 19H2.
@@ -169,7 +187,7 @@ Introduzido nesta atualização:
 Introduzido nesta atualização:
 
 - Reuniões coordenadas entre Microsoft Teams e Surface Hub 2S
-- Correção para Skype Windows 10 falha de login para empresas quando o [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou a atualização Windows 10 [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) é instalado
+- Correção para Windows 10 Skype falha de login para Empresas quando o [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou a atualização Windows 10 [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) é instalado
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -251,7 +269,7 @@ Introduzido nesta atualização:
 - Um novo recurso de câmera de conteúdo que permite que os usuários incluam de forma inteligente um quadro de Teams tradicional
 - Melhorias adicionais na interface do usuário do Console para reduzir a desordem e Configurações para uma nova barra lateral acessada por meio de Mais no console
 - Botão de bandeja de compartilhamento desabilitado se o cabo de conteúdo local não estiver conectado ou uma câmera de conteúdo não estiver conectada
-- Corrigido um problema com o teclado touch em que ele falhou aparece pela primeira vez somente após a reinicialização de um sistema MTR
+- Corrigido um problema com o teclado touch em que ele falhou ao aparecer pela primeira vez somente após a reinicialização de um sistema MTR
 - Correções de qualidade e confiabilidade
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
@@ -260,7 +278,7 @@ Introduzido nesta atualização:
 
 - Skype Room System store app rebrand to "Salas do Microsoft Teams"
 - Salas do Microsoft Teams interface do usuário do console realinhada para Microsoft Teams
-- Atualização de tema: mantenha apenas a imagem de plano de fundo personalizada na frente das exibições de sala, enquanto faz do plano de fundo do console uma cor neutra para garantir que os controles da interface do usuário do console atendem ao contraste de cores — requisitos de acessibilidade
+- Atualização de tema: mantenha apenas a imagem de plano de fundo personalizada na frente das exibições de sala, enquanto faz do plano de fundo do console uma cor neutra para garantir que os controles da interface do usuário do console atendem ao contraste de cores— requisitos de acessibilidade
 - Barra universal para controles de chamadas em reunião para chamadas Teams/reuniões para fornecer uma experiência consistente com Microsoft Teams clientes pc/Web/Mobile<sup>1</sup>
 - Classificação de feedback de qualidade de chamada após Teams chamadas/reuniões<sup>1</sup>
 - Recebimento/renderização Microsoft Whiteboard na tela Salas do Microsoft Teams da sala de exibição quando compartilhado do computador/ Web/ Mobile Teams cliente<sup>1</sup> <sup>2</sup>
@@ -459,7 +477,7 @@ Introduzido nesta atualização:
 - Reutilizar investimentos existentes na tela frontal da sala ou projetores
 - Funciona para todos os tipos de espaços de reunião, de espaços pequenos a grandes salas de conferência
 - Os dispositivos de áudio e vídeo certificados do Skype for Business estão disponíveis para vários tamanhos de sala
-- Ingestão interna com fio para projetar o compartilhamento de área de trabalho para a sala e para a Reunião do Skype
+- Ingestão com fio integrado para projetar o compartilhamento de área de trabalho para a sala e para o Reunião do Skype
 
  **Fácil de implantar, simples de gerenciar**
 
