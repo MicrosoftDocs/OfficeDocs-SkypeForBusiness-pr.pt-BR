@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f51c262e26613cf29a7dd2883afbf1cc6871b26
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: a22ced459a9e014b92a7141a224ea20d5f7022d2
+ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367513"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "60633507"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introdução aos modelos de equipe no Centro de administração do Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "60367513"
 > [!NOTE]
 > Canais privados e rótulos de sensibilidade atualmente não são suportados em modelos de equipe. A criação de canal privado não está incluída nas definições de modelo. A opção rótulo de sensibilidade em **Criar equipe a partir do fluxo de** modelos não será aplicada à equipe.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Um modelo de equipe no Microsoft Teams é uma definição da estrutura de uma equipe projetada em torno de uma necessidade de negócios ou projeto. Como administrador, você pode usar modelos para implantar facilmente equipes consistentes em sua organização. Com modelos, seus usuários podem criar rapidamente espaços de colaboração com configurações, canais e aplicativos predefinidos.
 
@@ -82,6 +82,11 @@ Você pode duplicar modelos pré-construídos, mas não editá-los. Se você qui
 |Organizar uma store| `com.microsoft.teams.template.retailStore` |Canais: <ul><li>Geral<li>Mudança de entrega</li><li>Preparação da loja</li><li>Aprendizado</li></ul> Aplicativos: <ul><li>Wiki</li><li>Tarefas</li><li>Turnos</li><li>Inspeção</li></ul>|
 |Varejo para gerentes| `com.microsoft.teams.template.retailManagerCollaboration` |Canais: <ul><li>Geral<li>Operações</li><li>Aprendizado</li></ul> Aplicativos: <ul><li>Wiki</li><li>Tarefas</li><li>Inspeção</li></ul>|
 |Qualidade e segurança |`com.microsoft.teams.template.QualitySafety`|Canais: <ul><li>Geral<li>Comunicados</li><li>Liderança</li><li>Manutenção</li><li>Linha de produção 1</li><li>Linha de produção 2</li><li>Linha de produção 3</li><li>Saúde e Segurança</li><li>Treinamento</li><li>Diversão</li></ul> Apps: <ul><li>Wiki</li><li>Tarefas</li> <li>Relator de Problemas</li> <li>Inspeção</li> </ul>|
+|Gerenciar voluntários| `com.microsoft.teams.template.ManageVolunteers` |Canais: <ul><li>Geral<li>Comunicados</li><li>Relatórios</li><li>Gerenciamento de Voluntários</li><li>Oportunidades de envolvimento</li><li>Integração voluntária</li></ul> Apps: <ul><li>Site</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tarefas</li><li>SharePoint</li><li>OneNote</li></ul>|
+||||
+
+&sup1;Aplicativo adicionado ao canal como uma guia.
+
 
 ### <a name="team-templates-by-category-and-industry"></a>Modelos de equipe por categoria e setor
 
@@ -92,6 +97,7 @@ Para obter mais informações sobre maneiras de usar os modelos pré-construído
 - [Modelos de equipe do governo](government-teams-templates-in-the-admin-console.md)
 - [Modelos de equipe de saúde](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Fabricação de modelos de equipe](manufacturing-teams-templates-in-the-admin-console.md)
+- [Modelos de equipe sem fins lucrativos](team-templates-nonprofit.md)
 - [Modelos de equipe de varejo](retail-teams-templates-in-the-admin-console.md)
 
 ## <a name="team-template-size-limits"></a>Limites de tamanho do modelo de equipe

@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b4f3c19ed82362a066044ff9dd1c695b6690e2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 01748c0e344cbadf2d771d2ab4bf6ad1f9b14dfb
+ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729670"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "60633517"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento Direto - protocolo SIP
 
@@ -56,7 +56,7 @@ Veja a seguir um exemplo da mensagem Convite SIP em uma chamada de entrada:
 | Request-URI | CONVIDAR SIP:+18338006777@SIP.PSTNHUB.MICROSOFT.COM SIP /2.0 |
 | Via Header | Via: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards header | Max-Forwards:68 |
-| De Header | From Header From: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
+| De Header | From Header From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | Para o Header | Para: sip:+183338006777@sbc1.adatum.biz | 
 | Header CSeq | CSeq: 1 INVITE | 
 | Header de contato | Contato: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
@@ -115,6 +115,15 @@ Atualmente, o número de telefone deve conter um sinal de a mais (+), conforme m
 
 ```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
+```
+#### <a name="from-header"></a>De Header
+
+Para todas as chamadas de entrada, o Header De é usado para corresponder o número de telefone do chamador com a lista de números de telefone bloqueados do chamador.
+
+O número de telefone deve conter um + conforme mostrado no exemplo a seguir.
+
+```console
+From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 ```
 
 ## <a name="contact-and-record-route-headers-considerations"></a>Considerações sobre Record-Route de contatos e Record-Route de headers
@@ -220,7 +229,7 @@ O SBC deve dar suporte a Convidar com Substituições.
 
 A interface de Roteamento Direto pode enviar uma mensagem SIP superior a 1.500 bytes.  O tamanho do SDP causa isso principalmente. No entanto, se houver um tronco UDP atrás do SBC, ele poderá rejeitar a mensagem se for encaminhada do proxy SIP da Microsoft para o tronco nãomodificado. A Microsoft recomenda a desmoção de alguns valores no SDP no SBC ao enviar a mensagem para os troncos UDP. Por exemplo, os candidatos ICE ou codecs não usadas podem ser removidos.
 
-## <a name="call-transfer"></a>Transferência de chamada
+## <a name="call-transfer"></a>Transferência de chamadas
 
 O Roteamento Direto dá suporte a dois métodos para transferência de chamada:
 
