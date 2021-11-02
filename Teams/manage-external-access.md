@@ -21,12 +21,12 @@ description: Seu administrador do Teams ou de TI pode configurar o acesso extern
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 27ce250a66bd6443419c670d7b0b8b7e26703e5d
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536512"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634920"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 
@@ -110,6 +110,22 @@ Siga estas etapas para permitir que os usuários do Teams em sua organização c
 2. Ative a configuração **Permitir que os usuários da minha organização se comuniquem com os usuários do Skype**.
 
 Para saber mais sobre as formas pelas quais os usuários do Teams e do Skype podem se comunicar, incluindo as limitações que se aplicam, confira [Teams e a interoperabilidade do Skype](teams-skype-interop.md).
+
+## <a name="block-unsolicited-contact-with-external-unmanaged-teams-users"></a>Bloquear o contato não solicitado com usuários externos não Teams
+
+Siga essas etapas para impedir usuários do Teams em sua organização de contato não solicitado com usuários externos do Teams cujas contas não são gerenciadas por uma organização.
+
+  **Usando o centro de administração do Microsoft Teams**
+
+1. Na navegação à esquerda, acesse **Usuários** > **Acesso externo**.
+
+2. Siga uma dessas etapas:
+
+    - Para impedir que usuários Teams em sua organização se comuniquem com usuários externos do Teams cujas contas não são gerenciadas por uma organização, desative a configuração **Pessoas em minha organização podem se comunicar com usuários do Teams cujas contas não são gerenciadas por uma organização** e desmarque a caixa de seleção **Usuários externos com contas do Teams não gerenciadas por uma organização podem entrar em contato com usuários em minha organização**.
+
+    - Para permitir que os usuários Teams em sua organização se comuniquem com usuários externos do Teams cujas contas não são gerenciadas por uma organização se seus usuários do Teams iniciarem o contato, habilite a configuração **Pessoas em minha organização podem se comunicar com usuários Teams cujas contas não são gerenciadas por uma organização** e desmarque a caixa de seleção **Usuários externos com contas do Teams não gerenciadas por uma organização pode entrar em contato com usuários na minha organização**.
+
+    - Para permitir que os usuários Teams em sua organização se comuniquem com usuários externos do Teams cujas contas não são gerenciadas por uma organização e recebam solicitações para se comunicar com esses usuários externos do Teams, habilite a opção **Pessoas em minha organização podem se comunicar com usuários do Teams cujas contas não são gerenciadas por uma organização** e selecionar a caixa **Usuários externos com contas Teams não gerenciadas por uma organização podem entrar em contato com usuários na minha organização**.
 
 ## <a name="test-access"></a>Testar o acesso
 

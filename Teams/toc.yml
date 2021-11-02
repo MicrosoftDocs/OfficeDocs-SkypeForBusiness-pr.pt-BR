@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -583,7 +583,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -705,7 +705,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -945,7 +945,7 @@ items:
                     href: direct-routing-connect-the-sbc.md
                   - name: 'Etapa 2: Habilitar usuários'
                     href: direct-routing-enable-users.md
-                  - name: 'Etapa 3: Configurar o roteamento de voz'
+                  - name: 'Etapa 3: Configurar o roteamento de chamadas'
                     href: direct-routing-voice-routing.md
                   - name: 'Etapa 4: Traduzir números de telefone'
                     href: direct-routing-translate-numbers.md
@@ -953,7 +953,7 @@ items:
                     href: direct-routing-sbc-multiple-tenants.md
                   - name: Como usar dispositivos analógicos com Roteamento Direto
                     href: direct-routing-analog-devices.md
-                  - name: Gerenciar uma política de roteamento de voz
+                  - name: Gerenciar políticas de roteamento de chamadas
                     href: manage-voice-routing-policies.md
                   - name: Gerenciar notificações de chamadas
                     href: direct-routing-call-notifications.md
@@ -1077,7 +1077,7 @@ items:
                 href: emergency-calling-labels.md
           - name: Gerenciar políticas de chamadas de emergência
             href: manage-emergency-calling-policies.md
-          - name: Gerenciar políticas de roteamento de voz de emergência para Roteamento Direto
+          - name: Gerenciar políticas de roteamento de chamadas de emergência para o Roteamento Direto
             href: manage-emergency-call-routing-policies.md
       - name: Gerenciar políticas de voz e chamadas no Teams
         href: voice-and-calling-policies.md
