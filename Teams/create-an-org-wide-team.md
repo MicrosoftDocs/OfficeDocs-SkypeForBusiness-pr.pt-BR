@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 058aa530508c03587eae3ff6a55e218bc109bbd2
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728200"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641171"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Criar uma equipe de toda a organização no Microsoft Teams
 
@@ -95,7 +95,7 @@ Mesmo que os membros não possam deixar uma equipe de toda a organização, como
 
 ### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>Existe uma maneira de criar uma equipe em toda a organização além de usar o Teams cliente?
 
-Os administradores globais só podem criar uma equipe em toda a organização usando o Teams cliente. Se a sua organização limita a criação de equipes ao uso do PowerShell, a solução alternativa recomendada é adicionar seus administradores globais ao grupo de segurança de usuários que podem criar uma equipe.
+Somente administradores globais podem criar uma equipe em toda a organização usando o Teams cliente. Se a sua organização limita a criação de equipes ao uso do PowerShell, a solução alternativa recomendada é adicionar seus administradores globais ao grupo de segurança de usuários que podem criar uma equipe.
 
 Para obter mais informações, confira [Gerenciar quem pode criar grupos](/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
