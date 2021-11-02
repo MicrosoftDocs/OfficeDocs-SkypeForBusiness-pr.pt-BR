@@ -1,5 +1,5 @@
 ---
-title: Atribuir, alterar locais para locais de emergência para usuários
+title: Atribuir ou alterar locais para locais de emergência para usuários
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,20 +18,22 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá a atribuir ou alterar o local para um local de emergência para usuários em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8cb8d51f35799ddb8610e7b3b36b43bf7f1fb890
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 9bd69356be22954ee1b1b44b2dcc1a52c1e72507
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537202"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634880"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Atribuir ou alterar o local para um local de emergência para um usuário
 
-Cada número de telefone ativo deve ter um local de emergência associado quando você atribui o número de telefone a um usuário. Você associa o endereço quando você tem um número de telefone no Microsoft 365, quando você transfere um número de telefone para Microsoft 365 ou quando você obter um número de telefone de seu provedor.
+Independentemente da opção de conectividade [PSTN,](pstn-connectivity.md) você escolhe Planos de Chamadas da Microsoft, Operador Conexão ou Roteamento Direto um local de emergência precisa ser atribuído a cada número de telefone ou &mdash; &mdash; usuário.
 
-Ao associar o número a um local de emergência, você também pode adicionar um local para fornecer um local mais exato em um local físico. Um local pode ser o piso, a asa de construção ou o número do escritório onde o usuário está localizado. Você pode ter um número ilimitado de locais para um determinado local de emergência e pode alterar o local se o usuário mudar para um escritório ou edifício diferente. Por exemplo, se o usuário mudar do piso 34 para o 35º andar.
-  
-Você pode atribuir ou alterar o local para um local de emergência para um usuário no centro de administração Microsoft Teams ou usando o PowerShell.
+No entanto, dependendo da sua opção de conectividade PSTN, a forma como você gerencia e atribui locais de emergência para um usuário pode variar. Para obter mais informações, consulte [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
+
+Este artigo descreve como atribuir  ou alterar o local para um local de emergência para um usuário no centro de administração Microsoft Teams ou usando o PowerShell.
+
+Este artigo se aplica a Planos de Chamada e Conexão.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
@@ -56,8 +58,8 @@ Consulte [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocat
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Atribuir ou alterar um local de emergência para um usuário](assign-change-emergency-location-user.md)
 - [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
 - [Adicionar, alterar ou remover um endereço de um local de emergência para sua organização](add-change-remove-emergency-place-organization.md)
-- [Atribuir ou alterar um local de emergência para um usuário](assign-change-emergency-location-user.md)
 - [Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Termos e condições das Chamadas de Emergência](./emergency-calling-terms-and-conditions.md)

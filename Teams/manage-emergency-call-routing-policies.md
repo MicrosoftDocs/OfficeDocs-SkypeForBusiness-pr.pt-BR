@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas de roteamento de voz de emergência para Roteamento Direto
+title: Gerenciar políticas de roteamento de chamadas de emergência para Roteamento Direto
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -17,31 +17,31 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como usar e gerenciar políticas de roteamento de voz de emergência Microsoft Teams configurar números de emergência e especificar como as chamadas de emergência são roteada.
+description: Saiba como usar e gerenciar políticas de roteamento de chamadas de emergência Microsoft Teams configurar números de emergência e especificar como as chamadas de emergência são roteada.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: f7a62338cc8fe3fbdc73e88cfca5dd9e525ff150
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 582036d6168a235744b092f7f11bfd34442f5221
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605197"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634910"
 ---
-# <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Gerenciar políticas de roteamento de voz de emergência para Roteamento Direto
+# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Gerenciar políticas de roteamento de chamadas de emergência para Roteamento Direto
 
-Se você tiver implantado o [Roteamento](direct-routing-landing-page.md) Direto em sua organização, poderá usar políticas de roteamento de voz de emergência Microsoft Teams configurar números de emergência e especificar como as chamadas de emergência são roteadas. Uma política de roteamento de voz de emergência determina se os serviços de emergência aprimorados estão habilitados para usuários que são atribuídos à política, os números usados para chamar serviços de emergência (por exemplo, 911 nos Estados Unidos) e como as chamadas aos serviços de emergência são roteadas. 
+Se você tiver [](direct-routing-landing-page.md) implantado o Roteamento Direto em sua organização, poderá usar políticas de roteamento de chamadas de emergência Microsoft Teams configurar números de emergência e especificar como as chamadas de emergência são roteadas. Uma política de roteamento de chamadas de emergência determina se os serviços de emergência aprimorados estão habilitados para usuários atribuídos à política, os números usados para chamar serviços de emergência (por exemplo, 911 nos Estados Unidos) e como as chamadas para serviços de emergência são roteadas. 
 
 > [!Note]
-> **Observe que essas políticas de roteamento de voz aplicam-se somente ao Roteamento Direto , elas não se aplicam a Planos de Chamada ou operador Conexão.**
+> **Observe que essas políticas de roteamento de chamadas aplicam-se apenas ao Roteamento Direto , elas não se aplicam a Planos de Chamadas ou operador Conexão.**
 
-Você gerencia políticas de roteamento de voz de emergência indo para políticas de Emergência de Voz no centro de administração Microsoft Teams ou   >   usando Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede.](cloud-voice-network-settings.md)
+Você gerencia políticas de roteamento de chamadas de emergência indo para políticas de Emergência de Voz no centro de administração Microsoft Teams   >   ou usando Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede.](cloud-voice-network-settings.md)
 
 Para usuários, você pode usar a política global (padrão em toda a organização) ou criar e atribuir políticas personalizadas. Os usuários receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Lembre-se de que você pode editar as configurações na política global, mas não pode renomeá-la ou excluí-la. Para sites de rede, você cria e atribui políticas personalizadas.
 
-Se você atribuiu uma política de roteamento de voz de emergência a um site de rede e a um usuário e se esse usuário estiver nesse site de rede, a política atribuída ao site de rede substituirá a política atribuída ao usuário.
+Se você atribuiu uma política de roteamento de chamadas de emergência a um site de rede e a um usuário e se esse usuário estiver nesse site de rede, a política atribuída ao site de rede substituirá a política atribuída ao usuário.
 
-## <a name="create-a-custom-emergency-voice-routing-policy"></a>Criar uma política de roteamento de voz de emergência personalizada
+## <a name="create-a-custom-emergency-call-routing-policy"></a>Criar uma política de roteamento de chamadas de emergência personalizada
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
@@ -65,7 +65,7 @@ Se você atribuiu uma política de roteamento de voz de emergência a um site de
 
 Consulte [New-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/new-csteamsemergencycallroutingpolicy).
 
-## <a name="edit-an-emergency-voice-routing-policy"></a>Editar uma política de roteamento de voz de emergência
+## <a name="edit-an-emergency-call-routing-policy"></a>Editar uma política de roteamento de chamadas de emergência
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
@@ -79,13 +79,13 @@ Você pode editar a política global ou quaisquer políticas personalizadas que 
 
 Consulte [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy).
 
-## <a name="assign-a-custom-emergency-voice-routing-policy-to-users"></a>Atribuir uma política de roteamento de voz de emergência personalizada aos usuários
+## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Atribuir uma política de roteamento de chamadas de emergência personalizada aos usuários
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 Consulte também [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
 
-## <a name="assign-a-custom-emergency-voice-routing-policy-to-a-network-site"></a>Atribuir uma política de roteamento de voz de emergência personalizada a um site de rede
+## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>Atribuir uma política de roteamento de chamadas de emergência personalizada a um site de rede
 
 Use o cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) para atribuir uma política de roteamento de chamadas de emergência a um site de rede.
 

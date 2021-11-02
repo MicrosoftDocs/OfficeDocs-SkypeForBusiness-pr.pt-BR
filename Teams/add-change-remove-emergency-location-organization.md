@@ -16,26 +16,28 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 'Saiba como adicionar, alterar ou remover um local de emergência para sua organização no Microsoft Teams de administração. '
+description: 'Saiba como adicionar, alterar ou remover um local de emergência para sua organização. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 601d8ce50d5fcf06574f08abb2c78c73a40fefda
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 4d9c7c56b4e2b2fd14f703d51b4c07cfc173dfa3
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536532"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634850"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
-Independentemente da [opção de conectividade PSTN](pstn-connectivity.md) escolhida, planos de chamadas da Microsoft, Conexão operador ou roteamento direto, locais de emergência podem ser associados a um número de telefone. No entanto, dependendo da opção de conectividade PSTN, os requisitos de local podem variar.
+Independentemente da [opção de conectividade PSTN,](pstn-connectivity.md) você pode escolher Planos de Chamadas da Microsoft, operador Conexão ou locais de emergência de Roteamento Direto podem ser &mdash; &mdash; associados a um número de telefone.
 
-**Para Planos de Chamadas,** um local de emergência deve estar associado a um número de telefone, mas quando isso acontece pode variar entre países e regiões. Por exemplo, nos Estados Unidos, você precisa associar um local de emergência ao atribuir o número de telefone ao usuário. No Reino Unido, você precisa associar um local de emergência ao número de telefone quando receber os números de telefone de Microsoft 365 ou transferir números de telefone do provedor de serviços atual.
+No entanto, dependendo da opção de conectividade PSTN, a forma como você gerencia locais de emergência e os requisitos de local podem variar. Para obter mais informações, consulte [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
 
-Não importa em qual país ou região você está, você pode adicionar um local ou locais a um local de emergência e remover um local de emergência. Dependendo do número de locais físicos em sua organização, você pode criar locais para edifícios, pisos e escritórios. Consulte [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
+Este artigo descreve como adicionar, alterar ou remover um local de emergência para sua organização. 
+
+Este artigo se aplica aos Planos de Chamadas da Microsoft, Conexão operador e Roteamento Direto.
 
 Você gerencia locais de emergência para sua organização no centro de administração Microsoft Teams ou usando o PowerShell.
 
-Para atribuir um local de emergência, os usuários, números de telefone e locais de emergência precisam estar no mesmo país.  Para obter mais informações, [consulte Atribuir ou alterar um local de emergência para um usuário](assign-change-emergency-location-user.md).
+Para atribuir um local de emergência, os usuários, números de telefone e locais de emergência precisam estar no mesmo país. Para obter mais informações, [consulte Atribuir ou alterar um local de emergência para um usuário](assign-change-emergency-location-user.md).
   
 ## <a name="add-an-emergency-location"></a>Adicionar um local de emergência
 

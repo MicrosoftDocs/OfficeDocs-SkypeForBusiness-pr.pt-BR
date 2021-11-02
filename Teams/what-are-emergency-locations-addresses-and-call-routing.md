@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: 7a4bb05c9c3a4f4dc08a7bdd51711391e05f9b8d
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: f6c1dd766ae14d855b9f2ffcf21c41ed8a5a1550
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465851"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634860"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamada de emergência
 
@@ -191,7 +191,7 @@ As seções a seguir descrevem como gerenciar chamadas de emergência para usuá
 
 ### <a name="emergency-call-enablement-for-direct-routing"></a>Habilitação de chamada de emergência para Roteamento Direto
 
-Para Roteamento Direto Teams, você deve definir políticas de chamadas de emergência para usuários usando uma política de roteamento de chamadas de emergência (TeamsEmergencyCallRoutingPolicy) para definir números de emergência e seu destino de roteamento associado. (Atualmente, locais de emergência registrados não são suportados para usuários de Roteamento Direto.)
+Para Roteamento Direto, você deve definir [](manage-emergency-call-routing-policies.md) políticas de chamadas de emergência para usuários usando uma política de roteamento de chamadas de emergência Teams para definir números de emergência e seu destino de roteamento associado. (Atualmente, locais de emergência registrados não são suportados para usuários de Roteamento Direto.)
 
 Você pode atribuir uma política de roteamento de chamadas de emergência a uma conta de usuário de Roteamento Direto, um site de rede ou ambos. Quando um cliente Teams inicia ou altera uma conexão de rede, o Teams executa uma busca do site de rede no qual o cliente está localizado da seguinte forma:
 

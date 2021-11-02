@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar o Telefone Microsoft Roteamento Direto do Sistema para conectar sua infraestrutura de telefonia local a Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05e3152c13b0cf6559964d3926d7c66e7cf376e8
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582355"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634890"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -52,7 +52,7 @@ Para configurar Telefone Microsoft Sistema e permitir que os usuários usem Rote
 
 - **Etapa 1.** [Conexão SBC com Telefone Microsoft System e validar a conexão](direct-routing-connect-the-sbc.md)
 - **Etapa 2.** [Habilitar usuários para Roteamento Direto, voz e caixa postal](direct-routing-enable-users.md)
-- **Etapa 3.** [Configurar roteamento de voz](direct-routing-voice-routing.md)
+- **Etapa 3.** [Configurar roteamento de chamadas](direct-routing-voice-routing.md)
 - **Etapa 4.** [Traduzir números para um formato alternativo](direct-routing-translate-numbers.md) 
 
 Se você estiver configurando um SBC para vários locatários, você também vai querer ler Configurar um [SBC para vários locatários](direct-routing-sbc-multiple-tenants.md).

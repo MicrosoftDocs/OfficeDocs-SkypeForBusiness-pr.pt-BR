@@ -18,18 +18,22 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá sobre como atribuir ou alterar um local de emergência para usuários em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537282"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634900"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Atribuir ou alterar um local de emergência para um usuário
 
-Um local de emergência precisa ser atribuído a cada número de telefone ou usuário. Para obter mais informações sobre endereços e locais de emergência, consulte [O que são locais de emergência, locais e roteamento de chamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).
+Independentemente da opção de conectividade [PSTN,](pstn-connectivity.md) você escolhe Planos de Chamadas da Microsoft, Operador Conexão ou Roteamento Direto um local de emergência precisa ser atribuído a cada número de telefone ou &mdash; &mdash; usuário.
 
-Para Planos de Chamadas da Microsoft, em países europeus, o local de emergência é associado ao número de telefone quando você o Microsoft 365 ou quando você transfere um número de telefone para Microsoft 365. Nos Estados Unidos, o local de emergência é associado ao número de telefone quando é atribuído ao usuário. O endereço de emergência pode ser alterado se o usuário atribuído a ele se mover para um novo local.
+No entanto, dependendo da sua opção de conectividade PSTN, a forma como você gerencia e atribui locais de emergência para um usuário pode variar. Para obter mais informações, consulte [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
+
+Este artigo descreve como atribuir ou alterar um local de emergência para um usuário. 
+
+Este artigo se aplica a Planos de Chamada e Conexão.
   
 Você pode atribuir ou alterar um local de emergência para um usuário no centro de administração Microsoft Teams ou usando o PowerShell.
 
@@ -58,8 +62,7 @@ Consulte [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 
 - [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
-- [Adicionar, alterar ou remover um endereço de um local de emergência para sua organização](add-change-remove-emergency-place-organization.md)
 - [Atribuir ou alterar um endereço de um local de emergência para um usuário](assign-change-emergency-place-user.md)
+- [Adicionar, alterar ou remover um endereço de um local de emergência para sua organização](add-change-remove-emergency-place-organization.md)
 - [Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Termos e condições das Chamadas de Emergência](./emergency-calling-terms-and-conditions.md)
-- [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)

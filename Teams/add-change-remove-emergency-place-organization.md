@@ -16,18 +16,24 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Saiba como adicionar, alterar ou remover um local de emergência para sua organização no Microsoft Teams de administração.
+description: Saiba como adicionar, alterar ou remover um local de emergência para sua organização.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98135be7b74583ad01718d19796889bdc9a467d1
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: fec188634377b04cb4149d3680acc07eef797149
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537212"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634870"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Adicionar, alterar ou remover um endereço de um local de emergência para sua organização
 
-Dependendo do número de locais físicos em sua organização, você pode adicionar locais para edifícios, pisos e escritórios para criar um local de emergência mais específico. Consulte [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md) para obter mais informações.
+Dependendo do número de locais físicos em  sua organização, você pode adicionar locais para edifícios, pisos e escritórios para criar um local de emergência mais específico.
+
+No entanto, dependendo da sua opção de conectividade PSTN, a forma como você gerencia os locais de emergência e os requisitos de local podem variar. Para obter mais informações, consulte [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
+
+Este artigo descreve como adicionar, alterar ou remover um *local* de emergência para sua organização.
+
+Este artigo se aplica aos Planos de Chamadas da Microsoft, Conexão operador e Roteamento Direto.
 
 Você gerencia locais de emergência para sua organização no centro de administração Microsoft Teams ou usando o PowerShell.
   
@@ -71,6 +77,7 @@ Consulte [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlineli
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Adicionar, alterar ou remover um endereço de um local de emergência para sua organização](add-change-remove-emergency-place-organization.md)
+- [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
 - [Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Termos e condições das Chamadas de Emergência](./emergency-calling-terms-and-conditions.md)

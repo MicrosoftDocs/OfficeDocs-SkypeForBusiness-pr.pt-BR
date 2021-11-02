@@ -1,5 +1,5 @@
 ---
-title: Configurar roteamento de voz para Roteamento Direto
+title: Configurar roteamento de chamadas para Roteamento Direto
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,26 +15,26 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Saiba como configurar o roteamento de voz com Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: 7d02eb6a2eb1546e11693e8e2475b1ed6e2b7685
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Saiba como configurar o roteamento de chamadas com o Roteamento Direto da Microsoft.
+ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727130"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60635040"
 ---
-# <a name="configure-voice-routing-for-direct-routing"></a>Configurar roteamento de voz para Roteamento Direto
+# <a name="configure-call-routing-for-direct-routing"></a>Configurar roteamento de chamadas para Roteamento Direto
 
-Este artigo descreve como configurar o roteamento de voz para Sistema de Telefonia Roteamento Direto.  Esta é a etapa 3 das seguintes etapas para configurar o Roteamento Direto:
+Este artigo descreve como configurar o roteamento de chamadas para Roteamento Direto. Esta é a etapa 3 das seguintes etapas para configurar o Roteamento Direto:
 
 - Etapa 1. [Conexão SBC com Telefone Microsoft System e validar a conexão](direct-routing-connect-the-sbc.md) 
 - Etapa 2. [Habilitar usuários para Roteamento Direto, voz e caixa postal](direct-routing-enable-users.md)
-- **Etapa 3. Configurar roteamento de** voz (Este artigo)
+- **Etapa 3. Configurar roteamento de** chamadas (Este artigo)
 - Etapa 4. [Traduzir números para um formato alternativo](direct-routing-translate-numbers.md) 
 
 Para obter informações sobre todas as etapas necessárias para configurar o Roteamento Direto, consulte [Configure Direct Routing](direct-routing-configure.md).
 
-## <a name="voice-routing-overview"></a>Visão geral do roteamento de voz
+## <a name="call-routing-overview"></a>Visão geral do roteamento de chamadas
 
 Telefone Microsoft O sistema tem um mecanismo de roteamento que permite que uma chamada seja enviada para um SBC (Controlador de Borda de Sessão) específico com base em: 
 
@@ -43,9 +43,9 @@ Telefone Microsoft O sistema tem um mecanismo de roteamento que permite que uma 
  
 Os SBCs podem ser designados como ativos e de backup. Quando o SBC configurado como ativo não estiver disponível para uma rota de chamada específica, a chamada será roteada para um SBC de backup.
  
-O roteamento de voz é feito dos seguintes elementos: 
+O roteamento de chamadas é feito dos seguintes elementos: 
 
-- **Política de roteamento** de voz – um contêiner para usos PSTN, que pode ser atribuído a um usuário ou a vários usuários. 
+- **Política de roteamento de** chamadas – Também chamada de política de roteamento de voz. Um contêiner para usos PSTN, que pode ser atribuído a um usuário ou a vários usuários. 
 
 - **Usos de PSTN** – um contêiner para rotas de voz e usos PSTN, que podem ser compartilhados em diferentes políticas de roteamento de voz. 
 
