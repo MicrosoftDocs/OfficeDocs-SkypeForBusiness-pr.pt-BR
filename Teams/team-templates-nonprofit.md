@@ -19,13 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 07c335797b2092b42cacb8f0daa92947e7a2349a
-ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
+ms.openlocfilehash: 2f0a6218d9843c0ed99c80c517fe9986f41d79b6
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "60633548"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641341"
 ---
 # <a name="use-nonprofit-team-templates"></a>Usar modelos de equipe sem fins lucrativos
 
@@ -41,7 +40,7 @@ Nesse artigo, você aprenderá sobre o modelo de equipe Gerenciar voluntários e
 
 Reunir sua equipe para se comunicar e colaborar em tarefas e atividades de gerenciamento de voluntários.
 
-Esse modelo inclui canais e aplicativos projetados para simplificar as atividades de gerenciamento de voluntários. A equipe pode organizar e compartilhar materiais de integração e documentos usados com frequência, exibir relatórios, manter-se atualizada sobre comunicados importantes de equipe, eventos e muito mais. O modelo também se integra ao Gerenciamento de Voluntários, um aplicativo que faz parte do Microsoft Cloud para organizações sem fins lucrativos, permitindo que a equipe gerencie oportunidades de envolvimento de voluntários dentro do Teams.
+Esse modelo inclui canais e aplicativos projetados para simplificar as atividades de gerenciamento de voluntários. A equipe pode organizar e compartilhar materiais de integração e documentos usados com frequência, exibir relatórios, manter-se atualizada sobre comunicados importantes de equipe, eventos e muito mais. O modelo também se integra ao [Gerenciamento de Voluntários](/dynamics365/industry/nonprofit/volunteer-management-use), um aplicativo que faz parte do [Microsoft Cloud para Entidades sem Fins Lucrativos](/industry/nonprofit/), permitindo que a equipe gerencie oportunidades de participações voluntárias dentro do Teams.
 
 Aqui estão os canais e aplicativos que vêm com o modelo de equipe Gerenciar voluntários.
 
@@ -88,3 +87,4 @@ Para saber mais sobre modelos de equipe em geral, consulte [Introdução aos mod
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Documentação de ajuda do Teams](https://support.microsoft.com/teams)
+- [Documentação do Microsoft Cloud para organizações sem fins lucrativos](/industry/nonprofit/)

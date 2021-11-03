@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 731ed3aa7b9cb7b2511d7ffa1614bdf06522ac0e
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537092"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641231"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -106,9 +106,17 @@ Você pode personalizar os convites de reunião do Teams para atender às necess
 
 <a name="bknetwork"> </a>
 
-Se estiver usando Qualidade de serviço (QoS) para priorizar o tráfego de rede, você pode habilitar marcadores de QoS e definir intervalos de porta para cada tipo de tráfego de mídia. Definir intervalos de portas para diferentes tipos de tráfego é apenas uma etapa no tratamento de mídia em tempo real; consulte [Qualidade de serviço (QoS) no Teams](qos-in-teams.md) para obter muito mais detalhes.
+Se você estiver usando a Qualidade de Serviço (QoS) para priorizar o tráfego de rede, poderá habilitar marcadores de QoS e definir intervalos de portas para cada tipo de tráfego de mídia. Definir intervalos de portas para diferentes tipos de tráfego é apenas uma etapa no tratamento de mídia em tempo real; consulte [Qualidade de serviço (QoS) no Teams](qos-in-teams.md) para obter muito mais detalhes.
 
 > [!IMPORTANT]
+> Sistemas baseados na Apple: A única instância que sabemos de onde os dispositivos baseados na Apple realmente definem o valor DSCP é se todas as condições a seguir forem atendidas:
+> - iOS.
+> - Rede Wi-Fi.
+> - Comutadores Cisco.
+> - O administrador da rede adicionou o aplicativo à lista de aprovados.
+>
+> Sistemas baseados em Android: Não há limitações conhecidas.
+>
 > Se você habilitar o QoS ou alterar as configurações no centro de administração do Microsoft Teams para o serviço Teams, também precisará [ aplicar configurações correspondentes a todos os dispositivos do usuário](QoS-in-Teams-clients.md) e todos os dispositivos de rede internos para implementar totalmente as alterações de QoS no Teams.
 
   **Usando o centro de administração do Microsoft Teams**
@@ -119,6 +127,10 @@ Se estiver usando Qualidade de serviço (QoS) para priorizar o tráfego de rede,
     ![Captura de tela das configurações de rede para reuniões no centro de administração.](media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do Teams no centro de administração do Microsoft Teams")
 
     - Para permitir que marcadores DSCP sejam usados para QoS, ative **Inserir marcadores Quality of Service (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar ou não usar marcadores; você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para obter mais informações sobre marcadores DSCP.
+
+        > [!IMPORTANT]
+        > Observe que a habilitação da QoS somente é executada nos pontos de extremidade para marcar os pacotes que saem do cliente. Ainda recomendamos aplicar as regras de QoS correspondentes em todos os dispositivos de rede internos para o tráfego de entrada.
+        
         > [!NOTE]
         > A marcação DSCP é normalmente feita por meio de portas de origem e o tráfego UDP será roteado para o retransmissão de transporte com a porta de destino 3478 por padrão. Se sua empresa exigir marcação nas portas de destino, entre em contato com o suporte para habilitar a comunicação com o Transport Relay com as portas UDP 3479 (Áudio), 3480 (Vídeo) e 3481 (Compartilhamento).
     - Para especificar os intervalos de portas, ao lado de **Selecionar um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecionar  **Especificar intervalos de portas**, e então digitar as portas inicial e final para áudio, vídeo e compartilhamento de tela. A seleção desta opção é necessária para implementar a QoS. 
