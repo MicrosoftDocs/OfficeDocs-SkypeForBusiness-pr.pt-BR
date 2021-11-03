@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Rússia.
-ms.openlocfilehash: cad4334c71a3b704dacdd68845fb565e4cde84db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ac85b5d1a19716a8f5e8d0b16cd0283b59fa8868
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626333"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733052"
 ---
 # <a name="availability-in-russia"></a>Disponibilidade na Rússia
 
@@ -69,7 +69,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Moscou <li>São Francisco ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>|
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Moscou <li>São Francisco ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))</ul>|
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Não  <br/> |
    

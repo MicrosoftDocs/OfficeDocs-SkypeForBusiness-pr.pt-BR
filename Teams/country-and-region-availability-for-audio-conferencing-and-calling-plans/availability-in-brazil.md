@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e Microsoft Teams disponíveis no Brasil.
-ms.openlocfilehash: 68379b9c48ed70f590eb3d57a171a6af9f4042be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 059876da21906264bc1961785b7cddcdc49dd132
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609038"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732732"
 ---
 # <a name="availability-in-brazil"></a>Disponibilidade no Brasil
 
@@ -69,7 +69,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Rio de Janeiro <li>  São Paulo <li>Outras cidades [por solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Rio de Janeiro <li>  São Paulo <li>Outras cidades [por solicitação](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

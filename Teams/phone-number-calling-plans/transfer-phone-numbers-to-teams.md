@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar o assistente de portação para transferir seu número de telefone do provedor de serviços atual para Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3d39c580c2eb17c9555c2cb6ad335a19c48f6677
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617207"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733072"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de telefone para Microsoft Teams
 
@@ -87,7 +87,7 @@ Antes de começar, recomendamos que você revise as informações em [O que é u
 
 ## <a name="what-happens-next"></a>O que acontece agora?
 
-Quando recebermos seu pedido de portabilidade, você receberá um email que verifica sua solicitação. Sua solicitação é verificada e atualizada diariamente e você será notificado sobre seu progresso e status no email. Se sua solicitação de porta for rejeitada pela operadora perdedora, contate o [service desk PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Quando recebermos seu pedido de portabilidade, você receberá um email que verifica sua solicitação. Sua solicitação é verificada e atualizada diariamente e você será notificado sobre seu progresso e status no email. Se sua solicitação de porta for rejeitada pela operadora perdedora, entre em contato com o [Service Desk TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 Para exibir o status da sua ordem de porta, na navegação à esquerda do centro de administração Microsoft Teams, vá para > pedidos de Porta de Voz e clique em Histórico de  >   **pedidos**. Cada status do pedido de porta está listado na **coluna Status.** Para saber mais, confira [Qual é o status dos pedidos de portabilidade?](port-order-status.md)
 

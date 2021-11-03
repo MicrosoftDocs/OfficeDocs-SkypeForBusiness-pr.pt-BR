@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Cameroon.
-ms.openlocfilehash: 6b47e7488aa7c9e33bc00c82b337ea5b67ab5b10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e63bdf922073c57df9cd2d914c982d6197847ac9
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605950"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733742"
 ---
 # <a name="availability-in-cameroon"></a>Disponibilidade em Camarões
 
@@ -69,7 +69,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não geográfico. Telefone números não estão vinculados a uma cidade ou local específico. <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Não geográfico ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Não geográfico ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
    
  Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos Automáticos e Filas de Chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).

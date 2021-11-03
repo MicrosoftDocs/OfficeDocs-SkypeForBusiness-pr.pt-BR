@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3699a7ccbc2aa7a54c70c9cd99c9277f56ea40fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613040"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733092"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Qual é o status dos seus pedidos de portabilidade?
 
@@ -36,13 +36,13 @@ A tabela a seguir lista os status da ordem de porta, bem como as ações que voc
 |**Contatando operadora** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O pedido foi recebido e aprovado pela Microsoft e estamos trabalhando com a operadora perdedora para que ele seja aprovado.  <br/> |
 |**Transferir aprovado** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |A ordem foi aceita pela operadora perdedora e a data de Compromisso de Ordem Firme (FOC) foi definida.  <br/> |
 |**Transferência pendente** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |A transferência está a menos de 24 horas de distância, portanto, o pedido não pode mais ser editado ou cancelado.  <br/> |
-|**Error** <br/> |Não  <br/> |Sim  <br/> |Sim  <br/> |Sim (neste momento, você não pode excluir a ordem de porta se houver um erro. A ordem de porta precisa ser re-criada ou você precisa entrar em contato com a ajuda do [service desk PSTN.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |A operadora perdedora rejeitou a ordem.  <br/> |
+|**Error** <br/> |Não  <br/> |Sim  <br/> |Sim  <br/> |Sim (neste momento, você não pode excluir a ordem de porta se houver um erro. A ordem de porta precisa ser re-criada ou você precisa entrar em contato com o [Service Desk TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |A operadora perdedora rejeitou a ordem.  <br/> |
 |**Concluído** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Os números foram transferidos com êxito.  <br/> |
 |**Cancelado** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |O administrador cancelou o pedido.  <br/> |
 
 Para obter instruções passo a passo completas, consulte [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
-Se precisar de ajuda ou se precisar obter mais números de telefone, entre em contato com o [service desk PSTN.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Se precisar de ajuda ou se precisar obter mais números de telefone, entre em contato com o [Service Desk TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como obter e gerenciar números de telefone de usuário (assinante) e serviço (chamada gratuita) para Microsoft Teams sua organização.
-ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 3f913ec3a64ab0c3444cdbfd951d3eae0152a974
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942334"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733542"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>Gerenciar números de telefone para Plano de Chamadas
 
@@ -109,11 +109,11 @@ Envie-nos uma **LOA** se você tiver o seguinte com outra operadora:
 - Toll-Free números de telefone.
 - Mais de 999 números de telefone de usuário que você precisa transferir/porta, mas não pode entrar no centro de administração Microsoft Teams usando o assistente de portabilidade de número local.
 
-Depois de ter **sua** LOA preenchida e assinada, entre em contato com nosso Service Desk [PSTN](./contact-pstn-service-desk.md) para que possamos ajudá-lo.
+Depois de ter **sua** LOA preenchida e assinada, entre em contato com nosso Service Desk [TNS](./contact-tns-service-desk.md) para que possamos ajudá-lo.
 
 ## <a name="still-need-assistance"></a>Ainda precisa de assistência?
 
-Se precisar de assistência, entre [em contato com o Service Desk PSTN.](./contact-pstn-service-desk.md)
+Se precisar de ajuda, entre [em contato com o Service Desk TNS.](./contact-tns-service-desk.md)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

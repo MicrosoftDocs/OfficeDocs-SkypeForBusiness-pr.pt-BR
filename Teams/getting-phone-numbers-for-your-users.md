@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como obter novos, porta ou transferir números existentes para Teams e como mostrar as alterações aos seus usuários.
-ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8fdc0e2341bd48afb0635f554d7d25b3e4244cf1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537072"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733292"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obter números de telefone para seus usuários
 
@@ -73,7 +73,7 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
   
 - Se você precisar de 999 ou menos números de telefone para seus usuários, use o assistente de portação no Microsoft Teams Admin Center. Siga as etapas em [Transferir números de telefone para Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Se seu país ou região não estiver listado no assistente de portabilidade, [](/microsoftteams/manage-phone-numbers-for-your-organization) você poderá enviar [manualmente](phone-number-calling-plans/manually-submit-port-order.md) um pedido de porta ou ver Gerenciar números de telefone para sua organização baixar a Carta de Autorização correta (LOA).
 
-- Se você precisar por mais de 999 números de telefone, envie [manualmente](phone-number-calling-plans/manually-submit-port-order.md) um pedido de porta ou consulte [Gerenciar](/microsoftteams/manage-phone-numbers-for-your-organization) números de telefone da sua organização para baixar a LOA (Carta de Autorização) correta e enviá-la para o service [desk PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) para obter todos os seus números transferidos.
+- Se você precisar por mais de 999 números de telefone, envie [manualmente](phone-number-calling-plans/manually-submit-port-order.md) um pedido de porta ou consulte [Gerenciar](/microsoftteams/manage-phone-numbers-for-your-organization) números de telefone para sua organização baixar a LOA (Carta de Autorização) correta e enviá-la para o service [desk TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) para obter todos os seus números transferidos.
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Exibir os números de telefone para sua organização
 

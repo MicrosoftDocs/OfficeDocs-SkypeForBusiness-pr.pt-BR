@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Itália para Microsoft Teams.
-ms.openlocfilehash: d98347f98fc6251be0e1586ad3649d517c636686
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1a664882f0bb17590f83686efd6afaf86bcdd59
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599726"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733262"
 ---
 # <a name="phone-number-management-for-italy"></a>Telefone gerenciamento de números para a Itália
 
@@ -34,11 +34,11 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixe os formulários corretos e os envie para nós**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.   <br/> |Baixe um desses formulários. <br>  [Nova solicitação de número de telefone para a Itália (v.5.0) (it-it)](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [Nova solicitação de número de telefone para a Itália (v.5.0) (en-us)](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>Preencha-o e [contate PTSN para obter instruções](contact-pstn-service-desk.md). |
-|Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para a Itália (todos os números) (v.6.0) (it-it)](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>Preencha-o e [entre em contato com o Service Desk PTSN para obter instruções](contact-pstn-service-desk.md). |
-|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/não publicar.      <br/> |
-|Altere o número de um usuário para um número de serviço.  <br/> |Entre em contato com o [Service Desk PTSN](contact-pstn-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
-|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou de atendimento automático, baixe este formulário de Serviços de Diretório para a Itália [(v.1.0) (it-it), preencha-a](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)e contate [PTSN](contact-pstn-service-desk.md)para obter instruções . |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração.   <br/> |Baixe um desses formulários. <br>  [Nova solicitação de número de telefone para a Itália (v.5.0) (it-it)](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [Nova solicitação de número de telefone para a Itália (v.5.0) (en-us)](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>Preencha-o e [contate o TNS para obter instruções.](contact-tns-service-desk.md) |
+|Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para a Itália (todos os números) (v.6.0) (it-it)](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>Preencha-o e [entre em contato com o Service Desk TNS para obter instruções](contact-tns-service-desk.md). |
+|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Entre em contato com o Service Desk TNS](contact-tns-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/não publicar.      <br/> |
+|Altere o número de um usuário para um número de serviço.  <br/> |[Entre em contato com o Service Desk TNS](contact-tns-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou de atendimento automático, baixe este formulário de Serviços de Diretório para a Itália [(v.1.0) (it-it), preencha-a](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)e contate [o TNS](contact-tns-service-desk.md)para obter instruções . |
 |Revisar a Carta de Serviços| Baixe e leia [a Carta de Serviços para a Itália (v.1.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true). |
 
 ## <a name="related-topics"></a>Tópicos relacionados

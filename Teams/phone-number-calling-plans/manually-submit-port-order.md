@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como enviar manualmente uma solicitação de pedido de porta.
-ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045867"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733492"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar manualmente um pedido de portabilidade
 
@@ -33,11 +33,11 @@ Use as etapas deste artigo para enviar manualmente uma ordem de porta se seu pa�
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Enviar manualmente uma nova solicitação de pedido de porta
 
-Para enviar manualmente um novo pedido de porta, envie seu formulário de Carta de Autorização (LOA) concluído diretamente para o service desk PSTN para sua região.
+Para enviar manualmente um novo pedido de porta, envie seu formulário de Carta de Autorização (LOA) concluído diretamente para o service desk TNS para sua região.
 
 1. Baixe a [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para seu país ou região.
 2. Preencha o formulário.
-3. Envie-o para o [service desk PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) para sua região.
+3. Envie-o para o [service desk TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) para sua região.
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>O que mais você deve saber sobre portação de números
 

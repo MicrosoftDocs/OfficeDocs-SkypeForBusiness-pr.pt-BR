@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para o Quênia.
-ms.openlocfilehash: f7ec89f4508b383d14b51e36775e5b12a1c6a06f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27487cdc1ff88717ce3860e159d0b8373b6ba60
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586649"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733652"
 ---
 # <a name="availability-in-kenya"></a>Disponibilidade no Quênia
 
@@ -69,8 +69,8 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Nairobi ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Nairobi ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))  <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md).

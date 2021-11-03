@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Guatemala.
-ms.openlocfilehash: 437250e1805515ada7dd1d668d47374456e72f24
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d99352da922f2fa51850aca41be2fcc022ed1e6
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610368"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732692"
 ---
 # <a name="availability-in-guatemala"></a>Disponibilidade na Guatemala
 
@@ -69,7 +69,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Cuidad de Guatemala<br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> Os números de pedágio só são acessíveis de dentro do país.|
+|Há números de chamada tarifada disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> Os números de pedágio só são acessíveis de dentro do país.|
 |Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
 
  Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos Automáticos e Filas de Chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).

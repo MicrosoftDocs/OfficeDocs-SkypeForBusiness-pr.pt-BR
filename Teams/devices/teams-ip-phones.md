@@ -21,22 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 5cd7cfcbacd2799c89e764fe456954c2cf61f0ec
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 6be1415d752bdde9afd6c34419b94912a61eb35d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579551"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733702"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
 Os Microsoft Teams de certificação garantem que os clientes que usam telefones de mesa certificados e telefones de conferência experimentem a experiência de chamadas de áudio e reuniões de alta qualidade.
 
-Microsoft Teams Os programas de certificação garantem uma barra de alta qualidade com metas de desempenho mais altas e métricas de qualidade de áudio. Os parceiros estão trabalhando ativamente para atender a essa barra superior e estão qualificando dispositivos em relação aos requisitos de certificação. Alguns de nossos parceiros também estão trabalhando para fornecer suporte para o serviço Skype for Business no mesmo hardware que os telefones Teams. Os benefícios Microsoft Teams dispositivos certificados incluem:
-
-- Experiência Teams nativa com integração de botão de hardware e notificações de LED
-- Integração de calendário e junção de reunião de toque único
-- Implantado e gerenciado por meio Teams Admin Center com integração do Intune
+Microsoft Teams Os programas de certificação garantem uma barra de alta qualidade com metas de desempenho mais altas e métricas de qualidade de áudio. Os parceiros estão trabalhando ativamente para atender a essa barra superior e estão qualificando dispositivos em relação aos requisitos de certificação. Alguns de nossos parceiros também estão trabalhando para fornecer suporte para o serviço Skype for Business no mesmo hardware que os telefones Teams. 
 
 ## <a name="currently-certified-teams-phones"></a>Telefones Teams certificados atualmente
 

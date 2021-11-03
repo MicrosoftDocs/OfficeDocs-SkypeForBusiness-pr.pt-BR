@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália para Microsoft Teams.
-ms.openlocfilehash: 156fe90556f63aaadc298b2b7c4340f5e9aa1c33
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 282c52a16cb632b15c3c0aa5d07d9a8cf1a4a07c
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630143"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733532"
 ---
 # <a name="phone-number-management-for-australia"></a>Gerenciamento de números de telefone para a Austrália
 
@@ -39,13 +39,13 @@ Para obter mais informações, consulte  [Manage phone numbers for your organiza
 |**O que você deseja fazer?**|**Execute estas etapas e baixe os formulários corretos**|
 |:-----|:-----|
 |Obter novos números de telefone de usuário para Planos de Chamadas na Austrália.   <br/> |Entre [em contato com Telstra Chamando](https://aka.ms/TelstraVoicePlan) novos números de telefone para seus usuários. Em seguida, eles adicionarão esses números à sua organização para que você possa atribuí-los aos seus usuários. <br/>
-|Se você estiver utilizando a Chamada telstra, poderá obter novos números de telefone de serviço que podem ser usados com os atendimentos automáticos na nuvem e filas de chamadas para a Austrália a partir da Telstra. <br/> |Contate [Telstra Chamando](https://aka.ms/TelstraVoicePlan) novos números de telefone. Em seguida, eles adicionarão esses números à sua organização para que você possa atribuí-los aos seus atendimentos automáticos e filas de chamada. Se você **não estiver usando** a Chamada telstra, entre em contato com nosso suporte do Serviço de Gerenciamento de Números da Microsoft para obter números de serviço da Microsoft. Entre em contato com o [Service Desk PSTN](contact-pstn-service-desk.md) para obter instruções e ajudaremos você assim que possível. <br/>|
-|Obter novos números de telefone de serviço para Audioconferência na Austrália.   <br/> |[Entre em contato com o Service Desk PSTN.](contact-pstn-service-desk.md)|
+|Se você estiver utilizando a Chamada telstra, poderá obter novos números de telefone de serviço que podem ser usados com os atendimentos automáticos na nuvem e filas de chamadas para a Austrália a partir da Telstra. <br/> |Contate [Telstra Chamando](https://aka.ms/TelstraVoicePlan) novos números de telefone. Em seguida, eles adicionarão esses números à sua organização para que você possa atribuí-los aos seus atendimentos automáticos e filas de chamada. Se você **não estiver usando** a Chamada telstra, entre em contato com nosso suporte do Serviço de Gerenciamento de Números da Microsoft para obter números de serviço da Microsoft. [Entre em contato com o Service Desk TNS](contact-TNS-Service-Desk.md) para obter instruções e ajudaremos você assim que possível. <br/>|
+|Obter novos números de telefone de serviço para Audioconferência na Austrália.   <br/> |[Entre em contato com o Service Desk TNS.](contact-TNS-Service-Desk.md)|
 |Obter números de telefone transferidos para Microsoft 365 ou Office 365 para usuários, atendimentos automáticos e filas de chamadas.  <br/> | Contate [Telstra Calling](https://aka.ms/TelstraVoicePlan) para transferir números de telefone. Em seguida, eles adicionarão esses números à sua organização.  <br/> |
-|Obter números de telefone transferidos para Microsoft 365 ou Office 365 para uso com Audioconferência.  |[Entre em contato com o Service Desk PSTN para obter instruções](contact-pstn-service-desk.md) |
+|Obter números de telefone transferidos para Microsoft 365 ou Office 365 para uso com Audioconferência.  |[Entre em contato com o Service Desk TNS para obter instruções](contact-TNS-Service-Desk.md) |
 |Alterar o endereçamento de emergência atribuído aos usuários que têm um número de telefone do Plano de Chamadas. |Contate [Telstra Calling](https://aka.ms/TelstraVoicePlan) para fazer alterações de endereço de emergência. Eles podem atualizar essas informações para você.|
 |Altere um número de usuário para um número de serviço. |Suportado ao usar a Chamada telstra.|
-|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou de atendimento automático, entre em contato com o [Service Desk PSTN para obter instruções.](contact-pstn-service-desk.md) |
+|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou de atendimento automático, entre em contato com [o Service Desk TNS para obter instruções.](contact-TNS-Service-Desk.md) |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Índia.
-ms.openlocfilehash: 5a61ded32ca4563a3825d893f671332fa30bb996
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9468da224b7f5079f091125cb0d2841c4bd79290
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611730"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733062"
 ---
 # <a name="availability-in-india"></a>Disponibilidade na Índia
 
@@ -69,7 +69,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Chennai</li><li>Mumbai<li>Outras cidades [por solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Chennai</li><li>Mumbai<li>Outras cidades [por solicitação](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
 

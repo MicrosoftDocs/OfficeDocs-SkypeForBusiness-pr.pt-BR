@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Microsoft Teams disponíveis para a China.
-ms.openlocfilehash: 52d62a5f4c5835debf5784ed40c646451d831531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584775"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733682"
 ---
 # <a name="availability-in-china"></a>Disponibilidade na China
 
@@ -71,7 +71,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Pequim  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
-|Há números de chamada gratuita disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), exceto para clientes que compram o serviço da China. Os números gratuitos não estão disponíveis para os clientes que compram o serviço da China. <br/> |
+|Há números de chamada gratuita disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)), exceto para clientes que compram o serviço da China. Os números gratuitos não estão disponíveis para os clientes que compram o serviço da China. <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md).
   

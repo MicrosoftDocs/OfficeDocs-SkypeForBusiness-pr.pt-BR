@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Indonésia.
-ms.openlocfilehash: bb2f3ea15ca4d0bd4be26e9bcbd28b5c26fa2fc9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6118d3a3c55f183224d6f4b596391e63dccabbab
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618617"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733722"
 ---
 # <a name="availability-in-indonesia"></a>Disponibilidade na Indonésia
 
@@ -69,7 +69,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Jakarta ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Jakarta ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Microsoft Teams disponíveis para o Vietnã.
-ms.openlocfilehash: 029fa5629bd4d81b94b9aac29868222eef51dc1a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8992019aa20a6c72dd16dd1b5d0588202e40ab1f
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620667"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733712"
 ---
 # <a name="availability-in-vietnam"></a>Disponibilidade no Vietnã
 
@@ -69,8 +69,8 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Hanói ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))<li>Ho Chi Minh ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>  <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Hanói ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))<li>Ho Chi Minh ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))</ul>  <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md).

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Receba as orientações que você precisa para por seus números de telefone para Microsoft Teams.
-ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdfe677a4a76128343382373d027abd5061bd8fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598385"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733312"
 ---
 # <a name="more-information-about-porting"></a>Mais informações sobre portação
 
@@ -32,7 +32,7 @@ Aqui você encontrará mais informações sobre como portar seus números de tel
 
 Para obter instruções passo a passo completas, consulte [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
-Se precisar de ajuda ou se precisar obter mais números de telefone, entre em contato com a ajuda do service [desk PSTN.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Se precisar de ajuda ou se precisar obter mais números de telefone, entre em contato com a ajuda do [Service Desk TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="port-order-account-information"></a>Informações da conta de pedido de portabilidade
 

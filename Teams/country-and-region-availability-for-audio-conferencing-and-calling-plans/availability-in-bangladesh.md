@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Bangladesh.
-ms.openlocfilehash: 5fa7b189ecb0eec3807e5b382a6ff063edb1b11f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 38632bc3f6d6a6c0fb7b6b81a67ff3016bd228e1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632615"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733272"
 ---
 # <a name="availability-in-bangladesh"></a>Disponibilidade em Bangladesh
 
@@ -69,7 +69,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não geográfico. Telefone números não estão vinculados a uma cidade ou local específico. <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Não geográfico ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Não geográfico ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
    
  Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos Automáticos e Filas de Chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
