@@ -1,7 +1,7 @@
 ---
 title: Tabela de sessão
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Cada registro representa uma sessão que envolve áudio, áudio e vídeo. Ele contém informações gerais sobre a sessão. Uma sessão é definida como uma caixa de diálogo SIP (Protocolo de Iniciação de Sessão) de áudio ou vídeo entre dois pontos de extremidade.
-ms.openlocfilehash: bc88a924d16e8e2193b0cce5c487004ab66f47a7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc81bb3c67f91b975643929170354c7b152d2237
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611840"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768319"
 ---
 # <a name="session-table"></a>Tabela de sessão
  
 Cada registro representa uma sessão que envolve áudio, áudio e vídeo. Ele contém informações gerais sobre a sessão. Uma sessão é definida como uma caixa de diálogo SIP (Protocolo de Iniciação de Sessão) de áudio ou vídeo entre dois pontos de extremidade.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primário  <br/> |Referenciado na tabela [Dialog](dialog.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primário  <br/> |Referenciado na tabela [Dialog](dialog.md).  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Principais recursos de segurança no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype for Business Server inclui vários recursos de segurança, incluindo autenticação de servidor para servidor, controle de acesso baseado em função e armazenamento centralizado de dados de configuração.
-ms.openlocfilehash: eff104fa777837180f4c5b9118fd29a6341267e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e24f9cc32d7f6d3730813abea4e98d4288861ec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595365"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768489"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Principais recursos de segurança no Skype for Business Server
  

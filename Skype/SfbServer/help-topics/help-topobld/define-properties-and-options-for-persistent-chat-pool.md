@@ -1,7 +1,7 @@
 ---
 title: Definir Propriedades e Opções para Pool de Bate-papo Persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 'Você configura opções para seu Servidor de Chat Persistente ou pool de Servidor de Chat Persistente definindo as seguintes propriedades:'
-ms.openlocfilehash: 242490ebe6be0f68e8c25e0c01b77088c15836d8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11b4731228f3690ce0fbe2675b5cef35faa3378e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622433"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760799"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definir Propriedades e Opções para Pool de Chat Persistente
  

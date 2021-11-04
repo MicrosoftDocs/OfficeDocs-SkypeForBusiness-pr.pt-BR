@@ -1,7 +1,7 @@
 ---
 title: Planejar serviços de emergência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Saiba mais sobre os serviços do Enhanced 9-1-1 (E9-1-1) no Skype for Business Server Enterprise Voice, incluindo aquisição de local e roteamento de chamadas.
-ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f3efcea6747c27e041e581b5d0461fd4c925eb84
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732750"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767609"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planejar serviços de emergência no Skype for Business Server
 
@@ -43,7 +43,7 @@ Skype for Business Server oferece suporte a dois métodos para rotear chamadas d
 
 - Um gateway ELIN (para um provedor de serviço E9-1-1 baseado em PSTN (Rede Telefônica Pública Comutada)
 
-Quando você usa um provedor de serviços E9-1-1 de tronco SIP, adiciona ERLs ao banco de dados de serviço Informações de Local e valida os locais em um MSAG (Guia de Endereços de Rua Mestre) que é mantido pelo provedor de serviços E9-1-1. Se um provedor de serviços E9-1-1 receber uma chamada que não tenha informações de local ou tiver um local que não tenha sido validado em relação ao MSAG, o provedor de serviços E9-1-1 roteia a chamada para um Centro de Resposta de Chamada de Emergência (ECRC) nacional/regional, que está com funcionários com funcionários especialmente treinados que obtém verbalmente o local do chamador, se possível, e roteia manualmente a chamada para o PSAP apropriado. (Alguns provedores de serviço E9-1-1 de tronco SIP também fornecem aos clientes um DID (discagem direta interna) de PSTN ao ECRC, o que proporciona um meio alternativo de encaminhar as chamadas de 9-1-1, se um tronco SIP falhar por qualquer motivo).
+Quando você usa um provedor de serviços E9-1-1 de tronco SIP, adiciona ERLs ao banco de dados de serviço Informações de Local e valida os locais em um MSAG (Guia de Endereços de Rua Mestre) que é mantido pelo provedor de serviços E9-1-1. Se um provedor de serviços E9-1-1 receber uma chamada que não tenha informações de local ou tiver um local que não tenha sido validado em relação ao MSAG, o provedor de serviços E9-1-1 encaminha a chamada para um Centro de Resposta de Chamada de Emergência (ECRC) nacional/regional, que está com funcionários com funcionários especialmente treinados que obtém verbalmente o local do chamador, se possível,  e roteie manualmente a chamada para o PSAP apropriado. (Alguns provedores de serviço E9-1-1 de tronco SIP também fornecem aos clientes um DID (discagem direta interna) de PSTN ao ECRC, o que proporciona um meio alternativo de encaminhar as chamadas de 9-1-1, se um tronco SIP falhar por qualquer motivo).
 
 Ao contrário dos telefones TDM (multiplexing de divisão de tempo) e PBX (troca de filial privada baseada em IP), que têm locais fixos, um ponto de extremidade Skype for Business pode ser muito móvel. Quando você implanta o recurso E9-1-1, o Skype for Business Server ajuda a garantir que, independentemente de onde um chamador está localizado, a chamada de emergência pode ser roteada para o PSAP que atende ao local do chamador. Por exemplo, se o escritório principal de um usuário estiver localizado em Redmond, Washington, mas o usuário faz uma chamada de emergência de um computador em uma filial em Wichita, No Estado do Kansas, o tronco SIP ou o provedor de serviços E9-1-1 baseado em PSTN encaminhará a chamada para o PSAP em Wichita, não para o PSAP em Redmond.
 

@@ -1,7 +1,7 @@
 ---
 title: Gerenciar Skype for Business configurações no Microsoft Teams de administração
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar configurações para Skype for Business recursos no centro de administração Microsoft Teams de administração.
-ms.openlocfilehash: a21ea4d51902fc755f1a36e58e3faf0f70fa837b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 90748d968b2540ea6ee7e5c542623ceb0bc0fbb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731736"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767129"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gerenciar Skype for Business configurações no Microsoft Teams de administração
 

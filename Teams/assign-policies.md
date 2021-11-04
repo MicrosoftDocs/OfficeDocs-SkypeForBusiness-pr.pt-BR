@@ -1,7 +1,7 @@
 ---
 title: Atribuir políticas aos usuários no Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ description: Saiba as diferentes maneiras de atribuir políticas aos usuários e
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ed0ed4b03d6472a646cd19897b33a22b2fc4df06
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: e29ee61183b0c831fc6d638bf20e6edaab050e8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456361"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760549"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Atribuir políticas aos usuários no Microsoft Teams
 

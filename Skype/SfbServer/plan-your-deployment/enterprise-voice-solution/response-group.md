@@ -1,7 +1,7 @@
 ---
 title: Planejar o aplicativo grupo de resposta no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planejando grupos de resposta em Skype for Business Server Enterprise Voice, o que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
-ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ca8159ca3d6fc37aa5c8f1f3f88f8188929f71f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631575"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767549"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planejar o aplicativo grupo de resposta no Skype for Business Server
 
@@ -209,7 +209,7 @@ A tabela a seguir descreve o modelo de usuário do Grupo de Resposta que você p
 
 |**Indicador**|**Por Edição Enterprise pool <br/> (com 8 servidores front-end)**|**Por servidor Standard Edition**|
 |:-----|:-----|:-----|
-|Chamadas de entrada por segundo  <br/> |16   <br/> |2  <br/> |
+|Chamadas de entrada por segundo  <br/> |16  <br/> |2  <br/> |
 |Chamadas concorrentes conectadas ao IVR ou MoH  <br/> |480  <br/> |60  <br/> |
 |Sessões anônimas concorrentes (sem IM)  <br/> |224  <br/> |28  <br/> |
 |Sessões anônimas concorrentes (com IM)  <br/> |64  <br/> |8   <br/> |

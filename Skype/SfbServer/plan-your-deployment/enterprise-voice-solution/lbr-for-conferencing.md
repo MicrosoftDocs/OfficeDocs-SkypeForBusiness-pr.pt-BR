@@ -1,7 +1,7 @@
 ---
 title: Location-Based roteamento para conferência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planejamento de roteamento baseado em local para conferência em Skype for Business Server Enterprise Voice, incluindo transferências de chamadas consultivas.
-ms.openlocfilehash: de074dae5e51156a0926956adcbc2260ed365d8f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733170"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768509"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based roteamento para conferência no Skype for Business Server
 
@@ -51,7 +51,7 @@ Essas restrições de Location-Based roteamento são resumidas na tabela a segui
 
 |User(s) in a conference at any given point|Usuários permitidos a ingressar na conferência|Usuários não autorizados a ingressar na conferência|
 |:-----|:-----|:-----|
-|Skype for Business Usuários do cliente VoIP de um único site de rede  <br/> |Skype for Business Usuário cliente VoIP do mesmo site de rede  <br/> Skype for Business Usuário cliente VoIP de um site de rede diferente  <br/> Skype for Business Usuário cliente VoIP de um site de rede desconhecido  <br/> Usuário do Skype for Business VoIP federado  <br/> União do usuário a partir de um ponto de extremidade PSTN  <br/> |Nenhum(a)  <br/> |
+|Skype for Business Usuários do cliente VoIP de um único site de rede  <br/> |Skype for Business Usuário cliente VoIP do mesmo site de rede  <br/> Skype for Business Usuário cliente VoIP de um site de rede diferente  <br/> Skype for Business Usuário cliente VoIP de um site de rede desconhecido  <br/> Usuário do Skype for Business VoIP federado  <br/> União do usuário a partir de um ponto de extremidade PSTN  <br/> |Nenhum  <br/> |
 |Skype for Business Usuários do cliente VoIP de um site de rede desconhecido  <br/> |Skype for Business Usuário cliente VoIP de qualquer site  <br/> Skype for Business Usuário cliente VoIP de um site desconhecido  <br/> Usuário do Skype for Business VoIP federado  <br/> |União do usuário por meio de um ponto de extremidade PSTN  <br/> |
 |Skype for Business Usuários cliente VoIP de diferentes sites de rede  <br/> |Skype for Business Usuário cliente VoIP de qualquer site de rede  <br/> Skype for Business Usuário cliente VoIP de um site de rede desconhecido  <br/> Usuário do Skype for Business VoIP federado  <br/> |União do usuário por meio de um ponto de extremidade PSTN  <br/> |
 |Skype for Business Usuários do cliente VoIP de um único site de rede e usuários que ingressaram em um ponto de extremidade PSTN  <br/> |Skype for Business Usuário cliente VoIP do mesmo site de rede  <br/> |Skype for Business Usuário cliente VoIP de um site de rede diferente  <br/> Skype for Business Usuário cliente VoIP de um site de rede desconhecido  <br/> Usuário do Skype for Business VoIP federado  <br/> |
@@ -80,7 +80,7 @@ Além de impor Location-Based roteamento para reuniões Skype for Business, o ap
 
 ![Roteamento baseado em local para diagrama de conferência.](../../media/LocationBasedRoutingForConferencing.jpg)
 
-Quando um usuário habilitado para roteamento do Location-Based inicia uma transferência de chamada consultiva de um ponto de extremidade PSTN (conforme mostrado na figura anterior), isso cria duas chamadas ativas, uma chamada entre o usuário PSTN e o usuário A do Skype for Business e a outra entre o usuário A do Skype for Business e o usuário B do Skype for Business. O comportamento a seguir é imposto pelo aplicativo roteamento para conferência Location-Based:
+Quando um usuário habilitado para roteamento de Location-Based inicia uma transferência de chamada consultiva de um ponto de extremidade PSTN (conforme mostrado na figura anterior), isso cria duas chamadas ativas, uma chamada entre o usuário PSTN e o usuário A do Skype for Business e a outra entre o usuário A do Skype for Business e o usuário Skype for Business B. O comportamento a seguir é imposto por t ele Location-Based roteamento para aplicativo de conferência:
 
 - Se o tronco SIP que roteia a chamada PSTN estiver autorizado a rotear a chamada PSTN para o Skype for Business site de rede onde o usuário B (ou seja, destino de transferência) está localizado, a transferência de chamada será permitida; caso contrário, a transferência de chamada consultiva será bloqueada. Essa autorização é executada com base no local da parte transferida que está no mesmo site de rede do tronco SIP que está roteando a chamada ativa para o ponto de extremidade PSTN.
 

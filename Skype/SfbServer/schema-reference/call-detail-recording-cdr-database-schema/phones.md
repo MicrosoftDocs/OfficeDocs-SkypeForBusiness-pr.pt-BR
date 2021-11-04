@@ -1,7 +1,7 @@
 ---
 title: Tabela Phones
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 description: A tabela Phones é uma tabela de suporte. Cada registro na tabela armazena informações sobre um número de telefone envolvido em chamadas VoIP que têm registros no banco de dados.
-ms.openlocfilehash: 37adaaa1885d91c84ee657c422b19debad294c01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81f6b570e168450d457fedabc2ad9d26b3c7abfd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584855"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767479"
 ---
 # <a name="phones-table"></a>Tabela Phones
  
 A tabela Phones é uma tabela de suporte. Cada registro na tabela armazena informações sobre um número de telefone envolvido em chamadas VoIP que têm registros no banco de dados.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**PhoneId** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica esse telefone.  <br/> |
 |**PhoneUri** <br/> |nvarchar(450)  <br/> | <br/> |Telefone número.  <br/> |

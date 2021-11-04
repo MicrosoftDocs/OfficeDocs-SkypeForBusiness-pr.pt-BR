@@ -1,7 +1,7 @@
 ---
 title: Planejar o Servidor de Interop de Vídeo Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Resumo: revise este tópico ao planejar a integração Skype for Business Server com dispositivos de teleconferência de terceiros.'
-ms.openlocfilehash: 0210082f4e505152833b68c182ddfcdd1ea7c2dc
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 34afa051513ea2ebef60213fbc8c1a650bfec199
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731420"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749910"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planejar o Servidor de Interop de Vídeo Skype for Business Server
  

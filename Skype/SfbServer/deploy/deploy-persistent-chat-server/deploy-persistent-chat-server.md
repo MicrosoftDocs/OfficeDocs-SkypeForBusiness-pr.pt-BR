@@ -1,7 +1,7 @@
 ---
 title: Implantar o Servidor de Chat Persistente no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: 'Resumo: leia este tópico para saber como implantar o Skype for Business Server de Chat Persistente 2015.'
-ms.openlocfilehash: ad0b78366613355859f8fec512d427ef3e3d5bdb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2fa97848809a05f87a700d71decd2c61be26bb70
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619197"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759003"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>Implantar o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -43,7 +43,7 @@ Você pode implantar o Servidor de Chat Persistente depois de implantar sua topo
   
 **Processo de implantação do servidor de chat persistente**
 
-|**Task**|**Etapas**|**Funções exigidas e associações em grupo**|**Tópicos relacionados**|
+|**Tarefa**|**Etapas**|**Funções exigidas e associações em grupo**|**Tópicos relacionados**|
 |:-----|:-----|:-----|:-----|
 |**Instalar os pré-requisitos de hardware e software** <br/> | No hardware que atender aos requisitos do sistema, instale o seguinte: <br/>  Nos servidores front-end do Servidor de Chat Persistente: <br/>  Um sistema operacional que atenda aos requisitos do sistema <br/>  Pré-requisitos de software para computadores que executam Skype for Business Server <br/>  No servidor que hospedará o banco de dados do Servidor de Chat Persistente: <br/>  Uma versão com suporte do SQL Server <br/>  Se a conformidade do Servidor de Chat Persistente for necessária: <br/>  SQL Server no servidor que hospedará o banco de dados de conformidade do Servidor de Chat Persistente <br/> |Qualquer usuário que seja membro do grupo Administradores locais.  <br/> |[Requisitos de servidor para Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Requisitos ambientais Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Requisitos de hardware e software para o Servidor de Chat Persistente Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md) <br/> |
 |**Crie a topologia interna apropriada para dar suporte ao Servidor de Chat Persistente (e, opcionalmente, conformidade de Chat Persistente)** <br/> | Execute o Construtor de Topologias para adicionar um pool de Servidor de Chat Persistente à sua topologia: <br/>  Adicionar componentes do Servidor de Chat Persistente à topologia <br/>  Criar um SQL Server de dados para o armazenamento do Servidor de Chat Persistente (e um backup SQL Server para recuperação de desastres) <br/>  Definir um novo Skype for Business de arquivos ou usar um armazenamento de arquivos Skype for Business existente para arquivos do Servidor de Chat Persistente <br/>  Associar o pool Skype for Business Server que pode rotear solicitações para este pool de Servidores de Chat Persistente <br/>  Se a conformidade do Chat Persistente for necessária: <br/>  Adicionar o Armazenamento de Conformidade de Chat Persistente <br/>  Clique na caixa de seleção Definição do pool do Servidor de Chat Persistente para habilenciar a conformidade <br/>  Publique a topologia. <br/>  Se você instalar o Servidor de Chat Persistente no Edição Standard, o FQDN (nome de domínio totalmente qualificado) do pool do Servidor de Chat Persistente deverá corresponder ao servidor Edição Standard e os bancos de dados do SQL Server serão alocados na instância SQL Server Express no servidor Edição Standard <br/> |Para definir uma topologia, uma canta membro do grupo de usuários local  <br/> Para publicar a topologia, uma conta que é membro do grupo Administradores de Domínio e do grupo RTCUniversalServerAdmins, e o usuário também deve ter permissões de controle total (leitura/gravação/modificação) no armazenamento de arquivos do Skype for Business para arquivos do Servidor de Chat Persistente (para que o Construtor de Topologias possa configurar os DACLs necessários).  <br/> |[Criar e publicar nova topologia no Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md) <br/> [Adicionar Servidor de Chat Persistente à topologia Skype for Business Server 2015](add-persistent-chat-server.md) <br/> |

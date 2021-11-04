@@ -1,7 +1,7 @@
 ---
 title: Configurar configurações de Estacionamento de Chamada Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modificar as configurações do Estacionamento de Chamada Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 2946d0a1082b8e2b2ce9473dcff18a057c8c01f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81d523991f1df5d9bc24f19d212ae63fa5b0beb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585925"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759133"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Configurar configurações de Estacionamento de Chamada Skype for Business
 
@@ -46,7 +46,7 @@ Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para defi
 
 1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
 
-2. Execute:  
+2. Execute .
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]

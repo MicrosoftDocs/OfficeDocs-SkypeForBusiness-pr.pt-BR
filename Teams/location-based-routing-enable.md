@@ -1,7 +1,7 @@
 ---
 title: Habilitar o Roteamento baseado na localização para o Roteamento direto
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: de233212a4baf6ce5cfaf771bb809d5522d7ad0a
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6c4fdd18e6ae7f3d583451bf8be2ce12e8e87ba3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013335"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749037"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o Roteamento baseado na localização para o Roteamento direto
 
 Antes de seguir as etapas deste artigo, certifique-se de ler [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) e concluir as etapas em Configure network [settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
 
-Este artigo descreve como habilitar o roteamento Location-Based roteamento direto. Depois de implantar o Roteamento Direto do Sistema de Telefonia e configurar regiões de rede, sites e sub-redes, você estará pronto para habilitar Location-Based Roteamento. Para concluir as etapas deste artigo, você precisará de alguma familiaridade com cmdlets do PowerShell. Para saber mais, confira [Visão geral do Teams PowerShell](teams-powershell-overview.md).
+Este artigo descreve como habilitar o roteamento Location-Based roteamento direto. Depois de implantar Sistema de Telefonia Roteamento Direto e configurar regiões de rede, sites e sub-redes, você estará pronto para habilitar Location-Based Roteamento. Para concluir as etapas deste artigo, você precisará de alguma familiaridade com cmdlets do PowerShell. Para saber mais, consulte [Teams Visão Geral do PowerShell.](teams-powershell-overview.md)
 
  Você precisa habilitar Location-Based roteamento para o seguinte:
 - Usuários
@@ -36,7 +36,7 @@ Este artigo descreve como habilitar o roteamento Location-Based roteamento diret
 - Configurações de gateway
 - Políticas de chamadas
 
-Você pode usar o Centro de [administração do Microsoft Teams](#using-the-microsoft-teams-admin-center) ou o [PowerShel](#using-powershell)l para habilitar Location-Based Routing.
+Você pode usar o Microsoft Teams [de administração](#using-the-microsoft-teams-admin-center) ou [o PowerShel](#using-powershell)l para habilitar Location-Based Routing.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
@@ -48,11 +48,11 @@ Você pode usar o Centro de [administração do Microsoft Teams](#using-the-micr
     - Use os usos PSTN associados Location-Based a rotas de voz que usam um gateway PSTN localizado em uma região onde as restrições de roteamento não são necessárias.
 2. Atribua a política de roteamento de voz aos usuários que exigem que as restrições de roteamento sejam impostas.
 
-Para saber mais sobre como criar políticas de roteamento de voz e atribuí-las aos usuários, consulte Gerenciar políticas de roteamento [de voz no Microsoft Teams](manage-voice-routing-policies.md).
+Para saber mais sobre como criar políticas de roteamento de voz e atribuí-las aos usuários, consulte [Manage voice routing policies in Microsoft Teams](manage-voice-routing-policies.md).
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar Location-Based roteamento para sites de rede
 
-Habilitar Location-Based roteamento para seus sites que precisam impor restrições de roteamento. Para fazer isso, na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Locais** Topologia de Rede, selecione um site de rede, clique em Editar e, em seguida, acionar o roteamento baseado em  >   **Local.**   
+Habilitar Location-Based roteamento para seus sites que precisam impor restrições de roteamento. Para fazer isso, na navegação à esquerda do centro de administração Microsoft Teams, vá para **Localizações** Topologia de rede, selecione um site de rede, clique em Editar e, em seguida, acionar o roteamento baseado em  >   **Local.**   
 
 Para saber mais, confira [Gerenciar sua topologia de rede.](manage-your-network-topology.md)
 
@@ -70,7 +70,7 @@ Habilita Location-Based roteamento para gateways que roteiam chamadas para gatew
 
 Para impor Location-Based roteamento para usuários específicos, configurar a política de chamada do usuário para impedir o desvio de chamada de PSTN. Para fazer isso, a turn on the **Prevent toll bypass** setting in the calling policy.
 
-Para saber mais, confira [Políticas de chamada no Teams](teams-calling-policy.md).
+Para saber mais, confira [Políticas de chamada em Teams](teams-calling-policy.md).
 
 ## <a name="using-powershell"></a>Usando o Windows PowerShell
 
@@ -192,4 +192,4 @@ Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "Us
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Configurações de rede para recursos de voz na nuvem no Teams](cloud-voice-network-settings.md)
+- [Configurações de rede para recursos de voz na nuvem Teams](cloud-voice-network-settings.md)

@@ -1,7 +1,7 @@
 ---
 title: Adicionar Colocações de Servidor Front-end
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para uma Edição Enterprise, o serviço de Conferência A/V é alocado no pool de Front-End. Você também pode colocar o Servidor de Mediação no pool de Front-End ou implantá-lo como um servidor autônomo. O serviço de Conferência A/V sempre será alocado se a conferência estiver habilitada.
-ms.openlocfilehash: 32fe5e00aeaf75197454a1bc901215279b2829d8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 093afe3a741f197b76654d4399b68bfa523d84a6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600486"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758723"
 ---
 # <a name="add-front-end-server-collocations"></a>Adicionar Colocações de Servidor Front-end
 

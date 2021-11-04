@@ -1,7 +1,7 @@
 ---
 title: Relatório de Detalhes de Chamada no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Resumo: saiba mais sobre o Relatório de Detalhes de Chamada usado Skype for Business Server.'
-ms.openlocfilehash: 173df324b61fc719ee989a6102ccfbb9cf850f92
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 550c218d4799623359f68930286210116628b005
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617857"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767739"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Relatório de Detalhes de Chamada no Skype for Business Server
  
@@ -87,7 +87,7 @@ A tabela a seguir lista as informações fornecidas no Relatório Detalhado de C
   
 **Métricas do Relatório Detalhado de Chamadas**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**PAI do chamador** <br/> |Não  <br/> |O P-Asserted-Identity do usuário que iniciou a chamada. Essa identidade é usada para transportar a identidade comprovada de um usuário dentro de uma rede confiável.  <br/> |
 |**URI do chamador** <br/> |Não  <br/> |Endereço SIP do usuário que iniciou a chamada.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Tabela EndpointSubnet
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d62e51d6-2117-4c41-adce-08f8d9d75ce0
 description: A tabela EndpointSubnet é uma tabela de suporte. Cada registro representa uma subrede capturada de pontos de extremidade.
-ms.openlocfilehash: 7d42985800af17a1cf73ac81a81990308537e04a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cfc987fffdeac0d6a55a3cbf98054ac033131e36
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634125"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749720"
 ---
 # <a name="endpointsubnet-table"></a>Tabela EndpointSubnet
  
 A tabela EndpointSubnet é uma tabela de suporte. Cada registro representa uma subrede capturada de pontos de extremidade. 
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SubnetIP** <br/> |int  <br/> |Primário, Estrangeiro  <br/> |Representação de inteiro para a sub-rede.  <br/> |
 |**NextUpdateTS** <br/> |datetime  <br/> ||Apenas para uso interno.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Configurar configurações de rede - Roteamento baseado em local
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: aa696a0058c34be9b3b67746c8a215f6532c2f0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f3c487828ea3b19bcd3c99604aac473c53d9e46e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584505"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749047"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurar definições de rede para o Roteamento baseado na localização
 

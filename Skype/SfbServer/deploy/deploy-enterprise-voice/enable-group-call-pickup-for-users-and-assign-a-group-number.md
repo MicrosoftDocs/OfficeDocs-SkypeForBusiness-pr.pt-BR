@@ -1,7 +1,7 @@
 ---
 title: Habilitar a Coleta de Chamada de Grupo para usuários e atribuir um número de grupo Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Habilita os usuários para a Coleta de Chamada de Grupo Skype for Business Server Enterprise Voice e atribua um número de grupo.
-ms.openlocfilehash: 2aad048c5e01e34e4503fa648fe5cac96e142690
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c053ae4551ea5954f15261755c20afbf8a45f7b5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614891"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759084"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar a Coleta de Chamada de Grupo para usuários e atribuir um número de grupo Skype for Business
 

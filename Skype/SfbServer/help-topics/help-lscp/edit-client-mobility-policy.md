@@ -1,7 +1,7 @@
 ---
 title: Editar Política de Mobilidade do Cliente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: Na caixa de diálogo Editar Política de Mobilidade, edite os detalhes de uma política de mobilidade.
-ms.openlocfilehash: e42deefefbafa6cd73c754ea331c02f61887d495
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ac798ee7e3bd16c23649d33d9da477b6ec55d3d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622603"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752190"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar Política de Mobilidade do Cliente
 

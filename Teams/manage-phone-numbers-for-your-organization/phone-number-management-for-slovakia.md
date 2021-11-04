@@ -1,7 +1,7 @@
 ---
 title: Telefone gerenciamento de números para a Eslováquia
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Eslováquia para Microsoft Teams.
-ms.openlocfilehash: b6c89267fb4e22f2d69c5cfa5c8372292291c54d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: f361f0db336f7497c347465bf0e2537877226fba
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732682"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767249"
 ---
 # <a name="phone-number-management-for-slovakia"></a>Telefone gerenciamento de números para a Eslováquia
 

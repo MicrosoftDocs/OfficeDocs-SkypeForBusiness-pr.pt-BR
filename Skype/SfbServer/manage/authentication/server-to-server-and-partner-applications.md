@@ -1,7 +1,7 @@
 ---
 title: Gerenciar a autenticação de servidor para servidor (OAuth) e aplicativos parceiros no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 'Resumo: Gerenciar o OAuth e aplicativos parceiros Skype for Business Server.'
-ms.openlocfilehash: 1f2b963ad8a116236e3a0bdb33307e9f9d4a95f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d49006bd01de80bd23d8f70954478b6b6a2bbea4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608198"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760739"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Gerenciar a autenticação de servidor para servidor (OAuth) e aplicativos parceiros no Skype for Business Server
  
 **Resumo:** Gerenciar aplicativos OAuth e parceiros em Skype for Business Server.
   
-Skype for Business Server ser capaz de se comunicar com segurança e de forma perfeita com outros aplicativos e produtos de servidor. Por exemplo, você pode configurar o Skype for Business Server para que os dados de contato e/ou os dados de arquivamento são armazenados no Microsoft Exchange Server 2013; no entanto, isso só poderá ser feito se Skype for Business Server e Exchange puderem se comunicar com segurança um com o outro. Da mesma forma, você pode agendar uma conferência Skype for Business Server de dentro Office Web Apps Server; novamente, isso só poderá ser feito se os dois servidores (SharePoint e Skype for Business Server) confiarem um no outro. Embora seja possível usar um mecanismo de autenticação para comunicação entre Skype for Business Server e Exchange, mas um mecanismo separado para comunicação Skype for Business Server e SharePoint, uma abordagem melhor e mais eficiente é usar um método padronizado para toda a autenticação e autorização de servidor para servidor.
+Skype for Business Server ser capaz de se comunicar com segurança e de forma perfeita com outros aplicativos e produtos de servidor. Por exemplo, você pode configurar o Skype for Business Server para que os dados de contato e/ou os dados de arquivamento são armazenados no Microsoft Exchange Server 2013; no entanto, isso só poderá ser feito se Skype for Business Server e Exchange puderem se comunicar com segurança um com o outro. Da mesma forma, você pode agendar uma conferência Skype for Business Server de dentro Office Web Apps Server; novamente, isso só poderá ser feito se os dois servidores (SharePoint e Skype for Business Server) confiarem um no outro. Embora seja possível usar um mecanismo de autenticação para comunicação entre Skype for Business Server e Exchange, mas um mecanismo separado para comunicação Skype for Business Server e SharePoint, uma abordagem melhor e mais eficiente é usar um método padronizado para todos autenticação e autorização de servidor para servidor.
   
 Usar um único método padronizado para autenticação de servidor para servidor é a abordagem tomada por Skype for Business Server. Iniciado com Office versão do Office Servers 2013, o Skype for Business Server (bem como outros produtos do Microsoft Server, incluindo o Exchange Server e o SharePoint Server) suportava o protocolo OAuth (Autorização Aberta) para autenticação e autorização de servidor para servidor. Com o OAuth, um protocolo de autorização padrão usado por vários dos sites principais, as credenciais e senhas do usuário não são passadas de um computador a outro. Em vez disso, a autenticação e autorização são baseadas na troca de tokens de segurança; esses tokens concedem acesso a um conjunto específico de recursos por um período determinado.
   

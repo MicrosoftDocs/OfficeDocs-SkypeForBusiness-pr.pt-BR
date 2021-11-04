@@ -1,7 +1,7 @@
 ---
 title: Exibir Certificado
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 ROBOTS: NOINDEX, NOFOLLOW
 description: Na página Exibir Certificado, há um painel  que permite a seleção de qualquer certificado válido no repositório de certificados locais. É possível selecionar um certificado e clicar em Exibir Detalhes do Certificado. O certificado será exibido em um novo painel. No painel Certificado, é possível exibir as informações de certificado Gerais. Clique na guia Detalhes para exibir informações detalhadas sobre o certificado, como nome de entidade e nome de entidade alternativo. O Caminho de Certificação exibirá o caminho da chave de confiança para o certificado. Depois de concluir a revisão das informações do certificado, clique em OK.
-ms.openlocfilehash: e266caa65b5b2ce0e74871651a94ad13efedb26d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb76e0720ad1a1f50946bf573a19e9996c2e647d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622963"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749342"
 ---
 # <a name="view-certificate"></a>Exibir Certificado
  

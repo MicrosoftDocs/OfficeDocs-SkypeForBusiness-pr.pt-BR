@@ -1,7 +1,7 @@
 ---
 title: Configuração de Versão de Cliente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: Além de especificar a versão dos clientes que você deseja suportar em seu ambiente, também é possível especificar uma ação padrão para clientes ainda não têm uma política de versão definida. Isso permite que você restrinja quais versões de cliente são usadas em seu ambiente, o que pode ajudá-lo a controlar os custos associados ao suporte de múltiplas versões de cliente.
-ms.openlocfilehash: 3cb01d62ca735b4e20c93a84f5762aabf8b03d03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eb8dfa343c6ad9abc25008ff23f041ca9a2ef7e9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615917"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752290"
 ---
 # <a name="client-version-configuration"></a>Configuração da Versão de Cliente
 

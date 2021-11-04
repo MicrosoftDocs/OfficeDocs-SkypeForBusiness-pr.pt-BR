@@ -1,7 +1,7 @@
 ---
 title: Alterar opções de banco de dados de arquivamento no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Resumo: saiba como alterar as opções de banco de dados de arquivamento para Skype for Business Server.'
-ms.openlocfilehash: 6fecfb4a10020c031ccd2b6ccebda1b016fd24ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 240d590b7f22e4756351939be6ecab55ea108b79
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580695"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767929"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Alterar opções de banco de dados de arquivamento no Skype for Business Server
 
@@ -36,7 +36,7 @@ Para fazer uma dessas alterações, você deve executar o Construtor de Topologi
 1. Em um computador que está executando Skype for Business Server, ou no qual as ferramentas administrativas Skype for Business Server estão instaladas, faça logoff usando uma conta que seja membro do grupo Usuários local (ou uma conta com direitos de usuário equivalentes).
     
     > [!NOTE]
-    > Você pode definir uma topologia usando uma conta membro do grupo usuários locais, mas para publicar uma topologia, que é necessário para adicionar um  componente à topologia, você deve usar uma conta que seja membro do grupo Administradores de Domínio e o **grupo RTCUniversalServerAdmins** e que tenha permissões de controle total (isto é, ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o armazenamento de arquivos do Skype for Business Server (ou seja, para que o Construtor de Topologia possa configurar as listas de controle de acesso discricionário necessárias (DACLs) ou uma conta com direitos equivalentes.
+    > Você pode definir uma topologia usando uma conta membro do grupo Usuários local, mas para publicar uma topologia, que é necessária para adicionar um  componente à topologia, você deve usar uma conta que seja membro do grupo Administradores de Domínio e do grupo **RTCUniversalServerAdmins** e que tenha permissões de controle total (ou seja,  ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o armazenamento de arquivos Skype for Business Server (ou seja, para que o Construtor de Topologias possa configurar as listas de controle de acesso discricionário necessárias (DACLs) ou uma conta com direitos equivalentes.
   
 2. Inicie o Construtor de topologia.
     
@@ -78,7 +78,7 @@ Para fazer uma dessas alterações, você deve executar o Construtor de Topologi
     
        c. Se **SQL Server** instância especificada estiver em uma relação de espelhamento, selecione a caixa de seleção Esta SQL está na caixa de seleção Relação de espelhamento e, em Número da porta **Espelho,** especifique o número da porta.
     
-   - Se você habilitar o espelhamento do SQL Server e quiser adicionar ou alterar uma testemunha de espelhamento do SQL Server (uma terceira instância de SQL Server separada que pode detectar a saúde das instâncias de espelho e servidor principal do SQL Server), selecione a caixa de seleção Usar testemunha de espelhamento do SQL Server para habilitar **o failover** automático e, em seguida, faça uma das seguintes:
+   - Se você habilitar o espelhamento de SQL Server e quiser adicionar ou alterar uma testemunha de espelhamento de SQL Server (uma terceira instância de SQL Server separada que pode detectar a saúde das instâncias de espelho e servidor principal do SQL Server), selecione a caixa de seleção Usar testemunha de espelhamento do SQL Server para habilitar **o failover** automático e, em seguida,  faça um dos seguintes:
     
       a. Em **SQL Server FQDN,** especifique o FQDN do servidor no qual você deseja criar a nova SQL Server de espelhamento.
     

@@ -1,7 +1,7 @@
 ---
 title: Planejar a chamada via trabalho no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planejando a chamada via trabalho no Skype for Business Server, que permite a integração entre o Skype for Business e seu sistema de telefonia PBX, para que os usuários possam usar o Skype for Business para controlar seus telefones PBX.
-ms.openlocfilehash: bc2a20741f4f89d4a535b9aa0278fea85a8f44c6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 268ee3a6caa7b304cc63b4e7e16c2a7565f9ced3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732580"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768559"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planejar a chamada via trabalho no Skype for Business Server
  

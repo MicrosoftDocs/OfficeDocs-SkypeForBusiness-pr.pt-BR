@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Emails de transição e pesquisas | Atualização Básica
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c23c2818c791915aa2a8e6c772510c6a50094c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583465"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760359"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemplo de emails e pesquisas para atualizar comunicações básicas
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indique o quanto você é qualificado para executar as seguintes atividades no Teams e se há uma ou mais atividades sobre as quais você gostaria de saber mais.
 
-| &nbsp; | Muito qualificado | Um pouco qualificado | Não é nada qualificado | Deseja saber mais | N/D | Inseguro/não familiar |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
+| &nbsp; | Muito qualificado | Um pouco qualificado | Não é nada qualificado | Deseja saber mais | Não disponível | Inseguro/não familiar |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Use Teams para IM/chat com outras pessoas | | | | | | | | | | |
 | Usar Teams reuniões online | | | | | | | | | | |

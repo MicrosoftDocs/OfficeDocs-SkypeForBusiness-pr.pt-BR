@@ -1,7 +1,7 @@
 ---
 title: Tabela MediaList
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/12/2016
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList é uma tabela estática que armazena a lista de vários tipos de mídia.
-ms.openlocfilehash: a72a409e9cc50fb5c8a7b340674276299e0ac4e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00667806e5099db35cce29b07248569faf09ee24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596415"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767489"
 ---
 # <a name="medialist-table"></a>Tabela MediaList
  
 MediaList é uma tabela estática que armazena a lista de vários tipos de mídia.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**MediaId** <br/> |tinyint  <br/> |Primário  <br/> |Valores: 1 a 7  <br/> |
 |**Mídia** <br/> |nvarchar(256)  <br/> || Mapeamento estático dos valores MediaID e Media: <br/>  1 -- IM <br/>  2 - Transferência de Arquivos <br/>  3 - Assistência Remota <br/>  4 - Compartilhamento de Aplicativos <br/>  5 -- Áudio <br/>  6 -- Vídeo <br/>  7 - Convite do Aplicativo <br/> |
