@@ -1,7 +1,7 @@
 ---
 title: Exibição VoIPDetails
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde no mínimo um usuário é um usuário VoIP. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 84f167fc3f4de45142d3bad80acf0fc9803b40db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e647f79953efc507e63aa4f19e6f1deba53d7a1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593375"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765079"
 ---
 # <a name="voipdetails-view"></a>Exibição VoIPDetails
  
@@ -27,7 +27,7 @@ O modo de exibição VoIPDetails armazena informações sobre sessões ponto a p
 > [!NOTE]
 > O exibição VoIPDetails contém todas as colunas no [exibição SessionDetails,](sessiondetails-0.md) além das colunas listadas abaixo.
   
-|**Coluna**|**Tipo de dados**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |**FromPhone** <br/> |nvarchar(450)  <br/> |URI do telefone do usuário que iniciou a sessão.  <br/> |
 |**ToPhone** <br/> |nvarchar(450)  <br/> |URI do telefone do usuário que entrou na sessão.  <br/> |

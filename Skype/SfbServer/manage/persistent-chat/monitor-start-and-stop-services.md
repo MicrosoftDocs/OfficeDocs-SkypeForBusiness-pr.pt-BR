@@ -1,7 +1,7 @@
 ---
 title: Monitorar, iniciar e interromper os serviços de Chat Persistente no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: 'Resumo: saiba como iniciar, parar e monitorar os serviços de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 3bc40e0e338cb2ef30b417482185121b26b8cd34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2b2c964659b3de5045d414736bc5c1e5ddadd28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580545"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766479"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>Monitorar, iniciar e interromper os serviços de Chat Persistente no Skype for Business Server 2015
  

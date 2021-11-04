@@ -1,7 +1,7 @@
 ---
 title: Exibição de conferências
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: A Exibição de Conferências armazena informações sobre as conferências. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: c61a0d9d2d7e1985aa63256be16d9268138ddd83
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 542ce6213a3bf5d3b2a7077d7f6854996b48f7eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620897"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751530"
 ---
 # <a name="conferences-view"></a>Exibição de conferências
  
 A Exibição de Conferências armazena informações sobre as conferências. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
-|**Coluna**|**Tipo de dados**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Hora da solicitação da sessão. Utilizada em conjunto com o SessionIdSeq para identificar de forma exclusiva uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Número de identificação para identificar a sessão. Utilizado em conjunto com o SessionIdTime para identificar de forma exclusiva uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |

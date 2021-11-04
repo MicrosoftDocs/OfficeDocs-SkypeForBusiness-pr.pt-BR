@@ -1,7 +1,7 @@
 ---
 title: Adicionar FQDN do Servidor de Borda
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique um FQDN (nome de domínio totalmente qualificado) para o serviço de Borda de Acesso. Se você não tiver selecionado a opção Usar um único endereço IP FQDN na página Selecionar recursos, também deverá especificar um FQDN para o serviço de Borda de WebConferência e para o serviço de Borda &amp; A/V.
-ms.openlocfilehash: d44deeacf065efd8cafec1660ccb771d3a5fb77b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57e34eaecd4c2d1b1210dcee51cc9675571183f9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612640"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776841"
 ---
 # <a name="add-edge-server-fqdn"></a>Adicionar FQDN do Servidor de Borda
  

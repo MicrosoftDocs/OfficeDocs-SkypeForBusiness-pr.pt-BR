@@ -1,7 +1,7 @@
 ---
 title: Integração entre Skype for Business Online e Exchange servidor
 ms.reviewer: cbland
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/2/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configurar a autenticação OAuth entre o Exchange local e o Skype for Business Online habilita os recursos Skype for Business e Exchange integração descritos em Suporte a recursos.
-ms.openlocfilehash: 8adb5209a00d1b42dc57f9de8635ade40966f9f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e811a7feb713e2c356acdeba5461a212bfff17e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621773"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764769"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurar Integração e OAuth entre Skype for Business Online e Exchange Server 
 

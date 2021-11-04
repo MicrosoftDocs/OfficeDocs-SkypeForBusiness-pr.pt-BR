@@ -1,6 +1,6 @@
 ---
 title: Skype Implantações híbridas do Sistema de Sala
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Leia este tópico para saber como implantar o Skype Room System em um ambiente híbrido.
-ms.openlocfilehash: b5a512871a60a502d1e2f5e981593291149d3361
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c47809fcf5277ed34f11955b19306e6a4078d650
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598185"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751350"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Implantações híbridas do Sistema de Sala
 
@@ -41,7 +41,7 @@ Para fins ilustrativos, usamos LyncSample.com para o domínio local e LyncSample
     
 3. Crie um endereço de usuário local do Active Directory lrstest5@LyncSample.com, de definir o endereço de email como lrstest5@LyncSample.com e de definir o endereço de destino como lrstest5@LyncSample.com.
     
-4. Acionar a sincronização de diretórios e, após a conclusão da sincronização, verifique se os usuários se mesclam no AAD e se você não é capaz de alterar as propriedades nos recursos do destinatário no centro de administração Microsoft 365 ou Office 365 Exchange.
+4. Acionar a sincronização de diretório e, após a conclusão da sincronização, verifique se os usuários se mesclam no AAD e se você não é capaz de alterar as propriedades nos recursos do destinatário no centro de administração do Microsoft 365 ou Office 365 Exchange.
     
 5. Verifique a conectividade OWA usando lrstest5@LyncSample.com. (Anteriormente, você verificou a conectividade OWA usando o domínio online.)
     
@@ -60,6 +60,6 @@ Para fins ilustrativos, usamos LyncSample.com para o domínio local e LyncSample
    ```
 
 > [!NOTE]
-> Se você tiver Skype for Business Online em vez de Skype for Business Server no cenário acima, depois de provisionar Exchange caixa de correio de recurso do Exchange, provisione uma conta Skype for Business conforme descrito no provisionamento Skype for Business Online. 
+> Se você tiver Skype for Business Online em vez de Skype for Business Server no cenário acima, depois de provisionar Exchange caixa de correio de recurso do Exchange, provisione uma conta Skype for Business conforme descrito em Skype for Business Provisionamento Online. 
   
 

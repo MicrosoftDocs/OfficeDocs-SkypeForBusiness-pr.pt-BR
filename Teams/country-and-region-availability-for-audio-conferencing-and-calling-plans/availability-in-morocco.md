@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade no Marrocos
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Marrocos.
-ms.openlocfilehash: 232e50d35f746a4f1281f1efd93f9d28874b4dc3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e04e6a6a5fe8dd084fdddc1f252c2b4dbc887232
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634885"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775981"
 ---
 # <a name="availability-in-morocco"></a>Disponibilidade no Marrocos
 

@@ -1,7 +1,7 @@
 ---
 title: Guia de início rápido - Configurando planos de chamada
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a222dd7734fd8df3885b0601a5e511d1936922a3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aeb9fae94d186e841cdacbd05879ab2891b9ba2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726410"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745687"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams
 
@@ -51,7 +51,7 @@ Além disso, para Teams usuários, você deve garantir que "Permitir chamada pri
 > Você também pode usar o Roteamento Direto para permitir que seus usuários façam e recebam chamadas PSTN. Para saber como configurar o Roteamento Direto, leia [Configure Direct Routing](./direct-routing-configure.md).
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Usando o TeamsUpgradePolicy para controlar onde as chamadas estão em terra
-Para controlar se as chamadas de entrada (e chats) chegam Teams ou Skype for Business, os administradores usam o TeamsUpgradePolicy, usando o centro de administração do [Microsoft Teams](https://aka.ms/teamsadmincenter) ou usando uma sessão de Windows PowerShell remota com os cmdlets [Skype for Business.](/powershell/module/skype)
+Para controlar se as chamadas de entrada (e chats) chegam Teams ou Skype for Business, os administradores usam o TeamsUpgradePolicy, usando o centro de administração do [Microsoft Teams](https://aka.ms/teamsadmincenter) ou usando uma sessão Windows PowerShell remota com o [Skype for Business ](/powershell/module/skype)cmdlets.
 
 
 A configuração padrão do TeamsUpgradePolicy é o modo Ilhas, que foi projetado para garantir que os fluxos de trabalho comerciais existentes não sejam interrompidos durante uma implantação Teams. Por padrão, as chamadas VoIP, PSTN e federadas para seus usuários continuarão sendo roteadas para Skype for Business até que você atualize a política para habilitar chamadas de entrada para Teams.  Quando os destinatários estão no modo de ilhas:

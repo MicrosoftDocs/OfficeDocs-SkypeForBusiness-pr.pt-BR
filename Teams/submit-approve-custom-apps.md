@@ -1,7 +1,7 @@
 ---
 title: Usar a API Teams envio de aplicativos para enviar e aprovar seus aplicativos personalizados
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -17,16 +17,16 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como aprovar seus aplicativos personalizados enviados usando a API Teams envio de aplicativos em Microsoft Teams.
-ms.openlocfilehash: f6db8ca129835fca2ab3ad58fc341c0bef8b110e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ff115ab34c30bf2acfc7f24407045c1d44c4eade
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731040"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745507"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado por meio da API Teams envio de aplicativos
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 > [!NOTE]
 > Quando você publica um aplicativo Teams personalizado, ele está disponível para usuários na loja de aplicativos da sua organização. Há duas maneiras de publicar um aplicativo personalizado e a maneira como você usa depende de como você obter o aplicativo. **Este artigo se concentra em como aprovar** e publicar um aplicativo personalizado que um desenvolvedor envia por meio da API Teams envio de aplicativos. O outro método, carregando um aplicativo personalizado, é usado quando um desenvolvedor envia um pacote de aplicativos .zip formato. Para saber mais sobre esse método, consulte <a href="/microsoftteams/upload-custom-apps" target="_blank">Publicar um aplicativo personalizado carregando um pacote de aplicativos</a>. O widget aprovar aplicativo não está disponível em GCC locatários. 

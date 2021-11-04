@@ -1,7 +1,7 @@
 ---
 title: Configurar a autenticação de servidor para servidor para um ambiente Skype for Business Server híbrido
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Resumo: Configure a autenticação de servidor para servidor para um ambiente Skype for Business Server híbrido.'
-ms.openlocfilehash: 1da99f335e5d26523bb29ef6e11251019e2020c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcec1e982af0c5ad778a83fe6af9b58fbd44c7e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587193"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746067"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Configure a autenticação de servidor para servidor para um ambiente Skype for Business Server híbrido.
 
@@ -79,7 +79,7 @@ Para executar esse script, você deve ter instalado o módulo Skype for Business
 
 
 
-Depois de configurar o Microsoft 365 ou Office 365 e depois de criar entidades de serviço Microsoft 365 ou Office 365 para o Skype for Business Server e o Exchange 2013, você precisará registrar suas credenciais com essas entidades de serviço. Para fazer isso, você deve primeiro obter um certificado X.509 Base64 salvo como um . Arquivo CER. Esse certificado será aplicado às entidades Microsoft 365 ou Office 365 de serviço.
+Depois de configurar Microsoft 365 ou Office 365 e depois de criar entidades de serviço Microsoft 365 ou Office 365 para o Skype for Business Server e o Exchange 2013, você precisará registrar suas credenciais com essas entidades de serviço. Para fazer isso, você deve primeiro obter um certificado X.509 Base64 salvo como um . Arquivo CER. Esse certificado será aplicado às entidades Microsoft 365 ou Office 365 de serviço.
 
 Quando você tiver obtido o certificado X.509, abra o console do PowerShell e importe o módulo de Windows PowerShell do Microsoft Online contendo os cmdlets que podem ser usados para gerenciar entidades de serviço:
 

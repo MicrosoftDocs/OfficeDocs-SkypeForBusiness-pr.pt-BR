@@ -1,7 +1,7 @@
 ---
 title: Configurar provedores para o Serviço de Log Centralizado Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Resumo: saiba como configurar provedores de cenário para o Serviço de Registro Em Log Centralizado Skype for Business Server 2015.'
-ms.openlocfilehash: ef1c728615d34e074ea041e261b4fc5b220e1fdd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a0c15061f209da9389018412322ea705f93b614f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751660"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar provedores para o Serviço de Log Centralizado Skype for Business Server 2015
  

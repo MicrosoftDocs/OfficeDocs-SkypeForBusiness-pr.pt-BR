@@ -1,7 +1,7 @@
 ---
 title: Atribuição de Certificado (Invocar)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página Comandos em Execução exibe as ações realizadas pelas tarefas para atribuir o certificado ao servidor. Quando as tarefas são concluídas, é possível exibir o log com os detalhes do processo de atribuição do certificado. Para exibir o arquivo de log, clique em Exibir Log.
-ms.openlocfilehash: 9051f715ae0dc4d7b1539fd6659515b7733ab43f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1c441df2329d5c4edada0703e55fc817f2feecc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594059"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751140"
 ---
 # <a name="certificate-assignment-invoke"></a>Atribuição de Certificado (Invocar)
  

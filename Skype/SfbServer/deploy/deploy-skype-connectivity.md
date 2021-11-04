@@ -1,7 +1,7 @@
 ---
 title: Implantar Skype conectividade no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como se conectar Skype for Business Server com Skype consumidor. Também conhecido como Skype conectividade.'
-ms.openlocfilehash: c63e476cc413bbf0a676c7b28d02519bbc6f223d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 003e9a69dc4213b662795b0570afb3ca152d7e00
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013185"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751300"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar Skype conectividade no Skype for Business Server
 
@@ -120,7 +120,7 @@ As implantações locais são necessárias para publicar um registro SRV DNS de 
 
 Outras orientações sobre Certificados Externos podem ser encontradas em [Planejamento de certificados.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)
 
-#### <a name="faqs"></a>Perguntas frequentes
+#### <a name="faqs"></a>Perguntas Frequentes
 
 **Por que o site de provisionamento está sendo desligado?**
 O mecanismo de provisionamento de IM pública (PIC) (pic.lync.com) implantado em 2006 não é mais serviceable e será desligado em 15/08/2019. Em vez disso, a federação de IM pública assumirá o mesmo modelo de federação usado pelo Skype for Business Online, conhecido como "descoberta de parceiros", em que uma implantação local é descoberta publicamente por seus registros DNS SRV de federação.
@@ -231,7 +231,7 @@ A tabela a seguir descreve o status de interop entre a versão mais recente do c
    
 A tabela a seguir descreve o status de interop entre a versão mais recente do Skype for Business e a versão mais recente do Skype consumidor. 
   
-|Cliente|Skype Pesquisa de Diretório e Adicionar Contatos|Skype A/V, interop de IM|
+|Client|Skype Pesquisa de Diretório e Adicionar Contatos|Skype A/V, interop de IM|
 |:-----|:-----|:-----|
 |Skype for Business   |Sim   |Sim   |
 |Skype for Business no Mac   |Pode adicionar (sem pesquisa)   |Sim   |

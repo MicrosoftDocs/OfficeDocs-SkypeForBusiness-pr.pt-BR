@@ -1,7 +1,7 @@
 ---
 title: Mover dados do armazenamento de arquivos para um novo armazenamento de arquivos no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Se você precisar remover o servidor de arquivos que está atuando como o armazenamento de arquivos para sua implantação do Skype for Business Server, ou se precisar fazer outras alterações que indisponíveis o armazenamento de arquivos atual, primeiro você precisará criar um novo compartilhamento. Em seguida, você precisa executar as seguintes etapas:'
-ms.openlocfilehash: 423bd9e96658612c46ae5931a1393ceaee391477
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82916786bfe6fd3f780b409a697320daf8adfbec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622743"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750890"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Mover dados do armazenamento de arquivos para um novo armazenamento de arquivos no Skype for Business Server
 

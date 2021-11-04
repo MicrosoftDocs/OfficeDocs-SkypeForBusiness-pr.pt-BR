@@ -1,7 +1,7 @@
 ---
 title: Adicionar Máquina de Front End
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 description: Especifique o FQDN (nome de domínio totalmente qualificado) de cada computador que deseja adicionar como Servidor Front-end a este pool. Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool a qualquer momento antes da publicação da topologia. Após a publicação da topologia, a alteração do FQDN exigirá a exclusão do servidor no Construtor de Topologia e, em seguida, a adição de um novo servidor ao pool com o novo FQDN. Para obter detalhes sobre a adição de um pool de Front-Ends à topologia, consulte Define and Configure a Front End Pool, na documentação de Implantação.
-ms.openlocfilehash: 29a759443db5a20093c77eab9805f89b865493f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08c03f25ad2fc86ee2555f06312eb77fc98edb55
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610808"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776291"
 ---
 # <a name="add-front-end-machine"></a>Adicionar Máquina de Front-end
 

@@ -1,7 +1,7 @@
 ---
 title: Expansor de Configurações Gerais de Servidor de Monitoramento
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'No Construtor de Topologias, você pode editar as propriedades de um Servidor de Monitoramento individual clicando com o botão direito do mouse no Servidor de Monitoramento na árvore de console e clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em Editar Propriedades e alterando qualquer uma das seguintes opções:'
-ms.openlocfilehash: 0b3aec1737d4b36a05ca8f0c01f41cce686f386f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f4238d253207e2dca28154bc50fc7d806e53c57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618057"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750710"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Monitoramento
  

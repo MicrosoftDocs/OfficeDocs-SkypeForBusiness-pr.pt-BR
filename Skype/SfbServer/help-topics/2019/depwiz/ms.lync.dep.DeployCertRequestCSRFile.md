@@ -1,7 +1,7 @@
 ---
 title: Solicitação de Certificado (Solicitação de Assinatura de Certificado)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para criar uma solicitação offline, é necessário primeiro criar uma CSR (solicitação de assinatura de certificado). Digite o caminho e o nome do arquivo para a CSR na caixa de texto Nome do Arquivo. É possível clicar em Procurar para escolher um local para criar a CSR. Clique em Avançar para continuar.
-ms.openlocfilehash: 2be15ed1d07e5c94067c25e212913184403e196b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 628e6312eebde90dd81930a30f24eb4407041d4c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588923"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751130"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Solicitação de Certificado (Solicitação de Assinatura de Certificado)
  

@@ -1,7 +1,7 @@
 ---
 title: Requisitos de hardware e software para o Servidor de Chat Persistente Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/19/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Resumo: leia este tópico para saber mais sobre os requisitos de hardware e software para o Servidor de Chat Persistente Skype for Business Server 2015.'
-ms.openlocfilehash: a8ee506d9bee1e99727dab2da18f70f3c6278664
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f0abc9bde21a4bd5b8e198edad76ff420ce8074e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630425"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765169"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware e software para o Servidor de Chat Persistente Skype for Business Server 2015
  
@@ -79,7 +79,7 @@ No servidor de banco de dados, certifique-se de que um dos seguintes aplicativos
 
 Para obter detalhes sobre como adquirir certificados, criar o banco de dados SQL Server e criar armazenamentos de arquivos, consulte [Deploy Skype for Business Server 2015](../../deploy/deploy.md). 
   
-## <a name="for-more-information"></a>Para obter mais informações
+## <a name="for-more-information"></a>Para saber mais
 
 Para obter mais informações sobre requisitos de hardware e software, consulte os seguintes tópicos:
   

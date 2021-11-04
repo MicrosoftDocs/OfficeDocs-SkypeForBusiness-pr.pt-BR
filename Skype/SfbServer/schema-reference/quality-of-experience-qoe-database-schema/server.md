@@ -1,7 +1,7 @@
 ---
 title: Tabela de servidor
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: A tabela Server é uma tabela de suporte. Cada registro representa um servidor.
-ms.openlocfilehash: 5e8173236122c6127c9e741700a5f0200c311eee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e2a1007afa545a5b70b60f0e22f69826daebcda0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593355"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776031"
 ---
 # <a name="server-table"></a>Tabela de servidor
  
 A tabela Server é uma tabela de suporte. Cada registro representa um servidor. 
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ServerKey** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica o servidor.  <br/> |
 |**FQDNOrIP** <br/> |nvarchar(256)  <br/> |index  <br/> |Cadeia de caracteres de endereço MAC.  <br/> |

@@ -1,6 +1,6 @@
 ---
 title: Atribuir políticas a grandes conjuntos de usuários em sua escola
-author: cichur
+author: serdars
 ms.author: serdars
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como atribuir políticas a grandes conjuntos de usuários em sua instituição educacional com base na associação ao grupo ou diretamente por meio de uma atribuição em lotes para fins de escola remota (teleescola, teleescola).
 f1keywords: ''
-ms.openlocfilehash: 839a66cbaad393f21053ee385017f6a870c60d83
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605177"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745697"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Atribuir políticas a grandes conjuntos de usuários em sua escola
 

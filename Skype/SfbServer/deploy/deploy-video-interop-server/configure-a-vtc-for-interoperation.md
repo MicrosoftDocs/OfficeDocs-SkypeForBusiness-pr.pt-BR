@@ -1,7 +1,7 @@
 ---
 title: Configurar um VTC para Interoperação com Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 'Resumo: Configure os dispositivos VTC para trabalhar com Skype for Business Server.'
-ms.openlocfilehash: 1165b4bf569701d71a435a4162ef9feb9ef3018f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 07f6a8742b26a7637e5dd321034ecb2cd0818cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594675"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751270"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurar um VTC para Interoperação com Skype for Business Server
  
@@ -55,12 +55,12 @@ As configurações descritas aqui são destinadas apenas como exemplos de como o
     
    |**Parâmetro**|**Configuração recomendada**|
    |:-----|:-----|
-   |Modo H.323  <br/> | Desabilitado <br/> |
+   |Modo H.323  <br/> | Desligado <br/> |
    |Modo HTTP  <br/> | Ativado <br/> |
-   | Modo SIP <br/> | Habilitado <br/> |
+   | Modo SIP <br/> | Ativado <br/> |
    |Modo Telnet  <br/> | Habilitado <br/> |
-   |WelcomeText  <br/> | Ativado <br/> |
-   |Modo XMLAPI  <br/> | Ativado <br/> |
+   |WelcomeText  <br/> | Habilitado <br/> |
+   |Modo XMLAPI  <br/> | Habilitado <br/> |
    
 7. Navegue até Configuração- \> Configuração do Sistema - \> SIP.
     
@@ -70,7 +70,7 @@ As configurações descritas aqui são destinadas apenas como exemplos de como o
    |:-----|:-----|
    |Perfil 1 - DefaultTransport  <br/> | TCP <br/> |
    |Perfil 1 - Saída  <br/> | Desligado <br/> |
-   |Perfil 1 - TlsVerify  <br/> | Habilitado <br/> |
+   |Perfil 1 - TlsVerify  <br/> | Ativado <br/> |
    |Perfil 1 - Tipo  <br/> | Cisco <br/> |
    |Perfil 1 - URI  <br/> | Atribuído automaticamente no registro CUCM <br/> |
    |Proxy 1 - Endereço  <br/> |O nome de host do CUCM  <br/> |

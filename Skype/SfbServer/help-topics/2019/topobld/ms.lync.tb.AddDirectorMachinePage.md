@@ -1,7 +1,7 @@
 ---
 title: Adicionar Máquina de Diretor
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique o FQDN (nome de domínio totalmente qualificado) de cada computador que você deseja adicionar como Sum Diretor neste pool. Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia. Depois da publicação da topologia, a alteração do FQDN exigirá a exclusão do servidor do Construtor de Topologia e a adição de um novo servidor ao pool com o novo FQDN.
-ms.openlocfilehash: 36902ed7a9d069c990a6f0f528beddd8cc5a06c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86a415b8f403b45b6aad8f5a8fcb8e3d8b2ea060
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590355"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750760"
 ---
 # <a name="add-director-machine"></a>Adicionar Máquina de Diretor
  

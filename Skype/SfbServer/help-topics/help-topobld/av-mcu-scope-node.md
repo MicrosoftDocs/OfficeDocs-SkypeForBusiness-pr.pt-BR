@@ -1,7 +1,7 @@
 ---
 title: Nó de Escopo AV MCU
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) do pool e os pools de Front-Ends associados neste pool de Conferência A/V. Você pode realizar as seguintes ações:'
-ms.openlocfilehash: 608d4c370bafc23671e13dd5dff6d7493a58fc1a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f42aabf401514c2d4928bd50ed5baaa781b384bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617877"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751960"
 ---
 # <a name="av-mcu-scope-node"></a>Nó de Escopo AV MCU
  

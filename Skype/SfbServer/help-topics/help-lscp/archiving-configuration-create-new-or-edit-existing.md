@@ -1,7 +1,7 @@
 ---
 title: Configuração de Arquivamento Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Você usa configurações de arquivamento para controlar opções de arquivamento para sua implantação. As configurações de arquivamento incluem a configuração global e, opcionalmente, uma ou mais configurações de site e pool:'
-ms.openlocfilehash: 411f9622706faa3388d611b3ae50a14fce739ff3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a6511d4a72f8771a9accb8a9582d947e232541a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596905"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766739"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuração de Arquivamento: Criar Novo ou Editar Existente
  

@@ -1,7 +1,7 @@
 ---
 title: Gerenciar locais para provedores de serviços de tronco SIP em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Decisões necessárias para o planejamento de um banco de dados de informações de localização ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: add2bc3ffea29d6fb61db84b899d3e39ef50fd02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602426"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751540"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gerenciar locais para provedores de serviços de tronco SIP em Skype for Business Server
 

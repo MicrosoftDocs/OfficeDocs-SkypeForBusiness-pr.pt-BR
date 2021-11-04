@@ -1,7 +1,7 @@
 ---
 title: Tronco SIP de site de filial no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Saiba mais sobre tronco SIP em sites de filiais Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: bb8fcc1755e73bba6689f07d2f97cc01cc77549d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9fd9bb742b61516ca450082c187fb460bacdf11d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582595"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765289"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Tronco SIP de site de filial no Skype for Business Server
  

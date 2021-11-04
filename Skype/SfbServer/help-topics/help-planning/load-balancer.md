@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server Ferramenta de planejamento do Balanceador de Carga
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 'Se você tiver pools de Front-End, pools de diretores ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Veja mais detalhes em:'
-ms.openlocfilehash: 262541ff04fcb1b9ed1f2be9713ee92746169cfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f12e2fdab43cfaaa09660b3299e22f5e16dd9ee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636185"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744347"
 ---
 # <a name="skype-for-business-server-load-balancer-planning-tool"></a>Skype for Business Server Ferramenta de planejamento do Balanceador de Carga
  

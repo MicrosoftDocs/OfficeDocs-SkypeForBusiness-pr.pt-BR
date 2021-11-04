@@ -1,7 +1,7 @@
 ---
 title: Selecionar Registro de Uso PSTN
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: Use a caixa de diálogo Selecionar Registro de Uso de PSTN para localizar um registro de uso de PSTN (Rede telefônica pública comutada) existente que você possa utilizar.
-ms.openlocfilehash: 2c3200d0e7cfeac7058a9ff5e417cfb90aa7edf5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c98bd0da55348946587103c95509dbe783f5a2de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588683"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776531"
 ---
 # <a name="select-pstn-usage-record"></a>Selecionar Registro de Uso PSTN
  

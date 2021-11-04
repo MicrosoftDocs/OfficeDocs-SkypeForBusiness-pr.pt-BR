@@ -1,7 +1,7 @@
 ---
 title: Gerenciar Skype for Business Server 2019 usando o pacote de Gerenciamento SCOM
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/26/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumo: saiba como configurar sua infraestrutura Skype for Business Server 2019 para trabalhar com System Center Operations Manager.'
-ms.openlocfilehash: a58b98790b955953d916b26276e8579fb7989028
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 69954c7568702e4e3d6e9618bdd7e37243c61ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011585"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751490"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gerenciar Skype for Business Server 2019 usando o pacote de Gerenciamento SCOM
  
@@ -129,7 +129,7 @@ Skype for Business Server pacotes de gerenciamento 2019 oferecem cobertura maior
 |1   |Registro (logon do usuário)   |Lync Server 2010 disponível e além   |
 |2   |Serviço de Livro de Endereços (download de arquivo)   |Lync Server 2010 disponível e além   |
 |3   |Consulta à web do Catálogo de endereços   |Lync Server 2010 disponível e além   |
-|4    |Presença   |Lync Server 2010 disponível e além   |
+|4   |Presença   |Lync Server 2010 disponível e além   |
 |5   |Armazenamento de Contato Unificado   |Lync Server 2013 disponível e além   |
    
 **Transações sintéticas com suporte para serviços ponto a ponto**

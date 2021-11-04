@@ -1,7 +1,7 @@
 ---
 title: Assistente de Capacidade de gerenciamento Híbrida
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode usar o assistente de Gerenciamento Híbrido para executar algumas das tarefas de configuração necessárias para configurar uma implantação híbrida com Skype for Business Online. Para obter mais informações sobre como configurar sua implantação para híbrido, consulte Configure your environment with the Hybrid Manageability wizard.
-ms.openlocfilehash: 4531ccbbea0b2148a989c08b4079365a77c645ca
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 51b1b1cdd72e3ebe963529bcd10c739010df9258
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624323"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751080"
 ---
 # <a name="hybrid-manageability-wizard"></a>Assistente de Capacidade de gerenciamento Híbrida
 

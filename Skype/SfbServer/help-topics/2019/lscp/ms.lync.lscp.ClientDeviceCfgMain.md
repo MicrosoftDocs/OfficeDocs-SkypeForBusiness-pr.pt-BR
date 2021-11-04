@@ -1,7 +1,7 @@
 ---
 title: Configuração do Log de Dispositivos
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: O serviço Device Update Web cria automaticamente os arquivos de log que registram a atividade de atualização do dispositivo. Como parte da estratégia de gerenciamento de dados da sua organização, talvez você queira definir limites no tamanho do cache de dados de log, no tamanho do arquivo de log ou no tempo em que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização. Se você não quiser que o serviço Device Update Web exclua os arquivos de log automaticamente, será possível exclui-los manualmente, conforme o necessário. As configurações de log podem ser alteradas globalmente ou de acordo com o site.
-ms.openlocfilehash: 553de81699f3fba068b40e8774a67c04db29238a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 655c8451ac40cd31787282ab0b804d4309aa34a8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764689"
 ---
 # <a name="device-log-configuration"></a>Configuração do Log de Dispositivos
 
