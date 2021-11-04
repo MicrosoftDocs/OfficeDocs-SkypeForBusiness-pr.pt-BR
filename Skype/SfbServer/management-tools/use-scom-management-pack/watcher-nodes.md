@@ -1,7 +1,7 @@
 ---
 title: Como instalar e configurar nós do watcher
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/20/2015
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: Como instalar e configurar nós do watcher para Skype for Business Server transações sintéticas.
-ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766209"
 ---
-# <a name="learn-how-to-install-and-configure-watcher-nodes"></a>Saiba como instalar e configurar nós do watcher
+# <a name="how-to-install-and-configure-watcher-nodes"></a>Como instalar e configurar nós do watcher
  
 **Resumo:** Instale e configure nós do watcher para Skype for Business Server transações sintéticas.
   
@@ -112,7 +112,7 @@ Para instalar os arquivos Skype for Business Server 2015 principais e o banco de
   
 1. No computador de nó do inspetor, clique em Iniciar, em Todos os Programas, em Acessórios, clique com o botão direito do mouse em Prompt de Comando e clique em Executar como administrador.
     
-2. Na janela do console, digite o seguinte comando e pressione ENTER. Insira o caminho apropriado para seus arquivos de instalação do Skype for Business Server: D:\Setup.exe /BootstrapLocalMgmtTo verificar se os principais componentes do Skype for Business Server estão instalados com êxito, clique em Iniciar **,** clique em Todos os **Programas,** clique em **Skype for Business Server 2015** e clique **em Skype for Business Server Shell** de Gerenciamento. No Shell de Gerenciamento Skype for Business Server, digite o seguinte comando Windows PowerShell e pressione ENTER:
+2. Na janela do console, digite o seguinte comando e pressione ENTER. Insira o caminho apropriado para seus arquivos de instalação do Skype for Business Server: D:\Setup.exe /BootstrapLocalMgmtTo verificar se os principais componentes do Skype for Business Server estão instalados com êxito, clique em **Iniciar**, clique em Todos os **Programas,** clique em **Skype for Business Server 2015**, e clique em Skype for Business Server **Shell de Gerenciamento.** No Shell de Gerenciamento Skype for Business Server, digite o seguinte comando Windows PowerShell e pressione ENTER:
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration

@@ -1,7 +1,7 @@
 ---
 title: Assistente de Certificado
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para Solicitar, Atribuir, Remover ou Exibir certificados, use o Assistente de Certificado. É necessário estar conectado como membro do grupo RTCUniversalServerAdmins. Para solicitar um certificado de uma autoridade de certificação (CA) pública, não são necessárias quaisquer associações de grupo adicionais. Para solicitar um certificado da PKI (infraestrutura de chave pública) da sua organização, você precisa confirmar quais associações de grupo adicionais, se alguma, você precisará. Durante a tarefa Solicitar, você pode inserir credenciais alternativas que serão usadas para solicitar o certificado da CA de emissão do PKI.
-ms.openlocfilehash: 9d966786f65311920370890a7091012929af7fa3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b5776de91b814b289f28b86c38f29e3a35e54c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621683"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738777"
 ---
 # <a name="certificate-wizard"></a>Assistente de Certificado
  

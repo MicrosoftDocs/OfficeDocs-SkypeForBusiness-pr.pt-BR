@@ -1,7 +1,7 @@
 ---
 title: Preparar Floresta Atual
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar a floresta dos Serviços de Domínio do Active Directory, você deve estender com êxito o esquema, conforme descrito no tópico Running Schema Preparation, e certificar-se de que o esquema foi replicado.
-ms.openlocfilehash: 90d591b79bd4cdc82e5878b3e9173d19a0f48452
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65cb63a2ac2ea9273ed27f31fd679efe6e00ba3a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609788"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738667"
 ---
 # <a name="prepare-current-forest"></a>Preparar Floresta Atual
 

@@ -1,7 +1,7 @@
 ---
 title: Criar ou modificar uma fila em Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Crie ou modifique uma fila do Grupo de Resposta, Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7cc079b458f4aae2748c212dd5c0bcf710142716
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611256"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765899"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Criar ou modificar uma fila em Skype for Business
  

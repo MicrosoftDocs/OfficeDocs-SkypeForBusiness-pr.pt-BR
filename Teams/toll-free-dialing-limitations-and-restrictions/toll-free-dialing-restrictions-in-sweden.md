@@ -1,6 +1,6 @@
 ---
 title: Restrições de discagem de chamada gratuita na Suécia
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostrarão os códigos de acesso necessários em cada país/região para discar o número gratuito.
-ms.openlocfilehash: a0a6cd375c06fa352ac351daf11de54d91f6625f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6990fcfca9b7b8cfbc5ab0e38c36bebce8e6940
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631915"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753842"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Restrições de discagem de chamada gratuita na Suécia
 

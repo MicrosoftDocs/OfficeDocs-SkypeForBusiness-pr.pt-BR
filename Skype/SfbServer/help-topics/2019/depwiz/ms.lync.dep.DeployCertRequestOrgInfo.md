@@ -1,7 +1,7 @@
 ---
 title: Solicitação de Certificado (Informações da Organização)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: O painel Informações de Organização permite que você especifique o nome de sua organização e uma unidade organizacional (UO) (normalmente a divisão ou departamento) que solicita o certificado. As informações digitadas nas caixas de texto Organização e Unidade Organizacional aparecem no certificado e são usadas para identificar quem solicitou o certificado, quando o certificado é exibido por outros.
-ms.openlocfilehash: dd6cc5199e2000cc883126f684b63bca97b940ab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f194d0f01f9596843ecea382adbaf89659a6888d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595935"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778781"
 ---
 # <a name="certificate-request-organization-information"></a>Solicitação de Certificado (Informações da Organização)
  

@@ -1,7 +1,7 @@
 ---
 title: Planejar sua implantação Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/21/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 'Resumo: explore esses links para saber como desenvolver designs conceituais, lógicos e físicos para Skype for Business Server recursos, servidores e topologias de 2015.'
-ms.openlocfilehash: 6d8264ded7bdb0fd8b2983b9b66594c3df710425
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 8896d962920cdf580685332d324e2d20eb5c9c94
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013545"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754438"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Planejar sua implantação Skype for Business Server 2015
  

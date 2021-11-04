@@ -1,7 +1,7 @@
 ---
 title: Adicionar Servidor de Borda
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para incorporar um Servidor de Borda ou um pool de Servidor de Borda em seu design de topologia, é necessário especificar o nome de domínio totalmente qualificado (FQDN) do servidor no qual você deseja implantar o Servidor de Borda ou o pool de Servidores de Borda. Antes de publicar uma topologia que inclua o pool de Servidor de Borda ou Servidor de Borda e a instalação Skype for Business Server, você deve ter concluído todos os pré-requisitos para implantar o acesso de usuário externo. Para obter detalhes sobre esses pré-requisitos, consulte Preparing for Installation of Servers in the Perimeter Network, na documentação de Implantação.
-ms.openlocfilehash: 242d0ee9225dd93c799d1b629351deb05056f01f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5c4fa2c6930b576995357ef86d5ca409b9bb15c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597125"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742457"
 ---
 # <a name="add-edge-server"></a>Adicionar Servidor de Borda
 

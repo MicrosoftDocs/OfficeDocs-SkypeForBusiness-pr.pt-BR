@@ -1,7 +1,7 @@
 ---
 title: Adicionar bancos de dados de arquivamento a uma implantação existente no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Resumo: leia este tópico para saber como adicionar bancos de dados de arquivamento à sua Skype for Business Server implantação.'
-ms.openlocfilehash: 36d825ef79befa430edfd126bd9cd5a5d840b2f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7174919ef34cd77bf7da316d23808ea1cfaff7f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611320"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778931"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Adicionar bancos de dados de arquivamento a uma implantação existente no Skype for Business Server
  
@@ -72,7 +72,7 @@ ms.locfileid: "58611320"
     
      c. Se **SQL Server** instância especificada estiver em uma relação de espelhamento, selecione a caixa de seleção Esta SQL está na caixa de seleção Relação de espelhamento e, em Número da porta **Espelho,** especifique o número da porta.
     
-   - Se você habilitar o espelhamento SQL Server e quiser incluir uma testemunha de espelhamento do SQL Server SQL Server (uma terceira instância separada que pode detectar a saúde das instâncias de espelho e SQL Server principal), selecione a caixa de seleção Usar uma testemunha de espelhamento do SQL Server para habilitar **o failover** automático e, em seguida, faça um dos seguintes:
+   - Se você habilitar o espelhamento de SQL Server e quiser incluir uma testemunha de espelhamento do SQL Server (uma terceira instância separada SQL Server que pode detectar a saúde das instâncias de espelho e SQL Server principal), selecione a caixa de seleção Usar uma testemunha de espelhamento do SQL Server para habilitar o **failover** automático e, em seguida, faça uma das th e a seguir:
     
      a. Em **SQL Server FQDN,** especifique o FQDN do servidor no qual você deseja criar a nova SQL Server de espelhamento.
     
@@ -87,7 +87,7 @@ ms.locfileid: "58611320"
 1. Em um computador que está executando Skype for Business Server ou no qual as ferramentas administrativas Skype for Business Server estão instaladas, faça logoff usando uma conta que seja membro do grupo usuários locais (ou uma conta com direitos de usuário equivalentes).
     
     > [!NOTE]
-    > Você pode definir uma topologia usando uma conta membro do grupo usuários locais, mas para publicar uma topologia, que é necessário para adicionar um  servidor à topologia, você deve usar uma conta que seja membro do grupo Administradores de Domínio e do **grupo RTCUniversalServerAdmins,** e que tenha permissões de controle total (leitura, gravação e modificação) no compartilhamento de arquivos que você está usando para o armazenamento de arquivos do Skype for Business Server (para que o Construtor de Topologias possa configurar a lista de controle de acesso discricionário necessário (DACLs) ou uma conta com direitos equivalentes.
+    > Você pode definir uma topologia usando uma conta membro do grupo Usuários local, mas para publicar uma topologia, que é necessária para adicionar um  servidor à topologia, você deve usar uma conta que seja membro do grupo Administradores de Domínio e do grupo **RTCUniversalServerAdmins** e que tenha permissões de controle total (leitura,  gravar e modificar) no compartilhamento de arquivos que você está usando para o armazenamento de arquivos Skype for Business Server (para que o Construtor de Topologias possa configurar a lista de controles de acesso discricionário necessário (DACLs) ou uma conta com direitos equivalentes.
   
 2. Abra a topologia criada na seção anterior usando o Construtor de Topologias.
     

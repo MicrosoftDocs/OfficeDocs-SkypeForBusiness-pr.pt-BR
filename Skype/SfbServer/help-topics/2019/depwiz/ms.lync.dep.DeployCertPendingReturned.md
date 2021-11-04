@@ -1,7 +1,7 @@
 ---
 title: Certificado Pendente (Retornado)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página Status de Solicitação de Certificado Online retorna o status atual do certificado. Se o certificado ainda estiver em um estado de aprovação pendente com o administrador de autoridade de certificação—ou seja, se ainda não tiver sido aprovado—o status indicará que o certificado ainda está sendo processado.
-ms.openlocfilehash: 65a97828988a59cb45005423c00288dc9b566bfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 74d121dfa0884a4898229790b66f48f658bee6eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599516"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753168"
 ---
 # <a name="pending-certificate-returned"></a>Certificado Pendente (Retornado)
  

@@ -1,7 +1,7 @@
 ---
 title: Exibir Gateways (Importar Configuração)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 description: Em Gateway implantado, clique no gateway para o qual deseja importar o arquivo de configuração de voz que você selecionou.
-ms.openlocfilehash: 2f05ff408c0ad20796ef3d8851ddef39976e78ad
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19143c91fdb8aa77935d177e7bca73e7e6919acc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600316"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772397"
 ---
 # <a name="view-gateways-import-configuration"></a>Exibir Gateways (Importar Configuração)
  

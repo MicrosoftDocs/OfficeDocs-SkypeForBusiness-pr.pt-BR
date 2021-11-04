@@ -1,7 +1,7 @@
 ---
 title: Gerenciar Skype for Business Server 2015 usando o pacote de gerenciamento SCOM
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumo: saiba como configurar sua infraestrutura Skype for Business Server 2015 para trabalhar com System Center Operations Manager.'
-ms.openlocfilehash: 0349949afe27c5351f9eefda7a5cc5f44a0a072d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 43fba4fa3672621052d51314e1d39ead5f4d568b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014935"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766269"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gerenciar Skype for Business Server 2015 usando o pacote de gerenciamento SCOM
  
@@ -131,7 +131,7 @@ Skype for Business Server pacotes de gerenciamento 2015 fornecem cobertura maior
 |1   |Registro (logon do usuário)   |Lync Server 2010 disponível e além   |
 |2   |Serviço de Livro de Endereços (download de arquivo)   |Lync Server 2010 disponível e além   |
 |3   |Consulta à web do Catálogo de endereços   |Lync Server 2010 disponível e além   |
-|4    |Presença   |Lync Server 2010 disponível e além   |
+|4   |Presença   |Lync Server 2010 disponível e além   |
 |5   |Armazenamento de Contato Unificado   |Lync Server 2013 disponível e além   |
 
   

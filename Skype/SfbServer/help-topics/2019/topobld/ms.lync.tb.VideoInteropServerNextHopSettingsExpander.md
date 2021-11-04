@@ -1,7 +1,7 @@
 ---
 title: Configurações de Próximo Salto do Servidor de Interoperabilidade de Vídeo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 ROBOTS: NOINDEX, NOFOLLOW
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server.
-ms.openlocfilehash: 3e91178f7bb7ba1886e449f01ee6e263cbe634a9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f28ba25aae3d7db39a499ad84fff9c4c65366566
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597025"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772627"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>Configurações de Próximo Salto do Servidor de Interoperabilidade de Vídeo
  

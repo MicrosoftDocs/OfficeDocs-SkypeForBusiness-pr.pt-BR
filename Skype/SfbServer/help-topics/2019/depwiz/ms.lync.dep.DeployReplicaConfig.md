@@ -1,7 +1,7 @@
 ---
 title: Instalar Invocação do Repositório de Configuração Local (Configuração)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a instalação do banco de dados que armazenará a cópia somente leitura local do armazenamento de Gerenciamento Central, selecione entre recuperar a configuração definida publicada usando o Construtor de Topologia no armazenamento de Gerenciamento Central já instalado e configurado ou lendo a configuração definida de outras mídias. Para um computador que está na rede interna da sua organização, selecione Recuperar configuração automaticamente no Armazenamento de Gerenciamento Central.
-ms.openlocfilehash: 53b7f7c8067f248a5eae09d2a7a7e94d42600e66
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78c5a1697c77ed1a370739dd173718a74ead148e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625593"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742797"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Instalar Invocação do Repositório de Configuração Local (Configuração)
  

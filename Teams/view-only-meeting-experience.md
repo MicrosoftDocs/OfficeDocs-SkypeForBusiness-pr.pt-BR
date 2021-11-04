@@ -1,7 +1,7 @@
 ---
 title: Experiência de reunião somente para visualização
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: 6e56f1722d75c8126e8f19ac297e301dfc4e8706
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732290"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766029"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para visualização de Teams
 
@@ -128,7 +128,7 @@ O participante somente visualização não poderá experimentar as seguintes op�
 - Os participantes somente para visualização não serão incluídos no relatório de presença.
 - Os participantes somente para visualização terão uma única experiência de vídeo. Eles podem ver o locutor ativo ou o conteúdo que está sendo compartilhado, mas não ambos.
 - No momento, não oferecemos suporte para **Galeria**, **Galeria grande** ou **Modo conferência** layouts para participantes somente para visualização.
-- Os participantes de somente exibição são suportados apenas pelas seguintes políticas de lobby: 'Somente Você', 'Pessoas em minha organização e convidados', 'Pessoas em minha organização e organizações confiáveis, e convidados' e 'Todos'. Se você utilizar uma política de lobby que tem suporte para participantes Somente exibição, os participantes Somente exibição serão rejeitado da reunião. 
+- Os participantes somente para exibição são suportados pelas seguintes políticas de lobby: "Pessoas na minha organização", "Pessoas na minha organização e convidados", "Pessoas em minha organização, organizações confiáveis e convidados" e "Todos". Se você utilizar uma política de lobby que tem suporte para participantes Somente exibição, os participantes Somente exibição serão rejeitado da reunião. 
 - Os participantes somente exibição não terão a mesma latência de um participante normal. <sup>1</sup>
 
   <sup>1</sup> Os participantes somente para visualização terão um atraso de 30 segundos de vídeo e áudio na reunião.  

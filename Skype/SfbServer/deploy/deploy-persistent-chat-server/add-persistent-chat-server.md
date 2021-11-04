@@ -1,7 +1,7 @@
 ---
 title: Adicionar Servidor de Chat Persistente à topologia Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Resumo: leia este tópico para saber como adicionar o Servidor de Chat Persistente à sua topologia Skype for Business Server 2015.'
-ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607234"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753408"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Adicionar Servidor de Chat Persistente à topologia Skype for Business Server 2015
  
@@ -42,7 +42,7 @@ Para implantar vários pools de Servidor de Chat Persistente, repita o mesmo pro
 1. Em um computador que está executando Skype for Business Server ou no qual as ferramentas administrativas Skype for Business Server estão instaladas, faça logoff usando uma conta que seja membro do grupo usuários locais (ou uma conta com direitos de usuário equivalentes).
     
     > [!NOTE]
-    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários locais, mas para publicar uma topologia, que é necessária  para instalar o Skype for Business Server, você deve usar uma conta que seja membro do grupo Administradores de Domínio e do **grupo RTCUniversalServerAdmins,** e que tenha permissões de controle total (leitura, gravação e modificação) no armazenamento de arquivos que você vai usar para o armazenamento de arquivos do Servidor de Chat Persistente (para que o Construtor de Topologias possa configurar os DACLs necessários) ou uma conta com direitos equivalentes.
+    > Você pode definir uma topologia usando uma conta membro do grupo Usuários local, mas para publicar uma topologia, que é necessária para instalar  o Skype for Business Server, você deve usar uma conta que seja membro do grupo Administradores de Domínio e do grupo **RTCUniversalServerAdmins** e que tenha permissões de controle total (leia,  gravar e modificar) no armazenamento de arquivos que você vai usar para o armazenamento de arquivos do Servidor de Chat Persistente (para que o Construtor de Topologias possa configurar as DACLs necessárias) ou uma conta com direitos equivalentes.
   
 2. Inicie o Construtor de topologia.
     
@@ -109,7 +109,7 @@ Depois de atualizar sua topologia no Construtor de Topologias, você deve public
   
 Antes de publicar sua topologia, instale os bancos de dados para o Servidor de Chat Persistente. Use o Construtor de Topologias para instalar bancos de dados selecionando **Ação** e **Instalar Banco de Dados**.
   
-1. Em um computador que está executando Skype for Business Server ou no qual as ferramentas administrativas Skype for Business Server estão instaladas, faça logon usando uma conta que seja membro do grupo Administradores de Domínio **e** do **grupo RTCUniversalServerAdmins,** e que tenha permissões de controle total (leitura, gravação e modificação) no armazenamento de arquivos a ser usado para o armazenamento de arquivos do Servidor de Chat Persistente (para que o Construtor de Topologias possa configurar as listas de controle de acesso discricionário necessárias (DACLs)) ou uma conta com direitos de usuário equivalentes.
+1. Em um computador que está executando o Skype for Business Server ou no qual as ferramentas administrativas do Skype for Business Server estão  instaladas, faça logon usando uma conta que seja membro do grupo Administradores de Domínio e do **grupo RTCUniversalServerAdmins** e que tenha permissões de controle total (leitura, gravação e modificação) no armazenamento de arquivos a ser usado para o armazenamento de arquivos Armazenamento de arquivos do Servidor de Chat Persistente (para que o Construtor de Topologias possa configurar as listas de controle de acesso discricionário necessárias (DACLs) ou uma conta com direitos de usuário equivalentes.
     
 2. Inicie o Construtor de topologia. Selecione **Abrir Topologia de um arquivo local** se você a salvou localmente.
     

@@ -1,7 +1,7 @@
 ---
 title: Definir troncos adicionais no Construtor de Topologias Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Resumo: saiba como definir um tronco adicional entre um Servidor de Mediação e um ponto de gateway no Construtor de Topologias Skype for Business Server.'
-ms.openlocfilehash: 42f435079a66f7dba6c325ad8afbb1b28a3e3753
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3a1094bdc9d0f92eba5cfa1ace87f14db0011de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585847"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748867"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definir troncos adicionais no Construtor de Topologias Skype for Business Server
  

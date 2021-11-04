@@ -1,7 +1,7 @@
 ---
 title: Cartazes para Skype for Business Server 2015 | PSTN de voz
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 'Resumo: revise esses cartazes conforme necessário durante o planejamento, implementação ou gerenciamento de Skype for Business Server.'
-ms.openlocfilehash: efca09a1481417c6623b0c610c7e95a5aa15ad7d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a5ad11aca26d279be415d558be89505f37e0f7ba
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732980"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754228"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Diagramas técnicos para Skype for Business Server
 
@@ -47,7 +47,7 @@ Para obter mais informações sobre como usar Microsoft Teams, consulte Microsof
 |:---|:---|
 |**Skype for Business Server Cargas de trabalho de protocolo** <br/>![Cartaz cargas de trabalho do protocolo SfB.](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[Versão PDF](https://go.microsoft.com/fwlink/p/?LinkId=550989) (melhor para dispositivos móveis ou tablets) <br/> [Visio versão](https://go.microsoft.com/fwlink/p/?LinkId=550991) (melhor para usuários com Visio) |Baixe este cartaz para entender melhor os requisitos de Skype for Business e clientes em diferentes níveis de complexidade do serviço.<br/> <br/> Tamanho: 11 por 17 polegadas (várias folhas, convenientemente dimensionadas para impressão na maioria das impressoras do office) <br/> <br/> Esse cartaz foi criado usando Visio 2015. Nenhuma modificação deve ser necessária para um ambiente específico. |
 |**Skype for Business Metodologia de Qualidade de Chamada** <br/> ![Cartaz da Metodologia de Qualidade de Chamada. ](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[Versão PDF](https://go.microsoft.com/fwlink/p/?LinkId=617899) (melhor para dispositivos móveis ou tablets) <br/> [Visio versão](https://go.microsoft.com/fwlink/p/?LinkId=617900) (melhor para usuários com Visio) |Baixe este cartaz para saber mais sobre o CQM, a Metodologia de Qualidade de Chamadas do Skype for Business Server 2015 que ajuda você a encontrar e eliminar problemas que afetam a qualidade das chamadas e a experiência do usuário para implementações que incluem recursos de voz corporativa. <br/> <br/> Use a [página de detalhes de download](https://go.microsoft.com/fwlink/p/?LinkId=617898) para obter as cartas e regras imprimíveis se você quiser reproduzi-la como um jogo de tabuleiro. Use este cartaz com o [Scorecard CQM](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> Tamanho: 34 por 44 polegadas <br/> <br/> Esse cartaz foi criado usando Visio 2015. Nenhuma modificação deve ser necessária para um ambiente específico. |
-|**Skype for Business Soluções de Voz** <br/> ![Cartaz planejar soluções de voz.](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [Versão PDF](https://go.microsoft.com/fwlink/?linkid=869123) (melhor para dispositivos móveis ou tablets) <br/> [Visio versão](https://go.microsoft.com/fwlink/?linkid=869124) (melhor para usuários com Visio) |A Microsoft oferece uma variedade de opções para permitir que seus usuários liguem para telefones fixos e celulares por meio da PSTN (Rede Telefônica Pública Comuada)-- se suas contas existem no Microsoft 365 ou no Office 365 no Skype for Business Online ou em sua implantação local do Skype for Business Server 2015. Este cartaz descreve as diferentes ofertas de voz da Microsoft e, em seguida, fornece orientações sobre quais opções podem ser as melhores para você, dependendo do status atual da sua organização e dos planos futuros. <br/> <br/> Tamanho: 34 por 44 polegadas <br/><br/> Esse cartaz foi criado usando Visio 2015. Nenhuma modificação deve ser necessária para um ambiente específico. |
+|**Skype for Business Soluções de Voz** <br/> ![Cartaz planejar soluções de voz.](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [Versão PDF](https://go.microsoft.com/fwlink/?linkid=869123) (melhor para dispositivos móveis ou tablets) <br/> [Visio versão](https://go.microsoft.com/fwlink/?linkid=869124) (melhor para usuários com Visio) |A Microsoft oferece uma variedade de opções para permitir que seus usuários liguem para telefones fixos e celulares por meio da Rede Telefônica Pública Comutado (PSTN)-- se suas contas existem no Microsoft 365 ou no Office 365 no Skype for Business Online ou no seu Skype for Business Server 2015 local deployment. Este cartaz descreve as diferentes ofertas de voz da Microsoft e, em seguida, fornece orientações sobre quais opções podem ser as melhores para você, dependendo do status atual da sua organização e dos planos futuros. <br/> <br/> Tamanho: 34 por 44 polegadas <br/><br/> Esse cartaz foi criado usando Visio 2015. Nenhuma modificação deve ser necessária para um ambiente específico. |
 |**Skype for Business Modelos arquitetônicos** <br/> ![Skype for Business Modelos arquitetônicos.](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [Versão PDF](https://go.microsoft.com/fwlink/?linkid=869125) (melhor para dispositivos móveis ou tablets) <br/> [Visio versão](https://go.microsoft.com/fwlink/?linkid=869126) (melhor para usuários com Visio) |Esta série de cartazes destina-se ao público de Pro de conscientizar os diferentes modelos de arquitetura fundamentais por meio dos quais o Skype for Business Online e o Skype for Business Server 2015 no local podem ser consumidos. Comece com a configuração mais adequada às necessidades e planos futuros da sua organização. Considere e use outras conforme necessário. Por exemplo, talvez você queira considerar a integração com Exchange e SharePoint ou uma solução que aproveite a oferta do Cloud PBX da Microsoft. <br/><br/> Tamanho: 11 por 17 polegadas <br/><br/> Esse cartaz foi criado usando Visio 2010. Nenhuma modificação deve ser necessária para um ambiente específico. |
 
 ## <a name="visual-assets"></a>Ativos visuais

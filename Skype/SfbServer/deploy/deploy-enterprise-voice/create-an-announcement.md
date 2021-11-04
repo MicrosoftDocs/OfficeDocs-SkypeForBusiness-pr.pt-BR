@@ -1,7 +1,7 @@
 ---
 title: Criar ou excluir um comunicado no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Crie ou exclua comunicados para o aplicativo De comunicado Skype for Business Server Enterprise Voice. Isso afeta como as chamadas para números não atribuídos são manipuladas.
-ms.openlocfilehash: 095b510dc152e527608ff1e894d971e793cbc822
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a5fdbcb5f9c4e72790f35f73cef791868634ce9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583215"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765919"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Criar ou excluir um comunicado no Skype for Business Server
 
@@ -63,7 +63,7 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. Execute:  
+5. Execute .
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]

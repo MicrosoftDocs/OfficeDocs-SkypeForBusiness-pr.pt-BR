@@ -1,7 +1,7 @@
 ---
 title: Política de PIN Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: f7ad2f3cef9717d71fd316e2d90493a91adf3ac8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5314f334ea570074e9a74e39478ed3adfa512cbd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585265"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742657"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Política PIN: Criar Nova ou Editar Existente
 

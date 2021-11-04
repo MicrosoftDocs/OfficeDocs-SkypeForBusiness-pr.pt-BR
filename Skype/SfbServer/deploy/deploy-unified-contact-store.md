@@ -1,7 +1,7 @@
 ---
 title: 'Implantar o armazenamento unificado de contatos Skype for Business Server '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Resumo: Habilita o armazenamento unificado de contatos Skype for Business Server.'
-ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 459626fe40f76cc19534aaff67d1b1b39c268469
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609928"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748827"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implantar o armazenamento unificado de contatos Skype for Business Server
  
@@ -139,7 +139,7 @@ Importar os dados do repositório de contato unificado de um banco de dados de b
 - Se você exportar dados do usuário depois de migrar usuários para o Exchange 2013, reverter a migração e, por algum motivo, importar os dados após a migração, os dados de armazenamento unificado e listas de contatos serão corrompidos.
     
 > [!IMPORTANT]
-> Antes de mover uma caixa de correio do Exchange do Exchange 2013 para o Exchange 2010, o administrador do Exchange deve certificar-se de que o administrador do Skype for Business Server tenha rolado primeiro os contatos do usuário do Skype for Business Server do Exchange 2013 para Skype for Business Server. Para reverter os contatos unificados do armazenamento de contatos para Skype for Business Server, consulte o procedimento "Para reverter contatos unificados do armazenamento de contatos do Exchange 2013 para Skype for Business Server", mais adiante nesta seção. 
+> Antes de mover uma caixa de correio Exchange do Exchange 2013 para o Exchange 2010, o administrador do Exchange deve certificar-se de que o administrador do Skype for Business Server tenha rolado o Skype for Business Server contatos do usuário de Exchange 2013 para Skype for Business Server. Para reverter os contatos unificados do armazenamento de contatos para Skype for Business Server, consulte o procedimento "Para reverter contatos unificados do armazenamento de contatos do Exchange 2013 para Skype for Business Server", mais adiante nesta seção. 
   
  **Como reverter contatos do usuário:** Se você usar o cmdlet **Move-CsUser** para mover usuários entre o Skype for Business Server 2015 e o Lync Server 2010, poderá ignorar essas etapas porque o cmdlet **Move-CsUser** reajusta automaticamente o armazenamento unificado de contatos quando ele move os usuários do Skype for Business Server 2015 para o Lync Server 2010. **O Move-CsUser** não desabilita a política de armazenamento unificado de contatos, portanto, a migração para o armazenamento unificado de contatos será recorrência se o usuário for movido de volta para o Skype for Business Server 2015.
   

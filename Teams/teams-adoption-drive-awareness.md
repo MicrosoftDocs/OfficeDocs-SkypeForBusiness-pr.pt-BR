@@ -1,7 +1,7 @@
 ---
 title: Promover a conscientização e implementar treinamento
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725530"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753882"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Promover a conscientização e implementar o treinamento do Microsoft Teams
 
@@ -71,4 +71,4 @@ Compartilhe as informações que você obter de seus canais de comentários com 
 
 [Saiba mais sobre os relatórios Microsoft Teams de uso no Centro de administração do Microsoft 365.](teams-activity-reports.md)
 
-![Um ícone que representa as próximas etapas.](media/teams-adoption-next-icon.png) Próximo: [Agendar avaliações de saúde do serviço](teams-adoption-schedule-service-health-reviews.md)
+![Um ícone representando os próximos passos.](media/teams-adoption-next-icon.png) Próximo: [Agendar avaliações de saúde do serviço](teams-adoption-schedule-service-health-reviews.md)

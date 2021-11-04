@@ -1,7 +1,7 @@
 ---
 title: Obter os Últimos Dados de Integração
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Resumo: saiba mais sobre a operação Obter Dados de Última Integração, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 495a3b3f281e8f10c46372c774098aef573d6a3e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b55b54686ed34406ea6a716d07886a2fb794898
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604780"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766429"
 ---
 # <a name="get-last-integration-data"></a>Obter os Últimos Dados de Integração
  
@@ -35,7 +35,7 @@ Esse recurso é desabilitado por padrão e precisa ser habilitado configurando a
 
 |**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
  **Parâmetros URI** - Nenhum.
   

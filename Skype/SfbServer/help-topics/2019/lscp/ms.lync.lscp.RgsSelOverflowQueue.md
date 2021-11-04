@@ -1,7 +1,7 @@
 ---
 title: Selecionar Fila de Estouro
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar uma fila de estouro para selecionar uma fila na qual as chamadas são encaminhadas quando uma fila do grupo de resposta está cheia.
-ms.openlocfilehash: 90d73d9269c169df743bd10cfee7f77ce097b863
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05aaf0b17f67533b8ec45cf364ed7cbc5e4d62f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620367"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742677"
 ---
 # <a name="select-overflow-queue"></a>Selecionar Fila de Estouro
  

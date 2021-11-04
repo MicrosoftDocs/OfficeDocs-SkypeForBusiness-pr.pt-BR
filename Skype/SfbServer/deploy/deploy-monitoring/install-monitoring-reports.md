@@ -1,7 +1,7 @@
 ---
 title: Instalar relatórios de monitoramento no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Resumo: saiba como instalar um serviço que gerará relatórios de monitoramento no Skype for Business Server.'
-ms.openlocfilehash: bda56b297f9e4f46033cb6d09c46c61f56092b4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5dd24524feecf8792f864d44e0d898166c9717e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581025"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753438"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Instalar relatórios de monitoramento no Skype for Business Server
  
@@ -45,7 +45,7 @@ Encontre mais informações sobre os relatórios individuais na documentação d
 > [!NOTE]
 > Há outro relatório - Sub-relatório de detalhes de chamada de QoE - incluído no Skype for Business Server. Porém, seu uso é principalmente interno e o acesso a ele não pode ser feito diretamente. 
   
-Há duas maneiras de instalar Skype for Business Server Relatórios de Monitoramento: você pode usar o Assistente de Implantação do Skype for Business Server ou usar um script Windows PowerShell incluído nos arquivos de instalação Skype for Business Server. Independente do método usado para instalar os relatórios, primeiro você deve certificar-se de:
+Há duas maneiras de instalar Skype for Business Server Relatórios de Monitoramento: você pode usar o Assistente de Implantação Skype for Business Server ou usar um script Windows PowerShell incluído no Skype for Business Server arquivos de instalação. Independente do método usado para instalar os relatórios, primeiro você deve certificar-se de:
   
 - Ter o direito de adicionar uma função de banco de dados a uma conta de usuário no banco de dados de monitoramento.
     
@@ -75,7 +75,7 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
 
 Os parâmetros usados no comando anterior são descritos na tabela a seguir:
   
-|**Nome do parâmetro**|**Obrigatório**|**Descrição**|
+|**Nome do Parâmetro**|**Obrigatório**|**Descrição**|
 |:-----|:-----|:-----|
 |storedUserName  <br/> |Sim  <br/> |Conta de usuário (no formato domínio\nome_de_usuário) usada para acessar o repositório de monitoramento; por exemplo:  <br/> ```-storedUserName "litwareinc\kenmyer"```Essa conta deve ter as permissões de SQL Server e SQL Server Reporting Services especificadas anteriormente ou o script falhará.  <br/> |
 |storedPassword  <br/> |Sim  <br/> |Senha da conta de usuário usada para acessar o repositório de monitoramento.  <br/> |

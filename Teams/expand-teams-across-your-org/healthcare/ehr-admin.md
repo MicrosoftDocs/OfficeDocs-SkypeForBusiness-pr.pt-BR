@@ -1,7 +1,7 @@
 ---
 title: Teams para Visitas virtuais
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Usar o Microsoft Teams para configurar seu Sistema de visitas virtuais
-ms.openlocfilehash: a5b04befbd3c4cf5d1730432a2c5dcad97e63675
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 40772326d2767e7815a73ad9feca2e4853c762fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935847"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743037"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuais com o Teams - Integração com EHR
 
@@ -49,7 +49,7 @@ Você precisará certificar-se de que possui os seguintes pré-requisitos antes 
 
 - Acesso para usar o aplicativo Microsoft Teams no [mercado App Orchard da Epic](https://apporchard.epic.com/Gallery?id=6153).
 
-- Assinatura ativa do Microsoft Cloud for Healthcare ou assinatura Microsoft Teams oferta autônoma do conector EHR (imposta somente durante o teste de produção).
+- Assinatura ativa para Microsoft Cloud para Serviços de Saúde ou assinatura para Microsoft Teams oferta autônoma do conector EHR (imposta somente durante o teste de produção).
 
 - Os usuários devem ter uma licença apropriada do Microsoft 365 ou Office 365 que inclua reuniões do Microsoft Teams.
 

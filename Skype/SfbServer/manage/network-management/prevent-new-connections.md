@@ -1,7 +1,7 @@
 ---
 title: Impedir novas conexões
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 2ac97c784f2286a2231a5f20f54aa00daf646384
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c776c915247533641bc92d1a5458daf671bf6a04
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759723"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Impedir que novas conexões Skype for Business Server manutenção do servidor
 
@@ -39,7 +39,7 @@ Quando você impede novas conexões com um Servidor Front-End, alguns recursos e
 
 Para obter detalhes sobre o balanceamento de carga DNS, consulte [Requisitos de balanceamento de carga](../../plan-your-deployment/network-requirements/load-balancing.md).
 
-Além de impedir novas conexões para todos os serviços em um servidor que executa Skype for Business Server, você também pode impedir novas conexões para serviços Skype for Business Server individuais. Por exemplo, esse método é útil em uma situação em que você precisa aplicar uma atualização Skype for Business Server que não exige que todo o servidor seja desligado. Observe que, quando você impede conexões com um serviço, deve selecionar um serviço que é agrupado e exibido na lista de serviços do Windows. Por exemplo, o serviço Skype for Business Server Front-End e o agente de coleta de dados para Monitoramento são serviços Skype for Business Server separados, mas na lista de serviços Windows eles são consolidados e mostrados como o serviço Skype for Business Server front-end do Skype for Business Server. Você pode impedir novas conexões para o serviço Skype for Business Server front-end, mas não pode impedir novas conexões para esses dois serviços de Skype for Business Server individuais separadamente.
+Além de impedir novas conexões para todos os serviços em um servidor que executa Skype for Business Server, você também pode impedir novas conexões para serviços Skype for Business Server individuais. Por exemplo, esse método é útil em uma situação em que você precisa aplicar uma atualização Skype for Business Server que não exige que todo o servidor seja desligado. Observe que, quando você impede conexões com um serviço, deve selecionar um serviço que é agrupado e exibido na lista de serviços do Windows. Por exemplo, o serviço Skype for Business Server Front-End e o agente de coleta de dados para Monitoramento são serviços Skype for Business Server separados, mas na lista de serviços do Windows eles são consolidados e mostrados como o Skype for Business Server Front-End service. Você pode impedir novas conexões para o serviço Skype for Business Server front-end, mas não pode impedir novas conexões para esses dois serviços de Skype for Business Server individuais separadamente.
 
 > [!IMPORTANT]
 > Quando você define um servidor para impedir novas conexões e reiniciar o servidor, por padrão, o servidor começa imediatamente a aceitar novas conexões depois de ser inicializado. Para evitar isso, defina o servidor para apenas pausar e reiniciar manualmente antes de reiniciá-lo.

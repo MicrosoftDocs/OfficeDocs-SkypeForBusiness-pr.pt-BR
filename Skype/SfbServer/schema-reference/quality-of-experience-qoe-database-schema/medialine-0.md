@@ -1,7 +1,7 @@
 ---
 title: Tabela MediaLine
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Cada registro representa uma linha de mídia. (Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Uma sessão de áudio e vídeo (A/V) geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo, embora a sessão possa conter duas linhas de mídia de vídeo se um dispositivo de conferência for usado ou se o Gallery View for usado.
-ms.openlocfilehash: 9f96c18fcbe5799440e557cb180a52e990f61ec8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae2d776b47f7fe0ef172c9904ea77ae6188535fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627713"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754280"
 ---
 # <a name="medialine-table"></a>Tabela MediaLine
  
 Cada registro representa uma linha de mídia. (Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Uma sessão de áudio e vídeo (A/V) geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo, embora a sessão possa conter duas linhas de mídia de vídeo se um dispositivo de conferência for usado ou se o Gallery View for usado.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primário  <br/> |Referenciado da tabela [Session](session.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primário  <br/> |Referenciado da tabela [Session](session.md).  <br/> |

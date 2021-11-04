@@ -1,7 +1,7 @@
 ---
 title: Testar direitos de topologia de administrador em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Como testar direitos de topologia em Skype for Business Server
-ms.openlocfilehash: 7e1d7b8fe1f2b35cffd63aa8816b36946cdc500f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580535"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759713"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Testar direitos de topologia de administrador em Skype for Business Server
 

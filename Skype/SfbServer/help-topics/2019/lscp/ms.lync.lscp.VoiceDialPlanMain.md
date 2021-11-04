@@ -1,7 +1,7 @@
 ---
 title: Plano de Discagem
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: e6cafd99c9a99d2a876ea40292b34882adebc064
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efd8e076cb02db94c2bedc349223de68d2e6b901
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605360"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760134"
 ---
 # <a name="dial-plan"></a>Plano de Discagem
 
