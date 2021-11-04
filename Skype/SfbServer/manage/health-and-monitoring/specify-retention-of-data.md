@@ -1,7 +1,7 @@
 ---
 title: Especifique a retenção de dados cdr no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 'Resumo: saiba como gerenciar dados de cdr (registro de detalhes de chamada) para Skype for Business Server.'
-ms.openlocfilehash: 8588447d7e12123c0d10ae15b07a7727d94c0f27
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ac021da1c2235256e4b9bffc2f8664a1572d27d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013755"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742127"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Especifique a retenção de dados cdr no Skype for Business Server
  

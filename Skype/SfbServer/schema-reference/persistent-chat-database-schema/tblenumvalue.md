@@ -1,7 +1,7 @@
 ---
 title: tblEnumValue
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: A tabela tblEnumValue é uma tabela embutida em código que contém os valores de Visibilidade e Comportamento dos atributos usados na tabela Nó.
-ms.openlocfilehash: 0854b20316f0200e2521109880cad32862524c22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8482f8f821eba1b595e7758ecca6116e3fd69e63
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619697"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741897"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -44,9 +44,9 @@ A tabela tblEnumValue é uma tabela embutida em código que contém os valores d
 |**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
 |2  <br/> |1  <br/> |private  <br/> |
-|3   <br/> |1  <br/> |scope  <br/> |
-|4   <br/> |2  <br/> |normal  <br/> |
-|5   <br/> |2  <br/> |auditório  <br/> |
+|3  <br/> |1  <br/> |scope  <br/> |
+|4  <br/> |2  <br/> |normal  <br/> |
+|5  <br/> |2  <br/> |auditório  <br/> |
 |6   <br/> |1  <br/> |open  <br/> |
    
 ## <a name="see-also"></a>Confira também

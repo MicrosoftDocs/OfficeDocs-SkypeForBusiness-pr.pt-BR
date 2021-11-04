@@ -1,6 +1,6 @@
 ---
 title: Planejar a Skype for Business do cliente 2015 para seus usuários
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Resumo: saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você está usando o Skype for Business Online, o Skype for Business Server 2019, o Skype for Business Server 2015, o Lync Server 2013 ou o Lync Server 2010.'
-ms.openlocfilehash: b9ead36cb38c41376c80a85f1356e24e78b51eb7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Resumo: saiba mais sobre o novo Skype for Business e as etapas que você pode tomar para preparar seu ambiente e seus usuários para a atualização, se você está usando o Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, Lync Server 2013 ou Lync Server 2010.'
+ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586863"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740448"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planejar a Skype for Business do cliente 2015 para seus usuários
  
-**Resumo:** Saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você está usando o Skype for Business Online, o Skype for Business Server 2019, o Skype for Business Server 2015, o Lync Server 2013 ou o Lync Server 2010.
+**Resumo:** Saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você está usando o Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, Lync Server 2013 ou Lync Server 2010.
   
 A atualização de 14 de abril de 2015 Office Lync 2013 inclui a nova interface de usuário Skype for Business de usuário. Essa atualização permite que os administradores controlem a aparência do cliente e escolham se mantêm a experiência do cliente do Lync 2013 ou usam a experiência de cliente Skype for Business aprimorada. O cliente Skype for Business substituiu efetivamente o cliente Lync 2013 e adicionou a capacidade de os administradores escolherem entre a experiência de cliente existente do Lync e a nova experiência do cliente Skype for Business cliente. Para obter informações sobre essa atualização, consulte [April 14, 2015 update for Lync 2013 (Skype for Business) (KB2889923)](https://support.microsoft.com/kb/2889923/).
   

@@ -1,7 +1,7 @@
 ---
 title: Associar Front End com Página do Servidor do Office Web Apps
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: O Office Web Apps Server fornece serviços semelhantes a um apresentador carregando um documento para uso em uma reunião, mas habilita recursos adicionais que as versões anteriores não fizeram.
-ms.openlocfilehash: 2a9ae984f30e582c89294f8f2bef51a07cbc0862
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 970540429f82933f5ff455657ef8760a444b2bef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625383"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738237"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Associar Front-end com a Página do Servidor do Office Web Apps
 

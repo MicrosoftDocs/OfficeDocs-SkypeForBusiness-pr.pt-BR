@@ -1,7 +1,7 @@
 ---
 title: Implantar Gerenciador de Estatísticas do Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumo: leia este tópico para saber como implantar o Gerenciador de Estatísticas para Skype for Business Server.'
-ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612090"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778151"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implantar Gerenciador de Estatísticas do Skype for Business Server
  

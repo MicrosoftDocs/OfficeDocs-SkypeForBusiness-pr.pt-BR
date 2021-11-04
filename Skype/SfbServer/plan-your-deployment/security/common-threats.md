@@ -1,7 +1,7 @@
 ---
 title: Ameaças comuns à segurança na computação moderna
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/22/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Como Skype for Business Server é um sistema de comunicações de classe empresarial, você deve estar ciente de ataques comuns de segurança que podem afetar sua infraestrutura e comunicações.
-ms.openlocfilehash: 04fa1eb040c1e208781d862da0bd92bc68a77dbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dcc889ea43c06c2f8166d588b8d7e5eb7075b52c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629504"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741917"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Ameaças comuns à segurança na computação moderna
  

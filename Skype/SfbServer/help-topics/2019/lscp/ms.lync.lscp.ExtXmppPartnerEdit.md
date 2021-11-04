@@ -1,7 +1,7 @@
 ---
 title: Parceiros federados XMPP Criam Novos ou Editam Existentes
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: fb9456592dff4fdfca8f10af1108a6ea6e7b0e47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd681236f88250ffdf444b644774c525fa59299e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620087"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752970"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Parceiros Federados XMPP: Criar Novos ou Editar Existentes
 

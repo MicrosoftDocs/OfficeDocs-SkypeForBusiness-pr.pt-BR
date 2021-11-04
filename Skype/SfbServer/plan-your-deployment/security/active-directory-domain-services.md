@@ -1,7 +1,7 @@
 ---
 title: Serviços de Domínio do Active Directory para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Os Serviços de Domínio do Active Directory funcionam como o serviço de diretório para redes Windows Server 2003, Windows Server 2008, Windows Server 2012 e Windows Server 2012 R2. Os Serviços de Domínio do Active Directory também servem como a base na qual a Skype for Business Server de segurança é criada. O objetivo desta seção é descrever como o Skype for Business Server usa os Serviços de Domínio do Active Directory para criar um ambiente confiável para mensagens de IM, Webconferência, mídia e voz. Para obter detalhes sobre como preparar seu ambiente para Os Serviços de Domínio do Active Directory, consulte Install Skype for Business Server na documentação implantação. Para obter detalhes sobre a função dos Serviços de Domínio Active Directory em redes do Windows Server, consulte a documentação da versão do sistema operacional que você está usando.
-ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604650"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759463"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Serviços de Domínio do Active Directory para Skype for Business Server
  
@@ -101,7 +101,7 @@ Em Skype for Business Server, os servidores confiáveis são os especificados qu
     
 Quando um dos seguintes critérios está ausente, o servidor não é confiável e a conexão com ele é recusada. Esse requisito duplo impede um possível, se improvável, ataque no qual um servidor desonesto tenta assumir o FQDN de um servidor válido.
   
-Além disso, para habilitar as implantações do Microsoft Office Communications Server 2007 R2 e do Microsoft Office Communications Server 2007 para se comunicar com servidores do Skype for Business Server, o Skype for Business Server cria contêineres durante a preparação da floresta para manter listas de servidores confiáveis para versões anteriores. A tabela a seguir descreve os contêineres criados para permitir a compatibilidade com implementações anteriores.
+Além disso, para habilitar Microsoft Office implantações do Microsoft Office Communications Server 2007 R2 e do Microsoft Office Communications Server 2007 para se comunicar com servidores Skype for Business Server, o Skype for Business Server cria contêineres durante a floresta preparação para manter listas de servidores confiáveis para versões anteriores. A tabela a seguir descreve os contêineres criados para permitir a compatibilidade com implementações anteriores.
   
 **Listas de servidores confiáveis e seus contêineres do Active Directory para compatibilidade com versões anteriores**
 

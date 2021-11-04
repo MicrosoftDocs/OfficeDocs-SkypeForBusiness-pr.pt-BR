@@ -1,7 +1,7 @@
 ---
 title: Tabela AppSharingMetricsThreshold
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: A tabela AppSharingMetricsThreshold contém valores ideais e aceitáveis de métricas de Qualidade de Experiência usadas no compartilhamento de aplicativos. Esses limites são usado para determinar se a experiência de compartilhamento de aplicativos deve ser classificada como inadequada.
-ms.openlocfilehash: 624016a7c98a32859edbdd849b8f1a85f76e8abb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d11c19886feebd77ff8b8dda262d969eb76c6434
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628533"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759353"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>Tabela AppSharingMetricsThreshold
  
@@ -26,7 +26,7 @@ A tabela AppSharingMetricsThreshold contém valores ideais e aceitáveis de mét
   
 Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**CallType** <br/> |int  <br/> |Primário  <br/> |Tipo de chamada feita.  <br/> |
 |**AppliedBandwidthLimitOptimal** <br/> |int  <br/> ||Limitação de largura de banda ideal para compartilhamento de aplicativos. O valor padrão é 1000000.  <br/> |

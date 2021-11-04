@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade nas Ilhas Caimão
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para as Ilhas Caimão.
-ms.openlocfilehash: 3e2212c62281858b8325bd9196c86fe7662c8b74
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4c3b83d0ba8079cd224319341db136fd4a0761e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603440"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741707"
 ---
 # <a name="availability-in-the-cayman-islands"></a>Disponibilidade nas Ilhas Caimão
 

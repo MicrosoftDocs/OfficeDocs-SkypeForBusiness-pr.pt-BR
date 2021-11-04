@@ -1,7 +1,7 @@
 ---
 title: Planejar vários números de emergência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Leia este tópico para saber como planejar vários números de emergência Skype for Business Server.
-ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e4761b22295d71c33af414e2a92dac7bf1210d6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634225"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741958"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planejar vários números de emergência no Skype for Business Server
  

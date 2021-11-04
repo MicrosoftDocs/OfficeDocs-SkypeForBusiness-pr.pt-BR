@@ -1,7 +1,7 @@
 ---
 title: Nó de Escopo de Aplicativos Externos
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O nó Servidores de aplicativos confiáveis lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contêm servidores que executem aplicativos de Comunicações Unificadas da Microsoft confiáveis, mas não Skype for Business Server funções. Você pode executar as seguintes ações:'
-ms.openlocfilehash: f1324f73db7f102206177aaa74dddc02a1f69bbf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04dba3c585e53b9a26c179266a9685e0db70ea31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606440"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738187"
 ---
 # <a name="external-applications-scope-node"></a>Nó de Escopo de Aplicativos Externos
  

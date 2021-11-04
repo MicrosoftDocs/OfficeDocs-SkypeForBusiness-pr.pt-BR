@@ -1,7 +1,7 @@
 ---
 title: Relatório de Desempenho do Servidor em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Resumo: saiba mais sobre o Relatório de Desempenho do Servidor Skype for Business Server.'
-ms.openlocfilehash: 2e51832cf3d5d4b7dca816aa17ded0483dc88efd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d276d0dd4deec374ff88ca32d143855dae8919b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632855"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746907"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Relatório de Desempenho do Servidor em Skype for Business Server
  
@@ -65,7 +65,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
   
 **Filtros do Relatório de Desempenho do Servidor**
 
-|**Name**|**Descrição**|
+|**Nome**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
@@ -81,7 +81,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
   
 **Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de áudio**
 
-|**Name**|**É possível classificar por**|**Descrição**|
+|**Nome**|**É possível classificar por**|**Descrição**|
 |:-----|:-----|:-----|
 |**Servidor** <br/> |Não  <br/> |Nome/endereço IP do servidor.  <br/> |
 |**Volume de chamadas** <br/> |Não  <br/> |Número total de chamadas realizadas.  <br/> |
@@ -96,7 +96,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
    
 **Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de vídeo**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de Chamada/Tipo de Ponto de Extremidade** <br/> |Não  <br/> | Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem: <br/>  Chamadas Ponto a Ponto de UC <br/>  Sessões de Conferência de UC <br/>  Sessões de Conferência PSTN <br/>  Chamadas PSTN: Desvio de Mídia <br/>  Chamadas PSTN (Não Ignorar): Trecho de UC <br/>  Chamadas PSTN (Não Ignorar): Trecho de Gateway <br/>  Outros Tipos de Chamada <br/> |
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas por tipo de chamada.  <br/> |
@@ -115,7 +115,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
    
 **Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de compartilhamento de aplicativo**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de Chamada/Tipo de Ponto de Extremidade** <br/> |Não  <br/> | Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem: <br/>  Chamadas Ponto a Ponto de UC <br/>  Sessões de Conferência de UC <br/>  Sessões de Conferência PSTN <br/>  Chamadas PSTN: Desvio de Mídia <br/>  Chamadas PSTN (Não Ignorar): Trecho de UC <br/>  Chamadas PSTN (Não Ignorar): Trecho de Gateway <br/>  Outros Tipos de Chamada <br/> |
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas por tipo de chamada.  <br/> |

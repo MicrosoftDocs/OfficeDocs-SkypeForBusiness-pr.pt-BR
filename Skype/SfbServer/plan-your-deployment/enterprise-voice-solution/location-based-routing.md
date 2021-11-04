@@ -1,7 +1,7 @@
 ---
 title: Planejar o roteamento baseado em localização em Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planejamento para roteamento baseado em local em Skype for Business Server Enterprise Voice, incluindo interação com toque simultâneo e delegação e cenários com suporte para roteamento baseado em local.
-ms.openlocfilehash: 64757f389278dbb5899146ea4fd0f4e201311127
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 928a44ed9484f1766013404d23b61a2cc56841d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013745"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741968"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planejar o roteamento baseado em localização em Skype for Business
 

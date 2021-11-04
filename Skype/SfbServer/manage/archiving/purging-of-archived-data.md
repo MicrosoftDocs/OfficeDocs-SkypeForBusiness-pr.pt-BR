@@ -1,7 +1,7 @@
 ---
 title: Gerenciar a coleta de dados arquivados no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Resumo: saiba como gerenciar a coleta de dados arquivados para Skype for Business Server.'
-ms.openlocfilehash: b071a464ab6c31d64441f06d73493c2bdbbf607a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5800711756fcccde90ba9907adbe1e9309a677b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587203"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778351"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Gerenciar a coleta de dados arquivados no Skype for Business Server
 

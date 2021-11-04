@@ -1,6 +1,6 @@
 ---
 title: Restrições de discagem de chamada gratuita em Portugal
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostrarão os códigos de acesso necessários em cada país/região para discar o número gratuito.
-ms.openlocfilehash: 8a0a09b55aa4bf133b78bd173bbef908c8785070
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31535bb8ecd578edde90c133c88031d42f61e027
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603214"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740187"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Restrições de discagem de chamada gratuita em Portugal
 

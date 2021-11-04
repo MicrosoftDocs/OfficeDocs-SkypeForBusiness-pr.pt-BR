@@ -1,7 +1,7 @@
 ---
 title: Enviar emails de boas-vindas aos usuários discado no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Resumo: saiba como dar as boas-vindas aos usuários para conferência discar no Skype for Business Server.'
-ms.openlocfilehash: 4304952bbede0f35183a80f789783bbfc4a8cfbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64dd7086b1a40de0c0cc2e0b33a66257153541cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578795"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772067"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar emails de boas-vindas aos usuários discado no Skype for Business Server
  

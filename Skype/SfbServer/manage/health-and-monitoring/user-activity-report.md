@@ -1,7 +1,7 @@
 ---
 title: Relatório de Atividades do Usuário Skype for Business Server 25
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Resumo: saiba mais sobre o Relatório de Atividades do Usuário Skype for Business Server.'
-ms.openlocfilehash: d2f303751219c0ba156f45d792196673a4283159
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d0021a1a8ab72da972c68da94a0a99b84eb7d28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617867"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778331"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Relatório de Atividades do Usuário no Skype for Business Server
 
@@ -117,7 +117,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Ativi
 **Filtros de relatório de atividades do usuário**
 
 
-| **Name**                   | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Nome**                   | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |:---------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **De** <br/>             | Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são sempre de domingo a sábado.  <br/>                                                      |
 | **To** <br/>               | Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são contadas de domingo até sábado.  <br/>                                                             |
@@ -132,7 +132,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 **Métricas para sessões ponto a ponto**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Ver os detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório de Detalhes de Sessão Ponto a Ponto da sessão selecionada.  <br/> |
 |**Do usuário** <br/> |Sim  <br/> |Endereço SIP do usuário que iniciou a sessão ponto a ponto.  <br/> |
@@ -149,7 +149,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 **Métricas para sessões de conferência**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**URI de conferência** <br/> |Sim  <br/> |Identificador exclusivo de conferência. Quando você clica nesse item, o relatório mostra o Relatório de Detalhes da Conferência da sessão selecionada. Quando você expande esse item, o relatório mostra informações sobre os participantes da conferência. Para obter detalhes, consulte a seção "Métricas para Participantes de Conferência" mais adiante neste tópico.  <br/> |
 |**Organizador** <br/> |Sim  <br/> |Endereço SIP do usuário que organizou a conferência.  <br/> |
@@ -163,7 +163,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 **Métricas para participantes da conferência**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Função** <br/> |Não  <br/> |Função de conferência (por exemplo, Apresentador) para o usuário.  <br/> |
 |**Participante** <br/> |Não  <br/> |Endereço SIP do usuário.  <br/> |

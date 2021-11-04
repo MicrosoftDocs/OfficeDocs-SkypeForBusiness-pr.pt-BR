@@ -1,6 +1,6 @@
 ---
 title: Comparação de recursos do cliente móvel para Skype for Business
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Resumo: revise o suporte ao recurso para o cliente móvel enquanto planeja Skype for Business Server.'
-ms.openlocfilehash: 576947499c506052c5204d4826489ae9a2a60037
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b619219666a89e40870caf4cea80a683011775c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614121"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759563"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparação de recursos do cliente móvel para Skype for Business
  

@@ -1,7 +1,7 @@
 ---
 title: Exibir informações de política de PIN em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Resumo: Exibir informações de política de PIN de um usuário para Skype for Business Server.'
-ms.openlocfilehash: fca606d00507f199e09d84604d60cc8004ad9a9b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 112eebb72ed1599ca85031653651bcaa1dad41e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013725"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765519"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Exibir informações de política de PIN em Skype for Business Server
  

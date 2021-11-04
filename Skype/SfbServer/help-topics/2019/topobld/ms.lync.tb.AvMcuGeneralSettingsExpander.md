@@ -1,7 +1,7 @@
 ---
 title: Expansor de Configurações Gerais MCU AV
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as propriedades de um pool de Servidor de Conferência A/V já definido, faça o seguinte:'
-ms.openlocfilehash: a34c4e298e86394d221a170a9c216b187af2c3f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b628901520070ab5f5a44f924e64bae7a93500b6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634665"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752520"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Expansor de Configurações Gerais MCU AV
  

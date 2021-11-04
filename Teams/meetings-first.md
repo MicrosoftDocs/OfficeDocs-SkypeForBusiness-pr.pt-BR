@@ -1,7 +1,7 @@
 ---
 title: Reunião Primeiro - Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f2bb9cc09625bcaaa27115745f19efbcaa14f7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2aafa115d6da600df17ac18e4b1af66358efb16b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728400"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741637"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -107,7 +107,7 @@ Você pode considerar executar um piloto pronto para produção em escala modera
 
 Depois de licenciar seus usuários e preparar sua organização para Teams reuniões, é hora de habilitar seus usuários para reuniões primeiro. Facilitamos a tarefa: uma única configuração fará tudo isso!
 
-Todos os recursos e experiências do usuário em Reuniões [](teams-client-experience-and-conformance-to-coexistence-modes.md) Primeiro, incluindo a configuração do cliente Teams e a conformidade automática da experiência do usuário, o Serviço de Migração de Reuniões e os recursos Better Together, são configurados concedendo ao usuário (ou grupo de usuários ou locatário padrão) o modo de coexistência [SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) no centro de administração do [Microsoft Teams](manage-teams-in-modern-portal.md) ou usando o [PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+Todos os recursos e experiências do usuário em Reuniões [](teams-client-experience-and-conformance-to-coexistence-modes.md) Primeiro, incluindo a configuração do cliente Teams e a conformidade automática da experiência do usuário, o Serviço de Migração de Reuniões e os recursos Melhor Juntos, são configurados concedendo ao usuário (ou grupo de usuários ou locatário padrão) o modo de coexistência [SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) no centro de administração do [Microsoft Teams](manage-teams-in-modern-portal.md) ou usando o [PowerShel l](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Captura de tela das configurações de administrador para habilitar reuniões primeiro.](media/teams-meeting-admin-settings.png)
 

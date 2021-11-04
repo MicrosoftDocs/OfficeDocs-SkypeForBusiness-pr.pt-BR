@@ -1,7 +1,7 @@
 ---
 title: Tabela de ponto de extremidade
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,21 +13,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 description: A tabela Ponto de Extremidade é uma tabela de suporte que armazena informações sobre os pontos de extremidade que participaram de sessões gravadas no banco de dados. Cada registro na tabela representa um ponto de extremidade.
-ms.openlocfilehash: cdf909bf8c34153fb34d1462acce9726b7eaa359
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 40c5ee0962059644db998fe7706fe53e212564c2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603670"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741837"
 ---
 # <a name="endpoint-table"></a>Tabela de ponto de extremidade
  
 A tabela Ponto de Extremidade é uma tabela de suporte que armazena informações sobre os pontos de extremidade que participaram de sessões gravadas no banco de dados. Cada registro na tabela representa um ponto de extremidade.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**EndpointKey** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica esse ponto de extremidade.  <br/> |
-|**Name** <br/> |nvarchar(256)  <br/> |Unique  <br/> |Nome do ponto de extremidade.  <br/> |
+|**Nome** <br/> |nvarchar(256)  <br/> |Unique  <br/> |Nome do ponto de extremidade.  <br/> |
 |**SISTEMA OPERACIONAL** <br/> |nvarchar(128)  <br/> | <br/> |Sistema operacional (OS) do ponto de extremidade.  <br/> |
 |**CPUName** <br/> |nvarchar(128)  <br/> ||Nome da CPU do ponto de extremidade.  <br/> |
 |**CPUNumberOfCores** <br/> |smallint  <br/> ||Número de núcleos de CPU do ponto de extremidade.  <br/> |

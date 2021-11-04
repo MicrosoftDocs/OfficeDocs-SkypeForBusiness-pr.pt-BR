@@ -1,6 +1,6 @@
 ---
 title: Gerenciar Windows atualizações para Salas do Microsoft Teams
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: sohailta
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: M365-voice
 ms.assetid: ''
 description: Gerenciar Windows atualizações para Salas do Microsoft Teams
-ms.openlocfilehash: 04572edd20c1c8e588b378ff3a225c103a58dff3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0aab39e58472d6efac40e3b33abce66fa12b158d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593605"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740467"
 ---
 # <a name="manage-windows-updates"></a>Gerenciar Windows atualizações
 

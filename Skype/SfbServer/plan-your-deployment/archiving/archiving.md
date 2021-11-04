@@ -1,7 +1,7 @@
 ---
 title: Planejar o arquivamento em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumo: leia este tópico para saber como planejar o arquivamento no Skype for Business Server.'
-ms.openlocfilehash: e9ebe5aa0b2e4e84d436d24f9d8b7db3b450825d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629573"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740447"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planejar o arquivamento em Skype for Business Server
  
@@ -99,7 +99,7 @@ O arquivamento é instalado automaticamente em cada Servidor Front-End quando vo
 - Usar Skype for Business Server armazenamento
     
 > [!NOTE]
-> Se você implementar os dois bancos de dados de arquivamento do Skype for Business Server e habilitar a integração do Microsoft Exchange, as políticas do Exchange substituem as políticas de arquivamento Skype for Business Server, mas somente para usuários que estão em casa no Exchange e tiveram suas caixas de correio colocadas em In-Place Hold. Skype for Business arquivamento depende da política de Exchange In-Place de espera da Microsoft. 
+> Se você implementar os dois bancos de dados de arquivamento do Skype for Business Server e habilitar Exchange integração do Microsoft Exchange, as políticas do Exchange substituem as políticas de arquivamento Skype for Business Server, mas somente para usuários que estão no Exchange e tiveram suas caixas de correio colocadas In-Place Hold. Skype for Business arquivamento depende da política de Exchange In-Place de espera da Microsoft. 
   
 Se você implantar o arquivamento para um pool de Front-End ou Edição Standard Server, deverá habilita-lo para todos os outros pools de Front-End e servidores Edição Standard em sua implantação. Se o arquivamento não estiver habilitado no pool onde uma conversa ou reunião está hospedada, todos os dados de conferência podem não ser arquivados. O arquivamento ainda funcionará para mensagens de mensagens de mensagens IM, mas o conteúdo e os eventos de conferência podem não ser arquivados.
   
@@ -136,7 +136,7 @@ Ao adicionar SQL Server de armazenamento à sua topologia, você pode optar por 
 > [!NOTE]
 > O servidor que estiver hospedando o banco de dados de arquivamento pode hospedar outros bancos de dados. No entanto, ao considerar colocar o banco de dados de arquivamento com outros bancos de dados, saiba que se você estiver arquivando as mensagens de muitos usuários, o espaço em disco necessário para o banco de dados de arquivamento poderá aumentar bastante. Por essa razão, não recomendamos a colocação do banco de dados de arquivamento no banco de dados back-end. 
   
-Se você contiver o banco de dados de Arquivamento com o banco de dados de Monitoramento, o banco de dados back-end ou ambos esses bancos de dados, poderá usar uma única instância de SQL para qualquer ou todos os bancos de dados ou pode usar uma instância de SQL separada para cada banco de dados, com a seguinte limitação: Cada instância do SQL pode conter apenas um único banco de dados back-end, um único banco de dados de Monitoramento e um único banco de dados de Arquivamento.
+Se você contiver o banco de dados de Arquivamento com o banco de dados de Monitoramento, o banco de dados back-end ou ambos esses bancos de dados, poderá usar uma única instância do SQL para qualquer ou todos os bancos de dados ou pode usar uma instância de SQL separada para cada banco de dados, com a seguinte limitação: Cada instância do SQL pode conter apenas um único banco de dados back-end,  banco de dados de monitoramento único e banco de dados de arquivamento único.
   
 Para obter detalhes sobre a localização de todas as funções de servidor e bancos de dados, consulte [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md). Para obter detalhes sobre como atualizar sua topologia para incluir bancos de dados de armazenamento, consulte [Create and publish new topology in Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md).
   
@@ -182,7 +182,7 @@ O acesso aos dados arquivados depende de onde os dados estão armazenados:
     
 - **Skype for Business Server armazenamento de arquivamento**. Se você configurar um banco de dados de Arquivamento Skype for Business Server, o Skype for Business Server deposita conteúdo de arquivamento nos bancos de dados de Arquivamento do Skype for Business Server para todos os usuários que não estão no Exchange e que não tiveram suas caixas de correio colocadas em In-Place Hold. Esses dados não podem ser pesquisados, mas eles podem ser exportados para formatos que podem ser pesquisados utilizando outras ferramentas. Para obter detalhes sobre como exportar dados armazenados em bancos de dados de arquivamento, consulte Exportar dados arquivados [em Skype for Business Server](../../manage/archiving/export-archived-data.md).
     
-## <a name="for-more-information"></a>Para obter mais informações
+## <a name="for-more-information"></a>Para saber mais
 
 Para obter mais informações sobre arquivamento, consulte os seguintes tópicos:
   

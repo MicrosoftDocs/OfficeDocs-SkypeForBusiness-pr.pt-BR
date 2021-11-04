@@ -1,7 +1,7 @@
 ---
 title: Usando o Painel de Monitoramento no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumo: saiba mais sobre o Painel de Monitoramento no Skype for Business Server.'
-ms.openlocfilehash: 544dfdc37f25fe60418dc190a76467c044a58d65
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b03c85355d2217763066ddce68e55eab65343249
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622343"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772027"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usando o Painel de Monitoramento no Skype for Business Server
  

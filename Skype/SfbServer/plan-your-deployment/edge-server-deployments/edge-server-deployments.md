@@ -1,7 +1,7 @@
 ---
 title: Planejar implantações do Servidor de Borda no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Resumo: Planeje seu ambiente Skype for Business Server Edge. Este tópico apresenta os conceitos de Borda e permite que você se organize com nossos tópicos mais aprofundados.'
-ms.openlocfilehash: 9acdb42e4ebc46fd6597ab047ee523b0ff309fb5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad92c0d61381595ac2274bf52aa108efe5703a90
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602456"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746857"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planejar implantações do Servidor de Borda no Skype for Business Server
  

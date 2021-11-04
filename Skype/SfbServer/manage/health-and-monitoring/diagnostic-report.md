@@ -1,7 +1,7 @@
 ---
 title: Relatório de Diagnóstico no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico no Skype for Business Server.'
-ms.openlocfilehash: dde192aa90cc0a9cd5b1d05fbe2852d1277a6953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 84274659a45d33a144324334cec8b9f1b25c471b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590145"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740627"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Relatório de Diagnóstico no Skype for Business Server
  
@@ -45,7 +45,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
   
 **Métricas do Relatório de Diagnóstico**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Hora do relatório** <br/> |Não  <br/> |Data e hora do registro do relatório.  <br/> |
 |**Código da resposta** <br/> |Não  <br/> |Código da resposta SIP enviado quando a sessão falhou.  <br/> |
