@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Aprenda como fazer uma chamada, bater papo, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando o acesso externo (federação) e o acesso para convidado.
-ms.openlocfilehash: 8b4665c17559f94152279e86a82bb44c3c73f016
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 63077f500f1cf4953abf200913d39c37846eb4e5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729860"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763069"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização
 
@@ -49,7 +49,7 @@ Para configurar o acesso externo, consulte [Gerenciar acesso externo](manage-ext
 
 ## <a name="guest-access"></a>Acesso de convidados
 
-Utilize o acesso de convidado para adicionar uma pessoa de fora da sua organização a uma equipe, onde ela pode bater papo, fazer uma chamada, se encontrar e colaborar em arquivos. Um convidado pode receber quase todos os mesmos recursos do Teams que um membro nativo da equipe.
+Utilize o acesso de convidado para adicionar uma pessoa de fora da sua organização a uma equipe, onde ela pode bater papo, fazer uma chamada, se encontrar e colaborar em arquivos. Um convidado pode receber quase todos os mesmos recursos do Teams que um membro nativo da equipe. Para obter mais informações, consulte [Experiência de convidado no Teams](guest-experience.md).
 
 Os convidados são adicionados ao Azure Active Directory da sua organização como usuários B2B e devem se conectar ao Teams usando sua conta de convidado. Isso significa que eles podem precisar sair da própria organização para entrar na sua.
 

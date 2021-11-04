@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e1ed56a843fc0582c903d7b8b549ab1b97eb050a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60606950"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60782998"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Chamada e encaminhamento de chamada no Teams
 
@@ -111,4 +111,4 @@ Essa configuração permite ativar ou desativar a música em espera quando um ch
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Atribua políticas a seus usuários no Teams](policy-assignment-overview.md)
+[Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)
