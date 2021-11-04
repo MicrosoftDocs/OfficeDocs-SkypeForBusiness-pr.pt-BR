@@ -1,7 +1,7 @@
 ---
 title: Relatório de Lista de Falhas no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Resumo: saiba mais sobre o Relatório de Lista de Falhas Skype for Business Server.'
-ms.openlocfilehash: 3943c802bd6f6bce593c8fdfafb05179252712b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6853da551f65de835f6966cf0a59af57d80e1f75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582735"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763629"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Relatório de Lista de Falhas no Skype for Business Server 
  
@@ -101,7 +101,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Lista de Fa
   
 **Métricas do Relatório de Lista de Falhas**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Hora de relatório** <br/> |Não  <br/> |Data e hora em que o relatório foi gravado.  <br/> |
 |**Solicitação** <br/> |Não  <br/> |Tipo de solicitação SIP que falhou. Por exemplo, CONVIDAR ou ATÉ LOGO.  <br/> |

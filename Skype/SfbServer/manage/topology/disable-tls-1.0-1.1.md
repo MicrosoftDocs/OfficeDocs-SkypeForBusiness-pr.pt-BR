@@ -1,7 +1,7 @@
 ---
 title: Desabilitar o TLS 1.0/1.1 no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Preparar e implementar a desabilitação do TLS 1.0 e 1.1 em seus ambientes.
-ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86df7a322642682748c0ec31b3f07b6572b5b7d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731460"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757144"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Desabilitar o TLS 1.0/1.1 no Skype for Business Server 2015
 
@@ -119,7 +119,7 @@ PIC (Conectividade de IM Pública) para Skype Consumidor: não esperamos que des
 
 Exceto quando mencionado acima, uma vez que o TLS 1.0 e 1.1 são desabilitados servidores fora do escopo, clientes e dispositivos funcionarão corretamente ou em tudo. Isso pode significar que você precisa pausar e aguardar orientações atualizadas da Microsoft. Depois de atender a todos os requisitos e ter um plano para resolver lacunas, prossiga.
 
-Em um nível alto, enquanto o Skype for Business Server 2019 está pronto para o procedimento na instalação, o Skype for Business Server 2015 exigirá que você instale o CU9, aplicando atualizações pré-requisitos ao .NET e ao SQL, implantando chaves de registro de pré-requisitos e, finalmente, uma rodada separada de atualizações de configuração do sistema operacional (ou seja, desabilitando o TLS 1.0 e 1.1 por meio da importação de arquivos do Registro). É fundamental que você conclua a instalação de todos os pré-requisitos, incluindo o Skype for Business Server 2015 CU6 HF2, antes de desabilitar o TLS 1.0 e 1.1 em qualquer servidor em seu ambiente. Cada Skype for Business servidor, incluindo a função de borda e SQL Backends, exige as atualizações. Verifique também se todos os clientes com suporte (no escopo) foram atualizados para as versões mínimas necessárias. Não se esqueça de atualizar as estações de trabalho de gerenciamento também.
+Em um nível alto, enquanto o Skype for Business Server 2019 está pronto para o procedimento na instalação, o Skype for Business Server 2015 exigirá que você instale o CU9, aplicando atualizações pré-requisitos ao .NET e ao SQL, implantando chaves de registro de pré-requisito e, finalmente, uma rodada separada de atualizações de configuração do sistema operacional (ou seja, desabilitando o TLS 1.0 e 1.1 por meio do Registro importação de arquivo). É fundamental que você conclua a instalação de todos os pré-requisitos, incluindo o Skype for Business Server 2015 CU6 HF2, antes de desabilitar o TLS 1.0 e 1.1 em qualquer servidor em seu ambiente. Cada Skype for Business servidor, incluindo a função de borda e SQL Backends, exige as atualizações. Verifique também se todos os clientes com suporte (no escopo) foram atualizados para as versões mínimas necessárias. Não se esqueça de atualizar as estações de trabalho de gerenciamento também.
 
 Queremos seguir a ordem usual de operações de "de dentro para fora" para atualizar Skype for Business servidores. Trate pools de diretores, chat persistente e pools emparelhados da mesma maneira que normalmente faria. A ordem e os métodos de atualização são abordados [aqui](topology.md) e [aqui.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
 

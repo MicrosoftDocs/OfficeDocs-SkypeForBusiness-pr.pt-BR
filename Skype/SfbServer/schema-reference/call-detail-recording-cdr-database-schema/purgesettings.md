@@ -1,7 +1,7 @@
 ---
 title: Tabela PurgeSettings
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'A tabela PurgeSettings contém informações que especificam se (e quando) registros de detalhes de chamada desatualizados serão excluídos automaticamente do banco de dados CDR. Observe que as informações relacionadas à purga também podem ser obtidas no Skype for Business Server 2015 executando o seguinte comando:'
-ms.openlocfilehash: 3f1f596bd6e8d61c491c93c3664e1f4d110ccf8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2b5bc874f6145a121cfb8a43702ab55ab0a5e1d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623463"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763309"
 ---
 # <a name="purgesettings-table"></a>Tabela PurgeSettings
  
@@ -32,7 +32,7 @@ Os administradores devem tratar a tabela PurgeSettings como somente leitura: as 
   
 Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**Id** <br/> |int  <br/> |Primário  <br/> |Identificador exclusivo para a coleção de configurações de limpeza de CDR.  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||Quando definido como True (1) Skype for Business Server 2015 limpará periodicamente registros desatualizados do banco de dados CDR. A limpeza ocorrerá todos os dias na hora especificada pela configuração PurgeHour. Se definido como Falso (0), os registros não serão limpados automaticamente do banco de dados. O valor padrão é verdadeiro.  <br/> |

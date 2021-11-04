@@ -1,7 +1,7 @@
 ---
 title: Expansor de Configurações Gerais de Aplicativo Externo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Para editar as propriedades de um servidor de aplicativos confiável que já foi definido, siga estas instruções.
-ms.openlocfilehash: 1bcb822ee6a48383f45a10f5ee3db1f5222c00a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21f7fa671690852953a49c91e657f6be8db3437d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606320"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737847"
 ---
 # <a name="external-application-general-settings-expander"></a>Expansor de Configurações Gerais de Aplicativo Externo
  

@@ -1,7 +1,7 @@
 ---
 title: Fila de Grupos de Resposta
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. As filas do Grupo de Resposta resitem chamadas para um grupo de resposta até que um agente responda à chamada.
-ms.openlocfilehash: bec9a6e004610067e2f1facf9bfb2ecb124b384e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f4b055650a027efed0534b6a0b4ff9b19b6001f4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579785"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748717"
 ---
 # <a name="response-groups-queue"></a>Fila de Grupos de Resposta
 

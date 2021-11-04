@@ -1,7 +1,7 @@
 ---
 title: Planejar estacionamento de chamada no Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planejando o estacionamento de chamadas Skype for Business Server Enterprise Voice, o que permite colocar chamadas em espera e transferir chamadas para departamentos. Inclui planejamento de capacidade, chamadas com suporte e clientes com suporte.
-ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625173"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770179"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planejar estacionamento de chamada no Skype for Business
  

@@ -1,7 +1,7 @@
 ---
 title: Ferramenta de panorâmico de alta disponibilidade
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: O principal esquema de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server 2015 se baseia na redundância do servidor por meio do pool. Se um servidor que executa uma determinada função de servidor falhar, os outros servidores no pool que executam a mesma função assumirão a carga desse servidor.
-ms.openlocfilehash: e39a49b5cef508b5858c564636b575c20f48ac75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e8fbc679d4711ae41306a60d6a9c40114fab5f29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630445"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756912"
 ---
 # <a name="high-availability-planning-tool"></a>Ferramenta de planejamento de alta disponibilidade
  

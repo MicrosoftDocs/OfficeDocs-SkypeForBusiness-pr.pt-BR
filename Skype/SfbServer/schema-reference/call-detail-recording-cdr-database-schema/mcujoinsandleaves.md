@@ -1,7 +1,7 @@
 ---
 title: Tabela McuJoinsAndLeaves no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: Cada registro nesta tabela contém detalhes de chamada sobre uma combinação de um servidor de união ou saída do usuário e conferência. Por exemplo, se um usuário ingressar em uma conferência que inclua elementos de webconferência e áudio/vídeo, um registro será criado para a junção de webconferência desse usuário e outro registro será criado para a junção de conferência de áudio/vídeo do usuário.
-ms.openlocfilehash: 5d01781dd0d16abb3f03cdc8f6021981e7ebfff7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df18ca4785fab9b56057eb439ab55caa2b1a170f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629463"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737597"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>Tabela McuJoinsAndLeaves no Skype for Business Server 2015
  
 Cada registro nesta tabela contém detalhes de chamada sobre uma combinação de um servidor de união ou saída do usuário e conferência. Por exemplo, se um usuário ingressar em uma conferência que inclua elementos de webconferência e áudio/vídeo, um registro será criado para a junção de webconferência desse usuário e outro registro será criado para a junção de conferência de áudio/vídeo do usuário.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primário, externo  <br/> |Hora da instância da conferência. Usado em conjunto com **SessionIdSeq** para identificar exclusivamente uma instância de conferência. Consulte a [tabela Conferências no Skype for Business Server 2015](conferences.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primário, externo  <br/> |Número de ID para identificar a instância da conferência. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma instância de conferência. Consulte a [tabela Conferências no Skype for Business Server 2015](conferences.md) para obter mais informações. <br/> |

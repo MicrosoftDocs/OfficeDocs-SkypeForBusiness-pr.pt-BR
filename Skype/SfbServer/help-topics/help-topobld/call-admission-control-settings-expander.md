@@ -1,7 +1,7 @@
 ---
 title: Expansor de Configurações do Serviço de Controle de Admissão de Chamadas
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 description: O serviço de controle de admissão de chamadas (CAC) é uma rede de regiões, sites e sub-redes que permite impor restrições às transmissões de áudio e vídeo com base na largura de banda disponível. Após configurar a rede para o CAC, habilite-o para impor as limitações de largura de banda.
-ms.openlocfilehash: 23a881bf502a161a5a81e17a23a889ff1324f6c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7cd2a5d6637ce6d486bdaf70bc279ab4db10fc0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582765"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747761"
 ---
 # <a name="call-admission-control-settings-expander"></a>Expansor de Configurações do Serviço de Controle de Admissão de Chamadas
  

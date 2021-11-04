@@ -1,7 +1,7 @@
 ---
 title: Criar políticas de localização em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Leia este tópico para saber como configurar políticas de local de serviço de emergência aprimorado (E9-1-1) em Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: d601fddcb66fd5b963ab24caf3a7289a2188628b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 889a20e0b48955be1ce0ba8c891d6c4825b79dab
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594735"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741437"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Criar políticas de localização em Skype for Business Server
 

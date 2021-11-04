@@ -1,7 +1,7 @@
 ---
 title: Relatório de Resumo de Diagnóstico de Chamada Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Resumo: saiba mais sobre o Relatório de Resumo de Diagnóstico de Chamada usado em Skype for Business Server.'
-ms.openlocfilehash: b3da3315566db66876329ab257ff6fa8d78f81b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 88537a3f52679883fb5cf051a28d2c0c42294d16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585075"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757293"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de Diagnóstico de Chamada Skype for Business Server
  
@@ -57,7 +57,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
   
 **Filtros do Relatório de Resumo de Diagnóstico de Chamadas**
 
-|**Name**|**Descrição**|
+|**Nome**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -70,7 +70,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de D
   
 **Métricas para Sessões Ponto a Ponto**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Total de sessões** <br/> |Não  <br/> |Número total de sessões ponto a ponto conduzidas.  <br/> |
 |**Taxa de falha** <br/> |Não  <br/> |Percentual de sessões ponto a ponto que falharam. Ao clicar neste item, o relatório exibe o relatório de Diagnóstico de Atividades Ponto a Ponto, que mostra informações mais detalhadas sobre as sessões ponto a ponto com falha.  <br/> |
@@ -81,7 +81,7 @@ A tabela a seguir lista as informações fornecidas pelo Relatório de Diagnóst
   
 **Métricas para Sessões de Conferência**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Total de conferências** <br/> |Não  <br/> |Número total de conferências conduzidas.  <br/> |
 |**Sessões de conferência totais** <br/> |Não  <br/> |Número total de sessões de conferência conduzidas.  <br/> |

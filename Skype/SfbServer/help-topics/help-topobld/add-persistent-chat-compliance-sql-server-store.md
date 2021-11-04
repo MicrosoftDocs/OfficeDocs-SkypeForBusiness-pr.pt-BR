@@ -1,7 +1,7 @@
 ---
 title: Adicionar Repositório de Servidor SQL de Conformidade de Bate-papo Persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: Você configura os SQL Server de conformidade que fornecerão bancos de dados para o recurso de conformidade do Servidor de Chat Persistente ou do Servidor de Chat Persistente.
-ms.openlocfilehash: 09138c2e6a5fb23b6745a5594c231d29c13b911b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6db005c44606a7d79f25e5999630cc805ed5f54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615757"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747837"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Adicionar Conformidade de Chat Persistente do Repositório do SQL Server
  

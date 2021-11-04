@@ -1,7 +1,7 @@
 ---
 title: Página Principal da Política de Chat Persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Você pode usar a página Política de Chat Persistente do grupo de Chat Persistente para gerenciar políticas em nível global, pool, site ou usuário, incluindo a configuração da política global padrão e a criação de uma ou mais políticas de usuário e site adicionais para sua implantação. Se um usuário estiver habilitado para o Servidor de Chat Persistente por política, o ambiente do Servidor de Chat Persistente aparecerá em seu cliente.
-ms.openlocfilehash: 53717b18088bf8ddcd4317e4e1f3d72e24859f96
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb42c24e10905af12308ea42775c5f993dbc4c5c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595775"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738037"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Página Principal da Política de Chat Persistente
  

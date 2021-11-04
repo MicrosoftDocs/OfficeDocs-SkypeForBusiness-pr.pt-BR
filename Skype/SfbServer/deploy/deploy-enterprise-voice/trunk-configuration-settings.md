@@ -1,7 +1,7 @@
 ---
 title: 'Skype for Business Server: criar uma nova coleção de configurações de tronco'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-description: 'Resumo: saiba como criar uma nova coleção de configurações de tronco usando o Painel de Controle do Skype for Business Server.'
-ms.openlocfilehash: a538ad2ff5e19c21ba36afaf928144c7d255e8e2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 'Resumo: saiba como criar uma nova coleção de configurações de tronco usando o painel de Skype for Business Server Controle.'
+ms.openlocfilehash: 95eae0c14aad532b3f3f80e01c2acc0918751496
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012325"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755650"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server: criar uma nova coleção de configurações de tronco
 
-**Resumo:** Saiba como criar uma nova coleção de configurações de tronco usando o Painel de Controle do Skype for Business Server.
+**Resumo:** Saiba como criar uma nova coleção de configurações de tronco usando o painel Skype for Business Server Controle.
   
 As configurações de tronco SIP definem a relação e os recursos entre um Servidor de Mediação e o gateway PSTN (Rede Telefônica Pública Comutado), um PBX (Branch eXchange) do IP-Public ou um Controlador de Borda de Sessão (SBC) no provedor de serviços. Estas configurações fazem coisas como especificar:
   
@@ -35,9 +35,9 @@ As configurações de tronco SIP definem a relação e os recursos entre um Serv
     
 - Se a criptografia SRTP (Protocolo de Transporte de Tempo Real Seguro) é necessária ou não em cada tronco.
     
-Quando você instala o Skype for Business Server, uma coleção global de configurações de tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).
+Quando você instala Skype for Business Server, uma coleção global de configurações de tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).
   
-Ao criar configurações de tronco SIP usando o Painel de Controle do Skype for Business Server, as opções a seguir estão disponíveis para você.
+Ao criar configurações de tronco SIP usando Skype for Business Server Painel de Controle, as opções a seguir estão disponíveis para você.
   
 |**Configuração de UI**|**Parâmetro do PowerShell**|**Descrição**|
 |:-----|:-----|:-----|
@@ -53,19 +53,19 @@ Ao criar configurações de tronco SIP usando o Painel de Controle do Skype for 
 |Habilitar dados de encaminhamento P-Asserted-Identity  <br/> |ForwardPAI  <br/> |Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador.  <br/> |
 |Habilitar timer de failover do roteamento de saída  <br/> |EnableFastFailoverTimer  <br/> |Indica se chamadas de saída não atendidas pelo gateway em 10 segundos serão roteadas ao próximo tronco disponível; se não houver troncos adicionais, a chamada cairá automaticamente. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente.  <br/> |
 |Uso associado de PSTNsages  <br/> |PSTNUsages  <br/> |Coleção de usos de PSTN atribuídos ao tronco.  <br/> |
-|Número convertido para testar  <br/> |N/D  <br/> |Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.  <br/> |
+|Número convertido para testar  <br/> |N/A  <br/> |Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.  <br/> |
 |Regras de conversão associadas  <br/> |OutboundTranslationRulesList  <br/> |Coleção de regras de conversão de números de telefone que se aplicam a chamadas tratadas pelo Roteamento de saída (chamadas roteadas para destinos de PBX ou PSTN).  <br/> |
 |Regras de conversão do número chamado  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |Coleção de regras de conversão do número de chamada de saída atribuído ao tronco.  <br/> |
-|Número de telefone a ser de testado.  <br/> |N/D  <br/> |Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.  <br/> |
-|Número de chamada  <br/> |N/D  <br/> |Indica que o número de telefone a ser testado é o número do chamador.  <br/> |
-|Número chamado  <br/> |N/D  <br/> |Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.  <br/> |
+|Número de telefone a ser de testado.  <br/> |N/A  <br/> |Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.  <br/> |
+|Número de chamada  <br/> |N/A  <br/> |Indica que o número de telefone a ser testado é o número do chamador.  <br/> |
+|Número chamado  <br/> |N/A  <br/> |Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.  <br/> |
    
 > [!NOTE]
-> Os cmdlets CsTrunkConfiguration do Skype for Business Server suportam propriedades adicionais não mostradas no Painel de Controle do Skype for Business Server. Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/new-cstrunkconfiguration)
+> Os cmdlets Skype for Business Server CsTrunkConfiguration suportam propriedades adicionais não mostradas Skype for Business Server Painel de Controle. Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/new-cstrunkconfiguration)
   
-### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para criar novas configurações de tronco usando o Painel de Controle do Skype for Business Server
+### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para criar novas configurações de tronco usando Skype for Business Server Painel de Controle
 
-1. No Painel de Controle do Skype for Business Server, clique em **Roteamento** de Voz e clique em **Configuração de Tronco.**
+1. Em Skype for Business Server Painel de Controle, clique em **Roteamento** de Voz e clique em **Configuração de Tronco.**
     
 2. Na guia **Configuração de Tronco**, clique em **Novo** e, em seguida, clique em **Tronco do site** para criar a nova definição no escopo do site, ou **Tronco do pool** para criar as novas definições no escopo do serviço.
     
@@ -77,4 +77,4 @@ Ao criar configurações de tronco SIP usando o Painel de Controle do Skype for 
     
 6. Na caixa de diálogo **Configurações de Voz Não Vinculadas**, clique em **OK**.
     
-7. Na caixa de diálogo Painel de Controle do **Skype for Business Server,** clique em **OK**.
+7. Na caixa **Skype for Business Server painel de controle** clique em **OK**.

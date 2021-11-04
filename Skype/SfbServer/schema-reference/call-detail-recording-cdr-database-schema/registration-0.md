@@ -1,7 +1,7 @@
 ---
 title: Exibição de registro
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: A visualização "Registro" armazena informações sobre o registro do usuário. Essa exibição foi introduzida no Lync Server 2013.
-ms.openlocfilehash: d754c4027c6440aa8f53a9dac78f1ce1b00c9488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4714a4cb0f24a359157ede44b5ab2271a2ff1c7a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611880"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763299"
 ---
 # <a name="registration-view"></a>Exibição de registro
  
 A visualização "Registro" armazena informações sobre o registro do usuário. Essa exibição foi introduzida no Lync Server 2013.
   
-|**Coluna**|**Tipo de dados**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Hora da solicitação da sessão. Utilizada em conjunto com o SessionIdSeq para identificar de forma exclusiva uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Número de identificação para identificar a sessão. Utilizado em conjunto com o SessionIdTime para identificar de forma exclusiva uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |

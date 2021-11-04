@@ -1,7 +1,7 @@
 ---
 title: Requisitos dns para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Resumo: revise as considerações dns neste tópico antes de implementar Skype for Business Server.'
-ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4c332d9b7e315a928d488861363c2080ecf0997c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730370"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770069"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos dns para Skype for Business Server
 
@@ -33,7 +33,7 @@ Um servidor dns (serviço de nome de domínio) mapeia nomes de host (como www. <
 
 Embora isso possa parecer um pouco assustador no início, o trabalho pesado para planejar isso pode ser feito usando a Ferramenta de Planejamento Skype for Business Server [2015.](https://www.microsoft.com/download/details.aspx?id=50357) Depois de passar pelas perguntas do assistente sobre quais recursos você planeja usar, para cada site definido, você pode exibir o Relatório DNS no Relatório de Administração de Borda e usar as informações listadas lá para criar seus registros DNS. Você também pode fazer ajustes em muitos dos nomes e endereços IP usados, para obter detalhes em [Revisar o Relatório DNS](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Lembre-se de que você pode exportar o Relatório de Administração de Borda para uma planilha de Excel, e o Relatório DNS será uma das planilhas no arquivo. Embora essa ferramenta inclua recursos preterido do [Skype for Business Server 2019](../../../SfBServer2019/deprecated.md), ela ainda poderá ser usada para criar um plano inicial se esses recursos não forem selecionados
 
-Ao instalar uma nova implementação conforme descrito em Create [DNS records for Skype for Business Server](../../deploy/install/create-dns-records.md) e building your topology for Skype for Business Server, reconhecemos que você pode optar por usar os recursos DNS integrados ao Windows Server 2016 ou a um pacote DNS de terceiros, portanto, manteremos as discussões neste artigo em geral, em vez de específicas. Estamos detalhando o que é necessário e como você atender a essa necessidade é sua decisão a ser tomada.
+Ao instalar uma nova implementação, conforme descrito em Create [DNS records for Skype for Business Server](../../deploy/install/create-dns-records.md) and building your topology for Skype for Business Server, we recognize that you can choose to use the DNS capabilities built in to Windows Server 2016 or a third-party DNS package, so we'll ke ep as discussões neste artigo geral, em vez de específicas. Estamos detalhando o que é necessário e como você atender a essa necessidade é sua decisão a ser tomada.
 
 Os administradores Skype for Business, Lync e Office Communications Suite provavelmente acharão as tabelas a seguir úteis. Se a tabela estiver confusa para você, as seções ou artigos posteriores lançarão alguma luz sobre os seguintes conceitos:
 

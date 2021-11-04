@@ -1,7 +1,7 @@
 ---
 title: Planejar conferência discda em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Resumo: leia este tópico para saber mais sobre o planejamento da conferência discagem no Skype for Business Server.'
-ms.openlocfilehash: 04d0202e9d5187e33172e8bb4c4f1e51f5563d19
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec4bfdbb514f1027ff11098cc1ba78045faf1553
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593555"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763519"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planejar conferência discda em Skype for Business Server
  

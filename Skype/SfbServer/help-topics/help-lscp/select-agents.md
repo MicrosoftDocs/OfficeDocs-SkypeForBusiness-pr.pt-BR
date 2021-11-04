@@ -1,7 +1,7 @@
 ---
 title: Selecionar Agentes
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Os agentes são usuários designados para atender às chamadas do Grupo de Resposta. Os grupos de resposta precisam ter um grupo de agentes atribuídos que identifica os agentes que podem receber chamadas para o grupo de respostas. Uma forma de criar um grupo de agentes é definir um grupo personalizado selecionando usuários elegíveis. Os usuários qualificados estão habilitados para Skype for Business Server e Enterprise Voice.
-ms.openlocfilehash: 8d05669cca0b9f00f7d50a435f4e3a81fb0720be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2b73848c05be89f08940139ee2f988493b1d1794
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625353"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737973"
 ---
 # <a name="select-agents"></a>Selecionar Agentes
 

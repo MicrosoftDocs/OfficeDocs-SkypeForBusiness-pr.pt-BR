@@ -1,7 +1,7 @@
 ---
 title: Configuração da Reunião Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: As definições de configuração de reunião definem a experiência de ingresso do usuário em conferências agendadas por usuários. Essas configurações se aplicam apenas às reuniões agendadas. Eles não se aplicam a reuniões ad hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: 13eb6ffb440bf50da7525b36307b56e158f6f93f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f95e9f30ab485b80824c31e700fc7f88714a7a5b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607224"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741247"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuração de Reunião: Criar Novo ou Editar Existente
 

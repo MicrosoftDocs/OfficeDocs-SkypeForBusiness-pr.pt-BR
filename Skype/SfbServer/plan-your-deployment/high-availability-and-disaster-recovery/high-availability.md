@@ -1,7 +1,7 @@
 ---
 title: Alta disponibilidade e gerenciamento do Pool de Front End
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Saiba mais sobre o gerenciamento de pool de front-end no Skype for Business Server, incluindo o gerenciamento de pools, perda de quórum e etapas especiais para pools com apenas dois Servidores Front-End.
-ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d9eef2a027131db960b05508ece28cf95b992dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585005"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737677"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidade e gerenciamento do Pool de Front End
  
@@ -46,15 +46,15 @@ Na primeira vez que você iniciar um novo pool de Front-End, é essencial que 85
 |Número total de servidores no pool  <br/> |Número de servidores que devem ser executados para que o pool seja iniciado pela primeira vez  <br/> |
 |:-----|:-----|
 |2  <br/> |1  <br/> |
-|3   <br/> |3   <br/> |
-|4   <br/> |3   <br/> |
-|5   <br/> |4   <br/> |
-|6   <br/> |5   <br/> |
-|7   <br/> |5   <br/> |
+|3  <br/> |3  <br/> |
+|4  <br/> |3  <br/> |
+|5  <br/> |4  <br/> |
+|6   <br/> |5  <br/> |
+|7   <br/> |5  <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
 |10   <br/> |8   <br/> |
-|11   <br/> |9   <br/> |
+|11  <br/> |9   <br/> |
 |12   <br/> |10   <br/> |
 |16 **Para Skype for Business Server 2019** <br/> |12   <br/> |
 

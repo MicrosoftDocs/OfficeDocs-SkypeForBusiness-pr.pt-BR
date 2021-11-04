@@ -1,7 +1,7 @@
 ---
 title: Gerenciar serviços em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Saiba como exibir o status do serviço, iniciar e interromper serviços e impedir sessões para serviços.
-ms.openlocfilehash: 52d87c8e2f803f31496e773e82d7466a22711550
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015105"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756978"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Gerenciar serviços em Skype for Business Server
 
@@ -47,7 +47,7 @@ Use o Skype for Business Server de controle para exibir todos os serviços que e
 2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle Skype for Business Server, consulte [Instalar e abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
 3. Na barra de navegação esquerda, clique em **Topologia**.
 4. Na página Status, classifique ou pesquise a lista conforme necessário para localizar o computador que deseja e clique no nome do computador.
-5. Faça um dos seguintes:
+5. Siga um destes procedimentos:
     - Para ver os status de serviços mais atuais executados no computador, clique em **Obter status de serviço**.
     - Para ver uma lista de serviços específicos executados no computador e o status de cada serviço, clique em **Propriedades** e em **Fechar** para retornar à lista.
 

@@ -1,7 +1,7 @@
 ---
 title: Configurar Exchange Server Unificação de Mensagens para Skype for Business Server caixa postal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/11/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumo: Configure Exchange Server Unificação de Mensagens para Skype for Business Server caixa postal.'
-ms.openlocfilehash: 94aa013a8330f6469af5a237911b4e627047f7a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621813"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741287"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar Exchange Server Unificação de Mensagens para Skype for Business Server caixa postal
  
@@ -175,7 +175,7 @@ Para verificar se o script ExchUcUtul.ps1 foi finalizado com sucesso, faça o se
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>Configurar certificados no servidor que executa Exchange Server Unificação de Mensagens
  
-Se você tiver implantado uma UM (Unificação de Mensagens), conforme descrito em Planning for Exchange Unified Messaging integration in Skype for Business Server na documentação Planejamento e quiser fornecer recursos de UM Exchange para usuários Enterprise Voice em sua organização, você poderá usar os procedimentos a seguir para configurar o certificado no servidor que executa Exchange UM. Exchange
+Se você tiver implantado Exchange Unificação de Mensagens (UM), conforme descrito em Planning for Exchange Unified Messaging integration in Skype for Business Server na documentação Planejamento e quiser fornecer recursos de UM Exchange para usuários Enterprise Voice em sua organização, você pode usar os procedimentos a seguir para configurar o certificado no servidor que executa Exchange UM.
 
 > [!IMPORTANT]
 > Para certificados internos, os servidores que executam Skype for Business Server e os servidores que executam o Microsoft Exchange devem ter certificados de autoridade raiz confiáveis que sejam mutuamente confiáveis. A autoridade de certificação (CA) pode ser a mesma ou uma autoridade de certificação diferente, desde que os servidores tenham o certificado raiz da autoridade de certificação registrado em seu armazenamento de certificados de autoridade raiz confiável. 

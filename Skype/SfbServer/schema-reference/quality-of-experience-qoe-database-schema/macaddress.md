@@ -1,7 +1,7 @@
 ---
 title: Tabela MacAddress
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 description: A tabela MacAddress é uma tabela de suporte. Cada registro representa uma origem.
-ms.openlocfilehash: 7def3c1499f8884d8c79f747017ff73736558738
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8c9e739b9fc558dde2a2e517526f5fb8bebec30
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607888"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737507"
 ---
 # <a name="macaddress-table"></a>Tabela MacAddress
  
 A tabela MacAddress é uma tabela de suporte. Cada registro representa uma origem.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**MacAddressKey** <br/> |int  <br/> |Primário  <br/> |Número único que identifica o endereço Mac.  <br/> |
 |**MacAddress** <br/> |varchar(256)  <br/> |Unique  <br/> |Cadeia de caracteres do endereço Mac.  <br/> |

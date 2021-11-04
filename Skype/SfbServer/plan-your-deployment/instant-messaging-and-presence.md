@@ -1,7 +1,7 @@
 ---
 title: Planejar mensagens instantâneas e presença no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Resumo: saiba como planejar mensagens instantâneas e presença no Skype for Business Server.'
-ms.openlocfilehash: 8498526c97794dce29d791318b025321e932081b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20de382c034e2049bdb7bb2b36f2da9bc847b876
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599886"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737657"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar mensagens instantâneas e presença no Skype for Business Server
  
@@ -27,7 +27,7 @@ Planeje mensagens instantâneas e presença no Skype for Business Server. Para s
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar mensagens instantâneas e presença no Skype for Business Server
 
-Os Servidores Front-End fornecem funcionalidades Skype for Business Server principais, como mensagens instantâneas (IM) e presença, e são incluídos em todas as implantações Skype for Business Server de mensagens instantâneas. Há duas edições disponíveis: o Skype for Business Server Edição Enterprise, que é projetado principalmente para organizações maiores, e o Skype for Business Server Edição Standard, que é projetado principalmente para organizações menores que querem um investimento de hardware menor e não exigem opções de alta disponibilidade completa. Ambas as edições suportam todas as Skype for Business Server de trabalho, incluindo IM, presença, conferência e Enterprise Voice.
+Os Servidores Front-End fornecem funcionalidades Skype for Business Server principais, como mensagens instantâneas (IM) e presença, e são incluídos em todas as implantações Skype for Business Server de mensagens instantâneas. Há duas edições disponíveis: Skype for Business Server Edição Enterprise, que é projetado principalmente para organizações maiores, e Skype for Business Server Edição Standard, que é projetado principalmente para organizações menores que querem um menor investimento em hardware e não exige opções completas de alta disponibilidade. Ambas as edições suportam todas as Skype for Business Server de trabalho, incluindo IM, presença, conferência e Enterprise Voice.
   
 A mensagem instantânea (IM) permite que os usuários se comuniquem entre si em tempo real em seus computadores usando mensagens textuais. Tanto as sessões de IM de duas partes como as multipartes são suportadas. Um participante de uma conversa por IM de duas partes pode adicionar um terceiro participante à conversa a qualquer momento. Quando isso acontece, a janela de conversa muda para dar suporte aos recursos de conferência.
   

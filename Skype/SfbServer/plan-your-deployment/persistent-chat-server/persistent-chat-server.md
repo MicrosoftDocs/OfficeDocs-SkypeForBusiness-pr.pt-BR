@@ -1,7 +1,7 @@
 ---
 title: Planejar o Servidor de Chat Persistente no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Resumo: leia este tópico para saber como planejar o Servidor de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a697337570dfbf66e752234435d1335661638c54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731090"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763459"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejar o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -110,7 +110,7 @@ Se você decidir implantar o Servidor de Chat Persistente, precisará determinar
     > [!NOTE]
     > Ter vários pools de Servidor de Chat Persistente não dá mais escala (você ainda pode ter apenas 80.000 usuários simultâneos em todos os pools do Servidor de Chat Persistente). O principal motivo para dar suporte a vários pools de Servidores de Chat Persistente é dar suporte a preocupações regulatórias. 
   
-## <a name="for-more-information"></a>Para obter mais informações
+## <a name="for-more-information"></a>Para saber mais
 
 Para obter mais informações sobre como instalar e configurar o Servidor de Chat Persistente, consulte os seguintes tópicos:
   

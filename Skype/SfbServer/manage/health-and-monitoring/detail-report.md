@@ -1,7 +1,7 @@
 ---
 title: Relatório de Detalhes da Conferência Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Resumo: saiba mais sobre o Relatório de Detalhes da Conferência usado Skype for Business Server.'
-ms.openlocfilehash: 9b5dbbaf4ab1312d187b4e3c02882c26066c3db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56fafff71f1700667a2ad982f56db099cb60c45e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615697"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737797"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Relatório de Detalhes da Conferência Skype for Business Server
 
@@ -48,7 +48,7 @@ A tabela a seguir lista as informações fornecidas na seção Informação da C
 **Métricas de Informação da Conferência**
 
 
-| **Name**                 | **Descrição**                                                                                                            |
+| **Nome**                 | **Descrição**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
 | **URI de Conferência** <br/> | URI atribuído à conferência. Por exemplo:  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 | **FQDN do Pool** <br/>      | Nome de domínio totalmente qualificado do pool do Registrador ou Servidor de Borda envolvido em uma sessão.  <br/>                             |
@@ -60,7 +60,7 @@ A tabela a seguir lista a informação oferecida na Seção de Participação da
 
 **Métricas de Participação da Conferência**
 
-|**Name**|**Descrição**|
+|**Nome**|**Descrição**|
 |:-----|:-----|
 |**Usuário** <br/> |Endereço SIP do usuário que participou da conferência.  <br/> |
 |**Função** <br/> |Função (por exemplo, Apresentador) do participante da conferência.  <br/> |
@@ -74,7 +74,7 @@ A tabela a seguir lista as informações fornecidas na seção Modalidades de Co
 
 **Métricas das Modalidades da Conferência**
 
-|**Name**|**Descrição**|
+|**Nome**|**Descrição**|
 |:-----|:-----|
 |**Usuário** <br/> |Endereço SIP do usuário que participou da conferência.  <br/> |
 |**Hora de participação** <br/> |Data e hora que o participante entrou na conferência.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: 'Skype for Business Server: criar uma nova coleção de configurações de tronco'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: As configurações de tronco SIP definem a relação entre um Servidor de Mediação e o gateway PSTN (rede telefônica pública comutado), um PBX (exchange de filial pública IP) ou um Controlador de Borda de Sessão (SBC) no provedor de serviços.
-ms.openlocfilehash: a2117858b34bc6c90c30444b3ab53a025f062152
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 863123c21db831146a03de946992a1eb7ed06840
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602506"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763549"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server: criar uma nova coleção de configurações de tronco
 
@@ -31,7 +31,7 @@ Ao criar configurações de tronco SIP usando o Painel de Controle do Servidor D
 
 |Configuração de UI | Parâmetro do PowerShell | Descrição |
 |--|--|--|
-|Nome|Identity|Identificador exclusivo para a coleção. Esta propriedade é somente leitura; não é possível modificar a Identidade de uma coleção de configurações do tronco.|
+|Nome|Identidade|Identificador exclusivo para a coleção. Esta propriedade é somente leitura; não é possível modificar a Identidade de uma coleção de configurações do tronco.|
 |Descrição|Descrição|Fornece uma forma para os administradores armazenarem informações sobre as configurações (por exemplo, o motivo da configuração do tronco).|
 |Máximo de diálogos iniciais suportados|MaxEarlyDialogs|O número máximo de respostas bifurcadas que um Gateway PSTN, IP-PBX ou SBC no Provedor de serviços pode receber em resposta a um convite que ele enviou ao Servidor de mediação.|
 |Nível de suporte de criptografia|SRTPMode|Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando os cmdlets [New-CsMediaConfiguration](/powershell/module/skype/New-CsMediaConfiguration) e [Set-CsMediaConfiguration.](/powershell/module/skype/Set-CsMediaConfiguration)<br/>Os valores permitidos são:<br/><br/>**Obrigatório:** a criptografia SRTP deve ser usada.<br/>**Opcional**: SRTP será usado se o gateway for compatível com ele.<br/>**Sem suporte:** a criptografia SRTP não é suportada e, portanto, não será usada.<br/><br/>SRTPMode é usado apenas se o gateway estiver configurado para usar a Segurança da Camada de Transporte (TLS). Se o gateway estiver configurado com o Protocolo de Controle de Transmissão (TCP) como transporte, SRTPMode será internamente definido como NotSupported.|

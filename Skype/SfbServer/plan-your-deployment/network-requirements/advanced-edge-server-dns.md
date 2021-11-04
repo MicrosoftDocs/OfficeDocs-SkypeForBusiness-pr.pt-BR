@@ -1,7 +1,7 @@
 ---
 title: Planejamento avançado de DNS do Servidor de Borda para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Exibir cenários para Skype for Business Server de implantação. Se você deseja um único servidor ou prefere um pool de servidores com DNS ou HLB, este tópico deve ajudar.
-ms.openlocfilehash: 208098fe44238d9d96debbde7b8c00daf6622b91
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8aada20b1ffe712a5b4cf0f9df42b139f25248dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602346"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737667"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planejamento avançado de DNS do Servidor de Borda para Skype for Business Server
  
@@ -114,7 +114,7 @@ Vamos listar os registros DNS para as zonas internas e externas aqui, mas você 
     
 - Todas as Skype for Business Server de Borda internas em sua rede de perímetro usam essa zona DNS interna para resolver consultas contoso.com.
     
-- Todos os servidores que executam o Skype for Business Server e clientes que executam o Skype for Business Server na rede corporativa apontam para servidores DNS internos para resolver consultas no contoso.com ou usam o arquivo Host em cada Servidor de Borda e os registros A e AAAA (se você estiver usando endereçamento IPv6) para o servidor de próximo salto (especificamente para o VIP do pool de diretores ou diretores, VIP do pool de front-end ou servidor Edição Standard).
+- Todos os servidores que executam o Skype for Business Server e clientes executando o Skype for Business Server na rede corporativa apontam para servidores DNS internos para resolver consultas para contoso.com ou usam o arquivo Host em cada Servidor de Borda e listaR registros A e AAAA (se você estiver usando endereçamento IPv6) para o servidor de próximo salto (especificamente para o pool diretor ou diretor)  VIP, VIP do pool front-end ou Edição Standard servidor).
     
 ### <a name="external-dns"></a>DNS externo
 

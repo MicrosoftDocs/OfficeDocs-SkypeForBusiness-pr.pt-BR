@@ -1,7 +1,7 @@
 ---
 title: Implantar e configurar a mobilidade para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Este artigo levará você pelas etapas para configurar uma instalação de Skype for Business Server existente para usar o serviço Mobility, permitindo que seus dispositivos móveis sejam capazes de tirar proveito dos recursos Skype for Business Server Mobility.
-ms.openlocfilehash: c0b8a3e2902a8605f952683d6a3629af9e075798
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611330"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741497"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Implantar e configurar a mobilidade para Skype for Business Server  
  
@@ -27,10 +27,10 @@ Depois de analisar o [artigo Plan for Mobility for Skype for Business Server,](.
   
 |**Fase**|**Permissões**|
 |:-----|:-----|
-|[Criar registros DNS](deploy-and-configure-mobility.md#CreateDNSRec) <br/> |Admins. do Domínio  <br/> DNSAdmins  <br/> |
+|[Criar registros DNS](deploy-and-configure-mobility.md#CreateDNSRec) <br/> |Admins de domínio  <br/> DNSAdmins  <br/> |
 |[Modificar certificados](deploy-and-configure-mobility.md#ModCerts) <br/> |Administrador Local  <br/> |
 |[Configurar o proxy inverso](deploy-and-configure-mobility.md#ConfigRP) <br/> |Administrador Local  <br/> |
-|[Configurar a Descoberta Automática para Mobilidade com implantações híbridas](deploy-and-configure-mobility.md#ConfigAutoD) <br/> |Admins. do Domínio  <br/> |
+|[Configurar a Descoberta Automática para Mobilidade com implantações híbridas](deploy-and-configure-mobility.md#ConfigAutoD) <br/> |Admins de domínio  <br/> |
 |[Testar sua implantação de Mobilidade](deploy-and-configure-mobility.md#TestMobility) <br/> |CsAdministrator  <br/> |
 |[Configurar para notificações por push](deploy-and-configure-mobility.md#ConfigPush) <br/> |RtcUniversalServerAdmins  <br/> |
 |[Configurar política de mobilidade](deploy-and-configure-mobility.md#ConfigMob) <br/> |CsAdministrator  <br/> |

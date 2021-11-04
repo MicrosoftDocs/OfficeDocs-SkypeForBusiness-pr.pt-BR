@@ -1,7 +1,7 @@
 ---
 title: Adicionar Repositório de Servidor SQL Front End
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: Uma Edição Standard de servidor instala automaticamente o software Microsoft SQL Server Express de banco de dados e o banco de dados SQL Server de dados. Portanto, todas as opções são pré-populadas e você não pode fazer alterações na configuração padrão.
-ms.openlocfilehash: fc6e1eb168cfa68a997b462be3557b87990f926d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31d8df413d03c02ede0a2e0c24a63bea7381e65e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596635"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757303"
 ---
 # <a name="add-front-end-sql-server-store"></a>Adicionar Front-end do Repositório do SQL Server
 

@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams exibe
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: weizxue
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams exibições.
-ms.openlocfilehash: f600394e3be741927a12c70ff4a91658be9a05fc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bad65986cecddc59cea6c0b2c2a545b647595758
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586595"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737457"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams exibe
 

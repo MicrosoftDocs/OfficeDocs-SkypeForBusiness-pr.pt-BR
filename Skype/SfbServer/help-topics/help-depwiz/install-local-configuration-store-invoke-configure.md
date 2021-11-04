@@ -1,7 +1,7 @@
 ---
 title: Instalar Invocação do Repositório de Configuração Local (Configuração)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 description: Para começar a instalação do banco de dados que armazenará a cópia somente leitura local do armazenamento de Gerenciamento Central, selecione entre recuperar a configuração definida publicada usando o Construtor de Topologia no armazenamento de Gerenciamento Central já instalado e configurado ou lendo a configuração definida de outras mídias. Para um computador que está na rede interna da sua organização, selecione Recuperar configuração automaticamente no Armazenamento de Gerenciamento Central.
-ms.openlocfilehash: 1c5b90e0758c892a42286637fa30a6739932bdfb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9209292a6cd6d855284a7546a8cb5fcabbc7730b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635475"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738047"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Instalar Invocação do Repositório de Configuração Local (Configuração)
  

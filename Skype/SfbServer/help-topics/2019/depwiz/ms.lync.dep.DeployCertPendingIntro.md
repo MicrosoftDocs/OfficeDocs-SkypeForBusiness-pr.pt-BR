@@ -1,7 +1,7 @@
 ---
 title: Certificado Pendente (Introdução)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para processar uma solicitação de certificado online pendente, isto é, uma solicitação que tenha sido emitida para sua autoridade de certificação online, mas esteja definida de forma administrativa para exigir um processo de aprovação manual, clique em Avançar.
-ms.openlocfilehash: 01d42ea885619520d5629b0ade9a4da24a00ea81
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5f5b01a268f3e2bff813270e22e66ea8301a4d5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605460"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755610"
 ---
 # <a name="pending-certificate-intro"></a>Certificado Pendente (Introdução)
  

@@ -1,7 +1,7 @@
 ---
 title: Upload seus aplicativos personalizados no Microsoft Teams de administração
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como carregar seus aplicativos personalizados no armazenamento de aplicativos da sua organização no Microsoft Teams de administração.
-ms.openlocfilehash: a5f145f32f86f47aac65573303fb4e7a08a8a368
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f5e2bffa1f725f9fa741d96bdea17be3096f75f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727580"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777101"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar um aplicativo personalizado carregando um pacote de aplicativos
 

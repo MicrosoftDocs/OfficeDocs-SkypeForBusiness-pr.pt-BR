@@ -1,7 +1,7 @@
 ---
 title: Planejar IPv6 no Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumo: Implemente iPv6 antes de instalar Skype for Business Server.'
-ms.openlocfilehash: ff58da4a4064c91949446e9107d0f3ff07b720e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6126cd2211a2df0f0a24672d61cf11ce89ad23c7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593505"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770059"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planejar IPv6 no Skype for Business
  

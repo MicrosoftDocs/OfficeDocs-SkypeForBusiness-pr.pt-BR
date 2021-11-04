@@ -1,7 +1,7 @@
 ---
 title: Tabela UserSite
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
 description: A tabela UserSite é uma tabela de suporte. Cada registro representa um site de usuário definido nas configurações de rede.
-ms.openlocfilehash: 5e7ae6f304d836fc2413cbbaf696200c3f514bd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d8e7ccea49d00355a3e114833518cf5e6f762674
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595261"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737477"
 ---
 # <a name="usersite-table"></a>Tabela UserSite
  
 A tabela UserSite é uma tabela de suporte. Cada registro representa um site de usuário definido nas configurações de rede.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**UserSiteKey** <br/> |int  <br/> |Primário  <br/> |Número único de identificação do site de usuário.  <br/> |
 |**UserSiteName** <br/> |nvarchar(128)  <br/> |Unique  <br/> |Nome do site do usuário.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Gerenciar mapeamento de teclas para comandos DTMF em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Resumo: saiba como gerenciar o mapeamento de chaves de comandos DTMF (multifrequência de tom duplo) em Skype for Business Server.'
-ms.openlocfilehash: 10f1d6f0386e97d688e0b56b2605c194c0599ee5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd9f5b4e4560d3b89e713782ad2e8a19991a1382
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592555"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763849"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gerenciar mapeamento de teclas para comandos DTMF em Skype for Business Server
  
