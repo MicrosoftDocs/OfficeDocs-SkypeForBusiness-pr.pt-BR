@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33286dccf3d54ac694b4d74b736b6d899c035aa8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f23f00249c23acb8397127bd51fd05206ce2f3f6
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760539"
+ms.locfileid: "60785084"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar e habilitar Coach de carreira para Microsoft Teams
 
@@ -165,15 +165,15 @@ Personalize Coach de carreira para corresponder à marca da sua instituição ed
 
 3. Upload ícone **da instituição educacional**. O ícone é usado em todo o Coach de carreira para identificar conteúdo exclusivo para sua instituição educacional, recursos de catálogo de cursos em todo o aplicativo e na seção experiências do mundo real do painel. O ícone é melhor formatado como:
 
-- Um PNG transparente
-- Proporção de 1:1
-- Tamanho máximo de 64 px x 64 px
+    - Um PNG transparente
+    - Proporção de 1:1
+    - Tamanho máximo de 64 px x 64 px
 
 4. Upload **miniatura da instituição educacional.** A miniatura será usada para recursos de catálogo de cursos em todo o aplicativo quando uma imagem específica não estiver disponível para um curso. A miniatura é melhor formatada como:
 
-- Um PNG
-- Proporção de 16:9
-- Tamanho máximo de 360 px x 200 px
+    - Um PNG
+    - Proporção de 16:9
+    - Tamanho máximo de 360 px x 200 px
 
 5. Adicione a URL da política de **privacidade da instituição educacional.** Se adicionada, a política de privacidade da instituição estará disponível para que os alunos revisem no Coach de carreira app.
 
@@ -325,8 +325,8 @@ Depois de concluir a configuração, habilita o aplicativo para alunos e usuári
 
 2. Mover a alternância Status para **Permitido**.  
 
-  > [!NOTE]
-  > **Permitido** significa que o aplicativo está disponível para usuários em sua instituição educacional. Bloqueado significa que o aplicativo não está disponível para os alunos.
+   > [!NOTE]
+   > **Permitido** significa que o aplicativo está disponível para usuários em sua instituição educacional. Bloqueado significa que o aplicativo não está disponível para os alunos.
 
 ### <a name="add-career-coach-as-an-installed-app"></a>Adicionar Coach de carreira como um aplicativo instalado
 

@@ -17,18 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b79319da9f901fc4546c25d5165f4d2361521a7
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8cd05f6ad2b238b4db2d611a6fc00e5f8a57189f
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537002"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785144"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Implantando o aplicativo pais no Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-Habilenciar o aplicativo pais no Microsoft Teams é um processo simples para administradores, fornecendo um método seguro para os educadores se comunicarem com os alunos e seus contatos que permanecem no locatário, e que será dimensionado em toda a sua organização de educadores.
+O Aplicativo Pai ajuda os educadores a se conectarem e se envolverem com os pais e responsáveis dos alunos em suas aulas usando um chat Teams, que será dimensionados pela organização do educador. Todos os dados pai e responsável são provisionados usando School Data Sync, permitindo que educadores e funcionários de IT deem uma configuração tranquila.
 
 ## <a name="requirements"></a>Requisitos
 
@@ -45,7 +43,7 @@ Habilenciar o aplicativo pais no Microsoft Teams é um processo simples para adm
 
 - Proprietário da classe deve ter Chat habilitado
 - O Proprietário da Classe deve ter Acesso **Externo com Teams contas não gerenciadas por uma organização** habilitada. 
-  - Essa configuração pode ser encontrada em Configurações em toda a organização > Acesso Externo para o nível do locatário ou se você quiser habilitar para um determinado conjunto de usuários, consulte o PowerShell abaixo.
+  - Essa configuração pode ser encontrada em Usuários > Acesso Externo para o nível de locatário ou se você quiser habilitar para um determinado conjunto de usuários, consulte o PowerShell abaixo.
 
 ## <a name="enabling-federated-chat-on-a-per-user-basis"></a>Habilitando o chat federado por usuário
 
@@ -63,7 +61,7 @@ Habilenciar o aplicativo pais no Microsoft Teams é um processo simples para adm
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-Por padrão, a configuração de nível de locatário que controla Teams acesso externo do consumidor para o locatário (AllowTeamsConsumer) está desabilitada. No entanto, a configuração de política que permite Teams acesso externo do consumidor no nível do usuário (EnableTeamsConsumerAccess) está habilitada por padrão para todas as políticas de acesso externo no nível do usuário. A configuração de nível de locatário e a configuração de política no nível do usuário precisam estar habilitadas para que um usuário tenha acesso Teams externo do consumidor. Se você não quiser que todos em seu locatário tenham o acesso externo do consumidor Teams habilitado, atualize as políticas de acesso externo no nível do usuário atribuídas aos usuários antes de habilitar a configuração no nível do locatário.
+A configuração de política que permite Teams acesso externo do consumidor no nível do usuário (EnableTeamsConsumerAccess) é habilitada por padrão para todas as políticas de acesso externo no nível do usuário. Tanto a configuração de nível de locatário (AllowTeamsConsumer) quanto a configuração de política no nível do usuário precisam estar habilitadas para que um usuário tenha acesso externo Teams consumidor. Se você não quiser que todos em seu locatário tenham o acesso externo do consumidor Teams habilitado, atualize as políticas de acesso externo no nível do usuário atribuídas aos usuários antes de habilitar a configuração no nível do locatário.
 
 Se você precisar verificar quais políticas de acesso externo no nível do usuário existem e a quem elas são atribuídas, você pode usar as seguintes etapas:
     
@@ -76,7 +74,7 @@ Se você precisar verificar quais políticas de acesso externo no nível do usu�
 4. Para cada política diferente da política "Global", verifique quais usuários têm a política atribuída. Observação: todos os usuários que não têm uma política específica atribuída retornarão à política "Global"
 
     ```powershell
-    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq “<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
+    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
 ### <a name="further-powershell-options"></a>Outras opções do PowerShell
