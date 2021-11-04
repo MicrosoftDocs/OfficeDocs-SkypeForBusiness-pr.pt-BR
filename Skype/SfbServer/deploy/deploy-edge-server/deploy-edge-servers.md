@@ -1,7 +1,7 @@
 ---
 title: Implantar servidores de borda Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Resumo: Saiba como implantar servidores de borda em seu ambiente Skype for Business Server ambiente.'
-ms.openlocfilehash: 611e2e6b4bbc3ef8f1d140b02d8dc3f2bc719953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623023"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773321"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implantar servidores de borda Skype for Business Server
  
@@ -153,7 +153,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. O **Assistente de Exportação de Certificados** é aberto. Clique em **Avançar**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. Na caixa **de diálogo Exportar Formato de** Arquivo, escolha o formato para o qual você deseja exportar. Nossa recomendação é **Padrão de Sintaxe de Mensagem Criptográfica - PKCS #7 Certificados (P7b)**. Se essa também for sua escolha, lembre-se de também selecionar a caixa de seleção Incluir todos os certificados no caminho de certificação, se possível, pois isso também exportará a cadeia de certificados, incluindo o certificado ca raiz e quaisquer **certificados** Intermediários. Clique em **Avançar**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. Na caixa **de diálogo Exportar Formato de** Arquivo, escolha o formato para o qual você deseja exportar. Nossa recomendação é **Cryptographic Message Sintaxe Standard - PKCS #7 Certificates (P7b)**. Se essa também for sua escolha, lembre-se de também selecionar a caixa de seleção Incluir todos os certificados no caminho de certificação, se possível, pois isso também exportará a cadeia de certificados, incluindo o certificado ca raiz e quaisquer **certificados** Intermediários. Clique em **Avançar**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viii. Na caixa de diálogo Arquivo para **Exportar,** na entrada nome do arquivo, digite um caminho e um nome de arquivo (a extensão padrão seria .p7b) para o certificado exportado. Se for mais fácil para você, escolha o botão **Procurar** para ir até o local para o qual você deseja salvar o certificado exportado e nomee o certificado exportado aqui. Clique **em** Salvar e **em Próximo** quando estiver pronto.
     

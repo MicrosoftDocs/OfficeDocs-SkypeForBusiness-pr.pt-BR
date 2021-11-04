@@ -1,6 +1,6 @@
 ---
 title: Política de conferência para Skype do Sistema de Sala
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Leia este tópico para saber como atribuir políticas de conferência para Skype do Sistema de Sala.
-ms.openlocfilehash: 202440953aedaa54ac69a7bd4549bf7dcbd8d865
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9e6bab608ab68b3f0e0d5075ae1caf8cb16d4c0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618197"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771673"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Política de conferência para Skype do Sistema de Sala
  
@@ -27,7 +27,7 @@ Leia este tópico para saber como atribuir políticas de conferência para Skype
 
 A política de conferência atribuída à conta Skype Room System deve ter determinadas características. Na maioria das vezes, o cliente Skype Room System ins junta uma reunião agendada e, portanto, a política de conferência do organizador da reunião afetará a conferência. No entanto, Skype for Business Server, determinados recursos dependem da configuração do participante. Por exemplo, se a política do participante permitir uma resolução de vídeo máxima de 1080p, os participantes experimentarão esse recurso de vídeo de resolução mais alta na conferência, mesmo se a política do organizador não permitir. A tabela a seguir descreve várias dessas configurações que você deve estar ciente ao configurar políticas de conferência para Skype contas do Sistema de Sala em sua organização. 
   
-|Recurso  <br/> |Valor  <br/> |Comentário  <br/> |
+|Recurso  <br/> |Valor  <br/> |Comment  <br/> |
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Deve ser verdadeiro para Skype áudio do Sistema de Sala  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Deve ser verdadeiro para que Skype áudio do Sistema de Sala funcione em sessões de quadro de Skype de Reunião Agora (ad hoc)  <br/> |
@@ -45,7 +45,7 @@ A política de conferência atribuída à conta Skype Room System deve ter deter
 |AllowPolls  <br/> |TRUE  <br/> |N/A em Reuniões de Reunião Agora (ad hoc), mas Skype Room System pode responder a votações na tela na frente da sala  <br/> |
 |AllowSharedNotes  <br/> |TRUE  <br/> |N/A em Reuniões de Reunião Agora (ad hoc), mas Skype Room System pode responder a votações na tela na frente da sala  <br/> |
 |EnableDialInConferencing  <br/> |TRUE  <br/> |Afeta as sessões de quadro de Skype Reunião Agora (ad hoc)  <br/> |
-|EnableAppDesktopSharing  <br/> |Área de trabalho  <br/> |Afeta as sessões de quadro de Skype Reunião Agora (ad hoc)  <br/> |
+|EnableAppDesktopSharing  <br/> |Desktop  <br/> |Afeta as sessões de quadro de Skype Reunião Agora (ad hoc)  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |N/A para Skype Room System. Se VERDADEIRO, uma parte remota poderia gravar  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |N/A para Skype Room System. Se VERDADEIRO, uma parte remota poderia gravar  <br/> |
 |EnableFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |

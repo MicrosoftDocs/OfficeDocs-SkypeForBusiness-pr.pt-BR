@@ -1,7 +1,7 @@
 ---
 title: Adicionar NextHop de Servidor de Mediação
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir o próximo salto para um Servidor de Mediação que você está definindo, selecione na lista de espera do pool de próximo salto o servidor Edição Enterprise ou o servidor Edição Standard que atuará como o próximo salto para o Servidor de Mediação. Clique em Avançar para continuar.
-ms.openlocfilehash: f19c4f4430639b4145c876a594894215c3957467
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b98b940914dcf3c9c4c95b5ee60759047735ba6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590285"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772871"
 ---
 # <a name="add-mediation-server-nexthop"></a>Adicionar NextHop de Servidor de Mediação
  

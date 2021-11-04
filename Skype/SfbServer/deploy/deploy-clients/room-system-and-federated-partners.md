@@ -1,6 +1,6 @@
 ---
 title: Skype Sistema de Sala e Skype for Business federados
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: Leia este tópico para saber como configurar o Skype Room System para Skype for Business federados.
-ms.openlocfilehash: 2f0a44538839fd6c722021f806bd8623f0c210ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57c143559af533e1a2a8ef6577a1fe6e9f9de660
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620507"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771663"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Sistema de Sala e Skype for Business federados
  
@@ -34,4 +34,4 @@ New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
 
-Depois que o TNEF é habilitado para a organização remota, qualquer mensagem enviada pela Internet para a organização é enviada como um anexo no formato TNEF. Com o TNEF habilitado, quando uma solicitação de reunião do Skype for Business é enviada ao parceiro federado do Skype for Business, o sistema de sala do Skype poderá renderizar a Reunião de Skype for Business e os usuários remotos poderão ingressar em reuniões Skype for Business. 
+Depois que o TNEF é habilitado para a organização remota, qualquer mensagem enviada pela Internet para a organização é enviada como um anexo no formato TNEF. Com o TNEF habilitado, quando uma solicitação de reunião Skype for Business for enviada ao parceiro federado do Skype for Business, o sistema de sala do Skype poderá renderizar a Reunião de Skype for Business e os usuários remotos poderão ingressar no Skype for Business reuniões. 

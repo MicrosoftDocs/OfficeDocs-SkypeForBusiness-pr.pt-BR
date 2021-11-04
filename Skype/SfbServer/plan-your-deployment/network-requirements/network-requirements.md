@@ -1,7 +1,7 @@
 ---
 title: Planejar requisitos de rede para Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumo: revise as considerações do componente de rede abaixo antes de implementar Skype for Business Server.'
-ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b2b8496b307111261c77f93d45d3332b42ead90d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014665"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777921"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planejar requisitos de rede para Skype for Business
 

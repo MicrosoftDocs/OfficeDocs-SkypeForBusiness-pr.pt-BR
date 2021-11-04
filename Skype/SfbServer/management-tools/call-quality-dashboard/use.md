@@ -1,7 +1,7 @@
 ---
 title: Usar o Painel de Qualidade de Chamada para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumo: Saiba como usar o Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 8bd18b7be66c4ea9b3a69cd81d4c72fb641603eb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ad4c1b295b672900b632903fc653691c03cc5193
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015075"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739097"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar o Painel de Qualidade de Chamada para Skype for Business Server
 
@@ -78,7 +78,7 @@ Quando StartDate.Month é adicionado como uma dimensão e os dados são renderiz
 
 Para que os gráficos de barras e os sparklines apareçam, a caixa de seleção "Mostrar sparklines" na parte superior do Editor de Relatório deve ser verificada. Isso seleciona a opção Tendência e move Mês para baixo para ser a última dimensão, que também pode ser realizada clicando em Mês e usando as setas para cima e para baixo para mover StartDate.Month para cima ou para baixo.
 
-### <a name="settings"></a>Settings
+### <a name="settings"></a>Configurações
 
 O menu configurações contém links para páginas úteis, como as páginas Sobre e Saúde do Sistema, e está localizado no canto superior direito do painel.
 

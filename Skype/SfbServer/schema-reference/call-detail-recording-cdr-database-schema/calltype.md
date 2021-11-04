@@ -1,7 +1,7 @@
 ---
 title: Tabela CallType no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a1d7187c-f851-4967-88ea-73922911ee7a
 description: A tabela CallType é uma tabela estática que armazena a lista de possíveis tipos de chamada.
-ms.openlocfilehash: 7c84e245cac2ceb25a5012f9caf4a2a31d4cb67b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05bfcf5b13735a460f8122fc6b1ce5eeddf94b97
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620907"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743187"
 ---
 # <a name="calltype-table-in-skype-for-business-server-2015"></a>Tabela CallType no Skype for Business Server 2015
  
 A tabela CallType é uma tabela estática que armazena a lista de possíveis tipos de chamada.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**CallTypeId** <br/> |int  <br/> |Primário  <br/> ||
 |**CallType** <br/> |nvarchar  <br/> || Valores permitidos: <br/>  0 - Desconhecido <br/>  1 - Mensagens Instantâneas <br/>  2 - Compartilhamento de Aplicativos <br/>  3 - Áudio <br/>  4 - Áudio e Vídeo <br/>  5 - Transferência de Arquivos <br/> |

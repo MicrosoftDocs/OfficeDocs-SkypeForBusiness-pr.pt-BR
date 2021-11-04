@@ -1,7 +1,7 @@
 ---
 title: Instalar e abrir ferramentas administrativas
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este tópico descreve como instalar e abrir as ferramentas administrativas necessárias para implantar e gerenciar Skype for Business.
-ms.openlocfilehash: 70f7732c9db49f5a089e9d5008a27902e5aac51c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a40a1617490f22c37ec2a8173118dcb289ec8ff8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630475"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743427"
 ---
 # <a name="install-and-open-administrative-tools"></a>Instalar e abrir ferramentas administrativas
 
@@ -64,7 +64,7 @@ Use o procedimento a seguir para abrir o Construtor de Topologias para definir o
 
 1. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
     > [!NOTE]
-    > Você pode definir uma topologia usando uma conta membro do grupo Usuários local, mas para ler, publicar ou habilitar uma topologia, que é necessário para instalar o Skype for Business Server em um servidor, você deve usar uma conta que seja membro do grupo Administradores de Domínio e o grupo RTCUniversalServerAdmins, e que tenha permissões de controle total (isto é, ler, gravar e modificar) no compartilhamento de arquivos que você vai usar para o armazenamento de arquivos de arquivamento para que o Construtor de Topologias possa configurar a lista de controle de acesso discricionário necessário (DACLs) ou uma conta com direitos de usuário equivalentes.
+    > Você pode definir uma topologia usando uma conta membro do grupo Usuários local, mas para ler, publicar ou habilitar uma topologia, que é necessária para instalar o Skype for Business Server em um servidor, você deve usar uma conta que seja membro do grupo Administradores de Domínio e do grupo RTCUniversalServerAdmins,  e que tem permissões de controle total (isto é, ler, gravar e modificar) no compartilhamento de arquivos que você vai usar para o armazenamento de arquivos de arquivamento para que o Construtor de Topologias possa configurar a lista de controle de acesso discricionário necessário (DACLs) ou uma conta com direitos de usuário equivalentes.
  
 2. Iniciar Construtor de Topologias: clique em **Iniciar,** **clique** em Todos os Programas, Skype for Business Server **e** clique Skype for Business Server Construtor **de Topologias.**
 

@@ -1,7 +1,7 @@
 ---
 title: Gerenciar marcas em Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: acolonna, salu
 ms.topic: article
@@ -16,16 +16,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização em Microsoft Teams.
-ms.openlocfilehash: e98c085dee7f91aebc6e34552217230384ba80b6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8c623c4240466c7f7a6d11194e03e9717e302089
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732520"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771740"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas em Microsoft Teams
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 As marcas Microsoft Teams permitem que os usuários se conectem rapidamente e facilmente com um subconjunto de pessoas em uma equipe. Você pode criar e atribuir marcas personalizadas para categorizar pessoas com base em atributos, como função, projeto, habilidade ou local. Ou, as marcas podem ser atribuídas automaticamente às pessoas com base em suas informações de agendamento e turno no aplicativo [Shifts.](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) Depois que uma marca é adicionada a um ou vários membros da equipe, ela pode ser usada no @mentions por qualquer pessoa na equipe em uma postagem de canal ou para iniciar uma conversa somente com as pessoas que são atribuídas a essa marca.
 

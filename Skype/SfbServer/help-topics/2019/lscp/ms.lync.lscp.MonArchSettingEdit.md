@@ -1,7 +1,7 @@
 ---
 title: Configuração de Arquivamento Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você usa configurações de arquivamento para controlar opções de arquivamento para sua implantação. As configurações de arquivamento incluem a configuração global e, opcionalmente, uma ou mais configurações de site e pool:'
-ms.openlocfilehash: 01c14b482fb546a83d9cff8bdbbfd75f8f81f1bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a9e3a64560e347c959b464fe8da57e994f2e5c9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597725"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757903"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuração de Arquivamento: Criar Novo ou Editar Existente
  

@@ -1,7 +1,7 @@
 ---
 title: Planejar Enterprise Voice resiliência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como dar suporte à resiliência de voz Skype for Business Server Enterprise Voice, em sites centrais e sites de filial. As opções de site de filial incluem a implantação de Aparelhos de Filial Desaviváveis ou Servidores de Filial Desaviváveis.
-ms.openlocfilehash: cccce61eb575caaf6037d1d916f428aeecb452e4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec0d542318023fdc638926e78ff6ffdeceefba5f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729760"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778001"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planejar Enterprise Voice resiliência no Skype for Business Server
 
@@ -283,7 +283,7 @@ Se um site de filial não tiver um servidor DNS, há duas maneiras alternativas 
 > [!IMPORTANT]
 > Ao criar uma rota de backup do escritório da filial, é recomendável adicionar dois registros de utilização de telefone do PSTN à política do usuário do escritório da filial e atribuir rotas separadas para cada uma. A primeira rota, ou primária, direcionaria chamadas para o gateway associado ao SBA (Aparelho de Filial Suportável) ou servidor de filial; a segunda rota, ou backup, direcionaria chamadas para o gateway no site central. Ao direcionar chamadas, o SBA ou servidor da filial tentará todas as rotas atribuídas ao primeiro registro de uso do PSTN antes de tentar o segundo registro de uso.
 
-Para ajudar a garantir que as chamadas de entrada para usuários de site de filial cheguem a esses usuários quando o gateway de filial ou o componente Windows do site aparelho de filial que está indisponível (o que ocorreria, por exemplo, se o Aparelho de Filial Ou gateway de filial Desavivável estivesse para manutenção), crie uma rota de failover no gateway (ou trabalhe com seu provedor de Discagem Direta Interna (DID) para redirecionar chamadas de entrada para o pool de Registrador de backup no site central. Daí, as chamadas serão roteadas sobre o link WAN para os usuários da filial. Certifique-se de que a rota traduz números para estar em conformidade com o gateway PSTN ou outros formatos de número de telefone aceitos do par de tronco. Para detalhes sobre a criação de uma rota de failover, consulte [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). Crie também planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial para normalizar chamadas de entrada. Se você tiver dois Aparelhos de FilialVivíveis em um site de filial, poderá criar um plano de discagem no nível do site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
+Para ajudar a garantir que as chamadas de entrada para usuários de site de filial cheguem a esses usuários quando o gateway de filial ou o componente Windows do site aparelho de filial não estiver disponível (o que ocorreria, por exemplo, se o Aparelho de Filial Ou gateway de filial que estava para manutenção), crie uma rota de failover no gateway (ou trabalhe com seu provedor de Discagem Direta Interna (DID) para redirecionar chamadas de entrada para o pool do Registrador de backup no pool central site. Daí, as chamadas serão roteadas sobre o link WAN para os usuários da filial. Certifique-se de que a rota traduz números para estar em conformidade com o gateway PSTN ou outros formatos de número de telefone aceitos do par de tronco. Para detalhes sobre a criação de uma rota de failover, consulte [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). Crie também planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial para normalizar chamadas de entrada. Se você tiver dois Aparelhos de FilialVivíveis em um site de filial, poderá criar um plano de discagem no nível do site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
 
 > [!NOTE]
 > Para suportar o consumo dos recursos do site central pelos usuários de qualquer site de filial que se apoiem no site central para presença, conferência ou failover, é recomendável considerar cada usuário de site de filial como se estivesse registrado no site central. No momento, não há limites no número de usuários de site de filial, incluindo usuários registrados com um Aparelho de Filial Desavivável.

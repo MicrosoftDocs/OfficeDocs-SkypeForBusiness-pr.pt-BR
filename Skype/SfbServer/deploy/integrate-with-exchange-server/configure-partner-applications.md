@@ -1,7 +1,7 @@
 ---
 title: Configurar aplicativos parceiros no Skype for Business Server 2015 e Exchange Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Resumo: Configure a autenticação de servidor para servidor Exchange Server 2016 ou Exchange Server 2013 e Skype for Business Server.'
-ms.openlocfilehash: 4d88676b3c2cfc01935388b49b120ca99d1b7025
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f85c617558ae348eaa554efcb5aff1fb4a624d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607608"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771459"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Configurar aplicativos parceiros em Skype for Business Server e Exchange Server
  
@@ -69,7 +69,7 @@ New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -Metadat
 
 Como alternativa, você pode criar um aplicativo parceiro copiando e modificando o código de script encontrado na documentação Skype for Business Server autenticação servidor para servidor. Consulte o artigo Gerenciar autenticação de servidor para servidor [(OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md) e aplicativos parceiros Skype for Business Server para obter mais informações.
   
-Se você configurou com êxito aplicativos parceiros para Skype for Business Server e Exchange Server, também configurou com êxito a autenticação de servidor para servidor entre os dois produtos. Skype for Business Server inclui um cmdlet Windows PowerShell, [Test-CsExStorageConnectivity,](/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) que permite verificar se a autenticação de servidor para servidor foi configurada corretamente e se o serviço Skype for Business Server Armazenamento pode se conectar ao Exchange Server. O cmdlet faz isso conectando-se à caixa de correio de um usuário Exchange Server, escrevendo um item na pasta Histórico da Conversa para esse usuário e, em seguida, (opcionalmente) excluindo esse item.
+Se você configurou com êxito aplicativos parceiros para Skype for Business Server e Exchange Server, também configurou com êxito a autenticação de servidor para servidor entre os dois produtos. Skype for Business Server inclui um cmdlet Windows PowerShell, [Test-CsExStorageConnectivity](/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) que permite verificar se a autenticação de servidor para servidor foi configurada corretamente e se a Skype for Business Server Armazenamento O serviço pode se conectar Exchange Server. O cmdlet faz isso conectando-se à caixa de correio de um usuário Exchange Server, escrevendo um item na pasta Histórico da Conversa para esse usuário e, em seguida, (opcionalmente) excluindo esse item.
   
 Para testar a integração de Skype for Business Server e Exchange Server, execute um comando semelhante ao seguinte no Shell de Gerenciamento Skype for Business Server:
   

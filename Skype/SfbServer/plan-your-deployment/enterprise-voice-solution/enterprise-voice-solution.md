@@ -1,7 +1,7 @@
 ---
 title: Planejar sua Enterprise Voice de Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumo: saiba mais sobre suas opções para planejar uma solução unificada de voz e comunicações Skype for Business Server.'
-ms.openlocfilehash: 186836f1640402ba2b92dea349525d8f15ef644f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2cd47f1b3655166ced3bec5591a7b8197639544a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583855"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749950"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planejar sua Enterprise Voice de Skype for Business Server
  
 **Resumo:** Saiba mais sobre suas opções para planejar uma solução unificada de voz e comunicações Skype for Business Server.
   
-Skype for Business Server oferece duas opções de Enterprise Voice locais, Enterprise Voice e Call Via Work, para você integrar o sistema telefônico da sua organização com sua implantação Skype for Business Server, criando uma verdadeira solução de comunicação unificada. Ambas as opções permitem que os usuários usem o cliente Skype for Business para iniciar chamadas de voz com outros usuários, dentro e fora da sua organização.
+Skype for Business Server oferece duas opções de Enterprise Voice locais, Enterprise Voice e Call Via Work, para que você integre o sistema telefônico da sua organização com sua implantação Skype for Business Server, tornando uma verdadeira unificação solução de comunicações. Ambas as opções permitem que os usuários usem o cliente Skype for Business para iniciar chamadas de voz com outros usuários, dentro e fora da sua organização.
   
 Você também pode usar o Enterprise Voice e o Call Via Work juntos.
   

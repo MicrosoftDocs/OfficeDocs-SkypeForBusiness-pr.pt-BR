@@ -1,7 +1,7 @@
 ---
 title: Planejando desativar os métodos de autenticação herdou interna e externamente para sua rede
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Este artigo descreve os cmdlets que dão aos administradores mais controle dos métodos de autenticação usados dentro e fora de uma empresa. Os administradores podem ativar ou desativar os métodos de autenticação internamente ou externamente para sua rede.
-ms.openlocfilehash: 7bad18e79e1595c7dfe4518d73b6dd764e313e22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65ec31dcd4a320b42da746eece41009f70e886af
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601356"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777951"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planejando desativar os métodos de autenticação herdou interna e externamente para sua rede.
 

@@ -1,7 +1,7 @@
 ---
 title: Usuários exibir o status do PIN
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: af79fa923b66c29714d175d32ed507e7f64ab6d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d487bf2ec3abf5ccb828917a74ec37924c72f04
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600346"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770689"
 ---
 # <a name="users-view-pin-status"></a>Usuários: Exibir Status de PIN
  

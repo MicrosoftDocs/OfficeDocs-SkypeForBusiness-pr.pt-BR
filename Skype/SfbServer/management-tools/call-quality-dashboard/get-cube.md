@@ -1,7 +1,7 @@
 ---
 title: Obter o Cubo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 'Resumo: saiba mais sobre a operação Get Cube, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 67ac59589de8516d6b374d61646cc88763ef7234
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb5edc6bba4c374600845d18c371332a62a6085e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617807"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739147"
 ---
 # <a name="get-cube"></a>Obter o Cubo
  
@@ -33,7 +33,7 @@ A operação Get Cube retorna a lista de dimensões e medidas disponíveis.
 
 |**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
    
  **Parâmetros URI** - Nenhum.
   

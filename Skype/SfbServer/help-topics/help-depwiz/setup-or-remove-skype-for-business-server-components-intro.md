@@ -1,7 +1,7 @@
 ---
 title: Configurar ou Remover Componentes do Skype for Business Server (Introdução)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e87b2255-3a00-4c74-b3d0-e0c3da702e3a
 description: Você está se preparando para instalar e ativar ou desativar e desinstalar Skype for Business Server componentes 2015. Os processos que serão executados são definidos pela configuração atual da definição publicada no repositório de Gerenciamento Central. Para concluir com êxito as tarefas, você deve estar conectado como membro do grupo local Administradores e, no mínimo, você deve ser capaz de ler os Serviços de Domínio do Active Directory.
-ms.openlocfilehash: 578a2a6810c25e61f5ddc4dd6f3a0607e10eeb53
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 791b64019770d0d607584c66b5d9586d02c5fd8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582945"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770839"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-intro"></a>Configurar ou Remover Componentes do Skype for Business Server (Introdução)
  

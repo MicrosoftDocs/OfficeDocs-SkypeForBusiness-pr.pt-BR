@@ -1,7 +1,7 @@
 ---
 title: Teste de recuperação de desastres em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Executar uma recuperação do sistema para um Skype for Business Server pool para testar seu processo de recuperação de desastre documentado
-ms.openlocfilehash: a98f2de4d860c4a769526428958ba9b952cfc573
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 94d4d4d1a832db3bb72a844818675dba04c214b9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609238"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743447"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Teste de recuperação de desastres em Skype for Business Server
 

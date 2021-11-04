@@ -1,7 +1,7 @@
 ---
 title: Use a Office de Personalização (OCT) em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Resumo: como usar a ferramenta de personalização Office com o cliente Skype for Business cliente.'
-ms.openlocfilehash: d1fa867326ec1c613793831253dc693783132b57
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 435ce2e1b9644fe5f30968a0766abe69165ca387
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587833"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738947"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Use a Office de Personalização (OCT) em Skype for Business Server
  

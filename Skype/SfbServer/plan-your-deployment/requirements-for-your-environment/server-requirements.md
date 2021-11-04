@@ -1,7 +1,7 @@
 ---
 title: Requisitos de servidor para Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumo: prepare seus Skype for Business Server 2015 com este tópico. Hardware, so, bancos de dados, software, todos os requisitos e recomendações do sistema estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do farm de servidores.'
-ms.openlocfilehash: d97954542d58870078fc9ade47b39c682b79efd1
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ece492adcf126870990ed810455d144c9b90aa5b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014345"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743347"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor para Skype for Business Server 2015
  
@@ -194,8 +194,8 @@ Há algumas coisas que você precisará instalar ou configurar para qualquer ser
   
 |Software/Função|Detalhes|
 |:-----|:-----|
-|IIS (Serviços de Informações da Internet)   |O IIS é necessário em todos os Servidores Front-End, bem como em todos os servidores Edição Standard, com os seguintes módulos selecionados:  <br/> • Recursos HTTP comuns: Documento Padrão, Erros HTTP, Conteúdo Estático  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Desempenho: Compactação de Conteúdo Estático, Compactação dinâmica de conteúdo  <br/> • Segurança: Filtragem de Solicitação, Autenticação de Mapeamento de Certificados do Cliente, Autenticação do Windows  <br/> • Desenvolvimento de aplicativos: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, Extensões ISAPI, Filtros ISAPI  <br/> • Ferramentas de Gerenciamento: Console de Gerenciamento do IIS, Scripts e Ferramentas de Gerenciamento do IIS  <br/> Também devemos observar que o Acesso Anônimo também é necessário, mas você pode obter isso ao instalar o IIS, para que não tenha um local para selecionar isso na lista.   |
-|Tempo de Execução do Windows Media Format   | Para Windows Server 2016, Windows Server 2012 e Windows Server 2012 R2, você precisará instalar o recurso **Media Foundation** no Gerenciador **de Servidores.** Agora, você pode iniciar a instalação do Skype for Business Server 2015 sem essa, mas será solicitado a instalá-lo e reiniciar o servidor antes que a instalação do Skype for Business Server 2015 continue. É melhor fazer isso com antecedência.  |
+|IIS (Serviços de Informações da Internet)   |O IIS é necessário em todos os Servidores Front-End, bem como em todos os servidores Edição Standard, com os seguintes módulos selecionados:  <br/> • Recursos HTTP comuns: Documento Padrão, Erros HTTP, Conteúdo Estático  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Desempenho: Compactação de Conteúdo Estático, Compactação dinâmica de conteúdo  <br/> • Segurança: Filtragem de Solicitação, Autenticação de Mapeamento de Certificados do Cliente, Windows Autenticação  <br/> • Desenvolvimento de aplicativos: Extensibilidade .NET 3.5, Extensibilidade .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, Extensões ISAPI, Filtros ISAPI  <br/> • Ferramentas de Gerenciamento: Console de Gerenciamento do IIS, Scripts e Ferramentas de Gerenciamento do IIS  <br/> Também devemos observar que o Acesso Anônimo também é necessário, mas você pode obter isso ao instalar o IIS, para que não tenha um local para selecionar isso na lista.   |
+|Tempo de Execução do Windows Media Format   | Para Windows Server 2016, Windows Server 2012 e Windows Server 2012 R2, você precisará instalar o recurso **Media Foundation** no **Gerenciador do Servidor.** Agora, você realmente pode iniciar sua instalação do Skype for Business Server 2015 sem essa, mas será solicitado a instalá-lo e reiniciar o servidor, antes que a instalação do Skype for Business Server 2015 continue. É melhor fazer isso com antecedência.  |
 |Silverlight   |Você pode instalar a versão mais recente do Silverlight [neste link](https://www.microsoft.com/silverlight/).   |
    
 > [!NOTE] 
@@ -208,7 +208,7 @@ Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, W
 ```
 
 > [!NOTE] 
-> O comando procura arquivos de origem em uma ordem específica. Se você estiver online, o comando acessará o Windows Update. No entanto, se você estiver offline, precisará garantir que os arquivos de origem estão disponíveis para o comando. Para obter mais informações sobre como usar o PowerShell para instalar funções e recursos, consulte [Install or Uninstall Roles, Role Services, or Features](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)) Don't forget to run Windows Update again after you install prerequisites, even if you use the PowerShell command.
+> O comando procura arquivos de origem em uma ordem específica. Se você estiver online, o comando acessará Windows Update. No entanto, se você estiver offline, precisará garantir que os arquivos de origem estão disponíveis para o comando. Para obter mais informações sobre como usar o PowerShell para instalar funções e recursos, consulte Install or [Uninstall Roles, Role Services, or Features](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)) Don't forget to run Windows Update again after you install prerequisites, even if you use the PowerShell command.
 
  **Os diretores também precisam:**
   
@@ -256,7 +256,7 @@ IIS, com os seguintes módulos selecionados:
     
   - Filtros ISAPI
     
-(Se você estiver se perguntando, é o mesmo conjunto de módulos que os servidores Front-End e Standard Edition, com as Ferramentas dinâmicas de Compactação e Gerenciamento de Conteúdo deixadas de fora.)
+(Se você estiver se perguntando, é o mesmo conjunto de módulos que os Servidores front-end e servidores Edição Standard, com as Ferramentas dinâmicas de Compactação e Gerenciamento de Conteúdo.)
   
 E também temos alguns códigos do PowerShell abaixo para isso:
   
@@ -266,7 +266,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
  **Os Servidores de Chat Persistente também precisam:**
   
-En fila de mensagens, que também é chamada de MSMQ. É um componente do Windows Server e você pode instalá-lo na seção Recursos no Gerenciador de Servidores. Se quiser ler mais sobre isso, confira Instalando e [gerenciando a en fila de mensagens.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771474(v=ws.11))
+En fila de mensagens, que também é chamada de MSMQ. É um componente Windows Server e você pode instalá-lo na seção Recursos no Gerenciador do Servidor. Se quiser ler mais sobre isso, confira Instalando e [gerenciando a en fila de mensagens.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771474(v=ws.11))
   
  **Últimos comentários:**
   

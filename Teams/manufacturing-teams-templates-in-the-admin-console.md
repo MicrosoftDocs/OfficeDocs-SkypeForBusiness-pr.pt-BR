@@ -1,7 +1,7 @@
 ---
 title: Começar a criar modelos de equipe no centro de administração
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b030b3a9635c0ba3f7737e4b749d47ac93fba862
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c7d7c7d648d36f38bc25bae946136388bd6485d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604410"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739047"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Usar modelos de equipe de manufatura no centro de administração
 
@@ -44,5 +44,5 @@ Centralize a comunicação, o acesso aos recursos e as operações de fábrica c
 
 | Tipo de modelo base|baseTemplateId| Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |
-|Qualidade e segurança|`com.microsoft.teams.template.QualitySafety` |Canais: <ul><li>Geral<li>Comunicados</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Material divertido</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
+|Qualidade e segurança|`com.microsoft.teams.template.QualitySafety` |Canais: <ul><li>Geral<li>Comunicados</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Diversão</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||

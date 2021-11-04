@@ -1,7 +1,7 @@
 ---
 title: Configurando troncos em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Como parte da implantação Enterprise Voice, você pode configurar um tronco entre um Servidor de Mediação e um ou mais pares para fornecer conectividade PSTN (rede telefônica pública comutado) para Enterprise Voice clientes e dispositivos em sua organização.
-ms.openlocfilehash: 5f7ce6bac163c481d01e71b3efb4ee13347a49e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 528dc8accbb2165bb86f3de9f10b3141dea01143
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598795"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739157"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>Configurando troncos em Skype for Business Server
 

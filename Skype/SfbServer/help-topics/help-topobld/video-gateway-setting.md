@@ -1,7 +1,7 @@
 ---
 title: Configuração do Gateway de Vídeo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8dcd4168-60ed-4787-b6de-2b04268d6d0f
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server 2015.
-ms.openlocfilehash: 373c3ad47caff08f2d74788d16d66532c689b065
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: de45bbdf3ccebeacf1c7f9d9066deca0a2d17b75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599042"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743587"
 ---
 # <a name="video-gateway-setting"></a>Configuração do Gateway de Vídeo
  

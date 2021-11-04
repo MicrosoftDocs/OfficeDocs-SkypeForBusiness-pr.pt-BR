@@ -2,7 +2,7 @@
 title: Failover e Failback em um pool
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 0e738faa84053f9a4d4c92127b008d397f042499
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a9f4296ce122cdb539cae4d1f3cb7ef14262efc7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013905"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750320"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Falhando e falhando em um pool Skype for Business Server
 
@@ -249,13 +249,13 @@ No procedimento a seguir, EdgePool1 é o pool, que originalmente hospedava a fed
     Start-CsWindowsService
     ```
 
-## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Fail back do pool de borda usado para federação do Skype for Business Server ou federação XMPP 
+## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Fail back do pool de borda usado para Skype for Business Server federação ou federação XMPP 
 
-Depois que um pool de Borda com falha que era usado para hospedar a federação foi trazido de volta online, use este procedimento para retornar a rota de federação do Skype for Business Server e/ou a rota de federação XMPP para usar novamente esse pool de Borda restaurado.
+Depois que um pool de Borda com falha que era usado para hospedar a federação foi trazido de volta online, use este procedimento para retornar a rota de federação Skype for Business Server e/ou a rota de federação XMPP para usar novamente esse pool de Borda restaurado.
 
 1.  No pool de Borda disponível novamente, inicie os Serviços de Borda.
 
-2.  Se você quiser retornar a rota de federação do Skype for Business Server para usar o Servidor de Borda restaurado, faça o seguinte:
+2.  Se você quiser retornar a rota Skype for Business Server de federação para usar o Servidor de Borda restaurado, faça o seguinte:
     
     1. No servidor de front-end, abra o Construtor de Topologia. Expanda **pools de** borda e clique com o botão direito do mouse no servidor de Borda ou no pool de servidores de Borda que está configurado no momento para Federação. Selecione **Editar propriedades**.
     
@@ -267,7 +267,7 @@ Depois que um pool de Borda com falha que era usado para hospedar a federação 
     
     1. Selecione **Ação,** selecione **Topologia,** selecione **Publicar**. Quando solicitado em **Publicar a topologia,** selecione **Próximo**. Quando a publicação for concluída, selecione **Concluir**.
     
-    1. No servidor de Borda, abra o assistente de Implantação do Skype for Business Server. Selecione **Instalar ou atualizar o Sistema de Servidores** do Skype for Business e, em seguida, selecione Configurar ou Remover **Componentes do Skype for Business Server**. Selecione **Executar Novamente**.
+    1. No servidor de Borda, abra o assistente Skype for Business Server implantação. Selecione **Instalar ou Atualizar Skype for Business Server Sistema** e, em seguida, selecione Configurar ou Remover Skype for Business Server **Componentes**. Selecione **Executar Novamente**.
     
     1. Selecione **Avançar**. A tela de resumo mostrará ações conforme são executadas. Depois que a implantação for feita, selecione **Exibir Log** para exibir arquivos de log disponíveis. Selecione **Concluir** para concluir a implantação.
 

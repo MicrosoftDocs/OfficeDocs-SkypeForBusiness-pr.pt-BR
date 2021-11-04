@@ -1,7 +1,7 @@
 ---
 title: Planejar a Exchange unificação de mensagens no Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: revise este tópico ao planejar a integração Skype for Business Server com Exchange 2013 ou 2016.'
-ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ad9b51a282bdd2e1f922368fad29037515ef7bb5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725670"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777981"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar a Exchange unificação de mensagens no Skype for Business
 
@@ -63,7 +63,7 @@ Skype for Business Server, o Enterprise Voice usa a infraestrutura Exchange Unif
 
 ### <a name="exchange-server-components"></a>Exchange Server Componentes
 
-Para fornecer os recursos e serviços de UM do [Exchange](#features-of-integrated-unified-messaging-and-skype-for-business-server) descritos em Recursos de Unificação de Mensagens integradas e Skype for Business Server para usuários Enterprise Voice em sua organização, você deve implantar um servidor de Caixa de Correio do Microsoft Exchange e um servidor de Acesso para Cliente, que hospeda caixas de correio de usuário e fornece um único local de armazenamento para email e caixa postal. Exchange A UM é executado como um serviço em Exchange servidores de Caixa de Correio e Acesso para Cliente.
+Para fornecer os recursos e serviços de UM do [Exchange](#features-of-integrated-unified-messaging-and-skype-for-business-server) descritos em Recursos de Unificação de Mensagens integradas e Skype for Business Server para usuários Enterprise Voice em sua organização, você deve implantar um servidor de Caixa de Correio do Microsoft Exchange e um servidor de Acesso para Cliente, que hospeda caixas de correio de usuário e fornece um local de armazenamento único para email e caixa postal. Exchange A UM é executado como um serviço em Exchange servidores de Caixa de Correio e Acesso para Cliente.
 
 Para obter detalhes Exchange componentes de UM no Microsoft Exchange Server 2010, consulte [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail) .
 
@@ -100,7 +100,7 @@ Veja a seguir diretrizes e práticas recomendadas a considerar ao implantar Ente
     > [!IMPORTANT]
     > Quando Exchange Unificação de Mensagens (UM) é instalada, ela é configurada para usar um certificado auto-assinado. O certificado auto-assinado não permite que Skype for Business Server e Exchange UM confiem uns nos outros, razão pela qual é necessário solicitar um certificado separado de uma autoridade de certificação em que ambos os servidores confiem.
 
-- Se Skype for Business Server e Exchange UM estão instalados em florestas diferentes, configure cada floresta Exchange para confiar na floresta Skype for Business Server e na floresta Skype for Business Server para confiar em cada floresta Exchange. Além disso, de definir as Exchange da UM dos usuários nos objetos do usuário na floresta Skype for Business Server, normalmente usando um script ou uma ferramenta entre florestas, como o Gerenciador de Ciclo de Vida de Identidade (ILM).
+- Se Skype for Business Server e Exchange UM estão instalados em florestas diferentes, configure cada floresta Exchange para confiar na floresta Skype for Business Server e na floresta Skype for Business Server para confiar em cada uma delas Exchange floresta. Além disso, de definir as Exchange da UM dos usuários nos objetos do usuário na floresta Skype for Business Server, normalmente usando um script ou uma ferramenta entre florestas, como o Gerenciador de Ciclo de Vida de Identidade (ILM).
 
 - Se necessário, instale o Console de Gerenciamento do Exchange para gerenciar os servidores de Unificação de mensagens.
 

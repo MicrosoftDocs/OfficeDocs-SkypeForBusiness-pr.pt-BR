@@ -1,7 +1,7 @@
 ---
 title: Gerenciando rotas de região de rede
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Uma rota de região de rede define a rota entre um par de regiões de rede. Cada par de regiões de rede de sua implantação de controle de admissão de chamadas exige uma rota de região de rede.
-ms.openlocfilehash: 962fba52ab3c937a7479c690c43f0bc5cfe9756d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 30782564076c5a6bb5961f904fe30b1cfe0d0ef5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612150"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750190"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gerenciando roteamento de regiões de rede no Skype for Business Server
 

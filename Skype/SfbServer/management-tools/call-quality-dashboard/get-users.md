@@ -1,7 +1,7 @@
 ---
 title: Obter os Usuários
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 'Resumo: saiba mais sobre a operação Obter Usuários, que faz parte do Serviço de Usuário. O Serviço de Usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 1f9df5bb241f6263bc298060442581f740303c71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecf549dccf73ec6adae7360efbe516ae3710bf17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630515"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739117"
 ---
 # <a name="get-users"></a>Obter os Usuários
  
@@ -32,7 +32,7 @@ Obter Usuários retorna uma lista de usuários no repositório.
   
 |**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repositório/usuário  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repositório/usuário  <br/> |HTTP/1.1  <br/> |
    
  **Parâmetros URI** - Nenhum.
   
