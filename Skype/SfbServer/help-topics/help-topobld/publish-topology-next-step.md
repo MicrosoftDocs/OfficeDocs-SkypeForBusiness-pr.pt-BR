@@ -1,7 +1,7 @@
 ---
 title: Próxima etapa de publicação de topologia
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: Na conclusão da publicação da topologia, a página Assistente de publicação concluído é exibida.
-ms.openlocfilehash: 70c9606bf3632c6d87171aa69f2f38ba2df40f75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 85501481595797bb446796cd45760443cab5eb46
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593735"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773811"
 ---
 # <a name="publish-topology-next-step"></a>Próxima etapa da publicação de topologia
 

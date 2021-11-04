@@ -1,7 +1,7 @@
 ---
 title: Relatório de Diagnóstico de Conferência Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico de Conferência usado Skype for Business Server.'
-ms.openlocfilehash: 578f4f2a60ca5dd1706d3b366e4decc35effeb7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c62a45c6bff7a91e6d0252ecc1a8010e5098f42b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630635"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773581"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Relatório de Diagnóstico de Conferência Skype for Business Server
  
@@ -33,7 +33,7 @@ Obseve que a soma das métricas de Êxitos, Falhas esperadas e Falhas inesperada
   
 |**Sucessos**|**Falhas esperadas**|**Falhas inesperadas**|**Total de sessões**|
 |:-----|:-----|:-----|:-----|
-|2024  <br/> |469  <br/> |16   <br/> |2521  <br/> |
+|2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
 Se somar 2024 + 469 + 16 você obtém um total de 2.509 sessões, e no entanto a coluna de Total de sessões mostra um total de 2.521 sessões. As 12 sessões "faltando" são sessões que o sistema não foi capaz de categorizar como êxito ou falha. Às vezes, esse será o caso quando um produto de terceiros introduz um novo código de diagnóstico que não é familiar para o Monitoring Server. Quando isso acontece, chamadas feitas usando o produto, e os relatórios sobre o código de diagnóstico nem sempre podem ser categorizados como Êxitos, Falhas esperadas ou Falhas inesperadas.
   
@@ -57,7 +57,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Diag
   
 **Filtros do Relatório de Diagnóstico de Conferência**
 
-|**Name**|**Descrição**|
+|**Nome**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -71,7 +71,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
   
 **Métricas do Relatório de Diagnóstico de Conferência**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Volume de sucesso** <br/> |Não  <br/> |Número total de conferências bem-sucedidas.  <br/> |
 |**Porcentagem de sucesso** <br/> |Não  <br/> |Percentual de conferências concluídas com problemas consideráveis. Calculado dividindo o volume de Sucesso pelo Total de sessões.  <br/> |

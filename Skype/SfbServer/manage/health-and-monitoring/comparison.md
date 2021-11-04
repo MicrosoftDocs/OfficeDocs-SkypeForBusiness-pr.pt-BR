@@ -1,7 +1,7 @@
 ---
 title: Relatório de Comparação de Qualidade de Mídia Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Resumo: saiba mais sobre o Relatório de Comparação de Qualidade de Mídia Skype for Business Server.'
-ms.openlocfilehash: 9d8c39cd2c416917b8e0cc4dd7d7d911f21ec70c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7814075c59428da25bcdaf4f0f18b0240d63360a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619807"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773601"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Relatório de Comparação de Qualidade de Mídia Skype for Business Server
  
@@ -35,7 +35,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
   
 **Filtros do Relatório de Comparação de Qualidade da Mídia**
 
-|**Name**|**Descrição**|
+|**Nome**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -49,7 +49,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Comparaçã
   
 **Métricas do Relatório de Comparação de Qualidade da Mídia**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas.  <br/> |
 |**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média de degradação de MOS (pontuação média de opinião) experimentado durante uma chamada. Os valores de degradação podem variar de um baixo de 0,0 a uma alta de 5,0; um valor de 0,5 ou menos representa degradação aceitável. Historicamente, as pontuações médias de opinião foram calculadas fazendo com que os usuários taxam a qualidade de uma chamada em uma escala de 1 a 5. Skype for Business Server usa um conjunto de algoritmos para prever como os usuários classificariam uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |

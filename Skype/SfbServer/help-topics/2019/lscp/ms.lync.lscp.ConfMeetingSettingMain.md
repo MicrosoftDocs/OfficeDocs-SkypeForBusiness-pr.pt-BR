@@ -1,7 +1,7 @@
 ---
 title: Configuração de Reunião
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: As configurações de reunião definem o tipo de conferências (também chamadas de reuniões) que os usuários podem criar e controlar como (ou se) usuários anônimos e usuários de conferência discada podem ingressar nessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Eles não se aplicam a reuniões ad hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: 86b8488028d8eb290fa6a7e41e6c14afc3fbac7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ed5a27acef99f05fe9bc0a5f2ba9bbb5300a15e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585275"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769519"
 ---
 # <a name="meeting-configuration"></a>Configuração de Reunião
 
