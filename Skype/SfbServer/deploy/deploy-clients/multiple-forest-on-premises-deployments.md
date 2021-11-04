@@ -1,6 +1,6 @@
 ---
 title: Skype Implantações locais de várias florestas do Sistema de Sala
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: Leia este tópico para saber como implantar o Skype Room System em um ambiente local de várias florestas.
-ms.openlocfilehash: 944042777174539b9b9f0a1d49754d9234a1d255
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 49885d1e64c40f161eb0fc07ec79187b5ea3bdb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609938"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761579"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Implantações locais de várias florestas do Sistema de Sala
  

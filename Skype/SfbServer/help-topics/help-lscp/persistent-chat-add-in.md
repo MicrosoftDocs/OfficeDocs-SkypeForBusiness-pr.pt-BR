@@ -1,7 +1,7 @@
 ---
 title: Suplemento de Chat Persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: Você pode usar a seção Adicionar da página Chat Persistente para associar URLs a salas de Chat Persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensibilidade da conversa. Um administrador deve adicionar Add-ins à lista de complementos registrados, e os gerentes/Criadores de salas de chat devem associar salas a um dos complementos registrados para que os usuários possam ver essa atualização em seu cliente.
-ms.openlocfilehash: 13190215a55b4f51eb3b6dc57cfe1044dd61d083
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 344568f1beeb9b3ecdf1b651879b4b278fe34b42
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630985"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764099"
 ---
 # <a name="persistent-chat-add-in"></a>Suplemento de Chat Persistente
 
@@ -62,4 +62,4 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
 ## <a name="see-also"></a>Confira também
 
-Para obter detalhes sobre recursos e recursos do Servidor de Chat Persistente, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015,](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)Deploy Persistent Chat Server in Skype for Business Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)e [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Para obter detalhes sobre recursos e recursos do Servidor de Chat Persistente, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), Deploy Persistent Chat Server in Skype for Business Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)e [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).

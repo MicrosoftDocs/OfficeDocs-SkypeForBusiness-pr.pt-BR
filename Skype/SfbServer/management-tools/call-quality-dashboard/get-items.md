@@ -1,7 +1,7 @@
 ---
 title: Obter os Itens
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: 'Resumo: saiba mais sobre a operação Obter Itens, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: da4c94102e70090a92f2789ef94718988c3d2b18
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f637068b59324af4d090983ccbbee5bf77ec02f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604790"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762289"
 ---
 # <a name="get-items"></a>Obter os Itens
  
@@ -32,7 +32,7 @@ Get Items retorna todos os Itens no repositório.
   
 |**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repositório/item  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repositório/item  <br/> |HTTP/1.1  <br/> |
    
  **Parâmetros URI** - Nenhum.
   

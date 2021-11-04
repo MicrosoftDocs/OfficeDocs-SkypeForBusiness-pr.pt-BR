@@ -1,7 +1,7 @@
 ---
 title: Crie sua topologia de borda para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Resumo: saiba como criar, publicar e exportar sua topologia do Servidor de Borda em Skype for Business Server.'
-ms.openlocfilehash: db5c4c2f9c68803d0e6823070c83c654df542035
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ff7c2e69c3ee18da5c798fbdf96719bd14146d45
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584345"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775801"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Crie sua topologia de borda para Skype for Business Server
  
@@ -41,7 +41,7 @@ Abrangemos os seguintes tópicos neste artigo:
   
 - RTCUniversalServerAdmins
     
-- Admins. do Domínio
+- Admins de domínio
     
 ## <a name="build-your-edge-server-topology"></a>Criar sua topologia do Servidor de Borda
 
@@ -256,7 +256,7 @@ Se você não tiver certeza do que precisa, antes de começar a seguir essas eta
     
 ## <a name="publish-your-edge-server-topology"></a>Publicar sua topologia do Servidor de Borda
 
-Depois de terminar as etapas acima, é hora de publicar essa nova topologia, que também permitirá que você exporte-a para seu servidor de borda ou pool de Borda Skype for Business Server de borda. Siga esses passos:
+Depois de terminar as etapas acima, é hora de publicar essa nova topologia, que também permitirá que você exporte-a para seu servidor de borda ou pool de Borda Skype for Business Server de borda. Siga estas etapas:
   
 1. Inicie **o Construtor de Topologias** (se ainda não tiver sido iniciado no procedimento anterior).
     

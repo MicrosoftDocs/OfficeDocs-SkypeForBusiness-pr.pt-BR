@@ -1,7 +1,7 @@
 ---
 title: Solicitação de Certificado (Autoridade de Certificação)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ao fazer uma solicitação de certificado para uma autoridade de certificação online (CA) (normalmente, são servidores que estão em sua rede interna) na página Escolher uma Autoridade de Certificação (CA), as duas opções a seguir são apresentadas:'
-ms.openlocfilehash: 96f601a26f64802e93d776438dfc92b50f3ae76a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e75651fe433e187621b0e424bf63d6f0ea93282
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591825"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761409"
 ---
 # <a name="certificate-request-certificate-authority"></a>Solicitação de Certificado (Autoridade de Certificação)
  

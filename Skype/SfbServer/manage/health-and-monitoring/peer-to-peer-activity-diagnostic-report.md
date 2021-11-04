@@ -1,7 +1,7 @@
 ---
 title: Relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico de Atividade Ponto a Ponto no Skype for Business Server.'
-ms.openlocfilehash: de0bbd43b12209cacac319952040afc526556db6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 703592939b5f90311a4b9da551a6ebfe28989c31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622283"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774831"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server
  
@@ -33,7 +33,7 @@ Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não 
   
 |**Sucessos**|**Falhas esperadas**|**Falhas inesperadas**|**Total de sessões**|
 |:-----|:-----|:-----|:-----|
-|2024  <br/> |469  <br/> |16   <br/> |2521  <br/> |
+|2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
 Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim a coluna Total de sessões mostrará um total de 2.521 sessões. As 12 sessões que "faltam" são sessões que o sistema não pode categorizar como bem-sucedida ou sem sucesso. Às vezes, esse será o caso quando um produto de terceiros introduz um novo código de diagnóstico que não é familiar para Skype for Business Server. Quando isso acontece, as chamadas feitas usando esse produto, e o relatório desse código de diagnóstico, não podem sempre ser categorizados como Sucesso, Falha esperada ou Falha inesperada.
   
@@ -57,7 +57,7 @@ A tabela a seguir lista os filtros que você pode utilizar com o Relatório de D
   
 **Filtros de Relatório de Diagnóstico de Atividade Ponto-a-Ponto**
 
-|**Name**|**Descrição**|
+|**Nome**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -71,7 +71,7 @@ A tabela a seguir lista as informações oferecidas no Relatório de Diagnóstic
   
 **Medidas (por modalidade)**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Volume de sucesso** <br/> |Não  <br/> |Número total de sessões ponto-a-ponto com êxito.  <br/> |
 |**Porcentagem de sucesso** <br/> |Não  <br/> |Porcentagem de sessões ponto-a-ponto completas com problemas significativos. Calculado dividindo o Volume de sucesso pelo Total de sessões.  <br/> |

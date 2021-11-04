@@ -1,7 +1,7 @@
 ---
 title: Salvar Informações de Caso de Teste de Roteamento de Voz
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: Você pode usar a caixa de diálogo Salvar Informações de Caso de Teste de Roteamento de Voz para salvar um caso de teste de roteamento de voz temporário. Em Salvar Informações do Caso de Teste de Roteamento de Voz, digite o nome que você deseja dar a esse caso de teste em Nome e clique em OK.
-ms.openlocfilehash: 4a00cd0f267d5cb1b7b284f912a8dccbcf12a419
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 073e3795fd483caf6f755d70ddeb6c13b49e4bcf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578995"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768919"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Salvar Informações de Caso de Teste de Roteamento de Voz
  

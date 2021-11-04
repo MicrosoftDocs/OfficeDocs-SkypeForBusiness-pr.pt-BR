@@ -1,7 +1,7 @@
 ---
 title: Adicionar FQDN do VIS
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server 2015.
-ms.openlocfilehash: 2269eb363141353bd7eef9a410f9a910cb7ddc7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 578c7b82e4eb10d8b848084a72fb902f0da26411
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602586"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768859"
 ---
 # <a name="add-vis-fqdn"></a>Adicionar FQDN do VIS
  

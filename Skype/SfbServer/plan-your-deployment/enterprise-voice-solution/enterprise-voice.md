@@ -1,7 +1,7 @@
 ---
 title: Planejar Enterprise Voice no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise Voice noções básicas de planejamento em Skype for Business Server, incluindo sites, regiões, links de rede entre sites e estimativa de tráfego de uso de voz.
-ms.openlocfilehash: bfd7d4b1491b83c6ad3ab65836777e805689c21f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60b762d2e9ef49d912dc00407d7b12d44ec334c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618807"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762139"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planejar Enterprise Voice no Skype for Business Server
  

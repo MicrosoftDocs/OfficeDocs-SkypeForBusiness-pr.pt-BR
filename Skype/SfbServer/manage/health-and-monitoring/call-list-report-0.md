@@ -1,7 +1,7 @@
 ---
 title: Relatório de Lista de Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Resumo: saiba mais sobre o Relatório de Lista de Chamada usado Skype for Business Server.'
-ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe1a638bda3c830a7593f4a9048f7c4fc178229
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599000"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762409"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Relatório de Lista de Skype for Business Server
  
@@ -67,7 +67,7 @@ Se você não consegue se lembrar do que algumas das métricas do Relatório de 
   
 ## <a name="filters"></a>Filtros
 
-Nenhum. Não é possível filtrar o Relatório de Lista de Chamada.
+Nenhuma. Não é possível filtrar o Relatório de Lista de Chamada.
   
 ## <a name="metrics"></a>Métrica
 
@@ -75,7 +75,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Lista de Ch
   
 **Métricas do Relatório de Lista de Chamada**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra informações adicionais sobre a chamada.  <br/> |
 |**Caller** <br/> |Sim  <br/> |Endereço SIP da pessoa que iniciou a chamada.  <br/> |

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artigo descreve as funcionalidades do Microsoft Teams disponíveis para convidados.
-ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c58e70896c14719e9aa0289ef0cf6d636393d09d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729610"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774571"
 ---
 # <a name="guest-experience-in-teams"></a>Experiência de convidado no Teams
 
@@ -110,3 +110,5 @@ A tabela a seguir mostra os recursos de chamada e reunião disponíveis para con
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Deixar uma organização como um convidado](/azure/active-directory/b2b/leave-the-organization)
+
+[Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização](communicate-with-users-from-other-organizations.md)

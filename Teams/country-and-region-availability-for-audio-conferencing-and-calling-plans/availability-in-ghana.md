@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade no Gana
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Gana.
-ms.openlocfilehash: 0e172189e4f9e80d1f81beadad9a0a24a6b2f26e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8829e2f1deb4be50b0600184674823a3b2b92c89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603590"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761789"
 ---
 # <a name="availability-in-ghana"></a>Disponibilidade no Gana
 

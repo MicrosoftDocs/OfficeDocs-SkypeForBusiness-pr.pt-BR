@@ -1,7 +1,7 @@
 ---
 title: Adicionar Repositório SQL
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir um novo SQL Store, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server , uma instância padrão ou uma instância nomeada, especifique o seguinte.
-ms.openlocfilehash: a20784ca216d8a1776605089a18e79a6d6f0f3c6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fee7fcd3a7d18f9bf6f3c8fe91c3c971c9cdcba0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597105"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769329"
 ---
 # <a name="add-sql-store"></a>Adicionar Repositório SQL
 

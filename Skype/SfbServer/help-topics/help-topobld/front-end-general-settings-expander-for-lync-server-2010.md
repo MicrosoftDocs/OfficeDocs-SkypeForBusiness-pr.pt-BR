@@ -1,7 +1,7 @@
 ---
 title: Expansor de Configurações Gerais de Front End para Lync Server 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Edite as propriedades do Servidor front-end ou pool de front-end editando ou configurando os atributos a seguir. A página de configuração é separada nas seguintes seções:'
-ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600126"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768769"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais de Front-end para Lync Server 2010
 
@@ -43,7 +43,7 @@ Edite as propriedades do Servidor front-end ou pool de front-end editando ou con
 
 - Se você selecionou Conferência, será possível selecionar **Conferência discada (PSTN)**. Marque a caixa de seleção para habilitar os recursos de conferência discada.
 
-- Marque a caixa de seleção Enterprise Voice se você pretende implantar recursos para habilitar o Lync Server 2013 a atuar como seu sistema de voz telefônica usando tecnologias voIP (voz sobre IP), incluindo **a** opção de implantar telefones de telefone de telefone, troncos SIP ou conectividade de rede telefônica pública comutado usando o Servidor de Mediação, Gateways PSTN e IP-PBX, em combinação ou sozinha, com base no design e nos requisitos. Para detalhes sobre Enterprise Voice, consulte [Enterprise Voice](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) [e Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Marque a caixa de seleção Enterprise Voice se você pretende implantar recursos para habilitar o Lync Server 2013 a atuar como seu sistema de voz telefônica usando tecnologias voIP (voz sobre IP), incluindo **a** opção de implantar telefones de handset, troncos SIP ou conectividade de rede telefônica pública comutado usando o Servidor de Mediação, Gateways PSTN e IP-PBX, em combinação ou sozinha,  com base no design e nos requisitos. Para detalhes sobre Enterprise Voice, consulte [Enterprise Voice](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) [e Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associações**
 

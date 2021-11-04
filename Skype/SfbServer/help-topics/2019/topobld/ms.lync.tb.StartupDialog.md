@@ -1,7 +1,7 @@
 ---
 title: Diálogo de Inicialização do Construtor de Topologia
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você inicia o Construtor de Topologias para configurar as propriedades e a configuração da sua implantação. Na inicialização, o Construtor de Topologia exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma de três opções:'
-ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c817a08bc55c9cca6a8989dcb636dcedfdb19388
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732340"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775261"
 ---
 # <a name="topology-builder-startup-dialog"></a>Diálogo de Inicialização do Construtor de Topologia
  

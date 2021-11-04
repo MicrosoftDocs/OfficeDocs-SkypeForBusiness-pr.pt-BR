@@ -1,6 +1,6 @@
 ---
 title: Planejar os clientes de Reuniões (Aplicativo Web e Aplicativo de Reuniões)
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: os profissionais de TI devem revisar os requisitos de suporte para o aplicativo de reuniões Skype for Business Web App e Skype durante o planejamento de Skype for Business Server. Este artigo não se destina aos usuários desses aplicativos.'
-ms.openlocfilehash: 29464c7dffbeee1a8ae6eed33764453bed948c58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608018"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762259"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planejar os clientes de Reuniões (Aplicativo Web e Aplicativo de Reuniões)
  
@@ -40,12 +40,12 @@ Posteriormente, esses usuários podem criar reuniões e convidar usuários de fo
   
 Por padrão, o servidor que hospeda a reunião direcionará o usuário para baixar e instalar Skype for Business Web App participar da reunião. O Skype for Business Web App é armazenado no Servidor Front-End e é enviado para o participante da reunião. 
   
-Para Skype for Business Server, o Skype Meetings App (no Windows) e o Skype for Business para Mac (no Mac) estão disponíveis como substituições para o Skype for Business Web App a partir do CU5, mas fornecer os aplicativos de substituição requer a configuração adicional descrita em Enable Skype Meetings App para substituir Skype for Business Web App [(Opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Se Skype o Skype for Business para Mac de reuniões estiver habilitado, os usuários baixarão a versão mais recente dos aplicativos do Microsoft 365 ou do Office 365 Rede de Distribuição de Conteúdo (CDN) em vez do servidor Skype for Business. Para Skype for Business Server 2019, usar o Skype Meetings App e Skype for Business para Mac é a única opção.
+Para Skype for Business Server, o Skype Meetings App (no Windows) e o Skype for Business para Mac (no Mac) estão disponíveis como substituições para o Skype for Business Web App começando com o CU5, mas fornecendo os aplicativos de substituição requer a configuração adicional descrita em [Enable Skype Meetings App para substituir Skype for Business Web App (Opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Se Skype de reuniões e Skype for Business para Mac estão habilitados, os usuários baixarão a versão mais recente dos aplicativos do Microsoft 365 ou Office 365 Rede de Distribuição de Conteúdo (CDN) em vez de de seu Skype for Business servidor. Para Skype for Business Server 2019, usar o Skype Meetings App e Skype for Business para Mac é a única opção.
   
 Skype O Aplicativo reuniões oferece uma experiência de navegador simplificada para baixar e instalar o aplicativo e participar de reuniões, incluindo a junção de um clique para usuários do Internet Explorer. Skype O Aplicativo reuniões também tem muitas melhorias sobre o Skype for Business Web App para confiabilidade e experiência de reunião. 
   
 > [!NOTE]
-> A partir do Skype for Business Server 2015 CU5 ou posterior, as reuniões realizadas usando o Skype for Business Online não enviarão mais a um usuário sem cliente o Skype for Business Web App, em vez disso, serão enviadas Skype Meetings App (no Windows) ou Skype for Business para Mac (no Mac). A partir de Skype for Business Server 2015 CU5 ou posterior, se você habilitar o aplicativo de reuniões do Skype para substituir o [Skype for Business Web App (Opcional),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)os usuários sem cliente serão enviados Skype Aplicativo de Reuniões ou Skype for Business para Mac em vez de Skype for Business Web App. 
+> A partir do Skype for Business Server 2015 CU5 ou posterior, as reuniões realizadas usando o Skype for Business Online não enviarão mais a um usuário sem cliente o Skype for Business Web App, em vez disso, serão enviadas Skype Meetings App (no Windows) ou Skype for Business para Mac (no Mac). A partir do Skype for Business Server 2015 CU5 ou posterior, se você habilitar o aplicativo de reuniões do Skype para substituir o [Skype for Business Web App (Opcional),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)os usuários sem cliente serão enviados Skype Aplicativo de Reuniões ou Skype for Business para Mac em vez de Skype for Business Web App. 
   
 ## <a name="software-requirements"></a>Requisitos de software
 <a name="OS-Browser"> </a>

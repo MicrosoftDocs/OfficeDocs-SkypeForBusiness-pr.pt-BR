@@ -1,7 +1,7 @@
 ---
 title: Adicionar Repositório de Servidor SQL para Servidor de Arquivamento
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
-description: O Servidor de Arquivamento requer uma edição de 64 bits suportada do software SQL Server banco de dados para armazenar os dados de arquivo morto. Você pode selecionar um banco de dados de SQL Server definido anteriormente para ser usado para arquivamento ou definir um novo banco de dados SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados SQL Server irá residir e a instância do SQL Server que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
-ms.openlocfilehash: b192bc1663585c3edd62dad758498e7b40ffd21c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: O Servidor de Arquivamento requer uma edição de 64 bits suportada do software SQL Server banco de dados para armazenar os dados de arquivo morto. Você pode selecionar um banco de dados de SQL Server definido anteriormente para ser usado para arquivamento ou definir um novo banco de dados SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados SQL Server irá residir e a instância do SQL Server que você deseja usar para o novo datab SQL Server do SQL Server ase (que pode ser a instância padrão ou uma instância nomeada que você especificar).
+ms.openlocfilehash: 11ca3b8a83d565064e573ae8a080f896f846175a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609658"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775461"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>Adicionar Repositório do SQL Server para Servidor de Arquivamento
 
-O Servidor de Arquivamento requer uma edição de 64 bits suportada do software SQL Server banco de dados para armazenar os dados de arquivo morto. Você pode selecionar um banco de dados de SQL Server definido anteriormente para ser usado para arquivamento ou definir um novo banco de dados SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados SQL Server irá residir e a instância do SQL Server que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
+O Servidor de Arquivamento requer uma edição de 64 bits suportada do software SQL Server banco de dados para armazenar os dados de arquivo morto. Você pode selecionar um banco de dados de SQL Server definido anteriormente para ser usado para arquivamento ou definir um novo banco de dados SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados SQL Server irá residir e a instância do SQL Server que você deseja usar para o novo datab SQL Server do SQL Server ase (que pode ser a instância padrão ou uma instância nomeada que você especificar).
 
 > [!NOTE]
 > Se a conta usada para publicar a topologia tiver os direitos de usuário e permissões apropriadas, será possível criar o banco de dados de arquivamento (LcsLog) ao publicar sua topologia. Também é possível criar o banco de dados posteriormente, como parte do procedimento de instalação, ou de outra forma.

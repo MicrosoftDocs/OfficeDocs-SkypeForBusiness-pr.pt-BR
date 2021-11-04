@@ -1,7 +1,7 @@
 ---
 title: Escopo do Gateway de Vídeo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server.
-ms.openlocfilehash: f36bcc1fc816cadcbb22e7c0f95f68f5398e45ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6e39e03eb360437d3a72c2aa57edaf1853b6c770
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633175"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769139"
 ---
 # <a name="video-gateway-scope"></a>Escopo do Gateway de Vídeo
  

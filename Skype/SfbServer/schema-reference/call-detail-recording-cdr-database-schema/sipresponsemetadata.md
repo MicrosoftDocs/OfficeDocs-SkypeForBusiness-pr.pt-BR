@@ -1,7 +1,7 @@
 ---
 title: Tabela SIPResponseMetaData
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cf723737-4a75-4352-829b-f4954aa59716
 description: O SIPResponseMetaDataTable contém uma lista de códigos de resposta SIP e a classificação e definição de cada um destes códigos. Estes códigos são gerados em resposta aos eventos que afetam dispositivos SIP e sessões de comunicação SIP. Por exemplo, o código de resposta 403 é gerado quando um dispositivo SIP faz uma solicitação, mas o servidor declina esta solicitação.
-ms.openlocfilehash: 9fb5921b2ff0c371dc8771ce8627bdae23f651dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b0da53bded9f748643514a8235991d1124762ff9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630345"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761959"
 ---
 # <a name="sipresponsemetadata-table"></a>Tabela SIPResponseMetaData
  
@@ -26,7 +26,7 @@ O SIPResponseMetaDataTable contém uma lista de códigos de resposta SIP e a cla
   
 Esta tabela foi introduzida no Skype for Business Server 2015.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ResponseCode** <br/> |int  <br/> |Primário  <br/> |Valor numérico que representa o código de resposta SIP.  <br/> |
 |**Classe** <br/> |int  <br/> || Classificação geral do código de resposta. As classificações incluem: <br/>  1 - Respostas informacionais <br/>  2 - Respostas bem-sucedidas <br/>  3 - Respostas de redirecionamento <br/>  4 - Respostas de falha do cliente <br/>  5 - Respostas de falha do servidor <br/>  6 - Resposta de Falha Global <br/> |

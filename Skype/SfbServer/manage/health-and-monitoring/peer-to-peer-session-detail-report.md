@@ -1,7 +1,7 @@
 ---
 title: Relatório de detalhes de sessão ponto a ponto no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 'Resumo: saiba mais sobre o Relatório de Detalhes de Sessão Ponto a Ponto no Skype for Business Server.'
-ms.openlocfilehash: 014851a7c070a11366ec54682b9f94d999ac73de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6ca45f05c3ee8346c6c6cac5bf5a1845be2d3a20
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591165"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774801"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Relatório de detalhes de sessão ponto a ponto no Skype for Business Server
  
@@ -61,7 +61,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
   
 **Métricas de informações da sessão**
 
-|**Name**|**Descrição**|
+|**Nome**|**Descrição**|
 |:-----|:-----|
 |**FQDN do pool** <br/> |Nome de domínio totalmente qualificado (FQDN) do pool de Registradores ou Servidor de Borda envolvido na sessão.  <br/> |
 |**Hora do convite** <br/> |Data e hora em que o convite de sessão foi originalmente enviado.  <br/> |
@@ -88,7 +88,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
   
 **Métricas para modalidades**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Modalidades** <br/> |Não  <br/> |Modalidades usadas na sessão. Por exemplo, mensagens instantâneas ou transferência de arquivo.  <br/> |
 |**Mensagens do usuário de origem** <br/> |Não  <br/> |Número de mensagens enviadas pelo usuário que iniciou a sessão.  <br/> |
@@ -100,7 +100,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
   
 **Métricas para relatórios de diagnóstico**
 
-|**Name**|**É possível classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Ver os detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório de Diagnóstico da sessão.  <br/> |
 |**Hora do relatório** <br/> |Não  <br/> |Data e hora em que o relatório foi gravado.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Configurações de rede para os recursos de Enterprise Voice avançados no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Saiba mais sobre regiões de rede, sites de rede e sub-redes IP. Todos eles devem ser configurados para implantar Plan for media bypass em Skype for Business, Plan for call admission control in Skype for Business Server) ou Plan for emergency services in Skype for Business Server in Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607998"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762109"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configurações de rede para os recursos de Enterprise Voice avançados no Skype for Business Server
 
 Saiba mais sobre regiões de rede, sites de rede e sub-redes IP. Todos eles devem ser configurados para implantar o [Plan for media bypass no Skype for Business](media-bypass.md), Planejar o controle de admissão de chamada no [Skype for Business Server](call-admission-control.md)ou Planejar serviços de emergência no [Skype for Business Server](emergency-services.md) em Skype for Business Server Enterprise Voice.
 
-Skype for Business Server tem três recursos avançados de Enterprise Voice: Planejar o controle de admissão de chamada no [Skype for Business Server,](call-admission-control.md)Planejar serviços de emergência no [Skype for Business Server](emergency-services.md)e Planejar bypass de mídia em [Skype for Business](media-bypass.md). Esses recursos compartilham determinados requisitos de configuração para regiões de rede, sites de rede e associação de cada sub-rede na topologia Skype for Business Server com um site de rede.
+Skype for Business Server tem três recursos avançados de Enterprise Voice: Planejar o controle de admissão de chamada no [Skype for Business Server,](call-admission-control.md)Planejar serviços de emergência no [Skype for Business Server](emergency-services.md)e Planejar mídia [ bypass em Skype for Business](media-bypass.md). Esses recursos compartilham determinados requisitos de configuração para regiões de rede, sites de rede e associação de cada sub-rede na topologia Skype for Business Server com um site de rede.
 
 Este tópico fornece uma visão geral dos requisitos de configuração que são comuns a todos os três desses recursos Enterprise Voice avançados.
 

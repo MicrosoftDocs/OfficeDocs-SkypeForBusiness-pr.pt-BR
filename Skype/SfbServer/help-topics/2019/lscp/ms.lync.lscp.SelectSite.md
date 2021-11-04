@@ -1,7 +1,7 @@
 ---
 title: Selecionar um Site
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar um Site para encontrar sites disponíveis em seu ambiente. Para usar um site existente, escolha um site na lista e clique em OK.
-ms.openlocfilehash: 4579d65fa0b46a014513a80aecc0884c5217dcb1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 35d2042eb11f0171c8f982f0255708b886ce7e7a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584305"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775591"
 ---
 # <a name="select-a-site"></a>Selecionar um Site
 

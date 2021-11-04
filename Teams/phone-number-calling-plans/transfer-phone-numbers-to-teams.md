@@ -1,7 +1,7 @@
 ---
 title: Transferir números de telefone para Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar o assistente de portação para transferir seu número de telefone do provedor de serviços atual para Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733072"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761739"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de telefone para Microsoft Teams
 

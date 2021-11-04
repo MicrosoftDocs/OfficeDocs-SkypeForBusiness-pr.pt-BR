@@ -1,7 +1,7 @@
 ---
 title: Obter os Membros da Dimensão
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Resumo: saiba mais sobre a operação Obter Membros da Dimensão. A operação Obter Membros da Dimensão faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 701a44d8d226b7953938b9a07883ff556ecbd7ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aaeadf46a2a281669109f960fe8d2532256e9021
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629593"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774651"
 ---
 # <a name="get-dimension-members"></a>Obter os Membros da Dimensão
  

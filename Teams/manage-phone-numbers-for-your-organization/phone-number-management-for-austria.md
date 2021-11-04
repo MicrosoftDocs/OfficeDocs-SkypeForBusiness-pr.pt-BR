@@ -1,7 +1,7 @@
 ---
 title: Telefone gerenciamento de números para a Áustria
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Áustria para Microsoft Teams.
-ms.openlocfilehash: 411ec652189a9e6040731b9f5b21136fa44530c9
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 6abf2814f37708e8ec13e071c34ab4f1c901f7c3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732842"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761759"
 ---
 # <a name="phone-number-management-for-austria"></a>Telefone gerenciamento de números para a Áustria
 

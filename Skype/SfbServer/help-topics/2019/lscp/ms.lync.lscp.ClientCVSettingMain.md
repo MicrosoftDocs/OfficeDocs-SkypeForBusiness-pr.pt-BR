@@ -1,7 +1,7 @@
 ---
 title: Configuração de Versão de Cliente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Além de especificar a versão dos clientes que você deseja suportar em seu ambiente, também é possível especificar uma ação padrão para clientes ainda não têm uma política de versão definida. Isso permite que você restrinja quais versões de cliente são usadas em seu ambiente, o que pode ajudá-lo a controlar os custos associados ao suporte de múltiplas versões de cliente.
-ms.openlocfilehash: e60e9a0225da3dbb2379f31eba3043a00c4e9144
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57a999b9300947fc74091852f0729aea91739eae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592775"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761399"
 ---
 # <a name="client-version-configuration"></a>Configuração da Versão de Cliente
 

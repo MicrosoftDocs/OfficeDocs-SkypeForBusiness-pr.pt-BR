@@ -1,7 +1,7 @@
 ---
 title: Solicitação de Certificado (Introdução)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 description: Para continuar com o processo de solicitação de certificado, clique em Avançar. Para sair do processo sem fazer alterações no sistema, clique em Cancelar.
-ms.openlocfilehash: fa333d5da9fd9397601b3485e9bb829cf46688a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 106f5646876030785ab3b9d46321fc2a69619175
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622613"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769089"
 ---
 # <a name="certificate-request-intro"></a>Solicitação de Certificado (Introdução)
  

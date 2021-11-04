@@ -1,7 +1,7 @@
 ---
 title: Compartilhamento de tela baseado em vídeo do Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/20/2018
 manager: serdars
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Server de planejamento e configuração para vbSS (compartilhamento de tela baseado em vídeo)
-ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2921330887b4e52aee5069d2bd1f97992a015ba9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591125"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762329"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Compartilhamento de tela baseado em vídeo do Skype for Business Server 
  
@@ -68,7 +68,7 @@ Se a QoS estiver habilitada para as seguintes portas de mídia e o VbSS também 
   
 **Configurações necessárias do QoS/VbSS do Application Server**
 
-|**Property**|**Valor da porta**|**Protocolo**|
+|**Propriedade**|**Valor da porta**|**Protocolo**|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
@@ -105,7 +105,7 @@ Os números nesta tabela são influenciados por redes individuais e pelo conteú
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200kbps  <br/> |12 mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
-|Vídeos  <br/> |5 mbps  <br/> |7mbps  <br/> |1,3mbps  <br/> |2,2mbps  <br/> |
+|Vídeo  <br/> |5 mbps  <br/> |7mbps  <br/> |1,3mbps  <br/> |2,2mbps  <br/> |
    
 ### <a name="network-bandwidth-requirements-for-media-traffic"></a>Requisitos de largura de banda de rede para tráfego de mídia
 

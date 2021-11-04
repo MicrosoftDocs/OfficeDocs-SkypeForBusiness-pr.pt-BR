@@ -1,7 +1,7 @@
 ---
 title: Habilitar o Estacionamento de Chamada para usuários Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Habilitar usuários para Estacionamento de Chamada Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: bb83631b86171ad113a1009c5efc927b754411ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 262821cfef675c3af631cacd38f0cca4f2195fe7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585673"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775781"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar o Estacionamento de Chamada para usuários Skype for Business
  
@@ -53,7 +53,7 @@ Você pode habilitar o Estacionamento de Chamada no escopo global ou no escopo d
     
 2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
     
-3. Execute:  
+3. Execute .
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true

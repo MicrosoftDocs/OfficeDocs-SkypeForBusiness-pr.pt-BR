@@ -1,7 +1,7 @@
 ---
 title: Planejar grandes reuniões em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumo: leia este tópico para saber mais sobre as práticas recomendadas para implementar e gerenciar grandes reuniões em Skype for Business Server.'
-ms.openlocfilehash: 109bfef5dd86821cdb8ec8e372f26f3edd062983
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1196c1d5b2ff4fe6456d03f698b80589ef428b24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582605"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762219"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planejar grandes reuniões em Skype for Business Server
  

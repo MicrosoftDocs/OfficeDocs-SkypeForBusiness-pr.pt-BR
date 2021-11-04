@@ -1,7 +1,7 @@
 ---
 title: Perguntas frequentes sobre governança do Microsoft Education para administradores
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9739b33f061f06420dfc194aaa12a12162adf808
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e9af313bc24919f96008d7f1ff5bf7383df3260
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579605"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774441"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Perguntas frequentes sobre governança do Microsoft Education para administradores
 
@@ -61,7 +61,7 @@ Se você tem certeza de que deseja controlar quem pode criar equipes, consulte [
 
 No início de cada semestre ou trimestre, você precisará de várias novas equipes. Pode fazer sentido tomar uma abordagem automatizada para criar essas equipes automaticamente, preencher-as com os usuários certos e definir as permissões certas:
 
--   School Data Sync pode criar grupos Microsoft 365 para Exchange Online e SharePoint Online, equipes de classe para blocos de anotações de classe do Microsoft Teams e do OneNote, grupos escolares para o Intune para Educação e integração de lista e SSO (SSO) para muitos outros aplicativos de terceiros. Saiba mais em [Visão geral do School Data Sync](/schooldatasync/overview-of-school-data-sync).
+-   School Data Sync pode criar grupos Microsoft 365 para Exchange Online e SharePoint Online, equipes de classe para blocos de anotações de classe Microsoft Teams e OneNote, grupos escolares para o Intune para Educação e lista e SSO (SSO) ) integração para muitos outros aplicativos de terceiros. Saiba mais em [Visão geral do School Data Sync](/schooldatasync/overview-of-school-data-sync).
 -   Com o PowerShell, você pode criar equipes e canais e configurar configurações automaticamente. Consulte [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
 -   Você pode usar a API do Microsoft Graph (atualmente na versão beta) para criar, configurar, clonar e arquivar equipes. Consulte [Usar a API Graph Microsoft para trabalhar com Microsoft Teams](/graph/api/resources/teams-api-overview) para obter mais informações.
 
