@@ -1,7 +1,7 @@
 ---
 title: Adicionar Pool de Diretor
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: Para  Definir o FQDN do Pool de Diretores, selecione um  Pool de vários computadores , formado por dois ou mais Diretores em um pool com carga balanceada, ou um  Pool com um único computador . Você também deve digitar o FQDN (nome de domínio totalmente qualificado) que será usado para se conectar ao pool de Diretores ou ao FQDN do diretor único. Para um pool de computadores Diretores, essa seria a entrada de DNS (Sistema de Nomes de Domínio) do IP virtual de um balanceador de carga de hardware ou a entrada de DNS compartilhada para balanceamento de carga de DNS.
-ms.openlocfilehash: f0bf00d6a42291e98d46fa10000437b2e364d6c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b230af6da85415df4078e9505cc57b9cdb7d2bc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610798"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762749"
 ---
 # <a name="add-director-pool"></a>Adicionar Pool de Diretor
  

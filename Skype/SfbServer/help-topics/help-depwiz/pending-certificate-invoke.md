@@ -1,7 +1,7 @@
 ---
 title: Certificado Pendente (Invocar)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: A pagina Comandos em Execução exibe o status dos comandos que estão recuperando o certificado pendente. Quando a tarefa é concluída, o arquivo de log de Recuperar Certificados Pendentes torna-se disponível. Clique em Exibir Log para examinar o status de processamento e de conclusão das tarefas. Clique em Avançar  para continuar.
-ms.openlocfilehash: aa78fc7e783753f135929493583ce5932b988c71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab5ffd29cecc206b0723b5e8daf69a5ffe628165
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601586"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739647"
 ---
 # <a name="pending-certificate-invoke"></a>Certificado Pendente (Invocar)
  

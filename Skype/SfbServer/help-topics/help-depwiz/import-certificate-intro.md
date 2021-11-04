@@ -1,7 +1,7 @@
 ---
 title: Importar Certificado (Introdução)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: Para importar um certificado, forneça um caminho para o arquivo de certificado. Na caixa de texto Selecionar Arquivo de certificado, digite o caminho completo e o nome do arquivo, ou clique no botão Procurar e navegue até o local do caminho e o nome do arquivo (normalmente, um arquivo .p7b, .pfx ou .cer).
-ms.openlocfilehash: 00e578b51f54e9c5866f7b05f14590fc95411795
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a42ce2d2cbbf06242bf3bb980464bc314ec99210
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612610"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744827"
 ---
 # <a name="import-certificate-intro"></a>Importar Certificado (Introdução)
  

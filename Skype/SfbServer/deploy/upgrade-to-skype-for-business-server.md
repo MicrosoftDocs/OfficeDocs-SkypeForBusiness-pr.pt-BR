@@ -1,7 +1,7 @@
 ---
 title: Atualizar para Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2016
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Resumo: saiba como atualizar do Lync Server 2013 para o Skype for Business Server 2015. Baixe uma avaliação gratuita do Skype for Business Server 2015 no Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 14fe3926fbf3cb6ffcee368227fcaf5ead9ec0c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02455d4c013f55363e173f16c9f4de60b71939d9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590545"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740077"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Atualizar para Skype for Business Server 2015
  
@@ -182,7 +182,7 @@ Recomendamos o uso Disable-CsComputer porque talvez seja necessário reiniciar o
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Etapa 5: Atualizar pools de front-end e servidores de pool não front-end
 
 > [!NOTE]
->  Antes de atualizar, instale todos os novos pré-requisitos necessários para o Skype for Business Server 2015, que incluem:> Pelo menos 32 GB de espaço livre antes de tentar uma atualização. Além disso, certifique-se de que a unidade é uma unidade local fixa, não está conectada por USB ou Firewire, é formatado com o sistema de arquivos NTFS, não é compactado e não contém um arquivo de página.> PowerShell versão 6.2.92 00.0 ou posterior.> A atualização cumulativa mais recente do Lync Server 2013 instalada.> SQL Server 2012 SP1 instalada.> O KB a seguir instalado (instalado automaticamente se estiver usando o Microsoft Update):> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Antes de atualizar, instale todos os novos pré-requisitos necessários para o Skype for Business Server 2015, que incluem:> Pelo menos 32 GB de espaço livre antes de tentar uma atualização. Além disso, certifique-se de que a unidade é uma unidade local fixa, não está conectada por USB ou Firewire, é formatado com o sistema de arquivos NTFS, não é compactado e não contém um arquivo de página.> PowerShell versão 6.2.9200.0 ou posterior.> A atualização cumulativa mais recente do Lync Server 2013 instalada.> SQL Server 2012 SP1 instalado.> O KB a seguir instalado (instalado automaticamente se estiver usando o Microsoft Update): > Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Use o In-Place Atualização em cada servidor para atualizar o pool de Front-End, Pool de Borda, Servidor de Mediação e o pool de Chat Persistente.
   

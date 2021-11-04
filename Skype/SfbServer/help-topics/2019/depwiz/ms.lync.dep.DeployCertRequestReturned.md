@@ -1,7 +1,7 @@
 ---
 title: Solicitação de Certificado (Retornado)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'A página Status da Solicitação de Certificado Online apresenta informações importantes sobre a criação e emissão bem-sucedida da solicitação de certificado online. Essa página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção Atribuir esse certificado Skype for Business Server usos de certificados está selecionado. Se você clicar em Concluir, o certificado será atribuído automaticamente ao Skype for Business Server para os fins que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, as finalidades as quais o certificado será atribuído são:'
-ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f92c95fa5d1588d7563791dca38da46c550048b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581775"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740047"
 ---
 # <a name="certificate-request-returned"></a>Solicitação de Certificado (Retornado)
  

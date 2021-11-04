@@ -1,7 +1,7 @@
 ---
 title: Visão geral do processo de implantação para integrar a Unificação de Mensagens e Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: 'Resumo: revise este tópico ao planejar a integração Skype for Business Server com Exchange 2013 ou 2016.'
-ms.openlocfilehash: 46c5544607fa3451d4fed524532fa1cd6bcac8f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c2b0d34324c9945bdd5e5e3ed3bfa7a04566883
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604700"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773471"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>Visão geral do processo de implantação para integrar a Unificação de Mensagens e Skype for Business
  
 **Resumo:** Revise este tópico ao planejar a integração Skype for Business Server com Exchange 2013 ou 2016.
   
- Se você deseja integrar Exchange Unificação de Mensagens (UM) com Skype for Business Server, execute as tarefas descritas neste tópico. Além disso, revise as práticas recomendadas de planejamento e implantação descritas em [Plan for Exchange Unified Messaging integration in Skype for Business](unified-messaging.md). Este tópico supõe que você implantou o Skype for Business Server com um Servidor de Mediação alocado e que você habilitar usuários para o Skype for Business Server, mas pode não ter executado todas as etapas de implantação e configuração para habilitar o Enterprise Voice, conforme descrito em [Deploy Enterprise Voice in Skype for Business Server na](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) documentação de Implantação.
+ Se você deseja integrar Exchange Unificação de Mensagens (UM) com Skype for Business Server, execute as tarefas descritas neste tópico. Além disso, revise as práticas recomendadas de planejamento e implantação descritas em [Plan for Exchange Unified Messaging integration in Skype for Business](unified-messaging.md). Este tópico supõe que você implantou o Skype for Business Server com um Servidor de Mediação alocado e que você habilitar usuários para o Skype for Business Server, mas pode não ter executado todas as etapas de implantação e configuração para habilitar o Enterprise Voice, conforme descrito em [Deploy Enterprise Voice na Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) na documentação de implantação.
  
 > [!NOTE]
 > Exchange A Unificação de Mensagens, como conhecida anteriormente, não está mais disponível no Skype for Business Server 2019, que usa o Sistema de Telefonia para gravar mensagens de caixa postal e, em seguida, deixar a gravação na caixa de correio Exchange do usuário. Consulte [Plan Caixa postal na Nuvem service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.

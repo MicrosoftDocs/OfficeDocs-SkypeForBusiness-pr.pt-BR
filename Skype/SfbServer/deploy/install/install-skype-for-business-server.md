@@ -1,7 +1,7 @@
 ---
 title: Instalar Skype for Business Server servidores na topologia
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Resumo: saiba como instalar os componentes Skype for Business Server do sistema em cada servidor na topologia. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 89c158243a0cc33faaa1a3b3181dfc1f39094d63
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bcf2645e6f33865da0f1ad6bbc985e581950693b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609858"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745297"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Instalar Skype for Business Server servidores na topologia
  

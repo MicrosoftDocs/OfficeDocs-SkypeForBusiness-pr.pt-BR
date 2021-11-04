@@ -1,7 +1,7 @@
 ---
 title: Adicionar Repositório de Arquivo Diretor
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 description: Você deve especificar um compartilhamento de arquivos a ser usado como o repositório de arquivos para Diretores. Você pode usar um compartilhamento de arquivos existente para o repositório de arquivos ou pode definir um novo especificando o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos no qual o compartilhamento de arquivos deve estar localizado e um nome de pasta para o novo compartilhamento de arquivos.
-ms.openlocfilehash: 5de21190637cbbac65d5cb7f4dc69f8a7591b962
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f8df1864b3645caa04c469e616d63970760c615e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600286"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762849"
 ---
 # <a name="add-director-file-store"></a>Adicionar Repositório de Arquivo Diretor
 

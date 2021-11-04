@@ -1,7 +1,7 @@
 ---
 title: Criar ou modificar um intervalo de órbitas do Estacionamento de Chamada Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Crie ou modifique uma tabela de intervalo de órbitas do Estacionamento de Chamada Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 8a283ee9fd63a9c034385821d397d54156da9ba9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3962ecf42e704b09f3f28451be667fe714ce4817
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581095"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745377"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Criar ou modificar um intervalo de órbitas do Estacionamento de Chamada Skype for Business
 

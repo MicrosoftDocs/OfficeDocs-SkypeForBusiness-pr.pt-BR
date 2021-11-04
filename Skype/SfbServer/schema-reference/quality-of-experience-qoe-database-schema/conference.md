@@ -1,7 +1,7 @@
 ---
 title: Tabela de conferências
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
 description: A tabela de Conferência é uma tabela de suporte. Cada registro representa uma conferência ou sessão ponto a ponto.
-ms.openlocfilehash: 3da2ed90cbb55e44d4eb4ff4902898eed6099f2e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5129fec73658d86fdb8d5cd7dd5c387cdadf4f9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609148"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763209"
 ---
 # <a name="conference-table"></a>Tabela de conferências
  
 A tabela de Conferência é uma tabela de suporte. Cada registro representa uma conferência ou sessão ponto a ponto.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceKey** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica o registro desta conferência.  <br/> |
 |**ConfURI** <br/> |nvarchar(450)  <br/> |unique  <br/> |URI da conferência, se isso for uma conferência, ou DialogID se for uma sessão ponto a ponto.  <br/> |

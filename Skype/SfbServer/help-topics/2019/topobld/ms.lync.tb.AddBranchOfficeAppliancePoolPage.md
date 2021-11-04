@@ -1,7 +1,7 @@
 ---
 title: Adicionar Pool de Aparelho de Escritório Persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir o FQDN do Aparelho de Filial Desavivável, digite o FQDN (nome de domínio totalmente qualificado) (conforme definido no Dns)) do Aparelho de Filial Desavivável ou Servidor de Filial Suportável na caixa de texto FQDN. Clique em Avançar para continuar.
-ms.openlocfilehash: 55bf6232d35ffdf7505de9eb99d43f5a1a30faec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 76638c10146afab120c8d6c5563315e4383fdfa4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609608"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745107"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>Adicionar Pool de Aparelho de Escritório Persistente
  

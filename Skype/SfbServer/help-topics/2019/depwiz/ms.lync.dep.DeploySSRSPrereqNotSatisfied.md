@@ -1,7 +1,7 @@
 ---
 title: SQL Server Reporting Services (Pré-requisitos não atendidos)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b6be29df-b882-4ba8-ba40-8062eb3bb14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você verá esta página se não houver um Monitoring Server implantado na sua infraestrutura. Isso indica que os requisitos mínimos para a implantação de relatórios do Monitoring Server não foram atendidos.
-ms.openlocfilehash: 223fca9e8bd14f478e205d50caba239a6a2e8e93
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5ed5a84c5ac9b6da5b662f607ba3706d60ca2c97
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622873"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755202"
 ---
 # <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a>SQL Server Reporting Services (Pré-requisitos não atendidos)
 

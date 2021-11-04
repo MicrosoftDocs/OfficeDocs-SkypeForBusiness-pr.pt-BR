@@ -1,7 +1,7 @@
 ---
 title: Configurar o registro de detalhes de chamada e as configurações de Qualidade da Experiência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 'Resumo: saiba como configurar CDR e QoE em Skype for Business Server.'
-ms.openlocfilehash: 5e04ac3fcf269ba9520e874e123f165f2fd4269a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: abb6996a7483afb8526731ac69404174883ce313
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604230"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745317"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Configurar o registro de detalhes de chamada e as configurações de Qualidade da Experiência no Skype for Business Server
  
@@ -35,7 +35,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
 Ao instalar o Skype for Business Server, você também instalará uma coleção predefinida de configurações globais para CDR e QoE. Os valores padrão para algumas das configurações usados com mais frequência pelo Registro de Detalhes das Chamadas são exibidos na tabela a seguir:
   
-|**Property**|**Descrição**|**Valor padrão**|
+|**Propriedade**|**Descrição**|**Valor padrão**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |Indica se o CDR está habilitado ou não. Se for Verdadeiro, todos os registros de CDR serão coletados e gravados no banco de dados de monitoramento.  <br/> |Verdadeiro  <br/> |
 |EnablePurging  <br/> |Indica se os registros CDR serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pelas propriedades KeepCallDetailForDays (para registros CDR) e KeepErrorReportForDays (para erros de CDR). Se for Falso, os registros CDR serão mantidos indefinidamente.  <br/> |Verdadeiro  <br/> |
@@ -44,7 +44,7 @@ Ao instalar o Skype for Business Server, você também instalará uma coleção 
    
 Da mesma forma, os valores padrão para as configurações de QoE selecionadas são exibidas nesta tabela:
   
-|**Property**|**Descrição**|**Valor padrão**|
+|**Propriedade**|**Descrição**|**Valor padrão**|
 |:-----|:-----|:-----|
 |EnableQoE  <br/> |Indica se o monitoramento de QoE está habilitado ou não. Se for Verdadeiro, todos os registros de QoE serão coletados e gravados no banco de dados de monitoramento.  <br/> |Verdadeiro  <br/> |
 |EnablePurging  <br/> |Indica se os registros de QoE serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pela propriedade KeepQoEDataForDays. Se for Falso, os registros de QoE serão mantidos indefinidamente.  <br/> |Verdadeiro  <br/> |

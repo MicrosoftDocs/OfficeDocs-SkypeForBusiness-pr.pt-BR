@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade emNada
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Granada.
-ms.openlocfilehash: 2b4f2e642d0480b5fb8c2327ed2e2c5e594c554a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae51b5565bb30c597c23dbae6ea2c0a047eb0b57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590835"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769929"
 ---
 # <a name="availability-in-grenada"></a>Disponibilidade emNada
 

@@ -1,7 +1,7 @@
 ---
 title: Importar Certificado (Invocar)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 description: Na página Executando Comandos, revise as informações de resumo do certificado importado. Na lista suspensa, selecione o arquivo de log Importar Certificado. Certifique-se de que o arquivo de log Importar Certificado esteja visível na lista suspensa. Clique em Exibir Log para revisar os detalhes da importação do certificado. Após a conclusão da revisão do resumo e do arquivo de log, clique em Concluir.
-ms.openlocfilehash: 70248a410394ea6af9583ba473648a44cc399a0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e93e916124a04b07acfd55950bada9aa6c00e248
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590195"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758543"
 ---
 # <a name="import-certificate-invoke"></a>Importar Certificado (Invocar)
  

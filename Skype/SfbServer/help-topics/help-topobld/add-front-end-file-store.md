@@ -1,7 +1,7 @@
 ---
 title: Adicionar Repositório de Arquivo do Front End
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 description: É necessário especificar um compartilhamento de arquivo a ser usado como o repositório de arquivo para o servidor Standard Edition ou pool de Front-Ends Enterprise Edition. É possível usar um compartilhamento de arquivo existente para o repositório de arquivos, ou é possível especificar um novo compartilhamento de arquivo especificando o nome de domínio totalmente qualificado (FQDN) do servidor de arquivos no qual o compartilhamento de arquivo será localizado e um nome de pasta para o novo compartilhamento de arquivo.
-ms.openlocfilehash: cb5393c4867b6f21ac6a325eb9044889738e9142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2427c5c90fb60d5a0ddef0ca428d336406e15c03
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596705"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739447"
 ---
 # <a name="add-front-end-file-store"></a>Adicionar Repositório de Arquivo de Front-end
 

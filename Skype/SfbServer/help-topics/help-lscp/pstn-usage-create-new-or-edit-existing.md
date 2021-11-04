@@ -1,7 +1,7 @@
 ---
 title: Uso do PSTN Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: bb3ec6dc69f7230aa8d32b44bab9a2c20c4f61e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 98abdec1913b7d82fe78809b9ddf245cf47a0fb7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581545"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744607"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>Uso PSTN: Criar Novo ou Editar Existente
 

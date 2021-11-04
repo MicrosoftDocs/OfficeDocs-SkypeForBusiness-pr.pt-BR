@@ -1,7 +1,7 @@
 ---
 title: Exibição do usuário
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: A exibição de Usuário armazena informações sobre usuários envolvidos em chamadas ou sessões com registros no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 59b7371336ec900d6474016bb366407d4ffb7c14
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6508bac1b40ca88429cc0504982ed9d2464ee5d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616377"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777731"
 ---
 # <a name="user-view"></a>Exibição do usuário
  
 A exibição de Usuário armazena informações sobre usuários envolvidos em chamadas ou sessões com registros no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
-|**Coluna**|**Tipo de dados**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |UserId  <br/> |int  <br/> |Número exclusivo que identifica este usuário.  <br/> |
 |UserUri  <br/> |nvarchar(450)  <br/> |Uri do usuário.  <br/> |

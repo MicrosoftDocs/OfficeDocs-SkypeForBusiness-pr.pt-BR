@@ -1,7 +1,7 @@
 ---
 title: Selecionar Fila de Estouro
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: Use a caixa de diálogo Selecionar uma fila de estouro para selecionar uma fila na qual as chamadas são encaminhadas quando uma fila do grupo de resposta está cheia.
-ms.openlocfilehash: 802383be1c5a16168b0f5554d652b9de0a839cb4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e669e37fbd607f848c18bed059b95ec622113186
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619017"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739507"
 ---
 # <a name="select-overflow-queue"></a>Selecionar Fila de Estouro
  

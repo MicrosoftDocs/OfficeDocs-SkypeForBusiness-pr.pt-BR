@@ -1,7 +1,7 @@
 ---
 title: Tabela FocusJoinsAndLeaves no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: Cada registro nesta tabela contém as informações de CDR sobre a junção de um usuário e deixar informações para uma conferência. Cada conferência é representada nesta tabela por um registro para cada vez que um usuário entra e sai da conferência.
-ms.openlocfilehash: 80f4d9f93b840b4c76e28c295356ebd85cc88979
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca5ba1776478566c57d8e5992b86db2dd300613b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632665"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777781"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>Tabela FocusJoinsAndLeaves no Skype for Business Server 2015
  
 Cada registro nesta tabela contém as informações de CDR sobre a junção de um usuário e deixar informações para uma conferência. Cada conferência é representada nesta tabela por um registro para cada vez que um usuário entra e sai da conferência.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primário, externo  <br/> |Hora da instância da conferência. Usado em conjunto com **SessionIdSeq** para identificar exclusivamente uma instância de conferência. Consulte a [tabela Conferências no Skype for Business Server 2015](conferences.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primário, externo  <br/> |Número de ID para identificar a instância da conferência. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma instância de conferência. Consulte a [tabela Conferências no Skype for Business Server 2015](conferences.md) para obter mais informações. <br/> |

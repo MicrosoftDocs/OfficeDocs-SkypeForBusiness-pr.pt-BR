@@ -1,7 +1,7 @@
 ---
 title: Tabela DeRegisterType no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
 description: A tabela DeRegisterType é uma tabela estática que armazena a lista de possíveis tipos de registro de usuários, como 'iniciado pelo cliente', 'registro expirado' ou 'cliente parou de responder'.
-ms.openlocfilehash: 93d06117974377b6df489f376aedf4ad88235fa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f369416a15f0b1c024dd70fbe97042193940f669
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599876"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743987"
 ---
 # <a name="deregistertype-table-in-skype-for-business-server-2015"></a>Tabela DeRegisterType no Skype for Business Server 2015
  
 A tabela DeRegisterType é uma tabela estática que armazena a lista de possíveis tipos de registro de usuários, como 'iniciado pelo cliente', 'registro expirado' ou 'cliente parou de responder'.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**DeRegisterTypeId** <br/> |tinyint  <br/> |Primário  <br/> ||
 |**DeRegisterReason** <br/> |nvarchar(256)  <br/> || Valores permitidos: <br/>  0 -- Desconhecido <br/>  Iniciado o cancelamento do registro pelo cliente <br/>  2 -- Registro expirado <br/>  3 - Cliente que caiu <br/>  Atributos do usuário mudaram <br/>  5 - Registrador Preferencial Alterado <br/>  6 -- Cliente herdado em Modo de sobrevivência <br/> |

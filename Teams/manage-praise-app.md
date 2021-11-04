@@ -1,7 +1,7 @@
 ---
 title: Gerenciar o Elogio aplicativo no Teams de administração
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
 audience: admin
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Saiba mais sobre as configurações de administrador no aplicativo Elogio no centro de administração Microsoft Teams local
-ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733410"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763049"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o Elogio no centro Microsoft Teams administrador
 
@@ -97,8 +97,8 @@ Abaixo está uma lista de cores de exemplo para começar:
 |![cor hexaxa #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
 |![cor hexaxa #FF75F0.](media/hexColor3.png)|  #FF75F0   |
 |![cor hexaxa #00BFFF.](media/hexColor4.png)|  #00BFFF   |
-|![cor hexaxa #800080.](media/hexColor5.png)|  #800080   |
-|![cor hexaxa #000000.](media/hexColor6.png)|  #000000   |
+|![cor hexaxaxa #800080.](media/hexColor5.png)|  #800080   |
+|![hex color #000000.](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 

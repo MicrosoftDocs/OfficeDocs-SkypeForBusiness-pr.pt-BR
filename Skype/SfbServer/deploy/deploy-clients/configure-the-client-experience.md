@@ -1,7 +1,7 @@
 ---
 title: Configurar a experiência do cliente com Skype for Business 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Resumo: leia este tópico para saber como configurar a experiência do cliente para Skype for Business usuários.'
-ms.openlocfilehash: 61bb5e83378215561be2e073883b2e573d141000
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f7cbbe60de10d50d231faa201f3c8830c14f7450
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581825"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773381"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar a experiência do cliente com Skype for Business 2015
  
@@ -183,7 +183,7 @@ O procedimento a seguir descreve como modificar o Registro para que a experiênc
     
    |**Field**|**Valor para selecionar ou inserir**|
    |:-----|:-----|
-   |**Ação** <br/> |**Create** <br/> |
+   |**Action** <br/> |**Criar** <br/> |
    |**Hive** <br/> | HKEY_CURRENT_USER <br/> |
    |**Caminho da chave** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**Value name** <br/> |EnableSkypeUI  <br/> |

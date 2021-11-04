@@ -1,7 +1,7 @@
 ---
 title: Tabela caixas de diálogo no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: A tabela Dialogs é uma tabela de suporte que armazena as informações sobre DialogIDs para sessões ponto a ponto.
-ms.openlocfilehash: 6f5abd6326ca1f00a631462c43c8814fb3822f41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9aaf2691e3869830e2ccc605475d856517d1fe8b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580425"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743957"
 ---
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>Tabela caixas de diálogo no Skype for Business Server 2015
  
 A tabela Dialogs é uma tabela de suporte que armazena as informações sobre DialogIDs para sessões ponto a ponto.
   
-|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primário  <br/> |Hora da solicitação de sessão; usado em conjunto com SessionIDSeq para identificar exclusivamente uma sessão.  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primário  <br/> |O número de ID para identificar a sessão. Usado em conjunto com SessionIDTime para identificar exclusivamente uma sessão.  <br/> |
