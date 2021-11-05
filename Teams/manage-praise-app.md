@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Saiba mais sobre as configurações de administrador no aplicativo Elogio no centro de administração Microsoft Teams local
-ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
+ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763049"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60793449"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o Elogio no centro Microsoft Teams administrador
 
@@ -28,7 +28,7 @@ Os administradores podem controlar quais selos estão disponíveis para sua orga
 ![Captura de tela Configurações guia para o Elogio app.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> O Elogio de aplicativo não está disponível para nuvens do governo dos EUA.
+> O Elogio app está disponível para GCC de nuvem, mas não para o GCC High ou DoD.
 
 ## <a name="use-built-in-badge-sets"></a>Usar conjuntos de selos integrados
 
