@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Saiba mais sobre os Microsoft Teams de voz na nuvem e as decisões de implantação que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb6796dff27cf078c2f8f1d2d2f1ffc00fddc5e0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dba035c7bcbc6f94e8c4e7573f7dc6c4bc0e06c3
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730510"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824680"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planejar sua solução Teams voz 
 
@@ -48,7 +48,7 @@ Se você responder sim ao seguinte, Sistema de Telefonia com Plano de Chamada é
 No entanto, sua situação pode ser mais complexa. Por exemplo, você pode ter escritórios em locais onde o Plano de Chamada não está disponível. Ou você pode precisar de uma solução de combinação que suporte uma implantação complexa e multi-nacional, com requisitos diferentes para locais geográficos diferentes. A Microsoft oferece suporte a uma combinação de soluções: 
 
 - Sistema de Telefonia com Plano de Chamada
-- Sistema de Telefonia com sua própria operadora PSTN com operador Conexão (atualmente disponível apenas em **visualização pública**)
+- Sistema de Telefonia com sua própria operadora PSTN com operador Conexão
 - Sistema de Telefonia com sua própria operadora PSTN com Roteamento Direto
 - Uma solução de combinação que usa Sistema de Telefonia com Plano de Chamadas, Sistema de Telefonia com Conexão operador e/ou Sistema de Telefonia com Roteamento Direto
 
@@ -143,7 +143,7 @@ Sistema de Telefonia fornece recursos pbx completos para sua organização. No e
 
 - [**Sistema de Telefonia com Plano de Chamada.**](pstn-connectivity.md#phone-system-with-calling-plan) Uma solução completa na nuvem com a Microsoft como operadora PSTN.
 
-- [**Sistema de Telefonia com sua própria operadora PSTN**](operator-connect-plan.md)usando o operador Conexão , que está disponível no momento apenas na **visualização pública.**  Com o Conexão operador, se o operador existente for um participante do programa de Conexão do Microsoft Operator, ele poderá gerenciar o serviço para trazer a chamada PSTN para Teams. Para obter informações sobre os benefícios e requisitos do operador Conexão e para obter uma lista de operadores participantes deste programa, consulte [Plan Operator Conexão](operator-connect-plan.md).
+- [**Sistema de Telefonia com sua própria operadora PSTN usando o operador Conexão**](operator-connect-plan.md). Com o Conexão operador, se o operador existente for um participante do programa de Conexão do Microsoft Operator, ele poderá gerenciar o serviço para trazer a chamada PSTN para Teams. Para obter informações sobre os benefícios e requisitos do operador Conexão, consulte [Plan Operator Conexão](operator-connect-plan.md).
 
 - [**Sistema de Telefonia com sua própria operadora PSTN**](pstn-connectivity.md#phone-system-with-direct-routing) usando o Roteamento Direto para conectar seu ambiente local a Teams.
 

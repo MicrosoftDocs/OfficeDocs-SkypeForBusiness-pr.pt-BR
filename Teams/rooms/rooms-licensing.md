@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre as licenças disponíveis para diferentes tipos de recursos de chamada e reunião Salas do Microsoft Teams.
-ms.openlocfilehash: e1d545b6ea48e7ec9e94a1e5f0c5ba8cd1e41198
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6abf7a28b3ceb84b0de82f75f5863c186db27170
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627153"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824660"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Sala de Reunião De licenciamento
 
@@ -35,7 +35,7 @@ ms.locfileid: "58627153"
 
 A Microsoft tem duas SKUs dedicadas para reuniões de licenciamento e chamada por dispositivo para dispositivos de sala de reunião (como Salas do Microsoft Teams, Microsoft Surface Hub e barras de colaboração para Microsoft Teams).
 
-|&nbsp;|Salas do Microsoft Teams Standard |Salas do Microsoft Teams Premium |
+|&nbsp;|Salas do Microsoft Teams Padrão |Salas do Microsoft Teams Premium |
 |:--- |:---: |:---: |
 |Skype for Business |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -69,7 +69,7 @@ A tabela a seguir lista os recursos que estão disponíveis no Salas do Microsof
 |Ingressar em uma reunião agendada  | Salas do Microsoft Teams Padrão ou Premium  |Skype for Business Server Standard CAL  |
 |Iniciar uma reunião ad hoc | Salas do Microsoft Teams Padrão ou Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Iniciar uma reunião ad hoc e discar de uma reunião para números de telefone |  Salas do Microsoft Teams Padrão ou Premium |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Dê um número de telefone à sala e faça ou receba uma chamada da sala ou participe de uma conferência de áudio usando um número de telefone  | Com Roteamento Direto: Salas do Microsoft Teams Standard ou Premium<br/>Sem Roteamento Direto: Plano de Chamadas Domésticas ou Internacionais<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Dê um número de telefone à sala e faça ou receba uma chamada da sala ou participe de uma conferência de áudio usando um número de telefone  | Com Roteamento Direto: Salas do Microsoft Teams Padrão ou Premium<br/>Sem Roteamento Direto: Plano de Chamadas Domésticas ou Internacionais<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
 |Gerenciar seu dispositivo de sala com Microsoft Intune |Salas do Microsoft Teams Padrão ou Premium  |Microsoft Intune assinatura com [MDM local](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 |Salas do Microsoft Teams Serviços Gerenciados | Salas do Microsoft Teams Premium ||
 | |||
@@ -79,4 +79,4 @@ A tabela a seguir lista os recursos que estão disponíveis no Salas do Microsof
 
  **Use a versão certa do Windows 10**: para clientes que querem implantar imagens Windows 10 em seus dispositivos, consulte Configure a Salas do Microsoft Teams [console](./console.md). Você pode obter uma cópia do Centro de [Serviços de Licenciamento por Volume.](https://www.microsoft.com/Licensing/servicecenter/) 
  
- Consulte também [Excelentes experiências de sala de reunião: conheça o novo Salas do Microsoft Teams Standard e Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
+ Consulte também [Excelentes experiências de sala de reunião: Conheça as novas](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)Salas do Microsoft Teams Padrão e Premium .

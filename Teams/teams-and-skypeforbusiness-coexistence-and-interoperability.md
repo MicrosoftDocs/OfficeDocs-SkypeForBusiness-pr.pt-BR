@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69a197d75f3b229f32117e7923a390691e8c4fa5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f76fa8a527de5cc56d6ae1d2f6a657bf702d9b35
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727380"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824670"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Compreender Microsoft Teams e Skype for Business coexistência e interoperabilidade
 
@@ -49,16 +49,16 @@ Se sua organização usa o Skype for Business hoje e você está começando a us
 
 As seções a seguir descrevem os modos de coexistência disponíveis quando você decide atualizar para Teams e os recursos que cada modo oferece. Além disso, descrevemos a interoperabilidade (interoperabilidade) que ocorre entre usuários em clientes do Skype-for-Business e usuários em clientes Teams e como a interoperabilidade é afetada pelo modo de coexistência escolhido.
 
- Teams oferece recursos de colaboração, chat, chamada e recursos de reunião. Dependendo de como você optar por implantar Teams, esses recursos podem se sobrepor aos recursos fornecidos pelo Skype for Business para um determinado usuário. O modo padrão é executar Teams com Skype for Business com os recursos sobrepostas. No entanto, um usuário pode ser atribuído a um dos vários modos de coexistência (também conhecidos como modos de atualização) que foram projetados para garantir que esses recursos não se sobreponham a esse usuário (nesse caso, a interoperabilidade entre o Teams e o Skype for Business está disponível). Por exemplo, se você tiver ativos Skype for Business Server locais significativos com uma implantação de Enterprise Voice complexa, mas quiser que seus usuários aproveitem reuniões modernas o mais rapidamente possível, talvez você queira avaliar [Reuniões Primeiro](meetings-first.md) como um caminho alternativo.
+Teams oferece recursos de colaboração, chat, chamada e recursos de reunião. Dependendo de como você optar por implantar Teams, esses recursos podem se sobrepor aos recursos fornecidos pelo Skype for Business para um determinado usuário. O modo padrão é executar Teams com Skype for Business com os recursos sobrepostas. No entanto, um usuário pode ser atribuído a um dos vários modos de coexistência (também conhecidos como modos de atualização) que foram projetados para garantir que esses recursos não se sobreponham a esse usuário (nesse caso, a interoperabilidade entre o Teams e o Skype for Business está disponível). Por exemplo, se você tiver ativos Skype for Business Server locais significativos com uma implantação de Enterprise Voice complexa, mas quiser que seus usuários aproveitem reuniões modernas o mais rapidamente possível, talvez você queira avaliar [Reuniões Primeiro](meetings-first.md) como um caminho alternativo.
 
 Recomendamos que você revise os seguintes modos de coexistência para ajudar a determinar qual caminho é o certo para sua organização.
 
 > [!Important]
-> Os modos de coexistência continuarão a existir após a aposentadoria do Skype for Business Online em 31 de julho de 2021, mas serão relevantes apenas para organizações com implantações locais de Skype for Business Server. Pouco antes da aposentadoria, os usuários que estão na implantação local podem ser atribuídos a qualquer modo diferente do TeamsOnly. No entanto, após a Skype for Business online, os usuários que estão na nuvem só podem ser o TeamsOnly.
+> Os modos de coexistência continuam a existir após a aposentadoria do Skype for Business Online, no entanto, os usuários que estão online só podem ter um modo do TeamsOnly. Não é mais possível atribuir qualquer modo diferente do TeamsOnly a um usuário que está em casa online.  Como foi o caso antes da ress reforma do Skype for Business Online, os usuários que estão no local podem ser atribuídos a qualquer modo diferente do *TeamsOnly*.
 
 ### <a name="islands-mode"></a>Modo ilhas
 
-Por padrão, os usuários podem executar Teams com Skype for Business como duas soluções separadas que oferecem recursos semelhantes e sobrepostos. Os recursos incluem presença, chat, chamada e reuniões. Teams usuários também podem tirar proveito de novos recursos de colaboração, como equipes e canais, acesso a arquivos em Microsoft 365 ou Office 365 aplicativos.
+Por padrão, os usuários podem executar Teams com Skype for Business como duas soluções separadas que oferecem recursos semelhantes e sobrepostos. Os recursos incluem presença, chat, chamada e reuniões. Teams usuários também podem tirar proveito de novos recursos de colaboração, como equipes e canais, acesso a arquivos em Microsoft 365 e aplicativos.
 
 Nesse modo de coexistência, chamado **Ilhas**, cada um dos aplicativos cliente opera como uma ilha separada. Skype for Business conversa com Skype for Business e Teams conversa com Teams. Espera-se que os usuários executem os dois clientes o tempo todo e possam se comunicar de forma nativa no cliente a partir do qual a comunicação foi iniciada. Como tal, não há necessidade de interoperabilidade no **modo Ilhas.**
 
@@ -73,9 +73,6 @@ Sistema de Telefonia há suporte no Teams no **modo Ilhas.** **O modo** Ilhas n�
 
 > [!Important]
 > No **modo Ilhas,** todas as mensagens e chamadas de usuários federados (pessoas de fora da sua organização) são entregues Skype for Business. Depois de atualizar para o **modo Somente Teams,** todas as mensagens e chamadas de fora da sua organização serão entregues Teams.
-
-> [!Tip]
-> Skype for Business O caminho recomendado para os  clientes online é começar com o modo de Ilhas  padrão, Teams saturação de adoção na organização e, em seguida, mover para o modo somente Teams rapidamente. Os clientes locais e híbridos, especialmente os complexos, podem se beneficiar da implantação do  Skype for Business com o modo colaboração **do Teams** como ponto de partida, em vez do modo Ilhas, e avançar de lá para Skype for Business com o modo colaboração e reuniões do Teams (ou seja, Reuniões Primeiro), se apropriado, e para o modo Somente Teams quando **a** organização estiver pronta para adotar Teams. 
 
 ### <a name="teams-only"></a>Teams Somente
 
@@ -162,9 +159,9 @@ Skype for Business os usuários podem fazer chamadas de voz e vídeo um para Tea
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> As experiências de interopção com uma implantação local de Skype for Business exigem que o ambiente local está em modo híbrido com Microsoft 365 ou Office 365 Skype for Business. Para obter detalhes, consulte [Diretrizes de migração e interoperabilidade.](./migration-interop-guidance-for-teams-with-skype.md)
+> As experiências de interopção com uma implantação local de Skype for Business exigem que o ambiente local está no modo híbrido com Teams. Para obter detalhes, [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
 
-Essas experiências de interop estão disponíveis para e entre usuários que têm um dos seguintes modos de coexistência atribuídos: Skype for Business com colaboração **do Teams**, Skype for Business com colaboração e reuniões do **Teams**, somente **Skype for Business** ou **Teams Somente** Teams . Não há interoperabilidade para os usuários no **modo Ilhas.**
+Essas experiências de interopção estão disponíveis para e entre usuários que têm um dos seguintes modos de coexistência atribuídos: Skype for Business com colaboração **do Teams**, Skype for Business com colaboração e reuniões do **Teams,** **Skype for Business Somente** Skype for Business , ou **Teams Somente**. Não há interoperabilidade para os usuários no **modo Ilhas.**
 
 #### <a name="native-interop-experience-limitations"></a>Limitações da experiência de interop nativa
 

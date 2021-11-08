@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f49c2d3babfdf97bb39405d1f48a84deb724db5
-ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
+ms.openlocfilehash: 011f85e1d6db3aa4d0b3a0986d4b03dd1aa96a37
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "60624242"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824589"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -144,7 +144,7 @@ Introduzido nesta atualização:
 - Nuvem da Comunidade Governamental Suporte alto (GCCH) para Salas do Teams. Os clientes GCCH com dispositivos Salas do Teams existentes podem baixar a versão 4.8.19.0 de um dispositivo [Salas do Microsoft Teams manualmente](manual-update.md)
 - Participe de reuniões de Zoom com melhor qualidade de vídeo (suporte a 720p) e receba a galeria de vídeo dos participantes
 - Skype for Business faixa de falha de login removida para Teams modo padrão. Essa alteração dá suporte a organizações que removem Skype for Business infraestrutura
-- Teams reuniões de junção de link agora lida com o Microsoft Defender Advanced Thread Protection Cofre Links para permitir a junção de Teams externos de forma perfeita
+- Teams reuniões de junção de link agora lidam com a Proteção Avançada contra Ameaças do Microsoft Defender Cofre Links para permitir a junção de Teams externas perfeitamente
 - Correção para problemas de dimensionamento de conteúdo compartilhado em reuniões Skype for Business quando o computador do sharer tem um DPI personalizado definido em Windows
 - Correções de qualidade e confiabilidade
 

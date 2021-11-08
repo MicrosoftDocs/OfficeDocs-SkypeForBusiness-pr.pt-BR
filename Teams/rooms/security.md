@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Saiba como proteger seus dispositivos Salas do Microsoft Teams segurança.
-ms.openlocfilehash: d3b0f244f36ed30376fbe72e9669b6f84f9f9629
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ff5d79b02669f8b3da71396c2bd1eb2348575cf3
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627283"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824579"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Salas do Microsoft Teams Segurança
 
@@ -100,9 +100,9 @@ Geralmente, Salas do Teams tem os mesmos requisitos de rede que qualquer Microso
 - **Microsoft Teams** [Office 365 URLs e intervalos de endereços IP](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - **Windows Atualizar** [Configurar O WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [Pré-requisitos para Microsoft Store para Empresas e Educação](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
-- **Microsoft Intune** [Enpoints de](/mem/intune/fundamentals/intune-endpoints) rede para Microsoft Intune
+- **Microsoft Intune** [pontos de extremidade de rede para Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-Se você estiver usando o Salas do Microsoft Teams de serviços gerenciados do Salas do Microsoft Teams Premium, você também precisa garantir que Salas do Teams possa acessar as SEGUINTES URLs:
+Se você estiver usando o Salas do Microsoft Teams de serviços gerenciados do Salas do Microsoft Teams Premium, também precisa garantir que Salas do Teams possa acessar as SEGUINTES URLs:
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -118,7 +118,7 @@ Se você estiver usando o Salas do Microsoft Teams de serviços gerenciados do S
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Salas do Teams é configurado para manter-se automaticamente remendado com as atualizações Windows mais recentes, incluindo as atualizações de segurança. Salas do Teams instala todas as atualizações pendentes todos os dias a partir das 2:00 usando uma política local pré-definida. Não é necessário usar ferramentas adicionais para implantar e aplicar Windows Atualizações. O uso de ferramentas adicionais para implantar e aplicar atualizações pode atrasar a instalação de Windows patches e, assim, levar a uma implantação menos segura. O Salas do Teams aplicativo é implantado usando o Microsoft Store. Se seus dispositivos são licenciados com Salas do Microsoft Teams Standard, todas as novas versões do aplicativo são instaladas automaticamente durante o processo de correção noturna. Se seus dispositivos são licenciados com Salas do Microsoft Teams Premium e inscritos no Serviço Gerenciado da Microsoft, novas versões do aplicativo Salas do Teams são instaladas de acordo com seu plano de implantação definido.
+Salas do Teams é configurado para manter-se automaticamente remendado com as atualizações Windows mais recentes, incluindo as atualizações de segurança. Salas do Teams instala todas as atualizações pendentes todos os dias a partir das 2:00 usando uma política local pré-definida. Não é necessário usar ferramentas adicionais para implantar e aplicar Windows Atualizações. O uso de ferramentas adicionais para implantar e aplicar atualizações pode atrasar a instalação de Windows patches e, assim, levar a uma implantação menos segura. O Salas do Teams aplicativo é implantado usando o Microsoft Store. Se seus dispositivos são licenciados com Salas do Microsoft Teams Padrão, todas as novas versões do aplicativo são instaladas automaticamente durante o processo de correção noturna. Se seus dispositivos são licenciados com Salas do Microsoft Teams Premium e inscritos no Serviço Gerenciado da Microsoft, novas versões do aplicativo Salas do Teams são instaladas de acordo com seu plano de implantação definido.
 
 Salas do Teams dispositivos funcionam com a maioria dos 802.1X ou outros protocolos de segurança baseados em rede. No entanto, não somos capazes de testar Salas do Teams todas as configurações de segurança de rede possíveis. Portanto, se surgirem problemas de desempenho que podem ser rastreados para problemas de desempenho de rede, talvez seja necessário desabilitar esses protocolos se eles estão configurados em sua organização.
 
