@@ -1,6 +1,6 @@
 ---
 title: Atribuir Teams licenças de complemento a usuários
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Saiba como atribuir Teams licenças de complemento aos usuários para recursos como Audioconferência, Sistema de Telefonia e Planos de Chamada.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47d5f5838b382459fe6820f210a29b4809525e18
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 200e2bb36940bb4b447c4a46856c4e3ffa07f588
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766119"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846024"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Atribuir Teams licenças de complemento a usuários
 

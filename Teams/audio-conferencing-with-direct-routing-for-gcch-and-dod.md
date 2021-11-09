@@ -1,6 +1,6 @@
 ---
 title: Audioconferência com Roteamento Direto, GCCH e DoD
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: oscarr
@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: O administrador pode aprender sobre como usar a Audioconferência com Roteamento Direto em ambientes GCCH e DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a1fade545e2896dac9bc9e486db2b3d31475fe2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1e4500e5560a1e5b14af51137f98e98823f7b333
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763079"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853945"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Conferências de Áudio com Roteamento Direto para GCC Alto e DoD
 
