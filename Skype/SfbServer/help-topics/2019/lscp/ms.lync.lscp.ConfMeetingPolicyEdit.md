@@ -2,7 +2,7 @@
 title: Política de Conferência Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Uma política de conferência define os recursos e recursos que os usuários têm disponíveis durante uma conferência (também conhecida como reunião).
-ms.openlocfilehash: 9d62ac561252c3cda025f040c2de335c49c12bae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7e5e32d474a915c8c91bfe13fa13feffe98d064
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753010"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837273"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Política de Conferência: Criar Novo ou Editar Existente
 

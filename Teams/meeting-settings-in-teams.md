@@ -1,6 +1,6 @@
 ---
 title: Gerenciar configurações da reunião
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sonua
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: 6e3314ee7e1b36f98da45806361aa29829690710
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753928"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839733"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -43,7 +43,7 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 
 1. Vá para o centro de administração.
 
-2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
+2. Na navegação à esquerda, vá para **Encontros** > **Configurações de reunião**.
 
 3. Em **Participantes**, ative **Usuários anônimos podem ingressar em uma reunião**.
 
@@ -89,7 +89,7 @@ Você pode personalizar os convites de reunião do Teams para atender às necess
  **Usando o centro de administração do Microsoft Teams**
 
 1. Vá para o centro de administração.
-2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
+2. Na navegação à esquerda, vá para **Encontros** > **Configurações de reunião**.
 3. Em **Convite por email**, faça o seguinte:
 
     ![Captura de tela das configurações de convite para reunião que você pode personalizar.](media/meeting-settings-invitation.png "Captura de tela das configurações de convite de reunião que você pode personalizar para reuniões do Teams")
@@ -121,7 +121,7 @@ Se você estiver usando a Qualidade de Serviço (QoS) para priorizar o tráfego 
 
   **Usando o centro de administração do Microsoft Teams**
 1. Vá para o centro de administração.
-2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
+2. Na navegação à esquerda, vá para **Encontros** > **Configurações de reunião**.
 3. Em **Rede**, faça o seguinte:
 
     ![Captura de tela das configurações de rede para reuniões no centro de administração.](media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do Teams no centro de administração do Microsoft Teams")

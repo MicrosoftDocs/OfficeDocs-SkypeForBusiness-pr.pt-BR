@@ -2,7 +2,7 @@
 title: Definir o Gateway PSTN do FQDN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você especifica o FQDN (nome de domínio totalmente qualificado) do gateway PSTN (rede telefônica pública comutado) que conectará seus componentes Enterprise Voice a um PSTN ou pbx (private branch exchange).
-ms.openlocfilehash: 77f3540969041c19b56f19bfaedfbccbf52e5fab
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f192fb4ec55a3749dc01d49e167d8f4764d71331
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761199"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837043"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Definir o Gateway PSTN do FQDN
 

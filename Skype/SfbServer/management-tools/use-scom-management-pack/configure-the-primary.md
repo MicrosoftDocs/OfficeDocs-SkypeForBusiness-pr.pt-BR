@@ -2,7 +2,7 @@
 title: Como configurar o Servidor de Gerenciamento Primário
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Resumo: configure seu servidor de gerenciamento principal, instale o System Center Operations Manager e importe pacotes de gerenciamento para Skype for Business Server 2015.'
-ms.openlocfilehash: 98a6cb9f18a5ff3fe008e7d07f5101884e5aa0f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6128cc33f0a877235c3356a2bef78a9288f6fc13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774591"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852945"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Como configurar o Servidor de Gerenciamento Primário
 

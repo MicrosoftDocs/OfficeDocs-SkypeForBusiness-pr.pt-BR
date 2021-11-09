@@ -2,7 +2,7 @@
 title: Gravação de Detalhes de Chamada Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 4c90f6e78de156cf0221d988a6a921aaf1ef0aed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 540a8c1ad9af0c34420c4f6290ccabda9527b745
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751090"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839473"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Registro de Detalhes de Chamadas: Criar Nova ou Editar Existente
  

@@ -2,7 +2,7 @@
 title: Nó de Escopo de Máquina
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 'Esse nó mostra a configuração do nome de domínio totalmente qualificado do servidor (FQDN) e a configuração do endereço IP para este servidor. É possível executar as seguintes ações:'
-ms.openlocfilehash: 158913442441abcaa05737f7e78a96c22bfa8d2c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c49dd50d8e017f869a025ecf449dcbeb2e4ef098
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760769"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837753"
 ---
 # <a name="machine-scope-node"></a>Nó de Escopo de Máquina
  

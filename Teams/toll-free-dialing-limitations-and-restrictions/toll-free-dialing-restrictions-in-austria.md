@@ -1,7 +1,7 @@
 ---
 title: Restrições de discagem gratuita na Áustria
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número gratuito.
-ms.openlocfilehash: cc658d961624bd719f2f2d1d0868c8783ce48c05
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 635459bd0c3ebd2016a317c9fd50fc1311d801d9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766049"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853805"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>Restrições de discagem gratuita na Áustria
 

@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas de instalação e atualização do Microsoft Teams no Windows
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como solucionar problemas de instalação e atualização para o aplicativo cliente de área de trabalho do Teams no Windows.
-ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71a7162e243779ae779a4e0224d54955ec611e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777151"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865439"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Solucionar problemas de instalação e atualização do Microsoft Teams no Windows
 
@@ -123,7 +123,7 @@ Dicas de solução de problemas:
 - Para confirmar que este é o problema que você está enfrentando, encerre o Teams (clique com o botão direito do mouse no Teams na barra de tarefas e clique em **Sair**). Em seguida, abra o Gerenciador de tarefas do Windows para ver se uma instância do Teams ainda está sendo executada.  
 - Se você não estiver no computador que está com esse problema, inspecione o SquirrelTemp.log coletado no computador que está enfrentando esse problema e procure a entrada "programa: não é possível finalizar o processo no log".
 - Para determinar o que está impedindo que o Teams.exe saia, examine os logs DLLs.txt e Handles.txt. Eles te informarão quais são os processos que impedem a saída do Teams.
-- Outro culpado que pode impedir a saída do Teams é o driver de filtro do sistema de arquivos no modo kernel. Use a ferramenta SysInternals, [ProcDump](/sysinternals/downloads/procdump), para coletar o despejo de processo no modo kernel executando ```procdump -mk <pid>```, onde <pid> é o ID do processo obtido no Gerenciador de tarefas. Você também pode verificar o arquivo de log DRIVERQUERY. txt para ver os drivers de filtro ativo que podem interferir com o Teams.
+- Outro culpado que pode impedir a saída do Teams é o driver de filtro do sistema de arquivos no modo kernel. Use a ferramenta SysInternals, [ProcDump](/sysinternals/downloads/procdump), para coletar o despejo de processo no modo kernel executando ```procdump -mk <pid>```, onde \<pid> é o ID do processo obtido no Gerenciador de tarefas. Você também pode verificar o arquivo de log DRIVERQUERY. txt para ver os drivers de filtro ativo que podem interferir com o Teams.
 - Para recuperar esse Estado, reinicie o computador.
 
 #### <a name="file-permissions"></a>Permissões de arquivo

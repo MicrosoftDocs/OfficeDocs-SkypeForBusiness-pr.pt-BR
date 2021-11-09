@@ -2,7 +2,7 @@
 title: Criar Administradores do Painel de Controle do Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para conceder acesso ao Skype for Business Server, faça o seguinte:'
-ms.openlocfilehash: 7023af3163500dbc8052a3fc35dab37aa37cbf71
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 42163cf1df7ae13b918f592b512d3f5fd89169de
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755234"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839013"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Criar Administradores do Painel de Controle do Skype for Business Server
  

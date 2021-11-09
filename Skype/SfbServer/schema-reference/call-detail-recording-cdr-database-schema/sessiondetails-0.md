@@ -2,7 +2,7 @@
 title: Exibição SessionDetails
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: A visualização de SessionDetails armazena informações sobre sessões ponto a ponto, que pode ser uma chamada de telefone VoIP a VoIP, sessão de mensagens instantâneas entre duas partes ou outro tipo de sessão. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 5a278960912ac38dc75fe398e3d75de710785800
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a100fcd2143244bda5ad7273b5a681468ad5713
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767449"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852915"
 ---
 # <a name="sessiondetails-view"></a>Exibição SessionDetails
  

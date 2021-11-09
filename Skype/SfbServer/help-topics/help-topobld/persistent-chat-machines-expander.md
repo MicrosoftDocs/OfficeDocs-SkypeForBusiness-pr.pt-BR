@@ -2,7 +2,7 @@
 title: Expansor de Máquinas de Bate-papo Persistente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: Você ativa ou desativa um Servidor de Chat Persistente implantado ou pool de Servidor de Chat Persistente usando os servidores ou pools listados nas configurações de estado do computador. Selecione um servidor ou pool na lista e clique no botão Tornar ativo para definir um servidor ou pool como ativo.
-ms.openlocfilehash: 39d1ae3c72d387dea016ee4d76aeb14a6e7b12d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8615ec5f0996e7d06db91f3cd5850cc147e75e0b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763919"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853115"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expansor de Máquinas de Chat Persistente
  

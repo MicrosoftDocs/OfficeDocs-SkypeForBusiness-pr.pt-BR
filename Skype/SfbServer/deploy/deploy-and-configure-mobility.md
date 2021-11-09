@@ -2,7 +2,7 @@
 title: Implantar e configurar a mobilidade para Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Este artigo levará você pelas etapas para configurar uma instalação de Skype for Business Server existente para usar o serviço Mobility, permitindo que seus dispositivos móveis sejam capazes de tirar proveito dos recursos Skype for Business Server Mobility.
-ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4ca8b229fb0d6fc15305bb15c32466a678955f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741497"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865419"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Implantar e configurar a mobilidade para Skype for Business Server  
  
@@ -317,7 +317,7 @@ Temos duas coisas principais a considerar:
     
    - **Aceite solicitações**, mas deve ser para o nome de domínio.
     
-   - Para o **nome**, você deve inserir **lyncdiscover.** <sipdomain> (esta é a URL externa do Serviço de Descoberta Automática). Agora, se você estiver criando uma regra para a URL de Serviços Web externos no pool de Front-End, você precisará digitar o FQDN para os Serviços Web externos em seu pool de Front-End (por exemplo, lyncwebextpool01.contoso.com).
+   - Para o **nome**, você deve inserir **lyncdiscover.**\<sipdomain> (esta é a URL externa do Serviço de Descoberta Automática). Agora, se você estiver criando uma regra para a URL de Serviços Web externos no pool de Front-End, você precisará digitar o FQDN para os Serviços Web externos em seu pool de Front-End (por exemplo, lyncwebextpool01.contoso.com).
     
    - Haverá uma opção **Path** e você precisará inserir **/\\** * aqui.
     
@@ -363,7 +363,7 @@ Temos duas coisas principais a considerar:
     
    - **Aceite solicitações**, mas deve ser para o nome de domínio.
     
-   - Para o **nome**, você deve inserir **lyncdiscover.** <sipdomain> (esta é a URL externa do Serviço de Descoberta Automática).
+   - Para o **nome**, você deve inserir **lyncdiscover.**\<sipdomain> (esta é a URL externa do Serviço de Descoberta Automática).
     
    - Haverá uma opção **Path** e você precisará inserir **/\\** * aqui.
     
@@ -463,7 +463,7 @@ Para clientes do Lync Server 2010 no Skype for Business Server 2015, você preci
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-Para revisar ainda mais os procedimentos de comando, você pode conferir [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) e [Test-CsMcxP2PIM](/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
+Para revisar ainda mais os procedimentos de comando, você pode conferir [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference) e [Test-CsMcxP2PIM](/powershell/module/skype/test-csmcxp2pim).
   
 ## <a name="configure-for-push-notifications"></a>Configurar para notificações por push
 <a name="ConfigPush"> </a>
@@ -592,7 +592,7 @@ Para que os usuários sejam capazes de usar a Chamada via Trabalho, eles também
     > [!NOTE]
     > Você pode desativar Call via Work sem desativar o acesso ao Mobility. Mas você não pode desativar o Mobility sem também desativar a Chamada via Trabalho. 
   
-    Para obter mais informações, confira [Set-CsMobilityPolicy](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps).
+    Para obter mais informações, confira [Set-CsMobilityPolicy](/powershell/module/skype/set-csmobilitypolicy).
     
 ### <a name="modify-mobility-policy-by-site"></a>Modificar a política de mobilidade por site
 
@@ -606,7 +606,7 @@ Para que os usuários sejam capazes de usar a Chamada via Trabalho, eles também
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    Saiba mais em [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+    Saiba mais em [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy).
     
 ### <a name="modify-mobility-policy-by-user"></a>Modificar a política de mobilidade pelo usuário
 

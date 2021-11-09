@@ -2,7 +2,7 @@
 title: Selecionar Membros Negados
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Um Administrador de Chat Persistente pode criar e gerenciar categorias de sala de chat. Como parte da criação e do gerenciamento de categorias de sala de chat, um Administrador de Chat Persistente pode configurar entidades (grupos de Serviços de Domínio do Active Directory/contêineres/usuários) que têm acesso para serem membros/criadores de salas de chat de uma categoria específica. Um Administrador de Chat Persistente também pode adicionar DeniedMembers a uma categoria e elas se tornam exclusões explícitas à lista permitida. DeniedMembers substituem o que está em AllowedMembers.
-ms.openlocfilehash: c888368f5f26ccfb9f37445c0a0fdddf563a4c71
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 283c358d6b0eab79f667ec7ca17dc9eca3977586
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764059"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837953"
 ---
 # <a name="select-denied-members"></a>Selecionar Membros Negados
 

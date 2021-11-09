@@ -1,7 +1,7 @@
 ---
 title: Personalizar a experiência do cliente Mac no Skype for Business
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Este artigo descreve as preferências e os padrões do cliente disponíveis para o Skype for Business no cliente Mac e como editá-los de fora do Aplicativo.
-ms.openlocfilehash: ed702585e0fb7cdd78bdf318b77b8a2513870498
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773351"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838343"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar a experiência do cliente Mac no Skype for Business
  
@@ -37,15 +37,15 @@ Para definir essas preferências, vá para um prompt de terminal no Mac do clien
 | Chave | Tipo | Valor | Descrição |
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Bool    |0 = configuração manual do servidor  <br/> 1 = detecção automática de servidor (padrão)    |Especifique como Skype for Business identifica o transporte e o servidor a ser usado durante a login. Se você habilitar essa configuração de política, deverá especificar **internalAutoDiscoveryURL** **e externalAutoDiscoveryURL**.   |
-|internalAutoDiscoveryURL    |String    |URL de descoberta automática completa    |URL de descoberta automática interna    |
-|externalAutoDiscoveryURL    |Cadeia de caracteres    |URL de descoberta automática completa    |URL de descoberta automática externa    |
-|httpProxyDomain    |String    ||Domínio proxy HTTP    |
-|httpProxyUserName    |String    ||Nome de usuário de proxy HTTP    |
-|httpProxyPassword    |Cadeia de caracteres    ||Senha de proxy HTTP    |
+|internalAutoDiscoveryURL    |Cadeia de Caracteres    |URL de descoberta automática completa    |URL de descoberta automática interna    |
+|externalAutoDiscoveryURL    |Cadeia de Caracteres    |URL de descoberta automática completa    |URL de descoberta automática externa    |
+|httpProxyDomain    |Cadeia de Caracteres    ||Domínio proxy HTTP    |
+|httpProxyUserName    |Cadeia de Caracteres    ||Nome de usuário de proxy HTTP    |
+|httpProxyPassword    |Cadeia de Caracteres    ||Senha de proxy HTTP    |
 |trustedDomainList    |Matriz    ||Lista de domínios confiáveis para redirecionamentos HTTP.    |
 |autoAcceptTimeout    |Número    |300 (padrão)    |Tempo de tempo de aceitação automática para usuários sem Histórico de Conversas do lado do servidor.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Desabilitado  <br/> 1 = Habilitado    |Avisa o usuário ao discar um número de emergência de um local desconhecido.    |
-|sipAddress    |String    ||O endereço SIP (Email) usado para entrar Skype for Business.    |
+|sipAddress    |Cadeia de Caracteres    ||O endereço SIP (Email) usado para entrar Skype for Business.    |
 |userName    |Cadeia de caracteres    ||O UPN (UserName) usado para entrar Skype for Business.    |
 |userNameInAdvancedOnly    |Bool    |0 = exibir o campo Nome de Usuário na tela de entrada principal e na caixa de diálogo Propriedades Avançadas  <br/> 1 = exibir o campo Nome de Usuário somente na caixa de diálogo Propriedades Avançadas (padrão)    |Especifique onde o campo Nome de Usuário é exibido durante a assinatura.    |
    

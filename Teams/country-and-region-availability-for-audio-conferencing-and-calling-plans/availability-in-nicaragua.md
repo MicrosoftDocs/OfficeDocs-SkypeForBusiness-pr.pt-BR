@@ -1,6 +1,6 @@
 ---
 title: Disponibilidade na Nicarágua
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Nicarágua.
-ms.openlocfilehash: e1b3681cf859f668b366e1ee920da24ba05e944c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9ff8d2a0a6051a68dfb13bf5905aa5ed0a90f303
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743027"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852785"
 ---
 # <a name="availability-in-nicaragua"></a>Disponibilidade na Nicarágua
 

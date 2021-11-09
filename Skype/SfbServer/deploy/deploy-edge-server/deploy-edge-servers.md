@@ -2,7 +2,7 @@
 title: Implantar servidores de borda Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Resumo: Saiba como implantar servidores de borda em seu ambiente Skype for Business Server ambiente.'
-ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30beb7b42b2f77e82d83768d918102cbaa0f7f5e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773321"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852725"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implantar servidores de borda Skype for Business Server
  
@@ -327,7 +327,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;j. Na página **Nome do Assunto/Nomes Alternativos** de Assunto, as informações necessárias devem ser preenchidas automaticamente pelo assistente.
     
-&nbsp;&nbsp;&nbsp;k. Na página Configuração de Domínio SIP em Nomes Alternativos de Assunto **(SANs),** marque a caixa de seleção domínio para adicionar um sip.<sipdomain> entrada para a lista de nomes alternativos de assunto.
+&nbsp;&nbsp;&nbsp;k. Na página Configuração de Domínio SIP em Nomes Alternativos de Assunto **(SANs),** marque a caixa de seleção domínio para adicionar um sip.\<sipdomain> entrada para a lista de nomes alternativos de assunto.
     
 &nbsp;&nbsp;&nbsp;l. Na página **Configurar Nomes Alternativos** de Assunto Adicionais, você precisa adicionar quaisquer nomes alternativos de assunto adicionais necessários.
     

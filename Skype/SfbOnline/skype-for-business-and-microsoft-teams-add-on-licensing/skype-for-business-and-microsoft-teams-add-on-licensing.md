@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, quais recursos você obterá com ele, como comprá-las para seu produto e como usar sua operadora existente com elas. Você pode obter informações sobre preços e detalhes dos planos do Office 365, Créditos de Comunicação e planos de Chamadas. '
-ms.openlocfilehash: 92205ce6c4acd66759e782c6cfdf4fc0fc59ed77
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2a9456ec6604d4f8184160831f5f096e49c18c24
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014755"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852735"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licenciamento de complementos do Skype for Business
 
@@ -36,7 +36,7 @@ ms.locfileid: "60014755"
 
 ## <a name="what-are-add-on-licenses"></a>O que são licenças complementares?
 
-As licenças complementares são licenças para recursos específicos do Skype for Business. Algumas empresas querem a flexibilidade de comprar apenas recursos específicos por um preço competitivo. Para adicionar um recurso, compre uma licença complementar para cada usuário que a usará.
+As licenças complementares são licenças para recursos específicos do Skype for Business. Algumas empresas querem ter a flexibilidade de comprar apenas alguns recursos específicos por um preço competitivo. Para adicionar um recurso, compre uma licença complementar para cada usuário que a usará.
 
 O licenciamento do Skype for Business foi elaborado para proporcionar a maior flexibilidade possível. Por exemplo, depois de usar recursos básicos de Skype for Business por um tempo, você pode comprar licenças de complemento quando estiver pronto para usar mais recursos, como Audioconferência, ou o Sistema de Telefonia no Office 365.
 
@@ -50,7 +50,7 @@ Para mais informações sobre custos, consulte [Como ver preços e comprar licen
 
 - [Preços do sistema telefônico](https://products.office.com/skype-for-business/phone-system)
 
-- [Preços de Planos de Chamadas](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-team)
+- [Preços de Planos de Chamadas](/microsoftteams/set-up-audio-conferencing-in-teams)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>Quais recursos posso obter com licenças complementares?
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar a confirmação de discagem de reunião para seus usuários em Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: oscarr
 manager: serdars
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca56e0d959386508f0e6d0793661b116aa4bd07b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 121a4cbd4527f4724f9868a83ab70dd75fb9b327
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774421"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865510"
 ---
 # <a name="set-up-meeting-dial-out-confirmation-for-your-users-in-microsoft-teams"></a>Configurar a confirmação de discagem de reunião para seus usuários em Microsoft Teams
 

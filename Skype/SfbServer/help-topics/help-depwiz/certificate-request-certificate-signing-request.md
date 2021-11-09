@@ -2,7 +2,7 @@
 title: Solicitação de Certificado (Solicitação de Assinatura de Certificado)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Para criar uma solicitação offline, é necessário primeiro criar uma CSR (solicitação de assinatura de certificado). Digite o caminho e o nome do arquivo para a CSR na caixa de texto Nome do Arquivo. É possível clicar em Procurar para escolher um local para criar a CSR. Clique em Avançar para continuar.
-ms.openlocfilehash: b2ff4494fa3f0345eb68d682cb4906b01bb6c19d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9a4844b88696a9c9bfcf2896513c7f6b84b5ede3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750580"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838933"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Solicitação de Certificado (Solicitação de Assinatura de Certificado)
  

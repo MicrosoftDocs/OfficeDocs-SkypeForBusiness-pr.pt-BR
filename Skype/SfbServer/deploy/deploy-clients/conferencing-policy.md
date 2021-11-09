@@ -1,7 +1,7 @@
 ---
 title: Política de conferência para Skype do Sistema de Sala
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Leia este tópico para saber como atribuir políticas de conferência para Skype do Sistema de Sala.
-ms.openlocfilehash: 9e6bab608ab68b3f0e0d5075ae1caf8cb16d4c0b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97980cb50613fca105af40686a920a8ff9c9b546
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771673"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838363"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Política de conferência para Skype do Sistema de Sala
  
@@ -48,17 +48,17 @@ A política de conferência atribuída à conta Skype Room System deve ter deter
 |EnableAppDesktopSharing  <br/> |Desktop  <br/> |Afeta as sessões de quadro de Skype Reunião Agora (ad hoc)  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |N/A para Skype Room System. Se VERDADEIRO, uma parte remota poderia gravar  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |N/A para Skype Room System. Se VERDADEIRO, uma parte remota poderia gravar  <br/> |
-|EnableFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
-|EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
+|EnableFileTransfer  <br/> |TRUE  <br/> |N/D  <br/> |
+|EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/D  <br/> |
 |EnableP2PVideo  <br/> |TRUE  <br/> |Permite que o Skype do sistema de sala participe de sessões de vídeo ponto a ponto  <br/> |
-|AllowLargeMeetings  <br/> |FALSE  <br/> |N/A  <br/> |
+|AllowLargeMeetings  <br/> |FALSE  <br/> |Não disponível  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |Afeta as sessões de quadro de Skype Reunião Agora (ad hoc)  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Ignorado por Skype for Business Server, Skype Room System usa HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |Afeta as sessões de quadro de Skype Reunião Agora (ad hoc)  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |Consulte observação no final da tabela\*  <br/> |
 |VideoBitRateKb  <br/> |5000  <br/> |Essa é a taxa de bits de vídeo de saída máxima permitida. Skype O Sistema de Sala pode enviar um fluxo 1080 juntamente com pano (se RoundTable for usado) nessa taxa de bits. \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |Consulte observação no final da tabela\*  <br/> |
-|FileTransferBitRateKb  <br/> |5000  <br/> |N/A  <br/> |
+|FileTransferBitRateKb  <br/> |5000  <br/> |N/D  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |É recomendável definir isso o mais alto possível. A largura de banda efetiva depende das condições de rede no momento das conferências.\*  <br/> |
 |EnableMultiViewJoin  <br/> |TRUE  <br/> |Deve ser VERDADEIRO para Skype Room System para garantir fluxos de vídeo com vários visualizadores  <br/> |
    

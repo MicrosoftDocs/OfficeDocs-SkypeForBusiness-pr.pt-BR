@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams relatório de uso de eventos ao vivo
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ description: Saiba como usar o relatório Teams de uso de eventos ao vivo no cen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6c533a9c07c1c620dbc1bd2d26919bbf5251cf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763019"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865540"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams relatório de uso de eventos ao vivo
 

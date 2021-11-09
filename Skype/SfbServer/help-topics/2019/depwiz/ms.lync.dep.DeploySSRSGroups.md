@@ -2,7 +2,7 @@
 title: SQL Server Reporting Services (Grupos)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 ROBOTS: NOINDEX, NOFOLLOW
 description: No Especificar Grupo Somente Leitura, especifique o grupo para quem você deseja conceder acesso somente leitura aos relatórios de Monitoramento.
-ms.openlocfilehash: 30c730356f00c883eec82b884f0482a5a58f1919
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 31ba1876c929131adba0c0bf321b02ca3cd84147
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741267"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853565"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (Grupos)
 
