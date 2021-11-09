@@ -1,6 +1,6 @@
 ---
 title: Modelos de email de notificação do usuário para a adoção do sistema de telefonia online
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28cd5ad822863876527877ca0bf633577e21914d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 975097e9772fbb804f47ac984207d92ec39d46ed
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737487"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834779"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar a adoção do usuário do novo sistema de telefonia online
 

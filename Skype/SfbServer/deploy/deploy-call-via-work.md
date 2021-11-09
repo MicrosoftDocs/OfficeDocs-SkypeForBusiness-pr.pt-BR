@@ -2,7 +2,7 @@
 title: Implantar chamada via trabalho no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Resumo: saiba como implantar Call Via Work Skype for Business Server para alguns ou todos os seus usuários.'
-ms.openlocfilehash: 98d7cc08b2cb4101f1d9d062e62ef32a3998691b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761605"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851615"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implantar chamada via trabalho no Skype for Business Server
  

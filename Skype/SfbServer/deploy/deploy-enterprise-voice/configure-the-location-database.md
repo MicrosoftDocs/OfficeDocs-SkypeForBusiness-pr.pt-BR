@@ -2,7 +2,7 @@
 title: Configurar o banco de dados de localização em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configure, preencha e publique o banco de dados de localização E9-1-1 no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 759dffbaf5f9370b2604534e2868cdd87933d1ef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8cd4f10a383d279421af6f9152a31f637ee47474
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748907"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851605"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados de localização em Skype for Business Server
  

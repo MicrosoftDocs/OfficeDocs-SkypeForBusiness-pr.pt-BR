@@ -2,7 +2,7 @@
 title: Implantar o SRS v1 Administrative Web Portal em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: O Skype for Business Server Skype Room Systems v1 (SRS v1, anteriormente conhecido como Sistema de Salas do Lync) Portal Da Web Administrativo é um portal da Web que as organizações podem usar para manter suas salas de conferência Skype Room Systems. Os administradores podem usar o SrS v1 Administrative Web Portal para monitorar a saúde do dispositivo, por exemplo, monitorando dispositivos de áudio/vídeo. Com esse portal, os administradores podem coletar remotamente informações de diagnóstico para monitorar a saúde da sala de conferência.
-ms.openlocfilehash: aa59b142ee7147772af3c13a7e9bf4dffbbc520c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751340"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843964"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implantar o SRS v1 Administrative Web Portal em Skype for Business Server
 

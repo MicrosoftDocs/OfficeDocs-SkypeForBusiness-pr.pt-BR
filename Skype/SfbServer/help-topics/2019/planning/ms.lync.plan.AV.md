@@ -2,7 +2,7 @@
 title: Audio Videoconferência (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server A conferência de áudio/vídeo (A/V) permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
-ms.openlocfilehash: 23de9f3c88811c1b9251fb67145bf39bdb7925d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6524ecc8a3bb647528d9f40906ac0616ba9c45b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761299"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851455"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Audio Videoconferência (Ferramenta de Planejamento)
  

@@ -2,7 +2,7 @@
 title: Tabela AudioClientEvent
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Cada registro contém um evento cliente para um ponto de extremidade em uma chamada de áudio. Normalmente, uma chamada tem dois registros, um para chamador e outro para chamador.
-ms.openlocfilehash: a7e5e481fd9398532212f4bda767bab83815250c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767309"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843644"
 ---
 # <a name="audioclientevent-table"></a>Tabela AudioClientEvent
  

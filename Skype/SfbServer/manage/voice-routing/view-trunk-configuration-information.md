@@ -2,7 +2,7 @@
 title: Exibir informações de configuração de tronco em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços.
-ms.openlocfilehash: b27e3dd72e7a4aebee907541b1ec0250cf7cfd3f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7623765f8d1341066fd127e82c89ab1fa14c79c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778251"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843824"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Exibir informações de configuração de tronco em Skype for Business Server
 

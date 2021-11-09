@@ -2,7 +2,7 @@
 title: tblPrincipalType
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: PrincipalType contém os tipos principais para categorizar o que está na tabela tblPrincipal.
-ms.openlocfilehash: 3fa86d3cfed058387681ff0fc5eb2b3ec7afb26d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cf55ba04afe3688d3ecfd397dc4ffcbe50da2c19
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743107"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844064"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -49,7 +49,7 @@ PrincipalType contém os tipos principais para categorizar o que está na tabela
 |4  <br/> |SystemUser  <br/> |Principal usado internamente pelo Servidor de Chat Persistente.  <br/> ||
 |5  <br/> |User  <br/> |Usuário regular.  <br/> |Sim  <br/> |
 |8   <br/> |DC  <br/> |Controlador de domínio dos Serviços de Domínio do Active Directory.  <br/> ||
-|9   <br/> |Grupo  <br/> |Grupo de segurança do Active Directory.  <br/> ||
+|9   <br/> |Group  <br/> |Grupo de segurança do Active Directory.  <br/> ||
 |10   <br/> |Folder  <br/> |Unidade organizacional ou recipiente do Active Directory.  <br/> ||
    
 ## <a name="see-also"></a>Confira também

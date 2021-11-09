@@ -2,7 +2,7 @@
 title: Planejar Enterprise Voice resiliência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como dar suporte à resiliência de voz Skype for Business Server Enterprise Voice, em sites centrais e sites de filial. As opções de site de filial incluem a implantação de Aparelhos de Filial Desaviváveis ou Servidores de Filial Desaviváveis.
-ms.openlocfilehash: ec0d542318023fdc638926e78ff6ffdeceefba5f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a2dc18817f28595cdfdf65be35df85d0ad93239b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778001"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851875"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planejar Enterprise Voice resiliência no Skype for Business Server
 

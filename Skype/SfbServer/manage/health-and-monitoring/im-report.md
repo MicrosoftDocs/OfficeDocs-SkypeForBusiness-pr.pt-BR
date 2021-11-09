@@ -2,7 +2,7 @@
 title: Relatório de IM ponto a ponto no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Resumo: saiba mais sobre o Relatório de IM Ponto a Ponto no Skype for Business Server.'
-ms.openlocfilehash: 999750f039b2ca57cc31198bcf1599f042763ed3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767659"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834199"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Relatório de IM ponto a ponto no Skype for Business Server
  

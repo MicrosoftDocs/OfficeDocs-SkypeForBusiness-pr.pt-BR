@@ -2,7 +2,7 @@
 title: Nó de Escopo de Servidor Front End
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra as informações de configuração para este pool de Front-Ends ou servidor Standard Edition. Você pode realizar as seguintes ações:'
-ms.openlocfilehash: b1f8bb297965e2ef39d94bd4cb399b00d24c9ad4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0874f5a5cbcef12b45ba1659e3c522d98301bd57
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775361"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834399"
 ---
 # <a name="front-end-server-scope-node"></a>Nó de Escopo de Servidor Front-end
  

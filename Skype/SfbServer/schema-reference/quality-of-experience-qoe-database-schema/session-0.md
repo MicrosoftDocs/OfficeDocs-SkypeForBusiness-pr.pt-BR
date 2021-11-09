@@ -2,7 +2,7 @@
 title: Exibição de sessão
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: O Modo de exibição do servidor armazena informações sobre sessões que foram registradas no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 22ad5fdc02eb7b3dc7531a18f4b40bee0334ce09
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 80a275e047934bd60586c344b5487f2593fe48bb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776011"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834909"
 ---
 # <a name="session-view"></a>Exibição de sessão
  

@@ -2,7 +2,7 @@
 title: Configurar os Skype for Business Server que serão monitorados
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumo: instale os arquivos de agente do Operations Manager no computador Skype for Business Server 2019 a ser monitorado e configure o computador para atuar como um proxy System Center de segurança.'
-ms.openlocfilehash: c0ceac289fa9185c38b68a3824faa29a3db7433d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 975c9eaa7d70720fefa52b8adc84b4f17200f972
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777111"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859638"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Configurar os computadores Skype for Business Server para monitorar
 

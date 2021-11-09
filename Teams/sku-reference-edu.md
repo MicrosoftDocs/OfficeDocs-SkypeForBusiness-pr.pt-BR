@@ -1,6 +1,6 @@
 ---
 title: Referência de SKU do Education
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Lista planos de licenciamento de professores e alunos de educação e IDs de SKU.
 f1keywords: ''
-ms.openlocfilehash: 8f6c4a1821488b14bd95bdaab670788a880b109f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8fb6077a34f20a694542caae724315868a66a3cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774371"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843564"
 ---
 # <a name="education-sku-reference"></a>Referência de SKU do Education
 

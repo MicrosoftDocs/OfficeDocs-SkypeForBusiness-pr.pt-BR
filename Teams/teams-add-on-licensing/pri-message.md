@@ -1,7 +1,7 @@
 ---
 title: Notificações de prioridade em Teams mensagens
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: salu
 ms.topic: reference
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre notificações de prioridade Microsoft Teams mensagens.
-ms.openlocfilehash: 19b9b45dd3b5c5047bf1c1d57a9666cd4b2ddcf8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3411942dfed63f9e435e7900a13723ea86d294cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766089"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851755"
 ---
 # <a name="messaging-policies-licensing"></a>Licenciamento de políticas de mensagens
 

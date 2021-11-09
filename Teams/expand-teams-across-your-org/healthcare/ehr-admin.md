@@ -1,6 +1,6 @@
 ---
 title: Teams para Visitas virtuais
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Usar o Microsoft Teams para configurar seu Sistema de visitas virtuais
-ms.openlocfilehash: 40772326d2767e7815a73ad9feca2e4853c762fc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743037"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859728"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuais com o Teams - Integração com EHR
 

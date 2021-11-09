@@ -2,7 +2,7 @@
 title: Experiência do usuário durante falha no pool Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Saiba mais sobre o que os usuários experimentam quando um pool de Front-End falha ou falha durante a recuperação de desastres Skype for Business Server.
-ms.openlocfilehash: 568f0bce49379e10da8e64ca1eb4507b9319d250
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4fb48423d09a1d891e3eb5ae209059cb6722bf81
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744157"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835139"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Experiência do usuário durante falha no pool Skype for Business Server
  
