@@ -2,7 +2,7 @@
 title: TLS e MTLS para Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 description: Os protocolos TLS (Transport Layer Security) e Mutual Transport Layer Security (MTLS) fornecem comunicações criptografadas e autenticação de ponto de extremidade na Internet. Skype for Business Server usa esses dois protocolos para criar a rede de servidores confiáveis e garantir que todas as comunicações dessa rede sejam criptografadas. Todas as comunicações SIP entre servidores ocorrem por MTLS. As comunicações SIP de cliente para servidor ocorrem por TLS.
-ms.openlocfilehash: 05dbde5907831867e6dfba7cf6f26b83e3e1c60b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7156df69c8c01e97a1feabfb92cd0c2330083899
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744047"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864618"
 ---
 # <a name="tls-and-mtls-for-skype-for-business-server"></a>TLS e MTLS para Skype for Business Server
  

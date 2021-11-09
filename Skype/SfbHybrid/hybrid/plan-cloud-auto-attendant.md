@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Visão geral do uso de um atendente automático na nuvem com Skype for Business Server 2019
-ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 832ba7fc5e93a76cc3e05d09baecd880241f6c46
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011505"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857078"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Atendedores automáticos do plano da nuvem
 
@@ -37,7 +37,7 @@ Uma chamada de entrada para um atendente automático da nuvem pode tomar um dos 
 ![Diagrama para os atendimentos automáticos.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype for Business Server 2019
-2. Por meio [de um controlador de borda de sessão](/MicrosoftTeams/direct-routing-border-controllers) e [roteamento direto.](/microsoftteams/direct-routing-plan-media-bypass)
+2. Por meio [de um controlador de borda de sessão](/microsoftteams/direct-routing-border-controllers) e [roteamento direto.](/microsoftteams/direct-routing-plan-media-bypass)
 3. Por meio de um número em casa online Microsoft 365 ou Office 365.
 
 Confira também:
@@ -98,7 +98,7 @@ Quando você tiver uma estrutura sólida que atenda às suas necessidades e um s
 > [!CAUTION]
 > Conforme mencionado no [KB4480742,](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)não é desencorajado mover Exchange os atendentes automáticos de UM criados no Server 2015 para servidores que executam o Server 2019. Por enquanto, você teria que mantê-los em um pool Skype for Business Server 2015 em execução no modo de coexistência.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Plano de migração para o Skype for Business Server e Exchange Server](plan-um-migration.md)
 

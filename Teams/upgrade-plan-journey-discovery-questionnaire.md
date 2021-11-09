@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams Atualizar | Avaliação de Ambiente, Perguntas sobre Descoberta
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e190445ed74380bfc3745d34b3e1bb94775e016d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f84b8d580bf7b2c48f57427f73d301e9a2b30b47
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758193"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835959"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>Questionário de descoberta - Avaliar seu ambiente
 

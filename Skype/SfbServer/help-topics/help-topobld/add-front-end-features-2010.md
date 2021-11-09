@@ -2,7 +2,7 @@
 title: Adicionar Recursos de Front-end 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: Selecione cada recurso que deseja habilitar para o pool de Front-Ends. Implante, no mínimo, o IM (sistema de mensagens instantâneas), que sempre fica habilitado e não pode ser desmarcado. Você também tem a opção de implantar outros recursos, como conferência, Enterprise Voice e o controle de admissão de chamadas. Alguns recursos dependem da sua topologia.
-ms.openlocfilehash: 7e9cf7fce3628a0b396da0956177640b3e9dbdd1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4768cdc768b99e4ccc61b04ace91f534d78910cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762669"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842874"
 ---
 # <a name="add-front-end-features-2010"></a>Adicionar Recursos de Front-end 2010
 

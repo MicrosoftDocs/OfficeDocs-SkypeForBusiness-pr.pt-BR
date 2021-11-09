@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Saiba mais sobre as considerações de planejamento para Sistema de Telefonia (Cloud PBX) com conectividade PSTN local.
-ms.openlocfilehash: 074afcd05b62501784d5c37d10d698f6c29bdd78
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 21ad7efc67b503f790dd307b23aee5f8fd9ce11c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014305"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864528"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server
 
@@ -106,10 +106,10 @@ Além disso, você deve garantir o seguinte:
 
     Se você estiver usando o Lync Server 2013, consulte [Planning for Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) and [Deploying Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice).
 
-- **Sincronização do Active Directory** Você deve configurar a sincronização do Active Directory usando o Azure AD Conexão. Para obter mais informações, consulte [Azure AD Conexão](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom).
+- **Sincronização do Active Directory** Você deve configurar a sincronização do Active Directory usando o Azure AD Conexão. Para obter mais informações, consulte [Azure AD Conexão](/azure/active-directory/hybrid/how-to-connect-install-custom).
 
     > [!NOTE]
-    > A versão do AAD Conexão que você usa deve ser a versão 1.0.9125.0 ou posterior. Se você estiver usando uma versão anterior do AAD Conexão ferramentas ou DirSync, atualize para a versão com suporte. Você pode atualizar sua instalação atual e manter todas as regras personalizadas definidas em seu ambiente. 
+    > A versão do AAD Conexão que você usa deve ser a versão 1.0.9125.0 ou posterior. Se você estiver usando uma versão anterior de ferramentas AAD Conexão ou DirSync, atualize para a versão com suporte. Você pode atualizar sua instalação atual e manter todas as regras personalizadas definidas em seu ambiente. 
 
 - **Configurar sua implantação híbrida** Se todos os usuários do seu Skype for Business estão atualmente no local ou online ou se você tem uma combinação no momento, você deve concluir as etapas para configurar uma implantação híbrida do Skype for Business Server ou do Lync Server 2013, conforme descrito em [Deploy hybrid connectivity between Skype for Business Server and Office 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). Para obter mais informações sobre implantações híbridas, consulte [Plan hybrid connectivity between Skype for Business Server and Office 365](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 
 

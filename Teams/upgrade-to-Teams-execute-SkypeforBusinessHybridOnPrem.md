@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c60c51c323f02e2cc2a5e8402c7d59b5531e300b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5269cd9033c179ad748fb8909b3010fe09311e4a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733610"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850514"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Atualizar do Skype for Business local para o Teams
 
@@ -46,22 +46,20 @@ Se você tiver implantado o Skype for Business Server ou o Microsoft Lync no loc
 Antes de começar, os profissionais de [](#important-considerations-for-organizations-with-skype-for-business-server-on-premises) TI e os administradores devem revisar as considerações importantes para as organizações com Skype for Business Server locais mais adiante neste artigo.
 
 > [!IMPORTANT]
-> O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a preparação técnica e do usuário, portanto, certifique-se de aproveitar as diretrizes aqui enquanto você navega sua jornada até Microsoft Teams.
+> O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a preparação técnica e do usuário, portanto, certifique-se de aproveitar essas diretrizes à medida que você navega sua jornada até Microsoft Teams.
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>Etapa 1: Configurar conectividade híbrida 
 
 O principal pré-requisito para atualizar seus usuários locais para Teams é configurar a conectividade híbrida para sua implantação Skype for Business Server local. 
 
-Comece lendo [Plano de conectividade híbrida](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json) e siga as tarefas descritas em Configurar conectividade [híbrida](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
+Comece lendo [Plan hybrid connectivity](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json)e, em seguida, siga as tarefas descritas em [Configure hybrid connectivity](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
 
 ## <a name="step-2-set-transitional-coexistence-mode-optional"></a>Etapa 2: Definir o modo de coexistência de transição (opcional)
 
-A coexistência e a interoperabilidade entre Skype for Business e Teams clientes e usuários são definidas Teams modos de atualização.  Por padrão, as organizações estão no modo Ilhas, o que permite que os usuários usem clientes Teams e Skype for Business lado a lado.
+A coexistência e a interoperabilidade entre Skype for Business e Teams clientes e usuários são definidas Teams modos de atualização.  As organizações híbridas, bem como qualquer organização criada antes de 3 de setembro de 2019, estão por padrão no modo Ilhas. O modo ilhas permite que os usuários usem tanto Teams quanto Skype for Business clientes lado a lado. Para uma organização mudar para Teams, o modo TeamsOnly é o destino final para cada usuário, embora nem todos os usuários precisem ser atribuídos ao TeamsOnly (ou a qualquer outro modo) ao mesmo tempo.
 
-Para uma organização mudar para Teams, o modo TeamsOnly é o destino final para cada usuário, embora nem todos os usuários precisem ser atribuídos ao TeamsOnly (ou a qualquer outro modo) ao mesmo tempo.
-
-Antes de os usuários chegarem ao modo TeamsOnly, as organizações podem, opcionalmente, usar qualquer um dos modos de coexistência do Skype for Business para garantir uma comunicação previsível entre usuários que estão no modo TeamsOnly e usuários que ainda não estão.  O objetivo dos modos de coexistência do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) é fornecer uma experiência simples e previsível para os usuários finais à medida que as organizações migram de Skype for Business para Teams. 
+Antes de os usuários chegarem ao modo TeamsOnly, as organizações podem, opcionalmente, usar qualquer um dos modos de coexistência do Skype for Business para garantir uma comunicação previsível entre usuários que estão no modo TeamsOnly e usuários que ainda não estão.  O objetivo dos modos de coexistência do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) é fornecer uma experiência simples e previsível para os usuários finais à medida que as organizações migram de Skype for Business para Teams. Um usuário que está Skype for Business Server local pode ser atribuído a qualquer modo diferente do TeamsOnly. Depois que um usuário é movido para a nuvem, ele é TeamsOnly.  Usuários somente nuvem não podem ser atribuídos a um modo diferente do TeamsOnly. (No entanto, eles podem ser movidos de volta para o local, o que resultaria em receber a política global do teamsUpgradePolicy do locatário.)
 
 Quando um usuário está em qualquer um dos modos Skype for Business, todos os chats de entrada e chamadas são roteados para o cliente Skype for Business usuário. Para evitar confusão do usuário final e garantir o roteamento adequado, a funcionalidade de chamada e de chat no cliente Teams é desabilitada quando um usuário está em qualquer um dos modos Skype for Business de usuário. Da mesma forma, o agendamento de reunião no Teams é explicitamente desabilitado quando os usuários estão nos modos SfBOnly ou SfBWithTeamsCollab e explicitamente habilitados quando um usuário está no modo SfBWithTeamsCollabAndMeetings.
 
@@ -70,7 +68,7 @@ Dependendo dos requisitos, você pode atribuir o modo de coexistência apropriad
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>Etapa 3: Mover usuários de Skype for Business local para Teams Somente
 
-A Microsoft simplifica recentemente o processo para mover usuários para o TeamsOnly e agora é uma única etapa, independentemente da versão do Skype for Business Server ou do Lync Server 2013 que você está usando.  Para obter mais informações, consulte [Move users between on-premises and the cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and Move users from [on-premises to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
+A Microsoft simplifica recentemente o processo para mover usuários para o TeamsOnly. Esse processo agora é uma única etapa, independentemente de qual versão do Skype for Business Server ou do Lync Server 2013 que você está usando. Para obter mais informações, consulte [Move users between on-premises and the cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and Move users from [on-premises to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>Etapa 4: Desabilitar o híbrido para concluir sua migração para a nuvem
 
@@ -109,7 +107,7 @@ Ao considerar as opções de conectividade PSTN (Rede Telefônica Pública Comut
 
 - Você deve garantir que seus usuários estejam sincronizados corretamente no Azure AD com os atributos Skype for Business corretos. Esses atributos são todos prefixos com "msRTCSIP-". Se os usuários não estiverem sincronizados corretamente com o Azure AD, as ferramentas de gerenciamento no Teams não poderão gerenciar esses usuários. (Por exemplo, você não poderá atribuir políticas de Teams a usuários locais, a menos que esteja sincronizando corretamente esses atributos.) Para obter mais informações, [consulte Configure Azure AD Conexão for Teams and Skype for Business](/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
-- Para criar um novo usuário do TeamsOnly ou Skype for Business Online em uma organização híbrida, primeiro você deve habilitar o usuário no Skype for Business Server local e, em seguida, mover o usuário do local para a nuvem usando Move-CsUser.  A criação do usuário no local primeiro garante que qualquer outro usuário local restante Skype for Business os usuários poderão roteá-lo para o usuário recém-criado. Depois que todos os usuários foram movidos online, não é mais necessário habilitar os usuários no local.
+- Para criar um novo TeamsOnly em uma organização híbrida, primeiro você deve habilitar o usuário no Skype for Business Server local e, em seguida, mover o usuário do local para a nuvem usando Move-CsUser.  A criação do usuário no local primeiro garante que qualquer outro usuário local restante Skype for Business os usuários poderão roteá-lo para o usuário recém-criado. Depois *que todos* os usuários foram movidos online, não é mais necessário habilitar os usuários no local.
 
 - Se quiser exibir notificações no cliente Skype for Business para usuários locais, use TeamsUpgradePolicy no toolset local. Somente o parâmetro NotifySfbUsers é relevante para usuários locais.  Os usuários locais recebem seu modo das instâncias online do TeamsUpgradePolicy. Consulte as anotações [em Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). 
 

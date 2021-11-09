@@ -2,7 +2,7 @@
 title: Expansor de Configurações de Próximo Salto de Borda
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 description: Para definir ou modificar o pool de Próximo salto que os Servidores de Borda usarão para se comunicar com a infraestrutura interna, selecione um diretor, pool de diretores, servidor de front-end ou pool de Servidores front-end na lista. Somente Diretores ou Servidores Front-End configurados no Construtor de Topologias aparecem na lista.
-ms.openlocfilehash: 4f4fe69424c9126816d5f76ded9b1f7112003530
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cdbdb6992705baefcfc7acfede4ed1796c6ddc22
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768809"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828971"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Borda
 

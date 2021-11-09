@@ -2,7 +2,7 @@
 title: Detalhes do serviço de exibição de topologia
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: f7693435d418f07652dd57b3445730a2810c1edb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e5fa85a565669c1f08dd2d5d0dd341e9fae6e759
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740737"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829155"
 ---
 # <a name="topology-view-service-detail"></a>Topologia: Exibir Detalhes do Serviço
 

@@ -2,7 +2,7 @@
 title: 'Gerenciar números de acesso de conferência discagem em Skype for Business Server '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Resumo: saiba como gerenciar números de acesso de conferência discagem em Skype for Business Server.'
-ms.openlocfilehash: bb7a6d51d953519f7ccef274c9aff106c78f278d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9bfa4b905ee77b6e5697cf09b2ef89566d875297
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746017"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835379"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gerenciar números de acesso de conferência discagem em Skype for Business Server
  

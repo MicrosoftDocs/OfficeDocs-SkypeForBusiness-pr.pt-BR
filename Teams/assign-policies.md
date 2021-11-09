@@ -1,6 +1,6 @@
 ---
 title: Atribuir políticas aos usuários no Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
@@ -18,12 +18,12 @@ description: Saiba as diferentes maneiras de atribuir políticas aos usuários e
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e29ee61183b0c831fc6d638bf20e6edaab050e8e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 96564498366168ba3128ca01d857265bcca8ef2b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760549"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829635"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Atribuir políticas aos usuários no Microsoft Teams
 
@@ -130,7 +130,7 @@ Ou você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para a página de política.
 2. Selecione a política que você deseja atribuir clicando à esquerda do nome da política.
-3. Escolha **Gerenciar usuários**.
+3. Selecione **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando terminar de adicionar usuários, selecione **Aplicar**.
 
@@ -441,7 +441,7 @@ Um pacote de política no Teams é uma coleção de políticas e configurações
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para Pacotes de Política **e** selecione o pacote de política que você deseja atribuir clicando à esquerda do nome do pacote.
 
-2. Escolha **Gerenciar usuários**.
+2. Selecione **Gerenciar usuários**.
 
 3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 

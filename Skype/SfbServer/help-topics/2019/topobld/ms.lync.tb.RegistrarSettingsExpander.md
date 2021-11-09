@@ -2,7 +2,7 @@
 title: Expansor de Configurações do Registrador
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: A resiliência oferece alta disponibilidade e recuperação de desastres para o pool de Registradores. Ao disponibilizar um Registrador de backup em caso de falha do Registrador principal, o Registrador de backup pode assumir o lugar do Registrador com falha, permitindo que os usuários façam logon e se comuniquem. É possível que os usuários tenham uma redução na funcionalidade, dependendo dos sistemas que falharam no Registrador principal.
-ms.openlocfilehash: b1a7085ce3681d960bb73594547b8693f8f9c463
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5c7c17e693002a8d708e33342b889961630fbdf7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766869"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829255"
 ---
 # <a name="registrar-settings-expander"></a>Expansor de Configurações do Registrador
  

@@ -2,7 +2,7 @@
 title: Expansor de Configurações FQDNs de Servidor de Borda
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: Para editar ou especificar o Configurações externo para os Servidores de Borda, primeiro você deve determinar se você usará endereços IP separados para acesso SIP (Protocolo de Iniciação de Sessão), o serviço de Borda de WebConferência e o serviço de Borda de Áudio/Vídeo.
-ms.openlocfilehash: d9404821e8ab1f11014a05030ea9007ad5150a02
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 361a543f8a8f9d8e3d08d30156af65b7475ed6ac
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739247"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827654"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Expansor de Configurações FQDNs de Servidor de Borda
 

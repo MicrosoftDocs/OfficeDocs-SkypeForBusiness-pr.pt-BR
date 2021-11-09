@@ -2,7 +2,7 @@
 title: Adicionar Opções de IP de Servidor de Borda
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Skype for Business Server permite configurar endereços IPv4 e IPv6 para cada interface para o pool de Borda e Servidor de Borda. Para fazer isso, faça o seguinte:'
-ms.openlocfilehash: ec350921c0a3778b6474d555f0ca0950a2b1518d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd742999521c4700b969ac001153135b403962df
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772891"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829310"
 ---
 # <a name="add-edge-server-ip-options"></a>Adicionar Opções de IP de Servidor de Borda
  

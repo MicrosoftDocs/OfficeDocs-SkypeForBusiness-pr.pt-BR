@@ -2,7 +2,7 @@
 title: Gerenciar a autenticação de servidor para servidor (OAuth) e aplicativos parceiros no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 'Resumo: Gerenciar o OAuth e aplicativos parceiros Skype for Business Server.'
-ms.openlocfilehash: d49006bd01de80bd23d8f70954478b6b6a2bbea4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5a5141af7473f1d49e1c19e2a454e1e46d9f65d5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760739"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856688"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Gerenciar a autenticação de servidor para servidor (OAuth) e aplicativos parceiros no Skype for Business Server
  

@@ -2,7 +2,7 @@
 title: Planejar a implantação do Servidor de Borda Avançada para Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Revise cenários para Skype for Business Server de implantação, quer você queira um único servidor ou prefira um pool de servidores com DNS ou HLB.
-ms.openlocfilehash: 5b58d9aa79566f7aee3ac102f1c5e73996bc6dae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5fa829bf805529792abb408cd6716e2948dd69ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767639"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842764"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>Planejar a implantação do Servidor de Borda Avançada para Skype for Business Server
  

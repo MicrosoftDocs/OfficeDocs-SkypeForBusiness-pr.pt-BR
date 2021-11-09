@@ -2,7 +2,7 @@
 title: Instalar o Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 'Resumo: saiba como preparar seu ambiente para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: acbe9f23c2158966200600caa92d33d0aafc6b1a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b99befcafea7467d0a7211b4e18add7395ebb75
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773201"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850344"
 ---
 # <a name="install-skype-for-business-server"></a>Instalar o Skype for Business Server
  

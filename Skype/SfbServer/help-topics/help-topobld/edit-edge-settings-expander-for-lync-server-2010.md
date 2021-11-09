@@ -2,7 +2,7 @@
 title: Editar Expansor de Configurações de Borda para Lync Server 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Edite as configurações do pool de Borda ou Servidor de Borda configurando as seguintes propriedades:'
-ms.openlocfilehash: bb94c152fae183af3198f3fae99501ee33759bca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b1ffc038a8995663c3a080e29fa4322928a7b214
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765775"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828894"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar Expansor de Configurações de Borda para Lync Server 2010
  

@@ -2,7 +2,7 @@
 title: Implantar Skype conectividade no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como se conectar Skype for Business Server com Skype consumidor. Também conhecido como Skype conectividade.'
-ms.openlocfilehash: 003e9a69dc4213b662795b0570afb3ca152d7e00
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c8bdbf96fcbf0831433ad2274d8ab89911df1de5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751300"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835819"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar Skype conectividade no Skype for Business Server
 
@@ -52,7 +52,7 @@ Skype A funcionalidade de Pesquisa de Diretório Skype for Business aos usuário
 A tabela a seguir descreve o suporte para Skype Pesquisa de Diretório.
   
 
-|&nbsp;|Skype for Business Server Front-End|Front-End do Lync Server 2013 (ou mais antigo)|Comentários|
+|&nbsp;|Skype for Business Server Front-End|Front-End do Lync Server 2013 (ou mais antigo)|Comments|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Server Borda   |Com suporte   |Não Suportado   |Skype for Business Server e Borda são pré-requisitos para Skype Pesquisa de Diretório   |
 |Skype for Business Server Borda + Lync Server 2013 Borda implantada lado a lado   |Com suporte   |Não Suportado   |Skype O tráfego de Pesquisa de Diretório flui Skype for Business Server de Borda. O tráfego de federação passa pela borda configurada pelo administrador. Por exemplo, o administrador poderia optar por continuar a enviar tráfego de federação por meio de servidores de Borda do Lync Server 2013 que não suportam Skype Pesquisa de Diretório.   |
@@ -236,7 +236,7 @@ A tabela a seguir descreve o status de interop entre a versão mais recente do S
 |Skype for Business   |Sim   |Sim   |
 |Skype for Business no Mac   |Pode adicionar (sem pesquisa)   |Sim   |
 |Lync Desktop 2013   |Pode adicionar (sem pesquisa)   |Sim   |
-|Lync Web App - online e local   |N/D   |N/D   |
+|Lync Web App - online e local   |Não disponível   |N/D   |
 |Lync Mobile - Windows Phone   |Em breve   |Sim   |
 |Lync Mobile - Android   |Em breve   |Sim   |
 |Lync Mobile - iOS   |Em breve   |Sim   |
@@ -244,6 +244,6 @@ A tabela a seguir descreve o status de interop entre a versão mais recente do S
 |Lync Modern App (Win 8.1)   |Sim   |Sim   |
 |Lync Mac 2011   |Pode adicionar (sem pesquisa)   |Sim   |
 |Lync Desktop 2010   |Pode adicionar (sem pesquisa)   |Sim   |
-|Lync Phone Edition   |N/D   |N/D   |
+|Lync Phone Edition   |Não disponível   |Não disponível   |
 |Lync Attendant   |N/D   |N/D   |
    

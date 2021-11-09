@@ -1,6 +1,6 @@
 ---
 title: Configure a hierarquia de segmentação de sua equipe
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3cad8a28c2ced4953a21071a0e1af5fe3e5b313
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f65ffa8fa6dc661451669ded8f407bb519468112
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761719"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850544"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configure a hierarquia de segmentação de sua equipe
 

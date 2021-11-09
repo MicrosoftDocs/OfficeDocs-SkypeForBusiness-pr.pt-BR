@@ -2,7 +2,7 @@
 title: Expansor de Configurações de Serviços da Web
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: No Construtor de Topologias, você pode modificar as configurações de porta usadas para seus serviços Web internos e externos. Além disso, e se você estiver implantando o balanceamento de carga DNS (Sistema de Nomes de Domínio), poderá usar o Construtor de Topologias para configurar o FQDN (nome de domínio totalmente qualificado) do pool que se resolve para os endereços IP físicos de todos os servidores nesse pool.
-ms.openlocfilehash: d0302c3f892840e32e3efa4342f389e6e24e0206
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4e9a03d4a41c845a66d4f3ee41ba39c30d2e64eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748447"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835679"
 ---
 # <a name="web-services-settings-expander"></a>Expansor de Configurações de Serviços da Web
  

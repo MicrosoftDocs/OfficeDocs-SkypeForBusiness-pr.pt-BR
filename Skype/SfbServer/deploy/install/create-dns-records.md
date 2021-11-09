@@ -2,7 +2,7 @@
 title: Criar registros DNS para Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Resumo: saiba como configurar o DNS e criar registros DNS para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 5e84c4c0991f042c0d734f8e62aceceb632b3b11
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 177568623148b64b3dccd885e2e7ff3740149c62
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771469"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850364"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Criar registros DNS para Skype for Business Server
  
@@ -56,7 +56,7 @@ Este exemplo está usando um FQDN balanceado de carga DNS chamado pool.contoso.l
 |URL simples de discagem  <br/> |A  <br/> |dialin.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware com suporte  <br/> |
 |URL Simples do Agendador da Web  <br/> |A  <br/> |scheduler.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware com suporte  <br/> |
 |URL Simples de Administração  <br/> |A  <br/> |admin.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware com suporte  <br/> |
-|Descoberta Herdda  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |FQDN do Pool (porta 5061)  <br/> |N/A  <br/> |
+|Descoberta Herdda  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |FQDN do Pool (porta 5061)  <br/> |Não disponível  <br/> |
    
 ### <a name="create-dns-records"></a>Criar registros DNS
 

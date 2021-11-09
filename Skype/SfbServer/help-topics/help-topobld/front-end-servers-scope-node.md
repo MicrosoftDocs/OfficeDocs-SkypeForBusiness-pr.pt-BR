@@ -2,7 +2,7 @@
 title: Nó de Escopo de Servidores Front-End
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: 'O nó Edição Enterprise pools de front-end lista os pools de Front-End neste site, e os nós Edição Standard servidores front-end listam os servidores Edição Standard neste site. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 7e3394024950321d87351323f21db2b7479bd38e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbb7ddfcf76314ebd538251c76c018c79633561b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775061"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830145"
 ---
 # <a name="front-end-servers-scope-node"></a>Nó de Escopo de Servidores Front-End
  

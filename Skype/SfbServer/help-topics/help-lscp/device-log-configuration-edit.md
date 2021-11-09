@@ -2,7 +2,7 @@
 title: Edição de Configuração de Log de Dispositivo
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de Log que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo em que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.
-ms.openlocfilehash: b7f4dbd16ca9bbf03a74f84cfba15ca93e695743
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6e6278fb44344b99f018f297ecdd1494df846730
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768969"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835539"
 ---
 # <a name="device-log-configuration-edit"></a>Configuração de Log de Dispositivo: Editar
  

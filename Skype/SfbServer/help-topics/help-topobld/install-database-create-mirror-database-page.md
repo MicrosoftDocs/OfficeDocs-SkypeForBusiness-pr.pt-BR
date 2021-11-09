@@ -2,7 +2,7 @@
 title: Instalar Página de Banco de Dados de Espelho Criar Banco de Dados
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Esta é a documentação preliminar e está sujeita a alterações. Tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: a2683614753160cc4ff79d90e73cec48f933297b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7fd19bae2cd641db1e63ea9b3eb2074c68fa656a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770439"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835389"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Instalar Banco de Dados Criar página de Banco de Dados Espelho
  

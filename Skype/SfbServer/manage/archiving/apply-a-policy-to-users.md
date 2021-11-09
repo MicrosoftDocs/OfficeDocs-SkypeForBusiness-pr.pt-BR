@@ -2,7 +2,7 @@
 title: Aplicar uma política de arquivamento aos usuários no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Resumo: saiba como atribuir uma política de arquivamento aos usuários em Skype for Business Server.'
-ms.openlocfilehash: 343afcca74947f4a9e40830775c2149adcbc58af
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9be6f37f6c84e089a387eec4e3ad982ec2ae9e14
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765559"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856798"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Aplicar uma política de arquivamento aos usuários no Skype for Business Server
 

@@ -2,7 +2,7 @@
 title: Requisitos dns para URLs simples em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Resumo: revise as considerações de URL simples neste tópico antes de implementar registros DNS para Skype for Business Server.'
-ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777911"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864668"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos dns para URLs simples em Skype for Business Server
 
@@ -123,7 +123,7 @@ Quando esse método é usado, é possível configurar cada endereço de GeoDNS p
 
 Você pode definir a mesma configuração para a URL simples Dial-In. Para fazer isso, crie registros adicionais como os do exemplo anterior, substituindo  `dialin` `meet` nos registros DNS. Para a URL simples Admin, use uma das três opções listadas anteriormente nesta seção.
 
-Depois que esta configuração é definida, é preciso usar um aplicativo de monitoramento para definir que o monitoramento de HTTP rastreie as falhas. Para acesso externo, monitore para garantir que HTTPS GET lyncdiscover.<sipdomain> as solicitações para o FQDN da Web externo ou o endereço IP do balanceador de carga para os dois pools são bem-sucedidas. Por exemplo, as solicitações a seguir não devem conter nenhum cabeçalho **ACCEPT** e devem retornar **200 OK**.
+Depois que esta configuração é definida, é preciso usar um aplicativo de monitoramento para definir que o monitoramento de HTTP rastreie as falhas. Para acesso externo, monitore para garantir que HTTPS GET lyncdiscover.\<sipdomain> as solicitações para o FQDN da Web externo ou o endereço IP do balanceador de carga para os dois pools são bem-sucedidas. Por exemplo, as solicitações a seguir não devem conter nenhum cabeçalho **ACCEPT** e devem retornar **200 OK**.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

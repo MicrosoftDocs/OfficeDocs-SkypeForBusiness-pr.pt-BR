@@ -2,7 +2,7 @@
 title: Planejar o bypass de mídia Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Decisões necessárias para o planejamento de bypass de mídia Skype for Business Server Enterprise Voice. Inclui a interoperação com o controle de admissão de chamada (CAC).
-ms.openlocfilehash: ef06cd7e97623024ab921bf71a006645d1d97a07
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 37bd24ba10ae506749a305f3fd5dfa55ca067fdc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759523"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827474"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planejar o bypass de mídia Skype for Business
 

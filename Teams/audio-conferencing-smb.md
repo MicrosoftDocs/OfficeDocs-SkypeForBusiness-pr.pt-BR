@@ -1,7 +1,7 @@
 ---
 title: Configurar Audioconferência para pequenas e médias empresas
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como definir a Audioconferência em sua pequena ou média empresa para pessoas que precisam usar um telefone para ligar para reuniões. '
-ms.openlocfilehash: ddac35fa5ee6ff7134b1114037aca627fda792db
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd11d5c3c348b64717cb092a523ee857639712c6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743047"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827404"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurar Audioconferência para pequenas e médias empresas
 

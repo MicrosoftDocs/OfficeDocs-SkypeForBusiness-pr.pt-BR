@@ -2,7 +2,7 @@
 title: Planejar a Exchange unificação de mensagens no Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: revise este tópico ao planejar a integração Skype for Business Server com Exchange 2013 ou 2016.'
-ms.openlocfilehash: ad9b51a282bdd2e1f922368fad29037515ef7bb5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7fcd5ea6f573fe40aacabebb1d8b974b2bf1e264
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777981"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850684"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar a Exchange unificação de mensagens no Skype for Business
 

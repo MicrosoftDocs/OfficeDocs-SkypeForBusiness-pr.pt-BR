@@ -2,7 +2,7 @@
 title: Adicioanr IP NAT de Servidor de Borda
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: O endereço IP público é o endereço IP utilizado pela NAT (conversão de endereços de rede). O endereço IP deve ser publicamente roteável, porque você selecionou a opção O endereço IP externo deste pool de Borda é convertido pela NAT na página Selecionar recursos deste assistente.
-ms.openlocfilehash: 6aa2a3444158e32f62288dc9c572aad8c067f8ae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 964673bd760ec71a299b968ff2140965ccb8351b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776351"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864888"
 ---
 # <a name="add-edge-server-nat-ip"></a>Adicionar IP NAT de Servidor de Borda
 

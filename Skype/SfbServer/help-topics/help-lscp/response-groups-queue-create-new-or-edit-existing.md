@@ -2,7 +2,7 @@
 title: Fila de Grupos de Resposta Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: As filas do Grupo de Resposta resitem chamadas para um grupo de resposta até que um agente responda à chamada.
-ms.openlocfilehash: c70742f19a088785275516f927e5a6fa7d5f9e6b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fba6a756ab12dda91c84aee5c0ed75679db71c71
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750500"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827754"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Fila de Grupos de Resposta: Criar Nova ou Editar Existente
 
@@ -46,11 +46,11 @@ A lista a seguir descreve os campos na página.
 
   - **Desconectar**
 
-  - **Encaminhar para caixa postal** Se você selecionar essa opção, no **endereço SIP,** digite um endereço de caixa postal no formato sip: <username> @ <domainname> (por exemplo, sip:bob@contoso.com).
+  - **Encaminhar para caixa postal** Se você selecionar essa opção, no **endereço SIP,** digite um endereço de caixa postal no formato sip: \<username> @ \<domainname> (por exemplo, sip:bob@contoso.com).
 
-  - **Encaminhar para o número de telefone** Se você selecionar essa opção, no **endereço SIP** digite o número de telefone no formato sip: <number> @ <domainname> (por exemplo, sip:+14255550121@contoso.com).
+  - **Encaminhar para o número de telefone** Se você selecionar essa opção, no **endereço SIP** digite o número de telefone no formato sip: \<number> @ \<domainname> (por exemplo, sip:+14255550121@contoso.com).
 
-  - **Encaminhar para endereço SIP** Selecione essa opção para encaminhar a chamada para outro usuário. No **endereço SIP,** digite o URI do usuário no formato sip: <username> @ <domainname> .
+  - **Encaminhar para endereço SIP** Selecione essa opção para encaminhar a chamada para outro usuário. No **endereço SIP,** digite o URI do usuário no formato sip: \<username> @ \<domainname> .
 
   - **Encaminhar para outra fila** Se você selecionar essa opção, navegue até a fila para receber chamadas quando as chamadas se desem tempo de espera.
 
@@ -64,11 +64,11 @@ A lista a seguir descreve os campos na página.
 
   - **Desconectar**
 
-  - **Encaminhar para caixa postal** Se você selecionar essa opção, no **endereço SIP,** digite um endereço de caixa postal no formato sip: <username> @ <domainname> (por exemplo, sip:bob@contoso.com).
+  - **Encaminhar para caixa postal** Se você selecionar essa opção, no **endereço SIP,** digite um endereço de caixa postal no formato sip: \<username> @ \<domainname> (por exemplo, sip:bob@contoso.com).
 
-  - **Encaminhar para o número de telefone** Se você selecionar essa opção, no **endereço SIP** digite o número de telefone no formato sip: <number> @ <domainname> (por exemplo, sip:+14255550121@contoso.com).
+  - **Encaminhar para o número de telefone** Se você selecionar essa opção, no **endereço SIP** digite o número de telefone no formato sip: \<number> @ \<domainname> (por exemplo, sip:+14255550121@contoso.com).
 
-  - **Encaminhar para endereço SIP** Selecione essa opção para encaminhar a chamada para outro usuário. No **endereço SIP,** digite o URI do usuário no formato sip: <username> @ <domainname> .
+  - **Encaminhar para endereço SIP** Selecione essa opção para encaminhar a chamada para outro usuário. No **endereço SIP,** digite o URI do usuário no formato sip: \<username> @ \<domainname> .
 
   - **Encaminhar para outra fila** Se você selecionar essa opção, navegue até a fila que receberá chamadas quando o limite de estouro da fila for atendido.
 
