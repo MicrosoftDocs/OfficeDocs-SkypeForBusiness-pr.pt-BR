@@ -2,7 +2,7 @@
 title: Skype for Business de vídeo cliente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Resumo: revise os requisitos de vídeo do cliente durante o planejamento para Skype for Business Server.'
-ms.openlocfilehash: 6a483a67b298f2d1ce9a32fbcd7e89882c0598aa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745877"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856548"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business de vídeo cliente
  
@@ -75,7 +75,7 @@ As três tabelas a seguir explicam a capacidade máxima de codificação e decod
 |640x360  <br/> |1920x1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 4.5  <br/> |
 |1280x720  <br/> |1280x720  <br/> |4 Núcleos e VideoEncodeScore ≥ 7.3  <br/> |
 |1280x720  <br/> |1920x1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 7.3  <br/> |
-|1920x1080  <br/> |1920x1080  <br/> |N/A  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |N/D  <br/> |
    
 **Computador com DXVA, mas sem codificador acelerado por hardware**
 

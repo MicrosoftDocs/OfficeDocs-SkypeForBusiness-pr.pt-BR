@@ -2,7 +2,7 @@
 title: Associar Front-end com Arquivamento
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 description: Cada pool de Front-Ends e Aparelho de Filial Persistente pode ter somente um Servidor de Arquivamento associado. Quando o arquivamento estiver habilitado no local, o Servidor de Arquivamento coletará e registrará conteúdo de mensagens do sistema de IM (sistema de mensagens instantâneas) e de Webconferências das conversas envolvendo os usuários hospedados nos pools e Aparelhos de Filial Persistentes associados.
-ms.openlocfilehash: d7f390c96a9e110295f673fecc78f09972e76f5e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9d23c73093fa32cee4566e3895813bca6266e367
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739307"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863868"
 ---
 # <a name="associate-front-end-with-archiving"></a>Associar Front-end com Arquivamento
  

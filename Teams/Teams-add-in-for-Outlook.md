@@ -1,6 +1,6 @@
 ---
 title: Usar suplemento de Reunião do Microsoft Teams no Outlook
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687bd993eb972a1d459812a54f81e364b9d64a22
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 38787b6f3fe11c1dfd8a9883f06bf19206360ec6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749107"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840893"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 
@@ -114,7 +114,7 @@ Devido a certas limitações na versão inicial, o Outlook mobile pode oferecer 
 
 Como administrador, você pode definir uma configuração de política de reunião do Teams para controlar qual suplemento de reunião do Outlook é usado para *usuários que estão no modo Ilhas*. Você pode especificar se os usuários podem usar apenas o suplemento de Reunião do Teams ou os suplementos de Reunião do Teams e de Reunião do Skype for Business para agendar reuniões no Outlook.
 
-Você só pode aplicar esta política a usuários que estão no modo Ilhas e têm o parâmetro **AllowOutlookAddIn** definido como **Verdadeiro** na política de reunião de suas equipes. Para obter as etapas sobre como definir esta política, confira [Configurações de política de reunião - Geral](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
+Você só pode aplicar esta política aos usuários que estão no modo Uso Paralelo e possuem o parâmetro **AllowOutlookAddIn** definido como **Verdadeiro** na política de reunião do Teams. Para obter as etapas sobre como definir esta política, confira [Configurações de política de reunião - Geral](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Outras considerações
 

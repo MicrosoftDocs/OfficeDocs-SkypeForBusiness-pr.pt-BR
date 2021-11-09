@@ -2,7 +2,7 @@
 title: Shell de Gerenciamento do Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: O Skype for Business Server Shell de Gerenciamento fornece a interface de linha de comando para administração e gerenciamento de servidores. Ele é criado com base Windows PowerShell e inclui um conjunto abrangente de cmdlets de gerenciamento e administração que são específicos para Skype e produtos de servidor herdados do Lync.
-ms.openlocfilehash: 2d8caadfb1dfe80af74861cf20fa0b155dd20d1a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3b9ea4658e7745bb1e6bd330c5dd865bf45a396a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750310"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857498"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Shell de Gerenciamento do Skype for Business Server
  

@@ -2,7 +2,7 @@
 title: Tabela ProgressReport
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Relatórios de andamento são baseados nos dados carregados pelo cliente no banco de dados após a conclusão de uma chamada ou sessão. Os relatórios de progresso serão gravados somente para chamadas e sessões que Skype for Business Server 2015 determina podem ser úteis para fins de diagnóstico.
-ms.openlocfilehash: 666320d64e319816666404dff3afd4f27b7413f4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7004361a1f66232df3827c3276a624d2699ac50b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740277"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856458"
 ---
 # <a name="progressreport-table"></a>Tabela ProgressReport
  

@@ -1,7 +1,7 @@
 ---
 title: O que é um pedido de portabilidade?
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obter uma visão geral de quais são os pedidos de portabilidade e como transferir números de telefone de seu provedor de serviços para Teams.
-ms.openlocfilehash: 936c915a79f7271ba85830122e374840f1a7050b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740237"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833025"
 ---
 # <a name="whats-a-port-order"></a>O que é um pedido de portabilidade?
 
@@ -174,7 +174,7 @@ Aqui estão os erros mais comuns que os clientes cometem ao portar números. Evi
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Qual é o status dos seus pedidos de portabilidade?](port-order-status.md)
-- [Diferentes tipos de números de telefone usados para Planos de Chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Diferentes tipos de números de telefone utilizados para Planos de Chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gerenciar os números de telefone de sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
 - [Rótulo de aviso de isenção de responsabilidade de chamada de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

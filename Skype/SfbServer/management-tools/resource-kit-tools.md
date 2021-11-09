@@ -2,7 +2,7 @@
 title: Skype for Business Server documentação de Ferramentas de Kit de Recursos 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Este artigo descreve as ferramentas no Kit de Recursos Skype for Business Server 2015, incluindo a finalidade de cada ferramenta e exemplos de seu uso. O Skype for Business Server 2015 Resource Kit ajuda a facilitar as tarefas de rotina para os administradores de IT que implantam e gerenciam o Skype for Business Server 2015. Por exemplo, a ferramenta Web Conf Data pode ser usada para controlar facilmente os dados carregados pelos usuários durante uma reunião online. A ferramenta SEFAUtil pode ser usada para configurar o encaminhamento de chamada delegada e o atendimento aos usuários. Incentivamos os administradores de IT a usar essas ferramentas para gerenciar com mais eficiência o Skype for Business Server 2015.
-ms.openlocfilehash: 2abe47086a014a04ab2ce15401c5e92e1fa2f0f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 04e66f19219291ef851b50af15dd796d36d44afb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760569"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857448"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server documentação de Ferramentas de Kit de Recursos 2015
 
@@ -1116,7 +1116,7 @@ Este exemplo define o destino de encaminhamento/sem resposta da chamada e o atra
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
 ```
 
- **Saída**
+ **Output**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1135,7 +1135,7 @@ Este exemplo habilita imediatamente o encaminhamento de chamada para outro usuá
 SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:anders@contoso.com
 ```
 
- **Saída**
+ **Output**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1153,7 +1153,7 @@ Este exemplo desabilita imediatamente o encaminhamento de chamada.
 SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
- **Saída**
+ **Output**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1189,7 +1189,7 @@ Este exemplo altera a regra de toque simultâneo definida no exemplo anterior pa
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringdelegates:10
 ```
 
- **Saída**
+ **Output**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1229,7 +1229,7 @@ Este exemplo adiciona um representante e configura a regra de encaminhamento de 
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
 ```
 
- **Saída**
+ **Output**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1267,7 +1267,7 @@ Este exemplo desabilita o toque simultâneo.
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimulring
 ```
 
- **Saída**
+ **Output**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1357,7 +1357,7 @@ Este exemplo desabilita a chamada de equipe para um determinado usuário.
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteamcall
 ```
 
- **Saída**
+ **Output**
 
 ```console
 User Aor: sip:katarina@contoso.com

@@ -2,7 +2,7 @@
 title: Enterprise Voice de planejamento
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: Com Enterprise Voice, o Skype for Business Server 2015 oferece uma oferta de VoIP (Protocolo Voz sobre Internet) autônomo para aprimorar ou substituir sistemas PBX tradicionais. Os usuários podem chamar colegas na rede VoIP ou PBX da sua organização e podem chamar números de telefone fora da sua organização. A solução Enterprise Voice inclui recursos comuns de chamada, como resposta, encaminhamento, transferência, espera, desvio, lançamento e estacionamento, e chamada Aprimorada 9-1-1 (E9-1-1) (E9-1-1 está disponível somente nos Estados Unidos).) Enterprise Voice também oferece suporte a uma ampla variedade de dispositivos IP e USB atuais e antigos.
-ms.openlocfilehash: 013d79a6588df6c7c55961ea78a7ba8fa86aa00a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d124071baa20dbdfe36d1c85c2843e45f487c94b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741987"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863468"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Enterprise Voice de planejamento
  

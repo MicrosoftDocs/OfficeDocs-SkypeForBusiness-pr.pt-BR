@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre os dados e relatórios disponíveis no Microsoft Call Quality Dashboard (CQD).
-ms.openlocfilehash: 0f54b6c3c69d65b12aa248f7180dec3617273857
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 04edfbcbdcfc8cc5a51a08bccd7c0dfc6c511e58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014615"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833075"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Dados e relatórios no Painel de Qualidade de Chamada (CQD)
 
@@ -43,7 +43,7 @@ Você pode acessar dados CQD por várias vias diferentes. Escolha o que melhor a
 |Teams centro de administração [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | Os dados do CQD são incluídos na página Usuários no centro de administração Teams, mostrando os dados mais comuns de que você precisa em um formato fácil de ler.  Você não pode personalizar dados CQD que você encontra em **Usuários**.  |
 |Portal CQD [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | Resumo robusto e relatórios detalhados que atendem à maioria das necessidades, com filtragem detalhada. Você também pode personalizar relatórios no portal do CQD. <br><br>Obter dois [modelos de relatório CQD para](#import-the-cqd-report-templates) ajudá-lo a analisar dados no portal do CQD.       |
 |Power BI     | Use consultas diretas para exibir seus dados CQD em Power BI usando modelos de Power BI [personalizáveis.](CQD-Power-BI-query-templates.md) [Baixe Power BI de consulta para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>Você também pode [usar a API REST para acessar dados CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) por meio Power BI. Use este método se quiser baixar seus dados CQD para que possa trabalhar neles offline. O benefício de usar esse método é o melhor desempenho, especialmente útil para conjuntos de dados grandes que se Power BI quando você está online.       |
-|API do Graph     | Acesse os dados de qualidade da chamada usando a [API Graph](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). Esse é o método mais complexo, mas oferece mais controle e flexibilidade na análise dos dados de qualidade de chamada. Por exemplo, se você precisar juná-lo com outros dados para sua organização, poderá usar a API Graph para criar um modelo de dados e incorporar dados de qualidade de chamada.        |
+|API do Graph     | Acesse os dados de qualidade da chamada usando a [API Graph](/graph/api/resources/callrecords-api-overview). Esse é o método mais complexo, mas oferece mais controle e flexibilidade na análise dos dados de qualidade de chamada. Por exemplo, se você precisar juná-lo com outros dados para sua organização, poderá usar a API Graph para criar um modelo de dados e incorporar dados de qualidade de chamada.        |
 
 ## <a name="import-the-cqd-report-templates"></a>Importar os modelos de relatório do CQD
 
@@ -106,9 +106,9 @@ O parâmetro Url Date aceita um campo Day. Os relatórios de dia de rolagem usam
 
 |URL| Data de término da tendência do dia de rolagem|
 |:---|:---|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02/</span>   |Dia atual de fevereiro de 2019|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02-15/</span>|15 de fevereiro de 2019|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /00/</span>        |Dia Atual|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /2019-02/</span>   |Dia atual de fevereiro de 2019|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /2019-02-15/</span>|15 de fevereiro de 2019|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /00/</span>        |Dia Atual|
 |||
 
 Por padrão, o dia atual do mês é usado como o último dia da Tendência do Dia de Rolagem.
@@ -247,7 +247,7 @@ Recomendamos que você carregue seus dados de locatário, construção e localiz
 
 ## <a name="create-custom-detailed-reports"></a>Criar relatórios detalhados personalizados
 
-Se os relatórios CQD padrão não atenderem às suas necessidades, use estas instruções para criar um relatório personalizado. Ou (a partir de janeiro de 2020) [Use o Power BI para relatórios CQD. ](cqd-power-bi-query-templates.md)
+Se os relatórios CQD padrão não atenderem às suas necessidades, use estas instruções para criar um relatório personalizado. Ou (a partir de janeiro de 2020) [Use Power BI para relatórios CQD. ](cqd-power-bi-query-templates.md)
 
 Na lista pull-down de relatórios na parte superior da tela exibida ao entrar na tela Relatórios de Resumo Selecione Relatórios Detalhados \(  \) e, em **seguida, Novo**.  Clique **em Editar** em um relatório para ver o Editor de Consulta. Cada relatório é respaldado por uma consulta no cubo. Um relatório é uma visualização dos dados retornados por sua consulta. O Editor de Consultas ajuda você a editar essas consultas e as opções de exibição do relatório.
 
@@ -348,7 +348,7 @@ Para adicionar um filtro no nível do Painel a uma URL, esse filtro deve existir
 
 `filter/DATA_MODEL_NAME|VALUE`
 
-Por exemplo, para aplicar um valor de filtro de produto do Microsoft Teams, adicione o seguinte:
+Por exemplo, para aplicar um valor de filtro de produto de Microsoft Teams, adicione o seguinte:
 
 `filter/[AllStreams].[Is%20Teams]|[True]`
 
@@ -363,7 +363,7 @@ Para aplicar filtros de URL com valores de várias seleções, separe cada valor
 Se você especificar um nome ou valor inválido, o filtro URL não será aplicado.
 
 
-Você pode usar um filtro de URL para filtrar cada relatório para uma dimensão específica. Os filtros de URL mais comuns são usados para filtrar relatórios para excluir a telemetria de participantes federados ou se concentrar apenas no Teams ou no Skype for Business Online. Excluir dados federados de relatórios CQD é útil quando você está remediando edifícios gerenciados ou redes onde pontos de extremidade federados podem influenciar seus relatórios.
+Você pode usar um filtro de URL para filtrar cada relatório para uma dimensão específica. Os filtros de URL mais comuns são usados para filtrar relatórios para excluir a telemetria de participantes federados ou se concentrar apenas em Teams ou Skype for Business Online. Excluir dados federados de relatórios CQD é útil quando você está remediando edifícios gerenciados ou redes onde pontos de extremidade federados podem influenciar seus relatórios.
 
 | Filter         | Descrição          | Exemplo de filtro de consulta CQD      |
 |----------------|----------------------|-------------------------------|
@@ -376,7 +376,7 @@ Você pode usar um filtro de URL para filtrar cada relatório para uma dimensão
 
 A ID do locatário no CQD corresponde à ID do Diretório no Azure. Se você não conhece a ID do Diretório, pode encontrá-la no portal do Azure:
 
-1.  Entre no portal do Microsoft Azure: <https://portal.azure.com>
+1.  Entre no portal Microsoft Azure:<https://portal.azure.com>
 
 2.  Selecione **Azure Active Directory**.
 
@@ -388,25 +388,25 @@ Você também pode encontrar sua ID de locatário usando o PowerShell:
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Comparando dados do Teams e do Skype for Business CQD
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Comparando Teams dados Skype for Business CQD
 
-Ao analisar seus dados, você pode ver diferenças nos dados entre o Teams e o Skype for Business. Alguns motivos:
+Ao analisar seus dados, você pode ver diferenças nos dados entre Teams e Skype for Business. Alguns motivos:
 - Diferenças nos mecanismos para garantir o desempenho e a confiabilidade:
-  - O Teams tem reconectação automática e roaming rápido. O Skype for Business não.
-  - O Teams tem gerenciamento dinâmico de largura de banda. O Skype for Business não.
-- Diferenças nos [intervalos de endereços IP](Office-365-URLs-IP-address-ranges.md) entre o Teams e o Skype for Business. Os intervalos ip do Teams são mais novos, o que pode causar problemas de conectividade no firewall.
+  - Teams tem reconexão automática e roaming rápido. Skype for Business não.
+  - Teams gerenciamento dinâmico de largura de banda. Skype for Business não.
+- Diferenças nos [intervalos de endereços IP](Office-365-URLs-IP-address-ranges.md) entre Teams e Skype for Business. Os Teams ip são mais novos, o que pode causar problemas de conectividade no firewall.
 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Melhorar e monitorar a qualidade das chamada para o Teams](monitor-call-quality-qos.md)
+[Melhorar e monitorar a qualidade de chamada para Teams](monitor-call-quality-qos.md)
 
 [O que é CQD?](CQD-what-is-call-quality-dashboard.md)
 
 [Configurar o Painel de Qualidade de Chamada (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Carregar dados de locatário e construção](CQD-upload-tenant-building-data.md)
+[Upload locatário e a criação de dados](CQD-upload-tenant-building-data.md)
 
 [Usar o CQD para gerenciar a qualidade de chamada e reunião](quality-of-experience-review-guide.md)
 
@@ -414,4 +414,4 @@ Ao analisar seus dados, você pode ver diferenças nos dados entre o Teams e o S
 
 [Classificação de fluxo no CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Usar o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md)
+[Usar Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md)

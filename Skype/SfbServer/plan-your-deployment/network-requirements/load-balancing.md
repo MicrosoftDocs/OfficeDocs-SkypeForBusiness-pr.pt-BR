@@ -2,7 +2,7 @@
 title: Requisitos de balanceamento de carga para Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumo: revise as considerações de balanceamento de carga antes de implementar Skype for Business Server.'
-ms.openlocfilehash: a738a615c773b3f2861899e061fbdbd664e05636
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4bdfc9d9958154df8ce485c945dbe8accd630ed8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777941"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840993"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para Skype for Business
  

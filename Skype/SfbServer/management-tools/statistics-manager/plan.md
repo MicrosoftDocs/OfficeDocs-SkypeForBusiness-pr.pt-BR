@@ -2,7 +2,7 @@
 title: Planejar o Gerenciador de Estatísticas do Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumo: leia este tópico para saber mais sobre o Gerenciador de Estatísticas para Skype for Business Server.'
-ms.openlocfilehash: 79f8bc38169d6cba52160772cd9ba0869e761b30
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778141"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857398"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar o Gerenciador de Estatísticas do Skype for Business Server
 

@@ -2,7 +2,7 @@
 title: Diálogo de Inicialização do Construtor de Topologia
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Você inicia o Construtor de Topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013. Na inicialização, o Construtor de Topologia exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma de três opções:'
-ms.openlocfilehash: 0d7f0dbba4ec46a94c231fd38605d8f739fd1aef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 991e6bcdfc62e046c7d46fb3d249ccee27bb9187
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765609"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863588"
 ---
 # <a name="topology-builder-startup-dialog"></a>Diálogo de Inicialização do Construtor de Topologia
 

@@ -2,7 +2,7 @@
 title: Expansor de Configurações de Próximo Salto de Bate-papo Persistente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você configura o pool de próximo salto de Chat Persistente selecionando um Servidor Front-End ou um pool de Front-End na lista.
-ms.openlocfilehash: 10035a33b25275bce9c59d124be5d101b7e69552
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3cf6d385d891db55478e97bcc69620c8dd2dbc67
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738127"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831135"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Chat Persistente
 
