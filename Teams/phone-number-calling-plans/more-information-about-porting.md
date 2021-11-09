@@ -1,6 +1,6 @@
 ---
 title: Mais informações sobre portação
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit,jastark
@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Receba as orientações que você precisa para por seus números de telefone para Microsoft Teams.
-ms.openlocfilehash: 02023cc88fbab5b1063ed2734db500aa3c14aa9c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761749"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848174"
 ---
 # <a name="more-information-about-porting"></a>Mais informações sobre portação
 
@@ -113,7 +113,7 @@ Veja [Qual é o status dos pedidos de portabilidade?](port-order-status.md)
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [O que é um pedido de portabilidade?](port-order-overview.md)
-- [Diferentes tipos de números de telefone usados para Planos de Chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Diferentes tipos de números de telefone utilizados para Planos de Chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gerenciar os números de telefone de sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
 - [Rótulo de aviso de isenção de responsabilidade de chamada de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

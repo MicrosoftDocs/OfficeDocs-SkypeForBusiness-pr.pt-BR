@@ -2,7 +2,7 @@
 title: Turnos do Teams
 description: Receba as diretrizes de administrador que você precisa configurar e gerenciar Turnos, a ferramenta de gerenciamento de agendamento, Teams.
 ms.topic: conceptual
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 audience: admin
 manager: serdars
@@ -21,12 +21,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 5e8de5e2c43751c1578678bff9e1f6e9099c4a6a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 509345043de3e26821043322454ec4f0e4ad05a2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756092"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848204"
 ---
 # <a name="shifts-for-teams"></a>Turnos do Teams
 

@@ -1,6 +1,6 @@
 ---
 title: Usar a API Teams envio de aplicativos para enviar e aprovar seus aplicativos personalizados
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como aprovar seus aplicativos personalizados enviados usando a API Teams envio de aplicativos em Microsoft Teams.
-ms.openlocfilehash: ff115ab34c30bf2acfc7f24407045c1d44c4eade
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0a49ffa07ec7b3a506d99d32c5fee1b43308af4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745507"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848154"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado por meio da API Teams envio de aplicativos
 
@@ -99,7 +99,7 @@ Por padrão, para os usuários encontrarem o aplicativo, eles precisam ir até a
 
 Você pode pesquisar o log de auditoria para exibir Teams de aplicativos em sua organização. Para saber mais sobre como pesquisar o log de auditoria e ver uma lista de atividades Teams que estão registradas no log de auditoria, consulte Pesquisar o log de auditoria em busca de eventos em <a href="/microsoftteams/audit-log-events" target="_blank">Teams</a>.
 
-Antes de poder pesquisar o log de auditoria, você precisa ativar a auditoria no <a href="https://protection.office.com" target="_blank">Centro de Conformidade e Segurança</a>. Para obter instruções, confira <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">Ativar ou desativar a pesquisa de log de auditoria</a>. Tenha em mente que os dados de auditoria só estão disponíveis a partir do ponto em que você ativou a auditoria.
+Para examinar o log de auditoria, você precisa ativar a auditoria no <a href="https://protection.office.com" target="_blank">Centro de Conformidade e Segurança</a>. Para obter instruções, confira <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">Ativar ou desativar a pesquisa de log de auditoria</a>. Tenha em mente que os dados de auditoria só estão disponíveis a partir do ponto em que você ativou a auditoria.
 
 ## <a name="discover-and-adopt"></a>Descobrir e adotar
 

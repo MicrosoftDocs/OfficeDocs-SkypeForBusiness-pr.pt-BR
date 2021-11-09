@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams Relatório de uso de PSTN
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso Teams PSTN no centro de adminis
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 380583f0615c3c169df99adeb46bec84b1cfe9e7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c6dccd9012b9756679bc09534d68f24a58052665
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758213"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861938"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams Relatório de uso de PSTN
 

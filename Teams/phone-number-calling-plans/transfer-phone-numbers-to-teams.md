@@ -1,6 +1,6 @@
 ---
 title: Transferir números de telefone para Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar o assistente de portação para transferir seu número de telefone do provedor de serviços atual para Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b487249e9a3744c2f83a9bece04a17e7e2948f01
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761739"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861948"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de telefone para Microsoft Teams
 
@@ -94,7 +94,7 @@ Para exibir o status da sua ordem de porta, na navegação à esquerda do centro
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [O que é um pedido de portabilidade?](port-order-overview.md)
-- [Diferentes tipos de números de telefone usados para Planos de Chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Diferentes tipos de números de telefone utilizados para Planos de Chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gerenciar os números de telefone de sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
 - [Rótulo de aviso de isenção de responsabilidade de chamada de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

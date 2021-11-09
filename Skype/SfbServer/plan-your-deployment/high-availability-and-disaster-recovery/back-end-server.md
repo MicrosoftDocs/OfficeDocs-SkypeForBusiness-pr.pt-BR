@@ -2,7 +2,7 @@
 title: Alta disponibilidade do Servidor Back-End no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Saiba mais sobre as opções de alta disponibilidade do Servidor Back-End com suporte no Skype for Business Server, incluindo Grupos de Disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn, espelhamento de banco de dados e SQL clustering de failover.
-ms.openlocfilehash: 6020f1a474c450da66fcb6fd5249db39fb0c29be
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9e7b06fc1894c67d6d4cee1e2ec04bf910181df5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773501"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847174"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Alta disponibilidade do Servidor Back-End no Skype for Business Server
  

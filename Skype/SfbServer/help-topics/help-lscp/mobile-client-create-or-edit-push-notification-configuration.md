@@ -2,7 +2,7 @@
 title: Configuração de Notificação por Push do Cliente Móvel
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: A Notificação por Push e o PNCH (Push Notification Clearing House) são duas partes principais do recurso de mobilidade. A notificação por push é o processo em que uma mensagem é enviada para o PNCH. A mensagem é mantida aqui até que possa ser entregue ao cliente móvel ou o período de tempo de expiração.
-ms.openlocfilehash: af9658627f47b790e632a3af8ffbeb37ce58e73a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bbab418e580b224ee269adbdf3f1aad3c36de469
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759753"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847774"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente Móvel: Crie ou Edite a Configuração de Notificação por Push
  

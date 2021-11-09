@@ -1,7 +1,7 @@
 ---
 title: Implantar Teams telefones, Teams e Salas do Microsoft Teams no Android usando o Intune
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams exibições.
-ms.openlocfilehash: 3d89dce290d241eebd3d71da560bb383a81f6a2a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 96ffaef167fd40b320ff4c1b9b7a6dca0e9c3325
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746467"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861958"
 ---
 # <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Implantar Teams telefones, Teams e Salas do Microsoft Teams no Android usando o Intune
 

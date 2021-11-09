@@ -1,7 +1,7 @@
 ---
 title: Requisitos mínimos de rede do Aplicativo Skype Meetings
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 6/4/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Resumo: informações para organizações que não usam Microsoft 365 ou Office 365 e precisam acessar reuniões hospedadas por organizações que usam.'
-ms.openlocfilehash: 2d27e578e448c44cd13190d4aedf1e15f611d997
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 28373203bd60182bd6065a6e7169e8f9f4908940
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751570"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862078"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Requisitos mínimos de rede do Aplicativo Skype Meetings
  

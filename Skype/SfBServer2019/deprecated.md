@@ -2,7 +2,7 @@
 title: O que é preterido do Skype for Business Server 2019
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumo: esses recursos foram removidos do Skype for Business Server 2019.'
-ms.openlocfilehash: 65229e091d903ca18fee89224e45aedef8c0ca40
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771720"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846974"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>O que é preterido do Skype for Business Server 2019
 

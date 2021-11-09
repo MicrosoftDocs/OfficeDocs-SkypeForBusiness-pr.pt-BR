@@ -1,7 +1,7 @@
 ---
 title: Planejar os clientes de Reuniões (Aplicativo Web e Aplicativo de Reuniões)
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: os profissionais de TI devem revisar os requisitos de suporte para o aplicativo de reuniões Skype for Business Web App e Skype durante o planejamento de Skype for Business Server. Este artigo não se destina aos usuários desses aplicativos.'
-ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dbf9f83599e36189c172daa37cdb7444659aad83
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762259"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862118"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planejar os clientes de Reuniões (Aplicativo Web e Aplicativo de Reuniões)
  
@@ -61,7 +61,7 @@ Para usar o Skype for Business Web App, um usuário deve ter uma das seguintes c
 |Windows 8 (baseado em Intel) &#x2776; <br/> |N/D  <br/> |N/D  <br/> |Sim  <br/> |N/D <br/> |N/D  <br/> |Sim &#x2778; <br/> |
 |Windows 7 com sp1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |N/D <br/>|Sim &#x2778; <br/> |
 |Windows Server 2008 R2 com sp1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |N/D <br/>|Sim &#x2778; <br/> |
-|macOS 10.8 e posterior (baseado em Intel) &#x2777; <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sim  <br/> |Sim <br/> |
+|macOS 10.8 e posterior (baseado em Intel) &#x2777; <br/> |N/D  <br/> |N/D  <br/> |Não disponível  <br/> |N/D  <br/> |Sim  <br/> |Sim <br/> |
    
 &#x2776; O plug-in do navegador Skype for Business Web App requer um plug-in de compartilhamento específico para usar voz, vídeo, compartilhamento e exibição de compartilhamento de tela em andamento e outros recursos. Um participante de reunião recebe a opção de instalar o plug-in de compartilhamento quando ingressar na reunião ou quando inicia um desses recursos. No Windows 8 e Windows 8.1, o plug-in de compartilhamento só poderá ser instalado se você estiver executando o Internet Explorer 10 ou o Internet Explorer 11 para a área de trabalho. Esses recursos não estão disponíveis com versões não desktop de Internet Explorer 10 e 11. Observe que o Firefox e o Safari versão 12.0 e posteriores não são mais suportados.
   

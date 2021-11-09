@@ -2,7 +2,7 @@
 title: Nó de Escopol AV de MCUs
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O nó  Pool de Conferência A/V  lista os pools de Conferência A/V da sua topologia. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: e9bdbaaf5e000f761ee67ffed1f4764c5c293b2a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9e43ecaf8b498a01d22b46f4e3f8b995a939b4ed
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750720"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847904"
 ---
 # <a name="av-mcus-scope-node"></a>Nó de Escopol AV de MCUs
  
