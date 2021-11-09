@@ -1,6 +1,6 @@
 ---
 title: Planejar eventos ao vivo no Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -20,12 +20,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84a167e2b53ce61d7d06848b10f63c7419bc9260
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 496c34d36c5e8288a6f29d33a47c1bd6fab2c38a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769809"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865449"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
