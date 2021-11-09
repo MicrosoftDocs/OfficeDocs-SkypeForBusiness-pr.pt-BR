@@ -2,7 +2,7 @@
 title: Adicionar Servidor
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Para adicionar um novo servidor a um pool de servidores existente, no qual o pool é um dos seguintes:'
-ms.openlocfilehash: 04a6412419ba9828dbb4dea70fcd4b30604c2213
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dc09530eec1b46fd6ab357997a6c4d8be8860016
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772277"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860348"
 ---
 # <a name="add-server"></a>Adicionar Servidor
  
