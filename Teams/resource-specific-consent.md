@@ -1,6 +1,6 @@
 ---
 title: Consentimento específico do recurso em Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: nkramer
 manager: serdars
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f12acd7d99f8ab841f47ca84bc677f104cc0f164
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 78444486dad4b1babc088a9da039319bc1e4029e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740227"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842583"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimento específico do recurso em Microsoft Teams
 

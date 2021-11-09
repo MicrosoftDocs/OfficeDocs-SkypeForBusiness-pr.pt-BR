@@ -2,7 +2,7 @@
 title: Solicitação de Certificado (Especificar Modelo)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página Especificar Modelo de Certificado Alternativo permite que você defina um modelo de certificado diferente do modelo de certificado WebServer usado por padrão. Marque a caixa de seleção Usar um modelo de certificado alternativo para autoridade de certificação selecionada e defina o nome do modelo de certificado alternativo na caixa de texto Nome do modelo de certificado. É necessário usar o nome do modelo conforme ele é definido na autoridade de certificação (CA). Clique em Voltar para voltar à página anterior. Clique em Cancelar para encerrar o processo de solicitação de certificado.
-ms.openlocfilehash: 358abe26c6334e2853fab5bbe5a1733030e77af1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cb234c74bd1a267d1f130b2116eefa7056b2b1bb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738817"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828254"
 ---
 # <a name="certificate-request-specify-termplate"></a>Solicitação de Certificado (Especificar Modelo)
  

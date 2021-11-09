@@ -1,6 +1,6 @@
 ---
 title: Telefone gerenciamento de números para a Itália
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Itália para Microsoft Teams.
-ms.openlocfilehash: 1b74b96e37fdb4bbe98c68567e619d146e20fa06
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 39dc464ac855993aa5f3d1987f37ecb95692a8f1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737517"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836049"
 ---
 # <a name="phone-number-management-for-italy"></a>Telefone gerenciamento de números para a Itália
 

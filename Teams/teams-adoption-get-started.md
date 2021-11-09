@@ -1,6 +1,6 @@
 ---
 title: Como começar a promover a adoção do Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8634e1071585fe026faec0fcfc5b2753317ae6b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 346843be81bbe6a4cb31f5706548fdc7d05d0d1f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769819"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842513"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Como começar a promover a adoção do Microsoft Teams
 

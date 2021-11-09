@@ -1,6 +1,6 @@
 ---
 title: Disponibilidade na Jamaica
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Jamaica.
-ms.openlocfilehash: ecac9baf800bd588d295fd686c14ca748183f407
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 940ca93742e3c52630575c637116e0d9d79658c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745677"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863148"
 ---
 # <a name="availability-in-jamaica"></a>Disponibilidade na Jamaica
 

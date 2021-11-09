@@ -2,7 +2,7 @@
 title: (Opcional) Verificar a implantação do Comunicado no Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: Verificando sua implantação do aplicativo De comunicado no Skype for Business Server Enterprise Voice. Isso afeta como as chamadas para números não atribuídos são manipuladas.
-ms.openlocfilehash: 8dbc5e2165d02d87b968620e835405cf6dc634ef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 493ebab118abbfae634bf2c189b292832f0d3b92
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753468"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828404"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(Opcional) Verificar a implantação do Comunicado no Skype for Business
  

@@ -2,7 +2,7 @@
 title: Selecionar um Link de Região
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Link de Região para encontrar links de região disponíveis em seu ambiente. Para usar um link de região existente, clique em um link de região na lista e clique em OK.
-ms.openlocfilehash: 7dff5aa544204137ff7e6379cb95490ececb1c87
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30997934ad871c3261155f1db6aded965e529a0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739907"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856088"
 ---
 # <a name="select-a-region-link"></a>Selecionar um Link de Região
  

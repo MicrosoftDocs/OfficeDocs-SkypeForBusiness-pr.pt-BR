@@ -1,6 +1,6 @@
 ---
 title: Criar seu programa de defensores do Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/30/2018
@@ -21,12 +21,12 @@ f1.keywords:
 description: Saiba como treinar uma equipe de campeões para promover Teams adoção por meio da conscientização, adoção e educação em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba4c0ffcf13e93c0fd0c39a64a8135e54fa592f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4b79cd1d9e00441681cad77a621f382d4238341
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760399"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842543"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Criar seu programa de defensores do Microsoft Teams
 

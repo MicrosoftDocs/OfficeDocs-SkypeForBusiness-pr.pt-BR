@@ -2,7 +2,7 @@
 title: Definindo regras de conversão em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server Enterprise Voice encaminha chamadas com base em números de telefone normalizados para o formato E.164. Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas para o formato E.164 com a finalidade de executar a RNL (busca de número reverso) para que possam ser traduzidas para o URI SIP correspondente. Skype for Business Server fornece a capacidade de manipular a ID chamada e a apresentação da ID do chamador.
-ms.openlocfilehash: 9dee0e90a9cd06abef43d190cc391861f4ad1438
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f7919707e6999c39dfc9a13b7d6b735a31f5e6a9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737717"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836293"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definindo regras de conversão em Skype for Business Server
 

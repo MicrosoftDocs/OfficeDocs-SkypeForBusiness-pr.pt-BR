@@ -2,7 +2,7 @@
 title: Borda Expandida de Adição de Mesclagem de Legado
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server não dá suporte à mesclação de uma configuração herdada do Servidor de Borda Office Communications Server 2007 R2 expandido. O Servidor de Borda expandido deve primeiro ser convertido em uma configuração de Servidor de Borda consolidada antes de mesclar as informações do Servidor de Borda.
-ms.openlocfilehash: 7593af5bc0adc85e66b36c4c2cbeffc5e07825f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 642ebbdfcb77dc0a4c63c5a8446f855e3d82ce69
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778521"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830415"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Borda Expandida de Adição de Mesclagem de Legado
  

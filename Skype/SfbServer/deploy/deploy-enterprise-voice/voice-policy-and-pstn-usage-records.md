@@ -2,7 +2,7 @@
 title: Criar ou modificar uma política de voz e configurar registros de uso PSTN em Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumo: crie ou modifique políticas de voz e configure registros de uso PSTN usando o painel de Skype for Business Server Controle.'
-ms.openlocfilehash: 0188881fe91d527c64b95a8cac49ba91ed12bf5f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5dedb504a6d2d3e75b168bf32ff1f0ccb7ed94f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769599"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828374"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Criar ou modificar uma política de voz e configurar registros de uso PSTN em Skype for Business
 

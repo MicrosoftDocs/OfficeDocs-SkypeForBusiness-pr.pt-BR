@@ -2,7 +2,7 @@
 title: Adicionar Opções de Servidor de Borda
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 'Selecione cada recurso que você deseja habilitar para o pool de Borda. Por padrão, o pool de Borda dá suporte a usuários remotos em sua organização que se insere fora do firewall usando uma VPN (rede virtual privada). Você também tem as seguintes opções de recurso de pool de borda:'
-ms.openlocfilehash: 9f7df9ca951274bf7fea309c74577c6c79bd9822
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e9da9c45335cf023dc7da99656fe8a266164efc9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762719"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862618"
 ---
 # <a name="add-edge-server-options"></a>Adicionar Opções de Servidor de Borda
 

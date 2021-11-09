@@ -2,7 +2,7 @@
 title: Lista de Verificação da Primeira Execução para o Painel de controle do Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Bem-vindo ao Skype for Business Server de controle, a interface de usuário baseada na Web para administração e gerenciamento de Skype for Business Server. Você pode usar o painel de controle para executar os tipos de tarefas administrativas que foram executadas usando o Console de Gerenciamento da Microsoft em versões anteriores.
-ms.openlocfilehash: 868817085bc14c918a77bdeee1db30d39b7130f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 987ec6afc4a6e6ed341452857d24354390235250
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770789"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836633"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Lista de Verificação da Primeira Execução para o Painel de controle do Skype for Business Server
 

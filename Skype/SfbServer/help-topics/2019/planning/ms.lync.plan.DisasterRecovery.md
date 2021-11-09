@@ -2,7 +2,7 @@
 title: Recuperação de Desastres (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server inclui medidas de recuperação de desastres permitindo que você emparelhe pools de Front-End localizados em dois data centers.
-ms.openlocfilehash: 76afa73e83b2128fa3d845042fcb9feed2cd41e1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3efebe7e0070b7655563add15704a366ff7a9527
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776911"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842253"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Recuperação de Desastres (Ferramenta de Planejamento)
  

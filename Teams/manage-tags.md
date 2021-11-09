@@ -1,6 +1,6 @@
 ---
 title: Gerenciar marcas em Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: acolonna, salu
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização em Microsoft Teams.
-ms.openlocfilehash: 8c623c4240466c7f7a6d11194e03e9717e302089
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d5ec8407dd413b2850603ad1eb7c6424e1d483d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771740"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856378"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas em Microsoft Teams
 

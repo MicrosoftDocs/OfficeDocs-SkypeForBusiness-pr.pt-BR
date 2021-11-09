@@ -2,7 +2,7 @@
 title: Associar relatórios de monitoramento a um banco de dados espelho em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Resumo: saiba como associar Relatórios de Monitoramento a um banco de dados espelho usado por Skype for Business Server.'
-ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748847"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856208"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associar relatórios de monitoramento a um banco de dados espelho em Skype for Business Server 
  

@@ -2,7 +2,7 @@
 title: Exibição ConferenceSessionDetails
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: O ConferenceSessionDetails visualiza as informações dos repositórios sobre sessões com vários participantes. Cada registro representa uma sessão de conferência, que poderia ser a sessão com Foco ou a sessão com um servidor de conferência específico. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: cebd4acd218d551f7f43dba39334c342441e216a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f35a815743dcfb8dba3d2a69943c9c5c42344a86
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771897"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849664"
 ---
 # <a name="conferencesessiondetails-view"></a>Exibição ConferenceSessionDetails
  

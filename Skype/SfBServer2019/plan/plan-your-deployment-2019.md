@@ -2,7 +2,7 @@
 title: Planejar sua implantação Skype for Business Server 2019
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2019
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumo: explore esses links para saber como desenvolver designs conceituais, lógicos e físicos para Skype for Business Server recursos, servidores e topologias de 2019.'
-ms.openlocfilehash: 6e4afa2d473b2ee668ab129506df15f612fa08ce
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd75f705c0307adc8819b09bb9c738dbdc9c38c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741507"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863118"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planejar sua implantação Skype for Business Server 2019
  

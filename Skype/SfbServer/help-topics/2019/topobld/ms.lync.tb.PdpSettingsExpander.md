@@ -2,7 +2,7 @@
 title: Expansor de Configurações do Serviço de Controle de Admissão de Chamadas
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: O serviço de controle de admissão de chamadas (CAC) é uma rede de regiões, sites e sub-redes que permite impor restrições às transmissões de áudio e vídeo com base na largura de banda disponível. Após configurar a rede para o CAC, habilite-o para impor as limitações de largura de banda.
-ms.openlocfilehash: 43e5fe0926c94977c2d19a7e5deccf83cb914799
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 66557874e804103df995ca55c3c825f10ad2b217
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752370"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828094"
 ---
 # <a name="call-admission-control-settings-expander"></a>Expansor de Configurações do Serviço de Controle de Admissão de Chamadas
  

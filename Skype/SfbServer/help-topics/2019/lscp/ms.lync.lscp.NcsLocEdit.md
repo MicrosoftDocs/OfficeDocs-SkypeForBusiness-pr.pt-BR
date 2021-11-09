@@ -2,7 +2,7 @@
 title: Política de Local Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode configurar políticas de local para determinar se o Enhanced 9-1-1 (E9-1-1) está habilitado e como ele é usado, bem como como as informações de local são usadas para usuários e contatos.
-ms.openlocfilehash: 8f45fefbd13d20e5bdbef2500b17a394f544aad1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95f11519421926074201d02a92bcfc64758ed015
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764639"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862998"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Política de Local: Criar Nova ou Editar Existente
 

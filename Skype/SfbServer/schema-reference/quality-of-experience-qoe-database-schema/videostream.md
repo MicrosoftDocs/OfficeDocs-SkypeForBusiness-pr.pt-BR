@@ -2,7 +2,7 @@
 title: Tabela VideoStream
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geralmente contém dois fluxos de vídeo.
-ms.openlocfilehash: 78bc415c7b95fd0f9b6ecb3f3242b5a29c93c0dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5e1b566db7ee3f79219835055d6e617beeea6da6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756062"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863248"
 ---
 # <a name="videostream-table"></a>Tabela VideoStream
  

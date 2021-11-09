@@ -1,6 +1,6 @@
 ---
 title: Expiração e renovação de equipe no Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb56013f411349907f602ff603441c41e6c68368
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 543678baf7604b4c7ea80a4c913ba8713ed841b2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758243"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828434"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiração e renovação de equipe no Microsoft Teams
 

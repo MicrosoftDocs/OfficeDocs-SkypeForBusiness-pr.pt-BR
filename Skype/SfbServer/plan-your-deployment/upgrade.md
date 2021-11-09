@@ -2,7 +2,7 @@
 title: Planejar a atualização para o Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Resumo: saiba mais sobre as coisas que você deve considerar ao planejar uma atualização para Skype for Business Server 2015. Baixe uma avaliação gratuita do Skype for Business Server 2015 no Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 3cd670d239d04f51ef8268ca74e0bba13f29d249
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: be1d780230f15b1bf8c8205f2453f7b852fdb27a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768479"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849674"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planejar a atualização para o Skype for Business Server 2015
  

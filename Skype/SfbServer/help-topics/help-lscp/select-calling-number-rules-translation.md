@@ -2,7 +2,7 @@
 title: Selecionar Conversão de Regras de Número de Chamada
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 'A caixa de diálogo Selecionar Regras de Conversão do Número de Chamada exibe as regras de conversão configuradas para sua implantação. Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:'
-ms.openlocfilehash: faeafc361b6471744746d6fc8cd9676afb07342e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bd799c496863739cab141f7918d29f841a50a7b0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748147"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830385"
 ---
 # <a name="select-calling-number-rules-translation"></a>Selecionar a Tradução das Regras de Número de Chamada
 

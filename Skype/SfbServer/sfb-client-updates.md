@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Fornece aos profissionais de IT links para as informações de atualização mais recentes para versões perpétuas dos clientes Skype for Business 2016, Skype for Business 2015 e Lync 2013
-ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c5afa83fa2c85a2a5812f5d192345755800e502d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013935"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863208"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Atualizações mais recentes para versões Skype for Business que usam Windows Installer (MSI)
 
@@ -89,7 +89,7 @@ Skype for Business compatibilidade com Microsoft 365 ou Office 365 seu ambiente 
 |Atualização de segurança para Skype for Business 2016 |[KB 3114960](https://support.microsoft.com/kb/3114960) | Abril de 2016|
 |Atualização para Skype for Business 2016 |[KB 3114846](https://support.microsoft.com/kb/3114846) | Março de 2016 |
 |Atualização para Skype for Business 2016 |[KB 3114696](https://support.microsoft.com/kb/3114696) | Fevereiro de 2016|
-|Atualização para Skype for Business 2016 |[KB 3114516](https://support.microsoft.com/kb/3114516) | Janeiro de 2016|
+|Atualização para Skype for Business 2016 |[KB 3114516](https://support.microsoft.com/kb/3114516) | janeiro de 2016|
 |Atualização de segurança para Skype for Business 2016 |[KB 3114372](https://support.microsoft.com/kb/3114372) | dezembro de 2015|
 |Atualização de segurança para Skype for Business 2016 |[KB 3085634](https://support.microsoft.com/kb/3085634) | Novembro de 2015|
 |Atualização de segurança para Skype for Business 2016 |[KB 2910994](https://support.microsoft.com/kb/2910994) | Setembro de 2015|
@@ -140,7 +140,7 @@ Skype for Business compatibilidade com Microsoft 365 ou Office 365 seu ambiente 
 |Atualização de segurança para Skype for Business 2015/Lync 2013|[KB 3114944](https://support.microsoft.com/kb/3114944) | Abril de 2016 |
 |Atualização para Skype for Business 2015/Lync 2013|[KB 3114831](https://support.microsoft.com/kb/3114831) | Março de 2016 |
 |Atualização para Skype for Business 2015/Lync 2013|[KB 3114732](https://support.microsoft.com/kb/3114732) | Fevereiro de 2016 |
-|Atualização para Skype for Business 2015/Lync 2013|[KB 3114502](https://support.microsoft.com/kb/3114502) | Janeiro de 2016 |
+|Atualização para Skype for Business 2015/Lync 2013|[KB 3114502](https://support.microsoft.com/kb/3114502) | janeiro de 2016 |
 |Atualização de segurança para Skype for Business 2015/Lync 2013|[KB 3114351](https://support.microsoft.com/kb/3114351) | dezembro de 2015 |
 |Atualização de segurança para Skype for Business 2015/Lync 2013|[KB 3039776](https://support.microsoft.com/kb/KB3039776) | dezembro de 2015 |
 |Atualização de segurança para Skype for Business 2015/Lync 2013|[KB 3101496](https://support.microsoft.com/kb/3101496) | Novembro de 2015 |
@@ -198,7 +198,7 @@ Número do pacote|Número de KB|Data do lançamento|
 |Atualização de segurança para Skype for Business 2015/Lync 2013|[KB 3114944](https://support.microsoft.com/kb/3114944) | Abril de 2016 |
 |Atualização para Skype for Business 2015/Lync 2013|[KB 3114831](https://support.microsoft.com/kb/3114831) | Março de 2016 |
 |Atualização para Skype for Business 2015/Lync 2013|[KB 3114732](https://support.microsoft.com/kb/3114732) | Fevereiro de 2016 |
-|Atualização para Skype for Business 2015/Lync 2013|[KB 3114502](https://support.microsoft.com/kb/3114502) | Janeiro de 2016 |
+|Atualização para Skype for Business 2015/Lync 2013|[KB 3114502](https://support.microsoft.com/kb/3114502) | janeiro de 2016 |
 |Atualização para Skype for Business 2015/Lync 2013|[KB 3039776](https://support.microsoft.com/kb/3039776) | dezembro de 2015 |
 |Atualização de segurança para Skype for Business 2015/Lync 2013|[KB 3114351](https://support.microsoft.com/kb/3114351) | dezembro de 2015 |
 |Atualização de segurança para Skype for Business 2015/Lync 2013|[KB 3101496](https://support.microsoft.com/kb/3101496) | Novembro de 2015 |
@@ -253,7 +253,7 @@ Número do pacote|Número de KB|Data do lançamento|
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 Software
 
-|Nome do Pacote|Data do lançamento| |
+|Nome do Pacote|Data do lançamento|&nbsp;|
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35451) | October 2012 |
 |[Lync Basic 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35450) | October 2012 |
