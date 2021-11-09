@@ -2,7 +2,7 @@
 title: Configurar Exchange Server Unificação de Mensagens para Skype for Business Server caixa postal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumo: Configure Exchange Server Unificação de Mensagens para Skype for Business Server caixa postal.'
-ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741287"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865278"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar Exchange Server Unificação de Mensagens para Skype for Business Server caixa postal
  
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 No comando anterior, o parâmetro Extensions representa o número de extensão telefônica do usuário. Neste exemplo, o usuário possui o número de extensão 100.
   
-Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com deve poder usar o Exchange unified messaging. Você pode verificar se o usuário pode se conectar Exchange UM executando o cmdlet [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) no Shell de Gerenciamento Skype for Business Server:
+Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com deve poder usar o Exchange unified messaging. Você pode verificar se o usuário pode se conectar Exchange UM executando o cmdlet [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) no Shell de Gerenciamento Skype for Business Server:
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-Se você possui um segundo usuário habilitado para unified messaging, é possível usar o cmdlet [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) para verificar se este segundo usuário pode deixar uma mensagem de caixa postal para o primeiro usuário.
+Se você possui um segundo usuário habilitado para unified messaging, é possível usar o cmdlet [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail) para verificar se este segundo usuário pode deixar uma mensagem de caixa postal para o primeiro usuário.
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -155,7 +155,7 @@ Ao integrar o Microsoft Skype for Business Server com Exchange Unificação de M
 - Crie um grupo de busca de UM para cada gateway IP de UM. O identificador piloto de cada grupo de busca especifica o plano de discagem URI SIP de UM usado pelo pool de front-end Skype for Business Server ou servidor Edição Standard que está associado ao gateway IP de UM.
 - Concede Skype for Business Server permissão para ler objetos contêiner de UM do Active Directory, como planos de discagem de UM, atendentes automáticos, gateways IP de UM e grupos de busca de UM.
   > [!IMPORTANT]
-  > Cada floresta de UM deve ser configurada para confiar na floresta na qual o Skype for Business Server é implantado, e a floresta na qual o Skype for Business Server 2013 é implantado deve ser configurado para confiar em cada floresta de UM. Se Exchange UM estiver instalado em várias florestas, as etapas de integração do Exchange Server devem ser executadas para cada floresta de UM ou você terá que especificar o domínio Skype for Business Server. Por exemplo, ExchUcUtil.ps1 –Forest:<lync-domain-controller-fqdn>. 
+  > Cada floresta de UM deve ser configurada para confiar na floresta na qual o Skype for Business Server é implantado, e a floresta na qual o Skype for Business Server 2013 é implantado deve ser configurado para confiar em cada floresta de UM. Se Exchange UM estiver instalado em várias florestas, as etapas de integração do Exchange Server devem ser executadas para cada floresta de UM ou você terá que especificar o domínio Skype for Business Server. Por exemplo, ExchUcUtil.ps1 –Forest: \<lync-domain-controller-fqdn> . 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Use o Shell para executar o script ExchUcUtil.ps1
 

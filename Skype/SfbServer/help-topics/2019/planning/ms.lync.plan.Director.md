@@ -2,7 +2,7 @@
 title: Diretor (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um Diretor é um servidor que executa Skype for Business Server software de comunicações que pode autenticar solicitações de usuário, mas não abriga nenhuma conta de usuário.
-ms.openlocfilehash: c8aa280fec1d7b3d57edd0027ebad4cbdb909827
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1d7d65502e6c306a1ed709dbd3c1f6a66370f14a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750900"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833657"
 ---
 # <a name="director-planning-tool"></a>Diretor (Ferramenta de Planejamento)
  

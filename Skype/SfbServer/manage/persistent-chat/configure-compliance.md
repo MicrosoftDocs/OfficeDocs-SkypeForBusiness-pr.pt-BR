@@ -2,7 +2,7 @@
 title: Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumo: saiba como configurar o serviço de Conformidade do Servidor de Chat Persistente Skype for Business Server 2015.'
-ms.openlocfilehash: af574e4b449211f1631c332e7f494fba6c75e750
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778311"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858238"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015
 

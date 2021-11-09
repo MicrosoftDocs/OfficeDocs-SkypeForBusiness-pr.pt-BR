@@ -1,6 +1,6 @@
 ---
 title: Disponibilidade na Nigéria
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Nigéria.
-ms.openlocfilehash: d88d602fba36803cf9b3ef7972c6fb90fe04516d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2227e9a63189062449e4d5a0a91e6208e08625ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745657"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858048"
 ---
 # <a name="availability-in-nigeria"></a>Disponibilidade na Nigéria
 

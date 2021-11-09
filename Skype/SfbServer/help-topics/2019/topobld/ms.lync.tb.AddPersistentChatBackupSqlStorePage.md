@@ -2,7 +2,7 @@
 title: Adicionar Backup do Chat Persistente do Repositório do SQL Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Configure os armazenamentos de SQL Server backup que fornecerão bancos de dados de backup para o Servidor de Chat Persistente ou pool de Servidores de Chat Persistente.
-ms.openlocfilehash: 084bb029fbce97f67f1d06c5f90fffc73ae43446
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95785618bfdc75b4b8d68f6ba22248884904f8e4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769339"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864108"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Adicionar Backup do Chat Persistente do Repositório do SQL Server
 

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46bdd1c8e045d7046850cf7178e5682bc686b29d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb2cd0b2c4465dfe67493873980159ecfe836c6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615177"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858678"
 ---
 # <a name="skype-for-business-online-retirement"></a>Desativação do Skype for Business Online
 
@@ -74,8 +74,9 @@ Aproveite os recursos disponíveis para ajudar a planejar sua implantação Team
 Se você for um cliente Skype for Business Online atual, comece a planejar sua atualização para Teams hoje. Estamos animados para que você experimente seus poderosos recursos de comunicação e colaboração, e estamos comprometidos em ajudar ao longo do caminho.
 
 ## <a name="what-to-expect-post-retirement"></a>O que esperar após a aposentadoria
+Não é mais possível que os usuários que estão na nuvem sejam atribuídos a um modo diferente do TeamsOnly. Os usuários que são o TeamsOnly não podem ser atribuídos a nenhum outro modo de coexistência.
 
-A Microsoft fornecerá atualizações assistidas para usuários Skype for Business Online que não Teams modo Somente na aposentadoria. Os clientes receberão notificações no centro de administração do Teams e no Centro de Mensagens Microsoft 365, 90 dias antes da data de atualização agendada para permitir tempo de preparação técnica e do usuário.
+Além disso, a Microsoft fornecerá atualizações assistidas para usuários Skype for Business Online que não Teams modo Somente na aposentadoria. Os clientes receberão notificações no centro de administração do Teams e no Centro de Mensagens Microsoft 365, 90 dias antes da data de atualização agendada para permitir tempo de preparação técnica e do usuário.
 
 Depois que a atualização assistida for concluída, todos os usuários online estarão Teams modo Somente. Os usuários no Teams somente recebem chats e chamadas de entrada e agendam reuniões, Teams. Os usuários Teams modo Somente não poderão iniciar chats ou chamadas ou agendar reuniões no Skype for Business Online. Teams Somente os usuários ainda poderão ingressar em reuniões Skype for Business agendadas por usuários que ainda usam Skype for Business Server.
 

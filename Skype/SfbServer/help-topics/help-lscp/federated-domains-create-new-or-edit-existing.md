@@ -2,7 +2,7 @@
 title: Domínios Federados Criar Novo ou Editar Existentes
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 0450d1ca82d75ef9af5468c304c30bab1481512d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d8dc81ed221f477e55ce8f576e4755fe1b6011f4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760929"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842093"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>Domínios Federados: Criar Novos ou Editar Existentes
 

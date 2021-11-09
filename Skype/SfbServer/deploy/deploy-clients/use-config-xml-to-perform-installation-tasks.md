@@ -1,7 +1,7 @@
 ---
 title: Usar Config.xml para executar tarefas de instalação em Skype for Business clientes
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Resumo: como usar o arquivo Config.xml para especificar instruções de instalação adicionais.'
-ms.openlocfilehash: 76bf5980f7ced3c2e92f53ade8a51eaf3835054d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0dcc16a09540965346ea014a8c39be0470e4f09
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742937"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858668"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Usar Config.xml para executar tarefas de instalação em Skype for Business clientes
 
@@ -54,7 +54,7 @@ Os Config.xml mais comumente usados para Skype for Business instalação são li
 | OptionState  <br/>       | Especifica como os recusos de produto específicos são manipulados durante a instalação. Use os atributos a seguir para impedir a instalação de Serviços Corporativos de Conectividade, que inclui componentes compartilhados que interferem no Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Display  <br/>           | O nível deUI que a Instalação exibe para o usuário. Entre os atributos comuns estão os seguintes: <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | Registrar em log  <br/>           | Opções para o tipo de registro em log executado pela Instalação. Entre os atributos comuns estão os seguintes: <br/>  Digite ="Off"                                                                                                                                                                                       |
-| Configuração  <br/>           | Especifica valores para as propriedades do Windows Installer. Entre os atributos comuns estão os seguintes:<br/>  Definindo Id=" *nome*" (o nome da propriedade Windows Installer)  <br/>  Valor=" *valor*" (o valor a ser atribuído à propriedade)  <br/>                                                             |
+| Setting  <br/>           | Especifica valores para as propriedades do Windows Installer. Entre os atributos comuns estão os seguintes:<br/>  Definindo Id=" *nome*" (o nome da propriedade Windows Installer)  <br/>  Valor=" *valor*" (o valor a ser atribuído à propriedade)  <br/>                                                             |
 | DistributionPoint  <br/> | O caminho totalmente qualificado do ponto de instalação de rede do qual a instalação deve ser executada. Inclui o atributo Location:<br/>  Caminho *Location="*"  <br/>                                                                                                                                     |
 
 O exemplo a seguir mostra um arquivo Config.xml para uma instalação silenciosa típica do Skype for Business cliente. 

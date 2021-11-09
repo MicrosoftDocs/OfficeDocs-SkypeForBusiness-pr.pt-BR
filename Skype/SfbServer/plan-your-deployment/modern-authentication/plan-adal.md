@@ -2,7 +2,7 @@
 title: Planejamento para autenticação moderna (ADAL) com Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Este artigo explica o que é a Autenticação Moderna (baseada na Biblioteca de Autenticação do Active Directory (ADAL) e OAuth 2.0.
-ms.openlocfilehash: af2ab64b2719348f2c1bb860ae560ea79509921f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 40bf87317b68e258fc6576b1ce7be7b8decc6939
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759493"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834077"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Como usar a Autenticação Moderna (ADAL) com Skype for Business
  

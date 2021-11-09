@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes sobre governança do Microsoft Education para administradores
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1e9af313bc24919f96008d7f1ff5bf7383df3260
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 66fc220e2796ae35b7a11467e16da98ab475d647
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774441"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831725"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Perguntas frequentes sobre governança do Microsoft Education para administradores
 

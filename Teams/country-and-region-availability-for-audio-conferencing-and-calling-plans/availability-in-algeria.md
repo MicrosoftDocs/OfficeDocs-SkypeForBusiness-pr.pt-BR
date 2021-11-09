@@ -1,6 +1,6 @@
 ---
 title: Disponibilidade na Argélia
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Argélia.
-ms.openlocfilehash: 370a31dcca0528dd3768f025c1ad090f2a20941b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7b83eaf1ddf776e301258bf696549e479d0ff9c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777711"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858898"
 ---
 # <a name="availability-in-algeria"></a>Disponibilidade na Argélia
 

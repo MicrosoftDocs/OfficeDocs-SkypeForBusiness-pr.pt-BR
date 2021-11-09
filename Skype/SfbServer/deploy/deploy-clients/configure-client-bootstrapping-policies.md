@@ -2,7 +2,7 @@
 title: Configurar as políticas de inicialização do cliente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Resumo: Como gerenciar políticas de grupo.'
-ms.openlocfilehash: 0cf5dedc464dfbfb542d41cbf0477011cd1fbfd4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751380"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831645"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Configurar as políticas de inicialização do cliente
  

@@ -1,6 +1,6 @@
 ---
 title: Configurações de rede para recursos de voz na nuvem
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2165ea1e4e9732f0e840b4f0949b230f5243121d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 862d696024baa75feefbbae7e4458caad22b5566
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769939"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833977"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configurações de rede para recursos de voz na nuvem Microsoft Teams
 

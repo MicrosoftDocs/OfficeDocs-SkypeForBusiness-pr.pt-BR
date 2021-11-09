@@ -2,7 +2,7 @@
 title: Funções administrativas e Skype for Business Server painel de controle
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para permitir que você delegar tarefas administrativas enquanto mantém altos padrões de segurança, Skype for Business Server dá suporte ao controle de acesso baseado em função (RBAC).
-ms.openlocfilehash: 8ede6e5c45a7dbd47e3cf7522edf34b290f10e7a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6692ba3116ad88898c73660fd209d6a63528cfdd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752930"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864208"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>Funções administrativas e Skype for Business Server painel de controle
 

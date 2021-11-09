@@ -1,7 +1,7 @@
 ---
 title: Gerenciamento de recuperação de desastres, alta disponibilidade e Serviço de Backup
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Saiba mais sobre procedimentos para operações de recuperação de desastres, bem como para manter o Serviço de Backup, que sincroniza os dados em pools front-end emparelhados.
-ms.openlocfilehash: 962f595dffb56f36ce8d6008db62308c352706cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763699"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849934"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gerenciamento Skype for Business Server recuperação de desastres, alta disponibilidade e Serviço de Backup
 

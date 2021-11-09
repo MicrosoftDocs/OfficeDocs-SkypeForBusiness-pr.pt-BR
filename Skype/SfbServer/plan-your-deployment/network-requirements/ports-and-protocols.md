@@ -2,7 +2,7 @@
 title: Requisitos de porta e protocolo para servidores
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: revise as considerações de uso da porta antes de implementar Skype for Business Server.'
-ms.openlocfilehash: a1523ccb821006737a53094151d4a6694c502fc4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c820070fb73dd1f3325b0141a3fa05b3f19bd683
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777931"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834067"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -51,7 +51,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
   
 **Portas do servidor necessárias (por Função de servidor)**
 
-|Função de servidor|Nome do serviço|Porta|Protocolo|Notas|
+|Função de servidor|Nome do serviço|Porta|Protocolo|Observações|
 |:-----|:-----|:-----|:-----|:-----|
 |Todos os servidores  |Navegador do SQL  |1434  |UDP  |SQL Navegador para a cópia replicada local do banco de dados do Armazenamento de Gerenciamento Central.  |
 |Front-End Servidores  |Skype for Business Server Front-End serviço  |5060  |TCP  |Usada como opção pelos servidores Standard Edition e Servidores Front-End para rotas estáticas para serviços confiáveis, como servidores de controle de chamada remota.  |
@@ -152,7 +152,7 @@ Seus pools do Front-End e do Diretor que usam o balanceamento de carga DNS tamb�
 
 **Portas do cliente necessárias**
 
-|Componente|Porta|Protocolo|Notas|
+|Componente|Porta|Protocolo|Observações|
 |:-----|:-----|:-----|:-----|
 |Clientes  |67/68  |DHCP  |Usado por Skype for Business Server para encontrar o FQDN do Registrador (isto é, se o SRV DNS falhar e as configurações manuais não estão configuradas).  |
 |Clientes  |443  |TCP (TLS)  |Usada para tráfego SIP do cliente para o servidor para acesso de usuário externo.  |

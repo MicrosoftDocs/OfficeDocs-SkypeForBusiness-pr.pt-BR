@@ -2,7 +2,7 @@
 title: Nó de Escopo de Gateway PSTN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), o Servidor de Mediação associado e outras informações básicas sobre este gateway PSTN (rede telefônica pública comutada). Você pode executar as seguintes ações:'
-ms.openlocfilehash: 27fbbb3f19bbb49c3e8c273b8252d3e77a88a280
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2d9f0665076731b91d82ce00a86f6feb1bcd1606
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770359"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833417"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nó de Escopo de Gateway PSTN
  

@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Não é possível excluir completamente uma política global. Usar a **opção Excluir** na política global apenas redefine a política global para as configurações padrão, que não incluem suporte para qualquer opção de acesso de usuário externo.
-ms.openlocfilehash: b3748ee6a2e8bcfde9cec58a45db48f73bbabcc3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e55107de4aec5832b8c04dcf679fd9d5f5555c53
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765429"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849984"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Redefinir a política global para acesso de usuário externo Skype for Business Server 
 

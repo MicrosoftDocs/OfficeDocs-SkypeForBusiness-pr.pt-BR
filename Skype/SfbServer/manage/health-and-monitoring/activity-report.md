@@ -2,7 +2,7 @@
 title: Relatório de Atividades de Conferência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Resumo: saiba mais sobre o Relatório de Atividade de Conferência usado Skype for Business Server.'
-ms.openlocfilehash: fcbe28d031abc7803cd8b84a67c3baeef42eff08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c136bfaeb40a9b84c2861332636916353856855f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774941"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849924"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Relatório de Atividades de Conferência no Skype for Business Server
  
