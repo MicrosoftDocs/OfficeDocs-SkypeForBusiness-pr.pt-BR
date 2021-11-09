@@ -2,7 +2,7 @@
 title: Política de Versão do Cliente Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 description: É possível especificar a versão de clientes suportados em seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente. Para fazer o maior uso dos recursos incluídos no Skype for Business Server 2015 e melhorar a experiência geral do usuário, você pode usar o filtro de versão do cliente para restringir as versões do cliente que são usadas em seu ambiente. Usando o filtro de versão do cliente, também é possível reduzir os custos associados ao suporte de várias versões de clientes.
-ms.openlocfilehash: 84a89c4bf8c2881f9633480eb1942e18dc42019e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b54280f1401af89003c048720772891706b6b77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776571"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861548"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Política da Versão do Cliente: Criar Nova ou Editar Existente
 

@@ -1,6 +1,6 @@
 ---
 title: Teams integração com a Plataforma Microsoft Power
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: kvivek
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais Teams integração com ferramentas do Microsoft Power Platform, incluindo Power BI, aplicativos do Power, Power automate e Power Virtual Agents.
-ms.openlocfilehash: afba854409d36cc7f16a1a753f79d06b2ad880b6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f7a0f600b0110d367c88fc856044e867c56e08cb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742947"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860908"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams integração com a Plataforma Microsoft Power
 

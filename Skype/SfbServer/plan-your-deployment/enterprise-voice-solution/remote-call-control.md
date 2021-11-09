@@ -2,7 +2,7 @@
 title: Planejar o controle de chamada remota no Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: O controle de chamada remota era um recurso em versões anteriores do Lync Server que permitia aos usuários controlar seus telefones PBX com o Lync Server. Em Skype for Business Server, esse recurso foi substituído por Call Via Work. Nas versões do cliente para Skype for Business Server 2015 e adiante, o controle de chamada remota não está mais disponível para configurar no cliente e foi removido para uso.
-ms.openlocfilehash: 23d8f25f4a416c10bf4fd186db68a729703891ca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1007c4d6d94cc18248adc465061374bace32dc4f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746737"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860978"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Planejar o controle de chamada remota no Skype for Business
  

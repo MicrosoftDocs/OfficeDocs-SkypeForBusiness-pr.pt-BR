@@ -2,7 +2,7 @@
 title: Location-Based roteamento para conferência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planejamento de roteamento baseado em local para conferência em Skype for Business Server Enterprise Voice, incluindo transferências de chamadas consultivas.
-ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768509"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855398"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based roteamento para conferência no Skype for Business Server
 

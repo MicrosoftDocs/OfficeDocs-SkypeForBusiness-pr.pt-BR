@@ -2,7 +2,7 @@
 title: Práticas recomendadas para sua infraestrutura principal no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Provavelmente, você já executou etapas para designar a tolerância a falha em seu sistema, usando práticas como a garantia da redundância de hardware, proteção contra perda de energia, instalação rotineira de atualizações de segurança e medidas antivírus, e atividade do Monitoring Server. Essas práticas beneficiam não apenas sua infraestrutura Skype for Business Server, mas também toda a rede. Se você não implementou essas práticas, recomendamos que você faça isso antes de implantar Skype for Business Server.
-ms.openlocfilehash: c3f07914f69881f4a9ce0c1f7d4451809b06f8e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737627"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860938"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Práticas recomendadas para sua infraestrutura principal no Skype for Business Server
  

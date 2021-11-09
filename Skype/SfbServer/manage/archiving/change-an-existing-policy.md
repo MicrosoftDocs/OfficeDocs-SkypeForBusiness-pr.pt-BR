@@ -2,7 +2,7 @@
 title: Alterar uma política de arquivamento existente no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Resumo: saiba como alterar as políticas de arquivamento do usuário para Skype for Business Server.'
-ms.openlocfilehash: 555a8822ddf563b8ddce88ed94d56f153c93c795
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b6ddc379f2b5652311be051d47d644a8e2923c1c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767951"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854385"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Alterar uma política de arquivamento existente no Skype for Business Server
  

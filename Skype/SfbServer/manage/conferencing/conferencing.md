@@ -2,7 +2,7 @@
 title: Gerenciar conferências em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Resumo: Saiba como gerenciar a conferência em Skype for Business Server.'
-ms.openlocfilehash: ef1afdecaec5ae237020b1681d95b556a37e2ab8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751770"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845454"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Gerenciar conferências em Skype for Business Server
  

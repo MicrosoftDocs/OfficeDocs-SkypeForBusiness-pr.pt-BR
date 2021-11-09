@@ -1,7 +1,7 @@
 ---
 title: Restrições de discagem de chamada gratuita na Dinamarca
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostrarão os códigos de acesso necessários em cada país/região para discar o número gratuito.
-ms.openlocfilehash: f7ec53112c2b3b72ab620b86b30b90bfcce5e0a8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef8f8aad694c9083c805d9f1ba7c42027dc053e3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745417"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855115"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Restrições de discagem de chamada gratuita na Dinamarca
 

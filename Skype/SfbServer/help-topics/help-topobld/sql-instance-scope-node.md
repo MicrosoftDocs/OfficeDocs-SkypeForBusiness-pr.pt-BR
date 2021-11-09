@@ -2,7 +2,7 @@
 title: Nó de Escopo de Instância SQL
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) desse Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. É possível executar as seguintes ações:'
-ms.openlocfilehash: 4d8df1c33f08a31b7c76945bfd006233b83a369d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b046b70396af5fdd4249456fc1dea6203580a673
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766639"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861418"
 ---
 # <a name="sql-instance-scope-node"></a>Nó de Escopo de Instância SQL
  

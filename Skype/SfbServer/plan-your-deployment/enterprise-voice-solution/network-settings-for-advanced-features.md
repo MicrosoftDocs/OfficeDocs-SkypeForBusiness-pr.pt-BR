@@ -2,7 +2,7 @@
 title: Configurações de rede para os recursos de Enterprise Voice avançados no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Saiba mais sobre regiões de rede, sites de rede e sub-redes IP. Todos eles devem ser configurados para implantar Plan for media bypass em Skype for Business, Plan for call admission control in Skype for Business Server) ou Plan for emergency services in Skype for Business Server in Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 50e076cd4be0e0c98b6319a7d0b4ce1a848689cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762109"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861088"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configurações de rede para os recursos de Enterprise Voice avançados no Skype for Business Server
 

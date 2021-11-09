@@ -2,7 +2,7 @@
 title: Gerenciar locais para provedores de serviços de tronco SIP em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Decisões necessárias para o planejamento de um banco de dados de informações de localização ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4667ea571fe3bbb022c8dd1ee1483e6195165ec9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751540"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855288"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gerenciar locais para provedores de serviços de tronco SIP em Skype for Business Server
 
@@ -33,7 +33,7 @@ Você preenche o banco de dados de serviço de Informação de Local com um Loca
 
 - Forneça um nome fácil de entender que identifica o local do chamador de 911 para garantir que os respondentes de emergência encontrem a localização específica prontamente, assim que eles chegarem ao endereço residencial. Esse nome de local pode incluir um número de edifício, número do andar, designador de ala, número do quarto, etc. Evite usar apelidos que apenas os funcionários conheçam, pois isso pode fazer com que os respondentes de emergência cheguem ao local errado.
 
-- Um identificador de local que ajuda os usuários a ver facilmente que o cliente Skype for Business escolheu o local correto. O Skype for Business cliente automaticamente concatena e exibe os campos **Local** e **Cidade** descobertos em seu header. Uma boa prática é adicionar o endereço de rua do edifício a cada identificador de local (por exemplo, "1º Andar <street number> "). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
+- Um identificador de local que ajuda os usuários a ver facilmente que o cliente Skype for Business escolheu o local correto. O Skype for Business cliente automaticamente concatena e exibe os campos **Local** e **Cidade** descobertos em seu header. Uma boa prática é adicionar o endereço de rua do edifício a cada identificador de local (por exemplo, "1º Andar \<street number> "). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
 
 - Se o local for aproximado porque ele é determinado por um ponto de acesso sem fio, você pode adicionar a palavra **[Near]** (por exemplo, "Próximo ao 1º Andar 1234").
 

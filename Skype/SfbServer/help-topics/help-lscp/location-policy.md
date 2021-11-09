@@ -2,7 +2,7 @@
 title: Política de Local
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: As políticas de local determinam se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.
-ms.openlocfilehash: 7077d10a834fbc42aba6ddd9da3aa64a65b1bebd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cfdff82c16aa4a9430bf8923cddd28bf26dad85a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757377"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840293"
 ---
 # <a name="location-policy"></a>Política de Local
 

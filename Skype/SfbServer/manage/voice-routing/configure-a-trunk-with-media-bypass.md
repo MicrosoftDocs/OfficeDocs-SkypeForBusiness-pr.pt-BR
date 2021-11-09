@@ -2,7 +2,7 @@
 title: Skype for Business Server - Configurar um tronco com bypass de mídia
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Como configurar um tronco com bypass de mídia habilitado. "
-ms.openlocfilehash: 40a3b991481a8cf9cfb26be8ad45aa97dccf261f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3255aa946cdbec46bf76860d64fe2ca367862a50
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739227"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861248"
 ---
 # <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>Skype for Business Server - Configurar um tronco com bypass de mídia 
 

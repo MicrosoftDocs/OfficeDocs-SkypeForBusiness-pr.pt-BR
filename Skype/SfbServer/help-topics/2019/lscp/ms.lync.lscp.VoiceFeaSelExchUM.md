@@ -2,7 +2,7 @@
 title: Selecionar um Atendedor Automático do UM do Exchange
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar Atendedor Automático de UM do Exchange para selecionar um Atendedor Automático de UM do Exchange que lidará com as chamadas de entrada para um intervalo de números não atribuídos.
-ms.openlocfilehash: 82a9c69ba935ccbbfb8d2ff17baee02b7c3eea4f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e36e27d0cab93258f60c7d96db2df11438f0672
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750950"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860718"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Selecionar Atendimento Automático do UM do Exchange
 

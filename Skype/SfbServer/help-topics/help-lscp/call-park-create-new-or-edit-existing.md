@@ -2,7 +2,7 @@
 title: Estacionamento de chamada Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: Os intervalos de números do Estacionamento de Chamadas definem os números temporários em que as chamadas estacionadas são mantidas até que alguém as recupere ou elas se desemem tempo.
-ms.openlocfilehash: c8d489c75516357193ca1bc4f3ae6f4d613bd80d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a4ea7673995d4c3b59b69964d383ab774f55cb5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760959"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855688"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Estacionamento de Chamada: Criar Novo ou Editar Existente
 

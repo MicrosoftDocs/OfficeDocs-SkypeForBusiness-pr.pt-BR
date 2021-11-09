@@ -2,7 +2,7 @@
 title: Componentes e topologias para controle de admissão de chamada em Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planejando o controle de admissão de chamada (CAC) se você tiver uma rede MPLS, um tronco SIP ou um gateway PSTN de terceiros ou PBX. Aplica-se Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 338533fb307625b30ee93377ee24265ae7cca02b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fe9eb0208787eaef6945ae2ca11935e59e8c7072
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773531"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855428"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Componentes e topologias para controle de admissão de chamada em Skype for Business
 

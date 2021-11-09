@@ -2,7 +2,7 @@
 title: Obter item
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Resumo: saiba mais sobre a operação Obter Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 3ee8d4f4e64276f7b824bfbdaa06247b27c78988
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1818bb0538fdc02d77c731cad7404643dc84fe28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762309"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861228"
 ---
 # <a name="get-item"></a>Obter item
  

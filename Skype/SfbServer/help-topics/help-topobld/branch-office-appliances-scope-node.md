@@ -2,7 +2,7 @@
 title: Nó de Escopo de Aparelhos de Filial
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: 'O nodo de  Aparelhos de Filial Persistentes   lista os Aparelhos de Filial Persistentes neste site de filial. Você pode executar as seguintes ações:'
-ms.openlocfilehash: d56135fd85c4ac29021904cff04b8fdf1c774e44
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e49ae455b7d0b8944b0a65818767dd9a945b5c82
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773941"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840073"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nó de Escopo de Aparelhos de Filial
  

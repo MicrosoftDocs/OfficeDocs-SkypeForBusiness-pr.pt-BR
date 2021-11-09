@@ -2,7 +2,7 @@
 title: Verificar Replicação no Domínio
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para verificar a replicação da preparação de domínio realizada na Etapa 1: Preparar Esquema, é necessário executar um cmdlet do Shell de Gerenciamento do Shell de Gerenciamento do Skype for Business Server Lync Server Management Shell. Para executar o cmdlet Windows PowerShell, faça logon em um computador que seja membro do domínio que você preparou e como membro do grupo Administradores de Domínio. Faça o seguinte:'
-ms.openlocfilehash: f4528bad6aa0c1ab03b3b4d2273b27fa517d44e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8227d47acf0a24c4d2da1af30498662f6433a612
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738527"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855055"
 ---
 # <a name="verify-replication-in-the-domain"></a>Verificar a Replicação no Domínio
  

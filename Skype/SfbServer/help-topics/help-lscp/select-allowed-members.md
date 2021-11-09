@@ -2,7 +2,7 @@
 title: Selecionar Membros Permitidos
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Criar e gerenciar salas de Chat Persistente é muito mais fácil com o uso correto de categorias. Um Administrador de Chat Persistente pode definir AllowedMembers e Criadores para cada categoria e também pode definir as configurações e comportamentos padrão da sala de chat que serão aplicadas a todas as salas de chat criadas na categoria. Os administradores de Chat Persistente criam e gerenciam categorias usando o painel de controle ou Windows PowerShell cmdlets.
-ms.openlocfilehash: 0a0b7730cc421cace1112413f4d08c7e65e8483e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e08673c6b2d29e24aabef0d56ddbbb19ef776f35
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737967"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840213"
 ---
 # <a name="select-allowed-members"></a>Selecionar Membros Permitidos
 

@@ -2,7 +2,7 @@
 title: Exibição McuJoinsAndLeaves
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: A exibição McuJoinsAndLeaves armazena informações sobre ingresso e saída de usuários de um servidor de conferências. Cada registro nessa exibição inclui os detalhes da chamada sobre uma combinação da entrada ou saída de um usuário e o servidor de conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 509eca981381b052962ac516a1b0d5537e8c27f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 00871f86b258df69959fa90c4158461db6d6405b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763329"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844974"
 ---
 # <a name="mcujoinsandleaves-view"></a>Exibição McuJoinsAndLeaves
  

@@ -2,7 +2,7 @@
 title: Tabela McuJoinsAndLeaves no Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: Cada registro nesta tabela contém detalhes de chamada sobre uma combinação de um servidor de união ou saída do usuário e conferência. Por exemplo, se um usuário ingressar em uma conferência que inclua elementos de webconferência e áudio/vídeo, um registro será criado para a junção de webconferência desse usuário e outro registro será criado para a junção de conferência de áudio/vídeo do usuário.
-ms.openlocfilehash: df18ca4785fab9b56057eb439ab55caa2b1a170f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 35b229d7a3fecbd731fc044cb4c8e30b93e736b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737597"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844964"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>Tabela McuJoinsAndLeaves no Skype for Business Server 2015
  

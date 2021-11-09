@@ -2,7 +2,7 @@
 title: Configurar um VTC para Interoperação com Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 'Resumo: Configure os dispositivos VTC para trabalhar com Skype for Business Server.'
-ms.openlocfilehash: 07f6a8742b26a7637e5dd321034ecb2cd0818cec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f3804c0d7f86710fbefa9477d6cf1790b0f16af9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751270"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861798"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurar um VTC para Interoperação com Skype for Business Server
  
@@ -56,10 +56,10 @@ As configurações descritas aqui são destinadas apenas como exemplos de como o
    |**Parâmetro**|**Configuração recomendada**|
    |:-----|:-----|
    |Modo H.323  <br/> | Desligado <br/> |
-   |Modo HTTP  <br/> | Ativado <br/> |
-   | Modo SIP <br/> | Ativado <br/> |
+   |Modo HTTP  <br/> | Habilitado <br/> |
+   | Modo SIP <br/> | Habilitado <br/> |
    |Modo Telnet  <br/> | Habilitado <br/> |
-   |WelcomeText  <br/> | Habilitado <br/> |
+   |WelcomeText  <br/> | Ativado <br/> |
    |Modo XMLAPI  <br/> | Habilitado <br/> |
    
 7. Navegue até Configuração- \> Configuração do Sistema - \> SIP.

@@ -2,7 +2,7 @@
 title: Navegue pela Ferramenta de Planejamento no Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Navegue pela Ferramenta de Planejamento Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos de página e painéis específicos de contexto. Os painéis específicos de contexto fornecem informações de design para planejamento e capacidade relevantes para as opções de seleção em uma página específica.
-ms.openlocfilehash: 6601b4830c1bee071ea5ad7e9dbaaa533d7d761a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6485d23d8f7aa6bfafd039ab1832be7a06f65449
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751590"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845374"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegue pela Ferramenta de Planejamento no Skype for Business Server 2015
 

@@ -2,7 +2,7 @@
 title: Política de Arquivamento Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você usa políticas de arquivamento para controlar o arquivamento de comunicações internas e externas em sua implantação para usuários que estão no Skype for Business Server. As políticas de arquivamento incluem a política global, e, como opção, uma ou mais políticas de site e de usuário:'
-ms.openlocfilehash: a5df0231622f9967484574ac1a11a89f15fd163e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0cf89285cd1549a1d84c7ab5ef3c553ca829c770
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773041"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861648"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Política de Arquivamento: Criar Nova ou Editar Existente
  

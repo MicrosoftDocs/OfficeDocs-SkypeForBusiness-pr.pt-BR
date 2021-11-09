@@ -2,7 +2,7 @@
 title: Expansor de Configurações de Repositório SQL
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: Para editar as propriedades de um banco de dados SQL Server, você deve alterar a instância SQL Server banco de dados. Não é possível usar a caixa de diálogo Editar Propriedades para executar tarefas como mover seu banco de dados do Servidor de Arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo Editar Propriedades para alterar a instância do SQL Server que hospeda o armazenamento de Gerenciamento Central.
-ms.openlocfilehash: 8a0debb5bff3befa2f4b15fa93ce16634d280cc0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0c5af1546b601933705daf4b4e1a6817fe4b04ee
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750370"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861368"
 ---
 # <a name="sql-store-settings-expander"></a>Expansor de Configurações de Repositório SQL
  

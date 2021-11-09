@@ -2,7 +2,7 @@
 title: Editar Política de Mobilidade do Cliente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: Na caixa de diálogo Editar Política de Mobilidade, edite os detalhes de uma política de mobilidade.
-ms.openlocfilehash: 87b66e820983732dee15403cad6d12347add2cfe
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7c3944684f3894cce599e87edb0f4750683e8fa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757983"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861678"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar Política de Mobilidade do Cliente
 

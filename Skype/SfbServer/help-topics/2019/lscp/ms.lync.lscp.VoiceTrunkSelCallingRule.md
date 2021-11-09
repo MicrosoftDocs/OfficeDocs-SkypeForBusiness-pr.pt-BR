@@ -2,7 +2,7 @@
 title: Selecionar Conversão de Regras de Número de Chamada
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'A caixa de diálogo Selecionar Regras de Conversão do Número de Chamada exibe as regras de conversão configuradas para sua implantação. Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:'
-ms.openlocfilehash: 21a22cfe066ced83ec9583f35d77fd91114b646c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b48ad38bf4607a87c86ec68eadeeee2d42a1888
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750920"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854885"
 ---
 # <a name="select-calling-number-rules-translation"></a>Selecionar a Tradução das Regras de Número de Chamada
 

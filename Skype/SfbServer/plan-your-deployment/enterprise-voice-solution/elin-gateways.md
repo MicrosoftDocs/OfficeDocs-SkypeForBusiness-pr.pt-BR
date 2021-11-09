@@ -2,7 +2,7 @@
 title: Gerenciar locais para gateways ELIN em Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Decisões necessárias para o planejamento de um banco de dados de informações de local ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando gateways ELIN, em Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756518"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845164"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gerenciar locais para gateways ELIN em Skype for Business Server
 
@@ -52,7 +52,7 @@ O campo  Local do serviço de Informações de Localização, que contém o loca
 
 - Um nome fácil de entender que identifica o local do chamador 911 para ajudar a garantir que os respondentes de emergência encontrem o local específico prontamente quando chegarem ao endereço cívico. Esse nome de local pode incluir um número de construção, um número de piso, um designador de asa, um número de sala e assim por diante. Evite apelidos conhecidos apenas pelos funcionários, o que pode fazer com que os respondentes de emergência acessem o local errado.
 
-- Um identificador de local que ajuda os usuários a ver facilmente que seu cliente escolheu o local correto. O Skype for Business cliente automaticamente concatena e exibe os campos **Local** e **Cidade** descobertos em seu header. Uma boa prática é adicionar o endereço de rua do edifício a cada identificador de local (por exemplo, "1º Andar <street number> "). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
+- Um identificador de local que ajuda os usuários a ver facilmente que seu cliente escolheu o local correto. O Skype for Business cliente automaticamente concatena e exibe os campos **Local** e **Cidade** descobertos em seu header. Uma boa prática é adicionar o endereço de rua do edifício a cada identificador de local (por exemplo, "1º Andar \<street number> "). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
 
 - Se o local for aproximado porque ele é determinado por um ponto de acesso sem fio, talvez você queira adicionar a palavra **[Near]** (por exemplo, "Próximo ao 1º Andar 1234").
 

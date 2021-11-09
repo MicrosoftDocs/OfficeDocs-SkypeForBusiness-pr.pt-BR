@@ -2,7 +2,7 @@
 title: Estacionamento de Chamada
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: Quando uma chamada é estacionada, ela é transferida para um número temporário onde a chamada é mantida até que alguém a recupere ou ela se esvaia. Você precisa configurar uma tabela com os intervalos de números de extensão que você está reservando para chamadas estacionadas. Essas extensões precisam ser extensões virtuais (ou seja, extensões com nenhum usuário ou telefone atribuído a eles). Cada pool que executa o aplicativo Estacionamento de Chamada pode ter um ou mais intervalos de extensões. Esses intervalos precisam ser globalmente exclusivos em sua implantação.
-ms.openlocfilehash: b7abb0cf68a49c686c787531715f5dc7924ca056
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f37913066bb2bf0a0eb6eec767501a3b16534ec6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771219"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845694"
 ---
 # <a name="call-park"></a>Estacionamento de Chamada
 

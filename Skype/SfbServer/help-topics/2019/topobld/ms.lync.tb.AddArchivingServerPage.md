@@ -2,7 +2,7 @@
 title: Adicionar Servidor de Arquivamento
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para implantar um Servidor de Arquivamento em seu design de topologia, você precisa especificar o FQDN (nome de domínio totalmente qualificado) do servidor no qual deseja implantar o Arquivamento. Antes de publicar uma topologia que inclui arquivamento e instalação Skype for Business Server, você deve ter concluído todos os pré-requisitos para implantar o Arquivamento.
-ms.openlocfilehash: b5c66ee6fb9a243a876b666bc58ac7ee419fb9df
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4afb41d76ae8a8307dba24e5c90cd970d0958d02
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750820"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854855"
 ---
 # <a name="add-archiving-server"></a>Adicionar Servidor de Arquivamento
  
