@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obter informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamada (CQD) para Microsoft Teams e Skype for Business Online.
-ms.openlocfilehash: e4d0ea854dea276b1312b1e10ef041b87cb3cfbb
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: f1e8209b3ffab34b0dfd48e98af315193d7b115e
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356519"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60888984"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -524,10 +524,10 @@ Por exemplo, a dimensão Duração (Minutos) representa a duração da chamada e
 |066: [3–4) |3 minutos < = duração do fluxo < 4 minutos |
 |  | |
 
-O é usado para controlar a ordem de classificação ao apresentar os dados e \<sort order string> pode ser usado para filtragem. Por exemplo, um filtro em Duração (Minutos) < "065", mostraria fluxos com duração inferior a 2 minutos (o '0' à frente é necessário para que o filtro funcione conforme o esperado).
+O é usado para controlar a ordem de classificação ao apresentar os dados e \<sort order string> pode ser usado para filtragem. Por exemplo, um filtro em Duração (Minutos) < "065", mostraria fluxos com duração inferior a 2 minutos (o '0' à frente é necessário para que o filtro funcione conforme o esperado). O valor real da cadeia de caracteres de ordem de classificação não é significativo.
 
 > [!NOTE]
-> O valor real da cadeia de caracteres de ordem de classificação não é significativo.
+> Você pode observar intervalos que parecem inválidos para uma determinada dimensão. Um exemplo seria a Força do Sinal Wifi mostrando chamadas no intervalo 082: [100 - 110) quando 100 é o valor máximo possível para a Força de Sinal Wifi. Isso ocorre devido à forma como os números são atribuídos a intervalos no modelo de dados do CQD. Se um valor de número inteiro for 99, ele será contado no intervalo 081: [90 - 100). Se esse valor for 100, ele será contado no intervalo 082: [100 - 110). Isso não indica que há valores de Força de Sinal Wifi maiores do que 100% sendo relatados.
 
 #### <a name="enumeration-strings"></a>Cadeias de caracteres de enumeração
 

@@ -16,13 +16,14 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 description: Instruções para implementar a conectividade híbrida entre Skype for Business Server e Teams.
-ms.openlocfilehash: fee7587c641f2fd55cd8b4ac4da72b3944b819a1
-ms.sourcegitcommit: 64b9f7297d33a883506893fb68d1ad5202b4df1a
+ms.openlocfilehash: ffc1205ca91f81e9b9361e4603318bc1a8fcf76c
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59682806"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887169"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Configurar conectividade híbrida entre Skype for Business Server e Teams
 
