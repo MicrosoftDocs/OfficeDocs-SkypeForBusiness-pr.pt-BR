@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre o CQD (Painel de Qualidade de Chamada) e como usá-lo para ver relatórios sobre a qualidade da reunião e da chamada no Microsoft Teams.
-ms.openlocfilehash: 92b7bdcd5acaa86c530f5d0380666b2ebce3eed8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f87f8184b0417d04206d31780392f21dca387d10
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593265"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909549"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>O que é o Painel de Qualidade de Chamada (CQD)?
 
@@ -51,12 +51,6 @@ No CQD, recomendamos que você carregue informações de construção e ponto de
 
 Não perca nosso artigo [Gerenciar](quality-of-experience-review-guide.md) qualidade de chamada e reunião, que oferece orientações detalhadas para o administrador do Teams ou engenheiro de suporte responsável pelo gerenciamento da qualidade do serviço no Teams.
 
-## <a name="legacy-version-of-cqd-cqdlynccom"></a>Versão herdada do CQD (CQD.lync.com)
-
-A versão atual do CQD ( substituiu a https://CQD.Teams.microsoft.com) versão herdada do CQD ( https://CQD.lync.com) . Você ainda pode usar o CQD.lync.com (disponível no centro de administração do Skype for Business), mas, a partir de 1º de julho de 2020, ele está usando os dados do CQD. Teams.microsoft.com e você não pode mais exibir ou modificar seus dados de construção ou consulta do CQD antigo (CQD.lync.com). Se você ainda não tiver migrado esses dados do CQD.lync.com e ainda precisar deles, registre um tíquete de suporte.
-
-> [!IMPORTANT]
-> A partir de 31 de julho de 2021, estamos retirando a versão herdada do CQD (CQD.lync.com). Após essa data, você será redirecionado automaticamente para o CQD. Teams.microsoft.com ao tentar acessar CQD.lync.com, e todos os dados de consulta ou construção não migrados serão perdidos.
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar Power BI para analisar dados CQD
 

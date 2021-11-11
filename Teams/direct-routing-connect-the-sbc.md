@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar e conectar seu SBC ao Sistema de Telefonia Roteamento Direto.
-ms.openlocfilehash: d18ff8a8f0c398979a2c04d3aca1ff69b8bdc8f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 199573fa2e67f46f8430dba3d9e9d506b7cbb641
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726120"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909562"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conexão controlador de borda de sessão (SBC) para Roteamento Direto
 
@@ -169,7 +169,7 @@ Esta tabela lista as opções que você pode definir para o SBC no centro de adm
 |Não|**Capacidade de chamada simultânea**|MaxConcurrentSessions |Quando você definir um valor, o sistema de alertas notificará você quando o número de sessões simultâneas for 90% ou superior a esse valor. Se você não definir um valor, os alertas não são gerados. No entanto, o sistema de monitoramento relatará o número de sessões simultâneas a cada 24 horas. |Null|Null<br/>1 a 100.000 ||
 |Não|**Códigos de resposta de failover**|FailoverResponseCodes<br>|Se o Roteamento Direto receber qualquer código de erro SIP 4xx ou 6xx em resposta a um Convite de saída, a chamada será considerada concluída por padrão. Saída significa uma chamada de um cliente Teams para a PSTN com fluxo de tráfego: Teams cliente -> Roteamento Direto -> SBC -> rede de telefonia). Quando você especifica um código de resposta de failover, isso força o Roteamento Direto a tentar outro SBC (se houver outro SBC na política de roteamento de voz do usuário) quando ele receber os códigos especificados se o SBC não puder fazer uma chamada por causa da rede ou outros problemas. Para saber mais, confira [Failover de códigos SIP específicos recebidos do Controlador](direct-routing-trunk-failover-on-outbound-call.md)de Borda de Sessão (SBC).|408, 503, 504||Int|
 |Não|**Tempos de failover (segundos)**|FailoverTimeSeconds |Quando você definir um valor, as chamadas de saída que não são atendidas pelo gateway no tempo definido são roteadas para o próximo tronco disponível. Se não houver troncos adicionais, a chamada será automaticamente retirada. O valor padrão é 10 segundos. Em uma organização com redes lentas e respostas de gateway, isso pode resultar em chamadas sendo retiradas desnecessariamente.|10|Número|Int|
-|Não|**País ou região preferencial para tráfego de mídia**|MediaRelayRoutingLocationOverride |Use para definir manualmente seu país ou região preferencial para tráfego de mídia. Recomendamos definir isso somente se os logs de chamada indicarem claramente que a atribuição padrão do datacenter para o caminho de mídia não usa o caminho mais próximo do datacenter SBC. Por padrão, o Roteamento Direto atribui um datacenter com base no endereço IP público do SBC e sempre seleciona o caminho mais próximo do datacenter SBC. No entanto, em alguns casos, o caminho padrão pode não ser o caminho ideal. Esse parâmetro permite definir manualmente a região preferencial para tráfego de mídia. |Nenhum|Códigos de país no formato ISO||
+|Não|**País ou região preferencial para tráfego de mídia**|MediaRelayRoutingLocationOverride | Não aplicável ao Roteamento Direto. Esse parâmetro é reservado para uso com operadoras gerenciadas em Planos de Chamada |Nenhum|||
 |Não|**SBC dá suporte a PIDF/LO para chamadas de emergência**|PidfloSupported|Especifique se o SBC dá suporte ao Objeto de Local de Formato de Dados de Presença (PIDF/LO) para chamadas de emergência.||||
 |Não| - |MediaBypass|Essa configuração indica se o SBC dá suporte ao bypass de mídia e se você deseja usá-lo para esse SBC. |Nenhum|Verdadeiro<br/>Falso|Boolean|
 

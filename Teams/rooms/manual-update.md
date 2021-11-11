@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Saiba como atualizar manualmente seu Salas do Microsoft Teams para uma versão específica.
-ms.openlocfilehash: 36d5477ef84eb97971727314aa39ab19e4139488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c823cd9ffc98c0eea53ecc48f6ea7fc47519dfd1
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578245"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909542"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Atualizar manualmente um Salas do Microsoft Teams dispositivo
 
@@ -48,7 +48,7 @@ Depois que o script de atualização de aplicativo offline for baixado, transfir
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>Etapa 2: executar o script para atualizar o Salas do Teams app
 
-O script de atualização de aplicativo offline precisa ser executado a partir de um prompt de comando elevado enquanto o usuário Skype (o usuário sob o qual o aplicativo é executado) ainda está assinado. Para obter mais informações sobre como fazer logon em uma conta de administrador para usar o prompt de comando com privilégios elevados enquanto o usuário do Skype ainda estiver conectado, consulte [Alternando](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)para o Modo de Administração e de volta quando o aplicativo Salas do Microsoft Teams estiver em execução .
+O script de atualização de aplicativo offline precisa ser executado a partir de um prompt de comando elevado enquanto o usuário Skype (o usuário sob o qual o aplicativo é executado) ainda está assinado. Para obter mais informações sobre como fazer logon em uma conta de administrador para usar o prompt de comando com privilégios elevados enquanto o usuário do Skype ainda estiver conectado, consulte [Alternando](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)para o Modo de Administração e de volta quando o aplicativo Salas do Microsoft Teams falhar .
 
 Faça o seguinte para executar o script de um prompt de comando elevado:
 

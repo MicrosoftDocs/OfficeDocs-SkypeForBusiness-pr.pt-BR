@@ -1,7 +1,7 @@
 ---
 title: Tarefas do Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: danieasmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,12 +21,12 @@ description: Saiba como gerenciar atribuições no Microsoft Teams de administra
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a35e092aff4a160a744f3be4193adc5b207b8c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 59fb8e0b81195c696b7bd6142ecf031688207917
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859738"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909592"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
@@ -42,8 +42,8 @@ Os recursos Atribuições e Notas no Teams para Educação permitem que os educa
 Usando as configurações de administrador no Microsoft Teams de administração, você pode ativar ou desativar recursos para educadores em sua organização e seus alunos. Veja a seguir as configurações relacionadas a atribuições:
 
 <a name="#bkemaildigest"> </a>
-### <a name="weekly-guardian-email-digest"></a>Resumo semanal de email do guardião
 
+### <a name="weekly-guardian-email-digest"></a>Resumo semanal de email do guardião
 
 Emails de tutor são enviados a cada fim de semana para pais ou responsáveis. O email contém informações sobre atribuições da semana anterior e da próxima semana. A Sincronização pai e guardião pode ser configurada usando [School Data Sync](/schooldatasync/parent-contact-sync).
 
@@ -56,18 +56,19 @@ Emails de tutor são enviados a cada fim de semana para pais ou responsáveis. O
 
 Para verificar se os Pais receberão o email, os três itens a seguir devem ser verdadeiros:
 
- - Endereço de email anexado ao perfil do aluno no SDS e marcado como _Pai_ ou _Guardião._ Para obter detalhes, consulte [Parent and Guardian Sync File Format](/schooldatasync/parent-contact-sync-file-format).
+- Endereço de email anexado ao perfil do aluno no SDS e marcado como _Pai_ ou _Guardião._ Para obter detalhes, consulte [Parent and Guardian Sync File Format](/schooldatasync/parent-contact-sync-file-format).
 
- - Os alunos pertencem a pelo menos uma classe na qual o email não está desabilitado pelo professor nas configurações [de atribuição.](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)
+- Os alunos pertencem a pelo menos uma classe na qual o email não está desabilitado pelo professor nas configurações [de atribuição.](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)
 
- - Os emails conterão informações sobre atribuições que tinham uma data de vencimento na semana anterior ou na próxima semana.
+- Os emails conterão informações sobre atribuições que tenham uma data de vencimento da semana anterior ou na próxima semana.
 
 A configuração padrão para esse recurso é - **Off**.
 
-
 <a name="bkmakecode"> </a>
+
 ### <a name="makecode"></a>MakeCode
-O Microsoft MakeCode é uma plataforma de codificação baseada em blocos que dá vida à ciência da computação para todos os alunos. 
+
+O Microsoft MakeCode é uma plataforma de codificação baseada em blocos que dá vida à ciência da computação para todos os alunos.
 
 MakeCode é um produto da Microsoft que está sujeito aos termos de uso [e](https://go.microsoft.com/fwlink/?LinkID=206977) políticas de privacidade [da](https://go.microsoft.com/fwlink/?LinkId=521839) Microsoft.
 
@@ -75,21 +76,22 @@ A configuração padrão para esse recurso é - **Off**.
 
 Para habilitar as Teams MakeCode no Teams, vá para o Centro  de Administração Teams, navegue até **a** seção Atribuições e ative a opção de alternância MakeCode **como** Ativado. Clique em **Salvar**. Permita algumas horas para que essas configurações entre em vigor.
 
-Para obter mais informações sobre como esse recurso funciona, consulte esta [demonstração de vídeo](https://makecode.com/blog/teams/teams-assignments).
+Para obter mais informações sobre como esse recurso funciona, assista a esta [demonstração de vídeo](https://makecode.com/blog/teams/teams-assignments).
 
 [Saiba mais sobre MakeCode](https://aka.ms/makecode).
 
 <a name="#turnitin"> </a>
+
 ### <a name="turnitin"></a>Turnitin
 
-[Turnitin é](https://www.turnitin.com/) um serviço de integridade acadêmica. Esse é um produto ou serviço de terceiros que está sujeito aos seus próprios termos e política de privacidade. Você é responsável pelo uso de quaisquer produtos e serviços de terceiros.
+[Turnitin é](https://www.turnitin.com/) um serviço de integridade acadêmica. Esse é um serviço de terceiros que está sujeito aos seus próprios termos e política de privacidade. Você é responsável pelo uso de quaisquer produtos e serviços de terceiros.
 
 A configuração padrão para esse recurso é - **Off**..
 
-Para habilitar o Turnitin para sua organização, você precisará de uma assinatura turnitin. Em seguida, você pode inserir as seguintes informações, que podem ser encontradas no console de administração do Turnitin:
+Para habilitar o Turnitin para sua organização, você precisará de uma assinatura turnitin. Em seguida, você pode inserir as seguintes informações, que podem ser encontradas no console de administração turnitin:
 
-  * **TurnitinApiKey**: Este é um GUID de 32 caracteres encontrado no console de administração em Integrações.
-  * **TurnitinApiUrl**: Esta é a URL HTTPS do console de administração turnitin.
+- **TurnitinApiKey**: Este é um GUID de 32 caracteres encontrado no console de administração em Integrações.
+- **TurnitinApiUrl**: Esta é a URL HTTPS do console de administração turnitin.
 
 Aqui estão algumas instruções para ajudá-lo a obter essas informações.
 
@@ -102,15 +104,76 @@ Selecione **Integrações** no menu lateral e selecione **Adicionar Integração
 
 ![Captura de tela mostrando a adição de uma nova integração.](./educationImages/Assignments_mopo_turnitin2.png)
 
-O **TurnitinApiKey** será dado a você depois de seguir os prompts. Copie a chave da API e a colar no centro de Microsoft Teams de administração.  Esta é a única hora em que você pode exibir a chave.
+O **TurnitinApiKey** será dado a você depois de seguir os prompts.
+Copie a chave da API e a colar no centro de Microsoft Teams de administração.  Esta é a única hora em que você pode exibir a chave.
 
 ![Captura de tela mostrando a cópia da chave da API.](./educationImages/Assignments_mopo_turnitin3.png)
 
 Ao clicar no **botão Salvar** no centro de administração para essa configuração, permita algumas horas para que essas configurações entre em vigor.
 
-### <a name="removing-assignments-and-grades"></a>Removendo atribuições e notas
-Você pode usar Teams para remover atribuições e notas para um usuário específico ou para todo o locatário. 
+## <a name="assignments-data"></a>Dados de atribuições
+
+As atribuições armazenam informações geradas por professores e alunos. Todos os dados são compartilhados entre o professor e o aluno específico para o qual as informações se destinam na aula. Há dois armazenamentos disso, SharePoint e fora do SharePoint.
+
+>[!NOTE]
+>As mesmas regras também se aplicam a integrações de primeira parte, como o Progresso da Leitura.
+
+### <a name="assignments-data-in-sharepoint-document-libraries"></a>Dados de atribuições em SharePoint de documentos
+
+Os arquivos dos alunos associados a um envio para atribuição são armazenados em uma biblioteca de documentos (chamada: *Trabalho do Aluno*). Os arquivos associados a Atribuições que são criados por professores e acessíveis por Alunos são armazenados em outra biblioteca de documentos (chamada: Arquivos de Classe ) no site correspondente equipe de classe SharePoint site. As integrações de primeira parte também podem armazenar dados de atribuições no mesmo site de equipe de classe correspondente SharePoint site (chamado: Título de atribuições *+ carimbo de data/hora).*
+
+#### <a name="files-associated-with-the-student"></a>Arquivos associados ao aluno
+
+Os administradores de IT podem usar a ferramenta Pesquisa de Conteúdo para pesquisar arquivos de alunos *(* Trabalho do *Aluno,* Arquivos de Classe ou outros arquivos de integração de terceiros) relacionados a envios de atribuições e arquivos relacionados a atribuições. Por exemplo, um administrador pode pesquisar todos os SharePoint na organização e usar o nome e o nome da classe ou atribuição do aluno na consulta de pesquisa para encontrar dados relevantes para uma solicitação de entidade de dados (DSR).
+
+#### <a name="files-associated-with-the-teacher"></a>Arquivos associados ao professor
+
+Os administradores de IT podem usar a ferramenta Pesquisa de Conteúdo para pesquisar arquivos de professores *(* Trabalho do *Aluno,* Arquivos de Classe ou outros arquivos de integração de terceiros) que estão relacionados a atribuições, bem como arquivos distribuídos aos alunos pelos professores em uma aula sobre atribuições. Por exemplo, um administrador pode pesquisar todos os SharePoint na organização e usar o nome e o nome da classe ou atribuição do professor na consulta de pesquisa para encontrar dados relevantes para uma DSR.
+
+### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>Dados de atribuições fora de SharePoint de documentos
+
+Alguns dados relacionados a Atribuições não são armazenados no site da equipe de classe SharePoint, o que significa que não é possível descobrir com a Pesquisa de Conteúdo. Isso inclui:
+
+- Notas dos alunos e comentários do professor
+- A lista de documentos enviados para uma atribuição por cada aluno
+- Detalhes da atribuição, como Data de Vencimento, etc.
+- Dados de integração de primeira parte, como passagens de progresso de leitura ou dados de pronúncia do aluno
+
+Para esse tipo de dados, um administrador de IT ou proprietário de dados, como um professor, pode ter que entrar na atribuição na equipe de classe para encontrar dados relevantes para uma DSR. O administrador pode adicionar a si mesmo como proprietário à classe e exibir todas as atribuições dessa equipe de classe.
+
+>[!NOTE]
+>Se um aluno não faz mais parte da classe, seus dados ainda poderão estar presentes na classe como *não mais inscritos.* O aluno terá que fornecer ao administrador do locatário a lista de classes das que eles já fizeram parte.
+
+### <a name="bulk-export-assignment-data-outside-of-sharepoint-document-libraries"></a>Exportar dados de atribuição em massa fora de SharePoint de documentos
+
+#### <a name="for-a-student"></a>Para um aluno
+
+Para exportar em massa os dados de um único aluno, antes de remover o aluno das classes das que fazem parte, execute o [script](/microsoft-365/education/deploy/configure-assignments-for-teams) e forneça o ``userId`` . Se o aluno tiver sido removido do site, o administrador poderá adicionar o aluno de volta à classe antes de executar o script, ou o administrador poderá fornecer o e o que o aluno já fez ``userId`` ``classId`` parte.
+
+Os dados sobre os envios de alunos serão exportados.
+
+#### <a name="for-a-teacher"></a>Para um professor
+
+Exportar dados de atribuição em massa funciona da mesma maneira para um aluno, mas todos os envios aos que o professor tem acesso serão exportados.
+
+### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>Excluir dados de atribuição em massa fora de SharePoint de documentos
+
+#### <a name="for-a-student"></a>Para um aluno
+
+Para excluir em massa os dados de um único aluno, antes de remover o aluno das classes das que fazem parte, execute o [script](/microsoft-365/education/deploy/configure-assignments-for-teams) e forneça o ``userId`` . Se o aluno tiver sido removido do site, o administrador poderá adicionar o aluno de volta à classe antes de executar o script, ou o administrador poderá fornecer o e o que o aluno já fez ``userId`` ``classId`` parte.
+
+Fornecer um permitirá que o administrador exclua apenas informações ``ClassId`` sobre o aluno de uma classe específica.
+
+#### <a name="for-a-teacher"></a>Para um professor
+
+Como os dados de uma atribuição para um professor são compartilhados na classe, não há opção de exclusão em massa. Em vez disso, o administrador pode adicionar a si mesmo à classe, ir para o aplicativo e excluir a atribuição.
+
+Para obter mais informações, [consulte Configure assignments for Teams](/microsoft-365/education/deploy/configure-assignments-for-teams).
+
+## <a name="removing-assignments-and-grades"></a>Removendo atribuições e notas
+
+Você também pode usar Teams para remover atribuições e notas para um usuário específico ou para todo o locatário.
 
 Para remover atribuições e notas de um  usuário individual, vá para o Centro de Administração Teams e navegue até Teams **aplicativos > Políticas** de permissão para criar uma nova definição de política de permissão de aplicativo.  Ao criar a nova definição de  política, desmarque a política de aplicativos da **Microsoft** como Bloquear **aplicativos específicos** e permita que todos os outros e adicione atribuições à lista de aplicativos bloqueados. Depois que a nova definição de política for salva, atribua-a aos usuários apropriados.
 
-Para remover atribuições e notas de todo o locatário, vá para o Centro de Administração **Teams,** navegue até Teams **aplicativos > Gerenciar** aplicativos e pesquise e selecione Atribuições na lista de **aplicativos.** Altere a configuração de status na página Configurações do aplicativo de atribuição como _Bloqueado_. 
+Para remover atribuições e notas de todo o locatário, vá para o Centro de Administração **Teams,** navegue até Teams **aplicativos > Gerenciar** aplicativos e pesquise e selecione Atribuições na lista de **aplicativos.** Altere a configuração de status na página Configurações do aplicativo de atribuição como _Bloqueado_.
