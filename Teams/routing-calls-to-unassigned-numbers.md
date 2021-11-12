@@ -21,17 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como rotear chamadas para números não atribuídos em sua organização.
-ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
+ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536992"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60947498"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Roteamento de chamadas para números não atribuídos
-
-> [!NOTE]
-> Esse recurso está disponível como uma versão de Visualização Pública.
 
 Como administrador, você pode rotear chamadas para números não atribuídos em sua organização. Por exemplo, talvez você queira rotear chamadas para números não atribuídos da seguinte forma: 
 
