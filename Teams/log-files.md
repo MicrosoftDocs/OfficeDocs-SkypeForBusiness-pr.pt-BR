@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre logs de depuração, mídia e área de trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 07eca1235cb695d32da0fdab96490572af6ccecb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482375"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959960"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar Microsoft Teams
 
@@ -42,15 +42,15 @@ Este artigo descreve esses logs e como eles são usados. Para obter informaçõe
 
 É importante coletar logs assim que ocorrer um problema. Os logs podem ser coletados com apenas alguns cliques.
 
-Windows: clique com o botão direito do mouse no ícone Teams na bandeja do sistema e escolha **Coletar arquivos de suporte**. 
+- Windows: clique com o botão direito do mouse no ícone Teams na bandeja do sistema e escolha **Coletar arquivos de suporte**. 
 
-Mac: selecione o menu Ajuda e escolha **Coletar arquivos de suporte**.
+- Mac: selecione o menu Ajuda e escolha **Coletar arquivos de suporte**.
 
 Os logs de depuração, área de trabalho e mídia serão coletados em uma pasta com o nome _MSTeams Diagnostics Log \<local data and time\>_. Essa pasta pode ser compactada e compartilhada quando você abre uma solicitação de suporte com o Suporte da Microsoft. A pasta conterá pastas para Área de Trabalho, Reunião (Mídia) e Depuração (Web). Você pode coletar os arquivos usando os seguintes atalhos de teclado:
 
-Windows: Ctrl + Alt + Shift + 1
+- Windows: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
-Mac: Opção + Comando + Turno + 1
+- Mac: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
 O registro de mídia está desabilitado por padrão. Para habilitar o log de mídia, os usuários devem ativar a opção no Teams cliente. Vá para **Configurações** Geral e selecione Habilitar log para diagnóstico de reunião (requer a  >   **reinicialização Teams)**. O Teams cliente deve ser reiniciado para iniciar o registro em log.
@@ -62,10 +62,10 @@ Se ocorrer um problema com uma reunião ou evento ao vivo específico, é útil 
   
 > [!NOTE]
 > Os logs de depuração estavam coletando anteriormente usando os atalhos de teclado abaixo. Eles ainda funcionam e concluirão a mesma captura de log que a **opção Coletar arquivos de** suporte.
-
-> Windows: Crtl + Alt + Shift + 1
-
-> Mac: Opção + Comando + Turno + 1
+>
+> - Windows: <kbd>Crtl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+>
+> - Mac: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
 A tabela a seguir descreve os vários clientes e seus logs associados. Os arquivos de registro são armazenados os locais específicos do cliente e do sistema operacional.
@@ -94,11 +94,13 @@ Os registros de depuração mostram os seguintes fluxos de dados:
 
 -   Chamada/conversa
 
-Para coletar logs para Linux: atalho do teclado: Ctrl + Alt + Shift + 1  
-      Os arquivos estarão disponíveis em ~/Downloads
+Para coletar logs para Linux:
+- Atalho do teclado: <kbd>Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
+- Os arquivos estarão disponíveis em `~/Downloads`
 
-Para coletar logs para Navegador e Windows: Atalho do teclado: Ctrl + Alt + Shift + 1  
-      Os arquivos estarão disponíveis em %userprofile%\Downloads
+Para coletar logs para Navegador e Windows:
+- Atalho do teclado: <kbd>Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
+- Os arquivos estarão disponíveis em `%userprofile%\Downloads`
 
 ## <a name="media-logs"></a>Registros de mídia
 
@@ -109,30 +111,40 @@ O registro de mídia está desabilitado por padrão. Para registrar dados de dia
 Ao enviar os arquivos de log para o suporte da Microsoft, verifique a data e hora dos arquivos de log para garantir que os logs abrangem o período de tempo em que você reproduziu o problema.
 
 Para coletar logs para Linux:  
-Os arquivos estarão disponíveis no blog ~/.config/Microsoft/Microsoft Teams/media-stack/ \* \. e ~/.config/Microsoft/Microsoft Teams/skylib/blog. \* \.
+- Os arquivos estarão disponíveis nos seguintes locais:
+  - `~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog`
+  - `~/.config/Microsoft/Microsoft Teams/skylib/\*\.blog`
 
 Para coletar logs para Windows:  
-Os arquivos estarão disponíveis em %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack blog e \\ \* \. %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib \\ \* \. blog.  
+- Os arquivos estarão disponíveis nos seguintes locais:
+  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog`
+  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog` 
 
 Aqui está uma lista dos arquivos de log gerados e as informações que eles contêm.
 
+<br/>
+
 |Nome do arquivo de log  |Descrição  |
 |---------|---------|
-|Teams.msrtc-0-s1039525249.blog     | Contém informações relacionadas à pilha de mídia. Isso inclui o status do canal, como resolução, decodificadores e codificadores usados e o número de quadros enviados e recebidos, além do status da sessão de compartilhamento de tela com base em vídeo e câmera (VBSS).         |
-|rtmcontrol.msrtc-0-2415069487.blog      |Registra informações relacionadas a ações de controle remoto, como o carimbo de hora quando o controle é fornecido e informações do ponteiro do mouse.          |
-|Teams_MediaStackETW-2-U-xr-U.etl      |Registra eventos de rastreamento de pilha de mídia.         |
-|Debug-0-s2790420889.blog    | Contém informações relacionadas ao agente de mídia, incluindo qualidade de renderização.          |
-|tscalling-0-2061129496.blog   |Registra eventos na API de chamada de ts.       |
+|`Teams.msrtc-0-s1039525249.blog`     | Contém informações relacionadas à pilha de mídia. Isso inclui o status do canal, como resolução, decodificadores e codificadores usados e o número de quadros enviados e recebidos, além do status da sessão de compartilhamento de tela com base em vídeo e câmera (VBSS).         |
+|`rtmcontrol.msrtc-0-2415069487.blog`      |Registra informações relacionadas a ações de controle remoto, como o carimbo de hora quando o controle é fornecido e informações do ponteiro do mouse.          |
+|`Teams_MediaStackETW-2-U-xr-U.etl`      |Registra eventos de rastreamento de pilha de mídia.         |
+|`Debug-0-s2790420889.blog`    | Contém informações relacionadas ao agente de mídia, incluindo qualidade de renderização.          |
+|`tscalling-0-2061129496.blog`   |Registra eventos na API de chamada de ts.       |
 
 ## <a name="desktop-logs"></a>Registros de desktop
 
 Consulte a _seção Coletar e habilitar o registro em log_ para obter Windows e instruções do Mac. Os logs da área de trabalho, também conhecidos como logs de bootstrapper, contêm dados de log que ocorrem entre o cliente da área de trabalho e o navegador. Como os logs de mídia, esses logs só são necessários se solicitados pela Microsoft. Os logs são baseados em texto e podem ser lidos usando qualquer editor baseado em texto em um formato de cima para baixo.
 
-Para coletar logs para Linux: clique no ícone Microsoft Teams na bandeja do sistema e selecione **Obter Logs.**
-Os arquivos estarão disponíveis em ~/.config/Microsoft/Microsoft Teams/logs.txt.
+Para coletar logs para Linux:
+- Clique no ícone do Microsoft Teams na bandeja do sistema e selecione **Obter Logs**.
+- Os arquivos estarão disponíveis em `~/.config/Microsoft/Microsoft Teams/logs.txt` .
   
-Para coletar logs para Windows: clique no ícone Microsoft Teams na bandeja do sistema e selecione **Obter Logs**.
-O logs.txt arquivo será aberto automaticamente no Bloco de notas.    
+Para coletar logs para Windows:
+- Clique no ícone Microsoft Teams na bandeja do sistema e selecione **Coletar arquivos de suporte.**
+- O `logs.txt` arquivo será aberto em Bloco de notas automaticamente.
+
+Ao investigar problemas de Teams, talvez seja necessário coletar manualmente os logs da área de trabalho. Esses arquivos de log estão localizados em %appdata%\Microsoft\Teams em Windows.
 
 ## <a name="browser-trace"></a>Rastreamento do navegador
 
@@ -157,14 +169,14 @@ Depois de entrar, selecione um dos links a seguir, conforme apropriado para seu 
 Os logs webRTC podem ajudar o Suporte da Microsoft fornecendo detalhes de conexão para chamadas de áudio e vídeo. Siga as etapas para acessar os logs WebRTC no Edge (Chromium) ou Chrome: 
   
 1.  Abra uma nova guia e vá para uma das seguintes URLs:
-    -   Borda (Chromium): "edge://webrtc-internals/"
-    -   Chrome: "chrome://webrtc-internals/"
+    -   Borda (Chromium):`edge://webrtc-internals/`
+    -   Chrome: `chrome://webrtc-internals/`
   
 2.  Abra o Teams Web e reproduza o problema.
   
 3.  Volte para a guia acessada na etapa 1 e você verá pelo menos duas guias:
     -   Solicitações GetUserMedia
-    -   https://teams.microsoft.com/url
+    -   `https://teams.microsoft.com/url`
 
 4.  Escolha a guia com o nome do aplicativo Teams e salve o conteúdo da página.
 

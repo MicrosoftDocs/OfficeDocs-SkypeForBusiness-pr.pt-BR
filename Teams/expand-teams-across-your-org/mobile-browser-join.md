@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Saiba mais sobre a experiência de junção para Teams virtuais em navegadores móveis.
-ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249753"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960110"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gerenciar a experiência de junção para Teams virtuais em navegadores móveis
 
@@ -35,7 +35,10 @@ Com a entrada do navegador móvel, quando um participante ins junta um compromis
 Atualmente, a junção do navegador móvel está disponível para compromissos agendados por meio do seguinte:
 
 - [O aplicativo Bookings](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- [Microsoft Teams Conector de Registros Eletrônicos de Saúde (EHR)](healthcare/ehr-admin.md)
+- Microsoft Teams EHR (Registros Eletrônicos de Saúde)
+
+  - Integração com [Cerner EHR](healthcare/ehr-admin-cerner.md)
+  - Integração com [o EHR Épico](healthcare/ehr-admin.md)
 
 ## <a name="set-up-mobile-browser-join"></a>Configurar a junção do navegador móvel
 
@@ -61,7 +64,9 @@ No Bookings, selecione **Novo reserva** e, em seguida, a opção Permitir que os
 
 Nenhuma configuração é necessária por você ou sua equipe!
 
-O Teams EHR oferece suporte a pacientes que ingressarem em visitas virtuais por meio de MyChart web e mobile. No momento do compromisso, os pacientes podem iniciar uma visita virtual do MyChart usando o **botão Iniciar visita virtual.** O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
+**Integração com o Cerner EHR**: o conector Teams EHR oferece suporte a pacientes que ingressaram em visitas virtuais por meio de dispositivos móveis. No momento do compromisso, os pacientes podem ingressar em uma visita virtual tocando no link na mensagem de texto SMS. O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
+
+**Integração com o EHR Épico**: o conector Teams EHR oferece suporte a pacientes que inserem visitas virtuais por meio de MyChart Web e mobile. No momento do compromisso, os pacientes podem iniciar uma visita virtual do MyChart usando o **botão Iniciar visita virtual.** O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
 
 ## <a name="supported-mobile-browsers"></a>Navegadores móveis com suporte
 
@@ -89,4 +94,5 @@ O membro da equipe que conduz a visita virtual pode compartilhar sua tela de seu
 - [Visitas virtuais com Teams e o aplicativo Bookings](bookings-virtual-visits.md)
 - [Criar um tipo de compromisso do Bookings](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Ingressar em um compromisso do Bookings como participante](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Visitas virtuais com o Teams - Integração com EHR](healthcare/ehr-admin.md)
+- [Visitas virtuais com Teams - Integração ao Cerner EHR](healthcare/ehr-admin-cerner.md)
+- [Visitas virtuais com Teams - Integração ao EHR Épico](healthcare/ehr-admin.md)

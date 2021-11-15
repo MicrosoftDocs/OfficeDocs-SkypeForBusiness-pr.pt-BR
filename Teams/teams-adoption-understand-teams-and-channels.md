@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17ae2ae79b35ed0b75347bd7a061ebb6789b4284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855175"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959810"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Compreender as equipes e os canais no Microsoft Teams
 
@@ -41,7 +41,7 @@ Para ler mais sobre equipes e canais, consulte [Visão geral das equipes e](team
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
-| Exibir este vídeo curto   | <iframe width="350" height="200" src="https://youtu.be/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
+| Exibir este vídeo curto   | <iframe width="350" height="200" src="https://www.youtube.com/embed/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
 
 
 

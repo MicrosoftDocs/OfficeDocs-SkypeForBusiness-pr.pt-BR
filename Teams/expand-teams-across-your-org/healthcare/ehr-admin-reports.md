@@ -1,5 +1,5 @@
 ---
-title: Teams para visitas virtuais - Relatórios de administrador
+title: Teams para visitas virtuais - relatórios de administradores do conector EHR
 author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
@@ -23,20 +23,20 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Exibir relatórios de administradores para Teams de conector EHR
-ms.openlocfilehash: 7ec22bdfd7a73ba39c9e94d0c65f2da6f1f5f973
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 256a93dc9e78036659eccf86c54d9da62f4277bb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858758"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959880"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Relatórios de administração do conector EHR
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams de administrador do conector EHR
 
-A Microsoft Teams de registro eletrônico de saúde (EHR) conector admin Report fornece uma exibição rápida e fácil de ler dos dados de uso.
+A Microsoft Teams de relatório de administração do registro de saúde eletrônico (EHR) fornece uma exibição rápida e fácil de ler dos dados de uso.
 
-Você pode ver o Microsoft Teams de administrador do conector EHR indo para o painel Microsoft Teams Centro de Administração e exibindo a caixa de diálogo lá.
+Você pode ver o Teams de administrador do conector EHR indo para o painel Microsoft Teams centro de administração e exibindo a caixa de diálogo lá.
 
-Acesse o relatório do painel Microsoft Teams Centro de Administração.
+Acesse o relatório do painel Microsoft Teams centro de administração.
 
  ![uma caixa de diálogo das alocações e limites de visitas virtuais.](../../media/admin-connector-report.png)
 
@@ -48,6 +48,7 @@ A caixa de diálogo fornece os seguintes dados:
 
 Você pode usar a caixa de diálogo de relatório para comprar mais visitas virtuais.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
-[Teams para visitas virtuais](ehr-admin.md)
+- [Visitas virtuais com Teams - Integração ao Cerner EHR](ehr-admin-cerner.md)
+- [Visitas virtuais com Teams - Integração ao EHR Épico](ehr-admin.md)

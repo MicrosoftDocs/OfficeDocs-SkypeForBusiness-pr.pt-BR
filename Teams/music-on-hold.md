@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Saiba como gerenciar o recurso Música em Espera Sistema de Telefonia.
-ms.openlocfilehash: 7f67e4f26ecac837b93257ca79a757d49daf239b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e2f2347ca4368a8665d77ff2424a5c0082c1b0d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605557"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960120"
 ---
 # <a name="music-on-hold"></a>Música em espera
 
@@ -45,9 +45,6 @@ Você também pode configurar Música em Espera usando o módulo Teams PowerShel
 Se um Teams tiver uma política de chamada Teams música em espera definida como Desabilitada, nenhuma música será tocada quando o usuário Teams colocar a chamada em espera.
 
 ## <a name="configure-custom-music"></a>Configurar música personalizada
-
-> [!NOTE]
-> Esse recurso está disponível como uma versão de Visualização Pública.
 
 Além de tocar música padrão para chamadores PSTN, você pode carregar um arquivo de áudio personalizado com música ou outro conteúdo de áudio e configurar esse arquivo de áudio a ser tocado para o chamador PSTN.
 Por exemplo, um departamento ou organização pode querer reproduzir um anúncio personalizado ou música personalizada quando os chamadores PSTN externos são colocados em espera.  

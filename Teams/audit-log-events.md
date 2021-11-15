@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d817a89b60de260529b1e9d4a9891290d9ea404b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: d5c57cc859c3a30040b4874579157a714600156a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536882"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959830"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -89,6 +89,8 @@ Aqui está uma lista de todos os eventos que estão registrados para atividades 
 |Bot adicionado à equipe   |BotAddedToTeam        |Um usuário adiciona um bot a uma equipe.        |
 |Canal adicionado   |ChannelAdded         |Um usuário adiciona um canal a uma equipe.         |
 |Conector adicionado  |ConnectorAdded          |Um usuário adiciona um conector a um canal.        |
+|Adicionados detalhes sobre Teams reunião|MeetingDetail|Teams informações sobre uma reunião, incluindo a hora de início, a hora de término e a URL para ingressar na reunião.|
+|Adicionadas informações sobre participantes da reunião|MeetingParticipantDetail|Teams informações sobre os participantes de uma reunião, incluindo a ID do usuário de cada participante, a hora em que um participante ingressou na reunião e a hora em que um participante saiu da reunião.|
 |Membros adicionados    |MemberAdded         |Um proprietário de equipe adiciona membros a uma equipe, canal ou chat de grupo.         |
 |Guia Adicionada    |TabAdded         |Um usuário adiciona uma guia a um canal.        |
 |Configuração de canal alterada    |ChannelSettingChanged         |A operação ChannelSettingChanged é registrada quando as atividades a seguir são executadas por um membro da equipe. Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses é exibida na coluna **Item** nos resultados da pesquisa de log de auditoria. <ul><li>Altera o nome de um canal de equipe (**Nome do canal**)</li><li>Altera a descrição de um canal de equipe (**Descrição do canal**)</li> </ul>      |
@@ -177,7 +179,7 @@ Você pode usar a API Office 365 Atividade de Gerenciamento para recuperar infor
 
 ## <a name="attribution-in-teams-audit-logs"></a>Atribuição em Teams logs de auditoria
 
-As alterações de associação ao Teams (como usuários adicionados ou excluídos) feitas por meio do Azure Active Directory (Azure AD), portal de administração do Microsoft 365 ou api Graph Grupos do Microsoft 365 serão exibidas em mensagens de auditoria Teams e no canal Geral com uma atribuição a um proprietário existente da equipe e não para o iniciador real da ação. Nesses cenários, consulte o Azure AD ou [Microsoft 365 de](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) auditoria de grupo para ver as informações relevantes.
+Alterações de associação Teams (como usuários adicionados ou excluídos) feitas por meio do Azure Active Directory (Azure AD), portal de administração do Microsoft 365 ou API Microsoft 365 Grupos Graph serão exibidas no Teams  mensagens de auditoria e no canal Geral com uma atribuição a um proprietário existente da equipe, e não ao iniciador real da ação. Nesses cenários, consulte o Azure AD ou [Microsoft 365 de](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) auditoria de grupo para ver as informações relevantes.
 
 ## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar Cloud App Security para definir políticas de atividade
 

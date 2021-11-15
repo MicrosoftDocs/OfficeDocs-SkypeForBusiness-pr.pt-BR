@@ -17,12 +17,12 @@ description: Saiba como usar o relatório Teams de uso de eventos ao vivo no cen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865540"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959890"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams relatório de uso de eventos ao vivo
 
@@ -35,7 +35,7 @@ O Teams de uso de eventos ao vivo no centro de administração Microsoft Teams m
 3. (Opcional) Em **Organizador**, você pode optar por mostrar apenas eventos ao vivo organizados por um usuário específico.
 4. Clique **em Executar relatório**.  
 
-    ![Captura de tela do relatório Teams de uso de eventos ao vivo no centro de administração Teams com explicações explicativas.](../media/teams-live-event-usage-report-with-callouts.png "Captura de tela do relatório Teams de uso de eventos ao vivo no centro de administração Teams com callouts")
+   :::image type="content" alt-text="Captura de tela do relatório Teams de uso de eventos ao vivo no centro de administração Teams com explicações explicativas." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 
@@ -48,13 +48,15 @@ O Teams de uso de eventos ao vivo no centro de administração Microsoft Teams m
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela.|
 
 ## <a name="notes"></a>Observações
-Mostrando até 100 eventos ao vivo que corresponderem aos critérios de relatório atuais. Para ver mais eventos ao vivo, aplique filtros de data para reduzir o tamanho da lista.
+Mostramos até 100 eventos ao vivo que corresponderão aos critérios atuais do relatório. Para ver mais eventos ao vivo, aplique filtros de data para reduzir o tamanho da lista. 
+
+Qualquer pessoa que assista à gravação do evento ou do evento sob demanda não será incluída na contagem de exibição. 
 
 ## <a name="view-event-details"></a>Exibir detalhes do evento
 
 A página de detalhes do evento ao vivo fornece um resumo dos detalhes de um evento ao vivo e lista todos os arquivos, incluindo transcrições e gravações, associados ao evento. Clique em um nome de arquivo para exibir ou baixar o arquivo.
 
-![Captura de tela mostrando detalhes de um evento ao vivo.](../media/teams-live-event-usage-report-event-detail.png)
+:::image type="content" alt-text="Captura de tela mostrando detalhes de um evento ao vivo." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
 Se sua organização estiver [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) habilitada para Hive eCDN ou [Kollective](https://kollective.com) eCDN, você poderá obter análises adicionais do participante clicando no link de relatório do parceiro.
 
