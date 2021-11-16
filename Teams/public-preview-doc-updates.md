@@ -18,12 +18,12 @@ description: Obtenha mais informações sobre a prévia pública no Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ea71e9a00b49c498240be0ca876a0f1baeed27eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834729"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959870"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
@@ -38,9 +38,9 @@ Para obter uma lista do que está disponível na visualização pública do Team
 
 A visualização pública é habilitada por usuário e a opção de ativar a visualização pública é controlada em uma política de administrador. As políticas de atualização são usadas para gerenciar os usuários de visualização do Teams e do Office que verão os recursos de pré-lançamento ou visualização no aplicativo Teams. Você pode usar a política Global (padrão de toda a organização) e personalizá-la ou criar uma ou mais políticas personalizadas para seus usuários. A política precisa ser atribuída a usuários específicos porque ela não substitui a política global.
 
-1. Entre no Centro de administração.
+1. Entre no [Centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/).
 
-2. Selecione **Teams** > **Atualizar políticas** e, em seguida, selecione a opção **Atualizar políticas**.
+2. Selecione **Teams** > **Teams Atualizar políticas**.
 
 1. Selecione **Adicionar** para criar uma nova política ou selecione uma política existente para abrir **Atualizar política**.
 

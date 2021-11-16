@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432533"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960060"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Início rápido - reuniões, seminários via web e eventos ao vivo 
 
@@ -51,9 +51,9 @@ A tabela a seguir resume brevemente os três tipos de reuniões, o número de pa
 | Eventos ao vivo | Até 20.000** |-Transmitir para as grandes audiências. <br>-P e R moderada para a interação com o público. <br> -Pode especificar os produtores e apresentadores, incluindo os apresentadores externos.<br>-Oferece suporte às funcionalidades de produção mais avançadas. | Não |
 ||||
 
-*Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2021.<br>
+*Os usuais 10.000 aumentaram para 20.000 até 30 de junho de 2022.<br>
 
-**Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2021. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance). 
+**Os usuais 10.000 aumentaram para 20.000 até 30 de junho de 2022. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance). 
 
 **Considerações para grandes reuniões, seminários e eventos ao vivo** - Ao hospedar grandes reuniões, considere o seguinte:
 
