@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a58d40bb59e81376995f4a92421d479f5f4abda
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 436eded0069af9263aec02f62a697572be7a4ead
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909572"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041263"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento Direto - protocolo SIP
 
@@ -45,6 +45,7 @@ Antes que uma chamada de entrada ou saída possa ser processada, as mensagens OP
 > [!NOTE]
 > Os headers SIP não contêm userinfo no URI SIP em uso. De acordo com [a RFC 3261, seção 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), a parte userinfo de um URI é opcional e PODE estar ausente quando o host de destino não tem uma noção de usuários ou quando o próprio hosst é o recurso que está sendo identificado. Se o sinal @ estiver presente em um URI SIP, o campo do usuário NÃO DEVE estar vazio.
 > Observe que o URI SIPS não deve ser usado com Roteamento Direto, pois não é suportado.
+> Verifique a configuração do Controlador de Borda de Sessão e verifique se você não está usando os headers "Replaces" em solicitações SIP. O Roteamento Direto rejeitará solicitações SIP que tenham os headers Replaces definidos.
 
 Em uma chamada de entrada, o proxy SIP precisa encontrar o locatário ao qual a chamada está destinada e encontrar o usuário específico dentro desse locatário. O administrador de locatários pode configurar números não DID, por exemplo +1001, em vários locatários. Portanto, é importante encontrar o locatário específico no qual executar a análise de números, pois os números não DID podem ser os mesmos em várias organizações Microsoft 365 ou Office 365.  
 
