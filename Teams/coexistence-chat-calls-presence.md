@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportamento de coexistência entre Teams & Skype for Business, incluindo parâmetros de roteamento, roteamento de chamadas de chat &, chats & chamadas de threads pré-existentes, & presença.
-ms.openlocfilehash: 1ed59546d871a7ac375061714ceedd67086818d1
-ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
+ms.openlocfilehash: 5c32e99ad7cd74966cc7d8f22bd19a2520249b85
+ms.sourcegitcommit: a5b80ad33b4ee9505ea2be1a37f5ec2d8bf5ba76
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60911825"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61042362"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -63,7 +63,7 @@ Os métodos de roteamento de thread são:
 - *federado nativo para* uma conversa federada entre locatários quando ambos os usuários têm o modo TeamsOnly. 
 - *interop federado para* uma conversa federada entre locatários que depende da interopção entre Skype for Business e Teams.
 
-> [! OBSERVAÇÕES]
+> [!NOTE]
 > - As conversas nativas, seja nos mesmos cenários de locatário ou federado, ocorrem quando o receptor e o remetente têm o modo TeamsOnly. A conversa será uma experiência de chat nativa, que inclui todos os recursos avançados de mensagens e chamada. Para saber mais, leia [Experiência de chat nativa para usuários externos (federados) no Teams](native-chat-for-external-users.md). 
 > - Se um dos participantes da conversa não tiver o modo TeamsOnly, a conversa será uma experiência de interop com mensagens somente texto.
 > - Comunicações federadas entre usuários do TeamsOnly em nuvens de vários locatários e ambientes de nuvem especiais (por exemplo, nuvens do governo) aparecerão como chats federados de interop.
@@ -95,10 +95,10 @@ As tabelas abaixo capturam o roteamento de chat e chamadas no locatário e são 
 
 <br>
 
-|<br><br>Modo|Originador<br><br>Cliente|<br><br>&nbsp;Skype for Business homed|<br><br>Route->|Destinatário teamsOnly|
+|<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype for Business &nbsp; homed|<br><br>Route->|Destinatário teamsOnly|
 |---|---|---|:---:|---|
-|TeamsOnly|Equipes|Online|&boxv;|Equipes|
-|Ilhas|Equipes <br> Skype for Business| Local <br> Local|&boxv;<br>&boxv;|Teams <br> *Microsoft Teams*|
+|TeamsOnly|Teams|Online|&boxv;|Teams|
+|Ilhas|Teams <br> Skype for Business| Local <br> Local|&boxv;<br>&boxv;|Teams <br> *Microsoft Teams*|
 |Skype for Business | Skype for Business | Local|&boxv;|*Microsoft Teams*|
 ||||||
 
@@ -106,9 +106,9 @@ As tabelas abaixo capturam o roteamento de chat e chamadas no locatário e são 
 
 <br>
 
-|<br><br>Modo|Originador<br><br>Cliente|<br><br>&nbsp;Skype for Business homed|<br><br>Route->|Destinatário de Ilhas|
+|<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype for Business &nbsp; homed|<br><br>Route->|Destinatário de Ilhas|
 |---|---|---|:---:|---|
-|TeamsOnly|Teams|Online|&boxv;|Equipes|
+|TeamsOnly|Teams|Online|&boxv;|Teams|
 |Ilhas| Teams <br> Skype for Business|Local<br>Local|&boxv;<br>&boxv;| Teams <br> Skype for Business|
 |Skype for Business |Skype for Business | Local|&boxv;| Skype for Business|
 ||||||
@@ -117,7 +117,7 @@ As tabelas abaixo capturam o roteamento de chat e chamadas no locatário e são 
 
 <br>
 
-|<br><br>Modo|Originador<br><br>Cliente|<br><br>&nbsp;Skype for Business homed|<br><br>Route->|Skype for Business Destinatário|
+|<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype for Business &nbsp; homed|<br><br>Route->|Skype for Business Destinatário|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Ilhas|Teams <br> Skype for Business| Local <br> Local|&boxv;<br>&boxv;| **Não é possível** <br> Skype for Business|
@@ -127,7 +127,7 @@ As tabelas abaixo capturam o roteamento de chat e chamadas no locatário e são 
 
 ### <a name="federated-routing-for-new-chats-or-calls"></a>Roteamento federado para novos chats ou chamadas
 
-As tabelas abaixo capturam o roteamento de chamadas e chats federados e são válidas para novas chamadas ou chats. Eles descrevem qual cliente receberá uma nova chamada ou chat, se originado por um usuário à esquerda, para um usuário de destino federado à direita. Em resumo, se a conversa for possível conforme descrito acima, as mensagens enviadas aos usuários do TeamsOnly sempre chegarão Teams; mensagens enviadas para Skype for Business modo de usuário sempre chegarão em Skype for Business; as mensagens enviadas aos usuários das Ilhas sempre chegarão Skype for Business independentemente do cliente do qual foram enviadas. 
+As tabelas abaixo capturam o roteamento de chamadas e chats federados e são válidas para novas chamadas ou chats. Eles descrevem qual cliente receberá uma nova chamada ou chat, se originado por um usuário à esquerda, para um usuário de destino federado à direita. Em resumo, se a conversa for possível conforme descrito acima, as mensagens enviadas aos usuários do TeamsOnly sempre chegarão em Teams; as mensagens enviadas para o modo Skype for Business os usuários sempre chegarão em Skype for Business; as mensagens enviadas aos usuários das Ilhas sempre chegarão Skype for Business  independentemente do cliente do qual eles foram enviados. 
 
 O roteamento para chats e chamadas federados difere do roteamento no locatário, pois os usuários das Ilhas sempre receberão uma comunicação federada no Skype for Business. Isso porque o parceiro federado pode ainda não estar usando Teams. O roteamento para Skype for Business para qualquer modo de ilhas garante que as mensagens sempre serão recebidas.  O roteamento Teams pode resultar em comunicação perdida se o destinatário pretendido não usar Teams. 
 
@@ -137,8 +137,8 @@ O roteamento para chats e chamadas federados difere do roteamento no locatário,
 
 |<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype for Business homed|<br><br>Route->|Destinatário teamsOnly|
 |---|---|---|:---:|---|
-|TeamsOnly|Equipes|Online|&boxv;|Equipes|
-|Ilhas|Equipes <br> Skype for Business|Local <br> Local|&boxv;<br>&boxv;|**Não é possível** <br> *Microsoft Teams*|
+|TeamsOnly|Teams|Online|&boxv;|Teams|
+|Ilhas|Teams <br> Skype for Business|Local <br> Local|&boxv;<br>&boxv;|**Não é possível** <br> *Microsoft Teams*|
 |Skype for Business |Skype for Business|Local|&boxv;| *Microsoft Teams*|
 ||||||
 
@@ -149,8 +149,8 @@ O roteamento para chats e chamadas federados difere do roteamento no locatário,
 
 |<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype for Business homed|<br><br>Route->|Destinatário de Ilhas|
 |---|---|---|:---:|---|
-|TeamsOnly|Equipes|Online|&boxv;|*Skype for Business*|
-|Ilhas|Equipes <br> Skype for Business| Local <br> Local|&boxv;<br>&boxv;| **Não é possível** <br> Skype for Business|
+|TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
+|Ilhas|Teams <br> Skype for Business| Local <br> Local|&boxv;<br>&boxv;| **Não é possível** <br> Skype for Business|
 |Skype for Business |Skype for Business| Local|&boxv;| Skype for Business|
 |||||
 
@@ -187,11 +187,11 @@ Em situações em que alguns usuários estão usando o cliente Teams e outros es
 A presença é compartilhada com base no modo de coexistência de um usuário conforme descrito abaixo:
 
 - Se um usuário estiver no modo TeamsOnly, qualquer outro usuário (Teams ou Skype for Business) verá que a presença Teams usuário do TeamsOnly
-- Se um usuário estiver em qualquer um dos modos Skype for Business (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), qualquer outro usuário (seja no Teams ou no Skype for Business) verá Skype for Business presença Skype for Business do usuário
+- Se um usuário estiver em qualquer um dos modos Skype for Business (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), qualquer outro usuário (seja no Teams ou no Skype for Business) verá que o Skype for Business do usuário Skype for Business presença
 - Se um usuário estiver no modo Ilhas, a presença no Teams e a presença no Skype for Business são independentes (os valores não precisam corresponder) e outros usuários verão uma ou outra presença do usuário das Ilhas, dependendo se eles estão no mesmo locatário ou em um locatário federado e qual cliente eles usam
-  - A partir Teams, qualquer outro usuário dentro do mesmo locatário verá a presença Teams usuário das Ilhas; isso é alinhado com a tabela de roteamento no locatário acima
-  - A partir Teams, qualquer outro usuário em um locatário federado verá a presença Skype for Business usuário das Ilhas; isso é alinhado com a tabela de roteamento federada acima
-  - A partir Skype for Business, qualquer outro usuário verá a presença Skype for Business do usuário das Ilhas (in-tenant e federado); isso é alinhado com as tabelas de roteamento acima
+  - A partir Teams, qualquer outro usuário no mesmo locatário verá a presença Teams do usuário das Ilhas; isso é alinhado com a tabela de roteamento no locatário acima
+  - A partir Teams, qualquer outro usuário em um locatário federado verá a presença Skype for Business do usuário das Ilhas; isso é alinhado com a tabela de roteamento federado acima
+  - A partir Skype for Business, qualquer outro usuário verá a presença Skype for Business do usuário das Ilhas (no locatário e federado); isso é alinhado com as tabelas de roteamento acima
 
 ### <a name="in-tenant-presence"></a>Presença no locatário
 
@@ -233,11 +233,11 @@ A federação e a interopção entre os Office 365 e Office 365 operados pela 21
  
 |Cenário|Origem|Destinatário|Com suporte?|
 |---|---|---|---|
-|Presença|Equipes <br> Skype for Business <br> | Skype for Business <br> Teams|Sim<br>Sim|
-|Chat|Equipes <br> Skype for Business <br> | Skype for Business <br> Teams|Sim (somente 1:1)<br>Sim(somente 1:1)|
+|Presença|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Sim<br>Sim|
+|Chat|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Sim (somente 1:1)<br>Sim(somente 1:1)|
 |Chamadas de áudio|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Sim (somente 1:1)<br>Sim (somente 1:1)|
-|Chamadas de vídeo|Equipes <br> Skype for Business <br> | Skype for Business <br> Teams|Sim (somente 1:1)<br>Sim (somente 1:1)|
-|Compartilhamento de tela|Equipes <br> Skype for Business <br> | Skype for Business <br> Teams |Sim (por meio de uma reunião Teams promoção)<br>Sim (por meio de uma reunião Skype for Business promoção)|
+|Chamadas de vídeo|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Sim (somente 1:1)<br>Sim (somente 1:1)|
+|Compartilhamento de tela|Teams <br> Skype for Business <br> | Skype for Business <br> Teams |Sim (por meio de uma reunião Teams promoção)<br>Sim (por meio de uma reunião Skype for Business promoção)|
 |||||
 
 
