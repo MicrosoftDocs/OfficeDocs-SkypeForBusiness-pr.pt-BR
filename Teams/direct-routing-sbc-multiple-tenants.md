@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um Controlador de Borda de Sessão (SBC) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf047f458750c88baa4d3d04d712d56338cb0da3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c91532582325d8199d0ca47d5fd2515b4b77c344
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726870"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055562"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -236,7 +236,7 @@ Duas novas entidades foram introduzidas:
 -    No locatário do cliente, a operadora só precisa adicionar o FQDN de tronco derivado às políticas de roteamento de voz dos usuários. Não é necessário executar o New-CSOnlinePSTNGateway para um tronco.
 -    O tronco derivado, como o nome sugere, herda ou deriva todos os parâmetros de configuração do tronco da operadora. Exemplos:
 -    Customers.adatum.biz – o tronco da operadora que precisa ser criado no locatário da operadora.
--    Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente que não precisa ser criado no PowerShell.  Você pode simplesmente adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem cria-lo.
+-    Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente que não precisa ser criado no PowerShell.  Você pode simplesmente adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem cria-lo (use FQDN de tronco derivado ao configurar a política de roteamento de voz no TAC em Teams-Voice-Direct Routing-Voice Routes field SBCs inscritos).
 -   A operadora precisará configurar o registro DNS resolvendo FQDN de tronco derivado para o endereço ip SBC da operadora.
 
 -    Todas as alterações feitas em um tronco de operadora (no locatário da operadora) são aplicadas automaticamente a troncos derivados. Por exemplo, as operadoras podem alterar uma porta SIP no tronco da operadora, e essa alteração se aplica a todos os troncos derivados. A nova lógica para configurar os troncos simplifica o gerenciamento, pois você não precisa ir a todos os locatários e alterar o parâmetro em cada tronco.

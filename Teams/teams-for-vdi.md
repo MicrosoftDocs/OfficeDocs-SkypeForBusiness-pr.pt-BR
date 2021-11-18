@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2461620fa70ba6bf3b3db4db613e6d5adb908ddb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e684f9d64c3a10611b3cd71c9ea711f052050f48
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753852"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055442"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -158,7 +158,7 @@ Microsoft 365 Apps para Grandes Empresas não dá suporte a instalações por m�
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>Como excluir Teams implantação por meio Microsoft 365 Apps para Grandes Empresas
 
-Para saber mais sobre Teams e Microsoft 365 Apps para Grandes Empresas, consulte Como excluir o Teams de novas instalações do Microsoft 365 Apps para Grandes Empresas e Usar [a](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) Política de Grupo para controlar a instalação do [Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+Para saber mais sobre Teams e Microsoft 365 Apps para Grandes Empresas, consulte Como excluir o Teams de novas instalações do [Microsoft 365 Apps para Grandes Empresas](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) e Usar a Política de Grupo para controlar a instalação [de Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Implantar o Teams da área de trabalho na VM
 
@@ -220,7 +220,7 @@ Há uma variedade de configurações de configuração virtualizadas, cada uma c
 - Requisito mínimo: Algumas cargas de trabalho podem exigir uma instalação usando recursos que estão acima dos requisitos mínimos. Por exemplo, cargas de trabalho para desenvolvedores que usam aplicativos que exigem mais recursos de computação.
 - Dependências: elas incluem dependências de infraestrutura, carga de trabalho e outras considerações ambientais fora do Teams da área de trabalho.
 - Recursos desabilitados na VDI: Teams desabilita recursos intensivos de GPU para VDI, o que pode ajudar a melhorar a utilização transitória da CPU. Os seguintes recursos estão desabilitados:
-    - Teams Animação CSS
+    - Teams css
     - Início automático giphy
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>Teams VDI com chamada e reuniões
@@ -381,7 +381,7 @@ Esse recurso está disponível Teams versão 1.3.00.13565 e posterior.
 
 ## <a name="disable-audio-and-video-settings-for-vdi"></a>Desabilitar configurações de áudio e vídeo para VDI
 
-Teams As políticas VDI estão disponíveis no módulo Microsoft Teams. Essas políticas são ativas e impostas em ambientes VDI não otimizados.
+Teams VDI estão disponíveis no módulo Microsoft Teams. Essas políticas são ativas e impostas em ambientes VDI não otimizados.
 
 - New-CsTeamsVdiPolicy  
 - Grant-CsTeamsVdiPolicy
@@ -494,7 +494,7 @@ Os seguintes recursos de chamada e reunião não são suportados:
 
 A seguir estão os problemas conhecidos e limitações de chamada e reuniões:
 
-- A interoperabilidade com Skype for Business está limitada a chamadas de áudio; não há nenhuma modalidade de vídeo.
+- A interoperabilidade com Skype for Business está limitada a chamadas de áudio; não há modalidade de vídeo.
 - A resolução de fluxo de vídeo de entrada e saída é limitada à resolução de 720p.
 - Há suporte para apenas um fluxo de vídeo de uma câmera de entrada ou de um fluxo de compartilhamento de tela. Quando há um compartilhamento de tela de entrada, esse compartilhamento de tela é mostrado, em vez do vídeo do alto-falante dominante.
 - Teams alternar para usar o último dispositivo de áudio que um usuário selecionou, se o dispositivo estiver desconectado e, em seguida, reconectado.
@@ -504,8 +504,6 @@ A seguir estão os problemas conhecidos e limitações de chamada e reuniões:
 - Dê controle e controle:
     - Não há suporte durante uma sessão de compartilhamento de tela ou de aplicativo.
     - Suportado durante uma sessão de PowerPoint de compartilhamento.
-- Limitações somente para Citrix
-   - Não há suporte para dimensionamento de DPI alto no CWA.
 
 Para Teams problemas conhecidos que não estão relacionados à VDI, consulte [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 

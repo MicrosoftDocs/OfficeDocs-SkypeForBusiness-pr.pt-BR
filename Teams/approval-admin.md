@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33af895358695227d9f7e76ec5b80fb733749342
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d607a2ea0469ce3b88411bfe17ca8d54b76c7cc0
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850604"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055432"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -99,10 +99,10 @@ Permissões do modelo de aprovação
 
 - Todos os proprietários de equipe podem criar um modelo de aprovação para equipes que eles próprios têm.
 
-- Quando um Administrador cria um modelo para toda a organização pela primeira vez, ele criará automaticamente uma nova equipe de Teams para todos os administradores do locatário, incluindo os administradores de serviço globais e de equipe. Esses administradores serão adicionados como proprietários da equipe, para que possam co-gerenciar modelos organizacionais. Os administradores novos na organização após a criação da equipe precisam ser adicionados manualmente como proprietários de equipe para que tenham as mesmas permissões para gerenciar modelos de toda a organização.
+- Quando um Administrador cria um modelo para toda a organização pela primeira vez, ele criará automaticamente um novo grupo de Azure Active Directory(AAD) para todos os administradores do locatário, incluindo os administradores de serviço globais e da equipe. Esses administradores serão adicionados como proprietários do grupo, para que possam co-gerenciar modelos organizacionais. Os administradores novos na organização após a criação da equipe precisam ser adicionados manualmente como proprietários de grupo para que tenham as mesmas permissões para gerenciar modelos de toda a organização.
 
 > [!Note]
-> Se um administrador excluir a equipe, você terá um mês para restaurá-la no portal Azure Active Directory (AAD) para restaurar todos os dados relacionados. Após um mês ou se o administrador excluir essa equipe dentro da lixeira, você perderá todos os dados relacionados.
+> Se um administrador excluir o grupo, você terá um mês para restaurá-lo no portal Azure Active Directory (AAD) para restaurar todos os dados relacionados. Após um mês ou se o administrador excluir esse grupo dentro da lixeira, você perderá todos os dados relacionados.
 
 ## <a name="disable-the-approvals-app"></a>Desabilitar o aplicativo Aprovações
 

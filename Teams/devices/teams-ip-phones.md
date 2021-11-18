@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 85a408ead20a8a2c2e9660c6748d616bd8b8c922
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 50e5e9fb3ae3e549528d0af37d3d814a3746dd11
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909582"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055362"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
 Os Microsoft Teams de certificação garantem que os clientes que usam telefones de mesa certificados e telefones de conferência experimentem a experiência de chamadas de áudio e reuniões de alta qualidade.
 
-Microsoft Teams Os programas de certificação garantem uma barra de alta qualidade com metas de desempenho mais altas e métricas de qualidade de áudio. Os parceiros estão trabalhando ativamente para atender a essa barra superior e estão qualificando dispositivos em relação aos requisitos de certificação. Alguns de nossos parceiros também estão trabalhando para fornecer suporte para o serviço Skype for Business no mesmo hardware que os telefones Teams. 
+Microsoft Teams programas de certificação garantem uma barra de alta qualidade com metas de desempenho mais altas e métricas de qualidade de áudio. Os parceiros estão trabalhando ativamente para atender a essa barra superior e estão qualificando dispositivos em relação aos requisitos de certificação. Alguns de nossos parceiros também estão trabalhando para fornecer suporte para o serviço Skype for Business no mesmo hardware que os telefones Teams. 
 
 ## <a name="currently-certified-teams-phones"></a>Telefones Teams certificados atualmente
 
@@ -186,6 +186,9 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.7.0`          | Atualização 2021 #2A    |
+| Poly Studio X50 | `3.7.0`          | Atualização 2021 #2A    |
+| Poly TC8 | `3.7.0`                 | Atualização 2021 #2A    |
 | Poly Studio X30 | `3.6.0.350035`          | Atualização 2021 #2A    |
 | Poly Studio X50 | `3.6.0.350035`        | Atualização 2021 #2A    |
 | Poly TC8 | `3.6.0.210534`              | Atualização 2021 #2A    |

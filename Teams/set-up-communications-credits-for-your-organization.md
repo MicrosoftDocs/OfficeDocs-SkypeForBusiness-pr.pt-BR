@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 2fc412627bc211d3ec3290d2cb4c64698e0bca9b
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: a7eab97eb3a69c8fd18442a4f8f132ec02cf9671
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045887"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055552"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicação da sua organização
 
@@ -79,15 +79,15 @@ Para obter mais informações, [consulte Microsoft Teams licenciamento de comple
       > [!NOTE]
      > Os fundos serão aplicados somente aos Créditos de Comunicação às taxas publicadas da Microsoft quando os serviços são usados. Os fundos não usados no prazo de 12 meses a contar da data de compra expirarão e serão cancelados. 
      > 
-     > Ao usar a função de recarga automática, a faturamento para Créditos de Comunicação é gerada quando o valor do gatilho é atingido e uma transação de recarga é processada. Os valores de crédito de comunicação são usados de forma in-locar. Para saber como verificar o uso mensal, leia Skype for Business relatório de uso [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > Ao usar a função de recarga automática, a faturamento para Créditos de Comunicação é gerada quando o valor do gatilho é atingido e uma transação de recarga é processada. Os valores de crédito de comunicação são usados de forma in-locar. Para saber como verificar seu uso mensal, leia Microsoft Teams relatório de uso [PSTN.](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)
     
 5. Insira suas informações de pagamento e clique em **Fazer pedido**.
     >[!IMPORTANT]
     >Se você for um cliente de licenciamento por volume, você pode escolher seu número enterprise agreement para pagamento. Se você tiver vários números enterprise agreement, você pode escolher qual prefere usar para o pagamento. Você também poderá especificar um número de ordem de compra que será associado ao número do enterprise agreement (se aplicável).
     
-Cada organização terá um uso diferente de volume e taxas do Plano de Chamada a considerar. You will need to get this type of usage data from your current service provider. As organizações que já usam o Skype for Business Online como provedor de serviços podem obter dados de uso revisá-los no centro de administração do **Microsoft Teams** Analytics & relatórios Relatórios de uso relatório de uso  >    >    >  **PSTN** e SMS (visualização).
+Cada organização terá um uso diferente de volume e taxas do Plano de Chamada a considerar. You will need to get this type of usage data from your current service provider. As organizações que já usam o Skype for Business Online ou Microsoft Teams como provedor de serviços podem obter dados de uso revisá-los no centro de administração do **Microsoft Teams** Analytics & relatórios Relatórios de uso relatório de uso  >    >    >  **PSTN** e SMS (visualização).
   
-Ao configurar os Créditos de Comunicação, você precisará investigar o uso de chamada para sua organização para determinar os valores necessários. Você pode obter informações de uso de chamada revendo o relatório de uso **de PSTN e SMS (visualização).** Este relatório permite exportar os registros de dados de chamada para Excel se precisar armazenar os dados ou criar relatórios personalizados. Para saber como ver o uso, leia o relatório de uso [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
+Ao configurar os Créditos de Comunicação, você precisará investigar o uso de chamada para sua organização para determinar os valores necessários. Você pode obter informações de uso de chamada revendo o relatório de uso **de PSTN e SMS (visualização).** Este relatório permite exportar os registros de dados de chamada para Excel se precisar armazenar os dados ou criar relatórios personalizados. Para saber como ver o uso, leia Microsoft Teams relatório de uso [PSTN.](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Etapa 3: Atribuir uma licença de Créditos de Comunicação aos usuários
 
@@ -113,7 +113,7 @@ Você pode ver os planos e os preços visitando um dos seguintes links:
     
 - [Planos de Audioconferência](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
-- [Sistema de Telefonia Planos](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [Sistema de Telefonia planos](https://go.microsoft.com/fwlink/?LinkId=799763)
     
 Você também pode ver informações ao [entrar no Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e ir para **Cobrança**  >  **Assinaturas**  >  **Adicionar assinaturas**.
   
