@@ -1,9 +1,8 @@
 ---
 title: Provisionamento remoto e entrada para dispositivos Teams Android
-author: serdarsoysal
-ms.author: serdars
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como provisionar e entrar remotamente em dispositivos Teams Android
-ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046147"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070145"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para dispositivos Teams Android
 
@@ -108,7 +107,7 @@ Quando o dispositivo é ligado e conectado à rede, o técnico provisiona o disp
 
    ![Nome do locatário na página de login.](../media/provision-code.png)
 
-## <a name="sign-in-remotely"></a>Entrar remotamente
+## <a name="first-time-remote-sign-in"></a>Primeira vez em que entrar remoto
 
 O dispositivo provisionado aparece na guia **Aguardando entrada.** Inicie o processo de entrada remota selecionando o dispositivo individual.
 
@@ -120,7 +119,8 @@ O dispositivo provisionado aparece na guia **Aguardando entrada.** Inicie o proc
 
    ![a janela Entrar em um usuário para um dispositivo individual.](../media/sign-in-user.png)
 
-## <a name="related-article"></a>Artigo relacionado
+## <a name="related-articles"></a>Artigos relacionados
 
 - [Gerenciar seus dispositivos no Teams](device-management.md)
+- [Entrar e sair remoto](remote-sign-in-and-sign-out.md)
 - [Atualizar Teams dispositivos remotamente](remote-update.md)
