@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c19981f4cc7edb556b245da2aac0b320705cc64
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 2fa7a7c314fe2d31e5306ec96902f8ca87e44355
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275565"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111961"
 ---
 # <a name="configure-operator-connect"></a>Configurar o operador Conexão
 
@@ -64,7 +64,7 @@ Para adquirir números para novos Teams usuários, siga estas etapas:
 
 1. **Atribuir uma Sistema de Telefonia de usuário.** Você pode atribuir uma Sistema de Telefonia aos usuários do Centro de administração do Microsoft 365 ou usando o PowerShell. Para obter mais informações, [consulte Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. Os usuários que receberão números de telefone adquiridos com o operador Conexão precisam estar no modo TeamsOnly. Se sua organização estiver no modo TeamsOnly, todos os usuários estão no modo TeamsOnly. Para verificar isso, no centro de administração Teams, acesse **Configurações** em toda a organização > Teams atualização . Se sua organização estiver no modo Ilhas, verifique se usuários específicos estão no modo TeamsOnly. Vá para **Usuários** e selecione uma conta de usuário. Na guia **Conta,** em **Teams atualização,** o modo de coexistência deve ser definido como 'TeamsOnly'.
+2. Os usuários que receberão números de telefone adquiridos com o operador Conexão precisam estar no modo TeamsOnly. Se sua organização estiver no modo TeamsOnly, todos os usuários estão no modo TeamsOnly. Para verificar isso, no centro de administração Teams, acesse **Teams > Teams configurações de atualização.** Se sua organização estiver no modo Ilhas, verifique se usuários específicos estão no modo TeamsOnly. Vá para **Usuários** e selecione uma conta de usuário. Na guia **Conta,** em **Teams atualização,** o modo de coexistência deve ser definido como 'TeamsOnly'.
 
 3. **Adquirir números.** Acesse o site da sua operadora para solicitar e adquirir números de telefone. Para uma lista de sites de operador, acesse o diretório Microsoft 365 [Operator Conexão.](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) Você precisará fornecer sua ID de locatário. Se você não conhece sua ID de locatário, consulte Encontre sua ID Microsoft 365 [locatário](/onedrive/find-your-office-365-tenant-id) para obter mais informações.
 

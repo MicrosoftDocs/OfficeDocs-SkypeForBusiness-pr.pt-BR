@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a76559ea1ec140b18acbcc49f92b724a0e1bdc3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604450"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055422"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -36,9 +36,9 @@ Gerencie aplicativos para a sua organização em **aplicativos do Teams** no [ce
 
 Para saber mais, veja [Configurações de administração para aplicativos no Teams](admin-settings.md).  
 
-## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Configurações da organização do Teams no centro de administração do Microsoft Teams.
+## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>O acesso externo ao Teams e configurações de acesso de convidado no centro de administração Microsoft Teams
 
-Você pode controlar as configurações de usuário em toda a organização no centro de administração do Microsoft Teams. Para editar as configurações de toda a organização, vá até o centro de administração do Microsoft Teams e escolha **Configurações gerais da organização**. Você pode definir as seguintes configurações.
+Você pode controlar as configurações de acesso externo e de convidado no centro de administração Microsoft Teams. Para editar essas configurações, vá para o centro de administração Microsoft Teams e selecione **Usuários**. Você pode definir as configurações a seguir.
 
 ### <a name="external-access"></a>Acesso externo
 
@@ -54,6 +54,10 @@ Para adicionar ou bloquear um domínio:
 ### <a name="guest-access"></a>Acesso de convidados
 
 O **Acesso de Convidado** no Microsoft Teams permite que as equipes em sua organização colaborem com pessoas de fora da organização, concedendo-lhes acesso a equipes e a canais. Qualquer pessoa com uma conta de email comercial ou de consumidor, como o Outlook, o Gmail ou outras, pode participar como convidado no Microsoft Teams, com acesso total a chats, reuniões e arquivos de equipe. Para obter mais informações, veja [Acesso de convidado no Microsoft Teams](guest-access.md).
+
+## <a name="teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center"></a>As configurações do Teams e configurações de atualização do Teams no centro de administração Microsoft Teams
+
+Você pode controlar as configurações do Teams e as configurações de atualização do Teams no centro de administração do Microsoft Teams. Para editar essas configurações, vá para o centro de administração do Microsoft Teams e selecione **Teams**. Você pode definir as configurações a seguir.
 
 ### <a name="teams-settings"></a>Configurações de equipes
 
@@ -102,11 +106,7 @@ A pesquisa de diretório no escopo do Microsoft Teams usa a APB (política de ca
 
 O chat animado permite que organizações e escolas limitem os recursos de chat usando permissões baseadas em função. Essas permissões controlam a quantidade de supervisão que um usuário exige ao conversar com outras pessoas. Saiba mais sobre [conversas no](supervise-chats-edu.md).
 
-### <a name="skype-for-business"></a>Skype for Business
-
-Use essa página para gerenciar os recursos do Skype for Business para usuários do Skype for Business na sua organização. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](skype-for-business-settings.md).
-
-### <a name="teams-upgrade"></a>Atualização do Microsoft Teams
+### <a name="teams-upgrade-settings"></a>Configurações de atualização do Teams
 
 Você pode usar essas configurações para definir como os usuários serão atualizados do Skype for Business para o Microsoft Teams. 
 
@@ -125,6 +125,7 @@ O modo de coexistência escolhido determina o roteamento de chats e chamadas rec
 
 Aqui você pode escolher o aplicativo que os usuários usarão para ingressar em reuniões do Skype for Business (Skype for Business ou o [aplicativo Reuniões do Skype](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Essa configuração não depende da configuração do modo de coexistência.
 
+### <a name="planning-settings-in-the-microsoft-teams-admin-center"></a>Planejando configurações no centro de administração do Microsoft Teams
 
 #### <a name="network-planner"></a>Planejador de Rede
 
@@ -132,6 +133,11 @@ O planejador de rede ajuda a determinar e organizar os requisitos de rede para c
 
 Você também pode selecionar a opção "Baixar o aplicativo do Teams em segundo plano para usuários do Skype for Business".  Por padrão, essa configuração é definida como Ativada. Com essa configuração ativada, será realizado o download do aplicativo Teams em segundo plano para usuários que executam o aplicativo Skype for Business em computadores com Windows. Isso acontece se o modo de coexistência para o usuário for Somente Teams ou se uma notificação de atualização pendente estiver ativada no aplicativo Skype for Business.
 
+## <a name="other-settings-in-the-microsoft-teams-admin-center"></a>Outras configurações no centro de administração do Microsoft Teams
+
+### <a name="skype-for-business"></a>Skype for Business
+
+Use essa página para gerenciar os recursos do Skype for Business para usuários do Skype for Business na sua organização. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](skype-for-business-settings.md).
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Como saber quais recursos estão disponíveis?
 

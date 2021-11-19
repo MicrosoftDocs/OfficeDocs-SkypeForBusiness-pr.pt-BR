@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Saiba como gerenciar o aplicativo Bookings em Teams para usuários em sua organização.
-ms.openlocfilehash: 42e7c4741104f417f7e24a0e6441acb57cac203a
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973049"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111971"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gerenciar o aplicativo Bookings em Microsoft Teams
 
@@ -41,7 +41,7 @@ Os agendadores podem gerenciar vários calendários de departamentos e de funcio
 
 - O Microsoft Bookings deve ser ativado para a organização.
 
-- Os usuários devem ter uma licença apropriada*. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 e E5, Business Standard são suportados.
+- Os usuários devem ter uma licença apropriada*. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 e Business Standard são suportados.
 
 - Todos os usuários do aplicativo Bookings e toda a equipe que participa das reuniões devem ter uma licença que suporte Teams agendamento de reuniões.
 
