@@ -22,26 +22,28 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6cf78791a1ece16a3a90b096271210b88d356f23
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839733"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124278"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
 Como administrador, você usa as configurações de reunião do Teams para controlar se usuários anônimos podem participar de reuniões do Teams, personalizar convites para reuniões e, se desejar habilitar a Qualidade de Serviço (QoS), definir intervalos de portas para tráfego em tempo real. Essas configurações se aplicam a todas as reuniões do Teams que os usuários agendam na sua organização. Você gerencia essas configurações em **Reuniões** > **Configurações de reunião** no centro de administração do Microsoft Teams.
 
+A partir de novembro de 2021, os administradores também podem controlar se usuários específicos ou grupos de usuários podem permitir que usuários anônimos participem das reuniões que organizam. Esta política por organizador é mais restritiva e substitui as configurações de usuário anônimo em toda a organização abaixo que os administradores gerenciam no Centro de administração do Teams.
+
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Permitir que usuários anônimos ingressem em reuniões
 
 Com o ingresso anônimo, qualquer pessoa pode ingressar na reunião como um usuário anônimo clicando no link do convite para a reunião. Para saber mais, consulte [Ingressar em uma reunião sem uma conta do Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
- **Usando o centro de administração do Microsoft Teams**
+ ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
+Você deve ser um administrador do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
-1. Vá para o centro de administração.
+1. Acesse o [Centro de Administração Teams](https://admin.teams.microsoft.net).
 
 2. Na navegação à esquerda, vá para **Encontros** > **Configurações de reunião**.
 
@@ -51,6 +53,22 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 
 > [!CAUTION]
 > Se você não deseja que usuários anônimos participem de reuniões agendadas por usuários em sua organização, desative essa configuração.
+
+### <a name="using-powershell"></a>Usando o Windows PowerShell
+
+Os administradores agora podem controlar se usuários específicos ou grupos de usuários podem permitir que usuários anônimos participem das reuniões que organizam. Essa nova política por organizador é controlada pelo parâmetro **-AllowAnonymousUsersToJoinMeeting** em [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). Isso vem com Teams PowerShell versão 2.6.0 e posterior.
+
+Você pode usar qualquer política, para toda a organização ou por organizador, para gerenciar a associação anônima. Recomendamos que você implemente a política por organizador. A configuração de política para toda a organização será preterida no futuro e a política por organizador será a única maneira de controlar a associação anônima.
+
+Como as políticas para toda a organização e por organizador controlam a associação anônima, a configuração mais restritiva será eficaz. Por exemplo, se você não permitir a associação anônima no nível da organização, essa será sua política efetiva, independentemente do que você configurar para a política por organizador. Portanto, para permitir que usuários anônimos participem de reuniões, você deve configurar ambas as políticas para permitir a participação anônima definindo os seguintes valores:
+
+- **-DisableAnonymousJoin** definido como **$false**
+- **-AllowAnonymousUsersToJoinMeeting** definido como **$true**
+
+Qualquer outra combinação de valores impedirá que usuários anônimos ingressem em reuniões.
+> [!NOTE]
+> Para usar a política por organizador para organizações com ingresso anônimo desativado por organização, os administradores precisam criar uma política e atribuí-la aos usuários. Para saber como fazer isso, consulte [Gerenciar políticas de reunião no Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-overview).
+
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Permitir que usuários anônimos interajam com aplicativos em reuniões
 
