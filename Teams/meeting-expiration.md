@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Saiba como usar as configurações de política de reunião para controlar a expiração da reunião Microsoft Teams.
-ms.openlocfilehash: b9399e9beaf364af7d2bdfa2e1c2b68ad5b6a018
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7912c57e12de83f112bb1c80b1c44d81d9d6b857
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887179"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124258"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Políticas de reunião e expiração de reunião Microsoft Teams
 
@@ -151,10 +151,12 @@ Quando uma gravação falha ao carregar no OneDrive ou no SharePoint, o aplicati
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
+[Alterar a data de expiração da reunião - controles do usuário final](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+
 [Gerenciar políticas de reunião no Teams](meeting-policies-overview.md)
 
 [Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)
 
 [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
 
-[Alterar a data de expiração da reunião - Suporte da Microsoft](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+

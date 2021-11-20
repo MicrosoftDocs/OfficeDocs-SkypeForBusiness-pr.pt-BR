@@ -369,8 +369,6 @@ items:
                 href: view-guests.md
               - name: Editar as informações do convidado
                 href: edit-guests-information.md
-              - name: Solucionar problemas de acesso de convidados
-                href: troubleshoot-guest-access.md
       - name: Monitorar e gerenciar a qualidade da chamada
         items:
           - name: Monitorar e melhorar a qualidade da chamada

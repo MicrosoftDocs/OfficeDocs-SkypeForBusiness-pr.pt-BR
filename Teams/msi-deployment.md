@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2e598a44fade1805824354606229668fb3494d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850574"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124238"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 
@@ -44,8 +44,6 @@ Estes são os links para os arquivos MSI:
 **Para garantir uma implantação bem-sucedida, esteja ciente do seguinte:**
 
 - Instale a versão de 64 bits do Teams em sistemas operacionais de 64 bits. Se você tentar instalar a versão de 64 bits do Teams em um sistema operacional de 32 bits, a instalação não terá êxito e você não receberá uma mensagem de erro.
-
-- Se o locatário do cliente estiver nas nuvens GCCH ou DoD, o cliente deve definir o ponto de extremidade inicial no registro adicionando o valor **CloudType** à chave **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** no registro. O tipo de **CloudType** é **DWORD** e os valores são (0 = Não definido, 1 = comercial, 2 = GCC, 3 = GCCH, 4 = DOD). Definir o ponto de extremidade com a chave de registro restringe o Teams a se conectar ao ponto de extremidade de nuvem correto para conectividade de pré-login com o Teams.
 
 - O Teams também podem ser incluído com uma implantação do Microsoft 365 Apps para Grandes Empresas. Para obter mais informações, confira [Implantar Microsoft Teams com Microsoft 365 Apps para Grandes Empresas](/deployoffice/teams-install).
 

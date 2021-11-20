@@ -1,5 +1,5 @@
 ---
-title: Lista de verificação de atualização| Skype Business to Teams Upgrade | Etapas básicas
+title: Lista de verificação de atualização| Skype Business para Teams atualização | Etapas básicas
 author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c0017169ce8cb96b9c8ea1ba871eb9e21101025
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1a06c4783e9ee4f42473e6b08f0d9bd51c142ddf
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851635"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124248"
 ---
 # <a name="upgrade-basic"></a>Upgrade Basic
 
@@ -39,7 +39,7 @@ Projetada para organizações menores ou que usam o Skype for Business Online ap
 Essas dez etapas fáceis fornecem tudo o que você precisa para uma atualização bem-sucedida. Eles foram projetados para serem concluídos em cerca de 30 a 45 dias, mas você deve ajustar as datas de conclusão da tarefa com base no cronograma de atualização da sua organização.
 
 > [!IMPORTANT]
-> Skype for Business Online será retirado em 31 de julho de 2021. Após esse tempo, o Skype for Business online não estará mais acessível ou com suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams.
+> Skype for Business Online será retirada em 31 de julho de 2021. Após esse tempo, o Skype for Business online não estará mais acessível ou com suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams.
 
 O que acontece com Skype for Business após a atualização? Depois que seus usuários forem atualizados para o Teams (modo **Apenas Teams**):
 
@@ -164,7 +164,7 @@ Os usuários estão ocupados com suas responsabilidades diárias. Lembrá-los da
 
 *(Dia da Atualização)*
 
-Hoje é o dia em que sua organização atualiza oficialmente para Teams como sua solução de comunicação e colaboração. No centro Microsoft Teams de administração, ative a opção de atualização definindo o modo de coexistência como **Teams Somente**. (No centro de administração, acesse **Org-wide Configurações**  >  **Teams Upgrade**.) Os usuários receberão uma notificação no Skype for Business cliente que foram atualizados para Teams.
+Hoje é o dia em que sua organização atualiza oficialmente para Teams como sua solução de comunicação e colaboração. No centro Microsoft Teams de administração, ative a opção de atualização definindo o modo de coexistência como **Teams Somente**. (No centro de administração, vá **para** Teams  >  **Teams configurações de atualização**.) Os usuários receberão uma notificação no Skype for Business cliente que foram atualizados para Teams.
 
 Recomendamos que, depois que todos foram atualizados, você envie um email acolhendo-os para Teams.
 

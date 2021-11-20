@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obter uma visão geral de quais são os pedidos de portabilidade e como transferir números de telefone de seu provedor de serviços para Teams.
-ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb2c81a1c2263e59aee8477679440c7e26748c3a
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833025"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124268"
 ---
 # <a name="whats-a-port-order"></a>O que é um pedido de portabilidade?
 
@@ -67,10 +67,10 @@ Em geral, você pode transferir qualquer número de telefone que seja de um prov
 
 - Skype for Business números de telefone híbridos. Se você quiser transferir esses números, envie um email para <ptn@microsoft.com> .
 
-  **Não é possível transferir:**
+**Não é possível transferir:**
   
-    > [!NOTE]
-    > No momento, você não pode transferir nenhum número de telefone ou números que não sejam de um país ou região com suporte, incluindo números de telefone de um provedor de telefonia VoIP. Para ver uma lista de países/regiões com suporte, consulte Disponibilidade de país e [região para Planos de Audioconferência e Chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> [!NOTE]
+> No momento, você não pode transferir nenhum número de telefone ou números que não sejam de um país ou região com suporte, incluindo números de telefone de um provedor de telefonia VoIP. Para ver uma lista de países/regiões com suporte, consulte Disponibilidade de país e [região para Planos de Audioconferência e Chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Números de telefone usados para conexões de dados, como linhas DSL ou conexões com a Internet de banda larga.
 
@@ -80,8 +80,8 @@ Em geral, você pode transferir qualquer número de telefone que seja de um prov
 
     Se você porta o número de telefone para Teams, você pode atribuir esse número de telefone a um usuário em sua organização em vez de usá-lo para fax.
 
-    > [!NOTE]
-    > Atualmente, no Reino Unido, não há suporte para a transferência de números não geográficos do Reino Unido, incluindo números de custo compartilhados para códigos de área 0843, 0844, 0845, 0870, 0871, 0872.
+> [!NOTE]
+> Atualmente, no Reino Unido, não há suporte para a transferência de números não geográficos do Reino Unido, incluindo números de custo compartilhados para códigos de área 0843, 0844, 0845, 0870, 0871, 0872.
   
 ## <a name="what-information-do-i-need-to-provide"></a>Quais informações preciso fornecer?
 
@@ -140,9 +140,7 @@ Sim, podem. Basta enviar uma solicitação de serviço que inclua a GUI de locat
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Posso por meus números de Teams para um provedor ou operadora de telefonia diferente?
 
-Para fazer a portabilidade de seus números Teams para uma operadora diferente, você deve enviar uma solicitação com a nova operadora. Você também precisará definir um PIN de portação no Microsoft Teams de administração.
-
-Para definir seu PIN de portação, na navegação à esquerda do centro de administração do Microsoft Teams, vá para **Números** de voz Telefone , no canto superior direito da página, selecione Gerenciar PIN de portação e insira um PIN de  >  10 dígitos. 
+Para fazer a portabilidade de seus números Teams para uma operadora diferente, você deve enviar uma solicitação com a nova operadora. Você também precisará definir um PIN de portação abrindo um caso de suporte. Para obter informações sobre como obter suporte, consulte [Obter suporte](/microsoft-365/business-video/get-help-support). 
 
 Quando a nova operadora entrar em contato conosco com a solicitação de portação, pediremos que forneçam o PIN definido.
 
