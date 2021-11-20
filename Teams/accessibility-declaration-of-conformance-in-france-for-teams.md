@@ -20,20 +20,24 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée ete. "
-ms.openlocfilehash: 00ad78c4c38865a242f303dc1a5900995906d649
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b366a21f278735c887f9c92a23f87e7217228218
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014575"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129871"
 ---
 # <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams: EN 301 549 Déclaration de conformité en matière d'accessibilité
 
-Data : 2 de outubro de 2018
+Data : 23 juin 2021
 
 Nom du produit : Microsoft Teams
 
-Description du produit : Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée ete.
+Description du produit : Microsoft Teams, Teams for Work et Teams para Educação sont des plateformes qui permettent à toutes les personnes de chatter, de créer des canaux, de suivre les activités, de partager des calendriers et de passer des appels/faire des réunions, ainsi que d'utiliser une console d'administrateur.
+
+Cette déclaration de conformité ne couvre pas les extensions de fonctionnalités qui peuvent être installées et déployées au sein de la plateforme Teams (par exemple, les applications Office 365 informa que Word, PowerPoint, Excel, OneNote, les listes de fichiers de SharePoint , et autres), don't beaucoup font l'objet de déclarations de conformité distinctes dans les rapports de conformité des produits Microsoft.
+
+Remarque : Teams ne prend pas en charge tous les paramètres de Windows, mais prend en charge un zoom intégré jusqu'à 200 %.
 
 Plate-forme : Win32
 
@@ -42,7 +46,6 @@ Versão du produit : 1.2.00.6412
 Site en matière d'accessibilité : [Microsoft Accessibility](https://www.microsoft.com/accessibility/)
 
 Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:edad@microsoft.com?subject=Conformance%20Statement).
-
 
 ## <a name="section-1-champ-dapplication"></a>Seção 1 Campeão d'application
 
@@ -195,8 +198,7 @@ Seção Cette ne s'applique pas à Microsoft Teams.
 
 Seção Cette ne s'applique pas à Microsoft Teams.
 
-
-&copy; Microsoft Corporation 2019. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
+&copy; 2021 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. A Microsoft encontrou régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
 
 La personnalisation du produit annule la présente déclaration de conformité de Microsoft. Les clients ont la possibilité de faire des déclarations de conformité indépendantes s'ils ont contrôlé avec toute la diligence raisonnable nécessaire que les mesures de personnalisation qu'ils ont prises remplissent toutes les exigences.
 
