@@ -17,12 +17,12 @@ description: Saiba como usar o relatório Teams de uso de eventos ao vivo no cen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959890"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135224"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams relatório de uso de eventos ao vivo
 
@@ -48,7 +48,9 @@ O Teams de uso de eventos ao vivo no centro de administração Microsoft Teams m
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela.|
 
 ## <a name="notes"></a>Observações
-Mostramos até 100 eventos ao vivo que corresponderão aos critérios atuais do relatório. Para ver mais eventos ao vivo, aplique filtros de data para reduzir o tamanho da lista. 
+Mostramos até 100 eventos ao vivo que corresponderão aos critérios atuais do relatório. Para ver mais eventos ao vivo, aplique filtros de data para reduzir o tamanho da lista.
+
+Apresentadores anônimos não serão incluídos no relatório.
 
 Qualquer pessoa que assista à gravação do evento ou do evento sob demanda não será incluída na contagem de exibição. 
 

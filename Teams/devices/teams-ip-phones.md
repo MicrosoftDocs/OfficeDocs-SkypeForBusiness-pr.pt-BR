@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 50e5e9fb3ae3e549528d0af37d3d814a3746dd11
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: eba01aa0e115de174851371e69ef07bb7685935c
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055362"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135234"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -46,7 +46,6 @@ Os seguintes dispositivos são Certificados no Programa de Certificação Micros
 | Crestron UC-P8-C-T (com e sem o handset)   | `1.0.0.80`       | Maio de 2021                     |
 | Yealink MP52                           | `145.15.0.6 `                                              | Abril de 2021                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | Abril de 2021                   |
-| AudioCodes C448HD (somente no modo CAP)      | `C450HD_TEAMS_0.225`                                       | Março de 2019                   |
 | AudioCodes C455HD                      | `1.14.404`                                                 | Novembro de 2021                |
 | Crestron UC-2                          |`1.0.1.46`                                                 | Julho de 2020                    |
 | Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | Abril de 2020                   |
@@ -54,7 +53,7 @@ Os seguintes dispositivos são Certificados no Programa de Certificação Micros
 | Poly CCX400                            | `1.0.0.0200`                                               | Janeiro de 2020                 |
 | Poly CCX600                            | `5.9.12.1122`                                              | Janeiro de 2020                 |
 | Poly CCX500                            | `5.9.12.1122`                                              | Dezembro de 2019                |                                                                                                                                                           
-| Yealink EXP50 suportado em T56, T58, MP56, MP58, VP59| Para cada modelo de dispositivo com suporte, consulte update #7 firmware version | Janeiro de 2021 |
+| Yealink EXP50 suportado em MP56, MP58, VP59| Para cada modelo de dispositivo com suporte, consulte update #7 firmware version | Janeiro de 2021 |
 | Yealink MP58 | `122.15.0.27`| Dezembro de 2020 |
 | Yealink MP54 | `122.15.0.27`| Novembro de 2020 |
 | Yealink MP56 | `122.15.0.6` | Março de 2020    |

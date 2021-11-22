@@ -20,12 +20,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 31e6294938252497f9a0edbf1312c1f70a987e5b
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: c8d15111af3815cbf111d7c1d0e2e77298b7d3d5
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959900"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135184"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -170,6 +170,8 @@ Você pode usar os eventos ao vivo do Teams em várias regiões do mundo inteiro
 - Alemanha
 - Índia
 - Japão
+- Noruega
+- Singapura
 - África do Sul
 - Coreia do Sul
 - Suíça
@@ -178,7 +180,6 @@ Você pode usar os eventos ao vivo do Teams em várias regiões do mundo inteiro
 
 **Não há suporte para esses países/regiões e nuvens**
 
-- Noruega
 - Nuvem Comunitária do Governo (GCC)-H
 - Departamento de Defesa (DOD)
 
