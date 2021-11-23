@@ -99,7 +99,7 @@ items:
                 href: hardware-requirements-for-the-teams-app.md
               - name: Recomendações para o driver codificador e decodificador de hardware
                 href: hardware-decoders-and-encoders.md
-              - name: Instalar o Teams usando MSI
+              - name: Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
                 href: msi-deployment.md
               - name: Ativar o Teams na sua organização
                 href: Office-365-set-up.md
@@ -1189,7 +1189,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: 'Chile '
+              - name: Chile
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
