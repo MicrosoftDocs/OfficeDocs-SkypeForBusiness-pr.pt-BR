@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar o Salas do Microsoft Teams com Microsoft 365 ou Office 365, onde Teams ou Skype for Business e Exchange estão online.
-ms.openlocfilehash: cf323332b6c9b7742a2a10a12017553f462b8619
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 948287d8a5711e1643605d147d1b25b28d764a42
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846074"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153294"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Implantar Salas do Microsoft Teams com Microsoft 365 ou Office 365
 
@@ -98,17 +98,17 @@ Para obter detalhes sobre Skype for Business Online, consulte Skype for Business
 
    - AddAdditionalResponse: $true (O texto especificado pelo parâmetro AdditionalResponse é adicionado às solicitações de reunião.)
 
-   - AdditionalResponse: "Esta é uma sala Reunião do Skype de Reunião do Skype!" (O texto adicional a ser acrescentado à solicitação de reunião.)
+   - AdditionalResponse: "Esta é uma Microsoft Teams de reunião!" (O texto adicional a ser acrescentado à solicitação de reunião.)
 
    Este exemplo configura essas configurações na caixa de correio de sala chamada Rigel-01.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Conexão ao PowerShell do MS Online para fazer configurações do Active Directory executando o `Connect-MsolService -Credential $cred` cmdlet do PowerShell. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
+4. Conexão o PowerShell do MS Online para fazer configurações do Active Directory executando o `Connect-MsolService -Credential $cred` Cmdlet do PowerShell. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
    > [!NOTE]
    > Azure Active Directory não há suporte para o [PowerShell 2.0.](/powershell/azure/active-directory/overview?view=azureadps-2.0)
@@ -232,4 +232,4 @@ Para validação, você deve ser capaz de usar qualquer Skype for Business clien
 
 [Gerenciar Salas do Microsoft Teams](rooms-manage.md)
 
-[Salas do Microsoft Teams Licenciamento](rooms-licensing.md)
+[Salas do Microsoft Teams licenciamento](rooms-licensing.md)
