@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
-ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
+ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "61129861"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153304"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
 Como administrador, você usa as configurações de reunião do Teams para controlar se usuários anônimos podem participar de reuniões do Teams, personalizar convites para reuniões e, se desejar habilitar a Qualidade de Serviço (QoS), definir intervalos de portas para tráfego em tempo real. Essas configurações se aplicam a todas as reuniões do Teams que os usuários agendam na sua organização. Você gerencia essas configurações em **Reuniões** > **Configurações de reunião** no centro de administração do Microsoft Teams.
 
-A partir de novembro de 2021, os administradores também podem controlar se usuários ou grupos específicos de usuários podem permitir que usuários anônimos participem das reuniões que organizam. Essa política por organizador é mais restritiva e substitui as configurações de usuário anônimo em toda a organização abaixo que os administradores gerenciam no Centro de administração do Teams.
+Por meio de uma configuração de política por organizador, os administradores agora podem controlar se usuários específicos ou grupos de usuários podem permitir que usuários anônimos participem das reuniões que organizam. As configurações de política por organizador e de toda a organização controlam a junção anônima e a mais restritiva entra em vigor.
 
 > [!Important]
  > **-DisableAnonymousJoin** é a configuração de política em toda a organização. Ela será preterida no futuro e, em seguida, a política por organizador será a única maneira de controlar o ingresso anônimo.
