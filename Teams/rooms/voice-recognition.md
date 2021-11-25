@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78ab7b7a2448ebb996a1c04e95bc22049954b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 36a501220a986e3873c8ce6a75f1f4f704aa2533
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759223"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177782"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gerenciar controles de tecnologia de reconhecimento de voz para um Alto-falante Inteligente
 
@@ -86,7 +86,7 @@ A seguir estão as políticas necessárias para definir um Alto-falante Intelige
 |AllowTranscription|Obrigatório para contas de usuário e Teams salas.|**True** e **False**|
 ||||
 
-No centro Teams de administração, de definir a **política Permitir transcrição.** Configurações estão **Desligados** por padrão.
+No centro Teams de administração, de definir a **política de Transcrição.** Configurações estão **Desligados** por padrão.
 
 ![o centro de administração com as políticas de reunião realçadas e Permitir transcrição selecionada.](../media/allow-transcription1.png)
 
