@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar o assistente de política Teams para Educação para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
-ms.openlocfilehash: 2d58372af73bd1b0b62ed0d320ac2d0b9097a326
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b514d2642ba383ca91aa320f8f89dcb1405b7e2
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741647"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205481"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use o Assistente Teams para Educação política para aplicar facilmente políticas para um ambiente de aprendizado seguro
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O Microsoft Teams para Educação de Política simplifica o gerenciamento de políticas para seus alunos e educadores. Use-o para aplicar de forma fácil e rápida o conjunto mais importante de políticas relevantes para a criação de uma experiência de aprendizado segura e produtiva.
 
@@ -201,34 +201,34 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |Área de política |Sub-área  |Configuração de política  |Primário ou Secundário |Ensino superior |
 |---------|---------|---------|---------|---------|
 |Políticas do Teams   |         |Criar canais privados         |Desabilitado       |Habilitado|
-|Política de reuniões    |Geral         |Permitir Reunir agora nos canais         |Desabilitado      |Habilitado|
-|  |        |Permitir o suplemento do Outlook         |Desabilitado       |Habilitado|
-|  |        |Permitir o agendamento de reunião do canal        |Desabilitado      |Habilitado|
-|  |        |Permitir o agendamento de reuniões particulares       |Desabilitado      |Habilitado|
-|  |        |Permitir registro de reunião              |Habilitado       |Habilitado|
+|Política de reuniões    |Geral         |Reunir agora em canais         |Desabilitado      |Habilitado|
+|  |        |Outlook de complemento         |Desabilitado       |Habilitado|
+|  |        |Agendamento de reunião do canal        |Desabilitado      |Habilitado|
+|  |        |Agendamento de reuniões particulares       |Desabilitado      |Habilitado|
+|  |        |Registro de reunião              |Habilitado       |Habilitado|
 |  |        |Who pode se registrar    |Todos na organização      |Todos na organização|
-|  |Vídeo & áudio        |Permitir transcrição        |Habilitado       |Habilitado|
-|  |        |Permitir gravação na nuvem         |Desabilitado      |Habilitado|
+|  |Vídeo & áudio        |Transcrição        |Habilitado       |Habilitado|
+|  |        |Gravação em nuvem         |Desabilitado      |Habilitado|
 |  |        |Modo de áudio IP       |Áudio de saída e entrada habilitado        |Áudio de saída e entrada habilitado|
 |  |        |Modo de vídeo IP         |Vídeo de saída e entrada habilitado     |Vídeo de saída e entrada habilitado|
-|  |       |Permitir vídeo IP         |Habilitado         |Habilitado|
+|  |       |Vídeo IP         |Habilitado         |Habilitado|
 |  |       |Permitir streaming de NDI         |Desabilitado         |Desabilitado|
 |  |       |Taxa de bits de mídia (Kbs)         |50.000         |50.000|
 |  |Compartilhamento de conteúdo       |Modo de compartilhamento de tela         |Tela inteira         |Tela inteira|
 |  |       |Permitir que um participante conceda ou solicite o controle         |Habilitado         |Habilitado|
 |  |       |Permitir que um participante externo conceda ou solicite o controle         |Habilitado         |Habilitado|
-|  |       |Permitir compartilhamento do PowerPoint        |Habilitado         |Habilitado|
-|  |       |Permitir o quadro de comunicações         |Habilitado         |Habilitado|
-|  |       |Permitir notas compartilhadas         |Habilitado        |Habilitado|
+|  |       |PowerPoint compartilhamento        |Habilitado         |Habilitado|
+|  |       |Quadro de comunicações         |Habilitado         |Habilitado|
+|  |       |Anotações compartilhadas         |Habilitado        |Habilitado|
 |  |Participantes & convidados       |Permitir que pessoas anônimas iniciem uma reunião       |Desabilitado         |Habilitado|
 |  |       |Funções que têm direitos de apresentador em reuniões        |EveryoneUserOverride         |EveryoneUserOverride|
 |  |       |Aceitar pessoas automaticamente        |EveryoneInCompany|EveryoneInCompany|
 |  |       |Permitir que os usuários de acesso telefônico ignorem o lobby        |Desabilitado         |Desabilitado|
-|  |       |Permitir Reunir Agora em reuniões particulares        |Desabilitado         |Habilitado|
-|  |       |Habilitar legendas ao vivo       |Desabilitado, mas o usuário pode substituir         |Desabilitado, mas o usuário pode substituir|
-|  |       |Permitir chat em reuniões         |Habilitado         |Habilitado|
-|Políticas de eventos ao vivo  |       |Permitir agendamento         |Desabilitado         |Desabilitado|
-|  |       |Permitir transcrição para participantes          |Habilitado       |Habilitado|
+|  |       |Reunir agora em reuniões privadas        |Desabilitado         |Habilitado|
+|  |       |Legendas ao vivo       |Desabilitado, mas o usuário pode substituir         |Desabilitado, mas o usuário pode substituir|
+|  |       |Chat em reuniões         |Habilitado         |Habilitado|
+|Políticas de eventos ao vivo  |       |Agendamento de eventos ao vivo         |Desabilitado         |Desabilitado|
+|  |       |Transcrição para participantes          |Habilitado       |Habilitado|
 |  |       |Quem pode ingressar eventos ao vivo agendados        |Todos na organização        |Todos na organização|
 |  |       |Who pode gravar um evento         |Always         |Always|
 |Políticas de mensagens  |       |Os proprietários podem excluir as mensagens enviadas         |Desabilitado|Habilitado|
@@ -236,13 +236,13 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |  |       |Editar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
 |  |       |Chat         |Desabilitado         |Habilitado|
-|  |       |Usar Giphys em conversas         |Desabilitado         |Habilitado|
+|  |       |Giphys em conversas         |Desabilitado         |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
-|  |       |Usar Memes em conversas         |Habilitado         |Habilitado|
-|  |       |Usar Adesivos em conversas         |Habilitado         |Habilitado|
-|  |       |Permitir visualizações de URL        |Habilitado         |Habilitado|
+|  |       |Memes em conversas         |Habilitado         |Habilitado|
+|  |       |Adesivos em conversas         |Habilitado         |Habilitado|
+|  |       |Visualizações de URL        |Habilitado         |Habilitado|
 |  |       |Traduzir mensagens         |Habilitado         |Habilitado|
-|  |       |Permitir leitor imersivo para exibir mensagens        |Habilitado      |Habilitado|
+|  |       |Leitor imersivo para mensagens        |Habilitado      |Habilitado|
 |  |       |Envie mensagens urgentes usando notificações prioritárias  |Desabilitado         |Habilitado|
 |  |       |Criar mensagens de voz         |Permitido em chats e canais         |Permitido em chats e canais|
 |  |       |Em dispositivos móveis, exibe canais favoritos acima de chats recentes     |Habilitado         |Habilitado|
@@ -251,7 +251,7 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |  |       |Aplicativos de terceiros         |Permitir todos os aplicativos         |Permitir todos os aplicativos|
 |  |       |Aplicativos personalizados         |Permitir todos os aplicativos         |Permitir todos os aplicativos|
 |Política de configuração de aplicativo  |           |Upload aplicativos personalizados           |Desabilitado         |Desabilitado|
-|  |       |Permitir o pinamento do usuário |Habilitado         |Habilitado|
+|  |       |Pinning do usuário |Habilitado         |Habilitado|
 |  |       |Aplicativos instalados         |Nenhum         |Nenhum|
 |  |       |Aplicativos fixados         |Atividade, Calendário, Teams         |Atividade, Chats, Teams, Calendário, Chamada, Arquivo
 |Políticas de chamada  |       |Fazer chamadas privadas         |Desabilitado        |Habilitado|
@@ -271,34 +271,34 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 |Área de política |Sub-área  |Configuração de política  |Primário ou Secundário |Ensino superior |
 |---------|---------|---------|---------|---------|
 |Políticas do Teams   |         |Criar canais privados         |Habilitado       |Habilitado|
-|Política de reuniões    |Geral         |Permitir Reunir agora nos canais         |Habilitado      |Habilitado|
-|  |        |Permitir o suplemento do Outlook         |Habilitado       |Habilitado|
-|  |        |Permitir o agendamento de reunião do canal        |Habilitado      |Habilitado|
-|  |        |Permitir o agendamento de reuniões particulares       |Habilitado      |Habilitado|
-|  |        |Permitir registro de reunião              |Habilitado       |Habilitado|
+|Política de reuniões    |Geral         |Reunir agora em canais         |Habilitado      |Habilitado|
+|  |        |Outlook de complemento         |Habilitado       |Habilitado|
+|  |        |Agendamento de reunião do canal        |Habilitado      |Habilitado|
+|  |        |Agendamento de reuniões particulares       |Habilitado      |Habilitado|
+|  |        |Registro de reunião              |Habilitado       |Habilitado|
 |  |        |Who pode se registrar    |Todos na organização      |Todos na organização|
-|  |Vídeo & áudio        |Permitir transcrição        |Habilitado       |Habilitado|
-|  |        |Permitir gravação na nuvem         |Habilitado      |Habilitado|
+|  |Vídeo & áudio        |Transcrição        |Habilitado       |Habilitado|
+|  |        |Gravação em nuvem         |Habilitado      |Habilitado|
 |  |        |Modo de áudio IP       |Áudio de saída e entrada habilitado        |Áudio de saída e entrada habilitado|
 |  |        |Modo de vídeo IP         |Vídeo de saída e entrada habilitado     |Vídeo de saída e entrada habilitado|
-|  |       |Permitir vídeo IP         |Habilitado         |Habilitado|
+|  |       |Vídeo IP         |Habilitado         |Habilitado|
 |  |       |Permitir streaming de NDI         |Desabilitado         |Desabilitado|
 |  |       |Taxa de bits de mídia (Kbs)         |50.000         |50.000|
 |  |Compartilhamento de conteúdo       |Modo de compartilhamento de tela         |Tela inteira         |Tela inteira|
 |  |       |Permitir que um participante conceda ou solicite o controle         |Habilitado         |Habilitado|
 |  |       |Permitir que um participante externo conceda ou solicite o controle         |Habilitado         |Habilitado|
-|  |       |Permitir compartilhamento do PowerPoint        |Habilitado         |Habilitado|
-|  |       |Permitir o quadro de comunicações         |Habilitado         |Habilitado|
-|  |       |Permitir notas compartilhadas         |Habilitado        |Habilitado|
+|  |       |PowerPoint compartilhamento        |Habilitado         |Habilitado|
+|  |       |Quadro de comunicações         |Habilitado         |Habilitado|
+|  |       |Anotações compartilhadas         |Habilitado        |Habilitado|
 |  |Participantes & convidados       |Permitir que pessoas anônimas iniciem uma reunião       |Habilitado        |Habilitado|
 |  |       |Funções que têm direitos de apresentador em reuniões        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
 |  |       |Aceitar pessoas automaticamente        |OrganizerOnly|OrganizerOnly|
 |  |       |Permitir que os usuários de acesso telefônico ignorem o lobby        |Desabilitado         |Desabilitado|
-|  |       |Permitir Reunir Agora em reuniões particulares        |Habilitado         |Habilitado|
-|  |       |Habilitar legendas ao vivo       |Desabilitado, mas o usuário pode substituir         |Desabilitado, mas o usuário pode substituir|
-|  |       |Permitir chat em reuniões         |Habilitado         |Habilitado|
-|Políticas de eventos ao vivo  |       |Permitir agendamento         |Habilitado         |Habilitado|
-|  |       |Permitir transcrição para participantes          |Habilitado       |Habilitado|
+|  |       |Reunir agora em reuniões privadas        |Habilitado         |Habilitado|
+|  |       |Legendas ao vivo       |Desabilitado, mas o usuário pode substituir         |Desabilitado, mas o usuário pode substituir|
+|  |       |Chat em reuniões         |Habilitado         |Habilitado|
+|Políticas de eventos ao vivo  |       |Agendamento de eventos ao vivo         |Habilitado         |Habilitado|
+|  |       |Transcrição para participantes          |Habilitado       |Habilitado|
 |  |       |Quem pode ingressar eventos ao vivo agendados        |Todos na organização        |Todos na organização|
 |  |       |Who pode gravar um evento         |Sempre gravar         |Sempre gravar|
 |Políticas de mensagens  |       |Os proprietários podem excluir as mensagens enviadas         |Habilitado|Habilitado|
@@ -306,13 +306,13 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 |  |       |Editar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Confirmação de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
 |  |       |Chat         |Habilitado         |Habilitado
-|  |       |Usar Giphys em conversas         |Habilitado        |Habilitado|
+|  |       |Giphys em conversas         |Habilitado        |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
-|  |       |Usar Memes em conversas         |Habilitado         |Habilitado|
-|  |       |Usar Adesivos em conversas         |Habilitado         |Habilitado|
-|  |       |Permitir visualizações de URL        |Habilitado         |Habilitado|
+|  |       |Memes em conversas         |Habilitado         |Habilitado|
+|  |       |Adesivos em conversas         |Habilitado         |Habilitado|
+|  |       |Visualizações de URL        |Habilitado         |Habilitado|
 |  |       |Traduzir mensagens         |Habilitado         |Habilitado|
-|  |       |Permitir leitor imersivo para exibir mensagens        |Habilitado      |Habilitado|
+|  |       |Leitor imersivo para mensagens        |Habilitado      |Habilitado|
 |  |       |Envie mensagens urgentes usando notificações prioritárias  |Habilitado         |Habilitado|
 |  |       |Criar mensagens de voz         |Permitido em chats e canais         |Permitido em chats e canais|
 |  |       |Em dispositivos móveis, exibe canais favoritos acima de chats recentes     |Habilitado         |Habilitado|

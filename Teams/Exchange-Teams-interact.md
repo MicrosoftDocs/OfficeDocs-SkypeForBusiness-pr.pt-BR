@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fbcadfefffe40bbd7c2919f269185b8116b7237
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624803"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205271"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -110,7 +110,7 @@ Se as caixas de correio forem hospedadas no local, para criar e exibir reuniões
 
 Para habilitar a delegação de calendário para esses usuários:
 
-- Você também deve concluir etapas conforme descrito em [Configure Integration and OAuth between Skype for Business Online and Exchange Server;](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) essas etapas fornecerão ao aplicativo de Teams de agendamento as permissões necessárias para confirmar permissões de representante.
+- Você também deve concluir etapas conforme descrito em [Configure Integration and OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)between Skype for Business Online and Exchange Server; estas etapas fornecerão ao aplicativo de agendamento Teams as permissões necessárias para confirmar permissões de representante.
  
   > [!NOTE]
   > A etapa 2 inclui uma atribuição de função para ArchiveApplication, que não é necessária para delegação.
@@ -125,7 +125,7 @@ Aqui estão algumas coisas que você precisa saber ao implementar o Microsoft Te
 
 - Controle e proteja a configuração das políticas de conformidade no Teams e no Exchange usando o Acesso Condicional. Para saber mais, confira [Como funcionam as políticas de acesso condicional para o Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange. Para saber mais, confira [Permitir o agendamento de reuniões particulares](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings).
+- Se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange. Para obter mais informações, consulte [Agendamento de reuniões particulares](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
 - Em uma implantação híbrida do Exchange, o conteúdo das mensagens de chat é pesquisável, independentemente de os participantes de chat terem uma caixa de correio baseada na nuvem ou em uma caixa de correio local. Para saber mais, leia [Pesquisar caixas de correio baseadas em nuvem para usuários locais](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo no Teams, leia [Pesquisar Conteúdo no Centro de Conformidade do Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 

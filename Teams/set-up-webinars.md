@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Saiba como gerenciar políticas do Webinar para Teams reuniões.
-ms.openlocfilehash: 35c0cc2ab6c05d123aae45bc0c375cf815db36b4
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138207"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205551"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Preparar-se para webinars no Microsoft Teams
 
@@ -43,12 +43,12 @@ Depois de configurar webinars em sua organização, os usuários podem agendar w
 
 Você pode usar o Teams de administração para configurar webinars para sua organização. Você encontrará as políticas para configurar webinars no centro de administração Teams reuniões em **políticas**  >  **de reunião.**
 
-### <a name="allow-meeting-registration"></a>Permitir registro de reunião
+### <a name="meeting-registration"></a>Registro de reunião
 
 Se você ativar isso, os usuários poderão agendar webinars. Por padrão, isso está ligado. Se você quiser desativar o registro de reunião, de definir essa política como **Desativar**.
 
 > [!IMPORTANT]
-> **Permitir que o agendamento de reuniões** privadas deve estar on para que o registro de reunião funcione. Por padrão, essa política é Teams centro de administração. Para alunos em locatários de educação, essa política é desligada por padrão. Para obter mais informações sobre como habilitar o agendamento de reuniões privadas para alunos, [consulte Teams para Educação políticas e pacotes de política.](policy-packages-edu.md)
+> **O agendamento de reuniões particulares** deve estar em dia para que o registro de reunião funcione. Por padrão, essa política é Teams centro de administração. Para alunos em locatários de educação, essa política é desligada por padrão. Para obter mais informações sobre como habilitar o agendamento de reuniões privadas para alunos, [consulte Teams para Educação políticas e pacotes de política.](policy-packages-edu.md)
 
 ### <a name="who-can-register"></a>Who pode se registrar
 
@@ -57,17 +57,17 @@ Se você selecionar **Todos**, todos os usuários, incluindo usuários anônimos
 > [!NOTE]
 > O valor padrão para **Who pode se registrar** é Todos na organização **em** locatários de educação. Para obter mais informações, [consulte Teams para Educação Assistente de Política](easy-policy-setup-edu.md).
 
-### <a name="allow-engagement-report"></a>Permitir relatório de envolvimento
+### <a name="engagement-report"></a>Relatório de envolvimento
 
-Se você ativar isso, os organizadores poderão ver relatórios de quem registrou e participou dos webinars que eles configuraram. Essa política está desligada por padrão. Para obter mais informações, consulte [Políticas de reunião em Teams - Permitir relatório de envolvimento](meeting-policies-in-teams-general.md#allow-engagement-report). Para obter informações sobre a experiência do usuário final, consulte [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
+Se você ativar isso, os organizadores poderão ver relatórios de quem registrou e participou dos webinars que eles configuraram. Essa política está desligada por padrão. Para obter mais informações, consulte [Políticas de reunião no Teams - Relatório de envolvimento.](meeting-policies-in-teams-general.md#engagement-report) Para obter informações sobre a experiência do usuário final, consulte [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Permitir que os usuários agendem webinars usando o PowerShell
 
 Você pode usar os seguintes atributos no cmdlet **set-CsTeamsMeetingPolicy Windows PowerShell set-CsTeamsMeetingPolicy** para configurar para webinars Teams.
 
-- AllowMeetingRegistration
+- MeetingRegistration
 - WhoCanRegister
-- AllowPrivateMeetingScheduling
+- PrivateMeetingScheduling
 
 Leia [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para obter mais informações sobre o cmdlet.
 
@@ -76,21 +76,21 @@ Leia [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 
 ### <a name="allow-users-to-schedule-webinars"></a>Permitir que os usuários agendem webinars
 
-Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos** para a política **Global (padrão em toda** a organização). Se você quiser desativar o registro de reunião, de definir **AllowMeetingRegistration** como **False**.
+Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos** para a política **Global (padrão em toda** a organização). Se você quiser desativar o registro de reunião, de definir **MeetingRegistration** como **False**.
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** deve ser definido como **True** para **AllowMeetingRegistration** funcionar.
+> **PrivateMeetingScheduling** deve ser definido como **True** para **MeetingRegistration** funcionar.
 
 1. Ativar o registro de reunião
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+Set-CsTeamsMeetingPolicy -MeetingRegistration $True
 ```
 
 2. Ativar o agendamento de reuniões privadas
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
+Set-CsTeamsMeetingPolicy -PrivateMeetingScheduling $True
 ```
 
 3. Configurar quem pode se registrar para webinars
@@ -112,10 +112,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### <a name="collect-meeting-attendance"></a>Coletar participação na reunião
 
-Se você quiser que os organizadores analisem quem registrou e participou de webinars, você precisará ativar a **política AllowEngagementReport.** Para fazer isso, execute o seguinte comando no PowerShell.
+Se você quiser que os organizadores analisem quem registrou e participou de webinars, você precisará ativar a **política EngagementReport.** Para fazer isso, execute o seguinte comando no PowerShell.
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
+Set-CsTeamsMeetingPolicy -EngagementReport Enabled
 ```
 
 ## <a name="configure-webinar-settings"></a>Configurar configurações do webinar

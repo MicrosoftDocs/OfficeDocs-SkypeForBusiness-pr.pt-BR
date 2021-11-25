@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações gerais de política de reunião Teams.
-ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b7c08799ee9e7c2b1e6239b17abaa66b7d1e3d47
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731660"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177932"
 ---
 # <a name="meeting-policy-settings---general"></a>Configurações de política de reunião - Geral
 
@@ -32,24 +32,24 @@ ms.locfileid: "58731660"
 
 Este artigo descreve as seguintes configurações gerais de política para reuniões Teams reuniões:
 
-- [Permitir Reunir Agora em canais](#allow-meet-now-in-channels)
-- [Permitir o suplemento do Outlook](#allow-the-outlook-add-in)
-- [Permitir o agendamento de reunião do canal](#allow-channel-meeting-scheduling)
-- [Permitir o agendamento de reuniões privadas](#allow-scheduling-private-meetings)
-- [Permitir Reunir Agora em reuniões privadas](#allow-meet-now-in-private-meetings)
+- [Reunir agora em canais](#meet-now-in-channels)
+- [Outlook de complemento](#outlook-add-in)
+- [Agendamento de reunião do canal](#channel-meeting-scheduling)
+- [Agendamento de reuniões particulares](#private-meeting-scheduling)
+- [Reunir agora em reuniões privadas](#meet-now-in-private-meetings)
 - [Modo de função de apresentador designado](#designated-presenter-role-mode)
-- [Permitir relatório de envolvimento](#allow-engagement-report)
-- [Permitir registro de reunião](#allow-meeting-registration)
+- [Relatório de envolvimento](#engagement-report)
+- [Registro de reunião](#meeting-registration)
 - [Who pode se registrar](#who-can-register)
 - [Provedor de reuniões para modo Ilhas](#meeting-provider-for-islands-mode)
 
-## <a name="allow-meet-now-in-channels"></a>Permitir Reunir agora nos canais
+## <a name="meet-now-in-channels"></a>Reunir agora em canais
 
 Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião ad hoc em um Teams canal. Se você ativar isso, os usuários poderão clicar no botão **Atender** para iniciar uma reunião ad hoc ou agendar uma reunião no canal. O valor padrão é True.
 
-[![Captura de tela mostrando o ícone Reunir agora abaixo de uma mensagem. ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![Captura de tela mostrando o ícone Reunir agora abaixo de uma mensagem. ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
-## <a name="allow-the-outlook-add-in"></a>Permitir o suplemento do Outlook
+## <a name="outlook-add-in"></a>Outlook de complemento
 
 Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se as reuniões do Teams podem ser agendadas a partir do Outlook (Windows, Mac, Web e dispositivo móvel).
 
@@ -57,7 +57,7 @@ Essa é uma política por usuário e se aplica antes de começar uma reunião. E
 
 Se você desativar isso, os usuários não poderão agendar Teams reuniões quando criarem uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a opção **Nova reunião do Teams** não será exibida na faixa de opções.
 
-## <a name="allow-channel-meeting-scheduling"></a>Permitir o agendamento de reunião do canal
+## <a name="channel-meeting-scheduling"></a>Agendamento de reunião do canal
 
 Use a política existente AllowChannelMeetingScheduling para controlar os tipos de eventos que podem ser criados nos calendários do canal de equipe. Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se os usuários podem agendar uma reunião em um canal do Teams. Por padrão, essa configuração é ativada. 
 
@@ -69,7 +69,7 @@ Agendar uma reunião será desabilitada.
 
 A seleção de canal está desabilitada.
 
-[Captura de tela mostrando a opção de calendário para selecionar um canal no qual você ![ deseja agendar uma reunião. ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[Captura de tela mostrando a opção de calendário para selecionar um canal no qual você ![ deseja agendar uma reunião. ](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 Na página postagens de canal, o seguinte será desabilitado:
 
@@ -94,13 +94,13 @@ O aplicativo de calendário de canal será mostrado na seção **Aplicativos da 
 
 ![Captura de tela mostrando a política de permissões do aplicativo no Teams de administração.](media/manage-microsoft-apps-policy.png)
 
-## <a name="allow-scheduling-private-meetings"></a>Permitir o agendamento de reuniões particulares
+## <a name="private-meeting-scheduling"></a>Agendamento de reuniões particulares
 
 Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se os usuários podem agendar reuniões particulares no Teams. Uma reunião é particular quando não é publicada em um canal de uma equipe.
 
 Observe que, se você desativar **Permitir agendamento de reuniões particulares** e **Permitir agendamento de reunião de canal**, as opções **Adicionar participantes necessários** e **Adicionar canal** serão desabilitadas para os usuários no Teams. Por padrão, essa configuração é ativada.
 
-## <a name="allow-meet-now-in-private-meetings"></a>Permitir Reunir Agora em reuniões particulares
+## <a name="meet-now-in-private-meetings"></a>Reunir agora em reuniões privadas
 
 Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião privada ad hoc.  Por padrão, essa configuração é ativada.
 
@@ -120,7 +120,7 @@ Para especificar o valor padrão da configuração **Quem pode apresentar?** no 
 
 Lembre-se de que, depois de definir o valor padrão, os organizadores de reunião ainda poderão alterar essa configuração no Teams e escolher quem poderá apresentar nas reuniões agendadas por eles.
 
-## <a name="allow-engagement-report"></a>Permitir relatório de envolvimento
+## <a name="engagement-report"></a>Relatório de envolvimento
 
 Essa é uma política por usuário. Essa configuração controla se o organizador da reunião pode baixar o relatório de participação da [Reunião](teams-analytics-and-reports/meeting-attendance-report.md).
 
@@ -132,7 +132,7 @@ Para permitir que um organizador da reunião baixe o relatório de participaçã
 
 Para impedir que o organizador da reunião baixe o relatório, defina o parâmetro como **Desabilitado**.
 
-## <a name="allow-meeting-registration"></a>Permitir registro de reunião
+## <a name="meeting-registration"></a>Registro de reunião
 
 Essa é uma política por usuário. Se você ativar isso, os usuários de sua organização poderão configurar webinars. Essa política é habilitada por padrão.
 
@@ -140,13 +140,13 @@ Para editar essa política no centro de administração Teams, vá para **Polít
 
 Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
 
-Para ativar o registro de reunião, de definir  **o parâmetro AllowMeetingRegistration** como **True**. Isso é definido como **True** por padrão.
+Para ativar o registro de reunião, de definir o  **parâmetro MeetingRegistration** como **True**. Isso é definido como **True** por padrão.
 
 Para desativar o registro de reunião e impedir que os usuários agendam webinars, de definir o parâmetro como **False**.
 
 ## <a name="who-can-register"></a>Who pode se registrar
 
-Essa política controla quais usuários podem registrar e participar de webinars. Essa política tem duas opções, que só estarão disponíveis se Permitir o registro **de reunião** estiver ligado.
+Essa política controla quais usuários podem registrar e participar de webinars. Essa política tem duas opções, que só estarão disponíveis se o registro **de reunião** estiver ligado.
 
 - Definir **Who pode** se  registrar em Todos se você quiser permitir que todos, incluindo usuários anônimos, registrem e participem de webinars que os usuários de sua organização configuraram.
 - Definir **Who pode** se  registrar em Todos na organização se você quiser permitir que apenas os usuários em sua organização registrem e participem de webinars.

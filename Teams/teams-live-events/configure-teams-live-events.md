@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c25ed5b00adf162ceb5d75d9207e43e489f3c6
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ac7558f2177ab468043e624d6230106179f79a6e
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536522"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205231"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -67,7 +67,7 @@ Se você comprou e configurou uma solução de rede definida por software (SDN) 
 
     ![Configurações do provedor de distribuição de vídeo de terceiros no centro de administração.](../media/teams-live-events-settings-distribution-provider-new.png "Captura de tela das configurações do provedor de distribuição de vídeo de terceiros para eventos ao vivo")
 
-    - **Usar um provedor de distribuição de terceiros** Ative isso para habilitar o provedor de distribuição de vídeo de terceiros.
+    - **Provedor de distribuição de terceiros** Ative isso para habilitar o provedor de distribuição de vídeo de terceiros.
     - **Nome do provedor SDN** Escolha o provedor que você está usando.
     - **Configuração do SDN** Insira detalhes de Configuração do SDN.
         

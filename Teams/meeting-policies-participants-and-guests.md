@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações de política de reunião Teams para participantes e convidados.
-ms.openlocfilehash: aab9dda3f0a6bd5674cde2614fbbe0987292d6bf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: 21a5737c51f33d288277f6a6ff5b1ecb27d8c86f
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124228"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205241"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -35,8 +35,8 @@ Essas configurações controlam quais participantes da reunião devem aguardar n
 - [Permitir que pessoas anônimas iniciem uma reunião](#let-anonymous-people-start-a-meeting)
 - [Admitir pessoas automaticamente](#automatically-admit-people)
 - [Permitir que os usuários de acesso telefônico ignorem o lobby](#allow-dial-in-users-to-bypass-the-lobby)
-- [Habilitar legendas ao vivo](#enable-live-captions)
-- [Permitir chat em reuniões](#allow-chat-in-meetings)
+- [Legendas ao vivo](#live-captions)
+- [Chat em reuniões](#chat-in-meetings)
 
 > [!NOTE]
 >As opções para ingressar em uma reunião variam, dependendo das configurações de cada grupo do Teams e do método de conexão. Se o seu grupo tiver audioconferência e a usar para se conectar, confira [Audioconferência](/microsoftteams/audio-conferencing-in-office-365). Se o seu grupo do Teams não tiver audioconferência, confira [Participar de uma reunião do Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -76,7 +76,7 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 > [!NOTE]
 > Se um usuário de acesso telefônico participar de uma reunião antes de um usuário da organização ingressar na reunião, ele será colocado no lobby até que um usuário da organização ingresse na reunião usando um cliente de equipes e o admita. Se você alterar a configuração padrão para qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e a qualquer reunião anterior em que o usuário não tiver modificado as Opções de reunião.
 
-## <a name="enable-live-captions"></a>Habilitar legendas ao vivo
+## <a name="live-captions"></a>Legendas ao vivo
 
 Essa configuração é uma política por usuário e se aplica durante uma reunião. Essa configuração controla se a opção **Ativar legendas ao vivo** está disponível para que o usuário ative e desative as legendas ao vivo nas reuniões que o usuário faz.  
 
@@ -89,7 +89,7 @@ Essa configuração é uma política por usuário e se aplica durante uma reuni�
 
 <a name="bkcontentsharing"> </a>
 
-## <a name="allow-chat-in-meetings"></a>Permitir chat em reuniões
+## <a name="chat-in-meetings"></a>Chat em reuniões
 
 Essa configuração é uma configuração por participante. Essa configuração controla se o chat de reunião é permitido na reunião do usuário.
 

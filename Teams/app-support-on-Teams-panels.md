@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db72b520206a68edb006cc0ccbf2518acde081aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8852ef3d212d2a284f4af72662c771d4c13b13af
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636766"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205631"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams aplicativos/linha de negócios (LOB) suporte a aplicativos Teams painéis
 
@@ -70,7 +70,7 @@ Para gerenciar aplicativos fixados exibidos nos painéis Teams, entre no centro 
 
 *Os aplicativos incluídos nesta imagem são apenas exemplos e podem não estar disponíveis para uso.*
 
-A Microsoft recomenda que você **Upload**  aplicativos personalizados e Permitir o pinamento do usuário para a melhor Teams de aplicativos em Teams painéis.
+A Microsoft recomenda  que você Upload aplicativos personalizados e o **pinning** do usuário para a melhor Teams de aplicativos em Teams painéis.
 
 Para obter mais informações sobre como fixar aplicativos, consulte [Manage app setup policies](/microsoftteams/teams-app-setup-policies).
 
@@ -118,7 +118,7 @@ Se os aplicativos foram instalados anteriormente por meio de outras políticas d
 
 Nem todos os aplicativos podem ser fixados Teams por meio de uma política de configuração de aplicativo. Alguns aplicativos podem não dar suporte a essa funcionalidade. Para encontrar aplicativos que podem ser fixados, pesquise o aplicativo no painel **Adicionar aplicativos** fixados. Para obter mais informações, consulte perguntas [frequentes em Trabalhando com políticas de configuração de aplicativos.](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)
 
-### <a name="why-am-i-seeing-an-allow-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-allow-user-pinning"></a>Por que estou vendo um pop-up "Permitir que o usuário fixe" no painel de políticas de configuração depois que eu desativar "Permitir pinamento de usuário?"
+### <a name="why-am-i-seeing-an-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-user-pinning"></a>Por que estou vendo um pop-up "Pinning do usuário" no painel de políticas de configuração depois que eu desativar "Pinning do usuário?"
 
 ![Captura de tela da seção de política de instalação dentro da interface do usuário com um pop-up confirmando que o pining do usuário está ativo.](media/appsetup4.png)
 

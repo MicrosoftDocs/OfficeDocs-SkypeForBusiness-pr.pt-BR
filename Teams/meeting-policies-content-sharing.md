@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião em Teams para compartilhamento de conteúdo.
-ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605617"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205311"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configurações de política de reunião - Compartilhamento de conteúdo
 
@@ -35,9 +35,9 @@ Este artigo descreve as seguintes configurações de política de reunião relac
 - [Modo de compartilhamento de tela](#screen-sharing-mode)
 - [Permitir que um participante conceda ou solicite o controle](#allow-a-participant-to-give-or-request-control)
 - [Permitir que um participante externo conceda ou solicite o controle](#allow-an-external-participant-to-give-or-request-control)
-- [Permitir o compartilhamento do PowerPoint](#allow-powerpoint-sharing)
-- [Permitir quadro de comunicações](#allow-whiteboard)
-- [Permitir anotações compartilhadas](#allow-shared-notes)
+- [PowerPoint compartilhamento](#powerpoint-sharing)
+- [Quadro de comunicações](#whiteboard)
+- [Anotações compartilhadas](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>Modo de compartilhamento de tela
 
@@ -99,39 +99,39 @@ Se os usuários federados podem conceder controle aos usuários externos enquant
 
 Para usar o PowerShell para controlar se os participantes externos podem conceder controle ou aceitar solicitações de controle, use o cmdlet AllowExternalParticipantGiveRequestControl.
 
-### <a name="allow-powerpoint-sharing"></a>Permitir compartilhamento do PowerPoint
+### <a name="powerpoint-sharing"></a>PowerPoint compartilhamento
 
 Essa é uma política por usuário. Essa configuração controla se o usuário pode compartilhar os decks de slides do PowerPoint em uma reunião. Os usuários externos, incluindo usuários anônimos, convidados e federados, herdam a política do organizador da reunião.
 
 Observe o exemplo a seguir.
 
-|Usuário |Políticas de reunião  |Permitir compartilhamento do PowerPoint |
+|Usuário |Políticas de reunião  |PowerPoint compartilhamento |
 |---------|---------|---------|
 |Daniela   | Global   | Habilitado       |
 |Amanda   | Location1MeetingPolicy        | Desabilitado   |
 
 Amanda não pode compartilhar os conjunto de slides do PowerPoint nas reuniões, mesmo que ela seja a organizadora da reunião. Daniela pode compartilhar os conjunto de slides do PowerPoint mesmo se a reunião for organizada pela Amanda. Amanda pode exibir os conjunto de slides do PowerPoint compartilhados por outras pessoas na reunião, apesar de não poder compartilhar os conjunto de slides do PowerPoint.
 
-## <a name="allow-whiteboard"></a>Permitir o quadro de comunicações
+## <a name="whiteboard"></a>Quadro de comunicações
 
 Essa configuração é uma política por usuário. Essa configuração controla se um usuário pode compartilhar o quadro de comunicações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião.
 
 Observe o exemplo a seguir.
 
-|Usuário |Políticas de reunião  |Permitir o quadro de comunicações|
+|Usuário |Políticas de reunião  |Quadro de comunicações|
 |---------|---------|---------|
 |Daniela   | Global   | Habilitado       |
 |Amanda   | Location1MeetingPolicy        | Desabilitado   |
 
 Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesmo que ela seja a organizadora da reunião. Daniela pode compartilhar o quadro de comunicações mesmo se uma reunião for organizada por Amanda.  
 
-## <a name="allow-shared-notes"></a>Permitir notas compartilhadas
+## <a name="shared-notes"></a>Anotações compartilhadas
 
 Essa configuração é uma política por usuário. Essa configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. No momento, só há suporte para a guia **Anotações de reunião** com reuniões com menos de 20 participantes.
 
 Observe o exemplo a seguir.
 
-|Usuário |Políticas de reunião  |Permitir notas compartilhadas |
+|Usuário |Políticas de reunião  |Anotações compartilhadas |
 |---------|---------|---------|
 |Daniela   | Global   | Habilitado       |
 |Amanda   | Location1MeetingPolicy | Desabilitado |

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: 73c354261d92044fea0a2efeb4e1613b3f3a63a9
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: b2163e780706a17b7793f8451b1bdb85a1830b2b
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973019"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205257"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -85,16 +85,16 @@ Aqui estão as configurações de política de mensagens que você pode configur
 <a name="bkchat"> </a>
 
 - **Chat**  Habilite essa configuração se quiser que os usuários da organização possam usar o aplicativo do Teams para conversar com outras pessoas.
-- **Usar Giphy em conversas**  Se você ativar Giphys, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo. Além de ativar essa configuração, você precisa habilitar Experiências Conectadas Opcionais [para](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) permitir Giphys em conversas.
+- *Usar Giphy em conversas** Se você ativar Giphys, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo. Além de ativar essa configuração, você precisa habilitar Experiências Conectadas Opcionais [para](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) permitir Giphys em conversas.
 - **Classificação de conteúdo Giphy**
   - **Sem restrições** Isso significa que os usuários poderão inserir qualquer Giphy em chats independentemente da classificação de conteúdo.
   - **Moderado**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será moderadamente restringido.
   - **Estrito**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será estritamente restringido.
-- **Usar memes em conversas** Se você ativar Memes, os usuários poderão incluir Memes em conversas de chat com outras pessoas.
-- **Usar adesivos em conversas** Se você ativar isso, os usuários poderão incluir Adesivos em conversas de chat com outras pessoas.
-- **Permitir visualizações de URLs** Use essa configuração para ativar ou desativar a visualização automática de URLs nas mensagens.
+- **Memes em conversas** Se você ativar Memes, os usuários poderão incluir Memes em conversas de chat com outras pessoas.
+- **Adesivos em conversas** Se você ativar isso, os usuários poderão incluir Adesivos em conversas de chat com outras pessoas.
+- **Visualizações de URL** Use essa configuração para ativar ou desativar a visualização automática de URL em mensagens.
 - **Traduzir mensagens** Ativar essa configuração para permitir que os usuários traduzam automaticamente Teams mensagens para o idioma especificado por suas configurações de idioma pessoal para Microsoft 365 ou Office 365.
-- **Permitir leitura avançada na exibição de mensagens** Ative essa configuração para permitir que os usuários exibam mensagens na Leitura Avançada da Microsoft. A Leitura Avançada é uma ferramenta de aprendizagem que fornece uma experiência de leitura em tela inteira para aumentar a legibilidade do texto.
+- **Leitor imersivo para mensagens** A opção Ativar essa configuração para permitir que os usuários exibirem mensagens no Microsoft Leitura Avançada. A Leitura Avançada é uma ferramenta de aprendizagem que fornece uma experiência de leitura em tela inteira para aumentar a legibilidade do texto.
 - **Enviar mensagens urgentes usando notificações de prioridade** Se você ativar isso, os usuários poderão enviar mensagens usando [notificações de prioridade](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). As notificações de prioridade notificam os usuários a cada 2 minutos por 20 minutos ou até que as mensagens marcadas como urgentes sejam escolhidas e lidas pelo destinatário.  Esse recurso aumenta a probabilidade de que a mensagem seja agida em tempo hábil.
 - **Criar mensagens de voz**
   > [!Important]

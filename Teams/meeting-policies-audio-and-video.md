@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião em Teams para áudio e vídeo.
-ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984616"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177992"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configurações de política de reunião para vídeo & áudio
 
@@ -35,7 +35,7 @@ Este artigo descreve as configurações de política de reunião específicas pa
 
 - [Modo de áudio IP](#mode-for-ip-audio)
 - [Modo de vídeo IP](#mode-for-ip-video)
-- [Permitir vídeo IP](#allow-ip-video)
+- [Vídeo IP](#ip-video)
 - [Taxa de bits de mídia (Kbs)](#media-bit-rate-kbs)
 - [Modo de filtros de vídeo](#video-filters-mode)
 - [Permitir configurações de plano de fundo personalizadas](#allow-custom-background-settings)
@@ -73,11 +73,11 @@ Essa configuração não se aplica aos dispositivos da sala de conferência, com
 Essa configuração ainda não está disponível para ambientes de Nuvem da Comunidade Governamental (GCC) da Microsoft 365, GCC Altos ou para o Departamento de Defesa (DoD).
 
 > [!NOTE]
-> Lembre-se de que essa configuração controla o vídeo de saída e de entrada, enquanto a configuração **Permitir vídeo IP** controla o vídeo de saída. Para saber mais, confira [Qual configuração de política de vídeo IP tem prioridade?](#which-ip-video-policy-setting-takes-precedence) e [Gerenciar áudio/vídeo para os participantes da reunião](#manage-audiovideo-for-meeting-participants).
+> Lembre-se de que essa configuração controla o vídeo de saída e de entrada, enquanto a configuração de **vídeo IP** controla o vídeo de saída. Para saber mais, confira [Qual configuração de política de vídeo IP tem prioridade?](#which-ip-video-policy-setting-takes-precedence) e [Gerenciar áudio/vídeo para os participantes da reunião](#manage-audiovideo-for-meeting-participants).
 
 Para saber mais, confira [Gerenciar áudio/vídeo para participantes da reunião](#manage-audiovideo-for-meeting-participants).
 
-### <a name="allow-ip-video"></a>Permitir vídeo IP
+### <a name="ip-video"></a>Vídeo IP
 
 Esta é uma combinação de uma política por usuário e por organizador. O vídeo é um componente fundamental para reuniões. Em algumas organizações, os administradores podem querer ter mais controle sobre quais reuniões têm vídeo. Essa configuração controla se o vídeo pode ser habilitado em reuniões hospedadas por um usuário e em chamadas 1:1 e de grupo iniciadas por um usuário. Em Teams clientes móveis, essa configuração controla se os usuários podem compartilhar fotos e vídeos em uma reunião.
 
@@ -92,7 +92,7 @@ As reuniões organizadas por um usuário que possui essa configuração de polí
 
 Observe o exemplo a seguir.
 
-|Usuário |Políticas de reunião  |Permitir vídeo IP |
+|Usuário |Políticas de reunião  |Vídeo IP |
 |---------|---------|---------|
 |Daniela   | Global   | Habilitado       |
 |Amanda    | Location1MeetingPolicy        | Desabilitado      |
@@ -109,22 +109,22 @@ Para saber mais, confira [Gerenciar áudio/vídeo para participantes da reunião
 
 Para um usuário, a configuração de política mais restritiva para o vídeo tem prioridade. Veja alguns exemplos.
 
-|Permitir vídeo IP|Modo de vídeo IP|Experiência de compartilhamento|
+|Vídeo IP|Modo de vídeo IP|Experiência de compartilhamento|
 |---------|---------|---------|
 |Organizador: **Habilitado**<br><br>Participante: **Habilitado** |Participante: **Desabilitado**        |A configuração **Modo para vídeo IP** tem prioridade. O participante atribuído a essa política não poderá ativar nem exibir vídeos compartilhados por outras pessoas.|
 |Organizador: **Habilitado**<br><br>Participante: **Habilitado** |Participante: **Vídeo de saída e de entrada habilitado**          |O participante atribuído a essa política poderá ativar e exibir vídeos compartilhados por outras pessoas.         |
-|Organizador: **Habilitado**<br><br>Participante: **Desabilitado** |Participante: **Vídeo de saída e de entrada habilitado**         |A configuração **Permitir modo de vídeo IP** tem prioridade. Os participantes só poderão ver os vídeos recebidos e não poderão enviar vídeo de saída.         |
-|Organizador: **Habilitado**<br><br>Participante: **Desabilitado** |Participante: **Desabilitado**         |A configuração **Modo de vídeo IP** tem prioridade. O participante não consegue ver o vídeo de entrada ou de saída.|
-|Organizador: **Desabilitado**    |       |A configuração **Permitir vídeo IP** tem prioridade porque está desativada para o organizador. Ninguém pode ativar o vídeo em reuniões organizadas pelo usuário que recebeu essa política.         |
+|Organizador: **Habilitado**<br><br>Participante: **Desabilitado** |Participante: **Vídeo de saída e de entrada habilitado**         |A **configuração de vídeo IP** tem precedência. Os participantes só poderão ver os vídeos recebidos e não poderão enviar vídeo de saída.         |
+|Organizador: **Habilitado**<br><br>Participante: **Desabilitado** |Participante: **Desabilitado**         |A configuração **Modo para vídeo IP** tem prioridade. O participante não consegue ver o vídeo de entrada ou de saída.|
+|Organizador: **Desabilitado**    |       |A **configuração de vídeo IP** tem precedência porque está desligada para o organizador. Ninguém pode ativar o vídeo em reuniões organizadas pelo usuário que recebeu essa política.         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>Gerenciar áudio/vídeo para participantes da reunião
 
 |Se desejar...  |Definir as seguintes configurações de política  |
 |---------|---------|
-|Desabilitar áudio e vídeo para os participantes das reuniões  |Modo de áudio IP: **Desabilitado**<br> Modo de vídeo IP: **Desabilitado**<br>Permitir vídeo IP: N/A       |
-|Habilitar apenas vídeo e áudio de entrada para os participantes nas reuniões  |Modo de áudio IP: **Áudio de entrada e saída habilitado**<br> Modo de vídeo IP: **Vídeo de entrada e saída habilitado**<br>Permitir vídeo IP: **Desativado**       |
-|Desabilitar o vídeo para os participantes nas reuniões (os participantes só têm áudio)|  Modo de áudio IP: **Habilitar o áudio de entrada e saída**<br> Modo de vídeo IP: **Desabilitado**<br>Permitir vídeo IP: N/A
-|Habilitar áudio e vídeo para os participantes das reuniões    |Modo de áudio IP: **Áudio de entrada e saída habilitado** (padrão)<br> Modo de vídeo IP: **Vídeo de entrada e saída habilitado** (padrão)<br>Permitir vídeo IP: **Habilitado** (padrão)    |
+|Desabilitar áudio e vídeo para os participantes das reuniões  |Modo de áudio IP: **Desabilitado**<br> Modo de vídeo IP: **Desabilitado**<br>Vídeo IP: N/A       |
+|Habilitar apenas vídeo e áudio de entrada para os participantes nas reuniões  |Modo de áudio IP: **Áudio de entrada e saída habilitado**<br> Modo de vídeo IP: **Vídeo de entrada e saída habilitado**<br>Vídeo IP: **Desligado**       |
+|Desabilitar o vídeo para os participantes nas reuniões (os participantes só têm áudio)|  Modo de áudio IP: **Habilitar o áudio de entrada e saída**<br> Modo de vídeo IP: **Desabilitado**<br>Vídeo IP: N/A
+|Habilitar áudio e vídeo para os participantes das reuniões    |Modo de áudio IP: **Áudio de entrada e saída habilitado** (padrão)<br> Modo de vídeo IP: **Vídeo de entrada e saída habilitado** (padrão)<br>Vídeo IP: **On** (padrão)    |
 
 A política mais restritiva entre a política do organizador da reunião e a política do usuário será aplicada. Por exemplo, se um organizador tiver uma política que restringe vídeo e a política de um usuário não restringe vídeo, os participantes da reunião herdam a política do organizador da reunião e não têm acesso ao vídeo em reuniões. Isso significa que eles podem ingressar à reunião apenas com o áudio.
 
@@ -133,7 +133,7 @@ A política mais restritiva entre a política do organizador da reunião e a pol
 
 #### <a name="teams-mobile-clients"></a>Cliente de dispositivo móvel do Teams
 
-Para os usuários do Teams em dispositivo móvel, a capacidade de compartilhar fotos e vídeos durante uma reunião também é determinada pela configuração **Permitir vídeo IP** ou **Modo de vídeo de IP**. Dependendo da configuração da política, a capacidade de compartilhar vídeos e fotos não estará disponível. Isso não afeta o compartilhamento de tela, que você configura usando um modo separado de [Compartilhamento de tela](meeting-policies-content-sharing.md#screen-sharing-mode). Além disso, você pode definir uma [Política de mobilidade do Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para impedir que os usuários móveis usem o vídeo por meio de uma conexão de rede celular, o que significa que devem usar uma conexão WiFi.
+Para usuários Teams clientes móveis, a capacidade de compartilhar fotos e vídeos durante uma reunião também é determinada pela configuração de vídeo **IP** ou modo de vídeo **IP.** Dependendo da configuração da política, a capacidade de compartilhar vídeos e fotos não estará disponível. Isso não afeta o compartilhamento de tela, que você configura usando um modo separado de [Compartilhamento de tela](meeting-policies-content-sharing.md#screen-sharing-mode). Além disso, você pode definir uma [Política de mobilidade do Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para impedir que os usuários móveis usem o vídeo por meio de uma conexão de rede celular, o que significa que devem usar uma conexão WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Taxa de bits de mídia (Kbs)
 

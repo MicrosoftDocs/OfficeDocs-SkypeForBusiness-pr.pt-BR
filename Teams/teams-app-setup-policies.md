@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4942ae39b8ca5d067bd5b98ad2780cd0db78422d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: aebf812b7362f5f7572e9b8fabb9e88754118438
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844944"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205281"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -60,10 +60,10 @@ Para criar uma política de configuração de aplicativo para fixar aplicativos,
 
 3. Insira um nome e uma descrição para a política.
 
-4. Ativar ou desativar **Permitir** fixação do usuário, dependendo se você deseja permitir que os usuários personalizem sua barra de aplicativos fixando aplicativos a ela.
+4. Ativar ou desativar o **pinamento** de usuário , dependendo se você deseja permitir que os usuários personalizem a barra de aplicativos fixando aplicativos a ela.
 
    > [!NOTE]
-   > A **configuração** Permitir fixação do usuário está disponível no centro de administração do Teams em ambientes Microsoft 365 Nuvem da Comunidade Governamental (GCC) (GCC, GCC Alto e DoD), mas atualmente não tem efeito.
+   > A  configuração de fixação de usuário está disponível no centro de administração do Teams em ambientes Microsoft 365 Nuvem da Comunidade Governamental (GCC) (GCC, GCC Alta e DoD), mas atualmente não tem efeito.
 
 5. Em **Aplicativos Fixados,** selecione **Adicionar aplicativos**.
 
@@ -205,11 +205,11 @@ Com os Teams móveis, os usuários verão os principais Teams aplicativos, como 
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Os usuários podem alterar a ordem dos aplicativos fixados por meio de uma política
 
-Os usuários podem alterar a ordem de seus aplicativos fixados Teams clientes móveis e desktop se a opção Permitir que o **pinning** do usuário seja ligado. Os usuários não podem alterar a ordem de seus aplicativos fixados em Teams web.
+Os usuários podem alterar a ordem de seus aplicativos fixados em Teams clientes móveis e de área de trabalho se a opção de **pinamento** do usuário estiver atada. Os usuários não podem alterar a ordem de seus aplicativos fixados em Teams web.
 
 #### <a name="does-user-pinning-take-precedence"></a>O pinamento do usuário tem precedência
 
-Os pinos de administrador sempre têm precedência. Se a **opção Permitir que o pinamento do** usuário estiver ligado, os usuários manterão seus aplicativos fixados abaixo dos aplicativos fixados pelo administrador. Se a **opção Permitir fixação** do usuário estiver desabilitada, os usuários perderão seus pinos pré-existentes e somente aplicativos fixados por administrador estarão presentes na barra de aplicativos.
+Os pinos de administrador sempre têm precedência. Se a **opção de pinamento** do usuário estiver 2016, os usuários manterão seus aplicativos fixados abaixo dos aplicativos fixados pelo administrador. Se a **opção de fixação** de usuário estiver desabilitada, os usuários perderão seus pinos pré-existentes e somente aplicativos fixados por administrador estarão presentes na barra de aplicativos.
 
 ### <a name="custom-teams-apps"></a>Aplicativos Teams personalizados
 
@@ -217,7 +217,7 @@ Os pinos de administrador sempre têm precedência. Se a **opção Permitir que 
 
 Certifique-se de seguir as diretrizes de logotipo antes de enviar o aplicativo. Para saber mais, consulte [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview).
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Configurações de administrador para aplicativos no Teams](admin-settings.md)
 
