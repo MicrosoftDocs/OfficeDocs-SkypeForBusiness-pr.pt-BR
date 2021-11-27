@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153304"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205301"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -59,7 +59,7 @@ Você deve ser um administrador do Teams para fazer essas alterações. Veja [ U
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>Usar o PowerShell para configurar a política por organizador
 
-Os administradores agora podem controlar se usuários específicos ou grupos de usuários podem permitir que usuários anônimos participem das reuniões que organizam. Essa nova política por organizador é controlada usando o parâmetro **-AllowAnonymousUsersToJoinMeeting** em [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). Isso vem com o PowerShell do Teams versão 2.6.0 e posterior.
+Os administradores agora podem controlar se usuários específicos ou grupos de usuários podem permitir que usuários anônimos participem das reuniões que organizam. Essa nova política por organizador é controlada usando o parâmetro **-AllowAnonymousUsersToJoinMeeting** em [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Isso vem com o PowerShell do Teams versão 2.6.0 e posterior.
 
 Você pode usar qualquer política, para toda a organização ou por organizador, para gerenciar o ingresso anônimo. Recomendamos que você implemente a política por organizador. A configuração de política em toda a organização será preterida no futuro e a política por organizador será a única maneira de controlar o ingresso anônimo.
 
@@ -147,7 +147,7 @@ Se você estiver usando a Qualidade de Serviço (QoS) para priorizar o tráfego 
 
     ![Captura de tela das configurações de rede para reuniões no centro de administração.](media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do Teams no centro de administração do Microsoft Teams")
 
-    - Para permitir que marcadores DSCP sejam usados para QoS, ative **Inserir marcadores Quality of Service (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar ou não usar marcadores; você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para obter mais informações sobre marcadores DSCP.
+    - Para permitir que as marcações DSCP sejam usadas para QoS, ative os **Marcadores de QoS (Qualidade de Serviço) para tráfego de mídia em tempo real**. Você só tem a opção de usar ou não usar marcadores; você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para obter mais informações sobre marcadores DSCP.
 
         > [!IMPORTANT]
         > Observe que a habilitação da QoS somente é executada nos pontos de extremidade para marcar os pacotes que saem do cliente. Ainda recomendamos aplicar as regras de QoS correspondentes em todos os dispositivos de rede internos para o tráfego de entrada.
