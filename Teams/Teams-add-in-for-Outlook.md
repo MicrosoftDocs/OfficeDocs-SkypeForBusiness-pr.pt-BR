@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38787b6f3fe11c1dfd8a9883f06bf19206360ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fc7a387f7dcd6ef8a3ed728b8aa59db64ccefb31
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840893"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205521"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 
@@ -131,6 +131,9 @@ Saiba mais sobre [reuniões e chamadas no Microsoft Teams](https://support.offic
 
 Use as etapas a seguir para solucionar os problemas com o suplemento de Reunião do Teams.
 
+> [!NOTE]
+> Esse cenário também pode ser gerenciado usando a [linha de comando do Assistente de Recuperação e Suporte da Microsoft](/office365/troubleshoot/administration/sara-command-line-version) com SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook.
+
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>O suplemento de Reunião do Teams no Outlook para Windows não mostra
 
 Se você não conseguir instalar o suplemento de Reunião do Teams para o Outlook, tente estas etapas de solução de problemas.
@@ -141,7 +144,7 @@ Alternativamente, execute as seguintes etapas manualmente:
 
 - Os usuários do Windows 7 devem instalar a [atualização para o Tempo de execução do Windows Universal C](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que o suplemento de Reunião do Teams funcione.
 - Verifique se o usuário tem uma política de atualização do Teams que permite agendar reuniões no Teams. Consulte [Atualização do Skype for Business para Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obter mais detalhes.
-- Verifique se o usuário tem uma política de Reuniões do Teams que permite o complemento do Outlook. Confira [Configurações de política de reunião - Geral](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in) para obter mais detalhes.
+- Verifique se o usuário tem uma política de Reuniões do Teams que permite o complemento do Outlook. Confira [Configurações de política de reunião - Geral](./meeting-policies-in-teams-general.md#outlook-add-in) para obter mais detalhes.
 - Certifique-se de que o usuário tenha o cliente de área de trabalho do Teams instalado. O suplemento da reunião não será instalado ao usar apenas o cliente web Teams.
 - Certifique-se de que o usuário tenha o Outlook 2013 ou posterior instalado.
 - Certifique-se de que o usuário tenha permissão para executar o regsvr32.exe.
