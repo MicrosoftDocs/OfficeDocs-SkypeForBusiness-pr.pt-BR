@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636985"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216667"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Atualizar os usuários da avaliação gratuita do Teams Exploratory
 
@@ -50,7 +50,7 @@ Dependendo das assinaturas que sua organização tem atualmente, há três manei
 
 - **Atualizar uma assinatura Microsoft 365 existente.** Use essa opção se sua organização tiver assinaturas de outros produtos do Office que não incluem o Teams. Para obter mais informações, consulte <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">Atualizar para um plano de negócios diferente</a>. Para ver os usuários ativos de uma assinatura existente, acesse **Usuários >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Usuários ativos</b></a> no Centro de administração do Microsoft 365.
 
-- **Adicionar usuários a uma assinatura Microsoft 365 existente.** Use essa opção se sua organização não tiver pagamento o suficiente. Licenças do Teams para cobrir os usuários do Teams Exploratory. Para obter mais informações, consulte <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Comprar ou remover licenças</a>. Para adicionar usuários a uma assinatura existente que já tenha licenças suficientes disponíveis, consulte <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Mover usuários para uma assinatura diferente</a>. Para ver os usuários ativos de uma assinatura existente, acesse **Usuários >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Usuários ativos</b></a> no Centro de administração do Microsoft 365.
+- **Adicionar usuários a uma assinatura Microsoft 365 existente.** Use essa opção se sua organização não tiver licenças pagas suficientes do Teams para cobrir os usuários do Teams Exploratory. Para obter mais informações, consulte <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Comprar ou remover licenças</a>. Para adicionar usuários a uma assinatura existente que já tenha licenças suficientes disponíveis, consulte <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Mover usuários para uma assinatura diferente</a>. Para ver os usuários ativos de uma assinatura existente, acesse **Usuários >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Usuários ativos</b></a> no Centro de administração do Microsoft 365.
 
 - **Comprar uma nova assinatura do Microsoft 365.** Use essa opção se sua organização não tiver assinaturas existentes para produtos do Office ou se sua organização quiser comprar uma assinatura diferente da assinatura existente para cobrir os usuários do Teams Exploratory.  Para obter mais informações, consulte <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">Comprar uma assinatura Microsoft 365 para empresas</a>.
 
