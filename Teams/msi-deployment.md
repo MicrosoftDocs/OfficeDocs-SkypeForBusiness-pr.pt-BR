@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: c7ff835715bd91e66160817410312734c6949f5c
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124238"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216627"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 
@@ -64,7 +64,7 @@ O Teams MSI colocará um instalador em Arquivos de Programas. Sempre que um usu�
 Não use o MSI para implantar atualizações, pois o cliente atualizará automaticamente quando detectar que há uma nova versão disponível no serviço. Para reimplantar o instalador mais recente, use o processo de reimplantação do MSI descrito abaixo. Se você implantar uma versão mais antiga do pacote MSI, o cliente atualizará automaticamente (exceto em ambientes da VDI) para o usuário quando possível. Se uma versão muito antiga for implantada, o MSI acionará uma atualização do aplicativo antes que o usuário possa usar o Teams.
 
 > [!IMPORTANT]
-> O local padrão é C:\Arquivos de Programas (x86)\Instalador do Teams em sistemas operacionais de 64 bits e C:\Arquivos de Programas \Instalador do Teams em sistemas operacionais de 32 bits.
+> O local padrão é C:\Arquivos de Programas (x86)\Teams Instalador em sistemas operacionais de 32 bits e C:\Arquivos de Programas\Teams Instalador em sistemas operacionais de 64 bits.
 > Não recomendamos mudar os locais de instalação padrão, pois isso pode interromper o fluxo de atualização. Uma versão muito antiga pode impedir que os usuários acessem o serviço.
 
 #### <a name="target-computer-requirements"></a>Requisitos do computador de destino
