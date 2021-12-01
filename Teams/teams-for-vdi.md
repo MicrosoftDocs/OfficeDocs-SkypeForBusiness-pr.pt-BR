@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e684f9d64c3a10611b3cd71c9ea711f052050f48
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: ce78cfa86dfe562b33a892fbcc85a3946097eca6
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055442"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257352"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -486,7 +486,6 @@ Os seguintes recursos de chamada e reunião não são suportados:
 - Tom de retorno de toque de chamada PSTN
 - Som de áudio/computador do sistema compartilhado
 - Bypass de mídia para Roteamento Direto
-- Estacionamento de chamada
 - Controle zoom
 
 > [!NOTE]

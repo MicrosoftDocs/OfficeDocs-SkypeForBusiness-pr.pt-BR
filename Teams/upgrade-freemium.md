@@ -1,5 +1,5 @@
 ---
-title: Atualizar Microsoft Teams para assinatura gratuita
+title: Atualizar Microsoft Teams gratuito (clássico) para assinatura
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -20,23 +20,23 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6312b9d6fb75c625c175fbb8b64d64f4cb6c5f99
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d513a681b925f855d9354f517920a22003767eab
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733000"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257382"
 ---
-# <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Atualizar Microsoft Teams versão gratuita para assinatura
+# <a name="upgrade-microsoft-teams-free-classic-to-subscription-version"></a>Atualizar Microsoft Teams versão gratuita (clássica) para assinatura
 
-Se sua organização estiver usando a versão gratuita do Microsoft Teams, você poderá atualizar facilmente para a versão completa comprando um plano de assinatura Microsoft 365 ou Office 365 para seus usuários. A versão completa fornece recursos Teams recursos adicionais — como agendamento, audioconferência, administração aprimorada e recursos de segurança — que a versão gratuita não fornece. Microsoft 365 e Office 365 combinam o pacote de áreas de trabalho do Microsoft Office familiar com versões baseadas em nuvem dos serviços de comunicação e colaboração de última geração da Microsoft , incluindo Exchange Online, SharePoint Online e Office, para ajudar os usuários a serem produtivos de praticamente qualquer lugar através da Internet. Quando você atualiza Teams, os dados Teams existentes não serão perdidos; todas as suas equipes, canais, chats, arquivos e permissões vêm com você. 
+Se sua organização estiver usando a versão gratuita do Microsoft Teams, você poderá atualizar facilmente para a versão completa comprando um plano de assinatura Microsoft 365 ou Office 365 para seus usuários. A versão completa fornece recursos Teams recursos adicionais — como agendamento, audioconferência, administração aprimorada e recursos de segurança — que a versão gratuita não fornece. Microsoft 365 e Office 365 combinam o pacote de área de trabalho Microsoft Office familiar com versões baseadas em nuvem dos serviços de comunicação e colaboração de última geração da Microsoft, incluindo Exchange Online, SharePoint Online e Office  — para ajudar os usuários a serem produtivos de praticamente qualquer lugar através da Internet. Quando você atualiza Teams, seus dados de Teams existentes não serão perdidos; todas as suas equipes, canais, chats, arquivos e permissões vêm com você.
 
 > [!NOTE]
 > Se você já tiver uma assinatura Microsoft 365 ou Office 365, estará qualificado para a versão de avaliação do Teams (com sua identidade corporativa), não a versão gratuita. A Teams de avaliação fornece a versão completa do Teams por um tempo limitado. Para obter mais informações, consulte [Manage the Microsoft Teams Commercial Cloud Trial offer](./teams-exploratory.md).
 
-## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>Como Teams comparação gratuita com a versão completa do Teams?
+## <a name="how-does-teams-free-classic-compare-to-the-full-version-of-teams"></a>Como o Teams Free (clássico) se compara à versão completa do Teams?
 
-Teams gratuito é projetado para pequenas e médias empresas e tem os seguintes recursos:
+Teams Free (clássico) foi projetado para pequenas e médias empresas e tem os seguintes recursos:
 
 - 500.000 usuários máximos
 - Mensagens de chat e pesquisa ilimitadas
@@ -58,7 +58,7 @@ A versão completa do Teams incluída com uma assinatura Microsoft 365 ou Office
 - Recursos avançados de segurança e conformidade, incluindo autenticação multifatória, login único e auditoria e relatórios avançados
 - Controles administrativos e recursos de suporte, incluindo suporte para telefone e web 24 x 7, ferramentas de administração para gerenciar usuários e aplicativos, relatórios de uso para serviços Microsoft 365 ou Office 365, contrato no nível de serviço e configurações e políticas configuráveis do usuário
 
-Para uma comparação detalhada de Teams recursos Teams gratuitos e Teams, consulte [Compare Teams planos](https://products.office.com/microsoft-teams/free).
+Para uma comparação detalhada dos recursos Teams Free (clássico) e Teams, consulte [Compare Teams planos](https://products.office.com/microsoft-teams/free).
 
 ## <a name="upgrade-requirements"></a>Requisitos de atualização
 
@@ -74,10 +74,10 @@ Você pode atualizar para a versão completa do Teams se atender aos seguintes r
 
 Lembre-se das seguintes limitações:
 
-- Não é possível alternar de volta para Teams depois de atualizar.
-- Não é possível mesclar vários locatários Teams gratuitos em um único locatário pago.
+- Não é possível alternar de volta para o Teams Gratuito (clássico) depois de atualizar.
+- Não é possível mesclar vários locatários Teams Free (clássico) em um único locatário pago.
 - Todos os usuários devem estar no mesmo domínio. (Todos os usuários receberão uma assinatura no formato nome de *usuário* @ *domain.com*.)
-- Todos os usuários devem ser atualizados: não há suporte para Teams usuários de assinatura gratuitas e pagas no mesmo locatário.
+- Todos os usuários devem ser atualizados Teams: não há suporte para uma combinação de usuários de assinaturas gratuitas (clássicas) e pagas no mesmo locatário.
 
 ## <a name="how-do-i-upgrade-my-organization"></a>Como faço para atualizar minha organização?
 
@@ -94,6 +94,6 @@ Depois que sua atualização [](get-started-with-teams-quick-start.md) for concl
 ## <a name="more-information"></a>Mais informações
 
 - Para saber mais sobre Teams versões e seus recursos, consulte [Comparar Teams planos](https://products.office.com/microsoft-teams/free).
-- Para obter mais informações sobre como atualizar para a versão completa do Teams, consulte [Upgrade from Teams free to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
-- Para tarefas de administrador adicionais associadas à atualização de usuários, incluindo a adição de licenças de usuário, alteração de nomes de usuário e a atribuição de senhas temporárias, consulte For [admins upgrading from Teams free](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)to a paid subscription .
+- Para obter mais informações sobre como atualizar para a versão completa do Teams, consulte [Upgrade from Teams Free (classic) to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
+- Para tarefas de administrador adicionais associadas à atualização de usuários, incluindo adicionar licenças de usuário, alterar nomes de usuário e atribuir senhas temporárias, consulte Para administradores atualizar do [Teams Free (clássico)](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)para uma assinatura paga .
 - Para obter informações sobre como gerenciar Teams em sua organização, consulte [Manage the free version of Microsoft Teams](manage-freemium.md).

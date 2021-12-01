@@ -18,24 +18,24 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: d2069b7811b570bfa711e6d6c641c1ca9340c7bc
-ms.sourcegitcommit: d67617d5042d25ed0bf36c66c3a0605c3d4d233e
+ms.openlocfilehash: 7d70fe3e96c7d06b9457e5d943dc608efc571306
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60224834"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257372"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
 > [!Tip]
 > Assista à sessão a seguir para saber mais sobre os benefícios do Roteamento Direto, como planejar e como implantá-la: [Roteamento Direto no Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-Telefone Microsoft O Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente ao Telefone Microsoft System.  Com esse recurso, por exemplo, você pode configurar a conectividade PSTN (Rede Telefônica Pública Comutada) local com o cliente Microsoft Teams, conforme mostrado no diagrama a seguir: 
+Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente ao Telefone Microsoft System.  Com esse recurso, por exemplo, você pode configurar a conectividade PSTN (Rede Telefônica Pública Comutada) local com o cliente Microsoft Teams, conforme mostrado no diagrama a seguir: 
 
 ![Diagrama mostrando a configuração da conectividade PSTN local.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuração da conectividade PSTN local com Microsoft Teams cliente")
 
   > [!NOTE]
-  > Skype for Business Online também permite emparelhar um SBC fornecido pelo cliente, mas isso requer uma implantação local do Skype for Business Server ou uma edição especial do Skype for Business, chamada Cloud Connector, entre o SBC e o Microsoft Cloud. Esse cenário é conhecido como voz híbrida. Por outro lado, o Roteamento Direto permite uma conexão direta entre o SBC com suporte e o Microsoft Cloud.
+  > o Skype for Business Online também permite emparelhar um SBC fornecido pelo cliente, mas isso requer uma implantação de Skype for Business Server local ou uma edição especial do Skype for Business, chamado Cloud Connector, entre o SBC e o Microsoft Cloud. Esse cenário é conhecido como voz híbrida. Por outro lado, o Roteamento Direto permite uma conexão direta entre o SBC com suporte e o Microsoft Cloud.
 
 > [!Important]
 > O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com Skype for Business Online. Depois que sua organização tiver sido atualizada para Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto](direct-routing-landing-page.md). 
@@ -92,15 +92,15 @@ Endereços IP de firewall e portas para Microsoft Teams mídia |Para obter mais 
 
 Os usuários do Roteamento Direto devem ter as seguintes licenças atribuídas Microsoft 365 ou Office 365: 
 
-- Telefone Microsoft Sistema. 
+- Telefone Microsoft System. 
 - Microsoft Teams + Skype for Business Plano 2, se incluído no licenciamento.
 - Conferência de Áudio da Microsoft (leia as anotações e o parágrafo abaixo para exemplos específicos sobre quando a licença é necessária).
 
 > [!NOTE]
-> Skype for Business O plano não deve ser removido de qualquer contrato de licenciamento no qual ele está incluído. 
+> Skype for Business Plano não deve ser removido de qualquer contrato de licenciamento no qual ele está incluído. 
 > 
 > [!IMPORTANT]
-> GCC Os usuários high e DoD devem desabilitar qualquer licenciamento de Audioconferência incluído no G5 e aguardar para habilitar qualquer Audioconferência até que o Roteamento Direto seja totalmente configurado. Os usuários devem ter números de telefone discados configurados e um bloco de discagem de trabalho antes de habilbilar licenças de Audioconferência. Consulte [Audioconferência com Roteamento](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) Direto para GCC Alta e DoD para obter mais detalhes.
+> GCC usuários High e DoD devem desabilitar qualquer licenciamento de Audioconferência incluído no G5 e aguardar para habilitar qualquer Audioconferência até que o Roteamento Direto seja totalmente configurado. Os usuários devem ter números de telefone discados configurados e um bloco de discagem de trabalho antes de habilbilar licenças de Audioconferência. Consulte [Audioconferência com Roteamento](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) Direto para GCC Alta e DoD para obter mais detalhes.
 
 
 > [!IMPORTANT]
@@ -121,7 +121,7 @@ Além disso, você deve garantir o seguinte:
 - CsOnlineVoiceRoutingPolicy é atribuído ao usuário. 
 - Permitir Chamada Privada está habilitada no nível de locatário para Microsoft Teams. 
 
-O Roteamento Direto também dá suporte a usuários licenciados para o Plano de Chamadas da Microsoft. Telefone Microsoft O sistema com Plano de Chamadas pode rotear algumas chamadas usando a interface de Roteamento Direto. No entanto, os números de telefone dos usuários devem ser adquiridos online ou portados para a Microsoft.  
+O Roteamento Direto também dá suporte a usuários licenciados para o Plano de Chamadas da Microsoft. Telefone Microsoft Sistema com Plano de Chamadas pode rotear algumas chamadas usando a interface de Roteamento Direto. No entanto, os números de telefone dos usuários devem ser adquiridos online ou portados para a Microsoft.  
 
 Misturar o Plano de Chamadas e a conectividade de Roteamento Direto para o mesmo usuário é opcional, mas pode ser útil (por exemplo, quando o usuário recebe um Plano de Chamadas da Microsoft, mas deseja rotear algumas chamadas usando o SBC). Um dos cenários mais comuns são chamadas para PBXs de terceiros.  Com PBXs de terceiros, todas as chamadas, exceto chamadas para os telefones conectados a esse PBXs, são roteados usando o Plano de Chamadas da Microsoft, mas as chamadas para os telefones conectados a PBXs de terceiros vão para o SBC e, portanto, permanecem na rede corporativa e não na PSTN. 
 
@@ -235,7 +235,7 @@ Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhu
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-Você precisa abrir portas para todos esses intervalos de endereços IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.  Se o firewall for compatível com nomes DNS, o FQDN **sip-all.pstnhub.microsoft.com** resolverá todas essas sub-redes IP. 
+Você precisa abrir portas para todos esses intervalos de endereços IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.
 
 ### <a name="office-gcc-dod-environment"></a>Office GCC ambiente do DoD
 
@@ -259,7 +259,7 @@ O FQDN sip.pstnhub.gov.teams.microsoft.us será resolvido para um endereço IP a
 
 - 52.127.88.0/21
 
-Você precisa abrir portas para todos esses endereços IP no firewall para permitir que o tráfego de entrada e saída entre e os endereços para sinalização. Se o firewall for compatível com nomes DNS, o FQDN **sip-all.pstnhub.gov.teams.microsoft.us** resolvido para todos esses endereços IP. Esse FQDN também pode ser usado como FQDN Federado para classificação de chamada de entrada.
+Você precisa abrir portas para todos esses endereços IP no firewall para permitir que o tráfego de entrada e saída entre e os endereços para sinalização.
 
 ## <a name="sip-signaling-ports"></a>Sinalização SIP: Portas
 
@@ -299,7 +299,7 @@ O tráfego de mídia flui de e para um serviço separado no Microsoft Cloud. Os 
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254).
 - 52.120.0.0/14 (endereços IP de 52.120.0.1 a 52.123.255.254).
 
-### <a name="office-365-dod-environment"></a>Office 365 Ambiente do DoD
+### <a name="office-365-dod-environment"></a>Office 365 ambiente do DoD
 
 - 52.127.64.0/21
 

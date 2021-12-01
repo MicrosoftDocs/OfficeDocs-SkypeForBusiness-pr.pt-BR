@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre logs de depuração, mídia e área de trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07eca1235cb695d32da0fdab96490572af6ccecb
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959960"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257312"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar Microsoft Teams
 
@@ -46,7 +46,7 @@ Este artigo descreve esses logs e como eles são usados. Para obter informaçõe
 
 - Mac: selecione o menu Ajuda e escolha **Coletar arquivos de suporte**.
 
-Os logs de depuração, área de trabalho e mídia serão coletados em uma pasta com o nome _MSTeams Diagnostics Log \<local data and time\>_. Essa pasta pode ser compactada e compartilhada quando você abre uma solicitação de suporte com o Suporte da Microsoft. A pasta conterá pastas para Área de Trabalho, Reunião (Mídia) e Depuração (Web). Você pode coletar os arquivos usando os seguintes atalhos de teclado:
+Os logs de depuração, área de trabalho e mídia serão coletados em uma pasta com o nome _MSTeams Diagnostics Log \<local date and time\>_. Essa pasta pode ser compactada e compartilhada quando você abre uma solicitação de suporte com o Suporte da Microsoft. A pasta conterá pastas para Área de Trabalho, Reunião (Mídia) e Depuração (Web). Você pode coletar os arquivos usando os seguintes atalhos de teclado:
 
 - Windows: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
