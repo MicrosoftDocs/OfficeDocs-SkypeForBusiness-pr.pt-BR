@@ -1,9 +1,9 @@
 ---
-title: Configurar o Sistema de Telefonia na sua organização
+title: Configurar Teams Telefone em sua organização
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: roykuntz
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,7 +15,6 @@ ms.collection:
 - m365solution-scenario
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -23,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Guia passo a passo detalhando como configurar o Sistema de Telefonia (Cloud PBX) para sua organização em Microsoft 365 ou Office 365.
-ms.openlocfilehash: 51884f63485b1509dbf9ee72739bc0e85385e940
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+description: Guia passo a passo detalhando como configurar o Teams Sistema de Telefonia para sua organização em Microsoft 365.
+ms.openlocfilehash: 2241a58c02b43ea8a8f0eb15fedaaef8e2728f94
+ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046137"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61262135"
 ---
-# <a name="set-up-phone-system-in-your-organization"></a>Configurar o Sistema de telefonia da sua organização
+# <a name="set-up-teams-phone-in-your-organization"></a>Configurar Teams Telefone em sua organização
 
-A seguir, um guia passo a passo para configurar o Sistema de Telefonia em Microsoft 365 ou Office 365. Links para informações detalhadas adicionais estão disponíveis no final de cada etapa.
+A seguir, um guia passo a passo para configurar o Teams Telefone no Microsoft 365. Links para informações detalhadas adicionais estão disponíveis no final de cada etapa.
 
-## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>Etapa 1: Certifique-se de que o Sistema de Telefonia está disponível em seu país ou região
+## <a name="step-1-make-sure-that-teams-phone-is-available-in-your-country-or-region"></a>Etapa 1: certifique-se de que Teams Telefone está disponível em seu país ou região
 
 1.    Primeiro, acesse [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) e selecione seu país ou região na lista na parte superior da página. 
 2.    Em **Sistema de Telefonia**, examine a lista de recursos e detalhes. 
@@ -43,9 +42,9 @@ A seguir, um guia passo a passo para configurar o Sistema de Telefonia em Micros
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Etapa 2: Comprar e atribuir licenças do Sistema de Telefonia e Planos de Chamadas
 
-Para atribuir uma licença Sistema de Telefonia e Plano de Chamada a um único usuário, as etapas são as mesmas que atribuir uma Microsoft 365 ou Office 365 de chamada.  Você também pode atribuir licenças a vários usuários em massa. Para obter mais informações, consulte [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+Para atribuir uma licença Sistema de Telefonia e Plano de Chamada a um único usuário, as etapas são as mesmas que atribuir uma Microsoft 365 de chamada.  Você também pode atribuir licenças a vários usuários em massa. Para obter mais informações, consulte [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-Se os Planos de Chamadas não estão disponíveis para seu país ou região, considere usar o Roteamento Direto para conectar sua infraestrutura de telefonia local a Sistema de Telefonia.  Para obter mais informações, [consulte Sistema de Telefonia Roteamento Direto](direct-routing-landing-page.md).
+Se os Planos de Chamadas não estão disponíveis para seu país ou região, há outras opções para se conectar à PSTN (Rede Telefônica Pública Comucionária).  Para obter mais informações, consulte Opções de conectividade [PSTN](pstn-connectivity.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Etapa 3: Obter números de telefone para seus usuários
 
@@ -55,7 +54,7 @@ Você tem três maneiras de obter números para seus usuários:
 
 - Obter novos números usando o Teams de administração.
 - Obter novos números que não estão disponíveis no Teams de administração.
-- Port or transfer your existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365.
+- Port or transfer your existing numbers from your current service provider or phone carrier to Microsoft 365.
 
 Você deve usar a página **Adicionar números** para ver, pesquisar, adquirir e reservar esses números. Você pode pesquisar por País/Região, Estado e Cidade e, em seguida, inserir o número de números de telefone necessários para seus usuários.
 
@@ -63,7 +62,7 @@ Você deve usar a página **Adicionar números** para ver, pesquisar, adquirir e
 
 1. Entre no Microsoft 365 com sua conta de trabalho ou de estudante.
 
-2. Vá para o centro **de administração Teams .**
+2. Vá para o **Centro de administração do Teams**.
     
 3. Na navegação à esquerda, vá para **Voz**  >  **Telefone números,** clique em **Adicionar** e siga os prompts.
     
@@ -88,7 +87,7 @@ Além de obter números de telefone para seus usuários do Microsoft 365 ou Offi
 
 1. Entre com sua conta de trabalho ou de estudante.
 
-2. Vá para o centro **de administração Teams .**
+2. Vá para o **Centro de administração do Teams**.
 
 3. No painel de navegação esquerdo, vá para **Voz** Telefone números Adicionar novo número e clique  >    >  em **Novos números de serviço**.
 
@@ -146,7 +145,7 @@ Se você não configurar a cobrança de Créditos de Comunicações e atribuir u
   
 
 ## <a name="related-topics"></a>Tópicos relacionados
-[Veja o que você obter com Sistema de Telefonia no Microsoft 365 ou Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja o que você obter com Teams Telefone](here-s-what-you-get-with-phone-system.md)
 
 [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

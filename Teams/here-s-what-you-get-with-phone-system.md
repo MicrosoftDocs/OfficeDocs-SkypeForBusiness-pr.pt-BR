@@ -1,10 +1,10 @@
 ---
-title: Veja o que você obtém com o Sistema de Telefonia
+title: Veja o que você obter com Teams Telefone
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-msreviewer: jastarck, makolomi
+msreviewer: jastarck, roykuntz
 ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
@@ -15,39 +15,38 @@ ms.collection:
 - m365initiative-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar o Telefone Microsoft System para sua empresa. '
-ms.openlocfilehash: 57bffbdb9d8a6b7955106d369284f716b2723a97
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar Microsoft Teams Sistema de Telefonia para sua empresa. '
+ms.openlocfilehash: 8097ca497a7da3474681549a4abfe396b41a06cd
+ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465811"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61262105"
 ---
-# <a name="heres-what-you-get-with-phone-system"></a>Veja o que você obtém com o Sistema de Telefonia
+# <a name="heres-what-you-get-with-teams-phone"></a>Veja o que você obter com Teams Telefone
 
-Este artigo descreve Sistema de Telefonia recursos. Para obter mais informações sobre como usar o Sistema de Telefonia como sua substituição de PbX (Private Branch Exchange) e opções para se conectar à PSTN (Rede Telefônica Pública Comucionária), consulte [O](what-is-phone-system-in-office-365.md)que é Sistema de Telefonia .
+Este artigo descreve Teams Telefone recursos. Para obter mais informações sobre como usar o Teams Telefone como sua substituição de Exchange (PBX) e opções para se conectar à PSTN (Rede Telefônica Pública Comucionária), consulte O que é [Teams Telefone](what-is-phone-system-in-office-365.md).
 
 Os clientes estão disponíveis para PC, Mac e dispositivos móveis, que fornece recursos em dispositivos de tablets e telefones celulares para computadores e telefones IP da área de trabalho. Para obter mais informações, consulte [Obter clientes para Microsoft Teams](get-clients.md).
 
  > [!Note]
 > Para obter detalhes sobre Teams de telefone em diferentes plataformas, [consulte Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-Para usar Sistema de Telefonia recursos, sua organização deve ter uma Sistema de Telefonia de usuário. Para obter mais informações sobre licenciamento, confira [Licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para usar Teams Telefone recursos, sua organização deve ter uma Sistema de Telefonia de usuário. Para obter mais informações sobre licenciamento, confira [Licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Esteja ciente de que a maioria dos recursos exige que você atribua a Sistema de Telefonia e verifique se os usuários estão "habilitados para voz". Para atribuir a licença, use o [cmdlet Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) e de definir o parâmetro **enterprisevoiceenabled** como $true. Alguns recursos, como o atendimento automático na nuvem, não exigem que um usuário seja habilitado para voz. Exceções são chamadas na tabela abaixo.
   
-## <a name="phone-system-features"></a>Sistema de Telefonia recursos
+## <a name="teams-phone-features"></a>Teams Telefone recursos
 
-Sistema de Telefonia fornece os seguintes recursos. A menos que seja notado de outra forma, os recursos estão disponíveis no Teams e Skype for Business Online.
+Teams Telefone fornece os seguintes recursos.
   
-|Sistema de Telefonia recurso  |Descrição |
+|Teams Telefone recurso  |Descrição |
 |:-----|:-----|
 |[Atendentes automáticos na nuvem](what-are-phone-system-auto-attendants.md)  |Permite que você crie um sistema de menus que permite que chamadores externos e internos localizem e façam ou transfira chamadas para usuários ou departamentos da empresa em sua organização.  <br/> Observe que *os usuários não precisam* ter voz habilitada para receber chamadas do atendimento automático. |
 |[Filas de chamada na nuvem](create-a-phone-system-call-queue.md) <br> |Permite configurar como as filas de chamada são gerenciadas para sua organização: por exemplo, configurar saudações e músicas em espera, procurar o próximo agente de chamada disponível para lidar com a chamada e assim por diante.  <br/> Observe que os *usuários precisam* estar habilitados para voz para receber chamadas de uma fila de chamadas.|
@@ -60,7 +59,7 @@ Sistema de Telefonia fornece os seguintes recursos. A menos que seja notado de o
 |[Recuperação e estacionamento de chamadas](call-park-and-retrieve.md)   | Permite que os usuários coloquem uma chamada em espera no serviço Teams na nuvem. Quando uma chamada é estacionada, o serviço gera um código exclusivo para recuperação de chamada. O usuário que estacionou a chamada ou outra pessoa pode então usar esse código e um aplicativo ou dispositivo com suporte para recuperar a chamada.  |
 |Número de telefone de chamada da pesquisa   | Permite que os usuários façam uma chamada da caixa de pesquisa usando o comando /call e especificando um nome ou um número.  |
 |[ID do chamador](how-can-caller-id-be-used-in-your-organization.md)   |As chamadas de dentro da empresa exibem uma ID de chamador detalhada que tira informações do diretório corporativo, mostrando a ID da imagem e o cargo em vez de apenas um número de telefone. Para chamadas de números de telefone externos, a ID do chamador conforme fornecido pelo provedor de serviços telefônicos é exibida. Se os números de telefone externos são números secundários no diretório corporativo, as informações do diretório corporativo serão exibidas.   |
-|Alternância de dispositivo   |Permite que os usuários reproduzam uma chamada ou reunião em outro dispositivo HID que esteja conectado a Teams; por exemplo, alternar dos alto-falantes do computador para um fone de ouvido.    |
+|Alternância de dispositivo   |Permite que os usuários reproduzam uma chamada ou reunião em outro dispositivo HID que esteja conectado a Teams; por exemplo, alternar de seus alto-falantes de computador para um fone de ouvido.    |
 |Roteamento de chamadas baseadas em presença  |Controla as comunicações de entrada com presença, permitindo que o usuário bloqueie todas as comunicações de entrada, exceto aquelas especificamente indicadas.   |
 |[Bloco de discagem integrado](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89)  | Permite que os usuários discem por nome ou por número em qualquer lugar da barra de pesquisa e no bloco de discagem, acelerando o processo de fazer chamadas de saída.  |
 |Chamada federada   |Permite que os usuários se conectem, se comuniquem e colaborem com usuários em locatários federados.   |
@@ -73,7 +72,7 @@ Sistema de Telefonia fornece os seguintes recursos. A menos que seja notado de o
 |[Ocupado no Ocupado](teams-calling-policy.md) (somente Teams)  | Uma política de chamada que permite configurar como as chamadas de entrada são tratadas quando um usuário é: <ul><li>em uma chamada </li><li>em uma conferência</li><li>tem uma chamada colocada em espera. </li></ul> O chamador receberá uma das seguintes respostas: <ul><li>ouvir um sinal de ocupado quando o chamador está no telefone</li> <li>será roteado de acordo com as configurações não respondidas do usuário. Uma opção permite que o chamador deixe uma caixa postal para o usuário que já está em uma chamada.</li></ul> O chamador recebe uma notificação de chamada perdida, mas não é capaz de atender chamadas de entrada. Esse recurso está desabilitado por padrão, mas pode ser ligado pelo administrador do locatário.|
 |[Bloqueio de chamada](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permite que os usuários adicionem números de telefone (PSTN) a uma lista bloqueada para que a próxima chamada desse número seja impedida de tocar no usuário.|
 |[Telefones de área comum](set-up-common-area-phones.md)  | Um telefone de área comum normalmente é colocado em uma área como um lobby ou sala de conferência, disponibilizando-o para várias pessoas. Os telefones de área comum são definidos como dispositivos em vez de usuários e podem entrar automaticamente em uma rede.|
-|[Suporte a bypass de mídia](direct-routing-plan-media-bypass.md) (somente Teams roteamento direto)  | Para melhorar o desempenho, a mídia é mantida entre o Controlador de Borda de Sessão (SBC) e o cliente, em vez de enviá-la por meio do Telefone Microsoft System. |
+|[Suporte a bypass de mídia](direct-routing-plan-media-bypass.md) (somente Teams roteamento direto)  | Para melhor desempenho, a mídia é mantida entre o Controlador de Borda de Sessão (SBC) e o cliente, em vez de enviá-la pelo Teams Telefone. |
 
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Disponibilidade em GCC nuvens Alta e DoD
@@ -89,12 +88,11 @@ Os recursos a seguir ainda não estão disponíveis GCC Nuvens Altas e DoD.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [O que é o Sistema de Telefonia](what-is-phone-system-in-office-365.md)
+- [O que é Teams Telefone](what-is-phone-system-in-office-365.md)
 - [Voz na nuvem no Microsoft Teams](cloud-voice-landing-page.md)
-- [Configurar o Sistema de Telefonia](setting-up-your-phone-system.md)
+- [Configurar Teams Telefone](setting-up-your-phone-system.md)
 - [Qual plano de chamadas é ideal para você?](calling-plan-landing-page.md)
-- [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Monitorar e gerenciar a qualidade da chamada](monitor-call-quality-qos.md)
 - [Licenciamento do complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Preços do sistema telefônico](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Preços para Teams Telefone](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams infraestrutura de área de trabalho virtualizada com chamada e reuniões](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
