@@ -675,6 +675,12 @@ items:
             href: audio-conferencing-common-questions.md
           - name: Experimente ou compre a Audioconferência do Microsoft 365
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: Conferência de Conexão do Operador
+            items:
+              - name: Visão Geral
+                href: operator-connect-conferencing-plan.md
+              - name: Configurar a Conferência de Conexão do Operador
+                href: operator-connect-conferencing-configure.md
           - name: Minutos de chamada de saída estendidos para os EUA e Canadá
             href: dial-out-minutes-canada-us.md
           - name: Período de Discagem Gratuita da Audioconferência
@@ -843,17 +849,17 @@ items:
                 href: rooms/xml-config-file.md
               - name: Usar a ferramenta de recuperação
                 href: rooms/recovery-tool.md
-  - name: Voz - Conectividade PSTN e Sistema de Telefonia
+  - name: Voz - Conectividade PSTN e de Telefonia do Microsoft Teams
     items:
       - name: Planejar sua solução de voz do Teams
         href: cloud-voice-landing-page.md
-      - name: Sistema de Telefonia
+      - name: Telefonia do Teams
         items:
-          - name: O que é o Sistema de Telefonia
+          - name: O que é a Telefonia do Teams
             href: what-is-phone-system-in-office-365.md
-          - name: Veja o que você obtém com o Sistema de Telefonia
+          - name: Aqui está o que você ganha com a Telefonia do Microsoft Teams
             href: here-s-what-you-get-with-phone-system.md
-          - name: '- Configurar o Sistema de Telefonia'
+          - name: Configurar a Telefonia do Teams
             href: setting-up-your-phone-system.md
           - name: Configurar telefones de área comuns
             href: set-up-common-area-phones.md
@@ -1087,7 +1093,7 @@ items:
             href: voice-case-study-overview.md
           - name: Plano de atualização Teams
             href: voice-case-study-migration-plan.md
-          - name: Sistema de Telefonia
+          - name: Telefonia do Teams
             href: voice-case-study-phone-system.md
           - name: Roteamento com Base na Localização
             href: voice-case-study-location-based-routing.md
@@ -1614,6 +1620,10 @@ items:
             href: teams-add-on-licensing/pri-message.md
           - name: Sistema de Telefonia do Microsoft 365 – licença de Usuário Virtual
             href: teams-add-on-licensing/virtual-user.md
+          - name: Comece a usar o Teams Essentials
+            href: get-started-with-teams-essentials.md
+          - name: Conecte o Teams Essentials (Identidade do AAD) ao email
+            href: connect-teams-essentials-to-email.md
       - name: Interoperabilidade com o Microsoft 365 e o Office 365
         items:
           - name: Grupos do Microsoft 365 e o Teams
