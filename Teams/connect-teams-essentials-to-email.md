@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d113446971375ace51335a6654c8599f8d2c35b
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 682f7bcd4e90e96534e954cd0e22c6f5952db08b
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257493"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284789"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Conexão Microsoft Teams Essentials (AAD Identidade) para um sistema de email existente com calendário
 
@@ -285,7 +285,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 *Desabilitar Outlook na Web caixas de correio*
 
-1. Siga as instruções em [Disable Outlook na Web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app&preserve-view=true) to disable Outlook na Web for mailboxes.
+1. Siga as instruções em [Habilitar](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) ou desabilitar Outlook na Web uma caixa de correio em Exchange Online desabilitar Outlook na Web caixas de correio.
 
 2. Você pode desabilitar Outlook na Web usando o **Centro de Administração Exchange ou** o **PowerShell**. Você pode usar o exemplo a seguir do PowerShell para desabilitar Outlook na Web todas as caixas de correio:
 

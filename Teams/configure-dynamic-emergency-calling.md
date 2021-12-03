@@ -18,12 +18,12 @@ description: Saiba como configurar os Planos de Chamadas da Microsoft e Sistema 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a243d8d2cf0447bbad78a4b1644fb9e3f1120ea
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: a9df546e694fa3dcbdabae8454eeb5a6f7cba6a7
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465831"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284719"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -94,7 +94,8 @@ Os clientes a seguir têm suporte no momento.  Verifique novamente com frequênc
 > Os locais baseados em Sub-rede e WiFi são suportados em todos os Teams clientes. <br>
 > Ethernet/Switch (LLDP) é suportado em:
 > - Windows versões 8.1 e posteriores neste momento.<br>
-> - Mac OS, que requer [software de habilitar LLDP.](https://www.microsoft.com/download/details.aspx?id=103383)
+> - Mac OS, que requer [software de habilitar LLDP.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
+> - Teams telefone com Teams versão 1449/1.0.94.202111010101 e posterior.
 
 ## <a name="assign-emergency-addresses"></a>Atribuir endereços de emergência
 

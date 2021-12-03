@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d607a2ea0469ce3b88411bfe17ca8d54b76c7cc0
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 97f45330404f6a42c4293e4205e82dc7188d4b9e
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055432"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284729"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -70,7 +70,7 @@ As aprovações criadas a partir de um modelo ainda armazenam dados em CDS, como
 >[!Note]
 >Se você excluir o modelo de formulário no site do Microsoft Forms, ele quebrará seu modelo de Aprovação e os usuários não poderão iniciar a solicitação. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo de Aprovação que foi excluído no Microsoft Forms.
 
-Os modelos de aprovação são armazenados no Substrate Data Armazenamento (SDS), que é uma plataforma de armazenamento compatível usada internamente apenas dentro da Microsoft. Os modelos de escopo da organização são armazenados em "fragmento de locatário" do SDS, e os modelos com escopo de equipe são armazenados em "fragmentos de grupo" do SDS. Isso significa que os modelos com escopo organizacional compartilham o mesmo tempo de vida dos modelos de locatário e de equipe compartilham o mesmo tempo de vida da equipe. Portanto, excluir permanentemente a equipe exclui os modelos relacionados.
+Modelos de escopo organizacional compartilham o mesmo tempo de vida dos modelos de locatário e de equipe compartilham o mesmo tempo de vida da equipe. Portanto, excluir permanentemente a equipe exclui os modelos relacionados.
 
 ## <a name="approvals-teams-app-permissions"></a>Permissões do aplicativo Aprovações do Teams
 
@@ -120,7 +120,7 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
   5. Selecione o alternância para desabilitar o aplicativo em sua organização.
 
-     ![mostra os detalhes do aplicativo Aprovações.](media/approvals-details-new.png)
+     :::image type="content" alt-text="mostra os detalhes do aplicativo Aprovações." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="retention-policy"></a>Política de retenção
 
