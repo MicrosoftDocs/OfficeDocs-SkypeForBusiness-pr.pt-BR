@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre os requisitos de suporte Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e exibições.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a96fd2ee05b60a8147574678bc2afed89ad5be2d
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 8524f1481c98425e726f902a76ce82ce536ed419
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959920"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306126"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -28,15 +28,14 @@ Salas do Microsoft Teams dimensionar para tamanhos de sala diferentes. Salas do 
 
 Este artigo resume a implantação e os requisitos de configuração do dispositivo para dar suporte às Salas do Microsoft Teams.
 
-Sua implantação envolve a criação de contas conforme descrito em [Implantar Salas do Microsoft Teams](rooms-deploy.md) e a configuração dos consoles de reunião conforme descrito em [Configurar um console de Salas do Microsoft Teams](console.md).
+Sua implantação envolve a criação e a instalação de contas de recursos Salas do Teams conforme descrito em [Deploy Salas do Microsoft Teams](rooms-deploy.md).
 
 Consulte:
 
-- [Licenciamento do complemento Skype for Business](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Opções de licença baseadas em seu plano: Salas do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Opções de licença baseadas em seu plano: Salas do Microsoft Teams](rooms-licensing.md)
 
 > [!NOTE]
-> As Salas do Microsoft Teams entram no Microsoft Teams, no Skype for Business Server 2019, no Skype for Business Server 2015 ou no Skype for Business Online, e podem participar de reuniões hospedadas por qualquer um desses serviços.
+> Salas do Microsoft Teams entre no Microsoft Teams, Skype for Business Server 2019 ou Skype for Business Server 2015 e pode ingressar em reuniões hospedadas por qualquer um desses serviços.
 >
 > As plataformas anteriores, como o Lync Server 2013, não são compatíveis com as Salas do Microsoft Teams. Salas do Microsoft Teams é suportado em ambientes Microsoft 365 ou Office 365 operados pela 21Vianet ou pelo DoD.
 >
@@ -201,11 +200,11 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 
 #### <a name="usb-extenders"></a>Extensores USB
 
-- As portas USB em docking stations são compatíveis com USB 3.0. Você pode usar um extensor USB 2.x, mas isso limita as velocidades do USB 2.x na extremidade oposta. Os extensores não são recomendados para periféricos USB 3.0.
+- As portas USB em docking stations são compatíveis com USB 3.0. Você pode usar um extensor USB 2.x, mas estará limitado a velocidades USB 2.x na extremidade extrema. Os extensores não são recomendados para periféricos USB 3.0.
 - Um extensor deve atender a especificações USB 2,0 ou mais recentes.
   - As estações para tablet suportam pelo menos dois estágios da extensão do hub USB externo. Se você conectar mais de dois hubs USB na série, verifique com o fabricante da estação se eles são compatíveis com a conexão de série.
   - Conexão GbE com fio na sala. Cabo Ethernet de comprimento adequado.
-  - Até dois monitores de 1080 p com conexões HDMI. Cabos HDMI de comprimento adequado.
+  - Até duas exibições de 1080p com conexões HDMI. Cabos HDMI de comprimento adequado.
 
 > [!NOTE]
 > A TV usada em uma sala de exibição precisa suportar/habilitar o recurso CEC (Controle Eletrônico do Consumidor) do HDMI para que possa alternar automaticamente do modo de espera para uma fonte de vídeo ativa.  Esse recurso não é suportado em todas as TVs.
@@ -235,14 +234,6 @@ A tabela a seguir fornece recomendações de periféricos de acordo com o tamanh
  > [!NOTE]
  > A resolução de tela frontal não deve ser definida como menor do que 1920x1080p.
 
-## <a name="required-software-downloads"></a>Downloads de software necessários
-
-Para criar sua própria imagem de Salas do Microsoft Teams, siga as instruções em [Configurar um console de Salas do Microsoft Teams](console.md). Essas instruções orientarão você durante o download de todo o software necessário para a instalação.
-
-> [!NOTE]
-> Os profissionais de TI precisarão acessar os arquivos ISO do Windows 10 Enterprise por meio de um contrato de licenciamento por volume.
-
-[SkypeRoomProvisioningScript ps1](https://go.microsoft.com/fwlink/?linkid=870105) é um download opcional que você pode usar para provisionar contas das Salas do Microsoft Teams.
 
 ## <a name="see-also"></a>Confira também
 
@@ -255,5 +246,3 @@ Para criar sua própria imagem de Salas do Microsoft Teams, siga as instruções
 [Configurar um console de Salas do Microsoft Teams](console.md)
 
 [Gerenciar Salas do Microsoft Teams](rooms-manage.md)
-
-[Licenciamento do complemento Skype for Business](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

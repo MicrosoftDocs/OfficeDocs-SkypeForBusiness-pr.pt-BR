@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com Sistema de Telefonia Roteamento Direto, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35d67f2547011d15fe7d72ab99a34ca507394f7a
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 1fb9eff518232f53868752a297775369af13713a
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013125"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306326"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -84,7 +84,7 @@ O seguinte descreve o fluxo de chamada se o usuário não tiver acesso ao endere
 
 Por exemplo, suponha que o usuário seja externo e o administrador do locatário decidiu não abrir o endereço IP público do SBC para todos na Internet, mas apenas para o Microsoft Cloud. Os componentes internos do tráfego podem fluir por meio do Teams Retransmissão de Transporte. Considere o seguinte:
 
-- Teams Retransmissão de transporte são usadas.
+- Teams retransmissão de transporte são usadas.
 
 - Para bypass de mídia, a Microsoft usa uma versão de Retransmissão de Transporte que requer a abertura de portas 50 000 a 59 999 entre retransmissão de transporte Teams e o SBC (no futuro, planejamos mover para a versão que exige portas 3478-3481).
 
@@ -162,7 +162,7 @@ Os intervalos de IP são:
 
 ### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Uso de Teams processadores de mídia se o tronco estiver configurado para bypass de mídia
 
-Teams Processadores de mídia são sempre inseridos no caminho da mídia nos seguintes cenários:
+Teams processadores de mídia são sempre inseridos no caminho da mídia nos seguintes cenários:
 
 - A chamada é escalonada de 1:1 para uma chamada de grupo
 - A chamada será para um usuário federado Teams usuário
@@ -179,7 +179,7 @@ O Roteamento Direto é oferecido nos seguintes Microsoft 365 ou Office 365 ambie
 - Microsoft 365 ou Office 365
 - Office 365 GCC
 - Office 365 GCC Alta
-- Office 365 DoD Saiba mais sobre [Office 365 e ambientes](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) do Governo dos EUA, como GCC, GCC Alta e DoD.
+- Office 365 DoD Saiba mais sobre Office 365 e [ambientes](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) do Governo dos EUA, como GCC, GCC Alta e DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 ambientes Office 365 GCC ambientes
 
@@ -202,7 +202,7 @@ Os FQDNs **sip.pstnhub.microsoft.com,** **sip2.pstnhub.microsoft.com** e sip3.ps
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-Você precisa abrir portas para todos esses intervalos DE IP no firewall para permitir o tráfego de entrada e saída dos endereços para sinalização. Se o firewall for compatível com nomes DNS, o FQDN **sip-all.pstnhub.microsoft.com** resolverá todas essas sub-redes IP. 
+Você precisa abrir portas para todos esses intervalos DE IP no firewall para permitir o tráfego de entrada e saída dos endereços para sinalização.
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC ambiente do DoD
 
@@ -257,8 +257,8 @@ O cliente deve ter acesso às portas especificadas (consulte tabela) no endereç
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Cliente | SBC | 3478-3481 e 49152 – 53247| Definido no SBC |
-| UDP/SRTP | SBC | Cliente | Definido no SBC | 3478-3481 e 49152 – 53247  |
+| UDP/SRTP | Cliente | SBC | 3478-3481 e portas configuradas pelo administrador de locatários para o cliente (o padrão é 50000-50020)| Definido no SBC |
+| UDP/SRTP | SBC | Cliente | Definido no SBC | 3478-3481 e portas configuradas pelo administrador de locatários para o cliente (o padrão é 50000-50020)  |
 
 
 > [!NOTE]

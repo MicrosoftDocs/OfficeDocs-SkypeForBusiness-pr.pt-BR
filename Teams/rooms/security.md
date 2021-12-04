@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Saiba como proteger seus dispositivos Salas do Microsoft Teams segurança.
-ms.openlocfilehash: ff5d79b02669f8b3da71396c2bd1eb2348575cf3
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 7043b49406b0865ef38108519040374d792ac1dd
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824579"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306106"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Salas do Microsoft Teams Segurança
 
@@ -82,12 +82,15 @@ A conta de administrador não é necessária para a operação adequada de dispo
 
 Você também pode importar contas de domínio para o grupo Windows Administrador local. Você pode fazer isso para contas do Azure AD usando o Intune. Para obter mais informações, consulte [CSP de política – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
+> [!NOTE]
+> Se você estiver usando consoles Crestron, certifique-se de também atualizar a senha de Administrador no console, bem como no módulo de computação. Para obter mais informações, contate Crestron.
+
 > [!CAUTION]
 > Se você excluir ou desabilitar a conta de administrador antes de conceder permissões de Administrador local a outra conta local ou de domínio, poderá perder a capacidade de administrar o dispositivo Salas do Teams local. Se isso acontecer, você precisará redefinir o dispositivo de volta para suas configurações originais e concluir o processo de instalação novamente.
->
-> Não conceda permissões de administrador local à conta Skype usuário.
 
-Windows O Designer de Configuração pode ser usado para criar Windows 10 de provisionamento. Além de alterar a senha de administrador local, você também pode fazer coisas como alterar o nome do computador e se registrar em Azure Active Directory. Para obter mais informações sobre como criar um Windows de provisionamento do Designer de Configuração, consulte [Provisionamento de pacotes para Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
+Não conceda permissões de administrador local à conta Skype usuário.
+
+Windows Designer de Configuração pode ser usado para criar Windows 10 de provisionamento. Além de alterar a senha de administrador local, você também pode fazer coisas como alterar o nome do computador e se registrar em Azure Active Directory. Para obter mais informações sobre como criar um Windows de provisionamento do Designer de Configuração, consulte [Provisionamento de pacotes para Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
 
 Você precisa criar uma conta de recurso para cada dispositivo Salas do Teams para que ele possa entrar Teams. Não é possível usar a autenticação de dois fatores ou multifações com essa conta. Exigir um segundo fator impediria que a conta fosse capaz de entrar automaticamente no aplicativo Salas do Teams após uma reinicialização. No entanto, você pode habilitar a Autenticação Moderna para obter segurança adicional para essa conta. Além disso, as políticas de Acesso Condicional baseadas em local podem ser implantadas para a conta de recurso para impedir a entrada na conta de um local não aprovado. Para obter mais informações, consulte [Using the location condition in a Conditional Access policy](/azure/active-directory/conditional-access/location-condition)
 

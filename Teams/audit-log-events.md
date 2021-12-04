@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5c57cc859c3a30040b4874579157a714600156a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: d5fc206b9869106be7dd60541d5299ffefb036ae
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959830"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306336"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -66,7 +66,7 @@ O período de tempo em que um registro de auditoria é mantido e pesquisável no
 
 Aqui estão dicas para pesquisar Teams atividades no log de auditoria.
 
-![Captura de tela da página de pesquisa de log de auditoria no centro de conformidade](media/audit-log-search-page.png)
+:::image type="content" alt-text="Captura de tela da página de pesquisa de log de auditoria no centro de conformidade" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
 
 - Você pode selecionar atividades específicas para pesquisar clicando na caixa de seleção ao lado de uma ou mais atividades. Se uma atividade estiver selecionada, você poderá clicar nele para cancelar a seleção. Você também pode usar a caixa de pesquisa para exibir as atividades que contêm a palavra-chave que você digita.
 
@@ -89,8 +89,8 @@ Aqui está uma lista de todos os eventos que estão registrados para atividades 
 |Bot adicionado à equipe   |BotAddedToTeam        |Um usuário adiciona um bot a uma equipe.        |
 |Canal adicionado   |ChannelAdded         |Um usuário adiciona um canal a uma equipe.         |
 |Conector adicionado  |ConnectorAdded          |Um usuário adiciona um conector a um canal.        |
-|Adicionados detalhes sobre Teams reunião|MeetingDetail|Teams informações sobre uma reunião, incluindo a hora de início, a hora de término e a URL para ingressar na reunião.|
-|Adicionadas informações sobre participantes da reunião|MeetingParticipantDetail|Teams informações sobre os participantes de uma reunião, incluindo a ID do usuário de cada participante, a hora em que um participante ingressou na reunião e a hora em que um participante saiu da reunião.|
+|Adicionados detalhes sobre Teams reunião <sup>2</sup>|MeetingDetail|Teams informações sobre uma reunião, incluindo a hora de início, a hora de término e a URL para ingressar na reunião.|
+|Adicionadas informações sobre participantes da reunião <sup>2</sup>|MeetingParticipantDetail|Teams informações sobre os participantes de uma reunião, incluindo a ID do usuário de cada participante, a hora em que um participante ingressou na reunião e a hora em que um participante saiu da reunião.|
 |Membros adicionados    |MemberAdded         |Um proprietário de equipe adiciona membros a uma equipe, canal ou chat de grupo.         |
 |Guia Adicionada    |TabAdded         |Um usuário adiciona uma guia a um canal.        |
 |Configuração de canal alterada    |ChannelSettingChanged         |A operação ChannelSettingChanged é registrada quando as atividades a seguir são executadas por um membro da equipe. Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses é exibida na coluna **Item** nos resultados da pesquisa de log de auditoria. <ul><li>Altera o nome de um canal de equipe (**Nome do canal**)</li><li>Altera a descrição de um canal de equipe (**Descrição do canal**)</li> </ul>      |
@@ -191,13 +191,13 @@ Depois de definir uma política de detecção de atividade, ela começa a gerar 
 
 Um cenário em que você pode querer ficar de olho, de uma perspectiva de negócios, é a adição de usuários externos ao seu ambiente Teams ambiente. Se os usuários externos estão habilitados, monitorar sua presença é uma boa ideia.  Você pode usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para identificar possíveis ameaças.
 
-![Política para monitorar a adição de usuários externos.](media/TeamsExternalUserAddPolicy.png)
+:::image type="content" alt-text="Política para monitorar a adição de usuários externos." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
 A captura de tela dessa política para monitorar a adição de usuários externos permite nomear a política, definir a gravidade de acordo com suas necessidades de negócios, defini-la como (nesse caso) uma única atividade e, em seguida, estabelecer os parâmetros que monitorarão especificamente apenas a adição de usuários não internos e limitar essa atividade a Teams.
 
 Os resultados dessa política podem ser exibidos no log de atividades:
 
-![Eventos disparados pela política de usuários externos.](media/TeamsExternalUserList.png)
+:::image type="content" alt-text="Eventos disparados pela política de usuários externos." source="media/TeamsExternalUserList.png" lightbox="media/TeamsExternalUserList.png":::
 
 Aqui você pode revisar as combinações com a política definida e fazer quaisquer ajustes conforme necessário ou exportar os resultados a ser usado em outro lugar.
 
@@ -205,13 +205,13 @@ Aqui você pode revisar as combinações com a política definida e fazer quaisq
 
 Como mencionado anteriormente, você pode monitorar cenários de exclusão. É possível criar uma política que monitore a exclusão em massa de Teams sites. Neste exemplo, uma política baseada em alerta é configurada para detectar a exclusão em massa das equipes em um intervalo de 30 minutos.
 
-![Política mostrando a configuração de uma política para detecção de exclusão de equipe em massa.](media/TeamsMassDeletePolicy.png)
+:::image type="content" alt-text="Política mostrando a configuração de uma política para detecção de exclusão de equipe em massa." source="media/TeamsMassDeletePolicy.png" lightbox="media/TeamsMassDeletePolicy.png":::
 
 Como mostra a captura de tela, você pode definir muitos parâmetros diferentes para essa política para monitorar as exclusões de Teams, incluindo gravidade, ação única ou repetida e parâmetros que limitam isso a Teams e exclusão de site. Isso pode ser feito independentemente de um modelo ou você pode ter um modelo criado para basear essa política, dependendo das suas necessidades organizacionais.
 
 Depois de estabelecer uma política que funcione para sua empresa, você poderá revisar os resultados no log de atividades à medida que os eventos são disparados:
 
-![Eventos de captura de tela disparados por exclusões em massa.](media/TeamsMassDeleteList.png)
+:::image type="content" alt-text="Eventos de captura de tela disparados por exclusões em massa." source="media/TeamsMassDeleteList.png" lightbox="media/TeamsMassDeleteList.png":::
 
 Você pode filtrar até a política definida para ver os resultados dessa política. Se os resultados que você está recebendo no log de atividades não são satisfatórios (talvez você esteja vendo muitos resultados ou nada), isso pode ajudá-lo a ajustar a consulta para torná-la mais relevante para o que você precisa fazer.
 

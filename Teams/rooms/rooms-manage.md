@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre como desenvolver e executar operações e manutenção contínuas para garantir que seus sistemas Salas do Microsoft Teams estão disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 4f326f58bea724dbf1d728955ee1d63b018ba628
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462305"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306286"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gerenciar Salas do Microsoft Teams
 
-Se você tiver Salas do Microsoft Teams certificados em sua organização, terá opções de gerenciamento flexíveis.  Você pode gerenciar os dispositivos por conta própria no mesmo local central onde gerencia todas as soluções Teams, o Centro de Administração do Microsoft Teams ou pode transferir a responsabilidade de gerenciamento para especialistas dedicados usando Salas do Microsoft Teams [Serviços](https://portal.rooms.microsoft.com)Gerenciados.  Você também pode delegar o acesso de gerenciamento a um parceiro de sua escolha para qualquer uma das opções.
+Se você tiver Salas do Microsoft Teams certificados em sua organização, terá opções de gerenciamento flexíveis.  Você pode gerenciar os dispositivos por conta própria no mesmo local central onde gerencia todas as soluções Teams, Microsoft Teams Admin Center. Como alternativa, você pode transferir a responsabilidade de gerenciamento para especialistas dedicados [usando Salas do Microsoft Teams Serviços Gerenciados.](https://portal.rooms.microsoft.com)  Você também pode delegar o acesso de gerenciamento a um parceiro de sua escolha para qualquer uma das opções.
 
 Com Microsoft Teams Admin Center, você pode:
 
@@ -34,12 +34,13 @@ Com Microsoft Teams Admin Center, você pode:
 - Revise a atividade de reunião atual e passada (como detalhes sobre a qualidade da chamada, a saúde da rede e a conectividade e o número de participantes)
 - Consulte periféricos (como câmeras e projetores) conectados a um dispositivo Microsoft Teams Room
 
-Para gerenciar Salas do Teams, abra o centro de administração [Microsoft Teams e](https://admin.teams.microsoft.com) vá para o Teams **Devices**  >  **Salas do Teams**.
+Para gerenciar Salas do Teams dispositivos, abra o centro de administração do Microsoft Teams [e](https://admin.teams.microsoft.com) vá para Teams **Dispositivos**  >  **Salas do Teams no Windows**.
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Salas do Teams de resumo no Teams de administração.":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Salas do Teams de resumo no Teams de administração.":::
+
 
 > [!IMPORTANT]
-> Para gerenciar dispositivos usando o Teams de administração, você precisa ter as funções Administrador Global, Administrador Teams administrador ou Teams de Dispositivo.
+> Para gerenciar dispositivos usando o Teams de administração, você precisa ter as funções administrador global, administrador Teams ou administrador Teams de dispositivo.
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Fazer alterações em Salas do Teams dispositivos
 
@@ -62,7 +63,7 @@ Se você selecionar mais de um dispositivo, as configurações que suportam a ed
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *Conta*                                                    |                                                        |                    |
 | **Email**                                                    | Endereço de email                                          | Não                 |
-| **Modo de reunião com suporte**                                   | Skype for Business (padrão) e Microsoft Teams<br>Skype for Business e Microsoft Teams (padrão)<br>Skype for Business Somente|Sim|
+| **Modo de reunião com suporte**                                   | Skype for Business (padrão) e Microsoft Teams<br>Skype for Business e Microsoft Teams (padrão)<br>Skype for Business somente|Sim|
 | **Autenticação moderna**                                    | Habilitado<br>Desabilitado                                              | Sim                |
 | **Exchange endereço**                                         | Endereço de email                                          | Não                 |
 | **Domínio\nome de usuário (opcional)**                               | Domínio da conta e nome de usuário                           | Não                 |
@@ -169,7 +170,7 @@ Para exibir informações detalhadas sobre um dispositivo, selecione seu nome na
 
 A **guia Atividade** Teams detalhes do dispositivo room mostra informações detalhadas e de alto nível sobre todas as reuniões das que o dispositivo participou ao longo do tempo. Na guia **Atividade,** você pode ver quando uma reunião foi realizada, quantos participantes participaram da reunião e a qualidade do áudio durante a reunião.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Lista de resumos de atividades do dispositivo de sala.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams lista de resumos de atividades do dispositivo de sala.":::
 
 Para ver as informações detalhadas sobre uma reunião específica, selecione a data e a hora da reunião de que você deseja obter mais informações. Se uma reunião tiver apenas dois participantes, você verá a página de detalhes do participante, caso contrário, você verá uma página de resumo do participante.
 
@@ -177,10 +178,10 @@ Para ver as informações detalhadas sobre uma reunião específica, selecione a
 
 A página de resumo do participante mostra todos os participantes que participaram da reunião. Você pode ver quando cada participante ingressou na reunião, seu nome, qualidade de áudio e quais recursos foram usados durante a sessão. Para exibir os detalhes da sessão de um participante, selecione a hora de início da sessão para esse participante.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Detalhes da conferência do dispositivo de sala.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams detalhes da conferência do dispositivo de sala.":::
 
 ##### <a name="participant-details"></a>Detalhes do participante
 
 A página de detalhes do participante mostra informações de diagnóstico de ponta a ponta para a sessão desse participante. Conforme mostrado no gráfico a seguir,  as informações de **Dispositivo,** Sistema e Conectividade são fornecidas para o participante e para o Salas do Teams dispositivo. **Informações** de diagnóstico de rede entre o participante e o Salas do Teams dispositivo também são fornecidas. Selecione o ícone do contexto sobre o qual você deseja obter mais informações. Para obter informações de diagnóstico adicionais, selecione a **guia** Avançado.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Detalhes da chamada do dispositivo de sala.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams detalhes da chamada de dispositivo de sala.":::

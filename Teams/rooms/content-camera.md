@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Use uma câmera de conteúdo em uma Sala do Microsoft Teams, que interage com o software de processamento de imagem para permitir que os apresentadores desenhem em um quadro de comunicações analógico.
-ms.openlocfilehash: 61c0a1a36630fa31190e57de08379d6e80321a34
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 913d7fbc9593c1753c3cb4b59d44a4101e687178
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013155"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306136"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
@@ -33,7 +33,7 @@ Confira o vídeo a seguir para ver exemplos de funcionalidade da câmera de cont
 ## <a name="set-up-a-content-camera"></a>Configurar uma câmera de conteúdo
 
 > [!NOTE]
-> Sempre siga o código de construção de seu país ou região, que pode definir uma distância mínima do piso ou um requisito de que o equipamento montado no teto seja preso a uma viga ou outra estrutura. Siga as instruções de montagem para o hardware fornecido com a câmera que você selecionou. Os kits de montagem de câmera OEM incluem uma câmera, extensores USB 2.0 e o cabeamento necessário.
+> Sempre siga o código de construção de seu país ou região, que pode definir uma distância mínima do piso ou um requisito de que o equipamento montado no teto seja preso a uma viga ou outra estrutura. Siga as instruções de montagem para o hardware fornecido com a câmera que você selecionou. Os kits de montagem da câmera OEM incluem câmera, ampliadores USB 2.0 e cabeamento obrigatório.
 
 O tamanho do quadro de comunicações usado para compartilhamento afeta o posicionamento da câmera. As recomendações de tamanho do quadro são:
 
@@ -54,7 +54,7 @@ Você poderá instalar a câmera até 6 polegadas (152 mm) acima da parte superi
 
 Usando marcadores típicos de quadro de comunicações, o ideal para a experiência de usuário remoto é compartilhar traços de tinta na faixa de 1–2 mm por pixel na imagem da câmera de conteúdo, e os melhores resultados usam 1,5 mm por pixel. Todas as câmeras compatíveis oferecem resolução de 1920 x 1080 e algumas podem exceder essa resolução.
 
-A distância entre a câmera e o quadro de comunicações combina com a resolução da câmera e HFoV para determinar a distância do quadro de comunicações. A tabela a seguir mostra exemplos de distâncias para vários tamanhos de quadro de comunicações. Você pode usar esses valores como pontos de partida para determinar o posicionamento final da câmera de conteúdo.
+A distância da câmera do quadro de trabalho combina com a resolução da câmera e o Campo de Exibição Horizontal (HFoV) para determinar a distância do quadro de trabalho. A tabela a seguir mostra exemplos de distâncias para vários tamanhos de quadro de comunicações. Você pode usar esses valores como pontos de partida para determinar o posicionamento final da câmera de conteúdo.
 
 **Distância da câmera do quadro de comunicações**
 
@@ -72,7 +72,7 @@ A distância entre a câmera de conteúdo e a parede na qual o quadro de comunic
 Se tiver quadros de comunicações maiores que 12 pés (3,65 m) ou sem cantos (como quadros de comunicações inteiros de parede completa), poderá colocar a câmera em qualquer lugar no centro. O software de aprimoramento seleciona uma área no meio se não conseguir localizar os cantos do quadro de comunicações.
 
 > [!NOTE]
-> Você poderá usar fita de cor escura ou outra coisa para criar uma área definida da câmera de conteúdo em um quadro de comunicações de parede completa.
+> Você poderá usar fita de cor escura ou outra coisa para criar uma área definida da câmera de conteúdo em um quadro de comunicações de parede completa. Isso ajuda os participantes na sala a saber quando estão desenhando em uma área sendo capturada pela câmera de conteúdo.
 >
 > Você poderá optar por ter a câmera montada em um tripé móvel em vez de uma montagem permanente. Coloque o tripé centralizado no quadro de comunicações. Esta configuração pode ser temporária ou usada onde houver pouca chance de derrubar o equipamento. Se usar uma montagem temporária, lembre-se de que o aprimoramento do conteúdo será afetado se você mover a câmera após o compartilhamento inicial e precisará compartilhar novamente para corrigir o movimento.
 >
@@ -88,12 +88,12 @@ Ou consulte o marketplace de dispositivos do Microsoft Teams para obter os Kits 
 
 Quando a câmera estiver instalada na sala, configurar-a no console de Salas do Microsoft Teams dessa sala:
 
-1. Selecione **Configurações** ![ Configurações ícone. , ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) faça logoff como Administrador e selecione **Dispositivo Configurações**.
-2. Na seção **Padrões da câmera**, selecione a câmera de conteúdo e certifique-se de que a opção **Aprimoramentos de conteúdo** esteja selecionada.
+1. Selecione **Configurações** ![ Configurações ícone. ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , faça logoff como Administrador e selecione **Periféricos**.
+2. Na seção **Câmera de Conteúdo,** selecione a câmera de conteúdo e certifique-se de que a **opção Aprimoramentos de** conteúdo está selecionada.
 3. (Opcional) Se a câmera foi instalada de cabeça para baixo porque a câmera foi montada no teto, marque a opção **Girar câmera de conteúdo 180°**.
 4. Selecione **Salvar e sair**.
 
-![Configuração da câmera de conteúdo.](../media/content-camera.png)
+![Configuração da câmera de conteúdo.](../media/content-camera1.png)
 
 Você também poderá ajustar essas configurações remotamente usando um [arquivo de configuração XML](xml-config-file.md).
 

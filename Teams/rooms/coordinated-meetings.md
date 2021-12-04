@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Configure Salas do Teams dispositivos e Surface Hub participar de reuniões quando um dispositivo ou outro ingressar em uma reunião.
-ms.openlocfilehash: 21b8dc21b65748754f8a7903bc20cf55bd7c80c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f7aca3d8921d400a5b034c702f1201ee48996bc
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592205"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306166"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurar reuniões coordenadas com Salas do Microsoft Teams e Surface Hub
 
@@ -31,7 +31,7 @@ Para configurar Reuniões Coordenadas, você precisa garantir que seus dispositi
 
 Depois de confirmar que seus dispositivos Salas do Teams e Surface Hubs podem aceitar automaticamente reuniões e jun-las com êxito, você pode configurar Reuniões Coordenadas.
 
-As etapas a seguir devem ser concluídas para cada sala de reunião separadamente. Os dispositivos em uma sala de reunião não devem ser definidos para Reuniões Coordenadas com dispositivos em outras salas de reunião.
+As etapas a seguir devem ser concluídas para cada sala de reunião separadamente.
 
 ## <a name="step-1-plan-your-coordinated-meeting-experience"></a>Etapa 1: Planejar sua experiência de Reunião Coordenada
 
@@ -145,9 +145,9 @@ Para configurar Reuniões Coordenadas em um dispositivo, faça o seguinte:
 
 5. Coloque o arquivo na pasta Salas do Teams do `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` dispositivo. Você pode fazer isso de algumas maneiras:
 
-    - **Copie o arquivo para seu Salas do Teams dispositivo** Você precisará habilitar o compartilhamento de arquivos e criar um compartilhamento de rede antes de copiar arquivos para seu dispositivo. Depois de fazer isso, você pode se conectar ao compartilhamento de rede e copiar o arquivo para o dispositivo. Para obter mais informações, [consulte Salas do Microsoft Teams manutenção e operações](../rooms/rooms-operations.md).
+    - **Copie o arquivo para seu dispositivo Salas do Teams** você precisará habilitar o compartilhamento de arquivos e criar um compartilhamento de rede antes de copiar arquivos para seu dispositivo. Depois de fazer isso, você pode se conectar ao compartilhamento de rede e copiar o arquivo para o dispositivo. Para obter mais informações, [consulte Salas do Microsoft Teams manutenção e operações](../rooms/rooms-operations.md).
     - **Usar uma Política de Grupo** Crie uma política de grupo para copiar o arquivo para o dispositivo. Para obter mais informações, consulte [Visão geral da Política de Grupo.](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))
-    - **Baixe o arquivo no Salas do Teams dispositivo** Você pode fazer logoff no dispositivo usando o modo Admin e, em seguida, copiar o arquivo para o dispositivo de um compartilhamento de rede ou unidade USB. Para obter mais informações, consulte [Alternando para o modo De administração](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
+    - **Baixe o arquivo no dispositivo Salas do Teams** Você pode fazer logoff no dispositivo usando o modo Admin e, em seguida, copiar o arquivo para o dispositivo de um compartilhamento de rede ou unidade USB. Para obter mais informações, consulte [Alternando para o modo De administração](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
     
 6. Reinicie o dispositivo. Você pode fazer isso de duas maneiras:
 
@@ -186,7 +186,7 @@ Faça o seguinte para preparar o XML para Windows Configuration Designer ou Micr
 
 3. Certifique-se de alterar `TrustedAccounts` para sua lista de UPNs.
 
-4. Windows O Designer de Configuração exige que o XML seja em uma única linha. Remova todas as quebras de linha entre cada linha para que o XML se pareça com o seguinte:
+4. Windows Designer de Configuração exige que o XML seja em uma única linha. Remova todas as quebras de linha entre cada linha para que o XML se pareça com o seguinte:
 
     ```xml
     <SurfaceHubSettings><BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>...
