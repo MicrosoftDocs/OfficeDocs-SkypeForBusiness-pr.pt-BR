@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db828fba03cfa4c05bef16d9f1b3ec2b50dbc4af
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
+ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314240"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327299"
 ---
 # <a name="configure-sip-gateway"></a>Configurar Gateway SIP
 
@@ -80,7 +80,7 @@ Este artigo também descreve como:
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>Verifique se o Gateway SIP está disponível para sua organização
 
-1. Entre no centro de [administração Teams.](https://admin-teams.microsoft.net/)
+1. Entre no centro de [administração Teams.](https://admin-teams.microsoft.com/)
 
 2. À esquerda, selecione Teams **dispositivos** e veja se a guia **Dispositivos SIP** está visível. Se estiver, o serviço gateway SIP será habilitado para sua organização.
 
@@ -92,7 +92,7 @@ Você pode habilitar o Gateway SIP para sua organização de duas maneiras: usan
 
 Para habilitar o Gateway SIP no Teams de administração, siga estas etapas:
 
-1. Vá para o Teams [de administração](https://admin.teams.microsoft.net/)
+1. Vá para o Teams [de administração](https://admin.teams.microsoft.com/)
 
 2. À esquerda, em **Voz**, selecione **Políticas de chamada.**
 
@@ -254,7 +254,7 @@ Para assinar um dispositivo no Teams de administração:
 
 Você pode exibir e monitorar o inventário de dispositivo SIP no centro de administração Teams depois que os usuários dos dispositivos entrarem pelo menos uma vez. Veja como:
 
-1. Faça logoff no [Teams de administração.](https://admin.teams.microsoft.net/)
+1. Faça logoff no [Teams de administração.](https://admin.teams.microsoft.com/)
 
 2. Selecione **Teams dispositivos**  >  **SIP**. Todos os dispositivos SIP conectados estão listados à direita.
 
