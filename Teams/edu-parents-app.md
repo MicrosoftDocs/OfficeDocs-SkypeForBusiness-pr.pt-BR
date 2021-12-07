@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
-ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
+ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
+ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61245553"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61322983"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Implantando o aplicativo Pais em Microsoft Teams
 
@@ -33,7 +33,7 @@ O aplicativo Pais ajuda os educadores a se conectarem e se envolverem com os pai
 ### <a name="school-data-sync"></a>School Data Sync
 
 - Você precisa School Data Sync (SDS) para preencher as informações de contato relacionadas ao pai e ao tutor **de** cada aluno.
-  - [Implantar SDS](/schooldatasync/how-to-deploy-sds-using-sds-v2.1-csv-files)
+  - [Implantar SDS](/schooldatasync/parent-contact-sync)
 
 - Se você precisar de ajuda para configurar o  SDS e preencher contatos relacionados a pais e responsáveis para os alunos em seu locatário, entre em contato com a equipe de Sucesso do Cliente EDU:
   - Concluindo o processo RFA em [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
@@ -42,7 +42,7 @@ O aplicativo Pais ajuda os educadores a se conectarem e se envolverem com os pai
 ### <a name="teams-admin-center---policies"></a>Teams Admin Center - Políticas
 
 - Os proprietários da equipe de classe devem Teams chat habilitado.
-- Os proprietários da equipe de classe devem ter acesso **externo Teams contas não gerenciadas por uma organização** habilitada. 
+- Os proprietários da equipe de classe devem ter acesso **externo Teams contas não gerenciadas por uma organização** habilitada.
   - Isso deve ser habilitado no nível do locatário e no nível do usuário. A configuração de nível de locatário pode ser encontrada em **Usuários > Acesso** Externo no Teams Admin Center. Essa configuração também pode ser acessada por meio do PowerShell. As políticas de acesso externo no nível do usuário só podem ser acessadas por meio do PowerShell. Consulte os comandos do PowerShell abaixo para obter mais orientações.
 
 ## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Habilitando o acesso externo com Teams contas não gerenciadas por uma organização
@@ -68,10 +68,13 @@ Para verificar quais políticas de acesso externo no nível do usuário existem 
 3. Verifique quais políticas de acesso externo no nível do usuário existem.
 
     ```powershell
-    Get-CsExternalAccessPolicy -Include All
+    Get-CsExternalAccessPolicy
     ```
 
-4. Para cada política diferente da política "Global", verifique quais usuários têm a política atribuída. Observação: todos os usuários que não têm uma política específica atribuída retornarão à política "Global". Todos os novos usuários adicionados ao locatário terão a política "Global" atribuída.
+4. Para cada política diferente da política "Global", verifique quais usuários têm a política atribuída.
+
+   > [!NOTE]
+   > Todos os usuários que não têm uma política específica atribuída retornarão à política "Global". Todos os novos usuários adicionados ao locatário terão a política "Global" atribuída.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
