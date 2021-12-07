@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -583,7 +583,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -711,7 +711,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -1195,7 +1195,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: 'Chile '
+              - name: Chile
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1643,7 +1643,9 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Como o Microsoft Office SharePoint Online e o Microsoft OneDrive for Business for Business interagem com o Teams
             href: sharepoint-onedrive-interact.md
-      - name: Dispositivos suportados
+      - name: Dispositivos do Teams para a Educação
+        href: devices-for-education.md
+      - name: Dispositivos
         items:
           - name: Gerenciar seus dispositivos no Teams
             href: devices/device-management.md
@@ -1681,6 +1683,12 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Dispositivos certificados pelo Teams
             href: devices/teams-ip-phones.md
+          - name: Gateway SIP
+            items:
+              - name: Planejar o Gateway SIP
+                href: sip-gateway-plan.md
+              - name: Configurar o Gateway SIP
+                href: sip-gateway-configure.md
           - name: Telefones para o Skype for Business Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Alerta e monitoramento do Teams
