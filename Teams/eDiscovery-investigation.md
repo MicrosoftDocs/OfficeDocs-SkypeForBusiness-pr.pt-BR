@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6fd0a7b8108ef0c8d56a814558ae0bd055dc8ef5
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356479"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331122"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -45,26 +45,26 @@ Nem todo Teams conteúdo é eDiscoverable. A tabela a seguir mostra os tipos de 
 |Trechos de código | Não | |
 |Mensagens editadas | Sim | Se o usuário estiver em espera, versões anteriores de mensagens editadas também serão preservadas. |
 |Emojis, GIFs e adesivos | Sim | |
+|Notificações de feed | Não | |
 |Imagens em linha | Sim | |
 |Conversas de IM de Reunião | Sim | |
 |Metadados<sup>de reunião 1</sup> | Sim |  |
-|Nome do canal | Não | |
+|Nome do canal | Sim | |
 |Mensagens de canal privado | Sim | |
 |Aspas | Sim | O conteúdo cotado é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi citado. |
 |Reações (como likes, hearts e outras reações) | Não | |
 |Assunto | Sim | |
 |Tabelas | Sim | |
-|Notificações de feed | Não | |
 |||
 
 <sup>1</sup> Os metadados de reunião (e de chamada) incluem o seguinte:
 
 - Hora de início e término da reunião e duração
 - Eventos de participação e saída de reunião para cada participante
-- Junção/chamadas VOIP
-- Junção anônima
-- Junção de usuário federado
-- Participação do usuário convidado
+- Junções/chamadas VOIP
+- Insições anônimas
+- Inserções de usuário federado
+- Insições de usuário convidado
 
   A imagem mostra um exemplo de metadados de reunião.
 
@@ -160,7 +160,7 @@ Para pesquisar conteúdo para usuários convidados:
    > [!TIP]
    > Em vez de exibir uma lista de nomes principais do usuário na tela do computador, você pode redirecionar a saída do comando para um arquivo de texto. Você pode fazer isso de acordo `> filename.txt` com o comando anterior. O arquivo de texto com os nomes principais do usuário será salvo na pasta atual.
 
-3. Em uma janela Windows PowerShell, conecte-se ao Centro de Conformidade e Segurança & PowerShell. Para obter instruções, [consulte Conexão Segurança & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). Você pode se conectar ou sem usar a autenticação multifa factor.
+3. Em uma janela Windows PowerShell, conecte-se ao Centro de Conformidade e Segurança & PowerShell. Para obter instruções, [consulte Conexão Segurança & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). Você pode se conectar ou sem usar a autenticação multifator.
 
 4. Crie uma pesquisa de conteúdo que pesquise todo o conteúdo (como mensagens de chat e mensagens de email) na qual o usuário convidado especificado era um participante executando o comando a seguir.
 

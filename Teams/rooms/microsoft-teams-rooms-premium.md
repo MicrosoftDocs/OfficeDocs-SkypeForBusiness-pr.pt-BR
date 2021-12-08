@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o Salas do Microsoft Teams gerenciado.
 f1keywords: ''
-ms.openlocfilehash: 7584011b3fc2f20318801b33e2be87f0f0cfe83e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2c0131f76146c27e259198baca826cedaddc6426
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012735"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331102"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas do Microsoft Teams serviço gerenciado
 
@@ -31,6 +31,25 @@ O Salas do Microsoft Teams gerenciado é um serviço de gerenciamento e monitora
 O Salas do Microsoft Teams gerenciado é para organizações que procuram melhorar sua experiência de sala de reunião e dimensionar rapidamente seu espaço, oferecendo gerenciamento proativo para dispositivos Salas do Microsoft Teams de reunião. O serviço permite que as organizações economizem tempo, dinheiro e experiência que, de outra forma, seriam gastos no gerenciamento de sala "faça você mesmo".  
 
 O Salas do Microsoft Teams gerenciado é criado com base em uma base forte da experiência da Microsoft no gerenciamento habilitado para software de pontos de extremidade, aprendizado de máquina e automação inteligente. O Salas do Microsoft Teams serviço gerenciado ajuda as organizações a oferecer uma experiência de alta qualidade em vários sites remotos e pode acomodar qualquer ritmo de crescimento que uma organização possa exigir.
+
+Estes são três aspectos principais do serviço:  
+
+- Operações inteligentes  
+
+   Aprendizado de software e máquina que automatiza atualizações, detecção de problemas, resolução de problemas para Salas do Microsoft Teams.  
+
+
+
+- Especialistas dedicados  
+
+   Uma equipe de especialistas que fornece operações de serviço 24x7, suporte hierárxo e assistência para resolução de incidentes.  
+
+
+
+- Insights aprimorados  
+
+   Análises avançadas, relatórios e aprendizados comprovados em escala em vários clientes.  
+
 
 ## <a name="service-capabilities"></a>Recursos de serviço
 

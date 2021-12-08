@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 ms.custom: ''
 description: 'Resumo: saiba como migrar as configurações do usuário e mover os usuários para Teams.'
-ms.openlocfilehash: 370b9ba170362168a421377ab2af56c96016271d
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 1e31ec999f15072ae46e96232360d85eb12153a9
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887189"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331082"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Migrar usuários de um ambiente local para o Teams
 
@@ -49,7 +49,9 @@ Antes de mover qualquer usuário, revise os [pré-requisitos](move-users-between
 > O Armazenamento de Contatos Unificados deve ser desabilitado na conta SfB no momento para que o contato seja movido para Teams.
 
 > [!IMPORTANT]
->Ao mover um usuário do local para a nuvem com o Move-CsUser, os usuários agora são atribuídos automaticamente ao modo TeamsOnly e suas reuniões no local são automaticamente convertidas em reuniões Teams, independentemente de a opção ser `-MoveToTeams` realmente especificada. (Isso inclui migrações do Lync Server 2013, que nunca tiveram a `-MoveToTeams` opção.)  Anteriormente, se essa opção não foi especificada, os usuários mudaram de Skype for Business Server local para o Skype for Business Online, e seu modo permaneceu inalterado. Isso foi alterado recentemente na preparação para a aposentadoria do Skype for Business Online.
+>
+> - Ao mover um usuário do local para a nuvem com o Move-CsUser, os usuários agora são atribuídos automaticamente ao modo TeamsOnly e suas reuniões no local são automaticamente convertidas em reuniões Teams, independentemente de a opção ser `-MoveToTeams` realmente especificada. (Isso inclui migrações do Lync Server 2013, que nunca tiveram a `-MoveToTeams` opção.)  Anteriormente, se essa opção não foi especificada, os usuários mudaram de Skype for Business Server local para o Skype for Business Online, e seu modo permaneceu inalterado. Isso foi alterado recentemente na preparação para a aposentadoria do Skype for Business Online.
+> - Mover usuários entre sua implantação local e Teams agora *requer* o protocolo de autenticação OAuth. Anteriormente, o OAuth era recomendado, mas não era necessário.  Skype for Business Server 2019 e Skype for Business Server 2015 CU12 (KB 3061064) já exigem OAuth. Se você estiver usando o Skype for Business Server 2015 com CU8 até CU11, deverá passar a opção, o que garante a autenticação do código local usando o OAuth ou, preferencialmente, a atualização para `-UseOAuth` CU12. Se você estiver usando uma versão do Skype for Business Server 2015 antes da CU8, será necessário atualizar para CU12 ou posterior.  Se você estiver usando o Lync Server 2013, primeiro será necessário atualizar para o Lync Server 2013 Cumulative Update 10 Hotfix 5 (KB 2809243) ou posterior.
 
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Mover um usuário diretamente do Skype for Business local para o Teams Only
@@ -67,6 +69,7 @@ Move-CsUser está disponível em uma janela local do Shell de Gerenciamento Skyp
 - `-Target`Especifique o parâmetro com o valor "sipfed.online.lync. <span> com".
 - Se você não tiver uma conta com permissões suficientes no local e no serviço de nuvem (Microsoft 365), use o parâmetro para fornecer uma conta com permissões suficientes `-credential` Microsoft 365.
 - Se a conta com permissões em Microsoft 365 não terminar em "onmicrosoft. <span> com", você deve especificar o `-HostedMigrationOverrideUrl` parâmetro, com o valor correto conforme descrito em [Credenciais administrativas necessárias.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
+- Verifique se o computador que executa as ferramentas de administração local está usando a cu mais recente para sua versão do Skype for Business Server ou do Lync Server 2013, para garantir que o OAuth seja usado para autenticação. 
 
 A sequência de cmdlets a seguir pode ser usada para mover um usuário para o TeamsOnly e supõe que a credencial Microsoft 365 é uma conta separada e fornecida como entrada para o prompt Get-Credential. O comportamento é o mesmo se `-MoveToTeams` a opção é especificada ou não.
 
@@ -80,7 +83,7 @@ A sequência de cmdlets a seguir pode ser usada para mover um usuário para o Te
 > Como há circunstâncias diferentes que exigem parâmetros diferentes, o comando padrão para a maioria dos casos é:
 
 ```powershell
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOAuth -HostedMigrationOverrideUrl $url
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -HostedMigrationOverrideUrl $url
 ```
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Mover para o Teams usando Skype for Business Server Painel de Controle
@@ -97,7 +100,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOA
     
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Notifique Skype for Business usuários locais sobre a próxima movimentação para Teams
 
-As ferramentas de administração locais no Skype for Business Server 2015 com CU8, bem como no Skype for Business Server 2019, permitem que você notifique os usuários locais Skype for Business sobre sua próxima movimentação para Teams. Quando você habilita essas notificações, os usuários verão uma notificação em seu cliente Skype for Business (Win32, Mac, Web e mobile), conforme mostrado abaixo. Se os usuários clicarem no **botão Experimentar,** o Teams cliente será lançado se estiver instalado; caso contrário, os usuários serão navegados para a versão web do Teams em seu navegador. Por padrão, quando as notificações são habilitadas, os clientes do Win32 Skype for Business baixam silenciosamente o cliente Teams para que o cliente rico está disponível antes de mover o usuário para o modo TeamsOnly; no entanto, você também pode desabilitar esse comportamento.  As notificações são configuradas usando a versão local de , e o download silencioso para clientes Win32 é controlado por meio do `TeamsUpgradePolicy` `TeamsUpgradeConfiguration` cmdlet local.
+As ferramentas de administração locais no Skype for Business Server 2015 com CU8, bem como no Skype for Business Server 2019, permitem que você notifique os usuários locais Skype for Business sobre sua próxima movimentação para Teams. Quando você habilita essas notificações, os usuários verão uma notificação em seu cliente Skype for Business (Win32, Mac, Web e mobile), conforme mostrado abaixo. Se os  usuários clicarem no botão Experimentar, o cliente Teams será lançado se estiver instalado; caso contrário, os usuários serão navegados para a versão web do Teams em seu navegador. Por padrão, quando as notificações são habilitadas, os clientes do Win32 Skype for Business baixam silenciosamente o cliente Teams para que o cliente rico está disponível antes de mover o usuário para o modo TeamsOnly; no entanto, você também pode desabilitar esse comportamento.  As notificações são configuradas usando a versão local de , e o download silencioso para clientes Win32 é controlado por meio do `TeamsUpgradePolicy` `TeamsUpgradeConfiguration` cmdlet local.
 
 > [!TIP]
 > Alguns servidores podem precisar reiniciar para que isso funcione Skype for Business 2015 com CU8.

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: 7d70fe3e96c7d06b9457e5d943dc608efc571306
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b8c1c4beb17463dcc7921677529646abf624836c
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257372"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331092"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -167,45 +167,14 @@ O certificado precisa ter o FQDN SBC como o nome comum (CN) ou o campo nome alte
 
 Como alternativa, o Roteamento Direto dá suporte a um curinga no CN e/ou SAN, e o curinga precisa estar em conformidade com o [PADRÃO RFC HTTP Sobre TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Um exemplo seria usar .contoso.com que corresponderia ao \* FQDN SBC sbc.contoso.com, mas não corresponderia ao sbc.test.contoso.com.
 
-O certificado precisa ser gerado por uma das seguintes autoridades de certificado raiz:
+A interface SIP de Roteamento Direto confiará apenas em certificados assinados pelas Autoridades de Certificados (CAs) que fazem parte do Programa de Certificado Raiz Confiável da Microsoft. Certifique-se de que seu certificado SBC seja assinado por uma AC que faz parte do programa e que a extensão uso de chave estendida (EKU) do certificado inclua Autenticação de Servidor.
+Saiba Mais:
 
-- AffirmTrust
-- Raiz de AC externa addTrust
-- Raiz da CyberTrust de Baltimore*
-- Buypass
-- Cybertrust
-- Autoridade de Certificação Primária Pública de Classe 3
-- Comodo Secure Root CA
-- Deutsche Telekom 
-- AC Raiz Global digiCert
-- AC raiz do EV de Alta Garantia digiCert
-- Confia
-- GlobalSign
-- Go Daddy
-- GeoTrust
-- Verisign, Inc. 
-- SSL.com
-- Starfield
-- Symantec Enterprise Raiz Móvel da Microsoft 
-- SwissSign
-- CA de data/hora de descongelar
-- Trustwave
-- TeliaSonera 
-- T-Systems International GmbH (Deutsche Telekom)
-- QuoVadis
-- Autoridade de Certificação RSA USERTrust
-- Hongkong Post Root CA 1,2,3
-- CA raiz do Sectigo
-- Harica  
-
-Para roteamento direto Office 365 ambientes GCCH e DoD, o certificado precisa ser gerado por uma das seguintes autoridades de certificado raiz:
-- AC Raiz Global digiCert
-- AC raiz do EV de Alta Garantia digiCert
+[Requisitos do Programa - Programa Raiz Confiável da Microsoft](/security/trusted-root/program-requirements) 
+ [Lista de certificados de AC incluída](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
 
 > [!NOTE]
 > *Se o suporte a TLS mútuo (MTLS) estiver habilitado para Teams conexão no SBC, você deverá instalar o Certificado Raiz do Baltimore CyberTrust no Armazenamento Raiz Confiável SBC do contexto TLS do Teams. (Isso porque os certificados de serviço da Microsoft usam o certificado raiz de Baltimore.) Para baixar o certificado raiz de Baltimore, consulte [Office 365 Cadeias de criptografia](/microsoft-365/compliance/encryption-office-365-certificate-chains).
-
-A Microsoft está trabalhando na adição de autoridades de certificação adicionais com base em solicitações de clientes. 
 
 ## <a name="sip-signaling-fqdns"></a>Sinalização SIP: FQDNs 
 
