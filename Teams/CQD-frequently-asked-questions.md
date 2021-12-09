@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Leia perguntas frequentes (perguntas frequentes) e respostas sobre Microsoft Teams Painel de Qualidade de Chamada (CQD).
-ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616297"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362538"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Painel de Qualidade de Chamada (CQD) Perguntas frequentes (perguntas frequentes)
 
@@ -43,6 +43,8 @@ ms.locfileid: "58616297"
 [Por que meus relatórios personalizados só retornam no máximo 10.000 linhas quando eu sei que deve haver mais entradas?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [Por que Wi-Fi conexões VPN mostram como Wired em vez de Wi-Fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
+
+[Eu a turned on Policy-based Recording in Teams and now Peer-to-Peer calls are being being marked as Conferences -- what happened?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Por que o CQD marca uma chamada como "Boa" se um ou mais participantes da reunião tiveram uma experiência ruim?
 
@@ -79,8 +81,8 @@ Para calcular a contagem de chamada e as medidas de contagem de usuários, uma o
 
 Essas funções de administrador podem acessar o CQD, mas não podem exibir EUII (informações de identificação do usuário final):
 
-- Microsoft 365 Leitor de relatórios
-- Teams Especialista em Suporte de Comunicações
+- Microsoft 365 Leitor de Relatórios
+- Teams de Suporte de Comunicações
 
 Para saber mais sobre funções que podem acessar o CQD - incluindo EUII - leia [Atribuir funções para acessar CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
@@ -92,17 +94,21 @@ O CQDv2 e o CQDv3 sempre terão contagens totais diferentes, pois o CQDv3 terá 
 
 Dependendo do cenário dos clientes, o CQDv3 incluirá chamadas locais do SFB 2019 (se o SFB 2019 for usado com um conector de dados), chamadas de Bot do Skype (AA, CVI, VDI), Eventos Ao Vivo e chamadas PSTN. Cenários/recursos disponíveis para os clientes, mas seus dados não estão no CQD V2.
 
-Por exemplo, é esperado que seus clientes e você vejam 200.000 fluxos de áudio, com 5.000 falhas no Relatório de Resumo do CQD V2, versus 300.000 fluxos de áudio com 5.500 falhas (provenientes de chamadas 2019 on-prem, chamadas CVI, chamadas PSTN e assim por diante) no CQD V3.
+Por exemplo, é esperado que seus clientes e você vejam 200.000 fluxos de áudio, com 5.000 falhas no Relatório de Resumo do CQD V2, versus 300.000 fluxos de áudio com 5500 falhas (provenientes de chamadas 2019 on-prem, chamadas CVI, chamadas PSTN e assim por diante) no CQD V3.
 
 Para determinar se há diferenças inesperadas, você deve verificar várias repartições dos dados gerais.  Compare com intenção.  Cortar os dados pelo User Agent Category Pair é uma das primeiras coisas que recomendamos.  *O Primeiro Produto* *e o Segundo Produto* também são bons cortadores de dados.  
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>Por que meus relatórios personalizados só retornam no máximo 10.000 linhas quando eu sei que deve haver mais entradas?
 
-O CQD foi projetado para consultas de dados resumidas e não foi projetado para exportação de dados. Recomendamos a reestruturação de seus relatórios, sempre que possível, para evitar que o limite de 10.000 linhas seja excedido. Comece olhando seus KPIs usando dimensões mais amplas e de menor cardinalidade, como Mês, Ano, Data, Região, País, etc. A partir daí, você pode detalhar as dimensões cada vez mais elevadas. O Helpdesk e Location-Enhanced relatórios fornecem bons exemplos desse fluxo de trabalho de detalhamento.
+O CQD foi projetado para consultas de dados resumidas e não foi projetado para exportação de dados. Recomendamos a reestruturação de seus relatórios, sempre que possível, para evitar que o limite de 10.000 linhas seja excedido. Comece olhando seus KPIs usando dimensões mais amplas e de menor cardinalidade, como Mês, Ano, Data, Região, País e assim por diante. A partir daí, você pode detalhar as dimensões cada vez mais elevadas. O Helpdesk e Location-Enhanced relatórios fornecem bons exemplos desse fluxo de trabalho de detalhamento.
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>Por que Wi-Fi conexões VPN mostram como Wired em vez de Wi-Fi?
 
-Isso é esperado. O fornecedor vpn criou um adaptador ethernet virtual que é tratado como uma conexão com fio. Como não está rotulado corretamente, o sistema operacional não sabe que é uma conexão WiFi e a relata como com fio.
+É esse o comportamento esperado. O fornecedor vpn criou um adaptador ethernet virtual que é tratado como uma conexão com fio. Como não está rotulado corretamente, o sistema operacional não sabe que é uma conexão Wi-Fi e relata como com fio.
+
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Eu a turned on Policy-based Recording in Teams and now Peer-to-Peer calls are being being marked as Conferences -- what happened?
+
+Esse é o comportamento esperado quando o Registro baseado em política é habilitado Microsoft Teams. O Registro baseado em política usa um Teams Gravador Bot implantado no Microsoft Azure para capturar o conteúdo da reunião para fins de conformidade. Como um Bot do Gravador é uma parte da chamada, a chamada não é mais ponto a ponto, mas uma chamada de várias partes. As chamadas de várias partes são classificadas como Conferências por Microsoft Teams e, portanto, elas serão indicadas como tal quando você exibir essas chamadas no CQD e em outras ferramentas de qualidade de chamadas.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

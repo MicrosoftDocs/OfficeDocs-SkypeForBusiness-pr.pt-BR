@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 887fd7bf955f5caa76a0dde3b42b96b912f23355
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27050469b03c63b11d36150bc6213b84554d6db7
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829605"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355650"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -239,7 +239,7 @@ As sub-redes IPv4 e IPv6 são suportadas, no entanto, IPv6 tem precedência ao v
 Os seguintes Teams clientes são suportados:
 - Teams clientes da área de trabalho (Windows e Mac)
 - Teams clientes móveis (iOS e Android)
-- Teams Telefones IP
+- Teams IP
 
 Os Teams web e Skype for Business clientes não são suportados.
 
@@ -251,7 +251,9 @@ Location-Based Routing não se aplica aos seguintes tipos de interações. Locat
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based roteamento para conferência
 
-Um Location-Based usuário habilitado para roteamento em uma chamada PSTN não tem permissão para iniciar uma conferência com outro usuário ou número PSTN. A conexão com os atendimentos automáticos ou filas de chamada é permitida. Se o usuário tiver uma licença de conferência, o usuário deverá iniciar uma conferência com os usuários relevantes e chamar a PSTN por meio da ponte de conferência para iniciar uma chamada de conferência.  
+Um Location-Based usuário habilitado para roteamento em uma chamada PSTN não tem permissão para iniciar uma conferência com outro usuário ou número PSTN. A conexão com os atendimentos automáticos ou filas de chamada é permitida. Se o usuário tiver uma licença de conferência, o usuário deverá iniciar uma conferência com os usuários relevantes e chamar a PSTN por meio da ponte de conferência para iniciar uma chamada de conferência.
+
+Em uma chamada de conferência iniciada por um usuário sem uma licença de conferência, a adição de participantes PSTN não é permitida se houver ou tiver sido pelo menos um usuário Location-Based roteamento habilitado na chamada de conferência. Se pelo menos um participante PSTN for ou fez parte dessa chamada de conferência antes de qualquer participante habilitado para Roteamento Location-Based quiser ingressar na chamada, esses participantes não poderão ser adicionados à chamada.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de bypass de mídia para Location-Based Routing
 

@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obter informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamada (CQD) para Microsoft Teams e Skype for Business Online.
-ms.openlocfilehash: bd9df17a832b02ad71591daae0b54df9a1b77f0d
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 4df31782e7f78818df5f9a849d0c814e07c52adb
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267794"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362548"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -58,7 +58,63 @@ Por exemplo, aqui cada linha representa um par de Agentes de Usuário envolvidos
 
 ## <a name="dimensions"></a>Dimensões
 
-As informações de dimensões são baseadas em parte nos dados carregados no portal do CQD. Muitos valores dimension também podem ser usados como filtros. A tabela a seguir lista as dimensões atualmente disponíveis no CQD, na ordem listada no Editor de Consulta usado para criar relatórios ou editar relatórios definidos anteriormente.
+As informações de dimensões são baseadas em parte nos dados carregados no portal do CQD. Muitos valores dimension também podem ser usados como filtros.
+
+### <a name="dimension-data-types-and-units"></a>Dimensionar tipos de dados e unidades
+
+#### <a name="boolean"></a>Boolean
+
+Os valores booleanos são sempre True ou False. Em alguns casos, True também pode ser representado como 1 e False pode ser representado como 0.
+
+#### <a name="range"></a>Intervalo
+
+As dimensões fornecidas como intervalo ou grupo de valores são mostradas usando o seguinte formato:
+
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
+
+Por exemplo, a dimensão Duração (Minutos) representa a duração da chamada em segundos com o valor relatado como um intervalo de valores.
+
+|Duração (Minutos) |Como interpretar |
+|:--- |:--- |
+|062: [0 - 0) |Duração do fluxo = 0 minutos |
+|064: [1 - 2) |1 minuto < = duração do fluxo < 2 minutos |
+|065: [2 - 3) |2 minutos < = duração do fluxo < 3 minutos |
+|066: [3–4) |3 minutos < = duração do fluxo < 4 minutos |
+|  | |
+
+O é usado para controlar a ordem de classificação ao apresentar os dados e \<sort order string> pode ser usado para filtragem. Por exemplo, um filtro em Duração (Minutos) < "065", mostraria fluxos com duração inferior a 2 minutos (o '0' à frente é necessário para que o filtro funcione conforme o esperado). O valor real da cadeia de caracteres de ordem de classificação não é significativo.
+
+> [!NOTE]
+> Você pode observar intervalos que parecem inválidos para uma determinada dimensão. Um exemplo seria a Força do Sinal Wifi mostrando chamadas no intervalo 082: [100 - 110) quando 100 é o valor máximo possível para a Força de Sinal Wifi. Isso ocorre devido à forma como os números são atribuídos a intervalos no modelo de dados do CQD. Se um valor de número inteiro for 99, ele será contado no intervalo 081: [90 - 100). Se esse valor for 100, ele será contado no intervalo 082: [100 - 110). Isso não indica que há valores de Força de Sinal Wifi maiores do que 100% sendo relatados.
+
+#### <a name="enumeration-strings"></a>Cadeias de caracteres de enumeração
+
+Cadeias de caracteres usadas pelo CQD geralmente são derivadas de arquivos de dados e podem ser quase qualquer combinação de caracteres dentro do comprimento permitido. Algumas dimensões se parecem com cadeias de caracteres, mas como elas só podem ser uma de uma lista curta de valores predefinidos, elas são enumerações e não cadeias de caracteres verdadeiras. Algumas cadeias de caracteres de enumeração também são usadas em pares.
+
+#### <a name="enumeration-pair"></a>Par de enumeração
+
+As dimensões fornecidas como um par de enumeração são mostradas usando o seguinte formato:
+
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
+
+A ordenação dos valores de enumeração é consistente, mas não reflete a ordenação do primeiro ou segundo pontos de extremidade.
+
+Por exemplo, o Par de Detalhes de Conexão de Rede mostra os valores de Detalhes da Conexão de Rede para os dois pontos de extremidade:
+
+|Par de detalhes de conexão de rede |Como interpretar |
+|:--- |:--- |
+|Com fio : com fio |O primeiro e o segundo pontos de extremidade usavam conexões ethernet com fio. |
+|Com fio : wifi |Primeiro ponto de extremidade usado conexão ethernet com fio e segundo ponto de extremidade usado Wi-Fi conexão, ou o segundo ponto de extremidade usado com conexão ethernet com fio e o primeiro ponto de extremidade usado Wi-Fi conexão. |
+|: wifi |O primeiro ponto de extremidade usado uma conexão WiFi e a conexão de rede usada pelo segundo ponto de extremidade é desconhecido, ou o segundo ponto de extremidade usado uma conexão WiFi e a conexão de rede usada pelo primeiro ponto de extremidade é desconhecida. |
+| | |
+
+#### <a name="blank-values"></a>Valores em branco
+
+A tabela abaixo lista os possíveis motivos pelos quais uma dimensão pode estar em branco. Muitas dimensões e medidas estarão em branco se a dimensão QoE Record Disponível for false. Isso normalmente ocorre quando a chamada não foi estabelecida com êxito ou quando o cliente não enviou sua telemetria para o serviço.
+
+### <a name="available-dimensions"></a>Dimensões disponíveis 
+
+A tabela a seguir lista as dimensões atualmente disponíveis no CQD, na ordem listada no Editor de Consulta usado para criar relatórios ou editar relatórios definidos anteriormente.
 
 |Nome|Tipo de dados|Descrição|Possíveis motivos para valores em branco|
 |:---|:---|:---|:---|
@@ -159,7 +215,7 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 | Duração (Minutos)  | Intervalo (minutos)  | Duração do fluxo em minutos. Valores agrupados por intervalo. <br/> **Valor de exemplo:** 065: [3 a 4) ||
 | Duração (Segundos)  | Intervalo (segundos) | Duração do fluxo em segundos. Valores agrupados por intervalo. <br/> **Valor de exemplo:** 062: [1 -2)||
 |**Data**||| |
-|Hora de Término|  Cadeia de caracteres| Hora do dia em que a chamada terminou.|&bull; A configuração de chamada falhou ou não foi estabelecida (consulte Motivo de resposta do CDR) |
+|Hora de Término|  Cadeia de caracteres| Hora do dia em que a chamada terminou. Os valores são relatados no fuso horário UTC. |&bull; A configuração de chamada falhou ou não foi estabelecida (consulte Motivo de resposta do CDR) |
 | Year  | Integer  | Ano do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 2018 | |
 | Mês  | Integer  | Mês do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 2 | |
 | Dia  | Integer  | Dia do fim do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 1 | |
@@ -173,7 +229,7 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 |Semana|  Cadeia de caracteres  |Data inicial da semana em que a chamada ocorreu. <br/> **Valor de exemplo:** 2019-09-01 |&bull; A configuração de chamada falhou ou não foi estabelecida (consulte Motivo de resposta do CDR) |
 | Month Year  | Cadeia de caracteres  | Mês e ano do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 2017-02 | |
 | Mês Completo  | Data e hora  | Mês completo do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 2017-02-01T00:00:00 | |
-|Hora de início|Cadeia de caracteres  |Hora do dia em que a chamada foi iniciada.|&bull; A configuração de chamada falhou ou não foi estabelecida (consulte Motivo de resposta do CDR) |
+|Hora de início|Cadeia de caracteres  |Hora do dia em que a chamada foi iniciada. Os valores são relatados no fuso horário UTC. |&bull; A configuração de chamada falhou ou não foi estabelecida (consulte Motivo de resposta do CDR) |
 |**UserAgent** | | | |
 | Primeiro Domínio  | Cadeia de caracteres  | Domínio do usuário do primeiro ponto de extremidade. Se o primeiro ponto de extremidade for um servidor de conferência, ele usará o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário.  <br/> **Valor de exemplo:** contoso <span></span> .com | |
 | Segundo Domínio  | Cadeia de caracteres  | Domínio do usuário do segundo ponto de extremidade. Se o segundo ponto de extremidade for um servidor de conferência, ele usará o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário. <br/> **Valor de exemplo:** contoso <span></span> .com  | |
@@ -443,9 +499,9 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 | Segundo Nome do Produto do Ponto de Extremidade|Cadeia de caracteres|O nome do produto do segundo ponto de extremidade (Skype for Business ou Microsoft Teams).||
 | Primeiro UserType|Cadeia de caracteres de enumeração|O tipo de usuário no primeiro ponto de extremidade. <br/> **Valores possíveis:** Usuário, Servidor, Anônimo, Aplicativo, PSTN, Caixa Postal, Desconhecido <br/> <br/>**Desconhecido** - o valor padrão se UserType não puder ser determinado com base nas informações recebidas. <br/>**PSTN** - um usuário PSTN. <br/>**Anônimo** - um Teams usuário ou Skype for Business visitante. <br/>**Aplicativo** - um bot. <br/>**Usuário** - um usuário AAD, pode ser Skype for Business Usuário ou Teams Usuário. <br/>**Servidor** - para conferências, pelo menos um lado é um servidor. <br/>**Caixa** Postal - o ponto de extremidade foi atendido pelo serviço de caixa postal.||
 | Segundo UserType|Cadeia de caracteres de enumeração|O tipo de usuário no segundo ponto de extremidade. <br/> **Valores possíveis:** Usuário, Servidor, Anônimo, Aplicativo, PSTN, Caixa Postal, Desconhecido <br/> <br/>**Desconhecido** - o valor padrão se UserType não puder ser determinado com base nas informações recebidas. <br/>**PSTN** - um usuário PSTN. <br/>**Anônimo** - um Teams usuário ou Skype for Business visitante. <br/>**Aplicativo** - um bot. <br/>**Usuário** - um usuário AAD, pode ser Skype for Business Usuário ou Teams Usuário. <br/>**Servidor** - para conferências, pelo menos um lado é servidor. <br/>**Caixa** Postal - o ponto de extremidade foi atendido pelo serviço de caixa postal.||
-| Organizer ObjectId|Cadeia de caracteres|A ID de objeto do Active Directory do usuário do organizador da reunião. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.  | &bull; O usuário não tem permissões para exibir EUII. &bull; O registro tem mais de 28 dias. |
-| UPN do organizador|Cadeia de caracteres|O nome principal do usuário (UPN) do usuário do organizador da reunião. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| &bull; O usuário não tem permissões para exibir EUII. &bull; O registro tem mais de 28 dias. |
-| Organizer Sip Uri|Cadeia de caracteres|O URI SIP (Protocolo de Iniciação de Sessão) do usuário do organizador da reunião. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| &bull;Preenchido apenas para Skype for Business pontos de extremidade. <br/>&bull; O usuário não tem permissões para exibir EUII. &bull; O registro tem mais de 28 dias.|
+| Organizer ObjectId|Cadeia de caracteres|A ID de objeto do Active Directory do usuário do organizador da reunião. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.  | &bull; O usuário não tem permissões para exibir EUII. <br/>&bull; O registro tem mais de 28 dias. |
+| UPN do organizador|Cadeia de caracteres|O nome principal do usuário (UPN) do usuário do organizador da reunião. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| &bull; O usuário não tem permissões para exibir EUII. <br/>&bull; O registro tem mais de 28 dias. |
+| Organizer Sip Uri|Cadeia de caracteres|O URI SIP (Protocolo de Iniciação de Sessão) do usuário do organizador da reunião. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| &bull;Preenchido apenas para Skype for Business pontos de extremidade. <br/>&bull; O usuário não tem permissões para exibir EUII. <br/>&bull; O registro tem mais de 28 dias.|
 |**Dispositivos**||||
 | Primeiro fator de forma do dispositivo de captura|Cadeia de caracteres de enumeração|O fator de forma do dispositivo de captura de áudio (microfone) no primeiro ponto de extremidade. | &bull; Não relatado pelo ponto de extremidade. |
 | Segundo fator de forma do dispositivo de captura|Cadeia de caracteres de enumeração|O fator de forma do dispositivo de captura de áudio (microfone) no primeiro ponto de extremidade. | &bull; Não relatado pelo ponto de extremidade. |
@@ -468,7 +524,7 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 |PSTN MP Location|Cadeia de caracteres|O local do Processador de Mídia mostrará o caminho de mídia quando não estiver no modo de bypass.<br/>**Exemplo:** USWE||
 |Motivo de término da chamada PSTN|Int|Um código de resposta inteiro de três dígitos mostra o status final da chamada. <br/> Para obter mais informações sobre a explicação SIP, consulte [a Lista de códigos de resposta SIP.](https://www.wikipedia.org/wiki/List_of_SIP_response_codes) <br/>**Exemplo:** 404||
 |**Aplicativos de Voz (Visualização)**||Para esta categoria, consulte [Atendedor Automático & Relatório](aa-cq-cqd-historical-reports.md) Histórico da Fila de Chamada para obter mais informações.)||
-|Atendedor Automático Identidade|Cadeia de caracteres|Nome da conta de recurso anexada ao Atendedor Automático.||
+|Atendedor Automático Identidade|Cadeia de caracteres|Nome da conta de recurso anexada ao Atendedor Automático.|&bull; O usuário não tem permissões para exibir EUII. <br/>&bull; O registro tem mais de 28 dias.|
 |Atendedor Automático Chain Index|Integer| Ordem do Atendedor Automático na chamada.||
 |Atendedor Automático hora de início da cadeia|Cadeia de caracteres|A Atendedor Automático hora e a data de início da chamada.||
 |Atendedor Automático de duração da cadeia|Integer| A duração da chamada no Atendedor Automático, medida em segundos.||
@@ -478,7 +534,7 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 |Atendedor Automático Resultado da Chamada|Enumeração| Resultado final da chamada com o Atendedor Automático. ||
 |Atendedor Automático De pesquisa de diretório|Enumeração|O último método de pesquisa do livro de endereços usado.||
 |Atendedor Automático Count|Integer| Número de Atendimentos Automáticos envolvidos na chamada.||
-|Identidade da Fila de Chamada|Cadeia de caracteres|Nome da conta de recurso anexada à Fila de Chamada. ||
+|Identidade da Fila de Chamada|Cadeia de caracteres|Nome da conta de recurso anexada à Fila de Chamada. |&bull; O usuário não tem permissões para exibir EUII. <br/>&bull; O registro tem mais de 28 dias.|
 |Fila de Chamada é modo de conferência|Boolean|Se For True, a Fila de Chamada será configurada para usar o modo de conferência caso contrário, a Fila de Chamada será configurada para usar o modo de transferência. ||
 |Contagem do Agente de Fila de Chamada|Integer|Número de agentes configurados na fila. ||
 |Opção do Agente de Fila de Chamada na Contagem|Integer|Número de agentes configurados que optaram pela fila. ||
@@ -486,6 +542,7 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 |Resultado da chamada de fila de chamada|Enumeração|O estado final da chamada fila de chamada. ||
 |Ação de estado final da fila de chamada|Enumeração|A ação final fila de chamada. ||
 |Tempo de tempo de espera da fila de chamada|Integer|O valor de tempo de espera configurado para a Fila de Chamada. ||
+|Transferido da Identidade da Fila de Chamada|Cadeia de caracteres|Nome da conta de recurso anexada à Fila de Chamada que transferiu a chamada. |&bull; O usuário não tem permissões para exibir EUII. <br/>&bull; O registro tem mais de 28 dias.|
 |Está Atendedor Automático envolvido|Boolean| Se True, um Atendedor Automático estava envolvido em uma determinada chamada ou fluxo.||
 |É a fila de chamada envolvida|Boolean|Se True, uma Fila de Chamada estava envolvida em uma determinada chamada ou fluxo. ||
 |**Reunião**||||
@@ -502,59 +559,6 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 |**Cenário**||||
 | Par de cenários  | Par enumerado  | Emparelhar mostrando se os pontos de extremidade estavam localizados dentro ou fora da rede corporativa com base no mapeamento de sub-rede e no detalhe da conexão de rede. <br/> **Observação:** Os pares são separados por '--'. <br/> **Valor de exemplo:** Client-Inside--Client-Inside-wifi  | &bull; O tipo de conectividade de rede era desconhecido para ambos os pontos de extremidade.  |
 
-
-
-### <a name="notes-on-dimension-data-typeunits"></a>Observações sobre o tipo/unidades de dados de dimensão
-
-#### <a name="boolean"></a>Boolean
-
-Os valores booleanos são sempre True ou False. Em alguns casos, True também pode ser representado como 1 e False pode ser representado como 0.
-
-#### <a name="range"></a>Intervalo
-
-As dimensões fornecidas como intervalo ou grupo de valores são mostradas usando o seguinte formato:
-
- _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
-
-Por exemplo, a dimensão Duração (Minutos) representa a duração da chamada em segundos com o valor relatado como um intervalo de valores.
-
-|Duração (Minutos) |Como interpretar |
-|:--- |:--- |
-|062: [0 - 0) |Duração do fluxo = 0 minutos |
-|064: [1 - 2) |1 minuto < = duração do fluxo < 2 minutos |
-|065: [2 - 3) |2 minutos < = duração do fluxo < 3 minutos |
-|066: [3–4) |3 minutos < = duração do fluxo < 4 minutos |
-|  | |
-
-O é usado para controlar a ordem de classificação ao apresentar os dados e \<sort order string> pode ser usado para filtragem. Por exemplo, um filtro em Duração (Minutos) < "065", mostraria fluxos com duração inferior a 2 minutos (o '0' à frente é necessário para que o filtro funcione conforme o esperado). O valor real da cadeia de caracteres de ordem de classificação não é significativo.
-
-> [!NOTE]
-> Você pode observar intervalos que parecem inválidos para uma determinada dimensão. Um exemplo seria a Força do Sinal Wifi mostrando chamadas no intervalo 082: [100 - 110) quando 100 é o valor máximo possível para a Força de Sinal Wifi. Isso ocorre devido à forma como os números são atribuídos a intervalos no modelo de dados do CQD. Se um valor de número inteiro for 99, ele será contado no intervalo 081: [90 - 100). Se esse valor for 100, ele será contado no intervalo 082: [100 - 110). Isso não indica que há valores de Força de Sinal Wifi maiores do que 100% sendo relatados.
-
-#### <a name="enumeration-strings"></a>Cadeias de caracteres de enumeração
-
-Cadeias de caracteres usadas pelo CQD geralmente são derivadas de arquivos de dados e podem ser quase qualquer combinação de caracteres dentro do comprimento permitido. Algumas dimensões se parecem com cadeias de caracteres, mas como elas só podem ser uma de uma lista curta de valores predefinidos, elas são enumerações e não cadeias de caracteres verdadeiras. Algumas cadeias de caracteres de enumeração também são usadas em pares.
-
-#### <a name="enumeration-pair"></a>Par de enumeração
-
-As dimensões fornecidas como um par de enumeração são mostradas usando o seguinte formato:
-
- _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
-
-A ordenação dos valores de enumeração é consistente, mas não reflete a ordenação do primeiro ou segundo pontos de extremidade.
-
-Por exemplo, o Par de Detalhes de Conexão de Rede mostra os valores de Detalhes da Conexão de Rede para os dois pontos de extremidade:
-
-|Par de detalhes de conexão de rede |Como interpretar |
-|:--- |:--- |
-|Com fio : com fio |O primeiro e o segundo pontos de extremidade usavam conexões ethernet com fio. |
-|Com fio : wifi |Primeiro ponto de extremidade usado conexão ethernet com fio e segundo ponto de extremidade usado Wi-Fi conexão, ou o segundo ponto de extremidade usado com conexão ethernet com fio e o primeiro ponto de extremidade usado Wi-Fi conexão. |
-|: wifi |O primeiro ponto de extremidade usado uma conexão WiFi e a conexão de rede usada pelo segundo ponto de extremidade é desconhecido, ou o segundo ponto de extremidade usado uma conexão WiFi e a conexão de rede usada pelo primeiro ponto de extremidade é desconhecida. |
-| | |
-
-#### <a name="blank-values"></a>Valores em branco
-
-A tabela acima lista os possíveis motivos pelos quais uma dimensão pode estar em branco. Muitas dimensões e medidas estarão em branco se a dimensão QoE Record Disponível for false. Isso normalmente ocorre quando a chamada não foi estabelecida com êxito.
 
 ## <a name="measurements"></a>Medidas
 

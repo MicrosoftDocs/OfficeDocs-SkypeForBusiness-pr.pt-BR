@@ -15,18 +15,20 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Saiba como gerenciar o recurso Música em Espera Sistema de Telefonia.
-ms.openlocfilehash: e2f2347ca4368a8665d77ff2424a5c0082c1b0d8
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 7a7a79bb2d96bcd43e12b27424630acd7a0c90eb
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960120"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355730"
 ---
 # <a name="music-on-hold"></a>Música em espera
 
 Quando um Microsoft Teams coloca uma chamada de entrada da PSTN (Rede Telefônica Pública Comutado) em espera, o chamador PSTN pode ouvir música selecionada.
 
 A música que é tocada é a música padrão fornecida pela Microsoft ou a música personalizada que você carrega e configura. Como administrador de locatários, você configura se a Música em Espera está disponível criando uma política de chamada Teams e atribuindo a política ao usuário Teams usuário.
+
+A música padrão fornecida em Microsoft Teams cenários de chamada PSTN está livre de quaisquer royalties a pagar pela sua organização.
 
 Observe que os chamadores PSTN também podem ouvir Música em Espera em outros cenários; por exemplo, quando eles chamam em uma Fila de Chamada na Nuvem ou quando sua chamada é estacionada por um Microsoft Teams usuário. Esses cenários não são cobertos ou controlados pelos recursos mencionados neste artigo.
 
