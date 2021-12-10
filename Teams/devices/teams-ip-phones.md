@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: ea91bb108f109bb58fe36d884f683a1f0e405964
-ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
+ms.openlocfilehash: d09e8b449d9e4c058ef3fdc1f9a975c06e3cc1f6
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327259"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401925"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -227,6 +227,7 @@ A seguir estão as versões mais recentes Microsoft Teams displays de aplicativo
 
 |Versão do produto| Data de lançamento | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Atualização 2021 #3  |8 de dezembro de 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |Atualização 2021 #2  |9 de junho de 2021 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |Atualização 2021 #1  |18 de março de 2021 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|
 
@@ -237,6 +238,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto|
 |:--------------|:-----------------|:-------------------------|
+|Lenovo ThinkSmart View| `CD-18781Y.211116.114` |Atualização 2021#3  |
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |Atualização 2021 #2 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |Atualização 2021 #1 |
 

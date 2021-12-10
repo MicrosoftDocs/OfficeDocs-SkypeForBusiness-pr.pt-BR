@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Saiba como exibir uma lista de usuários em sua organização habilitados para conferência discada de dentro Microsoft Teams. '
-ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: ff63ca0b34bcdf86b3c261a018911f42a34dcb5c
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045877"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401905"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Ver uma lista de usuários que estão habilitados para Audioconferência no Microsoft Teams
 
@@ -48,7 +48,19 @@ Depois de habilitar Microsoft Teams usuários em sua organização para Audiocon
    
 - Você pode usar o botão de pesquisa para procurar um usuário individual na lista
     
-    
+## <a name="run-a-self-diagnostics-tool"></a>Executar uma ferramenta auto-diagnóstico
+
+Microsoft 365 administradores têm acesso a diagnósticos que podem ser executados dentro do locatário para verificar se um usuário é capaz de criar uma chamada de conferência PSTN. 
+
+> [!NOTE]
+>Esse recurso não está disponível para Microsoft 365 Government, Microsoft 365 operado pela 21Vianet ou Microsoft 365 Alemanha.
+
+Selecione Executar Testes, da seguinte forma. Isso preencherá o diagnóstico no centro de Administração Microsoft 365.
+>> [!div class="nextstepaction"]
+>> [Executar testes: Teams conferência](https://aka.ms/TeasConfDiag)
+
+O diagnóstico executa uma grande variedade de verificações.
+ 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:

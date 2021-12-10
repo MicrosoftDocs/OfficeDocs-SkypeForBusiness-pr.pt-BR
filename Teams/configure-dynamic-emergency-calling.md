@@ -18,12 +18,12 @@ description: Saiba como configurar os Planos de Chamadas da Microsoft e Sistema 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9df546e694fa3dcbdabae8454eeb5a6f7cba6a7
-ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
+ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "61284719"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401915"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -85,17 +85,19 @@ Os clientes a seguir têm suporte no momento.  Verifique novamente com frequênc
 - Salas do Teams versão 4.4.25.0 e superior
 
 > [!NOTE]
-> Os telefones 3PIP não suportam a chamada de emergência dinâmica. 
+> Os locais baseados em Sub-rede e WiFi são suportados em todos os clientes Teams suporte. <br><br>
+> Ethernet/Switch (LLDP) é suportado em:
+> - Windows versões 8.1 e posteriores neste momento.<br>
+> - Mac OS, que requer [software de habilitar LLDP.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
+> - Teams telefone com Teams versão 1449/1.0.94.202111010101 e posterior.
 
 > [!NOTE]
 > A chamada de emergência dinâmica, incluindo a notificação de segurança, não é suportada no cliente Teams Web. Para impedir que os usuários usem o Teams Web para chamar números PSTN, você pode definir uma política de chamada Teams e desativar a configuração Permitir chamada **PSTN** web. Para saber mais, confira [Políticas de chamada em Teams](teams-calling-policy.md) [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
 
 > [!NOTE]
-> Os locais baseados em Sub-rede e WiFi são suportados em todos os Teams clientes. <br>
-> Ethernet/Switch (LLDP) é suportado em:
-> - Windows versões 8.1 e posteriores neste momento.<br>
-> - Mac OS, que requer [software de habilitar LLDP.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
-> - Teams telefone com Teams versão 1449/1.0.94.202111010101 e posterior.
+> Os telefones 3PIP não suportam a chamada de emergência dinâmica. 
+
+
 
 ## <a name="assign-emergency-addresses"></a>Atribuir endereços de emergência
 
