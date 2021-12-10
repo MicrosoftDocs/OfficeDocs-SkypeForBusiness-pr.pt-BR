@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar Planos de Chamadas, incluindo planos de exibição disponíveis em sua região, comprar & atribuir licenças, obter números de telefone e adicionar endereços de emergência & locais.
-ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725720"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410692"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 
@@ -80,6 +80,18 @@ No **Microsoft Teams**, os usuários podem ver o número de telefone clicando em
 
 ![Captura de tela das opções disponíveis após clicar em Chamadas.](media/teams-phone-number.png)
 
+## <a name="run-a-self-diagnostics-tool"></a>Executar uma ferramenta auto-diagnóstico
+
+Microsoft 365 administradores têm acesso a diagnósticos que podem ser executados no locatário para verificar se um usuário está configurado corretamente para fazer ou receber chamadas PSTN. 
+
+> [!NOTE]
+>Esse recurso não está disponível para Microsoft 365 Government, Microsoft 365 operado pela 21Vianet ou Microsoft 365 Alemanha.
+
+Selecione Executar Testes, da seguinte forma. Isso preencherá o diagnóstico no centro de Administração Microsoft 365.
+>> [!div class="nextstepaction"]
+>> [Executar testes: Teams PSTN](https://aka.ms/TeamsPSTNDiag)
+
+O diagnóstico executa uma grande variedade de verificações.
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>Você quer atribuir números telefônicos automaticamente?
 <a name="bkmk_add_addresses"> </a>

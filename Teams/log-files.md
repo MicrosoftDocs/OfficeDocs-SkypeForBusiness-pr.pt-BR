@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre logs de depuração, mídia e área de trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 100d21338cf77642836793ab9cf69d426d1fd463
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257312"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410682"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar Microsoft Teams
 
@@ -53,7 +53,7 @@ Os logs de depuração, área de trabalho e mídia serão coletados em uma pasta
 - Mac: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
-O registro de mídia está desabilitado por padrão. Para habilitar o log de mídia, os usuários devem ativar a opção no Teams cliente. Vá para **Configurações** Geral e selecione Habilitar log para diagnóstico de reunião (requer a  >   **reinicialização Teams)**. O Teams cliente deve ser reiniciado para iniciar o registro em log.
+O registro de mídia está desabilitado por padrão. Para habilitar o log de mídia, os usuários devem ativar a opção no Teams cliente. Vá para **Configurações** Geral e selecione Habilitar log para diagnóstico de reunião (requer a  >   **reinicialização Teams)**. O Teams cliente deve ser reiniciado para iniciar o registro em log (reinicie-o clicando com o botão direito do mouse no ícone em seu dock (Mac) ou na barra de tarefas (Windows) e selecionando **Quit**. Depois de sair, basta clicar no ícone do aplicativo para abri-lo novamente).
 
 Se ocorrer um problema com uma reunião ou evento ao vivo específico, é útil ter a URL associada à reunião. Isso fornece informações adicionais para ajudar a identificar a reunião exata ou o evento ao vivo nos logs. Essas informações podem ser coletadas de qualquer participante para uma reunião ou de apresentador ou produtor para um evento ao vivo. Essa URL pode ser capturada pairando sobre a URL de junção e escolhendo **Copiar Hiperlink**.
 

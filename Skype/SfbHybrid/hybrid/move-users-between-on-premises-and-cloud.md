@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: em uma implantação local de Skype for Business Server que está habilitada para híbridos, você pode mover os usuários entre o ambiente local e a nuvem.'
-ms.openlocfilehash: 0c13f29cf2773afb170bb7be20bb2f95c5d13e6c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d5f14cfdb5de2e11c95a2532900dfa3fcf669a1
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589213"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410702"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Mover os usuários entre um ambiente local e a nuvem
 
@@ -34,7 +34,7 @@ Em uma implantação local de Skype for Business Server que está habilitada par
 - Os usuários que estão no local interagem com servidores Skype for Business locais.
 - Os usuários que estão em casa online podem interagir com o Teams serviço.
 
-*Os usuários do Teams inerentemente têm uma página inicial do Skype for Business, mesmo se não usam o Skype for Business.* Se você tiver usuários locais Skype for Business que também estão usando Teams (lado a lado), esses usuários serão ativos no local. Teams usuários com Skype for Business locais não têm a capacidade de interoperar com usuários do Skype for Business de seu cliente Teams, nem podem se comunicar do Teams com usuários em uma organização federada. Essa funcionalidade está totalmente disponível somente depois que o usuário é movido de Skype for Business local para online e se tornou o TeamsOnly. É altamente recomendável que você mova seus usuários para o modo TeamsOnly, o que garantirá que o roteamento de todos os chats e chamadas de entrada caiam em seus clientes Teams cliente. Para obter mais detalhes, [consulte Teams coexistência](/microsoftteams/coexistence-chat-calls-presence) com Skype for Business e diretrizes de migração e [interoperabilidade](/microsoftteams/migration-interop-guidance-for-teams-with-skype)para organizações que usam Teams em conjunto com Skype for Business .
+*Teams usuários inerentemente têm uma Skype for Business, quer eles usem Skype for Business ou não.* Se você tiver usuários locais Skype for Business que também estão usando Teams (lado a lado), esses usuários serão ativos no local. Teams usuários com Skype for Business locais não têm a capacidade de interoperar com usuários do Skype for Business de seu cliente Teams, nem podem se comunicar do Teams com usuários em uma organização federada. Essa funcionalidade está totalmente disponível somente depois que o usuário é movido de Skype for Business local para online e se tornou o TeamsOnly. É altamente recomendável que você mova seus usuários para o modo TeamsOnly, o que garantirá que o roteamento de todos os chats e chamadas de entrada caiam em seus clientes Teams cliente. Para obter mais detalhes, [consulte Teams coexistência](/microsoftteams/coexistence-chat-calls-presence) com Skype for Business e diretrizes de migração e [interoperabilidade](/microsoftteams/migration-interop-guidance-for-teams-with-skype)para organizações que usam Teams em conjunto com Skype for Business .
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -70,7 +70,7 @@ Para mover os usuários para Teams, use o cmdlet Move-CsUser ou o painel de cont
 
 Para mover os usuários entre o local e a nuvem, você deve usar uma conta com privilégios suficientes no ambiente de Skype for Business Server local, bem como na organização Teams local. Você pode usar uma conta que tenha todos os privilégios necessários ou pode usar duas contas, nesse caso, você acessaria as ferramentas locais usando credenciais locais e, nessas ferramentas, forneceria credenciais adicionais para uma conta administrativa Teams.  
 
-- No ambiente local, o usuário que executa a movimentação deve ter a função CSServerAdministrator no Skype for Business Server.
+- No ambiente local, o usuário que executa a movimentação deve ter as funções CSServerAdministrator e CsUserAdministrator em Skype for Business Server.
 - No Teams, o usuário que executa a movimentação deve atender a um dos seguintes critérios:
   - O usuário é membro da função Administrador Global.
   - O usuário é membro das funções administrador Teams administrador e administrador do usuário.
