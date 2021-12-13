@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar o roteamento de chamadas com o Roteamento Direto da Microsoft.
-ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 919b98d6c8c8ee5a1af08967dc55c30748af37f1
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60635040"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420151"
 ---
 # <a name="configure-call-routing-for-direct-routing"></a>Configurar roteamento de chamadas para Roteamento Direto
 
@@ -36,7 +36,7 @@ Para obter informações sobre todas as etapas necessárias para configurar o Ro
 
 ## <a name="call-routing-overview"></a>Visão geral do roteamento de chamadas
 
-Telefone Microsoft O sistema tem um mecanismo de roteamento que permite que uma chamada seja enviada para um SBC (Controlador de Borda de Sessão) específico com base em: 
+Telefone Microsoft System tem um mecanismo de roteamento que permite que uma chamada seja enviada para um SBC (Controlador de Borda de Sessão) específico com base em: 
 
 - O padrão de número chamado 
 - O padrão de número chamado mais o usuário específico que faz a chamada
@@ -64,9 +64,9 @@ Se um usuário tiver uma licença de Plano de Chamadas, as chamadas de saída de
 
 O diagrama a seguir mostra dois exemplos de políticas de roteamento de voz em um fluxo de chamadas.
 
-**Chame Flow 1 (à esquerda):** Se um usuário fizer uma chamada para +1 425 XXX XX XX ou +1 206 XXX XX, a chamada será roteada para SBC sbc1.contoso.biz ou sbc2.contoso.biz. Se nem sbc1.contoso.biz nem sbc2.contoso.biz estão disponíveis, a chamada será retirada. 
+**Chame Flow 1 (à esquerda):** se um usuário fizer uma chamada para +1 425 XXX XX XX ou +1 206 XXX XX, a chamada será roteada para SBC sbc1.contoso.biz ou sbc2.contoso.biz. Se nem sbc1.contoso.biz nem sbc2.contoso.biz estão disponíveis, a chamada será retirada. 
 
-**Chame Flow 2 (à direita):** Se um usuário fizer uma chamada para +1 425 XXX XX XX ou +1 206 XXX XX, a chamada será roteada pela primeira vez para SBC sbc1.contoso.biz ou sbc2.contoso.biz. Se nenhum SBC estiver disponível, a rota com prioridade mais baixa será tentada (sbc3.contoso.biz e sbc4.contoso.biz). Se nenhum dos SBCs estiver disponível, a chamada será retirada. 
+**Chame Flow 2 (à direita):** se um usuário fizer uma chamada para +1 425 XXX XX XX ou +1 206 XXX XX, a chamada será roteada pela primeira vez para o SBC sbc1.contoso.biz ou sbc2.contoso.biz. Se nenhum SBC estiver disponível, a rota com prioridade mais baixa será tentada (sbc3.contoso.biz e sbc4.contoso.biz). Se nenhum dos SBCs estiver disponível, a chamada será retirada. 
 
 ![Mostra exemplos de política de roteamento de voz.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -460,6 +460,19 @@ No Restrictions
 ```
 
 O resultado é que a política de voz aplicada às chamadas de John Woods é irrestrita e seguirá a lógica de roteamento de chamadas disponíveis para chamadas dos EUA, canadá e internacional.
+
+## <a name="run-a-self-diagnostics-tool"></a>Executar uma ferramenta auto-diagnóstico
+
+Microsoft 365 administradores têm acesso a diagnósticos que podem ser executados dentro do locatário para verificar se um usuário está configurado corretamente para Roteamento Direto. 
+
+> [!NOTE]
+>Esse recurso não está disponível para Microsoft 365 Government, Microsoft 365 operado pela 21Vianet ou Microsoft 365 Alemanha.
+
+Selecione Executar Testes, da seguinte forma. Isso preencherá o diagnóstico no centro de Administração Microsoft 365.
+>> [!div class="nextstepaction"]
+>> [Executar testes: Teams roteamento direto](https://aka.ms/TeamsDirectRoutingDiag)
+
+O diagnóstico executa uma grande variedade de verificações.
 
 ## <a name="see-also"></a>Confira também
 

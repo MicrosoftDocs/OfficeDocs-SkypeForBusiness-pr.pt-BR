@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: gerenciamento de parceiros para clientes.
 f1keywords: ''
-ms.openlocfilehash: 84d15f43ff49565dbba915470ea618a69ff74ee8
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 1379fff905275e9bed94f019dcb556e171683178
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331204"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420221"
 ---
 # <a name="partner-management-for-customers"></a>Gerenciamento de parceiros para clientes
 
@@ -124,25 +124,25 @@ Se você já enviou um convite a um parceiro e deseja adicionar mais usuários a
 
 |Recurso|Permissão|**Administrador mmr**|**Site Lead**|**Site Tech**|**Administrador de parceiros**|
 | :- | :- | :- | :- | :- | :- |
-|Salas|Exibir|||||
-||Modificar|||||
-||Tecla Redefinir|||||
-||Chave de download|||||
-||Desemroll|||||
-|Gerenciamento de grupo|Criar |||||
-||Exibir|||||
-||Modificar|||||
-|Atualizar o gerenciamento de anel|Criar |||||
-||Exibir|||||
-||Modificar|||||
-|Relatórios|Exibir|||||
-|Gerenciamento de tíquetes|Criar incidente do cliente|||||
-||Exibir|||||
-||Atualizar|||||
-|MMR Configurações|Exibir|||||
-||Modificar|||||
-|Gerenciamento de função|Exibir |||||
-||Modificar|||||
+|Salas|Exibir| &#10004;|&#10004;|&#10004;|&#10004;|
+||Modificar|&#10004;|&#10004;|&#10004;|&#10004;|
+||Tecla Redefinir|&#10004;||||
+||Chave de download|&#10004;|&#10004;|&#10004;||
+||Desemroll|&#10004;|&#10004;|&#10004;||
+||Criar |&#10004;|&#10004;|||
+|Gerenciamento de grupo|Exibir|&#10004;|&#10004;||&#10004;|
+||Modificar|&#10004;|&#10004;|||
+||Criar |&#10004;|&#10004;|||
+|Atualizar o gerenciamento de anel|Exibir|&#10004;|&#10004;||&#10004;|
+||Modificar|&#10004;|&#10004;||&#10004;|
+|Relatórios|Exibir|&#10004;|&#10004;||&#10004;|
+||Criar incidente do cliente|&#10004;|&#10004;|&#10004;|&#10004;|
+|Gerenciamento de Tíquetes|Exibir|&#10004;|&#10004;|&#10004;|&#10004;|
+||Atualizar|&#10004;|&#10004;|&#10004;|&#10004;|
+|MMR Configurações|Exibir|&#10004;||||
+||Modificar|&#10004;||||
+|Gerenciamento de função|Exibir |&#10004;|||&#10004;|
+||Modificar|&#10004;|||&#10004;|
 
 
 

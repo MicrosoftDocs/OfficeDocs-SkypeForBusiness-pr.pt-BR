@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Gerenciamento de clientes de locatário mult para parceiros.
 f1keywords: ''
-ms.openlocfilehash: edafdf182e0d27ec5c5524e9411b80de866d7f02
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 5ce4493ef9a5e6c959bf10c600c2b9697129d9df
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331205"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420201"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Gerenciamento de clientes de vários locatários para parceiros
 
@@ -89,7 +89,7 @@ Para fazer a retirada de um cliente, você deve removê-los da lista Clientes.
 
 As funções de parceiro permitem a delegação de responsabilidades para funcionários adicionais. O conceito dessas funções é o mesmo descrito no controle de acesso baseado em [função,](microsoft-teams-rooms-premium-rbac.md)mas no contexto de cada cliente. Além disso, é importante observar que as funções de parceiro são distintas das funções do cliente. As funções de parceiro podem ser excluídas pelo cliente. 
 
-A função de administradores **primários** é a única função criada para cada cliente local e tem quase todas as permissões — no contexto do cliente — para o serviço TRM (consulte a tabela 1). As permissões de função partner** só se estendem até as salas designadas pelo cliente. Por exemplo, se o cCustomer for uma organização global e atribuir o Parceiro para gerenciar todas as salas dos EUA, o administrador principal só poderá gerenciar e delegar permissões para essas salas. O Parceiro não tem visibilidade para outras salas que o Cliente pode ter em outros países. 
+A função de administradores **primários** é a única função criada para cada cliente local e tem quase todas as permissões — no contexto do cliente — para o serviço TRM (consulte a tabela 1). As permissões de função partner** só se estendem até as salas designadas pelo cliente. Por exemplo, se o cliente for uma organização global e atribuir o Parceiro para gerenciar todas as salas dos EUA, o administrador principal só poderá gerenciar e delegar permissões para essas salas. O Parceiro não tem visibilidade para outras salas que o Cliente pode ter em outros países. 
 
 > [!Important]
 > Sempre deve haver pelo menos um usuário na **função Administradores primários.**
@@ -122,25 +122,25 @@ Como parceiro, você pode criar funções personalizadas para atender aos seus r
 
 |Recurso|Permissão|**Administrador mmr**|**Site Lead**|**Site Tech**|**Administradores primários**|
 | :- | :- | :- | :- | :- | :- |
-|Salas|Exibir|||||
-||Modificar|||||
-||Tecla Redefinir|||||
-||Chave de download|||||
-||Desemroll|||||
-|Gerenciamento de grupo|Criar |||||
-||Exibir|||||
-||Modificar|||||
-|Atualizar o gerenciamento de anel|Criar |||||
-||Exibir|||||
-||Modificar|||||
-|Relatórios|Exibir|||||
-|Gerenciamento de tíquetes|Criar incidente do cliente|||||
-||Exibir|||||
-||Atualizar|||||
-|MMR Configurações|Exibir|||||
-||Modificar|||||
-|Gerenciamento de função|Exibir |||||
-||Modificar|||||
+|Salas|Exibir| &#10004;|&#10004;|&#10004;|&#10004;|
+||Modificar|&#10004;|&#10004;|&#10004;|&#10004;|
+||Tecla Redefinir|&#10004;||||
+||Chave de download|&#10004;|&#10004;|&#10004;||
+||Desemroll|&#10004;|&#10004;|&#10004;||
+||Criar |&#10004;|&#10004;|||
+|Gerenciamento de grupo|Exibir|&#10004;|&#10004;||&#10004;|
+||Modificar|&#10004;|&#10004;|||
+||Criar |&#10004;|&#10004;|||
+|Atualizar o gerenciamento de anel|Exibir|&#10004;|&#10004;||&#10004;|
+||Modificar|&#10004;|&#10004;||&#10004;|
+|Relatórios|Exibir|&#10004;|&#10004;||&#10004;|
+||Criar incidente do cliente|&#10004;|&#10004;|&#10004;|&#10004;|
+|Gerenciamento de Tíquetes|Exibir|&#10004;|&#10004;|&#10004;|&#10004;|
+||Atualizar|&#10004;|&#10004;|&#10004;|&#10004;|
+|MMR Configurações|Exibir|&#10004;||||
+||Modificar|&#10004;||||
+|Gerenciamento de função|Exibir |&#10004;|||&#10004;|
+||Modificar|&#10004;|||&#10004;|
 
 > [!Note]
 > Um usuário atribuído como administrador primário do Cliente A tem permissões completas no serviço TRM apenas para esse cliente. As permissões do usuário no Cliente A não têm influência em outros clientes.
@@ -166,7 +166,7 @@ O cliente pode puxar logs de auditoria para o serviço TRM, que inclui a ativida
 
 O portal MTM tem dois modelos interativos para navegar entre dados do cliente:
 
-- Os visualizações agregadas foram dados de todos os clientes consolidados em uma única lista e podem ser filtrados.
+- Agrega exibições em que os dados de todos os seus clientes são consolidados em uma única lista e podem ser filtrados.
 
   > [!Note]
   > Esse modo de exibição só é suportado na página **Incidentes** quando **a exibição Habilitar todos os tíquetes** é ativada.
