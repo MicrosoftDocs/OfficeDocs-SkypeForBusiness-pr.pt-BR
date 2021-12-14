@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 011f85e1d6db3aa4d0b3a0986d4b03dd1aa96a37
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 19f84d3b6ea6e290012acd0d41e167b95d901796
+ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824589"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61426073"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 
 |Versão |Publicado para <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client versão | Dezembro de 2021 |
 |Teams Web-Client versão | Outubro de 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
@@ -77,7 +78,12 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas do Microsoft Teams introdução de recursos e resolução de problemas
 
-### <a name="teams-rooms-web-client-update-october-2021"></a>Salas do Teams Atualização do cliente Web (outubro de 2021)
+### <a name="teams-rooms-web-client-update-december-2021"></a>Salas do Teams atualização do cliente Web (dezembro de 2021)
+
+Introduzido nesta atualização:
+- O layout de vídeo dividido em frente dupla é exibido quando o conteúdo não está sendo compartilhado
+
+### <a name="teams-rooms-web-client-update-october-2021"></a>Salas do Teams atualização do cliente Web (outubro de 2021)
 
 Introduzido nesta atualização:
 - Controle de lista unificada com Teams de área de trabalho com agrupação de reuniões estruturadas, opções de reunião e controles para apresentadores/participantes, ordem de classificação de mão e capacidade de convidar usuários do Chat ou convite de reunião diretamente da lista de participantes 
@@ -102,7 +108,7 @@ Introduzido nesta atualização:
 - Bolhas de chat fornecem notificações no chat de reunião para chamar a atenção para o que está sendo dito usando o chat de reunião *
 - O suporte ao modo galeria grande e ao modo Juntos agora está disponível no GCC High
 - Novas Habilidades adicionadas Cortana, Adicionar pessoa por nome à reunião e Chamada por nome 
-- Cortana Push to Talk é habilitado por padrão em todos os dispositivos. Para saber mais, consulte [Cortana de voz em Teams](../cortana-in-teams.md).
+- Cortana Push to Talk está habilitado por padrão em todos os dispositivos. Para saber mais, consulte [Cortana de voz em Teams](../cortana-in-teams.md).
 
 > [!NOTE]
 > Suporte 19H1 preterido. A versão do sistema operacional mínimo com suporte 4.10 é 19H2.
@@ -141,7 +147,7 @@ Introduzido nesta atualização:
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 Introduzido nesta atualização:
-- Nuvem da Comunidade Governamental Suporte alto (GCCH) para Salas do Teams. Os clientes GCCH com dispositivos Salas do Teams existentes podem baixar a versão 4.8.19.0 de um dispositivo [Salas do Microsoft Teams manualmente](manual-update.md)
+- Nuvem da Comunidade Governamental suporte a Alta (GCCH) para Salas do Teams. Os clientes GCCH com dispositivos Salas do Teams existentes podem baixar a versão 4.8.19.0 de um dispositivo [Salas do Microsoft Teams manualmente](manual-update.md)
 - Participe de reuniões de Zoom com melhor qualidade de vídeo (suporte a 720p) e receba a galeria de vídeo dos participantes
 - Skype for Business faixa de falha de login removida para Teams modo padrão. Essa alteração dá suporte a organizações que removem Skype for Business infraestrutura
 - Teams reuniões de junção de link agora lidam com a Proteção Avançada contra Ameaças do Microsoft Defender Cofre Links para permitir a junção de Teams externas perfeitamente
@@ -194,7 +200,7 @@ Introduzido nesta atualização:
 Introduzido nesta atualização:
 
 - Participar de reuniões da Cisco WebEx de Salas do Teams com participação direta de convidados
-- Teams Habilitação e registro automático do Centro de Administração
+- Teams habilitação e registro automático do Centro de Administração
 - Windows 10 suporte a versão 1909
 - Alternar para o layout da galeria de vídeo mesmo quando o conteúdo estiver presente
 - Suporte de mãos de aumento virtual para o participante e controles para apresentador
@@ -252,7 +258,7 @@ Introduzido nesta atualização:
 - Atender automaticamente chamadas baseadas em proximidade e configuração de administrador para controlar isso
 - Atualização da interface do usuário Configurações administrador de dispositivos com adição da configuração do dispositivo na guia Sobre
 - Controle de sala de volta para a tela principal
-- Sala de Reunião SKU disponível em GCC
+- Sala de Reunião SKU disponível no GCC
 - Suporte à câmera de conteúdo Surface Pro sistema baseado em Surface Pro (Com build mínimo necessário do aplicativo: 4.2.4.0)
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
@@ -276,13 +282,13 @@ Introduzido nesta atualização:
 
 Introduzido nesta atualização:
 
-- Skype Room System store app rebrand to "Salas do Microsoft Teams"
+- Skype de aplicativo da Loja do Sistema de Sala para "Salas do Microsoft Teams"
 - Salas do Microsoft Teams interface do usuário do console realinhada para Microsoft Teams
 - Atualização de tema: mantenha apenas a imagem de plano de fundo personalizada na frente das exibições de sala, enquanto faz do plano de fundo do console uma cor neutra para garantir que os controles da interface do usuário do console atendem ao contraste de cores— requisitos de acessibilidade
 - Barra universal para controles de chamadas em reunião para chamadas Teams/reuniões para fornecer uma experiência consistente com Microsoft Teams clientes pc/Web/Mobile<sup>1</sup>
 - Classificação de feedback de qualidade de chamada após Teams chamadas/reuniões<sup>1</sup>
 - Recebimento/renderização Microsoft Whiteboard na tela Salas do Microsoft Teams da sala de exibição quando compartilhado do computador/ Web/ Mobile Teams cliente<sup>1</sup> <sup>2</sup>
-- Foi removido o suporte Windows 10 atualizações da versão 1809 devido a problemas de compatibilidade com Salas do Microsoft Teams cliente. Windows 10 O suporte à versão 19H1 será adicionado em versões futuras
+- Foi removido o suporte Windows 10 atualizações da versão 1809 devido a problemas de compatibilidade com Salas do Microsoft Teams cliente. Windows 10 suporte à versão 19H1 será adicionado em versões futuras
 
 <sup>1</sup> Microsoft Teams distribuição de serviço usando Teams anéis. Esse recurso pode estar disponível anterior ou posterior à atualização do cliente 4.0.105.0
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
-ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
+ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
+ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327299"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61426103"
 ---
 # <a name="configure-sip-gateway"></a>Configurar Gateway SIP
 
@@ -107,6 +107,9 @@ Para habilitar o Gateway SIP no Teams de administração, siga estas etapas:
 
 Você também pode habilitar o Gateway SIP usando o cmdlet PowerShell [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Para habilitar usuários para dispositivos SIP, selecione uma política e de definir o `-AllowSIPDevicesCalling` atributo como `True` . O valor padrão é `False` , portanto, os usuários não poderão usar seus dispositivos SIP, a menos que você os habilita.
 
+
+> [!NOTE]
+> - A propagação de política pode levar até 24 horas.
 
 ## <a name="set-the-sip-gateway-provisioning-server-url"></a>Definir a URL do servidor de provisionamento de Gateway SIP
 
@@ -195,7 +198,7 @@ Para simplificar suas tarefas, você pode registrar dispositivos SIP no centro d
 
      f. No painel **Provisionar dispositivos,** em Aguardando ativação, selecione um dispositivo e selecione **Gerar** código de verificação para gerar um código de verificação único para cada dispositivo provisionado. Observe o código de verificação para cada dispositivo SIP.
 
-4. No dispositivo SIP, disque o código do recurso de registro seguido pelo código de verificação. Por exemplo, se o código do recurso de registro for 55* e o código de verificação for 123456, disque \* \* 55 123456 para registrar o \* dispositivo.
+4. No dispositivo SIP, disque o código do recurso de registro seguido pelo código de verificação. No dispositivo SIP, disque o código do recurso de registro 55* (usado pelo Gateway SIP para registro de validação de código de verificação única), seguido do código de verificação gerado no Centro de Administração do Teams para este \* dispositivo específico. Por exemplo, se o código de verificação 123456, disque \* 55 123456 para registrar o \* dispositivo.
 
 5.  No painel **Provisionar dispositivos,** em **Aguardando entrada,** selecione **Sair**.
 
