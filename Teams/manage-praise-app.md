@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Saiba mais sobre as configurações de administrador no aplicativo Elogio no centro de administração Microsoft Teams local
-ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 044ab5d7fc5aebba1b1245f349e4ed27c61190b6
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858028"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513452"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o Elogio no centro Microsoft Teams administrador
 
@@ -157,3 +157,11 @@ Os conjuntos de selos integrados não podem ser modificados, portanto, quando um
 |Autoconhecimento    |[PNG de autoconhecimento](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |Auto-gerenciamento   |[PNG de auto-gerenciamento](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |Consideração    |[PNG de consideração](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+
+## <a name="upcoming-changes"></a>Alterações futuras
+
+A partir de janeiro de 2022, o que está disponível atualmente para selos será diferente. Os selos de aprendizagem social e afetiva para educação, incluindo autoconhecimento e auto-gerenciamento, não estarão mais disponíveis.
+
+A **opção Criar um selo** personalizado também não estará mais disponível a partir de janeiro de   2022.
+
+Além disso, a alternância **status** no centro de administração do Teams que permite ou bloqueia o Elogio afetará o aplicativo Elogio e o recurso Elogio no aplicativo Viva Insights no Teams.

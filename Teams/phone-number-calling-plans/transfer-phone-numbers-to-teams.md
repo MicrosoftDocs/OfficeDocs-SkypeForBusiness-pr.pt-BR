@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar o assistente de portação para transferir seu número de telefone do provedor de serviços atual para Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b487249e9a3744c2f83a9bece04a17e7e2948f01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 39be72edfa013a42fec6dcc60a8555d98be87b57
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861948"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513472"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de telefone para Microsoft Teams
 
@@ -90,6 +90,10 @@ Antes de começar, recomendamos que você revise as informações em [O que é u
 Quando recebermos seu pedido de portabilidade, você receberá um email que verifica sua solicitação. Sua solicitação é verificada e atualizada diariamente e você será notificado sobre seu progresso e status no email. Se sua solicitação de porta for rejeitada pela operadora perdedora, entre em contato com o [Service Desk TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 Para exibir o status da sua ordem de porta, na navegação à esquerda do centro de administração Microsoft Teams, vá para > pedidos de Porta de Voz e clique em Histórico de  >   **pedidos**. Cada status do pedido de porta está listado na **coluna Status.** Para saber mais, confira [Qual é o status dos pedidos de portabilidade?](port-order-status.md)
+
+
+## <a name="reporting-telephone-number-issues"></a>Relatar problemas de número de telefone?
+Se você observar qualquer problema com os números portados nas primeiras 24 a 48 horas. após a conclusão da porta, entre em contato com o [Service Desk TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) Para qualquer problema fora de 48 horas. Por favor, MS Support Team.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

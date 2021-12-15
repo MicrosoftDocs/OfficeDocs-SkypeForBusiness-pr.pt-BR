@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -583,7 +583,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -711,7 +711,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -759,102 +759,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: Vídeos - Audioconferência no Teams
                 href: ./audio-conferencing-in-office-365.md
-      - name: Salas do Microsoft Teams
-        items:
-          - name: Visão geral
-            href: rooms/index.md
-          - name: Orientações de sala de reunião para o Teams
-            href: teams-meeting-room-guidance.md
-          - name: Serviços gerenciados de Salas do Microsoft Teams
-            items:
-              - name: Visão Geral
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: Obter e atribuir uma licença
-                href: rooms/obtaining-assigning-license.md
-              - name: Registrar-se no serviço gerenciado MTRP
-                href: rooms/enrolling-mtrp-managed-service.md
-              - name: Controle de acesso baseado em função
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-              - name: Configurar ServiceNow para Salas do Teams
-                href: rooms/microsoft-teams-rooms-configure-servicenow.md
-              - name: "Gerenciamento de vários locatários de\_clientes para Parceiros"
-                href: rooms/multi-tenant-management-partner.md
-              - name: "Gerenciamento de parceiros para\_Clientes"
-                href: rooms/multi-tenant-management-customer.md
-              - name: Logs de Auditoria para atividades de Serviços Gerenciados de Salas do Microsoft Teams
-                href: rooms/multi-tenant-auditing.md
-          - name: Planejar
-            items:
-              - name: Visão geral do planejamento de Salas do Microsoft Teams
-                href: rooms/rooms-plan.md
-              - name: Dispositivos Teams apresentam comparação entre Windows e Android
-                href: rooms/teams-devices-feature-comparison.md
-              - name: Suporte para versões
-                href: rooms/rooms-lifecycle-support.md
-              - name: Notas de versão
-                href: rooms/rooms-release-note.md
-              - name: Preparar seu ambiente
-                href: rooms/rooms-prep.md
-              - name: Requisitos
-                href: rooms/requirements.md
-              - name: Segurança
-                href: rooms/security.md
-              - name: Licenciamento online
-                href: rooms/rooms-licensing.md
-              - name: Planejar o gerenciamento com o Azure Monitor
-                href: rooms/azure-monitor-plan.md
-          - name: Implantar
-            items:
-              - name: Visão geral de implantação
-                href: rooms/rooms-deploy.md
-              - name: Configurar contas
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: Configurar Otimização de Reuniões
-                    href: rooms/coordinated-meetings.md
-                  - name: Gerenciar as configurações do Microsoft Teams
-                    href: rooms/surface-hub-manage-config.md
-              - name: Com o Office 365
-                href: rooms/with-office-365.md
-              - name: Com o Skype for Business Server
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: Com o Exchange Online (Híbrido)
-                href: rooms/with-exchange-online.md
-              - name: Com o Exchange Local (Híbrido)
-                href: rooms/with-exchange-on-premises.md
-              - name: Configurar um console
-                href: rooms/console.md
-              - name: Atualizar manualmente um dispositivo
-                href: rooms/manual-update.md
-              - name: Configurar autenticação
-                href: rooms/rooms-authentication.md
-              - name: Ingresse em reuniões de terceiros
-                href: rooms/third-party-join.md
-              - name: Usando o Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
-              - name: Gerenciamento com o Azure Monitor
-                href: rooms/azure-monitor-deploy.md
-              - name: Migrar SRS v1 ou LRS
-                href: rooms/lrs-migration.md
-              - name: Câmeras de conteúdo
-                href: rooms/content-camera.md
-              - name: Controles de reconhecimento de voz para alto-falantes inteligentes
-                href: rooms/voice-recognition.md
-          - name: Gerenciar
-            items:
-              - name: Visão geral do gerenciamento
-                href: rooms/rooms-manage.md
-              - name: Manutenção e operações
-                href: rooms/rooms-operations.md
-              - name: Problemas conhecidos
-                href: rooms/known-issues.md
-              - name: Dispositivos com o Azure Monitor
-                href: rooms/azure-monitor-manage.md
-              - name: Configurações com um arquivo XML
-                href: rooms/xml-config-file.md
-              - name: Usar a ferramenta de recuperação
-                href: rooms/recovery-tool.md
   - name: Voz - Conectividade PSTN e de Telefonia do Microsoft Teams
     items:
       - name: Planejar sua solução de voz do Teams
@@ -1391,14 +1295,14 @@ items:
         items:
           - name: Visão geral
             href: rooms/index.md
-          - name: Orientações de sala de reunião para o Teams
-            href: teams-meeting-room-guidance.md
           - name: Planejar
             items:
               - name: Visão geral do planejamento de Salas do Microsoft Teams
                 href: rooms/rooms-plan.md
               - name: Dispositivos Teams apresentam comparação entre Windows e Android
                 href: rooms/teams-devices-feature-comparison.md
+              - name: Orientações de sala de reunião para o Teams
+                href: teams-meeting-room-guidance.md
               - name: Suporte para versões
                 href: rooms/rooms-lifecycle-support.md
               - name: Notas de versão
@@ -1644,12 +1548,8 @@ items:
             href: manage-tasks-app.md
           - name: Gerenciar o aplicativo de Aprovações no Teams
             href: approval-admin.md
-          - name: Turnos do Teams
-            items:
-              - name: Turnos do Teams
-                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-              - name: Gerenciar o aplicativo Turnos
-                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          - name: Gerenciar o aplicativo Turnos
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
       - name: Microsoft Teams para Educação
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce78cfa86dfe562b33a892fbcc85a3946097eca6
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b499a11d057f376f09ad101b043f8ac60f112ade
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257352"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513492"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -66,13 +66,17 @@ As plataformas a seguir têm soluções de infraestrutura de área de trabalho v
 
 |Plataforma|Solução|
 |----|---|
-|![O logotipo que representa a Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Área de trabalho virtual do Azure</a> |
+|![O logotipo que representa a Microsoft.](media/microsoft-logo.png)| Área de trabalho virtual do <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure</a>, <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
 |![O logotipo que representa Citrix.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 |![O logotipo que representa a VMware.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Área de trabalho virtual do Azure
 
-A Área de Trabalho Virtual do Azure fornece otimização av para Teams em VDI. Para saber mais e requisitos e instalação, consulte [Use Teams no Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
+A Área de Trabalho Virtual do Azure fornece otimização av para Teams em VDI. Para saber mais sobre requisitos e instalação, consulte [Use Teams no Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
+
+### <a name="windows-365"></a>Windows 365
+
+Windows 365 usa a otimização de AV fornecida pela Área de Trabalho Virtual do Azure para garantir Teams experiências ideais de computadores na Nuvem. Para saber mais sobre requisitos e instalação, consulte [Use Teams no Cloud PC](/windows-365/enterprise/teams-on-cloud-pc).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Requisitos do Citrix Virtual Apps and Desktops
 
