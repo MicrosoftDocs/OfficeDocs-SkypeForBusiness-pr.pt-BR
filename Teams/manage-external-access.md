@@ -21,12 +21,12 @@ description: Seu administrador do Teams ou de TI pode configurar o acesso extern
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634920"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513482"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 
@@ -54,7 +54,7 @@ O acesso externo é ativado por padrão no Teams, o que significa que sua organi
 
 - **Permitir todos os domínios externos**: essa é a configuração padrão no Teams e permite que as pessoas na sua organização localizem, liguem, conversem e configurem reuniões com pessoas externas à sua organização em qualquer domínio.
 
-    Nesse cenário, seus usuários podem se comunicar com todos os domínios externos que estiverem executando o Teams ou Skype for Business ou que permitam todos os domínios externos ou que tenham adicionado seu domínio à sua lista de permissões.
+    Nesse cenário, seus usuários podem se comunicar com todos os domínios externos que executam Teams ou Skype for Business ou permitem todos os domínios externos ou adicionaram seu domínio à lista de permissões.
 
 - **Permitir apenas domínios externos específicos**: ao adicionar domínios a uma lista **Permitir**, você limita o acesso externo apenas aos domínios permitidos. Depois de configurar uma lista de domínios permitidos, todos os outros domínios serão bloqueados. Para permitir domínios específicos, clique em **Adicionar um domínio**, adicione o nome do domínio, clique em **Ação a ser executada neste domínio** e depois selecione **Permitido**.
 
@@ -141,6 +141,50 @@ Para testar sua configuração, você precisa de um usuário do Teams que não s
 
 > [!NOTE]
 > Isso funcionará se você e outro usuário habilitarem o acesso externo e permitirem domínios um do outro. Se não funcionar, o outro usuário deve verificar se a configuração que ele está usando está bloqueando o seu domínio.
+
+## <a name="limit-external-access-to-specific-people"></a>Limitar o acesso externo a pessoas específicas
+
+Você pode limitar o acesso externo a pessoas específicas usando o PowerShell.
+
+Você pode usar o script de exemplo abaixo, substituindo *PolicyName* pelo nome que deseja dar à política e *UserName* para cada usuário que deseja que tenha acesso externo.
+
+Certifique-se de ter instalado o [Módulo Microsoft Teams PowerShell](/microsoftteams/teams-powershell-install) antes de executar o script.
+
+```PowerShell
+Connect-MicrosoftTeams
+
+# Disable external access globally
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+# Create a new external access policy
+New-CsExternalAccessPolicy -Identity <PolicyName> -EnableTeamsConsumerAccess $true
+
+# Assign users to the policy
+$users_ids = @("<UserName1>", "<UserName2>")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "<PolicyName>" -Identity $users_ids
+
+```
+
+Por exemplo:
+
+```PowerShell
+Connect-MicrosoftTeams
+
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+New-CsExternalAccessPolicy -Identity ContosoExternalAccess -EnableTeamsConsumerAccess $true
+
+$users_ids = @("MeganB@contoso.com", "AlexW@contoso.com")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "ContosoExternalAccess" -Identity $users_ids
+
+```
+
+Consulte [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para obter exemplos adicionais de como compilar uma lista de usuários.
+
+Você pode ver a nova política executando `Get-CsExternalAccessPolicy -Include All`.
+
+
+Consulte também [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) e [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
 ## <a name="common-external-access-scenarios"></a>Casos comuns de acesso externo
 
