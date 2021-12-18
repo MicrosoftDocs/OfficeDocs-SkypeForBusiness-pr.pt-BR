@@ -20,17 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Saiba mais sobre as considerações de planejamento para Sistema de Telefonia (Cloud PBX) com conectividade PSTN local.
-ms.openlocfilehash: 21ad7efc67b503f790dd307b23aee5f8fd9ce11c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a3c01ed32cb2654ea10773f53c4148262e3ee6c5
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864528"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562773"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server
 
 > [!Important]
-> Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Skype for Business Online foi retirado em 31 de julho de 2021 e a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não há mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
 
 Saiba mais sobre as considerações de planejamento para Sistema de Telefonia (Cloud PBX) com conectividade PSTN local.
 
@@ -70,7 +70,7 @@ Ao implantar um serviço hospedado na nuvem como Sistema de Telefonia com conect
 
 - **Rede global de entrega de mídia da Microsoft** Infraestrutura e rede global de nuvem da Microsoft. Sistema de Telefonia servidores e tráfego percorrem essa rede.
 
-- **Enterprise/Cloud PSTN Interconnect** Essa é a rede que conecta sua empresa à nuvem. Isso não é necessariamente o mesmo que sua conexão genérica com a Internet.
+- **Enterprise/Conexão PSTN de Nuvem** Esta é a rede que conecta sua empresa à nuvem. Isso não é necessariamente o mesmo que sua conexão genérica com a Internet.
 
 - **Rede própria da sua empresa** A qualidade da mídia em tempo real depende muito da sua própria rede: especialmente da rede WiFi e da qualidade da interconexão usada para alcançar a nuvem.
 
@@ -102,7 +102,7 @@ Antes de configurar o Sistema de Telefonia com conectividade PSTN local e mover 
 
 Além disso, você deve garantir o seguinte:
 
-- **A Enterprise Voice local é configurada e testada para usuários locais** Isso inclui componentes de conectividade PSTN. Para obter mais informações, consulte os tópicos a seguir se você estiver usando o Skype for Business Server 2015, consulte [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) and Deploy Enterprise Voice in Skype for Business Server [2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
+- **O Enterprise Voice** local é configurado e testado para usuários locais Isso inclui componentes de conectividade PSTN. Para obter mais informações, consulte os tópicos a seguir se você estiver usando o Skype for Business Server 2015, consulte [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) and Deploy Enterprise Voice [in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
 
     Se você estiver usando o Lync Server 2013, consulte [Planning for Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) and [Deploying Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice).
 
@@ -111,7 +111,7 @@ Além disso, você deve garantir o seguinte:
     > [!NOTE]
     > A versão do AAD Conexão que você usa deve ser a versão 1.0.9125.0 ou posterior. Se você estiver usando uma versão anterior de ferramentas AAD Conexão ou DirSync, atualize para a versão com suporte. Você pode atualizar sua instalação atual e manter todas as regras personalizadas definidas em seu ambiente. 
 
-- **Configurar sua implantação híbrida** Se todos os usuários do seu Skype for Business estão atualmente no local ou online ou se você tem uma combinação no momento, você deve concluir as etapas para configurar uma implantação híbrida do Skype for Business Server ou do Lync Server 2013, conforme descrito em [Deploy hybrid connectivity between Skype for Business Server and Office 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). Para obter mais informações sobre implantações híbridas, consulte [Plan hybrid connectivity between Skype for Business Server and Office 365](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 
+- **Configurar sua implantação híbrida** Se todos os usuários do Skype for Business estão atualmente em casa online ou no local ou se você tem uma combinação no momento, você deve concluir as etapas para configurar uma implantação híbrida do Skype for Business Server ou do Lync Server 2013, conforme descrito em [Deploy hybrid connectivity between Skype for Business Server e Office 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). Para obter mais informações sobre implantações híbridas, consulte [Plan hybrid connectivity between Skype for Business Server and Office 365](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 
 
     Se você estiver usando o Lync Server 2013, consulte [Lync Server 2013 hybrid](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-2013-hybrid).
 

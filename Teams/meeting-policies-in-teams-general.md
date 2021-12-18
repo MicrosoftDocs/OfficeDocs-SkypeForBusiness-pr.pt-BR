@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações gerais de política de reunião Teams.
-ms.openlocfilehash: b7c08799ee9e7c2b1e6239b17abaa66b7d1e3d47
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177932"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562869"
 ---
 # <a name="meeting-policy-settings---general"></a>Configurações de política de reunião - Geral
 
@@ -124,13 +124,19 @@ Lembre-se de que, depois de definir o valor padrão, os organizadores de reuniã
 
 Essa é uma política por usuário. Essa configuração controla se o organizador da reunião pode baixar o relatório de participação da [Reunião](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Essa política está desligada por padrão e permite que seus organizadores vejam quem registrou e participou das reuniões e webinars que eles configuraram. Para ativar isso no centro de administração Teams, vá para **Políticas** de Reunião de Reuniões e de definir a  >  política como **Habilitado**.
+Essa política está desligada por padrão e permite que seus organizadores vejam quem registrou e participou das reuniões e webinars que eles configuraram. Para ativar isso no centro de administração Teams, vá para Políticas de Reunião de Reuniões e de definir a configuração do relatório de  >   **envolvimento** **como Habilitado**.
 
-Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
+Você também pode editar uma política de Teams de reunião existente usando o cmdlet [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy) Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
 
 Para permitir que um organizador da reunião baixe o relatório de participação da reunião, de definir o **parâmetro AllowEngagementReport** **como Habilitado**. Quando habilitada, a opção para baixar o relatório é exibida no painel **Participantes**. Por padrão, essa configuração não está habilitada.
 
 Para impedir que o organizador da reunião baixe o relatório, defina o parâmetro como **Desabilitado**.
+
+> [!NOTE]
+> Como administrador, você não pode exibir o relatório de participação para reuniões que não organiza. No entanto, você pode exibir os detalhes dos participantes para uma determinada reunião dentro de 24 horas após essa reunião. No centro Teams de administração, vá para **Usuários**  >  **Gerenciar usuários**. Escolha o nome de exibição para o organizador da reunião. Selecione a **guia Reuniões & chamadas** e escolha a ID de reunião apropriada ou a ID de chamada. Em seguida, selecione **Detalhes do participante**.
+
+Para obter mais informações, incluindo os limites do relatório de envolvimento, consulte exibindo e [baixando relatórios](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)de participação da reunião em Teams .
+
 
 ## <a name="meeting-registration"></a>Registro de reunião
 
@@ -161,7 +167,7 @@ Para permitir que apenas usuários em sua organização registrem e participem d
 
 ## <a name="meeting-provider-for-islands-mode"></a>Provedor de reuniões para modo Ilhas
 
-Essa é uma política por usuário. Essa configuração controla qual suplemento de reunião do Outlook é usado para os *usuários que estão no modo Uso Paralelo*. Você pode especificar se os usuários podem usar apenas o suplemento de reunião do Teams ou os suplementos de reunião do Teams e de reunião do Skype for Business para agendar reuniões no Outlook.
+Essa é uma política por usuário. Essa configuração controla qual suplemento de reunião do Outlook é usado para os *usuários que estão no modo Uso Paralelo*. Você pode especificar se os usuários podem usar apenas o suplemento de Reunião do Teams ou os suplementos de Reunião do Teams e de Reunião do Skype for Business para agendar reuniões no Outlook.
 
 Você só pode aplicar esta política aos usuários que estão no modo Uso Paralelo e possuem o parâmetro **AllowOutlookAddIn** definido como **Verdadeiro** na política de reunião do Teams.
 

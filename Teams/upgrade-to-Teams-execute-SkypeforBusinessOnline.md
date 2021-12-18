@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bb2924dfe6bab5afedda2b02b1027de057c9e86
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 699f360b8bafb023ad1a477d125d3fc2794e0f67
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733930"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563568"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Atualizar do Skype for Business Online para o Teams
 
@@ -44,7 +44,7 @@ Este artigo faz parte do estágio implantação e implementação da sua jornada
 Siga as diretrizes deste artigo se você tiver implantado totalmente o Skype for Business Online e quiser atualizar seus usuários de Skype for Business para Teams. Você pode atualizar os usuários de forma seletiva ou all-in, com base na jornada de atualização escolhida pela sua organização, atribuindo a coexistência apropriada e o modo de atualização aos seus usuários.
 
 > [!IMPORTANT]
-> O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a preparação técnica e do usuário, portanto, certifique-se de aproveitar as diretrizes aqui enquanto você navega sua jornada até Microsoft Teams.
+> Skype for Business Online foi aposentado em 31 de julho de 2021. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a preparação técnica e do usuário, portanto, certifique-se de aproveitar as diretrizes aqui enquanto você navega sua jornada até Microsoft Teams.
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>Atribuir o modo de coexistência e atualização
 

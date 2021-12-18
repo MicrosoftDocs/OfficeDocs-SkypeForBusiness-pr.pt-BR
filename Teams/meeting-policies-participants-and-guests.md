@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações de política de reunião Teams para participantes e convidados.
-ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
-ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
+ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "61234299"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563117"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -98,6 +98,17 @@ Essa configuração é uma configuração por participante. Essa configuração 
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="enable-meeting-policy-settings"></a>Habilitar configurações de política de reunião
+
+Para habilitar as configurações da política de reunião, você pode usar o centro de administração do [Teams](https://admin.teams.microsoft.com/policies/meetings) **(** Políticas de Reunião Editar uma política Participantes & convidados ) ou o  >    >  cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) no Teams PowerShell. 
+
+Neste exemplo, usamos o PowerShell para modificar a política de reunião global para permitir que qualquer pessoa inicie ou participe de uma reunião.
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
+```
+
+Depois de configurar uma política, você precisa aplicá-la aos usuários. Se você modificou a política Global (padrão em toda a organização), ela será aplicada automaticamente aos usuários. Você precisa esperar pelo menos 4 horas para que qualquer alteração de política entre em vigor, mas pode levar até 24 horas.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

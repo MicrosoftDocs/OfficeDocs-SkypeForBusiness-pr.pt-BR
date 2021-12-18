@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35a061334e9a7e426614574afcc6eda42df9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3cdf1c9a9accc43275dc0573e90826d554adb12c
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728470"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563614"
 ---
 # <a name="about-the-upgrade-framework"></a>Sobre a estrutura de atualização
 
@@ -94,7 +94,7 @@ Para ajudar a demonstrar como sua jornada de atualização pode se desenvolver, 
 | **1** | **Anunciar o lançamento oficial do Teams** | Gere animação e impulso enviando um comunicado de lançamento oficial quando Teams estiver pronto. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **Implementar sua atualização** | As etapas que você seguir dependem da implantação atual do Skype for Business. | [Implementar sua atualização](upgrade-to-teams.md) |
 | **3** | **Mantenha-se informado sobre o Teams roteiro** | Monitore Teams roteiro para identificar o momento certo para que sua organização se mova para Teams. | [Teams roteiro](https://aka.ms/teamsroadmap) |
-| **4** | **Enviar comunicações adicionais e envolver Teams campeões para impulsionar a emoção e a adoção de Teams** | Incentive a adoção do usuário e mantenha a Teams com comunicações e campeões em andamento. | [Microsoft 365 Programa Campeões](https://aka.ms/O365Champions) |
+| **4** | **Enviar comunicações adicionais e envolver Teams campeões para impulsionar a emoção e a adoção de Teams** | Incentive a adoção do usuário e mantenha a Teams com comunicações e campeões em andamento. | [Microsoft 365 Champions](https://aka.ms/O365Champions) |
 
 ## <a name="upgrade"></a>Atualizar 
 
@@ -129,4 +129,4 @@ Para ajudar a demonstrar como sua jornada de atualização pode se desenvolver, 
 > Nosso conteúdo upgrade está em constante evolução. Certifique-se de fazer check-back para obter as diretrizes mais recentes e ler o [blog Teams .](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
 
 > [!Important]
-> O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a preparação técnica e do usuário, portanto, certifique-se de aproveitar as diretrizes aqui enquanto você navega sua jornada até Microsoft Teams.
+> Skype for Business Online foi aposentado em 31 de julho de 2021. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a preparação técnica e do usuário, portanto, certifique-se de aproveitar as diretrizes aqui enquanto você navega sua jornada até Microsoft Teams.

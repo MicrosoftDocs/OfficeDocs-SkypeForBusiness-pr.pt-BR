@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: 'Este tópico descreve como habilitar usuários para Sistema de Telefonia com conectividade PSTN local. Antes de seguir as etapas deste tópico, leia o seguinte: .'
-ms.openlocfilehash: 22e0db6b9cd99c7909bcc6477db28546feef21d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ffd7e9f02466dddeef31ba7ffd3a194a04b9b2ff
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625033"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563658"
 ---
 # <a name="enable-users-for-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Habilitar usuários para o Sistema de Telefonia com conectividade PSTN local no Skype for Business Server
 
@@ -37,7 +37,7 @@ Este tópico descreve como habilitar usuários para Sistema de Telefonia com con
 - Para saber mais sobre Sistema de Telefonia, incluindo licenciamento e planos, consulte Planos de Chamada [PSTN para](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918)Skype for Business .
     
 > [!Important]
-> Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Skype for Business Online foi retirado em 31 de julho de 2021 e a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não tem mais suporte. Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
 
 ## <a name="moving-users-to-phone-system-with-on-premises-pstn-connectivity"></a>Mover usuários para Sistema de Telefonia com conectividade PSTN local
 

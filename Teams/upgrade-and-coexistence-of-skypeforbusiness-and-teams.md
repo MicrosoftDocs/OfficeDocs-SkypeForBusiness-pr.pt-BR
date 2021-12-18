@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11644e527338e4c37056071893c3d3ad735253f0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: deb64412a96ece539decd8dc2145067a91a1b95f
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733700"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562813"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Escolha a jornada de atualização do Skype for Business para o Teams
 
@@ -41,7 +41,7 @@ Este artigo faz parte do estágio de Definição do Projeto da sua jornada de at
 Como um cliente existente do Skype for Business, sua transição completa para o Teams poderá levar algum tempo. Além disso, para começar a tirar proveito ainda hoje das vantagens do Microsoft Teams, você pode habilitá-lo juntamente com o Skype for Business. Como há algumas funcionalidades sobrepostas entre os dois aplicativos, recomendamos que você revise os modos de coexistência e atualização disponíveis para ajudar a determinar qual caminho é o certo para sua organização. Por exemplo, você pode optar por habilitar todas as cargas de trabalho nas duas soluções sem interoperabilidade. Ou então, você pode optar por gerenciar a experiência do usuário, introduzindo gradualmente os recursos do Teams ou direcionando grupos de usuários para os recursos selecionados, até que sua organização esteja pronta para atualizar todos para o Teams. Use o resultado do seu piloto para ajudar a determinar a melhor jornada de atualização para sua organização.
 
 > [!IMPORTANT]
-> O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams.
+> Skype for Business Online foi aposentado em 31 de julho de 2021. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams.
 
 Esse artigo descreve os vários modos que lhe permitem gerenciar quais modalidades no Skype for Business e no Teams estarão disponíveis para seus usuários. Como em qualquer implantação, recomendamos que você [teste seu plano pretendido](pilot-essentials.md) com um grupo selecionado de usuários antes de atualizar sua organização para o Teams. Lembre-se de que a introdução de novas tecnologias pode causar problemas aos usuários. Reserve um tempo para avaliar a prontidão do usuário e implementar um plano de comunicação e treinamento antes de implementar qualquer um dos modos descritos aqui.
 
@@ -88,7 +88,7 @@ Ao usar o método de recursos sobrepostos, o tráfego de comunicação do Skype 
 
 - A comunicação iniciada Teams cliente de um usuário em uma *organização externa* sempre estará no cliente Skype for Business Usuário A.
 
-Se você tiver atribuído uma licença Microsoft 365 ou Office 365 aos usuários, essa será a experiência de atualização padrão para sua organização. Quando você atribui uma Microsoft 365 ou Office 365, as licenças Teams e Skype for Business Online são atribuídas por padrão. <sup>2</sup>
+Se você tiver atribuído uma licença Microsoft 365 ou Office 365 aos usuários, essa será a experiência de atualização padrão para sua organização. Quando você atribui uma Microsoft 365 ou Office 365, as licenças Teams e Skype for Business Online são atribuídas por padrão.<sup> 2</sup>
 
 Para que esse método funcione efetivamente, todos os usuários devem executar ambos os clientes simultaneamente. Os chats e chamadas recebidos de dentro da organização para um usuário no modo de Uso Paralelo podem chegar ao cliente do Skype for Business ou do Teams, mas isso não está sob o controle do destinatário. Depende de qual cliente o remetente usa para iniciar a comunicação. Se o remetente e o destinatário estiverem em organizações diferentes, chamadas e chats recebidos para um usuário no modo de Uso Paralelo sempre chegam ao cliente do Skype for Business.
 
@@ -185,7 +185,7 @@ A tabela a seguir resume os métodos de atualização:
 |A interoperabilidade entre o Skype for Business e o Teams não existe enquanto os dois usuários estão no modo de Uso Paralelo. Depois que alguns usuários são atualizados para o TeamsOnly, a conversa de interopção pode ocorrer entre esses usuários e outros usuários que ainda estão no modo Ilhas. No entanto, os usuários de ilhas podem optar por usar Teams e evitar a conversa de interop.      |A interoperabilidade é necessária para a comunicação entre usuários do Skype for Business e do Teams.         |
 
 > [!NOTE]
-> Caso não consiga seguir os métodos com suporte para migrar os usuários do Skype for Business Server para o Teams, seria possível fazer a transição dos usuários para o Teams removendo o Skype for Business Server e todos os atributos de usuário relacionados no Active Directory. Depois que os atributos Azure Active Directory usuários tiverem sido desapurados dos atributos do Skype for Business Server e os registros DNS tiverem sido apontados novamente para Microsoft 365 ou Office 365, seria possível licenciar os usuários no Microsoft 365 ou no Office 365 e atualiza-los para Teams. 
+> Caso não consiga seguir os métodos com suporte para migrar os usuários do Skype for Business Server para o Teams, seria possível fazer a transição dos usuários para o Teams removendo o Skype for Business Server e todos os atributos de usuário relacionados no Active Directory. Depois que os atributos Azure Active Directory usuários tiverem sido limpos dos atributos Skype for Business Server e registros DNS tiverem sido apontados novamente para Microsoft 365 ou Office 365, seria possível licenciar os usuários em Microsoft 365 ou Office 365 atualize-os para Teams. 
 
 > [!IMPORTANT]
 > Com a migração de substituição, os dados de contatos e de reuniões não serão migrados do ambiente local para o Microsoft Teams.

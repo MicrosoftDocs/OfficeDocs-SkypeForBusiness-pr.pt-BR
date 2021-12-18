@@ -18,23 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44ca04f9fce23876c7ee782ef5cc5078da7e67c4
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 684e7e73932ea2af84518219cf8a9717a732174a
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513462"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562823"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Atualizações assistidas do Skype for Business Online para Microsoft Teams
 
-A Microsoft oferece atualizações assistidas para Teams ajudar as organizações a fazer uma transição bem-sucedida do Skype for Business Online à medida que o serviço se retira em 31 de julho de 2021. Se sua organização está atualizando de um *Skype for Business Online* ou *Skype for Business Online* com híbrido (usuários no Skype for Business **Online** e Skype for Business Server ) ambiente, atualizações assistidas reduzem o número de tarefas técnicas que você precisa fazer e permitem maior foco na preparação organizacional, no reconhecimento do usuário e Teams treinamento.
+A Microsoft oferece atualizações assistidas para Teams ajudar as organizações a fazer uma transição bem-sucedida do Skype for Business Online, que foi retirado em 31 de julho de 2021. Se sua organização está atualizando de um *Skype for Business Online* ou *Skype for Business Online* com híbrido (usuários no Skype for Business **Online** e Skype for Business Server ) ambiente, atualizações assistidas reduzem o número de tarefas técnicas que você precisa fazer e permitem maior foco na preparação organizacional, no reconhecimento do usuário e Teams treinamento.
 
 Recomendamos que você revise nossas [diretrizes de atualização antes](https://aka.ms/SkypeToTeams) da atualização. Nossas diretrizes de atualização incluem atividades recomendadas e recursos úteis para concluir uma atualização do Skype for Business Online para Teams. Essa orientação se aplica a qualquer organização que planeja uma atualização para Teams, quer gerencie todos os aspectos da atualização ou use o processo assistido.
-
-> [!NOTE]
-> Se você estiver agendado para uma atualização assistida para Teams, você pode executar sua própria atualização do Skype for Business Online antes da data de atualização agendada. Para obter mais informações sobre como atualizar manualmente para Teams, consulte nossas [diretrizes de atualização.](https://aka.ms/SkypeToTeams)
->
-> As atualizações assistidas não estão disponíveis para implantações locais de Skype for Business Server.
 
 ## <a name="notifications-for-scheduled-customers"></a>Notificações para clientes agendados
 
@@ -44,7 +39,7 @@ As notificações de atualização incluirão a data agendada da atualização a
 
 ## <a name="the-assisted-upgrade-experience"></a>A experiência de atualização assistida
 
-As atualizações assistidas começarão em agosto de 2021 com datas específicas do locatário compartilhadas nas notificações de agendamento mencionadas acima.
+As atualizações assistidas começaram em agosto de 2021 com datas específicas do locatário compartilhadas nas notificações de agendamento mencionadas acima.
 
 Sua experiência de atualização assistida será ligeiramente diferente, dependendo se você tem um Skype for Business somente online ou um Skype for Business Online com ambiente híbrido:
 
@@ -58,7 +53,9 @@ Sua experiência de atualização assistida será ligeiramente diferente, depend
   Se você tiver uma mistura de usuários em cada uma das categorias listadas acima, o processo de atualização assistida só alterna o Skype for Business Online para o modo Somente Teams se eles ainda não estão nesse modo. Os usuários locais Skype for Business não serão afetados pelo processo de atualização assistida.
 
 > [!NOTE]
-> Não se preocupe se a atualização assistida estiver agendada para uma data após 31 de julho de 2021. Sua organização poderá usar o Skype for Business Online até que sua atualização seja concluída.
+> Sua organização pode continuar a usar o Skype for Business Online até que sua atualização seja concluída. Se você estiver agendado para uma atualização assistida para Teams, você pode executar sua própria atualização do Skype for Business Online antes da data de atualização agendada. Para obter mais informações sobre como atualizar manualmente para Teams, consulte nossas [diretrizes de atualização.](https://aka.ms/SkypeToTeams)
+>
+> As atualizações assistidas não estão disponíveis para implantações locais de Skype for Business Server.
 
 A duração da atualização varia de acordo com o volume de usuários e as características da implantação. Na maioria dos casos, os usuários dentro de um locatário serão atualizados dentro de 24 horas após o início da atualização. Durante esse tempo, os usuários finais ainda terão acesso à funcionalidade Skype for Business Online. Depois que a atualização for concluída e os usuários sairem do Skype for Business Online, eles começarão a usar o Teams para mensagens, reuniões e chamada.
 

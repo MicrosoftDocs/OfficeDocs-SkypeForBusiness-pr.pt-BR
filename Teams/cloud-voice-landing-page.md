@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Saiba mais sobre os Microsoft Teams de voz na nuvem e as decisões de implantação que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f24e7934f3f9fe1be463c47e73933a6965d56cc9
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 939c31477454828484c88fea0a8f34e19b640a8b
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267764"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563596"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planejar sua solução Teams voz 
 
@@ -79,7 +79,7 @@ Considere quais dessas configurações adicionais você pode precisar:
 | [**Migrar sua solução de voz existente**](#migrate-your-existing-voice-solution-to-teams) | O que você precisa pensar ao migrar sua solução de voz para Teams.  Leia esta seção se você estiver migrando de uma solução de voz existente para Teams. 
 
 > [!Important]
-> Este artigo se concentra em soluções de voz com Microsoft Teams. É importante entender que o Skype for Business Online será retirado em 31 de julho de 2021. Após essa data, o Skype for Business online não estará mais acessível. Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e Skype for Business Online, não terá &mdash; &mdash; mais suporte. Este artigo apresenta Teams soluções de voz e como você pode conectar sua rede de telefonia local, se necessário, Teams usando o Operador Conexão ou Roteamento Direto.
+> Este artigo se concentra em soluções de voz com Microsoft Teams. Devido à aposentadoria do Skype for Business Online em 31 de julho de 2021, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não é mais &mdash; &mdash; suportada. Este artigo apresenta Teams soluções de voz e como você pode conectar sua rede de telefonia local, se necessário, Teams usando o Operador Conexão ou Roteamento Direto.
 
 
 ## <a name="teams-phone"></a>Teams Telefone

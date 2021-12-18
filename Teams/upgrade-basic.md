@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a06c4783e9ee4f42473e6b08f0d9bd51c142ddf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124248"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562793"
 ---
 # <a name="upgrade-basic"></a>Upgrade Basic
 
@@ -39,7 +39,7 @@ Projetada para organizações menores ou que usam o Skype for Business Online ap
 Essas dez etapas fáceis fornecem tudo o que você precisa para uma atualização bem-sucedida. Eles foram projetados para serem concluídos em cerca de 30 a 45 dias, mas você deve ajustar as datas de conclusão da tarefa com base no cronograma de atualização da sua organização.
 
 > [!IMPORTANT]
-> Skype for Business Online será retirada em 31 de julho de 2021. Após esse tempo, o Skype for Business online não estará mais acessível ou com suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams.
+> Skype for Business Online foi aposentado em 31 de julho de 2021. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams.
 
 O que acontece com Skype for Business após a atualização? Depois que seus usuários forem atualizados para o Teams (modo **Apenas Teams**):
 

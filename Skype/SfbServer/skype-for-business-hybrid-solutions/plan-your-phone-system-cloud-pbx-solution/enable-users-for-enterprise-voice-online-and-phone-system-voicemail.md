@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Saiba como habilitar Sistema de Telefonia de voz para seus Skype for Business usuários.
-ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9c9123b79a1fd5557d0d31db7b4b150bcda80af3
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602306"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563434"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar os usuários do Enterprise Voice online e da Caixa Postal do Sistema de Telefone
  
 > [!Important]
-> Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Skype for Business Online foi retirado em 31 de julho de 2021 e a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não tem mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
 
 Saiba como habilitar Sistema de Telefonia de voz para seus Skype for Business usuários.
   
@@ -42,7 +42,7 @@ Para habilitar um usuário para Sistema de Telefonia Voz e caixa postal, você p
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar seus usuários para Sistema de Telefonia voz e caixa postal
 
 > [!NOTE]
-> Skype for Business No momento, o Conector Online faz parte do módulo Teams PowerShell mais recente.
+> Skype for Business Conector Online atualmente faz parte do módulo Teams PowerShell mais recente.
 > Se você estiver usando a versão pública mais [recente Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o conector Skype for Business Online.
 
 1. Antes de começar, verifique se o módulo Teams PowerShell está instalado em seus Servidores Front-End. Se não estiver, instale usando as instruções em Teams [Instalação do Módulo do PowerShell.](/microsoftteams/teams-powershell-install)
@@ -134,7 +134,7 @@ Esta seção descreve como atualizar as políticas de roteamento de voz para usu
 Sistema de Telefonia usuários devem ter uma Política de Roteamento de Voz atribuída a eles para que as chamadas roteem com êxito. Isso difere dos usuários de voz comerciais locais que exigem que uma Política de Voz seja atribuída a eles para permitir que as chamadas sejam roteadas com êxito. A Política de Roteamento de Voz deve conter usos PSTN que definem chamadas e rotas autorizadas para Sistema de Telefonia usuários. Você pode copiar esses usos PSTN de Políticas de Voz existentes para novas Políticas de Roteamento de Voz. Para obter mais informações, [consulte New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Todos Sistema de Telefonia usuários são atribuídos à mesma Política de Voz online chamada BusinessVoice, que define os recursos de chamada permitidos; por exemplo, Permitir Anel Simultâneo. 
+> Todos Sistema de Telefonia usuários são atribuídos à mesma Política de Voz online chamada BusinessVoice, que define os recursos de chamada permitidos; por exemplo, Permitir Toque Simultâneo. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Para atribuir uma política de roteamento de voz por usuário a um único usuário
 

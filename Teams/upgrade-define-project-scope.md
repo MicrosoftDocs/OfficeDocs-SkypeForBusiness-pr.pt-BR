@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49ca0fb50f6e78f8c9ee3cd37aaba21c0929e014
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 39ba6728db7a9146b07104fec82bbd83554ed088
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732780"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563211"
 ---
 # <a name="define-your-project-scope"></a>Definir o escopo de seu projeto
 
@@ -39,8 +39,8 @@ Levar tempo para definir sua visão de projeto, escopo, metas e governança ajud
 
 | &nbsp;| &nbsp;|
 |---|---|
-| ![Um ícone que representa pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>O que você deseja realizar com esse projeto (em outras palavras, por que você está fazendo isso)?</li><li>Qual é a aparência do sucesso?</li><li>Quais são os riscos e qual é o seu plano para reduzir esses riscos?</li></ul> |
-| ![Um ícone que representa as próximas etapas.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Discuta as seções a seguir com sua equipe de projeto e patrocinadores.</li><li>Documente sua visão, escopo, metas e riscos para este projeto.</li><li>Revisite sua equipe de projeto para validar se você contratou a equipe certa.</li></ul>|
+| ![Um ícone representando pontos de decisão.](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>O que você deseja realizar com esse projeto (em outras palavras, por que você está fazendo isso)?</li><li>Qual é a aparência do sucesso?</li><li>Quais são os riscos e qual é o seu plano para reduzir esses riscos?</li></ul> |
+| ![Um ícone representando os próximos passos.](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Discuta as seções a seguir com sua equipe de projeto e patrocinadores.</li><li>Documente sua visão, escopo, metas e riscos para este projeto.</li><li>Revisite sua equipe de projeto para validar se você contratou a equipe certa.</li></ul>|
 
 ## <a name="project-vision"></a>Project visão
 
@@ -107,7 +107,7 @@ A tabela a seguir mostra exemplos de OKRs e KSIs para as fases iniciais de um Sk
 
 | Risco | Probabilidade | Impacto | Geral | Plano de mitigação |
 |---|---|---|---|-------|
-| **Qualidade da rede** | Médio | Alto | Alto | Execute um exercício de planejamento de rede. |
+| **Qualidade da rede** | Média | Alto | Alto | Execute um exercício de planejamento de rede. |
 | **Baixa adoção do usuário** | Alto | Alto | Alto | Trabalhar proativamente com os usuários durante as fases piloto e de implantação; implementar uma campanha de reconhecimento e treinamento direcionada para criar desejo. |
 | | | | | |
 
@@ -125,4 +125,4 @@ Como ponto de referência, uma linha do tempo de exemplo é fornecida para as fa
 
 Depois de concluir as atividades descritas acima, você deve ter uma base sólida para seu projeto. Continue com suas [atividades de preparação técnica](./upgrade-prepare-environment.md) e [preparação](./upgrade-prepare-organization.md) organizacional.
 
-Lembre-se: Skype for Business Online será aposentado em 31 de julho de 2021. Após esse tempo, o Skype for Business online não estará mais acessível ou com suporte. Para maximizar a realização de benefícios e garantir que sua organização tenha tempo adequado para concluir sua atualização, recomendamos que você comece sua jornada para Microsoft Teams hoje.
+Skype for Business Online foi aposentado em 31 de julho de 2021. Para maximizar a realização de benefícios e garantir que sua organização tenha tempo adequado para concluir sua atualização, recomendamos que você comece sua jornada para Microsoft Teams hoje.

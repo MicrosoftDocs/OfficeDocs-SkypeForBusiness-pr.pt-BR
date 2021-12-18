@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5269cd9033c179ad748fb8909b3010fe09311e4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b13722c85a7cd051e695f81a62cb2533b5cf35f2
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850514"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563740"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Atualizar do Skype for Business local para o Teams
 
@@ -46,7 +46,7 @@ Se você tiver implantado o Skype for Business Server ou o Microsoft Lync no loc
 Antes de começar, os profissionais de [](#important-considerations-for-organizations-with-skype-for-business-server-on-premises) TI e os administradores devem revisar as considerações importantes para as organizações com Skype for Business Server locais mais adiante neste artigo.
 
 > [!IMPORTANT]
-> O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a preparação técnica e do usuário, portanto, certifique-se de aproveitar essas diretrizes à medida que você navega sua jornada até Microsoft Teams.
+> Skype for Business Online foi aposentado em 31 de julho de 2021. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a preparação técnica e do usuário, portanto, certifique-se de aproveitar essas diretrizes à medida que você navega sua jornada até Microsoft Teams.
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>Etapa 1: Configurar conectividade híbrida 
 

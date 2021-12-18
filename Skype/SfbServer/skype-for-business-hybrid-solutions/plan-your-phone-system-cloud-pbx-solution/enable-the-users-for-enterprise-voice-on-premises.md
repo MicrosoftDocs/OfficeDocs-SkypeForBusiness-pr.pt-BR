@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Para que um usuário use Sistema de Telefonia (Cloud PBX), primeiro você deve habilita-los para Enterprise Voice e atribuí-los um número de telefone. Você faz isso usando sua implantação local enquanto o usuário ainda está em casa na implantação local.
-ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a71b47b5b7b5ec7ca7328bbe9b0ee864b87f36ac
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012505"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563710"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilitar os usuários para Enterprise Voice local
  
 Para que um usuário use Sistema de Telefonia (Cloud PBX), primeiro você deve habilita-los para Enterprise Voice e atribuí-los um número de telefone. Você faz isso usando sua implantação local enquanto o usuário ainda está em casa na implantação local.
 
 > [!Important]
-> Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
+> O Skype for Business Online foi retirado em 31 de julho de 2021 e a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não tem mais suporte.  Saiba como conectar sua rede de telefonia local a Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Para habilitar um usuário para Enterprise Voice local e atribuir um número de telefone
 

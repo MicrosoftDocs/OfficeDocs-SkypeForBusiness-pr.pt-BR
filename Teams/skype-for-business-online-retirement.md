@@ -18,16 +18,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb2cd0b2c4465dfe67493873980159ecfe836c6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 01e02c68a3b43686cc3f2dbb9f5593c2410f9065
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858678"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562859"
 ---
 # <a name="skype-for-business-online-retirement"></a>Desativação do Skype for Business Online
 
-Em julho de 2019, anunciamos que o Skype for Business Online será retirado em 31 de julho de **2021,** dando aos nossos clientes dois anos para planejar suas atualizações para o Microsoft Teams, o aplicativo principal para comunicação e colaboração no Microsoft 365. À medida Skype for Business Online for retirada, queremos garantir que os clientes tenham as informações e os recursos necessários para planejar e executar uma atualização bem-sucedida para Teams.
+Em julho de 2019, anunciamos a aposentadoria de 31 de julho de 2021 do Skype for Business Online, dando aos nossos clientes dois anos para planejar suas atualizações para Microsoft Teams. Teams é o aplicativo principal para comunicação e colaboração no Microsoft 365. À medida Skype for Business Online for retirada, queremos garantir que os clientes tenham as informações e os recursos necessários para planejar e executar uma atualização bem-sucedida para Teams.
 
 ## <a name="why-is-skype-for-business-online-retiring"></a>Por que Skype for Business está se aposentando online?
 
@@ -41,9 +41,7 @@ Para obter mais informações sobre a Skype for Business online, consulte Pergun
 
 ## <a name="what-this-means-for-skype-for-business-customers"></a>O que isso significa para Skype for Business clientes
 
-Após Skype for Business Online se aposentar em 31 de julho de 2021, o serviço não estará mais acessível. Até lá, os clientes Skype for Business Online não terão nenhuma alteração no serviço. A partir de 1º de setembro de 2019, todos os novos clientes Microsoft 365 foram diretamente Teams para chat, reuniões e chamada.
-
-O tempo necessário para atualizar totalmente para Teams variará com base nas características exclusivas da organização, incluindo o número de usuários, a complexidade técnica e a capacidade de adaptação interna para alterações. Recomendamos que você comece sua atualização para Teams hoje. Ao iniciar sua atualização hoje, você terá muito tempo para finaliza-la antes da data de aposentadoria. A partir de agosto, a Microsoft fornecerá um processo de atualização assistido para ajudá-lo a mover todos os usuários Skype for Business Online restantes para Teams Somente.
+O tempo necessário para atualizar totalmente para Teams variará com base nas características exclusivas da organização, incluindo o número de usuários, a complexidade técnica e a capacidade de adaptação interna para alterações. Recomendamos que você comece sua atualização para Teams hoje. A Microsoft fornece um processo de atualização assistido para ajudá-lo a mover os usuários Skype for Business Online restantes para Teams Somente.
 
 Teams está disponível na maioria dos planos Microsoft 365 Business e Enterprise e seus investimentos de licenciamento existentes são encaminhados para Teams. Os recursos que atualmente são cargas de trabalho premium no Skype for Business Online continuarão a ser cargas de trabalho premium no Microsoft Teams. Por exemplo, se você comprou Audioconferência autônoma ou como parte do E5 com Skype for Business, a Audioconferência será habilitada em Teams.
 
@@ -51,7 +49,7 @@ Os Skype de consumo e Skype for Business Server não são afetados pela ress ref
 
 ## <a name="how-microsoft-is-helping-customers-upgrade-to-teams"></a>Como a Microsoft está ajudando os clientes a atualizar para Teams
 
-Recomendamos que você comece sua atualização do Skype for Business Online para Teams hoje. Ao iniciar sua atualização hoje, você terá muito tempo para finaliza-la antes da data de aposentadoria.
+Recomendamos que você comece sua atualização do Skype for Business Online para Teams hoje.
 
 Aproveite os recursos disponíveis para ajudar a planejar sua implantação Teams e atualização do Skype for Business:
 
@@ -76,15 +74,15 @@ Se você for um cliente Skype for Business Online atual, comece a planejar sua a
 ## <a name="what-to-expect-post-retirement"></a>O que esperar após a aposentadoria
 Não é mais possível que os usuários que estão na nuvem sejam atribuídos a um modo diferente do TeamsOnly. Os usuários que são o TeamsOnly não podem ser atribuídos a nenhum outro modo de coexistência.
 
-Além disso, a Microsoft fornecerá atualizações assistidas para usuários Skype for Business Online que não Teams modo Somente na aposentadoria. Os clientes receberão notificações no centro de administração do Teams e no Centro de Mensagens Microsoft 365, 90 dias antes da data de atualização agendada para permitir tempo de preparação técnica e do usuário.
+Além disso, a Microsoft fornecerá atualizações assistidas para usuários Skype for Business Online que não Teams modo Somente na aposentadoria. Os clientes receberão notificações no centro de administração do Teams e no Centro de Mensagens Microsoft 365, 30 dias antes da data de atualização agendada para permitir tempo de preparação técnica e do usuário.
 
-Depois que a atualização assistida for concluída, todos os usuários online estarão Teams modo Somente. Os usuários no Teams somente recebem chats e chamadas de entrada e agendam reuniões, Teams. Os usuários Teams modo Somente não poderão iniciar chats ou chamadas ou agendar reuniões no Skype for Business Online. Teams Somente os usuários ainda poderão ingressar em reuniões Skype for Business agendadas por usuários que ainda usam Skype for Business Server.
+Depois que a atualização assistida for concluída, todos os usuários online estarão Teams modo Somente. Os usuários no Teams somente recebem chats e chamadas de entrada e agendam reuniões, Teams. Os usuários Teams modo Somente não poderão iniciar chats ou chamadas ou agendar reuniões no Skype for Business Online. Teams Somente usuários ainda poderão ingressar em reuniões Skype for Business agendadas por usuários que ainda usam Skype for Business Server.
 
 Para obter mais informações, consulte [Atualizações Assistidas do Skype for Business Online para Microsoft Teams](upgrade-assisted.md).
 
 ## <a name="what-organizations-with-hybrid-configurations-skype-for-business-online-and-on-premises-skype-for-business-server-can-expect-when-skype-for-business-online-retires"></a>O que as organizações com configurações híbridas (Skype for Business online e local Skype for Business Server) podem esperar quando o Skype for Business Online se aposentar
 
-Os clientes híbridos com configurações locais e online serão necessários para atualizar usuários online do Skype for Business Online para o Microsoft Teams até a data de aposentadoria de 31 de julho de 2021. A Microsoft fornecerá atualizações assistidas para ajudar a atualizar os usuários Skype for Business Online restantes para Teams modo Somente após a data de aposentadoria.
+Os clientes híbridos com configurações online e local serão necessários para atualizar usuários online do Skype for Business Online para Microsoft Teams. A Microsoft fornecerá atualizações assistidas para ajudar a atualizar os usuários Skype for Business Online restantes para Teams modo Somente.
 
 As organizações com uma configuração híbrida podem continuar Skype for Business e Teams lado a lado até que elas estão prontas para mover para o modo Somente Teams. Após a Skype for Business de aposentadoria online, quando um usuário Skype for Business Server for movido para a nuvem, esse usuário estará no modo Somente Teams.
 
