@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 173986bdad846d27a7bd3ae5890269b88a58b3a2
-ms.sourcegitcommit: cd4eb94d0b1e9316fca2e2b771b2286eaa866ba4
+ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
+ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "61566281"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "61576161"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Práticas recomendadas de autenticação para Teams dispositivos Android
 
@@ -35,12 +35,12 @@ Este artigo fornece diretrizes gerais e práticas recomendadas para implantar po
 >O Acesso Condicional requer uma assinatura Azure Active Directory (Azure AD) Premium assinatura.
 
 >[!NOTE]
->As políticas para dispositivos móveis Android podem não se aplicar Teams dispositivos Android. 
+>As políticas para dispositivos móveis Android podem não se aplicar Teams dispositivos Android.
 
 
-## <a name="user-based-devices-vs-common-area-devices"></a>Dispositivos baseados em usuário versus dispositivos de área comum
+## <a name="personal-and-shared-devices"></a>Dispositivos pessoais e compartilhados
 
-Dispositivos de equipe compartilhados, como dispositivos de sala de reunião ou telefones de área comum, não podem usar os mesmos requisitos para registro e conformidade que normalmente são aplicados a dispositivos pessoais. A aplicação de requisitos de autenticação de dispositivo pessoal a dispositivos compartilhados causará os seguintes problemas de entrada: 
+Dispositivos Teams compartilhados, como dispositivos de sala de reunião ou telefones de área comum, não podem usar os mesmos requisitos para registro e conformidade que normalmente são aplicados a dispositivos pessoais. A aplicação de requisitos de autenticação de dispositivo pessoal a dispositivos compartilhados causará os seguintes problemas de entrada:
 
 1.  **Os dispositivos são assinados devido a políticas de senha**
 
