@@ -1514,6 +1514,8 @@ items:
             items:
               - name: Gerenciar o aplicativo Turnos
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: Gerenciar proprietários de programação para gerenciamento de turnos
+                href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
           - name: Reservas no Teams
             items:
               - name: Visitas virtuais com o Teams e Reservas
