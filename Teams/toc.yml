@@ -1461,7 +1461,7 @@ items:
             href: purchase-third-party-apps.md
       - name: Modelos de aplicativos para o Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: Como construir e personalizar os seus próprios aplicativos
+      - name: Como construir e personalizar aplicativos
         items:
           - name: Integrar com a Power Platform
             href: teams-power-platfom-integration.md
@@ -1471,14 +1471,26 @@ items:
             href: submit-approve-custom-apps.md
           - name: Publicar um aplicativo personalizado carregando um pacote de aplicativos
             href: upload-custom-apps.md
+          - name: Personalizar aplicativos no Teams
+            href: customize-apps.md
           - name: Loja de aplicativos personalizados
             href: customize-your-app-store.md
+          - name: Usar guias internas e personalizadas
+            href: built-in-custom-tabs.md
       - name: Gerenciar aplicativos para o Teams
         items:
           - name: Visão Geral
             href: manage-apps.md
-          - name: Gerenciar políticas de aplicativos no Teams
-            href: app-policies.md
+          - name: Políticas de aplicativo
+            items:
+              - name: Gerenciar políticas de aplicativos no Teams
+                href: app-policies.md
+              - name: Gerenciar políticas de permissões de aplicativo no Teams
+                href: teams-app-permission-policies.md
+              - name: Gerenciar políticas de configuração de aplicativo no Teams
+                href: teams-app-setup-policies.md
+              - name: Gerenciar políticas de aplicativo personalizado e as configurações no Teams
+                href: teams-custom-app-policies-and-settings.md
           - name: Exibir permissões do aplicativo e conceder consentimento do administrador
             href: app-permissions-admin-center.md
           - name: Consentimento específico do recurso
@@ -1487,20 +1499,10 @@ items:
             href: app-permissions.md
           - name: Configurações de administração para aplicativos no Teams
             href: admin-settings.md
-          - name: Usar guias internas e personalizadas
-            href: built-in-custom-tabs.md
           - name: Use o Microsoft 365 ou Office 365 e conectores personalizados
             href: Office-365-custom-connectors.md
           - name: Comportamento de aplicativos de equipes para usuários não padrão
             href: non-standard-users.md
-          - name: Gerenciar políticas de permissões de aplicativo no Teams
-            href: teams-app-permission-policies.md
-          - name: Gerenciar políticas de configuração de aplicativo no Teams
-            href: teams-app-setup-policies.md
-          - name: Gerenciar políticas de aplicativo personalizado e as configurações no Teams
-            href: teams-custom-app-policies-and-settings.md
-          - name: Personalizar aplicativos no Teams
-            href: customize-apps.md
           - name: Atualizar experiência para aplicativos
             href: apps-update-experience.md
   - name: Diretrizes governamentais e de indústrias
