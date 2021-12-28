@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar Microsoft Teams dados do log de auditoria no Centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5fc206b9869106be7dd60541d5299ffefb036ae
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 7eec47d0ed2d2a299c930edee2e849c8eb20b8db
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306336"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620485"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -181,15 +181,15 @@ Você pode usar a API Office 365 Atividade de Gerenciamento para recuperar infor
 
 Alterações de associação Teams (como usuários adicionados ou excluídos) feitas por meio do Azure Active Directory (Azure AD), portal de administração do Microsoft 365 ou API Microsoft 365 Grupos Graph serão exibidas no Teams  mensagens de auditoria e no canal Geral com uma atribuição a um proprietário existente da equipe, e não ao iniciador real da ação. Nesses cenários, consulte o Azure AD ou [Microsoft 365 de](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) auditoria de grupo para ver as informações relevantes.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar Cloud App Security para definir políticas de atividade
+## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>Usar o Defender para Aplicativos na Nuvem para definir políticas de atividade
 
-Usando [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integração, você [](/cloud-app-security/user-activity-policies) pode definir políticas de atividade para impor uma ampla variedade de processos automatizados usando as APIs do provedor de aplicativos. Essas políticas permitem monitorar atividades específicas realizadas por vários usuários ou seguir taxas inesperadamente altas de um determinado tipo de atividade.
+Usando [a integração do Microsoft Defender para Aplicativos](/cloud-app-security/what-is-cloud-app-security) na Nuvem, você pode definir políticas de atividade para impor uma ampla variedade de processos automatizados usando as APIs do provedor de aplicativos. [](/cloud-app-security/user-activity-policies) Essas políticas permitem monitorar atividades específicas realizadas por vários usuários ou seguir taxas inesperadamente altas de um determinado tipo de atividade.
 
-Depois de definir uma política de detecção de atividade, ela começa a gerar alertas. Os alertas só são gerados em atividades que ocorrem após a criação da política. Aqui estão alguns cenários de exemplo de como você pode usar as políticas de atividade no Cloud App Security para monitorar Teams atividades.
+Depois de definir uma política de detecção de atividade, ela começa a gerar alertas. Os alertas só são gerados em atividades que ocorrem após a criação da política. Aqui estão alguns cenários de exemplo de como você pode usar políticas de atividade no Defender for Cloud Apps para monitorar Teams atividades.
 
 ### <a name="external-user-scenario"></a>Cenário de usuário externo
 
-Um cenário em que você pode querer ficar de olho, de uma perspectiva de negócios, é a adição de usuários externos ao seu ambiente Teams ambiente. Se os usuários externos estão habilitados, monitorar sua presença é uma boa ideia.  Você pode usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para identificar possíveis ameaças.
+Um cenário em que você pode querer ficar de olho, de uma perspectiva de negócios, é a adição de usuários externos ao seu ambiente Teams ambiente. Se os usuários externos estão habilitados, monitorar sua presença é uma boa ideia.  Você pode usar o [Defender para Aplicativos na Nuvem](/cloud-app-security/what-is-cloud-app-security) para identificar possíveis ameaças.
 
 :::image type="content" alt-text="Política para monitorar a adição de usuários externos." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
@@ -221,9 +221,9 @@ Você pode definir alertas e enviar emails para administradores e outros usuári
 
 ![Captura de tela de alertas e ações de governança para uma política de atividade.](media/audit-log-governance.png)
 
-## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Usar Cloud App Security para definir políticas de detecção de anomalias
+## <a name="use-defender-for-cloud-apps-to-set-anomaly-detection-policies"></a>Usar o Defender para Aplicativos na Nuvem para definir políticas de detecção de anomalias
 
-[](/cloud-app-security/anomaly-detection-policy) As políticas de detecção de anomalias no Cloud App Security fornecem a UEBA (análise comportamental de usuário e entidade) pronta para uso e entidade (ML) para que você possa executar imediatamente a detecção avançada de ameaças em seu ambiente de nuvem. Como elas são habilitadas automaticamente, as novas políticas de detecção de anomalias fornecem resultados imediatos, fornecendo detecções imediatas, direcionando várias anomalias comportamentais em seus usuários e nos dispositivos e máquinas e dispositivos conectados à sua rede. Além disso, as novas políticas expõem mais dados do mecanismo de detecção Cloud App Security, para ajudá-lo a acelerar o processo de investigação e a conter ameaças em andamento.
+[](/cloud-app-security/anomaly-detection-policy) As políticas de detecção de anomalias no Defender para Aplicativos na Nuvem fornecem análise comportamental de usuário e entidade (UEBA) e aprendizado de máquina (ML) para que você possa executar imediatamente a detecção avançada de ameaças em seu ambiente de nuvem. Como elas são habilitadas automaticamente, as novas políticas de detecção de anomalias fornecem resultados imediatos, fornecendo detecções imediatas, direcionando várias anomalias comportamentais em seus usuários e nos dispositivos e máquinas e dispositivos conectados à sua rede. Além disso, as novas políticas expõem mais dados do mecanismo de detecção do Defender for Cloud Apps, para ajudá-lo a acelerar o processo de investigação e a conter ameaças em andamento.
 
 Estamos trabalhando para integrar Teams eventos em políticas de detecção de anomalias. Por enquanto, você pode configurar políticas de detecção de anomalias para outros produtos Office e tomar itens de ação em usuários que corresponderem a essas políticas.
 

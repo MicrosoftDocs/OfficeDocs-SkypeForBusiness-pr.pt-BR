@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97f45330404f6a42c4293e4205e82dc7188d4b9e
-ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
+ms.openlocfilehash: bbc40787eb3708be64ddd368a0f95d44bde5ef06
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "61284729"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620475"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -41,7 +41,7 @@ A primeira aprovação criada a partir do aplicativo Aprovações acionará o pr
 Este artigo descreve os requisitos e as funções do aplicativo Aprovações.
 
 > [!NOTE]
-> Esse recurso ainda não foi lançado para usuários Nuvem da Comunidade Governamental (GCC), Nuvem da Comunidade Governamental High (GCCH) e Departamento de Defesa (DOD).
+> Esse recurso ainda não foi lançado para usuários do Nuvem da Comunidade Governamental High (GCCH) e do Departamento de Defesa (DOD).
 
 ## <a name="required-permissions-and-licenses"></a>Permissões e licenças necessárias
 
