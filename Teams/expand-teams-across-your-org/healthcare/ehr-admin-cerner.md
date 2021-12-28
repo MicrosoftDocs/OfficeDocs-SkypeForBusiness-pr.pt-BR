@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Saiba como integrar o conector Teams EHR para permitir que os provedores de saúde em sua organização conduzam visitas virtuais com pacientes ou outros provedores no Teams diretamente do sistema cerner EHR.
-ms.openlocfilehash: 7329bd0afacfe941746374cc836203f17a9b5e57
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 1669cd2b71a1052ff3580c2baa531c80ce69f073
+ms.sourcegitcommit: 01657a2a961712b8383b741b4ae983b9e07bdeb1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960130"
+ms.lasthandoff: 12/27/2021
+ms.locfileid: "61611328"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visitas virtuais com Teams - Integração ao Cerner EHR
 
@@ -52,7 +52,7 @@ Este artigo descreve como configurar e configurar o conector Teams EHR para inte
 Antes de integrar o conector Teams EHR em sua organização de saúde, você deve ter o seguinte:
 
 - Uma assinatura ativa para Microsoft Teams de conector EHR autônomo (imposta somente durante o teste em um ambiente de EHR de produção).
-- Uma licença Microsoft 365 ou Office 365 que inclui Teams reuniões.
+- Os usuários têm uma licença Microsoft 365 ou Office 365 que inclui Teams reuniões.
 - Teams é adotado e usado em sua organização de saúde.
 - Seus sistemas atendem a todos os [requisitos de software e navegador](../../hardware-requirements-for-the-teams-app.md) para Teams.
 - Cerner versão Novembro de 2018 ou posterior
@@ -147,6 +147,9 @@ Principais recursos da experiência do provedor:
 - Os provedores podem ver atualizações em tempo real de pacientes que se conectam a uma visita virtual para um determinado compromisso no PowerChart.
 - As informações do provedor não são visíveis para os pacientes durante a visita virtual.
 
+> [!NOTE]
+> Todas as informações inseridas no chat de reunião necessárias para fins de continuidade ou retenção de registros médicos devem ser baixadas, copiadas e notadas pelo provedor de saúde. O chat não constitui um registro médico legal ou um conjunto de registros designado. As mensagens do chat são armazenadas com base nas configurações criadas pelo Microsoft Teams administrador.
+
 ### <a name="patient-experience"></a>Experiência do paciente
 
 O conector dá suporte a pacientes que ingressarem em visitas virtuais por meio de um link na mensagem de texto SMS. No momento do compromisso, os pacientes podem iniciar uma visita virtual tocando no link na mensagem de texto SMS.
@@ -165,7 +168,7 @@ Teams integração com sistemas EHR otimiza a quantidade de dados usados e armaz
 
 O Teams EHR não armazena ou transfere dados pessoais identificáveis ou quaisquer registros de saúde de pacientes ou provedores de saúde do sistema EHR. Os únicos dados que o conector EHR armazena são a ID exclusiva do usuário do EHR, que é usada durante Teams de reunião.
 
-A ID exclusiva do usuário EHR é armazenada em uma das três regiões geográficas descritas em [Onde seus dados de cliente Microsoft 365 são armazenados](/microsoft-365/enterprise/o365-data-locations). Todos os chats, gravações e outros dados compartilhados no Teams por participantes da reunião são armazenados de acordo com as políticas de armazenamento existentes. Para saber mais sobre a localização dos dados Teams, consulte [Locais de dados em Teams](../../location-of-data-in-teams.md).
+A ID exclusiva do usuário EHR é armazenada em uma das três regiões geográficas descritas em [Onde seus dados de cliente Microsoft 365 são armazenados](/microsoft-365/enterprise/o365-data-locations). Todos os chats, gravações e outros dados compartilhados no Teams por participantes da reunião são armazenados de acordo com as políticas de armazenamento existentes. Para saber mais sobre a localização dos dados Teams, consulte [Local dos dados em Teams](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
