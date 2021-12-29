@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205301"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625912"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -46,7 +46,7 @@ Com o ingresso anônimo, qualquer pessoa pode ingressar na reunião como um usu�
 
 Você deve ser um administrador do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
-1. Vá para o [Centro de administração do Teams](https://admin.teams.microsoft.net).
+1. Vá para o [Centro de administração do Teams](https://admin.teams.microsoft.com).
 
 2. Na navegação à esquerda, vá para **Encontros** > **Configurações de reunião**.
 
@@ -84,7 +84,7 @@ Os usuários anônimos agora herdarão a política de permissão padrão global 
 
 Você deve ser um administrador de serviço do Teams para acessar esta configuração. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
-1. Vá para o centro de administração.
+1. Vá para o [Centro de administração do Teams](https://admin.teams.microsoft.com).
 
 2. Na navegação à esquerda, vá para **Encontros** > **Configurações de reunião**.
 
@@ -109,7 +109,7 @@ Você pode personalizar os convites de reunião do Teams para atender às necess
 
  **Usando o centro de administração do Microsoft Teams**
 
-1. Vá para o centro de administração.
+1. Vá para o [Centro de administração do Teams](https://admin.teams.microsoft.com).
 2. Na navegação à esquerda, vá para **Encontros** > **Configurações de reunião**.
 3. Em **Convite por email**, faça o seguinte:
 
@@ -141,7 +141,7 @@ Se você estiver usando a Qualidade de Serviço (QoS) para priorizar o tráfego 
 > Se você habilitar o QoS ou alterar as configurações no centro de administração do Microsoft Teams para o serviço Teams, também precisará [ aplicar configurações correspondentes a todos os dispositivos do usuário](QoS-in-Teams-clients.md) e todos os dispositivos de rede internos para implementar totalmente as alterações de QoS no Teams.
 
   **Usando o centro de administração do Microsoft Teams**
-1. Vá para o centro de administração.
+1. Vá para o [Centro de administração do Teams](https://admin.teams.microsoft.com).
 2. Na navegação à esquerda, vá para **Encontros** > **Configurações de reunião**.
 3. Em **Rede**, faça o seguinte:
 
