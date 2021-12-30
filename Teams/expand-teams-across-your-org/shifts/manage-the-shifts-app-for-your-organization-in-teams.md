@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
+ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562924"
+ms.lasthandoff: 12/30/2021
+ms.locfileid: "61639685"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -61,14 +61,11 @@ Atualmente, os dados do Turnos estão armazenados no Azure, em datacenters na Am
 O Turnos é habilitado por padrão para todos os usuários do Teams em sua organização. Você pode desativar ou ativar o aplicativo no nível da organização na página [Gerenciar aplicativos](../../manage-apps.md) no centro de administração do Microsoft Teams.
 
 1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
-2. Na lista de aplicativos, siga um destes procedimentos:
-
-    - Para desativar o Turnos para sua organização, pesquise o aplicativo Turnos, selecione-o e clique em **Bloquear**.
-    - Para ativar o Turnos para sua organização, pesquise o aplicativo Turnos, selecione-o e clique em **Permitir**.
+2. Na lista de aplicativos, pesquise o aplicativo Shifts, selecione-o e alterne a alternância **Status** para **Bloqueado** ou **Permitido.**
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Habilite ou desabilite o Turnos para usuários específicos em sua organização
 
-Para permitir ou bloquear usuários específicos em sua organização de usar Turnos, certifique-se de que shifts sejam ativos para sua organização na página [Gerenciar aplicativos.](../../manage-apps.md) Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](../../teams-app-permission-policies.md).
+Para permitir ou bloquear usuários específicos em sua organização de usar Turnos, certifique-se de que Shifts está ligado para sua organização na página [Gerenciar aplicativos.](../../manage-apps.md) Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](../../teams-app-permission-policies.md).
 
 ### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Use uma política de configuração de aplicativo para fixar Turnos Teams
 
