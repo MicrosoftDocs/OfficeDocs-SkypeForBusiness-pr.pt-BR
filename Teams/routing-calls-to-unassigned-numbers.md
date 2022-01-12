@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como rotear chamadas para números não atribuídos em sua organização.
-ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
-ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
+ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60947498"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767364"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Roteamento de chamadas para números não atribuídos
 
@@ -70,6 +70,8 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - Para rotear chamadas para números de assinantes do Plano de Chamadas da Microsoft não atribuídos, seu locatário precisa ter créditos de [comunicações disponíveis.](what-are-communications-credits.md)
 
 - Para rotear chamadas para números de serviço do Plano de Chamadas da Microsoft não atribuídos, seu locatário precisa ter pelo menos uma Sistema de Telefonia – licença de usuário virtual.
+
+- Os formatos de arquivo de áudio personalizados suportados são WAV (PCM linear não compactado com profundidade de 8/16/32 bits em mono ou estéreo), WMA (somente mono) e MP3. O conteúdo do arquivo de áudio não pode ter mais de 5 MB.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

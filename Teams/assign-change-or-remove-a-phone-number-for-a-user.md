@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone de trabalho para seus usuários Teams para que empresas e clientes externos possam chamar.
-ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579511"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766564"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -66,10 +66,11 @@ Para atribuir um número usando o Teams de administração:
 Para atribuir números usando o PowerShell, use o cmdlet [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) da seguinte forma:
 
 
-''PowerShell Set-CsOnlineVoiceUser -Identity <user>   -TelephoneNumber <phone number> 
+```PowerShell
+Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
 ```
 
-For example:
+Por exemplo:
 
 ```PowerShell
 Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
@@ -126,7 +127,7 @@ Para um exemplo do PowerShell, consulte [Set-CsOnlineVoiceUser](/powershell/modu
 
 [O que é validação de endereço?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
-[Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
+[Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Termos e condições das Chamadas de Emergência](./emergency-calling-terms-and-conditions.md)
 

@@ -24,18 +24,18 @@ search.appverid: MET150
 description: Saiba mais sobre Teams opções de chamada (conectividade PSTN) e as decisões que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b588de0041ab6cc1b74734f9a56b1e97f55166
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267824"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766844"
 ---
 # <a name="pstn-connectivity-options"></a>Opções de conectividade PSTN
 
 A Microsoft fornece recursos completos de Exchange (PBX) para sua organização por meio Teams Telefone. No entanto, para permitir que os usuários façam chamadas fora da sua organização, você precisa se conectar Teams Telefone à PSTN (Rede Telefônica Pública Comucionária).
 
-Este artigo se concentra nas opções de conectividade PSTN. Para obter mais informações sobre soluções de voz da Microsoft, detalhando detalhes sobre Teams Telefone recursos, consulte [Plan your Teams voice solution](cloud-voice-landing-page.md).
+Este artigo se concentra nas opções de conectividade PSTN. Para obter mais informações sobre soluções de voz da Microsoft, incluindo detalhes sobre Teams Telefone recursos, consulte [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
 Para conectar Teams Telefone ao PSTN, você pode escolher entre as seguintes opções:
 

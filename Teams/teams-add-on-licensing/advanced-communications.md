@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd7d03cc4828f84f055c65deb34b530f0ce93be2
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 300d8b5c8233f042672801be662bff61a3332df1
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205471"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767114"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento de Comunicações Avançadas para Microsoft Teams
 
@@ -36,15 +36,13 @@ As Comunicações Avançadas incluem personalização avançada de reuniões, fe
 - Crie experiências de reunião unificados com cenas personalizadas do Modo Juntos projetadas para as necessidades da sua empresa e da reunião.
 - Experiências personalizadas com pacotes de política personalizados, em conjunto com seu próprio conjunto de políticas para usuários com funções semelhantes em sua organização usando o Centro de Administração Teams ou o PowerShell. Cada usuário exigirá uma licença para receber uma atribuição de pacote de política personalizada. 
 
-Comunicações Avançadas está disponível em todos os Microsoft 365 mercados como um complemento para qualquer assinatura Microsoft 365 ou Office 365 paga. Os recursos incluídos em Comunicações Avançadas não serão adicionados a outros planos Microsoft 365 ou Office 365 e não poderão ser comprados separadamente. Para obter os recursos, você deve comprar o complemento.
+Comunicações Avançadas está disponível em todos os Microsoft 365 mercados como um complemento para qualquer assinatura Microsoft 365 ou Office 365 paga. Os recursos incluídos em Comunicações Avançadas não serão adicionados a outros planos Microsoft 365 ou Office 365 e não poderão ser comprados separadamente. Esses recursos estão temporariamente disponíveis na visualização pública para todos os Microsoft Teams clientes. Para obter os recursos após a visualização, os usuários serão informados antecipadamente sobre como continuar o serviço por meio da licença de complemento.
 
 > [!NOTE]
 > Os recursos serão lançados à medida que eles se tornarem disponíveis. Visite o [Microsoft 365 roteiro público](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) para o tempo de recurso mais recente.
 
 > [!NOTE]
 > As Comunicações Avançadas ainda não estão disponíveis Microsoft 365 GCC ambientes high ou Department of Defense (DoD).
-
-Esses recursos agora estão disponíveis na visualização.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

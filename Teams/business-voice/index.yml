@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 Business Voice documentação
-summary: 'Aprenda a planejar, configurar e usar o Microsoft 365 Business Voice na sua organização. O Business Voice facilita a configuração de um sistema telefônico avançado e flexível para empresas de pequeno e médio porte sem a despesa e a complexidade das soluções internas.'
+title: Microsoft 365 Teams Telefone com a documentação do pacote do Plano de Chamada
+summary: 'Saiba como planejar, configurar e usar o pacote Microsoft 365 Teams Telefone plano de chamada em sua organização. O Teams Telefone com o pacote plano de chamadas facilita para as pequenas e médias organizações configurarem um sistema telefônico poderoso e flexível sem as despesas e a complexidade das soluções locais.'
 metadata:
-  title: Microsoft 365 Business Voice documentação
-  description: 'Aprenda a planejar, implantar e usar o Microsoft 365 Business Voice.'
+  title: Microsoft 365 Teams Telefone com a documentação do pacote do Plano de Chamada
+  description: 'Saiba como planejar, implantar e usar a Microsoft 365 Teams Telefone com o pacote Plano de Chamada.'
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
@@ -14,22 +14,22 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
       links:
         - url: whats-business-voice.md
-          text: O que é o Business Voice
+          text: Teams Telefone orientação do Plano de Chamada para pequenas e médias empresas
         - url: 'https://www.microsoft.com/microsoft-365/business-voice'
-          text: Microsoft 365 Business Voice
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-          text: Descrição do serviço
+          text: Microsoft 365 Teams Telefone com o pacote plano de chamada
+        - url: /office365/servicedescriptions/teams-service-description
+          text: Teams Descrição do serviço
     - title: Configurar
       imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
       links:
-        - url: ./what-to-buy.md
-          text: Como obter o Business Voice
+        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
+          text: Como obter a Teams Telefone com o pacote plano de chamada
         - url: get-ready-internet.md
           text: Verificar sua conexão com a Internet
         - url: prepare-users.md
           text: Preparar os usuários
         - url: set-up-overview.md
-          text: Configurar o Business Voice
+          text: Configurar o Teams Telefone com o Plano de Chamada
     - title: Personalizar sua configuração
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       links:
@@ -57,10 +57,8 @@ productDirectory:
       links:
         - url: /partner-center/
           text: Obtenha o Microsoft 365 Business no Partner Center
-        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
-          text: Microsoft 365 Business Voice para parceiros
-        - url: partner-resources.md
-          text: Recursos de suporte para Parceiros do Microsoft 365 Business Voice
+        - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
+          text: Microsoft 365 Teams Telefone plano de chamada pacote partner playbook
     - title: Precisa de ajuda?
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:

@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obter informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamada (CQD) para Microsoft Teams e Skype for Business Online.
-ms.openlocfilehash: 4df31782e7f78818df5f9a849d0c814e07c52adb
-ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
+ms.openlocfilehash: c2b43bcd289be9b1ed108a8c24c65f7d01928517
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "61362548"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767027"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -684,8 +684,8 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Segundo eco de áudio MIC_CLIPPING contagem |Número de fluxos |Número de fluxos em que os segundo pontos de extremidade detectaram recorte no áudio capturado que limitava o cancelamento de eco no áudio enviado. |
 |Segundo eco de áudio BAD_STATE contagem |Número de fluxos |Número de fluxos em que os segundo pontos de extremidade detectaram problemas com o estado interno que limitava o cancelamento de eco no áudio enviado. |
 |Degradação de áudio avg |Pontuação média de opinião (0-5) |Degradação média de pontuação de opinião de rede para fluxos. Representa o quanto a perda de rede e a tremedeira afetaram a qualidade do áudio recebido. |
-|Tremulão avg |Milissegundos |Tremência média da rede para fluxos em milissegundos. |
-|Avg Jitter Max |Milissegundos |Tremência máxima de rede para fluxos em milissegundos. |
+|Tremulão avg |Milissegundos |Tremência média da rede para fluxos em milissegundos. Esse é o treme de inter-chegada, conforme relatado na carga de rede genérica, e é relatado para todos os tipos de fluxo. |
+|Avg Jitter Max |Milissegundos |Tremência máxima de rede para fluxos em milissegundos. Esse é o treme de inter-chegada, conforme relatado na carga de rede genérica, e é relatado para todos os tipos de fluxo. |
 |Taxa de perda de pacotes avg |Ratio |Média da porcentagem média de pacotes perdidos calculados usando intervalo de 5 segundos para fluxos. 0,1 indica 10% de perda de pacote. |
 |Taxa máxima de perda de pacotes avg |Ratio |Média da porcentagem máxima de pacotes perdidos durante qualquer intervalo de 5 segundos para fluxos. 0,1 indica 10% de perda de pacote. |
 | Avg Send Listen MOS |Número |Média da previsão da Pontuação Média de Opinião de Qualidade de Escuta de Banda Larga (MOS-LQ) do fluxo de áudio que está sendo enviado do usuário. <br/>Consulte "Avg. sending MOS" at [Lync Monitoring Reports Decoder](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
@@ -698,12 +698,13 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Avg Ida e volta |Milissegundos |Média de tempo médio de propagação de rede calculado conforme especificado em RFC3550 em milissegundos para fluxos. |
 |Avg Round Trip Max |Milissegundos |Média de tempo máximo de propagação de rede calculado conforme especificado em RFC3550 em milissegundos para fluxos. |
  Utilização de Pacotes Avg|Número de pacotes|Número médio de Real-Time de protocolo de transporte (RTP) enviados por segundo na sessão.|
-|Tremulão de rede avg |Milissegundos |   Média de tremedeira de rede calculada em mais de 20 janelas de segundo durante a sessão. |
-| Avg Network Jitter Max|Milissegundos |Média de tremedeira de rede máxima em milissegundos calculados em janelas de 20 segundos durante a sessão.  |
-| Min de tremindo de rede avg|Milissegundos|Média de valores mínimos de tremedeira de rede em milissegundos calculados em janelas de 20 segundos durante a sessão para fluxos.|
-| Tamanho máximo do buffer de tremedeira avg|Milissegundos|Tamanho máximo do buffer de tremedeira durante a sessão.|
-| Tamanho mínimo do buffer de tremedeira avg|Milissegundos|Tamanho mínimo do buffer de tremedeira durante a sessão.|
-| Avg Relative OneWay |Milissegundos|Atraso médio relativo de uma maneira calculado do par.|
+|Tremulão de rede avg |Milissegundos |   Média de tremedeira de rede calculada em mais de 20 janelas de segundo durante a sessão. Essa métrica está contida na carga de áudio do QoE. Tipos de fluxo diferentes de áudio não relatarão um valor para essa medida. |
+| Avg Network Jitter Max|Milissegundos |Média de tremedeira de rede máxima em milissegundos calculados em janelas de 20 segundos durante a sessão. Essa métrica está contida na carga de áudio do QoE. Tipos de fluxo diferentes de áudio não relatarão um valor para essa medida. |
+| Min de tremindo de rede avg|Milissegundos|Média de valores mínimos de tremedeira de rede em milissegundos calculados em janelas de 20 segundos durante a sessão para fluxos. Essa métrica está contida na carga de áudio do QoE. Tipos de fluxo diferentes de áudio não relatarão um valor para essa medida.|
+| Tamanho do buffer de tremedeira avg|Milissegundos|Tamanho médio do buffer de tremedeira durante a sessão. Essa métrica está contida na carga de áudio do QoE. Tipos de fluxo diferentes de áudio não relatarão um valor para essa medida.|
+| Tamanho máximo do buffer de tremedeira avg|Milissegundos|Tamanho máximo do buffer de tremedeira durante a sessão. Essa métrica está contida na carga de áudio do QoE. Tipos de fluxo diferentes de áudio não relatarão um valor para essa medida.|
+| Tamanho mínimo do buffer de tremedeira avg|Milissegundos|Tamanho mínimo do buffer de tremedeira durante a sessão. Essa métrica está contida na carga de áudio do QoE. Tipos de fluxo diferentes de áudio não relatarão um valor para essa medida.|
+| Avg Relative OneWay |Milissegundos|Atraso médio relativo de uma maneira calculado do par. |
 | Avg Relative OneWay Gap Occurrences|Milissegundos|Número médio de instâncias de lacunas no atraso relativo de uma maneira do par.|
 | Densidade de lacuna relativa do OneWay avg|Milissegundos|Densidade média de lacunas no atraso relativo de uma maneira do par.|
 | Duração relativa do intervalo do OneWay avg|Número (Milissegundos)|Duração média de intervalos no atraso relativo de uma maneira do par.|

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5743dda03b7495bc8f7c275fb955f83d7db6be2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c310794d439af79e53618d9b6e93e567c652cf47
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727200"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766634"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
 
@@ -32,7 +32,7 @@ Com o tempo, uma equipe criada no Microsoft Teams pode não ser usada ou você p
 
 Ao arquivar uma equipe, todas as atividades da equipe cessarão. O arquivamento de uma equipe também arquiva canais privados na equipe e em seus conjuntos de sites associados.  No entanto, você ainda pode adicionar ou remover membros e atualizar funções, além de poder exibir todas as atividades da equipe em canais, arquivos e chats padrão e privados.
 
-Quando você exclui uma equipe, a atividade da equipe em canais (e conjuntos de sites associados), arquivos e chats padrão e privados também é excluída.
+Quando você exclui uma equipe, a atividade de equipe em canais padrão e privados (e coleções de sites associadas), arquivos e chats também são excluídos.
 
 > [!IMPORTANT]
 > As equipes arquivadas podem ser reativadas, mas você não pode restaurar diretamente uma equipe que foi excluída. Primeiro, considere arquivar a equipe e adiar a exclusão até ter certeza de que não precisa mais da equipe.
@@ -48,7 +48,7 @@ Siga estas etapas para arquivar uma equipe. Você deve ser um administrador de s
     ![Captura de tela de Teams de arquivo morto.](media/teams-archive-message.png)
 
 4. Para impedir que as pessoas editem o conteúdo no site SharePoint e na guia Wiki associados à equipe, selecione Tornar o site SharePoint somente leitura para membros da **equipe.** (Teams proprietários ainda poderão editar esse conteúdo.)
-5. Selecione **Arquivar** para arquivar a equipe. O status da equipe será alterado para **Arquivada**.
+5. Selecione **Arquivar** para arquivar a equipe. O status da equipe será mudado para **Archived**, ele será movido para dentro de equipes ocultas localizadas na parte inferior da lista de equipes, e um pequeno ícone representando o estado arquivado será adicionado ao lado dele. 
 
 ## <a name="make-an-archived-team-active"></a>Reativar uma equipe arquivada
 
@@ -56,7 +56,7 @@ Siga estas etapas para reativar a equipe arquivada.
 
 1. No centro de administração, selecione **Teams**.
 2. Selecione uma equipe clicando no nome da equipe.
-3. Selecione **Desarquivar**. O status da equipe será alterado para **Ativa**.
+3. Selecione **Restaurar**. O status da equipe será alterado para **Ativa**. Observe que ele não será movido para dentro de **Suas equipes automaticamente.**
 
 ## <a name="delete-a-team"></a>Excluir uma equipe
 
@@ -98,16 +98,16 @@ Por padrão, um grupo de Microsoft 365 excluído é mantido por 30 dias. Esse pe
     Connect-AzureAD
     ```
     Quando solicitado, entre usando sua conta de administrador e senha.  
-2. Execute o seguinte para exibir uma lista de todos os grupos de Microsoft 365 que ainda estão dentro do período de retenção de 30 dias. Use o parâmetro **-All $True** se você tiver muitos grupos.
+2. Execute o seguinte para exibir uma lista de todos os grupos de Microsoft 365 que ainda estão dentro do período de retenção de 30 dias. Use o **parâmetro -All $True** se você tiver muitos grupos.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```
-3. Localize o grupo que você deseja restaurar e, em seguida, anote a ID.
-4. Execute o seguinte para restaurar o grupo, onde [Id] é a ID do grupo.
+3. Encontre o grupo que você deseja restaurar e, em seguida, anote o `Id` .
+4. Execute o seguinte para restaurar o grupo, onde `[Id]` está a ID do grupo.
     ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
-5.  Execute o seguinte para verificar se o grupo foi restaurado com êxito, onde [Id] é a ID do grupo.
+5.  Execute o seguinte para verificar se o grupo foi restaurado com êxito, onde `[Id]` está a ID do grupo.
     ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```

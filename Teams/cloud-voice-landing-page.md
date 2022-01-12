@@ -24,14 +24,14 @@ search.appverid: MET150
 description: Saiba mais sobre os Microsoft Teams de voz na nuvem e as decisões de implantação que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 939c31477454828484c88fea0a8f34e19b640a8b
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 2d463034109e39920254e3f230546efe7f336af1
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563596"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766444"
 ---
-# <a name="plan-your-teams-voice-solution"></a>Planejar sua solução Teams voz 
+# <a name="plan-your-teams-voice-solution"></a>Planejar sua solução Teams voz
 
 Este artigo ajuda você a decidir qual solução de voz da Microsoft é ideal para sua organização. Depois que você decidir, o artigo fornece um roteiro para o conteúdo que permitirá implementar sua solução escolhida.
 
@@ -45,17 +45,19 @@ Se você responder sim ao seguinte, Teams Telefone com Plano de Chamada é a sol
 - Você não precisa manter sua operadora PSTN atual.
 - Você deseja usar o acesso gerenciado pela Microsoft à PSTN.
 
-No entanto, sua situação pode ser mais complexa. Por exemplo, você pode ter escritórios em locais onde o Plano de Chamada não está disponível. Ou você pode precisar de uma solução de combinação que suporte uma implantação complexa e multi-nacional, com requisitos diferentes para locais geográficos diferentes. A Microsoft oferece suporte a uma combinação de soluções: 
+No entanto, sua situação pode ser mais complexa. Por exemplo, você pode ter escritórios em locais onde o Plano de Chamada não está disponível. Ou você pode precisar de uma solução de combinação que suporte uma implantação complexa e multi-nacional, com requisitos diferentes para locais geográficos diferentes. A Microsoft oferece suporte a uma combinação de soluções:
 
 - Teams Telefone com Plano de Chamada
 - Teams Telefone com sua própria operadora PSTN com operador Conexão
 - Teams Telefone com sua própria operadora PSTN com Roteamento Direto
 - Uma solução de combinação que usa Teams Telefone com Plano de Chamadas, Teams Telefone com Conexão operador e/ou Teams Telefone com Roteamento Direto
 
+>[!NOTE]
+>Se você for uma pequena ou média empresa (300 ou menos pessoas), a Microsoft agora agrupa Sistema de Telefonia com um Plano de Chamada Doméstica. Para obter mais informações, [consulte Teams Telefone orientações](/microsoftteams/business-voice/whats-business-voice) para pequenas e médias empresas para ajudá-lo a planejar, configurar e gerenciar sua solução de voz.
 
 ## <a name="what-do-you-need-to-read"></a>O que você precisa ler?
 
-**Obrigatório para todos.** Algumas das seções deste artigo pertencem a todas as organizações. Por exemplo, todos devem ler sobre Teams Telefone e entender as opções para se conectar à PSTN (Rede Telefônica Pública Comucionária). 
+**Obrigatório para todos.** Algumas das seções deste artigo pertencem a todas as organizações. Por exemplo, todos devem ler sobre Teams Telefone e entender as opções para se conectar à PSTN (Rede Telefônica Pública Comucionária).
 
 
 | Obrigatório para todos | Descrição |

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião em Teams para áudio e vídeo.
-ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 9513650bf9c177154b45d7bd5dcda85354cf390b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177992"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766944"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configurações de política de reunião para vídeo & áudio
 
@@ -196,6 +196,9 @@ Os participantes da reunião verão uma seleção de imagens em segundo plano qu
 
 > [!NOTE]
 > Pode levar até 24 horas para que as alterações entre em vigor.
+
+> [!NOTE]
+> Esse recurso está disponível temporariamente na visualização pública para todos os Microsoft Teams clientes. Para obter esse recurso após a visualização, cada usuário precisará da licença de complemento comunicações avançadas. Para obter mais informações, consulte [Complemento de Comunicações Avançadas para o Microsoft Teams ](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

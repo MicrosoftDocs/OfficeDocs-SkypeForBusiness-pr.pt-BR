@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Saiba como gerenciar o recurso Música em Espera Sistema de Telefonia.
-ms.openlocfilehash: 7a7a79bb2d96bcd43e12b27424630acd7a0c90eb
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: d3fa7188e3d2320ba4eeb17ca95d28d1f57c18c4
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355730"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767404"
 ---
 # <a name="music-on-hold"></a>Música em espera
 
@@ -54,7 +54,9 @@ Por exemplo, um departamento ou organização pode querer reproduzir um anúncio
 > [!NOTE]
 > Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu Microsoft Teams serviço. Isso pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os titulares de direitos relevantes. Os proprietários podem incluir artistas, atores, atores, compositores, compositores, rótulos de gravação, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que têm, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
 
-Para configurar Música em Espera personalizada, use os cmdlets Do PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy e Import/Get/Remove-CsOnlineAudioFile Teams no módulo 2.5.0 ou posterior do PowerShell.
+Para configurar Música em Espera personalizada, use os cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy e Import/Get/Remove/Export-CsOnlineAudioFile no Teams módulo 3.0.0 ou posterior do PowerShell.
+
+Para formatos de áudio com suporte e tamanho máximo de arquivo, consulte [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
 
 
 1. Verifique se o usuário Teams música em espera para chamadores PSTN definido como Habilitado na política Teams chamada. 
@@ -65,7 +67,9 @@ Para configurar Música em Espera personalizada, use os cmdlets Do PowerShell Ne
 
 ### <a name="upload-the-custom-audio-file"></a>Upload o arquivo de áudio personalizado
 
-A configuração de Música personalizada em Espera começa com o carregamento do arquivo de áudio. Você usa o cmdlet do PowerShell Import-CsOnlineAudioFile para essa finalidade. Um exemplo de carregamento de um arquivo de áudio MP3 usando a interface do PowerShell é mostrado abaixo:
+A configuração de Música personalizada em Espera começa com o carregamento do arquivo de áudio. Você usa o cmdlet Do PowerShell [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) para essa finalidade.
+
+Um exemplo de carregamento de um arquivo de áudio MP3 usando a interface do PowerShell é mostrado abaixo:
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -94,6 +98,8 @@ Para obter informações sobre seus arquivos de áudio carregados, use Get-CsOnl
 
 Para remover um arquivo de áudio carregado, use o Remove-CsOnlineAudioFile cmdlet. Antes de remover um arquivo de áudio, verifique se você não está usando esse arquivo de áudio em um TeamsCallHoldPolicy.
 
+Para exportar um arquivo de áudio carregado, use Export-CsOnlineAudioFile cmdlet.
+
 ## <a name="feature-availability"></a>Disponibilidade de recursos
 
 A tabela a seguir indica quais recursos os clientes e dispositivos suportam Música em Espera e Música Personalizada em Espera. A Microsoft continua a adicionar suporte a recursos, portanto, verifique com frequência a disponibilidade adicional.
@@ -101,8 +107,8 @@ A tabela a seguir indica quais recursos os clientes e dispositivos suportam Mús
 
 | Recurso | Desktop <br> Windows/Mac OS | Navegador | Mobile <br> iOS | Mobile <br> Android | Teams Telefone |
 | :------------| :------- | :------- | :------- | :------- | :------- |
-| Espera na chamada PSTN 1:1 | -Música em espera<br>-Custom Music on Hold | -Música em espera<br>-Custom Music on Hold | -Música em espera<br>-Custom Music on Hold | Música em espera | Música em espera |
-| Espera na Transferência Consultiva na chamada PSTN 1:1 |-Música em espera<br>-Custom Music on Hold | | | | |
+| Espera na chamada PSTN 1:1 | -Música em espera<br>-Custom Music on Hold | -Música em espera<br>-Custom Music on Hold | -Música em espera<br>-Custom Music on Hold | -Música em espera<br>-Custom Music on Hold | -Música em espera<br>-Custom Music on Hold |
+| Espera na Transferência Consultiva na chamada PSTN 1:1 |-Música em espera<br>-Custom Music on Hold | | -Música em espera<br>-Custom Music on Hold | -Música em espera<br>-Custom Music on Hold | |
 
 ## <a name="restrictions"></a>Restrições
 
@@ -111,8 +117,6 @@ A tabela a seguir indica quais recursos os clientes e dispositivos suportam Mús
 - A música em espera só estará disponível quando o usuário estiver no modo TeamsOnly.
 
 - Se o usuário Teams chamado estiver habilitado para roteamento Location-Based, a música em espera não poderá ser tocada para o chamador.
-
-- Não é possível exportar o arquivo de áudio depois que ele tiver sido carregado; você só pode removê-lo.
 
 - Música personalizada em espera não está disponível para usuários configurados para Aparência de Linha Compartilhada (delegação) e quando Estacionamento de Chamada é usado. A música padrão em espera será tocada.
 
@@ -139,3 +143,5 @@ A tabela a seguir indica quais recursos os clientes e dispositivos suportam Mús
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
 - [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)

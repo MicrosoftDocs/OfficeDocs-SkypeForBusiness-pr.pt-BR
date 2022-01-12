@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: dec7051e643565b4fa0714bcba74528401ae99c0
-ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
+ms.openlocfilehash: 407d548a58240cb66cecabce01129fc3a7c270ca
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61320071"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767134"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -102,6 +102,9 @@ Se você selecionar Opções de menu  Reproduzir, poderá  optar por Reproduzir 
 ![Captura de tela das opções de teclas de discagem.](media/auto-attendant-call-flow-menu-options-complete.png)
 
 Para opções de discagem, atribua as teclas de 0 a 9 no teclado do telefone a um dos destinos de roteamento de chamadas. (As chaves \* (asterisco) e (libra) são reservados \# pelo sistema e não podem ser reatribuídos. Pressionar uma dessas teclas repetirá o menu atual.)
+
+> [!NOTE]
+> A tecla # só é ressarçada para o atendimento automático mais recente. Depois que o limite for cruzado para um novo atendimento automático, a tecla #não poderá levá-lo para o anterior.
 
 Os mapeamentos de chaves não têm que ser contínuos. É possível criar um menu com as teclas 0, 1 e 3 mapeadas para opções, enquanto a tecla número 2 não é usada.
 

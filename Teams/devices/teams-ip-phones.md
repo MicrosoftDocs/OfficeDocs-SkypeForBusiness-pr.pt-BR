@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: d09e8b449d9e4c058ef3fdc1f9a975c06e3cc1f6
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: 518ae096716661cf559c38e327c9efb7705af46b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401925"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767064"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -190,6 +190,9 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.9.0`          | Atualização 2021 #2F   |
+| Poly Studio X50 | `3.9.0`          | Atualização 2021 #2F   |
+| Poly TC8        | `3.9.0`          | Atualização 2021 #2F   |
 | Poly Studio X30 | `3.8.0`          | Atualização 2021 #2    |
 | Poly Studio X50 | `3.8.0`          | Atualização 2021 #2    |
 | Poly TC8        | `3.8.0`          | Atualização 2021 #2    |
@@ -227,6 +230,7 @@ A seguir estão as versões mais recentes Microsoft Teams displays de aplicativo
 
 |Versão do produto| Data de lançamento | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Atualização 2021 #4  |5 de janeiro de 2021 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
 |Atualização 2021 #3  |8 de dezembro de 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |Atualização 2021 #2  |9 de junho de 2021 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |Atualização 2021 #1  |18 de março de 2021 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|

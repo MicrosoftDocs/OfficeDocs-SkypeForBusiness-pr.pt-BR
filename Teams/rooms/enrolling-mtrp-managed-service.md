@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre como registrar Salas do Microsoft Teams contas no Salas do Microsoft Teams Premium gerenciado.
 f1keywords: ''
-ms.openlocfilehash: a6aa59a798e06c407c1bbde6734ec9ab3ecedcd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79dee52cc9c814338c6c5dc4c91245155ef2fd41
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637016"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766964"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Registrar um dispositivo no serviço Salas do Microsoft Teams Premium gerenciado
 
@@ -44,25 +44,26 @@ Depois de ter atribuído usuários à função Administrador de [](#enroll-a-tea
 
 ## <a name="enroll-a-teams-rooms-device"></a>Registrar um Salas do Teams de usuário
 
-Conclua as etapas a seguir para registrar um dispositivo no serviço Salas do Teams Premium gerenciado:
+ Para registrar um dispositivo no serviço Salas do Teams Premium gerenciado, consulte [Monitoring device software installation](monitor-software-installation-guide.md).
 
-1. Faça logoff [no portal Salas do Teams Premium com](https://portal.rooms.microsoft.com/) um usuário que tenha sido atribuído a função Administrador de Serviço Gerenciado.
-2. Selecione no **?** ícone no canto superior direito do portal para iniciar o menu de ajuda. O menu de ajuda inclui um [guia de instalação](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) contendo instruções detalhadas de registro:
+<!--2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
 
-    1. Revise a **seção Pré-requisitos** no guia Instalação. Confirme se as URLs listadas na **lista URLs Necessárias** para Comunicação são adicionadas à lista de autorizações de tráfego do firewall.
-    2. Siga as instruções na seção **Habilitar** Configurações TPM para habilitar a funcionalidade TPM (Trusted Platform Module) em seu dispositivo.
-    3. Siga as instruções na seção **Adicionando Configurações** proxy para configurar seu dispositivo para usar o gateway proxy, se você tiver um.
-    4. Siga as instruções na seção **Processo para** instalar o software do agente de monitoramento e configurar a chave de auto-registro em seu dispositivo.
+    1. Review the **Pre-requisites** section in the Installation guide. Confirm that the URLs listed in the **URLs Required for Communication** list are added to your firewall's traffic allow list.
+    2. Follow the instructions in the **Enabling TPM Settings** section to enable the Trusted Platform Module (TPM) functionality on your device.
+    3. Follow the instructions in the **Adding Proxy Settings** section to configure your device to use your proxy gateway, if you have one.
+    4. Follow the instructions in the **Process** section to install the monitoring agent software and configure the self enrollment key on your device.
 
-3. Depois que o agente de monitoramento e a chave XML exclusiva são configurados em seu dispositivo, navegue até **Salas** > nome da sala > **Status** e selecione **Registrar**.
+3. After the monitoring agent and unique XML key are configured on your device, navigate to **Rooms** > room name > **Status**, and then select **Enroll**.
 
     > [!NOTE]
-    > O Salas do Teams permanecerá no estado **De** integração até que um Administrador de Serviços Gerenciados inscreva o dispositivo usando o portal.
+    > The Teams Rooms device will remain in the **Onboarding** state until a Managed Service Administrator enrolls the device using the portal.
 
-## <a name="link-to-installation-guide"></a>Guia Link to Installation
+    See [Monitoring device software installation](monitoring-software-installation-guide.md).
 
-O  menu Ajuda fornece um link para o guia [instalação](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) que, por sua vez, fornece as seguintes informações:
+<!--## Link to Installation guide
 
-- Instruções sobre URLs que precisam ser listadas para servir para permitir que a telemetria de sala seja enviada para o serviço gerenciado.
-- Instruções para aplicar o Salas do Microsoft Teams Premium de monitoramento e a chave XML exclusiva como parte do registro de um dispositivo no serviço gerenciado.
-- Instruções de solução de problemas.
+The **Help** menu provides a link to the [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) which in turn provides the following information:
+
+- Instructions on URLs that need to be allow-listed to serve to enable room telemetry to be sent to the managed service.
+- Instructions for applying the Microsoft Teams Rooms Premium monitoring agent and unique XML key as part of enrolling a device in the managed service.
+- Troubleshooting instructions.-->

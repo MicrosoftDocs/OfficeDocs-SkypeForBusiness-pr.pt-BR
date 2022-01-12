@@ -1,5 +1,5 @@
 ---
-title: Configurar Microsoft 365 Business Voice números de telefone
+title: Configurar o Microsoft 365 Teams Telefone com Plano de Chamadas com números de telefone
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,17 +14,17 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Saiba como configurar Microsoft 365 Business Voice números de telefone para usuários e serviços em sua organização.
+description: Saiba como configurar o Microsoft 365 Teams Telefone com números de telefone do Plano de Chamadas para usuários e serviços em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c57e459d3ad502b9e361e5fa7e4eb4b8b45c29e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eefdfcb764f44830bb6dc23c63c2a80701c32c3e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599806"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766614"
 ---
-# <a name="step-2-set-up-business-voice-phone-numbers"></a>Etapa 2: Configurar números de telefone do Business Voice
+# <a name="step-2-set-up-teams-phone-phone-numbers"></a>Etapa 2: Configurar Teams Telefone números de telefone
 
 Antes de configurar usuários ou atendentes automáticos em sua organização, você precisa obter números de telefone para eles. Há vários tipos diferentes de números de telefone, no entanto, estes são os dois tipos de números que você precisa adicionar nesta etapa:
 
@@ -36,10 +36,6 @@ Antes de configurar usuários ou atendentes automáticos em sua organização, v
 
 > [!NOTE]
 > Pode levar várias horas para que seus novos números de telefone se tornem disponíveis Teams.
-
-O vídeo a seguir mostra como concluir essas etapas no Teams de administração.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
 
 ## <a name="set-up-a-service-number"></a>Configurar um número de serviço
 
@@ -53,11 +49,11 @@ O número de serviço que você configurar agora será usado em uma etapa poster
     2. Em **Tipo de número,** selecione uma das seguintes opções:
 
         - **Atendimento automático (Toll)** Número de telefone regular, não gratuito. As taxas de longa distância são cobradas ao chamador.
-        - **Atendimento automático (Gratuito)** Número de telefone gratuito (EUA e Canadá) ou telefone gratuito (Reino Unido). As taxas de longa distância são cobradas para sua empresa. Antes de selecionar essa opção, você precisa comprar Créditos de Comunicação. Para obter mais informações, consulte [O que preciso comprar para usar Microsoft 365 Business Voice?](what-to-buy.md).
+        - **Atendimento automático (Gratuito)** Número de telefone gratuito (EUA e Canadá) ou telefone gratuito (Reino Unido). As taxas de longa distância são cobradas para sua empresa. Antes de selecionar essa opção, você precisa comprar Créditos de Comunicação. Para obter mais informações, consulte O que preciso comprar para obter recursos de voz [para minha pequena ou média empresa?](whats-business-voice.md).
 
     3. Em **Quantidade,** selecione **1**.
         > [!NOTE]
-        > Se você receber a mensagem Você não tem **licenças** suficientes para solicitar mais números desse tipo, certifique-se de ter comprado licenças do Business Voice. Para obter mais informações, consulte [O que preciso comprar para usar Microsoft 365 Business Voice?](what-to-buy.md).
+        > Se você receber a mensagem Você não tem **licenças** suficientes para solicitar mais números desse tipo, certifique-se de ter comprado Teams Telefone com licenças do Plano de Chamada. Para obter mais informações, consulte O que preciso comprar para obter recursos de voz [para minha pequena ou média empresa?](whats-business-voice.md).
     4. Escolha **Local** ou **Código** de Área, dependendo se você deseja pesquisar números de telefone usando a cidade de um local ou se deseja pesquisar números em um código de área específico.
     5. Se você selecionar **Local**:
 
@@ -71,7 +67,7 @@ O número de serviço que você configurar agora será usado em uma etapa poster
 
 ## <a name="set-up-phone-numbers-for-your-users"></a>Configurar números de telefone para seus usuários
 
-1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global. Normalmente, essa é a conta que você usou para se inscrever Microsoft 365.
 2. Na navegação à esquerda, vá para <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank"> **Voz**  >  **Telefone números**</a>e clique em **Adicionar**.
 3. Insira um nome para a ordem e adicione uma descrição.
 4. Na página Local e quantidade, faça o seguinte:

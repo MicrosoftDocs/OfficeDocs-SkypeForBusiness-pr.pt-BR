@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Os administradores podem controlar o tipo de audioconferência e chamadas PSTN do usuário final que podem ser feitas pelos usuários.
-ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
-ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
+ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61066542"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766234"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída de Audioconferências e Chamadas PSTN do usuário
 
@@ -79,6 +79,12 @@ Grant-CsDialoutPolicy -PolicyName <policy name>  -Global
 ```
 
 Todos os usuários do locatário que não têm nenhuma política de discagem atribuída receberão essa política. Outros usuários permanecem com sua política atual.
+
+**Verifique a política atual no nível do locatário com o cmdlet a seguir.**
+
+```powershell
+Get-CSOnlineDialOutPolicy -Identity Global
+```
 
 A tabela a seguir fornece uma visão geral de cada política.
 

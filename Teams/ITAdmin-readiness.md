@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd6397776b63194dd7f880391decb02e0cb4ed35
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d85d4a3efd158cb9cc972ef7d7f059e8b3c6fbec
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840903"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766644"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Iniciando o treinamento de administrador para Microsoft Teams
 
@@ -33,7 +33,7 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | :------------ | :------------ | :------------ | :------------ |
 |![uma mão e uma seta para cima.](/office/media/icons/get-started-teams.png) |[Inicie a sua adoção aqui](./get-started-with-teams-quick-start.md)     |![document with a list](/office/media/icons/document-teams.png)|[Exibir Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|![um botão de reprodução de vídeo.](/office/media/icons/video-play.png) |[Veja vídeos de melhores práticas e instruções no canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![pessoa com uma chave inglesa](/office/media/icons/administrator.png) |[Teams Conversas de giz: aprenda práticas recomendadas e orientações práticas sobre cenários Teams populares](./chalk-talks-landing-page.yml)         |
+|![um botão de reprodução de vídeo.](/office/media/icons/video-play.png) |[Veja vídeos de melhores práticas e instruções no canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![pessoa com uma chave inglesa](/office/media/icons/administrator.png) |[Teams Chalk Talks: aprenda práticas recomendadas e orientações práticas sobre cenários Teams populares](./chalk-talks-landing-page.yml)         |
 
 
 <h2>Principais ofertas de treinamento e cursos</h2>
@@ -62,7 +62,7 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Roteamento Direto | [Vídeo 1: Planejando roteamento direto no Teams](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: Configurando e gerenciando roteamento direto em Teams](https://aka.ms/teams-dr-config)<br>[Vídeo 3: Migrando para Roteamento Direto no Teams](https://aka.ms/teams-dr-migrate)  | [Apresentação](https://aka.ms/teams-direct-routing-deck) |
 | Atualização do Skype for Business para o Teams | [Vídeo 1: introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: planeje sua atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: coexistência e interoperabilidade](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Apresentação](https://aka.ms/teams-upgrade-deck)|
 
-<h2>Salas do Teams Fundamentos para profissionais de & AV</h2>
+<h2>Salas do Teams Foundations for IT & AV Pros</h2>
 
 <p>A tabela a seguir contém links para treinamento de vídeo abrangente, com PowerPoint deques (no formato PDF), em Salas do Microsoft Teams.  
 
@@ -77,8 +77,9 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Módulo 7: Gerenciando Salas do Microsoft Teams, Parte 2 (41:06 min) | [Vídeo](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
 | Módulo 8: Salas do Microsoft Teams--Dicas, truques e solução de problemas (18:14 min)|[Vídeo](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | Instruções de junção de um toque |  | [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Introdução aos Salas do Microsoft Teams Gerenciados |  | [Apresentação](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
-<h2>Teams Dispositivos Android</h2>
+<h2>Teams dispositivos Android</h2>
 
 <p>A tabela a seguir contém links para treinamento abrangente, com decks PowerPoint (no formato PDF), em dispositivos Android Microsoft Teams que inclui displays do Teams, telefones Teams, Salas do Teams para Android e painéis Teams.  
 
@@ -95,9 +96,9 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Título                                                                       | Resumo                                                                                                                                                                                                               |  Link para o Guia                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identity, Access management & Threat Protection for Teams                   | Saiba como usar os centros de administração da Microsoft e o PowerShell para configurar políticas de acesso e identidade e Habilitar Office 365 Proteção Avançada contra Ameaças para Teams                                                            | [Teams guia de segurança](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Políticas de Prevenção contra Perda de Dados (DLP) para Microsoft Teams                     | Saiba como adicionar Microsoft Teams a uma política de DLP existente e como criar uma nova política, com base em um modelo ou totalmente personalizado às necessidades de proteção de dados da sua organização.                        | [Teams Guia DLP](https://aka.ms/teamsdlpguide)         |
-| Gerenciando a conformidade Teams                                                | Use os centros de administração Microsoft 365 segurança, conformidade Microsoft 365 e Microsoft Teams, bem como o Windows PowerShell para gerenciar e configurar as políticas de Microsoft Teams de uma organização Office 365 e Configurações. | [Gerenciando a conformidade Teams guia](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams Consultor: implantando chats, equipes, canais e aplicativos Microsoft Teams | Saiba como usar o Teams para avaliar seu ambiente e criar um plano para implantar chats, equipes, canais e aplicativos.                                                                                         |  [Teams Guia de orientação](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Políticas de Prevenção contra Perda de Dados (DLP) para Microsoft Teams                     | Saiba como adicionar Microsoft Teams a uma política de DLP existente e como criar uma nova política, com base em um modelo ou totalmente personalizado às necessidades de proteção de dados da sua organização.                        | [Teams DLP](https://aka.ms/teamsdlpguide)         |
+| Gerenciando a conformidade Teams                                                | Use Microsoft 365 segurança, conformidade Microsoft 365 e centros de administração do Microsoft Teams, bem como o Windows PowerShell para gerenciar e configurar as políticas de Microsoft Teams de uma organização Office 365 e configurações. | [Gerenciando a conformidade Teams guia](https://aka.ms/complianceinteamsinteractiveguide)      |
+| Teams: Implantando chats, equipes, canais e aplicativos no Microsoft Teams | Saiba como usar o Teams para avaliar seu ambiente e criar um plano para implantar chats, equipes, canais e aplicativos.                                                                                         |  [Teams Guia do Consultor](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Fluxo de Teams administração com o PowerShell e grupos dinâmicos        | Converta um Office 365 de associação estática para dinâmica e use Windows PowerShell para atribuir uma nova política de permissão de aplicativo a todos os membros.                                                                         |  [Guia de Teams de fluxo](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Gerenciando Teams e o Acesso de Convidados no Microsoft Teams de administração         | Saiba como configurar e gerenciar o Microsoft Teams e o acesso de convidados para sua organização.                                                                                                                              | [Managing Teams and guest access guide](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Configurar Teams Sistema de Telefonia: Atendedor Automático & fila de chamada                   | Passo a passo no processo de criação e implantação de uma fila de chamada e Atendedor Automático como parte Microsoft Teams chamada usando o centro de administração Microsoft Teams.                                                          |  [Configurar Teams do sistema de telefonia](https://aka.ms/TeamsPhoneInteractiveGuide)             |

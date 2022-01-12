@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este artigo para saber como usar dispositivos analógicos com Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: 083c5dd5b577e319a9e5308a4ec3630614254628
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86875f7c4cf3206f673c652487e896adf91b1ce5
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733490"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766404"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Como usar dispositivos analógicos com Sistema de Telefonia Roteamento Direto
 
@@ -90,7 +90,7 @@ PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425
 Este comando cria uma nova política de roteamento de voz online por usuário com a identidade "AnalogInteropPolicy". Esta política recebe um único uso de PSTN online: "Interop".
 
 ```powershell
-PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
+PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="step-5-enable-the-online-user"></a>Etapa 5: Habilitar o usuário online

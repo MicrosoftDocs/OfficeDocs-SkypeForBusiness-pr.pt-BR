@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
-ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
+ms.openlocfilehash: 0ff320688d7afc583e1e806803349fb3d07ceb0c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "61576161"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767204"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Práticas recomendadas de autenticação para Teams dispositivos Android
 
@@ -62,7 +62,7 @@ Teams dispositivos compartilhados devem usar uma [conta Exchange recurso](/excha
 
 Para evitar interrupções causadas por políticas de expiração de senha, de definir a política de expiração de senha para que dispositivos compartilhados nunca expirem.
 
-A partir dos dispositivos Teams CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams versão 1449/1.0.94.2021022403 para telefones Teams) e [CY2021 Atualização #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams versão 1449/1.0.96.2021051904 para Salas do Microsoft Teams no Android), os administradores de locatários podem entrar Teams dispositivos remotamente. Não compartilhe senhas com técnicos para configurar dispositivos. Um administrador, use a entrada remota para emitir códigos de verificação e, em seguida, entre nesses dispositivos Teams centro de administração.
+A partir dos dispositivos Teams CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams versão 1449/1.0.94.2021022403 para telefones Teams) e [CY2021 Atualização #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams versão 1449/1.0.96.2021051904 para Salas do Microsoft Teams no Android), os administradores de locatários podem entrar Teams dispositivos remotamente. Não compartilhe senhas com técnicos para configurar dispositivos. Como administrador, use a entrada remota para emitir códigos de verificação e, em seguida, entre nesses dispositivos Teams centro de administração.
 
 Para obter mais informações, consulte [Provisionamento remoto e entrar Teams dispositivos Android](/MicrosoftTeams/devices/remote-provision-remote-login). 
 

@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae5efb39f6d395d96b455df52167ee39ced6da2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828514"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767334"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informações no Microsoft Teams
 
@@ -188,10 +188,11 @@ O modo de barreiras de informações ajuda a fortalecer quem pode ser adicionado
 
 - **Open**: Essa configuração é o modo IB padrão para todos os grupos existentes que foram provisionados antes que as barreiras de informações fossem habilitadas. Nesse modo, não há políticas de IB aplicáveis.
 - **Implícito**: essa configuração é o modo IB padrão quando uma Equipe é provisionada após habilenciar barreiras de informações. O modo implícito permite adicionar todos os usuários compatíveis no grupo.
+- **Proprietário Moderado**: esse modo é definido em uma equipe quando você deseja permitir a colaboração entre usuários de segmento incompatíveis que são moderados pelo proprietário. O proprietário da equipe pode adicionar novos membros por sua política de IB.
 
-Microsoft 365 Os grupos criados antes de ativar uma política de barreira de informações são automaticamente definidos como *modo Open* por padrão. Depois de ativar políticas de IB em seu locatário, você deve atualizar o modo que reavalia grupos e sites e faz com que usuários não compatíveis sejam removidos automaticamente desses grupos e sites. Se você precisar alterar a configuração do modo *Open* em grupos conectados Teams existentes para atender aos requisitos de conformidade da sua organização, será necessário atualizar os modos [de IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) para sites SharePoint conectados à equipe Teams.
+Teams criada antes de ativar uma política de barreira de informações em seu locatário são automaticamente definidas como *Modo Abrir* por padrão. Depois de ativar políticas de IB em seu locatário, você será obrigado a atualizar o modo de suas equipes existentes para *Implícito* para garantir que as equipes existentes sejam compatíveis com IB.
 
-Use o cmdlet [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) com o *parâmetro InformationBarrierMode* que corresponde ao modo que você deseja usar para seus segmentos. Lista de valores permitidos para o *parâmetro InformationBarrierMode* são *Open* e *Implicit*.
+Use o cmdlet [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) com o *parâmetro InformationBarrierMode* que corresponde ao modo que você deseja usar para seus segmentos. Lista de valores permitidos para o *parâmetro InformationBarrierMode* *são Open,* *Implicit* e *Owner Moderated*.
 
 Por exemplo, para configurar o modo *Implícito* para um grupo Microsoft 365, você usará o seguinte comando do PowerShell:
 
@@ -199,7 +200,9 @@ Por exemplo, para configurar o modo *Implícito* para um grupo Microsoft 365, vo
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
-Para obter mais informações sobre como os usuários podem ser removidos automaticamente dos grupos, consulte o artigo Assistente de [conformidade de barreiras](/sharepoint/information-barriers-compliance-assistant) de informações (visualização).
+Para atualizar o modo de Abrir para Implícito para todas as equipes existentes, use este [script do PowerShell.](information-barriers-mode-script.md)
+
+Se você alterar a configuração do modo Open em grupos conectados Teams existentes para atender aos requisitos de conformidade da sua organização, será necessário atualizar os modos [de IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) para sites associados SharePoint conectados à equipe Teams.
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 

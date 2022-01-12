@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59f219d24f6441615d794f23e73274e817f6a3b
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: 4c5f178c5b8da9bf2ed62b06b9c499d676c076e2
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314239"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767714"
 ---
 # <a name="plan-for-sip-gateway"></a>Planejar o Gateway SIP
 
@@ -52,13 +52,13 @@ O Gateway SIP conecta dispositivos SIP compatíveis Teams para ajudar os usuári
 
 ## <a name="requirements-to-use-sip-gateway"></a>Requisitos para usar o Gateway SIP
 
-Teams usuários devem ter um número de telefone com a chamada PTSN habilitada para usar o Gateway SIP.
+Teams usuários devem ter um número de telefone com chamada PSTN habilitada para usar o Gateway SIP.
 
 ### <a name="hardware-software-and-licenses"></a>Hardware, software e licenças
 
 Se você tiver um dispositivo 3PIP ou SIP, deverá ter: 
 - Uma licença para Sistema de Telefonia (via E5 ou uma licença autônoma)
-- Habilitação PTSN (ou seja, um número de telefone) por meio de um plano de chamada Microsoft Teams, roteamento direto ou Conexão
+- Habilitação PSTN (ou seja, um número de telefone) por meio de um plano de chamada Microsoft Teams, roteamento direto ou Conexão
 - Uma licença de Telefone Área Comum para qualquer dispositivo de área comum
 
 ## <a name="compatible-devices"></a>Dispositivos compatíveis

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamada (CQD) para Microsoft Teams e Skype for Business Online.
-ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21de07e2b590bafcb7de65495e6b7d68faa381cc
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598335"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767194"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classificação de fluxo no Painel de Qualidade de Chamada (CQD)
 
@@ -72,10 +72,10 @@ Um fluxo VBSS é  marcado como _Bom_ ou Ruim com base no valor da primeira métr
 
 |Etapa Nº |Indicador |Condição |Classificação se a condição for verdadeira |Classificação se a condição for falsa |Classificação se a métrica não estiver disponível |Explicação |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Avg percentual de perda de quadro local de vídeo|> 50% |_Ruim_|_Bom_|Seguir para a Etapa 2|Porcentagem média de quadros de vídeo perdidos conforme exibido para o usuário. A média inclui quadros recuperados de perdas de rede.|
-|2|Avg da taxa de quadros de vídeo|< 2|_Ruim_|_Bom_|Seguir para a Etapa 3|Quadros médios por segundo recebidos para um fluxo de vídeo, calculados durante a duração da sessão.|
-|3|FECPLR de Postagem de Vídeo|> 0,15|_Ruim_|_Bom_|_Não classificado_|Taxa de perda de pacotes após a aplicação do FEC agregada em todos os fluxos de vídeo e codecs.|
+|1|Avg percentual de perda de quadro local de vídeo|Codec NÃO é H264S</br>E</br>StreamDirection é Entrada</br></br>Se FrameLoss > 50%|_Ruim_|_Bom_|_Não classificado_|Porcentagem média de quadros de vídeo perdidos conforme exibido para o usuário. A média inclui quadros recuperados de perdas de rede. FrameLoss só é usado para classificar fluxos de entrada que não são H264S.|
+|2|Avg da taxa de quadros de vídeo|< 1|_Ruim_|_Bom_|_Não classificado_|Quadros médios por segundo recebidos para um fluxo de vídeo, calculados durante a duração da sessão. Aplica-se a todos os fluxos de saída e streamDirection para H264S.|
 | |  | | | |  ||
+
 
 ### <a name="application-sharing-classifier"></a>Classificador de compartilhamento de aplicativos
 
