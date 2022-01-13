@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: c1d45ea392048e0152f6433c6434db641d8530e4
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331122"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993085"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -129,19 +129,28 @@ Antes de executar essas etapas, instale o Shell SharePoint [Gerenciamento Online
 
 Antes de executar essas etapas, certifique-se de ter a versão mais recente [do módulo Teams PowerShell](teams-powershell-overview.md) instalado.
 
-1. Execute o seguinte comando para obter uma lista de canais privados na equipe.
+1. Execute o seguinte comando para obter a ID de grupo da equipe que contém os canais privados que você deseja pesquisar.
+
+   ```powershell
+   Get-Team -MailNickName <mail alias of the associated Office 365 Group>
+   ```
+
+   > [!TIP]
+   > Execute o cmdlet **Get-Team** sem parâmetros para exibir uma lista de todos os Teams em sua organização. A lista contém a ID do grupo e MailNickName para cada equipe.
+
+2. Execute o seguinte comando para obter uma lista de canais privados na equipe. Use a ID do grupo para a equipe obtida na etapa 1.
 
     ```PowerShell
-    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
+    Get-TeamChannel -GroupId <GroupId> -MembershipType Private
     ```
 
-2. Execute o seguinte comando para obter uma lista de membros do canal privado.
+3. Execute o seguinte comando para obter uma lista de proprietários e membros de canais privados.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
+    Get-TeamChannelUser -GroupId <GroupId> -DisplayName "Engineering" 
     ```
 
-3. Inclua as caixas de correio de todos os membros de cada canal privado na equipe como parte de sua consulta de pesquisa de Descoberta [Eletrônico.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
+4. Inclua as caixas de correio de todos os proprietários e membros de cada canal privado na equipe como parte de sua consulta de pesquisa de Descoberta [Eletrônico.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
 
 ## <a name="search-for-content-for-guest-users"></a>Pesquisar conteúdo para usuários convidados
 
@@ -160,7 +169,7 @@ Para pesquisar conteúdo para usuários convidados:
    > [!TIP]
    > Em vez de exibir uma lista de nomes principais do usuário na tela do computador, você pode redirecionar a saída do comando para um arquivo de texto. Você pode fazer isso de acordo `> filename.txt` com o comando anterior. O arquivo de texto com os nomes principais do usuário será salvo na pasta atual.
 
-3. Em uma janela Windows PowerShell, conecte-se ao Centro de Conformidade e Segurança & PowerShell. Para obter instruções, [consulte Conexão Segurança & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). Você pode se conectar ou sem usar a autenticação multifator.
+3. Em uma janela Windows PowerShell, conecte-se ao Centro de Conformidade e Segurança & PowerShell. Para obter instruções, [consulte Conexão Segurança & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). Você pode se conectar ou sem usar a autenticação multifa factor.
 
 4. Crie uma pesquisa de conteúdo que pesquise todo o conteúdo (como mensagens de chat e mensagens de email) na qual o usuário convidado especificado era um participante executando o comando a seguir.
 

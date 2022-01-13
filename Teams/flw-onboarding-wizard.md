@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25508b3224ab7eab28157cbff268bb6b164686d5
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 97f8994ecc5c7aef610e040f30b43803f03c6844
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563648"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993187"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Use o assistente de integração do Trabalho de Linha de Frente para fazer sua força de trabalho de linha de frente funcionar
 
@@ -34,8 +34,12 @@ Atualmente, o assistente dá suporte à adição de 100 usuários sempre que voc
 
 O assistente está disponível para todas as organizações que tenham pelo menos uma [licença F.](https://www.microsoft.com/microsoft-365/enterprise/frontline) Você pode executar o assistente quantas vezes precisar para Teams sua força de trabalho de linha de frente em locais ou sites diferentes em toda a sua organização.
 
+Confira este breve vídeo para ver uma visão geral de como executar o assistente para integrar sua força de trabalho de linha de frente.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
+
 > [!NOTE]
-> Esse assistente permite que você aborde rapidamente seus funcionários de linha de frente Teams pelo Centro de administração do Microsoft 365. Para obter informações sobre como implantar Teams para seus funcionários de linha de frente usando scripts, consulte Como provisionar Teams em escala para Trabalhadores de Linha de [Frente.](flw-scripted-deployment.md)
+> Esse assistente permite que você aborde rapidamente sua força de trabalho de linha de frente Teams através do Centro de administração do Microsoft 365. Para obter informações sobre como implantar Teams para sua força de trabalho de linha de frente usando scripts, consulte How to provision [Teams at scale for Frontline Workers](flw-scripted-deployment.md).
 
 > [!NOTE]
 > O assistente ainda não dá suporte a [rótulos de sensibilidade.](sensitivity-labels.md) Se sua organização exigir rótulos de sensibilidade para criar uma equipe, você não verá o assistente no Centro de administração do Microsoft 365.
@@ -72,7 +76,7 @@ O assistente está disponível para todas as organizações que tenham pelo meno
 
     :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Captura de tela da página Revisar equipe do assistente em que você analisa as configurações da equipe" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
-    O assistente cria sua equipe e atribui licenças e pacotes de política aos membros da equipe. Isso pode levar alguns minutos para ser concluído, após o qual os destinatários escolhidos receberão um email de status.
+    O assistente cria sua equipe e atribui licenças e pacotes de política aos membros da equipe. Pode levar alguns minutos para ser concluído, após o qual os destinatários escolhidos receberão um email de status.
 
 8. Você está a caminho, mas ainda não terminou! Em seguida, confira a [seção O que fazer depois](#what-to-do-after-running-the-wizard) de executar a seção assistente deste artigo.
 

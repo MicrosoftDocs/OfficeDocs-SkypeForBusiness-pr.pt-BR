@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política Microsoft Teams simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 771b4f2e0e62f9721bcd135e1d01dc4be3ce7285
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: de008f2a662280b173acce6b69157e3b8725798f
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60868573"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61992193"
 ---
-# <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política em Microsoft Teams
+# <a name="manage-policy-packages-for-microsoft-teams"></a>Gerenciar pacotes de política para Microsoft Teams
 
 Um pacote de política no Microsoft Teams é um conjunto de políticas e configurações de política predefinidas que você pode atribuir a usuários com funções semelhantes em sua organização. Construímos pacotes de política para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários em toda a sua organização.  
 
@@ -38,7 +38,7 @@ Você pode usar os pacotes [de política incluídos no Teams](#policy-packages-i
 Você pode personalizar as configurações das políticas em um pacote de política para atender às necessidades de seus usuários. Quando você altera as configurações de políticas em um pacote, todos os usuários atribuídos a esse pacote obterão as configurações atualizadas. Você gerencia pacotes de política usando o Microsoft Teams de administração ou o PowerShell.
 
 > [!NOTE]
-> Cada usuário exigirá o complemento de Comunicações Avançadas para receber uma atribuição de pacote de políticas personalizadas. Para obter mais informações, consulte [Complemento de Comunicações Avançadas para o Microsoft Teams ](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Esse recurso está disponível temporariamente na visualização pública para todos os Microsoft Teams clientes. Para obter esse recurso após a visualização, cada usuário precisará da licença de complemento comunicações avançadas. Para obter mais informações, consulte [Complemento de Comunicações Avançadas para o Microsoft Teams ](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>O que é um pacote de política?
 
@@ -69,8 +69,8 @@ Teams atualmente inclui os seguintes pacotes de política.
 |Profissional clínico da área de saúde  |Cria um conjunto de políticas e configurações de política que dão a funcionários da área de saúde, como enfermeiros registrados, enfermeiros chefe, médicos e assistentes sociais acesso total ao chat, chamadas, gerenciamento de turnos e reuniões. |
 |Profissional de informações da área de saúde  |Cria um conjunto de políticas e configurações de política que dão aos operadores de informações na sua organização da área de saúde, como equipe de TI, de informática, equipe financeira e responsáveis pela conformidade acesso total ao chat, chamadas e reuniões.|
 |Quartos dos pacientes de saúde  |Cria um conjunto de políticas e configurações de política que se aplicam aos quartos dos pacientes em sua organização de saúde.|
-|Usuário de pequenas e médias empresas (Business Voice) |Cria uma política de configuração de aplicativo que inclui os aplicativos para uma experiência de voz comercial.|
-|Usuário de pequenas e médias empresas (sem o Business Voice) |Cria uma política de configuração de aplicativo relevante para uma empresa de pequeno e médio porte Teams usuários (experiência que não é do Business Voice).
+|Usuário de pequenas e médias empresas (Teams Telefone com Plano de Chamada) |Cria uma política de configuração de aplicativo que inclui os aplicativos para um Teams Telefone com experiência de Plano de Chamada.|
+|Usuário de pequenas e médias empresas (sem Teams Telefone com Plano de Chamada) |Cria uma política de configuração de aplicativo relevante para uma empresa de pequeno e médio porte Teams usuários (sem Teams Telefone com experiência de Plano de Chamada).
 |Oficial de segurança pública   |Cria um conjunto de políticas e configurações de política que se aplicam aos agentes de segurança pública em sua organização.|
 
 > [!NOTE]

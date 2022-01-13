@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7e15a8a327d40ea11412229205fca6e856e9f7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596315"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767144"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurar o Microsoft Teams em sua pequena empresa
 
-Há várias maneiras de personalizar o Teams. As seções a seguir mostram como configurar cada carga de trabalho do Teams: **chats, equipes e canais**; **reuniões e conferências**; e **voz na nuvem**. A ordem em que você configura cada carga de trabalho é com você. Embora seja recomendável configurar primeiro os chats, equipes e canais de carga de trabalho, você pode começar com reuniões, conferências ou até mesmo a voz na nuvem. A escolha é sua!
+Há várias maneiras de personalizar o Teams. As seções a seguir mostram como configurar cada carga de trabalho do Teams: **chats, equipes e canais**; **reuniões e conferências** e **soluções de voz**. A ordem em que você configura cada carga de trabalho é com você. Embora seja recomendável configurar primeiro os chats, equipes e canais de carga de trabalho, você pode começar com reuniões, conferências ou até mesmo a voz na nuvem. A escolha é sua!
 
 > [!NOTE]
 > Se você ainda não fez isso, sugerimos que você inicie a implantação do Teams com um piloto. Um piloto permitirá que você e alguns dos primeiros adotantes se familiarizem com o Teams e suas características antes do seu planejamento e eventual lançamento. Para obter mais informações sobre como iniciar seu piloto, consulte [Começar a usar o Microsoft Teams](get-started-with-teams-quick-start.md).
@@ -39,7 +39,7 @@ Pule para a seção em que você está interessado:
 - [Cargas de trabalho](#workloads)
   - [Chat, equipes e canais](#chat-teams-and-channels)
   - [Reuniões e conferências](#meetings-and-conferencing)
-  - [Business Voice](#business-voice)
+  - [Telefonia do Teams com Plano de Chamadas](#teams-phone-with-calling-plan)
 - [Implantar clientes](#deploy-clients)
 - [Treinamento](#training)
 
@@ -56,8 +56,8 @@ Ao pensar na distribuição de equipes e canais, você precisa decidir quem deve
 | Decisão | Descrição |
 |--|--|
 | [Quem deveria ser os administradores do Teams?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-administrators) | As funções de administrador podem ser usadas para conceder permissões específicas às pessoas que você quer administrar no Teams. Talvez as pequenas empresas não precisem dessas funções extras porque a mesma pessoa pode ser responsável por todos os aspectos do Teams. Você poderá adicionar ou remover administradores posteriormente.<br><br>[Usar as funções de administrador do Microsoft Teams para gerenciar o Teams](using-admin-roles.md) |
-| [Quem deveria ser os proprietários e membros do Teams?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-owners-and-members) | Os proprietários do Teams controlam quem pode acessar uma equipe e seus canais. Eles podem decidir se uma equipe ou canal é público (para a organização) ou privado e podem estabelecer políticas, por exemplo, se um canal deve ser moderado. Os membros podem acessar a equipe e seus canais (a menos que um canal seja privado e eles não sejam membros desse canal) e podem ser designados como moderadores.<br><br>[Atribuir proprietários de equipe e membros no Microsoft Teams](assign-roles-permissions.md) |
-| [O acesso de convidados deve estar habilitado?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |O acesso de convidado permite que as pessoas da sua organização convidem pessoas de fora da sua organização para acessarem suas equipes e canais. O acesso de convidado é usado com frequência para colaborar com pessoas de fora da sua organização que não têm uma relação formal com a sua empresa. Por exemplo, você pode convidar um planejador de projeto para trabalhar temporariamente em um projeto.<br>O acesso de convidado é diferente do acesso externo. O acesso de convidado convida indivíduos específicos para interagir com pessoas em sua organização.  <br>O acesso de convidado está **Desativado** por padrão. <br><br>[Ativar ou desativar o acesso de convidado ao Microsoft Teams](set-up-guests.md)  |
+| [Quem deveria ser os proprietários e membros do Teams?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-owners-and-members) | Os proprietários do Teams controlam quem pode acessar uma equipe e seus canais. Eles podem decidir se uma equipe ou canal é público (para a organização) ou privado e podem estabelecer políticas, por exemplo, se um canal deve ser moderado. Os membros podem acessar a equipe e seus canais (a menos que um canal seja privado e eles não sejam membros desse canal) e podem ser designados como moderadores.<br><br>[Atribuir proprietários e membros da equipe no Microsoft Teams](assign-roles-permissions.md) |
+| [O acesso de convidados deve estar habilitado?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |O acesso de convidado permite que as pessoas da sua organização convidem pessoas de fora da sua organização para acessarem suas equipes e canais. O acesso de convidado é usado com frequência para colaborar com pessoas de fora da sua organização que não têm uma relação formal com a sua empresa. Por exemplo, você pode convidar um planejador de projeto para trabalhar temporariamente em um projeto.<br>O acesso de convidado é diferente do acesso externo. O acesso de convidado convida indivíduos específicos para interagir com pessoas em sua organização.  <br>O acesso de convidado está **Desativado** por padrão. <br><br>[Ativar ou desativar o acesso de convidados ao Microsoft Teams](set-up-guests.md)  |
 
 Não é necessário fazer mais nada para que os usuários comecem a usar chat, equipes e canais. No entanto, há muitas opções para controlar como o Teams é usado. Você pode mudar agora ou esperar para ver como as pessoas estão usando o Teams. Para saber mais, confira os seguintes artigos:
 
@@ -71,22 +71,18 @@ Reuniões e conferências permitem que as pessoas em sua organização se encont
 A **Audioconferência** permite que os participantes ingressem em reuniões por meio de um telefone comum ligando para um número de telefone em conferência e inserindo uma ID de reunião. A audioconferência é útil quando um participante não tem uma boa conexão à Internet, a reunião for apenas de voz, ou alguma outra circunstância não permitir que ele participe através do cliente do Teams.
 
 > [!TIP]
-> Familiarize-se mais com reuniões e eventos ao completar o módulo [Gerenciar reuniões, conferências e eventos com o Microsoft Teams](/learn/modules/m365-teams-collab-manage-meetings) no Microsoft Learn.
+> Familiarize-se mais com reuniões e eventos ao completar o módulo [Gerenciar reuniões, conferências e eventos com o módulo do Microsoft Teams](/learn/modules/m365-teams-collab-manage-meetings) no Microsoft Learn.
 
 As reuniões são habilitadas por padrão no Teams. No entanto, você pode controlar a experiência da reunião para organizadores e participantes. Você também pode definir políticas para o que as pessoas têm ou não permissão de fazer antes e durante as reuniões. Para saber mais, confira os seguintes artigos:
 
 - [Início rápido do administrador – Reuniões e eventos ao vivo no Microsoft Teams](quick-start-meetings-live-events.md)
 - [Configurar Audioconferência para pequenas e médias empresas](audio-conferencing-smb.md)
 
-### <a name="business-voice"></a>Business Voice
+### <a name="teams-phone-with-calling-plan"></a>Telefonia do Teams com Plano de Chamadas
 
-[O Microsoft 365 Business Voice](business-voice/whats-business-voice.md) é uma ótima solução para empresas com menos de 300 usuários que oferece todos os recursos de um sistema de telefone comercial. O Business Voice inclui caixa postal, ID do chamador, menus do sistema de telefone, números de chamada gratuita e muito mais, sem a necessidade de gerenciar um sistema telefônico complexo e de alto custo no local.
+A Telefonia do Teams com Plano de Chamadas do Microsoft 365 é uma ótima solução para empresas com menos de 300 usuários que oferece todos os recursos de um sistema de telefonia comercial. A Telefonia do Teams inclui caixa postal, ID do chamador, menus do sistema de telefonia, números de chamada gratuita e muito mais, sem a necessidade de gerenciar um sistema telefônico complexo e de alto custo no local.
 
-Com base no Sistema de Telefonia do Microsoft 365, o Business Voice simplifica a adição de voz à sua organização, agregando complementos e recursos do Sistema Telefônico e fornecendo um assistente fácil de acompanhar para ajudá-lo a configurar seu sistema telefônico. Se sua organização estiver localizada em um [país ou região com suporte para Business Voice](business-voice/country-region-availability.md), você poderá transferir seus números de telefone para o Microsoft 365 e nos permitir gerenciar seu sistema telefônico para você.
-
-Com o Microsoft 365 como seu sistema telefônico, você pode transformar qualquer dispositivo em um telefone instalando o cliente do Teams nele. Ou, se você preferir ter um telefone de mesa tradicional ou um telefone de conferência, há muitos dispositivos certificados do Teams para escolher. De qualquer forma, as chamadas são sempre roteada para onde você está e as chamadas que você faz sempre têm seu número de telefone do escritório.
-
-Se você tiver interesse em usar o Business Voice, confira [O que preciso comprar para usar o Microsoft 365 Business Voice?](business-voice/what-to-buy.md).
+Para obter mais informações sobre a Telefonia do Teams com Plano de Chamadas para pequenas e médias empresas, consulte [Diretrizes da Telefonia do Teams para pequenas e médias empresas](/microsoftteams/business-voice/whats-business-voice).
 
 ## <a name="deploy-clients"></a>Implantar clientes
 

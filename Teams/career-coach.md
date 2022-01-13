@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 114bc83039c42170bcc20d24419f840b3b3d339b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a6ee69306faed71524742fab46c30c9e8523d8ff
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849574"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61992995"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar e habilitar Coach de carreira para Microsoft Teams
 
@@ -87,7 +87,9 @@ Para habilitar Coach de carreira para sua instituição educacional, revise o qu
 
 ## <a name="purchase-the-career-coach-licenses"></a>Comprar as Coach de carreira de Coach de carreira
 
-Coach de carreira está disponível em todo o mundo (exceto a China e a Rússia) para instituições de ensino superior qualificadas como uma licença de complemento por meio de Inscrição para Soluções de Educação (EES), Provedores de Serviços de Nuvem (CSP) e Centro de administração do Microsoft 365 (web direct). Como aplicativo Microsoft Teams, os clientes devem ter Microsoft 365 A3/A5 ou Office 365 A1/A3/A5 para comprar a licença de Coach de carreira de complemento.
+Coach de carreira está disponível em todo o mundo (exceto a China e a Rússia) para instituições de ensino superior qualificadas como uma licença de complemento por meio de Inscrição para Soluções de Educação (EES), Provedores de Serviços de Nuvem (CSP) e Centro de administração do Microsoft 365 (web direct). Como aplicativo Microsoft Teams, o locatário deve ter Microsoft 365 A3/A5 ou Office 365 A1/A3/A5 para comprar a licença de Coach de carreira de complemento. Licenças separadas são oferecidas para alunos e usuários do corpo docente/funcionários.
+
+Uma avaliação gratuita padrão de 90 dias está disponível para 25 alunos e 25 licenças de professores/funcionários. As licenças de avaliação podem ser ativadas Centro de administração do Microsoft 365 locatários qualificados para comprar Coach de carreira.
 
 ### <a name="assign-app-licenses-to-users"></a>Atribuir licenças de aplicativo aos usuários
 
@@ -367,6 +369,55 @@ Se você não tiver certeza de qual [](/microsoftteams/policy-packages-edu) pol�
 
 Referência [Gerenciar políticas de configuração de aplicativos na Microsoft](/microsoftteams/teams-app-setup-policies) para obter mais detalhes.
 
+## <a name="career-coach-settings-status"></a>Coach de carreira status das configurações
+
+A Coach de carreira de configurações do Teams Admin Center fornece um relatório de status de etapas incompletas, pendentes, completas e com falha para configurar o aplicativo. Esses status podem ajudá-lo a determinar se Coach de carreira está configurado corretamente e pronto para lançamento para seu locatário.
+
+### <a name="configuration-status"></a>Status da configuração
+
+A seção status de configuração da página de configurações do aplicativo exibirá o status atual.
+
+![a seção status de configuração do aplicativo de coach de carreira.](media/career-coach-config-status.png)
+
+| Categoria              | Status                    | Descrição                                                 |
+| --------------------- | ------------------------- | ----------------------------------------------------------- |
+| Provisionamento de serviço  | Pendente                   | O aplicativo está sendo adicionado ao locatário. Nenhuma ação mais necessária. |
+| Provisionamento de serviço  | Concluído                  | Pronto para o administrador de IT enviar configurações.                      |
+| Marca e preferências | Não iniciado               | Configurações precisa ser enviado.                              |
+| Marca e preferências | Campos _obrigatórios ausentes_ | O administrador de IT precisa adicionar ou carregar os campos ausentes.         |
+| Marca e preferências | Concluído                  | Nenhuma ação mais necessária.                                   |
+| Catálogo de cursos        | Não iniciado               | O catálogo precisa ser enviado.                              |
+| Catálogo de cursos        | Incompleto                | Verifique o status de ingestão para obter detalhes sobre como resolver.   |
+| Catálogo de cursos        | Concluído                  | Nenhuma ação mais necessária.                                   |
+| Conexão LinkedIn   | Não iniciado               | A URL da página da escola do LinkedIn precisa ser enviada.             |
+| Conexão LinkedIn   | Pendente                   | Aguardando aprovação do administrador da página escolar do LinkedIn.               |
+| Conexão LinkedIn   | Concluído                  | Nenhuma ação mais necessária.                                   |
+| Campos de estudo       | Não iniciado               | O documento precisa ser enviado.                             |
+| Campos de estudo       | Concluído                  | Nenhuma ação mais necessária.                                   |
+
+> [!NOTE]
+> Depois que todas as etapas são marcadas como concluídas, o aplicativo pode ser lançado com êxito para seu locatário e atribuir Coach de carreira licenças. Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+
+### <a name="course-catalog-status"></a>Status do catálogo de cursos
+
+O status do catálogo de cursos é mostrado na página Configurações do catálogo de cursos depois que um documento é carregado, fornecendo detalhes sobre o carregamento e o processamento do documento.
+
+
+![o status de carregamento do catálogo de cursos do aplicativo de coach de carreira.](media/career-coach-course-catalog-status.png)
+
+| Coluna           | Valor     | Descrição                                                                                        |
+| ---------------- | --------- | -------------------------------------------------------------------------------------------------- |
+| Tempo carregado    | Timestamp | Data e hora em que um administrador de IT carregou um documento.                                                     |
+| Tempo concluído   | Timestamp | Data e hora em que o documento foi completamente processado.                                               |
+| Cursos carregados | Integer   | Número de cursos encontrados no documento.                                                           |
+| Status de ingestão | Pendente   | Documento na fila para processamento.                                                                  |
+| Status de ingestão | Executando   | No momento, o documento está sendo processado. Esse processo pode levar até 60 minutos.                        |
+| Status de ingestão | Sucesso   | O processo de ingestão está concluído e os cursos e estarão disponíveis no aplicativo depois de totalmente configurados. |
+| Status de ingestão | Falha    | Verifique o formato do documento e recarregue.                                                            |
+| Duplicatas       | Integer   | Número de cursos duplicados encontrados no documento.                                                 |
+
+> [!NOTE]
+> Se uma coluna estiver em branco, o documento está sendo processado no momento e esses valores não estão disponíveis. Depois que o documento tiver sido processado, os valores serão preenchidos. Você pode atualizar a página para verificar se há atualizações.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
