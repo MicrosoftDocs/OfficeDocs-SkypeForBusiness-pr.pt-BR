@@ -1,5 +1,5 @@
 ---
-title: Implantar Salas do Microsoft Teams gerenciamento com o Azure Monitor
+title: Implantar Salas do Microsoft Teams monitoramento com o Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,20 +13,20 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: Este artigo discute como implantar o gerenciamento de dispositivos Salas do Microsoft Teams de forma integrada e de ponta a ponta usando o Azure Monitor.
+description: Este artigo discute como implantar o monitoramento de Salas do Microsoft Teams de forma integrada e de ponta a ponta usando o Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6713b8651432766e6858f3376ff9804d638babcc
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1520e9a4c9eced048634a0fdc457bb2fd0ea0edb
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726110"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015211"
 ---
-# <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: o gerenciamento com :::no-loc text="Azure Monitor":::
+# <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: monitoramento com :::no-loc text="Azure Monitor":::
 
-Este artigo discute como configurar e implantar o gerenciamento integrado e de ponta a ponta de :::no-loc text="Microsoft Teams Rooms"::: dispositivos usando :::no-loc text="Azure Monitor"::: .
+Este artigo discute como configurar e implantar o monitoramento integrado e de ponta a ponta de dispositivos :::no-loc text="Microsoft Teams Rooms"::: usando :::no-loc text="Azure Monitor"::: .
 
-Você pode configurar dentro para fornecer telemetria básica e :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: alertas que o ajudarão a gerenciar dispositivos :::no-loc text="Microsoft Teams Rooms"::: de sala de reunião. À medida que sua solução de gerenciamento amadurece, você pode optar por implantar recursos adicionais de gerenciamento e dados para criar uma visão mais detalhada da disponibilidade e do desempenho do dispositivo.
+Você pode configurar dentro para fornecer telemetria básica :::no-loc text="Log Analytics"::: e :::no-loc text="Azure Monitor"::: alertas que o ajudarão a gerenciar :::no-loc text="Microsoft Teams Rooms"::: . À medida que sua solução de gerenciamento amadurece, você pode optar por implantar recursos adicionais de gerenciamento e dados para criar uma visão mais detalhada da disponibilidade e do desempenho do dispositivo.
 
 Seguindo este guia, você pode usar um painel como o exemplo a seguir para obter relatórios detalhados de status para disponibilidade do dispositivo, a saúde do aplicativo e do hardware e a distribuição de versão do aplicativo e do sistema :::no-loc text="Microsoft Teams Rooms"::: operacional.
 
@@ -50,7 +50,7 @@ Em um nível superior, é necessário executar as seguintes tarefas:
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>Validar :::no-loc text="Log Analytics"::: configuração
 <a name="validate_LogAnalytics"> </a>
 
-Você precisa ter um espaço de trabalho para começar a :::no-loc text="Log Analytics"::: coletar logs de :::no-loc text="Microsoft Teams Rooms"::: dispositivos. Um espaço de trabalho é um ambiente exclusivo com seu próprio repositório de :::no-loc text="Log Analytics"::: dados, fontes de dados e soluções. Se você já tiver um espaço de trabalho existente, poderá usá-lo para monitorar sua implantação ou, como alternativa, criar um espaço de trabalho dedicado específico às suas necessidades :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: de :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: monitoramento.
+Você precisa ter um espaço de trabalho para começar a :::no-loc text="Log Analytics"::: coletar logs de :::no-loc text="Microsoft Teams Rooms"::: . Um espaço de trabalho é um ambiente exclusivo com seu próprio repositório de :::no-loc text="Log Analytics"::: dados, fontes de dados e soluções. Se você já tiver um espaço de trabalho existente, poderá usá-lo para monitorar sua implantação ou, como alternativa, criar um espaço de trabalho dedicado específico às suas necessidades :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: de :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: monitoramento.
 
 Se você precisar criar um novo espaço de trabalho, siga as instruções :::no-loc text="Log Analytics"::: no artigo Criar um espaço de trabalho no [ :::no-loc text="Log Analytics"::: :::no-loc text="Azure"::: portal](/azure/azure-monitor/learn/quick-create-workspace)
 
@@ -61,7 +61,7 @@ Se você precisar criar um novo espaço de trabalho, siga as instruções :::no-
 
 :::no-loc text="Log Analytics"::: coleta apenas eventos dos :::no-loc text="Windows"::: logs de eventos especificados nas configurações. Para cada log, apenas os eventos com as gravidades selecionadas são coletados.
 
-Você precisa configurar para :::no-loc text="Log Analytics"::: coletar os logs necessários para monitorar o status :::no-loc text="Microsoft Teams Rooms"::: do dispositivo e do aplicativo. :::no-loc text="Microsoft Teams Rooms"::: os dispositivos usam **:::no-loc text="Skype Room System":::** o log de eventos.
+Você precisa configurar para :::no-loc text="Log Analytics"::: coletar os logs necessários para monitorar o status :::no-loc text="Microsoft Teams Rooms"::: do dispositivo e do aplicativo. :::no-loc text="Microsoft Teams Rooms"::: use o **:::no-loc text="Skype Room System":::** log de eventos.
 
 Para configurar :::no-loc text="Log Analytics"::: para coletar os eventos, consulte fontes de dados :::no-loc text="Microsoft Teams Rooms"::: do log de eventos [ :::no-loc text="Windows"::: em :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
@@ -73,7 +73,7 @@ Para configurar :::no-loc text="Log Analytics"::: para coletar os eventos, consu
 ## <a name="configure-test-devices-for-azure-monitoring"></a>Configurar dispositivos de teste para Monitoramento do Azure
 <a name="configure_test_devices"> </a>
 
-Você precisa se :::no-loc text="Log Analytics"::: preparar para poder monitorar eventos :::no-loc text="Microsoft Teams Rooms"::: relacionados. Para começar, você precisa implantar agentes em apenas um ou dois dispositivos aos qual você tem acesso físico, e fazer com que esses dispositivos de teste gerem alguns dados e os pressionem para :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: o espaço de :::no-loc text="Log Analytics"::: trabalho.
+Você precisa se :::no-loc text="Log Analytics"::: preparar para poder monitorar eventos :::no-loc text="Microsoft Teams Rooms"::: relacionados. Para começar, você precisa implantar agentes em um ou dois dispositivos aos qual você tem acesso físico e fazer com que esses dispositivos de teste gerem alguns dados e os pressionem para o :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: espaço de :::no-loc text="Log Analytics"::: trabalho.
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Instalar :::no-loc text="Microsoft Monitoring"::: agentes para testar dispositivos
 
@@ -95,12 +95,12 @@ Depois que :::no-loc text="Microsoft Monitoring"::: o agente for implantado nos 
 3.  Certifique-se de que a consulta retorna registros de log que incluem eventos gerados pelo :::no-loc text="Microsoft Teams Rooms"::: aplicativo de reuniões.
 
 4.  Gere um problema de hardware e valide se os eventos necessários estão conectados :::no-loc text="Azure Log Analytics"::: em .
-    1.  Desconectar um dos dispositivos periféricos no sistema de :::no-loc text="Microsoft Teams Rooms"::: teste. Isso pode ser a câmera, o viva-voz, o microfone ou a tela da sala frontal
+    1.  Desconectar um dos dispositivos periféricos no sistema de :::no-loc text="Microsoft Teams Rooms"::: teste. Pode ser a câmera, o alto-falante, o microfone ou a tela da sala frontal
     2.  Aguarde 10 minutos para que o log de eventos seja preenchido em :::no-loc text="Azure Log Analytics"::: .
     3.  Use uma consulta para listar eventos de erro de hardware: `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  Gere um problema de aplicativo e valide se os eventos necessários estão registrados.
-    1.  Modifique a configuração do aplicativo e digite um par de endereço/senha SIP (Protocolo de :::no-loc text="Microsoft Teams Rooms"::: Iniciação de Sessão) incorreto.
+    1.  Modifique :::no-loc text="Microsoft Teams Rooms"::: a configuração da conta e digite um par de email/senha incorreto.
     2.  Aguarde 10 minutos para que o log de eventos seja preenchido em :::no-loc text="Azure Log Analytics"::: .
     3.  Use uma consulta para listar eventos de erro do aplicativo: `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -175,10 +175,10 @@ Como alternativa, você pode criar seu próprio painel e adicionar apenas os blo
 3.  Nomeia o **:::no-loc text="Microsoft Teams Rooms":::** azulejo .
 4.  Defina **o Primeiro Tile**:<br>
     **Legenda:** Dispositivos que enviaram uma pulsação pelo menos uma vez no último mês<br>
-    **Consulta:**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
+    **Consulta:** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
 5.  Definir o **Segundo Tile**:<br>
     **Legenda:** Dispositivos ativos que enviaram uma pulsação na última hora<br>
-    **Consulta:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
+    **Consulta:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
 6.  Selecione **Aplicar**.
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>Criar um azulejo que exibe dispositivos ativos
@@ -192,7 +192,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar apenas os blo
     **Legenda:** Dispositivos ativos (pulsação enviada nos últimos 20 minutos)<br>
     **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  Defina as **propriedades List:**<br>
-    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **Consulta de lista:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  Definir **títulos de coluna:**<br>
     **Nome:** Nome do computador<br>
     **Valor:** Last Heartbeat
@@ -210,7 +210,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar apenas os blo
     **Legenda:** Dispositivos Inativos (nenhuma mensagem de pulsação enviada nos últimos 20 minutos)<br>
     **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  Defina as **propriedades List:**<br>
-    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
+    **Consulta de lista:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  Definir **títulos de coluna:**<br>
     **Nome:** Nome do computador<br>
     **Valor:** Last Heartbeat
@@ -228,7 +228,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar apenas os blo
     **Legenda:** Dispositivos que sofreram um erro de hardware na última hora<br>
     **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Defina as **propriedades List:**<br>
-    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **Consulta de lista:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Definir **títulos de coluna:**<br>
     **Nome:** Nome do computador<br>
     **Valor:** Último Erro
@@ -246,12 +246,12 @@ Como alternativa, você pode criar seu próprio painel e adicionar apenas os blo
     **Título:** Versões do sistema operacional<br>
     **Subtítulo:** Dispositivos que executam versões específicas do sistema operacional
 4.  Defina as **propriedades do Donut:**<br>
-    **Consulta:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **Consulta:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
     **Texto central:** Dispositivos<br>
     **Operação:** Soma
 5.  Defina as **propriedades List.**<br>
-    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **Ocultar Graph:** Selected<br>
+    **Consulta de lista:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **Ocultar Graph:** Selecionado<br>
     **Habilitar Sparklines:** Não selecionado
 6.  Definir **títulos de coluna**.<br>
     **Nome:** Nome do computador<br>
@@ -270,12 +270,12 @@ Como alternativa, você pode criar seu próprio painel e adicionar apenas os blo
     **Título:** Versões do aplicativo<br>
     **Subtítulo:** Dispositivos que executam versões de aplicativos específicas
 4.  Defina as **propriedades do Donut:**<br>
-    **Consulta:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
+    **Consulta:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
     **Texto central:** Dispositivos<br>
     **Operação:** Soma
 5.  Defina as **propriedades List.**<br>
-    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **Ocultar Graph:** Selected<br>
+    **Consulta de lista:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
+    **Ocultar Graph:** Selecionado<br>
     **Habilitar Sparklines:** Não selecionado
 6.  Definir **títulos de coluna**.<br>
     **Nome:** Nome do computador<br>
@@ -294,7 +294,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar apenas os blo
     **Legenda:** Dispositivos que sofreram um erro de aplicativo na última hora<br>
     **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Defina as **propriedades List.**<br>
-    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **Consulta de lista:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Definir **títulos de coluna**.<br>
     **Nome:** Nome do computador<br>
     **Valor:** Último Erro
@@ -312,7 +312,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar apenas os blo
     **Legenda:** Dispositivos em que o aplicativo foi reiniciado nas últimas 24 horas e número de reinicializações<br>
     **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  Defina as **propriedades List.**<br>
-    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
+    **Consulta de lista:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  Definir **títulos de coluna**.<br>
     **Nome:** Nome do computador<br>
     **Valor:** Número de Reinicializações
@@ -360,7 +360,7 @@ Configure uma regra de alerta que verifica dispositivos que encontraram :::no-lo
 
 5.  Configure as configurações de lógica de alerta:<br>
     **Com base em:** Número de resultados<br>
-    **Condição:** Maior, em seguida,<br>
+    **Condição:** Maior do que<br>
     **Limite:** 0<br>
 
 6. Configurar configurações de Avaliação e selecione **Feito**: <br>
@@ -425,7 +425,7 @@ Se você já tiver implantado seus dispositivos antes de implementar , poderá u
 4.  Crie um novo Objeto de Política de Grupo e atribua-o à unidade organizacional onde as contas :::no-loc text="Microsoft Teams Rooms"::: de máquina estão localizadas.
 
 5.  Configurar a política de execução do PowerShell:
-    1.  Edite o objeto de Política de Grupo recém-criado e navegue até Configuração do Computador \\ \\ Componentes de Modelos \\ :::no-loc text="Windows"::: Administrativos \\:::no-loc text="Windows PowerShell":::
+    1.  Edite o objeto de Política de Grupo recém-criado e navegue até Configuração do Computador \\ \\ Componentes de Modelos \\ :::no-loc text="Windows"::: Administrativos \\ :::no-loc text="Windows PowerShell":::
     2.  **Habilita a Execução de Script Ativado e** de definir a Política de **Execução** como **Permitir Scripts Locais.**
 
 6.  Configure o script de inicialização:
@@ -437,7 +437,7 @@ Se você já tiver implantado seus dispositivos antes de implementar , poderá u
     6.  Selecione **Adicionar** e, em seguida, **Procurar**.
     7.  Selecione o script ps1 que você acabou de copiar.
 
-7.  :::no-loc text="Microsoft Teams Rooms"::: os dispositivos devem instalar e configurar o :::no-loc text="Microsoft Monitoring"::: agente com a segunda reinicialização.
+7.  :::no-loc text="Microsoft Teams Rooms"::: deve instalar e configurar o :::no-loc text="Microsoft Monitoring"::: agente com a segunda reinicialização.
 
 ```PowerShell
 # Install-MMAgent.ps1

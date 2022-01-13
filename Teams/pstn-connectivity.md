@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Saiba mais sobre Teams opções de chamada (conectividade PSTN) e as decisões que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766844"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015271"
 ---
 # <a name="pstn-connectivity-options"></a>Opções de conectividade PSTN
 
@@ -41,7 +41,7 @@ Para conectar Teams Telefone ao PSTN, você pode escolher entre as seguintes op�
 
 - [**Plano de Chamada**](#teams-phone-with-calling-plan). Uma solução completa na nuvem com a Microsoft como operadora PSTN.
 
-- [**Operador Conexão**](#teams-phone-with-operator-connect), que está disponível atualmente apenas na **visualização pública.**  Com o Conexão operador, se sua operadora existente for participante do programa Conexão microsoft operator, eles poderão gerenciar a chamada PSTN e os Controladores de Borda de Sessão (SBCs). 
+- [**Operador Conexão**](#teams-phone-with-operator-connect). Com o Conexão operador, se sua operadora existente for participante do programa Conexão microsoft operator, eles poderão gerenciar a chamada PSTN e os Controladores de Borda de Sessão (SBCs). 
 
 - [**Roteamento**](#teams-phone-with-direct-routing)Direto , que permite que você use sua própria operadora PSTN conectando seus Controladores de Borda de Sessão (SBC) a Teams Telefone.
 
@@ -51,7 +51,7 @@ Você também pode escolher uma combinação de opções, que permite projetar u
 Saiba que a opção ou as opções escolhidas afetam como alguns recursos Teams Telefone estão configurados. Para obter mais informações, consulte [Considerações de](#configuration-considerations) configuração posteriormente neste artigo.
 
 
-## <a name="teams-phone-with-calling-plan"></a>Teams Telefone com Plano de Chamada 
+## <a name="teams-phone-with-calling-plan"></a>Telefonia do Teams com Plano de Chamadas 
 
 Teams Telefone com Plano de Chamadas é a solução de voz all-in-the-cloud da Microsoft para Teams usuários. Essa é a opção mais simples que conecta Teams Telefone à PSTN. Com essa opção, a Microsoft atua como sua operadora PSTN, conforme mostrado no diagrama a seguir:
 

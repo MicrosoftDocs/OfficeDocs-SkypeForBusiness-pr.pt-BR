@@ -15,21 +15,21 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Saiba como atualizar manualmente seu Salas do Microsoft Teams para uma versão específica.
-ms.openlocfilehash: c823cd9ffc98c0eea53ecc48f6ea7fc47519dfd1
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 0b8ec08880d3f8c7ecce28293c92fb6ada901277
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909542"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62014991"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Atualizar manualmente um Salas do Microsoft Teams dispositivo
 
-O Salas do Microsoft Teams aplicativo é distribuído por meio do Microsoft Store. As atualizações do aplicativo são instaladas automaticamente no Microsoft Store durante a manutenção noturna; este é o método recomendado para obter atualizações. No entanto, há algumas situações em que um dispositivo Salas do Teams não pode receber atualizações do Microsoft Store. Por exemplo, as políticas de segurança podem não permitir que os dispositivos se conectem à Internet ou podem não permitir que os aplicativos sejam baixados do Microsoft Store. Ou talvez você queira atualizar um dispositivo antes de executar a instalação, durante o qual o Microsoft Store não está disponível.
+O Salas do Microsoft Teams aplicativo é distribuído por meio do Microsoft Store. As atualizações do aplicativo são instaladas a partir do Microsoft Store automaticamente durante a manutenção noturna; este é o método recomendado para obter atualizações. No entanto, há algumas situações em que um dispositivo Salas do Teams não pode receber atualizações do Microsoft Store. Por exemplo, as políticas de segurança podem não permitir que os dispositivos se conectem à Internet ou podem não permitir que os aplicativos sejam baixados do Microsoft Store. Ou talvez você queira atualizar um dispositivo antes de executar a instalação, durante o qual o Microsoft Store não está disponível.
 
 Se você não conseguir obter atualizações do Microsoft Store, poderá usar um script do PowerShell de atualização de aplicativo offline para atualizar manualmente seus dispositivos Salas do Teams para uma versão mais recente do aplicativo Salas do Teams. Siga as etapas deste artigo para atualizar manualmente seus Salas do Teams dispositivos.
 
 > [!NOTE]
-> Esse processo só pode atualizar um Salas do Teams com o aplicativo Salas do Teams já instalado. Ele não pode ser usado para executar uma nova instalação. Ele também não pode ser usado para fazer o downgrade do aplicativo para uma versão mais antiga. Para executar uma nova instalação do aplicativo Salas do Teams, entre em contato com o fabricante do dispositivo para mídia específica a ele ou consulte Preparar a [mídia de instalação](console.md#prepare-the-installation-media).
+> Esse processo só pode atualizar um Salas do Teams com o aplicativo Salas do Teams já instalado. Ele não pode ser usado para executar uma nova instalação. Ele também não pode ser usado para fazer o downgrade do aplicativo para uma versão mais antiga. Para executar uma nova instalação do aplicativo Salas do Teams, entre em contato com o fabricante do dispositivo para mídia específica dele.
 
 ## <a name="step-1-download-the-offline-app-update-script"></a>Etapa 1: Baixar o script de atualização de aplicativo offline
 

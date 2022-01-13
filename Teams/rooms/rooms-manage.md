@@ -15,24 +15,24 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre como desenvolver e executar operações e manutenção contínuas para garantir que seus sistemas Salas do Microsoft Teams estão disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f326f58bea724dbf1d728955ee1d63b018ba628
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: cb964114a05490d750fee5ec7f8c1a59330e2bd6
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306286"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015181"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gerenciar Salas do Microsoft Teams
 
-Se você tiver Salas do Microsoft Teams certificados em sua organização, terá opções de gerenciamento flexíveis.  Você pode gerenciar os dispositivos por conta própria no mesmo local central onde gerencia todas as soluções Teams, Microsoft Teams Admin Center. Como alternativa, você pode transferir a responsabilidade de gerenciamento para especialistas dedicados [usando Salas do Microsoft Teams Serviços Gerenciados.](https://portal.rooms.microsoft.com)  Você também pode delegar o acesso de gerenciamento a um parceiro de sua escolha para qualquer uma das opções.
+Se você tiver Salas do Microsoft Teams em sua organização, terá opções de gerenciamento flexíveis.  Você pode gerenciar os dispositivos por conta própria no mesmo local central onde gerencia todas as soluções Teams, Microsoft Teams centro de administração. Como alternativa, você pode transferir a responsabilidade de gerenciamento para especialistas dedicados [usando Salas do Microsoft Teams Serviços Gerenciados.](https://portal.rooms.microsoft.com)  Você também pode delegar o acesso de gerenciamento a um parceiro de sua escolha para qualquer uma das opções.
 
-Com Microsoft Teams Admin Center, você pode:
+Com Microsoft Teams de administração, você pode:
 
 - Executar o gerenciamento de dispositivos, como reiniciar dispositivos e baixar logs de dispositivos
 - Aplicar Teams configurações específicas
-- Verifique o status de saúde dos Microsoft Teams de sala e seus periféricos, incluindo câmeras, exibições, microfones e assim por diante
+- Verifique o status de Salas do Microsoft Teams e seus periféricos, incluindo câmeras, exibições, microfones e assim por diante
 - Revise a atividade de reunião atual e passada (como detalhes sobre a qualidade da chamada, a saúde da rede e a conectividade e o número de participantes)
-- Consulte periféricos (como câmeras e projetores) conectados a um dispositivo Microsoft Teams Room
+- Consulte periféricos (como câmeras e projetores) conectados a Salas do Microsoft Teams
 
 Para gerenciar Salas do Teams dispositivos, abra o centro de administração do Microsoft Teams [e](https://admin.teams.microsoft.com) vá para Teams **Dispositivos**  >  **Salas do Teams no Windows**.
 
@@ -40,44 +40,59 @@ Para gerenciar Salas do Teams dispositivos, abra o centro de administração do 
 
 
 > [!IMPORTANT]
-> Para gerenciar dispositivos usando o Teams de administração, você precisa ter as funções administrador global, administrador Teams ou administrador Teams de dispositivo.
+> Para gerenciar dispositivos usando o Teams de administração, você precisa ter as funções Administrador Global, administrador Teams ou administrador Teams Dispositivos.
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Fazer alterações em Salas do Teams dispositivos
 
-Se você tiver mais de um Salas do Teams dispositivo, poderá fazer a maioria das ações em vários dispositivos ao mesmo tempo. Por exemplo, você pode definir Teams configurações do aplicativo em todos os dispositivos ao mesmo tempo.
+Se você tiver mais de um Salas do Teams, poderá fazer a maioria das ações em vários dispositivos ao mesmo tempo. Por exemplo, você pode definir Teams configurações do aplicativo em todas as suas Salas do Teams ao mesmo tempo.
 
 ### <a name="device-settings"></a>Configurações do dispositivo
 
-Você pode alterar as configurações em um ou mais dispositivos em sua organização. Para alterar as configurações, selecione o dispositivo ou dispositivo que você deseja gerenciar e selecione **Editar Configurações**. Um novo painel será aberto com todas as configurações que você pode alterar em seus dispositivos. A tabela a seguir lista as configurações que você pode alterar usando o Teams de administração. Algumas configurações só estão disponíveis quando você seleciona um único dispositivo.
+Você pode alterar as configurações em um ou mais Salas do Teams em sua organização. Para alterar as configurações, selecione o dispositivo ou dispositivo que você deseja gerenciar e selecione **Editar Configurações**. Um novo painel será aberto com todas as configurações que você pode alterar. A tabela a seguir lista as configurações que você pode alterar usando o Teams de administração. Algumas configurações só estão disponíveis quando você seleciona um único Salas do Teams.
 
-Se você selecionar mais de um dispositivo, as configurações que suportam a edição em massa mostrarão as duas opções a seguir.
+Se você selecionar mais de uma, as configurações que suportam a edição em massa mostrarão as duas opções a seguir.
 
-- **Manter o valor existente** Se você escolher essa opção, nenhuma alteração será feita na configuração nos dispositivos selecionados.
-- **Substituir o valor existente por** Se você escolher essa opção, poderá atualizar a configuração nos dispositivos selecionados com o valor que você fornece.
+- **Manter o valor existente** Se você escolher essa opção, nenhuma alteração será feita na configuração no Salas do Teams selecionado.
+- **Substituir o valor existente por** Se você escolher essa opção, poderá atualizar a configuração no Salas do Teams que você selecionou com o valor que fornece.
     > [!CAUTION]
     > Os valores existentes nas configurações que você escolher atualizar serão substituídos pelo valor que você fornecer. Se quiser adicionar a uma lista de valores existentes, você precisará incluir os valores existentes com o valor que deseja adicionar. Por exemplo, se uma configuração tiver uma lista de domínios existente de , e você quiser adicionar , o valor que você precisa `contoso.com, fabrikam.com` `northwindtraders.com` fornecer será `contoso.com, fabrikam.com, northwindtraders.com` .
     >
-    > Se você selecionar vários dispositivos, a configuração em todos os dispositivos selecionados será alterada para o valor que você fornece. Se os dispositivos têm valores diferentes para uma configuração, todos eles serão atualizados para o mesmo valor.
+    > Se você selecionar vários Salas do Teams, a configuração em todos os dispositivos selecionados será alterada para o valor que você fornecer. Se Salas do Teams valores diferentes para uma configuração, todos eles serão atualizados para o mesmo valor.
 
 | Configuração                                                      | Valores aceitos                                        | Suporta edição em massa |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *Conta*                                                    |                                                        |                    |
 | **Email**                                                    | Endereço de email                                          | Não                 |
-| **Modo de reunião com suporte**                                   | Skype for Business (padrão) e Microsoft Teams<br>Skype for Business e Microsoft Teams (padrão)<br>Skype for Business somente|Sim|
+| **Modo de reunião com suporte**                                   | Microsoft Teams somente<br>Skype for Business (padrão) e Microsoft Teams<br>Skype for Business e Microsoft Teams (padrão)<br>Skype for Business somente|Sim|
 | **Autenticação moderna**                                    | Habilitado<br>Desabilitado                                              | Sim                |
 | **Exchange endereço**                                         | Endereço de email                                          | Não                 |
 | **Domínio\nome de usuário (opcional)**                               | Domínio da conta e nome de usuário                           | Não                 |
 | **Configurar domínio**                                         | Lista separada por vírgulas                                   | Sim                |
 | *Reuniões*                                                   |                                                        |                    |
 | **Compartilhamento automático de tela**                                 | Habilitado<br>Desabilitado                                              | Sim                |
+| **HDMI ingerir compartilhamento de áudio**                                 | Habilitado<br>Desabilitado                                              | Sim                |
 | **Mostrar nomes de reunião**                                       | Habilitado<br>Desabilitado                                              | Sim                |
 | **Sair automaticamente se todos os outros sairem da reunião**                 | Habilitado<br>Desabilitado                                              | Sim                |
+| **Participar de reuniões de terceiros**                 | Cisco Webex<br>Zoom                                              | Sim                |
+| **Ingressar com informações de sala**                 | Selecionado<br>Unselected                                              | Sim                |
+| **Ingressar com informações personalizadas**                 | Selecionado<br>Unselected                                              | Sim                |
+| **Nome (obrigatório)**                 | Nome da sala ou espaço                                              | Sim                |
+| **Email (obrigatório)**                 | Endereço de email                                              | Sim                |
 | *Dispositivo*                                                     |                                                        |                    |
 | **Modo de monitor duplo**                                        | Habilitado<br>Desabilitado                                              | Sim                |
+| **Permitir duplicação de conteúdo** | Selecionado<br>Unselected                                 | Sim                |
 | **Bluetooth sinalizador**                                      | Habilitado<br>Desabilitado                                              | Sim                |
 | **Aceitar automaticamente convites de reunião baseados em proximidade** | Selecionado<br>Unselected                                 | Sim                |
 | **Enviar logs com comentários**                                  | Habilitado<br>Desabilitado                                              | Sim                |
 | **Endereço de email para logs e comentários**                      | Endereço de email                                          | Sim                |
+| *Coordenar reuniões*                                                     |                                                        |                    |
+| **Reuniões coordenadas** | Habilitado<br>Desabilitado                                 | Não                |
+| **Ativar o microfone deste dispositivo** | Habilitado<br>Desabilitado                                 | Não                |
+| **Permitir que as pessoas habilitam ao ingressar em uma reunião** | Selecionado<br>Unselected                                 | Não                |
+| **Ativar a câmera deste dispositivo** | Habilitado<br>Desabilitado                                 | Não                |
+| **Permitir que as pessoas habilitam ao ingressar em uma reunião** | Selecionado<br>Unselected                                 | Não                |
+| **Ativar o quadro de trabalho para este dispositivo** | Habilitado<br>Desabilitado                                 | Não                |
+| **Contas de dispositivo confiáveis (separadas por vírgulas)** | Lista de dispositivos                              | Não                |
 | *Periféricos*                                                |                                                        |                    |
 | **Microfone de conferência**                                  | Lista de microfones disponíveis                          | Não                 |
 | **Alto-falante de conferência**                                     | Lista de alto-falantes disponíveis                             | Não                 |
@@ -91,30 +106,13 @@ Se você selecionar mais de um dispositivo, as configurações que suportam a ed
 |                                                              | Padrão<br>Sem tema<br>Personalizado<br>Lista de temas integrados   | Sim                |
 
 ## <a name="cortana-settings"></a>Cortana configurações 
-Você pode habilitar Cortana para a ativação de _voz_ ou _push_ para falar usando o PowerShell para todos os dispositivos em sua organização ou para cada dispositivo separadamente. 
--   No nível da organização e do grupo, você deve usar o PowerShell.
--   No nível do dispositivo, você tem algumas opções. Você pode usar o PowerShell, editar o arquivo de configuração XML ou alterar as configurações no Teams de administração. 
+Você pode habilitar Cortana para a ativação de _voz_ ou _push_ para falar usando o PowerShell para todos os dispositivos em sua organização ou para cada dispositivo separadamente.
 
-Para saber mais sobre como usar o PowerShell para configurar o Cortana, consulte [Admin control and limitations for Cortana in Teams](/microsoftteams/cortana-in-teams#admin-control-and-limitations).
-
-Para saber mais sobre como configurar seu dispositivo usando o arquivo de configuração XML, consulte [Manage a Salas do Microsoft Teams console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file).
-
-No nível do dispositivo, você pode configurar Cortana ser ativado para:
-- _Push to talk_ using PowerShell  
-  - Como ative: Cortana Push _to talk_ está habilitado por padrão para todos os dispositivos que estão definidos com a localidade en-us, independentemente da região geográfica
-  - Como desativar: use o Powershell. 
-- _Ativação de_ voz usando arquivo de configuração XML ou Teams centro de administração.
-  - Como a ativar: definir no arquivo de configuração XML ou usar a configuração correspondente `<CortanaWakeWord>true</>` no Teams de administração
-  - Como desativar: Cortana ativação de voz está desligada por padrão 
-  
-  Lembre-se de que três condições devem ser atendidas para que Cortana _ativação de voz_ em seu dispositivo:
-    1. Sua organização deve ter Cortana habilitado
-    2. Seu dispositivo deve ser definido com uma das seguintes localidades: en-au, en-ca, en-gb, en-in, en-us
-    3. Você deve ter um dispositivo Cortana certificado conectado ao seu Teams Sala [Saiba mais](/microsoftteams/cortana-in-teams)   
+Consulte [Salas do Microsoft Teams no Windows](../cortana-in-teams.md) no artigo "Cortana de voz no Teams".
 
 ### <a name="device-restart-options"></a>Opções de reinicialização do dispositivo
 
-As alterações nas configurações do dispositivo só terão efeito depois que os dispositivos foram reiniciados. Quando você faz alterações que precisam de uma reinicialização, você pode optar por reiniciar os dispositivos imediatamente ou agendar uma reinicialização. Aqui estão as opções de reinicialização disponíveis:
+As alterações nas configurações do dispositivo só terão efeito depois que Salas do Teams tiver sido reiniciada. Quando você faz alterações que precisam de uma reinicialização, você pode optar por reiniciar imediatamente ou agendar uma reinicialização. Aqui estão as opções de reinicialização disponíveis:
 
 - **Reinicialização imediata** Se você escolher essa opção, todos os dispositivos para os quais você está fazendo alterações serão reiniciados assim que você selecionar essa opção.
 - **Reinicialização agendada** Se você escolher essa opção, poderá reiniciar os dispositivos aos quais está fazendo alterações em um momento menos prejudicial à sua organização.
@@ -122,18 +120,18 @@ As alterações nas configurações do dispositivo só terão efeito depois que 
   - **Deixar a atualização para reinicialização noturna** Os dispositivos são reiniciados à noite para realizar a manutenção. As alterações feitas em dispositivos serão aplicadas durante essa reinicialização.
 
 > [!CAUTION]
-> Os dispositivos em uso no momento de uma reinicialização ficam indisponíveis durante o processo de reinicialização. Eles serão desconectados de reuniões em andamento e não estarão disponíveis para participar de novas reuniões.
+> Salas do Teams que estão em uso no momento de uma reinicialização ficará indisponível durante o processo de reinicialização. Eles serão desconectados de reuniões em andamento e não estarão disponíveis para participar de novas reuniões.
 
 ### <a name="remove-device"></a>Remover dispositivo
 
-Quando você remove um dispositivo, o dispositivo é removido da sua organização e não aparece mais na sua lista de dispositivos Salas do Teams no centro de administração Teams de segurança.
+Quando você remove um dispositivo, o dispositivo é removido da sua organização e não aparece mais na sua lista de Salas do Teams no Windows no centro de administração Teams.
 
-Se você remover um dispositivo e ele ainda estiver configurado com um nome de usuário e senha válidos, ele será automaticamente adicionado à sua lista de dispositivos Salas do Teams se ele se conectar ao Microsoft 365 novamente.
+Se você remover um dispositivo e ele ainda estiver configurado com um nome de usuário e senha válidos, ele será automaticamente adicionado à sua lista de Salas do Teams se ele se conectar ao Microsoft 365 novamente.
 
 Para remover um ou mais dispositivos, faça o seguinte:
 
-1. Vá para **Teams**  >  **Dispositivos Salas do Teams** e selecione os dispositivos que você deseja remover.
-1. Selecione **Remover**.
+1. Vá para **Teams**  >  **Dispositivos Salas do Teams no Windows** e selecione os dispositivos que você deseja remover.
+2. Selecione **Remover**.
 
 ## <a name="download-device-logs"></a>Baixar logs de dispositivo
 
@@ -141,7 +139,7 @@ Você pode baixar uma cópia dos arquivos de log de diagnóstico de um dispositi
 
 Para baixar logs de um Salas do Teams para seu computador, faça o seguinte:
 
-1. Vá para **Teams Dispositivos Salas do Teams** e selecione o nome do dispositivo do o que você deseja baixar  >   logs.
+1. Vá para **Teams Dispositivos Salas do Teams** no Windows e selecione o nome do dispositivo de onde você deseja baixar  >   logs.
 1. Selecione **Baixar logs de dispositivo.** Pode levar vários minutos para que os logs de dispositivos se tornem disponíveis.
 1. Selecione a **guia Histórico** e selecione o link de arquivo de log em Arquivo **de Diagnóstico.** Um arquivo zip contendo os arquivos de log de diagnóstico do seu dispositivo será baixado para a pasta Downloads padrão do navegador.
 

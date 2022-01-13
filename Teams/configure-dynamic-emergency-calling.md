@@ -18,12 +18,12 @@ description: Saiba como configurar os Planos de Chamadas da Microsoft e Sistema 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: a56d0887f061292f729b45a6c53707d1e398e332
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410712"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015361"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -53,7 +53,7 @@ A capacidade de fazer o roteamento automático para o PSAP (Ponto de Atendimento
 
 Os planos de chamadas da Microsoft e os Conexão de operador incluem serviços dinâmicos de roteamento de emergência para usuários nos Estados Unidos e no Canadá.
 
-No entanto, para Roteamento Direto, a configuração adicional é necessária para roteamento de chamadas de emergência e, possivelmente, para conectividade do parceiro. O administrador deve configurar a conexão com um provedor do Serviço de Roteamento de Emergência (ERS) (Estados Unidos e Canadá) **OU** configurar o Controlador de Borda de Sessão (SBC) para um aplicativo ELIN (Número de Identificação de Local de Emergência). Para obter informações sobre provedores de ERS, consulte [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
+No entanto, para Roteamento Direto, a configuração adicional é necessária para roteamento de chamadas de emergência e, possivelmente, para conectividade do parceiro. O administrador deve garantir que o gateway PSTN roteando a chamada de emergência tenha sido configurado para adicionar informações de local ao INVITE de saída (definindo o parâmetro PidfloSupported como True no objeto de gateway PSTN online. Além disso, o administrador deve configurar a conexão com um provedor do Serviço de Roteamento de Emergência (ERS) (Estados Unidos e Canadá) **OU** configurar o Controlador de Borda de Sessão (SBC) para um aplicativo ELIN (Número de Identificação de Local de Emergência). Para obter informações sobre provedores de ERS, consulte [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
 Este artigo contém as seções a seguir.
 

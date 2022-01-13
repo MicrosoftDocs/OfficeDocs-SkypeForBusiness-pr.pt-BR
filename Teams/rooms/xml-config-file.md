@@ -16,18 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Gerenciamento remoto das configurações padrão usadas por um dispositivo Salas do Microsoft Teams, incluindo a aplicação de um tema personalizado e a criação de um arquivo de configurações mestras.
-ms.openlocfilehash: bb21a74d3cde9588b08b5513e8f70e467bf1e13f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57702fb995c05766bf8a65f17b2c56356d267924
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577945"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015051"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações do console de Salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
-Este artigo discute o gerenciamento remoto das configurações padrão usadas por um Salas do Microsoft Teams, incluindo a aplicação de um tema personalizado. Ele discute como criar um arquivo de configurações mestras e links para discussões sobre como coloque-los conforme necessário nos dispositivos gerenciados remotamente.
+Este artigo discute o gerenciamento remoto das configurações padrão usadas por um Salas do Microsoft Teams, incluindo a aplicação de um tema personalizado. Ele discute como criar um arquivo de configurações mestras e links para discussões sobre como coloque-los conforme necessário Salas do Teams.
   
-É possível alterar as configurações padrão de dispositivos gerenciados remotamente atualizando um arquivo XML mestre e enviando cópias para os consoles gerenciados. Você também pode implementar Temas Personalizados em seus consoles Salas do Microsoft Teams com arquivos de configuração XML.
+É possível alterar as configurações padrão do Salas do Teams atualizando um arquivo XML mestre e enviando cópias para os dispositivos Salas do Teams remotos.
   
 ## <a name="create-an-xml-configuration-file"></a>Criar um arquivo de configuração XML
 
@@ -168,38 +168,61 @@ Você pode usar o método de sua preferência, desde que possa usá-lo para tran
   
 ## <a name="supported-meeting-modes-app-version-49"></a>Modos de reunião com suporte App versão 4.9
 
-| Nome da configuração                                    | Notação XML                | Valor XML      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business (padrão) e Microsoft Teams| \<TeamsMeetingsEnabled>     |   Verdadeiro         |
-|                                                 | \<SfbMeetingEnabled>        |   Verdadeiro         |
-|                                                 | \<IsTeamsDefaultClient>     |   Falso        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business e Microsoft Teams (padrão)|  \<TeamsMeetingsEnabled>    |   Verdadeiro         |
-|                                                 |  \<SfbMeetingEnabled>       |   Verdadeiro         |
-|                                                 |  \<IsTeamsDefaultClient>    |   Verdadeiro         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| Somente Skype for Business                         |  \<TeamsMeetingsEnabled>    |   Falso        |
-|                                                 |  \<SfbMeetingEnabled>       |   Verdadeiro         |
-|                                                 |  \<IsTeamsDefaultClient>    |   Falso        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Microsoft Teams somente                            |  \<TeamsMeetingsEnabled>    |   Verdadeiro         |
-|                                                 |  \<SfbMeetingEnabled>       |   Falso        |
-|                                                 |  \<IsTeamsDefaultClient>    |   Verdadeiro         |                       
-|:------------------------------------------------|:----------------------------|:---------------|                                                       
-                                                                                                           
+**Skype for Business (padrão) e Microsoft Teams**
+
+| Notação XML                | Valor XML      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>     |   Verdadeiro         |
+| \<SfbMeetingEnabled>        |   Verdadeiro         |
+| \<IsTeamsDefaultClient>     |   Falso        |
+
+**Skype for Business e Microsoft Teams (padrão)**
+
+| Notação XML                | Valor XML      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   Verdadeiro         |
+| \<SfbMeetingEnabled>        |   Verdadeiro         |
+| \<IsTeamsDefaultClient>     |   Verdadeiro        |
+
+**Somente Skype for Business**
+
+| Notação XML                | Valor XML      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   Falso         |
+| \<SfbMeetingEnabled>        |   Verdadeiro         |
+| \<IsTeamsDefaultClient>     |   Falso        |
+
+**Microsoft Teams somente**
+
+| Notação XML                | Valor XML      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   Verdadeiro         |
+| \<SfbMeetingEnabled>        |   Falso         |
+| \<IsTeamsDefaultClient>     |   Verdadeiro        |
+
+
 ## <a name="supported-meeting-modes-app-version-48-or-lower"></a>Modos de reunião com suporte App versão 4.8 ou inferior
 
-| Nome da configuração                                    | Notação XML                | Valor XML      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business (padrão) e Microsoft Teams|  \<TeamsMeetingsEnabled>    |   Verdadeiro         |
-|                                                 |  \<IsTeamsDefaultClient>    |   Falso        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business e Microsoft Teams (padrão)|  \<TeamsMeetingsEnabled>    |   Verdadeiro         |
-|                                                 |  \<IsTeamsDefaultClient>    |   Verdadeiro         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| Somente Skype for Business                         |  \<TeamsMeetingsEnabled>    |   Falso        |
-|                                                 |  \<IsTeamsDefaultClient>    |   Falso        |
-|:------------------------------------------------|:----------------------------|:---------------|                                                 
+**Skype for Business (padrão) e Microsoft Teams**
+
+| Notação XML                | Valor XML      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   Verdadeiro         |
+|  \<IsTeamsDefaultClient>     |   Falso        |
+
+**Skype for Business e Microsoft Teams (padrão)**
+
+| Notação XML                | Valor XML      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   Verdadeiro         |
+|  \<IsTeamsDefaultClient>     |   Verdadeiro         |
+
+**Somente Skype for Business**
+
+| Notação XML                | Valor XML      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   Falso         |
+|  \<IsTeamsDefaultClient>     |   Falso         |
 
 ## <a name="custom-theme-images"></a>Imagens de tema personalizado
 

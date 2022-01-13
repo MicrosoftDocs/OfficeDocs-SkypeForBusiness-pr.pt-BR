@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar Microsoft Teams Sistema de Telefonia para sua empresa. '
-ms.openlocfilehash: 8097ca497a7da3474681549a4abfe396b41a06cd
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: f396d8fc3dd1e26a2969b825c360054db91071fa
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262105"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015251"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Veja o que você obter com Teams Telefone
 
@@ -50,7 +50,7 @@ Teams Telefone fornece os seguintes recursos.
 |:-----|:-----|
 |[Atendentes automáticos na nuvem](what-are-phone-system-auto-attendants.md)  |Permite que você crie um sistema de menus que permite que chamadores externos e internos localizem e façam ou transfira chamadas para usuários ou departamentos da empresa em sua organização.  <br/> Observe que *os usuários não precisam* ter voz habilitada para receber chamadas do atendimento automático. |
 |[Filas de chamada na nuvem](create-a-phone-system-call-queue.md) <br> |Permite configurar como as filas de chamada são gerenciadas para sua organização: por exemplo, configurar saudações e músicas em espera, procurar o próximo agente de chamada disponível para lidar com a chamada e assim por diante.  <br/> Observe que os *usuários precisam* estar habilitados para voz para receber chamadas de uma fila de chamadas.|
-|Música de espera | Reproduz a música padrão definida pelo serviço quando uma chamada externa da Rede Telefônica Pública Comuada (PSTN) é colocada em espera. Esse recurso funciona para chamadas PSTN para Teams, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece paridade de notificação de espera com outras plataformas. Esse recurso é configurável pelo administrador, [mas atualmente apenas por meio do PowerShell](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). A música de espera também não é suportada na transferência consultiva de uma chamada PSTN. Para obter mais informações, consulte [Música em espera.](music-on-hold.md)|
+|[Música de espera](music-on-hold.md) | Reproduz músicas padrão definidas pelo serviço ou música personalizada carregada pelo administrador do locatário quando uma chamada externa da Rede Telefônica Pública Comuada (PSTN) é colocada em espera. Esse recurso funciona para chamadas PSTN para Teams, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece paridade de notificação de espera com outras plataformas. |
 |Responder/iniciar chamadas (por nome e número)   |Permite que os usuários atendam chamadas de entrada com um toque e faça chamadas de saída discando o número de telefone completo ou clicando em um nome no cliente.   |
 |[Opções de encaminhamento de chamada e toque simultâneo](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)  |Permite que os usuários configurarem regras de encaminhamento para que as chamadas possam ir com elas para qualquer lugar, ou as chamadas podem ser encaminhadas para colegas ou para a caixa postal.   |
 |[Retirada de chamada de grupo e encaminhamento para grupo](call-sharing-and-group-call-pickup.md)  | Permite que os usuários compartilhem chamadas de entrada com colegas para que os colegas possam atender chamadas que ocorrem enquanto o usuário não está disponível. Menos prejudicial para destinatários do que outras formas de compartilhamento de chamadas (como encaminhamento de chamadas ou toque simultâneo) porque os usuários podem configurar como eles querem ser notificados de uma chamada compartilhada de entrada. |
@@ -73,7 +73,7 @@ Teams Telefone fornece os seguintes recursos.
 |[Bloqueio de chamada](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permite que os usuários adicionem números de telefone (PSTN) a uma lista bloqueada para que a próxima chamada desse número seja impedida de tocar no usuário.|
 |[Telefones de área comum](set-up-common-area-phones.md)  | Um telefone de área comum normalmente é colocado em uma área como um lobby ou sala de conferência, disponibilizando-o para várias pessoas. Os telefones de área comum são definidos como dispositivos em vez de usuários e podem entrar automaticamente em uma rede.|
 |[Suporte a bypass de mídia](direct-routing-plan-media-bypass.md) (somente Teams roteamento direto)  | Para melhor desempenho, a mídia é mantida entre o Controlador de Borda de Sessão (SBC) e o cliente, em vez de enviá-la pelo Teams Telefone. |
-
+|[Roteamento de números não atribuídos](routing-calls-to-unassigned-numbers.md) | Permite o roteamento de números não atribuídos para usuários, atendimentos automáticos, filas de chamadas ou um anúncio personalizado. |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Disponibilidade em GCC nuvens Alta e DoD
 <a name="bkmk_setup"> </a>

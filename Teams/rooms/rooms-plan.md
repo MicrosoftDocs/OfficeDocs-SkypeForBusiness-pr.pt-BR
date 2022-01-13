@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Este artigo explica as considerações de planejamento relevantes para a implantação Salas do Microsoft Teams, a próxima geração de Skype Sistemas de Sala.
-ms.openlocfilehash: 70fd1fabd416628fac4b934c2db5700f4e0f36c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f0b1f8797a8d1f9d7589e959c71699b1efd84e3c
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727800"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015221"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar Salas do Microsoft Teams
 
@@ -32,39 +32,33 @@ Você encontrará informações de planejamento abaixo abordando a abordagem rec
 
 Salas do Microsoft Teams oferece uma experiência de reunião completa que traz vídeo, áudio e compartilhamento de conteúdo EM HD para reuniões de todos os tamanhos, desde áreas de pequeno porte até salas de conferência grandes.
 
-![Um console, um microfone e uma tela grande montada em uma parede de sala de conferência ilustram os elementos de um exemplo Salas do Microsoft Teams instalação.](../media/room-systems-image1.png "Um console, um microfone e uma tela grande montada em uma parede de sala de conferência ilustram os elementos de um exemplo Salas do Microsoft Teams instalação.")
-
-[Salas do Microsoft Teams ajuda](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) é um ótimo recurso para saber mais sobre o Salas do Microsoft Teams e como ele pode adicionar valor como parte de sua implantação. Além disso, recomendamos assistir a este [vídeo de visão geral](https://youtu.be/tNey5KZVCl0). 
+![Um usuário toca em um console Salas do Teams, com uma exibição em segundo plano.](../media/room-systems-image1.jpg "Um usuário toca em um console Salas do Teams, com uma exibição em segundo plano") 
+ [Salas do Microsoft Teams ajuda](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) é um ótimo recurso para saber mais sobre o Salas do Microsoft Teams e como ele pode adicionar valor como parte de sua implantação.
 
 ## <a name="microsoft-teams-rooms-components"></a>Salas do Microsoft Teams componentes
 
 Salas do Microsoft Teams inclui os seguintes componentes principais para oferecer uma ótima experiência do usuário:
 
-- Painel de controle touchscreen
-- Compute
+- Console touchscreen
+- Módulo de computação
 - Salas do Microsoft Teams aplicativo
-- Dock/extender
 - Dispositivos periféricos (câmera, microfone, alto-falante)
 - Telas externas (máximo de duas)
 - Entrada HDMI
 
 Você pode adquirir esses componentes como pacotes pré-instalados de vários fornecedores ou comprar os componentes com suporte individualmente seguindo os requisitos [documentados neste artigo](requirements.md).
 
-Além da combinação Surface Pro/encaixe, você também pode comprar o Salas do Microsoft Teams com o painel de controle touchscreen, computação, encaixe e principais dispositivos periféricos integrados. 
-
-Normalmente, os pacotes e unidades integradas incluem software pré-instalado, enquanto se você comprar componentes com suporte individualmente para os sistemas Surface Pro, será necessário instalar o software. Para obter instruções, [consulte este artigo sobre a instalação de software em dispositivos](rooms-scale.md). 
-
-Você pode implantar Salas do Microsoft Teams com Microsoft Teams, Skype for Business Online ou Skype for Business implantações híbridas ou locais.  Consulte a [atualização Teams Sala de Reunião licenciamento](rooms-licensing.md) para obter informações sobre as licenças necessárias.
+Você pode implantar Salas do Microsoft Teams com Microsoft Teams ou Skype for Business locais.  Consulte a [atualização Teams Sala de Reunião licenciamento](rooms-licensing.md) para obter informações sobre as licenças necessárias.
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-|![decidir a implantação.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você implantará Salas do Microsoft Teams em sua organização? </li><li>Como você obterá seus sistemas Salas do Microsoft Teams , empacotados, como componentes separados ou como uma unidade integrada?</li></ul> |
+|![decidir a implantação.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você implantará Salas do Microsoft Teams em sua organização? </li><li>Como você obterá seus sistemas Salas do Microsoft Teams de segurança?</li></ul> |
 | ![identificar atividades.](../media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Identifique quem realizará as principais atividades em toda a sua implantação.</li><li>Revise as salas de reunião que você tem (e planeje a configuração) para entender onde você deseja implantar Salas do Microsoft Teams e os dispositivos periféricos que seriam apropriados para o tamanho da sala.</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identificar quem realizará as principais atividades em toda a sua implantação
 
-Use a abordagem ilustrada abaixo para orientá-lo através de sua implantação e personalizar as saídas de exemplo fornecidas em todos esses artigos, conforme necessário para sua organização.
+Use a abordagem ilustrada abaixo para orientá-lo através de sua implantação e personalizar as saídas de exemplo fornecidas conforme necessário para sua organização.
 
 Comece compreendendo quais salas de conferência você tem e visualizando o que funcionaria melhor para você no futuro e, em seguida, vá selecionando e selecionando o equipamento de que precisa, preparando seus sites, configurando e implantando seu serviço, gerenciando alterações e adoção do usuário e desenvolvendo operações e procedimentos de manutenção.
 
@@ -88,7 +82,7 @@ Talvez seja necessário coordenar essas atividades em várias equipes. Fornecemo
 
 ## <a name="room-inventory-and-capability-planning"></a>Inventário de sala e planejamento de recursos
 
-A primeira etapa é fazer um inventário das salas de reunião e conferência existentes da sua organização para entender seu ambiente, tamanho da sala, layout e finalidade e identificar os recursos que você deseja que cada sala no escopo tenha no futuro, como quais recursos de colaboração mais avançados serão habilitados na sala. 
+A primeira etapa é fazer um inventário dos espaços de reunião e salas de conferência existentes da sua organização para entender seu ambiente, tamanho da sala, layout e finalidade. Em seguida, você pode identificar os recursos que deseja que cada sala tenha, como câmeras inteligentes, quadro de branco, câmera de conteúdo, etc.
 
 Depois de criar um inventário dos equipamentos e recursos em cada sala existente, seus requisitos para essa sala são alimentados pelo planejamento de seleção de dispositivos para criar uma solução de conferência rica. As modalidades (áudio, vídeo) necessárias para cada sala, além do tamanho da sala e da finalidade, todas desempenham um papel importante na decisão de qual solução é mais apropriada para cada sala. 
 
@@ -129,11 +123,11 @@ _Exemplo Salas do Microsoft Teams de implantação para sua organização_
 | Média de 18' por 20'    | 6 &ndash; 12                  |                                  |                         |                 |
 | Grande 15' por 32'     | 12 &ndash; 16                 |                                  |                         |                 |
 
-**Pro Dica –** Agora é um ótimo momento para começar a coletar informações sobre Salas do Microsoft Teams solução escolhida.
+**Pro Dica –** Agora é um ótimo momento para começar a coletar informações sobre a solução Salas do Microsoft Teams que você escolheu.
 
 ## <a name="procurement"></a>Aquisição 
 
-Você pode adquirir seu sistema escolhido como um pacote ou uma solução integrada por meio de parceiros de dispositivo. Você também pode adquirir um encaixe de dispositivo parceiro e preparar sua própria solução Salas do Microsoft Teams usando um dispositivo Surface Pro e dispositivos periféricos _AV_ existentes e compatíveis. 
+Você pode adquirir seu sistema escolhido como um pacote ou uma solução integrada por meio de parceiros de dispositivo.
 
 Você pode adquirir Salas do Microsoft Teams de vários parceiros listados no artigo [requisitos.](requirements.md) Visite os sites dos parceiros para saber mais sobre essas soluções e opções de compras. 
 
@@ -148,9 +142,9 @@ Dependendo da escala e da abordagem de implantação, você pode decidir ter os 
 
 Sua organização deve executar tarefas de monitoramento, administração e gerenciamento de forma contínua, e é fundamental concordar com quem realizará essas tarefas no início da sua implantação. 
 
-Muitas organizações têm uma equipe av ou parceiro que gerencia suas salas de conferência e dispositivos. Essa equipe deve estar envolvida em concordar com quem gerenciará os dispositivos Salas do Microsoft Teams futuros para monitorar o desempenho e implantar atualizações de software e hotfixes. 
+Muitas organizações têm uma equipe av ou parceiro que gerencia suas salas de conferência e dispositivos. Ou você pode ter ajuda da Microsoft para gerenciar Salas do Teams ao aproveitar Salas do Microsoft Teams Premium. Decida quem gerenciará os dispositivos Salas do Microsoft Teams futuros para monitorar o desempenho, bem como implantar atualizações de software e hotfixes. 
 
-Considere qual fila de ajuda você roteiará Salas do Microsoft Teams Salas do Microsoft Teams</DICT__Salas⚐do⚐Microsoft⚐Teams> e as principais etapas de solução de problemas que podem ser tomadas. Um bom ponto de partida para essa perguntas frequentes é a [ajuda do usuário](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) e problemas [conhecidos.](known-issues.md)
+Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. Um bom ponto de partida para essa perguntas frequentes é a [ajuda do usuário](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) e problemas [conhecidos.](known-issues.md)
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
@@ -160,6 +154,6 @@ Considere qual fila de ajuda você roteiará Salas do Microsoft Teams Salas do M
 
 ## <a name="plan-for-adoption-and-change-management"></a>Planejar a adoção e gerenciamento de alterações
 
-Salas do Microsoft Teams os sistemas introduzem novos recursos aos seus usuários. É importante que você reconheça que isso será uma mudança para seus usuários, e você deve garantir que sua campanha identifique os benefícios que o novo sistema terá para seus usuários e os principais pontos de discussão que os leads podem usar para discutir com suas equipes. 
+Salas do Microsoft Teams os sistemas introduzem novos recursos aos seus usuários. É importante que você reconheça que isso será uma mudança para seus usuários, e você deve garantir que sua campanha de marketing interna identifique os benefícios que o novo sistema terá para seus usuários e os principais pontos de discussão que os leads podem usar para discutir com suas equipes. 
 
 Considere o agendamento de eventos de exibição e de apresentação e exibição de cartazes em cada site para informar os usuários sobre os novos recursos. Você também pode criar "guias de início rápido" na sala. Considere encontrar um campeão de reuniões em cada site que possa ajudar outras pessoas a se agilizar e começar a usar os dispositivos.

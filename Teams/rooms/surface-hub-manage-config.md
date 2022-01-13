@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Gerenciar Microsoft Teams configurações no Surface Hub usando Microsoft Intune e Windows Designer de Configuração
-ms.openlocfilehash: 39d62296a87fa50722bce98a4fcd5e0372b362cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70295a22524dc702832a729dc7e631c49b206053
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602156"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015261"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Gerenciar Microsoft Teams configurações no Surface Hub
 
@@ -27,7 +27,7 @@ Você pode gerenciar Microsoft Teams configurações em um Surface Hub usando Wi
 - [Criar um pacote de provisionamento para Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [O que é Microsoft Intune de dispositivos?](/mem/intune/remote-actions/device-management)
 
-Windows O Designer de Configuração é uma boa opção se você tiver apenas alguns dispositivos Surface Hub e você puder acessá-los facilmente. Se você tiver muitos Surface Hubs ou se eles estão em locais remotos, use Microsoft Intune no Microsoft Endpoint Manager se estiver implantado em sua organização. Independentemente do método escolhido, você precisa criar um arquivo de configuração XML para fazer alterações Teams configurações no Surface Hub.
+Windows Designer de Configuração é uma boa opção se você tiver apenas alguns dispositivos Surface Hub e você puder acessá-los facilmente. Se você tiver muitos Surface Hubs ou se eles estão em locais remotos, use Microsoft Intune no Microsoft Endpoint Manager se estiver implantado em sua organização. Independentemente do método escolhido, você precisa criar um arquivo de configuração XML para fazer alterações nas configurações Teams no Surface Hub.
 
 ## <a name="teams-configuration-file-syntax"></a>Teams de arquivo de configuração
 

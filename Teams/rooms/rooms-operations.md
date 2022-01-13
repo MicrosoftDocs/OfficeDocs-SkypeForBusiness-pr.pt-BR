@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Leia este tópico para saber mais sobre o gerenciamento de Salas do Microsoft Teams.
-ms.openlocfilehash: 3717c140501cbfc7650daafd14a6daa47a4febd3
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2238712b269475891074016c1099a33c56004595
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306156"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015041"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas do Microsoft Teams e operações 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas do Microsoft Teams e operações
  
 Leia este tópico para saber mais sobre o gerenciamento de Salas do Microsoft Teams.
   
@@ -29,9 +29,9 @@ Salas do Microsoft Teams é a solução de conferência da Microsoft projetada p
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Coletando logs em Salas do Microsoft Teams
 <a name="Logs"> </a>
 
-Você pode coletar logs Teams centro de administração. No Teams de administração, navegue até Devices\Salas do Teams no Windows. Nesta página, clique no nome de exibição para o qual você deseja baixar logs. No painel superior, clique em "Baixar logs de dispositivo". Você será solicitado com um aviso. Clique em "Got it". Após alguns minutos, os logs estarão prontos para download na guia Histórico.
+Para coletar logs no Teams de administração, acesse Teams **dispositivos > Salas do Teams no Windows**. Selecione o nome de exibição do dispositivo para o que você deseja logs. No painel superior, selecione "Baixar logs de dispositivo". Depois de confirmar, os logs estarão prontos para download na guia Histórico após alguns minutos.
 
-Você também pode usar o PowerShell para coletar logs. Você deve invocar o script do conjunto de log que acompanha o Salas do Microsoft Teams app. No modo Admin, inicie um prompt de comandos com privilégios elevados e emita o seguinte comando:
+Você também pode usar o PowerShell para coletar logs. Você deve invocar o script do conjunto de log que acompanha o Salas do Microsoft Teams app. No [modo De administração,](rooms-operations.md)inicie um prompt de comando com privilégios elevados e em seguida, o seguinte comando:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -44,7 +44,7 @@ Os logs serão exibidos como um arquivo ZIP em c:\rigel.
 
 Configure as configurações de suas exibições de Front of Room para dar suporte ao CEC (Consumer Electronics Control) ou habilitar o modo de computador.
   
-Se você desejar que uma tela frontal da sala alterna automaticamente para Salas do Teams quando ela acordar do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas tem suporte Salas do Microsoft Teams software, desde que o hardware subjacente suporte o recurso. Uma TV de consumidor usada como tela frontal de sala precisa dar suporte ao recurso CeC (Controle eletrônico de consumidor) do HDMI.  Dependendo do dock ou console selecionado (que pode não dar suporte ao CEC, consulte a documentação de suporte do fabricante), um controlador como [um HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado. 
+Se você desejar que uma tela frontal da sala alterna automaticamente para Salas do Teams quando ela acordar do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas tem suporte Salas do Microsoft Teams software, desde que o hardware subjacente suporte o recurso. Uma TV de consumidor usada como tela frontal de sala precisa dar suporte ao recurso CeC (Controle eletrônico de consumidor) do HDMI.  Dependendo do dock ou console selecionado (que pode não dar suporte ao CEC, consulte a documentação de suporte do fabricante), um controlador como [um HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado.
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Salas do Microsoft Teams Redefinição (Restauração de Fábrica)
 <a name="Reset"> </a>
@@ -62,7 +62,7 @@ A tabela a seguir resume as operações remotas possíveis e os métodos que voc
 
 |Grupo de trabalho |Não ingresso em domínio|Ingresso em domínio|
 |:-----|:-----|:-----|
-|Reiniciar  <br/> |Teams de administração  <br/> Área de trabalho remota  <br/> PowerShell Remoto  <br/> | <br/>Área de trabalho remota (requer mais configuração)  <br/> Powershell remoto (requer mais configuração)  <br/> Configuration Manager  <br/> |
+|Reiniciar  <br/> |Teams de administração  <br/> Área de trabalho remota  <br/> PowerShell remoto  <br/> | <br/>Área de trabalho remota (requer mais configuração)  <br/> PowerShell remoto (requer mais configuração)  <br/> Configuration Manager  <br/> |
 |Atualização do sistema operacional  <br/> |Se forem necessárias regras mais restritivas, veja as seguintes URLs de lista de permissões:  <br/> |Windows Update  <br/> WSUS  <br/> |
 |Atualização de aplicativos  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Config de conta  <br/> |Teams de administração  <br/> |Teams de administração  <br/> |
@@ -79,7 +79,7 @@ A junção Salas do Teams a um domínio do Active Directory oferece os seguintes
 
 - Você pode implantar uma Windows de Qualidade de Serviço para Salas do Teams.
 
-- Se usar Skype for Business, a junção de domínio ao Salas do Teams ajuda a importar automaticamente a cadeia de certificados raiz privada da sua organização.
+- Se usar Skype for Business, a junção de domínio ao Salas do Teams automatiza a importação da cadeia de certificados raiz privada da sua organização.
 
 Ao ingressar no Salas do Teams a um domínio, é necessário criar uma Unidade Organizacional (UO) separada, para que você possa fornecer exclusões de OBJETO de Política de Grupo (GPO) à OU onde todos os objetos Salas do Teams residem. Desabilite toda a herança de GPO para que as configurações da Política de Grupo sem suporte não se apliquem a Salas do Teams. Crie objetos de máquina na UO antes de Salas do Teams ao domínio para garantir que as Políticas de Grupo aplicadas à UO de computadores padrão não sejam aplicadas.
 
@@ -193,7 +193,7 @@ Salas do Microsoft Teams se conecta ao Windows Update para recuperar atualizaç�
   
 Se você deve gerenciar as atualizações manualmente devido às limitações de acesso ao Windows store e, portanto, não conseguir seguir o procedimento normal do [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) para Distribuir aplicativos [offline,](/microsoft-store/distribute-offline-apps)você poderá adquirir o arquivo APPX apropriado e as dependências do [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implantação (a partir das instruções para [Configurar um Salas do Microsoft Teams console](console.md)) que pode ser usado com o Configuration Manager. A versão do kit de implantação fica para trás da versão da loja, portanto, nem sempre ela pode corresponder à versão mais recente disponível.
   
-### <a name="to-update-using-powershell"></a>Para atualizar usando o Powershell
+### <a name="to-update-using-powershell"></a>Para atualizar usando o PowerShell
 
 1. Extraia o pacote do [MSI](https://go.microsoft.com/fwlink/?linkid=851168) de instalação para um compartilhamento que o dispositivo pode acessar.
 2. Execute o seguinte script destinado aos dispositivos Salas do Microsoft Teams, alterando \<share\> para o compartilhamento de dispositivos conforme apropriado:
@@ -218,7 +218,7 @@ Algumas funções de gerenciamento, como a instalação manual de um certificado
 7. Execute as tarefas administrativas necessárias.
 8.  Reinicie o computador quando terminar.
     
-O console agora está de volta em seu modo de operação normal. O procedimento a seguir exige que você anexe um teclado ao dispositivo se um ainda não estiver anexado. 
+O console retorna ao seu modo de operação normal. O procedimento a seguir exige que você conecte um teclado ao dispositivo, caso ele esteja sem.  
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Alternar para o Modo de Administração e voltar quando o aplicativo Salas do Microsoft Teams falha
 

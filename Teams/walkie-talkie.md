@@ -18,16 +18,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80aedfd0c1bb4f4a20ecdfcd977ce74d667cad43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602066"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015011"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo Walkie Talkie em Microsoft Teams
 
-O aplicativo Walkie Talkie no Teams fornece comunicação instantânea por push-to-talk (PTT) para sua equipe e agora está disponível no Android. O Walkie Talkie permite que os usuários se conectem com sua equipe usando os mesmos canais subjacentes de que são membros. Somente os usuários que se conectam ao Walkie Talkie em um canal se tornam participantes e podem se comunicar uns com os outros usando o push-to-talk, um de cada vez.
+O aplicativo Walkie Talkie no Teams fornece comunicação instantânea por push-to-talk (PTT) para sua equipe e agora está disponível no Android & iOS. O Walkie Talkie permite que os usuários se conectem com sua equipe usando os mesmos canais subjacentes de que são membros. Somente os usuários que se conectam ao Walkie Talkie em um canal se tornam participantes e podem se comunicar uns com os outros usando o push-to-talk, um de cada vez.
 
 Com o Walkie Talkie no Teams, os funcionários de linha de frente agora podem se comunicar com segurança com uma experiência de PTT familiar sem precisar carregar rádios volumosos, e o Walkie Talkie funciona em qualquer lugar com conectividade wi-fi ou internet celular.
 
@@ -35,7 +35,9 @@ Com o Walkie Talkie no Teams, os funcionários de linha de frente agora podem se
 
 ### <a name="deploying-walkie-talkie"></a>Implantando o Walkie Talkie
 
-Atualmente, o Walkie Talkie está disponível para dispositivos Android com o Google Serviços Móveis (GMS) e não está pré-instalado. Para habilitar esse recurso para usuários em sua organização, [](teams-app-setup-policies.md)você precisa adicionar o Walkie Talkie à Política de Instalação de Aplicativos atribuída aos usuários do Centro de Administração   Teams [.](https://admin.teams.microsoft.com/) Depois de habilitado, o Walkie Talkie ficará disponível no aplicativo Android dentro de 48 horas.
+O Walkie Talkie tem suporte em dispositivos Android com o Google Serviços Móveis (GMS) e dispositivos iOS. 
+
+Atualmente, o Walkie Talkie não está pré-instalado. Para habilitar esse recurso para usuários em sua organização, [](teams-app-setup-policies.md)você precisa adicionar o Walkie Talkie à Política de Instalação de Aplicativos atribuída aos usuários do Centro de Administração   Teams [.](https://admin.teams.microsoft.com/) Depois de habilitado, o Walkie Talkie ficará disponível no aplicativo dentro de 48 horas.
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>Adicionando o Walkie Talkie à sua lista de aplicativos
 
@@ -74,24 +76,23 @@ O uso esperado de dados do Walkie Talkie é de cerca de 20 Kb/s ao enviar ou rec
 Os funcionários de linha de frente geralmente precisam falar e receber chamadas do Walkie Talkie mesmo quando seus telefones estão bloqueados. Essa experiência é possível por meio de dispositivos especializados com um botão PTT dedicado.
 
 - **Headsets**
-  - Fones de ouvido sem fio 
+  - Fones de ouvido sem fio (iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - Fones de ouvido com fio 
+  - Fones de ouvido com fio (somente Android)
     - [Eletrônica de Klein](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **Telefones robustos**
+- **Telefones Android robustos**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Guia do Galaxy Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    -  Configuração manual - Com Teams instalado, navegue até Configurações > Recursos Avançados > XCover/Chave Ativa. Aciona a tecla 'Controlar XCover com aplicativo' e selecione 'Teams'
-    -  [Instalação do MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-
+    - Configuração manual - Com Teams instalado, navegue até Configurações > Recursos Avançados > XCover/Chave Ativa. Aciona a tecla 'Controlar XCover com aplicativo' e selecione 'Teams'
+    - [Instalação do MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
+  - Zebra [TC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html) [TC7x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [TC2x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [EC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html) [EC30,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+    - Configuração manual - com Teams instalado, o botão PTT dedicado (LEFT_TRIGGER_2) funciona com o Walkie Talkie por padrão
+    
 > [!NOTE]
 > Esses dispositivos não são Teams certificados. Eles foram validados para trabalhar com Teams Walkie Talkie.
 
 ### <a name="license-requirements"></a>Requisitos de licença
 
 O aplicativo Walkie Talkie está incluído em todas as licenças pagas de Teams em [Office 365 assinaturas](/office365/servicedescriptions/teams-service-description). Para obter mais informações sobre Teams, confira [Como obter acesso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
-
-> [!NOTE]
-> Determinados recursos avançados podem exigir licenciamento adicional. Por exemplo, a integração com o Samsung Galaxy XCover Pro requer uma licença do Knox.
 
 ## <a name="further-information"></a>Mais informações
 
