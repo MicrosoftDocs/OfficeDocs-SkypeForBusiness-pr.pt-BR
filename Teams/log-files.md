@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre logs de depuração, mídia e área de trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 100d21338cf77642836793ab9cf69d426d1fd463
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: 0a8a58511c3a9562281f162ef1c92d8e01d96228
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410682"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027584"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar Microsoft Teams
 
@@ -119,6 +119,11 @@ Para coletar logs para Windows:
 - Os arquivos estarão disponíveis nos seguintes locais:
   - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog`
   - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog` 
+
+Para coletar logs para Mac:
+- Os arquivos estarão disponíveis nos seguintes locais:
+  - `~/Library/Application Support/Microsoft/Teams/media-stack\\\*\.blog`
+  - `~/Library/Application Support/Microsoft/Teams/skylib\\\*\.blog`
 
 Aqui está uma lista dos arquivos de log gerados e as informações que eles contêm.
 

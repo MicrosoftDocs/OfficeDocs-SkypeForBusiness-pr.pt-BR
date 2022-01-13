@@ -1571,6 +1571,10 @@ items:
             href: devices-for-education.md
       - name: Teams para Trabalhadores de linha de frente
         items:
+          - name: Comece com o Teams para funcionários da linha de frente
+            href: flw-landing-page.md
+          - name: Opções de licenciamento para trabalhadores da linha de frente
+            href: flw-licensing-options.md
           - name: Guia de início rápido do Trabalhador de linha de frente
             href: flw-quickstart.yml
           - name: Assistente de integração de trabalhador da linha de frente
