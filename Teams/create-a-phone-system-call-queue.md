@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462345"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039894"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -80,6 +80,14 @@ Clique **em** Adicionar , pesquise as contas de recurso que você deseja permiti
 
 Se você não estiver usando um canal Teams para controlar a associação de agentes, considere definir diretamente a ID do chamador para membros da fila de chamada para o número de serviço da fila de chamada ou o atendimento automático apropriado. Para mais informações, confira [Gerenciar políticas de identificação de chamadas no Microsoft Teams](caller-id-policies.md).
 
+> [!NOTE]
+> A conta de recurso usada para fins de ID de chamada deve ter uma Microsoft 365 Sistema de Telefonia de usuário virtual e uma das seguintes atribuídas:
+>
+> - Uma licença do Plano de Chamadas e um número de telefone atribuído
+> - Um número de Conexão operador atribuído
+> - Uma política de roteamento de voz online (atribuição de número de telefone é opcional ao usar Roteamento Direto)
+
+
 ## <a name="language"></a>Linguagem
 
 ![Captura de tela das configurações de idioma.](media/call-queue-language.png)
@@ -95,7 +103,7 @@ Especifique se você deseja reproduzir uma saudação aos chamadores quando eles
 O Teams fornece música padrão aos chamadores enquanto eles estão em espera em uma fila. A música padrão fornecida nas filas de chamadas do Teams é livre de royalties pagáveis pela organização. Se você quiser reproduzir um arquivo de áudio específico, escolha **Reproduzir um arquivo de áudio** e carregue um arquivo MP3, WAV ou WMA.
 
 > [!NOTE]
-> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço Microsoft Teams, que pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os proprietários de direitos relevantes, que podem incluir os artistas,  atores, executores, musicistas, compositores, compositores, rótulos de registro, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que têm, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
+> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço Microsoft Teams, que pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os proprietários de direitos relevantes, que podem incluir artistas, atores,  executores, musicistas, compositores, rótulos de gravação, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que têm, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
 
 ## <a name="call-agents"></a>Agentes de chamada
 
@@ -254,7 +262,7 @@ Você também pode usar o Windows PowerShell para criar e configurar filas de ch
 
 Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstico para validar se uma fila de chamadas é capaz de receber chamadas:
 
-1. Selecione **Executar Testes** abaixo, que preencherá o diagnóstico no Centro de Administração Microsoft 365. 
+1. Selecione **Executar testes** abaixo, o que preencherá o diagnóstico no Centro de Administração do Microsoft 365. 
 
    > [!div class="nextstepaction"]
    > [Executar testes: Teams fila de chamada](https://aka.ms/TeamsCallQueueDiag)
