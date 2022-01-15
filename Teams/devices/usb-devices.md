@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB (como fones de ouvido, viva-voz, webcams e monitores) são certificados para Microsoft Teams.
-ms.openlocfilehash: 97299120992cf6500822c452386a9f402cb6cf55
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: e23ffc5b4369cba27d7a405614df27099f2b2959
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766694"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055161"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para Microsoft Teams
 
@@ -78,6 +78,7 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa Certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |Certificado para Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |IMPACTO SDW 5066T                                           |12/1/2021       |Certificado para Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5063T                                           |12/1/2021       |Certificado para Microsoft Teams                           |

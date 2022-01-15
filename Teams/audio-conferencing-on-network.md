@@ -1,7 +1,7 @@
 ---
 title: Conferência na rede para Audioconferência
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: conceptual
@@ -19,16 +19,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: O seguinte descreve On-network para Audioconferência.
-ms.openlocfilehash: 7d477826c79b1a1630616cc51130348bfb953fa7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c6820bade333b6672d00e4f52a361280c10c8771
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620707"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055661"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Conferência na rede para Audioconferência
 
-A Conferência na rede permite que as organizações enviem chamadas de Audioconferência de entrada e saída para números de discagem da Microsoft por meio do Roteamento Direto. Esse recurso não se destina a estender o suporte da Audioconferência para números de discagem de terceiros. A Conferência na rede não será suportada se ela for usada para rotear chamadas de entrada para o serviço de Audioconferência por meio de números de telefone de discagem de terceiros ou chamadas de saída para o PSTN da Ponte de Audioconferência da Microsoft. 
+A Conferência na rede permite que as organizações enviem chamadas de Audioconferência de entrada e saída para números de discagem da Microsoft por meio do Roteamento Direto. Esse recurso não se destina a estender o suporte da Audioconferência para números de discagem de terceiros. A Conferência na rede não será suportada se ela for usada para rotear chamadas de entrada para o serviço de Audioconferência por meio de números de telefone de discagem de terceiros ou chamadas de saída para o PSTN da Ponte de Audioconferência da Microsoft.
 
 Este artigo descreve os pré-requisitos e as etapas de configuração necessárias para habilitar a Conferência na rede para sua organização.
 
@@ -37,7 +37,7 @@ Este artigo descreve os pré-requisitos e as etapas de configuração necessári
   
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de configurar a Conferência na rede, certifique-se de que sua organização atenda aos seguintes pré-requisitos: 
+Antes de configurar a Conferência na rede, certifique-se de que sua organização atenda aos seguintes pré-requisitos:
 
 - Certifique-se de que todos os usuários da sua organização que estão habilitados ou serão habilitados para Audioconferência estão usando Teams para todas as Reuniões. O roteamento de chamadas de Audioconferência de entrada e saída por meio de Conferência na rede só é suportado para reuniões Teams de entrada.
 
@@ -45,11 +45,11 @@ Antes de configurar a Conferência na rede, certifique-se de que sua organizaç�
 
 - Configurar o serviço de Audioconferência. Para obter informações adicionais, [consulte Configurar Audioconferência para Microsoft Teams](set-up-audio-conferencing-in-teams.md).
 
-- Configurar o Controlador de Borda de Sessão (SBC) para Roteamento Direto. Para obter informações adicionais, consulte [Plan Direct Routing](direct-routing-plan.md) and Configure Direct [Routing](direct-routing-configure.md). 
+- Configurar o Controlador de Borda de Sessão (SBC) para Roteamento Direto. Para obter informações adicionais, consulte [Plan Direct Routing](direct-routing-plan.md) and Configure Direct [Routing](direct-routing-configure.md).
 
   Se você estiver configurando o Roteamento Direto somente para fins de Audioconferência, será necessário concluir apenas a "Etapa 1: Conexão seu SBC" para Conferência na rede.
   
-## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>Habilitar o roteamento de chamadas discar para a Audioconferência da Microsoft por meio do Roteamento Direto 
+## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>Habilitar o roteamento de chamadas discar para a Audioconferência da Microsoft por meio do Roteamento Direto
 
 Para rotear chamadas discadas feitas por seus usuários locais para o serviço de Audioconferência por meio de Roteamento Direto, você precisa configurar regras de roteamento apropriadas para seus SBCs e pbxs (pbxs) de filial Exchange privada.
 
@@ -62,9 +62,9 @@ Você pode encontrar os números de serviço no centro de administração Teams 
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Habilitar o roteamento Teams chamadas discagem de reunião por meio do Roteamento Direto
 
-Teams chamadas de discagem de reunião são iniciadas de dentro de uma reunião em sua organização para números PSTN, incluindo chamadas de chamada e chamadas para trazer novos participantes para uma reunião. 
+Teams chamadas de discagem de reunião são iniciadas de dentro de uma reunião em sua organização para números PSTN, incluindo chamadas de chamada e chamadas para trazer novos participantes para uma reunião.
 
-Para habilitar Teams roteamento de discagem de reunião por meio do Roteamento Direto para usuários na rede, você precisa criar e atribuir uma política de roteamento de Audioconferência chamada "OnlineAudioConferencingRoutingPolicy". 
+Para habilitar Teams roteamento de discagem de reunião por meio do Roteamento Direto para usuários na rede, você precisa criar e atribuir uma política de roteamento de Audioconferência chamada "OnlineAudioConferencingRoutingPolicy".
 
 A política OnlineAudioConferencingRoutingPolicy é equivalente à CsOnlineVoiceRoutingPolicy para chamadas PSTN 1:1 via Roteamento Direto. A política OnlineAudioConferencingRoutingPolicy pode ser gerenciada usando os seguintes cmdlets:
 
@@ -76,8 +76,7 @@ A política OnlineAudioConferencingRoutingPolicy é equivalente à CsOnlineVoice
 
 Para obter mais informações sobre roteamento para Roteamento Direto, consulte [Configure voice routing for Direct Routing](direct-routing-voice-routing.md).
 
-
-Para habilitar o roteamento de chamadas discagem de reunião por meio do Roteamento Direto, você precisa: 
+Para habilitar o roteamento de chamadas discagem de reunião por meio do Roteamento Direto, você precisa:
 
 - Configurar políticas de roteamento de audioconferência
 - Configurar o roteamento no equipamento de telefonia da sua organização
@@ -90,11 +89,11 @@ Chamadas discar de Teams reuniões vêm do número de serviço padrão na ponte 
 A política de roteamento de Audioconferência OnlineAudioConferencingRoutingPolicy determina quais chamadas de discagem de reunião são roteados para troncos de Roteamento Direto. Se você estiver familiarizado com a política CsOnlineVoiceRoutingPolicy, essa política funcionará de maneira muito semelhante.
 
 As etapas a seguir são necessárias para configurar políticas de roteamento de Audioconferência:
-1.  Criar usos PSTN
-2.  Configurar rotas de voz
-3.  Criar políticas de roteamento de voz de audioconferência
-4.  Atribuir uma política aos usuários
 
+1. Criar usos PSTN
+1. Configurar rotas de voz
+1. Criar políticas de roteamento de voz de audioconferência
+1. Atribuir uma política aos usuários
 
 #### <a name="create-pstn-usages"></a>Criar usos PSTN
 
@@ -138,11 +137,9 @@ Você pode atribuir uma política de roteamento de voz de Audioconferência a um
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
-
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>Configurar o roteamento no equipamento de telefonia da sua organização
 
 No equipamento de telefonia da sua organização, você precisa garantir que as chamadas de discagem de reunião roteados por Roteamento Direto sejam roteados para o destino pretendido na rede.
-
 
 ### <a name="optional-configure-a-dial-plan"></a>(Opcional) Configurar um plano de discagem
 
@@ -153,5 +150,3 @@ Por padrão, Teams usuários podem discar para números PSTN no formato E.164, o
 Se quiser habilitar a discagem baseada em extensão por meio de conferência na rede, você pode configurar planos de discagem para corresponder o padrão de discagem de extensão aos intervalos de número de telefone do número de telefone da sua organização. Para configurar planos de discagem, consulte [Create and manage dial plans](create-and-manage-dial-plans.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
-
-

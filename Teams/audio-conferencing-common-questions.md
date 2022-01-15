@@ -1,7 +1,7 @@
 ---
 title: Perguntas comuns sobre a Audioconferência
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: conceptual
@@ -22,38 +22,38 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A seguir estão algumas das principais perguntas que temos de nossos clientes que querem usar Audioconferência.
-ms.openlocfilehash: ec0af1c51775b564553d37e64a0f2afa5964f04a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9ab6e8b752dd0a1e60af3b971007217bcf1355c2
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626383"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055711"
 ---
 # <a name="audio-conferencing-common-questions"></a>Perguntas comuns sobre a Audioconferência
 
-A seguir estão algumas das principais perguntas que temos de nossos clientes que querem usar Audioconferência. 
+A seguir estão algumas das principais perguntas que temos de nossos clientes que querem usar Audioconferência.
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>Quais são os benefícios da Audioconferência?
 
 Chamar as reuniões é útil quando as pessoas estão na estrada, por exemplo, e não podem participar de uma reunião usando o aplicativo Skype for Business ou Microsoft Teams em seus laptops ou dispositivos móveis. No entanto, há outros cenários nos quais usar um telefone para participar de uma reunião do Skype for Business ou do Microsoft Teams pode ser melhor do que usar um aplicativo em um computador:
   
 - Conectividade com a Internet é limitada.
-    
+
 - Uma reunião é apenas de áudio.
-    
+
 - A pessoa tentou entrar em uma reunião do Skype for Business e falhou.
-    
+
 - A qualidade da chamada é melhor se eles discam.
-    
+
 - As pessoas podem ingressar em uma reunião com mãos livres usando dispositivos Bluetooth.
-    
+
 - As pessoas acham mais fácil e mais conveniente nessa situação.
-    
+
 ## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Who pode participar de uma reunião de Audioconferência? E quem posso ouvir?
 
 Qualquer pessoa que tenha o número de discagem e a ID de conferência pode ingressar em uma reunião Skype for Business ou Microsoft Teams, a menos que o organizador da reunião tenha bloqueado a reunião.
   
-Se você estiver chamando usando um telefone ou os aplicativos Skype for Business ou Microsoft Teams, você poderá ouvir todos os outros na chamada e eles poderão ouvi-lo. O organizador da reunião tem a capacidade de "silenciar" os participantes da reunião se eles não quiserem ouvi-los. 
+Se você estiver chamando usando um telefone ou os aplicativos Skype for Business ou Microsoft Teams, você poderá ouvir todos os outros na chamada e eles poderão ouvi-lo. O organizador da reunião tem a capacidade de "silenciar" os participantes da reunião se eles não quiserem ouvi-los.
   
 ## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Posso adicionar um número gratuito para meus usuários de Audioconferência?
 
@@ -82,7 +82,7 @@ O tempo máximo depende de quem está na reunião e do tipo de autenticação qu
 |Os usuários ingressaram usando o Skype for Business ou Microsoft Teams aplicativo ou discados para a reunião.  <br/> |A reunião termina se não houver alterações na lista de participantes após 24 horas.  <br/> |
 |Todos os usuários são discados para a reunião, mas alguém usou um PIN para entrar na reunião.  <br/> |A reunião termina após 24 horas.  <br/> |
 |Todos os usuários são discados para a reunião, mas não houve ninguém que tenha usado um PIN para entrar na reunião.  <br/> | Se os usuários anônimos têm permissão para iniciar reuniões, a reunião termina após quatro horas. Se os usuários anônimos não têm permissão para iniciar reuniões e todos os participantes autenticados sairem da reunião, a reunião terminará 90 minutos após a saída do último participante autenticado. <br/> |
-   
+
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Quantos participantes de telefone totais posso ter em reuniões?
 
 Consulte [Limites e Especificações para](limits-specifications-teams.md) o número total de participantes permitidos em reuniões.
@@ -95,11 +95,11 @@ Adicionamos um novo recurso que permite que você, o [administrador,](https://su
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>A Audioconferência pode ser usada pelos usuários que fazem parte de uma implantação local de Skype for Business Server?
 
-Com [Reuniões Primeiro](meetings-first.md), Skype for Business Server os usuários podem se beneficiar Teams reuniões e Teams Audioconferência. 
+Com [Reuniões Primeiro](meetings-first.md), Skype for Business Server os usuários podem se beneficiar Teams reuniões e Teams Audioconferência.
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>Um usuário pode obter uma ID de conferência pessoal?
 
-Skype for Business e Microsoft Teams usuários receberão IDs de conferência aleatoriamente. Os usuários não podem reservar ou definir uma ID de conferência estática que só eles podem usar. 
+Skype for Business e Microsoft Teams usuários receberão IDs de conferência aleatoriamente. Os usuários não podem reservar ou definir uma ID de conferência estática que só eles podem usar.
   
 ## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>Posso usar Audioconferência com Reunião do Skype Transmissão?
 
@@ -114,7 +114,7 @@ Não, um usuário não pode obter assistência ou suporte de operador pressionan
 Skype for Business ou Microsoft Teams os usuários podem encontrar a ID da conferência atribuída a eles agendando uma reunião no Outlook e Outlook na Web. Além disso, os usuários podem encontrar a ID da conferência no email que será enviado a eles após a configuração.
   
 > [!NOTE]
-> Os usuários não poderão redefinir a ID da conferência. A ID da conferência só pode ser redefinida por você, [o administrador](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), para a organização. 
+> Os usuários não poderão redefinir a ID da conferência. A ID da conferência só pode ser redefinida por você, [o administrador](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), para a organização.
   
 Estamos trabalhando em uma solução que permitirá que o usuário acesse e redefinir uma ID de conferência sem a ajuda do administrador de uma organização.
   
@@ -123,7 +123,7 @@ Estamos trabalhando em uma solução que permitirá que o usuário acesse e rede
 Skype for Business ou Microsoft Teams os usuários podem encontrar o PIN em um email que será enviado a eles depois que eles são definidos.
   
 > [!NOTE]
-> Teams os usuários podem alterar o pin. Há um link na parte inferior do convite da reunião para redefinir o pino. 
+> Teams os usuários podem alterar o pin. Há um link na parte inferior do convite da reunião para redefinir o pino.
   
 Estamos trabalhando em uma solução que permitirá que o usuário acesse e redefina um PIN sem a ajuda do administrador de uma organização.
   

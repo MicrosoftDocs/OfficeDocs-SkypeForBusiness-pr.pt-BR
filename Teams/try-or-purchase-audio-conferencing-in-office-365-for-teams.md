@@ -1,7 +1,7 @@
 ---
 title: Experimente ou compre Audioconferência em Microsoft 365 para Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Confira como tentar ou comprar licenças de Conferência de Áudio (Conferência PSTN) para Microsoft 365 ou Office 365 configurar chamadas de conferência para as qual as pessoas possam discar. '
-ms.openlocfilehash: af031e26cceb920811c3b4f349fda44fd7e3a387
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 992d6b71b5ad63cfe082a9b12c0a5add98074a0f
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611530"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055301"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Experimente ou compre Audioconferência em Microsoft 365 para Microsoft Teams
 

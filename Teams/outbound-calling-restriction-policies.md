@@ -1,8 +1,8 @@
 ---
 title: Restrições de chamada de saída - Audioconferência & chamadas PSTN
 ms.reviewer: ''
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Os administradores podem controlar o tipo de audioconferência e chamadas PSTN do usuário final que podem ser feitas pelos usuários.
-ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766234"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055171"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída de Audioconferências e Chamadas PSTN do usuário
 
@@ -49,18 +49,17 @@ Para descobrir quais países e regiões são considerados Zona A, consulte Zonas
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir chamadas de saída de audioconferência
 
-**Usando o centro de administração do Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, selecione **Usuários** e selecione o nome de exibição do usuário na lista de usuários disponíveis.
 
-3. Ao lado **de Audioconferência,** selecione **Editar**.
+2. Em seguida, vá para **Audioconferência,** selecione **Editar**.
 
-4. Em **Discagem de reuniões,** selecione a opção de restrição de discagem que você deseja.
+3. Em **Discagem de reuniões,** selecione a opção de restrição de discagem que você deseja.
 
-5. Selecione **Salvar**.
+4. Selecione **Salvar**.
 
-
-**Usando o Windows PowerShell**
+### <a name="using-powershell"></a>Usando o Windows PowerShell
 
 As restrições de chamada de saída são controladas por uma única política chamada OnlineDialOutPolicy, que tem um atributo de restrição para cada um. A política não pode ser personalizada, em vez disso, há instâncias de política pré-definidas para cada combinação das configurações.
 

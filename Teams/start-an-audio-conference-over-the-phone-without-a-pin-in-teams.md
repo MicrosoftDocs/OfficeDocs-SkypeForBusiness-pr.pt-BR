@@ -1,7 +1,7 @@
 ---
 title: Iniciar a Conferência de Áudio pelo telefone sem um PIN Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Saiba como habilitar ou desabilitar os chamadores anônimos de ingressar em uma reunião do Teams de administração. '
-ms.openlocfilehash: da31c734275113eab3e96b67230a578d0609c1bb
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 2937ebc2c8ddec830c6eb130fc5824ed8273a9d3
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537302"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055701"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Iniciar uma audioconferência por telefone sem um PIN no Microsoft Teams
 
-Pode ser frustrante para os usuários que discam para uma reunião ser realizada no lobby da reunião ouvindo música porque o organizador Microsoft Teams de reunião ainda não iniciou a reunião. 
+Pode ser frustrante para os usuários que discam para uma reunião ser realizada no lobby da reunião ouvindo música porque o organizador Microsoft Teams de reunião ainda não iniciou a reunião.
   
 Se um organizador da reunião chamar a reunião, por padrão, um PIN será necessário para iniciar uma reunião. Você pode defini-lo para que qualquer pessoa possa discar para uma reunião e não ser solicitado que um PIN inicie a reunião. Você pode usar o centro de administração para habilitar ou desabilitar essa configuração para um único usuário.
   
@@ -42,46 +42,46 @@ Um PIN não será necessário para o organizador da reunião se alguém tiver in
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar ou desabilitar chamadores anônimos para participar de uma reunião
 
- **Usando o centro de administração do Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda, clique em **Usuários**. 
+1. Na navegação à esquerda, clique em **Usuários**.
 
-2. Selecione um usuário na lista e clique em **Editar** na parte superior da página. 
+2. Selecione um usuário na lista e clique em **Editar** na parte superior da página.
 
 3. Ao lado **de Audioconferência,** clique em **Editar**.
 
 4. No painel **Audioconferência,** habilitar ou desabilitar os chamadores de discagem podem ser a primeira **pessoa em uma reunião.**
-    
-4. Clique em **Aplicar**. 
 
-**Usando Windows PowerShell**
-  
+5. Clique em **Aplicar**.
+
+### <a name="using-windows-powershell"></a>Usar o Windows PowerShell
+
 Consulte a [Microsoft Teams referência do PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 
 - Se você deseja redefinir o PIN, consulte [Redefinir o PIN de Audioconferência](reset-the-audio-conferencing-pin-in-teams.md).
-    
+
 - Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião, será desabilitado:
-    
+
   - Se a reunião ainda não tiver começado (ainda não há ninguém na reunião): um chamador será solicitado se ele for o organizador; se ele disser que sim, ele será solicitado a solicitar seu PIN e, depois de inserir o PIN, a reunião será iniciar e o usuário ingressará na reunião.
-    
+
   - Se a reunião já iniciou (alguém já está na reunião): Não será perguntado a um chamador se ele é o organizador e nunca lhe será solicitado o PIN; a reunião já estará iniciada, e o chamador ingressará.
-    
+
 - Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião, será habilitado:
-    
+
   - Se a reunião ainda não iniciou (não há ninguém na reunião ainda): Não será perguntado a uma chamadora se ela é a organizadora e nunca lhe será solicitado o PIN. Como a configuração do organizador está definida como off, a reunião será inicial e os chamadores anônimos ingressarão na reunião.
-    
+
   - Se a reunião já tiver sido iniciada (outra pessoa já está na reunião): um chamador não será solicitado se ela for a organizadora e ela nunca será solicitado a solicitar o PIN; a reunião já foi iniciada e o chamador ingressará nele.
-    
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
-    
-  - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+
+- [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="related-topics"></a>Tópicos relacionados

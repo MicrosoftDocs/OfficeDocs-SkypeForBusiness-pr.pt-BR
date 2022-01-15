@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre as licenças disponíveis para diferentes tipos de recursos de chamada e reunião Salas do Microsoft Teams.
-ms.openlocfilehash: 7b7bea86d414f24686dce4ffab1a91333476069f
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 05e7b0c3f8cb6f31e84ef16ad0ff23039da26b14
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306146"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056051"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Sala de Reunião De licenciamento
 
@@ -71,6 +71,10 @@ A tabela a seguir lista os recursos que estão disponíveis no Salas do Microsof
 
 
 > [!NOTE]
-> Se você tiver licenças existentes atribuídas para sistemas de sala, elas continuarão a funcionar sem interrupção. Você deve mover para usar o Sala de Reunião SKU quando as licenças existentes expirarem.  
+> 
+> Se você tiver licenças de usuário existentes atribuídas para sistemas de sala(por exemplo, E3 ou E5), elas continuarão a funcionar sem interrupção. No entanto, para estar em conformidade com as alterações futuras, você deve mudar para Sala de Reunião licenças de usuário atribuídas expirarem.
+> 
 
  Consulte também [Excelentes experiências de sala de reunião: Conheça as novas](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)Salas do Microsoft Teams Padrão e Premium .
+
+ Você pode ler [Configurar a licença de](../set-up-common-area-phones.md) Telefone Área Comum para Microsoft Teams para obter informações sobre licenciamento de Telefones de Área Comum.

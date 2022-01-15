@@ -1,7 +1,7 @@
 ---
 title: Emails enviados para os usuários quando suas configurações são alteradas
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Saiba mais sobre quais informações são enviadas automaticamente aos usuários por email quando suas configurações de conferência discada mudarem Microsoft Teams. '
-ms.openlocfilehash: ad61f7886d5a71fb8753b887ebfd6cd90f4f6a82
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 81faefb3bfe2fd6c93584c5a9f48fd99a6040c99
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536472"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055471"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-mails enviados para os usuários quando suas configurações são alteradas no Microsoft Teams
 
@@ -39,7 +39,7 @@ Por padrão, há quatro tipos de email que serão enviados aos usuários habilit
      Este email inclui a ID da conferência, o número de telefone de conferência padrão para as reuniões, o PIN de audioconferência para o usuário e as instruções e o link para usar a Ferramenta de Atualização de Reunião do Skype for Business Online usada para atualizar reuniões existentes para o usuário. Consulte [Atribuir Microsoft Teams licenças](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) de complemento ou [Atribuir à Microsoft como provedor de audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
     > [!NOTE]
-    > [!OBSERVAçãO] Se a sua organização estiver habilitada para IDs de conferência dinâmicas, todas as reuniões de um usuário agendadas terão IDs de conferência exclusivas. Você pode configurar [IDs dinâmicas de Audioconferência em sua organização.](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user) 
+    > [!OBSERVAçãO] Se a sua organização estiver habilitada para IDs de conferência dinâmicas, todas as reuniões de um usuário agendadas terão IDs de conferência exclusivas. Você pode configurar [IDs dinâmicas de Audioconferência em sua organização.](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)
 
     Aqui está um exemplo desse email:
 
@@ -58,9 +58,9 @@ Por padrão, há quatro tipos de email que serão enviados aos usuários habilit
 - **O PIN de audioconferência de um usuário é redefinido.**
 
     Este email contém o PIN de audioconferência do organizador, a ID de conferência existente e o número de telefone de conferência padrão para o usuário. Consulte [Redefinir o PIN de Audioconferência](reset-the-audio-conferencing-pin-in-teams.md).
-    
+
      Aqui está um exemplo desse email:
-    
+
      ![PIN para conferência discada alterado.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **A licença de um usuário é removida ou quando o provedor de audioconferência muda da Microsoft para outro provedor ou Nenhum.**
@@ -84,13 +84,13 @@ Você pode fazer alterações no email que é enviado automaticamente aos usuár
 
 Ao desativar o envio de emails para os usuários, o email não será enviado mesmo quando o usuário receber uma licença. Nesse caso, a ID da conferência, o número de telefone de conferência padrão e, o mais importante, o PIN de audioconferência não serão enviados ao usuário. Quando isso acontecer, você deve informar ao usuário, enviando um email separado ou ligando para eles.
 
-Por padrão, os emails serão enviados para seus usuários, mas se você quiser impedir que eles recebam emails para audioconferência, você pode usar Microsoft Teams ou Windows PowerShell. 
+Por padrão, os emails serão enviados para seus usuários, mas se você quiser impedir que eles recebam emails para audioconferência, você pode usar Microsoft Teams ou Windows PowerShell.
 
- **Usando o centro de administração do Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
+1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.
 
-2. Na parte superior da página **Pontes de Conferência,** clique em **Configurações de ponte.** 
+2. Na parte superior da página **Pontes de Conferência,** clique em **Configurações de ponte.**
 
 3. No painel **Configurações de** ponte, habilita ou desabilita Enviar emails automaticamente aos usuários se suas configurações de **discagem mudarem**.
 
@@ -99,7 +99,7 @@ Por padrão, os emails serão enviados para seus usuários, mas se você quiser 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Usando Windows PowerShell**
+### <a name="using-windows-powershell"></a>Usar o Windows PowerShell
 
 Você também pode usar o módulo Microsoft Teams PowerShell e executar:
 
@@ -113,19 +113,18 @@ Consulte a [Microsoft Teams referência do PowerShell](/powershell/module/teams/
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-Por padrão, o remetente dos emails será de Microsoft 365 ou Office 365, mas você pode alterar o endereço de email e o nome de exibição usando Windows PowerShell. 
+Por padrão, o remetente dos emails será de Microsoft 365 ou Office 365, mas você pode alterar o endereço de email e o nome de exibição usando Windows PowerShell.
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
-  - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
-
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Ativar ou desativar o envio de emails quando alterar configurações de conferência de áudio](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+[Ativar ou desativar o envio de e-mails quando alterar configurações de audioconferência](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 
 [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

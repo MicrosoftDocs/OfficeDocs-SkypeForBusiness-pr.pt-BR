@@ -1,7 +1,7 @@
 ---
 title: Definir idiomas de atendimento automático de audioconferência
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,49 +22,48 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Consulte como selecionar os idiomas de atendimento automático de audioconferência para um número de audioconferência em Microsoft Teams.
-ms.openlocfilehash: ce436d7671cf9467371ee6ddda4ab79b9805ddd8
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 433ccd3baa7f0a91ded991e9fc6cec9b069faee8
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537062"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055891"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Definir idiomas para o atendedor automático de Audioconferência no Microsoft Teams
 
 O assistente automático de Audioconferência para Microsoft Teams pode receber chamadores de áudio em vários idiomas diferentes quando ingressarem em uma reunião.
   
-Escolha um idioma principal e até quatro idiomas secundários. O idioma principal que você definir será usado primeiro e os idiomas secundários serão usados pelo assistente automático para que você selecione. 
+Escolha um idioma principal e até quatro idiomas secundários. O idioma principal que você definir será usado primeiro e os idiomas secundários serão usados pelo assistente automático para que você selecione.
   
 > [!NOTE]
->  Você só pode alterar os idiomas dos números de audioconferência que são da categoria Dedicado. Os idiomas do número de audioconferência compartilhada não podem ser alterados.
+> Você só pode alterar os idiomas dos números de audioconferência que são da categoria Dedicado. Os idiomas do número de audioconferência compartilhada não podem ser alterados.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir os idiomas de atendimento automático de conferência
 
- **Usando o centro de administração do Microsoft Teams**
+Usando o Microsoft Teams de administração:
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.
 
 2. Selecione um **número de** telefone de audioconferência dedicado na lista e, na parte superior da página, clique em **Editar**. Só é possível alterar os idiomas dos números de audioconferência dedicados. A **opção Editar** só é mostrada quando um número de audioconferência dedicado é selecionado.
 
-3. No painel à direita, escolha o idioma padrão que você deseja e quaisquer idiomas alternativos. 
- 
+3. No painel à direita, escolha o idioma padrão que você deseja e quaisquer idiomas alternativos.
+
     > [!NOTE]
-    > Os idiomas padrão e alternativos com suporte estão listados. A ordem na qual você os seleciona nas listas será a ordem dos idiomas apresentados aos chamadores. 
+    > Os idiomas padrão e alternativos com suporte estão listados. A ordem na qual você os seleciona nas listas será a ordem dos idiomas apresentados aos chamadores.
 
 4. Clique em **Salvar**.
 
-    
 ## <a name="want-else-should-i-know"></a>O que mais devo saber?
 
 - Para ver a lista de idiomas com suporte para Audioconferência, consulte [Idiomas com suporte para Audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
-    
+
 - Os idiomas podem ser definidos para números de telefone dedicados, mas não para números compartilhados.
-    
+
 - Para ver uma lista de países/regiões em que a Audioconferência em Microsoft 365 ou Office 365 usando a Microsoft como o provedor está disponível, consulte Telefone números para [Audioconferência](phone-numbers-for-audio-conferencing-in-teams.md).
-    
+
 ## <a name="want-to-use-windows-powershell"></a>Você deseja usar o Windows PowerShell?
 
 Consulte a [Microsoft Teams referência do PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.

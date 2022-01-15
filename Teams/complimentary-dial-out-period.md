@@ -1,7 +1,7 @@
 ---
 title: Período de discagem gratuita
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, OscarR
 ms.topic: conceptual
@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Saiba mais sobre o período de discagem complementar para Microsoft 365 ou Office 365 De chamada e Office 365 Audioconferência em Microsoft Teams.
-ms.openlocfilehash: fa571a355f4eb9a546c2c231e9a06f83d4374029
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5cdc9d7c9c19218a29685fc7ff256d27ef81462a
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619597"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055491"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -38,7 +38,7 @@ Os clientes podem usar Microsoft 365 ou Office 365 de chamada e Office 365 audio
   
 ### <a name="end-of-complimentary-dial-out-period"></a>Fim do período de discagem complementar
 
-O recurso de discagem complementar terminou em 1º de dezembro de 2019. Para obter mais informações, consulte [Discagem de assinatura de Audioconferência](audio-conferencing-subscription-dial-out.md)e me chame em benefício . 
+O recurso de discagem complementar terminou em 1º de dezembro de 2019. Para obter mais informações, consulte [Discagem de assinatura de Audioconferência](audio-conferencing-subscription-dial-out.md)e me chame em benefício .
 
 Essa alteração não ocorreu para países onde a assinatura de Audioconferência está disponível, mas atualmente não habilitamos a configuração de Créditos de Comunicação. Esses países específicos são a Rússia, a Coreia do Sul e Taiwan.
 
@@ -64,7 +64,7 @@ As notificações por email serão enviadas a todos os administradores de locat�
 Para chamadas discadas cobradas por minuto (chamadas que excedem o pool de minutos de discagem do locatário ou chamadas para destinos que não estão na lista de países e regiões da Zona [A),](audio-conferencing-zones.md) as chamadas e suas taxas associadas se baseiam principalmente no destino da chamada e não no país ou região do organizador ou do participante que inicia a chamada discada. Por exemplo, uma chamada para um número de telefone na França será cobrada com a mesma taxa se ela for iniciada por um participante da reunião nos Estados Unidos ou um na França.
 
 Para obter mais informações sobre Créditos de Comunicação, consulte [Communications Credits](what-are-communications-credits.md).
-     
+
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Disponibilidade de audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

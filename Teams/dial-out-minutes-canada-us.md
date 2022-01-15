@@ -1,7 +1,7 @@
 ---
-title: Office 365 Minutos estendidos de discagem de audioconferência para EUA e Canadá
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Office 365 minutos de discagem estendida de audioconferência para EUA e Canadá
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,14 +17,14 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20775abe5b463daed9d07245275ff9a2e176d685
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5fabb1c24280688bcc5a2962273812affd52c8b5
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838373"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055281"
 ---
-# <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 Minutos estendidos de discagem de audioconferência para EUA e Canadá
+# <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 minutos de discagem estendida de audioconferência para EUA e Canadá
 
 Para clientes que estão adotando nosso serviço de Audioconferência e que têm uma alta necessidade de negócios para discagem para os EUA e o Canadá, a Microsoft agora fornece uma oferta de complemento que permite praticamente ilimitado com a política de uso justo minutos de discagem dos EUA e do Canadá para qualquer usuário de audioconferência. Os organizadores de reuniões com esse SKU de complemento podem tornar virtualmente ilimitados com chamadas de discagem de política de uso justo para os EUA e o Canadá sem deduzir a Zona de seu locatário Um pool de uso de discagem de país ou Créditos de Comunicação. <sup>1</sup>
 

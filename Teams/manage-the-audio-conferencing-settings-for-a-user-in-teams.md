@@ -1,7 +1,7 @@
 ---
 title: Gerenciar configurações de Audioconferência para usuários
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Um administrador Microsoft 365 ou Office 365 pode editar as configurações de Audioconferência de Teams, incluindo provedor, número de tarifação padrão ou gratuita, ID de conferência ou PIN para um usuário.
-ms.openlocfilehash: a6a514b116cab63e321848d24785c3dab8b096dc
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 78b4f17962c69a87c15e9c0cba198a6301cac579
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537032"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055121"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de Audioconferência de um usuário no Microsoft Teams
 
 Como administrador de Microsoft 365 ou Office 365, você pode editar as configurações de Audioconferência, como o provedor, o número de tarifação padrão ou gratuito, a ID da conferência ou o PIN para um usuário individual em sua organização. Se você deseja editar configurações para sua organização, consulte Gerenciar as configurações de [Audioconferência para sua organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-##  <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
+## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
@@ -54,7 +54,6 @@ Como administrador de Microsoft 365 ou Office 365, você pode editar as configur
 |**Permissões de discagem**|Para alterar essa configuração, clique em **Editar** ao lado de **Audioconferência** e no painel **Audioconferência,** escolha uma opção em **Discagem de reuniões**.|
 
 ![Mostra as configurações de Audioconferência para um usuário.](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
- 
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

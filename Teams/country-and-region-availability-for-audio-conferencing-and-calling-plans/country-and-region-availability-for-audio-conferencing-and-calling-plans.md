@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade de país/região - Audioconferência, Planos de Chamada
-ms.author: czawideh
-author: czawideh
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba se Audioconferência, Sistema de Telefonia, Planos de Chamadas, Créditos de Comunicação e números de telefone gratuitos e de chamada gratuita estão disponíveis em um país ou região.
-ms.openlocfilehash: 8480fcbe512ed53bf7a94753b22214b50b8f3f85
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: ab534a020e91caaa6f9608857d6de76f5505b899
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579521"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056071"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 

@@ -1,7 +1,7 @@
 ---
 title: Definir os números de telefone incluídos em convites
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Siga estas etapas para criar um número de telefone padrão para os chamadores ingressarem em uma Microsoft Teams reunião.
-ms.openlocfilehash: bef8575e1e799c63159bec5cbfb06c80f4af6c83
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: d1bce310424fb30ef8e76dde60003e97973630ec
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536742"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055441"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Definir os números de telefone incluídos em convites no Microsoft Teams
 
@@ -50,8 +50,6 @@ Para um novo usuário, os números de tarifa de conferência padrão são atribu
 Depois que o usuário for habilitado para o serviço de Audioconferência, os números de telefone de chamada gratuita e de chamada padrão do usuário poderão ser alterados pelo administrador de locatários de seus valores iniciais a qualquer momento.
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Definir ou alterar o número de telefone de audioconferência padrão para um organizador de reunião ou usuário
-
- **Usando o centro de administração do Microsoft Teams**
 
 Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 

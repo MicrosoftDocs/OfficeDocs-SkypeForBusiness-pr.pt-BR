@@ -1,7 +1,7 @@
 ---
 title: Audioconferência com Roteamento Direto, GCCH e DoD
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: O administrador pode aprender sobre como usar a Audioconferência com Roteamento Direto em ambientes GCCH e DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1e4500e5560a1e5b14af51137f98e98823f7b333
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 274173387374591e91a067e2a5340bb735910fa7
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853945"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055871"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Conferências de Áudio com Roteamento Direto para GCC Alto e DoD
 
@@ -35,7 +35,7 @@ Com a Audioconferência com Roteamento Direto para GCC Alta e DoD, sua organiza�
 
 ## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Implantar Audioconferência com Roteamento Direto para GCC Alta e DoD
 
-### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>Etapa 1: Obter Audioconferência com Roteamento Direto para GCC licenças High ou DoD 
+### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>Etapa 1: Obter Audioconferência com Roteamento Direto para GCC licenças High ou DoD
 
 Para usar a Audioconferência em GCC High ou DoD, sua organização e os usuários em sua organização precisam ter uma licença de Audioconferência com Roteamento Direto atribuída. Aqui estão as licenças que você precisa para habilitar a Audioconferência com Roteamento Direto para GCC Alta ou DoD.
 
@@ -65,13 +65,14 @@ Números de telefone discados são os números de telefone associados à ponte d
 
 #### <a name="define-service-phone-numbers-in-your-tenant"></a>Definir números de telefone de serviço em seu locatário
 
-Você pode usar o cmdlet New-csHybridTelephoneNumber PowerShell para definir números de telefone de serviço em seu locatário que podem ser usados para rotear chamadas para o serviço de Audioconferência por meio de Roteamento Direto. 
+Você pode usar o cmdlet New-csHybridTelephoneNumber PowerShell para definir números de telefone de serviço em seu locatário que podem ser usados para rotear chamadas para o serviço de Audioconferência por meio de Roteamento Direto.
 
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 Por exemplo:
+
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
@@ -91,10 +92,9 @@ Você pode ver a ID da ponte de audioconferência usando Get-CsOnlineDialInConfe
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```
 
-
 ### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>Etapa 4: Definir uma política de roteamento de voz global para habilitar o roteamento de chamadas de saída de reuniões
 
-O roteamento de chamadas de saída feitas para o PSTN a partir de reuniões organizadas por usuários em sua organização é definida pela política de roteamento de voz global da sua organização. Se sua organização tiver uma política de roteamento de voz global definida, verifique se a política de roteamento de voz global permite as chamadas de saída para a PSTN que devem ser iniciadas a partir de reuniões organizadas pelos usuários em sua organização. Se sua organização não tiver uma política de roteamento de voz global definida, você precisará definir uma para habilitar o roteamento de chamadas de saída para o PSTN a partir de reuniões organizadas pelos usuários em sua organização. Observe que a política de roteamento de voz global da sua organização também se aplica às chamadas um para uma feitas ao PSTN pelos usuários em sua organização. Se as chamadas um para um para o PSTN estão habilitadas para usuários em sua organização, certifique-se de que a política de roteamento de voz global atenda às necessidades da sua organização para ambos os tipos de chamadas. 
+O roteamento de chamadas de saída feitas para o PSTN a partir de reuniões organizadas por usuários em sua organização é definida pela política de roteamento de voz global da sua organização. Se sua organização tiver uma política de roteamento de voz global definida, verifique se a política de roteamento de voz global permite as chamadas de saída para a PSTN que devem ser iniciadas a partir de reuniões organizadas pelos usuários em sua organização. Se sua organização não tiver uma política de roteamento de voz global definida, você precisará definir uma para habilitar o roteamento de chamadas de saída para o PSTN a partir de reuniões organizadas pelos usuários em sua organização. Observe que a política de roteamento de voz global da sua organização também se aplica às chamadas um para uma feitas ao PSTN pelos usuários em sua organização. Se as chamadas um para um para o PSTN estão habilitadas para usuários em sua organização, certifique-se de que a política de roteamento de voz global atenda às necessidades da sua organização para ambos os tipos de chamadas.
 
 > [!NOTE]
 > Location-Based o roteamento não está disponível em implantações Microsoft 365 Nuvem da Comunidade Governamental (GCC) High ou DoD. Ao habilitar a Audioconferência, verifique se nenhum usuário de Audioconferência no GCC High ou nos ambientes do DoD está habilitado para roteamento Location-Based.
@@ -119,7 +119,7 @@ Para criar uma nova rota de voz, use o seguinte comando:
   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
   ```
 
-Ao definir uma nova rota de voz para sua organização, especifique um ou vários dos gateways PSTN online PSTN que foram definidos para sua organização durante a configuração do Roteamento Direto. 
+Ao definir uma nova rota de voz para sua organização, especifique um ou vários dos gateways PSTN online PSTN que foram definidos para sua organização durante a configuração do Roteamento Direto.
 
 O padrão de número especifica quais chamadas serão roteadas pela lista especificada de gateways com base no número de telefone de destino da chamada. No exemplo acima, as chamadas para quaisquer destinos no mundo corresponderão à rota de voz. Se você quiser restringir os números de telefone que podem ser discados a partir das reuniões de usuários em sua organização, você pode alterar o padrão de número para que a rota de voz corresponder apenas aos padrões de número dos destinos permitidos. Observe que, se não houver rotas de voz que corresponderem ao padrão de número do número de telefone de destino de uma determinada chamada, a chamada não será roteada.
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c94a84d7d331122145ebec1324ec5a88eabbca82
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: a82dbf888fcd6fd0b05816e3edb390b79c9a9e3f
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039995"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055311"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personalizar seus aplicativos Teams com base na licença
 
@@ -52,16 +52,16 @@ Aplicativos fixados para usuários que têm uma licença F:
 ## <a name="admin-controls"></a>Controles de administrador
 
 > [!NOTE]
-> O pinamento do usuário deve estar ligado na política de configuração de aplicativo global (padrão em toda a organização) para que esse recurso entre em vigor. Para saber mais, confira [Gerenciar políticas de configuração de aplicativos no Teams](teams-app-setup-policies.md).
+> O pinamento do usuário deve estar ligado na política de configuração de aplicativo global (padrão em toda a [organização)](teams-app-setup-policies.md) para que esse recurso entre em vigor.
 
 O recurso de experiência de aplicativo personalizado é controlado pela configuração Mostrar [](manage-apps.md#manage-org-wide-app-settings) **aplicativos personalizados** com base nas licenças do aplicativo em toda a organização na página Gerenciar aplicativos do centro de administração Teams. Se o recurso estiver em funcionamento, todos os usuários da sua organização que têm uma licença F obterão a experiência de aplicativo personalizada.
 
 Tenha em mente que quaisquer políticas de configuração de aplicativo personalizadas atribuídas aos usuários têm precedência. Isso significa que, se um usuário já tiver uma política de configuração de aplicativo personalizada atribuída a ele, o usuário obtém a configuração definida na política de configuração de aplicativo personalizada. Para saber mais sobre como o recurso funciona com políticas de configuração de aplicativos existentes que você aplicou em sua organização, consulte a seção [Cenários](#scenarios) deste artigo.
 
-Esse recurso está habilitado por padrão. No entanto, se você não quiser a experiência de aplicativo personalizada fornecida pela Microsoft, poderá desativar a configuração. Para desativar ou ativar o recurso:
+Esse recurso está habilitado por padrão. No entanto, se você não quiser a experiência de aplicativo personalizada fornecida pela Microsoft, poderá desativar o recurso. Para desativar ou ativar o recurso:
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para Teams  >  **aplicativos Gerenciar** aplicativos e, em seguida, selecione Configurações de aplicativo em toda a **organização.**
-2. Alterne **a opção Mostrar aplicativos personalizados com base em licenças** alternando para **Off** ou **On**. 
+2. Em **Aplicativos personalizados,** alterne **a opção Mostrar aplicativos personalizados com base** em licenças alternando para **Off** ou **On**.
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Captura de tela da página Gerenciar aplicativos, mostrando a configuração mostrar aplicativos personalizados com base na configuração de aplicativo em toda a organização de licenças" lightbox="media/pin-teams-apps-based-on-license.png":::
 

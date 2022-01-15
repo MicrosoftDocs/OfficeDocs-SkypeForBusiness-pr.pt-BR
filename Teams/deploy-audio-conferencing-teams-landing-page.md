@@ -3,8 +3,8 @@ title: Definir configurações de videoconferência – Microsoft Teams
 ms.reviewer: ''
 description: Use esses recursos de implantação para ajudá-lo a implantar a audioconferência como parte da carga de trabalho das reuniões no Microsoft Teams.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 audience: admin
 ms.date: 01/28/2019
@@ -21,12 +21,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8467132a365fcfdf105859a3404a4a63f4f1a67d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3ede4a0721bacb9c4feb996d58ab01327c13dfd
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617467"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055851"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Saiba como implantar audioconferência no Microsoft Teams
 
@@ -34,12 +34,11 @@ A opção de Audioconferência é a capacidade de ingressar em uma reunião do T
 
 ## <a name="audio-conferencing-deployment-decisions"></a>Decisões de implantação da Audioconferência
 
-Este artigo ajuda você a decidir se deseja alterar as configurações padrão de Audioconferência, com base no perfil da organização e requisitos de negócios e, em seguida, orienta você em cada alteração. Dividimos as configurações em dois grupos, começando com o conjunto principal de [alterações que você provavelmente realizará](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades de sua organização.
+Este artigo ajuda você a decidir se deseja alterar as configurações padrão de Audioconferência, com base no perfil da organização e requisitos de negócios e, em seguida, orienta você em cada alteração. Dividimos as configurações em dois grupos, começando com o conjunto principal de [alterações que você provavelmente realizará](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades da organização.
 
 Basta configurar uma Audioconferência para as pessoas que planejam agendar ou liderar reuniões. Os participantes da reunião não precisam de licenças atribuídas ou de configuração adicional. É muito útil ligar para reuniões quando os usuários estão viajando e não podem participar de uma reunião usando o aplicativo Teams ou Skype for Business no laptop ou em dispositivos móveis. 
 
-
-## <a name="audio-conferencing-prerequisites"></a>Provedores de Audioconferência 
+## <a name="audio-conferencing-prerequisites"></a>Provedores de Audioconferência
 
 Antes de implantar a Audioconferência no Teams, considere o seguinte:
 
@@ -50,17 +49,15 @@ Antes de implantar a Audioconferência no Teams, considere o seguinte:
 |Preciso comprar Créditos de Comunicação para os usuários que recebem licenças de audioconferência?|Para saber mais, leia [O que são Créditos de Comunicação?](what-are-communications-credits.md) e, em seguida, confira a seção [Créditos de Comunicações](#communications-credits) abaixo.|
 |||
 
-
 ## <a name="core-deployment-decisions"></a>Decisões principais de implantação
 
 Depois de atender aos Pré-requisitos de Audioconferência, conclua as seguintes tarefas para configurar a Audioconferência para seus usuários.
 
-
 ### <a name="teams-administrators"></a>Administradores do Teams
 
-O Teams fornece um conjunto de funções de administrador personalizado que pode ser usado para administrar o Teams para sua organização. As funções fornecem vários recursos aos administradores. 
+O Teams fornece um conjunto de funções de administrador personalizado que pode ser usado para administrar o Teams para sua organização. As funções fornecem vários recursos aos administradores.
 
-| Pergunte a si mesmo | Ação |
+| Pergunte-se | Ação |
 |--------------|--------|
 |A quem será atribuída a função de Administrador de Comunicações de Equipes?|Para saber mais sobre as funções de administrador do Teams, confira [Usar funções de administrador para gerenciar o Microsoft Teams](using-admin-roles.md).|
 |A quem será atribuída função de Engenheiro de Suporte de Comunicações de Equipes?|Para atribuir funções de administrador, confira [Atribuir funções de administrador e não administrador aos usuários com o Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
@@ -80,7 +77,6 @@ Confira [Audioconferências](audio-conferencing-in-office-365.md) para saber mai
 |Preciso transferir números para usar na audioconferência?|Para saber mais sobre a portabilidade de números de telefone, leia [Transferir números de telefone para o Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).|
 |||
 
-
 ### <a name="default-and-alternate-languages"></a>Idiomas padrão e alternativos
 
 A Audioconferência do Teams permite definir os idiomas padrão e alternativos para uma ponte de audioconferência.
@@ -90,9 +86,9 @@ A Audioconferência do Teams permite definir os idiomas padrão e alternativos p
 | Quais idiomas devo escolher para as saudações do atendedor automático? | Para escolher idiomas, confira [Definir idiomas do atendedor automático da Audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
 |||
 
-### <a name="conferencing-bridge-settings"></a>Configurações de ponte de conferência 
+### <a name="conferencing-bridge-settings"></a>Configurações de ponte de conferência
 
-Após configurar a sua ponte de conferência, incluindo os idiomas padrão e alternativos, verifique se as configurações padrão, como notificações de entrada/saída e o comprimento do PIN, são aquelas que deseja usar. Se não forem, você pode alterá-las. 
+Após configurar a sua ponte de conferência, incluindo os idiomas padrão e alternativos, verifique se as configurações padrão, como notificações de entrada/saída e o comprimento do PIN, são aquelas que deseja usar. Se não forem, você pode alterá-las.
 
 |Pergunte-se|Ação |
 |------------|-------|
@@ -120,13 +116,11 @@ Para fornecer números de telefone gratuitos de ponte de conferência e para ofe
 |Devo configurar um valor para recarga automática?|Para configurar um valor de recarga automática, confira [Configurar Créditos de Comunicação para sua organização](set-up-communications-credits-for-your-organization.md).|
 |||
 
-
-
 ## <a name="additional-deployment-decisions"></a>Decisões adicionais de implantação
 
 Convém alterar essas configurações, com base nas necessidades da organização e da configuração.
 
-### <a name="outbound-calling-restriction-policies"></a>Políticas de restrição de chamadas de saída 
+### <a name="outbound-calling-restriction-policies"></a>Políticas de restrição de chamadas de saída
 
 Como administrador, você pode usar os controles de chamadas de saída para restringir o tipo de audioconferência e as chamadas PSTN de usuários finais que podem ser feitas pelos usuários em sua organização.
 
@@ -134,7 +128,6 @@ Como administrador, você pode usar os controles de chamadas de saída para rest
 |------------|-------|
 | Desejo limitar o tipo de chamadas de saída que são permitidas? | Para restringir chamadas de saída, confira [Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário](outbound-calling-restriction-policies.md).|
 |||
-
 
 ### <a name="dial-plans"></a>Planos de discagem
 
@@ -148,17 +141,17 @@ Para obter mais informações sobre os planos de discagem, confira [O que são o
 |Quais usuários exigem um plano de discagem personalizado e qual plano de discagem de locatários deve ser atribuído a cada usuário?|Para adicionar usuários a um plano de discagem personalizado usando o PowerShell, confira [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md).|
 |||
 
-### <a name="troubleshoot-meeting-and-call-quality"></a>Resolver problemas de qualidade de chamadas e reuniões 
+### <a name="troubleshoot-meeting-and-call-quality"></a>Resolver problemas de qualidade de chamadas e reuniões
 
-O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade da chamada: [Análise de Chamadas e Painel de Qualidade de Chamadas](monitor-call-quality-qos.md). A Análise de Chamadas exibe informações detalhadas sobre dispositivos, redes e conectividade relacionados a chamadas e reuniões específicas para cada usuário. A Análise de Chamadas foi desenvolvida para ajudar administradores e agentes de assistência técnica a solucionar problemas de qualidade de chamadas com chamadas específicas, enquanto o Painel de Qualidade de Chamadas foi desenvolvido para ajudar administradores e engenheiros de rede a otimizar uma rede. O Painel de Qualidade de Chamadas desloca o foco de usuários específicos e analisa as informações agregadas de toda a organização do Teams. 
+O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade da chamada: [Análise de Chamadas e Painel de Qualidade de Chamadas](monitor-call-quality-qos.md). A Análise de Chamadas exibe informações detalhadas sobre dispositivos, redes e conectividade relacionados a chamadas e reuniões específicas para cada usuário. A Análise de Chamadas foi desenvolvida para ajudar administradores e agentes de assistência técnica a solucionar problemas de qualidade de chamadas com chamadas específicas, enquanto o Painel de Qualidade de Chamadas foi desenvolvido para ajudar administradores e engenheiros de rede a otimizar uma rede. O Painel de Qualidade de Chamadas desloca o foco de usuários específicos e analisa as informações agregadas de toda a organização do Teams.
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |------------|-------|
-| Quem será responsável pelo monitoramento e a solução de problemas de qualidade da chamada? | Confira [Usar a Análise de chamadas para solucionar problemas de baixa qualidade de chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md) para obter informações sobre os níveis de permissão necessários para solucionar problemas de qualidade de chamadas.|
+| Quem será responsável pelo monitoramento e a solução de problemas com a qualidade de chamadas? | Confira [Usar a Análise de chamadas para solucionar problemas de baixa qualidade de chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md) para obter informações sobre os níveis de permissão necessários para solucionar problemas de qualidade de chamadas.|
 |||
 
-
 ## <a name="next-steps"></a>Próximas etapas
+
 - [Direcionar a adoção](adopt-microsoft-teams-landing-page.md) da audioconferência em sua organização.
 - [Implementar o Cloud Voice](cloud-voice-landing-page.md)
 - Inclua os aplicativos em destaque — como o Planner — no seu lançamento inicial do Teams. Adicione outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) à medida que você impulsiona a adoção do Teams.

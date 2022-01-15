@@ -1,7 +1,7 @@
 ---
 title: Discar de uma reunião para que outras pessoas possam participar
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Os organizadores da reunião podem aprender a discar usando o aplicativo Teams para permitir que outras pessoas participem da mesma reunião usando seus telefones.
-ms.openlocfilehash: 690ae9a1597f2d6f1621deb264d9115780d35622
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 13389099e936ee8b3d6a005ae808f46f48abafea
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725640"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055831"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 
@@ -50,7 +50,7 @@ Veja como fazer a discagem funcionar:
  **Etapa 2:** Insira o número de telefone completo, incluindo o código de país/região na **caixa Convidar alguém ou discar um** número.
   
 ![Captura de tela da caixa Convidar alguém ou discar um número.](media/invite-someone-box.png)
-    
+
 ## <a name="supported-countries-and-regions"></a>Países e regiões com suporte
 
 O discagem está disponível apenas para alguns países/regiões. Para ver a lista completa, consulte [Disponibilidade de país e região para Audioconferência e Planos de Chamada.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -62,5 +62,5 @@ Se você estiver procurando instruções sobre como permitir que seus usuários 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre audioconferência?
 
 [Experimente ou compre Audioconferência](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-    
+
 [Licenciamento do complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

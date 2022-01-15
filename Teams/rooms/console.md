@@ -1,5 +1,5 @@
 ---
-title: Configurar um console de Salas do Microsoft Teams
+title: Criar uma Salas do Microsoft Teams imagem
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Travis-Snoozy
@@ -15,16 +15,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar e configurar o console Salas do Microsoft Teams e seus periféricos.
-ms.openlocfilehash: 2df40f136308bb7855d911667bc871e5750f06cd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: d6c675ed6eb6f50cf41b817770caf723f75f556b
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767274"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055641"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar um console de Salas do Microsoft Teams
+# <a name="build-a-microsoft-teams-rooms-image"></a>Criar uma Salas do Microsoft Teams imagem
 
-Este artigo descreve como configurar o console Salas do Microsoft Teams e seus periféricos.
+Este artigo descreve como criar uma imagem Salas do Microsoft Teams para implantação em massa de Salas do Teams.
+
+> [!NOTE]
+> As etapas a seguir só devem ser usadas ao criar uma [imagem baseada em WIM](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) para implantação em massa. Se você estiver recuperando dispositivos individuais, entre em contato com o Fabricante de Equipamento Original (OEM) para ter suporte.
 
 Você só deve executar essas etapas se as contas necessárias Microsoft Teams ou Skype for Business e Exchange já foram criadas e testadas conforme descrito em [Deploy Salas do Microsoft Teams](rooms-deploy.md). Você precisará do hardware e software descritos em Salas do Microsoft Teams [requisitos](requirements.md). Este tópico inclui as seguintes seções:
   
@@ -63,6 +66,7 @@ O CreateSrsMedia.ps1 script automatiza as seguintes tarefas:
 3. Baixe os componentes de suporte necessários.
 4. Montar os componentes necessários na mídia de instalação.
 
+> [!NOTE]
 Uma versão específica do Windows 10 é necessária, e essa versão só está disponível para clientes de licenciamento por volume.  Você pode obter uma cópia do Centro de [Serviços de Licenciamento por Volume.](https://www.microsoft.com/Licensing/servicecenter/)
 
 Quando terminar, remova o disco USB do computador e prossiga para Instalar o Windows 10 [e o aplicativo Salas do Microsoft Teams console.](console.md#Reimage)
@@ -71,7 +75,7 @@ Quando terminar, remova o disco USB do computador e prossiga para Instalar o Win
 ## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Instalar Windows 10 e o aplicativo Salas do Microsoft Teams console do Salas do Microsoft Teams
 <a name="Reimage"> </a>
 
-Agora você precisa aplicar a mídia de instalação criada. O dispositivo de destino será executado como um dispositivo e o usuário padrão será definido para executar apenas o aplicativo Salas do Microsoft Teams console.
+Agora você precisa aplicar a mídia de instalação criada. O dispositivo de destino será executado como um dispositivo e o usuário padrão será definido para executar apenas o Salas do Microsoft Teams aplicativo.
 
 1. Se o dispositivo de destino for instalado em um dock (por exemplo, um Surface Pro), desconecte-o do dock.
 
@@ -101,7 +105,7 @@ Depois que o sistema for desligado, é seguro remover o disco de configuração 
 Na Atualização do Criador, você precisará usar o script ApplyCurrentRegionAndLanguage.ps1 em cenários em que a seleção implícita de idioma não fornece ao usuário o idioma real do aplicativo que deseja (por exemplo, eles querem que o aplicativo de console seja usado em francês, mas está chegando em inglês).
   
 > [!NOTE]
-> As instruções a seguir funcionam apenas para consoles criados Windows Atualização do Criador. Os sistemas herdado/no mercado que não foram configurados usando mídia com o novo sistema de provisionamento não poderão usar essas instruções, mas também não devem sofrer com o problema inicial que exige essa intervenção manual (a Edição de Aniversário permite que você escolha explicitamente o idioma do aplicativo como parte da instalação).
+> As instruções a seguir funcionam somente para consoles criados Windows Atualização do Criador (Windows 10 20H1) ou posterior.
   
 ### <a name="to-apply-your-desired-language"></a>Para aplicar o idioma desejado
 
@@ -142,29 +146,22 @@ Seu idioma desejado agora é aplicado ao console Salas do Microsoft Teams.
 ## <a name="initial-set-up-of-the-console"></a>Configuração inicial do console
 <a name="Initial"> </a>
 
-Depois Windows for instalado, o aplicativo de console Salas do Microsoft Teams entrará em seu processo inicial de Instalação quando ele for iniciado em seguida ou se a opção /reboot tiver sido escolhida.
+Depois Windows for instalado, o aplicativo Salas do Microsoft Teams entrará em seu processo inicial de Instalação.
   
-1. A tela Conta de Usuário é exibida. Insira o Skype de entrada (no formato user@domain) da conta de sala a ser usada com o console.
+1. A tela Conta de Usuário é exibida. Insira o endereço de entrada da conta de recurso do Microsoft Exchange (no formato user@domain) da conta de sala a ser usada com o console.
     
 2. Digite a senha para a conta da sala e digite-a novamente para verificar.
-    
-3. Em "Configurar Domínio", de definir o FQDN para o Skype for Business Server. Se o Skype for Business sip for diferente do domínio Exchange do usuário, insira o domínio Exchange neste campo.
-    
+   
+3. Selecione o modo de reunião com suporte - somente Microsoft Teams, somente Skype for Business ou uma das duas opções de modo misto. Se necessário, habilita a Autenticação Moderna.
+
 4. Click **Next**.
     
-5. Selecione os dispositivos indicados na tela Recursos e clique em **Próximo**. O padrão é ter o compartilhamento automático de tela definido como Ativado e Ocultar os nomes da reunião definido como Desativado. Os dispositivos para selecionar são:
+5. Se usar Skype for Business e se o domínio SIP do Skype for Business for diferente do domínio Exchange do usuário, de definir o FQDN para o Skype for Business Server na seção Avançado. Se você não estiver usando Skype for Business ou o domínio SIP corresponde ao domínio Exchange, deixe esta seção em branco.
+6. Click **Next**.
     
-   - Microfone para conferência: o microfone padrão para a sala de conferência.
+7. Clique em **Concluir**.
     
-   - Alto-falante para conferência: o alto-falante padrão para conferência  
-    
-   - Alto-falante padrão: o alto-falante usado para áudio da ingestão HDMI.
-    
-     Cada item tem um menu suspenso de opção para seleção. Você deve fazer uma seleção para cada dispositivo.
-    
-6. Clique em **Concluir**.
-    
-O Salas do Microsoft Teams de console deve começar a entrar imediatamente no Skype for Business Server com as credenciais inseridas acima e também deve começar a sincronizar seu calendário com Exchange usando essas mesmas credenciais. Para obter detalhes sobre como usar o aplicativo de console, consulte o Salas do Microsoft Teams [ajuda](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+O aplicativo Salas do Microsoft Teams deve entrar no Microsoft Teams ou Skype for Business Server com as credenciais inseridas acima e também deve começar a sincronizar seu calendário com Exchange usando essas mesmas credenciais. Para obter detalhes sobre como usar Salas do Teams, consulte o Salas do Microsoft Teams [ajuda](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Salas do Microsoft Teams depende da presença de hardware de console certificado. Mesmo uma imagem criada corretamente contendo o aplicativo de console Salas do Microsoft Teams não será inicializada após o procedimento de instalação inicial, a menos que o hardware do console seja detectado. Para Surface Pro soluções baseadas em Surface Pro, o Surface Pro deve estar conectado ao hardware de encaixe que acompanha para passar essa verificação.
@@ -174,8 +171,10 @@ O Salas do Microsoft Teams de console deve começar a entrar imediatamente no Sk
   
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>Instalar um certificado ca privado no console
 <a name="Certs"> </a>
+> [!NOTE]
+> O seguinte só se aplica se a conexão Salas do Teams a Skype for Business.
 
-O Salas do Microsoft Teams console precisa confiar nos certificados usados pelos servidores aos que ele se conecta. No O365, isso é feito automaticamente, pois esses servidores usam Autoridades de Certificação públicas e o Windows 10 confia nelas automaticamente. Em um caso em que a Autoridade de Certificação é privada, por exemplo, uma implantação local com o Active Directory e a Autoridade de Certificação Windows, você pode adicionar o certificado ao console Salas do Microsoft Teams de várias maneiras:
+Salas do Microsoft Teams precisa confiar nos certificados usados pelos servidores aos que ele se conecta. Em um caso em que a Autoridade de Certificação é privada, por exemplo, uma implantação local com o Active Directory e a Autoridade de Certificação Windows, você pode adicionar o certificado Salas do Microsoft Teams de várias maneiras:
   
 - Você pode ingressar o console no Active Directory e isso adicionará automaticamente os certificados necessários, uma vez que a Autoridade de Certificação é publicada no Active Directory (opção de implantação normal).
     
@@ -196,7 +195,7 @@ O Salas do Microsoft Teams console precisa confiar nos certificados usados pelos
 ### <a name="join-an-active-directory-domain-optional"></a>Ingressar em um domínio do Active Directory (Opcional)
 <a name="Certs"> </a>
 
-Você pode ingressar Salas do Microsoft Teams consoles ao seu domínio. Salas do Microsoft Teams consoles devem ser colocados em uma OU separada de suas estações de trabalho do computador porque muitas políticas de estação de trabalho não são compatíveis com Salas do Microsoft Teams. Um exemplo comum são as políticas de aplicação de senha que impedirão Salas do Microsoft Teams iniciar automaticamente. Para obter informações sobre o gerenciamento de configurações de GPO, consulte [Manage Salas do Microsoft Teams](rooms-operations.md).
+Você pode ingressar Salas do Microsoft Teams seu domínio. Salas do Microsoft Teams deve ser colocado em uma OU separada de suas estações de trabalho do computador porque muitas políticas de estação de trabalho não são compatíveis com Salas do Microsoft Teams. Um exemplo comum são as políticas de aplicação de senha que impedirão Salas do Microsoft Teams iniciar automaticamente. Para obter informações sobre o gerenciamento de configurações de GPO, consulte [Manage Salas do Microsoft Teams](rooms-operations.md).
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Para ingressar Salas do Microsoft Teams a um domínio
 
@@ -227,7 +226,7 @@ Use a seguinte lista de verificação ao fazer uma verificação final de que o 
 
 |Concluído |Verificar |
 |:-----:|:-----|
-|☐   |O Nome e o número de telefone da conta da sala (se PSTN estiver habilitado) são exibidos corretamente na parte superior direita da tela do console   |
+|☐   |Nome da conta de sala e telefone # (se PSTN habilitado) são exibidos corretamente   |
 |☐   |O nome do computador Windows está definido corretamente (útil para administração remota)   |
 |☐   |A senha da conta do administrador foi definida e verificada   |
 |☐   |Todas as atualizações de firmware foram aplicadas   |
@@ -244,15 +243,15 @@ Use a seguinte lista de verificação ao fazer uma verificação final de que o 
 |☐   |Dispositivo de entrada de áudio funcional e posicionado corretamente   |
 |☐   |Dispositivo de saída de áudio funcional e posicionado corretamente   |
 
-**Encaixe**
+**Console**
 
 |Concluído |Verificar |
 |:-----:|:-----|
 |☐   |Os cabos estão presos e não estão dobrados   |
 |☐   |Ingestão de áudio via HDMI funcional   |
 |☐   |Ingestão de vídeo via HDMI funcional   |
-|☐   |O encaixe pode girar livremente   |
-|☐   |O brilho da tela é aceitável para o ambiente   |
+|☐   |Console pode girar livremente   |
+
 
 
    

@@ -1,7 +1,7 @@
 ---
 title: Ativar ou desativar anúncios de entrada e saída para reuniões no Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: O administrador pode aprender sobre como ativar ou desativar anúncios de entrada e saída em uma reunião Microsoft Teams local.
-ms.openlocfilehash: ab69b64352508d15b5f1125629ab90b3ec58f851
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: a9dcaaabcaa31160e162ba2a2685a02d9e2397da
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537272"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056011"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões no Microsoft Teams
 
@@ -37,9 +37,7 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="setting-meeting-join-options"></a>Definir as opções de participação da reunião
-
- **Usando o centro de administração do Microsoft Teams**
+## <a name="setting-meeting-join-options-using-the-microsoft-teams-admin-center"></a>Definindo opções de junção de reunião usando o Microsoft Teams de administração
 
 Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 

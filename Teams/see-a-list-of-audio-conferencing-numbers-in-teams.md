@@ -1,7 +1,7 @@
 ---
 title: Consultar uma lista de números de audioconferência
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Saiba como procurar os números de conferência discado disponíveis para audioconferência de dentro Microsoft Teams.
-ms.openlocfilehash: 09eef2b2aac4bd6bd0b1eb7ea3d4f9cb3296008c
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 233b9817ca2c7d065af360b6aa3a2767159a7c49
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536682"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055901"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Ver uma lista de números de audioconferência no Microsoft Teams
 
@@ -44,9 +44,9 @@ Você pode ver [Definir os números de telefone incluídos](set-the-phone-number
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para exibir seus números de telefone de audioconferência
 
- **Usando o centro de administração do Microsoft Teams**
+Usando o Microsoft Teams de administração:
 
-1. Na navegação à esquerda, vá para   >  **Pontes de Conferência de Reuniões.** 
+1. Na navegação à esquerda, vá para   >  **Pontes de Conferência de Reuniões.**
 2. Exibir os números de telefone disponíveis para audioconferência.
 
 - Você também pode exibir o local e o idioma principal que será usado pelo assistente automático de audioconferência.
@@ -54,11 +54,11 @@ Você pode ver [Definir os números de telefone incluídos](set-the-phone-number
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
-    
-  - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+
+- [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="related-topics"></a>Tópicos relacionados
