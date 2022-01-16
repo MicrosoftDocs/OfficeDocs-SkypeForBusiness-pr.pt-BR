@@ -19,12 +19,12 @@ description: Orientação prática para a implantação de recursos de voz em nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766764"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056081"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -255,17 +255,7 @@ A retenção de gravação para isso é um armazenamento temporário que é afet
 O tamanho de uma gravação de 1 hora é de 400 MB. Certifique-se de entender a capacidade necessária para arquivos gravados e ter armazenamento suficiente disponível no OneDrive for Business e no SharePoint Online.  Leia [Definir o espaço de armazenamento padrão para o OneDrive for Business](/onedrive/set-default-storage-space) e o [Gerenciar limites de armazenamento de site do SharePoint Online](/sharepoint/manage-site-collection-storage-limits) para entender o armazenamento base incluído na assinatura e como comprar armazenamento adicional.
 
  <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiração automática de gravações de reunião do Teams: 
-
-> [!IMPORTANT]
->
-> O recurso de expiração automática discutido neste artigo ainda não foi iniciado. Consulte [o roteiro (ID do recurso: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) para obter mais informações sobre sua data de entrega.
-> 
-> Estamos fornecendo informações sobre como esse recurso funcionará no futuro, para que você possa planejar essa alteração e modificar as configurações de política do Teams com antecedência.
->
-> O comando para alterar preventivamente a configuração de expiração padrão no Teams está atualmente em implantação, mas você pode ver o atributo no PowerShell. No momento, a configuração não está disponível nos centros de administração do Teams. Essas configurações estarão disponíveis e serão comunicadas em uma postagem do centro de mensagens pelo menos 30 dias antes de lançarmos o recurso.
->
->
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiração automática de gravações de reunião do Teams
 
 Saiba mais sobre as alterações específicas do administrador [aqui](meeting-expiration.md#changes-to-meeting-expiration).
 
