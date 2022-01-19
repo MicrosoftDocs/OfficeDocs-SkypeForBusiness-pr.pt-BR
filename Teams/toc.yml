@@ -1365,14 +1365,20 @@ items:
                 href: rooms/recovery-tool.md
       - name: Serviços gerenciados de Salas do Microsoft Teams
         items:
-          - name: Planejar gerenciamento
+          - name: Visão Geral
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: Controle de acesso baseado em função
-            href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Obter e atribuir uma licença
             href: rooms/obtaining-assigning-license.md
           - name: Registrar-se no serviço gerenciado MTRP
             href: rooms/enrolling-mtrp-managed-service.md
+          - name: Instalação
+            href: rooms/monitor-software-installation-guide.md
+          - name: Controle de acesso baseado em função
+            href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: Monitoramento e manutenção de Salas
+            href: rooms/managed-meeting-rooms-portal.md
+          - name: Atualizações gerenciadas
+            href: rooms/update-management.md
           - name: Configurar ServiceNow para Salas do Teams
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: Gerenciamento multilocatário para parceiros
