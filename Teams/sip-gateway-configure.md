@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
-ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
+ms.openlocfilehash: 1af44c5e3962f89346cae166bf40efa6a8622338
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61426103"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62065177"
 ---
 # <a name="configure-sip-gateway"></a>Configurar Gateway SIP
 
@@ -40,7 +40,7 @@ Antes de configurar o Gateway SIP, faça o seguinte:
 
 - **Certifique-se de que os dispositivos SIP não estão atrás de um proxy.** Verifique se o tráfego http/s ignora qualquer proxy http/s corporativo.
 
-- **Abra a porta UDP.** Abra a porta UDP no intervalo 49152 a 53247.
+- **Abra a porta UDP.** Abra a porta UDP no intervalo de 49152 a 53247 para intervalos IP 52.112.0.0/14 a 52.120.0.0/14.
 
 - **Abra a porta TCP.** Abra a porta TCP 5061 para intervalos IP 52.112.0.0/14 a 52.120.0.0/14.
 

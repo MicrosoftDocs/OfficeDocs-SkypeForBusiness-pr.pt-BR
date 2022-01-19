@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 518ae096716661cf559c38e327c9efb7705af46b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: cf05abdec5aeb09cd00627556494bb6cdb246d47
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767064"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070909"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -44,6 +44,7 @@ Os seguintes dispositivos são Certificados no Programa de Certificação Micros
 | Crestron UC-P8-T (com e sem o handset)     | `1.0.0.56`       | Fevereiro de 2021 |
 | Crestron UC-P10-C-T (com e sem o handset)  | `1.0.0.80`       | Maio de 2021                     |
 | Crestron UC-P8-C-T (com e sem o handset)   | `1.0.0.80`       | Maio de 2021                     |
+| Audiocódigos C470HD                      | `1.8.293   `                                               | Janeiro de 2021                 |
 | Yealink MP52                           | `145.15.0.6 `                                              | Abril de 2021                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | Abril de 2021                   |
 | AudioCodes C455HD                      | `1.14.404`                                                 | Novembro de 2021                |
@@ -230,7 +231,7 @@ A seguir estão as versões mais recentes Microsoft Teams displays de aplicativo
 
 |Versão do produto| Data de lançamento | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Atualização 2021 #4  |5 de janeiro de 2021 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
+|Atualização 2021 #4  |5 de janeiro de 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
 |Atualização 2021 #3  |8 de dezembro de 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |Atualização 2021 #2  |9 de junho de 2021 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |Atualização 2021 #1  |18 de março de 2021 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|

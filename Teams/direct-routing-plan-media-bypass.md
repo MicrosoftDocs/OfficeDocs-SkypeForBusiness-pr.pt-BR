@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com Sistema de Telefonia Roteamento Direto, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1fb9eff518232f53868752a297775369af13713a
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306326"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62064877"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -148,7 +148,7 @@ A tabela a seguir resume a diferença entre Processadores de Mídia e Retransmis
 |No caminho da mídia para chamadas ignoradas para usuários finais | Never | Se o cliente não puder alcançar o SBC no endereço IP público |
 |No caminho de mídia para aplicativos de voz | Always | Never |
 |Pode fazer transcodificação (B2BUA)\* | Sim | Não, somente retransmite áudio entre pontos de extremidade |
-|Número de instâncias em todo o mundo e local | 10 total: 2 nos EUA Leste e Oeste; 2 em Amsterdã e Dublin; 2 em Hong Kong e Cingapura; 2 no Japão; 2 na Austrália Leste e Sudeste | Vários|
+|Número de instâncias em todo o mundo e local | 15 total: 3 no Leste, Oeste e Centro-Sul dos EUA; 4 em Amsterdã, Dublin, Reino Unido Sul e França Central; 2 em Hong Kong e Cingapura; 2 no Japão; 2 na Austrália Leste e Sudeste; 1 no Brasil Sul; 1 no Norte da África do Sul | Vários|
 
 Os intervalos de IP são:
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254)

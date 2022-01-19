@@ -21,15 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
-- Phone System
-- seo-marvel-apr2020
+- Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039894"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070969"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -68,7 +67,7 @@ Digite um nome para a fila de chamadas.
 
 Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**. (Os agentes verão o nome da conta de recurso quando receberem uma chamada de entrada.)
 
-Consulte [Gerenciar Teams de recursos para](manage-resource-accounts.md) obter mais informações.
+Para obter mais informações, consulte [Manage Teams resource accounts](manage-resource-accounts.md).
 
 ### <a name="assign-calling-id"></a>Atribuir ID de chamada
 
@@ -78,10 +77,10 @@ Se você planeja usar um canal Teams para seus agentes de chamada, pode atribuir
 
 Clique **em** Adicionar , pesquise as contas de recurso que você deseja permitir que os agentes para fins de ID de chamada ao fazer chamadas de saída, clique em Adicionar **e** em **Adicionar**.
 
-Se você não estiver usando um canal Teams para controlar a associação de agentes, considere definir diretamente a ID do chamador para membros da fila de chamada para o número de serviço da fila de chamada ou o atendimento automático apropriado. Para mais informações, confira [Gerenciar políticas de identificação de chamadas no Microsoft Teams](caller-id-policies.md).
+Se você não estiver usando um canal Teams para controlar a associação de agentes, considere definir diretamente a ID do chamador para membros da fila de chamada para o número de serviço da fila de chamada ou o atendimento automático apropriado. Para obter mais informações, consulte [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
 
 > [!NOTE]
-> A conta de recurso usada para fins de ID de chamada deve ter uma Microsoft 365 Sistema de Telefonia de usuário virtual e uma das seguintes atribuídas:
+> A conta de recurso usada para fins de ID de chamada deve ter uma Microsoft Teams Sistema de Telefonia de usuário virtual e uma das seguintes atribuídas:
 >
 > - Uma licença do Plano de Chamadas e um número de telefone atribuído
 > - Um número de Conexão operador atribuído
@@ -113,7 +112,7 @@ Revise os [pré-requisitos para adicionar agentes a uma fila de chamada.](plan-a
 
 ##### <a name="teams-channel"></a>Teams canal
 
-Você pode adicionar até 200 agentes por meio de um Teams canal. Observe que você deve ser membro da equipe ou criador ou proprietário do canal para adicionar um canal à fila.
+Você pode adicionar até 200 agentes por meio de um Teams canal. Você deve ser membro da equipe ou criador ou proprietário do canal para adicionar um canal à fila.
 
 Se você quiser usar [um canal Teams para gerenciar](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)a fila, selecione a opção Escolher uma **equipe** e clique em Adicionar **um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar (somente canais padrão são suportados) e clique em **Aplicar**. 
 
@@ -147,7 +146,7 @@ O **Modo de conferência** reduz significativamente o tempo necessário para que
   - A versão mais recente do cliente de área de trabalho do Microsoft Teams, do aplicativo Android ou do aplicativo iOS
   - Microsoft Teams Telefone versão 1449/1.0.94.2020051601 ou posterior
   
-As contas do Teams dos agentes precisam ser definidas para o modo apenas Teams. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas. É recomendável habilitar o modo de conferência para suas filas de chamadas se todos os agentes estiverem usando clientes compatíveis.
+As contas Teams dos agentes devem ser definidas Teams modo somente para agentes. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas. É recomendável habilitar o modo de conferência para suas filas de chamadas se todos os agentes estiverem usando clientes compatíveis.
 
 > [!NOTE]
 > O modo de conferência não será suportado se as chamadas telefônicas são roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Local.
@@ -202,7 +201,7 @@ O **Tempo de alerta do agente** especifica por quanto tempo o telefone de um age
 
 O **Número máximo de chamadas na fila** especifica o número máximo de chamadas que podem esperar na fila a qualquer momento. O padrão é 50, mas pode variar de 0 a 200. Quando o limite é atingido, a chamada é tratada como especificado pela configuração **Quando é atingido o número máximo de chamadas**.
 
-Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um dos destinos de roteamento de chamadas. Por exemplo, você pode pedir ao chamador que deixe uma mensagem de voz para os agentes na fila. Para transferências externas, consulte [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) e [transferências de números de telefone externos – detalhes técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para formatação de números.
+Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um dos destinos de roteamento de chamadas. Por exemplo, você pode pedir ao chamador que deixe uma mensagem de voz para os agentes na fila. Para transferências externas, consulte [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
 > Se o número máximo de chamadas for definido como 0, então a mensagem de saudação não será reproduzida.
@@ -248,15 +247,58 @@ Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de fila de chamada
 
-Você também pode usar o Windows PowerShell para criar e configurar filas de chamadas. Veja aqui os cmdlets usados para administrar uma fila de chamadas.
+Windows PowerShell permite que você crie e gerencie filas de chamada por meio da linha de comando de forma em lotes ou programáticas.
 
-- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
+Os cmdlets a seguir permitem gerenciar uma fila de chamada:
 
-- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
+Os cmdlets adicionais a seguir também são necessários para gerenciar os usuários, contas de recursos, licenças de Microsoft Teams Telefone, números de telefone, arquivos de áudio e idioma com suporte que serão usados com filas de chamada:
 
-- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+Usuários/Teams
+
+- Usuários
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams: 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+- - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
+
+Contas de recursos:
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+
+Licenças Teams Telefone virtuais:
+
+- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+
+Telefone número:
+
+- [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/Set-CsOnlineVoiceApplicationInstance)
+
+Arquivos de áudio
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+Listas de idiomas de suporte
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+
+Para um guia passo a passo para criar filas de chamada com o PowerShell, consulte [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
 
 ## <a name="call-queue-diagnostic-tool"></a>Ferramenta de Diagnóstico de Fila de Chamada
 
@@ -278,7 +320,3 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
 [Obter números de telefone de serviço](getting-service-phone-numbers.md)
 
 [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
-
-[Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
