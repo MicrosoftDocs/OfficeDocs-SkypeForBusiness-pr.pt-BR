@@ -12,12 +12,12 @@ appliesto:
 localization_priority: Normal
 description: Saiba mais sobre como configurar ServiceNow no portal Salas do Teams Premium portal
 f1keywords: ''
-ms.openlocfilehash: a8f1e43ca52ee9fa155115fb911f88221cb6fdd0
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: deca4f8111dec958b19d9a6fa2651fca34f4050f
+ms.sourcegitcommit: 9caa3131e9896b140afe10edea2b1e599eacd02b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432703"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62082207"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Configurar ServiceNow para Salas do Teams
 
@@ -31,7 +31,7 @@ Este artigo descreve os pré-requisitos e as etapas para configurar seu ambiente
 
 ### <a name="servicenow-prerequisites"></a>Pré-requisitos serviceNow
 
-- Uma assinatura autorização básica ou uma assinatura OAuth. Para obter mais informações, consulte [Creating Credentials](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) in ServiceNow.
+- Uma assinatura autorização básica ou uma assinatura [OAuth.](https://docs.servicenow.com/bundle/rome-platform-administration/page/administer/security/concept/c_OAuthApplications.html) Para obter mais informações, consulte [Creating Credentials](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) in ServiceNow.
 - Uma instância serviceNow e seu nome de host de instância e URI de API
 - Uma função de incident_manager ou superior
 - Uma versão de software do ServiceNow que oferece suporte à API de tabela
@@ -45,7 +45,7 @@ A configuração do seu ambiente é altamente personalizável e dependerá das n
 3. Selecione um método de autenticação para entrar e inserir seu Host de Instância serviceNow e URI de API.
 4. Todos os itens necessários na coluna Campo ServiceNow da seção Mapeamento de Campos devem ser preenchidos previamente. A tabela abaixo contém cada campo ServiceNow e seu campo Salas do Microsoft Teams correspondente. Conclua a ação para cada linha da seção Mapeamento de Campos. Para definições de cada campo ServiceNow, consulte [ServiceNow field definitions](#servicenow-field-definitions).
 
-| Campo ServiceNow | Salas do Microsoft Teams campo | Action |
+| Campo ServiceNow | Salas do Microsoft Teams campo | Ação |
 | --- | --- | --- |
 | short_description | Descrição do incidente | Nenhuma ação necessária. O Salas do Teams campo é preenchido automaticamente. |
 | description | Primeira Mensagem | Nenhuma ação necessária. O Salas do Teams campo é preenchido automaticamente. |
