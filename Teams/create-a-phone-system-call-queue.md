@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: e54dbfa678b8bfdaec4dac45e16728a0fcd79de9
+ms.sourcegitcommit: bb302109886a4b853a8e493fb0ffafad4bc4f86b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62070969"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62085240"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -281,7 +281,7 @@ Contas de recursos:
 
 Licenças Teams Telefone virtuais:
 
-- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
 Telefone número:
 
