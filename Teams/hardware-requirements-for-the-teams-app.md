@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45918358ac6e0419b65a0359bdcc8e500a1187bc
-ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
+ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
+ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60600225"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146248"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para o Microsoft Teams
 
@@ -36,7 +36,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 | Componente | Requisito |
 |---------|---------|
 |Computador e processador    | Mínimo de 1,1 GHz ou superior, 2 núcleos<br><br>Observação: para processadores Intel, deve ser considerada a velocidade máxima atingida usando a tecnologia Intel Note Plus (Max Note Frequency)         |
-|Memória     |    4,0 GB de RAM (o Teams requer 4 GB de RAM dedicados além de quaisquer outros requisitos do sistema)    |
+|Memória     |  4,0 GB de RAM |
 |Disco rígido    | 3 GB de espaço em disco disponível        |
 |Display    |   Resolução de tela 1024 x 768 |
 |Hardware gráfico |  Sistema Operacional Windows: a aceleração de hardware de elementos gráficos requer o DirectX 9 ou posterior, com o WDDM 2.0 ou superior para Windows 10 (ou WDDM 1.3 ou superior para Windows 10 Fall Creators Update)
@@ -52,7 +52,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 | Componente | Requisito |
 |---------|---------|
 |Computador e processador    | Processador Intel Core Duo |
-|Memória     |   4,0 GB de RAM (o Teams requer 4 GB de RAM dedicados além de quaisquer outros requisitos do sistema)     |
+|Memória     |   4,0 GB de RAM|
 |Disco rígido    |   1,5 GB de espaço em disco disponível      |
 |Display    | Resolução de 1280 x 800 ou superior    |
 |Sistema operacional  |    Uma das três versões mais recentes do macOS. Você pode encontrar informações sobre as versões mais recentes do macOS e como atualizar a sua versão do macOS [aqui](https://support.apple.com/en-us/HT201260). Por exemplo, quando uma nova versão do macOS é lançada, a nova versão e as duas imediatamente antes dela se tornam as versões com suporte.      |
@@ -66,7 +66,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 | Componente | Requisito |
 |---------|---------|
 |Computador e processador    | 1,6 GHz (ou superior) (32 bits ou 64 bits), 2 núcleos        |
-|Memória     |    4,0 GB de RAM (o Teams requer 4 GB de RAM dedicados além de quaisquer outros requisitos do sistema)   |
+|Memória     |    4,0 GB de RAM |
 |Disco rígido    | 3 GB de espaço em disco disponível        |
 |Display    |   Resolução de tela 1024 x 768 |
 |Hardware gráfico |  128 MB de memória gráfica
