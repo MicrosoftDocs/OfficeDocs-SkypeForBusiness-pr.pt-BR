@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a82dbf888fcd6fd0b05816e3edb390b79c9a9e3f
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
+ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055311"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62161030"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personalizar seus aplicativos Teams com base na licença
 
@@ -47,7 +47,6 @@ Aplicativos fixados para usuários que têm uma licença F:
 - Teams
 - Turnos
 - Tarefas
-- Walkie Talkie
 
 ## <a name="admin-controls"></a>Controles de administrador
 

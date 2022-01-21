@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Saiba como carregar locatários e criar dados no Painel de Qualidade de Chamada (CQD).
-ms.openlocfilehash: 02984b413418fff22da44d4edd4349a1bf980ed7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c3da64a66ec2e78165bd0ee9dcb50acbe7739ee4
+ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733130"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62160970"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Upload locatário e a criação de dados no Painel de Qualidade de Chamada (CQD)
 
@@ -164,6 +164,8 @@ O outro tipo de arquivo de dados de locatário CQD é o **arquivo de dados** do 
 - O conteúdo do arquivo de dados não inclui os headers de tabela. Espera-se que a primeira linha do arquivo de dados sejam dados reais, não um rótulo de header como "EndpointName".
 
 - Todas as sete colunas usam somente o tipo de dados String. O comprimento máximo permitido é de 64 caracteres.
+
+- As entradas são sensíveis a minúsculas; EndpointName **ABC123** será tratado como exclusivo do EndpointName **abc123**.
 
 - Um campo de dados pode estar vazio, mas ainda deve ser separado por uma guia ou vírgula. Um campo de dados vazio apenas atribui um valor String vazio.
 

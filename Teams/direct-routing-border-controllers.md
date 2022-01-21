@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ef0be38205d2f83be013793706cb6e7f6e14d24
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: e2c43fe821c0d0dafb1df471eafbcc9831a11b72
+ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62070929"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62160990"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -91,7 +91,7 @@ Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamen
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de Borda de Sessão Avaya para Empresas (ASBCE)    |     &#10004;     |       &#10004;     |       Versão 8.1.1 (8.1.2 para Bypass de Mídia)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de Borda de Sessão da Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Controlador de Borda de Sessão da Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       5.0, 5.1 com suporte (Recomendado 5.3)     |     |    |
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       5.0, 5.1 com suporte (Recomendado 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Link de Vínculo Orchid    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
