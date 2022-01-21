@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 247f8e1d735bfe331c914da1ec89863b755cf373
+ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767334"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62163542"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informações no Microsoft Teams
 
@@ -188,7 +188,7 @@ O modo de barreiras de informações ajuda a fortalecer quem pode ser adicionado
 
 - **Open**: Essa configuração é o modo IB padrão para todos os grupos existentes que foram provisionados antes que as barreiras de informações fossem habilitadas. Nesse modo, não há políticas de IB aplicáveis.
 - **Implícito**: essa configuração é o modo IB padrão quando uma Equipe é provisionada após habilenciar barreiras de informações. O modo implícito permite adicionar todos os usuários compatíveis no grupo.
-- **Proprietário Moderado**: esse modo é definido em uma equipe quando você deseja permitir a colaboração entre usuários de segmento incompatíveis que são moderados pelo proprietário. O proprietário da equipe pode adicionar novos membros por sua política de IB.
+- **Proprietário Moderado (visualização)**: Esse modo é definido em uma equipe quando você deseja permitir a colaboração entre usuários de segmento incompatíveis que são moderados pelo proprietário. O proprietário da equipe pode adicionar novos membros por sua política de IB.
 
 Teams criada antes de ativar uma política de barreira de informações em seu locatário são automaticamente definidas como *Modo Abrir* por padrão. Depois de ativar políticas de IB em seu locatário, você será obrigado a atualizar o modo de suas equipes existentes para *Implícito* para garantir que as equipes existentes sejam compatíveis com IB.
 
