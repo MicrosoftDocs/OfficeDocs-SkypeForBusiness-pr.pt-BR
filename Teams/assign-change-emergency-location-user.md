@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá sobre como atribuir ou alterar um local de emergência para usuários em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634900"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180894"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Atribuir ou alterar um local de emergência para um usuário
 
@@ -55,7 +55,7 @@ Você pode atribuir ou alterar um local de emergência para um usuário no centr
 
 ## <a name="using-powershell"></a>Usando o Windows PowerShell
 
-Consulte [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser). 
+Consulte [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). 
 
     
 ## <a name="related-topics"></a>Tópicos relacionados
@@ -64,5 +64,5 @@ Consulte [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 - [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
 - [Atribuir ou alterar um endereço de um local de emergência para um usuário](assign-change-emergency-place-user.md)
 - [Adicionar, alterar ou remover um endereço de um local de emergência para sua organização](add-change-remove-emergency-place-organization.md)
-- [Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
+- [Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Termos e condições das Chamadas de Emergência](./emergency-calling-terms-and-conditions.md)

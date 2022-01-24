@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar Planos de Chamadas, incluindo planos de exibição disponíveis em sua região, comprar & atribuir licenças, obter números de telefone e adicionar endereços de emergência & locais.
-ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: 996211b3347f078b4d92c5a473b3d8057346231d
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410692"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181084"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 
@@ -100,7 +100,7 @@ Se você conhece o Windows PowerShell, é possível usar os cmdlets a seguir par
   
 - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps): Recupera os números de telefone do Diretório Empresarial de Voz.
     
-- [Set-CsOnlineVoiceUser](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps): Define os números de telefone.
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment?view=teams-ps): define os números de telefone.
     
 Para saber mais, consulte [Teams Visão Geral do PowerShell.](teams-powershell-overview.md)
   

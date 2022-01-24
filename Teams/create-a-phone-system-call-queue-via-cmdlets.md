@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada por meio de cmdlets
-ms.openlocfilehash: 8ffbef5541a230755bb7439507e3002a5cb92462
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62071103"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181104"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Criar uma fila de chamada por meio de cmdlets
 
 ## <a name="assumptions"></a>Suposições
 1)  O PowerShell está instalado em seu computador
-- Configurar seu computador para [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- Configurar seu computador para [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - Módulo MSTeams Instalado ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - Módulo MSOnline instalado ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  Você tem direitos de administração de locatários
@@ -161,6 +161,8 @@ Observação: Telefone número não obrigatório aqui, pois a fila de chamada es
 - - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07
 - - Fila de Chamada: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
+Observação: o tipo de licença mostrado abaixo (PHONESYSTEM_VIRTUALUSER) deve ser aquele listado pelo cmdlet Get-MsolAccountSku acima.
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -215,6 +217,9 @@ Observação: Telefone número não obrigatório aqui, pois a fila de chamada é
 - ApplicationID
 - - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07
 - - Fila de Chamada: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Observação: o tipo de licença mostrado abaixo (PHONESYSTEM_VIRTUALUSER) deve ser aquele listado pelo cmdlet Get-MsolAccountSku acima.
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -271,8 +276,11 @@ Observação: Telefone número não obrigatório aqui, pois a fila de chamada é
 - ApplicationID
 - - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07
 - - Fila de Chamada: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Observação: o tipo de licença mostrado abaixo (PHONESYSTEM_VIRTUALUSER) deve ser aquele listado pelo cmdlet Get-MsolAccountSku acima.
+
 ````
-New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
 Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 

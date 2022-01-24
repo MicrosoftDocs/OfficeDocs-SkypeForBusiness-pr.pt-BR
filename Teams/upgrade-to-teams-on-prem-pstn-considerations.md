@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77c4c30c86375fbf72822e244737f8a77000d9bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c19c1860c3a351cd7ed6a6240e20dc253f204ab1
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617147"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180884"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Considerações do PSTN para atualizar para Teams de Skype for Business local
 
@@ -30,7 +30,7 @@ Este artigo descreve considerações sobre A Rede Telefônica Pública Comutado 
 
 [!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement.md)]
 
-Além disso, os artigos a seguir descrevem conceitos de atualização importantes e comportamentos de coexistência:
+Os artigos a seguir descrevem conceitos de atualização importantes e comportamentos de coexistência:
 
 - [Coexistência de Teams e Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Modos de coexistência - Referência](migration-interop-guidance-for-teams-with-skype.md)
@@ -51,36 +51,36 @@ Há quatro cenários de chamada possíveis ao se mover para o modo TeamsOnly:
 
 - [Um usuário no Skype for Business Online, com um Plano de Chamada da Microsoft.](#from-skype-for-business-online-with-microsoft-calling-plans) Após a atualização, esse usuário continuará a ter um plano de Chamada da Microsoft.
 
-- [Um usuário no Skype for Business Online,](#from-skype-for-business-online-with-on-premises-voice) com funcionalidade de voz local por meio Skype for Business local ou Cloud Connector Edition. A atualização do usuário para Teams precisa ser coordenada com a migração do usuário para Roteamento Direto para garantir que o usuário teamsOnly tenha funcionalidade PSTN.
+- [Um usuário no Skype for Business Online,](#from-skype-for-business-online-with-on-premises-voice) com funcionalidade de voz local por meio Skype for Business local ou Cloud Connector Edition. Para garantir que o usuário do TeamsOnly tenha funcionalidade PSTN, você deve coordenar a atualização do usuário para Teams com a migração do usuário para Roteamento Direto.
 
-- [Um usuário em Skype for Business](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)local com Enterprise Voice , que estará mudando para online e mantendo a conectividade PSTN local.  Migrar esse usuário para Teams requer mover a conta de Skype for Business local do usuário para a nuvem e coordenar essa movimentação com a migração do usuário para Roteamento Direto. 
+- [Um usuário em Skype for Business](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)local com Enterprise Voice , que estará mudando para online e mantendo a conectividade PSTN local.  Para migrar esse usuário para Teams, você deve mover a conta de Skype for Business local do usuário para a nuvem e coordenar essa movimentação com a migração do usuário para Roteamento Direto. 
 
-- [Um usuário em Skype for Business local](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)com Enterprise Voice , que estará mudando para online e usando um plano de Chamada da Microsoft.  Migrar esse usuário para Teams requer mover a conta de Skype for Business local do usuário para a nuvem e coordenar essa movimentação com A) a porta do número de telefone desse usuário para um Plano de Chamadas da Microsoft ou B) atribuindo um novo número de assinante de regiões disponíveis.
+- [Um usuário em Skype for Business local](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)com Enterprise Voice , que estará mudando para online e usando um plano de Chamada da Microsoft.  Para migrar esse usuário para Teams, você deve mover a conta local do usuário Skype for Business para a nuvem. Você deve coordenar a movimentação com A) a porta do número de telefone desse usuário para um Plano de Chamadas da Microsoft ou B) atribuindo um novo número de assinante de regiões disponíveis.
 
 Este artigo fornece apenas uma visão geral de alto nível. Para obter mais informações, [consulte Sistema de Telefonia Direct Routing](direct-routing-landing-page.md) and Calling [Plans](calling-plan-landing-page.md). 
 
 ## <a name="from-skype-for-business-online-with-microsoft-calling-plans"></a>Do Skype for Business Online com planos de chamada da Microsoft 
 
-Este é o cenário de atualização mais simples envolvendo voz. 
+Este cenário é o cenário de atualização mais simples envolvendo voz. 
 
-1. Certifique-se de que os usuários tenham sido atribuídos a Teams licença. Por padrão, quando você atribui uma Microsoft 365 ou uma Office 365, Teams está habilitada, portanto, a menos que você tenha desabilitado anteriormente a licença Teams, nenhuma ação deve ser necessária.
+1. Certifique-se de que os usuários tenham sido atribuídos a Teams licença. Por padrão, quando você atribui uma Microsoft 365 ou Office 365, Teams está habilitado. A menos que você tenha desabilitado Teams licença de Teams, nenhuma ação deve ser necessária.
 
-2.  Se os usuários já têm um Plano de Chamadas da Microsoft com um número de telefone, a única alteração necessária é atribuir o modo teamsOnly do usuário no TeamsUpgradePolicy.  Antes de atribuir o modo TeamsOnly, as chamadas PSTN de entrada chegarão no cliente Skype for Business usuário. Após a atualização para o modo TeamsOnly, as chamadas PSTN de entrada chegarão no cliente Teams usuário.  
+2.  Se os usuários já têm um Plano de Chamadas da Microsoft com um número de telefone, a única alteração necessária é atribuir o modo teamsOnly do usuário no TeamsUpgradePolicy. Antes de atribuir o modo TeamsOnly, as chamadas PSTN de entrada chegarão no cliente Skype for Business usuário. Após a atualização para o modo TeamsOnly, as chamadas PSTN de entrada chegarão no cliente Teams usuário.  
 
 ## <a name="from-skype-for-business-online-with-on-premises-voice"></a>Do Skype for Business Online com voz local
 
-Nesse cenário, o usuário já está no Skype for Business Online, mas sua conectividade PSTN é local, usando o Skype for Business Server no modo híbrido ou no Cloud Connector Edition. Migrar esses usuários para o modo TeamsOnly com a funcionalidade PSTN significa habilita-los para Roteamento Direto, no qual os troncos PSTN se conectam diretamente ao serviço de Roteamento Direto na nuvem, por meio do SBC (Controlador de Borda de Sessão) local.
+Nesse cenário, o usuário já está Skype for Business Online. A conectividade PSTN do usuário é local, usando Skype for Business Server modo híbrido ou Cloud Connector Edition. Para migrar esses usuários para o modo TeamsOnly com a funcionalidade PSTN, você deve habilitar os usuários para Roteamento Direto. Com o Roteamento Direto, os troncos PSTN se conectam diretamente ao serviço de Roteamento Direto por meio do SBC (Controlador de Borda de Sessão) local.
 
-As etapas básicas estão listadas abaixo.  As etapas 1-4 são listadas na sequência sugerida, mas podem ser feitas em qualquer ordem. A chave é que todas elas devem ser concluídas antes da Etapa 5.
+As etapas básicas estão listadas abaixo.  As etapas 1-4 são listadas na sequência sugerida, mas podem ser feitas em qualquer ordem. Essas etapas devem ser concluídas antes da Etapa 5.
 
-1. Se você estiver definindo a política de todo o locatário para um dos modos de Skype for Business, certifique-se de adfundar todos os usuários de Ilhas existentes atribuindo explicitamente o modo Ilhas, conforme descrito anteriormente.
+1. Se você estiver definindo a política de todo o locatário para um dos modos de Skype for Business, certifique-se de criar qualquer usuário de Ilhas existente atribuindo explicitamente o modo Ilhas, conforme descrito anteriormente.
 
 2. Configure seu locatário para Roteamento Direto. Consulte [Resumo da configuração por locatário do Roteamento Direto.](#summary-of-per-tenant-configuration-of-direct-routing)
 
-3. Se desejado, configure várias políticas Teams para esses usuários (por exemplo, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Isso pode ser feito a qualquer momento, mas se você quiser garantir que os usuários tenham a configuração correta quando eles são atualizados, é melhor fazer isso antes que o usuário seja atualizado para o modo TeamsOnly.
+3. Se desejado, configure várias políticas Teams para esses usuários (por exemplo, TeamsMessagingPolicy, TeamsMeetingPolicy e assim por diante). Você pode configurar as poicies a qualquer momento. No entanto, se você quiser garantir que os usuários tenham a configuração correta quando eles são atualizados, configure essas políticas antes que o usuário seja atualizado para o modo TeamsOnly.
 
 4. Preparar usuários selecionados para migração de voz: 
-   - Se necessário, atribua a Teams de usuário.  Supondo que o usuário já está funcional no Skype for Business online local, o usuário já tem Skype for Business Plano 2, bem como Telefone Microsoft Sistema. Deixe ambos os planos habilitados, incluindo a licença Skype for Business Plano 2 Online.  
+   - Se necessário, atribua a Teams de usuário.  Supondo que o usuário já está funcional no Skype for Business online local, o usuário já Skype for Business plano 2 e Telefone Microsoft Sistema. Deixe ambos os planos habilitados, incluindo a licença Skype for Business Plano 2 Online.  
    - Atribua o OnlineVoiceRoutingPolicy desejado. 
 
 5. Atualizar o usuário: essas etapas devem ser coordenadas. 
@@ -91,9 +91,9 @@ As etapas básicas estão listadas abaixo.  As etapas 1-4 são listadas na sequ�
 
 ## <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing"></a>De Skype for Business Server local, com Enterprise Voice, para Roteamento Direto
 
-Nesse cenário, o usuário ainda está Skype for Business local, e sua conectividade PSTN também é local. Migrar esses usuários para o modo TeamsOnly com a funcionalidade PSTN significa habilita-los para Roteamento Direto e, em seguida, mover o usuário para a nuvem. 
+Nesse cenário, o usuário ainda está Skype for Business local. A conectividade PSTN do usuário também é local. Para migrar esse usuário para o modo TeamsOnly com a funcionalidade PSTN, você deve habilitar o usuário para Roteamento Direto e, em seguida, mover o usuário para a nuvem. 
  
-As etapas básicas estão listadas abaixo.  As etapas 1-5 são listadas na sequência sugerida, mas podem ser feitas em qualquer ordem. A chave é que todas elas devem ser concluídas antes da Etapa 6.
+As etapas básicas estão listadas abaixo. As etapas 1-5 são listadas na sequência sugerida, mas podem ser feitas em qualquer ordem. Você deve concluir as Etapas 1-5 antes da Etapa 6.
 
 1. Se você estiver definindo a política de todo o locatário para um dos modos de Skype for Business, certifique-se de adoção de usuários de Ilhas existentes atribuindo explicitamente o modo Ilhas, conforme descrito anteriormente.
 
@@ -101,9 +101,9 @@ As etapas básicas estão listadas abaixo.  As etapas 1-5 são listadas na sequ�
 
 3. Configure seu locatário para Roteamento Direto. Consulte [Resumo da configuração por locatário do Roteamento Direto.](#summary-of-per-tenant-configuration-of-direct-routing)
 
-4. Se desejado, configure várias políticas Teams para esses usuários (por exemplo, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Isso pode ser feito a qualquer momento, mas se você quiser garantir que os usuários tenham a configuração correta quando eles são atualizados, é melhor fazer isso antes que o usuário seja atualizado para o TeamsOnly.
+4. Se desejado, configure várias políticas Teams para esses usuários (por exemplo, TeamsMessagingPolicy, TeamsMeetingPolicy). Você pode configurar políticas a qualquer momento. No entanto, se você quiser garantir que os usuários tenham a configuração correta quando eles são atualizados, configure essas políticas antes que o usuário seja atualizado para o TeamsOnly.
 
-5. Atribua as Microsoft 365 ou Office 365 licenças, se necessário.  O usuário deve ter o Teams e Skype for Business Online 2, bem como Sistema de Telefonia. Se o Skype for Business Plano Online 2 estiver desabilitado, reabilitar-o.  
+5. Atribua as Microsoft 365 ou Office 365 licenças, se necessário.  O usuário deve ter o Teams e Skype for Business Online 2 e Sistema de Telefonia. Se o Skype for Business Plano Online 2 estiver desabilitado, reabilitar-o.  
 
 6. Atualizar o usuário: essas etapas devem ser coordenadas. 
 
@@ -116,32 +116,32 @@ As etapas básicas estão listadas abaixo.  As etapas 1-5 são listadas na sequ�
 
 ## <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>Do Skype for Business Server local, com Enterprise Voice, ao Plano de Chamada da Microsoft
 
-Nesse cenário, o usuário ainda está Skype for Business local, e sua conectividade PSTN também é local. Migrar esses usuários para o modo TeamsOnly com a funcionalidade PSTN significa mover o usuário para a nuvem e portar seu número da operadora antiga para um plano de Chamada da Microsoft ou atribuir um novo número ao usuário. 
+Nesse cenário, o usuário ainda está Skype for Business local. A conectividade PSTN do usuário também é local. Para migrar esse usuário para o modo TeamsOnly com a funcionalidade PSTN, você deve mover o usuário para a nuvem e portar seu número da operadora antiga para um plano de Chamada da Microsoft ou atribuir um novo número ao usuário. 
 
-As etapas básicas estão listadas abaixo.As etapas 1-5 são listadas na sequência sugerida, mas podem ser feitas em qualquer ordem. A chave é que todas elas devem ser concluídas antes da Etapa 6. 
+As etapas básicas estão listadas abaixo.As etapas 1-5 são listadas na sequência sugerida, mas podem ser feitas em qualquer ordem. Você deve concluir as Etapas 1-5 antes da Etapa 6. 
 
 1. Se você estiver definindo a política de todo o locatário para um dos modos de Skype for Business, certifique-se de adoção de usuários de Ilhas existentes atribuindo explicitamente o modo Ilhas, conforme descrito anteriormente. 
 
 2. Se você ainda não tiver feito isso, configure a organização para Skype for Business [híbrida](/SkypeForBusiness/hybrid/configure-hybrid-connectivity). 
 
-3. Se desejado, configure várias políticas Teams para esses usuários (por exemplo, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Isso pode ser feito a qualquer momento, mas se você quiser garantir que os usuários tenham a configuração correta quando eles são atualizados, é melhor fazer isso antes que o usuário seja atualizado para o TeamsOnly. 
+3. Se desejado, configure várias políticas Teams para esses usuários (por exemplo, TeamsMessagingPolicy, TeamsMeetingPolicy e assim por diante). Você pode configurar políticas a qualquer momento. No entanto, se você quiser garantir que os usuários tenham a configuração correta quando eles são atualizados, configure essas políticas antes que o usuário seja atualizado para o TeamsOnly. 
 
-4. Atribua as Microsoft 365 ou Office 365 licenças, se necessário.O usuário deve ter o Teams e Skype for Business Online 2, bem como Sistema de Telefonia. Se o Skype for Business Plano Online 2 estiver desabilitado, reabilitar-o.  
+4. Atribua as Microsoft 365 ou Office 365 licenças, se necessário.O usuário deve ter o Teams e Skype for Business Online 2 e Sistema de Telefonia. Se o Skype for Business Plano Online 2 estiver desabilitado, reabilitar-o.  
 
 5. Obter números de telefone para seus usuários. (Para obter detalhes, [consulte Manage phone numbers for your organization](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).)
 
-   - Se você estiver re-usando os números, envie uma solicitação de portação para sua operadora.  
+   - Se você estiver reutilizando os números, envie uma solicitação de portação para sua operadora.  
    - Como alternativa, você pode adquirir novos números diretamente da Microsoft. 
 
 6. Atualize o usuário e, se necessário, atribua LineUri. Usando as ferramentas Skype for Business local, execute Move-CsUser com a opção -MoveToTeams.  
 
     - Se você estiver portando números para a Microsoft, deverá coordenar o momento em que essa operação ocorrerá quando a porta ocorrer. 
 
-    - Se você estiver usando novos números da Microsoft, precisará alterar o LineUri para o usuário. Isso deve ser feito depois que o usuário for movido online usando Set-CsOnlineVoiceUser.  
+    - Se você estiver usando novos números da Microsoft, precisará alterar o LineUri para o usuário depois que o usuário for movido online usando Set-CsPhoneNumberAssignment.  
 
 ## <a name="summary-of-per-tenant-configuration-of-direct-routing"></a>Resumo da configuração por locatário do Roteamento Direto 
 
-1. Verifique se o Controlador de Borda de Sessão (SBC) tem suporte com Roteamento Direto, revendo [esta lista](direct-routing-border-controllers.md). Você também deve garantir que tenha a versão correta do firmware.  
+1. Verifique se o Controlador de Borda de Sessão (SBC) tem suporte com Roteamento Direto, revendo [esta lista](direct-routing-border-controllers.md). Verifique também se você tem a versão correta do firmware.  
 
 2. Emparelhe seu SBC local com o serviço Teams roteamento direto. Para obter detalhes, [consulte Emparelhar o SBC ao serviço de Roteamento Direto de Sistema de Telefonia](direct-routing-configure.md). 
 
@@ -158,10 +158,10 @@ Seja usando Roteamento Direto ou um plano de Chamadas da Microsoft, um usuário 
 
 - Se o usuário estiver habilitado para EV no Skype for Business Server local e uma licença Sistema de Telefonia for atribuída ao usuário antes de mover o usuário para a nuvem com Move-CsUser, o usuário online será provisionado com EV-enabled=true. 
 
-- Se um usuário existente do TeamsOnly ou Skype for Business Online tiver uma licença de Sistema de Telefonia, a EV habilitada não será definida como true por padrão.  Esse também é o caso se um usuário local for movido para a nuvem antes de atribuir a licença Sistema de Telefonia local. Em ambos os casos, o administrador deve especificar o seguinte cmdlet: 
+- Se um usuário existente do TeamsOnly ou Skype for Business Online tiver uma licença de Sistema de Telefonia, a EV habilitada não será definida como true por padrão. Esse também é o caso se um usuário local for movido para a nuvem antes de atribuir a licença Sistema de Telefonia local. Em ambos os casos, o administrador deve especificar o seguinte cmdlet: 
 
   ```PowerShell
-  Set-CsUser -EnterpriseVoiceEnabled $True 
+  Set-CsPhoneNumberAssignment -EnterpriseVoiceEnabled $True 
   ```
 
 ## <a name="related-links"></a>Links relacionados
