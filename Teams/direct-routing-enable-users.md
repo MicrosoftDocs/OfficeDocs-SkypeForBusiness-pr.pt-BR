@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Saiba como habilitar os usuários Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: b6eb9bf0930b9b8f78d13deca95349afd78ec5af
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Saiba como habilitar os usuários para Microsoft Teams Telefone Roteamento Direto.
+ms.openlocfilehash: 1fc45484dfe2c0b78674f5a6631fd3f1001196dd
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627583"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180944"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuários para Roteamento Direto, voz e caixa postal
 
-Este artigo descreve como habilitar os usuários para Sistema de Telefonia Roteamento Direto.  Esta é a etapa 2 das seguintes etapas para configurar o Roteamento Direto:
+Este artigo descreve como habilitar usuários para Roteamento Direto. Esta é a etapa 2 das seguintes etapas para configurar o Roteamento Direto:
 
 - Etapa 1. [Conexão SBC com Telefone Microsoft System e validar a conexão](direct-routing-connect-the-sbc.md) 
 - **Etapa 2. Habilitar usuários para Roteamento Direto, voz e caixa postal**   (este artigo)
@@ -55,20 +55,20 @@ Para obter informações sobre os requisitos de licença, consulte [licenciament
 
 ## <a name="ensure-that-the-user-is-homed-online"></a>Verifique se o usuário está em casa online 
 
-Esta etapa é aplicável Skype for Business Server Enterprise Voice usuários habilitados que estão sendo migrados para Teams Roteamento Direto.
+Esta etapa se aplica a Skype for Business Server Enterprise Voice usuários habilitados que estão sendo migrados para Teams Roteamento Direto.
 
-O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar olhando para o parâmetro RegistrarPool, que precisa ter um valor no infra.lync.com domínio. Também é recomendável, mas não necessário, alterar o gerenciamento do LineURI de local para online ao migrar usuários para Teams Roteamento Direto. 
+O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar olhando para o parâmetro RegistrarPool, que precisa ter um valor no infra.lync.com domínio. A Microsoft recomenda, mas não exige, que você altere o LineURI de local para online ao migrar usuários para Teams Roteamento Direto. 
 
-1. Conexão uma sessão Skype for Business Do PowerShell Online.
+1. Conexão uma sessão Microsoft Teams PowerShell.
 
 2. Emitir o comando: 
 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    Caso OnPremLineUriManuallySet seja definido como False e LineUri for preenchido com um número de telefone do <E.164>, o número de telefone foi atribuído no local e sincronizado com o O365. Se você quiser gerenciar o número de telefone online, limpe o parâmetro usando o Shell de Gerenciamento local Skype for Business e sincronizar com o O365, antes de configurar o número de telefone usando o Skype for Business Online PowerShell. 
+    Se OnPremLineUriManuallySet estiver definido como False e LineUri for preenchido com um número de telefone do <E.164>, o número de telefone foi atribuído no local e sincronizado com Microsoft 365. Se você quiser gerenciar o número de telefone online, limpe o parâmetro usando o Shell de Gerenciamento local Skype for Business e sincronizar com o Microsoft 365 antes de configurar o número de telefone usando o Skype for Business Online PowerShell. 
 
-1. A partir Skype for Business Shell de Gerenciamento em questão o comando: 
+1. A partir Skype for Business Shell de Gerenciamento, emito o comando: 
 
    ```PowerShell
    Set-CsUser -Identity "<User name>" -LineUri $null
@@ -89,35 +89,35 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Configurar o número de telefone e habilitar a voz corporativa e a caixa postal online 
 
-Depois de ter criado o usuário e atribuído uma licença, a próxima etapa é configurar as configurações de telefone online do usuário. 
+Depois de criar o usuário e ter atribuído uma licença, você deve configurar as configurações de telefone online do usuário. 
 
  
-1. Conexão uma sessão Skype for Business Do PowerShell Online. 
+1. Conexão uma sessão Microsoft Teams PowerShell. 
 
 2. Se o gerenciamento do número de telefone do usuário no local, emito o comando: 
 
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
     ```
 3. Se o gerenciamento do número de telefone do usuário online, emito o comando: 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
     ```
     
     Por exemplo, para adicionar um número de telefone para o usuário "Spencer Low", digite o seguinte: 
 
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
     ```
     Se os usuários "Spencer Low" e "Stacy Quinn" compartilharem o mesmo número base com extensões exclusivas, insira o seguinte
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
+    Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
     ```
 
-    É recomendável, mas não obrigatório, que o número de telefone usado seja configurado como um número de telefone E.164 completo com código de país. Há suporte para configurar números de telefone com extensões que serão usadas para procurar usuários quando a pesquisa em relação ao número base retornar mais de um resultado. Isso permite que as empresas configurem números de telefone com o mesmo número base e extensões exclusivas. Para que a pesquisa seja bem-sucedida, o convite deve incluir o número completo com extensão da seguinte forma:
+    A Microsoft recomenda, mas não exige, que o número de telefone seja configurado como um número de telefone E.164 completo com código de país. Você pode configurar números de telefone com extensões. Essas extensões serão usadas para procurar usuários quando a pesquisa em relação ao número base retornar mais de um resultado. Essa funcionalidade permite que as empresas configurem números de telefone com o mesmo número base e extensões exclusivas. Para que a pesquisa seja bem-sucedida, o convite deve incluir o número completo com extensão da seguinte forma:
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
@@ -128,7 +128,7 @@ Depois de ter criado o usuário e atribuído uma licença, a próxima etapa é c
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>Configurar o envio de chamadas diretamente para a caixa postal
 
-O Roteamento Direto permite que você termine a chamada para um usuário e envie-a diretamente para a caixa postal do usuário. Se você quiser enviar a chamada diretamente para a caixa postal, anexe opaque=app:voicemail ao header request URI. Por exemplo, "sip:user@yourdomain.com;opaque=app:voicemail". Nesse caso, o Teams usuário não receberá a notificação de chamada, a chamada será conectada diretamente à caixa postal do usuário.
+O Roteamento Direto permite que você termine a chamada para um usuário e envie-a diretamente para a caixa postal do usuário. Se você quiser enviar a chamada diretamente para a caixa postal, anexe opaque=app:voicemail ao header request URI. Por exemplo, "sip:user@yourdomain.com;opaque=app:voicemail". O Teams usuário não receberá a notificação de chamada, a chamada será conectada diretamente à caixa postal do usuário.
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Atribuir Teams modo Somente aos usuários para garantir que as chamadas aterrisem Microsoft Teams
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar Microsoft Teams Sistema de Telefonia para sua empresa. '
-ms.openlocfilehash: f396d8fc3dd1e26a2969b825c360054db91071fa
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 1643e0fe9bd877f627ec186e405bb155635f9f74
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015251"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180934"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Veja o que você obter com Teams Telefone
 
@@ -40,7 +40,7 @@ Os clientes estão disponíveis para PC, Mac e dispositivos móveis, que fornece
 
 Para usar Teams Telefone recursos, sua organização deve ter uma Sistema de Telefonia de usuário. Para obter mais informações sobre licenciamento, confira [Licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Esteja ciente de que a maioria dos recursos exige que você atribua a Sistema de Telefonia e verifique se os usuários estão "habilitados para voz". Para atribuir a licença, use o [cmdlet Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) e de definir o parâmetro **enterprisevoiceenabled** como $true. Alguns recursos, como o atendimento automático na nuvem, não exigem que um usuário seja habilitado para voz. Exceções são chamadas na tabela abaixo.
+Esteja ciente de que a maioria dos recursos exige que você atribua a Sistema de Telefonia e verifique se os usuários estão "habilitados para voz". Para atribuir a licença, use o [cmdlet Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) e desmarque o parâmetro **EnterpriseVoiceEnabled** como $true. Alguns recursos, como o atendimento automático na nuvem, não exigem que um usuário seja habilitado para voz. Exceções são chamadas na tabela abaixo.
   
 ## <a name="teams-phone-features"></a>Teams Telefone recursos
 
