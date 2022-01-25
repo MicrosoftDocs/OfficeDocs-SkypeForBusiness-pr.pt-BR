@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 52347a620d6f441bfff68764d053a0adf71427b1
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055422"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191102"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -79,7 +79,7 @@ Ative esse recurso para que os usuários possam enviar emails para um canal no M
 
 Aqui você pode ativar ou desativar as opções de compartilhamento de arquivos e armazenamento em nuvem.
 
-Os usuários podem carregar e compartilhar arquivos de serviços de armazenamento em nuvem nos canais e chats do Microsoft Teams. No momento, as opções de armazenamento em nuvem do Microsoft Teams incluem, Dropbox, Box, ShareFile, Google Drive e Egnyte. Ative a opção para os provedores de armazenamento em nuvem que sua organização deseja usar.
+Os usuários podem carregar e compartilhar arquivos de serviços de armazenamento em nuvem nos canais e chats do Microsoft Teams. As opções de armazenamento em nuvem no Teams atualmente incluem o Dropbox, Box, Citrix Files, Google Drive e Egnyte. Ative a opção para os provedores de armazenamento em nuvem que sua organização deseja usar.
 
 #### <a name="organization"></a>Organização
 
