@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c6e50d92dfb296bcf67402cdbd14a65fba490125
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: ec708d310ea72ac56b5f6ad6bb65a4ab436915f6
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180924"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192372"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -86,3 +86,4 @@ Antes de poder pesquisar o log de auditoria, você precisa ativar a auditoria no
 
 - [Ajuda de turnos para trabalhadores de linha de frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Atribuir políticas aos usuários no Microsoft Teams](../../policy-assignment-overview.md)
+- [Conectores de turnos](shifts-connectors.md)

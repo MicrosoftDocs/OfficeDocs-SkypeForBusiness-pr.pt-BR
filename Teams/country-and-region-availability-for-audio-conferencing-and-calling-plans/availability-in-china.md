@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Microsoft Teams disponíveis para a China.
-ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: a08cb9c6b391ced7a9c3631d42a3fd7da9b544a0
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733682"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191212"
 ---
 # <a name="availability-in-china"></a>Disponibilidade na China
 
@@ -63,7 +63,7 @@ Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Micr
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
+Se Planos de Chamada não estão disponíveis para compra, consulte Opções de conectividade [PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 

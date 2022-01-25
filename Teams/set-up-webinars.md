@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Saiba como gerenciar políticas do Webinar para Teams reuniões.
-ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205551"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192182"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Preparar-se para webinars no Microsoft Teams
 
@@ -59,7 +59,7 @@ Se você selecionar **Todos**, todos os usuários, incluindo usuários anônimos
 
 ### <a name="engagement-report"></a>Relatório de envolvimento
 
-Se você ativar isso, os organizadores poderão ver relatórios de quem registrou e participou dos webinars que eles configuraram. Essa política está desligada por padrão. Para obter mais informações, consulte [Políticas de reunião no Teams - Relatório de envolvimento.](meeting-policies-in-teams-general.md#engagement-report) Para obter informações sobre a experiência do usuário final, consulte [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
+Quando isso estiver em uso, os organizadores poderão ver relatórios de quem registrou e participou dos webinars que eles configuraram. Essa política está em uso por padrão. Para obter mais informações, consulte [Políticas de reunião no Teams - Relatório de envolvimento.](meeting-policies-in-teams-general.md#engagement-report) Para obter informações sobre a experiência do usuário final, consulte [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Permitir que os usuários agendem webinars usando o PowerShell
 
@@ -112,10 +112,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### <a name="collect-meeting-attendance"></a>Coletar participação na reunião
 
-Se você quiser que os organizadores analisem quem registrou e participou de webinars, você precisará ativar a **política EngagementReport.** Para fazer isso, execute o seguinte comando no PowerShell.
+O **parâmetro AllowEngagementReport** permite ver quem registrou e participou de webinars. Por padrão, essa política está 100%. Para desativar, execute o seguinte comando no PowerShell:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -EngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## <a name="configure-webinar-settings"></a>Configurar configurações do webinar

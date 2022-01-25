@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações gerais de política de reunião Teams.
-ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562869"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191472"
 ---
 # <a name="meeting-policy-settings---general"></a>Configurações de política de reunião - Geral
 
@@ -59,7 +59,7 @@ Se você desativar isso, os usuários não poderão agendar Teams reuniões quan
 
 ## <a name="channel-meeting-scheduling"></a>Agendamento de reunião do canal
 
-Use a política existente AllowChannelMeetingScheduling para controlar os tipos de eventos que podem ser criados nos calendários do canal de equipe. Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se os usuários podem agendar uma reunião em um canal do Teams. Por padrão, essa configuração é ativada. 
+Use a política existente AllowChannelMeetingScheduling para controlar os tipos de eventos que podem ser criados nos calendários do canal de equipe. Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se os usuários podem agendar uma reunião em um canal do Teams. Por padrão, essa configuração é ativada.
 
 Se essa política estiver desligada, os usuários não poderão criar novas reuniões de canal. No entanto, as reuniões existentes no canal podem ser editadas pelo organizador do evento.
 
@@ -124,19 +124,18 @@ Lembre-se de que, depois de definir o valor padrão, os organizadores de reuniã
 
 Essa é uma política por usuário. Essa configuração controla se o organizador da reunião pode baixar o relatório de participação da [Reunião](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Essa política está desligada por padrão e permite que seus organizadores vejam quem registrou e participou das reuniões e webinars que eles configuraram. Para ativar isso no centro de administração Teams, vá para Políticas de Reunião de Reuniões e de definir a configuração do relatório de  >   **envolvimento** **como Habilitado**.
+Essa política está em uso por padrão e permite que seus organizadores vejam quem registrou e participou das reuniões e webinars que eles configuraram. Para desabilitá-lo no centro de administração Teams, vá para **Políticas** de Reunião de Reuniões e de definir a configuração do relatório  >  de **envolvimento** como **Off**.
 
 Você também pode editar uma política de Teams de reunião existente usando o cmdlet [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy) Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
 
-Para permitir que um organizador da reunião baixe o relatório de participação da reunião, de definir o **parâmetro AllowEngagementReport** **como Habilitado**. Quando habilitada, a opção para baixar o relatório é exibida no painel **Participantes**. Por padrão, essa configuração não está habilitada.
+Por padrão, o **parâmetro AllowEngagementReport** é definido **como Habilitado** no PowerShell. Para impedir que um organizador de reunião baixe o relatório de participação na reunião, de definir o **parâmetro AllowEngagementReport** como **Disabled**.
 
-Para impedir que o organizador da reunião baixe o relatório, defina o parâmetro como **Desabilitado**.
+Quando essa política é habilitada, a opção de baixar o relatório de participação da reunião é exibida no painel **Participantes.**
 
 > [!NOTE]
 > Como administrador, você não pode exibir o relatório de participação para reuniões que não organiza. No entanto, você pode exibir os detalhes dos participantes para uma determinada reunião dentro de 24 horas após essa reunião. No centro Teams de administração, vá para **Usuários**  >  **Gerenciar usuários**. Escolha o nome de exibição para o organizador da reunião. Selecione a **guia Reuniões & chamadas** e escolha a ID de reunião apropriada ou a ID de chamada. Em seguida, selecione **Detalhes do participante**.
 
 Para obter mais informações, incluindo os limites do relatório de envolvimento, consulte exibindo e [baixando relatórios](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)de participação da reunião em Teams .
-
 
 ## <a name="meeting-registration"></a>Registro de reunião
 

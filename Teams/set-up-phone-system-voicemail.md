@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar o Caixa postal na Nuvem para seus usuários.
-ms.openlocfilehash: f448ba79c2451383c0ca85916309bdfab3b69a96
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: cf4edb7043c3d9965f2f01710f1ed9e7fa7f96b8
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462365"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191072"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a Caixa postal na nuvem
 
-Este artigo é para o administrador Microsoft 365 ou Office 365 conforme descrito em [Sobre](/microsoft-365/admin/add-users/about-admin-roles) funções de administrador que deseja configurar o recurso Caixa postal na Nuvem para todos na empresa. Caixa postal na Nuvem requer Exchange caixas de correio para usuários onde ele deposita mensagens de caixa postal. Ele não dá suporte a sistemas de email de terceiros.
+Este artigo é para o administrador Microsoft 365 ou Office 365 conforme descrito em [Sobre](/microsoft-365/admin/add-users/about-admin-roles) funções de administrador que deseja configurar o recurso Caixa postal na Nuvem para todos na empresa. Caixa postal na Nuvem requer Exchange caixas de correio para usuários onde ele deposita mensagens de caixa postal. Ele não dá suporte a sistemas de email de terceiros. Para Exchange Online requisitos de licenciamento, consulte [Exchange Online descrição do serviço](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans)
 
 ## <a name="cloud-voicemail-for-teams-users"></a>Caixa postal na Nuvem para Teams usuários
 

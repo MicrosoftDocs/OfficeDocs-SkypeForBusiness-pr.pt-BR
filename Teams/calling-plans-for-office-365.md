@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 02283da362baf520ab0c3d28d809dfee39c9b378
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367523"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190672"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Planos de chamada para Microsoft 365
 
@@ -67,14 +67,12 @@ Para obter informações detalhadas sobre os limites de uso e os termos de uso, 
     > Dependendo do seu plano, talvez seja necessário comprar mais complementos antes de comprar Sistema de Telefonia licenças. Para saber mais, consulte [Microsoft Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 2. Depois de comprar Sistema de Telefonia licenças, você pode comprar o Plano de Chamada ao entrar no **Centro de administração do Microsoft 365,** escolher  >    >  **Assinaturas** de complemento de serviços de Compra de Cobrança e clicar em **Comprar agora**. Você verá os Planos de Chamada lá.
-    
-    ![Captura de tela mostrando opções de plano de chamada de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
-  
+      
 Você pode comprar e atribuir planos de chamada diferentes a diferentes usuários, dependendo das necessidades da sua organização. Depois de selecionar o Plano de Chamada de que você precisa, prossiga para o check-out. Você atribui um plano a cada usuário no Centro de administração do Microsoft 365. Para saber como, confira [Atribuir Microsoft Teams licenças de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Você tem um provedor de serviços que fornece conectividade PSTN local para usuários híbridos?
 
-Em caso afirmado, você não precisa comprar um Plano de Chamada. Office 365 Enterprise O E5 inclui o **Sistema de Telefonia** complemento, para que você possa prosseguir para o check-out.
+Em caso afirmado, você não precisa comprar um Plano de Chamada. Office 365 Enterprise E5 inclui o **Sistema de Telefonia** complemento, para que você possa prosseguir para check-out.
   
 Em seguida, atribua as Enterprise E5 **ou Sistema de Telefonia** de complemento aos usuários no Centro de administração do Microsoft 365. Para saber como, confira [Atribuir Microsoft Teams licenças de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

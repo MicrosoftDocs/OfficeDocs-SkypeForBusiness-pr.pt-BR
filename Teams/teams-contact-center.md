@@ -13,12 +13,12 @@ f1.keywords:
 description: Uma visão geral da solução de centro de contato integrado como serviço (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eea312f8943e05b870f7e72409e551869c950c4e
-ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
+ms.openlocfilehash: 52abf252d82b8208a0474d2393bd6d3938eaacb7
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864201"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192162"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações de contact center para Microsoft Teams
 
@@ -70,6 +70,7 @@ Os provedores a seguir oferecem soluções de contact center integradas Teams us
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
+| 'Heedify' | https://heedify.io/call-center/                                                 |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |

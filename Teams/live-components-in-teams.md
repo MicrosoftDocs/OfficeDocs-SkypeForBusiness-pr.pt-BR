@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c05888191c98e2b7fe11637ad8fe5ba8a8c1132
-ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
+ms.openlocfilehash: b54ccf83aadcec724d8e54a791770578ef147bbd
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60911855"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191852"
 ---
 # <a name="manage-live-components-in-teams"></a>Gerenciar componentes em tempo Teams
 
@@ -98,9 +98,9 @@ PS C:\\WINDOWS\\system32&gt;
 
 - Os componentes ao vivo são desabilitados em chats federados.
 
-- Os convidados B2B não poderão colaborar no componente ao vivo compartilhado com eles por meio do Company Share Link, a menos que o locatário desempate a opção de acesso externo para permitir que os convidados B2B tenham o mesmo nível de acesso que os membros do locatário.
+- Os convidados B2B não poderão colaborar em um componente ao vivo compartilhado com eles por meio do Link de Compartilhamento da Empresa, a menos que o locatário desempate uma opção de acesso externo para permitir que os convidados B2B tenham o mesmo nível de acesso que os membros do locatário. Para obter mais informações, consulte [Configure B2B external collaboration settings](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
 
-- Teams O suporte completo do cliente Web de componentes Live estará disponível em breve.
+- Teams suporte completo do cliente Web de componentes Live estará disponível em breve.
 
 - Os componentes ao vivo ainda não são suportados Teams canais, mas a edição em linha nos canais é planejada para mais experiências no futuro.
 

@@ -21,12 +21,12 @@ description: Saiba como usar e gerenciar políticas de roteamento de chamadas de
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 582036d6168a235744b092f7f11bfd34442f5221
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: f04204377f4b90f5a96143e579863f4acdbf3989
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634910"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190892"
 ---
 # <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Gerenciar políticas de roteamento de chamadas de emergência para Roteamento Direto
 
@@ -50,7 +50,7 @@ Se você atribuiu uma política de roteamento de chamadas de emergência a um si
 3. Insira um nome e uma descrição para a política.
 4. Para habilitar a chamada de emergência dinâmica, ative **a chamada de emergência dinâmica.** Quando a chamada de emergência dinâmica é habilitada, Teams recupera informações de política e local do serviço e inclui essas informações como parte da chamada de emergência.
 5. Defina um ou mais números de emergência. Para fazer isso, em **Números de emergência,** clique em **Adicionar** e faça o seguinte:
-    1. **Cadeia de caracteres de discagem** de emergência : Insira a cadeia de caracteres de discagem de emergência. Essa cadeia de caracteres de discagem indica que uma chamada é uma chamada de emergência.
+    1. **Cadeia de caracteres de discagem** de emergência : Insira a cadeia de caracteres de discagem de emergência. Essa cadeia de caracteres de discagem indica que uma chamada é uma chamada de emergência e o padrão de rota deve corresponder exatamente a essa cadeia de caracteres de discagem. 
         > [!NOTE]
         > **Para Roteamento Direto, Teams clientes não enviam mais chamadas de emergência com um "+" na frente da cadeia de caracteres de discagem de emergência. Certifique-se de que o padrão de rota de voz para corresponder a uma cadeia de caracteres de discagem de emergência reflita essa alteração.**
     2. **Máscara de discagem de** emergência : Para cada número de emergência, você pode especificar zero ou mais máscaras de discagem de emergência. Uma máscara de discagem é o número que você deseja converter no valor da cadeia de caracteres de discagem de emergência. Isso permite que números de emergência alternativos sejam discados e ainda tenham a chamada para alcançar os serviços de emergência. <br>Por exemplo, você adiciona 112 como máscara de discagem de emergência, que é o número de serviço de emergência para a maioria da Europa e 911 como a cadeia de caracteres de discagem de emergência. Um Teams da Europa que está visitando pode não saber que o 911 é o número de emergência nos Estados Unidos e, quando ele disca 112, a chamada é feita para 911. Para definir várias máscaras de discagem, separe cada valor por ponto e vírgula. Por exemplo, 112;212.
