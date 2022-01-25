@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 19f84d3b6ea6e290012acd0d41e167b95d901796
-ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
+ms.openlocfilehash: 6ec4bfe81d3dfbcee8cbd6d8682360e2a31c17e4
+ms.sourcegitcommit: e0e3c83cea2662057ee2f3f2a429c7831c3d917a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61426073"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62213500"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 
 |Versão |Publicado para <br/> Microsoft Store |
 |--- |--- |
+|4.11.12.0 |1/24/2022 |
 |Teams Web-Client versão | Dezembro de 2021 |
 |Teams Web-Client versão | Outubro de 2021 |
 |4.10.10.0 |10/1/2021 |
@@ -77,6 +78,26 @@ Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas do Microsoft Teams introdução de recursos e resolução de problemas
+
+### <a name="411120-1242022"></a>4.11.12.0 (1/24/2022)
+
+Introduzido nesta atualização:
+- Layout da Linha de Frente (Visualização) para MTR Windows<sup>1</sup> 
+- Configuração de administrador para definir o layout da linha de frente como padrão  
+- Atender Agora e chamar a atualização do aplicativo Teams somente para Teams de cliente padrão<sup>1,2</sup>
+- Alternar entre várias câmeras de vídeo Teams reuniões<sup>1</sup> 
+- Configuração padrão da câmera de vídeo 
+- Cortana atualização do ícone push-to-talk no console MTR 
+- Azure AD Premium 1 inclusão de licença no Room Standard e Premium SKUs 
+- AAD políticas de acesso condicional<sup>suportam 3</sup> 
+- Cortana de voz habilitada por padrão no OOBE 
+
+> <sup>1</sup> Esses recursos estão sendo Teams cliente Web e concluirão a implantação nas próximas duas semanas. Leia mais sobre [Teams para](../teams-client-update.md) obter detalhes.
+> 
+> <sup>2</sup> Teams salas em Windows em execução somente no Microsoft Teams ou Skype for Business e Microsoft Teams (padrão) são atualizadas com novas experiências de Meet e Call, no entanto, outros modos não são afetados por essa atualização.
+> 
+> <sup>3</sup> Consulte detalhes de adição sobre [como configurar AAD políticas de acesso](../rooms/rooms-authentication.md#azure-ad-conditional-access) condicional para Salas do Teams.
+> 
 
 ### <a name="teams-rooms-web-client-update-december-2021"></a>Salas do Teams atualização do cliente Web (dezembro de 2021)
 
