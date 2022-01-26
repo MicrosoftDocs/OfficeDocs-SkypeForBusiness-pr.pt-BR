@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Saiba como gerenciar políticas do Webinar para Teams reuniões.
-ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 5536a6c03df15be349edea7d980932b5fc0173ab
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192182"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62223998"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Preparar-se para webinars no Microsoft Teams
 
@@ -65,9 +65,9 @@ Quando isso estiver em uso, os organizadores poderão ver relatórios de quem re
 
 Você pode usar os seguintes atributos no cmdlet **set-CsTeamsMeetingPolicy Windows PowerShell set-CsTeamsMeetingPolicy** para configurar para webinars Teams.
 
-- MeetingRegistration
+- AllowMeetingRegistration
 - WhoCanRegister
-- PrivateMeetingScheduling
+- AllowPrivateMeetingScheduling
 
 Leia [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para obter mais informações sobre o cmdlet.
 
@@ -76,21 +76,21 @@ Leia [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 
 ### <a name="allow-users-to-schedule-webinars"></a>Permitir que os usuários agendem webinars
 
-Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos** para a política **Global (padrão em toda** a organização). Se você quiser desativar o registro de reunião, de definir **MeetingRegistration** como **False**.
+Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos** para a política **Global (padrão em toda** a organização). Se você quiser desativar o registro de reunião, de definir **AllowMeetingRegistration** como **False**.
 
 > [!IMPORTANT]
-> **PrivateMeetingScheduling** deve ser definido como **True** para **MeetingRegistration** funcionar.
+> **AllowPrivateMeetingScheduling** deve ser definido como **True** para **AllowMeetingRegistration** funcionar.
 
 1. Ativar o registro de reunião
 
 ```powershell
-Set-CsTeamsMeetingPolicy -MeetingRegistration $True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 
 2. Ativar o agendamento de reuniões privadas
 
 ```powershell
-Set-CsTeamsMeetingPolicy -PrivateMeetingScheduling $True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 3. Configurar quem pode se registrar para webinars
