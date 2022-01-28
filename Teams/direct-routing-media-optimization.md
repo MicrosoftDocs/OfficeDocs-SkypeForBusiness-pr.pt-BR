@@ -16,12 +16,12 @@ f1.keywords:
 description: Otimização de mídia local para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e30b5928fb775453db9a4b149f4f464b30401a80
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: 73c52cbfc632c61b281ec156ebfe8439a8900f06
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866393"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248672"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planejar otimização de mídia local para roteamento direto
 
@@ -264,7 +264,7 @@ Diagrama 6.  Fluxo de tráfego com o modo "Sempre Ignorar" e o usuário não est
 
 Se houver conexões ruins entre filiais locais, mas boas conexões entre cada filial local e escritório regional, o modo recomendado será "Somente para usuários locais".
 
-Por exemplo, na região do APAC, suponha que a Contoso tenha vários escritórios em diferentes países. Para muitos países, a mudança para SIP não é possível porque a empresa ainda tem troncos TDM em muitas filiais locais. A centralização dos troncos TDM não é uma opção na região do APAC. Além disso, há mais de 50 filiais contoso na região do APAC com centenas de gateways (SBCs). 
+Por exemplo, na região do APAC, suponha que a Contoso tenha vários escritórios em diferentes países. Para muitos países, a mudança para SIP não é possível porque a empresa ainda tem troncos TDM em muitas filiais locais. A centralização dos troncos TDM não é uma opção na região do APAC. Além disso, há mais de 50 filiais contoso em toda a região do APAC com centenas de gateways (SBCs). 
 
 Para criar uma solução em que os serviços PSTN são fornecidos em todas as filiais locais na região do APAC, onde a centralização dos troncos TDM não é uma opção, o administrador da Contoso emparelha um SBC regional em Cingapura como o SBC proxy para o serviço de Roteamento Direto. A conexão direta entre as filiais locais não é boa, mas há uma boa conexão entre cada filial local e o SBC regional em Cingapura. Para o SBC regional, o administrador escolhe o modo 'Sempre Ignorar' e, para os SBCs de downstream locais, o administrador escolhe o modo "Somente para usuários locais".
 
@@ -309,7 +309,7 @@ Tabela 6. Configuração do usuário
 
 | Local físico do usuário | O usuário faz uma chamada para um número | Política de Roteamento de Voz Online | Modo configurado para SBC | Mídia Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Indonésia | +84 4 3926 3000 | Prioridade 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Prioridade 2: .* - proxysbc.contoso.com |VNsbc.contoso.com – Somente para usuários locais <br> proxysbc.contoso.com – Sempre Ignorar | Teams User <-> proxysbc.contoso.com <-> VNsbc.contoso.com |
+| Indonésia | +84 4 3926 3000 | Prioridade 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Prioridade 2: .* - proxysbc.contoso.com |VNsbc.contoso.com – Somente para usuários locais <br> proxysbc.contoso.com – Sempre Ignorar | Teams Usuário <-> proxysbc.contoso.com <-> VNsbc.contoso.com |
 
 
 No diagrama a seguir, o usuário interno, enquanto estiver no escritório da filial indonésia, faz uma chamada telefônica de Roteamento Direto por Teams para um número no Vietnã. 
@@ -341,3 +341,4 @@ Veja a seguir uma lista de problemas conhecidos que estão atualmente presentes 
 | Escalonamentos de chamadas de 1 a 1 entre clientes internos para chamadas de várias partes com cliente/recurso externo resultam em chamadas inoadas | Trabalhe em andamento em uma correção. Como alternativa, desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
 | Teams usuário coloca a chamada em espera. A música é reproduzida no final da PSTN e a Otimização de Mídia Local está funcionando. O Teams usuário retoma a chamada. A chamada para PSTN é retomada, mas a Otimização de Mídia Local não está funcionando e a chamada continua via SBC Central (Proxy) | Quando um usuário estaciona uma chamada para iniciar a música em espera (MoH), ela está sendo escalonada de 1:1 para uma chamada multipartidária pelo Controlador de Chamada para invocar o Controlador de Mídia e o Processador de Mídia (servindo como misturador AVMCU) por meio do qual o MoH atinge um usuário que foi colocado em espera. O escalonamento para uma chamada 1:1 depois que a chamada é retomada nunca acontece de acordo com o design. Desabilite a Otimização de Mídia Local no SBC de Roteamento Direto.|
 |Enquanto uma chamada está sendo estabelecida por alguns segundos, o usuário pode ouvir o silêncio.| Devido à complexidade da arquitetura de Otimização de Mídia Local, isso pode ocorrer em alguns casos.|
+|Aplicativos de voz (por exemplo, Atendedor Automático, Fila de Chamadas) não funcionam.| O LMO não dá suporte a Aplicativos de Voz, pois eles residem na nuvem e exigem conectividade externa. Nenhuma solução alternativa por enquanto.|

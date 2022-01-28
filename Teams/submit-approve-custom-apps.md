@@ -1,7 +1,7 @@
 ---
 title: Usar a API Teams envio de aplicativos para enviar e aprovar seus aplicativos personalizados
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -17,16 +17,16 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como aprovar seus aplicativos personalizados enviados usando a API Teams envio de aplicativos em Microsoft Teams.
-ms.openlocfilehash: d0a49ffa07ec7b3a506d99d32c5fee1b43308af4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 41a6fe61269159da7af32ac8d0392752ffdf087d
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848154"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248702"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado por meio da API Teams envio de aplicativos
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 > [!NOTE]
 > Quando você publica um aplicativo Teams personalizado, ele está disponível para usuários na loja de aplicativos da sua organização. Há duas maneiras de publicar um aplicativo personalizado e a maneira como você usa depende de como você obter o aplicativo. **Este artigo se concentra em como aprovar** e publicar um aplicativo personalizado que um desenvolvedor envia por meio da API Teams envio de aplicativos. O outro método, carregando um aplicativo personalizado, é usado quando um desenvolvedor envia um pacote de aplicativos .zip formato. Para saber mais sobre esse método, consulte <a href="/microsoftteams/upload-custom-apps" target="_blank">Publicar um aplicativo personalizado carregando um pacote de aplicativos</a>. O widget aprovar aplicativo não está disponível em GCC locatários. 
@@ -68,7 +68,7 @@ A <a href="/microsoftteams/manage-apps" target="_blank">página Gerenciar aplica
 
 Na tabela, um aplicativo recém-enviado mostra automaticamente um **status de** publicação de **Submitted** e **Status** de **Bloqueado**. Você pode classificar a **coluna de status de** publicação em ordem decrescente para encontrar rapidamente o aplicativo.
 
-![status de publicação .](media/custom-app-lifecycle-validate-app.png)
+![status de publicação.](media/custom-app-lifecycle-validate-app.png)
 
 Clique no nome do aplicativo para ir até a página de detalhes do aplicativo. Na guia **Sobre,** você pode exibir detalhes sobre o aplicativo, incluindo descrição, status, envio e ID do aplicativo.
 
@@ -83,7 +83,9 @@ Quando você estiver pronto para disponibilizar o aplicativo aos usuários, publ
 1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Clique no nome do aplicativo para ir para a página de detalhes do aplicativo e, na caixa **Status** de Publicação, selecione **Publicar**.
 
-    Depois de publicar o aplicativo, o **status de** publicação muda para **Publicado** e **o Status** muda automaticamente para **Permitido**.
+    ![Botão Publicar na página de detalhes do aplicativo.](media/submitted-app-pending-action.png)
+
+Depois de publicar o aplicativo, o **status de** publicação muda para **Publicado** e **o Status** muda automaticamente para **Permitido**.
 
 ## <a name="set-up-and-manage"></a>Configurar e gerenciar
 
@@ -105,7 +107,7 @@ Para examinar o log de auditoria, você precisa ativar a auditoria no <a href="h
 
 Os usuários que têm permissões para o aplicativo podem encontrá-lo na loja de aplicativos da sua organização. Vá para **Built for Your Organization *Name*** na página Aplicativos para encontrar os aplicativos personalizados da sua organização.
 
-![Página Aplicativos mostrando o aplicativo publicado .](media/custom-app-lifecycle-discovery.png)
+![Página Aplicativos mostrando aplicativo publicado.](media/custom-app-lifecycle-discovery.png)
 
 Se você criou e atribuiu uma política de configuração de aplicativo, o aplicativo será fixado na barra de aplicativos Teams acesso fácil para os usuários que foram atribuídos à política.
 

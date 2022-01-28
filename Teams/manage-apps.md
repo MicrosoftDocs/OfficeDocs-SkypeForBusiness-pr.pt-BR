@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos Teams na página Gerenciar ap
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: ec9caa743f9a8cd5bf43d7b6e67f83d15ee2a045
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: cb97ec9ca1e3e9a612038f22dd04d91d8df9a71f
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039904"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248692"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no Microsoft Teams de administração
 
@@ -43,6 +43,8 @@ A página Gerenciar aplicativos oferece uma exibição em todos os aplicativos d
 
 Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**. Você deve ser um administrador global ou Teams de serviço para acessar a página.
 
+![Captura de tela da página Aplicativos gerenciados.](media/manage-apps.png)
+
 > [!NOTE]
 > A página Gerenciar aplicativos ainda não está disponível Microsoft 365 Nuvem da Comunidade Governamental implantações high (GCCH) ou Department of Defense (DoD) de Teams.
 
@@ -50,12 +52,9 @@ Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá 
 
 Você pode exibir todos os aplicativos, incluindo as informações a seguir sobre cada aplicativo.
 
-![Captura de tela da página Aplicativos gerenciados.](media/manage-apps.png)
+![Captura de tela da página de detalhes de aplicativos para um aplicativo.](media/app-detail-page.jpg)
 
-- **Nome**: o nome do aplicativo. Selecione o nome do aplicativo para ir até a página de detalhes do aplicativo para ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, se ele é permitido ou bloqueado, versão, política de privacidade, termos de uso, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo. Veja um exemplo:
-
-  ![Captura de tela da página de detalhes de aplicativos para um aplicativo.](media/manage-apps-app-details.png)
-  
+- **Nome**: o nome do aplicativo. Selecione o nome do aplicativo para ir até a página de detalhes do aplicativo para ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, se ele é permitido ou bloqueado, versão, política de privacidade, termos de uso, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo.
 - **Certificação**: se o aplicativo passou pela certificação, você verá Microsoft 365 **certificado** ou Publisher **atestado**. Selecione o link para exibir detalhes de certificação do aplicativo. Se você vir " **--** ", não temos informações de certificação para o aplicativo. Para saber mais sobre aplicativos certificados Teams, [leia Microsoft 365 Programa de Certificação de Aplicativos.](/teams-app-certification/all-apps)  
 - **Publisher:** nome do editor.
 - **Status de publicação**: Status de publicação de aplicativos personalizados.
@@ -66,13 +65,13 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
     - **Toda a organização bloqueada:** o aplicativo é bloqueado em configurações de aplicativo em toda a organização.
       É importante saber que essa coluna representa o status permitido e bloqueado dos **aplicativos** que anteriormente estavam no painel de configurações em toda a organização. Agora, você visualiza, bloqueia e permite aplicativos em toda a organização na página **Gerenciar aplicativos.**
 - **Licenças**: Indica se um aplicativo oferece uma assinatura software como serviço (SaaS) para compra. Esta coluna se aplica somente a aplicativos de terceiros. Cada aplicativo de terceiros terá um dos seguintes valores:
-- **Compra**: o aplicativo oferece uma assinatura SaaS e está disponível para compra.  
-- **Comprado**: o aplicativo oferece uma assinatura SaaS e você comprou licenças para ele.
-- **- -**: o aplicativo não oferece uma assinatura SaaS.
+    - **Compra**: o aplicativo oferece uma assinatura SaaS e está disponível para compra.  
+    - **Comprado**: o aplicativo oferece uma assinatura SaaS e você comprou licenças para ele.
+    - **- -**: o aplicativo não oferece uma assinatura SaaS.
 - **Aplicativo personalizado**: se o aplicativo é um aplicativo personalizado.
 - **Permissões**: Indica se um aplicativo personalizado ou de terceiros registrado no Azure Active Directory (Azure AD) tem permissões que precisam de consentimento. Você verá um dos seguintes valores:
-- **Detalhes de** exibição : o aplicativo tem permissões que exigem consentimento antes que o aplicativo possa acessar dados.
-- **- -**: O aplicativo não tem permissões que precisam de consentimento.
+    - **Detalhes de** exibição : o aplicativo tem permissões que exigem consentimento antes que o aplicativo possa acessar dados.
+    - **- -**: O aplicativo não tem permissões que precisam de consentimento.
 - **Categorias**: categorias que se aplicam ao aplicativo.
 - **Versão**: Versão do aplicativo.
 - **O administrador pode instalar em reuniões**: Indica se um aplicativo pode ser instalado pelos administradores em reuniões de equipe. [Saber mais](teams-app-setup-policies.md#install-apps)

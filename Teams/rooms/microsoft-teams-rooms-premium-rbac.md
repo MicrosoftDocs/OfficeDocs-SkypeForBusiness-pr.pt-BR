@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o controle de acesso baseado em função com o Salas do Microsoft Teams gerenciado.
 f1keywords: ''
-ms.openlocfilehash: 9b1a3a770c8b56c9d9ed3b589fa13163d955c294
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c7594a04dbb1a36b60f3105c663cff3934ffd3c1
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728070"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248662"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Controle de acesso baseado em função com o serviço Salas do Microsoft Teams gerenciado
 
@@ -74,9 +74,22 @@ A tabela a seguir resume o que cada função pode fazer.
 |Gerenciamento de função    |Exibir         |&#10004;           |         ||
 |    |Modificar         |&#10004;           |         ||
 
+## <a name="create-a-custom-role"></a>Criar uma função personalizada
+
+Se as funções embutida não atenderem às suas necessidades organizacionais, você poderá criar uma função e configurar suas permissões conforme desejado. Para criar uma função, você deve ser um Administrador Global ou Administrador de Serviço Gerenciado. 
+
+1. Na navegação à esquerda do portal de serviço Salas do Microsoft Teams gerenciado, vá para **Configurações**  >  **Funções**.
+2. Selecione **Criar função**.
+3. Na página **Configurações Gerais,** em **Propriedades de função**, insira um nome para essa função. Em **Descrição,** insira detalhes sobre essa função. Escolha **Próximo**.
+4. Na página **Permissões,** em **Permissões de** função, escolha as permissões para essa função selecionando as caixas de seleção apropriadas. Escolha **Próximo** para criar a primeira atribuição para essa função.
+5. Na página **Atribuições,** em **Propriedades de atribuição,** insira um nome para essa atribuição. A descrição é opcional. Em  **Configurações de notificação,** marque a caixa de seleção Notificações por email se os usuários dessa função receberem notificações por email do serviço em salas no **Escopo** desta atribuição. Escolha **Próximo**.
+6. Na página **Membros,**  na caixa Pesquisar usuário ou grupo de segurança, insira o nome de um usuário ou grupo de segurança em seu locatário para o qual você deseja dar permissões e conclua a seleção. Escolha **Próximo**. 
+7. Na página **Escopo,** na caixa **Pesquisar** sala ou grupo de sala, digite o nome de uma sala ou grupo de sala que o usuário terá permissão para gerenciar. Escolha **Próximo**.
+8. Na página **Concluir,** revise os detalhes da função e da atribuição. Se você estiver satisfeito com a configuração, escolha **Adicionar nova função**. Se você quiser editar uma seção, use o **botão Anterior** ou selecione a etapa na navegação à esquerda.  
+
 ## <a name="assign-a-role"></a>Atribuir uma função
 
-Para atribuir funções, você deve ser um Administrador Global ou Administrador de Serviço Gerenciado.
+Para atribuir funções, você deve ser um Administrador Global ou Administrador de Serviço Gerenciado ou ter uma função com permissões de gerenciamento de função.
 
 1. Na navegação à esquerda do portal de serviço Salas do Microsoft Teams gerenciado, vá para **Configurações**  >  **Funções**.
 
@@ -87,7 +100,7 @@ Para atribuir funções, você deve ser um Administrador Global ou Administrador
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Captura de tela da opção Adicionar para adicionar uma função.":::
 
-4. Na página **Configurações Gerais,** em **Propriedades de atribuição,** insira um nome para essa atribuição. A descrição é opcional. Escolha **Próximo.**
+4. Na página **Configurações Gerais,** em **Propriedades de atribuição,** insira um nome para essa atribuição. A descrição é opcional. Em  **Configurações de notificação,** marque a caixa de seleção Notificações por email se os usuários dessa função receberem notificações por email do serviço em salas no **Escopo** desta atribuição. Escolha **Próximo**. 
 5. Na página **Membros,**  na caixa Pesquisar usuário ou grupo de segurança, insira o nome de um usuário ou grupo de segurança em seu locatário para o qual você deseja dar permissões e conclua a seleção. Escolha **Próximo**. 
 6. Na página **Escopo,** na caixa **Pesquisar** sala ou grupo de sala, digite o nome de uma sala ou grupo de sala que o usuário terá permissão para gerenciar. Escolha **Próximo**.
 7. Na página **Concluir,** revise os detalhes da atribuição. Se você estiver satisfeito com a configuração, escolha **Adicionar atribuição**. Se você quiser editar uma seção, use o **botão Anterior** ou selecione a etapa na navegação à esquerda.  
