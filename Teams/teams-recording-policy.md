@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3969a675a9729908c8e2d9a536376aadd68ab296
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 5dc3b2d12295d13de0b5626475891100f7879bd7
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563782"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279249"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução Teams gravação baseada em política para & reuniões
 
@@ -42,7 +42,7 @@ O Teams foi aprimorado para oferecer suporte à integração de soluções de gr
 
 O Registro de Conformidade pode ser habilitado em usuários Microsoft 365 A3/A5/E3/E5/Business Premium e Office 365 A3/A5/E3/E5. 
 
-Os recursos de integração da solução de registro de conformidade também foram revisados no Ignite 2019 na sessão Registro de Conformidade e Microsoft Teams [de conformidade.](https://myignite.microsoft.com/archives/IG19-VCE40)
+Os recursos de integração da solução de registro de conformidade também foram revisados no Ignite 2019 na sessão Registro de Conformidade [e Microsoft Teams de conformidade](https://myignite.microsoft.com/archives/IG19-VCE40).
 
 ## <a name="teams-interaction-recording-overview"></a>Teams visão geral da gravação de interação
 
@@ -121,7 +121,7 @@ As soluções de registro de conformidade são integradas Teams conforme mostrad
 O componente principal da solução de registro de conformidade é o gravador.
 Os gravadores são construídos como serviços dimensionáveis baseados no Azure (bots) que usam a plataforma de comunicações da [Microsoft](/graph/cloud-communications-concept-overview) e se registram como aplicativos com o Microsoft Graph. O gravador fornece a interação direta com as [APIs](/graph/api/resources/communications-api-overview) da plataforma de comunicações Teams reuniões e fornece o ponto de extremidade para ingestão de mídia.
 
-Um [aplicativo de gravador de conformidade](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) de exemplo está disponível que mostra como configurar o bot, criar a instância do aplicativo e atribuir as políticas de conformidade. O exemplo também tem exemplos sobre o uso [](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) da API para gravar interações específicas, como manipular o roteamento de chamadas de [entrada,](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)alterar estados de gravação e remover o usuário que está [sendo gravado](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
+Um [aplicativo de gravador de conformidade](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) de exemplo está disponível que mostra como configurar o bot, criar a instância do aplicativo e atribuir as políticas de conformidade. O exemplo também tem exemplos sobre o uso da API para gravar interações específicas[](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244), como manipular o roteamento de chamadas de [entrada, alterar](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138) estados de gravação e remover o usuário que [está sendo gravado](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
 Graph documentação sobre APIs específicas pode ser encontrada aqui para [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http) e [incomingContext](/graph/api/resources/incomingcontext).
 
 A implementação exata do serviço de gravador varia de acordo com o parceiro, mas deve ser projetada para dar suporte a vários gravadores para alcançar alta disponibilidade e distribuição geográfica da implantação para reduzir a latência de Teams para o gravador. Além disso, é esperado que os próprios Gravadores sejam projetados com resiliência e redundância em mente.
@@ -138,7 +138,7 @@ Os requisitos do Azure e Windows VM aplicam-se apenas ao componente bot do Teams
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Atribuição e provisionamento da política de registro de conformidade
 
-Os administradores de IT podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de registro de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando uma interação de comunicação ocorre. As políticas de registro de conformidade são gerenciadas usando [o Microsoft PowerShell](./teams-powershell-overview.md) e podem ser aplicadas no nível de locatário, por usuário e grupo de segurança para cada organização. Você pode encontrar mais informações sobre as políticas do Microsoft Docs for [Meeting,](./meeting-policies-overview.md) [políticas de chamada](./teams-calling-policy.md) e políticas de [grupo.](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)
+Os administradores de IT podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de registro de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando uma interação de comunicação ocorre. As políticas de registro de conformidade são gerenciadas usando [o Microsoft PowerShell](./teams-powershell-overview.md) e podem ser aplicadas no nível de locatário, por usuário e grupo de segurança para cada organização. Você pode encontrar mais informações sobre o Microsoft Docs for [Meeting policies](./meeting-policies-overview.md), [calling policies](./teams-calling-policy.md) and  [group policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 1. Crie uma instância de aplicativo em seu locatário.
 
@@ -211,6 +211,7 @@ O suporte para notificações é habilitado usando as experiências Teams client
 
 > [!NOTE]
 > O Registro de Conformidade não é suportado com filas de chamada do modo conferência. Use filas de chamada do modo de transferência.
+> O Registro de Conformidade não funcionará se os usuários passaram por uma paralisação na Internet e estão fazendo e recebendo chamadas PSTN usando um SBA.
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>Registro de conformidade para Teams de certificação
 
@@ -244,4 +245,4 @@ Essa lista será atualizada à medida que mais parceiros ingressarem e atenderem
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Se você for um fornecedor que está tentando ingressar no programa de certificação, envie emails [para](mailto:Teamscategorypartner@microsoft.com)Teamscategorypartner@microsoft.com .
+Se você for um fornecedor que está tentando ingressar no programa de certificação, envie [emails para Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).

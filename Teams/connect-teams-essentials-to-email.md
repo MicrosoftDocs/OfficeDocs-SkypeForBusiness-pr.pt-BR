@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 682f7bcd4e90e96534e954cd0e22c6f5952db08b
-ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
+ms.openlocfilehash: 3b05fb30b6e7e4a3f3725ca8e591cc5caf56fdde
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "61284789"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279239"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Conexão Microsoft Teams Essentials (AAD Identidade) para um sistema de email existente com calendário
 
@@ -40,20 +40,20 @@ As etapas de configuração neste artigo envolvem o processo de encaminhamento a
 Para habilitar o encaminhamento automático:
 
 1. Vá para o portal Microsoft 365 Defender em<https://security.microsoft.com/>
-2. No menu de navegação à esquerda, acesse **Email & políticas** de colaboração & regras Políticas de ameaça  >    >    >  **Anti-spam** na seção Políticas
-3. Na página **Políticas anti-spam,** selecione Política de saída **anti-spam (Padrão)** na lista
+2. No menu de navegação à esquerda, acesse **Email &** **collaborationPolicies &** >  **regrasThreat** >  **policiesAnti-spam** >  na seção Políticas
+3. Na página **Políticas anti-spam** , selecione Política de saída **anti-spam (Padrão)** na lista
 4. No sobremenu de detalhes da política exibido, selecione Editar configurações de **proteção** para modificar a regra de autoforwarding.
-5. Em **Regras de encaminhamento**, altere a condição de encaminhamento automático para Ativado – o encaminhamento está **habilitado** e salva suas alterações.
+5. Em **Regras de encaminhamento**, altere a condição de encaminhamento automático para **Ativado – o encaminhamento está habilitado** e salva suas alterações.
 
 :::image type="content" source="media/essentials-antispam.png" alt-text="Imagem mostrando o sub-sub-texto da política de saída anti-spam do Microsoft Defender Portal com Ativado, o encaminhamento está habilitado em Regras de encaminhamento." :::
 
-Para saber mais sobre como configurar políticas de spam de saída, visite Configurar filtragem de spam de saída [- Office 365 | Microsoft Docs](/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true).
+Para saber mais sobre como configurar políticas de spam de saída, visite [Configure outbound spam filtering - Office 365 | Microsoft Docs](/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true).
 
 ## <a name="connect-teams-essentials-to-exchange-online-with-exchange-on-premises"></a>Conexão Teams Essentials para Exchange Online com Exchange local
 
 Você pode aproveitar tudo o que o Teams Essentials (AAD) tem a oferecer usando uma abordagem híbrida para configurar a conexão entre o Microsoft Teams e o Exchange Online com Exchange local.
 
-Para fazer com que o acesso ao calendário funcione para suas caixas de correio locais, siga as diretrizes fornecidas em[Configuring Teams calendar access for Exchange on-premises mailboxes - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
+Para fazer com que o acesso ao calendário funcione para suas caixas de correio locais, siga as diretrizes fornecidas no [atConfiguring Teams acesso ao](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009) calendário para caixas de correio locais do Exchange - Microsoft Tech Community
 
 Para implantar Salas do Microsoft Teams em um ambiente híbrido com Exchange local, visite [Deploy Salas do Microsoft Teams with Exchange local - Microsoft Teams | Microsoft Docs](rooms/with-exchange-on-premises.md)
 
@@ -69,17 +69,17 @@ Todos os emails gerados Microsoft 365 são encaminhados para o Google Workspace 
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Imagem que representa um diagrama do fluxo de emails entre o EXO e o Gmail":::
 
-Esses exemplos dependem do [commandlet Conexão-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell que faz parte [do módulo Exchange Online PowerShell V2](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true). Se você receber um erro ao executar o Conexão-ExchangeOnline, verifique se você seguiu as instruções recomendadas para instalar o módulo usando Instalar o módulo [EXO V2](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true). Quando Connect-ExchangeOnline solicita credenciais, certifique-se de usar uma conta de administrador de locatários.
+Esses exemplos dependem do [Conexão-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell que faz parte [do módulo Exchange Online PowerShell V2](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true). Se você receber um erro ao executar o Conexão-ExchangeOnline, verifique se seguiu as instruções recomendadas para instalar o módulo usando Instalar o módulo [EXO V2](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true). Quando Connect-ExchangeOnline solicita credenciais, certifique-se de usar uma conta de administrador de locatários.
 
 **Etapa Um: Configurar um novo domínio Microsoft 365 locatário**
 
-1. Vá para o centro de administração em <https://admin.microsoft.com> .
+1. Vá para o centro de administração em <https://admin.microsoft.com>.
 
-2. Vá para **Configurar**  >  **Domínios e** selecione **Adicionar domínio** para adicionar seu domínio existente. Se você não adicionar um domínio, as pessoas em sua organização usarão o domínio onmicrosoft.com para seus endereços de email até que você o faça. Certifique-se de adicionar seu domínio antes de adicionar usuários, para que você não tenha que defini-los duas vezes.
+2. Vá para **ConfigurarDomains**  >  e selecione **Adicionar domínio** para adicionar seu domínio existente. Se você não adicionar um domínio, as pessoas em sua organização usarão o domínio onmicrosoft.com para seus endereços de email até que você o faça. Certifique-se de adicionar seu domínio antes de adicionar usuários, para que você não tenha que defini-los duas vezes.
 
 3. Verifique o domínio com um registro TXT seguindo as etapas em [Verificar com um Registro TXT](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&preserve-view=true).
 
-4. Quando solicitado, selecione **Não permitir Microsoft 365 configurar DNS**.
+4. Quando solicitado, selecione **Não permitir Microsoft 365 configurar o DNS**.
 
 5. Quando solicitado, deixe os registros MX existentes no local sem alterá-los.
 
@@ -87,11 +87,11 @@ Esses exemplos dependem do [commandlet Conexão-ExchangeOnline](/powershell/modu
 
 7. Configure DomainKeys Identified Mail (DKIM) para Microsoft 365 seguindo estas etapas para configurar manualmente [o DKIM](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide&preserve-view=true).
 
-8. Entre novamente no Centro de administração do Microsoft 365 para <https://admin.microsoft.com/AdminPortal/> habilitar o DKIM
+8. Entre novamente no Centro de administração do Microsoft 365 para habilitar <https://admin.microsoft.com/AdminPortal/> o DKIM
 
-9. No painel de navegação à esquerda, selecione  >  **Domínios de Instalação**
+9. No painel de navegação à esquerda, selecione **SetupDomains**  > 
 
-10. Usando a caixa de seleção, selecione o domínio existente não Microsoft (ex: JohannaL@contosolandscapting2.m365master.com) nas listas atuais de domínios.
+10. Usando a caixa de seleção, selecione o domínio existente não Microsoft (ex: TomislavK@thephone-company.com) nas listas atuais de domínios.
 
 11. Selecione o botão com **três pontos verticais** para abrir um menu.
 
@@ -106,20 +106,20 @@ Esses exemplos dependem do [commandlet Conexão-ExchangeOnline](/powershell/modu
 
 1. Vá para o centro de administração em <https://admin.microsoft.com> para adicionar um usuário individual
 
-2. Vá para **Usuários**  >  **Usuários ativos** e selecione **Adicionar um usuário**
+2. Vá para **UsuáriosAtivos** >  usuários e selecione **Adicionar um usuário**
 
-3. No painel **Configurar as noções básicas,** preencha as informações básicas do usuário e selecione **Next**.
+3. No painel **Configurar as noções básicas** , preencha as informações básicas do usuário e selecione **Próximo**.
     - **Nome:** Preencha o nome e sobrenome, nome de exibição e nome de usuário.
     - **Domínio:** Escolha o domínio para a conta do usuário. Por exemplo, se o nome de usuário do usuário for Jakob e o domínio for contoso.com, ele entrará usando jakob@contoso.com.
     - **Configurações de senha:** Escolha usar a senha de geração automática ou criar sua própria senha forte para o usuário.  Determine se você deseja enviar a senha em um email quando o usuário for adicionado.
 
 4. No painel **Atribuir licenças de** produto, selecione o local e a licença apropriada para o usuário. Se você não tiver nenhuma licença disponível, ainda poderá adicionar um usuário e comprar mais licenças. Selecione Próximo.
 
-5. No painel **Configurações opcionais,** expanda **Funções** se quiser tornar esse usuário um administrador. Expanda **informações de** perfil para adicionar informações adicionais sobre o usuário.
+5. No painel **Configurações opcionais** , expanda **Funções** se quiser tornar esse usuário um administrador. **Expanda informações de** perfil para adicionar informações adicionais sobre o usuário.
 
 6. Selecione **Próximo**, revise as configurações do novo usuário, faça outras alterações, se necessário, em seguida, selecione **Concluir** a adição e feche.
 
-Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendação em Adicionar usuários e atribuir licenças - Microsoft 365 [administrador | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
+Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendação em [Adicionar usuários e atribuir licenças - Microsoft 365 administrador | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
 **Etapa três: Configurar o Espaço de Trabalho do Google**
 
@@ -129,7 +129,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 2. Adicionar rota para Office 365
 
-    - Vá para o console do Administrador do Google em <https://admin.google.com> )
+    - Vá para o console do Administrador do Google em <https://admin.google.com>)
     - Acesse Apps > Google Workspace > Gmail > Hosts.
     - Insira um nome de rota. (Por exemplo, Microsoft 365)
     - Escolha 'Host único' e insira o registro MX especificado para domínio em Microsoft 365 (Por exemplo: ContosoLandscaping2-m365master-com.mail.protection.outlook.com)
@@ -144,19 +144,19 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
     - Abra o **console do Administrador do Google** em <https://admin.google.com>
 
-    - Ir para **Aplicativos**  >  **Google Workspace**  >  **Gmail**  >  **Routing**
+    - Vá para **AppsGoogle** >  **WorkspaceGmailRouting** >  > 
 
-    - Na guia **Roteamento,** selecione **Configurar**
+    - Na guia **Roteamento** , selecione **Configurar**
 
     - Insira **Nome** da regra. (Por exemplo, Gmail para Office 365)
 
-    - Para **que as mensagens de email afetem**, selecione Recebimento interno e **de**  **entrada**
+    - Para **que as mensagens de email afetem**, selecione **Recebimento interno e de**  **entrada**
 
-    - Em **Para os tipos de mensagens acima,** selecione Modificar **mensagem**
+    - Em **Para os tipos de mensagens acima**, selecione **Modificar mensagem**
 
-    - Em **Também entregar para**, selecione Adicionar mais **destinatários** e selecione **Adicionar para adicionar a rota de email secundária.**
+    - Em **Também entregar**, selecione **Adicionar mais destinatários** e selecione **Adicionar para adicionar a rota de email secundária.**
 
-    - Em **Destinatários,** selecione a seta para baixo "" e selecione **Avançado.**
+    - Em **Destinatários**, selecione a seta para baixo "" e selecione **Avançado.**
 
     - Selecione **Alterar rota.**
 
@@ -172,7 +172,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 1. Iniciar no **console administrador do Google** (em admin.google.com)
 
-2. Vá para  >  **Domínios de Conta** Gerenciar  >  **Domínios**
+2. Vá para **Domínios** **AccountDomainsManage** >  > 
 
 3. Selecione **Adicionar um domínio**
 
@@ -188,7 +188,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 9. Escolha **Ignorar a instalação do registro MX** e selecione **NEXT**
 
-10. Na caixa **de diálogo Rotear emails** para outro servidor, anote o servidor para rotear emails para (por exemplo, aspmx.l.google.com) e selecione Uso de outro servidor de **email**
+10. Na caixa **de diálogo Rotear emails** para outro servidor, anote o servidor para rotear emails para (por exemplo, aspmx.l.google.com) e selecione **Usar outro servidor de email**
 
 ***Permitir que o email Microsoft 365 ignorar o filtro DE SPAM***
 
@@ -200,7 +200,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 4. Vá para **o console do Administrador do Google** em <https://admin.google.com>
 
-5. Ir para **Aplicativos**  >  **Google Workspace**  >  **Conformidade do Gmail**  >  
+5. Vá para **AppsGoogle** >  **WorkspaceGmailCompliance** >  > 
 
 6. Navegue até **Conformidade de Conteúdo** e selecione **Configurar**
 
@@ -208,19 +208,19 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 8. Em **mensagens de email para afetar a** verificação de entrada
 
-9. Em **Adicionar expressões que descrevem o conteúdo que** você deseja pesquisar em cada mensagem, selecione se QUALQUER um dos seguintes corresponder à **mensagem**
+9. Em **Adicionar expressões que descrevem o conteúdo que** você deseja pesquisar em cada mensagem, selecione se **QUALQUER um dos seguintes corresponder à mensagem**
 
-10. Em **Expressões,** selecione **Adicionar** xi. Em **Adicionar configuração**, escolha **Advanced content match**
+10. Em **Expressões**, selecione **Adicionar** xi. Em **Configuração Adicionar**, escolha **Corresponder conteúdo avançado**
 
 11. Em **Local** escolha **Headers Completos**
 
-12. Em **Tipo de Combinação** escolha Texto **Completo**
+12. Em **Tipo de Combinação** escolha **Texto Completo**
 
 13. Em conteúdo, insira o header de email que identifica exclusivamente o email proveniente do locatário do Microsoft 365 (Por exemplo, X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5)
 
 14. Selecionar **Salvar**
 
-15. Na caixa **Se as expressões acima corresponderem,** faça o campo a seguir > **Modificar** Mensagem e verifique Ignorar filtro de **spam** para esta mensagem em **Spam**.
+15. Na caixa **Se as expressões acima corresponderem, faça** o campo a seguir > **Modificar** Mensagem e verifique **Ignorar** filtro de spam para esta mensagem em **Spam**.
 
 16. Selecionar **Salvar**
 
@@ -232,9 +232,9 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 2. Selecione **Mostrar tudo** no menu de navegação à esquerda.
 
-3. Em **Centros de administração,** selecione **Exchange** para abrir o Exchange de administração em uma nova guia
+3. Em **Centros de administração**, **selecione Exchange** abrir o Exchange de administração em uma nova guia
 
-4. No menu **Exchange** de navegação à esquerda do centro de administração, selecione Conectores de fluxo de emails , abra o menu de estouro  >  (...) e selecione Adicionar um conector
+4. No menu **Exchange** de navegação à esquerda do centro de administração, selecione **Mail** **flowConnectors** > , abra o menu de estouro (...) e selecione Adicionar um conector
 
 5. Em **Conexão na** nova janela do conector, selecione **Office 365**
 
@@ -242,7 +242,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 7. Insira um **Nome** para o novo conector (Ex: Para Gmail) e continue **Next**
 
-8. Na seção **Uso do Conector,** selecione **Somente quando** eu tiver uma regra de transporte configurada que redireciona mensagens para esse conector e selecione **Next**.
+8. Na seção **Uso do Conector** , selecione **Somente quando** eu tiver uma regra de transporte configurada que redireciona mensagens para esse conector e selecione **Next**.
 
 9. Na seção Roteamento, insira o host de email inteligente apropriado (por exemplo, aspmx.l.google.com), selecione **+** e continue **Next**.
 
@@ -252,13 +252,13 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 12. Aguarde a conclusão da validação e, se tiver êxito, pressione Next
 
-13. Em **Conector de revisão,** verifique se a configuração está correta e pressione Criar Conector
+13. Em **Conector de revisão**, verifique se a configuração está correta e pressione Criar Conector
 
 14. Quando você vir a notificação criada pelo Conector, pressione **Done**
 
 *Encaminhar emails de Microsoft 365 caixas de correio para o Gmail*
 
-1. Use a **central Administração Microsoft 365 para** atualizar cada caixa de correio ou você pode usar um script do **PowerShell,** como o seguinte:
+1. Use a **central Administração Microsoft 365 para** atualizar cada caixa de correio ou você pode usar um script **do PowerShell**, como o seguinte:
 
     ```powershell
     $forwardingDomain = "g.contosolandscaping2.m365master.com"
@@ -268,6 +268,23 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
     
     Set-Mailbox $mbx.Identity -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $($mbx.Alias,$forwardingDomain -join "@")
     } 
+    ```
+
+    **Solução de Conexão-ExchangeOnline:**
+
+    Você está enfrentando um erro ao executar o Conexão-ExchangeOnline? Isso pode ser o resultado da regra de encaminhamento automático de email da sua organização. Por padrão, o encaminhamento automático está desabilitado. Para conectar o Teams Essentials ao Google Workspace, a regra deve ser habilitada.  
+
+    Insira o seguinte script:
+
+   ```powershell
+    Set-ExecutionPolicy Unrestricted 
+     ```
+
+    Em seguida, execute os seguintes comandos:
+
+    ```powershell
+    Enable-OrganizationCustomization 
+    Get-HostOutboundSpamFilterPolicy | set-HostedOutboundSpamFilterPolicy -AutoForwardingMode On
     ```
 
 *Configurar Exchange Online para a regra de transporte de calendário*
@@ -285,9 +302,9 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas de recomendaçã
 
 *Desabilitar Outlook na Web caixas de correio*
 
-1. Siga as instruções em [Habilitar](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) ou desabilitar Outlook na Web uma caixa de correio em Exchange Online desabilitar Outlook na Web caixas de correio.
+1. Siga as instruções em [Enable or disable Outlook na Web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) to disable Outlook na Web for mailboxes.
 
-2. Você pode desabilitar Outlook na Web usando o **Centro de Administração Exchange ou** o **PowerShell**. Você pode usar o exemplo a seguir do PowerShell para desabilitar Outlook na Web todas as caixas de correio:
+2. Você pode desabilitar Outlook na Web usando o **Centro de Administração Exchange ou** **o PowerShell**. Você pode usar o exemplo a seguir do PowerShell para desabilitar Outlook na Web todas as caixas de correio:
 
     ```powershell
     Connect-ExchangeOnline
@@ -305,9 +322,9 @@ Esta etapa garante que o email seja enviado para o sistema de terceiros para res
 
 2. Na navegação à esquerda, selecione **Mostrar tudo**
 
-3. Em **Centros de Administração,** selecione **Exchange** para abrir Exchange centro de administração em uma nova guia
+3. Em **Centros de Administração**, selecione **Exchange** para abrir Exchange centro de administração em uma nova guia
 
-4. No **Exchange de administração,** selecione **Fluxo de** emails no menu de navegação à esquerda e selecione **Domínios aceitos**
+4. No **Exchange de administração**, selecione **Fluxo de** email no menu de navegação à esquerda e selecione **Domínios aceitos**
 
 5. Toque no nome de domínio configurado no sistema de terceiros (por exemplo, contosoLandscaping2.m365master.com)
 
@@ -319,7 +336,7 @@ Esta etapa garante que o email seja enviado para o sistema de terceiros para res
 
 **Etapa Seis: Criar uma regra para excluir todos os emails de entrada para Exchange Online exceto calendário**
 
-1. Você pode configurar essa regra no Centro de administração **Exchange** ou **no PowerShell**. Você pode usar o seguinte **exemplo do PowerShell** para criar a regra:
+1. Você pode configurar essa regra no Centro **de administração Exchange ou** **no PowerShell**. Você pode usar o seguinte **exemplo do PowerShell** para criar a regra:
 
     ```powershell
     Connect-ExchangeOnline
@@ -343,7 +360,7 @@ Se você já tiver uma conta existente, poderá prosseguir para a próxima etapa
 
 *Configurar Teams AAD usuários*
 
-1. Siga as diretrizes em[Adicionar usuários e atribuir licenças](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) para adicionar vários usuários
+1. Siga as diretrizes [emAdd users e atribua licenças](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) para adicionar vários usuários
 
 *Configurar a proteção de identidade*
 
