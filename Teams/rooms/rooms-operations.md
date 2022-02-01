@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Leia este tópico para saber mais sobre o gerenciamento de Salas do Microsoft Teams.
-ms.openlocfilehash: 2238712b269475891074016c1099a33c56004595
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: be5f183e593ca1723383b6834c9ff5cad387b42f
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015041"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62298986"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas do Microsoft Teams e operações
  
@@ -31,7 +31,7 @@ Salas do Microsoft Teams é a solução de conferência da Microsoft projetada p
 
 Para coletar logs no Teams de administração, acesse Teams **dispositivos > Salas do Teams no Windows**. Selecione o nome de exibição do dispositivo para o que você deseja logs. No painel superior, selecione "Baixar logs de dispositivo". Depois de confirmar, os logs estarão prontos para download na guia Histórico após alguns minutos.
 
-Você também pode usar o PowerShell para coletar logs. Você deve invocar o script do conjunto de log que acompanha o Salas do Microsoft Teams app. No [modo De administração,](rooms-operations.md)inicie um prompt de comando com privilégios elevados e em seguida, o seguinte comando:
+Você também pode usar o PowerShell para coletar logs. Você deve invocar o script do conjunto de log que acompanha o Salas do Microsoft Teams app. No [modo Administrador](rooms-operations.md), inicie um prompt de comando com privilégios elevados e em seguida, em seguida, o seguinte comando:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -45,6 +45,26 @@ Os logs serão exibidos como um arquivo ZIP em c:\rigel.
 Configure as configurações de suas exibições de Front of Room para dar suporte ao CEC (Consumer Electronics Control) ou habilitar o modo de computador.
   
 Se você desejar que uma tela frontal da sala alterna automaticamente para Salas do Teams quando ela acordar do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas tem suporte Salas do Microsoft Teams software, desde que o hardware subjacente suporte o recurso. Uma TV de consumidor usada como tela frontal de sala precisa dar suporte ao recurso CeC (Controle eletrônico de consumidor) do HDMI.  Dependendo do dock ou console selecionado (que pode não dar suporte ao CEC, consulte a documentação de suporte do fabricante), um controlador como [um HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado.
+
+### <a name="change-scale-and-resolution"></a>Alterar escala e resolução
+
+Se o tamanho da fonte em sua exibição de Frente de Sala for muito grande ou pequeno, você precisará ajustar a resolução da tela. 
+
+1. Alternar para [o modo de administração](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+
+2. Selecione o ícone iniciar. Em **seguida, Configurações > Sistema > Display**
+
+3. Vá para **Dimensionar e layout** e, em seguida, Alterar o tamanho de **texto, aplicativos** e outros itens e definir o dimensionamento como 100%.
+
+4. De definir a resolução de exibição como 1080p. Se você tiver monitores duplos, de definir a escala e a resolução para ambas as telas.
+
+5. Em seguida, selecione o ícone de início e insira **Prompt de comando**. Selecione **Executar como administrador**.
+
+6. Execute o seguinte comando:
+
+```cmdlet
+ Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
+```
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Salas do Microsoft Teams Redefinição (Restauração de Fábrica)
 <a name="Reset"> </a>
@@ -102,7 +122,7 @@ Ao ingressar Salas do Microsoft Teams a um domínio, verifique se as políticas 
 |Configuração|Permite|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite Salas do Microsoft Teams inicializar  <br/> |
-|Gerenciamento de Energia - \> Em AC, desligue a tela após 10 minutos  <br/> Gerenciamento de Energia - \> Em AC, nunca coloque o sistema para dormir  <br/> |Permite Salas do Microsoft Teams desativar as exibições anexadas e acordar automaticamente  <br/> |
+|Gerenciamento de Energia -\> Em AC, desligue a tela após 10 minutos  <br/> Gerenciamento de Energia -\> Em AC, nunca coloque o sistema para dormir  <br/> |Permite Salas do Microsoft Teams desativar as exibições anexadas e acordar automaticamente  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou um modo equivalente de desabilitar a expiração da senha na conta local. A impossibilidade de fazer isso pode causar uma falha no logon com a conta do Skype com uma mensagem de senha expirada. Observe que isso afeta todas as contas locais do computador. Portanto, se isso não for definido, com o tempo, a conta de administrador também vai expirar.   <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
 
 > [!NOTE]
@@ -128,7 +148,7 @@ Por exemplo, você pode habilitar o PowerShell Remoto da seguinte maneira:
 1. Entre como Administrador em um dispositivo Salas do Microsoft Teams.
 2. Abra um prompt de comando do PowerShell com elevação.
 3. Insira o seguinte comando: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Abra a Política de Segurança Local e adicione o grupo de *segurança Administradores* **a Segurança Configurações** Atribuição de Direitos de Usuário de Políticas Locais Acesse este computador a partir da  >    >    >  **rede**.
+4. Abra a Política de Segurança Local e adicione o grupo de segurança *Administradores* a **Segurança Configurações** >  **Local PoliciesUser** >  **Rights** **AssignmentAccess** >  este computador da rede.
 
 Para executar uma operação de gerenciamento:
   
@@ -191,7 +211,7 @@ Por padrão, Salas do Microsoft Teams tenta se conectar à Windows Store para ob
   
 Salas do Microsoft Teams se conecta ao Windows Update para recuperar atualizações de firmware de dispositivos periféricos e do sistema operacional. Teams Room está configurada para instalá-los a partir das 2:00 horas locais.
   
-Se você deve gerenciar as atualizações manualmente devido às limitações de acesso ao Windows store e, portanto, não conseguir seguir o procedimento normal do [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) para Distribuir aplicativos [offline,](/microsoft-store/distribute-offline-apps)você poderá adquirir o arquivo APPX apropriado e as dependências do [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implantação (a partir das instruções para [Configurar um Salas do Microsoft Teams console](console.md)) que pode ser usado com o Configuration Manager. A versão do kit de implantação fica para trás da versão da loja, portanto, nem sempre ela pode corresponder à versão mais recente disponível.
+Se você deve gerenciar as atualizações manualmente devido às limitações de acesso ao Windows store e, portanto, não conseguir seguir o procedimento normal do [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) para Distribuir aplicativos [offline](/microsoft-store/distribute-offline-apps), você poderá adquirir o arquivo APPX apropriado e as dependências do [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implantação (a partir das instruções para [Configurar um Salas do Microsoft Teams console](console.md)) que pode ser usado com o Configuration Manager. A versão do kit de implantação fica para trás da versão da loja, portanto, nem sempre ela pode corresponder à versão mais recente disponível.
   
 ### <a name="to-update-using-powershell"></a>Para atualizar usando o PowerShell
 
@@ -210,7 +230,7 @@ Algumas funções de gerenciamento, como a instalação manual de um certificado
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Alternar para o modo Administrador e voltar quando o aplicativo Salas do Microsoft Teams está sendo executado
 
 1. Desligue todas as chamadas em andamento e retorne para a tela inicial.
-2. Selecione o ícone Engrenagem e traga o menu (as opções **são Configurações,** **Acessibilidade** e **Reiniciar Dispositivo** ).
+2. Selecione o ícone Engrenagem e traga o menu (as opções **são Configurações**, **Acessibilidade** e **Reiniciar Dispositivo** ).
 3. Selecione **Configurações**.
 4. Insira a senha do Administrador. A tela Configuração será exibida.  Se o dispositivo não for ingressado no domínio, a conta administrativa local (nome de usuário "Administrador") será usada por padrão. A senha padrão para essa conta é 'sfb'. Altere essa senha assim que possível. Se o computador for ingressado em domínio, você poderá entrar com uma conta de domínio privilegiada apropriadamente.
 5. Selecione **Windows Configurações** na coluna esquerda.
@@ -234,7 +254,7 @@ O console retorna ao seu modo de operação normal. O procedimento a seguir exig
    ## <a name="troubleshooting-tips"></a>Dicas para solução de problemas
    <a name="TS"> </a>
 
-- Os convites de reunião podem não aparecer quando enviados através dos limites de domínio (por exemplo, entre duas empresas). Nesses casos, os administradores de IT devem decidir se permitem que usuários externos agendem uma reunião. Consulte o artigo para o cmdlet Exchange Do PowerShell [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing), especificamente o parâmetro 'ProcessExternalMeetingMessages'.
+- Os convites de reunião podem não aparecer quando enviados através dos limites de domínio (por exemplo, entre duas empresas). Nesses casos, os administradores de IT devem decidir se permitem que usuários externos agendem uma reunião. Consulte o artigo para o cmdlet Exchange PowerShell [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing), especificamente o parâmetro 'ProcessExternalMeetingMessages'.
 - Salas do Microsoft Teams não dá suporte Exchange redirecionamentos de Descoberta Automática via Exchange 2010.
 - Em geral, é uma boa prática para os administradores de IT desabilitar os pontos de extremidade de áudio que eles não pretendem usar.
 - No caso de uma imagem de espelho ser exibida na visualização da sala, o administrador de IT poderá corrigir com a energia da câmera de ciclo ou invertendo a orientação da imagem usando as configurações da câmera.

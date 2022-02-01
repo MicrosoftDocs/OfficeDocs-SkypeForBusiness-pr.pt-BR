@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre como desenvolver e executar operações e manutenção contínuas para garantir que seus sistemas Salas do Microsoft Teams estão disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cb964114a05490d750fee5ec7f8c1a59330e2bd6
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 02faaec97837f61befaa5320f7d73b84e33d25c2
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015181"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62298996"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gerenciar Salas do Microsoft Teams
 
-Se você tiver Salas do Microsoft Teams em sua organização, terá opções de gerenciamento flexíveis.  Você pode gerenciar os dispositivos por conta própria no mesmo local central onde gerencia todas as soluções Teams, Microsoft Teams centro de administração. Como alternativa, você pode transferir a responsabilidade de gerenciamento para especialistas dedicados [usando Salas do Microsoft Teams Serviços Gerenciados.](https://portal.rooms.microsoft.com)  Você também pode delegar o acesso de gerenciamento a um parceiro de sua escolha para qualquer uma das opções.
+Se você tiver Salas do Microsoft Teams em sua organização, terá opções de gerenciamento flexíveis.  Você pode gerenciar os dispositivos por conta própria no mesmo local central onde gerencia todas as soluções Teams, Microsoft Teams centro de administração. Como alternativa, você pode transferir a responsabilidade de gerenciamento para especialistas dedicados [usando Salas do Microsoft Teams Serviços Gerenciados](https://portal.rooms.microsoft.com).  Você também pode delegar o acesso de gerenciamento a um parceiro de sua escolha para qualquer uma das opções.
 
 Com Microsoft Teams de administração, você pode:
 
@@ -34,7 +34,7 @@ Com Microsoft Teams de administração, você pode:
 - Revise a atividade de reunião atual e passada (como detalhes sobre a qualidade da chamada, a saúde da rede e a conectividade e o número de participantes)
 - Consulte periféricos (como câmeras e projetores) conectados a Salas do Microsoft Teams
 
-Para gerenciar Salas do Teams dispositivos, abra o centro de administração do Microsoft Teams [e](https://admin.teams.microsoft.com) vá para Teams **Dispositivos**  >  **Salas do Teams no Windows**.
+Para gerenciar Salas do Teams dispositivos, abra o centro de administração do Microsoft Teams [e](https://admin.teams.microsoft.com) vá para o Teams **Devices** >  **Salas do Teams no Windows**.
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Salas do Teams de resumo no Teams de administração.":::
 
@@ -55,7 +55,7 @@ Se você selecionar mais de uma, as configurações que suportam a edição em m
 - **Manter o valor existente** Se você escolher essa opção, nenhuma alteração será feita na configuração no Salas do Teams selecionado.
 - **Substituir o valor existente por** Se você escolher essa opção, poderá atualizar a configuração no Salas do Teams que você selecionou com o valor que fornece.
     > [!CAUTION]
-    > Os valores existentes nas configurações que você escolher atualizar serão substituídos pelo valor que você fornecer. Se quiser adicionar a uma lista de valores existentes, você precisará incluir os valores existentes com o valor que deseja adicionar. Por exemplo, se uma configuração tiver uma lista de domínios existente de , e você quiser adicionar , o valor que você precisa `contoso.com, fabrikam.com` `northwindtraders.com` fornecer será `contoso.com, fabrikam.com, northwindtraders.com` .
+    > Os valores existentes nas configurações que você escolher atualizar serão substituídos pelo valor que você fornecer. Se quiser adicionar a uma lista de valores existentes, você precisará incluir os valores existentes com o valor que deseja adicionar. Por exemplo, se uma configuração tiver uma lista `contoso.com, fabrikam.com`de domínios existente de , `northwindtraders.com`e você quiser adicionar , o valor que você precisa fornecer será `contoso.com, fabrikam.com, northwindtraders.com`.
     >
     > Se você selecionar vários Salas do Teams, a configuração em todos os dispositivos selecionados será alterada para o valor que você fornecer. Se Salas do Teams valores diferentes para uma configuração, todos eles serão atualizados para o mesmo valor.
 
@@ -105,12 +105,27 @@ Se você selecionar mais de uma, as configurações que suportam a edição em m
 | *Temas*                                                    |                                                        |                    |
 |                                                              | Padrão<br>Sem tema<br>Personalizado<br>Lista de temas integrados   | Sim                |
 
-## <a name="cortana-settings"></a>Cortana configurações 
-Você pode habilitar Cortana para a ativação de _voz_ ou _push_ para falar usando o PowerShell para todos os dispositivos em sua organização ou para cada dispositivo separadamente.
+### <a name="cortana-settings"></a>Cortana configurações
+
+Você pode habilitar Cortana para ativação de _voz_ ou _push_ para falar usando o PowerShell para todos os dispositivos em sua organização ou para cada dispositivo separadamente.
 
 Consulte [Salas do Microsoft Teams no Windows](../cortana-in-teams.md) no artigo "Cortana de voz no Teams".
 
-### <a name="device-restart-options"></a>Opções de reinicialização do dispositivo
+### <a name="front-row-layout-settings"></a>Configurações de layout da linha de frente
+
+A linha da frente é a opção de layout de exibição de reunião para Salas do Teams no Windows.
+
+| Teams dispositivo | Versão do aplicativo | Exibição frontal da sala |
+|--------------|-------------|-----------------------|
+|Salas do Microsoft Teams no Windows | 4.11.14.0 a 4.11.12.0 | Oferece suporte a exibições simples e duplas; Tamanho mínimo: 46 polegadas; Proporção de proporção 16:9 com resolução 1920*1080 ou 21:9 com resolução 2560x1080; Todas as exibições devem ser definidas em escala 100% em Windows configurações |
+
+Consulte [Salas do Microsoft Teams manutenção e operações](rooms-operations.md#change-scale-and-resolution), para ajustar suas configurações de exibição para atender aos requisitos da linha de frente.
+
+Para saber como definir a linha de frente como o layout padrão de uma sala ou como a desativar, consulte [Manage a Salas do Microsoft Teams console settings remotely with an XML configuration file](xml-config-file.md#set-front-row-as-the-default-layout).
+
+Consulte [Problemas conhecidos para](known-issues.md#Limits) obter mais informações sobre como gerenciar a linha de frente.
+
+## <a name="device-restart-options"></a>Opções de reinicialização do dispositivo
 
 As alterações nas configurações do dispositivo só terão efeito depois que Salas do Teams tiver sido reiniciada. Quando você faz alterações que precisam de uma reinicialização, você pode optar por reiniciar imediatamente ou agendar uma reinicialização. Aqui estão as opções de reinicialização disponíveis:
 
@@ -122,7 +137,7 @@ As alterações nas configurações do dispositivo só terão efeito depois que 
 > [!CAUTION]
 > Salas do Teams que estão em uso no momento de uma reinicialização ficará indisponível durante o processo de reinicialização. Eles serão desconectados de reuniões em andamento e não estarão disponíveis para participar de novas reuniões.
 
-### <a name="remove-device"></a>Remover dispositivo
+## <a name="remove-device"></a>Remover dispositivo
 
 Quando você remove um dispositivo, o dispositivo é removido da sua organização e não aparece mais na sua lista de Salas do Teams no Windows no centro de administração Teams.
 
@@ -130,7 +145,7 @@ Se você remover um dispositivo e ele ainda estiver configurado com um nome de u
 
 Para remover um ou mais dispositivos, faça o seguinte:
 
-1. Vá para **Teams**  >  **Dispositivos Salas do Teams no Windows** e selecione os dispositivos que você deseja remover.
+1. Vá para **Teams Dispositivos** >  **Salas do Teams no Windows** e selecione os dispositivos que você deseja remover.
 2. Selecione **Remover**.
 
 ## <a name="download-device-logs"></a>Baixar logs de dispositivo
@@ -139,9 +154,9 @@ Você pode baixar uma cópia dos arquivos de log de diagnóstico de um dispositi
 
 Para baixar logs de um Salas do Teams para seu computador, faça o seguinte:
 
-1. Vá para **Teams Dispositivos Salas do Teams** no Windows e selecione o nome do dispositivo de onde você deseja baixar  >   logs.
-1. Selecione **Baixar logs de dispositivo.** Pode levar vários minutos para que os logs de dispositivos se tornem disponíveis.
-1. Selecione a **guia Histórico** e selecione o link de arquivo de log em Arquivo **de Diagnóstico.** Um arquivo zip contendo os arquivos de log de diagnóstico do seu dispositivo será baixado para a pasta Downloads padrão do navegador.
+1. Vá para **Teams Dispositivos** >  **Salas do Teams no** Windows e selecione o nome do dispositivo de onde você deseja baixar logs.
+1. Selecione **Baixar logs de dispositivo**. Pode levar vários minutos para que os logs de dispositivos se tornem disponíveis.
+1. Selecione a **guia Histórico** e selecione o link de arquivo de log em **Arquivo de Diagnóstico**. Um arquivo zip contendo os arquivos de log de diagnóstico do seu dispositivo será baixado para a pasta Downloads padrão do navegador.
 
 ## <a name="view-device-information"></a>Exibir informações do dispositivo
 
@@ -155,10 +170,10 @@ O Salas do Teams do sistema mostra rapidamente o status e a saúde de todos os d
 
 Para exibir informações detalhadas sobre um dispositivo, selecione seu nome na lista de dispositivos. Quando estiver em exibição de detalhes, você poderá ver as seguintes informações sobre seu dispositivo:
 
-- **Status de saúde** Mostra a saúde geral do dispositivo Teams Room. O status de saúde pode ser **healthy** ou **healthyy**.
+- **Status de saúde** Mostra a saúde geral do dispositivo Teams Room. O status de saúde pode ser **saudável** **ou não saudável**.
 - **Offline desde** Mostra a última vez Microsoft 365 foi capaz de se comunicar com o dispositivo.
-- **Status do dispositivo** Mostra o estado atual do dispositivo: **Idle**, **Teams reunião,** **Skype reunião** ou **Ingest**.
-- **Periféricos** Mostra os periféricos conectados ao seu dispositivo Teams Room e seu status de saúde. O status de saúde pode ser **conectado** ou **desconectado.**
+- **Status do dispositivo** Mostra o estado atual do dispositivo: **Idle**, **Teams reunião**, Skype **reunião** ou **Ingest**.
+- **Periféricos** Mostra os periféricos conectados ao seu dispositivo Teams Room e seu status de saúde. O status de saúde pode ser **Conectado** ou **Desconectado**.
 - **Saúde** Mostra informações detalhadas sobre os periféricos conectados ao seu dispositivo de sala Teams, conectividade de rede, status de entrada para serviços necessários e informações de versão de software.
 - **Detalhes** Mostra informações do fabricante, endereço IP de rede e Teams endereço serial/MAC do dispositivo de sala.
 - **Atividade** Mostra detalhes da reunião passada, incluindo data e hora da reunião, número de participantes, duração e qualidade de áudio. Para obter mais informações sobre detalhes da reunião, consulte a seção Detalhes da atividade [de](#meeting-activity-details) reunião mais adiante neste artigo.
@@ -166,7 +181,7 @@ Para exibir informações detalhadas sobre um dispositivo, selecione seu nome na
 
 #### <a name="meeting-activity-details"></a>Detalhes da atividade de reunião
 
-A **guia Atividade** Teams detalhes do dispositivo room mostra informações detalhadas e de alto nível sobre todas as reuniões das que o dispositivo participou ao longo do tempo. Na guia **Atividade,** você pode ver quando uma reunião foi realizada, quantos participantes participaram da reunião e a qualidade do áudio durante a reunião.
+A **guia Atividade** em Teams detalhes do dispositivo room mostra informações detalhadas e de alto nível sobre todas as reuniões que o dispositivo participou ao longo do tempo. Na guia **Atividade** , você pode ver quando uma reunião foi realizada, quantos participantes participaram da reunião e a qualidade do áudio durante a reunião.
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams lista de resumos de atividades do dispositivo de sala.":::
 
@@ -180,6 +195,6 @@ A página de resumo do participante mostra todos os participantes que participar
 
 ##### <a name="participant-details"></a>Detalhes do participante
 
-A página de detalhes do participante mostra informações de diagnóstico de ponta a ponta para a sessão desse participante. Conforme mostrado no gráfico a seguir,  as informações de **Dispositivo,** Sistema e Conectividade são fornecidas para o participante e para o Salas do Teams dispositivo. **Informações** de diagnóstico de rede entre o participante e o Salas do Teams dispositivo também são fornecidas. Selecione o ícone do contexto sobre o qual você deseja obter mais informações. Para obter informações de diagnóstico adicionais, selecione a **guia** Avançado.
+A página de detalhes do participante mostra informações de diagnóstico de ponta a ponta para a sessão desse participante. Conforme mostrado no gráfico a seguir, as informações de **Dispositivo****, Sistema** e Conectividade são fornecidas para o participante e para o Salas do Teams dispositivo. **Informações** de diagnóstico de rede entre o participante e o Salas do Teams dispositivo também são fornecidas. Selecione o ícone do contexto sobre o qual você deseja obter mais informações. Para obter informações de diagnóstico adicionais, selecione a **guia** Avançado.
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams detalhes da chamada de dispositivo de sala.":::

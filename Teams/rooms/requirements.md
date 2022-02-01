@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre os requisitos de suporte Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e exibições.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d8ac82776c92b057cef963e03fd42f0ef902980
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 9525c4dba78cc26c3d45ee4ee5831eb3deee93a5
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279279"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299036"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -96,6 +96,7 @@ Todos os pacotes e dispositivos da Sala do Microsoft Teams estão disponíveis e
   |Yealink MVC660|Core i5|8 GB | 128 GB|
   |Yealink MVC640|Core i5|8 GB | 128 GB|
   |Yealink MVC320|Core i5|8 GB | 128 GB|
+  |Yealink MVC340|Core i5|8 GB | 128 GB|
   
   
 > [!NOTE]

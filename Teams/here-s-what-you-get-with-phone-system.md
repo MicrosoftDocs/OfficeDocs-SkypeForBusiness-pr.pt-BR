@@ -22,21 +22,21 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar Microsoft Teams Sistema de Telefonia para sua empresa. '
-ms.openlocfilehash: 1643e0fe9bd877f627ec186e405bb155635f9f74
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 79712a9e3f9221c0aa6d256253d76e266cbbe658
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180934"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299066"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Veja o que você obter com Teams Telefone
 
-Este artigo descreve Teams Telefone recursos. Para obter mais informações sobre como usar o Teams Telefone como sua substituição de Exchange (PBX) e opções para se conectar à PSTN (Rede Telefônica Pública Comucionária), consulte O que é [Teams Telefone](what-is-phone-system-in-office-365.md).
+Este artigo descreve Teams Telefone recursos. Para obter mais informações sobre como usar o Teams Telefone como sua substituição de PbX (Private Branch Exchange) e opções para se conectar à PSTN (Rede Telefônica Pública Comucionária), consulte [O](what-is-phone-system-in-office-365.md) que é Teams Telefone.
 
 Os clientes estão disponíveis para PC, Mac e dispositivos móveis, que fornece recursos em dispositivos de tablets e telefones celulares para computadores e telefones IP da área de trabalho. Para obter mais informações, consulte [Obter clientes para Microsoft Teams](get-clients.md).
 
  > [!Note]
-> Para obter detalhes sobre Teams de telefone em diferentes plataformas, [consulte Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Para obter detalhes Teams sistemas de telefone em diferentes plataformas, [consulte Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 Para usar Teams Telefone recursos, sua organização deve ter uma Sistema de Telefonia de usuário. Para obter mais informações sobre licenciamento, confira [Licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -48,7 +48,7 @@ Teams Telefone fornece os seguintes recursos.
   
 |Teams Telefone recurso  |Descrição |
 |:-----|:-----|
-|[Atendentes automáticos na nuvem](what-are-phone-system-auto-attendants.md)  |Permite que você crie um sistema de menus que permite que chamadores externos e internos localizem e façam ou transfira chamadas para usuários ou departamentos da empresa em sua organização.  <br/> Observe que *os usuários não precisam* ter voz habilitada para receber chamadas do atendimento automático. |
+|[Atendentes automáticos na nuvem](what-are-phone-system-auto-attendants.md)  |Permite que você crie um sistema de menus que permite que chamadores externos e internos localizem e façam ou transfira chamadas para usuários ou departamentos da empresa em sua organização.  <br/> Observe que os *usuários não precisam* ter voz habilitada para receber chamadas do atendimento automático discar por nome, discar por pesquisa de diretório de número. Os *usuários precisam* ter voz habilitada para receber chamadas das opções de menu de atendimento automático. |
 |[Filas de chamada na nuvem](create-a-phone-system-call-queue.md) <br> |Permite configurar como as filas de chamada são gerenciadas para sua organização: por exemplo, configurar saudações e músicas em espera, procurar o próximo agente de chamada disponível para lidar com a chamada e assim por diante.  <br/> Observe que os *usuários precisam* estar habilitados para voz para receber chamadas de uma fila de chamadas.|
 |[Música de espera](music-on-hold.md) | Reproduz músicas padrão definidas pelo serviço ou música personalizada carregada pelo administrador do locatário quando uma chamada externa da Rede Telefônica Pública Comuada (PSTN) é colocada em espera. Esse recurso funciona para chamadas PSTN para Teams, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece paridade de notificação de espera com outras plataformas. |
 |Responder/iniciar chamadas (por nome e número)   |Permite que os usuários atendam chamadas de entrada com um toque e faça chamadas de saída discando o número de telefone completo ou clicando em um nome no cliente.   |
@@ -64,8 +64,8 @@ Teams Telefone fornece os seguintes recursos.
 |[Bloco de discagem integrado](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89)  | Permite que os usuários discem por nome ou por número em qualquer lugar da barra de pesquisa e no bloco de discagem, acelerando o processo de fazer chamadas de saída.  |
 |Chamada federada   |Permite que os usuários se conectem, se comuniquem e colaborem com usuários em locatários federados.   |
 |[Fazer e receber uma chamada de vídeo](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42)  | Se a conta do usuário estiver habilitada para chamadas de vídeo, o usuário poderá fazer chamadas de vídeo face a face com seus contatos. Só precisam de uma câmera, alto-falantes e microfone do computador. Os usuários também podem usar um fone de ouvido se o computador não tiver um dispositivo de áudio integrado. |
-|[Caixa Postal da Nuvem](set-up-phone-system-voicemail.md)  | Quando um usuário recebe uma caixa postal, ela é entregue à caixa de correio Exchange como um email com a mensagem de caixa postal como um anexo. Os usuários podem ouvir suas mensagens em seu telefone de área de trabalho certificado e em todos os Teams ou Skype for Business aplicativos. O suporte para transcrição de caixa postal foi adicionado a partir de março de 2017 e está habilitado por padrão para todas as organizações e usuários. <br> Observe que *os usuários não precisam* de uma Sistema de Telefonia, nem precisam estar habilitados para voz para usar Caixa postal na Nuvem recursos.     |
-|[Caixa postal na Nuvem configurações do usuário](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permite que os usuários configurem suas configurações de cliente para saudações de caixa postal, regras de atendimento de chamada e idioma de saudação, incluindo saudações fora do escritório. <br> Observe que *os usuários não precisam* de uma Sistema de Telefonia, nem precisam estar habilitados para voz para usar Caixa postal na Nuvem recursos.   |
+|[Caixa Postal da Nuvem](set-up-phone-system-voicemail.md)  | Quando um usuário recebe uma caixa postal, ela é entregue à caixa de correio Exchange como um email com a mensagem de caixa postal como um anexo. Os usuários podem ouvir suas mensagens em seu telefone de área de trabalho certificado e em todos os Teams ou Skype for Business aplicativos. O suporte para transcrição de caixa postal foi adicionado a partir de março de 2017 e está habilitado por padrão para todas as organizações e usuários. <br> Observe que *os usuários não precisam* de uma *Sistema de Telefonia, nem* precisam estar habilitados para voz para usar Caixa postal na Nuvem recursos.    |
+|[Caixa postal na Nuvem configurações do usuário](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permite que os usuários configurem suas configurações de cliente para saudações de caixa postal, regras de atendimento de chamada e idioma de saudação, incluindo saudações fora do escritório. <br> Observe que *os usuários não precisam* de uma *Sistema de Telefonia, nem* precisam estar habilitados para voz para usar Caixa postal na Nuvem recursos.  |
 |[Anelador secundário](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)  | Os usuários com vários dispositivos de alto-falante conectados ao computador podem optar por definir um dispositivo secundário para tocar, além do alto-falante padrão. Por exemplo, um usuário com um fone de ouvido conectado ao computador e alto-falantes de mesa pode optar por ter fones de ouvido e alto-falantes de mesa tocar quando uma chamada chegar para que ele não perca uma chamada.  |
 |[Alertas de toque distintos](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (Teams somente) |Permite que os usuários escolham toques separados para chamadas normais, chamadas encaminhadas e chamadas delegadas para que possam distinguir o tipo de chamada.   |
 |[Aparência de linha compartilhada ](shared-line-appearance.md)  | Permite que os usuários compartilhem suas linhas telefônicas para que outro usuário possa fazer e receber chamadas em seu nome.|
