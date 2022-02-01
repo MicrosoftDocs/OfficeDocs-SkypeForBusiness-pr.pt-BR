@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: Aprenda a gerenciar o aplicativo Listas no Teams para usuários em sua organização.
 f1.keywords:
 - NOCSH
@@ -18,16 +19,17 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365initiative-lists
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829545"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288479"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Listas para sua organização no Microsoft Teams
 
@@ -35,7 +37,7 @@ ms.locfileid: "60829545"
 
 O aplicativo Listas no Microsoft Teams ajuda os usuários da sua organização a controlar informações, organizar o trabalho e gerenciar fluxos de trabalho. Com o Listas, os usuários podem acompanhar dados como problemas, ativos, rotinas, contatos, estoque, incidentes, empréstimos, pacientes e muito mais usando exibições, regras e alertas personalizáveis para manter todos na equipe em sincronia.
 
-No Teams, os usuários acessam o Listas como uma guia em um canal. Clique **+** para abrir a galeria de guias e adicionar uma nova instância de guia do aplicativo Listas a um canal para começar.
+No Teams, os usuários acessam o Listas como uma guia em um canal. Selecione **+** para abrir a galeria de guias e adicionar uma nova instância de guia de aplicativo Listas a um canal para começar.
 
 ![Lista aplicativo na galeria de guias.](media/lists-tab.png)
 
@@ -58,7 +60,7 @@ Uma agência local dos correios é responsável por classificar e entregar corre
 
 Após a reunião, os entregadores retiram a correspondência e iniciam a rota de entrega. Incidentes podem ocorrer ao longo de uma rota, por exemplo, um acidente de veículo, um problema relacionado a um cachorro ou distúrbios sociais. Quando os entregadores encontram um incidente, elas usam o Teams em seus dispositivos móveis para registrar os detalhes do incidente, que são acompanhados em uma lista no canal de equipe. Todos na equipe, incluindo os entregadores em campo, podem ver essas informações e manter-se informados.
 
-Antes de mudar para o Teams, os entregadores de correspondência tinham que voltar ao escritório para preencher um formulário impresso para relatar um incidente que, então, era inserido em uma planilha do Excel. O Teams dá aos entregadores de correspondência uma experiência móvel em que podem usar Listas para relatar incidentes em campo assim que acontecerem, compartilhar detalhes de incidentes com os membros da equipe, ter conversas sobre eles no canal e encaminhar incidentes para resolução.
+Antes de mudar para Teams, as operadoras de email tiveram que voltar para os correios para concluir um formulário de cópia impressa para relatar um incidente, que foi inserido em uma planilha de Excel. O Teams dá aos entregadores de correspondência uma experiência móvel em que podem usar Listas para relatar incidentes em campo assim que acontecerem, compartilhar detalhes de incidentes com os membros da equipe, ter conversas sobre eles no canal e encaminhar incidentes para resolução.
 
 ## <a name="what-you-need-to-know-about-lists"></a>O que você precisa saber sobre o Listas
 
@@ -96,8 +98,8 @@ O Listas é habilitado por padrão para todos os usuários do Teams em sua organ
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Siga um destes procedimentos:
 
-    - Para desativar o Listas para sua organização, pesquise o aplicativo Listas, selecione-o e clique em **Bloquear**.
-    - Para ativar o Listas para sua organização, pesquise o aplicativo Listas, selecione-o e clique em **Permitir**.
+    - Para desativar Listas para sua organização, procure o aplicativo Listas, selecione-o e selecione **Bloquear**.
+    - Para ativar Listas para sua organização, pesquise o aplicativo Listas, selecione-o e selecione **Permitir**.
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Habilite ou desabilite o Listas para usuários específicos em sua organização
 
@@ -105,7 +107,7 @@ Para permitir ou bloquear usuários específicos de usarem o Listas em sua organ
 
 ## <a name="search-the-audit-log-for-list-events"></a>Pesquisar o registro de auditoria de eventos listados
 
-As listas são habilitadas com a auditoria de nível corporativo para que você possa procurar listas e eventos de itens de lista no log de auditoria no Centro de Conformidade e Segurança. Para saber mais, confira [Pesquisar no log de auditoria no Centro de Conformidade e Segurança](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+As listas são habilitadas com a auditoria de nível empresarial para que você possa pesquisar listas e eventos de item de lista no log de auditoria no Centro de Conformidade & Segurança. Para saber mais, confira [Pesquisar no log de auditoria no Centro de Conformidade e Segurança](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 Para ver uma lista de eventos de auditoria relevantes para o aplicativo Listas no Teams, consulte [Atividades de lista do SharePoint](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
@@ -117,8 +119,8 @@ O Listas apoia o [Power Automate](/power-automate/flow-types) para fluxos de tra
 
 ## <a name="give-feedback-or-report-an-issue"></a>Fornecer comentários ou relatar problemas
   
-Para nos enviar comentários ou relatar um problema, clique em **Ajuda** na parte inferior da navegação à esquerda no Teams e selecione **Relatar um problema**. Selecione **Listas** e, em seguida, insira seus comentários ou detalhes sobre o problema que você está enfrentando.
+Para nos enviar comentários ou relatar um problema, selecione **Ajuda** na parte inferior da navegação esquerda no Teams e selecione **Relatar um problema**. Selecione **Listas** e, em seguida, insira seus comentários ou detalhes sobre o problema que você está enfrentando.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 - [Documentação da ajuda do Listas](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

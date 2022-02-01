@@ -10,21 +10,23 @@ search.appverid: ''
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Saiba mais sobre a experiência de junção para Teams virtuais em navegadores móveis.
-ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960110"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288558"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gerenciar a experiência de junção para Teams virtuais em navegadores móveis
 
@@ -50,13 +52,13 @@ Depois que esse recurso for ligado, o email de confirmação ou texto SMS enviad
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>Ativar a junção do navegador móvel para um tipo de compromisso
 
-No Bookings, vá para Configurações tipos de compromisso, selecione um tipo de compromisso e, em seguida, acione Permitir que os participantes participem de um navegador  >   **móvel** [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887). Isso permite que o navegador móvel participe de todos os compromissos desse tipo.
+No Bookings, vá para os tipos **Configurações** >  **Appointment**, selecione um tipo de compromisso e, em [seguida,](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) acione Permitir que os participantes participem **de um navegador móvel**. Isso permite que o navegador móvel participe de todos os compromissos desse tipo.
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Captura de tela do permitir que os participantes participem de uma configuração de navegador móvel para tipos de compromisso no aplicativo Bookings":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>Ativar a junção do navegador móvel para um compromisso individual
 
-No Bookings, selecione **Novo reserva** e, em seguida, a opção Permitir que os participantes participem de um **navegador móvel**.
+No Bookings, selecione **Nova reserva** e, em seguida, acione Permitir que os participantes **participem de um navegador móvel**.
 
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Captura de tela da configuração Permitir que os participantes participem de uma configuração do navegador móvel no novo formulário de reserva no aplicativo Bookings":::
 
@@ -66,7 +68,7 @@ Nenhuma configuração é necessária por você ou sua equipe!
 
 **Integração com o Cerner EHR**: o conector Teams EHR oferece suporte a pacientes que ingressaram em visitas virtuais por meio de dispositivos móveis. No momento do compromisso, os pacientes podem ingressar em uma visita virtual tocando no link na mensagem de texto SMS. O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
 
-**Integração com o EHR Épico**: o conector Teams EHR oferece suporte a pacientes que inserem visitas virtuais por meio de MyChart Web e mobile. No momento do compromisso, os pacientes podem iniciar uma visita virtual do MyChart usando o **botão Iniciar visita virtual.** O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
+**Integração com o EHR Épico**: o conector Teams EHR oferece suporte a pacientes que ingressarem em visitas virtuais por meio da Web e do MyChart para dispositivos móveis. No momento do compromisso, os pacientes podem iniciar uma visita virtual do MyChart usando o **botão Iniciar visita virtual** . O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
 
 ## <a name="supported-mobile-browsers"></a>Navegadores móveis com suporte
 
@@ -87,7 +89,7 @@ Aqui estão os navegadores móveis com suporte no momento. Suportamos a versão 
 O membro da equipe que conduz a visita virtual pode compartilhar sua tela de seu cliente Teams desktop, móvel ou Web com um participante que participa de um navegador móvel. No entanto, os participantes não podem compartilhar sua tela de um navegador móvel.
 
 > [!NOTE]
-> Estamos adicionando mais recursos à experiência de junção de reunião em versões futuras do Teams, portanto, verifique novamente as informações mais atualizadas. Para ficar por dentro dos recursos Teams futuros, confira [o roteiro Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+> Estamos adicionando mais recursos à experiência de junção de reunião em versões futuras do Teams, portanto, verifique novamente as informações mais atualizadas. Para ficar por dentro dos recursos Teams futuros, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="related-articles"></a>Artigos relacionados
 

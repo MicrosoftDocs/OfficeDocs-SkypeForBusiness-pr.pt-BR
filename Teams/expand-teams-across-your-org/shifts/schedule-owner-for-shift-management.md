@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: Saiba como gerenciar proprietários de turnos para gerenciamento de agendamento. Você pode definir uma política para elevar a permissão de um membro da equipe para um proprietário de agendamento.
 f1.keywords:
 - NOCSH
@@ -19,21 +20,22 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 12cf33f193e7f1d1a976e5cde8612df19108cb69
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627533"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288629"
 ---
 # <a name="schedule-owner-for-shift-management"></a>Agendar Proprietário para gerenciamento de turnos
 
 ## <a name="overview"></a>Visão Geral
 
-Agendar Proprietário é um recurso que permite elevar as permissões de um membro da equipe para um proprietário de agendamento sem tornar o funcionário um proprietário de equipe. Isso significa que o funcionário está autorizado a gerenciar a agenda de sua equipe sem poder modificar quaisquer outras propriedades de equipe, como atualização, edição ou exclusão de canais de equipe.
+O recurso Agendar Proprietário permite que você eleve as permissões de um membro da equipe para que ele possa gerenciar agendas sem tornar o funcionário um proprietário de equipe. Com as permissões Agendar Proprietário, um funcionário pode gerenciar a agenda de sua equipe sem poder modificar quaisquer outras propriedades de equipe, como atualização, edição ou exclusão de canais de equipe.
 
 O que um usuário com permissões de proprietário de agendamento pode fazer?
 
@@ -52,7 +54,7 @@ Veja um exemplo de como sua organização pode usar o recurso Agendar Proprietá
 
 Você trabalha em uma organização grande em que os gerentes de departamento reportam diretamente ao gerente da loja. O gerente da loja tem mais autoridade em sua empresa e é o proprietário da equipe em Shifts. Os gerentes de departamento, por outro lado, só são adicionados a Shifts como membros da equipe. Embora os gerentes de loja tenham mais antiguidades do que gerentes de departamento, faz mais sentido para os gerentes de departamento lidarem com o agendamento do dia a dia dos funcionários da equipe.
 
-*Sem o Proprietário do Agendamento,* os gerentes de departamento devem receber os mesmos privilégios que o proprietário da equipe. Recentemente, os gerentes de departamento têm mudado informações e mudado o nome dos canais, e isso causou complicações com o trabalho do gerente da loja. O gerente da loja deseja que os gerentes de departamentos sejam capazes de organizar seus cronogramas, mas não quer que eles sejam capazes de alterar qualquer outra coisa na equipe, fora de Shifts.
+*Sem o Proprietário do Agendamento*, os gerentes de departamento devem receber os mesmos privilégios que o proprietário da equipe. Recentemente, os gerentes de departamento têm mudado informações e mudado o nome dos canais, e isso causou complicações com o trabalho do gerente da loja. O gerente da loja deseja que os gerentes de departamentos sejam capazes de organizar seus cronogramas, mas não quer que eles sejam capazes de alterar qualquer outra coisa na equipe, fora de Shifts.
 
 *Com o Proprietário do* Agendamento, os gerentes de departamento podem receber privilégios de agendamento, sem quaisquer outros privilégios de proprietário da equipe.
 

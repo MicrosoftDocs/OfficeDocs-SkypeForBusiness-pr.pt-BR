@@ -10,25 +10,27 @@ search.appverid: ''
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
 description: Saiba como gerenciar o aplicativo Bookings em Teams para usuários em sua organização.
-ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111971"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288339"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gerenciar o aplicativo Bookings em Microsoft Teams
 
-O aplicativo Bookings no Microsoft Teams oferece uma maneira simples de agendar compromissos presenciais e virtuais, como visitas médicas, consultas financeiras, entrevistas, atendimento ao cliente, horário comercial e muito mais. Para saber mais, confira [Visitas virtuais com Teams e o aplicativo Bookings.](expand-teams-across-your-org/bookings-virtual-visits.md)
+O aplicativo Bookings no Microsoft Teams oferece uma maneira simples de agendar compromissos presenciais e virtuais, como visitas médicas, consultas financeiras, entrevistas, atendimento ao cliente, horário comercial e muito mais. Para saber mais, confira [Visitas virtuais com Teams e o aplicativo Bookings](expand-teams-across-your-org/bookings-virtual-visits.md).
 
 Os agendadores podem gerenciar vários calendários de departamentos e de funcionários, assim como comunicações com os participantes internos e externos em uma única experiência. Os próprios compromissos virtuais são realizados Microsoft Teams reuniões, que oferecem recursos robustos de videoconferência.
 
@@ -57,11 +59,11 @@ Há várias formas de controlar quem tem acesso ao aplicativo Bookings e aos rec
 
 Para saber como ativar ou desativar o Microsoft Bookings no Centro de administração do Microsoft 365 e como criar uma política de aplicativo do Bookings para permitir que os usuários selecionados criem calendários do Bookings, consulte Obter acesso ao [Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce).
 
-Você também pode criar uma política Teams configuração de [aplicativos para fixar o aplicativo Bookings para usuários selecionados.](teams-app-setup-policies.md)
+Você também pode [criar uma política Teams configuração de aplicativos para fixar o aplicativo Bookings para usuários selecionados](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Configurações de política de reunião recomendadas
 
-Para habilitar a melhor experiência para o Bookings,  crie uma política de Teams de reunião para admitir automaticamente Todos em sua organização e atribuir a política à sua equipe. Isso permite que a equipe participe do compromisso automaticamente e habilita a experiência de lobby para participantes externos. Saiba mais sobre como admitir [automaticamente as pessoas em reuniões.](meeting-policies-participants-and-guests.md#automatically-admit-people)
+Para habilitar a melhor experiência para o Bookings, crie uma política de Teams de reunião para  admitir automaticamente Todos em sua organização e atribuir a política à sua equipe. Isso permite que a equipe participe do compromisso automaticamente e habilita a experiência de lobby para participantes externos. Saiba mais sobre como admitir [automaticamente as pessoas em reuniões](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 ## <a name="optional-staff-approvals-setting"></a>Configuração opcional de aprovação de funcionários
 
@@ -98,7 +100,7 @@ Apreciamos seus comentários em:
   - Lacunas de recursos ou funcionalidade ausente
   - Bugs ou problemas
   
-Para enviar comentários, selecione o botão **Ajuda** próximo à parte inferior da barra de navegação Teams esquerda e selecione **Relatar um** problema para **todos os** problemas. Indique no início do relatório de comentários que você está enviando comentários sobre "Bookings" para que possamos identificar facilmente problemas do Bookings.
+Para enviar comentários, selecione o botão **Ajuda** na parte inferior da barra de navegação Teams esquerda e selecione **Relatar um** problema para **todos os** problemas. Indique no início do relatório de comentários que você está enviando comentários sobre "Bookings" para que possamos identificar facilmente problemas do Bookings.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
