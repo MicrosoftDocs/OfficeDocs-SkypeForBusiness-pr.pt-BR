@@ -1675,8 +1675,36 @@ items:
       - name: Teams para o Varejo
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
+          - name: Colaboração em equipe de varejo
+            href: expand-teams-across-your-org/retail-team-collaboration.md
+          - name: Simplifique os processos de negócios no Varejo
+            href: expand-teams-across-your-org/retail-business-processes.md
           - name: Usar modelos de equipe de varejo
             href: get-started-with-retail-teams-templates.md
+          - name: Assistente de integração de trabalhador da linha de frente
+            href: flw-onboarding-wizard.md
+          - name: Implementação com script de Trabalhadores de linha de frente
+            href: flw-scripted-deployment.md
+          - name: Turnos do Teams
+            items:
+              - name: Turnos do Teams
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+              - name: Gerenciar o aplicativo Turnos
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: Gerenciar o acesso baseado em turnos
+                href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: Walkie Talkie
+            href: walkie-talkie.md
+          - name: RealWear
+            href: flw-realwear.md
+          - name: Gerenciar o aplicativo Elogiar
+            href: manage-praise-app.md
+          - name: Gerenciar o aplicativo Tarefas
+            href: manage-tasks-app.md
+          - name: Gerenciar o aplicativo Listas
+            href: manage-lists-app.md
+          - name: Gerenciar o aplicativo de Aprovações no Teams
+            href: approval-admin.md
   - name: Referência
     items:
       - name: Especificações e limites do Teams
