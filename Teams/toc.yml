@@ -1754,8 +1754,10 @@ items:
                 href: exchange-hybrid-organization.md
               - name: Usar regras de fluxo de email com o Exchange
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
-          - name: Como o Microsoft Office SharePoint Online e o Microsoft OneDrive for Business for Business interagem com o Teams
-            href: sharepoint-onedrive-interact.md
+          - name: Visão geral da integração do Teams e do SharePoint
+            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+          - name: Gerenciar as configurações de integração do SharePoint e do Teams
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
       - name: Windows PowerShell do Teams
         items:
           - name: Visão Geral
