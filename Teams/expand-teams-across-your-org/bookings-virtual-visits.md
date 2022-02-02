@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Saiba como usar o aplicativo Bookings em Teams agendar, gerenciar e conduzir visitas virtuais.
-ms.openlocfilehash: 8d4ac6effa95751fa75a77d09b941bc74fa96af2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: ae74a4195bc8aa0deeca81221e70fe28890938ec
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288549"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312344"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
 
@@ -72,7 +72,7 @@ Para saber mais, confira [Criar um calendário do Bookings](https://support.micr
 
 ### <a name="add-staff"></a>Adicionar equipe
 
-No calendário de reserva, acesse **Mais opções** (...) > **Configurações** e selecione **Staff**. Adicione membros da equipe e atribua uma função a cada pessoa que você adicionar.
+No calendário de reserva, acesse **Mais opções** (...) > **Configurações** e selecione **Staff**. Adicione membros da equipe e atribua uma função a cada pessoa que você adicionar. Você pode adicionar até 100 membros da equipe a um calendário de reserva.
 
 O aplicativo Bookings se integra ao Outlook. Depois de adicionar funcionários, você poderá exibir a disponibilidade do calendário dessa pessoa e agendar reservas para elas. Para saber mais, confira [Adicionar equipe e exibir um calendário do Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
@@ -96,6 +96,19 @@ A confirmação de email enviada ao participante inclui o link de reunião e um 
 
 Em seu Teams ou Outlook calendário, vá para a reserva e selecione **Ingressar** ou o link Teams reunião. Verifique suas configurações de áudio e vídeo e selecione **Ingressar agora**. Para saber mais, confira [Conduzir um compromisso do Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
+## <a name="monitor-virtual-visits-and-get-real-time-status-updates"></a>Monitorar visitas virtuais e obter atualizações de status em tempo real
+
+A [exibição de](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) fila no Bookings fornece à sua equipe um painel para monitorar todos os compromissos virtuais do dia, com atualizações em tempo real. Para ver a fila, vá para a guia **Fila** no Bookings.
+
+:::image type="content" source="../media/bookings-virtual-visits-queue.png" alt-text="Captura de tela do exibição de fila no aplicativo Bookings em Teams" lightbox="../media/bookings-virtual-visits-queue.png":::
+
+Na fila, os agendadores podem adicionar uma nova reserva, exibir detalhes relevantes do compromisso e ver os status do compromisso ao longo do dia. Quando um paciente entra na sala de espera, o status muda e o tempo de espera é exibido e rastreado. O modo de exibição é atualizado automaticamente com atualizações codificadas por cores para que as alterações possam ser facilmente identificadas.
+
+A equipe pode até mesmo ingressar e gerenciar compromissos diretamente da fila.
+
+> [!NOTE]
+> Atualmente, o aplicativo Bookings dá suporte à adição de até 100 funcionários por calendário de reserva. Se você usou Graph APIs para configurar e adicionar funcionários a um calendário de reserva, esse limite pode não ser imposto. Nesse cenário, a guia **Fila** não poderá renderizar conteúdo para calendários com mais de 100 funcionários. Para uma experiência ideal, recomendamos que você adicione não mais de 100 funcionários a um calendário de reserva. Estamos trabalhando para resolver essa limitação em versões futuras.
+
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Recursos adicionais com o aplicativo Web do Bookings
 
 O aplicativo Web do Bookings oferece recursos adicionais. Por exemplo, você pode publicar uma página de reserva online de autoatend pois as pessoas podem agendar compromissos com sua equipe. Para acessar o aplicativo Web do Bookings, acesse **Mais opções** (...) > **aplicativo Web abrir Reservas**.
@@ -104,8 +117,8 @@ Para saber mais, confira [Microsoft Bookings](/microsoft-365/bookings/bookings-o
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Gerenciar a experiência de junção para Teams virtuais em navegadores móveis](mobile-browser-join.md)
+- [Gerenciar a experiência de junção para Teams virtuais em navegadores móveis](mobile-browser-join.md)
 
-[Começar a Teams para organizações de saúde](healthcare/teams-in-hc.md)
+- [Começar a Teams para organizações de saúde](healthcare/teams-in-hc.md)
 
-[Aplicativo bookings na documentação Teams ajuda](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Aplicativo bookings na documentação Teams ajuda](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)

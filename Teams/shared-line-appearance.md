@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Saiba como enviar aos usuários um email com suas informações de audioconferência em Microsoft Teams.
-ms.openlocfilehash: 057c9a91e1eab20ab7f9ece6c427b6c39ef762b9
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 1ec0b74bab289eaca1b1046eccebb870e8562a95
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462375"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312264"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Aparência de linha compartilhada no Microsoft Teams
 
@@ -40,7 +40,7 @@ A aparência de linha compartilhada faz parte do recurso de delegação que perm
 
 Um usuário deve ter Sistema de Telefonia conectividade PSTN (uma licença de Plano de Chamada ou Roteamento Direto OnlineVoiceRoutingPolicy) para ser um representante ou configurar a delegação e permitir que outras pessoas façam ou recebam chamadas em seu nome.
 
-Os gerentes e representantes precisam ter Sistema de Telefonia conectividade PSTN (uma licença de Plano de Chamadas ou Roteamento Direto OnlineVoiceRoutingPolicy). A experiência de linha compartilhada faz parte da delegação e está incluída no Sistema de Telefonia. Para obter detalhes adicionais sobre o modelo de licenciamento, [consulte Microsoft Teams descrição do serviço.](/office365/servicedescriptions/teams-service-description)
+Os gerentes e representantes precisam ter Sistema de Telefonia conectividade PSTN (uma licença de Plano de Chamadas ou Roteamento Direto OnlineVoiceRoutingPolicy). A experiência de linha compartilhada faz parte da delegação e está incluída no Sistema de Telefonia. Para obter detalhes adicionais sobre o modelo de licenciamento, [consulte Microsoft Teams descrição do serviço](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configurando a delegação e a aparência de linha compartilhada
 
@@ -57,16 +57,16 @@ O administrador de locatários também pode configurar relações de delegação
 
 No momento, a aparência de linha compartilhada é compatível com os seguintes aplicativos e dispositivos.
 
-| Recursos | Teams Área de trabalho | Teams Aplicativo Mac | Teams Aplicativo Web (Borda) |Teams aplicativo móvel iOS/Android | Teams Telefone IP |
+| Recursos | Teams Desktop | Teams Mac App | Teams Web App (Edge) |Teams aplicativo móvel iOS/Android | Teams IP |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | Configurar delegação | Sim | Sim | Sim | Não | Sim |
 | Receber chamadas em nome de outro | Sim | Sim | Sim | Sim | Sim |
 | Chamar um número de telefone em nome de outro | Sim | Sim | Sim | Sim | Sim |
 | Chamar um Teams usuário em nome de outro | Sim | Sim | Sim | Sim | Sim |
-| Consulte a exibição delegada de linhas compartilhadas | Sim | Sim | Sim | Não | Não |
-| Consulte a exibição delegada das atividades de chamada do gerente | Sim | Sim | Sim | Não | Não |
-| Consulte a exibição de gerente de representantes | Sim | Sim | Sim | Não | Não |
-| O representante ou o gerente pode segurar ou retomar | Sim | Sim | Sim | Não | Não |
+| Consulte a exibição delegada de linhas compartilhadas | Sim | Sim | Sim | Não | Sim |
+| Consulte a exibição delegada das atividades de chamada do gerente | Sim | Sim | Sim | Não | Sim |
+| Consulte a exibição de gerente de representantes | Sim | Sim | Sim | Não | Sim |
+| O representante ou o gerente pode segurar ou retomar | Sim | Sim | Sim | Não | Sim |
 
 ## <a name="limitations"></a>Limitações
 

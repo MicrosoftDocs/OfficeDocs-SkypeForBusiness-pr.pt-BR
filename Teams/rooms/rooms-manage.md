@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre como desenvolver e executar operações e manutenção contínuas para garantir que seus sistemas Salas do Microsoft Teams estão disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02faaec97837f61befaa5320f7d73b84e33d25c2
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 72e6a89e23ddb8874c6fe9e262759d2aab4522e7
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62298996"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312244"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gerenciar Salas do Microsoft Teams
 
@@ -117,7 +117,7 @@ A linha da frente é a opção de layout de exibição de reunião para Salas do
 
 | Teams dispositivo | Versão do aplicativo | Exibição frontal da sala |
 |--------------|-------------|-----------------------|
-|Salas do Microsoft Teams no Windows | 4.11.14.0 a 4.11.12.0 | Oferece suporte a exibições simples e duplas; Tamanho mínimo: 46 polegadas; Proporção de proporção 16:9 com resolução 1920*1080 ou 21:9 com resolução 2560x1080; Todas as exibições devem ser definidas em escala 100% em Windows configurações |
+|Salas do Microsoft Teams no Windows | 4.11.12.0 ou superior (a versão mais recente é recomendada) | Oferece suporte a exibições simples e duplas; Tamanho mínimo: 46 polegadas; Proporção de proporção 16:9 com resolução 1920*1080 ou 21:9 com resolução 2560x1080; Todas as exibições devem ser definidas em escala 100% em Windows configurações |
 
 Consulte [Salas do Microsoft Teams manutenção e operações](rooms-operations.md#change-scale-and-resolution), para ajustar suas configurações de exibição para atender aos requisitos da linha de frente.
 
