@@ -34,7 +34,7 @@ Se você não conhece o Teams e deseja saber mais, confira o nosso vídeo [Bem-V
 
 Não perca o nosso vídeo Bem-vindo ao Teams da administração do Teams (pouco mais de 3 minutos):
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vAJK]
 
 Se você estiver procurando a Ajuda do Teams para o usuário final, clique em **Ajuda** no lado esquerdo do aplicativo ou vá para a [Central de ajuda do Microsoft Teams](https://support.office.com/teams). Para treinamento, acesse [Treinamento do Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
