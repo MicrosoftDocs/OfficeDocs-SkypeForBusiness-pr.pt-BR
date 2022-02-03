@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88723107679314d5f30a26e1b3b41675e1454c81
-ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
+ms.openlocfilehash: db14472992880b17ee5fd68a0b0e426b3b8f497d
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62228988"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312274"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -58,12 +58,12 @@ Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamen
 |                                                       Fornecedor                                                        |       Produto       | Sem bypass de mídia | Bypass de mídia | Versão de software | 911 Compatível com o Provedor de Serviços* | Compatível com ELIN |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Compatível 7.20A.258 (Recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Compatível 7.20A.258 (Recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Compatível 7.20A.258 (Recomendado 7.40A.100)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Compatível 7.20A.258 (Recomendado 7.40A.100)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Suporte para 7.20A.258 (Recomendado 7.40A.250)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Suporte para 7.20A.258 (Recomendado 7.40A.250)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Suporte para 7.20A.258 (Recomendado 7.40A.250)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  Suporte para 7.20A.250 (recomendado 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  Compatível 7.20A.258 (Recomendado 7.40A.100)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Compatível 7.20A.258 (Recomendado 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  Suporte para 7.20A.258 (Recomendado 7.40A.250)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Suporte para 7.20A.258 (Recomendado 7.40A.250) |  &#10004;    |  &#10004;  |   
 |                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  Compatível 7.20A.258 (Recomendado 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [Comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       9.2, 8.2 e 7.2 com suporte (Recomendado 10.1)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       9.2, 8.2 e 7.2 com suporte (Recomendado 10.1)       |   &#10004; |    |

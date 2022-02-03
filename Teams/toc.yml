@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -495,8 +495,8 @@ items:
         href: turn-off-teams-native-file-upload-policy.md
       - name: Configurar a moderação de canal no Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Gerenciar componentes dinâmicos
-        href: live-components-in-teams.md
+      - name: Gerenciar componentes de loop
+        href: loop-components-in-teams.md
       - name: Integração de emails do Teams e Outlook
         href: teams-outlook-email-integration.md
       - name: Compartilhar para o Teams a partir do Outlook
@@ -1755,9 +1755,9 @@ items:
               - name: Usar regras de fluxo de email com o Exchange
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Visão geral da integração do Teams e do SharePoint
-            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Gerenciar as configurações de integração do SharePoint e do Teams
-            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: Windows PowerShell do Teams
         items:
           - name: Visão Geral

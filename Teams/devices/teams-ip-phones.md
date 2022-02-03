@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: cf05abdec5aeb09cd00627556494bb6cdb246d47
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: 795b500f2142a082c5d8be82de749a6a0e134a84
+ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62070909"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62329031"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -121,7 +121,7 @@ A seguir estão as versões mais recentes Teams de firmware e aplicativos de tel
 
 #### <a name="firmware-versions"></a>Versões de firmware
 
-Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar as versões instaladas correspondentes do aplicativo Microsoft Teams, Portal da Empresa e Agente de Administração. Encontre a versão do produto na coluna **Versão incluída do** produto e, em seguida, procure a versão do produto na tabela de versões do **aplicativo** anterior.
+Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar as versões instaladas correspondentes do aplicativo Microsoft Teams, Portal da Empresa e Agente de Administração. Encontre a versão do produto na coluna **Versão incluída do** produto e, em seguida, procure a versão do produto na tabela de versões **do aplicativo** anterior.
 
 | Modelo de dispositivo        | Versão do firmware     | Versão incluída do produto  |
 |:--------------------|:---------------------|:-------------------------|
@@ -167,7 +167,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 Consulte [Microsoft Teams conjunto de recursos de telefones](phones-for-teams.md) para obter informações sobre os recursos suportados por esses dispositivos.
 
-Consulte [Microsoft Teams displays](teams-displays.md).
+Consulte [Microsoft Teams exibições](teams-displays.md).
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Informações de versão do produto para Salas do Teams no Android
 
@@ -187,7 +187,7 @@ A seguir estão as versões mais recentes Salas do Teams em versões de firmware
 
 #### <a name="firmware-versions"></a>Versões de firmware
 
-Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar as versões correspondentes do aplicativo Microsoft Teams,  Portal da Empresa e Agente de Administração que são instaladas encontrando a versão do produto na coluna Versão incluída do produto. Em seguida, procure a versão do produto na tabela **versões do** aplicativo acima.
+Quando você instala uma nova versão de firmware em seu dispositivo, você pode determinar as versões correspondentes do aplicativo Microsoft Teams, Portal da Empresa e Agente de Administração que são instaladas encontrando a versão do produto na coluna Versão incluída do  produto. Em seguida, procure a versão do produto na tabela **versões do** aplicativo acima.
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto |
 |:--------------|:-----------------|:-------------------------|
@@ -239,7 +239,7 @@ A seguir estão as versões mais recentes Microsoft Teams displays de aplicativo
 
 #### <a name="firmware-versions"></a>Versões de firmware
 
-Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar as versões correspondentes do aplicativo Microsoft Teams,  Portal da Empresa e Agente de Administração que são instaladas encontrando a versão do produto na coluna Versão incluída do produto. Em seguida, procure a versão do produto na tabela **versões do** aplicativo acima.
+Quando você instala uma nova versão de firmware em seu dispositivo, você pode determinar as versões correspondentes do aplicativo Microsoft Teams, Portal da Empresa e Agente de Administração que são instaladas encontrando a versão do produto na coluna Versão incluída do  produto. Em seguida, procure a versão do produto na tabela **versões do** aplicativo acima.
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto|
 |:--------------|:-----------------|:-------------------------|
@@ -259,13 +259,14 @@ A seguir estão as versões mais recentes Microsoft Teams de firmware e aplicati
 
 #### <a name="firmware-versions"></a>Versões de firmware
 
-Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar as versões correspondentes do aplicativo Microsoft Teams,  Portal da Empresa e Agente de Administração que são instaladas encontrando a versão do produto na coluna Versão incluída do produto. Em seguida, procure a versão do produto na tabela **versões do** aplicativo acima.
+Quando você instala uma nova versão de firmware em seu dispositivo, você pode determinar as versões correspondentes do aplicativo Microsoft Teams, Portal da Empresa e Agente de Administração que são instaladas encontrando a versão do produto na coluna Versão incluída do  produto. Em seguida, procure a versão do produto na tabela **versões do** aplicativo acima.
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto|
 |:--------------|:-----------------|:-------------------------|
 |Crestron -TSS770| `1.004.0115` |Atualização 2021 #1 |
 |Crestron-TSS1070 | `1.004.0115` |Atualização 2021 #1 |
 |Yealink RoomPanel | `147.15.0.17` |Atualização 2021 #1 |
+|Logitech Tap Scheduler | `1.5.209` |Atualização 2021 #1 |
 
 
 
@@ -275,7 +276,7 @@ Consulte [Microsoft Teams conjunto de recursos de telefones](phones-for-teams.md
 
 Consulte [Localizar a versão de Firmware em um dispositivo móvel](phones-for-teams.md) para determinar a versão de firmware do dispositivo em seu dispositivo móvel.
 
-Microsoft Teams licenças podem ser compradas como parte de Microsoft 365 [ou Office 365 assinaturas](/office365/servicedescriptions/teams-service-description). Para saber mais sobre as licenças necessárias para o uso Microsoft Teams telefones, consulte licenças do sistema [de telefonia disponíveis.](https://products.office.com/microsoft-teams/voice-calling)
+Microsoft Teams licenças podem ser compradas como parte de Microsoft 365 [ou Office 365 assinaturas](/office365/servicedescriptions/teams-service-description). Para saber mais sobre as licenças necessárias para o uso Microsoft Teams telefones, consulte [licenças do sistema de telefonia disponíveis](https://products.office.com/microsoft-teams/voice-calling).
 
 Para obter mais informações sobre Teams, confira [Como obter acesso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
