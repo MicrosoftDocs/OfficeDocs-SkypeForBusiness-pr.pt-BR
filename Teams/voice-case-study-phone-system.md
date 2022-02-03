@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams caso de voz para corporação multi-nacional: sistema de telefonia'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1221ff8fe47e26f04df621f99a0d4cd1a85a3205fcede766b7cc78189251708
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c83cd07cb8943c19b783658a15db99351d11f995
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316587"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353366"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Estudo de caso contoso: Sistema de Telefonia para uma empresa multi-nacional
 
@@ -34,7 +34,7 @@ Dependendo da localização geográfica e de outros fatores, a Contoso tinha esc
 - Tipo de site C: uma combinação de Skype for Business Enterprise Voice e sistemas de telefonia herdados tradicionais
 
 
-Para implementar uma solução Telefone Microsoft System para toda a organização, a Contoso precisava determinar para cada tipo de site qual das seguintes opções seria usada com o Sistema de Telefonia para se conectar à &mdash; PSTN (Rede Telefônica Pública Comucionária): &mdash;
+Para implementar uma solução Telefone Microsoft System para toda a organização, a Contoso&mdash; precisava determinar para cada tipo de site&mdash; qual das seguintes opções seria usada com Sistema de Telefonia para se conectar à PSTN (Rede Telefônica Pública Comucionária):
 
 - Sistema de Telefonia com Plano de Chamada 
 
@@ -42,13 +42,13 @@ Para implementar uma solução Telefone Microsoft System para toda a organizaç�
 
 - Combinação de Sistema de Telefonia com Plano de Chamadas e Sistema de Telefonia com a própria operadora PSTN por meio de Roteamento Direto
  
-Para determinar a solução certa para sua organização, a Contoso usou soluções de telefonia [da Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions) e a sessão ignite 2019 chamando [em Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
+Para determinar a solução certa para sua organização, a Contoso usou [Plan your Teams voice solution](/SkypeForBusiness/cloud-voice-landing-page) e a sessão Ignite 2019 [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>Tipo de site A: Skype for Business Enterprise Voice 
 
 Contoso Skype for Business Enterprise Voice foi configurada como hub e falada. Havia um local central que mantinha o gateway PSTN na região que forneceu a conexão com o PSTN para os usuários Skype for Business Enterprise Voice no país. Muitas vezes, esses escritórios via satélite não têm sua própria saída da Internet. Os números desses usuários residiam no tronco SIP que se conecta a um SBC existente. 
 
-Para determinar se o SBC já implantado está certificado para Roteamento Direto e Desvio de Mídia, a Contoso verificou a Lista de Controladores de Borda de Sessão [certificados para Roteamento Direto.](direct-routing-border-controllers.md)  
+Para determinar se o SBC já implantado está certificado para Roteamento Direto e Desvio de Mídia, a Contoso verificou a Lista de Controladores de Borda de Sessão [certificados para Roteamento Direto](direct-routing-border-controllers.md).  
 
 Os hábitos de discagem do usuário eram discar um usuário no sistema de telefonia herdado usando uma extensão, mesmo quando o usuário tem um cliente Skype for Business disponível para áudio ponto a ponto. 
 
@@ -101,8 +101,8 @@ Com base nas respostas às suas perguntas, a Contoso decidiu:
 
 Os diagramas a seguir mostram a implantação do sistema herdados original com sites remotos e a migração para uma implantação de Roteamento Direto com Otimização de Mídia Local:
 
-**Implantação herdda original**  
- ![ Um diagrama mostra estados antes e depois.](media/voice-case-study-2.png)
+**Implantação herdda original** 
+![ Um diagrama mostra estados antes e depois.](media/voice-case-study-2.png)
 
 
 **Implantação com Roteamento Direto**
@@ -136,16 +136,16 @@ Com base nas respostas às suas perguntas, a Contoso decidiu o seguinte:
 
 Os diagramas a seguir mostram a implantação do sistema de telefonia Skype for Business Enterprise Voice e herdada e a migração para uma implantação mista usando Roteamento Direto:
 
-**Implantação mista original** 
- ![ Diagrama 1 mostrando o estado anterior.](media/voice-case-study-4.png)
+**Implantação mista original**
+![ Diagrama 1 mostrando o estado anterior.](media/voice-case-study-4.png)
 
-**Implantação mista com Roteamento Direto** 
- ![ Diagrama 2 mostrando o estado anterior.](media/voice-case-study-4a.png)
+**Implantação mista com Roteamento Direto**
+![ Diagrama 2 mostrando o estado anterior.](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>Planos de Chamadas
 
-Para determinar os requisitos de configuração para Planos de Chamada, a Contoso analisou as decisões principais de [implantação do Plano de Chamada.](calling-plan-landing-page.md#core-deployment-decisions) As decisões resultantes foram tomadas: 
+Para determinar os requisitos de configuração para Planos de Chamada, a Contoso analisou as decisões principais de [implantação do Plano de Chamada](calling-plan-landing-page.md#core-deployment-decisions). As decisões resultantes foram tomadas: 
 
 - Q. Meus usuários precisam de chamada internacional?<br> A. Sim 
 
@@ -167,20 +167,20 @@ A Contoso participou do Ignite para se manter Office 365 recursos, incluindo aqu
 
 ### <a name="calling-plans-sites"></a>Sites de Planos de Chamada
 
-Para obter licenças e atribuir números de telefone aos usuários, a Contoso seguiu as etapas em [Configurar Planos de Chamadas.](set-up-calling-plans.md) 
+Para obter licenças e atribuir números de telefone aos usuários, a Contoso seguiu as etapas em [Configurar Planos de Chamadas](set-up-calling-plans.md). 
 
-Devido ao número de usuários que precisavam ser atribuídos números de telefone, a Contoso decidiu usar o PowerShell para atribuir os números de telefone. Para saber como atribuir números usando o PowerShell, além de outras configurações, a Contoso usou o Teams &mdash; &mdash; Visão Geral do [PowerShell.](teams-powershell-overview.md)  
+Devido ao número de usuários que precisavam ser atribuídos números de telefone, a Contoso decidiu usar o PowerShell para atribuir os números de telefone. Para saber como atribuir números usando o PowerShellin&mdash;&mdash;, além de outras configuraçõesContoso usou a visão [geral Teams PowerShell](teams-powershell-overview.md).  
 
 ### <a name="direct-routing-sites"></a>Sites de Roteamento Direto
 
-Para conectar a infraestrutura de telefonia local da Contoso ao Microsoft Teams, o administrador da Contoso seguiu [](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) as etapas em [Configurar](direct-routing-configure.md) Roteamento Direto e reviu o vídeo Roteamento Direto no Microsoft Teams para obter orientação.  A Contoso também se referiu à documentação de implantação de roteamento direto pelo fornecedor SBC certificado. 
+Para conectar a infraestrutura de telefonia local da Contoso ao Microsoft Teams, o administrador da Contoso seguiu as etapas em [Configurar](direct-routing-configure.md) Roteamento Direto e reviu o vídeo Roteamento [](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) Direto no Microsoft Teams para obter orientação.  A Contoso também se referiu à documentação de implantação de roteamento direto pelo fornecedor SBC certificado. 
 
 Depois que o Roteamento Direto foi configurado entre o SBC e Telefone Microsoft System, foi necessário que a Contoso testa a configuração. Para fazer isso, os administradores da Contoso usaram o cliente testador SIP que foi discutido na sessão Atualizações para Roteamento Direto no [Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions). O script e a documentação do cliente do Testador SIP foram baixados do script do PowerShell para testar conexões do Controlador de Borda de Sessão de Roteamento Direto.   
 
 
 ### <a name="local-media-optimization"></a>Otimização de mídia local
 
-A Contoso viu a oportunidade de aproveitar a Otimização de Mídia Local nas diferentes regiões do mundo. Os cenários com suporte para Contoso são descritos em [Otimização de Mídia Local para Roteamento Direto.](direct-routing-media-optimization.md) A configuração da otimização de mídia local foi concluída seguindo as diretrizes do fornecedor SBC e da Microsoft. As etapas de configuração para Otimização de Mídia Local incluem: 
+A Contoso viu a oportunidade de aproveitar a Otimização de Mídia Local nas diferentes regiões do mundo. Os cenários com suporte para Contoso são descritos em [Otimização de Mídia Local para Roteamento Direto](direct-routing-media-optimization.md). A configuração da otimização de mídia local foi concluída seguindo as diretrizes do fornecedor SBC e da Microsoft. As etapas de configuração para Otimização de Mídia Local incluem: 
 
 - Configurar o usuário e os sites SBC 
 
@@ -198,5 +198,5 @@ A Contoso viu a oportunidade de aproveitar a Otimização de Mídia Local nas di
 
 A Contoso tinha vários usuários que precisavam trabalhar remotamente por um longo período de tempo depois que eles estavam habilitados para Sistema de Telefonia. Os usuários usavam VPN para acessar determinados aplicativos de Linha de Negócios. Durante a VPN, os usuários Sistema de Telefonia experimentaram uma degradação da qualidade da chamada. 
 
-Para resolver o problema de qualidade, a Contoso implementou o túnel dividido de VPN, o que permitiu que seu tráfego Office 365 atravessasse a Internet enquanto a conexão com os aplicativos internos permanecesse na VPN. Para implementar o túnel dividido de VPN, a Contoso seguiu as diretrizes em Implementar o túnel dividido de [VPN para](/office365/enterprise/office-365-vpn-implement-split-tunnel)Office 365 .  
+Para resolver o problema de qualidade, a Contoso implementou o túnel dividido de VPN, o que permitiu que seu tráfego Office 365 atravessasse a Internet enquanto a conexão com os aplicativos internos permanecesse na VPN. Para implementar o túnel dividido de VPN, a Contoso seguiu as diretrizes em Implementar o túnel [dividido de VPN para](/office365/enterprise/office-365-vpn-implement-split-tunnel) Office 365.  
 
