@@ -1,7 +1,7 @@
 ---
 title: Instalar a integração do Moodle com o Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 061978876e9e8c092f19049ca5f44dd81a9b1012
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 95b368bab33818332ca9c2d0eafcb1966fffb3af
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592297"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363037"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Instalando a integração do Moodle com o Microsoft Teams
 
@@ -62,7 +62,7 @@ A integração Moodle no Microsoft Teams é produzida pelo [pacote do plug-in do
 1. Entre no servidor Moodle como administrador e selecione **Administração de site** no painel de navegação esquerdo.
 1. Selecione a guia **Plug-ins** e, em seguida, clique em **Instalar plug-ins**.
 1. Na seção **Instalar plug-in do arquivo ZIP**, clique no botão **Escolha um arquivo**.
-1. Selecione o **Upload uma opção de** arquivo na navegação à esquerda, navegue até o arquivo que você baixou acima e clique Upload este **arquivo**.
+1. Selecione o **Upload uma opção de** arquivo na navegação à esquerda, procure o arquivo que você baixou acima e clique **Upload este arquivo**.
 1. Selecione a opção **Administração do site** no painel de navegação à esquerda novamente, para retornar ao seu painel de administração. Role a tela para baixo até **Plug-ins locais** e clique no link **Integração do Microsoft Office 365**. Mantenha a página de configuração aberta em uma guia separada do navegador, pois ela será usada durante todo o restante deste processo.
 
 Você pode encontrar mais informações sobre como instalar plug-ins do Moodle na [documentação do Moodle](https://docs.moodle.org/34/en/Installing_plugins).

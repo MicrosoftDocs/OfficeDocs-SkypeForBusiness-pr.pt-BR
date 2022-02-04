@@ -2,8 +2,8 @@
 title: Teams para o ensino
 description: Saiba mais sobre os recursos de administrador disponíveis para ajudá-lo a implantar, adotar e gerenciar Teams em sua escola ou instituição.
 ms.topic: conceptual
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: admin
 f1.keywords:
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 563cf727031ebad6f27c7989499a95040e8fa104
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 15c79d06ce16ea0ee3a75753aade487d40468131
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863138"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363007"
 ---
 # <a name="teams-for-education"></a>Teams para o ensino
 

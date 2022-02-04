@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Saiba mais sobre Teams opções de chamada (conectividade PSTN) e as decisões que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: b82404e23a2443efb06582664a206a6a43cad770
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015271"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363237"
 ---
 # <a name="pstn-connectivity-options"></a>Opções de conectividade PSTN
 
@@ -43,7 +43,7 @@ Para conectar Teams Telefone ao PSTN, você pode escolher entre as seguintes op�
 
 - [**Operador Conexão**](#teams-phone-with-operator-connect). Com o Conexão operador, se sua operadora existente for participante do programa Conexão microsoft operator, eles poderão gerenciar a chamada PSTN e os Controladores de Borda de Sessão (SBCs). 
 
-- [**Roteamento**](#teams-phone-with-direct-routing)Direto , que permite que você use sua própria operadora PSTN conectando seus Controladores de Borda de Sessão (SBC) a Teams Telefone.
+- [**Roteamento**](#teams-phone-with-direct-routing) Direto, que permite que você use sua própria operadora PSTN conectando seus Controladores de Borda de Sessão (SBC) a Teams Telefone.
 
 
 Você também pode escolher uma combinação de opções, que permite projetar uma solução para um ambiente complexo ou gerenciar uma migração em várias etapas.
@@ -67,7 +67,7 @@ Com esta opção:
 
 - Você pode Teams Telefone com planos de chamada domésticos ou internacionais que permitem a chamada para telefones em todo o mundo (dependendo do nível de serviço que está sendo licenciado).
 
-- Você não exige implantação ou manutenção de uma implantação local porque o Plano de Chamada &mdash; opera fora do Microsoft 365.
+- Você não precisa de implantação ou manutenção de uma implantação local&mdash; porque o Plano de Chamada opera fora do Microsoft 365.
 
 - Observação: se necessário, você pode optar por conectar um Controlador de Borda de Sessão (SBC) com suporte por meio de Roteamento Direto para interoperabilidade com PBXs de terceiros, dispositivos analógicos e outros equipamentos de telefonia de terceiros suportados pelo SBC.
 
@@ -83,7 +83,7 @@ Para obter mais informações sobre o Plano de Chamada, consulte os seguintes ar
 
 ## <a name="teams-phone-with-operator-connect"></a>Teams Telefone com operador Conexão
 
-Com o Conexão operador, atualmente em visualização pública, se sua operadora existente for participante do programa de Conexão do Microsoft Operator, eles poderão gerenciar o serviço para trazer a chamada PSTN para Teams. Sua operadora gerencia os serviços de chamada PSTN e controladores de borda de sessão (SBCs), permitindo que você salve na compra e gerenciamento de hardware.
+Com o Conexão operador, se sua operadora existente for participante do programa Conexão microsoft operator, eles poderão gerenciar o serviço para trazer a chamada PSTN para Teams. Sua operadora gerencia os serviços de chamada PSTN e controladores de borda de sessão (SBCs), permitindo que você salve na compra e gerenciamento de hardware.
 
 O Conexão operador pode ser a solução certa para sua organização se:
 
@@ -115,7 +115,7 @@ Com esta opção:
 
 - Você pode optar por configurar e gerenciar essa opção, ou ela pode ser configurada e gerenciada por sua operadora ou parceiro (pergunte se sua operadora ou parceiro fornece essa opção).
 
-- Você pode configurar a interoperabilidade entre seu equipamento de telefonia, como um PBX de terceiros e &mdash; dispositivos analógicos &mdash; e Teams Telefone.
+- Você pode configurar a interoperabilidade entre seus&mdash; equipamentos de telefonia, como um PBX de terceiros e dispositivos&mdash; analógicos e Teams Telefone.
 
 Esta opção requer o seguinte:
 
@@ -138,7 +138,7 @@ Para obter mais informações sobre Roteamento Direto, consulte os seguintes art
 
 ## <a name="configuration-considerations"></a>Considerações sobre configuração
 
-A maioria Teams Telefone recursos são os mesmos, independentemente da opção de conectividade PSTN escolhida. Por exemplo, as configurações de chamada sem resposta e encaminhamento, transferência de chamada, música personalizada em espera, estacionamento de chamadas, linha compartilhada e aplicativos de voz estão disponíveis. Para obter uma lista completa de Teams Telefone recursos, consulte Aqui está [o que você obter com Teams Telefone](here-s-what-you-get-with-phone-system.md).
+A maioria Teams Telefone recursos são os mesmos, independentemente da opção de conectividade PSTN escolhida. Por exemplo, as configurações de chamada sem resposta e encaminhamento, transferência de chamada, música personalizada em espera, estacionamento de chamadas, linha compartilhada e aplicativos de voz estão disponíveis. Para obter uma lista completa de Teams Telefone recursos, consulte [Aqui está o que você obter com Teams Telefone](here-s-what-you-get-with-phone-system.md).
 
 No entanto, há algumas diferenças na funcionalidade que afetam a forma como você configura determinados Teams Telefone recursos. Por exemplo, o Roteamento Direto exige etapas adicionais para configurar o roteamento de chamadas. Como outro exemplo, o Roteamento Direto fornece o Roteamento Baseado em Local (LBR), para que você possa restringir o desvio de chamada de chamada em determinados locais geográficos onde ele não é permitido. 
 
@@ -166,7 +166,7 @@ A forma como você adquire e gerencia números de telefone difere dependendo da 
 
 - Para obter informações sobre como gerenciar números de telefone para o Plano de Chamadas, consulte [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- Para obter informações sobre como gerenciar números de telefone com operador Conexão, consulte Configurar números de telefone [com operador Conexão](operator-connect-configure.md#set-up-phone-numbers).
+- Para obter informações sobre como gerenciar números de telefone com operador Conexão, consulte [Configurar números de telefone com operador Conexão](operator-connect-configure.md#set-up-phone-numbers).
 
 - Para obter informações sobre como gerenciar números de telefone para Roteamento Direto, consulte [Configure the phone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
@@ -179,7 +179,7 @@ A forma como você configura o roteamento de chamadas difere dependendo da sua o
 
 - Para operador Conexão, a maior parte do roteamento de chamadas é gerenciada pela operadora.  Configure os planos de discagem do usuário para fins de conversão de número para autorização de chamada e roteamento de chamadas. Para obter mais informações, consulte [O que são planos de discagem?](what-are-dial-plans.md).
 
-- Para Roteamento Direto, você deve configurar o roteamento de chamadas especificando as rotas de voz e atribuindo políticas de roteamento de voz aos usuários. Você pode configurar planos de discagem para conversão de número no nível do tronco para garantir a interoperabilidade com controladores de borda de sessão (SBCs). Para obter mais informações, consulte [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), Manage voice routing [policies](manage-voice-routing-policies.md) and Translate [phone numbers](direct-routing-translate-numbers.md). 
+- Para Roteamento Direto, você deve configurar o roteamento de chamadas especificando as rotas de voz e atribuindo políticas de roteamento de voz aos usuários. Você pode configurar planos de discagem para conversão de número no nível do tronco para garantir a interoperabilidade com controladores de borda de sessão (SBCs). Para obter mais informações, consulte [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md) and [Translate phone numbers](direct-routing-translate-numbers.md). 
 
 
 ### <a name="location-based-routing-for-direct-routing"></a>Location-Based roteamento para roteamento direto

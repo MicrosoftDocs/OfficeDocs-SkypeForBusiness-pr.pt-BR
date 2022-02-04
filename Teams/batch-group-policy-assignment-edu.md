@@ -1,7 +1,7 @@
 ---
 title: Atribuir políticas a grandes conjuntos de usuários em sua escola
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,29 +17,29 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como atribuir políticas a grandes conjuntos de usuários em sua instituição educacional com base na associação ao grupo ou diretamente por meio de uma atribuição em lotes para fins de escola remota (teleescola, teleescola).
 f1keywords: ''
-ms.openlocfilehash: 7a2321a42910eee77ef9dff3c3aba3165cba156a
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: 3cfde2dc523904f571b696e63ea7a5da16afff26
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785074"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62362987"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Atribuir políticas a grandes conjuntos de usuários em sua escola
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Para saber mais sobre como atribuir políticas em Microsoft Teams, consulte Atribuir políticas aos usuários [em Teams](policy-assignment-overview.md).
+> Para saber mais sobre como atribuir políticas em Microsoft Teams, consulte [Atribuir políticas aos usuários em Teams](policy-assignment-overview.md).
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Você precisa dar aos alunos e educadores acesso a diferentes recursos no Microsoft Teams? Você pode identificar rapidamente os usuários em sua organização por tipo de licença e atribuí-los a política apropriada. Este tutorial mostra como atribuir uma política de reunião a grandes conjuntos de usuários em sua escola. Você pode atribuir políticas usando o centro de administração Microsoft Teams e o PowerShell e mostraremos as duas maneiras.
 
 Você pode atribuir uma política de reunião a um grupo de segurança de que os usuários são membros ou diretamente aos usuários em escala por meio de uma atribuição de política em lotes. Você aprenderá a:
 
-- **Use [a atribuição de política](#assign-a-policy-to-a-group) a grupos para atribuir uma política de reunião a um grupo de segurança (recomendado)**. Esse método permite atribuir uma política com base na associação ao grupo. Você pode atribuir uma política a um grupo de segurança ou lista de distribuição. À medida que os membros são adicionados ou removidos do grupo, suas atribuições de política herdadas são atualizadas de acordo. Recomendamos que você use esse método porque reduz o tempo para gerenciar políticas para novos usuários ou quando as funções dos usuários mudam. Esse método funciona melhor para grupos de até 50.000 usuários, mas também funcionará com grupos maiores.
+- **Use [a atribuição de política a grupos](#assign-a-policy-to-a-group) para atribuir uma política de reunião a um grupo de segurança (recomendado)**. Esse método permite atribuir uma política com base na associação ao grupo. Você pode atribuir uma política a um grupo de segurança ou lista de distribuição. À medida que os membros são adicionados ou removidos do grupo, suas atribuições de política herdadas são atualizadas de acordo. Recomendamos que você use esse método porque reduz o tempo para gerenciar políticas para novos usuários ou quando as funções dos usuários mudam. Esse método funciona melhor para grupos de até 50.000 usuários, mas também funcionará com grupos maiores.
 
-- **Use [a atribuição de política em lote](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) para atribuir uma política de reunião diretamente aos usuários em massa.** Você pode atribuir uma política para até 5.000 usuários por vez. Se você tiver mais de 5.000 usuários, poderá enviar vários lotes. Com esse método, quando você tiver novos usuários, precisará executar a atribuição em lotes para atribuir a política a esses novos usuários.
+- **Use [a atribuição de política em lote](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) para atribuir uma política de reunião diretamente aos usuários em massa**. Você pode atribuir uma política para até 5.000 usuários por vez. Se você tiver mais de 5.000 usuários, poderá enviar vários lotes. Com esse método, quando você tiver novos usuários, precisará executar a atribuição em lotes para atribuir a política a esses novos usuários.
 
 Lembre-se de Teams, os usuários receberão automaticamente a política Global (padrão em toda a organização) para um tipo de política Teams, a menos que você crie e atribua uma política personalizada. Como a população de alunos geralmente é o maior conjunto de usuários e eles geralmente recebem as configurações mais restritivas, recomendamos que você faça o seguinte:
 
@@ -62,7 +62,7 @@ Siga estas etapas para criar um grupo de segurança para sua equipe e educadores
 > [!IMPORTANT]
 > Quando você atribui uma política a um grupo, a atribuição de política é propagada aos membros do grupo de acordo com as regras de precedência. Por exemplo, se um usuário recebe diretamente uma política (individualmente ou por meio de uma atribuição em lotes), essa política tem precedência sobre uma política herdada de um grupo. Isso também significa que, se um usuário tiver uma política de reunião atribuída diretamente a ele, você terá que remover essa política de reunião do usuário antes que ele possa herdar uma política de reunião de um grupo de segurança.
 
-Antes de começar, é importante entender as regras [de precedência](policy-assignment-overview.md#which-policy-takes-precedence) e a classificação [de atribuição de grupo.](assign-policies-users-and-groups.md#group-assignment-ranking) Leia e entenda os conceitos em O que você precisa saber sobre a atribuição de **política a [grupos.](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)**
+Antes de começar, é importante entender as regras [de precedência](policy-assignment-overview.md#which-policy-takes-precedence) e a classificação [de atribuição de grupo](assign-policies-users-and-groups.md#group-assignment-ranking). **Leia e entenda os conceitos em [O que você precisa saber sobre a atribuição de política a grupos](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)**.
 
 Você precisará concluir todas essas etapas para que sua equipe e educadores herdem uma política de reunião de um grupo de segurança.
 
@@ -74,9 +74,9 @@ Você precisará concluir todas essas etapas para que sua equipe e educadores he
 
 Primeiro, crie um grupo de segurança para sua equipe e educadores.
 
-Com [School Data Sync](/SchoolDataSync/) (SDS), você pode facilmente criar educadores e [alunos](/SchoolDataSync/edu-security-groups) de grupos de segurança em sua escola. Recomendamos que você use o SDS para criar os grupos de segurança necessários para gerenciar políticas para sua escola.
+Com [School Data Sync](/SchoolDataSync/) (SDS), você pode criar facilmente [educadores e alunos](/SchoolDataSync/edu-security-groups) de grupos de segurança em sua escola. Recomendamos que você use o SDS para criar os grupos de segurança necessários para gerenciar políticas para sua escola.
 
-Se você não conseguir implantar o SDS em seu ambiente, use este script do [PowerShell](scripts/powershell-script-security-groups-edu.md) para criar dois grupos de segurança, um para todos os funcionários e educadores com uma licença de Docente atribuída e outro para todos os alunos que têm uma licença de aluno atribuída. Você precisará executar esse script rotineiramente para manter os grupos atualizados e atualizados.
+Se você não conseguir implantar o SDS em seu ambiente, use este [script do PowerShell](scripts/powershell-script-security-groups-edu.md) para criar dois grupos de segurança, um para todos os funcionários e educadores com uma licença de Docente atribuída e outro para todos os alunos que têm uma licença de aluno atribuída. Você precisará executar esse script rotineiramente para manter os grupos atualizados e atualizados.
 
 ### <a name="assign-a-policy-to-a-security-group"></a>Atribuir uma política a um grupo de segurança
 
@@ -87,15 +87,15 @@ Se você não conseguir implantar o SDS em seu ambiente, use este script do [Pow
 
 1. Na barra de navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Reuniões** > **Políticas de Reunião**.
 2. Selecione a **guia Atribuição de política de** grupo.
-3. Selecione **Adicionar grupo** e, em seguida, no painel Atribuir **política** ao grupo, faça o seguinte:
+3. Selecione **Adicionar grupo** e, no painel **Atribuir política** ao grupo, faça o seguinte:
 
     ![Captura de tela do painel Editar configurações, mostrando a política de reunião.](media/batch-group-policy-assignment-edu-group.png)
-    1. Na caixa **Selecionar um grupo,** pesquise e adicione o grupo de segurança que contém sua equipe e educadores.
-    2. Na caixa **Selecionar classificação,** digite **1**.
-    3. Na caixa **Selecionar uma política,** selecione **EducatorMeetingPolicy**.
+    1. Na caixa **Selecionar um grupo** , pesquise e adicione o grupo de segurança que contém sua equipe e educadores.
+    2. Na caixa **Selecionar classificação** , digite **1**.
+    3. Na caixa **Selecionar uma política** , selecione **EducatorMeetingPolicy**.
     4. Selecione **Aplicar**.
 
-Para remover uma atribuição de política de grupo, na **guia** Atribuição de política de grupo da página de política, selecione a atribuição de grupo e selecione **Remover**.
+Para remover uma atribuição de política de grupo, **na guia** Atribuição de política de grupo da página de política, selecione a atribuição de grupo e selecione **Remover**.
 
 Para alterar a classificação de uma atribuição de grupo, você precisa primeiro remover a atribuição de política de grupo. Em seguida, siga as etapas acima para atribuir a política a um grupo.
 
@@ -251,7 +251,7 @@ M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 Neste exemplo, a saída mostra que a licença de docente SkuId é "e97c048c-37a4-45fb-ab50-922fbf07a370".
 
 > [!NOTE]
-> Para ver uma lista de IDs education SKUs e SKU, consulte [Education SKU reference](sku-reference-edu.md).
+> Para ver uma lista de SKUs education e IDs SKU, consulte [Education SKU reference](sku-reference-edu.md).
 
 Em seguida, executemos o seguinte para identificar os usuários que têm essa licença e colecioná-los todos juntos.
 
@@ -270,7 +270,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> Para atribuir um tipo de política diferente em massa, como TeamsMessagingPolicy, você precisará alterar para a política que você está atribuindo e para o nome ```PolicyType``` ```PolicyName``` da política.
+> Para atribuir um tipo de política diferente em massa, como TeamsMessagingPolicy, ```PolicyType``` ```PolicyName``` você precisará alterar para a política que você está atribuindo e para o nome da política.
 
 #### <a name="get-the-status-of-a-bulk-assignment"></a>Obter o status de uma atribuição em massa
 
@@ -300,7 +300,7 @@ Em vez de fornecer toda a lista de IDs de usuário, execute o seguinte para espe
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-Você pode alterar o intervalo de IDs de usuário até chegar à lista completa de usuários. Por exemplo, insira o primeiro lote, use para o segundo lote, insira para o ```$faculty[0..4999``` terceiro lote e assim por ```$faculty[5000..9999``` ```$faculty[10000..14999``` diante.
+Você pode alterar o intervalo de IDs de usuário até chegar à lista completa de usuários. Por exemplo, insira ```$faculty[0..4999``` o primeiro lote, use ```$faculty[5000..9999``` para o segundo lote, insira ```$faculty[10000..14999``` para o terceiro lote e assim por diante.
 
 #### <a name="get-the-policies-assigned-to-a-user"></a>Obter as políticas atribuídas a um usuário
 
@@ -314,7 +314,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **Não estou familiarizado com o PowerShell para Teams. Onde posso saber mais?**
 
-Para ver uma visão geral sobre como usar o PowerShell para gerenciar Teams, [consulte Teams visão geral do PowerShell.](teams-powershell-overview.md) Para obter mais informações sobre os cmdlets usados neste artigo, consulte:
+Para ver uma visão geral sobre como usar o PowerShell para gerenciar Teams, [consulte Teams visão geral do PowerShell](teams-powershell-overview.md). Para obter mais informações sobre os cmdlets usados neste artigo, consulte:
 
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)
