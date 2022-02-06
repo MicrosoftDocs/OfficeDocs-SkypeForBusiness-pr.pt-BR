@@ -1,24 +1,19 @@
 ---
 title: Personalizar Windows instalação do cliente no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 'Resumo: Visão geral dos métodos e ferramentas de instalação para Skype for Business.'
-ms.openlocfilehash: b0eeae1ae0e758c14ea6ae5adc3be6cbf5c36c2d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832915"
 ---
+
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personalizar Windows instalação do cliente no Skype for Business Server
  
 **Resumo:** Visão geral dos métodos e ferramentas de instalação para Skype for Business.
@@ -30,9 +25,9 @@ Enterprise administradores podem personalizar Windows instalação baseada em in
   
 - [Use a Office de Personalização (OCT)](use-the-office-customization-tool-oct.md) no Skype for Business Server para personalizar opções e recursos de instalação para Skype for Business e outros programas Office de configuração.
     
-- [Use Config.xml para executar tarefas](use-config-xml-to-perform-installation-tasks.md) de instalação em Skype for Business Server para especificar o caminho do ponto de instalação de rede e executar a instalação silenciosa.
+- [Use Config.xml para executar tarefas de instalação em](use-config-xml-to-perform-installation-tasks.md) Skype for Business Server para especificar o caminho do ponto de instalação de rede e executar a instalação silenciosa.
     
-- [Use as opções de linha de comando de](use-setup-command-line-options.md) Instalação Skype for Business Server especificar o arquivo Config.xml a ser usado durante a instalação.
+- [Use as opções de linha de comando da Instalação Skype for Business Server](use-setup-command-line-options.md) para especificar o arquivo Config.xml a ser usado durante a instalação.
     
 - [Configure as políticas de inicialização do cliente Skype for Business Server](configure-client-bootstrapping-policies.md) usando o snap-in MMC do Editor de Objeto de Política de Grupo.
     

@@ -1,26 +1,21 @@
 ---
 title: Configurar Skype for Business Server para usar Exchange Server arquivamento
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Resumo: Configure transcrições de IM para Exchange Server 2016 ou Exchange Server 2013 e Skype for Business Server.'
-ms.openlocfilehash: 0b154c9184002cf663d61395277471f8a927c556
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840583"
 ---
+
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurar Skype for Business Server para usar Exchange Server arquivamento
 
 **Resumo:** Configure transcrições de IM para Exchange Server 2016 ou Exchange Server 2013 e Skype for Business Server.
@@ -28,7 +23,7 @@ ms.locfileid: "60840583"
 Skype for Business Server oferece aos administradores a opção de ter transcrições de mensagens instantâneas e webconferências arquivadas na caixa de correio do Exchange Server 2016 ou Exchange Server 2013 de um usuário em vez de um banco de dados SQL Server. Se você habilitar esta opção, as transcrições são gravadas na pasta Lixeira da caixa de correio do usuário. A pasta Lixeira é uma pasta oculta encontrada na pasta Itens Recuperáveis. Embora essa pasta não seja visível para usuários finais, a pasta é indexada pelo mecanismo de pesquisa Exchange e pode ser descoberta usando Exchange pesquisa de caixa de correio e/ou Microsoft SharePoint Server 2013. Como as informações são armazenadas na mesma pasta usada pelo recurso Exchange In-Place Hold (responsável pelo arquivamento de emails e outras comunicações Exchange), os administradores podem usar uma única ferramenta para pesquisar todas as comunicações eletrônicas arquivadas para um usuário.
 
 > [!IMPORTANT]
-> Para desabilitar completamente o arquivamento de conversas, você também deve desabilitar o histórico da conversa. Para obter mais informações, consulte os seguintes tópicos: [Managing the Archiving of internal](/previous-versions/office/lync-server-2013/lync-server-2013-managing-the-archiving-of-internal-and-external-communications)and external communications in Skype for Business Server , [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps)e [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps).
+> Para desabilitar completamente o arquivamento de conversas, você também deve desabilitar o histórico da conversa. Para obter mais informações, consulte os seguintes tópicos: [Managing the Archiving of internal and external communications in Skype for Business Server](/previous-versions/office/lync-server-2013/lync-server-2013-managing-the-archiving-of-internal-and-external-communications), [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) e [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps).
 
 Para arquivar transcrições para Exchange Server você deve começar configurando a autenticação de servidor para servidor entre Skype for Business Server e Exchange Server. Depois que a autenticação de servidor para servidor for realizada, você poderá executar as seguintes tarefas no Skype for Business Server (observe que, dependendo da configuração e da configuração, talvez não seja necessário concluir todas essas tarefas):
 
@@ -42,7 +37,7 @@ Para arquivar transcrições para Exchange Server você deve começar configuran
 
 O arquivamento no Skype for Business Server é gerenciado principalmente usando as configurações de arquivamento. Quando você instala Skype for Business Server você recebe automaticamente uma única coleção global dessas configurações. (Os administradores podem, opcionalmente, criar novas coleções de configurações de arquivamento no escopo do site.) Por padrão, o arquivamento não está habilitado nas configurações globais, nem Exchange arquivamento habilitado nessas configurações. Para usar Exchange arquivamento, os administradores devem configurar as propriedades EnableArchiving e EnableExchangeArchiving nessas configurações. A propriedade EnableArchiving pode ser definida para um dos seguintes três valores:
 
-- **Nenhum**. o Arquivamento é desabilitado. Este é o valor padrão. Se EnableArchiving estiver definido como Nenhum, nada será arquivado no banco de dados Skype for Business Server de arquivamento ou no Exchange Server.
+- **Nenhuma**. o Arquivamento é desabilitado. Este é o valor padrão. Se EnableArchiving estiver definido como Nenhum, nada será arquivado no banco de dados Skype for Business Server de arquivamento ou no Exchange Server.
 
 - **ImOnly**. Apenas transcrições de mensagem instantânea são arquivadas. Se Exchange arquivamento estiver habilitado, essas transcrições serão arquivadas Exchange Server. Se Exchange arquivamento estiver desabilitado, essas transcrições serão arquivadas para Skype for Business Server.
 
@@ -71,7 +66,7 @@ Exchange arquivamento também pode ser habilitado (ou desabilitado) usando a Sky
 
 3. No painel **Editar configuração de arquivamento**, clique na lista suspensa **Configuração de arquivamento** e selecione **Arquivar sessões de IM** (para arquivar apenas sessões de mensagem instantânea) ou **Arquivar sessões de IM e conferência da Web** (para arquivar sessões de mensagem instantânea e conferência da Web).
 
-4. Depois de escolher os itens a serem arquivados, selecione a caixa de seleção de Exchange Server **de** integração para habilitar Exchange arquivamento. Para desabilitar Exchange arquivamento, desempure essa caixa de seleção.
+4. Depois de escolher os itens a serem arquivados, selecione **a** caixa de seleção de Exchange Server de integração para habilitar Exchange arquivamento. Para desabilitar Exchange arquivamento, desempure essa caixa de seleção.
 
 > [!NOTE]
 > A caixa de seleção **Integração do Exchange Server** não estará disponível se a **Configuração de arquivamento** está definido para **Desabilitar arquivamento**. Você deve habilitar o arquivamento primeiro e, em seguida, habilitar Exchange arquivamento.
@@ -106,13 +101,13 @@ Se você criar uma política por usuário, precisará atribuir esta política pa
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
-As políticas de arquivamento também podem ser gerenciadas usando o Painel Skype for Business Server Controle. Dentro do Painel de Controle, clique em **Monitoramento e Arquivamento** e em **Política de Arquivamento**. Para modificar uma política existente, clique duas vezes na política (por exemplo, Global) e, no painel **Editar política de arquivamento**, marque ou desmarque as caixas de seleção **Arquivar comunicações internas** e **Arquivar comunicações externas** conforme necessário. Para criar uma nova política de arquivamento, clique em **Novo** e selecione Política **de site** ou Política **de usuário.** Se você criar uma nova política de usuário, deve acessar as contas de usuário adequadas (na guia **Usuários**) e atribuir estes usuários com a nova política.
+As políticas de arquivamento também podem ser gerenciadas usando o Painel Skype for Business Server Controle. Dentro do Painel de Controle, clique em **Monitoramento e Arquivamento** e em **Política de Arquivamento**. Para modificar uma política existente, clique duas vezes na política (por exemplo, Global) e, no painel **Editar política de arquivamento**, marque ou desmarque as caixas de seleção **Arquivar comunicações internas** e **Arquivar comunicações externas** conforme necessário. Para criar uma nova política de arquivamento, clique em **Novo** e selecione Política **de site** ou **Política de usuário**. Se você criar uma nova política de usuário, deve acessar as contas de usuário adequadas (na guia **Usuários**) e atribuir estes usuários com a nova política.
 
 ## <a name="step-3-configuring-the-exchangearchivingpolicy-property"></a>Etapa 3: Configurar a propriedade ExchangeArchivingPolicy
 
-Se Skype for Business Server e Exchange Server estão localizados em florestas diferentes, então não é suficiente simplesmente habilitar Exchange arquivamento nas configurações de arquivamento; que não resultará em mensagens instantâneas e transcrições de webconferência sendo arquivadas em Exchange. Em vez disso, você também deve configurar a propriedade ExchangeArchivingPolicy em cada uma das contas de Skype for Business Server de usuário relevantes. Esta propriedade pode ser definida para uma dos quatro valores possíveis:
+Se Skype for Business Server e Exchange Server estão localizados em florestas diferentes, então não é suficiente simplesmente habilitar o arquivamento Exchange nas configurações de arquivamento; isso não resultará em transcrições de mensagens instantâneas e webconferências sendo arquivadas em Exchange. Em vez disso, você também deve configurar a propriedade ExchangeArchivingPolicy em cada uma das contas de Skype for Business Server de usuário relevantes. Esta propriedade pode ser definida para uma dos quatro valores possíveis:
 
-1. **Nãonitializado**. Indica que o arquivamento será baseado nas configurações de In-Place De espera configuradas para a caixa de correio de Exchange do usuário; se In-Place espera não tiver sido habilitada na caixa de correio do usuário, o usuário terá suas transcrições de mensagens e webconferências arquivadas em Skype for Business Server.
+1. **Nãonitializado**. Indica que o arquivamento será baseado nas configurações de Espera In-Place configuradas para Exchange caixa de correio de Exchange do usuário; se o In-Place Hold não tiver sido habilitado na caixa de correio do usuário, o usuário terá suas transcrições de mensagens e webconferências arquivadas no Skype for Business Server.
 
 2. **UseLyncArchivingPolicy**. Indica que as transcrições de mensagens instantâneas e webconferências do usuário devem ser arquivadas Skype for Business Server em vez de Exchange.
 

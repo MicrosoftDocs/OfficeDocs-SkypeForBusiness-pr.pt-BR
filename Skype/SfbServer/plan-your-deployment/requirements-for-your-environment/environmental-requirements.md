@@ -1,34 +1,29 @@
 ---
 title: Requisitos ambientais Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumo: Configure seus requisitos de não servidor para Skype for Business Server 2015. Há uma variedade de coisas que você deseja configurar antes de fazer sua implantação, incluindo Active Directory, DNS, Certs e Fileshares.'
-ms.openlocfilehash: 1d6e43e9ca65af85c37f262900805d9e0d3b8bfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834979"
 ---
+
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos ambientais Skype for Business Server 2015
  
 **Resumo:** Configure seus requisitos de não servidor para Skype for Business Server 2015. Há uma variedade de coisas que você deseja configurar antes de fazer sua implantação, incluindo Active Directory, DNS, Certs e Fileshares.
   
-O que é um requisito ambiental para Skype for Business Server 2015? Bem, colocamos tudo o que não está diretamente relacionado ao servidor neste tópico, para que você não tenha que fazer o máximo de clique. Se você estiver procurando por Pré-requisitos do Servidor, confira os requisitos do servidor para o documento Skype for Business Server [2015.](server-requirements.md) [O Planejamento](../../plan-your-deployment/network-requirements/network-requirements.md) de Rede também é documentado separadamente. Caso contrário, isso é o que temos neste artigo:
+O que é um requisito ambiental para Skype for Business Server 2015? Bem, colocamos tudo o que não está diretamente relacionado ao servidor neste tópico, para que você não tenha que fazer o máximo de clique. Se você estiver procurando por Pré-requisitos do Servidor, confira os requisitos do servidor para o documento Skype for Business Server [2015](server-requirements.md). [O Planejamento](../../plan-your-deployment/network-requirements/network-requirements.md) de Rede também é documentado separadamente. Caso contrário, isso é o que temos neste artigo:
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -87,7 +82,7 @@ Agora, o nível funcional de domínio de qualquer domínio em que você implanta
     
 Você pode ter controladores de domínio somente leitura nesses ambientes? Claro, contanto que também haja controladores de domínio writable disponíveis no mesmo site que o Skype for Business Server.
   
-Agora, é importante saber que o Skype for Business Server 2015 não dá suporte a domínios com rótulo único. O que eles são? Se você tiver um domínio raiz rotulado contoso.local, tudo bem. Se você tiver um domínio raiz que tenha apenas o nome local, isso não funcionará e não terá suporte como resultado. Um pouco mais sobre isso foi escrito [neste artigo da Base de Dados de Conhecimento.](https://support.microsoft.com/kb/300684/en-us)
+Agora, é importante saber que o Skype for Business Server 2015 não dá suporte a domínios com rótulo único. O que eles são? Se você tiver um domínio raiz rotulado contoso.local, tudo bem. Se você tiver um domínio raiz que tenha apenas o nome local, isso não funcionará e não terá suporte como resultado. Um pouco mais sobre isso foi escrito [neste artigo da Base de Dados de Conhecimento](https://support.microsoft.com/kb/300684/en-us).
   
 Skype for Business Server 2015 também não dá suporte à renomeação de domínios. Se você realmente precisa fazer isso, precisará desinstalar o Skype for Business Server 2015, renomear o domínio e reinstalar o Skype for Business Server 2015.
   
@@ -161,7 +156,7 @@ Para implantar o Skype for Business Server 2015 nesse tipo de topologia, você c
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Várias florestas em uma topologia Skype for Business floresta de recursos com Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
-Essa topologia é semelhante à topologia descrita em Várias florestas em uma topologia [Skype for Business floresta de recursos.](environmental-requirements.md#BKMK_multipleforestopology)
+Essa topologia é semelhante à topologia descrita em [Várias florestas em uma topologia Skype for Business floresta de recursos](environmental-requirements.md#BKMK_multipleforestopology).
   
 Nesta topologia, há uma ou mais florestas de usuários, e Skype for Business Server é implantado em uma floresta de recursos dedicada. Exchange Server pode ser implantado no local na mesma floresta de recursos ou em uma floresta diferente e configurado para híbrido com Exchange Online, ou os serviços de email podem ser fornecidos exclusivamente pelo Exchange Online para as contas locais. Não há nenhum diagrama disponível para essa topologia.
   
@@ -172,7 +167,7 @@ Nesta topologia, há uma ou mais florestas de usuários, e Skype for Business Se
   
 Com esse cenário, há várias florestas locais, com uma topologia de floresta de recursos. Há uma relação de confiança total entre as florestas do Active Directory. A Azure Active Directory Conexão é usada para sincronizar contas entre as florestas de usuários locais e Microsoft 365 ou Office 365.
   
- A organização também tem Microsoft 365 ou Office 365 e [](/previous-versions/azure/azure-services/dn832695(v=azure.100)) usa Azure Active Directory Conexão para sincronizar suas contas locais com Microsoft 365 ou Office 365. Os usuários habilitados para Skype for Business estão habilitados por meio de Microsoft 365 ou Office 365 e Skype for Business Online. Skype for Business Server não é implantado no local.
+ A organização também tem Microsoft 365 ou Office 365 e usa Azure Active Directory Conexão para sincronizar suas contas [](/previous-versions/azure/azure-services/dn832695(v=azure.100)) locais com Microsoft 365 ou Office 365. Os usuários habilitados para Skype for Business estão habilitados por meio de Microsoft 365 ou Office 365 e Skype for Business Online. Skype for Business Server não é implantado no local.
   
 A autenticação de login único é fornecida por um farm dos Serviços de Federação do Active Directory localizado na floresta do usuário.
   
@@ -283,24 +278,24 @@ Certificados para servidores Edição Standard:
 |**Certificado**|**Nome do assunto/Nome comum**|**Nome alternativo da entidade**|**Exemplo**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool é o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) é exigida na política do grupo, também é preciso de entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Se esse pool é o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |No servidor Standard Edition, o servidor FQDN é o mesmo que o pool FQDN.  <br/> O assistente detecta todos os domínios SIP especificados durante a instalação e os adiciona automaticamente como nomes alternativos de assunto.  <br/> Você também pode usar esse certificado para Autenticação de Servidor para Servidor.  <br/> |
-|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com  <br/> |Não é possível substituir o FQDN Da Web Interno no Construtor de Topologias.  <br/> Se você tiver várias URLs simples de Meet, será preciso incluir todas elas como SANs.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
-|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • URL simples discado  <br/> • Atender a URLs simples por domínio SIP  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado coringa:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Se você tiver várias URLs simples de Meet, você terá que incluir todas elas como nomes alternativos de assunto.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com  <br/> |Não é possível substituir o FQDN Da Web Interno no Construtor de Topologias.  <br/> Se você tiver várias URLs simples de Meet, será preciso incluir todas elas como SANs.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • URL simples discado  <br/> • Atender a URLs simples por domínio SIP  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado coringa:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Se você tiver várias URLs simples de Meet, você terá que incluir todas elas como nomes alternativos de assunto.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
    
 Certificados para servidores front-end em um pool Edição Enterprise front-end:
   
 |**Certificado**|**Nome do assunto/Nome comum**|**Nome alternativo da entidade**|**Exemplo**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool é o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) é exigida na política do grupo, também é preciso de entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Se esse pool é o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também pode usar esse certificado para Autenticação de Servidor para Servidor.  <br/> |
-|Web interna  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que NÃO é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • Skype for Business FQDN do pool  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com  <br/> |Se você tiver várias URLs simples de Meet, você terá que incluir todas elas como nomes alternativos de assunto.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
-|Web externa  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Se você tiver várias URLs simples de Meet, você terá que incluir todas elas como nomes alternativos de assunto.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web interna  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que NÃO é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • Skype for Business FQDN do pool  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com  <br/> |Se você tiver várias URLs simples de Meet, você terá que incluir todas elas como nomes alternativos de assunto.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web externa  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Se você tiver várias URLs simples de Meet, você terá que incluir todas elas como nomes alternativos de assunto.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
    
 Certificados para o Diretor:
   
 |**Certificado**|**Nome do assunto/Nome comum**|**Nome alternativo da entidade**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
 |Padrão  <br/> |Director pool  <br/> |FQDN do Diretor, FQDN do pool de diretores.  <br/> Se esse pool for o servidor de logon automático para clientes e a correspondência DNS estrita for necessária na política de grupo, você também precisará de entradas para sip.sipdomain (para cada domínio SIP que você tem).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Se esse pool de Diretor for o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
-|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • Skype for Business FQDN do pool  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • Atender a URLs simples por domínio SIP  <br/> • URL simples discado  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |O FQDN da Web externo do Diretor deve ser diferente do pool de Front-End ou do Servidor Front-End.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • Skype for Business FQDN do pool  <br/> E  <br/> • Conheça URLs simples  <br/> • URL simples discado  <br/> • URL simples do administrador  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com  <br/> |
+|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN web externo  <br/> E  <br/> • Atender a URLs simples por domínio SIP  <br/> • URL simples discado  <br/> OU  <br/> • Uma entrada curinga para as URLs simples  <br/> |O FQDN da Web externo do Diretor deve ser diferente do pool de Front-End ou do Servidor Front-End.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com  <br/> |
    
 Certificados para Servidor de Mediação Autônomo:
   
@@ -320,7 +315,7 @@ Ao instalar o Servidor de Chat Persistente, você precisará de um certificado e
   
 ### <a name="certificates-for-external-user-access-edge"></a>Certificados para acesso de usuário externo (Borda)
 
-Skype for Business Server 2015 oferece suporte ao  uso de um único certificado público para interfaces externas de Borda de Acesso e Webconferência, além do serviço de Autenticação A/V, que é todo fornecido por meio dos Servidores de Borda. Sua interface interna de Borda normalmente usará um certificado privado emitido pela ac interna, mas, se preferir, você também poderá usar um certificado público para isso, se for de uma AC confiável.
+Skype for Business Server 2015 oferece suporte ao uso de um único certificado público  para interfaces externas de Borda de Acesso e Webconferência, além do serviço de Autenticação A/V, que é todo fornecido por meio dos Servidores de Borda. Sua interface interna de Borda normalmente usará um certificado privado emitido pela ac interna, mas, se preferir, você também poderá usar um certificado público para isso, se for de uma AC confiável.
   
 Seu proxy reverso (RP) também usará um certificado público e criptografa a comunicação de seu RP para clientes e o RP para servidores internos usando HTTP (ou, mais precisamente, TLS sobre HTTP).
   
@@ -349,7 +344,7 @@ Requisitos de certificado de pool de diretores e de pool de front-end:
 |URL do serviço de Descoberta Automática Interna  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
 |URL do serviço de Descoberta Automática Externa  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
    
-Como alternativa, você pode usar SAN= \* .\<sipdomain\>
+Como alternativa, você pode usar SAN=\*.\<sipdomain\>
   
 Requisitos de certificado de Proxy Reverso (CA Pública):
   
@@ -369,7 +364,7 @@ Skype for Business Server 2015 é capaz de usar o mesmo compartilhamento de arqu
   
 - Um compartilhamento de arquivos precisa estar no DAS (armazenamento anexado direto) ou em uma san (rede de área de armazenamento), e isso inclui o DFS (Sistema de Arquivos Distribuídos), bem como uma matriz redundante de discos independentes (RAID) para armazenamentos de arquivos. Para saber mais sobre o DFS para Windows Server 2012, confira [esta página DFS](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
-- Recomendamos um cluster compartilhado para o compartilhamento de arquivos. Se você estiver usando um, deverá agrupar Windows Server 2012 ou Windows Server 2012 R2. Windows O Servidor 2008 R2 também é aceitável. Por que a última Windows? As versões mais antigas podem não ter as permissões corretas para habilitar todos os recursos. Você pode usar o Administrador de Cluster para criar os compartilhamentos de arquivos e isso Como criar compartilhamentos de arquivo em um artigo de [cluster](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) ajudará você com esses detalhes.
+- Recomendamos um cluster compartilhado para o compartilhamento de arquivos. Se você estiver usando um, deverá agrupar Windows Server 2012 ou Windows Server 2012 R2. Windows Server 2008 R2 também é aceitável. Por que a última Windows? As versões mais antigas podem não ter as permissões corretas para habilitar todos os recursos. Você pode usar o Administrador de Cluster para criar os compartilhamentos de arquivos e isso Como criar compartilhamentos de arquivo em um [artigo de cluster](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) ajudará você com esses detalhes.
     
 > [!CAUTION] 
 > Você deve saber que o uso do NAS (armazenamento anexado à rede) como compartilhamento de arquivos não é suportado, portanto, use uma das opções listadas acima. 

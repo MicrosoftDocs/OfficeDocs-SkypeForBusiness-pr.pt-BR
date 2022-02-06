@@ -1,29 +1,24 @@
 ---
 title: Implantar Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Resumo: explore esses links para saber como instalar e configurar o Skype for Business Server 2015 e atualizar de versões anteriores do Lync Server.'
-ms.openlocfilehash: 67643b7f28ea3155c9867dd7a4107e4630ddab15
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863078"
 ---
+
 # <a name="deploy-skype-for-business-server-2015"></a>Implantar Skype for Business Server 2015
  
 **Resumo:** Explore esses links para saber como instalar e configurar o Skype for Business Server 2015 e atualizar de versões anteriores do Lync Server.
@@ -64,6 +59,6 @@ Os recursos a seguir sobre como planejar Skype for Business Server estão dispon
 |&nbsp;|Conteúdo|Descrição|
 |:-----|:-----|:-----|
 |![Ícone para Documentos.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server para profissionais de IT](../../Hub/index.yml)  |Visite a central de recursos para acessar vídeos, sites da comunidade, documentação, downloads e muito mais.   |
-|![Ícone para conteúdo do desenvolvedor.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Plataforma do Desenvolvedor](/skype-sdk/skypedeveloperplatform)  |Encontre recursos de desenvolvedor para Skype for Business Server, incluindo exemplos de código, treinamento e SDKs.   |
+|![Ícone para conteúdo do desenvolvedor.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Plataforma para Desenvolvedores](/skype-sdk/skypedeveloperplatform)  |Encontre recursos de desenvolvedor para Skype for Business Server, incluindo exemplos de código, treinamento e SDKs.   |
 |![Ícone para notícias, blogs e assim por diante.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png) | [Gerenciamento e adoção de alterações](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs do Office](https://go.microsoft.com/fwlink/p/?LinkId=528899)   <br/> [Skype blog de equipe](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Acompanhe as notícias das equipes que criam e documentam Skype for Business Server.   |
 

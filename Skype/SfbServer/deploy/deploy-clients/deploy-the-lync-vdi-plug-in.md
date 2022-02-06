@@ -1,27 +1,22 @@
 ---
 title: Implantar o plug-in VDI do Lync com Skype for Business Server
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Este tópico discute os procedimentos de implantação para usar Skype for Business ao se conectar a uma área de trabalho virtual remota.
-ms.openlocfilehash: 853bcfcc41d058983c0aabb2868351f1f59de08e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840563"
 ---
+
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Implantar o plug-in VDI do Lync com Skype for Business Server
  
-Este tópico discute os procedimentos de implantação para usar Skype for Business ao se conectar a uma área de trabalho virtual remota. As considerações de planejamento estão [em Plan for Skype for Business em ambientes VDI.](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+Este tópico discute os procedimentos de implantação para usar Skype for Business ao se conectar a uma área de trabalho virtual remota. As considerações de planejamento estão [em Plan for Skype for Business em ambientes VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
 Um Virtual Desktop Infrastructure (VDI) é usado em algumas organizações onde os problemas de segurança e conformidade são especialmente confidenciais. Seus usuários estão em computadores Windows locais e usando clientes em uma área de trabalho virtual. Usar Skype for Business em uma conexão como essa requer software de plug-in VDI adicional.
   
@@ -32,7 +27,7 @@ Este tópico fornece detalhes sobre a implantação do plug-in VDI do Microsoft 
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>Preparar seu ambiente para o plug-in VDI do Lync
 <a name="Prepare_vdi"> </a>
 
-1. Em Skype for Business Server, verifique se EnableMediaRedirection está definido como VERDADEIRO para todos os usuários de plug-in VDI do Lync. Para obter detalhes, consulte os tópicos de Ajuda para o cmdlet [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) e o cmdlet [Set-CsClientPolicy.](/powershell/module/skype/set-csclientpolicy?view=skype-ps)
+1. Em Skype for Business Server, verifique se EnableMediaRedirection está definido como VERDADEIRO para todos os usuários de plug-in VDI do Lync. Para obter detalhes, consulte os tópicos de Ajuda para o cmdlet [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) e o cmdlet [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) .
     
 2. No servidor do data center, instale o cliente Skype for Business em todas as áreas de trabalho virtuais.
     
@@ -45,7 +40,7 @@ Este tópico fornece detalhes sobre a implantação do plug-in VDI do Microsoft 
 
 Para preparar a Conexão de Área de Trabalho Remota para o plug-in VDI do Lync, siga estas etapas no computador local:
   
-1. Se o computador local estiver executando Windows 8, ignore esta etapa. Se o computador local estiver executando Windows 7 com SP1, instale a versão Windows 8 versão mais recente do cliente de Serviços de Área de [Trabalho Remota](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients).
+1. Se o computador local estiver executando Windows 8, ignore esta etapa. Se o computador local estiver executando Windows 7 com SP1, instale a versão Windows 8 versão mais recente do cliente [de Serviços de Área de Trabalho Remota](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients).
     
 2. Inicie o cliente dos Serviços de Área de Trabalho Remota clicando em **Iniciar** e em **Conexão da Área de Trabalho Remota**.
     
@@ -61,7 +56,7 @@ Para preparar a Conexão de Área de Trabalho Remota para o plug-in VDI do Lync,
     
 5. Clique na guia **Experiência**. Em **Desempenho**, desmarque a caixa de seleção **Cache de bitmap persistente**.
     
-6. Clique na **guia Geral.** Em **Computador,** digite o nome da área de trabalho virtual e clique em **Conexão**. 
+6. Clique na **guia Geral**. No **Computador**, digite o nome da área de trabalho virtual e clique em **Conexão**. 
     
 ## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>Entre e use Skype for Business na área de trabalho virtual
 <a name="SfB_signin"> </a>

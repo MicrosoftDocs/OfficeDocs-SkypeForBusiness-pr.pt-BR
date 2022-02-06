@@ -1,30 +1,25 @@
 ---
 title: Disponibilidade do aplicativo Aprovações no Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-- Microsoft Teams
+  - Microsoft Teams
 search.appverid: MET150
 description: Saiba mais sobre a disponibilidade do aplicativo Aprovações no Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 4c0e4ec40368b8348833b596d55f34adcb0c316d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766384"
+  - Microsoft Teams
 ---
+
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
 O aplicativo Aprovações está disponível como um aplicativo pessoal para todos os usuários do Microsoft Teams.
@@ -53,7 +48,7 @@ Para implantar o aplicativo Aprovações, você precisa de permissão para os se
 
 - Função de administrador no ambiente de destino.
 
-- Licença para [Power Automate,](/power-automate/get-started-approvals)Office 365 ou Dynamics 365.
+- Licença para [Power Automate](/power-automate/get-started-approvals), Office 365 ou Dynamics 365.
 
 - A licença do Microsoft Forms é necessária para os usuários configurarem novos modelos de aprovação.
 
@@ -65,7 +60,7 @@ O CDM (Modelo de Dados Comum) é a linguagem de dados compartilhada usada por ap
 
 Saiba mais sobre o fluxo [de trabalho aprovação](/power-automate/modern-approvals).
 
-As aprovações criadas a partir de um modelo ainda armazenam dados em CDS, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre  [o armazenamento de dados do Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+As aprovações criadas a partir de um modelo ainda armazenam dados em CDS, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre  [o armazenamento de dados para o Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Se você excluir o modelo de formulário no site do Microsoft Forms, ele quebrará seu modelo de Aprovação e os usuários não poderão iniciar a solicitação. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo de Aprovação que foi excluído no Microsoft Forms.
@@ -110,7 +105,7 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
   1. Entre no Centro de administração do Teams.
 
-  2. Vá para Teams  >  **Aplicativos Gerenciar aplicativos**.
+  2. Vá para **Teams** **appsManage** >  apps.
 
   3. Procure o aplicativo Aprovações.
 
@@ -202,12 +197,12 @@ Para usar o recurso de assinatura eletrônica do aplicativo Aprovações, você 
 
 Você pode usar o Teams de administração para controlar quais provedores de assinatura eletrônica de terceiros estão disponíveis para seus usuários no aplicativo Aprovações. Por padrão, os provedores de assinatura eletrônica são habilitados no aplicativo Aprovações. Quando você desabilita um provedor de assinatura eletrônica, os usuários não terão acesso a esse provedor quando eles criarem aprovações. Seus usuários também não poderão exibir solicitações de assinatura eletrônica que foram criadas usando esse provedor.
 
-1. Na navegação à esquerda do centro de administração Teams, acesse **Teams**  >  **aplicativos Gerenciar aplicativos**.
+1. Na navegação à esquerda do centro de administração Teams, vá para Teams **appsManage** > .
 2. Pesquise o aplicativo Aprovações e selecione-o.
 3. Vá para a **guia Configurações** e, em seguida, faça um ou mais dos seguintes:
 
-    - Para habilitar ou desabilitar o Adobe Sign, alterne a alternância para **Ativado** ou **Desligado.**
-    - Para habilitar ou desabilitar o DocuSign, alterne a alternância para **Ativado** ou **Desligado.**
+    - Para habilitar ou desabilitar o Adobe Sign, alterne a alternância para **Ativado** ou **Desligado**.
+    - Para habilitar ou desabilitar o DocuSign, alterne a alternância para **Ativado** ou **Desligado**.
 4. Selecione **Enviar**.
 
 As aprovações de assinatura eletrônica criadas a partir do aplicativo Aprovações são armazenadas no ambiente de nuvem do provedor selecionado. Para exportar dados sobre assinaturas eletrônicas, você precisará ir para o site do provedor. Para obter mais informações sobre armazenamento, exportação e retenção de contratos de assinatura eletrônica, consulte a documentação do provedor.

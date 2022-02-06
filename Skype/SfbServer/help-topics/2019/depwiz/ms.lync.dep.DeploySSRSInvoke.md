@@ -1,27 +1,22 @@
 ---
 title: SQL Server Reporting Services (Invocar)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeploySSRSInvoke
+  - ms.lync.dep.DeploySSRSInvoke
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
-ROBOTS: NOINDEX, NOFOLLOW
-description: Depois de fornecer as informações necessárias para a implantação dos relatórios do Monitoring Server para o Microsoft SQL Server 2008 R2 ou para os Serviços de Relatório do Microsoft SQL Server 2012, a página Executar Comandos exibe um resumo dos comandos emitidos para instalar os relatórios no SQL Server Reporting Services.
-ms.openlocfilehash: 6ba343e31df4fbf5c29b90dbebd26c7c008732b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860768"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Depois de fornecer as informações necessárias para a implantação dos relatórios do Monitoring Server para o Microsoft SQL Server 2008 R2 ou para os Serviços de Relatório do Microsoft SQL Server 2012, a página Executar Comandos exibe um resumo dos comandos emitidos para instalar os relatórios no SQL Server Reporting Services .'
 ---
+
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (Invocar)
  
 Depois de fornecer as informações necessárias para a implantação dos relatórios do Monitoring Server para os Serviços de Relatório do Microsoft SQL Server, a página Executar Comandos exibe um resumo dos comandos emitidos para instalar os relatórios no SQL Server Reporting Services.

@@ -1,32 +1,27 @@
 ---
 title: Instalar ferramentas administrativas no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
-description: 'Resumo: saiba como instalar as ferramentas administrativas necessárias para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 686b0af861638f446fc490f1d99489d4f4747a0b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849414"
+description: 'Resumo: saiba como instalar as ferramentas administrativas necessárias para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ---
+
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Instalar ferramentas administrativas no Skype for Business Server
  
-**Resumo:** Saiba como instalar as ferramentas administrativas necessárias para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) .
+**Resumo:** Saiba como instalar as ferramentas administrativas necessárias para uma instalação de Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 As ferramentas administrativas incluem o Construtor de Topologias e o Painel de Controle. As ferramentas administrativas devem ser instaladas em pelo menos um servidor na topologia ou em uma estação de trabalho de gerenciamento de 64 bits executando uma versão do sistema operacional Windows com suporte para Skype for Business Server. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 em ordem e após as etapas 1 a 5, conforme descrito no diagrama. Instalar as ferramentas administrativas é a etapa 3 de 8.
   
@@ -51,7 +46,7 @@ Assista às etapas de vídeo para **Instalar ferramentas administrativas**:
     
 3. Usando a Instalação Inteligente, um novo recurso no Skype for Business Server, você pode se conectar à Internet para verificar se há atualizações durante o processo de instalação. Isso oferece uma experiência melhor, se certificar de que você tenha as atualizações mais recentes para o produto na instalação. Clique em **Instalar** para iniciar a instalação.
     
-4. Revise cuidadosamente o Contrato de Licença e, se concordar, selecione Aceito os termos no contrato de licença **e** clique em **OK**.
+4. Revise cuidadosamente o Contrato de Licença e, se concordar, selecione Aceito os termos no contrato **de** licença e clique em **OK**.
     
 5. Os Skype for Business Server Principais componentes serão instalados no servidor. 
     
@@ -75,7 +70,7 @@ Assista às etapas de vídeo para **Instalar ferramentas administrativas**:
     
     ![Skype for Business Server Ferramentas Administrativas.](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
-   - **Skype for Business Server construtor de topologias** Um programa usado para criar, implantar e gerenciar topologias.
+   - **Skype for Business Server Construtor de Topologias** Um programa usado para criar, implantar e gerenciar topologias.
     
    - **Skype for Business Server Painel de Controle** Um programa usado para administrar a instalação.
     

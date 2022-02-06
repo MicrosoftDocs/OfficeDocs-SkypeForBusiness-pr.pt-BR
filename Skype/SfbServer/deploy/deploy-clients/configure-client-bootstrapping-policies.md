@@ -1,29 +1,24 @@
 ---
 title: Configurar as políticas de inicialização do cliente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Resumo: Como gerenciar políticas de grupo.'
-ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831645"
 ---
+
 # <a name="configure-client-bootstrapping-policies"></a>Configurar as políticas de inicialização do cliente
  
 **Resumo:** Como gerenciar políticas de grupo.
   
-O Console de Gerenciamento de Política de Grupo (GPMC) e o Editor de Objeto de Política de Grupo são ferramentas que você usa para gerenciar a Política de Grupo. Incluído no Modelo Administrativo de Política de Grupo do Office estão modelos administrativos lync16.admx (ADMX) e .adml (ADML), que contêm as configurações de política baseadas no Registro para Skype for Business que você configurar para objetos de Política de Grupo no domínio. Arquivos ADML são complementos específicos do idioma para arquivos ADMX. Cada arquivo ADMX e ADML contém as configurações de política para um único Office aplicativo. Você pode baixar gratuitamente os [arquivos de modelo administrativo do Office 2016 (ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030) do Centro de Download da Microsoft.
+O Console de Gerenciamento de Política de Grupo (GPMC) e o Editor de Objeto de Política de Grupo são ferramentas que você usa para gerenciar a Política de Grupo. Incluído no Modelo Administrativo de Política de Grupo do Office estão modelos administrativos lync16.admx (ADMX) e .adml (ADML), que contêm as configurações de política baseadas no Registro para Skype for Business que você configurar para objetos de Política de Grupo no domínio. Arquivos ADML são complementos específicos do idioma para arquivos ADMX. Cada arquivo ADMX e ADML contém as configurações de política para um único Office aplicativo. Você pode [baixar os arquivos de modelo administrativo do Office 2016 (ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030) gratuitamente no Centro de Download da Microsoft.
   
 Para Skype for Business clientes, há várias políticas de inicialização de cliente que você deve considerar configurar antes que os usuários entre no servidor pela primeira vez. Por exemplo, os servidores padrão e o modo de segurança que o cliente deve usar até que a entrada seja concluída. Você pode usar a Política de Grupo para estabelecer essas configurações nos registros do computador dos usuários antes de entrar e começar a receber configurações de provisionamento em banda do servidor. A tabela a seguir lista as configurações da Política de Grupo disponíveis para Skype for Business.
   

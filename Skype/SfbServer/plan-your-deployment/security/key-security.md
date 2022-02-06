@@ -1,25 +1,20 @@
 ---
 title: Principais recursos de segurança no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
-description: Skype for Business Server inclui vários recursos de segurança, incluindo autenticação de servidor para servidor, controle de acesso baseado em função e armazenamento centralizado de dados de configuração.
-ms.openlocfilehash: c70d997dc29166b05376bbd6c1bcd7886d1c176b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848384"
+description: 'Skype for Business Server inclui vários recursos de segurança, incluindo autenticação de servidor para servidor, controle de acesso baseado em função e armazenamento centralizado de dados de configuração.'
 ---
+
 # <a name="key-security-features-in-skype-for-business-server"></a>Principais recursos de segurança no Skype for Business Server
  
 Skype for Business Server inclui vários recursos de segurança, incluindo autenticação de servidor para servidor, controle de acesso baseado em função e armazenamento centralizado de dados de configuração. 
@@ -38,7 +33,7 @@ Skype for Business Server fornece duas ferramentas para facilitar o planejamento
     
 - **O Construtor de Topologia** armazena todas as informações de configuração no armazenamento de Gerenciamento Central.
     
-Para obter detalhes sobre essas ferramentas, [consulte Skype for Business Server Ferramentas de Gerenciamento.](../../management-tools/management-tools.md)
+Para obter detalhes sobre essas ferramentas, [consulte Skype for Business Server Ferramentas de Gerenciamento](../../management-tools/management-tools.md).
   
 ### <a name="central-management-store"></a>Central Management Store
 
@@ -52,7 +47,7 @@ No Skype for Business Server, a autenticação pode ser configurada entre servid
   
 ### <a name="windows-powershell-based-management-and-web-based-management-interface"></a>Windows PowerShell gerenciamento baseado em web e interface de gerenciamento baseada na Web
 
-Skype for Business Server fornece uma interface de gerenciamento poderosa, criada Windows PowerShell interface de linha de comando. Ela inclui cmdlets para o gerenciamento de segurança e os recursos de segurança do Windows PowerShell estão habilitados por padrão, de modo que os usuários não podem executar scripts com facilidade ou sem ter conhecimento. Isso significa que os padrões do software são definidos para ajudar automaticamente a maximizar a segurança e a reduzir os meios para ataques. Para obter detalhes sobre Windows PowerShell de gerenciamento no Skype for Business Server, [consulte Skype for Business Server Management Shell](../../manage/management-shell.md). 
+Skype for Business Server fornece uma interface de gerenciamento poderosa, criada Windows PowerShell interface de linha de comando. Ela inclui cmdlets para o gerenciamento de segurança e os recursos de segurança do Windows PowerShell estão habilitados por padrão, de modo que os usuários não podem executar scripts com facilidade ou sem ter conhecimento. Isso significa que os padrões do software são definidos para ajudar automaticamente a maximizar a segurança e a reduzir os meios para ataques. Para obter detalhes sobre Windows PowerShell suporte ao gerenciamento no Skype for Business Server, [consulte Skype for Business Server Shell de Gerenciamento](../../manage/management-shell.md). 
   
 ### <a name="role-based-access-control-rbac"></a>Controle de acesso baseado em função (RBAC)
 
@@ -60,7 +55,7 @@ Skype for Business Server fornece controle de acesso baseado em função (RBAC) 
   
 ## <a name="network-address-translation-nat"></a>Nat (Conversão de Endereço de Rede)
 
-O Skype for Business Server não dá suporte ao uso de NAT (conversão de endereço de rede) na interface interna do Servidor de Borda, mas oferece suporte à colocação da interface externa do serviço de Borda de Acesso, do serviço de Borda de WebConferência e do serviço de Borda A/V atrás de um roteador ou firewall que executa NAT (conversão de endereço de rede) para topologias consolidadas do Servidor de Borda única e dimensionada. Vários Servidores de Borda atrás de um balanceador de carga de hardware não podem usar NAT. Se vários Servidores de Borda usarem NAT em suas interfaces externas, o balanceamento de carga DNS (Sistema de Nomes de Domínio) será necessário. Por sua vez, o uso do balanceamento de carga DNS permite reduzir o número de endereços IP públicos por Servidor de Borda em um pool de Servidor de Borda. Para obter detalhes, consulte [Cenários do Servidor de Borda em Skype for Business Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
+O Skype for Business Server não dá suporte ao uso de NAT (conversão de endereço de rede) na interface interna do Servidor de Borda, mas oferece suporte à colocação da interface externa do serviço de Borda de Acesso, do serviço de Borda de WebConferência e do serviço de Borda A/V atrás de um roteador ou firewall que executa NAT (conversão de endereço de rede) para topologias consolidadas do Servidor de Borda única e dimensionada. Vários Servidores de Borda atrás de um balanceador de carga de hardware não podem usar NAT. Se vários Servidores de Borda usarem NAT em suas interfaces externas, o balanceamento de carga DNS (Sistema de Nomes de Domínio) será necessário. Por sua vez, o uso do balanceamento de carga DNS permite reduzir o número de endereços IP públicos por Servidor de Borda em um pool de Servidor de Borda. Para obter detalhes, consulte [Cenários do Servidor de Borda Skype for Business Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
   
 > [!NOTE]
 > Se você se federar com empresas com uma implantação do Microsoft Office Communications Server 2007 e precisar usar áudio/vídeo entre sua empresa e a empresa federada, os requisitos de porta serão aqueles para a versão mais antiga dos Servidores de Borda implantados. Por exemplo, os intervalos de porta necessários para essas versões mais antigas devem ser abertos para ambas as empresas até que o parceiro federado atualize seus Servidores de Borda para Skype for Business Server. A qualquer momento, os requisitos de porta podem ser revisados e reduzidos de acordo com a nova configuração. 

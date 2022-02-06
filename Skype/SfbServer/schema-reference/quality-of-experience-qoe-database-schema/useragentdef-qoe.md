@@ -1,25 +1,20 @@
 ---
 title: Tabela UserAgentDef (QoE)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: A tabela UserAgentDef mapeia identificadores de agente do usuário para os nomes descritivos do agente. Os agentes de usuário são clientes de software usados para se conectar a Skype for Business Server.
-ms.openlocfilehash: 23ea6310ddd463b75d0bccd9a4d94a4485f2351e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863258"
 ---
+
 # <a name="useragentdef-table-qoe"></a>Tabela UserAgentDef (QoE)
  
 A tabela UserAgentDef mapeia identificadores de agente do usuário para os nomes descritivos do agente. Os agentes de usuário são clientes de software usados para se conectar a Skype for Business Server.

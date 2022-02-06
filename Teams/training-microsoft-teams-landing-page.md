@@ -1,30 +1,24 @@
 ---
 title: Treinamento de administração do Microsoft Teams
-ms.reviewer: ''
-description: Use estes vídeos de tutoriais e recursos para usuários finais, administradores e treinamentos guiados por instrutores para ajudá-lo a tirar o máximo de proveito do Microsoft Teams na sua organização.
+ms.reviewer: null
+description: 'Use estes vídeos de tutoriais e recursos para usuários finais, administradores e treinamentos guiados por instrutores para ajudá-lo a tirar o máximo de proveito do Microsoft Teams na sua organização.'
 ms.topic: overview
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 audience: admin
 manager: serdars
 ms.service: msteams
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
-- remotework
+  - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
+  - remotework
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 70b24d1e8f3b47b4a8f690e823e922c16807a0da
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860918"
 ---
 # <a name="microsoft-teams-training"></a>Treinamento para o Microsoft Teams
 

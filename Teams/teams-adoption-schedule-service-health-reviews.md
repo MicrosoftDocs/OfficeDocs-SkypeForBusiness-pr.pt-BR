@@ -1,7 +1,7 @@
 ---
 title: Agendar revisões de integridade do serviço para a adoção do Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,23 +10,18 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como usar as avaliações de saúde do serviço em sua Teams adoção para compartilhar informações sobre uso, saúde, recurso/roteiro do projeto e outras atualizações.
+description: 'Saiba como usar as avaliações de saúde do serviço em sua Teams adoção para compartilhar informações sobre uso, saúde, recurso/roteiro do projeto e outras atualizações.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: Adopt
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
-- seo-marvel-apr2020
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
+  - seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 3c59aa7777fd37228dbada179bae0fac199e36c4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865469"
+  - Microsoft Teams
 ---
+
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Agendar revisões de integridade do serviço para a adoção do Microsoft Teams
 
 Em colaboração com sua equipe de implementação técnica, planeje realizar avaliações mensais de saúde do serviço para Teams. Nessas análises, você compartilhará informações sobre as seguintes medidas:

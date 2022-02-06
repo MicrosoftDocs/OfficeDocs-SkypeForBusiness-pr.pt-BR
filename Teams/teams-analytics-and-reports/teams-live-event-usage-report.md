@@ -1,28 +1,22 @@
 ---
 title: Microsoft Teams relatório de uso de eventos ao vivo
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 description: Saiba como usar o relatório Teams de uso de eventos ao vivo no centro de administração Microsoft Teams para obter uma visão geral Teams atividade de eventos ao vivo em sua organização.
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135224"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams relatório de uso de eventos ao vivo
 
@@ -30,8 +24,8 @@ O Teams de uso de eventos ao vivo no centro de administração Microsoft Teams m
 
 ## <a name="view-the-live-event-usage-report"></a>Exibir o relatório de uso do evento ao vivo
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, clique **em Análise & relatórios** de  >  **uso.** Na guia **Exibir relatórios,** em **Relatório**, selecione **Teams de eventos ao vivo**.
-2. Em **Intervalo de datas,** selecione um intervalo predefinido ou de definir um intervalo personalizado. Você pode definir um intervalo para mostrar dados até um ano, seis meses antes e após a data atual.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Análise & relatóriosusuário** > . Na guia **Exibir relatórios**, em **Relatório**, selecione Teams **de eventos ao vivo**.
+2. Em **Intervalo de datas**, selecione um intervalo predefinido ou de definir um intervalo personalizado. Você pode definir um intervalo para mostrar dados até um ano, seis meses antes e após a data atual.
 3. (Opcional) Em **Organizador**, você pode optar por mostrar apenas eventos ao vivo organizados por um usuário específico.
 4. Clique **em Executar relatório**.  
 
@@ -60,7 +54,7 @@ A página de detalhes do evento ao vivo fornece um resumo dos detalhes de um eve
 
 :::image type="content" alt-text="Captura de tela mostrando detalhes de um evento ao vivo." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
-Se sua organização estiver [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) habilitada para Hive eCDN ou [Kollective](https://kollective.com) eCDN, você poderá obter análises adicionais do participante clicando no link de relatório do parceiro.
+Se sua organização estiver habilitada para [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN ou [Kollective](https://kollective.com) eCDN, você poderá obter análises adicionais do participante clicando no link de relatório do parceiro.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

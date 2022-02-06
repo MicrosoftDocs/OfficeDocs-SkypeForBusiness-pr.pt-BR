@@ -1,36 +1,31 @@
 ---
 title: Grupo grupos de resposta
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.RgsGroupMain
+  - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
-description: Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Um grupo de agentes é um grupo de pessoas designadas para atender chamadas do Grupo de Resposta.
-ms.openlocfilehash: 2a4f0e68db6701b3eb75cfb1b502e4b837756d9f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827814"
+description: 'Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Um grupo de agentes é um grupo de pessoas designadas para atender chamadas do Grupo de Resposta.'
 ---
+
 # <a name="response-groups-group"></a>Grupos de Resposta: Grupo
 
 Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Um grupo de agentes é um grupo de pessoas designadas para atender chamadas do Grupo de Resposta.
 
-A **página Grupo de** Grupos de Resposta exibe uma lista de todos os grupos de agentes  -   definidos para sua organização.
+A **página Grupo de Grupos** -  de Resposta exibe uma lista de todos os grupos de agentes definidos para sua organização.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página **Grupo de Grupos**  -  **de** Resposta:
+Você pode executar as seguintes tarefas na página **Grupo de Grupos** -  **de** Resposta:
 
 - Criar um novo grupo de agentes
 

@@ -1,42 +1,37 @@
 ---
 title: Mais informações sobre portação
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: tonysmit,jastark
+ms.reviewer: 'tonysmit,jastark'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Receba as orientações que você precisa para por seus números de telefone para Microsoft Teams.
-ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848174"
 ---
+
 # <a name="more-information-about-porting"></a>Mais informações sobre portação
 
 Aqui você encontrará mais informações sobre como portar seus números de telefone para Microsoft Teams.
 
 Para obter instruções passo a passo completas, consulte [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
-Se precisar de ajuda ou se precisar obter mais números de telefone, entre em contato com a ajuda do [Service Desk TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
+Se precisar de ajuda ou se precisar obter mais números de telefone, entre em contato com a ajuda do [Service Desk TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## <a name="port-order-account-information"></a>Informações da conta de pedido de portabilidade
 
-Quando você estiver  na página Adicionar informações da conta do assistente de portabilidade para enviar um pedido de porta, você inserirá quase todas as mesmas informações que você forneceria na LOA, incluindo:
+Quando você estiver na página Adicionar  informações da conta do assistente de portabilidade para enviar um pedido de porta, você inserirá quase todas as mesmas informações que você forneceria na LOA, incluindo:
   
 - Número da conta para o provedor de serviços ou operadora
     

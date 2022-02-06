@@ -1,32 +1,27 @@
 ---
 title: Nó de Escopo de Aparelhos de Filial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.BranchOfficeAppliancesScopeNode
+  - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'O nodo de  Aparelhos de Filial Persistentes   lista os Aparelhos de Filial Persistentes neste site de filial. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 982d77b38c8fb90140a9373246952a78ab026fec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865138"
 ---
+
 # <a name="branch-office-appliances-scope-node"></a>Nó de Escopo de Aparelhos de Filial
  
 O nodo de  **Aparelhos de Filial Persistentes** lista os Aparelhos de Filial Persistentes neste site de filial. Você pode executar as seguintes ações:
   
-- **Novo Aparelho de Filial Persistente**. Inicia o assistente Definir Novo Aparelho **de Filial** Suportável, que você usa para adicionar um novo Aparelho de Filial Suportável a este site.
+- **Novo Aparelho de Filial Persistente**. Inicia o **assistente Definir Novo Aparelho de Filial Suportável** , que você usa para adicionar um novo Aparelho de Filial Suportável a este site.
     
 Além da opção Aparelho de Filial Suportável, você pode executar as seguintes tarefas gerais:
   

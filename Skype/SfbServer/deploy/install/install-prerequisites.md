@@ -1,32 +1,27 @@
 ---
 title: Instalar pré-requisitos para Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: 'Resumo: saiba mais sobre os servidores e funções de servidor que você deve configurar antes de instalar Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 97b348cedef3fe460a26c52672fc856a5eeda98e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849404"
+description: 'Resumo: saiba mais sobre os servidores e funções de servidor que você deve configurar antes de instalar Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ---
+
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Instalar pré-requisitos para Skype for Business Server
  
-**Resumo:** Saiba mais sobre os servidores e funções de servidor que você deve configurar antes de instalar Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro [de Avaliação da Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
+**Resumo:** Saiba mais sobre os servidores e funções de servidor que você deve configurar antes de instalar Skype for Business Server. Baixe uma avaliação gratuita de Skype for Business Server do Centro [de Avaliação da Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 A instalação de pré-requisitos consiste na configuração do Windows Server instalando as funções e recursos necessários em cada um dos servidores na topologia. Os requisitos se baseiam na função que o servidor cumprirá na topologia. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 em ordem e após as etapas 1 a 5, conforme descrito no diagrama. Instalar pré-requisitos é a etapa 1 de 8.
   
@@ -42,9 +37,9 @@ Skype for Business Server requer o sistema operacional Windows Server e vários 
 > [!IMPORTANT]
 > Antes de começar, certifique-se de que Windows Server está atualizado usando o Windows Update. 
   
-![Windows Servidor atualizado.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
+![Windows servidor atualizado.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
-Assista às etapas de vídeo **para instalar pré-requisitos:**
+Assista às etapas de vídeo **para instalar pré-requisitos**:
   
 > [!video https://www.microsoft.com/videoplayer/embed/02447c2a-5b26-432f-aad6-b9b05cc93478?autoplay=false]
   
@@ -52,10 +47,10 @@ Assista às etapas de vídeo **para instalar pré-requisitos:**
 
 Você pode instalar as funções e recursos necessários usando o Gerenciador de Servidores. 
     
-1. Instale os recursos de software de pré-requisitos listados nos [requisitos do servidor para Skype for Business Server](../../../SfBServer2019/plan/system-requirements.md). O software necessário deve estar no servidor que será executado Skype for Business Server.
+1. Instale os recursos de software de pré-requisito listados nos [requisitos do servidor para Skype for Business Server](../../../SfBServer2019/plan/system-requirements.md). O software necessário deve estar no servidor que será executado Skype for Business Server.
     
     > [!CAUTION]
-    > Windows Server 2012 O R2 não instala todos os arquivos de origem dos recursos necessários por padrão. Se o servidor não estiver conectado à Internet, você precisará inserir a mídia Windows Server 2012 R2 e selecionar **Especificar** um caminho de origem alternativo para instalar os recursos necessários. Os arquivos de origem estão localizados no diretório sources\sxs. Por exemplo, se a mídia Windows Server 2012 R2 estiver na unidade D, você definirá o caminho como `d:\sources\sxs` . É importante que você tenha as atualizações mais recentes do Windows Update. Se você não estiver conectado à Internet, precisará instalar manualmente todas as atualizações relevantes, bem como quaisquer pré-requisitos para as atualizações necessárias. 
+    > Windows Server 2012 R2 não instala todos os arquivos de origem dos recursos necessários por padrão. Se o servidor não estiver conectado à Internet, você precisará inserir a mídia Windows Server 2012 R2 e selecionar **Especificar** um caminho de origem alternativo para instalar os recursos necessários. Os arquivos de origem estão localizados no diretório sources\sxs. Por exemplo, se a mídia Windows Server 2012 R2 estiver na unidade D, você definirá o caminho como `d:\sources\sxs`. É importante que você tenha as atualizações mais recentes do Windows Update. Se você não estiver conectado à Internet, precisará instalar manualmente todas as atualizações relevantes, bem como quaisquer pré-requisitos para as atualizações necessárias. 
   
 1. Quando a caixa de diálogo indicar que a instalação foi concluída, você precisará reiniciar o servidor para concluir o processo.
     
@@ -65,6 +60,6 @@ Você pode instalar as funções e recursos necessários usando o Gerenciador de
 
 
 > [!IMPORTANT]
-> Os pré-requisitos para servidores que executam funções diferentes do servidor front-end, como a função de Diretor, Chat Persistente ou Borda, têm seus próprios pré-requisitos. Para obter detalhes sobre os pré-requisitos exatos exigidos por cada tipo de servidor, consulte [Requisitos](../../../SfBServer2019/plan/system-requirements.md)de servidor para Skype for Business Server . 
+> Os pré-requisitos para servidores que executam funções diferentes do servidor front-end, como a função de Diretor, Chat Persistente ou Borda, têm seus próprios pré-requisitos. Para obter detalhes sobre os pré-requisitos exatos exigidos por cada tipo de servidor, consulte [Requisitos de servidor para](../../../SfBServer2019/plan/system-requirements.md) Skype for Business Server. 
   
 

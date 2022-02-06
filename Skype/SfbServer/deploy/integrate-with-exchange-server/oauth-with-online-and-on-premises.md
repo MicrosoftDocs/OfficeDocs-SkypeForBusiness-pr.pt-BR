@@ -1,29 +1,24 @@
 ---
 title: Integração entre Skype for Business Online e Exchange servidor
 ms.reviewer: cbland
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configurar a autenticação OAuth entre o Exchange local e o Skype for Business Online habilita os recursos Skype for Business e Exchange integração descritos em Suporte a recursos.
-ms.openlocfilehash: dfc1bf25b19779b6a568a70e2cf18287d2f95d18
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864228"
 ---
+
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurar Integração e OAuth entre Skype for Business Online e Exchange Server 
 
-Configurar a integração entre o Exchange e o Skype for Business Online habilita os recursos Skype for Business e Exchange integração descritos em [Suporte a recursos.](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)
+Configurar a integração entre Exchange servidor e Skype for Business Online habilita os recursos Skype for Business e Exchange integração descritos em [Suporte a recursos](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support).
 
 Este tópico se aplica à integração com o Exchange Server 2013 a 2019.
 
@@ -31,7 +26,7 @@ Este tópico se aplica à integração com o Exchange Server 2013 a 2019.
 
 - Tempo estimado para a conclusão da tarefa: 15 minutos
 
--  Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o tópico Exchange e permissões de infraestrutura [do Shell.](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help)
+-  Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o tópico [Exchange e permissões de infraestrutura do Shell](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help).
 
 - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, confira [Atalhos de teclado no Centro de Administração do Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
@@ -49,7 +44,7 @@ Execute as etapas no seguinte artigo:
 
 Esta etapa é feita no servidor Exchange servidor. Ele criará um usuário de email e atribuirá a ele os direitos de função de gerenciamento apropriados. Essa conta será usada na próxima etapa.
 
-Especifique um domínio verificado para sua Exchange organização. Esse domínio deve ser o mesmo domínio usado como o domínio SMTP principal usado para as contas Exchange locais. Esse domínio é conhecido \<your Verified Domain\> como no procedimento a seguir. Além disso, \<DomainControllerFQDN\> o deve ser o FQDN de um controlador de domínio.
+Especifique um domínio verificado para sua Exchange organização. Esse domínio deve ser o mesmo domínio usado como o domínio SMTP principal usado para as contas Exchange locais. Esse domínio é conhecido como \<your Verified Domain\> no procedimento a seguir. Além disso, o \<DomainControllerFQDN\> deve ser o FQDN de um controlador de domínio.
 
 ```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
@@ -103,11 +98,11 @@ No Exchange PowerShell em sua organização Exchange local, execute o script do 
 
 ### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Etapa 5: Upload certificado de autorização local para Azure Active Directory ACS
 
-Em seguida, use Windows PowerShell para carregar o certificado de autorização local que você exportou na etapa anterior para Azure Active Directory Serviços de Controle de Acesso (ACS). Para fazer isso, o módulo Azure Active Directory para Windows PowerShell cmdlets já deve estar instalado. Se não estiver instalado, vá para instalar o módulo [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)) Azure Active Directory para Windows PowerShell. Conclua as etapas a seguir após Azure Active Directory módulo Windows PowerShell for instalado.
+Em seguida, use Windows PowerShell para carregar o certificado de autorização local que você exportou na etapa anterior para Azure Active Directory Serviços de Controle de Acesso (ACS). Para fazer isso, o módulo Azure Active Directory para Windows PowerShell cmdlets já deve estar instalado. Se não estiver instalado, vá [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)) para instalar o módulo Azure Active Directory para Windows PowerShell. Conclua as etapas a seguir após Azure Active Directory módulo Windows PowerShell for instalado.
 
-1. Clique no **Azure Active Directory módulo Windows PowerShell** atalho para abrir um espaço de trabalho Windows PowerShell que tenha os cmdlets do Azure AD instalados. Todos os comandos nesta etapa serão executados usando o Windows PowerShell para Azure Active Directory console.
+1. Clique no **Azure Active Directory módulo para Windows PowerShell** para abrir um espaço de trabalho Windows PowerShell que tenha os cmdlets do Azure AD instalados. Todos os comandos nesta etapa serão executados usando o Windows PowerShell para Azure Active Directory console.
 
-2. Salve o texto a seguir em um arquivo de script do PowerShell chamado, por exemplo,  `UploadAuthCert.ps1` .
+2. Salve o texto a seguir em um arquivo de script do PowerShell chamado, por exemplo,  `UploadAuthCert.ps1`.
 
    ```powershell
    Connect-MsolService;
@@ -144,13 +139,13 @@ Verifique se a configuração está correta verificando se alguns dos recursos e
 
 2. Confirme se o histórico da conversa para clientes móveis está visível na pasta Histórico Outlook Conversa.
 
-3. Confirme se as mensagens de chat arquivadas são depositadas na caixa de correio local do usuário na pasta Limpezas usando [EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor).
+3. Confirme se as mensagens de chat arquivadas são depositadas na caixa de correio local do usuário na pasta Limpezas usando [o EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor).
 
 Como alternativa, veja seu tráfego. O tráfego em um handshake OAuth é realmente distinto (e não se parece com a autenticação Básica), particularmente ao redor de realms, onde você começará a ver o tráfego do emissor com esta aparência: 000000004-0000-0ff1-ce00-0000000000000@ (às vezes com um / antes do sinal @), nos tokens que estão sendo passados. Você não verá um nome de usuário ou senha, que é o ponto de OAuth. Mas você verá o emissor "Office" – nesse caso ,4" é Skype for Business – e o domínio da sua assinatura.
 
-Se você quiser ter certeza de que está usando o OAuth com êxito, certifique-se de saber o que esperar e saber como o tráfego deve ser. Portanto, veja o que esperar [,](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)aqui está um exemplo bastante padrão do tráfego [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  em um aplicativo da Microsoft (realmente útil para ler, embora ele não use tokens refresh) e há extensões fiddler que permitirão que você procure seu OAuth JWT (Token Web JSON).
+Se você quiser ter certeza de que está usando o OAuth com êxito, certifique-se de saber o que esperar e saber como o tráfego deve ser. Portanto, veja o que [esperar, aqui](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34) está um exemplo bastante padrão do tráfego [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  em um aplicativo da Microsoft (realmente útil para ler, embora ele não use tokens refresh) e há extensões fiddler que permitirão que você procure seu OAuth JWT (Token Web JSON).
 
-Aqui está um exemplo [de configuração de](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)um , mas você pode usar qualquer ferramenta de rastreamento de rede que você gosta para realizar esse processo.
+Aqui está um [exemplo de configuração,](/archive/blogs/kaevans/updated-fiddler-oauth-inspector) mas você pode usar qualquer ferramenta de rastreamento de rede que você gosta para realizar esse processo.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

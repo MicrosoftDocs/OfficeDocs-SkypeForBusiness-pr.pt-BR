@@ -1,39 +1,34 @@
 ---
 title: Criar ou modificar uma regra de conversão para a apresentação chamada de ID no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Resumo: saiba como definir uma regra de conversão usando a ferramenta Criar uma regra de conversão em Skype for Business Server.'
-ms.openlocfilehash: 82e737ddcd7ed7c17de3cdd968d31996e50074be
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864428"
 ---
+
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Criar ou modificar uma regra de conversão para a apresentação chamada de ID no Skype for Business Server
 
 **Resumo:** Saiba como definir uma regra de conversão usando a ferramenta Criar uma Regra de Conversão Skype for Business Server.
 
-Siga estas etapas se quiser definir uma regra de conversão inserindo um conjunto de valores na ferramenta **Criar** uma Regra de Conversão e habilitando Skype for Business Server Painel de Controle para gerar o padrão correspondente e a regra de conversão correspondente para você. Se preferir, é possível gravar uma expressão regular manualmente para definir o padrão de correspondência e a regra de conversão. Para obter detalhes, consulte [Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually).
+Siga estas etapas se quiser definir uma regra de conversão inserindo um conjunto de valores na ferramenta **Criar** uma Regra de Conversão e habilitando o Painel de Controle Skype for Business Server a gerar o padrão correspondente e a regra de conversão para você. Se preferir, é possível gravar uma expressão regular manualmente para definir o padrão de correspondência e a regra de conversão. Para obter detalhes, consulte [Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually).
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>Para definir uma regra usando a ferramenta Compilar uma Regra de Conversão
 
 1. Abra Skype for Business Server Painel de Controle.
 
-2. Para começar a definir uma regra de conversão, siga as etapas em Configure a trunk with [media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 ou Configure a trunk without media bypass in [Skype for Business Server](configure-trunk-without-media-bypass.md) through step 9.
+2. Para começar a definir uma regra de conversão, siga as etapas em [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 ou [Configure a trunk without media bypass in Skype for Business Server](configure-trunk-without-media-bypass.md) through step 9.
 
 3. Em **Nome** na página **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreve o padrão numérico que está convertido.
 
@@ -51,7 +46,7 @@ Siga estas etapas se quiser definir uma regra de conversão inserindo um conjunt
 
      Os valores inseridos nesses campos são refletidos nos campos **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você especificar os valores do exemplo anterior, a expressão regular resultante no campo **Padrão a ser correspondido** será:
 
-     ^\+(\d {9} \d+)$
+     ^\+(\d{9}\d+)$
 
      O campo **Regra de conversão** especifica um padrão para o formato de números convertidos. Esse padrão tem duas partes:
 
@@ -76,7 +71,7 @@ Siga estas etapas se quiser definir uma regra de conversão inserindo um conjunt
 
 1. Abrir Skype for Business Server Painel de Controle
 
-2. Para começar a definir uma regra de conversão, siga as etapas em Configure a trunk with [media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 ou Configure a trunk without media bypass in [Skype for Business Server](configure-trunk-without-media-bypass.md) through step 9.
+2. Para começar a definir uma regra de conversão, siga as etapas em [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 ou [Configure a trunk without media bypass in Skype for Business Server](configure-trunk-without-media-bypass.md) through step 9.
 
 3. No campo **Nome**, na página **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreva o padrão de número sendo convertido.
 
@@ -90,7 +85,7 @@ Siga estas etapas se quiser definir uma regra de conversão inserindo um conjunt
 
    - No campo **Regra de conversão**, especifique o padrão para o formato dos números convertidos.
 
-     Por exemplo, se você inserir ^ (\d \d+)$ em Corresponder a esse padrão \+ {9} e011$1 na  regra conversão, a regra traduzirá +441235551010 para 011441235551010.
+     Por exemplo, se você inserir ^\+(\d\d{9}+)$ em Corresponder a esse padrão e011$**1 na regra** de conversão, a regra traduzirá +441235551010 para 011441235551010.
 
 7. Clique em **OK** para salvar a regra de tradução.
 

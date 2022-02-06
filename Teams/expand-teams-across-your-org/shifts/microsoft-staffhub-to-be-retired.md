@@ -1,8 +1,8 @@
 ---
 title: O Microsoft StaffHub foi retirado
-author: HowlinWolf-92
-ms.author: v-mahoffman
-ms.reviewer: lisawu, gumariam
+author: SerdarSoysal
+ms.author: serdars
+ms.reviewer: 'lisawu, gumariam'
 manager: serdars
 audience: admin
 ms.topic: article
@@ -10,21 +10,16 @@ ms.service: msteams
 search.appverid: MET150
 description: Encontre respostas às perguntas frequentes sobre a aposentadoria do Microsoft StaffHub e a transição para o aplicativo Shifts em Microsoft Teams.
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_FLW
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8defeba782c49d1bd0aa22e438526dcf297a015b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849554"
 ---
+
 # <a name="microsoft-staffhub-has-been-retired"></a>O Microsoft StaffHub foi retirado
 
 A partir de 30 de junho de 2020, o Microsoft StaffHub foi desativado. Estamos criando recursos StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo Shifts para o gerenciamento de cronogramas e recursos adicionais serão implantados com o tempo.
@@ -92,7 +87,7 @@ A funcionalidade principal é a mesma entre os aplicativos Shifts iOS e Android.
 Shifts funciona em todos os navegadores com suporte Teams que inclui as versões mais recentes do Microsoft Edge, Internet Explorer, Google Chrome e Mozilla Firefox. Para obter mais informações, consulte [Obter clientes para Teams](../../get-clients.md).
 
 > [!Note]
-> Microsoft 365 aplicativos e serviços não darão suporte ao Internet Explorer 11 a partir de 17 de agosto de 2021 (o Microsoft Teams não dará suporte ao Internet Explorer 11 anteriormente, a partir de 30 de novembro de 2020). [Saiba mais](https://aka.ms/AA97tsw). Observe que o Internet Explorer 11 permanecerá um navegador compatível. O Internet Explorer 11 é um componente [](/lifecycle/faq/internet-explorer-microsoft-edge) do sistema operacional Windows e segue a Política de Ciclo de Vida do produto no qual está instalado. 
+> Microsoft 365 aplicativos e serviços não darão suporte ao Internet Explorer 11 a partir de 17 de agosto de 2021 (o Microsoft Teams não dará suporte ao Internet Explorer 11 anteriormente, a partir de 30 de novembro de 2020). [Saiba mais](https://aka.ms/AA97tsw). Observe que o Internet Explorer 11 permanecerá um navegador compatível. O Internet Explorer 11 é um componente do sistema operacional Windows e segue a Política de [](/lifecycle/faq/internet-explorer-microsoft-edge) Ciclo de Vida do produto no qual está instalado. 
 
 #### <a name="what-languages-does-shifts-support"></a>Quais idiomas o Shifts dá suporte?
 
@@ -102,11 +97,11 @@ Os turnos estão disponíveis nos seguintes idiomas: chinês-simplificado, ingl�
 
 Os dados de turnos são armazenados no Azure em data centers na América do Norte e na Europa Ocidental. SharePoint conteúdo aproveita Microsoft 365 Grupos e usa o mesmo armazenamento e suporte.
 
-Para obter mais informações, [consulte Local dos dados de turnos.](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)
+Para obter mais informações, consulte [Local dos dados de turnos](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>Onde posso saber mais sobre Turnos?
 
-Para obter informações sobre o produto, vá para [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software) .
+Para obter informações sobre o produto, vá para [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software).
 
 Para obter orientações de administrador, consulte [Gerenciar o aplicativo Shifts para sua organização em Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -118,11 +113,11 @@ Cada usuário deve ter uma licença Microsoft 365 ou Office 365 de um plano qual
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>Como habilitar o Teams na minha organização?
 
-Por padrão, Teams está habilitado para todas as organizações. Você atribui Teams licenças aos usuários para controlar o acesso individual a Teams. Para obter mais informações, consulte [Enable Teams in your organization](../../Office-365-set-up.md) and Manage user access to [Teams](../../user-access.md).
+Por padrão, Teams está habilitado para todas as organizações. Você atribui Teams licenças aos usuários para controlar o acesso individual a Teams. Para obter mais informações, consulte [Enable Teams in your organization](../../Office-365-set-up.md) and [Manage user access to Teams](../../user-access.md).
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>E se eu atualmente tiver Skype for Business habilitado na minha organização, mas não Teams?
 
-Teams dá suporte à coexistência com Skype for Business. Para obter mais informações, consulte [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) and Migration and [interoperability guidance for organizations using Teams together with Skype for Business](../../migration-interop-guidance-for-teams-with-skype.md).
+Teams dá suporte à coexistência com Skype for Business. Para obter mais informações, consulte [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](../../migration-interop-guidance-for-teams-with-skype.md).
 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>Cada usuário precisa ter uma conta Microsoft 365 ou Office 365 ou uma conta Azure Active Directory (Azure AD) ?
 
@@ -154,17 +149,17 @@ Para saber mais, consulte [Manage the Shifts app for your organization in Teams]
 
 #### <a name="what-powershell-controls-are-available-for-teams"></a>Quais controles do PowerShell estão disponíveis para Teams?
 
-Você gerencia Teams o módulo Microsoft Teams PowerShell e o módulo Skype for Business PowerShell. Para obter mais informações, [consulte Teams Visão Geral do PowerShell](../../teams-powershell-overview.md). No momento, não há cmdlets específicos do PowerShell disponíveis para gerenciar Turnos.  
+Você gerencia Teams o módulo Microsoft Teams PowerShell e o módulo Skype for Business PowerShell. Para obter mais informações, [consulte Teams Visão geral do PowerShell](../../teams-powershell-overview.md). No momento, não há cmdlets específicos do PowerShell disponíveis para gerenciar Turnos.  
 
-Se você estiver interessado em algo, envie-nos uma solicitação por meio do portal de Teams [comentários no UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
+Se você estiver interessado em algo, envie uma solicitação por meio do portal de Teams [comentários no UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
 
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>O relatório está disponível para exibir o uso de Turnos na minha organização?
 
-Como Shifts é um aplicativo Teams, você pode exibir o uso por meio Teams relatórios. Para obter mais informações, confira [Teams relatórios](../../teams-analytics-and-reports/teams-reporting-reference.md) no centro de administração Microsoft Teams e Teams relatórios de atividades [no Centro de administração do Microsoft 365](../../teams-activity-reports.md).
+Como Shifts é um aplicativo Teams, você pode exibir o uso por meio Teams relatórios. Para obter mais informações, confira [Teams relatórios](../../teams-analytics-and-reports/teams-reporting-reference.md) no centro de administração Microsoft Teams e Teams relatórios de atividades no [Centro de administração do Microsoft 365](../../teams-activity-reports.md).
 
 #### <a name="where-can-i-provide-feedback"></a>Onde posso fornecer comentários?
   
-No aplicativo móvel, toque **em Mais** na parte superior esquerda da tela **Configurações,** vá para enviar comentários ou  >   relatar um **problema**. Da mesma forma, nos aplicativos da área de trabalho e da Web, no canto inferior esquerdo da tela, **vá** Ajudar a compartilhar uma ideia ou  >   relatar um **problema.**
+No aplicativo móvel, toque em **Mais** na parte superior esquerda da tela,  >  vá para Configurações **Send feedback** ou **Relatar um problema**. Da mesma forma, nos aplicativos da área de trabalho e da Web, no canto inferior esquerdo da tela, vá **AjudarShare**  >  uma ideia ou **Relatar um problema**.

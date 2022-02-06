@@ -1,28 +1,23 @@
 ---
 title: Requisitos de balanceamento de carga para Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumo: revise as considerações de balanceamento de carga antes de implementar Skype for Business Server.'
-ms.openlocfilehash: 4bdfc9d9958154df8ce485c945dbe8accd630ed8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840993"
 ---
+
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para Skype for Business
  
 **Resumo:** Revise as considerações de balanceamento de carga antes de implementar Skype for Business Server.
@@ -235,7 +230,7 @@ A  implantação do balanceamento DNS de carga nos pools de Front-Ends e  pools 
   
 - Um pool que usa balanceamento de carga DNS deve ter dois FQDNs: o FQDN de pool regular que é usado pelo balanceamento de carga DNS (como pool01.contoso.com) e resolve para os IPs físicos dos servidores no pool e outro FQDN para os serviços Web do pool (como o web01.contoso.com), que resolve para o endereço IP virtual do pool. 
     
-    No Construtor de Topologias, se você quiser implantar o balanceamento de carga DNS para um pool, para criar esse FQDN extra para os serviços Web do pool, selecione a caixa de seleção Substituir **FQDN** do pool de Serviços Web internos e digite o FQDN, na página Especificar as **URLs** de Serviços Web para este Pool.
+    No Construtor de Topologias, se você quiser implantar o balanceamento de carga DNS para um pool, para criar esse FQDN extra para os serviços Web do pool, selecione a caixa de seleção Substituir **FQDN do pool** de Serviços Web internos e digite o FQDN, na página Especificar as **URLs** de Serviços Web para este Pool.
     
 - Para suportar o FQDN usado pelo balanceamento de carga DNS, você deve provisionar o DNS para resolver o FQDN do pool (como pool01.contoso.com) para os endereços IP de todos os servidores no pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante). Você deve incluir somente os endereços IP dos servidores que estão atualmente implantados.
     
