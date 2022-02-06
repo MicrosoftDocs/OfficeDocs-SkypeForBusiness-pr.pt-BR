@@ -1,27 +1,22 @@
 ---
 title: Configuração do dispositivo
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ClientPhoneCfgMain
+  - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos Skype for Business Telefone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
-ms.openlocfilehash: c8de4b310b5c02dbf760b12e478d7166a7d6a745
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840313"
+description: 'Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos Skype for Business Telefone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.'
 ---
+
 # <a name="device-configuration"></a>Configuração do dispositivo
  
 Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos Skype for Business Telefone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade. 

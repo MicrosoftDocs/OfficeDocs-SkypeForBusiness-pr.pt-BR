@@ -1,28 +1,23 @@
 ---
 title: Personalizar a música do Estacionamento de Chamada em espera noSkype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Personalize a música estacionamento de chamada em espera Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 9a17bddf45911974687fb374e9fd5da65b94787c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865308"
 ---
+
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Personalizar a música do Estacionamento de Chamada em espera noSkype for Business
  
 Personalize a música estacionamento de chamada em espera Skype for Business Server Enterprise Voice.
@@ -34,9 +29,9 @@ Você pode especificar seu próprio arquivo de música a ser usado para música 
   
 ### <a name="to-customize-the-music-file"></a>Para personalizar o arquivo de música
 
-1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários** conforme descrito em Permissões de Instalação do Representante .
+1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários**, conforme descrito em Permissões de Instalação do Representante.
     
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. Execute .
     

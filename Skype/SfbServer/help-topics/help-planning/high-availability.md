@@ -1,29 +1,24 @@
 ---
-title: Skype for Business Server Ferramenta de planejamento de alta disponibilidade
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype for Business Server ferramenta de planejamento de alta disponibilidade
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.HighAvailability
-- ms.lync.plan.HighAvailability
+  - ms.lync.plan.HighAvailability
+  - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
-description: O principal esquema de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server 2015 se baseia na redundância do servidor por meio do pool. Se um servidor executando uma certa função de servidor falha, os ouros servidores no pool executando a mesma função assumem a carga daquele servidor.
-ms.openlocfilehash: 47b7eb48b3825cf86e4f24652ad38af2f0cf86d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862688"
+description: 'O principal esquema de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server 2015 se baseia na redundância do servidor por meio do pool. Se um servidor executando uma certa função de servidor falha, os ouros servidores no pool executando a mesma função assumem a carga daquele servidor.'
 ---
-# <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype for Business Server Ferramenta de planejamento de alta disponibilidade
+
+# <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype for Business Server ferramenta de planejamento de alta disponibilidade
  
 O principal esquema de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server 2015 se baseia na redundância do servidor por meio do pool. Se um servidor executando uma certa função de servidor falha, os ouros servidores no pool executando a mesma função assumem a carga daquele servidor.
   

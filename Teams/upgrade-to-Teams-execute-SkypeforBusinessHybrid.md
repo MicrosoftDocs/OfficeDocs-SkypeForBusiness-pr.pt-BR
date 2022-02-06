@@ -1,7 +1,7 @@
 ---
 title: Atualizar Skype for Business implantação híbrida para Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,22 +11,17 @@ description: Saiba como atualizar sua organização para Microsoft Teams de uma 
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-mar2020
+  - Teams-upgrade-guidance
+  - seo-marvel-mar2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: ef173755673cf22ece6c3f8325b2d0392092c1eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840653"
+  - Microsoft Teams
 ---
+
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Atualizar de uma implantação Skype for Business híbrida para Teams
 
 ![Estágios da jornada de atualização, com ênfase no estágio implantação e implementação.](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")
@@ -61,4 +56,4 @@ Depois de ter movido seus usuários para o Skype for Business Online, você pode
 
 Se você estiver fazendo a transição da implantação híbrida do Skype for Business para o Sistema de Telefonia com Planos de Chamadas e a Microsoft será o provedor PSTN (rede telefônica pública comutado) e supondo que você concluiu a portação de número de telefone, atualizar seus usuários para o Teams fará a transição automática de chamadas PSTN de entrada para Teams.
 
-Se Os Planos de Chamadas não estão disponíveis ou você pretende usar seu provedor de conectividade PSTN existente, você precisará fazer a transição da implantação de voz corporativa ou a implantação de voz híbrida que usa sua implantação local ou o Cloud Connector Edition existente para Telefone Microsoft Roteamento Direto do Sistema. Para atualizar seus usuários para Teams, consulte as [considerações adicionais para Sistema de Telefonia Roteamento Direto.](./direct-routing-landing-page.md)
+Se Os Planos de Chamadas não estão disponíveis ou você pretende usar seu provedor de conectividade PSTN existente, você precisará fazer a transição da implantação de voz corporativa ou a implantação de voz híbrida que usa sua implantação local ou o Cloud Connector Edition existente para Telefone Microsoft Roteamento Direto do Sistema. Para atualizar seus usuários para Teams, consulte as [considerações adicionais sobre Sistema de Telefonia Roteamento Direto](./direct-routing-landing-page.md).

@@ -1,30 +1,25 @@
 ---
 title: Solicitação de Certificado (Básico)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertRequestBasics
+  - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
-ROBOTS: NOINDEX, NOFOLLOW
-description: A página Nome e Segurança Configurações fornece uma caixa de texto para definir um Nome Amigável, uma listada para o comprimento de bit do par de chaves pública e privada e uma caixa de seleção que permite marcar a chave privada do certificado como exportável.
-ms.openlocfilehash: da3125456a97408dd9f3e694a16238d5657fc1d6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861748"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'A página Nome e Segurança Configurações fornece uma caixa de texto para definir um Nome Amigável, uma listada para o comprimento de bit do par de chaves pública e privada e uma caixa de seleção que permite marcar a chave privada do certificado como exportável.'
 ---
+
 # <a name="certificate-request-basic"></a>Solicitação de Certificado (Básico)
  
-A página Nome e Segurança **Configurações** fornece uma caixa de texto para definir  um Nome Amigável **,** uma listada para o comprimento de bit do par de chaves pública e privada e uma caixa de seleção que permite marcar a chave privada do certificado como **exportável**.
+A página Nome e Segurança **Configurações** fornece uma caixa de texto para definir um Nome **Amigável, uma** listada para o comprimento de bit  do par de chaves pública e privada e uma caixa de seleção que permite marcar a chave privada do certificado como **exportável**.
   
 O nome amigável, ou simples, em um certificado é um nome facilmente reconhecível que facilita a identificação para a pessoa que exibe o certificado.
   

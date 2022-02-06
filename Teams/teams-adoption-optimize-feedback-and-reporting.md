@@ -1,7 +1,7 @@
 ---
 title: Otimizar comentários e relatórios para Microsoft Teams adoção
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -12,22 +12,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como obter comentários do usuário e usar relatórios de saúde do serviço em sua Teams adoção.
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-mar2020
+  - Adopt
+  - seo-marvel-mar2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: a52e0035099ccb764272566c899ee5811c18ac5b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840713"
+  - Microsoft Teams
 ---
+
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar os comentários e relatórios de adoção do Microsoft Teams
 
 Certifique-se de que você está recebendo sinais de volta do seu serviço e de seus funcionários seguindo nossas práticas recomendadas para comentários do usuário e relatórios de saúde do serviço.  Em alguns casos, você pode precisar de direitos de administrador para acessar determinados relatórios de uso e de saúde do serviço. Se você não for o administrador Microsoft 365 ou Office 365 sua organização, trabalhe com esse indivíduo para ter a função de leitor de relatório no Centro de administração do Microsoft 365 acessar alguns desses dados.
@@ -57,7 +52,7 @@ Práticas práticas: tenha representantes do seu departamento de suporte interno
 Há três tipos de relatórios que você deve revisar ao implantar e adotar Microsoft Teams:
 
 - [Saúde do](https://status.office365.com/) serviço – Microsoft 365, Office 365 e seu departamento de suporte de IT interno.
-- [Microsoft 365 relatórios](/microsoft-365/admin/activity-reports/activity-reports) no centro de administração – Microsoft 365 ou Office 365 exibir Microsoft 365 relatórios no centro de administração [- Microsoft Teams atividade do usuário](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity). Você também pode usar informações de outros sistemas em sua organização.
+- [Microsoft 365 relatórios](/microsoft-365/admin/activity-reports/activity-reports) no centro de administração – Microsoft 365 ou Office 365 exibir Microsoft 365 relatórios no centro de administração – Microsoft Teams [atividade do usuário](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity). Você também pode usar informações de outros sistemas em sua organização.
 - Satisfação do serviço – Coletado de fóruns e pesquisas da comunidade interna sobre experiências específicas
 
 ![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Em seguida: [conscientização de unidade e implementação de treinamento](teams-adoption-drive-awareness.md)
