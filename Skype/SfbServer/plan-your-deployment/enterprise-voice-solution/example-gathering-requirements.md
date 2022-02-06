@@ -1,28 +1,23 @@
 ---
 title: Requisitos de coleta de exemplo para controle de admissão de chamada Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: Fornece um exemplo detalhado de planejamento para o controle de admissão de chamada no Skype for Business Server Enterprise Voice, incluindo a coleta de informações sobre sites, regiões e largura de banda da sua rede.
-ms.openlocfilehash: 0af3072cfd0e248d2811c0aee78f7351b9513249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850744"
+description: 'Fornece um exemplo detalhado de planejamento para o controle de admissão de chamada no Skype for Business Server Enterprise Voice, incluindo a coleta de informações sobre sites, regiões e largura de banda da sua rede.'
 ---
+
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemplo: reunir requisitos para controle de admissão de chamada Skype for Business Server
 
 Fornece um exemplo detalhado de planejamento para o controle de admissão de chamada no Skype for Business Server Enterprise Voice, incluindo a coleta de informações sobre sites, regiões e largura de banda da sua rede.
@@ -60,7 +55,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
      ![Exemplo de topologia de rede com 3 regiões de rede.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Uma rede MPLS (Multiprotocol Label Switching) deve ser representada como uma região de rede na qual cada local geográfico tem um site de rede correspondente. Para obter detalhes, consulte [Componentes e topologias para controle de](components-and-topologies.md)admissão de chamada em Skype for Business . 
+    > Uma rede MPLS (Multiprotocol Label Switching) deve ser representada como uma região de rede na qual cada local geográfico tem um site de rede correspondente. Para obter detalhes, consulte [Components and toplogies for call admission control in Skype for Business](components-and-topologies.md). 
 
     No exemplo anterior de topologia de rede, há três regiões de rede, cada uma com um Skype for Business Server central que gerencia o CAC. O site central apropriado para uma região de rede é escolhido pela proximidade geográfica. Como o tráfego de mídia será o mais intenso nas regiões de rede, a propriedade por proximidade geográfica o tornará autocontido e continuará funcionando mesmo se outros sites centrais ficarem indisponíveis. 
 
@@ -150,7 +145,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
     **Nível**: 2
 
-    **Descrição**: as sub-redes dos seguintes Endereços IP: não estão configuradas ou as sub-redes não estão \<List of IP Addresses\> associadas a um site de rede. 
+    **Descrição**: as sub-redes dos seguintes Endereços IP: \<List of IP Addresses\> não estão configuradas ou as sub-redes não estão associadas a um site de rede. 
 
     **Causa**: as sub-redes dos endereços IP correspondentes estão ausentes nas definições de configuração de rede ou as sub-redes não estão associadas a um site de rede. 
 

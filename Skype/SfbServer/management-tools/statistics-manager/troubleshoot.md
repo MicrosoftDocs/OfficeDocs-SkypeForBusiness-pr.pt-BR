@@ -1,25 +1,20 @@
 ---
 title: Solução de problemas do Gerenciador de Estatísticas do Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Resumo: leia este tópico para solucionar problemas de implantação do Gerenciador de Estatísticas para Skype for Business Server.'
-ms.openlocfilehash: 6e6edefe8d6070a917f817b3b6d79bf35ff36599
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857338"
 ---
+
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solução de problemas do Gerenciador de Estatísticas do Skype for Business Server
  
 **Resumo:** Leia este tópico para solucionar problemas de implantação do Gerenciador de Estatísticas para Skype for Business Server.
@@ -52,7 +47,7 @@ Este tópico descreve como solucionar problemas de implantação do Gerenciador 
   ```
 
     > [!NOTE]
-    > Se essa alteração for feita, o Agente geralmente ainda consumirá 100 MB de memória, no entanto, ele não será limitado à força a 300 MB, como é o \< padrão. Se essa alteração for feita, recomendamos monitorar de perto o uso da memória para garantir que o Agente não consuma uma grande quantidade de memória em seu computador host. 
+    > Se essa alteração for feita, o Agente \< geralmente ainda consumirá 100 MB de memória, no entanto, ele não será limitado à força a 300 MB, como é o padrão. Se essa alteração for feita, recomendamos monitorar de perto o uso da memória para garantir que o Agente não consuma uma grande quantidade de memória em seu computador host. 
   
 - **2000** — Falha na inicialização do cliente
     
@@ -76,7 +71,7 @@ Este tópico descreve como solucionar problemas de implantação do Gerenciador 
     
   - Certifique-se de seguir as instruções para importar a topologia. Consulte [Importar a topologia](deploy.md#BKMK_ImportTopology). 
     
-  - Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós em um cluster AlwaysOn do SQL), você precisará adicionar o Agente manualmente seguindo as instruções em Importar a [topologia](deploy.md#BKMK_ImportTopology).
+  - Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós em um cluster AlwaysOn do SQL), você precisará adicionar o Agente manualmente seguindo as instruções em [Importar a topologia](deploy.md#BKMK_ImportTopology).
     
   - **4002** — Senha de ouvinte inválida
     
@@ -109,7 +104,7 @@ Este tópico descreve como solucionar problemas de implantação do Gerenciador 
     
   - **10002** — Erro de inicialização do ouvinte HTTP
     
-    Esse evento geralmente será registrado quando a URL ACL não tiver sido definida corretamente durante a instalação ou o Certificado SSL for inválido. Verifique se o certificado em sua configuração é válido. Se estiver, reinstale o Ouvinte de acordo com as instruções em [Deploy Statistics Manager](deploy.md#BKMK_Deploy).
+    Esse evento geralmente será registrado quando a URL ACL não tiver sido definida corretamente durante a instalação ou o Certificado SSL for inválido. Verifique se o certificado em sua configuração é válido. Se estiver, reinstale o Ouvinte de acordo com as instruções no [Deploy Statistics Manager](deploy.md#BKMK_Deploy).
     
   - **10003** — Falha de redis
     

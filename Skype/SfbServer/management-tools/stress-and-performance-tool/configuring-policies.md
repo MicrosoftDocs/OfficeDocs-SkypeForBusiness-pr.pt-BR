@@ -1,26 +1,21 @@
 ---
 title: Configurando políticas para a ferramenta de desempenho e Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 11/11/2015
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: Configuração de política para Skype for Business Server ferramenta de desempenho e estresse 2015.
-ms.openlocfilehash: 3bf593402340386e21a2cc339b6eb971c7bbd39f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857318"
 ---
+
 # <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configurando políticas para a ferramenta de desempenho e Skype for Business Server 2015
  
 Configuração de política para Skype for Business Server ferramenta de desempenho e estresse 2015.
@@ -102,7 +97,7 @@ Na verdade, isso é desabilitado por padrão. Você pode revisar o CallParkConfi
 
 Você precisará executar as etapas a seguir para configurar testes de estresse e desempenho para chamadas de emergência:
   
-1. Configurar uma rota de voz para chamadas de emergência. Você pode usar o script RoutingRules.ps1 e verificar sob o comentário " **Route E911 to PSTN** " para um exemplo de como configurar essa rota de voz.
+1. Configurar uma rota de voz para chamadas de emergência. Você pode usar o script RoutingRules.ps1 e verificar no comentário " **Route E911 to PSTN** " para um exemplo de como configurar essa rota de voz.
     
     > [!CAUTION]
     > O comando de exemplo RoutingRules.ps1 tem um padrão de número que inclui o número 119 em vez de 911. Você deve evitar o uso do 911 (ou seu número de emergência local real) para evitar chamadas acidentais para seus operadores de emergência locais durante o teste de carga. Lembre-se de que essa configuração é apenas para fins de simulação! 
@@ -111,7 +106,7 @@ Você precisará executar as etapas a seguir para configurar testes de estresse 
     
      ![Ferramenta de provisionamento do usuário mostrando o número de endereços, sub-redes, comutadores e portas.](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
   
-3. Ao entrar tudo no UserProvisioningTool, clique no botão **Gerar arquivos de config LIS.**
+3. Ao entrar tudo no UserProvisioningTool, clique no botão **Gerar arquivos de config LIS** .
     
 4. Agora, os arquivos CSV para portas, sub-redes, comutadores e pontos de acesso sem fio (WAPs), bem como um arquivo XML para a ferramenta Stress e Performance serão gerados. Você pode usar os arquivos CSV para entradas ao configurar o serviço de Informações de Localização (LIS) com o LisConfiguration.ps1 script. Para fazer isso, você precisará mover o arquivo Locations0.xml para a mesma pasta que a Ferramenta de Desempenho e Estresse executável (LyncPerfTool.exe). Isso permitirá que você execute cenários de perfil de local (plano de discagem).
     

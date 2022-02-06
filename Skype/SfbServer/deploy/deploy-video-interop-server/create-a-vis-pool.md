@@ -1,42 +1,37 @@
 ---
 title: Criar um pool vis no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Resumo: Crie um pool de Servidores de Interop de Vídeo em Skype for Business Server usando o Construtor de Topologias.'
-ms.openlocfilehash: 3c16381e1fceaf280571f2927d8123bc6861dd5c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864328"
 ---
+
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Criar um pool vis no Skype for Business Server
  
 **Resumo:** Crie um pool de Servidores de Interop de Vídeo em Skype for Business Server usando o Construtor de Topologias.
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>Criar um pool VIS ou VIS usando o Construtor de Topologias
 
-1. Abra o Construtor de Topologias no servidor front-end. No painel esquerdo do Construtor de Topologias, clique com o botão direito do mouse em **Pools** de Servidores de Interop de Vídeo e escolha Novo Pool de Servidores **de Interop de Vídeo**. 
+1. Abra o Construtor de Topologias no servidor front-end. No painel esquerdo do Construtor de Topologias, clique com o botão direito do mouse em Pools de Servidores de **Interop** de Vídeo e escolha **Novo Pool de Servidores de Interop de Vídeo**. 
     
-2. Isso abrirá um assistente Criar um novo Pool de Servidores **de Interop de** Vídeo. Forneça o FQDN do Pool para o novo Servidor de Interop de Vídeo e selecione Este **pool** tem um servidor ou Esse **pool** tem vários servidores com base em seu requisito e pressione **Next**.
+2. Isso abrirá um assistente **Criar um novo Pool de Servidores de Interop de** Vídeo. Forneça o FQDN do Pool para o novo Servidor de Interop de Vídeo e selecione Este **pool** tem um servidor ou Esse **pool** tem vários servidores com base em seu requisito e pressione **Next**.
     
-    Se você quiser implantar um pool de Servidor de Interop de Vídeo para fornecer alta disponibilidade, selecione **Este pool tem vários servidores**. Tenha em mente esta opção que: 
+    Se você deseja implantar um pool de Servidor de Interop de Vídeo para fornecer alta disponibilidade, selecione **Este pool tem vários servidores**. Tenha em mente esta opção que: 
     
     - Você deve implantar o balanceamento de carga DNS para dar suporte a pools de Servidor de Interop de Vídeo. 
     
-   - Na próxima página, para Definir os computadores neste item do **pool,** insira o **FQDN** do computador de cada servidor no pool no campo de texto e clique em **Adicionar**. Repita esta etapa para adicionar outro Servidor de Interop de Vídeo ao pool. Quando você tiver definido todos os computadores no pool, pressione **Next**.
+   - Na próxima página, para Definir os computadores neste item do **pool** , insira o **FQDN** do computador de cada servidor no pool no campo de texto e clique em **Adicionar**. Repita esta etapa para adicionar outro Servidor de Interop de Vídeo ao pool. Quando você tiver definido todos os computadores no pool, pressione **Next**.
     
-     Se você deseja implantar apenas um Servidor de Interop de Vídeo no pool porque não exige alta disponibilidade, selecione Este **pool** tem um servidor e pressione **Next**.
+     Se você quiser implantar apenas um Servidor de Interop de Vídeo no pool porque não exige alta disponibilidade, selecione Esse **pool** tem um servidor e pressione **Next**.
     
 3. Selecione o pool/FE do próximo salto na listada e pressione **Next**.
     
@@ -46,7 +41,7 @@ ms.locfileid: "60864328"
     
     Selecione o Servidor de Interop de Vídeo recém-adicionado no painel esquerdo do Construtor de Topologias, clique com o botão direito do mouse nele e escolha **Editar Propriedades**. Habilita ou atualize a porta TCP ou TLS de acordo com seu requisito e escolha **OK**. Embora por padrão o TLS seja adicionado, somente o TCP foi totalmente testado com o Gerenciador de Comunicações Unificadas da Cisco (CallManager ou CUCM).
     
-6. Adicione um gateway de vídeo. Para fazer isso, expanda Componentes **Compartilhados,** clique com o botão direito do mouse em Gateways de Vídeo e selecione **Novo Gateway de Vídeo.**
+6. Adicione um gateway de vídeo. Para fazer isso, expanda Componentes Compartilhados, clique com o botão direito do mouse em **Gateways de Vídeo** e selecione **Novo Gateway de Vídeo**.
     
 7. Forneça o FQDN ou endereço IP do gateway de vídeo. O gateway de vídeo pode estar em um subdomínio ou em um domínio diferente. O CUCM usado pelos VTCs do sistema serve como um gateway de vídeo.
     

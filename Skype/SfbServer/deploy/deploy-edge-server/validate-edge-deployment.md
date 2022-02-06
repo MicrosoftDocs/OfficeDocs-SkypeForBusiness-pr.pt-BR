@@ -1,27 +1,22 @@
 ---
 title: Validar sua implantação de Borda no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Hybrid
-ms.custom: ''
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Resumo: saiba como verificar se a implantação do Servidor de Borda ou pool do Servidor de Borda está funcionando Skype for Business Server.'
-ms.openlocfilehash: b8a538d457c2f785d2bdff96dd379524c2df1a28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841923"
 ---
+
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar sua implantação de Borda no Skype for Business Server
  
 **Resumo:** Saiba como verificar se a implantação do Servidor de Borda ou pool do Servidor de Borda está funcionando Skype for Business Server.
@@ -36,7 +31,7 @@ O resultado inicial da execução desse comando pode dar um status False, em vez
   
 ## <a name="verify-connectivity-for-your-external-users"></a>Verificar a conectividade para seus usuários externos
 
-Temos uma ótima ferramenta para confirmar sua configuração do Servidor de Borda e a capacidade de conectar, enviar e receber as mensagens corretas para cenários do Servidor de Borda. É o site [do Anaylzer de Conectividade Remota.](https://testconnectivity.microsoft.com/) Este é um site gerenciado e mantido pelo Suporte da Microsoft. Para usar essa ferramenta, navegue até o site e siga as instruções para escolher o cenário certo para você.
+Temos uma ótima ferramenta para confirmar sua configuração do Servidor de Borda e a capacidade de conectar, enviar e receber as mensagens corretas para cenários do Servidor de Borda. É o site [do Anaylzer conectividade remota](https://testconnectivity.microsoft.com/). Este é um site gerenciado e mantido pelo Suporte da Microsoft. Para usar essa ferramenta, navegue até o site e siga as instruções para escolher o cenário certo para você.
   
 ### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Coisas a considerar ao testar a conectividade do usuário externo
 

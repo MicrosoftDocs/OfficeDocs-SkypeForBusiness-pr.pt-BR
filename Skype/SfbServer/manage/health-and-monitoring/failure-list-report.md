@@ -1,24 +1,19 @@
 ---
 title: Relatório de Lista de Falhas no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Resumo: saiba mais sobre o Relatório de Lista de Falhas Skype for Business Server.'
-ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858288"
 ---
+
 # <a name="failure-list-report-in-skype-for-business-server"></a>Relatório de Lista de Falhas no Skype for Business Server 
  
 **Resumo:** Saiba mais sobre o Relatório de Lista de Falhas Skype for Business Server.
@@ -45,7 +40,7 @@ O Relatório de Lista de Falhas é acessado clicando em qualquer uma das seguint
     
 - Principais agentes de usuários de origem (sessões)
     
-No Relatório de Lista de Falhas, você pode acessar o Relatório de Detalhes de Sessão Ponto [a](peer-to-peer-session-detail-report.md) Ponto em Skype for Business Server clicando na métrica de detalhes da sessão para uma sessão ponto a ponto. You can also access the Conference Detail Report by clicking the Conference metric for a conference.
+No Relatório de Lista de Falhas, você pode acessar o Relatório de Detalhes de Sessão Ponto [a](peer-to-peer-session-detail-report.md) Ponto no Skype for Business Server clicando na métrica de detalhes da sessão para uma sessão ponto a ponto. You can also access the Conference Detail Report by clicking the Conference metric for a conference.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Making the Best Use of the Failure List Report
 
@@ -101,7 +96,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Lista de Fa
   
 **Métricas do Relatório de Lista de Falhas**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Hora de relatório** <br/> |Não  <br/> |Data e hora em que o relatório foi gravado.  <br/> |
 |**Solicitação** <br/> |Não  <br/> |Tipo de solicitação SIP que falhou. Por exemplo, CONVIDAR ou ATÉ LOGO.  <br/> |

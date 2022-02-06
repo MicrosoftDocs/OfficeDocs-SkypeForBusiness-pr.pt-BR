@@ -1,36 +1,31 @@
 ---
 title: Fluxo de Trabalho de Grupos de Resposta
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsWorkFlowMain
+  - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
-ROBOTS: NOINDEX, NOFOLLOW
-description: Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Os fluxos de trabalho do Grupo de Resposta definem as ações que são tomadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
-ms.openlocfilehash: 2a43d8c9c51ec91f31f2ecb726da8f8b11c3aa71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839443"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Os fluxos de trabalho do Grupo de Resposta definem as ações que são tomadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.'
 ---
+
 # <a name="response-groups-workflow"></a>Fluxo de Trabalho de Grupos de Resposta
 
 Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Os fluxos de trabalho do Grupo de Resposta definem as ações que são tomadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
 
-A **página Fluxo de** Trabalho de Grupos de Resposta exibe uma lista de todos os fluxos de trabalho do Grupo de Resposta  -   definidos para sua organização.
+A **página Grupos de** **RespostaTrabalho** -  de Resposta exibe uma lista de todos os fluxos de trabalho do Grupo de Resposta definidos para sua organização.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página Fluxo de Trabalho **de Grupos**  -  **de** Resposta:
+Você pode executar as seguintes tarefas na página **Grupos de** **RespostaTrabalho** -  de Resposta:
 
 - Criar ou alterar um fluxo de trabalho de grupo de busca
 

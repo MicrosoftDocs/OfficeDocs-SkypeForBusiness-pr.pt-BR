@@ -1,25 +1,20 @@
 ---
 title: Skype for Business Server documentação de Ferramentas de Kit de Recursos 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
-description: Este artigo descreve as ferramentas no Kit de Recursos Skype for Business Server 2015, incluindo a finalidade de cada ferramenta e exemplos de seu uso. O Skype for Business Server 2015 Resource Kit ajuda a facilitar as tarefas de rotina para os administradores de IT que implantam e gerenciam o Skype for Business Server 2015. Por exemplo, a ferramenta Web Conf Data pode ser usada para controlar facilmente os dados carregados pelos usuários durante uma reunião online. A ferramenta SEFAUtil pode ser usada para configurar o encaminhamento de chamada delegada e o atendimento aos usuários. Incentivamos os administradores de IT a usar essas ferramentas para gerenciar com mais eficiência o Skype for Business Server 2015.
-ms.openlocfilehash: 04e66f19219291ef851b50af15dd796d36d44afb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857448"
+description: 'Este artigo descreve as ferramentas no Kit de Recursos Skype for Business Server 2015, incluindo a finalidade de cada ferramenta e exemplos de seu uso. O Skype for Business Server 2015 Resource Kit ajuda a facilitar as tarefas de rotina para os administradores de IT que implantam e gerenciam o Skype for Business Server 2015. Por exemplo, a ferramenta Web Conf Data pode ser usada para controlar facilmente os dados carregados pelos usuários durante uma reunião online. A ferramenta SEFAUtil pode ser usada para configurar o encaminhamento de chamada delegada e o atendimento aos usuários. Incentivamos os administradores de IT a usar essas ferramentas para gerenciar com mais eficiência o Skype for Business Server 2015.'
 ---
+
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server documentação de Ferramentas de Kit de Recursos 2015
 
 Este artigo descreve as ferramentas no Kit de Recursos Skype for Business Server 2015, incluindo a finalidade de cada ferramenta e exemplos de seu uso. O Skype for Business Server 2015 Resource Kit ajuda a facilitar as tarefas de rotina para os administradores de IT que implantam e gerenciam o Skype for Business Server 2015. Por exemplo, a **ferramenta Web Conf Data** pode ser usada para controlar facilmente os dados carregados pelos usuários durante uma reunião online. A **ferramenta SEFAUtil** pode ser usada para configurar o encaminhamento de chamada delegada e o atendimento aos usuários. Incentivamos os administradores de IT a usar essas ferramentas para gerenciar com mais eficiência o Skype for Business Server 2015.
@@ -28,7 +23,7 @@ Este artigo descreve as ferramentas no Kit de Recursos Skype for Business Server
 
 Para instalar o Skype for Business Server 2015 Resource Kit, baixe [OCSReskit.msi](https://www.microsoft.com/download/details.aspx?id=52631) do Centro de Download.
 
-Execute **OCSResKit.msi** para fazer uma instalação simples. O .msi instala todas as ferramentas no seguinte caminho: %Arquivos de **Programas%\Skype for Business Server 2015\ResKit**. As ferramentas que são executáveis autocontivedas estão nesta pasta. As ferramentas que também têm arquivos de suporte estão em suas próprias subpastas.
+Execute **OCSResKit.msi** para fazer uma instalação simples. O .msi instala todas as ferramentas no seguinte caminho: **%Arquivos de Programas%\Skype for Business Server 2015\ResKit**. As ferramentas que são executáveis autocontivedas estão nesta pasta. As ferramentas que também têm arquivos de suporte estão em suas próprias subpastas.
 
 ## <a name="supported-environments"></a>Ambientes com suporte
 
@@ -85,7 +80,7 @@ Os principais cenários da ferramenta são os seguintes:
 
 - Para permitir que os administradores restaurem, configurações padrão do Serviço de Livro de Endereços.
 
-A ferramenta ABSConfig pode ser iniciada usando o arquivo ABSConfig.exe. A ferramenta abre para a guia **Configurar Atributos.** Esta tabela tem opções para mapear atributos dos Serviços de Domínio do Active Directory para os campos de atributos do Skype for Business Server 2015 e especificar quais usuários devem incluir ou excluir em arquivos de Serviço de Livro de Endereços com base em filtros de atributos específicos. Ele também tem opções para personalizar qual valor do número de telefone a ser incluído no arquivo do Livro de Endereços. A **opção Restaurar Padrões** permite que os administradores restaurem as configurações do Serviço do Livro de Endereços para valores padrão.
+A ferramenta ABSConfig pode ser iniciada usando o arquivo ABSConfig.exe. A ferramenta abre para a guia **Configurar Atributos**. Esta tabela tem opções para mapear atributos dos Serviços de Domínio do Active Directory para os campos de atributos do Skype for Business Server 2015 e especificar quais usuários devem incluir ou excluir em arquivos de Serviço de Livro de Endereços com base em filtros de atributos específicos. Ele também tem opções para personalizar qual valor do número de telefone a ser incluído no arquivo do Livro de Endereços. A **opção Restaurar Padrões** permite que os administradores restaurem as configurações do Serviço do Livro de Endereços para valores padrão.
 
 > [!NOTE]
 > O novo mapeamento de atributos do AD para nomes de campo OC diferentes funcionará apenas para Download de Arquivo do Livro de Endereços e não é suportado pela Consulta Web do Livro de Endereços.
@@ -124,7 +119,7 @@ Administradores que têm as permissões necessárias para atualizar a implantaç
 
 ### <a name="examples"></a>Exemplos
 
-ABSConfig pode ser iniciado digitandoABSConfig.exe **em** um prompt de comando. Mostrado abaixo está a interface do usuário da ferramenta ABSConfig.
+ABSConfig pode ser iniciado digitando **ABSConfig.exeem um** prompt de comando. Mostrado abaixo está a interface do usuário da ferramenta ABSConfig.
 
 ![A ABSConfig.exe ferramenta.](../media/Reskit_2012_Tools_Documentation_ABSConfig.JPG)
 
@@ -221,7 +216,7 @@ O Analisador de Utilização de Largura de Banda tem os dois aplicativos a segui
 
 - **WanLinkLogCollector.exe** Essa ferramenta permite que seu usuário inser as informações necessárias.
 
-- **BandwidthUtilizationAnalyzer.xlsm** Um relatório Microsoft Excel software de planilha é automaticamente WanLinkLogCollector.exe. Esse aplicativo permite que o usuário aplique filtros ao relatório, conforme mostrado posteriormente neste artigo.
+- **BandwidthUtilizationAnalyzer.xlsm** Um relatório Microsoft Excel software de planilha é automaticamente lançado por WanLinkLogCollector.exe. Esse aplicativo permite que o usuário aplique filtros ao relatório, conforme mostrado posteriormente neste artigo.
 
 #### <a name="phases-of-using-bandwidth-utilization-analyzer"></a>Fases do Uso do Analisador de Utilização de Largura de Banda
 
@@ -262,7 +257,7 @@ Registrar a linha do tempo permite que o usuário da ferramenta especifique o se
 
 Os diretórios de arquivos a seguir podem ser especificados pelo usuário, conforme mostrado.
 
-- **Local dos arquivos de log do servidor** O local da pasta onde os logs do servidor de política de largura de banda são armazenados. Isso normalmente está na \<fileserver\> \\<fe \> \AppServerFiles\PDP.
+- **Local dos arquivos de log do servidor** O local da pasta onde os logs do servidor de política de largura de banda são armazenados. Isso normalmente está na<\<fileserver\>\\ fe\>\AppServerFiles\PDP.
 
 - **Local de armazenamento de arquivo temporário** O local do arquivo temporário onde arquivos intermediários são armazenados enquanto o relatório está sendo gerado.
 
@@ -286,7 +281,7 @@ Clique em **OK**. BandwidthUtilizationAnalyzer.xlsm é iniciado automaticamente.
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>Usando BandwidthUtilizationAnalyzer.xlsm
 
-1. Quando BandwidthUtilizationAnalyzer.xlsm for iniciado automaticamente, clique **em Atualizar,** conforme mostrado abaixo.
+1. Quando BandwidthUtilizationAnalyzer.xlsm for iniciado automaticamente, clique **em Atualizar** , conforme mostrado abaixo.
 
      ![BandwidthUtilizationAnalyzer.xlsm.](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
@@ -352,7 +347,7 @@ Filtrar por **Tipo de Link**. Selecione o tipo ou os tipos que precisam ser exib
 
 ![Filtragem por Tipo de Link.](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
 
-Filtrar por **Região**. Selecione uma lista de regiões cujos links precisam ser exibidos.
+Filtrar por **região**. Selecione uma lista de regiões cujos links precisam ser exibidos.
 
 ![Filtragem por Região.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
@@ -389,7 +384,7 @@ Todas as opções são mutuamente exclusivas. A sintaxe de linha de comando é a
 
 - **-f** parameter — lista o número de órbitas atualmente livres no pool.
 
-- **-r \<n\>** parameter — lista as \<n\> últimas chamadas estacionadas. As informações exibidas são as seguinte:
+- **-r \<n\>** parameter — lista as últimas \<n\> chamadas estacionadas. As informações exibidas são as seguinte:
 
   - URI SIP parkee.
 
@@ -399,7 +394,7 @@ Todas as opções são mutuamente exclusivas. A sintaxe de linha de comando é a
 
   - Carimbo de data/hora de quando a chamada foi recuperada ou retirada.
 
-- **-t \<n\>** parameter - testa a reserva de uma órbita no banco de dados para mostrar a aleatoriedade dos números de órbita atribuídos.
+- **-t\<n\>** parameter - testa a reserva de uma órbita no banco de dados para mostrar a aleatoriedade dos números de órbita atribuídos.
 
 ### <a name="output"></a>Saída
 
@@ -450,7 +445,7 @@ Número de órbitas livres: o parâmetro -f lista o número de órbitas atualmen
 
 ![Órbitas livres no Estacionamento de Chamada.](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
-Chamadas estacionadas recentemente: o parâmetro -r \<n\> lista as últimas chamadas \<n\> estacionadas, conforme mostrado
+Chamadas estacionadas recentemente: o parâmetro -r \<n\> lista as últimas \<n\> chamadas estacionadas, conforme mostrado
 
 ![Chamadas estacionadas recentemente no Estacionamento de Chamadas.](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
@@ -478,7 +473,7 @@ DBAnalyze é uma ferramenta de linha de comando que ajuda os administradores a c
 
 - **Modo de conferência** Relata dados detalhados para uma conferência específica, incluindo todos os detalhes de tempo de agendamento para a conferência, a lista de convidados, a lista de tipos de mídia permitidos para a conferência, MCUs ativos (unidades de controle de vários pontos), a lista de participantes ativos e o estado de sinalização de cada participante.
 
-- **Decodificar a ID da Reunião** Decodifica uma ID de reunião PSTN (rede telefônica pública comutado) especificada pela opção **/pstnid,** mas que não se conecta ao back-end para obter informações detalhadas.
+- **Decodificar a ID da Reunião** Decodifica uma ID de reunião PSTN (rede telefônica pública comutado) especificada pela opção **/pstnid** , mas que não se conecta ao back-end para obter informações detalhadas.
 
 - **Resolver conferência** Decodifica uma ID de reunião PSTN especificada pela opção **/pstnid** e exibe informações sobre a conferência indicada pela ID.
 
@@ -511,7 +506,7 @@ Para instalar Dbanalyze.exe, copie-o para uma pasta local e execute a ferramenta
 ![Tabela permissões para Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
 
 > [!NOTE]
-> Uma conta de administrador local é necessária para **o modo /report:disk.**
+> Uma conta de administrador local é necessária para **o modo /report:disk** .
 
 ### <a name="examples"></a>Exemplos
 
@@ -541,7 +536,7 @@ Os dados liberados do serviço Armazenamento podem ter sido automáticos (perió
 
  **Cenário 1: durante** o failover do pool, os arquivos podem ser liberados do serviço de armazenamento para cada front-end. Depois que o failover for concluído, a ferramenta deverá ser executado para reaportar os dados.
 
- **Cenário 2:** os dados são liberados automaticamente todos os dias ou em resposta ao banco de dados do serviço Armazenamento excedendo determinados limites de tamanho (por exemplo, 60%, 80%, 90% completo). Esses dados liberados automaticamente devem ser reemportados rotineiramente pelo administrador. Na situação acima, se o pacote SCOM de monitoramento não for implantado, haverá eventos para o serviço Skype for Business Server Armazenamento relacionados aos dados que estão sendo liberados do serviço Armazenamento de monitoramento. IDs de evento de 32075 (operação de liberação total iniciada), 32076 (liberação total concluída), 32082 (liberação de nível de manutenção iniciada), 32083 (liberação de nível de manutenção concluída), 32089 (flush ocorreu devido ao preenchimento do banco de dados). Observe que essas IDs de evento correspondem à versão RTM. Quando um administrador vê esses eventos, significa que há arquivos que foram liberados. Esses dados devem ser importados rotineiramente usando essa ferramenta, por exemplo, uma vez por semana.
+ **Cenário 2:** os dados são liberados automaticamente todos os dias ou em resposta Armazenamento banco de dados de serviço excedendo determinados limites de tamanho (por exemplo, 60%, 80%, 90% completo). Esses dados liberados automaticamente devem ser reemportados rotineiramente pelo administrador. Na situação acima, se o pacote SCOM de monitoramento não for implantado, haverá eventos para o serviço Skype for Business Server Armazenamento relacionados aos dados que estão sendo liberados do serviço Armazenamento de monitoramento. IDs de evento de 32075 (operação de liberação total iniciada), 32076 (liberação total concluída), 32082 (liberação de nível de manutenção iniciada), 32083 (liberação de nível de manutenção concluída), 32089 (flush ocorreu devido ao preenchimento do banco de dados). Observe que essas IDs de evento correspondem à versão RTM. Quando um administrador vê esses eventos, significa que há arquivos que foram liberados. Esses dados devem ser importados rotineiramente usando essa ferramenta, por exemplo, uma vez por semana.
 
 Para a versão do Serviço Online, se o pacote SCOM de monitoramento de saúde para Skype for Business Server for implantado, haverá novos alertas que podem ser acionados que solicitam que o administrador reporte os dados liberados de volta para o serviço Armazenamento. Haverá um evento correspondente no log de eventos no servidor Front-End que disparou o alerta. O evento dará uma descrição do caminho Pai no qual os arquivos de dados liberados estão localizados e quantos arquivos há que atendem aos critérios de alerta. O critério de alerta é que há X ou mais arquivos no caminho pai específico que têm pelo menos dias Y (onde X e Y são predefinidos no StorageService, mas podem ser substituídos alterando o arquivo APPCONFIG.) Dois exemplos de eventos que podem disparar o alerta de saúde são mostrados abaixo, com a diferença sendo seu caminho pai. Uma possibilidade está em compartilhamento de arquivos de serviço Web, enquanto a outra possibilidade é o diretório de Dados de Aplicativo local de cada front-end. (por exemplo, c:\ProgramData\Microsoft\Skype for Business Server 2015\StorageService). Em seguida, o administrador executará essa ferramenta de reskit.
 
@@ -551,7 +546,7 @@ Essa ferramenta aumentará a carga de CPU e E/S no front-end em que está sendo 
 
 ### <a name="requirements"></a>Requisitos
 
-Instale as ferramentas Skype for Business Server Kit de Recursos 2015. A ferramenta é executado em máquinas ingressadas no domínio em que Skype for Business Server e Skype for Business Server Shell de Gerenciamento estão instalados. A ferramenta usa um cmdlet do shell de gerenciamento para identificar todos os servidores Front-End no pool. Em segundo lugar, a ferramenta deve ser executada de um computador no pool que tenha o banco de **dados RtcLocal** instalado. Esse banco de dados é usado pela ferramenta para recuperar o local do compartilhamento de arquivos WEBSERVICE para o pool. Além disso, antes de usar Front-End ferramenta, cada servidor Front-End deve primeiro habilitar o Windows PowerShell Remoting usando **Enable-PSRemoting** em cada servidor Front-End e o computador de onde a ferramenta é executada. Caso contrário, Windows PowerShell comandos remotos desta ferramenta falharão. Windows PowerShell O remoting pode ser desligado em todos os Front-End no pool depois que ele for concluído. Por fim, a conta ou a credencial que invoca a ferramenta deve ter permissão de leitura/gravação para o compartilhamento de arquivos do webservice para o pool em que está executando essa ferramenta. Caso contrário, a ferramenta falhará com erros de Permissão de E/S.
+Instale as ferramentas Skype for Business Server Kit de Recursos 2015. A ferramenta é executado em máquinas ingressadas no domínio em que Skype for Business Server e Skype for Business Server Shell de Gerenciamento estão instalados. A ferramenta usa um cmdlet do shell de gerenciamento para identificar todos os servidores Front-End no pool. Em segundo lugar, a ferramenta deve ser executada de um computador no pool que tenha o **banco de dados RtcLocal** instalado. Esse banco de dados é usado pela ferramenta para recuperar o local do compartilhamento de arquivos WEBSERVICE para o pool. Além disso, antes de usar Front-End ferramenta, cada servidor Front-End deve primeiro habilitar o Windows PowerShell Remoting usando **Enable-PSRemoting** em cada servidor Front-End e o computador de onde a ferramenta é executada. Caso contrário, Windows PowerShell comandos remotos desta ferramenta falharão. Windows PowerShell Remoting pode ser desligado em todos os Front-End no pool depois que ele for concluído. Por fim, a conta ou a credencial que invoca a ferramenta deve ter permissão de leitura/gravação para o compartilhamento de arquivos do webservice para o pool em que está executando essa ferramenta. Caso contrário, a ferramenta falhará com erros de Permissão de E/S.
 
 > [!NOTE]
 > No Windows Server 2012, Windows PowerShell Remoting está habilitado por padrão, mas não no sistema operacional Windows Server 2008.
@@ -744,7 +739,7 @@ Instale o Skype for Business Server 2015 Resource Kit. A ferramenta é executado
 
 ### <a name="examples"></a>Exemplos
 
-C:\Program Files\Skype for Business Server 2015\ResKit \>LookupUserConsole.exe
+C:\Program Files\Skype for Business Server 2015\ResKit\>LookupUserConsole.exe
 
 ```console
 > sip:john.doe@vdomain.com
@@ -876,27 +871,27 @@ Exibir links de topologia de rede CAC corporativos em uma interface gráfica.
 
 ### <a name="examples"></a>Exemplos
 
- Carregar e exibir a topologia de rede cac a partir de uma implantação do **Skype for Business Server 2015** em um formato gráfico : os administradores do Skype for Business Server 2015 podem carregar e exibir a configuração de topologia de rede cac em qualquer computador Skype for Business Server 2015 usando o **download Opção Configuração** de Rede, conforme mostrado na figura abaixo. A ferramenta falhará ao baixar ou exibir essa configuração quando implantada em um computador que não tenha conectividade com o armazenamento de configuração Skype for Business Server 2015.
+ Carregar e exibir a topologia de rede cac a partir de uma implantação do **Skype for Business Server 2015** em um formato gráfico: os administradores do Skype for Business Server 2015 podem carregar e exibir a configuração de topologia de rede cac em qualquer computador Skype for Business Server 2015 **usando o Baixe a opção Configuração** de Rede, conforme mostrado na figura abaixo. A ferramenta falhará ao baixar ou exibir essa configuração quando implantada em um computador que não tenha conectividade com o armazenamento de configuração Skype for Business Server 2015.
 
 ![Baixando a configuração de rede.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
- Carregar e exibir a topologia de rede cac de um arquivo de log do servidor de Política de Largura de Banda em um formato **gráfico:** os servidores de Política de Largura de Banda do Skype for Business Server 2015 salvam a topologia de rede cac como parte do mecanismo de registro em log no local de compartilhamento de arquivos Skype for Business Server 2015. Skype for Business Server administradores de 2015 podem exibir esse arquivo em um formato gráfico usando a opção **Configuração** de Rede Aberta, conforme mostrado abaixo.
+ Carregar e exibir a **topologia** de rede cac de um arquivo de log do servidor de Política de Largura de Banda em um formato gráfico: os servidores de Política de Largura de Banda do Skype for Business Server 2015 salvam a topologia de rede cac como parte do mecanismo de registro em log no local de compartilhamento de arquivos Skype for Business Server 2015. Skype for Business Server administradores de 2015 podem exibir esse arquivo em um formato gráfico usando a opção **Configuração** de Rede Aberta, conforme mostrado abaixo.
 
 ![Abrindo um arquivo de log do Servidor de Política de Largura de Banda.](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
-Salve e armazene a topologia de rede CAC em um formato XML no disco: os administradores do Skype for Business Server 2015 podem salvar o arquivo de configuração de topologia de rede CAC em um formato XML usando a opção Salvar **uma** cópia da Configuração de Rede, conforme mostrado abaixo. O arquivo de configuração salvo pode ser usado offline para fins de exibição gráfica.
+Salvar e armazenar a topologia de rede CAC em um formato XML no disco: os administradores do Skype for Business Server 2015 podem salvar o arquivo de configuração de topologia de rede cac em um formato XML usando a opção Salvar **uma** cópia da Configuração de Rede, conforme mostrado abaixo. O arquivo de configuração salvo pode ser usado offline para fins de exibição gráfica.
 
 ![Salvar a configuração de rede como um arquivo XML.](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
-Salvar e armazenar diagrama de topologia de rede CAC no formato JPG ou BMP: os administradores do Skype for Business Server 2015 podem salvar a configuração de topologia de rede cac em um formato gráfico (formatos de arquivo JPG e BMP) usando o diagrama **Salvar Configuração** de Rede como opção de imagem, conforme mostrado abaixo.
+Save and Store CAC network topology diagram in JPG or BMP format: Skype for Business Server 2015 administrators can save the CAC network topology configuration in a graphic format (JPG and BMP file formats) by using the **Save Network Configuration diagram as picture** option as picture, as shown below.
 
 ![Salvar a configuração de rede como uma imagem.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- Exibir dados de configuração de topologia de rede do <strong>CAC:</strong>os administradores do Skype for Business Server 2015 podem exibir dados relacionados de configuração de rede, como regiões de rede, sites de rede, perfis de largura de banda e endereços IP da sub-rede do site em um formato textual usando a opção Exibir dados de Configuração de Rede, conforme mostrado abaixo.
+ Exibir <strong>dados de configuração de topologia</strong> de rede cac:Skype for Business Server 2015 os administradores podem exibir dados de configuração de rede relacionados, como regiões de rede, sites de rede, perfis de largura de banda e endereços IP da sub-rede do site em um formato textual usando a opção Exibir dados de Configuração de Rede, conforme mostrado abaixo.
 
 ![Exibindo dados de configuração de rede.](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
- Exibir a topologia de rede cac em um estilo de exibição de **árvore:** os administradores do Skype for Business Server 2015 podem exibir dados relacionados de configuração de rede em um estilo de exibição de árvore gráfica usando o painel de controle no lado esquerdo da janela da ferramenta, conforme mostrado abaixo.
+ Exibir a **topologia** de rede cac em um estilo de exibição em árvore: os administradores do Skype for Business Server 2015 podem exibir dados relacionados de configuração de rede em um estilo de exibição de árvore gráfica usando o painel de controle no lado esquerdo da janela da ferramenta, conforme mostrado abaixo.
 
 ![Exibindo dados de configuração de rede em uma exibição em árvore.](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
 
@@ -904,7 +899,7 @@ Salvar e armazenar diagrama de topologia de rede CAC no formato JPG ou BMP: os a
 
 ![Ferramentas.](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
- Exibir informações de site de topologia de rede **cac,** informações de região e políticas de largura de banda provisionadas: os administradores do Skype for Business Server 2015 podem exibir informações relacionadas da região de rede cac, informações de site e informações de provisionamento de largura de banda cac usando opções mostradas abaixo. (Por exemplo, clique **em Informações em** uma região de rede ou em um objeto de site de rede.)
+ Exibir **informações de site de topologia** de rede cac, informações de região e políticas de largura de banda provisionadas: os administradores do Skype for Business Server 2015 podem exibir informações relacionadas da região de rede cac, informações de site e informações de provisionamento de largura de banda cac usando opções mostradas abaixo. (Por exemplo, clique **em Informações em** uma região de rede ou em um objeto de site de rede.)
 
 ![Definindo conectores personalizados para sua rede.](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
 
@@ -1135,7 +1130,7 @@ Este exemplo habilita imediatamente o encaminhamento de chamada para outro usuá
 SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:anders@contoso.com
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1153,7 +1148,7 @@ Este exemplo desabilita imediatamente o encaminhamento de chamada.
 SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1172,7 +1167,7 @@ Este exemplo adiciona um usuário como representante e configura toque simultân
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:joe@contoso.com /simulringdelegates
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1189,7 +1184,7 @@ Este exemplo altera a regra de toque simultâneo definida no exemplo anterior pa
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringdelegates:10
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1210,7 +1205,7 @@ Este exemplo remove o representante.
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1229,7 +1224,7 @@ Este exemplo adiciona um representante e configura a regra de encaminhamento de 
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1267,7 +1262,7 @@ Este exemplo desabilita o toque simultâneo.
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimulring
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1327,7 +1322,7 @@ Este exemplo altera o anel atrasado para a configuração de hora do grupo de ch
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringteam:5
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1357,7 +1352,7 @@ Este exemplo desabilita a chamada de equipe para um determinado usuário.
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteamcall
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1375,7 +1370,7 @@ Este exemplo atribui um grupo de retirada a um usuário e habilita o Atendimento
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegrouppickup:199
 ```
 
- **Output**
+ **Saída**
 
 ```console
 User Aor: sip:katarina@contoso.com
@@ -1426,7 +1421,7 @@ SYSPrep.ps1 é um script Windows PowerShell que instalará os seguintes pré-req
 
 ### <a name="requirements"></a>Requisitos
 
-Antes de executar o script SYSPrep.ps1, você deve copiar os arquivos de pré-requisito para uma pasta local na máquina do sistema operacional Windows Server 2008 (por **exemplo, D:\Setup)**. Essa pasta também deve incluir uma cópia dos arquivos Skype for Business Server 2015, especificamente **Setup.exe.** Os arquivos de pré-requisito podem ser baixados nos seguintes locais:
+Antes de executar o script SYSPrep.ps1, você deve copiar os arquivos de pré-requisito para uma pasta local na máquina do sistema operacional Windows Server 2008 (por exemplo **, D:\Setup)**. Essa pasta também deve incluir uma cópia dos arquivos Skype for Business Server 2015, especificamente **Setup.exe.** Os arquivos de pré-requisito podem ser baixados nos seguintes locais:
 
 
 | **Pré-requisito**                                | **Localização**                                                            |
@@ -1454,7 +1449,7 @@ Para executar o script SYSPrep.ps1 e instalar os pré-requisitos do Skype for Bu
 ## <a name="unassigned-number-announcements-migration"></a>Migração de anúncios de números não atribuídos
 <a name="UNAM"> </a>
 
-A ferramenta Migração de Anúncios de Números Não Atribuídos permite que um administrador do Skype for Business Server 2015 mova a configuração de números não atribuídos que é a serviço pelo aplicativo de comunicado de um Skype for Business Server ou Pool de origem para um destino Skype for Business Server ou Pool.
+A ferramenta De migração de anúncios de números não atribuídos permite que um administrador do Skype for Business Server 2015 mova a configuração de números não atribuídos que é a serviço pelo aplicativo de anúncio de um Skype for Business Server ou Pool de origem para um destino Skype for Business Server ou Pool.
 
 ### <a name="description"></a>Descrição
 
@@ -1475,7 +1470,7 @@ Depois de executar com êxito o script, todos os intervalos de números não atr
 
 ### <a name="output"></a>Saída
 
-O **script Move-CsAnnouncementConfiguration** indica na janela do Shell de Gerenciamento Skype for Business Server de onde ele executou o sucesso ou falha da operação de migração.
+O **script Move-CsAnnouncementConfiguration** indica na janela do Shell de Gerenciamento Skype for Business Server de onde ele executou o sucesso ou a falha da operação de migração.
 
 Se a execução da operação for interrompida por qualquer erro, os intervalos de números não atribuídos que foram movidos com êxito para o destino permanecerão no destino em uma forma operacional e o restante dos intervalos de números não atribuídos a serem migrados permanecerá na origem também em um formulário operacional. Para migrar totalmente o restante da configuração, reprise o script após endereçamento do erro.
 
@@ -1483,9 +1478,9 @@ Se a execução da operação for interrompida por qualquer erro, os intervalos 
 
 O script migração de anúncios de números não atribuídos pode ser usado nos três cenários a seguir:
 
-- **Migrando configurações para uma nova versão do Skype for Business Server:** A Contoso está em processo de migração para o Skype for Business Server 2015 e como parte do processo de migração, o administrador do Skype for Business Server gostaria de mover a configuração de números não atribuídos a serviço pelo aplicativo de anúncio da implantação do Lync Server 2013 para a nova implantação do Skype for Business Server 2015. Para mover as configurações, o administrador Skype for Business Server usa a ferramenta Migração de Anúncios de Números Não Atribuídos.
+- Migrando configurações para uma nova versão do **Skype for Business Server: a** Contoso está em processo de migração para o Skype for Business Server 2015 e como parte do processo de migração do Skype for Business Server  o administrador gostaria de mover a configuração de números não atribuídos a serviço pelo aplicativo de comunicado da implantação do Lync Server 2013 para a nova implantação Skype for Business Server 2015. Para mover as configurações, o administrador Skype for Business Server usa a ferramenta Migração de Anúncios de Números Não Atribuídos.
 
-- **Reverter uma implantação do Skype for Business Server 2015 para o Lync Server 2013:** Devido a fatores inesperados, a Contoso precisa reverter a migração para a nova implantação Skype for Business Server 2015. Para minimizar as interrupções no serviço, o administrador Skype for Business Server usa a ferramenta Migração de Comunicados de Número Não Atribuído para reverter a configuração da implantação do Skype for Business Server 2015 para a implantação do Lync Server 2013.
+- **Reverter uma implantação do Skype for Business Server 2015 para o Lync Server 2013: Devido a** fatores inesperados, a Contoso precisa reverter a migração para a nova implantação do Skype for Business Server 2015. Para minimizar as interrupções no serviço, o administrador Skype for Business Server usa a ferramenta Migração de Comunicados de Número Não Atribuído para reverter a configuração da implantação do Skype for Business Server 2015 para a implantação do Lync Server 2013.
 
 - **Mover dados entre implantações:** A Contoso está em processo de substituição de todos os servidores de um pool por servidores mais novos. Sua estratégia é implantar um novo pool Skype for Business Server 2015, mover todos os dados do antigo para o novo pool e, em seguida, depreende o pool antigo. Depois que o novo pool é implantado, a ferramenta Migração de Anúncios de Número Não Atribuído é usada para mover a configuração do pool antigo para o novo.
 
@@ -1539,7 +1534,7 @@ Esta ferramenta permite que o administrador execute as seguintes operações:
 4. Mova todos os dados de Webconferência associados a um único usuário quando esse usuário for movido de um pool para outro.
 
     > [!NOTE]
-    > As Ferramentas de Kit de Recursos do Lync Server 2010 suportam mover todos os dados de Webconferência associados a um único usuário quando esse usuário é movido de um pool para outro. Essa funcionalidade agora é preterida dessa ferramenta em favor do **parâmetro MoveConferenceData.** Para obter detalhes sobre esse parâmetro, consulte o cmdlet [Move-CsUser.](/powershell/module/skype/move-csuser?)
+    > As Ferramentas de Kit de Recursos do Lync Server 2010 suportam mover todos os dados de Webconferência associados a um único usuário quando esse usuário é movido de um pool para outro. Essa funcionalidade agora é preterida dessa ferramenta em favor do **parâmetro MoveConferenceData** . Para obter detalhes sobre esse parâmetro, consulte o cmdlet [Move-CsUser](/powershell/module/skype/move-csuser?) .
 
 A ferramenta exclui dados de reunião somente para reuniões inativas. Reuniões ativas (ou reuniões em sessões) não podem ser excluídas.
 

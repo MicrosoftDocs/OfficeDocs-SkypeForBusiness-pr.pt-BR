@@ -1,32 +1,27 @@
 ---
 title: Nó de Escopo de Instâncias do SQL
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlInstancesScopeNode
+  - ms.lync.tb.SqlInstancesScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: 'O nó SQL armazena os bancos de dados SQL Server em sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 7bda856e8e4bde303daa5ddee3dca57eb5bfab9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861398"
 ---
+
 # <a name="sql-instances-scope-node"></a>Nó de Escopo de Instâncias SQL
  
 O **nó SQL armazena os** bancos de dados SQL Server em sua topologia. É possível executar a seguinte ação:
   
-- **Novo SQL Store**. Inicia o **assistente Definir Novo SQL Store,** que você usa para adicionar um novo banco de dados SQL Server à topologia.
+- **Novo SQL Store**. Inicia o **assistente Definir Novo SQL Store**, que você usa para adicionar um novo banco de dados SQL Server à topologia.
     
 Além das opções de banco de dados SQL Server, você pode executar as seguintes tarefas gerais:
   

@@ -1,28 +1,23 @@
 ---
 title: Criar ou modificar uma fila em Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: Crie ou modifique uma fila do Grupo de Resposta, Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842423"
+description: 'Crie ou modifique uma fila do Grupo de Resposta, Skype for Business Server Enterprise Voice.'
 ---
+
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Criar ou modificar uma fila em Skype for Business
  
 Crie ou modifique uma fila do Grupo de Resposta, Skype for Business Server Enterprise Voice.
@@ -71,11 +66,11 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
    - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-   - Para encaminhar a chamada para a caixa postal, clique em Encaminhar para caixa postal e, em seguida, no campo endereço **SIP,** digite um endereço de caixa postal no formato sip: *\<username\>* @  *\<domainname\>* (por exemplo, sip:bob@contoso.com).
+   - Para encaminhar a chamada para a caixa postal, clique em Encaminhar para caixa postal e, em seguida, no campo endereço **SIP**, digite um endereço de caixa postal no formato sip: *\<username\>*@ *\<domainname\>* (por exemplo, sip:bob@contoso.com).
     
-   - Para encaminhar a chamada para outro número de telefone, clique em Encaminhar para o número de telefone **e,** em seguida, no campo endereço **SIP,** digite o número de telefone no formato sip: *\<number\>* @  *\<domainname\>* (por exemplo, sip:+14255550121@contoso.com).
+   - Para encaminhar a chamada para outro número de telefone, clique em Encaminhar para o número de telefone e, em seguida, no campo endereço **SIP**, digite o número de telefone no formato sip: *\<number\>*@ *\<domainname\>* (por exemplo, sip:+14255550121@contoso.com).
     
-   - Para encaminhar a chamada para outro usuário, clique em Encaminhar para endereço **SIP** e, em seguida, no campo endereço **SIP,** digite o URI do usuário no formato sip: _\<username\>_ @  _\<domainname\>_ .
+   - Para encaminhar a chamada para outro usuário, clique em Encaminhar para endereço **SIP** e, em seguida, no campo endereço **SIP** , digite o URI do usuário no formato sip: _\<username\>_@ _\<domainname\>_.
     
    - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila** e, em seguida, procure na fila a ser usada.
     
@@ -89,11 +84,11 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
    - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-   - Para encaminhar a chamada para a caixa postal, clique em Encaminhar para caixa postal e, em seguida, no campo endereço **SIP,** digite um endereço de caixa postal no formato sip: *\<username\>* @  *\<domainname\>* (por exemplo, sip:bob@contoso.com).
+   - Para encaminhar a chamada para a caixa postal, clique em Encaminhar para caixa postal e, em seguida, no campo endereço **SIP**, digite um endereço de caixa postal no formato sip: *\<username\>*@ *\<domainname\>* (por exemplo, sip:bob@contoso.com).
     
-   - Para encaminhar a chamada para outro número de telefone, clique em Encaminhar para o número de telefone **e,** em seguida, no campo endereço **SIP,** digite o número de telefone no formato sip: *\<number\>* @  *\<domainname\>* (por exemplo, sip:+14255550121@contoso.com).
+   - Para encaminhar a chamada para outro número de telefone, clique em Encaminhar para o número de telefone e, em seguida, no campo endereço **SIP**, digite o número de telefone no formato sip: *\<number\>*@ *\<domainname\>* (por exemplo, sip:+14255550121@contoso.com).
     
-   - Para encaminhar a chamada para outro usuário, clique em Encaminhar para endereço **SIP** e, em seguida, no campo endereço **SIP,** digite o URI do usuário no formato sip: _\<username\>_ @  _\<domainname\>_ .
+   - Para encaminhar a chamada para outro usuário, clique em Encaminhar para endereço **SIP** e, em seguida, no campo endereço **SIP** , digite o URI do usuário no formato sip: _\<username\>_@ _\<domainname\>_.
     
    - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila** e, em seguida, procure na fila a ser usada.
     
@@ -106,7 +101,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     > [!NOTE]
     > Se você for um dos Gerentes do grupo de resposta designado para um fluxo de trabalho gerenciado, será possível criar grupos de agentes e filas, bem como atribuir grupos de agentes a filas. 
   
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. Crie o prompt para que seja reproduzido quando o limite de tempo da fila é atingido e salve-o em um variável. Na linha de comando, execute:
     

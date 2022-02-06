@@ -1,25 +1,20 @@
 ---
 title: Planejar o Gerenciador de Estatísticas do Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumo: leia este tópico para saber mais sobre o Gerenciador de Estatísticas para Skype for Business Server.'
-ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857398"
 ---
+
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar o Gerenciador de Estatísticas do Skype for Business Server
 
 **Resumo:** Leia este tópico para saber mais sobre o Gerenciador de Estatísticas para Skype for Business Server.
@@ -28,7 +23,7 @@ ms.locfileid: "60857398"
 
 Você pode usar o Gerenciador de Estatísticas para identificar problemas de desempenho contínuos, exibir os resultados de uma alteração planejada em seu ambiente, controlar a resolução de paralisações e muito mais. O Gerenciador de Estatísticas é configurado com limites khi (indicador de saúde chave) e pode ser personalizado para atender às necessidades exclusivas da sua implantação.
 
-Você pode implantar o Gerenciador de Estatísticas em uma implantação local na qual um único servidor hospeda todos os componentes do Gerenciador de Estatísticas do lado do servidor. Para obter mais informações sobre como implantar o Gerenciador de Estatísticas, consulte [Deploy Statistics Manager for Skype for Business Server](deploy.md). Se você já tiver uma implantação existente do Gerenciador de Estatísticas, mas ainda não tiver atualizado para a Versão 2.0, consulte Novidades na Versão [2.0](plan.md#BKMK_WhatsNew) e [Upgrade Statistics Manager para Skype for Business Server](upgrade.md).
+Você pode implantar o Gerenciador de Estatísticas em uma implantação local na qual um único servidor hospeda todos os componentes do Gerenciador de Estatísticas do lado do servidor. Para obter mais informações sobre como implantar o Gerenciador de Estatísticas, consulte [Deploy Statistics Manager for Skype for Business Server](deploy.md). Se você já tiver uma implantação existente do Gerenciador de Estatísticas, mas ainda não tiver atualizado para a Versão 2.0, consulte Novidades na Versão [2.0](plan.md#BKMK_WhatsNew) e [Upgrade Statistics Manager para](upgrade.md) Skype for Business Server.
 
 Este tópico contém as seguintes seções:
 
@@ -82,7 +77,7 @@ O Gerenciador de Estatísticas permite que você:
 ## <a name="whats-new-in-release-20"></a>Novidades na Versão 2.0
 <a name="BKMK_WhatsNew"> </a>
 
-O seguinte descreve as novidades na Versão 2.0. Se você tiver uma implantação existente do Gerenciador de Estatísticas e ainda não tiver atualizado, consulte [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
+O seguinte descreve as novidades na Versão 2.0. Se você tiver uma implantação existente do Gerenciador de Estatísticas e ainda não tiver sido atualizado, consulte [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
 
 - Exibições de cenário foram adicionadas para cenários de Mídia de Borda, Fabric Health, Failover de Pool e Registro.
 
@@ -113,7 +108,7 @@ O Gerenciador de Estatísticas consiste nos seguintes componentes:
 
 - **Site.** Uma interface do usuário que reúne todos os recursos disponíveis no sistema.
 
-Além disso, o Gerenciador de Estatísticas requer **Redis**, um servidor de estrutura de dados de código aberto para armazenamento em cache na memória. Para obter mais informações sobre como baixar o Redis, consulte [Deploy Statistics Manager](deploy.md#BKMK_Deploy) .
+Além disso, o Gerenciador de Estatísticas requer **o Redis**, um servidor de estrutura de dados de código aberto para armazenamento em cache na memória. Para obter mais informações sobre como baixar o Redis, consulte [Deploy Statistics Manager](deploy.md#BKMK_Deploy) .
 
 ## <a name="on-premises-deployment"></a>Implantação no local
 <a name="BKMK_DeploymentOptions"> </a>
@@ -159,7 +154,7 @@ Durante a instalação, as portas de firewall para o Ouvinte e o Site são criad
 
 Em uma implantação local, na qual um único servidor hospeda todos os componentes do Gerenciador de Estatísticas do lado do servidor, um servidor com 16 GB de RAM e 4 CPU deve ser capaz de suportar cerca de 150 amostras por segundo em média. Para determinar quantos contadores/agentes você pode dar suporte, use o seguinte cálculo:
 
-100 servidores 80 contadores 1 amostra por minuto de cada agente \* \* / 60 segundos = ~ 133 amostras por segundo.
+100 servidores \*80 contadores \* 1 amostra por minuto de cada agente / 60 segundos = ~ 133 amostras por segundo.
 
 ## <a name="security-considerations"></a>Considerações de segurança
 <a name="BKMK_Security"> </a>

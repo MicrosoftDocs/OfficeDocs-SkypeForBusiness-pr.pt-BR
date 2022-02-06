@@ -1,28 +1,23 @@
 ---
 title: Tronco SIP em Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Saiba mais sobre tronco SIP no Skype for Business Server Enterprise Voice
-ms.openlocfilehash: 6278526a83e5af4b0020c9dbb822eabad7053426
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841013"
 ---
+
 # <a name="sip-trunking-in-skype-for-business-server"></a>Tronco SIP em Skype for Business Server
 
 Saiba mais sobre tronco SIP no Skype for Business Server Enterprise Voice
@@ -72,7 +67,7 @@ Para implementar o tronco SIP, você deve rotear a conexão por meio de um Servi
 
 Cada Servidor de Mediação tem uma interface de rede interna e uma interface de rede externa. A interface interna se conecta aos Servidores Front-End. A interface externa é comumente chamada de interface de gateway porque tradicionalmente foi usada para conectar o Servidor de Mediação a um gateway PSTN (rede telefônica pública comutado) ou a um IP-PBX. Para implementar um tronco SIP, você conecta a interface externa do Servidor de Mediação ao componente de borda externa do ITSP. O componente de borda externa do ITSP pode ser um SBC (controlador de borda da sessão), um roteador ou um gateway.
 
-Para obter detalhes sobre servidores de mediação, consulte [Componente do Servidor de Mediação em Skype for Business Server](mediation-server.md).
+Para obter detalhes sobre servidores de mediação, consulte [Componente do Servidor de Mediação no Skype for Business Server](mediation-server.md).
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>Tronco SIP centralizado versus distribuído
 
@@ -97,7 +92,7 @@ Dependendo da localização geográfica dos sites e do tráfego antecipado em su
 A decisão sobre implantar um tronco SIP centralizado ou distribuído exige uma análise com bom custo benefício. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se não for necessário. Em uma implantação completamente centralizada, todo o tráfego de site de filial é roteado por links WAN. Em vez de pagar pela largura de banda exigida pelo link de WAN, convém usar o tronco SIP distribuído. Por exemplo, talvez você queira implantar um servidor Edição Standard em um site de filial com federação para o site central, ou talvez você queira implantar um Aparelho de Filial Desavivável ou um Servidor de FilialVivível com um gateway pequeno.
 
 > [!NOTE]
-> Para obter detalhes sobre o tronco SIP distribuído, consulte [Tronco SIP de site](branch-site.md)de filial em Skype for Business Server .
+> Para obter detalhes sobre o tronco SIP distribuído, consulte [Tronco SIP de site](branch-site.md) de filial em Skype for Business Server.
 
 ### <a name="supported-sip-trunking-connection-types"></a>Tipos de conexão de tronco SIP suportadas
 
@@ -138,7 +133,7 @@ Skype for Business Server dá suporte apenas aos seguintes codecs:
 
 ### <a name="internet-telephony-service-provider"></a>Provedor de Serviço de Telefonia pela Internet
 
-Como você implementa o lado do provedor de serviço de uma conexão de tronco SIP varia de um ITSP para outro. Para obter informações de implantação, entre em contato com o seu provedor de serviços. Para ver uma lista de provedores de serviços de tronco SIP certificados, consulte o site do Programa de Interoperabilidade Aberta de Comunicações [Unificadas da Microsoft.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
+Como você implementa o lado do provedor de serviço de uma conexão de tronco SIP varia de um ITSP para outro. Para obter informações de implantação, entre em contato com o seu provedor de serviços. Para ver uma lista de provedores de serviços de tronco SIP certificados, consulte [o site do Programa de Interoperabilidade aberta de Comunicações Unificadas da Microsoft](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 Para obter detalhes sobre os provedores de tronco SIP certificado pela Microsoft, entre em contato com seu representante da Microsoft.
 

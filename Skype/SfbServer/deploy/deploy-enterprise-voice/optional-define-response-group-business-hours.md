@@ -1,25 +1,20 @@
 ---
 title: (Opcional) Definir o horário comercial do Grupo de Resposta em Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Crie ou modifique o horário comercial do Grupo de Resposta, Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 0a7e22d02a4540973f2f3e3f2ea39fabe848f17c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850404"
+description: 'Crie ou modifique o horário comercial do Grupo de Resposta, Skype for Business Server Enterprise Voice.'
 ---
+
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Opcional) Definir o horário comercial do Grupo de Resposta em Skype for Business 
  
 Crie ou modifique o horário comercial do Grupo de Resposta, Skype for Business Server Enterprise Voice.
@@ -41,7 +36,7 @@ As configurações de horário comercial definem quando o fluxo de trabalho est�
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
     
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. Para cada intervalo de horas exclusivo que você deseja definir, execute:
     

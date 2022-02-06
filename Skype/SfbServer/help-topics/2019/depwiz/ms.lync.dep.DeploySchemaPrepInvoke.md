@@ -1,27 +1,22 @@
 ---
 title: Preparar Esquema (Invocar)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeploySchemaPrepInvoke
+  - ms.lync.dep.DeploySchemaPrepInvoke
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: A página Comandos de Execução exibe um resumo dos comandos emitidos para estender o esquema para Skype for Business Server.
-ms.openlocfilehash: fb148bd36f0c67ec4af0d3f6f85e64a4814d9793
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860758"
 ---
+
 # <a name="prepare-schema-invoke"></a>Preparar Esquema (Invocar)
  
 A **página Comandos de** Execução exibe um resumo dos comandos emitidos para estender o esquema para Skype for Business Server. Quando as tarefas forem concluídas, o painel de resumo indicará se as tarefas foram bem-sucedidas ou se falharam. Revise a tela de resumo e certifique-se de que **Status da tarefa: Concluída** esteja em exibição sob o painel de resumo. A lista suspensa no painel de resumo permite que você selecione e exiba o arquivo de log, Preparar Esquema. Clique em **Exibir Log** para revisar o arquivo de log. Se você tiver recebido erros durante a preparação do esquema, os erros encontrados pela tarefa são registrados aqui. Em seguida, é possível executar uma ação para corrigir qualquer erro e executar novamente a preparação do esquema.

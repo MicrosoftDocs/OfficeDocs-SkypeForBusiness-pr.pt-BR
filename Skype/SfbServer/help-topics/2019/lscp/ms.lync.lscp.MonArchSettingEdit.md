@@ -1,27 +1,22 @@
 ---
 title: Configuração de Arquivamento Criar Novo ou Editar Existente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchSettingEdit
+  - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Você usa configurações de arquivamento para controlar opções de arquivamento para sua implantação. As configurações de arquivamento incluem a configuração global e, opcionalmente, uma ou mais configurações de site e pool:'
-ms.openlocfilehash: 145d86cce250204a219bd9e983a07765259b9144
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831515"
 ---
+
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuração de Arquivamento: Criar Novo ou Editar Existente
  
 Você usa configurações de arquivamento para controlar opções de arquivamento para sua implantação. As configurações de arquivamento incluem a configuração global e, opcionalmente, uma ou mais configurações de site e pool:
@@ -73,5 +68,5 @@ Para definir as configurações para uma configuração de Arquivamento nova ou 
     > [!NOTE]
     > Se você habilitar Exchange integração do Microsoft Exchange, a purgação para usuários que estão no Exchange e com suas caixas de correio colocadas no In-Place Hold será controlada por Exchange. A única exceção é para arquivos de conferência, que são armazenados no Lync Server file share. Esses arquivos serão limpos do compartilhamento de arquivos somente depois que os arquivos foram exportados (carregados para Exchange), se você selecionar a opção para limpar dados após a exportação dos dados de arquivamento ou após o número máximo especificado de dias, se você especificar um número máximo de dias para retenção. 
   
-Para obter detalhes sobre o recurso e recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), Deploy [archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)e Manage [archiving in Skype for Business Server](../../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso e recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md) e [Manage archiving in Skype for Business Server ](../../../manage/archiving/archiving.md).
 

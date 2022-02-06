@@ -1,25 +1,20 @@
 ---
 title: Criptografia para Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: Skype for Business Server usa TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor requer MTLS, independentemente de o tráfego estar confinado à rede interna ou cruzar o perímetro de rede interno. Ao conectar Skype for Business Server a sistemas IPPBX de terceiros ou troncos SIP TLS é opcional, mas altamente recomendado entre o Servidor de Mediação e o gateway de mídia. Se o TLS estiver configurado neste link, MTLS será necessário. Portanto, o gateway deve ser configurado com um certificado de uma AC confiável pelo Servidor de Mediação.
-ms.openlocfilehash: 3ee649f62e2855f959b2ee9fdc25bdb2d77fa6e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849714"
+description: 'Skype for Business Server usa TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor requer MTLS, independentemente de o tráfego estar confinado à rede interna ou cruzar o perímetro de rede interno. Ao conectar Skype for Business Server a sistemas IPPBX de terceiros ou troncos SIP TLS é opcional, mas altamente recomendado entre o Servidor de Mediação e o gateway de mídia. Se o TLS estiver configurado neste link, MTLS será necessário. Portanto, o gateway deve ser configurado com um certificado de uma AC confiável pelo Servidor de Mediação.'
 ---
+
 # <a name="encryption-for-skype-for-business-server"></a>Criptografia para Skype for Business Server
  
 Skype for Business Server usa TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor requer MTLS, independentemente de o tráfego estar confinado à rede interna ou cruzar o perímetro de rede interno. Ao conectar Skype for Business Server a sistemas IPPBX de terceiros ou troncos SIP TLS é opcional, mas altamente recomendado entre o Servidor de Mediação e o gateway de mídia. Se o TLS estiver configurado neste link, MTLS será necessário. Portanto, o gateway deve ser configurado com um certificado de uma AC confiável pelo Servidor de Mediação.

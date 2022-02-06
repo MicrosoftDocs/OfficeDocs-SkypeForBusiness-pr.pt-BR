@@ -1,27 +1,22 @@
 ---
 title: Edição de Configuração de Log de Dispositivo
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientDeviceUpdateEdit
+  - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
-ROBOTS: NOINDEX, NOFOLLOW
-description: Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de Log que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo em que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.
-ms.openlocfilehash: c9e058fc314a2dcc550d4d399fed0b34b8532029
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857828"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de Log que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo em que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.'
 ---
+
 # <a name="device-log-configuration-edit"></a>Configuração de Log de Dispositivo: Editar
  
 Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de **Log** que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo em que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.
@@ -31,7 +26,7 @@ Você pode adicionar uma configuração de log de dispositivo à página Editar 
   
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página **Editar Configuração de Log:**
+Você pode executar as seguintes tarefas na página **Editar Configuração de Log** :
   
 - Adicione uma configuração de log de dispositivo globalmente ou para um site específico.
     

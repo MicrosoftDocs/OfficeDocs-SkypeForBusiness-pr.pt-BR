@@ -1,29 +1,24 @@
 ---
 title: Configurar a conferência discagem no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Resumo: leia este tópico para saber como configurar a conferência discagem no Skype for Business Server.'
-ms.openlocfilehash: 3e7a91b200eb6211a26b379d866608ff31658488
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845924"
 ---
+
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar a conferência discagem no Skype for Business Server
  
 **Resumo:** Leia este tópico para saber como configurar a conferência discagem no Skype for Business Server.
   
-Depois de criar uma topologia que inclua a carga de trabalho de conferência e conferência discadas selecionada, você deve executar etapas adicionais para configurar a conferência discadas. Antes de ler este tópico, leia Plan [for dial-in conferencing](../../plan-your-deployment/conferencing/dial-in-conferencing.md)in Skype for Business Server , [Hardware and software requirements for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), and the Deployment [flowchart and checklist for dial-in conferencing](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
+Depois de criar uma topologia que inclua a carga de trabalho de conferência e conferência discadas selecionada, você deve executar etapas adicionais para configurar a conferência discadas. Antes de ler este tópico, leia Plan [for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [Hardware and software requirements for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), and the [Deployment flowchart and checklist for dial-in conferencing](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
   
 Para configurar a conferência discagem, você deve executar as seguintes tarefas:
   
@@ -75,13 +70,13 @@ Ao configurar um plano de discagem, especifique a região de conferência discad
   
 Como é importante especificar uma região para todos os planos de discagem, recomendamos verificar se todos os planos de discagem têm regiões de conferência. 
   
-Para verificar se a região está definida para todos os planos de discagem de conferência discada, use o cmdlet **Get-CsDialPlan.** Se a região não existir nos planos de discagem, você poderá usar o cmdlet **Set-CsDialPlan** para defini-la. Você também pode usar Skype for Business Server Painel de Controle para atualizar a região em planos de discagem existentes. Para obter detalhes sobre como usar Skype for Business Server Painel de Controle, consulte [Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
+Para verificar se a região está definida para todos os planos de discagem de conferência discada, use o cmdlet **Get-CsDialPlan** . Se a região não existir nos planos de discagem, você poderá usar o cmdlet **Set-CsDialPlan** para defini-la. Você também pode usar Skype for Business Server Painel de Controle para atualizar a região em planos de discagem existentes. Para obter detalhes sobre como usar Skype for Business Server Painel de Controle, consulte [Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>Para verificar se os planos de discagem têm a propriedade de região definida
 
 1. Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
     
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. Execute o seguinte no prompt de comando:
     
@@ -105,7 +100,7 @@ Para obter mais informações, [consulte Get-CsDialPlan](/powershell/module/skyp
 
 1. Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
     
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. Para todos os planos de discagem que não têm a região de conferência discada, execute:
     
@@ -121,7 +116,7 @@ Para obter mais informações, [consulte Get-CsDialPlan](/powershell/module/skyp
 
    Neste exemplo, o plano de discagem com Identidade de Redmond é modificado para definir a propriedade DialinConferencingRegion como "Costa Leste dos EUA". 
     
-Para obter mais informações, [consulte Set-CsDialPlan](/powershell/module/skype/set-csdialplan?view=skype-ps).
+Para obter mais informações, consulte [Set-CsDialPlan](/powershell/module/skype/set-csdialplan?view=skype-ps).
   
 ## <a name="configure-dial-in-access-numbers"></a>Configure números de acesso de discagem
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
@@ -134,7 +129,7 @@ Antes de criar números de acesso discado, primeiro você precisa planejar as re
 > Não é possível usar um novo número de acesso discado até que a replicação dos Serviços de Domínio do Active Directory (AD DS) desse número de acesso seja concluída. A replicação pode demorar algumas horas para ser concluída. 
   
 > [!NOTE]
-> Após a criação dos números de acesso discado, é possível modificar o nome de exibição dos objetos de contato do Active Directory de modo que os usuários possam identificar com mais facilidade o número de acesso correto. Para modificar o nome de exibição, use o cmdlet [Set-CsDialInConferencingAccessNumber.](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) Não modifique os objetos do Active Directory manualmente.
+> Após a criação dos números de acesso discado, é possível modificar o nome de exibição dos objetos de contato do Active Directory de modo que os usuários possam identificar com mais facilidade o número de acesso correto. Para modificar o nome de exibição, use o cmdlet [Set-CsDialInConferencingAccessNumber](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) . Não modifique os objetos do Active Directory manualmente.
   
 ### <a name="to-create-a-dial-in-access-number"></a>Para criar um número de acesso discado
 
@@ -184,7 +179,7 @@ Antes de criar números de acesso discado, primeiro você precisa planejar as re
     
     É possível escolher até quatro idiomas secundários para cada número de acesso de discagem. Os usuários podem selecionar um idioma secundário antes de inserir o ID de conferência ao ligarem para uma.
     
-12. Para adicionar uma região para o número de acesso de discagem, em Regiões Associadas, clique em Adicionar **,** clique em uma ou mais regiões associadas aos planos de discagem para esse número de acesso de discagem e clique em **OK**.
+12. Para adicionar uma região para o número de acesso discado, em Regiões Associadas **, clique** em **Adicionar, clique** em uma ou mais regiões associadas aos planos de discagem para esse número de acesso de discagem e clique em **OK**.
     
 13. Para excluir uma região do número de acesso de discagem, em **Regiões Associadas**, clique na região a ser excluída e clique em **Remover**.
     
@@ -200,7 +195,7 @@ Para obter mais informações sobre como configurar políticas de conferência, 
 ## <a name="assign-a-line-uri-to-a-user-account"></a>Atribuir um URI de linha a uma conta de usuário
 <a name="BKMK_AssignaLineURI"> </a>
 
-Os usuários de discagem digitam o número de telefone ou a extensão e um PIN para ingressar nas conferências como usuários autenticados. O **URI de linha** de telefonia especificado Skype for Business Server contas de usuário é necessária para autenticação.
+Os usuários de discagem digitam o número de telefone ou a extensão e um PIN para ingressar nas conferências como usuários autenticados. O **URI de linha** de telefonia especificado em Skype for Business Server contas de usuário é necessária para autenticação.
   
 O procedimento neste tópico descreve como atribuir um **URI de Linha** para uma única conta de usuário. Se você precisar atribuir um **URI da Linha** para várias contas de usuário, poderá criar um script que usa o cmdlet **Set-CsUser**. Para obter detalhes sobre como usar um script de exemplo para atribuir **URI** de linha a várias contas de usuário, consulte [Assign Line URIs to Multiple Users](https://go.microsoft.com/fwlink/p/?linkId=196945).
   
@@ -212,11 +207,11 @@ O procedimento neste tópico descreve como atribuir um **URI de Linha** para uma
     
 4. No campo de pesquisa, digite o nome do usuário que você deseja configurar para conferência discada ou clique em **Adicionar filtro** para especificar os campos de pesquisa e clique em **Localizar**.
     
-5. Clique duas vezes no nome do usuário para abrir a caixa **de diálogo Editar Skype for Business Server Usuário.**
+5. Clique duas vezes no nome do usuário para abrir a caixa **de diálogo Editar Skype for Business Server Usuário**.
     
 6. Em **Telefonia**, no campo **URI da Linha**, digite um número de telefone exclusivo e normalizado (por exemplo, tel:+14255550200).
     
     > [!NOTE]
-    > Você só poderá especificar  **o URI** de linha se a Telefonia estiver definida como **pc-para-pc** **somente**, **Enterprise Voice,** controle de chamada remota ou controle de chamada **remota somente**. 
+    > Você só poderá especificar **o URI** de linha  se a Telefonia estiver definida apenas para **pc para** computador **, Enterprise Voice****, controle** de chamada remota ou controle de chamada **remota somente**. 
   
 7. Clique em **Confirmar**.

@@ -1,28 +1,23 @@
 ---
 title: Implantar SQL espelhamento para alta disponibilidade do Servidor Back End no Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para que seja possível implantar o espelhamento SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: principal, espelho e testemunha. Para obter detalhes, consulte Pacote de atualização cumulativa 9 para SQL Server 2008 Service Pack 1 .'
-ms.openlocfilehash: b27fed99cafa109da8c13e369c93985d7bc4cf64
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849444"
 ---
+
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar SQL espelhamento para alta disponibilidade do Servidor Back End no Skype for Business server 2015
 
 
-Para que seja possível implantar o espelhamento SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: principal, espelho e testemunha. Para obter detalhes, consulte Pacote de atualização [cumulativa 9 para SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+Para que seja possível implantar o espelhamento SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: principal, espelho e testemunha. Para obter detalhes, consulte [Pacote de atualização cumulativa 9 para SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
 
 Em geral, a configuração do espelhamento SQL entre os dois servidores back-end com uma testemunha requer:
 
@@ -32,7 +27,7 @@ Em geral, a configuração do espelhamento SQL entre os dois servidores back-end
 
 - Que o principal e o espelho tenham a mesma edição do SQL Server. A testemunha pode ter uma edição diferente.
 
-Para SQL práticas recomendadas em termos de quais versões SQL são suportadas para uma função Testemunha, consulte [Database Mirroring Witness](/sql/database-engine/database-mirroring/database-mirroring-witness).
+Para SQL práticas recomendadas em termos de quais SQL versões são suportadas para uma função Testemunha, consulte [Testemunha de Espelhamento de Banco de Dados](/sql/database-engine/database-mirroring/database-mirroring-witness).
 
 Você usa o Construtor de Topologias para implantar SQL espelhamento. Você seleciona uma opção no Construtor de Topologias para espelhar os bancos de dados, e o Construtor de Topologia configura o espelhamento (incluindo a configuração de uma testemunha, se quiser) ao publicar a topologia. Observe que a testemunha é configurada ou removida ao mesmo tempo que o espelho. Não há um comando separado para implantar ou remover somente a testemunha.
 
@@ -61,7 +56,7 @@ Com o espelhamento SQL, você pode configurar a topologia do espelhamento no mom
 3. Publique a topologia.
 
 > [!NOTE]
-> Um compartilhamento de arquivos deve ser criado para que os arquivos espelho sejam gravados e o serviço que SQL Server e SQL Agente estão sendo executados em necessidades de acesso de leitura/gravação. Se o serviço SQL Server estiver em execução no contexto do Serviço de Rede, você poderá adicionar<SQLSERVERNAME $ dos Servidores de SQL Principal e Mirror às permissões de \<Domain\> \\ \> compartilhamento. O $ é importante para identificar que essa é uma conta de computador.
+> Um compartilhamento de arquivos deve ser criado para que os arquivos espelho sejam gravados e o serviço que SQL Server e SQL Agente estão sendo executados em necessidades de acesso de leitura/gravação. Se o serviço SQL Server estiver sendo executado no contexto do Serviço de Rede, \<Domain\>\\ você poderá adicionar<SQLSERVERNAME\>$ dos Servidores de SQL Principal e Mirror às permissões de compartilhamento. O $ é importante para identificar que essa é uma conta de computador.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Para configurar SQL espelhamento ao criar um pool no Construtor de Topologias
 
@@ -225,7 +220,7 @@ A maneira mais fácil de configurar o espelhamento é usando o Construtor de Top
 
     - A porta 7022 pode ser acessada pelo firewall quando o Firewall do Windows está habilitado no SQL Server testemunha AB14-lct.los_a.lsipt.local\rtc.
 
-   - Contas que executam os servidores SQL em todos os servidores SQL primários e espelhados têm permissão de leitura/gravação para o compartilhamento de arquivos \\ E04-OCS\csdatabackup
+   - Contas que executam os servidores SQL em todos os servidores SQL primários e espelhos têm permissão de leitura/\\gravação para o compartilhamento de arquivos E04-OCS\csdatabackup
 
    - Verifique se o provedor WMI (Instrumentação de Gerenciamento do Windows) está em execução em todos esses servidores. O cmdlet usa esse provedor para encontrar informações da conta relativas aos serviços do SQL Server em execução em todos os servidores principais, espelho e testemunha.
 
@@ -287,6 +282,6 @@ Use este procedimento se precisar remover a testemunha de uma configuração de 
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    No entanto, não siga essa etapa e não digite como  `Uninstall-CsMirrorDatabase` se isso desinstale toda a configuração de espelhamento.
+    No entanto, não siga essa etapa e não digite  `Uninstall-CsMirrorDatabase` como se isso desinstale toda a configuração de espelhamento.
 
 4. Para remover apenas a testemunha da configuração SQL Server, siga as instruções em [Remove the Witness from a Database Mirroring Session (SQL Server)](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server).

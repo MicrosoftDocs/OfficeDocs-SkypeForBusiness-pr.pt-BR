@@ -1,25 +1,20 @@
 ---
 title: Exibição ClientVersions
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: A exibição ClientVersions armazena informações sobre os vários tipos de cliente e versões que participaram de sessões gravadas no banco de dados. Cada registro na exibição representa uma versão do cliente. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 7e44806e817c6010bb9d14ff2f29c118ac9a290b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854185"
 ---
+
 # <a name="clientversions-view"></a>Exibição ClientVersions
  
 A exibição ClientVersions armazena informações sobre os vários tipos de cliente e versões que participaram de sessões gravadas no banco de dados. Cada registro na exibição representa uma versão do cliente. Essa exibição foi introduzida no Microsoft Lync Server 2013.
@@ -27,7 +22,7 @@ A exibição ClientVersions armazena informações sobre os vários tipos de cli
 > [!NOTE]
 > Pode haver vários registros para determinadas colunas. 
   
-|**Column**|**Tipo de dados**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |**VersionId** <br/> |int  <br/> |Número exclusivo que identifica esse tipo de cliente e a versão.  <br/> |
 |**Versão** <br/> |nvarchar(256)  <br/> |Representa o agente do usuário.  <br/> |

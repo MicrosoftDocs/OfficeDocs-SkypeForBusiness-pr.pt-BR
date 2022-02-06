@@ -1,33 +1,28 @@
 ---
 title: Tabela MediaLine
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
-description: Cada registro representa uma linha de mídia. (Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Uma sessão de áudio e vídeo (A/V) geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo, embora a sessão possa conter duas linhas de mídia de vídeo se um dispositivo de conferência for usado ou se o Gallery View for usado.
-ms.openlocfilehash: 4d832990b92bd0f398c613f2daeec91fc89f5f52
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857158"
+description: 'Cada registro representa uma linha de mídia. (Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Uma sessão de áudio e vídeo (A/V) geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo, embora a sessão possa conter duas linhas de mídia de vídeo se um dispositivo de conferência for usado ou se o Gallery View for usado.'
 ---
+
 # <a name="medialine-table"></a>Tabela MediaLine
  
 Cada registro representa uma linha de mídia. (Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Uma sessão de áudio e vídeo (A/V) geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo, embora a sessão possa conter duas linhas de mídia de vídeo se um dispositivo de conferência for usado ou se o Gallery View for usado.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primário  <br/> |Referenciado da tabela [Session](session.md).  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primário  <br/> |Referenciado da tabela [Session](session.md).  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primário  <br/> |Referenciado da [tabela Session](session.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primário  <br/> |Referenciado da [tabela Session](session.md).  <br/> |
 |**MediaLineLabel** <br/> |tinyint  <br/> |Primário  <br/> |0 é áudio principal, 1 é vídeo principal e 2 é vídeo panorâmico, 3 é Compartilhamento de Aplicativo/Área de Trabalho, 16 é Compartilhamento de Tela baseado em vídeo (VbSS). Esse rótulo deve ser exclusivo em uma única sessão.  <br/> |
 |**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |Esta coluna está presente, mas não é usada no Microsoft Lync Server 2013. Informações sobre a conectividade usada para uma linha de mídia são capturadas nas colunas CallerConnectivityICE e CalleeConnectivityICE.  <br/> |
 |**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Informações sobre o processo ice (estabelecimento de conectividade interativa) descrito em sinalizadores de bits. Para obter detalhes, consulte  *a Especificação*  de Protocolo do Servidor de Monitoramento de Qualidade de Experiência , disponível para download. <br/> |
@@ -38,12 +33,12 @@ Cada registro representa uma linha de mídia. (Uma sessão de áudio geralmente 
 |**CallerPort** <br/> |int  <br/> | <br/> | Porta usada pelo chamador. <br/> |
 |**CallerSubnet** <br/> |int  <br/> | Foreign <br/> |A sub-rede do chamador. Consulte a [tabela IPAddress para](ipaddress.md) obter mais informações. <br/> |
 |**CallerInside** <br/> |bit  <br/> | <br/> |1 significa que o chamador está dentro da rede da empresa, 0 significa que o chamador está fora da rede.  <br/> |
-|**CallerMacAddress** <br/> |int  <br/> |Foreign  <br/> |Endereço mac do chamador, referenciado da [tabela MacAddress.](macaddress.md)  <br/> |
+|**CallerMacAddress** <br/> |int  <br/> |Foreign  <br/> |Endereço mac do chamador, referenciado da [tabela MacAddress](macaddress.md).  <br/> |
 |**CallerRelayIPAddr** <br/> |int  <br/> |Foreign  <br/> |Endereço IP do serviço de borda A/V usado pelo chamador. Consulte a [tabela IPAddress para](ipaddress.md) obter mais informações. <br/> |
 |**CallerRelayPort** <br/> |int  <br/> | <br/> |Porta usada no serviço de Borda A/V pelo chamador.  <br/> |
-|**CallerCaptureDev** <br/> |int  <br/> |Foreign  <br/> |Dispositivo de captura usado pelo chamador. Referenciado da tabela [Device.](device.md)  <br/> |
-|**CallerRenderDev** <br/> |int  <br/> |Foreign  <br/> |Renderizar o dispositivo usado pelo chamador. Referenciado da tabela [Device.](device.md)  <br/> |
-|**CallerCaptureDevDriver** <br/> |int  <br/> |Foreign  <br/> |Driver do dispositivo de captura do chamador, referenciado da tabela [DeviceDriver.](devicedriver.md)  <br/> |
+|**CallerCaptureDev** <br/> |int  <br/> |Foreign  <br/> |Dispositivo de captura usado pelo chamador. Referenciado da tabela [Device](device.md).  <br/> |
+|**CallerRenderDev** <br/> |int  <br/> |Foreign  <br/> |Renderizar o dispositivo usado pelo chamador. Referenciado da tabela [Device](device.md).  <br/> |
+|**CallerCaptureDevDriver** <br/> |int  <br/> |Foreign  <br/> |Driver do dispositivo de captura do chamador, referenciado da tabela [DeviceDriver](devicedriver.md).  <br/> |
 |**CallerRenderDevDriver** <br/> |int  <br/> |Foreign  <br/> |Driver para o dispositivo de renderização do chamador, referenciado da tabela [DeviceDriver](devicedriver.md).  <br/> |
 |**CallerNetworkConnectionType** <br/> |tinyint  <br/> |Foreign  <br/> |Indica como o chamador se conectou à rede. Os valores são obtidos da [tabela NetworkConnectionDetail](networkconnectiondetail.md). Os valores típicos são 0 para uma conexão com fio' 1 para uma conexão WiFi; e 3 para uma conexão Ethernet.  <br/> |
 |**CallerBssid** <br/> |int  <br/> |Foreign  <br/> |BSSID do chamador se for usado sem fio. Referenciado da [tabela MacAddress](macaddress.md).  <br/> |
@@ -56,8 +51,8 @@ Cada registro representa uma linha de mídia. (Uma sessão de áudio geralmente 
 |**CalleeMacAddress** <br/> |int  <br/> |Foreign  <br/> |Endereço mac do chamador. Referenciado da tabela [MacAddress](macaddress.md).  <br/> |
 |**CalleeRelayIPAddr** <br/> |int  <br/> |Foreign  <br/> |Endereço IP do serviço de Borda A/V usado pelo receptor de chamada. Consulte a [tabela IPAddress para](ipaddress.md) obter mais informações. <br/> |
 |**CalleeRelayPort** <br/> |int  <br/> | <br/> |Porta usada no Serviço de Borda A/V pelo receptor de chamada.  <br/> |
-|**CalleeCaptureDev** <br/> |int  <br/> |foreign  <br/> |Dispositivo de captura usado pelo receptor de chamada. Referenciado da tabela [Device.](device.md)  <br/> |
-|**CalleeRenderDev** <br/> |int  <br/> |Foreign  <br/> |Renderizar o dispositivo usado pelo receptor de chamada. Referenciado da tabela [Device.](device.md)  <br/> |
+|**CalleeCaptureDev** <br/> |int  <br/> |foreign  <br/> |Dispositivo de captura usado pelo receptor de chamada. Referenciado da tabela [Device](device.md).  <br/> |
+|**CalleeRenderDev** <br/> |int  <br/> |Foreign  <br/> |Renderizar o dispositivo usado pelo receptor de chamada. Referenciado da tabela [Device](device.md).  <br/> |
 |**CalleeCaptureDevDriver** <br/> |int  <br/> |Foreign  <br/> |Driver para o dispositivo de captura do receptor de chamada. Referenciado da [tabela DeviceDriver](devicedriver.md).  <br/> |
 |**CalleeRenderDevDriver** <br/> |varchar(256)  <br/> |Foreign  <br/> |Driver para o dispositivo de renderização do receptor de chamada. Referenciado da [tabela DeviceDriver](devicedriver.md).  <br/> |
 |**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |Foreign  <br/> |Indica como o chamador se conectou à rede. Os valores são obtidos da [tabela NetworkConnectionDetail](networkconnectiondetail.md). Os valores típicos são 0 para uma conexão com fio' 1 para uma conexão WiFi; e 3 para uma conexão Ethernet.  <br/> |

@@ -1,31 +1,26 @@
 ---
 title: 'Gerenciar números de acesso de conferência discagem em Skype for Business Server '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Resumo: saiba como gerenciar números de acesso de conferência discagem em Skype for Business Server.'
-ms.openlocfilehash: 9bfa4b905ee77b6e5697cf09b2ef89566d875297
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835379"
 ---
+
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gerenciar números de acesso de conferência discagem em Skype for Business Server
  
 **Resumo:** Saiba como gerenciar números de acesso de conferência discado Skype for Business Server.
   
 Ao implantar uma conferência discada, você precisa configurar números de telefone que os usuários poderão discar da PSTN para participar da parte de áudio das conferências. Esses números de acesso de discagem aparecem nos convites de reunião e na página Configurações de Conferência Discada. 
   
-Este tópico descreve como exibir, modificar ou excluir números de acesso de conferência discado existentes. Para obter mais informações sobre como criar números de acesso de discagem iniciais, consulte [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+Este tópico descreve como exibir, modificar ou excluir números de acesso de conferência discado existentes. Para obter mais informações sobre como criar números de acesso de discagem [iniciais, consulte Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Exibir números de acesso de conferência discado
 
@@ -41,11 +36,11 @@ Você pode exibir números de acesso à conferência discada usando o Painel de 
     
 4. Na página **Número de acesso de discagem**, clique no número de acesso que gostaria de visualizar.
     
-5. Em **Editar**, marque a caixa **de seleção Mostrar Detalhes.**
+5. Em **Editar**, marque a caixa **de seleção Mostrar Detalhes** .
     
 ### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Exibir números de acesso discado usando Skype for Business Server Shell de Gerenciamento
 
-Para exibir informações sobre números de acesso discado, use o cmdlet **Get-CsDialInConferencingAccessNumber.**
+Para exibir informações sobre números de acesso discado, use o cmdlet **Get-CsDialInConferencingAccessNumber** .
   
 O comando a seguir retorna uma coleção de todos os números de acesso de conferência discada configurados para uso na organização: 
   
@@ -84,7 +79,7 @@ Você pode modificar números de acesso discado usando Skype for Business Server
     
 3. Na barra de navegação à esquerda, clique em **Conferências**, e então em **Número de acesso discado**.
     
-4. Na página **Número de Acesso** discado, clique em um dos números de acesso discado na lista, clique em **Editar** e em **Mostrar detalhes.**
+4. Na página **Número de Acesso** Discado, clique em um dos números de acesso discado na lista, clique em **Editar** e em **Mostrar detalhes**.
     
     > [!NOTE]
     > Usar o campo de busca para buscar pelos conteúdos de uma coluna na lista de números de acesso de discagem pode não apresentar os resultados esperados. Em vez disso, classifique a lista pela coluna de interesse para identificar o número de acesso de discagem a ser visualizado ou modificado. 
@@ -124,7 +119,7 @@ Você pode modificar números de acesso discado usando Skype for Business Server
     
     É possível escolher até quatro idiomas secundários para cada número de acesso de discagem. Os usuários podem selecionar um idioma secundário antes de inserir o ID de conferência ao ligarem para uma.
     
-12. Para adicionar uma região para o número de acesso de discagem, em Regiões Associadas, clique em Adicionar **,** clique em uma ou mais regiões associadas aos planos de discagem para esse número de acesso de discagem e clique em **OK**.
+12. Para adicionar uma região para o número de acesso discado, em Regiões Associadas **, clique** em **Adicionar, clique** em uma ou mais regiões associadas aos planos de discagem para esse número de acesso de discagem e clique em **OK**.
     
 13. Para excluir uma região do número de acesso de discagem, em **Regiões Associadas**, clique na região a ser excluída e clique em **Remover**.
     
@@ -132,7 +127,7 @@ Você pode modificar números de acesso discado usando Skype for Business Server
     
 ### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Modificar números de acesso discado usando Skype for Business Server Shell de Gerenciamento
 
-Para modificar números de acesso discado, use o cmdlet **Set-CsDialInConferencingAccessNumber.**
+Para modificar números de acesso discado, use o cmdlet **Set-CsDialInConferencingAccessNumber** .
   
 O comando a seguir modifica a propriedade DisplayName para o número de acesso de conferência discado com a identidade sip:RedmondDialIn@litwareinc.com. Neste exemplo, o nome de exibição é definido como "Redmond Dial-In Access Number":
   
@@ -166,7 +161,7 @@ Você pode excluir um número de acesso de conferência discada usando o Painel 
     
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Excluir um número de acesso de conferência discada usando Skype for Business Server Shell de Gerenciamento
 
-Para excluir um número de acesso de conferência discada, use **Remove-CsDialInConferencingAccessNumber**.
+Para excluir um número de acesso de conferência **discada, use Remove-CsDialInConferencingAccessNumber**.
   
 O comando a seguir exclui o número de acesso de conferência discado com Identity sip:RedmondDialInAccess@litwareinc.com:
   

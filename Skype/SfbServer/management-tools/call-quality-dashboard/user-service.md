@@ -1,25 +1,20 @@
 ---
 title: Serviço de Usuário para CQD
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Resumo: Saiba mais sobre o Serviço de Usuário, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: e8be18304cad02e1ed39cf84327a58f84d134c6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851004"
 ---
+
 # <a name="user-service-for-cqd"></a>Serviço de Usuário para CQD
  
 **Resumo:** Saiba mais sobre o Serviço de Usuário, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.
@@ -37,7 +32,7 @@ O Painel de Qualidade de Chamada também cria automaticamente itens dedicados ao
   
  **IDs de usuário especiais**
   
-A API do Repositório inclui URIs da API REST que esperam um valor inteiro para especificar um usuário específico. Exemplo:  `https://<portal>/QoERepositoryService/repository/user/{userId}` . Aqui, {userId} deve ser substituído por um valor inteiro, como 0, 1, etc.
+A API do Repositório inclui URIs da API REST que esperam um valor inteiro para especificar um usuário específico. Exemplo:  `https://<portal>/QoERepositoryService/repository/user/{userId}`. Aqui, {userId} deve ser substituído por um valor inteiro, como 0, 1, etc.
   
 Além disso, a API do Repositório aceitará duas IDs de usuário especiais em {userId} em URIs.
   

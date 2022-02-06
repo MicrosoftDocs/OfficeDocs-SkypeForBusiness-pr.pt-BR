@@ -1,37 +1,32 @@
 ---
 title: Exibição AudioStreamDetail
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: A exibição AudioStreamDetail armazena informações sobre cada fluxo de áudio no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 2b75d803c75b0d936bf54e5b543ee39e18ee1896
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847014"
 ---
+
 # <a name="audiostreamdetail-view"></a>Exibição AudioStreamDetail
  
 A exibição AudioStreamDetail armazena informações sobre cada fluxo de áudio no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
-|**Column**|**Tipo de dados**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |SessionTime  <br/> |datetime  <br/> |Referenciado na tabela [MediaLine](medialine-0.md).  <br/> |
 |SessionSeq  <br/> |int  <br/> |Referenciado na tabela [MediaLine](medialine-0.md).  <br/> |
 |StreamId  <br/> |int  <br/> |Identificação exclusiva em uma linha de mídia.  <br/> |
 |StartTime  <br/> |datetime  <br/> |Hora de início da sessão.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Hora de término da sessão.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |Categoria de caixa de diálogo: 0 é a Skype for Business Server para o Servidor de Mediação; 1 é a etapa de gateway do Servidor de Mediação para PSTN.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |Categoria de caixa de diálogo: 0 é a etapa Skype for Business Server servidor de mediação; 1 é a etapa de gateway do Servidor de Mediação para PSTN.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Sinalizador que indica se a chamada foi ignorada ou não.  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |Se presente, indica porque uma chamada não foi ignorada, mesmo se as IDs de desvio correspondem. Apenas um valor é definido:  <br/> 0x0001 - ID de bypass desconhecido para adaptador de rede padrão.  <br/> |
 |CallPriority  <br/> |int  <br/> |Prioridade da chamada.  <br/> |
@@ -57,7 +52,7 @@ A exibição AudioStreamDetail armazena informações sobre cada fluxo de áudio
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |Velocidade do processador da CPU do ponto de extremidade do chamador.  <br/> |
 |CallerVirtualizationFlag  <br/> |tinyint  <br/> |Indica se o sistema do chamador está em execução em um ambiente virtualizado. Consulte a [tabela Ponto de Extremidade](endpoint.md) para obter mais informações. <br/> |
 |CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Indica se o sistema do chamador está sendo executado em um ambiente virtualizado. Consulte a [tabela Ponto de Extremidade](endpoint.md) para obter mais informações. <br/> |
-|CorrelationKey  <br/> ||Chave de correlação. Referenciado da tabela [SessionCorrelation.](sessioncorrelation.md)  <br/> |
+|CorrelationKey  <br/> ||Chave de correlação. Referenciado na tabela [SessionCorrelation](sessioncorrelation.md).  <br/> |
 |ConnectivityIce  <br/> |tinyint  <br/> |Informações sobre o caminho de mídia, como direto ou retransmitido. Consulte a [tabela MediaLine para](medialine-0.md) obter mais informações. <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Informações sobre o processo de ICE (Estabelecimento de Conectividade Interativa) descrito em sinalizadores de bits do autor da chamada. Para obter detalhes, consulte a Especificação de protocolo do servidor de monitoramento de Qualidade da Experiência.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Informações sobre o processo de ICE (Estabelecimento de Conectividade Interativa) descrito em sinalizadores de bits do receptor da chamada. Para obter detalhes, consulte a Especificação de protocolo do servidor de monitoramento de Qualidade da Experiência.  <br/> |

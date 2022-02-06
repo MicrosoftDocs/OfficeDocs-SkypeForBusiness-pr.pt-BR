@@ -1,23 +1,18 @@
 ---
 title: Configurando e monitorando o Serviço de Backup
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: Você pode usar Skype for Business Server do Shell de Gerenciamento para configurar e monitorar o Serviço de Backup.
-ms.openlocfilehash: 0881d40ca639edf825b0af104981ceddcab6e87a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832015"
 ---
+
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Configurando e monitorando o Serviço de Backup Skype for Business Server
 
 Você pode usar os seguintes comandos Skype for Business Server Shell de Gerenciamento para configurar e monitorar o Serviço de Backup. Para restaurar informações de conferência armazenadas no armazenamento de arquivos de um pool de Front-End, consulte [Restore conference contents using the Backup Service](#restore-conference-contents-using-the-backup-service), below.

@@ -1,27 +1,22 @@
 ---
 title: Expansor de Configurações de URL Simples
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SimpleUrlSettingsExpander
+  - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Para especificar novo, remover existente ou alterar as URLs simples ativas, faça o seguinte:'
-ms.openlocfilehash: f64dc15f859309556b90d6012f6cd482e8b22ff5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847854"
 ---
+
 # <a name="simple-url-settings-expander"></a>Expansor de Configurações de URL Simples
 
 Para especificar novo, remover existente ou alterar as URLs simples ativas, faça o seguinte:
@@ -32,7 +27,7 @@ Para modificar ou definir as URLs simples, primeiro decida qual das três URLs s
 
 Para modificar a URL de acesso ao Telefone ou a URL de Reunião, selecione a URL que você deseja alterar. Clique em **Editar URL**. Edite a URL e clique em **OK** para salvar a URL. Clique em **Cancelar** para descartar quaisquer alterações.
 
-Para adicionar uma nova URL, clique em  **Adicionar**. Na caixa **de diálogo Adicionar URL simples,** especifique a URL e clique em **OK** para salvar a URL. Selecione  **Tornar esta URL ativa para o domínio selecionado** caso necessite definir a nova URL como URL ativa. Clique em  **Cancelar** para descartar quaisquer mudanças.
+Para adicionar uma nova URL, clique em  **Adicionar**. Na caixa **de diálogo Adicionar URL simples** , especifique a URL e clique em **OK** para salvar a URL. Selecione  **Tornar esta URL ativa para o domínio selecionado** caso necessite definir a nova URL como URL ativa. Clique em  **Cancelar** para descartar quaisquer mudanças.
 
 Para tornar uma URL diferente a URL ativa (conforme indicado pela marca de seleção verde ao lado da URL), selecione a URL e clique em **Tornar Ativo**.
 

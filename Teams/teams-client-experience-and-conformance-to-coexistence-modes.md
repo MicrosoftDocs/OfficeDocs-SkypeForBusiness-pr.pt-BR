@@ -1,37 +1,32 @@
 ---
 title: Experiência e conformidade do cliente do Teams a modos de coexistência
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Saiba mais Teams experiência do cliente e conformidade com modos de coexistência (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+description: 'Saiba mais Teams experiência do cliente e conformidade com modos de coexistência (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).'
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-apr2020
+  - Teams-upgrade-guidance
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: d346f8f6259eef89b798bec6298f1c1fde0ac0a5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865650"
+  - Microsoft Teams
 ---
+
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiência e conformidade do cliente do Teams a modos de coexistência
 
 <a name="about-upgrade-basic"></a>
 
-O objetivo dos modos de coexistência do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) é fornecer uma experiência simples e previsível para os usuários finais à medida que as organizações migram de Skype for Business para Teams.  Para uma organização mudar para Teams, o modo somente **Teams** é o destino final para cada usuário, embora nem todos os usuários precisem ser atribuídos somente Teams **(ou** qualquer outro modo) ao mesmo tempo.  Antes de os usuários chegarem ao modo TeamsOnly, as organizações podem usar qualquer um dos modos de coexistência do Skype for Business para garantir uma comunicação previsível entre os usuários que estão Teams **somente** e aqueles que ainda não estão. 
+O objetivo dos modos de coexistência do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) é fornecer uma experiência simples e previsível para os usuários finais à medida que as organizações migram de Skype for Business para Teams.  Para uma organização mudar para Teams, o modo somente **Teams** é o destino final para cada usuário, embora nem todos os usuários precisem ser atribuídos somente **Teams (ou** qualquer outro modo) ao mesmo tempo.  Antes de os usuários chegarem ao modo TeamsOnly, as organizações podem usar qualquer um dos modos de coexistência do Skype for Business para garantir uma comunicação previsível entre os usuários que estão Teams **Somente** e aqueles que ainda não estão. 
 
 Quando um usuário está em qualquer um dos modos Skype for Business, todos os chats de entrada e chamadas são roteados para o cliente Skype for Business usuário. Para evitar confusão do usuário final e garantir o roteamento adequado, a funcionalidade de chamada e de chat no cliente Teams é desabilitada quando um usuário está em qualquer um dos modos Skype for Business de usuário. Da mesma forma, o agendamento de reunião no Teams é explicitamente desabilitado quando os usuários estão nos modos SfBOnly ou SfBWithTeamsCollab e explicitamente habilitados quando um usuário está no modo SfBWithTeamsCollabAndMeetings.
 
@@ -45,10 +40,10 @@ A funcionalidade disponível no Teams depende do modo de coexistência do usuár
 |---|---|
 |Qualquer Skype for Business modo|A chamada, o Chat e a auto-presença estão desabilitados.|
 |SfBWithTeamsCollabAndMeetings|Agendamento de reuniões está disponível|
-|SfBWithTeamsCollab ou SfBOnly<sup>1</sup>|O agendamento de reuniões não está disponível|
+|SfBWithTeamsCollab ou SfBOnly1<sup></sup>|O agendamento de reuniões não está disponível|
 |||
 
-As capturas de tela a seguir ilustram a diferença entre Teams **modo Somente** ou **Ilhas** e todos os outros modos. Observe que os ícones de chat e  chamada estão disponíveis por padrão com o modo Somente Teams ou **Ilhas** (captura de tela à esquerda), mas não com os outros modos (captura de tela à direita):
+As capturas de tela a seguir ilustram a diferença **entre Teams modo Somente** ou **Ilhas** e todos os outros modos. Observe que os ícones de chat e chamada estão disponíveis por padrão com  o modo Somente Teams ou **Ilhas** (captura de tela à esquerda), mas não com os outros modos (captura de tela à direita):
 
 ![Uma comparação lado a lado de Teams modos.](media/teams-mode-comparison.png)
 
@@ -56,7 +51,7 @@ Além disso, a auto-presença não está disponível nos outros modos, conforme 
 
 ![Captura de tela de auto-presença em Reuniões Primeiro.](media/meetings-first-no-self-presence-general.png)
  
-**Observação:** 
+**Observação:**
  <sup>1</sup> Neste momento, SfBwithTeamsCollab e SfBOnly se comportam da mesma forma, mas a intenção é que o modo SfBOnly também desabilite a funcionalidade Canais e Arquivos no Teams. Nesse ínterim, os canais podem ser ocultos usando a política permissões do aplicativo.
 
 
@@ -70,7 +65,7 @@ Conforme descrito acima, o impacto do modo de coexistência de um usuário é a 
 |Agendamento de reuniões|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-Os *administradores* não precisam definir explicitamente essas configurações de política ao usar o modo de co-existência, mas é importante entender que essas configurações se comportam efetivamente da seguinte maneira para um determinado modo. 
+Os *administradores não* precisam definir explicitamente essas configurações de política ao usar o modo de co-existência, mas é importante entender que essas configurações se comportam efetivamente da seguinte maneira para um determinado modo. 
 
 |Modo|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
@@ -79,7 +74,7 @@ Os *administradores* não precisam definir explicitamente essas configurações 
 |SfBWithTeamsCollab ou SfBOnly|Desabilitado|Desabilitado|Desabilitado|Desabilitado|
 ||||||
 
-Ao usar o PowerShell, o cmdlet verifica a configuração das configurações correspondentes em `Grant-CsTeamsUpgradePolicy` TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy para determinar se essas configurações seriam substituídos pelo TeamsUpgradePolicy e, em caso afirmativo, uma mensagem informativa é fornecida no PowerShell.  Conforme mencionado acima, não é mais necessário definir essas outras configurações de política. Veja a seguir um exemplo da aparência do aviso do PowerShell:
+Ao usar o PowerShell, `Grant-CsTeamsUpgradePolicy` o cmdlet verifica a configuração das configurações correspondentes em TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy para determinar se essas configurações seriam substituídos pelo TeamsUpgradePolicy e, em caso afirmativo, uma mensagem informativa é fornecida no PowerShell.  Conforme mencionado acima, não é mais necessário definir essas outras configurações de política. Veja a seguir um exemplo da aparência do aviso do PowerShell:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
