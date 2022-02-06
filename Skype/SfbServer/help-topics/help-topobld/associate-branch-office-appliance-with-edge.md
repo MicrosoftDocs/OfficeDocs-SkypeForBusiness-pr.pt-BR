@@ -1,27 +1,22 @@
 ---
 title: Associar Appliance de Escritório com Borda
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
+  - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
-description: Se você tiver Servidores de Borda implantados e deve fornecer serviços de mídia para uso externo, escolha o Servidor de Borda ou pool que será associado ao Aparelho de Filial Esalável ou Servidor de Filial Desavivável selecionando-o na listada. Clique em Avançar para continuar.
-ms.openlocfilehash: 50dcfd6aaa04ba2d7167fe5228be5382d9085ccf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842864"
+description: 'Se você tiver Servidores de Borda implantados e deve fornecer serviços de mídia para uso externo, escolha o Servidor de Borda ou pool que será associado ao Aparelho de Filial Esalável ou Servidor de Filial Desavivável selecionando-o na listada. Clique em Avançar para continuar.'
 ---
+
 # <a name="associate-branch-office-appliance-with-edge"></a>Associar Aparelho de Filial com Borda
  
 Se você tiver Servidores de Borda implantados e deve fornecer serviços de mídia para uso externo, escolha o Servidor de Borda ou pool que será associado ao Aparelho de Filial Esalável ou Servidor de Filial Desavivável selecionando-o na listada. Clique em **Avançar** para continuar.

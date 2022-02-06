@@ -1,28 +1,23 @@
 ---
 title: Criar perfis de política de largura de banda Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Crie ou modifique políticas de largura de banda, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server.
-ms.openlocfilehash: d1c7391abb535f3d7309809adea5b66a28087c75
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841903"
+description: 'Crie ou modifique políticas de largura de banda, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server.'
 ---
+
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Criar perfis de política de largura de banda Skype for Business Server 
  
 Crie ou modifique políticas de largura de banda, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server. 
@@ -46,7 +41,7 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Para criar perfis de política de largura de banda usando Skype for Business Server Shell de Gerenciamento
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Para cada perfil de política de largura de banda que desejar criar, execute o cmdlet New-CsNetworkBandwidthPolicyProfile. Por exemplo, execute:
     

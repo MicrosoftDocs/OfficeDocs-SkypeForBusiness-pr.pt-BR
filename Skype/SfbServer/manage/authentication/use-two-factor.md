@@ -1,25 +1,20 @@
 ---
 title: Use a autenticação de dois fatores com Skype for Business cliente e Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Resumo: use a autenticação de dois fatores com Skype for Business Server e Skype for Business.'
-ms.openlocfilehash: 50237639172a70fdf68e1cca122d74cbf785f68e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839933"
 ---
+
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Use a autenticação de dois fatores com Skype for Business cliente e Skype for Business Server
  
 **Resumo:** Use a autenticação de dois fatores com Skype for Business Server e Skype for Business.
@@ -32,7 +27,7 @@ Suas informações de login geralmente são configuradas automaticamente quando 
 
 1. Faça logoff na rede da sua organização.
     
-2. Selecione **Iniciar**  >  **Todos os Programas**  >  **Skype for Business**.
+2. Selecione **IniciarTodos** >  Programas  > **Skype for Business**.
     
     Você deve ver a tela de login.
     
@@ -50,9 +45,9 @@ Quando terminar de usar Skype for Business, você poderá fechar a exibição, s
   
 |**Opção**|**Função**|**Como performá-lo**|
 |:-----|:-----|:-----|
-|Fechar  <br/> |Fecha sua exibição, mas permite que a sessão Skype for Business identificada com a ID do usuário continue sendo executado. Isso é para que você possa continuar a receber notificações e interagir com outras pessoas. <br/> <br/> Você pode obter a exibição de volta a qualquer momento clicando no ícone Skype for Business na barra de tarefas ou na área de notificação na parte inferior da tela.  <br/> | Na Skype for Business principal, faça um dos seguintes: <br/> 1. Selecione o **botão Opções** e selecione **Fechar**  >  **Arquivo**.  <br/> 2. Clique no **botão Fechar** (X) no canto superior direito da janela. <br/> |
-|Sair  <br/> |Encerra a sessão associada à ID do usuário, mas Skype for Business continua sendo executado em segundo plano. Quando você sair, a janela de login aparecerá.  <br/> **Dica:** Selecione **Excluir minhas informações de** logon ao sair para remover o registro da ID de logon e da senha do computador. Isso pode facilitar o suporte às pessoas para solucionar problemas de login. Ele também pode ajudar a garantir que suas informações de entrada são mais seguras, tornando difícil para usuários não autorizados fazer logoff com suas credenciais. <br/> |Na janela Skype for Business principal, selecione **o** botão Opções e selecione **Sair**  >  **do Arquivo**.  <br/> |
-|Sair  <br/> |Termina sua Skype for Business e desliga Skype for Business no computador. Depois de sair, se quiser reiniciar, selecione **Iniciar**  >  **Todos os Programas > Skype for Business.** <br/> |Na janela Skype for Business principal, selecione o botão **Opções** e selecione **Saída**  >  **de Arquivo**.  <br/> |
+|Fechar  <br/> |Fecha sua exibição, mas permite que a sessão Skype for Business identificada com a ID do usuário continue sendo executado. Isso é para que você possa continuar a receber notificações e interagir com outras pessoas. <br/> <br/> Você pode obter a exibição de volta a qualquer momento clicando no ícone Skype for Business na barra de tarefas ou na área de notificação na parte inferior da tela.  <br/> | Na Skype for Business principal, faça um dos seguintes: <br/> 1. Selecione o **botão Opções** e selecione **FileClose** > .  <br/> 2. Clique no **botão Fechar** (X) no canto superior direito da janela. <br/> |
+|Sair  <br/> |Encerra a sessão associada à ID do usuário, mas Skype for Business continua sendo executado em segundo plano. Quando você sair, a janela de login aparecerá.  <br/> **Dica:** Selecione **Excluir minhas informações de** logon ao sair para remover o registro da ID de logon e da senha do computador. Isso pode facilitar o suporte às pessoas para solucionar problemas de login. Ele também pode ajudar a garantir que suas informações de entrada são mais seguras, tornando difícil para usuários não autorizados fazer logoff com suas credenciais. <br/> |Na janela Skype for Business principal, selecione o botão **Opções** e selecione **FileSign** >  Out.  <br/> |
+|Sair  <br/> |Termina sua Skype for Business e desliga Skype for Business no computador. Depois de sair, se quiser reiniciar, selecione **Iniciar** >  **Todos os Programas > Skype for Business**. <br/> |Na janela Skype for Business principal, selecione o botão **Opções** e selecione **FileExit** > .  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Entre no Skype for Business com um Cartão Inteligente
 
@@ -75,7 +70,7 @@ Antes de poder entrar com um cartão inteligente, o cartão deve estar "inscrito
     
 2. Usando o Internet Explorer, navegue até a página Registro web de Autoridade de Certificação da sua organização. 
     
-    Peça ao Skype for Business Server administrador do Skype for Business Server o endereço da Web desse recurso se você ainda não o tiver. A URL será parecida com esta: https://MyCA .[ yourcompanyname].com/certsrv.
+    Peça ao Skype for Business Server administrador do Skype for Business Server o endereço da Web desse recurso se você ainda não o tiver. A URL será parecida com esta: https://MyCA.[ yourcompanyname].com/certsrv.
     
     > [!NOTE]
     > Se você estiver usando Internet Explorer 10, talvez seja necessário exibir este site no Modo de Compatibilidade. 
@@ -86,7 +81,7 @@ Antes de poder entrar com um cartão inteligente, o cartão deve estar "inscrito
     
 5. Selecione **Solicitação Avançada**.
     
-6. Selecione **Criar e enviar uma solicitação para esta CA** e clique em **Próximo**.
+6. Selecione **Criar e enviar uma solicitação para essa AC** e clique em **Próximo**.
     
 7. Agora você verá uma página chamada Estação de Registro de Cartão Inteligente. Aprovar a solicitação para instalar o controle ActiveX e, em seguida, concluir o formulário solicitação de certificado avançado da seguinte maneira:
     
@@ -94,7 +89,7 @@ Antes de poder entrar com um cartão inteligente, o cartão deve estar "inscrito
     
     b. Selecione **Criar novo conjunto de chaves**.
     
-    c. Encontre as informações do fabricante no rótulo do seu cartão inteligente e selecione esse fabricante na lista suspenso **CSP.**
+    c. Encontre as informações do fabricante no rótulo do seu cartão inteligente e selecione esse fabricante na **lista suspenso CSP** .
     
     d. Selecione **CSP** como o Formato de Solicitação, se ainda não estiver selecionado.
     
@@ -126,19 +121,19 @@ Antes de poder entrar com um cartão inteligente, o cartão deve estar "inscrito
     
 ### <a name="sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>Entre no Skype for Business com suas credenciais de cartão inteligente
 
-Antes de usar seu cartão inteligente pela primeira vez,  é recomendável clicar em Excluir minhas informações de login na página de Skype for Business de logom. Isso limpa todas as credenciais de login armazenadas em seu computador e elimina uma possível fonte de erro.
+Antes de usar seu cartão inteligente pela primeira vez, é recomendável clicar em Excluir minhas informações  de login na página de Skype for Business de logom. Isso limpa todas as credenciais de login armazenadas em seu computador e elimina uma possível fonte de erro.
   
 ### <a name="to-sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>Para entrar no Skype for Business com suas credenciais de cartão inteligente
 
 1. Inicie o Skype for Business cliente.
     
-2. Na tela Entrar, digite o nome da  conta de usuário de login na caixa Endereço de entrar e clique **em Entrar**.
+2. Na tela Entrar, digite o nome da conta de usuário na caixa Endereço de  logom e clique **em Entrar**.
     
 3. Se você estiver usando um cartão inteligente virtual, ignore esta etapa.
     
     Se você estiver usando um cartão inteligente físico, insira o cartão inteligente no leitor de cartão inteligente e solicitado a fazer isso e clique em **OK** quando o cartão for detectado.
     
-4. Digite o número de PIN que você tem para seu cartão inteligente e clique em **OK**.
+4. Digite o número de PIN para seu cartão inteligente e clique em **OK**.
     
     > [!NOTE]
     > Se você não tiver um número pin de cartão inteligente atribuído pela pessoa de suporte, use o valor padrão, que é 12345678. 

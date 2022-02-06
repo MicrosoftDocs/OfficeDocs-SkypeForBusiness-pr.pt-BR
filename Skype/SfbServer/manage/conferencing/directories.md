@@ -1,24 +1,19 @@
 ---
 title: Criar diretórios de conferência em Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: 'Resumo: saiba como criar diretórios de conferência em Skype for Business Server.'
-ms.openlocfilehash: 4ec5ba95de6c9b5518f1a060d0fc76d9186a1403
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828794"
 ---
+
 # <a name="create-conference-directories-in-skype-for-business-server"></a>Criar diretórios de conferência em Skype for Business Server
  
 **Resumo:** Saiba como criar diretórios de conferência em Skype for Business Server.
@@ -38,7 +33,7 @@ O formato de uma ID de conferência é o seguinte:
   <conference number (variable number of digits><check digit (1 digit)>
 ```
 
-Para criar um diretório de conferência, use o cmdlet **New-CsConferenceDirectory.** Por exemplo, o seguinte comando cria um diretório de conferência com a identidade 42, hospedado no pool atl-cs-001.litwareinc.com:
+Para criar um diretório de conferência, use o cmdlet **New-CsConferenceDirectory** . Por exemplo, o seguinte comando cria um diretório de conferência com a identidade 42, hospedado no pool atl-cs-001.litwareinc.com:
   
 ```PowerShell
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"

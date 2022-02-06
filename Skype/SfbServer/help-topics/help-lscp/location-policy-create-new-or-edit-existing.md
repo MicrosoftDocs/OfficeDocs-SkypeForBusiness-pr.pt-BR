@@ -1,27 +1,22 @@
 ---
 title: Política de Local Criar Novo ou Editar Existente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.NcsLocEdit
+  - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
-description: Você pode configurar políticas de local para determinar se o Enhanced 9-1-1 (E9-1-1) está habilitado e como ele é usado, bem como como as informações de local são usadas para usuários e contatos.
-ms.openlocfilehash: da3f0d75cc5759ed7ccc8458873df942992e2f6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847784"
+description: 'Você pode configurar políticas de local para determinar se o Enhanced 9-1-1 (E9-1-1) está habilitado e como ele é usado, bem como como as informações de local são usadas para usuários e contatos.'
 ---
+
 # <a name="location-policy-create-new-or-edit-existing"></a>Política de Local: Criar Nova ou Editar Existente
 
 Você pode configurar políticas de local para determinar se o Enhanced 9-1-1 (E9-1-1) está habilitado e como ele é usado, bem como como as informações de local são usadas para usuários e contatos.
@@ -41,7 +36,7 @@ A lista a seguir descreve os campos na página.
 
 - **Local** Especifique se os usuários são solicitados a obter informações de local:
 
-  - **Obrigatório** Selecione essa opção se os usuários devem ser solicitados a obter informações de local quando seu cliente se registrar em um novo local. Os usuários podem ignorar essa solicitação sem inserir informações de local.
+  - **Necessário** Selecione essa opção se os usuários devem ser solicitados a obter informações de local quando seu cliente se registrar em um novo local. Os usuários podem ignorar essa solicitação sem inserir informações de local.
 
   - **Não obrigatório** Selecione essa opção se os usuários não devem ser solicitados a obter informações de local.
 
@@ -56,7 +51,7 @@ A lista a seguir descreve os campos na página.
 - **Máscara de discagem E9-1-1** Especifique um número que um usuário disca, que será convertido no número de discagem de emergência. Por exemplo, insira um valor de 212 nesse campo de modo que um usuário possa discar 212 a fim de entrar em contato com os serviços de emergência. Isso permite que números de emergência alternativos sejam discados e ainda assim a chamada chegue aos serviços de emergência (por exemplo, se alguém de um país ou região com um número de emergência diferente tentar discar o número desse país ou região em vez do número do país ou região em que está no momento). É possível definir múltiplas máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O tamanho máximo da string é de 100 caracteres. Cada caractere precisa ser um dígito de 0 a 9.
 
     > [!IMPORTANT]
-    > Certifique-se de que a máscara de discagem não seja a mesma que o número em um intervalo de números de estacionamento de chamada, pois o roteamento de estacionamento de chamada tem precedência sobre a conversão de string de discagem de emergência. Para ver os intervalos de números do Estacionamento de Chamadas, clique em Recursos de **Voz** na barra de navegação esquerda e clique em **Estacionamento de Chamadas.**
+    > Certifique-se de que a máscara de discagem não seja a mesma que o número em um intervalo de números de estacionamento de chamada, pois o roteamento de estacionamento de chamada tem precedência sobre a conversão de string de discagem de emergência. Para ver os intervalos de números do Estacionamento de Chamadas, clique em **Recursos de Voz** na barra de navegação esquerda e clique em **Estacionamento de Chamadas**.
 
 - **URI de notificação** Especifique um ou mais URIs SIP a serem notificados quando uma chamada de emergência for feita. Por exemplo, digite o URI SIP do escritório de segurança da empresa a fim de notificar a equipe de segurança com uma mensagem instantânea sempre que uma chamada de emergência for feita. Se o local do chamador estiver disponível, o local será incluído na notificação. É possível especificar múltiplos URIs SIP como uma lista separada por vírgulas. Por exemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". A string precisa ter de 1 a 256 caracteres e precisa começar com o prefixo "sip:". Também é possível especificar listas de distribuição.
 

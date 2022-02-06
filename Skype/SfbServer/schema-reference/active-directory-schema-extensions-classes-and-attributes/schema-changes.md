@@ -1,25 +1,20 @@
 ---
 title: Alterações de esquema no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: Antes de implantar e operar Skype for Business Server, você deve preparar os Serviços de Domínio do Active Directory estendendo o esquema. As extensões de esquema adicionam as classes e atributos exigidos pelo Skype for Business Server.
-ms.openlocfilehash: 9f5a0f5e3b70925a39d94df9d3fec6728ef6429c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829815"
+description: 'Antes de implantar e operar Skype for Business Server, você deve preparar os Serviços de Domínio do Active Directory estendendo o esquema. As extensões de esquema adicionam as classes e atributos exigidos pelo Skype for Business Server.'
 ---
+
 # <a name="schema-changes-in-skype-for-business-server"></a>Alterações de esquema no Skype for Business Server
  
 Antes de implantar e operar Skype for Business Server, você deve preparar os Serviços de Domínio do Active Directory estendendo o esquema. As extensões de esquema adicionam as classes e atributos exigidos pelo Skype for Business Server.
@@ -45,7 +40,7 @@ Skype for Business Server requer várias novas classes e atributos e modifica al
     
   - Conta de autenticação Kerberos (um objeto de computador opcional)
     
-Este tópico descreve as alterações de esquema do Active Directory necessárias Skype for Business Server. Ele não descreve as alterações de esquema introduzidas por versões anteriores do Office Communications Server. Para ver uma lista de classes e suas descrições, consulte [Classes de esquema e descrições em Skype for Business Server](schema-classes-and-descriptions.md). Para ver uma lista de atributos e suas descrições, consulte [Schema attributes and descriptions in Skype for Business Server](schema-attributes-and-descriptions.md). Para uma lista de classes com os atributos que podem conter, consulte [Atributos de esquema por classe em Skype for Business Server](schema-attributes-by-class.md).
+Este tópico descreve as alterações de esquema do Active Directory necessárias Skype for Business Server. Ele não descreve as alterações de esquema introduzidas por versões anteriores do Office Communications Server. Para ver uma lista de classes e suas descrições, consulte [Classes de esquema e descrições em Skype for Business Server](schema-classes-and-descriptions.md). Para ver uma lista de atributos e suas descrições, consulte [Atributos e descrições de esquema em](schema-attributes-and-descriptions.md) Skype for Business Server. Para uma lista de classes com os atributos que podem conter, consulte [Atributos de esquema por classe em Skype for Business Server](schema-attributes-by-class.md).
   
 O prefixo msRTCSIP identifica classes e atributos específicos de Skype for Business Server.
   
@@ -69,7 +64,7 @@ A tabela a seguir descreve as classes do Active Directory modificadas por Skype 
 
 |**Classe**|**Alteração**|**Classe ou atributo**|
 |:-----|:-----|:-----|
-|User  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Usuário  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Contact  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Mail-Recipient  <br/> |add:mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |add: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |

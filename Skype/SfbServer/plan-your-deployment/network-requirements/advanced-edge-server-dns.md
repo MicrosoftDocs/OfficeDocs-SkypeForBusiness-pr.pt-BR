@@ -1,28 +1,23 @@
 ---
 title: Planejamento avançado de DNS do Servidor de Borda para Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Hybrid
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
-description: Exibir cenários para Skype for Business Server de implantação. Se você deseja um único servidor ou prefere um pool de servidores com DNS ou HLB, este tópico deve ajudar.
-ms.openlocfilehash: 2c9ea99ae8f5ae7c6151dc337bd5571d739ff549
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844104"
+description: 'Exibir cenários para Skype for Business Server de implantação. Se você deseja um único servidor ou prefere um pool de servidores com DNS ou HLB, este tópico deve ajudar.'
 ---
+
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planejamento avançado de DNS do Servidor de Borda para Skype for Business Server
  
 **Resumo:** Revise cenários para Skype for Business Server de implantação. Se você deseja um único servidor ou prefere um pool de servidores com DNS ou HLB, este tópico deve ajudar.
@@ -79,9 +74,9 @@ O serviço de Descoberta Automática sempre é favorecido, pois esse é o métod
   
 Se você estiver inclinado a fazer isso, poderá configurar seu dispositivo móvel para a descoberta manual de serviços. Se é isso que você está procurando fazer, cada usuário precisa configurar suas configurações de dispositivo móvel com as URIs completas do serviço de Descoberta Automática interna e externa, incluindo o protocolo e o caminho, da seguinte maneira:
   
-- Para acesso externo: https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root
+- Para acesso externo: https://\<ExtPoolFQDN\>/Descoberta Automática/autodiscoverservice.svc/Root
     
-- Para acesso interno: \<IntPoolFQDN\> https:// /AutoDiscover/AutoDiscover.svc/Root
+- Para acesso interno: https://\<IntPoolFQDN\>/Descoberta Automática/AutoDiscover.svc/Root
     
 Recomendamos que você use a descoberta automática em vez da descoberta manual. Mas se você estiver solucionando problemas ou testando, as configurações manuais podem ser úteis.
   
@@ -106,11 +101,11 @@ Vamos listar os registros DNS para as zonas internas e externas aqui, mas você 
     
   - Registros DNS A e AAAA (se você estiver usando endereçamento IPv6) para sua interface interna de Borda para cada servidor de borda Skype for Business Server em sua rede de perímetro.
     
-  - Registros DNS A e AAAA (se você estiver usando endereçamento IPv6) para a  interface interna de cada servidor proxy reverso em sua rede de perímetro (que é opcional para o gerenciamento de um proxy reverso).
+  - Registros DNS A e AAAA (se você estiver usando endereçamento IPv6) para a interface interna de cada servidor proxy reverso em sua rede  de perímetro (que é opcional para o gerenciamento de um proxy reverso).
     
-  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e registros SRV para configuração automática de cliente Skype for Business Server interno (que é **opcional** ).
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e registros SRV para configuração automática de cliente Skype for Business Server interna (que é **opcional** ).
     
-  - DNS A e AAAA (se você estiver usando o endereçamento IPv6) ou registros CNAME para descoberta automática de serviços Web Skype for Business Server web (que é **opcional** ).
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) ou registros CNAME para descoberta automática de serviços Web Skype for Business Server web (que é **opcional** ).
     
 - Todas as Skype for Business Server de Borda internas em sua rede de perímetro usam essa zona DNS interna para resolver consultas contoso.com.
     
@@ -128,7 +123,7 @@ Vamos listar os registros DNS para as zonas internas e externas aqui, mas você 
     
   - DNS A e AAAA (se você estiver usando endereçamento IPv6) e registros SRV para a interface externa do servidor proxy reverso ou (VIP para um pool de servidores proxy reverso), na rede de perímetro.
     
-  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e registros SRV para Skype for Business Server configuração automática do cliente **(opcional** ).
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e registros SRV para Skype for Business Server configuração automática do cliente (**opcional** ).
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Configuração automática sem DNS de cérebro dividido
 <a name="NoSplitBrainDNS"> </a>
@@ -205,7 +200,7 @@ Portanto, agora que sabemos tudo isso, se você precisar de requisito automátic
 
 Para configurar o DNS para redirecionar Skype for Business Server web para seus sites de recuperação de desastres (DR) e failover, você precisa usar um provedor DNS que oferece suporte a GeoDNS. Você pode configurar seus registros DNS para dar suporte à recuperação de desastres, para que os recursos que usam serviços Web continuem mesmo que um pool inteiro de Front-End seja baixado. Esse recurso dr dá suporte às URLs simples de Descoberta Automática, Reunião e Discagem.
   
-Você define e configura registros adicionais de host DNS A (AAAA) se estiver usando registros IPv6 para resolução interna e externa de serviços Web em seu provedor GeoDNS. Os detalhes a seguir pressupom pools emparelhados, geograficamente dispersos, e que o GeoDNS suportado pelo seu provedor possui **DNS** round-robin ou está configurado para usar Pool1 como principal e falha no Pool2 em caso de perda de comunicações ou falha de energia. 
+Você define e configura registros adicionais de host DNS A (AAAA) se estiver usando registros IPv6 para resolução interna e externa de serviços Web em seu provedor GeoDNS. Os detalhes a seguir pressupom pools emparelhados, geograficamente dispersos, e que o GeoDNS  suportado pelo seu provedor **possui DNS** round-robin ou está configurado para usar Pool1 como principal e falha no Pool2 em caso de perda de comunicações ou falha de energia.
   
 Todos os registros DNS nesta tabela são exemplos.
   
@@ -258,7 +253,7 @@ Não é possível usar o balanceamento de carga DNS para:
   
 - Tráfego web de cliente para servidor para seus Servidores Front-End ou um Diretor.
     
-Para aprofundar um pouco mais a forma como um registro SRV DNS é selecionado quando vários registros DNS são retornados por uma consulta, o serviço de Borda de Acesso sempre seleciona o registro com a menor prioridade numérica e, se um desempate for necessário, a maior carga numérica. Isso é consistente com a documentação [da Força de Tarefa de Engenharia da Internet.](https://www.ietf.org/rfc/rfc2782.txt)
+Para aprofundar um pouco mais a forma como um registro SRV DNS é selecionado quando vários registros DNS são retornados por uma consulta, o serviço de Borda de Acesso sempre seleciona o registro com a menor prioridade numérica e, se um desempate for necessário, a maior carga numérica. Isso é consistente com a documentação da [Força de Tarefa de Engenharia da Internet](https://www.ietf.org/rfc/rfc2782.txt).
   
 Portanto, por exemplo, se seu primeiro registro SRV DNS tiver um peso de 20 e uma prioridade de 40, e seu segundo registro SRV DNS tiver um peso de 10 e uma prioridade de 50, o primeiro registro será escolhido porque ele tem a prioridade mais baixa de 40. A prioridade sempre é a primeira, e esse é o host que um cliente irá direcionar primeiro. E se houver dois destinos com a mesma prioridade? 
   

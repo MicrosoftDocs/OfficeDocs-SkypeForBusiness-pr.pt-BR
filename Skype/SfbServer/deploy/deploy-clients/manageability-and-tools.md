@@ -1,25 +1,20 @@
 ---
-title: Skype Ferramentas e capacidade de gerenciamento do sistema de sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype gerenciamento e ferramentas do Sistema de Sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Leia este tópico para saber mais sobre ferramentas de gerenciamento para Skype Room System.
-ms.openlocfilehash: 976ed518941ded1278bf34a1c991a20adb8a0d8c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865408"
 ---
-# <a name="skype-room-system-manageability-and-tools"></a>Skype Ferramentas e capacidade de gerenciamento do sistema de sala
+
+# <a name="skype-room-system-manageability-and-tools"></a>Skype gerenciamento e ferramentas do Sistema de Sala
  
 Leia este tópico para saber mais sobre ferramentas de gerenciamento para Skype Room System.
   
@@ -32,7 +27,7 @@ Confira o artigo a seguir para obter mais detalhes:
 - [Implantar o SRS v1 Administrative Web Portal em Skype for Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
   
-## <a name="exchange-checklist"></a>Exchange Lista de verificação
+## <a name="exchange-checklist"></a>Exchange Checklist
 
 - Confirme se a Descoberta Automática está configurada e um REGISTRO DNS A/CNAME interno está disponível para autodiscover.domain.com.
     
@@ -42,7 +37,7 @@ Confira o artigo a seguir para obter mais detalhes:
     
 - Se a sala de reunião já tiver uma caixa de correio de recurso, estenda essa conta para o sistema de sala Skype (script de exemplo na parte inferior da página).
     
-## <a name="skype-for-business-checklist"></a>Skype for Business Lista de verificação
+## <a name="skype-for-business-checklist"></a>Skype for Business Lista de Verificação
 
 - Execute as seguintes ferramentas:
     
@@ -50,7 +45,7 @@ Confira o artigo a seguir para obter mais detalhes:
   - Skype for Business Ferramenta de Análise de Saúde (Excel)    
   - Skype for Business Analisador de Conectividade de 32 bits ou 64 bits
     
-- Revisar [Novas ferramentas de solução de problemas e análise úteis para Office 365](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365). Confirme se você tem um pool Skype for Business e um servidor Office Web Apps e pode compartilhar um PowerPoint usando o Skype for Business cliente.
+- Revise [Ferramentas úteis de solução de problemas e análise para Office 365](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365). Confirme se você tem um pool Skype for Business e um servidor Office Web Apps e pode compartilhar um PowerPoint usando o Skype for Business cliente.
     
 - Se a sala de reunião já tiver uma caixa de correio de recurso, habilita-a para Skype for Business.
     
@@ -70,9 +65,9 @@ Confira o artigo a seguir para obter mais detalhes:
     
 - Execute a Ferramenta de Diagnóstico de Pré-Chamada.
     
-## <a name="skype-room-system-security"></a>Skype Segurança do Sistema de Sala
+## <a name="skype-room-system-security"></a>Skype do sistema de sala
 
-Skype O Sistema de Sala é um sistema incorporado que pode ser totalmente integrado em uma implantação Windows, usando o modelo de segurança Skype for Business, gerenciamento de direitos e ferramentas de gerenciamento, como SCOM. Os recursos incluem:
+Skype Room System é um sistema incorporado que pode ser totalmente integrado em uma implantação Windows, usando o modelo de segurança Skype for Business, gerenciamento de direitos e ferramentas de gerenciamento, como SCOM. Os recursos incluem:
   
 - Um Filtro de Gravação para impedir gravações de disco no modo de usuário 
     
@@ -86,13 +81,13 @@ Skype O Sistema de Sala é um sistema incorporado que pode ser totalmente integr
     
 - Você também pode gerenciar a conta de administrador local usando o Skype for Business de administração.
     
-- Skype O Sistema de Sala é atualizado por meio de processos padrão do Microsoft Update.
+- Skype Room System é atualizado por meio de processos padrão do Microsoft Update.
     
-- Skype O Sistema de Sala se conecta Skype for Business.
+- Skype Room System se conecta com Skype for Business.
     
   - Skype for Business usa criptografia de ponta a ponta e autorização para todos os modos de comunicação
     
-  - Skype O Sistema de Sala Skype for Business os padrões de segurança e conformidade. Consulte [Plan for security in Skype For Business Server](../../plan-your-deployment/security/security.md) para obter mais informações.
+  - Skype Room System oferece suporte Skype for Business padrões de segurança e conformidade. Consulte [Plan for security in Skype For Business Server](../../plan-your-deployment/security/security.md) para obter mais informações.
     
 ## <a name="license"></a>Licença
 
@@ -100,7 +95,7 @@ Verifique se você usa um KMS para ativar software. Em caso afirmado, talvez sej
   
 ## <a name="license-keys"></a>Chaves de licença
 
-Skype O Sistema de Sala executa o Skype for Business cliente da área de trabalho em segundo plano. Se Skype Room System for um membro de domínio, ele descobrirá sua KMS. (e se ele tiver a chave de licenciamento por volume KMS ela será ativada automaticamente). O Licenciamento por Volume também fornece um MAK, que você insinte à medida que exibe xxxxx-xxxxx-xxxxx-xxxxx-xxxxx. (Você precisa de acesso à Internet para ser ativado usando MAK, mas não KMS). Para obter mais informações, consulte Ativação de volume Office 2013.
+Skype Room System executa o cliente Skype for Business área de trabalho em segundo plano. Se Skype Room System for um membro de domínio, ele descobrirá sua KMS. (e se ele tiver a chave de licenciamento por volume KMS ela será ativada automaticamente). O Licenciamento por Volume também fornece um MAK, que você insinte à medida que exibe xxxxx-xxxxx-xxxxx-xxxxx-xxxxx. (Você precisa de acesso à Internet para ser ativado usando MAK, mas não KMS). Para obter mais informações, consulte Ativação de volume Office 2013.
   
 - Para inserir a chave MAK, vá para OEM Configurações Ferramenta de Licenciamento \> srs. Clique em Verificar Status. Quando o status diz "o produto não está ativado", digite a tecla.
     
@@ -126,7 +121,7 @@ Verifique se a Autoridade de Certificação tem um caminho http para a Lista de 
   
 Instale certificados na configuração de administrador do Skype Room System em System Configurações \> Certificate Manager. Você precisa da Enterprise raiz do certificado interno.
   
-Uma maneira de obter os certificados necessários é descobrir a AC que emitiu seus certificados. Para Skype for Business Server, em um computador em Skype for Business, clique Configurações \> Ferramentas discar em \> Conferência Configurações. Isso abre uma página da Web protegida pela AC que emitiu os certificados internos. Clique no ícone Bloquear na barra de endereços do navegador para exibir um relatório de segurança. Clique em Exibir Certificados e examine a propriedade Ponto de Distribuição crl. O segundo parâmetro CN deve ser o nome do servidor da AC. Agora abra Windows Explorer para esse endereço \\ \< CA Server Name \> \CertEnroll. Copie os dois arquivos .crl e o arquivo .crt para uma unidade flash e coloque-o no lado esquerdo da placa SMART.
+Uma maneira de obter os certificados necessários é descobrir a AC que emitiu seus certificados. Para Skype for Business Server, em um computador em Skype for Business, clique Configurações \> Ferramentas \> discar em Conferência Configurações. Isso abre uma página da Web protegida pela AC que emitiu os certificados internos. Clique no ícone Bloquear na barra de endereços do navegador para exibir um relatório de segurança. Clique em Exibir Certificados e examine a propriedade Ponto de Distribuição crl. O segundo parâmetro CN deve ser o nome do servidor da AC. Agora abra Windows Explorer para esse endereço \\\< CA Server Name \>\CertEnroll. Copie os dois arquivos .crl e o arquivo .crt para uma unidade flash e coloque-o no lado esquerdo da placa SMART.
   
 Import the .crt file to the Skype Room System under Trusted Room Certification Authority folder.
   

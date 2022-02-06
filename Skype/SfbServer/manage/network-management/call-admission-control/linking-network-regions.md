@@ -1,23 +1,19 @@
 ---
 title: Vinculando regiões de rede
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas. '
-ms.openlocfilehash: 718f9223749c86fdff5ce98d1d652a0a3f1a9fbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841173"
 ---
+
+
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Vincular regiões de rede no Skype for Business Server
 
 Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas. Use as seções deste artigo para exibir informações de link de região de trabalho mais recente ou configurar ou excluir links de região netwrok. 
@@ -33,7 +29,7 @@ Você pode visualizar os links entre duas regiões de redes como parte do contro
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região**.
 
 4.  Na página **Link da região**, clique no link da região que você deseja ver.
     
@@ -44,7 +40,7 @@ Você pode visualizar os links entre duas regiões de redes como parte do contro
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Exibir informações de link de região de rede usando Windows PowerShell cmdlets
 
-Você pode exibir links de região de rede usando Windows PowerShell e o cmdlet **Get-CsNetworkRegionLink.** Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. 
+Você pode exibir links de região de rede usando Windows PowerShell e o cmdlet **Get-CsNetworkRegionLink**. Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. 
 
 
 ### <a name="to-view-network-region-link-information"></a>Para ver informações do link de região de rede
@@ -71,7 +67,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região**.
 
 4.  Na página **Link de Região**, clique em **Novo**.
 
@@ -80,9 +76,9 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
     > [!NOTE]  
     > Esse valor deve ser exclusivo em sua Skype for Business Server implantação.
 
-6.  Na lista listada da região de rede **\# 1,** selecione uma das duas regiões a serem vinculadas.
+6.  Na lista **listada \#** da região de rede 1, selecione uma das duas regiões a serem vinculadas.
 
-7.  Na lista listada da região de rede **\# 2,** selecione a outra região a ser vinculada. Essa região deve ser diferente da região selecionada para a região de rede \# 1.
+7.  Na lista **listada \#** da região de rede 2, selecione a outra região a ser vinculada. Essa região deve ser diferente da região selecionada para a região de rede \#1.
 
 8.  (Opcional) Se você desejar colocar limites de largura de banda em chamadas de áudio e vídeo entre essas regiões, selecione um perfil de política de largura de banda na lista suspensa **Política de largura de banda**.
 
@@ -94,7 +90,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região**.
 
 4.  Na página **Link de Região**, clique no link de região que deseja modificar.
 
@@ -115,19 +111,19 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Link de Região**.
 
-4.  Na página **Link da Região,** clique no link de região que você deseja excluir.
+4.  Na página **Link da Região** , clique no link de região que você deseja excluir.
  
     > [!NOTE]  
-    > Você pode excluir mais de um link de região por vez. Para fazer isso, pressione CTRL e selecione vários links de região ao segurar a tecla CTRL. Ou, para selecionar todos os links de região, clique <STRONG>em Selecionar tudo</STRONG> no menu Editar. <STRONG></STRONG>
+    > Você pode excluir mais de um link de região por vez. Para fazer isso, pressione CTRL e selecione vários links de região ao segurar a tecla CTRL. Ou, para selecionar todos os links de região, clique <STRONG>em Selecionar tudo</STRONG> <STRONG>no menu</STRONG> Editar.
 
-5.  No menu **Editar,** selecione **Excluir**.
+5.  No menu **Editar** , selecione **Excluir**.
 
 6.  Clique em **OK**.
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [New-CsNetworkRegionLink](/powershell/module/skype/New-CsNetworkRegionLink)  
 

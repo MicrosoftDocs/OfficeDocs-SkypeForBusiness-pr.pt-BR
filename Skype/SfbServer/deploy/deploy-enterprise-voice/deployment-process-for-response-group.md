@@ -1,28 +1,23 @@
 ---
 title: Processo de implantação do Grupo de Resposta Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Processo de implantação e etapas para o Grupo de Resposta Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853695"
 ---
+
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processo de implantação do Grupo de Resposta Skype for Business
 
 Processo de implantação e etapas para o Grupo de Resposta Skype for Business Server Enterprise Voice.
@@ -85,7 +80,7 @@ Para modificar o arquivo Web.config, faça o seguinte:
 
 2. No arquivo Web.config, localize a  `<system.web>` seção.
 
-3. Adicione a seção  `<machineKey>` a seguir à `<system.web>` seção:
+3. Adicione a seção  `<machineKey>` a seguir à seção `<system.web>` :
 
    ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
@@ -104,7 +99,7 @@ Para modificar o arquivo Web.config, faça o seguinte:
 Esta seção se aplica a você somente se a sua organização precisa oferecer suporte a caracteres Yi, Meng ou Zang.
 
 > [!NOTE]
-> Para obter informações sobre o que são os caracteres Yi, Meng e Zang e por que eles podem ser importantes para sua implantação, consulte as informações sobre os conjuntos de caracteres GB18030 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)) .
+> Para obter informações sobre o que são os caracteres Yi, Meng e Zang e por que eles podem ser importantes para sua implantação, consulte as informações sobre os conjuntos de caracteres GB18030 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)).
 
 Para oferecer suporte a caracteres Yi, Meng ou Zang, você precisará modificar o agrupamento para o banco de dados Rgsconfig. Altere o agrupamento da coluna **Nome** nas seguintes tabelas em cada banco de dados Rgsconfig:
 
@@ -122,7 +117,7 @@ Para SQL Server 2008 R2 e SQL Server 2012, use o colamento Latin_General_100 (Ac
 
 Você pode alterar o agrupamento usando o Microsoft SQL Server Management Studio. Para obter detalhes sobre como usar essa ferramenta, consulte ["Usando SQL Server Management Studio"](/sql/ssms/sql-server-management-studio-ssms). Siga essas etapas para alterar o agrupamento:
 
-1. Certifique-se de que o SQL Server Management Studio está configurado para permitir alterações que precisam que as tabelas sejam recriadas. Para obter detalhes, consulte a caixa de diálogo ["Salvar (Não Permitido) "](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box). Para obter detalhes sobre a configuração de um colamento de coluna, consulte ["How to: Set Column Collation (Visual Database Tools)"](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105)).
+1. Certifique-se de que o SQL Server Management Studio está configurado para permitir alterações que precisam que as tabelas sejam recriadas. Para obter detalhes, consulte ["Caixa de diálogo Salvar (Não Permitido)"](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box). Para obter detalhes sobre como definir um colamento de colunas, consulte ["How to: Set Column Collation (Visual Database Tools)"](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105)).
 
 2. Usando o Microsoft SQL Server Management Studio, conecte-se com o banco de dados Rgsconfig.
 

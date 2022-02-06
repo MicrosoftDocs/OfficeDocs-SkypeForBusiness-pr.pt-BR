@@ -1,26 +1,21 @@
 ---
 title: Configurar provedores para o Serviço de Log Centralizado Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Resumo: saiba como configurar provedores de cenário para o Serviço de Registro Em Log Centralizado Skype for Business Server 2015.'
-ms.openlocfilehash: 526c42e1a6fd741b228cd99450b9d11bc3152670
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855448"
 ---
+
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar provedores para o Serviço de Log Centralizado Skype for Business Server 2015
  
 **Resumo:** Saiba como configurar provedores de cenário para o Serviço de Log Centralizado Skype for Business Server 2015.
@@ -50,7 +45,7 @@ Introduzido no Serviço de Log Centralizado [no Skype for Business 2015](central
   
 - **Provedores** Se você estiver familiarizado com o OCSLogger, os provedores são os componentes que você escolhe para dizer ao OCSLogger de que o mecanismo de rastreamento deve coletar logs. Os provedores são os mesmos componentes e, em muitos casos, têm o mesmo nome que os componentes do OCSLogger. Se você não estiver familiarizado com o OCSLogger, os provedores são componentes específicos de função de servidor dos que o Serviço de Log Centralizado pode coletar logs. No caso do Serviço de Log Centralizado, o CLSAgent é a parte arquitetônica do Serviço de Log Centralizado que está fazendo o rastreamento dos componentes que você define na configuração de provedores.
     
-- **Níveis de registro em log** O OCSLogger forneceu a opção de escolher vários níveis de detalhes para os dados coletados. Esse recurso é uma parte integrante do Serviço de Log Centralizado e cenários e é definido pelo **parâmetro Type.** Você pode escolher entre estas opções:
+- **Níveis de registro em log** O OCSLogger forneceu a opção de escolher vários níveis de detalhes para os dados coletados. Esse recurso é uma parte integrante do Serviço de Log Centralizado e cenários e é definido pelo **parâmetro Type** . Você pode escolher entre estas opções:
     
   - **Todos** Coleta mensagens de rastreamento do tipo fatal, erro, aviso, detalhado e informações de depuração para o log do provedor definido.
     
@@ -82,7 +77,7 @@ Introduzido no Serviço de Log Centralizado [no Skype for Business 2015](central
     
 ### <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>Para revisar informações sobre provedores de cenários de Serviço de Log Centralizado existentes
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Para exibir a configuração dos provedores existentes, digite o seguinte:
     
@@ -106,7 +101,7 @@ Introduzido no Serviço de Log Centralizado [no Skype for Business 2015](central
     
 ### <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>Para definir um novo provedor de cenário de Serviço de Log Centralizado
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Um provedor de cenário consiste em um componente a ser rastreado, sinalizadores a serem usados e um nível de detalhamento a ser coletado. Para isso, digite:
     
@@ -129,7 +124,7 @@ New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvid
 Em que $LyssProvider é a variável que contém o cenário definido criado com **New-CsClsProvider**.
 ### <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>Para alterar um provedor de cenário do Serviço de Log Centralizado existente
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Para atualizar ou alterar a configuração de um provedor existente, digite:
     
@@ -156,7 +151,7 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 Em que cada provedor definido com a diretiva Add já foi definido com o uso do processo **New-CsClsProvider**.
 ### <a name="to-remove-a-scenario-provider"></a>Para remover um provedor de cenário
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Os cmdlets fornecidos permitem que você atualize os provedores existentes e crie novos provedores. Para remover um provedor, você precisa usar a diretiva Replace do parâmetro Provider para **Set-CsClsScenario**. A única maneira de remover completamente um provedor é substituí-lo por um provedor redefinido com o mesmo nome e usar a diretiva Update. Por exemplo, nosso provedor LyssProvider está definido com o tipo de log WPP, o nível definido para Debug e os sinalizadores definidos como TF_CONNECTION e TF_DIAG. Você precisa alterar os sinalizadores para "Todos". Para alterar o provedor, digite o seguinte:
     

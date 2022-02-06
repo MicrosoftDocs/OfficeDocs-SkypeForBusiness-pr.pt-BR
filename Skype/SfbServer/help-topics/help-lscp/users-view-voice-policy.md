@@ -1,27 +1,22 @@
 ---
 title: Usuários Exibir Política de Voz
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.UserViewPolicy
+  - ms.lync.lscp.UserViewPolicy
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: acc49459943c77954668487be5a7f2ebfb0f0055
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838703"
 ---
+
 # <a name="users-view-voice-policy"></a>Usuários: Exibir Política de Voz
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.

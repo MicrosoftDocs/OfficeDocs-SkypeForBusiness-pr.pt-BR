@@ -1,23 +1,19 @@
 ---
-title: Gerenciamento de recuperação de desastres, alta disponibilidade e Serviço de Backup
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 'Gerenciamento de recuperação de desastres, alta disponibilidade e Serviço de Backup'
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Saiba mais sobre procedimentos para operações de recuperação de desastres, bem como para manter o Serviço de Backup, que sincroniza os dados em pools front-end emparelhados.
-ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849934"
+description: 'Saiba mais sobre procedimentos para operações de recuperação de desastres, bem como para manter o Serviço de Backup, que sincroniza os dados em pools front-end emparelhados.'
 ---
+
+
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gerenciamento Skype for Business Server recuperação de desastres, alta disponibilidade e Serviço de Backup
 
 Esta seção contém procedimentos para operações de recuperação de desastres, bem como para manter o Serviço de Backup, que sincroniza os dados em pools de Front-End emparelhados.
@@ -41,7 +37,7 @@ Os procedimentos de recuperação de desastres nesta seção assumem o seguinte:
 > <P>Se o administrador desejar retornar posteriormente os usuários para o P2, o PoolFQDN é o FQDN do P2.</P></LI></OL><br>Observe que a etapa 1 acima deve ser realizada antes da etapa 2 para preservar a integridade do pool. Se você executar a etapa 2 antes da etapa 1, o cmdlet da etapa 2 falhará.
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Planejar alta disponibilidade e recuperação de desastres](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
   

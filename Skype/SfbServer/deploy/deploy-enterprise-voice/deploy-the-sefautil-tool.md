@@ -1,28 +1,23 @@
 ---
 title: Implantar a ferramenta SEFAUtil no Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implantando a ferramenta SEFAUtil no Skype for Business Server.
-ms.openlocfilehash: d4d25a69476aa678f600178b9426db89670289d2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837323"
 ---
+
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implantar a ferramenta SEFAUtil no Skype for Business
  
 Implantando a ferramenta SEFAUtil no Skype for Business Server.
@@ -35,13 +30,13 @@ Para implantar e gerenciar a Coleta de Chamada de Grupo, você precisa usar a ve
 Você pode executar a ferramenta SEFAUtil em qualquer pool de Front-End em sua implantação. Para executar a ferramenta SEFAUtil, você deve executar as Etapas 1, 2 e 3 do Assistente de Implantação Skype for Business no Computador de Aplicativo Confiável. SEFAUtil exige que o armazenamento de configuração local seja presente, bem como um certificado.
   
 > [!NOTE]
-> Para obter mais detalhes sobre como executar SEFAUtil, consulte o artigo do blog "[How to get SEFAutil running?](/archive/blogs/jenstr/how-to-get-sefautil-running)". 
+> Para obter mais detalhes sobre como executar o SEFAUtil, consulte o artigo do blog" "[Como obter SEFAutil em execução?](/archive/blogs/jenstr/how-to-get-sefautil-running)". 
   
 ### <a name="to-deploy-sefautil"></a>Para implantar SEFAUtil
 
-1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários** conforme descrito em Permissões de Instalação do Representante .
+1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários**, conforme descrito em Permissões de Instalação do Representante.
     
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. A ferramenta SEFAUtil só pode ser executado em um computador que faz parte de um pool de aplicativos confiável. Se necessário, defina um pool de aplicativos confiáveis para o pool de Front-End onde você planeja executar SEFAUtil. Na linha de comando, execute:
     
@@ -68,7 +63,7 @@ Você pode executar a ferramenta SEFAUtil em qualquer pool de Front-End em sua i
    Enable-CsTopology
    ```
 
-6. Se você ainda não tiver feito isso, baixe a versão Skype for Business Server da ferramenta SEFAUtil deste local [e](https://www.microsoft.com/download/details.aspx?id=52631)instale-a no pool de aplicativos confiáveis que você criou na etapa 3.
+6. Se você ainda não tiver feito isso, baixe a versão Skype for Business Server da ferramenta SEFAUtil deste local e instale-a no pool de aplicativos confiáveis que você criou na etapa 3.[](https://www.microsoft.com/download/details.aspx?id=52631)
     
 7. Verifique se a ferramenta SEFAUtil está sendo executado corretamente, da seguinte maneira: 
     

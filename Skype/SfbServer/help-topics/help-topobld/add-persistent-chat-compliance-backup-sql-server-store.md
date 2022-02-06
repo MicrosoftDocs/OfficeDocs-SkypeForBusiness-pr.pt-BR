@@ -1,27 +1,22 @@
 ---
 title: Adicionar Repositório de Servidor SQL de Backup de Conformidade de Bate-papo Persistente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatBackupComplianceStorePage
+  - ms.lync.tb.AddPersistentChatBackupComplianceStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Você configura os armazenamentos de conformidade de backup SQL Server que fornecerão bancos de dados de backup para o Servidor de Chat Persistente ou os SQL Server de conformidade do Servidor de Chat Persistente.
-ms.openlocfilehash: 818fda030415f8b1274b3dadf2ceed000f40a16d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857668"
 ---
+
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Adicionar Conformidade de Backup do Chat Persistente do Repositório do SQL Server
  
 Você configura os armazenamentos de conformidade de backup SQL Server que fornecerão bancos de dados de backup para o Servidor de Chat Persistente ou os SQL Server de conformidade do Servidor de Chat Persistente.
@@ -30,19 +25,19 @@ Você configura os armazenamentos de conformidade de backup SQL Server que forne
   
 Clique **em Novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para os dados de conformidade de backup de Chat Persistente.
   
-Marque a caixa de seleção Habilitar **SQL Server** de espelhamento de armazenamento para configurar um banco de dados SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de conformidade de backup de Chat Persistente.
+Marque a **caixa de seleção** Habilitar SQL Server armazenamento de espelhamento para configurar um banco de dados de SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de conformidade de backup de Chat Persistente.
   
-Selecione na lista **Espelhamento** SQL Server armazenar uma instância SQL Server e opcional para atuar como o espelho SQL Server para o aplicativo de conformidade de backup de Chat Persistente SQL Server.
+Selecione na lista **Espelhamento de SQL Server armazenar** uma instância SQL Server e opcional para atuar como o espelho SQL Server para o aplicativo de conformidade de backup de Chat Persistente SQL Server.
   
 Clique **em Novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para o SQL Server de Chat Persistente.
   
 Selecione na lista **Usar testemunha de espelhamento do SQL Server para habilitar o failover automático** um SQL Server que agirá como o servidor testemunha em cenários de failover. O servidor testemunha não espelha nem hospeda dados para os servidores de Chat Persistente, mas garante que apenas um SQL Server em uma configuração espelhada seja o servidor SQL Server a qualquer momento.
   
-Clique **em Novo** para definir uma nova testemunha SQL Server, opcionalmente, uma instância para a testemunha de conformidade de backup de Chat Persistente SQL Server espelhamento.
+Clique **em Novo** para definir uma nova SQL Server testemunha opcionalmente uma instância para a testemunha de conformidade de backup de Chat Persistente SQL Server espelhamento.
   
 Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
-Clique **em Avançar** depois de inserir as opções para a configuração de armazenamento de backup SQL Server do pool e continuar com a definição do pool do Servidor de Chat Persistente.
+Clique **em Avançar** depois de terminar de inserir as opções para a configuração do SQL Server de backup desse pool e prosseguir com a definição do pool do Servidor de Chat Persistente.
   
 Clique em **Cancelar** para descartar todas as alterações e encerrar o assistente **Definir Novo Pool de Chat Persistente**.
   

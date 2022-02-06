@@ -1,44 +1,39 @@
 ---
 title: Comparação de recursos do cliente de área de trabalho Skype for Business Server 2019
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype for Business Server 2019 ou Skype for Business online podem usar essas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: fa4a516f949f858502c0aece58af8b0c737044b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831695"
 ---
+
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparação de recursos do cliente de área de trabalho Skype for Business Server 2019
 
 **Resumo:** Skype for Business Server 2019 ou Skype for Business online podem usar essas tabelas para entender quais recursos são suportados em quais clientes.
 
  Antes de implantar ou atualizar para Skype for Business Server, verifique quais clientes já estão em uso em sua organização. Use as tabelas abaixo para entender o impacto do suporte a recursos nesses clientes. Isso pode ajudá-lo a comunicar alterações aos usuários, a acompanhar o processo de lançamento e a entender totalmente os benefícios da atualização para o cliente mais recente.
 
-Alguns recursos disponíveis com o Skype for Business Server 2019 não estão disponíveis no Skype for Business Online; consulte Limitações de conta de usuário online ou [híbrida](feature-comparison.md#Online-Hybrid) para detalhes. Skype for Business Os administradores online podem querer se referir [Skype for Business Descrição](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) do Serviço Online para obter informações sobre os diferentes planos disponíveis para eles.
+Alguns recursos disponíveis com o Skype for Business Server 2019 não estão disponíveis no Skype for Business Online; consulte [Limitações](feature-comparison.md#Online-Hybrid) de conta de usuário online ou híbrida para detalhes. Skype for Business administradores online podem querer se referir Skype for Business [Descrição](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) do Serviço Online para obter informações sobre os diferentes planos disponíveis para eles.
 
-As tabelas a seguir mostram os recursos disponíveis com cada cliente que trabalha com Skype for Business Server 2019 ou Skype for Business Online. Você também pode querer se referir à [comparação](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) de recursos do cliente móvel para Skype for Business para comparações de recursos de cliente de smartphone e tablet. A Licença de Acesso para Cliente ou Licença de Assinatura de Usuário que sua organização compra também terá um impacto sobre quais recursos estão disponíveis para seus usuários. Se você implantar o cliente Completo ou Básico para os usuários depende da licença ou do plano que sua organização opta por comprar. Consulte o [Guia de Licenciamento](https://products.office.com/skype-for-business/it-pros) para obter mais detalhes.
+As tabelas a seguir mostram os recursos disponíveis com cada cliente que trabalha com Skype for Business Server 2019 ou Skype for Business Online. Você também pode querer se referir [à comparação de](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) recursos do cliente móvel para Skype for Business comparações de recursos do cliente de smartphone e tablet. A Licença de Acesso para Cliente ou Licença de Assinatura de Usuário que sua organização compra também terá um impacto sobre quais recursos estão disponíveis para seus usuários. Se você implantar o cliente Completo ou Básico para os usuários depende da licença ou do plano que sua organização opta por comprar. Consulte o [Guia de Licenciamento](https://products.office.com/skype-for-business/it-pros) para obter mais detalhes.
 
 > [!IMPORTANT]
-> Skype for Business Server 2019 e Skype for Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Skype for Business 2015 e Skype for Business 2016, bem como o cliente Skype for Business 2019. Para obter informações sobre esses clientes quando usados com outros servidores, consulte as tabelas de comparação de cliente do [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) e comparação de recursos do cliente desktop [para Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
+> Skype for Business Server 2019 e o Skype for Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Skype for Business 2015 e Skype for Business 2016, bem como o Skype for Business  Cliente 2019. Para obter informações sobre esses clientes quando usados com outros servidores, consulte as tabelas de comparação de cliente do [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) e comparação de recursos do cliente desktop [para Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
 
 
 > [!NOTE]
-> O Skype for Business Web App do navegador e o aplicativo Skype reuniões Windows 10 apenas oferecem [suporte a Reuniões.](feature-comparison.md#BKMK_Conferencing) Consulte [Plan for Meetings clients (Web App and Meetings App)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) para saber mais sobre esses clientes.
+> O Skype for Business Web App do navegador e o aplicativo Skype reuniões Windows 10 oferecem suporte apenas [a Reuniões](feature-comparison.md#BKMK_Conferencing). Consulte [Plan for Meetings clients (Web App and Meetings App)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) para saber mais sobre esses clientes.
 
 ## <a name="enhanced-presence-support"></a>Suporte a presença aprimorado
 <a name="BKMK_EnhancedPresence"> </a>
@@ -105,11 +100,11 @@ Esta tabela aborda recursos relacionados ao suporte a IM.
 Esta tabela aborda recursos relacionados ao suporte a Reuniões.
 
 > [!NOTE]
->  Skype for Business recursos de reunião não estão disponíveis no Skype for Business Online Standalone Plan 1.  O Plano 1 está sendo [retirado.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
-)
+>  Skype for Business recursos de reunião não estão disponíveis no Skype for Business Online Standalone Plan 1.  O Plano 1 está sendo [retirado](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
+).
 
 Em Skype de Skype, um usuário do plano 1 do Skype for Business Online poderá participar do compartilhamento de aplicativos e compartilhamento de área de trabalho se for convidado por um usuário que tenha acesso aos recursos de compartilhamento.
-Para obter detalhes, consulte o [Skype for Business Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description). 
+Para obter detalhes, consulte Skype for Business [Descrição do Serviço Online](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description). 
 
 |Recurso/funcionalidade | Skype for Business cliente 2016 | Skype for Business no Mac | Skype for Business Web App | Skype for Business cliente 2015 | Cliente Lync 2013 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
@@ -132,7 +127,7 @@ Para obter detalhes, consulte o [Skype for Business Online Service Description](
 |Faça votações |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Upload arquivos para compartilhar com outras pessoas |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Programe uma reunião ou conferência |Outlook ou Agendador do Skype for Business Web  |Outlook ou Agendador do Skype for Business Web |Agendador do Skype for Business Web |Outlook ou Agendador do Skype for Business Web   |Outlook ou Agendador da Web do Lync |  
-|Q &amp; A Manager |&#x2714;|||||
+|Gerenciador de QA&amp; |&#x2714;|||||
 |Desabilitar o vídeo do participante |&#x2714;||&#x2714;|||
 |Desabilitar o IM de reunião |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Mute Audience |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -159,7 +154,7 @@ Para obter detalhes, consulte o [Skype for Business Online Service Description](
 Esta tabela aborda recursos relacionados ao suporte a serviços de voz.
 
 > [!NOTE]
-> Skype for Business Os recursos de voz (Telefonia) estão limitados a determinados planos de assinatura Skype for Business Online. Para obter detalhes, consulte o [Skype for Business Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description). 
+> Skype for Business recursos de Voz (Telefonia) estão limitados a determinados Skype for Business de assinatura online. Para obter detalhes, consulte Skype for Business [Descrição do Serviço Online](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description). 
 
  | Recurso/funcionalidade | Skype for Business cliente 2015, 2016 ou 2019 | Skype for Business no Mac | Cliente Lync 2013 |  
 |:-----|:-----|:-----|:-----| 
@@ -216,7 +211,7 @@ Esta tabela aborda recursos relacionados ao suporte para gravação de reuniões
 
 Esta tabela aborda recursos que exigem suporte para autenticação moderna. 
 
-A autenticação moderna também requer uma topologia descrita [em Skype for Business topologias com suporte com Autenticação Moderna](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md).
+A autenticação moderna também requer uma topologia descrita [em Skype for Business topologias suportadas com Autenticação Moderna](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md).
 
 
  | Recurso/funcionalidade | Skype for Business cliente 2015, 2016 ou 2019 | Skype for Business no Mac | Cliente Lync 2013 | 

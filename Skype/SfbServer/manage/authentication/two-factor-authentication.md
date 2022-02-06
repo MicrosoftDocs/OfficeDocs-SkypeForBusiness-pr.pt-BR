@@ -1,25 +1,20 @@
 ---
 title: Gerenciar a autenticação de dois fatores Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Resumo: Gerencie a autenticação de dois fatores Skype for Business Server.'
-ms.openlocfilehash: af21fd551c8495a49c8617b25e4669bdd27ec0c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847414"
 ---
+
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gerenciar a autenticação de dois fatores Skype for Business Server
  
 **Resumo:** Gerencie a autenticação de dois fatores Skype for Business Server.
@@ -59,7 +54,7 @@ Os clientes que implantaram a autenticação de dois fatores para a Microsoft Ex
 
 Skype for Business usuários configurados para aproveitar o recurso de Armazenamento unificado de Contatos descobrirão que seus contatos não estão mais disponíveis depois de entrar com a autenticação de dois fatores.
   
-Você deve usar o cmdlet **Invoke-CsUcsRollback** para remover contatos de usuário existentes do Armazenamento unificado de contatos e armazená-los no Skype for Business Server antes de habilitá-los para autenticação de dois fatores.
+Você deve usar o cmdlet **Invoke-CsUcsRollback** para remover contatos de usuário existentes do Armazenamento de Contatos Unificados e armazená-los no Skype for Business Server antes de habilitá-los para autenticação de dois fatores.
   
 ## <a name="skill-search"></a>Pesquisa de Habilidades
 
@@ -71,7 +66,7 @@ Há várias considerações de implantação envolvendo credenciais Skype for Bu
   
 ### <a name="deleting-saved-credentials"></a>Excluir credenciais salvas
 
-Os usuários  devem usar a opção Excluir minhas informações de entrada no cliente Skype for Business e excluir sua pasta de perfil SIP de %localappdata%\Microsoft\Office\15.0\Skype for Business antes de tentar assinar pela primeira vez usando a autenticação de dois fatores.
+Os usuários devem usar  a opção Excluir minhas informações de entrada no cliente Skype for Business e excluir sua pasta de perfil SIP de %localappdata%\Microsoft\Office\15.0\Skype for Business antes de tentar assinar pela primeira vez usando a autenticação de dois fatores.
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
@@ -91,7 +86,7 @@ Valor: 0x0
 
 Quando um usuário faz logo Skype for Business pela primeira vez, o usuário é solicitado a salvar sua senha. Se selecionada, essa opção permite que o certificado cliente do usuário seja armazenado no armazenamento de certificados pessoais e as credenciais de Windows do usuário sejam armazenadas no Gerenciador de Credenciais do computador local.
   
-A configuração do Registro **SavePassword** deve ser desabilitada quando Skype for Business estiver configurada para dar suporte à autenticação de dois fatores. Para impedir que os usuários salvam suas senhas, altere a seguinte entrada do Registro na estação de trabalho local ou use o modelo administrativo Skype for Business para aplicar a todos os usuários para um determinado pool usando a Política de Grupo:
+A **configuração do Registro SavePassword** deve ser desabilitada quando Skype for Business estiver configurada para dar suporte à autenticação de dois fatores. Para impedir que os usuários salvam suas senhas, altere a seguinte entrada do Registro na estação de trabalho local ou use o modelo administrativo Skype for Business para aplicar a todos os usuários para um determinado pool usando a Política de Grupo:
   
 HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   

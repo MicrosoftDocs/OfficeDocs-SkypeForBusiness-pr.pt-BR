@@ -1,27 +1,22 @@
 ---
 title: Definir a árvore raiz para um novo IP ou gateway PSTN
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPstnGatewayTrunkPage
+  - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Defina o tronco raiz para o IP ou PSTN (rede telefônica pública comutada) configurando o seguinte:'
-ms.openlocfilehash: 1a255c6b4dbe9b2e880c564abae90b2557a965cb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832585"
 ---
+
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir a Árvore Raiz para um Novo IP ou Gateway PSTN
 
 Defina o tronco raiz para o IP ou PSTN (rede telefônica pública comutada) configurando o seguinte:
@@ -34,7 +29,7 @@ Defina o tronco raiz para o IP ou PSTN (rede telefônica pública comutada) conf
 
 - **Servidor de Mediação Associado**: selecione na lista de Servidores de Mediação disponíveis em sua implantação
 
-- **Porta do Servidor de Mediação** Associada : defina a porta na qual o Servidor de Mediação selecionado está escutando
+- **Porta do Servidor de Mediação** Associada: defina a porta na qual o Servidor de Mediação selecionado está escutando
 
 ## <a name="see-also"></a>Confira também
 

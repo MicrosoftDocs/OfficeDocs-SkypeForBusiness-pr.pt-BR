@@ -1,28 +1,23 @@
 ---
 title: Configurar configurações de Estacionamento de Chamada Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modificar as configurações do Estacionamento de Chamada Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 686484fd42982f2b64623b652851482b85d3e1b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833927"
 ---
+
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Configurar configurações de Estacionamento de Chamada Skype for Business
 
 Modificar as configurações do Estacionamento de Chamada Skype for Business Server Enterprise Voice.
@@ -44,9 +39,9 @@ Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para defi
 
 ### <a name="to-configure-call-park-settings"></a>Para configurar as configurações do Estacionamento de Chamada
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
 
-2. Execute .
+2. Executar:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]

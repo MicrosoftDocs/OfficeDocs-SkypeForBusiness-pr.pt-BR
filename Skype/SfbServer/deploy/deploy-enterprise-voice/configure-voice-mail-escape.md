@@ -1,28 +1,23 @@
 ---
 title: Configurar a saída de caixa postal no Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Resumo: saiba como configurar o escape de caixa postal Skype for Business Server usando o Shell de Gerenciamento Skype for Business Server Desembolso.'
-ms.openlocfilehash: 7bd18056362fc4ed6ffdede31515b6eb41d8b134
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865318"
 ---
+
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar a saída de caixa postal no Skype for Business
 
 **Resumo:** Saiba como configurar o escape de caixa postal Skype for Business Server usando o Shell de Gerenciamento Skype for Business Server Desembolso.
@@ -33,7 +28,7 @@ Essa configuração é executada usando o cmdlet Skype for Business Server Shell
 
 ### <a name="to-configure-voice-mail-escape"></a>Para configurar a escape de caixa postal
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
 
 2. Especifique os parâmetros a seguir para **Set-CsVoicePolicy**:
 

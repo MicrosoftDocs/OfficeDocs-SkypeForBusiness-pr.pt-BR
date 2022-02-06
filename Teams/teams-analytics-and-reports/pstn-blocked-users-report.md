@@ -1,36 +1,30 @@
 ---
-title: Microsoft Teams Relatório de usuários bloqueados PSTN
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Microsoft Teams relatório de usuários bloqueados PSTN
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
-- M365-voice
+  - M365-voice
 description: Use o relatório de usuários bloqueados PSTN no centro de administração Microsoft Teams para obter uma visão geral dos usuários Teams da sua organização que estão bloqueados para fazer chamadas PSTN.
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a89e7ead560e3782d7120884a047110118d2ecd0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840683"
 ---
-# <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams Relatório de usuários bloqueados PSTN
+# <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams relatório de usuários bloqueados PSTN
 
 O relatório de usuários bloqueados PSTN no centro de administração Microsoft Teams mostra os usuários em sua organização que estão impedidos de fazer chamadas PSTN em Teams. Você pode exibir mais informações sobre cada usuário bloqueado, incluindo o número de telefone atribuído e o motivo pelo qual eles foram impedidos de fazer chamadas.
 
 ## <a name="view-the-pstn-blocked-users-report"></a>Exibir o relatório de usuários bloqueados PSTN
 
-Na navegação à esquerda do centro de administração Microsoft Teams, clique **em Análise & relatórios** de  >  **uso.** Na guia **Exibir relatórios,** em **Relatório,** selecione **Usuários bloqueados PSTN** e clique em **Executar relatório**.
+Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Análise & relatóriosusuário** > . Na guia **Exibir relatórios** , em **Relatório**, selecione **Usuários bloqueados PSTN** e clique em **Executar relatório**.
 
 ![Captura de tela do relatório de relatório de usuários bloqueados PSTN no centro de administração.](../media/teams-reports-pstn-blocked-users-with-callouts.png "Captura de tela do relatório de usuários bloqueados do PSTN no centro de administração Microsoft Teams com callouts numerados")
 
@@ -40,7 +34,7 @@ Na navegação à esquerda do centro de administração Microsoft Teams, clique 
 |--------|-------------|
 |**1**   |Cada relatório tem uma data para quando ele foi gerado. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas. |
 |**2**   |O eixo X é a data. O eixo Y é o número de usuários. <br>Passe o mouse sobre o ponto em uma determinada data para ver o número de usuários bloqueados nessa data. |
-|**3**   |A tabela fornece uma divisão de todos os usuários que estão impedidos de fazer chamadas PSTN.  Ele mostra todos os usuários que Sistema de Telefonia ou Audioconferência atribuídas e fornece mais informações sobre cada usuário. <ul><li>**Nome para** exibição é o nome de exibição do usuário. Você pode clicar no nome de exibição para ir para a página de configuração do usuário no Microsoft Teams de administração. </li> <li>**Telefone** é o número atribuído ao usuário.</li> <li>**O motivo bloqueado** é o motivo pelo qual o usuário é impedido de fazer chamadas.</li><li>**A ação bloqueada** informa se o usuário está bloqueado ou não bloqueado para fazer chamadas PSTN em Teams.</li> <li>**A hora bloqueada** é a data e a hora (UTC) que o usuário foi impedido de fazer chamadas.</li></li> </ul>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
+|**3**   |A tabela fornece uma divisão de todos os usuários que estão impedidos de fazer chamadas PSTN.  Ele mostra todos os usuários que Sistema de Telefonia ou Audioconferência atribuídas e fornece mais informações sobre cada usuário. <ul><li>**Nome para** exibição é o nome de exibição do usuário. Você pode clicar no nome de exibição para ir para a página de configuração do usuário no Microsoft Teams de administração. </li> <li>**Telefone** é o número atribuído ao usuário.</li> <li>**O motivo bloqueado** é o motivo pelo qual o usuário é impedido de fazer chamadas.</li><li>**A ação bloqueada** informa se o usuário está bloqueado ou desbloqueado para fazer chamadas PSTN em Teams.</li> <li>**A hora bloqueada** é a data e a hora (UTC) que o usuário foi impedido de fazer chamadas.</li></li> </ul>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**4**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela.|
 |**5**   |Selecione **Tela inteira** para exibir o relatório no modo de tela inteira.|
 

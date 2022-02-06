@@ -1,26 +1,21 @@
 ---
 title: Topologias do Skype for Business compatíveis com a Autenticação Moderna
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
-description: Este artigo lista quais topologias online e locais têm suporte com Autenticação Moderna no Skype for Business, bem como recursos de segurança que se aplicam a cada topologia.
-ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835069"
+description: 'Este artigo lista quais topologias online e locais têm suporte com Autenticação Moderna no Skype for Business, bem como recursos de segurança que se aplicam a cada topologia.'
 ---
+
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Topologias do Skype for Business compatíveis com a Autenticação Moderna
 
 Este artigo lista quais topologias online e locais têm suporte com Autenticação Moderna no Skype for Business, bem como recursos de segurança que se aplicam a cada topologia.

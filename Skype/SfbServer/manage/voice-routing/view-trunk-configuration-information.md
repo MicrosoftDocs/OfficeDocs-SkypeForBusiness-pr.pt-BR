@@ -1,23 +1,18 @@
 ---
 title: Exibir informações de configuração de tronco em Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços.
-ms.openlocfilehash: b7623765f8d1341066fd127e82c89ab1fa14c79c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843824"
+description: 'As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços.'
 ---
+
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Exibir informações de configuração de tronco em Skype for Business Server
 
 As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços.
@@ -30,12 +25,12 @@ Quando você instala Skype for Business Server, uma coleção global de configur
 
 **Para exibir informações de configuração de tronco SIP usando Skype for Business Server Painel de Controle**
 
-1. No painel Skype for Business Server controle, clique em **Roteamento** de Voz e clique em **Configuração do Tronco.**
-2. Na guia **Configuração do** Tronco, você verá uma lista de todas as suas coleções de configurações de tronco; para cada coleção, você verá valores para as propriedades  **Name**, **Scope**, **State** e Media **bypass,** juntamente com o número de **usos de PSTN,** regras de número de chamada e regras de número chamado associadas à coleção.  Para exibir informações adicionais sobre um coleção de configurações de tronco, clique na coleção de interesse, clique em **Editar** e depois clique em **Exibir detalhes**. Observe que você pode exibir informações detalhadas somente de uma coleção de configurações de tronco por vez.
+1. No painel Skype for Business Server controle, clique em **Roteamento** de Voz e clique em **Configuração do Tronco**.
+2. Na guia **Configuração do** Tronco, você verá uma lista de todas as suas coleções de configurações de tronco; para  cada coleção, você verá valores para as propriedades de bypass **Name,** **Scope**, **State** e **Media**, juntamente com o número de **usos de PSTN****, regras** de número de chamada e regras de número chamado associadas à coleção. Para exibir informações adicionais sobre um coleção de configurações de tronco, clique na coleção de interesse, clique em **Editar** e depois clique em **Exibir detalhes**. Observe que você pode exibir informações detalhadas somente de uma coleção de configurações de tronco por vez.
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de configuração de tronco SIP usando Windows PowerShell cmdlets
 
-As definições de configuração do tronco SIP podem ser exibidas usando Skype for Business Server PowerShell e o cmdlet Get-CsTrunkConfiguration de usuário. Esse cmdlet pode ser executado no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog do Lync Server Windows PowerShell "Início Rápido: Gerenciamento do Microsoft Lync Server 2010 Usando o PowerShell Remoto" em https://go.microsoft.com/fwlink/p/?linkId=255876 . SUBSTITUA OU REMOVA ESSE LINK.
+As definições de configuração do tronco SIP podem ser exibidas usando Skype for Business Server PowerShell e o cmdlet Get-CsTrunkConfiguration de usuário. Esse cmdlet pode ser executado no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog do Lync Server Windows PowerShell "Início Rápido: Gerenciando o Microsoft Lync Server 2010 Usando o PowerShell Remoto" em https://go.microsoft.com/fwlink/p/?linkId=255876. SUBSTITUA OU REMOVA ESSE LINK.
 
 
 **Para exibir informações de configuração de tronco SIP**
@@ -74,4 +69,4 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsTrunkConfiguration.](/powershell/module/skype/Get-CsTrunkConfiguration)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsTrunkConfiguration](/powershell/module/skype/Get-CsTrunkConfiguration) .

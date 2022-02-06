@@ -1,28 +1,23 @@
 ---
 title: Componentes de conectividade PSTN no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Saiba mais sobre tronco SIP e gateways PSTN para Enterprise Voice em Skype for Business Server.
-ms.openlocfilehash: 5b5bfd467c0269c6eea77db8f787ad5f4b769278
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861028"
 ---
+
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Componentes de conectividade PSTN no Skype for Business Server
  
 Saiba mais sobre tronco SIP e gateways PSTN para Enterprise Voice em Skype for Business Server.
@@ -43,7 +38,7 @@ O uso dessa solução de implantação requer um provedor de serviços de tronco
   
 ## <a name="pstn-gateways"></a>Gateways PSTN
 
-Os gateways PSTN são dispositivos de terceiros que convertem a sinalização e a mídia entre a infraestrutura do Enterprise Voice e uma PSTN ou um PBX. Os gateways PSTN funcionam com o Servidor de Mediação para apresentar uma chamada PSTN ou PBX para um cliente do Enterprise Voice. O Servidor de Mediação também apresenta as chamadas dos clientes do Enterprise Voice ao gateway PSTN para roteamento para a PSTN ou o PBX. Para ver uma lista de parceiros que trabalham com a Microsoft para fornecer dispositivos que funcionam com Skype for Business Server, consulte o site [do Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836) 
+Os gateways PSTN são dispositivos de terceiros que convertem a sinalização e a mídia entre a infraestrutura do Enterprise Voice e uma PSTN ou um PBX. Os gateways PSTN funcionam com o Servidor de Mediação para apresentar uma chamada PSTN ou PBX para um cliente do Enterprise Voice. O Servidor de Mediação também apresenta as chamadas dos clientes do Enterprise Voice ao gateway PSTN para roteamento para a PSTN ou o PBX. Para uma lista de parceiros que trabalham com a Microsoft para fornecer dispositivos que funcionam com Skype for Business Server, consulte [o site do Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836). 
   
 ## <a name="private-branch-exchanges"></a>Centrais privadas de comutação telefônica
 
@@ -60,6 +55,6 @@ Os cenários de integração de PBX com o Enterprise Voice aceitos são:
 > [!NOTE]
 > O desvio de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com o Cisco IP-PBXs. O bypass de mídia só é suportado com produtos e versões listados no Programa de Interoperabilidade aberta de Comunicações [Unificadas - Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
   
-Para obter detalhes sobre parceiros que oferecem Enterprise Voice soluções, consulte o site dos Parceiros de [Comunicações Unificadas da Microsoft.](https://go.microsoft.com/fwlink/p/?linkId=202836)
+Para obter detalhes sobre parceiros que oferecem Enterprise Voice soluções, consulte o [site do Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836).
   
-Para obter detalhes sobre parceiros que oferecem Enterprise Voice de hardware, incluindo gateways PSTN, consulte o site dos Parceiros de [Comunicações Unificadas da Microsoft.](https://go.microsoft.com/fwlink/p/?linkId=202836)
+Para obter detalhes sobre parceiros que oferecem Enterprise Voice de hardware, incluindo gateways PSTN, consulte o site do [Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836).

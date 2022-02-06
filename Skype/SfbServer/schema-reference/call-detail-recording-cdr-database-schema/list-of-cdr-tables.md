@@ -1,25 +1,20 @@
 ---
 title: Lista de tabelas cdr no Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: O esquema de banco de dados de registro de detalhes das chamadas (CDR) consiste nas seguintes tabelas.
-ms.openlocfilehash: a8b89664482d05c60e00b10f64f7e2e853280d94
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847074"
 ---
+
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Lista de tabelas cdr no Skype for Business Server 2015
  
 O esquema de banco de dados de registro de detalhes das chamadas (CDR) consiste nas seguintes tabelas. 
@@ -90,7 +85,7 @@ O esquema de banco de dados de registro de detalhes das chamadas (CDR) consiste 
 |[Tabela VoipDetails](voipdetails-0.md) <br/> |Armazena, para cada chamada VoIP/PSTN de duas partes, informações sobre a chamada, tais como ID de telefone do telefone VoIP, gateway usado e qual parte desconectou. Refere-se à tabela [SessionDetails para](sessiondetails.md) horários de início/término de chamada e código de resposta. <br/> |
    
 > [!NOTE]
-> Se uma parte em uma chamada é um usuário VoIP ou se um Servidor de Mediação esteve envolvido na chamada, um registro será criado nesta tabela. Informações sobre chamadas VoIP/VoIP que não envolvem um telefone PSTN (rede telefônica pública comutado) são capturadas na tabela [SessionDetails.](sessiondetails.md) 
+> Se uma parte em uma chamada é um usuário VoIP ou se um Servidor de Mediação esteve envolvido na chamada, um registro será criado nesta tabela. Informações sobre chamadas VoIP/VoIP que não envolvem um telefone PSTN (rede telefônica pública comutado) são [capturadas na tabela SessionDetails](sessiondetails.md). 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>Tabela para Auditoria de Chamada E9-1-1
 

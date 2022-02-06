@@ -1,27 +1,22 @@
 ---
 title: Configuração de Arquivamento
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchSettingMain
+  - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'Você usa configurações de arquivamento para controlar as opções de arquivamento para sua implantação Skype for Business Server, incluindo habiligá-lo e desabilitar as seguintes opções:'
-ms.openlocfilehash: b2babf5e5fdc5c1a0f7b01bb0a22c516fde062d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838803"
 ---
+
 # <a name="archiving-configuration"></a>Configuração de Arquivamento
  
 Você usa configurações de arquivamento para controlar as opções de arquivamento para sua implantação Skype for Business Server, incluindo habiligá-lo e desabilitar as seguintes opções:
@@ -68,5 +63,5 @@ A página **Configuração de Arquivamento** lista cada política de Arquivament
     
 - **Atualizar** Você pode atualizar a página **Configuração de** Arquivamento para verificar o status das opções de todas as configurações de Arquivamento.
     
-Para obter detalhes sobre o recurso e os recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)e [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso e recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md) e [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

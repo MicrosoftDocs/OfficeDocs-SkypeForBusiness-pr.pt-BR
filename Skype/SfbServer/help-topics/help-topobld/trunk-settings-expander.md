@@ -1,27 +1,22 @@
 ---
 title: Expansor de Configurações de Tronco
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.TrunkSettingsExpander
+  - ms.lync.tb.TrunkSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Para editar ou modificar as configurações de um tronco SIP, faça o seguinte:'
-ms.openlocfilehash: ce5b7a82dbba580c96894cfdf51b4ca66dba7cbe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847464"
 ---
+
 # <a name="trunk-settings-expander"></a>Expansor de Configurações de Tronco
 
 Para editar ou modificar as configurações de um tronco SIP, faça o seguinte:
@@ -39,7 +34,7 @@ Para editar ou modificar as configurações de um tronco SIP, faça o seguinte:
 > [!NOTE]
 > Somente o tronco raiz pode ser associado a um Lync Server 2010 ou Lync Server 2013 Mediation Server.
 
- **Porta do Servidor de Mediação** Associada : Um valor obrigatório, que é definido como o valor no que o Servidor de Mediação está configurado para ouvir.
+ **Porta do Servidor de Mediação** Associada: um valor obrigatório, que é definido como o valor em que o Servidor de Mediação está configurado para ouvir.
 
 ![Expansador Configurações tronco.](../../media/Trunk_Settings_Expander.jpg)
 

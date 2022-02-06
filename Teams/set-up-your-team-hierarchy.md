@@ -1,33 +1,28 @@
 ---
 title: Configure a hierarquia de segmentação de sua equipe
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: andfried, acolonna
+ms.reviewer: 'andfried, acolonna'
 search.appverid: MET150
 description: Saiba como configurar uma hierarquia de equipe em sua organização para publicar conteúdo em um grande conjunto de equipes.
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: f65ffa8fa6dc661451669ded8f407bb519468112
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850544"
+  - Microsoft Teams
 ---
+
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configure a hierarquia de segmentação de sua equipe
 
 Configurar uma hierarquia de direcionamento de equipe permitirá que sua organização publique conteúdo em um grande conjunto de equipes. A hierarquia de direcionamento de equipe define como todas as equipes em sua hierarquia estão relacionadas umas às outras, quais usuários podem publicar tarefas e quais usuários de equipes têm permissões para publicar. Os recursos de publicação estão desabilitados para todos os usuários, a menos que uma hierarquia de direcionamento de equipe esteja configurada para sua organização. Para configurar uma hierarquia de direcionamento de equipe, você precisará criar um arquivo que defina a hierarquia e, em seguida, carregue-a no Teams para aplicá-lo à sua organização. Depois que o esquema é carregado, os aplicativos dentro Teams podem usá-lo.
 
 > [!IMPORTANT]
-> Para a versão inicial, apenas o aplicativo Tasks dá suporte a equipes hierárquicas.  Aplicar uma hierarquia de direcionamento de equipe à sua organização [permitirá](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) a publicação de tarefas no aplicativo Tarefas. Você não verá uma hierarquia de equipes em outras áreas Microsoft Teams.
+> Para a versão inicial, apenas o aplicativo Tasks dá suporte a equipes hierárquicas.  Aplicar uma hierarquia de direcionamento de equipe à sua organização [permitirá a](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) publicação de tarefas no aplicativo Tarefas. Você não verá uma hierarquia de equipes em outras áreas Microsoft Teams.
 
 Veja um exemplo de como a hierarquia é representada no aplicativo Tarefas no Teams. Depois que uma lista de tarefas é criada, os membros da equipe de publicação podem selecionar as equipes de destinatários para enviar (publicar) a lista de tarefas para. Ao selecionar equipes, a equipe de publicação pode filtrar por hierarquia, por atributos ou uma combinação de ambos.<br>
 
@@ -39,8 +34,8 @@ Os termos a seguir serão importantes à medida que você navegar em hierarquias
 
 * **Nós raiz** são os nós mais top da hierarquia. No exemplo, As Comunicações de Varejo é um nó raiz.
 * **Nós pai e** **nós filhos são** termos que representam uma relação entre dois nós conectados. No exemplo, o Distrito 01 é um nó filho da Área 1.
-* Vários níveis de filhos são chamados de **descendentes.** Os distritos 01, Store 01, Store 03, Store 07, Distrito 02 e Distrito 03 são todos descendentes da Área 1.
-* Um nó sem filhos é chamado de nó **folha**. Eles estão na parte inferior de uma hierarquia.
+* Vários níveis de filhos são chamados de **descendentes**. Os distritos 01, Store 01, Store 03, Store 07, Distrito 02 e Distrito 03 são todos descendentes da Área 1.
+* Um nó sem filhos é chamado de **nó folha**. Eles estão na parte inferior de uma hierarquia.
 * **As equipes de** destinatários são equipes que foram selecionadas para receber um conjunto específico de conteúdo a ser publicado. Eles devem ser nós folha.
 
 ## <a name="plan-your-hierarchy"></a>Planejar sua hierarquia
@@ -74,11 +69,11 @@ Por exemplo, na hierarquia a seguir, Recall, Communications e HR podem publicar 
 ## <a name="create-your-hierarchy"></a>Criar sua hierarquia
 
 > [!NOTE]
-> O restante deste artigo aborda a configuração de uma hierarquia de equipe no contexto de tarefas de publicação para equipes de destinatários. Consulte [Manage the Tasks app for your](./manage-tasks-app.md) organization in Teams for an overview of the Tasks app, where task publishing appears when enabled.
+> O restante deste artigo aborda a configuração de uma hierarquia de equipe no contexto de tarefas de publicação para equipes de destinatários. Consulte [Manage the Tasks app for your organization in Teams](./manage-tasks-app.md) for an overview of the Tasks app, where task publishing appears when enabled.
 
 O esquema que define sua hierarquia é baseado em um arquivo CSV (valores separados por vírgula). O arquivo deve estar no formato UTF-8. Cada linha no arquivo CSV corresponde a um nó dentro da hierarquia de equipes. Cada linha contém informações que nomeia o nó dentro da hierarquia, opcionalmente o vincula a uma equipe e inclui atributos que podem ser usados para filtrar equipes em aplicativos que o suportam.
 
-Você também pode definir buckets , que são categorias que a equipe de publicação pode usar para organizar o conteúdo enviado às **equipes** de destinatários para facilitar a exibição, classificação e foco em conteúdo relevante.
+Você também pode definir **buckets**, que são categorias que a equipe de publicação pode usar para organizar o conteúdo enviado às equipes de destinatários para facilitar a exibição, classificação e foco em conteúdo relevante.
 
 ### <a name="add-required-columns"></a>Adicionar colunas necessárias
 
@@ -88,7 +83,7 @@ O arquivo CSV deve conter as três colunas a seguir, na ordem a seguir, começan
 ----------------|----------|---------------|
 | DisplayName    | Sim      | Este campo é o nome do nó. O nome pode ter até 100 caracteres e conter apenas os caracteres A-Z, a-z e 0-9. Os nomes de nós devem ser exclusivos. |
 | ParentName    | Sim       | Esse é o nome do nó pai. O valor especificado aqui deve corresponder exatamente ao valor no **campo DisplayName** do nó pai. Se você quiser adicionar mais de um nó pai, separe cada nome de nó pai com um ponto e vírgula (;). Você pode adicionar até 25 nós pai e cada nome de nó pai pode ter até 2500 caracteres. Um nó só poderá ter vários nós pai se os nós pai são nós raiz.   <br><br>**IMPORTANTE** Tenha cuidado para não criar um loop em que um pai mais alto na hierarquia faz referência a um nó filho inferior na hierarquia. Isso não é suportado. |
-| TeamId        | Sim, se a equipe publicar tarefas ou receber tarefas de um nó pai       | Isso contém a ID da equipe à que você deseja vincular um nó. Cada nó deve se referir a uma equipe exclusiva, portanto, cada valor TeamId pode aparecer apenas uma vez no arquivo de hierarquia. Para obter a ID de uma equipe à que você deseja vincular um nó, execute o seguinte comando do PowerShell: `Get-Team | Export-Csv TeamList.csv` . Este comando lista as equipes em sua organização e inclui o nome e a ID de cada equipe. Encontre o nome da equipe que você deseja vincular e copie a ID para este campo.|
+| TeamId        | Sim, se a equipe publicar tarefas ou receber tarefas de um nó pai       | Isso contém a ID da equipe à que você deseja vincular um nó. Cada nó deve se referir a uma equipe exclusiva, portanto, cada valor TeamId pode aparecer apenas uma vez no arquivo de hierarquia. Para obter a ID de uma equipe à que você deseja vincular um nó, execute o seguinte comando do PowerShell: `Get-Team | Export-Csv TeamList.csv`. Este comando lista as equipes em sua organização e inclui o nome e a ID de cada equipe. Encontre o nome da equipe que você deseja vincular e copie a ID para este campo.|
 
 > [!NOTE]
 > Se um nó não for um nó raiz ou um nó folha e você não precisar da associação de equipe para conceder as permissões correspondentes para publicação e relatório, você poderá deixar o TeamId em branco. Esse método pode ser usado para adicionar mais granularidade ao escolher equipes de destinatários ou para exibir relatórios de conclusão sem ter uma equipe correspondente.
@@ -125,11 +120,11 @@ Ao adicionar uma coluna de bucket, observe o seguinte:
 
 Aqui está um exemplo de um arquivo CSV de esquema que seria criado para dar suporte à hierarquia mostrada na imagem anterior. Este esquema contém o seguinte:
 
-* Três colunas necessárias chamadas `TargetName` , `ParentName` e `TeamId`
-* Três colunas de atributo chamadas `Store layout` `Departments:Clothing` , e `Departments:Foods`
-* Três colunas de bucket chamadas `Fresh Foods` `Frozen Foods` , e `Women's Wear`
+* Três colunas necessárias chamadas `TargetName`, `ParentName`e `TeamId`
+* Três colunas de atributo chamadas `Store layout`, `Departments:Clothing`e `Departments:Foods`
+* Três colunas de bucket chamadas `Fresh Foods`, `Frozen Foods`e `Women's Wear`
 
-O `Store layout` atributo tem valores que `Compact` incluem , e `Standard` `Large` . As `Departments` colunas de atributo podem ser definidas como um valor `0` de (zero) ou `1` . O `Store` layout e os atributos não são `Departments` mostrados na imagem acima. Eles são adicionados aqui para ajudar a mostrar como atributos podem ser adicionados às entradas do nó. O mesmo é verdadeiro para as três colunas de bucket.
+O `Store layout` atributo tem valores que incluem `Compact`, `Standard`e `Large`. As `Departments` colunas de atributo podem ser definidas como um valor `0` de (zero) ou `1`. O `Store` layout e `Departments` os atributos não são mostrados na imagem acima. Eles são adicionados aqui para ajudar a mostrar como atributos podem ser adicionados às entradas do nó. O mesmo é verdadeiro para as três colunas de bucket.
 
 ```CSV
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
@@ -154,7 +149,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 > Para executar esta etapa, você deve instalar e usar o módulo de visualização pública Teams PowerShell da Galeria do PowerShell. Para ver as etapas sobre como instalar o módulo, consulte Install Teams PowerShell.
 
 > [!NOTE]
-> Nuvem da Comunidade Governamental (GCC) os clientes devem usar [o cmdlet preview versão 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) ou posterior para garantir que os dados são roteados para o ambiente GCC, em vez do ambiente de nuvem pública.
+> os clientes Nuvem da Comunidade Governamental (GCC) devem usar [o cmdlet preview versão 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) ou posterior para garantir que os dados são roteados para o ambiente GCC, em vez do ambiente de nuvem pública.
 
 Depois de definir sua hierarquia no arquivo CSV do esquema, você estará pronto para carregar no Teams. Para fazer isso, execute o seguinte comando. Você deve ser um administrador global ou Teams de serviço para fazer esta etapa.
 
@@ -179,7 +174,7 @@ O comando retornará os seguintes campos:
 Campo|Descrição
 -----|------------
 Id | A ID exclusiva para o carregamento.
-Status | Upload status. Os valores **incluem Iniciar,** **Validar,** **Bem-sucedido** e **Falha**
+Status | Upload status. Os valores **incluem Starting**, **Validating**, **Successful** e **Failed**
 ErrorDetails | Detalhes se houver um erro de carregamento. Para obter mais informações sobre os detalhes do erro, consulte a seção Solução de problemas. Se não houver nenhum erro, este campo será em branco.
 LastUpdatedAt | Data e hora de quando o arquivo foi atualizado pela última vez.
 LastModifiedBy | A ID do último usuário que modificou o arquivo.
@@ -202,7 +197,7 @@ Ao confirmar a exclusão, a mensagem de status ainda exibirá o esquema anterior
 ### <a name="install-the-teams-powershell-module"></a>Instalar o módulo Teams PowerShell
 
 > [!IMPORTANT]
-> Para executar esta etapa, você deve instalar e usar o módulo de visualização pública Teams PowerShell da [Galeria do PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams/) Para ver as etapas sobre como instalar o módulo, consulte [Install Teams PowerShell](teams-powershell-install.md).
+> Para executar esta etapa, você deve instalar e usar o módulo de visualização pública Teams PowerShell da [Galeria do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Para ver as etapas sobre como instalar o módulo, consulte [Install Teams PowerShell](teams-powershell-install.md).
 
 ### <a name="sample-script"></a>Script de exemplo
 
@@ -272,7 +267,7 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 Verifique se você está usando o TeamId correto para a equipe em seu arquivo CSV de esquema. A TeamId deve ser a mesma que a ID de Grupo do grupo Microsoft 365 que resvala a equipe. Você pode procurar a ID de Grupo da equipe no Microsoft Teams de administração.
 
-1. Na navegação à esquerda do centro de administração [Microsoft Teams,](https://admin.teams.microsoft.com/)vá **para Teams**  >  **Gerenciar equipes**.
+1. Na navegação à esquerda do centro [de administração Microsoft Teams,](https://admin.teams.microsoft.com/) **vá para Teams** >  **Manage teams**.
 2. Se a **coluna ID do** Grupo não for exibida na tabela, selecione **Editar colunas** no canto superior direito da tabela e, em seguida, acione a **ID do Grupo**.
 3. Localize a equipe na lista e localize a ID do Grupo.
 

@@ -1,27 +1,22 @@
 ---
 title: O que é preterido do Skype for Business Server 2019
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumo: esses recursos foram removidos do Skype for Business Server 2019.'
-ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846974"
 ---
+
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>O que é preterido do Skype for Business Server 2019
 
-Saiba mais sobre os recursos e funcionalidades preterido no Skype for Business Server 2019. Para obter informações sobre novos recursos no Skype for Business Server 2019, consulte O que há [Skype for Business Server 2019](whats-new.md).
+Saiba mais sobre os recursos e funcionalidades preterido no Skype for Business Server 2019. Para obter informações sobre novos recursos no Skype for Business Server 2019, consulte [O que há Skype for Business Server 2019](whats-new.md).
 
 Alguns recursos não enfatizados estão incluídos no Skype for Business Server 2019 para compatibilidade com versões anteriores do produto.
 
@@ -39,9 +34,9 @@ O Servidor de Chat Persistente é uma função opcional que permite que vários 
 
 A mesma funcionalidade está disponível no Teams. Para obter mais informações, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).
 
-### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL Espelhamento para Skype for Business Server
+### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL espelhamento para Skype for Business Server
 
-SQL O espelhamento não pode ser implantado com o Skype for Business Server 2019. Outras opções para fornecer Alta Disponibilidade e Recuperação de Desastres ainda são suportadas e você deve escolher entre elas. Consulte [Plan for high availability and disaster recovery in Skype for Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) to review the options.
+SQL espelhamento não pode ser implantado com o Skype for Business Server 2019. Outras opções para fornecer Alta Disponibilidade e Recuperação de Desastres ainda são suportadas e você deve escolher entre elas. Consulte [Plan for high availability and disaster recovery in Skype for Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) to review the options.
 
 ### <a name="in-place-upgrades"></a>Atualizações no local 
 
@@ -51,14 +46,14 @@ As atualizações in-locar estavam disponíveis no Skype for Business Server 201
 
 Todos os clientes Skype for Business móveis atuais já usam a UCWA (Unified Communications Web API) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o Mcx precisarão atualizar para um cliente atual.
 
-Para obter mais detalhes, [consulte Plan for Mobility for Skype for Business Server](../SfbServer/plan-your-deployment/mobility.md) and Mobile client feature comparison for [Skype for Business](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
+Para obter mais detalhes, [consulte Plan for Mobility for Skype for Business Server](../SfbServer/plan-your-deployment/mobility.md) and [Mobile client feature comparison for Skype for Business](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
 
 ## <a name="tools"></a>Ferramentas
 
 As seguintes ferramentas não estarão disponíveis para uso na versão inicial do Skype for Business Server 2019:
 
 - Calculadora de Planejamento de Capacidade do Skype for Business Server
-- Skype for Business Server Ferramentas de depuração
+- Skype for Business Server Ferramentas de Depuração
 - Skype for Business Server Ferramentas de Kit de Recursos (algumas ferramentas serão removidas)
     - Chamar Parkometer
     - Console do usuário de lookup

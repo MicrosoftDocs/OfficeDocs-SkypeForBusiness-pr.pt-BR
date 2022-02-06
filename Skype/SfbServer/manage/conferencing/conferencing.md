@@ -1,29 +1,24 @@
 ---
 title: Gerenciar conferências em Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Resumo: Saiba como gerenciar a conferência em Skype for Business Server.'
-ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845454"
 ---
+
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Gerenciar conferências em Skype for Business Server
  
 **Resumo:** Saiba como gerenciar a conferência em Skype for Business Server.
   
-Este tópico descreve como gerenciar a conferência. Para obter mais informações sobre como planejar e implantar conferências, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Este tópico descreve como gerenciar a conferência. Para obter mais informações sobre como planejar e implantar conferências, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) [and Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Em Skype for Business Server, você gerencia os detalhes da conferência especificando configurações e configurações de política da seguinte forma. Observe que as conferências e reuniões de termos às vezes são usadas de forma intercambiável. Mas, em geral, você pode pensar em uma reunião como uma instância específica de conferência.
   
@@ -51,35 +46,35 @@ Você pode gerenciar a maioria das políticas de conferência e configurações 
     
   - No Painel de Controle, selecione **Conferência | Política de Conferência**.
     
-  - No PowerShell, pesquise os cmdlets **-CsConferencingPolicy.**
+  - No PowerShell, pesquise **os cmdlets -CsConferencingPolicy** .
     
 - Para gerenciar as configurações de reunião:
     
-  - No Painel de Controle, selecione **Conferência | Configuração de reunião**.
+  - No Painel de Controle, selecione **Conferência | Configuração da reunião**.
     
-  - Em Skype for Business Server Shell de Gerenciamento, **pesquise os cmdlets -CsMeetingConfiguration.**
+  - Em Skype for Business Server Shell de Gerenciamento, pesquise **os cmdlets -CsMeetingConfiguration**.
     
 - Para gerenciar configurações de número de acesso discado:
     
   - No Painel de Controle, selecione **Conferência | Número de acesso discado**.
     
-  - No Skype for Business Server De gerenciamento, pesquise os cmdlets **-CsDialInConferencing.**
+  - Em Skype for Business Server Shell de Gerenciamento, pesquise **os cmdlets -CsDialInConferencing**.
     
 - Para gerenciar informações de acesso discado, como plano de discagem, política de voz, rota e uso de PSTN: 
     
   - No Painel de Controle, selecione **Conferência | Roteamento de voz**.
     
-  - Em Skype for Business Server Shell de Gerenciamento, pesquise os cmdlets **-CsDialPlan** e **-CsVoice.**
+  - Em Skype for Business Server Shell de Gerenciamento, pesquise **os cmdlets -CsDialPlan** e **-CsVoice**.
     
 - Para gerenciar configurações de política de PIN:
     
   - No Painel de Controle, selecione **Conferência | Política pin**.
     
-  - Em Skype for Business Server Shell de Gerenciamento, pesquise os cmdlets **-CsPinPolicy.**
+  - Em Skype for Business Server Shell de Gerenciamento, pesquise os **cmdlets -CsPinPolicy**.
     
-- Para gerenciar as configurações de conferência, você deve usar o Shell Skype for Business Server Gerenciamento. Pesquise **cmdlets -CsConferencingConfiguration.**
+- Para gerenciar as configurações de conferência, você deve usar o Shell Skype for Business Server Gerenciamento. **Pesquise cmdlets -CsConferencingConfiguration**.
     
-## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype for Business Server Cmdlets do Shell de Gerenciamento
+## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype for Business Server cmdlets do Shell de Gerenciamento
 
 Você pode usar os seguintes cmdlets Skype for Business Server Shell de Gerenciamento para gerenciar a conferência: 
   
@@ -170,6 +165,6 @@ Você pode usar os seguintes cmdlets Skype for Business Server Shell de Gerencia
 |[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Verifica se um par de usuários pode ou não participar de uma conferência da Web Skype for Business Server que inclui atividades como compartilhamento ou exibição PowerPoint slides, whiteboards ou votações. O cmdlet também verifica se o serviço Skype for Business Server webconferência pode descobrir Office Web Apps Server e que um cliente pode carregar um arquivo PowerPoint para transmissão pelo Office Web Apps Server.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Verifica se um usuário pode participar de uma sessão de conferência discda.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Testa um número de telefone em relação a um plano de discagem (anteriormente conhecido como perfil de localidade) e retorna a regra de normalização que será aplicada ao número, bem como o número convertido depois que a regra de normalização tiver sido aplicada.  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testa a capacidade de três usuários participarem de uma conferência Skype for Business Server Mobility Service. O Serviço de Mobilidade permite que os usuários de telefones celulares, como iPhones e Windows Telefones, faça coisas como trocar mensagens instantâneas e informações de presença; armazenar e recuperar a caixa postal internamente, em vez de com seu provedor sem fio; e tirar proveito de Skype for Business Server recursos como Chamada via Trabalho e conferência discagem.  <br/> **Observação:** Os clientes que usam MCX não têm suporte no Skype for Business Server 2019.|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testa a capacidade de três usuários participarem de uma conferência Skype for Business Server Mobility Service. O Serviço de Mobilidade permite que os usuários de telefones celulares, como iPhones e telefones Windows, faça coisas como trocar mensagens instantâneas e informações de presença; armazene e recupere a caixa postal internamente, em vez de com seu provedor sem fio; e tire proveito de recursos de Skype for Business Server como Chamadas via Trabalho e conferência discadas.  <br/> **Observação:** Os clientes que usam MCX não têm suporte no Skype for Business Server 2019.|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Testa a capacidade de um par de usuários agendar, ingressar e conduzir uma conferência online usando a UCWA (Unified Communications Web API).  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Retorna informações de diagnóstico para os recursos de conferência de dados incluídos Skype for Business Server.  <br/> |

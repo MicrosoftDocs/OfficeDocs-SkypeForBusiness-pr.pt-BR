@@ -1,25 +1,20 @@
 ---
 title: Fazer backup e restaurar bancos de dados de Chat Persistente no Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 'Resumo: saiba como fazer backup e restaurar bancos de dados do Servidor de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 3c294a33a82a9279e05e1d69e48b531f8b85e3c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841163"
 ---
+
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Fazer backup e restaurar bancos de dados de Chat Persistente no Skype for Business Server 2015
  
 **Resumo:** Saiba como fazer backup e restaurar bancos de dados do Servidor de Chat Persistente no Skype for Business Server 2015.
@@ -35,13 +30,13 @@ Há duas maneiras de fazer o back up de dados de Chat Persistente.
   
 - SQL Server Backup
     
-- O cmdlet **Export-CsPersistentChatData,** que exporta dados de Chat Persistente como um arquivo
+- O cmdlet **Export-CsPersistentChatData** , que exporta dados de Chat Persistente como um arquivo
     
-Os dados criados usando o backup do SQL Server exigem significativamente mais espaço em disco , possivelmente 20 vezes mais do que os criados pelo cmdlet **Export-CsPersistentChatData,** mas o backup SQL Server provavelmente será um procedimento com o qual você está familiarizado.
+Os dados criados usando o backup de SQL Server exigem significativamente mais espaço em disco , possivelmente 20 vezes mais do que os criados pelo cmdlet **Export-CsPersistentChatData**, mas o backup SQL Server provavelmente será um procedimento com o qual você está familiarizado.
   
 Se você quiser usar SQL Server de backup, consulte sua documentação SQL para obter mais informações. 
   
-Se você quiser usar o cmdlet **Export-CsPersistentChatData,** especifique o comando da seguinte forma:
+Se você quiser usar o cmdlet **Export-CsPersistentChatData** , especifique o comando da seguinte forma:
   
 ```PowerShell
 Export-CsPersistentChatData [-FileName <String>] <COMMON PARAMETERS>

@@ -1,27 +1,22 @@
 ---
 title: Selecionar Criadores
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SelectCreators
+  - ms.lync.lscp.SelectCreators
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Criar e gerenciar salas de Chat Persistente é muito mais fácil com o uso correto de categorias. Um administrador de Chat Persistente pode definir AllowedMembers e Criadores para cada categoria e também pode definir as configurações e comportamentos padrão da sala de chat que serão aplicadas a todas as salas de chat criadas na categoria. Os administradores de Chat Persistente criam e gerenciam categorias usando Skype for Business Server Painel de Controle ou Windows PowerShell cmdlets.
-ms.openlocfilehash: d0b794c8f378f46d7713875b83560de37ac7c8b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837973"
 ---
+
 # <a name="select-creators"></a>Selecionar Criadores
 
 Criar e gerenciar salas de Chat Persistente é muito mais fácil com o uso correto de categorias. Um administrador de Chat Persistente pode definir **AllowedMembers** e Criadores para cada categoria e também pode definir as configurações e comportamentos padrão da sala de chat que serão aplicadas a todas as salas de chat **criadas** na categoria. Os administradores de Chat Persistente criam e gerenciam categorias usando Skype for Business Server Painel de Controle ou Windows PowerShell cmdlets.
@@ -38,11 +33,11 @@ Para obter detalhes sobre os diferentes procedimentos que você pode executar us
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar as categorias para salas de chat
 
-Em **Associação**, na seção **Criadores,** adicione ou remova usuários e outras entidades do Active Directory associadas aos criadores da categoria. Um criador é um usuário com permissões para criar salas de chat e atribuir gerentes e membros de sala de chat.
+Em **Associação**, na seção **Criadores** , adicione ou remova usuários e outras entidades do Active Directory associadas aos criadores da categoria. Um criador é um usuário com permissões para criar salas de chat e atribuir gerentes e membros de sala de chat.
 
 
 
-Para obter detalhes sobre recursos e recursos do Servidor de Chat Persistente, consulte [Visão geral do Servidor](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) de Chat Persistente na documentação planejamento. Para obter detalhes sobre como trabalhar com configurações do Servidor de Chat Persistente, consulte [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) na documentação de Implantação e [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) na documentação Operações.
+Para obter detalhes sobre recursos e recursos do Servidor de Chat Persistente, consulte [Visão geral do Servidor de Chat Persistente](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) na documentação planejamento. Para obter detalhes sobre como trabalhar com configurações do Servidor de Chat Persistente, consulte [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) na documentação de Implantação e [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) na documentação Operações.
 
 ## <a name="see-also"></a>Confira também
 

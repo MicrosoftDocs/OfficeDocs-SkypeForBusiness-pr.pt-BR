@@ -1,24 +1,19 @@
 ---
 title: Criar políticas de conferência em Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Resumo: saiba como criar políticas de conferência em Skype for Business Server.'
-ms.openlocfilehash: 56404f98389dbe2fca6a6022e7d6f175bcca030c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828824"
 ---
+
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Criar políticas de conferência em Skype for Business Server
  
 **Resumo:** Saiba como criar políticas de conferência em Skype for Business Server.
@@ -31,7 +26,7 @@ Você pode criar políticas de conferência usando Skype for Business Server Pai
     
 2. Abra Skype for Business Server Painel de Controle.
     
-3. Na barra de navegação esquerda, clique **em Conferência** e em Política **de Conferência.**
+3. Na barra de navegação esquerda, clique **em Conferência e** em **Política de Conferência**.
     
 4. Clique em **Nova** e execute um dos seguintes procedimentos:
     
@@ -70,7 +65,7 @@ Você pode criar políticas de conferência usando Skype for Business Server Pai
     
     - Se você permitir que os usuários participem de forma discada das reuniões e deseja permitir que usuários não autenticados (anônimos) participem de uma reunião usando uma telefonia discada, marque a caixa de seleção **Permitir que participantes anônimos façam chamadas**. Com a telefonia discada, o servidor de conferência chama o usuário e o usuário atende ao telefone para participar da reunião. Por padrão, usuários anônimos não podem participar de uma reunião usando a telefonia discada.
     
-12. Se você optou por permitir o uso de vídeo em **Áudio/vídeo,** verifique **Permitir vários fluxos de vídeo.**
+12. Se você optou por permitir o uso de vídeo em **Áudio/vídeo**, verifique **Permitir vários fluxos de vídeo**.
     
 13. Em **Colaboração de dados**, execute um dos seguintes procedimentos:
     
@@ -84,7 +79,7 @@ Você pode criar políticas de conferência usando Skype for Business Server Pai
     
     - Para impedir as transferências de arquivo, desmarque a caixa de seleção **Permitir que participantes transfiram arquivos**. Por padrão, os usuários podem transferir arquivos.
     
-    - Para impedir o uso de anotações, desmarque a caixa de seleção **Habilitar anotações**. Para o uso de anotações em apresentações PowerPoint compartilhadas, desinformar as anotações **Habilitar PowerPoint.** Por padrão, as anotações são permitidas.
+    - Para impedir o uso de anotações, desmarque a caixa de seleção **Habilitar anotações**. Para o uso de anotações em apresentações PowerPoint compartilhadas, desbaixe **as anotações Habilitar PowerPoint anotações**. Por padrão, as anotações são permitidas.
     
     - Para impedir o uso de pools, desmarque a caixa de seleção **Habilitar pools**. Por padrão, os pools são permitidos.
     
@@ -118,7 +113,7 @@ Você pode criar políticas de conferência usando Skype for Business Server Pai
     
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Criar políticas de conferência usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 
-Para criar políticas de conferência, use o cmdlet **New-CsConferencingPolicy.**
+Para criar políticas de conferência, use o cmdlet **New-CsConferencingPolicy** .
   
 O exemplo a seguir cria uma nova política de conferência com Identity SalesConferencingPolicy. Esta política usará todos os valores padrão para uma política de conferência, exceto uma: MaxMeetingSize. Neste exemplo, o tamanho máximo de uma reunião será definido como 50 em vez do valor padrão de 250:
   

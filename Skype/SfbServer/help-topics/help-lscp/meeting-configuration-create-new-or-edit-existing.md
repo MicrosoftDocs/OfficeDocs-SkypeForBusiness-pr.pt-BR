@@ -1,27 +1,22 @@
 ---
 title: Configuração da Reunião Criar Novo ou Editar Existente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ConfMeetingSettingEdit
+  - ms.lync.lscp.ConfMeetingSettingEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: As definições de configuração de reunião definem a experiência de ingresso do usuário em conferências agendadas por usuários. Essas configurações se aplicam apenas às reuniões agendadas. Eles não se aplicam a reuniões ad hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: 2ed752300cd306a17c5f5766d1b87c328ad0d517
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862808"
 ---
+
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuração de Reunião: Criar Novo ou Editar Existente
 
 As definições de configuração de reunião definem a experiência de ingresso do usuário em conferências agendadas por usuários. Essas configurações se aplicam apenas às reuniões agendadas. Eles não se aplicam a reuniões ad hoc criadas clicando na opção **Reunir Agora** no cliente.

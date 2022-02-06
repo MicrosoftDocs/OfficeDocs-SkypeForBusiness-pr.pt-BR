@@ -1,26 +1,21 @@
 ---
 title: Bloquear chamadas de entrada em Microsoft Teams
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: d1b5b19189ea301eab5d2c06dfa85be7d4ddb6eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827384"
 ---
+
 # <a name="block-inbound-calls"></a>Bloquear chamadas de entrada
 
 Planos de Chamadas da Microsoft, Roteamento Direto e Operador Conexão todos suportam o bloqueio de chamadas de entrada da PSTN (Rede Telefônica Pública Comucionária). Esse recurso permite que um administrador defina uma lista de padrões de números no nível global do locatário para que a ID do chamador de cada chamada PSTN de entrada para o locatário possa ser verificada na lista para uma combinação. Se uma combinação for feita, uma chamada de entrada será rejeitada.
@@ -36,14 +31,14 @@ Os controles de administrador para números de bloqueio são fornecidos usando a
 
 ## <a name="call-blocking-powershell-commands"></a>Comandos de bloqueio de chamada do PowerShell
 
-Você gerencia padrões de números usando os cmdlets **New-**, **Get-,** **Set-** e **Remove-CsInboundBlockedNumberPattern.** Você pode gerenciar um determinado padrão usando esses cmdlets, incluindo a capacidade de alternar a ativação de um determinado padrão.
+Você gerencia padrões de números usando os cmdlets **New-**, **Get-**, **Set-e Remove-CsInboundBlockedNumberPattern**.  Você pode gerenciar um determinado padrão usando esses cmdlets, incluindo a capacidade de alternar a ativação de um determinado padrão.
 
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) retorna uma lista de todos os padrões de números bloqueados adicionados à lista de locatários, incluindo Nome, Descrição, Habilitado (True/False) e Padrão para cada um.
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) adiciona um padrão de número bloqueado à lista de locatários.
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) remove um padrão de número bloqueado da lista de locatários.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) modifica um ou mais parâmetros de um padrão de número bloqueado na lista de locatários.
 
-A exibição e a ativação de todo o recurso de bloqueio de chamadas é gerenciada por meio dos cmdlets **Get e** **Set-CsTenantBlockingCallingNumbers.**
+A exibição e a ativação de todo o recurso de bloqueio de chamadas é gerenciada por meio dos cmdlets **Get e** **Set-CsTenantBlockingCallingNumbers** .
 
 - [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) retorna os padrões de número de bloco de entrada e os parâmetros de padrões de número isentos de entrada para a lista de números bloqueados global. Este cmdlet também retorna se o bloqueio foi habilitado (True ou False). Há uma única política de locatário global que não pode ser modificada manualmente, além de ativar ou desativar o recurso.
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) permite modificar as chamadas de locatário global bloqueadas para serem ativas e desligadas no nível do locatário.
@@ -96,7 +91,7 @@ Use as habilidades de filtragem do PowerShell integrados para analisar os valore
 
 ## <a name="add-number-exceptions"></a>Adicionar exceções de número
 
-Você pode adicionar exceções a padrões de números bloqueados usando os cmdlets **New-**, **Get-**, **Set-** e **Remove-CsInboundExemptNumberPattern.**
+Você pode adicionar exceções a padrões de números bloqueados usando os cmdlets **New-**, **Get-**, **Set-**, **e Remove-CsInboundExemptNumberPattern** .
 
 - [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) adiciona um padrão de exceção de número à lista de locatários. 
 - [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) retorna uma lista de todos os padrões de exceção de número adicionados à lista de locatários.

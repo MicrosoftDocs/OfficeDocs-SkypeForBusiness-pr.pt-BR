@@ -1,27 +1,22 @@
 ---
 title: Assistente de Implantação usando as Ferramentas de Administração
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployAdminToolsInvoke
+  - ms.lync.dep.DeployAdminToolsInvoke
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
-ROBOTS: NOINDEX, NOFOLLOW
-description: Para obter detalhes sobre como usar o Assistente de Implantação para Skype for Business Server, consulte Install Skype for Business Server.
-ms.openlocfilehash: 1b00d65e69283f83ffb5e5c8e9c374f9f43d925f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840553"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Para obter detalhes sobre como usar o Assistente de Implantação para Skype for Business Server, consulte Install Skype for Business Server.'
 ---
+
 # <a name="deployment-wizard-using-the-admin-tools"></a>Assistente de Implantação: Usando as Ferramentas de Administração
  
 Para obter detalhes sobre como usar o Assistente de Implantação para instalar Skype for Business Server, consulte [Install Skype for Business Server](../../../deploy/install/install.md).

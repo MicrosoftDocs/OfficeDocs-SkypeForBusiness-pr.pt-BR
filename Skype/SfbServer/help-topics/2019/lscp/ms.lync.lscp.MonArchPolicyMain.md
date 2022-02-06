@@ -1,27 +1,22 @@
 ---
 title: Política de Arquivamento
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchPolicyMain
+  - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Você usa políticas de arquivamento para habilitar e desabilitar o arquivamento para usuários que estão em Skype for Business Server. Em cada política de Arquivamento, você pode habilitar ou desabilitar o arquivamento para ambos os seguintes:'
-ms.openlocfilehash: eae717d8c3a70b7f7c631f432f78dc4a18f82507
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864188"
 ---
+
 # <a name="archiving-policy"></a>Política de Arquivamento
  
 Você usa políticas de arquivamento para habilitar e desabilitar o arquivamento para usuários que estão em Skype for Business Server. Em cada política de Arquivamento, você pode habilitar ou desabilitar o arquivamento para ambos os seguintes:
@@ -41,7 +36,7 @@ As políticas de arquivamento incluem a política global e, opcionalmente, uma o
 > [!NOTE]
 > As políticas de arquivamento aplicam-se somente aos usuários que estão no Skype for Business Server. Se você usar Exchange para armazenar dados de arquivamento no Microsoft Exchange, as políticas de Exchange controlam o arquivamento para usuários que estão no Exchange. Para habilitar o arquivamento para esses usuários, a caixa de correio do usuário deve ser colocada In-Place Espera. 
   
-A **página Política de Arquivamento lista** cada política de Arquivamento configurada para sua implantação. Ele também mostra o nome da política, o escopo (global, site ou usuário) e quais opções de arquivamento estão habilitadas para cada política de Arquivamento. Na página **Política de Arquivamento,** você tem as seguintes opções:
+A **página Política de Arquivamento lista** cada política de Arquivamento configurada para sua implantação. Ele também mostra o nome da política, o escopo (global, site ou usuário) e quais opções de arquivamento estão habilitadas para cada política de Arquivamento. Na página **Política de Arquivamento** , você tem as seguintes opções:
 - **Novo** Você pode adicionar uma ou mais de cada uma das seguintes políticas opcionais de Arquivamento:
     
   - Política de site
@@ -68,5 +63,5 @@ A **página Política de Arquivamento lista** cada política de Arquivamento con
     
 - **Atualizar** Você pode atualizar a página **Política de** Arquivamento para verificar o status das opções de todas as políticas de Arquivamento.
     
-Para obter detalhes sobre o recurso e recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), Deploy [archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)e Manage [archiving in Skype for Business Server](../../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso e recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md) e [Manage archiving in Skype for Business Server ](../../../manage/archiving/archiving.md).
 

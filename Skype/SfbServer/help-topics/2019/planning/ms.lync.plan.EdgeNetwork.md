@@ -1,31 +1,26 @@
 ---
 title: Rede de Borda (Ferramenta de Planejamento)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.EdgeNetwork
-- ms.lync.plan.EdgeNetwork
+  - ms.lync.plan.EdgeNetwork
+  - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os componentes a seguir comem a topologia de Borda da rede de perímetro. Exceto quando notados, os componentes fazem parte dos cenários do Servidor de Borda Skype for Business Server e estão na rede de perímetro. Os componentes de Borda incluem:'
-ms.openlocfilehash: 950fccf2b8b3687b86c18fd90c68d8038f9c5e10
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835759"
 ---
+
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Rede de Borda (Ferramenta de Planejamento) em Skype for Business 
  
-A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os componentes a seguir comem a topologia de Borda da rede de perímetro. Exceto quando notados, os componentes fazem parte dos [cenários](../../../plan-your-deployment/edge-server-deployments/scenarios.md) do Servidor de Borda Skype for Business Server e estão na rede de perímetro. Os componentes de Borda incluem:
+A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os componentes a seguir comem a topologia de Borda da rede de perímetro. Exceto quando notados, os componentes fazem parte dos [cenários do Servidor de Borda Skype for Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) e estão na rede de perímetro. Os componentes de Borda incluem:
   
 - Servidores de borda
     

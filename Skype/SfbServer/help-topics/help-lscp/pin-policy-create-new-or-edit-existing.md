@@ -1,27 +1,22 @@
 ---
 title: Política de PIN Criar Novo ou Editar Existente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SecPinPolicyEdit
+  - ms.lync.lscp.SecPinPolicyEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: e863f072077c798c6f9f24c558e48b15e6488687
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862738"
 ---
+
 # <a name="pin-policy-create-new-or-edit-existing"></a>Política PIN: Criar Nova ou Editar Existente
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.

@@ -1,25 +1,20 @@
 ---
 title: 'Skype for Business Server: Planejar Painel de Qualidade de Chamada'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumo: saiba o que considerar ao planejar o Painel de Qualidade de Chamada.'
-ms.openlocfilehash: c9ab2cafcd05ac7ea0585b0f3af2924b9fa4f0cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835169"
 ---
+
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>Skype for Business Server: Planejar Painel de Qualidade de Chamada 
  
 **Resumo:** Saiba mais sobre o que considerar ao planejar o Painel de Qualidade de Chamada.
@@ -83,9 +78,9 @@ Os dados do CQD podem ser exibidos por meio do Portal CQD e acessados por meio d
   
 ### <a name="cqd-portal"></a>CQD Portal
 
-O Portal é a maneira mais rápida de exibir os dados no Cubo. O Portal vem com vários relatórios integrados que são usáveis imediatamente. Os relatórios integrados são vinculados de forma estruturada para orientar o usuário a fatias sucessivamente menores e menores dos dados de chamada. Os relatórios integrados também realçam as várias maneiras diferentes de os dados serem mostrados demonstrando uma combinação de gráficos e tabelas com diferentes pivôs, filtros e medidas. Cada usuário que acessa o Portal pode ter seu próprio conjunto de relatórios que pode modificar e compartilhar. Para obter mais informações sobre o uso do CQD Web Portal, consulte [Use Call Quality Dashboard for Skype for Business Server](use.md).
+O Portal é a maneira mais rápida de exibir os dados no Cubo. O Portal vem com vários relatórios integrados que são usáveis imediatamente. Os relatórios integrados são vinculados de forma estruturada para orientar o usuário a fatias sucessivamente menores e menores dos dados de chamada. Os relatórios integrados também realçam as várias maneiras diferentes de os dados serem mostrados demonstrando uma combinação de gráficos e tabelas com diferentes pivôs, filtros e medidas. Cada usuário que acessa o Portal pode ter seu próprio conjunto de relatórios que pode modificar e compartilhar. Para obter mais informações sobre o uso do Portal web do CQD, consulte [Use Call Quality Dashboard for Skype for Business Server](use.md).
   
-Sistemas operacionais com suporte para portal CQD: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 e Windows Server 2016 (Skype for Business Server 2019 Somente CQD).
+Sistemas operacionais com suporte para Portal CQD: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 e Windows Server 2016 (Skype for Business Server Somente CQD 2019).
   
 Navegadores com suporte para Portal CQD: Internet Explorer 11, Internet Explorer 10 e Internet Explorer 9.
   
@@ -134,7 +129,7 @@ O CQD vem com vários componentes e ajuda a entender os requisitos de cada compo
 
 Todos os componentes CQD e componentes dependentes podem ser instalados em um computador. A configuração de caixa única é a configuração mais simples e permite que o CQD seja auto-contido. O CQD precisaria apenas de acesso ao banco de dados de Métricas de QoE no Servidor de Monitoramento. O CQD Server pode ser uma máquina autônoma, uma máquina virtual ou até mesmo o Servidor de Monitoramento, dependendo dos recursos disponíveis do computador host e dos requisitos de desempenho. 
   
-Durante a instalação, o usuário que executa a instalação simplesmente precisa fornecer as instâncias do Microsoft SQL Server e do Microsoft SQL Server Analysis Services que foram configuradas anteriormente no computador onde o CQD deve ser instalado. Consulte [Deploy Call Quality Dashboard for Skype for Business Server](deploy-0.md) para obter mais informações.
+Durante a instalação, o usuário que executa a instalação simplesmente precisa fornecer as instâncias do Microsoft SQL Server e do Microsoft SQL Server Analysis Services que foram configuradas anteriormente no computador onde o CQD deve ser instalado. Consulte Deploy [Call Quality Dashboard for Skype for Business Server](deploy-0.md) para obter mais informações.
   
 ### <a name="multiserver-configuration"></a>Configuração multiserver
 
@@ -173,7 +168,7 @@ O CQD, incluindo todos os componentes e componentes dependentes, pode ser implan
 |Sistemas operacionais com suporte    |Windows Server 2016, Windows Server 2019   |
 |Suporte para SQL Server   |SQL Server 2017, SQL Server 2019   |
    
-O CQD utiliza Microsoft SQL Server, Microsoft SQL Server Analysis Services e Serviços de Informações da Internet da Microsoft para que os requisitos mínimos de hardware e software do CQD sejam basicamente os mesmos dos componentes dependentes. No entanto, com base nos requisitos da organização em relação à renovação de dados (que dependerá em parte do volume de dados QoE gerados pela organização) e do custo de implantação, considerações adicionais de implantação devem ser feitas.
+O CQD utiliza Microsoft SQL Server, Microsoft SQL Server Analysis Services e  Serviços de Informações da Internet da Microsoft para que os requisitos mínimos de hardware e software do CQD sejam basicamente os mesmos dos componentes dependentes. No entanto, com base nos requisitos da organização em relação à renovação de dados (que dependerá em parte do volume de dados QoE gerados pela organização) e do custo de implantação, considerações adicionais de implantação devem ser feitas.
   
 O processamento de dados no CQD é separado em dois estágios principais: 
   
@@ -282,7 +277,7 @@ A seguir estão os serviços de função do IIS necessários (em ordem hierárqu
   - Console de gerenciamento do IIS
     
 > [!NOTE]
->  Observe o seguinte para os requisitos acima:> versões 3.5 e 4.5 da estrutura .Net estão disponíveis. Ambos são necessários (mais especificamente, 3.5 SP1 é necessário).> Em alguns sistemas, se o ASP.NET estiver configurado antes da instalação do IIS, o ASP.NET pode não ser registrado no IIS. O problema se manifestou pela ausência de pools de aplicativos para a versão .Net correspondente e também falta a versão do .NET CLR na configuração do pool de aplicativos. Para corrigir esse problema no Windows Server 2008 R2, execute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` . No Windows Server 2012 e Windows Server 2012 R2, execute seguido pela remoção do módulo "ServiceModel" do Site Padrão no Gerenciador do IIS.> As ferramentas de gerenciamento são opcionais, mas `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` recomendadas.
+>  Observe o seguinte para os requisitos acima:> versões 3.5 e 4.5 da estrutura .Net estão disponíveis. Ambos são necessários (mais especificamente, 3.5 SP1 é necessário).> Em alguns sistemas, se o ASP.NET estiver configurado antes da instalação do IIS, o ASP.NET pode não ser registrado no IIS. O problema se manifestou pela ausência de pools de aplicativos para a versão .Net correspondente e também falta a versão do .NET CLR na configuração do pool de aplicativos. Para corrigir esse problema no Windows Server 2008 R2, execute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. No Windows Server 2012 e Windows Server 2012 R2, `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` execute seguido pela remoção do módulo "ServiceModel" do Site Padrão no Gerenciador do IIS.> As ferramentas de gerenciamento são opcionais, mas recomendadas.
   
 Para instalar esses requisitos usando o PowerShell, execute o seguinte:
   
@@ -309,7 +304,7 @@ Em todos os casos, "Mecanismo de Banco de Dados Serviços" e "Analysis Services"
   
 Ao configurar a configuração do SSAS, na Configuração dos Serviços de Análise, de definir "Modo de Servidor" como "Modo de Mineração de Dados e Multidimensionais". 
   
-Para obter ajuda adicional para instalar e configurar SQL Server Business Intelligence, consulte [Install Analysis Services in Multidimensional](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110))and Data Mining Mode .
+Para obter ajuda adicional na instalação e na configuração SQL Server Recursos de Business Intelligence, consulte [Install Analysis Services in Multidimensional and Data Mining Mode](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110)).
   
 #### <a name="account-requirements"></a>Requisitos de conta
 

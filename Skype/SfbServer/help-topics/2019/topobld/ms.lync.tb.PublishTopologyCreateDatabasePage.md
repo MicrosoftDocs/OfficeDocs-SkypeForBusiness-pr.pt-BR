@@ -1,36 +1,31 @@
 ---
 title: Criar Banco de Dados
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PublishTopologyCreateDatabasePage
+  - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
-ROBOTS: NOINDEX, NOFOLLOW
-description: O Construtor de Topologias fornece uma maneira de instalar bancos de dados em um SQL Server store. Quando você instala bancos de dados usando o Construtor de Topologias, o aplicativo lê informações da topologia e instala os bancos de dados necessários no computador SQL Server ou no cluster SQL Server. Este é o único tipo de instalação de banco de dados disponível com o uso do Construtor de Topologia. Se você precisar instalar um banco de dados específico em um computador específico ou se precisar instalar um banco de dados alocado, deverá usar uma interface de linha de comando Windows PowerShell e o cmdlet Install-CsDatabase.
-ms.openlocfilehash: 84a666b67147787e40e79db15394117dfbc8d484
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844674"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'O Construtor de Topologias fornece uma maneira de instalar bancos de dados em um SQL Server store. Quando você instala bancos de dados usando o Construtor de Topologias, o aplicativo lê informações da topologia e instala os bancos de dados necessários no computador SQL Server ou no cluster SQL Server. Este é o único tipo de instalação de banco de dados disponível com o uso do Construtor de Topologia. Se você precisar instalar um banco de dados específico em um computador específico ou se precisar instalar um banco de dados alocado, deverá usar uma interface de linha de comando Windows PowerShell e o cmdlet Install-CsDatabase.'
 ---
+
 # <a name="create-database"></a>Criar banco de dados
  
-O Construtor de Topologias fornece uma maneira de instalar bancos de dados em um SQL Server store. Quando você instala bancos de dados usando o Construtor de Topologias, o aplicativo lê informações da topologia e instala os bancos de dados necessários no computador SQL Server ou no cluster SQL Server. Este é o único tipo de instalação de banco de dados disponível com o uso do Construtor de Topologia. Se você precisar instalar um banco de dados específico em um computador específico ou se precisar instalar um banco de dados alocado, deverá usar uma interface de linha de comando Windows PowerShell e o cmdlet [Install-CsDatabase.](/powershell/module/skype/install-csdatabase?view=skype-ps)
+O Construtor de Topologias fornece uma maneira de instalar bancos de dados em um SQL Server store. Quando você instala bancos de dados usando o Construtor de Topologias, o aplicativo lê informações da topologia e instala os bancos de dados necessários no computador SQL Server ou no cluster SQL Server. Este é o único tipo de instalação de banco de dados disponível com o uso do Construtor de Topologia. Se você precisar instalar um banco de dados específico em um computador específico ou se precisar instalar um banco de dados alocado, deverá usar uma interface de linha de comando Windows PowerShell e o cmdlet [Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps).
   
 ### <a name="creating-a-database"></a>Criando um Banco de Dados
 
 1. Clique no nó Skype for Business Server e clique em **Instalar Banco de Dados**.
     
-2. Na  caixa de diálogo Instalar  Bancos de Dados, na página Criar Banco de Dados, selecione o nome de domínio totalmente qualificado (FQDN) do armazenamento SQL Server onde os novos bancos de dados devem ser criados.
+2. Na caixa **de** diálogo Instalar Bancos de Dados,  na página Criar Banco de Dados, selecione o nome de domínio totalmente qualificado (FQDN) do armazenamento SQL Server onde os novos bancos de dados devem ser criados.
     
 3. Clique em **Avançado**. Na caixa de diálogo **Selecionar Local do Arquivo de Banco de Dados**, selecione uma das opções a seguir:
     

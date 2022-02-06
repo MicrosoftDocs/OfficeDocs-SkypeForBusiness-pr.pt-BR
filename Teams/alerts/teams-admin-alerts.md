@@ -1,31 +1,26 @@
 ---
-title: Microsoft Teams Monitoramento e alerta
+title: Microsoft Teams Monitoramento e Alerta
 author: vaibhav
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
-f1.keywords: ''
+f1.keywords: null
 ms.localizationpriority: medium
-search.appverid: ''
+search.appverid: null
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 description: Saiba mais sobre os Teams de alertas e notificações disponíveis no Microsoft Teams de administração.
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: f97905320912ec1a63aa4580018c134bed3589c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737467"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams monitoramento e alerta
 
-Os novos recursos de monitoramento e alerta para Microsoft Teams estão disponíveis no Teams de administração. Use diferentes conjuntos de regras disponíveis na seção Notificações **& alertas** no centro de administração Teams para monitorar Teams recursos e receber alertas. Por exemplo, você pode monitorar ativamente a saúde de Teams dispositivos como telefones IP, barras de colaboração e outros se eles ficarem offline inesperadamente.  
+Os novos recursos de monitoramento e alerta para Microsoft Teams estão disponíveis no Teams de administração. Use diferentes conjuntos de regras disponíveis na seção Notificações **& alertas** no centro de administração do Teams para monitorar os recursos Teams e receber alertas. Por exemplo, você pode monitorar ativamente a saúde de Teams dispositivos como telefones IP, barras de colaboração e outros se eles ficarem offline inesperadamente.  
 
 Sua organização pode usar Teams monitoramento e alertas para fazer os seguintes itens:
 

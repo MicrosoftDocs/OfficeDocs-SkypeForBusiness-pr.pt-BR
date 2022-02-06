@@ -1,28 +1,23 @@
 ---
 title: Projetar o tronco SIP para E9-1-1 em Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
-description: Planejando suas topologias de tronco SIP para uma implantação do E9-1-1 que usa provedores de tronco SIP, Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 36362b9ff516f3f15a990d5d70c42c0bea6119b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841023"
+description: 'Planejando suas topologias de tronco SIP para uma implantação do E9-1-1 que usa provedores de tronco SIP, Skype for Business Server Enterprise Voice.'
 ---
+
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Projetar o tronco SIP para E9-1-1 em Skype for Business Server
  
 Planejando suas topologias de tronco SIP para uma implantação do E9-1-1 que usa provedores de tronco SIP, Skype for Business Server Enterprise Voice.

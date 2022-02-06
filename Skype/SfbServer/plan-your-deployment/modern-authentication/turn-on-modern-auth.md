@@ -1,26 +1,21 @@
 ---
 title: Planejando desativar os métodos de autenticação herdou interna e externamente para sua rede
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
-ms.assetid: ''
+ms.assetid: null
 description: Este artigo descreve os cmdlets que dão aos administradores mais controle dos métodos de autenticação usados dentro e fora de uma empresa. Os administradores podem ativar ou desativar os métodos de autenticação internamente ou externamente para sua rede.
-ms.openlocfilehash: 845af6891d7da419ffd6fc5a4f663cfc2b61a01a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835059"
 ---
+
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planejando desativar os métodos de autenticação herdou interna e externamente para sua rede.
 
 > [!NOTE]
@@ -60,13 +55,13 @@ Esses cmdlets serão instalados somente após a atualização cumulativa de julh
 
 __Descrição do tipo 1:__ Esse é o cenário padrão quando o MA está __ligado__ para Skype for Business Server. Em outras palavras, este é o *ponto de partida quando* o MA é configurado.
 
-__Descrição do tipo 2:__ Essa topologia bloqueia o NTLM externamente , mas permite que NTLM ou Kerberos (para clientes que não suportam a ADAL) *funcionem internamente.* Se seus clientes deem suporte ao ADAL, eles usarão a MA internamente.
+__Descrição do tipo 2:__ Essa topologia bloqueia o *NTLM* externamente, mas permite que NTLM ou Kerberos (para clientes que não suportam a ADAL) *funcionem internamente*. Se seus clientes deem suporte ao ADAL, eles usarão a MA internamente.
 
 __Descrição do tipo 3:__ Essa topologia requer MA para todos os usuários. Todos os seus clientes com capacidade ADAL funcionarão nessa topologia, e as senhas não serão aproveitadas se, por exemplo, você desativar o uso de senhas com a Auth baseada em certificado.
 
 __Descrição do tipo 4:__ Essa topologia bloqueia o NTLM *externamente* e o MA internamente. Ele permite que *todos os clientes* usem métodos de autenticação herdado *internamente* (até mesmo clientes com capacidade para ADAL).
 
-__Tipo 5 Descrição:__ *Externamente*, seus clientes modernos ADAL usarão MA e quaisquer clientes que não suportam a ADAL usarão métodos de autenticação herdados. Mas, *internamente,* *todos os clientes* usarão autenticação herdda (incluindo todos os clientes com capacidade ADAL).
+__Tipo 5 Descrição:__ *Externamente*, seus clientes ADAL modernos usarão MA e quaisquer clientes que não suportam a ADAL usarão métodos de autenticação herdados. Mas, *internamente,* *todos os clientes* usarão autenticação herdda (incluindo todos os clientes com capacidade ADAL).
 
 É muito fácil perder o controle da meta de proteger suas senhas nas opções disponíveis. Lembre-se de que a situação ideal é usar a MA externamente (por exemplo, configurando autth baseada em certificado), para evitar ataques dos DOS. Se você aproveitar internamente para seus clientes modernos, você também provará a sua rede em relação aos ataques Skype for Business Server DOS.
 
@@ -79,7 +74,7 @@ Esse cmdlet deve ser executado no nível global do servidor Skype for Business. 
 Se um cliente usa as configurações do Registrador de um pool e as configurações dos Serviços Web de outro pool e as configurações de autenticação estão em um estado inconsistente, talvez os clientes não possam fazer logoff.
 
 Além disso, se houver apenas uma função presente para um pool: 
-* Set- definirá apenas as configurações que correspondem à função existente. Nenhum aviso especial será dado porque algumas configurações não *foram definidas.* 
+* Set- definirá apenas as configurações que correspondem à função existente. Nenhum aviso especial será dado porque algumas configurações não *foram definidas* . 
 * Get- retornará a configuração que corresponde à função existente e as configurações Globais para a função que não existe.
 * Se nenhuma das funções estiver presente para um pool, Set e Get retornarão uma mensagem de erro.
 * Se ambas as funções estão presentes para um pool, mas as políticas não são definidas no nível do pool, Get- retornará uma mensagem de erro.
@@ -108,6 +103,6 @@ Talvez seja mais sensato fazer um Get- para esses valores e para captura de tela
 - Para obter mais informações sobre como usar os comandos ou na CU necessária para instalá-los:
     - [Reunião de cmdlets](https://support.microsoft.com/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
     - [Atualizações para Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) (Geral)
-    - Os componentes principais CU (6.0.9319.534) de julho de [2018 Skype for Business Server 2015](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)
+    - O [Julho de 2018 Skype for Business Server 2015, Componentes Principais CU](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
 
 

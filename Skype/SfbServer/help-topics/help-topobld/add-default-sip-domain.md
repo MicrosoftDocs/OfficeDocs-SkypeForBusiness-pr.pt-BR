@@ -1,27 +1,22 @@
 ---
 title: Adicionar Domínio SIP Padrão
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddDefaultSipDomainPage
+  - ms.lync.tb.AddDefaultSipDomainPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
-description: Especifique o domínio do protocolo SIP principal que receberá suporte da sua implantação. O domínio SIP principal pode ser igual ou diferente do domínio dos Serviços de Domínio do Active Directory. Por exemplo, o domínio do Active Directory pode ser fabrikam.net, e você pode especificar o domínio do protocolo SIP principal como contoso.net.
-ms.openlocfilehash: 318d67b82db768b6af5f563131127ea362748566
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838663"
+description: 'Especifique o domínio do protocolo SIP principal que receberá suporte da sua implantação. O domínio SIP principal pode ser igual ou diferente do domínio dos Serviços de Domínio do Active Directory. Por exemplo, o domínio do Active Directory pode ser fabrikam.net, e você pode especificar o domínio do protocolo SIP principal como contoso.net.'
 ---
+
 # <a name="add-default-sip-domain"></a>Adicionar Domínio SIP Padrão
  
 Especifique o domínio do protocolo SIP principal que receberá suporte da sua implantação. O domínio SIP principal pode ser igual ou diferente do domínio dos Serviços de Domínio do Active Directory. Por exemplo, o domínio do Active Directory pode ser fabrikam.net, e você pode especificar o domínio do protocolo SIP principal como contoso.net.

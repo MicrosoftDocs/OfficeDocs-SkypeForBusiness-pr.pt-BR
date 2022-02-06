@@ -1,25 +1,20 @@
 ---
 title: Certificados AV e OAuth de estágio em Skype for Business Server usando -Roll no Set-CsCertificate
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumo: Estágio AV e certificados OAuth para Skype for Business Server.'
-ms.openlocfilehash: 7eeac29ba322d40d8ab8f70712ecfca5ead5c97d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832105"
 ---
+
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Certificados AV e OAuth de estágio em Skype for Business Server usando -Roll no Set-CsCertificate
  
 **Resumo:** Estágio AV e certificados OAuth para Skype for Business Server.
@@ -34,7 +29,7 @@ Os cmdlets do Shell de Gerenciamento do PowerShell do Skype for Business Server 
 O serviço de Autenticação A/V é responsável pela emissão de tokens que são usados por clientes e outros consumidores A/V. Os tokens são gerados a partir de atributos no certificado e, quando o certificado expirar, a perda de conexão e a necessidade de se reunir com um novo token gerado pelo novo certificado resultarão. Um novo recurso no Skype for Business Server aliviará esse problema - a capacidade de estágio de um novo certificado antes do antigo expirar e permitir que ambos os certificados continuem a funcionar por um período de tempo. Esse recurso usa a funcionalidade atualizada no cmdlet Set-CsCertificate Skype for Business Server Shell de Gerenciamento. O novo parâmetro -Roll, com o parâmetro existente -EffectiveDate, colocará o novo certificado AudioVideoAuthentication no armazenamento de certificados. O certificado AudioVideoAuthentication mais antigo ainda permanecerá para tokens emitidos a serem validados. A partir da colocação do novo certificado AudioVideoAuthentication, ocorrerá a seguinte série de eventos:
   
 > [!TIP]
-> Usando os cmdlets Skype for Business Server Shell de Gerenciamento para gerenciar certificados, você pode solicitar certificados separados e distintos para cada finalidade no Servidor de Borda. Usar o Assistente de Certificado no Assistente de Implantação Skype for Business Server ajuda você na  criação de certificados, mas normalmente é do tipo padrão que casa todos os certificados usa para o Servidor de Borda em um único certificado. A prática recomendada se você for usar o recurso de certificado de rolagem é desacompilar o certificado AudioVideoAuthentication de outras finalidades de certificado. Você pode provisionar e estágio de um certificado do tipo Padrão, mas somente a parte AudioVideoAuthentication do certificado combinado se beneficiará da preparação. Um usuário envolvido em (por exemplo) uma conversa de mensagens instantâneas quando o certificado expirar precisará fazer logoff e fazer logoff novamente para fazer uso do novo certificado associado ao serviço de Borda de Acesso. Comportamento semelhante ocorrerá para um usuário envolvido em uma conferência da Web usando o serviço de Borda de WebConferência. O certificado OAuthTokenIssuer é um tipo específico compartilhado em todos os servidores. Você cria e gerencia o certificado em um só lugar e o certificado é armazenado no armazenamento de Gerenciamento Central para todos os outros servidores.
+> Usando os cmdlets Skype for Business Server Shell de Gerenciamento para gerenciar certificados, você pode solicitar certificados separados e distintos para cada finalidade no Servidor de Borda. Usar o Assistente de Certificado no Assistente de Implantação Skype for Business Server ajuda você na criação de certificados, mas normalmente é do tipo padrão que  casa todos os certificados usa para o Servidor de Borda em um único certificado. A prática recomendada se você for usar o recurso de certificado de rolagem é desacompilar o certificado AudioVideoAuthentication de outras finalidades de certificado. Você pode provisionar e estágio de um certificado do tipo Padrão, mas somente a parte AudioVideoAuthentication do certificado combinado se beneficiará da preparação. Um usuário envolvido em (por exemplo) uma conversa de mensagens instantâneas quando o certificado expirar precisará fazer logoff e fazer logoff novamente para fazer uso do novo certificado associado ao serviço de Borda de Acesso. Comportamento semelhante ocorrerá para um usuário envolvido em uma conferência da Web usando o serviço de Borda de WebConferência. O certificado OAuthTokenIssuer é um tipo específico compartilhado em todos os servidores. Você cria e gerencia o certificado em um só lugar e o certificado é armazenado no armazenamento de Gerenciamento Central para todos os outros servidores.
   
 Detalhes adicionais são necessários para entender totalmente suas opções e requisitos ao usar o cmdlet Set-CsCertificate e usá-lo para estágios de certificados antes da expiração do certificado atual. O parâmetro -Roll é importante, mas essencialmente único. Se você defini-lo como um parâmetro, você estará informando Set-CsCertificate que fornecerá informações sobre o certificado que será afetado definido por -Type (por exemplo, AudioVideoAuthentication e OAuthTokenIssuer), quando o certificado se tornará efetivo definido por -EffectiveDate.
   
@@ -44,7 +39,7 @@ Detalhes adicionais são necessários para entender totalmente suas opções e r
   
 Ao fazer a preparação de certificados OAuthTokenIssuer, há requisitos diferentes para o tempo de entrega antes que o certificado possa ser efetivado. O tempo mínimo que o certificado OAuthTokenIssuer deve ter pelo seu tempo de entrega é de 24 horas antes do tempo de expiração do certificado atual. O tempo de vantagem estendido para a coexistência é devido a outras funções de servidor que dependem do certificado OAuthTokenIssuer (Exchange Server, por exemplo) que tem um tempo de retenção maior para os materiais chave de autenticação e criptografia criados pelo certificado.
   
- **-Thumbprint**: A impressão digital é um atributo no certificado exclusivo desse certificado. O parâmetro -Thumbprint é usado para identificar o certificado que será afetado pelas ações do cmdlet Set-CsCertificate.
+ **-Thumbprint**: a impressão digital é um atributo no certificado exclusivo desse certificado. O parâmetro -Thumbprint é usado para identificar o certificado que será afetado pelas ações do cmdlet Set-CsCertificate.
   
  **-Type**: O parâmetro -Type pode aceitar um único tipo de uso de certificado ou uma lista separada por vírgulas dos tipos de uso do certificado. Os tipos de certificado são aqueles que identificam para o cmdlet e para o servidor qual é a finalidade do certificado. Por exemplo, digite AudioVideoAuthentication para uso pelo serviço de Borda A/V e pelo serviço de Autenticação AV. Se você decidir em estágio e provisionar certificados de um tipo diferente ao mesmo tempo, considere o tempo de entrega mínimo mínimo necessário para os certificados. Por exemplo, você precisa estágio de certificados do tipo AudioVideoAuthentication e OAuthTokenIssuer. Seu mínimo -EffectiveDate deve ser o maior dos dois certificados, nesse caso, o OAuthTokenIssuer, que tem um tempo de entrega mínimo de 24 horas. Se você não quiser estágio do certificado AudioVideoAuthentication com um tempo de vantagem de 24 horas, estabelecia-o separadamente com um EffectiveDate que está mais para seus requisitos.
   
@@ -56,7 +51,7 @@ Ao fazer a preparação de certificados OAuthTokenIssuer, há requisitos diferen
     
 3. Import the new AudioVideoAuthentication certificate to the Edge Server and all other Edge Server in your pool (if you have a pool deployed).
     
-4. Configure o certificado importado com o cmdlet Set-CsCertificate e use o parâmetro -Roll com o parâmetro -EffectiveDate. A data efetiva deve ser definida como o tempo de expiração do certificado atual (14:00:00 ou 14:00:00) menos tempo de vida útil do token (por padrão, oito horas). Isso nos dá uma hora em que o certificado deve ser definido como ativo e é -EffectiveDate \<string\> : "22/07/2015 6:00:00 AM". 
+4. Configure o certificado importado com o cmdlet Set-CsCertificate e use o parâmetro -Roll com o parâmetro -EffectiveDate. A data efetiva deve ser definida como o tempo de expiração do certificado atual (14:00:00 ou 14:00:00) menos tempo de vida útil do token (por padrão, oito horas). Isso nos dá uma hora em que o certificado deve ser definido como ativo e é -EffectiveDate \<string\>: "22/07/2015 6:00:00 AM". 
     
     > [!IMPORTANT]
     > Para um pool de Borda, você deve ter todos os certificados AudioVideoAuthentication implantados e provisionados pela data e hora definidas pelo parâmetro -EffectiveDate do primeiro certificado implantado para evitar possíveis interrupções de comunicações A/V devido ao certificado mais antigo expirar antes que todos os tokens de cliente e consumidor tenham sido renovados usando o novo certificado. 
@@ -87,7 +82,7 @@ Para entender ainda mais o processo que Set-CsCertificate, -Roll e -EffectiveDat
 |**Callout**|**Etapa**|
 |:-----|:-----|
 |1  <br/> |Início: 22/07/2015 12:00:00  <br/> O certificado audiovideoAuthentication atual deve expirar às 14:00:00 em 22/07/2015. Isso é determinado pelo carimbo de data/hora expira no certificado. Planeje a substituição e a substituição do certificado para levar em conta uma sobreposição de 8 horas (tempo de vida do token padrão) antes que o certificado existente atinja o tempo de expiração. O tempo de avanço das 2:00:00 é usado neste exemplo para permitir que o administrador coloque e provisione os novos certificados com antecedência do horário efetivo das 6:00:00.  <br/> |
-|2  <br/> |22/07/2015 2:00:00 - 22/07/2015 05:59:59  <br/> Definir Certificados em Servidores de Borda com tempo efetivo de 6:00:00 (o tempo de vantagem de 4 horas é para este exemplo, mas pode ser maior) usando o Set-CsCertificate \<certificate usage type\> -Type -Thumbprint \<thumbprint of new certificate\> -Roll -EffectiveDate \<datetime string of the effective time for new certificate\>  <br/> |
+|2  <br/> |22/07/2015 2:00:00 - 22/07/2015 05:59:59  <br/> Definir Certificados em Servidores de Borda com tempo efetivo de 6:00:00 (o tempo de vantagem de 4 horas é para este exemplo, mas pode ser maior) usando o Set-CsCertificate -Type \<certificate usage type\> -Thumbprint \<thumbprint of new certificate\> -Roll -EffectiveDate \<datetime string of the effective time for new certificate\>  <br/> |
 |3  <br/> |22/07/2015 06:00 - 22/07/2015 14:00  <br/> Para validar tokens, o novo certificado será experimentado primeiro e, se o novo certificado não validar o token, o certificado antigo será tentado. Esse processo é usado para todos os tokens durante o período de sobreposição de 8 horas (tempo de vida do token padrão).  <br/> |
 |4  <br/> |Fim: 22/07/2015 14:00:01  <br/> O certificado antigo expirou e o novo certificado foi assumido. O certificado antigo pode ser removido com segurança com Remove-CsCertificate -Type \<certificate usage type\> -Previous  <br/> |
    

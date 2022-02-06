@@ -1,27 +1,22 @@
 ---
 title: Diálogo de Inicialização do Construtor de Topologia
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.StartupDialog
+  - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Você inicia o Construtor de Topologias para configurar as propriedades e a configuração da sua implantação. Na inicialização, o Construtor de Topologia exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma de três opções:'
-ms.openlocfilehash: 3474fae9694fe3b2ba5fd2d82c36f63b9ce6c903
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865028"
 ---
+
 # <a name="topology-builder-startup-dialog"></a>Diálogo de Inicialização do Construtor de Topologia
  
 Você inicia o Construtor de Topologias para configurar as propriedades e a configuração da sua implantação. Na inicialização, o Construtor de Topologia exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma de três opções:

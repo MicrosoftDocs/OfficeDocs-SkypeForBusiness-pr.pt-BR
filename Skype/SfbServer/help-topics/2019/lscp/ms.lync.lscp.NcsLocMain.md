@@ -1,27 +1,22 @@
 ---
 title: Política de Local
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.NcsLocMain
+  - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
-ROBOTS: NOINDEX, NOFOLLOW
-description: As políticas de local determinam se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.
-ms.openlocfilehash: 3226a166ee9389501d9c63c71b933601de633f38
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831505"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'As políticas de local determinam se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.'
 ---
+
 # <a name="location-policy"></a>Política de Local
 
 As políticas de local determinam se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.
@@ -35,7 +30,7 @@ As políticas de local incluem a política global e, como opção, uma ou mais p
 - **Políticas de usuário (opcional):** Você pode criar uma ou mais políticas de localização de usuário, cada uma delas se aplica a um usuário ou grupo específico de usuários. As políticas de usuário substituem a política global e as políticas de site.
 
 > [!NOTE]
-> Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes. As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário. Para obter detalhes sobre como atribuir políticas de local [a](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)sites de rede usando cmdlets, consulte Add a location policy to a network site in Skype for Business Server . Para obter detalhes sobre como usar Skype for Business Server Painel de Controle para atribuir uma política de local a um site de rede, consulte [Configuring Network Sites](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
+> Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes. As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário. Para obter detalhes sobre como atribuir políticas de local a sites de rede usando cmdlets, consulte [Add a location policy to a network site in Skype for Business Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Para obter detalhes sobre como usar Skype for Business Server Painel de Controle para atribuir uma política de local a um site de rede, consulte [Configuring Network Sites](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
 
 A página **Política de Local** exibe uma lista de todas as políticas de local definidas para sua organização.
 

@@ -1,7 +1,7 @@
 ---
 title: Planejar o Roteamento baseado na localização para o Roteamento direto
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -11,18 +11,13 @@ search.appverid: MET150
 description: Saiba como planejar o roteamento Location-Based roteamento direto.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 27050469b03c63b11d36150bc6213b84554d6db7
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355650"
+  - Microsoft Teams
 ---
+
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
 ## <a name="overview-of-location-based-routing"></a>Visão geral do Location-Based Routing
@@ -53,7 +48,7 @@ Quando um Teams usuário está habilitado para roteamento Location-Based, o segu
 
 Location-Based routing usa a mesma região de rede, site e definições de sub-rede que Skype for Business Server usa. Quando o desvio de tarifa é restrito para um local, um administrador associa cada sub-rede IP e cada gateway PSTN para esse local a um site de rede. A localização de um usuário é determinada pela sub-rede IP à Teams ponto de extremidade do usuário que estão conectados no momento de uma chamada PSTN. Um usuário pode ter vários clientes Teams localizados em sites diferentes, nesse caso, Location-Based Routing impõe o roteamento de cada cliente separadamente, dependendo do local de seu ponto de extremidade. 
 
-Para se familiarizar com algumas das terminologias de rede usadas neste artigo, consulte Configurações de rede para recursos de voz na [nuvem em Teams](cloud-voice-network-settings.md).
+Para se familiarizar com algumas das terminologias de rede usadas neste artigo, consulte Configurações de rede para [recursos de voz na nuvem em Teams](cloud-voice-network-settings.md).
 
 ## <a name="apply-location-based-routing"></a>Aplicar Location-Based roteamento
 
@@ -132,7 +127,7 @@ Em comparação, os usuários habilitados para Location-Based Roteamento só pod
 
 Quando um ponto de extremidade PSTN está envolvido, o Location-Based Routing analisa se um ou ambos os usuários estão habilitados para roteamento Location-Based e determina se a chamada deve ser transferida ou encaminhada dependendo do local dos dois pontos de extremidade. 
  
-A transferência de chamada exige que o usuário iniciador atenda a chamada enquanto o encaminhamento de chamada não exige que a chamada inicial seja atendida. Isso significa que as chamadas podem ser encaminhadas mesmo se User1 não estiver em um local para receber chamadas de entrada (consulte a tabela no Teams o usuário recebe uma chamada de entrada da seção [PSTN)](#teams-user-receives-an-inbound-call-from-the-pstn) e as chamadas não poderão ser transferidas se User1 não puder receber a chamada de entrada. 
+A transferência de chamada exige que o usuário iniciador atenda a chamada enquanto o encaminhamento de chamada não exige que a chamada inicial seja atendida. Isso significa que as chamadas podem ser encaminhadas mesmo se User1 não estiver em um local para receber chamadas de entrada (consulte a tabela no Teams usuário recebe uma chamada de entrada da seção [PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)) e as chamadas não poderão ser transferidas se User1 não puder receber a chamada de entrada. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuário não habilitado para roteamento Location-Based usuário
 
@@ -220,8 +215,8 @@ O encaminhamento para a caixa postal também é permitido.
 ### <a name="delegation"></a>Delegação
 
 Um Teams usuário pode escolher representantes que podem fazer e receber chamadas em seu nome. Os recursos de delegação Teams são afetados pela Location-Based roteamento da seguinte forma: 
-- Para chamadas de saída de um representante Location-Based roteamento habilitado em nome de um representante, as mesmas regras se aplicam. O roteamento de chamadas se baseia na política de autorização de chamada do representante, na política de roteamento de voz e no local. Para obter mais informações, consulte Teams usuário coloca uma chamada de [saída para o PSTN](#teams-user-places-an-outbound-call-to-the-pstn). 
-- Para chamadas PSTN de entrada para um delegator, as mesmas regras de roteamento Location-Based que se aplicam ao encaminhamento de chamadas ou ao toque simultâneo a outros usuários também se aplicam aos representantes. Para obter mais informações, consulte Teams user transfers or [forwards call to](#teams-user-transfers-or-forwards-call-to-another-teams-user)another Teams user , [Teams user transfers or forwards call to PSTN endpoint](#teams-user-transfers-or-forwards-call-to-pstn-endpoint), and [Simultaneous ringing](#simultaneous-ringing). Quando um representante define um ponto de extremidade PSTN como um destino de anel simultâneo, a política de roteamento de voz do representante é usada para rotear a chamada para a PSTN. 
+- Para chamadas de saída de um representante Location-Based roteamento habilitado em nome de um representante, as mesmas regras se aplicam. O roteamento de chamadas se baseia na política de autorização de chamada do representante, na política de roteamento de voz e no local. Para obter mais informações, [consulte Teams usuário coloca uma chamada de saída para o PSTN](#teams-user-places-an-outbound-call-to-the-pstn). 
+- Para chamadas PSTN de entrada para um delegator, as mesmas regras de roteamento Location-Based que se aplicam ao encaminhamento de chamadas ou ao toque simultâneo a outros usuários também se aplicam aos representantes. Para obter mais informações, consulte [Teams transferências ou encaminhamentos](#teams-user-transfers-or-forwards-call-to-another-teams-user) de chamada de usuário para outro usuário Teams, Teams usuário transfere ou encaminha chamada para o ponto de extremidade [PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) e toque [simultâneo.](#simultaneous-ringing) Quando um representante define um ponto de extremidade PSTN como um destino de anel simultâneo, a política de roteamento de voz do representante é usada para rotear a chamada para a PSTN. 
 - Para delegação, é recomendável que o representante e os delegados associados sejam localizados no mesmo site de rede. 
 
 ## <a name="other-planning-considerations"></a>Outras considerações de planejamento
@@ -257,7 +252,7 @@ Em uma chamada de conferência iniciada por um usuário sem uma licença de conf
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de bypass de mídia para Location-Based Routing
 
-Se você estiver implantando Location-Based roteamento na Índia, é um requisito também configurar o bypass de mídia. Para saber mais, confira [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and Local Media Optimization for Direct [Routing](direct-routing-media-optimization.md).
+Se você estiver implantando Location-Based roteamento na Índia, é um requisito também configurar o bypass de mídia. Para saber mais, confira [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md).
 
 ### <a name="direct-voice-over-ip-voip"></a>Direct Voice sobre IP (VoIP)
 

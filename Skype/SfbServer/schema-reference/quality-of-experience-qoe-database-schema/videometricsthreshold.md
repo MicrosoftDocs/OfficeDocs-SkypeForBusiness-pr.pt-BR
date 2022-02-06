@@ -1,31 +1,26 @@
 ---
 title: Tabela VideoMetricsThreshold
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 description: A tabela VideoMetricsThreshold contém os melhores valores e aceitáveis para as métricas de Qualidade da Experiência usada com chamadas de vídeo.
-ms.openlocfilehash: e0a482a0d89086463585b51e7cd6912a593ef412
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846994"
 ---
+
 # <a name="videometricsthreshold-table"></a>Tabela VideoMetricsThreshold
  
 A tabela VideoMetricsThreshold contém os melhores valores e aceitáveis para as métricas de Qualidade da Experiência usada com chamadas de vídeo.
   
 
-| **Column**                                               | **Tipo de dados**       | **Chave/Índice**  | **Detalhes**                          |
+| **Coluna**                                               | **Tipo de dados**       | **Chave/Índice**  | **Detalhes**                          |
 |:---------------------------------------------------------|:--------------------|:---------------|:-------------------------------------|
 | **CallType** <br/>                                       | int  <br/>          | Primário  <br/> | Tipo de chamada realizada.  <br/> |
 | **VideoPostFECPLROptimal** <br/>                         | decimal(5,2)  <br/> |                | O valor padrão é 0.05.  <br/>    |

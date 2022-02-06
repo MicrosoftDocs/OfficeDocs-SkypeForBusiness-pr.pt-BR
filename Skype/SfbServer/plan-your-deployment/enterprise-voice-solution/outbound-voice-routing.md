@@ -1,35 +1,30 @@
 ---
 title: Planejar o roteamento de voz de saída Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
-description: Saiba mais sobre roteamento de voz de saída em Skype for Business Server Enterprise Voice, incluindo configurações de roteamento de chamadas, planos de discagem, regras de normalização, políticas de voz, registros de uso de PSTN e rotas de voz.
-ms.openlocfilehash: 1c8331f1959b03166ecd02b65e6fa1080bb43993
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861068"
+description: 'Saiba mais sobre roteamento de voz de saída em Skype for Business Server Enterprise Voice, incluindo configurações de roteamento de chamadas, planos de discagem, regras de normalização, políticas de voz, registros de uso de PSTN e rotas de voz.'
 ---
+
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planejar o roteamento de voz de saída Skype for Business Server
  
 Saiba mais sobre roteamento de voz de saída em Skype for Business Server Enterprise Voice, incluindo configurações de roteamento de chamadas, planos de discagem, regras de normalização, políticas de voz, registros de uso de PSTN e rotas de voz.
   
 O roteamento de chamadas de saída se aplica Enterprise Voice chamadas destinadas a um gateway PSTN (rede telefônica pública comutado), tronco ou pbx (troca de filial privada). Quando um Skype for Business faz uma chamada, o servidor normaliza o número de telefone para o formato E.164, se necessário, e tenta corresponder a ele a um URI SIP. Se o servidor não conseguir fazer a correspondência, ele aplicará a lógica de roteamento de chamadas de saída baseada na cadeia de caracteres de discagem especificada. Especifique essa lógica definindo as configurações do servidor descritas na tabela a seguir.
   
-**Skype for Business Server Roteamento de chamadas de saída Configurações**
+**Skype for Business Server roteamento de chamadas de saída Configurações**
 
 |**Objeto**|**Descrição**|
 |:-----|:-----|
@@ -56,11 +51,11 @@ Os clientes obtém níveis de escopo do plano de discagem por meio de configura�
   
 Os níveis de escopo do plano de discagem são definidos como a seguir:
   
-- **Plano de discagem do** usuário : pode ser atribuído a usuários individuais, grupos ou objetos de contato. Os aplicativos de voz podem procurar um plano de discagem por usuário quando uma chamada é recebida com o contexto de telefone definido como padrão do usuário. Para atribuir um plano de discagem, um objeto de contato é tratado como um usuário individual.
+- **Plano de discagem do** usuário: pode ser atribuído a usuários individuais, grupos ou objetos de contato. Os aplicativos de voz podem procurar um plano de discagem por usuário quando uma chamada é recebida com o contexto de telefone definido como padrão do usuário. Para atribuir um plano de discagem, um objeto de contato é tratado como um usuário individual.
     
 - **Plano de discagem do pool**: pode ser criado no nível de serviço para qualquer gateway PSTN ou Registrador na sua topologia. Para definir um plano de discagem do pool, você deve especificar o serviço (gateway PSTN ou pool do Registrador) ao qual o plano de discagem se aplica. 
     
-- **Plano de discagem** de site : pode ser criado para um site inteiro, exceto para quaisquer usuários, grupos ou objetos de contato atribuídos a um plano de discagem de pool ou plano de discagem do usuário. Para definir um plano de discagem local, você deve especificar o local ao qual o plano de discagem é aplicado.
+- **Plano de discagem** de site: pode ser criado para um site inteiro, exceto para quaisquer usuários, grupos ou objetos de contato atribuídos a um plano de discagem de pool ou plano de discagem do usuário. Para definir um plano de discagem local, você deve especificar o local ao qual o plano de discagem é aplicado.
     
 - **Plano de discagem global**: o plano de discagem padrão instalado com o produto. É possível editar o plano de discagem global, mas não exclui-lo. Esse plano de discagem se aplica a todos os Enterprise Voice, grupos e objetos de contato em sua implantação, a menos que você configure e atribua um plano de discagem com um escopo mais específico.
     
@@ -106,7 +101,7 @@ Se você estiver implantando a conferência discada, precisará especificar uma 
   
 #### <a name="external-access-prefix"></a>Prefixo de acesso externo
 
-Você pode especificar um prefixo de acesso externo de até quatro caracteres (#, , e 0-9) se os usuários precisarem discar um ou mais dígitos principais \* adicionais (por exemplo, 9) para obter uma linha externa.
+Você pode especificar um prefixo de acesso externo de até quatro caracteres (#, \*, e 0-9) se os usuários precisarem discar um ou mais dígitos principais adicionais (por exemplo, 9) para obter uma linha externa.
   
 > [!NOTE]
 > Se você especificar um prefixo de acesso externo, não é necessário criar uma regra de normalização adicional para acomodar o prefixo. 
@@ -149,16 +144,16 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 |**Nome da regra**|**Descrição**|**Padrão de número**|**Tradução**|**Exemplo**|
 |:-----|:-----|:-----|:-----|:-----|
 |4digitExtension  <br/> |Converte extensões de 4 dígitos  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |0100 é convertido em +14255550100  <br/> |
-|5digitExtension  <br/> |Converte extensões de 5 dígitos  <br/> |^5(\d {4} )$  <br/> |+1425555$1  <br/> |50100 é convertido em +14255550100  <br/> |
+|5digitExtension  <br/> |Converte extensões de 5 dígitos  <br/> |^5(\d{4})$  <br/> |+1425555$1  <br/> |50100 é convertido em +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |Converte números de 7 dígitos para números locais de Redmond  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |5550100 é convertido em +14255550100  <br/> |
 |7digitcallingDallas  <br/> |Converte números de 7 dígitos para números locais de Dallas  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 é convertido em +19725550100  <br/> |
 |10digitcallingUS  <br/> |Converte números de 10 dígitos nos Estados Unidos  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 é convertido em +12065550100  <br/> |
-|LDCallingUS  <br/> |Converte números com prefixos de longa distância nos Estados Unidos  <br/> |^1(\d {10} )$  <br/> |+$1  <br/> |12145550100 é convertido em +2145550100  <br/> |
-|IntlCallingUS  <br/> |Converte números com prefixos internacionais nos Estados Unidos  <br/> |^011(\d \* )$  <br/> |+$1  <br/> |01191445550100 é convertido em +91445550100  <br/> |
+|LDCallingUS  <br/> |Converte números com prefixos de longa distância nos Estados Unidos  <br/> |^1(\d{10})$  <br/> |+$1  <br/> |12145550100 é convertido em +2145550100  <br/> |
+|IntlCallingUS  <br/> |Converte números com prefixos internacionais nos Estados Unidos  <br/> |^011(\d\*)$  <br/> |+$1  <br/> |01191445550100 é convertido em +91445550100  <br/> |
 |RedmondOperator  <br/> |Converte 0 no operador de Redmond  <br/> |^0$  <br/> |+14255550100  <br/> |0 é convertido em +14255550100  <br/> |
-|RedmondSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Redmond (222)  <br/> |^6222(\d {4} )$  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
-|NYSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Nova York (333)  <br/> |^6333(\d {4} )$  <br/> |+1202555$1  <br/> |63330100 é convertido em +12025550100  <br/> |
-|DallasSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Dallas (444)  <br/> |^6444(\d {4} )$  <br/> |+1972555$1  <br/> |64440100 é convertido em +19725550100  <br/> |
+|RedmondSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Redmond (222)  <br/> |^6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
+|NYSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Nova York (333)  <br/> |^6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 é convertido em +12025550100  <br/> |
+|DallasSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Dallas (444)  <br/> |^6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 é convertido em +19725550100  <br/> |
    
 A tabela a seguir ilustra um exemplo de plano de discagem para Redmond, Washington, Estados Unidos, baseado nas regras de normalização mostradas na tabela anterior.
   
@@ -231,11 +226,11 @@ Escopo da política de voz determina o nível hierárquico no qual a política p
     
 - **Substituição da política de largura de banda** permite que os administradores substituam as decisões da política de controle de admissão de chamada para um usuário específico. Desabilitada por padrão.
     
-- **O rastreamento de chamadas** mal-intencionadas permite que os usuários reportem chamadas mal-intencionadas usando o cliente Skype for Business e, em seguida, sinaliza essas chamadas nos registros de detalhes da chamada. Desabilitado por padrão.
+- **O rastreamento de chamadas mal-intencionadas** permite que os usuários reportem chamadas mal-intencionadas usando o cliente Skype for Business e, em seguida, sinaliza essas chamadas nos registros de detalhes da chamada. Desabilitado por padrão.
     
 - A **saída** de caixa postal impede que as chamadas são roteadas imediatamente para o sistema de caixa postal do telefone celular do usuário quando o toque simultâneo é configurado e o telefone está desligado, sem bateria ou fora do intervalo, e se baseia em um valor de timer. Esta configuração habilita e desabilita o temporizador e define o valor dele. Ele só pode ser configurado usando o Shell de Gerenciamento Skype for Business Server gerenciamento. Desabilitado por padrão.
     
-- Os usos de **PSTN** de encaminhamento de chamadas e toque simultâneo permitem que os administradores especifiquem o mesmo uso PSTN da política de voz para encaminhamento de chamadas e toque simultâneo, restrinja o encaminhamento de chamadas e toque simultâneo para usuários internos do Skype for Business ou especifique um uso PSTN personalizado diferente do uso PSTN da política de voz. O padrão é usar o mesmo uso de PSTN que a política de voz para encaminhamento de chamadas e toque simultâneo.
+- Os **usos de PSTN** de encaminhamento de chamadas e toque simultâneo permitem que os administradores especifiquem o mesmo uso PSTN da política de voz para encaminhamento de chamadas e toque simultâneo, restrinja o encaminhamento de chamadas e toque simultâneo para usuários internos do Skype for Business ou especifique um uso PSTN personalizado diferente do uso PSTN da política de voz. O padrão é usar o mesmo uso de PSTN que a política de voz para encaminhamento de chamadas e toque simultâneo.
     
 ### <a name="pstn-usage-records"></a>Registros de uso de PSTN
 

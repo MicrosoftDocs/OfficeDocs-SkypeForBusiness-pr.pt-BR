@@ -1,31 +1,26 @@
 ---
 title: Assistente híbrido Entre no Microsoft 365 ou Office 365
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.HybridSignIntoO365
+  - ms.lync.lscp.HybridSignIntoO365
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection:
-- Ent_O365_Hybrid
-- IT_Skype16
-- IT_Skype4B_Hybrid
+  - Ent_O365_Hybrid
+  - IT_Skype16
+  - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: Use o assistente Skype for Business Server de Gerenciamento Híbrido para ajudá-lo a configurar seu ambiente para híbrido com Skype for Business Online.
-ms.openlocfilehash: 465aac08efcf14b60efba83219d094faea5eaa77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847794"
 ---
+
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Assistente híbrido: entre no Microsoft 365 ou Office 365
 
 Use o assistente Skype for Business Server de Gerenciamento Híbrido para ajudá-lo a configurar seu ambiente para híbrido com Skype for Business Online.

@@ -1,29 +1,24 @@
 ---
 title: Novidades no Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 'Resumo: leia este tópico para saber mais sobre novos recursos no Skype for Business Server 2015. Para obter informações detalhadas sobre a nova experiência do cliente, consulte Lync agora Skype for Business -- confira novidades.'
-ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829745"
 ---
+
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Novidades no Skype for Business Server 2015
 
-**Resumo:** Leia este tópico para saber mais sobre novos recursos no Skype for Business Server 2015. Para obter informações detalhadas sobre a nova experiência do cliente, consulte [Lync agora Skype for Business -- consulte novidades](https://go.microsoft.com/fwlink/p/?LinkId=529022).
+**Resumo:** Leia este tópico para saber mais sobre novos recursos no Skype for Business Server 2015. Para obter informações detalhadas sobre a nova experiência do cliente, consulte [Lync agora Skype for Business -- confira novidades](https://go.microsoft.com/fwlink/p/?LinkId=529022).
   
 O Lync agora Skype for Business, uma plataforma de comunicação e colaboração que reúne uma experiência inspirada pelo Skype com a segurança, a conformidade e o controle de nível empresarial do Lync. Skype for Business oferece recursos, incluindo presença, mensagens de IM, chamadas de voz e vídeo e reuniões online. Skype for Business fornece uma nova experiência de cliente, uma nova versão do servidor e atualizações para o serviço em Microsoft 365 ou Office 365. Se os usuários em sua organização já estão familiarizados com o Skype, eles apreciarão o poder e a simplicidade do Skype for Business onde é fácil encontrar e se conectar com colegas de trabalho. Se os usuários em sua organização estão vindo para Skype for Business do Lync, eles reconhecerão todos os recursos que já usam, mas em uma nova interface nova com controles simplificados e novas adições. Além da nova experiência do cliente, o Skype for Business Server 2015 fornece vários novos recursos para melhorar a capacidade de gerenciamento de servidores locais e soluções híbridas.
   
@@ -40,7 +35,7 @@ Novos recursos no Skype for Business Server 2015 incluem melhorias para:
 
 O Skype for Business cliente é muito semelhante à versão de consumidor do Skype e usa os mesmos botões e ícones. Menos menus e uma hierarquia de tarefas simples facilitam para os usuários encontrar rapidamente os controles e comandos necessários. 
   
-Skype for Business inclui a nova experiência do usuário descrita acima e a experiência do usuário do Lync 2013 lançada anteriormente. A inclusão de ambas as experiências permite que as empresas gerenciem as alterações para seus usuários controlando o processo e o tempo da nova versão do cliente. A experiência do usuário padrão depende de qual versão do servidor você está usando. Os administradores escolhem a experiência preferencial usando o cmdlet **Set-CsClientPolicy** com o parâmetro EnableSkypeUI. Para obter mais informações sobre como configurar a experiência do cliente, consulte [Configure the client experience with Skype for Business](deploy/deploy-clients/configure-the-client-experience.md) and Desktop client feature comparison for [Skype for Business](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
+Skype for Business inclui a nova experiência do usuário descrita acima e a experiência do usuário do Lync 2013 lançada anteriormente. A inclusão de ambas as experiências permite que as empresas gerenciem as alterações para seus usuários controlando o processo e o tempo da nova versão do cliente. A experiência do usuário padrão depende de qual versão do servidor você está usando. Os administradores escolhem a experiência preferencial usando o cmdlet **Set-CsClientPolicy** com o parâmetro EnableSkypeUI. Para obter mais informações sobre como configurar a experiência do cliente, consulte [Configure the client experience with Skype for Business](deploy/deploy-clients/configure-the-client-experience.md) and [Desktop client feature comparison for Skype for Business](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
   
 > [!NOTE]
 > A experiência do cliente do Lync 2013 não é uma opção para Skype for Business versões do cliente 2016. Antes de tentar configurar seu ambiente cliente para usar o cliente Lync 2013, verifique a versão do cliente para garantir que ele não comece com o número 16; por exemplo: 16.x.x.x. 
@@ -110,7 +105,7 @@ Há dois cenários para atualização in-locar: o método Move User, que não re
   
 ### <a name="smart-setup"></a>Instalação Inteligente
 
-O recurso de Instalação Inteligente, que detecta e baixa automaticamente as atualizações, agora faz parte do programa de Instalação. Durante o processo de instalação, o usuário é perguntado se o processo de instalação deve verificar se há atualizações. Para obter mais informações, [consulte Install Skype for Business Server 2015](deploy/install/install.md).
+O recurso de Instalação Inteligente, que detecta e baixa automaticamente as atualizações, agora faz parte do programa de Instalação. Durante o processo de instalação, o usuário é perguntado se o processo de instalação deve verificar se há atualizações. Para obter mais informações, consulte [Install Skype for Business Server 2015](deploy/install/install.md).
   
 ### <a name="improved-front-end-server-patching-and-upgrade-process"></a>Processo de atualização e correção aprimorado do Servidor front-end
 
@@ -120,15 +115,15 @@ Quando você precisar aplicar um patch ou executar qualquer outra manutenção, 
   
 ### <a name="improved-front-end-pool-cold-start-capability"></a>Funcionalidade de início a frio do pool front-end aprimorado
 
-Skype for Business Server apresenta um novo cmdlet que simplifica e melhora o processo de iniciar a frio todo um pool de Front-End. Quando você usa o novo cmdlet **Start-CsPool,** ele verifica os pré-requisitos de todos os Servidores Front-End no pool e tenta iniciar cada servidor. Se encontrar algum problema, ele os diagnosticará e o alertará com detalhes e soluções alternativas. Em alguns casos, ele permite que você inicie o pool mesmo que alguns dos servidores individuais não sejam capazes de iniciar.
+Skype for Business Server apresenta um novo cmdlet que simplifica e melhora o processo de iniciar a frio todo um pool de Front-End. Quando você usa o novo cmdlet **Start-CsPool** , ele verifica os pré-requisitos de todos os Servidores Front-End no pool e tenta iniciar cada servidor. Se encontrar algum problema, ele os diagnosticará e o alertará com detalhes e soluções alternativas. Em alguns casos, ele permite que você inicie o pool mesmo que alguns dos servidores individuais não sejam capazes de iniciar.
   
-### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server Suporte AlwaysOn para servidores locais
+### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server suporte AlwaysOn para servidores locais
 
 Skype for Business Server 2015 adiciona suporte SQL Server Grupos de Disponibilidade AlwaysOn e SQL Server Instâncias de Cluster de Failover AlwaysOn. Além desses recursos, o Skype for Business Server continua o suporte para espelhamento de banco de dados e SQL Server clustering, como nas versões anteriores do Lync Server.
   
-SQL Server Grupos de Disponibilidade AlwaysOn é uma solução de alta disponibilidade e recuperação de desastres no SQL Server 2012 e SQL Server 2014 que fornece uma alternativa ao espelhamento de banco de dados. Um grupo de disponibilidade oferece suporte a um ambiente de failover para um conjunto discreto de bancos de dados (conhecidos como bancos de dados de disponibilidade) que falham juntos. Um grupo de disponibilidade oferece suporte a um conjunto de bancos de dados primários de leitura e gravação e um a quatro conjuntos de bancos de dados secundários correspondentes. Opcionalmente, bancos de dados secundários podem ser disponibilizados para acesso somente leitura e para algumas operações de backup.
+SQL Server Grupos de Disponibilidade AlwaysOn é uma solução de recuperação de desastres e alta disponibilidade no SQL Server 2012 e SQL Server 2014 que fornece uma alternativa ao espelhamento de banco de dados. Um grupo de disponibilidade oferece suporte a um ambiente de failover para um conjunto discreto de bancos de dados (conhecidos como bancos de dados de disponibilidade) que falham juntos. Um grupo de disponibilidade oferece suporte a um conjunto de bancos de dados primários de leitura e gravação e um a quatro conjuntos de bancos de dados secundários correspondentes. Opcionalmente, bancos de dados secundários podem ser disponibilizados para acesso somente leitura e para algumas operações de backup.
   
-SQL Server As Instâncias de Cluster de Failover aproveitam Windows funcionalidade WSFC (Clustering de Failover do Servidor) para fornecer alta disponibilidade local por meio de redundância no nível da instância do servidor — uma instância de cluster de failover (FCI). Um FCI é uma única instância de SQL Server que é instalada nos nós do WSFC (Cluster de Failover do Servidor) do Windows e, possivelmente, em várias sub-redes.
+SQL Server Instâncias de Cluster de Failover aproveitam Windows funcionalidade WSFC (Clustering de Failover do Servidor) para fornecer alta disponibilidade local por meio de redundância no nível da instância do servidor— uma instância de cluster de failover (FCI). Um FCI é uma única instância de SQL Server que é instalada nos nós do WSFC (Cluster de Failover do Servidor) do Windows e, possivelmente, em várias sub-redes.
   
 Para obter mais informações, [consulte Plan for high availability and disaster recovery in Skype for Business Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
@@ -140,7 +135,7 @@ Skype for Business Server 2015 usa Windows PowerShell cmdlets para gerenciar os 
   
 O Serviço de Log Centralizado pode ser executado em qualquer Skype for Business Server 2015. Os cenários integrados (rastreamentos pré-definidos) permanecem os mesmos, assim como a capacidade de criar cenários personalizados. Há um cenário especial chamado AlwaysOn que está sempre em execução e permite que os administradores localizem problemas comuns em quase tempo real.
   
-A ferramenta de depuração snooper também foi atualizada para permitir a depuração de logs de mobilidade e funcionará com dispositivos que se conectam ao Lync 2013 ou Skype for Business Server 2015. A ferramenta está disponível como um download da Web das ferramentas [de Depuração.](https://go.microsoft.com/fwlink/?LinkId=285257)
+A ferramenta de depuração snooper também foi atualizada para permitir a depuração de logs de mobilidade e funcionará com dispositivos que se conectam ao Lync 2013 ou Skype for Business Server 2015. A ferramenta está disponível como download da Web a partir [de ferramentas de Depuração](https://go.microsoft.com/fwlink/?LinkId=285257).
   
 ## <a name="hybrid-deployment-and-management"></a>Implantação híbrida e gerenciamento
 

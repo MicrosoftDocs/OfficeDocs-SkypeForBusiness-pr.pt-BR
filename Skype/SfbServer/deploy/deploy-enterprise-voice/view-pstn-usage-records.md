@@ -1,28 +1,23 @@
 ---
 title: Exibir registros de uso de PSTN em Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Resumo: saiba como exibir registros de uso PSTN usando o Painel de Controle Skype for Business Server ou o Shell de Gerenciamento Skype for Business Server.'
-ms.openlocfilehash: f5da972c6a8403a89764433c898c8717dd0630a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850384"
 ---
+
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Exibir registros de uso de PSTN em Skype for Business
 
 **Resumo:** Saiba como exibir registros de uso de PSTN usando o Painel de Controle Skype for Business Server ou o Shell de Gerenciamento Skype for Business Server.
@@ -33,9 +28,9 @@ Um registro de uso PSTN (Rede Telefônica Pública Comutado) especifica uma clas
 
 1. Abra Skype for Business Server Painel de Controle.
 
-2. Na barra de navegação esquerda, clique em **Roteamento** de Voz e clique em **Uso PSTN.**
+2. Na barra de navegação esquerda, clique em **Roteamento** de Voz e clique em **Uso de PSTN**.
 
-3. Na página **Uso PSTN,** realça o registro de uso PSTN que você deseja exibir, clique em **Editar** e clique em **Mostrar detalhes**.
+3. Na página **Uso PSTN** , realça o registro de uso PSTN que você deseja exibir, clique em **Editar** e clique em **Mostrar detalhes**.
 
     > [!NOTE]
     > Uma página somente leitura do registro de uso PSTN selecionado mostra as rotas associadas e as políticas de voz associadas.

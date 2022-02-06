@@ -1,27 +1,22 @@
 ---
 title: Usuários Editar Usuário
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.UserEdit
+  - ms.lync.lscp.UserEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 4a0f13e0dbe92bbd27c485f0da571cefa604e17a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833707"
 ---
+
 # <a name="users-edit-user"></a>Usuários: Editar Usuário
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.

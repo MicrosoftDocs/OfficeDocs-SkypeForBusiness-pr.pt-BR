@@ -1,7 +1,7 @@
 ---
 title: Script do PowerShell para testar conexões do Controlador de Borda de Sessão de Roteamento Direto
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
@@ -11,18 +11,13 @@ description: Use este exemplo de script do PowerShell para testar conexões de C
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-voice
+  - M365-voice
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: bd2d0aa4a22e306d08ce215341e6e0a32efb100c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837463"
+  - Microsoft Teams
 ---
+
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Script do PowerShell para testar conexões do Controlador de Borda de Sessão de Roteamento Direto
 
 O cliente do Testador SIP é um script do PowerShell de exemplo que você pode usar para testar conexões SBC (Direct Routing Session Border Controller) no Microsoft Teams. Este script testa a funcionalidade básica de um tronco SIP (Protocolo de Iniciação de Sessão) emparelhado ao cliente com Roteamento Direto.
@@ -36,7 +31,7 @@ O script envia um teste SIP para o testador, aguarda o resultado e o apresenta e
 
 ## <a name="download-the-script-and-documentation"></a>Baixar o script e a documentação
 
-Baixe o [script e a documentação do cliente do Testador SIP.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)
+Baixe o [script e a documentação do cliente do Testador SIP](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).
 
   > [!NOTE]
   > O script de cliente do testador SIP só dá suporte adal.ps versão 3.19.8.1. Um erro será retornado se uma versão posterior do adal.ps for usada.

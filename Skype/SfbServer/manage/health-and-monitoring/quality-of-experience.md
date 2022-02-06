@@ -1,24 +1,19 @@
 ---
 title: Qualidade da Experiência (QoE) no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: 'Resumo: Gerenciar Qualidade de Experiência (QoE) em Skype for Business Server.'
-ms.openlocfilehash: b8b50567efcc46cc1938174e150754313b0690e1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828774"
 ---
+
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>Qualidade da Experiência (QoE) no Skype for Business Server
  
 **Resumo:** Gerenciar Qualidade de Experiência (QoE) em Skype for Business Server.

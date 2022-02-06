@@ -1,27 +1,22 @@
 ---
 title: Nó de Escopo de Aparelho de Filial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.BranchOfficeApplianceScopeNode
+  - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), pools e servidores associados e informações de resiliência sobre esse Aparelho de Filial Desavivável. É possível executar as seguintes ações:'
-ms.openlocfilehash: 229ac07533334562a8b1f2cb956bfdd8b47e0282
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840083"
 ---
+
 # <a name="branch-office-appliance-scope-node"></a>Nó de Escopo de Aparelho de Filial
  
 Este nó mostra o FQDN (nome de domínio totalmente qualificado), pools e servidores associados e informações de resiliência sobre esse Aparelho de Filial Desavivável. É possível executar as seguintes ações:

@@ -1,25 +1,20 @@
 ---
 title: TLS e MTLS para Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 description: Os protocolos TLS (Transport Layer Security) e Mutual Transport Layer Security (MTLS) fornecem comunicações criptografadas e autenticação de ponto de extremidade na Internet. Skype for Business Server usa esses dois protocolos para criar a rede de servidores confiáveis e garantir que todas as comunicações dessa rede sejam criptografadas. Todas as comunicações SIP entre servidores ocorrem por MTLS. As comunicações SIP de cliente para servidor ocorrem por TLS.
-ms.openlocfilehash: 7156df69c8c01e97a1feabfb92cd0c2330083899
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864618"
 ---
+
 # <a name="tls-and-mtls-for-skype-for-business-server"></a>TLS e MTLS para Skype for Business Server
  
 Os protocolos TLS (Transport Layer Security) e Mutual Transport Layer Security (MTLS) fornecem comunicações criptografadas e autenticação de ponto de extremidade na Internet. Skype for Business Server usa esses dois protocolos para criar a rede de servidores confiáveis e garantir que todas as comunicações dessa rede sejam criptografadas. Todas as comunicações SIP entre servidores ocorrem por MTLS. As comunicações SIP de cliente para servidor ocorrem por TLS.
@@ -28,6 +23,6 @@ O TLS permite que os usuários, por meio de seu software cliente, autententem os
   
 As conexões de servidor para servidor dependem de MTLS para autenticação mútua. Em uma conexão MTLS, o servidor que origina uma mensagem e o servidor que a recebe troca certificados de uma CA mutuamente confiável. Os certificados provam a identidade de cada servidor para o outro. Em implantações Skype for Business Server, certificados emitidos pela AC corporativa que estão durante o período de validade e não revogados pela CA de emissão são automaticamente considerados válidos por todos os clientes e servidores internos, pois todos os membros de um domínio do Active Directory confiam na CA Enterprise nesse domínio. Em cenários federados, a AC em emissão deve ser confiável por ambos os parceiros federados. Cada parceiro pode usar uma CA diferente, se desejado, desde que essa AC também seja confiável pelo outro parceiro. Essa confiança é mais facilmente realizada pelos Servidores de Borda que têm o certificado de AC raiz do parceiro em suas CAs raiz confiáveis ou pelo uso de uma AC de terceiros que é confiável por ambas as partes.
   
-O TLS e o MTLS ajudam a evitar ataques de escuta e man-in-the-middle. Em um ataque man-in-the-middle, o invasor redireciona as comunicações entre duas entidades de rede por meio do computador do invasor sem o conhecimento de nenhuma das partes. O TLS e Skype for Business Server especificação de servidores confiáveis (somente aqueles especificados no Construtor de Topologias) atenuam o risco de um ataque intermediário parcialmente na camada do aplicativo usando criptografia de ponta a ponta coordenada usando a criptografia de Chave Pública entre os dois pontos de extremidade, e um invasor teria que ter um certificado válido e confiável com a chave privada correspondente e emitido para o nome do serv ice para o qual o cliente está se comunicando para descriptografar a comunicação. Por fim, no entanto, você deve seguir as práticas recomendadas de segurança com sua infraestrutura de rede (nesse caso, DNS corporativo). Skype for Business Server supõe que o servidor DNS seja confiável da mesma forma que os controladores de domínio e catálogos globais são confiáveis, mas o DNS fornece um nível de proteção contra ataques de seqüestro DNS impedindo que o servidor de um invasor respondesse com êxito a uma solicitação ao nome falso.
+O TLS e o MTLS ajudam a evitar ataques de escuta e man-in-the-middle. Em um ataque man-in-the-middle, o invasor redireciona as comunicações entre duas entidades de rede por meio do computador do invasor sem o conhecimento de nenhuma das partes. O TLS e Skype for Business Server especificação de servidores confiáveis (somente aqueles especificados no Construtor de Topologias) atenuam o risco de um ataque intermediário parcialmente na camada do aplicativo usando criptografia de ponta a ponta coordenada usando a criptografia de Chave Pública entre os dois pontos de extremidade, e um invasor teria que ter um certificado válido e confiável com a chave privada correspondente e emitido com o nome do  para o qual o cliente está se comunicando para descriptografar a comunicação. Por fim, no entanto, você deve seguir as práticas recomendadas de segurança com sua infraestrutura de rede (nesse caso, DNS corporativo). Skype for Business Server supõe que o servidor DNS seja confiável da mesma forma que os controladores de domínio e catálogos globais são confiáveis, mas o DNS fornece um nível de proteção contra ataques de seqüestro DNS impedindo que o servidor de um invasor respondesse com êxito a uma solicitação ao nome falso.
   
 

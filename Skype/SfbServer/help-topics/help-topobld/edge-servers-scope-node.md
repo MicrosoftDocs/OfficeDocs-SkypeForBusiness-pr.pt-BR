@@ -1,27 +1,22 @@
 ---
 title: Nó de Escopo de Servidores de Borda
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeServersScopeNode
+  - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: 'O nó Pools de Borda lista os pools de Borda da sua topologia. É possível realizar a seguinte ação:'
-ms.openlocfilehash: f69d03c8a3fbca56a1d7cb687f44767691b7e245
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827634"
 ---
+
 # <a name="edge-servers-scope-node"></a>Nó de Escopo de Servidores de Borda
  
 O nó **Pools de Borda** lista os pools de Borda da sua topologia. É possível realizar a seguinte ação:

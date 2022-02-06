@@ -1,30 +1,25 @@
 ---
 title: Exibição FocusJoinsAndLeaves
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: A exibição FocusJoinsAndLeaves armazena informações sobre como ingressar e deixar informações para uma conferência. Cada conferência é representada nesta exibição por um registro escrito sempre que um usuário ins junta e sai da conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 8dcc82fe641b451190236f813f432c237e7fa2e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845054"
 ---
+
 # <a name="focusjoinsandleaves-view"></a>Exibição FocusJoinsAndLeaves
  
 A exibição FocusJoinsAndLeaves armazena informações sobre como ingressar e deixar informações para uma conferência. Cada conferência é representada nesta exibição por um registro escrito sempre que um usuário ins junta e sai da conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
-|**Column**|**Tipo de dados**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Hora da instância da conferência. Usada em conjunto com SessionIdSeq para identificar uma instância da conferência de maneira exclusiva. Consulte a [tabela Conferências no Skype for Business Server 2015](conferences.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Número de ID para identificar a instância da conferência. Usada em conjunto com SessionIdTime para identificar uma instância da conferência de maneira exclusiva. Consulte a [tabela Conferências no Skype for Business Server 2015](conferences.md) para obter mais informações. <br/> |

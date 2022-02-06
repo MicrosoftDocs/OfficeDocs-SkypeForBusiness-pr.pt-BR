@@ -1,39 +1,34 @@
 ---
 title: Chamar Relatórios de Diagnóstico (por usuário) Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Resumo: saiba mais sobre os Relatórios de Diagnóstico de Chamada por usuário usados Skype for Business Server.'
-ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864848"
 ---
+
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Chamar Relatórios de Diagnóstico (por usuário) Skype for Business Server
   
-Os Relatórios de Diagnóstico de Chamada oferecem informações por usuário sobre sessões ponta a ponta e de conferência. No momento, há apenas um relatório, o Relatório de Atividades **do Usuário.**
+Os Relatórios de Diagnóstico de Chamada oferecem informações por usuário sobre sessões ponta a ponta e de conferência. No momento, há apenas um relatório, o **Relatório de Atividades do Usuário**.
 
 O Relatório de Atividades do Usuário fornece uma lista detalhada das sessões ponto a ponto e de conferência realizadas por seus usuários em um determinado período de tempo. Ao contrário de muitos dos Relatórios de Monitoramento, o Relatório de Atividades do Usuário vincula cada chamada a usuários individuais. Por exemplo, sessões ponto a ponto especificam as URIs SIP da pessoa que iniciou a chamada (o usuário De) e a pessoa que estava sendo chamada (o usuário Para). Se você expandir as informações de uma conferência, verá uma lista de todos os participantes da conferência e a função que eles tinham para essa conferência.
 
 Às vezes, o Relatório de Atividades do Usuário é chamado de relatório de "help desk". Isso ocorre porque o relatório é frequentemente usado pela equipe de atendimento técnico para recuperar informações de sessão para um usuário específico. Você pode filtrar as chamadas feitas ou feitas por um usuário individual simplesmente digitando o URI SIP do usuário na caixa prefixo URI do usuário.
 
-Se você fizer isso, o Relatório de Atividades do Usuário retornará informações para qualquer usuário cujo URI SIP comece com a cadeia de caracteres especificada. Por exemplo, se você digitar **ken** na caixa URI, o Relatório de Atividades do Usuário localizará **Ken**. Myer@litwareinc.com. No entanto, ele também localizará esses usuários:
+Se você fizer isso, o Relatório de Atividades do Usuário retornará informações para qualquer usuário cujo URI SIP comece com a cadeia de caracteres especificada. Por exemplo, se você digitar **ken** na caixa URI, o Relatório de Atividades do Usuário localizará **Ken.Myer@litwareinc.com**. No entanto, ele também localizará esses usuários:
 
 - **ken** azi@litwareinc.com
 
 - **ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Ken.Sanchez@litwareinc.com**
 
 - **Ken** nedy@litwareinc.com
 
@@ -43,7 +38,7 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>Para acessar o relatório de atividades do usuário
 
-O Relatório de Atividades do Usuário é acessado na home page Relatórios de Monitoramento. Você também pode acessar o Relatório de Atividades do Usuário clicando na métrica de URI do usuário no Relatório de Inventário Telefone IP [em Skype for Business Server](ip-phone-inventory-report.md). De dentro do Relatório de Atividades do Usuário, clicar no URI da conferência (para uma conferência) o leva ao Relatório de Detalhes da Conferência. Da mesma forma, clicar na métrica Detalhes de uma chamada ponto a ponto o leva ao Relatório de Detalhes de Sessão Ponto a Ponto em [Skype for Business Server](peer-to-peer-session-detail-report.md).
+O Relatório de Atividades do Usuário é acessado na home page Relatórios de Monitoramento. Você também pode acessar o Relatório de Atividades do Usuário clicando na métrica URI do usuário no Relatório de inventário de Telefone [IP no Skype for Business Server](ip-phone-inventory-report.md). De dentro do Relatório de Atividades do Usuário, clicar no URI da conferência (para uma conferência) o leva ao Relatório de Detalhes da Conferência. Da mesma forma, clicar na métrica Detalhes de uma chamada ponto a ponto o leva ao Relatório de Detalhes de Sessão Ponto a Ponto no [Skype for Business Server.](peer-to-peer-session-detail-report.md)
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Fazendo o melhor uso do relatório de atividades do usuário
 
@@ -117,7 +112,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Ativi
 **Filtros de relatório de atividades do usuário**
 
 
-| **Nome**   | **Descrição**  |
+| **Name**   | **Descrição**  |
 |:-----------|:--------|
 | **De** <br/>             | Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são sempre de domingo a sábado.  <br/>                                                      |
 | **To** <br/>               | Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são contadas de domingo até sábado.  <br/>                                                             |
@@ -132,7 +127,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 **Métricas para sessões ponto a ponto**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Ver os detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório de Detalhes de Sessão Ponto a Ponto da sessão selecionada.  <br/> |
 |**Do usuário** <br/> |Sim  <br/> |Endereço SIP do usuário que iniciou a sessão ponto a ponto.  <br/> |
@@ -149,7 +144,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 **Métricas para sessões de conferência**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**URI de conferência** <br/> |Sim  <br/> |Identificador exclusivo de conferência. Quando você clica nesse item, o relatório mostra o Relatório de Detalhes da Conferência da sessão selecionada. Quando você expande esse item, o relatório mostra informações sobre os participantes da conferência. Para obter detalhes, consulte a seção "Métricas para Participantes de Conferência" mais adiante neste tópico.  <br/> |
 |**Organizador** <br/> |Sim  <br/> |Endereço SIP do usuário que organizou a conferência.  <br/> |
@@ -163,7 +158,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 **Métricas para participantes da conferência**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Função** <br/> |Não  <br/> |Função de conferência (por exemplo, Apresentador) para o usuário.  <br/> |
 |**Participante** <br/> |Não  <br/> |Endereço SIP do usuário.  <br/> |

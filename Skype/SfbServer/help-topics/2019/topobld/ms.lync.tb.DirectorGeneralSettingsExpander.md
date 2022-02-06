@@ -1,27 +1,22 @@
 ---
 title: Expansor de Configurações Gerais de Diretor
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DirectorGeneralSettingsExpander
+  - ms.lync.tb.DirectorGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Para editar as configurações de um Diretor existente, é possível usar as seguintes seções:'
-ms.openlocfilehash: 13c86f57084724511044d32db98b41988f3e48c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861598"
 ---
+
 # <a name="director-general-settings-expander"></a>Expansor de Configurações Gerais de Diretor
  
 Para editar as configurações de um Diretor existente, é possível usar as seguintes seções:

@@ -1,27 +1,22 @@
 ---
 title: Editar Política de Mobilidade do Cliente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientMobilityPolicyEdit
+  - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
-ROBOTS: NOINDEX, NOFOLLOW
-description: Na caixa de diálogo Editar Política de Mobilidade, edite os detalhes de uma política de mobilidade.
-ms.openlocfilehash: a7c3944684f3894cce599e87edb0f4750683e8fa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861678"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Na caixa de diálogo Editar Política de Mobilidade, edite os detalhes de uma política de mobilidade.'
 ---
+
 # <a name="edit-client-mobility-policy"></a>Editar Política de Mobilidade do Cliente
 
 Na caixa de diálogo **Editar Política de Mobilidade**, edite os detalhes de uma política de mobilidade.

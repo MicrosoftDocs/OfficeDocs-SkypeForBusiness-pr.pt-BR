@@ -1,27 +1,22 @@
 ---
 title: Expansor de Configurações de Implantação
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DeploymentSettingsExpander
+  - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Você pode editar as propriedades de uma implantação existente com as seguintes seções:'
-ms.openlocfilehash: fa5e519a43a2fefaab99a9349ca32239702d42d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864088"
 ---
+
 # <a name="deployment-settings-expander"></a>Expansor de Configurações de Implantação
 
 Você pode editar as propriedades de uma implantação existente com as seguintes seções:

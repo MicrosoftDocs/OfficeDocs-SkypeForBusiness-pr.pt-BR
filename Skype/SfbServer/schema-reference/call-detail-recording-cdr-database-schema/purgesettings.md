@@ -1,25 +1,20 @@
 ---
 title: Tabela PurgeSettings
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'A tabela PurgeSettings contém informações que especificam se (e quando) registros de detalhes de chamada desatualizados serão excluídos automaticamente do banco de dados CDR. Observe que as informações relacionadas à purga também podem ser obtidas no Skype for Business Server 2015 executando o seguinte comando:'
-ms.openlocfilehash: 119c357ed9b0f3da456d34899c8fb9bd7007a375
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859818"
 ---
+
 # <a name="purgesettings-table"></a>Tabela PurgeSettings
  
 A tabela PurgeSettings contém informações que especificam se (e quando) registros de detalhes de chamada desatualizados serão excluídos automaticamente do banco de dados CDR. Observe que as informações relacionadas à purga também podem ser obtidas no Skype for Business Server 2015 executando o seguinte comando:
@@ -28,11 +23,11 @@ A tabela PurgeSettings contém informações que especificam se (e quando) regis
 Get-CsCdrConfiguration
 ```
 
-Os administradores devem tratar a tabela PurgeSettings como somente leitura: as alterações nas configurações de limpeza de detalhes de chamada só devem ser feitas usando-se os cmdlets [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) ou [Set-CsCdrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Os administradores devem tratar a tabela PurgeSettings como somente leitura: as alterações nas configurações de limpeza de detalhes de chamada só devem ser feitas usando-se os cmdlets [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) ou [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
   
 Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**Id** <br/> |int  <br/> |Primário  <br/> |Identificador exclusivo para a coleção de configurações de limpeza de CDR.  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||Quando definido como True (1) Skype for Business Server 2015 limpará periodicamente registros desatualizados do banco de dados CDR. A limpeza ocorrerá todos os dias na hora especificada pela configuração PurgeHour. Se definido como Falso (0), os registros não serão limpados automaticamente do banco de dados. O valor padrão é verdadeiro.  <br/> |

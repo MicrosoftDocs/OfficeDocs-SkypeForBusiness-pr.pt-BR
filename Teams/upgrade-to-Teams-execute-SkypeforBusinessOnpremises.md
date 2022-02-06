@@ -1,7 +1,7 @@
 ---
 title: Atualizar do Skype for Business local para o Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,22 +11,17 @@ description: Saiba como fazer a transição da sua organização para Microsoft 
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-apr2020
+  - Teams-upgrade-guidance
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b6d8c95b34345bd6ea6203abbb099c7071c9db60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846014"
+  - Microsoft Teams
 ---
+
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Atualizar de uma implantação Skype for Business local para Teams
 
 ![Estágios da jornada de atualização, com ênfase no estágio implantação e implementação.](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")
@@ -58,9 +53,9 @@ Depois de concluir sua configuração híbrida, você pode planejar mover seus u
 
 Para obter mais informações, consulte:
 
-- [TeamsUpgradePolicy: gerenciando migração e coexistência.](upgrade-to-teams-on-prem-tools.md)
+- [TeamsUpgradePolicy: gerenciando migração e coexistência](upgrade-to-teams-on-prem-tools.md).
 
-- [Mover usuários do local para o Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
+- [Mova os usuários do local para o Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
 ## <a name="phone-system-and-teams-upgrade"></a>Sistema de Telefonia e Teams atualização
 
@@ -68,4 +63,4 @@ A transição de sistemas telefônicos locais para o Teams permitirá que você 
 
 Se você não estiver usando Planos de Chamadas, precisará fazer a transição da implantação de voz da empresa para Sistema de Telefonia Roteamento Direto como parte da atualização para Teams.
 
-Para obter mais informações, [consulte considerações adicionais sobre Sistema de Telefonia Roteamento Direto.](./direct-routing-landing-page.md) Se você estiver planejando usar Planos de Chamadas, consulte nossas diretrizes para transferir seus números de telefone [para](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams .
+Para obter mais informações, [consulte considerações adicionais sobre Sistema de Telefonia Roteamento Direto](./direct-routing-landing-page.md). Se você estiver planejando usar Planos de Chamadas, consulte nossas diretrizes para transferir seus números de telefone [para](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) Teams.

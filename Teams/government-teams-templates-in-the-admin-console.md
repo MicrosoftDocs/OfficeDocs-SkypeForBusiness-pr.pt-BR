@@ -1,31 +1,26 @@
 ---
 title: Usar modelos de equipe do governo no centro de administração
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como usar modelos de equipe para criar estruturas de equipe projetadas para necessidades governamentais fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.
+description: 'Saiba como usar modelos de equipe para criar estruturas de equipe projetadas para necessidades governamentais fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- NewAdminCenter_Update
-- seo-marvel-apr2020
+  - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 819eb3297ae3b486e7c9d93053911c5090cfae29
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840743"
+  - Microsoft Teams
 ---
+
 # <a name="use-government-team-templates-in-the-admin-center"></a>Usar modelos de equipe do governo no centro de administração
 
 Os modelos de equipe permitem que você crie equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
@@ -36,7 +31,7 @@ Neste artigo, apresentamos cada um dos modelos de equipe e recomendamos como us�
 
 Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização governamental. Você já implantou o serviço Teams em sua organização. Se você ainda não implementou o Teams, comece lendo [Como implementar o Microsoft Teams](./deploy-overview.md).
 
-Para saber mais sobre modelos de equipe em geral, consulte [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
+Para saber mais sobre modelos de equipe em geral, consulte [Começar a usar modelos de equipe](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="coordinate-incident-response"></a>Coordenar a resposta a incidentes
 

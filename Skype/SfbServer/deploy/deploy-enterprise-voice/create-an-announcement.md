@@ -1,28 +1,23 @@
 ---
 title: Criar ou excluir um comunicado no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Crie ou exclua comunicados para o aplicativo De comunicado Skype for Business Server Enterprise Voice. Isso afeta como as chamadas para números não atribuídos são manipuladas.
-ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843514"
 ---
+
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Criar ou excluir um comunicado no Skype for Business Server
 
 Crie ou exclua comunicados para o aplicativo De comunicado Skype for Business Server Enterprise Voice. Isso afeta como as chamadas para números não atribuídos são manipuladas.
@@ -53,9 +48,9 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
 
 1. Para prompts de áudio, crie o arquivo de áudio.
 
-2. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários** conforme descrito em Permissões de Instalação do Representante .
+2. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários**, conforme descrito em Permissões de Instalação do Representante.
 
-3. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+3. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
 
 4. Para prompts de áudio, execute:
 
@@ -85,15 +80,15 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Para obter mais detalhes sobre esses cmdlets e para ver uma lista dos códigos de idioma a ser usado no parâmetro **TextToSpeechPrompt,** consulte [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Para obter mais detalhes sobre esses cmdlets e ver uma lista dos códigos de idioma a ser usado no parâmetro **TextToSpeechPrompt** , consulte [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Excluir um comunicado para números não atribuídos
 
 ### <a name="to-delete-an-announcement"></a>Para excluir um anúncio
 
-1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários** conforme descrito em Permissões de Instalação do Representante .
+1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários**, conforme descrito em Permissões de Instalação do Representante.
 
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
 
 3. Lista todos os anúncios em sua organização. Na linha de comando, execute:
 
@@ -114,7 +109,7 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
    ```
 
     > [!NOTE]
-    > Para obter detalhes sobre mais opções, consulte [Get-CsAnnouncement e](/powershell/module/skype/get-csannouncement?view=skype-ps) [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
+    > Para obter detalhes sobre mais opções, consulte [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) e [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
 ## <a name="see-also"></a>Confira também
 

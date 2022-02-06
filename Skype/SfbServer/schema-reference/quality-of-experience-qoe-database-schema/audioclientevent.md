@@ -1,30 +1,25 @@
 ---
 title: Tabela AudioClientEvent
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
-description: Cada registro contém um evento cliente para um ponto de extremidade em uma chamada de áudio. Normalmente, uma chamada tem dois registros, um para chamador e outro para chamador.
-ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843644"
+description: 'Cada registro contém um evento cliente para um ponto de extremidade em uma chamada de áudio. Normalmente, uma chamada tem dois registros, um para chamador e outro para chamador.'
 ---
+
 # <a name="audioclientevent-table"></a>Tabela AudioClientEvent
  
 Cada registro contém um evento cliente para um ponto de extremidade em uma chamada de áudio. Normalmente, uma chamada tem dois registros, um para chamador e outro para chamador.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primário  <br/> |Referenciado na tabela [MediaLine](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primário  <br/> |Referenciado na tabela [MediaLine](medialine-0.md).  <br/> |
