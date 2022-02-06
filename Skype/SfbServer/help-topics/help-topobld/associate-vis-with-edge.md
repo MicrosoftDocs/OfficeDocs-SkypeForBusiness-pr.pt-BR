@@ -1,32 +1,27 @@
 ---
 title: Associar VIS à borda
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateVisWithEdgePage
+  - ms.lync.tb.AssociateVisWithEdgePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server 2015.
-ms.openlocfilehash: 65dab6a2f095edbfb5dc1a18f086f9472b33aee8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863718"
 ---
+
 # <a name="associate-vis-with-edge"></a>Associar VIS à borda
  
 As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em [Create a VIS pool in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-As etapas necessárias para atribuir uma função de Servidor de Interop de Vídeo em um servidor usando Windows PowerShell são descritas online em Deploy the [VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+As etapas necessárias para atribuir uma função de Servidor de Interop de Vídeo em um servidor usando Windows PowerShell são descritas online em [Deploy the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
 As etapas de configuração para um novo Servidor de Interop de Vídeo usando Windows PowerShell são descritas online em [Configure the Video Interop Server in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
   

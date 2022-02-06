@@ -1,27 +1,22 @@
 ---
 title: Expansor de Configurações de Máquina de Borda
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeMachineSettingsExpander
+  - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 description: 'Para editar propriedades para um servidor em um pool de Servidores de Borda, faça o seguinte:'
-ms.openlocfilehash: b04c269102bc11f15e336310323de756d9daa917
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829005"
 ---
+
 # <a name="edge-machine-settings-expander"></a>Expansor de Configurações de Máquina de Borda
  
 Para editar propriedades para um servidor em um pool de Servidores de Borda, faça o seguinte:
