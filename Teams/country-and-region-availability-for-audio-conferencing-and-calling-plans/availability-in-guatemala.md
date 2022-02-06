@@ -1,36 +1,31 @@
 ---
 title: Disponibilidade na Guatemala
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Guatemala.
-ms.openlocfilehash: e23e5dc96e629a34686c9ec679b549fdef807b84
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191432"
 ---
+
 # <a name="availability-in-guatemala"></a>Disponibilidade na Guatemala
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
@@ -62,7 +57,7 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se Planos de Chamada não estão disponíveis para compra, consulte Opções de conectividade [PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
+Se Planos de Chamada não estão disponíveis para compra, consulte [Opções de conectividade PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifação gratuita e de tarifação para serviços
 
@@ -72,7 +67,7 @@ Se Planos de Chamada não estão disponíveis para compra, consulte Opções de 
 |Há números de chamada tarifada disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> Os números de pedágio só são acessíveis de dentro do país.|
 |Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
 
- Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos Automáticos e Filas de Chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
+ Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos automáticos e filas de chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

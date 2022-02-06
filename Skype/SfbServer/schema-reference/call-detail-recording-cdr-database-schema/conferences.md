@@ -1,35 +1,30 @@
 ---
 title: Tabela de conferências no Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Cada registro nesta tabela contém detalhes de chamada sobre uma conferência.
-ms.openlocfilehash: cbcda30c47b4bbeac012f80d64f297a9a1259f2c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838443"
 ---
+
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabela de conferências no Skype for Business Server 2015
  
 Cada registro nesta tabela contém detalhes de chamada sobre uma conferência.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primário  <br/> |Hora em que a solicitação de conferência foi capturada pelo agente CDR. Usada apenas como uma chave primária para identificar exclusivamente uma instância de conferência.  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primário  <br/> |O número de ID para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma instância de conferência. * <br/> |
 |**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |URI da conferência. Consulte a [tabela ConferenceUris no Skype for Business Server 2015](conferenceuris.md) para obter mais informações. <br/> |
-|**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |Útil para conferências recorrentes; cada instância de uma conferência recorrente tem o mesmo **ConferenceUri**, mas terá uma **ConfInstance diferente.** <br/> |
+|**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |Útil para conferências recorrentes; cada instância de uma conferência recorrente tem o mesmo **ConferenceUri**, mas terá uma **ConfInstance diferente**. <br/> |
 |**ConferenceStartTime** <br/> |datetime  <br/> | <br/> |Hora de início da conferência.  <br/> |
 |**ConferenceEndTime** <br/> |datetime  <br/> | <br/> |Hora de início da conferência.  <br/> |
 |**PoolId** <br/> |int  <br/> |Foreign  <br/> |Número da ID para identificar o pool no qual a conferência foi capturada. Consulte a [tabela Pools para](pools.md) obter mais informações. <br/> |

@@ -1,28 +1,23 @@
 ---
 title: Planejar IPv6 no Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumo: Implemente iPv6 antes de instalar Skype for Business Server.'
-ms.openlocfilehash: 21fa37d187f32c9b679a49a3b8181b1a5e2732d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849744"
 ---
+
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planejar IPv6 no Skype for Business
  
 **Resumo:** Implemente iPv6 antes de instalar Skype for Business Server.
@@ -41,7 +36,7 @@ Este tópico inclui as seguintes seções:
     
 - [Considerações de migração e coexistência para IPv6](ipv6.md#migration)
     
-Se você determinar que estará usando endereços IPv6, consulte o artigo Configurar tipos de [endereço IP Skype for Business.](ip-address-types.md)
+Se você determinar que estará usando endereços IPv6, consulte o [artigo Configurar tipos de endereço IP Skype for Business](ip-address-types.md).
   
 ## <a name="overview-of-ip-address-types"></a>Visão geral dos tipos de endereço IP
 <a name="over"> </a>

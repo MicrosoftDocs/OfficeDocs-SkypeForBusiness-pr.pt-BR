@@ -1,33 +1,28 @@
 ---
 title: Planejar mensagens instantâneas e presença no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Resumo: saiba como planejar mensagens instantâneas e presença no Skype for Business Server.'
-ms.openlocfilehash: b81da143bf7b8d917d88939d8b28261910bb8f5a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835079"
 ---
+
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar mensagens instantâneas e presença no Skype for Business Server
  
 **Resumo:** Saiba como planejar mensagens instantâneas e presença no Skype for Business Server.
   
-Planeje mensagens instantâneas e presença no Skype for Business Server. Para saber mais sobre opções específicas de implantação, como habilbilização ou desabilitação de Mensagens Instantâneas Offline (IM), consulte [Deploy instant messaging](../deploy/im-and-presence/im-and-presence.md)and presence in Skype for Business Server .
+Planeje mensagens instantâneas e presença no Skype for Business Server. Para saber mais sobre opções específicas de implantação, como a habilitação ou desabilitação de Mensagens Instantâneas Offline (IM), consulte [Deploy instant messaging and presence in Skype for Business Server](../deploy/im-and-presence/im-and-presence.md).
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar mensagens instantâneas e presença no Skype for Business Server
 
-Os Servidores Front-End fornecem funcionalidades Skype for Business Server principais, como mensagens instantâneas (IM) e presença, e são incluídos em todas as implantações Skype for Business Server de mensagens instantâneas. Há duas edições disponíveis: Skype for Business Server Edição Enterprise, que é projetado principalmente para organizações maiores, e Skype for Business Server Edição Standard, que é projetado principalmente para organizações menores que querem um menor investimento em hardware e não exige opções completas de alta disponibilidade. Ambas as edições suportam todas as Skype for Business Server de trabalho, incluindo IM, presença, conferência e Enterprise Voice.
+Os Servidores Front-End fornecem funcionalidades Skype for Business Server principais, como mensagens instantâneas (IM) e presença, e são incluídos em todas as implantações Skype for Business Server de mensagens instantâneas. Há duas edições disponíveis: Skype for Business Server Edição Enterprise, projetadas principalmente para organizações maiores e Skype for Business Server Edição Standard , que é projetado principalmente para organizações menores que querem um investimento de hardware menor e não exigem opções completas de alta disponibilidade. Ambas as edições suportam todas as Skype for Business Server de trabalho, incluindo IM, presença, conferência e Enterprise Voice.
   
 A mensagem instantânea (IM) permite que os usuários se comuniquem entre si em tempo real em seus computadores usando mensagens textuais. Tanto as sessões de IM de duas partes como as multipartes são suportadas. Um participante de uma conversa por IM de duas partes pode adicionar um terceiro participante à conversa a qualquer momento. Quando isso acontece, a janela de conversa muda para dar suporte aos recursos de conferência.
   
@@ -35,7 +30,7 @@ A presença fornece informações aos usuários sobre o status de outras pessoas
   
 ### <a name="technical-requirements"></a>Requisitos técnicos
 
-Mensagens instantâneas (IM) e presença sempre são executados em Edição Enterprise de front-end e Edição Standard servidores. Para obter informações sobre hardware, sistemas operacionais e software de banco de dados com suporte, consulte [Gateways Certificados, Requisitos](../../SfbPartnerCertification/certification/infra-gateways.md)para seu ambiente [Skype for Business 2015](requirements-for-your-environment/requirements-for-your-environment.md)e Requisitos de infraestrutura [para Skype for Business Server 2019](../../SfBServer2019/plan/system-requirements.md).
+Mensagens instantâneas (IM) e presença sempre são executados em Edição Enterprise de front-end e Edição Standard servidores. Para obter informações sobre hardware, sistemas operacionais e software de banco de dados com suporte, consulte [Gateways Certificados, Requisitos](../../SfbPartnerCertification/certification/infra-gateways.md) para seu ambiente [Skype for Business 2015](requirements-for-your-environment/requirements-for-your-environment.md) e Requisitos de infraestrutura [para Skype for Business Server 2019](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Habilitando a comunicação com usuários externos
 
@@ -60,13 +55,13 @@ Você pode aumentar muito os benefícios do seu investimento em Skype for Busine
 
 Skype for Business Server fornece recursos que você pode usar se sua organização precisa seguir os regulamentos de conformidade. Você pode usar o Arquivamento para arquivar o conteúdo de mensagens de mensagens IM para todos os usuários em sua organização ou apenas para determinados usuários que você especificar. Para obter detalhes, [consulte Plan for archiving in Skype for Business Server](archiving/archiving.md). 
   
-Se você também tiver Microsoft Exchange Server 2013 implantado, poderá integrar o arquivamento de dados Exchange com o arquivamento de dados Skype for Business Server e usar uma única ferramenta para pesquisar os dois tipos de dados arquivados. Para obter mais informações, [consulte Configure Skype for Business Server to use Exchange Server archiving](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
+Se você também tiver Microsoft Exchange Server 2013 implantado, poderá integrar o arquivamento de dados Exchange com o arquivamento de dados Skype for Business Server e usar uma única ferramenta para pesquisar os dois tipos de dados arquivados. Para obter mais informações, [consulte Configure Skype for Business Server para usar Exchange Server arquivamento](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### <a name="topologies-and-components"></a>Topologias e componentes
 
 Os únicos componentes necessários para mensagem instantânea (IM) e presença são:
   
-- Os servidores Front-End da sua organização (conhecidos como pool) ou um Edição Standard servidor. As capacidades de IM e presença estão sempre habilitadas nestes servidores. Para obter mais informações sobre topologias e gerenciamento de pool de [front-end,](high-availability-and-disaster-recovery/high-availability.md)consulte Front End Pool high availability and management .
+- Os servidores Front-End da sua organização (conhecidos como pool) ou um Edição Standard servidor. As capacidades de IM e presença estão sempre habilitadas nestes servidores. Para obter mais informações sobre topologias e gerenciamento de pool de front-end, consulte [Front End Pool high availability and management](high-availability-and-disaster-recovery/high-availability.md).
     
 - Um balanceador de carga, se você tiver um pool Edição Enterprise front-end.
     

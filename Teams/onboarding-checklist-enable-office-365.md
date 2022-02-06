@@ -1,33 +1,29 @@
 ---
 title: Lista de verificação de integração - Habilitar o Microsoft 365 ou Office 365 serviço
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Siga o núcleo, tarefas e atividades a fazer nesta lista de verificação quando você configurar Microsoft 365 ou Office 365 para Teams.
+description: 'Siga o núcleo, tarefas e atividades a fazer nesta lista de verificação quando você configurar Microsoft 365 ou Office 365 para Teams.'
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 search.appverid: MET150
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9a542dfbad70502dfa0f76a2062453313e1a3ef6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859678"
 ---
+
+
 # <a name="enable-microsoft-365-or-office-365"></a>Habilitar Microsoft 365 ou Office 365
  
 | Não | Atividade ou tarefa| Descrição| Concluído? | Informações adicionais|
 |----|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | Criar uma Microsoft 365 ou Office 365 organização| Para que sua organização possa aproveitar os benefícios da Teams, você deve configurar uma Microsoft 365 ou Office 365 organização. Se você não tiver uma organização Microsoft 365 ou Office 365, consulte as diretrizes na **coluna Informações** adicionais. | | [Configurar o Microsoft 365 ou Office 365 para empresas](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) <br/><br/>[Se você precisar de assistência adicional, o microsoft FastTrack para Microsoft 365 ou Office 365 equipe está disponível para ajudar](https://fasttrack.microsoft.com/office) |
+| 1  | Criar uma Microsoft 365 ou Office 365 organização| Para que sua organização possa aproveitar os benefícios da Teams, você deve configurar uma Microsoft 365 ou Office 365 organização. Se você não tiver uma organização Microsoft 365 ou Office 365, consulte as diretrizes na coluna **Informações** adicionais. | | [Configurar o Microsoft 365 ou Office 365 para empresas](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) <br/><br/>[Se você precisar de assistência adicional, o microsoft FastTrack para Microsoft 365 ou Office 365 equipe está disponível para ajudar](https://fasttrack.microsoft.com/office) |
 | 2  | Comprar Microsoft 365 ou Office 365 licenças | Com base no resultado do trabalho que você fez durante a fase Teams Envision, trabalhe com seu grupo de compras para garantir que sua organização tenha adquirido as SKUs de licença necessárias ou serviços de complemento e que elas estão prontas para serem atribuídas ao locatário. | | [Microsoft Teams de serviço](/office365/servicedescriptions/teams-service-description) <br/><br/>[Comprar licenças para sua assinatura Microsoft 365 ou Office 365 para Empresas](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1) |
 | 3  | Atribuir Microsoft 365 ou Office 365 licenças à organizaçãoton | Normalmente, você ou seu administrador de licenciamento receberá um link do licenciamento da Microsoft para adicionar suas licenças à sua Microsoft 365 ou Office 365 organização. <br/><br/>Dependendo de qual canal você usou para comprar licenças, talvez seja necessário visitar um dos guias listados na **coluna Informações** adicionais. | | [Adicionar licenças a uma assinatura paga pelo uso de uma chave de produto](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53) <br/><br/>[Adicionar licenças a uma assinatura adquirida por meio do Centro de Serviços de Licenciamento por Volume](https://support.office.com/article/Add-licenses-to-a-subscription-purchased-through-the-Volume-Licensing-Service-Center-82ba88fa-ebdf-4d44-a7b3-cea82b25d71a) |
 | 4  | OPCIONAL: Habilitar créditos de comunicação | Os Créditos de Comunicações são um recurso opcional que você usa para fornecer acesso gratuito para os números de telefone da ponte de conferência da sua organização ou para dar a um organizador de conferência a capacidade de discar para participantes de reuniões internacionais. <br/><br/>Além da licença padrão de Audioconferência por usuário, as organizações de Volume e Licenciamento podem escolher uma oferta paga por minuto para habilitar os recursos de Audioconferência. <br/><br/>Decida se os Créditos de Comunicações são necessários para sua organização e, se estiver, habilita-o adicionando a licença de complemento créditos de comunicação ao seu locatário. | | [O que são Créditos de Comunicação?](what-are-communications-credits.md) <br/><br/>[Configurar Créditos de Comunicação para sua organização](set-up-communications-credits-for-your-organization.md) <br/><br/>[Audioconferência Pagar por Minuto](audio-conferencing-pay-per-minute.md) |

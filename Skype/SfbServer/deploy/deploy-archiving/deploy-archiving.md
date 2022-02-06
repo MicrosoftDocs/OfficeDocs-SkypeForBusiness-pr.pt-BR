@@ -1,24 +1,19 @@
 ---
 title: Implantar arquivamento para Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: 'Resumo: leia este tópico para saber como implantar o arquivamento para Skype for Business Server.'
-ms.openlocfilehash: bdf0e6fe170371d1596fd556450fca14d6433239
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837413"
 ---
+
 # <a name="deploy-archiving-for-skype-for-business-server"></a>Implantar arquivamento para Skype for Business Server
  
 **Resumo:** Leia este tópico para saber como implantar o arquivamento para Skype for Business Server.

@@ -1,25 +1,20 @@
 ---
 title: Esquema do banco de dados de Chat Persistente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Isso documenta o esquema do banco de dados de Chat Persistente no Skype for Business Server.
-ms.openlocfilehash: 862adace22d04e93b226545247a5d2bd8a89d9cc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858148"
 ---
+
 # <a name="persistent-chat-database-schema"></a>Esquema do banco de dados de Chat Persistente
  
 Isso documenta o esquema do banco de dados de Chat Persistente no Skype for Business Server.
@@ -31,7 +26,7 @@ O banco de dados de Chat Persistente refere-se ao banco de dados correspondente 
   
 Sigas estas práticas recomendadas:
   
-- Nenhum SELECT \* // é suportado porque a lista de colunas pode crescer.
+- Nenhum SELECT\* // é suportado porque a lista de colunas pode crescer.
     
 - Nenhuma modificação de esquema gerado pelo usuário é suportada.
     

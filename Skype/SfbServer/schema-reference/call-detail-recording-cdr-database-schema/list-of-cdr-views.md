@@ -1,25 +1,20 @@
 ---
 title: Lista de exibições de CDR
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: As exibições oferecem uma forma fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR. É recomendável que você use exibições para a criação de relatórios personalizados em vez de usar as tabelas de banco de dados CDR reais; isso porque os modo de exibição do banco de dados têm mais probabilidade de manter a compatibilidade com versões futuras.
-ms.openlocfilehash: 713e9bef620f36901031024395cc3b51898e433d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847054"
 ---
+
 # <a name="list-of-cdr-views"></a>Lista de exibições de CDR
  
 As exibições oferecem uma forma fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR. É recomendável que você use exibições para a criação de relatórios personalizados em vez de usar as tabelas de banco de dados CDR reais; isso porque os modo de exibição do banco de dados têm mais probabilidade de manter a compatibilidade com versões futuras.

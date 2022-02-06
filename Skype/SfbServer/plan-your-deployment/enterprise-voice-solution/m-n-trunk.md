@@ -1,28 +1,23 @@
 ---
 title: Tronco MN no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
-description: Skype for Business Server Enterprise Voice suporte ao tronco M:N entre o Servidor de Mediação e componentes, como gateways PSTN, controladores de borda de sessão e IP-PBX.
-ms.openlocfilehash: a9d73b02a5d9135b5f3305f6f5e0b484df81ee23
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855298"
+description: 'Skype for Business Server Enterprise Voice suporte ao tronco M:N entre o Servidor de Mediação e componentes, como gateways PSTN, controladores de borda de sessão e IP-PBX.'
 ---
+
 # <a name="mn-trunk-in-skype-for-business-server"></a>Tronco M:N no Skype for Business Server
  
 Skype for Business Server Enterprise Voice suporte ao tronco M:N entre o Servidor de Mediação e componentes, como gateways PSTN, controladores de borda de sessão e IP-PBX.

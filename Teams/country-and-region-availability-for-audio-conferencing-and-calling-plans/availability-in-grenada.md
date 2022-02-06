@@ -1,36 +1,31 @@
 ---
 title: Disponibilidade emNada
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
+ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Granada.
-ms.openlocfilehash: 64eb09d86af1b86c770b460285d8ff12167c3a82
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191012"
 ---
+
 # <a name="availability-in-grenada"></a>Disponibilidade emNada
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
@@ -62,7 +57,7 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se Planos de Chamada não estão disponíveis para compra, consulte Opções de conectividade [PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
+Se Planos de Chamada não estão disponíveis para compra, consulte [Opções de conectividade PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifação gratuita e de tarifação para serviços
 
@@ -72,7 +67,7 @@ Se Planos de Chamada não estão disponíveis para compra, consulte Opções de 
 |Há números de chamada tarifada disponíveis?  <br/> |Não <br/> |
 |Os números gratuitos estão disponíveis?  <br/> |Sim  <br/> |
    
- Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos Automáticos e Filas de Chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
+ Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos automáticos e filas de chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

@@ -1,25 +1,20 @@
 ---
 title: Classes de esquema e descrições em Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: Esta seção descreve todas as classes de esquema usadas por Skype for Business Server .
-ms.openlocfilehash: fbd3e3293cef72ba6592b86932639bd499464858
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829765"
 ---
+
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Classes de esquema e descrições em Skype for Business Server
  
 Esta seção descreve todas as classes de esquema usadas por Skype for Business Server . 
@@ -28,7 +23,7 @@ Esta seção descreve todas as classes de esquema usadas por Skype for Business 
 
 |**Classe**|**Descrição**|**Comments**|
 |:-----|:-----|:-----|
-|Mail-Recipient  <br/> |Exchange Destinatário de email de Unificação de Mensagens (UM).  <br/> |Essa classe auxiliar é compartilhada com Exchange UM.  <br/> |
+|Mail-Recipient  <br/> |Exchange um destinatário de email da Unificação de Mensagens (UM).  <br/> |Essa classe auxiliar é compartilhada com Exchange UM.  <br/> |
 |msRTCSIP-ApplicationContacts  <br/> |Esta classe é um contêiner para vários contatos de aplicativo e não contém atributos próprios.  <br/> |Novo no Microsoft Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServer  <br/> |Esta classe contém a entrada para o ponto de controle de serviço a uma instância de UCAS (serviços de aplicativos de comunicação unificados).  <br/> |Novo no Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServerService  <br/> |Essa classe fornece uma associação de um pool específico ao serviço Application.  <br/> |Novo no Communications Server 2007 R2.  <br/> |
