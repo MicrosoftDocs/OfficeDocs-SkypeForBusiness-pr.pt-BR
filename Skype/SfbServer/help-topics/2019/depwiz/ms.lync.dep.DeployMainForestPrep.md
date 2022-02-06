@@ -1,27 +1,22 @@
 ---
 title: Preparar Floresta Atual
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainForestPrep
+  - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
-ROBOTS: NOINDEX, NOFOLLOW
-description: Para preparar a floresta dos Serviços de Domínio do Active Directory, você deve estender com êxito o esquema, conforme descrito no tópico Running Schema Preparation, e certificar-se de que o esquema foi replicado.
-ms.openlocfilehash: edfca03fd9dac19bb73106a86d8fb981f30488f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831555"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Para preparar a floresta dos Serviços de Domínio do Active Directory, você deve estender com êxito o esquema, conforme descrito no tópico Running Schema Preparation, e certificar-se de que o esquema foi replicado.'
 ---
+
 # <a name="prepare-current-forest"></a>Preparar Floresta Atual
 
 Para preparar a floresta dos Serviços de Domínio do Active Directory, você deve estender com êxito o esquema, conforme descrito no tópico [Running Schema Preparation](/previous-versions/office/lync-server-2013/lync-server-2013-preparing-the-active-directory-schema), e certificar-se de que o esquema foi replicado.
@@ -37,9 +32,9 @@ Depois de atender a esses pré-requisitos, você pode começar a **Etapa 3: prep
 
 3. Na página **Executando Comandos**, procure por **Status da tarefa: concluída** e clique em **Exibir Log**. Certifique-se de que não haja erros. Revise os avisos a fim de determinar se são esperados e normais para sua infraestrutura.
 
-4. Na coluna **Ação** no log, expanda **Forest Prep**, procure um Resultado de Execução no final de cada tarefa para verificar se a preparação da floresta foi concluída com êxito, feche o log e clique em **\<Success\>** **Concluir**.
+4. Na coluna **Ação** no log, expanda **Preparação** da Floresta, procure um Resultado de Execução no final de cada tarefa para verificar se a **\<Success\>** preparação da floresta foi concluída com êxito, feche o log e clique em **Concluir**.
 
-5. Aguarde a conclusão da replicação dos Serviços de Domínio do **Active Directory** ou force a replicação a todos os controladores de domínio listados no snap-in Sites e Serviços do Active Directory para o controlador de domínio raiz da floresta, antes de executar a preparação do domínio. Force a replicação entre os controladores de domínio em todos os sites do Active Directory para que a replicação nos sites ocorra dentro de alguns minutos.
+5. Aguarde a conclusão da replicação dos Serviços de Domínio do Active Directory ou force a replicação a todos os controladores de domínio listados no snap-in Sites e **Serviços do Active Directory** para o controlador de domínio raiz da floresta, antes de executar a preparação do domínio. Force a replicação entre os controladores de domínio em todos os sites do Active Directory para que a replicação nos sites ocorra dentro de alguns minutos.
 
     > [!TIP]
     > Se você precisar revisar os arquivos de log criados pelo Assistente de Implantação do Skype for Business Server, poderá encontrá-los no computador onde o Assistente de Implantação foi executado, no diretório Usuários do usuário dos Serviços de Domínio active Directory que executaram a etapa. Por exemplo, se o usuário fez logon como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp

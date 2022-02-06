@@ -1,25 +1,20 @@
 ---
-title: Monitorar, iniciar e interromper os serviços de Chat Persistente no Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'Monitorar, iniciar e interromper os serviços de Chat Persistente no Skype for Business Server 2015'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: 'Resumo: saiba como iniciar, parar e monitorar os serviços de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 9d25654a222b956fa5c8a1902e5d3a90674829e8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833377"
 ---
+
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>Monitorar, iniciar e interromper os serviços de Chat Persistente no Skype for Business Server 2015
  
 **Resumo:** Saiba como iniciar, parar e monitorar os serviços de Chat Persistente no Skype for Business Server 2015.
@@ -35,6 +30,6 @@ Os serviços de Chat Persistente e Conformidade de Chat Persistente fazem parte 
 > [!NOTE]
 > O chat persistente está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para obter mais informações, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Se você precisar usar o chat persistente, suas opções são migrar usuários que exigem essa funcionalidade para Teams ou continuar usando o Skype for Business Server 2015. 
 
-Para obter informações detalhadas sobre como usar os cmdlets, consulte Skype for Business Server Shell de Gerenciamento [2015.](../management-shell.md)
+Para obter informações detalhadas sobre como usar os cmdlets, [consulte Skype for Business Server Shell de Gerenciamento 2015](../management-shell.md).
   
 

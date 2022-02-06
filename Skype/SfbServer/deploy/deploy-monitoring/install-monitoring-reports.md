@@ -1,42 +1,37 @@
 ---
 title: Instalar relatórios de monitoramento no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Resumo: saiba como instalar um serviço que gerará relatórios de monitoramento no Skype for Business Server.'
-ms.openlocfilehash: 703bb209c68558ba8f98c8e3a3efcde94e4ce5eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861818"
 ---
+
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Instalar relatórios de monitoramento no Skype for Business Server
  
 **Resumo:** Saiba como instalar um serviço que gerará relatórios de monitoramento em Skype for Business Server.
   
-Skype for Business Server Relatórios de monitoramento fornecem uma grande quantidade de informações sobre a qualidade e a quantidade das sessões de comunicação que ocorrem em sua organização. 
+Skype for Business Server Relatórios de Monitoramento fornecem uma grande quantidade de informações sobre a qualidade e a quantidade das sessões de comunicação que ocorrem em sua organização. 
   
 ## <a name="install-monitoring-reports"></a>Instalar relatórios de monitoramento
 
-Relatórios de monitoramento não são instalados automaticamente quando você instala Skype for Business Server; em vez disso, você deve instalar Relatórios de Monitoramento separadamente e somente após Skype for Business Server tiver sido instalado no computador.
+Os Relatórios de Monitoramento não são instalados automaticamente quando você instala o Skype for Business Server; em vez disso, você deve instalar Relatórios de Monitoramento separadamente e somente depois que o Skype for Business Server tiver sido instalado no computador.
   
 > [!NOTE]
 > Recomenda-se a instalação dos relatórios de monitoramento no mesmo computador em que o banco de dados de monitoramento está instalado. Isso simplifica o processo de atribuição de permissões para acessar os relatórios: a com a instalação dos relatórios de monitoramento no computador que hospeda o repositório de monitoramento, você não precisará configurar permissões que permitam que um banco de dados em um computador interaja com os Reporting Services em execução em outro computador. 
   
-Skype for Business Server Os Relatórios de Monitoramento incluem mais de 30 relatórios projetados para fornecer informações detalhadas sobre conferências, sessões de IM ponto a ponto, registros de usuário, aplicativo do Grupo de Resposta e muito mais. Para a versão 2013, Skype for Business Server Relatórios de Monitoramento incluem uma série de aprimoramentos:
+Skype for Business Server Relatórios de Monitoramento incluem mais de 30 relatórios projetados para fornecer informações detalhadas sobre conferências, sessões de IM ponto a ponto, registros de usuário, o aplicativo grupo de resposta e muito mais. Para a versão 2013, Skype for Business Server Relatórios de Monitoramento incluem uma série de aprimoramentos:
   
-- **Novos relatórios de qualidade de voz**. Esses novos relatórios incluem o Relatório de Comparação de Qualidade de Mídia [no Skype for Business Server](../../manage/health-and-monitoring/comparison.md), que compara a qualidade entre diferentes tipos de chamadas (por exemplo, entre chamadas com fio e chamadas sem fio); e o Relatório de Tempo de Junção de Conferência [no Skype for Business Server](../../manage/health-and-monitoring/join-time-report.md), que fornece informações sobre o tempo necessário para os usuários ingressarem em uma conferência. 
+- **Novos relatórios de qualidade de voz**. Esses novos relatórios incluem o Relatório de Comparação de Qualidade de Mídia no Skype for Business Server, que compara [a](../../manage/health-and-monitoring/comparison.md) qualidade entre diferentes tipos de chamadas (por exemplo, entre chamadas com fio e chamadas sem fio); e o Relatório de Tempo de Junção de Conferência no [Skype for Business Server](../../manage/health-and-monitoring/join-time-report.md) , que fornece informações sobre o tempo necessário para os usuários ingressarem em uma conferência. 
     
-- **Relatórios aprimorados para analisar e solucionar problemas de sessões de vídeo e compartilhamento de aplicativos.** O [Relatório de](../../manage/health-and-monitoring/summary.md) Resumo de Qualidade de Mídia no Skype for Business Server fornece uma [](../../manage/health-and-monitoring/server-performance.md) maneira de analisar chamadas de compartilhamento de vídeo e aplicativos, enquanto o Relatório de Desempenho do Servidor em Skype for Business Server detalha o desempenho dos servidores que geram essas chamadas. As métricas de compartilhamento de aplicativos e vídeo também agora são relatadas pelo Relatório de Detalhes de Sessão Ponto a Ponto no [Skype for Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) e o Relatório de Detalhes da Conferência [em Skype for Business Server](../../manage/health-and-monitoring/detail-report.md).
+- **Relatórios aprimorados para analisar e solucionar problemas de sessões de vídeo e compartilhamento de aplicativos.** O [Relatório de Resumo](../../manage/health-and-monitoring/summary.md) de Qualidade de Mídia no Skype for Business Server fornece uma maneira de analisar chamadas de compartilhamento de vídeo e aplicativos, enquanto o Relatório de Desempenho do Servidor em Skype for Business Server detalha o desempenho dos servidores que geram essas chamadas.[](../../manage/health-and-monitoring/server-performance.md) As métricas de compartilhamento de aplicativos e vídeo também agora são relatadas pelo Relatório de Detalhes de Sessão Ponto a Ponto no [Skype for Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) e o Relatório de Detalhes da Conferência no [Skype for Business Server](../../manage/health-and-monitoring/detail-report.md).
     
 - **Desempenho de relatórios aprimorado**. Inclui tempos menores de resposta e recuperação de dados, bem como navegação mais rápida e fácil pelos relatórios.
     
@@ -53,7 +48,7 @@ Há duas maneiras de instalar Skype for Business Server Relatórios de Monitoram
     
 Para instalar os relatórios de monitoramento usando o Assistente de Implantação, siga as etapas a seguir:
   
-1. Clique **em Iniciar,** em **Todos os Programas,** **Skype for Business Server** e clique Skype for Business Server Assistente **de Implantação.**
+1. Clique **em Iniciar**, em **Todos os Programas**, **Skype for Business Server** e clique **Skype for Business Server Assistente de Implantação**.
     
 2. No Assistente de Implantação, clique em **Implantar Relatórios de Monitoramento** para iniciar o assistente Implantar Relatórios de Monitoramento.
     
@@ -67,7 +62,7 @@ Para instalar os relatórios de monitoramento usando o Assistente de Implantaç�
     
 6. Na página **Executando Comandos**, clique em **Concluir**.
     
-Os Relatórios de Monitoramento também podem ser instalados no Shell de Gerenciamento Skype for Business Server executando o script DeployReports.ps1; esse Windows PowerShell script pode ser encontrado na \<install location\> pasta \Skype for Business Server 2015\Deployment\Setup. Para instalar os relatórios de monitoramento usando DeployReports.ps1, digite um comando semelhante a este no prompt do Shell de Gerenciamento:
+Os Relatórios de Monitoramento também podem ser instalados no Shell de Gerenciamento do Skype for Business Server executando o script DeployReports.ps1; esse script Windows PowerShell \<install location\>pode ser encontrado na pasta \Skype for Business Server 2015\Deployment\Setup. Para instalar os relatórios de monitoramento usando DeployReports.ps1, digite um comando semelhante a este no prompt do Shell de Gerenciamento:
   
 ```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
@@ -75,7 +70,7 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
 
 Os parâmetros usados no comando anterior são descritos na tabela a seguir:
   
-|**Nome do Parâmetro**|**Obrigatório**|**Descrição**|
+|**Nome do parâmetro**|**Obrigatório**|**Descrição**|
 |:-----|:-----|:-----|
 |storedUserName  <br/> |Sim  <br/> |Conta de usuário (no formato domínio\nome_de_usuário) usada para acessar o repositório de monitoramento; por exemplo:  <br/> ```-storedUserName "litwareinc\kenmyer"```Essa conta deve ter as permissões de SQL Server e SQL Server Reporting Services especificadas anteriormente ou o script falhará.  <br/> |
 |storedPassword  <br/> |Sim  <br/> |Senha da conta de usuário usada para acessar o repositório de monitoramento.  <br/> |

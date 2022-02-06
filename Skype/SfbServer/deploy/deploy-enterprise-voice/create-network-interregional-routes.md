@@ -1,28 +1,23 @@
 ---
 title: Criar rotas interregionais de rede em Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: Crie ou modifique rotas interregionais de rede, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server.
-ms.openlocfilehash: 4aa831c33049e2e77a298f96de80d9bad2d296e4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833867"
+description: 'Crie ou modifique rotas interregionais de rede, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server.'
 ---
+
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Criar rotas interregionais de rede em Skype for Business Server
  
 Crie ou modifique rotas interregionais de rede, que são usadas Enterprise Voice controle de admissão de chamada em Skype for Business Server. 
@@ -35,7 +30,7 @@ Na topologia de exemplo, as rotas interregionais de rede devem ser definidas par
   
 ### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Para criar rotas interregionais de rede usando Skype for Business Server Shell de Gerenciamento
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Execute o cmdlet **New-CsNetworkInterRegionRoute** para definir as rotas necessárias. Por exemplo, execute:
     
@@ -64,13 +59,13 @@ Na topologia de exemplo, as rotas interregionais de rede devem ser definidas par
     
 4. Clique em **Novo**.
     
-5. Na página **Nova Rota de Região,** clique em **Nome** e digite um nome para a rota interregional de rede.
+5. Na página **Nova Rota de Região** , clique em **Nome** e digite um nome para a rota interregional de rede.
     
 6. Clique em **Região de Rede 1** e clique em uma região de rede na lista que você deseja rotear para a Região de Rede 2.
     
 7. Clique em **Região de Rede 2** e clique em uma região de rede na lista que você deseja rotear para a Região de Rede 1.
     
-8. Clique **em Adicionar** ao lado do campo Links de **Região** de Rede e adicione um link de região de rede que será usado na rota interregional de rede.
+8. Clique **em Adicionar** ao lado do **campo Links de Região** de Rede e adicione um link de região de rede que será usado na rota interregional de rede.
     
     > [!NOTE]
     > Se você estiver criando uma rota para duas regiões de rede que não têm um link de região de rede direta de rede entre elas, deverá adicionar todos os links necessários para concluir a rota. Por exemplo, a rota interregional de rede américa do norte/APAC requer dois links de região de rede porque não há link de região de rede direta entre eles. 

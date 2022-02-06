@@ -1,24 +1,19 @@
 ---
 title: Configurar a experiência do cliente com Skype for Business 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Resumo: leia este tópico para saber como configurar a experiência do cliente para Skype for Business usuários.'
-ms.openlocfilehash: d1baa06558f7f3dcc4829d1e03c387e9ab54fa32
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845974"
 ---
+
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar a experiência do cliente com Skype for Business 2015
  
 **Resumo:** Leia este tópico para saber como configurar a experiência do cliente para Skype for Business 2015.
@@ -61,7 +56,7 @@ O próximo comando seleciona a experiência Skype for Business cliente para todo
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
-Se quiser configurar a experiência do cliente para usuários específicos em sua organização, crie uma nova política de usuário usando o cmdlet **New-CsClientPolicy** e atribua a política a usuários específicos usando o cmdlet **Grant-CsClientPolicy.**
+Se quiser configurar a experiência do cliente para usuários específicos em sua organização, crie uma nova política de usuário usando o cmdlet **New-CsClientPolicy** e atribua a política a usuários específicos usando o cmdlet **Grant-CsClientPolicy** .
   
 Por exemplo, o comando a seguir cria uma nova política de cliente, SalesClientUI, que seleciona a Skype for Business cliente:
   
@@ -81,13 +76,13 @@ Por padrão, quando os usuários iniciam o Skype for Business 2015 pela primeira
   
 Se você quiser exibir a interface do usuário do Lync quando os usuários iniciarem o cliente Skype for Business pela primeira vez, siga estas etapas antes que o cliente seja iniciado pela primeira vez após a atualização:
   
-1. Confirme se o valor  `EnableSkypeUI` de está definido como $False na política que você está usando conforme descrito anteriormente.
+1. Confirme se o valor de  `EnableSkypeUI` está definido como $False na política que você está usando conforme descrito anteriormente.
     
 2. Atualize o registro do sistema no computador do usuário. Você deve fazer isso antes da primeira vez que os usuários iniciarem o cliente Skype for Business, e você deve fazer isso apenas uma vez. Para obter informações sobre como criar um Objeto de Política de Grupo para atualizar o Registro em um computador ingressado no domínio, consulte a seção mais adiante no tópico.
     
-    Na tecla **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync],** crie um novo **valor Binário.**
+    Na tecla **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]** , crie um novo **valor Binário** .
     
-    O **nome value** deve ser **EnableSkypeUI** e os dados **value** devem ser definidos como **00 00 00 00**.
+    O **nome value** deve ser **EnableSkypeUI** e os dados **value** devem ser definidos como **00 00 00 00 00**.
     
     A chave deve ter a seguinte aparência:
     
@@ -103,9 +98,9 @@ A interface do usuário do Lync agora será exibida quando os usuários iniciare
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Controlar a exibição do tutorial de tela de boas-vindas
 
-Quando os usuários abrem o Skype for Business cliente, o comportamento padrão é exibir uma tela de boas-vindas que inclui 7 dicas rápidas que a maioria das pessoas *pede.* Você pode desativar a exibição da tela de boas-vindas, mas ainda permitir que os usuários acessem o tutorial adicionando o seguinte valor de Registro no computador cliente:
+Quando os usuários abrem o Skype for Business cliente, o comportamento padrão é exibir uma tela de boas-vindas que inclui *7* dicas rápidas que a maioria das pessoas pede. Você pode desativar a exibição da tela de boas-vindas, mas ainda permitir que os usuários acessem o tutorial adicionando o seguinte valor de Registro no computador cliente:
   
-Na chave **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync],** crie um novo **valor DWORD (32 bits).** O **nome value** deve ser **IsBasicTutorialSeenByUser** e os dados **value** devem ser definidos como **1**.
+Na tecla **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** , crie um novo **valor DWORD (32 bits**). O **nome value** deve ser **IsBasicTutorialSeenByUser** e os **dados value** devem ser definidos como **1**.
   
 A chave deve ter a seguinte aparência:
   
@@ -115,7 +110,7 @@ A chave deve ter a seguinte aparência:
 
 Se você não quiser que seus usuários possam acessar o tutorial, poderá desativar o tutorial do cliente com o seguinte valor do Registro:
   
-Na chave **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync],** crie um novo **valor DWORD (32 bits).** O **nome value** deve ser **TutorialFeatureEnabled** e os dados **value** devem ser definidos como **0**.
+Na tecla **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** , crie um novo **valor DWORD (32 bits**). O **nome value** deve ser **TutorialFeatureEnabled** e os **dados value** devem ser definidos como **0**.
   
 Lync
   
@@ -155,7 +150,7 @@ As versões de patch necessárias para gerenciar a configuração do cliente Sky
   
 - Lync Server 2010 - Atualização Cumulativa de fevereiro de 2015 (4.0.7577.710) para o Lync Server 2010. Para obter informações, [consulte Updates for Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771)
     
-- Lync Server 2013 - Atualização Cumulativa de dezembro de 2014 (5.0.8308.857) para o Lync Server 2013. Para obter informações, [consulte Updates for Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
+- Lync Server 2013 - Atualização Cumulativa de dezembro de 2014 (5.0.8308.857) para o Lync Server 2013. Para obter informações, [consulte Atualizações do Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
     
 ## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>Criar um Objeto de Política de Grupo para modificar o Registro em um computador ingressado no domínio
 
@@ -167,23 +162,23 @@ O procedimento a seguir descreve como modificar o Registro para que a experiênc
 
 1. Inicie o **console gerenciamento de política de grupo**.
     
-    Para obter informações sobre como usar o Console de Gerenciamento de Política de Grupo, consulte [Console de Gerenciamento de Política de Grupo.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265969(v=ws.11))
+    Para obter informações sobre como usar o Console de Gerenciamento de Política de Grupo, consulte [Console de Gerenciamento de Política de Grupo](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265969(v=ws.11)).
     
-2. Clique com o botão direito do mouse no nó Objetos de **Política de** Grupo e selecione **Novo** no menu.
+2. Clique com o botão direito do mouse no nó **Objetos de Política de** Grupo e selecione **Novo** no menu.
     
-3. Na caixa **de diálogo Novo GPO,** insira um nome para o GPO, por exemplo, MakeLyncDefaultUI e clique em **OK**.
+3. Na caixa **de diálogo Novo GPO** , insira um nome para o GPO, por exemplo, MakeLyncDefaultUI e clique em **OK**.
     
 4. Clique com o botão direito do mouse no novo GPO que você acabou de criar e selecione **Editar** no menu.
     
-5. No Editor de Gerenciamento de **Política de Grupo,** **expanda** Configuração do Usuário, expanda **Preferências,** expanda **Windows Configurações** e selecione o **nó Registro.**
+5. No Editor **de Gerenciamento de Política de Grupo****, expanda** Configuração do Usuário, expanda **Preferências**, expanda Windows Configurações **e selecione o** **nó Registro**.
     
-6. Clique com o botão direito do mouse no nó **Registro** e selecione **Novo**  >  **Item do Registro.**
+6. Clique com o botão direito do mouse no nó **Registro** e selecione **Item** **NewRegistry** > .
     
-7. Na caixa de diálogo Novas **Propriedades do** Registro, atualize o seguinte:
+7. Na caixa **de diálogo Novas Propriedades do** Registro, atualize o seguinte:
     
    |**Field**|**Valor para selecionar ou inserir**|
    |:-----|:-----|
-   |**Action** <br/> |**Criar** <br/> |
+   |**Action** <br/> |**Create** <br/> |
    |**Hive** <br/> | HKEY_CURRENT_USER <br/> |
    |**Caminho da chave** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**Value name** <br/> |EnableSkypeUI  <br/> |
@@ -196,9 +191,9 @@ Em seguida, você precisará vincular o GPO criado ao grupo de usuários ao que 
   
 ### <a name="to-use-the-gpo-to-assign-the-policy"></a>Para usar o GPO para atribuir a política
 
-1. No Console de Gerenciamento de Política de Grupo, clique com o botão direito do mouse na UO à que você deseja atribuir a política e selecione Vincular a um **GPO existente.**
+1. No Console de Gerenciamento de Política de Grupo, clique com o botão direito do mouse na UO à que você deseja atribuir a política e selecione **Vincular a um GPO existente**.
     
-2. Na caixa **de diálogo Selecionar GPO,** selecione o GPO que você criou e selecione **OK**.
+2. Na caixa **de diálogo Selecionar GPO** , selecione o GPO que você criou e selecione **OK**.
     
 3. No computador do usuário de destino, abra um prompt de comando e digite o seguinte comando:
        
@@ -213,4 +208,4 @@ Em seguida, você precisará vincular o GPO criado ao grupo de usuários ao que 
     
     Você deve ver "Objetos de Política de Grupo Atribuídos" com o nome do GPO que você criou exibido abaixo.
     
-Você também pode verificar se o GPO atualizou com êxito o Registro no computador de um usuário examinando o Registro. Abra o Editor do Registro e navegue até a tecla **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync].** Se o GPO atualizou com êxito o Registro, você verá um valor chamado EnableSkypeUI com um valor 0.
+Você também pode verificar se o GPO atualizou com êxito o Registro no computador de um usuário examinando o Registro. Abra o Editor do Registro e navegue até a tecla **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]** . Se o GPO atualizou com êxito o Registro, você verá um valor chamado EnableSkypeUI com um valor 0.

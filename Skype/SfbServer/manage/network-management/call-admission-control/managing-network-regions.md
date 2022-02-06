@@ -1,23 +1,18 @@
 ---
 title: Gerenciando regiões de rede
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Região de rede* são os hubs de rede ou backbones usados na configuração do controle de admissão de chamada, E9-1-1 e desvio de mídia.
-ms.openlocfilehash: 5d0a40576098ceb641bdc677a551908b6a23044b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843864"
+description: 'Região de rede* são os hubs de rede ou backbones usados na configuração do controle de admissão de chamada, E9-1-1 e desvio de mídia.'
 ---
+
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gerenciando regiões de rede no Skype for Business Server
 
 *Regiões de rede* são hubs de rede ou backbones usados na configuração do serviço de controle de admissão de chamadas, E9-1-1 e desvio de mídia. Use os procedimentos a seguir para visualizar, criar ou modificar regiões de rede. Por exemplo, se você já criou regiões de rede para um recurso de Voz, não precisará criar novas regiões de rede; outros recursos avançados do Enterprise Voice usarão essas mesmas regiões de rede. Porém, talvez seja necessário modificar uma definição de região de rede existente para aplicar configurações específicas ao recurso. Por exemplo, se você cria regiões de rede para o E9-1-1 (que não exige um local central associado) e depois implanta o controle de admissão de chamadas, precisará modificar as definições de região de rede para especificar um local central. 
@@ -37,7 +32,7 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 
 3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Região**.
 
-4.  Na página **Região,** clique na região que você deseja exibir.
+4.  Na página **Região** , clique na região que você deseja exibir.
   
     > [!NOTE]  
     > Você só pode exibir uma região por vez.
@@ -47,7 +42,7 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 
 ### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de região de rede usando Windows PowerShell cmdlets
 
-Você pode exibir informações da região de rede usando Windows PowerShell e o cmdlet **Get-CsNetworkRegion.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
+Você pode exibir informações da região de rede usando Windows PowerShell e o cmdlet **Get-CsNetworkRegion**. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
 
 ### <a name="to-view-network-region-information"></a>Para exibir informações da região de rede
 
@@ -65,7 +60,7 @@ Você pode exibir informações da região de rede usando Windows PowerShell e o
                        BWPolicyModality=Video; AlternatePath=True}<br/>
     NetworkRegionID : Noroeste do Pacífico<br/>
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkRegion.](/powershell/module/skype/Get-CsNetworkRegionLink)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink) .
 
 
 ## <a name="create-or-modify-network-regions"></a>Criar ou modificar regiões de rede 
@@ -141,7 +136,7 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
     > Uma região de rede não pode ser removida se estiver associada a um site de rede. Se você tentar remover uma região associada a um site, receberá uma mensagem de erro. Para ver se um região está associada a algum site, selecione a região e clique em **Mostrar detalhes** no menu **Editar**.
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Gerenciando rotas de região de rede](managing-network-region-routes.md)
 

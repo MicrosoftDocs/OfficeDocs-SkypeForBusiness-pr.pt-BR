@@ -1,34 +1,29 @@
 ---
 title: Expansor de Configurações do Registrador
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.RegistrarSettingsExpander
+  - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
-description: A resiliência oferece alta disponibilidade e recuperação de desastres para o pool de Registradores. Ao disponibilizar um Registrador de backup em caso de falha do Registrador principal, o Registrador de backup pode assumir o lugar do Registrador com falha, permitindo que os usuários façam logon e se comuniquem. É possível que os usuários tenham uma redução na funcionalidade, dependendo dos sistemas que falharam no Registrador principal.
-ms.openlocfilehash: 599923fc8b85e57387ff2742a933c60a928a2dde
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837703"
+description: 'A resiliência oferece alta disponibilidade e recuperação de desastres para o pool de Registradores. Ao disponibilizar um Registrador de backup em caso de falha do Registrador principal, o Registrador de backup pode assumir o lugar do Registrador com falha, permitindo que os usuários façam logon e se comuniquem. É possível que os usuários tenham uma redução na funcionalidade, dependendo dos sistemas que falharam no Registrador principal.'
 ---
+
 # <a name="registrar-settings-expander"></a>Expansor de Configurações do Registrador
  
 A resiliência oferece alta disponibilidade e recuperação de desastres para o pool de Registradores. Ao disponibilizar um Registrador de backup em caso de falha do Registrador principal, o Registrador de backup pode assumir o lugar do Registrador com falha, permitindo que os usuários façam logon e se comuniquem. É possível que os usuários tenham uma redução na funcionalidade, dependendo dos sistemas que falharam no Registrador principal.
   
 Na seção  **Resiliência** da caixa de diálogo  **Editar Propriedades** de seu Aparelho de Filial Persistente, ou Servidor de Filial Persistente, você pode alterar as seguintes configurações:
   
-- **Pool de** Registradores de backup e serviço de usuário associado Na listada, selecione o pool de front-end Edição Enterprise ou Edição Standard servidor front-end que deve atuar como o Registrador de backup para o Aparelho de Filial Desavivável ou Servidor de Filial Desavivável.
+- **Pool de Registradores de backup** e serviço de usuário associado Na listada, selecione o pool de front-end Edição Enterprise ou Edição Standard servidor front-end que deve atuar como o Registrador de backup para o Aparelho de Filial Desavivável ou Servidor de Filial Desavivável.
     
 - **Habilitar Failover e Failback** Selecione essa configuração para permitir a detecção automática de um Registrador com falha e a determinação automática de que o Registrador principal está de volta e pronto para retomar o processo de Registrador.
     

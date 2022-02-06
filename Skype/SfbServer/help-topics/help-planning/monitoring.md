@@ -1,28 +1,23 @@
 ---
 title: 'Skype for Business Server: Ferramenta de planejamento de monitoramento'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Monitoring
-- ms.lync.plan.Monitoring
+  - ms.lync.plan.Monitoring
+  - ms.lync.plan.Monitoring
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: No Skype for Business Server 2015, o monitoramento é usado para coletar informações de uso e dados de Qualidade da Experiência (QoE) sobre as sessões de comunicação em que seus usuários estão envolvidos.
-ms.openlocfilehash: 230245729fc8a74713290cf0dce3a388b538a9fa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829095"
+description: 'No Skype for Business Server 2015, o monitoramento é usado para coletar informações de uso e dados de Qualidade da Experiência (QoE) sobre as sessões de comunicação em que seus usuários estão envolvidos.'
 ---
+
 # <a name="skype-for-business-server-monitoring-planning-tool"></a>Skype for Business Server: Ferramenta de planejamento de monitoramento
 
 No Skype for Business Server 2015, o monitoramento é usado para coletar informações de uso e dados de Qualidade da Experiência (QoE) sobre as sessões de comunicação em que seus usuários estão envolvidos.

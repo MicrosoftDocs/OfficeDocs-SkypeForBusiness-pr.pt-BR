@@ -1,29 +1,24 @@
 ---
 title: Relatório de Resumo de Conferências em Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Resumo: saiba mais sobre o Relatório de Resumo de Conferências Skype for Business Server.'
-ms.openlocfilehash: 029dac40c7bc52602f0403bdfd52559db662b0ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846404"
 ---
+
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de Conferências em Skype for Business Server
  
 **Resumo:** Saiba mais sobre o Relatório de Resumo de Conferência Skype for Business Server.
   
-O Relatório de Resumo de Conferências traz uma visão geral de suas sessões de conferência online. Uma conferência geralmente envolve mais de 2 usuários e requer o uso de serviços de conferência. Por comparação, uma sessão ponto a ponto geralmente envolve apenas dois usuários e não exige o uso de serviços de Skype for Business Server de conferência. As atividades ponto a ponto são relatadas no Relatório de Resumo de Atividades Ponto a Ponto [em Skype for Business Server](peer-to-peer-activity-summary-report.md).
+O Relatório de Resumo de Conferências traz uma visão geral de suas sessões de conferência online. Uma conferência geralmente envolve mais de 2 usuários e requer o uso de serviços de conferência. Por comparação, uma sessão ponto a ponto geralmente envolve apenas dois usuários e não exige o uso de serviços de Skype for Business Server de conferência. As atividades ponto a ponto são relatadas no Relatório de Resumo de Atividades Ponto a Ponto [no Skype for Business Server](peer-to-peer-activity-summary-report.md).
   
 O Relatório de Resumo de Conferência não apenas informa quantas conferências foram realizadas durante um determinado período de tempo (por hora, diariamente, semanal, mensal), mas também informa o número total de pessoas que participaram dessas conferências e o número total de organizadores de conferências exclusivos.
   
@@ -75,7 +70,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Resum
   
 **Filtros do Relatório de Resumo de Conferências**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -87,7 +82,7 @@ A tabela a seguir as informações fornecidas pelo 	Relatório de Resumo de Conf
   
 **Métricas do Relatório de Resumo de Conferências**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**A cada hora** <br/> **Diariamente** <br/> **Semanalmente** <br/> **Mensal** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado na barra de ferramentas de filtro. Quando aplicável, é possível clicar em um determinado intervalo de tempo para exibir informações detalhadas desse intervalo. Por exemplo, se você estiver usando o intervalo Diário e clicar em 7/7/2015, verá uma divisão por hora da atividade de registro do usuário para essa data.  <br/> |
 |**Total de conferências** <br/> |Não  <br/> |Número total de conferências (independentemente do tipo de conferência) que foram mantidas. Quando você clica nesse item, o relatório mostra o Relatório de Resumo de Conferências para o período de tempo selecionado.  <br/> |

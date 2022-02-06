@@ -1,30 +1,25 @@
 ---
 title: Solicitação de Certificado (Retornado)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertRequestReturned
+  - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'A página Status da Solicitação de Certificado Online apresenta informações importantes sobre a criação e emissão bem-sucedida da solicitação de certificado online. Essa página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção Atribuir esse certificado Skype for Business Server usos de certificados está selecionado. Se você clicar em Concluir, o certificado será atribuído automaticamente ao Skype for Business Server para os fins que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, as finalidades as quais o certificado será atribuído são:'
-ms.openlocfilehash: b6abbc26fab49e3f4036e5d487417d46f14220fa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851555"
 ---
+
 # <a name="certificate-request-returned"></a>Solicitação de Certificado (Retornado)
  
-A página **Status da Solicitação de Certificado Online** apresenta informações importantes sobre a criação e emissão bem-sucedida da solicitação de certificado online. Essa página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção **Atribuir esse certificado Skype for Business Server usos de certificados** está selecionado. Se você clicar **em Concluir**, o certificado será atribuído automaticamente ao Skype for Business Server para os fins que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, as finalidades as quais o certificado será atribuído são:
+A página **Status da Solicitação de Certificado Online** apresenta informações importantes sobre a criação e emissão bem-sucedida da solicitação de certificado online. Essa página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção **Atribuir esse certificado Skype for Business Server usos de certificados** está selecionado. Se você clicar **em Concluir**, o certificado será atribuído automaticamente à Skype for Business Server para os fins que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, as finalidades as quais o certificado será atribuído são:
   
 - Padrão do servidor para MTLS (Mutual Transport Layer Security) - conexões com clientes e outros servidores
     

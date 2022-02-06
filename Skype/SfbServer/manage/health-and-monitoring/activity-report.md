@@ -1,24 +1,19 @@
 ---
 title: Relatório de Atividades de Conferência no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Resumo: saiba mais sobre o Relatório de Atividade de Conferência usado Skype for Business Server.'
-ms.openlocfilehash: c136bfaeb40a9b84c2861332636916353856855f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849924"
 ---
+
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Relatório de Atividades de Conferência no Skype for Business Server
  
 **Resumo:** Saiba mais sobre o Relatório de Atividades de Conferência usado Skype for Business Server.
@@ -51,7 +46,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
   
 **Filtros do Relatório de Atividades de Conferência**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -64,7 +59,7 @@ A tabela a seguir lista as informações no Relatório de Atividades de Conferê
   
 **Métricas para Conferências por Pool**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Pool** <br/> |Não  <br/> |Nome do pool de Registradores ou Servidor de Borda usado na conferência.  <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e hora em que a conferência foi realizada.  <br/> |
@@ -76,7 +71,7 @@ A tabela a seguir lista as informações no Relatório de Atividades de Conferê
   
 **Métricas para conferências por tipo de servidor**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de servidor de conferência** <br/> |Não  <br/> | Tipo de servidor usado na conferência, normalmente um dos seguintes: <br/>  Servidor de WebConferência <br/>  Servidor de Conferência de IM <br/>  Servidor de Conferência de Telefonia <br/>  Servidor de Conferência AV <br/>  Compartilhamento de aplicativo <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e hora em que a conferência foi realizada.  <br/> |

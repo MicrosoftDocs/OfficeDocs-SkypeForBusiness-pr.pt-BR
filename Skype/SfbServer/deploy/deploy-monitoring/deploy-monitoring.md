@@ -1,24 +1,19 @@
 ---
 title: Implantar monitoramento no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumo: saiba como implantar o monitoramento no Skype for Business Server.'
-ms.openlocfilehash: 5e3fdf468067b707ee1dd97c5458f3612d78653d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855075"
 ---
+
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Implantar monitoramento no Skype for Business Server
 
 **Resumo:** Saiba como implantar o monitoramento no Skype for Business Server.
@@ -36,7 +31,7 @@ Embora normalmente seja mais fácil habilitar o monitoramento ao mesmo tempo em 
 > [!NOTE]
 > Se o monitoramento tiver sido habilitado para um pool, você poderá desabilitar o processo de coleta de dados de monitoramento sem precisar alterar sua topologia: o Skype for Business Server fornece uma maneira de desabilitar (e, em seguida, habilitar posteriormente) o CDR (Registro de Detalhes de Chamada) ou a coleta de dados de Qualidade da Experiência (QoE). Para mais informações, consulte a seção Como Configurar o Registro de Detalhes de Chamadas e Configurações de Qualidade de Experiência deste documento.
 
-Outro aprimoramento importante para o monitoramento no Skype for Business Server é o fato de que os Relatórios de Monitoramento do Skype for Business Server agora suportam IPv6: os relatórios que usam o campo Endereço IP exibirão endereços IPv4 ou IPv6 dependendo de : 1) a consulta SQL sendo usada; e, 2) onde o endereço IPv6 está ou não armazenado no banco de dados de monitoramento.
+Outro aprimoramento importante para o monitoramento no Skype for Business Server é o fato de que os relatórios de monitoramento do Skype for Business Server agora suportam IPv6: os relatórios que usam o campo Endereço IP exibirão endereços IPv4 ou IPv6 dependendo de : 1) o SQL  consulta em uso; e, 2) onde o endereço IPv6 está ou não armazenado no banco de dados de monitoramento.
 
 > [!NOTE]
 > Verifique se o tipo de inicialização do serviço de agente do SQL Server é Automático e se o Serviço de Agente do SQL Server está em execução para a Instância do SQL que está segurando os bancos de dados de Monitoramento, para que os Trabalhos de Manutenção padrão do SQL Server possam ser executados com base no agendamento sob o controle do serviço SQL Server Agent.
@@ -47,7 +42,7 @@ Esta documentação orienta você sobre o processo de instalação e configuraç
 
 - Instale SQL Server Reporting Services e os relatórios Skype for Business Server monitoramento. Relatórios de Monitoramento são relatórios pré-configurados que fornecem visões diferentes das informações armazenadas em um banco de dados de monitoramento.
 
-- Configure a cdr (registro de detalhes de chamada) e a coleta de dados qualidade da experiência (QoE). A gravação de detalhes de chamadas fornece uma maneira de rastrear o uso de recursos Skype for Business Server como chamadas telefônicas VoIP (Voz sobre IP). mensagens instantâneas (IM); transferências de arquivos; conferência de áudio/vídeo (A/V); e sessões de compartilhamento de aplicativos. Métricas de QoE rastreiam a qualidade de chamadas de áudio/vídeo feitas em sua organização, incluindo itens como o número de pacotes de rede perdidos, ruídos de fundo e o volume de "tremulação" (diferenças no intervalo de pacotes).
+- Configure a cdr (registro de detalhes de chamada) e a coleta de dados qualidade da experiência (QoE). A gravação de detalhes da chamada oferece uma maneira de rastrear o uso de recursos de Skype for Business Server, como chamadas telefônicas VoIP (Voz sobre IP), mensagens instantâneas (IM); transferências de arquivos; conferência de áudio/vídeo (A/V) e sessões de compartilhamento de aplicativos. Métricas de QoE rastreiam a qualidade de chamadas de áudio/vídeo feitas em sua organização, incluindo itens como o número de pacotes de rede perdidos, ruídos de fundo e o volume de "tremulação" (diferenças no intervalo de pacotes).
 
 - Limpar manualmente registros de CDR e/ou QoE do banco de dados de monitoramento.
 
@@ -65,7 +60,7 @@ Embora o monitoramento já esteja instalado e ativado em cada servidor Front-End
 
 Embora os agentes de coleta de dados unificados sejam instalados e ativados automaticamente em cada servidor Front-End, isso não significa que você começará automaticamente a coletar dados de monitoramento no momento em que terminar de instalar o Skype for Business Server. Em vez disso, você deve fazer duas coisas: você deve associar seus servidores front-end/pools de front-end a um banco de dados de monitoramento e deve habilitar o CDR (Registro de Detalhes de Chamada) e/ou o monitoramento de Qualidade da Experiência (QoE) no escopo global e/ou no escopo do site.
 
-Para obter instruções passo a passo sobre como associar servidores Front-End ou pools de Front-End a um banco de dados de monitoramento, consulte o tópico Associar um armazenamento de monitoramento a um [pool de Front-End](associate-a-monitoring-store.md) no Skype for Business Server no guia implantação. Depois que essas associações foram feitas e depois que sua nova topologia de Skype for Business Server tiver sido publicada, você ainda não poderá coletar dados de monitoramento. Isso porque, por padrão, a coleção de dados CDR e QoE é desabilitada quando você instala Skype for Business Server.
+Para obter instruções passo a passo sobre como associar servidores Front-End ou pools de Front-End a um banco de dados de monitoramento, consulte o tópico Associar um armazenamento de monitoramento [a um pool de Front-End](associate-a-monitoring-store.md) no Skype for Business Server no guia implantação. Depois que essas associações foram feitas e depois que sua nova topologia de Skype for Business Server tiver sido publicada, você ainda não poderá coletar dados de monitoramento. Isso porque, por padrão, a coleção de dados CDR e QoE é desabilitada quando você instala Skype for Business Server.
 
 Para poder começar a coletar dados necessários habilite o CDR e/ou monitoramento QoE. (Observe que você não precisa habilitar o monitoramento de CDR e QoE; se preferir, você pode habilitar um tipo de monitoramento enquanto deixa o outro tipo desabilitado.) Para habilitar o monitoramento de CDR no escopo global, execute o seguinte comando no Shell de Gerenciamento Skype for Business Server:
 
@@ -95,7 +90,7 @@ Se preferir, você também pode habilitar o monitoramento de QoE de dentro do pa
 
 3. No painel **Editar configuração da Qualidade da Experiência (QoE)**, selecione **Habilitar monitoramento de dados QoE** e clique em **Confirmar**.
 
-Como observado, os exemplos anteriores habilitam o monitoramento no escopo global; isto é, eles habilitam o monitoramento CDR e QoE através da sua organização. Em alternativa, é possível criar definições de configurações CDR e QoE separadas no escopo local e habilitar ou desabilitar seletivamente o monitoramento de cada local. Por exemplo, é possível habilitar o monitoramento CDR para seu local Redmond, desabilitar o monitoramento CDR para Dublin. Para obter mais informações sobre como gerenciar suas configurações de monitoramento, consulte o tópico Guia de implantação Configurar o registro de detalhes da chamada e as configurações de Qualidade da Experiência [no Skype for Business Server](call-detail-recording-and-qoe.md).
+Como observado, os exemplos anteriores habilitam o monitoramento no escopo global; isto é, eles habilitam o monitoramento CDR e QoE através da sua organização. Em alternativa, é possível criar definições de configurações CDR e QoE separadas no escopo local e habilitar ou desabilitar seletivamente o monitoramento de cada local. Por exemplo, é possível habilitar o monitoramento CDR para seu local Redmond, desabilitar o monitoramento CDR para Dublin. Para obter mais informações sobre como gerenciar suas configurações de monitoramento, consulte o tópico Guia de implantação Configurar o registro de detalhes de chamada e as configurações de Qualidade da Experiência [no Skype for Business Server](call-detail-recording-and-qoe.md).
 
 ## <a name="see-also"></a>Confira também
 

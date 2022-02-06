@@ -1,26 +1,21 @@
 ---
 title: Serviço de Log Centralizado Skype for Business 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Resumo: saiba mais sobre os componentes de serviço e as configurações do Serviço de Log Centralizado Skype for Business Server 2015.'
-ms.openlocfilehash: 457740b04a331d701ce991e696fa7cf88b57230c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854265"
 ---
+
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Serviço de Log Centralizado Skype for Business 2015
  
 **Resumo:** Saiba mais sobre os componentes de serviço e as configurações do Serviço de Log Centralizado Skype for Business Server 2015.
@@ -38,7 +33,7 @@ O Serviço de Log Centralizado pode:
   - Use um provedor existente ou crie um novo provedor. O Aprovider define o que a sessão de registro em log coleta, qual nível de detalhes, quais componentes rastrear e quais sinalizadores são aplicados.
     
     > [!TIP]
-    >  Se você estiver familiarizado com o OCSLogger, os termosproviders referem-se à coleção de componentes **(por** exemplo, S4, SIPStack), um tipo de log **(por** exemplo, WPP, EventLog ou logfile do IIS), um nível de rastreamento **(por** exemplo, All, verbose, depurar) e **sinalizadores** (por exemplo, TF_COMPONENT, TF_DIAG). Esses itens são definidos no provedor (uma Windows PowerShell variável) e passados para o comando Serviço de Log Centralizado.
+    >  Se você estiver familiarizado com o OCSLogger, os termosproviders referem-se à coleção de componentes **(por** exemplo, S4, SIPStack), um tipo de **log (por** exemplo, WPP, EventLog ou logfile do IIS), um nível de **rastreamento (por** exemplo, Todos, detalhados, depuradores) e **sinalizadores** (por exemplo, TF_COMPONENT, TF_DIAG). Esses itens são definidos no provedor (uma Windows PowerShell variável) e passados para o comando Serviço de Log Centralizado.
   
   - Configure logs para computadores e pools específicos.
     
@@ -60,12 +55,12 @@ O Serviço de Log Centralizado é uma ferramenta poderosa de solução de proble
   
 Você em problemas de comandos usando a interface de linha de comando do Windows Server ou usando o Shell de Gerenciamento Skype for Business Server servidor. Os comandos são executados no computador em que você está conectado e enviado para o ClsAgent localmente ou para outros computadores e pools em sua implantação.
   
-ClsAgent mantém um arquivo de índice de todos . Arquivos CACHE que ele tem no computador local. O ClsAgent aloca-os para que sejam distribuídos uniformemente entre volumes definidos pela opção CacheFileLocalFolders, nunca consumindo mais de 80% de cada volume (ou seja, o local do cache local e a porcentagem é configurável usando o cmdlet **Set-CsClsConfiguration).** ClsAgent também é responsável pelo envelhecimento de arquivos antigos de log de rastreamento de eventos em cache (.etl) do computador local. Após duas semanas (ou seja, o período de tempo é configurável usando o cmdlet **Set-CsClsConfiguration)** esses arquivos são copiados para um compartilhamento de arquivos e excluídos do computador local. Para obter detalhes, [consulte Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Quando uma solicitação de pesquisa é recebida, os critérios de pesquisa são usados para selecionar o conjunto de arquivos .etl armazenados em cache para executar a pesquisa com base nos valores no índice mantido pelo agente.
+ClsAgent mantém um arquivo de índice de todos . Arquivos CACHE que ele tem no computador local. O ClsAgent aloca-os para que sejam distribuídos uniformemente entre volumes definidos pela opção CacheFileLocalFolders, nunca consumindo mais de 80% de cada volume (ou seja, o local do cache local e a porcentagem é configurável usando o cmdlet **Set-CsClsConfiguration** ). ClsAgent também é responsável pelo envelhecimento de arquivos antigos de log de rastreamento de eventos em cache (.etl) do computador local. Após duas semanas (ou seja, o período de tempo é configurável usando o cmdlet **Set-CsClsConfiguration** ) esses arquivos são copiados para um compartilhamento de arquivos e excluídos do computador local. Para obter detalhes, [consulte Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Quando uma solicitação de pesquisa é recebida, os critérios de pesquisa são usados para selecionar o conjunto de arquivos .etl armazenados em cache para executar a pesquisa com base nos valores no índice mantido pelo agente.
   
 > [!NOTE]
 > Os arquivos movidos para o compartilhamento de arquivos do computador local podem ser pesquisados pelo ClsAgent. Depois que ClsAgent move os arquivos para o compartilhamento de arquivos, o envelhecimento e a remoção de arquivos não são mantidos pelo ClsAgent. Você deve definir uma tarefa administrativa para monitorar o tamanho dos arquivos no compartilhamento de arquivos e excluí-los ou arquivar-los. 
   
-Os arquivos de log resultantes podem ser lidos e  analisados usando uma variedade de ferramentas, incluindoSnooper.exee qualquer ferramenta que possa ler um arquivo de texto, como **Notepad.exe**. Snooper.exe faz parte do Skype for Business Server de depuração 2015 e está disponível como download [da Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
+Os arquivos de log resultantes podem ser lidos e analisados usando uma variedade de ferramentas, **** incluindoSnooper.exee qualquer ferramenta que possa ler um arquivo de texto, **comoNotepad.exe**. Snooper.exe faz parte do Skype for Business Server de depuração 2015 e está disponível como download [da Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
   
 Assim como o OCSLogger, o Serviço de Log Centralizado tem vários componentes para rastrear e oferece opções para selecionar sinalizadores, como TF_COMPONENT e TF_DIAG. O Serviço de Log Centralizado também mantém as opções de nível de log do OCSLogger.
   
@@ -78,7 +73,7 @@ Quando um usuário solicita uma pesquisa de log, o ClsController determina para 
 Ao iniciar uma sessão de registro em log, especifique cenários relativos ao problema que você está tentando resolver. Você pode ter dois cenários em execução a qualquer momento. Um desses dois cenários deve ser o cenário AlwaysOn. Como o nome sugere, ele sempre deve estar em execução em sua implantação, coletando informações em todos os computadores, pools e componentes.
   
 > [!IMPORTANT]
-> Por padrão, o cenário AlwaysOn não está sendo executado em sua implantação. Você deve iniciar explicitamente o cenário. Depois de iniciado, ele continuará a ser executado até ser interrompido explicitamente, e o estado de execução persistirá por meio das reinicializações dos computadores. Para obter detalhes sobre como iniciar e interromper cenários, consulte Iniciar ou interromper a captura de [log CLS Skype for Business Server 2015](start-or-stop-log-capture.md). 
+> Por padrão, o cenário AlwaysOn não está sendo executado em sua implantação. Você deve iniciar explicitamente o cenário. Depois de iniciado, ele continuará a ser executado até ser interrompido explicitamente, e o estado de execução persistirá por meio das reinicializações dos computadores. Para obter detalhes sobre cenários de início e interrupção, consulte Iniciar ou interromper a captura de [log CLS Skype for Business Server 2015](start-or-stop-log-capture.md). 
   
 Quando ocorrer um problema, inicie um segundo cenário relacionado ao problema relatado. Reproduza o problema e pare o log do segundo cenário. Inicie suas pesquisas de log em relação ao problema relatado. A coleção agregada de logs produz um arquivo de log que contém mensagens de rastreamento de todos os computadores em seu site ou escopo global de sua implantação. Se a pesquisa retornar mais dados do que você pode analisar viávelmente (normalmente conhecida como taxa de sinal para ruído, onde o ruído é muito alto), execute outra pesquisa com parâmetros mais estreitos. Neste ponto, você pode começar a perceber padrões que aparecem e podem ajudá-lo a ter um foco mais claro no problema. Por fim, depois de executar algumas pesquisas refinadas, você pode encontrar dados relevantes para o problema e descobrir a causa raiz.
   
@@ -93,7 +88,7 @@ O Serviço de Log Centralizado é configurado para definir o que o serviço de r
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>Para exibir a configuração atual do Serviço de Log Centralizado
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Digite o seguinte em uma linha de comando do promt:
     
@@ -102,7 +97,7 @@ O Serviço de Log Centralizado é configurado para definir o que o serviço de r
    ```
 
     > [!TIP]
-    > Você pode restringir ou expandir o escopo das configurações retornadas definindo e um escopo, como "Site:Redmond" para retornar apenas  `-Identity` o CsClsConfiguration para o site Redmond. Se você quiser detalhes sobre uma determinada parte da configuração, poderá canalizou a saída para outro cmdlet Windows PowerShell. Por exemplo, para obter detalhes sobre os cenários definidos na configuração do site "Redmond", digite: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > Você pode  `-Identity` restringir ou expandir o escopo das configurações retornadas definindo e um escopo, como "Site:Redmond" para retornar apenas o CsClsConfiguration para o site Redmond. Se você quiser detalhes sobre uma determinada parte da configuração, poderá canalizou a saída para outro cmdlet Windows PowerShell. Por exemplo, para obter detalhes sobre os cenários definidos na configuração do site "Redmond", digite: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Saída de exemplo de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

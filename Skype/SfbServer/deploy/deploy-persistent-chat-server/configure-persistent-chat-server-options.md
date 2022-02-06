@@ -1,25 +1,20 @@
 ---
 title: Configurar opções do Servidor de Chat Persistente no Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Resumo: saiba como configurar as opções do Servidor de Chat Persistente no nível global, do site ou do pool no Skype for Business Server 2015.'
-ms.openlocfilehash: 99dab0b4a5e7bb542dee00803e5c401c63544ada
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835839"
 ---
+
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configurar opções do Servidor de Chat Persistente no Skype for Business Server 2015
  
 **Resumo:** Saiba como configurar as opções do Servidor de Chat Persistente no nível global, do site ou do pool no Skype for Business Server 2015.
@@ -43,16 +38,16 @@ Para configurar opções globais do Servidor de Chat Persistente:
   
 1. A partir de uma conta de usuário atribuída à função CsPersistentChatAdministrator ou CsAdministrator, faça logon em qualquer computador em sua implantação interna.
     
-2. No menu **Iniciar,** selecione o painel de controle Skype for Business Server ou abra uma janela do navegador e insira a URL do administrador.
+2. No menu **Iniciar**, selecione o painel de controle Skype for Business Server ou abra uma janela do navegador e insira a URL do administrador.
     
 3. Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Configuração de Chat Persistente**.
     
-4. Na página **Configuração de Chat Persistente,** clique em **Novo e** em **Configuração do Site.**
+4. Na página **Configuração de Chat Persistente** , clique em **Novo e** em **Configuração do site**.
     
     > [!IMPORTANT]
     > Escolha essa opção se quiser que a configuração seja aplicada a todos os pools do Servidor de Chat Persistente implantados no site. Clique **em Configuração do** Pool se quiser que a configuração seja aplicada a um pool específico do Servidor de Chat Persistente.
   
-5. Em **Selecionar um Site,** selecione o site a ser configurado para a configuração do site do Servidor de Chat Persistente.
+5. Em **Selecionar um Site**, selecione o site a ser configurado para a configuração do site do Servidor de Chat Persistente.
     
 6. Em **Nova Configuração de Chat Persistente**, faça o seguinte:
     
@@ -67,7 +62,7 @@ Para configurar opções globais do Servidor de Chat Persistente:
     
    - Em **Limite de atualização de participantes**, selecione o limite de atualizações de participantes. O Servidor de Chat Persistente envia informações de lista (que está conectado a uma sala de chat) para todos os participantes até que o número de usuários conectados atinja esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual o Servidor de Chat Persistente para de enviar atualizações de lista para clientes conectados sobre quem está presente na sala.
     
-   - (Opcional.) Em **URL de gerenciamento de sala,** selecione a URL de gerenciamento de sala. Essa é a URL para um gerenciamento de sala personalizada baseada na Web. Se você não precisar personalizar o gerenciamento de sala e simplesmente usar a configuração padrão, deixe essa opção em branco. Após a URL ser definida, ela é aplicada como URL de gerenciamento de sala interna e externa.
+   - (Opcional.) Na **URL de gerenciamento de sala**, selecione a URL de gerenciamento de sala. Essa é a URL para um gerenciamento de sala personalizada baseada na Web. Se você não precisar personalizar o gerenciamento de sala e simplesmente usar a configuração padrão, deixe essa opção em branco. Após a URL ser definida, ela é aplicada como URL de gerenciamento de sala interna e externa.
     
      Se você quiser personalizar sua experiência de criação de sala e incluir seu fluxo de trabalho comercial específico, você pode criar uma solução de gerenciamento de sala personalizada usando o SDK (Kit de Desenvolvimento de Software do Servidor de Chat Persistente), hospedá-lo em algum lugar e colocar a URL aqui. Essa URL é enviada para o cliente de modo que quando um usuário tenta exibir ou criar uma sala, ele ou ela é direcionado à sua solução de gerenciamento de sala personalizada.
     
@@ -79,13 +74,13 @@ Para configurar opções para um pool específico de Servidor de Chat Persistent
   
 1. A partir de uma conta de usuário atribuída à função CsPersistentChatAdministrator ou CsAdministrator, faça logon em qualquer computador em sua implantação interna.
     
-2. No menu **Iniciar,** selecione o painel Skype for Business Server controle ou abra uma janela do navegador e insira a URL do administrador.
+2. No menu **Iniciar**, selecione o painel Skype for Business Server controle ou abra uma janela do navegador e insira a URL do administrador.
     
 3. Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Configuração de Chat Persistente**.
     
 4. Na página **Configuração de Chat Persistente**, clique em **Novo** e clique em **Configuração de pool**.
     
-5. Em **Selecionar um Serviço,** selecione o serviço associado ao pool do Servidor de Chat Persistente a ser configurado.
+5. Em **Selecionar um Serviço**, selecione o serviço associado ao pool do Servidor de Chat Persistente a ser configurado.
     
 6. Em **Nova Configuração de Chat Persistente**, faça o seguinte:
     

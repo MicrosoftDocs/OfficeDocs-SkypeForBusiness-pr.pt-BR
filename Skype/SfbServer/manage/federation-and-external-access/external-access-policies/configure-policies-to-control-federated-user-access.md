@@ -1,27 +1,23 @@
 ---
 title: Configurar políticas para controlar acesso de usuário federado
-ms.reviewer: ''
-ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
-ms:contentKeyID: 48184180
+ms.reviewer: null
+'ms:assetid': 5485e208-81e4-4e59-9aeb-1232c11dd8a2
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)'
+'ms:contentKeyID': 48184180
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'Quando você configurar políticas para fornecer suporte às comunicações de parceiros federados, as políticas se aplicam aos usuários de domínios federados. '
-ms.openlocfilehash: 020135e26b2a989d6ef0225825cb2597d15687d4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833397"
 ---
+
+
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuários federados Skype for Business Server
 
 Quando você configurar políticas para fornecer suporte às comunicações de parceiros federados, as políticas se aplicam aos usuários de domínios federados. Você pode configurar uma ou mais políticas de acesso de usuário externos para controlar se os usuários de domínios federados podem colaborar com seus Skype for Business Server usuários. Para controlar o acesso de usuários federados, você pode configurar políticas no nível global, de site e de usuário. Skype for Business Server configurações de política aplicadas em um nível de política podem substituir as configurações que são aplicadas em outro nível de política. A precedência da política do Skype for Business Server é: políticas de usuário (maior influência) substituem políticas de site, e políticas de site substituem políticas globais (menor influência). Isso significa que quanto mais próxima a configuração da política estiver do objeto que a política estiver afetando, maior será a influência sobre o objeto.
@@ -61,13 +57,13 @@ Quando você configurar políticas para fornecer suporte às comunicações de p
 
 Para habilitar o acesso do usuário federado, você também deve habilitar o suporte para federação em sua organização. Para obter detalhes, [consulte Enable or disable federation and public IM connectivity](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
 
-Se essa for uma política de usuário, você também deverá aplicar a política aos usuários que também devem ser capazes de colaborar com usuários federados. Para obter detalhes, [consulte Assign an external user access policy](assign-an-external-user-access-policy.md).
+Se essa for uma política de usuário, você também deverá aplicar a política aos usuários que também devem ser capazes de colaborar com usuários federados. Para obter detalhes, [consulte Atribuir uma política de acesso de usuário externo](assign-an-external-user-access-policy.md).
 
 ## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para configurar uma política existente usando Windows PowerShell para dar suporte ao acesso de usuários de domínios federados
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Inicie o Skype para Shell de Gerenciamento do Servidor busines: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business Server **e** clique em Skype for Business Server Shell **de Gerenciamento.**
+2.  Inicie o Skype do Shell de Gerenciamento do Servidor busines: clique em **Iniciar, clique** em Todos os **Programas, Skype for Business Server** clique em Skype for Business Server **Shell de Gerenciamento**.
 
 3.  Digite o seguinte no Shell de Gerenciamento Skype for Business Server:
     
@@ -84,7 +80,7 @@ Se essa for uma política de usuário, você também deverá aplicar a política
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** **clique** em Todos os Programas, clique em **Microsoft Skype for Business Server** e clique em Skype for Business Server Shell **de Gerenciamento.**
+2.  Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, Skype for Business Server** **Microsoft** e em Skype for Business Server **De Gerenciamento**.
 
 3.  Digite o seguinte no Shell de Gerenciamento Skype for Business Server:
     
@@ -120,7 +116,7 @@ Se essa for uma política de usuário, você também deverá aplicar a política
     `Remove-CsExternalAccessPolicy -Identity UserEAPPolicy`
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Habilitar ou desabilitar federação e conectividade de IM pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 

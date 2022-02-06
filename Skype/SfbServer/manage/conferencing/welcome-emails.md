@@ -1,31 +1,26 @@
 ---
 title: Enviar emails de boas-vindas aos usuários discado no Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Resumo: saiba como dar as boas-vindas aos usuários para conferência discar no Skype for Business Server.'
-ms.openlocfilehash: 672e386c223e2b5b9f872334634ac315c9e900e1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848534"
 ---
+
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar emails de boas-vindas aos usuários discado no Skype for Business Server
  
 **Resumo:** Saiba como dar as boas-vindas aos usuários para conferência discar em Skype for Business Server.
   
 Depois de configurar a conferência discada e testar para verificar se ela está funcionando corretamente, você deve definir os PINs (números de identificação pessoal) iniciais para os usuários e notificar os usuários sobre a disponibilidade do recurso. Você pode incluir instruções introdutórios, como o PIN inicial e o link para a página da Web Configurações conferência discado. 
   
-Normalmente, você usa o cmdlet **Set-CsClientPin** para redefinir PINs, mas pode usar o procedimento neste tópico se quiser enviar um email de boas-vindas introdutório com as informações de PIN. Se você não quiser enviar o email, poderá usar **Set-CsClientPin.**
+Normalmente, você usa o cmdlet **Set-CsClientPin** para redefinir PINs, mas pode usar o procedimento neste tópico se quiser enviar um email de boas-vindas introdutório com as informações de PIN. Se você não quiser enviar o email, poderá usar **Set-CsClientPin** .
   
 Você pode usar o **script Set-CsPinSendCAWelcomeMail** para definir o PIN e enviar um email de boas-vindas para um único usuário. Por padrão, o script não redefine um PIN se ele já estiver definido, mas você pode usar o parâmetro Force para forçar a redefinição de um PIN. A mensagem de email é enviada usando o Protocolo SMTP (Simple Mail Transfer Protocol).
   
@@ -37,7 +32,7 @@ Você pode criar um script que executa o script **Set-CsPinSendCAWelcomeMail** i
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins.
     
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. Execute o seguinte no prompt de comando:
     

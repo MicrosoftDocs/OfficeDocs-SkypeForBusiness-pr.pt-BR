@@ -1,34 +1,29 @@
 ---
 title: Configurar cenários para o Serviço de Log Centralizado Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Resumo: saiba como criar, modificar e remover cenários para o Serviço de Log Centralizado Skype for Business Server 2015.'
-ms.openlocfilehash: 10225be172d91aba18db29a1a6669cfbe8656fa6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855438"
 ---
+
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar cenários para o Serviço de Log Centralizado Skype for Business Server 2015
  
 **Resumo:** Saiba como criar, modificar e remover cenários para o Serviço de Log Centralizado Skype for Business Server 2015.
   
-Os cenários definem o escopo (ou seja, global, site, pool ou computador) e quais provedores usar no Serviço de Log Centralizado. Usando cenários, você habilita e desabilita o rastreamento nos provedores (por exemplo, S4, SIPStack, mensagens instantâneas e presença). Ao configurar um cenário, você pode agrupar todos os provedores de determinado conjunto lógico que tratam um problema específico. Se você descobrir que um cenário precisa ser modificado para atender às suas necessidades de solução de problemas e registro em log, as Ferramentas de Depuração do Skype for Business Server 2015 fornece um módulo Windows PowerShell chamado ClsScenarioEdit.psm1 que contém uma função chamadaEdit-CsClsScenario. A finalidade desse módulo é editar as propriedades do cenário nomeado. Neste tópico, serão fornecidos exemplos de como esse módulo funciona. Baixe o Skype for Business Server 2015 [Debugging Tools](https://go.microsoft.com/fwlink/p/?LinkId=285257) antes de avançar.
+Os cenários definem o escopo (ou seja, global, site, pool ou computador) e quais provedores usar no Serviço de Log Centralizado. Usando cenários, você habilita e desabilita o rastreamento nos provedores (por exemplo, S4, SIPStack, mensagens instantâneas e presença). Ao configurar um cenário, você pode agrupar todos os provedores de determinado conjunto lógico que tratam um problema específico. Se você descobrir que um cenário precisa ser modificado para atender às suas necessidades de solução de problemas e registro em log, as Ferramentas de Depuração do Skype for Business Server 2015 fornece um módulo Windows PowerShell chamado ClsScenarioEdit.psm1 que contém uma função chamadaEdit-CsClsScenario. A finalidade desse módulo é editar as propriedades do cenário nomeado. Neste tópico, serão fornecidos exemplos de como esse módulo funciona. Baixe o Skype for Business Server ferramentas [de depuração](https://go.microsoft.com/fwlink/p/?LinkId=285257) 2015 antes de avançar.
   
 > [!IMPORTANT]
-> Para qualquer dado escopo (global, site, pool ou computador), é possível executar no máximo dois cenários por vez. Para determinar quais cenários estão sendo executados no momento, use Windows PowerShell [e Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps). Usando o Windows PowerShell [e Set-CsClsScenario,](/powershell/module/skype/set-csclsscenario?view=skype-ps)você pode alterar dinamicamente quais cenários estão sendo executados. Você pode modificar quais cenários estão em execução durante uma sessão de registro em log para ajustar ou refinar os dados coletados e de quais provedores. 
+> Para qualquer dado escopo (global, site, pool ou computador), é possível executar no máximo dois cenários por vez. Para determinar quais cenários estão sendo executados no momento, use Windows PowerShell [e Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps). Usando o Windows PowerShell [e Set-CsClsScenario](/powershell/module/skype/set-csclsscenario?view=skype-ps), você pode alterar dinamicamente quais cenários estão sendo executados. Você pode modificar quais cenários estão em execução durante uma sessão de registro em log para ajustar ou refinar os dados coletados e de quais provedores. 
   
 Para executar as funções de Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server, você deve ser membro dos grupos de segurança CsAdministrator ou CsServerAdministrator de controle de acesso baseado em função (RBAC) ou uma função RBAC personalizada que contenha um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais este cmdlet foi atribuído, incluindo quaisquer funções RBAC personalizadas que você mesmo tenha criado, execute o seguinte comando no Shell de Gerenciamento do Skype for Business Server ou no prompt Windows PowerShell:
   
@@ -53,11 +48,11 @@ Conforme introduzido no [Serviço de Log Centralizado Skype for Business 2015](c
     Opcionalmente, você pode usar os parâmetros -Name e -Parent. Você define o parâmetro Name para identificar exclusivamente o cenário. Se usá-lo, também deverá usar Parent para adicionar o cenário ao escopo global ou site. 
     
     > [!IMPORTANT]
-    > Se você usar os parâmetros Name e Parent, não poderá usar o **parâmetro -Identity.**
+    > Se você usar os parâmetros Name e Parent, não poderá usar o **parâmetro -Identity** .
   
 ### <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>Para criar um novo cenário com o cmdlet New-CsClsScenario
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Para criar um novo cenário para uma sessão de registro em log, use [New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps) e defina o nome do cenário (ou seja, como ele será identificado exclusivamente). Escolha um tipo de formato de registro em log entre WPP (ou seja, o pré-processador de rastreamento de software do Windows, que é o padrão), EventLog (ou seja, o formato de log de eventos do Windows) ou IISLog (ou seja, o arquivo de formato ASCII baseado no formato de arquivo de log do IIS). Em seguida, defina o nível (conforme definido em Níveis de registro em log neste tópico) e os sinalizadores (conforme definido em Sinalizadores neste tópico).
     
@@ -83,7 +78,7 @@ Conforme introduzido no [Serviço de Log Centralizado Skype for Business 2015](c
 
 ### <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>Para criar um novo cenário com vários provedores usando o cmdlet New-CsClsScenario
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Há um limite de dois cenários por escopo. No entanto, não há um limite quanto ao número de provedores. Neste exemplo, suponha que criamos três provedores e você deseja atribuir todos eles ao cenário que está definindo. Os nomes das variáveis dos provedores são LyssProvider, ABServerProvider e SIPStackProvider. Para definir e atribuir vários provedores a um cenário, digite o seguinte em um Shell de Gerenciamento Skype for Business Server ou Windows PowerShell prompt de comando:
     
@@ -92,11 +87,11 @@ Conforme introduzido no [Serviço de Log Centralizado Skype for Business 2015](c
    ```
 
     > [!NOTE]
-    > Como é conhecido no Windows PowerShell, a convenção para criar uma tabela de hash de valores usando `@{<variable>=<value1>, <value2>, <value>…}` é conhecida como assplatting. Para obter detalhes sobre o splatting Windows PowerShell, consulte [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)) . 
+    > Como é conhecido no Windows PowerShell, a convenção para criar uma tabela de hash `@{<variable>=<value1>, <value2>, <value>…}` de valores usando é conhecida como assplatting. Para obter detalhes sobre o splatting Windows PowerShell, consulte [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)). 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Para modificar um cenário existente com o cmdlet Set-CsClsScenario
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Há um limite de dois cenários por escopo. Você pode alterar quais cenários estão em execução a qualquer momento, mesmo quando uma sessão de coleta de log está em andamento. Se você redefinir os cenários em execução, a sessão de registro em log atual parará de usar o cenário que foi removido e começará a usar o novo cenário. No entanto, as informações de log que já foram coletadas com o cenário removido permanecerão nos logs coletados. Para definir um novo cenário, faça o seguinte (isto é, supondo a adição de um provedor já definido chamado "S4Provider"):
     
@@ -130,7 +125,7 @@ Conforme introduzido no [Serviço de Log Centralizado Skype for Business 2015](c
 
 ### <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>Para remover um cenário existente com o cmdlet Remove-CsClsScenario
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Se você desejar remover um cenário que foi definido anteriormente, digite o seguinte:
     
@@ -147,7 +142,7 @@ Conforme introduzido no [Serviço de Log Centralizado Skype for Business 2015](c
 O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastreamentos que foram coletados ainda estarão disponíveis nos logs para pesquisa.
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>Para carregar e descarregar o cmdlet Edit-CsClsScenario usando o módulo ClsScenarioEdit.psm1
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
     > [!IMPORTANT]
     > O módulo ClsScenarioEdit.psm1 é fornecido como um download da Web separado. O módulo faz parte das ferramentas de depuração Skype for Business Server 2015. Por padrão, as ferramentas de depuração são instaladas no diretório C:\Arquivos de Programas\Skype for Business Server 2015\Ferramentas de Depuração. 
@@ -159,7 +154,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
    ```
 
     > [!TIP]
-    > O carregamento bem-sucedido do módulo retorna você ao prompt Windows PowerShell comando. Para confirmar se o módulo está carregado e se Edit-CsClsScenario está disponível, digite  `Get-Help Edit-CsClsScenario` . Você deverá ver a sinopse básica da sintaxe de EditCsClsScenario. 
+    > O carregamento bem-sucedido do módulo retorna você ao prompt Windows PowerShell comando. Para confirmar se o módulo está carregado e se Edit-CsClsScenario está disponível, digite  `Get-Help Edit-CsClsScenario`. Você deverá ver a sinopse básica da sintaxe de EditCsClsScenario. 
   
 3. Para descarregar os módulos, digite:
     
@@ -168,11 +163,11 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
    ```
 
     > [!TIP]
-    > O descarregamento bem-sucedido do módulo retorna você para o prompt Windows PowerShell comando. Para confirmar se o módulo foi descarregado, digite  `Get-Help Edit-CsClsScenario` . Windows PowerShell tentar localizar a ajuda para o cmdlet e falhar. 
+    > O descarregamento bem-sucedido do módulo retorna você para o prompt Windows PowerShell comando. Para confirmar se o módulo foi descarregado, digite  `Get-Help Edit-CsClsScenario`. Windows PowerShell tentar localizar a ajuda para o cmdlet e falhar. 
   
 ### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Para remover um provedor existente de um cenário com o módulo Edit-ClsController
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Na Windows PowerShell, digite:
     
@@ -181,7 +176,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
    ```
 
     > [!TIP]
-    > O carregamento bem-sucedido do módulo retorna você ao prompt Windows PowerShell comando. Para confirmar se o módulo está carregado e se Edit-CsClsScenario está disponível, digite  `Get-Help Edit-CsClsScenario` . Você deverá ver a sinopse básica da sintaxe de EditCsClsScenario. 
+    > O carregamento bem-sucedido do módulo retorna você ao prompt Windows PowerShell comando. Para confirmar se o módulo está carregado e se Edit-CsClsScenario está disponível, digite  `Get-Help Edit-CsClsScenario`. Você deverá ver a sinopse básica da sintaxe de EditCsClsScenario. 
   
 3. Para remover um provedor do cenário AlwaysOn, digite:
     
@@ -205,7 +200,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Para adicionar um provedor a um cenário com o cmdlet Edit-ClsController
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Para adicionar um provedor ao cenário AlwaysOn, digite:
     
