@@ -1,32 +1,27 @@
 ---
 title: Planejar eventos ao vivo no Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-- m365initiative-meetings-enabler
-- enabler-strategic
+  - M365-collaboration
+  - m365initiative-meetings
+  - m365initiative-meetings-enabler
+  - enabler-strategic
 search.appverid: MET150
-description: Neste artigo, você aprenderá sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
+description: 'Neste artigo, você aprenderá sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.'
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8d15111af3815cbf111d7c1d0e2e77298b7d3d5
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135184"
 ---
+
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
 Ao planejar eventos ao vivo do Teams para realizar grandes reuniões em sua organização, há vários fatores que você precisa considerar antes de iniciar a configuração.
