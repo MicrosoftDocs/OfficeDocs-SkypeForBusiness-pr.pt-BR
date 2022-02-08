@@ -1,8 +1,8 @@
 ---
 title: Implantar chamada via trabalho no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Resumo: saiba como implantar Call Via Work Skype for Business Server para alguns ou todos os seus usuários.'
-ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ac3d09d81e602c108e1804ad837dd1c87d17e1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851615"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393413"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implantar chamada via trabalho no Skype for Business Server
  
 **Resumo:** Saiba como implantar Call Via Work Skype for Business Server para alguns ou todos os seus usuários.
   
-Use estas etapas para implantar Call Via Work para seus usuários. Considerações de planejamento são discutidas em [Plan for Call Via Work em Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Em versões anteriores do controle de chamada remota do Lync Server, era um recurso que permitia aos usuários controlar seus telefones PBX com o Lync Server. Em Skype for Business Server, esse recurso foi substituído por Call Via Work. 
+Use estas etapas para implantar Call Via Work para seus usuários. Considerações de planejamento são discutidas em [Plan for Call Via Work no Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Em versões anteriores do controle de chamada remota do Lync Server, era um recurso que permitia aos usuários controlar seus telefones PBX com o Lync Server. Em Skype for Business Server, esse recurso foi substituído por Call Via Work. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Pré-requisitos para chamada via trabalho
 
@@ -38,7 +38,7 @@ O Call Via Work usa a UCWA (Unified Communications Web API), que é instalada au
     
 - Você deve habilitar todos os usuários de Chamada Via Trabalho para Enterprise Voice. Ao fazer isso, você deve configurar o número DID Skype for Business de cada usuário para o número DID correspondente para o sistema de telefonia PBX correspondente. 
     
-- Todos os usuários que usarão  o Call Via Work devem ter a Configuração Automática selecionada na opção **Conexões** Avançadas em seu Skype for Business cliente. Isso permite que o cliente descubra as URLs do UCWA. **Configuração Automática** é a seleção padrão.
+- Todos os usuários que usarão o Call Via Work devem ter a Configuração **Automática selecionada na** opção Conexões Avançadas em seu Skype for Business cliente. Isso permite que o cliente descubra as URLs do UCWA. **Configuração Automática** é a seleção padrão.
     
 - Para cada usuário de Chamada Via Trabalho, habilita o encaminhamento de chamada e toque simultâneo. 
     
@@ -92,7 +92,7 @@ Depois que os pré-requisitos estão no local, faça o seguinte:
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    Por exemplo, o cmdlet a seguir atribui a política de chamada via trabalho "ContosoUser1CvWP" ao usuário chamado **ContosoUser1**.
+    Por exemplo, o cmdlet a seguir atribui a política de Chamada Via Trabalho "ContosoUser1CvWP" ao usuário chamado **ContosoUser1**.
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP

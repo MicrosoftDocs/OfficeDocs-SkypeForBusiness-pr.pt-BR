@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Repositórios de Arquivos
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: 'O nó  Repositórios de Arquivos  lista os Repositórios de Arquivos em sua topologia. Você pode executar a seguinte ação:'
-ms.openlocfilehash: e11dcef3a5e52c092c384146fa9943b0c9464159
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3f4fe224e3f7d9fa76305ce1e9c8e40abf44b89b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860108"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391213"
 ---
 # <a name="file-stores-scope-node"></a>Nó de Escopo de Repositórios de Arquivos
  

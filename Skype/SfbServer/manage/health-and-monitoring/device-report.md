@@ -1,8 +1,8 @@
 ---
 title: Relatório de dispositivos Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Resumo: saiba mais sobre o Relatório de Dispositivos Skype for Business Server.'
-ms.openlocfilehash: 29ea62f7578b491a940a47663668d0bc83ec5402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 211dc69423f8f5b2edb9d5508a78c48297d3917c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835259"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392523"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Relatório de dispositivos Skype for Business Server
  
 **Resumo:** Saiba mais sobre o Relatório de Dispositivos Skype for Business Server.
   
-O Relatório de Dispositivos pode ser melhor chamado de Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (tais como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada. Se você estiver interessado em telefones IP (também comumente chamados de "dispositivos"), use o Relatório de inventário de ip [Telefone](ip-phone-inventory-report.md) no Skype for Business Server em vez disso.
+O Relatório de Dispositivos pode ser melhor chamado de Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (tais como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada. Se você estiver interessado em telefones IP (também comumente chamados de "dispositivos"), use o Relatório de inventário de ip [Telefone](ip-phone-inventory-report.md) no Skype for Business Server.
   
 O Relatório de Dispositivos é extremamente útil para os administradores ao determinar se um tipo específico de dispositivo está experienciando mais chamadas de baixa qualidade do que outros. Por outro lado, pode influenciar decisões relacionadas à compra de novos dispositivos ou à substituição de dispositivos existentes.
   
@@ -54,13 +54,13 @@ Se você preferir ver os totais combinados para um determinado dispositivo (por 
    
 ## <a name="accessing-the-device-report"></a>Acessando o relatório de dispositivos
 
-O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento. No entanto, se você estiver exibindo o Relatório de Detalhes de Chamada no Skype for Business Server [você](call-detail-report.md) pode detalhar o Relatório de Dispositivos para um dispositivo específico clicando em uma das seguintes métricas:
+O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento. No entanto, se você estiver exibindo o Relatório de Detalhes de Chamada no [Skype for Business Server você pode](call-detail-report.md) detalhar o Relatório de Dispositivos para um dispositivo específico clicando em uma das seguintes métricas:
   
 - Dispositivo de captura
     
 - Dispositivo de renderização
     
-No Relatório de Dispositivos, você pode detalhar até o Relatório de Lista de Chamada no Skype for Business Server [clicando](call-list-report-0.md) em uma das seguintes métricas:
+No Relatório de Dispositivos, você pode detalhar até o Relatório de Lista de Chamada no [Skype for Business Server clicando](call-list-report-0.md) em uma das seguintes métricas:
   
 - Volume da chamada
     
@@ -128,7 +128,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Disp
   
 **Filtros do Relatório de Dispositivo**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -147,7 +147,7 @@ A tabela a seguir lista a informação oferecida no Relatório do Dispositivo.
   
 **Métricas do Relatório do Dispositivo**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Dispositivo de captura** <br/> |Sim  <br/> |Dispositivo (por exemplo, um microfone ou webcam) usado para transmitir áudio.  <br/> |
 |**Dispositivos de renderização** <br/> |Sim  <br/> |Dispositivo (por exemplo, um fone de ouvido ou alto falantes) usados para receber áudio.  <br/> |

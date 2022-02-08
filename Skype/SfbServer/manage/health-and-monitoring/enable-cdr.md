@@ -1,8 +1,8 @@
 ---
 title: Habilitar o registro de detalhes de chamada Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Resumo: saiba como habilitar registros de registro de detalhes de chamada (CDR) no Skype for Business Server.'
-ms.openlocfilehash: 7c987eccb9e75d1dc71f98e3cebea4003432523c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb041b82a32c4e3c03a62faf1129a066db5f9448
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863578"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390183"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar o registro de detalhes de chamada Skype for Business Server
 
@@ -45,7 +45,7 @@ Use o procedimento a seguir para habilitar a CDR para toda a sua organização o
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Habilitando a CDR usando Windows PowerShell cmdlets
 
-Você pode habilitar a CDR usando Windows PowerShell e o cmdlet **Set-CsCdrConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
+Você pode habilitar a CDR usando Windows PowerShell e o cmdlet **Set-CsCdrConfiguration**. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Administração do Microsoft Lync Remote PowerShell](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>Para habilitar a CDR para um único local
 
@@ -71,7 +71,7 @@ Você pode habilitar a CDR usando Windows PowerShell e o cmdlet **Set-CsCdrConfi
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsCdrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
 
 ## <a name="see-also"></a>Confira também
 

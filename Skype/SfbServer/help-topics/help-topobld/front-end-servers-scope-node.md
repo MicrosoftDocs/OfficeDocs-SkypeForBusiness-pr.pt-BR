@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Servidores Front-End
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: 'O nó Edição Enterprise pools de front-end lista os pools de Front-End neste site, e os nós Edição Standard servidores front-end listam os servidores Edição Standard neste site. Você pode executar as seguintes ações:'
-ms.openlocfilehash: fbb7ddfcf76314ebd538251c76c018c79633561b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 75ee8f5a9cc28bbe48bfaaf17c70ab299b1c8505
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830145"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390273"
 ---
 # <a name="front-end-servers-scope-node"></a>Nó de Escopo de Servidores Front-End
  
 O **nó Edição Enterprise pools front-end** lista os pools de Front-End neste site, e os nós Edição Standard servidores **front-end** listam os servidores Edição Standard neste site. Você pode executar as seguintes ações:
   
-- **Novo Pool de Front-End**. Inicia o **assistente Definir Novo Pool de Front-End,** que você usa para adicionar um novo pool de Front-End ou Edição Standard servidor à topologia neste site.
+- **Novo Pool de Front-End**. Inicia o **assistente Definir Novo Pool de Front-End**, que você usa para adicionar um novo pool de Front-End ou Edição Standard servidor à topologia neste site.
     
 Além disso, você pode executar as seguintes tarefas gerais:
   

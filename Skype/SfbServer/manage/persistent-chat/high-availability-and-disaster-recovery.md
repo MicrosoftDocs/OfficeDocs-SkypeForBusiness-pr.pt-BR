@@ -1,8 +1,8 @@
 ---
 title: Gerenciar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Resumo: saiba como gerenciar a alta disponibilidade e a recuperação de desastres do Servidor de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: bf24bbb7f8672f0bc3a75b83f4f57320dc975092
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5823d4aa9df744c8a7e0b133f7e4798ddcf712c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860008"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392473"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente Skype for Business Server 2015
  
 **Resumo:** Saiba como gerenciar a alta disponibilidade e a recuperação de desastres do Servidor de Chat Persistente Skype for Business Server 2015.
   
-Este tópico descreve como fazer fail over e fail back do Servidor de Chat Persistente. Antes de ler este tópico, leia Plan for high availability and [disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) e Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server [2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+Este tópico descreve como fazer fail over e fail back do Servidor de Chat Persistente. Antes de ler este tópico, leia Plan for high [availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) e [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
 > [!NOTE]
 > O chat persistente está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para obter mais informações, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Se você precisar usar o chat persistente, suas opções são migrar usuários que exigem essa funcionalidade para Teams ou continuar usando o Skype for Business Server 2015. 
@@ -37,7 +37,7 @@ O procedimento de failover baseia-se na suposição de que o data center secund�
   
 - O banco de dados principal do Servidor de Chat Persistente e o banco de dados espelho do Servidor de Chat Persistente estão inosses.
     
-- Skype for Business Server O Servidor Front-End está inobado.
+- Skype for Business Server Servidor front-end está inobado.
     
 O procedimento é baseado em duas etapas básicas:
   
@@ -77,11 +77,11 @@ Para fail over Persistent Chat Server:
     
    - **restaurar mgc de banco de dados com recuperação**.
     
-5. No Shell de Gerenciamento do Skype for Business Server, use o comando **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver** para fazer failover no banco de dados de backup mgc. Substitua o nome de domínio totalmente qualificado do pool de Chat Persistente por atl-cs-001.litwareinc.com.
+5. No Shell de Gerenciamento do Skype for Business Server, use o comando **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver para fazer failover** no banco de dados de backup mgc. Substitua o nome de domínio totalmente qualificado do pool de Chat Persistente por atl-cs-001.litwareinc.com.
     
     O banco de dados de backup de gerenciamento agora serve como o banco de dados primário.
     
-6. No Skype for Business Server De gerenciamento, use o cmdlet **Install-CsMirrorDatabase** para estabelecer um espelho de alta disponibilidade para o banco de dados de backup que agora serve como o banco de dados principal. Use a instância do banco de dados de backup como o banco de dados primário e a instância do banco de dados de espelho de backup como a instância do espelho. Este não é o mesmo espelho do que aquele inicialmente configurado para o banco de dados primário durante a configuração.
+6. No Skype for Business Server de Gerenciamento, use o cmdlet **Install-CsMirrorDatabase** para estabelecer um espelho de alta disponibilidade para o banco de dados de backup que agora serve como o banco de dados principal. Use a instância do banco de dados de backup como o banco de dados primário e a instância do banco de dados de espelho de backup como a instância do espelho. Este não é o mesmo espelho do que aquele inicialmente configurado para o banco de dados primário durante a configuração.
     
 7. De definir os servidores ativos do Servidor de Chat Persistente. No Shell de Gerenciamento Skype for Business Server, use o cmdlet **Set-CsPersistentChatActiveServer** para definir a lista de servidores ativos.
     
@@ -135,7 +135,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
    - Aceite o nome de conjunto de backup padrão sugerido em **Nome** ou insira outro nome para o conjunto de backup.
     
-   -  *\<Optional\>*  Em **Descrição,** insira uma descrição do conjunto de backup.
+   -  *\<Optional\>*  Em **Descrição**, insira uma descrição do conjunto de backup.
     
    - Remova o local de backup padrão da lista de destinos.
     
@@ -163,7 +163,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
    - Clique em **OK** para iniciar o processo de restauração.
     
-5. Configure SQL Server Envio de Log para o banco de dados principal. Siga os procedimentos em [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) to establish log shipping for the primary mgc database.
+5. Configure SQL Server Envio de Log para o banco de dados principal. Siga os procedimentos em [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) para estabelecer o envio de log para o banco de dados mgc principal.
     
 6. De definir os servidores ativos do Servidor de Chat Persistente. No Shell de Gerenciamento Skype for Business Server, use o cmdlet **Set-CsPersistentChatActiveServer** para definir a lista de servidores ativos.
     
@@ -176,4 +176,4 @@ Para restaurar o pool em seu estado normal, execute o seguinte Windows PowerShel
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsPersistentChatState.](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsPersistentChatState](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps) .

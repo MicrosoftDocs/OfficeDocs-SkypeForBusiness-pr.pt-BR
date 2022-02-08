@@ -1,8 +1,8 @@
 ---
 title: Usuários exibir política de mobilidade
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
 description: A caixa de diálogo Exibir - Política de Mobilidade exibe as propriedades da política de mobilidade selecionada.
-ms.openlocfilehash: eb4ce4d588f11bdb75cc3fc6b15030d08b8d8a82
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ff9e5123875c1c77b579c2b7bf796738f31d374e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861638"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391703"
 ---
 # <a name="users-view-mobility-policy"></a>Usuários: Exibir Política de Mobilidade
 

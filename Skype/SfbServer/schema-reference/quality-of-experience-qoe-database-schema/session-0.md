@@ -1,8 +1,8 @@
 ---
 title: Exibição de sessão
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: O Modo de exibição do servidor armazena informações sobre sessões que foram registradas no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 80a275e047934bd60586c344b5487f2593fe48bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afcff6c5032c14dbcab525a0032804493bcb0216
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834909"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393573"
 ---
 # <a name="session-view"></a>Exibição de sessão
  
 O Modo de exibição do servidor armazena informações sobre sessões que foram registradas no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
-|**Column**|**Tipo de dados**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |ConferenceDateTime  <br/> |datetime  <br/> |Referenciado da tabela MediaLine.  <br/> |
 |ConferenceURI  <br/> |nvarchar(450)  <br/> |URI de Conferência é uma conferência, ou DialogID se é uma sessão peer-to-peer.  <br/> |

@@ -1,8 +1,8 @@
 ---
 title: Planejar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Resumo: leia este tópico para saber como planejar a alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 042080aebf57a14554820eea9b5bb9d5c9bb1f71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 029258461e4248ccaebb6e3787f49d544f7fe4a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836223"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391863"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente Skype for Business Server 2015
  
@@ -54,7 +54,7 @@ Skype for Business Server oferece suporte a vários modos de alta disponibilidad
   
 A solução de recuperação de desastres para o Servidor de Chat Persistente descrito neste tópico é construída em um pool de Servidor de Chat Persistente estendido. Não há requisitos para uma VLAN (rede de área virtual) estendida. Ao estender um pool de Servidor de Chat Persistente, você configura um pool na topologia logicamente, mas coloca fisicamente os servidores no pool em dois data centers diferentes. Você configura SQL Server espelhamento para o banco de dados da mesma maneira e implanta o banco de dados e o espelho no mesmo data center. Você deve configurar um banco de dados de backup no data center secundário (com um espelho opcional para fornecer alta disponibilidade durante a recuperação de desastres). Ele é o banco de dados de backup usado para failover durante a recuperação de desastres. 
   
-Para obter detalhes sobre como configurar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente, consulte Configure high availability and [disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
+Para obter detalhes sobre como configurar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente, consulte [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
   
 As figuras a seguir mostram como o pool do Servidor de Chat Persistente pode ser configurado em duas topologias de pool estendidas diferentes:
   

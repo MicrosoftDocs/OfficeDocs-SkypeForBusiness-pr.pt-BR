@@ -1,7 +1,7 @@
 ---
 title: Integração de usuários pioneiros e coleta de comentários
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a87a6802a538609e9899f2645833a1e9bdab120f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cbc0f8d77aaa29c7c1d5ba76715840b6a535707
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840723"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390803"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
 
@@ -49,4 +49,4 @@ Use os componentes de Microsoft 365 ou Office 365 para coletar comentários para
 > Algumas organizações combinarão os canais para comentários do adotante antecipado na equipe do programa de campeões do trabalho em equipe. Essa é uma boa abordagem porque muitos adotantes inserdos podem se tornar campeões no futuro e criar uma comunidade mais forte. 
 
 
-![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: [Suporte à integração](teams-adoption-onboard-support.md).
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: [Suporte a integração](teams-adoption-onboard-support.md).

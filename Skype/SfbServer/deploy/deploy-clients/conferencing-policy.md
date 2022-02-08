@@ -1,7 +1,7 @@
 ---
 title: Política de conferência para Skype do Sistema de Sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Leia este tópico para saber como atribuir políticas de conferência para Skype do Sistema de Sala.
-ms.openlocfilehash: 97980cb50613fca105af40686a920a8ff9c9b546
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2bbe7f9ca07e8c17aaf0c03693fbeca7eede2457
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838363"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394393"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Política de conferência para Skype do Sistema de Sala
  
@@ -51,12 +51,12 @@ A política de conferência atribuída à conta Skype Room System deve ter deter
 |EnableFileTransfer  <br/> |TRUE  <br/> |N/D  <br/> |
 |EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/D  <br/> |
 |EnableP2PVideo  <br/> |TRUE  <br/> |Permite que o Skype do sistema de sala participe de sessões de vídeo ponto a ponto  <br/> |
-|AllowLargeMeetings  <br/> |FALSE  <br/> |Não disponível  <br/> |
+|AllowLargeMeetings  <br/> |FALSE  <br/> |N/D  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |Afeta as sessões de quadro de Skype Reunião Agora (ad hoc)  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Ignorado por Skype for Business Server, Skype Room System usa HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |Afeta as sessões de quadro de Skype Reunião Agora (ad hoc)  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |Consulte observação no final da tabela\*  <br/> |
-|VideoBitRateKb  <br/> |5000  <br/> |Essa é a taxa de bits de vídeo de saída máxima permitida. Skype O Sistema de Sala pode enviar um fluxo 1080 juntamente com pano (se RoundTable for usado) nessa taxa de bits. \*  <br/> |
+|VideoBitRateKb  <br/> |5000  <br/> |Essa é a taxa de bits de vídeo de saída máxima permitida. Skype Room System pode enviar um fluxo 1080 juntamente com pano (se RoundTable for usado) nessa taxa de bits. \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |Consulte observação no final da tabela\*  <br/> |
 |FileTransferBitRateKb  <br/> |5000  <br/> |N/D  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |É recomendável definir isso o mais alto possível. A largura de banda efetiva depende das condições de rede no momento das conferências.\*  <br/> |
@@ -69,7 +69,7 @@ A política de conferência atribuída à conta Skype Room System deve ter deter
   
 ## <a name="meeting-authentication"></a>Autenticação de reunião
 
-Skype O Sistema de Sala solicita autenticação aos usuários quando eles usam o link de junção de reunião para ingressar em uma reunião restrita; por exemplo, uma reunião para a qual as opções de lobby de reunião foram configuradas Outlook. Essa configuração está sempre em reuniões personalizadas e os usuários sempre são solicitados. No entanto, para reuniões irrestritas, os usuários podem ingressar na reunião sem autenticação. 
+Skype Sistema de Sala solicita autenticação aos usuários quando eles usam o link de junção de reunião para ingressar em uma reunião restrita; por exemplo, uma reunião para a qual as opções de lobby de reunião foram configuradas no Outlook. Essa configuração está sempre em reuniões personalizadas e os usuários sempre são solicitados. No entanto, para reuniões irrestritas, os usuários podem ingressar na reunião sem autenticação. 
   
 O comando a seguir permite que os administradores exigirem autenticação para todas as reuniões, incluindo reuniões irrestritas: 
   

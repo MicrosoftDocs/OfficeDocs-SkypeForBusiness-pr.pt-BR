@@ -1,8 +1,8 @@
 ---
 title: Configurar avisos de isenção de responsabilidade de arquivamento para usuários externos Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Resumo: leia este tópico para saber como configurar um aviso de isenção de responsabilidade de arquivamento para Skype for Business Server.'
-ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d607bf05d1aca413194a793ed08f84ca57c16f96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834709"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392273"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurar avisos de isenção de responsabilidade de arquivamento para usuários externos Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60834709"
   
 Se sua organização se comunicar com parceiros externos, você precisará informar a eles que está arquivando comunicações com eles. Quando você implanta um Servidor de Borda e habilita a federação para sua organização, é perguntado se deseja enviar automaticamente um aviso de isenção de responsabilidade de arquivamento para parceiros externos. 
   
-Se você precisar alterar essa configuração, poderá usar o Painel de Controle Skype for Business Server ou o cmdlet **Windows PowerShell Set-CsAccessEdgeConfiguration.** Os cmdlets podem ser executados no shell de gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell.
+Se você precisar alterar essa configuração, poderá usar o Painel de Controle Skype for Business Server ou o cmdlet **Windows PowerShell Set-CsAccessEdgeConfiguration**. Os cmdlets podem ser executados no shell de gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell.
   
 Para permitir que usuários externos colaborem com usuários em sua implantação Skype for Business Server, você também deve configurar pelo menos uma política de acesso externo para dar suporte ao acesso de usuário externo. Para obter detalhes, consulte Manage XMPP Federated Partners for Your Organization. Para obter detalhes sobre como controlar o acesso a domínios federados específicos, consulte Control Access by Individual Federated Domains.
   
@@ -39,7 +39,7 @@ Para permitir que usuários externos colaborem com usuários em sua implantaçã
     
 4. Na guia **Configuração de Borda de Acesso**, clique em **Global**, em **Editar** e clique em **Mostrar detalhes**.
     
-5. Em **Editar Configuração** de Borda de Acesso , em Habilitar a conectividade de **IM** pública e federação, selecione ou desembolse a caixa de seleção Enviar aviso de isenção de responsabilidade de arquivamento para parceiros **federados** para habilitar ou desabilitar o envio automático do aviso de isenção de responsabilidade de arquivamento.
+5. Em **Editar Configuração** de Borda de Acesso, em Habilitar a conectividade de **IM** pública e federação, selecione ou desembolse a caixa de seleção Aviso de isenção de responsabilidade de arquivamento de Envio para parceiros **federados** para habilitar ou desabilitar o envio automático do aviso de isenção de responsabilidade de arquivamento.
     
 6. Clique em **Confirmar**.
     

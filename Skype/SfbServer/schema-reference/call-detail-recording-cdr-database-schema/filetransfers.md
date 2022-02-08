@@ -1,8 +1,8 @@
 ---
 title: Exibição FileTransfers
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,21 +13,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 description: O exibição FileTransfer armazena informações sobre sessões de transferência de arquivos ponto a ponto. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: eae94d0220cb3443e90665d420b888e86a37d11a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d8b173c7617dcaa37d3cea00f5bdb09ef34670da
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850634"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391843"
 ---
 # <a name="filetransfers-view"></a>Exibição FileTransfers
  
 O exibição FileTransfer armazena informações sobre sessões de transferência de arquivos ponto a ponto. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 > [!NOTE]
-> O exibição FileTransfers contém todas as colunas no [exibição SessionDetails,](sessiondetails-0.md) além das colunas listadas abaixo.
+> O exibição FileTransfers contém todas as colunas no [exibição SessionDetails](sessiondetails-0.md) , além das colunas listadas abaixo.
   
-|**Column**|**Tipo de dados**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |**FileName** <br/> |nvarchar(256)  <br/> |Nome do arquivo transferido.  <br/> |
 |**Cookie** <br/> |nvarchar(128)  <br/> |Usado para identificar cada mensagem de acompanhamento como sendo associado a este.  <br/> |

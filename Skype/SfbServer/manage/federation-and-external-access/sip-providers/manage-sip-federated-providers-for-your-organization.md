@@ -5,8 +5,8 @@ ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Saiba como configurar o suporte para usuários de provedores federados SIP.
-ms.openlocfilehash: a5812eafc92e466306d7047d2adb48338bef783d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6a28714ec3ad81470f362f49605d0be4805dbe2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837573"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392553"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Gerenciar provedores federados SIP para sua organização em Skype for Business Server
 
@@ -36,7 +36,7 @@ Para configurar o suporte de usuários de provedores SIP federados, você precis
 
 A conectividade de mensagens instantâneas públicas (IM) permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de mensagens instantâneas fornecidos por provedores públicos.
 
-Skype for Business Server tem configurações de provedor público para mensagens instantâneas. Cada provedor público é configurado com o nome de domínio totalmente qualificado do servidor de Borda do provedor e o nível de verificação padrão Permite que os usuários se comuniquem apenas com pessoas em sua lista de contatos que usam esse **provedor**.
+Skype for Business Server tem configurações de provedor público para mensagens instantâneas. Cada provedor público é configurado com o nome de domínio totalmente qualificado do servidor de Borda do provedor e o nível de verificação padrão Permite que os usuários se comuniquem apenas com as pessoas em sua lista de contatos que usam esse **provedor**.
 
 Como configuração padrão, nenhum dos provedores públicos está habilitado. Você deve concluir o contrato de licença e o trabalho de provisionamento antes de habilitá-los. Você pode habilitar o provedor antes de concluir o trabalho de licenciamento e provisionamento. Os usuários não poderão se comunicar com contatos nesses provedores até que o trabalho de pré-requisito seja concluído. Para obter detalhes sobre licenciamento e provisionamento de provedores públicos, consulte [Configure policies to control public usercces](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
@@ -51,9 +51,9 @@ Use o procedimento a seguir para criar ou editar provedores públicos.
 
 3.  Na barra de navegação à esquerda, clique em **Federação e Acesso Externo** e em **Provedores Federados SIP**.
 
-4.  Se você precisar criar um novo provedor público, clique em **Novo** e em **Provedor Público.**
+4.  Se você precisar criar um novo provedor público, clique em **Novo** e clique em **Provedor público**.
 
-5.  Se você precisar editar uma entrada da lista de provedores públicos, selecione um provedor público, clique em **Editar** e em **Mostrar detalhes.**
+5.  Se você precisar editar uma entrada da lista de provedores públicos, selecione um provedor público, clique em **Editar** e em **Mostrar detalhes**.
 
 6.  Na página **Editar Provedor Federado SIP**, você pode digitar ou editar as seguintes configurações:
     
@@ -104,7 +104,7 @@ Use o procedimento a seguir para criar ou editar provedores hospedados.
 7.  Ao concluir a configuração das definições, clique em **Confirmar** para salvar ou em **Cancelar** para descartar as alterações.
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurar políticas para controlar as acções do usuário público](../external-access-policies/configure-policies-to-control-public-user-access.md)

@@ -1,8 +1,8 @@
 ---
 title: Excluir políticas de conferência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 'Resumo: saiba como excluir políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 47138386812ddd401b7aa9edb54f5a619914f6fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d0447facef0f94b4e2a9c073b23f51438db7080a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847374"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391163"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Excluir políticas de conferência no Skype for Business Server
  
@@ -31,13 +31,13 @@ Você pode excluir políticas de conferência usando Skype for Business Server P
     
 2.  Abra Skype for Business Server Painel de Controle.
     
-3. Na barra de navegação esquerda, clique **em Conferência** e em Política **de Conferência.**
+3. Na barra de navegação esquerda, clique **em Conferência e** em **Política de Conferência**.
     
-4. Na lista de políticas de conferência, clique no site ou na política de usuário que você deseja **excluir,** clique em **Editar** e clique em Excluir .
+4. Na lista de políticas de conferência, clique no site ou na política de usuário que você deseja excluir, clique em **Editar** e clique em **Excluir**.
     
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Excluir políticas de conferência usando Skype for Business Server Shell de Gerenciamento
 
-Para excluir políticas de conferência, use o cmdlet **Remove-CsConferencingPolicy.**
+Para excluir políticas de conferência, use o cmdlet **Remove-CsConferencingPolicy** .
   
 O comando a seguir remove a política de conferência com a identidade RedmondConferencingPolicy:
   

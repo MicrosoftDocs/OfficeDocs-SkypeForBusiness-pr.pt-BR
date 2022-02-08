@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams requisitos | Aprimorar o serviço
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13389c55cc35d9ffe1555f2f28c9f225e6eed4ee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed54d4498f02f57131e6665291a6ffa7416722a9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841983"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393450"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Obter o máximo de Teams depois de atualizar
 
@@ -37,9 +37,9 @@ Este artigo fornece uma visão geral dos requisitos para obter o máximo de temp
 
 Depois de ter implantado o Teams para sua organização e operar o serviço com qualidade e confiabilidade, a próxima etapa é avaliar regularmente se você tem alguma oportunidade de aprimorar seus serviços. Isso faz parte do planejamento de melhoria contínua do serviço que é um padrão moderno para gerenciamento de serviços na nuvem.
 
-Uma ótima maneira de garantir que você esteja sempre recebendo o máximo de seus serviços é monitorar os roteiros Teams públicos para novos [aprimoramentos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de recursos que podem ser de interesse para sua organização. Se você tiver acesso ao Centro de administração do Microsoft 365, você receberá atualizações regulares de nós sobre recursos novos e de alteração por meio do nosso Centro de Mensagens.
+Uma ótima maneira de garantir que você esteja sempre recebendo o máximo de seus serviços é monitorar os roteiros públicos Teams novos [aprimoramentos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de recursos que podem ser de interesse para sua organização. Se você tiver acesso ao Centro de administração do Microsoft 365, você receberá atualizações regulares de nós sobre recursos novos e de alteração por meio do nosso Centro de Mensagens.
 
-Quando você vir oportunidades para aprimorar seu serviço, aproveite o tempo para fazer isso direito. Revisite [Implantar chat, equipes,](deploy-chat-teams-channels-microsoft-teams-landing-page.md) canais e aplicativos em Microsoft Teams e nossas [fases](deploy-chat-teams-channels-microsoft-teams-landing-page.md) de implementação e aplicar as mesmas diretrizes de ponta a ponta. Ao fazer pequenas alterações incrementais, é improvável que você precise concluir todas as atividades e tarefas na íntegra, mas você deve avaliar cada atividade e tarefa ao longo do caminho para se dar a melhor chance de um resultado bem-sucedido.
+Quando você vir oportunidades para aprimorar seu serviço, aproveite o tempo para fazer isso direito. [Revisite Implantar chat, equipes, canais e aplicativos em](deploy-chat-teams-channels-microsoft-teams-landing-page.md) Microsoft Teams e nossas [fases](deploy-chat-teams-channels-microsoft-teams-landing-page.md) de implementação e aplicar as mesmas diretrizes de ponta a ponta. Ao fazer pequenas alterações incrementais, é improvável que você precise concluir todas as atividades e tarefas na íntegra, mas você deve avaliar cada atividade e tarefa ao longo do caminho para se dar a melhor chance de um resultado bem-sucedido.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida quem monitorará roteiros públicos e outros comunicados de serviço para novos recursos ou serviços dos quais sua organização pode se beneficiar.</li><li>Decida sobre a cadência na qual relatar esses novos recursos ou serviços de volta aos principais participantes, por meio do seu comitê de direção.</li></ul></td></tr>

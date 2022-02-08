@@ -1,8 +1,8 @@
 ---
 title: Configurar tipos de endereço IP em Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Resumo: revise as considerações sobre o tipo de Endereço IP abaixo antes de implementar Skype for Business Server.'
-ms.openlocfilehash: 936857f79cf71328303e3a0a842b230694cf86c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 076c0e0a3901a3c69a9c6dece73fda487cddfa8c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834989"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390903"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de endereço IP em Skype for Business
 
@@ -53,7 +53,7 @@ Usando o Construtor de Topologias, execute as etapas no procedimento a seguir pa
    - **Endereço IP da PSTN**. Defina um endereço IP da PSTN quando um Servidor de mediação for colocado no Servidor front-end. Este endereço deve ser compatível com o formato do tipo de endereço selecionado.
 
 > [!NOTE]
-> A instalação de nics (cartões de interface de rede) adicionais para dar suporte à configuração de endereço IP PSTN (ou por qualquer outro motivo) em Servidores Front-End não é suportada. Para obter mais informações sobre configurações de NIC com suporte para Skype for Business Server, consulte Plataformas de hardware do servidor [para Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
+> A instalação de nics (cartões de interface de rede) adicionais para dar suporte à configuração de endereço IP PSTN (ou por qualquer outro motivo) em Servidores Front-End não é suportada. Para obter mais informações sobre configurações de NIC com suporte para Skype for Business Server, consulte [Plataformas de hardware do servidor para o Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Implantar tipos de endereço IP em um Servidor de Mediação
 
@@ -61,7 +61,7 @@ Usando o Construtor de Topologias, execute as etapas no procedimento a seguir pa
 
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Para implantar os tipos de endereço IP em um Servidor de Mediação
 
-- No Construtor de Topologias, em **Pools de Mediação,** clique com o botão direito do mouse no servidor em um pool e selecione **Editar Propriedades**. (Como alternativa, selecione o servidor e clique em **Editar propriedades** no menu **Ação**).
+- No Construtor de Topologias, em **Pools de Mediação**, clique com o botão direito do mouse no servidor em um pool e selecione **Editar Propriedades**. (Como alternativa, selecione o servidor e clique em **Editar propriedades** no menu **Ação**).
 
 - Na caixa de diálogo **Editar propriedades**, selecione o tipo de endereço IP que você deseja configurar. Para uma configuração de pilha dual, selecione **Habilitar IPv4** e **Habilitar IPv6**, como mostrado na seguinte imagem.
 
@@ -92,7 +92,7 @@ Usando o Construtor de Topologias, execute as seguintes etapas:
 
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Para implantar tipos de endereço IP em um servidor de borda
 
-1. No Construtor de Topologias, em **Pools de Borda,** clique com o botão direito do mouse no servidor em um pool e selecione **Editar Propriedades**. (Como alternativa, selecione o servidor e clique em **Editar propriedades** no menu **Ação**).
+1. No Construtor de Topologias, em **Pools de** Borda, clique com o botão direito do mouse no servidor em um pool e selecione **Editar Propriedades**. (Como alternativa, selecione o servidor e clique em **Editar propriedades** no menu **Ação**).
 
 2. Na janela **Editar Propriedades**, selecione a configuração de endereço IP para a qual deseja oferecer suporte.
 

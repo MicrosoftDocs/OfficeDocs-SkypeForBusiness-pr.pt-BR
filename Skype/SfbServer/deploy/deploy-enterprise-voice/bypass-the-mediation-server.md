@@ -1,8 +1,8 @@
 ---
 title: Configurar o bypass de mídia Skype for Business Server sempre ignorar o Servidor de Mediação
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: Habilita o bypass de mídia para sempre ignorar o Servidor de Mediação Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 83d945059afd654492bd52d2487d0d704436b0f1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef6bf5b68e5d333b1786b6fc6237784b4f5395f0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837343"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392233"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurar o bypass de mídia Skype for Business Server sempre ignorar o Servidor de Mediação
  
@@ -29,7 +29,7 @@ Habilita o bypass de mídia para sempre ignorar o Servidor de Mediação Skype f
   
  Se você usar as etapas deste tópico para definir configurações globais para bypass de mídia, a suposição é de que você tem uma boa conectividade entre os pontos de extremidade Skype for Business e qualquer ponto para o qual você configurou o bypass de mídia na conexão de tronco.
   
-Se você não tiver uma boa conectividade entre os pontos de extremidade Skype for Business e todos os pares do Servidor de Mediação cujas respectivas conexões de tronco foram habilitadas para bypass de mídia, você deve configurar configurações globais de bypass de mídia para usar informações de site e região ao empregar bypass de mídia. Isso permite maior controle ao determinar quando a mídia desvia do servidor de mediação. Para fazer isso, use as etapas em [Configure media bypass global settings in Skype for Business Server use site](use-site-and-region-information.md) and region information and Associate a [subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) instead.
+Se você não tiver uma boa conectividade entre os pontos de extremidade Skype for Business e todos os pares do Servidor de Mediação cujas respectivas conexões de tronco foram habilitadas para bypass de mídia, você deve configurar configurações globais de bypass de mídia para usar informações de site e região ao empregar bypass de mídia. Isso permite maior controle ao determinar quando a mídia desvia do servidor de mediação. Para fazer isso, use as etapas em [Configure media bypass global settings in Skype for Business Server to use site and region information](use-site-and-region-information.md) and [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) instead.
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Para habilitar o desvio de mídia globalmente para que sempre ignore o servidor de mediação
 

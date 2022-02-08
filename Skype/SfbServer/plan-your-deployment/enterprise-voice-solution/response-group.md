@@ -1,8 +1,8 @@
 ---
 title: Planejar o aplicativo grupo de resposta no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planejando grupos de resposta em Skype for Business Server Enterprise Voice, o que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
-ms.openlocfilehash: 3b208b5f18b4b14a35985144b2b96cbabbf39dfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c7a34b63cfd01e8958c85f459415e3830d0eb235
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859878"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392403"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planejar o aplicativo grupo de resposta no Skype for Business Server
 
@@ -130,7 +130,7 @@ Para o melhor desempenho de arquivos wave, um  arquivo Wave mono, de 16 kHz e 16
 
 Se você utilizar um arquivo de áudio Windows Media, considere utilizar taxas de bit baixos e verifique o desempenho do sistema sob carga.
 
-Você pode utilizar o Microsoft Expression Encoder 4 para converter um arquivo para o formato Windows Media Audio. Para baixar o Codificador de Expressão 4, consulte [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843) .
+Você pode utilizar o Microsoft Expression Encoder 4 para converter um arquivo para o formato Windows Media Audio. Para baixar o Codificador de Expressão 4, consulte [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843).
 
 ### <a name="response-group-configuration-tool-requirements"></a>Requisitos de ferramenta de configuração de Grupo de resposta
 
@@ -191,7 +191,7 @@ O cliente específico que você pode usar depende do tipo de usuário do Grupo d
 
 - **Chamadores** podem chamar um grupo de resposta usando quaisquer clientes listados anteriormente e usando um telefone padrão através da rede telefônica pública comutada (PSTN).
 
-- **Agentes informais** (agentes que não entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Attendant, o Lync ou o Lync Telefone Edition. Os agentes informais são automaticamente assinados em seus grupos quando Skype for Business Server entrar no Skype for Business Server usando um desses clientes.
+- **Os agentes informais** (agentes que não entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Attendant, o Lync ou o Lync Telefone Edition. Os agentes informais são automaticamente assinados em seus grupos quando Skype for Business Server entrar no Skype for Business Server usando um desses clientes.
 
 - **Agentes** formais (agentes que devem entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Skype for Business e acessando o console do agente a partir do item de menu ou usando o Attendant e acessando o console do agente diretamente do Internet Explorer.
 

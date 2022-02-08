@@ -1,8 +1,8 @@
 ---
 title: Número de Telefone Não Atribuído
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: fa7fd55f0c0fae22643d0dde66cae32c2610bdcd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 113b0273d22b8bacb8df8a97fdb9efbf2e9a4421
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834519"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390573"
 ---
 # <a name="unassigned-phone-number"></a>Número de Telefone Não Atribuído
 
 > [!NOTE]
-> Exchange A UM permanece disponível no Skype for Business Server 2019 quando você integra o Skype for Business 2019 com Exchange 2013 ou Exchange 2016. Devido às alterações no suporte no Exchange 2019, Exchange integração de UM está sendo desalmada em favor dos recursos Caixa postal na Nuvem e Cloud Atendedor Automático.
+> Exchange UM permanece disponível no Skype for Business Server 2019 quando você integra o Skype for Business 2019 com o Exchange 2013 ou Exchange 2016. Devido às alterações no suporte no Exchange 2019, Exchange integração de UM está sendo desalmada em favor dos recursos Caixa postal na Nuvem e Cloud Atendedor Automático.
 
 Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
 
@@ -84,4 +84,4 @@ A lista a seguir descreve os campos na página.
 
 - **Comunicado** O comunicado que será tocado para esse intervalo de números não atribuídos.
 
-Para obter detalhes sobre recursos e recursos do Comunicado, consulte [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação Planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) na documentação Operações.
+Para obter detalhes sobre recursos e recursos do Comunicado, consulte [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) na documentação Operações.

@@ -1,8 +1,8 @@
 ---
 title: Configurar configurações globais de bypass de mídia Skype for Business Server usar informações de site e região
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configure o bypass de mídia a ser usado apenas para determinados sites e regiões no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 7ec292f768633d64959704599269c0fb9cedd4fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b818d1ba68d17a45c24904a1d313bafde6e6d1d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829495"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391823"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurar configurações globais de bypass de mídia Skype for Business Server usar informações de site e região
  
@@ -53,7 +53,7 @@ Para que o bypass de mídia funcione corretamente, deve haver consistência entr
   
 7. Clique em **Confirmar**.
     
-Em seguida, adicione sub-redes ao site de rede, conforme descrito em [Associar uma sub-rede a um site de rede.](deploy-network.md#BKMK_AssociateSubnets) Depois de associar todas as sub-redes com os sites de rede, a implantação do desvio de mídia estará completa.
+Em seguida, adicione sub-redes ao site de rede, conforme descrito em [Associar uma sub-rede a um site de rede](deploy-network.md#BKMK_AssociateSubnets). Depois de associar todas as sub-redes com os sites de rede, a implantação do desvio de mídia estará completa.
 > [!IMPORTANT]
 > Se ainda não tiverem sido criadas as regiões e os sites de rede, é preciso criá-los antes de prosseguir com a implantação do desvio de mídia. Para obter detalhes, [consulte Deploy network regions, sites and subnets in Skype for Business](deploy-network.md). 
   

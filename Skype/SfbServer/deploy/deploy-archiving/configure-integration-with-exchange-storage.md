@@ -1,8 +1,8 @@
 ---
 title: Configurar a integração com Exchange armazenamento para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 'Resumo: leia este tópico para saber como configurar a integração com Exchange armazenamento no Skype for Business Server.'
-ms.openlocfilehash: 12d93a48e88d7086a1c8b1fec83c44a080ebf4af
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f1b6c028622edfe726b32f5fc4788668aaf4e51e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853795"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393433"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurar a integração com Exchange armazenamento para Skype for Business Server
  
@@ -35,15 +35,15 @@ Se você usar a integração Exchange microsoft para todos os usuários em sua i
     
 4. Clique no nome da configuração do pool, local ou global adequada na lista de configurações de arquivamento, clique em **Editar**, em **Exibir detalhes** e faça o seguinte:
     
-   - Para habilitar a integração com Exchange armazenamento, marque a caixa de seleção **integração Exchange Microsoft.**
+   - Para habilitar a integração Exchange armazenamento, selecione a caixa de seleção **Integração Exchange Microsoft**.
     
-   - Para desabilitar a integração com Exchange armazenamento, desem uma caixa de seleção de Exchange **integração da Microsoft.**
+   - Para desabilitar a integração com Exchange armazenamento, desempure **Exchange de integração da Microsoft**.
     
 5. Clique em **Confirmar**.
     
 ## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Quando Skype for Business Server e o Microsoft Exchange são implantados em florestas diferentes
 
-Se você usar Exchange integração do Microsoft Microsoft Exchange Server e o Microsoft Exchange Server não for implantado na mesma floresta que o Skype for Business Server, certifique-se de que os seguintes atributos do Exchange Active Directory estejam sincronizados com a floresta onde o Skype for Business Server está implantado:
+Se você usar Exchange integração do Microsoft Microsoft Exchange Server e o Microsoft Exchange Server não for implantado na mesma floresta que o Skype for Business Server, certifique-se de que os atributos Exchange a seguir do Active Directory estejam sincronizados com a floresta onde Skype for Business Server implantado:
   
 - msExchUserHoldPolicies
     

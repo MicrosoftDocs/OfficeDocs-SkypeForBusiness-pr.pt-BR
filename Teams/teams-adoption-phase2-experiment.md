@@ -1,7 +1,7 @@
 ---
 title: Fase 2 de adoção do Microsoft Teams - Experimentação
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882b842e0906426e46132c0a1de10cef5762ea72
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ca77fd910e5b9ada76f7e0fa224e7f1813919222
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865560"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390783"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase 2 de adoção do Microsoft Teams - Experimentação
 
@@ -35,9 +35,9 @@ Agora você está com uma ótima equipe de projeto e informações críticas sob
 Você concluirá as etapas a seguir nesta fase:
 
 1. [Crie seu programa de campeões](teams-adoption-create-champions-program.md).
-2. [Conclua o início rápido de sua governança.](teams-adoption-governance-quick-start.md)
-3. [Defina seus casos de uso.](teams-adoption-define-usage-scenarios.md)
-4. [Finalizar participantes do programa de adoção antecipado](teams-adoption-onboard-early-adopters.md).
+2. [Conclua seu início rápido de governança](teams-adoption-governance-quick-start.md).
+3. [Defina seus casos de uso](teams-adoption-define-usage-scenarios.md).
+4. [Finalize participantes do programa de adoção antecipado](teams-adoption-onboard-early-adopters.md).
 5. [Configurar seus canais de comentários](teams-adoption-onboard-early-adopters.md#gather-feedback).
 6. [Traga sua equipe de suporte a bordo](teams-adoption-onboard-support.md).
 

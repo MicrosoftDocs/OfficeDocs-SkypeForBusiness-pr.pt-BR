@@ -1,8 +1,8 @@
 ---
 title: Visão geral do recurso (Ferramenta de Planejamento)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server Ferramenta de Planejamento
-ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Skype for Business Server De planejamento
+ms.openlocfilehash: 173a5a5ba0b8fd65e9a412d0b6507005f3cf8547
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832685"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393203"
 ---
 # <a name="feature-overview-planning-tool"></a>Visão geral do recurso (Ferramenta de Planejamento)
  
-Skype for Business Server Ferramenta de Planejamento
+Skype for Business Server De planejamento
   
 Você pode usar a **página Sites Centrais** da Ferramenta de Planejamento para projetar Skype for Business Server implantação. Você pode criar duas implantações centralizadas ou distribuídas. Uma implantação centralizada tem apenas um site central, que Skype for Business todos os usuários em sua organização. Uma implantação distribuída tem mais de um site central. Se você implantar Skype for Business Server em vários sites centrais, insira o número de usuários em cada site central na Ferramenta de Planejamento.
   
@@ -39,7 +39,7 @@ Para concluir a definição do site central, primeiro você precisa fornecer as 
     
 ## <a name="ui-elements"></a>Elementos da interface do usuário
 
-Os elementos restantes foram preenchidos com as respostas fornecidas  às perguntas apresentadas no assistente de Introdução ou, se você ignorou o assistente, foi preenchido automaticamente pela ferramenta de planejamento.
+Os elementos restantes foram preenchidos com as respostas fornecidas às perguntas apresentadas no assistente de Introdução  ou, se você ignorou o assistente, foi preenchido automaticamente pela ferramenta de planejamento.
   
 ### <a name="online-collaboration"></a>Colaboração Online
 
@@ -90,10 +90,10 @@ Os elementos restantes foram preenchidos com as respostas fornecidas  às pergun
     
 - **Caixa de correio W15 Exchange de correio**
     
-    Skype for Business Server permite que você tenha mensagens de caixa postal armazenadas Exchange Unificação de Mensagens (UM); essas mensagens de caixa postal serão exibidas como mensagens de email nas Caixas de Entrada dos usuários.
+    Skype for Business Server permite que você tenha mensagens de caixa postal armazenadas em Exchange Unificação de Mensagens (UM); essas mensagens de caixa postal serão exibidas como mensagens de email nas Caixas de Entrada dos usuários.
 
     > [!NOTE]
-    > Exchange A Unificação de Mensagens, como conhecida anteriormente, não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e, em seguida, deixar a gravação na caixa de correio Exchange do usuário. Consulte [Plan Caixa postal na Nuvem service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
+    > Exchange a Unificação de Mensagens como conhecida anteriormente não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e, em seguida, deixar a gravação na caixa de correio Exchange do usuário. Consulte [Plan Caixa postal na Nuvem service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
     
 ### <a name="voice"></a>Voz
 
@@ -108,7 +108,7 @@ Os elementos restantes foram preenchidos com as respostas fornecidas  às pergun
     Exchange Unificação de Mensagens (UM) combina caixa postal e email em uma única infraestrutura de mensagens. Skype for Business Server 2015 usa Exchange UM para fornecer atendimento de chamada, acesso de assinante, notificação de chamada e serviços de atendedor automático. Se você usar esses serviços, precisará integrar Exchange UM e Skype for Business Server em uma topologia compartilhada do Active Directory.
 
     > [!NOTE]
-    > Exchange A Unificação de Mensagens, como conhecida anteriormente, não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e, em seguida, deixar a gravação na caixa de correio Exchange do usuário. Consulte [Plan Caixa postal na Nuvem service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
+    > Exchange a Unificação de Mensagens como conhecida anteriormente não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e, em seguida, deixar a gravação na caixa de correio Exchange do usuário. Consulte [Plan Caixa postal na Nuvem service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
     
 ### <a name="additional-deployment-options"></a>Opções adicionais de implantação
 

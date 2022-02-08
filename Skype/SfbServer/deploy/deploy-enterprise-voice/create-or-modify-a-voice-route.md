@@ -1,8 +1,8 @@
 ---
 title: Criar ou modificar uma rota de voz no Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Resumo: saiba como criar ou modificar uma rota de voz no Skype for Business Server usando o painel de Skype for Business Server De controle.'
-ms.openlocfilehash: 28acf24352f2eb517f75a6afa5ce35a7d5166ab2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ec890cdbb9f1e05463d5957ac6e8cae95dac3d51
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831625"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390703"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Criar ou modificar uma rota de voz no Skype for Business
  
@@ -41,15 +41,15 @@ ms.locfileid: "60831625"
     
 6. Em **Nome**, digite um nome descritivo para a rota de voz.
     
-7. (Opcional) Em **Descrição,** digite informações descritivas adicionais para a rota de voz.
+7. (Opcional) Em **Descrição**, digite informações descritivas adicionais para a rota de voz.
     
-8. Para especificar os padrões que você deseja que essa rota acomode, você pode usar a ferramenta Criar um padrão para corresponder para gerar uma expressão regular ou gravar **a** expressão regular manualmente.
+8. Para especificar os padrões que você deseja que essa rota acomode, você pode usar **a ferramenta Criar** um padrão para corresponder para gerar uma expressão regular ou gravar a expressão regular manualmente.
     
    - Para usar a ferramenta **Compilar um padrão para correspondência** para gerar uma expressão regular, digite os valores da seguinte maneira. É possível especificar dois tipos de correspondência de padrão:
     
    - **Dígitos iniciais para números que você deseja permitir**: digite valores de prefixo que essa rota precisa acomodar (incluindo o + inicial, se for necessário). Por exemplo, digite +425 e clique em **Adicionar**. Repita isso para cada valor de prefixo que você deseja incluir na rota.
     
-   - **Exceções**: se você quiser especificar uma ou mais exceções para números que começam com um valor de prefixo, relace o prefixo e clique em **Exceções**. Digite um ou mais valores para os padrões correspondentes que você  *não deseja*  que essa rota acomode. Por exemplo, para excluir números que começam com +425237 da rota, insira um valor de +425237 no campo **Exceções** e clique em **OK**.
+   - **Exceções**: se você quiser especificar uma ou mais exceções para números que começam com um valor de prefixo, relace o prefixo e clique em **Exceções**. Digite um ou mais valores para os padrões correspondentes que você  *não deseja*  que essa rota acomode. Por exemplo, para excluir números que começam com +425237 da rota, insira um valor de +425237 no campo Exceções e clique em **OK**.
     
    - Para definir manualmente o padrão de correspondência, clique em **Editar** na ferramenta **Compilar um padrão para correspondências** e digite uma expressão .NET Framework regular para especificar o padrão de correspondência para números de telefone de destino aos quais a rota é aplicada. Para obter detalhes sobre como escrever expressões regulares, consulte [".NET Framework Expressões Regulares"](/dotnet/standard/base-types/regular-expressions). 
     
@@ -57,7 +57,7 @@ ms.locfileid: "60831625"
     
 10. Para associar um ou mais troncos à rota de voz, clique em **Adicionar** e selecione um tronco na lista.
     
-11. Para associar um ou mais usos de Rede Telefônica Pública Comutado (PSTN) à rota de voz, clique em Selecionar e escolha um registro na lista de registros de uso PSTN que foram definidos para sua implantação Enterprise Voice. 
+11. Para associar um ou mais usos de Rede Telefônica Pública Comutado (PSTN) à rota de  voz, clique em Selecionar e escolha um registro na lista de registros de uso PSTN que foram definidos para sua implantação Enterprise Voice.
     
     > [!NOTE]
     > Para exibir as propriedades de cada um dos registros de uso PSTN disponíveis, consulte [View PSTN usage records in Skype for Business](view-pstn-usage-records.md). > Para criar ou editar registros de uso PSTN, consulte [Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md)
@@ -72,7 +72,7 @@ ms.locfileid: "60831625"
 14. Clique em **OK** para salvar a rota de voz.
     
     > [!IMPORTANT]
-    > Sempre que você criar uma rota de voz, você deve executar o **comando Commit All** para publicar a alteração de configuração. Para obter detalhes, [consulte Publicar alterações pendentes na configuração de roteamento](voice-route-config-changes.md)de voz em Skype for Business . 
+    > Sempre que você criar uma rota de voz, você deve executar o **comando Commit All** para publicar a alteração de configuração. Para obter detalhes, [consulte Publicar alterações pendentes na configuração de roteamento](voice-route-config-changes.md) de voz Skype for Business. 
   
 ### <a name="to-modify-a-voice-route"></a>Para modificar uma rota de voz
 
@@ -96,7 +96,7 @@ ms.locfileid: "60831625"
     
    - **Dígitos iniciais para números que você deseja permitir**: digite valores de prefixo que essa rota precisa acomodar (incluindo o + inicial, se for necessário). Por exemplo, digite +425 e clique em **Adicionar**. Repita isso para cada valor de prefixo que você deseja incluir na rota.
     
-   - **Exceções**: se você quiser especificar uma ou mais exceções para números que começam com um valor de prefixo, relace o prefixo e clique em **Exceções**. Digite um ou mais valores para os padrões correspondentes que você  *não deseja*  que essa rota acomode. Por exemplo, para excluir números que começam com +425237 da rota, insira um valor de +425237 no campo **Exceções** e clique em **OK**.
+   - **Exceções**: se você quiser especificar uma ou mais exceções para números que começam com um valor de prefixo, relace o prefixo e clique em **Exceções**. Digite um ou mais valores para os padrões correspondentes que você  *não deseja*  que essa rota acomode. Por exemplo, para excluir números que começam com +425237 da rota, insira um valor de +425237 no campo Exceções e clique em **OK**.
     
    - Para definir o padrão de correspondência manualmente, clique em **Editar** na ferramenta Criar um padrão para corresponder e digite uma expressão .NET Framework regular para especificar o padrão correspondente para números de telefone de destino aos quais **a** rota é aplicada. Para obter detalhes sobre como escrever expressões regulares, consulte [".NET Framework Expressões Regulares"](/dotnet/standard/base-types/regular-expressions). 
     
@@ -104,7 +104,7 @@ ms.locfileid: "60831625"
     
 8. Para associar um ou mais troncos de rede telefônica pública comutado (PSTN) à rota de voz, clique em **Adicionar** e selecione um tronco na lista.
     
-9. Para associar um ou mais usos de PSTN à rota de voz, clique em Selecionar e escolha um registro na lista de registros de uso PSTN que foram definidos para sua implantação Enterprise Voice. 
+9. Para associar um ou mais usos de PSTN à rota de voz,  clique em Selecionar e escolha um registro na lista de registros de uso PSTN que foram definidos para sua implantação Enterprise Voice.
     
     > [!NOTE]
     > Para exibir as propriedades de cada um dos registros de uso PSTN disponíveis, consulte [View PSTN usage records in Skype for Business](view-pstn-usage-records.md). > Para criar ou editar registros de uso PSTN, consulte [Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md). 

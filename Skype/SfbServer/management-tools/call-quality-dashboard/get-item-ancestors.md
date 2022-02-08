@@ -1,8 +1,8 @@
 ---
 title: Obter o Item Predecessor
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Resumo: saiba mais sobre a operação Obter Ancestrais do Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: ec62275bc3c63d501370d4e27c57d69d1d9f4d5e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cfc5385af1c0c821d4dc64e9ba0e0bd092fe833
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847244"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393733"
 ---
 # <a name="get-item-ancestors"></a>Obter o Item Predecessor
  
@@ -33,7 +33,7 @@ Get Item Ancestrals retorna um itens específicos ancestrais do repositório.
 
 |**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |\<portal\>https:///QoERepositoryService/repositório/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **Parâmetros URI** - Nenhum.
   

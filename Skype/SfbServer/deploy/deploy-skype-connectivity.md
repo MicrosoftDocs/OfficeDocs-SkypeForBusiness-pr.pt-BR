@@ -1,8 +1,8 @@
 ---
 title: Implantar Skype conectividade no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como se conectar Skype for Business Server com Skype consumidor. Também conhecido como Skype conectividade.'
-ms.openlocfilehash: c8bdbf96fcbf0831433ad2274d8ab89911df1de5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 834d5329e15f5fc52a24e5f1c86a02c416f04d31
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835819"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389663"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar Skype conectividade no Skype for Business Server
 
@@ -26,13 +26,13 @@ ms.locfileid: "60835819"
   
 Este artigo orienta a implantação para Skype Conectividade.
   
-## <a name="skype-connectivity-overview-for-it-professionals"></a>Skype Visão geral da conectividade para profissionais de TI
+## <a name="skype-connectivity-overview-for-it-professionals"></a>Skype visão geral de conectividade para profissionais de TI
 
-Skype A conectividade fornece Skype for Business usuários com a capacidade de pesquisar e adicionar Skype usuários. Skype Conectividade é um recurso de Skype for Business que permite habilitar a pesquisa de federação e diretório com Skype usuários. Depois de habilitar Skype conectividade, os usuários Skype for Business poderão pesquisar e adicionar Skype usuários.
+Skype Conectividade fornece Skype for Business usuários com a capacidade de pesquisar e adicionar Skype usuários. Skype Conectividade é um recurso de Skype for Business que permite habilitar a pesquisa de federação e diretório com Skype usuários. Depois de habilitar Skype conectividade, os usuários Skype for Business poderão pesquisar e adicionar Skype usuários.
   
 ## <a name="skype-directory-search"></a>Skype Pesquisa de Diretório
 
-Skype A funcionalidade de Pesquisa de Diretório Skype for Business aos usuários com a capacidade de pesquisar Skype contatos. A funcionalidade de pesquisa permite que os usuários pesquisem usando o seguinte:
+Skype funcionalidade de Pesquisa de Diretório fornece Skype for Business usuários com a capacidade de pesquisar Skype contatos. A funcionalidade de pesquisa permite que os usuários pesquisem usando o seguinte:
   
 - **Pesquisar por nome de exibição, exemplo "Desconhecido"** - Isso pode retornar muitos resultados, portanto, você pode não encontrar o que está procurando.
     
@@ -45,17 +45,17 @@ Skype A funcionalidade de Pesquisa de Diretório Skype for Business aos usuário
 - **Pesquisar por Skype Nome, exemplo "JohnDoe1456"** - Se a combinação exata for encontrada, ela será retornada como o primeiro resultado. Outras possíveis combinações de "nome" podem ser retornadas.
     
     > [!NOTE]
-    > Skype A Pesquisa de Diretório deve ser capaz de se comunicar com os seguintes endereços IP na porta 443: 104.40.75.246, 23.101.135.34 e 40.113.86.19. 
+    > Skype Pesquisa de Diretório deve ser capaz de se comunicar com os seguintes endereços IP na porta 443: 104.40.75.246, 23.101.135.34 e 40.113.86.19. 
   
 ## <a name="supported-deployment-matrix-for-skype-directory-search"></a>Matriz de implantação suportada para Skype Pesquisa de Diretório
 
 A tabela a seguir descreve o suporte para Skype Pesquisa de Diretório.
   
 
-|&nbsp;|Skype for Business Server Front-End|Front-End do Lync Server 2013 (ou mais antigo)|Comments|
+|&nbsp;|Skype for Business Server front-end|Front-End do Lync Server 2013 (ou mais antigo)|Comentários|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Server Borda   |Com suporte   |Não Suportado   |Skype for Business Server e Borda são pré-requisitos para Skype Pesquisa de Diretório   |
-|Skype for Business Server Borda + Lync Server 2013 Borda implantada lado a lado   |Com suporte   |Não Suportado   |Skype O tráfego de Pesquisa de Diretório flui Skype for Business Server de Borda. O tráfego de federação passa pela borda configurada pelo administrador. Por exemplo, o administrador poderia optar por continuar a enviar tráfego de federação por meio de servidores de Borda do Lync Server 2013 que não suportam Skype Pesquisa de Diretório.   |
+|Skype for Business Server Borda + Borda do Lync Server 2013 implantada lado a lado   |Com suporte   |Não Suportado   |Skype tráfego de Pesquisa de Diretório flui através Skype for Business Server de Borda. O tráfego de federação passa pela borda configurada pelo administrador. Por exemplo, o administrador poderia optar por continuar a enviar tráfego de federação por meio de servidores de Borda do Lync Server 2013 que não suportam Skype Pesquisa de Diretório.   |
 |Borda do Lync Server 2013 (ou mais antigo)   |Não Suportado   |Não Suportado   ||
    
 > [!NOTE]
@@ -75,11 +75,11 @@ A tabela a seguir descreve o suporte para Skype Pesquisa de Diretório.
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Implantando Skype conectividade para Skype for Business Online
 
-Skype A conectividade também é um recurso do Skype for Business Online, que faz parte do Microsoft 365 e Office 365. Você pode habilitar o recurso Skype conectividade do Centro de Administração Skype for Business no Centro de administração do Microsoft 365.
+Skype Conectividade também é um recurso do Skype for Business Online, que faz parte do Microsoft 365 e Office 365. Você pode habilitar o recurso Skype conectividade do Centro de Administração Skype for Business no Centro de administração do Microsoft 365.
   
-Para Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Education e Office 365 para Governo: entre no Centro de administração do Microsoft 365 e navegue até o Skype for Business Centro de Administração. Vá para Comunicações Externas. Em Provedores de Serviços de IM Pública, clique em Habilitar. Se você quiser controlar o acesso de usuários individuais Skype Conectividade, você pode fazer isso editando as configurações de Comunicações Externas de usuários individuais.
+Para Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Education e Office 365 para Governo: entre no Centro de administração do Microsoft 365 e navegue até o Skype for Business De administração. Vá para Comunicações Externas. Em Provedores de Serviços de IM Pública, clique em Habilitar. Se você quiser controlar o acesso de usuários individuais Skype Conectividade, você pode fazer isso editando as configurações de Comunicações Externas de usuários individuais.
   
-Para Office 365 Small Business Premium: entre no Office 365 e vá para o Serviço de Administração Configurações mensagens \> \> instantâneas, reuniões e conferências. Ativar comunicações externas. A opção Comunicações externas a Skype conectividade e comunicações com outras organizações que usam Skype for Business.
+Para Office 365 Small Business Premium: entre no Office 365 e \> \> vá para o Serviço de Administração Configurações mensagens instantâneas, reuniões e conferências. Ativar comunicações externas. A opção Comunicações externas a Skype conectividade e comunicações com outras organizações que usam Skype for Business.
   
 Para obter mais informações sobre Skype for Business online, consulte:
   
@@ -93,7 +93,7 @@ Para obter mais informações sobre Skype for Business online, consulte:
     
 ## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>Implantando Skype conectividade para Skype for Business Server
 
-Skype for Business Server usa a arquitetura de acesso de federação para dar suporte à conectividade com Skype. Essa conectividade permite que seus Skype for Business Server usuários adicionem Skype. Skype clientes também podem adicionar Skype for Business usuários à lista de contatos. Com base nas políticas definidas administrativamente Skype for Business Server os usuários poderão se comunicar usando mensagens instantâneas, ver a presença uns dos outros e iniciar chamadas de áudio e vídeo. Skype conectividade também é um recurso do Skype for Business Online e pode ser habilitado para clientes do Skype for Business Online a partir do Centro de Administração do Skype for Business no Centro de administração do Microsoft 365.
+Skype for Business Server usa a arquitetura de acesso de federação para dar suporte à conectividade com Skype. Essa conectividade permite que seus Skype for Business Server usuários adicionem Skype. Skype clientes também podem adicionar Skype for Business usuários à lista de contatos. Com base nas políticas definidas administrativamente Skype for Business Server os usuários poderão se comunicar usando mensagens instantâneas, ver a presença uns dos outros e iniciar chamadas de áudio e vídeo. Skype conectividade também é um recurso do Skype for Business Online e pode ser habilitado para clientes Skype for Business Online a partir do Centro de Administração Skype for Business do Skype for Business no Centro de administração do Microsoft 365.
   
 > [!NOTE]
 > Se Skype for Business Server já estiver configurado para se conectar ao Windows Messenger usando a Pic (Conectividade pública de Mensagens Instantâneas), sua implantação já está configurada para Skype conectividade. A única alteração que você pode considerar é renomear sua entrada pic do Messenger existente como Skype. 
@@ -107,7 +107,7 @@ A comunicação entre qualquer implantação Skype for Business local e Skype us
 > [!NOTE]
 > Nenhuma ação é necessária pela maioria dos clientes, incluindo todas as implantações federadas com Skype for Business Online.
   
-As implantações locais são necessárias para publicar um registro SRV DNS de Federação para cada domínio que eles hospedam. As diretrizes estão disponíveis no [planejamento dns.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) Cada domínio deve ser resolvido pela consulta DNS SRV para um FQDN de servidor de borda que satisfaça uma match de sufixo de nível superior do domínio. Por exemplo, considere o domínio "contoso.com":
+As implantações locais são necessárias para publicar um registro SRV DNS de Federação para cada domínio que eles hospedam. As diretrizes estão disponíveis no [planejamento dns](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Cada domínio deve ser resolvido pela consulta DNS SRV para um FQDN de servidor de borda que satisfaça uma match de sufixo de nível superior do domínio. Por exemplo, considere o domínio "contoso.com":
 
 |**FQDNs válidos**|**Comment**|
 |:-----|:-----|
@@ -118,9 +118,9 @@ As implantações locais são necessárias para publicar um registro SRV DNS de 
 |sip.contoso-edge.com   |Não é uma combinação de sufixo.  |
 |sip.it.contoso.com   |Não é uma combinação de sufixo de nível superior.   |
 
-Outras orientações sobre Certificados Externos podem ser encontradas em [Planejamento de certificados.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)
+Outras orientações sobre Certificados Externos podem ser encontradas no [Planejamento de certificados](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning).
 
-#### <a name="faqs"></a>Perguntas Frequentes
+#### <a name="faqs"></a>Perguntas frequentes
 
 **Por que o site de provisionamento está sendo desligado?**
 O mecanismo de provisionamento de IM pública (PIC) (pic.lync.com) implantado em 2006 não é mais serviceable e será desligado em 15/08/2019. Em vez disso, a federação de IM pública assumirá o mesmo modelo de federação usado pelo Skype for Business Online, conhecido como "descoberta de parceiros", em que uma implantação local é descoberta publicamente por seus registros DNS SRV de federação.
@@ -141,7 +141,7 @@ Qualquer organização local que não possa alterar sua configuração de servid
 
 Agora, concentre-se no Skype for Business Server ambiente e nas tarefas administrativas necessárias para configurar Skype Conectividade. Nesta seção, presumimos que o administrador tenha implantado Skype for Business Server acesso externo e configurado, também conhecido como servidores de Borda. 
   
-Há três etapas principais necessárias para habilitar federação e PIC. São eles:
+Há três etapas principais necessárias para habilitar federação e PIC. São elas:
   
 1. Configurar Federação e PIC
     
@@ -204,7 +204,7 @@ A configuração Skype conectividade também pode ser feita usando apenas o Powe
     
    - ProxyFqdn: local de Skype de federação (propriedade/manutenção da Microsoft)
     
-   - IconURL: ícone usado pelo cliente Skype for Business Lync para &amp; identificar visualmente Skype contatos
+   - IconURL: ícone usado pelo cliente Skype for Business Lync &amp; para identificar visualmente Skype contatos
     
    - NameDecorationRoutingDomain e NameDecorationExcludedDomainList: a configuração permite que os usuários insiram as MSAs dos usuários Skype sem precisar saber sobre "decorando" domínios que não sejam da Microsoft com "msn.com". Isso elimina a necessidade de digitar "user(contoso.com)@msn.com" para todos os domínios que NÃO estão no ExcludedDomainList. O cliente SfB formatará automaticamente o MSA se o domínio NÃO estiver na lista Excluído. Adicionamos os domínios mais comuns da Conta da Microsoft à lista excluída.
     
@@ -223,7 +223,7 @@ A tabela a seguir descreve o status de interop entre a versão mais recente do c
 
 |Skype Clientes|Adicionar contatos, mensagens de IM, presença, áudio e chamada de vídeo|Comment|
 |:-----|:-----|:-----|
-|Skype Windows Desktop   |7,6 ou superior, Windows XP e superior   |**NOVO**: o suporte adicionado Windows Skype cliente em execução no Windows XP e Windows Vista (requer a versão **7.26 ou** superior do cliente mais recente)  |
+|Skype Windows Desktop   |7,6 ou superior, Windows XP e superior   |**NOVO**: o suporte adicionado Windows Skype cliente em execução no Windows XP e Windows Vista (requer a versão **7.26 ou superior do cliente mais recente)**  |
 |Skype Mobile - Android Telefone e Tablet   |6.19 ou superior, executando o sistema operacional Android versão 4.0.3 ou superior   |Dispositivos de especificação baixa podem não suportar a chamada de vídeo   |
 |Skype Mobile - iOS   |6,11 ou superior, no IOS 7 ou superior   |Não há suporte para iPhone 4 e anteriores, iPod 4ª geração e anterior, iPad 1ª geração   |
 |Skype Mac   |7,19 ou superior, no Mac OS X 10.9 (Mavericks) ou superior   |Requer Mac OSX 10.9 ou superior   |
@@ -231,12 +231,12 @@ A tabela a seguir descreve o status de interop entre a versão mais recente do c
    
 A tabela a seguir descreve o status de interop entre a versão mais recente do Skype for Business e a versão mais recente do Skype consumidor. 
   
-|Client|Skype Pesquisa de Diretório e Adicionar Contatos|Skype A/V, interop de IM|
+|Client|Skype Pesquisa de Diretório e Adicionar Contatos|Skype A/V, iM interop|
 |:-----|:-----|:-----|
 |Skype for Business   |Sim   |Sim   |
 |Skype for Business no Mac   |Pode adicionar (sem pesquisa)   |Sim   |
 |Lync Desktop 2013   |Pode adicionar (sem pesquisa)   |Sim   |
-|Lync Web App - online e local   |Não disponível   |N/D   |
+|Lync Web App - online e local   |N/D   |N/D   |
 |Lync Mobile - Windows Phone   |Em breve   |Sim   |
 |Lync Mobile - Android   |Em breve   |Sim   |
 |Lync Mobile - iOS   |Em breve   |Sim   |
@@ -244,6 +244,6 @@ A tabela a seguir descreve o status de interop entre a versão mais recente do S
 |Lync Modern App (Win 8.1)   |Sim   |Sim   |
 |Lync Mac 2011   |Pode adicionar (sem pesquisa)   |Sim   |
 |Lync Desktop 2010   |Pode adicionar (sem pesquisa)   |Sim   |
-|Lync Phone Edition   |Não disponível   |Não disponível   |
+|Lync Phone Edition   |N/D   |N/D   |
 |Lync Attendant   |N/D   |N/D   |
    

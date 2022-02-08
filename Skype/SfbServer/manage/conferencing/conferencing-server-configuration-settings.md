@@ -1,8 +1,8 @@
 ---
 title: Gerenciar configurações do servidor de conferência em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,22 +12,22 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Resumo: saiba como gerenciar as configurações do servidor de conferência em Skype for Business Server.'
-ms.openlocfilehash: 9e0b6cbd83ebebcb2f66d178ee8c69d42702a249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1435c6bd69624d5097d0377ab920ac9fed577072
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841253"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393773"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações do servidor de conferência em Skype for Business Server
  
 **Resumo:** Saiba como gerenciar as configurações do servidor de conferência em Skype for Business Server.
   
-Este tópico descreve como gerenciar as configurações de conferência. Para obter mais informações sobre como planejar e implantar conferências, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Este tópico descreve como gerenciar as configurações de conferência. Para obter mais informações sobre como planejar e implantar conferências, consulte [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) [and Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 As configurações de conferência determinam coisas como o tamanho máximo permitido para conteúdo de reunião e apostilas; quantidade máxima de largura de banda para o serviço de Conferência de Compartilhamento de Aplicativos; limites de armazenamento e períodos de expiração; as URLs para downloads internos e externos do cliente com suporte; ponteiros para URLs internas e externas onde os usuários podem obter ajuda e recursos de conferência; e as portas usadas para compartilhamento de aplicativos, áudio do cliente, transferências de arquivos e tráfego de mídia. Essas configurações permitem que você gerencie os servidores reais por conta própria. Essas configurações podem ser definidas usando Skype for Business Server Shell de Gerenciamento.
   
-Ao instalar o Skype for Business Server, o sistema fornece uma única coleção de configurações de conferência (a coleção global). Se precisar criar definições personalizadas para um site ou serviço, utilize o cmdlet **New-CsConferencingConfiguration**. Observe que as novas configurações só podem ser aplicadas no escopo do site ou do serviço; não é possível criar uma nova coleção global de configurações de conferência, mas você pode modificar a coleção global usando o cmdlet **Set-CsConferencingConfiguration.** Além disso, nenhum site ou serviço pode hospedar mais de uma coleção de definições. Se você tentar criar novas definições para o site de Redmond e ele já hospedar uma coleção de definições de configuração de conferências, o comando falhará.
+Ao instalar o Skype for Business Server, o sistema fornece uma única coleção de configurações de conferência (a coleção global). Se precisar criar definições personalizadas para um site ou serviço, utilize o cmdlet **New-CsConferencingConfiguration**. Observe que as novas configurações só podem ser aplicadas no escopo do site ou do serviço; não é possível criar uma nova coleção global de configurações de conferência, mas você pode modificar a coleção global usando o cmdlet **Set-CsConferencingConfiguration** . Além disso, nenhum site ou serviço pode hospedar mais de uma coleção de definições. Se você tentar criar novas definições para o site de Redmond e ele já hospedar uma coleção de definições de configuração de conferências, o comando falhará.
   
 ## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Gerenciar configurações de conferência usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 
@@ -64,4 +64,4 @@ $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
 ```
 
-Se você não chamar o cmdlet **Set-CsConferencingConfiguration,** as novas configurações nunca terão efeito. Em vez disso, eles desaparecerão assim que você terminar sua sessão Windows PowerShell ou excluir a variável $x.
+Se você não chamar o cmdlet **Set-CsConferencingConfiguration** , as novas configurações nunca terão efeito. Em vez disso, eles desaparecerão assim que você terminar sua sessão Windows PowerShell ou excluir a variável $x.

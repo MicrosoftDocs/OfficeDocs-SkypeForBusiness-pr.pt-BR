@@ -1,8 +1,8 @@
 ---
 title: Testar permissões de administrador no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Como testar permissões de administrador no Skype for Business Server
-ms.openlocfilehash: 2c4525d83f3a097abfa168b706885a939e3b0663
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48ffbe6863a85ecaa98cb526c16819f3d520def0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859978"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391113"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Testar permissões de administrador no Skype for Business Server
 
@@ -24,14 +24,14 @@ ms.locfileid: "60859978"
 |--|--|
 |Agendamento de verificação|Após a implantação Skype for Business Server inicial. Conforme necessário se surgirem problemas relacionados à permissão.|
 |Ferramenta de teste|Windows PowerShell|
-|Permissões obrigatórias|Quando executado localmente usando o Shell de Gerenciamento Skype for Business Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.<br><br/>Quando executado usando uma instância remota de Windows PowerShell, os usuários devem ter uma função RBAC com permissão para executar o cmdlet Test-CsOUPermission. Para ver uma lista de todas as funções do RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsOUPermission"}|
+|Permissões obrigatórias|Quando executado localmente usando o Shell de Gerenciamento Skype for Business Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.<br><br/>Quando executado usando uma instância remota de Windows PowerShell, os usuários devem ter uma função RBAC com permissão para executar o cmdlet Test-CsOUPermission. Para ver uma lista de todas as funções do RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt Windows PowerShell:<br/><br/>\| Get-CsAdminRole Where-Object {$_. Cmdlets -match "Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>Descrição
 
 Quando você instala o Skype for Business Server, uma das tarefas executadas pelo programa de Instalação fornece ao grupo RTCUniversalUserAdmins as permissões do Active Directory necessárias para gerenciar usuários, computadores, contatos, contatos de aplicativo e pessoas InetOrg. Se você tiver desabilitado a herança de permissão no Active Directory, a instalação não poderá atribuir essas permissões. Como resultado, os membros do grupo RTCUniversalUserAdmins não poderão gerenciar Skype for Business Server entidades. Esses privilégios de gerenciamento estarão disponíveis apenas para administradores de domínio. 
 
-O Test-CsOUPermission cmdlet verifica se as permissões necessárias para gerenciar usuários, computadores e outros objetos são definidas em um contêiner do Active Directory. Se essas permissões não estão definidas, você pode resolver esse problema executando o [cmdlet Grant-CsOUPermission](/powershell/module/skype/Grant-CsOUPermission). 
+O Test-CsOUPermission cmdlet verifica se as permissões necessárias para gerenciar usuários, computadores e outros objetos são definidas em um contêiner do Active Directory. Se essas permissões não estão definidas, você pode resolver esse problema executando [o cmdlet Grant-CsOUPermission](/powershell/module/skype/Grant-CsOUPermission). 
 
 Observe que Grant-CsOUPermission só pode atribuir permissões a membros do grupo RTCUniversalUserAdmins. Não é possível usar esse cmdlet para conceder permissões a um usuário ou grupo arbitrário. Se você quiser que um usuário ou grupo diferente tenha permissões de gerenciamento de usuário, adicione esse usuário (ou grupo) ao grupo RTCUniversalUserAdmins. 
 
@@ -46,7 +46,7 @@ Para verificar várias permissões usando um único comando, coloque cada tipo d
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"`
 
-Para obter mais informações, consulte [o tópico de ajuda para o cmdlet Test-CsOUPermission](/powershell/module/skype/test-csoupermission).
+Para obter mais informações, consulte [o tópico de ajuda do cmdlet Test-CsOUPermission.](/powershell/module/skype/test-csoupermission)
 
 ## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
@@ -72,4 +72,4 @@ Se Test-CsOUPermission falha, geralmente significa que a permissão especificada
 
 `Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"`
 
-Para obter mais informações, consulte [o tópico de ajuda para o cmdlet Test-CsOUPermission](/powershell/module/skype/test-csoupermission).
+Para obter mais informações, consulte [o tópico de ajuda do cmdlet Test-CsOUPermission.](/powershell/module/skype/test-csoupermission)

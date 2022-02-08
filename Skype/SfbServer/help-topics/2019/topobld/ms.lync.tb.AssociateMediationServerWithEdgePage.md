@@ -1,8 +1,8 @@
 ---
 title: Associar Servidor de Mediação com Borda
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir um Servidor de Mediação, especifique as configurações que associam o Servidor de Mediação a um Servidor Front-End e a um pool ou Servidor de Borda. Para associar o Servidor de Mediação ou o pool a um Servidor de Borda ou pool de Servidores de Borda, faça o seguinte:'
-ms.openlocfilehash: 818e2dc95ea01affbbf499da21968e2f83966044
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f09bcc31b005c768129a797fa61df5090a38ae5e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846834"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393163"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Associar Servidor de Mediação com Borda
  

@@ -1,8 +1,8 @@
 ---
 title: Excluir configurações de reunião no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 'Resumo: saiba como excluir as configurações de reunião no Skype for Business Server.'
-ms.openlocfilehash: 95eda4da393f1eb677fc331ffb824e6222e35113
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f08869e2cb9c59dc6fb382de6568ad913c329c1a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830895"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391123"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Excluir configurações de reunião no Skype for Business Server
  
@@ -33,13 +33,13 @@ Você pode excluir uma configuração de site ou usuário, mas não pode excluir
     
 2.  Abra Skype for Business Server Painel de Controle.
     
-3. Na barra de navegação esquerda, clique **em Conferência** e em **Configuração de Reunião.**
+3. Na barra de navegação esquerda, clique **em Conferência e** em **Configuração de Reunião**.
     
 4. Na lista de configurações de reunião, clique na configuração do site ou pool que você deseja excluir, clique em **Editar** e clique em **Excluir**.
     
 ## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Excluir configurações de reunião usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 
-Para excluir as configurações de reunião, use o cmdlet **Remove-CsMeetingConfiguration.**
+Para excluir as configurações de reunião, use o cmdlet **Remove-CsMeetingConfiguration** .
   
 O comando a seguir remove as configurações de reunião aplicadas ao site redmond:
   

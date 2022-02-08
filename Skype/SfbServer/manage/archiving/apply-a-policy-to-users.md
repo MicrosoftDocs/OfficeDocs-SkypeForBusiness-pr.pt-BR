@@ -1,8 +1,8 @@
 ---
 title: Aplicar uma política de arquivamento aos usuários no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Resumo: saiba como atribuir uma política de arquivamento aos usuários em Skype for Business Server.'
-ms.openlocfilehash: 9be6f37f6c84e089a387eec4e3ad982ec2ae9e14
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fadc2d20ce8fb83ef331feb55f5d0908b3189213
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856798"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391183"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Aplicar uma política de arquivamento aos usuários no Skype for Business Server
 
@@ -26,7 +26,7 @@ ms.locfileid: "60856798"
 Se você tiver criado uma ou mais políticas de usuário para arquivamento para usuários que estão no Skype for Business Server, você poderá implementar o suporte de arquivamento para usuários específicos aplicando as políticas apropriadas a esses usuários ou grupos de usuários. Por exemplo, se você criar uma política para dar suporte ao arquivamento de comunicações internas, poderá aplicá-la a pelo menos um usuário ou grupo de usuários para dar suporte ao arquivamento das comunicações Skype for Business Server do usuário.
   
 > [!NOTE]
-> Se você habilitar Exchange integração do Microsoft Exchange para sua implantação, as políticas de Exchange In-Place Detiver controlarão se o arquivamento está habilitado para os usuários que estão no Exchange e têm suas caixas de correio colocadas em In-Place Hold. Para obter detalhes, [consulte Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Se você habilitar Exchange integração do Microsoft Exchange para sua implantação, as políticas de Exchange In-Place Detiver controlarão se o arquivamento está habilitado para os usuários que estão no Exchange e têm suas caixas de correio colocadas em In-Place Hold. Para obter detalhes, [consulte Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Aplicar uma política de usuário usando o Painel de Controle
 
@@ -40,7 +40,7 @@ Para aplicar uma política de usuário usando o Painel de Controle:
     
 4. Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
     
-5. Em **Editar Usuário do Lync Server** em Política **de** Arquivamento, selecione a política de usuário de arquivamento que você deseja aplicar.
+5. Em **Editar Usuário do Lync Server** em **Política** de Arquivamento, selecione a política de usuário de arquivamento que você deseja aplicar.
     
     > [!NOTE]
     > As **\<Automatic\>** configurações aplicam as configurações de instalação padrão do servidor. Essas configurações são aplicadas automaticamente pelo servidor.
@@ -49,7 +49,7 @@ Para aplicar uma política de usuário usando o Painel de Controle:
     
 ## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Aplicar uma política de usuário usando Windows PowerShell
 
-Você também pode aplicar uma política de usuário usando o cmdlet **Windows PowerShell Grant-CsArchivingPolicy.**
+Você também pode aplicar uma política de usuário usando o cmdlet **Windows PowerShell Grant-CsArchivingPolicy**.
   
 O comando a seguir atribui a política de arquivamento por usuário RedmondArchivingPolicy ao usuário Ken Myer.
   
@@ -57,7 +57,7 @@ O comando a seguir atribui a política de arquivamento por usuário RedmondArchi
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-Este comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que têm contas no pool de registradores atl-cs-001.contoso.com. Para obter detalhes sobre o parâmetro Filter usado neste comando, consulte a documentação do cmdlet [Get-CsUser.](/powershell/module/skype/get-csuser?view=skype-ps)
+Este comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que têm contas no pool de registradores atl-cs-001.contoso.com. Para obter detalhes sobre o parâmetro Filter usado neste comando, consulte a documentação do cmdlet [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps) .
   
 ```PowerShell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
@@ -69,4 +69,4 @@ O comando a seguir remove qualquer política de arquivamento por usuário atribu
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 
-Para obter detalhes, consulte a documentação do cmdlet [Grant-CsArchivingPolicy.](/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps)
+Para obter detalhes, consulte a documentação do cmdlet [Grant-CsArchivingPolicy](/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps) .

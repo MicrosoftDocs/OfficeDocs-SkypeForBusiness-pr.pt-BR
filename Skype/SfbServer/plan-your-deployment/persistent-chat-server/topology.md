@@ -1,8 +1,8 @@
 ---
 title: Planejar a topologia do Servidor de Chat Persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Resumo: leia este tópico para saber mais sobre componentes e topologias do Servidor de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 1b57d9d9ace6e51001acfa39101eb185a8e00939
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 179dfadf3f7c479999fc98c74e4069e82c5d1f79
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862068"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392373"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Planejar a topologia do Servidor de Chat Persistente
  
@@ -46,17 +46,17 @@ O Servidor de Chat Persistente consiste nos seguintes componentes:
   
 - Se a conformidade estiver habilitada, um ou mais servidores (mais de um se o espelhamento for usado) executando o banco de dados back-end do SQL Server para hospedar o banco de dados de Conformidade de Chat Persistente, onde eventos de conformidade e conteúdo de chat para fins de conformidade são armazenados.
     
-Para obter detalhes sobre requisitos de hardware e software para o Servidor de Chat Persistente, consulte Requisitos de servidor para [o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e requisitos de hardware e software para o Servidor de Chat Persistente [no Skype for Business Server 2015](hardware-and-software-requirements.md). 
+Para obter detalhes sobre requisitos de hardware e software para o Servidor de Chat Persistente, consulte Requisitos de servidor para [o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e requisitos de hardware e software para o Servidor de [Chat Persistente no Skype for Business Server 2015](hardware-and-software-requirements.md). 
   
 ## <a name="persistent-chat-server-topologies"></a>Topologias do Servidor de Chat Persistente
 
 Você pode implantar o Servidor de Chat Persistente em pools de servidor único ou de vários servidores e com topologia de pool único ou de vários pools. O Servidor de Chat Persistente dá suporte às seguintes topologias:
   
--  Edição Standard Servidor com Servidor de Chat Persistente alocado no Servidor Front-End
+-  Edição Standard servidor com Servidor de Chat Persistente alocado no Servidor front-end
     
 -  Edição Standard Servidor com Servidor de Chat Persistente em um servidor separado
     
--  Edição Enterprise Servidor com um único Servidor de Chat Persistente em um servidor separado
+-  Edição Enterprise servidor com um único Servidor de Chat Persistente em um servidor separado
     
 -  Edição Enterprise Servidor com mais de um Servidor de Chat Persistente em servidores separados
     
@@ -66,7 +66,7 @@ Skype for Business Server 2015 oferece suporte a uma variedade de cenários de l
   
 As seções a seguir descrevem as topologias com mais detalhes, incluindo cenários de colocação e opções para os servidores de banco de dados back-end. Para obter detalhes sobre a localização de todas as funções de servidor e bancos de dados, consulte [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
   
-### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Edição Standard Servidor com Servidor de Chat Persistente alocado no Servidor Front-End
+### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Edição Standard servidor com Servidor de Chat Persistente alocado no Servidor front-end
 
 Com Edição Standard, você pode colocar Chat Persistente no Servidor front-end. Essa é a configuração mais simples e básica. Você deve garantir que o Servidor Front-End existente tenha capacidade suficiente em termos de recursos físicos: CPU, memória, espaço em disco e assim por diante.
   

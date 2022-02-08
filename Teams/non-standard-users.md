@@ -1,7 +1,7 @@
 ---
 title: Teams de aplicativos para usuários não padrão
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 621614b9fc3d46d4629ce8b62dbbcc7b579698db
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846084"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390823"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicativos para usuários não padrão
 
@@ -33,9 +33,9 @@ Este artigo descreve como os aplicativos no Teams se comportam quando usuários 
 - Um **usuário externo (federado)** pertence a outro domínio e não tem acesso às equipes ou recursos de equipe da sua organização.
 
   > [!Note]
-  > Para obter uma comparação mais detalhada de convidados versus usuários externos, [consulte se comunicar com usuários de outras organizações.](./communicate-with-users-from-other-organizations.md)
+  > Para obter uma comparação mais detalhada de convidados versus usuários externos, [consulte se comunicar com usuários de outras organizações](./communicate-with-users-from-other-organizations.md).
 
-- Um **usuário anônimo** é um conceito em reuniões Teams em que o usuário ingressou na reunião por meio de um link. O usuário não fez logont com a conta da Microsoft ou da organização.
+- Um **usuário anônimo** é um conceito Teams reuniões em que o usuário ingressou na reunião por meio de um link. O usuário não fez logont com a conta da Microsoft ou da organização.
 
 ## <a name="guest-users"></a>Usuários convidados
 
@@ -80,7 +80,7 @@ Os usuários anônimos não podem instalar, atualizar ou excluir aplicativos em 
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportamento e política de uso para usuários anônimos
 
-Os usuários anônimos não podem usar aplicativos diretamente em reuniões. Os usuários nativos podem continuar a usar aplicativos de reuniões se os usuários anônimos estão presentes. Se um aplicativo enviar um cartão adaptável no chat, os usuários anônimos poderão interagir com o cartão. Para obter mais informações, leia [Permitir que usuários anônimos participem de reuniões.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
+Os usuários anônimos não podem usar aplicativos diretamente em reuniões. Os usuários nativos podem continuar a usar aplicativos de reuniões se os usuários anônimos estão presentes. Se um aplicativo enviar um cartão adaptável no chat, os usuários anônimos poderão interagir com o cartão. Para obter mais informações, leia [Permitir que usuários anônimos participem de reuniões](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 Os usuários anônimos herdarão a política de permissão padrão global no nível do usuário. Eles podem interagir com aplicativos Teams reuniões se a política de permissão no nível do usuário habilitar o aplicativo. Os usuários anônimos só podem interagir com aplicativos que já estão disponíveis em uma reunião e não podem adquirir e/ou gerenciar esses aplicativos.
 
