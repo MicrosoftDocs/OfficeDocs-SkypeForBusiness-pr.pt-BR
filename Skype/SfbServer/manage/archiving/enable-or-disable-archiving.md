@@ -1,8 +1,8 @@
 ---
 title: Habilitar ou desabilitar o arquivamento Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 'Resumo: saiba como habilitar ou desabilitar o arquivamento Skype for Business Server.'
-ms.openlocfilehash: c2aff3706505e8977080c92259f7d73a5c2b2b17
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ed4fd18f6d130bbfa5211b142cc1804c489f37c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839953"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388179"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Habilitar ou desabilitar o arquivamento Skype for Business Server
 
@@ -43,7 +43,7 @@ ms.locfileid: "60839953"
     
 ## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>Habilitar ou desabilitar o arquivamento usando Windows PowerShell
 
-Você também pode habilitar ou desabilitar o arquivamento usando o cmdlet **Set-CsArchivingConfiguration.** Por exemplo, o comando a seguir modifica todas as configurações de arquivamento para que apenas as sessões de IM sejam arquivadas. O comando chama o cmdlet **Get-CsArchivingConfiguration** sem parâmetros para retornar todas as configurações de arquivamento em uso na organização. Essa coleção é então canalada para o cmdlet **Where-Object,** que seleciona apenas as configurações em que a propriedade EnableArchiving é igual a (-eq) "ImAndWebConf". A coleção filtrada é então canalizada para o cmdlet **Set-CsArchivingConfiguration,** que leva cada item da coleção e altera o valor de EnableArchiving para "ImOnly":
+Você também pode habilitar ou desabilitar o arquivamento usando o cmdlet **Set-CsArchivingConfiguration** . Por exemplo, o comando a seguir modifica todas as configurações de arquivamento para que apenas as sessões de IM sejam arquivadas. O comando chama o cmdlet **Get-CsArchivingConfiguration** sem parâmetros para retornar todas as configurações de arquivamento em uso na organização. Essa coleção é então canalada para o cmdlet **Where-Object** , que seleciona apenas as configurações em que a propriedade EnableArchiving é igual a (-eq) "ImAndWebConf". A coleção filtrada é então canalizada para o cmdlet **Set-CsArchivingConfiguration** , que leva cada item da coleção e altera o valor de EnableArchiving para "ImOnly":
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"

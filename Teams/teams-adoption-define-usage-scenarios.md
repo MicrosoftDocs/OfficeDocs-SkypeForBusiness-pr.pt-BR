@@ -1,7 +1,7 @@
 ---
 title: Definir cenários de uso do Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b25ab0367909da0136a7761b7e763965c5804d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e932ce57212b2efc88a0b26316b7d9668062045c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842553"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387459"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir cenários de uso do Microsoft Teams
 
@@ -70,6 +70,6 @@ Depois de falar com um ou mais participantes de negócios, você pode priorizar 
 ![Uma ilustração mostrando Impacto de cenário versus dificuldade.](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Estamos sempre ansiosos para saber como nossos clientes usam Teams novas maneiras inovadoras. Compartilhe sua #TeamsStories conosco em nosso fórum de discussão sobre a [adoção de direção.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Inclua a hashtag **#TeamsStories** na postagem. Estamos sempre interessados em como você usa Teams em sua organização.
+> Estamos sempre ansiosos para saber como nossos clientes usam Teams novas maneiras inovadoras. Compartilhe sua #TeamsStories conosco em nosso fórum de discussão sobre a [adoção de direção](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption). Inclua a hashtag **#TeamsStories** na postagem. Estamos sempre interessados em como você usa Teams em sua organização.
 
 ![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Next: [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md).

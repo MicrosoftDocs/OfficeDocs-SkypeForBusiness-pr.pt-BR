@@ -1,8 +1,8 @@
 ---
 title: Definir os elementos de rede usados para determinar o local no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Decisões necessárias para o planejamento de quais componentes de rede você usará para mapear chamadores para locais para implantação do E9-1-1 em Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 6de3d960dd68dfc0f34ce0e67fef569c36e44612
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2ec6f249bc1b502d26a98d67842ab8b7a1eaccc3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861108"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386409"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Definir os elementos de rede usados para determinar o local no Skype for Business Server
  
@@ -48,7 +48,7 @@ As seções a seguir fornecem mais detalhes de uso de cada elemento da rede.
   
 ## <a name="wireless-access-point"></a>Ponto de acesso sem fio
 
-Quando um cliente se conecta à rede sem fio, a solicitação de local usa o endereço BSSID do WAP para determinar a sua localização. Se o cliente estiver em roaming, o WAP indicado pode não ser o mais próximo, e até mesmo é possível escolher um WAP que está em um piso diferente do edifício. Para indicar que o local é aproximado, você pode pré-anexar o valor de local com um descritor **[Near]** ou **[Closeto].**
+Quando um cliente se conecta à rede sem fio, a solicitação de local usa o endereço BSSID do WAP para determinar a sua localização. Se o cliente estiver em roaming, o WAP indicado pode não ser o mais próximo, e até mesmo é possível escolher um WAP que está em um piso diferente do edifício. Para indicar que o local é aproximado, você pode pré-anexar o valor de local com um descritor **[Near]** ou **[Closeto** ].
   
 Este método local supõe que o BSSID de cada WAP é estático. No entanto, se o fornecedor WAP usar BSSIDs atribuídos dinamicamente, o BSSID obtido de um WAP poderá mudar (isso pode acontecer após uma alteração de configuração WAP) e os clientes sem fio poderão ser deixados em uma situação em que eles não recebem um local. Para evitar essa possibilidade, você precisa preencher o banco de dados de serviço de Informações de Local com ERLs para todos os endereços BSSID possíveis usados por cada WAP. 
   

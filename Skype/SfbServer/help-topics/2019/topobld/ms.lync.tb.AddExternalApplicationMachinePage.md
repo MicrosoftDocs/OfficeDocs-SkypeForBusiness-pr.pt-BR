@@ -1,8 +1,8 @@
 ---
 title: Adicionar máquina de Aplicativo Confiável
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique o FQDN (nome de domínio totalmente qualificado) de cada computador que você deseja adicionar como Servidor de Aplicativos Confiável neste pool. Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia. Depois da publicação da topologia, a alteração do FQDN exigirá a exclusão do servidor do Construtor de Topologia e a adição de um novo servidor ao pool com o novo FQDN.
-ms.openlocfilehash: d8565770f3ddcbf344e4fa329dd6af8b0a859c45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d51660a8494332ebe52b51e790c5ba9a43513349
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838213"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386049"
 ---
 # <a name="add-trusted-application-machine"></a>Adicionar Máquina de Aplicativo Confiável
  

@@ -1,7 +1,7 @@
 ---
 title: Usar o OneDrive for Business e o SharePoint para gravações de reunião
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62e09ef5226e4b934ff4077f095fac931b786d49
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 21a499d10fa9dc1d04d1e1baab8743b739a4e45d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769749"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385309"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -122,7 +122,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Reunião agendada/adhoc                    |Outro membro da reunião   |Membro da reunião que clicou em Gravar                                  |O membro que clicou em Gravar tem todos os direitos à gravação. <br /><br />O organizador tem direitos de edição e pode compartilhar.<br /><br /> Todos os outros membros da reunião têm acesso de leitura.|
 |Reunião agendada/adhoc com usuários externos|Organizador              |Conta do OneDrive for Business do organizador                     |O organizador tem todos os direitos à gravação.<br /> <br /> Todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura. <br /><br /> Todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo com eles.|
 |Reunião agendada/adhoc com usuários externos|Outro membro da reunião   |Membro que clicou em Gravar                                  |O membro que clicou em Gravar tem todos os direitos à gravação. O organizador tem direitos de edição e pode compartilhar. <br /><br /> Todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura. <br /><br />Todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo com eles.|
-|Reunião de canal                            |Membro do canal         |Teams SharePoint local desse canal. **Observação:** o carregamento de gravação de reunião do canal SharePoint não é suportado para restrições baseadas em IP. Recomendamos usar o [acesso condicional do Azure.](/azure/active-directory/conditional-access/overview) |O membro que clicou em Gravar tem direitos de edição à gravação. <br /> <br />As permissões dos outros membros são baseadas nas permissões do SharePoint do canal.|
+|Reunião de canal                            |Membro do canal         |Teams SharePoint local desse canal. **Observação**: o carregamento de gravação de reunião do canal SharePoint não é suportado para restrições baseadas em IP. É recomendável usar [o acesso condicional do Azure](/azure/active-directory/conditional-access/overview). |O membro que clicou em Gravar tem direitos de edição à gravação. <br /> <br />As permissões dos outros membros são baseadas nas permissões do SharePoint do canal.|
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

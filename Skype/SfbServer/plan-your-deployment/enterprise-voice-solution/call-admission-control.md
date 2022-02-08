@@ -1,8 +1,8 @@
 ---
 title: Planejar o controle de admissão de chamada Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Saiba mais sobre o controle de admissão de chamadas, que pode impedir que as chamadas ocorrem se elas não têm qualidade de mídia ruim, Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 6260321a29ad138fae41eacb9a1bee5d322d1684
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e0843ef922bc928b5615425f96461e5262a6077e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841073"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387809"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planejar o controle de admissão de chamada Skype for Business Server
 
@@ -37,7 +37,7 @@ O controle de admissão de chamada (CAC) determina se há largura de banda de re
 Esta seção descreve a funcionalidade de controle de admissão de chamada e explica como planejar o CAC.
 
 > [!NOTE]
-> Skype for Business Server tem três recursos avançados Enterprise Voice: controle de admissão de chamada (CAC), serviços de emergência (E9-1-1) e bypass de mídia. Para obter uma visão geral das informações de planejamento que são comuns a todos esses três recursos, consulte [Configurações](network-settings-for-advanced-features.md)de rede para os recursos de Enterprise Voice avançados no Skype for Business Server .
+> Skype for Business Server tem três recursos avançados Enterprise Voice: controle de admissão de chamada (CAC), serviços de emergência (E9-1-1) e bypass de mídia. Para obter uma visão geral das informações de planejamento comuns a todos esses três recursos, consulte Configurações de rede para os recursos de Enterprise Voice [avançados no Skype for Business Server](network-settings-for-advanced-features.md).
 
 O design cac no Skype for Business Server oferece quatro atributos principais:
 
@@ -86,7 +86,7 @@ Se a sua empresa oferece suporte à mídia através de VPN, verifique se tanto o
 
 ### <a name="call-admission-control-of-outside-users"></a>Controle de Admissão de Chamada de Usuários Externos
 
-O controle de admissão de chamada não é imposto além dos limites da organização Skype for Business Server de chamada. O CAC não pode ser aplicado ao tráfego de mídia que atravessa a Internet, que não é gerenciado por Skype for Business Server. As verificações de CAC serão executadas na parte da chamada que flui pela rede corporativa se o ponto de extremidade chamado pertencer à organização e o Servidor de Borda tiver sido adicionado à configuração de rede, conforme descrito em Implantação de controle de admissão de [chamada:](../../deploy/deploy-enterprise-voice/final-checklist.md)lista de verificação final para Skype for Business Server . Se o ponto de extremidade chamado não pertencer à organização, como um usuário federado ou PIC, nenhuma verificação de política de largura de banda será executada e a chamada de saída ignorará quaisquer restrições de CAC.
+O controle de admissão de chamada não é imposto além dos limites da organização Skype for Business Server de chamada. O CAC não pode ser aplicado ao tráfego de mídia que atravessa a Internet, que não é gerenciado por Skype for Business Server. As verificações de CAC serão executadas na parte da chamada que flui pela rede corporativa se o ponto de extremidade chamado pertencer à organização e o Servidor de Borda tiver sido adicionado à configuração de rede, conforme descrito em [Implantação](../../deploy/deploy-enterprise-voice/final-checklist.md) de controle de admissão de chamada: lista de verificação final para Skype for Business Server. Se o ponto de extremidade chamado não pertencer à organização, como um usuário federado ou PIC, nenhuma verificação de política de largura de banda será executada e a chamada de saída ignorará quaisquer restrições de CAC.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>Controle de Admissão de Chamada das Conexões PSTN
 
@@ -182,10 +182,10 @@ As políticas de largura de banda do CAC podem definir o seguinte:
 - Largura de banda máxima alocada para uma única chamada de vídeo (sessão).
 
 > [!NOTE]
-> Todos os valores de largura de banda do CAC representam os limites máximos de largura de *banda unidirecional.*
+> Todos os valores de largura de banda do CAC representam os limites  *máximos de largura de banda unidirecional*  .
 
 > [!NOTE]
-> Os Skype for Business Server de Política de Voz fornecem a capacidade de substituir verificações de política de largura de banda para chamadas de entrada para o usuário (não para chamadas de saída que são feitas pelo usuário). Depois da sessão ser estabelecida, o consumo de largura de banda será contabilizado com precisão. Essa configuração deve ser usada com moderação. Para obter detalhes, consulte Create or modify a voice policy and [configure PSTN](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) usage records in Skype for Business or [Modify a Voice Policy and Configure PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) na documentação de implantação.
+> Os Skype for Business Server de Política de Voz fornecem a capacidade de substituir verificações de política de largura de banda para chamadas de entrada para o usuário (não para chamadas de saída que são feitas pelo usuário). Depois da sessão ser estabelecida, o consumo de largura de banda será contabilizado com precisão. Essa configuração deve ser usada com moderação. Para obter detalhes, consulte [Create or modify a voice policy and configure PSTN usage records in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or [Modify a Voice Policy and Configure PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) na documentação de implantação.
 
 Para otimizar a utilização de largura de banda com base por sessão, considere o tipo de codec de áudio e vídeo que será usado. Mais especificamente, evite alocar menos largura de banda para um codec que você espera que seja usado com frequência. Por outro lado, se você deseja impedir que a mídia use um codec que exija mais largura de banda, deverá definir a largura de banda máxima por sessão menor o suficiente para desencorajar tal uso. Para o áudio, nem todos os codecs estão disponíveis para cada cenário. Por exemplo:
 

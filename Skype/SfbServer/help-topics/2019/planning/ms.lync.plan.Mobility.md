@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server Ferramenta de planejamento de mobilidade
+title: Skype for Business Server ferramenta de planejamento de mobilidade
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: O recurso de mobilidade no Skype for Business Server oferece suporte Skype for Business funcionalidade em dispositivos móveis.
-ms.openlocfilehash: 160fcaecd46d8a201eea99d80fa76af4093e8ec2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fb5dff47adfb35f39a241a245c35bbb4f1236c20
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831265"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388839"
 ---
-# <a name="skype-for-business-server-mobility-planning-tool"></a>Skype for Business Server Ferramenta de planejamento de mobilidade
+# <a name="skype-for-business-server-mobility-planning-tool"></a>Skype for Business Server ferramenta de planejamento de mobilidade
  
 O recurso de mobilidade no Skype for Business Server oferece suporte Skype for Business funcionalidade em dispositivos móveis.
   

@@ -1,8 +1,8 @@
 ---
 title: Navegue pela Ferramenta de Planejamento no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,22 +14,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Navegue pela Ferramenta de Planejamento Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos de página e painéis específicos de contexto. Os painéis específicos de contexto fornecem informações de design para planejamento e capacidade relevantes para as opções de seleção em uma página específica.
-ms.openlocfilehash: 6485d23d8f7aa6bfafd039ab1832be7a06f65449
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed248fad77615d37abf3eb6b7434d8d20ad1703b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845374"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388039"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegue pela Ferramenta de Planejamento no Skype for Business Server 2015
 
 Navegue pela Ferramenta de Planejamento Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos de página e painéis específicos de contexto. Os painéis específicos de contexto fornecem informações de design para planejamento e capacidade relevantes para as opções de seleção em uma página específica.
 
-Ao iniciar a Ferramenta de Planejamento, um designer primeiro vê a página Bem-vindo à Ferramenta de Planejamento para Skype for Business Server **2015.**
+Ao iniciar a Ferramenta de Planejamento, um designer primeiro vê a página Bem-vindo à Ferramenta de Planejamento para Skype for Business Server **2015**.
 
 ![Página de boas-vindas da Ferramenta de Planejamento.](../../media/Planning_Tool_Welcome.png)
 
-Na página Bem-vindo, o designer escolhe **Introdução,** **Design Sites** ou **Exibir**. Para obter detalhes, [consulte Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md).
+Na página Bem-vindo, o designer escolhe **Introdução**, **Design Sites** ou **Exibição**. Para obter detalhes, [consulte Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md).
 
 Na parte superior da Ferramenta de Planejamento está uma barra de ferramentas que fornece acesso fácil a funções usadas com frequência. A barra de ferramentas é exibida aqui para referência, e cada função será discutida em tópicos relacionados.
 

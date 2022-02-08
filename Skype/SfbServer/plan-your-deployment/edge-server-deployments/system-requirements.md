@@ -1,8 +1,8 @@
 ---
 title: Requisitos do sistema do Servidor de Borda Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumo: saiba mais sobre os requisitos do sistema para o Servidor de Borda Skype for Business Server.'
-ms.openlocfilehash: f61412ab8246945e50af0276e46ac53ca080605c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ea05067749890b5f42501e4e4380a7a42599a0b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863458"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387879"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos do sistema do Servidor de Borda Skype for Business Server
  
@@ -52,11 +52,11 @@ Temos mais detalhes sobre cada um deles abaixo:
 
 Esses são os servidores Skype for Business implantados em seu ambiente de perímetro. Sua função é enviar e receber tráfego de rede para usuários externos para os serviços oferecidos pela sua implantação Skype for Business Server interna. Para fazer isso com êxito, cada Servidor de Borda é executado:
   
-- **Serviço de Borda de** Acesso : fornece um único ponto de conexão confiável para tráfego SIP (Protocolo de Iniciação de Sessão de saída e de entrada).
+- **Serviço de Borda de** Acesso: fornece um único ponto de conexão confiável para tráfego SIP (Protocolo de Iniciação de Sessão de saída e de entrada).
     
-- **Serviço de Borda de WebConferência**: permite que usuários externos participem de reuniões hospedadas em seu ambiente interno Skype for Business Server ambiente.
+- **Serviço de Borda de WebConferência**: permite que usuários externos participem de reuniões hospedadas em seu ambiente Skype for Business Server interno.
     
-- **Serviço de Borda A/V:** disponibiliza áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos para usuários externos.
+- **Serviço de Borda A/V**: disponibiliza áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos para usuários externos.
     
 - **Serviço proxy XMPP**: aceita e envia mensagens extensíveis e mensagens de protocolo de presença (XMPP) para e de parceiros federados XMPP configurados.
     
@@ -91,7 +91,7 @@ E para dispositivos móveis:
     
 - habilita notificações por push de Microsoft 365 ou Office 365 para dispositivos móveis.
     
-Nossas recomendações de proxy reverso atuais podem ser encontradas na página Infraestrutura de [Telefonia para](../../../SfbPartnerCertification/certification/infra-gateways.md) Skype for Business. Portanto, seu proxy reverso:
+Nossas recomendações de proxy reverso atuais podem ser encontradas na página [Infraestrutura de Telefonia para](../../../SfbPartnerCertification/certification/infra-gateways.md) Skype for Business. Portanto, seu proxy reverso:
   
 - deve ser capaz de usar o TLS (transport layer security) introduzido no seu ambiente por meio de certificados públicos para se conectar aos serviços Web externos publicados de:
     
@@ -103,7 +103,7 @@ Nossas recomendações de proxy reverso atuais podem ser encontradas na página 
     
 - deve ser capaz de publicar um site hospedado internamente externamente usando um FQDN (nome de domínio totalmente qualificado).
     
-- precisa ser capaz de publicar todo o conteúdo do seu site hospedado. Por padrão, você pode usar a diretiva _, que é reconhecida pela maioria dos servidores Web para significar "Publicar todo o conteúdo **/\\** no servidor Web". Você também pode modificar a diretiva, por exemplo, _*/Uwca/ ***, que significa "Publicar todo o conteúdo no diretório \\ virtual Ucwa".
+- precisa ser capaz de publicar todo o conteúdo do seu site hospedado. Por padrão, você pode usar a **/\\** diretiva _, que é reconhecida pela maioria dos servidores Web para significar "Publicar todo o conteúdo no servidor Web". Você também pode modificar a diretiva, por exemplo, _*/Uwca/\\***, que significa "Publicar todo o conteúdo no diretório virtual Ucwa".
     
 - deve exigir conexões TLS com clientes que solicitam conteúdo de seu site publicado.
     
@@ -164,26 +164,26 @@ Para qualquer Servidor de Borda executando o serviço de Borda A/V, estes são o
     
 #### <a name="hlb-requirements"></a>Requisitos de HLB
 
-Skype for Business Server não tem muitos requisitos de afinidade baseada em cookie. Portanto, você não precisa usar uma persistência baseada em cookie, a menos **que** (e isso seja específico Skype for Business Server 2015) você terá servidores front-end do Lync Server 2010 ou pools de front-end em seu ambiente de Skype for Business Server. Eles precisariam de afinidade baseada em cookie no método de configuração recomendado para o Lync Server 2010.
+Skype for Business Server não tem muitos requisitos de afinidade baseada em cookie. Portanto, você não precisa usar uma persistência baseada em cookie, a **menos que (** e isso seja específico do Skype for Business Server 2015), você terá servidores front-end do Lync Server 2010 ou pools de front-end em seu ambiente de Skype for Business Server. Eles precisariam de afinidade baseada em cookie no método de configuração recomendado para o Lync Server 2010.
   
 > [!NOTE]
 > Se você decidir ativar a afinidade baseada em cookie para o seu HLB, não haverá problema em fazer isso, mesmo que seu ambiente não precise dele. 
   
 Se seu **ambiente não precisar** de afinidade baseada em cookie:
   
-- Na regra de publicação de proxy reverso para a porta 443, de definir **Encaminhar o header do host** como **True**. Isso garantirá que a URL original seja encaminhada.
+- Na regra de publicação de proxy reverso da porta 443, de definir **Encaminhar o header do host** como **True**. Isso garantirá que a URL original seja encaminhada.
     
 Para implantações que **precisam** de afinidade baseada em cookie:
   
-- Na regra de publicação de proxy reverso para a porta 443, de definir **Encaminhar o header do host** como **True**. Isso garantirá que a URL original seja encaminhada.
+- Na regra de publicação de proxy reverso da porta 443, de definir **Encaminhar o header do host** como **True**. Isso garantirá que a URL original seja encaminhada.
     
 - O cookie do balanceador de carga de hardware **não deve** ser marcado httpOnly.
     
 - O cookie do balanceador de carga de hardware **não deve ter** um tempo de expiração.
     
-- O cookie do balanceador de carga de **hardware** deve ser chamado **de MS-WSMAN** (esse é o valor esperado pelos serviços Web e não pode ser alterado).
+- O cookie do balanceador de carga **de hardware deve** ser chamado **de MS-WSMAN** (esse é o valor esperado pelos serviços Web e não pode ser alterado).
     
-- O cookie do balanceador de carga de **hardware** deve ser definido em cada resposta HTTP para a qual a solicitação HTTP de entrada não tinha um cookie, independentemente de uma resposta HTTP anterior nessa mesma conexão TCP ter obtido um cookie. Se o balanceador de carga de hardware otimizar a inserção de cookie para ocorrer apenas uma vez por conexão TCP, essa otimização **não deve** ser usada.
+- O cookie do balanceador de carga **de hardware deve** ser definido em cada resposta HTTP para a qual a solicitação HTTP de entrada não tinha um cookie, independentemente de uma resposta HTTP anterior nessa mesma conexão TCP ter obtido um cookie. Se o balanceador de carga de hardware otimizar a inserção de cookie para ocorrer apenas uma vez por conexão TCP, essa otimização **não deve** ser usada.
     
 > [!NOTE]
 > É comum que as configurações HLB usem afinidade de origem e tempo de vida da sessão TCP de 20 minutos, o que é bom para o Skype for Business Server e seus clientes, pois o estado da sessão é mantido por meio do uso do cliente e/ou interação do aplicativo. 
@@ -220,8 +220,8 @@ Você define o monitoramento de porta em seus balanceadores de carga de hardware
    
 ## <a name="hardware-and-software-requirements"></a>Requisitos de hardware e software
 
-Abordamos os requisitos de hardware e software do Servidor de Borda em nossos requisitos gerais do Servidor para Skype for Business Server [2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e requisitos do sistema para Skype for Business Server [2019.](../../../SfBServer2019/plan/system-requirements.md)
+Abordamos os requisitos de hardware e software do Servidor de Borda em nossos requisitos gerais do [Servidor para o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e requisitos do sistema [para Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ## <a name="collocation"></a>Collocation
 
-Abordamos a localização do Servidor de Borda em nossas [Noções Básicas](../../plan-your-deployment/topology-basics/topology-basics.md) de Topologia para Skype for Business Server documentação.
+Abordamos a localização do Servidor de Borda em nossas [Noções Básicas de Topologia para Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md) documentação.

@@ -1,8 +1,8 @@
 ---
 title: Adicionar Repositório de Servidor SQL de Bate-papo Persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você configura os SQL Server que fornecerão bancos de dados para o servidor de chat persistente ou o pool do Servidor de Chat Persistente.
-ms.openlocfilehash: 2af9c0c63611317220ffffdcf3095d44dd94fabc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ce6b8386898965d2163676b7461b05aa422465d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837053"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388689"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>Adicionar Chat Persistente do Repositório do SQL Server
 

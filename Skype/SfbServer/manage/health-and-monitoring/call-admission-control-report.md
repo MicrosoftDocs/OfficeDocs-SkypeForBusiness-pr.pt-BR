@@ -1,8 +1,8 @@
 ---
 title: Relatório de Controle de Admissão de Chamada Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Resumo: saiba mais sobre os Relatórios de Controle de Admissão de Chamada usados Skype for Business Server.'
-ms.openlocfilehash: bb980dfa132778e1507e26359beca3679a94893a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d0b32f399b01c18252dbd5593468e86e1ba7283c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849894"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384279"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Relatório de Controle de Admissão de Chamada Skype for Business Server
  
@@ -49,7 +49,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Cont
   
 **Filtros do Relatório de Controle de Admissão de Chamadas**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas sempre correm do domingo até sábado.  <br/> |
@@ -63,7 +63,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Controle de
   
 **Métricas para sessões ponto a ponto**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Ver os detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório de Detalhes da Sessão Ponto a Ponto para a sessão especificada.  <br/> |
 |**Do usuário** <br/> |Sim  <br/> |Endereço SIP do usuário que iniciou a sessão.  <br/> |
@@ -80,7 +80,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Controle de
   
 **Métricas para sessões de conferência**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**URI de conferência** <br/> |Sim  <br/> |Identificador exclusivo para a conferência. Quando você clica nesse item, o relatório mostra os participantes individuais da conferência.  <br/> |
 |**Organizador** <br/> |Sim  <br/> |Endereço SIP do usuário que organizou a conferência.  <br/> |
@@ -94,7 +94,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Controle de
   
 **Métricas para participantes individuais de conferência**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Função** <br/> |Não  <br/> |Função (por exemplo, Apresentador) desempenhada pelo participante da conferência.  <br/> |
 |**Participante** <br/> |Não  <br/> |Endereço SIP do participante de conferência.  <br/> |

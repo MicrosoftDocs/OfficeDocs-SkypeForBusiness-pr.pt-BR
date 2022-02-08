@@ -1,8 +1,8 @@
 ---
 title: Planejamento de capacidade para o Servidor de Chat Persistente Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/23/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumo: leia este tópico para saber mais sobre o planejamento de capacidade para o Servidor de Chat Persistente Skype for Business Server 2015.'
-ms.openlocfilehash: 4b84d06a7b6c7f20f26d22ed5718da9abf8108d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48df53528b31babe6419bc42ac303b810abdf197
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834057"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389993"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejamento de capacidade para o Servidor de Chat Persistente Skype for Business Server 2015
  
@@ -113,9 +113,9 @@ Para cada sala de chat, a tabela de planejamento de capacidade anterior especifi
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>Planejar capacidade para gerenciar o acesso à sala de chat por convite
 
-Você pode usar a tabela de planejamento de capacidade a seguir para entender o número de convites que o Servidor de Chat Persistente cria e armazena no banco de dados de Chat Persistente quando ele é configurado para enviar convites. Você gerencia convites na categoria usando a página De configurações de Categoria da Sala de **Chat** no Painel de Controle Skype for Business Server ou usando o cmdlet Windows PowerShell, **set-csPersistentChatCategory**. Você pode gerenciar convites em uma sala de chat (em  linha com o que a categoria permite) usando a página Gerenciamento de Salas lançada a partir do cliente Skype for Business ou usando um cmdlet Windows PowerShell, **set-csPersistentChatRoom**.
+Você pode usar a tabela de planejamento de capacidade a seguir para entender o número de convites que o Servidor de Chat Persistente cria e armazena no banco de dados de Chat Persistente quando ele é configurado para enviar convites. Você gerencia os convites na categoria usando a página De configurações de Categoria da Sala de **Chat** no Painel de Controle Skype for Business Server ou usando o cmdlet Windows PowerShell, **set-csPersistentChatCategory**. Você pode gerenciar convites em uma sala de chat (de acordo com o que a categoria permite) usando a  página Gerenciamento de Salas lançada a partir do cliente Skype for Business ou usando um cmdlet Windows PowerShell, **set-csPersistentChatRoom**.
   
-Os dados de exemplo na tabela a seguir pressuem que, na página Configurações da sala de **Chat** para 50% de todas as salas de chat, a opção **Convites** é definida como **Sim**.
+Os dados de exemplo na tabela a seguir pressuem que, na página Configurações da sala de **chat** para 50% de todas as salas de chat, a opção **Convites** é definida como **Sim**.
   
 > [!IMPORTANT]
 > Se o valor calculado para o número de convites gerados pelo servidor exceder 1 milhão, o desempenho do servidor poderá degradar significativamente. Para evitar esse problema, minimize o número de salas de chat configuradas para enviar convites ou restringir o número de usuários que podem ingressar em salas de chat que foram configuradas para enviar convites. 
@@ -134,7 +134,7 @@ Os dados de exemplo na tabela a seguir pressuem que, na página Configurações 
 |Taxa de chat por sala (por dia)   |50   |500   |100   |650   |
 |Taxa de chat (por segundo) em todas as salas   |55.56   |18.52   |0.03   |74   |
 |Modelo 2 - Iniciar com o número de mensagens postadas por usuário por dia   |||||
-|Taxa de chat por usuário por dia   |15    |5   |0.1   |20   |
+|Taxa de chat por usuário por dia   |15    |5   |0,1   |20   |
 |Taxa de chat por sala (por dia)   |38   |375   |800   |1,213   |
 |Taxa de chat (por segundo) em todas as salas   |41.67   |13.89   |0.28   |56   |
    

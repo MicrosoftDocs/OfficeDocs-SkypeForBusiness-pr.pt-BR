@@ -1,8 +1,8 @@
 ---
 title: Gerenciando perfis de política de largura de banda de rede
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Use os procedimentos deste artigo para exibir, criar, modificar ou excluir perfis de política de largura de banda de rede.
-ms.openlocfilehash: fee0d4f57847747b0e25c98bc99183daa22a9996
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a360bd05ac3ee9cbd4d5a8d8d6578389dfc3068c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850994"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388119"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gerenciando perfis de política de largura de banda no Skype for Business Server
 
@@ -60,7 +60,7 @@ Os perfis de largura de banda de rede podem ser exibidos usando Windows PowerShe
     BWPolicyProfileID : RedmondBandwidthPolicy<br/>
     Descrição :
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkBandwidthPolicyProfile.](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) .
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>Criar ou modificar perfis de política de largura de banda
@@ -73,7 +73,7 @@ Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largur
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Largura de Banda.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em Política **de Largura de Banda**.
 
 4.  Na página **Política de largura de banda**, clique em **Novo**.
 
@@ -101,13 +101,13 @@ Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largur
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Largura de Banda.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em Política **de Largura de Banda**.
 
 4.  Na página **Política de largura de banda**, clique no perfil da política de largura de banda que você quer modificar.
 
 5.  No menu **Editar**, clique em **Mostrar detalhes**.
 
-6.  Na página **Editar Perfil da Política de Largura** de Banda, modifique os campos conforme necessário (para obter detalhes, consulte Para criar um novo perfil de política de largura de [banda).](#to-create-a-new-bandwidth-policy-profile)
+6.  Na página **Editar Perfil da Política de Largura** de Banda, modifique os campos conforme necessário (para obter detalhes, consulte [Para criar um novo perfil de política de largura de banda](#to-create-a-new-bandwidth-policy-profile)).
 
 7.  Clique em **Confirmar**.
 
@@ -125,7 +125,7 @@ Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largur
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Largura de Banda.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em Política **de Largura de Banda**.
 
 4.  Na página **Política de largura de banda**, clique no perfil de política de largura de banda que você deseja excluir.
 
@@ -139,7 +139,7 @@ Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largur
     > Você não pode excluir um perfil de política de largura de banda que esteja associado a um site da rede. É preciso primeiro remover a associação com o site antes de poder excluir o perfil. 
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Gerenciando o controle de admissão de chamada para sites](managing-call-admission-control-for-sites.md)
  

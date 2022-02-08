@@ -1,8 +1,8 @@
 ---
 title: Planejar o aplicativo De comunicado no Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planejando o aplicativo de anúncio no Skype for Business Server Enterprise Voice, que configura o que fazer com chamadas telefônicas para números de telefone não atribuídos em suas organizações. Inclui requisitos de arquivo de áudio.
-ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c895575a88d49bc29a74e53fac1618991b042745
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838493"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387869"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planejar o aplicativo De comunicado no Skype for Business
 
@@ -39,7 +39,7 @@ O aplicativo De comunicado é instalado automaticamente com o aplicativo Grupo d
 
 ### <a name="software-requirements"></a>Requisitos de software
 
-Todos os Servidores front-end ou servidores Edição Standard que executam o aplicativo Comunicado devem ter o tempo de execução do formato de mídia do Windows instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para Windows Server 2008 R2, o tempo de execução Windows Formato de Mídia é instalado como parte do Windows Desktop Experience. Windows O Tempo de Execução de Formato de Mídia ou o Microsoft Media Windows Foundation é necessário para arquivos de áudio de mídia (.wma) que o aplicativo de anúncio reproduz para comunicados e música.
+Todos os Servidores front-end ou servidores Edição Standard que executam o aplicativo De comunicado devem ter o tempo de execução do formato de mídia do Windows instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para Windows Server 2008 R2, o tempo de execução Windows Formato de Mídia é instalado como parte do Windows Desktop Experience. Windows Tempo de Execução de Formato de Mídia ou Microsoft Media Windows Foundation é necessário para arquivos de áudio de mídia (.wma) que o aplicativo de comunicado reproduz para comunicados e música.
 
 ### <a name="port-requirements"></a>Requisitos de porta
 

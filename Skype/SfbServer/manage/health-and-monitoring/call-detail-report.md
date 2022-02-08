@@ -1,8 +1,8 @@
 ---
 title: Relatório de Detalhes de Chamada no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Resumo: saiba mais sobre o Relatório de Detalhes de Chamada usado Skype for Business Server.'
-ms.openlocfilehash: 8f5d9e99a9141e1954aef2636ed5d671003e6ad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6d8a79506e215bd46a54c89969fc5991f9962d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834209"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385613"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Relatório de Detalhes de Chamada no Skype for Business Server
  
@@ -55,11 +55,11 @@ O Relatório Detalhado de Chamadas pode ser acessado a partir de qualquer um dos
     
 - O [Relatório de Resumo de Qualidade de Mídia no Skype for Business Server (summary.md) (clicando na métrica volume de chamada ou em Porcentagem de Chamada Ruim)
     
-- O [Relatório de Comparação de](comparison.md) Qualidade de Mídia [](call-list-report-0.md) Skype for Business Server (clicando no Relatório de Lista de Chamada no Skype for Business Server e clicando na métrica Detalhes).
+- O [Relatório de Comparação de](comparison.md) Qualidade de Mídia Skype for Business Server (clicando no Relatório de [](call-list-report-0.md) Lista de Chamada no Skype for Business Server e clicando na métrica Detalhes).
     
 - O [Relatório de Desempenho do Servidor Skype for Business Server](server-performance.md) (clicando na métrica volume de chamada ou porcentagem de chamada ruim)
     
-- O [Relatório de Lista](call-list-report-0.md) de Skype for Business Server (clicando na métrica Detalhes)
+- O [Relatório de Lista de Chamada no Skype for Business Server](call-list-report-0.md) (clicando na métrica Detalhes)
     
 No Relatório de Detalhes de Chamada, você pode acessar o [Relatório](device-report.md) de Dispositivos em Skype for Business Server clicando em uma das seguintes métricas:
   
@@ -73,7 +73,7 @@ Também é possível acessar o Relatório de Tendências de Qualidade de Mídia 
 
 O Relatório Detalhado de Chamadas normalmente contém 250 medidas diferentes, inclusive itens como Descompasso do carimbo de data/hora do microfone, Tempo de SNR baixo e Extremidade próxima ao tempo de eco. Se não conseguir se lembrar o que exatamente todas essas medidas avaliam, tente pousar o mouse sobre o nome da medida; na maioria das vezes, uma dica de ferramenta será exibida descrevendo a medida.
   
-Se você tiver problemas para localizar uma métrica, digite parte do rótulo métrico na caixa de pesquisa e clique em **Localizar**. Por exemplo, se você não conseguir encontrar a métrica de hora SNR baixa, digite SNR na caixa de pesquisa e clique em **Encontrar**.
+Se você tiver problemas para localizar uma métrica, digite parte do rótulo métrico na caixa de pesquisa e clique em **Localizar**. Por exemplo, se você não conseguir encontrar a métrica de hora SNR Baixa, digite SNR na caixa de pesquisa e clique em **Encontrar**.
   
 Observe que o relatório apenas rastreia informações sobre uma chamada. A chamada em si não é gravada.
   
@@ -87,7 +87,7 @@ A tabela a seguir lista as informações fornecidas no Relatório Detalhado de C
   
 **Métricas do Relatório Detalhado de Chamadas**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**PAI do chamador** <br/> |Não  <br/> |O P-Asserted-Identity do usuário que iniciou a chamada. Essa identidade é usada para transportar a identidade comprovada de um usuário dentro de uma rede confiável.  <br/> |
 |**URI do chamador** <br/> |Não  <br/> |Endereço SIP do usuário que iniciou a chamada.  <br/> |

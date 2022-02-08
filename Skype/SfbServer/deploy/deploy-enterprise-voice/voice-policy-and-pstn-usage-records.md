@@ -1,8 +1,8 @@
 ---
 title: Criar ou modificar uma política de voz e configurar registros de uso PSTN em Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumo: crie ou modifique políticas de voz e configure registros de uso PSTN usando o painel de Skype for Business Server Controle.'
-ms.openlocfilehash: 5dedb504a6d2d3e75b168bf32ff1f0ccb7ed94f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 988ce046e3ef5dbbf9020deeb79665b7fda3f9b2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828374"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386279"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Criar ou modificar uma política de voz e configurar registros de uso PSTN em Skype for Business
 
@@ -77,7 +77,7 @@ ms.locfileid: "60828374"
 
    - **O rastreamento de chamadas** mal-intencionadas permite que os usuários reportem chamadas mal-intencionadas (como ameaças) usando a interface do usuário do cliente, que, por sua vez, sinaliza as chamadas nos Registros de Detalhes de Chamadas (CDRs). Desabilitado por padrão.
 
-   - **As opções de** ocupado habilitam ou desabilitam opções de ocupado para a política de voz especificada. Opções de ocupado permite que as chamadas de entrada sejam roteados para a caixa postal ou rejeitadas com um sinal de ocupado quando o usuário de destino da chamada estiver no telefone. Opções de Ocupado é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016. A verificação desse parâmetro habilita Opções de Ocupado e desmarcar desabilita As Opções de Ocupado. Para obter mais informações, consulte [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and Install and configure Busy Options for [Skype for Business Server](install-and-configure-busy-options.md).
+   - **As opções de** ocupado habilitam ou desabilitam opções de ocupado para a política de voz especificada. Opções de ocupado permite que as chamadas de entrada sejam roteados para a caixa postal ou rejeitadas com um sinal de ocupado quando o usuário de destino da chamada estiver no telefone. Opções de Ocupado é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016. A verificação desse parâmetro habilita Opções de Ocupado e desmarcar desabilita As Opções de Ocupado. Para obter mais informações, consulte [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) [and Install and configure Busy Options for Skype for Business Server](install-and-configure-busy-options.md).
 
 7. Para associar e configurar os registros de uso PSTN para esta política de voz, faça um dos seguintes:
 
@@ -226,7 +226,7 @@ ms.locfileid: "60828374"
      > [!NOTE]
      > A política será substituída apenas para chamadas em entrada do usuário e não para chamadas em saída realizadas pelo usuário. Após a sessão ser estabelecida, o consumo de largura de banda será precisamente registrado. Esta configuração deve ser usada com moderação.
 
-   - **O rastreamento de chamadas** mal-intencionadas permite que os usuários reportem chamadas mal-intencionadas (como ameaças) usando a interface do usuário do cliente, que, por sua vez, sinaliza as chamadas nas CDRs. Desabilitado por padrão.
+   - **O rastreamento de chamadas mal-intencionadas** permite que os usuários reportem chamadas mal-intencionadas (como ameaças) usando a interface do usuário do cliente, que, por sua vez, sinaliza as chamadas nas CDRs. Desabilitado por padrão.
 
 6. Para associar e configurar os registros de uso PSTN para esta política de voz, faça um dos seguintes:
 
@@ -280,7 +280,7 @@ ms.locfileid: "60828374"
 
    - Para usar os mesmos registros de uso do PSTN para encaminhamento de chamadas e toque simultâneo como esta política de voz, selecione a opção **Rotear com usos de PSTN de chamada** no menu suspenso.
 
-   - Para permitir o encaminhamento de chamada e toque simultâneo  para usuários internos Skype for Business, selecione Rotear para usuários internos Skype for Business somente no menu suspenso. As chamadas não serão encaminhadas para números PSTN externos.
+   - Para permitir o encaminhamento de chamada e toque simultâneo para usuários internos Skype for Business, selecione Rotear  para usuários internos Skype for Business somente no menu suspenso. As chamadas não serão encaminhadas para números PSTN externos.
 
    - Para usar registros de uso do PSTN diferentes dos usados nesta política de voz para encaminhamento de chamadas e toque simultâneo, selecione a opção **Rotear com usos de PSTN personalizados** no menu suspenso. Esta opção exibe um controle para selecionar registros de uso do PSTN existentes ou criar novos registros de uso do PSTN, especificamente para encaminhamento de chamadas e toques simultâneos.
 

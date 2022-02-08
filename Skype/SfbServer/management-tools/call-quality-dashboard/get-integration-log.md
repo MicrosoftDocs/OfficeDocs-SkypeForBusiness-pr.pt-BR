@@ -1,8 +1,8 @@
 ---
 title: Obter o Log de integração
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 'Resumo: saiba mais sobre a operação Obter Log de Integração, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: cb995e4b7d955514c64cfab772b19e100669d078
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b82ecffd5b39df6e149787ec7b3265f3e8176376
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834159"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388069"
 ---
 # <a name="get-integration-log"></a>Obter o Log de integração
  
@@ -33,9 +33,9 @@ Get Integration Log operation returns a list of log entries describing the activ
 Essa operação está desabilitada por padrão por motivos de segurança. Quando desabilitado, ele retorna uma cadeia de caracteres vazia. Para habilitar essa operação, os administradores precisam configurar o web.config para o aplicativo Web host da API de Dados.
   
 
-|Method|**Solicitar URI**|**Versão HTTP**|
+|Método|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|OBTER  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |\<portal\>https:///QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    
  **Parâmetros URI** - Nenhum.
   

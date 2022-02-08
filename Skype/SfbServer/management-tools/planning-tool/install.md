@@ -1,8 +1,8 @@
 ---
 title: Instalar a Ferramenta de Planejamento no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Antes de começar a projetar e planejar sua infraestrutura Skype for Business Server 2015 usando a Ferramenta de Planejamento Skype for Business Server 2015, você deve primeiro instalar a Ferramenta de Planejamento. A Ferramenta de Planejamento não precisa ser implantada em uma estação de trabalho ou servidor que faça parte do domínio ou da infraestrutura em que você planeja instalar o Skype for Business Server 2015. O arquivo Readme que acompanha a Ferramenta de Planejamento detalha informações importantes sobre como instalar e usar a ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
-ms.openlocfilehash: 5d9dc6204647daf03adfab6fcf3cf091d7ba5415
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c635672ff89bae4da3c76fb973246d8cb332c403
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850884"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388059"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar a Ferramenta de Planejamento no Skype for Business Server 2015
 
@@ -60,7 +60,7 @@ Depois que os requisitos de pré-instalação são atendidos, você pode instala
 
 3. Localize o SkypeForBusinessPlanningTool.msi. No Windows Explorer, clique duas vezes no arquivo. Na janela de comando, digite o nome do arquivo e pressione **Enter** para executar o arquivo.
 
-4. Na página Bem-vindo do **Skype for Business Server 2015, Assistente** de Instalação da Ferramenta de Planejamento, clique em **Próximo**.
+4. Na página Bem-vindo do **Skype for Business Server 2015, Assistente** de Configuração da Ferramenta de Planejamento, clique em **Próximo**.
 
 5. Revise o **Contrato de Licença de Usuário Final**, selecione **Aceito os termos do Contrato de Licença** se você escolher aceitar os termos de uso do contrato de licença e clique em **Avançar**.
 

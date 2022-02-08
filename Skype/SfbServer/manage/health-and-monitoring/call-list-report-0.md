@@ -1,8 +1,8 @@
 ---
 title: Relatório de Lista de Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Resumo: saiba mais sobre o Relatório de Lista de Chamada usado Skype for Business Server.'
-ms.openlocfilehash: d56374fa317f6c7b132a9d33dcf9fef966c55625
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 986e107c88210b8abedc44641ce2f13a1db315d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864838"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388159"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Relatório de Lista de Skype for Business Server
  
 **Resumo:** Saiba mais sobre o Relatório de Lista de Chamada usado Skype for Business Server.
   
-O Relatório de Lista de Chamadas fornece métricas de Qualidade de Experiência (QoE) para chamadas individuais feitas e recebidas em sua organização. Observe que as métricas reais relatadas dependerão de como você acessar o relatório de Lista de Chamada. Por exemplo, se você abrir o relatório do Relatório de Dispositivos no [Skype for Business Server](device-report.md), você verá métricas como as seguintes, métricas que também são relatadas no Relatório de Dispositivos:
+O Relatório de Lista de Chamadas fornece métricas de Qualidade de Experiência (QoE) para chamadas individuais feitas e recebidas em sua organização. Observe que as métricas reais relatadas dependerão de como você acessar o relatório de Lista de Chamada. Por exemplo, se você abrir o relatório do Relatório de Dispositivos no [Skype for Business Server](device-report.md), verá métricas como as seguintes métricas que também são relatadas no Relatório de Dispositivos:
   
 - Microfone do chamador
     
@@ -35,7 +35,7 @@ O Relatório de Lista de Chamadas fornece métricas de Qualidade de Experiência
     
 - Tempo de troca da taxa de voz 
     
-No entanto, se você abrir o Relatório de Lista de Chamada do Relatório de Localização [no](location-report.md)Skype for Business Server , não verá nenhuma dessas métricas; em vez disso, você verá métricas como estas:
+No entanto, se você abrir o Relatório de Lista de Chamada do Relatório de Localização no [Skype for Business Server, não](location-report.md) verá nenhuma dessas métricas; em vez disso, você verá métricas como estas:
   
 - Viagem de ida e volta (ms)
     
@@ -55,11 +55,11 @@ O Relatório de Lista de Chamada pode ser acessado de qualquer um dos seguintes 
     
 - O [Relatório de Dispositivos Skype for Business Server](device-report.md) (clicando na métrica volume de chamada ou porcentagem de chamada ruim)
     
-- O [Relatório de Resumo de](summary.md) Qualidade de Mídia Skype for Business Server (clicando na métrica volume de chamada ou porcentagem de chamada ruim)
+- O [Relatório de Resumo de](summary.md) Qualidade de Mídia no Skype for Business Server (clicando na métrica volume de chamada ou porcentagem de chamada ruim)
     
 - O [Relatório de Desempenho do Servidor Skype for Business Server](server-performance.md) (clicando na métrica volume de chamada ou porcentagem de chamada ruim)
     
-No Relatório de Lista de Chamada, você pode acessar o Relatório de Detalhes de Chamada [em](call-detail-report.md) Skype for Business Server clicando na métrica Detalhes.
+No Relatório de Lista de Chamada, você pode acessar o Relatório de Detalhes de Chamada [Skype for Business Server](call-detail-report.md) clicando na métrica Detalhes.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Fazendo o melhor uso do Relatório de Lista de Chamada
 
@@ -75,7 +75,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Lista de Ch
   
 **Métricas do Relatório de Lista de Chamada**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra informações adicionais sobre a chamada.  <br/> |
 |**Caller** <br/> |Sim  <br/> |Endereço SIP da pessoa que iniciou a chamada.  <br/> |

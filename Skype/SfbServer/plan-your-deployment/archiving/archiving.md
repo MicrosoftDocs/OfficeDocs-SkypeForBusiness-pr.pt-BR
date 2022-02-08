@@ -1,8 +1,8 @@
 ---
 title: Planejar o arquivamento em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumo: leia este tópico para saber como planejar o arquivamento no Skype for Business Server.'
-ms.openlocfilehash: 6d67caa4b196c65282ecb404af747e0a60f435a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b763d2e771d054a1b7522e9af0eace4663f3ce0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843694"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386429"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planejar o arquivamento em Skype for Business Server
  
@@ -60,7 +60,7 @@ Para implementar o arquivamento, você precisa decidir como atender aos requisit
     
   - Os quadros de comunicações e votações compartilhados durante uma conferência
     
-- **Qual conteúdo não pode ser arquivado.** Os seguintes tipos de conteúdo não podem ser arquivados: 
+- **Qual conteúdo não pode ser arquivado**. Os seguintes tipos de conteúdo não podem ser arquivados: 
     
   - Transferências de arquivo ponto a ponto
     
@@ -73,9 +73,9 @@ Para implementar o arquivamento, você precisa decidir como atender aos requisit
     > [!NOTE] 
     > O chat persistente está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para obter mais informações, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Se você precisar usar o chat persistente, suas opções são migrar usuários que exigem essa funcionalidade para Teams ou continuar usando o Skype for Business Server 2015. 
     
-- **Por quanto tempo os materiais arquivados devem ser mantidos.** O banco de dados de arquivamento não se destina à retenção a longo prazo, e o Skype for Business Server não fornece uma solução de descoberta por e-discovery (pesquisa) para dados arquivados, portanto, os dados precisam ser movidos para outro armazenamento. Skype for Business Server fornece uma ferramenta de exportação de sessão que você pode usar para exportar dados arquivados e que cria transcrições pesquisáveis dos dados arquivados. 
+- **Por quanto tempo os materiais arquivados devem ser mantidos**. O banco de dados de arquivamento não se destina à retenção a longo prazo, e o Skype for Business Server não fornece uma solução de descoberta por e-discovery (pesquisa) para dados arquivados, portanto, os dados precisam ser movidos para outro armazenamento. Skype for Business Server fornece uma ferramenta de exportação de sessão que você pode usar para exportar dados arquivados e que cria transcrições pesquisáveis dos dados arquivados. 
     
-     Para a política global e para cada site e política de usuário que você criar, você pode especificar quando limpar dados arquivados e exportados. Para obter mais informações sobre como excluir dados, consulte [Manage purging of archived data in Skype for Business Server](../../manage/archiving/purging-of-archived-data.md). Para obter mais informações sobre como usar a ferramenta de exportação de sessão, consulte Exportar dados [arquivados em Skype for Business Server](../../manage/archiving/export-archived-data.md).
+     Para a política global e para cada site e política de usuário que você criar, você pode especificar quando limpar dados arquivados e exportados. Para obter mais informações sobre como excluir dados, consulte [Manage purging of archived data in Skype for Business Server](../../manage/archiving/purging-of-archived-data.md). Para obter mais informações sobre como usar a ferramenta de exportação de sessão, consulte [Exportar dados arquivados em Skype for Business Server](../../manage/archiving/export-archived-data.md).
     
 - **Arquivar comunicações internas ou externas ou não**. É possível habilitar o arquivamento para comunicações internas (comunicações entre usuários internos), comunicações externas (comunicações que incluem pelo menos um usuário fora da sua rede interna) ou ambos. É possível especificar estas opções para toda sua organização ou é possível especificá-lo para locais ou pools específicos. Por padrão, nenhuma opção é habilitada.
     
@@ -99,12 +99,12 @@ O arquivamento é instalado automaticamente em cada Servidor Front-End quando vo
 - Usar Skype for Business Server armazenamento
     
 > [!NOTE]
-> Se você implementar os dois bancos de dados de arquivamento do Skype for Business Server e habilitar Exchange integração do Microsoft Exchange, as políticas do Exchange substituem as políticas de arquivamento Skype for Business Server, mas somente para usuários que estão no Exchange e tiveram suas caixas de correio colocadas In-Place Hold. Skype for Business arquivamento depende da política de Exchange In-Place de espera da Microsoft. 
+> Se você implementar os dois bancos de dados de arquivamento Skype for Business Server e habilitar Exchange integração do Microsoft Exchange, as políticas de Exchange substituem as políticas de arquivamento Skype for Business Server, mas somente para usuários que estão no Exchange  e tiveram suas caixas de correio colocadas em In-Place Hold. Skype for Business arquivamento depende da política de Exchange In-Place de espera da Microsoft. 
   
 Se você implantar o arquivamento para um pool de Front-End ou Edição Standard Server, deverá habilita-lo para todos os outros pools de Front-End e servidores Edição Standard em sua implantação. Se o arquivamento não estiver habilitado no pool onde uma conversa ou reunião está hospedada, todos os dados de conferência podem não ser arquivados. O arquivamento ainda funcionará para mensagens de mensagens de mensagens IM, mas o conteúdo e os eventos de conferência podem não ser arquivados.
   
 > [!NOTE]
-> Para habilitar a delegação de tarefas administrativas enquanto mantém os padrões de segurança da sua organização, Skype for Business Server usa o controle de acesso baseado em função (RBAC). Com RBAC, o privilégio administrativo é concedido atribuindo usuários às funções administravas predefinidas. Para configurar Skype for Business configurações e políticas de arquivamento, o usuário deve ser atribuído à função CsArchivingAdministrator (a menos que a configuração seja feita diretamente no servidor onde o arquivamento é implantado, em vez de remotamente de outro computador). Para uma lista dos direitos do usuário, permissões e funções necessárias para a implantação de arquivamento, consulte [Deploy archiving for Skype for Business Server](../../deploy/deploy-archiving/deploy-archiving.md). 
+> Para habilitar a delegação de tarefas administrativas enquanto mantém os padrões de segurança da sua organização, Skype for Business Server usa o controle de acesso baseado em função (RBAC). Com RBAC, o privilégio administrativo é concedido atribuindo usuários às funções administravas predefinidas. Para configurar Skype for Business configurações e políticas de arquivamento, o usuário deve ser atribuído à função CsArchivingAdministrator (a menos que a configuração seja feita diretamente no servidor onde o arquivamento é implantado, em vez de remotamente de outro computador). Para uma lista dos direitos, permissões e funções do usuário necessários para a implantação de arquivamento, consulte [Deploy archiving for Skype for Business Server](../../deploy/deploy-archiving/deploy-archiving.md). 
   
 > [!NOTE]
 > Se você usar a integração do Microsoft Exchange, a configuração de políticas Exchange requer direitos e permissões de administrador apropriados. Para obter detalhes, consulte a documentação Exchange. 
@@ -136,7 +136,7 @@ Ao adicionar SQL Server de armazenamento à sua topologia, você pode optar por 
 > [!NOTE]
 > O servidor que estiver hospedando o banco de dados de arquivamento pode hospedar outros bancos de dados. No entanto, ao considerar colocar o banco de dados de arquivamento com outros bancos de dados, saiba que se você estiver arquivando as mensagens de muitos usuários, o espaço em disco necessário para o banco de dados de arquivamento poderá aumentar bastante. Por essa razão, não recomendamos a colocação do banco de dados de arquivamento no banco de dados back-end. 
   
-Se você contiver o banco de dados de Arquivamento com o banco de dados de Monitoramento, o banco de dados back-end ou ambos esses bancos de dados, poderá usar uma única instância do SQL para qualquer ou todos os bancos de dados ou pode usar uma instância de SQL separada para cada banco de dados, com a seguinte limitação: Cada instância do SQL pode conter apenas um único banco de dados back-end,  banco de dados de monitoramento único e banco de dados de arquivamento único.
+Se você contiver o banco de dados de Arquivamento com o banco de dados de Monitoramento, o banco de dados back-end ou ambos esses bancos de dados, poderá usar uma única instância de SQL para qualquer ou todos os bancos de dados ou pode usar uma instância de SQL separada para cada banco de dados, com a seguinte limitação: Cada instância do SQL pode conter apenas um único banco de dados back-end, um único banco de dados de Monitoramento,  e banco de dados de arquivamento único.
   
 Para obter detalhes sobre a localização de todas as funções de servidor e bancos de dados, consulte [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md). Para obter detalhes sobre como atualizar sua topologia para incluir bancos de dados de armazenamento, consulte [Create and publish new topology in Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md).
   
@@ -152,7 +152,7 @@ Você precisará determinar:
     
 - Se é possível habilitar políticas para usuários e grupos específicos
     
-Skype for Business Server As opções de arquivamento podem ser especificadas nos níveis a seguir. 
+Skype for Business Server opções de Arquivamento podem ser especificadas nos níveis a seguir. 
   
 - **Opção de nível global**. Essa é a configuração padrão de arquivamento e se aplica a toda a implantação. Ele é criado quando você implanta Skype for Business Server e, por padrão, desabilita o arquivamento para comunicações internas e externas. Não é possível excluir essa opção. Se você escolher a opção excluir, a opção global será redefinida para as configurações padrão.
     
@@ -178,11 +178,11 @@ Para obter detalhes sobre como configurar as configurações iniciais de arquiva
 
 O acesso aos dados arquivados depende de onde os dados estão armazenados: 
   
-- **Microsoft Exchange armazenamento**. Se você escolher Exchange opção de integração do Skype for Business Server, o Skype for Business Server deposita o conteúdo de arquivamento no armazenamento do Exchange para todos os usuários que estão no Exchange e que tiveram suas caixas de correio colocadas em In-Place Hold. Os dados arquivados são armazenados na pasta itens recuperáveis de caixas de correio do usuário, que geralmente são invisíveis para os usuários e só podem ser pesquisados por usuários com uma função Exchange Gerenciamento de **Descoberta.** Exchange habilita a pesquisa e a descoberta federadas, juntamente com SharePoint, se ela for implantada. Para obter mais detalhes sobre armazenamento, retenção e descoberta de dados armazenados no Exchange, consulte a documentação Exchange e SharePoint.
+- **Armazenamento Exchange Microsoft**. Se você escolher Exchange opção de integração do Skype for Business Server, o Skype for Business Server deposita o conteúdo de arquivamento no armazenamento do Exchange para todos os usuários que estão no Exchange e que tiveram suas caixas de correio colocadas em In-Place Hold. Os dados arquivados são armazenados na pasta itens recuperáveis de caixas de correio do usuário, que geralmente são invisíveis para os usuários e só podem ser pesquisados por usuários com uma função de Gerenciamento de Descoberta **Exchange.** Exchange habilita a pesquisa e a descoberta federadas, juntamente com SharePoint, se ela for implantada. Para obter mais detalhes sobre armazenamento, retenção e descoberta de dados armazenados no Exchange, consulte a documentação Exchange e SharePoint.
     
-- **Skype for Business Server armazenamento de arquivamento**. Se você configurar um banco de dados de Arquivamento Skype for Business Server, o Skype for Business Server deposita conteúdo de arquivamento nos bancos de dados de Arquivamento do Skype for Business Server para todos os usuários que não estão no Exchange e que não tiveram suas caixas de correio colocadas em In-Place Hold. Esses dados não podem ser pesquisados, mas eles podem ser exportados para formatos que podem ser pesquisados utilizando outras ferramentas. Para obter detalhes sobre como exportar dados armazenados em bancos de dados de arquivamento, consulte Exportar dados arquivados [em Skype for Business Server](../../manage/archiving/export-archived-data.md).
+- **Skype for Business Server de arquivamento**. Se você configurar Skype for Business Server bancos de dados de Arquivamento, o Skype for Business Server deposita conteúdo de arquivamento nos bancos de dados de arquivamento do Skype for Business Server para quaisquer usuários que não tenham sido Exchange e que não tenham suas caixas de correio colocadas In-Place Espera. Esses dados não podem ser pesquisados, mas eles podem ser exportados para formatos que podem ser pesquisados utilizando outras ferramentas. Para obter detalhes sobre como exportar dados armazenados em bancos de dados de arquivamento, consulte [Exportar dados arquivados em Skype for Business Server](../../manage/archiving/export-archived-data.md).
     
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 Para obter mais informações sobre arquivamento, consulte os seguintes tópicos:
   

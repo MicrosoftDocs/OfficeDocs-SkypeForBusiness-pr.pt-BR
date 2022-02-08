@@ -1,8 +1,8 @@
 ---
 title: Solicitação de Certificado (Nomes de Entidade Alternativos)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 description: A página Nome da Entidade / Nomes de Entidade Alternativos apresenta um resumo do nome de entidade e todos os nomes de entidade alternativos que preencherão o certificado. Os nomes apresentados para nomes de assunto e nomes alternativos de assunto são coletados no documento de definição, pois ele foi criado quando você definiu a implantação no Construtor de Topologias.
-ms.openlocfilehash: b879d64349ffdec3504d764d6c989fb7e36de13e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 79b1a5844e35e233332f8e684f7cc79f7d953efa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862958"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389373"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Solicitação de Certificado (Nomes de Entidade Alternativos)
  

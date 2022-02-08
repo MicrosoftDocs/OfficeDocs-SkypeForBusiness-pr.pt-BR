@@ -1,8 +1,8 @@
 ---
 title: Definir o escopo da implantação do E9-1-1 no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Decisões necessárias para o planejamento de uma implantação do E9-1-1 no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: a1757477d9d4de2a0e26c3490bb6214e6c14e1e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ad07897732251dbc38f0e69c7def54d62396e80
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836243"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389083"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Definir o escopo da implantação do E9-1-1 no Skype for Business Server
 

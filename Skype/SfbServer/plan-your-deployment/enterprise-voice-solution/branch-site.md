@@ -1,8 +1,8 @@
 ---
 title: Tronco SIP de site de filial no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Saiba mais sobre tronco SIP em sites de filiais Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: b8c1c930bb2500ca9330b14cce7fd5b341db60a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 24c9dd53e8c8ce7a00b38ee50b617e9394b7e88c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829895"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387839"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Tronco SIP de site de filial no Skype for Business Server
  
 Saiba mais sobre tronco SIP em sites de filiais Skype for Business Server Enterprise Voice.
   
-Em alguns casos, talvez seja necessário implementar troncos SIP distribuídos em sites de filial selecionados. Para determinar se um tronco SIP é necessário para um site de filial e para obter detalhes sobre as opções de topologia suportadas para implantar troncos SIP em sites de filial, consulte [Tronco SIP](sip-trunking.md)em Skype for Business Server .
+Em alguns casos, talvez seja necessário implementar troncos SIP distribuídos em sites de filial selecionados. Para determinar se um tronco SIP é necessário para um site de filial e para obter detalhes sobre as opções de topologia suportadas para implantar troncos SIP em sites de filial, consulte [Tronco SIP em Skype for Business Server](sip-trunking.md).
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Análise de requisitos do tronco SIP do exemplo de site de filial
 

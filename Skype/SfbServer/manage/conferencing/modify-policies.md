@@ -1,8 +1,8 @@
 ---
 title: Modificar políticas de conferência em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: 'Resumo: saiba como modificar políticas de conferência em Skype for Business Server.'
-ms.openlocfilehash: 0c9b2f24fac8303a28f4e7408d23e950f5586785
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f7f32d227ca33a62ed389a2638f3d784839be8d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852075"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385699"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modificar políticas de conferência em Skype for Business Server
  
@@ -31,9 +31,9 @@ Você pode modificar políticas de conferência usando Skype for Business Server
     
 2.  Abra Skype for Business Server Painel de Controle.
     
-3. Na barra de navegação esquerda, clique **em Conferência** e em Política **de Conferência.**
+3. Na barra de navegação esquerda, clique **em Conferência e** em **Política de Conferência**.
     
-4. Na lista de políticas de conferência, clique na política que você deseja alterar, clique em **Editar** e em **Mostrar detalhes.**
+4. Na lista de políticas de conferência, clique na política que você deseja alterar, clique em **Editar** e em **Mostrar detalhes**.
     
 5. Em **Editar Política de Conferências**, modifique qualquer uma das configurações de política, exceto seu nome, que não pode ser modificado.
     
@@ -41,7 +41,7 @@ Você pode modificar políticas de conferência usando Skype for Business Server
     
 ## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Modificar políticas de conferência usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 
-Para modificar políticas de conferência, use o cmdlet **Set-CsConferencingPolicy.**
+Para modificar políticas de conferência, use o cmdlet **Set-CsConferencingPolicy** .
   
 O exemplo a seguir modifica um valor de propriedade da política de conferência SalesConferencingPolicy. O comando define o valor da propriedade AllowConferenceRecording como False:
   

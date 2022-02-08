@@ -1,8 +1,8 @@
 ---
 title: Associar um armazenamento de monitoramento a um pool de Front-End no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Resumo: saiba como associar pools de Front-End a um armazenamento de monitoramento usado por Skype for Business Server.'
-ms.openlocfilehash: 4a9ae0a9b0c749d832c152d789c97085f814bdd9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0092b75d35f97a7224e8946e24257c5f8ee6ea0d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843484"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385229"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Associar um armazenamento de monitoramento a um pool de Front-End no Skype for Business Server 
 **Resumo:** Saiba como associar pools de Front-End a um armazenamento de monitoramento usado por Skype for Business Server.
@@ -26,23 +26,23 @@ No Skype for Business Server, os dados de monitoramento só podem ser coletados 
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>Associar um armazenamento de monitoramento a um pool de Front-End
 
- Para associar um armazenamento de monitoramento a um novo pool de Front-End, selecione a opção Monitoramento (registro  de detalhes de chamada e registro em log de métricas de qualidade da **experiência)** na página Selecionar Recursos do assistente Definir Novo Pool de Front-End. Observe que, se você selecionar essa opção, também deverá especificar um SQL para concluir o assistente; no entanto, esse armazenamento não precisa existir no momento em que você executar o assistente. Isso significa que você pode primeiro associar um pool a um armazenamento de monitoramento, depois configurar e configurar esse armazenamento posteriormente.
+ Para associar um armazenamento de monitoramento a um novo pool de Front-End, selecione a opção Monitoramento (registro de detalhes de chamada e registro em log de **métricas** de qualidade da experiência)  na página Selecionar Recursos do assistente Definir Novo Pool de Front-End. Observe que, se você selecionar essa opção, também deverá especificar um SQL para concluir o assistente; no entanto, esse armazenamento não precisa existir no momento em que você executar o assistente. Isso significa que você pode primeiro associar um pool a um armazenamento de monitoramento, depois configurar e configurar esse armazenamento posteriormente.
   
 Em alternativa, é possível associar um pool de front-end existente com um repositório de monitoramento novo ou diferente ao concluir o seguinte procedimento:
   
-1. Clique **em Iniciar,** em **Todos os Programas,** Skype for Business Server **2015** e clique Skype for Business Server **Construtor de Topologias.**
+1. Clique **em Iniciar**, **em Todos os Programas**, **Skype for Business Server 2015** e clique **Skype for Business Server Construtor de Topologias**.
     
 2. Na caixa de diálogo **Construtor de Topologias**, selecione **Baixar topologia da implantação existente** e clique em **OK**.
     
 3. Na caixa de diálogo **Salvar como**, insira um nome de arquivo da sua topologia atual e clique em **Salvar**. A topologia salva pode ser recuperada posteriormente e republicada em caso que hajam problemas com a nova topologia.
     
-4. No Construtor de Topologias, expanda **Skype for Business Server,** expanda o nome do site que contém o pool de Front-End e clique em expandir Edição Enterprise **pools de Front-End.**
+4. No Construtor de Topologias, **expanda Skype for Business Server**, expanda o nome do site que contém o pool de Front-End e clique em expandir Edição Enterprise **pools de Front-End**.
     
 5. Clique com o botão direito no nome do pool a ser associado com o repositório de monitoramento e clique em **Editar Propriedades**.
     
 6. Na caixa de diálogo **Editar propriedades**, na guia **Geral**, selecione a opção **Monitoramento (CDR e métricas QoE)** e selecione um banco de dados existente do SQL Server da lista suspensa **Monitoramento do repositório do SQL Server**. (Em alternativa, clique em **Novo** para associar o pool com um novo repositório do banco de dados.) Se você escolher usar um novo repositório do banco de dados, na caixa de diálogo **Definir novo repositório SQL**, insira o FQDN do computador do SQL Server na caixa **FQDN do Sql Server**. Se você deseja usar a instância padrão do SQL Server para este repositório, selecione **Instância padrão**; caso contrário, selecione **Instância nomeada** e insira o nome da instância na caixa **Instância nomeada**.
     
-    A caixa de diálogo **Editar propriedades** também oferece a opção de criar um espelho SQL para seu banco de dados de monitoramento (um espelho SQL permite manter duas cópias do seu banco de dados de monitoramento, uma cópia armazenada no computador do repositório de monitoramento e outro no computador do SQL espelho). Para habilitar o espelhamento, selecione T sua instância **SQL** está em relação de espelhamento e insira o número da porta para o servidor espelho na caixa Número da porta **espelhamento.**
+    A caixa de diálogo **Editar propriedades** também oferece a opção de criar um espelho SQL para seu banco de dados de monitoramento (um espelho SQL permite manter duas cópias do seu banco de dados de monitoramento, uma cópia armazenada no computador do repositório de monitoramento e outro no computador do SQL espelho). Para habilitar o espelhamento, selecione T **sua instância SQL** está em relação de espelhamento e insira o número da porta para o servidor espelho na caixa Número da porta **espelhamento**.
     
 7. Na caixa de diálogo **Editar propriedades**, clique em **OK**.
     
@@ -72,18 +72,18 @@ Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.co
 
 Como alternativa, você pode instalar o banco de dados de monitoramento executando o Assistente de Implantação Skype for Business Server no computador que hospedará o armazenamento de monitoramento. Para fazer isso, faça o login no computador adequado e conclua o seguinte procedimento:
   
-1. Clique **em Iniciar,** em **Todos os Programas,** Skype for Business Server **2015** e clique **Skype for Business Server Assistente de Implantação.**
+1. Clique **em Iniciar**, em **Todos os Programas**, **Skype for Business Server 2015** e clique **Skype for Business Server Assistente de Implantação**.
     
-2. No Assistente de Implantação, clique **em Instalar ou Atualizar Skype for Business Server Sistema.**
+2. No Assistente de Implantação, clique **em Instalar ou Atualizar Skype for Business Server Sistema**.
     
-3. Na página **Implantar,** em **Etapa 2: Configurar ou Remover Skype for Business Server Componentes,** clique em Executar **Novamente**.
+3. Na página **Implantar**, em **Etapa 2: Configurar ou Remover Skype for Business Server Componentes**, clique em **Executar Novamente**.
     
-4. No assistente de instalação Skype for Business Server componentes, na página **Configuração Skype for Business Server componentes,** clique em **Próximo**.
+4. No assistente de instalação Skype for Business Server componentes, na página **Configuração Skype for Business Server componentes**, clique em **Próximo**.
     
-5. Na página Especificar caminho para **MSIs,** digite o caminho para o arquivo Ocscore.msi (um arquivo incluído com sua mídia de instalação Skype for Business Server) e clique em **Próximo**.
+5. Na página **Especificar caminho para MSIs**, digite o caminho para o arquivo Ocscore.msi (um arquivo incluído com sua mídia de instalação Skype for Business Server) e clique em **Próximo**.
     
 6. Na página **Executando Comandos**, clique em **Concluir**.
     
-Para garantir que todos os serviços de Skype for Business Server  necessários tenham sido iniciados, clique em Executar sob o título **Etapa 4: Iniciar Serviços** na página **Implantar**
+Para garantir que todos os serviços de Skype for Business Server necessários tenham sido iniciados, clique  em Executar sob o título **Etapa 4: Iniciar Serviços** na página **Implantar**
   
 

@@ -1,7 +1,7 @@
 ---
 title: Criar seu programa de defensores do Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: Saiba como treinar uma equipe de campeões para promover Teams adoção por meio da conscientização, adoção e educação em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 989525f627a4d8c6ef18f1e17cab9446d85a0a88
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 446b0e4ba0cdc549623ac0411a549e481288ed3b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190882"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387469"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Criar seu programa de defensores do Microsoft Teams
 
@@ -45,7 +45,7 @@ Os campeões devem:
 
 Use nosso [Guia de Programa de Campeões](https://aka.ms/M365Champions) para criar esse programa em sua organização. Nossas práticas recomendadas para essa comunidade são:
 
-- Ins join the [Champions Program](https://aka.ms/O365Champions). Certifique-se de que, no mínimo, os líderes do programa Champions (e potencialmente todos os campeões da empresa) sejam membros do programa. Essa chamada de comunidade gratuita e mensal fornecerá informações valiosas para executar seu próprio programa e obter o máximo de Teams e outros serviços Microsoft 365 ou Office 365. Os materiais do programa podem ser reutilizados em seu próprio programa interno.
+- Participe do [Programa Campeões](https://aka.ms/O365Champions). Certifique-se de que, no mínimo, os líderes do programa Champions (e potencialmente todos os campeões da empresa) sejam membros do programa. Essa chamada de comunidade gratuita e mensal fornecerá informações valiosas para executar seu próprio programa e obter o máximo de Teams e outros serviços Microsoft 365 ou Office 365. Os materiais do programa podem ser reutilizados em seu próprio programa interno.
 
 - Use a equipe Defensor do Trabalho em Equipe: seus campeões devem usar a equipe que você tem para eles para todas as comunicações de programas, comentários e para encontrar recursos.  Ao fazer isso, eles se familiarizarão cada vez mais com o produto e seus benefícios.
 

@@ -5,8 +5,8 @@ ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Saiba como gerenciar e configurar domínios SIP com os quais você pode federar,
-ms.openlocfilehash: b50da7b95bab938a3b5026ce859f423f8a2718a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0c79141a491f713c1a6858d6703fc3fac55d5b20
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836353"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386639"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Gerenciar domínios federados SIP para sua organização em Skype for Business Server
 
@@ -63,7 +63,7 @@ Além disso, você deve configurar e aplicar a política a usuários que possam 
 
 ## <a name="configure-support-for-blocked-external-domains-in-skype-for-business-server"></a>Configurar o suporte para domínios externos bloqueados Skype for Business Server 
 
-Se você configurou o suporte para parceiros federados, poderá gerenciar quais domínios serão impedidos de federar com sua organização. A lista de domínios bloqueados atuará como uma lista de bloqueios (listagem de entradas explícitas que não devem ser permitidas) e será aplicada na descoberta de domínio federado, se você tiver essa opção habilitada. Para obter detalhes, [consulte Enable or disable discovery of federation partners](../access-edge/enable-or-disable-discovery-of-federation-partners.md).
+Se você configurou o suporte para parceiros federados, poderá gerenciar quais domínios serão impedidos de federar com sua organização. A lista de domínios bloqueados atuará como uma lista de bloqueios (listagem de entradas explícitas que não devem ser permitidas) e será aplicada na descoberta de domínio federado, se você tiver essa opção habilitada. Para obter detalhes, consulte [Enable or disable discovery of federation partners](../access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
 Impedir que um ou mais domínios externos se conectem à sua organização. Para fazer isso, adicione o domínio à lista de domínios bloqueados.
 
@@ -73,7 +73,7 @@ Impedir que um ou mais domínios externos se conectem à sua organização. Para
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 3.  Na barra de navegação esquerda, clique em **Acesso de Usuário Externo**.
-4.  Clique **em Domínios Federados,** em **Novo** e em **Domínio Bloqueado.**
+4.  Clique **em Domínios Federados**, em **Novo** e em **Domínio Bloqueado**.
 5.  Em **Novos Domínios Federados**, faça o seguinte:
     
       - Em **Nome de domínio (ou FQDN),** digite o nome do domínio do parceiro federado que você deseja bloquear.
@@ -91,7 +91,7 @@ Para habilitar o acesso de usuário federado, habilite também o suporte para ac
 Além disso, você deve configurar e aplicar a política a usuários que possam colaborar com usuários federados. Para obter detalhes, consulte [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Configurar políticas para controlar acesso de usuário federado](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 

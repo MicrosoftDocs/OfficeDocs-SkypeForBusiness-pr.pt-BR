@@ -1,7 +1,7 @@
 ---
 title: Teams para Educação Assistente de Política para aplicar facilmente políticas para aprendizado seguro
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar o assistente de política Teams para Educação para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
-ms.openlocfilehash: 4b514d2642ba383ca91aa320f8f89dcb1405b7e2
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: d724fcd7c5c62e861991e93cbbb9a0969a6c567e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205481"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387639"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use o Assistente Teams para Educação política para aplicar facilmente políticas para um ambiente de aprendizado seguro
 
@@ -49,10 +49,10 @@ Este artigo explica como executar o assistente.
 
 O assistente aplica um conjunto de definições de política básicas aos alunos e um conjunto separado de definições de política principais para educadores e funcionários, com configurações apropriadas para cada um. Veja o que acontece quando você executar o assistente.
 
-O assistente configura políticas com base no tipo de instituição educacional ( Ensino Fundamental **ou Secundário** **ou Superior**). Você seleciona o tipo de instituição e o assistente faz o seguinte:
+O assistente configura políticas com base no tipo de instituição educacional (**Ensino Fundamental ou Secundário** **ou Superior**). Você seleciona o tipo de instituição e o assistente faz o seguinte:
 
 - **Alunos**: o assistente ajusta a definição de política Global (padrão em toda a organização) de cada área de política coberta pelo assistente com novas configurações padrão apropriadas para manter seus alunos seguros. Isso garante que seus alunos atuais e todos os novos alunos recebam o conjunto mais restritivo de políticas.
-- **Educadores e** funcionários : o assistente cria um conjunto de definições de política personalizadas para cada área de política coberta pelo assistente com configurações adaptadas às necessidades de educadores e funcionários. Em seguida, ele atribui as definições de política ao grupo de educadores e funcionários escolhidos. Dessa forma, seus educadores e funcionários obterão um conjunto mais permissivo de políticas para permitir que eles sejam bem-sucedidos.
+- **Educadores e** funcionários: o assistente cria um conjunto de definições de política personalizadas para cada área de política coberta pelo assistente com configurações adaptadas às necessidades de educadores e funcionários. Em seguida, ele atribui as definições de política ao grupo de educadores e funcionários escolhidos. Dessa forma, seus educadores e funcionários obterão um conjunto mais permissivo de políticas para permitir que eles sejam bem-sucedidos.
 
 Você só precisa executar o assistente uma vez. Os novos alunos automaticamente têm as definições de política Global (padrão em toda a organização) aplicadas pelo assistente e pela nova equipe que você adiciona ao grupo selecionado são atribuídas automaticamente às políticas personalizadas.
 
@@ -69,15 +69,15 @@ Agora, vamos começar!
 
 Siga estas etapas para executar o assistente.
 
-1. Se você for novo no Teams, o assistente será iniciado automaticamente. Caso contrário, você pode iniciar o assistente a qualquer momento a partir do painel. Na navegação à esquerda do centro de administração do Microsoft Teams,  vá para Home **e,** em seguida, na configuração de política Fácil para um painel de ambiente de aprendizado seguro, selecione **Configuração rápida**.
+1. Se você for novo no Teams, o assistente será iniciado automaticamente. Caso contrário, você pode iniciar o assistente a qualquer momento a partir do painel. Na navegação à esquerda do centro de administração Microsoft Teams, vá para Home **e, em** seguida, na configuração  de política Fácil para um painel de ambiente de aprendizado seguro, selecione **Configuração rápida**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de tela do assistente no painel.":::
 
-2. Selecione seu tipo de instituição educacional (**Ensino Fundamental** ou Secundário ou Superior **)** e selecione **Próximo**.
+2. Selecione o tipo de instituição educacional (**Ensino Fundamental** ou Secundário ou **Superior) e** selecione **Próximo**.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de tela da página no assistente para selecionar tipo de instituição.":::
 
-3. Pesquise e selecione um grupo que contém seus educadores e funcionários e selecione **Próximo**. Se você ainda não tiver grupos definidos para seus [](/microsoft-365/admin/create-groups/create-groups)educadores e funcionários, crie um grupo e execute o assistente de novo. <br/><br/>Atualmente, você só pode selecionar um grupo. Educadores e funcionários no grupo selecionado receberão um [conjunto de políticas](#policies-applied-by-the-wizard) personalizadas adaptadas às suas necessidades. Lembre-se de que esse conjunto de políticas é separado das políticas aplicadas aos alunos.
+3. Pesquise e selecione um grupo que contém seus educadores e funcionários e selecione **Próximo**. Se você ainda não tiver grupos definidos para seus educadores e funcionários [, crie](/microsoft-365/admin/create-groups/create-groups) um grupo e execute o assistente de novo. <br/><br/>Atualmente, você só pode selecionar um grupo. Educadores e funcionários no grupo selecionado receberão um [conjunto de políticas](#policies-applied-by-the-wizard) personalizadas adaptadas às suas necessidades. Lembre-se de que esse conjunto de políticas é separado das políticas aplicadas aos alunos.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Captura de tela do assistente de página para selecionar educador e grupo de funcionários.":::
 
@@ -86,7 +86,7 @@ Siga estas etapas para executar o assistente.
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Captura de tela do assistente de página para revisar seleções.":::
 
 5. Selecione **Aplicar** para aplicar suas alterações. Isso pode levar alguns minutos para ser concluído.<br/><br/>As definições de política Global (padrão em toda a organização) são imediatamente aplicadas aos alunos. Para seus educadores e funcionários, pode levar algumas horas para que as políticas personalizadas sejam atribuídas a cada membro do grupo selecionado, dependendo do tamanho do grupo. Isso acontece em segundo plano, depois que você concluir com êxito esta etapa.
-6. Você está a caminho, mas ainda não terminou! Há mais algumas coisas a considerar. Em seguida, confira as etapas na seção [O que fazer após a execução da](#what-to-do-after-running-the-wizard) seção assistente deste artigo.
+6. Você está a caminho, mas ainda não terminou! Há mais algumas coisas a considerar. Em seguida, confira as etapas na seção [O que fazer após a execução da seção assistente](#what-to-do-after-running-the-wizard) deste artigo.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Captura de tela do assistente de página no para as próximas etapas.":::
 
@@ -97,7 +97,7 @@ Siga estas etapas para executar o assistente.
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>Etapa 1: Remover atribuições de política existentes que conflitam com políticas aplicadas pelo assistente
 
 > [!IMPORTANT]
-> Conclua esta etapa somente se você tiver políticas existentes atribuídas a alunos ou educadores e **funcionários *antes* de ter o assistente.** Se você for novo no Teams e não tiver nenhuma política existente além das políticas criadas pelo assistente, ignore isso e vá para a etapa 2.
+> **Conclua esta etapa somente se você tiver políticas existentes atribuídas a alunos ou educadores e funcionários *antes* de realizar o assistente**. Se você for novo no Teams e não tiver nenhuma política existente além das políticas criadas pelo assistente, ignore isso e vá para a etapa 2.
 
 Em Teams, para uma determinada área de política, uma política pode ser aplicada a um usuário das seguintes maneiras:
 
@@ -105,21 +105,21 @@ Em Teams, para uma determinada área de política, uma política pode ser aplica
 - Atribuição a um grupo de que o usuário é membro
 - Se o usuário não receber diretamente uma política ou não for membro de nenhum grupo atribuído a uma política, o usuário obtém automaticamente a política Global (padrão em toda a organização)
 
-Se mais de uma dessas atribuições de política existirem para um usuário, Teams a ordem a seguir para determinar qual atribuição de política entra em vigor. Para obter mais informações, [consulte Qual política tem precedência ou](policy-assignment-overview.md#which-policy-takes-precedence) regras de [precedência para grupos](assign-policies-users-and-groups.md#precedence-rules).
+Se mais de uma dessas atribuições de política existirem para um usuário, Teams a ordem a seguir para determinar qual atribuição de política entra em vigor. Para obter mais informações, consulte [Qual política tem precedência ou](policy-assignment-overview.md#which-policy-takes-precedence) [regras de precedência para grupos](assign-policies-users-and-groups.md#precedence-rules).
 
 |Atribuições de política de um usuário|Política que entra em vigor |
 |---------|---------|
 |Política atribuída ao grupo: Não<br/>Política atribuída diretamente ao usuário: Não    |Política padrão global (em toda a organização)      |
 |Política atribuída ao grupo: Não<br/>Política atribuída diretamente ao usuário: Sim    |Política atribuída diretamente ao usuário         |
 |Política atribuída ao grupo: Sim<br/>Política atribuída diretamente ao usuário: Sim     |Política atribuída diretamente ao usuário         |
-|Política atribuída ao grupo: Sim<br/>Política atribuída diretamente ao usuário: Não     |Política atribuída ao grupo<br/><br/>Se o usuário for membro de vários grupos e cada grupo tiver uma política da mesma área de política, a política com a classificação de atribuição de grupo mais alta [entra](assign-policies-users-and-groups.md#group-assignment-ranking) em vigor.       |
+|Política atribuída ao grupo: Sim<br/>Política atribuída diretamente ao usuário: Não     |Política atribuída ao grupo<br/><br/>Se o usuário for membro de vários grupos e cada grupo tiver uma política da mesma área de política, a política com a classificação de atribuição de grupo mais [alta entra em](assign-policies-users-and-groups.md#group-assignment-ranking) vigor.       |
 
 Devido a essa ordem, as políticas criadas pelo assistente não tomarão efeito se um usuário tiver atribuições diretas ou atribuições de grupo existentes. Isso significa que você terá que remover as atribuições de política existentes do usuário para que a política aplicada pelo assistente entre em vigor.
 
-Para cada [área de política aplicada pelo assistente,](#policies-applied-by-the-wizard)faça o seguinte:
+Para cada [área de política aplicada pelo assistente](#policies-applied-by-the-wizard), faça o seguinte:
 
 - Remova todas as atribuições diretas e atribuições de grupo existentes de seus alunos para que a definição de política Global (padrão em toda a organização) aplicada pelo assistente entre em vigor.
-- Remova quaisquer atribuições diretas conflitantes para seus educadores e funcionários para que a definição de política personalizada criada pelo assistente entre em vigor. Use a tabela acima para determinar os cenários que se aplicam a você. <br/><br/>Lembre-se de que o assistente atribui políticas aos seus educadores e grupo de funcionários usando [uma](assign-policies-users-and-groups.md#group-assignment-ranking) classificação de atribuição de grupo de 1, que é a classificação mais alta. Se seus educadores e grupo de funcionários tiver uma política existente da mesma área de política atribuída a ela, essa política existente será movida para uma classificação mais baixa e a política atribuída pelo assistente entra em vigor.
+- Remova quaisquer atribuições diretas conflitantes para seus educadores e funcionários para que a definição de política personalizada criada pelo assistente entre em vigor. Use a tabela acima para determinar os cenários que se aplicam a você. <br/><br/>Lembre-se de que o assistente atribui políticas aos seus educadores e grupo de funcionários [usando uma classificação](assign-policies-users-and-groups.md#group-assignment-ranking) de atribuição de grupo de 1, que é a classificação mais alta. Se seus educadores e grupo de funcionários tiver uma política existente da mesma área de política atribuída a ela, essa política existente será movida para uma classificação mais baixa e a política atribuída pelo assistente entra em vigor.
 
 [Saiba mais](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) sobre como remover políticas atribuídas diretamente aos usuários.
 
@@ -129,9 +129,9 @@ Por exemplo, você atribuiu uma política de reunião diretamente aos educadores
 
 ### <a name="step-2-check-for-additional-measures-that-you-can-take-for-student-safety"></a>Etapa 2: Verifique se há medidas adicionais que você pode tomar para garantir a segurança do aluno
 
-O assistente ajusta e aplica essas [políticas automaticamente.](#policies-applied-by-the-wizard) Existem poucas medidas adicionais, que você pode querer tomar com base nas necessidades da sua instituição para se manter segura.
+O assistente ajusta automaticamente e aplica [essas políticas](#policies-applied-by-the-wizard). Existem poucas medidas adicionais, que você pode querer tomar com base nas necessidades da sua instituição para se manter segura.
 
-Consulte [Mantendo os alunos seguros ao usar Teams para aprendizagem a distância](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obter recomendações de segurança adicionais.
+Consulte [Mantendo os alunos seguros durante o uso Teams para aprendizado à distância](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obter recomendações de segurança adicionais.
 
 <a name="polwiz_mc"> </a>
 
@@ -147,7 +147,7 @@ Mas verifique o [Centro](https://admin.microsoft.com/AdminPortal/Home?#/MessageC
 
 Se você precisar fazer alterações depois de executar o assistente, poderá re runá-lo e alterar suas seleções.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams,  vá para Home **e,** em seguida, na configuração de política Fácil para um painel de ambiente de aprendizado seguro, selecione **Alterar**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para Home **e, em** seguida, na configuração  de política Fácil para um painel de ambiente de aprendizado seguro, selecione **Alterar**.
 2. A partir daqui, continue por cada página do assistente para fazer suas alterações. Você pode alterar o tipo de instituição, o grupo de educadores e funcionários aos quais deseja atribuir políticas ou ambos.
 
 A tabela a seguir resume o que acontece quando você faz uma alteração no assistente.
@@ -155,8 +155,8 @@ A tabela a seguir resume o que acontece quando você faz uma alteração no assi
 |Tipo de alteração  |Comportamento da política  |
 |---------|---------|
 |Alterar o tipo de instituição educacional e os educadores e o grupo de funcionários    |<ul><li>**Alunos**: As definições de política global (padrão em toda a organização) com base no novo tipo de instituição educacional são aplicadas aos alunos.</li><li>**Educadores e funcionários**: um conjunto de definições de política personalizadas com base no novo tipo de instituição educacional é criado e atribuído ao novo educador e grupo de funcionários. As definições de política personalizadas anteriores são removidas dos educadores anteriores e do grupo de funcionários.</li></ul>    |
-|Alterar apenas o tipo de instituição educacional    |<ul><li>**Alunos**: As definições de política global (padrão em toda a organização) com base no novo tipo de instituição educacional são aplicadas aos alunos.</li><li>**Educadores e** funcionários : um conjunto de definições de política personalizadas com base no novo tipo de instituição educacional é criado e atribuído aos educadores e ao grupo de funcionários. As definições de política personalizadas criadas para o tipo de instituição educacional anterior são removidas dos educadores e do grupo de funcionários.</li></ul>         |
-|Alterar apenas os educadores e o grupo de funcionários   |<ul><li>**Alunos**: Nenhuma alteração nas definições de política Global (padrão em toda a organização) aplicadas aos alunos.</li><li>**Educadores e funcionários**: As definições de política personalizadas são atribuídas aos novos educadores e ao grupo de funcionários e removidas dos educadores anteriores e do grupo de funcionários.</li></ul>         |
+|Alterar apenas o tipo de instituição educacional    |<ul><li>**Alunos**: As definições de política global (padrão em toda a organização) com base no novo tipo de instituição educacional são aplicadas aos alunos.</li><li>**Educadores e funcionários**: um conjunto de definições de política personalizadas com base no novo tipo de instituição educacional é criado e atribuído aos educadores e ao grupo de funcionários. As definições de política personalizadas criadas para o tipo de instituição educacional anterior são removidas dos educadores e do grupo de funcionários.</li></ul>         |
+|Alterar apenas os educadores e o grupo de funcionários   |<ul><li>**Alunos**: Nenhuma alteração nas definições de política Global (padrão em toda a organização) aplicadas aos alunos.</li><li>**Educadores e funcionários**: as definições de política personalizadas são atribuídas aos novos educadores e ao grupo de funcionários e removidas dos educadores anteriores e do grupo de funcionários.</li></ul>         |
 
 ## <a name="policies-applied-by-the-wizard"></a>Políticas aplicadas pelo assistente
 

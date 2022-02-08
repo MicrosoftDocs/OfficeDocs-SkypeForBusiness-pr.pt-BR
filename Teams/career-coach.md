@@ -1,7 +1,7 @@
 ---
 title: Comprar, configurar e habilitar Coach de carreira para Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ee69306faed71524742fab46c30c9e8523d8ff
-ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
+ms.openlocfilehash: 8f2698f668f33f078988b4c9ff1967a07c6765d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61992995"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389763"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar e habilitar Coach de carreira para Microsoft Teams
 
@@ -77,7 +77,7 @@ Para habilitar Coach de carreira para sua instituição educacional, revise o qu
 
 - Lista de campos de estudo oferecidos.
 
-- Página do [LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)da instituição educacional.
+- Página do [LinkedIn da instituição educacional](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
 - URL da política de privacidade da instituição educacional.
 
@@ -103,7 +103,7 @@ Coach de carreira **requer** que os usuários da sua instituição educacional t
 
 2. Selecione **Usuários**.
 
-3. Na página **Usuários,** selecione **Configurações do usuário**.
+3. Na página **Usuários** , selecione **Configurações do usuário**.
 
 4. **As conexões de conta do LinkedIn** devem ser definidas como **Grupo** Sim ou **Selecionado** para que Coach de carreira sejam configuradas corretamente.
 
@@ -125,11 +125,11 @@ Use Microsoft Teams centro de administração para configurar Coach de carreira 
 > [!IMPORTANT]
 > Você deve ser um administrador global ou Teams de serviço para acessar a página.
 
-1. Entre no centro de **[administração Teams.](https://admin.teams.microsoft.com)**
+1. Entre no centro de **[Teams de administração](https://admin.teams.microsoft.com)**.
 
-2. Na navegação à esquerda, selecione Teams  >  **[aplicativos Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**.  
+2. Na navegação à esquerda, selecione Teams **[appsManage](https://admin.teams.microsoft.com/policies/manage-apps)** >  apps.  
 
-3. Pesquise ou **procure Coach de carreira**.  
+3. Pesquise ou procure **Coach de carreira**.  
 
 4. Selecione **Coach de carreira** e selecione **Configurações**.  
 
@@ -150,7 +150,7 @@ Coach de carreira tem cinco categorias de configuração:
 - [Personalização](#customization)
 
 > [!IMPORTANT]
-> Marca e preferências, configuração do LinkedIn,  catálogo de cursos e Campos de estudo são necessários para habilitar efetivamente o aplicativo para alunos, professores e funcionários.
+> Marca e preferências, configuração do LinkedIn, catálogo de cursos e Campos  de estudo são necessários para habilitar efetivamente o aplicativo para alunos, professores e funcionários.
 
 ### <a name="brand-and-preferences"></a>Marca e preferências
 
@@ -161,9 +161,9 @@ Personalize Coach de carreira para corresponder à marca da sua instituição ed
 
 ![a Coach de carreira de identidade visual do centro de administração.](media/career-coach-brand.png)
 
-1. Entre no centro de **[administração Teams.](https://admin.teams.microsoft.com)**
+1. Entre no centro de **[Teams de administração](https://admin.teams.microsoft.com)**.
 
-2. Selecione **Teams**  >  **[aplicativos Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **Coach de carreira** Marca e  >  **preferências.**
+2. Selecione **Teams appsManage** >  **[apps](https://admin.teams.microsoft.com/policies/manage-apps)** >  **Coach de carreira** >  **Brand e preferências**.
 
 3. Upload ícone **da instituição educacional**. O ícone é usado em todo o Coach de carreira para identificar conteúdo exclusivo para sua instituição educacional, recursos de catálogo de cursos em todo o aplicativo e na seção experiências do mundo real do painel. O ícone é melhor formatado como:
 
@@ -171,13 +171,13 @@ Personalize Coach de carreira para corresponder à marca da sua instituição ed
     - Proporção de 1:1
     - Tamanho máximo de 64 px x 64 px
 
-4. Upload **miniatura da instituição educacional.** A miniatura será usada para recursos de catálogo de cursos em todo o aplicativo quando uma imagem específica não estiver disponível para um curso. A miniatura é melhor formatada como:
+4. Upload **miniatura da instituição educacional**. A miniatura será usada para recursos de catálogo de cursos em todo o aplicativo quando uma imagem específica não estiver disponível para um curso. A miniatura é melhor formatada como:
 
     - Um PNG
     - Proporção de 16:9
     - Tamanho máximo de 360 px x 200 px
 
-5. Adicione a URL da política de **privacidade da instituição educacional.** Se adicionada, a política de privacidade da instituição estará disponível para que os alunos revisem no Coach de carreira app.
+5. Adicione a **URL da política de privacidade da instituição educacional**. Se adicionada, a política de privacidade da instituição estará disponível para que os alunos revisem no Coach de carreira app.
 
 6. Selecione **Enviar**.
 
@@ -190,15 +190,15 @@ A configuração do LinkedIn conecta Coach de carreira com dados de ex-alunos p�
 
 #### <a name="add-the-linkedin-page"></a>Adicionar a página do LinkedIn
   
-1. Entre no centro de **[administração Teams.](https://admin.teams.microsoft.com)**
+1. Entre no centro de **[Teams de administração](https://admin.teams.microsoft.com)**.
 
-2. Selecione **Teams**  >  **[aplicativos Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **Coach de carreira**  >  **conexão LinkedIn**.
+2. Selecione **Teams appsManage** >  **[apps](https://admin.teams.microsoft.com/policies/manage-apps)** >  **Coach de carreira** >  **LinkedIn connection**.
 
-3. Encontre a página LinkedIn pesquisando no LinkedIn e selecionando o **filtro Escola.** Ou conecte-se a um membro da equipe de serviços de carreira para determinar a página escolar correta do LinkedIn a ser usada. Para obter mais informações, [consulte Como identificar páginas do LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+3. Encontre a página LinkedIn pesquisando no LinkedIn e selecionando o **filtro Escola** . Ou conecte-se a um membro da equipe de serviços de carreira para determinar a página escolar correta do LinkedIn a ser usada. Para obter mais informações, [consulte Como identificar páginas do LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
     ![pesquisa do linkedin para a escola.](media/career-coach-school-search.png)
 
-4. Adicione a URL da página da escola do LinkedIn. A URL deve ser uma página de escola e não uma página da empresa e normalmente formatada como `https://www.linkedin.com/school/willow-university/` .
+4. Adicione a URL da página da escola do LinkedIn. A URL deve ser uma página de escola e não uma página da empresa e normalmente formatada como `https://www.linkedin.com/school/willow-university/`.
 
    ![exemplo da página da escola do linkedin.](media/career-coach-linkedin-page-url.png)
 
@@ -208,11 +208,11 @@ A configuração do LinkedIn conecta Coach de carreira com dados de ex-alunos p�
 > [!IMPORTANT]
 > A verificação deve ser concluída pelo super administrador de página do LinkedIn da sua instituição educacional.
 
-1. Se enviada com êxito, a página será atualizada para mostrar o **link Verificação** e **expiração do link Verificação.** O link de verificação expira após 30 dias.
+1. Se enviada com êxito, a página será atualizada para mostrar o **link Verificação** e **expiração do link Verificação**. O link de verificação expira após 30 dias.
 
    ![Conexões linkedin para o aplicativo de coach de carreira.](media/career-coach-linked-in.png)  
 
-2. Copie o link de verificação e compartilhe-o com a página super admin do LinkedIn da sua instituição educacional. Saiba mais sobre a função de super-administrador de página do LinkedIn na documentação do administrador de página [do LinkedIn.](https://www.linkedin.com/help/linkedin/answer/102672)
+2. Copie o link de verificação e compartilhe-o com a página super admin do LinkedIn da sua instituição educacional. Saiba mais sobre a função de super-administrador de página do [LinkedIn na documentação do administrador da página do LinkedIn](https://www.linkedin.com/help/linkedin/answer/102672).
 
 3. O super administrador de página do LinkedIn usará o link de verificação exclusivo para associar Coach de carreira com a página da sua escola. Consulte [Documentação adicional sobre a verificação de página do LinkedIn](https://www.linkedin.com/help/linkedin/answer/102672) para obter mais informações.
 
@@ -235,9 +235,9 @@ Para criar o catálogo de cursos, crie uma lista de todos os cursos ministrados 
 
 #### <a name="add-the-course-catalog"></a>Adicionar o catálogo de cursos
 
-1. Entre no centro de **[administração Teams.](https://admin.teams.microsoft.com)**
+1. Entre no centro de **[Teams de administração](https://admin.teams.microsoft.com)**.
 
-1. Selecione **Teams** &gt; **[aplicativos Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Coach de carreira** &gt; **Configurações** catálogo de &gt; **cursos.**  
+1. Selecione **Teams aplicativos** &gt; **[Gerenciar aplicativos Coach de carreira](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt; **Configurações** &gt;**catálogo de cursos**.  
 
 2. Upload cursos no formato CSV com as colunas necessárias: courseId, title e sourceLink. Cada linha deve incluir dados para cada uma das colunas necessárias. _Incluir os campos recomendados melhora a experiência dos alunos retornando melhores resultados de pesquisa e identificação de habilidades._
 
@@ -247,7 +247,7 @@ Para criar o catálogo de cursos, crie uma lista de todos os cursos ministrados 
 
 #### <a name="course-catalog-document-format-and-schema"></a>Formato e esquema do documento do catálogo de cursos
 
-O documento precisa estar no formato CSV com um tamanho máximo de 18 MB. O documento deve conter o título do curso **de** campos necessários , **a ID do** curso e a URL do **curso.** 
+O documento precisa estar no formato CSV com um tamanho máximo de 18 MB. O documento deve conter o título do curso **de** campos necessário, **a ID** do curso e **a URL do curso**. 
 
 > [!TIP]
 > Comece com o [documento de catálogo de cursos]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) de exemplo para garantir a formatação adequada. _Incluir os campos recomendados melhora a experiência dos alunos retornando melhores resultados de pesquisa e identificação de habilidades._
@@ -276,8 +276,8 @@ Os campos de estudo são sinônimos de áreas de interesse principais, de nível
 
 #### <a name="add-the-fields-of-study"></a>Adicionar os campos de estudo
 
-1. Entre no centro de **[administração Teams.](https://admin.teams.microsoft.com)**
-1. Selecione **Teams** &gt; **[aplicativos Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Coach de carreira** &gt; **Configurações** Campos de &gt; **estudo**.  
+1. Entre no centro de **[Teams de administração](https://admin.teams.microsoft.com)**.
+1. Selecione **Teams aplicativos** &gt; **[Gerenciar aplicativos Coach de carreira](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt; **Configurações** &gt;**Campos de estudo**.  
 
 2. Upload campo de estudo no formato CSV.
 
@@ -302,9 +302,9 @@ Coach de carreira pode ser personalizado para ser exclusivo da sua instituição
 
 #### <a name="add-customized-experiences"></a>Adicionar experiências personalizadas
 
-1. Entre no centro de **[administração Teams.](https://admin.teams.microsoft.com)**
+1. Entre no centro de **[Teams de administração](https://admin.teams.microsoft.com)**.
 
-1. Selecione **Teams** &gt; **[aplicativos Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Coach de carreira**  >  **Configurações** &gt; **Personalização.**
+1. Selecione **Teams aplicativos** &gt; **[Gerenciar aplicativos Coach de carreira](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  > **Configurações** &gt; **Personalização**.
 
 2. Adicione cada título, URL e descrição curta.  
   
@@ -321,11 +321,11 @@ Depois de concluir a configuração, habilita o aplicativo para alunos e usuári
 > [!IMPORTANT]
 > Você deve ter permissões de função de administrador global ou Teams de administrador.
 
-1. Entre no centro de **[administração Teams.](https://admin.teams.microsoft.com)**
+1. Entre no centro de **[Teams de administração](https://admin.teams.microsoft.com)**.
 
-1. Selecione **Teams** &gt; **[aplicativos Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Coach de carreira**.
+1. Selecione **Teams aplicativos** &gt; **[Gerenciar aplicativos Coach de carreira](https://admin.teams.microsoft.com/policies/manage-apps)**&gt;.
 
-2. Mover a alternância Status para **Permitido**.  
+2. Mova a alternância Status para **Permitido**.  
 
    > [!NOTE]
    > **Permitido** significa que o aplicativo está disponível para usuários em sua instituição educacional. Bloqueado significa que o aplicativo não está disponível para os alunos.
@@ -335,12 +335,12 @@ Depois de concluir a configuração, habilita o aplicativo para alunos e usuári
 > [!IMPORTANT]
 > Esta etapa garante que o Coach de carreira seja configurado corretamente para sua organização e que os alunos encontrem Coach de carreira.
 
-1. Entre no centro de **[administração Teams.](https://admin.teams.microsoft.com)**
+1. Entre no centro de **[Teams de administração](https://admin.teams.microsoft.com)**.
 
-2. Selecione **Teams políticas de instalação** de &gt; **aplicativos** e selecione sua política preferida.
-Se você não tiver certeza de qual [](/microsoftteams/policy-packages-edu) política usar, poderá consultar a [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) documentação de gerenciamento de política Microsoft Teams ou usar o Assistente de Política de Educação para configurar uma política para Microsoft Teams.
+2. Selecione **Teams políticas de instalação** **de aplicativos** &gt; e selecione sua política preferida.
+Se você não tiver certeza de qual política usar, poderá consultar a documentação de gerenciamento de política Microsoft Teams ou usar o [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) Assistente de Política de Educação para configurar uma política para Microsoft Teams.[](/microsoftteams/policy-packages-edu)
 
-3. Em Aplicativos Instalados, selecione **Adicionar aplicativos**.
+3. Em Aplicativos instalados, selecione **Adicionar aplicativos**.
 
 4. No painel Adicionar aplicativos instalados, pesquise os aplicativos que você deseja instalar automaticamente para os usuários quando eles começarem a Teams. Você também pode filtrar aplicativos por política de permissão do aplicativo. Quando você escolher sua lista de aplicativos, selecione **Adicionar**.
 
@@ -353,14 +353,14 @@ Se você não tiver certeza de qual [](/microsoftteams/policy-packages-edu) pol�
 
 Fixar Coach de carreira tornar o aplicativo mais acessível e visível para os alunos.
 
-1. Entre no centro de **[administração Teams.](https://admin.teams.microsoft.com)**
+1. Entre no centro de **[Teams de administração](https://admin.teams.microsoft.com)**.
 
-2. Selecione **Teams políticas de instalação** de &gt; **aplicativos** e selecione sua política preferida.
-Se você não tiver certeza de qual [](/microsoftteams/policy-packages-edu) política usar, poderá consultar a [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) documentação de gerenciamento de política Microsoft Teams ou usar o Assistente de Política de Educação para configurar uma política para Microsoft Teams.
+2. Selecione **Teams políticas de instalação** **de aplicativos** &gt; e selecione sua política preferida.
+Se você não tiver certeza de qual política usar, poderá consultar a documentação de gerenciamento de política Microsoft Teams ou usar o [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) Assistente de Política de Educação para configurar uma política para Microsoft Teams.[](/microsoftteams/policy-packages-edu)
 
-3. Em **Aplicativos Fixados,** escolha **Adicionar aplicativos**.
+3. Em **Aplicativos fixados**, escolha **Adicionar aplicativos**.
 
-4. Pesquise **Coach de carreira** e selecione **Adicionar**.
+4. **Pesquise Coach de carreira** e selecione **Adicionar**.
 
 5. Escolha a ordem para que o aplicativo apareça e selecione **Salvar**.
 
@@ -421,9 +421,9 @@ O status do catálogo de cursos é mostrado na página Configurações do catál
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-- Se você vir "Coach de carreira atualmente está sendo configurada para você usar em breve" no aplicativo Coach de carreira, as seções necessárias não __foram concluídas__. As __seções a seguir__ são necessárias para serem concluídas antes que Coach de carreira possam ser usadas: Marca e [preferências,](#brand-and-preferences) [conexão linkedIn,](#linkedin-connection)catálogo [de](#course-catalog)cursos e Campos [de estudo](#fields-of-study).
+- Se você vir "Coach de carreira atualmente está sendo configurada para você usar em breve" no aplicativo Coach de carreira, as seções necessárias não __foram concluídas__. As __seções a seguir__ são necessárias para serem concluídas antes que Coach de carreira possam ser [usadas](#brand-and-preferences): Marca e preferências, conexão [LinkedIn](#linkedin-connection), catálogo [de](#course-catalog) cursos e [Campos de estudo](#fields-of-study).
 
-- Os CSVs para o catálogo de cursos e o campo de estudo têm formatos obrigatórios e um tamanho máximo de 18 MB. Consulte o esquema Coach de carreira [de](#course-catalog-document-format-and-schema) documentos do catálogo de cursos e Coach de carreira [campos do](#fields-of-study-document-format-and-schema) esquema de documento de estudo para garantir a configuração adequada.
+- Os CSVs para o catálogo de cursos e o campo de estudo têm formatos obrigatórios e um tamanho máximo de 18 MB. Consulte o esquema Coach de carreira [de documentos](#course-catalog-document-format-and-schema) do catálogo de cursos e Coach de carreira [campos do esquema](#fields-of-study-document-format-and-schema) de documento de estudo para garantir a configuração adequada.
 
 - Em páginas de configurações com campos obrigatórios, se os campos não foram concluídos, a página não enviará. Você não verá uma mensagem de aviso; a página simplesmente não enviará.
 
@@ -433,15 +433,15 @@ O status do catálogo de cursos é mostrado na página Configurações do catál
 
 ## <a name="removing-your-tenant-data"></a>Removendo seus dados de locatário
 
-Os dados do locatário incluem informações carregadas ou geradas como parte da configuração do aplicativo. Para excluir todos os dados em um Coach de carreira locatário, [](https://edusupport.microsoft.com/support?product_id=career_coach) solicite que o administrador global do locatário abra um tíquete de suporte solicitando que os dados do locatário sejam excluídos permanentemente. Esteja ciente de que esse processo não é reversível. Depois que a remoção de dados for concluída, o aplicativo Coach de carreira retornará ao estado pré-configurado e não personalizado para todos os usuários e um administrador do Teams precisará configurar o aplicativo novamente para continuar a usá-lo.
+Os dados do locatário incluem informações carregadas ou geradas como parte da configuração do aplicativo. Para excluir todos os dados em um Coach de carreira locatário, solicite que o administrador global do locatário abra um tíquete de suporte solicitando que os dados do locatário sejam excluídos permanentemente.[](https://edusupport.microsoft.com/support?product_id=career_coach) Esteja ciente de que esse processo não é reversível. Depois que a remoção de dados for concluída, o aplicativo Coach de carreira retornará ao estado pré-configurado e não personalizado para todos os usuários e um administrador do Teams precisará configurar o aplicativo novamente para continuar a usá-lo.
 
 O seguinte explica o processo de exclusão:
 
-- Um tíquete de suporte deve ser arquivado por um administrador global do locatário informando claramente a solicitação para que os dados do locatário sejam excluídos permanentemente. **Não há capacidade de limitar o conjunto de dados ou a janela de tempo da exclusão.**
+- Um tíquete de suporte deve ser arquivado por um administrador global do locatário informando claramente a solicitação para que os dados do locatário sejam excluídos permanentemente. **Não há capacidade de limitar o conjunto de dados ou a janela de tempo da exclusão**.
 
 - Depois de arquivado, o tíquete de suporte será endereçado após uma semana para atender à política de retenção mínima da conformidade. Você pode cancelar a operação durante esse período.
 
-- Após uma semana, a equipe Coach de carreira garante que todos os dados relacionados ao locatário serão excluídos. O suporte da Microsoft monitora o tíquete e o notificará depois que o processo de exclusão for concluído, em não mais de **30 dias.**
+- Após uma semana, a equipe Coach de carreira garante que todos os dados relacionados ao locatário serão excluídos. O suporte da Microsoft monitora o tíquete e o notificará depois que o processo de exclusão for concluído, em no **menos 30 dias**.
 
 
 ## <a name="resources"></a>Recursos

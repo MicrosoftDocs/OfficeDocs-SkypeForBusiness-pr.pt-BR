@@ -1,7 +1,7 @@
 ---
 title: Gerenciamento do acesso de usuários ao Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f7cf49f39f7a4df5dc7abe044b107f2bb9a5bbb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0d467e2e3fcdff6e688c13d952f434e635f7d038
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829515"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384119"
 ---
 # <a name="manage-user-access-to-teams"></a>Gerenciamento do acesso de usuários ao Teams
 
@@ -32,7 +32,7 @@ Você gerencia o acesso Teams no nível do usuário atribuindo ou removendo uma 
 
 Por padrão, quando um plano de licenciamento (por exemplo, Microsoft 365 Enterprise E3 ou Microsoft 365 Business Premium) é atribuído a um usuário, uma licença Teams é atribuída automaticamente e o usuário está habilitado para Teams. Você pode desabilitar ou habilitar Teams para um usuário removendo ou atribuindo uma licença a qualquer momento.
 
-Use políticas de mensagens, gerenciadas <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams Centro</a>de Administração, para controlar quais recursos de mensagens de chat e canal estão disponíveis para os usuários no Teams. Você pode usar a política padrão ou criar uma ou mais políticas de mensagens personalizadas para pessoas em sua organização. Para saber mais, leia [Gerenciar políticas de mensagens em Teams](messaging-policies-in-teams.md).
+Use políticas de mensagens, gerenciadas Teams <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centro</a> de Administração do Teams, para controlar quais recursos de mensagens de chat e canal estão disponíveis para os usuários no Teams. Você pode usar a política padrão ou criar uma ou mais políticas de mensagens personalizadas para pessoas em sua organização. Para saber mais, leia [Gerenciar políticas de mensagens em Teams](messaging-policies-in-teams.md).
 Você gerencia Teams licenças no Centro de administração do Microsoft 365 ou usando o PowerShell. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
 
 > [!NOTE]
@@ -44,13 +44,13 @@ Teams licenças no nível do usuário são gerenciadas diretamente por meio das 
 
 > [!IMPORTANT]
 > O administrador deve ter privilégios de Administrador Global ou Administrador de Gerenciamento de Usuários para gerenciar Microsoft Teams licenças.
-Use a Centro de administração do Microsoft 365 para gerenciar Teams licenças para usuários individuais ou pequenos conjuntos de usuários por vez. Você pode gerenciar Teams licenças na página **Licenças** (para até 20 usuários no momento) ou **página Usuários ativos.** O método escolhido depende se você deseja gerenciar licenças de produtos para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
+Use a Centro de administração do Microsoft 365 para gerenciar Teams licenças para usuários individuais ou pequenos conjuntos de usuários por vez. Você pode gerenciar Teams licenças na página **Licenças** (para até 20 usuários no momento) ou página **Usuários ativos**. O método escolhido depende se você deseja gerenciar licenças de produtos para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
 
-Se você precisar gerenciar Teams licenças para um grande número de usuários, como centenas ou milhares de usuários, use o [PowerShell](#using-powershell) ou o licenciamento baseado em grupo no [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign). 
+Se você precisar gerenciar Teams licenças para um grande número de usuários, como centenas ou milhares de usuários, [use o PowerShell](#using-powershell) ou o licenciamento baseado em [grupo no Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign). 
 
 ### <a name="assign-a-teams-license"></a>Atribuir uma Teams de usuário
 
-As etapas são diferentes, dependendo de você usar a página **Licenças** ou **a página Usuários ativos.**  Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
+As etapas são diferentes, dependendo de você usar a página **Licenças** ou **a página Usuários ativos** .  Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 |&nbsp;|&nbsp;|
 |---------|---------|
@@ -81,7 +81,7 @@ Para etapas detalhadas, consulte [Atribuir licenças a contas de usuário com o 
 
 ### <a name="remove-teams-licenses-in-bulk"></a>Remover Teams licenças em massa
 
-Para etapas detalhadas, consulte [Disable access to services with PowerShell](/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) and Disable access to services while [assigning user licenses](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses).
+Para etapas detalhadas, consulte [Disable access to services with PowerShell](/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) and [Disable access to services while assigning user licenses](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses).
 
 #### <a name="example"></a>Exemplo 
 
@@ -97,7 +97,7 @@ Execute o seguinte comando para exibir todos os planos de licenciamento disponí
 Get-MsolAccountSku
 ```
 
-Execute os comandos a seguir, onde está o nome da sua organização e o identificador do plano de licenciamento que \<CompanyName:License> você recuperou na etapa anterior. Por exemplo, ContosoSchool:ENTERPRISEPACK_STUDENT.
+Execute os comandos a seguir, onde \<CompanyName:License> está o nome da sua organização e o identificador do plano de licenciamento que você recuperou na etapa anterior. Por exemplo, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
 ```powershell
 $acctSKU="<CompanyName:License>

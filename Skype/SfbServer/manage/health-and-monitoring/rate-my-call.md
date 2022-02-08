@@ -1,8 +1,8 @@
 ---
 title: Rate my Call in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Resumo: saiba mais sobre o recurso Rate My Call no Skype for Business Server.'
-ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27fbfa68026feeef54d478ba473961601db0ae8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864828"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390123"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Rate my Call in Skype for Business Server
 
@@ -110,7 +110,7 @@ As definições de token são codificadas da seguinte forma:
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Esta tabela contém resultados de sondagem da votação "Star" e comentários do cliente, se habilitada.
 
-Os dados de tabelas podem ser chamados usando uma seleção de **\* [Table.Name]** consulta ou usando Microsoft SQL Server Management Studio.
+Os dados de tabelas podem ser chamados usando uma **seleção \* de [Table.Name]** consulta ou usando Microsoft SQL Server Management Studio.
 
 As seguintes SQL podem ser usadas:
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Atualizando definições de token
 
-Os clientes Skype for Business mais recentes relatam novas IDs de token de problema ( 100) que podem não estar presentes em \> seu [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef] tabela. Para atualizar a tabela de banco de dados com as definições de token mais recentes, o comando SQL abaixo pode ser executado no banco de dados de monitoramento usando Microsoft SQL Server Management Studio. Este comando substituirá todas as entradas no [QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef] tabela.
+Os clientes Skype for Business mais recentes relatam novas IDs de token de problema (\> 100) que podem não estar presentes em seu [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef] tabela. Para atualizar a tabela de banco de dados com as definições de token mais recentes, o comando SQL abaixo pode ser executado no banco de dados de monitoramento usando Microsoft SQL Server Management Studio. Este comando substituirá todas as entradas no [QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef] tabela.
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

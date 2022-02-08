@@ -1,7 +1,7 @@
 ---
 title: Expiração e renovação de equipe no Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 543678baf7604b4c7ea80a4c913ba8713ed841b2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bbb9e774648a7fc3c73744e8e32a69a1beeb9591
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828434"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387609"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiração e renovação de equipe no Microsoft Teams
 
 Organizações com um grande número de equipes geralmente têm equipes que nunca são realmente usadas. Isso pode acontecer devido a vários motivos, incluindo experimentação de produto, colaboração de equipe de curto prazo ou proprietários de equipe deixando a organização. Com o tempo, essas equipes podem se acumular e criar uma sobrecarga nos recursos do locatário.  
 
-Para reduzir o número de equipes não usadas, como administrador, você pode usar Microsoft 365 política de expiração de grupo para limpar automaticamente as equipes não usadas. [](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) Como as equipes têm o suporte de grupos, as políticas de expiração de grupo também se aplicam automaticamente às equipes.
+Para reduzir o número de equipes não usadas, como administrador, você pode usar [](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) Microsoft 365 política de expiração de grupo para limpar automaticamente as equipes não usadas. Como as equipes têm o suporte de grupos, as políticas de expiração de grupo também se aplicam automaticamente às equipes.
 
 Quando você aplica uma política de expiração a uma equipe, um proprietário da equipe recebe uma notificação para renovação de equipe 30 dias, 15 dias e 1 dia antes da data de expiração da equipe. Quando o proprietário da equipe recebe a notificação, ele pode clicar em **Renovar agora** nas configurações da equipe para renovar a equipe.
 

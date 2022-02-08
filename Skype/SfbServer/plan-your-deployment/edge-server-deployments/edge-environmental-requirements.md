@@ -1,8 +1,8 @@
 ---
 title: Requisitos ambientais do Servidor de Borda em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumo: saiba mais sobre os requisitos ambientais para o Servidor de Borda Skype for Business Server.'
-ms.openlocfilehash: ce545b6d8242db34a716d386fdca9149c0296a8c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6594b76a66aab6354db516f1223059fe09caf82
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830805"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387969"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos ambientais do Servidor de Borda em Skype for Business Server
  
@@ -40,7 +40,7 @@ Muito planejamento e preparação precisa ocorrer fora do próprio ambiente do S
 ## <a name="topology-planning"></a>Planejamento de topologia
 <a name="TopoPlan"> </a>
 
-Skype for Business Server Topologias do Servidor de Borda são capazes de usar:
+Skype for Business Server topologias do Servidor de Borda são capazes de usar:
   
 - Endereços IP públicos de tabela.
     
@@ -87,11 +87,11 @@ Para ajudá-lo a escolher um, temos a tabela a seguir que fornece um resumo das 
 |Borda consolidada em escala com endereços IP públicos (balanceado de carga DNS)  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim&sup1;  <br/> |
 |Borda consolidada em escala com balanceadores de carga de hardware  <br/> |Sim  <br/> |Não (um registro DNS A por VIP)  <br/> |Sim  <br/> |Sim  <br/> |
    
-&sup1; Exchange O failover de usuário remoto de Unificação de Mensagens (UM) usando o balanceamento de carga DNS requer Exchange 2013 ou mais novo.
+&sup1; Exchange failover de usuário remoto de Unificação de Mensagens (UM) usando o balanceamento de carga DNS requer Exchange 2013 ou mais novo.
   
 ### <a name="ip-address-requirements"></a>Requisitos de endereço IP
 
-Em um nível fundamental, três serviços precisam de endereços IP; Serviço de Borda de Acesso, Serviço de Borda de WebConferência e Serviço de Borda A/V. Você tem a opção de usar três endereços IP, um para cada um dos serviços, ou pode usar um e optar por colocar cada serviço em uma porta diferente (você pode verificar a seção de planejamento de porta e [firewall](edge-environmental-requirements.md#PortFirewallPlan) para obter mais informações sobre alguns desses serviços). Para um único ambiente de Borda consolidado, isso é praticamente ele.
+Em um nível fundamental, três serviços precisam de endereços IP; Serviço de Borda de Acesso, Serviço de Borda de WebConferência e Serviço de Borda A/V. Você tem a opção de usar três endereços IP, um para cada um dos serviços, ou pode usar um e optar por colocar cada serviço em uma porta diferente (você pode verificar a seção de planejamento de [porta e firewall](edge-environmental-requirements.md#PortFirewallPlan) para obter mais informações sobre alguns desses serviços). Para um único ambiente de Borda consolidado, isso é praticamente ele.
   
 > [!NOTE]
 > Conforme mencionado acima, você pode optar por ter um endereço IP para todos os três serviços e execute-os em portas diferentes. Mas, para esclarecer, não recomendamos isso. Se seus clientes não puderem acessar as portas alternativas que você estaria usando neste cenário, eles também não poderão acessar a funcionalidade completa do seu ambiente de Borda. 
@@ -120,11 +120,11 @@ Vamos ver algumas coisas adicionais para pensar durante o planejamento.
   
 - **Alta disponibilidade**: se você precisar de alta disponibilidade em sua implantação, deverá implantar pelo menos dois Servidores de Borda em um pool. Vale a pena notar que um único pool de Borda dará suporte a até 12 Servidores de Borda (embora o Construtor de Topologias permita que você adicione até 20, que não seja testado ou suportado, portanto, recomendamos que você não faça isso). Se você precisar de mais de 12 Servidores de Borda, crie pools de Borda adicionais para eles.
     
-- **Balanceamento de carga de hardware:** recomendamos balanceamento de carga DNS para a maioria dos cenários. O balanceamento de carga de hardware também é suportado, é claro, mas, notadamente, é necessário para um único cenário sobre o balanceamento de carga DNS:
+- **Balanceamento de carga de hardware**: recomendamos balanceamento de carga DNS para a maioria dos cenários. O balanceamento de carga de hardware também é suportado, é claro, mas, notadamente, é necessário para um único cenário sobre o balanceamento de carga DNS:
     
   - Acesso externo ao Exchange 2007 ou Exchange 2010 (sem SP) Unificação de Mensagens (UM).
     
-- **Balanceamento de** carga DNS : para UM, Exchange 2010 SP1 e mais novos podem ser suportados pelo balanceamento de carga DNS. Observe que, se você precisar ir com o balanceamento de carga DNS para uma versão anterior do Exchange, ele funcionará, mas todo o tráfego para isso irá para o primeiro servidor no pool e, se ele não estiver disponível, esse tráfego falhará subsequentemente.
+- **Balanceamento de** carga DNS: para UM, Exchange 2010 SP1 e mais novos podem ser suportados pelo balanceamento de carga DNS. Observe que, se você precisar ir com o balanceamento de carga DNS para uma versão anterior do Exchange, ele funcionará, mas todo o tráfego para isso irá para o primeiro servidor no pool e, se ele não estiver disponível, esse tráfego falhará subsequentemente.
     
     O balanceamento de carga DNS também é recomendado se você estiver federando com empresas usando:
 - Skype for Business Server 2015:
@@ -139,7 +139,7 @@ Vamos ver algumas coisas adicionais para pensar durante o planejamento.
 ## <a name="dns-planning"></a>Planejamento DNS
 <a name="DNSPlan"> </a>
 
-Quando se trata de Skype for Business Server implantação do Servidor de Borda, é fundamental preparar o DNS corretamente. Com os registros corretos no local, a implantação será muito mais simples. Esperamos que você tenha escolhido uma topologia na seção acima, pois vamos fazer uma visão geral e listar algumas tabelas delineando os registros DNS para esses cenários. Também teremos algum planejamento DNS do Servidor de [Borda Avançada para](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) Skype for Business Server para leitura mais detalhada, se você precisar.
+Quando se trata de Skype for Business Server implantação do Servidor de Borda, é fundamental preparar o DNS corretamente. Com os registros corretos no local, a implantação será muito mais simples. Esperamos que você tenha escolhido uma topologia na seção acima, pois vamos fazer uma visão geral e listar algumas tabelas delineando os registros DNS para esses cenários. Também teremos algum planejamento DNS do Servidor de Borda [Avançada para](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) Skype for Business Server para leitura mais detalhada, se você precisar.
   
 ### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>Registros DNS para cenários de Servidor de Borda consolidado único
 
@@ -179,7 +179,7 @@ Os endereços IP públicos de Webconferência e Borda A/V são endereços IP adi
     
 - Você pode ter três adaptadores de rede externos em vez de um e atribuir um dos IPs de serviço a cada um. Por que fazer isso? Ele separaria os serviços e, se algo desse errado, isso facilitaria a solução de problemas e, potencialmente, permitiria que seus outros serviços continuasse funcionando enquanto você resolvesse um problema.
     
-|**Localização**|**Tipo**|**Port**|**FQDN ou registro DNS**|**Endereço IP ou FQDN**|**Anotações**|
+|**Localização**|**Tipo**|**Porta**|**FQDN ou registro DNS**|**Endereço IP ou FQDN**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |Um registro  <br/> |NA  <br/> |sip.contoso.com  <br/> |**público:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Uma interface externa para seu serviço de Borda de Acesso. Você precisará de um para cada domínio SIP com Skype for Business usuários.  <br/> |
 |DNS externo  <br/> |Um registro  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**público:** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Uma interface externa para seu serviço de Borda de WebConferência.  <br/> |
@@ -253,7 +253,7 @@ Há outras configurações possíveis aqui:
     
 - Você pode ter três adaptadores de rede externos em vez de um e atribuir um dos IPs de serviço a cada um. Por que fazer isso? Ele separaria os serviços e, se algo desse errado, isso facilitaria a solução de problemas e, potencialmente, permitiria que seus outros serviços continuasse funcionando enquanto você resolvesse um problema.
     
-|**Localização**|**Tipo**|**Port**|**FQDN ou registro DNS**|**Endereço IP ou FQDN**|**Anotações**|
+|**Localização**|**Tipo**|**Porta**|**FQDN ou registro DNS**|**Endereço IP ou FQDN**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |Um registro  <br/> |NA  <br/> |sip.contoso.com  <br/> |**público:** 131.107.155.10 e 131.107.155.11 <br/> **private:** 10.45.16.10 e 10.45.16.11 <br/> |Uma interface externa para seu serviço de Borda de Acesso. Você precisará de um para cada domínio SIP com Skype for Business usuários.  <br/> |
 |DNS externo  <br/> |Um registro  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**público:** 131.107.155.20 e 131.107.155.21 <br/> **private:** 10.45.16.20 e 10.45.16.21 <br/> |Uma interface externa para seu serviço de Borda de WebConferência.  <br/> |
@@ -264,13 +264,13 @@ Há outras configurações possíveis aqui:
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>Registro DNS para federação (todos os cenários)
 
-|**Localização**|**Tipo**|**Port**|**FQDN**|**Registro de host FQDN**|**Anotações**|
+|**Localização**|**Tipo**|**Porta**|**FQDN**|**Registro de host FQDN**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |A interface externa de Borda de Acesso SIP necessária para a descoberta automática de DNS. Usado por seus outros parceiros de federação em potencial. Também é conhecido como "Permitir domínios SIP". Você precisará de um desses para cada domínio SIP com Skype for Business usuários.  <br/><br/> **Observação:** Você precisará desse registro SRV para mobilidade e a casa de limpeza de notificação por push. <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>Registros DNS para o protocolo de presença e mensagens extensíveis
 
-|**Localização**|**Tipo**|**Port**|**FQDN**|**Endereço IP ou registro de host FQDN**|**Anotações**|
+|**Localização**|**Tipo**|**Porta**|**FQDN**|**Endereço IP ou registro de host FQDN**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |A interface proxy XMPP no seu serviço de Borda de Acesso ou pool de Borda. Você precisa repetir isso conforme necessário para todos os domínios SIP internos com Skype for Business Server usuários habilitados, onde o contato com contatos XMPP é permitido através de:  <br/> • uma política global  <br/> • uma política de site em que o usuário está habilitado  <br/> • uma política de usuário aplicada ao usuário Skype for Business Server usuário habilitado  <br/> Uma política XMPP permitida também precisa ser configurada na política de usuários federados XMPP.  <br/> |
 |DNS externo  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |Endereço IP do serviço de Borda de Acesso no Servidor de Borda ou pool de Borda que hospeda seu serviço proxy XMPP  <br/> |Isso aponta para o serviço de Borda de Acesso no Servidor de Borda ou pool de Borda que hospeda o serviço proxy XMPP. Normalmente, o registro SRV que você criar apontará para esse registro host (A ou AAAA).  <br/> |
@@ -287,7 +287,7 @@ Discutiremos as necessidades externas e internas de certificados separadamente e
   
 ### <a name="external-certificates"></a>Certificados Externos
 
-No mínimo, o certificado atribuído às interfaces externas do Servidor de Borda precisará ser fornecido por uma Autoridade de Certificação (CA) pública. Não é possível recomendar uma AC específica para você, mas [](../../../SfbPartnerCertification/certification/services-ssl.md) temos uma lista de CAs, parceiros de certificado de Comunicações Unificadas que você pode dar uma olhada para ver se sua AC preferida está listada.
+No mínimo, o certificado atribuído às interfaces externas do Servidor de Borda precisará ser fornecido por uma Autoridade de Certificação (CA) pública. Não é possível recomendar uma AC específica para você, mas temos uma lista de CAs [, parceiros](../../../SfbPartnerCertification/certification/services-ssl.md) de certificado de Comunicações Unificadas que você pode dar uma olhada para ver se sua AC preferida está listada.
   
 Quando você precisará enviar uma solicitação a uma AC para esse certificado público e como fazer isso? Há algumas maneiras de fazer isso:
   
@@ -316,11 +316,11 @@ Para a interface interna do Servidor de Borda, você pode usar um certificado p�
 
 Temos uma tabela aqui para ajudá-lo com suas solicitações. As entradas FQDN aqui são apenas para domínios de exemplo. Você precisará fazer solicitações com base em seus próprios domínios particulares e públicos, mas aqui está um guia para o que temos usado:
   
-- contoso <span></span> .com: FQDN público
+- contoso.com<span></span>: FQDN público
     
-- fabrikam .com: Segundo FQDN público (adicionado como uma demonstração do que solicitar se você <span></span> tiver vários domínios SIP)
+- fabrikam.com<span></span>: Segundo FQDN público (adicionado como uma demonstração do que solicitar se você tiver vários domínios SIP)
     
-- Contoso <span></span> .net: Domínio interno
+- Contoso.net<span></span>: Domínio interno
     
 #### <a name="edge-certificate-table"></a>Tabela de Certificados de Borda
 
@@ -333,16 +333,16 @@ Independentemente de você estar fazendo um único Servidor de Borda ou um pool 
    
 Se você precisar de um certificado para XMPP (Extensible Messaging and Presence Protocol), ele será idêntico às entradas da tabela de Borda Externa acima, mas terá as duas entradas DE SAN adicionais a seguir:
   
-- xmpp. <span></span> contoso <span></span> .com
+- xmpp.<span></span> contoso.com<span></span>
     
-- \*.contoso <span></span> .com
+- \*.contoso.com<span></span>
     
 Lembre-se de que atualmente o XMPP só tem suporte no Skype for Business Server para o Google Talk, se você quiser ou precisa usá-lo para qualquer outra coisa, você precisa confirmar essa funcionalidade com o fornecedor de terceiros envolvido.
   
 ## <a name="port-and-firewall-planning"></a>Planejamento de porta e firewall
 <a name="PortFirewallPlan"> </a>
 
-Obter o planejamento correto para portas e firewalls para Skype for Business Server implantações do Servidor de Borda pode salvar dias ou semanas de solução de problemas e estresse. Como resultado, vamos listar algumas tabelas que indicarão nosso uso de protocolo e quais portas você precisa ter abertas, de entrada e de saída, para cenários NAT e IP públicos. Também teremos tabelas separadas para cenários de carga balanceada de hardware (HLB) e algumas outras orientações sobre isso. Para obter mais leitura a partir daí, também temos alguns [cenários](scenarios.md) do Servidor de Borda Skype for Business Server você pode verificar suas preocupações de implantação específicas.
+Obter o planejamento correto para portas e firewalls para Skype for Business Server implantações do Servidor de Borda pode salvar dias ou semanas de solução de problemas e estresse. Como resultado, vamos listar algumas tabelas que indicarão nosso uso de protocolo e quais portas você precisa ter abertas, de entrada e de saída, para cenários NAT e IP públicos. Também teremos tabelas separadas para cenários de carga balanceada de hardware (HLB) e algumas outras orientações sobre isso. Para obter mais leitura a partir daí, também temos alguns [cenários do Servidor de Borda](scenarios.md) Skype for Business Server você pode verificar suas preocupações de implantação específicas.
   
 ### <a name="general-protocol-usage"></a>Uso geral do protocolo
 
@@ -355,7 +355,7 @@ Antes de analisarmos as tabelas de resumo para firewalls externos e internos, va
    
 ### <a name="external-port-firewall-summary-table"></a>Tabela de resumo do firewall de porta externa
 
-O endereço IP de origem e o endereço IP de destino conterão informações para os usuários que estão usando endereços IP privados com NAT, bem como pessoas que usam endereços IP públicos. Isso abrange todas as permutações em nossos [cenários](scenarios.md) do Servidor de Borda na Skype for Business Server seção.
+O endereço IP de origem e o endereço IP de destino conterão informações para os usuários que estão usando endereços IP privados com NAT, bem como pessoas que usam endereços IP públicos. Isso abrange todas as permutações em nossos [cenários do Servidor de Borda na Skype for Business Server](scenarios.md) seção.
   
 |**Função ou protocolo**|**TCP ou UDP**|**Porta de Destino ou intervalo de portas**|**Endereço IP de origem**|**Endereço IP de destino**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -376,7 +376,7 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
    
 ### <a name="internal-port-firewall-summary-table"></a>Tabela de resumo do firewall de porta interna
 
-|**Protocolo**|**TCP ou UDP**|**Port**|**Endereço IP de origem**|**Endereço IP de destino**|**Anotações**|
+|**Protocolo**|**TCP ou UDP**|**Porta**|**Endereço IP de origem**|**Endereço IP de destino**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Qualquer um dos seguintes serviços executando o serviço gateway XMPP:  <br/> • Servidor Front-End  <br/> • Pool de Front-End  <br/> |Interface interna do Servidor de Borda  <br/> |Tráfego XMPP de saída do serviço gateway XMPP em execução no servidor front-end ou pool de front-end.  <br/> **Observação:** Gateways XMPP e proxies estão disponíveis no Skype for Business Server 2015, mas não são mais suportados no Skype for Business Server 2019. Consulte [Migrando federação XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obter mais informações.|
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Qualquer:  <br/> • Diretor  <br/> • Pool de diretores  <br/> • Servidor Front-End  <br/> • Pool de Front-End  <br/> |Interface interna do Servidor de Borda  <br/> |Tráfego SIP de saída do diretor, pool de diretores, servidor front-end ou pool de front-end para sua interface interna do Servidor de Borda.  <br/> |
@@ -396,7 +396,7 @@ Estamos dando aos balanceadores de carga de hardware (HLBs) e portas de Borda su
   
 #### <a name="external-port-firewall-summary-table"></a>Tabela de resumo do firewall de porta externa
 
-O endereço IP de origem e o endereço IP de destino conterão informações para os usuários que estão usando endereços IP privados com NAT, bem como pessoas que usam endereços IP públicos. Isso abrange todas as permutações em nossos [cenários](scenarios.md) do Servidor de Borda na Skype for Business Server seção.
+O endereço IP de origem e o endereço IP de destino conterão informações para os usuários que estão usando endereços IP privados com NAT, bem como pessoas que usam endereços IP públicos. Isso abrange todas as permutações em nossos [cenários do Servidor de Borda na Skype for Business Server](scenarios.md) seção.
   
 |**Função ou protocolo**|**TCP ou UDP**|**Porta de Destino ou intervalo de portas**|**Endereço IP de origem**|**Endereço IP de destino**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -412,7 +412,7 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
    
 #### <a name="internal-port-firewall-summary-table"></a>Tabela de resumo do firewall de porta interna
 
-|**Protocolo**|**TCP ou UDP**|**Port**|**Endereço IP de origem**|**Endereço IP de destino**|**Anotações**|
+|**Protocolo**|**TCP ou UDP**|**Porta**|**Endereço IP de origem**|**Endereço IP de destino**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Qualquer um dos seguintes serviços executando o serviço gateway XMPP:  <br/> • Servidor Front-End  <br/> • Endereço VIP do pool de front-end executando o serviço gateway XMPP  <br/> |Interface interna do Servidor de Borda  <br/> |Tráfego XMPP de saída do serviço gateway XMPP em execução no servidor front-end ou pool de front-end.  <br/><br/> **Observação:** Gateways XMPP e proxies estão disponíveis no Skype for Business Server 2015, mas não são mais suportados no Skype for Business Server 2019. Consulte [Migrando federação XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obter mais informações. |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Qualquer:  <br/> • Servidor Front-End que mantém o armazenamento de Gerenciamento Central  <br/> • Pool de Front-End que mantém o armazenamento de Gerenciamento Central  <br/> |Interface interna do Servidor de Borda  <br/> |Replicação de alterações do seu armazenamento de Gerenciamento Central para o Servidor de Borda.  <br/> |
@@ -446,7 +446,7 @@ Nossas diretrizes aqui serão um pouco diferentes. Na verdade, em uma situação
     
 A tabela a seguir dá orientações para esses cenários, mas caso contrário, você deve ser capaz de depender do Armazenamento de Gerenciamento Central (CMS) para rotear o tráfego para o Servidor de Borda individual que ele está ciente (isso exige que o CMS seja mantido atualizado nas informações do Servidor de Borda, claro).
   
-|**Protocolo**|**TCP ou UDP**|**Port**|**Endereço IP de origem**|**Endereço IP de destino**|**Anotações**|
+|**Protocolo**|**TCP ou UDP**|**Porta**|**Endereço IP de origem**|**Endereço IP de destino**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Qualquer:  <br/> • Diretor  <br/> • Endereço VIP do pool de diretores  <br/> • Servidor Front-End  <br/> • Endereço VIP do pool front-end  <br/> |Interface interna do Servidor de Borda  <br/> |Tráfego SIP de saída do diretor, endereço VIP do pool de diretores, servidor front-end ou endereço VIP do pool de front-end para sua interface interna do Servidor de Borda.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interface VIP interna do Servidor de Borda  <br/> |Qualquer:  <br/> • Diretor  <br/> • Endereço VIP do pool de diretores  <br/> • Servidor Front-End  <br/> • Endereço VIP do pool front-end  <br/> |Tráfego SIP de entrada para o diretor, endereço VIP do pool de diretores, servidor front-end ou endereço VIP do pool de front-end da interface interna do Servidor de Borda.  <br/> |

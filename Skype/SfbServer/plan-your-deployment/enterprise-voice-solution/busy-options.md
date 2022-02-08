@@ -1,8 +1,8 @@
 ---
 title: Planejar opções de ocupado para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Leia sobre o recurso Opções de Ocupado Skype for Business Server.
-ms.openlocfilehash: b233260327688830a338989c14ef0eb24ade781e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6d020887b4eac47cb54ba96e8b72a0393f21014c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854225"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387829"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planejar opções de ocupado para Skype for Business Server
  

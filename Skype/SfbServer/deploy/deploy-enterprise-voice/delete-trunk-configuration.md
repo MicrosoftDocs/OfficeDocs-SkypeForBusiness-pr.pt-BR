@@ -1,8 +1,8 @@
 ---
 title: 'Skype for Business Server: excluir uma coleção existente de configurações de tronco SIP'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumo: saiba como excluir uma coleção de configurações de tronco usando o painel Skype for Business Server Controle.'
-ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0258b509dee67a657b67d567f5986b240823cf29
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860878"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388883"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server: excluir uma coleção existente de configurações de tronco SIP 
  
@@ -45,7 +45,7 @@ Os administradores também podem criar configurações personalizadas de tronco 
     
 ### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Para remover as configurações de tronco com Skype for Business Server Painel de Controle
 
-1. Em Skype for Business Server Painel de Controle, clique em **Roteamento** de Voz e clique em **Configuração de Tronco.**
+1. Em Skype for Business Server Painel de Controle, clique em **Roteamento** de Voz e clique em **Configuração do Tronco**.
     
 2. Na guia **Configuração do** Tronco, selecione a coleção de configurações de tronco SIP a serem excluídas, clique em **Editar** e clique em **Excluir**. Para excluir várias coleções na mesma operação, clique na primeira coleção a ser excluída, segure a tecla Ctrl e clique em quaisquer outras coleções que você deseja remover.
     
@@ -53,13 +53,13 @@ Os administradores também podem criar configurações personalizadas de tronco 
     
 4. Na caixa de diálogo **Configurações de Voz Não Vinculadas**, clique em **OK**.
     
-5. Na caixa **Skype for Business Server Painel de Controle,** clique em **OK**.
+5. Na caixa **Skype for Business Server Painel de Controle**, clique em **OK**.
     
-6. Se você mudar de ideia e decidir não excluir a coleção, clique em **Confirmação** e, em seguida, clique em Cancelar Todas as Alterações **Não Confirmados**. Quando a **caixa Skype for Business Server painel de controle** for exibida, clique em **OK**.
+6. Se você mudar de ideia e decidir não excluir a coleção, clique em **Confirmação** e clique em **Cancelar Todas as Alterações Não Emitidas**. Quando a **caixa Skype for Business Server painel de controle** for exibida, clique em **OK**.
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Removendo a configuração de tronco Configurações usando cmdlets Skype for Business Server Shell de Gerenciamento
 
-Você pode excluir as configurações de tronco usando o Shell de Gerenciamento Skype for Business Server e o cmdlet **Remove-CsTrunkConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota do Shell de Gerenciamento Skype for Business Server Gerenciamento.
+Você pode excluir as configurações de tronco usando o Shell de Gerenciamento Skype for Business Server e o cmdlet **Remove-CsTrunkConfiguration**. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota do Shell de Gerenciamento Skype for Business Server Gerenciamento.
   
 ### <a name="to-remove-a-specified-collection-of-settings"></a>Para remover uma coleção especificada de configurações
 
@@ -85,4 +85,4 @@ Você pode excluir as configurações de tronco usando o Shell de Gerenciamento 
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsTrunkConfiguration.](/powershell/module/skype/remove-cstrunkconfiguration)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) .

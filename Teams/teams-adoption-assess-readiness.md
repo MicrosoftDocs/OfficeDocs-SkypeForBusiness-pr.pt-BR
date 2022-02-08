@@ -1,7 +1,7 @@
 ---
 title: Sua organização está preparada para o Microsoft Teams?
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 105df2024ad67710b1de1e92208deeab6c7b9226
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd02e915ad6ced07afdf2f9dc9dbf29e8a68b69d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865620"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387479"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Sua organização está preparada para o Microsoft Teams?
 
@@ -74,7 +74,7 @@ A mudança é um processo humano que não tem nada a ver com tecnologia. Há a p
 
 ![Graph ilustrando a resistência à alteração.](media/teams-adoption-resistance.png)
 
-Todas as abordagens da organização mudam de forma diferente, dependendo da região, estilo de trabalho, perfil profissional e outros elementos da organização. Para avaliar a prontidão da sua organização, consulte [Avaliar a prontidão de alterações organizacionais.](upgrade-org-change-readiness.md) Use as diretrizes para responder às seguintes perguntas:
+Todas as abordagens da organização mudam de forma diferente, dependendo da região, estilo de trabalho, perfil profissional e outros elementos da organização. Para avaliar a preparação da sua organização, consulte [Avaliar a prontidão de alterações organizacionais](upgrade-org-change-readiness.md). Use as diretrizes para responder às seguintes perguntas:
 
 1. Qual porcentagem de usuários se enquadra em cada bucket? (*Resistência a alterações*)
     - **Primeiros adotantes**: solicite a solução antes de ela estar disponível.
@@ -104,4 +104,4 @@ Combine esses dados com os perfis de participantes e os funcionários que deseja
 
 Você pode usar os campeões internos para resolver o problema de ter tipos de alteração diferentes. Aqui, os comentários são a chave para o sucesso: incentivar as pessoas a compartilhar seus desafios e necessidades. Aceite os disruptadores e os dissensos, dando a esses indivíduos ou grupos um assento na tabela durante a experimentação. Essa prática prática abrirá o caminho para uma implantação mais suave e ampla de suas melhorias de colaboração.  
 
-![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: [Microsoft Teams fase de adoção 2: Experimento](teams-adoption-phase2-experiment.md) 
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: Microsoft Teams [fase de adoção 2: Experimento](teams-adoption-phase2-experiment.md) 

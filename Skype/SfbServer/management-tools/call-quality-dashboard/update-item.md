@@ -1,8 +1,8 @@
 ---
 title: Atualizar Item
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: 'Resumo: saiba mais sobre a operação Atualizar Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 4140909786c3144dbc043568a5ca6aa2995a0720
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ea8a72f70b252cb44a1e4cb15e24cc3718e4be2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845394"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384249"
 ---
 # <a name="update-item"></a>Atualizar Item
  
@@ -32,7 +32,7 @@ Atualizar Item atualiza um item específico no repositório.
 
 |**Method**|**Solicitar URI**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repositório/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |\<portal\>https:///QoERepositoryService/repositório/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **Parâmetros URI** - Nenhum.
   

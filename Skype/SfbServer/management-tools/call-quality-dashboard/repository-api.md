@@ -1,8 +1,8 @@
 ---
 title: API de repositório para CQD (Painel de Qualidade de Chamada) no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Resumo: saiba mais sobre a API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: e050ecd4367f2d63febf376e42f435c5ec6850f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 19d1f456afdf9f72721d1a246b206ad4f7259f14
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849884"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386569"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de repositório para CQD (Painel de Qualidade de Chamada) no Skype for Business Server
  
@@ -34,7 +34,7 @@ A API de repositório consiste em três serviços gerais:
   
 - [Serviço de Usuário para CQD](user-service.md) - para acessar Usuários.
     
-- Serviço de Item para Painel de Qualidade [de Chamada (CQD)](item-service.md) - para acessar Itens e o conteúdo armazenado em Itens.
+- [Serviço de Item para Painel de Qualidade de Chamada (CQD)](item-service.md) - para acessar Itens e o conteúdo armazenado em Itens.
     
 - [User Configurações Service for Call Quality Dashboard (CQD)](user-settings-service.md) - para acessar o Usuário Configurações.
     
@@ -50,7 +50,7 @@ O Painel de Qualidade de Chamada usa a API do Repositório para gerenciar as seg
     
   **Suporte a CORS (Compartilhamento de Recursos entre Origens) para API de Repositório**
   
-A API do Repositório dá suporte ao CORS (Compartilhamento de Recursos entre Origens). O CORS é um recurso HTTP que permite que um aplicativo Web em execução em um domínio acesse recursos em outro domínio. Os navegadores da Web [](https://www.w3.org/Security/wiki/Same_Origin_Policy) implementam uma restrição de segurança conhecida como política de mesma origem da Política de Mesma Origem que impede uma página da Web de chamar APIs em um domínio diferente. O CORS fornece uma maneira segura de permitir que um domínio (o domínio de origem) chame APIs em outro domínio. Consulte a [especificação do CORS](https://www.w3.org/TR/cors/) para obter detalhes sobre o CORS.
+A API do Repositório dá suporte ao CORS (Compartilhamento de Recursos entre Origens). O CORS é um recurso HTTP que permite que um aplicativo Web em execução em um domínio acesse recursos em outro domínio. Os navegadores da Web implementam uma restrição de segurança conhecida como política de mesma origem da Política de Mesma Origem que impede uma página da Web de chamar APIs em um domínio diferente.[](https://www.w3.org/Security/wiki/Same_Origin_Policy) O CORS fornece uma maneira segura de permitir que um domínio (o domínio de origem) chame APIs em outro domínio. Consulte a [especificação do CORS](https://www.w3.org/TR/cors/) para obter detalhes sobre o CORS.
   
  **Habilitando o CORS para API de Repositório**
   

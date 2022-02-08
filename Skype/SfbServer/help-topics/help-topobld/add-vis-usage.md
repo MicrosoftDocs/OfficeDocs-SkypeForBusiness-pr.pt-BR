@@ -1,8 +1,8 @@
 ---
 title: Adicionar Uso do VIS
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server 2015.
-ms.openlocfilehash: d42048c063c58a348446c781531c9cf7e56a8737
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1ee5ee43ff182603e95dba2de9960697dfe6421b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842063"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388319"
 ---
 # <a name="add-vis-usage"></a>Adicionar Uso do VIS
  
 As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em [Create a VIS pool in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-As etapas necessárias para atribuir uma função de Servidor de Interop de Vídeo em um servidor usando Windows PowerShell são descritas online em Deploy the [VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+As etapas necessárias para atribuir uma função de Servidor de Interop de Vídeo em um servidor usando Windows PowerShell são descritas online em [Deploy the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
 As etapas de configuração para um novo Servidor de Interop de Vídeo usando Windows PowerShell são descritas online em [Configure the Video Interop Server in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
   

@@ -1,8 +1,8 @@
 ---
 title: Publicar Página de Pool de Redefinição de Topologia
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta é a documentação preliminar e está sujeita a alterações. Tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: b3fa8e43f359758103ae2732de6fa3c27ae37f4e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 479eb295f890ed2aba07274d16f95559d96a6522
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858458"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384899"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Publicar Página de Pool de Redefinição de Topologia
  

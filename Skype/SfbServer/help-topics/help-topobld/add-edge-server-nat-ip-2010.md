@@ -1,8 +1,8 @@
 ---
 title: Adicionar IP NAT de Servidor de Borda 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aacc1166-0f3b-4593-9747-85bb42ee4599
 description: Se o endereço IP deste pool de Borda for convertido por uma NAT (conversão de endereços de rede), será necessário especificar o endereço IP público a ser convertido. Esse endereço deve ser o endereço IP externo do serviço de Borda A/V.
-ms.openlocfilehash: c774c7c7a7ce387bea0a92b8f71dbc2b4ced8802
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4141db742d97d190352c1be101c6857d5d3e4743
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834309"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385889"
 ---
 # <a name="add-edge-server-nat-ip-2010"></a>Adicionar IP NAT de Servidor de Borda 2010
  

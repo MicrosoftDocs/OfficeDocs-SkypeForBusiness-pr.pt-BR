@@ -1,8 +1,8 @@
 ---
 title: Mover dados do armazenamento de arquivos para um novo armazenamento de arquivos no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Se você precisar remover o servidor de arquivos que está atuando como o armazenamento de arquivos para sua implantação do Skype for Business Server, ou se precisar fazer outras alterações que indisponíveis o armazenamento de arquivos atual, primeiro você precisará criar um novo compartilhamento. Em seguida, você precisa executar as seguintes etapas:'
-ms.openlocfilehash: ab214a4ed23810aa14cefed205cf33dbccb52849
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3a1825d6854d79e0ad9118b983b3f5c463f6d754
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838543"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390063"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Mover dados do armazenamento de arquivos para um novo armazenamento de arquivos no Skype for Business Server
 
@@ -45,15 +45,15 @@ Se você precisar remover o servidor de arquivos que está atuando como o armaze
 
 5. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
 
-6. Iniciar Construtor de Topologias: clique em **Iniciar,** **clique** em Todos os Programas, Skype for Business Server **e** clique Skype for Business Server Construtor **de Topologias.**
+6. Iniciar Construtor de Topologias: clique em **Iniciar**, em **Todos** os Programas, Skype for Business Server e clique **Skype for Business Server Construtor de Topologias**.
 
 7. Selecione um servidor ou pool que use o armazenamento de arquivos e faça o seguinte:
 
    a. Clique com o botão direito do mouse no servidor ou pool e clique em **Editar Propriedades**.
 
-   b. Em **Editar propriedades,** em **Associações**, em **Armazenamento de arquivos,** clique em **Novo**.
+   b. Em **Editar propriedades**, em **Associações**, em **Armazenamento de arquivos**, clique em **Novo**.
 
-   c. Em **Definir Novo Armazenamento de Arquivos,** em **FQDN** do servidor de arquivos, digite o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos. Em **Compartilhamento de** arquivos, digite o nome da pasta para o novo compartilhamento de arquivos e clique em **OK**.
+   c. Em **Definir Novo Armazenamento de Arquivos**, em **FQDN** do servidor de arquivos, digite o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos. Em **Compartilhamento de** arquivos, digite o nome da pasta para o novo compartilhamento de arquivos e clique em **OK**.
 
      > [!IMPORTANT]
      > Esta etapa define um novo armazenamento de arquivos para uso no Construtor de Topologias. Você o define apenas uma vez, não para cada servidor. Antes de publicar a topologia, você deve criar o compartilhamento de arquivos definido no servidor de arquivos especificado. Para detalhes, consulte [Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14)).
@@ -62,11 +62,11 @@ Se você precisar remover o servidor de arquivos que está atuando como o armaze
 
    a. Clique com o botão direito do mouse no servidor ou pool e clique em **Editar propriedades**.
 
-   b. Em **Editar Propriedades,** em **Associações**, no **Armazenamento** de arquivos, selecione o novo compartilhamento de arquivos e clique em **OK**.
+   b. Em **Editar Propriedades**, em **Associações**, no **Armazenamento** de arquivos, selecione o novo compartilhamento de arquivos e clique em **OK**.
 
 9. Publique a topologia, verifique o status da replicação e execute o Assistente Skype for Business Server implantação, conforme necessário. Para obter detalhes, consulte [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
 
-10. Inicie um prompt de comando: clique em **Iniciar,** clique em **Executar** e digite cmd.exe.
+10. Inicie um prompt de comando: clique em **Iniciar**, em **Executar** e digite cmd.exe.
 
 11. Na linha de comando, digite o seguinte:
 
@@ -79,7 +79,7 @@ Se você precisar remover o servidor de arquivos que está atuando como o armaze
 
 12. Quando a cópia de dados estiver concluída, no Painel de Controle do Lync Server, clique em **Topologia** e clique em **Status**.
 
-13. Para cada servidor ou pool onde você parou serviços, selecione o servidor ou pool, clique em **Ação** e clique em **Iniciar todos os serviços.**
+13. Para cada servidor ou pool onde você parou serviços, selecione o servidor ou pool, clique em **Ação** e clique em **Iniciar todos os serviços**.
 
 14. Remova o repositório de arquivos antigo da topologia e publique-a. Para detalhes, consulte [Remove a file store](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14)).
 

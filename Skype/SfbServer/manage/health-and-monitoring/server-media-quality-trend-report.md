@@ -1,8 +1,8 @@
 ---
 title: Relatório de tendência de qualidade de mídia do servidor no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 'Resumo: saiba mais sobre o Relatório de Tendências de Qualidade de Mídia do Servidor Skype for Business Server.'
-ms.openlocfilehash: 03091deedf502c4a6d9d65dc5e9f14532a9147ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 05458e90e90189de46c26dd51eced8a9175e6afd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851014"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385581"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Relatório de tendência de qualidade de mídia do servidor no Skype for Business Server
  
@@ -31,13 +31,13 @@ O relatório de tendências de qualidade de mídia do servidor pode ser acessado
   
 - [Relatório de Desempenho do Servidor Skype for Business Server](server-performance.md) (clicando na métrica Tendência)
     
-- [Relatório de Detalhes](call-detail-report.md) de Chamada Skype for Business Server (clicando na métrica do servidor de borda A/V. Se o chamador ou chamador for um servidor, você também poderá acessar o Relatório de Tendência de Mídia de Qualidade do Servidor clicando no nome do ponto de extremidade.)
+- [Relatório de Detalhes de Chamada Skype for Business Server](call-detail-report.md) (clicando na métrica do servidor de borda A/V. Se o chamador ou chamador for um servidor, você também poderá acessar o Relatório de Tendência de Mídia de Qualidade do Servidor clicando no nome do ponto de extremidade.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Aproveitando ao máximo o relatório de tendências de qualidade de mídia do servidor
 
 Quando você clica na métrica Tendência no Relatório de [Desempenho](server-performance.md) do Servidor Skype for Business Server um servidor específico, o Relatório de Tendência de Qualidade de Mídia do Servidor será aberto. No entanto, você verá uma instância em branco do relatório; o servidor selecionado no Relatório de desempenho do servidor não será exibido na tela. Será necessário selecionar o servidor em questão no menu suspenso "Servidores". O menu suspenso "Servidores" apresenta também a opção "Seleciontar tudo". Essa opção não funcionará caso haja mais de cinco servidores; o relatório de tendências de qualidade de mídia do servidor só pode exibir dados para, no máximo, cinco servidores por vez.
   
-Nos gráficos exibidos pelo Relatório de Tendência de Qualidade de Mídia do Servidor, os pontos rotulados volume de chamada e porcentagem de chamada ruim são hotlinks; clicar em um ponto no gráfico abrirá uma instância do Relatório de Lista de Chamadas em Skype for Business Server mostrando o total de chamadas (ou chamadas ruins) para o período de tempo especificado. [](call-list-report-0.md)
+Nos gráficos exibidos pelo Relatório de Tendência de Qualidade de Mídia do Servidor, os pontos rotulados volume de chamada e porcentagem de chamada ruim são hotlinks; clicar em um ponto no gráfico abrirá uma instância do Relatório de [](call-list-report-0.md) Lista de Chamadas em Skype for Business Server mostrando o total de chamadas (ou chamadas ruins) para o período de tempo especificado.
   
 ## <a name="filters"></a>Filtros
 
@@ -45,7 +45,7 @@ Os filtros são uma forma de obter dados mais direcionados ou visualizar os dado
   
 **Filtros do relatório de tendências de qualidade de mídia do servidor**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -62,7 +62,7 @@ A tabela a seguir lista as informações fornecidas no relatório de tendências
   
 **Métricas do relatório de tendências de qualidade de mídia do servidor**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas.  <br/> |
 |**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média de degradação de MOS (pontuação de opção média) experimentado durante uma chamada. Os valores de degradação podem variar de um baixo de 0,0 a uma alta de 5,0; um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. Skype for Business Server usa um conjunto de algoritmos para prever como os usuários classificariam uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |

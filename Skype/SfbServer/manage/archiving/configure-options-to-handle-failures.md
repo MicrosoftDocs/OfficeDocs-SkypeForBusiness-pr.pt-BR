@@ -1,8 +1,8 @@
 ---
 title: Configurar opções de arquivamento para lidar com falhas em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Resumo: saiba como bloquear sessões de IM e conferência no caso de uma falha Skype for Business Server que impediria o arquivamento.'
-ms.openlocfilehash: f3f20bf53a784972c720ce5578d78462cbb222c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: caeda2eb86b818faf4b1ec57d4010b182b5957ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836463"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386689"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opções de arquivamento para lidar com falhas em Skype for Business Server
 
@@ -35,7 +35,7 @@ Para especificar se as sessões de comunicação devem ser permitidas em caso de
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e clique em **Configuração do Arquivamento**.
     
-4. Clique no nome da configuração global, site ou pool apropriada na lista de configurações de arquivamento, clique em **Editar** e em **Mostrar detalhes.**
+4. Clique no nome da configuração global, site ou pool apropriada na lista de configurações de arquivamento, clique em **Editar** e em **Mostrar detalhes**.
     
 5. Para definir como o arquivamento se comporta quando ocorre uma falha, marque ou desmarque a caixa de seleção **Bloquear sessões de conferência da Web e mensagens instantâneas (IM) se o arquivamento falhar**.
     
@@ -57,4 +57,4 @@ O próximo comando habilita as comunicações no caso de uma falha de arquivamen
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 
-Para obter mais informações, consulte o tópico Ajuda para o cmdlet [Set-CsArchivingConfiguration.](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps)
+Para obter mais informações, consulte o tópico Ajuda para o cmdlet [Set-CsArchivingConfiguration](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps) .

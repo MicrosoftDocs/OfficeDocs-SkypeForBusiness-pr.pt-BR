@@ -1,8 +1,8 @@
 ---
 title: Adicionar Opções de Servidor de Borda para o Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 'Você define um novo pool de Borda ou Servidor de Borda e tem a oportunidade de definir recursos para o novo servidor ou pool. As opções possíveis são:'
-ms.openlocfilehash: 0c02e03a1e0e1a8c8455be48915f1c488f4d021f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94d8986a1b5e7317e768de4cb54c84a5b0735a07
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845534"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385839"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Adicionar Opções de Servidor de Borda para o Lync Server 2010
 
@@ -33,7 +33,7 @@ Você define um novo pool de Borda ou Servidor de Borda e tem a oportunidade de 
 
 - **Habilitar federação (porta 5061)**: marque essa caixa de seleção se for federar com outras federações SIP, provedores ou ofertas hospedadas que usam o protocolo de início de sessão (SIP).
 
-- O endereço IP externo deste pool de Borda é convertido por **NAT**: marque essa caixa de seleção se você usar endereços IP privados para as interfaces externas de Borda e fornecerá um dispositivo NAT (conversão de endereço de rede) para colocar o Servidor de Borda ou pool de Borda logicamente para trás.
+- O endereço IP externo deste pool de Borda é convertido pelo **NAT**: marque essa caixa de seleção se você usar endereços IP privados para as interfaces externas de Borda e fornecerá um dispositivo NAT (conversão de endereço de rede) para colocar o Servidor de Borda ou pool de Borda logicamente para trás.
 
 ## <a name="see-also"></a>Confira também
 

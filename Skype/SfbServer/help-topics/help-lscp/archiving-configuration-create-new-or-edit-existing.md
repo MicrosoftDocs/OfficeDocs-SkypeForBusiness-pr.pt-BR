@@ -1,8 +1,8 @@
 ---
 title: Configuração de Arquivamento Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Você usa configurações de arquivamento para controlar opções de arquivamento para sua implantação. As configurações de arquivamento incluem a configuração global e, opcionalmente, uma ou mais configurações de site e pool:'
-ms.openlocfilehash: 1de397f6cefb8827e664cfe20bf169151c763049
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3dfeace1bf5f8243e1ee82c76021864ec51182fb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838823"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384789"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuração de Arquivamento: Criar Novo ou Editar Existente
  
@@ -62,7 +62,7 @@ Para definir as configurações para uma configuração de Arquivamento nova ou 
     
     As mensagens instantâneas e conferências são recuperadas automaticamente após as falhas serem corrigidas.
     
-- **Integração Exchange Microsoft** Selecione essa opção se você tiver usuários que estão no Exchange 2013. Com essa opção, Exchange 2013 é usado para armazenar dados para esses usuários, se suas caixas de correio foram colocadas em In-Place Hold. Se todos os seus usuários estão no Exchange 2013, você não precisa configurar bancos de dados SQL Server separados para armazenamento de dados de arquivamento.
+- **Integração Exchange Microsoft** Selecione essa opção se você tiver usuários que estão Exchange 2013. Com essa opção, Exchange 2013 é usado para armazenar dados para esses usuários, se suas caixas de correio foram colocadas em In-Place Hold. Se todos os seus usuários estão no Exchange 2013, você não precisa configurar bancos de dados SQL Server separados para armazenamento de dados de arquivamento.
     
 - **Habilitar a purgação de dados de arquivamento** Selecione essa opção para habilitar a purga e especificar opções de purga, que incluem o seguinte:
     
@@ -73,5 +73,5 @@ Para definir as configurações para uma configuração de Arquivamento nova ou 
     > [!NOTE]
     > Se você habilitar Exchange integração do Microsoft Exchange, a purgação para usuários localizados no Exchange 2013 e com suas caixas de correio colocadas no In-Place Hold será controlada por Exchange. A única exceção é para arquivos de conferência, que são armazenados no Lync Server file share. Esses arquivos serão limpos do compartilhamento de arquivos somente depois que os arquivos foram exportados (carregados para Exchange), se você selecionar a opção para limpar dados após a exportação dos dados de arquivamento ou após o número máximo especificado de dias, se você especificar um número máximo de dias para retenção. 
   
-Para obter detalhes sobre o recurso e os recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)e [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso e recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md) e [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

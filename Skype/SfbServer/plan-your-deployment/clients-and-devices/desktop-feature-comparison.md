@@ -1,7 +1,7 @@
 ---
 title: Comparação de recursos do cliente de área de trabalho Skype for Business Server 2015
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype for Business Server 2015 ou Skype for Business online podem usar essas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: 6b9aa102e7bde4a991295694b0a0d9d92985dbee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b855cca4830473cd0cb9c4198784cec93868fc7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841093"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388029"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de área de trabalho Skype for Business Server 2015
 
@@ -30,11 +30,11 @@ ms.locfileid: "60841093"
   
  Antes de implantar ou atualizar para Skype for Business, verifique quais clientes já estão em uso em sua organização. Use as tabelas abaixo para entender o impacto do suporte a recursos nesses clientes. Isso pode ajudá-lo a comunicar alterações aos usuários, a acompanhar o processo de lançamento e a entender totalmente os benefícios da atualização para o cliente mais recente.
   
-Alguns recursos disponíveis com o Skype for Business Server 2015 não estão disponíveis no Skype for Business Online, consulte Online ou [Hybrid user account limitations](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Os administradores online podem querer se referir [Skype for Business Descrição](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) do Serviço Online para obter informações sobre os diferentes planos disponíveis para eles.
+Alguns recursos disponíveis com o Skype for Business Server 2015 não estão disponíveis no Skype for Business Online, consulte [Online or Hybrid user account limitations](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business administradores online podem querer se referir Skype for Business [Descrição](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) do Serviço Online para obter informações sobre os diferentes planos disponíveis para eles.
 
-Consulte Comparação de recursos do cliente da área de [trabalho Skype for Business 2019](../../../SfBServer2019/plan/feature-comparison.md) para suporte ao cliente Skype for Business Server 2019.
+Consulte [Comparação de recursos do cliente de área de trabalho Skype for Business 2019](../../../SfBServer2019/plan/feature-comparison.md) para suporte ao cliente Skype for Business Server 2019.
   
-As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que trabalha com Skype for Business Server 2015 ou Skype for Business Online. Você também pode querer se referir à [comparação](mobile-feature-comparison.md) de recursos do cliente móvel para Skype for Business para comparações de recursos de cliente de smartphone e tablet. A Licença de Acesso para Cliente ou Licença de Assinatura de Usuário que sua organização compra também terá um impacto sobre quais recursos estão disponíveis para seus usuários. Se você implantar o cliente Completo ou Básico para os usuários depende da licença ou do plano que sua organização opta por comprar. Consulte o [Guia de Licenciamento](https://products.office.com/skype-for-business/it-pros) para obter mais detalhes.
+As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que trabalha com Skype for Business Server 2015 ou Skype for Business Online. Você também pode querer se referir [à comparação de](mobile-feature-comparison.md) recursos do cliente móvel para Skype for Business comparações de recursos do cliente de smartphone e tablet. A Licença de Acesso para Cliente ou Licença de Assinatura de Usuário que sua organização compra também terá um impacto sobre quais recursos estão disponíveis para seus usuários. Se você implantar o cliente Completo ou Básico para os usuários depende da licença ou do plano que sua organização opta por comprar. Consulte o [Guia de Licenciamento](https://products.office.com/skype-for-business/it-pros) para obter mais detalhes.
   
 > [!IMPORTANT]
 > Skype for Business Server 2015 e Skype for Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Telefone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes quando usados com outros servidores, consulte as tabelas de comparação de cliente do [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) e tabelas de comparação de cliente do [Lync Server 2010](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14)).
@@ -43,7 +43,7 @@ As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente
 > O **cliente do Lync 2010 Attendant** não tem suporte no Skype for Business Online.
 
 > [!NOTE]
-> O Skype for Business Web App do navegador e o aplicativo Skype reuniões Windows 10 apenas oferecem [suporte a Reuniões.](desktop-feature-comparison.md#BKMK_Conferencing) Consulte [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md) para saber mais sobre esses clientes.
+> O Skype for Business Web App do navegador e o aplicativo Skype reuniões Windows 10 oferecem suporte apenas [a Reuniões](desktop-feature-comparison.md#BKMK_Conferencing). Consulte [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md) para saber mais sobre esses clientes.
   
 ## <a name="enhanced-presence-support"></a>Suporte a presença aprimorado
 
@@ -115,10 +115,10 @@ Esta tabela aborda recursos relacionados ao suporte a IM.
 Esta tabela aborda recursos relacionados ao suporte a Reuniões.
   
 > [!NOTE]
-> Skype for Business recursos de reunião não estão disponíveis no Skype for Business Online Standalone Plan 1.  O Plano 1 está sendo [retirado.](../../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md)
+> Skype for Business recursos de reunião não estão disponíveis no Skype for Business Online Standalone Plan 1.  O Plano 1 está sendo [retirado](../../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md).
 
 Em Skype de Skype, um usuário do plano 1 do Skype for Business Online poderá participar do compartilhamento de aplicativos e compartilhamento de área de trabalho se for convidado por um usuário que tenha acesso aos recursos de compartilhamento.
-Para obter detalhes, consulte o [Skype for Business Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
+Para obter detalhes, consulte Skype for Business [Descrição do Serviço Online](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
   
 |Recurso/funcionalidade | Skype for Business cliente 2016 | Skype for Business no Mac | Skype for Business Web App | Skype for Business cliente 2015 | Cliente Lync 2013 | Aplicativo do Lync Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator para Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -141,7 +141,7 @@ Para obter detalhes, consulte o [Skype for Business Online Service Description](
 |Faça votações |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|||||
 |Upload arquivos para compartilhar com outras pessoas |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;||||&#x2714;|
 |Programe uma reunião ou conferência |Outlook ou Agendador do Skype for Business Web |Outlook ou Agendador do Skype for Business Web |Agendador do Skype for Business Web |Outlook ou Agendador do Skype for Business Web |Outlook ou Agendador da Web do Lync |Outlook ou Agendador da Web do Lync |Outlook ||||Outlook |
-|Q &amp; A Manager |&#x2714;|||||||||||
+|Gerenciador de QA&amp; |&#x2714;|||||||||||
 |Desabilitar o vídeo do participante|&#x2714;||&#x2714;|||||||||
  | |Desabilitar o IM de reunião  |&#x2714;||&#x2714;|&#x2714;|&#x2714;|||||||
 |Mute Audience   |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
@@ -165,7 +165,7 @@ Para obter detalhes, consulte o [Skype for Business Online Service Description](
 Esta tabela aborda recursos relacionados ao suporte a serviços de voz.
   
 > [!NOTE]
-> Skype for Business Os recursos de voz (Telefonia) estão limitados a determinados planos de assinatura Skype for Business Online. Para obter detalhes, consulte o [Skype for Business Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
+> Skype for Business recursos de Voz (Telefonia) estão limitados a determinados Skype for Business de assinatura online. Para obter detalhes, consulte Skype for Business [Descrição do Serviço Online](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
   
 | Recurso/funcionalidade | Skype for Business cliente 2015 ou 2016 | Skype for Business no Mac | Cliente Lync 2013 | Aplicativo do Lync Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator para Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -226,7 +226,7 @@ Esta tabela aborda recursos relacionados ao suporte para gravação de reuniões
 
 Esta tabela aborda recursos que exigem suporte para autenticação moderna.
   
-A autenticação moderna também requer uma topologia descrita [em Skype for Business topologias com suporte com Autenticação Moderna](../../plan-your-deployment/modern-authentication/topologies-supported.md).
+A autenticação moderna também requer uma topologia descrita [em Skype for Business topologias suportadas com Autenticação Moderna](../../plan-your-deployment/modern-authentication/topologies-supported.md).
 
 | Recurso/funcionalidade | Skype for Business cliente 2015 ou 2016 | Skype for Business no Mac | Cliente Lync 2013 | Aplicativo do Lync Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator para Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

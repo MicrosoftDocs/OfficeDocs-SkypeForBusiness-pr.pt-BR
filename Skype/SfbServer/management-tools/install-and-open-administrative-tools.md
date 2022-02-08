@@ -1,8 +1,8 @@
 ---
 title: Instalar e abrir ferramentas administrativas
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este tópico descreve como instalar e abrir as ferramentas administrativas necessárias para implantar e gerenciar Skype for Business.
-ms.openlocfilehash: 21fc33f5e095100f9634695925e1000172742695
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e3df2fd72cafbbf724baed3f86d0b62d74583348
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848414"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384189"
 ---
 # <a name="install-and-open-administrative-tools"></a>Instalar e abrir ferramentas administrativas
 
-Este tópico descreve como instalar as ferramentas administrativas necessárias para implantar e gerenciar Skype for Business Server. As ferramentas administrativas são instaladas por padrão em cada servidor que executa Skype for Business Server. Além disso, você pode instalar as ferramentas administrativas em outros computadores, tais como consoles administrativos dedicados. Recomendamos que você instale as ferramentas administrativas em um computador que esteja no mesmo domínio ou floresta que Skype for Business Server implantação que você está criando, para garantir que as etapas de preparação dos Serviços de Domínio active Directory já estão concluídas, o que permite que você use as ferramentas administrativas nesse computador posteriormente para publicar sua topologia. Além disso, revise os requisitos necessários antes de instalar ou usar as ferramentas Skype for Business Server administrativas. Consulte a documentação de requisitos [Skype for Business Server 2019](../../SfBServer2019/plan/system-requirements.md) [ou Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md).
+Este tópico descreve como instalar as ferramentas administrativas necessárias para implantar e gerenciar Skype for Business Server. As ferramentas administrativas são instaladas por padrão em cada servidor que executa Skype for Business Server. Além disso, você pode instalar as ferramentas administrativas em outros computadores, tais como consoles administrativos dedicados. Recomendamos que você instale as ferramentas administrativas em um computador que esteja no mesmo domínio ou floresta que Skype for Business Server implantação que você está criando, para garantir que as etapas de preparação dos Serviços de Domínio active Directory já estão concluídas, o que permite que você use as ferramentas administrativas nesse computador posteriormente para publicar sua topologia. Além disso, revise os requisitos necessários antes de instalar ou usar as ferramentas Skype for Business Server administrativas. Consulte a documentação de requisitos [Skype for Business Server 2019](../../SfBServer2019/plan/system-requirements.md) ou [Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md).
  
 > [!Important]
 > Se sua organização exigir que você localize Serviços de Informações da Internet (IIS) e todos os Serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho de local de instalação para os arquivos Skype for Business Server na caixa de diálogo Instalação. Se você instalar os arquivos de Instalação nesse caminho, incluindo OCSCore.msi, o restante dos arquivos Skype for Business Server serão implantados nessa unidade também. 
@@ -36,7 +36,7 @@ Este tópico descreve como instalar as ferramentas administrativas necessárias 
     > Se sua organização exigir que você localize Serviços de Informações da Internet (IIS) e todos os Serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho de local de instalação para os arquivos Skype for Business Server na caixa de diálogo Instalação. Se você instalar os arquivos de Instalação nesse caminho, incluindo OCSCore.msi, o restante dos arquivos Skype for Business Server serão implantados nessa unidade também. 
 
 5. Na página Acordo de licença do usuário final, revise os termos de licença, clique em **Eu aceito** e em **OK**. Esta etapa é obrigatória antes de continuar.
-6. Na página Assistente de Implantação, clique em **Instalar Ferramentas de Administrador.** 
+6. Na página Assistente de Implantação, clique em **Instalar Ferramentas de Administrador**. 
 7. Quando a instalação for concluída com êxito, clique em **Sair**.
 
 Use os procedimentos a seguir para abrir ferramentas administrativas para implantar, configurar ou solucionar problemas Skype for Business Server topologia.
@@ -53,7 +53,7 @@ Use o procedimento a seguir para iniciar o Assistente de Implantação localment
 **Para iniciar o Assistente Skype for Business Server implantação**
 
 1. Faça logoff no computador onde o Assistente de Implantação do Skype for Business Server está instalado como membro do grupo Administradores de Domínio e do grupo RTCUniversalServerAdmins.
-2. Clique **em Iniciar,** em **Todos os Programas,** **Skype for Business Server** e clique Skype for Business Server Assistente **de Implantação.**
+2. Clique **em Iniciar**, em **Todos os Programas**, **Skype for Business Server** e clique **Skype for Business Server Assistente de Implantação**.
 
 
 ## <a name="topology-builder"></a>Construtor de Topologias 
@@ -64,9 +64,9 @@ Use o procedimento a seguir para abrir o Construtor de Topologias para definir o
 
 1. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
     > [!NOTE]
-    > Você pode definir uma topologia usando uma conta membro do grupo Usuários local, mas para ler, publicar ou habilitar uma topologia, que é necessária para instalar o Skype for Business Server em um servidor, você deve usar uma conta que seja membro do grupo Administradores de Domínio e do grupo RTCUniversalServerAdmins,  e que tem permissões de controle total (isto é, ler, gravar e modificar) no compartilhamento de arquivos que você vai usar para o armazenamento de arquivos de arquivamento para que o Construtor de Topologias possa configurar a lista de controle de acesso discricionário necessário (DACLs) ou uma conta com direitos de usuário equivalentes.
+    > Você pode definir uma topologia usando uma conta membro do grupo Usuários local, mas para ler, publicar ou habilitar uma topologia, que é necessária para instalar o Skype for Business Server em um servidor, você deve usar uma conta que seja membro do grupo Administradores de Domínio e o grupo RTCUniversalServerAdmins e que tenha permissões de controle total (ou seja,  ler, gravar e modificar) no compartilhamento de arquivos que você vai usar para o armazenamento de arquivos de arquivamento para que o Construtor de Topologias possa configurar a lista de controles de acesso discricionário necessário (DACLs) ou uma conta com direitos de usuário equivalentes.
  
-2. Iniciar Construtor de Topologias: clique em **Iniciar,** **clique** em Todos os Programas, Skype for Business Server **e** clique Skype for Business Server Construtor **de Topologias.**
+2. Iniciar Construtor de Topologias: clique em **Iniciar**, em **Todos** os Programas, Skype for Business Server e clique **Skype for Business Server Construtor de Topologias**.
 
 ## <a name="skype-for-business-server-control-panel"></a>Painel de Controle do Skype for Business Server 
 
@@ -87,7 +87,7 @@ Use um dos procedimentos a seguir para abrir o Painel de Controle Skype for Busi
 **Para abrir o painel Skype for Business Server de controle em um computador que executa Skype for Business Server**
 
 1. De uma conta de usuário que é membro da função CsAdministrator ou de outra função que tenha direitos e permissões de usuário apropriados para a tarefa a ser executada, faça logon em um computador no qual você instalou o Skype for Business Server ou, no mínimo, as ferramentas administrativas Skype for Business Server. Para definir configurações, o computador deve ter uma resolução de tela mínima de 1024 x 768.
-2. Iniciar Skype for Business Server Painel de Controle: Clique em **Iniciar,** em Todos os **Programas,** aponte para Ferramentas Administrativas, aponte para Skype for Business Server **e** clique em Skype for Business Server Painel de **Controle**.
+2. Iniciar Skype for Business Server Painel de Controle: clique em **Iniciar, em** Todos os **Programas, aponte** para Ferramentas Administrativas **, aponte** para Skype for Business Server e clique **em Skype for Business Server Painel de Controle**.
 
 ## <a name="skype-for-business-server-management-shell"></a>Shell de Gerenciamento do Skype for Business Server 
 
@@ -102,4 +102,4 @@ Se você abrir uma Windows PowerShell em vez do Shell de Gerenciamento Skype for
 
 `Import-Module Lync`
 
-Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** **clique** em Todos os Programas, clique Skype for Business Server **e** clique Skype for Business Server Shell **de Gerenciamento.**
+Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, Skype for Business Server** clique em Skype for Business Server **Shell de Gerenciamento**.

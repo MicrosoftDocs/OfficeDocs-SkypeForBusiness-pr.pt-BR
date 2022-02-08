@@ -1,8 +1,8 @@
 ---
 title: Criar ou modificar um intervalo de órbitas do Estacionamento de Chamada Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Crie ou modifique uma tabela de intervalo de órbitas do Estacionamento de Chamada Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: ffe4a47a099099d31fdd55d23a95065549233f92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e6061f77d59eef8029b5afc52ede0d5acc500c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839693"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387349"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Criar ou modificar um intervalo de órbitas do Estacionamento de Chamada Skype for Business
 
@@ -64,9 +64,9 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
    - O intervalo da órbita deve ser único. Esse intervalo não pode se sobrepor a nenhum outro intervalo.
 
-   - Se o intervalo de órbitas começar com o caractere \* ou #, o intervalo deve ser maior que 100.
+   - Se o intervalo de órbitas começar com o caractere ou \* #, o intervalo deve ser maior que 100.
 
-   - Valores válidos: deve corresponder à cadeia de caracteres de expressão regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Isso significa que o valor deve ser uma cadeia de caracteres começando com o caractere ou # ou um \* número de 1 a 9 (o primeiro caractere não pode ser um zero). Se o primeiro caractere for ou #, o caractere a seguir deverá ser um \* número de 1 a 9 (não pode ser um zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000", " \* 92000", " 95551212" e \* "915551212"). Se o primeiro caractere não for ou #, o primeiro caractere deverá ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um com um número de \* 0 a 9 (por exemplo, "915551212", "41212", "300").
+   - Valores válidos: deve corresponder à cadeia de caracteres de expressão regular ([\\*|#]?? 1-9]\d)|{0,7} ([1-9]\d{0,8}). Isso significa que o valor deve ser uma cadeia \* de caracteres começando com o caractere ou # ou um número de 1 a 9 (o primeiro caractere não pode ser um zero). Se o primeiro caractere for \* ou #, o caractere a seguir deverá ser um número de 1 a 9 (não pode ser um zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000", "\*92000", "\*95551212" e "915551212"). \* Se o primeiro caractere não for ou #, o primeiro caractere deverá ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um com um número de 0 a 9 (por exemplo, "915551212", "41212", "300").
 
    - Você não deve ter mais que um total de 50.000 órbitas por pool. Cada intervalo de órbita geralmente abrange 100 órbitas ou menos, mas pode ser muito maior, contanto que inclua menos que 10.000 órbitas. Por exemplo, em vez de especificar um número inicial em "7000000" e um número final em "8000000", considere especificar um número inicial em "7000000" e um número final em "7000100".
 
@@ -76,9 +76,9 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar Skype for Business Server Shell de Gerenciamento para criar ou modificar um intervalo de números para chamadas de estacionamento
 
-1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários** conforme descrito em Permissões de Instalação do Representante .
+1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários**, conforme descrito em Permissões de Instalação do Representante.
 
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
 
 3. Use o **New-CsCallParkOrbit** para criar um novo intervalo de números de órbitas. Use o **Set-CsCallParkOrbit** para modificar um intervalo de números de órbitas de estacionamento de chamada existente.
 

@@ -1,8 +1,8 @@
 ---
 title: Logs de captura de pesquisa criados pelo Serviço de Log Centralizado Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Resumo: saiba como pesquisar e ler logs de captura do Serviço de Log Centralizado Skype for Business Server 2015.'
-ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2168bdc0a72df6efe4bf9d9f178a2ee9c120aa6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831915"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385551"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Logs de captura de pesquisa criados pelo Serviço de Log Centralizado Skype for Business Server 2015
  
@@ -55,7 +55,7 @@ O lembrete deste tópico se focaliza em como definir uma pesquisa para otimizar 
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Para executar uma pesquisa básica usando o Serviço de Registro Em Log Centralizado
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Certifique-se de ter o cenário AlwaysOn em execução na sua implantação no escopo global e digite o seguinte no prompt de comando:
     
@@ -64,7 +64,7 @@ O lembrete deste tópico se focaliza em como definir uma pesquisa para otimizar 
    ```
 
 > [!NOTE]
-> Por padrão, o Search-CsClsLogging envia os resultados da pesquisa para o console. Se você quiser salvar os resultados da pesquisa em um arquivo, use -OutputFilePath  _\<string fully qualified file path\>_ . Para definir o parâmetro -OutputFilePath, fornece um caminho e um nome de arquivo como parte do parâmetro em um formato de cadeia de caracteres entre aspas (por exemplo, C:\LogFiles\SearchOutput.txt). Neste exemplo, você deve garantir que o diretório C:\LogFiles exista e que você possui permissões para arquivos de Leitura e Gravação (permissão NTFS Modificar) na pasta. O resultado é anexado e não é substituído. Se você precisa separar arquivos, defina um nome de arquivo diferente para cada pesquisa. 
+> Por padrão, o Search-CsClsLogging envia os resultados da pesquisa para o console. Se você quiser salvar os resultados da pesquisa em um arquivo, use -OutputFilePath  _\<string fully qualified file path\>_. Para definir o parâmetro -OutputFilePath, fornece um caminho e um nome de arquivo como parte do parâmetro em um formato de cadeia de caracteres entre aspas (por exemplo, C:\LogFiles\SearchOutput.txt). Neste exemplo, você deve garantir que o diretório C:\LogFiles exista e que você possui permissões para arquivos de Leitura e Gravação (permissão NTFS Modificar) na pasta. O resultado é anexado e não é substituído. Se você precisa separar arquivos, defina um nome de arquivo diferente para cada pesquisa. 
   
 Por exemplo:
     
@@ -110,7 +110,7 @@ Por exemplo:
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>Para executar uma pesquisa usando parâmetros de tempo
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Por padrão, a hora de início dos parâmetros específicos de uma pesquisa é de 25 minutos antes de cinco minutos após o momento em que você inicia a pesquisa. Em outras palavras, se pesquisarmos às 16:00, o horário de início da pesquisa será das 15:35:00 às 16:00. Se você precisar pesquisar 60 minutos ou 3 horas antes da hora atual, use o parâmetro -StartTime e de definir a cadeia de caracteres de data e hora para indicar a hora que você deseja que a pesquisa inicie. 
     
@@ -141,7 +141,7 @@ Por exemplo:
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>Para executar uma pesquisa avançada usando outro critério e opções correspondentes
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 2. Para executar um comando para coletar rastreamentos de componentes específicos, digite o seguinte:
     
@@ -163,7 +163,7 @@ A pesquisa resultante retorna todas as entradas de log com componentes de rastre
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-4. A lógica de pesquisa padrão para comando com vários parâmetros é usar o OR lógico com cada um dos parâmetros definidos. Você pode alterar esse comportamento especificando o **parâmetro -MatchAll.** Para fazer isso, digite o seguinte:
+4. A lógica de pesquisa padrão para comando com vários parâmetros é usar o OR lógico com cada um dos parâmetros definidos. Você pode alterar esse comportamento especificando o **parâmetro -MatchAll** . Para fazer isso, digite o seguinte:
     
    ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -177,10 +177,10 @@ A pesquisa resultante retorna todas as entradas de log com componentes de rastre
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Ler logs de captura do Serviço de Registro Centralizado
 
-Você percebe o benefício real do Serviço de Log Centralizado depois de executar a pesquisa e tem um arquivo que pode ser usado para rastrear um problema relatado. Existe um número de formas que você pode ler o arquivo. O arquivo de resultado está em um formato de texto padrão e você pode usar Notepad.exe ou qualquer outro programa que permitirá abrir e ler um arquivo de texto. Para arquivos maiores e problemas mais complexos, você pode usar uma ferramenta como Snooper.exe que foi projetada para ler e analisar a saída de log do Serviço de Registro Em Log Centralizado. O Snooper está incluído nas Ferramentas de Depuração que estão disponíveis como um download separado. Você pode baixar as Ferramentas de Depuração aqui: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) . Quando você instala as Ferramentas de Depuração, os atalhos e os itens de menu não são criados. Depois de instalar as Ferramentas de Depuração, abra o Windows Explorer, uma janela de linha de comando ou o Shell de Gerenciamento Skype for Business Server e vá para o diretório (local padrão) C:\Arquivos de Programas\Skype for Business Server 2015\Ferramentas de Depuração. Clique duas Snooper.exe ou digite Snooper.exe e pressione ENTER se estiver usando a linha de comando ou Skype for Business Server Shell de Gerenciamento.
+Você percebe o benefício real do Serviço de Log Centralizado depois de executar a pesquisa e tem um arquivo que pode ser usado para rastrear um problema relatado. Existe um número de formas que você pode ler o arquivo. O arquivo de resultado está em um formato de texto padrão e você pode usar Notepad.exe ou qualquer outro programa que permitirá abrir e ler um arquivo de texto. Para arquivos maiores e problemas mais complexos, você pode usar uma ferramenta como Snooper.exe que foi projetada para ler e analisar a saída de log do Serviço de Registro Em Log Centralizado. O Snooper está incluído nas Ferramentas de Depuração que estão disponíveis como um download separado. Você pode baixar as Ferramentas de Depuração aqui: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257). Quando você instala as Ferramentas de Depuração, os atalhos e os itens de menu não são criados. Depois de instalar as Ferramentas de Depuração, abra o Windows Explorer, uma janela de linha de comando ou o Shell de Gerenciamento Skype for Business Server e vá para o diretório (local padrão) C:\Arquivos de Programas\Skype for Business Server 2015\Ferramentas de Depuração. Clique duas Snooper.exe ou digite Snooper.exe e pressione ENTER se estiver usando a linha de comando ou Skype for Business Server Shell de Gerenciamento.
   
 > [!IMPORTANT]
-> A intenção deste tópico não é detalhar e discutir técnicas de resolução de problemas. A resolução de problemas e os processos relacionados é um assunto complexo. Para obter detalhes sobre como solucionar problemas básicos e solucionar problemas de cargas de trabalho específicas, consulte o livro kit de recursos do Microsoft Lync Server 2010 em [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) . Os processos e procedimentos ainda se aplicam ao Skype for Business Server 2015. 
+> A intenção deste tópico não é detalhar e discutir técnicas de resolução de problemas. A resolução de problemas e os processos relacionados é um assunto complexo. Para obter detalhes sobre como solucionar problemas básicos e solucionar problemas de cargas de trabalho específicas, consulte o livro kit de recursos do Microsoft Lync Server 2010 em [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003). Os processos e procedimentos ainda se aplicam ao Skype for Business Server 2015. 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>Para abrir um arquivo de log no Snooper
 
@@ -190,7 +190,7 @@ Você percebe o benefício real do Serviço de Log Centralizado depois de execut
     
 3. Após o Snooper estar aberto, clique com o botão direito em **Arquivo**, clique em **Abrir arquivo**, encontre seus arquivos de log, selecione um arquivo na caixa de diálogo **Abrir** e clique em **Abrir**.
     
-4. As mensagens trace **do** arquivo de log são exibidas na **guia** Rastreamento. Clique na **guia Mensagens** para exibir o conteúdo da mensagem dos rastreamentos coletados.
+4. As mensagens **trace do arquivo** de log são exibidas na **guia** Rastreamento. Clique na **guia Mensagens** para exibir o conteúdo da mensagem dos rastreamentos coletados.
     
 ### <a name="to-display-a-call-flow-diagram"></a>Para exibir um fluxograma da chamada
 

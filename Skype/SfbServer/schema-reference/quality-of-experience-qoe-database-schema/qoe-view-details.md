@@ -1,8 +1,8 @@
 ---
 title: Detalhes de exibição de QoE
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: Os views abrangem os cenários mais comuns para retornar dados do banco de dados de SQL QoE. Recomendamos exibições usadas para a criação de relatórios personalizados em vez de acessar diretamente as tabelas de banco de dados; isso porque as exibições têm mais probabilidade de manter a compatibilidade com versões futuras.
-ms.openlocfilehash: f3a22ba6b8984334e3b4c4f1e7cea293a7741b01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d812af701a0073b8be4188b98cd94a66d50c68d3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858068"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385379"
 ---
 # <a name="qoe-view-details"></a>Detalhes de exibição de QoE
  

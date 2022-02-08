@@ -1,8 +1,8 @@
 ---
 title: Habilitar usuários para Enterprise Voice em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Resumo: saiba como permitir que os usuários façam e recebam chamadas usando o Enterprise Voice em Skype for Business Server.'
-ms.openlocfilehash: 3dab9488b1d184f5d3dd215f4012933de1ca0245
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a910ecb8638b926be9d04234c6f429a97cbd28f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864338"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387337"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Habilitar usuários para Enterprise Voice em Skype for Business Server
  
@@ -52,22 +52,22 @@ Depois de implantar Enterprise Voice ou Chamar Via Trabalho, você pode usar os 
     
 6. No painel **Ações**, clique em **Mostrar detalhes**.
     
-7. Na página **Editar Skype for Business Server Usuário,** em **Telefonia,** clique **em Enterprise Voice**.
+7. Na página **Editar Skype for Business Server Usuário**, em **Telefonia**, clique **em Enterprise Voice**.
     
-8. Clique **em URI** de linha e digite um número de telefone exclusivo e normalizado (por exemplo, `tel:+14255550200` ).
+8. Clique **em URI de** linha e digite um número de telefone exclusivo e normalizado (por exemplo, `tel:+14255550200`).
     
 9. Clique em **Confirmar**.
     
 Para concluir a habilitação de um usuário para Enterprise Voice, certifique-se de que o usuário recebe uma política de voz e um plano de discagem, seja global (atribuído por padrão) ou específico do usuário. Por padrão, todos os usuários têm uma política de voz global e um plano de discagem. Se uma política de voz ou plano de discagem existe no nível do site para o site na qual a conta do usuário está hospedada, estas políticas de site serão aplicadas automaticamente ao usuário. Para aplicar uma política de voz por usuário ou plano de discagem para um usuário, você deve executar os cmdlets **Grant-CsVoicePolicy** e **Grant-CsDialPlan**. Para obter detalhes, consulte os procedimentos a seguir neste tópico.
 ## <a name="voice-policy-assignment"></a>Atribuição da política de voz
 
-Políticas de voz globais e de nível de site são atribuídas automaticamente a todas as contas de usuário habilitadas para Enterprise Voice. Também é possível criar políticas de voz que são aplicadas a usuários ou grupos específicos. Estas políticas por usuário devem ser atribuídas explicitamente aos usuários ou grupos. Se você quiser usar a política de voz global ou de site para todos os usuários [](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) habilitados para Enterprise Voice, você pode ignorar esta seção e continuar para a seção Atribuição de Plano de Discagem mais adiante neste tópico.
+Políticas de voz globais e de nível de site são atribuídas automaticamente a todas as contas de usuário habilitadas para Enterprise Voice. Também é possível criar políticas de voz que são aplicadas a usuários ou grupos específicos. Estas políticas por usuário devem ser atribuídas explicitamente aos usuários ou grupos. Se você quiser usar a política de voz global ou de site para todos os usuários habilitados para Enterprise Voice, você pode ignorar esta seção e continuar para a seção [](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) Atribuição de Plano de Discagem mais adiante neste tópico.
   
 ### <a name="to-assign-a-user-specific-voice-policy"></a>Para atribuir uma política de voz específica do usuário
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. Para atribuir uma política de voz do usuário existente para um usuário, execute o seguinte no prompt de comando:
     
@@ -92,7 +92,7 @@ Para concluir a configuração da conta de usuário para usuários de Enterprise
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. Para atribuir um plano de discagem específico do usuário, execute o seguinte no prompt de comando:
     

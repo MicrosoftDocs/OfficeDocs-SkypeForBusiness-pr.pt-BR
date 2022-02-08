@@ -1,8 +1,8 @@
 ---
 title: Gerenciar Skype for Business Server 2015 usando o pacote de gerenciamento SCOM
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumo: saiba como configurar sua infraestrutura Skype for Business Server 2015 para trabalhar com System Center Operations Manager.'
-ms.openlocfilehash: 4fb6d0c900285b473012d5f9051f25c8c30320f6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4ee95f04fbaa1241e3aa84c8aa5de39c07c0c170
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836283"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386439"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gerenciar Skype for Business Server 2015 usando o pacote de gerenciamento SCOM
  
@@ -33,19 +33,19 @@ Essas informações foram escritas com base na versão 9319.0 do Monitoring Pack
 
  Para configurar sua infraestrutura Skype for Business Server 2015 para trabalhar com o System Center Operations Manager, você deve fazer três coisas:
   
-Identificar e [configurar o Servidor de Gerenciamento Principal.](configure-the-primary.md) Para fazer isso, você deve instalar o System Center Operations Manager 2012 SP1 ou R2. 
+Identificar e  [configurar o Servidor de Gerenciamento Principal](configure-the-primary.md). Para fazer isso, você deve instalar o System Center Operations Manager 2012 SP1 ou R2. 
   
- Identificar e [configurar os computadores Skype for Business Server que serão monitorados.](configure-computers-to-monitor.md) Para monitorar um computador Skype for Business Server usando o System Center Operations Manager, você deve instalar os arquivos de agente do System Center Operations Manager e configurar cada servidor para atuar como um proxy. 
+ Identifique e [configure os computadores Skype for Business Server que serão monitorados](configure-computers-to-monitor.md). Para monitorar um computador Skype for Business Server usando o System Center Operations Manager, você deve instalar os arquivos de agente do System Center Operations Manager e configurar cada servidor para atuar como um proxy. 
   
- Identificar e [instalar e configurar nós do watcher.](watcher-nodes.md) Os nós Skype for Business Server do Skype for Business Server são computadores que são executados periodicamente em transações sintéticas Windows PowerShell cmdlets que verificam se os principais componentes do Skype for Business Server, como a capacidade de fazer logon no sistema ou a capacidade de trocar mensagens instantâneas, estão funcionando conforme o esperado. 
+ Identificar e [instalar e configurar nós do watcher](watcher-nodes.md). Os nós Skype for Business Server do Skype for Business Server são computadores que são executados periodicamente em transações sintéticas Windows PowerShell cmdlets que verificam se os principais componentes do Skype for Business Server, como a capacidade de fazer logon no sistema ou a capacidade de trocar mensagens instantâneas, estão funcionando conforme o esperado. 
   
-## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center Suporte ao Servidor de Gerenciamento Raiz do Operations Manager e ao Agente
+## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center do Operations Manager Root Management Server and Agent Support
 
 Os Pacotes de Gerenciamento podem ser usados com o System Center Operations Manager 2007 R2 (64 bits) (com suporte apenas para fins de migração) ou o System Center Operations Manager 2012 SP1 &amp; R2 (64 bits) ou o System Center Operations Manager 2016 (64 bits). A tabela a seguir mostra as configurações com suporte para os Pacotes de Gerenciamento para Skype for Business Server 2015: 
   
 |Configuração|Com suporte?|
 |:-----|:-----|
-|Sistema operacional Windows Server 2008 R2  <br/> Windows Server 2012 Sistema operacional R2   |Sim. Tanto no servidor Skype for Business Server 2015 quanto nos nós do watcher de transações sintéticas.   |
+|Sistema operacional Windows Server 2008 R2  <br/> Windows Server 2012 sistema operacional R2   |Sim. Tanto no servidor Skype for Business Server 2015 quanto nos nós do watcher de transações sintéticas.   |
 |Servidores em cluster   |Sem suporte.   |
 |Monitoramento sem agente   |Sem suporte.   |
 |Ambiente virtual   |Sim.   |
@@ -93,7 +93,7 @@ Os recursos a seguir são novos para Skype for Business Server Pacotes de Gerenc
     
 - **Intervalos de executar transações sintéticas personalizadas** Para simplificar o processo de configuração dos Nós do Watcher, as transações sintéticas podem compartilhar contas de usuário. Isso reduz a frequência na qual os testes são executados à medida que os testes são serializados para evitar conflitos. Por padrão, as transações sintéticas são executados a cada 15 minutos para garantir que todos os testes tenham tempo para ser executados. Os administradores que optarem por usar mais usuários ou menos testes por usuário também podem reduzir o intervalo de executar.
     
-- Transação sintética dos Serviços de **Interop de Vídeo** Os clientes que estão migrando para o Skype for Business Server 2015 de outras soluções de fornecedor geralmente desejam continuar usando os dispositivos de teleconferência de vídeo (VTCs) desses outros fornecedores. O Servidor de Interop de Vídeo é uma nova função de servidor Skype for Business Server 2015 que permite que os clientes continuem a usar os VTCs cisco em suas salas de conferência conectando-se ao Cisco CUCM por meio de um tronco SIP de vídeo. Esse recurso também adiciona uma transação sintética para ajudar a verificar se o Servidor de Interop de Vídeo está em cima e pode manipular as conexões de entrada em um tronco SIP de vídeo.
+- **Transação sintética dos Serviços de Interop de Vídeo** Os clientes que estão migrando para o Skype for Business Server 2015 de outras soluções de fornecedor geralmente desejam continuar usando os dispositivos de teleconferência de vídeo (VTCs) desses outros fornecedores. O Servidor de Interop de Vídeo é uma nova função de servidor Skype for Business Server 2015 que permite que os clientes continuem a usar os VTCs cisco em suas salas de conferência conectando-se ao Cisco CUCM por meio de um tronco SIP de vídeo. Esse recurso também adiciona uma transação sintética para ajudar a verificar se o Servidor de Interop de Vídeo está em cima e pode manipular as conexões de entrada em um tronco SIP de vídeo.
     
 - **Transação sintética de Conferência de Compartilhamento de Aplicativos** A validação de cenário de ponta a ponta para conferências de compartilhamento de aplicativos agora é suportada.
     
@@ -118,7 +118,7 @@ Os alertas são classificados nas seguintes categorias:
   
  **Alertas de Prioridade Média:** Esses alertas indicam condições que afetam um subconjunto de usuários ou indicam problemas na qualidade da chamada, por exemplo, falhas de componentes, latência no estabelecimento de chamadas ou menor qualidade de áudio em chamadas. Os alertas nesta categoria são estado (ou seja, a natureza das alterações de alerta com base no estado da conexão de rede.) Por exemplo, se os tempos de estabelecimento de chamada indicarem latência, mas retornarem para um limite normal, esse alerta de Prioridade Média será resolvido automaticamente no System Center Operations Manager e os administradores não precisarão tomar medidas. Alertas que não podem ser resolvidos automaticamente normalmente são abordados pelos administradores no mesmo dia útil.
   
- **Outros alertas:** Esses alertas são gerados a partir de componentes que podem afetar um usuário ou subconjunto específico de usuários. Por exemplo, um alerta típico seria que o serviço de Livro de Endereços não poderia analisar a entrada dos Serviços de Domínio do Active Directory® (AD DS) para o usuário: testuser@contoso.com. Os administradores podem resolver esses alertas sempre que têm tempo disponível.
+ **Outros alertas:** Esses alertas são gerados a partir de componentes que podem afetar um usuário ou subconjunto específico de usuários. Por exemplo, um alerta típico seria que o serviço de Livro de Endereços não poderia analisar a entrada do Active Directory® Domain Services (AD DS) para o usuário: testuser@contoso.com. Os administradores podem resolver esses alertas sempre que têm tempo disponível.
   
 ### <a name="synthetic-transactions"></a>Transações sintéticas
 
@@ -180,9 +180,9 @@ A tabela a seguir mostra os estados de saúde dos objetos do Skype for Business 
 |Skype for Business Server Serviço   |Representa uma funcionalidade implantada em um computador específico (por exemplo, serviço de usuário em fp01.contoso.com).   |
 |Skype for Business Server Componente   |Um componente do Serviço (por exemplo, o componente Download do Livro de Endereços faz parte do Serviço Web).   |
 |Skype for Business Server Pool Watcher   |Uma instância de transações sintéticas que estão sendo executados em um pool.   |
-|Skype for Business Server Registrador Watcher   |Uma instância de transações sintéticas que são executados em um pool de Registradores.   |
-|Skype for Business Server User Services Pool Watcher   |Uma instância de transações sintéticas que são executados em um pool de Serviços de Usuário.   |
-|Skype for Business Server Voice Pool Watcher   |Uma instância de transações sintéticas que são executados em um pool de Voz.   |
+|Skype for Business Server Registrador   |Uma instância de transações sintéticas que são executados em um pool de Registradores.   |
+|Skype for Business Server do Pool de Serviços do Usuário   |Uma instância de transações sintéticas que são executados em um pool de Serviços de Usuário.   |
+|Skype for Business Server do Pool de Voz   |Uma instância de transações sintéticas que são executados em um pool de Voz.   |
 |Skype for Business Server Port Watcher   |Uma instância de Porta verifica em execução em um pool.   |
 |Simples Url Watcher   |Executa a sondagem HTTPS das URLs simples configuradas em uma implantação.   |
    
@@ -236,9 +236,9 @@ Os links a seguir conectam-se a informações sobre tarefas comuns associadas a 
     
 - [Como remover um pacote de gerenciamento](/previous-versions/system-center/operations-manager-2007-r2/cc974489(v=technet.10))
     
-Para saber mais sobre o Operations Manager e os pacotes de monitoramento, consulte o [fórum System Center de comunidade do Operations Manager.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
+Para saber mais sobre o Operations Manager e os pacotes de monitoramento, consulte o [fórum System Center de comunidade do Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
-Um recurso útil é o [blog System Center Operations Manager Unleashed,](https://opsmgrunleashed.wordpress.com/) que contém postagens "Por Exemplo" para pacotes de monitoramento específicos.
+Um recurso útil é o [blog System Center Operations Manager Unleashed](https://opsmgrunleashed.wordpress.com/), que contém postagens "Por Exemplo" para pacotes de monitoramento específicos.
   
 Para obter informações adicionais sobre o Operations Manager, consulte os seguintes blogs: 
   

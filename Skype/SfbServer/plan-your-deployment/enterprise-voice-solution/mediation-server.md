@@ -1,8 +1,8 @@
 ---
 title: Componente do Servidor de Mediação Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Saiba mais sobre servidores de mediação Skype for Business Server, incluindo suas topologias com suporte e suas relações com troncos M:N, bypass de mídia e controle de admissão de chamada.
-ms.openlocfilehash: 10d35081e1b6af1d7ee634fa3507a9c6d46f3954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: db825324ca1493e9ecf93ca9bacb4ed5e58c5a96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861168"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387679"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente do Servidor de Mediação Skype for Business Server
  
@@ -66,7 +66,7 @@ A figura a seguir mostra os protocolos de sinalização e mídia usados pelo Ser
 
 Skype for Business Server dá suporte à flexibilidade na definição de um tronco para fins de roteamento de chamadas. Um tronco é uma associação lógica entre um Servidor de Mediação e um número de porta de escuta, com um gateway e um número de porta de escuta. Isso implica em várias coisas: um Servidor de Mediação pode ter vários troncos para o mesmo gateway; um Servidor de Mediação pode ter vários troncos para gateways diferentes; inversamente, um gateway pode ter vários troncos para diferentes Servidores de Mediação.
   
-Você ainda deve criar um tronco raiz ao adicionar um gateway à sua topologia Skype for Business usando o Construtor de Topologias. O número de gateways que um determinado Servidor de Mediação pode manipular depende da capacidade de processamento do servidor durante o horário de pico de ocupado. Se você implantar um Servidor de Mediação em hardware que atenda aos requisitos mínimos de hardware para Skype for Business Server, conforme descrito em Requisitos de servidor para [Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), um Servidor de Mediação autônomo poderá lidar com aproximadamente 1.000 chamadas. O Servidor de Mediação executa a transcodificação, mas ainda roteia chamadas para vários gateways, mesmo que os gateways não suportam bypass de mídia.
+Você ainda deve criar um tronco raiz ao adicionar um gateway à sua topologia Skype for Business usando o Construtor de Topologias. O número de gateways que um determinado Servidor de Mediação pode manipular depende da capacidade de processamento do servidor durante o horário de pico de ocupado. Se você implantar um Servidor de Mediação em hardware que atenda aos requisitos mínimos de hardware para Skype for Business Server, conforme descrito em Requisitos de [servidor para o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), um Servidor de Mediação autônomo poderá lidar com aproximadamente 1.000 chamadas. O Servidor de Mediação executa a transcodificação, mas ainda roteia chamadas para vários gateways, mesmo que os gateways não suportam bypass de mídia.
   
 Ao definir uma rota de chamada, especifique os troncos associados a essa rota, mas não especifique quais Servidores de Mediação estão associados a essa rota. Em vez disso, você usa o Construtor de Topologias para associar troncos aos Servidores de Mediação. Em outras palavras, o roteamento determina qual tronco usar para uma chamada e, posteriormente, o Servidor de Mediação associado a esse tronco é enviado para a sinalização dessa chamada.
   
@@ -88,13 +88,13 @@ O controle de admissão de chamada (CAC), gerencia o estabelecimento de sessão 
   
 O bypass de mídia e o modo de reserva da largura de banda são mutuamente exclusivos. Se o bypass de mídia for empregado para uma chamada, o controle de admissão de chamada não será executado para essa chamada. O pressuposto é que não há links com largura de banda restrita envolvidos na chamada. Se o controle de admissão de chamada for usado para uma chamada específica que envolva o Servidor de Mediação, essa chamada não poderá empregar bypass de mídia.
   
-Para obter detalhes sobre bypass de mídia ou controle de admissão de chamada, consulte [Plan for media bypass in Skype for Business](media-bypass.md) or Plan for call admission control in [Skype for Business Server](call-admission-control.md).
+Para obter detalhes sobre bypass de mídia ou controle de admissão de chamada, consulte [Plan for media bypass in Skype for Business](media-bypass.md) or [Plan for call admission control in Skype for Business Server](call-admission-control.md).
   
 ## <a name="enhanced-9-1-1-e9-1-1-and-mediation-server"></a>9-1-1 aprimorado (E9-1-1) e Servidor de Mediação
 
 O Servidor de Mediação ampliou suas capacidades para poder interagir corretamente com os provedores de serviço do E9-1-1. Nenhuma configuração especial é necessária no Servidor de Mediação. As extensões SIP necessárias para a interação do E9-1-1 são, por padrão, incluídas no protocolo SIP do Servidor de Mediação para suas interações com um par de gateway (gateway PSTN, IP-PBX ou o SBC de um Provedor de Serviços de Telefonia da Internet, incluindo Provedores de Serviços E9-1-1)
   
-Se o tronco SIP para um provedor de serviço de E9-1-1 pode ser encerrado em um pool do Servidor de Mediação existente ou precisar de Servidores de Mediação autônomos dependerá se o E9-1-1 SBC pode interagir com um pool de Servidores de Mediação. Para obter detalhes, consulte [Tronco M:N em Skype for Business Server](m-n-trunk.md).
+Se o tronco SIP para um provedor de serviço de E9-1-1 pode ser encerrado em um pool do Servidor de Mediação existente ou precisar de Servidores de Mediação autônomos dependerá se o E9-1-1 SBC pode interagir com um pool de Servidores de Mediação. Para obter detalhes, consulte [Tronco M:N no Skype for Business Server](m-n-trunk.md).
   
 ## <a name="media-bypass-and-mediation-server"></a>Bypass de mídia e Servidor de Mediação
 
@@ -170,4 +170,4 @@ Para interações com um IP-PBX, se o IP-PBX não suportar corretamente interaç
 Finalmente, se o site central tiver um PBX TDM ou se o IP-PBX não elimina a necessidade de um gateway PSTN, você deve implantar um gateway na rota de chamada que conecta o servidor de mediação e o PBX.
   
 > [!NOTE]
-> Para melhorar o desempenho de mídia do Servidor de Mediação autônomo, você deve habilitar o RSS (dimensionamento do lado de recebimento) nos adaptadores de rede nesses servidores. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte ["Aprimoramentos](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))de dimensionamento do lado do recebimento no Windows Server" . Para obter detalhes sobre como habilitar o RSS, consulte a documentação do adaptador de rede. 
+> Para melhorar o desempenho de mídia do Servidor de Mediação autônomo, você deve habilitar o RSS (dimensionamento do lado de recebimento) nos adaptadores de rede nesses servidores. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte ["Aprimoramentos de dimensionamento do lado do recebimento no Windows Server"](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). Para obter detalhes sobre como habilitar o RSS, consulte a documentação do adaptador de rede. 

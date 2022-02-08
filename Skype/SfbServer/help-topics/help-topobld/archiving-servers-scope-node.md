@@ -1,8 +1,8 @@
 ---
 title: Nó do Escopo dos Servidores de Arquivamento
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: No Construtor de Topologias, você pode executar tarefas relacionadas a um Servidor de Arquivamento individual clicando com o botão direito do mouse no Servidor de Arquivamento na árvore de console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando na seguinte opção Servidor de Arquivamento.
-ms.openlocfilehash: 9fd05cf93a3f6e8e02361bf82d93ae1d4a3a221b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8c06dde680e1e491b835ca265338a3a7acda7841
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833447"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388239"
 ---
 # <a name="archiving-servers-scope-node"></a>Nó do Escopo dos Servidores de Arquivamento
  
-No Construtor de Topologias, você pode executar tarefas relacionadas a  um Servidor de Arquivamento individual clicando com o botão direito do mouse no Servidor de Arquivamento na árvore de console, clicando em **Ação** na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando na seguinte opção Servidor de Arquivamento.
+No Construtor de Topologias, você pode executar tarefas relacionadas a um Servidor de Arquivamento individual clicando com o botão  direito do mouse no Servidor de Arquivamento na árvore de console, clicando em **Ação** na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando na seguinte opção Servidor de Arquivamento.
   
 - **Novo Servidor de Arquivamento**. Inicia o assistente **Definir Novo Servidor de Arquivamento**, no qual você especifica as configurações para um novo Servidor de Arquivamento, incluindo o nome de domínio totalmente qualificado (FQDN), o banco de dados de arquivamento do SQL Server, o repositório de arquivamento e a associação de pool.
     

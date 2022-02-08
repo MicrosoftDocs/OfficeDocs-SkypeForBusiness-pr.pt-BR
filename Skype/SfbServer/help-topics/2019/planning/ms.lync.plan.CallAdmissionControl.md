@@ -1,8 +1,8 @@
 ---
 title: Controle de Admissão de Chamada (Ferramenta de Planejamento)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo.
-ms.openlocfilehash: e72b64f595ebca9e83df722b09c14a7f971651cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93f94824d6f47e41c63de1bf0f8e02cf9886bc92
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831345"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386169"
 ---
 # <a name="call-admission-control-planning-tool"></a>Controle de Admissão de Chamada (Ferramenta de Planejamento)
  

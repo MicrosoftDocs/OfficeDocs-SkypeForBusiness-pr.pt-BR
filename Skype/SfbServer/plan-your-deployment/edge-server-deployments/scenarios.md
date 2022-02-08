@@ -1,8 +1,8 @@
 ---
 title: Cenários do Servidor de Borda em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Resumo: revise esses cenários para ajudá-lo a planejar sua topologia do Servidor de Borda em Skype for Business Server.'
-ms.openlocfilehash: f70dbf858757469d21ebb8b2e6d1ae5192ed0118
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c900d7e6bd8649ffd0e45f1033581ee0523724cb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838523"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387919"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Cenários do Servidor de Borda em Skype for Business Server
  
@@ -35,7 +35,7 @@ Os diagramas mostram .com para a interface externa e .net para o interno, que ta
   
 Não incluímos o Diretor (que é um componente opcional) em qualquer um dos diagramas, mas você pode ler sobre isso separadamente (ele é mencionado em outros tópicos de Planejamento).
   
-Conforme mencionado acima, há dados IPv6 de exemplo nos diagramas. A maioria da documentação em [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) se referirá a IPv4, mas você certamente terá suporte se quiser usar iPv6. Observe que você precisará de endereços IPv6 em seu espaço de endereço atribuído e eles precisarão trabalhar com endereçamento interno e externo, como com IPs IPv4. Você pode, graças a Windows, empregar o recurso de pilha dupla, que é uma pilha de rede separada e distinta para IPv4 e IPv6. Isso permitirá, se necessário, atribuir endereços IPv4 e IPv6 simultaneamente.
+Conforme mencionado acima, há dados IPv6 de exemplo nos diagramas. A maioria da documentação em [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) se referirá a IPv4, mas você certamente terá suporte se quiser usar IPv6. Observe que você precisará de endereços IPv6 em seu espaço de endereço atribuído e eles precisarão trabalhar com endereçamento interno e externo, como com IPs IPv4. Você pode, graças a Windows, empregar o recurso de pilha dupla, que é uma pilha de rede separada e distinta para IPv4 e IPv6. Isso permitirá, se necessário, atribuir endereços IPv4 e IPv6 simultaneamente.
   
 Há dispositivos NAT que permitem NAT64 (IPv6 a IPv4) e NAT66 (IPv6 a IPv6) e isso é válido para uso com Skype for Business Server.
   

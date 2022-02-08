@@ -1,8 +1,8 @@
 ---
 title: Contadores de desempenho de mobilidade Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Resumo: saiba mais sobre os contadores de desempenho que você pode usar para monitorar servidores executando a UCWA (Unified Communications Web API) e o serviço de mobilidade Skype for Business Server Mcx.'
-ms.openlocfilehash: e89ffdb590a7028bd1fa9a9594b6ba0bcce9be11
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 157417d7a0cbc8db2a94ecba18f984b3eedde043
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827574"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384259"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Contadores de desempenho de mobilidade Skype for Business Server
  
@@ -55,7 +55,7 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 |Tempo médio de vida da sessão (ms)  <br/> |O tempo médio de vida de uma sessão em milissegundos  <br/> |
 |Falhas de junção de MCU de dados  <br/> |O número de falhas de junção de mcu de dados  <br/> |
 |Exchange Latência de Pesquisa de Contato (ms)  <br/> |Este contador mostra o tempo médio (em milissegundos) para pesquisar contato no Exchange  <br/> |
-|Exchange Hd Photo Get Latency (ms)  <br/> |Esse contador mostra o tempo médio (em milissegundos) para recuperar uma foto do Exchange  <br/> |
+|Exchange HD Photo Get Latency (ms)  <br/> |Esse contador mostra o tempo médio (em milissegundos) para recuperar uma foto do Exchange  <br/> |
 |Respostas HTTP 4xx/Segundo  <br/> |A taxa por segundo de respostas com código HTTP 4xx  <br/> |
 |Respostas HTTP 5xx/Segundo  <br/> |A taxa por segundo de respostas com código HTTP 5xx  <br/> |
 |Falhas de junção do MCU de IM  <br/> |O número de falhas de junção de IM MCU  <br/> |

@@ -1,8 +1,8 @@
 ---
 title: Gerenciar políticas de PIN para conferência discagem em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Resumo: Saiba como gerenciar políticas de PIN para conferência discagem em Skype for Business Server.'
-ms.openlocfilehash: bf78a565cefb38a9a6e747c2b22b74a640a9e706
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93ee04292ec3ea06299b91c75c2c2fe89a2b2298
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862468"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385602"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Gerenciar políticas de PIN para conferência discagem em Skype for Business Server
  
@@ -43,11 +43,11 @@ Você pode exibir informações sobre políticas de PIN usando Skype for Busines
     
 3. Na barra de navegação esquerda, clique em **Conferência** e **Política de PIN**.
     
-4. Na página **Política de PIN,** clique na política de PIN que você deseja exibir, clique em **Editar** e em **Mostrar detalhes.**
+4. Na página **Política de PIN** , clique na política de PIN que você deseja exibir, clique em **Editar** e em **Mostrar detalhes**.
     
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Exibir informações sobre políticas de PIN usando Skype for Business Server Shell de Gerenciamento
 
-Para exibir informações sobre políticas de PIN, use o cmdlet **Get-CsPinPolicy.** Por exemplo, o comando a seguir retorna informações sobre uma única política de PIN com Identity site:Redmond:
+Para exibir informações sobre políticas de PIN, use o cmdlet **Get-CsPinPolicy** . Por exemplo, o comando a seguir retorna informações sobre uma única política de PIN com Identity site:Redmond:
   
 ```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
@@ -90,9 +90,9 @@ Você pode modificar a política de PIN global usando Skype for Business Server 
     
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modificar a política global de PIN de conferência discada usando Skype for Business Server Shell de Gerenciamento
 
-Para modificar a política global de PIN de conferência discada, use o cmdlet **Set-CsPinPolicy.**
+Para modificar a política global de PIN de conferência discada, use o cmdlet **Set-CsPinPolicy** .
   
-O comando a seguir altera o valor do MinPasswordLength para todas as políticas de PIN configuradas para uso na organização. Para fazer isso, o comando chama primeiro o cmdlet **Get-CsPinPolicy** sem parâmetros para recuperar uma coleção de todas as políticas de PIN existentes. Essa coleção é então canalada para o cmdlet **Set-CsPinPolicy,** que modifica o valor da propriedade MinPasswordLength para cada política na coleção:
+O comando a seguir altera o valor do MinPasswordLength para todas as políticas de PIN configuradas para uso na organização. Para fazer isso, o comando chama primeiro o cmdlet **Get-CsPinPolicy** sem parâmetros para recuperar uma coleção de todas as políticas de PIN existentes. Essa coleção é então canalada para o cmdlet **Set-CsPinPolicy** , que modifica o valor da propriedade MinPasswordLength para cada política na coleção:
   
 ```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
@@ -141,7 +141,7 @@ Você pode criar uma política de PIN de usuário ou de site usando Skype for Bu
     
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Criar uma política de PIN de usuário ou de site usando Skype for Business Server Shell de Gerenciamento
 
-Para criar uma política de PIN de usuário ou site, use o cmdlet **New-CsPinPolicy.**
+Para criar uma política de PIN de usuário ou site, use o cmdlet **New-CsPinPolicy** .
   
 O comando a seguir cria uma nova política de PIN com Identity site:Redmond. Este comando inclui apenas um parâmetro opcional, MinPasswordLength, que é usado para definir a propriedade MinPasswordLength como 7. Todas as demais propriedades de política serão configuradas usando-se os valores padrão.
   
@@ -171,7 +171,7 @@ Você pode modificar uma política de PIN de usuário ou de site usando o Painel
     
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modificar uma política de PIN de usuário ou site usando Skype for Business Server Shell de Gerenciamento
 
-Para modificar a política de PIN de conferência discada, use o cmdlet **Set-CsPinPolicy.**
+Para modificar a política de PIN de conferência discada, use o cmdlet **Set-CsPinPolicy** .
   
 O comando a seguir modifica a política de PIN atribuída ao site redmond. Nesse caso, o comando altera o valor da propriedade MinPasswordLength para 10; isso significa que os novos PINs terão que conter pelo menos 10 dígitos:
   
@@ -193,13 +193,13 @@ Você pode excluir uma política de PIN de usuário ou site usando Skype for Bus
     
 3. Na barra de navegação esquerda, clique em **Conferência** e **Política de PIN**.
     
-4. Na página **Política de PIN,** clique na política pin que você deseja alterar, clique em **Editar** e clique em **Excluir**.
+4. Na página **Política de PIN** , clique na política pin que você deseja alterar, clique em **Editar** e clique em **Excluir**.
     
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Excluir uma política de PIN de usuário ou de site usando Skype for Business Server Shell de Gerenciamento
 
-Para excluir uma política de PIN de usuário ou site, use o cmdlet **Remove-CsPinPolicy.**
+Para excluir uma política de PIN de usuário ou site, use o cmdlet **Remove-CsPinPolicy** .
   
-O comando a seguir remove todas as políticas de PIN que foram configuradas no escopo do site. Para fazer isso, use o cmdlet **Get-CsPinPolicy,** juntamente com o parâmetro Filter, para retornar uma coleção de todas as políticas que têm uma Identity que começa com os caracteres "site:". Essa coleção é então canalada para o cmdlet **Remove-CsPinPolicy,** que exclui cada política na coleção:
+O comando a seguir remove todas as políticas de PIN que foram configuradas no escopo do site. Para fazer isso, use o cmdlet **Get-CsPinPolicy** , juntamente com o parâmetro Filter, para retornar uma coleção de todas as políticas que têm uma Identity que começa com os caracteres "site:". Essa coleção é então canalada para o cmdlet **Remove-CsPinPolicy** , que exclui cada política na coleção:
   
 ```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy

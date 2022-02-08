@@ -1,8 +1,8 @@
 ---
 title: Edição de Configuração de Log de Dispositivo
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Você pode adicionar uma configuração de log de dispositivo à página Editar Configuração de Log que determina o tamanho máximo do cache de log, o tamanho máximo do arquivo de log ou o período de tempo em que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização.
-ms.openlocfilehash: 6e6278fb44344b99f018f297ecdd1494df846730
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a8d1ac8d85fa08461c8f43688e874371e6cb4f60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835539"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386799"
 ---
 # <a name="device-log-configuration-edit"></a>Configuração de Log de Dispositivo: Editar
  
@@ -31,7 +31,7 @@ Você pode adicionar uma configuração de log de dispositivo à página Editar 
   
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página **Editar Configuração de Log:**
+Você pode executar as seguintes tarefas na página **Editar Configuração de Log** :
   
 - Adicione uma configuração de log de dispositivo globalmente ou para um site específico.
     

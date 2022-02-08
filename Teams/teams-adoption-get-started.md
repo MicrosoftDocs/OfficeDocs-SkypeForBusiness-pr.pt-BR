@@ -1,7 +1,7 @@
 ---
 title: Como começar a promover a adoção do Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346843be81bbe6a4cb31f5706548fdc7d05d0d1f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2da7c10866c25b8d2605f55415808bb7d127d9a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842513"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387429"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Como começar a promover a adoção do Microsoft Teams
 
@@ -44,13 +44,13 @@ Antes de começar, certifique-se de que:
 
 Microsoft 365 e Office 365 uma estrutura de adoção que se aplica a cargas de trabalho principais no serviço. Essa estrutura aborda as principais etapas que qualquer organização deve seguir para dar suporte aos serviços de nuvem. Para saber mais sobre a estrutura geral de adoção, consulte [Microsoft Enterprise documentação e recursos](/microsoft-365/enterprise/). 
 
-Neste Teams de adoção, organizamos as etapas em fases e fornecemos orientações Teams específicas conforme descrito em [Fases](#adoption-phases)de Adoção , em seguida.
+Neste Teams de adoção, organizamos as etapas em fases e fornecemos orientações Teams específicas conforme descrito nas [fases](#adoption-phases) de adoção, em seguida.
 
 ## <a name="adoption-phases"></a>Fases de adoção 
 
 Cada projeto de adoção varia de tamanho e complexidade com base em seu ambiente, mas as etapas iniciais são idênticas em toda a placa. Acreditamos que a quebra do processo em três fases distintas — inicialização, experimento e habilitação — simplificará a adoção para todos.  
 
-- **Iniciar** - Nesta primeira fase, você reunirá sua equipe, configurará suas equipes iniciais e usará o Teams para começar a planejar Teams adoção. Essa abordagem aumentará sua familiaridade técnica com o produto e o ajudará a criar as habilidades necessárias para concluir com êxito as fases subsequentes. 
+- **Iniciar** – nesta primeira fase, você reunirá sua equipe, configurará suas equipes iniciais e usará Teams começar a planejar Teams adoção. Essa abordagem aumentará sua familiaridade técnica com o produto e o ajudará a criar as habilidades necessárias para concluir com êxito as fases subsequentes. 
 
 - **Experimento** - Nesta fase de crescimento controlado, você vai trazer seus campeões internos e os primeiros adotantes a bordo. Você vai falar com seus usuários de negócios para identificar cenários que se beneficiariam imediatamente dos recursos de colaboração e comunicações que Teams fornece. Você coletará comentários que informarão sua fase de adoção em larga escala e tomará decisões de serviço sobre governança e gerenciamento de ciclo de vida que garantirão uma implantação bem-sucedida.
 
@@ -59,4 +59,4 @@ Cada projeto de adoção varia de tamanho e complexidade com base em seu ambient
 Cada uma dessas fases de adoção depende de sua preparação técnica e ambiental para Teams. Vamos começar!
 
 
-![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: [Microsoft Teams fase de adoção 1: Iniciar](teams-adoption-phase1.md)|
+![Um ícone que representa a próxima etapa.](media/teams-adoption-next-icon.png) Próximo: Microsoft Teams [fase de adoção 1: Iniciar](teams-adoption-phase1.md)|

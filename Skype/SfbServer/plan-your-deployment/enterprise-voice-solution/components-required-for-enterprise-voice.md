@@ -1,8 +1,8 @@
 ---
 title: Componentes necessários para Enterprise Voice no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: Um resumo dos componentes Enterprise Voice de Skype for Business Server.
-ms.openlocfilehash: 0dcc7578ee427fe6bf37f2bbde48c09ff32d62e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2fbc5aa6a7ece34db0d0ae9360d4be7c8b6f2a8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855418"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390043"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Componentes necessários para Enterprise Voice no Skype for Business Server
  
@@ -29,7 +29,7 @@ Um resumo dos componentes Enterprise Voice de Skype for Business Server.
   
 Para implantar Enterprise Voice, os seguintes componentes são necessários em sua topologia. 
   
-- Um ou mais Servidores de Mediação, que traduzem a sinalização e, em algumas configurações, a mídia entre sua Skype for Business Server interna, Enterprise Voice infraestrutura e um gateway PSTN (rede telefônica pública comutado) ou um tronco SIP (Session Initiation Protocol). Os Servidores de Mediação são o componente mais importante em sua implantação Enterprise Voice segurança. Para obter mais informações, consulte [Componente do Servidor de Mediação em Skype for Business Server](mediation-server.md).
+- Um ou mais Servidores de Mediação, que traduzem a sinalização e, em algumas configurações, a mídia entre sua Skype for Business Server interna, Enterprise Voice infraestrutura e um gateway PSTN (rede telefônica pública comutado) ou um tronco SIP (Session Initiation Protocol). Os Servidores de Mediação são o componente mais importante em sua implantação Enterprise Voice segurança. Para obter mais informações, consulte [Componente do Servidor de Mediação Skype for Business Server](mediation-server.md).
     
     Os Servidores de Mediação podem ser alocados com Servidores Front-End ou instalados como servidores autônomos.
     

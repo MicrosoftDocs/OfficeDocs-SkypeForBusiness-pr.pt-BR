@@ -2,7 +2,7 @@
 title: Treinamento para o administrador do Microsoft Teams
 ms.reviewer: ''
 description: Receba o treinamento do administrador e o suporte necessários para gerenciar Microsoft Teams em sua organização.
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,13 +19,13 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-mahoffman
-ms.openlocfilehash: 5ba0fb0b417d99731eb5474d0d931c10ed86eab2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.author: serdars
+ms.openlocfilehash: f784fa8c171a204c58f33a11eda2e48ce234cbf9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853815"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387489"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 

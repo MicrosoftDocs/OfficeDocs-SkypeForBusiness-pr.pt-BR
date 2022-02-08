@@ -1,8 +1,8 @@
 ---
 title: Preparar Floresta Atual
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Para preparar a floresta dos Serviços de Domínio do Active Directory, você deve estender com êxito o esquema, conforme descrito no tópico Running Schema Preparation, e certificar-se de que o esquema foi replicado.
-ms.openlocfilehash: 24e6d91767f1109bd1049667860b0050678e70f5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 17257199647a0c51a0eabee9ee0b338680f7bcdf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838903"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388509"
 ---
 # <a name="prepare-current-forest"></a>Preparar Floresta Atual
 
@@ -37,9 +37,9 @@ Depois de atender a esses pré-requisitos, você pode começar a **Etapa 3: prep
 
 3. Na página **Executando Comandos**, procure por **Status da tarefa: concluída** e clique em **Exibir Log**. Certifique-se de que não haja erros. Revise os avisos a fim de determinar se são esperados e normais para sua infraestrutura.
 
-4. Na coluna **Ação** no log, expanda **Forest Prep**, procure um Resultado de Execução no final de cada tarefa para verificar se a preparação da floresta foi concluída com êxito, feche o log e clique em **\<Success\>** **Concluir**.
+4. Na coluna **Ação** no log, expanda **Preparação** da Floresta, procure um Resultado de Execução no final de cada tarefa para verificar se a **\<Success\>** preparação da floresta foi concluída com êxito, feche o log e clique em **Concluir**.
 
-5. Aguarde a conclusão da replicação dos Serviços de Domínio do **Active Directory** ou force a replicação a todos os controladores de domínio listados no snap-in Sites e Serviços do Active Directory para o controlador de domínio raiz da floresta, antes de executar a preparação do domínio. Force a replicação entre os controladores de domínio em todos os sites do Active Directory para que a replicação nos sites ocorra dentro de alguns minutos.
+5. Aguarde a conclusão da replicação dos Serviços de Domínio do Active Directory ou force a replicação a todos os controladores de domínio listados no snap-in Sites e **Serviços do Active Directory** para o controlador de domínio raiz da floresta, antes de executar a preparação do domínio. Force a replicação entre os controladores de domínio em todos os sites do Active Directory para que a replicação nos sites ocorra dentro de alguns minutos.
 
     > [!TIP]
     > Se você precisar revisar os arquivos de log criados pelo Assistente de Implantação do Skype for Business Server, poderá encontrá-los no computador onde o Assistente de Implantação foi executado, no diretório Usuários do usuário dos Serviços de Domínio active Directory que executaram a etapa. Por exemplo, se o usuário fez logon como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp

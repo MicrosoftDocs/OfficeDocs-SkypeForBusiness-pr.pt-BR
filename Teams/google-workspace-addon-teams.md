@@ -1,7 +1,7 @@
 ---
 title: Configurar um Microsoft Teams de reunião para o Google Workspace
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
-ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
+ms.openlocfilehash: b93fecea83a4fb44a19f490af514626a0d17f3ff
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/31/2021
-ms.locfileid: "61648879"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388983"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar um Microsoft Teams de reunião para o Google Workspace
 
@@ -39,7 +39,7 @@ O complemento está habilitado por padrão.
 
 1. Entre no portal do Azure.
 
-2. Selecione **Enterprise aplicativos**  >  **Todos os aplicativos**.
+2. Selecione **Enterprise aplicativosTodos** >  **aplicativos**.
 
 3. **Pesquise Microsoft Teams complemento de reunião do Google Workspace**.
 

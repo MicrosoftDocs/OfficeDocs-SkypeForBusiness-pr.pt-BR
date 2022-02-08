@@ -1,8 +1,8 @@
 ---
 title: Nó do Escopo de Monitoramento
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'No Construtor de Topologias, você pode executar tarefas relacionadas a um servidor individual executando o Monitoramento clicando com o botão direito do mouse no servidor que executa o Monitoramento na árvore de console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em uma das seguintes opções para o servidor que executa o Monitoramento:'
-ms.openlocfilehash: 4adca3702b6200632afae51fb237e6682c560d5c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 49fc3d259bb9eae8a5ec6ab3a6d0d91228566d70
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865128"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386879"
 ---
 # <a name="monitoring-scope-node"></a>Nó do Escopo de Monitoramento
  
-No Construtor de Topologias, você pode executar tarefas relacionadas a um servidor individual executando o  Monitoramento clicando com o botão direito do mouse no servidor que executa o Monitoramento na árvore de console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em uma das seguintes opções para o servidor que executa o Monitoramento:
+No Construtor de Topologias, você pode executar tarefas relacionadas a um servidor individual executando o Monitoramento clicando com o botão direito do mouse no servidor que executa o Monitoramento  na árvore de console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em uma das seguintes opções para o servidor que executa o Monitoramento:
   
-- **Editar Propriedades**. Abre a página **Editar Propriedades** para o servidor que executa o Monitoramento, onde você pode alterar o FQDN (nome de domínio totalmente qualificado) do servidor que executa o Monitoramento ou o banco de dados de monitoramento SQL Server.
+- **Editar Propriedades**. Abre a página Editar **Propriedades** para o servidor que executa o Monitoramento, onde você pode alterar o FQDN (nome de domínio totalmente qualificado) do servidor que executa o Monitoramento ou o banco de dados de monitoramento SQL Server.
     
 - **Delete**. Exclui o servidor que executa o Monitoramento da topologia e o banco de dados de SQL Server de monitoramento.
     

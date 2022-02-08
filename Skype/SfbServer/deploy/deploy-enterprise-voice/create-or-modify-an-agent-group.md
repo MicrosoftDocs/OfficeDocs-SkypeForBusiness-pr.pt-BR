@@ -1,8 +1,8 @@
 ---
 title: Criar ou modificar um grupo de agentes Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Crie ou modifique um grupo de agentes no Grupo de Resposta, Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: d4254a3851b434145eb3afa5cec1a721c51fe1f2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6428a5024922ff74e19404c481794e60e3304998
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853755"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388918"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Criar ou modificar um grupo de agentes Skype for Business
  
@@ -74,7 +74,7 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
   
 9. No **Método de roteamento**, selecione o método para roteamento de chamadas a agentes no grupo da seguinte maneira:
     
-   - Para oferecer uma nova chamada primeiro ao agente que ficou ocioso por mais tempo (teve a presença de **Available** ou **Inactive** no Skype for Business mais longo), clique em **Mais** longo ocioso . 
+   - Para oferecer uma nova chamada primeiro ao agente que ficou ocioso por mais tempo (teve a presença de **Available** ou **Inactive** no Skype for Business mais longo), clique em **Mais** longo ocioso. 
     
    - Para oferecer uma nova chamada para todos os operadores disponíveis ao mesmo tempo, clique em **Em paralelo**. A chamada é enviada ao primeiro operador que a aceitar.
     
@@ -121,7 +121,7 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
     
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
     
 3. Use **New-CsRgsAgentGroup** para criar um novo grupo de agentes. Use  **Set-CsRgsAgentGroup** para modificar um grupo de agentes existente. Na linha de comando, execute:
     

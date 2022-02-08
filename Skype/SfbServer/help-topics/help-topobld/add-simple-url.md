@@ -1,8 +1,8 @@
 ---
 title: Adicionar URL Simples
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Para adicionar outras URLs simples à definição da implantação, especifique a URL da nova URL simples.
-ms.openlocfilehash: 7ce88a2d67dd672dbdd02a23d88e5693cc57c4a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d5f542ec36d71c661d27af48498f983a0ccede1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862578"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384579"
 ---
 # <a name="add-simple-url"></a>Adicionar URL Simples
  
-Para adicionar outras URLs simples à definição da implantação, especifique a URL da nova URL simples. O formato da URL é _http:// \<simple URL type\> . \<domain name\>_ ou _http:// \<domain name\> / \<simple URL type\>_, onde o tipo de URL simples é um dos seguintes:
+Para adicionar outras URLs simples à definição da implantação, especifique a URL da nova URL simples. O formato da URL é  _http://\<simple URL type\>.\<domain name\>_ ou _http://\<domain name\>/\<simple URL type\>_, onde o tipo de URL simples é um dos seguintes:
   
 - Meet
     

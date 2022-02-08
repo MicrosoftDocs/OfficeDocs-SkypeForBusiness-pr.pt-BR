@@ -1,8 +1,8 @@
 ---
 title: Relatório de Uso do Grupo de Resposta Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 'Resumo: saiba mais sobre o aplicativo grupo de resposta no Skype for Business Server.'
-ms.openlocfilehash: e6628e9d1602cc89b04b0970baa502be7e8548a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 59f1e32a27fb11d5557ec82adde4d84885028db7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845444"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386609"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>Relatório de Uso do Grupo de Resposta Skype for Business Server
 
@@ -47,7 +47,7 @@ O Relatório de Uso do Grupo de Resposta permite que você filtre em um URI de f
 
 ## <a name="accessing-the-response-group-usage-report"></a>Acessando o Relatório de Uso do Grupo de Resposta
 
-O Relatório de Uso do Grupo de Resposta é acessado pela home page Relatórios de Monitoramento. Você pode detalhar o Relatório de Lista de Chamada do Grupo de [Resposta](call-list-report.md) Skype for Business Server clicando em qualquer uma das seguintes métricas:
+O Relatório de Uso do Grupo de Resposta é acessado pela home page Relatórios de Monitoramento. Você pode detalhar [o Relatório de](call-list-report.md) Lista de Chamada do Grupo de Resposta Skype for Business Server clicando em qualquer uma das seguintes métricas:
 
 - Chamadas recebidas
 
@@ -101,7 +101,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Uso 
 **Filtros do Relatório de Uso do Grupo de Resposta**
 
 
-| **Nome**               | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Name**               | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **De** <br/>         | Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/>                                                                                                                              |
 | **To** <br/>           | Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/>                                                                                                                                     |
@@ -114,7 +114,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Uso do Grup
 
 **Métricas do Relatório de Uso do Grupo de Resposta**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**A cada hora** <br/> **Diariamente** <br/> **Semanalmente** <br/> **Mensal** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado. Quando aplicável, é possível clicar em um determinado intervalo de tempo para exibir informações detalhadas desse intervalo. Por exemplo, se você estiver usando o intervalo Diário e clicar em 7/7/2015, verá uma divisão por hora da atividade de registro do usuário para essa data.  <br/> |
 |**Chamadas recebidas** <br/> |Não  <br/> |Número total de chamadas recebidas por todas as instâncias do aplicativo Grupo de Resposta. Quando você clica nesse item, o relatório mostra o relatório de Lista de Chamadas do Grupo de Resposta para o período de tempo selecionado.  <br/> |
