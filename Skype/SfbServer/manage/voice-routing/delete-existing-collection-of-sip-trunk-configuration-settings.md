@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server - Excluir uma coleção existente de configurações de tronco SIP
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: As configurações de tronco SIP definem a relação e os recursos entre um Servidor de Mediação e o gateway de rede telefônica pública comutado, uma troca de filial pública IP ou um Controlador de Borda de Sessão no provedor de serviços.
-ms.openlocfilehash: 390e70040994dbd8474bda51b0d33bfc13c36697
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 974ace39449314ab29c9f058a64ee214f833fab3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845414"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395193"
 ---
 # <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server - Excluir uma coleção existente de configurações de tronco SIP
 
@@ -26,7 +26,7 @@ As definições de configuração de tronco SIP definem o relacionamento e as ca
 - As condições nas quais os pacotes RTCP são enviados.
 - Se a criptografia SRTP é obrigatória em cada tronco.
 
-Quando você instala Skype for Business Server, uma coleção global de configurações de tronco SIP é criada para você. Essa coleção global de configurações não pode ser excluída. No entanto, você pode usar o painel Skype for Business ServerControl ou o cmdlet [Remove-CsTrunkConfiguration](/powershell/module/skype/Remove-CsTrunkConfiguration) para "redefinir" as propriedades na coleção global para seus valores padrão. Por exemplo, se você definiu a propriedade Enable3pccRefer como True, quando você redefinir a coleção global, a propriedade Enable3pccRefer será revertida para seu valor padrão de False.
+Quando você instala Skype for Business Server, uma coleção global de configurações de tronco SIP é criada para você. Essa coleção global de configurações não pode ser excluída. No entanto, você pode usar o painel Skype for Business ServerControl ou o cmdlet [Remove-CsTrunkConfiguration](/powershell/module/skype/Remove-CsTrunkConfiguration) para "redefinir" as propriedades da coleção global para seus valores padrão. Por exemplo, se você definiu a propriedade Enable3pccRefer como True, quando você redefinir a coleção global, a propriedade Enable3pccRefer será revertida para seu valor padrão de False.
 
 Os administradores também podem criar configurações personalizadas de tronco no escopo do site ou no escopo do serviço (para um gateway PSTN individual); essas configurações personalizadas podem ser removidas. Ao remover essas configurações personalizadas, lembre-se do seguinte:
 
@@ -35,17 +35,17 @@ Os administradores também podem criar configurações personalizadas de tronco 
 
 **Para remover as configurações do tronco com o painel de Skype for Business Server De controle** 
 
-1. No painel Skype for Business Server controle, clique em **Roteamento** de Voz e clique em **Configuração do Tronco.**
+1. No painel Skype for Business Server controle, clique em **Roteamento** de Voz e clique em **Configuração do Tronco**.
 2. Na guia **Configuração do** Tronco, selecione a coleção de configurações de tronco SIP a serem excluídas, clique em **Editar** e clique em **Excluir**. Para excluir várias coleções na mesma operação, clique na primeira coleção a ser excluída, segure a tecla Ctrl e clique em quaisquer coleções adicionais que você deseja remover.
 3. A propriedade **Estado** da coleção será atualizada para **Não vinculado**. Para vincular as alterações e excluir a coleção, clique em **Vincular** e em **Vincular tudo**.
 4. Na caixa de diálogo **Configurações de Voz Não Vinculadas**, clique em **OK**.
-5. Na caixa **Skype for Business Server Painel de Controle,** clique em **OK**.
-6. Se você mudar de ideia e decidir não excluir a coleção, clique em Confirmação **e,** em seguida, clique em Cancelar Todas as Alterações **Não Confirmados**. Quando a **caixa Skype for Business Server painel de controle** for exibida, clique em **OK**.
+5. Na caixa **Skype for Business Server Painel de Controle**, clique em **OK**.
+6. Se você mudar de ideia e decidir não excluir a coleção, clique em **Confirmação** e clique em **Cancelar Todas as Alterações Não Emitidas**. Quando a **caixa Skype for Business Server painel de controle** for exibida, clique em **OK**.
 
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Removendo configurações de tronco usando Windows PowerShell cmdlets
 
 
-Você pode excluir as configurações de tronco usando Windows PowerShell e o cmdlet **Remove-CsTrunkConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
+Você pode excluir as configurações de tronco usando Windows PowerShell e o cmdlet **Remove-CsTrunkConfiguration**. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
 
 **Para remover uma coleção especificada de configurações**
 
@@ -65,4 +65,4 @@ O comando a seguir remove todas as configurações de tronco onde o bypass de m�
 
 `Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration`
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsTrunkConfiguration.](/powershell/module/skype/Remove-CsTrunkConfiguration)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsTrunkConfiguration](/powershell/module/skype/Remove-CsTrunkConfiguration) .

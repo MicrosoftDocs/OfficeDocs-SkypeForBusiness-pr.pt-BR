@@ -5,8 +5,8 @@ ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Se um usuário tiver sido habilitado para Skype for Business Server, você poderá configurar a federação SIP, o acesso de usuário remoto e a conectividade de mensagens instantâneas públicas (IM) no Painel de Controle Skype for Business Server aplicando as políticas apropriadas a usuários específicos.
-ms.openlocfilehash: 400c49dfc7d0c893af98a8da7bc53894a39d6a9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7430cbe015802d377e4d0ca2f1159006a9951a4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843914"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395243"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Atribuir uma política de acesso de usuário externo a um Skype for Business usuário habilitado
 
@@ -44,10 +44,10 @@ Use o procedimento neste tópico para aplicar uma política de acesso de usuári
 
 4.  Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
 
-5.  Em **Editar Skype for Business Server Usuário em** Política de acesso **externo,** selecione a política de usuário que você deseja aplicar.
+5.  Em **Editar Skype for Business Server Usuário em** **Política de acesso externo**, selecione a política de usuário que você deseja aplicar.
      
 > [!NOTE]  
-> As configurações aplicam as configurações de política global ou servidor **\<Automatic>** padrão.
+> As **\<Automatic>** configurações aplicam as configurações de política global ou servidor padrão.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Atribuir Per-User políticas de acesso externo usando Windows PowerShell cmdlets
@@ -61,7 +61,7 @@ As políticas de acesso externo por usuário podem ser atribuídas usando o Wind
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>Para atribuir uma política de acesso externo por usuário a vários usuários
 
-  - Este comando atribui a política de acesso externo por usuário USAExternalAccessPolicy a todos os usuários com contas no OU UnitedStates no Active Directory. Para obter mais informações sobre o parâmetro OU usado neste comando, consulte a documentação do cmdlet [Get-CsUser.](/powershell/module/skype/Get-CsUser)<br/><br/>Get-CsUser -OU "ou=Estados Unidos,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
+  - Este comando atribui a política de acesso externo por usuário USAExternalAccessPolicy a todos os usuários com contas no OU UnitedStates no Active Directory. Para obter mais informações sobre o parâmetro OU usado neste comando, consulte a documentação do cmdlet [Get-CsUser](/powershell/module/skype/Get-CsUser) .<br/><br/>Get-CsUser -OU "ou=Estados Unidos,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
 ## <a name="to-unassign-a-per-user-external-access-policy"></a>Para desaignar uma política de acesso externo por usuário
@@ -69,4 +69,4 @@ As políticas de acesso externo por usuário podem ser atribuídas usando o Wind
   - Este comando cancela a atribuição de qualquer política de acesso externo por usuário atribuída a Ken Myer. Após o cancelamento da atribuição da política por usuário, Ken Myer será automaticamente gerenciado usando a política global ou a política de site local (se houver). Um política de site tem prioridade sobre a política global.<br/><br/>Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsExternalAccessPolicy.](/powershell/module/skype/Grant-CsExternalAccessPolicy)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) .

@@ -1,8 +1,8 @@
 ---
 title: Planejar conferências em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Resumo: leia este tópico para saber mais sobre recursos e recursos de conferência no Skype for Business Server.'
-ms.openlocfilehash: f5eb0d549b5d0b120017d36e4f904b931e0ea278
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 669c87bd2c5eae3944a586e289bbeac3fd4409df
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864708"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394983"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planejar conferências em Skype for Business Server
  
@@ -41,7 +41,7 @@ Este tópico inclui as seguintes seções:
 
 Há quatro tipos de conferências disponíveis em Skype for Business Server: webconferência, conferência de áudio e vídeo (A/V), conferência discda e conferência de mensagem instantânea (IM). 
   
-Você pode optar por habilitar todos os tipos de conferência ou usar apenas um tipo, dependendo das suas necessidades. Por exemplo, você pode habilitar todos os tipos, incluindo conferência discda, para permitir que os usuários que não podem ingressar em uma conferência com um cliente Skype for Business liguem e participem do áudio da reunião de um telefone. Quando você implanta Skype for Business Server, os recursos de conferência de IM são implantados automaticamente; você especifica se deve implantar a web, a A/V e a conferência discada usando o Construtor de Topologias. Para obter mais informações, [consulte Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
+Você pode optar por habilitar todos os tipos de conferência ou usar apenas um tipo, dependendo das suas necessidades. Por exemplo, você pode habilitar todos os tipos, incluindo conferência discda, para permitir que os usuários que não podem ingressar em uma conferência com um cliente Skype for Business liguem e participem do áudio da reunião de um telefone. Quando você implanta Skype for Business Server, os recursos de conferência de IM são implantados automaticamente; você especifica se deve implantar a Web, a A/V e a conferência discada usando o Construtor de Topologias. Para obter mais informações, [consulte Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
 As subseções a seguir descrevem os recursos e os recursos de cada tipo de conferência.
   
@@ -87,7 +87,7 @@ A conferência de áudio e vídeo permite áudio e vídeo na reunião. O áudio 
     
 ### <a name="dial-in-conferencing"></a>Conferência discada
 
-A conferência discada permite que os participantes da reunião participem da parte de áudio de uma reunião ligando para a reunião de um telefone. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional. Para obter mais informações sobre conferência discda, consulte [Plan for dial-in conferencing in Skype for Business Server](dial-in-conferencing.md) and Configure [dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
+A conferência discada permite que os participantes da reunião participem da parte de áudio de uma reunião ligando para a reunião de um telefone. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional. Para obter mais informações sobre conferência discda, consulte [Plan for dial-in conferencing in Skype for Business Server](dial-in-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
   
 ### <a name="instant-messaging-conferencing"></a>Conferência de mensagens instantâneas
 
@@ -120,7 +120,7 @@ Os componentes que suportam recursos de conferência incluem o seguinte:
     
 - **Armazenamento de usuários.** O armazenamento de usuários é usado para armazenar pins Skype for Business Server usuário. Os PINs estão em hash. O repositório de usuário é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
     
-- **Office Servidor Web Apps.** Para usar recursos de webconferência, os administradores devem instalar Office Web Apps Server e eles devem configurar o Skype for Business Server para se comunicar com o Office Web Apps Server.
+- **Office Web Apps Server.** Para usar recursos de webconferência, os administradores devem instalar Office Web Apps Server e eles devem configurar o Skype for Business Server para se comunicar com o Office Web Apps Server.
     
 ## <a name="conferencing-policies"></a>Políticas de conferência
 
@@ -136,7 +136,7 @@ O tamanho das reuniões que Skype for Business Server pode suportar depende se a
     
 Para obter mais informações sobre como gerenciar grandes reuniões, consulte [Plan for large meetings in Skype for Business Server](large-meetings.md).
   
-Se sua organização exigir recursos de reunião maiores, considere a implementação de um ambiente híbrido que aproveite o Reunião do Skype Broadcast, um serviço online que faz parte do Microsoft 365 e Office 365. Reunião do Skype A transmissão permite que os usuários hospedem e transdiem reuniões para grandes audiências online de até 10.000 participantes. O uso do Reunião do Skype Broadcast exige que Skype for Business Server já sejam configurados em uma instalação híbrida com uma organização de Microsoft 365 ou Office 365 de produção. Todos os usuários devem ter um locatário online estabelecido como um pré-requisito. Se você estiver interessado em implantar uma solução híbrida que possa tirar proveito da transmissão Reunião do Skype, consulte Configure your [on-premises deployment for Reunião do Skype Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
+Se sua organização exigir recursos de reunião maiores, considere a implementação de um ambiente híbrido que aproveite o Reunião do Skype Broadcast, um serviço online que faz parte do Microsoft 365 e Office 365. Reunião do Skype Transmissão permite que os usuários hospedem e transdiem reuniões para grandes audiências online de até 10.000 participantes. O uso do Reunião do Skype Broadcast exige que Skype for Business Server já sejam configurados em uma instalação híbrida com uma organização de Microsoft 365 ou Office 365 de produção. Todos os usuários devem ter um locatário online estabelecido como um pré-requisito. Se você estiver interessado em implantar uma solução híbrida que possa tirar proveito Reunião do Skype Transmissão, consulte [Configure your on-premises deployment for Reunião do Skype Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## <a name="determine-your-organizations-needs"></a>Determinar as necessidades de suas organizações
 
@@ -170,7 +170,7 @@ Ao determinar quais funcionalidades de conferência serão implantadas, você pr
     
     Em caso afirmativo, implante e habilite a conferência de discagem. Em seguida, os usuários convidados (dentro e fora da sua organização) poderão ingressar na parte de áudio de conferências usando um telefone PSTN.
     
-    A conferência discagem é um recurso opcional que você pode configurar ao implantar Skype for Business Server conferência. Embora a conferência discado use alguns dos mesmos componentes que Enterprise Voice usa, você pode implantar a conferência discagem mesmo que você não implante Enterprise Voice. A conferência de discagem suporta aos usuários corporativos e anônimos. Para obter mais informações sobre como configurar a conferência discagem para usuários corporativos e anônimos, consulte [Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) and Configure [dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+    A conferência discagem é um recurso opcional que você pode configurar ao implantar Skype for Business Server conferência. Embora a conferência discado use alguns dos mesmos componentes que Enterprise Voice usa, você pode implantar a conferência discagem mesmo que você não implante Enterprise Voice. A conferência de discagem suporta aos usuários corporativos e anônimos. Para obter mais informações sobre como configurar a conferência discagem para usuários corporativos e anônimos, consulte [Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
     
 - **Deseja habilitar usuários externos com clientes Skype for Business ingressar em conferências?**
     

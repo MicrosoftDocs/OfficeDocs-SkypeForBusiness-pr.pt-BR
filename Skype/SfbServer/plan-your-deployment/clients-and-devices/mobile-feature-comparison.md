@@ -1,7 +1,7 @@
 ---
 title: Comparação de recursos do cliente móvel para Skype for Business
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Resumo: revise o suporte ao recurso para o cliente móvel enquanto planeja Skype for Business Server.'
-ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a4696adda500b3011f52ac113b58f283ab7bfd96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834119"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395093"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparação de recursos do cliente móvel para Skype for Business
  
@@ -56,7 +56,7 @@ As tabelas a seguir listam os recursos disponíveis para Skype for Business usu�
 > Para ajuda online e recursos para usuários finais, consulte [Discover Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
-> Para comparar os recursos disponíveis em outros clientes Skype for Business, consulte Comparação de recursos do cliente de área de [trabalho para Skype for Business](desktop-feature-comparison.md). 
+> Para comparar os recursos disponíveis em outros clientes Skype for Business, consulte Comparação de recursos do cliente de área de trabalho [para Skype for Business](desktop-feature-comparison.md). 
 
 > [!NOTE]
 > O suporte ao MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes Skype for Business móveis atuais já usam a UCWA (Unified Communications Web API) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herdamentos usando MCX precisarão atualizar para um cliente atual.
@@ -247,7 +247,7 @@ Em dispositivos iOS, Skype for Business sair automaticamente depois que o client
 
 Esta tabela aborda recursos que exigem suporte para autenticação moderna.
   
-A autenticação moderna também requer uma topologia descrita [em Skype for Business topologias com suporte com Autenticação Moderna](../../plan-your-deployment/modern-authentication/topologies-supported.md).
+A autenticação moderna também requer uma topologia descrita [em Skype for Business topologias suportadas com Autenticação Moderna](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
  | Recurso/funcionalidade  | Skype for Business cliente da área de trabalho  | Windows Phone  | iOS  | Android |

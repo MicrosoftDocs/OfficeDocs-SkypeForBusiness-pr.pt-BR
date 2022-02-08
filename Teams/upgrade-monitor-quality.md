@@ -1,7 +1,7 @@
 ---
 title: Qualidade da experiência do usuário | Microsoft Teams | QoS | Qualidade da Chamada
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6ea92ffd8adcdfb319cd1b515419b987fc6bbbc4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865530"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394423"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -55,6 +55,6 @@ Ao avaliar continuamente e remediar as áreas descritas no guia, você pode redu
 
 As diretrizes fornecidas em Melhorar e monitorar [a](monitor-call-quality-qos.md) qualidade das Teams se concentram em usar o Painel de Qualidade de Chamada (CQD) Online como a principal ferramenta para relatar e investigar cada área descrita, com foco no áudio para maximizar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
 
-É altamente recomendável nomear o campeão de qualidade no início. Depois de nomeados, eles devem começar a se familiarizar com o conteúdo em [Melhorar e monitorar](monitor-call-quality-qos.md)a qualidade de chamada para Teams .
+É altamente recomendável nomear o campeão de qualidade no início. Depois de nomeados, eles devem começar a se familiarizar com o conteúdo em [Melhorar e monitorar](monitor-call-quality-qos.md) a qualidade de chamada para Teams.
 
 <!--ENDOFSECTION-->

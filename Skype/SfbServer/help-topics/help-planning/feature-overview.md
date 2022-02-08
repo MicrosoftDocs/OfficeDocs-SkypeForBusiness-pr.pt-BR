@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server Ferramenta de planejamento de visão geral de recursos
+title: Skype for Business Server de planejamento de visão geral de recursos
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -16,14 +16,14 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Informações sobre a ferramenta de planejamento Skype for Business Server Visão Geral de Recursos.
-ms.openlocfilehash: ac759dab4000ebdbe969b2d7436cbb46c408dc38
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1942cc3ffab2494d64cd4512c178bd39b2262f79
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848874"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393883"
 ---
-# <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype for Business Server Ferramenta de planejamento de visão geral de recursos
+# <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype for Business Server de planejamento de visão geral de recursos
  
 Skype for Business Server Ferramenta de Planejamento 2015
   
@@ -39,7 +39,7 @@ Para concluir a definição do site central, primeiro você precisa fornecer as 
     
 ## <a name="ui-elements"></a>Elementos da interface do usuário
 
-Os elementos restantes foram preenchidos com as respostas fornecidas  às perguntas apresentadas no assistente de Introdução ou, se você ignorou o assistente, foi preenchido automaticamente pela ferramenta de planejamento.
+Os elementos restantes foram preenchidos com as respostas fornecidas às perguntas apresentadas no assistente de Introdução  ou, se você ignorou o assistente, foi preenchido automaticamente pela ferramenta de planejamento.
   
 ### <a name="online-collaboration"></a>Colaboração Online
 
@@ -87,7 +87,7 @@ Os elementos restantes foram preenchidos com as respostas fornecidas  às pergun
     
 - **Caixa de correio W15 Exchange de correio**
     
-    Skype for Business Server 2015 permite que você tenha mensagens de caixa postal armazenadas Exchange Unificação de Mensagens (UM); essas mensagens de caixa postal serão exibidas como mensagens de email nas Caixas de Entrada dos usuários.
+    Skype for Business Server 2015 permite que você tenha mensagens de caixa postal armazenadas na UM (Unificação de Mensagens), essas mensagens de caixa postal serão exibida Exchange s como mensagens de email nas Caixas de Entrada dos usuários.
     
 ### <a name="voice"></a>Voz
 

@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Troncos
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Clique com o botão direito do mouse em Troncos no Construtor de Topologias para executar o seguinte:'
-ms.openlocfilehash: 2f7e4ba699f127a4eedd08ce9e364a210588fb1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 41621c4cc9d52e5202f2e2ddc1f84975109800e8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848694"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395403"
 ---
 # <a name="trunks-scope-node"></a>Nó de Escopo de Troncos
  
-Clique com o botão direito do mouse **em Troncos** no Construtor de Topologias para executar o seguinte:
+Clique com o botão **direito do mouse em Troncos** no Construtor de Topologias para executar o seguinte:
   
 - **Novo Tronco**: inicia o assistente **Definir Novo Tronco** usado para definir um novo tronco SIP.
     

@@ -1,8 +1,8 @@
 ---
 title: Ferramenta de planejamento do Controle de Admissão de Chamada
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: O controle de admissão de chamadas (CAC) determina se é possível permitir que sessões de comunicação em tempo real, como chamadas de voz ou vídeo, sejam estabelecidas com base na largura de banda de rede disponível.
-ms.openlocfilehash: afe23379f40723d1563edd2924acc109fbba0a41
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c47201b50ff93e58c8997c23e9fad04cdb421f4d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833327"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395173"
 ---
 # <a name="call-admission-control-planning-tool"></a>Ferramenta de planejamento do Controle de Admissão de Chamada
  

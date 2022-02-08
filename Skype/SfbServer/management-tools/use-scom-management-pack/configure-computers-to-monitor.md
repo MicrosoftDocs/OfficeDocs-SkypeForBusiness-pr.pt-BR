@@ -1,8 +1,8 @@
 ---
 title: Configurar os computadores Skype for Business Server para monitorar
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 'Resumo: instale os arquivos de agente do Operations Manager no computador Skype for Business Server 2015 a ser monitorado e configure o computador para atuar como um proxy System Center.'
-ms.openlocfilehash: 8393aab53f8c146a300da0c52a98e470f925e667
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 970214c63869362fdc1d69a1146c69c884466129
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843704"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393713"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>Configurar os computadores Skype for Business Server para monitorar
 
@@ -30,7 +30,7 @@ Cada Skype for Business Server 2015 que você deseja monitorar deve ser capaz de
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Instalando um Certificado no Nó Inspetor Localizado Fora da Rede do Perímetro
 <a name="watcher_node_outside"> </a>
 
-System Center Agentes do Operations Manager em execução em uma rede de perímetro (como um servidor de borda do Skype for Business Server), fora da empresa (como um nó do watcher de transações sintéticas externo) ou em um limite de confiança do Active Directory, podem exigir a configuração de um servidor gateway do Gerenciador de Operações System Center. Essa função de servidor permite que os agentes que não têm uma relação de confiança com o Servidor de Gerenciamento Raiz levantem alertas. Para obter detalhes, consulte [Managing Gateway Servers in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12)).
+System Center agentes do Operations Manager em execução em uma rede de perímetro (como um servidor de borda do Skype for Business Server), fora da empresa (como um nó do watcher de transações sintéticas externo) ou em um limite de confiança do Active Directory, podem exigir a configuração de um Servidor de Gateway do Gerenciador de Operações System Center. Essa função de servidor permite que os agentes que não têm uma relação de confiança com o Servidor de Gerenciamento Raiz levantem alertas. Para obter detalhes, consulte [Managing Gateway Servers in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12)).
 
 Se você implantar um agente em um desses locais, também precisará solicitar e configurar um certificado que habilita o nó do watcher a enviar alertas para o System Center Operations Manager. Para simplificar esse processo, a equipe do Operations Manager criou um conjunto de utilitários que permitem que você solicite e instale o tipo certo de certificado no computador nó watcher. Para obter detalhes e baixar esses [utilitários, consulte Obtaining Certificates for Non-Domain Joined Agents Made Easy with Certificate Generation Wizard](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467).
 
@@ -38,15 +38,15 @@ Se você implantar um agente em um desses locais, também precisará solicitar e
 
 1. Em sua System Center de configuração, clique duas vezes em **Setup.exe**.
 
-2. No assistente de System Center de instalação do Operation Manager, clique em **Instalar o Agente do Gerenciador** de Operações , do Agente de Instalação em Instalações Opcionais
+2. No assistente de System Center de instalação do Operation Manager, clique em **Instalar Agente do Gerenciador** de Operações, do Agente de Instalação em Instalações Opcionais
 
-3. No assistente System Center de configuração, na página Bem-vindo ao assistente de Instalação do System Center Operations Manager, clique em **Próximo**.
+3. No assistente System Center de configuração, na página Bem-vindo ao assistente de Instalação System Center Operations Manager, clique em **Próximo**.
 
 4. Na página Pasta de Destino, selecione a pasta onde os arquivos do Agente do Gerenciador de Operações serão instalados e clique em **Próximo**.
 
 5. Na página Configuração do Grupo de Gerenciamento, selecione **Especificar informações do Grupo de Gerenciamento** e clique em **Próximo**.
 
-6. Na página Configuração do Grupo de Gerenciamento, digite  o nome do seu Grupo de Gerenciamento do Operations Manager na caixa Nome do Grupo de Gerenciamento e digite o nome de host do servidor do Operations Manager (por exemplo, atl-scom-001) na caixa **Servidor** de Gerenciamento. Se você alterou o número de porta usado pelo Operations Manager, insira o novo número de porta na caixa **Porta do Servidor de** Gerenciamento. Caso contrário, deixe a porta no valor padrão de 5723 e clique em **Próximo**.
+6. Na página Configuração do Grupo de Gerenciamento, digite o nome do seu Grupo de Gerenciamento do  Operations Manager na caixa Nome do Grupo de Gerenciamento e digite o nome de host do servidor do Operations Manager (por exemplo, atl-scom-001) na caixa **Servidor** de Gerenciamento. Se você alterou o número de porta usado pelo Operations Manager, insira o novo número de porta na caixa **Porta do Servidor de** Gerenciamento. Caso contrário, deixe a porta no valor padrão de 5723 e clique em **Próximo**.
 
 7. Na página Conta de Ação do Agente, selecione **Sistema Local** e clique em **Próximo**.
 
@@ -58,7 +58,7 @@ Se você implantar um agente em um desses locais, também precisará solicitar e
 
 11. Clique em **Sair**.
 
-Para System Center 2012, você pode verificar se o agente foi criado clicando em **Iniciar**, clicando em Todos os **Programas,** clicando no System Center Operations **Manager 2012** e clicando em **Operações 2012 Manager Shell**. Na Shell do Operations Manager, digite o seguinte comando Windows PowerShell e pressione ENTER:
+Para System Center 2012, você pode verificar se o agente foi criado clicando em **Iniciar,** clicando em Todos os **Programas,** clicando em **System Center Operations Manager 2012** e, em seguida, clicando em **Operações 2012 Manager Shell**. Na Shell do Operations Manager, digite o seguinte comando Windows PowerShell e pressione ENTER:
 ```PowerShell
 Get-SCOMAgent
 ```

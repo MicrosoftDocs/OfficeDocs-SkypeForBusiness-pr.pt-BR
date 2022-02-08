@@ -1,7 +1,7 @@
 ---
 title: Pesquisas de comentários em Teams ou Skype for Business
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cebd19b40513ece384112e6fdc3efa1be54155b1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 285fcdf665a29de59596484c6174e73abd0a4083
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836029"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394493"
 ---
 # <a name="user-feedback-surveys"></a>Pesquisas de comentários do usuário 
 
@@ -29,7 +29,7 @@ Use pesquisas de feedback para capturar a experiência e as percepções dos usu
 
 Personalize as perguntas abaixo e transfira-as para uma ferramenta de pesquisa, como SharePoint fácil distribuição e análise.
 
-Para fins dessas *pesquisas,* o novo sistema de telefonia se refere ao uso de recursos de chamada no Microsoft Teams ou Skype for Business, além de dispositivos como um telefone de mídia ou telefone celular. Todas as referências a Microsoft Teams nessas pesquisas também se aplicam a Skype for Business.
+Para fins dessas *pesquisas, o* novo sistema de telefonia se refere ao uso de recursos de chamada em Microsoft Teams ou Skype for Business, além de dispositivos como um telefone de mídia ou telefone celular. Todas as referências a Microsoft Teams nessas pesquisas também se aplicam a Skype for Business.
 
 Indique seu nível de acordo com as instruções a seguir, como se refere ao uso Teams como seu telefone. 
 
@@ -44,7 +44,7 @@ Indique seu nível de acordo com as instruções a seguir, como se refere ao uso
 | Usar Teams como meu telefone torna mais fácil para mim fazer meu trabalho.                                          |                      |                    |             |                       |                         |                        |
 | Minha experiência de áudio com Teams é tão boa quanto ou melhor do que era com nosso sistema de telefone antigo.                   |                      |                    |             |                       |                         |                        |
 
-Se você escolheu Um pouco de desacordo ou completamente não concorda com qualquer uma das instruções acima, explique.   (Abra texto)
+Se você escolheu **Um pouco de** desacordo ou completamente não concorda com qualquer uma das instruções acima, explique. (Abra texto)
 
 Indique seu nível de acordo com as instruções a seguir, conforme se refere à sua experiência de integração com seu novo telefone.  
 
@@ -54,7 +54,7 @@ Indique seu nível de acordo com as instruções a seguir, conforme se refere à
 | Eu tinha recursos de treinamento adequados para entrar rapidamente no novo sistema de telefonia.                                                          |                      |                    |             |                       |                         |                        |
 | Nosso helpdesk poderia responder a todas as minhas perguntas sobre o novo sistema de telefonia.                                                           |                      |                    |             |                       |                         |                        |
 
-Se você escolheu Um pouco de desacordo ou completamente não concorda com qualquer uma das instruções acima, explique.   (Abra texto)
+Se você escolheu **Um pouco de** desacordo ou completamente não concorda com qualquer uma das instruções acima, explique. (Abra texto)
 
 Qual é a probabilidade de você recomendar o uso Teams telefone para um amigo ou colega? (0=Não é provável... 10=Extremamente provável)
 

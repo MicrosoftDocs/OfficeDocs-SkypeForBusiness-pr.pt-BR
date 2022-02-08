@@ -1,8 +1,8 @@
 ---
 title: Topologias de referência para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologias de referência para Skype for Business Server, incluindo diagramas e decisões a tomar para organizações grandes, médias e pequenas.
-ms.openlocfilehash: 89d04755d31750bb43ab78080e6260e51a5bde60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fcc5832704e893b8b12c255cabbf66847ce9e9c1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851795"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394903"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologias de referência para Skype for Business Server
 
@@ -39,7 +39,7 @@ A topologia de referência para pequenas organizações mostra como você pode i
 
 ![Topologia de referência implantando três diagramas de servidores.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
-- **Par de servidores Edição Standard implantados** Essa organização tem 4.000 usuários em seu site central. Eles implantaram dois servidores Edição Standard e os emparelhou para habilitar alta disponibilidade e recuperação de desastres. Cada servidor tem 2.000 usuários, mas as informações sobre todos os usuários são sincronizadas entre os dois servidores. Se um cair, um administrador poderá fazer fail over desses usuários para serem atendidos pelo outro servidor, com um mínimo de interrupção para os usuários. Para obter mais informações sobre recursos de recuperação de desastres e alta disponibilidade no Skype for Business Server, consulte [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+- **Par de Edição Standard Servidores Implantados** Essa organização tem 4.000 usuários em seu site central. Eles implantaram dois servidores Edição Standard e os emparelhou para habilitar alta disponibilidade e recuperação de desastres. Cada servidor tem 2.000 usuários, mas as informações sobre todos os usuários são sincronizadas entre os dois servidores. Se um cair, um administrador poderá fazer fail over desses usuários para serem atendidos pelo outro servidor, com um mínimo de interrupção para os usuários. Para obter mais informações sobre recursos de alta disponibilidade e recuperação de desastres no Skype for Business Server, consulte [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
 - **A implantação de um Servidor de Borda é recomendada.** Embora não seja necessário ter um Servidor de Borda para IM, presença e conferência, nós o recomendamos até mesmo para pequenas implantações. Você pode maximizar seu Skype for Business Server investimento implantando um Servidor de Borda para fornecer serviço aos usuários atualmente fora dos firewalls da sua organização. Os benefícios são os seguintes:
 
@@ -55,7 +55,7 @@ A topologia de referência para pequenas organizações mostra como você pode i
 
 - **Implantação do Exchange do UM.** Essa topologia de referência inclui um servidor Exchange unificação de mensagens (UM), que executa Microsoft Exchange Server, não Skype for Business Server.
 
-- **Office Servidor Web Apps.** Recomendamos a implantação de um servidor Office Web Apps ou um farm Office Web Apps Server em todas as organizações que usam webconferência. Office O Servidor web apps possibilita que PowerPoint slides sejam apresentados em webconferência..
+- **Office Web Apps Server.** Recomendamos a implantação de um servidor Office Web Apps ou um farm Office Web Apps Server em todas as organizações que usam webconferência. Office Web Apps Server possibilita que PowerPoint slides sejam apresentados em webconferência..
 
 ## <a name="reference-topology-for-a-medium-organization"></a>Topologia de referência para uma organização média
 
@@ -81,15 +81,15 @@ A topologia de referência com alta disponibilidade e um único data center é p
 
 - **Opções de implantação de site de filiais.** A organização nesta topologia tem o Enterprise Voice implantado como sua solução de voz. O Branch Site 1 não tem um link wan (rede de área ampla) resiliente para o site central, portanto, ele tem um Aparelho de Filial Persistente implantado para manter muitos recursos Skype for Business Server caso o link WAN para o site central seja baixado. No entanto, o Site de Filial 2 tem um link WAN resiliente, portanto, apenas um gateway PSTN (rede telefônica pública comutada) é necessário. O gateway PSTN implantado tem suporte para bypass de mídia, portanto, nenhum Servidor de Mediação é necessário na Filial 2. Para obter mais informações, [consulte Plan for Enterprise Voice resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
 
-- **Balanceamento de carga do DNS.** O pool de Front-End e o pool de Servidor de Borda têm balanceamento de carga DNS para tráfego SIP implantado. Isso elimina a necessidade de balanceadores de carga de hardware para os Servidores de Borda e reduz significativamente a configuração e a manutenção dos balanceadores de carga de hardware para os outros pools, pois os balanceadores de carga de hardware são necessários somente para tráfego HTTP. Para obter mais informações, consulte [DNS load balancing](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **Balanceamento de carga do DNS.** O pool de Front-End e o pool de Servidor de Borda têm balanceamento de carga DNS para tráfego SIP implantado. Isso elimina a necessidade de balanceadores de carga de hardware para os Servidores de Borda e reduz significativamente a configuração e a manutenção dos balanceadores de carga de hardware para os outros pools, pois os balanceadores de carga de hardware são necessários somente para tráfego HTTP. Para obter mais informações, consulte [Balanceamento de carga DNS](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
 
 - **Implantação do Exchange do UM.** Essa topologia de referência inclui um servidor Exchange unificação de mensagens (UM), que executa Microsoft Exchange Server, não Skype for Business Server.
 
-- **Office Servidor Web Apps.** Recomendamos a implantação de um servidor Office Web Apps ou um farm Office Web Apps Server em todas as organizações que usam webconferência. Office O Servidor web apps possibilita que os slides do Powerpoint sejam apresentados em webconferência.
+- **Office Web Apps Server.** Recomendamos a implantação de um servidor Office Web Apps ou um farm Office Web Apps Server em todas as organizações que usam webconferência. Office Web Apps Server possibilita que slides do Powerpoint sejam apresentados em webconferência.
 
 - **Os diretores podem ser adicionados.** Se essa organização quisesse ajudar a aumentar a segurança contra ataques de negação de serviço, ela também poderia implantar um pool de Diretores. Um Diretor é uma função de servidor opcional separada Skype for Business Server que não tem contas de usuário em casa ou fornece serviços de presença ou conferência. Ele serve como um servidor interno de próximo salto para o qual um Servidor de Borda encaminha o tráfego SIP de entrada destinado a servidores internos. O Diretor pré-autentica solicitações de entrada e as redireciona para o pool ou servidor do usuário. A pré-autenticação no Diretor permite a entrega de solicitações de contas de usuário desconhecidas para a implantação. Um Diretor ajuda a isolar servidores front-end de tráfego mal-intencionado, como ataques de negação de serviço (DoS). Se a rede for inundada com tráfego externo inválido em tal ataque, o tráfego terminará no Diretor.
 
-- **System Center O Operations Manager é recomendado.** Recomendamos que você monitore a saúde da sua implantação Skype for Business Server para ajudar a garantir a disponibilidade do serviço para usuários finais. Você pode usar o System Center de Gerenciamento do Operations Manager para Skype for Business que está disponível como download gratuito da Microsoft. Com o Skype for Business Management Pack, você pode obter alertas em tempo real proativamente quando ocorrerem problemas, executar transações sintéticas para testar a funcionalidade de ponta Skype for Business, obter relatórios para disponibilidade do serviço e assim por diante. Isso ajuda você a responder proativamente a problemas com sua implantação antes que os usuários finais os experimentem.
+- **System Center Operations Manager é recomendado.** Recomendamos que você monitore a saúde da sua implantação Skype for Business Server para ajudar a garantir a disponibilidade do serviço para usuários finais. Você pode usar o System Center de Gerenciamento do Operations Manager para Skype for Business que está disponível como download gratuito da Microsoft. Com o Skype for Business Management Pack, você pode obter alertas em tempo real proativamente quando ocorrerem problemas, executar transações sintéticas para testar a funcionalidade de ponta Skype for Business, obter relatórios para disponibilidade do serviço e assim por diante. Isso ajuda você a responder proativamente a problemas com sua implantação antes que os usuários finais os experimentem.
 
 ## <a name="reference-topology-for-a-large-organization"></a>Topologia de referência para uma organização grande
 
@@ -144,8 +144,8 @@ Essa topologia é mostrada em vários diagramas, com uma visão geral primeiro s
 
     Para obter detalhes sobre Exchange UM, consulte [On-Premises Exchange Unified Messaging Integration](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration) and [Hosted Exchange Unified Messaging Integration](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration) na documentação de Planejamento.
 
-- **Office Servidor Web Apps.** Recomendamos a implantação de um servidor Office Web Apps ou um farm Office Web Apps Server em todas as organizações que usam webconferência. Você pode implantar um único farm Office Web Apps Server em um site que atende ao tráfego de todos os sites ou implantá-lo em cada site. Office O Servidor web apps possibilita que os slides do Powerpoint sejam apresentados em webconferência.
+- **Office Web Apps Server.** Recomendamos a implantação de um servidor Office Web Apps ou um farm Office Web Apps Server em todas as organizações que usam webconferência. Você pode implantar um único farm Office Web Apps Server em um site que atende ao tráfego de todos os sites ou implantá-lo em cada site. Office Web Apps Server possibilita que slides do Powerpoint sejam apresentados em webconferência.
 
 - **Os diretores podem ser adicionados.** Se essa organização quisesse aumentar a segurança contra ataques de negação de serviço, ela também poderia implantar um pool de Diretores. Um Diretor é uma função de servidor opcional separada Skype for Business Server que não tem contas de usuário em casa ou fornece serviços de presença ou conferência. Ele serve como um servidor interno de próximo salto para o qual um Servidor de Borda encaminha o tráfego SIP de entrada destinado a servidores internos. O Diretor pré-autentica solicitações de entrada e as redireciona para o pool ou servidor do usuário. A pré-autenticação no Diretor permite a entrega de solicitações de contas de usuário desconhecidas para a implantação. Um Diretor ajuda a isolar servidores front-end de tráfego mal-intencionado, como ataques de negação de serviço (DoS). Se a rede for inundada com tráfego externo inválido em tal ataque, o tráfego terminará no Diretor.
 
-- **System Center O Operations Manager é recomendado.** Recomendamos que você monitore a saúde da sua implantação Skype for Business Server para ajudar a garantir a disponibilidade do serviço para usuários finais. Você pode usar o System Center de Gerenciamento do Operations Manager para Skype for Business que está disponível como download gratuito da Microsoft. Com o Skype for Business Management Pack, você pode obter alertas em tempo real proativamente quando ocorrerem problemas, executar transações sintéticas para testar a funcionalidade de ponta Skype for Business, obter relatórios para disponibilidade do serviço e assim por diante. Isso ajuda você a responder proativamente a problemas com sua implantação antes que os usuários finais os experimentem.
+- **System Center Operations Manager é recomendado.** Recomendamos que você monitore a saúde da sua implantação Skype for Business Server para ajudar a garantir a disponibilidade do serviço para usuários finais. Você pode usar o System Center de Gerenciamento do Operations Manager para Skype for Business que está disponível como download gratuito da Microsoft. Com o Skype for Business Management Pack, você pode obter alertas em tempo real proativamente quando ocorrerem problemas, executar transações sintéticas para testar a funcionalidade de ponta Skype for Business, obter relatórios para disponibilidade do serviço e assim por diante. Isso ajuda você a responder proativamente a problemas com sua implantação antes que os usuários finais os experimentem.

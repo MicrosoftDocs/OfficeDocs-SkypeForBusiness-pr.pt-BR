@@ -1,7 +1,7 @@
 ---
 title: Planejar a Skype for Business do cliente 2015 para seus usuários
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Resumo: saiba mais sobre o novo Skype for Business e as etapas que você pode tomar para preparar seu ambiente e seus usuários para a atualização, se você está usando o Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, Lync Server 2013 ou Lync Server 2010.'
-ms.openlocfilehash: 9979b7d9fe449de926358097b9fd2fdd36e5afb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'Resumo: saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você estiver usando o Skype for Business Online, Skype for Business Server 2019, Skype for Business Server  2015, Lync Server 2013 ou Lync Server 2010.'
+ms.openlocfilehash: fd3771b351f89210f4757dc97084d85933867050
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864738"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395083"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planejar a Skype for Business do cliente 2015 para seus usuários
  
-**Resumo:** Saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você está usando o Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, Lync Server 2013 ou Lync Server 2010.
+**Resumo:** Saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você estiver usando o Skype for Business Online, Skype for Business Server 2019, Skype for Business Server  2015, Lync Server 2013 ou Lync Server 2010.
   
 A atualização de 14 de abril de 2015 Office Lync 2013 inclui a nova interface de usuário Skype for Business de usuário. Essa atualização permite que os administradores controlem a aparência do cliente e escolham se mantêm a experiência do cliente do Lync 2013 ou usam a experiência de cliente Skype for Business aprimorada. O cliente Skype for Business substituiu efetivamente o cliente Lync 2013 e adicionou a capacidade de os administradores escolherem entre a experiência de cliente existente do Lync e a nova experiência do cliente Skype for Business cliente. Para obter informações sobre essa atualização, consulte [April 14, 2015 update for Lync 2013 (Skype for Business) (KB2889923)](https://support.microsoft.com/kb/2889923/).
   
@@ -44,7 +44,7 @@ Em 12 de maio de 2015, haverá outra atualização mensal do Office que inclui o
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>Qual experiência de cliente você deseja para seus usuários?
 <a name="clientexperience"> </a>
 
-Com o novo Skype for Business cliente, você pode controlar qual experiência de cliente seus usuários obterão, Lync ou Skype for Business. A experiência padrão do cliente depende se você está usando o Lync ou Skype for Business local ou online. Se você estiver usando o Skype for Business Online (Lync Online) hoje com o Microsoft 365 Apps para Grandes Empresas, Microsoft 365 Business Standard ou Office 2013, a experiência do cliente Skype for Business atualizada, inspirada na aparência do Skype, será a experiência padrão do usuário. Se você estiver usando o Lync Server no local hoje, a experiência do cliente do Lync será o padrão.
+Com o novo Skype for Business cliente, você pode controlar qual experiência de cliente seus usuários obterão, Lync ou Skype for Business. A experiência padrão do cliente depende se você está usando o Lync ou Skype for Business local ou online. Se você estiver usando o Skype for Business Online (Lync Online) hoje com Microsoft 365 Apps para Grandes Empresas, Microsoft 365 Business Standard ou Office 2013, o Skype for Business  a experiência do cliente, inspirada na aparência do Skype, será a experiência padrão do usuário. Se você estiver usando o Lync Server no local hoje, a experiência do cliente do Lync será o padrão.
   
 Você pode configurar qual experiência de cliente seus usuários obter usando políticas de cliente. Uma política de cliente é um conjunto de configurações que são aplicadas aos usuários quando eles fazem logon no Lync ou Skype for Business.
   
@@ -78,9 +78,9 @@ Siga as etapas nesta seção se você quiser configurar a experiência Skype cli
   
  **Etapa 1:** Primeiro, certifique-se de que você está executando uma versão do Lync Server que dá suporte às configurações de política do cliente.
   
-- **Lync Server 2013** - Você deve estar executando a Atualização Cumulativa de dezembro de 2014 (5.0.8308.857) para o Lync Server 2013 ou uma atualização posterior. Para obter informações, [consulte Updates for Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
+- **Lync Server 2013** - Você deve estar executando a Atualização Cumulativa de dezembro de 2014 (5.0.8308.857) para o Lync Server 2013 ou uma atualização posterior. Para obter informações, [consulte Atualizações do Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
     
-- **Lync Server 2010** - Você deve estar executando a Atualização Cumulativa de fevereiro de 2015 (4.0.7577.710) para o Lync Server 2010 ou uma atualização posterior. Para obter informações, [consulte Updates for Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
+- **Lync Server 2010** - Você deve estar executando a Atualização Cumulativa de fevereiro de 2015 (4.0.7577.710) para o Lync Server 2010 ou uma atualização posterior. Para obter informações, [consulte Atualizações do Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
   **Etapa 2:** Em seguida, use uma política de cliente para definir a experiência Skype cliente com o cliente Skype for Business cliente. Há **três opções para usar** uma política de cliente para definir a experiência do cliente.
   
@@ -96,13 +96,13 @@ Set-CsClientPolicy -Identity Global -EnableSkypeUI $True
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $True
 ```
 
- **Opção 3:** Crie uma nova política para atribuir aos usuários que incluam a configuração para a experiência Skype cliente. Primeiro, crie a nova política de cliente e forneça o nome da política como o valor do parâmetro **Identity:**
+ **Opção 3:** Crie uma nova política para atribuir aos usuários que incluam a configuração para a experiência Skype cliente. Primeiro, crie a nova política de cliente e forneça o nome da política como o valor do parâmetro **Identity** :
   
 ```PowerShell
 New-CsClientPolicy -Identity UseSkypeUI -EnableSkypeUI $True
 ```
 
-Em seguida, atribua a política aos usuários, usando o nome da política (o valor usado para o parâmetro **Identity)** como o valor do **parâmetro PolicyName:**
+Em seguida, atribua a política aos usuários, usando o nome da política (o valor usado para o parâmetro **Identity** ) como o valor do **parâmetro PolicyName** :
   
 ```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
@@ -142,19 +142,19 @@ Set-CsClientPolicy -Identity Global -EnableSkypeUI $False
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $False
 ```
 
- **Opção 3:** Crie uma nova política para atribuir aos usuários que incluam a configuração da experiência do cliente do Lync. Primeiro, crie a nova política de cliente e forneça o nome da política como o valor do parâmetro **Identity:**
+ **Opção 3:** Crie uma nova política para atribuir aos usuários que incluam a configuração da experiência do cliente do Lync. Primeiro, crie a nova política de cliente e forneça o nome da política como o valor do parâmetro **Identity** :
   
 ```PowerShell
 New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 ```
 
-Em seguida, atribua a política aos usuários, usando o nome da política (o valor usado para o parâmetro **Identity)** como o valor do **parâmetro PolicyName:**
+Em seguida, atribua a política aos usuários, usando o nome da política (o valor usado para o parâmetro **Identity** ) como o valor do **parâmetro PolicyName** :
   
 ```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
- **Etapa 3:** Opcional - Por padrão, na primeira vez que os usuários iniciam o cliente Skype for Business, a experiência do cliente Skype é usada e uma notificação é exibida para os usuários solicitando que eles reiniciem o cliente para obter a experiência do cliente do Lync. Você pode configurar seu ambiente para que a experiência do cliente do Lync seja exibida na primeira vez que os usuários iniciarem o cliente, bem como desativar o tutorial do cliente modificando o registro do sistema em computadores cliente. Para as etapas que você precisa executar antes de implantar o cliente Skype for Business, consulte [Configure the client experience with Skype for Business](../../deploy/deploy-clients/configure-the-client-experience.md).
+ **Etapa 3:** Opcional - Por padrão, na primeira vez que os usuários iniciam o cliente Skype for Business, a experiência do cliente Skype é usada e uma notificação é exibida para os usuários solicitando que eles reiniciem o cliente para obter a experiência do cliente do Lync. Você pode configurar seu ambiente para que a experiência do cliente do Lync seja exibida na primeira vez que os usuários iniciarem o cliente, bem como desativar o tutorial do cliente modificando o registro do sistema em computadores cliente. Para as etapas que você precisa executar antes de implantar o cliente Skype for Business consulte [Configure the client experience with Skype for Business](../../deploy/deploy-clients/configure-the-client-experience.md).
   
  **Etapa 4:** Depois de configurar suas políticas de cliente, implante o cliente Skype for Business, build 4711.1002 (abril de 2015) ou posterior.
   
@@ -185,7 +185,7 @@ Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisable
 
 Depois de configurar suas políticas de cliente, implante o cliente Skype for Business, build 4711.1002 (abril de 2015) ou posterior.
   
-Para obter informações detalhadas sobre como configurar a experiência do cliente com o Skype for Business Online, incluindo etapas sobre como controlar a primeira experiência de executar e os scripts do PowerShell que você pode usar para configurar seu ambiente, consulte Alternando entre o Skype for Business e as interfaces do usuário cliente [do Lync.](../../../SfbOnline/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md)
+Para obter informações detalhadas sobre como configurar a experiência do cliente com o Skype for Business Online, incluindo etapas sobre como controlar a primeira experiência de executar e os scripts do PowerShell que você pode usar para configurar seu ambiente, consulte Alternando entre o Skype for Business e as interfaces do usuário cliente [do Lync](../../../SfbOnline/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md).
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>Recursos para ajudá-lo a preparar suas equipes de suporte e seus usuários finais para a atualização
 <a name="support"> </a>

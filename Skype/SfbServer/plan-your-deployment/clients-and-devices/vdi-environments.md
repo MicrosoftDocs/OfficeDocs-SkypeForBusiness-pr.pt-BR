@@ -1,7 +1,7 @@
 ---
 title: Planejar Skype for Business ambientes VDI
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: Este tópico discute considerações de planejamento para o uso Skype for Business ao se conectar a uma área de trabalho virtual remota.
-ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 052c8b8252846204020ccb29a4d28d6150027963
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864718"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395073"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planejar Skype for Business ambientes VDI
  
@@ -45,7 +45,7 @@ Há três soluções disponíveis para o componente de plug-in VDI, oferecidas p
 
 O plug-in de ambiente VDI do Citrix (um recurso do XenApp e XenDesktop) é compatível com os clientes Lync 2013 e Skype for Business 2015 e 2016 (clientes completos usando qualquer clique para executar o instalador ou instaladores MSI lançados após a PU de janeiro de 2017) instalados em uma área de trabalho virtual. Seu funcionamento geral é baseado no plug-in VDI do Microsoft Lync, mas funciona em uma variedade maior de sistemas operacionais cliente, incluindo Windows 10, Macintosh e Linux.
   
-Uma lista completa de recursos e tecnologias com suporte pode ser encontrada no site da Citrix em Entrega do [Microsoft Skype for Business para usuários XenApp e XenDesktop.](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)
+Uma lista completa de recursos e tecnologias com suporte pode ser encontrada no site do Citrix em [Entrega do Microsoft Skype for Business para usuários XenApp e XenDesktop](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
 Confira os links a seguir para obter mais informações:
   
@@ -95,7 +95,7 @@ Confira os links a seguir para obter mais informações:
     
 - Artigo do Centro de Conhecimento do Citrix [CTX138408](https://support.citrix.com/article/CTX138408)
     
-O plug-in do Microsoft VDI está disponível no [plug-in do Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) ou no plug-in do [Microsoft Lync VDI 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35454). Esse plug-in é suportado com o cliente Skype for Business 2015, apesar do nome.
+O plug-in do Microsoft VDI está disponível no [plug-in do Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) ou no [plug-in do Microsoft Lync VDI 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35454). Esse plug-in é suportado com o cliente Skype for Business 2015, apesar do nome.
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>Tecnologias de virtualização com suporte e limitações conhecidas
 <a name="Supported_virt"> </a>
@@ -120,7 +120,7 @@ O plug-in VDI do Lync foi projetado para usar APIs independentes da plataforma c
 Em um ambiente VDI, as máquinas virtuais e o computador local do usuário devem atender aos requisitos descritos nesta seção.
   
 > [!NOTE]
->  Seu provedor de soluções de virtualização pode fornecer detalhes sobre como instalar e implantar seu ambiente. Para obter informações gerais sobre como implantar um ambiente virtualizado com base no Hyper-V e nos Serviços de Área de Trabalho Remota, consulte os seguintes artigos na Biblioteca da Microsoft: [Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)), Serviços de Área de Trabalho Remota no [Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 
+>  Seu provedor de soluções de virtualização pode fornecer detalhes sobre como instalar e implantar seu ambiente. Para obter informações gerais sobre a implantação de um ambiente virtualizado com base no Hyper-V e nos Serviços de Área de Trabalho Remota, consulte os seguintes artigos na Biblioteca da Microsoft: [Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)), Serviços de Área de Trabalho Remota no [Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 
   
 As máquinas virtuais devem ser configuradas com Windows 8, Windows 7 ou Windows Server 2008 R2 com os service packs mais recentes.
   
@@ -136,7 +136,7 @@ O computador local do usuário deve atender aos seguintes requisitos:
     
 - No computador local, as configurações do cliente de área de trabalho remota devem ser definidas para que o áudio reproduza o computador local e a gravação remota esteja desabilitada. Para configurar essas configurações para a Conexão de Área de Trabalho Remota Windows, consulte a próxima seção, "Para configurar configurações de Conexão de Área de Trabalho Remota". 
     
-O plug-in do Microsoft VDI está disponível no [plug-in do Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) ou no plug-in do [Microsoft Lync VDI 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35454).
+O plug-in do Microsoft VDI está disponível no [plug-in do Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) ou no [plug-in do Microsoft Lync VDI 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35454).
   
 #### <a name="known-feature-limitations"></a>Limitações conhecidas do recurso
 <a name="VDI_prereq"> </a>
@@ -164,7 +164,7 @@ Não há suporte aos seguintes recursos:
 O plug-in VDI do Lync não é suportado em ambientes Microsoft 365 ou Office 365 ambientes.
   
 > [!NOTE]
-> O Citrix RealTime Optimization Pack dá suporte Microsoft 365 e Office 365. Para ambientes virtuais baseados em Citrix, consulte a documentação visão geral técnica da Citrix para a lista de recursos e versões com suporte. [](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl)
+> O Citrix RealTime Optimization Pack dá suporte Microsoft 365 e Office 365. Para ambientes virtuais baseados em Citrix, consulte a documentação [](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) visão geral técnica da Citrix para a lista de recursos e versões com suporte.
   
 ## <a name="see-also"></a>Confira também
 <a name="Citrix_RT"> </a>

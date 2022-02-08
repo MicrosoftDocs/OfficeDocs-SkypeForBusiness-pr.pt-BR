@@ -1,8 +1,8 @@
 ---
 title: Exibição VideoStreamDetail
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: A Exibição VideoStreamDetail armazena informações sobre cada stream de vídeo no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e34791bd3081497c4c8501dbd01d2e9d39503f1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863228"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393533"
 ---
 # <a name="videostreamdetail-view"></a>Exibição VideoStreamDetail
  
 A Exibição VideoStreamDetail armazena informações sobre cada stream de vídeo no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
-|**Column**|**Tipo de dados**|**Descrição**|
+|**Coluna**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|
 |SessionTime  <br/> |datetime  <br/> |Referenciado na tabela [MediaLine](medialine-0.md).  <br/> |
 |SessionSeq  <br/> |int  <br/> |Referenciado na tabela [MediaLine](medialine-0.md).  <br/> |

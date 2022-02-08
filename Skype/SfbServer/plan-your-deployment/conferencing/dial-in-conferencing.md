@@ -1,8 +1,8 @@
 ---
 title: Planejar conferência discda em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Resumo: leia este tópico para saber mais sobre o planejamento da conferência discagem no Skype for Business Server.'
-ms.openlocfilehash: 84d034ba358213a0f79548df6cc1ca027098633b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1840133072e6bac5cf9b95597b8f23ed5d37a7bd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841083"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394973"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planejar conferência discda em Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60841083"
   
 A conferência discada é um recurso opcional da Skype for Business Server que permite que os participantes da reunião participem da parte de áudio de uma reunião ligando para a reunião de um telefone. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional. Este tópico descreve o que você precisa pensar antes de implantar a conferência discagem para sua organização. 
   
-Alguns dos componentes necessários para conferência discada são específicos para conferência discada e alguns são Enterprise Voice componentes. Embora a conferência discado use alguns dos mesmos componentes que Enterprise Voice usa, você pode implantar a conferência discagem mesmo que você não implante Enterprise Voice. Esta seção descreve os componentes necessários para conferência discagem. Para obter mais informações sobre como planejar uma solução de Enterprise Voice completa, consulte [Plan your Enterprise Voice solution in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
+Alguns dos componentes necessários para conferência discada são específicos para conferência discada e alguns são Enterprise Voice componentes. Embora a conferência discado use alguns dos mesmos componentes que Enterprise Voice usa, você pode implantar a conferência discagem mesmo que você não implante Enterprise Voice. Esta seção descreve os componentes necessários para conferência discagem. Para obter mais informações sobre como planejar uma solução Enterprise Voice completa, consulte [Plan your Enterprise Voice solution in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 A conferência discada exige que você forneça conectividade à PSTN (rede telefônica pública comutado) implantando um Servidor de Mediação. Além de implantar um Servidor de Mediação, você precisa considerar o seguinte para permitir conferência discada para sua organização:
   
@@ -50,7 +50,7 @@ Você pode implantar um Servidor de Mediação em um site central ou em um site 
   
 Você pode implantar um gateway PSTN em um site central ou em um site de filial. Em um site de filial, o gateway PSTN pode ser autônomo ou um componente do Aparelho de Filial Suportável.
   
-Para obter detalhes sobre os requisitos de gateway PSTN e Servidor de Mediação, consulte Componente do Servidor de Mediação no [Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), Implantar um Servidor de Mediação no Construtor de [Topologias](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)no Skype for Business Server e Definir um gateway no Construtor de [Topologias em Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Para obter detalhes sobre os requisitos de gateway PSTN e Servidor de Mediação, consulte Mediation [Server component in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md), and [Define a gateway in Topology Builder in Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planejar planos de discagem, números de acesso e regiões de conferência
 
@@ -86,7 +86,7 @@ Antes de configurar os planos de discagem, é importante planejar como deseja no
     
 - Qualquer usuário de qualquer local pode chamar qualquer número de acesso discado para ingressar em uma conferência.
     
-Para obter mais informações sobre como criar um plano de discagem, consulte [Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) and Create or modify a [normalization rule in Skype for Business](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
+Para obter mais informações sobre como criar um plano de discagem, consulte [Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) and [Create or modify a normalization rule in Skype for Business](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## <a name="plan-for-conference-directories"></a>Planejar diretórios de conferência
 
@@ -106,9 +106,9 @@ As conferências devem ser habilitadas para acesso de discagem ao configurar pol
     
 - Um ou mais números de acesso PSTN
     
-- Um link para uma página de conferência discada Configurações, que contém uma lista completa de números de acesso com seus idiomas associados; um local para criar, redefinir ou desbloquear números de identificação pessoal (PINs); e outras informações, como controles DTMF (multifrequência de tom duplo)
+- Um link para uma página de conferência discada Configurações, que contém uma lista completa de números de acesso com seus idiomas associados; um local para criar, redefinir ou desbloquear números de identificação pessoal (PINs) e outras informações, como controles DTMF (dual-tone multi-frequency)
     
-Para obter mais informações sobre políticas de conferência, consulte [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) and Manage [conferencing policies in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).  
+Para obter mais informações sobre políticas de conferência, consulte [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) [and Manage conferencing policies in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>Suporte para usuários corporativos e anônimos
 

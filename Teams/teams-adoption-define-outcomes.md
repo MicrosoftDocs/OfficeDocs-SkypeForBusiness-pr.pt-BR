@@ -1,7 +1,7 @@
 ---
 title: Definir resultados e sucesso para adotar Microsoft Teams - Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: Saiba como medir os resultados e o sucesso da sua habilitação em larga escala de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f4594f6d47216c1afe0440562013ca9985cab10
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9aaf0282794fd916c6779664d661b2ac0a569de2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849524"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394473"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir os resultados e o sucesso da adoção do Microsoft Teams
 
@@ -76,22 +76,22 @@ Em geral, você deve pensar nessas medidas agregando para criar um quociente de 
 
 Teams é uma tecnologia transformativa, portanto, dependendo do tamanho da sua organização e das tecnologias existentes, você pode tomar diferentes abordagens. Considere estas estratégias:
 
-| Teams Primeiro | Teams Core | Teams Ir grande | Skype Lado a lado | Migração |
+| Teams First | Teams Core | Teams Grande | Skype lado a lado | Migração |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Liderar a implantação na nuvem com Teams | Habilitar cenários de colaboração de líder com Teams | Todos os funcionários em equipes Teams e de toda a organização | Habilitar Teams e Skype for Business | Migrar usuários de Skype for Business para Teams |
 | - Aplicável a clientes novos ou de baixo uso Microsoft 365 ou Office 365 clientes <br/>- Liderar com Teams cenário específico do cliente <br/>- Realça a experiência integrada do usuário e o tempo acelerado para valor para Microsoft 365 ou Office 365 <br/>- Conduzir a habilitação da carga de trabalho de planejamento em conjunto para evitar a implementação em série | - Habilitar Teams com o OneDrive e SharePoint Online <br/>- Criar uma intranet da empresa para compartilhar recursos de notícias e vídeo com o Microsoft Stream<br/>**Melhor juntos**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- Para clientes com menos de 5.000 assentos (limitação atual)<br/>- Habilitar a colaboração entre organizações com uma equipe para todos<br/>– Automatizar tarefas comuns (solicitações de férias, pesquisas de funcionários, envolvimento executivo) |- Usar Teams principais táticas para acelerar a colaboração<br/>- Realce as diretrizes do cenário de reunião com base no tamanho e no conjunto de recursos necessários</br>- Use Skype for Business para chamar empresas, interoperabilidade e cenários híbridos<br/>- Use o roteiro público para o planejamento de funcionalidades. |- Planeje mover para Teams de Skype for Business criando roteiro de estratégia de serviço para o cliente<br/>- Anexar ao cronograma de lançamento de recursos<br/>- Recomenda incluir Lado a Lado e Teams Core para facilitar a transição
 
 A seguir estão nossas recomendações para a maioria das organizações de clientes. No entanto, há exceções. Para obter orientações sobre qualquer cenário não abordado aqui, faça suas perguntas em nossa comunidade de Adoção de Direção ou entre em contato com a equipe FastTrack ou a rede de parceiros da Microsoft.
 
-- **Escolha Teams First ou Teams Core:** a maioria das organizações tem um investimento existente na tecnologia Microsoft. Você pode estar habilitando mais de uma carga de trabalho por vez, como Exchange Online, OneDrive for Business ou SharePoint. Nesses casos, selecionar Teams First ou Teams Core é uma escolha sensata. Ele permitirá que seus usuários se adprimoram com a experiência de colaboração aprimorada de Teams. Sua equipe de projeto de colaboração pode então planejar a adoção de recursos adicionais e o treinamento e o suporte necessários para que eles sejam bem-sucedidos. 
+- **Escolha Teams First ou Teams Core**: a maioria das organizações tem um investimento existente na tecnologia Microsoft. Você pode estar habilitando mais de uma carga de trabalho por vez, como Exchange Online, OneDrive for Business ou SharePoint. Nesses casos, selecionar Teams First ou Teams Core é uma escolha sensata. Ele permitirá que seus usuários se adprimoram com a experiência de colaboração aprimorada de Teams. Sua equipe de projeto de colaboração pode então planejar a adoção de recursos adicionais e o treinamento e o suporte necessários para que eles sejam bem-sucedidos. 
 
-- **Escolha Teams Go Big**: em novas organizações de clientes do Microsoft 365 ou Office 365, geralmente é melhor ter uma abordagem do Teams Go Big para minimizar a fatiga da mudança causada pelo aprendizado de novas tecnologias várias vezes. Você obterá o maior benefício habilitando o Teams para colaboração principal e reuniões, SharePoint, OneDrive, Planner e outras cargas de trabalho e permitindo que seus funcionários aprendam sobre eles no contexto de sua implantação Teams. 
+- **Escolha Teams Go Big**: em novas organizações de clientes Microsoft 365 ou Office 365, geralmente é melhor fazer uma abordagem Teams Go Big para minimizar o fatiga da mudança causada pelo aprendizado de novas tecnologias várias vezes. Você obterá o maior benefício habilitando o Teams para colaboração principal e reuniões, SharePoint, OneDrive, Planner e outras cargas de trabalho e permitindo que seus funcionários aprendam sobre eles no contexto de sua implantação Teams. 
 
     Teams Go Big também é a estratégia de habilitação preferencial para organizações com menos de 1.000 funcionários que querem simplificar a comunicação e o envolvimento dos funcionários. O uso da equipe de toda a organização pode reunir as pessoas para revisar tarefas e iniciativas comuns em qualquer dispositivo. 
 
-- **Escolha** Lado a lado : para organizações que estão usando o Skype for Business para audioconferência, suporte para dispositivos de sala de conferência ou recursos de voz na nuvem, recomendamos executar o Teams e o Skype lado a lado para familiarizar seus funcionários com os principais recursos de colaboração, enquanto planeja sua migração fora do Skype for Business em um momento conveniente para sua empresa. Observe que executar ambos os clientes lado a lado pode introduzir confusão do usuário sobre qual ferramenta usar, portanto, recomendamos manter essa fase em sua jornada de adoção curta. 
+- **Escolha** Lado a lado: Para organizações que estão usando o Skype for Business para audioconferência, suporte para dispositivos de sala de conferência ou recursos de voz na nuvem, recomendamos executar o Teams e o Skype lado a lado para familiarizar seus funcionários com os principais recursos de colaboração, enquanto planeja sua migração fora de Skype for Business em um momento conveniente para sua empresa. Observe que executar ambos os clientes lado a lado pode introduzir confusão do usuário sobre qual ferramenta usar, portanto, recomendamos manter essa fase em sua jornada de adoção curta. 
 
-- **Escolha Migração**: Migrar do Skype for Business para o Teams tem componentes adicionais de uma perspectiva técnica, mas a jornada de adoção do usuário tem os mesmos componentes de uma implementação Teams Go Big. Além disso, você estará educando as pessoas sobre Teams experiência de reunião e interface, o novo comportamento de chat persistente e outros elementos da experiência que são diferentes de Skype for Business.
+- **Escolha Migração**: migrar do Skype for Business para o Teams tem componentes adicionais de uma perspectiva técnica, mas a jornada de adoção do usuário tem os mesmos componentes de uma implementação Teams Go Big. Além disso, você estará educando as pessoas sobre Teams experiência de reunião e interface, o novo comportamento de chat persistente e outros elementos da experiência que são diferentes de Skype for Business.
 
 Para cada estratégia de habilitação, é essencial trabalhar em estreita cooperação com sua equipe de preparação técnica para garantir que seu ambiente proporcionará uma ótima experiência de funcionário. 
 

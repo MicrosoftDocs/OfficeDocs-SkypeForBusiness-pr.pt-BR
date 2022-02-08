@@ -1,7 +1,7 @@
 ---
 title: Exibir suas atribuições de política no log de atividades no Microsoft Teams de administração
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c48e6b8ea08419b96384be5e19ba1a7d5275dea
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: ed7903e0018d30882fa27c63941b5d03a27fdaf3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785064"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393523"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Exibir suas atribuições de política no log de atividades
 
@@ -35,19 +35,19 @@ Quando você atribui políticas aos usuários no centro de administração Micro
 
 Para exibir suas atribuições de política no log de atividades:
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Home** e, em Seguida, em **Log** de **Atividades,** selecione Exibir detalhes .
-2. Você pode exibir todas as atribuições de política ou filtrar a lista por status para mostrar apenas as atribuições não iniciadas **,** em andamento **ou** **concluídas.** Você verá as seguintes informações sobre cada atribuição:
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Home** e, em Log de Atividades **, selecione** **Exibir detalhes**.
+2. Você pode exibir todas as atribuições de política ou filtrar a lista por status para mostrar apenas as atribuições que não foram iniciadas **, em** andamento ou **concluídas**. Você verá as seguintes informações sobre cada atribuição:
     - **Nome**: o nome da atribuição de política. Clique no link para exibir mais detalhes. Isso inclui o número de usuários aos que a política foi atribuída e o número de atribuições concluídas, em andamento e não iniciadas. Você também verá a lista de usuários no lote e o status e o resultado para cada usuário. Veja um exemplo:
 
         ![Captura de tela do.](media/activity-log-policy-assignment-detail.png)
 
     - **Enviado**: Data e hora em que a atribuição de política foi enviada.
-    - **Tempo de conclusão**: Data e hora em que a atribuição de política foi concluída.
+    - **Hora da conclusão**: Data e hora em que a atribuição de política foi concluída.
     - **Impacto em**: Número de usuários no lote.
     - **Status geral**: Status da atribuição de política.
 
 > [!NOTE]
-> Você também pode acessar o log atividade na **página Usuários.** Depois de clicar **em Aplicar** para enviar uma atribuição de política em massa, você verá um banner na parte superior da página. Clique no link **Log de** atividades no banner.
+> Você também pode acessar o log atividade na **página Usuários** . Depois de clicar **em Aplicar** para enviar uma atribuição de política em massa, você verá um banner na parte superior da página. Clique no link **Log de** atividades no banner.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

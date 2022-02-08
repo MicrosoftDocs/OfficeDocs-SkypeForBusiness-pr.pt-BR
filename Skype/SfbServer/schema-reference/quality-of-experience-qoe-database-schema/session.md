@@ -1,8 +1,8 @@
 ---
 title: Tabela de sessão
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,23 +13,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Cada registro representa uma sessão que envolve áudio, áudio e vídeo. Ele contém informações gerais sobre a sessão. Uma sessão é definida como uma caixa de diálogo SIP (Protocolo de Iniciação de Sessão) de áudio ou vídeo entre dois pontos de extremidade.
-ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6e69ca38a0338075975919f087c066f683fcfb87
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840923"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394610"
 ---
 # <a name="session-table"></a>Tabela de sessão
  
 Cada registro representa uma sessão que envolve áudio, áudio e vídeo. Ele contém informações gerais sobre a sessão. Uma sessão é definida como uma caixa de diálogo SIP (Protocolo de Iniciação de Sessão) de áudio ou vídeo entre dois pontos de extremidade.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primário  <br/> |Referenciado na tabela [Dialog](dialog.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primário  <br/> |Referenciado na tabela [Dialog](dialog.md).  <br/> |
-|**ConferenceKey** <br/> |int  <br/> |Foreign  <br/> |Chave de conferência. Referenciado na tabela [Conferência](conference.md).  <br/> |
-|**CorrelationKey** <br/> |int  <br/> |Foreign  <br/> |Chave de correlação. Referenciado da tabela [SessionCorrelation.](sessioncorrelation.md)  <br/> |
+|**ConferenceKey** <br/> |int  <br/> |Foreign  <br/> |Chave de conferência. Referenciado na [tabela Conferência](conference.md).  <br/> |
+|**CorrelationKey** <br/> |int  <br/> |Foreign  <br/> |Chave de correlação. Referenciado na tabela [SessionCorrelation](sessioncorrelation.md).  <br/> |
 |**DialogCategory** <br/> |bit  <br/> | <br/> |Categoria de caixa de diálogo; 0 é Skype for Business Server etapa do Servidor de Mediação; 1 é a etapa de gateway do Servidor de Mediação para PSTN.  <br/> |
 |**MediationServerBypassFlag** <br/> |bit  <br/> ||Sinalizador que indica se a chamada foi ignorada ou não.  <br/> |
 |**MediaBypassWarningFlag** <br/> |int  <br/> ||Caso presente, este campo indica o motivo de uma chamada não ter sido ignorada, mesmo se as IDs de bypass correspondessem. Para Skype for Business Server, apenas um valor é definido.  <br/> 0x0001 - ID de bypass desconhecido para adaptador de rede padrão.  <br/> |
@@ -37,8 +37,8 @@ Cada registro representa uma sessão que envolve áudio, áudio e vídeo. Ele co
 |**EndTime** <br/> |datetime  <br/> | <br/> |Hora da finalização da chamada.  <br/> |
 |**CallerPool** <br/> |int  <br/> |Foreign  <br/> |O pool do chamador. Referenciado na [tabela Pool](pool.md).  <br/> |
 |**CalleePool** <br/> |int  <br/> |Foreign  <br/> |O pool do receptor de chamada. Referenciado na [tabela Pool](pool.md).  <br/> |
-|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |URI SIP no SIP p-asserted identity (PAI) do ponto de extremidade de recebimento. Referenciado na [tabela Usuário.](user-0.md)  <br/> |
-|**CallerURI** <br/> |int  <br/> |Foreign  <br/> |URI do chamador. Referenciado na [tabela Usuário.](user-0.md)  <br/> |
+|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |URI SIP no SIP p-asserted identity (PAI) do ponto de extremidade de recebimento. Referenciado da [tabela Usuário](user-0.md).  <br/> |
+|**CallerURI** <br/> |int  <br/> |Foreign  <br/> |URI do chamador. Referenciado da [tabela Usuário](user-0.md).  <br/> |
 |**CallerEndpoint** <br/> |int  <br/> |Foreign  <br/> |Ponto de extremidade do chamador. Referenciado da tabela [Endpoint](endpoint.md).  <br/> |
 |**CallerUserAgent** <br/> |bit  <br/> |Foreign  <br/> |Agente de usuário do chamador. Referenciado na [tabela UserAgent](useragent.md).  <br/> |
 |**CallPriority** <br/> |smallint  <br/> ||A prioridade dessa chamada.  <br/> |

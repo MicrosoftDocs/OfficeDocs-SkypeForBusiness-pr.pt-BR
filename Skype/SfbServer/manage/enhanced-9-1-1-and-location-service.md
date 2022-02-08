@@ -1,8 +1,8 @@
 ---
 title: Gerenciar o 9-1-1 aprimorado e o serviço De localização
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server suporta a chamada Aprimorada 9-1-1 (E9-1-1) de Skype for Business clientes. Quando você configura o Skype for Business Server para E9-1-1, as chamadas de emergência feitas a partir do Skype for Business incluem informações de Local de Resposta de Emergência (ERL) do banco de dados de serviço informações de local.
-ms.openlocfilehash: 5eb5fe86449147c38c5719976f202591f13a67fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6fb6b539e51bc1178df46baf5990f48d85c44318
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848524"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395363"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gerenciar o 9-1-1 aprimorado e o serviço de localização no Skype para o Busines Server
 
@@ -36,7 +36,7 @@ Você pode configurar políticas de local a partir do grupo **Configuração** d
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local**.
 
 4.  Na página **Política de local**, selecione a política de local que você quer modificar.
 
@@ -59,13 +59,13 @@ Em Skype for Business Server, você pode substituir o tempo padrão entre solici
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local**.
 
 4.  Na página **Política de** Local, clique em **Novo** e selecione o tipo de política que você deseja criar:
     
-      - Para criar uma política de site, clique em **Política de site.** Em **Selecionar um Site,** escolha o site ao qual você deseja que a política seja aplicada e clique em **OK**. Na página **Nova Política de Local,** o campo **Escopo** contém o **valor Site** e o campo **Nome** contém o nome do site escolhido. Não é possível modificar nenhum desses campos. Uma política de site é aplicada automaticamente a todos os usuários no site especificado e substitui a política global para esses usuários.
+      - Para criar uma política de site, clique em **Política de site**. Em **Selecionar um Site**, escolha o site ao qual você deseja que a política seja aplicada e clique em **OK**. Na página **Nova Política de Local** , o campo **Escopo** contém o **valor Site** e o campo **Nome** contém o nome do site escolhido. Não é possível modificar nenhum desses campos. Uma política de site é aplicada automaticamente a todos os usuários no site especificado e substitui a política global para esses usuários.
     
-      - Para criar uma **política de usuário,** clique em **Política de usuário.** Na Nova **Política de Local,** o campo **Escopo** contém o valor **User**. Não é possível modificar esse valor. No campo **Nome,** digite o nome que você deseja dar a esta política. Uma política de usuário não se aplica automaticamente a nenhum usuário. Depois de criar a política de usuário, você deve conceder manualmente a política aos usuários ou sites de rede aos quais deseja aplicar a política.
+      - Para criar uma **política de usuário**, clique em **Política de usuário**. Na Nova **Política de Local**, o campo **Escopo** contém o valor **Usuário**. Não é possível modificar esse valor. No campo **Nome** , digite o nome que você deseja dar a esta política. Uma política de usuário não se aplica automaticamente a nenhum usuário. Depois de criar a política de usuário, você deve conceder manualmente a política aos usuários ou sites de rede aos quais deseja aplicar a política.
 
 5.  Preencha os campos restantes da seguinte forma:
     
@@ -73,11 +73,11 @@ Em Skype for Business Server, você pode substituir o tempo padrão entre solici
     
       - **Local**   Especifique um dos seguintes valores:
         
-          - **Obrigatório**   O usuário será solicitado a inserir informações de local quando o cliente se registrar em um novo local. O usuário pode recusar o aviso, sem digitar qualquer informação. Se as informações são inseridas, uma chamada de emergência será atendida primeiro pelo provedor de serviços de emergência para verificar o local antes de ser roteada para o operador PSAP (Ponto de Atendimento de Segurança Pública) (ou seja, o operador 911).
+          - **Necessário**   O usuário será solicitado a inserir informações de local quando o cliente se registrar em um novo local. O usuário pode recusar o aviso, sem digitar qualquer informação. Se as informações são inseridas, uma chamada de emergência será atendida primeiro pelo provedor de serviços de emergência para verificar o local antes de ser roteada para o operador PSAP (Ponto de Atendimento de Segurança Pública) (ou seja, o operador 911).
         
           - **Não obrigatório**   O usuário não será solicitado a localizar. Quando uma chamada é feita sem informações de local, o provedor de serviços de emergência responderá à chamada e solicitará um local.
         
-          - **Aviso de isenção de responsabilidade**   Essa opção é a mesma que **Obrigatório,** exceto que o usuário não pode descartar o prompt sem inserir informações de local. O usuário ainda pode concluir uma chamada de emergência, mas nenhuma outra chamada pode ser concluída sem inserir as informações. Além disso, o texto de aviso de isenção de responsabilidade será exibido para o usuário que pode alertá-lo sobre as consequências do declínio para inserir informações de local. Para definir o texto de isenção de responsabilidade, você deve usar o Shell de Gerenciamento Skype for Business Server para executar o cmdlet **Set-CsLocationPolicy** ou o cmdlet **New-CsLocationPolicy** com o parâmetro EnhancedEmergencyServiceDisclaimer. Para obter detalhes, [consulte Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
+          - **Aviso de isenção de responsabilidade**   Essa opção é a mesma que **Obrigatório,** exceto que o usuário não pode descartar o prompt sem inserir informações de local. O usuário ainda pode concluir uma chamada de emergência, mas nenhuma outra chamada pode ser concluída sem inserir as informações. Além disso, o texto de aviso de isenção de responsabilidade será exibido para o usuário que pode alertá-lo sobre as consequências do declínio para inserir informações de local. Para definir o texto de isenção de responsabilidade, você deve usar o Shell de Gerenciamento Skype for Business Server para executar o cmdlet **Set-CsLocationPolicy** ou o cmdlet **New-CsLocationPolicy** com o parâmetro EnhancedEmergencyServiceDisclaimer. Para obter detalhes, [consulte Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) [ou New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
           
     
       - **Use o local para serviços** de emergência Skype for Business pode usar informações de local por vários motivos (por exemplo, para notificar os colegas de equipe sobre sua localização atual). Marque essa caixa de seleção para garantir que as informações de local estão disponíveis apenas para uso com uma chamada de emergência.
@@ -90,14 +90,14 @@ Em Skype for Business Server, você pode substituir o tempo padrão entre solici
       
 
         > [!IMPORTANT]  
-        > Garanta que o valor da máscara de discagem especificado não seja igual a um número no intervalo da órbita de estacionamento de chamadas. O roteamento do estacionamento de chamadas terá precedência sobre a conversão de cadeias de caracteres de discagem de emergência. Para ver os intervalos de órbita do estacionamento de chamadas existentes, clique em Recursos de **Voz** na barra de navegação esquerda e clique em **Estacionamento de Chamadas.** 
+        > Garanta que o valor da máscara de discagem especificado não seja igual a um número no intervalo da órbita de estacionamento de chamadas. O roteamento do estacionamento de chamadas terá precedência sobre a conversão de cadeias de caracteres de discagem de emergência. Para ver os intervalos de órbita do estacionamento de chamadas existentes, clique em **Recursos de Voz** na barra de navegação esquerda e clique em **Estacionamento de Chamadas**. 
 
     
       - **URI de notificação**   Um ou mais URIs (Identificadores de Recursos Uniformes SIP) a serem notificados quando uma chamada de emergência é feita. Por exemplo, o escritório de segurança da empresa poderia ser avisado, por meio de uma mensagem instantânea, sempre que ocorrer uma chamada de emergência. Se a localização do chamador estiver disponível, ela será incluída na notificação. Vários URIs do SIP podem ser incluídos como uma lista separada por vírgulas. Por exemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". As listas de distribuição são suportadas. A string precisa ter de 1 a 256 caracteres e precisa começar com o prefixo "sip:". Antes de clicar no campo URI de notificação, um exemplo é exibido.
     
-      - **URI de conferência**   O URI SIP, nesse caso, o número de telefone de um terceiro que será conferênciado em todas as chamadas de emergência feitas. Por exemplo, o escritório de segurança da empresa pode receber uma chamada quando uma chamada de emergência é feita e ouvir ou participar dessa chamada (dependendo do valor fornecido no campo modo **Conferência).** A cadeia de caracteres deve ter entre um e 256 caracteres de comprimento e deve começar com o prefixo sip:. Um exemplo é exibido até você clicar nesse campo.
+      - **URI de conferência**   O URI SIP, nesse caso, o número de telefone de um terceiro que será conferênciado em todas as chamadas de emergência feitas. Por exemplo, o escritório de segurança da empresa pode receber uma chamada quando uma chamada de emergência é feita e ouvir ou participar dessa chamada (dependendo do valor fornecido no campo **modo Conferência).** A cadeia de caracteres deve ter entre um e 256 caracteres de comprimento e deve começar com o prefixo sip:. Um exemplo é exibido até você clicar nesse campo.
     
-      - **Modo de conferência**   Se você especificar um valor no campo  **URI** de conferência, o modo Conferência determinará se um terceiro pode participar da chamada ou só pode escutar. Especifique uma das seguintes opções:
+      - **Modo de conferência**   Se você especificar um valor no campo **URI** de conferência, o modo  Conferência determinará se um terceiro pode participar da chamada ou só pode escutar. Especifique uma das seguintes opções:
         
           - **One-way**   Um terceiro só pode ouvir a conversa entre o chamador e o operador PSAP.
         
@@ -107,7 +107,7 @@ Em Skype for Business Server, você pode substituir o tempo padrão entre solici
 
 
     > [!IMPORTANT]  
-    > Quando você cria uma política de usuário, inicialmente essa política não se aplica a nenhum usuário ou sites de rede. Para aplicar a política a um usuário, clique **em Usuários** na barra de navegação esquerda. Encontre o usuário ao qual você deseja aplicar a política. No painel **Ações**, clique em **Mostrar detalhes**. Na página **Editar Usuário do Servidor,** selecione  a nova política de local na listada lista listada da política de local e clique em **Confirmação**.<BR>Para aplicar a política a um site de rede, clique em **Configuração** de Rede na barra de navegação esquerda e clique em **Site**. Encontre o site de rede ao qual você deseja aplicar a política. No painel **Ações**, clique em **Mostrar detalhes**. Em **Editar Site,** selecione a  nova política de local na listada lista listada da política de local e clique em **Confirmação**.
+    > Quando você cria uma política de usuário, inicialmente essa política não se aplica a nenhum usuário ou sites de rede. Para aplicar a política a um usuário, clique **em Usuários** na barra de navegação esquerda. Encontre o usuário ao qual você deseja aplicar a política. No painel **Ações**, clique em **Mostrar detalhes**. Na página **Editar Usuário do Servidor**, selecione a nova política de local na  listada lista listada da política de local e clique em **Confirmação**.<BR>Para aplicar a política a um site de rede, clique em **Configuração** de Rede na barra de navegação esquerda e clique em **Site**. Encontre o site de rede ao qual você deseja aplicar a política. No painel **Ações**, clique em **Mostrar detalhes**. Em **Editar Site**, selecione a nova política de local na  lista lista de listada da política de local e clique em **Confirmação**.
 
 
 ### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Para modificar uma política de local no painel Skype for Business Server Controle
@@ -116,7 +116,7 @@ Em Skype for Business Server, você pode substituir o tempo padrão entre solici
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local**.
 
 4.  Na página **Política de local**, selecione a política de local que você quer modificar.
 
@@ -134,7 +134,7 @@ Em Skype for Business Server, você pode substituir o tempo padrão entre solici
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Política de Local**.
 
 4.  Na página **Política de local**, selecione a política de local que você quer excluir.
    
@@ -150,7 +150,7 @@ Em Skype for Business Server, você pode substituir o tempo padrão entre solici
     > Você não pode excluir uma política de local Global. Se você tentar excluir a política Global, você receberá uma mensagem de aviso, e essa política será redefinida aos seus valores padrão.
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Criar ou modificar sites de rede](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 

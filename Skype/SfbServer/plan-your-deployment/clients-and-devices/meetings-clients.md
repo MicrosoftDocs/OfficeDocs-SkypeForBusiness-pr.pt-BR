@@ -1,7 +1,7 @@
 ---
 title: Planejar os clientes de Reuniões (Aplicativo Web e Aplicativo de Reuniões)
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: os profissionais de TI devem revisar os requisitos de suporte para o aplicativo de reuniões Skype for Business Web App e Skype durante o planejamento de Skype for Business Server. Este artigo não se destina aos usuários desses aplicativos.'
-ms.openlocfilehash: dbf9f83599e36189c172daa37cdb7444659aad83
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bf6eb62291309500c942e83c41e898b5a4d25531
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862118"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395153"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planejar os clientes de Reuniões (Aplicativo Web e Aplicativo de Reuniões)
  
@@ -33,19 +33,19 @@ Depois de implementar o Skype for Business Server, os usuários da sua organiza�
 Posteriormente, esses usuários podem criar reuniões e convidar usuários de fora da organização, e esses convidados de reunião podem não ter nenhuma versão do cliente Skype for Business. Quando esses usuários clicam na URL do convite da reunião, a falta de um cliente será detectada e o convidado sem um cliente Skype for Business será solicitado a baixar e instalar um cliente leve, somente reuniões, para que eles possam ingressar na reunião.
   
 > [!NOTE]
-> O Skype for Business Web App e o Skype reuniões estão disponíveis apenas ao tentar fazer logoff em uma reunião sem Skype for Business. A ajuda do usuário para esses aplicativos está [https://aka.ms/smahelp](https://aka.ms/smahelp) em . 
+> O Skype for Business Web App e o Skype reuniões estão disponíveis apenas ao tentar fazer logoff em uma reunião sem Skype for Business. A ajuda do usuário para esses aplicativos está em [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
-> Não é possível pré-instalar o aplicativo de reuniões Skype for Business Web App ou [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) Skype, mas os usuários de smartphones e [tablets](https://products.office.com/skype-for-business/download-app?tab=tabs-2) podem instalar clientes móveis baratos que podem usar para participar de reuniões.
+> Não é possível pré-instalar o aplicativo de reuniões Skype for Business Web App ou Skype, mas os usuários de smartphones [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) e [tablets](https://products.office.com/skype-for-business/download-app?tab=tabs-2) podem instalar clientes móveis baratos que podem usar para participar de reuniões.
   
 Por padrão, o servidor que hospeda a reunião direcionará o usuário para baixar e instalar Skype for Business Web App participar da reunião. O Skype for Business Web App é armazenado no Servidor Front-End e é enviado para o participante da reunião. 
   
-Para Skype for Business Server, o Skype Meetings App (no Windows) e o Skype for Business para Mac (no Mac) estão disponíveis como substituições para o Skype for Business Web App começando com o CU5, mas fornecendo os aplicativos de substituição requer a configuração adicional descrita em [Enable Skype Meetings App para substituir Skype for Business Web App (Opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Se Skype de reuniões e Skype for Business para Mac estão habilitados, os usuários baixarão a versão mais recente dos aplicativos do Microsoft 365 ou Office 365 Rede de Distribuição de Conteúdo (CDN) em vez de de seu Skype for Business servidor. Para Skype for Business Server 2019, usar o Skype Meetings App e Skype for Business para Mac é a única opção.
+Para Skype for Business Server, o Skype meetings (no Windows) e o Skype for Business para Mac (no Mac) estão disponíveis como substituições para Skype for Business Web App  começando com o CU5, mas fornecer os aplicativos de substituição requer a configuração adicional descrita em [Enable Skype Meetings App para substituir Skype for Business Web App (Opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Se Skype de reuniões e Skype for Business para Mac estão habilitados, os usuários baixarão a versão mais recente dos aplicativos do Microsoft 365 ou Office 365 Rede de Distribuição de Conteúdo (CDN) em vez disso do que do seu Skype for Business servidor. Para Skype for Business Server 2019, usar o Skype Meetings App e Skype for Business para Mac é a única opção.
   
-Skype O Aplicativo reuniões oferece uma experiência de navegador simplificada para baixar e instalar o aplicativo e participar de reuniões, incluindo a junção de um clique para usuários do Internet Explorer. Skype O Aplicativo reuniões também tem muitas melhorias sobre o Skype for Business Web App para confiabilidade e experiência de reunião. 
+Skype Meetings App oferece uma experiência de navegador simplificada para baixar e instalar o aplicativo e participar de reuniões, incluindo a junção de um clique para usuários do Internet Explorer. Skype Meetings App também tem muitas melhorias sobre o Skype for Business Web App para confiabilidade e a experiência de reunião. 
   
 > [!NOTE]
-> A partir do Skype for Business Server 2015 CU5 ou posterior, as reuniões realizadas usando o Skype for Business Online não enviarão mais a um usuário sem cliente o Skype for Business Web App, em vez disso, serão enviadas Skype Meetings App (no Windows) ou Skype for Business para Mac (no Mac). A partir do Skype for Business Server 2015 CU5 ou posterior, se você habilitar o aplicativo de reuniões do Skype para substituir o [Skype for Business Web App (Opcional),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)os usuários sem cliente serão enviados Skype Aplicativo de Reuniões ou Skype for Business para Mac em vez de Skype for Business Web App. 
+> A partir de Skype for Business Server 2015 CU5 ou posterior, as reuniões realizadas usando o Skype for Business Online não enviarão mais o Skype for Business Web App a um usuário sem cliente, em vez disso, serão enviadas Skype Meetings App (no Windows) ou Skype for Business para Mac (no Mac). A partir de Skype for Business Server 2015 CU5 ou posterior, se você habilitar o aplicativo de reuniões do Skype para substituir o [Skype for Business Web App (Opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), os usuários sem cliente serão enviados Skype Aplicativo de Reuniões ou Skype for Business para Mac em vez de Skype for Business Web App. 
   
 ## <a name="software-requirements"></a>Requisitos de software
 <a name="OS-Browser"> </a>
@@ -61,7 +61,7 @@ Para usar o Skype for Business Web App, um usuário deve ter uma das seguintes c
 |Windows 8 (baseado em Intel) &#x2776; <br/> |N/D  <br/> |N/D  <br/> |Sim  <br/> |N/D <br/> |N/D  <br/> |Sim &#x2778; <br/> |
 |Windows 7 com sp1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |N/D <br/>|Sim &#x2778; <br/> |
 |Windows Server 2008 R2 com sp1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |N/D <br/>|Sim &#x2778; <br/> |
-|macOS 10.8 e posterior (baseado em Intel) &#x2777; <br/> |N/D  <br/> |N/D  <br/> |Não disponível  <br/> |N/D  <br/> |Sim  <br/> |Sim <br/> |
+|macOS 10.8 e posterior (baseado em Intel) &#x2777; <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sim  <br/> |Sim <br/> |
    
 &#x2776; O plug-in do navegador Skype for Business Web App requer um plug-in de compartilhamento específico para usar voz, vídeo, compartilhamento e exibição de compartilhamento de tela em andamento e outros recursos. Um participante de reunião recebe a opção de instalar o plug-in de compartilhamento quando ingressar na reunião ou quando inicia um desses recursos. No Windows 8 e Windows 8.1, o plug-in de compartilhamento só poderá ser instalado se você estiver executando o Internet Explorer 10 ou o Internet Explorer 11 para a área de trabalho. Esses recursos não estão disponíveis com versões não desktop de Internet Explorer 10 e 11. Observe que o Firefox e o Safari versão 12.0 e posteriores não são mais suportados.
   
@@ -74,9 +74,9 @@ Para usar o Skype for Business Web App, um usuário deve ter uma das seguintes c
   
 ### <a name="skype-meetings-app"></a>Aplicativo de Reuniões do Skype
 
-Skype Reuniões O aplicativo é executado como um aplicativo em computadores usando Windows 10, Windows 8.1, Windows 8, Windows 7, com o Internet Explorer 11 de 32 e 64 bits ou posterior instalado. 
+Skype Meetings App é executado como um aplicativo em computadores usando Windows 10, Windows 8.1, Windows 8, Windows 7, com o Internet Explorer 11 de 32 e 64 bits ou posterior instalado. 
   
-Para outras dependências, consulte [Plataformas](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001) com suporte para o Skype Meetings App
+Para outras dependências, consulte Plataformas com suporte para [o Skype Meetings App](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
 ### <a name="skype-for-business-for-mac"></a>Skype for Business para Mac
 
@@ -85,12 +85,12 @@ Skype for Business para Mac em computadores que usam macOS versão 10.8 ou poste
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 <a name="OS-Browser"> </a>
 
-Os requisitos de hardware do computador são determinados pelo sistema operacional e pelo navegador. Os recursos de voz e telefonia exigem microfone e alto-falantes, fone de ouvido com microfone ou dispositivo equivalente compatível com o computador. Os recursos de vídeo exigem um dispositivo de vídeo compatível com o computador. Para obter informações detalhadas sobre o suporte ao hardware de vídeo e a qualidade de vídeo esperada, [consulte Skype for Business de vídeo cliente.](video-resolutions.md)
+Os requisitos de hardware do computador são determinados pelo sistema operacional e pelo navegador. Os recursos de voz e telefonia exigem microfone e alto-falantes, fone de ouvido com microfone ou dispositivo equivalente compatível com o computador. Os recursos de vídeo exigem um dispositivo de vídeo compatível com o computador. Para obter informações detalhadas sobre o suporte ao hardware de vídeo e a qualidade de vídeo esperada, [consulte Skype for Business de vídeo cliente](video-resolutions.md).
   
 ## <a name="network-requirements"></a>Requisitos de rede
 <a name="Network"> </a>
 
-Se um usuário do Skype for Business Web App ou do Skype Meetings App tiver problemas de conexão de reunião, as chances são de que a infraestrutura de rede da sua organização não seja configurada para dar suporte Office 365 conforme descrito em [urls Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)e intervalos de endereços IP . Esse é o caso se a reunião foi criada por um usuário do Skype for Business Online ou Skype for Business Server. 
+Se um usuário do Skype for Business Web App ou do Skype Meetings App tiver problemas de conexão de reunião, as chances são de que a infraestrutura de rede da organização não seja configurada para dar suporte Office 365 como descrito em [urls Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). Esse é o caso se a reunião foi criada por um usuário do Skype for Business Online ou Skype for Business Server. 
   
 Se o usuário estiver em uma rede não configurada conforme descrito, muitos recursos do aplicativo poderão ou não funcionar e talvez não possam se conectar à reunião.
   
@@ -130,7 +130,7 @@ Esta tabela compara os recursos de Reuniões disponíveis aos usuários do clien
 |Faça votações  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Upload arquivos para compartilhar com outras pessoas  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Programe uma reunião ou conferência  <br/> |Outlook ou Agendador do Skype for Business Web  <br/> |Outlook ou Agendador do Skype for Business Web  <br/> |Agendador do Skype for Business Web  <br/> |Agendador do Skype for Business Web  <br/> |Agendador do Skype for Business Web  <br/> |
-|Q &amp; A Manager  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Gerenciador de QA&amp;  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Desabilitar o vídeo do participante  <br/> |&#x2714;|||||
 |Desabilitar o IM de reunião  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Mudo de público  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -148,11 +148,11 @@ Esta tabela compara os recursos de Reuniões disponíveis aos usuários do clien
 
 Para usuários finais, a [ajuda online](https://aka.ms/smahelp) para esses aplicativos está prontamente disponível. Os profissionais de TI devem estar cientes dos seguintes problemas:
   
-- Se o usuário estiver em uma rede não configurada para atender aos requisitos de [rede,](meetings-clients.md#Network)muitos recursos do aplicativo poderão ou não funcionar e talvez não possam se conectar à reunião.
+- Se o usuário estiver em uma rede não configurada para atender aos requisitos de [rede, muitos](meetings-clients.md#Network) recursos do aplicativo poderão ou não funcionar e talvez não possam se conectar à reunião.
     
 - Alguns usuários podem ter computadores administrados pela empresa com permissão desabilitada para instalar aplicativos. para esses usuários, nenhum aplicativo é uma opção, mas os usuários de [smartphones](https://products.office.com/skype-for-business/download-app?tab=tabs-1) e [tablets](https://products.office.com/skype-for-business/download-app?tab=tabs-2) podem ser capazes de instalar clientes móveis baratos que podem usar para participar de reuniões.
     
-    Outros problemas de instalação também são abordados nos [tópicos de ajuda](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US). 
+    Outros problemas de instalação também são [abordados nos tópicos de ajuda](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US). 
     
 - Os usuários podem ver um aviso de firewall na primeira vez que executarem o aplicativo de reuniões. Eles podem ser solicitados a abrir portas para otimizar a experiência, e isso pode exigir privilégios de Administrador no computador que podem não ter. O aplicativo ainda deve funcionar e o usuário pode recusar com segurança a abertura das portas solicitadas. 
     

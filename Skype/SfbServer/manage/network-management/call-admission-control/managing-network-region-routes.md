@@ -1,8 +1,8 @@
 ---
 title: Gerenciando rotas de região de rede
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Uma rota de região de rede define a rota entre um par de regiões de rede. Cada par de regiões de rede de sua implantação de controle de admissão de chamadas exige uma rota de região de rede.
-ms.openlocfilehash: 18bee9a28eed10affae1b0dab855c379709b37bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a5808a7b3ffdfb860723bf0f84dc32239a9b08ae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864748"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395233"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gerenciando roteamento de regiões de rede no Skype for Business Server
 
@@ -32,7 +32,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região**.
 
 4.  Na página **Rota de Região**, clique na rota de região que deseja exibir.
 
@@ -75,7 +75,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região**.
 
 4.  Na página **Rota de Região**, clique em **Novo**.
 
@@ -84,9 +84,9 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
     > [!NOTE]  
     > Esse valor deve ser exclusivo em sua Skype for Business Server implantação.
 
-6.  Na lista listada da região de rede **\# 1,** selecione uma das duas regiões a serem conectadas por essa rota.
+6.  Na lista **listada \#** da região de rede 1, selecione uma das duas regiões a serem conectadas por essa rota.
 
-7.  Na lista listada da região de rede **\# 2,** selecione a outra região para essa rota. Essa região deve ser diferente da região selecionada para a região de rede \# 1.
+7.  Na lista **listada \#** da região de rede 2, selecione a outra região para essa rota. Essa região deve ser diferente da região selecionada para a região de rede \#1.
 
 8.  Use a caixa de listagem **Links de região de rede** para adicionar os links de região para a rota. Clique no botão **Adicionar** para exibir a página **Link de Região**. Clique em um link de região para adicionar a esta rota e clique em **OK**.
     
@@ -102,7 +102,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região**.
 
 4.  Na página **Rota de Região**, clique no roteiro de região que você deseja alterar.
 
@@ -123,7 +123,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Rota da Região**.
 
 4.  Na página **Rota de Região**, clique na rota de região que deseja excluir.
 
@@ -136,7 +136,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Gerenciar regiões de rede no Skype for Business Server](managing-network-regions.md)
 

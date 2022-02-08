@@ -1,8 +1,8 @@
 ---
 title: Adicionar IP do Gateway de Vídeo
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server 2015.
-ms.openlocfilehash: 684cdcfcb6de25b40efb6fc6a62b63fd29763563
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0b685998c476af2fec129b88ed0514925355fd0a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844404"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395573"
 ---
 # <a name="add-video-gateway-ip"></a>Adicionar IP do Gateway de Vídeo
  
 As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em [Create a VIS pool in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-As etapas necessárias para atribuir uma função de Servidor de Interop de Vídeo em um servidor usando Windows PowerShell são descritas online em Deploy the [VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+As etapas necessárias para atribuir uma função de Servidor de Interop de Vídeo em um servidor usando Windows PowerShell são descritas online em [Deploy the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
 As etapas de configuração para um novo Servidor de Interop de Vídeo usando Windows PowerShell são descritas online em [Configure the Video Interop Server in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
   

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business de vídeo cliente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Resumo: revise os requisitos de vídeo do cliente durante o planejamento para Skype for Business Server.'
-ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 26a47854ac4223a527635111a0c1b25a66d63706
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856548"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395063"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business de vídeo cliente
  
@@ -35,15 +35,15 @@ Os profissionais de TI acharão essas informações úteis para avaliar a adequa
 
 Skype for Business usa aceleração de hardware para codificação e decodificação de vídeo com base no padrão H.264/MPEG-4 Part 10 Advanced Video Coding standard. Isso permite que computadores com velocidades de relógio de CPU inferiores codificam e decodificarem vídeo de resolução mais alta. Os requisitos de hardware de vídeo variam dependendo da configuração do computador e da resolução de vídeo procurada.
   
-Consulte também [Windows e requisitos de hardware do Mac.](https://products.office.com/office-system-requirements)
+Consulte também [Windows e requisitos de hardware do Mac](https://products.office.com/office-system-requirements).
   
 ### <a name="video-hardware-requirements"></a>Requisitos de hardware de vídeo
 
-|**Característica**|**Requisito**|
+|**Recurso**|**Requisito**|
 |:-----|:-----|
 |Decodificação H.264 acelerada pelo hardware usando a Aceleração de Vídeo DirectX (DXVA)  <br/> |• A placa gráfica deve dar suporte ao DirectX 9.0 e deve expor o modo DXVA2_ModeH264_VLD_NoFGT decodificação e a API DirectX 9.  <br/> • O driver de placa gráfica mais recente deve ser instalado.  <br/> |
 |Codificação H.264 acelerada por hardware: Requisitos de chipset  <br/> |As seguintes soluções de codificação de vídeo aceleradas de hardware intel são suportadas:  <br/> • Chipsets Intel HD Graphics 2000, 2500, 3000 e 4000 de segunda e terceira geração (ou versões posteriores) com codificadores de vídeo de hardware integrados. A instalação do driver intel HD Graphics 15.28.9.2884 ou do driver mais recente que contém o seguinte é necessária:  <br/> • Exibir o driver 9.17.10.2884 ou o driver mais recente  <br/> • Transformação de base de mídia de hardware (HMFT) versão 3.12.10.31 ou o HMFT mais recente  <br/> As seguintes soluções de codificação de vídeo aceleradas de hardware AMD são suportadas:  <br/> • Mecanismo de Codec de Vídeo AMD, que está disponível em várias placas gráficas discretas e em unidades de processamento aceleradas integradas de processadores acelerados da série AMD. O driver do Mecanismo de Codec de Vídeo AMD 9.12.0.0 ou superior deve ser instalado.  <br/> |
-|Codificação H.264 acelerada por hardware: Requisitos da câmera  <br/> |Câmeras de vídeo USB com codificador de hardware H.264 integrado que está em conformidade com a especificação da Classe de Vídeo USB (UVC) versão 1.5.  <br/> **Observação: Skype for Business** dá suporte a câmeras UVC 1.5 com Windows 8 ou Windows 8.1, que inclui suporte para UVC 1.5. Como o Windows 7 não inclui suporte para UVC 1.5, o Skype for Business trata as câmeras UVC 1.5 como câmeras regulares sem suporte a codificação de hardware. <br/> |
+|Codificação H.264 acelerada por hardware: Requisitos da câmera  <br/> |Câmeras de vídeo USB com codificador de hardware H.264 integrado que está em conformidade com a especificação da Classe de Vídeo USB (UVC) versão 1.5.  <br/> **Observação: Skype for Business** dá suporte a câmeras UVC 1.5 com Windows 8 ou Windows 8.1, o que inclui suporte para UVC 1.5. Como o Windows 7 não inclui suporte para UVC 1.5, o Skype for Business trata as câmeras UVC 1.5 como câmeras regulares sem suporte a codificação de hardware. <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>Determinando recursos de codificação e decodificação de vídeo H.264
 
@@ -99,9 +99,9 @@ As três tabelas a seguir explicam a capacidade máxima de codificação e decod
    
 ## <a name="mobile-device-video-capabilities"></a>Recursos de vídeo de dispositivo móvel
 
-A tabela a seguir descreve as resoluções de vídeo máximas disponíveis em dispositivos móveis com suporte. Para obter mais informações sobre o suporte a dispositivos móveis, comparação de recursos do cliente [móvel para Skype for Business](mobile-feature-comparison.md).
+A tabela a seguir descreve as resoluções de vídeo máximas disponíveis em dispositivos móveis com suporte. Para obter mais informações sobre o suporte a dispositivos móveis, comparação de recursos [do cliente móvel para](mobile-feature-comparison.md) Skype for Business.
   
-|**Característica**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
+|**Recurso**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Resolução máxima de codificação H.264  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S e posteriores  <br/> |VGA: iPad 2 e posterior/iPad mini 1 e posterior  <br/> 720p: iPad Air/iPad mini 2/iPad Pro e posterior  <br/> |Até VGA, dependendo do modelo de dispositivo  <br/> |
 |Resolução máxima de decodificação de H.264  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S e posteriores  <br/> |VGA: iPad 2 e posterior/iPad mini 1 e posterior  <br/> 720p: iPad Air/iPad mini 2/iPad Pro e posterior  <br/> |Até VGA, dependendo do modelo de dispositivo  <br/> |

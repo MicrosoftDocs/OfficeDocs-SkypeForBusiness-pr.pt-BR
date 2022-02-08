@@ -1,8 +1,8 @@
 ---
 title: Planeje sua topologia de conferência para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Resumo: leia este tópico para saber mais sobre como planejar sua topologia de conferência Skype for Business Server.'
-ms.openlocfilehash: 0ea242584670c06beaa6462390afc01103c1fd7e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b0d20aa6bd74e417b6e1adef4d44bce39244bf8f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831905"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394993"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planeje sua topologia de conferência para Skype for Business Server
  
@@ -33,7 +33,7 @@ Este tópico descreve as noções básicas de topologia para conferência em Sky
     
 - Requisitos para grandes reuniões
     
-Para obter mais informações sobre requisitos de hardware e software, consulte [Requisitos](hardware-and-software-requirements.md)de hardware e software para conferência em Skype for Business Server .
+Para obter mais informações sobre requisitos de hardware e software, consulte [Requisitos de hardware e software para conferência em Skype for Business Server](hardware-and-software-requirements.md).
   
 ## <a name="supported-topologies"></a>Topologias suportadas
 
@@ -76,7 +76,7 @@ A webconferência requer o seguinte:
 - Integração Office servidor/Servidor do Office Online Web Apps, o que é necessário para compartilhar PowerPoint arquivos durante uma conferência.
     
 > [!NOTE]
-> A iteração mais recente do Office Web Apps Server é chamada Servidor do Office Online, que é suportada por Skype for Business Server. Para obter mais detalhes, consulte a [documentação Servidor do Office Online .](/officeonlineserver/office-online-server) 
+> A iteração mais recente do Office Web Apps Server é chamada Servidor do Office Online, que é suportada por Skype for Business Server. Para obter mais detalhes, consulte a [documentação Servidor do Office Online.](/officeonlineserver/office-online-server) 
   
 Skype for Business Server fornece as seguintes maneiras de configurar Office Web Apps Server/Servidor do Office Online. Dependendo das suas necessidades, você pode:
   
@@ -84,13 +84,13 @@ Skype for Business Server fornece as seguintes maneiras de configurar Office Web
     
     Os clientes Skype for Business externos podem se conectar ao Skype for Business Server e Office Web Apps Server/Servidor do Office Online usando um servidor proxy reverso, que é um servidor que recebe solicitações da Internet e as encaminha para a rede interna. (Os clientes internos não precisam usar o servidor proxy reverso porque eles podem se conectar Office Servidor/Servidor do Office Online Web Apps).) Essa topologia funciona melhor se você quiser usar um farm Office Web Apps Server/Servidor do Office Online que é usado apenas por Skype for Business Server.
     
-- **Use um servidor/Office Web Apps/Servidor do Office Online.** Nesta topologia, o Skype for Business Server é implantado no local e usa um servidor/Servidor do Office Online web apps Office que é implantado fora da zona Skype for Business Server de rede. Isso pode acontecer quando Office Web Apps Server/Servidor do Office Online é compartilhado entre vários aplicativos na corporação e é implantado em uma rede que exige Skype for Business Server usar a interface externa do Office Web Apps Server/Servidor do Office Online e vice-versa.
+- **Use um servidor/Office Web Apps/Servidor do Office Online.** Nesta topologia, o Skype for Business Server é implantado no local e usa um servidor/Servidor do Office Online web apps Office que é implantado fora da zona Skype for Business Server de rede. Isso pode acontecer quando Office Web Apps Server/Servidor do Office Online é compartilhado entre vários aplicativos na corporação e é implantado em uma rede que exige Skype for Business Server usar a interface externa do Office Web Apps Server/ Servidor do Office Online e vice-versa.
     
     Você não precisa instalar um servidor proxy reverso; em vez disso, todas as solicitações do servidor Office Web Apps/Servidor do Office Online para Skype for Business Server são roteados por meio do Servidor de Borda. Seus clientes internos e externos Skype for Business se conectam Office Servidor/Servidor do Office Online Web Apps usando a URL externa.
     
-    Se o Office Web Apps Server/Servidor do Office Online for implantado fora do firewall interno, selecione a opção Office **Web Apps Server** é implantada em uma rede externa (ou seja, perímetro/Internet) no Construtor de Topologias.
+    Se Office Servidor/Servidor do Office Online Web Apps for implantado fora do firewall interno, selecione Office opção Office **Web Apps Server** é implantada em uma rede externa (ou seja, perímetro/Internet) no Construtor de Topologias.
     
-Para obter mais informações, [consulte Configure integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
+Para obter mais informações, consulte [Configure integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
   
 Independente da topologia selecionada, é fundamental que as portas de firewall certas estejam abertas. Você deve garantir que os nomes DNS, endereços IP e portas não sejam bloqueados por firewalls no servidor/Servidor do Office Online do Office Web Apps, do balanceador de carga ou Skype for Business Server.
   
@@ -115,7 +115,7 @@ Observações adicionais sobre a topologia incluem:
   
 - Um compartilhamento de arquivos é necessário para armazenar conteúdo de reunião e, se o Servidor de Arquivamento for implantado e habilitado, para armazenar os arquivos de arquivamento. O compartilhamento de arquivos pode ser dedicado ao pool ou pode ser o mesmo compartilhamento de arquivos usado por outro pool no site no qual o pool é implantado. Para obter detalhes sobre como configurar o compartilhamento de arquivos, consulte [Create a file share in Skype for Business Server 2015](../../deploy/install/create-a-file-share.md).
     
-- Um Office web apps/Servidor do Office Online é necessário para habil PowerPoint funcionalidade de apresentação em grandes reuniões. O Office Web Apps Server/Servidor do Office Online pode ser dedicado ao pool de reuniões grande ou, ele pode ser o mesmo servidor/Servidor do Office Online web apps do Office usado por outros pools no site no qual o pool dedicado é implantado. Para obter mais informações, [consulte Configure integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
+- Um Office web apps/Servidor do Office Online é necessário para habil PowerPoint funcionalidade de apresentação em grandes reuniões. O Office Web Apps Server/Servidor do Office Online pode ser dedicado ao pool de reuniões grande ou, ele pode ser o mesmo servidor/Servidor do Office Online web apps do Office usado por outros pools no site no qual o pool dedicado é implantado. Para obter mais informações, consulte [Configure integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
     
 - O balanceamento de carga dos Servidores Front-End requer balanceamento de carga de hardware para o tráfego HTTP (como download de conteúdo de reunião). O balanceamento de carga DNS é recomendado para tráfego SIP. Para obter detalhes, [consulte Requisitos de balanceamento de carga para Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     

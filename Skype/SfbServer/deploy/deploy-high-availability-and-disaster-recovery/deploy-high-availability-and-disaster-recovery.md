@@ -1,8 +1,8 @@
 ---
 title: Implantar alta disponibilidade e recuperação de desastres
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype for Business Server oferece alta disponibilidade com pool de servidores, recuperação de desastres com emparelhamento de pool e vários modos de alta disponibilidade do Servidor Back-End, incluindo grupos de Disponibilidade AlwaysOn, espelhamento de banco de dados e SQL cluster de failover.
-ms.openlocfilehash: 897bd52d265a123d3eebec2bc16d71d95ba6185e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: df77652840c127e011042172f618eba37d916f85
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865298"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394319"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>Implantar alta disponibilidade e recuperação de desastres
  
@@ -28,7 +28,7 @@ Alta disponibilidade refere-se a garantir que Skype for Business Server serviço
 Esta seção informa como implantar esses recursos e também aborda quais etapas você pode tomar para alta disponibilidade e recuperação de desastres para algumas de suas outras funções de servidor.
 
 > [!NOTE]
-> SQL O espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de clustering de failover são preferenciais com o Skype for Business Server 2019.
+> SQL espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de clustering de failover são preferenciais com o Skype for Business Server 2019.
   
 ## <a name="related-sections"></a>Seções relacionadas
 

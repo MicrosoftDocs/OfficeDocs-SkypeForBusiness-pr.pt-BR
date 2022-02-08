@@ -1,7 +1,7 @@
 ---
 title: Usar chats supervisionados para locatários não educacionais
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre chats supervisionados para locatários não educacionais em Microsoft Teams reuniões.
-ms.openlocfilehash: 2aabfee2f8267e786acf293d612066af2db46f25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ba639953485d03e62d7f75f387f9154f65f9599
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848104"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394483"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Chats supervisionados para locatários não educacionais
 
@@ -54,7 +54,7 @@ As funções não podem ser atribuídas aos convidados em seu locatário. Os con
 
 ## <a name="allow-supervised-chat"></a>Permitir chat supervisionado
 
-O chat supervisionado está desabilitado por padrão para seu locatário. Depois de definir funções de permissão de chat para seus usuários, você pode habilitar o chat supervisionado em seu locatário, indo para configurações em toda a organização Teams Configurações e definindo a política de permissões de  >   **chat baseadas** em função como **Ativado**. Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Este cmdlet está em [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps).
+O chat supervisionado está desabilitado por padrão para seu locatário. Depois de definir funções de permissão de chat para seus usuários,  >  você pode habilitar o chat supervisionado em seu locatário, indo para configurações em toda **a organização Teams Configurações** e definindo a política de permissões de **chat baseadas** em função como **Ativado**. Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Este cmdlet está em [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps).
 
 O chat supervisionado deve ser habilitado para todos os usuários no locatário e não pode ser habilitado apenas para uma parte de seus usuários.
 

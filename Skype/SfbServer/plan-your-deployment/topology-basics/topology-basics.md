@@ -1,8 +1,8 @@
 ---
 title: Noções básicas de topologia para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumo: escolha sua topologia para Skype for Business Server. Saiba mais sobre a localização do servidor para Skype for Business Server.'
-ms.openlocfilehash: 9f28857d6fa8ddbbd77713e113f73314e8f9d3c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 579c14471daab8c96eb6b55bdc2f21fc0b3b7eb4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856528"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394893"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Noções básicas de topologia para Skype for Business Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "60856528"
 
 Antes de preparar qualquer outra coisa, você vai querer saber que está planejando a topologia certa para sua implantação de Skype for Business Server. A primeira coisa que você precisa decidir é se você terá uma implantação local do Skype for Business Server ou se você vai combinar isso com uma implantação do Skype for Business Server Online em uma implantação híbrida. De qualquer forma, você vai querer ler mais, pois detalhamos as topologias locais aqui, mas os detalhes híbridos são documentados em sua própria seção.
 
-Você também pode ver algumas topologias de exemplo em [Topologias de referência para Skype for Business Server](reference-topologies.md).
+Você também pode ver algumas topologias de exemplo em [Topologias de referência para](reference-topologies.md) Skype for Business Server.
 
 ## <a name="sites"></a>Sites
 
@@ -41,7 +41,7 @@ Sua implantação terá pelo menos um site central (também chamado de datacente
 
 - Edição Standard servidor inclui um banco de dados SQL Server Express de dados.
 
-- Edição Enterprise O pool de Front-End inclui:
+- Edição Enterprise pool de Front-End inclui:
 
   - Um ou mais Servidores Front-End (Idealmente, pelo menos três, para escalabilidade), com um máximo de doze. O balanceamento de carga seria necessário para mais de um servidor.
 
@@ -103,7 +103,7 @@ Há alguns outros componentes e opções que vão para implantações, é claro.
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|Firewalls   |Gateways PSTN (se você implantar Enterprise Voice   |Exchange Servidor de UM (se você deseja integrar-se Exchange UM)   |Balanceamento de carga DNS   |
+|Firewalls   |Gateways PSTN (se você implantar Enterprise Voice   |Exchange Um Server (se você quiser se integrar com Exchange UM)   |Balanceamento de carga DNS   |
 |Balanceadores de carga de hardware   |SQL Server bancos de dados   |Compartilhamentos de arquivo   ||
 
 ## <a name="server-roles"></a>Funções de servidor
@@ -152,7 +152,7 @@ Os Servidores Back-End são servidores de banco de dados que executam Microsoft 
 > Não recomendamos a localização de Skype for Business Server bancos de dados com outros bancos de dados. Caso contrário, a disponibilidade e o desempenho poderão ser afetados.
 
 > [!NOTE]
-> SQL O espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de clustering de failover são preferenciais com o Skype for Business Server 2019.
+> SQL espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de clustering de failover são preferenciais com o Skype for Business Server 2019.
 
 As informações armazenadas nos bancos de dados do servidor Back-End incluem informações de presença, listas de contatos dos usuários, dados de conferência, incluindo os dados persistentes sobre o estado de todas as conferências atuais e dados de agendamento de conferência.
 
@@ -171,7 +171,7 @@ Os servidores de borda também incluem um proxy XMPP completamente integrado, co
 
 O Servidor de Mediação é um componente necessário para implementar Enterprise Voice, chamada via trabalho e conferência discda. O Servidor de Mediação converte a sinalização e, em algumas configurações, a mídia entre sua infraestrutura interna Skype for Business Server e um gateway PSTN (rede telefônica pública comutado), IP-PBX ou um tronco SIP (Session Initiation Protocol). Você pode executar o Servidor de Mediação colocado no mesmo servidor do servidor front-end ou separado em um pool de Servidor de Mediação independente.
 
-Para obter detalhes, consulte [Componente do Servidor de Mediação em Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md).
+Para obter detalhes, consulte [Componente do Servidor de Mediação Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md).
 
 ### <a name="video-interop-server"></a>Servidor de Interoperabilidade de Vídeo
 
@@ -210,7 +210,7 @@ Skype for Business Server também oferece suporte a várias opções para alta d
 
 - SQL clustering de failover
 
-Para obter detalhes sobre emparelhamento de pool e alta disponibilidade do Servidor Back-End, consulte [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Para obter detalhes sobre emparelhamento de pool e alta disponibilidade do Servidor back-end, consulte [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
 ## <a name="server-collocation-in-skype-for-business-server"></a>Localização de servidor no Skype for Business Server
 
@@ -251,7 +251,7 @@ Eles não podem ser alocados no servidor Edição Standard, mas podem ir para um
 
 - Qualquer banco de dados back-end para um pool Edição Enterprise front-end
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>Empresa
 
 Os bancos de dados a seguir podem ser alocados no mesmo back-end SQL Server:
 
