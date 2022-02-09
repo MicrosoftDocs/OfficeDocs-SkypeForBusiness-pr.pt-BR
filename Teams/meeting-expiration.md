@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Saiba como usar as configurações de política de reunião para controlar a expiração da reunião Microsoft Teams.
-ms.openlocfilehash: d12c0ca4a0b838f66cfac142102b6e4b8efc3e03
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 8c8a5603aea6ac65a2cd35b12eca9250debc7c51
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288329"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279168"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Políticas de reunião e expiração de reunião Microsoft Teams
 
@@ -80,7 +80,7 @@ Se você quiser que as pessoas acessem reuniões que foram agendadas anteriormen
 > [!IMPORTANT]
 > Se você quiser habilitar Teams expiração da reunião no locatário mais cedo, aplique-se ao programa de adoção antecipado de expiração de Microsoft Teams [reunião](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
-Todas as gravações Teams de reunião (TMRs) recém-criadas terão um vencimento padrão de 120 dias. Isso está em uso por padrão para todos os locatários. Isso significa que, por padrão, todas as TMRs criadas depois que esse recurso foi ligado serão excluídas 120 dias após a data de criação. Os administradores também podem definir reuniões para **nunca expirar automaticamente**. O OneDrive e o SharePoint monitorarão a data de expiração definida em todas as TMRs e moverão automaticamente as TMRs para a lixeira na data de expiração.
+Todas as gravações Teams de reunião (TMRs) recém-criadas terão um vencimento padrão de 60 dias. Isso está em uso por padrão para todos os locatários. Isso significa que, por padrão, todas as TMRs criadas depois que esse recurso foi ligado serão excluídas 60 dias após a data de criação. Os administradores também podem definir reuniões para **nunca expirar automaticamente**. O OneDrive e o SharePoint monitorarão a data de expiração definida em todas as TMRs e moverão automaticamente as TMRs para a lixeira na data de expiração.
 
 A expiração automática da reunião é um mecanismo de limpeza leve para reduzir a desordem de armazenamento criada por TMRs mais antigos. Em média, em todos os clientes, 96% das TMRs não são observadas após 60 dias e 99% não são observadas após 110 dias. Acreditamos que quase todos os clientes se beneficiarão da carga de armazenamento reduzida em seu locatário removendo gravações que provavelmente não serão assistidas novamente após 60 dias. Nosso objetivo é fornecer uma experiência o mais limpa possível para todos os clientes por padrão.
 
