@@ -1,7 +1,7 @@
 ---
-title: Skype Considerações sobre a migração do Sistema de Sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype considerações de migração do Sistema de Sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Leia este tópico para saber como implantar o Skype Room System em um ambiente que tenha várias versões do Skype for Business Server e do Lync Server.
-ms.openlocfilehash: 1b57115a332a647143fc0a3a7ca2c1ee178ad5fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1183270ced8c1e5347fc65787a46bf0b2eb2cf2e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850504"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411414"
 ---
-# <a name="skype-room-system-migration-considerations"></a>Skype Considerações sobre a migração do Sistema de Sala
+# <a name="skype-room-system-migration-considerations"></a>Skype considerações de migração do Sistema de Sala
  
 Leia este tópico para saber como implantar o Skype Room System em um ambiente que tenha várias versões do Skype for Business Server e do Lync Server.
   
@@ -39,21 +39,21 @@ Você pode resolver esse problema com as seguintes opções:
     
 - Se Skype Room System for implantado fora da rede corporativa e um Servidor de Borda do Lync tiver sido implantado e configurado para apontar para um pool ou diretor herdado, será necessário um site secundário do Servidor de Borda, que aponta para o pool do Lync Server 2013. Consulte a documentação de implantação do Servidor de Borda para obter mais informações sobre como implantar um Servidor de Borda secundário. 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype Interoperabilidade do Sistema de Sala com um Pool do Lync Server 2010
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype interoperabilidade do sistema de sala com um pool do Lync Server 2010
 
 Durante a migração, se um usuário que está em um pool do Lync Server 2010 agendar uma reunião e convidar a conta do sistema de sala do Skype, o cliente do sistema de sala do Skype terá funcionalidade limitada durante a reunião. 
   
 Quando o cliente Skype Room System ins junta uma chamada de conferência agendada que foi organizada por um usuário no Lync Server 2010, o Skype Room System tem as seguintes limitações na reunião: 
   
-- Skype O Sistema de Sala não pode mostrar a galeria de vídeo com vários visualizações.
+- Skype Room System não pode mostrar a galeria de vídeo com vários visualizações.
     
 - Se o Skype do sistema de sala for o apresentador, ele não poderá aplicar o bloqueio de vídeo aos participantes.
     
-- Skype O Sistema de Sala não pode mostrar a resolução de vídeo 1080p (entrada ou saída), mesmo se a política de conferência do Lync Server 2013 permitir isso, devido ao seguinte: 
+- Skype Room System não pode mostrar resolução de vídeo 1080p (entrada ou saída), mesmo se a política de conferência do Lync Server 2013 permitir isso, devido ao seguinte: 
     
   - O Lync Server 2010 não dá suporte à resolução 1080p.
     
-  - Skype O Sistema de Sala é sempre limitado pela política de conferência do organizador para resolução de vídeo. Portanto, mesmo que o pool do Lync 2010 dê suporte à resolução 720p, o Skype Room System não poderá tirar proveito da resolução 720p, desde que a política do organizador não a suporte. 
+  - Skype Sistema de Sala é sempre limitado pela política de conferência do organizador para resolução de vídeo. Portanto, mesmo que o pool do Lync 2010 dê suporte à resolução 720p, o Skype Room System não poderá tirar proveito da resolução 720p, desde que a política do organizador não a suporte. 
     
 - Os clientes do Lync 2013 detectam a presença de LRS na sala de reunião e fazem o mudo automático para evitar eco na sala de reunião física. Esse recurso não funciona em reuniões hospedadas no Lync Server 2010.
     

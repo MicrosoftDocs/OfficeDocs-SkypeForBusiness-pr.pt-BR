@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Bate-papo Persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Você edita as configurações gerais do Servidor de Chat Persistente ou do Pool de Servidores de Chat Persistente configurando ou definindo essas propriedades:'
-ms.openlocfilehash: 8047b6a3d8e4f81056af20feb2d5a36416bac2b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e93af8c8924117159434691b550f2ed9fcbb6e69
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854415"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417684"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expansor de Configurações Gerais de Chat Persistente
  
@@ -28,7 +28,7 @@ Você edita **as configurações** gerais do Servidor de Chat Persistente ou do 
   
  **Geral**
   
-- **FQDN**: Edite essa configuração para definir o nome de domínio totalmente qualificado do seu Servidor de Chat Persistente ou pool de Servidor de Chat Persistente
+- **FQDN**: Edite essa configuração para definir o nome de domínio totalmente qualificado do seu Servidor de Chat Persistente ou pool do Servidor de Chat Persistente
     
 - **Nome de exibição do pool de Chat Persistente**: defina essa configuração para fornecer uma configuração simples e legível do servidor ou pool. Essa configuração facilitará a associação de um determinado Servidor de Chat Persistente ou pool de Servidor de Chat Persistente com base no nome de exibição, em vez de um nome de domínio totalmente qualificado.
     
@@ -38,35 +38,35 @@ Você edita **as configurações de** Associações para o Servidor de Chat Pers
   
  **Associações**
   
-- **SQL Server :** selecione o SQL Server e a instância nomeada opcional na lista.
+- **SQL Server:** selecione o SQL Server e a instância nomeada opcional na lista.
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional.
     
 - Marque a **caixa de seleção Habilitar SQL Server espelhamento** de armazenamento se quiser habilitar o espelhamento para o SQL Server principal.
     
-    Se você optou por habilitar o SQL Server de armazenamento, selecione o armazenamento e a instância na lista **Espelhamento SQL Server store**.
+    Se você optou por habilitar SQL Server espelhamento de armazenamento, selecione o armazenamento e a instância na lista **Espelhando SQL Server store**.
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional.
     
-- Marque a caixa de seleção Usar SQL Server de espelhamento automático para habilitar o failover automático se quiser **failover** automático do armazenamento SQL Server principal.
+- Marque a **caixa de seleção Usar SQL Server** de espelhamento automático para habilitar o failover automático se quiser failover automático do armazenamento SQL Server principal.
     
     Se você optou por habilitar SQL Server testemunha de espelhamento de armazenamento para habilitar o failover automático, selecione o armazenamento e a instância na lista.
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional para o repositório de testemunha.
     
-- Marque a **caixa de seleção** Usar SQL Server de backup para habilitar a recuperação de desastres se quiser habilitar o uso de SQL Server recuperação de desastres
+- Marque a **caixa de seleção Usar SQL Server de** backup para habilitar a recuperação de desastres se quiser habilitar o uso de SQL Server recuperação de desastres
     
     Se você escolher habilitar a recuperação de desastre, selecione um repositório e uma instância na lista **Backup do SQL Server**.
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional.
     
-- Marque a **caixa de seleção Habilitar SQL Server espelhamento** de armazenamento se quiser habilitar o espelhamento para o armazenamento de espelhamento de backup SQL Server espelhamento.
+- Marque a **caixa de seleção Habilitar SQL Server** espelhamento de armazenamento se quiser habilitar o espelhamento para o armazenamento de espelhamento de SQL Server de backup.
     
-    Se você optou por habilitar o SQL Server de backup do armazenamento, selecione o armazenamento e a instância na lista Backup SQL Server **espelho do armazenamento**.
+    Se você optou por habilitar o SQL Server de backup do armazenamento, selecione o armazenamento e a instância na lista **Backup SQL Server espelho da loja**.
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional.
     
-- Marque a caixa de seleção Usar SQL Server de espelhamento automático para habilitar o failover automático se quiser **failover** automático do armazenamento de SQL Server backup.
+- Marque a **caixa de seleção Usar SQL Server** de espelhamento para habilitar o failover automático se quiser failover automático do armazenamento de SQL Server backup.
     
     Se você optou por habilitar SQL Server testemunha de espelhamento de armazenamento para habilitar o failover automático, selecione o armazenamento e a instância na lista.
     
@@ -78,13 +78,13 @@ Você edita **as configurações de** Associações para o Servidor de Chat Pers
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional.
     
-- Marque a **caixa de seleção Habilitar SQL Server espelhamento** de armazenamento se quiser habilitar o espelhamento para o armazenamento de SQL Server conformidade.
+- Marque a **caixa de seleção Habilitar SQL Server espelhamento** de armazenamento se quiser habilitar o espelhamento para o SQL Server de conformidade.
     
-    Se você optou por habilitar o espelhamento de SQL Server de armazenamento, selecione o armazenamento e a instância no espelho de SQL Server **de conformidade.**
+    Se você optou por habilitar o espelhamento de SQL Server de armazenamento, selecione o armazenamento e a instância na lista **Conformidade SQL Server espelho do armazenamento**.
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional.
     
-- Marque a caixa de seleção Usar SQL Server de espelhamento automático para habilitar o failover automático se quiser **failover** automático do armazenamento de SQL Server conformidade.
+- Marque a **caixa de seleção Usar SQL Server** de espelhamento automático para habilitar o failover automático se quiser failover automático do armazenamento de SQL Server conformidade.
     
     Se você optou por habilitar SQL Server testemunha de espelhamento de armazenamento para habilitar o failover automático, selecione o armazenamento e a instância na lista.
     
@@ -94,13 +94,13 @@ Você edita **as configurações de** Associações para o Servidor de Chat Pers
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional.
     
-- Marque a **caixa de seleção Habilitar SQL Server espelhamento** de armazenamento se quiser habilitar o espelhamento para o armazenamento de SQL Server conformidade.
+- Marque a **caixa de seleção Habilitar SQL Server espelhamento** de armazenamento se quiser habilitar o espelhamento para o SQL Server de conformidade.
     
-    Se você optou por habilitar o espelhamento de SQL Server de armazenamento, selecione o armazenamento e a instância na lista Conformidade de backup SQL Server **espelhamento do armazenamento.**
+    Se você optou por habilitar o espelhamento de SQL Server de armazenamento, selecione o armazenamento e a instância na lista **Backup conformidade SQL Server espelho do armazenamento**.
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional.
     
-- Marque a caixa de seleção Usar SQL Server de espelhamento automático para habilitar o failover automático se quiser **failover** automático do armazenamento de conformidade SQL Server backup.
+- Marque a **caixa de seleção Usar SQL Server** de espelhamento automático para habilitar o failover automático se quiser failover automático do armazenamento de conformidade SQL Server backup.
     
     Se você optou por habilitar SQL Server testemunha de espelhamento de armazenamento para habilitar o failover automático, selecione o armazenamento e a instância na lista.
     

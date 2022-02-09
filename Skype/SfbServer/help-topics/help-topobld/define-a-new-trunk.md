@@ -1,8 +1,8 @@
 ---
 title: Definir um Novo Tronco
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 'Defina um novo tronco SIP (session initiation protocol) fornecendo as seguintes informações:'
-ms.openlocfilehash: b23b27ca49de3344a9d99e531c17b4fb02b7cc51
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 963a622ed2a7f3c39dca0be5199126ffaf201314
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851375"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416694"
 ---
 # <a name="define-a-new-trunk"></a>Definir um Novo Tronco
 
@@ -36,7 +36,7 @@ Defina um novo tronco SIP (session initiation protocol) fornecendo as seguintes 
 
 - **Servidor de Mediação Associado**: selecione na lista um Servidor de Mediação implantado e configurado em sua implantação
 
-- **Porta do Servidor de Mediação** Associada : defina o valor da porta igual ao valor da porta TCP ou TLS do Servidor de Mediação que este tronco SIP usará
+- **Porta do Servidor de Mediação** Associada: defina o valor da porta igual ao valor da porta TCP ou TLS do Servidor de Mediação que este tronco SIP usará
 
 ## <a name="see-also"></a>Confira também
 

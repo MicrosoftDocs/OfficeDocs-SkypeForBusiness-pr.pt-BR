@@ -1,8 +1,8 @@
 ---
 title: Política de Mobilidade de Clientes
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página ClientesPolítica de Mobilidade exibe as políticas de mobilidade disponíveis em sua implantação.
-ms.openlocfilehash: e4b030ac2665c833f19844d1f792be874d2324bd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 71eb06af1ef61c9f53aeb8caf8f410bd67292b4d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840483"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417184"
 ---
 # <a name="clients-mobility-policy"></a>Clientes: Política de Mobilidade
 
-A **página Política** de Mobilidade **de** Clientes exibe as políticas de mobilidade disponíveis em sua implantação.
+A **página Política** **de Mobilidade de** Clientes exibe as políticas de mobilidade disponíveis em sua implantação.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 

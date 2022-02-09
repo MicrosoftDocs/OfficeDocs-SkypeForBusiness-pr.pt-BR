@@ -1,8 +1,8 @@
 ---
 title: Ferramenta de planejamento de localização de mediação
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 'O Servidor de Mediação é alocado com o Servidor Front-End por padrão. O Servidor de Mediação também pode ser implantado em um pool autônomo por motivos de desempenho ou se você implantar tronco SIP, nesse caso, o pool autônomo é recomendado. A localização Skype for Business Server funções exatamente como no Lync Server 2013. Para obter informações detalhadas, consulte os seguintes tópicos:'
-ms.openlocfilehash: fcb9dbb9b6622cff9bbfd72b95ae49c95cae6642
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da50e9cf66a7a65a0c8a6bf9c9fe406efe8689b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850804"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416474"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Ferramenta de planejamento de localização de mediação
  

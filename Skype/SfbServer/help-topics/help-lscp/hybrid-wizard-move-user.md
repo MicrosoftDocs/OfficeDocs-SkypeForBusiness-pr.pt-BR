@@ -1,8 +1,8 @@
 ---
 title: Assistente híbrido Mover Usuário
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/10/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 description: Use o assistente Mover Usuários para mover contas de usuário em um pool local para serem ativas Skype for Business Online. Para obter mais informações, consulte Use the Hybrid Manageability wizard.
-ms.openlocfilehash: 1d1ce841d20b9a17d0eef775911d12c5d446d093
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 728e651d500161f3539858bda71915b7aba25457
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855658"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411064"
 ---
 # <a name="hybrid-wizard-move-user"></a>Assistente Híbrido: Mover Usuário
 

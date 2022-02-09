@@ -1,8 +1,8 @@
 ---
 title: Adicionar Detalhes de Site
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c34def73-c5a1-4e89-80c2-f2c6cd654924
 ROBOTS: NOINDEX, NOFOLLOW
 description: É possível especificar detalhes de localização do seu local, incluindo cidade, estado/província ou código de país/região. Todos esses detalhes de localização são opcionais.
-ms.openlocfilehash: 98769de188f00adf22d6529d101eb4f0d88981b1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c858b3b9bf8ee39df9bd451c0874144523e5f368
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836953"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410384"
 ---
 # <a name="add-site-details"></a>Adicionar Detalhes do Site
  

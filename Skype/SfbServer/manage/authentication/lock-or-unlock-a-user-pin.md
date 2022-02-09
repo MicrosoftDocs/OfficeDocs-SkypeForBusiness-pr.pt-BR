@@ -1,8 +1,8 @@
 ---
 title: Bloquear ou desbloquear um PIN de usuário Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Resumo: bloqueie ou desbloqueie o PIN de conferência discada de um usuário para Skype for Business Server.'
-ms.openlocfilehash: 1ae1deea84b099852decd9acbc6315049484b0b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6f09886b9f8a3e95317c19e1cd509cc8f1abd1d7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848594"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410894"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Bloquear ou desbloquear um PIN de usuário Skype for Business Server
  
@@ -90,7 +90,7 @@ Você pode bloquear ou desbloquear o PIN de um usuário na **seção Usuários**
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Bloqueio e desbloqueio de PINs do usuário usando Windows PowerShell cmdlets
 
-Você pode bloquear e desbloquear PINs de usuário usando Windows PowerShell e os cmdlets Lock-CsClientPin e Unlock-CsClientPin de usuário. Você pode executar esses cmdlets no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
+Você pode bloquear e desbloquear PINs de usuário usando Windows PowerShell e os cmdlets Lock-CsClientPin e Unlock-CsClientPin de usuário. Você pode executar esses cmdlets no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Administração do Microsoft Lync Remote PowerShell](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-lock-a-user-pin"></a>Para bloquear um PIN de usuário
 
@@ -108,4 +108,4 @@ Você pode bloquear e desbloquear PINs de usuário usando Windows PowerShell e o
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-Para obter mais informações, consulte o tópico de ajuda para os cmdlets [Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) e [Unlock-CsClientPin.](/powershell/module/skype/unlock-csclientpin?view=skype-ps)
+Para obter mais informações, consulte o tópico de ajuda para os [cmdlets Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) e [Unlock-CsClientPin](/powershell/module/skype/unlock-csclientpin?view=skype-ps) .

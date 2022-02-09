@@ -1,8 +1,8 @@
 ---
 title: 'Skype for Business Server: Configurar um tronco com bypass de mídia'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,25 +16,25 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumo: configure um tronco com bypass de mídia habilitado para Skype for Business Server. Isso permitirá minimizar o número de Servidores de Mediação, presumindo que o provedor de tronco SIP o suporte.'
-ms.openlocfilehash: da291852909d84e914a825aec39528803e488d8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ffaec5e01bb216a186580d13b414a009d969ae6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842463"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411404"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype for Business Server: Configurar um tronco com bypass de mídia
 
 **Resumo:** Configure um tronco com bypass de mídia habilitado para Skype for Business Server. Isso permitirá minimizar o número de Servidores de Mediação, presumindo que o provedor de tronco SIP o suporte.
 
-Siga estas etapas para configurar um tronco com bypass de mídia habilitado. Para configurar um tronco com bypass de mídia desabilitado, consulte [Configure a trunk without media bypass in Skype for Business Server](configure-trunk-without-media-bypass.md).
+Siga estas etapas para configurar um tronco com bypass de mídia habilitado. Para configurar um tronco com bypass de mídia [desabilitado, consulte Configure a trunk without media bypass in Skype for Business Server](configure-trunk-without-media-bypass.md).
 
 O bypass de mídia é útil quando você deseja minimizar o número de Servidores de Mediação implantados. Para obter mais informações, consulte [Plan for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
 
 Recomendamos que você habilita o bypass de mídia. No entanto, antes de habilitar o bypass de mídia em um tronco SIP, confirme se o provedor de tronco SIP qualificado dá suporte ao bypass de mídia e é capaz de acomodar os requisitos para habilitar o cenário com êxito. Especificamente, o provedor deve ter os endereços IP dos servidores na rede interna da sua organização.
 
 > [!NOTE]
-> O bypass de mídia não interopera com todos os gateways PSTN (Rede Telefônica Pública Comutado), IP-PBX e Controlador de Borda de Sessão (SBC). A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados. O bypass de mídia só é suportado com produtos e versões listados na página Infraestrutura de [Telefonia para](../../../SfbPartnerCertification/certification/infra-gateways.md) Skype for Business Server.
+> O bypass de mídia não interopera com todos os gateways PSTN (Rede Telefônica Pública Comutado), IP-PBX e Controlador de Borda de Sessão (SBC). A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados. O bypass de mídia só é suportado com produtos e versões listados na página [Infraestrutura de Telefonia para](../../../SfbPartnerCertification/certification/infra-gateways.md) Skype for Business Server.
 
 Uma configuração de tronco conforme descrito abaixo grupos um conjunto de parâmetros que são aplicados a troncos atribuídos a essa configuração de tronco. Uma determinada configuração de tronco pode ter o escopo de forma global (a todos os troncos que não têm uma configuração de site ou pool mais específica), para um site ou para um pool. A configuração de tronco no nível do pool é usada para definir o escopo de uma configuração específica de um tronco individual.
 
@@ -50,9 +50,9 @@ Uma configuração de tronco conforme descrito abaixo grupos um conjunto de par�
 
    - Clique em **Novo** e selecione um escopo para a nova configuração do tronco:
 
-   - **Tronco do** site : escolha o site para essa configuração de tronco **em Selecionar um Site** e clique em **OK**. Observe que se uma configuração de tronco já tiver sido criada para um site, o site não aparecerá em **Selecionar um Site**. Essa configuração de tronco será aplicada a todos os troncos do site.
+   - **Tronco do site**: escolha o site para essa configuração de tronco **em Selecionar um Site** e clique em **OK**. Observe que se uma configuração de tronco já tiver sido criada para um site, o site não aparecerá em **Selecionar um Site**. Essa configuração de tronco será aplicada a todos os troncos do site.
 
-   - **Tronco do pool**: escolha o nome do tronco ao qual essa configuração de tronco se aplica. Esse tronco pode ser o tronco raiz ou quaisquer troncos adicionais definidos no Construtor de Topologias. Em **Selecionar um Serviço,** clique em **OK**. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, esse tronco não será exibido em **Selecionar um Serviço**.
+   - **Tronco do pool**: escolha o nome do tronco ao qual essa configuração de tronco se aplica. Esse tronco pode ser o tronco raiz ou quaisquer troncos adicionais definidos no Construtor de Topologias. Em **Selecionar um Serviço**, clique em **OK**. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, esse tronco não será exibido em **Selecionar um Serviço**.
 
       > [!NOTE]
       > Depois de selecionar o escopo da configuração do tronco, não será possível alterá-lo. > O **campo Nome** é pré-populado com o nome do site ou serviço associado da configuração do tronco e não pode ser alterado.
@@ -75,9 +75,9 @@ Uma configuração de tronco conforme descrito abaixo grupos um conjunto de par�
     > [!IMPORTANT]
     > Para que o bypass de mídia funcione com êxito, o gateway PSTN, IP-PBX ou Controlador de Borda de Sessão ITSP deve dar suporte a determinados recursos. Para obter detalhes, consulte [Plan for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
-7. Marque  a caixa de seleção Processamento de mídia centralizado se houver um ponto de término de mídia conhecido (por exemplo, um gateway PSTN em que a terminação de mídia tem o mesmo IP que a terminação de sinalização). Desmarque essa caixa de seleção se o tronco não tiver um ponto de encerramento de mídia conhecido.
+7. Marque a  caixa de seleção Processamento de mídia centralizado se houver um ponto de término de mídia conhecido (por exemplo, um gateway PSTN em que a terminação de mídia tem o mesmo IP que a terminação de sinalização). Desmarque essa caixa de seleção se o tronco não tiver um ponto de encerramento de mídia conhecido.
 
-8. Se o par de tronco dá suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação, selecione a caixa de seleção Habilitar envio **consultar o gateway.**
+8. Se o par de tronco dá suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação, selecione a caixa de seleção Habilitar envio **consultar o gateway** .
 
     > [!NOTE]
     > Se você desabilitar essa opção enquanto **a opção Habilitar desvio** de mídia estiver selecionada, serão necessárias configurações adicionais. Se o par de tronco não dá suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação e o bypass de mídia está habilitado, você também deve executar o cmdlet **Set-CsTrunkConfiguration** para desabilitar o RTCP para chamadas ativas e realizadas, a fim de dar suporte às condições adequadas para bypass de mídia. Como alternativa, você pode selecionar **Habilitar** referência usando o controle de chamada de terceiros se quiser que as chamadas transferidas sejam ignoradas pela mídia e o gateway não dá suporte a solicitações SIP REFER.
@@ -133,7 +133,7 @@ Uma configuração de tronco conforme descrito abaixo grupos um conjunto de par�
     > [!IMPORTANT]
     > A ordem em que os registros de uso de PSTN são listados na configuração de tronco é importante. Skype for Business Server percorre a lista de cima para baixo.
 
-11. **Habilitar** a trava RTP deve ser selecionada para habilitar a mídia de bypass para clientes por trás de um NAT (conversão de endereço de rede) ou firewall e um SBC que dá suporte à travamento.
+11. **Habilitar a trava RTP** deve ser selecionada para habilitar a mídia de bypass para clientes por trás de um NAT (conversão de endereço de rede) ou firewall e um SBC que dá suporte à travamento.
 
 12. **Habilitar o histórico de chamada** de encaminhamento deve ser selecionado para habilitar o envio de informações de histórico de chamada para o ponto de gateway do Servidor de Mediação.
 
@@ -143,7 +143,7 @@ Uma configuração de tronco conforme descrito abaixo grupos um conjunto de par�
 
 15. (Opcional) Associe e configure **regras de conversão de número de chamada** ao tronco. Essas regras de conversão se aplicam ao número de chamada das chamadas de saída.
 
-    - Para escolher uma ou mais regras em uma lista de todas as regras de conversão disponíveis em sua implantação Enterprise Voice, clique em **Selecionar**. Em **Selecionar Regras de Conversão**, clique nas regras que deseja associar ao tronco e clique em **OK**.
+    - Para escolher uma ou mais regras em uma lista de todas as regras de conversão que estão disponíveis em sua implantação Enterprise Voice, clique em **Selecionar**. Em **Selecionar Regras de Conversão**, clique nas regras que deseja associar ao tronco e clique em **OK**.
 
     - Para definir uma nova regra de conversão e associá-la ao tronco, clique em **Novo**. Para obter detalhes sobre regras de conversão, consulte [Regras de conversão em Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
@@ -158,7 +158,7 @@ Uma configuração de tronco conforme descrito abaixo grupos um conjunto de par�
 
 16. (Opcional) Associe e configure **regras de conversão de número chamado** ao tronco. As regras de conversão se aplicam ao número chamado de uma chamada de saída.
 
-    - Para escolher uma ou mais regras em uma lista de todas as regras de conversão disponíveis em sua implantação Enterprise Voice, clique em **Selecionar**. Em **Selecionar Regras de Conversão**, clique nas regras que deseja associar ao tronco e clique em **OK**.
+    - Para escolher uma ou mais regras em uma lista de todas as regras de conversão que estão disponíveis em sua implantação Enterprise Voice, clique em **Selecionar**. Em **Selecionar Regras de Conversão**, clique nas regras que deseja associar ao tronco e clique em **OK**.
 
     - Para definir uma nova regra de conversão e associá-la ao tronco, clique em **Novo**. Para obter detalhes sobre regras de conversão, consulte [Regras de conversão em Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
@@ -174,7 +174,7 @@ Uma configuração de tronco conforme descrito abaixo grupos um conjunto de par�
 17. Certifique-se de que as regras de conversão do tronco sejam organizadas na ordem correta. Para alterar a posição de uma regra na lista, realça o nome da regra e clique na seta para cima ou para baixo.
 
     > [!IMPORTANT]
-    > Skype for Business Server percorre a lista de regras de conversão da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um tronco de modo que um número discado possa corresponder a mais de uma regra de conversão, certifique-se de que as regras mais restritivas estejam classificadas acima das regras menos restritivas. Por exemplo, se você tiver incluído uma regra de conversão que corresponde a qualquer número de 11 dígitos e uma regra de conversão que corresponde a apenas  números de 11 dígitos que começam com +1425, certifique-se de que a regra que corresponde a qualquer número de 11 dígitos seja classificação abaixo da regra mais restritiva.
+    > Skype for Business Server percorre a lista de regras de conversão da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um tronco de modo que um número discado possa corresponder a mais de uma regra de conversão, certifique-se de que as regras mais restritivas estejam classificadas acima das regras menos restritivas. Por exemplo, se você tiver incluído uma regra de conversão que corresponde a qualquer número de 11 dígitos e uma regra de conversão que corresponde a apenas números de 11 dígitos que começam com +1425, certifique-se de que a regra que corresponde a qualquer número  de 11 dígitos seja classificação abaixo da regra mais restritiva.
 
 18. Depois de concluir a configuração do tronco, clique em **OK**.
 
@@ -183,7 +183,7 @@ Uma configuração de tronco conforme descrito abaixo grupos um conjunto de par�
     > [!NOTE]
     > Sempre que você criar ou modificar uma configuração de tronco, execute o comando **Confirmar tudo** para publicar a alteração da configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz Skype for Business na documentação Operações.
 
-Depois de configurar o tronco, continue [configurando](deploy-media-bypass.md) o bypass de mídia escolhendo entre as opções globais de bypass de mídia, conforme descrito em Deploy media bypass in Skype for Business Server na documentação implantação.
+Depois de configurar o tronco, continue configurando o bypass de mídia escolhendo entre as opções globais de bypass de mídia, conforme descrito em [Deploy media bypass in Skype for Business Server](deploy-media-bypass.md) na documentação implantação.
 ## <a name="see-also"></a>Confira também
 
 [Configurar um tronco sem bypass de mídia Skype for Business Server](configure-trunk-without-media-bypass.md)

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações de política de reunião Teams para participantes e convidados.
-ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563117"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457371"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -70,7 +70,7 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 |**Somente usuários convidados**    |Somente usuários convidados e organizadores de reuniões podem participar da reunião diretamente sem esperar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, usuários convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página Teams de reunião do cliente, ela aparece como "Pessoas que eu convidar". Os usuários adicionados como parte de um grupo de distribuição terão que passar pelo lobby.      |
 
  > [!NOTE]
-> As organizações confiáveis são domínios com os que você permite comunicações federadas Teams. Se você habilitar Permitir todos **os domínios externos** para acesso externo no centro de administração Teams, qualquer usuário autenticado em qualquer Teams organização será confiável. Se você optar por especificar domínios externos permitidos e bloquear todos os outros, os domínios permitidos se tornarão organizações confiáveis. Qualquer domínio bloqueado é considerado como não uma organização confiável.
+> As organizações confiáveis são domínios com os que você permite comunicações federadas Teams. Se você habilitar **Permitir todos os domínios externos** para acesso externo no centro de administração Teams, qualquer usuário autenticado em qualquer Teams organização será confiável. Se você optar por especificar domínios externos permitidos e bloquear todos os outros, os domínios permitidos se tornarão organizações confiáveis. Qualquer domínio bloqueado é considerado como não uma organização confiável.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de acesso telefônico ignorem o lobby
 
@@ -96,11 +96,17 @@ Essa configuração é uma política por usuário e se aplica durante uma reuni�
 
 Essa configuração é uma configuração por participante. Essa configuração controla se o chat de reunião é permitido na reunião do usuário.
 
+|Valor de configuração |Comportamento  |
+|---------|---------|
+|**A ativar para todos**     | Todos os participantes podem gravar e exibir mensagens de chat. |
+|**Desativar para todos**     | O chat de reunião está desligado para todos os participantes.  |
+|**Ativos para todos, menos usuários anônimos**| Os usuários anônimos não podem conversar durante reuniões, mas podem ler mensagens. |
+
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>Habilitar configurações de política de reunião
 
-Para habilitar as configurações da política de reunião, você pode usar o centro de administração do [Teams](https://admin.teams.microsoft.com/policies/meetings) **(** Políticas de Reunião Editar uma política Participantes & convidados ) ou o  >    >  cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) no Teams PowerShell. 
+Para habilitar as configurações de política de reunião, você pode usar [o](https://admin.teams.microsoft.com/policies/meetings) centro de administração do Teams (**Políticas** >  de **ReuniãoEditar** um **policyParticipants** >  & convidados) ou o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) no Teams PowerShell. 
 
 Neste exemplo, usamos o PowerShell para modificar a política de reunião global para permitir que qualquer pessoa inicie ou participe de uma reunião.
 

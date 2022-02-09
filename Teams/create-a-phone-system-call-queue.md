@@ -23,19 +23,19 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 6323a73c0b400b7b8d44a49e1bad2dad9c7f38c7
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: f6ca42b4e954cad8429d545ed8fe1d587127c7d9
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180914"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457321"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
 As filas de chamadas fornecem um método de roteamento de chamadas para as pessoas da organização que podem ajudar com um problema ou pergunta específica. As chamadas são distribuídas uma por vez para as pessoas na fila (que são conhecidas como *agentes*). 
 
 > [!TIP]
-> Este artigo é para grandes organizações. Se sua organização for uma pequena empresa, leia Criar uma fila [de chamada - tutorial de pequenas](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) empresas.
+> Este artigo é para grandes organizações. Se sua organização for uma pequena empresa, leia [Criar uma fila de chamada - tutorial de pequenas](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) empresas.
 
 As filas de chamada fornecem:
 
@@ -47,7 +47,7 @@ As filas de chamada fornecem:
 
 - Opções de administração para estouro da fila e tempo limite.
 
-Leia Plan for Teams auto attendants and [call queues](plan-auto-attendant-call-queue.md) [](plan-auto-attendant-call-queue.md#getting-started) e siga as etapas de início antes de seguir os procedimentos neste artigo.
+Leia Plan for Teams auto [attendants and call queues](plan-auto-attendant-call-queue.md) e siga as etapas de início antes de seguir os [](plan-auto-attendant-call-queue.md#getting-started) procedimentos deste artigo.
 
 ## <a name="video-demonstration"></a>Demonstração de vídeo
 
@@ -75,7 +75,7 @@ Para obter mais informações, consulte [Manage Teams resource accounts](manage-
 
 Se você planeja usar um canal Teams para seus agentes de chamada, pode atribuir um número de ID do chamador de saída para os agentes especificando uma ou mais contas de recurso com um número de telefone.
 
-Clique **em** Adicionar , pesquise as contas de recurso que você deseja permitir que os agentes para fins de ID de chamada ao fazer chamadas de saída, clique em Adicionar **e** em **Adicionar**.
+Clique **em Adicionar**, procure as contas de recurso que você deseja permitir que os agentes para fins de ID de chamada ao fazer chamadas de saída, clique em Adicionar e clique em **Adicionar**.
 
 Se você não estiver usando um canal Teams para controlar a associação de agentes, considere definir diretamente a ID do chamador para membros da fila de chamada para o número de serviço da fila de chamada ou o atendimento automático apropriado. Para obter mais informações, consulte [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
 
@@ -106,7 +106,7 @@ O Teams fornece música padrão aos chamadores enquanto eles estão em espera em
 
 ## <a name="call-agents"></a>Agentes de chamada
 
-Revise os [pré-requisitos para adicionar agentes a uma fila de chamada.](plan-auto-attendant-call-queue.md#prerequisites)
+Revise os [pré-requisitos para adicionar agentes a uma fila de chamada](plan-auto-attendant-call-queue.md#prerequisites).
 
 ![Captura de tela de usuários e configurações de grupos para filas de chamada.](media/call-queue-users-groups.png)
 
@@ -114,7 +114,7 @@ Revise os [pré-requisitos para adicionar agentes a uma fila de chamada.](plan-a
 
 Você pode adicionar até 200 agentes por meio de um Teams canal. Você deve ser membro da equipe ou criador ou proprietário do canal para adicionar um canal à fila.
 
-Se você quiser usar [um canal Teams para gerenciar](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)a fila, selecione a opção Escolher uma **equipe** e clique em Adicionar **um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar (somente canais padrão são suportados) e clique em **Aplicar**. 
+Se você quiser usar [um canal Teams para](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) gerenciar a fila, selecione **a opção Escolher uma equipe** e clique em **Adicionar um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar (somente canais padrão são suportados) e clique em **Aplicar**. 
 
 Os seguintes clientes são suportados ao usar um canal Teams para filas de chamada: 
 
@@ -128,7 +128,7 @@ Os seguintes clientes são suportados ao usar um canal Teams para filas de chama
 
 Você pode adicionar até 20 agentes individualmente e até 200 agentes por meio de grupos.
 
-Se você quiser adicionar usuários ou grupos individuais à fila, selecione a **opção Escolher usuários e grupos.** 
+Se você quiser adicionar usuários ou grupos individuais à fila, selecione a **opção Escolher usuários e grupos** . 
 
 Para adicionar um usuário à fila, clique em **Adicionar usuários**, procure o usuário, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
 
@@ -152,7 +152,7 @@ As contas Teams dos agentes devem ser definidas Teams modo somente para agentes.
 > O modo de conferência não será suportado se as chamadas telefônicas são roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Local.
 
 > [!TIP]
-> Definir **o modo de conferência** como **On** é a configuração recomendada.
+> Definir **o modo de conferência** **como On** é a configuração recomendada.
 
 O **método de roteamento** determina a ordem na qual os agentes recebem chamadas da fila. Escolha uma destas opções:
 
@@ -165,10 +165,12 @@ O **método de roteamento** determina a ordem na qual os agentes recebem chamada
 - O **Ocioso por mais tempo** encaminha cada chamada para o agente que está ocioso há mais tempo. Um agente é considerado ocioso se seu estado de presença estiver Disponível. Agentes cujo estado de presença não está Disponível não estarão qualificados para receber chamadas até que alterem sua presença para Disponível. 
 
 > [!TIP]
-> Definir **o Método de Roteamento** como Round **robin** ou **Longest idle** é a configuração recomendada.
+> Definir **o Método de Roteamento** **como Round robin** ou **Longest idle** é a configuração recomendada.
 
 > [!NOTE]
-> Se [a gravação de](teams-recording-policy.md) conformidade estiver habilitada  nos agentes, não há suporte para a combinação do modo **de** conferência e do roteamento do Attendant. Se você precisar usar o modo **de** conferência, selecione **Roteamento Serial,** **Round robin** ou **Longest ocioso** como o **método Routing**. Se você precisar usar o **roteamento de atendentes,** de definir **o modo de conferência** como **Off**.
+> Se [a gravação de](teams-recording-policy.md) conformidade estiver habilitada nos agentes, não há suporte para  a combinação do modo **de** conferência e do roteamento do Attendant. Se você precisar usar o modo **Conferência**, selecione **Roteamento Serial**, **Round robin** ou **Longest ocioso** como o **método Routing**. Se você precisar usar o **roteamento de atendente**, de definir **o modo de conferência** como **Desligado**.
+> 
+> Ao usar **o mais longo ocioso** e quando houver menos chamadas na fila do que os agentes disponíveis, somente os dois primeiros agentes ociosos mais longos serão apresentados com chamadas da fila.
 > 
 > Ao usar **o mais** longo ocioso, pode haver momentos em que um agente recebe uma chamada da fila logo após ficar indisponível ou se há um pequeno atraso no recebimento de uma chamada da fila após a disponibilização.
 
@@ -181,7 +183,7 @@ Habilite o roteamento de chamadas baseado em presença com qualquer um dos méto
 Se um agente optar por não receber chamadas, ele não será incluído na lista de roteamento de chamadas, independentemente do status de disponibilidade definido. 
 
 > [!NOTE]
-> Quando **ocioso** mais longo é selecionado como o método de roteamento, o roteamento  baseado em presença é necessário e automaticamente habilitado, mesmo que a alternância de roteamento baseada em presença seja desligada e acinzenada.
+> Quando **ocioso** mais longo é selecionado como o método de roteamento, o roteamento baseado em presença é necessário e automaticamente habilitado, mesmo que a  alternância de roteamento baseada em presença seja desligada e acinzenada.
 >
 > Se o roteamento baseado em presença não for habilitado e houver várias chamadas na fila, o sistema apresentará essas chamadas simultaneamente aos agentes, independentemente do status de presença. Isso resultará em várias notificações de chamada aos agentes, particularmente se alguns agentes não atenderem à chamada inicial apresentada.
 > 
@@ -193,7 +195,7 @@ Se um agente optar por não receber chamadas, ele não será incluído na lista 
 O **Tempo de alerta do agente** especifica por quanto tempo o telefone de um agente tocará antes que a fila redirecione a chamada para o próximo agente.
 
 > [!TIP]
-> Definir **o tempo de alerta do Agente** como **20 segundos** é a configuração recomendada.
+> Definir **o tempo de alerta do Agente** **como 20 segundos** é a configuração recomendada.
 
 ## <a name="call-overflow-handling"></a>Administração de estouro de chamadas
 
@@ -243,7 +245,7 @@ Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada
   - Aplicativo Microsoft Teams para Android
 
     > [!NOTE]
-    > As filas de chamadas que recebem um número de roteamento direto não têm suporte para clientes Skype for Business, clientes Lync ou para Telefones IP do Skype for Business como agentes. O Teams cliente só tem suporte com um modo de [co-existência de Teams Somente](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
+    > As filas de chamadas que recebem um número de roteamento direto não têm suporte para clientes Skype for Business, clientes Lync ou para Telefones IP do Skype for Business como agentes. O Teams cliente só tem suporte com um modo de [co-existência de Teams Only](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de fila de chamada
 
@@ -310,7 +312,7 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
    > [!div class="nextstepaction"]
    > [Executar testes: Teams fila de chamada](https://aka.ms/TeamsCallQueueDiag)
 
-2. No painel de diagnóstico Executar, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
+2. No painel Executar diagnóstico, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
 
 3. Os testes retornarão as melhores próximas etapas para lidar com qualquer locatário, política e configurações de conta de recurso para validar se a fila de chamadas é capaz de receber chamadas.
 

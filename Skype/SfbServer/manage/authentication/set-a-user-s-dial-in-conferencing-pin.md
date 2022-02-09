@@ -1,8 +1,8 @@
 ---
 title: Defina o PIN de conferência discado de um usuário em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Resumo: defina o PIN de conferência discado de um usuário para Skype for Business Server.'
-ms.openlocfilehash: 45ee99a0e9ab1b10c429fae470e528ffdd2c3326
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2675052a76042a2409dc7e2224b7874bc1277bf2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856678"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410864"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Defina o PIN de conferência discado de um usuário em Skype for Business Server
  
@@ -81,7 +81,7 @@ Para ingressar em uma conferência discada como um usuário autenticado, um usu�
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Atribuir um PIN de usuário usando Windows PowerShell cmdlets
 
-Você também pode atribuir números PIN usando o cmdlet Set-CsClientPin. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 
+Você também pode atribuir números PIN usando o cmdlet Set-CsClientPin. Você pode executar esse cmdlet no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Administração do Microsoft Lync Remote PowerShell](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Para atribuir automaticamente um número de PIN a um usuário
 
@@ -99,4 +99,4 @@ Esse comando utiliza o parâmetro PIN para atribuir o número de PIN 121989 ao u
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsClientPin.](/powershell/module/skype/set-csclientpin?view=skype-ps)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsClientPin](/powershell/module/skype/set-csclientpin?view=skype-ps) .

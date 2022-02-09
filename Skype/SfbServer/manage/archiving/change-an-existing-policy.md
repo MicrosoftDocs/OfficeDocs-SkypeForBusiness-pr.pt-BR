@@ -1,8 +1,8 @@
 ---
 title: Alterar uma política de arquivamento existente no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Resumo: saiba como alterar as políticas de arquivamento do usuário para Skype for Business Server.'
-ms.openlocfilehash: b6ddc379f2b5652311be051d47d644a8e2923c1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 494ed5ab3bd9e7bf4b64926533d3866e515fe34a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854385"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416614"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Alterar uma política de arquivamento existente no Skype for Business Server
  
@@ -54,7 +54,7 @@ Ao implantar o Skype for Business Server, você configura políticas iniciais de
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Alterar políticas de arquivamento usando Windows PowerShell
 
-Você também pode alterar as políticas de arquivamento usando o cmdlet **Windows PowerShell Set-CsArchivingPolicy.**
+Você também pode alterar as políticas de arquivamento usando o cmdlet **Set-CsArchivingPolicy Windows PowerShell Set-CsArchivingPolicy**.
   
 ### <a name="enable-archiving-policies"></a>Habilitar políticas de arquivamento
 

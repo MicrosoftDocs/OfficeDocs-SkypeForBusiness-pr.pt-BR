@@ -1,8 +1,8 @@
 ---
 title: Atualização Windows Assistente de Implantação
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,15 +15,15 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 description: Para obter detalhes sobre como usar o Assistente de Implantação para Skype for Business Server 2015, consulte Install Skype for Business Server 2015.
-ms.openlocfilehash: df8d11a053cf02024c46fec6294d4955a9b979bc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 955bd50e9894aa197ca099c9f9966e56aec9a6ea
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852445"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411794"
 ---
 # <a name="deployment-wizard-windows-update"></a>Assistente de Implantação: Windows Update
  
-Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server 2015, consulte [Install Skype for Business Server 2015](../../deploy/install/install.md).
+Para obter detalhes sobre como usar o Assistente de Implantação para Skype for Business Server 2015, consulte [Install Skype for Business Server 2015](../../deploy/install/install.md).
   
 

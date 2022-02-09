@@ -1,8 +1,8 @@
 ---
 title: Configuração de Tronco Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: fa8d553d3ddd7afdc8fd7fec19a28eff6f25775a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 171fdcd6accce7debce3d960704c03c9f84d44c1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835439"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416764"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Configuração de Tronco: Criar Novo ou Editar Existente
 

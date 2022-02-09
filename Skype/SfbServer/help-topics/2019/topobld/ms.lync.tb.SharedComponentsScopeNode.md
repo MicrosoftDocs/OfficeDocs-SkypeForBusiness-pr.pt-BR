@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Componentes Compartilhados
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Clique com o botão direito do mouse em Componentes Compartilhados na árvore de hierarquia do Construtor de Topologias para criar novos componentes compartilhados ou acessar opções de nível de Topologia.
-ms.openlocfilehash: a586191e15ce92c12ca1f6e8d6e1127ca4a0a0b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bcd3990a45a6831a99bbd101f5a2d179e264809f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829235"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411914"
 ---
 # <a name="shared-components-scope-node"></a>Nó de Escopo de Componentes Compartilhados
  
-Clique com o botão direito do mouse em **Componentes Compartilhados** na árvore de hierarquia do Construtor de Topologias para criar novos componentes compartilhados ou acessar opções de nível de Topologia.
+Clique com o botão direito do **mouse em Componentes Compartilhados** na árvore de hierarquia do Construtor de Topologias para criar novos componentes compartilhados ou acessar opções de nível de Topologia.
   
 ![Nó de Escopo de Componentes Compartilhados.](../../../media/Shared_Components_Scope_Node.jpg)
   

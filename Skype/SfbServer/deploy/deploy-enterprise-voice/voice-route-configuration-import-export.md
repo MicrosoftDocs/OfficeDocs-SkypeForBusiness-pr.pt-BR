@@ -1,8 +1,8 @@
 ---
 title: Exportar ou importar um arquivo de configuração de rota de voz no Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 'Resumo: saiba como exportar ou importar um arquivo de configuração de roteamento de voz Skype for Business Server usando o Painel de Controle Skype for Business Server voz.'
-ms.openlocfilehash: cb9f5acde66c006945c873b24f53f58d35d14ac2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da58e9c57ff0c71704d81eb7e79c8a53f62624e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832895"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418184"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportar ou importar um arquivo de configuração de rota de voz no Skype for Business
  
@@ -29,7 +29,7 @@ ms.locfileid: "60832895"
   
 Se você quiser salvar sua configuração de roteamento de voz sem publicá-la, siga estas etapas para salvar e recuperar um instantâneo da configuração de roteamento de voz. 
   
-Ao importar um arquivo de configuração de roteamento de voz (.vcfg), mas as alterações  foram feitas na configuração de roteamento de voz no servidor enquanto isso, as páginas no grupo roteamento de voz no Painel de Controle Skype for Business Server indicarão que há alterações não comprometidas no roteamento de voz. Essas alterações não confirmadas são as diferenças entre as duas configurações que exigem reconciliação.
+Ao importar um arquivo de configuração de roteamento de voz (.vcfg), mas as alterações foram feitas na configuração de roteamento de voz no servidor,  enquanto isso, as páginas no grupo Roteamento de Voz no Painel de Controle do Skype for Business Server indicarão que há alterações não-emitidas no roteamento de voz. Essas alterações não confirmadas são as diferenças entre as duas configurações que exigem reconciliação.
   
 Se você tiver feito alterações não comprometidas nas configurações em qualquer página dentro do grupo, as alterações serão salvas no arquivo de configuração de voz exportado (.vcfg). Isso permite que você faça alterações de configuração de roteamento de voz durante várias sessões antes de publicar as alterações. 
   

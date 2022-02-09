@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Servidores de Borda
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O nó Pools de Borda lista os pools de Borda da sua topologia. É possível realizar a seguinte ação:'
-ms.openlocfilehash: aefca966a9816986fe37fc6e9515d8815a9034af
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5551324ca33ed24c062789fe09ba1b223b6cb69d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849144"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417084"
 ---
 # <a name="edge-servers-scope-node"></a>Nó de Escopo de Servidores de Borda
  

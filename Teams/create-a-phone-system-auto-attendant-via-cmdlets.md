@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar os atendimentos automáticos por meio de cmdlets
-ms.openlocfilehash: 1a8a105da3cfeaad0b6bc4069d877d2d8ad95796
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181159"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457461"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Criar um atendimento automático por meio de cmdlets
 
@@ -38,11 +38,11 @@ ms.locfileid: "62181159"
 - Módulo MSOnline instalado ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  Você tem direitos de administração de locatários
 3)  Você comprou Microsoft Teams Telefone
-4)  As filas de chamada mencionadas abaixo já foram configuradas após o guia Criando Filas de Chamada [com cmdlets do PowerShell.](create-a-phone-system-call-queue-via-cmdlets.md)
+4)  As filas de chamada mencionadas abaixo já foram configuradas após o guia [Criando Filas de Chamada com cmdlets do PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
                                                                                                
-Observação: alguns dos cmdlets referenciados abaixo podem fazer parte da versão de Visualização Pública do módulo Teams PowerShell.  Para obter mais informações, consulte Install Teams Public Preview do [PowerShell](teams-powershell-install.md) e também consulte Microsoft Teams Notas de Versão [do PowerShell.](teams-powershell-release-notes.md)
+Observação: alguns dos cmdlets referenciados abaixo podem fazer parte da versão de Visualização Pública do módulo Teams PowerShell.  Para obter mais informações, [consulte Install Teams public preview do PowerShell](teams-powershell-install.md) e consulte [Microsoft Teams Notas de versão do PowerShell](teams-powershell-release-notes.md).
 
-Os usuários que já têm o módulo MicrosoftTeams instalado devem garantir que a versão mais atualizada ````Update-Module MicrosoftTeams```` seja instalada.
+Os usuários que já têm o módulo MicrosoftTeams ````Update-Module MicrosoftTeams```` instalado devem garantir que a versão mais atualizada seja instalada.
 
 ## <a name="scenario"></a>Cenário
 
@@ -235,7 +235,6 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Criar e atribuir Conta de Recurso
-Observação: Telefone número não obrigatório aqui, pois a fila de chamada está na frente terminada por um Atendedor Automático
 - ApplicationID
 - - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07
 - - Fila de Chamada: 11cd3e2e-fccb-42ad-ad00-878b93575e07

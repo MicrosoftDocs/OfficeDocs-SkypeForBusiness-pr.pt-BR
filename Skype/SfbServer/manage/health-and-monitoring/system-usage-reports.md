@@ -1,8 +1,8 @@
 ---
 title: Relatórios de uso do sistema em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Resumo: saiba mais sobre os Relatórios de Uso do Sistema Skype for Business Server.'
-ms.openlocfilehash: cb1fd3fd05d553fa81f7c0646659f7593dad5869
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7e8389eb36213bfaa628253c1c9ab84497d29809
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843874"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410814"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Relatórios de uso do sistema em Skype for Business Server
  

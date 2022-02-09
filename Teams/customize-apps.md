@@ -1,7 +1,7 @@
 ---
 title: Personalizar aplicativos no Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como personalizar aplicativos em Microsoft Teams.
-ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831735"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410614"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicativos no Microsoft Teams
 
- Microsoft Teams oferece personalização de aplicativo para aprimorar a experiência Teams aplicativo. Alguns desenvolvedores de aplicativos permitem que um aplicativo seja personalizado pelo Teams administrador. O administrador pode personalizar ou renomear as propriedades do aplicativo com base nas necessidades organizacionais usando a página Gerenciar aplicativos Teams **centro** de administração. Os detalhes que você pode personalizar são:
+ Microsoft Teams oferece personalização de aplicativo para aprimorar a experiência Teams aplicativo. Alguns desenvolvedores de aplicativos permitem que um aplicativo seja personalizado pelo Teams administrador. O administrador pode personalizar ou renomear as propriedades do aplicativo com base nas necessidades organizacionais usando o centro de administração Teams **página Gerenciar** aplicativos. Os detalhes que você pode personalizar são:
 
 - Nome curto
 - Descrição curta
@@ -51,7 +51,7 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
 1. Entre no Centro de administração do Teams.
 
-2. Expanda **Teams Aplicativos** e selecione **Gerenciar aplicativos**.
+2. **Expanda Teams Aplicativos e** selecione **Gerenciar aplicativos**.
 
 3. Verifique a **coluna Personalizável** da lista de aplicativos e classificar por aplicativos personalizáveis.
 
@@ -67,7 +67,7 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
      ![A opção personalizar seleção 2.](media/app-details-customizable.png)
 
-   - Selecione o nome do aplicativo e selecione **Personalizar** no menu suspenso **Ações.**
+   - Selecione o nome do aplicativo e selecione **Personalizar** no menu suspenso **Ações** .
 
      ![A opção personalizar seleção 3.](media/customize-action-menu.png)
 
@@ -85,7 +85,7 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 > [!Note]
 > Somente os campos atribuídos pelo desenvolvedor de aplicativos como personalizáveis estarão visíveis.
 
-5. Expanda **a seção Ícone.**
+5. Expanda **a seção Ícone** .
 
    1. Upload um ícone. Use um ícone de cor completa (192 x 192) pixel no formato PNG.
 
@@ -99,7 +99,7 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
 7. Selecione **Publicar** para publicar o aplicativo personalizado.
 
-   O aplicativo personalizado agora está listado na página **Gerenciar aplicativos.** Você terá apenas uma versão do aplicativo, já que a personalização dos recursos do aplicativo não cria uma cópia do aplicativo.
+   O aplicativo personalizado agora está listado na página **Gerenciar aplicativos** . Você terá apenas uma versão do aplicativo, já que a personalização dos recursos do aplicativo não cria uma cópia do aplicativo.
 
 Agora, Teams usuários finais podem abrir o cliente Teams para ver o aplicativo personalizado.
 
@@ -139,11 +139,11 @@ A qualquer momento, você pode redefinir os detalhes do aplicativo para as confi
 
 1. Entre no Centro de administração do Teams.
 
-2. Expanda **Teams Aplicativos** e selecione **Gerenciar aplicativos**.
+2. **Expanda Teams Aplicativos e** selecione **Gerenciar aplicativos**.
 
 3. Selecione o nome do aplicativo.
 
-4. Selecione **Redefinir como padrão** no menu suspenso **Ações.**
+4. Selecione **Redefinir como padrão** no menu suspenso **Ações** .
 
    ![Selecione redefinir para o padrão realçado.](media/select-reset.png)
 

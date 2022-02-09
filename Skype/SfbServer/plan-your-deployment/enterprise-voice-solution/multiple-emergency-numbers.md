@@ -1,8 +1,8 @@
 ---
 title: Planejar vários números de emergência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Leia este tópico para saber como planejar vários números de emergência Skype for Business Server.
-ms.openlocfilehash: fbff70b3772b9d941d615f3d1aaf2ad668177e30
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8a17796987d5bf89989a241680015834634c52e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861128"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418404"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planejar vários números de emergência no Skype for Business Server
  
@@ -35,7 +35,7 @@ Esse recurso também é útil para provedores de saúde nos Estados Unidos que q
 
 Configure a chamada de emergência criando políticas de local que definem como a chamada de emergência será implementada. Você usa a política de local para definir qual número constitui uma chamada de emergência, por exemplo, 911 nos Estados Unidos; 999 e 112 no Reino Unido. A política de local determina se um usuário está habilitado para chamada de emergência e, em caso afirmativo, qual é o comportamento de uma chamada de emergência. Você também pode definir se a segurança corporativa deve ser notificada automaticamente e como a chamada deve ser roteada.
   
-Para obter mais informações sobre como definir e modificar uma política de local, consulte [Plan location policies for Skype for Business Server](location-policies.md) and Create location policies in [Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Estes tópicos descrevem conceitos sobre políticas de localização; no entanto, você deve seguir as instruções em [Configure multiple emergency numbers in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar vários números de emergência.
+Para obter mais informações sobre como definir e modificar uma política de local, consulte [Plan location policies for Skype for Business Server](location-policies.md) and [Create location policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Estes tópicos descrevem conceitos sobre políticas de localização; no entanto, você deve seguir as instruções em [Configure multiple emergency numbers in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) to configure multiple emergency numbers.
   
 Ao planejar vários números de emergência, lembre-se do seguinte:
   
@@ -52,18 +52,18 @@ Ao planejar vários números de emergência, lembre-se do seguinte:
     
 - Se uma política de local tiver os parâmetros EmergencyNumbers e DialString definidos e o cliente suportar vários números de emergência, o número de emergência terá precedência. Se o cliente não suportar vários números de emergência, a cadeia de caracteres de discagem de emergência será usada.
     
-- Para obter informações sobre quais clientes Skype for Business e Lync suportam receber vários números de emergência, máscaras de discagem e usos de PSTN (rede telefônica pública comutado), consulte Suporte ao [cliente](multiple-emergency-numbers.md#BKMK_Clients).
+- Para obter informações sobre quais clientes Skype for Business e Lync suportam o recebimento de vários números de emergência, máscaras de discagem e usos de PSTN (rede telefônica pública comutado), consulte [Suporte para cliente](multiple-emergency-numbers.md#BKMK_Clients).
     
 > [!NOTE]
 > Não é possível configurar vários números de emergência usando o painel Skype for Business Controle. Você deve usar o PowerShell para configurar vários números de emergência. 
   
 Antes de configurar vários números de emergência, lembre-se do seguinte:
   
-- Para configurar vários números de emergência, você deve usar o cmdlet New-CsEmergencyNumber e definir políticas de localização que suportam mais de um número de emergência especificando o parâmetro EmergencyNumbers com os cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) e [Set-CsLocationPolicy.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
+- Para configurar vários números de emergência, você deve usar o cmdlet New-CsEmergencyNumber e definir políticas de localização que suportam mais de um número de emergência especificando o parâmetro EmergencyNumbers com os [cmdlets New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) e [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) .
     
 - Se você tiver números existentes definidos usando o cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask, os valores especificados com o parâmetro EmergencyNumbers terão precedência sobre os valores antigos. Ou seja, os valores dos parâmetros EmergencyDialString e EmergencyDialMask serão ignorados.
     
-- Se você tiver números existentes definidos usando o cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask e não configurar novos números de  *emergência,*  os números existentes continuarão a ser usados.
+- Se você tiver números existentes definidos usando o cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask e não configurar novos números de  *emergência, os*  números existentes continuarão a ser usados.
     
 - Para que o recurso de vários números de emergência funcione, as versões do cliente que você está executando devem ser capazes de dar suporte ao novo recurso. Os clientes mais antigos continuarão a usar os valores antigos especificados pelos cmdlets Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask. 
     
@@ -101,9 +101,9 @@ A tabela a seguir mostra o suporte do cliente para vários números de emergênc
 ||DC (Canal Adiado) lançado em 11 de outubro de 2016 - Versão 1605 (Build 6965.2092)  <br/> |
 |**MSI** <br/> |Atualização de 7 de junho - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac e iOS** <br/> |**Versão** <br/> |
-||Skype for Business Mac client versão 16.9  <br/> Skype for Business cliente iOS versão 6.16  <br/> |
+||Skype for Business cliente Mac versão 16.9  <br/> Skype for Business cliente iOS versão 6.16  <br/> |
 |**Android** <br/> |**Versão** <br/> |
-||Skype for Business Versão 6.17 do cliente Android  <br/> |
+||Skype for Business cliente Android versão 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**Versão** <br/> |
 || Telefones Aastra 6721ip e Aastra 6725ip - atualização cumulativa de setembro de 2016 (Build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || Telefones HP 4110 e HP 4120 - atualização cumulativa de setembro de 2016 (Build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |

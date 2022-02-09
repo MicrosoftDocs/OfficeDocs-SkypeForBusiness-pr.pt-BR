@@ -1,8 +1,8 @@
 ---
 title: Verifique a topologia em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: 'Resumo: Saiba como verificar se os servidores Skype for Business Server topologia e Active Directory estão funcionando conforme o esperado. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 32d9e4302109ef9a7d5cb34946722eb8a8e9f38c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'Resumo: Saiba como verificar se os servidores Skype for Business Server topologia e Active Directory estão funcionando conforme o esperado. Baixe uma avaliação gratuita de Skype for Business Server do Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: fa26c58cf7a5a848faec3db6a9865deeea210146
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864258"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410554"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Verifique a topologia em Skype for Business Server
  
-**Resumo:** Saiba como verificar se a topologia Skype for Business Server e os servidores do Active Directory estão funcionando conforme o esperado. Baixe uma avaliação gratuita de Skype for Business Server do Centro [de Avaliação da Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
+**Resumo:** Saiba como verificar se a topologia Skype for Business Server e os servidores do Active Directory estão funcionando conforme o esperado. Baixe uma avaliação gratuita de Skype for Business Server do Centro [de Avaliação da Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Depois de publicar a topologia e os Skype for Business Server do sistema instalados em cada um dos servidores na topologia, você estará pronto para verificar se a topologia está funcionando conforme esperado. Isso inclui verificar se a configuração foi propagada para todos os servidores do Active Directory para que todo o domínio saiba Skype for Business está disponível no domínio. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 em ordem e após as etapas 1 a 5, conforme descrito no diagrama. Verificar a topologia é a etapa 8 de 8.
   
@@ -38,7 +38,7 @@ A etapa final é testar o pool de Front-End e confirmar se Skype for Business cl
   
 ### <a name="add-users-and-verify-client-connectivity"></a>Adicionar usuários e verificar a conectividade do cliente
 
-1. Use Computadores e Usuários do Active Directory para adicionar o objeto de usuário do Active Directory da função de administrador para Skype for Business Server implantação do Skype for Business Server (no qual o Painel de Controle do Skype for Business Server está instalado) ao grupo **CSAdministrator.**
+1. Use Computadores e Usuários do Active Directory para adicionar o objeto de usuário do Active Directory da função de administrador da implantação Skype for Business Server (no qual o Painel de Controle do Skype for Business Server está instalado) ao grupo **CSAdministrator**.
     
     > [!IMPORTANT]
     > Se você não adicionar os usuários e grupos apropriados ao grupo CsAdministors, receberá um erro ao abrir o Painel de Controle do Skype for Business Server que diz: "Não autorizado: o acesso é negado devido a uma falha de autorização de controle de acesso baseado em função (RBAC)." 
@@ -56,13 +56,13 @@ A etapa final é testar o pool de Front-End e confirmar se Skype for Business cl
     
 6. Na barra de navegação esquerda, clique em **Usuários** e clique em **Habilitar usuários**. 
     
-7. Na página **Novo Skype for Business Server Usuário,** clique em **Adicionar**.
+7. Na página **Novo Skype for Business Server Usuário**, clique em **Adicionar**.
     
-8. Para definir parâmetros de pesquisa para os objetos que você deseja encontrar, na página Selecionar do **Active Directory,** você pode selecionar Pesquisar **e,** opcionalmente, clicar em **Adicionar Filtro**. Você também pode selecionar **pesquisa LDAP** e inserir uma expressão LDAP para filtrar ou limitar os objetos que serão retornados. Depois de decidir suas opções de Pesquisa, clique em **Encontrar**.
+8. Para definir parâmetros de pesquisa para os objetos que você deseja encontrar, na página Selecionar do **Active Directory** , você pode selecionar Pesquisar e, opcionalmente **, clicar** em **Adicionar Filtro**. Você também pode selecionar **pesquisa LDAP** e inserir uma expressão LDAP para filtrar ou limitar os objetos que serão retornados. Depois de decidir suas opções de Pesquisa, clique em **Encontrar**.
     
 9. No painel Resultados da Pesquisa, selecione os usuários que você deseja adicionar e clique em **OK**.
     
-10. Na página **Novo Skype for Business Server Usuário,** os usuários selecionados estão na **exibição Usuários.** Na lista **Atribuir usuários a um pool,** selecione o servidor onde os usuários devem residir.
+10. Na página **Novo Skype for Business Server Usuário**, os usuários selecionados estão na **exibição Usuários**. Na lista **Atribuir usuários a um pool** , selecione o servidor onde os usuários devem residir.
     
     Veja a seguir uma lista de opções que você pode usar para configurar os objetos.
     
@@ -86,7 +86,7 @@ A etapa final é testar o pool de Front-End e confirmar se Skype for Business cl
     
     - **Política de cliente**
     
-    Para testar a funcionalidade básica, selecione a opção que você prefere para a configuração Gerar **URI SIP** do usuário (as outras opções na configuração usam configurações padrão) e clique em Habilitar **,** conforme mostrado na figura.
+    Para testar a funcionalidade básica, selecione a opção que você prefere para a configuração Gerar **URI SIP** do usuário (as outras opções na configuração usam configurações padrão) e clique em Habilitar **, conforme** mostrado na figura.
     
      ![Habilitar usuários no Painel de Controle.](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   

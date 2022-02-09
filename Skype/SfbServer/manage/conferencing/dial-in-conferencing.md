@@ -1,8 +1,8 @@
 ---
 title: Gerenciar conferência discagem no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 'Resumo: saiba como gerenciar a conferência discagem no Skype for Business Server.'
-ms.openlocfilehash: e2b836cf45bf3e9253ea6161c4bd634864337e5f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d551b25b71575098e4077603aee7a1519af1809e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830855"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410844"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Gerenciar conferência discagem no Skype for Business Server
  
 **Resumo:** Saiba como gerenciar a conferência discagem em Skype for Business Server.
   
-Este tópico descreve como gerenciar a conferência discagem. Para obter mais informações sobre como planejar e configurar a conferência discda na implantação, consulte [Plan for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) and Configure [dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+Este tópico descreve como gerenciar a conferência discagem. Para obter mais informações sobre como planejar e configurar a conferência discda na implantação, consulte [Plan for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 Você pode executar as seguintes tarefas para gerenciar a conferência discagem: habilitar ou desabilitar a conferência discado, gerenciar números de acesso, gerenciar políticas de PIN para discagem em conferência, gerenciar comunicados de entrada e saída de conferência, modificar mapeamentos de chaves para comandos DTMF e dar boas-vindas aos usuários para conferência discar. 
   

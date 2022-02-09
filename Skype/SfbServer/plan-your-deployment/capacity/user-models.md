@@ -1,8 +1,8 @@
 ---
 title: Modelos de usuário em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: Os modelos de usuário descritos aqui fornecem a base para as medições e recomendações de planejamento de capacidade descritas em Uso do modelo de usuário de planejamento de capacidade para Skype for Business Server.
-ms.openlocfilehash: 22f5d45c5b8c5f75979e061814c03a5b9ffc3e8d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1057d3d4e4d20c4193556aa6801da51ca81effba
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846344"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418414"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Modelos de usuário em Skype for Business Server
  
-Os modelos de usuário descritos aqui fornecem a base para as medições e recomendações de planejamento de capacidade descritas em Uso do modelo de usuário de planejamento de capacidade para [Skype for Business Server](user-model.md).
+Os modelos de usuário descritos aqui fornecem a base para as medições e recomendações de planejamento de capacidade descritas em Uso do modelo de usuário de planejamento de [capacidade para Skype for Business Server](user-model.md).
   
-## <a name="skype-for-business-server-user-models"></a>Skype for Business Server Modelos de usuário
+## <a name="skype-for-business-server-user-models"></a>Skype for Business Server user models
 
 A tabela a seguir descreve o modelo de usuário para registro, contatos, mensagens instantâneas (IM) e presença para Skype for Business Server.
   
@@ -46,7 +46,7 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 
 |**Categoria**|**Descrição**|
 |:-----|:-----|
-|Sessões de IM ponto a ponto  <br/> |Cada usuário tem em média seis sessões de IM ponto a ponto por dia.  <br/> 10 mensagens instantâneas por sessão.  <br/> Cada mensagem é corresponder a duas mensagens SIP INFO e 2 mensagens SIP 200 OK (para os indicadores de status, como " \<Name\> está Digitando")  <br/> |
+|Sessões de IM ponto a ponto  <br/> |Cada usuário tem em média seis sessões de IM ponto a ponto por dia.  <br/> 10 mensagens instantâneas por sessão.  <br/> Cada mensagem é corresponder a duas mensagens SIP INFO e 2 mensagens SIP 200 OK (para os indicadores de status, como "\<Name\> está Digitando")  <br/> |
 |Sessões de IM de grupo  <br/> |O número médio de mensagens enviadas em uma sessão somente IM de grupo é 5 por usuário.  <br/> O número médio de mensagens enviadas na parte de mensagens IM de uma conferência AV é 2 por usuário.  <br/> |
 |Sondagem de presença  <br/> |Em geral, supomos o pool de presença com uma média de 60 pools por usuário, por hora. Para cada usuário, suponha uma média de:  <br/> • Uma sondagem por dia da presença de usuários na guia organização do usuário (mas não na lista contatos). O número médio de não contatos na guia organização do usuário é de 15 usuários. Dois cartões de visita visualizando operações por dia.  <br/> • Uma sondagem de presença sempre que o usuário clica em outro usuário para iniciar uma conversa, estimada de uma vez por hora.  <br/> • Seis pesquisas de usuário por hora. Cada vez que uma pesquisa é realizada, um pool de lote é enviado para todos na lista de resultados da pesquisa. Suponha que o tamanho médio dos resultados da pesquisa é 20. Se os resultados da pesquisa permanecem na tela, o pool de lote é atualizado a cada 5 minutos; assumimos que haverá duas atualizações por hora.  <br/> • Quando o usuário abre ou visualiza um email no Outlook, uma sondagem sobre a presença de usuários nos campos Para: e CC: do email, estimado em cinco emails por hora e quatro usuários por email.  <br/> |
 |Assinaturas de presença  <br/> |Quando um usuário adiciona outro como contato, o primeiro usuário está se inscrevendo em cinco categorias de informação sobre o segundo usuário. As atualizações dessas categorias de informação são automaticamente enviadas ao primeiro usuário. <br/> Para cada cliente, uma única solicitação de inscrição em lote é enviada para obter o estado de presença em uma média de 40 contatos, com 40 diálogos adicionais para obter presença de contatos federados.  <br/> A presença de membros de um grupo de distribuição expandido é encontrada através de inscrições de presença persistente, não pool, e é modelada como 1 expansão por usuário para cada 2 horas.  <br/> Assinaturas curtas ocorrem quando um usuário faz login, há uma assinatura em lote para todos os contatos do usuário e, em seguida, o usuário logo faz logo off. Assumimos 6 inscrições curtas por usuário, por hora, onde cada inscrição dura 10 minutos. <br/> |
@@ -76,7 +76,7 @@ A tabela a seguir descreve o modelo de conferência.
 |Distribuição dos participantes da reunião  <br/> |50% de usuários internos autenticados.  <br/> 25% de usuários de acesso remoto autenticados.  <br/> 15% de usuários anônimos.  <br/> 10% de usuários federados.  <br/> |
 |Distribuição de ingresso na reunião  <br/> |Os usuários são simulados como participação da reunião dentro dos primeiros 5 minutos.  <br/> |
    
-Em pools de Front-End regulares, Skype for Business Server tem um tamanho máximo de reunião suportado de 250 usuários. Cada pool pode hospedar uma reunião de 250 usuários por vez. Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores. Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões. Para obter detalhes, [consulte Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).
+Em pools de Front-End regulares, Skype for Business Server tem um tamanho máximo de reunião suportado de 250 usuários. Cada pool pode hospedar uma reunião de 250 usuários por vez. Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores. Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões. Para obter detalhes, consulte [Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).
   
 Conferências foram simuladas como a seguir:
   

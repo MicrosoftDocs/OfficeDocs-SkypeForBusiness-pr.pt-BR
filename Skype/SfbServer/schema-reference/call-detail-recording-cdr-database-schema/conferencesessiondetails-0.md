@@ -1,8 +1,8 @@
 ---
 title: Tabela ConferenceSessionDetails Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Cada registro representa uma sessão de conferência, que poderia ser a sessão com Foco ou a sessão com um servidor de conferência específico.
-ms.openlocfilehash: fc69150cf95ca0f00a4c1731aeda44f1e674a6cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6bb5b76f7ad8a5d5843be91db0ab420eea3d9f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843664"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416384"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Tabela ConferenceSessionDetails Skype for Business Server 2015
  
 Cada registro representa uma sessão de conferência, que poderia ser a sessão com Foco ou a sessão com um servidor de conferência específico.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |Datetime  <br/> |Primária, Estrangeira  <br/> |Tempo da solicitação da sessão; usado em conjunto com **SessionIdSeq** para identificar de forma única uma sessão de conferência. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primário, Estrangeiro  <br/> |O número de ID para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma sessão de conferência. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. * <br/> |
@@ -53,7 +53,7 @@ Cada registro representa uma sessão de conferência, que poderia ser a sessão 
 |**InviteTime** <br/> |datetime  <br/> ||A hora da primeira solicitação INVITE. Este campo é geralmente preenchido por dados gerados da mensagem INVITE inicial em uma sessão. Se não houver mensagem INVITE, então o campo será preenchido com a data e hora da primeira mensagem SIP relevante (BYE, CANCEL, MESSAGE ou INFO).  <br/> |
 |**ResponseTime** <br/> |datetime  <br/> ||A hora da primeira SIP RESPONSE. Este campo é geralmente preenchido por dados gerados da mensagem INVITE inicial em uma sessão. Se não houver mensagem INVITE, então o campo será preenchido com a data e hora da primeira mensagem SIP relevante (BYE, CANCEL, MESSAGE ou INFO).  <br/> |
 |**SessionEndTime** <br/> |datetime  <br/> ||O horário em que a sessão terminou.  <br/> |
-|**UriTypeId** <br/> |tinyint  <br/> |Foreign  <br/> |Contém o valor de tipo de URI mcu da tabela [UriTypes](uritypes.md). Esse campo é usado para melhorar o desempenho da consulta.  <br/> Este campo foi introduzido no Microsoft Lync Server 2013.  <br/> |
+|**UriTypeId** <br/> |tinyint  <br/> |Foreign  <br/> |Contém o valor de tipo de URI MCU da [tabela UriTypes](uritypes.md). Esse campo é usado para melhorar o desempenho da consulta.  <br/> Este campo foi introduzido no Microsoft Lync Server 2013.  <br/> |
 |**UserFlag** <br/> |smallint  <br/> || Um conjunto de bits que indica os atributos do usuário. As definições de atributo a seguir são listadas: <br/>  Integrado com telefone de mesa - 1 <br/> |
 |**CallFlag** <br/> |smallint  <br/> || Um conjunto de bits que indica os atributos da chamada. As definições de atributo a seguir são listadas: <br/>  Sessão Repetida - 1 <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno pelo serviço de Monitoramento.  <br/> Este campo foi introduzido no Skype for Business Server 2015.  <br/> |

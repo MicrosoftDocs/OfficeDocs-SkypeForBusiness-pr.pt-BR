@@ -1,8 +1,8 @@
 ---
 title: Alta disponibilidade e gerenciamento do Pool de Front End
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Saiba mais sobre o gerenciamento de pool de front-end no Skype for Business Server, incluindo o gerenciamento de pools, perda de quórum e etapas especiais para pools com apenas dois Servidores Front-End.
-ms.openlocfilehash: f8ad22c7728fc4fb62980a81fa659558aaba4be7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cf1f5d4a65313ceabbc6cab279cd7889740c2f2c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831845"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417524"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidade e gerenciamento do Pool de Front End
  
@@ -60,7 +60,7 @@ Na primeira vez que você iniciar um novo pool de Front-End, é essencial que 85
 
 
    
-Sempre que o pool for iniciado, 85% dos servidores devem ser iniciados (conforme mostrado na tabela anterior). Se esse número de servidores não puder ser iniciado (mas servidores suficientes puderem ser iniciados para que você não tenha perda de quórum no nível do pool), você poderá usar o cmdlet para permitir que o pool se recupere dessa perda de quórum de nível de grupo de roteamento e faça  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` progresso. Para obter mais informações sobre como usar esse cmdlet, consulte [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
+Sempre que o pool for iniciado, 85% dos servidores devem ser iniciados (conforme mostrado na tabela anterior). Se esse número de servidores não puder ser iniciado (mas servidores suficientes puderem ser iniciados para que você não tenha perda de quórum no nível do pool),  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` você poderá usar o cmdlet para permitir que o pool se recupere dessa perda de quórum de nível de grupo de roteamento e faça progresso. Para obter mais informações sobre como usar esse cmdlet, consulte [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
 > Em pools com um número único de servidores, o Skype for Business Server usa o banco de dados de SQL principal como Testemunha. Em um pool como esse, se você desligar o banco de dados principal e alternar para a cópia espelho e desligar servidores Front-End suficientes para que não sejam suficientes em execução de acordo com a tabela anterior, todo o pool será desligado. Para obter mais informações, consulte [Testemunha de Espelhamento de Banco de Dados](/sql/database-engine/database-mirroring/database-mirroring-witness). 
@@ -79,7 +79,7 @@ Para que um pool de Front-End funcione, ele não pode estar em perda de quórum 
 |10-12  <br/> |Qualquer um dos 5 primeiros 9 servidores  <br/> |
 |12 a 16 **para Skype for Business Server 2019**  <br/> |Qualquer um dos 7 primeiros 12 servidores  <br/> |
    
-Na tabela anterior, os "primeiros servidores" são os servidores que foram trazidos primeiro, cronologicamente, quando o pool foi iniciado pela primeira vez. Para determinar esses servidores, você pode usar  `Get-CsComputer` o cmdlet com a `-PoolFqdn` opção. Este cmdlet mostrará os servidores na ordem em que aparecem na topologia, e os que estão na parte superior da lista são os primeiros servidores.
+Na tabela anterior, os "primeiros servidores" são os servidores que foram trazidos primeiro, cronologicamente, quando o pool foi iniciado pela primeira vez. Para determinar esses servidores, você pode usar o  `Get-CsComputer` cmdlet com a `-PoolFqdn` opção. Este cmdlet mostrará os servidores na ordem em que aparecem na topologia, e os que estão na parte superior da lista são os primeiros servidores.
   
 > [!IMPORTANT]
 > O número máximo de servidores front-end foi aumentado para 16 no [Skype for Business Server 2019](../../../SfBServer2019/plan/user-model-2019.md)

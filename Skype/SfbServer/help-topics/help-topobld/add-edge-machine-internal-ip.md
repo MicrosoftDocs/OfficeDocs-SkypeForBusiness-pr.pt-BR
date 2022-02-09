@@ -1,8 +1,8 @@
 ---
 title: Adicionar IP Interno de Máquina de Borda
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 description: Use esta página para especificar o endereço IP interno e o nome de domínio totalmente qualificado (FQDN) interno do Servidor de Borda.
-ms.openlocfilehash: c0d08bf0fb4b197b32a79172c3df2c494173faa5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b012b1ad8fb48ae4b760dd247598f89c62cc6eb7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842073"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418484"
 ---
 # <a name="add-edge-machine-internal-ip"></a>Adicionar IP Interno de Máquina de Borda
 

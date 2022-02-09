@@ -1,8 +1,8 @@
 ---
 title: Planejar alta disponibilidade e recuperação de desastres Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: Skype for Business Server oferece alta disponibilidade com pool de servidores, recuperação de desastres com emparelhamento de pool e vários modos de alta disponibilidade do Servidor Back-End, incluindo grupos de Disponibilidade AlwaysOn, espelhamento de banco de dados e SQL cluster de failover.
-ms.openlocfilehash: 37baa5627ef638c0a6835053bca9094564359d1a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef5275ccb11e6428a4084bec1b7f2f0b2dddcd5f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828684"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416454"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planejar alta disponibilidade e recuperação de desastres Skype for Business Server
  
@@ -35,7 +35,7 @@ Skype for Business Server também fornece opções de recuperação de desastres
 O Skype for Business Server também oferece suporte a quatro modos de alta disponibilidade para seus Servidores Back-End: espelhamento de SQL, Grupos de Disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL cluster de failover.
   
 > [!NOTE]
-> SQL O espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de clustering de failover são preferenciais com o Skype for Business Server 2019.
+> SQL espelhamento está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, Instâncias de Cluster de Failover AlwaysOn (FCI) e SQL de clustering de failover são preferenciais com o Skype for Business Server 2019.
 
 > [!NOTE]
 > Os Grupos de Disponibilidade AlwaysOn não são suportados com Servidores de Chat Persistente. 

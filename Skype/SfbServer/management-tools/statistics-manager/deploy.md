@@ -1,8 +1,8 @@
 ---
 title: Implantar Gerenciador de Estatísticas do Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumo: leia este tópico para saber como implantar o Gerenciador de Estatísticas para Skype for Business Server.'
-ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 98a1a405ccccf9ee88941588e6e43f152d2f6bb3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857428"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410714"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implantar Gerenciador de Estatísticas do Skype for Business Server
  
@@ -34,7 +34,7 @@ Antes de tentar instalar o Gerenciador de Estatísticas, certifique-se de estar 
 > [!NOTE]
 > O Site do Gerenciador de Estatísticas foi testado e funciona corretamente no Internet Explorer 11+, no Edge 20.10240+ e no Chrome 46+ (versão atual do evergreen). 
   
-Você pode encontrar o Gerenciador de Estatísticas baixável em [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) . 
+Você pode encontrar o Gerenciador de Estatísticas baixável em [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload). 
   
 Este tópico contém as seguintes seções:
   
@@ -66,7 +66,7 @@ Para implantar o Gerenciador de Estatísticas, siga estas etapas:
 
 Para preparar o computador host, você precisará instalar o sistema de cache Redis na memória e garantir que um certificado válido está no computador. A Microsoft recomenda que você instale o build estável mais recente do Redis 3.0. O Gerenciador de Estatísticas versão 2.0 foi testado com o Redis 3.2.100. 
   
-1. Baixe Redis do seguinte site: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) . 
+1. Baixe Redis do seguinte site: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     
     Instaladores não assinados podem ser baixados de [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
@@ -112,7 +112,7 @@ Instale o serviço Ouvinte no computador host executando o StatsManPerfAgentList
     
 Para validar a instalação, execute as seguintes etapas:
   
-1. Abra um navegador e navegue até https://localhost: \<service-port\> /healthcheck/
+1. Abra um navegador e navegue até https://localhost:\<service-port\>/healthcheck/
     
     Por padrão, a porta de serviço é 8443 (a menos que você especifique outra porta).
     
@@ -126,7 +126,7 @@ Para validar a instalação, execute as seguintes etapas:
     
 ### <a name="install-the-website"></a>Instalar o site
 
-Instale o site no computador host executando o StatsManWebSite.msi (incluído no Skype for Business Server, Real-Time Gerenciador de Estatísticas [(64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)e especificando o seguinte:
+Instale o Site no computador host executando o StatsManWebSite.msi (incluído no [Skype for Business Server, Real-Time Gerenciador de Estatísticas (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)) e especificando o seguinte:
   
 1. Revise o Contrato de Licença e, se concordar, selecione **Aceito** os termos no contrato de licença e clique em **Próximo**. 
     
@@ -140,9 +140,9 @@ Instale o site no computador host executando o StatsManWebSite.msi (incluído no
     
 3. Clique em **Instalar**.
     
-Para exibir o Site, abra um navegador e navegue até: http://localhost ,webport \> /.
+Para exibir o Site, abra um navegador e navegue até: http://localhost,webport\>/.
   
-Para exibir apenas informações de saúde, abra um navegador e navegue até: http://localhost: \<webport\> /healthcheck/.
+Para exibir apenas informações de saúde, abra um navegador e navegue até: http://localhost:\<webport\>/healthcheck/.
   
 Por padrão, o número da porta da Web é 8080. Você pode alterar a associação de porta do site usando o gerenciador do IIS.
   
@@ -160,7 +160,7 @@ Instale um Agente em cada Skype for Business Server que você deseja monitorar e
     
    - **URI de serviço:** Este é o URI onde o Ouvinte reside. Ele deve usar o https://name:port formato.
     
-     Você pode usar um nome NETBIOS ou um FQDN. Você pode usar o nome que  também é especificado como Subject ou **Subject Alternative Names** do certificado no serviço Ouvinte, mas isso não é um requisito.
+     Você pode usar um nome NETBIOS ou um FQDN. Você pode usar o nome que também é especificado como Subject ou  **Subject Alternative Names** do certificado no serviço Ouvinte, mas isso não é um requisito.
     
    - **Impressão digital do serviço:** Esta é a impressão digital do certificado SSL que o Ouvinte está usando. O Agente usará essa impressão digital para se autenticar no Ouvinte. (Ele não fará a validação completa do certificado porque é possível usar certificados auto-assinados.)
     
@@ -243,7 +243,7 @@ Se um Agente falhar ao iniciar, verifique o seguinte:
     
     1. Certifique-se de seguir as instruções para importar a topologia. Consulte [Importar a topologia](deploy.md#BKMK_ImportTopology).
         
-    2. Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós em um cluster AlwaysOn do SQL), você precisará adicionar o Agente manualmente seguindo as instruções em Importar a [topologia](deploy.md#BKMK_ImportTopology).
+    2. Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós em um cluster AlwaysOn do SQL), você precisará adicionar o Agente manualmente seguindo as instruções em [Importar a topologia](deploy.md#BKMK_ImportTopology).
     
 - O Agente pode entrar em contato com o Ouvinte?
     
@@ -280,19 +280,19 @@ A Microsoft recomenda que você use um certificado assinado por uma autoridade d
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. Digite  `certlm.msc` . Isso abrirá o Gerenciador de Certificados para o computador local.
+2. Digite  `certlm.msc`. Isso abrirá o Gerenciador de Certificados para o computador local.
     
-3. Navegue **até Personal** e abra **Certificados.**
+3. Navegue **até Pessoal** e abra **Certificados**.
     
-4. Clique com o botão **direito do mouse em StatsManListener - Todas as \> Tarefas- Gerenciar Chaves \> Privadas...**
+4. Clique com o botão **direito do mouse em StatsManListener-All\> Tasks-Manage\> Private Keys...**
     
 5. Clique em **Adicionar**.
     
-6. Na caixa **Inserir os nomes de objeto a ser selecionado,** digite o seguinte: Serviço de Rede
+6. Na caixa **Inserir os nomes de objeto a ser selecionado** , digite o seguinte: Serviço de Rede
     
 7. Clique em **OK**.
     
-8. Em **Controle Total,** descon marque a **caixa de seleção** Permitir. (Somente acesso de leitura é necessário.)
+8. Em **Controle Total**, descon marque a **caixa de seleção** Permitir. (Somente acesso de leitura é necessário.)
     
 9. Clique em **OK**.
     

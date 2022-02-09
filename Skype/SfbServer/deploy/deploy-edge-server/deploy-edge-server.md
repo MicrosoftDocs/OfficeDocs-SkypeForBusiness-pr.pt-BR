@@ -1,8 +1,8 @@
 ---
 title: Implantar o Servidor de Borda Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Resumo: saiba como implantar um Servidor de Borda ou um pool de Borda em seu Skype for Business Server ambiente.'
-ms.openlocfilehash: a555f0d083c03466f874c9796664137f8189b017
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7841e773e70368bef0bf8a9c34c3a9b3d494ce35
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850464"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410604"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Implantar o Servidor de Borda Skype for Business Server
  
@@ -32,7 +32,7 @@ Por que implantar um Servidor de Borda ou um pool de Borda em seu Skype for Busi
 
 Conforme mencionado acima, muito entra em uma implantação do Servidor de Borda para Skype for Business Server. Esta lista de verificação fornece uma visão geral das tarefas que você precisará executar e links para etapas mais detalhadas.
   
-Esperamos que você tenha começado na seção [Planejar implantações](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) do Servidor de Borda Skype for Business Server. Caso não seja, muitas das coisas a que nos referimos são detalhadas lá. A seção implantação contém apenas procedimentos, portanto, se você quiser saber o raciocínio por trás dessas etapas, o planejamento é o local para começar.
+Esperamos que você tenha começado na seção [Planejar implantações do Servidor](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) de Borda Skype for Business Server. Caso não seja, muitas das coisas a que nos referimos são detalhadas lá. A seção implantação contém apenas procedimentos, portanto, se você quiser saber o raciocínio por trás dessas etapas, o planejamento é o local para começar.
   
 Esta documentação também presume que você já concluiu a Implantação Básica do Skype for Business Server. Você pode estar fazendo essa implantação lado a lado com a Borda, mas precisa seguir essas etapas primeiro e, em seguida, poderá fazer as alterações de topologia para a Borda documentada aqui.
   

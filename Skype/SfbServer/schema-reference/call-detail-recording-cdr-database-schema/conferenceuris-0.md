@@ -1,8 +1,8 @@
 ---
 title: Exibição ConferenceUris
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: A exibição ConfernceUris armazena informações sobre as URIs que participaram de sessões de conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 6bbcc35c19688b320df8a57447aab4dda64bf4ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: eff8b509d65917da8826f47acd6509e4cadedcc8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843654"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417494"
 ---
 # <a name="conferenceuris-view"></a>Exibição ConferenceUris
  
 A exibição ConfernceUris armazena informações sobre as URIs que participaram de sessões de conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
-|**Column**|**Tipo de dados**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |ConferenceUriId  <br/> |int  <br/> |Número exclusivo que identifica o URI da conferência.  <br/> |
 |ConferenceUri  <br/> |nvarchar(450)  <br/> |URI da conferência.  <br/> |

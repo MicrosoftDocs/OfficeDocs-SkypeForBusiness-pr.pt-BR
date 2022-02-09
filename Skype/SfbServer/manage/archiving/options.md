@@ -1,8 +1,8 @@
 ---
 title: Gerenciar opções de arquivamento em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 'Resumo: saiba como configurar opções de arquivamento para Skype for Business Server.'
-ms.openlocfilehash: d382cd829a9db8472df286580f6bd5d4b3baf036
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e3e8ab30a3abc10104a23a12b9bc5b75829c32a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856768"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411664"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Gerenciar opções de arquivamento em Skype for Business Server
 
@@ -55,11 +55,11 @@ Você pode configurar opções de arquivamento usando o Painel de Controle da se
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
     
-3. Na barra de navegação esquerda, clique em **Configuração de Arquivamento.**
+3. Na barra de navegação esquerda, clique em **Configuração de Arquivamento**.
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Configurar opções de arquivamento usando Windows PowerShell
 
-Você também pode configurar opções de arquivamento usando os cmdlets de Windows PowerShell listados na tabela a seguir. Para obter detalhes sobre sintaxe, incluindo todos os parâmetros disponíveis, [consulte Skype for Business Server Management Shell](../management-shell.md).
+Você também pode configurar opções de arquivamento usando os cmdlets de Windows PowerShell listados na tabela a seguir. Para obter detalhes sobre sintaxe, incluindo todos os parâmetros disponíveis, [consulte Skype for Business Server Shell de Gerenciamento](../management-shell.md).
   
 
 |**Cmdlet**|**Descrição**|

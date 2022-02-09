@@ -5,8 +5,8 @@ ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este artigo descreve como configurar intervalos de porta e uma política de Qualidade de Serviço para seus servidores de Conferência, Aplicativo e Mediação.
-ms.openlocfilehash: 9dfa3e7ccb5b69cd112911f700528cc6fc484d89
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ea7e150824ff3816c99a26bb92c165e9b237b5fe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856658"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410754"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configurando intervalos de porta e uma política de Qualidade de Serviço para seus servidores de Conferência, Aplicativo e Mediação
 
@@ -32,7 +32,7 @@ Para implementar a Qualidade de Serviço, você deve configurar intervalos de po
 
 De forma semelhante, imagine que você reserva as portas de 10000 a 10999 para vídeo e, em seguida, reserva as portas de 10500 a 11999 para áudio. Isso pode gerar problemas na Qualidade do serviço porque os intervalos de porta se sobrepõem. Com a QoS, cada modalidade deve ter um conjunto exclusivo de portas: se você usar as portas 10000 a 10999 para vídeo, então você terá que usar um intervalo diferente (por exemplo, 11000 a 11999, para áudio).
 
-Por padrão, os intervalos de porta de áudio e vídeo não se sobrepõem Skype for Business Server; no entanto, os intervalos de porta atribuídos ao compartilhamento de aplicativos se sobrepõem aos intervalos de porta de áudio e vídeo. (O que, por sua vez, significa que nenhum desses intervalos é exclusivo.) Você pode verificar os intervalos de porta existentes para seus servidores de Conferência, Aplicativo e Mediação executando os três comandos a seguir no Shell de Gerenciamento Skype for Business Server:
+Por padrão, os intervalos de porta de áudio e vídeo não se sobrepõem ao Skype for Business Server; no entanto, os intervalos de porta atribuídos ao compartilhamento de aplicativos se sobrepõem aos intervalos de porta de áudio e vídeo. (O que, por sua vez, significa que nenhum desses intervalos é exclusivo.) Você pode verificar os intervalos de porta existentes para seus servidores de Conferência, Aplicativo e Mediação executando os três comandos a seguir no Shell de Gerenciamento Skype for Business Server:
 
   Get-CsService -ConferencingServer | Select-Object Identidade, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
@@ -120,19 +120,19 @@ No entanto, restringir simplesmente um conjunto de portas para um tipo de tráfe
 
 As políticas de Qualidade de Serviço são criadas e gerenciadas com mais facilidade usando a Política de Grupo. (Essas mesmas políticas podem também ser criadas usando políticas de segurança local. No entanto, isso exige que você repita o mesmo procedimento em cada computador.) Seu conjunto inicial de políticas de QoS (uma para áudio e outra para vídeo Skype for Business Server) deve ser aplicada somente a computadores que executam o servidor de conferência, servidor de aplicativos e/ou serviços de servidor de Mediação. Se todos esses computadores estão localizados na mesma UO do Active Directory, você pode simplesmente atribuir o novo objeto de Política de Grupo (GPO) a essa OU. Como alternativa, você pode fazer outro procedimento para abordar a nova política para os computadores especificados; por exemplo, você pode colocar os computadores apropriados em um grupo de segurança, depois usar a filtragem de segurança de Política de Grupo para aplicar a GPO apenas a esse grupo de segurança.
 
-Para criar uma política de Qualidade de Serviço para gerenciar áudio, faça logoff em um computador onde o Gerenciamento de Política de Grupo foi instalado. Abra o Gerenciamento de Política de Grupo (clique em **Iniciar**, aponte para Ferramentas Administrativas **e** clique em Gerenciamento de Política de **Grupo)** e conclua o seguinte procedimento:
+Para criar uma política de Qualidade de Serviço para gerenciar áudio, faça logoff em um computador onde o Gerenciamento de Política de Grupo foi instalado. Abra o Gerenciamento de Política de Grupo (clique em **Iniciar**, aponte para Ferramentas Administrativas e clique em Gerenciamento de Política de **Grupo**) e conclua o seguinte procedimento:
 
 1.  No Gerenciamento de Política de Grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os seus computadores Skype for Business Server estão localizados em uma UO chamada Skype for Business Server, a nova política deve ser criada na UO Skype for Business Server.
 
 2.  Clique com o botão direito do mouse no contêiner apropriado e clique em **Criar um GPO neste domínio e vincule-o aqui**.
 
-3.  Na caixa de diálogo Novo **GPO,** digite um nome  para o novo objeto de Política de Grupo na caixa Nome (por exemplo, **Skype for Business Server QoS**) e clique em **OK**.
+3.  Na caixa **de diálogo Novo GPO**, digite um nome para o novo objeto de Política de Grupo  na caixa Nome (por exemplo, Skype for Business Server **QoS**) e clique em **OK**.
 
 4.  Clique com o botão direito do mouse na política recém-criada e clique em **Editar**.
 
 5.  No Editor de Gerenciamento de Política de Grupo, expanda **Configuração do computador**, expanda **Políticas**, expanda **Configurações do Windows**, clique com o botão direito em **QoS baseado em política**, e depois clique em **Criar nova política**.
 
-6.  Na caixa **de diálogo QoS** baseada em política, na página de abertura, digite um nome para a nova política (por exemplo, **Skype for Business Server QoS**) na caixa **Nome.** Selecione **Especificar valor de DSCP** e defina o valor como **46**. Deixe a opção **Especificar Taxa de Aceleração de Saída** desmarcada e clique em **Avançar**.
+6.  Na caixa **de diálogo QoS** baseada em política, na página de abertura, digite um nome para a nova política (por exemplo, **Skype for Business Server QoS**) na **caixa Nome.** Selecione **Especificar valor de DSCP** e defina o valor como **46**. Deixe a opção **Especificar Taxa de Aceleração de Saída** desmarcada e clique em **Avançar**.
 
 7.  Na próxima página, certifique-se de que **Todos os aplicativos** estão selecionados e clique em **Próximo**. Isso garante que todos os aplicativos compararão os pacotes da porta especificada com o código DSCP especificado.
 
@@ -155,11 +155,11 @@ Depois de criar a política QoS para tráfego de áudio, crie uma segunda polít
 
 Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, deverá criar uma terceira política, fazendo as seguintes substituições:
 
-  - Use um nome de política diferente (e exclusivo) (por exemplo, **Skype for Business Server Compartilhamento de Aplicativo).**
+  - Use um nome de política diferente (e exclusivo) (por exemplo, **Skype for Business Server Compartilhamento de Aplicativos**).
 
   - Defina o valor do DSCP como **24** em vez de 46 (novamente, não é necessário usar o valor 24 para o DSCP. O único requisito é usar para o compartilhamento de aplicativos um valor de DSCP diferente do valor usado para áudio e vídeo).
 
-  - Use o intervalo de portas configurado anteriormente para tráfego de vídeo. Por exemplo, se você tiver reservado as portas 40803 a 49151 para compartilhamento de aplicativos, de definir o intervalo de portas como este: **40803:49151**.
+  - Use o intervalo de portas configurado anteriormente para tráfego de vídeo. Por exemplo, se você reservou as portas 40803 a 49151 para compartilhamento de aplicativos, de definir o intervalo de portas como este: **40803:49151**.
 
 As novas políticas criadas não terão efeito até que a Política de Grupo seja atualizada em seus computadores Skype for Business Server de grupo. Embora a Política de Grupo seja atualizada periodicamente sozinha, você pode forçar uma atualização imediata executando o comando a seguir em cada computador em que for necessário atualizar a Política de Grupo:
 
@@ -173,7 +173,7 @@ Para verificar se as novas políticas de QoS foram aplicadas, faça o seguinte:
 
 2.  Na caixa **de diálogo** Executar, digite **regedit** e pressione ENTER.
 
-3.  No Editor de Registro, expanda **Computador,** **expanda HKEY \_ LOCAL \_ MACHINE,** expanda **SOFTWARE,** expanda **Políticas,** **Microsoft,** **expanda** Windows e clique em **QoS**. Em **QoS**, você deverá ver chaves de registro para cada política de QoS criada. Por exemplo, se você criou duas novas políticas (uma chamada Skype for Business Server QoS de áudio e outra chamada QoS de vídeo Skype for Business Server), você deverá ver entradas do Registro para Skype for Business Server QoS de Áudio e Skype for Business Server Video QoS.
+3.  No Editor de Registro, expanda **Computador**, **expanda HKEYLOCALMACHINE\_\_**, **expanda SOFTWARE****,** Expanda Políticas, **Microsoft****, expanda** Windows e clique em **QoS**. Em **QoS**, você deverá ver chaves de registro para cada política de QoS criada. Por exemplo, se você criou duas novas políticas (uma chamada Skype for Business Server QoS de áudio e outra chamada QoS de vídeo Skype for Business Server), você deverá ver entradas de registro para Skype for Business Server QoS de áudio e Skype for Business Server QoS de vídeo.
 
 Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP correto, você também deve criar uma nova entrada de registro em cada computador, concluindo o procedimento a seguir:
 
@@ -181,7 +181,7 @@ Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP c
 
 2.  Na caixa **de diálogo** Executar, digite **regedit** e pressione ENTER.
 
-3.  No Editor do Registro, **expanda HKEY \_ LOCAL \_ MACHINE,** **expanda SYSTEM,** **expanda CurrentControlSet,** expanda **serviços** e **expanda Tcpip**.
+3.  No Editor do Registro, **expanda HKEYLOCALMACHINE\_\_**, expanda **SYSTEM**, **CurrentControlSet**, expanda **serviços** e **expanda Tcpip**.
 
 4.  Clique com o botão direito em **Tcpip**, aponte para **Novo** e clique em **Chave**. Depois que a nova chave do Registro for criada, digite **QoS** e pressione ENTER para renomear a chave.
 

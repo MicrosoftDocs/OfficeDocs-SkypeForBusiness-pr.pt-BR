@@ -1,8 +1,8 @@
 ---
 title: Gerenciar configurações do Serviço Web em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 'Resumo: Gerencie as configurações do Serviço Web Skype for Business Server.'
-ms.openlocfilehash: 006b2b80514c3902c7ce27e212fd451aea9921b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 29f3c3a4aae8a444c9d247b39d6c3fdfcd4b1c9a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847384"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411644"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações do Serviço Web em Skype for Business Server
  
@@ -36,13 +36,13 @@ Siga estas etapas para criar uma nova política de Serviço Web.
     
 3. Na barra de navegação esquerda, clique em **Segurança** e em **Serviço Web**.
     
-4. Na página **Serviço Web,** clique em **Novo** e, em seguida, faça um dos seguintes:
+4. Na página **Serviço Web** , clique em **Novo** e faça um dos seguintes:
     
-   - Para configurar o Serviço Web para um site, clique em **Configuração do site**. Em **Selecionar um Site,** clique no site ao qual a política de Serviço Web será aplicada a um site e clique em **OK**.
+   - Para configurar o Serviço Web para um site, clique em **Configuração do site**. Em **Selecionar um Site**, clique no site ao qual a política de Serviço Web será aplicada a um site e clique em **OK**.
     
-   - Para configurar o Serviço Web para um pool, clique em **Configuração do pool**. Em **Selecionar um Serviço,** clique no serviço ao qual a política de Serviço Web será aplicada e clique em **OK**. 
+   - Para configurar o Serviço Web para um pool, clique em **Configuração do pool**. Em **Selecionar um Serviço**, clique no serviço ao qual a política de Serviço Web será aplicada e clique em **OK**. 
     
-5. Em **Nova Configuração do Serviço Web**, em **Autenticação Windows** integrada, selecione **Negociar,** **Autenticação** Windows integrada ou **Nenhum**.
+5. Em **Nova Configuração do Serviço Web**, em **Autenticação Windows,** selecione **Negociar**, **Autenticação Windows integrada** ou **Nenhum**.
     
 6. Selecione uma ou mais das seguintes opções, dependendo dos recursos dos clientes do e suporte em seu ambiente:
     
@@ -102,7 +102,7 @@ Siga estas etapas para excluir as configurações do serviço Web.
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Excluir a Configuração do Serviço Web Configurações usando Windows PowerShell Cmdlets
 
-Você pode excluir as configurações do serviço Web usando o Windows PowerShell e o cmdlet **Remove-CsWebServiceConfiguration.** Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
+Você pode excluir as configurações do serviço Web usando o Windows PowerShell e o cmdlet **Remove-CsWebServiceConfiguration**. Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Administração do Microsoft Lync Remote PowerShell](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Para excluir um conjunto específico de definições de configuração do serviço da Web
 

@@ -1,8 +1,8 @@
 ---
 title: Implantar Enterprise Voice no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Resumo: saiba como implantar o Enterprise Voice para Skype for Business Server em um site central.'
-ms.openlocfilehash: 4073850d9583e5bd28d573ad73b0acdaaca0943f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a1d8452524a7de116866b8e27b2d8288321ce727
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833817"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417284"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implantar Enterprise Voice no Skype for Business Server
 
 **Resumo:** Saiba como implantar o Enterprise Voice para Skype for Business Server em um site central.
 
-Use este tópico para implantar Enterprise Voice em um site central. Para implantar Enterprise Voice em um site de filial, pule para [Deploying Branch Sites](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites).
+Use este tópico para implantar Enterprise Voice em um site central. Para implantar Enterprise Voice em um site de filial, pule para [Implantar Sites de Filial](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites).
 
 Esta seção inclui procedimentos para implantações nas quais um Servidor de Mediação é alocado em cada Servidor front-end ou servidor Edição Standard, conforme recomendado, e também para implantações com um pool de Servidor de Mediação autônomo. Você pode ignorar o conteúdo a seguir se você usou o Construtor de Topologias para definir e publicar uma topologia que coloca um Servidor de Mediação em cada Servidor de Front-End ou servidor Edição Standard, pois o Assistente de Implantação já instalou automaticamente os arquivos para o Servidor de Mediação quando você instalou arquivos para o pool do Servidor front-end ou Edição Standard servidor:
 ## <a name="in-this-section"></a>Nesta seção

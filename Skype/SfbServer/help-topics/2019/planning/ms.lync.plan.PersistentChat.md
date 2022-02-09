@@ -1,8 +1,8 @@
 ---
 title: Chat Persistente (Ferramenta de Planejamento)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: O Servidor de Chat Persistente permite que os usuários participem de conversas baseadas em vários tópicos que persistem ao longo do tempo.
-ms.openlocfilehash: 19c42173aeb415c8cb4df7559d9e804bd426710b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3dd3a889f9cf72e391efee7396e248e4e3670fc2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849174"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411994"
 ---
 # <a name="persistent-chat-planning-tool"></a>Chat Persistente (Ferramenta de Planejamento)
 

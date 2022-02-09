@@ -1,8 +1,8 @@
 ---
 title: Publicar alterações pendentes na configuração de roteamento de voz Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 'Resumo: saiba como revisar, publicar ou cancelar alterações de configuração de roteamento de voz no Skype for Business Server usando o painel de controle Skype for Business Server de controle.'
-ms.openlocfilehash: e0ffa60557623eb217f7f43a61cad7b2e0923c77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 278bc5820ba35580232bb3ef3d73bf9e23c640a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856278"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418194"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publicar alterações pendentes na configuração de roteamento de voz Skype for Business
  
 **Resumo:** Saiba como revisar, publicar ou cancelar alterações de configuração de roteamento de voz Skype for Business Server usando o painel de controle Skype for Business Server voz.
   
-Depois de fazer alterações em qualquer uma das  configurações em páginas no grupo Roteamento de Voz, execute este procedimento para revisar, publicar ou cancelar as alterações pendentes.
+Depois de fazer alterações em qualquer uma das configurações em páginas no grupo Roteamento de Voz, execute este procedimento para revisar, publicar ou cancelar as alterações pendentes.
   
 > [!IMPORTANT]
 > Certifique-se de que apenas um usuário por vez modifica as configurações de Roteamento de Voz. 
   
 > [!NOTE]
-> Todas as alterações pendentes devem ser publicadas ao mesmo tempo executando o **comando Commit all.** Não é possível publicar seletivamente as alterações pendentes. Antes de publicar alterações pendentes, execute o comando **Revisar** alterações nãocommitidas e cancele as alterações de configuração que você não deseja publicar.
+> Todas as alterações pendentes devem ser publicadas ao mesmo tempo executando o **comando Commit all** . Não é possível publicar seletivamente as alterações pendentes. Antes de publicar alterações pendentes, execute o comando **Revisar** alterações nãocommitidas e cancele as alterações de configuração que você não deseja publicar.
   
 > [!NOTE]
 > Se você navegar para longe das páginas no grupo **Roteamento** de Voz antes de cometer alterações pendentes, todas as alterações pendentes serão perdidas. No entanto, você pode exportar a configuração atual (incluindo quaisquer alterações pendentes) para um arquivo de configuração de voz e, em seguida, importar e publicar a configuração atualizada. Para obter detalhes, [consulte Export or import a voice route configuration file in Skype for Business](voice-route-configuration-import-export.md). 
@@ -48,17 +48,17 @@ Depois de fazer alterações em qualquer uma das  configurações em páginas no
     
 4. Faça as alterações de configuração que você deseja para as configurações em cada página do grupo **roteamento de** voz.
     
-5. Para revisar as alterações pendentes sem publicá-las, selecione **Revisar** alterações não comprometidas no menu **Confirmação.**
+5. Para revisar as alterações pendentes sem publicá-las, selecione **Revisar** alterações não comprometidas no menu **Confirmação** .
     
 6. Se você quiser cancelar qualquer uma das alterações pendentes, faça um dos seguintes:
     
-   - Selecione **Cancelar todas as alterações não comprometidas** no menu **Confirmação.**
+   - Selecione **Cancelar todas as alterações não comprometidas** no menu **Confirmação** .
     
-   - Navegue até a  guia da página Roteamento de Voz que tem alterações pendentes que você deseja cancelar, selecione o item com as alterações pendentes, clique em Confirmação **e** clique em Cancelar alterações **selecionadas.**
+   - Navegue até a guia da  página Roteamento de Voz que tem alterações pendentes que você deseja cancelar, selecione o item com as alterações pendentes, clique em Confirmação e clique em Cancelar alterações **selecionadas**.
     
-7. Depois de revisar todas as alterações pendentes e cancelar qualquer uma que não queira publicar, clique em Confirmação **e** clique em **Comprometer tudo.**
+7. Depois de revisar todas as alterações pendentes e cancelar qualquer uma que não queira publicar, clique em Confirmação e clique em **Confirma tudo**.
     
-8. Na caixa **de diálogo Configuração** de Voz Não Configurações, que exibe uma lista de todas as alterações pendentes, clique em **OK**. 
+8. Na caixa **de diálogo Configuração de Voz Não Configurações**, que exibe uma lista de todas as alterações pendentes, clique em **OK**. 
     
     Quando Skype for Business Server Painel de Controle tiver comprometido as alterações, a mensagem **de** configuração de roteamento de voz publicada com êxito será exibida.
     

@@ -1,7 +1,7 @@
 ---
 title: Relatório de uso de dispositivos do Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Saiba como usar o relatório Teams uso do dispositivo no centro de 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6795ef120c8e382fcdb2125e128083180bdc98d6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f3d7960f0543c3c15733b4c1a77179fc4571a0f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835979"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418324"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Relatório de uso de dispositivos do Microsoft Teams
 
@@ -30,7 +30,7 @@ O Teams de uso do dispositivo no centro de administração Microsoft Teams forne
 
 ## <a name="view-the-device-usage-report"></a>Exibir o relatório de uso do dispositivo
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, clique **em Análise & relatórios** de  >  **uso.** Na guia **Exibir relatórios,** em **Relatório**, selecione **Teams uso do dispositivo**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Análise & relatóriosusuário** > . Na guia **Exibir relatórios**, em **Relatório**, selecione Teams **uso do dispositivo**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.
 
     ![Captura de tela do relatório Teams uso do dispositivo no centro de administração Teams com explicações explicativas.](../media/teams-reports-device-usage-with-callouts.png "Captura de tela do relatório Teams uso do dispositivo no centro de administração Teams com callouts")
@@ -41,19 +41,19 @@ O Teams de uso do dispositivo no centro de administração Microsoft Teams forne
 |--------|-------------|
 |**1**   |O Teams de uso do dispositivo pode ser exibido para tendências nos últimos 7 ou 30 dias.  |
 |**2**   |Cada relatório tem uma data para quando o relatório foi gerado. Os relatórios geralmente refletem uma latência de 24 horas do tempo de atividade. |
-|**3**   |<ul><li>O eixo X no gráfico representa os diferentes dispositivos (**Windows,** **Mac,** **Linux**, **iOS,** **Android Telefone**, **Web**) usados para se conectar a Teams. </li><li>O eixo Y é o número de usuários que usam o dispositivo durante o período de tempo selecionado.</li> </ul>Passe o mouse sobre a barra que representa um dispositivo para ver o número de usuários que usam o dispositivo para se conectar Teams.|
-|**4**   |A tabela fornece uma divisão do uso do dispositivo pelo usuário. <ul><li>**Nome** de usuário é o nome de exibição do usuário. Você pode clicar no nome de exibição para ir para a página de configuração do usuário no Microsoft Teams de administração. </li><li>**Windows** é selecionado se o usuário estava ativo no Teams da área de trabalho em um computador Windows baseado em computador.</li><li>**Mac** estará selecionado se o usuário estiver ativo no cliente de desktop do Teams em um computador com macOS. </li> <li>**O Linux** é selecionado se o usuário estava ativo no Teams da área de trabalho em um computador Linux. </li> <li>**iOS** estará selecionado se o usuário estiver ativo no cliente do Mobile Teams para iOS.</li><li>**O telefone Android** será selecionado se o usuário estiver ativo no cliente Teams celular para Android. <li><li>**Web** estará selecionado se o usuário estiver ativo no cliente Web do Teams. <li>**A última** atividade é a última data (UTC) que o usuário participou de uma atividade Teams.</li> </ul> Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
+|**3**   |<ul><li>O eixo X no gráfico representa os diferentes dispositivos (**Windows**, **Mac**, **Linux**, **iOS**, **Android Telefone**, **Web**) usados para se conectar ao Teams. </li><li>O eixo Y é o número de usuários que usam o dispositivo durante o período de tempo selecionado.</li> </ul>Passe o mouse sobre a barra que representa um dispositivo para ver o número de usuários que usam o dispositivo para se conectar Teams.|
+|**4**   |A tabela fornece uma divisão do uso do dispositivo pelo usuário. <ul><li>**Nome** de usuário é o nome de exibição do usuário. Você pode clicar no nome de exibição para ir para a página de configuração do usuário no Microsoft Teams de administração. </li><li>**Windows** está selecionado se o usuário estava ativo no Teams de área de trabalho em um computador Windows baseado em computador.</li><li>**Mac** estará selecionado se o usuário estiver ativo no cliente de desktop do Teams em um computador com macOS. </li> <li>**O Linux** é selecionado se o usuário estava ativo no Teams da área de trabalho em um computador Linux. </li> <li>**iOS** estará selecionado se o usuário estiver ativo no cliente do Mobile Teams para iOS.</li><li>**O telefone Android** será selecionado se o usuário estiver ativo no cliente Teams celular para Android. <li><li>**Web** estará selecionado se o usuário estiver ativo no cliente Web do Teams. <li>**A última** atividade é a última data (UTC) que o usuário participou de uma atividade Teams.</li> </ul> Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela. |
-|**6**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique **em Exportar para Excel** e, na guia **Downloads,** clique em **Baixar** para baixar o relatório quando estiver pronto.<br><br>![Captura de tela da guia Downloads mostrando relatórios exportados.](../media/teams-reports-export-to-csv.png)|
+|**6**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique **em Exportar para Excel** e, na guia **Downloads**, clique em **Baixar** para baixar o relatório quando estiver pronto.<br><br>![Captura de tela da guia Downloads mostrando relatórios exportados.](../media/teams-reports-export-to-csv.png)|
 
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Tornar os dados específicos do usuário anônimos
 
 Para tornar os dados no Teams de uso do dispositivo anônimo, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e AAD ID no relatório e sua exportação.
 
-1. Em Centro de administração do Microsoft 365, vá para **a** Configurações \> **Org Configurações** e, em **Serviços,** escolha **Relatórios**.
+1. Em Centro de administração do Microsoft 365, vá **para a Configurações** \> **Org Configurações** e, em **Serviços**, escolha **Relatórios**.
     
-2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos.** Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como Teams centro de administração.
+2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos**. Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como Teams centro de administração.
   
 3. Selecione **Salvar alterações**.
 

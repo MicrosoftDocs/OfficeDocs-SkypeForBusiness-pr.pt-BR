@@ -1,8 +1,8 @@
 ---
 title: Relatório de resumo de atividades ponto a ponto no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Resumo: saiba mais sobre o Relatório de Resumo de Atividades Ponto a Ponto no Skype for Business Server.'
-ms.openlocfilehash: 876d12b74fa34d745a7e94d31ecc19997f337e40
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3db7a69bb0460337e56ee7e4ce43d4c1ce4b240e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831985"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411544"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Relatório de resumo de atividades ponto a ponto no Skype for Business Server
  
@@ -35,7 +35,7 @@ O Relatório de Resumo de Atividade Ponto a Ponto ajuda você a responder pergun
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Acessando o Relatório de Resumo de Atividade Ponto a Ponto
 
-O Relatório de Resumo de Atividade Ponto a Ponto é acessado a partir da página inicial de Relatórios de Monitoramento. Você abre o [Relatório de IM](im-report.md) Ponto a Ponto no Skype for Business Server clicando em uma das seguintes métricas:
+O Relatório de Resumo de Atividade Ponto a Ponto é acessado a partir da página inicial de Relatórios de Monitoramento. Você abre o [Relatório de IM Ponto a](im-report.md) Ponto no Skype for Business Server clicando em uma das seguintes métricas:
   
 - Total de sessões de mensagens instantâneas ponto a ponto
     
@@ -63,7 +63,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
   
 **Filtros do Relatório de Resumos de Atividades Ponto a Ponto**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data e hora de início para o intervalo de tempo. Para exibir os dados por horas, digite a data e a hora de início da seguinte maneira:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data e hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -75,7 +75,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumos de 
   
 **Métricas do Relatório de Resumos de Atividades Ponto a Ponto**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**A cada hora** <br/> **Diariamente** <br/> **Semanalmente** <br/> **Mensal** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado na barra de ferramentas de filtro. Quando aplicável, é possível clicar em um determinado intervalo de tempo para exibir informações detalhadas desse intervalo. Por exemplo, se você estiver usando o intervalo Diário e clicar em 17/07/12015, verá uma divisão por hora da atividade de registro do usuário para essa data.  <br/> |
 |**Total de sessões ponto a ponto** <br/> |Não  <br/> |Número total de sessões ponto a ponto conduzidas, independentemente do tipo de sessão.  <br/> |

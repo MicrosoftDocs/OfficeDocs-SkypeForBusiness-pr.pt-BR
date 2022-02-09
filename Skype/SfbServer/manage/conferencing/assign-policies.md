@@ -1,8 +1,8 @@
 ---
 title: Atribuir políticas de conferência em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Resumo: saiba como atribuir políticas de conferência em Skype for Business Server.'
-ms.openlocfilehash: 27ebe61329a77b81730bea2bdfe59235560c569a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe8483abe2a581668b5f5463f588b051e40c7771
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835349"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399735"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Atribuir políticas de conferência em Skype for Business Server
  
 **Resumo:** Saiba como atribuir políticas de conferência em Skype for Business Server.
   
-Você pode atribuir políticas de conferência aos usuários usando Skype for Business Server Shell de Gerenciamento e o cmdlet **Grant-CsConferencingPolicy.**
+Você pode atribuir políticas de conferência aos usuários usando o Shell de Gerenciamento Skype for Business Server e o cmdlet **Grant-CsConferencingPolicy**.
   
 ## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Atribuir políticas de conferência usando o Shell de Gerenciamento Skype for Business Server Gerenciamento
 

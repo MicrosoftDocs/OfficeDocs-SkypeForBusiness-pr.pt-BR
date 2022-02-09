@@ -1,8 +1,8 @@
 ---
 title: Teste - Site Nó de Escopo Raiz do Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra um dos sites definidos na sua topologia. É possível realizar as seguintes ações:'
-ms.openlocfilehash: 687797e0c994bbdc721d46ef375a70c6d14ee287
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 287787184877c21ce023c731915e33f0809ddb9f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853385"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411874"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Teste - Site Nó de Escopo Raiz do Skype for Business Server
  

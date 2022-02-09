@@ -1,8 +1,8 @@
 ---
 title: Configurar Skype for Business Server usar o armazenamento unificado de contatos
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Resumo: Configure o armazenamento unificado de contatos para Exchange Server e Skype for Business Server.'
-ms.openlocfilehash: ed28f57350e2ce1d7ed5f92d712bdf5ecc7f3de4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 41065b6df0e1d313ca986bef7be6bbd1609ab04a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853665"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417214"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar Skype for Business Server usar o armazenamento unificado de contatos
  
@@ -28,11 +28,11 @@ ms.locfileid: "60853665"
 Usando o armazenamento unificado de contatos, os usuários mantêm uma única lista de contatos e, em seguida, têm esses contatos disponíveis em vários aplicativos, incluindo Skype for Business, Microsoft Outlook 2013 e Microsoft Outlook Web App 2013. Quando você habilita o armazenamento unificado de contatos para um usuário, os contatos desse usuário não são armazenados Skype for Business Server e recuperados conforme necessário. Em vez disso, seus contatos são armazenados no Exchange Server 2016 ou Exchange Server 2013 e são recuperados usando Exchange Web Services.
   
 > [!NOTE]
-> Tecnicamente, as informações de contato são armazenadas em um par de pastas encontradas na caixa de correio Exchange usuário. Os contatos em si são armazenados em uma pasta chamada Skype for Business Contatos que fica visível para os usuários finais; os metadados sobre os contatos são armazenados em uma subpasta que não está visível para os usuários finais. 
+> Tecnicamente, as informações de contato são armazenadas em um par de pastas encontradas na caixa de correio Exchange usuário. Os próprios contatos são armazenados em uma pasta chamada Skype for Business Contatos que fica visível para os usuários finais; os metadados sobre os contatos são armazenados em uma subpasta que não está visível para os usuários finais. 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>Habilitando o repositório unificado de contatos para um usuário
 
-Se a autenticação de servidor para servidor entre Skype for Business Server e Exchange Server já estiver configurada, você também habilitará o armazenamento unificado de contatos; nenhuma configuração adicional do servidor é necessária. No entanto, será necessária configuração adicional da conta do usuário para transferir os contatos de um usuário para o repositório unificado de contatos. Por padrão, os contatos do usuário são mantidos Skype for Business Server e não no armazenamento unificado de contatos.
+Se a autenticação de servidor para servidor entre Skype for Business Server e Exchange Server já estiver configurada, você também habilitará o armazenamento unificado de contatos; nenhuma configuração adicional do servidor será necessária. No entanto, será necessária configuração adicional da conta do usuário para transferir os contatos de um usuário para o repositório unificado de contatos. Por padrão, os contatos do usuário são mantidos Skype for Business Server e não no armazenamento unificado de contatos.
   
 O acesso ao armazenamento unificado de contatos é gerenciado usando Skype for Business Server de serviços de usuário. As políticas de serviços de usuário têm uma única propriedade (UcsAllowed), que é usada para determinar o local onde os contatos de um usuário são armazenados. Se um usuário for gerenciado por uma política de serviços de usuário na qual UcsAllowed foi definido como True ($True), os contatos do usuário serão armazenados no armazenamento unificado de contatos. Se o usuário for gerenciado por uma política de serviços de usuário na qual UcsAllowed foi definido como False ($False), seus contatos serão armazenados em Skype for Business Server.
   
@@ -64,7 +64,7 @@ Você pode verificar se os contatos de um usuário foram migrados com êxito par
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Se Test-CsUnifiedContactStore tiver êxito, isso significa que os contatos do usuário sip:kenmyer@ <span></span> litwareinc .com foram migrados para o armazenamento <span></span> unificado de contatos.
+Se Test-CsUnifiedContactStore tiver êxito, isso significa que os contatos do usuário sip:kenmyer@<span></span>litwareinc.com<span></span> foram migrados para o armazenamento unificado de contatos.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>Revertendo o repositório unificado de contatos
 

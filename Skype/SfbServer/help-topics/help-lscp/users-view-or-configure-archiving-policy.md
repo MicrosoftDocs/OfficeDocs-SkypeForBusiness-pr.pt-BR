@@ -1,8 +1,8 @@
 ---
 title: Exibição ou Configuração de Política de Arquivamento de Usuários
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 7aef5ab88493de0001f10ea2a227727cdbe38b40
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 79f83ad087bba7bb04da2536cdc50880eb18b6e6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857708"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418774"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Usuários: Exibir ou Configurar Política de Arquivamento
 

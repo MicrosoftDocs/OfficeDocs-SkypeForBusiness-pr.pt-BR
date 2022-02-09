@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações CMS
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: O Servidor Central de Gerenciamento pode ser alterado de um pool de Front-Ends definido para outro pool de Front-Ends definido. Para alterar o local do Servidor Central de Gerenciamento, selecione na lista suspensa o pool de Front-Ends em Servidor Front-End no qual instalar o Servidor Central de Gerenciamento. Um Servidor Front-End pode ser um pool de Front-Ends Enterprise Edition ou um Servidor Front-End Standard Edition.
-ms.openlocfilehash: 9f8866420bd4309a908c77150378529605cd0016
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9db00a4ad8e8e3b15a60b9e04760d991233a5901
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830195"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416704"
 ---
 # <a name="cms-settings-expander"></a>Expansor de Configurações CMS
  

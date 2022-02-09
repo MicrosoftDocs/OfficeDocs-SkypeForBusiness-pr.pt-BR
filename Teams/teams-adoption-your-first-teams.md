@@ -1,7 +1,7 @@
 ---
 title: Criar suas primeiras equipes no Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 332c106ca8f3ea881bbef95805c1228a6687cc65
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c26890031279a64cba650d2ec926faaff09f043f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832975"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418334"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Criar suas primeiras equipes no Microsoft Teams
 
@@ -38,7 +38,7 @@ A melhor maneira de impulsionar a adoção de Teams é usar o produto. Recomenda
 | Microsoft Teams Implementação | Geral <br/> Conscientização e adoção <br/> Business Engagement <br/> Programa De adoção Antecipado <br/> Comentários e Insights <br/> Segurança e Conformidade <br/> Estratégia e Planejamento <br/> Saúde do Serviço e Incidentes <br/> Treinamento <br/> Watercooler Chat |
 | Campeões do Trabalho em Equipe | Geral <br/> Práticas Recomendadas, Treinamento e Como Fazer <br/> Canto do Campeão <br/> Feedback e Suporte <br/> Leads do programa <br/> Social Hub |
 
-Dentro Microsoft Teams, a [](/microsoftteams/platform/concepts/tabs/tabs-overview) galeria de guias oferece acesso a todos os aplicativos Microsoft 365 ou Office 365 e de terceiros que foram aados pelo administrador. Para obter o maior valor do seu produto, sugerimos fixar os recursos principais como guias em cada um dos canais apropriados. Consulte o exemplo abaixo.
+Dentro Microsoft Teams, a galeria de [](/microsoftteams/platform/concepts/tabs/tabs-overview) guias oferece acesso a todos os aplicativos Microsoft 365 ou Office 365 e de terceiros que foram aados pelo administrador. Para obter o maior valor do seu produto, sugerimos fixar os recursos principais como guias em cada um dos canais apropriados. Consulte o exemplo abaixo.
 
 ![Captura de tela mostrando guias padrão e personalizadas.](media/teams-adoption-tab-example.png)
 

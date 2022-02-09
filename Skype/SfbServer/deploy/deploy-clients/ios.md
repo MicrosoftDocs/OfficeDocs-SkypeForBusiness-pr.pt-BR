@@ -1,7 +1,7 @@
 ---
 title: Instalar e testar Skype for Business iOS
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Resumo: como instalar e testar o Skype for Business para aplicativo iOS.'
-ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a485893e1433e3c1f45377acd11526a9396e85cc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843524"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417314"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Instalar e testar Skype for Business iOS
  
@@ -27,9 +27,9 @@ O Skype for Business para iOS traz Skype for Business presença, mensagens insta
   
 ## <a name="installing-skype-for-business-for-ios"></a>Instalando Skype for Business para iOS
 
-1. Em seu dispositivo iOS, toque em **App Store** e pesquise Skype for Business **para iOS.**
+1. Em seu dispositivo iOS, toque em **App Store** e procure Skype for Business **para iOS**.
     
-2. Toque **em Baixar**  >  **Abrir**. 
+2. Toque **em** **DownloadOpen** > . 
     
 3. Entre no aplicativo.
     

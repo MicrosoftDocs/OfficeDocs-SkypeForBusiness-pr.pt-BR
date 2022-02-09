@@ -1,8 +1,8 @@
 ---
 title: Exibição de usuários ou Configurar Plano de Discagem
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 3c7277d02aedef8d17cc65858fa65989cc76496a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7271dbf0876184c7f3d3d8b29cc487213845180a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861498"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418714"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Usuários: Exibir ou Configurar Plano de Discagem
 

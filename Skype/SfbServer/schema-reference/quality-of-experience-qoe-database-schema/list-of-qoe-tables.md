@@ -1,8 +1,8 @@
 ---
 title: Lista de tabelas QoE
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: O esquema de banco de dados consiste nas tabelas a seguir.
-ms.openlocfilehash: 7b97746b3f8a490da7fb06d903ca6f7676f2d6b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac00cc41ede9e9a78e6b9a4d811496f4bc17faed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849584"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62420844"
 ---
 # <a name="list-of-qoe-tables"></a>Lista de tabelas QoE
  

@@ -1,8 +1,8 @@
 ---
 title: Uso do modelo de usuário de planejamento de capacidade para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Este artigo fornece orientações sobre quantos servidores você precisa em um site para o número de usuários nesse site, de acordo com o uso descrito em Modelos de usuário em Skype for Business Server.
-ms.openlocfilehash: 145e790c0f6c7ceeaa7330c0cd48ad68bc15b331
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b661c08e15d2de66f213d7deba02a6c162cb7fa6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846354"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418444"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Uso do modelo de usuário de planejamento de capacidade para Skype for Business Server
 
-Este artigo fornece orientações sobre quantos servidores você precisa em um site para o número de usuários nesse site, de acordo com o uso descrito em Modelos de usuário [em Skype for Business Server](user-models.md).
+Este artigo fornece orientações sobre quantos servidores você precisa em um site para o número de usuários [nesse](user-models.md) site, de acordo com o uso descrito em Modelos de usuário em Skype for Business Server.
 
 > [!NOTE]
 > Todas as recomendações neste artigo pressuem que você tenha instalado Skype for Business Atualização Cumulativa, novembro de 2015 ou posterior em seus servidores.
@@ -47,19 +47,19 @@ A tabela a seguir resume nossas recomendações.
 |Função de servidor|Número máximo de usuários suportados|
 |:-----|:-----|
 |Pool de Front-End com doze Servidores Front-End e um Servidor Back-End ou um par espelhado de Servidores Back-End.   |80.000 usuários exclusivos conectados simultaneamente, mais 50% de vários pontos de presença (MPOP) que representam instâncias não móveis, além de 40% dos usuários habilitados para Mobilidade para um total de 152.000 pontos de extremidade.   |
-|Conferência A/V   |O serviço de Conferência A/V fornecido por um pool de Front-End dá suporte às conferências do pool supondo um tamanho máximo de conferência de 250 usuários e apenas uma conferência tão grande em execução por vez.  <br/> **Observação:** Além disso, você pode dar suporte a grandes conferências entre 250 e 1000 usuários implantando um pool de Front-End separado com dois Servidores Front-End para hospedar as grandes conferências. Para obter detalhes, [consulte Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).   |
+|Conferência A/V   |O serviço de Conferência A/V fornecido por um pool de Front-End dá suporte às conferências do pool supondo um tamanho máximo de conferência de 250 usuários e apenas uma conferência tão grande em execução por vez.  <br/> **Observação:** Além disso, você pode dar suporte a grandes conferências entre 250 e 1000 usuários implantando um pool de Front-End separado com dois Servidores Front-End para hospedar as grandes conferências. Para obter detalhes, consulte [Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).   |
 |Um Servidor de Borda   |12.000 usuários remotos simultâneos.   |
 |Um Diretor   |12.000 usuários remotos simultâneos.   |
 |Monitoramento e arquivamento   |Os serviços front-end de Monitoramento e Arquivamento são executados em cada Servidor Front-End, em vez de em funções de servidor separadas.  <br/> O monitoramento e o arquivamento ainda exigem seus próprios armazenamentos de banco de dados. Se você também executar o Exchange 2013 ou posterior, poderá manter seus dados de arquivamento em Exchange, em vez de em um banco de dados SQL dedicado.   |
 |Um Servidor de Mediação   |O Servidor de Mediação alocado com o Servidor Front-End é executado em todos os Servidores Front-End em um pool e deve fornecer capacidade suficiente para os usuários no pool. Para o Servidor de Mediação autônomo, consulte a seção "Servidor de Mediação" posteriormente neste tópico.   |
-|Um servidor Standard Edition   |Recomendamos que, se você usar servidores Edição Standard para hospedar usuários, sempre use dois servidores, emparelhados usando as recomendações em Planejamento para Alta Disponibilidade e Recuperação [de Desastres.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Cada servidor no par pode hospedar até 2.500 usuários e, se um servidor falhar, o servidor restante poderá suportar 5.000 usuários em um cenário de failover.  <br/>  Se sua implantação incluir uma quantidade significativa de tráfego de áudio ou vídeo, o desempenho do servidor poderá sofrer com mais de 2.500 usuários por servidor. Nesse caso, você deve considerar adicionar mais servidores Edição Standard ou mover para Skype for Business Server Edição Enterprise.  |
+|Um servidor Standard Edition   |Recomendamos que, se você usar servidores Edição Standard para hospedar usuários, sempre use dois servidores, emparelhados usando as recomendações em Planejamento para Alta Disponibilidade e Recuperação [de Desastres](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery). Cada servidor no par pode hospedar até 2.500 usuários e, se um servidor falhar, o servidor restante poderá suportar 5.000 usuários em um cenário de failover.  <br/>  Se sua implantação incluir uma quantidade significativa de tráfego de áudio ou vídeo, o desempenho do servidor poderá sofrer com mais de 2.500 usuários por servidor. Nesse caso, você deve considerar adicionar mais servidores Edição Standard ou mover para Skype for Business Server Edição Enterprise.  |
 
 ## <a name="front-end-server"></a>Servidor Front-End
 
 > [!NOTE]
 > Pools estendidos não são suportados para essa função de servidor.
 
-Em um pool de Front-End, você deve ter um Servidor De Front-End para cada 6.660 usuários em seu pool, supondo que o hiper threading está habilitado em todos os servidores do pool e que o hardware do servidor atende às recomendações nos requisitos do servidor para o [Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) ou requisitos do [sistema para Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). O número máximo de usuários em um pool de Front-End é de 80.000, novamente supondo que o hiper threading está habilitado em todos os servidores em seu pool. Se houver mais de 80.000 usuários em um site, é possível implantar mais de um pool de Front End.
+Em um pool de Front-End, você deve ter um Servidor De Front-End para cada 6.660 usuários em seu pool, supondo que o hyper-threading está habilitado em todos os servidores do pool e que o hardware do servidor atende às recomendações em Requisitos de servidor para o [Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) ou requisitos do [sistema para Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). O número máximo de usuários em um pool de Front-End é de 80.000, novamente supondo que o hiper threading está habilitado em todos os servidores em seu pool. Se houver mais de 80.000 usuários em um site, é possível implantar mais de um pool de Front End.
 
 Quando você conta para o número de usuários em um pool de Front-End, inclui todos os usuários que estão em casa em Aparelhos de Filial E Servidores de Filial Desaviváveis em filiais associadas a esse pool de Front-End.
 
@@ -69,7 +69,7 @@ Se, em vez disso, você tiver começado com seis Servidores Front-End para seus 
 
 O número máximo de usuários em um pool de Front End é 80.000. O número máximo de Servidores Front-End em um pool é 12.
 
-Para um pool de Front-End com 80.000 usuários, doze Servidores Front-End serão bons para o desempenho, em implantações típicas que seguem os modelos de usuário em [Skype for Business Server](user-models.md). As implantações projetadas para dar suporte ao failover de recuperação de desastres pressupom que um máximo de 40.000 usuários podem ser hospedados em cada um dos dois pools front-end emparelhados, nos quais cada pool tem Servidores Front-End suficientes para conter os usuários em ambos os pools, caso um pool precise ser reprovado para o outro.
+Para um pool de Front-End com 80.000 usuários, doze Servidores Front-End serão bons para o desempenho, em implantações típicas que seguem os modelos de usuário em [Skype for Business Server.](user-models.md) As implantações projetadas para dar suporte ao failover de recuperação de desastres pressupom que um máximo de 40.000 usuários podem ser hospedados em cada um dos dois pools front-end emparelhados, nos quais cada pool tem Servidores Front-End suficientes para conter os usuários em ambos os pools, caso um pool precise ser reprovado para o outro.
 
 O número de usuários suportados com bom desempenho por um pool de Front-End específico pode ser diferente desses números pelos seguintes motivos:
 
@@ -77,14 +77,14 @@ O número de usuários suportados com bom desempenho por um pool de Front-End es
 
 - O uso da sua organização é muito diferente dos modelos de usuário, por exemplo, se você tiver muito mais tráfego de conferência.
 
-A tabela a seguir mostra a largura de banda média para IM e presença, dado o modelo de usuário, conforme definido em Modelos de [usuário em Skype for Business Server](user-models.md).
+A tabela a seguir mostra a largura de banda média para IM e presença, dado o modelo de usuário, conforme definido em [Modelos de usuário em Skype for Business Server](user-models.md).
 
 |Largura de banda média por usuário|Requisitos de largura de banda por Servidor Front-End com 6.660 usuários|
 |:-----|:-----|
 |1.3 Kpbs   |13 Mbps   |
 
 > [!NOTE]
-> Para melhorar o desempenho de mídia da funcionalidade do Servidor de Conferência e Mediação A/V em seus Servidores Front-End, você deve habilitar o RSS (dimensionamento do lado de recebimento) nos adaptadores de rede em seus Servidores Front-End. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, [consulte Receive Side Scaling (RSS) na documentação Windows Server 2012 .](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Para obter detalhes sobre como habilitar o RSS, você precisará consultar a documentação do adaptador de rede.
+> Para melhorar o desempenho de mídia da funcionalidade do Servidor de Conferência e Mediação A/V em seus Servidores Front-End, você deve habilitar o RSS (dimensionamento do lado de recebimento) nos adaptadores de rede em seus Servidores Front-End. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, [consulte Receive Side Scaling (RSS) na documentação Windows Server 2012 de recebimento](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). Para obter detalhes sobre como habilitar o RSS, você precisará consultar a documentação do adaptador de rede.
 
 ## <a name="conferencing-maximums"></a>Máximos de Conferência
 
@@ -103,19 +103,19 @@ Se sua organização tiver muito mais conferências de modo misto do que são pr
 > [!NOTE]
 > Pools estendidos não são suportados para essa função de servidor.
 
-Você deve implantar um Servidor de Borda para cada 12.000 usuários remotos que acessarão um site simultaneamente. São recomendados no mínimo dois Servidores de Borda para alta disponibilidade. Essas recomendações pressuem que o hardware para seus Servidores de Borda atende às recomendações em [Plataformas de Hardware do Servidor.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+Você deve implantar um Servidor de Borda para cada 12.000 usuários remotos que acessarão um site simultaneamente. São recomendados no mínimo dois Servidores de Borda para alta disponibilidade. Essas recomendações pressuem que o hardware para seus Servidores de Borda atende às recomendações em [Plataformas de Hardware do Servidor](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 Ao contar o número de usuários para os Servidores de Borda, inclua os usuários hospedados em Aparelhos de Filial Persistente e Servidores de Filial Persistente em filiais associadas a um pool de Front End pool neste local.
 
 > [!NOTE]
-> Para aprimorar o desempenho do serviço de Borda de Conferência A/V em seus Servidores de Borda, você deve habilitar o receive-side scaling (RSS) nos adaptadores de rede em seus Servidores de Borda. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, verifique " Escala do[lado de recebimento (RSS) no Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". Para obter detalhes sobre como habilitar o RSS, você precisará consultar a documentação do adaptador de rede.
+> Para aprimorar o desempenho do serviço de Borda de Conferência A/V em seus Servidores de Borda, você deve habilitar o receive-side scaling (RSS) nos adaptadores de rede em seus Servidores de Borda. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, verifique "[Dimensionamento do Lado de Recebimento (RSS) no Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". Para obter detalhes sobre como habilitar o RSS, você precisará consultar a documentação do adaptador de rede.
 
 ## <a name="director"></a>Diretor
 
 > [!NOTE]
 > Pools estendidos não são suportados para essa função de servidor.
 
-Se você implantar a função de servidor Diretor, recomendamos implantar um Diretor para cada 12.000 usuários remotos que acessarão um site simultaneamente. São recomendados no mínimo dois Diretores para alta disponibilidade. Essas recomendações pressuem que o hardware para seus Servidores de Borda atende às recomendações em [Plataformas de Hardware do Servidor.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+Se você implantar a função de servidor Diretor, recomendamos implantar um Diretor para cada 12.000 usuários remotos que acessarão um site simultaneamente. São recomendados no mínimo dois Diretores para alta disponibilidade. Essas recomendações pressuem que o hardware para seus Servidores de Borda atende às recomendações em [Plataformas de Hardware do Servidor](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 Ao contar o número de usuários para os Diretores, inclua os usuários hospedados em Aparelhos de Filial Persistente e Servidores de Filial Persistente em filiais associadas a um pool de Front End pool neste local.
 
@@ -128,15 +128,15 @@ Se você colocar o Servidor de Mediação com o Servidor de Front-End, o Servido
 
 Se você implantar um pool de Servidor de Mediação autônomo, quantos Servidores de Mediação implantar dependerão de muitos fatores, incluindo o hardware usado para o Servidor de Mediação, o número de usuários VoIP que você tem, o número de pares de gateway que cada pool do Servidor de Mediação controla, o tráfego de horas de ocupado por esses gateways e a porcentagem de chamadas com mídia que ignora o Servidor de Mediação.
 
-As tabelas a seguir fornecem uma diretriz para quantas chamadas simultâneas um Servidor de Mediação pode manipular, supondo que o hardware para os Servidores de Mediação atenda aos requisitos em [Plataformas](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) de Hardware do Servidor e que o hiper threading está habilitado. Para obter detalhes sobre a escalabilidade do Servidor de Mediação, consulte [Estimando](estimating-voice-traffic.md) o uso e o tráfego de voz para Skype for Business Server e diretrizes de implantação para o Servidor de [Mediação em Skype for Business Server](mediation-server-deployment-guidelines.md).
+As tabelas a seguir fornecem uma diretriz para quantas chamadas simultâneas um Servidor de Mediação pode manipular, supondo que o hardware para os Servidores de Mediação atenda aos [requisitos em Plataformas de Hardware](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) do Servidor e que o hiper threading está habilitado. Para obter detalhes sobre a escalabilidade do Servidor de Mediação, consulte [Estimando](estimating-voice-traffic.md) o uso de voz e o tráfego para Skype for Business Server e diretrizes de implantação para o Servidor de Mediação [no Skype for Business Server](mediation-server-deployment-guidelines.md).
 
-Todas as tabelas a seguir pressuem o uso como resumido em [Modelos de usuário em Skype for Business Server](user-models.md).
+Todas as tabelas a seguir assumem o uso como resumido em [modelos de usuário em Skype for Business Server](user-models.md).
 
 **Capacidade do Servidor de Mediação Autônomo: 70% Usuários Internos, 30% Usuários externos com capacidade de chamada não ignorada (transcodificação de mídia executada pelo Servidor de Mediação)**
 
 |Hardware de servidor|Número máximo de chamadas|Número máximo de linhas T1|Número máximo de linhas E1|
 |:-----|:-----|:-----|:-----|
-|Processador duplo, núcleo hexagonar, CPU hiper threaded de 2,26 GHz com hiper **threading** desabilitado , com memória de 32 GB e uma placa de adaptador de rede de porta dupla.   |1100   |46   |35   |
+|Processador duplo, hex core, CPU hiper threaded de 2,26 GHz com hiper **threading** desabilitado, com memória de 32 GB e uma placa de adaptador de rede de porta dupla.   |1100   |46   |35   |
 |Processador duplo, hex core, CPU hiper threaded de 2,26 GHz, com memória de 32 GB e uma placa adaptador de rede de porta dupla.   |1500   |63   |47   |
 
 > [!NOTE]
@@ -152,11 +152,11 @@ Todas as tabelas a seguir pressuem o uso como resumido em [Modelos de usuário e
 > Esse número é muito menor do que os números do Servidor de Mediação autônomo. Isso porque o Servidor front-end precisa lidar com outros recursos e funções para os 6600 usuários que estão nele, além da transcodificação necessária para chamadas de voz.
 
 > [!NOTE]
-> Para melhorar o desempenho do Servidor de Mediação, você deve habilitar o RSS (dimensionamento do lado de recebimento) nos adaptadores de rede em seus Servidores de Mediação. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "[Escala do lado](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))do recebimento no Windows Server 2012 ". Para obter detalhes sobre como habilitar o RSS, você precisará consultar a documentação do adaptador de rede.
+> Para melhorar o desempenho do Servidor de Mediação, você deve habilitar o RSS (dimensionamento do lado de recebimento) nos adaptadores de rede em seus Servidores de Mediação. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "[Dimensionamento do lado do recebimento no Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". Para obter detalhes sobre como habilitar o RSS, você precisará consultar a documentação do adaptador de rede.
 
 ## <a name="back-end-server"></a>Servidor de Back-End
 
-Embora grande parte das informações do banco de dados seja armazenada principalmente nos Servidores Front-End, você deve garantir que seus Servidores Back-End atendem às recomendações de hardware listadas anteriormente nesta seção e em Plataformas de [Hardware do Servidor.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+Embora grande parte das informações do banco de dados seja armazenada principalmente nos Servidores Front-End, você deve garantir que seus Servidores Back-End atendem às recomendações de hardware listadas anteriormente nesta seção e em [Plataformas de Hardware do Servidor](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 Para fornecer alta disponibilidade do servidor back-end, recomendamos a implantação de Grupos de Disponibilidade AlwaysOn ou espelhamento de servidor. Para obter mais informações, consulte [Back End Server high availability in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 

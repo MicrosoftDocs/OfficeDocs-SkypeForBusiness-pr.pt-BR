@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo Raiz do Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/10/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: 'O nó do Lync Server lista os sites centrais em sua topologia. É possível executar as seguintes ações:'
-ms.openlocfilehash: 7045e52e64ccad38d7341c51a5adf1b0c618e85d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a5cb0ddd7bb24769e97ad894e35319d3a350c9b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847504"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410914"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nó de Escopo Raiz do Skype for Business Server
  
