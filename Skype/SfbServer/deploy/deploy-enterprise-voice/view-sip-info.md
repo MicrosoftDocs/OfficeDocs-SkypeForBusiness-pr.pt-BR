@@ -1,8 +1,8 @@
 ---
 title: Exibir informações de tronco SIP em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 'Resumo: saiba como exibir informações sobre troncos SIP em Skype for Business Server.'
-ms.openlocfilehash: cf2bf0f6cf586e80fa6b3f2ba1308ee6254ea7e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd33f9e7719802081a35ce718e7fd534ac107269
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835849"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399895"
 ---
 # <a name="skype-for-business-server-view-information-about-individual-sip-trunks"></a>Skype for Business Server: Exibir informações sobre troncos SIP individuais 
  

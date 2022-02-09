@@ -1,8 +1,8 @@
 ---
 title: Relatório de Desempenho do Servidor em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Resumo: saiba mais sobre o Relatório de Desempenho do Servidor Skype for Business Server.'
-ms.openlocfilehash: 6e13a12452fbdbf650a7e307340269803a2301b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 21bb6dbc462633d3d5620d63389b72a9b4d49a07
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836333"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396533"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Relatório de Desempenho do Servidor em Skype for Business Server
  
@@ -43,7 +43,7 @@ O Relatório de Desempenho do Servidor fornece uma lista de servidores Skype for
   
 ## <a name="accessing-the-server-performance-report"></a>Como avaliar o Relatório de desempenho do servidor
 
-O Relatório de desempenho do servidor é acessado a partir da página inicial dos Relatórios de Monitoramento. Você pode detalhar o Relatório de [Lista](call-list-report-0.md) de Chamada em Skype for Business Server clicando em uma das seguintes métricas:
+O Relatório de desempenho do servidor é acessado a partir da página inicial dos Relatórios de Monitoramento. Você pode detalhar o [Relatório](call-list-report-0.md) de Lista de Skype for Business Server clicando em uma das seguintes métricas:
   
 - Volume da chamada
     
@@ -65,7 +65,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
   
 **Filtros do Relatório de Desempenho do Servidor**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
@@ -81,9 +81,9 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
   
 **Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de áudio**
 
-|**Nome**|**É possível classificar por**|**Descrição**|
+|**Name**|**É possível classificar por**|**Descrição**|
 |:-----|:-----|:-----|
-|**Servidor** <br/> |Não  <br/> |Nome/endereço IP do servidor.  <br/> |
+|**Server** <br/> |Não  <br/> |Nome/endereço IP do servidor.  <br/> |
 |**Volume de chamadas** <br/> |Não  <br/> |Número total de chamadas realizadas.  <br/> |
 |**Percentual de chamadas ruins** <br/> |Não  <br/> |Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).  <br/> |
 |**Viagem de ida e volta (ms)** <br/> |Sim  <br/> |Quantidade média (em milissegundos) necessária para um pacote de protocolo de transporte em tempo real (RTP) viajar para outro ponto de extremidade e voltar. Tempos de resposta de 100 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Altos valores de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
@@ -96,7 +96,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
    
 **Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de vídeo**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de Chamada/Tipo de Ponto de Extremidade** <br/> |Não  <br/> | Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem: <br/>  Chamadas Ponto a Ponto de UC <br/>  Sessões de Conferência de UC <br/>  Sessões de Conferência PSTN <br/>  Chamadas PSTN: Desvio de Mídia <br/>  Chamadas PSTN (Não Ignorar): Trecho de UC <br/>  Chamadas PSTN (Não Ignorar): Trecho de Gateway <br/>  Outros Tipos de Chamada <br/> |
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas por tipo de chamada.  <br/> |
@@ -115,7 +115,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
    
 **Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de compartilhamento de aplicativo**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Tipo de Chamada/Tipo de Ponto de Extremidade** <br/> |Não  <br/> | Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem: <br/>  Chamadas Ponto a Ponto de UC <br/>  Sessões de Conferência de UC <br/>  Sessões de Conferência PSTN <br/>  Chamadas PSTN: Desvio de Mídia <br/>  Chamadas PSTN (Não Ignorar): Trecho de UC <br/>  Chamadas PSTN (Não Ignorar): Trecho de Gateway <br/>  Outros Tipos de Chamada <br/> |
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas por tipo de chamada.  <br/> |

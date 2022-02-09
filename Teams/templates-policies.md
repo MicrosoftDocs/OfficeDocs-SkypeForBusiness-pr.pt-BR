@@ -1,7 +1,7 @@
 ---
 title: Gerenciar modelos de equipe no centro de administração
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar modelos de equipe no centro de administração
-ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766059"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401175"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gerenciar modelos de equipe no centro de administração
 
@@ -38,31 +38,31 @@ Assista a este breve vídeo para saber como gerenciar políticas de modelo.
 
 1. Entre no Centro de administração do Teams.
 
-2. Expanda **Teams**  >  **de modelos.**
+2. **Expanda Teams** >  **políticasTemplates**.
 
 3. Selecione **Adicionar**.
 
     ![As políticas de modelo são selecionadas e Add é realçada.](media/template-policies-1.png)
 
-1. Na seção **Políticas de modelos Configurações,** conclua os seguintes campos:
+1. Na seção **Políticas de Modelos Configurações**, preencha os seguintes campos:
 
     - Nome da Política de Modelos
 
     - Descrição curta da Política de Modelos
 
-2. Na tabela **Modelos Exibiveis,** selecione os modelos que você deseja ocultar e selecione **Ocultar**.
+2. Na tabela **Modelos Exibiveis** , selecione os modelos que você deseja ocultar e selecione **Ocultar**.
 
     ![Os modelos selecionados com ocultação realçada.](media/template-policies-2.png)
 
-    Você pode ver os modelos selecionados para ocultar na tabela **Modelos Ocultos.**
+    Você pode ver os modelos selecionados para ocultar na tabela **Modelos Ocultos** .
 
-1. Para desaconsule determinados modelos, role até **a tabela Modelos ocultos.**
+1. Para desaconsule determinados modelos, role até **a tabela Modelos ocultos** .
 
 2. Selecione os modelos a ser desaconsudidados e selecione **Mostrar**.
 
    ![Os modelos selecionados que não estão ocultos.](media/template-policies-3.png)
 
-   Os modelos selecionados serão exibidos na tabela **Modelos Exibiveis.**
+   Os modelos selecionados serão exibidos na tabela **Modelos Exibiveis** .
 3. Selecione **Salvar**.
 
    Sua nova política de modelo é exibida na lista **Políticas de** Modelos.
@@ -71,7 +71,7 @@ Assista a este breve vídeo para saber como gerenciar políticas de modelo.
 
 Os usuários atribuídos a uma política só poderão exibir os modelos que podem ser visualizados nessa política.
 
-1. Em **Políticas de Modelos,** selecione uma política e selecione **Gerenciar usuários**.
+1. Em **Políticas de Modelos**, selecione uma política e selecione **Gerenciar usuários**.
 
 2. Digite os usuários a atribuir a essa política.
 
@@ -117,7 +117,7 @@ R: Sim.
 
 R: No Centro de administração:
 
-1. Vá para a **seção Usuários.**
+1. Vá para a **seção Usuários** .
 2. Selecione o filtro na tabela de lista Usuários e filtre a política de modelo de equipe.
 3. Selecione **Aplicar**.
 

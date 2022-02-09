@@ -1,7 +1,7 @@
 ---
 title: Armazenamento de aplicativos personalizados
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prem
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o armazenamento de aplicativos personalizados Microsoft Teams.
-ms.openlocfilehash: b7fd39dc1d2ced74b6153f43c78fdf7557bbd206
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cabfc148edb793ac40b49950b3b92676a0c80bfa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843584"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399495"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Armazenamento de aplicativos personalizados Microsoft Teams
 
@@ -32,7 +32,7 @@ Agora você pode personalizar o armazenamento de aplicativos da sua organizaçã
 > [!Note]
 > As alterações na identidade visual exigirão 24 horas para que entre em vigor.
 
-Você pode acessar o armazenamento personalizado no centro de administração selecionando **Teams**  >  **aplicativos personalizar o armazenamento**.
+Você pode acessar o armazenamento personalizado no centro de administração selecionando **Teams** **appsCustomize** >  store.
 
   ![Recurso de personalização do armazenamento de console de administrador realçado.](media/customize-app-store.png)
 
@@ -44,9 +44,9 @@ Este artigo descreve os recursos de armazenamento de aplicativos personalizados 
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Aqui você pode carregar o logotipo da sua organização. O logotipo selecionado aparecerá no cliente Teams **aplicativos**  >  **criado para sua página de locatário.**
+Aqui você pode carregar o logotipo da sua organização. O logotipo selecionado aparecerá no cliente Teams em **AppsBuilt** >  **para sua página de locatário**.
 
-Ao selecionar **a opção Escolher uma imagem,** você pode carregar o arquivo de sua escolha. O logotipo deve ser 240x60 ou será dimensionado para esse tamanho. Não deve ser maior do que 5 MB. Os formatos com suporte são:
+Ao selecionar **a opção Escolher uma imagem** , você pode carregar o arquivo de sua escolha. O logotipo deve ser 240x60 ou será dimensionado para esse tamanho. Não deve ser maior do que 5 MB. Os formatos com suporte são:
 
 - .svg
 - .png
@@ -62,13 +62,13 @@ O logotipo é mostrado no canto superior direito do catálogo de aplicativos do 
 
 A marca de logomarca da sua organização ou logotipo pequeno é uma imagem ou símbolo que representa a marca da sua organização e não inclui o nome da sua empresa. O lovemark ajuda os membros da equipe a identificar o armazenamento de aplicativos. O logotipo selecionado aparecerá na página Teams cliente em Aplicativos.
 
-Ao selecionar **a opção Escolher uma imagem,** você pode carregar o arquivo de sua escolha. A marca de logotipo deve ter 32 x 32 pixels ou será dimensionada para esse tamanho. Não deve ser maior do que 5 MB. Os formatos com suporte são:
+Ao selecionar **a opção Escolher uma imagem** , você pode carregar o arquivo de sua escolha. A marca de logotipo deve ter 32 x 32 pixels ou será dimensionada para esse tamanho. Não deve ser maior do que 5 MB. Os formatos com suporte são:
 
 - .svg
 - .png
 - .jpg
 
-O logotipo pequeno é mostrado ao lado do título da seção **Built for tenant** na Teams de aterrissagem da loja.
+O logotipo pequeno é mostrado ao lado do título da seção **Built for tenant** na página inicial do Teams store.
 
 ## <a name="customize-the-background-color"></a>Personalizar a cor do plano de fundo
 
@@ -76,7 +76,7 @@ O logotipo pequeno é mostrado ao lado do título da seção **Built for tenant*
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Certifique-se de que o plano de fundo tenha contraste suficiente com o texto para que os usuários possam ler o texto claramente. O plano de fundo aparecerá no cliente Teams **aplicativos**  >  **criado para o** seu header de locatário.
+Certifique-se de que o plano de fundo tenha contraste suficiente com o texto para que os usuários possam ler o texto claramente. O plano de fundo aparecerá no Teams cliente em **AppsBuilt** >  **para o** seu header de locatário.
 
 Suas opções são:
 
@@ -85,7 +85,7 @@ Suas opções são:
   - .svg
   - .png
   - .jpg
-- Escolha um plano de fundo personalizado. Quando você seleciona **Escolher uma cor personalizada,** um seletor de cores é aberto. Selecione a cor que você deseja ajustando a escala do seletor de cores.
+- Escolha um plano de fundo personalizado. Quando você seleciona **Escolher uma cor personalizada**, um seletor de cores é aberto. Selecione a cor que você deseja ajustando a escala do seletor de cores.
 
 A imagem ou cor do plano de fundo é usada como o plano de fundo da faixa superior no catálogo de aplicativos Teams locatário.
 
@@ -95,9 +95,9 @@ A imagem ou cor do plano de fundo é usada como o plano de fundo da faixa superi
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Certifique-se de que a cor do texto tenha contraste suficiente com o plano de fundo para que os usuários possam ler o nome da sua organização claramente. O texto aparecerá no cliente Teams **aplicativos**  >  **criado para o** seu header de locatário.
+Certifique-se de que a cor do texto tenha contraste suficiente com o plano de fundo para que os usuários possam ler o nome da sua organização claramente. O texto aparecerá no cliente Teams **AplicativosBuilt** >  **para o seu** header de locatário.
 
-Quando você seleciona **Escolher uma cor personalizada,** um seletor de cores é aberto. Selecione a cor que você deseja ajustando a escala do seletor de cores.
+Quando você seleciona **Escolher uma cor personalizada**, um seletor de cores é aberto. Selecione a cor que você deseja ajustando a escala do seletor de cores.
 
  ![o selador de cores.](media/choose-a-custom-color.png)
 

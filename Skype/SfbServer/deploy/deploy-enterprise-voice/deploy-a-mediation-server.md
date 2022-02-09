@@ -1,8 +1,8 @@
 ---
 title: Implantar um Servidor de Mediação no Construtor de Topologias Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Resumo: saiba como definir e implantar um Servidor de Mediação no Construtor de Topologias Skype for Business Server.'
-ms.openlocfilehash: 7dd3704b47b384d3fab62a7cc051adcf5b380c0e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1e7f3b1540d6436c82e173b32252c5e9c59757da
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857028"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396043"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Implantar um Servidor de Mediação no Construtor de Topologias Skype for Business Server
  
@@ -40,7 +40,7 @@ Você pode adicionar o Servidor de Mediação como uma função alocada em um po
   
 ### <a name="to-add-a-mediation-server-to-a-front-end-pool"></a>Para adicionar um Servidor de Mediação a um pool de Front-End
 
-1. Iniciar Construtor de Topologias: **clique** em Iniciar, em Todos os **Programas,** Skype for Business Server **2015** e clique em **Skype for Business Server Construtor deTopologia 2015**.
+1. Iniciar Construtor de Topologias: clique em **Iniciar, em** Todos os **Programas, Skype for Business Server** **2015** e clique em Skype for Business Server **Construtor de 2015Topology**.
     
 2. No Construtor de Topologias, na árvore de console, expanda o nome do site para o qual você deseja definir um pool de Front-End.
     
@@ -66,30 +66,30 @@ Você pode adicionar o Servidor de Mediação como uma função alocada em um po
     > [!NOTE]
     > Antes de prosseguir para a próxima etapa do processo de implantação do Enterprise Voice, certifique-se de que o pool do Servidor de Mediação (ou seja, pool de Front-End com o componente do Servidor de Mediação alocado) está usando os FQDNs especificados. 
   
-8. Clique com o botão direito do **Skype for Business Server nó 2015** e clique **em Publicar Topologia**.
+8. Clique com o botão direito do **Skype for Business Server nó 2015** e clique em **Publicar Topologia**.
     
 ### <a name="to-add-a-standalone-mediation-server"></a>Para adicionar um Servidor de Mediação autônomo
 
-1. Iniciar Construtor de Topologias: **clique** em Iniciar, em Todos os **Programas,** Skype for Business Server **2015** e clique em **Skype for Business Server Construtor deTopologia 2015**.
+1. Iniciar Construtor de Topologias: clique em **Iniciar, em** Todos os **Programas, Skype for Business Server** **2015** e clique em Skype for Business Server **Construtor de 2015Topology**.
     
 2. No Construtor de Topologias, na árvore de console, expanda o nome do site para o qual você deseja definir um Servidor de Mediação.
     
-3. Na árvore de console, clique com o botão direito do mouse no nó **Pools de** Mediação e clique em Pool **do Servidor de Mediação**.
+3. Na árvore do console, clique com o botão direito do mouse no nó **Pools de** Mediação e clique em Pool **do Servidor de Mediação**.
     
-4. Em **Definir Novo Pool de Mediação,** digite o FQDN (nome de domínio totalmente qualificado) do pool do Servidor de Mediação.
+4. Em **Definir Novo Pool de Mediação**, digite o FQDN (nome de domínio totalmente qualificado) do pool do Servidor de Mediação.
     
 5. Em seguida, siga um destes procedimentos:
     
-   - Se você deseja implantar vários Servidores de Mediação no pool para fornecer alta disponibilidade, selecione **Pool de vários computadores.**
+   - Se você quiser implantar vários Servidores de Mediação no pool para fornecer alta disponibilidade, selecione **Pool de vários computadores**.
     
      > [!NOTE]
      > Você deve [implantar para](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) dar suporte a pools de Servidor de Mediação que tenham vários Servidores de Mediação.
   
-   - Se você deseja implantar apenas um Servidor de Mediação no pool porque não exige alta disponibilidade, selecione **Pool de computador único**. Ignore a etapa seguinte.
+   - Se você quiser implantar apenas um Servidor de Mediação no pool porque não exige alta disponibilidade, selecione **Pool de computador único**. Ignore a etapa seguinte.
     
 6. Se você selecionou **Pool de Vários Computadores** na etapa anterior, no item **Definir os computadores neste pool**, clique em **FQDN do Computador**, digite o FQDN de cada servidor no pool e clique em **Adicionar**. Repita esta etapa para todos os outros Servidores de Mediação que você deseja adicionar ao pool. Quando tiver definido todos os computadores no pool, clique em **Avançar**.
     
-7. Na página **Selecionar o próximo** salto, clique em Pool de próximo **salto,** clique no FQDN do pool de Front-End que usará esse pool do Servidor de Mediação e clique em **Próximo**.
+7. Na página **Selecionar o próximo** salto, clique em Pool de próximo **salto**, clique no FQDN do pool de Front-End que usará esse pool do Servidor de Mediação e clique em **Próximo**.
     
 8. Na página **Selecionar um Servidor de Borda**, execute um destes procedimentos:
     
@@ -97,7 +97,7 @@ Você pode adicionar o Servidor de Mediação como uma função alocada em um po
     
    - Se você não planeja habilitar usuários externos para Enterprise Voice ou se não quiser fornecer conectividade PSTN aos usuários quando eles estão fora da rede interna, clique em **Próximo**.
     
-9. Clique com o botão direito do **Skype for Business Server nó 2015** e clique **em Publicar Topologia**.
+9. Clique com o botão direito do **Skype for Business Server nó 2015** e clique em **Publicar Topologia**.
     
 ## <a name="define-the-mediation-server-listening-ports"></a>Definir as portas de escuta do servidor de mediação
 
@@ -105,7 +105,7 @@ Siga as etapas deste tópico para usar o Construtor de Topologias para definir a
   
 ### <a name="to-modify-the-mediation-server-listening-ports"></a>Para modificar as portas de escuta do servidor de mediação
 
-1. Iniciar Construtor de Topologias: **clique** em Iniciar, em Todos os **Programas,** Skype for Business Server **2015** e clique em **Skype for Business Server Construtor deTopologia 2015**.
+1. Iniciar Construtor de Topologias: clique em **Iniciar, em** Todos os **Programas, Skype for Business Server** **2015** e clique em Skype for Business Server **Construtor de 2015Topology**.
     
 2. No Construtor de Topologias, na árvore de console, expanda o nó **Pools de** Mediação e clique com o botão direito do mouse no Servidor de Mediação criado anteriormente.
     

@@ -1,8 +1,8 @@
 ---
 title: Serviços de Domínio do Active Directory para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Os Serviços de Domínio do Active Directory funcionam como o serviço de diretório para redes Windows Server 2003, Windows Server 2008, Windows Server 2012 e Windows Server 2012 R2. Os Serviços de Domínio do Active Directory também servem como a base na qual a Skype for Business Server de segurança é criada. O objetivo desta seção é descrever como o Skype for Business Server usa os Serviços de Domínio do Active Directory para criar um ambiente confiável para mensagens de IM, Webconferência, mídia e voz. Para obter detalhes sobre como preparar seu ambiente para Os Serviços de Domínio do Active Directory, consulte Install Skype for Business Server na documentação implantação. Para obter detalhes sobre a função dos Serviços de Domínio Active Directory em redes do Windows Server, consulte a documentação da versão do sistema operacional que você está usando.
-ms.openlocfilehash: a96d2691513ae98195856f717b338a98e589a28e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d0b537aa862923c6354a80425a8727734b05c039
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859008"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401715"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Serviços de Domínio do Active Directory para Skype for Business Server
  
@@ -42,7 +42,7 @@ Os requisitos de infraestrutura do Active Directory incluem o seguinte:
     
 - Requisitos de domínio do catálogo global
     
-Para obter detalhes, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md).
+Para obter detalhes, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ## <a name="universal-groups"></a>Grupos universais
 
@@ -61,7 +61,7 @@ Para obter detalhes sobre os grupos universais específicos criados ao preparar 
   
 ## <a name="role-based-access-control"></a>Controle de Acesso Baseado em Função
 
-Além de criar grupos universais de serviço e administração e adicionar grupos de serviço e administração aos grupos universais apropriados, a preparação da floresta também cria grupos Role-Based Controle de Acesso (RBAC). Para obter detalhes sobre os grupos RBAC específicos criados pela preparação da floresta, consulte Alterações feitas pela preparação da floresta [Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) na documentação de implantação. Para obter mais informações sobre grupos RBAC, consulte Controle de acesso baseado em função [(RBAC) para Skype for Business Server](role-based-access-control-rbac.md).
+Além de criar grupos universais de serviço e administração e adicionar grupos de serviço e administração aos grupos universais apropriados, a preparação da floresta também cria grupos Role-Based Controle de Acesso (RBAC). Para obter detalhes sobre os grupos RBAC específicos criados pela preparação da floresta, consulte [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in the Deployment documentation. Para obter mais informações sobre grupos RBAC, consulte Controle de acesso baseado em função [(RBAC) para Skype for Business Server](role-based-access-control-rbac.md).
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>Entradas de Controle de Acesso (ACEs) e herança
 
@@ -69,7 +69,7 @@ A preparação de floresta cria ACEs particulares e públicas e adiciona as ACEs
   
 A etapa de preparação do domínio adiciona ACEs (entradas de controle de acesso) a grupos universais que concedem permissões para hospedar e gerenciar usuários dentro do domínio. A preparação de domínio cria ACEs na raiz do domínio e três contêineres internos: Usuários, Computadores e Controladores de Domínio.
   
-Para obter detalhes sobre as ACEs públicas criadas e adicionadas pela preparação da floresta e pela preparação do domínio, consulte Alterações feitas pela preparação da floresta no [Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) e Alterações feitas pela preparação do domínio [no Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) na documentação de implantação.
+Para obter detalhes sobre as ACEs públicas criadas e adicionadas pela preparação da floresta e pela preparação do domínio, consulte Alterações feitas pela preparação da floresta no [Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) e Alterações feitas pela preparação do domínio [em Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) na documentação de implantação.
   
 As organizações geralmente bloqueiam o AD DS (Serviços de Domínio Active Directory) para ajudar a atenuar os riscos de segurança. No entanto, um ambiente bloqueado do Active Directory pode limitar as permissões que Skype for Business Server requer. Isso pode incluir a remoção das ACEs de contêineres e OUs e a desabilitação da herança de permissões nos objetos User, Contact, InetOrgPerson ou Computer. Em um ambiente bloqueado do Active Directory, as permissões devem ser definidas manualmente em contêineres e UOs que necessitam deles.
   
@@ -85,11 +85,11 @@ Durante a ativação, Skype for Business Server publica informações do servido
     
 ## <a name="service-connection-points"></a>Pontos de conexão de serviço
 
-Cada Skype for Business Server no Active Directory Domain Services tem um SCP chamado RTC Services, que, por sua vez, contém uma série de atributos que identificam cada computador e especificam os serviços que ele fornece. Entre os atributos SCP mais importantes estão  *serviceDNSName*  , *serviceDNSNameType,* *serviceClassname*  e *serviceBindingInformation*  . Os aplicativos de gerenciamento de ativos de terceiros podem recuperar informações do servidor em uma implantação consultando nesses e em outros atributos do SCP.
+Cada Skype for Business Server no Active Directory Domain Services tem um SCP chamado RTC Services, que, por sua vez, contém uma série de atributos que identificam cada computador e especificam os serviços que ele fornece. Entre os atributos SCP mais importantes estão  *serviceDNSName*  , *serviceDNSNameType*  , *serviceClassname*  e *serviceBindingInformation*  . Os aplicativos de gerenciamento de ativos de terceiros podem recuperar informações do servidor em uma implantação consultando nesses e em outros atributos do SCP.
   
 ## <a name="active-directory-server-objects"></a>Objetos de servidor do Active Directory
 
-Cada Skype for Business Server de servidor tem um objeto Active Directory correspondente cujos atributos definem os serviços fornecidos por essa função. Além disso, quando um servidor Edição Standard é ativado ou quando um pool Edição Enterprise é criado, o Skype for Business Server cria um novo **objeto msRTCSIP-Pool** no contêiner **msRTCSIP-Pools.** A classe **msRTCSIP-Pool** especifica o FQDN (nome de domínio totalmente qualificado) do pool, juntamente com a associação entre os componentes de front-end e back-end do pool. (Um servidor Standard Edition é considerado um pool lógico cujos front-end e back-end são colocados em um único computador.)
+Cada Skype for Business Server de servidor tem um objeto Active Directory correspondente cujos atributos definem os serviços fornecidos por essa função. Além disso, quando um servidor Edição Standard é ativado ou quando um pool Edição Enterprise é criado, o Skype for Business Server cria um novo **objeto msRTCSIP-Pool** no contêiner **msRTCSIP-Pools**. A classe **msRTCSIP-Pool** especifica o FQDN (nome de domínio totalmente qualificado) do pool, juntamente com a associação entre os componentes de front-end e back-end do pool. (Um servidor Standard Edition é considerado um pool lógico cujos front-end e back-end são colocados em um único computador.)
   
 ## <a name="trusted-servers"></a>Servidores confiáveis
 
@@ -97,11 +97,11 @@ Em Skype for Business Server, os servidores confiáveis são os especificados qu
   
 - O FQDN do servidor ocorre na topologia armazenada no repositório de Gerenciamento Central.
     
-- O servidor apresenta um certificado válido de uma CA confiável. Para obter detalhes, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or System requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md).
+- O servidor apresenta um certificado válido de uma CA confiável. Para obter detalhes, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [System requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
     
 Quando um dos seguintes critérios está ausente, o servidor não é confiável e a conexão com ele é recusada. Esse requisito duplo impede um possível, se improvável, ataque no qual um servidor desonesto tenta assumir o FQDN de um servidor válido.
   
-Além disso, para habilitar Microsoft Office implantações do Microsoft Office Communications Server 2007 R2 e do Microsoft Office Communications Server 2007 para se comunicar com servidores Skype for Business Server, o Skype for Business Server cria contêineres durante a floresta preparação para manter listas de servidores confiáveis para versões anteriores. A tabela a seguir descreve os contêineres criados para permitir a compatibilidade com implementações anteriores.
+Além disso, para habilitar as implantações do Microsoft Office Communications Server 2007 R2 e Microsoft Office Communications Server 2007 para se comunicar com servidores Skype for Business Server, Skype for Business Server  cria contêineres durante a preparação da floresta para manter listas de servidores confiáveis para versões anteriores. A tabela a seguir descreve os contêineres criados para permitir a compatibilidade com implementações anteriores.
   
 **Listas de servidores confiáveis e seus contêineres do Active Directory para compatibilidade com versões anteriores**
 

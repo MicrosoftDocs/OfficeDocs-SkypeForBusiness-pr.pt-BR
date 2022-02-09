@@ -1,8 +1,8 @@
 ---
 title: Configurar vários números de emergência em Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Leia este tópico para saber como configurar vários números de emergência em Skype for Business Server.
-ms.openlocfilehash: d79a57e64d52bfc6b0f1d8ee9a9bd9c3c1509658
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 318cf1f5f2fce443f939a9603f395573209959e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833907"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401565"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurar vários números de emergência em Skype for Business
 
@@ -33,7 +33,7 @@ Skype for Business Server agora suporta vários números de emergência para um 
 
 ## <a name="configure-multiple-emergency-numbers"></a>Configurar vários números de emergência
 
-Para configurar vários números de emergência, use o cmdlet New-CsEmergencyNumber e especifique o parâmetro EmergencyNumbers com os cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) e [Set-CsLocationPolicy.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Para uma descrição completa de todos os parâmetros de política de local, como uso PSTN e Local necessários, consulte [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
+Para configurar vários números de emergência, use o cmdlet New-CsEmergencyNumber e especifique o parâmetro EmergencyNumbers com os cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) e [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) . Para uma descrição completa de todos os parâmetros de política de local, como uso PSTN e Local necessários, consulte [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
 
 O comando a seguir cria um novo número de emergência com a cadeia de caracteres de discagem 911 usando o cmdlet New-CsEmergency de discagem:
 

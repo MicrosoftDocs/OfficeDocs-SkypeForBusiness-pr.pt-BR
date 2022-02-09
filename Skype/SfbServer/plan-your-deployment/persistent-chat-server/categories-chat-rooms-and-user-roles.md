@@ -1,8 +1,8 @@
 ---
 title: Categorias de chat persistente, salas de chat e funções de usuário Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumo: leia este tópico para saber mais sobre categorias, salas de chat e funções de usuário e administrador para o Servidor de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 212e731da29bc327487e0e6512db413546d20670
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2273e046bd6217e19a34a0e5e72579f134ba77f9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857248"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402755"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorias de chat persistente, salas de chat e funções de usuário Skype for Business Server 2015
  
@@ -42,7 +42,7 @@ As categorias permitem que você organize salas de chat e controle quais usuári
 A principal lógica para o conceito de Membros Permitidos e Negados são as paredes éticas. Por exemplo, é comum que instituições bancárias e financeiras tenham limites éticos que impeçam que comerciantes e analistas compartilhem comunicações enquanto implementam políticas e convenções. Para tratar desse requisito, um administrador pode criar categorias de modo que uma categoria permita que salas sejam criadas e usadas por comerciantes e a outra categoria, por analistas. Os usuários não poderão ser adicionados como membros de uma sala de chat se a categoria pai a impedir.
   
 > [!IMPORTANT]
-> Membros permitidos e negados em uma categoria não são iguais **a** uma função Membro, que se aplica a uma sala de Chat Persistente.> As pesquisas exibem todas as salas de chat abertas e fechadas para as quais o usuário que executa a pesquisa está na lista de membros Permitido e Negado. Salas secretas não são exibidas a menos que o usuário que fez a pesquisa seja membro de uma delas. O usuário pode pesquisar apenas as salas das quais ele já é membro ou às quais ele pode solicitar associação. 
+> Membros permitidos e negados em uma categoria não são **iguais a uma** função Membro, que se aplica a uma sala de Chat Persistente.> As pesquisas exibem todas as salas de chat abertas e fechadas para as quais o usuário que executa a pesquisa está na lista de membros Permitido e Negado. Salas secretas não são exibidas a menos que o usuário que fez a pesquisa seja membro de uma delas. O usuário pode pesquisar apenas as salas das quais ele já é membro ou às quais ele pode solicitar associação. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Salas de chat e funções de usuário
 
@@ -68,17 +68,17 @@ Além dos Membros Permitidos e Negados para categorias, você também pode contr
 
 A seguir estão as funções de administrador para o Servidor de Chat Persistente:
   
-- Administrador **de Chat Persistente**: a função administrador de chat persistente pode gerenciar salas de chat (modificar todas as propriedades, incluindo associação, gerentes, categorias, salas de marcação como desabilitadas), bem como criar e gerenciar categorias de sala de chat que definem quem pode criar e acessar salas de chat. Os administradores também podem marcar salas de chat como desabilitadas e limpar salas de chat que não estão mais ativas. Os administradores não estão sujeitos às restrições dos criadores ou membros permitidos. Eles podem criar qualquer tipo de sala de chat e adicionar a si próprios como membros de qualquer sala. Os administradores também podem modificar e gerenciar a configuração de Chat Persistente (propriedades do pool, configurações globais e configuração de conformidade) e também podem planejar e implementar a migração de uma implantação mais antiga do Servidor de Chat de Grupo para Skype for Business Server Servidor de Chat Persistente 2015.
+- Administrador **de Chat** Persistente: a função administrador de chat persistente pode gerenciar salas de chat (modificar todas as propriedades, incluindo associação, gerentes, categorias, salas de marcação como desabilitadas), bem como criar e gerenciar categorias de sala de chat que definem quem pode criar e acessar salas de chat. Os administradores também podem marcar salas de chat como desabilitadas e limpar salas de chat que não estão mais ativas. Os administradores não estão sujeitos às restrições dos criadores ou membros permitidos. Eles podem criar qualquer tipo de sala de chat e adicionar a si próprios como membros de qualquer sala. Os administradores também podem modificar e gerenciar a configuração de Chat Persistente (propriedades do pool, configurações globais e configuração de conformidade) e também podem planejar e implementar a migração de uma implantação mais antiga do Servidor de Chat de Grupo para Skype for Business Server Servidor de Chat Persistente 2015.
     
     Os administradores de Chat Persistente são capazes de administrar o Servidor de Chat Persistente usando Windows PowerShell cmdlets remotamente (ou seja, de um computador diferente do Servidor de Chat Persistente). O Servidor de Chat Persistente verifica se o Administrador de Chat Persistente é membro do grupo local de administrador local RTC no Servidor front-end do Servidor de Chat Persistente.
     
-- **Skype for Business Server 2015 Administrador**: Administrador corporativo geral do Skype for Business Server 2015 responsável pela implantação.
+- **Skype for Business Server 2015 Administrador**: administrador corporativo geral do Skype for Business Server 2015 responsável pela implantação.
     
 - **Gerente de operações**: usuário responsável por gerenciar as operações diárias.
     
 - **Desenvolvedores e parceiros terceirizados**: os desenvolvedores terceirizados ampliam o sistema, fornecendo especialmente uma solução de parede ética para conversas em grupo, suporte e ferramentas de conformidade, clientes móveis/da Web e uma estrutura de desenvolvimento de bot.
     
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 Para obter mais informações sobre como configurar e gerenciar salas de chat e funções de usuário, consulte os seguintes tópicos:
   

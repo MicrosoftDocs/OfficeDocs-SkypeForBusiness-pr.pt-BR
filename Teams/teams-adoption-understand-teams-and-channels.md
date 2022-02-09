@@ -1,7 +1,7 @@
 ---
 title: Compreender as equipes e os canais no Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 09aba3d8f6bcdb06d75bf0563a437a87197cb254
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959810"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400835"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Compreender as equipes e os canais no Microsoft Teams
 
@@ -36,7 +36,7 @@ Os conceitos de equipes e canais são fundamentais para uma implementação prod
 
 - Canais são os espaços de colaboração dentro de uma equipe na qual o trabalho real é feito. 
 
-Para ler mais sobre equipes e canais, consulte [Visão geral das equipes e](teams-channels-overview.md)canais em Microsoft Teams . Para obter orientações Teams de adoção abrangentes, receba o [guia Teams adoção.](https://aka.ms/teamstoolkit) Para saber mais sobre Teams e Microsoft 365 Grupos, consulte [Microsoft 365 Grupos](office-365-groups.md) e Microsoft Teams e Saiba mais sobre Microsoft 365 [Grupos](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Para ler mais sobre equipes e canais, consulte [Visão geral das equipes e canais Microsoft Teams](teams-channels-overview.md). Para obter Teams de adoção abrangentes, acesse o [Guia Teams adoção](https://aka.ms/teamstoolkit). Para saber mais sobre Teams e Microsoft 365 Grupos, consulte [Microsoft 365 Grupos](office-365-groups.md) e Microsoft Teams e Saiba mais sobre [Microsoft 365 Grupos](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 | &nbsp; |&nbsp;  |

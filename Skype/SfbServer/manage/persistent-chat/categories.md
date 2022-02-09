@@ -1,8 +1,8 @@
 ---
 title: Gerenciar categorias no Servidor de Chat Persistente no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Resumo: saiba como gerenciar categorias do Servidor de Chat Persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 86a90143bad43f4bb8a96434885eec741c01f4a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7d2cb5114b876c5354b3ba47c45f700a5bd62450
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853005"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396463"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar categorias no Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -47,7 +47,7 @@ Você pode configurar e gerenciar categorias usando o Painel de Controle ou usan
 
 1. A partir de uma conta de usuário atribuída à função CsPersistentChatAdministrator ou CsAdministrator, faça logon em qualquer computador em sua implantação interna.
     
-2. No menu **Iniciar,** selecione o painel de controle Skype for Business Server ou abra uma janela do navegador e insira a URL do administrador.
+2. No menu **Iniciar**, selecione o painel de controle Skype for Business Server ou abra uma janela do navegador e insira a URL do administrador.
     
 3. Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Categoria**.
     
@@ -55,7 +55,7 @@ Você pode configurar e gerenciar categorias usando o Painel de Controle ou usan
     
 4. Na página **Categoria**, clique em **Novo** ou **Editar**.
     
-5. Em **Selecionar um Serviço,** selecione o serviço correspondente ao pool do Servidor de Chat Persistente no qual a categoria precisa ser criada. O serviço é o pool de Servidor de Chat Persistente que o cliente de Chat Persistente usa para identificar a qual pool a categoria pertence. Uma categoria pode pertencer a apenas um pool de Servidor de Chat Persistente e não pode ser movida para outro pool ou compartilhada.
+5. Em **Selecionar um Serviço**, selecione o serviço correspondente ao pool do Servidor de Chat Persistente no qual a categoria precisa ser criada. O serviço é o pool de Servidor de Chat Persistente que o cliente de Chat Persistente usa para identificar a qual pool a categoria pertence. Uma categoria pode pertencer a apenas um pool de Servidor de Chat Persistente e não pode ser movida para outro pool ou compartilhada.
     
 6. Em **Nova Categoria**, faça o seguinte:
     
@@ -67,15 +67,15 @@ Você pode configurar e gerenciar categorias usando o Painel de Controle ou usan
     
    - Para controlar os carregamentos de arquivo nas salas de chat que pertencem a essa categoria, marque ou desmarque a caixa de seleção **Habilitar carregamento de arquivo**. Se for marcada, as salas dessa categoria poderão habilitar ou desabilitar os carregamentos de arquivo; se for desmarcada, as salas dessa categoria não terão permissão para carregamentos de arquivo.
     
-   - Para controlar o histórico de chat, selecione ou desempure a caixa de seleção **Habilitar histórico de** chat. Se for marcada, as salas de chats se tornarão persistentes; caso contrário, as mensagens de chat não serão persistentes. Se a conformidade for habilitada, salas de chats serão salvas em conformidade, mas os usuários não poderão acessar mensagens mais antigas. Essa opção pode ser usada para salas designadas para colaborações ad hoc em tempo real que não precisam manter o histórico de chat.
+   - Para controlar o histórico de chat, selecione ou desempure a caixa **de seleção Habilitar histórico de** chat. Se for marcada, as salas de chats se tornarão persistentes; caso contrário, as mensagens de chat não serão persistentes. Se a conformidade for habilitada, salas de chats serão salvas em conformidade, mas os usuários não poderão acessar mensagens mais antigas. Essa opção pode ser usada para salas designadas para colaborações ad hoc em tempo real que não precisam manter o histórico de chat.
     
 7. Em **Editar Categoria**, faça o seguinte:
     
-   - Em Associação , na seção **Membros** Permitidos, adicione ou remova usuários e outras entidades de Serviços de Domínio do Active Directory (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que têm permissão para serem adicionados como membros de salas de chat pertencentes à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
+   - Em **Associação, na** seção  Membros Permitidos, adicione ou remova usuários e outras entidades de Serviços de Domínio do Active Directory (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que têm permissão para serem adicionados como membros de salas de chat pertencentes à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
     
-   - Em **Associação**, na seção **Membros negados,** adicione ou remova usuários e outras entidades do Active Directory associadas aos membros que estão sendo negados da sala.
+   - Em **Associação**, na seção **Membros** negados, adicione ou remova usuários e outras entidades do Active Directory associadas aos membros que estão sendo negados da sala.
     
-   - Em **Associação**, na seção **Criadores,** adicione ou remova usuários e outras entidades do Active Directory associadas aos criadores da categoria. Um criador é um usuário com permissões para criar salas de chat e atribuir gerentes e membros de sala de chat.
+   - Em **Associação**, na seção **Criadores** , adicione ou remova usuários e outras entidades do Active Directory associadas aos criadores da categoria. Um criador é um usuário com permissões para criar salas de chat e atribuir gerentes e membros de sala de chat.
     
 8. Clique em **Confirmar**.
     
@@ -105,11 +105,11 @@ Você pode configurar os seguintes parâmetros para categorias:
     
 - DeniedMembers. Lista os usuários que não têm permissão de acessar as salas de chat dentro da categoria.
     
-Para obter informações completas sobre sintaxe de cmdlet, incluindo todos os parâmetros, consulte Skype for Business Server Shell de Gerenciamento [2015](../management-shell.md).
+Para obter informações completas sobre sintaxe de cmdlet, incluindo todos os parâmetros, [consulte Skype for Business Server Shell de Gerenciamento 2015](../management-shell.md).
   
 ### <a name="create-a-new-category"></a>Criar uma nova categoria
 
-Você pode criar uma nova categoria usando o cmdlet **New-CsPersistentChatCategory.** Por exemplo, o comando a seguir cria uma nova categoria chamada HelpDesk no pool atl-cs-001.contoso.com. Neste exemplo, o carregamento de arquivo está habilitado:
+Você pode criar uma nova categoria usando o cmdlet **New-CsPersistentChatCategory** . Por exemplo, o comando a seguir cria uma nova categoria chamada HelpDesk no pool atl-cs-001.contoso.com. Neste exemplo, o carregamento de arquivo está habilitado:
   
 ```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
@@ -117,7 +117,7 @@ New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-00
 
 ### <a name="configure-an-existing-category"></a>Configurar uma categoria existente
 
-Você pode configurar uma categoria existente usando o cmdlet **Set-CsPersistentCategory.**
+Você pode configurar uma categoria existente usando o cmdlet **Set-CsPersistentCategory** .
   
 Por exemplo, o comando a seguir especifica que user1 é um AllowedMember e um Criador, enquanto o usuário2 tem acesso negado às salas na categoria:
   
@@ -128,7 +128,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 ### <a name="get-information-about-categories"></a>Obter informações sobre categorias
 
-Você pode obter informações sobre categorias usando o cmdlet **Get-CsPersistentChatCategory.** Por exemplo, o comando a seguir retorna informações para todas as categorias de Chat Persistente na organização:
+Você pode obter informações sobre categorias usando o cmdlet **Get-CsPersistentChatCategory** . Por exemplo, o comando a seguir retorna informações para todas as categorias de Chat Persistente na organização:
   
 ```PowerShell
 Get-CsPersistentChatCategory
@@ -136,7 +136,7 @@ Get-CsPersistentChatCategory
 
 ### <a name="remove-a-category"></a>Remover uma categoria
 
-Você pode remover uma categoria usando o cmdlet **Remove-CsPersistentChatCategory.** Antes de remover uma categoria, primeiro você deve excluir todas as salas de chat sob ela ou mover as salas de chat para uma nova categoria. Por exemplo, o comando a seguir remove a categoria que tem a identidade "atl-cs-001.contoso.com\helpdesk":
+Você pode remover uma categoria usando o cmdlet **Remove-CsPersistentChatCategory** . Antes de remover uma categoria, primeiro você deve excluir todas as salas de chat sob ela ou mover as salas de chat para uma nova categoria. Por exemplo, o comando a seguir remove a categoria que tem a identidade "atl-cs-001.contoso.com\helpdesk":
   
 ```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"

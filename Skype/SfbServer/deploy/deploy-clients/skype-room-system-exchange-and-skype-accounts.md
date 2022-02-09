@@ -1,7 +1,7 @@
 ---
 title: Provisionamento de Skype room system Exchange e Skype Contas
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: Leia estes tópicos para saber como provisionar Exchange e Skype contas para Skype Room System.
-ms.openlocfilehash: fe92f11882ae2d4dcd3ddd509f747f310fd25e6f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: efc553924ed6631ad3583dd79d616b7ee0a7f050
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837383"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399945"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Provisionamento de Skype room system Exchange e Skype Contas
  
 Leia estes tópicos para saber como provisionar Exchange e Skype contas para Skype Room System. 
 
 > [!NOTE]
-> Salas do Microsoft Teams é um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre Salas do Microsoft Teams, consulte a visão geral Salas do Microsoft Teams [implantação.](/MicrosoftTeams/rooms/rooms-deploy)
+> Salas do Microsoft Teams é um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre Salas do Microsoft Teams, consulte a Salas do Microsoft Teams [de implantação.](/MicrosoftTeams/rooms/rooms-deploy)
   
 > [!NOTE]
-> Skype O provisionamento da conta do Sistema de Sala depende do tipo de topologia que sua organização tem. Para saber mais sobre topologias do Active Directory, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+> Skype provisionamento da conta do Sistema de Sala depende do tipo de topologia que sua organização tem. Para saber mais sobre topologias do Active Directory, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
   
 ## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Provisionamento de contas Skype Room System Exchange &amp; Skype for Business
 
@@ -42,6 +42,6 @@ Os tópicos a seguir descrevem como provisionar e gerenciar Skype de Exchange e 
     
 - Implantações híbridas
     
-- Skype Sistema de Sala e Skype for Business federados
+- Skype Room System e Skype for Business federados
     
 - Gerenciar contas do Sistema de Salas Skype

@@ -1,8 +1,8 @@
 ---
 title: Gerenciar configurações do Registrador em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Resumo: Gerenciar configurações do Registrador para Skype for Business Server.'
-ms.openlocfilehash: 9e5eddde712180820579840587abb18bc9809fe4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 30a6b13e658fddbcfbef2ca1e1810eecb56fc9dc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832125"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402025"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações do Registrador em Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "60832125"
     
 - **NTLM** Essa é a autenticação baseada em senha disponível para clientes que usam um esquema de hash de resposta a desafios na senha. Essa é a única forma de autenticação disponível para clientes sem conectividade com um Centro de distribuição de chaves (controlador de domínio Kerberos), como usuários remotos. Se um servidor autenticar somente usuários remotos, escolha NTLM.
     
-- **Autenticação de certificado** Esse é o novo método de autenticação quando o servidor precisa obter certificados de clientes do Lync Telefone Edition, telefones de área comum, Skype for Business e o aplicativo Lync Windows Store. Em clientes do Lync Telefone Edition, depois que um usuário entrar e for autenticado com êxito fornecendo um PIN (número de identificação pessoal), o Skype for Business Server provisiona o URI SIP para o telefone e provisiona um certificado assinado Skype for Business Server ou um certificado de usuário que identifique Joe (Ex: SN=joe@contoso.co m ) para o telefone. Esse certificado é usado para autenticação com o Registrador e Serviços Web.
+- **Autenticação de certificado** Esse é o novo método de autenticação quando o servidor precisa obter certificados de clientes do Lync Telefone Edition, telefones de área comum, Skype for Business e o aplicativo Lync Windows Store. Em clientes do Lync Telefone Edition, depois que um usuário entrar e for autenticado com êxito fornecendo um PIN (número de identificação pessoal), o Skype for Business Server provisiona o URI SIP para o telefone e provisiona um Skype for Business Server  certificado assinado ou um certificado de usuário que identifica Joe (Ex: SN=joe@contoso.com ) ao telefone. Esse certificado é usado para autenticação com o Registrador e Serviços Web.
     
 > [!NOTE]
 > Recomendamos a habilitação do Kerberos e NTLM quando um servidor suporta autenticação para clientes remotos e empresariais. O Servidor de Borda e os servidores internos se comunicam para assegurar que somente a autenticação NTLM seja oferecida aos clientes remotos. Se somente Kerberos for habilitado nesses servidores, não poderão autenticar usuários remotos. Se os usuários empresariais também autenticarem com base no servidor, o Kerberos será usado. 
@@ -104,7 +104,7 @@ Siga estas etapas para modificar um Registrador Avançado existente.
     
 ## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Removendo a configuração do Registrador Configurações usando Windows PowerShell cmdlets
 
-Você pode excluir as configurações do Registrador usando Windows PowerShell e o cmdlet **Remove-CsProxyConfiguration.** Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/).
+Você pode excluir as configurações do Registrador usando Windows PowerShell e o cmdlet **Remove-CsProxyConfiguration**. Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Administração do Microsoft Lync Remote PowerShell](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/).
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>Para remover um conjunto específico de configurações de segurança do Registrador
 

@@ -1,8 +1,8 @@
 ---
 title: Fluxo de Trabalho de Grupos de Resposta
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,22 +15,22 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Os fluxos de trabalho do Grupo de Resposta definem as ações que são tomadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
-ms.openlocfilehash: 0683cad93475ff23bca20acd6f90cee6a60139f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ad5c8c67e01a46888da3b8c412bc2317ba6c6af6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838713"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395834"
 ---
 # <a name="response-groups-workflow"></a>Fluxo de Trabalho de Grupos de Resposta
 
 Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Os fluxos de trabalho do Grupo de Resposta definem as ações que são tomadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
 
-A **página Fluxo de** Trabalho de Grupos de Resposta exibe uma lista de todos os fluxos de trabalho do Grupo de Resposta  -   definidos para sua organização.
+A **página Grupos de** **RespostaTrabalho** -  de Resposta exibe uma lista de todos os fluxos de trabalho do Grupo de Resposta definidos para sua organização.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página Fluxo de Trabalho **de Grupos**  -  **de** Resposta:
+Você pode executar as seguintes tarefas na página **Grupos de** **RespostaTrabalho** -  de Resposta:
 
 - Criar ou alterar um fluxo de trabalho de grupo de busca
 

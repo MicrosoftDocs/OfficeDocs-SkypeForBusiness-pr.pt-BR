@@ -1,8 +1,8 @@
 ---
 title: Relatório de Resumo de Diagnóstico de Chamada Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Resumo: saiba mais sobre o Relatório de Resumo de Diagnóstico de Chamada usado em Skype for Business Server.'
-ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 76907a319f5e4d828829daf7bc0564a964eb7633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827564"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397695"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de Diagnóstico de Chamada Skype for Business Server
  
@@ -37,7 +37,7 @@ O Relatório de Resumo de Diagnóstico de Chamadas fornece uma visão geral de s
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Como acessar o Relatório de resumo de diagnóstico de chamadas
 
-O Relatório de resumo de diagnóstico de chamadas é acessado a partir da página inicial dos Relatórios de Monitoramento. No Relatório de Resumo de Diagnóstico de Chamada, você pode acessar o Relatório de Diagnóstico de Atividade Ponto a Ponto no Skype for Business Server clicando na métrica taxa de falha na seção Resumo de Sessão Ponto [a](peer-to-peer-activity-diagnostic-report.md) Ponto do relatório. Você também pode acessar o Relatório de Diagnóstico de Conferência [Skype for Business Server](conference-diagnostic-report.md) clicando em qualquer uma das seguintes métricas de conferência:
+O Relatório de resumo de diagnóstico de chamadas é acessado a partir da página inicial dos Relatórios de Monitoramento. No Relatório de Resumo de Diagnóstico de Chamada, você pode acessar o Relatório de Diagnóstico de Atividade Ponto a Ponto no Skype for Business Server clicando na métrica Taxa de Falha na seção Resumo de Sessão Ponto [a](peer-to-peer-activity-diagnostic-report.md) Ponto do relatório. Você também pode acessar o [Relatório](conference-diagnostic-report.md) de Diagnóstico de Conferência Skype for Business Server clicando em qualquer uma das seguintes métricas de conferência:
   
 - Taxa de falha de sessão geral
     
@@ -57,7 +57,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
   
 **Filtros do Relatório de Resumo de Diagnóstico de Chamadas**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -70,7 +70,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de D
   
 **Métricas para Sessões Ponto a Ponto**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Total de sessões** <br/> |Não  <br/> |Número total de sessões ponto a ponto conduzidas.  <br/> |
 |**Taxa de falha** <br/> |Não  <br/> |Percentual de sessões ponto a ponto que falharam. Ao clicar neste item, o relatório exibe o relatório de Diagnóstico de Atividades Ponto a Ponto, que mostra informações mais detalhadas sobre as sessões ponto a ponto com falha.  <br/> |
@@ -81,7 +81,7 @@ A tabela a seguir lista as informações fornecidas pelo Relatório de Diagnóst
   
 **Métricas para Sessões de Conferência**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Total de conferências** <br/> |Não  <br/> |Número total de conferências conduzidas.  <br/> |
 |**Sessões de conferência totais** <br/> |Não  <br/> |Número total de sessões de conferência conduzidas.  <br/> |

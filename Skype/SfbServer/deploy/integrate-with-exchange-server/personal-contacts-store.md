@@ -1,8 +1,8 @@
 ---
 title: Configurar o armazenamento de contatos pessoais em computadores cliente do Lync 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 'Resumo: configure o armazenamento de contatos pessoal usado por clientes herdados.'
-ms.openlocfilehash: de9bc9472f619f7d35bbc4585d806f6cd82c295a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d2678eb7f0d9bcdf3d981cb08e91cf9a4858f26c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842363"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397300"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurar o armazenamento de contatos pessoais em computadores cliente do Lync 2010
   
@@ -30,11 +30,11 @@ Se você estiver integrando o Skype for Business Server 2015 e Exchange Server 2
   
 Para configurar esse valor em um único computador, execute os seguinte procedimento:
   
-1. No computador cliente, clique em **Iniciar** e clique em **Executar**.
+1. No computador cliente, clique em **Iniciar** e em **Executar**.
 2. Na caixa **de diálogo** Executar, digite regedit e pressione ENTER.
-3. No Editor de Registro, **expanda HKEY_LOCAL_MACHINE,** expanda **Software,** expanda **Políticas,** **expanda a Microsoft** e **expanda Communicator**.
-4. Clique com o **Communicator,** aponte para **Novo** e clique em **Valor DWORD (32 bits).**
+3. No Editor do Registro, **expanda HKEY_LOCAL_MACHINE** **software,** expanda **Políticas**, **expanda a Microsoft** e **expanda Communicator**.
+4. Clique com o **Communicator**, aponte para **Novo** e clique em **Valor DWORD (32 bits).**
 5. Após a criação do novo valor, digite PersonalContactStoreOverride e pressione ENTER para renomear o valor.
 6. Verifique se o valor de PersonalContactStoreOverride está definido para 0 e feche o Editor do Registro.
 
-Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo. Para obter detalhes sobre como fazer isso Windows 10, consulte [o artigo Criar um objeto de política de grupo.](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
+Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo. Para obter detalhes sobre como fazer isso Windows 10, consulte o [artigo Criar um objeto de política de](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) grupo.

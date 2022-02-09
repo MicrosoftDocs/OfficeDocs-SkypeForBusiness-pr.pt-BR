@@ -1,8 +1,8 @@
 ---
 title: Configurar a integração entre o Skype for Business Server local e Outlook Web App
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/7/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumo: Integre Skype for Business Server e Outlook Web App.'
-ms.openlocfilehash: cebb8fed6b87dac6ec2c981730d303994c952741
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0284fee227d9adf5560b5f65e56d71c1d46fac0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853675"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397280"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar a integração entre o Skype for Business Server local e Outlook Web App
 
@@ -37,7 +37,7 @@ Os clientes que estão usando implantações Skype for Business Server locais po
 
 Para integrar a Skype for Business Server local Exchange Online, você deve configurar um espaço de endereço SIP compartilhado. O mesmo espaço de endereço de domínio SIP é suportado pelo serviço de Skype for Business Server e Exchange Online sip.
 
-Usando o Shell de Gerenciamento Skype for Business Server, configure o Servidor de Borda para federação executando o cmdlet **Set-CSAccessEdgeConfiguration,** usando os parâmetros exibidos no exemplo a seguir:
+Usando o Shell de Gerenciamento Skype for Business Server, configure o Servidor de Borda para federação executando o cmdlet **Set-CSAccessEdgeConfiguration**, usando os parâmetros exibidos no exemplo a seguir:
 
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
@@ -45,11 +45,11 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - O parâmetro **AllowFederatedUsers** especifica se usuários internos têm permissão para se comunicar com usuários de domínios federados. Essa propriedade também determina se os usuários internos podem se comunicar com os usuários em um cenário de espaço de endereço SIP compartilhado com Skype for Business Server e Exchange Online.
 
-Para obter detalhes sobre como usar o Shell de Gerenciamento Skype for Business Server, [consulte Skype for Business Server Shell de Gerenciamento.](../../manage/management-shell.md)
+Para obter detalhes sobre como usar o Shell de Gerenciamento Skype for Business Server, [consulte Skype for Business Server Shell de Gerenciamento](../../manage/management-shell.md).
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Configurar um provedor de hospedagem no Servidor de Borda
 
-Usando o Shell de Gerenciamento Skype for Business Server, configure um provedor de hospedagem no Servidor de Borda executando o cmdlet **New-CsHostingProvider,** usando os parâmetros no exemplo a seguir:
+Usando o Shell de Gerenciamento Skype for Business Server, configure um provedor de hospedagem no Servidor de Borda executando o cmdlet **New-CsHostingProvider**, usando os parâmetros no exemplo a seguir:
 
 ```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification

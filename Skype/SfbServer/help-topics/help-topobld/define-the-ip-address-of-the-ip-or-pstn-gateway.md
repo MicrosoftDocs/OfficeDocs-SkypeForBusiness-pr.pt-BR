@@ -1,8 +1,8 @@
 ---
 title: Definir endereço IP do gateway PSTN ou IP
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Defina os endereços IPv4 ou IPv6 para o IP ou gateway PSTN (rede telefônica pública comutada) selecionando Habilitar IPv4 ou Habilitar IPv6. É possível escolher  Usar todos os endereços IP configurados ou Limitar o uso do serviço para endereços IP selecionados.
-ms.openlocfilehash: f6dc39c525e2ae568fb33c8fcb7bae6684212ee2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: febd3f83bb473d0297ad0f811125eb82664e7d9a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851295"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399075"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definir o Endereço IP do Gateway IP ou PSTN
 

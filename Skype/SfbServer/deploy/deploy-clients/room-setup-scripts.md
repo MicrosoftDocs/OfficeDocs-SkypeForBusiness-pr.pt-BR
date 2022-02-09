@@ -1,7 +1,7 @@
 ---
-title: Skype Scripts de configuração de sala do Sistema de Sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype scripts de configuração de sala do Sistema de Sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Leia este tópico para encontrar scripts de exemplo para provisionamento Skype contas do Sistema de Sala.
-ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 45805c3facf6541fbec88fd9c4d1fbd28a890ed2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859628"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402575"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype Scripts de configuração de sala do Sistema de Sala
+# <a name="skype-room-system-room-setup-scripts"></a>Skype scripts de configuração de sala do Sistema de Sala
  
 Leia este tópico para encontrar scripts de exemplo para provisionamento Skype contas do Sistema de Sala.
   

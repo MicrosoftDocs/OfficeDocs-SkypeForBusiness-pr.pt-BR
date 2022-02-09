@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Bate-papo Persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a criação de um novo Servidor de Chat Persistente ou pool de Servidor de Chat Persistente, no Construtor de Topologias, clique com o botão direito do mouse em pools de Chat Persistente e selecione Novo Pool de Chat Persistente
-ms.openlocfilehash: c0eafb361ee5511166a18253f056ff0115d4649e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5d5e919164fb13fc104734c0d6720efe9ec23dbd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855848"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402275"
 ---
 # <a name="persistent-chat-scope-node"></a>Nó de Escopo de Chat Persistente
 

@@ -1,8 +1,8 @@
 ---
 title: Relatório de Localização no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 'Resumo: saiba mais sobre o Relatório de Localização Skype for Business Server.'
-ms.openlocfilehash: afbbf54e913146326ee49e6db051869fa2ac7aca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 51ca5ebf4780cdf99cba62e560053b5a6a13e07e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862398"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401955"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>Relatório de Localização no Skype for Business Server
  
@@ -41,7 +41,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Loca
   
 **Filtros do Relatório de Locais**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas sempre correm do domingo até sábado.  <br/> |
@@ -56,7 +56,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Locais.
   
 **Métricas do Relatório de Locais**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Sub-rede do chamador** <br/> |Não  <br/> |Sub-rede IP do usuário que fez a chamada.  <br/> |
 |**Sub-rede do receptor da chamada** <br/> |Não  <br/> |Sub-rede IP do usuário que recebeu a chamada.  <br/> |

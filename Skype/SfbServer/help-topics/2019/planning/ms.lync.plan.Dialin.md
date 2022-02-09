@@ -1,8 +1,8 @@
 ---
 title: Conferência discda (Ferramenta de Planejamento)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server conferência discada permite aos usuários ingressar na parte de áudio de uma conferência Skype for Business Server usando um telefone PSTN (rede telefônica pública comutado) sem exigir um provedor de audioconferência de terceiros.
-ms.openlocfilehash: eaef9b534078ce03cac6772cbf7bb6bf57cd4091
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4db9877a339b245fdcf0ae54ce4cc33a247e6ba0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847944"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399285"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Conferência discda (Ferramenta de Planejamento)
  

@@ -1,8 +1,8 @@
 ---
 title: Usar o Painel de Qualidade de Chamada para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumo: Saiba como usar o Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5647622a04cbe449f426ae38b7d207fcbe2858e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843804"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398825"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar o Painel de Qualidade de Chamada para Skype for Business Server
 
@@ -78,7 +78,7 @@ Quando StartDate.Month é adicionado como uma dimensão e os dados são renderiz
 
 Para que os gráficos de barras e os sparklines apareçam, a caixa de seleção "Mostrar sparklines" na parte superior do Editor de Relatório deve ser verificada. Isso seleciona a opção Tendência e move Mês para baixo para ser a última dimensão, que também pode ser realizada clicando em Mês e usando as setas para cima e para baixo para mover StartDate.Month para cima ou para baixo.
 
-### <a name="settings"></a>Configurações
+### <a name="settings"></a>Settings
 
 O menu configurações contém links para páginas úteis, como as páginas Sobre e Saúde do Sistema, e está localizado no canto superior direito do painel.
 
@@ -207,7 +207,7 @@ O CQD não usa campos Chamador/Chamador, em vez disso, usa "First" e "Second" po
 |4 (Skype for Business) |4 (Skype for Business) |O chamador em MediaLine |O Chamador no MMediaLine |
 
 
-Se ambos os pontos de extremidade são do mesmo tipo, o CQD torna a entrada do Chamador primeiro e a segunda chamada. Para obter mais informações sobre nomes de pontos de extremidade, [consulte este blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
+Se ambos os pontos de extremidade são do mesmo tipo, o CQD torna a entrada do Chamador primeiro e a segunda chamada. Para obter mais informações sobre nomes de pontos de extremidade, consulte [este blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
 
 ## <a name="accounting-for-vpn"></a>Contabilidade para VPN
 

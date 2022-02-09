@@ -1,8 +1,8 @@
 ---
 title: Relatório de Resumo de Conferência PSTN no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Resumo: saiba mais sobre o Relatório de Resumo da Conferência PSTN no Skype for Business Server.'
-ms.openlocfilehash: 19038b29f46e33026e3ef865226aa4d087b0a0da
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2632ce1b9653c4895bfdcb176373b6d4e9996b74
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862288"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397715"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de Conferência PSTN no Skype for Business Server
  
@@ -33,7 +33,7 @@ O Relatório de Resumo de Conferência PSTN só pode ser acessado na home page R
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Fazendo o melhor uso do Relatório de Resumo de Conferência PSTN
 
-Para determinar a porcentagem de todas as conferências que incluem usuários discados, compare o valor da métrica total de conferências PSTN com a métrica Total de conferências encontrada no Relatório de Resumo de Conferências [em Skype for Business Server](conference-summary-report.md).
+Para determinar a porcentagem de todas as conferências que incluem usuários discados, compare o valor da métrica total de conferências PSTN com a métrica Total de conferências encontrada no Relatório de Resumo de Conferências [no Skype for Business Server](conference-summary-report.md).
   
 Se você não vir tantas conferências PSTN como você pode esperar ver, lembre-se de que a capacidade de organizar uma conferência que permite que os usuários de discagem dependam da política de conferência atribuída a um usuário: se muito poucos dos seus usuários têm permissão para realizar conferências PSTN, obviamente, você verá muito poucas conferências PSTN. Você pode verificar rapidamente quais das suas políticas de conferência (se alguma) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de Gerenciamento do Skype for Business Server:
   
@@ -61,7 +61,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Resum
   
 **Filtros de relatório de resumo de conferência PSTN**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
@@ -73,7 +73,7 @@ A tabela a seguir lista as informações no Relatório de Resumo de Conferência
   
 **Métricas do Relatório de Resumo de Conferência PSTN**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**A cada hora** <br/> **Diariamente** <br/> **Semanalmente** <br/> **Mensal** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado. Quando aplicável, é possível clicar em um determinado intervalo de tempo para exibir informações detalhadas desse intervalo. Por exemplo, se você estiver usando o intervalo Diário e clicar em 7/7/2015, verá uma divisão por hora da atividade de registro do usuário para essa data.  <br/> |
 |**Total de conferências PSTN** <br/> |Não  <br/> |Total de conferências de número que permitiram o acesso de discagem.  <br/> |

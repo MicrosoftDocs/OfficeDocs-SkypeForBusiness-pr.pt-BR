@@ -1,8 +1,8 @@
 ---
 title: Usando o Painel de Monitoramento no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumo: saiba mais sobre o Painel de Monitoramento no Skype for Business Server.'
-ms.openlocfilehash: ac68ae2174fcd7c4266da77c2d079c2f9a31d8e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 58a847ce5e63ad70477f1e43518464760e95d742
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862298"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399675"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usando o Painel de Monitoramento no Skype for Business Server
  
@@ -85,7 +85,7 @@ Por padrão, o Painel de Monitoramento mostra dados para as seguintes métricas 
     
 - Total de minutos de participantes PSTN
     
-Além das métricas de Uso do Sistema, as métricas a seguir exibem o total do dia atual e dos seis dias anteriores (se você selecionar Exibição Semanal **)** ou para a semana atual e as últimas seis semanas se você selecionar **Monthly View**.
+Além das métricas de Uso do Sistema, as métricas a seguir exibem o total do dia atual e dos seis dias anteriores (se você selecionar Exibição **Semanal) ou** para a semana atual e as últimas seis semanas se você selecionar **Exibir Mensalmente**.
   
 ## <a name="per-user-call-diagnostics"></a>Per-User Diagnóstico de Chamada
 
@@ -149,15 +149,15 @@ Principais servidores de pior qualidade por porcentagem de chamada de baixa qual
   
 ## <a name="working-with-the-monitoring-dashboard"></a>Trabalhando com o Painel de Monitoramento
 
-Conforme indicado, por padrão, os totais são mostrados para a semana atual e os valores de tendência são mostrados nas últimas seis semanas. Se você preferir ver totais do mês atual (bem como os valores de tendência dos últimos seis meses), clique no **link** Exibição Mensal no canto superior direito do painel. Se você decidir exibir totais mensais, o texto do link será alterado para **Exibição Semanal**. Você pode alternar de volta para a exibição semanal clicando nesse link.
+Conforme indicado, por padrão, os totais são mostrados para a semana atual e os valores de tendência são mostrados nas últimas seis semanas. Se você preferir ver totais do mês atual (bem como os valores de tendência dos últimos seis meses), clique **no link** Exibição Mensal no canto superior direito do painel. Se você decidir exibir totais mensais, o texto do link será alterado para **Exibição Semanal**. Você pode alternar de volta para a exibição semanal clicando nesse link.
   
 > [!TIP]
 > O Painel de Monitoramento restringe você a olhar os totais da semana atual (ou mês) e os valores de tendência das últimas seis semanas (ou meses). Não é possível alterar essas datas e horas. Por exemplo, você não pode usar o Painel para exibir os totais do relatório do período que começa há nove meses. 
   
-Os valores mostrados nas colunas **Esta semana**, **Este mês** ou **Hoje** vinculam você a informações mais detalhadas sobre o item. Lembre-se de que o nome da coluna e os valores exibidos nessa coluna geralmente diferem dependendo da métrica escolhida e dependendo se você selecionou a exibição semanal ou a exibição mensal. Por exemplo, se você clicar nos totais mostrados para a métrica de **logons** do usuário exclusivo, você verá o **Relatório** de Registro do Usuário para o período de tempo especificado. Você pode retornar ao Painel de Monitoramento a qualquer momento clicando em **Painel**.
+Os valores mostrados **nas colunas Esta semana**, **Este mês** ou **Hoje** vinculam você a informações mais detalhadas sobre o item. Lembre-se de que o nome da coluna e os valores exibidos nessa coluna geralmente diferem dependendo da métrica escolhida e dependendo se você selecionou a exibição semanal ou a exibição mensal. Por exemplo, se você clicar nos totais mostrados para a métrica de **logons** do usuário exclusivo, você verá o **Relatório** de Registro do Usuário para o período de tempo especificado. Você pode retornar ao Painel de Monitoramento a qualquer momento clicando em **Painel**.
   
 > [!TIP]
-> Você também pode acessar a home page Relatórios do Servidor de Monitoramento clicando no **link** Relatórios no canto superior direito do Painel.
+> Você também pode acessar a home page Relatórios do Servidor de Monitoramento clicando **no link Relatórios** no canto superior direito do Painel.
   
 A **coluna Tendência** exibe um gráfico de linha simples que mostra totais das últimas seis semanas (ou, dependendo da métrica e do intervalo de tempo, dos últimos seis dias ou dos últimos seis meses). Esses gráficos de linha simples exibem um ponto de dados não rotulado para cada período de tempo (por exemplo, um ponto de dados não rotulado para cada uma das últimas seis semanas). No entanto, você pode recuperar valores reais para esses gráficos segurando o ponteiro do mouse sobre o gráfico. Nesse caso, uma dica de ferramenta mostra os valores máximos e mínimos no gráfico.
   
@@ -179,15 +179,15 @@ O Painel de Monitoramento fornece várias maneiras de exportar o modo de exibiç
     
 - Word
     
-Para exportar a exibição atual do painel (e seus valores), clique na opção de exportação desejada. Skype for Business Server gera um relatório no formato especificado e, em seguida, dá a opção de abrir esse relatório ou salvá-lo. Observe que, por padrão, Skype for Business Server nomeia  o Painel de Monitoramento do relatório e o salva na pasta Downloads. Para dar ao relatório um nome diferente ou para armazená-lo  em uma pasta diferente, clique na seta ao lado do botão Salvar e clique em **Salvar como**. Se você estiver bem com o nome **Painel de** Monitoramento e com o relatório salvo na pasta Downloads, basta clicar no **botão Salvar.**
+Para exportar a exibição atual do painel (e seus valores), clique na opção de exportação desejada. Skype for Business Server gera um relatório no formato especificado e, em seguida, dá a opção de abrir esse relatório ou salvá-lo. Observe que, por padrão, Skype for Business Server títulos do Painel de **Monitoramento** do relatório e salva-o na pasta Downloads. Para dar ao relatório um nome diferente ou para armazená-lo em uma pasta diferente, clique na seta  ao lado do botão Salvar e clique em **Salvar como**. Se você estiver bem com o nome **Painel de** Monitoramento e com o relatório salvo na pasta Downloads, basta clicar no **botão Salvar** .
   
-É possível que, ao tentar exportar dados do painel, uma caixa de diálogo Alerta de Segurança apareça junto com **a** mensagem "Suas configurações atuais não permitem que esse arquivo seja baixado". Se isso ocorrer, faça o seguinte:
+É possível que, ao tentar exportar dados do painel, uma caixa de diálogo Alerta de Segurança apareça junto **com a mensagem** "Suas configurações atuais não permitem que esse arquivo seja baixado". Se isso ocorrer, faça o seguinte:
   
 - No Internet Explorer, selecione **Opções da Internet**.
     
-- Na caixa **de diálogo Opções da Internet,** na guia **Segurança,** clique em **Sites** confiáveis e clique em **Sites**.
+- Na caixa **de diálogo Opções da Internet** , na guia **Segurança** , clique em **Sites** confiáveis e clique em **Sites**.
     
-- Na caixa **de diálogo Sites confiáveis,** clique em **Adicionar** para adicionar o Skype for Business Server que está executando Skype for Business Server Relatórios às coleções de sites confiáveis.
+- Na caixa **de diálogo Sites confiáveis**, clique em **Adicionar** para adicionar o Skype for Business Server que está executando Skype for Business Server Relatórios às coleções de sites confiáveis.
     
 - Clique **em Fechar** e clique em **OK**.
     

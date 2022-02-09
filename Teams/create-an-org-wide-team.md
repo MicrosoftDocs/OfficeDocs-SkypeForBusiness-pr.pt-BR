@@ -1,7 +1,7 @@
 ---
 title: Criar uma equipe de toda a organização no Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8698625cc219b1d343afd43cc8bf44cd9e71dc52
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 67e768c8af07f8f49bcf202f9c6b933cce9c3f63
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861978"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396293"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Criar uma equipe de toda a organização no Microsoft Teams
 
@@ -32,7 +32,7 @@ Com equipes de toda a organização, os administradores globais podem criar faci
 - Pulls in every user in the organization 
 - Mantém a associação atualizada com o Active Directory à medida que os usuários ingressarem e saírem da organização.
 
-Somente administradores globais podem criar equipes em toda a organização. Atualmente, uma equipe de toda a organização está limitada a organizações com não mais de 10.000 usuários. Há também um limite de cinco equipes de toda a organização por locatário. Ao criar uma equipe, se esses requisitos  são atendidos, os administradores globais verão Toda a organização como uma opção ao selecionar Criar uma **equipe do zero**. 
+Somente administradores globais podem criar equipes em toda a organização. Atualmente, uma equipe de toda a organização está limitada a organizações com não mais de 10.000 usuários. Há também um limite de cinco equipes de toda a organização por locatário. Ao criar uma equipe, se esses requisitos são atendidos, os administradores  globais verão Toda a organização como uma opção ao selecionar **Criar uma equipe do zero**. 
 
 ![Captura de tela da opção em toda a organização para criar uma equipe em toda a organização.](media/create-org-wide-team.png "Captura de tela da opção Em toda a organização para criar uma equipe em toda a organização")
 
@@ -49,7 +49,7 @@ Os seguintes tipos de contas não serão adicionados à sua equipe de toda a org
 À medida que o diretório da sua organização é atualizado para incluir novos usuários ativos ou para desabilitar contas de usuários que não trabalham mais na sua empresa, as alterações são sincronizadas automaticamente e os usuários são adicionados ou removidos da equipe. Os membros da equipe não podem sair de uma equipe de toda a organização. Como proprietário da equipe, você poderá adicionar ou remover usuários manualmente, se necessário.
 
 > [!NOTE]
-> - Se você não vir  a opção Toda a Organização ao criar uma equipe e for um administrador global, poderá ter atingido o limite de cinco equipes em toda a organização ou sua organização pode ter mais do que o limite de tamanho atual de 10.000 membros. Queremos aumentar esse limite no futuro. As equipes de toda a organização ainda não estão disponíveis no Teams para Educação.
+> - Se você não vir a opção Toda  a Organização ao criar uma equipe e for um administrador global, poderá ter atingido o limite de cinco equipes em toda a organização ou sua organização pode ter mais do que o limite de tamanho atual de 10.000 membros. Queremos aumentar esse limite no futuro. As equipes de toda a organização ainda não estão disponíveis no Teams para Educação.
 > - Salas que não fazem parte de uma lista de salas, equipamentos e contas de recursos podem ser adicionadas ou sincronizadas com a equipe de toda a organização. Os proprietários da equipe podem remover facilmente essas contas da equipe.
 > - Todas as ações do sistema para adicionar ou remover membros são postadas no canal Geral. O canal também será marcado como tendo uma nova atividade no cliente do Teams.
 > - Criaremos automaticamente uma equipe de toda a organização para sua organização se sua organização for nova no Teams e não tiver mais de 5.000 usuários. O nome da equipe refletirá o nome do locatário e terá um canal Geral. Os administradores globais podem editar essa equipe como qualquer outra equipe.
@@ -62,8 +62,8 @@ Para obter o máximo de sua equipe de toda a organização, recomendamos que os 
 
 Reduza o ruído do canal fazendo com que somente os proprietários da equipe publiquem no canal Geral. 
 
-1. Vá para a equipe, localize o canal Geral e selecione **̇ ̇ ̇ mais opções** Gerenciar  >  **canal**. 
-2. Na guia **Configurações do** Canal, clique em Permissões e selecione Somente **proprietários** **podem postar mensagens**.
+1. Vá para a equipe, localize o canal Geral e selecione **̇ ̇ ̇ mais** **opçõesManage** >  canal. 
+2. Na guia **Configurações do** Canal, clique **em Permissões** e selecione **Somente proprietários podem postar mensagens**.
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Desativar as menções à @equipe e @[nome da equipe]
 
@@ -102,7 +102,7 @@ Para obter mais informações, confira [Gerenciar quem pode criar grupos](/micro
 Se essa solução alternativa não for uma opção, você poderá usar o PowerShell para criar uma equipe pública e adicionar um administrador global como o proprietário da equipe. Em seguida, faça com que o administrador global clique em **Mais opções** ao lado do nome da equipe, clique em **Editar equipe** e, em seguida, altere a privacidade para **Toda a organização - Todos na organização serão adicionados automaticamente**. 
 
 > [!NOTE]
-> Somente os proprietários de equipe podem acessar a **opção Editar equipe** e somente os administradores globais podem ver a opção Em toda **a** organização.
+> Somente os proprietários de equipe podem acessar a **opção Editar equipe** e somente os administradores globais podem ver a **opção Em toda a** organização.
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>Há uma maneira de converter uma equipe existente em uma equipe de toda a organização?
 
@@ -114,4 +114,4 @@ Modelos de equipe não podem ser usados para criar uma equipe em toda a organiza
 
 ## <a name="see-also"></a>Confira também
 
-Assista a um vídeo sobre [como criar uma equipe de toda a](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)empresa em Microsoft Teams .
+Assista a um vídeo [sobre como criar uma equipe de toda a empresa no Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

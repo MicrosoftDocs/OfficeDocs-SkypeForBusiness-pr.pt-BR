@@ -1,8 +1,8 @@
 ---
 title: Planejar Enterprise Voice resiliência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como dar suporte à resiliência de voz Skype for Business Server Enterprise Voice, em sites centrais e sites de filial. As opções de site de filial incluem a implantação de Aparelhos de Filial Desaviváveis ou Servidores de Filial Desaviváveis.
-ms.openlocfilehash: a2dc18817f28595cdfdf65be35df85d0ad93239b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fa68fda07e104477bf0e8a089b45adf641ef4ed9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851875"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400285"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planejar Enterprise Voice resiliência no Skype for Business Server
 
@@ -76,9 +76,9 @@ Os seguintes requisitos e recomendações para implementar a resiliência de voz
 
 - Cada site central deve conter um pool de Registradores que consiste em um ou mais Registradores.
 
-- Cada pool de Registradores deve ter balanceamento de carga usando balanceamento de carga DNS, balanceamento de carga de hardware ou ambos. Para obter informações detalhadas sobre como planejar sua configuração de balanceamento de carga, consulte [Requisitos](../../plan-your-deployment/network-requirements/load-balancing.md)de balanceamento de carga para Skype for Business .
+- Cada pool de Registradores deve ter balanceamento de carga usando balanceamento de carga DNS, balanceamento de carga de hardware ou ambos. Para obter informações detalhadas sobre como planejar sua configuração de balanceamento de carga, consulte [Requisitos](../../plan-your-deployment/network-requirements/load-balancing.md) de balanceamento de carga para Skype for Business.
 
-- Cada usuário deve ser atribuído a um pool de Registradores primário usando o cmdlet Skype for Business Server Shell de Gerenciamento **set-CsUser** ou o painel de controle Skype for Business Server de gerenciamento.
+- Cada usuário deve ser atribuído a um pool de Registradores primário usando o cmdlet Skype for Business Server Shell de Gerenciamento **set-CsUser** ou o painel de controle Skype for Business Server.
 
 - O pool principal do Registrador deve ter um único pool de Registrador de backup localizado em um site central diferente.
 
@@ -278,17 +278,17 @@ Se um site de filial não tiver um servidor DNS, há duas maneiras alternativas 
 
 #### <a name="voice-routing-for-branch-users"></a>Roteamento de voz para usuários de filial
 
-É recomendável criar uma política separada de VoIP (Voice over Internet Protocol ) no nível do usuário para usuários em um site de filial. Essa política deve incluir uma rota primária que usa o Aparelho de Filial Existente ou gateway de servidor de filial e uma ou mais rotas de backup que usam um tronco com um gateway PSTN (rede telefônica pública comutado) no site central. Se a rota principal estiver indisponível, a rota de backup que usa um ou mais gateways do site central será utilizada. Dessa forma, independentemente de onde um usuário está registrado no Registrador do site de filial ou no pool de Registradores de backup no site central, a política VoIP do usuário está sempre em vigor. Esta é uma consideração importante para cenários de failover. Por exemplo, se você precisar renomear o Aparelho de Filial Desavivável ou reconfigurar o Aparelho de Filial Desavivável para se conectar a um pool de Registradores de backup no site central, você deverá mover os usuários do site de filial para o site central durante a duração. (Para obter detalhes sobre como renomear ou reconfigurar um Aparelho de Filial Desavivável, consulte Apêndice B: Managing [a Survivable Branch Appliance](/previous-versions/office/lync-server-2013/lync-server-2013-appendix-b-managing-a-survivable-branch-appliance) na documentação de implantação.) Se esses usuários não têm políticas VoIP no nível do usuário ou planos de discagem no nível do usuário, quando os usuários são movidos para outro site, as políticas VoIP no nível do site e os planos de discagem no nível do site central se aplicam aos usuários por padrão, em vez das políticas voIP no nível do site de filial e planos de discagem,. Neste cenário, a menos que as políticas de VoIP e planos de discagem de nível de site usados pelo pool de registradores de backup também possam ser aplicadas aos usuários do site de filial, suas chamadas falharão. Por exemplo, se os usuários de um site de filial localizado no Japão forem movidos para um site central em Redmund, um plano de discagem com regras de normalização que precedam +1425 a todas as chamadas de 7 dígitos provavelmente não traduzirá chamadas de forma apropriada para estes usuários.
+É recomendável criar uma política separada de VoIP (Voice over Internet Protocol ) no nível do usuário para usuários em um site de filial. Essa política deve incluir uma rota primária que usa o Aparelho de Filial Existente ou gateway de servidor de filial e uma ou mais rotas de backup que usam um tronco com um gateway PSTN (rede telefônica pública comutado) no site central. Se a rota principal estiver indisponível, a rota de backup que usa um ou mais gateways do site central será utilizada. Dessa forma, independentemente de onde um usuário está registrado no Registrador do site de filial ou no pool de Registradores de backup no site central, a política VoIP do usuário está sempre em vigor. Esta é uma consideração importante para cenários de failover. Por exemplo, se você precisar renomear o Aparelho de Filial Desavivável ou reconfigurar o Aparelho de Filial Desavivável para se conectar a um pool de Registradores de backup no site central, você deverá mover os usuários do site de filial para o site central durante a duração. (Para obter detalhes sobre como renomear ou reconfigurar um Aparelho de Filial Desavivável, consulte [Apêndice B: Managing a Survivable Branch Appliance](/previous-versions/office/lync-server-2013/lync-server-2013-appendix-b-managing-a-survivable-branch-appliance) na documentação de implantação.) Se esses usuários não têm políticas VoIP no nível do usuário ou planos de discagem no nível do usuário, quando os usuários são movidos para outro site, as políticas VoIP no nível do site e os planos de discagem no nível do site central se aplicam aos usuários por padrão, em vez das políticas voIP no nível do site de filial e planos de discagem,. Neste cenário, a menos que as políticas de VoIP e planos de discagem de nível de site usados pelo pool de registradores de backup também possam ser aplicadas aos usuários do site de filial, suas chamadas falharão. Por exemplo, se os usuários de um site de filial localizado no Japão forem movidos para um site central em Redmund, um plano de discagem com regras de normalização que precedam +1425 a todas as chamadas de 7 dígitos provavelmente não traduzirá chamadas de forma apropriada para estes usuários.
 
 > [!IMPORTANT]
 > Ao criar uma rota de backup do escritório da filial, é recomendável adicionar dois registros de utilização de telefone do PSTN à política do usuário do escritório da filial e atribuir rotas separadas para cada uma. A primeira rota, ou primária, direcionaria chamadas para o gateway associado ao SBA (Aparelho de Filial Suportável) ou servidor de filial; a segunda rota, ou backup, direcionaria chamadas para o gateway no site central. Ao direcionar chamadas, o SBA ou servidor da filial tentará todas as rotas atribuídas ao primeiro registro de uso do PSTN antes de tentar o segundo registro de uso.
 
-Para ajudar a garantir que as chamadas de entrada para usuários de site de filial cheguem a esses usuários quando o gateway de filial ou o componente Windows do site aparelho de filial não estiver disponível (o que ocorreria, por exemplo, se o Aparelho de Filial Ou gateway de filial que estava para manutenção), crie uma rota de failover no gateway (ou trabalhe com seu provedor de Discagem Direta Interna (DID) para redirecionar chamadas de entrada para o pool do Registrador de backup no pool central site. Daí, as chamadas serão roteadas sobre o link WAN para os usuários da filial. Certifique-se de que a rota traduz números para estar em conformidade com o gateway PSTN ou outros formatos de número de telefone aceitos do par de tronco. Para detalhes sobre a criação de uma rota de failover, consulte [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). Crie também planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial para normalizar chamadas de entrada. Se você tiver dois Aparelhos de FilialVivíveis em um site de filial, poderá criar um plano de discagem no nível do site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
+Para ajudar a garantir que as chamadas de entrada para usuários de site de filial cheguem a esses usuários quando o gateway de filial ou o componente Windows do site aparelho de filial que está indisponível (o que ocorreria, por exemplo, se o Aparelho de Filial Ou gateway de filial Desavivável estivesse para manutenção), crie uma rota de failover no gateway (ou trabalhe com seu provedor de Discagem Direta Interna (DID) para redirecionar chamadas de entrada para o pool de Registrador de backup no site central. Daí, as chamadas serão roteadas sobre o link WAN para os usuários da filial. Certifique-se de que a rota traduz números para estar em conformidade com o gateway PSTN ou outros formatos de número de telefone aceitos do par de tronco. Para detalhes sobre a criação de uma rota de failover, consulte [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). Crie também planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial para normalizar chamadas de entrada. Se você tiver dois Aparelhos de FilialVivíveis em um site de filial, poderá criar um plano de discagem no nível do site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
 
 > [!NOTE]
 > Para suportar o consumo dos recursos do site central pelos usuários de qualquer site de filial que se apoiem no site central para presença, conferência ou failover, é recomendável considerar cada usuário de site de filial como se estivesse registrado no site central. No momento, não há limites no número de usuários de site de filial, incluindo usuários registrados com um Aparelho de Filial Desavivável.
 
-Também é recomendável criar um plano de discagem de nível de usuário e uma política de voz e atribuí-los a usuários do site de filial. Para obter detalhes, [consulte Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) and Create the [VoIP Routing Policy for Branch Users](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users) na documentação implantação.
+Também é recomendável criar um plano de discagem de nível de usuário e uma política de voz e atribuí-los a usuários do site de filial. Para obter detalhes, [consulte Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) and [Create the VoIP Routing Policy for Branch Users](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users) na documentação de Implantação.
 
 #### <a name="routing-extension-numbers"></a>Números de extensão de roteamento
 
@@ -315,13 +315,13 @@ Neste cenário, se o ponto do tronco que trata o re-roteamento para o PSTN não 
 
 |**Descrição**|**Padrão de correspondência**|**Tradução**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
-|Remove a extensão dos números de telefone com extensões  <br/> |^\+(\d \* ); ext=(\d \* )$  <br/> |+$1  <br/> |+14255550123;ext=10001 é traduzido como +14255550123  <br/> |
+|Remove a extensão dos números de telefone com extensões  <br/> |^\+(\d\*); ext=(\d\*)$  <br/> |+$1  <br/> |+14255550123;ext=10001 é traduzido como +14255550123  <br/> |
 
 Se um link WAN estiver ou não disponível, se sua organização não tiver números DID configurados para usuários individuais e o URI de linha para um usuário contiver o número de telefone da sua organização e o número de ramal exclusivo do usuário, você deverá configurar o URI de Linha de Linha do número de telefone da sua organização com um número que seja acessível pelo par de tronco ou gateway PSTN no site de filial. Você também deve configurar o URI de linha de número de telefone da sua organização para incluir sua própria extensão exclusiva para que as chamadas sejam roteados para esse número.
 
 #### <a name="preparing-for-voice-mail-survivability"></a>Preparação para persistência de caixa postal
 
-Exchange A Unificação de Mensagens (UM) geralmente é instalada apenas em um site central e não em sites de filial. Um chamador deve ser capaz de deixar uma mensagem de caixa postal, mesmo se o link WAN entre o site da filial e o site central estiver indisponível. Como resultado, a configuração do URI de linha para o número de telefone Atendedor Automático da UM Exchange que fornece caixa postal para usuários de site de filial requer considerações especiais, além da política de voz, plano de discagem e regras de normalização aplicáveis a esse número de caixa postal.
+Exchange Unificação de Mensagens (UM) geralmente é instalada apenas em um site central e não em sites de filial. Um chamador deve ser capaz de deixar uma mensagem de caixa postal, mesmo se o link WAN entre o site da filial e o site central estiver indisponível. Como resultado, a configuração do URI de linha para o número de telefone Atendedor Automático da UM Exchange que fornece caixa postal para usuários de site de filial requer considerações especiais, além da política de voz, plano de discagem e regras de normalização aplicáveis a esse número de caixa postal.
 
 Os Dispositivos de Filial (SBAs) e Os Servidores de Filial Suportáveis fornecem capacidade de sobrevivência de caixa postal para usuários de filial durante uma paralisação de WAN. Especificamente, se você estiver usando um Aparelho de Filial Desavivável ou Servidor de Filial Desavivável e a WAN ficar indisponível, o SBA ou Servidor de Filial Desavivável redireciona chamadas não respondidas pelo PSTN para Exchange UM no site central. Com um SBA ou Servidor de Filial Desavivável, os usuários também podem recuperar mensagens de caixa postal por meio do PSTN durante uma paralisação de WAN. Por fim, durante uma inativa WAN, o Aparelho de Filial Desavivável ou Servidor de Filial Desavivável faz filas de notificações de chamada perdida e, em seguida, carrega-as no servidor de UM Exchange quando a WAN é restaurada. Para ajudar a garantir que a redirecionação de caixa postal seja resiliente, certifique-se de adicionar uma entrada para o FQDN do pool de sites central e uma entrada para o FQDN do Servidor de Borda ao arquivo hosts no Servidor de Filial Persistente. Do contrário, a resolução do DNS pode ultrapassar o tempo se não houver um servidor DNS no site da filial.
 
@@ -329,9 +329,9 @@ Recomendamos seguir as configurações a seguir para a persistência de caixa po
 
 - Um administrador Exchange microsoft deve configurar Exchange um Atendedor Automático (AA) para aceitar apenas mensagens. Esta configuração desabilita todas as outras funcionalidades genéricas, como transferência para um usuário ou transferência para um operador e limita o AA a aceitar apenas mensagens. Como alternativa, o administrador do Exchange pode usar um AA genérico ou um AA personalizado para rotear a chamada para um operador.
 
-- O Skype for Business Server administrador deve usar o número de telefone AA e usar esse número de telefone como o número de atendimento automático de um do **exchange** nas configurações de redirecionação de caixa postal para o Aparelho de Filial Ou servidor de filial do Exchange.
+- O Skype for Business Server administrador deve usar o número de telefone AA e usar esse número de telefone como o número de atendimento automático de **um do exchange** nas configurações de redirecionação de caixa postal para o Aparelho de Filial Ou servidor de filial do Exchange.
 
-- O Skype for Business Server administrador deve obter o número de telefone de acesso do  assinante de UM Exchange e usar esse número como o número de acesso do assinante nas configurações de redirecionação de caixa postal para o Aparelho de Filial ESuperável ou o Servidor de Filial Desavivável.
+- O Skype for Business Server administrador deve obter o número de telefone de acesso do assinante de UM do Exchange e usar esse número como o  número de acesso do assinante nas configurações de redirecionação de caixa postal para o Aparelho de Filial Desavivável ou o Servidor de Filial Desavivável.
 
 - O Skype for Business Server administrador deve configurar Exchange UM para que apenas um plano de discagem seja associado a todos os usuários de filial que precisam de acesso à caixa postal durante uma paralisação de WAN.
 
@@ -362,11 +362,11 @@ Por fim, os usuários do site de filial devem ser configurados para Enterprise V
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Requisitos para Servidores de Filial Persistente
 
-Os requisitos para Servidores de Filial Suportáveis são os mesmos dos requisitos para um Servidor Front-End. Para obter detalhes, consulte [Requisitos de servidor para Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Os requisitos para Servidores de Filial Suportáveis são os mesmos dos requisitos para um Servidor Front-End. Para obter detalhes, consulte [Requisitos do servidor para Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 #### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Requisitos para Full-Scale Skype for Business Server Branch-Site implantações
 
-Para obter detalhes, consulte [Requisitos do servidor Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) na documentação planejamento.
+Para obter detalhes, consulte [Requisitos do servidor para Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) na documentação planejamento.
 
 ### <a name="example-configuring-a-failover-route"></a>Exemplo: configurando uma rota de failover
 
@@ -385,9 +385,9 @@ Para obter detalhes, consulte [Requisitos do servidor Skype for Business Server 
 
 | **Nome da rota**             | **Padrão de número** | **Uso do telefone**         | **Tronco**                                 | **Gateway**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| Rota Local de Redmond  <br/> | ^\+1(425           | 206                     | 253)(\d {7} )$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
-| Rota Local de Dallas  <br/>  | ^\+1(972           | 214                     | 469)(\d {7} )$  <br/>                       | Local  <br/>                                    |
-| Rota Universal  <br/>     | ^\+? (\d \* ) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-| Rota de Usuários de Dallas  <br/>  | ^\+? (\d \* ) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
+| Rota Local de Redmond  <br/> | ^\+1(425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
+| Rota Local de Dallas  <br/>  | ^\+1(972           | 214                     | 469)(\d{7})$  <br/>                       | Local  <br/>                                    |
+| Rota Universal  <br/>     | ^\+? (\d\*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Rota de Usuários de Dallas  <br/>  | ^\+? (\d\*) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 Na tabela 1, um uso de telefone de GlobalPSTNHopoff é adicionado após o uso de telefone DallasUsers na Política de Chamada de Dallas. Isso permite que as chamadas com a política de chamada de Dallas usem rotas configuradas para o uso de telefone GlobalPSTNHopoff, caso uma rota para o uso do telefone DallasUsers não esteja disponível.

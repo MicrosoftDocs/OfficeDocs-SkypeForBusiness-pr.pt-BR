@@ -1,7 +1,7 @@
 ---
 title: Lista de verificação de atualização| Skype Business para Teams atualização | Etapas básicas
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 9ad2dcc08bcbb1136c1b00fccf16b4e1e80a74f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562793"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400805"
 ---
 # <a name="upgrade-basic"></a>Upgrade Basic
 
@@ -164,7 +164,7 @@ Os usuários estão ocupados com suas responsabilidades diárias. Lembrá-los da
 
 *(Dia da Atualização)*
 
-Hoje é o dia em que sua organização atualiza oficialmente para Teams como sua solução de comunicação e colaboração. No centro Microsoft Teams de administração, ative a opção de atualização definindo o modo de coexistência como **Teams Somente**. (No centro de administração, vá **para** Teams  >  **Teams configurações de atualização**.) Os usuários receberão uma notificação no Skype for Business cliente que foram atualizados para Teams.
+Hoje é o dia em que sua organização atualiza oficialmente para Teams como sua solução de comunicação e colaboração. No centro Microsoft Teams de administração, ative a opção de atualização definindo o modo de coexistência como **somente Teams.** (No centro de administração, **acesse Teams** >  **Teams configurações de atualização**.) Os usuários receberão uma notificação no Skype for Business cliente que foram atualizados para Teams.
 
 Recomendamos que, depois que todos foram atualizados, você envie um email acolhendo-os para Teams.
 

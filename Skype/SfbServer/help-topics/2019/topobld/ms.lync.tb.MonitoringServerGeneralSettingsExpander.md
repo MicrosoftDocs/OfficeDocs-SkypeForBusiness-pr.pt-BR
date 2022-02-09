@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Servidor de Monitoramento
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'No Construtor de Topologias, você pode editar as propriedades de um Servidor de Monitoramento individual clicando com o botão direito do mouse no Servidor de Monitoramento na árvore de console e clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em Editar Propriedades e alterando qualquer uma das seguintes opções:'
-ms.openlocfilehash: c2dbe39debf95917bd0fad98291915d82033d662
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6ff2fb23d409f120f19d57dc26111a0cee65e9bf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850184"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398104"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Monitoramento
  
-No Construtor de Topologias, você pode editar as propriedades de um Servidor de Monitoramento individual clicando com o botão direito do mouse no Servidor de Monitoramento na árvore de console e clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em **Editar** Propriedades e alterando qualquer uma das seguintes opções: 
+No Construtor de Topologias, você pode editar as propriedades de um Servidor de Monitoramento individual clicando com o botão direito do mouse no Servidor de Monitoramento na árvore de console  e clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em **Editar** Propriedades e alterando qualquer uma das seguintes opções:
   
 - **FQDN**, para alterar o FQDN (nome de domínio totalmente qualificado) do servidor que você deseja implantar como Monitoring Server.
     

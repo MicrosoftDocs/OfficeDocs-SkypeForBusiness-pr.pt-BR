@@ -1,8 +1,8 @@
 ---
 title: Regra de conversão Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 82572bf5491f6e3fdcd40c3fd40a0c172292b96e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef43da9522f7efcb9dcdd000bce2b69d640cab8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839163"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395783"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>Regra de Conversão: Criar Nova ou Editar Existente
 

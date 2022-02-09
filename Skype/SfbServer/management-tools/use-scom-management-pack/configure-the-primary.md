@@ -1,8 +1,8 @@
 ---
 title: Como configurar o Servidor de Gerenciamento Primário
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Resumo: configure seu servidor de gerenciamento principal, instale o System Center Operations Manager e importe pacotes de gerenciamento para Skype for Business Server 2015.'
-ms.openlocfilehash: 6128cc33f0a877235c3356a2bef78a9288f6fc13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe03f40f3fd63cf7bc88a8739c04dd98369be26f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852945"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398755"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Como configurar o Servidor de Gerenciamento Primário
 
@@ -39,7 +39,7 @@ Ao instalar o System Center Operations Manager, você precisará instalar todos 
 
 - Console da Web
 
-- Reporting
+- Relatórios
 
 - Data warehouse
 
@@ -87,7 +87,7 @@ Você pode usar uma destas ferramentas para importar pacotes de gerenciamento:
 
 5. Na caixa **de diálogo Conexão de** Catálogo Online, clique em **Não**.
 
-6. Na caixa **de diálogo Selecionar Pacotes** de Gerenciamento para importar, localize e selecione os arquivos Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp e Microsoft.LS.2015.Monitoring.ComponentAndUser.mp e clique em **Abrir**. Para selecionar vários arquivos na caixa de diálogo, clique no primeiro arquivo e segure a tecla Ctrl e clique nos arquivos subsequentes.
+6. Na caixa **de diálogo Selecionar Pacotes** de Gerenciamento a serem importados, localize e selecione os arquivos Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp e Microsoft.LS.2015.Monitoring.ComponentAndUser.mp e clique em **Abrir**. Para selecionar vários arquivos na caixa de diálogo, clique no primeiro arquivo e segure a tecla Ctrl e clique nos arquivos subsequentes.
 
 7. Na caixa de seleção **Selecionar pacotes de gerenciamento**, clique em **Instalar**. Se receber uma mensagem de erro e a instalação falhar, geralmente isso signfica que os arquivos dos pacotes de gerenciamento estão em uma pasta protegida pelo Controle de conta de usuário do Windows. Se isso ocorrer, copie os arquivos para uma pasta diferente e reinicie o processo de importação e instalação.
 
@@ -97,7 +97,7 @@ Você pode usar uma destas ferramentas para importar pacotes de gerenciamento:
 
 Em geral, é mais fácil importar os pacotes de gerenciamento usando o console do Operations Manager. No entanto, se ocorrer um erro e a importação falhar, o console nem sempre fornecerá relatórios de erros adequados. Por comparação, o Shell do Operations Manager fornece informações detalhadas. Se você estiver usando o Operations Manager e encontrar problemas ao importar um pacote de gerenciamento, importe o pacote usando o Shell do Operations Manager. As informações fornecidas pelo Shell do Operations Manager podem ajudá-lo a determinar por que a importação falhou.
 
-1. Clique **em Iniciar,** em **Todos os Programas,** em **Microsoft System Center 2012,** em **Operations Manager** e em **Shell do Operations Manager**.
+1. Clique **em Iniciar**, em **Todos os Programas**, em **Microsoft System Center 2012**, em **Operations Manager** **e em Shell do Operations Manager**.
 
 2. Em Shell do Operations Manager, digite o seguinte comando no prompt de comando, usando o caminho real para sua cópia do arquivo Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp e pressione ENTER:
 

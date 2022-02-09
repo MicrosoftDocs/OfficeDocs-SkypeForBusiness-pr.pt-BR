@@ -1,8 +1,8 @@
 ---
 title: Como instalar e configurar nós do watcher
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: Descreve o processo para instalar e configurar nós do watcher para Skype for Business Server transações sintéticas.
-ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 34ab33bb486e3bc9973632c108e6eccf33bec481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833085"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396674"
 ---
 # <a name="learn-to-install-configure-watcher-nodes"></a>Aprenda a instalar, configurar nós do watcher
  
@@ -29,7 +29,7 @@ Nós do watcher são computadores que periodicamente Skype for Business Server t
   
 - **Padrão** Transações sintéticas que um nó do watcher executa por padrão. Ao criar um novo nó do watcher, você pode especificar quais transações sintéticas esse nó executará. (Essa é a finalidade do parâmetro Tests usado pelo cmdlet New-CsWatcherNodeConfiguration.) Se você não usar o parâmetro Tests quando o nó do watcher for criado, ele executará automaticamente todas as transações sintéticas padrão e não executará nenhuma das transações sintéticas não padrão. Isso significa, por exemplo, que o nó do Test-CsAddressBookService será configurado para executar o teste de Test-CsAddressBookService, mas não será configurado para executar o Test-CsExumConnectivity teste.
     
-- **Não padrão** Testes que nós do watcher não são executados por padrão. (Para obter detalhes, consulte a descrição do tipo Padrão.) No entanto, o nó do watcher pode ser habilitado para executar qualquer uma das transações sintéticas não padrão. Você pode fazer isso ao criar o nó do watcher (usando o cmdlet New-CsWatcherNodeConfiguration) ou a qualquer momento após a criação do nó do watcher. Observe que muitas das transações sintéticas não padrão exigem etapas de configuração extras. Para obter mais detalhes sobre essas etapas, consulte [Instruções especiais de instalação para transações sintéticas.](test-users-and-settings.md#special_synthetictrans)
+- **Não padrão** Testes que nós do watcher não são executados por padrão. (Para obter detalhes, consulte a descrição do tipo Padrão.) No entanto, o nó do watcher pode ser habilitado para executar qualquer uma das transações sintéticas não padrão. Você pode fazer isso ao criar o nó do watcher (usando o cmdlet New-CsWatcherNodeConfiguration) ou a qualquer momento após a criação do nó do watcher. Observe que muitas das transações sintéticas não padrão exigem etapas de configuração extras. Para obter mais detalhes sobre essas etapas, consulte [Instruções de Instalação Especiais para Transações Sintéticas](test-users-and-settings.md#special_synthetictrans).
     
 - **Estendido** Um tipo especial de transação sintética não padrão. Diferentemente das outras transações sintéticas, os testes estendidos podem ser executados várias vezes durante cada fase. Isso é útil ao verificar o comportamento, como várias rotas de voz PSTN (rede telefônica pública comutado) para um pool. Você pode configurar isso simplesmente adicionando várias instâncias de um teste estendido a um nó do watcher.
     
@@ -112,7 +112,7 @@ Para instalar os arquivos Skype for Business Server 2015 principais e o banco de
   
 1. No computador de nó do inspetor, clique em Iniciar, em Todos os Programas, em Acessórios, clique com o botão direito do mouse em Prompt de Comando e clique em Executar como administrador.
     
-2. Na janela do console, digite o seguinte comando e pressione ENTER. Insira o caminho apropriado para seus arquivos de instalação do Skype for Business Server: D:\Setup.exe /BootstrapLocalMgmtTo verificar se os principais componentes do Skype for Business Server estão instalados com êxito, clique em **Iniciar**, clique em Todos os **Programas,** clique em **Skype for Business Server 2015**, e clique em Skype for Business Server **Shell de Gerenciamento.** No Shell de Gerenciamento Skype for Business Server, digite o seguinte comando Windows PowerShell e pressione ENTER:
+2. Na janela do console, digite o seguinte comando e pressione ENTER. Certifique-se de inserir o caminho apropriado para seus arquivos de instalação do Skype for Business Server: D:\Setup.exe /BootstrapLocalMgmtTo verificar se os principais componentes Skype for Business Server estão instalados com êxito, clique em **Iniciar**, clique em **Todos** os Programas, **clique em Skype for Business Server 2015** e clique em Skype for Business Server **Shell de Gerenciamento**. No Shell de Gerenciamento Skype for Business Server, digite o seguinte comando Windows PowerShell e pressione ENTER:
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -145,7 +145,7 @@ Se você vir informações sobre suas políticas de PIN, os componentes principa
 
 Semelhante à Skype for Business Server configuração para alertas de componentes de relatório, um nó do Skype for Business Server do Skype for Business Server 2015 requer System Center arquivos de agente do Operations Manager para serem instalados. Isso permite que as transações sintéticas sejam executados e os alertas sejam relatados ao servidor de gerenciamento raiz System Center Operations Manager.
   
-Para instalar os arquivos de agente, siga os procedimentos listados em [Configure the Skype for Business Server computers that will be monitored](configure-computers-to-monitor.md).
+Para instalar os arquivos do agente, siga os procedimentos listados em [Configurar os computadores Skype for Business Server que serão monitorados](configure-computers-to-monitor.md).
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>Configurar um nó do Watcher para executar transações sintéticas
 <a name="enable_synthetic_trans"> </a>
@@ -216,7 +216,7 @@ Para atribuir um certificado padrão:
 > [!NOTE]
 > Caso o botão Executar esteja inativo, talvez você precise clicar primeiro em Executar, sob Instalar Repositório de Configuração Local. 
   
-Faça um dos seguintes:
+Siga um destes procedimentos:
   
 - Se você já tiver um certificado que possa ser usado como o certificado Padrão, clique em Padrão no assistente De certificado e clique em Atribuir. Siga as etapas no assistente de Atribuição de Certificado para atribuí-lo.
     

@@ -1,7 +1,7 @@
 ---
 title: Bloquear chamadas de entrada no Skype for Business Online
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -13,18 +13,18 @@ appliesto:
 - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 0c40bea45d569a8887f23c38a62efe03977ad461
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c8059d593235fce0edd402bc019d884f2e8e043d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840623"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398281"
 ---
 # <a name="block-inbound-calls"></a>Bloquear chamadas de entrada
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business Os Planos de Chamadas Online agora suportam o bloqueio de chamadas de entrada da PSTN (rede telefônica pública comutado). Esse recurso permite que uma lista global de locatários de padrões de números seja definida para que a ID do chamador de cada chamada PSTN de entrada para o locatário possa ser verificada na lista para uma combinação. Se uma combinação for feita, uma chamada de entrada será rejeitada.
+Skype for Business planos de chamadas online agora suportam o bloqueio de chamadas de entrada da PSTN (rede telefônica pública comutado). Esse recurso permite que uma lista global de locatários de padrões de números seja definida para que a ID do chamador de cada chamada PSTN de entrada para o locatário possa ser verificada na lista para uma combinação. Se uma combinação for feita, uma chamada de entrada será rejeitada.
 
 Esse recurso de bloqueio de chamadas de entrada só funciona em chamadas de entrada que se originam da PSTN e só funcionam em uma base global do locatário. Ele não está disponível por usuário.  
 
@@ -39,13 +39,13 @@ Os controles de administrador para números de bloqueio são fornecidos usando a
 
 ## <a name="call-blocking-powershell-commands"></a>Comandos de bloqueio de chamada do PowerShell
 
-Os padrões de números são ```CsInboundBlockedNumberPattern``` gerenciados por meio dos ```New``` comandos , , e ```Get``` ```Set``` ```Remove``` . Você pode gerenciar um determinado padrão usando esses cmdlets, incluindo a capacidade de alternar a ativação de um determinado padrão.
+Os padrões de números são gerenciados por meio dos ```CsInboundBlockedNumberPattern``` comandos ```New```, ```Get```, ```Set```e ```Remove```. Você pode gerenciar um determinado padrão usando esses cmdlets, incluindo a capacidade de alternar a ativação de um determinado padrão.
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) retorna uma lista de todos os padrões de números bloqueados adicionados à lista de locatários, incluindo Nome, Descrição, Habilitado (True/False) e Padrão para cada um.
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) adiciona um padrão de número bloqueado à lista de locatários.
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) remove um padrão de número bloqueado da lista de locatários.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) modifica um ou mais parâmetros de um padrão de número bloqueado na lista de locatários.
 
-A exibição e a ativação de todo o recurso de bloqueio de chamada é gerenciada por meio dos ```CsTenantBlockingCallingNumbers``` comandos ```Get``` e ```Set``` .
+A exibição e a ativação de todo o recurso de bloqueio de chamada é gerenciada por meio dos ```CsTenantBlockingCallingNumbers``` comandos ```Get``` e ```Set```.
 
 - [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) retorna os parâmetros da lista de números bloqueados global, incluindo Enabled (True/False). Há uma única política de locatário global que não pode ser modificada manualmente, além de ativar ou desativar o recurso.
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) permite modificar as chamadas de locatário global bloqueadas para serem ativas e desligadas no nível do locatário.
@@ -54,7 +54,7 @@ A exibição e a ativação de todo o recurso de bloqueio de chamada é gerencia
 
 #### <a name="block-a-number"></a>Bloquear um número
 
-Neste exemplo, os ```-Enabled``` parâmetros e ```-Description``` são opcionais:
+Neste exemplo, os parâmetros ```-Enabled``` e ```-Description``` são opcionais:
 
 ```powershell
 New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description “<description>” -Pattern “^[+]?13125550000”
@@ -74,7 +74,7 @@ Neste exemplo, o ```-Identity``` parâmetro é necessário:
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 ```
  
-Se a identidade não for conhecida, use o ```Get-CsInboundBlockedNumberPattern``` cmdlet para primeiro localizar o padrão adequado e observar a identidade. Em seguida, execute ```Remove-CsTenantBlockedNumberPattern``` o cmdlet e passe o valor de identidade apropriado.
+Se a identidade não for conhecida, use o ```Get-CsInboundBlockedNumberPattern``` cmdlet para primeiro localizar o padrão adequado e observar a identidade. Em seguida, execute o ```Remove-CsTenantBlockedNumberPattern``` cmdlet e passe o valor de identidade apropriado.
 
 Permitir tempo para replicação antes de testar e validar.
 
@@ -90,7 +90,7 @@ Use as habilidades de filtragem do PowerShell integrados para analisar os valore
 
 ## <a name="add-number-exceptions"></a>Adicionar exceções de número
 
-Você pode adicionar exceções a padrões de números bloqueados por meio dos ```CsTenantBlockNumberExceptionPattern``` ```New``` comandos, ```Get``` , , e ```Set``` ```Remove``` .
+Você pode adicionar exceções a padrões de números bloqueados por meio dos ```CsTenantBlockNumberExceptionPattern``` comandos, ```New```, ```Get```, ```Set```e ```Remove```.
 
 - [New-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/new-cstenantblockednumberexceptionpattern) adiciona um padrão de exceção de número à lista de locatários. 
 - [Get-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/get-cstenantblockednumberexceptionpattern) retorna uma lista de todos os padrões de exceção de número adicionados à lista de locatários.
@@ -101,7 +101,7 @@ Você pode adicionar exceções a padrões de números bloqueados por meio dos `
 
 #### <a name="add-a-number-exception"></a>Adicionar uma exceção de número
 
-Neste exemplo, um novo padrão de exceção de número é criado e, por padrão, adicionará o padrão conforme habilitado. Os ```-Enabled``` ```-Description``` parâmetros e são opcionais.
+Neste exemplo, um novo padrão de exceção de número é criado e, por padrão, adicionará o padrão conforme habilitado. Os ```-Enabled``` parâmetros e ```-Description``` são opcionais.
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -113,7 +113,7 @@ New-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="view-all-number-exceptions"></a>Exibir todas as exceções de número
 
-Neste exemplo, o parâmetro -Identity é opcional. Se o parâmetro não for especificado, este cmdlet retornará uma lista de todos os padrões de exceção de número ```-Identity``` inseridos para um locatário.
+Neste exemplo, o parâmetro -Identity é opcional. Se o ```-Identity``` parâmetro não for especificado, este cmdlet retornará uma lista de todos os padrões de exceção de número inseridos para um locatário.
  
 ```powershell
 Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -137,7 +137,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>Remover uma exceção de número
 
-Neste exemplo, o ```-Identity``` parâmetro é necessário. Este cmdlet removerá o padrão de número determinado da lista de locatários.  Se a identidade não for conhecida, use o ```Get-CsInboundBlockedNumberPattern``` cmdlet para primeiro localizar o padrão adequado e observar a identidade. Em seguida, execute ```Remove-CsTenantBlockedNumberExceptionPattern``` o cmdlet e passe o valor de identidade apropriado.Permitir tempo para replicação antes de testar e validar.  
+Neste exemplo, o ```-Identity``` parâmetro é necessário. Este cmdlet removerá o padrão de número determinado da lista de locatários.  Se a identidade não for conhecida, use o ```Get-CsInboundBlockedNumberPattern``` cmdlet para primeiro localizar o padrão adequado e observar a identidade. Em seguida, execute o ```Remove-CsTenantBlockedNumberExceptionPattern``` cmdlet e passe o valor de identidade apropriado.Permitir tempo para replicação antes de testar e validar.  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -151,7 +151,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 Use o ```Test-CsInboundBlockedNumberPattern``` cmdlet para verificar se um número está bloqueado no locatário.
  
-Neste exemplo, os ```-Phonenumber``` ```-Tenant``` parâmetros e são necessários. O ```-PhoneNumber``` parâmetro deve ser uma cadeia de caracteres numérica sem caracteres adicionais, como + ou -. No TRPS, o ```-Tenant parameter``` é opcional. O parâmetro resultante retornará um valor True se o número for bloqueado no locatário e ```isNumberBlocked``` False se ele não estiver bloqueado.
+Neste exemplo, os parâmetros ```-Phonenumber``` e ```-Tenant``` são necessários. O ```-PhoneNumber``` parâmetro deve ser uma cadeia de caracteres numérica sem caracteres adicionais, como + ou -. No TRPS, o ```-Tenant parameter``` é opcional. O parâmetro resultante ```isNumberBlocked``` retornará um valor True se o número for bloqueado no locatário e False se ele não estiver bloqueado.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

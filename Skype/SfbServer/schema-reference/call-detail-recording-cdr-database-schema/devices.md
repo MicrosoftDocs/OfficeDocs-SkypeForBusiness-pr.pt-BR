@@ -1,8 +1,8 @@
 ---
 title: Tabela Dispositivos no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
 description: A tabela Devices é uma tabela de suporte. Cada registro armazena informações sobre um dispositivo (telefone de mesa).
-ms.openlocfilehash: bffa7bc59e2c1b52b3586d89f5f9c3828a569a26
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e4660f92094dca3fb9109bf234eab3a6e633b2e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857238"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402705"
 ---
 # <a name="devices-table-in-skype-for-business-server-2015"></a>Tabela Dispositivos no Skype for Business Server 2015
  
 A tabela Devices é uma tabela de suporte. Cada registro armazena informações sobre um dispositivo (telefone de mesa).
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**DeviceId** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica essa versão de hardware.  <br/> |
 |**ManufacturerId** <br/> |int  <br/> |Foreign  <br/> |Fabricante deste dispositivo. Consulte a [tabela Fabricantes no Skype for Business Server 2015](manufacturers.md) para obter mais informações. <br/> |

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server Ferramenta de Planejamento 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Diretrizes sobre como usar a Ferramenta de Planejamento Skype for Business Server 2015.
-ms.openlocfilehash: d88504af2935ad0143c7f7c1ca85f17e3f9c7c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 38136704aa485e95f6534438cc559b821b2ca85d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845314"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401795"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server Ferramenta de Planejamento 2015
  

@@ -1,7 +1,7 @@
 ---
 title: Comitê de direção para implantação de voz na nuvem
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,18 +16,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd588928f71926981c42f7c909e00c544243279e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fb615c326b5d9cbf0fc293b96541f768e48947d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858868"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401655"
 ---
 # <a name="steering-committee"></a>Comitê de direção
 
 ## <a name="steering-committee-overview"></a>Visão geral do comitê de direção
 
-Um comitê de direção é um grupo de participantes-chave e líderes de projeto que foram unidos para orientar um projeto ou programa para seus resultados comerciais definidos. O comitê de direção não é responsável diretamente *pela* forma como o projeto é entregue, mas pelo que o projeto entrega para a empresa. 
+Um comitê de direção é um grupo de participantes-chave e líderes de projeto que foram unidos para orientar um projeto ou programa para seus resultados comerciais definidos. O comitê de direção não é responsável *diretamente pela forma* como o projeto é entregue, mas  pelo que o projeto entrega para a empresa.
 
 Cada projeto requer uma visão e uma carta de acordo. Para entregar os resultados desejados dos projetos, a visão deve ser claramente definida, ela precisa ser monitorada e mantida. Isso se torna responsabilidade do comitê de direção: conduzir decisões, aconselhar, fornecer supervisão estratégica, para servir como defensores da organização para as iniciativas do projeto e, quando necessário, remover bloqueadores.
 
@@ -114,7 +114,7 @@ Os seguintes ativos devem ser concluídos e incluídos no convés de apresentaç
 
     -   Contém mais detalhes técnicos focados em problemas do dia a dia e menos no status geral do projeto.
 
--   Registro de riscos e log [de problemas](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
+-   Registro de riscos [e log de problemas](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
 
     -   Compartilhe o status de todos os problemas que o comitê está acompanhando.
 
@@ -128,7 +128,7 @@ Os seguintes ativos devem ser concluídos e incluídos no convés de apresentaç
 
         -   Identifique as próximas etapas e que assistência pode ser necessária dos membros do comitê.
 
--   Visão geral da qualidade: use diretrizes de [Preparar sua rede para Teams](prepare-network.md).
+-   Visão geral da qualidade: use orientações de [Preparar sua rede para](prepare-network.md) Teams.
 
     -   Prepare-se para explicar os resultados desses relatórios de qualidade detalhadamente e inclua recomendações para resolver quaisquer problemas notados.
 

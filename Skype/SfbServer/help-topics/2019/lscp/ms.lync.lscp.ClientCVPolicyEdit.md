@@ -1,8 +1,8 @@
 ---
 title: Política de Versão do Cliente Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: É possível especificar a versão de clientes suportados em seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente.
-ms.openlocfilehash: a3549bc94cc886526610c40ee4cddb75310ebe74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 825969cc9ed6010a1e9858879d1db17b7b77f508
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840523"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398244"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Política da Versão do Cliente: Criar Nova ou Editar Existente
 
@@ -31,7 +31,7 @@ ms.locfileid: "60840523"
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página **Nova Política** de Versão do Cliente ou Editar Política de **Versão do** Cliente:
+Você pode executar as seguintes tarefas na página **Nova Política** de Versão do Cliente ou **Editar Política de Versão do** Cliente:
 
 - Adicione ou modifique o nome ou a descrição da política de versão do cliente.
 
@@ -55,4 +55,4 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
 
 - **Setas para cima e para baixo** Essa opção move a regra de versão do cliente selecionada para cima ou para baixo em prioridade. As regras são processadas na ordem listada.
 
-Para obter detalhes sobre interoperabilidade entre clientes e versões do cliente, consulte [Interoperabilidade do Cliente](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013). Para obter detalhes sobre como trabalhar com políticas de versão do cliente, consulte [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) na documentação Operações.
+Para obter detalhes sobre interoperabilidade entre clientes e versões do cliente, consulte [Interoperabilidade do cliente](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013). Para obter detalhes sobre como trabalhar com políticas de versão do cliente, consulte [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) na documentação Operações.

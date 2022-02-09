@@ -1,8 +1,8 @@
 ---
 title: Nó do Escopo de Monitoramento
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'No Construtor de Topologias do Lync Server 2013, você pode executar tarefas relacionadas a um servidor individual executando o Monitoramento clicando com o botão direito do mouse no servidor executando Monitoramento na árvore de console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em uma das seguintes opções para o servidor que executa o Monitoramento:'
-ms.openlocfilehash: 054636ad6b1d5eab604085d918afc0bfca02a5bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 70ec788c30499424a7af156c6b5941fe30cb1c3a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860098"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397815"
 ---
 # <a name="monitoring-scope-node"></a>Nó do Escopo de Monitoramento
  
 No Construtor de Topologias do Lync Server 2013, você pode executar tarefas relacionadas a um servidor individual executando o Monitoramento clicando com o botão direito do mouse no servidor executando Monitoramento na árvore de console, clicando em **Ação** na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em uma das seguintes opções para o servidor que executa o Monitoramento:
   
-- **Editar Propriedades**. Abre a página **Editar Propriedades** para o servidor que executa o Monitoramento, onde você pode alterar o FQDN (nome de domínio totalmente qualificado) do servidor que executa o Monitoramento ou o banco de dados de monitoramento SQL Server.
+- **Editar Propriedades**. Abre a página Editar **Propriedades** para o servidor que executa o Monitoramento, onde você pode alterar o FQDN (nome de domínio totalmente qualificado) do servidor que executa o Monitoramento ou o banco de dados de monitoramento SQL Server.
     
 - **Delete**. Exclui o servidor que executa o Monitoramento da topologia e o banco de dados de SQL Server de monitoramento.
     

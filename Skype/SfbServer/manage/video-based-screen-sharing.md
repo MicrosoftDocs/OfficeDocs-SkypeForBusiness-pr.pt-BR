@@ -1,8 +1,8 @@
 ---
 title: Compartilhamento de tela baseado em vídeo do Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Server de planejamento e configuração para vbSS (compartilhamento de tela baseado em vídeo)
-ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0eb381504e797879d9e4235d7ae9cce69f1a468c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859968"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396423"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Compartilhamento de tela baseado em vídeo do Skype for Business Server 
  
@@ -52,8 +52,8 @@ Você também deve estar ciente de que alguma fidelidade/nitidez do seu conteúd
 
 |**Função de servidor**|**Nome do serviço**|**Intervalo de porta ou porta**|**Protocolo**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|
-|Servidores Front-End  <br/> |Skype for Business Server Serviço de Compartilhamento de Aplicativos  <br/> |5065  <br/> |TCP  <br/> |Usada para solicitações de escuta do SIP de entrada para compartilhamento de aplicativos.  <br/> |
-|Servidores Front-End  <br/> |Skype for Business Server Serviço de Compartilhamento de Aplicativos  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usado para compartilhamento de aplicativo.  <br/> |
+|Servidores Front-End  <br/> |Skype for Business Server serviço de Compartilhamento de Aplicativos  <br/> |5065  <br/> |TCP  <br/> |Usada para solicitações de escuta do SIP de entrada para compartilhamento de aplicativos.  <br/> |
+|Servidores Front-End  <br/> |Skype for Business Server serviço de Compartilhamento de Aplicativos  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usado para compartilhamento de aplicativo.  <br/> |
    
 **Portas de cliente necessárias**
 
@@ -117,7 +117,7 @@ A largura de banda do VbSS é:
    
 ## <a name="clients-and-servers-support"></a>Suporte a clientes e servidores
 
-O Compartilhamento de Tela baseado em vídeo requer Skype for Business Server 2015 CU3 ou [](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) posterior, e uma versão atual dos clientes de suporte listados na comparação de recursos do cliente móvel para suporte Skype for Business e [Reuniões.](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing) 
+O Compartilhamento de Tela baseado em vídeo requer Skype for Business Server 2015 CU3 ou posterior, e uma versão atual dos clientes de suporte listados na comparação [](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) de recursos do cliente móvel para suporte Skype for Business e [Reuniões](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing). 
   
 Há situações em que o compartilhamento de tela fará a transição para o RDP, como estas:
   

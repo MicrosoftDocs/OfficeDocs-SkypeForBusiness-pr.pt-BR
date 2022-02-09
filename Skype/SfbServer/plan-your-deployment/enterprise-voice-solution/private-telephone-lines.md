@@ -1,8 +1,8 @@
 ---
 title: Planejar linhas telefônicas privadas com Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: Planejamento de linhas telefônicas privadas (secundárias) Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: a9054266cc5092f77e0fecd66b71b7180c89018c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e438615219dd92300390873278132000edd8112
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861078"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397575"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planejar linhas telefônicas privadas com Skype for Business
  
@@ -75,7 +75,7 @@ Embora o conceito de uma segunda linha telefônica privada seja fundamentalmente
     > Quando uma chamada para uma linha privada é roteada para um número de telefone alternativo, o número para a linha telefônica privada é disponibilizado para o número de telefone alternativo e pode ser exibido nos logs para aquele número. 
   
     > [!NOTE]
-    > As chamadas de uma conferência para a linha telefônica privada não terão  *uma*  indicação de linha privada na notificação do sistema de entrada.
+    > As chamadas de uma conferência para a linha telefônica privada não  *terão uma*  indicação de linha privada na notificação do sistema de entrada.
   
 ## <a name="administering-private-telephone-lines"></a>Como administrar linhas telefônicas privadas
 

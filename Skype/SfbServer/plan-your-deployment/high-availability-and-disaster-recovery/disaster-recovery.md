@@ -1,8 +1,8 @@
 ---
 title: Recuperação de desastre de pool de front-end no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Para recuperação de desastres, Skype for Business Server oferece emparelhamento de pool com failover no caso de um pool cair.
-ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0c36f4b1fdb243284453cb61e30879f95fdd4fa3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833317"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401755"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperação de desastre de pool de front-end no Skype for Business Server
  
@@ -86,7 +86,7 @@ Embora exista o risco de ataques de "intrusos" na rede da empresa, ele é relati
   
 ### <a name="mitigating-security-risks"></a>Mitigando riscos de segurança
 
-Você tem muitas maneiras de aprimorar a proteção de segurança para o tráfego do Serviço de Backup. Isso varia de restringir o acesso aos data centers até proteger o transporte wan entre os dois data centers. Na maioria dos casos, as empresas que implantam Skype for Business Server podem já ter a infraestrutura de segurança necessária. Para empresas que procuram orientação, a Microsoft fornece uma solução como um exemplo de como criar uma infraestrutura de TI segura. Para obter detalhes, consulte [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) . 
+Você tem muitas maneiras de aprimorar a proteção de segurança para o tráfego do Serviço de Backup. Isso varia de restringir o acesso aos data centers até proteger o transporte wan entre os dois data centers. Na maioria dos casos, as empresas que implantam Skype for Business Server podem já ter a infraestrutura de segurança necessária. Para empresas que procuram orientação, a Microsoft fornece uma solução como um exemplo de como criar uma infraestrutura de TI segura. Para obter detalhes, consulte [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)). 
   
 Não sugerimos que ela seja a única solução, nem sugerimos que ela seja a solução preferencial para Skype for Business Server. Recomendamos que os clientes corporativos escolham a solução de acordo com suas necessidades específicas, com base em sua infraestrutura e requisitos de segurança de TI. O exemplo de solução da Microsoft emprega IPSec e Política de Grupo para Isolamento de Servidor e Domínio.
   

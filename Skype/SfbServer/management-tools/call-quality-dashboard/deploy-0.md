@@ -1,8 +1,8 @@
 ---
 title: Implantar o Painel de Qualidade de Chamada para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: saiba mais sobre o processo de implantação do Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 87caf5566c509580c211f68b685a868de2d2df58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: be6164c7b73a80c0557ea0814efddf59214a5481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829915"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396343"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implantar o Painel de Qualidade de Chamada para Skype for Business Server
  
@@ -28,7 +28,7 @@ ms.locfileid: "60829915"
 
 O Painel de Qualidade de Chamada (CQD) consiste em três componentes principais:
   
-- **Banco de** Dados de Arquivo Morto , onde os dados de Qualidade da Experiência (QoE) são replicados e armazenados.
+- **Banco de Dados** de Arquivo Morto, onde os dados de QoE (Qualidade da Experiência) são replicados e armazenados.
     
 - **Cubo**, onde os dados do banco de dados de Arquivo morto de QoE são agregados para acesso otimizado e rápido.
     
@@ -70,9 +70,9 @@ A implantação do Painel de Qualidade de Chamada envolve a configuração da in
     
    - **Métricas de QoE SQL Server: SQL Server** nome da instância para onde o BANCO de Métricas de QoE está localizado (essa será a fonte de dados).
     
-   - **Nome do arquivo SQL Server QoE:** Este é o campo somente leitura e corrigido para o nome de domínio totalmente qualificado da máquina local. O DB de arquivo morto só pode ser instalado no computador local.
+   - **Nome do arquivo SQL Server QoE:** este é um campo somente leitura e corrigido para o nome de domínio totalmente qualificado da máquina local. O DB de arquivo morto só pode ser instalado no computador local.
     
-   - **Instância de arquivo SQL Server QoE:** Um nome SQL Server de instância local para onde o DB de arquivo morto deve ser criado. Para usar uma instância SQL Server padrão, deixe este campo em branco. Para usar uma instância SQL Server nome, especifique o nome da instância (por exemplo, o nome depois de " \" ).
+   - **Instância de arquivo SQL Server QoE: um** nome de instância SQL Server local para onde o BANCO de Arquivos Morto deve ser criado. Para usar uma instância SQL Server padrão, deixe este campo em branco. Para usar uma instância SQL Server nome, especifique o nome da instância (por exemplo, o nome após "\").
     
    - **Banco de dados de arquivo morto de QoE:** Por padrão, essa opção é definida como "Criar novo banco de dados". Como a atualização do Archive DB não é suportada, a única circunstância na qual a opção "Usar banco de dados existente" pode ser usada é se o banco de dados Archive existente tiver o mesmo esquema que a com build a ser instalada.
     
@@ -85,7 +85,7 @@ A implantação do Painel de Qualidade de Chamada envolve a configuração da in
   
    - **Diretório de Arquivos de Partição:** Caminho para onde as partições do banco de dados de Arquivo morto de QoE devem ser colocadas. Isso deve estar em uma unidade (HDD3 na configuração de hardware recomendada) separada da unidade do sistema operacional e SQL de log de banco de dados. Observe que, como os nomes de arquivo são fixos na instalação, para evitar possíveis conflitos, é recomendável que um diretório em branco sem arquivos seja usado.
     
-   - **SQL de Trabalho do Agente - Nome de Usuário &amp; Senha:** nome da conta de serviço de domínio e senha (mascarada) que serão usadas para executar a etapa "Dados de Arquivo Morto de QoE" do trabalho do Agente do SQL Server (que executará o procedimento armazenado para buscar dados do QoE Metrics DB para o Archive DB, portanto, essa conta deve ter acesso de leitura ao QoE Metrics DB, conforme indicado na seção Contas. Essa conta também precisa ter um logon na Instância SQL Server De arquivo morto de QoE).
+   - SQL Usuário do Trabalho do Agente **- &amp;** Senha do Nome do Usuário: Nome da conta de serviço de domínio e senha (mascarada) que será usada para executar a etapa "Dados de Arquivo Morto de QoE" do trabalho do Agente do SQL Server (que executará o procedimento armazenado para buscar dados do QoE Metrics DB para o Archive DB, portanto, essa conta deve ter acesso de leitura ao DB de Métricas de QoE, conforme indicado na seção Contas. Essa conta também precisa ter um logon na Instância SQL Server De arquivo morto de QoE).
     
      > [!NOTE]
      > A conta na SQL Server em execução, como o NT SERVICE\MSSQLSERVER, deve ter acesso/permissão aos diretórios dados acima para que a instalação seja bem-sucedida. Para obter detalhes, consulte [Configure File System Permissions for Mecanismo de Banco de Dados Access](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
@@ -97,9 +97,9 @@ A implantação do Painel de Qualidade de Chamada envolve a configuração da in
   
 8. Na página Configuração do Cubo, forneça as seguintes informações:
     
-   - **Nome do arquivo SQL Server QoE:** Este é o campo somente leitura e corrigido para o nome de domínio totalmente qualificado da máquina local. O cubo só pode ser instalado a partir do computador que tem o banco de dados de arquivo morto QoE (Observação. O cubo em si pode ser instalado em uma máquina remota. Consulte abaixo)
+   - **Nome do arquivo SQL Server QoE:** este é um campo somente leitura e corrigido para o nome de domínio totalmente qualificado da máquina local. O cubo só pode ser instalado a partir do computador que tem o banco de dados de arquivo morto QoE (Observação. O cubo em si pode ser instalado em uma máquina remota. Consulte abaixo)
     
-   - Instância de SQL Server de arquivo **QoE: SQL Server** de instância para onde o BANCO de Arquivos de QoE está localizado. Para especificar uma instância SQL Server padrão, deixe este campo em branco. Para especificar uma instância SQL Server nome, insira o nome da instância (por exemplo, o nome depois de " \" ). Se o componente arquivo morto de QoE tiver sido selecionado para a instalação, esse campo será pré-preenchido com o valor fornecido na página Configuração de Arquivo Morto de QoE.
+   - **Instância do arquivo SQL Server QoE: SQL Server** de instância para onde o BANCO de Arquivos de QoE está localizado. Para especificar uma instância SQL Server padrão, deixe este campo em branco. Para especificar uma instância SQL Server nome, digite o nome da instância (por exemplo, o nome após "\"). Se o componente arquivo morto de QoE tiver sido selecionado para a instalação, esse campo será pré-preenchido com o valor fornecido na página Configuração de Arquivo Morto de QoE.
     
    - **Servidor de Análise de Cubo: SQL Server** nome da instância do Serviço de Análise para onde o cubo deve ser criado. Pode ser um computador diferente, mas o usuário instalador deve ser membro dos administradores do Servidor da instância de serviço de análise de destino SQL Server de análise.
     
@@ -117,7 +117,7 @@ A implantação do Painel de Qualidade de Chamada envolve a configuração da in
     
 10. Na página Configuração do Portal, forneça as seguintes informações:
     
-    - Nome da instância SQL Server de arquivo **QoE: SQL Server** para onde o banco de dados de Arquivo morto de QoE está localizado. Observe que, diferentemente da página Configuração de Arquivo Morto de QoE e da página Configuração do Cubo, o nome do computador não é fixo e deve ser fornecido. Se o componente arquivo morto de QoE tiver sido selecionado para a instalação, esse campo será pré-preenchido com o valor fornecido na página Configuração de Arquivo Morto de QoE.
+    - **Nome da SQL Server de arquivo morto de QoE: SQL Server** para onde o banco de dados de arquivo morto de QoE está localizado. Observe que, diferentemente da página Configuração de Arquivo Morto de QoE e da página Configuração do Cubo, o nome do computador não é fixo e deve ser fornecido. Se o componente arquivo morto de QoE tiver sido selecionado para a instalação, esse campo será pré-preenchido com o valor fornecido na página Configuração de Arquivo Morto de QoE.
     
     - **Servidor de Análise de Cubo: SQL Server** nome da instância do Serviço de Análise para onde o cubo está localizado. Se o componente Cube tiver sido selecionado para a instalação, esse campo será pré-preenchido com o valor fornecido na página Configuração do Cubo.
     
@@ -129,7 +129,7 @@ A implantação do Painel de Qualidade de Chamada envolve a configuração da in
     
 11. Ao clicar em seguida, a última rodada de validação será feita para garantir que as instâncias SQL Server sejam acessíveis usando as credenciais fornecidas e se o IIS estiver disponível no computador. Após a conclusão bem-sucedida da validação, o instalador prosseguirá com a instalação. 
     
-Quando o instalador for feito, provavelmente o trabalho SQL Server agente estará em andamento, fazendo a carga inicial dos dados QoE e o processamento do cubo. Dependendo da quantidade de dados em QoE, o portal ainda não terá dados disponíveis para exibição. Para verificar o status da carga de dados e do processamento de cubos, vá para  `http://<machinename>/CQD/#/Health` . 
+Quando o instalador for feito, provavelmente o trabalho SQL Server agente estará em andamento, fazendo a carga inicial dos dados QoE e o processamento do cubo. Dependendo da quantidade de dados em QoE, o portal ainda não terá dados disponíveis para exibição. Para verificar o status da carga de dados e do processamento de cubos, vá para  `http://<machinename>/CQD/#/Health`. 
 > [!NOTE]
 > Observe que a URL para verificar o status do processamento do cubo de download é sensível a minúsculas. Se você inserir 'health' a URL não funcionará. Você deve inserir 'Saúde' no final da URL com um H maiús-lo. 
   
@@ -139,7 +139,7 @@ As mensagens de log detalhadas serão mostradas se o modo de depuração estiver
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
-A página do portal principal é acessível por  `http://<machinename>/CQD` meio de . 
+A página do portal principal é acessível por meio de  `http://<machinename>/CQD`. 
 ## <a name="managing-user-access-for-the-portal"></a>Gerenciando o acesso do usuário para o Portal
 
 Para gerenciar a autorização do usuário para o Portal, recomendamos usar a Autorização de URL, que foi introduzida no IIS 7.0. Para obter mais informações sobre a segurança do IIS, consulte [Understanding IIS 7.0 URL Authorization](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
@@ -198,11 +198,11 @@ Isso significa que o cubo deve ser processado SQL Server Analysis Services antes
 
 1. Abra SQL Management Studio e selecione **Analysis Services**.
 
-2. Expanda **o objeto QoECube,** selecione **QoE Metric**, clique com o botão direito do mouse e escolha **Procurar**. 
+2. Expanda **o objeto QoECube** , selecione **QoE Metric**, clique com o botão direito do mouse e escolha **Procurar**. 
 
     Se isso retornar o navegador vazio, o cubo ainda não foi continuado.
 
-3. Clique com o botão direito do mouse em Angain Métrica de **QoE** e escolha **Processo**.
+3. Clique com o botão **direito do mouse em Angain Métrica de QoE** e escolha **Processo**.
 
 4. Quando o processamento for concluído, clique com o botão direito do mouse no objeto novamente e escolha **Procurar** para confirmar que a página do navegador agora mostra dados. 
 
@@ -233,9 +233,9 @@ Para vinculações de porta HTTP e HTTPS, o instalador criará vinculações de 
   
 Para habilitar SSL/TLS no IIS e forçar os usuários a se conectarem por meio de HTTPS seguro em vez de HTTP:
   
-1. Configure Secure Sockets Layer in IIS, see [Configuring Secure Sockets Layer in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10)). Depois de terminar, substitua  `http` por `https` .
+1. Configure Secure Sockets Layer in IIS, see [Configuring Secure Sockets Layer in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10)). Depois de terminar, substitua  `http` por `https`.
     
-2. Para obter instruções sobre como habilitar o TLS nas conexões SQL Server, consulte Como habilitar a criptografia [SSL](https://support.microsoft.com/kb/316898/)para uma instância de SQL Server usando o Console de Gerenciamento da Microsoft.
+2. Para obter instruções sobre como habilitar o TLS nas conexões SQL Server, consulte Como habilitar a criptografia SSL para uma instância de [SQL Server usando o Console de Gerenciamento da Microsoft](https://support.microsoft.com/kb/316898/).
     
 ## <a name="cube-sync-fails"></a>Falha na sincronização de cubo
 
@@ -305,9 +305,9 @@ Os tipos de propriedade são usados para distinguir ativos de propriedade versus
   
 Exemplos
   
-- Contoso Leased non-RE &amp; F
+- Contoso Leased non-REF&amp;
     
-- Contoso Leased RE &amp; F
+- CONTOSO LEASED REF&amp;
     
 - Contoso Owned
     
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (você deve usar o fformat delimitado)  <br/> |
 |Controlador  <br/> |Construção  <br/> |Aruba AP 7  <br/> |
-|Device  <br/> |ess  <br/> |Controller1  <br/> |
+|Dispositivo  <br/> |ess  <br/> |Controller1  <br/> |
 |Radio  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>Processamento dos dados importados

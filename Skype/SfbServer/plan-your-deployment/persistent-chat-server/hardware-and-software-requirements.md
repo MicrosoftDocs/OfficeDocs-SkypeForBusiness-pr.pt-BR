@@ -1,8 +1,8 @@
 ---
 title: Requisitos de hardware e software para o Servidor de Chat Persistente Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Resumo: leia este tópico para saber mais sobre os requisitos de hardware e software para o Servidor de Chat Persistente Skype for Business Server 2015.'
-ms.openlocfilehash: d911cdeb3aefddbf37d8857e86207fe84c4dce98
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a9cb5b51bc364334ef5f4a501d9467f7fd767340
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833285"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402745"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware e software para o Servidor de Chat Persistente Skype for Business Server 2015
  
@@ -32,7 +32,7 @@ Antes de implantar o Servidor de Chat Persistente, você deve garantir que os se
     
 - Software de banco de dados e sistema operacional com suporte.
     
-    Para obter detalhes sobre sistemas operacionais e software de banco de dados com suporte e Windows requisitos de atualização, consulte Requisitos de servidor para Skype for Business Server [2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+    Para obter detalhes sobre sistemas operacionais e software de banco de dados com suporte e Windows de atualização, consulte [Requisitos de servidor para Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
 - Skype for Business Server servidor front-end 2015. O Servidor Front-End é a base para o roteamento sip (Protocolo de Iniciação de Sessão), o que torna possível a comunicação entre computadores que executam o Servidor de Chat Persistente e a funcionalidade de Chat Persistente. 
     
@@ -63,7 +63,7 @@ O Servidor de Chat Persistente SQL Server software de banco de dados para armaze
     
 - O banco de dados de Chat Persistente (mgc) e o banco de dados de conformidade (mgccomp) podem estar localizados na mesma instância do SQL Server ou em servidores SQL diferentes.
     
-Para preparar uma plataforma de servidor de banco de dados, certifique-se de que cada computador atenda aos requisitos de hardware e instale o software de pré-requisito. A plataforma de servidor para servidores de banco de dados de Chat Persistente requer o mesmo hardware que o servidor de banco de dados back-end Skype for Business Server 2015. Para obter detalhes, consulte [Requisitos de servidor para Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Para preparar uma plataforma de servidor de banco de dados, certifique-se de que cada computador atenda aos requisitos de hardware e instale o software de pré-requisito. A plataforma de servidor para servidores de banco de dados de Chat Persistente requer o mesmo hardware que o servidor de banco de dados back-end Skype for Business Server 2015. Para obter detalhes, consulte [Requisitos do servidor para Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
   
 No servidor de banco de dados, certifique-se de que um dos seguintes aplicativos de software está instalado:
 
@@ -79,7 +79,7 @@ No servidor de banco de dados, certifique-se de que um dos seguintes aplicativos
 
 Para obter detalhes sobre como adquirir certificados, criar o banco de dados SQL Server e criar armazenamentos de arquivos, consulte [Deploy Skype for Business Server 2015](../../deploy/deploy.md). 
   
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 Para obter mais informações sobre requisitos de hardware e software, consulte os seguintes tópicos:
   

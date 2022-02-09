@@ -1,8 +1,8 @@
 ---
 title: Criando e criando fluxos de trabalho de grupo de resposta Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Projete e crie fluxos de trabalho do Grupo de Resposta, Skype for Business Server Enterprise Voice. Tanto os fluxos de trabalho de grupo de busca quanto os fluxos de trabalho interativos são abordados.
-ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 06ca815eb973fdf26106a0c0c082f4c146d2b590
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864378"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401555"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Criando e criando fluxos de trabalho de grupo de resposta Skype for Business
 
@@ -49,11 +49,11 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 5. No campo **Selecionar um serviço** de pesquisa, digite todo ou parte do nome do serviço **ApplicationServer** que hospeda o fluxo de trabalho que você deseja criar ou alterar. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
 
     > [!NOTE]
-    > A Ferramenta de Configuração do Grupo de Resposta é aberta. Você também pode abrir a Ferramenta de Configuração de Grupo de Resposta diretamente de um navegador da Web digitando a seguinte URL: \<webPoolFqdn\> https:// /RgsConfig.
+    > A Ferramenta de Configuração do Grupo de Resposta é aberta. Você também pode abrir a Ferramenta de Configuração de Grupo de Resposta diretamente de um navegador da Web digitando a seguinte URL: https://\<webPoolFqdn\>/RgsConfig.
 
-6. Faça um dos seguintes:
+6. Siga um destes procedimentos:
 
-   - Em **Criar um Novo Fluxo de Trabalho,** ao lado de Grupo de **Busca,** clique em **Criar**.
+   - Em **Criar um Novo Fluxo de Trabalho**, ao lado **de Grupo de Busca**, clique em **Criar**.
 
    - Em **Gerenciar um Fluxo de Trabalho Existente**, localize o fluxo de trabalho que você deseja alterar e, em **Ação**, clique em **Editar**.
 
@@ -65,7 +65,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 8. Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação**. Você também deve ter uma política de acesso externo que se aplique ao aplicativo do Grupo de Resposta configurado para federação.
 
     > [!NOTE]
-    > A política de acesso externo global se aplica ao aplicativo grupo de resposta. Você pode configurar a política global para federação de grupo de resposta usando o Painel de Controle Skype for Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obter detalhes sobre a configuração de federação, consulte [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > A política de acesso externo global se aplica ao aplicativo grupo de resposta. Você pode configurar a política global para federação do grupo de resposta usando o Painel de Controle Skype for Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obter detalhes sobre a configuração de federação, consulte [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
     > Os usuários hospedados no Skype for Business Online não podem fazer chamadas para grupos de resposta hospedados em uma implantação local. Isso é verdadeiro em implantações híbridas e em casos em que uma implantação local é federada com uma implantação Skype for Business Online.
@@ -80,7 +80,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
     > [!NOTE]
     > O URI principal de um fluxo de trabalho é como o fluxo de trabalho é identificado e referenciado. O URI SIP que você inserir é criado como um objeto de contato nos Serviços de Domínio do Active Directory. Para criar o URI, o objeto deve ser exclusivo no Active Directory.
 
-11. Em **Nome de exibição,** digite o nome que você deseja exibir para o fluxo de trabalho (por exemplo, Grupo de Resposta de Vendas).
+11. Em **Nome de exibição**, digite o nome que você deseja exibir para o fluxo de trabalho (por exemplo, Grupo de Resposta de Vendas).
 
     > [!NOTE]
     > Não inclua os caracteres "<" ou ">" no nome de exibição. Não use os seguintes nomes de exibição porque eles são reservados: **RGS Presence Watcher** ou **Announcement Service**.
@@ -133,7 +133,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
 20. Se estiver criando uma agenda personalizada para este fluxo de trabalho, clique nas opções para os dias da semana em que o grupo de resposta estará disponível.
 
-21. Se você estiver criando uma agenda  personalizada, digite o horário **de** Abertura e Fechamento para cada dia da semana em que o grupo de resposta está disponível.
+21. Se você estiver criando uma agenda personalizada, digite o horário **de** Abertura e Fechamento para cada dia da semana em que o grupo de resposta está disponível.
 
     > [!NOTE]
     > As horas de **Abertura** e **Fechamento** devem estar na notação de 24 horas. Por exemplo, se seu escritório funciona em dias úteis das 9 às 5 e fecha ao meio dia para o almoço, o horário comercial é especificado como **Abertura** 9:00, **Fechamento** 12:00, **Abertura** 13:00 e **Fechamento** 17:00.
@@ -154,11 +154,11 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
     - Para desconectar a chamada, clique em **Desconectar Chamada**.
 
-    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal *\<username\>* @ *\<domainName\>* é (por exemplo, bob@contoso.com).
+    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal é  *\<username\>*@*\<domainName\>* (por exemplo, bob@contoso.com).
 
-    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é _\<username\>_ @ _\<domainName\>_ .
+    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é  _\<username\>_@_\<domainName\>_.
 
-    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone *\<number\>* @ *\<domainName\>* é (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
+    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone  *\<number\>*@*\<domainName\>* é (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
 
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
 
@@ -181,11 +181,11 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
     - Para desconectar a chamada, clique em **Desconectar Chamada**.
 
-    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal *\<username\>* @ *\<domainName\>* é (por exemplo, bob@contoso.com).
+    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal é  *\<username\>*@*\<domainName\>* (por exemplo, bob@contoso.com).
 
-    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é _\<username\>_ @ _\<domainName\>_ .
+    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é  _\<username\>_@_\<domainName\>_.
 
-    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone *\<number\>* @ *\<domainName\>* é (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para direcionar o chamador para o destino correto.
+    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone  *\<number\>*@*\<domainName\>* é (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para direcionar o chamador para o destino correto.
 
 27. Em **Etapa 6 Configurar uma fila**, em **Selecionar a fila que irá receber as chamadas**, selecione a fila que deseja manter os chamadores até que um agente se tornar disponível.
 
@@ -204,7 +204,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
 
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
 
 3. Crie o prompt a ser tocado para a mensagem de boas-vindas e salve-o em uma variável. Na linha de comando, execute:
 
@@ -382,7 +382,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 5. No campo de pesquisa **Selecionar um serviço**, digite parte ou o nome inteiro do serviço **ApplicationServer** que hospeda o fluxo de trabalho que deseja criar ou modificar. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
 
     > [!NOTE]
-    > A Ferramenta de Configuração do Grupo de Resposta é aberta. Você também pode abrir a Ferramenta de Configuração de Grupo de Resposta diretamente de um navegador da Web digitando a seguinte URL: \<webPoolFqdn\> https:// /RgsConfig.
+    > A Ferramenta de Configuração do Grupo de Resposta é aberta. Você também pode abrir a Ferramenta de Configuração de Grupo de Resposta diretamente de um navegador da Web digitando a seguinte URL: https://\<webPoolFqdn\>/RgsConfig.
 
 6. Siga um destes procedimentos:
 
@@ -398,7 +398,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 8. Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação**. Você também deve ter uma política de acesso externo que se aplique ao aplicativo do Grupo de Resposta configurado para federação.
 
     > [!NOTE]
-    > A política de acesso externo global se aplica ao aplicativo grupo de resposta. Você pode configurar a política global para federação de grupo de resposta usando o Painel de Controle Skype for Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obter detalhes sobre a configuração de federação, consulte **Set-CsExternalAccessPolicy** na documentação..
+    > A política de acesso externo global se aplica ao aplicativo grupo de resposta. Você pode configurar a política global para federação do grupo de resposta usando o Painel de Controle Skype for Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obter detalhes sobre a configuração de federação, consulte **Set-CsExternalAccessPolicy** na documentação..
 
     > [!NOTE]
     > Os usuários hospedados no Skype for Business Online não podem fazer chamadas para grupos de resposta hospedados em uma implantação local. Isso é verdadeiro em implantações híbridas e em casos em que uma implantação local é federada com uma implantação Skype for Business Online.
@@ -413,7 +413,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 11. Em **Nome de exibição**, digite o nome que deseja exibir no fluxo de trabalho (por exemplo, Serviço de resposta IVR de vendas).
 
     > [!NOTE]
-    > Não inclua os \<" or "\> caracteres " " no nome de exibição. Não use os seguintes nomes de exibição porque eles são reservados: **RGS Presence Watcher** ou **Announcement Service**.
+    > Não inclua os caracteres "\<" or "\>" no nome de exibição. Não use os seguintes nomes de exibição porque eles são reservados: **RGS Presence Watcher** ou **Announcement Service**.
 
 12. Em **Número de telefone**, digite o URI de linha para o grupo de resposta (por exemplo, +14255550165).
 
@@ -454,13 +454,13 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
     - Para usar uma agenda pré-definida de horário comercial, clique em **Usar uma agenda predefinida** e selecione a agenda que deseja usar na lista suspensa.
 
       > [!NOTE]
-      > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. Você define cronogramas predefinidos usando o cmdlet **New-CsRgsHoursOfBusiness.** Para obter detalhes, consulte [(Opcional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md). Ao selecionar uma agenda predefinida, **Dia**, **Abertura** e **Fechamento** são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.
+      > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. Você define cronogramas predefinidos usando o cmdlet **New-CsRgsHoursOfBusiness** . Para obter detalhes, consulte [(Opcional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md). Ao selecionar uma agenda predefinida, **Dia**, **Abertura** e **Fechamento** são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.
 
     - Para usar uma agenda personalizada que se aplique somente a este fluxo de trabalho, clique em **Usar uma agenda personalizada**.
 
 20. Se estiver criando uma agenda personalizada para este fluxo de trabalho, clique nas opções para os dias da semana em que o grupo de resposta estará disponível.
 
-21. Se você estiver criando uma agenda personalizada, digite o **horário de Abertura** e Fechamento quando o grupo de resposta estará disponível. 
+21. Se você estiver criando uma agenda personalizada, digite o **horário de Abertura** **e Fechamento quando** o grupo de resposta estará disponível.
 
      > [!NOTE]
      > As horas de **Abertura** e **Fechamento** devem estar na notação de 24 horas. Por exemplo, se seu escritório funciona em dias úteis das 9 às 5 e fecha ao meio dia para o almoço, o horário comercial é especificado como **Abertura** 9:00, **Fechamento** 12:00, **Abertura** 13:00 e **Fechamento** 17:00.
@@ -481,11 +481,11 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
     - Para desconectar a chamada, clique em **Desconectar Chamada**.
 
-    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal *\<username\>* @ *\<domainname\>* é (por exemplo, bob@contoso.com).
+    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal é  *\<username\>*@*\<domainname\>* (por exemplo, bob@contoso.com).
 
-    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é _\<username\>_ @ _\<domainname\>_ .
+    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é  _\<username\>_@_\<domainname\>_.
 
-    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone *\<number\>* @ *\<domainname\>* é (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
+    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone  *\<number\>*@*\<domainname\>* é (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
 
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
 
@@ -508,11 +508,11 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
     - Para desconectar a chamada, clique em **Desconectar Chamada**.
 
-    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal *\<username\>* @ *\<domainname\>* é (por exemplo, bob@contoso.com).
+    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal é  *\<username\>*@*\<domainname\>* (por exemplo, bob@contoso.com).
 
-    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é _\<username\>_ @ _\<domainname\>_ .
+    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é  _\<username\>_@_\<domainname\>_.
 
-    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone *\<number\>* @ *\<domainname\>* é (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
+    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone  *\<number\>*@*\<domainname\>* é (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
 
 27. Sob **Etapa 6 Configure a Música de Espera**, escolha o que deseja que os chamadores ouçam enquanto esperam por um operador, executando um dos seguintes procedimentos:
 
@@ -564,7 +564,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
 1.  Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinida que suportam o Grupo de Resposta.
 
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar,** clique em Todos os **Programas,** clique Skype for Business **2015** e clique **em Skype for Business Server Shell de Gerenciamento.**
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
 
 3. Recupere o nome do serviço do serviço de Grupo de resposta e atribua-o a uma variável. Na linha de comando, execute:
 

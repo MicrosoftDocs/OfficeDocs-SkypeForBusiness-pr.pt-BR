@@ -1,8 +1,8 @@
 ---
 title: Integrar Skype for Business Server com Exchange Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Resumo: revise as etapas de integração Exchange Server 2016 ou Exchange Server 2013 e Skype for Business Server.'
-ms.openlocfilehash: d93c56278948c01ae47a19128896031de027d95a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a1f7f1c49d948512d3901a2775aed409d19c31fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838293"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397400"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Integrar Skype for Business Server com Exchange Server
 
 **Resumo:** Revise as etapas de integração Exchange Server 2013 ou posterior e Skype for Business Server.
 
-Exchange Server 2013 ou posterior e Skype for Business Server são compatíveis e se integram bem. Por exemplo, Skype for Business informações de presença do usuário podem ser relatadas no Microsoft Outlook; Da mesma forma, Skype for Business pode acessar o calendário de Outlook do usuário, perceber que o usuário tem uma reunião agendada e mostrar a presença do usuário como Ocupado durante a reunião. Embora você não tenha que executar Exchange Server para executar Skype for Business Server (ou vice-versa) os dois produtos juntos aprimoram a experiência do usuário uns dos outros.
+Exchange Server 2013 ou posterior e Skype for Business Server são compatíveis e se integram bem. Por exemplo, Skype for Business informações de presença do usuário podem ser relatadas no Microsoft Outlook; da mesma forma, o Skype for Business pode acessar o calendário de Outlook do usuário, perceber que o usuário tem uma reunião agendada e mostrar a presença do usuário como Ocupado durante a reunião. Embora você não tenha que executar Exchange Server para executar Skype for Business Server (ou vice-versa) os dois produtos juntos aprimoram a experiência do usuário uns dos outros.
 
 Esta documentação fornece informações sobre a integração do Skype for Business Server e Exchange Server 2016 ou Exchange Server 2013, mas supõe que a configuração inicial e a configuração desses dois produtos já tenha ocorrido. Para obter detalhes sobre a implantação Skype for Business Server consulte o [Skype for Business Server Tech Center](../../../Hub/index.yml). Para obter detalhes sobre a implantação Exchange Server consulte a documentação de implantação para sua versão do Exchange.
 

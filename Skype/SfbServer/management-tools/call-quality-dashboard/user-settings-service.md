@@ -1,8 +1,8 @@
 ---
 title: User Configurações Service for Call Quality Dashboard (CQD)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 'Resumo: saiba mais sobre o Serviço Configurações usuário, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade de Chamada é uma ferramenta para Skype for Business Server.'
-ms.openlocfilehash: 81abbc31a82fc696a5bcb45faf4120b71fc26f74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6c1a44eda6443aa4a5048a9d3f035567ce2f5d8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856578"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398815"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>User Configurações Service for Call Quality Dashboard (CQD)
  

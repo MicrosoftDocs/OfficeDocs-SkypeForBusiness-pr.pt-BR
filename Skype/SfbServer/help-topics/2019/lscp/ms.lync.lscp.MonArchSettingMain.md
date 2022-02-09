@@ -1,8 +1,8 @@
 ---
 title: Configuração de Arquivamento
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você usa configurações de arquivamento para controlar as opções de arquivamento para sua implantação Skype for Business Server, incluindo habiligá-lo e desabilitar as seguintes opções:'
-ms.openlocfilehash: 8eba27c2fc132e97b6b9857a72f029b567890947
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 312a5722bd79952fe4f0674d6db7f93e64b1416b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828224"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402555"
 ---
 # <a name="archiving-configuration"></a>Configuração de Arquivamento
  
@@ -68,5 +68,5 @@ A página **Configuração de Arquivamento** lista cada política de Arquivament
     
 - **Atualizar** Você pode atualizar a página **Configuração de** Arquivamento para verificar o status das opções de todas as configurações de Arquivamento.
     
-Para obter detalhes sobre o recurso e recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), Deploy [archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)e Manage [archiving in Skype for Business Server](../../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso e recursos de arquivamento, incluindo Exchange integração, consulte [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md) e [Manage archiving in Skype for Business Server ](../../../manage/archiving/archiving.md).
 

@@ -1,7 +1,7 @@
 ---
 title: Criar um modelo de equipe personalizado Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1fa114e6bc15ff8aeb6d0e75dcb6c0c45871b436
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864478"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399545"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Criar um modelo de equipe personalizado Microsoft Teams
 
@@ -38,25 +38,25 @@ Para começar:
 
 1. Entre no Centro de administração do Teams.
 
-2. Na navegação à esquerda, expanda **Teams**  >  **modelos de equipe**.
+2. Na navegação à esquerda, **expanda Teams** >  **modelos Deteam**.
 
 3. Selecione **Adicionar**.
 
     ![Uma imagem da caixa de diálogo Modelos de equipe com Add realçada.](media/team-templates-new.png)
 
-4. Na seção **Modelos de Equipe,** selecione **Criar um novo modelo**.
+4. Na seção **Modelos de equipe** , selecione **Criar um novo modelo**.
 
-5. Na seção **Configurações do modelo,** conclua os seguintes campos e selecione **Next**:
+5. Na seção **Configurações do modelo** , conclua os seguintes campos e selecione **Próximo**:
     - Nome do modelo
     - Descrições curtas e longas do modelo
     - Visibilidade de localidade  
 
     ![Uma imagem da caixa de diálogo de nomenlagem de configurações de modelos de equipe.](media/template-add-a-name.png)
 
-6. Na seção **canais, guias e aplicativos,** adicione todos os canais e aplicativos de que sua equipe precisa.
+6. Na seção **canais, guias e aplicativos** , adicione todos os canais e aplicativos de que sua equipe precisa.
 
-    1. Na seção **Canais,** selecione **Adicionar**.
-    2. Na caixa **de diálogo Adicionar,** nomeia o canal.
+    1. Na seção **Canais** , selecione **Adicionar**.
+    2. Na caixa **de diálogo Adicionar** , nomeia o canal.
     3. Adicione uma descrição.
     4. Decida se o canal deve ser mostrado por padrão.
     5. Procure um nome de aplicativo que você deseja adicionar ao canal.
@@ -84,7 +84,7 @@ Para começar:
 
 2. Na seção Canais, adicione um novo canal ou selecione um canal existente e selecione **Editar**.
 
-3. Na seção **Adicionar um aplicativo para este modelo,** adicione um aplicativo site.
+3. Na seção **Adicionar um aplicativo para este modelo** , adicione um aplicativo site.
 
     ![adicionar um aplicativo para essa opção de modelo.](media/add-an-app-template.png)
 
@@ -96,7 +96,7 @@ Para começar:
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-**Problema**: se você criou uma equipe a partir de um modelo personalizado que continha guias personalizadas adicionais, você pode ver guias em branco no lugar de seus aplicativos de guia personalizados. Suas guias padrão (como **Postagens,** **Arquivos** e **Wiki**) serão exibidas conforme o esperado.
+**Problema**: se você criou uma equipe a partir de um modelo personalizado que continha guias personalizadas adicionais, você pode ver guias em branco no lugar de seus aplicativos de guia personalizados. Suas guias padrão (como **Postagens**, **Arquivos** e **Wiki**) serão exibidas conforme o esperado.
 
 **Solução**: para corrigir esse problema, remova a guia personalizada e adicione uma nova guia com o mesmo aplicativo. Se você não tiver permissões para remover a guia personalizada e adicionar uma nova guia, contate o proprietário da equipe para saber mais.
 
@@ -106,7 +106,7 @@ No momento, estamos trabalhando em uma correção para equipes futuras criadas a
 
 ![mensagem de erro do navegador.](media/browser-error-message.png)
 
-**Solução**: se você tiver problemas para exibir o conteúdo da guia site, será redirecionado para abrir a guia em uma página da Web separada ou abrir o Teams no aplicativo da área de trabalho em vez de exibir seu aplicativo de guia de site.
+**Solução**: se você tiver problemas para exibir o conteúdo da guia site, será redirecionado para abrir a guia em uma página da Web separada ou abrir Teams no aplicativo da área de trabalho em vez de exibir seu aplicativo de guia do site.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

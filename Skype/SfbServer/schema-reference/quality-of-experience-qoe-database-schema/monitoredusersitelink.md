@@ -1,8 +1,8 @@
 ---
 title: Tabela MonitoredUserSiteLink
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,20 +13,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
 description: MonitoredUserSiteLink é uma tabela de suporte. Cada registro representa um link entre dois locais de usuários.
-ms.openlocfilehash: 83278162f5e2a499bd68b874ca9eb961c09cf3d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7c9e924092b687abe6fefe579109e943fd7c71ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829755"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399525"
 ---
 # <a name="monitoredusersitelink-table"></a>Tabela MonitoredUserSiteLink
  
 MonitoredUserSiteLink é uma tabela de suporte. Cada registro representa um link entre dois locais de usuários.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**UserSite1Key** <br/> |int  <br/> |Primário, externo  <br/> |Referenciado na tabela [UserSite](usersite.md).  <br/> |
-|**UserSite2Key** <br/> |int  <br/> |Primário, externo  <br/> |Referência da tabela [UserSite](usersite.md).  <br/> |
+|**UserSite2Key** <br/> |int  <br/> |Primário, externo  <br/> |Referência da [tabela UserSite](usersite.md).  <br/> |
    
 

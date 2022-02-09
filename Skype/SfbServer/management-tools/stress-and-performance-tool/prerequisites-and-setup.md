@@ -1,8 +1,8 @@
 ---
 title: Pré-requisitos e configuração para o Skype para Ferramenta de Desempenho e Estresse de Barramentos
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Requisitos ou pré-requisitos para a Ferramenta de Desempenho e Skype for Business Server 2015. Como instalar ou configurar a Ferramenta de Estresse e Desempenho.
-ms.openlocfilehash: 60ff4476a92949b2f5ba0d7a027b5cadf3eab533
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ec7e2b66427d360a9d54c38146289e4d08f9238d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835159"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399615"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Pré-requisitos e configuração para o Skype para Ferramenta de Desempenho e Estresse de Barramentos
  
@@ -33,7 +33,7 @@ Temos as seguintes seções de requisitos de configuração de hardware, softwar
     
 - [Requisitos de configuração](prerequisites-and-setup.md#ConfigReqs)
     
-Além disso, também temos uma seção abaixo para Instalar a ferramenta de [Skype for Business Server 2015 stress and performance](prerequisites-and-setup.md#Installing)
+Além disso, também temos uma seção abaixo para Instalar a Ferramenta de [Desempenho e Skype for Business Server 2015](prerequisites-and-setup.md#Installing)
   
 ## <a name="client-hardware-requirements"></a>Requisitos de hardware do cliente
 <a name="ClientHardwareReqs"> </a>
@@ -83,6 +83,6 @@ Você precisará dessas configurações adicionais feitas para executar a Ferram
 
 A instalação não poderia ser mais simples. Você precisa executar o arquivo Windows Installer, **CapacityPlanningTool.msi**, em cada computador cliente que você usará para simular o tráfego do usuário e em um Servidor Front-End em cada pool onde você criará usuários e contatos.
   
-Para baixar o .msi, juntamente com os scripts de exemplo mencionados em nossos outros artigos, acesse o link Central de Download: [Skype for Business Server 2015, Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367).
+Para baixar o .msi, juntamente com os scripts de exemplo mencionados em nossos outros artigos, acesse o link Centro de Download: [Skype for Business Server 2015, Ferramenta de Estresse e Desempenho](https://www.microsoft.com/download/details.aspx?id=50367).
   
 

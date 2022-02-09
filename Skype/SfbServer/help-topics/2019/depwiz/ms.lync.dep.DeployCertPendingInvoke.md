@@ -1,8 +1,8 @@
 ---
 title: Certificado Pendente (Invocar)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: A pagina Comandos em Execução exibe o status dos comandos que estão recuperando o certificado pendente. Quando a tarefa é concluída, o arquivo de log de Recuperar Certificados Pendentes torna-se disponível. Clique em Exibir Log para examinar o status de processamento e de conclusão das tarefas. Clique em Avançar  para continuar.
-ms.openlocfilehash: 91446802c2060e3a91815965b6ff2f8cc20d19bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef99d73732aae676ac8b845691d9b0a8437e3971
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858618"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398261"
 ---
 # <a name="pending-certificate-invoke"></a>Certificado Pendente (Invocar)
  

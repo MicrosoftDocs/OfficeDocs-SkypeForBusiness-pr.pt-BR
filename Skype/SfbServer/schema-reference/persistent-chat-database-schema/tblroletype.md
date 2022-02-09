@@ -1,8 +1,8 @@
 ---
 title: tblRoleType
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 description: tblRoleType é uma tabela de pesquisa estática com tipos de funções e seus conjuntos de permissões associados.
-ms.openlocfilehash: 9771d18dda2f10b1e75aa3ea4058f60ed2b5cc76
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6cee18f0397154f1058602be088ab07292d6cf7e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844044"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401685"
 ---
 # <a name="tblroletype"></a>tblRoleType
  

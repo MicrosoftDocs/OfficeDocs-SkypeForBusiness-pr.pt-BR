@@ -1,8 +1,8 @@
 ---
 title: Ameaças comuns à segurança na computação moderna
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/22/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Como Skype for Business Server é um sistema de comunicações de classe empresarial, você deve estar ciente de ataques comuns de segurança que podem afetar sua infraestrutura e comunicações.
-ms.openlocfilehash: 8f546ff95bec714f9ddd922b4b786d4a6bd5549c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 187caacad29e3959169ee7b1053729f28e4755d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851805"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400865"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Ameaças comuns à segurança na computação moderna
  
@@ -91,7 +91,7 @@ Um vírus é uma unidade de código cujo objetivo é reproduzir unidades de cód
 
 Skype for Business Server tem o potencial de divulgar informações por meio de uma rede pública que pode ser vinculada a um indivíduo. Os tipos de informações podem ser classificados em duas categorias específicas:
   
-- **Dados de presença aprimorados** Dados de presença aprimorados são informações que um usuário pode optar por compartilhar ou não compartilhar por meio de um link para um parceiro federado ou com contatos dentro de uma organização. Esses dados não são compartilhados com usuários em uma rede pública de mensagens instantâneas. As políticas cliente e outras configurações cliente podem aplicar algum controle com o administrador do sistema. No Skype for Business Server, o modo de privacidade de presença aprimorado pode ser configurado para um usuário individual para impedir que Skype for Business usuários que não estão na lista de Contatos do usuário possam ver as informações de presença do usuário. O modo de privacidade de presença aprimorado não impede que os usuários do Microsoft Office Communicator 2007 e Microsoft Office Communicator 2007 R2 veja as informações de presença de um usuário. Para obter detalhes sobre como implantar o cliente e a presença, consulte [Deploy clients for Skype for Business Server](../../deploy/deploy-clients/deploy-clients.md) and Plan for instant [messaging and presence in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
+- **Dados de presença aprimorados** Dados de presença aprimorados são informações que um usuário pode optar por compartilhar ou não compartilhar por meio de um link para um parceiro federado ou com contatos dentro de uma organização. Esses dados não são compartilhados com usuários em uma rede pública de mensagens instantâneas. As políticas cliente e outras configurações cliente podem aplicar algum controle com o administrador do sistema. No Skype for Business Server, o modo de privacidade de presença aprimorado pode ser configurado para um usuário individual para impedir que Skype for Business usuários que não estão na lista de Contatos do usuário possam ver as informações de presença do usuário. O modo de privacidade de presença aprimorado não impede que os usuários do Microsoft Office Communicator 2007 e Microsoft Office Communicator 2007 R2 veja as informações de presença de um usuário. Para obter detalhes sobre como implantar o cliente e a presença, consulte [Deploy clients for Skype for Business Server](../../deploy/deploy-clients/deploy-clients.md) and [Plan for instant messaging and presence in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
     
 - **Dados obrigatórios** Os dados obrigatórios são necessários para a operação adequada do servidor ou do cliente e NÃO estão sob o controle da administração do cliente ou do sistema. Essas são as informações necessárias em um nível de servidor ou de rede para fins de roteamento, manutenção de estado e sinalização.
     

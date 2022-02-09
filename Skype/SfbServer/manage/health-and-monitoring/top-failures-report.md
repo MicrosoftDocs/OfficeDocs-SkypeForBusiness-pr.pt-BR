@@ -1,8 +1,8 @@
 ---
 title: Relatório de Falhas Principais no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 'Resumo: saiba mais sobre o Relatório de Falhas Principais Skype for Business Server.'
-ms.openlocfilehash: 3e752ad2f15e6739fb6f1a34aa9f30e86767041d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ad04dee69d44bb28246c87d1001fd1cfafdbfea1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853025"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396503"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Relatório de Falhas Principais no Skype for Business Server
  
@@ -33,7 +33,7 @@ A informação é relatada não apenas para o número total de sessões quando u
   
 ## <a name="accessing-the-top-failures-report"></a>Acessando o Relatório de Falhas Principais
 
-O Relatório de Falhas Principais é acessado a partir da página Relatórios de Monitoramento. Clicar na métrica sessões relatadas o levará ao Relatório de Distribuição de Falhas [em Skype for Business Server](failure-distribution-report.md).
+O Relatório de Falhas Principais é acessado a partir da página Relatórios de Monitoramento. Clicar na métrica sessões relatadas o levará ao Relatório de Distribuição de Falhas [Skype for Business Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Fazendo o melhor uso do Relatório de Falhas Principais
 
@@ -55,7 +55,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
   
 **Filtros de Relatório de Falhas Principais**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são contadas de domingo até sábado.  <br/> |
@@ -72,7 +72,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falhas Prin
   
 **Medição do Relatório de Falhas Principais**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Sim  <br/> |Classificação relativa com base no número de sessões relatadas.  <br/> |
 |**Sessões relatadas** <br/> |Sim  <br/> |Número total de sessões com falha baseadas na ID de diagnóstico e no código de resposta SIP.  <br/> |

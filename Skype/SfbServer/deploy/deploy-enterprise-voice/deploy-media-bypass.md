@@ -1,8 +1,8 @@
 ---
 title: Implantar bypass de mídia Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Implante o bypass de mídia Skype for Business Server Enterprise Voice. Inclui pré-requisitos e lista de verificação do processo de implantação.
-ms.openlocfilehash: c5699d1116faa6bc3b8ae0178ec617bcf06c1ef4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d1815b0ec76bed3aa0da9be52a2eeceb0c29b49d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834689"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400705"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Implantar bypass de mídia Skype for Business Server
  
 Implante o bypass de mídia Skype for Business Server Enterprise Voice. Inclui pré-requisitos e lista de verificação do processo de implantação.
   
-Este tópico supõe que você já tenha publicado e configurado pelo menos um ou mais Servidores de Mediação e pelo menos um par de gateway para fornecer conectividade PSTN. Para obter mais detalhes sobre essas tarefas, consulte [Deploy a Mediation Server in Topology Builder in Skype for Business Server](deploy-a-mediation-server.md) and Define a gateway in [Topology Builder in Skype for Business Server](define-a-gateway.md).
+Este tópico supõe que você já tenha publicado e configurado pelo menos um ou mais Servidores de Mediação e pelo menos um par de gateway para fornecer conectividade PSTN. Para obter mais detalhes sobre essas tarefas, consulte [Deploy a Mediation Server in Topology Builder in Skype for Business Server](deploy-a-mediation-server.md) and [Define a gateway in Topology Builder in Skype for Business Server](define-a-gateway.md).
   
  Se o par ao qual você se conectar for o SBC de um provedor de tronco SIP, certifique-se de que o provedor é um provedor qualificado e que o provedor dá suporte ao bypass de mídia. Por exemplo, vários provedores de tronco SIP permitirão que seu SBC receba tráfego do Servidor de Mediação. Caso sim, o bypass não deve ser habilitado para o tronco em questão. Além disso, não é possível habilitar o bypass de mídia a não ser que sua organização releve seus endereços IP de rede internos para o provedor de tronco SIP.
   

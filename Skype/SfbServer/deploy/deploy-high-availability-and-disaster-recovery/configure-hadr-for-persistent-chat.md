@@ -1,8 +1,8 @@
 ---
 title: 'Business Server 2015: Configurar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: Saiba como configurar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015.
-ms.openlocfilehash: 4a214dedacdd38b875db93dc5e2b13f35d640169
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b98f4c49cb3643faa6d6bbe7b899634a4ef6b159
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829445"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397454"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015: Configurar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente
  
@@ -29,7 +29,7 @@ Skype for Business Server oferece suporte a vários modos de alta disponibilidad
 > [!NOTE]
 > Os Grupos de Disponibilidade AlwaysOn não são suportados com Servidores de Chat Persistente. 
   
-Antes de configurar sua implantação de Chat Persistente para alta disponibilidade e recuperação de desastres, certifique-se de que você está familiarizado com os conceitos em Plan for high availability and [disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). A solução de recuperação de desastres para o Servidor de Chat Persistente descrito nestes tópicos é construída em um pool de Servidor de Chat Persistente estendido. O conteúdo de planejamento descreve os requisitos de recursos e a topologia de pool estendido que permite alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente, incluindo o uso de espelhamento SQL Server para alta disponibilidade e envio de log SQL Server para recuperação de desastres.
+Antes de configurar sua implantação de Chat Persistente para alta disponibilidade e recuperação de desastres, certifique-se de que você está familiarizado com os conceitos em [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). A solução de recuperação de desastres para o Servidor de Chat Persistente descrito nestes tópicos é construída em um pool de Servidor de Chat Persistente estendido. O conteúdo de planejamento descreve os requisitos de recursos e a topologia de pool estendido que permite alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente, incluindo o uso de espelhamento SQL Server para alta disponibilidade e envio de log SQL Server para recuperação de desastres.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Usar o Construtor de Topologias para configurar a alta disponibilidade e a recuperação de desastres
 
@@ -82,7 +82,7 @@ Usando SQL Server Management Studio, conecte-se à instância de banco de dados 
     
 12. Na caixa de diálogo **Banco de dados secundário**, selecione o banco de dados **mgc** da lista.
     
-13. Na guia **Inicializar** banco de dados secundário, escolha a opção Sim, gere um backup completo do banco de dados principal e restaure-o no banco de dados secundário (e crie o banco de dados secundário se ele não **existir)**.
+13. Na guia **Inicializar banco** de dados secundário, escolha a opção **Sim,** gere um backup completo do banco de dados principal e restaure-o no banco de dados secundário (e crie o banco de dados secundário se ele não existir)..
     
 14. Na guia **Copiar Arquivos**, na caixa **Pasta de destino dos arquivos copiados**, digite o caminho da pasta na qual os backups de logs de transação devem ser copiadas. Normalmente, essa pasta está localizada no servidor secundário.
     
@@ -94,7 +94,7 @@ Usando SQL Server Management Studio, conecte-se à instância de banco de dados 
     
 18. Escolha um limite de alerta sob **Alertar se nenhuma restauração ocorrer em**.
     
-19. Observe a agenda de restauração listada na caixa **Agenda** em **Trabalho de restauração**. Para personalizar a agenda da instalação, clique em **Agendar**, ajustar a agenda SQL Server agente conforme necessário e clique em **OK**. Essa agenda deve ser quase a mesma que a agenda de backup.
+19. Observe a agenda de restauração listada na caixa **Agenda** em **Trabalho de restauração**. Para personalizar a agenda para sua instalação, clique em **Agendar**, ajuste a agenda SQL Server agente conforme necessário e clique em **OK**. Essa agenda deve ser quase a mesma que a agenda de backup.
     
 20. Na caixa de diálogo **Propriedades do Banco de Dados**, clique em **OK** para começar o processo de configuração.
     
@@ -102,7 +102,7 @@ Usando SQL Server Management Studio, conecte-se à instância de banco de dados 
 
 Execute as etapas a seguir para que o envio de log continue se o banco de dados de Chat Persistente principal falhar no banco de dados espelho.
   
-1. Falha manualmente no banco de dados de Chat Persistente principal no espelho. Isso é feito usando o Shell de Gerenciamento Skype for Business Server e o cmdlet **Invoke-CsDatabaseFailover.**
+1. Falha manualmente no banco de dados de Chat Persistente principal no espelho. Isso é feito usando o Shell de Gerenciamento Skype for Business Server e o cmdlet **Invoke-CsDatabaseFailover**.
     
 2. Usando a SQL Server Management Studio, conecte-se à instância de espelho principal do Servidor de Chat Persistente.
     
@@ -146,13 +146,13 @@ Execute as etapas a seguir para que o envio de log continue se o banco de dados 
     
 19. Na nova janela de consulta, em **Propriedades do Banco de Dados**, clique em **OK** para iniciar o processo de configuração.
     
-20. Selecione e execute a primeira metade da consulta (consulte a etapa 18) até a linha: -- Fim: Script a ser executado \* \* \* \* \* \* no Primário: \* \* \* \* \* \* .
+20. Selecione e execute a primeira metade da consulta (consulte a etapa 18) até a linha: -- \*\*\*\*\*\*Fim: Script a ser executado no Primário: . \*\*\*\*\*\*
     
     > [!IMPORTANT]
     > A execução manual desse script é necessária porque SQL Server Management Studio não dá suporte a vários bancos de dados principais em uma configuração SQL Server Envio de Log. 
   
 21. Selecione **Cancelar** para fechar o painel de configuração de envio do Arquivo de Log e para estabelecer uma configuração de trabalho que implemente corretamente o envio do arquivo de log para os bancos de dados primário e espelhado (no case de failover).
     
-22. Retornar manualmente o banco de dados de Chat Persistente principal para o principal. Isso é feito usando o Shell de Gerenciamento Skype for Business Server e o cmdlet **Invoke-CsDatabaseFailover.**
+22. Retornar manualmente o banco de dados de Chat Persistente principal para o principal. Isso é feito usando o Shell de Gerenciamento Skype for Business Server e o cmdlet **Invoke-CsDatabaseFailover**.
     
 

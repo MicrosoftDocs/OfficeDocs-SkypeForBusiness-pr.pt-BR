@@ -1,8 +1,8 @@
 ---
 title: Editar a topologia no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Após concluir as perguntas iniciais de entrevista, você pode editar o FQDN (nome de domínio totalmente qualificado) e endereços IP do site. Para isso, na página Topologia Global, clique duas vezes no site que deseja editar.
-ms.openlocfilehash: 698f7e5e94666a67dd01c55a877a037452fd58e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ee6b78bb5ce14c7989104b057570f39f43f0937e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861188"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401805"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar a topologia no Skype for Business Server 2015
 
@@ -37,7 +37,7 @@ A Ferramenta de Planejamento exibe a topologia do site para o site selecionado. 
 
      ![Página Relatório do Administrador de Borda.](../../media/Planning_Tool_Summary_Report.png)
 
-  - Relatório de Resumo - Um relatório geral das configurações da rede de Borda. Se você editar os  valores na página Diagrama de Rede de Borda para os valores de topologia TCP/IP e FQDN que serão usados na implantação real, esses endereços e nomes serão representados aqui. Caso contrário, o texto padrão aparecerá.
+  - Relatório de Resumo - Um relatório geral das configurações da rede de Borda. Se você editar os valores na página  Diagrama de Rede de Borda para os valores de topologia TCP/IP e FQDN que serão usados na implantação real, esses endereços e nomes serão representados aqui. Caso contrário, o texto padrão aparecerá.
 
   - Relatório de Certificado - O relatório de certificado lista o nome do assunto e os nomes alternativos de assunto para os certificados necessários para a topologia.
 
@@ -45,7 +45,7 @@ A Ferramenta de Planejamento exibe a topologia do site para o site selecionado. 
 
   - Relatório DNS - O Relatório DNS lista informações relevantes para as entradas DNS que você deve criar. Estão incluídos o tipo de registro, o FQDN, o endereço IP e os comentários necessários para a operação apropriada.
 
-- Resumo do Site - O resumo do site apresenta uma visão geral das seleções que você fez respondendo às perguntas iniciais da entrevista ou preenchendo os valores em **Sites de Design.** Informações de capacidade também são apresentadas.
+- Resumo do Site - O resumo do site apresenta uma visão geral das seleções que você fez respondendo às perguntas iniciais da entrevista ou preenchendo os valores em **Sites de Design**. Informações de capacidade também são apresentadas.
 
     > [!NOTE]
     > As informações na página do Resumo do site são personalizadas para cada design e podem não conter todas as seções ou informações detalhadas aqui.
@@ -73,13 +73,13 @@ Um recurso útil da Ferramenta de Planejamento é que ela pode atribuir incremen
 
 2. Por exemplo, o valor inicial do primeiro servidor é fe0101.contoso.com e um endereço IP de 192.168.21.122.
 
-3. Digite fe0.contoso.com no **FQDN** do Servidor front-end , digite 192.168.21.131 no endereço IP do **servidor front-end** e clique em **OK**.
+3. Digite fe0.contoso.com no **FQDN do Servidor front-end**, digite 192.168.21.131 no endereço **IP do servidor front-end** e clique em **OK**.
 
 4. O recurso de incremento automático atualiza todos os servidores do pool para fe01 a fe06 e todos os endereços IP de 192.168.21.131 a 136.
 
 Depois de concluir todas as edições, salve a topologia concluindo as seguintes etapas:
 
-Para salvar o design da Ferramenta de Planejamento, clique em **Arquivo** e, em seguida, clique em **Salvar Topologia** ou **Salvar Topologia como**. Se uma caixa de diálogo **Salvar Ferramenta de Planejamento como** for exibida, digite um nome para o arquivo em **Nome do arquivo** e clique em **Salvar**.
+Para salvar o design da Ferramenta de Planejamento, clique em **Arquivo** e clique em **Salvar Topologia** ou **Salvar Topologia como**. Se uma caixa de diálogo **Salvar Ferramenta de Planejamento como** for exibida, digite um nome para o arquivo em **Nome do arquivo** e clique em **Salvar**.
 
 ## <a name="see-also"></a>Confira também
 <a name="Edit_Network_diagram"> </a>

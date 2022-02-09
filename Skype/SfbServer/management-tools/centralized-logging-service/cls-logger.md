@@ -1,8 +1,8 @@
 ---
 title: ClS Logger for Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Resumo: Saiba como usar o Agente de Log Centralizado (CLS) no Skype for Business Server 2015.'
-ms.openlocfilehash: dbe8ef417eb702943c76214be492151ee4d1dac7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 24db5a23a29f9ae91ef2c3cab351fe7ca8c93a32
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862178"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398795"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>ClS Logger for Skype for Business Server 2015
  
@@ -89,21 +89,21 @@ Para pesquisar logs, selecione a guia "Pesquisar Logs CLS" e clique no botão "L
 > 
 > **Hora de Término** O período em que o CLS para de consultar os logs. (Obrigatório)
 > 
-> **Componentes** Usado para selecionar quais componentes adicionar à consulta. Opcional.
+> **Componentes** Usado para selecionar quais componentes adicionar à consulta. (Opcional)
 > 
-> **ID de chamada** A ID de chamada de qualquer caixa de diálogo SIP a ser filtrada. Observação: este campo usa correspondência exata. Opcional.
+> **ID de chamada** A ID de chamada de qualquer caixa de diálogo SIP a ser filtrada. Observação: este campo usa correspondência exata. (Opcional)
 > 
-> **ID da conferência** A ID da conferência de todas as conferências a serem filtradas. Observação: este campo usa correspondência exata. Opcional.
+> **ID da conferência** A ID da conferência de todas as conferências a serem filtradas. Observação: este campo usa correspondência exata. (Opcional)
 > 
-> **Endereço IP** O endereço IP que deve ser filtrado. Observação: este campo usa correspondência exata. Opcional.
+> **Endereço IP** O endereço IP que deve ser filtrado. Observação: este campo usa correspondência exata. (Opcional)
 > 
-> **IDs de correlação** Trace instruções que são logicamente vinculadas por essa ID. Opcional.
+> **IDs de correlação** Trace instruções que são logicamente vinculadas por essa ID. (Opcional)
 > 
-> **Telefone Número** Filtrar por número de telefone. Opcional.
+> **Telefone filtro de número** por número de telefone. (Opcional)
 > 
-> **URI SIP** Filtrar por URI SIP. Opcional.
+> **URI SIP** Filtrar por URI SIP. (Opcional)
 > 
-> **Conteúdo da mensagem SIP contém** Filtrar pelo conteúdo da mensagem SIP, isso substring search within this field. Opcional.
+> **Conteúdo da mensagem SIP contém** Filtrar pelo conteúdo da mensagem SIP, isso substring search within this field. (Opcional)
 > 
 > **Corresponder a qualquer** Pesquisa usando um OR lógico se verificado. O padrão é Exact match of all parameters.
 > 
@@ -113,7 +113,7 @@ Para pesquisar logs, selecione a guia "Pesquisar Logs CLS" e clique no botão "L
   
 ## <a name="create-a-scenario"></a>Criar um cenário
 
-1. Na guia **Editar Cenários,** clique no **botão Criar Cenário.**
+1. Na guia **Editar Cenários** , clique no **botão Criar Cenário** .
     
     > [!NOTE]
     > A criação de um novo cenário clona a configuração do cenário selecionado no momento. Se você clicar **em Limpar Configurações** antes de criar um novo cenário, ele começará sem componentes e Sinalizadores selecionados.
@@ -126,17 +126,17 @@ Para pesquisar logs, selecione a guia "Pesquisar Logs CLS" e clique no botão "L
 
 ![ClS Logger Screen shot, edit scenarios.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
-1. Na guia **Editar Cenários,** localizou o cenário desejado para modificar.
+1. Na guia **Editar Cenários** , localizou o cenário desejado para modificar.
     
 2. Faça as alterações desejadas nos componentes, níveis e sinalizadores.
     
-3. Clique no **botão Salvar Cenário.**
+3. Clique no **botão Salvar Cenário** .
     
 4. Ao salvar com êxito o cenário, ele atualizará o painel de informações do cenário com a configuração atualizada.
     
 ## <a name="delete-a-scenario"></a>Excluir um cenário
 
-1. Na guia **Editar Cenários,** selecione um Cenário existente no menu suspenso Cenários.
+1. Na guia **Editar Cenários** , selecione um Cenário existente no menu suspenso Cenários.
     
 2. Clique **em Excluir Cenário** para excluir o cenário.
     

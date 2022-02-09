@@ -1,8 +1,8 @@
 ---
 title: Tabela PurgeSettings (QoE)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: 'A tabela PurgeSettings contém informações que especificam se (e quando) os registros de qualidade de experiência defasados serão excluídos automaticamente do banco de dados de QoE. Observe que as informações relacionadas à purga também podem ser obtidas de dentro do Shell de Gerenciamento Skype for Business Server executando o seguinte comando:'
-ms.openlocfilehash: ec89cdfbd634c32ab7a51265ed28e9ee89207892
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93d7f7c5bbb1d05daaf11372cbddf9e515bb90ed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858078"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398515"
 ---
 # <a name="purgesettings-table-qoe"></a>Tabela PurgeSettings (QoE)
  
@@ -30,7 +30,7 @@ Get-CsQoEConfiguration
 
 Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ID** <br/> |int  <br/> |Primário  <br/> |Identificador exclusivo do conjunto de configurações de limpeza de QoE.  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||Quando definido como True (1) o Microsoft Lync Server 2013 limpará periodicamente os registros desatualizados do banco de dados QoE. A limpeza ocorrerá todos os dias na hora especificada pela configuração PurgeHour. Se definido como Falso (0), os registros não serão limpados automaticamente do banco de dados. O valor padrão é verdadeiro.  <br/> |

@@ -5,8 +5,8 @@ ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este artigo descreve como configurar intervalos de porta para Servidores de Borda e como configurar uma política de Qualidade de Serviço para seus Servidores de Borda A/V.
-ms.openlocfilehash: ae955eb8863f561cc1837b7f0319f7424f13e99c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8bbdbf1ce6dd766e8c47bc148d27e48498bfcf80
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829935"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397675"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de Qualidade de Serviço para seus Servidores de Borda em Skype for Business Server
 
@@ -92,13 +92,13 @@ O procedimento a seguir descreve o processo para criar objetos de Política de G
 
 2.  Na caixa **de diálogo** Executar, digite **gpedit.msc** e pressione ENTER.
 
-Se estiver criando políticas com base no Active Directory, você deve fazer logon em um computador em que o Gerenciamento de Política de Grupo tenha sido instalado. Nesse caso, abra o Gerenciamento de Política de Grupo (clique em **Iniciar**, aponte para Ferramentas Administrativas **e** clique em Gerenciamento de Política de **Grupo**) e conclua as seguintes etapas:
+Se estiver criando políticas com base no Active Directory, você deve fazer logon em um computador em que o Gerenciamento de Política de Grupo tenha sido instalado. Nesse caso, abra o Gerenciamento de Política de Grupo (clique em **Iniciar, aponte** para Ferramentas Administrativas e clique em Gerenciamento de Política de **Grupo**) e conclua as seguintes etapas:
 
 1.  No Gerenciamento de Política de Grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os seus computadores Skype for Business Server estão localizados em uma UO chamada Skype for Business Server, a nova política deve ser criada na UO Skype for Business Server.
 
 2.  Clique com o botão direito do mouse no contêiner apropriado e clique em **Criar um GPO neste domínio e vincule-o aqui**.
 
-3.  Na caixa de diálogo Novo **GPO,** digite um nome  para o novo objeto de Política de Grupo na caixa Nome (por exemplo, **Skype for Business Server Áudio**) e clique em **OK**.
+3.  Na caixa **de diálogo Novo GPO**, digite um nome para o novo objeto de Política de Grupo  na caixa Nome (por exemplo, Skype for Business Server **Áudio**) e clique em **OK**.
 
 4.  Clique com o botão direito do mouse na política recém-criada e clique em **Editar**.
 
@@ -106,7 +106,7 @@ A partir daqui o processo é idêntico, independente de você estar criando uma 
 
 1.  No Editor do Gerenciamento de Política de Grupo ou no Editor de Política de Grupo Local, expanda **Configuração do Computador**, **Políticas**, **Configurações do Windows**, clique com o botão direito em **QoS baseada em política** e clique em **Criar nova política**.
 
-2.  Na caixa **de diálogo QoS** baseada em política, na página de abertura, digite um nome para a nova política (por exemplo, **Skype for Business Server Áudio**) na caixa **Nome.** Selecione **Especificar valor de DSCP** e defina o valor como **46**. Deixe a opção **Especificar Taxa de Aceleração de Saída** desmarcada e clique em **Avançar**.
+2.  Na caixa **de diálogo QoS** baseada em política, na página de abertura, digite um nome para a nova política (por exemplo, **Skype for Business Server Áudio**) na **caixa Nome.** Selecione **Especificar valor de DSCP** e defina o valor como **46**. Deixe a opção **Especificar Taxa de Aceleração de Saída** desmarcada e clique em **Avançar**.
 
 3.  Na próxima página, certifique-se de que **Todos os aplicativos** estão selecionados e clique em **Próximo**. Esta configuração instrui a rede a procurar todos os pacotes com uma marcação de DSCP igual a 46, não somente pacotes criados por um aplicativo específico.
 
@@ -126,11 +126,11 @@ Depois de criar a política QoS para tráfego de áudio, você deve criar uma se
 
 Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, deverá criar uma terceira política, fazendo as seguintes substituições:
 
-  - Use um nome de política diferente (e exclusivo) (por exemplo, **Skype for Business Server Compartilhamento de Aplicativo).**
+  - Use um nome de política diferente (e exclusivo) (por exemplo, **Skype for Business Server Compartilhamento de Aplicativos**).
 
   - Defina o valor do DSCP como **24** em vez de 46 (novamente, não é necessário usar o valor 24 para o DSCP. O único requisito é usar para o compartilhamento de aplicativos um valor de DSCP diferente do valor usado para áudio e vídeo).
 
-  - Use o intervalo de portas configurado anteriormente para tráfego de vídeo. Por exemplo, se você tiver reservado as portas 40803 a 49151 para compartilhamento de aplicativos, de definir o intervalo de portas como este: **40803:49151**.
+  - Use o intervalo de portas configurado anteriormente para tráfego de vídeo. Por exemplo, se você reservou as portas 40803 a 49151 para compartilhamento de aplicativos, de definir o intervalo de portas como este: **40803:49151**.
 
 As novas políticas criadas não terão efeito até que a Política de Grupo tenha sido atualizada nos servidores de Borda. Embora a Política de Grupo seja atualizada periodicamente sozinha, você pode forçar uma atualização imediata executando o comando a seguir em cada computador em que for necessário atualizar a Política de Grupo:
 
@@ -144,7 +144,7 @@ Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP c
 
 2.  Na caixa **de diálogo** Executar, digite **regedit** e pressione ENTER.
 
-3.  No Editor do Registro, **expanda HKEY \_ LOCAL \_ MACHINE,** **expanda SYSTEM,** **expanda CurrentControlSet,** expanda **serviços** e **expanda Tcpip**.
+3.  No Editor do Registro, **expanda HKEYLOCALMACHINE\_\_**, expanda **SYSTEM**, **CurrentControlSet**, expanda **serviços** e **expanda Tcpip**.
 
 4.  Clique com o botão direito em **Tcpip**, aponte para **Novo** e clique em **Chave**. Depois que a nova chave do Registro for criada, digite **QoS** e pressione ENTER para renomear a chave.
 

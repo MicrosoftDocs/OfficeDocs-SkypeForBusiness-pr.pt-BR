@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server ferramenta de desempenho e estresse de 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 4/6/2016
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: A Skype for Business Server ferramenta de desempenho e estresse 2015 é usada durante o planejamento de capacidade e ajuste de desempenho em ambientes de não produção ou teste.
-ms.openlocfilehash: 140ca0d169c9863fe3104837dae294ee49bc0f48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b8858d4aa9ca0b31bd53489c505181e34af9cf4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839853"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396303"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server ferramenta de desempenho e estresse de 2015
  
@@ -33,7 +33,7 @@ A Skype for Business Server ferramenta de desempenho e estresse 2015 inclui ferr
     
 - Medir o desempenho de suas Skype for Business Server implantações
     
-Normalmente, você usaria essa ferramenta depois de usar Skype for Business Server Ferramenta de Planejamento do [Skype for Business Server 2015](../../management-tools/planning-tool/planning-tool.md) para projetar a topologia e refinar a topologia com Skype for Business Server Calculadora de Planejamento de Capacidade do [Skype for Business Server 2015.](../../management-tools/capacity-planning-calculator.md) 
+Normalmente, você usaria essa ferramenta depois de usar Skype for Business Server Ferramenta de Planejamento do [Skype for Business Server 2015](../../management-tools/planning-tool/planning-tool.md) para projetar a topologia e refinar a topologia com a Calculadora de Planejamento de Capacidade [Skype for Business Server 2015](../../management-tools/capacity-planning-calculator.md). 
 
 > [!NOTE]
 > Esta ferramenta não será atualizada para Skype for Business Server 2019.

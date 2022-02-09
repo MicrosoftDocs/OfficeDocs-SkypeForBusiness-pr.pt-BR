@@ -5,8 +5,8 @@ ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: O suporte para federação é necessário para permitir que os usuários que têm uma conta com um cliente ou uma organização parceira confiável, incluindo domínios de parceiros e usuários de provedores de mensagens instantâneas públicas (IM) que você suporta, colaborem com usuários em sua organização.
-ms.openlocfilehash: 638a5d0274679a9d9745656e1b2d740791185b04
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9d76801da22de249da04c7b36b6df9cbd8b2afae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854345"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399685"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Habilitar ou desabilitar a conectividade de IM pública e federação Skype for Business Server
 
@@ -35,7 +35,7 @@ Para dar suporte ao acesso de usuários de domínios federados, você deve habil
 Se você quiser impedir temporariamente ou permanentemente o acesso por usuários de domínios federados, poderá desabilitar a federação para sua organização. Use o procedimento nesta seção para habilitar ou desabilitar o acesso de usuário federado para sua organização, incluindo a especificação das opções de federação apropriadas a serem suportadas para sua organização.
 
 > [!NOTE]  
-> A habilitação da federação para sua organização especifica apenas que seus servidores executando o roteamento de suporte do serviço de Borda de Acesso para domínios federados. Os usuários em domínios federados não podem participar de IMs ou conferências em sua organização até que você também configure pelo menos uma política para dar suporte ao acesso de usuário federado. Os usuários de provedores de serviços públicos de IM não podem participar de IMs ou conferências em sua organização até que você também configure pelo menos uma política para dar suporte à conectividade de IM pública. Skype for Business Server não pode usar um serviço de Exchange hospedado para fornecer atendimento de chamadas, acesso de voz do Outlook (incluindo caixa postal) ou serviços de atendimento automático para usuários cujas caixas de correio estão localizadas em um serviço Exchange hospedado até configurar uma política de caixa postal hospedada que forneça informações de roteamento. Para obter detalhes sobre como configurar políticas de comunicação com usuários de domínios federados em outras organizações, consulte [Manage SIP federated domains for your organization](../sip-domains/manage-sip-federated-domains-for-your-organization.md). Além disso, se você deseja dar suporte à comunicação com usuários de provedores de serviços de IM, configure políticas para dar suporte a ela e também configure o suporte para os provedores de serviços individuais que deseja dar suporte. Para obter detalhes,   [consulte Manage SIP federated providers for your organization](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
+> A habilitação da federação para sua organização especifica apenas que seus servidores executando o roteamento de suporte do serviço de Borda de Acesso para domínios federados. Os usuários em domínios federados não podem participar de IMs ou conferências em sua organização até que você também configure pelo menos uma política para dar suporte ao acesso de usuário federado. Os usuários de provedores de serviços públicos de IM não podem participar de IMs ou conferências em sua organização até que você também configure pelo menos uma política para dar suporte à conectividade de IM pública. Skype for Business Server não pode usar um serviço de Exchange hospedado para fornecer atendimento de chamadas, acesso de voz do Outlook (incluindo caixa postal) ou serviços de atendimento automático para usuários cujas caixas de correio estão localizadas em um serviço Exchange hospedado até configurar uma política de caixa postal hospedada que forneça informações de roteamento. Para obter detalhes sobre como configurar políticas de comunicação com usuários de domínios federados em outras organizações, consulte [Manage SIP federated domains for your organization](../sip-domains/manage-sip-federated-domains-for-your-organization.md). Além disso, se você deseja dar suporte à comunicação com usuários de provedores de serviços de IM, configure políticas para dar suporte a ela e também configure o suporte para os provedores de serviços individuais que deseja dar suporte. Para obter detalhes, consulte   [Manage SIP federated providers for your organization](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
 ## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>Para habilitar ou desabilitar o acesso de usuário federado para sua organização
@@ -50,13 +50,13 @@ Se você quiser impedir temporariamente ou permanentemente o acesso por usuário
 
 5.  Em **Editar Configuração de Borda de Acesso**, execute uma das ações a seguir:
     
-      - Para habilitar o acesso de usuário federado para sua organização, marque a caixa de seleção Habilitar comunicações **com usuários federados.**
+      - Para habilitar o acesso de usuário federado para sua organização, marque a caixa de seleção Habilitar comunicações **com usuários federados** .
     
-      - Para desabilitar o acesso de usuário federado para sua organização, desembaixe a caixa de seleção Habilitar comunicações **com usuários federados.**
+      - Para desabilitar o acesso de usuário federado para sua organização, desembaixe a caixa de seleção Habilitar comunicações **com usuários federados** .
 
-6.  Se você selecionou **a caixa de seleção Habilitar comunicações** com usuários federados, faça o seguinte:
+6.  Se você selecionou **a caixa de seleção Habilitar comunicações com usuários federados** , faça o seguinte:
     
-    1.  Se quiser dar suporte à descoberta automática de domínios de parceiros, marque a caixa de seleção **Habilitar** descoberta de domínio do parceiro.
+    1.  Se quiser dar suporte à descoberta automática de domínios de parceiros, marque a caixa de seleção **Habilitar descoberta de domínio** do parceiro.
     
     2.  Se sua organização oferece suporte ao arquivamento de comunicações externas, marque a caixa de seleção Enviar aviso de **isenção** de responsabilidade de arquivamento para parceiros federados.
 
@@ -77,5 +77,5 @@ A conectividade de IM pública e federação também pode ser gerenciada usando 
 
 ## <a name="to-disable-federation-and-public-im-connectivity"></a>Para desabilitar a federação e a conectividade de IM pública
 
-  - Para desabilitar a federação e a conectividade de IM pública, de definir o valor da **propriedade AllowFederatedUsers** como False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+  - Para desabilitar a conectividade de IM pública e federação, de definir o valor da **propriedade AllowFederatedUsers** como False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

@@ -1,8 +1,8 @@
 ---
 title: Planejar sua implantação Skype for Business Server 2019
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2019
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumo: explore esses links para saber como desenvolver designs conceituais, lógicos e físicos para Skype for Business Server recursos, servidores e topologias de 2019.'
-ms.openlocfilehash: fd75f705c0307adc8819b09bb9c738dbdc9c38c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb8374e2c5b4f35ae60a4bd9f1de507c6650a4a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863118"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400025"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planejar sua implantação Skype for Business Server 2019
  
@@ -61,5 +61,5 @@ Os recursos a seguir sobre como planejar Skype for Business Server estão dispon
 |&nbsp;&nbsp;&nbsp;|Conteúdo|Descrição|
 |:--- |:--- |:--- |
 |![Ícone para DMC.](../media/paragraph_writing.png)| [Skype for Business Server para profissionais de IT](../../Hub/index.yml)   |Visite docs.microsoft.com e centros de recursos para acessar vídeos, sites da comunidade, documentação, downloads e muito mais.    |
-|![Ícone para conteúdo do desenvolvedor.](../media/developer.png)|[Skype Plataforma do Desenvolvedor](/skype-sdk/skypedeveloperplatform)   | Encontre recursos de desenvolvedor para Skype for Business Server, incluindo exemplos de código, treinamento e SDKs.    |
+|![Ícone para conteúdo do desenvolvedor.](../media/developer.png)|[Skype Plataforma para Desenvolvedores](/skype-sdk/skypedeveloperplatform)   | Encontre recursos de desenvolvedor para Skype for Business Server, incluindo exemplos de código, treinamento e SDKs.    |
 |![Ícone para notícias, blogs e assim por diante.](../media/blog_site.png) | <UL><LI>   [Blogs do Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 Blog Técnico](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype blog de equipe](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Acompanhe as notícias das equipes que criam e documentam Skype for Business Server.    |

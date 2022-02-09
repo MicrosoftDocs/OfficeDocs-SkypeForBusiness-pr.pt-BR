@@ -1,8 +1,8 @@
 ---
 title: Relatório de Lista de Chamada do Grupo de Resposta no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Resumo: saiba mais sobre o aplicativo grupo de resposta no Skype for Business Server.'
-ms.openlocfilehash: df1ff0cb6e7eb4fcae8a506cf62bf075734f97eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8f86e71606f09d5f2313578ef0ab90dfd20c654d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837593"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398935"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Relatório de Lista de Chamada do Grupo de Resposta no Skype for Business Server
 
@@ -41,7 +41,7 @@ O Relatório de lista de chamadas do grupo de resposta representa uma coleção 
 
 ## <a name="accessing-the-response-group-call-list-report"></a>Como acessar o Relatório de Lista de Chamadas de Grupo de Resposta
 
-O Relatório de Lista de Chamada do Grupo de Resposta só pode ser acessado clicando em uma das seguintes métricas encontradas no Relatório de Uso do Grupo de Resposta [em Skype for Business Server](response-group-usage-report.md):
+O Relatório de Lista de Chamada do Grupo de Resposta só pode ser acessado clicando em uma das seguintes métricas encontradas no Relatório de Uso do Grupo de Resposta [no Skype for Business Server](response-group-usage-report.md):
 
 - Chamadas recebidas
 
@@ -93,7 +93,7 @@ Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibi
 **Filtros do Relatório de Lista de Chamadas de Grupo de Respostas**
 
 
-| **Nome**               | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Name**               | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **De** <br/>         | Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 | **To** <br/>           | Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>        |
@@ -106,7 +106,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Lisa de Cha
 
 **Métricas do Relatório de Lista de Chamadas de Grupo de Resposta**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Caller** <br/> |Não  <br/> |Endereço SIP do chamador.  <br/> |
 |**Fluxo de trabalho** <br/> |Não  <br/> |Endereço SIP do fluxo de trabalho do Grupo de Resposta.  <br/> |

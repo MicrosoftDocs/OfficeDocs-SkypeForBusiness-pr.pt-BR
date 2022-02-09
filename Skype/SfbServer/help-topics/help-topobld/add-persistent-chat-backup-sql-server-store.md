@@ -1,8 +1,8 @@
 ---
 title: Adicionar Backup do Chat Persistente do Repositório do SQL Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: Configure os armazenamentos de SQL Server backup que fornecerão bancos de dados de backup para o Servidor de Chat Persistente ou pool de Servidores de Chat Persistente.
-ms.openlocfilehash: 038e8aff6c905ae60c7f5ed8a1e704cf7961d5dc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 447e1005cc2ac5cc4783a38094e5de8b84a53cc3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863898"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395713"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Adicionar Backup do Chat Persistente do Repositório do SQL Server
  
@@ -28,9 +28,9 @@ Configure os armazenamentos de SQL Server backup que fornecerão bancos de dados
   
  **SQL Server:** selecione um SQL Server existente e, opcionalmente, uma instância para Chat Persistente.
   
-Clique **em Novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para os dados de backup de Chat Persistente.
+Clique **em Novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para os dados de backup do Chat Persistente.
   
-Marque a **caixa de seleção** Habilitar SQL Server armazenamento de espelhamento para configurar um banco de dados SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de backup de Chat Persistente.
+Marque a **caixa de seleção** Habilitar SQL Server de espelhamento de armazenamento para configurar um banco de dados SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de backup de Chat Persistente.
   
 Selecione na lista **Espelhamento SQL Server armazenar** uma instância SQL Server e opcional para atuar como o espelho SQL Server para o backup de chat persistente SQL Server.
   
@@ -42,7 +42,7 @@ Clique **em Novo** para definir uma nova SQL Server testemunha opcionalmente uma
   
 Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
-Clique **em Avançar** depois de inserir as opções para a configuração de armazenamento de backup SQL Server do pool e continuar com a definição do pool do Servidor de Chat Persistente.
+Clique **em Avançar** depois de terminar de inserir as opções para a configuração do SQL Server de backup desse pool e prosseguir com a definição do pool do Servidor de Chat Persistente.
   
 Clique em **Cancelar** para descartar todas as alterações e encerrar o assistente **Definir Novo Pool de Chat Persistente**.
   

@@ -5,8 +5,8 @@ ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este artigo descreve como configurar intervalos de porta para seus clientes e configurar políticas de Qualidade de Serviço no Skype for Business Server para clientes em execução em Windows 10.
-ms.openlocfilehash: 5fa7a425bbb734307b487f63aa7fdf809f627661
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 73bb41a2d7bb585252e8362cf70f2988c6df5882
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860068"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398915"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de Qualidade de Serviço para seus clientes em Skype for Business Server
 
@@ -54,7 +54,7 @@ Se você verificar o resultado anterior, você verá duas coisas de importância
 
 **ClientMediaPortRangeEnabled : False**
 
-Isso é importante porque, quando essa propriedade for definida como False, os clientes Skype for Business usarão qualquer porta disponível entre as portas 1024 e 65535 quando envolvidos em uma sessão de comunicação; isso é verdadeiro independentemente de qualquer outra configuração de porta (por exemplo, ClientMediaPort ou ClientVideoPort). Se você deseja restringir o uso a um conjunto especificado de portas (e isso é algo que você deseja fazer se planeja implementar a Qualidade de Serviço), primeiro você deve habilitar intervalos de porta de mídia do cliente. Isso pode ser feito usando o seguinte comando Windows PowerShell:
+Isso é importante porque, quando essa propriedade é definida como False, os clientes Skype for Business usarão qualquer porta disponível entre as portas 1024 e 65535 quando envolvidos em uma sessão de comunicação; isso é verdadeiro independentemente de qualquer outra configuração de porta (por exemplo, ClientMediaPort ou ClientVideoPort). Se você deseja restringir o uso a um conjunto especificado de portas (e isso é algo que você deseja fazer se planeja implementar a Qualidade de Serviço), primeiro você deve habilitar intervalos de porta de mídia do cliente. Isso pode ser feito usando o seguinte comando Windows PowerShell:
 
 **Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True**
 
@@ -169,21 +169,21 @@ O exemplo a seguir usa esse conjunto de intervalos de porta para criar uma polí
 </tbody>
 </table>
 
-Para criar uma política de áudio qualidade de serviço para computadores Windows 10, primeiro faça logoff em um computador onde o Gerenciamento de Política de Grupo foi instalado. Abra o Gerenciamento de Política de Grupo (clique em **Iniciar**, aponte para Ferramentas Administrativas **e** clique em Gerenciamento de Política de **Grupo**) e conclua o seguinte procedimento:
+Para criar uma política de áudio qualidade de serviço para computadores Windows 10, primeiro faça logoff em um computador onde o Gerenciamento de Política de Grupo foi instalado. Abra o Gerenciamento de Política de Grupo (clique em **Iniciar**, aponte para Ferramentas Administrativas e clique em Gerenciamento de Política de **Grupo**) e conclua o seguinte procedimento:
 
 1.  No Gerenciamento de Política de Grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os seus computadores clientes estão localizados em uma UO denominada Clients, a nova política deve ser criada na UO cliente.
 
 2.  Clique com o botão direito do mouse no contêiner apropriado e clique em **Criar um GPO neste domínio e vincule-o aqui**.
 
-3.  Na caixa de diálogo Novo **GPO,** digite um nome para o novo objeto de Política de Grupo na caixa **Nome** e clique em **OK**.
+3.  Na caixa **de diálogo Novo GPO** , digite um nome para o novo objeto de Política de Grupo na caixa **Nome** e clique em **OK**.
 
 4.  Clique com o botão direito do mouse na política recém-criada e clique em **Editar**.
 
-5.  No Editor de Gerenciamento de Política de Grupo, **expanda** Configuração do Computador, expanda Windows Configurações **,** clique com o botão direito do mouse em **QoS** baseado em Política e clique em **Criar nova política**.
+5.  No Editor de Gerenciamento de Política de Grupo **, expanda** Configuração do Computador, expanda **Windows Configurações, clique** com o botão direito do mouse em **QoS** baseado em Política e clique em **Criar nova política**.
 
 6.  Na caixa **de diálogo QoS** baseada em política, na página de abertura, digite um nome para a nova política na **caixa** Nome. Selecione **Especificar valor de DSCP** e defina o valor como **46**. Deixe a opção **Especificar Taxa de Aceleração de Saída** desmarcada e clique em **Avançar**.
 
-7.  Na próxima página, selecione **Somente aplicativos** com  esse nome executável, digiteLync.execomo o nome e clique em **Próximo**. Essa configuração instrui a política a priorizar apenas o tráfego correspondente do Skype for Business cliente.
+7.  Na próxima página, selecione **Somente aplicativos** com esse nome executável, digite **Lync.exe** como o nome e clique em **Próximo**. Essa configuração instrui a política a priorizar apenas o tráfego correspondente do Skype for Business cliente.
 
 8.  Na terceira página, certifique-se de que qualquer endereço **IP** de origem e qualquer endereço **IP** de destino estão selecionados e clique em **Próximo**. Essas duas configurações garantem que os pacotes serão gerenciados independente de qual computador (endereço IP) tenha os enviado e de qual computador (endereço IP) os receberá.
 
@@ -201,15 +201,15 @@ Depois de criar a política QoS para áudio, crie uma segunda política para ví
 
 Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, faça estas substituições:
 
-  - Use um nome de política diferente (e exclusivo) (por exemplo, **Skype for Business Server Compartilhamento de Aplicativo).**
+  - Use um nome de política diferente (e exclusivo) (por exemplo, **Skype for Business Server Compartilhamento de Aplicativos**).
 
   - Defina o valor DSCP para **24** em vez de 46. (Novamente, esse valor não precisa ser 24; ele simplesmente deve ser diferente dos valores DSCP usados para áudio e vídeo.)
 
-  - Use o intervalo de portas configurado anteriormente para tráfego de vídeo. Por exemplo, se você reservou as portas 42000 a 42019 para compartilhamento de aplicativos, de definir o intervalo de portas para este: **42000:42019**.
+  - Use o intervalo de portas configurado anteriormente para tráfego de vídeo. Por exemplo, se você reservou as portas 42000 a 42019 para compartilhamento de aplicativos, de definir o intervalo de portas como este: **42000:42019**.
 
 Para uma política de transferência de arquivos:
 
-  - Use um nome de política diferente (e exclusivo) (por exemplo, **Skype for Business Server Transferências de Arquivo**).
+  - Use um nome de política diferente (e exclusivo) (por exemplo, **Skype for Business Server Transferências de Arquivos**).
 
   - De definir o valor DSCP como **14**. (Novamente, esse valor não precisa ser 14; ele simplesmente deve ser um código DSCP exclusivo.)
 
@@ -229,7 +229,7 @@ Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP c
 
 2.  Na caixa **de diálogo** Executar, digite **regedit** e pressione ENTER.
 
-3.  No Editor do Registro, **expanda HKEY \_ LOCAL \_ MACHINE,** **expanda SYSTEM,** **expanda CurrentControlSet,** expanda **serviços** e **expanda Tcpip**.
+3.  No Editor do Registro, **expanda HKEYLOCALMACHINE\_\_**, expanda **SYSTEM**, **CurrentControlSet**, expanda **serviços** e **expanda Tcpip**.
 
 4.  Clique com o botão direito em **Tcpip**, aponte para **Novo** e clique em **Chave**. Depois que a nova chave do Registro for criada, digite **QoS** e pressione ENTER para renomear a chave.
 
@@ -249,9 +249,9 @@ Se você quiser marcar valores DSCP para todos os adaptadores de rede em um comp
 
 2.  Na caixa **de diálogo** Executar, digite **regedit** e pressione ENTER.
 
-3.  No Editor do Registro, **expanda HKEY \_ LOCAL \_ MACHINE,** **expanda SYSTEM,** **expanda CurrentControlSet,** expanda **serviços** e **expanda Tcpip**.
+3.  No Editor do Registro, **expanda HKEYLOCALMACHINE\_\_**, expanda **SYSTEM**, **CurrentControlSet**, expanda **serviços** e **expanda Tcpip**.
 
-4.  Se você não vir uma chave do Registro rotulada **QoS,** clique com o botão direito do mouse em **Tcpip**, aponte para **Novo** e clique em **Tecla**. Depois que a nova chave for criada, digite **QoS** e pressione ENTER para renomear a chave.
+4.  Se você não vir uma chave do Registro rotulada **QoS** , clique com o botão direito do mouse em **Tcpip**, aponte para **Novo** e clique em **Tecla**. Depois que a nova chave for criada, digite **QoS** e pressione ENTER para renomear a chave.
 
 5.  Clique com o botão direito em **QoS**, aponte para **Novo** e clique em **Valor da Sequência**. Depois que o novo valor do Registro for criado, digite **Não usar NLA** e pressione ENTER para renomear o valor.
 

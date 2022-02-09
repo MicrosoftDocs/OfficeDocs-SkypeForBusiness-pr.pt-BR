@@ -1,7 +1,7 @@
 ---
 title: Exemplo de script do PowerShell - Criar grupos de segurança para educadores e alunos em sua escola
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66255e4a8f26109a331446adb099054b1453c3c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 79b73ac2001acfbb7424250c8c6c118808250459
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769849"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398385"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemplo de script do PowerShell - Criar grupos de segurança para educadores e alunos em sua escola
 
@@ -39,13 +39,13 @@ Este script faz o seguinte:
 Você precisará executar esse script regularmente para manter os grupos de segurança atualizados e atualizados.
 
 > [!IMPORTANT]
-> É importante entender as regras [de precedência](../assign-policies-users-and-groups.md#precedence-rules) e a classificação de atribuição de [grupo](../assign-policies-users-and-groups.md#group-assignment-ranking) ao atribuir políticas a grupos. Leia e entenda os conceitos em O que você precisa saber sobre a atribuição de [política a grupos.](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> É importante entender as regras [de precedência](../assign-policies-users-and-groups.md#precedence-rules) e a classificação de atribuição de [grupo](../assign-policies-users-and-groups.md#group-assignment-ranking) ao atribuir políticas a grupos. Leia e entenda os conceitos em [O que você precisa saber sobre a atribuição de política a grupos](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups).
 
 ## <a name="before-you-start"></a>Antes de começar
 
-Baixe e instale o [módulo Skype for Business PowerShell Online](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)e reinicie o computador, se solicitado.
+Baixe e instale o [módulo Skype for Business PowerShell Online](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) e reinicie o computador, se solicitado.
 
-Para se inclinar mais, consulte [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and Teams [PowerShell overview](../teams-powershell-overview.md).
+Para se inclinar mais, consulte [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) [and Teams PowerShell overview](../teams-powershell-overview.md).
 
 
 ## <a name="sample-script"></a>Script de exemplo
@@ -275,4 +275,4 @@ Stop-Transcript
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Atribua políticas a seus usuários no Teams](../policy-assignment-overview.md)
+[Atribuir políticas aos usuários no Microsoft Teams](../policy-assignment-overview.md)

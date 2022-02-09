@@ -1,8 +1,8 @@
 ---
 title: Configurar SharePoint Server para pesquisar dados Skype for Business arquivados
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,20 +14,20 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Resumo: Configure SharePoint Server para pesquisar dados arquivados por Exchange Server e Skype for Business Server.'
-ms.openlocfilehash: d3274c29ccdae22a382d045fc6db3ee448223332
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0f2954d5a9875e3009733fc6d869ca57afbf086b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839623"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397281"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurar SharePoint Server para pesquisar dados Skype for Business arquivados
  
 **Resumo:** Configure SharePoint Server para pesquisar dados arquivados pelo Exchange Server 2016 ou Exchange Server 2013 e Skype for Business Server.
   
-Uma das principais vantagens de armazenar mensagens instantâneas e transcrições de webconferência no Exchange Server em vez de Skype for Business Server é que o armazenamento de dados no mesmo local permite que os administradores usem uma única ferramenta para pesquisar dados de Exchange arquivados e/ou dados Skype for Business Server arquivados. Como todos os dados são armazenados no mesmo local (Exchange) qualquer ferramenta que possa pesquisar por dados Exchange arquivados também pode pesquisar por dados Skype for Business Server arquivados.
+Uma das principais vantagens de armazenar mensagens instantâneas e transcrições de webconferência no Exchange Server em vez de Skype for Business Server é que o armazenamento de dados no mesmo local permite que os administradores usem uma única ferramenta para pesquisar dados de Exchange arquivados e/ou arquivados Skype for Business Server dados. Como todos os dados são armazenados no mesmo local (Exchange) qualquer ferramenta que possa pesquisar por dados Exchange arquivados também pode pesquisar por dados Skype for Business Server arquivados.
   
-Uma ferramenta que facilita a pesquisa de dados arquivados é Microsoft SharePoint Server 2013. Se você quiser usar o SharePoint para pesquisar dados Skype for Business Server, primeiro conclua todas as etapas envolvidas na configuração do Exchange arquivamento no Skype for Business Server. Depois Exchange Server e Skype for Business Server foram integrados com êxito, você deve instalar Exchange API Gerenciada dos [Serviços Web](https://go.microsoft.com/fwlink/p/?LinkId=258305) no servidor SharePoint Web. O arquivo baixado (EWSManagedAPI.msi) pode ser salvo em qualquer pasta no seu servidor do SharePoint.
+Uma ferramenta que facilita a pesquisa de dados arquivados é Microsoft SharePoint Server 2013. Se você quiser usar o SharePoint para pesquisar dados Skype for Business Server, primeiro conclua todas as etapas envolvidas na configuração do Exchange arquivamento no Skype for Business Server. Depois Exchange Server e Skype for Business Server foram integrados com êxito, você deve instalar a API Gerenciada Exchange [Serviços Web](https://go.microsoft.com/fwlink/p/?LinkId=258305) no servidor SharePoint Web. O arquivo baixado (EWSManagedAPI.msi) pode ser salvo em qualquer pasta no seu servidor do SharePoint.
   
 Após o arquivo ter sido baixado, complete o procedimento a seguir no servidor do SharePoint:
   
@@ -63,9 +63,9 @@ $service.Update()
 ```
 
 > [!NOTE]
-> Tenha certeza de qual é o URI para seu serviço de descoberta automática e o use. Não use o URI de https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 exemplo. 
+> Tenha certeza de qual é o URI para seu serviço de descoberta automática e o use. Não use o URI de exemplo https://autodiscover.litwareinc.com/autodiscover/metadata/json/1. 
   
-Depois de criar o emissor de token e configurar o serviço de token, execute esses comandos, substituindo a URL do seu site SharePoint pela URL de exemplo `http://atl-sharepoint-001` :
+Depois de criar o emissor de token e configurar o serviço de token, execute esses comandos, substituindo a URL do seu site SharePoint pela URL de exemplo `http://atl-sharepoint-001`:
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -110,13 +110,13 @@ Quando o novo site estiver pronto, a próxima etapa é configurar Exchange Serve
     
 2. Na página Aplicativo de Serviço de Pesquisa: Administração de Pesquisa, clique em **Fontes de Resultado** e então clique em **Nova Fonte de Resultado**.
     
-3. No painel **Nova Fonte de Resultado** insira um nome para a nova fonte de resultado (por exemplo, **Microsoft Exchange**) na caixa **Nome**. Selecione **Exchange** como o Protocolo de origem do resultado **e** insira a URL de origem dos serviços Web para o servidor Exchange na caixa URL de origem **Exchange.** A URL da fonte deve parecer com esta:
+3. No painel **Nova Fonte de Resultado** insira um nome para a nova fonte de resultado (por exemplo, **Microsoft Exchange**) na caixa **Nome**. Selecione **Exchange** como o Protocolo de origem do resultado e insira a URL de origem dos serviços Web para seu servidor Exchange na caixa URL de origem **Exchange**. A URL da fonte deve parecer com esta:
     
     `https://atl-exchange-001.litwareinc.com/ews/exchange.asmx`
     
 4. Assegure-se de que **Usar Descoberta Automática** não está selecionado, e então clique em **OK**.
     
-Por fim, crie um novo caso de Descoberta EDiscovery e um novo conjunto de Descobertas E concluindo o procedimento a seguir no site SharePoint Descoberta (por exemplo, `https://atl-sharepoint-001/sites/discovery` ):
+Por fim, crie um novo caso de Descoberta EDiscovery e um novo conjunto de Descobertas E concluindo o procedimento a seguir no site SharePoint Descoberta (por exemplo, `https://atl-sharepoint-001/sites/discovery`):
   
 1. Na página de Conteúdos do Site clique em **Criar um novo caso**.
     
@@ -128,9 +128,9 @@ Por fim, crie um novo caso de Descoberta EDiscovery e um novo conjunto de Descob
     
 4. Quando a página de conjunto de descoberta eletrônica aparecer, clique em **novo item** sob **Identidade e Preservação: Conjuntos de Descoberta**.
     
-5. Na página Novo: Conjunto de Descoberta, insira o alias do email do usuário na caixa **Nome do Conjunto de Descoberta**. Insira **eDiscovery Lync \\** _ na caixa _ *Filter** e clique em Adicionar Gerenciar **&amp; Fontes**.
+5. Na página Novo: Conjunto de Descoberta, insira o alias do email do usuário na caixa **Nome do Conjunto de Descoberta**. Insira **eDiscovery Lync\\** _ na caixa _ *Filter** e clique em **Adicionar Gerenciar &amp; Fontes**.
     
-6. Na página Adicionar Gerenciar Fontes, insira o alias de email do usuário na primeira caixa de texto &amp; em Caixas de **Correio**. Clique no ícone de verificação da caixa de correio ao lado da caixa de texto para verificar que o SharePoint consegue se conectar à caixa de correio especificada.
+6. Na página Adicionar &amp; Gerenciar Fontes, insira o alias de email do usuário na primeira caixa de texto em **Caixas de Correio**. Clique no ícone de verificação da caixa de correio ao lado da caixa de texto para verificar que o SharePoint consegue se conectar à caixa de correio especificada.
     
 7. Clique em **OK**.
     

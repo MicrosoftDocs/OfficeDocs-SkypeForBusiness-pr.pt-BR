@@ -1,7 +1,7 @@
 ---
 title: Criar um modelo de uma equipe existente no Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5f22f9acbd3cf39c144ca07cce1c5d690267b6b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0672b72da22abe5ce0b174d40b112cce4fd90673
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828474"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396269"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>Criar um modelo de equipe de uma equipe existente no Microsoft Teams
 
@@ -33,7 +33,7 @@ Microsoft Teams permite criar um modelo de uma equipe existente que pode ser sal
 
 1. Entre no Centro de administração do Teams.
 
-2. Na navegação à esquerda, expanda **Teams**  >  **modelos de equipe**.
+2. Na navegação à esquerda, **expanda Teams** >  **modelos Deteam**.
 
 3. Selecione **Adicionar**.
 
@@ -45,15 +45,15 @@ Microsoft Teams permite criar um modelo de uma equipe existente que pode ser sal
 
 ![Uma imagem da lista de equipes com uma equipe realçada.](media/team-existing-team-selection.png)
 
-6. Na seção **Configurações do modelo,** conclua os seguintes campos e selecione **Next**:
+6. Na seção **Configurações do modelo** , conclua os seguintes campos e selecione **Próximo**:
     - Nome do modelo
     - Descrições curtas e longas do modelo
     - Visibilidade de localidade  
   
-7. Na seção **canais, guias e aplicativos,** adicione todos os canais e aplicativos de que sua equipe precisa.
+7. Na seção **canais, guias e aplicativos** , adicione todos os canais e aplicativos de que sua equipe precisa.
 
-    1. Na seção **Canais,** selecione **Adicionar**.
-    2. Na caixa **de diálogo Adicionar,** nomeia o canal.
+    1. Na seção **Canais** , selecione **Adicionar**.
+    2. Na caixa **de diálogo Adicionar** , nomeia o canal.
     3. Adicione uma descrição.
     4. Decida se o canal deve ser mostrado por padrão.
     5. Procure um nome de aplicativo que você deseja adicionar ao canal.

@@ -1,8 +1,8 @@
 ---
 title: Planejar estacionamento de chamada no Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planejando o estacionamento de chamadas Skype for Business Server Enterprise Voice, o que permite colocar chamadas em espera e transferir chamadas para departamentos. Inclui planejamento de capacidade, chamadas com suporte e clientes com suporte.
-ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a0102dea8a9511fae4031e41230c125b55d14844
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839833"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401765"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planejar estacionamento de chamada no Skype for Business
  
@@ -56,7 +56,7 @@ O aplicativo Estacionamento de Chamada é instalado automaticamente quando você
   
 ### <a name="software-requirements"></a>Requisitos de software
 
-Todos os servidores front-end e servidores Edição Standard onde o Estacionamento de Chamada está implantado devem ter o tempo de execução do formato de mídia do Windows instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Tempo de Execução de Formato de Mídia é instalado como parte do Windows Desktop Experience. Windows O Tempo de Execução de Formato de Mídia ou o Microsoft Media Foundation é necessário para Windows arquivos de Áudio de Mídia (.wma) que o Estacionamento de Chamada reproduz para música em espera.
+Todos os servidores front-end e servidores Edição Standard em que o Estacionamento de Chamada está implantado devem ter o tempo de execução do formato de mídia do Windows instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Tempo de Execução de Formato de Mídia é instalado como parte do Windows Desktop Experience. Windows Tempo de Execução de Formato de Mídia ou Microsoft Media Windows Foundation é necessário para arquivos de áudio de mídia (.wma) que o Estacionamento de Chamada reproduz para música em espera.
   
 ### <a name="port-requirements"></a>Requisitos de porta
 

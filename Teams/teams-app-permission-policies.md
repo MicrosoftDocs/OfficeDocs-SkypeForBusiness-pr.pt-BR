@@ -1,7 +1,7 @@
 ---
 title: Gerenciar políticas de permissão de aplicativos no Microsoft Teams
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b407d0c96e5aa9cbf84277285ab717a1950a9f17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b5f6941de4973362f8cdbd99235d099973264c7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761689"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396239"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissão de aplicativos no Microsoft Teams
 
@@ -45,7 +45,7 @@ Se sua organização já estiver no Teams, as configurações do aplicativo defi
 Digamos, por exemplo, que você deseja bloquear todos os aplicativos de terceiros e permitir aplicativos específicos da Microsoft para a equipe de RH em sua organização. Primeiro, você deve ir para a página [Gerenciar aplicativos](manage-apps.md) e certificar-se de que os aplicativos que deseja permitir para a equipe de RH são permitidos no nível da organização. Em seguida, crie uma política personalizada chamada Política de Permissão de Aplicativos de RH, defina-a para bloquear e permitir os aplicativos que você deseja e atribua-a aos usuários da equipe de RH.
 
 > [!NOTE]
-> Se você implantou o Teams em um ambiente de Alta Microsoft 365 Nuvem da Comunidade Governamental (GCCH) e Departamento de Defesa (DoD), consulte Gerenciar configurações de [aplicativos](#manage-org-wide-app-settings-for-microsoft-365-government) em toda a organização para o Microsoft 365 Government para saber mais sobre configurações de aplicativos de terceiros exclusivas do GCCH e do DoD.
+> Se você implantou o Teams em um ambiente de Alta Microsoft 365 Nuvem da Comunidade Governamental (GCCH) e Departamento de Defesa (DoD), consulte Gerenciar configurações de aplicativo em toda a organização para [o Microsoft 365 Government para](#manage-org-wide-app-settings-for-microsoft-365-government) saber mais sobre configurações de aplicativos de terceiros exclusivas para GCCH e DoD.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Criar uma política de permissão de aplicativo personalizada
 

@@ -5,8 +5,8 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: A conectividade de mensagens instantâneas (IM) ublic permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com os usuários dos serviços de mensagens instantâneas fornecidos por provedores de serviços públicos de mensagens instantâneas.
-ms.openlocfilehash: b5c7d75a6048a584fcb872ed8eb3cd82dfe2076f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05827c7af0f7712db6d2436f2ecdb00838ea53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847304"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398955"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuários públicos Skype for Business Server
 
@@ -33,7 +33,7 @@ No caso de convites de IM, a resposta depende do software cliente. A solicitaç�
 
 
 > [!NOTE]  
-> É possível configurar políticas para controlar o acesso ao usuário público, mesmo se você não tiver habilitado a federação para sua organização. No entanto, as políticas configuradas entram em vigor somente quando a federação está habilitada para sua organização. Para obter detalhes sobre como habilitar a federação, consulte [Enable or disable remote user access](../access-edge/enable-or-disable-remote-user-access.md). Além disso, se você especificar uma política de usuário para controlar o acesso do usuário público, a política se aplicará somente aos usuários habilitados para Skype for Business Server e configurados para usar a política. Para obter detalhes sobre a especificação de usuários públicos que podem entrar no Skype for Business Server, consulte Atribuir uma política de acesso de [usuário externo.](assign-an-external-user-access-policy.md)
+> É possível configurar políticas para controlar o acesso ao usuário público, mesmo se você não tiver habilitado a federação para sua organização. No entanto, as políticas configuradas entram em vigor somente quando a federação está habilitada para sua organização. Para obter detalhes sobre como habilitar a federação, consulte [Enable or disable remote user access](../access-edge/enable-or-disable-remote-user-access.md). Além disso, se você especificar uma política de usuário para controlar o acesso do usuário público, a política se aplicará somente aos usuários habilitados para Skype for Business Server e configurados para usar a política. Para obter detalhes sobre a especificação de usuários públicos que podem entrar no Skype for Business Server, consulte [Atribuir uma política de acesso de usuário externo](assign-an-external-user-access-policy.md).
 
 
 Use o procedimento a seguir para configurar uma política para suportar o acesso de usuários de um ou mais provedores de IM público.
@@ -71,6 +71,6 @@ Para habilitar o acesso do usuário público, você também deve habilitar o sup
 Se for uma política de usuário, também será necessário aplicar a política aos usuários públicos para os quais você deseja permitir a colaboração com usuários públicos. 
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Gerenciar fornecedores SIP federados para sua organização](../sip-providers/manage-sip-federated-providers-for-your-organization.md)

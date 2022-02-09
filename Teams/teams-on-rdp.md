@@ -1,7 +1,7 @@
 ---
 title: Usar Teams com serviços de área de trabalho remota
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 063ded4b2e2963ab30126c5af967017bf4981cef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6bfd184738428c8ebe3d61c999c46c172f93e2fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774361"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398375"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams serviços de área de trabalho remota
 
@@ -47,7 +47,7 @@ Você pode definir políticas usando o centro de administração Microsoft Teams
 
 [**Políticas de chamada**](teams-calling-policy.md): Teams inclui a política de chamada DisallowCalling interna, na qual todos os recursos de chamada estão desligados. Atribua a política DisallowCalling a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
 
-[**Políticas de**](meeting-policies-overview.md)reunião : Teams inclui a política de reunião AllOff interna, na qual todos os recursos de reunião estão desligados. Atribua a política AllOff a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
+[**Políticas de**](meeting-policies-overview.md) reunião: Teams inclui a política de reunião AllOff interna, na qual todos os recursos de reunião estão desligados. Atribua a política AllOff a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Atribuir políticas usando o Microsoft Teams de administração
 
@@ -57,9 +57,9 @@ Para atribuir a política de chamada DisallowCalling e a política de reunião A
 2. Selecione o usuário selecionando à esquerda do nome de usuário e selecione **Editar configurações**.
 3. Faça as seguintes etapas:
 
-    a.  Em **Política de Chamada,** selecione **DisallowCalling**.
+    a.  Em **Política de Chamada**, selecione **DisallowCalling**.
 
-    b.  Em **Política de reunião,** selecione **AllOff**.
+    b.  Em **Política de reunião**, selecione **AllOff**.
 
 4. Selecione **Aplicar**.
 
@@ -67,16 +67,16 @@ Para atribuir uma política a vários usuários por vez:
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
 2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, selecione o &#x2713; (marca de seleção) na parte superior da tabela.
-3. Selecione **Editar configurações,** faça as alterações que você deseja e selecione **Aplicar**.
+3. Selecione **Editar configurações**, faça as alterações que você deseja e selecione **Aplicar**.
 
 Ou você também pode fazer as seguintes etapas:
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
 
-    - Vá para **Políticas de Chamada**  >  **de** Voz e selecione **DisallowCalling**.
-    - Vá para **Políticas de Reunião** de  >  **Reuniões** e selecione **AllOff**.
+    - Vá para **políticas** **voiceCalling** >  e selecione **DisallowCalling**.
+    - Vá para **MeetingsMeeting** >  policies e selecione **AllOff**.
 
-2. Escolha **Gerenciar usuários**.
+2. Selecione **Gerenciar usuários**.
 3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 4. Quando terminar de adicionar usuários, selecione **Salvar**.
 

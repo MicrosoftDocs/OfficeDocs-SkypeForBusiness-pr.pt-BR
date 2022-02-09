@@ -1,8 +1,8 @@
 ---
 title: Instalar os arquivos para o Servidor de Mediação Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Resumo: saiba como instalar os arquivos para o Servidor de Mediação Skype for Business Server.'
-ms.openlocfilehash: 6efe52ab2964e8a9c95083bbcf6592573ebf7da2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e74c966cc43b9768b107aff559429eb8a639e2cd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839683"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397444"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Instalar os arquivos para o Servidor de Mediação Skype for Business Server
  
@@ -36,13 +36,13 @@ Use as etapas deste tópico para executar o Assistente de Implantação do Skype
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>Para instalar os arquivos em um pool do Servidor de Mediação autônomo
 
-1. Na mídia de instalação, clique com o botão  _\<installation media\>_ **direito do mouse\Setup\amd64\Setup.exe** e clique em Executar como **Administrador**.
+1. Na mídia de instalação, clique com  _\<installation media\>_ o botão **direito do mouse\Setup\amd64\Setup.exe** e clique **em Executar como Administrador**.
     
 2. Na página **Local de instalação**, clique em **OK**.
     
 3. Na página **Acordo de licença do usuário final**, clique em **Eu aceito** e em **OK**. (Obrigatório para continuar.)
     
-4. Na página **Skype for Business Server Assistente de Implantação,** clique em Instalar ou Atualizar **Skype for Business Server Sistema.**
+4. Na página **Skype for Business Server Assistente de Implantação**, clique **em Instalar ou Atualizar Skype for Business Server Sistema**.
     
 5. Próximo a **Etapa 1: Instalar repositório de configuração local**, clique em **Executar** e siga as instruções na tela.
     
@@ -50,7 +50,7 @@ Use as etapas deste tópico para executar o Assistente de Implantação do Skype
     
 7. Na página **Executar comandos**, quando o status da tarefa é exibido como **Concluído**, clique em **Finalizar**.
     
-8. Próximo à **Etapa 2: Configurar ou remover Skype for Business Server componentes,** clique em **Executar** e clique em **Próximo**.
+8. Próximo à **Etapa 2: Configurar ou Remover Skype for Business Server Componentes**, clique em **Executar** e clique em **Próximo**.
     
 9. Na página **Executar comandos**, quando o status da tarefa é exibido como **Concluído**, clique em **Finalizar**.
     
@@ -62,5 +62,5 @@ Use as etapas deste tópico para executar o Assistente de Implantação do Skype
     
 13. No computador em que você está executando Skype for Business Server Painel de Controle, verifique na página **Topologia** do Painel de Controle Skype for Business Server que o status do serviço do Servidor de Mediação é mostrado como uma marca de verificação verde. Se um X vermelho é exibido, selecione o Servidor de Mediação. No menu **Ações**, clique em **Iniciar todos os serviços**. 
     
-Se você adicionou mais de um computador ao pool do Servidor de Mediação, execute as etapas deste procedimento em todos os outros computadores no pool do Servidor de Mediação. Se você não precisar instalar arquivos para o Servidor de Mediação para outros [computadores,](configure-trunks.md) siga os procedimentos em Configurar troncos no Skype for Business Server para definir as configurações para a conexão de tronco entre esse pool do Servidor de Mediação (ou todos os Servidores de Mediação em um site) e seus pares.
+Se você adicionou mais de um computador ao pool do Servidor de Mediação, execute as etapas deste procedimento em todos os outros computadores no pool do Servidor de Mediação. Se você não precisar instalar arquivos para o Servidor de Mediação para outros computadores, siga os procedimentos em [Configurar troncos no Skype for Business Server para definir configurações para a](configure-trunks.md) conexão de tronco entre esse pool do Servidor de Mediação (ou todos os Servidores de Mediação em um site) e seus pares.
 

@@ -1,8 +1,8 @@
 ---
 title: Impedir novas conexões
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 6fdb3bfdd8e612ccdf61cf639b106baefb60f061
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6f0bfcace21a0383b51a81ee37d60d3f7e227d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851985"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397685"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Impedir que novas conexões Skype for Business Server manutenção do servidor
 
@@ -39,7 +39,7 @@ Quando você impede novas conexões com um Servidor Front-End, alguns recursos e
 
 Para obter detalhes sobre o balanceamento de carga DNS, consulte [Requisitos de balanceamento de carga](../../plan-your-deployment/network-requirements/load-balancing.md).
 
-Além de impedir novas conexões para todos os serviços em um servidor que executa Skype for Business Server, você também pode impedir novas conexões para serviços Skype for Business Server individuais. Por exemplo, esse método é útil em uma situação em que você precisa aplicar uma atualização Skype for Business Server que não exige que todo o servidor seja desligado. Observe que, quando você impede conexões com um serviço, deve selecionar um serviço que é agrupado e exibido na lista de serviços do Windows. Por exemplo, o serviço Skype for Business Server Front-End e o agente de coleta de dados para Monitoramento são serviços Skype for Business Server separados, mas na lista de serviços do Windows eles são consolidados e mostrados como o Skype for Business Server Front-End service. Você pode impedir novas conexões para o serviço Skype for Business Server front-end, mas não pode impedir novas conexões para esses dois serviços de Skype for Business Server individuais separadamente.
+Além de impedir novas conexões para todos os serviços em um servidor que executa Skype for Business Server, você também pode impedir novas conexões para serviços Skype for Business Server individuais. Por exemplo, esse método é útil em uma situação em que você precisa aplicar uma atualização Skype for Business Server que não exige que todo o servidor seja desligado. Observe que, quando você impede conexões com um serviço, deve selecionar um serviço que é agrupado e exibido na lista de serviços do Windows. Por exemplo, o serviço Skype for Business Server Front-End e o agente de coleta de dados para Monitoramento são serviços Skype for Business Server separados, mas na lista de serviços Windows eles são consolidados e mostrados como o Skype for Business Server Serviço front-end. Você pode impedir novas conexões para o serviço Skype for Business Server front-end, mas não pode impedir novas conexões para esses dois serviços de Skype for Business Server individuais separadamente.
 
 > [!IMPORTANT]
 > Quando você define um servidor para impedir novas conexões e reiniciar o servidor, por padrão, o servidor começa imediatamente a aceitar novas conexões depois de ser inicializado. Para evitar isso, defina o servidor para apenas pausar e reiniciar manualmente antes de reiniciá-lo.
@@ -48,13 +48,13 @@ Além de impedir novas conexões para todos os serviços em um servidor que exec
 
 1.  Faça logoff no computador local como membro do grupo Administradores.
 
-2.  Abra o console de snap-in Serviços: **clique** em Iniciar , aponte para **Todos** os Programas, aponte para **Ferramentas** Administrativas e clique em **Serviços**.
+2.  Abra o console de snap-in Serviços **: clique em** Iniciar, aponte para **Todos** os Programas, aponte para **Ferramentas** Administrativas e clique em **Serviços**.
 
 3.  Na lista, clique duas vezes no serviço Skype for Business Server Windows para o qual você deseja impedir novas conexões.
 
-4.  Na caixa de diálogo Propriedades, em **Status do serviço: Iniciado,** clique em **Pausar**.
+4.  Na caixa de diálogo Propriedades, em **Status do serviço: Iniciado**, clique em **Pausar**.
 
-5.  Opcionalmente, mas recomendado, ao lado de **Tipo de Inicialização**, clique em **Manual**.
+5.  Opcionalmente, mas recomendado, ao lado do tipo **Inicialização**, clique em **Manual**.
     
     > [!IMPORTANT]
     > Quando você define um servidor para impedir novas conexões e reiniciar o servidor, por padrão, o servidor começa imediatamente a aceitar novas conexões depois de ser inicializado. Para evitar isso, defina o servidor para apenas pausar e reiniciar manualmente antes de reiniciá-lo.

@@ -1,8 +1,8 @@
 ---
 title: Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumo: saiba como configurar o serviço de Conformidade do Servidor de Chat Persistente Skype for Business Server 2015.'
-ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: de70e131526033b46b69359a231b158d93accfbf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858238"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396453"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015
 
@@ -45,7 +45,7 @@ Essas informações podem ser recuperadas do banco de dados De conformidade SQL 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurar o serviço de Conformidade usando Windows PowerShell
 
-Depois que o serviço de Conformidade tiver sido habilitado usando o Construtor de Topologias, você poderá configurar o serviço usando o cmdlet **Set-CsPersistenChatComplianceConfiguration:**
+Depois que o serviço de Conformidade tiver sido habilitado usando o Construtor de Topologias, você poderá configurar o serviço usando o cmdlet **Set-CsPersistenChatComplianceConfiguration** :
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
@@ -75,7 +75,7 @@ Você pode definir os seguintes parâmetros:
 
 Você pode escrever um adaptador personalizado em vez de usar o XmlAdapter instalado com o Servidor de Chat Persistente. Para realizar isso, você deve oferecer um assembly .NET Framework que contém uma classe pública que implementa a interface do **IComplianceAdapter**. Você deve colocar esse assembly na pasta de instalação do Servidor de Chat Persistente de cada servidor no pool do Servidor de Chat Persistente. Qualquer um dos servidores de Conformidade podem oferecer dados de conformidade para seu adaptador, mas os servidores de conformidade não oferecerão dados de conformidade duplicados para várias instâncias do seu adaptador.
 
-A interface é definida no assembly Compliance.dll no namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance` . A interface define dois métodos que seu adaptador personalizado deve implementar.
+A interface é definida no assembly Compliance.dll no namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance`. A interface define dois métodos que seu adaptador personalizado deve implementar.
 
 O servidor de Conformidade de Chat Persistente chamará o método a seguir quando o adaptador for carregado pela primeira vez. A  `AdapterConfig` contém a configuração de conformidade de Chat Persistente que é relevante para o adaptador de conformidade:
 
@@ -83,7 +83,7 @@ O servidor de Conformidade de Chat Persistente chamará o método a seguir quand
 void SetConfig(AdapterConfig config)
 ```
 
-O servidor de Conformidade de Chat Persistente chama o seguinte método em intervalos periódicos, desde que haja novos dados a ser traduzidos. Esse intervalo de tempo é igual ao definido na configuração de  `RunInterval` Conformidade de Chat Persistente:
+O servidor de Conformidade de Chat Persistente chama o seguinte método em intervalos periódicos, desde que haja novos dados a ser traduzidos. Esse intervalo de tempo é igual ao  `RunInterval` definido na configuração de Conformidade de Chat Persistente:
 
 ```cpp
 void Translate(ConversationCollection conversations)
