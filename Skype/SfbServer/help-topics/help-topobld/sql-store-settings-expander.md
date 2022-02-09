@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Repositório SQL
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: Para editar as propriedades de um banco de dados SQL Server, você deve alterar a instância SQL Server banco de dados. Não é possível usar a caixa de diálogo Editar Propriedades para executar tarefas como mover seu banco de dados do Servidor de Arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo Editar Propriedades para alterar a instância do SQL Server que hospeda o armazenamento de Gerenciamento Central.
-ms.openlocfilehash: 0c5af1546b601933705daf4b4e1a6817fe4b04ee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b57d4e1bae0b3ea03470ffa8284f26260ff21381
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861368"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410034"
 ---
 # <a name="sql-store-settings-expander"></a>Expansor de Configurações de Repositório SQL
  
@@ -36,10 +36,10 @@ Para alterar a instância de SQL Server usada por qualquer banco de dados difere
     
 2. Na caixa de diálogo **Editar Propriedades**, execute um destes procedimentos:
     
-   - Para usar a instância SQL Server padrão, selecione **Instância** Padrão e clique em **OK**.
+   - Para usar a instância SQL Server padrão, selecione **Instância Padrão** e clique em **OK**.
     
    - Para usar uma instância de banco de dados nomeada, selecione **Instância nomeada**, insira o nome da instância na caixa de texto e clique em **OK**. Você deve inserir apenas o nome da instância (por exemplo, ArchivingInstance) e não todo o caminho SQL Server.
     
-Quando você estiver trabalhando na caixa de diálogo **Editar Propriedades,** o Construtor de Topologias não verificará se a instância do banco de dados inserida é uma instância válida. Por exemplo, se você digitar InadvertidamenteArchivingInstanec como o nome da instância e clicar em **OK**, Construtor de Topologia aceitará essa instância inválida. Antes de publicar essa topologia, você deve corrigir esse erro: se uma instância SQL Server não puder ser encontrada, o Construtor de Topologias não criará essa instância para você.
+Quando você estiver trabalhando na caixa de diálogo **Editar Propriedades** , o Construtor de Topologias não verificará se a instância do banco de dados inserida é uma instância válida. Por exemplo, se você digitar InadvertidamenteArchivingInstanec como o nome da instância e clicar em **OK**, o Construtor de Topologias aceitará essa instância inválida. Antes de publicar essa topologia, você deve corrigir esse erro: se uma instância SQL Server não puder ser encontrada, o Construtor de Topologias não criará essa instância para você.
   
 

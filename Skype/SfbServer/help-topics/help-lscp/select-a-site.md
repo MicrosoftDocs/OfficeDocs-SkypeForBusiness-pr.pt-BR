@@ -1,8 +1,8 @@
 ---
 title: Selecionar um Site
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Use a caixa de diálogo Selecionar um Site para encontrar sites disponíveis em seu ambiente. Para usar um site existente, escolha um site na lista e clique em OK.
-ms.openlocfilehash: f0fffc815a8a2cd5237b07c80aee1122006f5186
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b591db7ef6561e2b6bff905dbaec8429dd7d0b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837983"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410204"
 ---
 # <a name="select-a-site"></a>Selecionar um Site
 
@@ -43,10 +43,10 @@ Para obter detalhes sobre os diferentes procedimentos que você pode executar us
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>Para configurar as opções de Chat Persistente globalmente
 
-Em **Selecionar um Site,** selecione o site a ser configurado para a configuração do site do Servidor de Chat Persistente.
+Em **Selecionar um Site**, selecione o site a ser configurado para a configuração do site do Servidor de Chat Persistente.
 
 ## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>Para criar uma política de Chat Persistente para um site
 
 Em **Selecionar um Site**, clique no site para o qual a política será aplicada.
 
-Para obter detalhes sobre recursos e recursos do Servidor de Chat Persistente, consulte [Visão geral do Servidor](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) de Chat Persistente na documentação planejamento. Para obter detalhes sobre como trabalhar com configurações do Servidor de Chat Persistente, consulte [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) na documentação de Implantação e [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) na documentação Operações.
+Para obter detalhes sobre recursos e recursos do Servidor de Chat Persistente, consulte [Visão geral do Servidor de Chat Persistente](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) na documentação planejamento. Para obter detalhes sobre como trabalhar com configurações do Servidor de Chat Persistente, consulte [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) na documentação de Implantação e [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) na documentação Operações.

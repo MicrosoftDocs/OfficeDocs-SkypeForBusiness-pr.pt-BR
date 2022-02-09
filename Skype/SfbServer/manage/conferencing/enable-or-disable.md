@@ -1,8 +1,8 @@
 ---
 title: Habilitar ou desabilitar a conferência discagem no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 'Resumo: saiba como usar o Painel de Controle ou o Shell de Gerenciamento para habilitar ou desabilitar a conferência discagem em Skype for Business Server.'
-ms.openlocfilehash: 84a07645489ad71af9b71ce9f8d8328490ee6df4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 24ea07c0a5a1995a35f01cddd41435f6ea00445d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850004"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403913"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Habilitar ou desabilitar a conferência discagem no Skype for Business Server
  
@@ -31,7 +31,7 @@ Você pode habilitar a conferência discada usando Skype for Business Server Pai
     
 2.  Abra Skype for Business Server Painel de Controle.
     
-3. Na barra de navegação esquerda, clique **em Conferência** e em Política **de Conferência.**
+3. Na barra de navegação esquerda, clique **em Conferência e** em **Política de Conferência**.
     
 4. Na lista de políticas de conferência, selecione a política que deseja ativar na conferência discada, clique em **Editar** e, então, em **Exibir detalhes**. 
     

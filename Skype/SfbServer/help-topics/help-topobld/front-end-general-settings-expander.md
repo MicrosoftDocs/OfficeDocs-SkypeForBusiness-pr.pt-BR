@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Front End
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Para editar as configurações de um pool Front-End existente ou servidor Standard Edition, as seguintes seções são disponibilizadas:'
-ms.openlocfilehash: 60e6099cb28ec564abde9506afb1a0ef70274684
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d005587106fec6819bf1f18c1b07b9de7d8fc216
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861448"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403055"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de Configurações Gerais de Front-end
 

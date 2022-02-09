@@ -1,8 +1,8 @@
 ---
 title: Tabela ProgressReport
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Relatórios de andamento são baseados nos dados carregados pelo cliente no banco de dados após a conclusão de uma chamada ou sessão. Os relatórios de progresso serão gravados somente para chamadas e sessões que Skype for Business Server 2015 determina podem ser úteis para fins de diagnóstico.
-ms.openlocfilehash: 7004361a1f66232df3827c3276a624d2699ac50b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 969b6ca08461483857015123a2b90303654435d2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856458"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404563"
 ---
 # <a name="progressreport-table"></a>Tabela ProgressReport
  
@@ -26,7 +26,7 @@ Relatórios de andamento são baseados nos dados carregados pelo cliente no banc
   
 Os campos ErrorTime, ErrorReportSeq e ProgressReportSeq não se referem necessariamente a erros, mas a mensagens que indicam o status de chamadas ou mensagens.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Primário, externo  <br/> |Data e hora do relatório de erros de andamento. Consulte a [tabela ErrorReport no Skype for Business Server 2015](errorreport.md) para obter mais informações. <br/> |
 |**ErrorId** <br/> |int  <br/> |Primário, externo  <br/> |Número de ID usado junto com o ErrorTime, ProgressReportSeq para identificar exclusivamente um relatório de andamento. Consulte a [tabela ErrorReport no Skype for Business Server 2015](errorreport.md) para obter mais informações. <br/> |

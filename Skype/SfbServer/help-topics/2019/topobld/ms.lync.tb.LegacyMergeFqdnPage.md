@@ -1,8 +1,8 @@
 ---
 title: FQDN de Mesclagem de Legado
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: O FQDN interno do Pool de Borda de Acesso é usado para uma variedade de cenários em que os usuários internos se comunicam com usuários externos para federação, acesso de usuário remoto e conectividade de IM pública. Se um Servidor de Borda com balanceamento de carga tiver sido implantado no seu ambiente herdado, insira o FQDN (nome de domínio totalmente qualificado) do balanceador de carga interno.
-ms.openlocfilehash: 749452c5fcf697bd0fc52a2b2c7276777620b1e8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afa6cf700243f108fbce0c6210372b6c47d10b26
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849094"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403355"
 ---
 # <a name="legacy-merge-fqdn"></a>FQDN de Mesclagem de Legado
  

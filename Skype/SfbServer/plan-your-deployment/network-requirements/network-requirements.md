@@ -1,8 +1,8 @@
 ---
 title: Planejar requisitos de rede para Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumo: revise as considerações do componente de rede abaixo antes de implementar Skype for Business Server.'
-ms.openlocfilehash: 3e5912cb00bb704afdfc5d568b66711a1ddf472f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2bdf4a19d7a532fb98d0a0df202667701407c02e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864698"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403685"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planejar requisitos de rede para Skype for Business
 
@@ -29,7 +29,7 @@ ms.locfileid: "60864698"
 
 As informações nesses tópicos também são discutidas no whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) com detalhes e profundidade adicionais. Embora o conteúdo se refira explicitamente ao Lync 2010 e ao Lync 2013, as considerações sobre Skype for Business Server são inalteradas.
 
-Da mesma forma, se sua rede envolve wi-fi, bem como acesso com fio, o whitepaper [Delivering Lync 2013 Real-Time Communications via Wi-Fi](https://www.microsoft.com/download/details.aspx?id=36494) é uma boa referência e é igualmente aplicável a Skype for Business Server.
+Da mesma forma, se sua rede envolve wi-fi e acesso com fio, o whitepaper [Entregando Lync 2013 Real-Time Communications via Wi-Fi](https://www.microsoft.com/download/details.aspx?id=36494) é uma boa referência e é igualmente aplicável a Skype for Business Server.
 
 <!-- Deprecated tools
 Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
@@ -50,10 +50,10 @@ Para a integração com PSTN, você pode usar linhas T1/E1 ou troncos SIP.
 
 Os requisitos de rede para áudio/vídeo (A/V) em uma implantação Skype for Business Server incluem o seguinte:
 
-- Se você estiver implantando um único Servidor de Borda ou um pool de Borda usando o balanceamento de carga DNS, poderá configurar o  _firewall_ externo para executar NAT (conversão de endereço de rede). Não é possível configurar o firewall _interno_ para executar NAT. Para obter detalhes, consulte [Port and firewall planning](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
+- Se você estiver implantando um único Servidor de Borda ou um pool de Borda usando o balanceamento de carga DNS, poderá configurar  _o firewall externo_ para executar NAT (conversão de endereço de rede). Não é possível configurar o firewall _interno_ para executar NAT. Para obter detalhes, consulte [Planejamento de porta e firewall](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
-    > Se você tiver um pool de Borda e estiver usando um balanceador de carga de hardware, deverá usar endereços IP públicos nos Servidores de Borda e não poderá usar NAT para os servidores ou o pool em seu dispositivo capaz de NAT (por exemplo, um dispositivo de firewall ou uma opção LAN. Para obter detalhes, consulte [Cenários do Servidor de Borda em Skype for Business Server](../edge-server-deployments/scenarios.md).
+    > Se você tiver um pool de Borda e estiver usando um balanceador de carga de hardware, deverá usar endereços IP públicos nos Servidores de Borda e não poderá usar NAT para os servidores ou o pool em seu dispositivo capaz de NAT (por exemplo, um dispositivo de firewall ou uma opção LAN. Para obter detalhes, consulte [Cenários do Servidor de Borda Skype for Business Server](../edge-server-deployments/scenarios.md).
 
 - Caso sua organização use uma infraestrutura de QoS (Qualidade de Serviço), o subsistema de mídia estará projetado para operar dentro dessa infraestrutura existente.
 
@@ -132,7 +132,7 @@ O uso da largura de banda do tráfego de mídia pode ser desafiador para calcula
 |Banda larga/banda estreita SILK  <br/> |Ponto a ponto  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
 
 > [!NOTE]
-> As chamadas PSTN do cliente Skype for Business geralmente usam o codec G.711, que exige uma largura de banda alta. Se a largura de banda suficiente não estiver disponível para esse codec, as chamadas poderão falhar com um erro semelhante ao seguinte nos logs de mídia: pelo menos um codec deve ser **habilitado, hr: c0042004**. Os logs de mídia (arquivos.blog) são criptografados e podem ser decodificados somente pela equipe de suporte da Microsoft.
+> As chamadas PSTN do cliente Skype for Business geralmente usam o codec G.711, que exige uma largura de banda alta. Se a largura de banda suficiente não estiver disponível para esse codec, as chamadas poderão falhar com um erro semelhante ao seguinte nos logs de mídia: pelo menos um codec deve ser habilitado **, hr: c0042004**. Os logs de mídia (arquivos.blog) são criptografados e podem ser decodificados somente pela equipe de suporte da Microsoft.
 
 Os números de largura de banda na tabela anterior se baseiam na pacotes de 20ms (50 pacotes por segundo) e para os codecs Siren e G.722 incluem a sobrecarga adicional de protocolo de transporte em tempo real seguro (SRTP) de cenários de conferência e presumem que o fluxo está 100% ativo. A Correção de Erro de Encaminhamento (FEC) é usada dinamicamente quando há perda de pacote no link para ajudar a manter a qualidade do fluxo de áudio.
 
@@ -224,10 +224,10 @@ As tabelas a seguir fornecem valores para os vários cenários.
 |:-----|:-----|:-----|:-----|:-----|
 |Áudio  <br/> |G.722  <br/> |46.1  <br/> |100.6  <br/> |164.6  <br/> |
 |Áudio  <br/> |Siren  <br/> |25.5  <br/> |52.6  <br/> |68.6  <br/> |
-|Recebimento de vídeo principal  <br/> |H.264 e RTVideo¹  <br/> |260  <br/> |8015  <br/> |Não aplicável  <br/> |
-|Envio de vídeo principal  <br/> |H.264 e RTVideo  <br/> |270  <br/> |8015  <br/> |Não aplicável  <br/> |
-|Recebimento de vídeo panorâmico  <br/> |H.264 e RTVideo  <br/> |190  <br/> |2010 (para resolução máxima de 1920x288)  <br/> |Não aplicável  <br/> |
-|Envio de vídeo panorâmico  <br/> |H.264 e RTVideo  <br/> |190  <br/> |2515 ²  <br/> |Não aplicável  <br/> |
+|Recebimento de vídeo principal  <br/> |H.264 e RTVideo¹  <br/> |260  <br/> |8015  <br/> |Não se aplica  <br/> |
+|Envio de vídeo principal  <br/> |H.264 e RTVideo  <br/> |270  <br/> |8015  <br/> |Não se aplica  <br/> |
+|Recebimento de vídeo panorâmico  <br/> |H.264 e RTVideo  <br/> |190  <br/> |2010 (para resolução máxima de 1920x288)  <br/> |Não se aplica  <br/> |
+|Envio de vídeo panorâmico  <br/> |H.264 e RTVideo  <br/> |190  <br/> |2515 ²  <br/> |Não se aplica  <br/> |
 
 1. O vídeo RT é enviado além do H.264 quando os clientes do Lync 2010 estão conectados à conferência.
 
@@ -268,11 +268,11 @@ Skype for Business Server oferece suporte total para QoS: isso significa que as 
 
 - [Habilitando a QoS Skype for Business Server dispositivos que não se baseiam em Windows](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). Por padrão, a QoS está desativada para computadores e outros dispositivos (como iPhones) que executam outros sistemas operacionais. Embora você possa usar Skype for Business Server para habilitar e desabilitar a Qualidade do Serviço para dispositivos, normalmente não é possível usar o produto para modificar os códigos DSCP usados por esses dispositivos.
 
-- [Configurando intervalos de porta e uma política de Qualidade de Serviço para seus servidores de Conferência, Aplicativo e Mediação.](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md) É necessário reservar um conjunto exclusivo de portas para tipos de pacotes diferentes, como áudio e vídeo. Ao usar Skype for Business Server você não habilita ou desabilita a QoS definindo um valor de propriedade como True ou False. Em vez disso, você habilita a QoS configurando intervalos de porta e, em seguida, criando e aplicando a Política de Grupo. Se você decidir mais tarde não usar QoS, poderá "desabilitar" a QoS removendo os objetos de Política de Grupo apropriados.
+- [Configurando intervalos de porta e uma política de Qualidade de Serviço para seus servidores de Conferência, Aplicativo e Mediação](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). É necessário reservar um conjunto exclusivo de portas para tipos de pacotes diferentes, como áudio e vídeo. Ao usar Skype for Business Server você não habilita ou desabilita a QoS definindo um valor de propriedade como True ou False. Em vez disso, você habilita a QoS configurando intervalos de porta e, em seguida, criando e aplicando a Política de Grupo. Se você decidir mais tarde não usar QoS, poderá "desabilitar" a QoS removendo os objetos de Política de Grupo apropriados.
 
-- [Configurando intervalos de portas e uma política de Qualidade de Serviço para seus Servidores de Borda.](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md) Embora não seja necessário, você pode configurar seus servidores de borda para usar os mesmos intervalos de porta que os outros servidores. A configuração de uma política QoS só será feita para o lado interno de seus servidores de Borda. Isso porque a QoS foi projetada para uso em sua rede interna e não na Internet.
+- [Configurando intervalos de porta e uma política de Qualidade de Serviço para seus Servidores de Borda](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md). Embora não seja necessário, você pode configurar seus servidores de borda para usar os mesmos intervalos de porta que os outros servidores. A configuração de uma política QoS só será feita para o lado interno de seus servidores de Borda. Isso porque a QoS foi projetada para uso em sua rede interna e não na Internet.
 
-- [Configurando intervalos de porta e uma política de](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)Qualidade de Serviço para seus clientes em Skype for Business Server . Esses intervalos de porta aplicam-se apenas a computadores cliente e são normalmente diferentes dos intervalos de porta configurados em seus servidores. Observe que Skype for Business Server não dá suporte a QoS para Windows sistemas operacionais diferentes Windows 10.
+- [Configurando intervalos de porta e uma política de Qualidade de Serviço para seus clientes em Skype for Business Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). Esses intervalos de porta aplicam-se apenas a computadores cliente e são normalmente diferentes dos intervalos de porta configurados em seus servidores. Observe que Skype for Business Server não dá suporte a QoS para Windows sistemas operacionais diferentes Windows 10.
 
 
 > [!NOTE]

@@ -1,7 +1,7 @@
 ---
 title: Skype for Business compatibilidade com Office aplicativos
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Entenda as maneiras como você pode acessar Skype for Business recursos de Outlook e outros Microsoft Office aplicativos.
-ms.openlocfilehash: 06a019416ad8d32b0234b08c01b09630dd07a2ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 249b66eb366d9fa2d5911c24fb7dc88d0dcd6633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862128"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409894"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype for Business compatibilidade com Office aplicativos
  
@@ -35,7 +35,7 @@ A tabela a seguir descreve os recursos Skype for Business que são suportados po
   
 **Skype for Business e Microsoft Office Compatibilidade**
 
-|**Característica**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 e 2016**|**Office 2016 para Mac** &#x2776; |
+|**Recurso**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 e 2016**|**Office 2016 para Mac** &#x2776; |
 |:-----|:-----|:-----|:-----|
 |**Outlook recursos** ||||
 |Personalizar Outlook de reunião (adicionar logotipo, URL de ajuda, aviso de isenção de responsabilidade, texto do rodapé)  |Não  |Sim   |Sim|

@@ -1,8 +1,8 @@
 ---
 title: tblEnumAttribute
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: tblEnumAttribute é uma tabela embutida em código que inclui os atributos de Visibilidade e Comportamento usados na tabela Node.
-ms.openlocfilehash: a2d2fa1eacac79784e20f137a037d672fa9eaa87
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9e169ed908abc4e3184f2ea26b25b9d5554df06f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856438"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403635"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  

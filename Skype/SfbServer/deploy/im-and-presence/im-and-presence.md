@@ -1,8 +1,8 @@
 ---
 title: Implantar mensagens instantâneas e presença no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
 description: 'Resumo: saiba mais sobre as etapas de implantação para mensagens instantâneas e presença no Skype for Business Server.'
-ms.openlocfilehash: 0fb26ccc202a914a491691e5359a657689ccaad0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5ba731580f6b4ea9571c9f9b942374c771b9c811
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861758"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403395"
 ---
 # <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>Implantar mensagens instantâneas e presença no Skype for Business Server
  

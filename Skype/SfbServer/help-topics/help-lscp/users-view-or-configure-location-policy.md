@@ -1,8 +1,8 @@
 ---
 title: Exibição ou Configuração da Política de Local dos Usuários
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 80a6b73de390c5d36ebfa4102121fae9c1e43d85
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d56b65a250200a681aa302d775449716d8acac22
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830275"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404063"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Usuários: Exibir ou Configurar Política de Local
 

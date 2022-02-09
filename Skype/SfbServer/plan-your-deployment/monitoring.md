@@ -1,8 +1,8 @@
 ---
 title: Planejar o monitoramento em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Resumo: revise este tópico durante o planejamento do serviço de monitoramento no Skype for Business Server.'
-ms.openlocfilehash: f1bd1dbab35247b17067adaa3b2d06557b8f0292
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 215402fa68c89d6484532b0c6e7fb6093f591b23
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835009"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404583"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planejar o monitoramento em Skype for Business Server
 
@@ -25,7 +25,7 @@ ms.locfileid: "60835009"
 
 O serviço de monitoramento no Skype for Business Server fornece uma maneira para os administradores coletarem dados de uso e qualidade para as sessões de comunicação que ocorrem em sua organização, o que permite identificar tendências e problemas. O monitoramento contínuo de sua implantação permite que você pegue problemas no início e mantenha os usuários da sua organização satisfeitos.
 
-O monitoramento no Skype for Business Server não exige uma função de servidor separada (como era o caso nas versões anteriores do Lync); em vez disso, o serviço de monitoramento é integrado a cada servidor Front-End. O monitoramento não está habilitado por padrão no Skype for Business Server. Este artigo ajudará você a determinar se deve habilitar o Monitoramento durante ou após a configuração inicial Skype for Business Server e quais recursos SQL você precisará para dar suporte às atividades de Monitoramento. Se você não tiver certeza do que é ou não monitorado e como o monitoramento pode ser útil, acesse [Noções básicas sobre Monitoramento](monitoring.md#Basics). Para começar seu processo de planejamento, vá para [Definir seus requisitos para monitoramento](monitoring.md#requirements). Para obter mais detalhes sobre os requisitos SQL de monitoramento, acesse SQL [requisitos para monitoramento.](monitoring.md#topologies)
+O monitoramento no Skype for Business Server não exige uma função de servidor separada (como era o caso nas versões anteriores do Lync); em vez disso, o serviço de monitoramento é integrado a cada servidor Front-End. O monitoramento não está habilitado por padrão no Skype for Business Server. Este artigo ajudará você a determinar se deve habilitar o Monitoramento durante ou após a configuração inicial Skype for Business Server e quais recursos SQL você precisará para dar suporte às atividades de Monitoramento. Se você não tiver certeza do que é ou não monitorado e como o monitoramento pode ser útil, acesse [Noções básicas sobre Monitoramento](monitoring.md#Basics). Para começar seu processo de planejamento, vá para [Definir seus requisitos para monitoramento](monitoring.md#requirements). Para obter mais detalhes sobre os SQL de monitoramento, acesse SQL [requisitos de monitoramento](monitoring.md#topologies).
 
 ## <a name="basics-about-monitoring"></a>Noções básicas sobre Monitoramento
 <a name="Basics"> </a>
@@ -43,7 +43,7 @@ Uma sessão é um termo genérico para a conexão de um usuário com um:
 
 As informações básicas de detalhes de chamada coletadas por Skype for Business Server para cada sessão podem ser usadas para:
 
-- **Análise de Retorno sobre Investimento (ROI).** Os administradores podem comparar os dados de uso com dados semelhantes coletados para seu sistema de telefonia anterior para mostrar a economia de custos e ajudar a justificar a implantação de Skype for Business Server.
+- **Análise de Retorno sobre Investimento (ROI** ). Os administradores podem comparar os dados de uso com dados semelhantes coletados para seu sistema de telefonia anterior para mostrar a economia de custos e ajudar a justificar a implantação de Skype for Business Server.
 
 - **Gerenciamento de inventário de dispositivos**. As informações de gerenciamento de ativos ajudam os administradores a identificar dispositivos antigos ainda em uso que precisam ser substituídos e identificar dispositivos caros que não são usados ou subutilizáveis.
 
@@ -66,11 +66,11 @@ No final de cada chamada, os pontos de extremidade compatíveis com SIP transmit
 
 Ainda há vários problemas importantes que devem ser resolvidos antes de começar a instalar e configurar o monitoramento com Skype for Business Server:
 
- **Quando você deseja instalar o monitoramento?** O monitoramento pode ser instalado e configurado ao mesmo tempo em que você instala e configura Skype for Business Server; o Skype for Business Server Assistente de Implantação fornecerá a você a oportunidade de associar seus pools de Front-End a um banco de dados de monitoramento durante a instalação. Como alternativa, você pode instalar o monitoramento depois que Skype for Business Server em si foi instalado; isso pode ser feito usando o Construtor de Topologias para associar seus pools e servidores front-end a um banco de dados de monitoramento e publicar a topologia revisada.
+ **Quando você deseja instalar o monitoramento?** O monitoramento pode ser instalado e configurado ao mesmo tempo em que você instala e configura o Skype for Business Server; o Assistente de Implantação do Skype for Business Server oferecerá a oportunidade de associar seus pools de Front-End a um banco de dados de monitoramento durante a instalação. Como alternativa, você pode instalar o monitoramento depois que o próprio Skype for Business Server tiver sido instalado; isso pode ser feito usando o Construtor de Topologias para associar seus pools e servidores front-end a um banco de dados de monitoramento e publicar a topologia revisada.
 
-Lembre-se de que SQL Server deve ser instalado e configurado antes de implantar e configurar o monitoramento. No entanto, você só precisa implantar SQL Server si mesmo; os bancos de dados de monitoramento serão criados para você quando você publicar sua topologia Skype for Business Server de monitoramento.
+Lembre-se de que SQL Server deve ser instalado e configurado antes de implantar e configurar o monitoramento. No entanto, você só precisa implantar o SQL Server em si; os bancos de dados de monitoramento serão criados para você quando você publicar sua topologia de Skype for Business Server.
 
- **Que tipo de dados você deseja monitorar?** Skype for Business Server permite monitorar dois tipos gerais de dados: dados de CDR (registro de detalhes de chamada) e dados de QoE (Qualidade da Experiência). A gravação de detalhes da chamada fornece uma maneira de rastrear o uso de recursos Skype for Business Server como chamadas telefônicas VoIP (Voz sobre IP). mensagens instantâneas (IM); transferências de arquivos; conferência de áudio/vídeo (A/V); e sessões de compartilhamento de aplicativos. Essas informações ajudam você a saber quais Skype for Business Server recursos estão sendo usados (e quais não estão) e também fornece informações sobre quando esses recursos estão sendo usados. Os dados de Qualidade de Experiência permitem que você mantenha um registro da qualidade das chamadas de áudio e vídeo feitas em sua organização, incluindo coisas como o número de pacotes de rede perdidos, o ruído em segundo plano e a quantidade de "tremulagem" (diferenças no atraso do pacote).
+ **Que tipo de dados você deseja monitorar?** Skype for Business Server permite monitorar dois tipos gerais de dados: dados de CDR (registro de detalhes de chamada) e dados de QoE (Qualidade da Experiência). A gravação de detalhes da chamada oferece uma maneira de rastrear o uso de recursos Skype for Business Server como chamadas telefônicas VoIP (Voz sobre IP); mensagens instantâneas (IM); transferências de arquivos; conferência de áudio/vídeo (A/V) e sessões de compartilhamento de aplicativos. Essas informações ajudam você a saber quais Skype for Business Server recursos estão sendo usados (e quais não estão) e também fornece informações sobre quando esses recursos estão sendo usados. Os dados de Qualidade de Experiência permitem que você mantenha um registro da qualidade das chamadas de áudio e vídeo feitas em sua organização, incluindo coisas como o número de pacotes de rede perdidos, o ruído em segundo plano e a quantidade de "tremulagem" (diferenças no atraso do pacote).
 
 Se você optar por habilitar o monitoramento no Skype for Business Server pode habilitar o monitoramento de CDR e o monitoramento de QoE, ou pode optar por habilitar um tipo de monitoramento enquanto deixa o outro tipo desabilitado. Por exemplo, suponha que seus usuários apenas utilizem mensagem instantânea e transferência de arquivos e não realizem chamadas de áudio ou vídeo. Neste caso, pode não haver motivo para habilitar o monitoramento QoE. Da mesma forma, Skype for Business Server torna mais fácil habilitar e desabilitar o monitoramento após a implantação do monitoramento. Por exemplo, você pode escolher implantar o monitoramento, mas deixar inicialmente o monitoramento QoE desabilitado. Se seus usuários começam a enfrentar problemas com chamadas de áudio e vídeo, habilite o monitoramento QoE e use estes dados para ajudar você a resolver problemas.
 
@@ -88,18 +88,18 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 Isto é importante para fins de planejamento porque o espelhamento exigirá o dobro do número exigido de bancos de dados: além de cada banco de dados primário, você precisará de um segundo banco de dados para agir como o espelho.
 
- **Seus sites Skype for Business Server precisam de suas próprias configurações de monitoramento personalizadas?** Quando você instala Skype for Business Server também instala coleções globais de configurações de CDR e QoE; essas coleções globais dão a você a capacidade de aplicar as mesmas configurações de CDR e QoE a toda a sua organização. Em vários casos, isto pode ser suficiente: frequentemente, digamos, se você tiver o monitoramento CDR habilitado para todos os seus usuários.
+ **Seus sites Skype for Business Server precisam de suas próprias configurações de monitoramento personalizadas?** Quando você instala o Skype for Business Server também instala coleções globais de configurações de CDR e QoE; essas coleções globais dão a você a capacidade de aplicar as mesmas configurações de CDR e QoE a toda a sua organização. Em vários casos, isto pode ser suficiente: frequentemente, digamos, se você tiver o monitoramento CDR habilitado para todos os seus usuários.
 
-No entanto, pode haver momentos quando você deseja aplicar configurações diferentes para sites diferentes. Por exemplo, talvez você deseje usar o monitoramento CDR e QoE em seu site Redmond, mas usar apenas o monitoramento CDR em seu site Dublin. Da mesma forma, você pode desejar manter os dados de monitoramento por 60 dias no site Redmond, mas precisa apenas manter este tipo de dados por 30 dias no site Dublin. Skype for Business Server permite que você crie coleções separadas de configurações de CDR e QoE no escopo do site; que permite que você gerencie cada site de forma diferente. (Isto inclui a habilitação e desabilitação do monitoramento, assim como a definição das configurações de gerenciamento como quanto tempo os dados devem ser mantidos.)
+No entanto, pode haver momentos quando você deseja aplicar configurações diferentes para sites diferentes. Por exemplo, talvez você deseje usar o monitoramento CDR e QoE em seu site Redmond, mas usar apenas o monitoramento CDR em seu site Dublin. Da mesma forma, você pode desejar manter os dados de monitoramento por 60 dias no site Redmond, mas precisa apenas manter este tipo de dados por 30 dias no site Dublin. Skype for Business Server permite que você crie coleções separadas de configurações de CDR e QoE no escopo do site; isso permite que você gerencie cada site de forma diferente. (Isto inclui a habilitação e desabilitação do monitoramento, assim como a definição das configurações de gerenciamento como quanto tempo os dados devem ser mantidos.)
 
 Observe que você pode tomar esta decisão antes de implantar o monitoramento ou após implantar o monitoramento. Por exemplo, é possível implantar o monitoramento e gerenciar toda a organização usando as configurações globais. Se você mudar de ideia posteriormente, é possível criar um conjunto separado de configurações para, digamos, o site Redmond, e usa estas configurações para gerenciar o monitoramento para Redmond. (As configurações aplicadas no escopo do site sempre têm precedência sobre as configurações aplicadas no escopo global.) Se você mudar de ideia novamente, basta excluir as definições de configuração aplicadas ao site Redmond. Quando um conjunto de configurações de site é removido, o conjunto global de configurações será aplicado automaticamente para este site.
 
 ## <a name="sql-requirements-for-monitoring"></a>SQL requisitos para monitoramento
 <a name="topologies"> </a>
 
-Os agentes de coleta de dados unificados são instalados e ativados automaticamente em cada servidor Front-End quando você habilita o Monitoramento. Para obter versões com suporte de SQL Server e outros detalhes, consulte Requisitos do servidor para Skype for Business Server [2015](requirements-for-your-environment/server-requirements.md)
+Os agentes de coleta de dados unificados são instalados e ativados automaticamente em cada servidor Front-End quando você habilita o Monitoramento. Para obter versões com suporte de SQL Server e outros detalhes, consulte [Requisitos de servidor para Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)
 
-Os dados de monitoramento podem compartilhar uma SQL Server com outros tipos de dados. Normalmente, o banco de dados de registro de detalhes de chamada (LcsCdr) e o banco de dados de Qualidade da Experiência (QoEMetrics) compartilham a mesma instância de SQL. também é comum que os dois bancos de dados de monitoramento sejam na mesma instância SQL do banco de dados de arquivamento (LcsLog). Sobre o único requisito real com SQL Server instâncias é que qualquer instância de SQL Server está limitada ao seguinte:
+Os dados de monitoramento podem compartilhar uma SQL Server com outros tipos de dados. Normalmente, o banco de dados de registro de detalhes de chamada (LcsCdr) e o banco de dados de Qualidade da Experiência (QoEMetrics) compartilham a mesma instância SQL; também é comum que os dois bancos de dados de monitoramento sejam na mesma instância SQL que o banco de dados de arquivamento (LcsLog). Sobre o único requisito real com SQL Server instâncias é que qualquer instância de SQL Server está limitada ao seguinte:
 
 - Uma instância do banco de dados de back-Skype for Business Server 2015. (Como regra geral, não é recomendável que seu banco de dados de monitoramento seja alocado na mesma instância SQL ou mesmo no mesmo computador, como o banco de dados back-end. Embora tecnicamente possível, você corre o risco de o banco de dados de monitoramento usar o espaço em disco necessário para o banco de dados back-end.)
 

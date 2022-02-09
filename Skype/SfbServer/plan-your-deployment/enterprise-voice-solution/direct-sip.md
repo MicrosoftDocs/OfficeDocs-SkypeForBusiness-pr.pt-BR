@@ -1,8 +1,8 @@
 ---
 title: Conexões SIP diretas em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: As conexões SIP diretas são suportadas entre Skype for Business Server gateways PSTN e IP-PBX em Enterprise Voice.
-ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 696500343f1d4eb4b35e72de4d75b0d599922699
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848394"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403853"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexões SIP diretas em Skype for Business Server
 
@@ -59,7 +59,7 @@ A figura a seguir mostra a topologia genérica para implantação de Enterprise 
 ![Diagrama de Opção de Migração Do Departamento.](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> Se você estiver conectando sua implantação Skype for Business Server a um parceiro SIP direto certificado, não será necessário um gateway PSTN (rede telefônica pública comutado) entre o Servidor de Mediação e o PBX. Para ver uma lista de parceiros SIP diretos certificados, consulte o Programa de Interoperabilidade Aberta de Comunicações [Unificadas da Microsoft.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
+> Se você estiver conectando sua implantação Skype for Business Server a um parceiro SIP direto certificado, não será necessário um gateway PSTN (rede telefônica pública comutado) entre o Servidor de Mediação e o PBX. Para ver uma lista de parceiros SIP certificados, consulte o  [Programa de Interoperabilidade Aberta de Comunicações Unificadas da Microsoft](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 > [!NOTE]
 > O caminho de mídia mostrado nesta figura tem bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia será roteado pelo Servidor de Mediação.
@@ -68,7 +68,7 @@ Nesta topologia, os departamentos ou grupos de trabalho selecionados estão habi
 
 Há duas configurações recomendadas para conectar o Enterprise Voice a uma infraestrutura PBX existente para interoperabilidade: Enterprise Voice atrás do PBX e Enterprise Voice na frente do PBX.
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice Atrás do PBX
+#### <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice atrás do PBX
 
 Quando Enterprise Voice é implantado por trás do PBX, todas as chamadas da PSTN chegam ao PBX, que encaminha chamadas para usuários Enterprise Voice para um gateway PSTN e chama usuários PBX para o PBX.
 
@@ -126,7 +126,7 @@ Há várias perguntas a considerar. Tenha em mente que as respostas destas pergu
 
 Os Servidores de Mediação podem rotear chamadas por meio de vários gateways, controladores de borda de sessão (SBCs) fornecidos por provedores de serviços de telefonia da Internet ou uma combinação dos dois. Além disso, vários Servidores de Mediação no pool podem interagir com vários gateways. A rota lógica definida entre um Servidor de Mediação e um gateway é chamada de tronco. Quando um usuário interno faz uma chamada PSTN, a lógica de roteamento de saída no pool de Front-End escolhe qual tronco encaminhar de todas as combinações possíveis que podem estar disponíveis para rotear essa chamada específica. Com o balanceamento de carga DNS, se uma chamada não conseguir alcançar um gateway devido a um problema com um determinado Servidor de Mediação no pool, a chamada será recuperada para um Servidor de Mediação alternativo no pool.
 
-Para obter detalhes sobre o planejamento de vários gateways, consulte [Tronco M:N em Skype for Business Server](m-n-trunk.md).
+Para obter detalhes sobre o planejamento de vários gateways, consulte [Tronco M:N no Skype for Business Server](m-n-trunk.md).
 
 Para obter detalhes sobre outros aprimoramentos de roteamento de saída, consulte [Call Routes](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes).
 

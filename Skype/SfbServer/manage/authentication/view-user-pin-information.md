@@ -1,8 +1,8 @@
 ---
 title: Exibir informações de PIN do usuário no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Resumo: Exibir informações de PIN do usuário no Skype for Business Server.'
-ms.openlocfilehash: 7be0bb49cf1c11d2c9aa18a73aa37dd124d7fb00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bde3ef11a3f7dad19a26b577ec6464cb3cb7619f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846454"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62407343"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Exibir informações de PIN do usuário no Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "60846454"
 Para ingressar em uma conferência discada como um usuário autenticado, um usuário Skype for Business Server com credenciais do Active Directory Domain Services (AD DS) requer um PIN (número de identificação pessoal). Você pode exibir as informações de PIN de um usuário Skype for Business Server Painel de Controle.
   
 > [!NOTE]
-> Você pode exibir as informações de status de PIN, como se o PIN foi definido ou quando ele foi alterado pela última vez, mas não pode ver o PIN atual consultando o status de PIN. Se um usuário tiver perdido o PIN, você poderá [redefini-lo](set-a-user-s-dial-in-conferencing-pin.md) seguindo os procedimentos em Definir o PIN de conferência discada do usuário em Skype for Business Server
+> Você pode exibir as informações de status de PIN, como se o PIN foi definido ou quando ele foi alterado pela última vez, mas não pode ver o PIN atual consultando o status de PIN. Se um usuário tiver perdido o PIN, você poderá redefini-lo seguindo os procedimentos em Definir o PIN de conferência discada do [usuário em Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Para exibir o PIN de um usuário no painel Skype for Business Server Controle
 
@@ -65,7 +65,7 @@ Para ingressar em uma conferência discada como um usuário autenticado, um usu�
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de PIN do usuário usando Windows PowerShell cmdlets
 
-Você pode exibir as informações de PIN do usuário usando o cmdlet Get-CsClientPinInfo. Esse cmdlet pode ser executado no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
+Você pode exibir as informações de PIN do usuário usando o cmdlet Get-CsClientPinInfo. Esse cmdlet pode ser executado no Shell de Gerenciamento Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte [Administração do Microsoft Lync Remote PowerShell](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-view-user-pin-information"></a>Para exibir as informações de PIN do usuário
 
@@ -85,7 +85,7 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsConferenceDisclaimer.](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsConferenceDisclaimer](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) .
   
 ## <a name="see-also"></a>Confira também
 

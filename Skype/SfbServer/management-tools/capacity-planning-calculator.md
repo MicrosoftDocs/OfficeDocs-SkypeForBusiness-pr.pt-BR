@@ -1,8 +1,8 @@
 ---
 title: Calculadora de Planejamento de Capacidade do Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/1/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Resumo: como usar a Ferramenta calculadora de capacidade.'
-ms.openlocfilehash: b0369ffd30a4904057a44d594527ad017a712096
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 37df48310e14b31b42bbcaa9d8f5ef89ef7341e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862188"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409954"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Calculadora de Planejamento de Capacidade do Skype for Business Server
  
@@ -30,13 +30,13 @@ ms.locfileid: "60862188"
 > - Skype for Business Server 2019.
 > - Skype for Business Server 2015.
   
-A Calculadora de Capacidade do [Skype for Business Server 2015](https://www.microsoft.com/download/details.aspx?id=51196) e a Calculadora de Capacidade [do Skype for Business Server 2019](https://www.microsoft.com/download/details.aspx?id=57509) ampliam a Ferramenta de Planejamento do Skype for Business e [sua](https://www.microsoft.com/download/details.aspx?id=50357) documentação de implantação ( Planejar sua implantação do[Skype for Business Server 2015](../plan-your-deployment/plan-your-deployment.md) e Planejar sua implantação do [Skype for Business Server 2019,](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectivamente). Use a calculadora depois de revisar o guia e criar uma topologia recomendada usando a Ferramenta de Planejamento.
+A [calculadora Skype for Business Server capacidade do Skype for Business Server 2015](https://www.microsoft.com/download/details.aspx?id=51196) e Skype for Business Server [2019](https://www.microsoft.com/download/details.aspx?id=57509) ampliam a Ferramenta de Planejamento [Skype for Business e sua](https://www.microsoft.com/download/details.aspx?id=50357) documentação de implantação ([Planejar sua Skype for Business Server 2015 e](../plan-your-deployment/plan-your-deployment.md) [Planejar sua implantação Skype for Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md), respectivamente). Use a calculadora depois de revisar o guia e criar uma topologia recomendada usando a Ferramenta de Planejamento.
   
 A Skype for Business Server de capacidade ajuda você a determinar os requisitos do servidor com base no número de usuários e nas ferramentas de comunicação que sua organização usa. Depois de determinar seu perfil de usuário e as funções que deseja habilitar para seus usuários, use a calculadora para determinar o número de servidores, memória e largura de banda que você precisará. Esta versão da calculadora não fornece orientações para requisitos de E/S de disco.
   
 Você pode se beneficiar mais com a calculadora se tiver informações precisas e detalhadas sobre seu perfil de usuário específico. Por exemplo, a porcentagem de usuários habilitados para voz, a média de chamadas por usuário por hora, a duração da chamada e a porcentagem de usuários simultâneos em conferências podem fazer uma grande diferença nos requisitos do servidor. A precisão das recomendações criadas pela calculadora depende da precisão das informações fornecidas.
   
-Depois de usar a Ferramenta de Planejamento e a Calculadora de Planejamento de Capacidade, você deve simular sua carga proposta e planejada para garantir que o Skype for Business Server seja provisionado adequadamente. Para executar o teste de estresse em uma carga simulada, use a ferramenta de Skype for Business Server de desempenho e estresse [documentada](https://www.microsoft.com/download/details.aspx?id=50367) Skype for Business Server Ferramenta de Desempenho [e Estresse.](./stress-and-performance-tool/stress-and-performance-tool.md)
+Depois de usar a Ferramenta de Planejamento e a Calculadora de Planejamento de Capacidade, você deve simular sua carga proposta e planejada para garantir que o Skype for Business Server seja provisionado adequadamente. Para executar o teste de estresse em uma carga simulada, use a ferramenta Skype for Business Server stress e [desempenho](https://www.microsoft.com/download/details.aspx?id=50367) documentada na Skype for Business Server [Ferramenta de Desempenho e Estresse](./stress-and-performance-tool/stress-and-performance-tool.md).
   
 ## <a name="using-the-capacity-calculator"></a>Usando a Calculadora de Capacidade
 
@@ -48,45 +48,45 @@ O modelo de uso contém as seções a seguir. Para calcular seus requisitos de c
   
 - Em **Número de Usuários**, digite o número de usuários que serão assinados de uma vez. Esse número geralmente é 80% do número total de usuários provisionados. Na maioria das situações, 100% dos usuários simultâneos serão habilitados para IM e Presença. O padrão é 80.000 para Skype for Business Server 2015 e 106.000 usuários para Skype for Business Server 2019.
     
-- **O número médio de contatos na** lista de contatos indica o número de contatos que estamos usando para validar seus requisitos do sistema. Esse número é fixo e não algo que você deve alterar.
+- **O número médio de contatos na lista de** contatos indica o número de contatos que estamos usando para validar seus requisitos do sistema. Esse número é fixo e não algo que você deve alterar.
     
   **Enterprise Voice**
   
 - Em **Usuários habilitados para Enterprise Voice**, digite a porcentagem de seus usuários habilitados para Enterprise Voice. O padrão é 60%. 
     
-- Em Número médio de chamadas por usuário por hora **(pico),** digite o número de chamadas por hora que você espera que o usuário médio participe durante os horários de pico de carga. O padrão é 4. 
+- Em **Número médio de** chamadas por usuário por hora (pico), digite o número de chamadas por hora que você espera que o usuário médio participe durante os horários de pico de carga. O padrão é 4. 
     
-- Em **Porcentagem de chamadas que usam bypass** de mídia, digite a porcentagem de chamadas feitas por seus usuários que ignorarão o Servidor de Mediação. O padrão é 65%, mas pode ser menor se você estiver espalhado geograficamente ou tiver uma grande porcentagem de usuários que trabalham em casa.
+- Em **Porcentagem de chamadas que usam bypass de mídia**, digite a porcentagem de chamadas feitas por seus usuários que ignorarão o Servidor de Mediação. O padrão é 65%, mas pode ser menor se você estiver espalhado geograficamente ou tiver uma grande porcentagem de usuários que trabalham em casa.
     
-- Em Porcentagem de usuários de voz envolvidos em chamadas **UC-PSTN**, digite a porcentagem de chamadas da sua organização que são chamadas telefônicas UC-PSTN. O padrão é 60%.
+- Em **Porcentagem de usuários de voz envolvidos em chamadas UC-PSTN**, digite a porcentagem de chamadas da sua organização que são chamadas telefônicas UC-PSTN. O padrão é 60%.
     
-- Porcentagem de usuários de voz envolvidos em chamadas **UC-UC** mostra a porcentagem de usuários habilitados para Enterprise Voice que serão habilitados somente para chamadas UC-UC. Esse número é calculado com base no que você instrui para Porcentagem de usuários de voz **habilitados para chamadas UC-PSTN**. 
+- **Porcentagem de usuários de voz envolvidos em chamadas UC-UC** mostra a porcentagem de usuários habilitados para Enterprise Voice que serão habilitados somente para chamadas UC-UC. Esse número é calculado com base no que você instrui para Porcentagem de usuários de **voz habilitados para chamadas UC-PSTN**. 
     
   **Conferências**
   
-- Em **Porcentagem de usuários em conferências simultâneas,** digite a porcentagem de usuários que participarão de conferências ao mesmo tempo. O padrão é 5%. 
+- Em **Porcentagem de usuários em conferências simultâneas**, digite a porcentagem de usuários que participarão de conferências ao mesmo tempo. O padrão é 5%. 
     
-- Em Porcentagem de conferências com IM de grupo **somente (sem voz),** digite o percentual de conferências que envolverão apenas mensagens instantâneas e não incluir áudio. O padrão é 10%
+- Em **Porcentagem de conferências com IM de grupo somente (** sem voz), digite o percentual de conferências que envolverão apenas mensagens instantâneas e não incluir áudio. O padrão é 10%
     
-- Em **Percentage of users using dial-in conferencing**, digite a porcentagem de participantes em conferências que estarão usando conferência discda de uma vez. O padrão é 15%.
+- Em **Porcentagem de usuários que usam** conferência discagem, digite a porcentagem de participantes em conferências que estarão usando a conferência discagem de uma só vez. O padrão é 15%.
     
-- Em **Porcentagem de conferências usando voz,** digite a porcentagem de conferências que incluirão áudio. 
+- Em **Porcentagem de conferências usando voz**, digite a porcentagem de conferências que incluirão áudio. 
     
-  - Se 20% de suas conferências de voz também incluirem vídeo regular, marque a caixa de seleção Incluir **vídeo (sem Multi View).**
+  - Se 20% de suas conferências de voz também incluirem vídeo regular, marque a caixa de seleção Incluir **vídeo (sem Multi View** ).
     
-  - Se 20% de suas conferências também incluirem vídeo Multi-View, marque a caixa de seleção **Incluir Multi-Exibição.**
+  - Se 20% de suas conferências também incluirem vídeo Multi-View, marque a caixa **de seleção Incluir Multi-Exibição** .
     
   - Se 50% das conferências de voz também incluirem compartilhamento de aplicativos, marque a caixa de seleção **Incluir compartilhamento de** aplicativos.
     
-  - Se 20% de suas conferências de voz incluirem carregamentos de dados, como PowerPoint apresentações, selecione a caixa de seleção Incluir **webconferência.**
+  - Se 20% de suas conferências de voz incluirem carregamentos de dados, como PowerPoint apresentações, selecione a caixa de seleção Incluir **webconferência**.
     
   **Mobilidade**
   
-- Em **Porcentagem de usuários habilitados** para Mobilidade , digite a porcentagem de seus usuários que serão habilitados para se conectar a Skype for Business Server usando dispositivos móveis. O padrão é 40%. 
+- Em **Porcentagem de usuários habilitados para Mobilidade**, digite a porcentagem de seus usuários que serão habilitados para se conectar a Skype for Business Server usando dispositivos móveis. O padrão é 40%. 
     
 Quando você tiver inserido todas as informações necessárias, a calculadora de capacidade estima seus requisitos. As células amarelas mostram valores calculados para os requisitos de CPU, memória e largura de banda com base em testes realizados Skype for Business Server laboratórios de desempenho. Os números são fornecidos como uma diretriz, nem todas as variações são testadas e validadas. Os seguintes valores são calculados: 
   
-- **CPU front-end**: Porcentagem de uso da CPU se toda a carga estivesse sendo manipulada por um Servidor Front-End com as mesmas especificações do servidor usado no teste (consulte a descrição no final deste artigo).
+- **CPU front-end**: porcentagem de uso da CPU se toda a carga estivesse sendo manipulada por um Servidor Front-End com as mesmas especificações do servidor usado no teste (consulte a descrição no final deste artigo).
     
 - **Rede em Mbps**: Requisitos de largura de banda em megabits por segundo (Mbps) para a carga de trabalho correspondente.
     
@@ -94,7 +94,7 @@ Quando você tiver inserido todas as informações necessárias, a calculadora d
     
 As células verdes mostram recomendações para o modelo de uso inserido. 
   
-- **Servidores front-end** totais : o número de servidores físicos necessários se baseia em servidores dedicados que executam o Skype for Business Server 2015 com processador duplo, hex-core, com 2.260 megaciclos ou Skype for Business Server 2019 com Intel Xeon E5-2673 v3, processador dual, hex-core.
+- **Servidores front-end** totais: o número de servidores físicos necessários se baseia em servidores dedicados que executam o Skype for Business Server 2015 com processador duplo, hex-core, com 2.260 megaciclos ou Skype for Business Server 2019 com Intel Xeon E5-2673 v3, processador dual, hex-core.
     
     Observe que a habilitação do hiperthreading é recomendada e foi comprovada para melhorar o desempenho para servidores que suportam áudio/vídeo.
     
@@ -102,7 +102,7 @@ As células verdes mostram recomendações para o modelo de uso inserido.
     
 - **Archiving/Call Detail Recording/Quality of Experience services Store**: o número de lojas necessárias para recursos de Arquivamento ou Monitoramento, se eles estão habilitados em sua organização.
     
-- Servidor de Banco de Dados de **Back-End Obrigatório (Pools Obrigatórios)**: o número de servidores de banco de dados back-end necessários para dar suporte à carga de trabalho selecionada.
+- **Servidor de Banco de Dados de Back-End Obrigatório (Pools Obrigatórios)**: o número de servidores de banco de dados back-end necessários para dar suporte à carga de trabalho selecionada.
     
 Além disso, na linha ao lado do Total de Servidores Front-End, mais informações são fornecidas sobre a carga em seus servidores e rede para todas as cargas de trabalho planejadas combinadas.
   

@@ -1,8 +1,8 @@
 ---
 title: Preparar Esquema
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar o esquema para os Serviços de Domínio do Active Directory, execute a etapa Preparar Esquema no Assistente Skype for Business Server Implantação. Clique em Executar para começar a preparação do esquema.
-ms.openlocfilehash: 88a9ca5f93263b4d8a514db3c987bcd3a63d87a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 43496aa2b9d3ec40f4c79aed0e20824ee7ef1494
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842343"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404323"
 ---
 # <a name="prepare-schema"></a>Preparar Esquema
  

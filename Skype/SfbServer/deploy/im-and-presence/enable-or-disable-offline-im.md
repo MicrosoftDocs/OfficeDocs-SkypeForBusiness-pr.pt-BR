@@ -1,8 +1,8 @@
 ---
 title: Habilitar ou desabilitar mensagens instantâneas offline (IM) em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: Saiba como habilitar ou desabilitar o IM (Mensagens Instantâneas Offline) Skype for Business Server.
-ms.openlocfilehash: aace1ca45c224ce6ef6c7d6d6f151ecd3ab9b260
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 453dd08db20de7eefb64b331b122ad94f5e9b183
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858628"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403415"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Habilitar ou desabilitar mensagens instantâneas offline (IM) em Skype for Business Server
  
@@ -53,7 +53,7 @@ O IM offline é um recurso do lado do cliente integrado ao cliente do Skype for 
 
 O IM offline não estará disponível para os envios se eles têm uma política de cliente que desabilita o armazenamento automático de mensagens Offline na pasta de histórico de conversas (EnableIMAutoArchiving = $false). Não há mecanismo para verificar se o destinatário é capaz de receber mensagens Offline.
   
-Para mensagens offline enviadas na mesma organização, elas serão recebidas como uma mensagem de email com **classe** de mensagem de IM.Note.MissedConversation e serão incluídas na pasta Conversa Perdida do Outlook, bem como no histórico da conversa que será escolhido na guia histórico de lista/conversa recente nos clientes Skype for Business.
+Para mensagens offline enviadas na mesma organização, elas serão recebidas como uma mensagem de email **com classe de** mensagem de IM.Note.MissedConversation e serão incluídas na pasta conversa perdida do Outlook, bem como no histórico da conversa que será escolhido na guia histórico de lista/conversa recente nos clientes Skype for Business.
   
 Para mensagens offline enviadas da organização federada, elas serão recebidas como uma mensagem de email sem IM.Note.MisssedConversation e não serão escolhidas nas pastas de histórico de conversas ou conversas perdidas. 
   

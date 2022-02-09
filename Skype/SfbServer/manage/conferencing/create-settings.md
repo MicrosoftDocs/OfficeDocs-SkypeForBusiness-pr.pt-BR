@@ -1,8 +1,8 @@
 ---
 title: Criar configurações de reunião em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Resumo: saiba como criar configurações de reunião em Skype for Business Server.'
-ms.openlocfilehash: 1b0ba956e467f5b03036d8ef1d1629b4fc4dc517
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5188f0ab194051e752beb604224311edb5a6a5c4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850024"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403923"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Criar configurações de reunião em Skype for Business Server
  
@@ -31,7 +31,7 @@ Você pode criar definições de configuração de reunião usando Skype for Bus
     
 2.  Abra Skype for Business Server Painel de Controle.
     
-3. Na barra de navegação esquerda, clique **em Conferência** e em **Configuração de Reunião.**
+3. Na barra de navegação esquerda, clique **em Conferência e** em **Configuração de Reunião**.
     
 4. Na página **Configuração de reunião**, clique em **Novo** e siga um destes procedimentos:
     
@@ -67,7 +67,7 @@ Você pode criar definições de configuração de reunião usando Skype for Bus
     
 ## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Criar configurações de reunião usando Skype for Business Server Shell de Gerenciamento
 
-Para criar configurações de reunião, use o cmdlet **New-CsMeetingConfiguration.**
+Para criar configurações de reunião, use o cmdlet **New-CsMeetingConfiguration** .
   
 O comando a seguir cria um novo conjunto de configurações de reunião para o site redmond:
   

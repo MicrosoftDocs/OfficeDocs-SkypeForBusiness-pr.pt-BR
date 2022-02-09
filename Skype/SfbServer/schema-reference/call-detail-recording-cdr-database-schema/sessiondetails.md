@@ -1,8 +1,8 @@
 ---
 title: Tabela SessionDetails
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Cada registro representa uma sessão ponto a ponto, que poderia ser uma chamada telefônica VoIP-VoIP, uma sessão de IM de duas partes ou outro tipo de sessão. Você pode executar uma junção de tabela com a tabela Mídia para encontrar os detalhes de cada mídia envolvida nesta sessão.
-ms.openlocfilehash: e7b89dc242fb3e4adec215948915218b579631ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 55c5c85538f61d757bc3d3d2c7f97ff1a58d33cc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863428"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404543"
 ---
 # <a name="sessiondetails-table"></a>Tabela SessionDetails
  
@@ -26,10 +26,10 @@ Cada registro representa uma sessão ponto a ponto, que poderia ser uma chamada 
   
 Observe que os campos IsUser1IntegratedWithDeskPhone e IsUser2IntegratedWithDeskPhone foram descartados da tabela SessionDetails usada no Skype for Business Server 2015.
   
-|**Column**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primário, Estrangeiro  <br/> |Tempo da solicitação de sessão. Usado em conjunto com **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primário, Estrangeiro  <br/> |O número de ID para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma sessão.* Consulte a tabela Dialogs no Skype for Business Server [2015](dialogs.md) para obter mais informações. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primário, Estrangeiro  <br/> |O número de ID para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma sessão.* Consulte a tabela [Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> ||Um GUID para correlacionar várias sessões.  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Foreign  <br/> |O número de identificação para identificar a caixa de diálogo que foi substituída pela sessão atual. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**ReplaceDialogIdSeq** <br/> |int  <br/> |Foreign  <br/> |O número de identificação para identificar a sessão. Usado em conjunto com **ReplacesDialogIdTime** para identificar exclusivamente uma sessão que é substituída por esta sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |

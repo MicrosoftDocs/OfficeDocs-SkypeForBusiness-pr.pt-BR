@@ -1,8 +1,8 @@
 ---
 title: Configurar o servidor de gerenciamento principal
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumo: configure seu servidor de gerenciamento principal, instale o System Center Operations Manager e importe pacotes de gerenciamento para Skype for Business Server 2019.'
-ms.openlocfilehash: 15fecd23a4376eab64d49820da69f8ac0aec6c08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6cf0100d979f01ffc9a63974bd52208ba80dd9a4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845994"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404453"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype for Business Server: Configurar o servidor de gerenciamento principal
 
@@ -38,7 +38,7 @@ Ao instalar o System Center Operations Manager, você precisará instalar todos 
 
 - Console da Web
 
-- Reporting
+- Relatórios
 
 - Data warehouse
 
@@ -62,7 +62,7 @@ Você pode estender os recursos do System Center Operations Manager instalando p
 
 Importar os pacotes de gerenciamento é uma etapa crucial. Se os pacotes de gerenciamento não são importados, você não poderá usar o Operations Manager para monitorar Skype for Business Server eventos ou executar Skype for Business Server transações sintéticas.
 
-O Component and User Management Pack é usado para monitorar somente Skype for Business Server 2019. Se você estiver em um cenário de coexistência em que o Skype for Business Server 2019 e o Skype for Business Server 2015 estão instalados, você deve continuar a usar os pacotes de gerenciamento do Skype for Business Server 2015 para seus computadores Skype for Business Server 2015.
+O Component and User Management Pack é usado para monitorar somente Skype for Business Server 2019. Se você estiver em um cenário de coexistência em que o Skype for Business Server 2019 e o Skype for Business Server 2015 estão instalados, você deve continuar a usar os pacotes de gerenciamento do Skype for Business Server 2015 para seus pacotes de gerenciamento do Skype for Business Server 2015 Skype for Business Server computadores 2015.
 
 > [!NOTE]
 > Os pacotes de gerenciamento do Skype for Business Server 2019 incluem o componente Skype for Business Server 2019 e o User Management Pack e o Skype for Business Server 2019 Active Monitoring Management Pack.
@@ -85,7 +85,7 @@ Você pode usar uma destas ferramentas para importar pacotes de gerenciamento:
 
 5. Na caixa **de diálogo Conexão de** Catálogo Online, clique em **Não**.
 
-6. Na caixa de diálogo Selecionar Pacotes de Gerenciamento a serem **importados,** localize e selecione os arquivos Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp e Microsoft.LS.2019.Monitoring.ComponentAndUser.mp e clique em **Abrir**. Para selecionar vários arquivos na caixa de diálogo, clique no primeiro arquivo e segure a tecla Ctrl e clique nos arquivos subsequentes.
+6. Na caixa **de diálogo Selecionar Pacotes** de Gerenciamento a serem importados, localize e selecione os arquivos Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp e Microsoft.LS.2019.Monitoring.ComponentAndUser.mp e clique em **Abrir**. Para selecionar vários arquivos na caixa de diálogo, clique no primeiro arquivo e segure a tecla Ctrl e clique nos arquivos subsequentes.
 
 7. Na caixa de seleção **Selecionar pacotes de gerenciamento**, clique em **Instalar**. Se receber uma mensagem de erro e a instalação falhar, geralmente isso signfica que os arquivos dos pacotes de gerenciamento estão em uma pasta protegida pelo Controle de conta de usuário do Windows. Se isso ocorrer, copie os arquivos para uma pasta diferente e reinicie o processo de importação e instalação.
 
@@ -95,7 +95,7 @@ Você pode usar uma destas ferramentas para importar pacotes de gerenciamento:
 
 Em geral, é mais fácil importar os pacotes de gerenciamento usando o console do Operations Manager. No entanto, se ocorrer um erro e a importação falhar, o console nem sempre fornecerá relatórios de erros adequados. Por comparação, o Shell do Operations Manager fornece informações detalhadas. Se você estiver usando o Operations Manager e encontrar problemas ao importar um pacote de gerenciamento, importe o pacote usando o Shell do Operations Manager. As informações fornecidas pelo Shell do Operations Manager podem ajudá-lo a determinar por que a importação falhou.
 
-1. Clique **em Iniciar,** em **Todos os Programas,** em **Microsoft System Center 2012,** em **Operations Manager** e em **Shell do Operations Manager**.
+1. Clique **em Iniciar**, em **Todos os Programas**, em **Microsoft System Center 2012**, em **Operations Manager** **e em Shell do Operations Manager**.
 
 2. Em Shell do Operations Manager, digite o seguinte comando no prompt de comando, usando o caminho real para sua cópia do arquivo Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp e pressione ENTER:
 

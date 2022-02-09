@@ -1,8 +1,8 @@
 ---
 title: Criar ou modificar uma regra de conversão para apresentação de ID do chamador no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 'Resumo: saiba como configurar a ID do Chamador usando o painel Skype for Business Server Controle.'
-ms.openlocfilehash: 13ca5073956e6cf67264e706a82e63ec72efbac4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d756deefe9f6dd9d9184466585898d813690c0c5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865328"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403515"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Criar ou modificar uma regra de conversão para apresentação de ID do chamador no Skype for Business Server
 
 **Resumo:** Saiba como configurar a ID do Chamador usando o Painel Skype for Business Server Controle.
 
-Com Skype for Business Server, o número de telefone da parte chamada (ou seja, o número de telefone chamado) pode ser convertido do formato E.164 para o formato de discagem local exigido pelo par de tronco _(ou_ seja, o gateway associado, o PBX (private branch exchange) ou o tronco SIP). Para fazer isso, você deve definir uma ou mais regras de conversão para traduzir o URI de solicitação antes de roteá-lo para o ponto de tronco.
+Com Skype for Business Server, o número de telefone da parte chamada (ou seja, o número de telefone chamado) pode ser convertido do formato E.164 para o formato de discagem local exigido pelo par de _tronco (ou_ seja, o gateway associado, o PBX (private branch exchange) ou o tronco SIP). Para fazer isso, você deve definir uma ou mais regras de conversão para traduzir o URI de solicitação antes de roteá-lo para o ponto de tronco.
 
 Skype for Business Server também oferece a opção de também traduzir o número de telefone do chamador (ou seja, o número de telefone do qual o chamador está chamando) do formato E.164 para o formato de discagem local exigido pelo ponto de tronco. Por exemplo, você pode criar uma regra de conversão para remover +44 do começo de uma sequência de caracteres de discagem e o substituir por 0144.
 
@@ -37,7 +37,7 @@ Skype for Business Server também oferece a opção de também traduzir o númer
 
 2. Na barra de navegação esquerda, clique em **Roteamento de Voz** e clique em **Configuração de Tronco**.
 
-3. Na página **Configuração do** Tronco, clique duas vezes em um tronco existente (por exemplo, o **tronco Global)** para exibir a caixa de diálogo Editar Configuração **do** Tronco.
+3. Na página **Configuração do** Tronco, clique duas vezes em um tronco existente (por exemplo, o **tronco Global** ) para exibir a caixa de diálogo Editar Configuração **do** Tronco.
 
 4. Para configurar a apresentação da ID do chamador:
 

@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Servidores de Monitoramento
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 description: 'O nó Monitoring Servers lista os Monitoring Servers da sua topologia. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: e8d3fb51a789c74a98330b1753e874174035b0c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ce3fb8868baa3c460663db548614c08c2178d503
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847514"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410094"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nó de Escopo de Servidores de Monitoramento
  

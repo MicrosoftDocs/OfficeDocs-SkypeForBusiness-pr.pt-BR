@@ -1,8 +1,8 @@
 ---
 title: Gerenciar configurações de PIN em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 description: 'Resumo: Gerenciar configurações de PIN Skype for Business Server.'
-ms.openlocfilehash: 840da2accd7a84caa8c5e4b409873d721d679732
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a074964b196447b93350029195420413b789a38c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848564"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403963"
 ---
 # <a name="manage-pin-settings-in-skype-for-business-server"></a>Gerenciar configurações de PIN em Skype for Business Server
  
@@ -38,7 +38,7 @@ Você pode gerenciar Skype for Business Server de PIN Skype for Business Server 
     
 - [Atribuir uma política de PIN por usuário em Skype for Business Server](assign-a-per-user-pin-policy.md)
     
-Use os procedimentos a seguir para gerenciar PINs de conferência discado dos usuários a partir da seção **Usuários** Skype for Business Server Painel de Controle.
+Use os procedimentos a seguir para gerenciar OS PINs de conferência discado dos usuários na seção **Usuários** do Skype for Business Server Painel de Controle.
   
 - [Defina o PIN de conferência discado de um usuário em Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
     

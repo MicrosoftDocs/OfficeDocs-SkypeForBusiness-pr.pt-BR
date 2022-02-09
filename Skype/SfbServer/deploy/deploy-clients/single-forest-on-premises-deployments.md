@@ -1,7 +1,7 @@
 ---
-title: Skype Implantações locais de floresta única do Sistema de Sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype de floresta única local do Sistema de Sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Leia este tópico para saber como implantar o Skype Room System em um único ambiente local de floresta.
-ms.openlocfilehash: 0f8ab644efc3d832fd5e201bd49517971ba5ba08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8093304ba538d67f64eb9f824033e9b4560fe976
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828414"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404433"
 ---
-# <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Implantações locais de floresta única do Sistema de Sala
+# <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype de floresta única local do Sistema de Sala
  
 Leia este tópico para saber como implantar o Skype Room System em um único ambiente local de floresta.
   
@@ -27,7 +27,7 @@ Esta seção fornece uma visão geral das etapas para provisionar a conta do sis
   
 ## <a name="single-forest-on-premises-deployments"></a>Implantação de uma única floresta no local
 
-Se você já tiver uma conta de caixa de correio de recurso para a sala de conferência, poderá usá-la. Caso contrário, você precisará criar um novo. Você pode usar Exchange Shell de Gerenciamento (PowerShell) ou Console de Gerenciamento do Exchange criar uma nova conta de caixa de correio de recurso. Recomendamos usar uma nova caixa de correio de recurso (excluir caixa de correio antiga e re-criar) para Skype Room System. Certifique-se de fazer o back up de dados de caixa de correio antes de excluí-los e exportá-los de volta para a caixa de correio re-criada usando o cliente Outlook (consulte Exportar ou fazer o back-up de mensagens, calendário, tarefas e contatos para obter mais informações). Para restaurar as reuniões perdidas excluindo a caixa de correio, [consulte Conexão ou restaure uma caixa de correio excluída.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
+Se você já tiver uma conta de caixa de correio de recurso para a sala de conferência, poderá usá-la. Caso contrário, você precisará criar um novo. Você pode usar Exchange Shell de Gerenciamento (PowerShell) ou Console de Gerenciamento do Exchange criar uma nova conta de caixa de correio de recurso. Recomendamos usar uma nova caixa de correio de recurso (excluir caixa de correio antiga e re-criar) para Skype Room System. Certifique-se de fazer o back up de dados de caixa de correio antes de excluí-los e exportá-los de volta para a caixa de correio re-criada usando o cliente Outlook (consulte Exportar ou fazer o back-up de mensagens, calendário, tarefas e contatos para obter mais informações). Para restaurar as reuniões perdidas excluindo a caixa de correio, [consulte Conexão ou restaure uma caixa de correio excluída](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
   
 Para usar uma conta de caixa de correio de recurso existente (por exemplo, LRS-01) siga as etapas abaixo:
   
@@ -45,7 +45,7 @@ Para usar uma conta de caixa de correio de recurso existente (por exemplo, LRS-0
 
    O exemplo acima cria uma conta de usuário habilitada no Active Directory e uma caixa de correio de sala para uma sala de conferência em uma organização Exchange local. O parâmetro RoomMailboxPassword especifica a senha da conta de usuário.
     
-3. Configure a conta para resolver automaticamente conflitos aceitando/rejeitando reuniões. Skype As contas de sala de conferência equipadas pelo sistema de sala no Exchange podem ser gerenciadas por indivíduos, mas observe que, até que o indivíduo aceite uma reunião, ela não aparecerá no calendário da tela inicial do Sistema de Sala Skype.
+3. Configure a conta para resolver automaticamente conflitos aceitando/rejeitando reuniões. Skype contas de sala de conferência equipadas com sistema de sala no Exchange podem ser gerenciadas por indivíduos, mas observe que, até que o indivíduo aceite uma reunião, ela não aparecerá no calendário da tela inicial do Sistema de Sala Skype.
     
    ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -73,7 +73,7 @@ Para usar uma conta de caixa de correio de recurso existente (por exemplo, LRS-0
 
 ## <a name="check-resource-mailbox-account-in-active-directory"></a>Verificar Conta de Caixa de Correio de Recurso no Active Directory
 
-A conta de caixa de correio da sala de conferência criada Exchange na etapa 1 acima pode ser um objeto de usuário desabilitado no Active Directory. Skype O Sistema de Sala não pode entrar ou autenticar usando a autenticação Kerberos/NTLM se a conta estiver desabilitada no Active Directory. O Skype do Sistema de Sala deve ser capaz de se autenticar em serviços Web Exchange para recuperar configurações de calendário e também pode enviar emails com conteúdo de quadro de trabalho. 
+A conta de caixa de correio da sala de conferência criada Exchange na etapa 1 acima pode ser um objeto de usuário desabilitado no Active Directory. Skype Sistema de Sala não poderá entrar ou autenticar usando a autenticação Kerberos/NTLM se a conta estiver desabilitada no Active Directory. O Skype do Sistema de Sala deve ser capaz de se autenticar em serviços Web Exchange para recuperar configurações de calendário e também pode enviar emails com conteúdo de quadro de trabalho. 
   
 Portanto, se a conta estiver desabilitada, você deverá habilitar essa conta no Active Directory fazendo o seguinte: 
   

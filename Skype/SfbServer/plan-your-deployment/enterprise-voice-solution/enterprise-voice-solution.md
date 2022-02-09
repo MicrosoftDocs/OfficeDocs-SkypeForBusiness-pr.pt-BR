@@ -1,8 +1,8 @@
 ---
 title: Planejar sua Enterprise Voice de Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumo: saiba mais sobre suas opções para planejar uma solução unificada de voz e comunicações Skype for Business Server.'
-ms.openlocfilehash: 71fc511d6c435ab6b1cd5f553d668acd2fb606a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 500a34784ea94e16b5531bc94adf222047998a64
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829855"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409884"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planejar sua Enterprise Voice de Skype for Business Server
  
 **Resumo:** Saiba mais sobre suas opções para planejar uma solução unificada de voz e comunicações Skype for Business Server.
   
-Skype for Business Server oferece duas opções de Enterprise Voice locais, Enterprise Voice e Call Via Work, para que você integre o sistema telefônico da sua organização com sua implantação Skype for Business Server, tornando uma verdadeira unificação solução de comunicações. Ambas as opções permitem que os usuários usem o cliente Skype for Business para iniciar chamadas de voz com outros usuários, dentro e fora da sua organização.
+Skype for Business Server oferece duas opções de Enterprise Voice locais, Enterprise Voice e Call Via Work, para que você integre o sistema telefônico da sua organização ao seu Skype for Business Server  implantação, criando uma verdadeira solução de comunicações unificadas. Ambas as opções permitem que os usuários usem o cliente Skype for Business para iniciar chamadas de voz com outros usuários, dentro e fora da sua organização.
   
 Você também pode usar o Enterprise Voice e o Call Via Work juntos.
   

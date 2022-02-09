@@ -1,7 +1,7 @@
 ---
 title: Compartilhar com Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9367a865c1eb3a8b71c60f492a8b222431c98d73
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cb13db7a7ebb5728913b58fb712ad86d851d469a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832935"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409824"
 ---
 # <a name="share-to-teams-from-outlook"></a>Compartilhar para Teams de Outlook
 
@@ -30,11 +30,11 @@ O compartilhamento Teams do Outlook (Compartilhar para Teams) permite que os usu
 O recurso Compartilhar Teams requer um complemento para Outlook. Esse add-in é instalado automaticamente sempre que um usuário faz logo on no aplicativo Web Teams ou no Teams de área de trabalho.
 
 > [!NOTE]
-> Certifique-se de revisar os Outlook [no Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) e as Regras de Acesso para Cliente no [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para garantir que seus Outlook funcionem corretamente. Além disso, desabilitar experiências conectadas pode impedir que os Outlook de trabalho corretamente. Confira [Experiências conectadas no Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) para obter mais informações.  
+> Certifique-se de revisar os Outlook no [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) e regras de acesso para cliente no [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para garantir que os seus Outlook funcionem corretamente. Além disso, desabilitar experiências conectadas pode impedir que os Outlook de trabalho corretamente. Confira [Experiências conectadas Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) para obter mais informações.  
 
-O compartilhamento Teams usa o mesmo mecanismo de transporte que quando um usuário envia emails para um canal. Para o compartilhamento em chats, os emails (incluindo anexos de email) são copiados para o OneDrive. Para compartilhar em canais, emails e anexos são copiados para a pasta **Mensagens de email** em SharePoint.
+O compartilhamento Teams usa o mesmo mecanismo de transporte que quando um usuário envia emails para um canal. Para o compartilhamento em chats, os emails (incluindo anexos de email) são copiados para o OneDrive. Para compartilhamento de canais, emails e anexos são copiados para a pasta **Mensagens de email** em SharePoint.
 
-O complemento do Outlook para Share to Teams usa o conjunto de requisitos 1.7, conforme detalhado na documentação de [complementos](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)do Outlook , que inclui detalhes sobre os complementos do Outlook, os requisitos de ambiente para os complementos do Outlook e os clientes Outlook específicos com suporte com o conjunto de requisitos 1.7.
+O complemento do Outlook para o Share to Teams usa o conjunto de requisitos 1.7, conforme detalhado na documentação de [complementos do Outlook](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), que inclui detalhes sobre os complementos do Outlook, os requisitos de ambiente para os complementos do Outlook e os clientes Outlook específicos com suporte com o conjunto de requisitos 1.7.
 
 ## <a name="enabling-or-disabling-share-to-teams"></a>Habilitando ou desabilitando o Compartilhamento para Teams
 
@@ -43,7 +43,7 @@ O Outlook do Share to Teams pode ser desabilitado ou habilitado seletivamente po
 > [!NOTE]
 > Desabilitar o complemento só é possível após a instalação do complemento. Se você quiser impor a desabilitação para todos os usuários em seu locatário, execute um script periodicamente.
 
-Para desabilitar o complemento para Outlook usado pelo Share para Teams, execute o [cmdlet encontrado aqui](/powershell/module/exchange/disable-app?view=exchange-ps). 
+Para desabilitar o complemento para Outlook usado pelo Share para Teams, [execute o cmdlet encontrado aqui](/powershell/module/exchange/disable-app?view=exchange-ps). 
 
 Para habilitar o Outlook usado pelo Share para Teams, execute o [cmdlet encontrado aqui](/powershell/module/exchange/enable-app?view=exchange-ps).
 
@@ -54,4 +54,4 @@ O compartilhamento Teams, em clientes de Outlook na Web e Outlook desktop, depen
 > [!IMPORTANT]
 > O compartilhamento Teams requer que cookies de terceiros e acesso de armazenamento local sejam habilitados para navegadores dos usuários.
 
-O share to Teams usa o SSO (Single Sign-on), o que significa que os usuários não precisam fornecer suas credenciais ao usar o complemento por meio do Share to Teams. O SSO para Outlook na Web https://outlook.office365.com/owa/extSSO.aspx suporta e responde https://outlook.office.com/owa/extSSO.aspx URLs por padrão. Para domínios de vaidade, os administradores precisam adicionar a URL Azure Active Directory resposta apropriada.
+O share to Teams usa o SSO (Single Sign-on), o que significa que os usuários não precisam fornecer suas credenciais ao usar o complemento por meio do Share to Teams. O SSO para Outlook na Web suporta https://outlook.office365.com/owa/extSSO.aspx e responde https://outlook.office.com/owa/extSSO.aspx URLs por padrão. Para domínios de vaidade, os administradores precisam adicionar a URL Azure Active Directory resposta apropriada.

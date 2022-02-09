@@ -1,8 +1,8 @@
 ---
 title: Criar uma nova política de PIN no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 'Resumo: crie uma nova política de PIN Skype for Business Server.'
-ms.openlocfilehash: cf9a35c634c9b53b557601009fa131c3c24e7db2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd6119498dc39f59bba3877d432f2dc92e94b9a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844204"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403983"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Criar uma nova política de PIN no Skype for Business Server
  

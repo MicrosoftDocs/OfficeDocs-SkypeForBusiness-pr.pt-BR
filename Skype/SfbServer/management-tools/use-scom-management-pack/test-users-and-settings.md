@@ -1,8 +1,8 @@
 ---
 title: Como configurar os usuários e as configurações de teste do nó do watcher
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: Como configurar contas de usuário de teste e configurações de nó do watcher para Skype for Business Server transações sintéticas.
-ms.openlocfilehash: e21842550da1a5a96c96cef5ac7e8c728777799b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 503d7f0fd23d3fbbacd0510654d156b07e2ebd7e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849754"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409934"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>Como configurar os usuários e as configurações de teste do nó do watcher
  
@@ -93,7 +93,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
 
 O comando anterior falhará se você não tiver instalado os arquivos Skype for Business Server principais e o banco de dados RTCLocal no computador do nó do watcher. 
   
-Para testar várias políticas de voz, você pode criar um teste estendido para cada política usando o cmdlet **New-CsExtendedTest.** Os usuários fornecidos devem ser configurados com as políticas de voz desejadas. Os testes estendidos são passados para o cmdlet **New-CsWatcherNodeConfiguration** usando delimitadores de vírgula, como:
+Para testar várias políticas de voz, você pode criar um teste estendido para cada política usando o cmdlet **New-CsExtendedTest** . Os usuários fornecidos devem ser configurados com as políticas de voz desejadas. Os testes estendidos são passados para o cmdlet **New-CsWatcherNodeConfiguration** usando delimitadores de vírgula, como:
   
 -ExtendedTests @{Add=$pstnTest 1,$pstnTest 2,$pstnTest 3}
   
@@ -245,7 +245,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 ```
 
 > [!NOTE]
-> A propriedade Enabled pode ser usada para ativar ou desativar nós do watcher. Se você quiser excluir permanentemente um nó do watcher, use o cmdlet **Remove-CsWatcherNodeConfiguration:**
+> A propriedade Enabled pode ser usada para ativar ou desativar nós do watcher. Se você quiser excluir permanentemente um nó do watcher, use o cmdlet **Remove-CsWatcherNodeConfiguration** :
   
 ```PowerShell
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
@@ -272,7 +272,7 @@ A maioria das transações sintéticas pode ser executado em um nó do watcher c
   
 ### <a name="data-conferencing-synthetic-transaction"></a>Transação sintética de conferência de dados
 
-Se o computador do nó do watcher estiver localizado fora da sua rede de perímetro, você provavelmente não poderá executar a Transação Sintética de Conferência de Dados, a menos que primeiro desabilite as configurações de proxy do navegador do Internet Explorer® do Windows internet para a conta de Serviço de Rede, concluindo as seguintes etapas:
+Se o computador do nó do seu watcher estiver localizado fora da sua rede de perímetro, você provavelmente não poderá executar a Transação Sintética de Conferência de Dados, a menos que primeiro desabilite as configurações de proxy do navegador internet do Internet Explorer® do Windows para a conta de Serviço de Rede, concluindo as seguintes etapas:
   
 1. No computador do nó do observador, clique em **Iniciar**, em **Todos os programas**, em **Acessórios**, clique com o botão direito no **Prompt de comando** e clique em **Executar como administrador**.
     
@@ -294,7 +294,7 @@ Se o computador do nó do watcher estiver localizado fora da sua rede de períme
       
     Esta mensagem indica que você desabilitou as configurações de proxy do Internet Explorer para a conta de Serviço de Rede.
   
-### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange Transação sintética de Unificação de Mensagens
+### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange transação sintética de Unificação de Mensagens
 
 A Exchange de unificação de mensagens (UM) verifica se os usuários de teste podem se conectar a contas de caixa postal em casa Exchange.
   
@@ -374,11 +374,11 @@ Neste exemplo, uma regra de Skype for Business Server precisará existir para ro
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transação sintética do VIS (Servidor de Interop de Vídeo)
 
-A transação sintética do VIS (Servidor de Interop de Vídeo) exige que você baixe e instale os arquivos de suporte à transação sintética ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
+A transação sintética do VIS (Servidor de Interop de Vídeo) exige que você baixe e instale os arquivos de suporte a transações[ sintéticas (VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
   
 Para instalar VISSTSupportPackage.msi as dependências (em Requisitos do Sistema) para o msi já estão instaladas. Execute VISSTSupportPackage.msi para fazer uma instalação simples. O .msi instala todos os arquivos no seguinte caminho: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
-Para obter mais informações sobre como executar a Transação Sintética do VIS, consulte a documentação do cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV.](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV)
+Para obter mais informações sobre como executar a Transação Sintética do VIS, consulte a documentação do cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) .
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Alterando a frequência de executar transações sintéticas
 <a name="special_synthetictrans"> </a>
@@ -452,4 +452,4 @@ Você pode exibir esses arquivos usando Windows Internet Explorer, Microsoft Vis
 As transações sintéticas são executados de dentro do System Center Operations Manager gerarão automaticamente esses arquivos de log para falhas. Esses logs não serão gerados se a execução falhar antes Skype for Business Server o PowerShell for capaz de carregar e executar a transação sintética. 
   
 > [!IMPORTANT]
-> Por padrão, Skype for Business Server salva arquivos de log em uma pasta que não é compartilhada. Para tornar esses logs prontamente acessíveis, você deve compartilhar essa pasta. Por exemplo: \\ atl-watcher-001.litwareinc.com\WatcherNode.
+> Por padrão, Skype for Business Server salva arquivos de log em uma pasta que não é compartilhada. Para tornar esses logs prontamente acessíveis, você deve compartilhar essa pasta. Por exemplo: \\atl-watcher-001.litwareinc.com\WatcherNode.

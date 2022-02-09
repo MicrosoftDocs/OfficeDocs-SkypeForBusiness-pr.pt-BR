@@ -1,8 +1,8 @@
 ---
 title: Gerenciar locais para gateways ELIN em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Decisões necessárias para o planejamento de um banco de dados de informações de local ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando gateways ELIN, em Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ddc92645a39b007c3bb0d1e72e009ff1bf303b37
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845164"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404663"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gerenciar locais para gateways ELIN em Skype for Business Server
 
@@ -48,11 +48,11 @@ Quando você usa gateways ELIN, preenche o banco de dados do serviço informaç�
 
 ### <a name="planning-location-names"></a>Planejando nomes dos locais
 
-O campo  Local do serviço de Informações de Localização, que contém o local específico dentro de um edifício, tem um comprimento máximo de 20 caracteres (incluindo espaços). Dentro desse comprimento limitado, tente incluir o seguinte:
+O campo Local do  serviço de Informações de Localização, que contém o local específico dentro de um edifício, tem um comprimento máximo de 20 caracteres (incluindo espaços). Dentro desse comprimento limitado, tente incluir o seguinte:
 
 - Um nome fácil de entender que identifica o local do chamador 911 para ajudar a garantir que os respondentes de emergência encontrem o local específico prontamente quando chegarem ao endereço cívico. Esse nome de local pode incluir um número de construção, um número de piso, um designador de asa, um número de sala e assim por diante. Evite apelidos conhecidos apenas pelos funcionários, o que pode fazer com que os respondentes de emergência acessem o local errado.
 
-- Um identificador de local que ajuda os usuários a ver facilmente que seu cliente escolheu o local correto. O Skype for Business cliente automaticamente concatena e exibe os campos **Local** e **Cidade** descobertos em seu header. Uma boa prática é adicionar o endereço de rua do edifício a cada identificador de local (por exemplo, "1º Andar \<street number> "). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
+- Um identificador de local que ajuda os usuários a ver facilmente que seu cliente escolheu o local correto. O Skype for Business cliente automaticamente concatena e exibe os campos **Local** e **Cidade** descobertos em seu header. Uma boa prática é adicionar o endereço de rua do edifício a cada identificador de local (por exemplo, "1º Andar \<street number>"). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
 
 - Se o local for aproximado porque ele é determinado por um ponto de acesso sem fio, talvez você queira adicionar a palavra **[Near]** (por exemplo, "Próximo ao 1º Andar 1234").
 

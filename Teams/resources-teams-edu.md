@@ -1,7 +1,7 @@
 ---
 title: 'Microsoft Teams: Recursos para administradores de Educação'
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2f0b8f1f070d48c30413f3d89e54b9344c54cafb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865660"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409834"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Recursos do Microsoft Teams para administradores de Educação
 
@@ -57,7 +57,7 @@ Certifique-se de fazer check-out do [Guia de Toolkit digital](https://github.com
 ## <a name="call-to-action"></a>Chamada à ação
 
 - Visite a [Teams para Educação para](https://www.microsoft.com/en-us/education/products/teams/default.aspx) treinamentos, vídeos e demonstrações interativas
-- Ativar Teams no [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (entrar como um administrador Office 365)
+- A Teams [no Centro de administração do Microsoft 365 (](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)entre como administrador Office 365 de Office 365)
 - Baixe os clientes do Microsoft Teams: [Baixar o Microsoft Teams em todos os dispositivos](https://teams.microsoft.com/downloads)
 - Saiba mais sobre o Office 365 for Education na [Central de ajuda do Educação](https://support.office.com/education)
 

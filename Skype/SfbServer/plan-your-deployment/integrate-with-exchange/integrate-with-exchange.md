@@ -1,8 +1,8 @@
 ---
 title: Plano para integrar o Skype for Business e o Exchange
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumo: revise este tópico para obter informações sobre como integrar o Skype for Business Server com o Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: c9308f1d84165206f745f0231a39e442d51a88bc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562833"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403735"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plano para integrar o Skype for Business e o Exchange
  
@@ -38,7 +38,7 @@ Para Skype for Business Server você pode usar um certificado Skype for Business
     
 - O certificado tenha no mínimo 2048 bits.
     
-Para obter detalhes sobre certificados de autenticação de servidor para servidor para Skype for Business Server, consulte Atribuir um certificado de autenticação de servidor para servidor a [Skype for Business Server](../../manage/authentication/assign-a-server-to-server-certificate.md).
+Para obter detalhes sobre certificados de autenticação de servidor para servidor para Skype for Business Server, consulte [Assign a server-to-server authentication certificate to Skype for Business Server](../../manage/authentication/assign-a-server-to-server-certificate.md).
   
 Depois que os certificados foram atribuídos, você deve configurar o serviço de descoberta automática no Exchange Server. Em Exchange Server, o serviço de descoberta automática configura perfis de usuário e fornece acesso a serviços Exchange quando os usuários fizerem logoff no sistema. Os usuários apresentam seus endereços de email e senhas ao serviço de descoberta automática; por sua vez, os serviços fornecem aos usuários informações como:
   
@@ -64,9 +64,9 @@ Você pode atribuir o URI de descoberta automática executando um comando simila
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-Para obter detalhes sobre o serviço de descoberta automática, consulte [Autodiscover Service](/Exchange/architecture/client-access/autodiscover).
+Para obter detalhes sobre o serviço de descoberta automática, consulte [Serviço de Descoberta Automática](/Exchange/architecture/client-access/autodiscover).
   
-Depois que o serviço de descoberta automática tiver sido configurado, você deverá modificar as configurações do Skype for Business Server OAuth; isso garante que Skype for Business Server saiba onde encontrar o serviço de descoberta automática. Para modificar as configurações do OAuth no Skype for Business Server, execute o seguinte comando no Shell de Gerenciamento Skype for Business Server. Ao executar esse comando, especifique o URI para o serviço de descoberta automática em execução em seu Exchange Server e use **autodiscover.svc** para apontar para o local de serviço em vez de **autodiscover.xml** (que aponta para o arquivo XML usado pelo serviço):
+Depois que o serviço de descoberta automática tiver sido configurado, você deverá modificar as configurações do Skype for Business Server OAuth; isso garante que Skype for Business Server saiba onde encontrar o serviço de descoberta automática. Para modificar as configurações do OAuth no Skype for Business Server, execute o seguinte comando no Shell de Gerenciamento Skype for Business Server. Ao executar esse comando, especifique o URI para o serviço de descoberta automática em execução no seu Exchange Server e use **autodiscover.svc** para apontar para o local de serviço em vez de **autodiscover.xml** (que aponta para o arquivo XML usado pelo serviço):
   
 ```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -76,14 +76,14 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 > O parâmetro Identity no comando anterior é opcional; isso porque Skype for Business Server permite que você tenha uma única coleção global de configurações OAuth. Dentre outras coisas, isso significa que você pode configurar a URL de descoberta automática usando este comando um pouco mais simples: 
 > 
 > [!NOTE]
-> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl " <https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc> " 
+> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl "<https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc>" 
 > 
 > [!NOTE]
 > Caso não esteja familiarizado com a tecnologia, o OAuth é um protocolo de autorização padrão usado por vários websites importantes. Com o OAuth, as credenciais de usuário e senhas não são passadas de um computador a outro. Ao invés disso, a autenticação e autorização são baseadas na troca de tokens de segurança; estas tokens concedem acesso a um conjunto específico de recursos por um período determinado de tempo. 
   
 Além de configurar o serviço de descoberta automática, você também deve criar um registro DNS para o serviço que aponta para seu Exchange Server. Por exemplo, se o serviço de descoberta automática estiver localizado no autodiscover.litwareinc.com, você precisará criar um registro DNS para autodiscover.litwareinc.com que resolva o nome de domínio totalmente qualificado do seu Exchange Server (por exemplo, atl-exchange-001.litwareinc.com).
   
-Se você estiver integrando Skype for Business Server com Exchange Online, suas [próximas](../../deploy/integrate-with-exchange-server/outlook-web-app.md)etapas estão em Configurar a integração entre o Skype for Business Server local e Outlook Web App , caso contrário, consulte [Integrar Skype for Business Server com Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Se você estiver integrando Skype for Business Server com Exchange Online, suas [próximas](../../deploy/integrate-with-exchange-server/outlook-web-app.md) etapas estão em Configurar a integração entre o Skype for Business Server local e Outlook Web App, caso contrário, consulte [Integrar Skype for Business Server com Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>Suporte a recursos
 <a name="feature_support"> </a>
@@ -98,20 +98,20 @@ A tabela a seguir detalha os recursos com suporte em várias combinações onlin
 |Presença no Outlook   |S   |S   |S   |S   |S   |
 |Responder via IM, Chamada PSTN, Skype Chamada ou Vídeo de um email Outlook email   |S   |S   |S   |S   |S   |
 |Agendar e participar de reuniões online por meio Outlook   |S   |S   |S   |S   |S   |
-|Presença no Outlook Web App   |S   |S   |N   |N   |S   |
-|Responder por IM, Chamada PSTN, Skype Chamada ou Chamada de Vídeo de um email do OWA   |S   |S   |N   |N   |S   |
-|Agendar e participar de reuniões online por meio Outlook Web App   |S   |Y   |N   |N   |S   |
+|Presença no Outlook Web App   |S   |S   |N   |N   |Y   |
+|Responder por IM, Chamada PSTN, Skype Chamada ou Chamada de Vídeo de um email do OWA   |S   |Y   |N   |N   |Y   |
+|Agendar e participar de reuniões online por meio Outlook Web App   |S   |Y   |N   |N   |Y   |
 |IM/Presença em Clientes Móveis   |S   |S   |S   |S   |S   |
 |Participar de reuniões online em clientes Móveis   |S   |S   |S   |S   |S   |
 |Publicar status com base em Outlook de agenda livre/ocupado   |S   |S   |S   |S   |S   |
-|Lista de contatos (por meio do Unified Contact Store)   |Y (precisa Exchange 2016/2013)   |Y   |N   |N   |S   |
+|Lista de contatos (por meio do Unified Contact Store)   |Y (precisa Exchange 2016/2013)   |Y   |N   |N   |Y   |
 |Foto de contato de alta resolução (requer clientes do Lync 2013 ou Skype for Business no mínimo. Não há suporte para LWA, aplicativos móveis, Lync 2010, Lync para Mac e outros clientes mais antigos.)   |Y (precisa Exchange 2016/2013)   |Y   |N   |S   |S   |
 |Delegação de reunião   |S   |S   |S   |S   |S   |
 |Histórico de Conversas Perdidas e Logs de Chamadas são gravados na caixa de correio do exchange do usuário   |S   |S   |S   |S   |S   |
-|Conteúdo de Arquivamento (IM e Reunião) em Exchange   |Y (precisa Exchange 2016/2013)   |Y   |N   |N   |S   |
-|Pesquisar conteúdo arquivado   |Y (precisa Exchange 2016/2013)   |Y   |N   |N   |S   |
-|Exchange caixa postal de UM   |S   |Y   |N   |N   |N   |
-|Histórico da Conversa do Lado do Servidor   |S   |Y   |N   |S   |S   |
+|Conteúdo de Arquivamento (IM e Reunião) em Exchange   |Y (precisa Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|Pesquisar conteúdo arquivado   |Y (precisa Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|Exchange caixa postal de UM   |S   |S   |N   |N   |N   |
+|Histórico da Conversa do Lado do Servidor   |S   |S   |N   |S   |S   |
 
 > [!NOTE]
 > Há um serviço Caixa postal na Nuvem com suporte para o Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015 e Lync Server 2013.

@@ -1,8 +1,8 @@
 ---
 title: Regras de conversão em Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Saiba mais sobre regras de conversão e normalização da cadeia de caracteres de discagem Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 1ad2434a0f57e57f6d86b8bda0c9c2e7af6c3de9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c2cc7990a0b3c61ef11e20fbc43b678a841d8137
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841003"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403740"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Regras de conversão em Skype for Business Server
 
@@ -42,5 +42,5 @@ Para obter detalhes sobre como implementar as regras de conversão, consulte [De
 
 |**Descrição**|**Dígitos iniciais**|**Length**|**Dígitos a serem removidos**|**Dígitos a serem adicionados**|**Padrão de correspondência**|**Tradução**|**Exemplo**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Discagem convencional de longa distância nos EUA  <br/> (tire o '+')  <br/> |+1  <br/> |Exatamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 se torna 14255551010  <br/> |
-|Discagem de longa distância internacional dos EUA  <br/> (desmarcar '+' e adicionar 011)  <br/> |+  <br/> |Pelo menos 11  <br/> |1  <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 se torna 011441235551010  <br/> |
+|Discagem convencional de longa distância nos EUA  <br/> (tire o '+')  <br/> |+1  <br/> |Exatamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 se torna 14255551010  <br/> |
+|Discagem de longa distância internacional dos EUA  <br/> (desmarcar '+' e adicionar 011)  <br/> |+  <br/> |Pelo menos 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 se torna 011441235551010  <br/> |

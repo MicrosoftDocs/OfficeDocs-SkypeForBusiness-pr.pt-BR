@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Diretor
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), as portas e o repositório de arquivos associado a este pool de Diretores. Você pode realizar as seguintes ações:'
-ms.openlocfilehash: de50c3152578bb38bb260c65f3a1ef41fbe08866
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9529636dba8bfd4ca1d279dc7e9e2e7968f99630
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851155"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404033"
 ---
 # <a name="director-scope-node"></a>Nó de Escopo de Diretor
  

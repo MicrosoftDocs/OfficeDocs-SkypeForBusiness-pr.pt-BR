@@ -1,8 +1,8 @@
 ---
 title: Selecionar Rotas
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: Use a caixa de diálogo Selecionar Rotas para localizar rotas de voz existentes que você possa usar.
-ms.openlocfilehash: 43c345fa0f56b4106922b5b1b3a499d25385962d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 493964f988cbcd431c9ab5b5f2166f64481fbbeb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832275"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410184"
 ---
 # <a name="select-routes"></a>Selecionar Rotas
  

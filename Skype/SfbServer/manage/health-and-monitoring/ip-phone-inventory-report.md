@@ -1,8 +1,8 @@
 ---
 title: Relatório de inventário Telefone IP no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Resumo: saiba mais sobre o Relatório de inventário de Telefone IP no Skype for Business Server.'
-ms.openlocfilehash: 9a09bc76d77c2290ab8e0f0c08fce79c2766e3a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: be0929918909755865c524e63af47afb014de93e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862458"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410024"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Relatório de inventário Telefone IP no Skype for Business Server
  
@@ -95,7 +95,7 @@ A tabela seguir lista os filtros que podem ser usados com o Relatório de Invent
   
 **Filtros do Relatório de Inventário de Telefones IP**
 
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
@@ -113,7 +113,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Inventário
   
 **Métricas do Relatório de Inventário de Telefones IP**
 
-|**Nome**|**É possível classificar este item?**|**Descrição**|
+|**Name**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Fabricante** <br/> |Sim  <br/> |Nome da empresa que fabricou o telefone IP.  <br/> |
 |**Versão do hardware** <br/> |Sim  <br/> |Número da versão do telefone IP.  <br/> |

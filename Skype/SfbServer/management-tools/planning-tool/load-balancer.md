@@ -1,8 +1,8 @@
 ---
 title: Ferramenta de planejamento do Balanceador de Carga
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: Se você tiver pools de Front-End, pools de diretores ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool.
-ms.openlocfilehash: 697128b7033075fffc3c30e39ae7e1401c14906b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 43b1105441b4a6391b99d214c908693cedf0dd7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850834"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403893"
 ---
 # <a name="load-balancer-planning-tool"></a>Ferramenta de planejamento do Balanceador de Carga
  

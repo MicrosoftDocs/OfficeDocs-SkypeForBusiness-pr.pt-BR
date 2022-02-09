@@ -1,7 +1,7 @@
 ---
 title: Configurações de rede para recursos de voz na nuvem
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 862d696024baa75feefbbae7e4458caad22b5566
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 80d7bd7400a53a15d16e456b3c6ed1fdfcdeacf9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833977"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403585"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configurações de rede para recursos de voz na nuvem Microsoft Teams
 
-Saiba mais sobre regiões de rede, sites de rede, sub-redes de rede e endereços IP confiáveis. Esses termos e conceitos são usados [](location-based-routing-plan.md) em toda a documentação de voz na nuvem para Roteamento Baseado em Localização para Roteamento Direto e [chamada de emergência dinâmica.](configure-dynamic-emergency-calling.md) Se você estiver implantando esses recursos de nuvem em sua organização, deverá configurar as configurações de rede para uso com esses recursos Microsoft Teams.
+Saiba mais sobre regiões de rede, sites de rede, sub-redes de rede e endereços IP confiáveis. Esses termos e conceitos são usados em toda a documentação de [](location-based-routing-plan.md) voz na nuvem para Roteamento baseado em Local para Roteamento Direto e [chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md). Se você estiver implantando esses recursos de nuvem em sua organização, deverá configurar as configurações de rede para uso com esses recursos Microsoft Teams.
 
 Este artigo fornece uma visão geral das configurações de rede comuns Location-Based roteamento e chamadas de emergência dinâmicas. Dependendo do recurso de voz na nuvem e da funcionalidade que você está implantando, configure algumas ou todas essas configurações. Para ver as etapas sobre como configurar essas configurações, consulte [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
 
