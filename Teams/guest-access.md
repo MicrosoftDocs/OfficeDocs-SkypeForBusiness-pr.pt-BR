@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: 80c1fcb9012efbc1809b1d1d4252c9801d148ba9
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8ea0ae05823a1f7402d6a41f51794d0a169faf43
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537082"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457251"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 
@@ -33,11 +33,11 @@ Com o acesso de convidado, você pode fornecer acesso às equipes, documentos em
 > [!NOTE]
 > Se você deseja encontrar, ligar, conversar e marcar reuniões com pessoas de outras organizações, use o [acesso externo](manage-external-access.md).
 
-Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa que não faça parte da sua organização pode ser adicionada como convidado no Teams. Isso significa que qualquer pessoa com uma conta comercial (ou seja, uma conta do Azure Active Directory) ou uma conta de email de consumidor (com Outlook.com, Gmail.com ou outros) pode participar como convidado no Teams, com acesso total a equipes e experiências de canal.
+Um convidado é alguém que não tem uma conta de estudante ou corporativa na sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa que não faça parte da sua organização pode ser adicionada como convidado no Teams. Isso significa que qualquer pessoa com uma conta comercial (ou seja, uma conta do Azure Active Directory) ou uma conta de email de consumidor (com Outlook.com, Gmail.com ou outros) pode participar como convidado no Teams, com acesso total a equipes e experiências de canal.
 
 Os convidados no Teams estão cobertos pela mesma proteção de conformidade e auditoria que o restante do Microsoft 365, e podem ser gerenciados no Azure AD. O acesso de convidados está sujeito aos limites de serviço do Azure AD e do Microsoft 365 ou Office 365.
 
-A experiência de convidado tem limitações por padrão. Para obter uma lista completa do que um convidado pode ou não fazer no Teams, confita a [comparação de recursos de membros e de convidados da equipe](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
+A experiência de convidado tem limitações por padrão. Para obter uma lista completa do que um convidado pode e não pode fazer no Microsoft Teams, consulte [Acesso de convidado no Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
 > Os convidados seguem as configurações de Toda a organização do Teams para o modo de atualização de coexistência. Isso não pode ser alterado.
@@ -60,14 +60,14 @@ O acesso de convidado no Teams requer a definição de outras configurações no
 
 ### <a name="turning-guest-access-off"></a>Desativando o acesso de convidado
 
-Se você desativar o acesso de convidados no Teams, os convidados existentes perderão o acesso à equipe. No entanto, eles não são removidos da equipe. Eles ainda estão visíveis para os membros da equipe e podem ser @mencionados. Se você ativar o acesso de convidado do Teams novamente, eles recuperarão o acesso.
+Se você desativar o acesso de convidados no Teams, os convidados existentes perderão o acesso à equipe. No entanto, eles não são removidos da equipe. Eles ainda são visíveis para as pessoas da equipe e podem ser @mencionados. Se você ativar o acesso de convidado do Teams novamente, eles recuperarão o acesso.
 
-Se você planeja deixar o acesso de convidados desativado, convém avisar os proprietários da equipe para remover manualmente as contas de convidado de suas equipes. Embora esses convidados não tenham acesso, ter suas contas visíveis na equipe pode causar confusão para outros membros da equipe.
+Se você planeja deixar o acesso de convidados desativado, convém avisar os proprietários da equipe para remover manualmente as contas de convidado de suas equipes. Embora esses convidados não tenham acesso, ter suas contas visíveis na equipe pode causar confusão para outras pessoas da equipe.
 
-## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Como um convidado se torna membro de uma equipe
+## <a name="how-a-guest-gets-added-to-a-team"></a>Como um convidado é adicionado a uma equipe
 
 1. Um proprietário de equipe ou um administrador do Microsoft 365 [adiciona um convidado a uma equipe.](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
-2. O convidado recebe um e-mail de boas-vindas do proprietário da equipe com informações sobre a equipe e o que esperar agora que é membro.
+2. O convidado recebe um email de boas-vindas do proprietário da equipe, com as informações sobre a equipe e o que esperar agora que eles foram adicionados.
 3. O convidado aceita o convite.
   Os convidados que têm uma conta de trabalho ou escolar no Azure Active Directory podem aceitar o convite e se autenticar diretamente. Outros usuários recebem uma senha de uso único para validar sua identidade ([Autenticação de senha de uso único ](/azure/active-directory/external-identities/one-time-passcode) necessária).
 4. Depois de aceitar o convite, o convidado pode [participar de equipes e de canais](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), receber e responder mensagens de canais, [acessar arquivos em canais](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participar de bate-papos participar de reuniões, colaborar em documentos e muito mais. 
@@ -83,11 +83,14 @@ Os convidados podem deixar a equipe a qualquer momento no Teams. Para obter deta
 
 O acesso de convidados está incluído em todas as assinaturas do Microsoft 365 Business Standard, do Microsoft 365 Enterprise e do Microsoft 365 Education. Não é necessária nenhuma licença adicional do Microsoft 365. O [modelo de cobrança para Identidades Externas do Azure AD](/azure/active-directory/b2b/licensing-guidance) aplica-se aos convidados no Microsoft 365. Somente pessoas de fora da sua organização podem ser convidadas como convidados.
 
+> [!NOTE]
+> Converter uma conta de convidado em uma conta de membro do Microsoft Azure AD ou converter uma conta de membro do Microsoft Azure AD em um convidado não é suportado pelo Microsoft Teams.
+
 ## <a name="guest-access-reviews"></a>Comentários de acesso de convidados
 
-Você pode usar o Azure AD para criar uma revisão de acesso para membros do grupo ou usuários atribuídos a um aplicativo. A criação de revisões de acesso recorrentes pode economizar seu tempo. Se você precisar revisar rotineiramente os usuários que têm acesso a um aplicativo, equipe ou membros de um grupo, poderá definir a frequência dessas revisões. 
+Você pode utilizar o Microsoft Azure AD para criar uma revisão de acesso para usuários que estão em grupos ou que foram atribuídos a um aplicativo. A criação de revisões de acesso recorrentes pode economizar seu tempo. Se você precisar revisar rotineiramente os usuários que têm acesso a um aplicativo, uma equipe ou um grupo, poderá definir a frequência destas revisões. 
 
-Você mesmo pode realizar uma revisão de acesso de convidado, pedir aos convidados que revisem a própria assinatura ou pedir a um proprietário de aplicativo ou tomador de decisões de negócios para realizar a revisão de acesso. Use o portal do Azure para realizar análises de acesso de convidado. Para obter mais informações, consulte [Gerenciar o acesso de convidado com análises de acesso do Azure AD](/azure/active-directory/governance/manage-guest-access-with-access-reviews).
+Você mesmo pode executar uma revisão de acesso de convidado, pedir que os convidados revisem seu próprio acesso ou pedir a um proprietário de aplicativo ou tomador de decisões de negócios para realizar a revisão de acesso. Use o portal do Azure para realizar análises de acesso de convidado. Para obter mais informações, consulte [Gerenciar o acesso de convidado com análises de acesso do Azure AD](/azure/active-directory/governance/manage-guest-access-with-access-reviews).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
