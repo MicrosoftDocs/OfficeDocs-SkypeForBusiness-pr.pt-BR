@@ -1,6 +1,6 @@
 ---
 title: Habilitar usuários para Roteamento Direto
-ms.reviewer: ''
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,18 +16,18 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como habilitar os usuários para Microsoft Teams Telefone Roteamento Direto.
-ms.openlocfilehash: 1fc45484dfe2c0b78674f5a6631fd3f1001196dd
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: f3e5d4a83850c7f934bd5cf299822916656db7d6
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180944"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518623"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuários para Roteamento Direto, voz e caixa postal
 
 Este artigo descreve como habilitar usuários para Roteamento Direto. Esta é a etapa 2 das seguintes etapas para configurar o Roteamento Direto:
 
-- Etapa 1. [Conexão SBC com Telefone Microsoft System e validar a conexão](direct-routing-connect-the-sbc.md) 
+- Etapa 1. [Conexão SBC com Sistema de Telefonia validar a conexão](direct-routing-connect-the-sbc.md) 
 - **Etapa 2. Habilitar usuários para Roteamento Direto, voz e caixa postal**   (este artigo)
 - Etapa 3. [Configurar roteamento de voz](direct-routing-voice-routing.md)
 - Etapa 4. [Traduzir números para um formato alternativo](direct-routing-translate-numbers.md) 
@@ -37,17 +37,16 @@ Para obter informações sobre todas as etapas necessárias para configurar o Ro
 
 Quando você estiver pronto para habilitar usuários para Roteamento Direto, siga estas etapas: 
 
-1. Crie um usuário no Microsoft 365 ou Office 365 e atribua uma Sistema de Telefonia de usuário. 
-2. Verifique se o usuário está no Skype for Business Online. 
-3. Configure o número de telefone e habilita a voz corporativa e a caixa postal. 
-4. Atribua Teams modo Somente aos usuários.
+1. Crie um usuário no Microsoft 365 e atribua uma Sistema de Telefonia de usuário.  
+2. Configure o número de telefone e habilita a voz corporativa e a caixa postal. 
+3. Atribua Teams modo Somente aos usuários.
 
 ## <a name="create-a-user-and-assign-the-license"></a>Criar um usuário e atribuir a licença
 
-Há duas opções para criar um novo usuário no Microsoft 365 ou Office 365. No entanto, a Microsoft recomenda que sua organização escolha uma opção para evitar problemas de roteamento: 
+Há duas opções para criar um novo usuário no Microsoft 365. No entanto, a Microsoft recomenda que sua organização escolha uma opção para evitar problemas de roteamento: 
 
-- Crie o usuário no Active Directory local e sincronize o usuário com a nuvem. Consulte [Integrar seus diretórios locais com Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect).
-- Crie o usuário diretamente no Centro de administração do Microsoft 365. Consulte [Adicionar usuários individualmente ou em massa a](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)Microsoft 365 ou Office 365 - Ajuda do administrador . 
+- Crie o usuário no Active Directory local e sincronize o usuário com a nuvem. Consulte [Integrar seus diretórios locais](/azure/active-directory/connect/active-directory-aadconnect) com Azure Active Directory.
+- Crie o usuário diretamente no Centro de administração do Microsoft 365. Consulte [Adicionar usuários individualmente ou em massa a Microsoft 365 ou Office 365 - Ajuda do administrador](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
 Se sua implantação do Skype for Business Online coexistir com o Skype for Business 2015 ou o Lync 2010 ou 2013 local, a única opção com suporte é criar o usuário no Active Directory local e sincronizar o usuário com a nuvem (Opção 1). 
 
@@ -66,7 +65,7 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    Se OnPremLineUriManuallySet estiver definido como False e LineUri for preenchido com um número de telefone do <E.164>, o número de telefone foi atribuído no local e sincronizado com Microsoft 365. Se você quiser gerenciar o número de telefone online, limpe o parâmetro usando o Shell de Gerenciamento local Skype for Business e sincronizar com o Microsoft 365 antes de configurar o número de telefone usando o Skype for Business Online PowerShell. 
+    Se OnPremLineUriManuallySet estiver definido como False e LineUri for preenchido com um número de telefone do <E.164>, o número de telefone foi atribuído no local e sincronizado com Microsoft 365. Se você quiser gerenciar o número de telefone online, limpe o parâmetro usando o Shell de Gerenciamento local Skype for Business e sincronizar com o Microsoft 365 antes de configurar o número de telefone usando o Teams PowerShell. 
 
 1. A partir Skype for Business Shell de Gerenciamento, emito o comando: 
 
@@ -76,7 +75,7 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
  > [!NOTE]
  > Não defina EnterpriseVoiceEnabled como False, pois não há nenhum requisito para fazer isso e isso pode levar a problemas de normalização do plano de discagem se os telefones Skype for Business herdados estão em uso e a configuração híbrida tenant é definida com UseOnPremDialPlan $True. 
     
-   Depois que as alterações sincronizadas Office 365 a saída esperada `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` de seria:
+   Depois que as alterações sincronizadas Microsoft 365 a saída esperada `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` de seria:
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
@@ -85,13 +84,12 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
    LineURI                              : 
    ```
  > [!NOTE]
- > Todos os atributos de telefone do usuário devem ser gerenciados online antes de você [decomissioná-lo Skype for Business ambiente local.](/skypeforbusiness/hybrid/decommission-on-prem-overview) 
+ > Todos os atributos de telefone do usuário devem ser gerenciados online antes de você [decomissioná-lo localmente Skype for Business ambiente](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Configurar o número de telefone e habilitar a voz corporativa e a caixa postal online 
 
 Depois de criar o usuário e ter atribuído uma licença, você deve configurar as configurações de telefone online do usuário. 
 
- 
 1. Conexão uma sessão Microsoft Teams PowerShell. 
 
 2. Se o gerenciamento do número de telefone do usuário no local, emito o comando: 
@@ -118,6 +116,7 @@ Depois de criar o usuário e ter atribuído uma licença, você deve configurar 
     ```
 
     A Microsoft recomenda, mas não exige, que o número de telefone seja configurado como um número de telefone E.164 completo com código de país. Você pode configurar números de telefone com extensões. Essas extensões serão usadas para procurar usuários quando a pesquisa em relação ao número base retornar mais de um resultado. Essa funcionalidade permite que as empresas configurem números de telefone com o mesmo número base e extensões exclusivas. Para que a pesquisa seja bem-sucedida, o convite deve incluir o número completo com extensão da seguinte forma:
+    
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
@@ -132,7 +131,7 @@ O Roteamento Direto permite que você termine a chamada para um usuário e envie
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Atribuir Teams modo Somente aos usuários para garantir que as chamadas aterrisem Microsoft Teams
 
-O Roteamento Direto exige que os usuários Teams modo Somente para garantir que as chamadas de entrada chegam no Teams cliente. Para colocar os usuários Teams modo Somente, atribua a eles a instância "UpgradeToTeams" do TeamsUpgradePolicy. Para obter mais informações, [consulte Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md). Se sua organização usa Skype for Business Server ou Skype for Business Online, consulte o artigo a seguir para obter informações sobre interoperabilidade entre Skype e Teams: Migração e [interoperabilidade](migration-interop-guidance-for-teams-with-skype.md)com Skype for Business .
+O Roteamento Direto exige que os usuários Teams modo Somente para garantir que as chamadas de entrada chegam no Teams cliente. Para colocar os usuários Teams modo Somente, atribua a eles a instância "UpgradeToTeams" do TeamsUpgradePolicy. Para obter mais informações, [consulte Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md). Se sua organização usa Skype for Business Server, consulte o artigo a seguir para obter informações sobre interoperabilidade entre Skype e Teams: Migração e [interoperabilidade com Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
 ## <a name="see-also"></a>Confira também
 

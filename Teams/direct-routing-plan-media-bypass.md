@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com Sistema de Telefonia Roteamento Direto, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
-ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
+ms.openlocfilehash: 560a3a5802469b0cb17170dfae377d8d6f358c8b
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2022
-ms.locfileid: "62064877"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518613"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -30,7 +30,7 @@ ms.locfileid: "62064877"
 
 O bypass de mídia permite reduzir o caminho do tráfego de mídia e reduzir o número de saltos em trânsito para melhorar o desempenho. Com o bypass de mídia, a mídia é mantida entre o Controlador de Borda de Sessão (SBC) e o cliente, em vez de enviá-lo por meio do Telefone Microsoft System. Para configurar o bypass de mídia, o SBC e o cliente devem estar no mesmo local ou rede.
 
-Você pode controlar o bypass de mídia para cada SBC usando o comando **Set-CSOnlinePSTNGateway** com o parâmetro **-MediaBypass** definido como true ou false. Se você habilitar o bypass de mídia, isso não significa que todo o tráfego de mídia ficará dentro da rede corporativa. Este artigo descreve o fluxo de chamada em diferentes cenários.
+Você pode controlar o bypass de mídia para cada SBC usando **o comando Set-CSOnlinePSTNGateway** com o parâmetro **-MediaBypass** definido como true ou false. Se você habilitar o bypass de mídia, isso não significa que todo o tráfego de mídia ficará dentro da rede corporativa. Este artigo descreve o fluxo de chamada em diferentes cenários.
 
 Os diagramas a seguir ilustram a diferença no fluxo de chamada com e sem bypass de mídia.
 
@@ -42,7 +42,7 @@ Sem bypass de mídia, quando um cliente faz ou recebe uma chamada, a sinalizaç�
 
 Mas vamos supor que um usuário está no mesmo edifício ou rede que o SBC. Por exemplo, suponha que um usuário que está em um edifício em Frankfurt faça uma chamada para um usuário PSTN: 
 
-- **Sem o bypass de** mídia, a mídia fluirá por Meio de Amsterdã ou Dublin (onde os datacenters da Microsoft são implantados) e de volta para o SBC em Frankfurt. 
+- **Sem bypass de mídia**, a mídia fluirá por Meio de Amsterdã ou Dublin (onde os datacenters da Microsoft são implantados) e de volta para o SBC em Frankfurt. 
 
   O datacenter na Europa é selecionado porque o SBC está na Europa e a Microsoft usa o datacenter mais próximo do SBC. Embora essa abordagem não afete a qualidade das chamada devido à otimização do fluxo de tráfego nas redes da Microsoft na maioria das regiões geográficas, o tráfego tem um loop desnecessário.     
 
@@ -198,7 +198,7 @@ Você deve colocar esses três FQDNs para:
 - Forneça failover quando uma conexão de um SBC é estabelecida com um datacenter que está enfrentando um problema temporário. Para obter mais informações, consulte Mecanismo de failover abaixo.
 
 
-Os FQDNs **sip.pstnhub.microsoft.com,** **sip2.pstnhub.microsoft.com** e sip3.pstnhub.microsoft.com **serão** resolvidos para endereços IP a partir das seguintes sub-redes:
+Os FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** e **sip3.pstnhub.microsoft.com** serão resolvidos para endereços IP a partir das seguintes sub-redes:
 - 52.112.0.0/14
 - 52.120.0.0/14
 
@@ -257,8 +257,8 @@ O cliente deve ter acesso às portas especificadas (consulte tabela) no endereç
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Cliente | SBC | 3478-3481 e portas configuradas pelo administrador de locatários para o cliente (o padrão é 50000-50020)| Definido no SBC |
-| UDP/SRTP | SBC | Cliente | Definido no SBC | 3478-3481 e portas configuradas pelo administrador de locatários para o cliente (o padrão é 50000-50020)  |
+| UDP/SRTP | Cliente | SBC | 50000-50019| Definido no SBC |
+| UDP/SRTP | SBC | Cliente | Definido no SBC | 50000-50019  |
 
 
 > [!NOTE]

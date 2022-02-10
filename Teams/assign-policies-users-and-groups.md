@@ -18,16 +18,16 @@ description: Saiba as diferentes maneiras de atribuir políticas a usuários e g
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: b896e823339b1b40ff31036c0e53308bbbe1107b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 1aabc2472f612e7fff547c73c231a7b6301cc0d9
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011495"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518583"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Atribuir políticas a usuários e grupos
 
-Este artigo revisa as diferentes maneiras de atribuir políticas a usuários e grupos em Microsoft Teams. Antes de ler, certifique-se de ler [Atribuir políticas em](policy-assignment-overview.md)Teams - começando .
+Este artigo revisa as diferentes maneiras de atribuir políticas a usuários e grupos em Microsoft Teams. Antes de ler, certifique-se de que você leu [Atribuir políticas no Teams - começando](policy-assignment-overview.md).
 
 ## <a name="assign-a-policy-to-individual-users"></a>Atribuir uma política a usuários individuais
 
@@ -37,17 +37,20 @@ Siga estas etapas para atribuir uma política a um usuário individual ou a um p
 
 Para atribuir uma política a um usuário:
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Usuários** e selecione o usuário.
-2. Selecione o usuário clicando à esquerda do nome do usuário e selecione **Editar configurações**.
+1. Na navegação à esquerda do centro [de administração Microsoft Teams,](https://admin.teams.microsoft.com) vá para **UsuáriosManage** >  usuários.
+2. Selecione o usuário clicando à esquerda do nome de usuário e selecione **Editar configurações**.
 3. Selecione a política que deseja atribuir e selecione **Aplicar**.
 
 ![Atribua uma política a um usuário no Teams de administração.](media/assign-policy-user.png)
 
-Ou você também pode fazer o seguinte:
+> [!NOTE]
+> Para desaignar uma política especializada de um usuário, você pode definir cada política como **Global (padrão em toda a organização)**.
+
+Você também pode fazer o seguinte para atribuir uma política a um usuário:
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para a página de política.
 2. Selecione a política que você deseja atribuir clicando à esquerda do nome da política.
-3. Escolha **Gerenciar usuários**.
+3. Selecione **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando terminar de adicionar usuários, selecione **Aplicar**.
 
@@ -55,14 +58,14 @@ Ou você também pode fazer o seguinte:
 
 ### <a name="use-powershell"></a>Usar o PowerShell
 
-Cada tipo de política tem seu próprio conjunto de cmdlets para gere-lo. Use o `Grant-` cmdlet para um determinado tipo de política para atribuir a política. Por exemplo, use o `Grant-CsTeamsMeetingPolicy` cmdlet para atribuir uma Teams de reunião aos usuários. Esses cmdlets estão incluídos no módulo Teams PowerShell e estão documentados na referência Skype for Business [cmdlet .](/powershell/skype)
+Cada tipo de política tem seu próprio conjunto de cmdlets para gere-lo. Use o `Grant-` cmdlet para um determinado tipo de política para atribuir a política. Por exemplo, use o `Grant-CsTeamsMeetingPolicy` cmdlet para atribuir uma Teams de reunião aos usuários. Esses cmdlets estão incluídos no módulo Teams PowerShell e estão documentados na referência Skype for Business [cmdlet.](/powershell/skype)
 
  Baixe e instale o Teams versão pública do [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (caso ainda não tenha feito isso) e execute o seguinte para se conectar.
 
 > [!NOTE]
 > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams.
 >
-> Se você estiver usando a versão pública mais [recente Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o conector Skype for Business Online.
+> Se você estiver usando a versão Teams versão pública mais recente do [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), não será necessário instalar o conector Skype for Business Online.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -128,9 +131,9 @@ Se você não especificar uma classificação, a atribuição de política receb
 > [!NOTE]
 > Atualmente, a atribuição de política para grupos usando o centro de administração do Microsoft Teams está disponível apenas para a política de chamada do Teams, a política de estacionamento de chamada do Teams, Teams política de Teams, Teams política de eventos ao vivo, Teams política de reunião e Teams de mensagens. Para outros tipos de política, use o PowerShell.
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para a página tipo de política. Por exemplo, vá para **Políticas de Reunião** de  >  **Reuniões.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para a página tipo de política. Por exemplo, vá para **MeetingsMeeting** >  policies.
 2. Selecione a **guia Atribuição de política de** grupo.
-3. Selecione **Adicionar grupo** e, em seguida, no painel Atribuir **política** ao grupo, faça o seguinte:
+3. Selecione **Adicionar grupo** e, no painel **Atribuir política** ao grupo, faça o seguinte:
     1. Pesquise e adicione o grupo ao que você deseja atribuir a política.
     2. De definir a classificação para a atribuição de grupo.
     3. Selecione a política que você deseja atribuir.
@@ -138,7 +141,7 @@ Se você não especificar uma classificação, a atribuição de política receb
     
 ![Atribua uma política a um grupo no Teams de administração.](media/assign-policy-group.png)
 
-Para remover uma atribuição de política de grupo, na **guia** Atribuição de política de grupo da página de política, selecione a atribuição de grupo e selecione **Remover**.
+Para remover uma atribuição de política de grupo, **na guia** Atribuição de política de grupo da página de política, selecione a atribuição de grupo e selecione **Remover**.
 
 Para alterar a classificação de uma atribuição de grupo, você precisa primeiro remover a atribuição de política de grupo. Em seguida, siga as etapas acima para atribuir a política a um grupo.
 
@@ -225,7 +228,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Aqui está um exemplo de como alterar a política efetiva para um usuário que recebe diretamente uma política.
 
-Primeiro, usamos o cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) juntamente com o parâmetro para obter detalhes das políticas de transmissão de reunião Teams associadas ao `PolicySource` usuário.
+Primeiro, usamos o cmdlet `PolicySource` [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) juntamente com o parâmetro para obter detalhes das políticas de transmissão de reunião Teams associadas ao usuário.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -263,9 +266,9 @@ Para atribuir uma política aos usuários em massa:
 1. Na navegação à esquerda do centro de administração Microsoft Teams, selecione **Usuários**.
 2. Pesquise os usuários aos que você deseja atribuir a política ou filtre a exibição para mostrar os usuários que você deseja.
 3. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
-4. Selecione **Editar configurações,** faça as alterações que você deseja e selecione **Aplicar**.
+4. Selecione **Editar configurações**, faça as alterações que você deseja e selecione **Aplicar**.
 
-Para exibir o status da atribuição de política, na  faixa que  aparece na parte superior da página Usuários depois de selecionar Aplicar para enviar sua atribuição de política, selecione Log **de atividades.** Ou, na navegação à esquerda do centro de administração Microsoft Teams, vá para **Painel** e, em log de **atividades,** selecione **Exibir detalhes**. O log de atividades mostra atribuições de política para lotes de mais de 20 usuários por meio do Microsoft Teams de administração dos últimos 30 dias. Para saber mais, confira [Exibir suas atribuições de política no log de atividades](activity-log.md).
+Para exibir o status da atribuição de política, na faixa que aparece na parte superior da página  Usuários depois de selecionar Aplicar  para enviar sua atribuição de política, selecione Log **de atividades**. Ou, na navegação à esquerda do centro de administração Microsoft Teams, vá para **Painel** e, em Log de atividades **, selecione** **Exibir detalhes**. O log de atividades mostra atribuições de política para lotes de mais de 20 usuários por meio do Microsoft Teams de administração dos últimos 30 dias. Para saber mais, confira [Exibir suas atribuições de política no log de atividades](activity-log.md).
 
 ### <a name="use-powershell-method"></a>Usar o método PowerShell
 
@@ -296,7 +299,7 @@ Quando for solicitado, entre usando suas credenciais de administrador.
 
 #### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Instalar e conectar ao PowerShell do Azure AD para Graph módulo (opcional)
 
-Talvez você também queira baixar e instalar o módulo do [Azure AD PowerShell](/powershell/azure/active-directory/install-adv2) para Graph (se ainda não o fez) e se conectar ao Azure AD para poder recuperar uma lista de usuários em sua organização.
+Talvez você também queira baixar e instalar o módulo do [Azure AD PowerShell](/powershell/azure/active-directory/install-adv2) para Graph (se ainda não o fez) e conectar-se ao Azure AD para poder recuperar uma lista de usuários em sua organização.
 
 Execute o seguinte para se conectar ao Azure AD.
 
@@ -308,11 +311,11 @@ Quando for solicitado, entre usando as mesmas credenciais de administrador usada
 
 #### <a name="assign-a-setup-policy-to-a-batch-of-users"></a>Atribuir uma política de instalação a um lote de usuários
 
-Neste exemplo, usamos o cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para atribuir uma política de configuração de aplicativo chamada Política de Configuração de Aplicativo de RH a um lote de usuários listados no arquivo Users_ids.text.
+Neste exemplo, usamos o cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para atribuir uma política de configuração de aplicativo chamada Política de Instalação de Aplicativos de RH a um lote de usuários listados no arquivo users_ids.text.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $user_ids -OperationName "Example 1 batch"
 ```
 
 Neste exemplo, nos conectamos ao Azure AD para recuperar uma coleção de usuários e atribuir uma política de mensagens chamada New Hire Messaging Policy a um lote de usuários especificado usando seu endereço SIP.
@@ -325,7 +328,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 
 #### <a name="get-the-status-of-a-batch-assignment"></a>Obter o status de uma atribuição em lotes
 
-Execute o seguinte para obter o status de uma atribuição em lotes, onde OperationId é a ID da operação retornada pelo `New-CsBatchPolicyAssignmentOperation` cmdlet para um determinado lote.
+Execute o seguinte para obter o status de uma atribuição em lotes, onde OperationId é a ID `New-CsBatchPolicyAssignmentOperation` da operação retornada pelo cmdlet para um determinado lote.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl

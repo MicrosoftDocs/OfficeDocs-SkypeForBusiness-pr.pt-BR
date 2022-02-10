@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use a telemetria em tempo real com detalhes sobre dispositivos, redes e conectividade para solucionar problemas do usuário com Microsoft Teams reuniões agendadas.
-ms.openlocfilehash: 199eac099e23e8f8f0d96393484c4594763bb47a
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: 09c31b7734a849740cf1b0ff5749e4d82c667faf
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401995"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518723"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar a telemetria em tempo real para solucionar problemas de qualidade de reunião ruim
 
@@ -37,7 +37,7 @@ Este artigo explica como usar o Real-Time Analytics (RTA) para solucionar proble
 - Teams de Suporte de Comunicações
 - Engenheiro de Suporte de Comunicações de Equipes
 
-Para obter mais informações sobre Teams funções de administrador, consulte Use Microsoft Teams de administrador [para gerenciar Teams](/MicrosoftTeams/using-admin-roles).
+Para obter mais informações sobre Teams de administrador, consulte [Use Microsoft Teams de administrador para gerenciar Teams](/MicrosoftTeams/using-admin-roles).
 
 Real-Time Analytics permite que os administradores de IT vejam as reuniões agendadas de seus usuários importantes e vejam áudio, vídeo, compartilhamento de conteúdo e problemas relacionados à rede. Como administrador, você pode usar essa telemetria para investigar esses problemas durante as reuniões e solucionar problemas em tempo real.
 
@@ -51,29 +51,48 @@ Como administrador Teams, você tem acesso total a todos os dados de telemetria 
 
 ## <a name="where-to-find-per-user-real-time-troubleshooting-telemetry"></a>Onde encontrar a telemetria de solução de problemas em tempo real por usuário
 
-Para ver todas as informações de reunião e dados de um usuário, vá para o centro [Teams administrador.](https://admin.teams.microsoft.com) Em **Usuários**  >  **Gerenciar usuários,** selecione um usuário e abra a guia **Reuniões & chamadas** na página de perfil do usuário. Em **Reuniões recentes,** você verá uma lista de reuniões que o usuário participou nas últimas 24 horas para as quais *a telemetria* em tempo real está disponível , incluindo todas as reuniões em andamento. Se a reunião não estiver em andamento ou não tiver dados de telemetria em tempo real, ela será aparecer em **reuniões passadas.**
+Para ver todas as informações de reunião e dados de um usuário, vá para o centro [de administração Teams local](https://admin.teams.microsoft.com). Em **UsersManage** >  users, selecione um usuário e abra a guia **Reuniões & chamadas** na página de perfil do usuário. Em **Reuniões recentes**, você verá uma lista de reuniões que o usuário participou nas últimas 24 horas para as quais *a telemetria* em tempo real está disponível, incluindo todas as reuniões em andamento. Se a reunião não estiver em andamento ou não tiver dados de telemetria em tempo real, ela será aparecer em **reuniões anteriores**.
 
 :::image type="content" alt-text="Captura de tela da tabela de reuniões recentes." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
 
-Para obter informações adicionais sobre os participantes de uma reunião em andamento, incluindo suas estatísticas  de dispositivo, rede  e áudio, encontre a reunião em Reuniões recentes e selecione o link na coluna Participantes.
+Para obter informações adicionais sobre os participantes de uma reunião em andamento, incluindo suas estatísticas de dispositivo, rede e áudio, encontre a reunião em Reuniões recentes e  selecione o link na coluna Participantes.
 
 :::image type="content" alt-text="Captura de tela da tabela de detalhes do participante." source="media/participant-details.png" lightbox="media/participant-details.png":::
 
-Para ver a telemetria de um determinado usuário para uma reunião em andamento, incluindo informações sobre detalhes de compartilhamento de dispositivo, rede, áudio, vídeo e conteúdo, selecione a **ID** da Reunião .
+Para ver a telemetria de um determinado usuário para uma reunião em andamento, incluindo informações sobre detalhes de compartilhamento de dispositivo, rede, áudio, vídeo e conteúdo, selecione a **ID da Reunião**.
 
 :::image type="content" alt-text="Captura de tela dos dados de sessão do usuário de análise de chamada." source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>Medidas disponíveis no Real-Time Analytics
 
+### <a name="audio"></a>Áudio
 |Nome da Medida |Unidades |Limite bom |Descrição |
 |:---|:---|:---|:---|
 |Tremulação |Milissegundos |Menos de 30 ms |Treme é uma medida da variação no atraso de pacotes para um fluxo de dados. Quando isso é muito alto, o áudio pode ficar inso. | 
 |Perda de pacote |Porcentagem |Menos de 5% |A perda de pacotes ocorre quando os pacotes de dados não conseguem chegar ao destino. A porcentagem de pacotes perdidos se baseia no número total de pacotes enviados. |
 |Hora da viagem de ida e volta |Milissegundos |Menos de 500 ms |O tempo de viagem de ida e volta é o tempo necessário para que um único pacote viaje do cliente para o ponto de extremidade remoto e volte para o cliente. O tempo de viagem de ida e volta alto pode causar atrasos na reprodução do fluxo. Um exemplo disso é quando duas pessoas em uma reunião estão falando umas sobre as outras sem querer devido ao atraso. |
-|Bitrate (Áudio) |Kilobits por segundo (Kbps) |Maior que 24 Kbps |Produtividade do fluxo de áudio expresso em quilobits por segundo. |
-|Taxa de bits (compartilhamento & aplicativo de vídeo) |Megabits por segundo (Mbps) | Somente informações |Produtividade do fluxo de vídeo expresso em megabits por segundo. |
+|Bitrate |Kilobits por segundo (Kbps) |Maior que 24 Kbps |Produtividade do fluxo de áudio expresso em quilobits por segundo. |
+
+
+### <a name="video"></a>Vídeo
+|Nome da Medida |Unidades |Limite bom |Descrição |
+|:---|:---|:---|:---|
+|Hora da viagem de ida e volta |Milissegundos |Menos de 500 ms |O tempo de viagem de ida e volta é o tempo necessário para que um único pacote viaje do cliente para o ponto de extremidade remoto e volte para o cliente. O tempo de viagem de ida e volta alto pode causar atrasos na reprodução do fluxo. Um exemplo disso é quando duas pessoas em uma reunião estão falando umas sobre as outras sem querer devido ao atraso. |
+|Bitrate |Megabits por segundo (Mbps) | Somente informações |Produtividade do fluxo de vídeo expresso em megabits por segundo. |
 |Taxa de quadros (vídeo) |Quadros por segundo |360p ou melhor: 25-30 FPS <br/> 270p ou inferior: 7 a 15 FPS |Para fluxos de vídeo de saída, a taxa de quadros (FPS) é o número de quadros por segundo de vídeo que o cliente está enviando. Valores inferiores aos esperados aqui podem sugerir restrições de recursos do sistema, largura de banda de rede insuficiente ou dispositivos de captura de vídeo mal comportados. Resoluções diferentes têm diferentes intervalos de FPS aceitáveis. |
-|Taxa de Quadros (Compartilhamento de aplicativos) |Quadros por segundo (FPS) |Somente informações |Para o compartilhamento de aplicativos, a taxa de quadros é ciente de conteúdo para garantir que o máximo de quadros necessários seja enviado para garantir uma boa experiência, evitando o envio de quadros se não for necessário. Por exemplo, o compartilhamento de um documento de texto na tela requer apenas 1 quadro por segundo para produzir uma boa experiência, enquanto o compartilhamento de um vídeo ou conteúdo com mais atividades aumentará quadros por segundo para um máximo de 30 FPS para produzir uma experiência mais suave. |
+|Codec |Cadeia de caracteres | Somente informações |Exibe o codec de vídeo e o modo de renderização do fluxo de vídeo de saída. (Exemplo: H264 SW HW indica um fluxo de vídeo H264 usando a renderização de hardware e software.)|
+|Resolução |Pixels | Somente informações |A resolução do vídeo que está sendo enviado. A resolução de vídeo de saída é dinâmica, com base no requisito mais alto de um ponto de extremidade na reunião. Um cliente capaz de vídeo 1920 x 1080 só enviará vídeo 640 x 360 se nenhum cliente estiver exibindo o vídeo desse usuário em um quadro maior que 640 x 360 |
+
+
+### <a name="application-sharing-vbss"></a>Compartilhamento de Aplicativos (VBSS)
+|Nome da Medida |Unidades |Limite bom |Descrição |
+|:---|:---|:---|:---|
+|Perda de pacote |Porcentagem |Menos de 5% |A perda de pacotes ocorre quando os pacotes de dados não conseguem chegar ao destino. A porcentagem de pacotes perdidos se baseia no número total de pacotes enviados. |
+|Hora da viagem de ida e volta |Milissegundos |Menos de 500 ms |O tempo de viagem de ida e volta é o tempo necessário para que um único pacote viaje do cliente para o ponto de extremidade remoto e volte para o cliente. O tempo de viagem de ida e volta alto pode causar atrasos na reprodução do fluxo. Um exemplo disso é quando duas pessoas em uma reunião estão falando umas sobre as outras sem querer devido ao atraso. |
+|Bitrate |Megabits por segundo (Mbps) | Somente informações |Produtividade do fluxo VBSS expresso em megabits por segundo. |
+|Taxa de quadros |Quadros por segundo (FPS) | Somente informações |Para o VBSS, a taxa de quadros é ciente de conteúdo para garantir que o máximo de quadros necessários seja enviado para garantir uma boa experiência ao evitar o envio de quadros, caso não sejam necessários. Por exemplo, o compartilhamento de um documento de texto na tela requer apenas 1 quadro por segundo para produzir uma boa experiência, enquanto o compartilhamento de um vídeo ou conteúdo com mais atividades aumentará quadros por segundo para um máximo de 30 FPS para produzir uma experiência mais suave. |
+|Codec |Cadeia de caracteres | Somente informações |Exibe o codec e o modo de renderização do fluxo VBSS. (Exemplo: H264 SW HW indica um fluxo VBSS H264 usando a renderização de hardware e software.)|
+|Resolução |Pixels | Somente informações |A resolução do fluxo VBSS que está sendo enviado e recebido. |
 
 
 ## <a name="client-platforms-supported-for-real-time-telemetry"></a>Plataformas cliente com suporte para telemetria em tempo real
@@ -102,9 +121,9 @@ Para ver a telemetria de um determinado usuário para uma reunião em andamento,
 
 - A telemetria em tempo real só está disponível para reuniões agendadas. Para reuniões ad hoc como Meet Now, PSTN, chamadas 1:1 e chamadas de grupo, a telemetria em tempo real não está disponível.
 - A telemetria em tempo real só está disponível para apresentadores de evento ao vivo agendado. No momento, ele não está disponível para participantes do evento ao vivo.
-- Os dados de telemetria em tempo real estão disponíveis para uma reunião em **Reuniões recentes** por 24 horas após o fim da reunião. Após 24 horas, você não pode acessar os dados e a reunião muda para **reuniões passadas.** Se uma reunião for maior que 3 horas, a telemetria em tempo real só estará disponível nas *últimas 3 horas.*
+- Os dados de telemetria em tempo real estão disponíveis para uma reunião em **Reuniões recentes** por 24 horas após o fim da reunião. Após 24 horas, você não pode acessar os dados e a reunião muda para **reuniões passadas**. Se uma reunião for maior que 3 horas, a telemetria em tempo real só estará disponível nas *últimas 3 horas*.
 - A telemetria não está disponível em tempo real ao usar versões mais antigas Teams. Se nenhuma telemetria estiver disponível, tente atualizar seu cliente.
-- Se participantes externos ou usuários anônimos ingressarem  em uma reunião, seu nome de exibição mostrará como indisponível manter a privacidade entre locatários.
+- Se participantes externos ou usuários anônimos ingressarem em uma reunião, seu nome de  exibição mostrará como indisponível manter a privacidade entre locatários.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

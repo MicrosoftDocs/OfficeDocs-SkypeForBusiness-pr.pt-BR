@@ -1,5 +1,5 @@
 ---
-title: O que é Teams Telefone
+title: O que é o Sistema de Telefonia
 ms.reviewer: roykuntz
 author: CarolynRowe
 ms.author: crowe
@@ -21,62 +21,62 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 - intro-overview
-description: Neste artigo, você aprenderá sobre a tecnologia Teams Sistema de Telefonia no Microsoft 365.
-ms.openlocfilehash: 7d873ac9ec3b4d31eea8d5a002ba0b5ba752f7cb
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+description: Neste artigo, você aprenderá sobre a tecnologia Sistema de Telefonia de Microsoft 365.
+ms.openlocfilehash: 739745c288e24b1cdb7ddc4cf65644a9fd98cb9e
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625802"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518593"
 ---
-# <a name="what-is-teams-phone"></a>O que é Teams Telefone
+# <a name="what-is-phone-system"></a>O que é o Sistema de Telefonia
 
-Teams Telefone é a tecnologia da Microsoft para habilenciar o controle de chamada e recursos de PBX (Private Branch Exchange) na nuvem Microsoft 365 com Microsoft Teams.
+Sistema de Telefonia é a tecnologia da Microsoft para habilenciar o controle de chamada e recursos de PBX (Private Branch Exchange) na nuvem Microsoft 365 com Microsoft Teams.
 
-Teams Telefone funciona com clientes Teams e dispositivos certificados. Teams Telefone permite substituir seu sistema PBX existente por um conjunto de recursos fornecidos diretamente do Microsoft 365.
+Sistema de Telefonia funciona com clientes Teams e dispositivos certificados. Sistema de Telefonia permite que você substitua seu sistema PBX existente por um conjunto de recursos diretamente entregues do Microsoft 365.
 
-As chamadas entre usuários em sua organização são tratadas internamente Teams Telefone e nunca vão para a PSTN (Rede Telefônica Pública Comucionária). Isso se aplica a chamadas entre usuários de sua organização localizados em diferentes áreas geográficas, eliminando os custos de longa distância dessas chamadas internas. 
+As chamadas entre usuários em sua organização são tratadas internamente no Sistema de Telefonia e nunca vão para a PSTN (Rede Telefônica Pública Comucionária) — removendo assim os custos de longa distância em chamadas internas. 
 
-Para fazer chamadas externas, Teams Telefone oferece opções de complemento para se conectar à PSTN. Para obter mais informações sobre soluções de voz e opções de conectividade PSTN, consulte [Plan your Teams voice solution](cloud-voice-landing-page.md) and Conexão to the [PSTN](#connect-to-the-public-switched-telephone-network-pstn).
+Para fazer chamadas externas, Sistema de Telefonia oferece opções de complemento para se conectar à PSTN. Para obter mais informações sobre soluções de voz e opções de conectividade PSTN, consulte [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Conexão to the PSTN](#connect-to-the-public-switched-telephone-network-pstn).
 
-## <a name="teams-phone-features"></a>Teams Telefone recursos
+## <a name="phone-system-features"></a>Sistema de Telefonia recursos
 
-Com Teams Telefone, os usuários podem usar o Teams para fazer e receber chamadas, transferir chamadas e mudo ou desativar chamadas. Teams Telefone os usuários podem clicar em um nome no seu livro de endereços e fazer Teams chamadas para essa pessoa. Para fazer e receber chamadas, Teams Telefone usuários podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou computador ou um dos muitos telefones IP que funcionam com Teams. 
+Com Sistema de Telefonia, os usuários podem usar o Teams para fazer e receber chamadas, transferir chamadas e mudo ou desativar chamadas. Sistema de Telefonia os usuários podem clicar em um nome no seu livro de endereços e fazer Teams chamadas para essa pessoa. Para fazer e receber chamadas, Sistema de Telefonia usuários podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou computador ou um dos muitos telefones IP que funcionam com Teams. 
 
-Teams Telefone administradores podem gerenciar opções de chamada e configurações do mesmo console usado para mensagens, colaboração e assim por diante.
+Sistema de Telefonia administradores podem gerenciar opções de chamada e configurações do mesmo console usado para mensagens, colaboração e assim por diante.
 
-Para obter mais informações sobre Teams Telefone recursos, consulte Aqui está [o que você obter com Teams Telefone](here-s-what-you-get-with-phone-system.md).
+Para obter mais informações Sistema de Telefonia recursos, consulte Aqui está [o que você obter com Sistema de Telefonia](here-s-what-you-get-with-phone-system.md).
   
 
 ## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>Conexão para a PSTN (Rede Telefônica Pública Comucionária)
   
-Para chamada externa, Teams Telefone pode ser conectado à PSTN de várias maneiras:
+Para chamada externa, Sistema de Telefonia pode ser conectado à PSTN de várias maneiras:
   
-- Comprar um Plano de Chamada da Microsoft (doméstico ou doméstico e internacional). O Plano de Chamada da Microsoft é uma solução completa na nuvem com a Microsoft como operadora PSTN. Para obter mais informações, [consulte Teams Telefone e Planos de Chamada.](calling-plan-landing-page.md)
+- Comprar um Plano de Chamada da Microsoft (doméstico ou doméstico e internacional). O Plano de Chamada da Microsoft é uma solução completa na nuvem com a Microsoft como operadora PSTN. Para obter mais informações, consulte [Sistema de Telefonia e Planos de Chamada](calling-plan-landing-page.md).
 
 - Use sua infraestrutura de telefonia existente para conectividade PSTN local.
 
-  Você pode conectar sua infraestrutura de telefonia local ao Teams Telefone usando o Operador Conexão Chamada ou Roteamento Direto. 
+  Você pode conectar sua infraestrutura de telefonia local ao Sistema de Telefonia usando o Operador Conexão Chamada ou Roteamento Direto. 
 
 Para obter mais informações sobre todas as opções de Conectividade PSTN, consulte [Opções de conectividade PSTN](pstn-connectivity.md).
 
 
-## <a name="teams-phone-with-services"></a>Teams Telefone com serviços
+## <a name="phone-system-with-services"></a>Sistema de Telefonia com serviços
 
-Teams Telefone pode ser usado para serviços e caixa postal, como:
+Sistema de Telefonia pode ser usado para serviços e caixa postal, como:
 
 - **Atendimentos automáticos** - Os atendimentos automáticos podem ser usados para criar um sistema de menus para sua organização que permite que os chamadores externos e internos se movam pelo sistema para localizar e fazer ou transferir chamadas para usuários ou departamentos da empresa em sua organização. Veja [O que são os atendimentos automáticos na nuvem?](what-are-phone-system-auto-attendants.md).
 
-- **Filas de chamadas** - As saudações da fila de chamadas podem ser usadas quando alguém liga para um número de telefone para sua organização. Essas saudações incluem a capacidade de colocar automaticamente as chamadas em espera e a capacidade de procurar o próximo agente de chamada disponível para manipular a chamada enquanto as pessoas que chamam estão ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização. Confira [Criar uma fila de chamadas na nuvem](create-a-phone-system-call-queue.md).
+- **Filas de chamadas** - As saudações da fila de chamadas podem ser usadas quando alguém liga para um número de telefone para sua organização. Essas saudações incluem a capacidade de colocar automaticamente as chamadas em espera e procurar o próximo agente de chamada disponível para lidar com a chamada. As pessoas em espera também podem ouvir música em espera. Você pode criar uma ou várias filas de chamadas para sua organização. Confira [Criar uma fila de chamadas na nuvem](create-a-phone-system-call-queue.md).
 
 - **Caixa** Postal - Caixa postal na Nuvem é automaticamente configurada e provisionada para todos os Teams usuários. Confira [Configurar a Caixa postal na Nuvem](set-up-phone-system-voicemail.md).
 
-Para obter mais informações sobre recursos, [consulte Aqui está o que você obter com Teams Telefone](here-s-what-you-get-with-phone-system.md). Se você estiver pronto para começar, consulte Configurar o Teams Telefone [em sua organização.](setting-up-your-phone-system.md)
+Para obter mais informações sobre recursos, [consulte Aqui está o que você obter com Sistema de Telefonia](here-s-what-you-get-with-phone-system.md). Se você estiver pronto para começar, consulte [Configurar o Sistema de Telefonia em sua organização](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Teams Telefone recursos](here-s-what-you-get-with-phone-system.md)
-- [Configurar Teams Telefone](setting-up-your-phone-system.md)
+- [Sistema de Telefonia recursos](here-s-what-you-get-with-phone-system.md)
+- [Configurar o Sistema de Telefonia](setting-up-your-phone-system.md)
 - [Planejar sua solução Teams voz](cloud-voice-landing-page.md)
 - [Opções de conectividade PSTN](pstn-connectivity.md)
 - [Licenciamento do complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

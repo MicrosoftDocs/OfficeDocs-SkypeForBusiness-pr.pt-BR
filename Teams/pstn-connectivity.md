@@ -24,40 +24,40 @@ search.appverid: MET150
 description: Saiba mais sobre Teams opções de chamada (conectividade PSTN) e as decisões que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b82404e23a2443efb06582664a206a6a43cad770
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 409f5a1f8872b8e3bd3b1999a0024fa28583024d
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363237"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518823"
 ---
 # <a name="pstn-connectivity-options"></a>Opções de conectividade PSTN
 
-A Microsoft fornece recursos completos de Exchange (PBX) para sua organização por meio Teams Telefone. No entanto, para permitir que os usuários façam chamadas fora da sua organização, você precisa se conectar Teams Telefone à PSTN (Rede Telefônica Pública Comucionária).
+A Microsoft fornece recursos completos de Exchange (PBX) para sua organização por meio Sistema de Telefonia. No entanto, para permitir que os usuários façam chamadas fora da sua organização, você precisa se conectar Sistema de Telefonia a Rede Telefônica Pública Comutado (PSTN).
 
-Este artigo se concentra nas opções de conectividade PSTN. Para obter mais informações sobre soluções de voz da Microsoft, incluindo detalhes sobre Teams Telefone recursos, consulte [Plan your Teams voice solution](cloud-voice-landing-page.md).
+Este artigo se concentra nas opções de conectividade PSTN. Para obter mais informações sobre soluções de voz da Microsoft, incluindo detalhes sobre Sistema de Telefonia recursos, consulte [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
-Para conectar Teams Telefone ao PSTN, você pode escolher entre as seguintes opções:
+Para conectar Sistema de Telefonia ao PSTN, você pode escolher entre as seguintes opções:
 
-- [**Plano de Chamada**](#teams-phone-with-calling-plan). Uma solução completa na nuvem com a Microsoft como operadora PSTN.
+- [**Plano de Chamada**](#phone-system-with-calling-plan). Uma solução completa na nuvem com a Microsoft como operadora PSTN.
 
-- [**Operador Conexão**](#teams-phone-with-operator-connect). Com o Conexão operador, se sua operadora existente for participante do programa Conexão microsoft operator, eles poderão gerenciar a chamada PSTN e os Controladores de Borda de Sessão (SBCs). 
+- [**Operador Conexão**](#phone-system-with-operator-connect). Com o Conexão operador, se sua operadora existente participar do programa de Conexão do Microsoft Operator, eles poderão gerenciar a chamada PSTN e os Controladores de Borda de Sessão (SBCs). 
 
-- [**Roteamento**](#teams-phone-with-direct-routing) Direto, que permite que você use sua própria operadora PSTN conectando seus Controladores de Borda de Sessão (SBC) a Teams Telefone.
+- [**Roteamento**](#phone-system-with-direct-routing) Direto, que permite que você use sua própria operadora PSTN conectando seus Controladores de Borda de Sessão (SBC) a Sistema de Telefonia.
 
 
 Você também pode escolher uma combinação de opções, que permite projetar uma solução para um ambiente complexo ou gerenciar uma migração em várias etapas.
 
-Saiba que a opção ou as opções escolhidas afetam como alguns recursos Teams Telefone estão configurados. Para obter mais informações, consulte [Considerações de](#configuration-considerations) configuração posteriormente neste artigo.
+A opção ou opções escolhidas afetam como alguns recursos Sistema de Telefonia estão configurados. Para obter mais informações, consulte [Considerações de](#configuration-considerations) configuração posteriormente neste artigo.
 
 
-## <a name="teams-phone-with-calling-plan"></a>Telefonia do Teams com Plano de Chamadas 
+## <a name="phone-system-with-calling-plan"></a>Sistema de Telefonia com Plano de Chamada 
 
-Teams Telefone com Plano de Chamadas é a solução de voz all-in-the-cloud da Microsoft para Teams usuários. Essa é a opção mais simples que conecta Teams Telefone à PSTN. Com essa opção, a Microsoft atua como sua operadora PSTN, conforme mostrado no diagrama a seguir:
+Sistema de Telefonia com o Plano de Chamadas é a solução de voz all-in-the-cloud da Microsoft para Teams usuários. Essa solução é a opção mais simples que conecta Sistema de Telefonia à PSTN. Com essa opção, a Microsoft atua como sua operadora PSTN, conforme mostrado no diagrama a seguir:
 
 ![O Diagrama 1 mostra Sistema de Telefonia com Plano de Chamada.](media/voice-solutions-simple.png)
 
-Se você responder sim ao seguinte, Teams Telefone com Plano de Chamada é a solução certa para você:
+Se você responder sim ao seguinte, Sistema de Telefonia com Plano de Chamada é a solução certa para você:
 
 - O Plano de Chamada está disponível em sua região.
 - Você não precisa manter sua operadora PSTN atual.
@@ -65,11 +65,11 @@ Se você responder sim ao seguinte, Teams Telefone com Plano de Chamada é a sol
 
 Com esta opção: 
 
-- Você pode Teams Telefone com planos de chamada domésticos ou internacionais que permitem a chamada para telefones em todo o mundo (dependendo do nível de serviço que está sendo licenciado).
+- Você pode Sistema de Telefonia com planos de chamada domésticos ou internacionais que permitem a chamada para telefones em todo o mundo (dependendo do nível de serviço que está sendo licenciado).
 
-- Você não precisa de implantação ou manutenção de uma implantação local&mdash; porque o Plano de Chamada opera fora do Microsoft 365.
+- Você não exige implantação ou manutenção de uma implantação local&mdash; porque o Plano de Chamada opera fora do Microsoft 365.
 
-- Observação: se necessário, você pode optar por conectar um Controlador de Borda de Sessão (SBC) com suporte por meio de Roteamento Direto para interoperabilidade com PBXs de terceiros, dispositivos analógicos e outros equipamentos de telefonia de terceiros suportados pelo SBC.
+- Observação: você pode conectar um Controlador de Borda de Sessão (SBC) com suporte por meio do Roteamento Direto para interoperabilidade com PBXs de terceiros, dispositivos analógicos e outros equipamentos de telefonia suportados pelo SBC.
 
 Essa opção requer conexão ininterrupta com Microsoft 365.
 
@@ -81,9 +81,9 @@ Para obter mais informações sobre o Plano de Chamada, consulte os seguintes ar
 - [Configurar Plano de Chamada](set-up-calling-plans.md)
 
 
-## <a name="teams-phone-with-operator-connect"></a>Teams Telefone com operador Conexão
+## <a name="phone-system-with-operator-connect"></a>Sistema de Telefonia com operador Conexão
 
-Com o Conexão operador, se sua operadora existente for participante do programa Conexão microsoft operator, eles poderão gerenciar o serviço para trazer a chamada PSTN para Teams. Sua operadora gerencia os serviços de chamada PSTN e controladores de borda de sessão (SBCs), permitindo que você salve na compra e gerenciamento de hardware.
+Com o Conexão operador, se sua operadora existente participar do programa de Conexão do Microsoft Operator, ele poderá gerenciar o serviço para trazer a chamada PSTN para Teams. Sua operadora gerencia os serviços de chamada PSTN e controladores de borda de sessão (SBCs), permitindo que você salve na compra e gerenciamento de hardware.
 
 O Conexão operador pode ser a solução certa para sua organização se:
 
@@ -94,28 +94,28 @@ O Conexão operador pode ser a solução certa para sua organização se:
 Para obter informações sobre os benefícios e requisitos do Operador Conexão e para obter uma lista de operadoras participantes deste programa, consulte [Plan Operator Conexão](operator-connect-plan.md). Para obter informações sobre como configurar o operador Conexão, consulte [Configure Operator Conexão](operator-connect-configure.md).
 
 
-## <a name="teams-phone-with-direct-routing"></a>Teams Telefone com Roteamento Direto
+## <a name="phone-system-with-direct-routing"></a>Sistema de Telefonia com Roteamento Direto
 
-Essa opção conecta Teams Telefone à sua rede de telefonia usando Roteamento Direto, conforme mostrado no diagrama a seguir: 
+Essa opção conecta Sistema de Telefonia à sua rede de telefonia usando Roteamento Direto, conforme mostrado no diagrama a seguir: 
 
 ![O Diagrama 5 mostra Sistema de Telefonia com Roteamento Direto.](media/voice-solution-with-direct-routing.png)
 
-Se você responder sim às seguintes perguntas, Teams Telefone com Roteamento Direto é a solução certa para você:
+Se você responder sim às seguintes perguntas, Sistema de Telefonia com Roteamento Direto é a solução certa para você:
 
-- Você deseja usar Teams com Teams Telefone.
+- Você deseja usar Teams com Sistema de Telefonia.
 - Você precisa manter sua operadora PSTN atual.
 - Você deseja misturar roteamento, com algumas chamadas passando pelo Plano de Chamadas, algumas por meio da sua operadora.
 - Você precisa interoperar com PBXs e/ou equipamentos de terceiros, como pagers de sobrecarga, dispositivos analógicos e assim por diante.
 
 Com esta opção:
 
-- Você conecta seu próprio Controlador de Borda de Sessão (SBC) com suporte Teams Telefone sem a necessidade de software local adicional.
+- Você conecta seu próprio Controlador de Borda de Sessão (SBC) com suporte Sistema de Telefonia sem a necessidade de software local adicional.
 
-- Você pode usar praticamente qualquer operadora de telefonia com Teams Telefone.
+- Você pode usar praticamente qualquer operadora de telefonia com Sistema de Telefonia.
 
-- Você pode optar por configurar e gerenciar essa opção, ou ela pode ser configurada e gerenciada por sua operadora ou parceiro (pergunte se sua operadora ou parceiro fornece essa opção).
+- Você pode configurar e gerenciar essa opção, ou ela pode ser configurada e gerenciada por sua operadora ou parceiro (pergunte se sua operadora ou parceiro fornece essa opção).
 
-- Você pode configurar a interoperabilidade entre seus&mdash; equipamentos de telefonia, como um PBX de terceiros e dispositivos&mdash; analógicos e Teams Telefone.
+- Você pode configurar a interoperabilidade entre seus&mdash; equipamentos de telefonia, como um PBX de terceiros e dispositivos&mdash; analógicos e Sistema de Telefonia.
 
 Esta opção requer o seguinte:
 
@@ -124,7 +124,7 @@ Esta opção requer o seguinte:
 - Implantando e mantendo um SBC com suporte.
 
 - Um contrato com uma operadora de terceiros.
-  (A menos que implantado como uma opção para fornecer conexão com PBX de terceiros, dispositivos analógicos ou outros equipamentos de telefonia para usuários que estão em Teams Telefone com Plano de Chamada.)
+  (A menos que implantado como uma opção para fornecer conexão com PBX de terceiros, dispositivos analógicos ou outros equipamentos de telefonia para usuários que estão em Sistema de Telefonia com Plano de Chamada.)
 
 Para obter mais informações sobre Roteamento Direto, consulte os seguintes artigos:
 
@@ -138,17 +138,17 @@ Para obter mais informações sobre Roteamento Direto, consulte os seguintes art
 
 ## <a name="configuration-considerations"></a>Considerações sobre configuração
 
-A maioria Teams Telefone recursos são os mesmos, independentemente da opção de conectividade PSTN escolhida. Por exemplo, as configurações de chamada sem resposta e encaminhamento, transferência de chamada, música personalizada em espera, estacionamento de chamadas, linha compartilhada e aplicativos de voz estão disponíveis. Para obter uma lista completa de Teams Telefone recursos, consulte [Aqui está o que você obter com Teams Telefone](here-s-what-you-get-with-phone-system.md).
+A maioria Sistema de Telefonia recursos são os mesmos, independentemente da opção de conectividade PSTN escolhida. Por exemplo, as configurações de chamada sem resposta e encaminhamento, transferência de chamada, música personalizada em espera, estacionamento de chamadas, linha compartilhada e aplicativos de voz estão disponíveis. Para obter uma lista completa de Sistema de Telefonia recursos, consulte [Aqui está o que você obter com Sistema de Telefonia](here-s-what-you-get-with-phone-system.md).
 
-No entanto, há algumas diferenças na funcionalidade que afetam a forma como você configura determinados Teams Telefone recursos. Por exemplo, o Roteamento Direto exige etapas adicionais para configurar o roteamento de chamadas. Como outro exemplo, o Roteamento Direto fornece o Roteamento Baseado em Local (LBR), para que você possa restringir o desvio de chamada de chamada em determinados locais geográficos onde ele não é permitido. 
+No entanto, há algumas diferenças na funcionalidade que afetam a forma como você configura determinados Sistema de Telefonia recursos. Por exemplo, o Roteamento Direto exige etapas adicionais para configurar o roteamento de chamadas. Como outro exemplo, o Roteamento Direto fornece LBR (Location-Based-Routing). A LBR permite restringir o desvio de chamada em determinados locais geográficos onde não é permitido. 
 
 A tabela a seguir destaca as principais diferenças de configuração. As seções que seguem a tabela fornecem links para mais informações e detalhes.
 
 | Opção | Descrição | Telefone gerenciamento de números | Roteamento de chamadas | Disponibilidade de chamada de emergência |
 | :------------| :-------| :-------| :-------| :-------| 
 | Planos de Chamadas | -A Microsoft atua como operadora PSTN.<br>-Você não precisa comprar ou gerenciar SBCs.| Obtido por meio da Microsoft.| -Gerenciado pela Microsoft. <br> -O administrador configura os planos de discagem do usuário para conversão de números. | -Habilitado pela Microsoft. <br> -O administrador registra endereços. <br> -Chamada dinâmica suportada. |
-| Operador Conexão | -Carrier gerencia conectividade PSTN e SBCs. <br> -Você não precisa comprar ou gerenciar SBCs. | -Obtido por meio de operadora. <br> - Números associados a endereços de emergência gerenciados pela operadora.  | -Gerenciado por operadora. <br>-O administrador configura os planos de discagem do usuário para conversão de números. | -Habilitado por operadora. <br> -O administrador registra endereços. <br> -Chamada dinâmica suportada. |
-| Roteamento Direto | -Requer SBC certificado comprado de fornecedor de terceiros.<br>-Conexão seu SBC para Teams Telefone.<br> -Use sua operadora PSTN existente. | Obtido por meio da operadora. | -Requer configuração extra por administrador.<br>-O administrador configura planos de discagem de tronco para conversão de número. <br>-LBR disponível para restringir o desvio de chamada. | -Requer configuração extra por administrador. <br>-Endereços registrados não são suportados. <br>-A chamada dinâmica é suportada, mas requer configuração adicional. |
+| Operador Conexão | -Carrier gerencia conectividade PSTN e SBCs. <br> -Você não precisa comprar ou gerenciar SBCs. | -Obtido por meio de operadora. <br> - Números associados a endereços de emergência gerenciados pela operadora.   | -Gerenciado por operadora. <br>-O administrador configura os planos de discagem do usuário para conversão de números. | -Habilitado por operadora. <br> -O administrador registra endereços. <br> -Chamada dinâmica suportada. |
+| Roteamento Direto | -Requer SBC certificado comprado de fornecedor de terceiros.<br>-Conexão seu SBC para Sistema de Telefonia.<br> -Use sua operadora PSTN existente. | Obtido por meio da operadora. | -Requer configuração extra por administrador.<br>-O administrador configura planos de discagem de tronco para conversão de número. <br>-LBR disponível para restringir o desvio de chamada. | -Requer configuração extra por administrador. <br>-Endereços registrados não são suportados. <br>-A chamada dinâmica é suportada, mas requer configuração adicional. |
 |||||
 
 
@@ -197,11 +197,11 @@ Em alguns países e regiões, é ilegal ignorar a operadora PSTN para diminuir o
 
 A forma como você configura a chamada de emergência difere dependendo da sua opção de conectividade PSTN.
 
-- Para o Plano de Chamadas, cada usuário é automaticamente habilitado para chamadas de emergência e é necessário ter um endereço de emergência registrado associado ao número de telefone atribuído. A chamada de emergência dinâmica (com base no local do Teams cliente) é suportada.  
+- Para o Plano de Chamada, cada usuário é habilitado automaticamente para chamada de emergência. É necessário que o usuário tenha um endereço de emergência registrado associado ao número de telefone atribuído. A chamada de emergência dinâmica (com base no local do Teams cliente) é suportada.  
 
-- Para operador Conexão, cada usuário é automaticamente habilitado para chamadas de emergência e é necessário ter um endereço de emergência registrado associado ao número de telefone atribuído, mas só pode ser definido pelo parceiro de operadora. A chamada de emergência dinâmica (com base no local do Teams cliente) é suportada.
+- Para operador Conexão, cada usuário é habilitado automaticamente para chamada de emergência. O usuário precisa ter um endereço de emergência registrado associado ao seu numbe de telefone atribuído,r, mas o endereço só pode ser definido pelo parceiro da operadora. A chamada de emergência dinâmica (com base no local do Teams cliente) é suportada.
 
-- Para Roteamento Direto Teams, você deve definir políticas de chamadas de emergência para usuários usando uma política de roteamento de chamadas de emergência (TeamsEmergencyCallRoutingPolicy) para definir números de emergência e seu destino de roteamento associado. Locais de emergência registrados não são suportados para usuários de Roteamento Direto. Para chamadas de emergência dinâmicas, a configuração adicional é necessária para roteamento de chamadas de emergência e, possivelmente, para conectividade do parceiro.
+- Para Roteamento Direto, você deve definir políticas de chamadas de emergência para usuários usando uma política de roteamento de chamadas de emergência Teams de emergência (TeamsEmergencyCallRoutingPolicy). A política definirá números de emergência e seu destino de roteamento associado. Locais de emergência registrados não são suportados para usuários de Roteamento Direto. Para chamadas de emergência dinâmicas, a configuração adicional é necessária para roteamento de chamadas de emergência e, possivelmente, para conectividade do parceiro.
 
 Para obter mais informações sobre conceitos e terminologia de chamada de emergência e como configurar a chamada de emergência e a chamada de emergência dinâmica, consulte os seguintes artigos:
 
@@ -215,7 +215,7 @@ Para obter mais informações sobre conceitos e terminologia de chamada de emerg
 
 ### <a name="network-topology-for-voice-features"></a>Topologia de rede para recursos de voz
 
-Se você estiver implantando chamadas de emergência dinâmicas ou Location-Based roteamento para Roteamento Direto, você deve configurar configurações de rede para uso com esses recursos em Microsoft Teams. Para saber como configurar configurações de rede para regiões de rede, sites de rede, sub-redes de rede e endereços IP confiáveis, consulte os seguintes artigos:
+Se você estiver implantando chamadas de emergência dinâmicas ou Location-Based roteamento para Roteamento Direto, você deve configurar as configurações de rede para esses recursos em Microsoft Teams. Para saber como configurar configurações de rede para regiões de rede, sites de rede, sub-redes de rede e endereços IP confiáveis, consulte os seguintes artigos:
 
 - [Configurações de rede para recursos de voz na nuvem Microsoft Teams - Conceitos e terminologia](cloud-voice-network-settings.md)
 - [Gerenciar sua topologia de rede para recursos de voz na nuvem Microsoft Teams](manage-your-network-topology.md)

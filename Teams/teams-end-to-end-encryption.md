@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc626510a180185cae699106c1420880ea55e73
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579692"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518933"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>Use criptografia de ponta a ponta para chamadas um-para-um do Microsoft Teams (visualização pública)
 
@@ -77,7 +77,7 @@ Conclua essas tarefas para que os usuários possam fazer chamadas criptografadas
 
 A política padrão global, em toda a organização, especifica que a criptografia de ponta a ponta está desabilitada. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Para habilitar a criptografia de ponta a ponta, crie uma nova política de criptografia ou modifique a política padrão global. Para habilitar a criptografia de ponta a ponta usando o Centro de administração do Teams, conclua estas etapas.
 
-1. Usando uma conta corporativa ou de estudante que recebeu a função de administrador global ou do Teams, entre no [Centro de administração do Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Usando uma conta corporativa ou de estudante que recebeu a função de administrador global ou do Teams, entre no [Centro de administração do Teams](https://admin.teams.microsoft.com/).
 
 2. Vá para **Outras configurações** > **políticas de criptografia aprimoradas**.
 
