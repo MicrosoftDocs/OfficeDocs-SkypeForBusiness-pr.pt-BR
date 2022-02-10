@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 71ba2fc6856b57a2619122b1c7341404651d4e8f
-ms.sourcegitcommit: b1d1a2b27c9dbc73a306bd69696fceda77688b26
+ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2022
-ms.locfileid: "62432850"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518923"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -37,20 +37,20 @@ A Microsoft trabalha com cada fornecedor para:
 - Tem um processo de suporte conjunto com os fornecedores de SBCs.
 
   > [!NOTE]
-  > A Microsoft só dá suporte ao Sistema de Telefonia se um dispositivo ou dispositivos certificado estiver conectado por meio do Roteamento Direto. Em caso de problemas, o cliente deve entrar em contato com o atendimento ao cliente ao cliente dos fornecedores do SBC primeiro. Se necessário, o fornecedor do SBC encaminhará o problema para a Microsoft por meio de canais internos. A Microsoft se reserva o direito de rejeitar casos de suporte em que há um dispositivo não certificado conectado ao Sistema de Telefonia via Roteamento Direto. Se a Microsoft determinar que o problema de Roteamento Direto do cliente está com o dispositivo SBC de um fornecedor, o cliente precisará contratar novamente o fornecedor do SBC para obter suporte.
+  > A Microsoft só dá suporte ao Sistema de Telefonia com Roteamento Direto quando usado com dispositivos certificados. Em caso de problemas, você deve entrar em contato com o atendimento ao cliente do fornecedor SBC primeiro. Se necessário, o fornecedor do SBC encaminhará o problema para a Microsoft por meio de canais internos. A Microsoft reserva-se o direito de rejeitar casos de suporte em que um dispositivo não certificado está conectado ao Sistema de Telefonia por meio do Roteamento Direto. Se a Microsoft determinar que o problema de Roteamento Direto do cliente está com o dispositivo SBC de um fornecedor, o cliente precisará contratar novamente o fornecedor do SBC para obter suporte.
   >
   > A certificação é concedida a versões específicas do firmware do SBC. Qualquer versão de firmware do SBC documentada abaixo é certificada e suportada. As versões de firmware superiores às documentadas são suportadas, desde que a versão principal secundária seja a mesma.
   >
   > Exemplo:
   >
-  > - 6.10.258 com suporte - neste caso, também oferecemos suporte às versões de firmware 6.10. (258 ou superior).
-  > - Recomendado 6.20.100 - neste caso, também recomendamos as versões de firmware 6.20. (100 ou superior).
+  > - 6.10.258 com suporte – nesse caso, a Microsoft dá suporte às versões de firmware 6.10. (258 ou superior).
+  > - Recomendado 6.20.100 – Nesse caso, a Microsoft recomenda as versões de firmware 6.20. (100 ou superior).
   > - Para perguntas de suporte sobre uma versão específica, entre em contato com o fornecedor do SBC.
 
 As tabelas que seguem a lista de dispositivos certificados para Roteamento Direto. (Para obter informações sobre quais fornecedores de SBC dão suporte à Otimização de Mídia Local, consulte [Configurar otimização de mídia local para roteamento direto](direct-routing-media-optimization-configure.md).)
 
 [Saiba mais sobre o Roteamento Direto](https://aka.ms/dr).
-Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamento Direto, envie um email para drsbccertification@microsoft.com. Observe: Não estamos aceitando novas indicações para certificação até novo aviso.
+Se você tiver dúvidas sobre o programa de certificação SBC para Roteamento Direto, entre em contato com drsbccertification@microsoft.com. Observe: Não estamos aceitando novas indicações para certificação até novo aviso.
 <br/>
 
 ## <a name="certified-sbc-vendors"></a>Fornecedores SBC certificados
@@ -95,7 +95,7 @@ Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamen
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Link de Vínculo Orchid    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Controlador de Borda da Sessão Do Atos Unify OpenScape   |     &#10004;     |   &#10004;        |     Com suporte sem Bypass de Mídia V10R1.2 (Recomendado para Bypass de Mídia V10R2.2.0)     |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Controlador de Borda da Sessão Do Atos Unify OpenScape   |     &#10004;     |   &#10004;        |     V10R2.2.0     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Redes Enghouse](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -173,7 +173,7 @@ A tabela a seguir lista os dispositivos verificados para interoperabilidade entr
 | [Faixa de Opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Versão do software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode com o Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
-Para fazer comentários sobre o Teams, como ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com).
+Para fornecer comentários sobre o Teams, como ideias para novos recursos, consulte [Uservoice](https://microsoftteams.uservoice.com).
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

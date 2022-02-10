@@ -775,17 +775,17 @@ items:
                 href: audio-conferencing-zones.md
               - name: Vídeos - Audioconferência no Teams
                 href: ./audio-conferencing-in-office-365.md
-  - name: Voz - Conectividade PSTN e de Telefonia do Microsoft Teams
+  - name: Voz - Conectividade PSTN e Sistema de Telefonia
     items:
       - name: Planejar sua solução de voz do Teams
         href: cloud-voice-landing-page.md
-      - name: Telefonia do Teams
+      - name: Sistema de Telefonia
         items:
-          - name: O que é a Telefonia do Teams
+          - name: O que é o Sistema de Telefonia
             href: what-is-phone-system-in-office-365.md
-          - name: Aqui está o que você ganha com a Telefonia do Microsoft Teams
+          - name: Veja o que você obtém com o Sistema de Telefonia
             href: here-s-what-you-get-with-phone-system.md
-          - name: Configurar a Telefonia do Teams
+          - name: '- Configurar o Sistema de Telefonia'
             href: setting-up-your-phone-system.md
           - name: Configurar telefones de área comuns
             href: set-up-common-area-phones.md
@@ -1021,7 +1021,7 @@ items:
             href: voice-case-study-overview.md
           - name: Plano de atualização Teams
             href: voice-case-study-migration-plan.md
-          - name: Telefonia do Teams
+          - name: Sistema de Telefonia
             href: voice-case-study-phone-system.md
           - name: Roteamento com Base na Localização
             href: voice-case-study-location-based-routing.md
@@ -1033,7 +1033,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: Diretrizes para pequenas e médias empresas
         items:
-          - name: Diretrizes do Teams Phone para pequenas e médias empresas
+          - name: Diretrizes do Sistema de Telefonia para pequenas e médias empresas
             href: business-voice/whats-business-voice.md
           - name: Disponibilidade de países e regiões
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1041,7 +1041,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Obter ajuda de um revendedor ou parceiro
             href: business-voice/reseller-partner-support.md
-          - name: Configurar o Teams Phone para pequenas e médias empresas
+          - name: Configurar o Sistema de Telefonia para pequenas e médias empresas
             items:
               - name: Visão Geral
                 href: business-voice/set-up-overview.md
@@ -1061,7 +1061,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: Recursos de pós-instalação
                 href: business-voice/set-up-finish.md
-          - name: Personalizar a configuração do Telefone do Teams para pequenas e médias empresas
+          - name: Personalizar a configuração do Sistema de Telefonia para pequenas e médias empresas
             items:
               - name: Opções de personalização
                 href: business-voice/customize-business-voice.md
@@ -1075,7 +1075,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: Configurar um atendedor automático
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: Gerenciar a configuração do Seu Telefone do Teams para pequenas e médias empresas
+          - name: Gerenciar a configuração do Sistema de Telefonia para pequenas e médias empresas
             items:
               - name: Criar um ou mais usuários
                 href: business-voice/create-users.md
@@ -1179,7 +1179,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: 'Chile '
+              - name: Chile
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
