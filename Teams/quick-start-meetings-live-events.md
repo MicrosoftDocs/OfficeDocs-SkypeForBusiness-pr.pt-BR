@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0146c77fc5727a1dc57a7062eeb62cebaba46034
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766214"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763644"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Início rápido - reuniões, seminários via web e eventos ao vivo 
 
@@ -86,7 +86,8 @@ A tabela a seguir destaca os principais artigos que você quer revisar:
 | [Políticas de reunião](meeting-policies-overview.md)  | Descreve como criar e gerenciar as políticas que determinam quais recursos estão disponíveis para os participantes da reunião. | 
 | [Gerenciar a gravação de reunião na nuvem do Teams](cloud-recording.md) | Descreve como gerenciar gravações de reunião. |
 | [Gerenciar os dispositivos da sua organização](device-management.md)| Descreve como gerenciar os dispositivos da sua organização, como telefones e Salas do Teams. |
-||
+| [Usar telemetria em tempo real para solucionar problemas de qualidade de reunião](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Descreve como usar a Análise em Tempo Real (RTA) para solucionar problemas de baixa qualidade de Reuniões do Microsoft Teams para usuários individuais. 
+|||
 
 #### <a name="key-training-for-end-users"></a>Treinamento principal para os usuários finais
 

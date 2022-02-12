@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74b3f81456b8d0acdff0c41678c04713b5cf967a
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288409"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763396"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Introdução ao Teams para Varejo
 
@@ -47,7 +47,7 @@ O Microsoft 365 e o Microsoft Teams oferecem vários recursos que podem ajudar a
 [![Comunicação e colaboração na loja.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Comunicação e colaboração entre lojas.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Conexões virtuais e consultas.](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![Simplifique os processos comerciais.](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![Comunicações corporativas.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Integrando novos funcionários.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
 > [!NOTE]
-> Esses cenários também fazem parte do Microsoft Cloud para Varejo. É possível fazer mais com esses cenários quando também usa outros recursos do Microsoft Cloud para Varejo, como o Microsoft Dynamics 365. Saiba mais sobre como usar essa solução, que reúne recursos do Azure, do Dynamics 365 e do Microsoft 365 no [Microsoft Cloud para Varejo](/industry/retail).
+> Esses cenários também fazem parte do Microsoft Cloud para Varejo. Você pode fazer mais com esses cenários quando também usa outros recursos do Microsoft Cloud for Retail, como o Microsoft Dynamics 365. Saiba mais sobre como usar essa solução, que reúne recursos do Azure, do Dynamics 365 e do Microsoft 365 no [Microsoft Cloud para Varejo](/industry/retail).
 
 ### <a name="in-store-communication-and-collaboration"></a>Comunicação e colaboração na loja
 
@@ -194,8 +194,8 @@ Agora que você sabe quais cenários deseja implementar e o que precisa para dar
 
 | Imagem | Função | Responsibilities | Departamento |
 | ---- | ---- | ----- | ----- |
-| ![Símbolo de administrador.](https://docs.microsoft.com/office/media/icons/administrator.png) | Administrador de TI | Trabalhe com a equipe de gerenciamento de operações e varejo para definir cenários e como eles funcionarão na organização. <br><br>Defina as configurações no Centro de administração do Teams, como políticas e modelos, e habilite aplicativos. <br><br>Defina as configurações de aplicativo (como configurações globais de Turnos) para a organização. <br><br>Adicione e licencie usuários.  | Departamento de TI |
-| ![Símbolo de monitor do usuário.](https://docs.microsoft.com/office/media/icons/user-monitor.png) | Equipe de operações | Trabalhe com administradores para definir cenários e determine quais configurações, políticas, modelos e aplicativos são necessários para o Teams. <br><br>Crie equipes regionais ou divisionais a partir de modelos. <br><br>Configure tarefas, listas e fluxos de aprovação para coordenação entre as lojas em uma região ou entre as lojas e a sede. <br><br>Configure a estrutura de aprendizagem para funcionários. | Operações centrais |
-| ![Símbolo do apresentador.](https://docs.microsoft.com/office/media/icons/presenter-teams.png) | Gerente da loja | Trabalhe com a equipe de Administradores e Operações para definir cenários. <br><br>Crie equipes para a loja a partir de modelos. <br><br>Configure canais e aplicativos para as equipes, conforme necessário. Por exemplo: um canal para entregas de turno. <br><br>Configure agendas de loja em Turnos. <br><br>Configure tarefas, listas e fluxos de aprovação específicos para a loja. <br><br>Configure tarefas de aprendizagem para a equipe. | Gerenciamento da loja |
+|<img src="/office/media/icons/administrator.png" alt="Administrator symbol."> | Administrador de TI | Trabalhe com a equipe de gerenciamento de operações e varejo para definir cenários e como eles funcionarão na organização. <br><br>Defina as configurações no Centro de administração do Teams, como políticas e modelos, e habilite aplicativos. <br><br>Defina as configurações de aplicativo (como configurações globais de Turnos) para a organização. <br><br>Adicione e licencie usuários.  | Departamento de TI |
+|<img src="/office/media/icons/user-monitor.png" alt="User monitor symbol.">| Equipe de operações | Trabalhe com administradores para definir cenários e determine quais configurações, políticas, modelos e aplicativos são necessários para o Teams. <br><br>Crie equipes regionais ou divisionais a partir de modelos. <br><br>Configure tarefas, listas e fluxos de aprovação para coordenação entre as lojas em uma região ou entre as lojas e a sede. <br><br>Configure a estrutura de aprendizagem para funcionários. | Operações centrais |
+|<img src="/office/media/icons/presenter-teams.png" alt="Presenter symbol."> | Gerente da loja | Trabalhe com a equipe de Administradores e Operações para definir cenários. <br><br>Crie equipes para a loja a partir de modelos. <br><br>Configure canais e aplicativos para as equipes, conforme necessário. Por exemplo: um canal para entregas de turno. <br><br>Configure agendas de loja em Turnos. <br><br>Configure tarefas, listas e fluxos de aprovação específicos para a loja. <br><br>Configure tarefas de aprendizagem para a equipe. | Gerenciamento da loja |
 
 Para obter mais informações sobre como implementar e adotar o Teams, consulte [Adoção do Microsoft Teams](../adopt-microsoft-teams-landing-page.md).

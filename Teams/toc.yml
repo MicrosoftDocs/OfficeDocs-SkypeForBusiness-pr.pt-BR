@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -249,18 +249,6 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Integracão com o Exchange e o Microsoft Office SharePoint Online
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
-  - name: Atualização do Kaizala
-    items:
-      - name: Introdução
-        href: get-started-kaizala-teams.md
-      - name: Preparar a atualização
-        href: prepare-for-teams-kaizala.md
-      - name: Planejar sua jornada de atualização
-        href: plan-your-move-kaizala.md
-      - name: Navegue pelo Microsoft Teams
-        href: navigate-teams.md
-      - name: Familiarize-se com o Microsoft Teams
-        href: drive-adoption-optimize-kaizala.md
   - name: 'Segurança, conformidade e privacidade'
     items:
       - name: Visão Geral
@@ -599,7 +587,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -727,7 +715,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -909,10 +897,6 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: Configurar a Otimização da Mídia Local
                     href: direct-routing-media-optimization-configure.md
-              - name: Contas de usuário em um ambiente híbrido com conectividade PSTN
-                href: direct-routing-user-accounts-in-a-hybrid-environment.md
-              - name: Migrar para o Roteamento Direto
-                href: direct-routing-migrating.md
               - name: Monitorar e solucionar problemas do Roteamento Direto
                 items:
                   - name: Visão Geral
@@ -972,7 +956,7 @@ items:
           - name: Gerenciar números de telefone para Conexão do Operador
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Gerenciar números de telefone para Roteamento Direto
-            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: Roteamento de voz
         items:
           - name: O que são planos de discagem?
@@ -1179,7 +1163,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: Chile
+              - name: 'Chile '
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1541,7 +1525,7 @@ items:
         items:
           - name: Reservas no Teams
             items:
-              - name: Visitas virtuais com o Teams e Reservas
+              - name: Visitas virtuais com o Teams e o Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Gerenciar o aplicativo de Reservas
                 href: bookings-app-admin.md
@@ -1651,15 +1635,15 @@ items:
         items:
           - name: Começar com o Teams para organizações de saúde
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: Visitas virtuais
+          - name: Visitas Virtuais
             items:
               - name: Visitas virtuais com o Teams – Integração ao Cerner EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: Visitas virtuais com o Teams – Integração ao Epic EHR
+              - name: Visitas virtuais com o Teams – Integração com o Epic EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: Relatórios de administrador de Registro de Integridade Eletrônica
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Visitas virtuais com o Teams e Reservas
+              - name: Visitas virtuais com o Teams e o Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Gerenciar a experiência de adesão em navegadores de dispositivos móveis
                 href: expand-teams-across-your-org/mobile-browser-join.md
@@ -1753,6 +1737,18 @@ items:
             href: get-started-with-teams-essentials.md
           - name: Conecte o Teams Essentials (Identidade do AAD) ao email
             href: connect-teams-essentials-to-email.md
+      - name: Atualização do Kaizala
+        items:
+          - name: Introdução
+            href: get-started-kaizala-teams.md
+          - name: Preparar a atualização
+            href: prepare-for-teams-kaizala.md
+          - name: Planejar sua jornada de atualização
+            href: plan-your-move-kaizala.md
+          - name: Navegue pelo Microsoft Teams
+            href: navigate-teams.md
+          - name: Familiarize-se com o Microsoft Teams
+            href: drive-adoption-optimize-kaizala.md
       - name: Interoperabilidade com o Microsoft 365 e o Office 365
         items:
           - name: Grupos do Microsoft 365 e o Teams
@@ -1762,8 +1758,9 @@ items:
           - name: Aprimorar os grupos existentes do Microsoft 365 com o Teams
             href: enhance-office-365-groups.md
           - name: Como o Exchange e o Teams interagem
-            href: exchange-teams-interact.md
             items:
+              - name: Como o Exchange e o Teams interagem
+                href: exchange-teams-interact.md
               - name: Configurar uma organização híbrida do Exchange para uso com o Teams
                 href: exchange-hybrid-organization.md
               - name: Usar regras de fluxo de email com o Exchange
