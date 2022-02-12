@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Saiba mais sobre Teams opções de chamada (conectividade PSTN) e as decisões que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 409f5a1f8872b8e3bd3b1999a0024fa28583024d
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 28cb740146fc23f3dfdda35c35f280cba8a950c4
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518823"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763745"
 ---
 # <a name="pstn-connectivity-options"></a>Opções de conectividade PSTN
 
@@ -168,7 +168,7 @@ A forma como você adquire e gerencia números de telefone difere dependendo da 
 
 - Para obter informações sobre como gerenciar números de telefone com operador Conexão, consulte [Configurar números de telefone com operador Conexão](operator-connect-configure.md#set-up-phone-numbers).
 
-- Para obter informações sobre como gerenciar números de telefone para Roteamento Direto, consulte [Configure the phone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
+- Para obter informações sobre como gerenciar números de telefone para Roteamento Direto, consulte [Configure the phone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
 
 ### <a name="call-routing-and-dial-plans"></a>Roteamento de chamadas e planos de discagem

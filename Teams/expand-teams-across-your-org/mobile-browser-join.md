@@ -1,5 +1,5 @@
 ---
-title: Gerenciar a experiência de junção para Teams virtuais em navegadores móveis
+title: Gerenciar a experiência de junção para Teams visitas virtuais em navegadores móveis
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
-description: Saiba mais sobre a experiência de junção para Teams virtuais em navegadores móveis.
-ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+description: Saiba mais sobre a experiência de junção para Teams Visitas Virtuais em navegadores móveis.
+ms.openlocfilehash: 83bbe6e2db29a1ed43bbe1646f8545072dac7d2d
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288558"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763705"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gerenciar a experiência de junção para Teams virtuais em navegadores móveis
+# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gerenciar a experiência de junção para Teams visitas virtuais em navegadores móveis
 
 Microsoft Teams torna mais fácil para as pessoas ingressarem em compromissos em seus dispositivos móveis sem precisar baixar Teams. Para uma experiência mais perfeita, os participantes podem ingressar em compromissos como consultas de saúde, consultas financeiras, horários de escritório de educadores e assim por diante, de um navegador móvel. Os participantes não precisam instalar o aplicativo móvel Teams em seus dispositivos móveis Android ou iOS.
 
@@ -66,9 +66,9 @@ No Bookings, selecione **Nova reserva** e, em seguida, acione Permitir que os pa
 
 Nenhuma configuração é necessária por você ou sua equipe!
 
-**Integração com o Cerner EHR**: o conector Teams EHR oferece suporte a pacientes que ingressaram em visitas virtuais por meio de dispositivos móveis. No momento do compromisso, os pacientes podem ingressar em uma visita virtual tocando no link na mensagem de texto SMS. O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
+**Integração com o Cerner EHR**: o conector Teams EHR oferece suporte a pacientes que inserem compromissos virtuais por meio de dispositivos móveis. No momento do compromisso, os pacientes podem participar tocando no link na mensagem de texto SMS. O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
 
-**Integração com o EHR Épico**: o conector Teams EHR oferece suporte a pacientes que ingressarem em visitas virtuais por meio da Web e do MyChart para dispositivos móveis. No momento do compromisso, os pacientes podem iniciar uma visita virtual do MyChart usando o **botão Iniciar visita virtual** . O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
+**Integração com o EHR Épico**: o conector Teams EHR oferece suporte a pacientes que ingressarem em compromissos virtuais por meio da Web e do MyChart para dispositivos móveis. No momento do compromisso, os pacientes podem iniciar a visita do MyChart usando o botão **Iniciar visita virtual** . O paciente escolhe o navegador que deseja e, em seguida, Teams abre nesse navegador.
 
 ## <a name="supported-mobile-browsers"></a>Navegadores móveis com suporte
 
@@ -86,7 +86,7 @@ Aqui estão os navegadores móveis com suporte no momento. Suportamos a versão 
 
 ## <a name="things-to-consider"></a>Coisas a considerar
 
-O membro da equipe que conduz a visita virtual pode compartilhar sua tela de seu cliente Teams desktop, móvel ou Web com um participante que participa de um navegador móvel. No entanto, os participantes não podem compartilhar sua tela de um navegador móvel.
+O membro da equipe que conduz a visita pode compartilhar sua tela de seu cliente Teams desktop, móvel ou Web com um participante que insinte de um navegador móvel. No entanto, os participantes não podem compartilhar sua tela de um navegador móvel.
 
 > [!NOTE]
 > Estamos adicionando mais recursos à experiência de junção de reunião em versões futuras do Teams, portanto, verifique novamente as informações mais atualizadas. Para ficar por dentro dos recursos Teams futuros, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).

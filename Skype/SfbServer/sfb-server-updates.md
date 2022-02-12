@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações para Skype for Business Server 2015/2019 e Lync 2013 em um só lugar. Use os links nesta página para saber mais e baixar as atualizações.
-ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ea8d88f9287c8795ee3b3f4252c2e0664695a44a
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012375"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763336"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
-Encontre e gerencie atualizações para [Skype for Business Server 2019](#skype-for-business-server-2019-update-history), [Skype for Business Server 2015,](#skype-for-business-server-2015-update-history) [Lync Server 2013](#lync-server-2013-update-history)e [Lync Server 2010](#lync-server-2010-update-history) em um só lugar. Use os links nesta página para saber mais e baixar as atualizações.
+Encontre e gerencie atualizações para [Skype for Business Server 2019](#skype-for-business-server-2019-update-history), [Skype for Business Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history) e [Lync Server 2010](#lync-server-2010-update-history) em um só lugar. Use os links nesta página para saber mais e baixar as atualizações.
 
-Para ver as atualizações Skype for Business Online e Microsoft 365, consulte [o Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
+Para saber mais Skype for Business online e Microsoft 365, consulte o [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server histórico de atualizações de 2019
 
@@ -58,13 +58,14 @@ O KB 4470124 é o KB mestre do Skype for Business Server 2019, que tem toda a li
 
 |Número do pacote|Número de KB|Data do lançamento|
 |:--- |:--- |:--- |
-|Skype for Business Server Atualização Cumulativa 12 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2021 |
-|Skype for Business Server Hotfix cumulativo 11 da Atualização Cumulativa 2 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Novembro de 2020 |
-|Skype for Business Server 2015 Cumulativo Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Julho de 2020 |
-|Skype for Business Server Atualização Cumulativa 11 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 de maio de 2020 |
-|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2019 |
-|Skype for Business Server Atualização Cumulativa 10 de 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Julho de 2019 |
-|Atualização cumulativa 9 para Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| Maio de 2019 |
+|Skype for Business Server 2015 Cumulative Update 12 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Fevereiro de 2022 |
+|Skype for Business Server Atualização Cumulativa 12 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)|Agosto de 2021 |
+|Skype for Business Server Hotfix cumulativo 11 da Atualização Cumulativa 2 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)|Novembro de 2020 |
+|Skype for Business Server 2015 Cumulativo Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Julho de 2020 |
+|Skype for Business Server Atualização Cumulativa 11 de 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)|13 de maio de 2020 |
+|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Agosto de 2019 |
+|Skype for Business Server Atualização Cumulativa 10 de 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)|Julho de 2019 |
+|Atualização cumulativa 9 para Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)|Maio de 2019 |
 |Atualização cumulativa 8 para Skype for Business Server 2015, Servidor de Front-End e Servidor de Borda|[KB 4464355](https://support.microsoft.com/kb/4464355)|Janeiro de 2019|
 |Atualização cumulativa 7 para Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 4340904](https://support.microsoft.com/kb/4340904) |Julho de 2018 |
 |Atualização cumulativa 6 Hotfix 2 para Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 4086059](https://support.microsoft.com/kb/4086059) |Março de 2018 |
@@ -141,7 +142,7 @@ O KB 4470124 é o KB mestre do Skype for Business Server 2019, que tem toda a li
 
 #### <a name="pre-configured-vhds"></a>VHDs pré-configurados
 
-A topologia completa consiste em 7 máquinas virtuais que permitem avaliar totalmente o Microsoft Lync 2013, o Microsoft Exchange 2013, o SharePoint 2013 e as APIs da plataforma de desenvolvedores de UC (incluindo o Microsoft Lync 2013 SDK, a API Gerenciada do Exchange Web Services 2.0, o SDK do Microsoft Lync Server 2013 e a API Gerenciada pela Unificação de Comunicações 4.0).
+A topologia completa consiste em 7 máquinas virtuais que permitem avaliar totalmente o Microsoft Lync 2013, As APIs da plataforma de desenvolvedores UC do Microsoft Exchange 2013, SharePoint 2013 (incluindo o SDK do Microsoft Lync 2013, a API Gerenciada dos Serviços Web 2.0 do Exchange, o SDK do Microsoft Lync Server 2013 e a API Gerenciada pela Microsoft Unified Communications 4.0).
 
 Nome do Pacote |Data do lançamento|
 |:--- |:--- |
@@ -166,7 +167,7 @@ Nome do Pacote |Data do lançamento|
 | Visualizador de Arquivamento de Quadro de Trabalho do Lync Server 2013 |Fevereiro de 2013 |
 |[Plug-in do Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) |October 2012 |
 |[Plug-in do Lync VDI 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35454) |October 2012 |
-|[Novo Estêncil do Office Visio](https://www.microsoft.com/download/details.aspx?id=35772) |Julho de 2016 |
+|[Novo Office Visio Estêncil](https://www.microsoft.com/download/details.aspx?id=35772) |Julho de 2016 |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Documentação baixável do Lync 2013
 
@@ -178,7 +179,7 @@ Nome do Pacote |Data do lançamento|
 
 ## <a name="lync-server-2010-update-history"></a>Histórico de atualizações do Lync Server 2010
 
-[O 2493736 KB](https://support.microsoft.com/kb/2493736) contém todas as Atualizações Cumulativas lançadas.
+[O KB 2493736](https://support.microsoft.com/kb/2493736) contém todas as Atualizações Cumulativas lançadas.
 
 |Número do pacote|Número de KB|Data do lançamento|
 |:--- |:--- |:--- |
@@ -241,14 +242,14 @@ Nome do Pacote |Data do lançamento|
 |[Arquivo de ajuda de documentação do Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|March 2012 |
 |[Página de boas-vindas do Lync Server 2010](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|October 2012 |
 |[IM um Especialista para Documentação do Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|March 2012 |
-|[Notas de versão do Lync 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|January 2011 |
+|[Lync 2010 Release Notes.aspx](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3))|January 2011 |
 |[Notas de versão do Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|January 2011 |
 |[Leitura da Ferramenta de Planejamento do Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|January 2011 |
 |[Diagramas de arquitetura de referência do servidor de borda do Lync Server 2010](https://www.microsoft.com/download/details.aspx?id=13791)|March 2011 |
 
 ### <a name="resource-kit-technical-reference"></a>Kit de recursos (referência técnica)
 
-Visite o site de download do Kit de Recursos do [Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) para baixar capítulos de livro individualmente OU baixar um arquivo .zip que contém todos [os 19 capítulos](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)do kit de recursos .
+Visite o site de download do Kit de Recursos do [Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) para baixar capítulos de livro individualmente OU baixar um arquivo .zip que contém todos [os 19 capítulos do kit](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) de recursos.
 
 ### <a name="group-chat"></a>Group Chat
 
@@ -273,7 +274,7 @@ As atualizações de software incluem qualquer atualização, pacote cumulativo 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Instalar o Skype for Business Server 2015](./deploy/install/install.md)
-- [Atualizar para o Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
-- [Atualizações mais recentes para versões do Skype for Business que usam o Windows Installer (MSI)](sfb-client-updates.md)
+- [Instalar Skype for Business Server 2015](./deploy/install/install.md)
+- [Atualizar para Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
+- [Atualizações mais recentes para versões Skype for Business que usam Windows Installer (MSI)](sfb-client-updates.md)
 

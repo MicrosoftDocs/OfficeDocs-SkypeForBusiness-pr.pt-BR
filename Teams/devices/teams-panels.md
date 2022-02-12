@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams painéis.
-ms.openlocfilehash: a12e8918534a5060dae906d60f0de1aa36567f9b
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: bc55693223dfc6b2972e5efcc0c9fb18ef9a7710
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055111"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763416"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams painéis
 
@@ -36,7 +36,7 @@ Este artigo fornece uma visão geral Teams painéis e pode ajudá-lo a planejar,
 Teams painéis suportam os seguintes recursos:
 
 - **Exibição dedicada do espaço de reunião e detalhes da reunião.** Você pode obter detalhes rápidos sobre um espaço de reunião, incluindo sua localização e disponibilidade. Para um espaço de reunião reservado, você pode ver os principais detalhes da reunião, como título da reunião, agenda de reunião e organizador da reunião.
-- **Reserve espaços de reunião disponíveis para reuniões ad hoc.** Usando o painel touchscreen, você pode reservar um espaço de reunião disponível  no local para uma reunião ad hoc e participar dessa reunião Teams dos dispositivos Salas do Microsoft Teams ou Surface Hub na sala.
+- **Reserve espaços de reunião disponíveis para reuniões ad hoc.** Usando o painel touchscreen, você pode reservar um espaço de reunião disponível no local para uma reunião ad hoc e participar dessa  reunião Teams dos dispositivos Salas do Microsoft Teams ou Surface Hub na sala.
 - **Indicadores codificados por cores para o status de disponibilidade de espaço.** Você pode ver a disponibilidade de espaço de reunião de longe e de perto com indicadores de LED e tela inicial vibrantes. Verde indica que o espaço de reunião está disponível e, se necessário, você pode reservá-lo direto dos painéis em si. Vermelho ou roxo indica que o espaço de reunião está reservado.
 - **Personalizar o papel de parede e o indicador de estado reservado.** Os administradores podem alterar a aparência padrão dos painéis por meio de configurações. Por exemplo, os administradores podem alterar o papel de parede de plano de fundo ou alterar a cor do indicador de estado ocupado.
 - **Acessibilidade.** Teams painéis têm vários recursos de acessibilidade, como texto de alto contraste, para facilitar o uso por qualquer pessoa.
@@ -45,7 +45,7 @@ Para saber mais sobre esses recursos e como usá-los, consulte [Use Microsoft Te
 
 ## <a name="partners-certified-for-teams-panels"></a>Parceiros certificados para Teams painéis
 
-Para saber mais sobre parceiros certificados Teams painéis, consulte Atualmente certificados [Teams painéis](teams-ip-phones.md#currently-certified-teams-panels).
+Para saber mais sobre parceiros certificados Teams painéis, consulte [Atualmente certificados Teams painéis](teams-ip-phones.md#certified-teams-panels).
 
 ## <a name="teams-panels-requirements"></a>Teams de painéis
 
@@ -64,10 +64,10 @@ Se você estiver envolvido no planejamento, implantação e gerenciamento de Tea
 
 A implantação Teams de painéis pode ser dividida nas seguintes tarefas:
 
-- [Inventário de espaço de](#inventory-sites-and-meeting-spaces)reunião e planejamento de recursos : Crie um inventário dos sites e espaços de reunião da sua organização para implantar Teams painéis.
+- [Inventário de espaço de](#inventory-sites-and-meeting-spaces) reunião e planejamento de funcionalidades: Crie um inventário dos sites e espaços de reunião da sua organização para implantar Teams painéis.
 - [Aquisição](#procurement): Procure os dispositivos do parceiro de dispositivo selecionado.  
-- [Preparação do](#site-readiness)site : Confirme se seus locais de implantação (espaços de reunião) atendem aos requisitos de implantação.
-- [Configuração e implantação](#configuration-and-deployment): Crie contas de recursos e atribua-as aos dispositivos.
+- [Preparação do site](#site-readiness): Confirme se seus locais de implantação (espaços de reunião) atendem aos requisitos de implantação.
+- [Configuração e implantação](#configuration-and-deployment): crie contas de recursos e atribua-as aos dispositivos.
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>Sites de inventário e espaços de reunião
 
@@ -75,7 +75,7 @@ Fazer um inventário dos espaços de reunião de agendamento existentes em sua o
 
 ## <a name="procurement"></a>Aquisição
 
-Com base no número de espaços de reunião que estão no escopo da implantação de painéis Teams, procure os dispositivos de um dos parceiros certificados para painéis [Teams.](#partners-certified-for-teams-panels) Visite os sites dos parceiros para saber mais sobre os dispositivos e opções de compra.
+Com base no número de espaços de reunião que estão no escopo para Teams painéis de Teams, procure os dispositivos de um dos parceiros certificados para painéis [Teams de segurança](#partners-certified-for-teams-panels). Visite os sites dos parceiros para saber mais sobre os dispositivos e opções de compra.
 
 Espaços de reunião em sua organização podem ter requisitos de hardware diferentes para instalar ou montar os dispositivos. Por exemplo, o hardware necessário para a montagem do dispositivo em um painel de vidro, reboco, drywall ou madeira pode não ser o mesmo. Consulte a documentação do parceiro de dispositivo para ver as opções de montagem disponíveis.
 
@@ -102,7 +102,7 @@ O planejamento de configuração e implantação abrange as seguintes áreas pri
 
 Cada Teams de painéis requer uma Microsoft 365 de recurso de sala. Você usa as credenciais da conta de recurso para entrar Microsoft Teams aplicativo no dispositivo de painéis.
 
-Para configurar uma conta Microsoft 365 de recursos para Teams painéis, recomendamos que você compre uma licença [Salas do Microsoft Teams Padrão .](#license-requirement) Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create a resource account using the Centro de administração do Microsoft 365](resource-account-ui.md).
+Para configurar uma conta Microsoft 365 de recursos para painéis Teams, recomendamos que você compre uma Salas do Microsoft Teams Padrão [de usuário](#license-requirement). Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create a resource account using the Centro de administração do Microsoft 365](resource-account-ui.md).
 
 > [!NOTE]
 >
@@ -122,7 +122,7 @@ Depois de ter implantado painéis, você deve testá-los. Verifique se os [recur
 
 ## <a name="manage-teams-panels-in-your-organization"></a>Gerenciar Teams painéis em sua organização
 
-Para gerenciar seus Teams painéis, na navegação à esquerda do centro de administração Microsoft Teams, vá para Teams  >  **Painéis de Dispositivos**. A partir daqui, você pode alterar o perfil de configuração do dispositivo, gerenciar atualizações, reiniciar dispositivos, adicionar e remover marcas de dispositivo e muito mais. Para obter mais informações, consulte [Manage your devices in Teams](device-management.md).
+Para gerenciar seus Teams de painéis, na navegação à esquerda do centro de administração Microsoft Teams, vá para **Teams** **DevicesPanels** > . A partir daqui, você pode alterar o perfil de configuração do dispositivo, gerenciar atualizações, reiniciar dispositivos, adicionar e remover marcas de dispositivo e muito mais. Para obter mais informações, consulte [Manage your devices in Teams](device-management.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 
@@ -136,4 +136,4 @@ Para gerenciar seus Teams painéis, na navegação à esquerda do centro de admi
 
 [Teams marketplace de painéis](https://office.com/teamsdevices)
 
-[Dispositivos certificados em Microsoft Teams de certificação de painéis](teams-ip-phones.md#currently-certified-teams-panels)
+[Dispositivos certificados em Microsoft Teams de certificação de painéis](teams-ip-phones.md#certified-teams-panels)

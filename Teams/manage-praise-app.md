@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Saiba como gerenciar o aplicativo Elogio no centro Microsoft Teams administrador.
-ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401605"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763306"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o Elogio no centro Microsoft Teams administrador
 
@@ -47,7 +47,7 @@ Aqui está o conjunto padrão de selos Elogio. Teams usuários em sua organizaç
 :::image type="content" source="media/default-set-praise.png" alt-text="Imagem de selos no conjunto de selos padrão.":::
 
 > [!NOTE]
-> A partir de fevereiro de 2022, as pessoas só podem enviar e receber selos padrão. Os selos personalizados não estão mais disponíveis e as opções para selos personalizados estão sendo removidas da  página de Configurações do aplicativo no centro de administração Teams em breve.
+> A partir de fevereiro de 2022, as pessoas só podem enviar e receber selos padrão. Os selos personalizados não estão mais disponíveis e as opções para selos personalizados foram removidas do Teams de administração.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

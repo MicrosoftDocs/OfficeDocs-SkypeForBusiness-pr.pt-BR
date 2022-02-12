@@ -1,6 +1,6 @@
 ---
 title: Configurar Controlador de Borda de Sessão - Vários locatários
-ms.reviewer: ''
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um Controlador de Borda de Sessão (SBC) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97995b2da79f7e3ddd781615ccddfc0dd64ae0b6
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 59a17da1a1fb77bbe30c79831480014fe1278bae
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457221"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763356"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -38,7 +38,7 @@ Uma operadora:
 - Gerencia a qualidade da chamada de ponta a ponta.
 - Cobra separadamente pelos serviços PSTN.
 
-A Microsoft não gerencia operadoras. A Microsoft Teams Telefone um Exchange de Filial Privada (PBX)-- e um Teams cliente. A Microsoft também certifica telefones e certifica os SBCs que podem ser usados com o Teams Sistema de Telefonia. Antes de escolher uma operadora, certifique-se de que sua escolha tenha um SBC certificado e possa gerenciar a qualidade da voz de ponta a ponta.
+A Microsoft não gerencia operadoras. A Microsoft Sistema de Telefonia um Exchange (PBX) e um Teams cliente. A Microsoft também certifica telefones e certifica os SBCs que podem ser usados com Sistema de Telefonia. Antes de escolher uma operadora, certifique-se de que sua escolha tenha um SBC certificado e possa gerenciar a qualidade da voz de ponta a ponta.
 
 A seguir estão as etapas técnicas de implementação para configurar o cenário.
 
@@ -58,11 +58,11 @@ A seguir estão as etapas técnicas de implementação para configurar o cenári
 
 Para etapas detalhadas sobre como implantar e configurar SBCs para um cenário de hospedagem SBC, consulte a documentação do fornecedor SBC.
 
-- **AudioCodes:** [observações](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) de Configuração de Roteamento Direto, a configuração do cenário de hospedagem SBC descrito em "Conectando audiocódigos SBC Microsoft Teams Observação de Configuração do Modelo de Hospedagem de Roteamento Direto". 
-- **Oracle:** [Observações de Configuração](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) de Roteamento Direto, a configuração do cenário de hospedagem SBC é descrita na seção "Microsoft". 
-- **Comunicações da Faixa de Opções:**  Consulte o Guia de Configuração do Centro de Configuração do [SBC](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) de Comunicações da Faixa de Opções Microsoft Teams para saber como configurar os SBCs da série Ribbon Core e para esta página Ribbon [Best Practice - Configuring Carriers for Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
-- **TE-Systems (anynode):**  Registre-se na página [de Community te-Systems](https://community.te-systems.de/) para documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
-- **Metawitch:**  Registre-se na [página Metaswitch Community documentação](https://manuals.metaswitch.com/MAN39555) sobre como habilitar o Perimeta SBC para vários locatários.
+- **AudioCodes:** - Consulte Direct [Routing Configuration notes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) for configuration of the SBC hosting scenario as described in "Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note". 
+- **Oracle:** - Consulte [Notas de Configuração de Roteamento](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) Direto para configuração do cenário de hospedagem SBC, conforme descrito na seção "Microsoft". 
+- **Comunicações da Faixa de Opções:** Consulte [Ribbon Communications SBC Core Microsoft Teams Configuration Guide](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para documentação sobre como configurar os SBCs da Série Ribbon Core. Consulte também [Faixa de Opções Práticas Práticas - Configurando operadoras para Microsoft Teams De Roteamento Direto SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **TE-Systems (anynode):** - Registre-se no site da página [te-Systems](https://community.te-systems.de/) Community documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
+- **Metawitch:** - Registre-se no site da página [Metaswitch](https://manuals.metaswitch.com/MAN39555) Community para documentação sobre como habilitar o Perimeta SBC para vários locatários.
 
 > [!NOTE]
 > Certifique-se de saber como configurar o header "Contact". O header de contato é usado para encontrar o locatário do cliente na mensagem de convite de entrada. 
@@ -125,19 +125,13 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 2. Na caixa **Inserir um domínio que você possui** , digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *customers.adatum.biz*.
 
-    ![Captura de tela mostrando a página Adicionar um domínio.](media/direct-routing-2-sbc-add-domain.png)
-
 3. Click **Next**.
 
 4. Neste exemplo, o locatário já adatum.biz como um nome de domínio verificado. O assistente não solicitará verificação adicional porque customers.adatum.biz é um subdomínio para o nome já registrado. No entanto, se você adicionar um FQDN que não tenha sido verificado antes, você precisará passar pelo processo de verificação. O processo de verificação é [descrito abaixo](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Captura de tela mostrando a confirmação de um nome de domínio verificado.](media/direct-routing-3-sbc-verify-domain.png)
+5. Selecione **Próximo** e, na página **Atualizar Configurações** DNS, selecione **Eu mesmo** adicionarei os registros DNS e **selecionarEi Next**.
 
-5. Clique **em Próximo** e, na página **Atualizar Configurações** DNS, selecione **Eu mesmo** adicionarei os registros DNS e clique em **Próximo**.
-
-6. Na próxima página, limpe todos os valores (a menos que você queira usar o nome de domínio para Exchange, SharePoint, Teams ou Skype for Business), clique em **Próximo** e clique em **Concluir**. Certifique-se de que seu novo domínio está no status completo da Instalação.
-
-    ![Captura de tela mostrando domínios com o status da Instalação concluído.](media/direct-routing-14-sbc-setup-complete.png)
+6. Na próxima página, limpe todos os valores (a menos que você queira usar o nome de domínio para Exchange, SharePoint, Teams ou Skype for Business), selecione **Próximo** e, em seguida, selecione **Concluir**. Certifique-se de que seu novo domínio está no status completo da Instalação.
 
 ### <a name="activate-the-domain-name"></a>Ativar o nome de domínio
 
@@ -167,41 +161,30 @@ Para validar a função que você tem, entre no Centro de administração do Mic
 Para obter mais informações sobre funções de administrador e como atribuir uma função Microsoft 365, consulte [Sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Adicione um subdomínio ao locatário do cliente e verifique se ele
+
 1. No Centro de administração do Microsoft 365, vá para **o domínio** **SetupDomainsAdd** >  > .
 
 2. Na caixa **Inserir um domínio que você possui** , digite o FQDN do subdomínio para esse locatário. No exemplo abaixo, o subdomínio é sbc1.customers.adatum.biz.
 
-    ![Captura de tela da página Adicionar um domínio.](media/direct-routing-5-sbc-add-customer-domain.png)
-
-3. Click **Next**.
+3. Selecione **Próximo**.
 
 4. O FQDN nunca foi registrado no locatário. Na próxima etapa, você precisará verificar o domínio. Selecione **Adicionar um registro TXT**. 
 
-    ![Captura de tela da página Verificar domínio.](media/direct-routing-6-sbc-verify-customer-domain.png)
-
-5. Clique **em Próximo** e observe o valor TXT gerado para verificar o nome de domínio.
+5. Selecione **Próximo** e observe o valor TXT gerado para verificar o nome de domínio.
 
     ![Captura de tela de registros de texto na página Verificar domínio.](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Crie o registro TXT com o valor da etapa anterior no provedor de hospedagem DNS da operadora.
 
-    ![Captura de tela mostrando a criação do registro TXT.](media/direct-routing-8-sbc-txt-record.png)
-
     Para obter mais informações, consulte [Create DNS records at any DNS hosting provider](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
-7. Vá até a Centro de administração do Microsoft 365 do cliente e clique em **Verificar**. 
+7. Vá até a Centro de administração do Microsoft 365 do cliente e selecione **Verificar**. 
 
-8. Na próxima página, selecione **Eu mesmo adicionarei os registros DNS** e clique em **Next**.
+8. Na próxima página, selecione **Eu mesmo adicionarei os registros DNS** e selecione **Next**.
 
-    ![Captura de tela das opções na página Atualizar configurações dns.](media/direct-routing-9-sbc-update-dns.png)
+9. Na página **Escolher seus serviços online** , desempure todas as opções e selecione **Next**.
 
-9. Na página **Escolher seus serviços online** , limpe todas as opções e clique em **Próximo**.
-
-    ![Captura de tela da página Escolher seus serviços online.](media/direct-routing-10-sbc-choose-services.png)
-
-10. Clique **em Concluir** na página **Atualizar configurações dns** .
-
-    ![Captura de tela da página Atualizar configurações dns.](media/direct-routing-11-sbc-update-dns-finish.png)
+10. Selecione **Concluir** na página **Atualizar configurações dns** .
 
 11. Certifique-se de que o status da **Instalação está concluído**. 
     
@@ -240,7 +223,7 @@ Duas novas entidades foram introduzidas:
    New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true
     ```
 
--  Um tronco derivado que não exige registro. É simplesmente um nome de host desejado adicionado do tronco da operadora. Ela deriva todos os parâmetros de configuração do tronco da operadora. O tronco derivado não precisa ser criado no PowerShell, e a associação com o tronco da operadora é baseada no nome FQDN (confira detalhes abaixo).
+- Um tronco derivado que não exige registro. É simplesmente um nome de host desejado adicionado do tronco da operadora. Ela deriva todos os parâmetros de configuração do tronco da operadora. O tronco derivado não precisa ser criado no PowerShell, e a associação com o tronco da operadora é baseada no nome FQDN (confira detalhes abaixo).
 
 **Exemplo e lógica de provisionamento**
 
@@ -253,9 +236,9 @@ Duas novas entidades foram introduzidas:
 Exemplos:
 - Customers.adatum.biz – o tronco da operadora que precisa ser criado no locatário da operadora.
 
-- Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente que não precisa ser criado no PowerShell.  Você pode simplesmente adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem cria-lo (use FQDN de tronco derivado ao configurar a política de roteamento de voz no TAC em Teams-Voice-Direct Routing-Voice Routes field SBCs inscritos).
+- Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente que não precisa ser criado no PowerShell. Você pode adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem cria-lo (use FQDN de tronco derivado ao configurar a política de roteamento de voz no TAC em SBCs do campo rotas do Teams-Voice-Direct Routing-Voice inscritos).
 
-- A operadora precisará configurar o registro DNS resolvendo FQDN de tronco derivado para o endereço ip SBC da operadora.
+- A operadora precisará configurar o registro DNS que resolve o FQDN de tronco derivado para o endereço ip SBC da operadora.
 
 - Todas as alterações feitas em um tronco de operadora (no locatário da operadora) são aplicadas automaticamente a troncos derivados. Por exemplo, as operadoras podem alterar uma porta SIP no tronco da operadora, e essa alteração se aplica a todos os troncos derivados. A nova lógica para configurar os troncos simplifica o gerenciamento, pois você não precisa ir a todos os locatários e alterar o parâmetro em cada tronco.
 

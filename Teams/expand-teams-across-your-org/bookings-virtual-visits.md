@@ -1,5 +1,5 @@
 ---
-title: Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
+title: Visitas virtuais com Microsoft Teams e o aplicativo Bookings
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,23 +20,23 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Saiba como usar o aplicativo Bookings em Teams agendar, gerenciar e conduzir visitas virtuais.
-ms.openlocfilehash: ae74a4195bc8aa0deeca81221e70fe28890938ec
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+description: Saiba como agendar, gerenciar e conduzir Visitas Virtuais usando o aplicativo Bookings Teams.
+ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312344"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763795"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com Microsoft Teams e o aplicativo Bookings
 
 ## <a name="overview"></a>Visão Geral
 
-O [aplicativo Bookings](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) no Microsoft Teams oferece às organizações uma maneira simples de agendar e gerenciar compromissos virtuais para funcionários e participantes. Use-o para agendar compromissos virtuais, como consultas de saúde, consultas financeiras, entrevistas, suporte ao cliente, conexões virtuais e consultas, horário de expediente educacional e muito mais.
+O [aplicativo Bookings](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) no Microsoft Teams oferece às organizações uma maneira simples de agendar e gerenciar compromissos virtuais para funcionários e participantes. Use-o para agendar compromissos como consultas de saúde, consultas financeiras, entrevistas, suporte ao cliente, conexões virtuais e consultas, horário de expediente educacional e muito mais.
 
 O aplicativo Bookings facilita o gerenciamento de demandas complexas de agendamento de qualquer organização. Os agendadores podem gerenciar vários calendários de departamentos e de funcionários, assim como comunicações com os participantes internos e externos em uma única experiência.
 
-As visitas virtuais são realizadas Microsoft Teams reuniões, que oferecem recursos robustos de videoconferência. Por exemplo, um médico pode compartilhar a tela e revisar os resultados do teste com um paciente. Ou, um consultor bancário pode solicitar assinaturas eletrônicas em documentos, permitindo que eles fechem transações remotamente.
+Os compromissos virtuais são realizados por meio Microsoft Teams reuniões, que oferecem recursos robustos de videoconferência. Por exemplo, um médico pode compartilhar a tela e revisar os resultados do teste com um paciente. Ou, um consultor bancário pode solicitar assinaturas eletrônicas em documentos, permitindo que eles fechem transações remotamente.
 
 Cada compromisso virtual inclui um link Teams de reunião que é enviado aos participantes no email onde eles podem ingressar facilmente em um navegador da Web ou em Teams em qualquer dispositivo. Lembretes de email automatizados ajudam a reduzir os não-shows e melhorar o envolvimento do cliente e do cliente.
 
@@ -44,11 +44,11 @@ Com o Bookings, você tem uma experiência adaptada ao seu setor. Aqui estão al
 
 |Setor | Exemplos |
 |---------|---------|
-|Serviços financeiros    |  Visitas virtuais para vendas remotas e serviço<br/>Agende e gerencie compromissos virtuais para gerentes de relações bancárias, consultores financeiros e ajustadores de declarações, apenas para nomear alguns, para atender seus clientes com maior eficiência e conveniência.  |
-|Assistência médica   |  Visitas virtuais para atendimento ao paciente <br/>Agende e gerencie visitas virtuais para que os membros da equipe de assistência médica se reunirem com os pacientes ou outros provedores de saúde para discutir os cuidados médicos.   |
+|Serviços financeiros    |  Visitas virtuais para vendas remotas e serviço<br/>Agende e gerencie compromissos para gerentes de relação bancária, consultores financeiros e ajustadores de declarações, apenas para nomear alguns, para atender seus clientes com maior eficiência e conveniência.  |
 |Varejo   | Conexões virtuais e consultas <br/>Agende e gerencie compromissos para seus associados de vendas, especialistas em produtos e consultores de design para conduzir conexões virtuais e consultas com clientes.   |
+|Assistência médica   |  Visitas virtuais para atendimento ao paciente <br/>Agende e gerencie compromissos para os membros da equipe de assistência médica se reunirem com os pacientes ou outros provedores de saúde para discutir os cuidados médicos.   |
 
-Este artigo fornece uma visão geral de como usar o aplicativo Bookings Teams agendar, gerenciar e conduzir visitas virtuais.
+Este artigo fornece uma visão geral de como agendar, gerenciar e conduzir Visitas Virtuais usando o aplicativo Bookings em Teams.
 
 ## <a name="before-you-get-started"></a>Antes de começar
 
@@ -84,7 +84,7 @@ No calendário de reserva, vá para **Mais opções** (...) > **Tipos** de compr
 
 As informações e links que você adiciona estão incluídos na confirmação de email enviada aos participantes sempre que esse tipo de compromisso é reservado. Você pode até definir lembretes de email e outras opções, como se os participantes podem [](mobile-browser-join.md) ingressar em um navegador móvel sem precisar baixar Teams. Para saber mais, confira [Criar um tipo de compromisso](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## <a name="schedule-a-virtual-visit"></a>Agendar uma visita virtual
+## <a name="schedule-a-visit"></a>Agendar uma visita
 
 No calendário de reserva, selecione **Novo reserva**. Selecione um tipo de compromisso e preencha as informações relevantes.
 
@@ -92,11 +92,11 @@ Isso inclui informações de contato do participante, o membro da equipe que for
 
 A confirmação de email enviada ao participante inclui o link de reunião e um anexo para que eles possam adicionar o compromisso virtual ao calendário. A equipe também recebe uma confirmação de email e um convite de reunião.
 
-## <a name="conduct-a-virtual-visit"></a>Conduzir uma visita virtual
+## <a name="conduct-a-visit"></a>Conduzir uma visita
 
 Em seu Teams ou Outlook calendário, vá para a reserva e selecione **Ingressar** ou o link Teams reunião. Verifique suas configurações de áudio e vídeo e selecione **Ingressar agora**. Para saber mais, confira [Conduzir um compromisso do Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
-## <a name="monitor-virtual-visits-and-get-real-time-status-updates"></a>Monitorar visitas virtuais e obter atualizações de status em tempo real
+## <a name="monitor-visits-and-get-real-time-status-updates"></a>Monitorar visitas e obter atualizações de status em tempo real
 
 A [exibição de](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) fila no Bookings fornece à sua equipe um painel para monitorar todos os compromissos virtuais do dia, com atualizações em tempo real. Para ver a fila, vá para a guia **Fila** no Bookings.
 
@@ -117,7 +117,7 @@ Para saber mais, confira [Microsoft Bookings](/microsoft-365/bookings/bookings-o
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Gerenciar a experiência de junção para Teams virtuais em navegadores móveis](mobile-browser-join.md)
+- [Gerenciar a experiência de junção para Teams visitas virtuais em navegadores móveis](mobile-browser-join.md)
 
 - [Começar a Teams para organizações de saúde](healthcare/teams-in-hc.md)
 

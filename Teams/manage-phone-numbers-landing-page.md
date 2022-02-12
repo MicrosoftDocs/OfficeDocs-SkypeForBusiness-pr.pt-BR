@@ -27,20 +27,20 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como obter e gerenciar números de telefone de usuário (assinante) e serviço (chamada gratuita) para Microsoft Teams sua organização.
-ms.openlocfilehash: d29781e16c881c9b0e00e39c6e57314c6696d8bb
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: c4ea749e98097765d302c334f5d8bd75e8dc0d21
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432778"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763805"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>Gerenciar números de telefone para sua organização
 
 Atualmente, a Microsoft dá suporte a dois tipos de número de telefone: 
 
-- [**Números de**](#user-telephone-numbers)usuário , também chamados de números de assinante, que podem ser atribuídos aos usuários em sua organização.
+- [**Números de usuário**](#user-telephone-numbers), também chamados de números de assinante, que podem ser atribuídos aos usuários em sua organização.
 
-- [**Números de**](#service-telephone-numbers)serviço , que são atribuídos a serviços como [Audioconferência,](deploy-audio-conferencing-teams-landing-page.md) [Atendimento Automático](plan-auto-attendant-call-queue.md)ou [Filas de Chamada.](plan-auto-attendant-call-queue.md)
+- [**Números de**](#service-telephone-numbers) serviço, que são atribuídos a serviços como [Audioconferência](deploy-audio-conferencing-teams-landing-page.md), [Atendimento Automático](plan-auto-attendant-call-queue.md) ou [Filas de Chamada](plan-auto-attendant-call-queue.md).
 
 A Microsoft está trabalhando para simplificar os tipos de números, mas, por enquanto, você precisará decidir:
 
@@ -52,11 +52,11 @@ A forma como você adquire e gerencia números de telefone difere dependendo da 
 
 - Para obter informações sobre como gerenciar números de telefone para o Plano de Chamadas da Microsoft, consulte [Manage telephone numbers for Calling Plans](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- Para obter informações sobre como gerenciar números de telefone para operador Conexão, consulte Configurar números de telefone [com operador Conexão](operator-connect-configure.md#set-up-phone-numbers).
+- Para obter informações sobre como gerenciar números de telefone para operador Conexão, consulte [Configurar números de telefone com operador Conexão](operator-connect-configure.md#set-up-phone-numbers).
 
-- Para obter informações sobre como gerenciar números de telefone para Roteamento Direto, consulte [Configure the telephone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
+- Para obter informações sobre como gerenciar números de telefone para Roteamento Direto, consulte [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
-Se você precisar de tipos de número adicionais ou outros que não os números vistos no centro de administração do Microsoft Teams, você pode enviar uma solicitação de número de telefone para a Central de Serviços de Número Telefone [.](https://pstnsd.powerappsportals.com/)
+Se você precisar de tipos de número adicionais ou outros que não os números vistos no centro de administração Microsoft Teams, você pode enviar uma solicitação de número de telefone para a Central de Serviços de Número Telefone[.](https://pstnsd.powerappsportals.com/)
 
 ## <a name="user-telephone-numbers"></a>Números de telefone do usuário
 
@@ -88,4 +88,4 @@ Há dois tipos de números de telefone de serviço fornecidos pela Microsoft —
     
   
 > [!NOTE]
-> Se você precisar obter mais números de telefone do que isso, entre em contato com a Central de Serviços Telefone [Número.](https://pstnsd.powerappsportals.com/)
+> Se precisar obter mais números de telefone do que isso, entre em contato com a Central de Serviços Telefone [Número.](https://pstnsd.powerappsportals.com/)

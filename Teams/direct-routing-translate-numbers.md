@@ -1,6 +1,6 @@
 ---
 title: Traduzir números de telefone para Roteamento Direto
-ms.reviewer: ''
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar o Telefone Microsoft Roteamento Direto do Sistema.
-ms.openlocfilehash: 2e94da39c23c10a912f4b3f0433467439b5ecf77
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 2a9f5c92da348a47f5a6d24389254436f2fd510c
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766364"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763286"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traduzir números de telefone para um formato alternativo
 
-Este artigo descreve como traduzir números para chamadas de saída e de entrada para um formato alternativo.  Esta é a etapa 4 das seguintes etapas para configurar o Roteamento Direto:
+Este artigo descreve como traduzir números para chamadas de saída e de entrada para um formato alternativo. Esta é a etapa 4 das seguintes etapas para configurar o Roteamento Direto:
 
 - Etapa 1. [Conexão SBC com Telefone Microsoft System e validar a conexão](direct-routing-connect-the-sbc.md) 
 - Etapa 2. [Habilitar usuários para Roteamento Direto, voz e caixa postal](direct-routing-enable-users.md)   
@@ -43,9 +43,9 @@ Você pode usar a política Regras de Conversão de Números para traduzir núme
 
 A política é aplicada no nível SBC. Você pode atribuir várias regras de conversão a um SBC, que são aplicadas na ordem em que elas aparecem quando você as lista no PowerShell. Você também pode alterar a ordem das regras na política.
 
-Para criar, modificar, exibir e excluir regras de manipulação de números, use os cmdlets [New-CsTeamsTranslationRule](/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule)e [Remove-CsTeamsTranslationRule.](/powershell/module/skype/remove-csteamstranslationrule)
+Para criar, modificar, exibir e excluir regras de manipulação de números, use os [cmdlets New-CsTeamsTranslationRule](/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule) e [Remove-CsTeamsTranslationRule](/powershell/module/skype/remove-csteamstranslationrule) .
 
-Para atribuir, configurar e listar regras de manipulação de números em SBCs, use os cmdlets [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) e [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) juntamente com os cmdlets InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules e OutboundPSTNNumberTranslationRules.
+Para atribuir, configurar e listar regras de manipulação de números em SBCs, use os cmdlets [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) e [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) juntamente com os parâmetros InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules e OutboundPSTNNumberTranslationRules.
 
 > [!NOTE]
 > O número total máximo de regras de conversão é 400, o comprimento máximo do nome do parâmetro de conversão é 100 símbolos, o comprimento máximo do padrão do parâmetro de conversão é 1024 símbolos e o comprimento máximo da conversão do parâmetro de conversão é de 256 símbolos.
@@ -53,7 +53,7 @@ Para atribuir, configurar e listar regras de manipulação de números em SBCs, 
 
 ## <a name="example-sbc-configuration"></a>Exemplo de configuração SBC
 
-Para esse cenário, o ```New-CsOnlinePSTNGateway``` cmdlet é executado para criar a seguinte configuração SBC:
+Para esse cenário, o cmdlet New-CsOnlinePSTNGateway é executado para criar a seguinte configuração SBC:
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,‘StripPlus1’  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
@@ -63,10 +63,10 @@ As regras de conversão atribuídas ao SBC são resumidas na tabela a seguir:
 
 |Nome  |Padrão |Conversão  |
 |---------|---------|---------|
-|AddPlus1     |^(\d {10} )$          |+1$1          |
-|AddE164SeattleAreaCode      |^(\d {4} )$          | +1206555$1         |
-|AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
-|StripPlus1    |^+1(\d {10} )$          | $1         |
+|AddPlus1     |^(\d{10})$          |+1$1          |
+|AddE164SeattleAreaCode      |^(\d{4})$          | +1206555$1         |
+|AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
+|StripPlus1    |^+1(\d{10})$          | $1         |
 
 Nos exemplos a seguir, há dois usuários, Alice e Bob. Alice é uma Teams cujo número é +1 206 555 0100. Bob é um usuário PSTN cujo número é +1 425 555 0100.
 
