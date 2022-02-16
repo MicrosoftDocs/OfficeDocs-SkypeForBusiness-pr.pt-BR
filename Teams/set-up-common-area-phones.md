@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Saiba como configurar Telefones de Área Comum para lobbies, áreas de recepção e salas de conferência '
-ms.openlocfilehash: a4e4720fe7baf58d0da6f00800c61b706ec48516
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279259"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856659"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>Implantar telefones de área comum para Microsoft Teams
 
@@ -55,7 +55,7 @@ A licença área comum Telefone suporta:
 &sup2; Não disponível em nuvens soberanas  
 
 >[!NOTE]
-> Contas para telefones de área comum Skype for Business Server não podem ser migradas para Microsoft Teams. Siga as etapas deste artigo para recriar essas contas para Teams e, se necessário, migre sua conectividade PTSN.
+> Contas para objetos de telefones de área comum criados Skype for Business Server não podem ser migradas para Microsoft Teams. Siga as etapas deste artigo para recriar essas contas para Teams e, se necessário, migre sua conectividade PTSN.
 
 ## <a name="step-1---buy-the-licenses"></a>Etapa 1 - Compre as licenças
 
