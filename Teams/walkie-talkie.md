@@ -19,10 +19,10 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62015011"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo Walkie Talkie em Microsoft Teams
@@ -37,19 +37,19 @@ Com o Walkie Talkie no Teams, os funcionários de linha de frente agora podem se
 
 O Walkie Talkie tem suporte em dispositivos Android com o Google Serviços Móveis (GMS) e dispositivos iOS. 
 
-Atualmente, o Walkie Talkie não está pré-instalado. Para habilitar esse recurso para usuários em sua organização, [](teams-app-setup-policies.md)você precisa adicionar o Walkie Talkie à Política de Instalação de Aplicativos atribuída aos usuários do Centro de Administração   Teams [.](https://admin.teams.microsoft.com/) Depois de habilitado, o Walkie Talkie ficará disponível no aplicativo dentro de 48 horas.
+Atualmente, o Walkie Talkie não está pré-instalado. Para habilitar esse recurso para usuários em sua organização, você precisa adicionar o Walkie Talkie à Política de Instalação  [doApp](teams-app-setup-policies.md)  atribuída aos usuários do Centro de Administração [Teams.](https://admin.teams.microsoft.com/) Depois de habilitado, o Walkie Talkie ficará disponível no aplicativo dentro de 48 horas.
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>Adicionando o Walkie Talkie à sua lista de aplicativos
 
-No centro de Microsoft Teams de administração, em Teams políticas de Instalação de aplicativos , você deve ter Permitir que o  >   **pinning** do usuário seja **definido** como On . Em seguida, na seção Aplicativos Fixados, clique **em +Adicionar Aplicativos**.
+No centro de Microsoft Teams de administração, em Teams **políticas** **appSetup** > , você deve ter Permitir que o **pinning do** usuário seja **definido como On**. Em seguida, na seção Aplicativos Fixados, clique **em +Adicionar Aplicativos**.
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Mostra a seção Aplicativos Fixados e o botão Adicionar Aplicativos a ser selecionado.":::
 
-No painel **Adicionar aplicativos** fixados que  aparece à direita, use a caixa de texto Pesquisar para procurar Walkie Talkie. Quando você o tiver como resultado de pesquisa, selecione o botão **Adicionar** à direita do nome para adicioná-lo à sua lista.
+No painel **Adicionar aplicativos** fixados que aparece à direita, use a  caixa de texto Pesquisar para procurar Walkie Talkie. Quando você o tiver como resultado de pesquisa, selecione o botão **Adicionar** à direita do nome para adicioná-lo à sua lista.
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Mostra a barra lateral Adicionar aplicativos fixados com o Walkie inserido no painel de pesquisa e o aplicativo Walkie Talkie nos resultados da pesquisa, com o botão Adicionar ao lado dele.":::
 
-O aplicativo Walkie Talkie agora deve aparecer na lista Aplicativos Fixados e estar disponível para uso depois de clicar no **botão Salvar.**
+O aplicativo Walkie Talkie agora deve aparecer na lista Aplicativos Fixados e estar disponível para uso depois de clicar no **botão Salvar** .
 
 :::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Mostra a lista Aplicativos fixados com o aplicativo Walkie Talkie adicionado e o botão Salvar abaixo da lista.":::
 
@@ -84,7 +84,7 @@ Os funcionários de linha de frente geralmente precisam falar e receber chamadas
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Guia do Galaxy Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     - Configuração manual - Com Teams instalado, navegue até Configurações > Recursos Avançados > XCover/Chave Ativa. Aciona a tecla 'Controlar XCover com aplicativo' e selecione 'Teams'
     - [Instalação do MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-  - Zebra [TC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html) [TC7x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [TC2x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [EC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html) [EC30,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+  - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html), [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
     - Configuração manual - com Teams instalado, o botão PTT dedicado (LEFT_TRIGGER_2) funciona com o Walkie Talkie por padrão
     
 > [!NOTE]
@@ -92,7 +92,7 @@ Os funcionários de linha de frente geralmente precisam falar e receber chamadas
 
 ### <a name="license-requirements"></a>Requisitos de licença
 
-O aplicativo Walkie Talkie está incluído em todas as licenças pagas de Teams em [Office 365 assinaturas](/office365/servicedescriptions/teams-service-description). Para obter mais informações sobre Teams, confira [Como obter acesso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+O aplicativo Walkie Talkie está incluído em todas as licenças pagas de Teams em [Office 365 assinaturas](/office365/servicedescriptions/teams-service-description). Para obter mais informações sobre Teams,  [confiraComo posso obter acesso a Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 ## <a name="further-information"></a>Mais informações
 
