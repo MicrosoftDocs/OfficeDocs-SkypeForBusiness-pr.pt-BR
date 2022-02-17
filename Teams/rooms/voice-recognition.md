@@ -11,13 +11,18 @@ search.appverid: MET150
 description: Saiba mais sobre o controle de Administração de Locatários para reconhecimento de voz (perfil de voz) Teams salas de reunião.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 9c970fb3d8584c9a68512187158c7dad11562c4a
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863894"
 ---
-
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gerenciar controles de tecnologia de reconhecimento de voz para um Alto-falante Inteligente
 
 Um Alto-falante Inteligente usa informações de perfil de voz para reconhecer quem disse o que na transcrição ao vivo. Quando uma Salas do Microsoft Teams para Windows de reunião é equipada com um Alto-falante Inteligente, a transcrição ao vivo pode ser usada durante a reunião. Este artigo explica como você, um administrador de locatários, controla a criação de perfil de voz usada para o reconhecimento de voz para gerar transcrição ao vivo. Você pode controlar até que ponto a organização está usando o reconhecimento de voz e os seguintes recursos:
@@ -84,6 +89,9 @@ A seguir estão as políticas necessárias para definir um Alto-falante Intelige
 No centro Teams de administração, de definir a **política de Transcrição**. Configurações estão **desligados** por padrão.
 
 ![o centro de administração com as políticas de reunião realçadas e Permitir transcrição selecionada.](../media/allow-transcription1.png)
+  
+> [!NOTE]
+> Depois que uma política é atribuída, elas podem levar até 48 horas para fazer efeito. Para que a política entre em vigor mais cedo, as contas devem ser assinadas e assinadas novamente.
 
 ## <a name="frequently-asked-questions-faq"></a>Perguntas frequentes (FAQ)
 
@@ -93,7 +101,7 @@ Os dados do perfil de voz são armazenados Office 365 nuvem com conteúdo do usu
 
 **Qual é a linha do tempo de retenção e a política?**
 
-A política de retenção geral é afirmada na visão geral [de retenção de dados](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Além disso, os dados de perfil de voz de um usuário serão excluídos após três anos se o usuário não for convidado para nenhuma reunião com um Alto-falante Inteligente nesse período de 3 anos. Os dados não são usados em reuniões para funcionários existentes. Se um funcionário tiver deixado a empresa, os dados de perfil de voz serão considerados conteúdo do usuário e serão tratados como tal por uma política de retenção de dados Office 365 descrita na visão geral de retenção [de dados](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+A política de retenção geral é afirmada na visão geral [de retenção de dados](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Além disso, os dados de perfil de voz de um usuário serão excluídos após 1 ano se o usuário não for convidado para reuniões com um Alto-falante Inteligente nesse período de 1 ano. Os dados não são usados em reuniões para funcionários existentes. Se um funcionário tiver deixado a empresa, os dados de perfil de voz serão considerados conteúdo do usuário e serão tratados como tal por uma política de retenção de dados Office 365 descrita na visão geral de retenção [de dados](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 **Os dados de perfil de voz são usados em serviços Microsoft?**
 

@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279369"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864024"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Guia de Início Rápido do Microsoft Teams Essentials para pequenas empresas
 
@@ -100,14 +100,6 @@ A tabela a seguir lista os principais recursos do Microsoft Teams disponíveis n
 > Para obter administração aprimorada e todo o conjunto completo de recursos do Teams, você precisará atualizar para a versão completa do Teams comprando um [ plano de assinatura do Microsoft 365 ou Office 365](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) apropriado para seus usuários. Recomendamos isso, pois você terá mais flexibilidade para gerenciar a forma como sua organização colabora.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Limites e especificações de administração do Microsoft Teams Essentials
-
-Aqui estão alguns limites e especificações importantes do Teams Essentials a serem considerados como administradores:
-
-  - **Administração:** uma assinatura do Teams Essentials **não** vem com acesso ao Centro de Administração do Teams. Os usuários do Teams Essentials podem aproveitar uma exibição simplificada do Centro de administração do Microsoft 365 para realizar tarefas importantes, como gerenciar assinaturas e configurar novos usuários.
-
-  - **Microsoft Teams PowerShell:** Você **não pode** gerenciar o Teams Essentials diretamente usando a linha de comando do PowerShell, pois não há suporte para PowerShell.
-
-  - **Armazenamento**: o Teams Essentials usa o armazenamento em nuvem pessoal do OneDrive para armazenamento de arquivos.
 
 Vá para:  [Limites e especificações do Microsoft Teams](/microsoftteams/limits-specifications-teams) para saber mais sobre os limites, especificações e outros requisitos que se aplicam ao Teams.
 

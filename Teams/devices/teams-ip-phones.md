@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 809f69383f73346f7964926e689739016b155705
-ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.openlocfilehash: e55e2bed641c1cc2042cd02aefbe2a6e13ea8f17
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62856679"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863934"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams android certificados
 
@@ -133,8 +133,6 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 | Modelo de dispositivo  | Versão do firmware  | Versão incluída do produto  |
 |:----------------|:--------------|:----------------------------|
 |Audiocódigos C455HD | `1.15.271`    | Atualização 2022 #1
-|Poly Trio C60   | `7.2.1.1712`  | Atualização 2022 #1   |
-|Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | Atualização 2022 #1  |
 |Audiocódigos C448HD  | `1.14.500` | Atualização 2022 #1 |
 |Audiocódigos C450HD  | `1.14.500` | Atualização 2022 #1  |
 |Audiocódigos C470HD  | `1.14.500` | Atualização 2022 #1   |
