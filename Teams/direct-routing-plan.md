@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o Roteamento Direto da Microsoft permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte a Sistema de Telefonia.
-ms.openlocfilehash: 9f75646dd90b4c30384e12ae23fdc46be8825fab
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 9070acf8483041115308335abac49796be311453
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518833"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881536"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -182,7 +182,7 @@ Saiba mais: [Requisitos do Programa - Programa Raiz Confiável da Microsoft](/se
 - AC raiz do EV de Alta Garantia digiCert
 
 > [!NOTE]
-> Se o suporte A TLS Mútuo (MTLS) estiver habilitado para a conexão Teams no SBC, você deverá instalar o Certificado Raiz do Baltimore CyberTrust no Armazenamento Raiz Confiável SBC do contexto TLS do Teams. (Isso porque os certificados de serviço da Microsoft usam o certificado raiz de Baltimore.) Para baixar o certificado raiz de Baltimore, consulte [Office 365 criptografia](/microsoft-365/compliance/encryption-office-365-certificate-chains).
+> Se o suporte A TLS mútuo (MTLS) estiver habilitado para a conexão Teams no SBC, você deverá instalar o Baltimore CyberTrust Root e os certificados DigiCert Global Root G2 no Armazenamento Raiz Confiável SBC do contexto TLS do Teams. (Isso porque os certificados de serviço da Microsoft usam um desses dois certificados raiz.) Para baixar esses certificados raiz, consulte [Office 365 Cadeias de criptografia](/microsoft-365/compliance/encryption-office-365-certificate-chains). Para obter mais detalhes, [consulte Office alterações de certificado TLS](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
 
 ## <a name="sip-signaling-fqdns"></a>Sinalização SIP: FQDNs 
 

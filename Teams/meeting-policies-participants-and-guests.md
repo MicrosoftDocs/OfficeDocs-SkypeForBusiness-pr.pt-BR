@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações de política de reunião Teams para participantes e convidados.
-ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bdff1880104f80e7a5073900087a855202a9a137
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457371"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881526"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -98,15 +98,14 @@ Essa configuração é uma configuração por participante. Essa configuração 
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
-|**A ativar para todos**     | Todos os participantes podem gravar e exibir mensagens de chat. |
-|**Desativar para todos**     | O chat de reunião está desligado para todos os participantes.  |
-|**Ativos para todos, menos usuários anônimos**| Os usuários anônimos não podem conversar durante reuniões, mas podem ler mensagens. |
+|**Habilitado**     | Todos os participantes podem gravar e exibir mensagens de chat. |
+|**Não habilitado**     | O chat de reunião está desligado para todos os participantes.  |
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>Habilitar configurações de política de reunião
 
-Para habilitar as configurações de política de reunião, você pode usar [o](https://admin.teams.microsoft.com/policies/meetings) centro de administração do Teams (**Políticas** >  de **ReuniãoEditar** um **policyParticipants** >  & convidados) ou o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) no Teams PowerShell. 
+Para habilitar as configurações de política de reunião, você pode usar [o](https://admin.teams.microsoft.com/policies/meetings) centro de administração do Teams (**Políticas** >  de **ReuniãoEditar** um **policyParticipants** >  & convidados) ou o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) no Teams PowerShell. 
 
 Neste exemplo, usamos o PowerShell para modificar a política de reunião global para permitir que qualquer pessoa inicie ou participe de uma reunião.
 
