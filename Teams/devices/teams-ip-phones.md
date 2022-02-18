@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: e55e2bed641c1cc2042cd02aefbe2a6e13ea8f17
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 5b8e7636c53add6e8ef30fa8903cff8ac3d260a3
+ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863934"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62897546"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams android certificados
 
@@ -71,8 +71,9 @@ Os seguintes dispositivos são Certificados no Salas do Microsoft Teams no Progr
 
 | Modelo de dispositivo | Versão do firmware | Data de término da certificação atual | Tamanho da sala                                        |  Versão do sistema operacional Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Colega de quarto logitech | `1.4.71` | 3 de setembro de 2024  | Sala de reunião grande (4,5 m x 8,5m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 5 de agosto de 2023 | Empacotado com o EPOS Vision 3T | 9 |
-| Dispositivo de toque logitech     | `1.2.982`     |   3 de setembro de 2024  | Compatível com a Barra de Rali da Logitech e a Barra de Rali Mini | 10 |
+| Dispositivo de toque logitech     | `1.2.982`  |   3 de setembro de 2024  | Compatível com a Barra de Rali da Logitech e a Barra de Rali Mini | 10 |
 | Logitech Rally Bar Mini | `1.2.982`     |   3 de setembro de 2024  |    Pequenos Sala de Reunião (4,5 m x 4,5 m) | 10 |
 | Barra de Rali logitech      | `1.2.788`     |   3 de setembro de 2024  |    Sala de tamanho médio (4,5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   5 de agosto de 2023  | Sala de foco(3m x 3m) </br> Sala de reunião pequena(4,5 m x 4,5 m) | 9 |

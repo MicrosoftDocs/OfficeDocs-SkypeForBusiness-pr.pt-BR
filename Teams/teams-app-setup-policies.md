@@ -1,7 +1,7 @@
 ---
 title: Gerenciar políticas de configuração de aplicativo no Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -9,18 +9,23 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de configuração de aplicativos Microsoft Teams para usuários em sua organização.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.appsetuppolicies.overview
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 8105e8086571d6eb227395781fd841820b863f0e
+ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62897536"
 ---
-
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
 Como administrador, você pode usar políticas de configuração de aplicativos para instalar e fixar aplicativos para promover os aplicativos mais usados em sua organização e decidir se deseja que os usuários carreguem aplicativos personalizados para Teams.
@@ -119,7 +124,7 @@ Para criar uma política de configuração de aplicativo para permitir que os us
 4. Ativar ou desativar Upload **aplicativos** personalizados, dependendo se você deseja permitir que os usuários carreguem aplicativos personalizados para Teams.
 
 > [!NOTE]
-> Você não poderá alterar essa configuração se **Permitir** que aplicativos de terceiros estão [desligados em configurações de](manage-apps.md#manage-org-wide-app-settings) aplicativos em toda a organização.
+> Não é possível alterar essa configuração se **aplicativos** de terceiros estão [desligados em configurações de](manage-apps.md#manage-org-wide-app-settings) aplicativos em toda a organização.
 
 ## <a name="manage-app-setup-policies"></a>Gerenciar políticas de configuração de aplicativos
 
@@ -127,7 +132,7 @@ Você gerencia políticas de configuração de aplicativos no Microsoft Teams de
 
 Edite as configurações na política global para incluir os aplicativos que deseja. Para personalizar Teams diferentes grupos de usuários em sua organização, crie e atribua uma ou mais políticas personalizadas.
 
-![a página Políticas de configuração de aplicativos.](media/app-setup-policies.png)
+![a página Políticas de configuração de aplicativos.](media/app-setup-policies-update.png)
 
 ### <a name="edit-an-app-setup-policy"></a>Editar uma política de configuração de aplicativo
 
@@ -141,23 +146,19 @@ Você pode usar o Microsoft Teams de administração para editar uma política, 
 
 4. Selecione **Salvar**.
 
-### <a name="assign-a-custom-app-setup-policy-to-users"></a>Atribuir uma política de configuração de aplicativo personalizada aos usuários
+### <a name="assign-a-custom-app-setup-policy-to-users-and-groups"></a>Atribuir uma política de configuração de aplicativo personalizada a usuários e grupos
 
-Para obter mais informações sobre como atribuir políticas aos usuários, consulte [Atribuir políticas a usuários e grupos](assign-policies-users-and-groups.md).
+Para obter mais informações sobre como atribuir políticas aos seus usuários e grupos, consulte [Atribuir políticas a usuários e grupos](assign-policies-users-and-groups.md).
 
 ## <a name="faq"></a>Perguntas frequentes
 
 ### <a name="working-with-app-setup-policies"></a>Trabalhar com políticas de configuração de aplicativos
 
-#### <a name="can-i-assign-an-app-setup-policy-to-a-group"></a>Posso atribuir uma política de configuração de aplicativo a um grupo
-
-As políticas de configuração de aplicativos podem ser atribuídas a grupos usando o PowerShell. Para obter mais informações sobre como atribuir políticas a grupos usando o PowerShell, consulte [Atribuir políticas a usuários e grupos](assign-policies-users-and-groups.md#use-the-powershell-option).
-
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Quais políticas internas de configuração de aplicativos estão incluídas no centro de Microsoft Teams de administração
 
 - **Global (padrão em toda a organização)**: Essa política padrão se aplica a todos os usuários em sua organização, a menos que você atribua outra política. Edite a política global para fixar aplicativos que são mais importantes para seus usuários.
 
-- **FrontlineWorker**: Esta política é para Trabalhadores de Linha de Frente. Você pode atribuí-lo aos Trabalhadores de Linha de Frente em sua organização. É importante saber que, como políticas personalizadas que você cria, você precisa atribuir a política aos usuários para que as configurações sejam ativas. Para obter mais informações, acesse [a seção Atribuir uma política de configuração de aplicativo personalizada aos](#assign-a-custom-app-setup-policy-to-users) usuários deste artigo.
+- **FrontlineWorker**: Esta política é para Trabalhadores de Linha de Frente. Você pode atribuí-lo aos Trabalhadores de Linha de Frente em sua organização. É importante saber que, como políticas personalizadas que você cria, você precisa atribuir a política aos usuários para que as configurações sejam ativas. Para obter mais informações, acesse [a seção Atribuir uma política de configuração de aplicativo personalizada aos](#assign-a-custom-app-setup-policy-to-users-and-groups) usuários deste artigo.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Por que não consigo encontrar um aplicativo no painel Adicionar aplicativos fixados
 
