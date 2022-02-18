@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para oferecer suporte à sua força de trabalho remota quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 631fdd7668e8dd0bc8781509671dc11a1c631816
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610518"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893530"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Perguntas frequentes: Suporte para sua força de trabalho remota
 
@@ -83,7 +83,7 @@ O Teams está disponível gratuitamente em alguns programas diferentes:
 
 ### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Já tenho o Microsoft 365, mas não uso o Teams. Você está fornecendo licenças de avaliação?
 
-Se você tiver o Microsoft 365, já tem o Teams. [Ative](Office-365-set-up.md) para todos os usuários. Após a ativação, os usuários podem executar o Teams, instalando [área de trabalho](get-clients.md#desktop-client) e clientes [móveis](get-clients.md#mobile-clients) ou [a partir do navegador](get-clients.md#mobile-clients) em [https://teams.microsoft.com](https://teams.microsoft.com). 
+Se você tiver o Microsoft 365, já tem o Teams. [Ative](Office-365-set-up.md) para todos os usuários. Após a ativação, os usuários podem executar o Teams, instalando [área de trabalho](get-clients.md#desktop-clients) e clientes [móveis](get-clients.md#mobile-clients) ou [a partir do navegador](get-clients.md#mobile-clients) em [https://teams.microsoft.com](https://teams.microsoft.com). 
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Como posso obter ajuda para começar a usar o Teams e ter certeza de que a implantação foi bem-sucedida?
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04873436e120f87794037a72ce35efacb85e5ef2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 3ac3a069aa54e9e8d871c7daccbf068c510b0fc0
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394513"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893580"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Integração de usuários pioneiros do Microsoft Teams
 
@@ -55,7 +55,7 @@ Vá para: [Teams para Windows](#teams-for-windows) | [Teams para Mac](#teams-for
 
 ### <a name="desktop-client"></a>Cliente de área de trabalho
 
-O cliente de área de trabalho do Teams oferece a melhor experiência aos usuários do Windows e Mac. Para saber mais, confira [Obter clientes para o Teams (cliente da área de trabalho)](./get-clients.md#desktop-client) e [Requisitos de hardware para o aplicativo Microsoft Teams](./hardware-requirements-for-the-teams-app.md).
+O cliente de área de trabalho do Teams oferece a melhor experiência aos usuários do Windows e Mac. Para saber mais, confira [Obter clientes para o Teams (cliente da área de trabalho)](./get-clients.md#desktop-clients) e [Requisitos de hardware para o aplicativo Microsoft Teams](./hardware-requirements-for-the-teams-app.md).
 
 > [!NOTE]
 > Como administrador, você pode escolher o método de distribuição dos arquivos de instalação para os computadores da sua organização, como o System Center Configuration Manager (Windows) ou o Jamf Pro (macOS).

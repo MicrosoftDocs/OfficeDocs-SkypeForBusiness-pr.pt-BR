@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b7f4bf8d181ae7e66edb255bd32dd40bb2fa1
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 7264d7f08342121a862943dd8b063fe904c87072
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518973"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893724"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Visão geral dos componentes do Loop no Teams
 
@@ -78,7 +78,7 @@ Os arquivos .fluid só podem ser abertos como links no navegador, como Office.co
 - Com permissões de arquivo padrão de locatário definidas como Pessoas específicas *(somente* as pessoas que o usuário especifica), a criação de um componente ao vivo no chat em grupo com mais de 20 membros exigirá que o remetente selecione manualmente as opções de permissão para o componente.
 - Pesquisar componentes do Loop Teams pesquisa retornará um link para o componente office.com, não a mensagem de chat em si.
 - Os componentes do loop são desabilitados em chats federados.
-- Os convidados B2B não poderão colaborar em um componente ao vivo compartilhado com eles por meio *de links pessoas* em sua organização, a menos que o locatário desempate uma opção de acesso externo para permitir que os convidados B2B tenham o mesmo nível de acesso que os membros do locatário. Para obter mais informações, consulte [Configure B2B external collaboration settings](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
+- Os convidados B2B não poderão colaborar em um componente ao vivo compartilhado com eles por meio do Link de Compartilhamento da Empresa. Definir permissões para **pessoas atualmente neste chat** para compartilhar componentes com convidados B2B.
 - Os componentes de loop não são suportados Teams canais.
 - Os componentes de loop no chat não serão carregados somente se o arquivo tiver sido movido para uma biblioteca diferente. Se o arquivo for movido para uma pasta diferente, ele continuará a ser carregado no chat.
 
