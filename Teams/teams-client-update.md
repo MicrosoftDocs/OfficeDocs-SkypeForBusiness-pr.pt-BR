@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0bc329910f4e4d89f07684f92ddcc1c340edf3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606940"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893520"
 ---
 # <a name="teams-update-process"></a>Processo de atualização do Teams
 
@@ -33,17 +33,15 @@ As atualizações do cliente de área de trabalho do Teams são lançadas a cada
 
 O cliente da área de trabalho se atualiza automaticamente. O Teams verifica se há atualizações a cada algumas horas nos bastidores, baixa-as e aguarda até que o computador esteja ocioso antes de instalar silenciosamente a atualização.
 
-Os usuários também podem baixar as atualizações manualmente selecionando **Verificar se há atualizações** no menu suspenso **Perfil** no canto superior direito do aplicativo. Se houver uma atualização disponível, ela será baixada e instalada silenciosamente quando o computador estiver ocioso.
+Os usuários também podem baixar atualizações manualmente selecionando **Verificar atualizações** no menu suspenso **...** ao lado do ícone **Perfil** no canto superior direito do aplicativo. Se houver uma atualização disponível, ela será baixada e instalada silenciosamente quando o computador estiver ocioso.
 
 Os usuários precisam estar logados para que as atualizações sejam baixadas.
-
-Desde 31 de julho de 2019, as atualizações do cliente do Teams usam largura de banda de rede menor durante a atualização. Esta atualização esta ativada por padrão e não requer nenhuma ação de administradores ou usuários.
 
 ## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>E quanto às atualizações para o Microsoft 365 Apps para Grandes Empresas?
 
 O Teams é instalado por padrão com as novas instalações do Microsoft 365 Apps para Grandes Empresas, conforme descrito em [Implantar o Microsoft Teams com o Microsoft 365 Apps para Grandes Empresas](/DeployOffice/teams-install).
 
-O Teams segue seu próprio processo de atualização, conforme descrito acima. O Teams não segue o processo de atualização para os outros aplicativos do Office, como Word e Excel. Para saber mais, leia [Visão geral dos canais de atualização para o Microsoft 365 Apps para Grandes Empresas](/DeployOffice/overview-of-update-channels-for-office-365-proplus).
+O Teams segue seu próprio processo de atualização, conforme descrito acima. O Teams não segue o processo de atualização para os outros aplicativos do Office, como Word e Excel. Para saber mais, leia [Visão geral dos canais de atualização do Microsoft 365 Apps](/DeployOffice/overview-update-channels).
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>E as atualizações para o Teams na VDI?
 
