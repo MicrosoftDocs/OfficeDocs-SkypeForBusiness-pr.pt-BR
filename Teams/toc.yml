@@ -89,32 +89,32 @@ items:
                     href: teams-adoption-drive-awareness.md
                   - name: Agendar avaliações de integridade do serviço
                     href: teams-adoption-schedule-service-health-reviews.md
-          - name: Implantar clientes no Microsoft Teams
+          - name: Implantações de cliente
             items:
-              - name: Obter clientes para o Microsoft Teams
+              - name: Obter clientes do Teams
                 href: get-clients.md
-              - name: Obter o Teams para Android na China
-                href: get-teams-android-in-china.md
-              - name: Requisitos de hardware para o aplicativo Teams
-                href: hardware-requirements-for-the-teams-app.md
-              - name: Recomendações para o driver codificador e decodificador de hardware
-                href: hardware-decoders-and-encoders.md
-              - name: Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
+              - name: Atualizações de cliente do Teams
+                href: teams-client-update.md
+              - name: Instalar o Teams em massa usando Windows Installer
                 href: msi-deployment.md
-              - name: Ativar o Teams na sua organização
-                href: Office-365-set-up.md
-              - name: Como o Microsoft Teams usa a memória
-                href: teams-memory-usage-perf.md
-              - name: URLs e intervalos de endereços IP do Microsoft 365 e Office 365
-                href: office-365-urls-ip-address-ranges.md
               - name: Teams para infraestruturas de área de trabalho virtualizada (VDI)
                 href: teams-for-vdi.md
               - name: Teams para ambiente de área de trabalho remota (RDP)
                 href: teams-on-rdp.md
-              - name: Atualizações de cliente do Teams
-                href: teams-client-update.md
               - name: Solucionar problemas de instalação e atualização
                 href: troubleshoot-installation.md
+              - name: Referência
+                items:
+                  - name: URLs e intervalos de endereços IP do Microsoft 365
+                    href: office-365-urls-ip-address-ranges.md
+                  - name: Requisitos de hardware
+                    href: hardware-requirements-for-the-teams-app.md
+                  - name: Como o Teams usa a memória
+                    href: teams-memory-usage-perf.md
+                  - name: Recomendações para o driver codificador e decodificador de hardware
+                    href: hardware-decoders-and-encoders.md
+                  - name: Script do PowerShell do firewall do Teams
+                    href: client-firewall-script.md
       - name: Treinamento do Teams
         items:
           - name: Treinamento para o administrador do Teams
@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -585,7 +585,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -713,7 +713,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -1767,6 +1767,8 @@ items:
             href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Gerenciar as configurações de integração do SharePoint e do Teams
             href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+      - name: Ativar o Teams na sua organização
+        href: Office-365-set-up.md
       - name: Windows PowerShell do Teams
         items:
           - name: Visão Geral
