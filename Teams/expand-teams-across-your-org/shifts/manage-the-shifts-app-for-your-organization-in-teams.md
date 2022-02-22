@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288369"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918874"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -52,6 +52,10 @@ O Turnos está disponível em todas as SKUs corporativas onde o Teams está disp
 ## <a name="location-of-shifts-data"></a>Local dos dados de Turnos
 
 Atualmente, os dados do Turnos estão armazenados no Azure, em datacenters na América do Norte, na Europa Ocidental e Ásia-Pacífico. Confira mais informações sobre onde os dados são armazenados em [Onde estão meus dados?](http://o365datacentermap.azurewebsites.net/)
+
+## <a name="shifts-data"></a>Desloca dados
+
+Para saber mais sobre onde os dados shifts são armazenados e retenção, recuperação e criptografia de dados shifts, consulte [Perguntas frequentes](shifts-data-faq.md) sobre os dados shifts.
 
 ## <a name="set-up-shifts"></a>Configurar Turnos
 
@@ -86,6 +90,7 @@ Antes de poder pesquisar o log de auditoria, você precisa ativar a auditoria no
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
+- [Turnos do Teams](../shifts-for-teams-landing-page.md)
 - [Ajuda de turnos para trabalhadores de linha de frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Atribuir políticas aos usuários no Microsoft Teams](../../policy-assignment-overview.md)
 - [Conectores de turnos](shifts-connectors.md)
+- [Atribuir políticas aos usuários no Microsoft Teams](../../policy-assignment-overview.md)

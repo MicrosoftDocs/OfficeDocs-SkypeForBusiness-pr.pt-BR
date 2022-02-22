@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288499"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918864"
 ---
 # <a name="shifts-for-teams"></a>Turnos do Teams
 
@@ -43,8 +43,9 @@ Use os recursos a seguir para ajudá-lo a configurar e gerenciar Turnos em sua o
 
 |&nbsp;  |&nbsp; |
 |---------|---------|
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[Gerenciar turnos em sua organização](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Saiba como gerenciar turnos para sua organização. |
-|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[Gerenciar proprietários de agendamento para gerenciamento de turnos](shifts/schedule-owner-for-shift-management.md)** Esse recurso permite que você eleve as permissões de um membro da equipe para um proprietário de agendamento sem tornar o funcionário um proprietário da equipe. |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">   |**[Gerenciar Turnos](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Saiba como gerenciar turnos para sua organização.         |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">   |**[Gerenciar proprietários de agendamento para gerenciamento de turnos](shifts/schedule-owner-for-shift-management.md)** Esse recurso permite que você eleve as permissões de um membro da equipe para um proprietário de agendamento sem tornar o funcionário um proprietário da equipe.         |
+|<img src="/office/media/icons/help.png" alt="Help symbol.">     | **[Desloca perguntas frequentes sobre dados](shifts/shifts-data-faq.md)** Saiba onde os dados shifts são armazenados e outros tópicos relacionados aos dados shifts, incluindo retenção, recuperação e criptografia.        |
 
 ## <a name="shifts-connectors"></a>Conectores de turnos
 
