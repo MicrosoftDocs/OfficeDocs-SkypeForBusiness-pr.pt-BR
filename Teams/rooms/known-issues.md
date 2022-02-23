@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre problemas conhecidos para Salas do Microsoft Teams, incluindo atualização, interface do usuário, hardware e limitações e comportamentos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c9d73ddf276fac1474c51156cbc59a3b3bbb47b
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 5322020d37e3251aa54a20afecba353dd6335f55
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299086"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926314"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
@@ -31,6 +31,7 @@ Este artigo lista os problemas conhecidos das Salas do Microsoft Teams, por áre
 
 | Título do problema |  Comportamento \/ Sintoma | Solução alternativa conhecida | Artigo KB |
 |  ---        |      ---             |   ---            | --- |
+| A Câmera de Conteúdo/Quadro de Conteúdo falha ao aprimorar o conteúdo quando as bordas não são detectadas | Depois de atualizar para 4.11.12.0, quando não houver bordas de quadro de branco à vista da câmera de conteúdo, a câmera não aprimora/sobrepõe todo o conteúdo à vista da câmera.| Correção a ser incluída em uma versão futura para aprimorar todo o conteúdo no visualização da câmera. Como solução alternativa, a fita de pintores aplicada em uma caixa ao quadro de diálogo pode ser usada para fornecer temporariamente bordas que a câmera de conteúdo pode usar para focalizar e aprimorar o conteúdo. | Nenhum |
 | Lançamento automático do navegador de borda | O navegador de borda antes da com build 97.0.1072.62 é iniciado automaticamente juntamente com o aplicativo Microsoft Teams Room quando o dispositivo é iniciado. | Isso deve ser resolvido automaticamente, sem a necessidade de interação do usuário, em ou antes de segunda-feira, 17 de janeiro de 2022. Se uma resolução mais rápida for necessária: quando o Edge for lançado junto com a sala Microsoft Teams, visite a URL edge://settings/help e uma atualização deve baixar e aplicar automaticamente. No navegador, selecione 'Reiniciar' depois que a atualização terminar de aplicar. Feche a Borda IoT do Azure, reinicie o sistema e o problema deve ser resolvido. | Nenhum |
 | Vídeo do participante da Galeria Dividida   |  Quando não há conteúdo compartilhado em reuniões com mais de 9 participantes remotos e a reunião está no modo de exibição dual Front of Room, 1 vídeo em uma exibição front of room com a auto-visualização pode aparecer como áudio. Além disso, um número menor de participantes de áudio do que o número real de participantes de áudio aparece em exibições duplas de Front of Room. | O problema será resolvido na atualização futura. | Nenhum |
 | Aplicativo que não está sendo lançado |  Depois de atualizar para o aplicativo versão 4.4.41.0, o sistema será inicializado na tela preta ou vá para a tela de entrada após alguns minutos. | Siga as etapas no Salas do Microsoft Teams o aplicativo não inicia após a atualização para a versão [4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) para corrigir esse problema.  | Nenhum |

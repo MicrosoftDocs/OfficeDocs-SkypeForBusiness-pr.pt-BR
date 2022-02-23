@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como habilitar os usuários para Microsoft Teams Telefone Roteamento Direto.
-ms.openlocfilehash: 4acf18799060d6cc89e477109e916b5bf0d8401a
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: be2f0e0f33bd236591c8c8a2d9cf415972e018d6
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763326"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926294"
 ---
 # <a name="enable-users-for-direct-routing"></a>Habilitar usuários para Roteamento Direto
 
@@ -90,6 +90,27 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>Configurar o número de telefone e habilitar a voz corporativa 
 
 Depois de criar o usuário e ter atribuído uma licença, você deve configurar as configurações de telefone online do usuário. Observe que a configuração do Caixa postal na Nuvem para o usuário é automática; nenhuma configuração adicional precisa ser feita.
+
+Você pode configurar o número de telefone usando o Teams de administração ou usando Teams PowerShell.
+
+### <a name="use-teams-admin-center"></a>Usar Teams de administração
+
+1. Vá para **UsuáriosManage** ->  usuários.
+
+2. Selecione um usuário.
+
+2. Em **Informações Gerais** **da Conta**, selecione **Editar**.
+
+3. Em **Atribuir número de telefone**, Telefone menu suspenso tipo **de** número, selecione **Roteamento Direto**.
+
+4. Insira um número de telefone atribuído e uma extensão de número de telefone, se possível.
+
+5. Selecione **Aplicar.**
+
+As informações gerais da conta agora mostrarão o número de telefone atribuído e o Roteamento Direto como o tipo de número de telefone.
+
+
+### <a name="use-powershell"></a>Usar o PowerShell
 
 1. Conexão para uma sessão Microsoft Teams PowerShell. 
 

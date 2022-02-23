@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams exibe
-ms.author: serdars
-author: SerdarSoysal
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams exibições.
-ms.openlocfilehash: 2d6fb3269e8abf33fc75b59fcef924d133a1ccb3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 8c8004edd12042ca27e77e545f23b8770f8d1899
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62384135"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926324"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams exibe
 
@@ -53,6 +53,17 @@ Para saber mais sobre como implantar Teams exibições usando o Intune, consulte
 ## <a name="manage-teams-displays-in-your-organization"></a>Gerenciar Teams exibições em sua organização
 
 Para gerenciar seus Teams de exibição, na navegação à esquerda do centro de administração Microsoft Teams, vá para Teams **displays**. A partir daqui, você pode alterar o perfil de configuração do dispositivo, gerenciar atualizações, reiniciar dispositivos, adicionar e remover marcas de dispositivo e muito mais. Para obter mais informações, consulte [Manage your devices in Teams](device-management.md).
+
+## <a name="set-up-hot-desking-on-teams-displays"></a>Configurar o hot desking em Teams exibições
+
+O hot desking permite que as pessoas em sua organização reservem espaços de trabalho temporários com antecedência por meio de Teams e Outlook, ou do próprio dispositivo. Quando o hot desking está habilitado, os usuários Teams são exibidos com suas credenciais Microsoft 365 para acessar suas reuniões, chats e arquivos. Quando eles sairem, todas as suas informações pessoais serão removidas do dispositivo.
+
+Para começar, você precisará adquirir Salas do Microsoft Teams Padrão licenças e criar contas de recurso para cada Teams de exibição. Consulte [Deploy Salas do Microsoft Teams with Office 365](../rooms/with-office-365.md) to create resource accounts.
+
+Depois de criar contas de recursos, você pode criar e atribuir uma política para habilitar o hot desking. Consulte [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) para saber mais.
+
+> [!IMPORTANT]
+> Como Teams exibições com hot desking são usadas em espaços de trabalho compartilhados por várias pessoas, as regras de Acesso Condicional e outras configurações de identidade em seu ambiente, como Autenticação Multifacional, podem afetar esses dispositivos e causar problemas de entrada. Para obter orientações sobre como proteger dispositivos compartilhados, consulte [Práticas recomendadas de autenticação para dispositivos Teams Android compartilhados](authentication-best-practices-for-android-devices.md).
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>Atualizar Teams telefones para Teams displays
 
