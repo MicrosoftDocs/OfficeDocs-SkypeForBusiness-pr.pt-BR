@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI para exibir Atendedor Automático dados históricos da Fila de Chamada.
-ms.openlocfilehash: 22c2152401cd9ec08ae1fbad2bbd42eb29fc0726
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457231"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921869"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Atendedor Automático & Histórico da Fila de Chamada
 
@@ -75,7 +75,7 @@ Execute as seguintes etapas:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - A região será exibida depois do **/** exemplo acima em que há região: noam
+    - A região será exibida depois do **/** exemplo acima em que a região está: noam
 
  - O relatório será lançado com dados de exemplo.
  
@@ -238,7 +238,7 @@ Execute as seguintes etapas:
 
 |Nome                                    |Tipo de dados                |Descrição                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***% de chamadas abandonadas***                 |Porcentagem               |Medida: TotalCallCount / Total de chamadas<br>Taxa de sucesso para contagem de chamada abandonada    |
+|***% de chamadas abandonadas***                 |Porcentagem               |Medida: número de chamadas abandonadas / Total de chamadas    |
 |Total de chamadas                             |Número inteiro             |Medida: agente soma atendida chamadas        |
 |TotalCallCount                          |Número inteiro             |Medida: Soma(Contagem de Chamada)                 |
 
