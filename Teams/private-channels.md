@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+ms.openlocfilehash: 2ff886835258d9508e2cbe7c977ab5437d87129e
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881546"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926304"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -102,9 +102,9 @@ Se um canal privado ou uma equipe que contenha um canal privado for restaurado, 
 >
 > Saiba mais sobre como gerenciar [Sites de equipes conectadas do Microsoft Teams](/SharePoint/teams-connected-sites).
 
-## <a name="private-channel-message-compliance-records"></a>Registros de conformidade de mensagens no canal privado
+## <a name="compliance-copies-of-private-channel-messages"></a>Cópias de conformidade de mensagens de canais privados
 
-Os registros das mensagens enviadas em um canal privado são entregues na caixa de correio de todos os membros do canal privado, e não em uma caixa de correio de grupo. Os títulos dos registros são formatados para indicar de qual canal privado eles foram enviados.
+As cópias de conformidade das mensagens enviadas em um canal privado são entregues na caixa de correio de todos os membros do canal privado, em vez de para uma caixa de correio de grupo. Os títulos das cópias de conformidade são formatados para indicar de qual canal privado foram enviados.
 
 Para obter mais informações sobre como executar uma pesquisa de Descoberta Eletrônica por mensagens de canal privado, consulte [Descoberta Eletrônica de Canal Privado](ediscovery-investigation.md#ediscovery-of-private-channels).
 

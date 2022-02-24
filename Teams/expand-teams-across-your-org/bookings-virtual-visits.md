@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Saiba como agendar, gerenciar e conduzir Visitas Virtuais usando o aplicativo Bookings Teams.
-ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763795"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929266"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com Microsoft Teams e o aplicativo Bookings
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
 
 ## <a name="overview"></a>Visão Geral
 
@@ -118,6 +118,8 @@ Para saber mais, confira [Microsoft Bookings](/microsoft-365/bookings/bookings-o
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Gerenciar a experiência de junção para Teams visitas virtuais em navegadores móveis](mobile-browser-join.md)
+
+- [Teams relatório de uso de Visitas Virtuais](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
 - [Começar a Teams para organizações de saúde](healthcare/teams-in-hc.md)
 

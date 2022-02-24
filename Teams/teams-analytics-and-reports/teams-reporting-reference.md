@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os relatórios Teams que estã
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 807b4e545580cf54b762aacfccde47992d508f82
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 8e52cfeb36ddc734a5cef420261308e9b8867d56
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046057"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929136"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -31,12 +31,12 @@ Uma nova experiência de análise e relatório para Microsoft Teams está dispon
 
 ## <a name="how-to-access-the-reports"></a>Como acessar os relatórios
 
-Para acessar os relatórios, você deve ser um administrador global no Microsoft 365 ou Office 365, leitor global no Microsoft 365 ou Office 365, administrador de serviço Teams ou Skype for Business administrador. Para saber mais sobre Teams de administrador e quais relatórios cada função de administrador pode acessar, consulte [Use Teams funções](../using-admin-roles.md)de administrador para gerenciar Teams .
+Para acessar os relatórios, você deve ser um administrador global no Microsoft 365 ou Office 365, leitor global no Microsoft 365 ou Office 365, administrador de serviço Teams ou Skype for Business administrador. Para saber mais sobre Teams de administrador e quais relatórios cada função de administrador pode acessar, consulte [Use Teams funções](../using-admin-roles.md) de administrador para gerenciar Teams.
 
-Vá para o Microsoft Teams de administração, na navegação à esquerda, selecione **Relatórios** de análise & e, em Exibir **Relatórios,** escolha o relatório que deseja executar.
+Vá para o Microsoft Teams de administração, na navegação à esquerda, selecione **Relatórios** de análise & e, em **Exibir** Relatórios, escolha o relatório que deseja executar.
 
 > [!NOTE]
-> Os relatórios no centro de administração Microsoft Teams são separados dos relatórios de atividades para Teams que fazem parte dos relatórios Microsoft 365 no Centro de administração do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no Centro de administração do Microsoft 365, consulte Teams relatórios de [atividade no Centro de administração do Microsoft 365](../teams-activity-reports.md)
+> Os relatórios no centro de administração Microsoft Teams são separados dos relatórios de atividades para Teams que fazem parte dos relatórios Microsoft 365 no Centro de administração do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no Centro de administração do Microsoft 365, [consulte Teams relatórios de atividade no Centro de administração do Microsoft 365](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams de relatórios
 
@@ -47,27 +47,26 @@ Estamos melhorando continuamente a experiência de relatório Teams e adicionand
 |Relatório  |O que é avaliado? |
 |---------|---------|
 |[Relatório de uso do Teams](teams-usage-report.md)  |  Usuários ativos<br/>Usuários ativos em equipes e canais<br/>Canais ativos<br/>Mensagens<br/>Configuração de privacidade das equipes<br/>Convidados em uma equipe   |
-|[Relatório de atividades do usuário do Teams](user-activity-report.md)  | Mensagens que um usuário postou em um chat de equipe<br/>Mensagens que um usuário postou em um chat privado<br/>  1:1 chama um usuário participado<br/> Número de usuários de reunião organizados <br/>número de usuário de reunião que participou<br/>Tempo de compartilhamento de áudio, vídeo e tela de reuniões<br/>   Data da última atividade de um usuário     |
+|[Relatório de atividades do usuário do Teams](user-activity-report.md)  | Mensagens que um usuário postou em um chat de equipe<br/>Mensagens que um usuário postou em um chat privado<br/>  1:1 chama um usuário participado<br/> Número de reuniões organizadas pelo usuário <br/>Número de reuniões que o usuário participou<br/>Tempo de compartilhamento de áudio, vídeo e tela de reuniões<br/>   Data da última atividade de um usuário     |
 |[Relatório de uso de dispositivos do Teams](device-usage-report.md)   |  Usuários do Windows<br/>Usuários do Mac<br/>Usuários do iOS<br/>Usuários de telefone Android     |
 |[Relatório de uso de evento ao vivo do Teams](teams-live-event-usage-report.md)   |  Total de exibições<br>Hora de início<br>Status do evento<br>Organizador<br>Apresentador<br>Produtor<br>Configuração de gravação<br>Tipo de produção    |
-|[Teams Relatório de usuários bloqueados PSTN](pstn-blocked-users-report.md)   |  Nome para exibição<br>Telefone número<br>Motivo<br>Tipo de ação<br>Data e hora da ação   |
-|[Teams Relatório de pools de minutos PSTN](pstn-minute-pools-report.md) |  País ou região<br>Funcionalidade (licença) <br>Total de minutos<br>Minutos usados<br>Minutos disponíveis|
-|[Teams Relatório de uso de PSTN - Planos de Chamada](pstn-usage-report.md#calling-plans)|  Carimbo de data/hora<br>Nome de usuário<br>Telefone número<br>Tipo de chamada <br>Chamado para<br>Para país ou região <br>Chamado de <br>Do país ou região<br>Charge<br>Moeda<br>Duração<br>Doméstico/Internacional<br>ID da chamada<br>Tipo de número<br>País ou região<br>ID de conferência<br>Funcionalidade (licença)|
-|[Teams Relatório de uso PSTN - Roteamento Direto](pstn-usage-report.md#direct-routing)  |  Carimbo de data/hora<br>Nome para exibição<br>Endereço SIP<br>Telefone número <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>SBC FQDN<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcodigo final da Microsoft<br>Frase SIP final<br>ID de correlação  |
-|[Teams relatório de licença de proteção de informações](information-protection-license-report.md)  | <br>Se os usuários têm licenças válidas para enviar suas mensagens por meio de notificações de alteração</br><br>Número total de eventos de notificação de alteração disparados por um usuário</br><br>Quais aplicativos estão escutando eventos de notificação de alterações em toda a organização</br>|
-
-
+|[Teams relatório de usuários bloqueados PSTN](pstn-blocked-users-report.md)   |  Nome para exibição<br>Telefone número<br>Motivo<br>Tipo de ação<br>Data e hora da ação   |
+|[Teams pools de minutos PSTN](pstn-minute-pools-report.md) |  País ou região<br>Funcionalidade (licença) <br>Total de minutos<br>Minutos usados<br>Minutos disponíveis|
+|[Teams de uso PSTN - Planos de Chamada](pstn-usage-report.md#calling-plans)|  Carimbo de data/hora<br>Nome de usuário<br>Telefone número<br>Tipo de chamada <br>Chamado para<br>Para país ou região <br>Chamado de <br>Do país ou região<br>Charge<br>Moeda<br>Duração<br>Doméstico/Internacional<br>ID da chamada<br>Tipo de número<br>País ou região<br>ID de conferência<br>Funcionalidade (licença)|
+|[Teams de uso PSTN - Roteamento Direto](pstn-usage-report.md#direct-routing)  |  Carimbo de data/hora<br>Nome para exibição<br>Endereço SIP<br>Telefone número <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>SBC FQDN<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcodigo final da Microsoft<br>Frase SIP final<br>ID de correlação  |
+|[Teams relatório de licença de proteção de informações](information-protection-license-report.md)  | <br>Se os usuários têm licenças válidas para enviar suas mensagens por meio de notificações de alteração</br><br>Número total de eventos de notificação de alteração disparados por um usuário<br><br>Quais aplicativos estão escutando eventos de notificação de alterações em toda a organização<br>|
+|[Teams relatório de uso de Visitas Virtuais](virtual-visits-usage-report.md)  | Número de visitas virtuais<br>Número de visitas do Bookings<br>Número de Teams EHR (Registros Eletrônicos de Saúde) integrados<br>Duração média de uma visita<br>Tempo médio de espera do lobby dos participantes<br>Hora de início<br>ID da Reunião<br>Tempo de espera do lobby<br>Duração<br>Status<br>Tipo de produto<br>Participantes<br>SMS enviado
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Tornar os dados específicos do usuário anônimos
 
-Para tornar os dados na Teams do usuário e Teams relatório de uso do dispositivo anônimo, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e ID do AAD em relatórios e suas exportações.
+Para tornar os dados na Teams do usuário e Teams relatório de uso do dispositivo anônimo, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e AAD ID em relatórios e suas exportações.
 
-1. Em Centro de administração do Microsoft 365, vá para **a** Configurações \> **Org Configurações** e, em **Serviços,** escolha **Relatórios**.
+1. Em Centro de administração do Microsoft 365, vá **para a Configurações** \> **Org Configurações** e, em **Serviços**, escolha **Relatórios**.
     
-2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos.** Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como Teams centro de administração.
+2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos**. Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como Teams centro de administração.
   
 3. Selecione **Salvar alterações**.
 
 > [!NOTE]
-> Habilenciar essa configuração desadentará as informações [Teams relatório](user-activity-report.md) de atividade do usuário e Teams relatório de uso [do](device-usage-report.md) dispositivo. Ele não afetará outros relatórios de uso disponíveis Teams centro de administração.
+> Habilenciar essa configuração desadentará informações no [relatório Teams atividade](user-activity-report.md) do usuário [e Teams](device-usage-report.md) relatório de uso do dispositivo. Ele não afetará outros relatórios de uso disponíveis Teams centro de administração.

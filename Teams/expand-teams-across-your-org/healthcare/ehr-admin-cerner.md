@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Saiba como integrar o conector Teams EHR para permitir que os provedores de saúde em sua organização conduzam visitas virtuais com pacientes ou outros provedores em Teams diretamente do sistema cerner EHR.
-ms.openlocfilehash: e7d104e4541462c94ddb95805ae7ec2a8619bf5b
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: fd37b32acfd2a33cde61b56c7f17191e7470923e
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62763695"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929326"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visitas virtuais com Teams - Integração ao Cerner EHR
 
@@ -174,5 +174,6 @@ A ID exclusiva do usuário EHR é armazenada em uma das três regiões geográfi
 
 ## <a name="related-articles"></a>Artigos relacionados
 
+- [Teams relatório de uso de Visitas Virtuais](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
 - [Teams de administrador do conector EHR](ehr-admin-reports.md)
 - [Começar a Teams para organizações de saúde](teams-in-hc.md)

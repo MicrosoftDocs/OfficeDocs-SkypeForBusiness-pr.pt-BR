@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Saiba como integrar o conector Teams EHR para permitir que os provedores de saúde em sua organização conduzam visitas virtuais com pacientes ou outros provedores em Teams diretamente do sistema EHR épico.
-ms.openlocfilehash: 3274ed2c566008dd7474accf159540c96c82b865
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 47dde0f4314a5506ddede7543f1a294523e84598
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62763316"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929146"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visitas virtuais com Teams - Integração ao EHR Épico
 
@@ -267,5 +267,6 @@ A ID exclusiva do usuário EHR é armazenada em uma das três regiões geográfi
 
 ## <a name="related-articles"></a>Artigos relacionados
 
+- [Teams relatório de uso de Visitas Virtuais](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
 - [Teams de administrador do conector EHR](ehr-admin-reports.md)
 - [Começar a Teams para organizações de saúde](teams-in-hc.md)

@@ -457,6 +457,8 @@ items:
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Relatório de licença de proteção de informações do Teams
                 href: teams-analytics-and-reports/information-protection-license-report.md
+              - name: Relatório de uso de Visitas Virtuais do Microsoft Teams
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: 'Arquivos de log, integridade do serviço e suporte'
         items:
           - name: Usar arquivos de log para monitorar e solucionar problemas do Teams
@@ -713,7 +715,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -1527,6 +1529,10 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Gerenciar o aplicativo de Reservas
                 href: bookings-app-admin.md
+              - name: Gerenciar a experiência de adesão em navegadores de dispositivos móveis
+                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: "Relatório de uso de\_Visitas\_Virtuais"
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Turnos do Teams
             items:
               - name: Introdução ao Turnos
@@ -1645,6 +1651,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Visitas virtuais com o Teams e o Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: "Relatório de uso de\_Visitas\_Virtuais"
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
               - name: Gerenciar a experiência de adesão em navegadores de dispositivos móveis
                 href: expand-teams-across-your-org/mobile-browser-join.md
           - name: Exibir e atribuir pacotes de política
