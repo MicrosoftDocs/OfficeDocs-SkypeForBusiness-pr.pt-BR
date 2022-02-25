@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 1b5b32edeecd7c20840e3644583843a1c7e465b4
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: d379505751a25cf0880538efb1745765d7061044
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929166"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960013"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams android certificados
 
@@ -284,7 +284,8 @@ A seguir estão as versões mais recentes Microsoft Teams de firmware e aplicati
 
 |Versão do produto| Data de lançamento | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Atualização 2021 #1  |12 de agosto de 2021 |`1449/1.0.97.2021070601`|`5.0.5211.0`            |  `268`|
+|Atualização 2022 #1  | Febuary 22, 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
+|Atualização 2021 #1  | 12 de agosto de 2021 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
 #### <a name="firmware-versions"></a>Versões de firmware
 
@@ -292,8 +293,9 @@ Quando você instala uma nova versão de firmware em seu dispositivo, você pode
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto|
 |:--------------|:-----------------|:-------------------------|
-|Crestron -TSS770| `1.004.0115` |Atualização 2021 #1 |
-|Crestron-TSS1070 | `1.004.0115` |Atualização 2021 #1 |
+|Yealink RoomPanel | ` 147.15.0.29 ` | Atualização 2022 #1 |
+|Crestron -TSS770  | `1.004.0115` |Atualização 2021 #1 |
+|Crestron-TSS1070  | `1.004.0115` |Atualização 2021 #1 |
 |Yealink RoomPanel | `147.15.0.17` |Atualização 2021 #1 |
 |Logitech Tap Scheduler | `1.5.209` |Atualização 2021 #1 |
 

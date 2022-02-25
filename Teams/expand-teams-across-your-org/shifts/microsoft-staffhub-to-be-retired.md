@@ -2,7 +2,7 @@
 title: O Microsoft StaffHub foi retirado
 author: SerdarSoysal
 ms.author: serdars
-ms.reviewer: 'lisawu, gumariam'
+ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
 ms.topic: article
@@ -10,16 +10,21 @@ ms.service: msteams
 search.appverid: MET150
 description: Encontre respostas às perguntas frequentes sobre a aposentadoria do Microsoft StaffHub e a transição para o aplicativo Shifts em Microsoft Teams.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_FLW
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 08b3b0ddfa3d53bebb9c3e628347e99d1016a133
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960033"
 ---
-
 # <a name="microsoft-staffhub-has-been-retired"></a>O Microsoft StaffHub foi retirado
 
 A partir de 30 de junho de 2020, o Microsoft StaffHub foi desativado. Estamos criando recursos StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo Shifts para o gerenciamento de cronogramas e recursos adicionais serão implantados com o tempo.
@@ -151,8 +156,7 @@ Para saber mais, consulte [Manage the Shifts app for your organization in Teams]
 
 Você gerencia Teams o módulo Microsoft Teams PowerShell e o módulo Skype for Business PowerShell. Para obter mais informações, [consulte Teams Visão geral do PowerShell](../../teams-powershell-overview.md). No momento, não há cmdlets específicos do PowerShell disponíveis para gerenciar Turnos.  
 
-Se você estiver interessado em algo, envie uma solicitação por meio do portal de Teams [comentários no UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
-
+Se isso for algo em que você esteja interessado, envie-nos uma solicitação por meio do portal [de Teams comentários](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
