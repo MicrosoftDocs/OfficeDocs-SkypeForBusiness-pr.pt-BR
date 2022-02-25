@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obter uma visão geral de quais são os pedidos de portabilidade e como transferir números de telefone de seu provedor de serviços para Teams.
-ms.openlocfilehash: b17e0dea6181c111355a865bf1f70c07bfcb9258
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb9ebd91b1f5a08fb07eff0f469be4496714ecfc
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398415"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963412"
 ---
 # <a name="whats-a-port-order"></a>O que é um pedido de portabilidade?
 
@@ -136,13 +136,17 @@ Para verificar o status da sua ordem de porta, na navegação à esquerda do cen
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Os números de telefone do usuário (assinante) podem ser convertidos em números de serviço?
 <a name="bkmk_type_1"> </a>
 
-Sim, podem. Basta enviar uma solicitação de serviço que inclua a GUI de locatário de sua organização e os números de telefone que você deseja converter. Para fazer isso, consulte [Gerenciar números de telefone para sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Sim, podem. Basta enviar uma solicitação de serviço que inclua a GUI de locatário de sua organização e os números de telefone que você deseja converter. Para fazer isso, consulte [Gerenciar números de telefone para sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Posso por meus números de Teams para um provedor ou operadora de telefonia diferente?
 
-Para fazer a portabilidade de seus números Teams para uma operadora diferente, você deve enviar uma solicitação com a nova operadora. Você também precisará definir um PIN de portação abrindo um caso de suporte. Para obter informações sobre como obter suporte, consulte [Obter suporte](/microsoft-365/business-video/get-help-support). 
+Para fazer a portabilidade de seus números Teams para uma operadora diferente, você deve enviar uma solicitação com a nova operadora. Você também precisará definir um PIN de portação no Microsoft Teams de administração.
+
+Para definir seu PIN de portação, na navegação à esquerda do centro de administração do Microsoft Teams, vá para **Números** >  de voz **Telefone**, no canto superior direito da página, selecione Gerenciar **PIN** de portação e insira um PIN de 10 dígitos.
 
 Quando a nova operadora entrar em contato conosco com a solicitação de portação, pediremos que forneçam o PIN definido.
+
+Se você precisar de mais assitância para configurar um PIN, entre em contato com a [Equipe de Serviços de Número de Telefone](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="common-mistakes-to-watch-out-for"></a>Erros mais comuns a serem evitados
 <a name="bkmk_type_1"> </a>

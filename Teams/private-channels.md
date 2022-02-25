@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 2ff886835258d9508e2cbe7c977ab5437d87129e
-ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
+ms.openlocfilehash: 2127ada4a289a04176a2ae743299c3176df4a661
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62926304"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963392"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -88,8 +88,7 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 Cada canal privado tem seu próprio site do SharePoint. O site separado é para garantir que o acesso aos arquivos do canal privado seja restrito apenas aos membros do canal privado. Esses sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um site completo por meio da [interface de gerenciamento de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada site é criado na mesma região geográfica do site de equipe pai. Esses sites leves têm uma ID de modelo personalizada, "TEAMCHANNEL# 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph. 
 
 > [!NOTE]
-> Apenas usuários com permissões de proprietário ou membro concedidas no Microsoft Teams terão acesso ao conteúdo no site de canal privado.
-> Os sites do Microsoft Office SharePoint Online de canal privado criados após 28 de junho de 2021 terão o modelo personalizado ID TEAMCHANNEL#1.
+> Somente pessoas com permissões de proprietário ou membros do canal terão acesso ao conteúdo no site do canal compartilhado. Os administradores e as pessoas da equipe não terão acesso, a menos que também sejam membros do canal.
 
 Um site de canal privado sincroniza a classificação de dados e herda permissões de acesso de convidado do conjunto do site da equipe pai. A associação do proprietário do site e dos grupos de membros é mantida em sincronia com a associação do canal privado no Teams. As permissões de site para um site de canal privado não podem ser gerenciadas independentemente por meio do Microsoft Office SharePoint Online. 
 
