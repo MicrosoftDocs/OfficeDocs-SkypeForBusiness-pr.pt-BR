@@ -9,21 +9,26 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.meetingsettings.invitationurls
-  - ms.teamsadmincenter.meetingsettings.network.ports
-  - ms.teamsadmincenter.meetingsettings.overview
+- ms.teamsadmincenter.meetingsettings.invitationurls
+- ms.teamsadmincenter.meetingsettings.network.ports
+- ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
+- M365-collaboration
+- m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
+ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960023"
 ---
-
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
 Como administrador, você usa as configurações de reunião do Teams para controlar se usuários anônimos podem participar de reuniões do Teams, personalizar convites para reuniões e, se desejar habilitar a Qualidade de Serviço (QoS), definir intervalos de portas para tráfego em tempo real. Essas configurações se aplicam a todas as reuniões do Teams que os usuários agendam na sua organização. Você gerencia essas configurações em **Reuniões** > **Configurações de reunião** no centro de administração do Microsoft Teams.
@@ -67,6 +72,14 @@ Qualquer outra combinação de valores impedirá que usuários anônimos partici
 > [!NOTE]
 > Para usar a política por organizador para organizações com o ingresso anônimo desativado por organização, os administradores precisam criar uma política e atribuí-la aos usuários. Para saber como fazer isso, consulte [Gerenciar políticas de reunião no Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
+### <a name="blocking-anonymous-join-for-specific-client-types"></a>Bloquear o ingresso anônimo para tipos de clientes específicos
+
+Quando usuários anônimos têm permissão para ingressar em reuniões, eles podem usar o cliente do Microsoft Teams ou um cliente personalizado criado usando os [Serviços de Comunicação do Azure](/azure/communication-services/). Os administradores podem bloquear tipos de clientes selecionados usando o parâmetro **-BlockedAnonymousJoinClientTypes** em [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+
+Os valores possíveis são:
+- Nulo (padrão). Todos os tipos de clientes são permitidos.
+- ACS. Bloqueia clientes personalizados criados usando os [Serviços de Comunicação do Azure](/azure/communication-services/).
+- Teams. Bloqueia o cliente do Microsoft Teams.
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Permitir que usuários anônimos interajam com aplicativos em reuniões
 
