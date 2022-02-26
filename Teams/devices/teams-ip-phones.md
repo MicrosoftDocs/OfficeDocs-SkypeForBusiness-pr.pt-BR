@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: d379505751a25cf0880538efb1745765d7061044
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: f3d82d9e546b2a2ba1b3e741173695898a72eb4d
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960013"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974478"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams android certificados
 
@@ -133,6 +133,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware  | Versão incluída do produto  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-2     | `1.0.4.75`    | Atualização 2022 #1 |
 |Audiocódigos C455HD | `1.15.271`    | Atualização 2022 #1
 |Audiocódigos C448HD  | `1.14.500` | Atualização 2022 #1 |
 |Audiocódigos C450HD  | `1.14.500` | Atualização 2022 #1  |
@@ -202,6 +203,7 @@ A seguir estão as versões mais recentes Salas do Teams em versões de firmware
 
 | Versão do produto| Data de lançamento | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Atualização 2022 #1  | 24 de fevereiro de 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Atualização 2021 #2A | 15 de julho de 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | Atualização 2021 #2 | 28 de junho de 2021  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | Atualização 2021 #1A  |12 de maio de 2021  |`1449/1.0.96.2021042903` |`5.0.4927.0`     |`1.0.0.202010121132.product version code: 223` |
@@ -216,6 +218,11 @@ Quando você instala uma nova versão de firmware em seu dispositivo, você pode
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 | `1.16.164 `   | Atualização 2022 #1 |
+| Yealink VC210 | `118.15.0.65`   | Atualização 2022 #1    |
+| Yealink MeetingBar A20 | `133.15.0.80 `   | Atualização 2022 #1   |
+| Yealink MeetingBar A30 | `133.15.0.80 `   | Atualização 2022 #1   |
+| Yealink CTP18 | ` 137.15.0.49 `    | Atualização 2022 #1   |
 | Poly Studio X30 | `3.9.0` | Atualização 2021 #2F   |
 | Poly Studio X50 | `3.9.0` | Atualização 2021 #2F   |
 | Poly TC8        | `3.9.0`          | Atualização 2021 #2F   |
@@ -284,7 +291,8 @@ A seguir estão as versões mais recentes Microsoft Teams de firmware e aplicati
 
 |Versão do produto| Data de lançamento | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Atualização 2022 #1  | Febuary 22, 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
+|Atualização 2022 #1A | Febuary 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
+|Atualização 2022 #1  | 22 de fevereiro de 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
 |Atualização 2021 #1  | 12 de agosto de 2021 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
 #### <a name="firmware-versions"></a>Versões de firmware

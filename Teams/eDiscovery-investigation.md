@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b78ec3ad6741d2c7f83d7732400d5f1154747d5e
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: 5a35afa53a8f94a5d0106e67d2f9f87eacfaca63
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929156"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974458"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -47,7 +47,7 @@ Nem todo Teams conteúdo é eDiscoverable. A tabela a seguir mostra os tipos de 
 |Emojis, GIFs e adesivos | Sim | |
 |Notificações de feed | Não | |
 |Imagens em linha | Sim | |
-|Componentes de loop| Não|As mensagens de chat que contêm um componente de loop são pesquisáveis. No entanto, o conteúdo dos componentes de loop não é indexado para pesquisa e não será retornado nos resultados da pesquisa. Se os resultados da pesquisa contêm uma mensagem com um componente de loop, você pode exibir o conteúdo do componente de loop.  |
+|Componentes de loop| Sim|O conteúdo em um componente de loop é salvo em um arquivo .fluid que é armazenado na conta OneDrive for Business do usuário que envia o componente de loop. Isso significa que você precisa incluir OneDrive como fonte de dados ao pesquisar conteúdo em componentes de loop. |
 |Conversas de IM de Reunião | Sim | |
 |Metadados <sup>de reunião1</sup> | Sim |  |
 |Nome do canal | Sim | |
@@ -91,7 +91,7 @@ Chats privados na caixa de correio de um usuário são armazenados na pasta Chat
 
 ## <a name="ediscovery-of-private-channels"></a>Descoberta eDiscover de canais privados
 
-Cópias de conformidade de mensagens enviadas em um canal privado são entregues na caixa de correio de todos os membros do canal privado, em vez de em uma caixa de correio de grupo. Os títulos das cópias de conformidade são formatados para indicar de qual canal privado foram enviados.
+As cópias de conformidade das mensagens enviadas em um canal privado são entregues na caixa de correio de todos os membros do canal privado, em vez de para uma caixa de correio de grupo. Os títulos das cópias de conformidade são formatados para indicar de qual canal privado foram enviados.
 
 Como cada canal privado tem seu próprio site SharePoint separado do site de equipe pai, os arquivos em um canal privado são gerenciados independentemente da equipe pai.
 
