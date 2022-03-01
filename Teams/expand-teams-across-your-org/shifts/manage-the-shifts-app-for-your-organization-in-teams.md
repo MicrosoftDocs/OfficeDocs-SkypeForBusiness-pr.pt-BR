@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918874"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039899"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -49,13 +49,14 @@ O aplicativo Shifts no Microsoft Teams mantém os funcionários de linha de fren
 
 O Turnos está disponível em todas as SKUs corporativas onde o Teams está disponível.
 
+> [!NOTE]
+> Shifts está disponível em ambientes Nuvem da Comunidade Governamental (GCC), mas não em ambiente GCC s High ou DoD.
+
 ## <a name="location-of-shifts-data"></a>Local dos dados de Turnos
 
-Atualmente, os dados do Turnos estão armazenados no Azure, em datacenters na América do Norte, na Europa Ocidental e Ásia-Pacífico. Confira mais informações sobre onde os dados são armazenados em [Onde estão meus dados?](http://o365datacentermap.azurewebsites.net/)
+Atualmente, os dados de turnos são armazenados no Azure em data centers no Pacífico Asiático (APAC), na União Europeia (UE) e na América do Norte. Confira mais informações sobre onde os dados são armazenados em [Onde estão meus dados?](http://o365datacentermap.azurewebsites.net/)
 
-## <a name="shifts-data"></a>Desloca dados
-
-Para saber mais sobre onde os dados shifts são armazenados e retenção, recuperação e criptografia de dados shifts, consulte [Perguntas frequentes](shifts-data-faq.md) sobre os dados shifts.
+Para saber mais sobre os dados shifts, incluindo armazenamento, retenção, recuperação e criptografia de dados Shifts, consulte [Perguntas frequentes sobre os dados shifts](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Configurar Turnos
 
@@ -76,7 +77,7 @@ As políticas de configuração de aplicativos permitem que você personalize o 
 
 Você pode criar uma [política de configuração de aplicativo](../../teams-app-setup-policies.md) personalizada adicionando o aplicativo Shifts e [atribuindo a política](../../assign-policies-users-and-groups.md) aos usuários. Ou você pode usar a política de configuração de aplicativo que faz parte dos pacotes de política do Frontline Worker e do Gerenciador de Linha de Frente.
 
-Um [pacote de política](../../manage-policy-packages.md) no Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir a usuários que têm funções semelhantes em sua organização. O conjunto de políticas nos pacotes de política do Frontline Worker and Frontline Manager inclui uma política de configuração de aplicativo que fixa o aplicativo Shifts e outros aplicativos que suportam atividades de comunicação e colaboração para essa função.
+Um [pacote de política](../../manage-policy-packages.md) no Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir aos usuários que têm funções semelhantes em sua organização. O conjunto de políticas nos pacotes de política do Frontline Worker and Frontline Manager inclui uma política de configuração de aplicativo que fixa o aplicativo Shifts e outros aplicativos que suportam atividades de comunicação e colaboração para essa função.
 
 Recomendamos usar os pacotes de política do Frontline Worker and Frontline Manager à medida que eles simplificam, simplificam e ajudam a fornecer consistência ao gerenciar políticas para sua força de trabalho de linha de frente.
 
@@ -88,9 +89,10 @@ Você pode pesquisar no log de auditoria para exibir as atividades de Turnos na 
 
 Antes de poder pesquisar o log de auditoria, você precisa ativar a auditoria no [Centro de Conformidade e Segurança](https://protection.office.com). Para obter instruções, confira [Ativar ou desativar a pesquisa de log de auditoria](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Tenha em mente que os dados de auditoria só estão disponíveis a partir do ponto em que você ativou a auditoria.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 - [Turnos do Teams](../shifts-for-teams-landing-page.md)
-- [Ajuda de turnos para trabalhadores de linha de frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Desloca perguntas frequentes sobre dados](shifts-data-faq.md)
 - [Conectores de turnos](shifts-connectors.md)
+- [Ajuda de turnos para trabalhadores de linha de frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Atribuir políticas aos usuários no Microsoft Teams](../../policy-assignment-overview.md)

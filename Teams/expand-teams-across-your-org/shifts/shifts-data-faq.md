@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2df5c465c9115dce47ee9e80ea649768606c338f
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f26413aa746b37474e7035e313fc8ffff2fb93c
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918946"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039949"
 ---
 # <a name="shifts-data-faq"></a>Desloca perguntas frequentes sobre dados
 
@@ -49,7 +49,7 @@ Shifts é compatível com o Regulamento Geral de Proteção de Dados (RGPD).Uma 
 
 Você pode usar a ferramenta Descoberta eDiscovery de Pesquisa de Conteúdo no Centro de conformidade do Microsoft 365 para pesquisar e exportar dados de agendamento e relógio para Excel. Para todos os outros dados shifts, você pode fazer capturas de tela dos dados.
 
-Para saber mais, confira [Office 365 Solicitações de Assunto de Dados para o RGPD e CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
+Para saber mais, confira [Office 365 Solicitações de Assunto de Dados para o RGPD e o CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
 ## <a name="what-happens-to-shifts-data-if-i-turn-off-shifts-for-my-organization"></a>O que acontece com os dados shifts se eu desativar turnos para minha organização?
 
@@ -57,7 +57,7 @@ A exclusão de turnos em sua *organização não exclui* dados. Se você desativ
 
 Se você excluir seu locatário, todos os dados shifts serão excluídos depois que o período de retenção terminar.
 
-Não há opção para excluir apenas dados shifts. Se você excluir uma equipe no Teams, os dados de agendamento de turnos associados a essa equipe serão excluídos após o fim do período de retenção. Para saber mais, confira [Retenção, exclusão e destruição de dados Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+Não há opção para excluir apenas dados shifts. Se você excluir uma equipe Teams, os dados de agendamento de turnos associados a essa equipe serão excluídos após o fim do período de retenção. Para saber mais, confira [Retenção, exclusão e destruição de dados Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 ## <a name="can-i-recover-a-shifts-schedule-that-was-deleted"></a>Posso recuperar um cronograma de Turnos que foi excluído?
 
@@ -69,15 +69,11 @@ Por padrão, um grupo de Microsoft 365 excluído é mantido por 30 dias. Esse pe
 
 Atualmente, Shifts não dá suporte a políticas de retenção personalizadas.
 
-Para saber mais sobre políticas de retenção no Teams, consulte [Saiba](/microsoft-365/compliance/retention-policies-teams) mais sobre retenção para Teams e Gerenciar políticas de [retenção para Teams](../../retention-policies.md).
+Para saber mais sobre políticas de retenção no Teams, consulte [Saiba](/microsoft-365/compliance/retention-policies-teams) mais sobre retenção para Teams e Gerenciar políticas de retenção [para Teams](../../retention-policies.md).
 
 ## <a name="can-i-retrieve-shifts-data-for-a-user-whose-license-was-revoked"></a>Posso recuperar dados shifts para um usuário cuja licença foi revogada?
 
 Hoje, não oferecemos a capacidade de recuperar dados para um usuário cuja licença foi revogada. Esse recurso é algo para o que estamos trabalhando.
-
-## <a name="is-shifts-supported-in-government-cloud-community-gcc-environments"></a>Os Shifts são suportados em ambientes de nuvem Community (GCC) do Governo?
-
-Shifts está disponível em GCC ambientes, mas não em ambientes GCC High ou DoD.
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Que tipo de criptografia Shifts usa para dados em repouso e em trânsito?
 
@@ -95,7 +91,7 @@ Não armazenamos cópias imutáveis de dados shifts. Por exemplo, um gerente pod
 
 Há certos aspectos de Shifts que não podem ser alterados e determinados aspectos que podem ser alterados. Por exemplo, detalhes de turno, como notas e cores, podem ser editados da mesma forma que podem ser alterados no aplicativo Shifts. As solicitações de turno não podem ser editadas, a menos que a solicitação seja retirada.
 
-Para ver quais campos foram alterados, você pode pesquisar o log Microsoft 365 de auditoria para eventos Shifts. Para saber mais sobre os eventos que estão registrados para atividades shifts no log de auditoria Microsoft 365, consulte [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
+Para ver quais campos foram alterados, você pode pesquisar o log Microsoft 365 de auditoria para eventos Shifts. Para saber mais sobre os eventos que estão registrados para atividades de Turnos no log de auditoria Microsoft 365, consulte [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
 
 ## <a name="my-organization-uses-a-workforce-management-system-for-scheduling-can-we-integrate-with-and-access-shifts-data"></a>Minha organização usa um sistema de gerenciamento de força de trabalho para agendamento. Podemos integrar e acessar dados shifts?
 
@@ -105,7 +101,7 @@ Também oferecemos conectores shifts gerenciados e conectores shifts de código 
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>Os dados shifts podem ser excluídos permanentemente após um período especificado?
 
-Hoje, não excluimos seus dados shifts. Usando [apIs shifts Graph](/graph/api/resources/shift), é possível criar um aplicativo usando Power Apps para [](/powerapps/maker/) reter dados por um período de tempo especificado. No entanto, não suportamos isso de forma nativa.
+Hoje, não excluimos seus dados shifts. Usando [as Graph de](/graph/api/resources/shift) turnos, é possível criar um aplicativo usando Power Apps para [](/powerapps/maker/) reter dados por um período de tempo especificado. No entanto, não suportamos isso de forma nativa.
 
 ## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>Os dados shifts podem ser movidos em uma migração de locatário para locatário?
 
