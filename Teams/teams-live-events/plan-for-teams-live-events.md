@@ -8,20 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365initiative-meetings-enabler
-  - enabler-strategic
+- M365-collaboration
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 search.appverid: MET150
-description: 'Neste artigo, você aprenderá sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.'
+description: Neste artigo, você aprenderá sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047141"
 ---
-
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
 Ao planejar eventos ao vivo do Teams para realizar grandes reuniões em sua organização, há vários fatores que você precisa considerar antes de iniciar a configuração.
@@ -181,7 +186,10 @@ Você pode usar os eventos ao vivo do Teams em várias regiões do mundo inteiro
 **Exclusões e considerações**
 
 - **Localização de dados:** Os locais de dados das equipes, fora dos listados acima, não são suportados no momento.
-- **China:**  membros da equipe de eventos e participantes não poderão usar os eventos ao vivo do Teams porque a CDN do Azure não é acessível na China. Uma solução alternativa é usar uma conexão VPN da empresa, que recebe o cliente conectado à CDN pela rede corporativa do cliente.
+
+>[!Note]
+> Os eventos ao vivo dependem dos serviços da CDN do Azure, que podem não estar disponíveis em alguns países/regiões. Como administrador, talvez seja necessário configurar uma VPN em conformidade com todas as leis e regulamentos aplicáveis para se conectar à sua rede corporativa para que estes aplicativos funcionem perfeitamente. Depois de concluído, as pessoas na sua organização poderão agendar e participar de eventos ao vivo.
+
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52347a620d6f441bfff68764d053a0adf71427b1
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: b3b16b3015771cd136f3e5ee7333619008ada332
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191102"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047131"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -34,7 +34,23 @@ ms.locfileid: "62191102"
 
 Gerencie aplicativos para a sua organização em **aplicativos do Teams** no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com). Por exemplo, é possível definir políticas para controlar quais aplicativos estarão disponíveis para toda a organização ou para usuários específicos do Teams e poderá personalizar o Teams fixando os aplicativos mais importantes para seus usuários.
 
-Para saber mais, veja [Configurações de administração para aplicativos no Teams](admin-settings.md).  
+Para saber mais, veja [Configurações de administração para aplicativos no Teams](admin-settings.md).
+
+### <a name="workflows-in-teams"></a>Fluxos de trabalho no Microsoft Teams
+
+Os fluxos de trabalho permitem automatizar tarefas e processos repetitivos usando o Power Automate. Você pode desativar os Fluxos de trabalho da sua organização no Microsoft Teams usando uma **política de permissão de aplicativo** ou através da página **Gerenciar aplicativos** bloqueando o Power Automate. Esse recurso está ativado por padrão. Para obter mais informações sobre os Fluxos de trabalho, consulte [Procurar e adicionar fluxos de trabalho](https://support.microsoft.com/office/browse-and-add-workflows-4998095c-8b72-4b0e-984c-f2ad39e6ba9a).
+
+Para desativar os Fluxos de trabalho com uma política de permissão de aplicativo, edite a política Global (Padrão para toda a organização) para incluir o Power Automate na lista de bloqueados ou remove-lo da lista de permitidos.
+
+Você também pode bloquear o Power Automate através da página **Gerenciar aplicativos**.
+
+1. Vá para [**Aplicativos do Microsoft Teams** > **Gerenciar aplicativos**](https://admin.teams.microsoft.com/policies/manage-apps).
+1. Pesquise por **Power Automate**.
+1. Selecione o aplicativo.
+1. Altere o **Status** de **Permitido** para **Bloqueado**.
+
+> [!NOTE]
+> Quando você desativar os Fluxos de trabalho, ele ocultará o aplicativo da loja de aplicativos do Microsoft Teams, das extensões de mensagem e do menu de mais ações. Desativar os Fluxos de trabalho também desativará todos os fluxos ativos.
 
 ## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>O acesso externo ao Teams e configurações de acesso de convidado no centro de administração Microsoft Teams
 
