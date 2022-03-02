@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 774688012d4e70a20897cd45aa78883ba7985e68
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 2d9c316c042230237089d57c23156cf6ac5284c6
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62864034"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047191"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personalizar seus aplicativos Teams com base na licença
 
@@ -42,11 +42,14 @@ Os aplicativos são fixados na barra de aplicativos, que é a barra no lado do c
 
 Aplicativos fixados para usuários que têm uma licença F:
 
+- Conexões do Microsoft Viva
 - Atividade
 - Bate-papo
 - Teams
-- Turnos
+- Walkie Talkie
 - Tarefas
+- Turnos
+- Aprovações
 
 ## <a name="admin-controls"></a>Controles de administrador
 
@@ -59,7 +62,7 @@ Tenha em mente que quaisquer políticas de configuração de aplicativo personal
 
 Esse recurso está habilitado por padrão. No entanto, se você não quiser a experiência de aplicativo personalizada fornecida pela Microsoft, poderá desativar o recurso. Para desativar ou ativar o recurso:
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para Teams **appsManage** >  apps e selecione **Configurações de** aplicativo em toda a organização.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para Teams **appsManage** >  e selecione **Configurações de** aplicativos em toda a organização.
 2. Em **Aplicativos personalizados**, alterne **a opção Mostrar aplicativos personalizados com base em licenças** alternando para **Off** ou **On**.
 
 ## <a name="scenarios"></a>Cenários
@@ -68,7 +71,7 @@ Use as informações nesta tabela para saber como o recurso de experiência de a
 
 |Se...  |Em seguida, ... |
 |---------|---------|
-|Um usuário tem a política de configuração de aplicativo global e o recurso está em.     | O usuário obtém a experiência de aplicativo personalizada.        |
+|Um usuário tem a política de configuração de aplicativo global e o recurso está em.     | O usuário obtém a experiência de aplicativo personalizada. Os aplicativos definidos na política de configuração de aplicativo global ainda estão fixados e aparecem mais abaixo na lista de aplicativos fixados.      |
 |Um usuário tem uma política de configuração de aplicativo personalizada e o recurso está em.    |O usuário obtém a configuração definida na política de configuração de aplicativo personalizada.          |
 |O recurso está em e você atualiza a política de configuração de aplicativo global.     |O usuário obtém a experiência de aplicativo personalizada com base em sua licença. Os aplicativos definidos na política de configuração de aplicativo global ainda estão fixados e aparecem mais abaixo na lista de aplicativos fixados.          |
 |O recurso está desligado.   | O usuário obtém a experiência definida na política de configuração de aplicativo global ou na política de configuração de aplicativo personalizada atribuída a eles.          |
