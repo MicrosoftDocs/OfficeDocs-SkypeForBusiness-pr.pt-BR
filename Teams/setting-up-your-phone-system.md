@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Guia passo a passo detalhando como configurar o Teams Sistema de Telefonia para sua organização em Microsoft 365.
-ms.openlocfilehash: 1a8f7ed554a360b94e568058be29697c0f2b1767
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039979"
+ms.locfileid: "63043339"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar o Sistema de telefonia da sua organização
 
@@ -50,7 +50,7 @@ Este artigo descreve as seguintes etapas:
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Etapa 1: comprar e atribuir uma Sistema de Telefonia de usuário
 
-Para atribuir uma Sistema de Telefonia a um único usuário, as etapas são as mesmas que atribuir uma Microsoft 365 de usuário. Você também pode atribuir licenças a vários usuários em massa. Para obter mais informações sobre Sistema de Telefonia licenças disponíveis e como adquirir e atribuir licenças, consulte  [Teams licenças](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md) de complemento e Atribuir Microsoft Teams [licenças](/teams-add-on-licensing/assign-teams-add-on-licenses.md) de complemento.
+Para atribuir uma Sistema de Telefonia a um único usuário, as etapas são as mesmas que atribuir uma Microsoft 365 de usuário. Você também pode atribuir licenças a vários usuários em massa. Para obter mais informações sobre Sistema de Telefonia licenças de Sistema de Telefonia disponíveis e como adquirir e atribuir licenças, consulte  [Teams licenças](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) de complemento e [Atribuir licenças de complemento Teams Microsot](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Etapa 2. Escolha uma opção de conectividade PSTN 
  

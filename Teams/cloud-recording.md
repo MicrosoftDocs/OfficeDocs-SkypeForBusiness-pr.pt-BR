@@ -19,12 +19,12 @@ description: Orientação prática para a implantação de recursos de voz em nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 7136ea224b23e29e7b4e669fbe3d364b787193fd
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224008"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043349"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -181,7 +181,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Quero que as transcrição seja desabilitada para a maioria dos usuários, mas permitida seletivamente para usuários específicos que tenham permissão para transcrever. |<ol><li>Confirme que o CsTeamsMeetingPolicy global tem AllowCloudRecording = false. <li>A maioria dos usuários receberam CsTeamsMeetingPolicy globais ou uma das políticas de CsTeamsMeetingPolicy com AllowCloudRecording = falso. <li>Todos os outros usuários receberam uma das políticas de CsTeamsMeetingPolicy com o AllowCloudRecording = verdadeiro. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>Aceitação dos Termos de uso
-Se sua organização tiver uma política de gravação de reunião que você deseja que os usuários aceitem antes de gravar uma reunião, use o recurso [Termos de uso do Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use). Esse recurso permite que os usuários aceitem os termos de política de usuário da sua organização antes de obter acesso ao Microsoft Teams. Esse recurso não é específico para clicar no botão de registro, mas está relacionado ao uso geral do Microsoft Teams ou de outros aplicativos do Microsoft 365 em geral. Nossa sugestão é adicionar suas informações de gravação de reunião aos termos gerais de uso para usar o Microsoft Teams ou o Microsoft 365. 
+Se sua organização tiver uma política de gravação de reunião que você deseja que os usuários aceitem antes de gravar uma reunião, use o recurso [Termos de uso do Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use). Esse recurso permite que os usuários aceitem os termos de política de usuário da sua organização antes de obter acesso ao Microsoft Teams. Esse recurso não é específico para clicar no botão de registro, mas está relacionado ao uso geral do Microsoft Teams ou de outros aplicativos do Microsoft 365 em geral. Nossa sugestão é adicionar suas informações de gravação de reunião aos termos gerais de uso para usar o Microsoft Teams ou o Microsoft 365.
+
+### <a name="set-a-custom-privacy-policy-url"></a>Definir um URL de política de privacidade personalizada
+
+Como administrador, você pode atualizar a URL da política de privacidade de gravação e transcrição do Teams com um link personalizado para sua organização. Você pode fazer isso no [Centro de administração do Azure AD](https://aad.portal.azure.com) usando as seguintes etapas:
+
+1. Entre no centro de administração do Azure AD.
+1. Vá para **Propriedades** > **Azure Active Directory**.
+1. Atualizar o campo **URL da declaração de privacidade** com o link para sua política de privacidade.
+
+> [!NOTE]
+> Se você já atualizou este campo para sua organização, não precisa fazer nenhuma alteração.
+
+Depois de adicionar a URL da sua política de privacidade, a declaração de privacidade padrão da gravação e transcrição da reunião do Teams será substituída pela nova URL fornecida pela sua organização.
+
+> [!NOTE]
+> Os usuários anônimos, convidados e federados que ingressarem em reuniões do Teams hospedadas por sua organização ainda terão a política de privacidade de transcrição e gravação de reunião padrão do Teams.
 
 ## <a name="permissions-and-storage"></a>Permissões e armazenamento
 
