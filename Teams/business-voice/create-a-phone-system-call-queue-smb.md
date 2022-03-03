@@ -1,5 +1,5 @@
 ---
-title: Criar uma fila de chamada no Microsoft Teams - tutorial de pequenas empresas
+title: Criar uma fila de chamada em Microsoft Teams Sistema de Telefonia - tutorial de pequenas empresas
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,15 +21,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: Saiba como configurar filas de chamada para pequenas empresas em Microsoft 365 Teams Telefone com Plano de Chamada.
-ms.openlocfilehash: a7bcac2dcc7e5c7bb4bf19fd1c98f256e088ae78
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: Saiba como configurar filas de chamada para pequenas e médias empresas em Microsoft Teams Sistema de Telefonia.
+ms.openlocfilehash: 8856d447d9197be4833d95fa6262bee1832b4b44
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767104"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053070"
 ---
-# <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
+# <a name="create-a-call-queue---small-and-medium-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas e médias empresas
 
 As filas de chamadas fornecem um método de roteamento de chamadas para as pessoas da organização que podem ajudar com um problema ou pergunta específica. As chamadas são distribuídas uma por vez para as pessoas na fila (que são conhecidas como *agentes*).
 
@@ -51,7 +51,7 @@ Este vídeo demonstra como criar uma fila de chamada em Microsoft Teams.
 
 ## <a name="before-you-begin"></a>Antes de você começar
 
-Obter algumas [Sistema de Telefonia - Licenças](../teams-add-on-licensing/virtual-user.md) de usuário virtual se você ainda não as tiver. Obter uma para cada fila de chamada e o atendimento automático que você planeja configurar. Essas licenças são gratuitas, portanto, sugerimos obter alguns extras caso você decida fazer alterações em sua instalação no futuro.
+Obter algumas [Microsoft Teams Telefone Standard - Licenças](../teams-add-on-licensing/virtual-user.md) de usuário virtual se você ainda não as tiver. Obter uma para cada fila de chamada e o atendimento automático que você planeja configurar. Essas licenças são gratuitas, portanto, sugerimos obter alguns extras caso você decida fazer alterações em sua instalação no futuro.
 
 Como os agentes em uma fila de chamadas podem discar para retornar uma chamada de cliente, considere definir a ID do chamador para seus agentes de chamada para o número de telefone principal ou o número de um atendimento automático apropriado. Para mais informações, confira [Gerenciar políticas de identificação de chamadas no Microsoft Teams](../caller-id-policies.md).
 
@@ -59,15 +59,15 @@ Como os agentes em uma fila de chamadas podem discar para retornar uma chamada d
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>Siga estas etapas para configurar sua fila de chamada
 
-### <a name="step-1brcreate-a-team"></a>[Etapa 1 <br> Criar uma equipe](#tab/create-team)
+### <a name="step-1---create-a-team"></a>[Etapa 1 - Criar uma equipe](#tab/create-team)
 
 Ao criar uma fila de chamada, você pode adicionar usuários individuais à fila ou usar um grupo de segurança existente, Microsoft 365 grupo ou Microsoft Teams equipe. Recomendamos [o uso de um canal de equipe](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e). Isso permite que os membros da fila conversem uns com os outros, compartilhem ideias e criem documentos ou outros recursos para ajudá-los a ajudar seus clientes. Uma equipe também fornece uma caixa de correio de voz para os chamadores deixarem uma mensagem após o horário ou se a fila atingir sua capacidade máxima.
 
 Para criar uma equipe
 
-1. Primeiro, clique **Teams** lado esquerdo do aplicativo e  clique em Ingressar ou criar uma equipe na parte inferior da lista de equipes.
+1. Primeiro, clique **Teams** lado esquerdo do aplicativo e clique em Ingressar ou criar uma equipe  na parte inferior da lista de equipes.
 
-2. Em **seguida, clique em** Criar equipe (primeiro cartão, canto superior esquerdo).
+2. Em seguida **, clique em Criar equipe** (primeiro cartão, canto superior esquerdo).
 
 3. Escolha **Criar uma equipe do zero**.
 
@@ -94,19 +94,19 @@ Para adicionar um canal
 > [!div class="nextstepaction"]
 > [Etapa 2 - Contas de recursos >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
-### <a name="step-2brresource-accounts"></a>[Etapa 2 <br> Contas de recursos](#tab/resource-account)
+### <a name="step-2---resource-accounts"></a>[Etapa 2 - Contas de recursos](#tab/resource-account)
 
-Cada fila de chamada que você criar requer uma conta de recurso. Isso é semelhante a uma conta de usuário, exceto que a conta está associada a um atendimento automático ou fila de chamada em vez de uma pessoa. Nesta etapa, criaremos a conta, atribuiremos uma Microsoft 365 Sistema de Telefonia *- Licença* de usuário virtual e a usaremos para começar a criar a fila de chamada.
+Cada fila de chamada que você criar requer uma conta de recurso. Isso é semelhante a uma conta de usuário, exceto que a conta está associada a um atendimento automático ou fila de chamada em vez de uma pessoa. Nesta etapa, criaremos a conta, atribuiremos uma licença Padrão *Microsoft Teams Telefone Usuário Virtual* e a usaremos para começar a criar a fila de chamada.
 
 #### <a name="create-a-resource-account"></a>Criar uma conta de recurso
 
 Você pode criar uma conta de recurso no Teams de administração.
 
-1. No centro Teams de administração, **expanda Voz** e clique em **Contas de recursos.**
+1. No centro Teams de administração, **expanda Voz** e clique em **Contas de recursos**.
 
 2. Clique em **Adicionar**.
 
-3. No painel **Adicionar conta de** recurso, preencha **Nome** de exibição, Nome de **usuário** e escolha **Fila** de chamada para o tipo de conta **de recurso**. Os agentes verão o nome de exibição quando receberem uma chamada de entrada da fila.
+3. No painel **Adicionar conta de** recurso, preencha **Nome** de exibição, Nome de **usuário** e escolha **Fila** de chamada para o **tipo de conta de recurso**. Os agentes verão o nome de exibição quando receberem uma chamada de entrada da fila.
 
 4. Clique em **Salvar**.
 
@@ -114,11 +114,11 @@ Você pode criar uma conta de recurso no Teams de administração.
 
 #### <a name="assign-a-license"></a>Atribuir uma licença
 
-Você deve atribuir uma *Microsoft 365 Sistema de Telefonia - Licença de usuário virtual* à conta de recurso.
+Você deve atribuir uma *licença Microsoft Teams Telefone Standard - Virtual User* à conta de recurso.
 
-1. Na Centro de administração do Microsoft 365, na **lista** Usuários ativos, clique na conta de recurso à qual você deseja atribuir uma licença.
+1. Na Centro de administração do Microsoft 365, **na lista Usuários** ativos, clique na conta de recurso à qual você deseja atribuir uma licença.
 
-2. Na guia **Licenças e Aplicativos,** em **Licenças,** selecione **Microsoft 365 Sistema de Telefonia - Usuário Virtual**.
+2. Na guia **Licenças e Aplicativos**, em **Licenças**, selecione **Microsoft Teams Telefone Padrão - Usuário Virtual**.
 
 3. Clique em **Salvar alterações**.
 
@@ -126,13 +126,13 @@ Você deve atribuir uma *Microsoft 365 Sistema de Telefonia - Licença de usuár
 
 Em seguida, vamos começar a criar uma nova fila de chamada e atribuir a conta de recurso.
 
-1. No centro Teams de administração, **expanda Voz,** clique em **Filas de chamadas** e clique em **Adicionar**.
+1. No centro Teams de administração, **expanda Voz**, clique em **Filas de chamada** e clique em **Adicionar**.
 
 2. Digite um nome para a fila de chamadas.
 
 3. Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
 
-4. (Opcional) Em **Atribuir ID** de chamada, clique em **Adicionar**, pesquisar as contas de recurso que você criou para o seu assistente automático, clique em Adicionar **e** clique em **Adicionar**. Isso dará aos seus agentes de chamada a ID do chamador da sua linha principal quando eles chamarem.
+4. (Opcional) Em **Atribuir ID de chamada**, clique em **Adicionar**, pesquise as contas de recursos que você criou para o seu assistente automático, clique em Adicionar e clique em **Adicionar**. Isso dará aos seus agentes de chamada a ID do chamador da sua linha principal quando eles chamarem.
 
 5. Escolha um idioma. Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
 
@@ -147,11 +147,11 @@ Em seguida, vamos começar a criar uma nova fila de chamada e atribuir a conta d
 > [!div class="nextstepaction"]
 > [Etapa 3 - Agentes de chamada >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
-### <a name="step-3brcall-agents"></a>[Etapa 3 <br> Agentes de chamada](#tab/call-agents)
+### <a name="step-3---call-agents"></a>[Etapa 3 - Agentes de chamada](#tab/call-agents)
 
 Para adicionar agentes à fila de chamada, vamos adicioná-los à equipe e ao canal que criamos anteriormente. Você precisa ser membro da equipe para fazer isso.
 
-1. Selecione a **opção Escolher uma equipe** e clique em Adicionar um **canal**.
+1. Selecione a **opção Escolher uma equipe** e clique **em Adicionar um canal**.
 2. Digite o nome da equipe que você criou, selecione-a e clique em **Adicionar**.
 3. Selecione o canal que você criou para a fila.
 4. Clique em **Aplicar**.
@@ -162,7 +162,7 @@ Para adicionar agentes à fila de chamada, vamos adicioná-los à equipe e ao ca
 > [!div class="nextstepaction"]
 > [Etapa 4 - Contas de recursos >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
-### <a name="step-4brcall-routing"></a>[Etapa 4 <br> Roteamento de Chamadas](#tab/call-routing)
+### <a name="step-4---call-routing"></a>[Etapa 4 - Roteamento de chamadas](#tab/call-routing)
 
 Escolha o método de roteamento de chamadas que você deseja usar.
 
@@ -187,7 +187,7 @@ Escolha o método de roteamento de chamadas que você deseja usar.
 > [!div class="nextstepaction"]
 > [Etapa 5 - Estouro de chamada >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
-### <a name="step-5brcall-overflow"></a>[Etapa 5 <br> Estouro de chamada](#tab/call-overflow)
+### <a name="step-5---call-overflow"></a>[Etapa 5 - Estouro de chamada](#tab/call-overflow)
 
 Escolha como você deseja lidar com chamadas que excedem o máximo na fila.
 
@@ -202,7 +202,7 @@ Escolha como você deseja lidar com chamadas que excedem o máximo na fila.
 > [!div class="nextstepaction"]
 > [Etapa 6 - Tempo de >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
-### <a name="step-6brcall-timeout"></a>[Etapa 6 <br> Tempo de tempo de chamada](#tab/call-timeout)
+### <a name="step-6---call-timeout"></a>[Etapa 6 - Tempo de tempo de chamada](#tab/call-timeout)
 
 Escolha o que você deseja que aconteça quando as chamadas estão esperando na fila por muito tempo.
 
@@ -216,6 +216,6 @@ Escolha o que você deseja que aconteça quando as chamadas estão esperando na 
 
 3. Clique em **Salvar**.
 
-Isso conclui a instalação da fila de chamada. Em seguida, talvez você [queira configurar um atendimento automático.](create-a-phone-system-auto-attendant-smb.md)
+Isso conclui a instalação da fila de chamada. Em seguida, talvez você [queira configurar um atendimento automático](set-up-auto-attendant.md).
 
 ---

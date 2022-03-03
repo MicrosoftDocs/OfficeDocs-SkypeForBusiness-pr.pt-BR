@@ -1,5 +1,5 @@
 ---
-title: Configurar um assistente automático para Microsoft Teams - tutorial de pequenas empresas
+title: Configurar um atendente automático para Microsoft Teams tutorial de pequenas empresas
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Saiba como configurar e testar os atendimentos automáticos para pequenas empresas em Microsoft 365 Teams Telefone com Plano de Chamada.
-ms.openlocfilehash: b5c3b27b0b7bdc835d0dbe30a9478b52f4300ab4
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: Saiba como configurar e testar os atendimentos automáticos para pequenas empresas Microsoft Teams Sistema de Telefonia plano de chamada.
+ms.openlocfilehash: c47733969d32f75222783d85bb9b8bcbcb5dc689
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767344"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053220"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurar um atendimento automático - tutorial de pequenas empresas
 

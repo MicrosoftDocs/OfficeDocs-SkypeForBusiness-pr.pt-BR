@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba como configurar um atendimento automático (também conhecido como fila de chamada) Microsoft 365 Teams Telefone.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f30dcdca74306b27c2516de54e0ab25133b77803
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a70c07e4f0d97484ada63a5bb8163884375e13aa
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766224"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053260"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>Etapa 6: Configurar um atendimento automático para o número de telefone principal da sua empresa
 
@@ -33,4 +33,4 @@ Um atendente automático permite configurar um menu de chamada para que os chama
 Quando você passar por todas as guias acima para configurar o seu assistente automático, clique no botão a seguir para mover para o próximo artigo.
 
 > [!div class="nextstepaction"]
-> [Próxima etapa: Porta os números de telefone para Teams Telefone](port-phone-numbers.md)
+> [Próxima etapa: Porta os números de telefone para Teams Sistema de Telefonia](port-phone-numbers.md)
