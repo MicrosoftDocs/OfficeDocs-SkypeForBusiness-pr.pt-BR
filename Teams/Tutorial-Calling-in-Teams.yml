@@ -17,12 +17,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1570c7e7a92a2a3914d01733fed3691d61282e16
-  ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+  ms.openlocfilehash: 976b0303dfe17ad9f51f37e574e141beea59741f
+  ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/08/2021
-  ms.locfileid: "60834799"
+  ms.lasthandoff: 03/02/2022
+  ms.locfileid: "63050877"
 items:
 - durationInMinutes: 1
   content: >
@@ -62,7 +62,7 @@ items:
     - Poste na seção de comentários na parte inferior da página “próximos passos” deste tutorial</a>
 
 
-    Para fazer comentários sobre o produto Teams, como ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+    Para nos dar comentários sobre o Teams, como ideias para novos recursos, visite o [portal Teams Comentários](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: O que são as chamadas do Teams?
   durationInMinutes: 15
   content: >
@@ -247,4 +247,4 @@ items:
   content: "\nAgora que você planejou e implementou corretamente o Sistema de Telefonia em seu ambiente, precisa garantir que ele seja usado e ofereça uma ótima experiência para o usuário. Embora os detalhes completos ultrapassem o escopo deste treinamento, queremos apontar as áreas de engajamento mais importantes:\n\n-   Adoção e Gerenciamento de Mudanças Os usuários podem simplesmente começar a usar o serviço quando ele for oferecido. Ou não. Portanto, é importante executar o gerenciamento adequado da adoção e de mudanças.\n\n-   Monitorar e promover o uso Recomendamos que um de seus KSIs seja o número de usuários ativos. Isso ajudará a medir o nível de aceitação do Microsoft Teams como cliente de telefone.\n\n-   Monitorar e promover a qualidade\n\nA satisfação dos usuários está diretamente relacionada à qualidade de suas chamadas. Portanto, é importante monitorar a qualidade das chamadas e, se necessário, melhorá-la. Para entender como reportar a qualidade das chamadas, acesse o treinamento Painel de Qualidade de Chamadas. Embora esses vídeos tenham sido criados para o Skype for Business, eles também se aplicam ao Microsoft Teams: <https://aka.ms/sof-cqd>.\n"
 - title: Próximos passos
   durationInMinutes: 1
-  content: "\nNeste treinamento, abordamos estes pontos de aprendizagem principais:\n-   O que são as chamadas do Teams?\n\n-   Como planejar as chamadas no Teams\n\n-   Como configurar as chamadas no Teams\n\nPara saber mais, veja:\n\n-   [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)\n\n-   [Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams](./configuring-teams-calling-quickstartguide.md)\n\nPróximos passos\n\n1.  Inicie sua implantação do Sistema de Telefonia para o Teams\n2.  Envie-nos seus comentários:\n    - Poste na seção de comentários na parte inferior desta página.\n    - Para dar feedback sobre o Microsoft Teams ou compartilhar suas ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n3.  Mantenha-se atualizado:\n    - Siga o [Blog do Teams](https://aka.ms/teamsblog).\n    - Leia o [Roteiro do Teams](https://aka.ms/O365Roadmap).\n    - Saiba mais sobre os recursos lançados mais recentemente nas [Notas de Versão](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n4.  Explore [mais treinamento e tutoriais](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)."
+  content: "\nNeste treinamento, abordamos estes pontos de aprendizagem principais:\n-   O que são as chamadas do Teams?\n\n-   Como planejar as chamadas no Teams\n\n-   Como configurar as chamadas no Teams\n\nPara saber mais, veja:\n\n-   [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)\n\n-   [Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams](./configuring-teams-calling-quickstartguide.md)\n\nPróximos passos\n\n1.  Inicie sua implantação do Sistema de Telefonia para o Teams\n2.  Envie-nos seus comentários:\n    - Poste na seção de comentários na parte inferior desta página.\n    - Para nos dar seus comentários sobre Teams ou compartilhar suas ideias para novos recursos, visite o [portal Teams Comentários](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).\n3.  Mantenha-se atualizado:\n    - Siga o [Blog do Teams](https://aka.ms/teamsblog).\n    - Leia o [Roteiro do Teams](https://aka.ms/O365Roadmap).\n    - Saiba mais sobre os recursos lançados mais recentemente nas [Notas de Versão](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n4.  Explore [mais treinamento e tutoriais](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)."

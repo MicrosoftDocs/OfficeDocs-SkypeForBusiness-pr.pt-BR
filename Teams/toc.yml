@@ -715,7 +715,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -1413,6 +1413,8 @@ items:
                 href: devices/use-teams-panels.md
               - name: Suporte de aplicativo em painéis do Teams
                 href: app-support-on-Teams-panels.md
+              - name: Check-in e liberação da sala
+                href: devices/check-in-and-room-release.md
           - name: Atualizar telefones do Teams às telas do Teams
             href: devices/upgrade-phones-to-displays.md
           - name: Implantar telefones e telas do Teams usando o Intune

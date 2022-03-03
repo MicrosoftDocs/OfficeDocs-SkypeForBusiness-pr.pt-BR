@@ -1,7 +1,7 @@
 ---
 title: Como usar Microsoft Teams painéis
-ms.author: serdars
-author: ManikaDhiman
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,20 +16,20 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece orientações sobre como usar dispositivos Teams painéis.
-ms.openlocfilehash: a172eab55e8e9b16432da5ce2f26b39cf71886d3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
+ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732700"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63050897"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Como usar Microsoft Teams painéis
 
-Microsoft Teams painéis são dispositivos de exibição digital compactos que são montados fora dos espaços de reunião, normalmente ao lado de entradas. Esses painéis touchscreen são Microsoft Teams dispositivos dedicados que fornecem uma visão geral sobre o espaço de reunião e a reunião agendada. Com os indicadores de LED e tela inicial codificados por cores vibrantes, você pode determinar se o espaço está disponível ou reservado de uma distância. Você pode usar Teams painéis para reservar um espaço de reunião disponível para uma reunião ad hoc, no local.
+Microsoft Teams painéis são dispositivos de exibição digital compactos que são montados fora dos espaços de reunião, normalmente ao lado de entradas. Esses painéis touchscreen são Microsoft Teams dispositivos que fornecem uma visão geral sobre o espaço de reunião e a reunião agendada. Com os indicadores de LED e tela inicial codificados por cores vibrantes, você pode determinar se o espaço está disponível ou reservado de uma distância. Você pode usar Teams painéis para reservar um espaço de reunião disponível para uma reunião ad hoc, no local.
 
 Teams painéis são pré-instalados com Microsoft Teams e exibem detalhes da reunião agendados por meio de calendários Outlook ou Teams.
 
-Este artigo fornece orientações, tanto para os usuários finais quanto para os administradores, sobre como usar os dispositivos Teams painéis. Ele também fornece respostas às [perguntas frequentes sobre](#frequently-asked-questions) como usar esses dispositivos.
+Este artigo fornece orientações, para usuários finais e administradores, sobre como usar os dispositivos de Teams painéis. Ele também fornece respostas às [perguntas frequentes sobre](#frequently-asked-questions) como usar esses dispositivos.
 
 Para obter uma visão geral dos dispositivos de painéis e as diretrizes sobre como planejar, entregar e gerenciá-los em sua organização, consulte [Deploy Microsoft Teams panels](teams-panels.md).
 
@@ -61,9 +61,9 @@ Consulte a tabela a seguir para uma descrição de cada telha:
 Tile | Descrição
 :---|:---
 **1-Detalhes do espaço de reunião, dia, data e hora atuais** | Exibe a hora atual, o dia, a data e o nome do espaço de reunião. O nome do espaço de reunião é o nome da conta de recurso que se inscreveu nos painéis.
-**2-Disponibilidade de espaço de reunião e detalhes da reunião** | Indica a disponibilidade do espaço de reunião e exibe os detalhes da reunião. Consulte [Disponibilidade de espaço de reunião e o tile de detalhes da reunião.](#meeting-space-availability-and-meeting-details-tile)
+**2-Disponibilidade de espaço de reunião e detalhes da reunião** | Indica a disponibilidade do espaço de reunião e exibe os detalhes da reunião. Confira [Disponibilidade de espaço de reunião e o tile de detalhes da reunião](#meeting-space-availability-and-meeting-details-tile).
 **Calendário 3-Futuro** | Exibe o calendário e a disponibilidade do espaço de reunião por até 24 horas a partir da hora atual. Role para cima ou para baixo para determinar quais intervalos de tempo estão disponíveis e quais são reservados.
-**4 Configurações** | Exibe o **Configurações** ícone. Toque nele para relatar um problema ou atualizar as configurações de dispositivo disponíveis.
+**4 Configurações** | Exibe **o Configurações ícone**. Toque nele para relatar um problema ou atualizar as configurações de dispositivo disponíveis.
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>Espaço de reunião e o tile de detalhes da reunião
 
@@ -78,17 +78,17 @@ O azulejo aparece em roxo para um espaço de reunião reservado para uma reuniã
 > [!NOTE]
 >
 > - Depois de agendar uma reunião, pode levar até 90 segundos para que o calendário sincronize e reflita na tela de painéis.
-> - Para uma [reunião agendada marcada como privada,](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d) **a** reunião privada é exibida em vez do título real da reunião.
+> - Para uma [reunião agendada marcada como privada](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d), **a reunião** privada é exibida em vez do título real da reunião.
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>O espaço de reunião é reservado para uma reunião ad hoc
 
-O azulejo aparece em roxo para um espaço de reunião reservado [para uma reunião ad hoc.](#reserve-meeting-spaces-for-ad-hoc-meetings) Ele exibe **Reservado em texto** proeminente juntamente com os horários de início e término da reunião. As reuniões ad hoc são agendadas automaticamente como reuniões Teams, portanto, o logotipo Teams sempre aparece na tela.
+O azulejo aparece em roxo para um espaço de reunião reservado [para uma reunião ad hoc](#reserve-meeting-spaces-for-ad-hoc-meetings). Ele exibe **Reservado em texto** proeminente juntamente com os horários de início e término da reunião. As reuniões ad hoc são agendadas automaticamente como reuniões Teams, portanto, o logotipo Teams sempre aparece na tela.
 
 :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams tela inicial dos painéis mostrando que o espaço de reunião está reservado para uma reunião ad hoc.":::
 
 #### <a name="meeting-space-is-available"></a>O espaço de reunião está disponível
 
-O azulejo aparece em verde para um espaço de reunião disponível. Ele exibe **Available em texto** proeminente, e um botão **Reserva** também aparece que você pode tocar para reservar o espaço de reunião para uma reunião [ad hoc](#reserve-meeting-spaces-for-ad-hoc-meetings). Você pode verificar o próximo calendário do espaço de reunião (azulejo inferior direito) para decidir a hora de término da reunião ad hoc.
+O azulejo aparece em verde para um espaço de reunião disponível. Ele exibe **Available em** texto proeminente, e um botão **Reserva** também aparece que você pode tocar para reservar o espaço de reunião para uma reunião [ad hoc](#reserve-meeting-spaces-for-ad-hoc-meetings). Você pode verificar o próximo calendário do espaço de reunião (azulejo inferior direito) para decidir a hora de término da reunião ad hoc.
 
 :::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="Esta captura de tela mostra como Teams tela inicial dos painéis aparece quando o espaço de reunião está disponível.":::
 
@@ -103,9 +103,9 @@ Para reuniões ad hoc reservadas diretamente de painéis:
 
 Para reservar um espaço de reunião disponível para uma reunião ad hoc:
 
-1. Na tela Inicial, toque no **botão Reserva.**
+1. Na tela Inicial, toque no **botão Reserva** .
     :::image type="content" source="../media/panels-reserve.png" alt-text="Teams tela inicial dos painéis mostrando o botão Reserva.":::
-2. Na tela **de reunião Ad hoc,** revise as opções de hora de término disponíveis. Você pode usar as setas direita ou esquerda para procurar as opções de hora de término disponíveis.
+2. Na tela **de reunião Ad hoc** , revise as opções de hora de término disponíveis. Você pode usar as setas direita ou esquerda para procurar as opções de hora de término disponíveis.
 
     :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Tela de reunião ad hoc mostrando intervalos de tempo de término.":::
 
@@ -124,20 +124,20 @@ O azulejo direito na tela inicial agora aparece em roxo e exibe o texto **Reserv
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Tela inicial mostrando que o espaço de reunião está reservado para uma reunião ad hoc.":::
 
     > [!NOTE]
-    > Se o espaço de reunião for uma  sala Microsoft Teams, você poderá participar dessa reunião Teams com a sala de Microsoft Teams sala ou Surface Hub dispositivos.
+    > Se o espaço de reunião for uma sala Microsoft Teams, você poderá participar  dessa reunião Teams com a sala de Microsoft Teams sala ou Surface Hub dispositivos.
 
 ### <a name="report-a-problem"></a>Relatar um problema
 
-Para relatar um problema com o dispositivo ou o espaço de reunião, para  solicitar uma atualização de recurso ou para fornecer comentários, use o ícone Configuração na tela inicial.
+Para relatar um problema com o dispositivo ou o espaço de reunião, para solicitar uma atualização de recurso ou para fornecer comentários, use o  ícone Configuração na tela inicial.
 
 1. Toque no **Configurações** de engrenagem na tela Inicial.
 
-2. Toque na **opção Relatar um problema.**
+2. Toque na **opção Relatar um problema** .
 
     A **tela Enviar Comentários** é exibida em um formato de formulário.
-3. Na lista **suspenso Tipo,** selecione o tipo de solicitação.
-4. Na lista **suspenso Problema,** selecione a categoria.
-5. No campo **texto Título,** digite o título usando o teclado de painéis.
+3. Na lista **suspenso Tipo** , selecione o tipo de solicitação.
+4. Na lista **suspenso Problema** , selecione a categoria.
+5. No campo **texto Título** , digite o título usando o teclado de painéis.
 6. No campo de texto abaixo **Título**, digite detalhes adicionais, se necessário.
 
     > [!NOTE]
@@ -152,38 +152,38 @@ Há várias configurações de dispositivo, como cerca, acessibilidade, reinicia
 Para exibir ou atualizar uma configuração de dispositivo:
 
 1. Toque no **Configurações** na tela Inicial.
-2. Na tela **Configurações,** toque em **Configurações do dispositivo**.
-3. Na tela **Dispositivo Configurações,** toque na configuração que você deseja exibir ou atualizar.
+2. Na tela **Configurações**, toque em **Configurações do dispositivo**.
+3. Na tela **Dispositivo Configurações**, toque na configuração que você deseja exibir ou atualizar.
 4. Siga o prompt na tela para exibir ou atualizar a configuração.
 
 ## <a name="teams-panels-admin-experience"></a>Teams de administrador de painéis
 
-Se você for o administrador da [Teams](teams-panels.md\#resource-account-provisioning)de recursos do painel, você também será o administrador do **Aplicativo de** Painéis no dispositivo. Como administrador do Aplicativo **de** Painéis, você pode fazer [](#teams-panels-end-user-experience) todas as funções mencionadas na  seção experiência do usuário final, além de gerenciar as configurações do Aplicativo painéis no dispositivo.
+Se você for o administrador da [Teams](teams-panels.md\#resource-account-provisioning) de recursos do painel, então também será o administrador do **Aplicativo de** Painéis no dispositivo. Como administrador **do Aplicativo de** Painéis, você pode fazer todas as funções mencionadas na seção experiência [](#teams-panels-end-user-experience) do usuário final, além de gerenciar as configurações do  Aplicativo painéis no dispositivo.
 
 Seus dispositivos de painéis fornecem dois tipos de configurações de administrador. Você deve ser um administrador de dispositivo para acessar as configurações de administrador disponíveis. Os usuários finais não podem acessar essas configurações.
 
 - Configurações de administrador específicas do dispositivo, como exibição, hora e data, idioma, bluetooth, WiFi e assim por diante. Consulte a documentação do OEM para saber mais sobre essas configurações.
-- Configurações de administrador **específicas** do Aplicativo painéis em seu dispositivo, como papel de parede e cor do indicador LED. Somente um administrador do **Aplicativo Painéis** pode acessar essas configurações. Como **as configurações** do aplicativo Painéis estão disponíveis como parte das configurações de  administrador, você  deve ter credenciais de entrada do administrador para o dispositivo e o Aplicativo painéis para acessar as configurações do aplicativo Painéis.
+- Configurações de administrador **específicas do Aplicativo painéis** em seu dispositivo, como papel de parede e cor do indicador LED. Somente um administrador do **Aplicativo Painéis** pode acessar essas configurações. Como **as configurações** do aplicativo Painéis estão disponíveis como parte das configurações de administrador, você deve ter credenciais de entrada do administrador para o dispositivo  e o Aplicativo painéis  para acessar as configurações do aplicativo Painéis.
 
 > [!NOTE]
-> Todas as atualizações para as **configurações do Aplicativo de** Painéis feitas por meio do dispositivo são aplicáveis apenas a esse dispositivo específico. Essas atualizações não afetarão outros dispositivos de painéis em sua organização. Por exemplo, se você alterar a  imagem de papel de parede da tela inicial das configurações do Aplicativo painéis, a imagem de papel de parede mudará somente para esse dispositivo específico.
+> Todas as atualizações para as **configurações do Aplicativo de** Painéis feitas por meio do dispositivo são aplicáveis apenas a esse dispositivo específico. Essas atualizações não afetarão outros dispositivos de painéis em sua organização. Por exemplo, se você alterar a imagem de papel de parede da  tela inicial das configurações do Aplicativo painéis, a imagem de papel de parede mudará somente para esse dispositivo específico.
 
 ### <a name="access-panels-app-settings"></a>Configurações do Aplicativo de Painéis de Acesso
 
-Você pode acessar **Painéis Configurações** específicas do aplicativo usando a opção **Painels App Configurações** sob as configurações de administrador. As etapas para acessar **o Aplicativo painéis Configurações** podem ser diferentes com base no OEM do seu dispositivo.
+Você pode acessar **painéis Configurações** específicas do aplicativo usando a opção **Painels App Configurações** sob as configurações de administrador. As etapas para acessar **o Aplicativo painéis Configurações** podem ser diferentes com base no OEM do seu dispositivo.
 
-Para acessar a **opção Painels app Configurações:**
+Para acessar a **opção Painels app Configurações**:
 
 1. Toque no **Configurações** na tela Inicial.
-2. Na tela **Configurações,** toque em **Configurações do dispositivo**.
+2. Na tela **Configurações**, toque em **Configurações do dispositivo**.
 3. Toque no **administrador Configurações**.
 
     > [!NOTE]
     > Dependendo do OEM do seu dispositivo, talvez seja necessário inserir a senha do administrador do dispositivo agora ou após a próxima etapa.
 
-4. Role para baixo para encontrar a **opção Painels app Configurações.** Toque nele.
+4. Role para baixo para encontrar a **opção Painels App Configurações**. Toque nele.
 5. Toque no **botão Painels app Configurações** na tela direita.
-    A tela com as configurações do aplicativo **Painéis** disponíveis é exibida.
+    A tela com as **configurações do aplicativo Painéis** disponíveis é exibida.
 
     :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Esta captura de tela exibe a tela com as configurações do aplicativo Painéis disponíveis.":::
 
@@ -192,13 +192,29 @@ Para acessar a **opção Painels app Configurações:**
     - [Papel de parede](#update-the-wallpaper)
     - [Indicador LED](#change-the-busy-state-led-color)
 
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparelhar um Teams painel com uma sala Microsoft Teams no Android
+
+No painel Teams, entre usando suas credenciais de administrador.  
+
+1. Vá para **o Configurações > de Configurações > de Configurações > De Configurações > reuniões > emparelhamento de dispositivos.**
+
+2. Um código de seis dígitos aparecerá na tela Salas do Teams tela frontal do Android. Insira o código no painel Teams.  
+
+#### <a name="meeting-check-in-and-room-release"></a>Check-in de reunião e versão de sala
+
+As configurações de check-in e versão de sala permitem que os usuários entre em uma reunião Teams painéis na sala reservada no início da reunião. Se um usuário não faz check-in dentro de um período de tempo definido após o horário de início da reunião, a sala é liberada e fica disponível para outras pessoas reservarem.
+
+Quando um Teams painéis é emparelhado com uma sala Microsoft Teams no Android, as notificações de check-in podem ser habilitadas para aparecer na exibição front0of-room quando as reuniões são atrasadas.
+
+Para habilitar o check-in e a versão de sala, consulte [Check-in e room release on Microsoft Teams Panels](check-in-and-room-release.md).
+
 #### <a name="update-the-wallpaper"></a>Atualizar o papel de parede
 
 Alterar a imagem de papel de parede da tela inicial.
 
-1. [Aplicativo **de Painéis de Acesso Configurações**](#access-panels-app-settings).
+1. [Acesso **Painéis Aplicativo Configurações**](#access-panels-app-settings).
 2. Toque **em Papel de Parede**.
-3. Em **Escolher sua imagem,** selecione uma imagem para definir como a imagem de plano de fundo da tela inicial. Visualizar a imagem selecionada em **Plano de Fundo**.
+3. Em **Escolher sua imagem**, selecione uma imagem para definir como a imagem de plano de fundo da tela inicial. Visualize a imagem selecionada em **Plano de Fundo**.
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Esta captura de tela exibe a tela de configurações do papel de parede.":::
 4. Volte para a tela inicial e verifique se o papel de parede foi atualizado.
 
@@ -206,9 +222,9 @@ Alterar a imagem de papel de parede da tela inicial.
 
 Os administradores podem escolher vermelho ou roxo como a cor LED para indicar que o espaço de reunião está ocupado ou reservado. A cor do LED para indicar um espaço disponível é sempre verde e não pode ser alterada.
 
-1. [Aplicativo **de Painéis de Acesso Configurações**](#access-panels-app-settings).
+1. [Acesso **Painéis Aplicativo Configurações**](#access-panels-app-settings).
 2. Toque **em LED Configurações**.
-3. Em **Escolher a cor do LED,** selecione a cor desejada.
+3. Em **Escolher a cor do LED**, selecione a cor desejada.
 :::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de tela exibe as configurações de estado de ocupado da cor do LED.":::
 4. Volte para a tela inicial e verifique se a cor do LED para o estado de ocupado está atualizada. Se o espaço de reunião estiver disponível no momento, tente agendar uma reunião de teste para verificar a alteração na cor do LED para o estado de disponibilidade.
 
