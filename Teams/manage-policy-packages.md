@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política Microsoft Teams simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: f90febffb5385a3b91859d63db1b4b320e0a94a7
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62425296"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63055301"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Gerenciar pacotes de política para Microsoft Teams
 
@@ -42,7 +42,7 @@ Você pode personalizar as configurações das políticas em um pacote de polít
 
 ## <a name="what-is-a-policy-package"></a>O que é um pacote de política?
 
-Os pacotes de política permitem que Teams recursos que você deseja permitir ou restringir para conjuntos específicos de pessoas em toda a sua organização. Cada pacote de política no Teams é projetado em torno de uma função de usuário e inclui políticas e configurações de política predefinidas que suportam as atividades de colaboração e comunicação típicas para essa função.
+Os pacotes de política permitem controlar Teams recursos que você deseja permitir ou restringir para conjuntos específicos de pessoas em toda a sua organização. Cada pacote de política no Teams é projetado em torno de uma função de usuário e inclui políticas e configurações de política predefinidas que suportam as atividades de colaboração e comunicação típicas para essa função.
 
 Os pacotes de política suportam os seguintes tipos Teams de política:
 
@@ -69,12 +69,12 @@ Teams atualmente inclui os seguintes pacotes de política.
 |Profissional clínico da área de saúde  |Cria um conjunto de políticas e configurações de política que dão a funcionários da área de saúde, como enfermeiros registrados, enfermeiros chefe, médicos e assistentes sociais acesso total ao chat, chamadas, gerenciamento de turnos e reuniões. |
 |Profissional de informações da área de saúde  |Cria um conjunto de políticas e configurações de política que dão aos operadores de informações na sua organização da área de saúde, como equipe de TI, de informática, equipe financeira e responsáveis pela conformidade acesso total ao chat, chamadas e reuniões.|
 |Quartos dos pacientes de saúde  |Cria um conjunto de políticas e configurações de política que se aplicam aos quartos dos pacientes em sua organização de saúde.|
-|Usuário de pequenas e médias empresas (Teams Telefone com Plano de Chamada) |Cria uma política de configuração de aplicativo que inclui os aplicativos para um Teams Telefone com experiência de Plano de Chamada.|
-|Usuário de pequenas e médias empresas (sem Teams Telefone com Plano de Chamada) |Cria uma política de configuração de aplicativo relevante para uma empresa de pequeno e médio porte Teams usuários (sem Teams Telefone com experiência de Plano de Chamada).
+|Usuário de pequenas e médias empresas (Teams Sistema de Telefonia com pacote plano de chamada) |Cria uma política de configuração de aplicativo que inclui os aplicativos para um Teams Sistema de Telefonia com experiência de pacote de Plano de Chamada.|
+|Usuário de pequenas e médias empresas (sem Teams Sistema de Telefonia com pacote plano de chamada) |Cria uma política de configuração de aplicativo relevante para uma empresa de pequeno e médio porte Teams usuários (sem Teams Sistema de Telefonia com experiência de pacote de Plano de Chamada).
 |Oficial de segurança pública   |Cria um conjunto de políticas e configurações de política que se aplicam aos agentes de segurança pública em sua organização.|
 
 > [!NOTE]
-> Adicionaremos mais pacotes de política em versões futuras do Teams, portanto, verifique novamente as informações mais atualizadas.  
+> Vamos adicionar mais pacotes de política em versões futuras do Teams, portanto, verifique novamente as informações mais atualizadas.  
 
 Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas.
 Por exemplo, quando você atribui o pacote de política de Educação (Professor) aos professores em sua escola, uma política chamada Education_Teacher é criada para cada política no pacote.
@@ -126,7 +126,7 @@ Aqui estão as etapas de como exibir, atribuir e personalizar pacotes de políti
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personalizar políticas em um pacote de política
 
-Você pode editar as configurações de uma política por meio  da página Pacotes de Política ou indo diretamente para a página de política no Microsoft Teams de administração.
+Você pode editar as configurações de uma política por meio  da página Pacotes de política ou indo diretamente para a página de política no Microsoft Teams de administração.
 
 1. Na navegação à esquerda do Microsoft Teams de administração, faça um dos seguintes:
     - Clique **em Pacotes de** Política e selecione o pacote de política clicando à esquerda do nome do pacote.

@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -1017,7 +1017,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: Diretrizes para pequenas e médias empresas
         items:
-          - name: Diretrizes do Sistema de Telefonia para pequenas e médias empresas
+          - name: Orientações do Sistema de Telefonia
             href: business-voice/whats-business-voice.md
           - name: Disponibilidade de países e regiões
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1025,7 +1025,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Obter ajuda de um revendedor ou parceiro
             href: business-voice/reseller-partner-support.md
-          - name: Configurar o Sistema de Telefonia para pequenas e médias empresas
+          - name: '- Configurar o Sistema de Telefonia'
             items:
               - name: Visão Geral
                 href: business-voice/set-up-overview.md
@@ -1045,7 +1045,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: Recursos de pós-instalação
                 href: business-voice/set-up-finish.md
-          - name: Personalizar a configuração do Sistema de Telefonia para pequenas e médias empresas
+          - name: Personalize a configuração do Sistema de Telefonia
             items:
               - name: Opções de personalização
                 href: business-voice/customize-business-voice.md
@@ -1059,7 +1059,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: Configurar um atendedor automático
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: Gerenciar a configuração do Sistema de Telefonia para pequenas e médias empresas
+          - name: Gerenciar a configuração do Sistema de Telefonia
             items:
               - name: Criar um ou mais usuários
                 href: business-voice/create-users.md
@@ -1309,6 +1309,10 @@ items:
                 href: rooms/security.md
               - name: Licenciamento online
                 href: rooms/rooms-licensing.md
+              - name: Práticas Recomendadas para Acesso Condicional e conformidade com o Intune
+                href: rooms/conditional-access-and-compliance-for-devices.md
+              - name: Políticas de conformidade com Acesso Condicional e o Intune são suportadas
+                href: rooms/supported-ca-and-compliance-policies.md
               - name: Planejar o gerenciamento com o Azure Monitor
                 href: rooms/azure-monitor-plan.md
           - name: Implantar
@@ -1566,7 +1570,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Assistente de política do Teams para Educação
             href: easy-policy-setup-edu.md
-          - name: Pais no Teams para Educação
+          - name: Conexão dos pais no Microsoft Teams para Educação
             href: edu-parents-app.md
           - name: Aplicativo Career Coach no Teams para Educação
             href: career-coach.md
