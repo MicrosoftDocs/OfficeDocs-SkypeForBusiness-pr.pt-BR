@@ -17,18 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63040059"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062525"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar a conexão pai no Microsoft Teams para Educação
 
 A Conexão Pai no Teams para Educação ajuda os educadores a se conectarem e se envolverem com os pais e responsáveis dos alunos em suas equipes de classe usando Teams chat, que será dimensionado na organização do educador. Todos os dados pai e responsável são provisionados usando School Data Sync, permitindo que a equipe de IT desem conjunto suavemente as coisas.
 
-Depois que pais e responsáveis são definidos, eles podem conversar com os educadores de seus alunos usando Teams chat. Para obter orientações sobre como conectar pais e responsáveis aos educadores, consulte [Conexão com educadores em Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+Depois que educadores e responsáveis são definidos, eles podem conversar entre si usando Teams chat. 
+
+Para obter orientações sobre como conectar pais e responsáveis aos educadores, consulte [Conexão com educadores em Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+
+Para obter orientações sobre como configurar educadores para se comunicar com pais e responsáveis, consulte [Comunicar-se com os responsáveis no Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
 
 Os pais também trabalham com Chat Supervisionado. Pais e responsáveis não terão permissões de Teams completas, o que significa que eles não podem iniciar conversas com alunos ou remover usuários de permissões completas (como educadores) de chats. Para obter mais informações sobre o Chat Supervisionado, [consulte Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
 
@@ -61,7 +65,7 @@ Os pais também trabalham com Chat Supervisionado. Pais e responsáveis não ter
 > [!NOTE]
 >Pais e responsáveis são classificados como usuários externos no recurso Pais, o que significa que eles não têm direitos de locatário completos. Eles só têm acesso ao chat ou chat aos que são adicionados, bem como arquivos, imagens e outros conteúdos compartilhados no chat.
 >
->Além disso, os usuários externos podem ver a presença (offline, disponível, ocupado etc.) dos usuários da sua organização, mas isso pode ser desativado usando o PowerShell para proteger a privacidade dos usuários. No PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) e definir ``EnablePrivacyMode=true``.
+>Além disso, os usuários externos podem ver a presença (offline, disponível, ocupado etc.) dos usuários da sua organização, mas isso pode ser desativado usando o PowerShell para proteger a privacidade dos usuários. No PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) e definir ``EnablePrivacyMode=true``.
 >
 >Mesmo que pais e responsáveis sejam usuários externos, suas contribuições para chats podem ser descobertas. Saiba como conduzir uma investigação de descoberta Teams eDiscovery lendo Conduzir uma investigação de [Descoberta Microsoft Teams](ediscovery-investigation.md).
 

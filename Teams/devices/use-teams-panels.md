@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece orientações sobre como usar dispositivos Teams painéis.
-ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050897"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062535"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Como usar Microsoft Teams painéis
 
@@ -204,7 +204,7 @@ No painel Teams, entre usando suas credenciais de administrador.
 
 As configurações de check-in e versão de sala permitem que os usuários entre em uma reunião Teams painéis na sala reservada no início da reunião. Se um usuário não faz check-in dentro de um período de tempo definido após o horário de início da reunião, a sala é liberada e fica disponível para outras pessoas reservarem.
 
-Quando um Teams painéis é emparelhado com uma sala Microsoft Teams no Android, as notificações de check-in podem ser habilitadas para aparecer na exibição front0of-room quando as reuniões são atrasadas.
+Quando Teams painéis é emparelhado com uma sala Microsoft Teams no Android, as notificações de check-in podem ser habilitadas para aparecer na exibição frontal da sala quando as reuniões são atrasadas.
 
 Para habilitar o check-in e a versão de sala, consulte [Check-in e room release on Microsoft Teams Panels](check-in-and-room-release.md).
 

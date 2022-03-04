@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41b16af59652d3ca7f81dd72a485afec5b1a24db
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 8a8d08bd37fe3d2f32fcdb8f3a4989dba97e8a40
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279269"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062565"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -39,6 +39,7 @@ Salas do Teams é governada pela Política de Ciclo de Vida Moderna. Consulte [T
 
 |Versão |Publicado para <br/> Microsoft Store |
 |--- |--- |
+|4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
 |Teams Web-Client versão | Dezembro de 2021 |
 |Teams Web-Client versão | Outubro de 2021 |
@@ -89,15 +90,20 @@ Salas do Teams é governada pela Política de Ciclo de Vida Moderna. Consulte [T
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas do Microsoft Teams introdução de recursos e resolução de problemas
 
+### <a name="411170-332022"></a>4.11.17.0 (3/3/2022)
+
+Introduzido nesta atualização:
+- Correção de bugs para o enquadramento da câmera que aprimorará todo o conteúdo no visualização da câmera.
+
 ### <a name="411120-1242022"></a>4.11.12.0 (1/24/2022)
 
 Introduzido nesta atualização:
 - Layout da Linha de Frente (Visualização) para MTR no Windows <sup>1</sup> 
 - Configuração de administrador para definir o layout da linha de frente como padrão  
-- Reunir Agora e chamar a atualização do aplicativo para Teams, Teams modos de cliente <sup>padrão1,2</sup>
+- Atender Agora e chamar a atualização do aplicativo Teams somente para Teams de cliente <sup>padrão1,2</sup>
 - Alternar entre várias câmeras de vídeo Teams <sup>reuniões1</sup> 
 - Configuração padrão da câmera de vídeo 
-- Cortana atualização do ícone push-to-talk no console MTR 
+- Cortana atualização de ícone push-to-talk no console MTR 
 - Azure AD Premium 1 inclusão de licença no Room Standard e Premium SKUs 
 - AAD políticas de acesso condicional <sup>suportam3</sup> 
 - Cortana de voz habilitada por padrão no OOBE
@@ -107,12 +113,12 @@ Introduzido nesta atualização:
 > 
 > <sup>2</sup> Teams salas em Windows em execução somente no Microsoft Teams ou Skype for Business e Microsoft Teams (padrão) são atualizadas com novas experiências de Meet e Call, no entanto, outros modos não são afetados por essa atualização.
 > 
-> <sup>3</sup> Consulte detalhes de adição sobre como [configurar AAD políticas de acesso](../rooms/rooms-authentication.md#azure-ad-conditional-access) condicional para Salas do Teams.
+> <sup>3</sup> Consulte detalhes de adição sobre a [configuração AAD políticas de acesso](../rooms/rooms-authentication.md#azure-ad-conditional-access) condicional para Salas do Teams.
 > 
 > <sup>4</sup> Esse recurso exige que os administradores de IT configurem Teams aplicativo de controles PTZ remotos do cliente da área de trabalho.
 > 
 
-### <a name="teams-rooms-web-client-update-december-2021"></a>Salas do Teams atualização do cliente Web (dezembro de 2021)
+### <a name="teams-rooms-web-client-update-december-2021"></a>Salas do Teams do cliente Web (dezembro de 2021)
 
 Introduzido nesta atualização:
 - O layout de vídeo dividido em frente dupla é exibido quando o conteúdo não está sendo compartilhado
@@ -132,7 +138,7 @@ Introduzido nesta atualização:
 
 
 > [!NOTE]
-> As atualizações do cliente Web estão disponíveis para todos os Salas do Teams com as versões 4.10 e 4.9 do aplicativo. Os administradores poderão se inscrever em um programa de visualização pública Salas do Teams obter o pico sorrateira dos recursos do cliente Web em breve.
+> As atualizações do cliente Web estão disponíveis para todos os Salas do Teams com as versões 4.10 e 4.9 do aplicativo. Os administradores poderão se inscrever em um programa de visualização pública Salas do Teams obter o pico dos recursos do cliente Web em breve.
 
 ### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
 
@@ -140,7 +146,7 @@ Introduzido nesta atualização:
 - O controle remoto de sala permite que os usuários controlem a funcionalidade básica da sala usando Teams em seus celulares *
 - Logitech scribe content camera support for BLE button for sharing into meeting
 - Bolhas de chat fornecem notificações no chat de reunião para chamar a atenção para o que está sendo dito usando o chat de reunião *
-- O suporte ao modo galeria grande e ao modo Juntos agora está disponível no GCC High
+- O suporte ao modo galeria grande e ao modo Juntos agora está disponível GCC Alta
 - Novas Habilidades adicionadas Cortana, Adicionar pessoa por nome à reunião e Chamada por nome 
 - Cortana Push to Talk está habilitado por padrão em todos os dispositivos. Para saber mais, confira [Cortana de voz no Teams](../cortana-in-teams.md).
 
@@ -156,7 +162,7 @@ Introduzido nesta atualização:
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 Introduzido nesta atualização:
-- Microsoft Teams modo somente agora está disponível nas configurações do aplicativo, portanto, você não precisa mais configurar uma conta Skype for Business usuário. Nesse modo, os dispositivos conectados Teams somente o modo Skype for Business reuniões como um usuário convidado.
+- Microsoft Teams modo somente agora está disponível nas configurações do aplicativo, portanto, você não precisa mais configurar uma Skype for Business de usuário. Nesse modo, os dispositivos conectados Teams somente o modo Skype for Business reuniões como um usuário convidado.
 - Correção para áudio HDMI causando menor volume de chamada. O recurso de áudio HDMI é habilitado automaticamente para todos os dispositivos com build de aplicativo 4.9.12.0.
 
 > [!NOTE]
@@ -168,15 +174,15 @@ Introduzido nesta atualização:
 - Windows 10 suporte ao 20H2 
 
 > [!NOTE]
-> Crestron UC-Engine (data de versão do BIOS que contém "KYSKLi") Salas do Teams problemas de compatibilidade e drivers atualizados serão fornecidos por OEMs do sistema em um futuro próximo. Windows 10 20H2 não será oferecido a esses dispositivos. Para obter mais informações sobre Windows de versão, [consulte Windows 10 de versão](./rooms-lifecycle-support.md#windows-10-release-support).
+> Crestron UC-Engine (data de versão do BIOS que contém "KYSKLi") Salas do Teams problemas de compatibilidade e drivers atualizados serão fornecidos por OEMs do sistema em um futuro próximo. Windows 10 20H2 não será oferecido a esses dispositivos. Para obter mais informações sobre o Windows de versão, [consulte Windows 10 de versão](./rooms-lifecycle-support.md#windows-10-release-support).
 
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
 Introduzido nesta atualização:
-- Correção de um problema em que as informações de sala Salas do Teams consoles não aparecem para contas de sala ocultas da GAL (lista de endereços global)
+- Correção para um problema em que as informações de sala Salas do Teams consoles não aparecem para contas de sala ocultas da GAL (lista de endereços global)
 
 > [!NOTE]
-> Os clientes GCCH podem baixar o pacote de atualização de [um dispositivo Salas do Microsoft Teams manualmente](manual-update.md)
+> Os clientes GCCH podem baixar o pacote de atualização [de um dispositivo Salas do Microsoft Teams manualmente](manual-update.md)
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
@@ -203,7 +209,7 @@ Introduzido nesta atualização:
 - Destaque o vídeo de alguém do console Teams Room e consuma vídeo com destaque em exibições de sala
 
 > [!NOTE]
-> Cortana habilidades de voz estão disponíveis para periféricos de áudio selecionados para locatários localizados nos Estados Unidos. Países ou regiões adicionais serão adicionados no futuro. Para obter mais informações, [consulte Cortana de voz no Teams](../cortana-in-teams.md)
+> Cortana de voz estão disponíveis para selecionar periféricos de áudio para locatários localizados nos Estados Unidos. Países ou regiões adicionais serão adicionados no futuro. Para obter mais informações, [consulte Cortana de voz no Teams](../cortana-in-teams.md)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
@@ -227,7 +233,7 @@ Introduzido nesta atualização:
 Introduzido nesta atualização:
 
 - Reuniões coordenadas entre Microsoft Teams e Surface Hub 2S
-- Correção para Skype Windows 10 falha de login para Empresas quando a [atualização do KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou Windows 10 [atualização KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) é instalada
+- Correção para Skype Windows 10 falha de login para Empresas quando o [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou a atualização Windows 10 [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) é instalado
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -242,7 +248,7 @@ Introduzido nesta atualização:
 - Pesquisar e chamar usuários federados (locatário) de Teams Room
 
 > [!IMPORTANT]
-> A versão 4.5 é a última versão para dar suporte Windows 10 versão 1803; as versões futuras não serão oferecidas aos sistemas Windows 10 versão 1803. Para obter mais informações sobre Windows de versão, [consulte Windows 10 de versão](./rooms-lifecycle-support.md#windows-10-release-support).
+> A versão 4.5 é a última versão para dar suporte Windows 10 versão 1803; as versões futuras não serão oferecidas aos sistemas Windows 10 versão 1803. Para obter mais informações sobre o Windows de versão, [consulte Windows 10 de versão](./rooms-lifecycle-support.md#windows-10-release-support).
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
@@ -252,7 +258,7 @@ Introduzido nesta atualização:
 - Correção para "o aplicativo não será lançado após a atualização para o problema 4.4.41.0"
 
 > [!NOTE]
-> Se o seu dispositivo não atualizar automaticamente para a versão 4.4.63.0, siga as etapas no aplicativo Salas do Microsoft Teams não iniciará após a atualização para [a versão 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) para resolver o problema.
+> Se o dispositivo não atualizar automaticamente para a versão 4.4.63.0, siga as etapas no Salas do Microsoft Teams o aplicativo não será ativado após a atualização para [a versão 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) para resolver o problema.
 
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 
@@ -293,7 +299,7 @@ Introduzido nesta atualização:
 - Atualização da interface do usuário Configurações administrador de dispositivos com adição da configuração do dispositivo na guia Sobre
 - Controle de sala de volta para a tela principal
 - Sala de Reunião SKU disponível no GCC
-- Suporte à câmera de conteúdo Surface Pro sistema baseado em Surface Pro (Com build mínimo necessário do aplicativo: 4.2.4.0)
+- Suporte à câmera de conteúdo Surface Pro sistema baseado em Surface Pro (com build mínimo necessário do aplicativo: 4.2.4.0)
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
 
@@ -316,17 +322,17 @@ Introduzido nesta atualização:
 
 Introduzido nesta atualização:
 
-- Skype de aplicativo da Loja do Sistema de Sala para "Salas do Microsoft Teams"
+- Skype aplicativo da Loja do Sistema de Sala renomear para "Salas do Microsoft Teams"
 - Salas do Microsoft Teams interface do usuário do console realinhada para Microsoft Teams
 - Atualização de tema: mantenha apenas a imagem de plano de fundo personalizada na frente das exibições de sala, enquanto faz do plano de fundo do console uma cor neutra para garantir que os controles da interface do usuário do console atendem ao contraste de cores— requisitos de acessibilidade
-- Barra universal para controles de chamada em reunião para chamadas Teams/reuniões para fornecer uma experiência consistente com Microsoft Teams clientes pc/Web/<sup>Mobile1</sup>
+- Barra universal para controles de chamada em reunião para Teams chamadas/reuniões para fornecer uma experiência consistente com Microsoft Teams clientes pc/Web/<sup>Mobile1</sup>
 - Classificação de feedback de qualidade de chamada após Teams chamadas/<sup>reuniões1</sup>
-- Recebimento/renderização Microsoft Whiteboard no Salas do Microsoft Teams da sala de exibição quando compartilhado do computador/ Web/ mobile Teams <sup>cliente1</sup> <sup>2</sup>
+- Recebimento/renderização Microsoft Whiteboard na tela Salas do Microsoft Teams da sala de exibição quando compartilhado do computador/ Web/ mobile Teams <sup>cliente1</sup> <sup>2</sup>
 - Foi removido o suporte Windows 10 atualizações da versão 1809 devido a problemas de compatibilidade com Salas do Microsoft Teams cliente. Windows 10 suporte à versão 19H1 será adicionado em versões futuras
 
 <sup>1</sup> Microsoft Teams distribuição de serviço usando Teams anéis. Esse recurso pode estar disponível anterior ou posterior à atualização do cliente 4.0.105.0
 
-<sup>2</sup> Exige que os administradores de IT a Microsoft Whiteboard. Além disso, se você tiver uma tela frontal habilitada para toque da sala, deverá calibrar várias exibições de toque usando configurações de Windows com o logon do administrador do dispositivo para começar a usar o Microsoft Whiteboard para colaboração de uma exibição de sala compartilhada em uma reunião de Teams
+<sup>2</sup> Exige que os administradores de IT a Microsoft Whiteboard. Além disso, se você tiver uma tela frontal habilitada para toque da sala, deverá calibrar várias exibições de toque usando configurações de Windows com o logon do administrador do dispositivo para começar a usar o Microsoft Whiteboard para colaboração a partir de uma exibição de sala compartilhada em uma reunião de Teams
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
@@ -339,7 +345,7 @@ Introduzido nesta atualização:
 
 Introduzido nesta atualização:
 
-- Correção para o bug de "trava no início do aplicativo" que afetava dispositivos em uma com Windows 10 RS2 herdada.
+- Correção para o bug "trava no início do aplicativo" que afetava dispositivos em uma com Windows 10 RS2 herdada.
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 
@@ -348,8 +354,8 @@ Introduzido nesta atualização:
 - Teclado DTMF para reuniões Microsoft Teams P2P e chamadas PSTN. Para tornar Microsoft Teams cliente de chamada padrão, os administradores devem definir IsTeamsDefaultClient como true
 - Fixar o vídeo de entrada de um participante remoto na tela inteira na tela frontal da sala. Usar o comando "Pin" da lista de participantes no console
 - Melhorias nas notificações de lobby com adição de notificação de Front of Room
-- Ícone de transmissão de exibição de tela frontal da sala removido quando Bluetooth sinalizador não está habilitado no Salas do Microsoft Teams dispositivo
-- Correção de problemas de controle de volume em Teams reuniões
+- Ícone de transmissão de exibição na frente da sala removido quando Bluetooth sinalizador não está habilitado no Salas do Microsoft Teams dispositivo
+- Correção do problema de controle de volume em Teams reuniões
 
 ### <a name="40640-12142018"></a>4.0.64.0 (12/14/2018)
 
@@ -357,7 +363,7 @@ Introduzido nesta atualização:
 
 - Exibir conteúdo em ambos os front of room (FoR) é exibido em sistemas de sala de tela dupla
 - Temas e melhorias na interface do usuário do Front of Room
-- Suporte do lado do cliente TLS 1.2. Para clientes locais, a habilitação da comunicação por meio do TLS 1.2 para Salas do Microsoft Teams requer Skype for Business Server Atualização Cumulativa 9 (CU9) 2015 ou atualização cumulativa 1 do Skype for Business Server 2019 2019 (CU1).
+- Suporte do lado do cliente TLS 1.2. Para clientes locais, a habilitação da comunicação por meio do TLS 1.2 para o Salas do Microsoft Teams requer a atualização cumulativa 9 (CU9) do Skype for Business Server 2015 ou a Atualização Cumulativa 1 do Skype for Business Server 2019 2019 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 
@@ -389,8 +395,8 @@ Introduzido nesta atualização:
 
 Introduzido nesta atualização:
 
-- Melhorias do recurso "Relatar um Problema" no modo Teams (equivalente a "Dar feedback" no modo Skype for Business)
-- Habilitar a capacidade de voltar Teams modo Skype for Business chamadas SIP
+- Melhorias do recurso "Relatar um Problema" no modo Teams (equivalente a "Dar feedback" no Skype for Business modo)
+- Habilitar a capacidade de voltar do Teams para o Skype for Business para chamadas SIP
 - Melhorias de acessibilidade (Narrador, Lupa)
 - Reiniciar automaticamente o aplicativo quando necessário após as alterações de provisionamento XML foram aplicadas
 - Correções diversas
@@ -411,7 +417,7 @@ Introduzido nesta atualização:
 
 Introduzido nesta atualização:
 
-- Alterações que permitem que a Microsoft gerencie com mais flexibilidade Windows Atualizações.
+- Alterações que permitem que a Microsoft gerencie mais Windows Atualizações.
 - Nenhuma alteração na experiência do usuário final.
 
 ### <a name="311120-06052018"></a>3.1.112.0 (06/05/2018)
@@ -448,7 +454,7 @@ Introduzido nesta atualização:
 - Correções de bugs/falhas para melhorar a estabilidade
 - Suporte para console de tamanho variável
 - Descarregamento de processamento de áudio periférico (lista de permitir mídia adicional)
-- Otimizações que permitem aos profissionais de TI criar imagens do-it-yourself com Windows 10 Versão 1709 atualização de janeiro e posteriores.
+- Otimizações que permitem que os profissionais de TI criem imagens do -it-yourself com Windows 10 Versão 1709 atualização de janeiro e posteriores.
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
@@ -524,7 +530,7 @@ Introduzido nesta atualização:
 - Dispositivo always-on que acorda automaticamente as exibições quando detecta pessoas na sala
 - Implantação e atualização simples do aplicativo de Reunião do Skype da UWP (Plataforma Universal do Windows)
 - O Windows AppLocker bloqueia o dispositivo para o aplicativo de Reunião do Skype
-- Monitorado e gerenciado como um dispositivo Windows 10 Enterprise via Intune e o Configuration Manager (MDM)
+- Monitorado e gerenciado como um Windows 10 Enterprise por meio do Intune e do Configuration Manager (MDM)
 - Confiabilidade de nível empresarial
 - Esforço mínimo para usuários finais devido à semelhança com a interface do usuário do Skype
 - É executado no tablet Surface Pro 4
@@ -536,7 +542,7 @@ Introduzido nesta atualização:
 
 [Preparar seu ambiente](rooms-prep.md)
 
-[Suporte para Salas do Microsoft Teams versões atuais do Branch](rooms-lifecycle-support.md)
+[Suporte para versões Salas do Microsoft Teams Branch Atual](rooms-lifecycle-support.md)
 
 [Problemas conhecidos](known-issues.md)
 

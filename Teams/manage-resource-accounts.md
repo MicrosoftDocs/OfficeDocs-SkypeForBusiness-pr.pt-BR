@@ -20,19 +20,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos Microsoft Teams.
-ms.openlocfilehash: 11ba1600ca1da807711d4bd977abf1adfa09a612
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos em Microsoft Teams.
+ms.openlocfilehash: bc49142a5e40b0bb883761cde297d01d89a3f67b
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299026"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062555"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
-Uma conta de recurso é um objeto de usuário desabilitado no Azure AD e pode ser usada para representar recursos em geral. Por exemplo, uma conta de recurso pode ser usada Exchange para representar salas de conferência e permitir que elas tenham um número de telefone e um calendário. Uma conta de recurso pode ser Microsoft 365 ou local usando o Skype for Business Server 2019.
-
-Em Microsoft Teams, uma conta de recurso é necessária para cada atendimento automático ou fila de chamada. Contas de recursos também podem ser atribuídas a números de telefone de serviço. É assim que você atribui números de telefone a atendimentos automáticos e filas de chamadas permitindo que os chamadores de fora Teams para alcançar o atendimento automático ou fila de chamadas.
+No Microsoft Teams, uma conta de recurso é necessária para cada atendimento automático ou fila de chamada. Contas de recursos também podem ser atribuídas a números de telefone de serviço. É assim que você atribui números de telefone a atendimentos automáticos e filas de chamadas permitindo que os chamadores de fora Teams para alcançar o atendimento automático ou fila de chamadas.
 
 Este artigo aborda como criar contas de recursos e a preparar para uso com atendedores automáticos e filas de chamada.
 
@@ -42,7 +40,7 @@ Antes de iniciar os procedimentos neste artigo, verifique se você fez o seguint
 - [Obter números de serviço](#obtain-service-numbers)
 
 > [!NOTE]
-> As contas de recursos estão desabilitadas para entrar e devem permanecer assim. Chat e presença não são avaissaláveis para essas contas.
+> As contas de recursos usadas para atendimentos automáticos e filas de chamada estão desabilitadas para entrar e devem permanecer assim. Chat e presença não são avaissaláveis para essas contas.
 
 ### <a name="obtain-virtual-user-licenses"></a>Obter licenças de usuário virtual
 
@@ -50,7 +48,7 @@ Cada conta de recurso requer uma licença para trabalhar com atendimentos autom�
 
 Abrangemos como atribuir a licença a uma conta de recurso posteriormente neste artigo.
 
-Para obter a licença de Usuário Virtual, no Centro de administração do Microsoft 365, vá até **BillingPurchase** >  **servicesAdd-on** >  assinaturas e role até o final - você verá *Sistema de Telefonia - Licença* de Usuário Virtual. Selecione **Comprar agora**. Há um custo zero, mas você ainda precisa seguir estas etapas para adquirir a licença.
+Para obter a licença de Usuário Virtual, no Centro de administração do Microsoft 365, vá para **BillingPurchase** >  **servicesAdd-on** >  assinaturas e role até o final - você verá *Sistema de Telefonia - Licença* de Usuário Virtual. Selecione **Comprar agora**. Há um custo zero, mas você ainda precisa seguir estas etapas para adquirir a licença.
 
 ### <a name="obtain-service-numbers"></a>Obter números de serviço
 
@@ -68,7 +66,7 @@ Você pode criar uma conta de recurso no Teams de administração.
 
 ![Captura de tela da interface do usuário adicionar conta de recurso.](media/resource-account-add.png)
 
-1. No centro Teams de administração, **expanda o Voz** e clique em **Contas de recursos**.
+1. No centro Teams de administração, **expanda Voz** e clique em **Contas de recursos**.
 
 2. Clique em **Adicionar**.
 
@@ -80,11 +78,11 @@ Você pode criar uma conta de recurso no Teams de administração.
 
 ## <a name="assign-a-license"></a>Atribuir uma licença
 
-Para cada conta de recurso, você deve atribuir uma Microsoft 365 Sistema de Telefonia *- Licença* de usuário virtual *ou Sistema de Telefonia* licença.
+Para cada conta de recurso, você deve atribuir uma Microsoft 365 Sistema de Telefonia *- licença* de usuário virtual *ou Sistema de Telefonia* licença.
 
 ![Captura de tela da interface do usuário atribuir licenças no Centro de administração do Microsoft 365.](media/resource-account-assign-virtual-user-license.png)
 
-1. Na Centro de administração do Microsoft 365, clique na conta de recurso à qual deseja atribuir uma licença.
+1. Na Centro de administração do Microsoft 365, clique na conta de recurso à qual você deseja atribuir uma licença.
 
 2. Na guia **Licenças e Aplicativos**, em **Licenças**, **selecione Microsoft 365 Sistema de Telefonia - Usuário Virtual**.
 
@@ -98,7 +96,7 @@ Se você estiver planejando usar a conta de recurso com um atendimento automáti
 
 1. No centro Teams de administração, na página Contas de recursos, selecione a conta de recurso à qual você deseja atribuir um número de serviço e clique em Atribuir **/desatribuição**.
 
-2. Na lista **Telefone de tipo de** número, escolha o tipo de número que você deseja usar.
+2. Na lista **Telefone de tipos de** número, escolha o tipo de número que você deseja usar.
 
 3. Na caixa **Número de telefone atribuído** , pesquise o número que deseja usar e clique em **Adicionar**.
 
@@ -123,14 +121,14 @@ Você pode editar a conta de recurso **Nome de exibição** e **tipo de** conta 
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Alterar uma conta de recurso existente para usar uma licença de usuário virtual
 
-Se você decidir alternar as licenças em sua conta de recurso existente de uma licença de Sistema de Telefonia para uma licença de Usuário Virtual, precisará adquirir **a** licença de usuário virtual gratuita e, em seguida, seguir as etapas no Centro de administração do Microsoft 365 para [Mover](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription) usuários para uma assinatura diferente.
+Se você decidir alternar as licenças em sua conta de recurso existente de uma licença de Sistema de Telefonia para uma licença de Usuário Virtual, você precisará adquirir **a** licença de Usuário Virtual gratuita e, em seguida, seguir as etapas no Centro de administração do Microsoft 365 para [Mover](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription) usuários para uma assinatura diferente.
 
 > [!WARNING]
 > Sempre remova uma licença de Sistema de Telefonia e atribua a licença de Usuário Virtual na mesma atividade de licença. Se você remover a licença antiga, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta de recurso poderá não funcionar mais conforme esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para a licença de Usuário Virtual e remova a conta de recurso quebrada.
 
 ## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
 
-Para contas de recursos ativas no Skype For Business Server 2019 que podem ser usadas com filas de chamada na nuvem e atendentes automáticos na nuvem, consulte [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Implementações híbridas (números que estão no Roteamento Direto) são configuradas usando o cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) em um servidor local Skype for Business Server 2019.
+Para contas de recursos ativas no Skype For Business Server 2019 que podem ser usadas com filas de chamada na nuvem e atendentes automáticos na nuvem, consulte [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Implementações híbridas (números em roteamento direto) são configuradas usando o cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) em um servidor local Skype for Business Server 2019.
 
 As IDs do aplicativo que você precisa usar ao criar as instâncias do aplicativo são:
 
