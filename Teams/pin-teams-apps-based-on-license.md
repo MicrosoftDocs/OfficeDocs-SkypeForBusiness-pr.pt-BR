@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4520d34c62829e2db50cc18d0edcc6450a440f25
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 34614a6c1b45ea9660552b77b7c91d87e5c30d5f
+ms.sourcegitcommit: 2d4dab7a6436e53db9475d67695504753896ca86
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062745"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "63065239"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personalizar seus aplicativos Teams com base na licença
 
@@ -42,13 +42,13 @@ Os aplicativos são fixados na barra de aplicativos, que é a barra no lado do c
 
 Aplicativos fixados para usuários que têm uma licença F:
 
-- Atividade
-- Bate-papo
-- Teams
-- Walkie Talkie
-- Tarefas
-- Turnos
-- Aprovações
+- [Atividade](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
+- [Chat](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
+- [Microsoft Teams](https://support.microsoft.com/office/teams-and-channels-in-microsoft-teams-c6d0e61d-a61e-44a6-a972-04f2a8fa4155)
+- [Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
+- [Tarefas](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)
+- [Turnos](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
+- [Aprovações](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)
 
 ## <a name="admin-controls"></a>Controles de administrador
 
@@ -66,7 +66,7 @@ Esse recurso está habilitado por padrão. No entanto, se você não quiser a ex
 
 ## <a name="scenarios"></a>Cenários
 
-Use as informações nesta tabela para saber como o recurso de experiência de aplicativo personalizado funciona em vários cenários, incluindo quando você aplicou políticas de configuração de aplicativos existentes.
+Use as informações nesta tabela para saber como a experiência de aplicativo personalizada funciona em vários cenários, incluindo quando você aplicou políticas de configuração de aplicativos existentes.
 
 |Se...  |Em seguida, ... |
 |---------|---------|
@@ -83,5 +83,9 @@ Use as informações nesta tabela para saber como o recurso de experiência de a
 
 ## <a name="related-articles"></a>Artigos relacionados
 
+- [Gerenciar o aplicativo Walkie Talkie no Teams](walkie-talkie.md)
+- [Gerenciar o aplicativo Tarefas em Teams](manage-tasks-app.md)
+- [Gerenciar o aplicativo Shifts no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+- [Gerenciar o aplicativo Aprovações em Teams](approval-admin.md)
 - [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
 - [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)
