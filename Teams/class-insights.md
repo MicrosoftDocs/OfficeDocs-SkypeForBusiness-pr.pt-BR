@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01fc283f8787ad659678b4e09ad3f573f34eb66d
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363027"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062685"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -135,6 +135,7 @@ Atualmente, os dados são coletados das seguintes áreas nas equipes de classe:
 | **Reuniões** |    Participação (não incluindo o conteúdo da reunião).|
 | **[Progresso da Leitura](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    Taxa de precisão, palavras mais desafiadoras e palavras por minuto.  |
 | **[Refletir](reflect.md)** |   Check-ins (incluindo valores).|
+| **Coach de Carreira** | O aluno fornecem uma especialização (campo de estudo) e ano de graduação, bem como suas atividades no aplicativo Coach de carreira, incluindo: habilidades, interesse de habilidades, interesses de carreira, interesses de aprendizagem e atividades relacionadas à carreira.|
 
 > [!NOTE]
 > A maioria dos dados coletados aparece no Insights dentro de poucos minutos. A participação em reuniões de classe (reuniões associadas a um dos canais de classe) aparece algumas horas após o final da reunião, geralmente até 24 horas depois.
@@ -239,12 +240,24 @@ A utilização do Insights *não* requer o uso do SDS. No entanto, você pode op
 
 * Para ativá-lo novamente, siga as instruções em [Como implantar o SDS para o Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
-### <a name="how-to-delete-your-data"></a>Como excluir seus dados
-O Insights armazena as ações de alunos e educadores realizadas no contexto de uma equipe de classe. Esses dados são considerados um conjunto de dados combinados e, portanto, não são excluídos automaticamente do serviço depois que as contas de usuários dos alunos ou educadores são excluídas da sua organização.
-Nota: A exclusão de dados prejudica a capacidade do Insights de analisar o envolvimento da equipe de classe ao longo do tempo.
-* [Criar um tíquete de suporte](https://aka.ms/edusupport). O tíquete de suporte deve declarar claramente a solicitação de uma operação GDPR Delete DSR e conter a ID de objeto de usuário a ser excluída. Não é possível limitar o conjunto de dados ou a janela de tempo da exclusão.
-*   Uma vez arquivado, o tíquete de suporte aguarda na fila por uma semana para atender à política de retenção mínima de conformidade. Você tem a oportunidade de cancelar a operação durante esse período.
-*   Após uma semana, a equipe do Insights para Educação assegura que todos os dados relacionados à ID do usuário sejam excluídos do serviço. O suporte da Microsoft monitora o tíquete e o notificará assim que o processo de exclusão estiver concluído, no máximo em 28 dias.
+### <a name="how-to-delete-user-data-from-education-insights"></a>Como excluir dados do usuário do Insights para Educação
+O Insights armazena atividades de alunos e educadores realizadas no Microsoft Teams para Educação.
+
+Há dois tipos de dados coletados pelo Insights:
+* **Dados combinados** – dados gerados como parte das atividades de aprendizagem de classe.
+* **Dados não combinados (privados)** – dados coletados pela atividade dos alunos no Teams para Educação que não fazem parte da atividade de aprendizagem de classe. 
+
+Os dados completos coletados pelo Insights estão listados [aqui](class-insights.md#data-collection).
+
+Para fornecer completude e integridade dos dados de períodos anteriores para educadores e líderes educacionais, por padrão, o Insights não exclui automaticamente os dados do serviço quando as contas de usuário de um aluno ou educador são encerradas. O administrador de IT da organização pode solicitar a exclusão manual de dados de um usuário (educador ou aluno), seguindo as seguintes etapas:
+* Abra um [tíquete de suporte](https://aka.ms/edusupport). O tíquete de suporte deve declarar claramente a solicitação de uma operação GDPR Delete DSR e conter a ID de objeto de usuário a ser excluída.
+Não é possível limitar o conjunto de dados ou a janela de tempo da exclusão.
+* Na solicitação, o Administrador de IT deve dizer claramente o tipo de dados desse usuário que precisa ser excluído, usando as seguintes opções:
+  - Todos os dados (combinados e privados)
+  - Todos os dados privados 
+  - Somente dados do Coach de carreira
+* Uma vez arquivado, o tíquete de suporte aguarda na fila por uma semana para atender à política de retenção mínima de conformidade. Você tem a oportunidade de cancelar a operação durante esse período.
+* Após uma semana, a equipe do Insights para Educação garante que todos os dados relacionados à ID de usuário do tipo específico, conforme descrito acima, serão excluídos do serviço. O suporte da Microsoft monitora o tíquete e o notificará assim que o processo de exclusão estiver concluído, no máximo em 28 dias
 
 ## <a name="troubleshooting"></a>Solução de problemas
 ### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>Por que minha instituição não vê nenhum dado no Insights?
