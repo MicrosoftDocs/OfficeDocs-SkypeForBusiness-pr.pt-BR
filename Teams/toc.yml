@@ -1389,6 +1389,8 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: Logs de Auditoria para atividades de Salas
             href: rooms/multi-tenant-auditing.md
+          - name: Planejador de Padrões e Salas
+            href: rooms/standards-and-room-planner.md
       - name: Dispositivos
         items:
           - name: Gerenciar seus dispositivos no Teams
