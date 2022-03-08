@@ -3,9 +3,9 @@ title: Aplicativos, bots e conectores no Microsoft Teams
 ms.reviewer: ''
 description: Saiba mais sobre aplicativos, bots e conectores, e como decidir quais implantar no Microsoft Teams com base no perfil e requisitos de negócios da sua organização.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: admin
 ms.date: 02/10/2021
 ms.service: msteams
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2789e522e666894ca58c8b22e9d571b35a4fb26
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618507"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070390"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Aplicativos, bots e conectores no Microsoft Teams
 
@@ -37,7 +37,7 @@ O Teams vem com um conjunto de aplicativos integrados, incluindo listas, Tarefas
 
 ## <a name="use-third-party-apps"></a>Usar aplicativos de terceiros
 
-Além dos aplicativos fornecidos pela Microsoft, você pode usar aplicativos de terceiros certificados pela Microsoft. A Microsoft trabalha com os parceiros desenvolvedores do Microsoft 365 para fornecer as informações necessárias para agilizar as decisões sobre o uso de aplicativos e suplementos do Teams. Para obter mais informações, confira [Segurança e Conformidade de Aplicativos do Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
+Além dos aplicativos fornecidos pela Microsoft, você pode usar aplicativos de terceiros certificados pela Microsoft. A Microsoft trabalha com parceiros desenvolvedores do Microsoft 365 para fornecer as informações necessárias para agilizar as decisões sobre o uso de aplicativos e suplementos do Teams. Para obter mais informações, consulte [Segurança e Conformidade de aplicativos do Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
 
 ## <a name="use-teams-templates"></a>Usar modelos do Teams
 
@@ -69,7 +69,7 @@ Por padrão, todos os aplicativos fornecidos por terceiros, aprovados pela Micro
 
 ### <a name="app-permissions-and-other-considerations"></a>Permissões de aplicativos e outras considerações
 
-Os aplicativos são aceitos pelos usuários e gerenciados pelo administrador ou pelo profissional de TI através das políticas. No entanto, na maioria das vezes, as permissões e o perfil de risco de um aplicativo são definidos no próprio aplicativo. 
+Os aplicativos são aceitos pelos usuários e gerenciados pelo administrador ou pelo profissional de TI através das políticas. No entanto, as permissões do aplicativo e o perfil de risco são definidos no próprio aplicativo.
 
 | Pergunte-se | Ação |
 |--------------|--------|
@@ -80,7 +80,7 @@ Os aplicativos são aceitos pelos usuários e gerenciados pelo administrador ou 
 
 Os bots são programas automatizados que respondem a consultas ou fornecem atualizações e notificações sobre detalhes que os usuários consideram interessantes ou sobre os quais desejam se manter informados. Os bots permitem que os usuários interajam com serviços de nuvem, como gerenciamento de tarefas, agendamento e pesquisa através de um chat no Teams. O Teams oferece suporte a bots em chats privados e canais. Os administradores podem controlar se o uso de bots é permitido em uma organização do Microsoft 365 ou do Office 365.
 
-| Pergunte a si mesmo | Action |
+| Pergunte a si mesmo | Ação |
 |--------------|--------|
 |Desejo permitir bots personalizados na minha organização?|Para saber mais sobre a adição de bots, confira [Adicionar bots para canais e chats privados no Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). Para obter mais informações sobre a ativação ou desativação de bots personalizados, confira [Configurações de administrador para aplicativos no Microsoft Teams](admin-settings.md).|
 |||
@@ -89,7 +89,7 @@ Os bots são programas automatizados que respondem a consultas ou fornecem atual
 
 Os proprietários e membros da equipe podem incluir guias em um canal, chat privado e chat em grupo para ajudar a integrar seus serviços de nuvem. Adicione guias para ajudar os usuários a acessar e gerenciar os dados que eles mais usam ou que mais precisam. Nos canais, as guias Conversas e Arquivos são criadas por padrão. Em cada chat privado, as guias Conversas, Arquivos, Organização e Atividade são criadas por padrão. Além dessas guias internas, você pode criar e adicionar guias personalizadas. Para saber como ativar ou desativar os aplicativos Teams de sua organização, leia [Configurações de administrador para aplicativos no Teams](admin-settings.md).
 
-| Pergunte-se | Action |
+| Pergunte-se | Ação |
 |--------------|--------|
 |Desejo permitir guias personalizadas na minha organização?|Para obter mais informações, confira [Configurar as guias internas e personalizadas no Teams](built-in-custom-tabs.md).|
 |||
