@@ -13,16 +13,16 @@ f1.keywords:
 description: Uma visão geral da solução de centro de contato integrado como serviço (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7593264efff9935df0606c1fad7e32006ea52c44
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 52de716c35e934e13140af278814a93620dd4962
+ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863904"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63073739"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações de contact center para Microsoft Teams
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações de central de contatos para Microsoft Teams
 
-  Este artigo fornece uma visão geral de como as soluções de contact center podem ser integradas ao Microsoft Teams e aos provedores de soluções que participam do programa de certificação Microsoft Teams Central de Contatos Conectados.
+  Este artigo fornece uma visão geral de como as soluções de central de contatos podem ser integradas ao Microsoft Teams e aos provedores de soluções participantes do programa de certificação Microsoft Teams Central de Contatos Conectados.
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>O que é a integração do contact center Microsoft Teams?
 
@@ -35,7 +35,7 @@ Para organizações que querem soluções com ferramentas de negócios e fluxos 
 
 O centro de contato Conectado para Microsoft Teams de certificação verifica se a solução de cada provedor participante fornece a qualidade, a compatibilidade e a confiabilidade esperadas das soluções da Microsoft.
 
-Se você é uma organização que procura uma solução integrada de contact center, consulte [](https://cloudpartners.transform.microsoft.com/contact-center-solutions) Soluções Microsoft Teams certificadas para centros de contato para uma lista de provedores de soluções certificados e consulte [Connected Contact Center solutions](#connected-contact-center-solutions) for a list of providers in the process of certification.
+Se você é uma organização que procura uma solução integrada de contact center, consulte Soluções Microsoft Teams certificadas para contact [centers](https://cloudpartners.transform.microsoft.com/contact-center-solutions) para uma lista de provedores de soluções certificados e consulte [Connected Contact Center solutions](#connected-contact-center-solutions) for a list of providers in the process of certification.
 
 Se você for um fornecedor que está tentando ingressar no programa de certificação, envie um email <Teamscategorypartner@microsoft.com>.
 
@@ -44,7 +44,7 @@ Se você for um fornecedor que está tentando ingressar no programa de certifica
 
 ## <a name="connected-contact-center-solutions"></a>Soluções de central de contatos conectadas
 
-Os provedores a seguir oferecem soluções de contact center integradas Teams usando um dos modelos de integração Conexão, Estender ou Power.
+Os provedores a seguir oferecem soluções de contact center integradas ao Teams usando um dos modelos de integração Conexão, Estender ou Power.
 
 ### <a name="certified-solutions"></a>Soluções certificadas
 
@@ -60,6 +60,7 @@ Os provedores a seguir oferecem soluções de contact center integradas Teams us
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Tendfor` | https://www.tendfor.com                                                            |
 
 ### <a name="solutions-currently-in-the-certification-process"></a>Soluções atualmente no processo de certificação
 
@@ -78,6 +79,5 @@ Os provedores a seguir oferecem soluções de contact center integradas Teams us
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
-| `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 Essa lista será atualizada à medida que mais provedores de soluções ingressarem e atenderem aos critérios de certificação.

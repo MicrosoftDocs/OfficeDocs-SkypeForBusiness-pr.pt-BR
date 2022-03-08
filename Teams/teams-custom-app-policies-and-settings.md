@@ -1,40 +1,45 @@
 ---
 title: Gerenciar políticas e configurações personalizadas de aplicativos
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: akino
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar políticas e configurações de aplicativos personalizadas para controlar quem em sua organização pode carregar aplicativos personalizados em Microsoft Teams.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-  - ms.teamsadmincenter.appsetuppolicies.allowsideloading
-  - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
-  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-  - seo-marvel-mar2020
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+- ms.teamsadmincenter.appsetuppolicies.allowsideloading
+- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+- seo-marvel-mar2020
+ms.openlocfilehash: 391c852edc1eef06c41277a43661fc1cf15b7cd6
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070350"
 ---
-
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 
 > [!NOTE]
-> Para usar o App Studio, confira Começar [na plataforma Microsoft Teams com o C#/.NET e o App Studio](/microsoftteams/platform/get-started/get-started-dotnet-app-studio) A última etapa ainda não está funcionando, portanto, você precisará baixar o [Upload](/microsoftteams/platform/concepts/apps/apps-upload) zip e instalá-lo da maneira antiga em um pacote de aplicativos para Microsoft Teams.
+> Para usar o App Studio, confira Começar [na plataforma Microsoft Teams com o C#/.NET e o App Studio](/microsoftteams/platform/get-started/get-started-dotnet-app-studio) A última etapa ainda não está funcionando, portanto, você precisará baixar o zip e instalá-lo da maneira antiga no [Upload](/microsoftteams/platform/concepts/apps/apps-upload) um pacote de aplicativos para Microsoft Teams.
 
 Como administrador, você pode usar políticas e configurações de aplicativo personalizadas para controlar quem em sua organização pode carregar aplicativos personalizados para Microsoft Teams. Os administradores decidem quais usuários podem carregar aplicativos personalizados, e os administradores e proprietários de equipe podem determinar se equipes específicas em sua organização permitem que aplicativos personalizados sejam adicionados a eles.  Depois de editar a política de aplicativo personalizada, pode levar algumas horas para que as alterações entre em vigor. Você deve ser um administrador global ou administrador de serviços do Teams para gerenciar essas políticas.
 
 ## <a name="overview-of-custom-apps"></a>Visão geral dos aplicativos personalizados
 
-Os usuários podem adicionar um aplicativo personalizado ao Teams carregando um pacote de aplicativos (em um arquivo .zip) diretamente para uma equipe ou no contexto pessoal. Isso é diferente de como os aplicativos são adicionados por meio do Teams de aplicativos. Adicionar um aplicativo personalizado carregando um pacote de aplicativos, também conhecido como sideload, permite testar um aplicativo enquanto ele está sendo desenvolvido, antes de estar pronto para ser amplamente distribuído. Ele também permite que você crie um aplicativo apenas para uso interno e compartilhe-o com sua equipe sem enviar para o catálogo de aplicativos Teams no Teams app store.
+Os usuários podem adicionar um aplicativo personalizado Teams carregando um pacote de aplicativos (em um arquivo .zip) diretamente para uma equipe ou no contexto pessoal. Isso é diferente de como os aplicativos são adicionados por meio do Teams de aplicativos. Adicionar um aplicativo personalizado carregando um pacote de aplicativos, também conhecido como sideload, permite testar um aplicativo enquanto ele está sendo desenvolvido, antes de estar pronto para ser amplamente distribuído. Ele também permite que você crie um aplicativo apenas para uso interno e compartilhe-o com sua equipe sem enviar para o catálogo de aplicativos Teams no Teams app store.
 
 ![Captura de tela mostrando o carregamento de uma opção de aplicativo personalizada na loja de aplicativos.](media/teams-custom-app-policy-and-settings-upload-app.png)
 
@@ -119,10 +124,10 @@ Por exemplo, você deseja permitir que apenas proprietários de equipe carreguem
 
 |Configuração de aplicativo personalizado em toda a organização |Configuração de aplicativo personalizado de equipe |Política de aplicativo personalizado do usuário |Efeito  |
 |---------|---------|---------|---------|
-| Desabilitado    | Desabilitado    | Desabilitado     |A interação com todos os aplicativos personalizados é bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por ninguém, exceto um administrador Teams serviço ou um administrador global. Você pode usar o PowerShell para remover o aplicativo personalizado.   |
-| Desabilitado     | Desabilitado     | Habilitado        |A interação com todos os aplicativos personalizados é bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por ninguém, exceto um administrador Teams serviço ou um administrador global. Você pode usar o PowerShell para remover o aplicativo personalizado.         |
-| Desabilitado    | Habilitado        | Desabilitado        |A interação com todos os aplicativos personalizados é bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por ninguém, exceto um administrador Teams serviço ou um administrador global. Você pode usar Windows PowerShell para excluir aplicativos personalizados.         |
-| Desabilitado    | Habilitado      | Habilitado       |A interação com todos os aplicativos personalizados é bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por ninguém, exceto um administrador Teams serviço ou um administrador global. Você pode usar o PowerShell para remover o aplicativo personalizado.         |
+| Desabilitado    | Desabilitado    | Desabilitado     |A interação com todos os aplicativos personalizados é bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por ninguém, exceto por um administrador Teams serviço ou um administrador global. Você pode usar o PowerShell para remover o aplicativo personalizado.   |
+| Desabilitado     | Desabilitado     | Habilitado        |A interação com todos os aplicativos personalizados é bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por ninguém, exceto por um administrador Teams serviço ou um administrador global. Você pode usar o PowerShell para remover o aplicativo personalizado.         |
+| Desabilitado    | Habilitado        | Desabilitado        |A interação com todos os aplicativos personalizados é bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por ninguém, exceto por um administrador Teams serviço ou um administrador global. Você pode usar Windows PowerShell para excluir aplicativos personalizados.         |
+| Desabilitado    | Habilitado      | Habilitado       |A interação com todos os aplicativos personalizados é bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por ninguém, exceto por um administrador Teams serviço ou um administrador global. Você pode usar o PowerShell para remover o aplicativo personalizado.         |
 | Habilitado    | Desabilitado       | Desabilitado         |  O usuário não pode carregar aplicativos personalizados.      |
 | Habilitado     | Desabilitado       | Habilitado         | Se o usuário for um proprietário de equipe, ele poderá carregar aplicativos personalizados para a equipe. Se o usuário não for um proprietário de equipe, ele não poderá carregar aplicativos personalizados para a equipe. O usuário pode carregar aplicativos personalizados no contexto pessoal.     |
 | Habilitado     | Habilitado     | Desabilitado         | O usuário não pode carregar aplicativos personalizados.       |

@@ -1,8 +1,8 @@
 ---
 title: Usar Microsoft 365 e conectores personalizados
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -17,27 +17,27 @@ description: Os conectores mantêm sua equipe atualizada com conteúdo e atualiz
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e3cc7bcd060caf737b23193e006dad20e316eec7
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 39bc677b57a0cec5381c0d8f05b33d18b072769f
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011765"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070720"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Use Microsoft 365 conectores personalizados e Microsoft Teams 
 
-Os conectores mantêm sua equipe atual, fornecendo atualizações de conteúdo e serviço usados com frequência diretamente em um canal. Com conectores, os usuários Microsoft Teams podem receber atualizações de serviços populares, como Trello, Wunderlist, GitHub e Azure DevOps Services no fluxo de chat em sua equipe. 
+Os conectores mantêm sua equipe atual, fornecendo atualizações de conteúdo e serviço usados com frequência diretamente em um canal. Com conectores, Microsoft Teams usuários podem receber atualizações de serviços populares, como Trello, Wunderlist, GitHub e Azure DevOps Services no fluxo de chat em sua equipe. 
 
 Qualquer membro de uma equipe pode conectar sua equipe a serviços de nuvem populares com os conectores se as permissões de equipe permitirem e todos os membros da equipe são notificados das atividades desse serviço. Os conectores continuarão a funcionar mesmo depois que o membro que tiver configurado inicialmente o conector tiver sido deixado. Qualquer membro da equipe com as permissões para adicionar\remover pode modificar a configuração de conectores por outros membros.
 
 Microsoft 365 conectores podem ser usados com grupos de Microsoft Teams e Microsoft 365, facilitando que todos os membros fiquem em sincronia e recebam informações relevantes rapidamente. O Microsoft Teams e o Exchange usam o mesmo modelo de conector, permitindo que você use os mesmos conectores em ambas as plataformas. No entanto, vale a pena notar que desabilitar conectores para o grupo Microsoft 365 que uma equipe depende desabilitará a capacidade de criar conectores para essa equipe também.
 
 > [!NOTE]
-> Os conectores são desabilitados por padrão nos ambientes de nuvem governamental Community (GCC). Se você precisar habilita-los, desmarque os parâmetros ConnectorsEnabled ou ConnectorsEnabledForTeams para $true com o cmdlet SetOrganizationConfig. Você precisa se conectar ao [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
+> Os conectores são desabilitados por padrão nos ambientes de Community (GCC) do Governo. Se você precisar habilita-los, desmarque os parâmetros ConnectorsEnabled ou ConnectorsEnabledForTeams para $true com o cmdlet SetOrganizationConfig. Você precisa se conectar ao [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
 
 ## <a name="add-a-connector-to-a-channel"></a>Adicionar um conector a um canal
 
-Atualmente, você pode adicionar conectores usando Microsoft Teams de área de trabalho e web. No entanto, as informações postadas por esses conectores podem ser exibidas em **todos os clientes,** incluindo móveis.
+Atualmente, você pode adicionar conectores usando Microsoft Teams da área de trabalho e da Web. No entanto, as informações postadas por esses conectores podem ser exibidas em **todos os clientes,** incluindo móveis.
 
 1. Para adicionar um conector a um canal, clique nas **releições (...),** à direita de um nome de canal e clique em **Conectores**.
 

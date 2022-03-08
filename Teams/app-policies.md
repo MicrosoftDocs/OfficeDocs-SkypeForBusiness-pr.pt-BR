@@ -1,8 +1,8 @@
 ---
 title: Gerenciar políticas de aplicativos Teams
-author: karlistites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52fffd29519ea97bf95bc98c1b3de8140667e0b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 691ad4a26a4d396b6f06dd478bd0012a94861d4f
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610388"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070540"
 ---
 # <a name="manage-app-policies-in-microsoft-teams"></a>Gerenciar políticas de aplicativo em Microsoft Teams
 
@@ -40,7 +40,7 @@ As políticas de aplicativos são usadas para controlar aplicativos Microsoft Te
 
 ## <a name="custom-app-policies"></a>Políticas de aplicativo personalizadas
 
-Você pode controlar quem pode carregar aplicativos personalizados para Teams com **políticas de aplicativos personalizadas.** [As configurações e políticas personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) são gerenciadas por meio do Microsoft Teams de administração.
+Você pode controlar quem pode carregar aplicativos personalizados para Teams com políticas **de aplicativos personalizadas**. [As configurações e políticas personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) são gerenciadas por meio do Microsoft Teams de administração.
 
 ![Captura de tela da política de aplicativo personalizada.](media/custom-app-policy.png)
 

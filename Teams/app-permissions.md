@@ -1,8 +1,8 @@
 ---
 title: Permissões e considerações dos aplicativos Microsoft Teams
-author: rmw2890
-ms.author: rowille
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15892a4eb3996923f7a0129805e2bb542cdc8d7c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 59d8303943b8912f7ed0578bd911b633b618f113
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731780"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070550"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
-Microsoft Teams aplicativos são uma maneira de agregar  um ou mais recursos em um pacote de aplicativos que podem ser instalados, atualizados e desinstalados. Os recursos incluem:
+Microsoft Teams aplicativos são uma maneira de agregar um ou mais recursos em um pacote  de aplicativos que podem ser instalados, atualizados e desinstalados. Os recursos incluem:
 
 - Bots
 - Extensões de mensagens
@@ -37,13 +37,13 @@ Microsoft Teams aplicativos são uma maneira de agregar  um ou mais recursos em 
 
 Os aplicativos são consentidos pelos usuários e gerenciados por IT de uma perspectiva de política. No entanto, na maioria das partes, as permissões e o perfil de risco de um aplicativo são definidos pelas permissões e perfis de risco dos recursos que o aplicativo contém. Portanto, este artigo se concentra em permissões e considerações no nível de funcionalidade.
 
-As permissões listadas abaixo em letras [maiúsculas,](/graph/permissions-reference)por exemplo, RECEIVE_MESSAGE e REPLYTO_MESSAGE, não aparecem em qualquer lugar na documentação do [desenvolvedor Microsoft Teams](/microsoftteams/platform/overview) ou nas permissões do Microsoft Graph . Eles são simplesmente uma taquigrafia descritiva para a finalidade deste artigo.
+As permissões listadas abaixo em letras maiúsculas, por exemplo, RECEIVE_MESSAGE e REPLYTO_MESSAGE, não aparecem em qualquer lugar na documentação do desenvolvedor [Microsoft Teams](/microsoftteams/platform/overview) ou nas permissões do [Microsoft Graph](/graph/permissions-reference). Eles são simplesmente uma taquigrafia descritiva para a finalidade deste artigo.
 
 
 | Título   | Descrição    |
 |-----------|------------|
-| ![Um ícone que representa um ponto de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas abaixo como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
-| ![Um ícone que representa a próxima etapa.](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se você deseja permitir o acesso a ele em sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para bots personalizados da empresa, eles estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot exige essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
+| ![Um ícone representando um ponto de decisão.](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas abaixo como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
+| ![Um ícone representando o passo seguinte.](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se você deseja permitir o acesso a ele em sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para bots personalizados da empresa, eles estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot exige essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
 
 Consulte também [Solicitar permissões de dispositivo para sua Microsoft Teams guia](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
 
@@ -63,7 +63,7 @@ Nenhum
 
 - [O consentimento específico do recurso](resource-specific-consent.md) fornece um conjunto de permissões que os aplicativos podem solicitar, que aparece na tela de instalação do aplicativo. Para saber mais sobre permissões de consentimento específicas do recurso, [consulte Graph referência de permissões](/graph/permissions-reference#teams-resource-specific-consent-permissions).
 
-- Os aplicativos também podem precisar de permissões diferentes de permissões de consentimento específicas do recurso. Depois que um aplicativo é instalado, o aplicativo pode solicitar Graph permissões por meio de um prompt de consentimento. Para saber mais, consulte [Understanding Azure AD application consent experiences](/azure/active-directory/develop/application-consent-experience). Você pode configurar permissões de API e consentimento no portal do Azure. Para saber mais, consulte [Azure Active Directory de consentimento.](/azure/active-directory/develop/consent-framework)
+- Os aplicativos também podem precisar de permissões diferentes de permissões de consentimento específicas do recurso. Depois que um aplicativo é instalado, o aplicativo pode solicitar Graph permissões por meio de um prompt de consentimento. Para saber mais, confira [Noções básicas sobre experiências de consentimento de aplicativos do Azure AD](/azure/active-directory/develop/application-consent-experience). Você pode configurar permissões de API e consentimento no portal do Azure. Para saber mais, consulte [Azure Active Directory de consentimento](/azure/active-directory/develop/consent-framework).
 
 ## <a name="bots-and-messaging-extensions"></a>Bots e extensões de mensagens
 
@@ -107,7 +107,7 @@ Nenhum
 
 - Quando um arquivo é enviado para um bot, o arquivo deixa a rede corporativa. O envio e recebimento de arquivos requer aprovação do usuário para cada arquivo. 
 
-- Por padrão, os bots não têm a capacidade de agir em nome do usuário, mas os bots podem pedir aos usuários para entrar; assim que o usuário entrar, o bot terá um token de acesso com o qual poderá fazer coisas adicionais. Exatamente o que essas coisas adicionais são depende do bot e de onde o usuário faz o acesso: um bot é um aplicativo do Azure AD registrado e pode ter seu próprio conjunto https://apps.dev.microsoft.com/ de permissões.
+- Por padrão, os bots não têm a capacidade de agir em nome do usuário, mas os bots podem pedir aos usuários para entrar; assim que o usuário entrar, o bot terá um token de acesso com o qual poderá fazer coisas adicionais. Exatamente o que essas coisas adicionais são depende do bot e de onde o usuário faz o acesso: um bot é um aplicativo do Azure AD https://apps.dev.microsoft.com/ registrado e pode ter seu próprio conjunto de permissões.
 
 - Os bots são informados sempre que os usuários são adicionados ou excluídos de uma equipe.
 
@@ -117,9 +117,9 @@ Nenhum
 
 - As diretrizes do aplicativo (e nosso processo de revisão do AppSource) exigem discrição na postagem de mensagens de chat pessoais aos usuários (por meio da permissão POST_MESSAGE_TEAM) para fins válidos. Em caso de abuso, os usuários podem bloquear o bot, os administradores de locatários podem bloquear o aplicativo e a Microsoft pode bloquear os bots centralmente, se necessário.
 
-<sup>1</sup> Alguns bots só enviam mensagens (POST_MESSAGE_USER). Eles são chamados de bots "somente notificação", mas o termo não se refere ao que um bot é permitido ou não pode fazer, isso significa que o bot não quer expor uma experiência de conversa. Teams usa esse campo para desabilitar a funcionalidade na interface do usuário que normalmente seria habilitada; o bot não é restrito no que é permitido fazer em comparação com bots que expõem uma experiência de conversa.
+<sup>1</sup> Alguns bots só enviam mensagens (POST_MESSAGE_USER). Eles são chamados de bots "somente notificação", mas o termo não se refere ao que um bot é permitido ou não pode fazer, isso significa que o bot não quer expor uma experiência de conversa. Teams usa esse campo para desabilitar a funcionalidade na interface do usuário que normalmente seria habilitada; o bot não é restrito no que ele tem permissão para fazer em comparação com bots que expõem uma experiência de conversa.
 
-<sup>2</sup> Governada pela propriedade supportsFiles Boolean no objeto bot no arquivo manifest.json para o aplicativo.
+<sup>2</sup> Governada pela propriedade supportsFiles Boolean no objeto bot no arquivo manifest.json do aplicativo.
 
 > [!NOTE]
 > Se um bot tiver sua própria assinatura, haverá uma segunda experiência de consentimento diferente na primeira vez em que o usuário entrar.
@@ -142,7 +142,7 @@ Nenhum (no momento)
 
 - O perfil de risco de uma guia é quase idêntico ao mesmo site em execução em uma guia do navegador. 
 
-- Uma guia também obtém o contexto em que está sendo executado, incluindo o nome de login e o UPN do usuário atual, a ID do Objeto do Azure AD para o usuário atual, a ID do grupo Microsoft 365 no qual ele reside (se for uma equipe), a ID do locatário e a localidade atual do usuário. No entanto, para mapear essas IDs para as informações de um usuário, a guia teria que fazer o usuário entrar no Azure AD.
+- Uma guia também obtém o contexto no qual está sendo executado, incluindo o nome de login e o UPN do usuário atual, a ID do Objeto do Azure AD para o usuário atual, a ID do grupo Microsoft 365 no qual ele reside (se for uma equipe), a ID do locatário e a localidade atual do usuário. No entanto, para mapear essas IDs para as informações de um usuário, a guia teria que fazer o usuário entrar no Azure AD.
 
 ## <a name="connectors"></a>Conectores
 
@@ -177,7 +177,7 @@ REPLYTO_CONNECTOR_MESSAGE. Determinados conectores suportam mensagens ativas, qu
 
 ## <a name="outgoing-webhooks"></a>Webhooks de saída
 
-*Webhooks de saída* são criados em tempo real por proprietários de equipe ou membros da equipe. Eles não são recursos de aplicativos Teams; essas informações são incluídas para a conclusão.
+*Webhooks de saída* são criados em tempo real por proprietários de equipe ou membros da equipe. Eles não são recursos de Teams aplicativos; essas informações são incluídas para a conclusão.
 
 ### <a name="required-permissions"></a>Permissões necessárias
 

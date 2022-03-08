@@ -1,8 +1,8 @@
 ---
 title: Gerenciar seus aplicativos no Microsoft Teams de administração
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos Teams na página Gerenciar ap
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e0c475eaf2186c13174d27687a5bd10c2fa1057
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062545"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070220"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no Microsoft Teams de administração
 
@@ -55,7 +55,7 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
 ![Captura de tela da página de detalhes de aplicativos para um aplicativo.](media/app-detail-page.jpg)
 
 - **Nome**: o nome do aplicativo. Selecione o nome do aplicativo para ir até a página de detalhes do aplicativo para ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, se ele é permitido ou bloqueado, versão, política de privacidade, termos de uso, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo.
-- **Certificação**: se o aplicativo passou pela certificação, você verá Microsoft 365 **certificado** ou **Publisher atestado**. Selecione o link para exibir detalhes de certificação do aplicativo. Se você vir "**--**", não temos informações de certificação para o aplicativo. Para saber mais sobre aplicativos certificados Teams, [leia Microsoft 365 de Certificação de Aplicativos](/microsoft-365-app-certification/overview).
+- **Certificação**: se o aplicativo passou pela certificação, você verá Microsoft 365 **certificado** ou **Publisher atestado**. Selecione o link para exibir detalhes de certificação do aplicativo. Se você vir `--`, não temos informações de certificação para o aplicativo. Para saber mais sobre aplicativos certificados Teams, [leia Microsoft 365 de Certificação de Aplicativos](/microsoft-365-app-certification/overview).
 - **Publisher**: Nome do editor.
 - **Status de publicação**: Status de publicação de aplicativos personalizados.
 - **Status**: Status do aplicativo no nível da organização, que pode ser um dos seguintes:

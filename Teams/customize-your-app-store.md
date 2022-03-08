@@ -1,8 +1,8 @@
 ---
 title: Armazenamento de aplicativos personalizados
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o armazenamento de aplicativos personalizados Microsoft Teams.
-ms.openlocfilehash: cabfc148edb793ac40b49950b3b92676a0c80bfa
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f98b91c8a700bfc8ebb560930862e66b38a35a0e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399495"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070380"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Armazenamento de aplicativos personalizados Microsoft Teams
 
@@ -52,7 +52,7 @@ Ao selecionar **a opção Escolher uma imagem** , você pode carregar o arquivo 
 - .png
 - .jpg
 
-O logotipo é mostrado no canto superior direito do catálogo de aplicativos do locatário no Teams store.
+O logotipo é mostrado no canto superior direito do catálogo de aplicativos de locatários no Teams store.
 
 ## <a name="customize-your-small-logo"></a>Personalizar seu logotipo pequeno
 
@@ -68,7 +68,7 @@ Ao selecionar **a opção Escolher uma imagem** , você pode carregar o arquivo 
 - .png
 - .jpg
 
-O logotipo pequeno é mostrado ao lado do título da seção **Built for tenant** na página inicial do Teams store.
+O logotipo pequeno é mostrado ao lado do título da seção **Built for tenant** na Teams de aterrissagem da loja.
 
 ## <a name="customize-the-background-color"></a>Personalizar a cor do plano de fundo
 
@@ -76,7 +76,7 @@ O logotipo pequeno é mostrado ao lado do título da seção **Built for tenant*
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Certifique-se de que o plano de fundo tenha contraste suficiente com o texto para que os usuários possam ler o texto claramente. O plano de fundo aparecerá no Teams cliente em **AppsBuilt** >  **para o** seu header de locatário.
+Certifique-se de que o plano de fundo tenha contraste suficiente com o texto para que os usuários possam ler o texto claramente. O plano de fundo aparecerá no cliente Teams **em AppsBuilt** >  **para o seu** header de locatário.
 
 Suas opções são:
 
@@ -87,7 +87,7 @@ Suas opções são:
   - .jpg
 - Escolha um plano de fundo personalizado. Quando você seleciona **Escolher uma cor personalizada**, um seletor de cores é aberto. Selecione a cor que você deseja ajustando a escala do seletor de cores.
 
-A imagem ou cor do plano de fundo é usada como o plano de fundo da faixa superior no catálogo de aplicativos Teams locatário.
+A imagem ou cor do plano de fundo é usada como plano de fundo para a faixa superior no catálogo de aplicativos Teams locatário.
 
 ## <a name="customize-the-text-color-of-your-name"></a>Personalizar a cor do texto do seu nome
 

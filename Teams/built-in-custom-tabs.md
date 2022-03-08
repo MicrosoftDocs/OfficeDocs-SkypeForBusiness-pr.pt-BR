@@ -1,8 +1,8 @@
 ---
 title: Usar guias internas e personalizadas no Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba como usar guias internas e personalizadas para incluir recursos, como conversas, arquivos, mapas e muito mais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf48eef40ec71d1ca661b98ce6f6c842fe636942
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fe954d5f6ec08e13db666e94c3dd7cc3d9121e61
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727170"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070240"
 ---
 # <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar guias internas e personalizadas no Microsoft Teams
 
@@ -43,7 +43,7 @@ Os proprietários e membros da equipe podem incluir guias em um canal, chat priv
 
     ![Captura de tela das guias em um chat.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Proprietários e membros da equipe podem adicionar mais guias **a** um canal ou chat clicando em Adicionar uma guia Captura de tela do botão Adicionar uma guia, mostrando ![ um sinal +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) na parte superior do canal ou chat.
+- Proprietários e membros da equipe podem adicionar mais guias **a** ![um canal ou chat clicando em Adicionar uma guia Captura de tela do botão Adicionar uma guia, mostrando um sinal +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) na parte superior do canal ou chat.
 
 - Excel, PowerPoint, Word e arquivos PDF devem ser carregados na guia **Arquivos** antes de serem convertidos em guias. Qualquer arquivo carregado existente pode ser convertido em uma guia com um único clique, conforme mostrado abaixo.
 

@@ -1,9 +1,9 @@
 ---
 title: Consentimento específico do recurso em Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: nkramer
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e2c77e33165bedbb5302a1202f85906a64cea9a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9e6e2f0e7827dab36645fec7105a9cbe0c439472
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400825"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070650"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimento específico do recurso em Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-O consentimento específico do recurso em Microsoft Teams permite que os proprietários da equipe dêm consentimento aos aplicativos para acessar dados da equipe. Exemplos desse acesso incluem a capacidade de ler mensagens de canal, criar e excluir canais e criar e remover guias de canal.
+O consentimento específico do recurso Microsoft Teams permite que os proprietários da equipe dêm consentimento aos aplicativos para acessar dados de equipe. Exemplos desse acesso incluem a capacidade de ler mensagens de canal, criar e excluir canais e criar e remover guias de canal.
 
 Como administrador, você controla se os proprietários de equipe em sua organização podem dar consentimento por meio das configurações que você configura usando o módulo do PowerShell do Azure Active Directory (Azure AD) ou o portal do Azure e o centro de administração do Microsoft Teams.  
 
@@ -44,7 +44,7 @@ As duas configurações a seguir determinam se os proprietários da equipe podem
 Essa configuração controla se os usuários em sua organização podem consentir com aplicativos em seu nome. Para permitir que os proprietários da equipe deem consentimento, essa configuração deve ser definida como **Sim**. Para gerenciar essa configuração, faça o seguinte:
 
 1. No portal do Azure, acesse Enterprise **applicationsUser** >  **settings**.
-2. Em **Enterprise aplicativos**, definir **Usuários podem consentir** que aplicativos acessem dados da empresa em seu nome como **Não** ou **Sim**.
+2. Em **Enterprise aplicativos**, de acordo com os aplicativos, os usuários podem consentir que os aplicativos acessem os dados da empresa em seu **nome** como **Não** ou **Sim**.
 
 Você também pode gerenciar essa configuração usando o PowerShell. Para saber mais, confira [Configurar conteúdo do usuário para aplicativos](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 
@@ -63,7 +63,7 @@ Além das configurações no Azure AD, as configurações de aplicativos em toda
 
 Essa configuração de aplicativo em toda a organização controla se os usuários em sua organização podem usar aplicativos de terceiros. Essa configuração deve estar ativada para permitir que os proprietários da equipe deem consentimento. Para gerenciar essa configuração, faça o seguinte:
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, acesse Teams **appsManage** >  e clique em **Configurações de** aplicativos em toda a organização.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, acesse Teams **appsManage** >  apps e clique em **Configurações de** aplicativo em toda a organização.
 2. Em **Aplicativos de terceiros**, desativar ou ativar **Permitir aplicativos de terceiros**.
 
     ![Captura de tela da configuração "Permitir aplicativos de terceiros Teams"](media/resource-specific-consent-org-wide-setting.png)

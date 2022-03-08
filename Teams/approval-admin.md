@@ -1,9 +1,9 @@
 ---
 title: Disponibilidade do aplicativo Aprovações no Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: farhazk
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62421544"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070430"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -110,11 +110,11 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
   1. Entre no Centro de administração do Teams.
 
-  2. Vá para **Teams** **appsManage** >  apps.
+  2. Vá para **Aplicativos do Microsoft Teams** > **Gerenciar aplicativos**.
 
   3. Procure o aplicativo Aprovações.
 
-     ![mostra a navegação do Centro de administração com Teams Aplicativos > Gerenciar Aplicativos realçadas.](media/manage-approval-apps.png)
+     ![mostra a navegação do Centro de Administração com Teams Aplicativos > Gerenciar Aplicativos realçadas.](media/manage-approval-apps.png)
 
   4. Selecione **Aprovações**.
 

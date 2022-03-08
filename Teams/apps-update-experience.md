@@ -1,8 +1,8 @@
 ---
 title: Experiência de atualização de aplicativos Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como atualizar aplicativos em Microsoft Teams.
-ms.openlocfilehash: bcece8d3b6da3f0e89694b29d61752634ea1bc18
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Saiba como atualizar aplicativos Microsoft Teams.
+ms.openlocfilehash: aaba298f928e88ad38b862e533cd98bb5aae690f
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409864"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070230"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Atualizar aplicativos no Microsoft Teams
 
-Na maioria dos casos, depois que os desenvolvedores de aplicativos publicam uma atualização de aplicativo, a nova versão aparece automaticamente para os usuários. No entanto, há algumas atualizações para o manifesto <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams que</a> exigem que a aceitação do usuário seja concluída:
+Na maioria dos casos, depois que os desenvolvedores de aplicativos publicam uma atualização de aplicativo, a nova versão aparece automaticamente para os usuários. No entanto, há algumas atualizações no manifesto Microsoft Teams <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">que</a> exigem que a aceitação do usuário seja concluída:
 
 * Um bot foi adicionado ou removido
 * A propriedade "botId" de um bot existente foi alterada
