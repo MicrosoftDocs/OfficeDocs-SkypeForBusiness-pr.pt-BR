@@ -1,8 +1,8 @@
 ---
 title: Criar Nó de Escopo de Servidores de Bate-papo Persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Clique com o botão direito do mouse no Pool de Chat Persistente no Construtor de Topologias para executar o seguinte:'
-ms.openlocfilehash: ac3ff02be89a27b19dd02213fba9cd19d3cfaafe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: df2aa063362bc4179e61bd3db4e99eb10e92906b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830175"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410944"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Criar Nó de Escopo de Servidores de Chat Persistente
  
-Clique com o botão direito do mouse no **Pool de Chat Persistente** no Construtor de Topologias para executar o seguinte:
+Clique com o botão direito do **mouse no Pool de Chat Persistente** no Construtor de Topologias para executar o seguinte:
   
-- **Novo Pool de Chat Persistente**: Inicia o assistente Definir Novo Pool de Chat **Persistente** usado para definir um novo Servidor de Chat Persistente ou pool.
+- **Novo Pool de Chat Persistente**: inicia o assistente **Definir Novo Pool de Chat Persistente** usado para definir um novo Servidor de Chat Persistente ou pool.
     
 Além da opção Novo Pool de Chat Persistente, é possível executar as seguintes tarefas gerais:
   

@@ -1,8 +1,8 @@
 ---
 title: Página Principal da Política de Chat Persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode usar a página Política de Chat Persistente do grupo de Chat Persistente para gerenciar políticas em nível global, pool, site ou usuário, incluindo a configuração da política global padrão e a criação de uma ou mais políticas de usuário e site adicionais para sua implantação. Se um usuário estiver habilitado para o Servidor de Chat Persistente por política, o ambiente do Servidor de Chat Persistente aparecerá em seu cliente.
-ms.openlocfilehash: 1a270f7446c16f7df5e7d17887c5fa1be1880c8a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e6caf586c09c49d0b42b4edde9979aa6571f1c3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849244"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394213"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Página Principal da Política de Chat Persistente
 

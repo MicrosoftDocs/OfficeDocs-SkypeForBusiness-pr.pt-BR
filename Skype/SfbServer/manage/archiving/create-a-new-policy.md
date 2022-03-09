@@ -1,8 +1,8 @@
 ---
 title: Criar uma nova política de arquivamento no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Resumo: saiba como criar uma nova política de arquivamento para Skype for Business Server.'
-ms.openlocfilehash: d60ca9399681bf44fadcf7767b7be1499e99cb99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ffa2821ca4871a0e05d0afe2f162512a60df3897
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836443"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392633"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Criar uma nova política de arquivamento no Skype for Business Server
 
@@ -37,7 +37,7 @@ Para criar uma nova política de arquivamento usando o Painel de Controle:
     
 4. Clique em **Nova** e execute um dos seguintes procedimentos: 
     
-   - Para criar uma política de arquivamento no nível do site, clique em Política de **site** e, em Selecionar um **site,** clique no site ao qual a política deve ser aplicada.
+   - Para criar uma política de arquivamento no nível do site, clique em **Política de site** e, em **Selecionar um site**, clique no site ao qual a política deve ser aplicada.
     
    - Para criar uma política de arquivamento em nível do usuário, clique em **Política de usuário**.
     
@@ -58,7 +58,7 @@ Para criar uma nova política de arquivamento usando o Painel de Controle:
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Criar uma nova política de arquivamento usando Windows PowerShell
 
-Você também pode criar novas políticas de arquivamento usando o cmdlet **Windows PowerShell New-CsArchivingPolicy.** Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsArchivingPolicy.](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
+Você também pode criar novas políticas de arquivamento usando o cmdlet **Windows PowerShell New-CsArchivingPolicy**. Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>Para criar uma nova política de arquivamento no nível do site
 

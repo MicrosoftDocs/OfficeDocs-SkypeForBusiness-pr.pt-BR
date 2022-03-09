@@ -1,8 +1,8 @@
 ---
 title: Configurar um aplicativo parceiro local para Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Resumo: Configure um aplicativo de parceiro local para Skype for Business Server.'
-ms.openlocfilehash: c922765e81c0507e6eca9e81047cce4dfbb6dd6c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c3ad8184d7a63afa5b481c62901be13a7c5915e2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846464"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392603"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar um aplicativo parceiro local para Skype for Business Server
  
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-Depois de copiar o código, salve o script usando a extensão de arquivo .PS1 (por exemplo, C:\Scripts\ServerToServerAuth.ps1). Observe que, antes de executar esse script, você deve substituir as URLs de metadados e as URLs de metadados usadas pelos servidores `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` Exchange 2013 e SharePoint, respectivamente. Consulte a documentação do produto Exchange 2013 e SharePoint para obter informações sobre como identificar a URL de metadados do respectivo produto.
+Depois de copiar o código, salve o script usando a extensão de arquivo .PS1 (por exemplo, C:\Scripts\ServerToServerAuth.ps1). Observe que, antes de executar esse script, você deve substituir as URLs `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` de metadados e as URLs de metadados usadas pelos servidores Exchange 2013 e SharePoint, respectivamente. Consulte a documentação do produto Exchange 2013 e SharePoint para obter informações sobre como identificar a URL de metadados do produto respectivo.
   
 Se você observar a última linha do script, perceberá que o cmdlet Set-CsOAuthConfiguration é chamado com o uso da sintaxe:
   
@@ -104,7 +104,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 Essa mensagem de erro geralmente significa que: 1) uma das URLs especificadas no script não é válida (ou seja, uma das URLs de metadados não é realmente uma URL de metadados); ou 2) não foi possível acessar uma das URLs de metadados. Se isso acontecer, verifique se as URLs estão corretas e acessíveis e execute o script novamente.
   
-Depois de criar o aplicativo parceiro para Skype for Business Server, você deve configurar o Skype for Business Server para ser um aplicativo parceiro para Exchange 2013. Você pode configurar aplicativos parceiros para Exchange 2013 executando o script Configure-EnterprisePartnerApplication.ps1; Tudo o que você precisa fazer é especificar a URL de metadados para Skype for Business Server e indicar que Skype for Business Server é o novo aplicativo parceiro. 
+Depois de criar o aplicativo parceiro para Skype for Business Server, você deve configurar o Skype for Business Server para ser um aplicativo parceiro para Exchange 2013. Você pode configurar aplicativos parceiros para o Exchange 2013 executando o script Configure-EnterprisePartnerApplication.ps1; tudo o que você precisa fazer é especificar a URL de metadados para Skype for Business Server e indicar que Skype for Business Server é o novo aplicativo parceiro. 
   
 Para configurar Skype for Business Server como um aplicativo parceiro para Exchange, abra o Shell de Gerenciamento Exchange e execute um comando semelhante a este
   

@@ -1,7 +1,7 @@
 ---
 title: Visualização pública no Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ description: Obtenha mais informações sobre a prévia pública no Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959870"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417324"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
@@ -46,7 +46,7 @@ A visualização pública é habilitada por usuário e a opção de ativar a vis
 
 2. Nomeie a política de atualização, adicione uma descrição e selecione a configuração **Mostrar recursos de visualização**.
 
-   -   **Seguir o Office Preview** (padrão): Essa nova opção padrão habilitará automaticamente os recursos de Visualização Pública do Teams para qualquer usuário registrado no Canal Atual do Office (Pré-visualização). Não há mais ações necessárias para o usuário final.
+   -   **Seguir o Office Preview** (padrão): Essa nova opção padrão habilitará automaticamente os recursos de Visualização Pública do Teams para qualquer usuário registrado no Canal Atual do Office (Pré-visualização). Não há mais ações necessárias pelo usuário final.
    -   **Habilitado**: Essa opção habilita a Visualização Pública do Teams, independentemente de um usuário estar registrado no Canal Atual do Office (Pré-visualização). O usuário final também deve optar pela visualização pública do Teams no aplicativo Teams.
 
    > [!NOTE]  

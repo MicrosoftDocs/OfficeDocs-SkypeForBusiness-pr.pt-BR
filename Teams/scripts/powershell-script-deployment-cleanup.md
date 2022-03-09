@@ -1,7 +1,7 @@
 ---
 title: Exemplo de script do PowerShell - Teams de implantação
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5e5fe4c52030add0e60be0cedb5edc54b9c833
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 246c47b74fc90ddfb7b38a0474bc88bff5321559
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837493"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402645"
 ---
 # <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemplo de script do PowerShell - Teams implantação limpa
 

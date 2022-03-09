@@ -1,7 +1,7 @@
 ---
 title: Telefone gerenciamento de números para a República Tcheca
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na República Tcheca para Microsoft Teams.
-ms.openlocfilehash: 348dda3ef21d06bf1511f18bb509ff7ede0c90f5
-ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
+ms.openlocfilehash: 93e25d7e9ab1776e5ff2cd534f9e8eb9c2e17187
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62353356"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402675"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Telefone gerenciamento de números para a República Tcheca
 
