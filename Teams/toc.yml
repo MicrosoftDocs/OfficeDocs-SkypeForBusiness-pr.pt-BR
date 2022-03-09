@@ -365,7 +365,7 @@ items:
                 href: guest-access.md
               - name: Experiência do convidado
                 href: guest-experience.md
-              - name: Habilitar ou desabilitar o acesso dos convidados
+              - name: Habilitar ou desabilitar o acesso de convidados
                 href: set-up-guests.md
               - name: Exibir convidados em uma equipe
                 href: view-guests.md
@@ -587,7 +587,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -715,7 +715,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md

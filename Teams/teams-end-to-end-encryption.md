@@ -3,7 +3,7 @@ title: Criptografia de ponta a ponta para o Microsoft Teams
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 10/23/2021
+ms.date: 03/08/2022
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +19,21 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518933"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388180"
 ---
-# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>Use criptografia de ponta a ponta para chamadas um-para-um do Microsoft Teams (visualização pública)
+# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Use criptografia de ponta a ponta para chamadas um-para-um do Microsoft Teams
 
 > [!IMPORTANT]
 > O modelo de serviço do Teams e seu suporte à criptografia estão sujeitos a alterações para melhorar as experiências do cliente. Por exemplo, o serviço substitui regularmente os conjuntos de codificação que não são mais considerados seguros. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão. Além disso, todo o conteúdo do cliente nos data centers da Microsoft é criptografado. Para obter informações sobre camadas de criptografia no Microsoft 365, consulte [Criptografia no Microsoft 365](/microsoft-365/compliance/encryption).
 
 A criptografia de ponta a ponta, ou E2EE, ocorre quando o conteúdo é criptografado antes de ser enviado e descriptografado somente pelo destinatário pretendido. Com a criptografia de ponta a ponta, somente os dois sistemas de ponto de extremidade estão envolvidos na criptografia e na descriptografia dos dados de chamada. Nenhum outro grupo, incluindo a Microsoft, tem acesso à conversa descriptografada.
 
-Com esta versão de visualização pública, estamos implantando o E2EE para chamadas um-para-um não agendadas. Somente o fluxo de mídia em tempo real, ou seja, dados de voz e vídeo, para chamadas um-para-um do Teams são criptografados de ponta a ponta. Ambas as partes devem ativar essa configuração para habilitar a criptografia de ponta a ponta. [Criptografia no Microsoft 365](/microsoft-365/compliance/encryption) protege o chat, o compartilhamento de arquivos, a presença e outros conteúdos na chamada.
+Com o E2EE para chamadas um-para-um não agendadas, somente o fluxo de mídia em tempo real, ou seja, os dados de voz e vídeo, para chamadas um-para-um do Teams criptografadas de ponta a ponta. Ambas as partes devem ativar essa configuração para habilitar a criptografia de ponta a ponta. [Criptografia no Microsoft 365](/microsoft-365/compliance/encryption) protege o chat, o compartilhamento de arquivos, a presença e outros conteúdos na chamada.
 
 Se você não habilitar a criptografia de ponta a ponta, o Teams ainda protegerá uma chamada ou reunião usando criptografia com base em padrões do setor. Os dados trocados durante as chamadas são sempre seguros em trânsito e em repouso. Para obter mais informações, consulte [Criptografia de mídia para o Teams](teams-security-guide.md#media-encryption).
 
