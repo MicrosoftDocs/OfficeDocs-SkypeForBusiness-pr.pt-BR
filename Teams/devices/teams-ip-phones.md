@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: d91fb5f4c95fd63fda1d953c73ba26d105f05083
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 7c33126f02a4a3236fb451e8e9efc0103c68abdd
+ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392883"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63418823"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -223,22 +223,23 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto |
 |:--------------|:-----------------|:-------------------------|
+| Barra de rali de Logi    |   `1.5.705`   | Atualização 2022 #1    |
 | EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | Atualização 2022 #1 |
 | AudioCodes RXV80 | `1.16.164 `   | Atualização 2022 #1 |
 | Yealink VC210 | `118.15.0.65`   | Atualização 2022 #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | Atualização 2022 #1   |
 | Yealink MeetingBar A30 | `133.15.0.80 `   | Atualização 2022 #1   |
-| Yealink CTP18 | ` 137.15.0.49 `    | Atualização 2022 #1   |
+| Yealink CTP18 | `137.15.0.49`    | Atualização 2022 #1   |
 | Poly Studio X30 | `3.9.0` | Atualização 2021 #2F   |
 | Poly Studio X50 | `3.9.0` | Atualização 2021 #2F   |
 | Poly TC8        | `3.9.0`          | Atualização 2021 #2F   |
 | Poly Studio X30 | `3.8.0`          | Atualização 2021 #2    |
 | Poly Studio X50 | `3.8.0`          | Atualização 2021 #2    |
 | Poly TC8        | `3.8.0`          | Atualização 2021 #2    |
-| Barra de rali de Logi    | 1.3.538         | Atualização 2021 #2B    |
-| Mini logi Ralibar | 1.3.538       | Atualização 2021 #2B    |
-| Barra de rali de Logi    | 1.4.228         | Atualização 2021 #2B    |
-| Mini logi Ralibar | 1.4.228       | Atualização 2021 #2B    |
+| Barra de rali de Logi    | `1.3.538`         | Atualização 2021 #2B    |
+| Mini logi Ralibar | `1.3.538`       | Atualização 2021 #2B    |
+| Barra de rali de Logi    | `1.4.228`         | Atualização 2021 #2B    |
+| Mini logi Ralibar | `1.4.228`       | Atualização 2021 #2B    |
 | Poly Studio X30 | `3.7.0`          | Atualização 2021 #2A    |
 | Poly Studio X50 | `3.7.0`          | Atualização 2021 #2A    |
 | Poly TC8        | `3.7.0`          | Atualização 2021 #2A    |
