@@ -21,12 +21,12 @@ description: Seu administrador do Teams ou de TI pode configurar o acesso extern
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 86a1b83ab0eb2d15810f94d61d0f7faccc226aa4
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388093"
+ms.locfileid: "63392913"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 
@@ -46,10 +46,10 @@ Usar o acesso externo quando:
 
 As políticas de acesso externo incluem controles para cada tipo de federação nos níveis da organização e do usuário. Desativar uma política no nível da organização a desativa para todos os usuários, independentemente da configuração de nível do usuário. Todas as configurações de acesso externo estão habilitadas por padrão.
 
-O Centro de administração do Teams controla o acesso externo no nível da organização. Se você deseja controlar o acesso externo na alavanca do usuário, deve usar o PowerShell. Consulte [Usando o PowerShell](#using-powershell) abaixo para obter mais informações.
+O Centro de administração do Teams controla o acesso externo no nível da organização. A maioria das opções (exceto restrições de domínio) estão disponíveis no nível do usuário usando o PowerShell. Consulte [Usando o PowerShell](#using-powershell) abaixo para obter mais informações.
 
 > [!NOTE]
-> Se você desabilitar o acesso externo em sua organização, as pessoas fora da sua organização ainda poderão ingressar em reuniões por meio de ingresso anônimo. Para saber mais, veja [Gerenciar configurações de reunião no Teams](meeting-settings-in-teams.md).
+> Se você desativar o acesso externo na sua organização, as pessoas fora da sua organização ainda poderão participar das reuniões por meio do ingresso anônimo. Para saber mais, consulte [Gerenciar configurações de reunião no Teams](meeting-settings-in-teams.md).
 
 > [!NOTE]
 > Os usuários do Teams podem adicionar aplicativos ao hospedar reuniões ou chats com pessoas de outras organizações. Eles também podem usar aplicativos compartilhados por pessoas de outras organizações quando ingressarem em reuniões ou chats hospedados por essas organizações. As políticas de dados da organização do usuário de hospedagem, assim como as práticas de compartilhamento de dados de qualquer aplicativo de terceiros compartilhado pela organização desse usuário, serão aplicadas.
@@ -143,7 +143,7 @@ Para saber mais sobre as formas pelas quais os usuários do Teams e do Skype pod
 
 As configurações no nível da organização podem ser definidas usando [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) e as configurações de nível de usuário podem ser definidas usando [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
-A tabela a seguir mostra os parâmetros de cmdlet usados para configurar a federação. Observe que a configuração da federação com domínios específicos só pode ser feita no nível da organização e não no nível do usuário.
+A tabela a seguir mostra os parâmetros de cmdlet usados para configurar a federação.
 
 |Configuração|Nível da organização (Set-CSTenantFederationConfiguration)|Nível de usuário (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
@@ -154,18 +154,18 @@ A tabela a seguir mostra os parâmetros de cmdlet usados para configurar a feder
 |Habilitar/desabilitar usuários do Teams não gerenciados por uma organização para iniciar conversas|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Habilitar/desabilitar a federação com o Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
 
-É importante observar que desabilitar uma política é "acumulada" do locatário para os usuários. Por exemplo:
+É importante observar que a desabilitação de uma política "rola para baixo" do locatário para os usuários. Por exemplo:
 
 ```PowerShell
 Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
 Set-CsExternalAccessPolicy -EnableFederationAccess $true
 ```
 
-Neste exemplo, embora a política de nível de usuário esteja habilitada, os usuários não poderão se comunicar com usuários gerenciados do Teams ou usuários do Skype for Business porque esse tipo de federação foi desativado no nível da organização. Portanto, se você quiser habilitar esses controles para um subconjunto de usuários, deverá ativar o controle no nível da organização e criar duas políticas de grupo – um que se aplica aos usuários que devem ter o controle desativado e um que se aplica aos usuários que devem ter o controle ativado.
+Neste exemplo, embora a política de nível de usuário esteja habilitada, os usuários não poderão se comunicar com usuários gerenciados do Teams ou usuários do Skype for Business porque esse tipo de federação foi desativado no nível da organização. Portanto, se desejar habilitar esses controles para um subconjunto de usuários, deverá ativar o controle no nível da organização e criar duas políticas de grupo — uma que se aplique aos usuários que devem ter o controle desativado e outra que se aplique aos usuários que devem ter o controle ativado.
 
 ## <a name="limit-external-access-to-specific-people"></a>Limitar o acesso externo a pessoas específicas
 
-Se você tiver habilitado qualquer um dos controles de acesso externo em um nível de organização, poderá limitar o acesso externo a usuários específicos usando o PowerShell.
+Se você tiver habilitado qualquer um dos controles de acesso externo no nível da organização, poderá limitar o acesso externo a usuários específicos usando o PowerShell.
 
 Você pode usar o script de exemplo a seguir, substituindo *Control* pelo controle que você deseja alterar, *PolicyName* pelo nome que deseja dar à política e *UserName* para cada usuário para o qual você deseja habilitar/desabilitar o acesso externo.
 
