@@ -17,16 +17,14 @@ description: Saiba como usar o relatório de uso de Visitas Virtuais no centro d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f00a8e0837ad4603fe38f664f94716aa8016aa9
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: 2b3432ea92ad89c5304d81b266fce61fb9b95d5b
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929409"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435845"
 ---
 # <a name="microsoft-teams-virtual-visits-usage-report"></a>Microsoft Teams relatório de uso de Visitas Virtuais
-
-**Este é um recurso de visualização**.
 
 O relatório de uso de Visitas Virtuais no centro de administração Microsoft Teams oferece uma visão geral Teams atividade de Visitas Virtuais em sua organização. Você pode exibir atividades detalhadas para compromissos virtuais agendados por meio do aplicativo [Bookings](../expand-teams-across-your-org/bookings-virtual-visits.md) e do [conector EHR (Registro](../expand-teams-across-your-org/healthcare/teams-in-hc.md#virtual-visits-and-electronic-healthcare-record-ehr-integration) Eletrônico de Saúde) do Microsoft Teams.
 
@@ -39,20 +37,19 @@ O relatório contém as guias a seguir. As informações que você verá no rela
 |**[Visitas virtuais](#virtual-visits)**     |Mostra o número total de Visitas Virtuais, com uma divisão do número de visitas agendadas usando o aplicativo Bookings e Teams reuniões integradas ao EHR conduzidas a partir do seu sistema EHR.         |
 |**[Duração](#duration)**     |Mostra a duração média das visitas e o tempo médio de espera do lobby dos participantes.         |
 |**[Bookings](#bookings)**     |Mostra o número de visitas agendadas por meio do aplicativo Bookings.         |
-|**[EHR](#ehr)**     |Mostra o número de Teams de visitas integradas ao EHR conduzidas a partir do seu sistema EHR.         |  
+|**[EHR](#ehr)**     |Mostra o número de Teams de visitas integradas ao EHR conduzidas a partir do sistema EHR.         |  
 
 Use este relatório para obter informações sobre as atividades e tendências de Visitas Virtuais em sua organização. As informações podem ajudá-lo a otimizar as Visitas Virtuais para oferecer melhores resultados comerciais.
 
 ## <a name="view-the-virtual-visits-usage-report"></a>Exibir o relatório de uso de Visitas Virtuais
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, escolha **Análise &** **relatóriosusuário** > . Na guia **Exibir relatórios** , em **Relatório**, selecione **Uso de Visitas Virtuais**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, escolha **Análise & relatóriosusuário** > . Na guia **Exibir relatórios** , em **Relatório**, selecione **Uso de Visitas Virtuais**.
 2. Em **Intervalo de datas**, selecione um intervalo de 7 dias, 30 ou 90 dias. Em seguida, escolha **Executar relatório**.
 
 > [!NOTE]
-> Por padrão, a análise de Visitas Virtuais está em e o relatório está disponível. Ao usar este relatório, você dá permissão à Microsoft para coletar dados sobre Visitas Virtuais em sua organização. Para obter informações sobre nossas políticas de retenção de dados, consulte [Retenção, exclusão e](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) destruição de dados Microsoft 365.
+> Por padrão, a análise de Visitas Virtuais está em e o relatório está disponível. Ao usar este relatório, você dá permissão à Microsoft para coletar dados sobre Visitas Virtuais em sua organização. Para obter informações sobre nossas políticas de retenção de dados, consulte [Retenção, exclusão](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) e destruição de dados Microsoft 365.
 >
->Se você quiser desativar o relatório para sua organização, você pode fazer isso **Configurações** no canto superior direito da página.
-
+>Se você quiser desativar o relatório para sua organização, você pode fazer isso Configurações no canto  superior direito da página. Essa configuração pode levar entre 0 (zero) e 2 horas para ter efeito depois de alterá-la.
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 

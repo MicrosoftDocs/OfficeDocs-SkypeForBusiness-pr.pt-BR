@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: ed307d811322d2c217a117d192731cf5d42edcb7
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 6b1e2fdc31e5f9ece9b1c52f1f0cf5881e29229b
+ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536702"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63418833"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -105,10 +105,10 @@ O acesso externo (anteriormente conhecido como federação) permite que seus usu
 O acesso de convidados no Teams permite que indivíduos fora da sua organização acessem equipes e canais. Você pode usar as configurações de acesso de convidados para controlar quais recursos os convidados podem ou não usar. O acesso de convidados é ativado por padrão. Para saber mais, consulte [Acesso de convidados no Teams](./guest-access.md).
 
 > [!NOTE]
-> Para obter mais informações sobre acesso externo e acesso de convidado, confira aqui: [Comunicar-se com usuários de outras organizações no Microsoft Teams](communicate-with-users-from-other-organizations.md)
+> Para obter mais informações sobre acesso externo e acesso de convidado, consulte aqui - [Comunicar-se com usuários de outras organizações no Microsoft Teams](communicate-with-users-from-other-organizations.md)
 
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |------------|-------|
 |Vou ativar o acesso de convidado para minha organização?|Para habilitar o acesso de convidado, confira [Ativar ou desativar o acesso de convidado no Teams](set-up-guests.md).|
 |Se o acesso for habilitado, devo personalizar os recursos disponíveis para pessoas em minha organização?|Para personalizar a disponibilidade dos recursos do acesso de convidado, confira [Autorizar o acesso de convidado no Teams](teams-dependencies.md).|
@@ -163,7 +163,7 @@ O Teams é fornecido como parte de muitas licenças do Microsoft 365 ou do Offic
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Interoperabilidade entre o Exchange e o SharePoint
 
-Para a experiência integral do Teams, cada usuário deve estar habilitado para o Exchange Online, o SharePoint Online e a criação de Grupo do Microsoft 365. Os artigos a seguir descrevem informações relacionadas às caixas de correio do Exchange hospedadas em vários ambientes, como o Exchange e o Teams interagem e considerações semelhantes do SharePoint e do OneDrive for Business.
+Para a experiência integral do Teams, cada usuário deve estar habilitado para o Exchange Online, o SharePoint Online e a criação de grupo do Microsoft 365. Os artigos a seguir descrevem informações relacionadas às caixas de correio do Exchange hospedadas em vários ambientes, como o Exchange e o Teams interagem, assim como considerações similares do SharePoint e do OneDrive for Business.
 
 |Pergunte-se|Ação |
 |------------|-------|
@@ -183,7 +183,7 @@ Ao planejar uma implantação corporativa do Teams, você deve levar em consider
 
 As organizações que mantêm um controle preciso do seu tráfego na Internet devem ler [URLs e intervalos de endereços de IP](/office365/enterprise/urls-and-ip-address-ranges) de uma lista atualizada de URLs, endereços IP, portas e protocolos que devem ser configurados corretamente no Teams. A Microsoft está continuamente melhorando os serviços do Microsoft 365 e do Office 365, além de adicionar novas funções, o que significa que as portas, URLs e endereços de IP necessários podem mudar com o tempo. Recomendamos que você se inscreva por RSS para receber notificações quando estas informações forem atualizadas ou alteradas. No mínimo, certifique-se de ter aberto as portas listadas acima nos [Pré-requisitos de implementação do Chat](#chat-deployment-prerequisites).
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |------------|-------|
 | Preciso de regras de acesso à Internet para permitir que os usuários usem o Teams ou é suficiente abrir as portas mínimas necessárias? | Para saber mais, confira [URLs e intervalos de endereços IP](office-365-urls-ip-address-ranges.md).|
 |||
@@ -226,7 +226,7 @@ O Teams confia muito no Exchange Online, SharePoint Online e Skype for Business 
 
 | Pergunte-se | Ação |
 |--------------|--------|
-|<br>Será necessário configurar acesso condicional para o Teams?|<ul><li>Para entender como as políticas de acesso funcionam, confira [Como funcionam as políticas de acesso condicional no Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Para configurar a autenticação multifator (MFA) para o Teams, consultar:<ul><li>[Início rápido: exige o MFA para aplicativos específicos com acesso condicional do Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Referência de configurações de acesso condicional do Azure Active Directory](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Será necessário configurar acesso condicional para o Teams?|<ul><li>Para entender como as políticas de acesso funcionam, confira [Como funcionam as políticas de acesso condicional no Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Para configurar a MFA (Autenticação Multifator) para o Teams, confira:<ul><li>[Início rápido: exige o MFA para aplicativos específicos com acesso condicional do Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Referência de configurações de acesso condicional do Azure Active Directory](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
@@ -245,9 +245,9 @@ Os profissionais de TI que trabalham com educação podem aproveitar o Teams par
 
 O uso do Microsoft 365 for Government - GCC (Nuvem da Comunidade Governamental) é apropriado para atender aos requisitos de profissionais de TI que estejam conduzindo implantações do Office 365 em entidades governamentais federais, estaduais, locais, tribais ou territoriais dos Estados Unidos, ou outras entidades que manipulem dados sujeitos a regulamentos e exigências governamentais.
 
-| Pergunte a si mesmo | Action |
+| Pergunte a si mesmo | Ação |
 |--------------|--------|
-| Será necessário implantar o Teams em um Office 365 for Government - ambiente GCC? | Para ver considerações de implantação, confira [Plano para o Office 365 Government - implantações de GCC](plan-for-government-gcc.md).|
+| Precisarei implantar o Teams em um ambiente Office 365 for Government – GCC? | Para ver considerações de implantação, confira [Plano para o Office 365 Government - implantações de GCC](plan-for-government-gcc.md).|
 |||
 
 ## <a name="next-steps"></a>Próximas etapas

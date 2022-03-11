@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como carregar seus aplicativos personalizados no armazenamento de aplicativos da sua organização no Microsoft Teams de administração.
-ms.openlocfilehash: f9cbbfb60b2bb93cb3f687e6da8c6595f5cc185b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b797d8728fba283ccb2f62a46bc6ac00a947c29a
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070180"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435825"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar um aplicativo personalizado carregando um pacote de aplicativos
 
@@ -116,12 +116,10 @@ Na maioria dos casos, depois de concluir uma atualização de aplicativo, a nova
 * Um bot foi adicionado ou removido
 * A propriedade "botId" de um bot existente foi alterada
 * A propriedade "isNotificationOnly" de um bot existente foi alterada
-* A propriedade "supportsFiles" do bot foi alterada
-* Uma extensão de Mensagens foi adicionada ou removida
+* A funcionalidade SupportsCalling, SupportsVideo e SupportsFiles de um bot foi adicionada
+* Uma extensão de mensagens foi adicionada
 * Um novo conector foi adicionado
-* Uma nova guia estática foi adicionada
-* Uma nova guia configurável foi adicionada
-* Propriedades dentro de "webApplicationInfo" alteradas
+* Permissões dentro de "Autorização" foram adicionadas ou alteradas
 
 ![Captura de tela da lista de aplicativos, mostrando aplicativos que têm uma nova versão disponível.](media/manage-your-custom-apps-update1.png)
 

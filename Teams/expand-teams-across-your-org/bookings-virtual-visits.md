@@ -20,13 +20,13 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Saiba como agendar, gerenciar e conduzir Visitas Virtuais usando o aplicativo Bookings Teams.
-ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+description: Saiba como agendar, gerenciar e conduzir Visitas Virtuais usando o aplicativo Bookings em Teams.
+ms.openlocfilehash: ec3b2023d7413b3cb3e0710f201bea0224e49c59
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929266"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435925"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
 
@@ -36,9 +36,9 @@ O [aplicativo Bookings](https://support.microsoft.com/office/what-is-bookings-42
 
 O aplicativo Bookings facilita o gerenciamento de demandas complexas de agendamento de qualquer organização. Os agendadores podem gerenciar vários calendários de departamentos e de funcionários, assim como comunicações com os participantes internos e externos em uma única experiência.
 
-Os compromissos virtuais são realizados por meio Microsoft Teams reuniões, que oferecem recursos robustos de videoconferência. Por exemplo, um médico pode compartilhar a tela e revisar os resultados do teste com um paciente. Ou, um consultor bancário pode solicitar assinaturas eletrônicas em documentos, permitindo que eles fechem transações remotamente.
+Os compromissos virtuais são realizados Microsoft Teams reuniões, que oferecem recursos robustos de videoconferência. Por exemplo, um médico pode compartilhar a tela e revisar os resultados do teste com um paciente. Ou, um consultor bancário pode solicitar assinaturas eletrônicas em documentos, permitindo que eles fechem transações remotamente.
 
-Cada compromisso virtual inclui um link Teams de reunião que é enviado aos participantes no email onde eles podem ingressar facilmente em um navegador da Web ou em Teams em qualquer dispositivo. Lembretes de email automatizados ajudam a reduzir os não-shows e melhorar o envolvimento do cliente e do cliente.
+Cada compromisso virtual inclui um link Teams de reunião que é enviado aos participantes por email, onde eles podem ingressar facilmente em um navegador da Web ou Teams em qualquer dispositivo. Lembretes de email automatizados ajudam a reduzir os não-shows e melhorar o envolvimento do cliente e do cliente.
 
 Com o Bookings, você tem uma experiência adaptada ao seu setor. Aqui estão alguns exemplos de como você pode usá-lo em sua organização:
 
@@ -54,13 +54,13 @@ Este artigo fornece uma visão geral de como agendar, gerenciar e conduzir Visit
 
 Se você for um administrador, consulte Gerenciar o aplicativo [Bookings no Teams](../bookings-app-admin.md) para saber mais sobre os pré-requisitos para usar o aplicativo Bookings no Teams, como controlar o acesso ao Bookings em sua organização e as configurações de política e administrador recomendadas.
 
-Lembre-se de que apenas agendadores em sua organização precisam ter o aplicativo Bookings instalado Teams. A equipe que conduz ou participa de compromissos virtuais não precisa do aplicativo. Eles ins juntam compromissos de seu calendário Teams ou Outlook ou usando o link de reunião em seu email de confirmação de reserva.
+Lembre-se de que apenas agendadores em sua organização precisam ter o aplicativo Bookings instalado Teams. A equipe que conduz ou participa de compromissos virtuais não precisa do aplicativo. Eles ins juntam compromissos Teams ou Outlook calendário ou usando o link de reunião no email de confirmação de reserva.
 
 ## <a name="set-up-a-new-booking-calendar"></a>Configurar um novo calendário de reserva
 
 ### <a name="create-the-booking-calendar"></a>Criar o calendário de reserva
 
-Em Teams, vá para **BookingsGet** >  **started** e selecione **Novo calendário de reserva**. Preencha o formulário e certifique-se de escolher o tipo de negócios relevante para sua organização.
+Em Teams, vá para **BookingsGet** >  **iniciado** e selecione **Novo calendário de reserva**. Preencha o formulário e certifique-se de escolher o tipo de negócios relevante para sua organização.
 
 :::image type="content" source="../media/bookings-virtual-visits-new-booking-calendar.png" alt-text="Captura de tela da nova tela de calendário de reserva mostrando tipos de negócios":::
 
@@ -72,7 +72,7 @@ Para saber mais, confira [Criar um calendário do Bookings](https://support.micr
 
 ### <a name="add-staff"></a>Adicionar equipe
 
-No calendário de reserva, acesse **Mais opções** (...) > **Configurações** e selecione **Staff**. Adicione membros da equipe e atribua uma função a cada pessoa que você adicionar. Você pode adicionar até 100 membros da equipe a um calendário de reserva.
+No calendário de reserva, vá para **Mais opções** (...) > **Configurações** e selecione **Staff**. Adicione membros da equipe e atribua uma função a cada pessoa que você adicionar. Você pode adicionar até 100 membros da equipe a um calendário de reserva.
 
 O aplicativo Bookings se integra ao Outlook. Depois de adicionar funcionários, você poderá exibir a disponibilidade do calendário dessa pessoa e agendar reservas para elas. Para saber mais, confira [Adicionar equipe e exibir um calendário do Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
@@ -100,7 +100,7 @@ Em seu Teams ou Outlook calendário, vá para a reserva e selecione **Ingressar*
 
 A [exibição de](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) fila no Bookings fornece à sua equipe um painel para monitorar todos os compromissos virtuais do dia, com atualizações em tempo real. Para ver a fila, vá para a guia **Fila** no Bookings.
 
-:::image type="content" source="../media/bookings-virtual-visits-queue.png" alt-text="Captura de tela do exibição de fila no aplicativo Bookings em Teams" lightbox="../media/bookings-virtual-visits-queue.png":::
+:::image type="content" source="../media/bookings-virtual-visits-queue.png" alt-text="Captura de tela do exibição de fila no aplicativo Bookings no Teams" lightbox="../media/bookings-virtual-visits-queue.png":::
 
 Na fila, os agendadores podem adicionar uma nova reserva, exibir detalhes relevantes do compromisso e ver os status do compromisso ao longo do dia. Quando um paciente entra na sala de espera, o status muda e o tempo de espera é exibido e rastreado. O modo de exibição é atualizado automaticamente com atualizações codificadas por cores para que as alterações possam ser facilmente identificadas.
 
@@ -111,13 +111,19 @@ A equipe pode até mesmo ingressar e gerenciar compromissos diretamente da fila.
 
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Recursos adicionais com o aplicativo Web do Bookings
 
-O aplicativo Web do Bookings oferece recursos adicionais. Por exemplo, você pode publicar uma página de reserva online de autoatend pois as pessoas podem agendar compromissos com sua equipe. Para acessar o aplicativo Web do Bookings, acesse **Mais opções** (...) > **aplicativo Web abrir Reservas**.
+O aplicativo Web do Bookings oferece recursos adicionais. Por exemplo, você pode publicar uma página de reserva online de autoatend pois as pessoas podem agendar compromissos com sua equipe. Para acessar o aplicativo Web do Bookings, acesse **Mais opções** (...) > **aplicativo Web Abrir Reservas**.
 
 Para saber mais, confira [Microsoft Bookings](/microsoft-365/bookings/bookings-overview).
 
+## <a name="get-insight-into-virtual-visits-usage"></a>Obter informações sobre o uso de Visitas Virtuais
+
+O [relatório de uso de](../teams-analytics-and-reports/virtual-visits-usage-report.md) Visitas Virtuais no centro de administração Microsoft Teams oferece aos administradores uma visão geral Teams atividade de Visitas Virtuais em sua organização. O relatório mostra análises detalhadas para compromissos virtuais, incluindo visitas do Bookings.
+
+Você pode exibir as principais métricas, como tempo de espera do lobby e duração da visita. Use essas informações para obter informações sobre tendências de uso para ajudá-lo a otimizar as Visitas Virtuais para oferecer melhores resultados comerciais.
+
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Gerenciar a experiência de junção para Teams visitas virtuais em navegadores móveis](mobile-browser-join.md)
+- [Gerenciar a experiência de junção para Teams virtuais em navegadores móveis](mobile-browser-join.md)
 
 - [Teams relatório de uso de Visitas Virtuais](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
