@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -587,7 +587,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -829,6 +829,8 @@ items:
             href: dial-pad-configuration.md
           - name: Música de espera
             href: music-on-hold.md
+          - name: Definir configurações de chamada para seus usuários
+            href: user-call-settings.md
       - name: Opções de conectividade PSTN
         items:
           - name: Visão Geral
@@ -1527,6 +1529,8 @@ items:
             href: non-standard-users.md
           - name: Atualizar experiência para aplicativos
             href: apps-update-experience.md
+          - name: Gerenciar o acesso a aplicativos do Teams de terceiros no Microsoft 365
+            href: manage-third-party-teams-apps.md
   - name: Diretrizes governamentais e de indústrias
     items:
       - name: Visão Geral
