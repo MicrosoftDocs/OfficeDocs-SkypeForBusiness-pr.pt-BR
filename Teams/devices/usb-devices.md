@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB (como fones de ouvido, viva-voz, webcams e monitores) são certificados para Microsoft Teams.
-ms.openlocfilehash: d47e4723efae7ba339b54f5aa62064775d882e38
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 1b9b8116ad06d58f6e77e33394ad5dd3db107c88
+ms.sourcegitcommit: 2b858f5e7281705b383522615b6ade6eba347df5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363187"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448794"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para Microsoft Teams
 
@@ -35,10 +35,10 @@ Para obter mais informações sobre o suporte ao controle de chamadas com Teams,
 
 ## <a name="understanding-certification-categories"></a>Noções básicas sobre categorias de certificação
 
-Os usuários não precisam substituir dispositivos certificados anteriormente ao atualizar para Teams de Skype for Business.  Todos os dispositivos certificados têm suporte para Microsoft Teams e Skype for Business usuários, com apenas algumas diferenças.  A certificação também fornece mais designação para determinadas categorias de dispositivo.
+Os usuários não precisam substituir dispositivos certificados anteriormente ao atualizar para Teams de Skype for Business.  Todos os dispositivos certificados têm suporte para usuários Microsoft Teams e Skype for Business, com apenas algumas diferenças.  A certificação também fornece mais designação para determinadas categorias de dispositivo.
 
-- **Skype for Business certificados com Teams de atualização** Os dispositivos certificados nesse nível foram certificados inicialmente para Skype for Business. A Microsoft trabalhou com fabricantes de dispositivos para oferecer a melhor Teams de integração possível sem alterações no hardware original. O *botão hookswitch* age como um botão Teams quando não está em uma chamada e pode incluir mais funções ao longo do tempo.  Os dispositivos nessa categoria podem carregar o selo de Teams de certificação em materiais de marketing.
-- **Certificado para Microsoft Teams** dispositivos certificados nesse nível indicam os dispositivos mais novos certificados, para uma experiência de Teams sem comprometimento. Esses dispositivos oferecem todos os benefícios da certificação anterior e também incluem um botão Teams dedicado com indicador LED. Com a maioria dos fatores de Teams, o botão Teams será um botão de tactile fácil de encontrar com o logotipo Teams. A Microsoft continua a trabalhar com fabricantes de dispositivos para fornecer novo valor por meio de atualizações de firmware ao longo do tempo.
+- **Skype for Business certificado com Teams atualização** Os dispositivos certificados nesse nível foram certificados inicialmente para Skype for Business. A Microsoft trabalhou com fabricantes de dispositivos para oferecer a melhor Teams de integração possível sem alterações no hardware original. O *botão hookswitch* age como um botão Teams quando não está em uma chamada e pode incluir mais funções ao longo do tempo.  Os dispositivos nessa categoria podem carregar o selo Teams de certificação em materiais de marketing.
+- **Certificado para Microsoft Teams** certificados nesse nível indicam os dispositivos mais novos certificados, para uma experiência de Teams sem comprometimento. Esses dispositivos oferecem todos os benefícios da certificação anterior e também incluem um botão Teams dedicado com indicador LED. Com a maioria dos fatores de Teams, o botão Teams será um botão de tactile fácil de encontrar com o logotipo Teams. A Microsoft continua a trabalhar com fabricantes de dispositivos para fornecer novo valor por meio de atualizações de firmware ao longo do tempo.
 
 ### <a name="special-usage-designations"></a>Designações de uso especiais
 
@@ -51,15 +51,15 @@ Procurar [dispositivos certificados para Microsoft Teams](https://products.offic
 
 ### <a name="new-teams-certification-benefits"></a>Novos Teams de certificação
 
-- Botão Teams e luz de indicador LED dedicados.
+- Botão Teams e luz indicador LED dedicados.
 - Notificação do usuário de eventos e alertas do cliente Teams (por exemplo, início da reunião, caixa postal ou chamada perdida).
-- Capacidade de ativar o cliente Teams ou responder à notificação com uma pressão do botão (por exemplo, para ingressar em uma reunião).
+- Capacidade de ativar o cliente Teams ou responder à notificação com uma pressionada do botão (por exemplo, para ingressar em uma reunião).
 - Certificação projetada para extensibilidade (novos recursos de dispositivo/cliente a serem entregues por meio da atualização de firmware).
 
 ### <a name="core-certification-benefits"></a>Principais benefícios de certificação
 
 - Seleção automática de dispositivo de áudio padrão e priorização se vários periféricos de áudio estão presentes.
-- Os dispositivos se registram automaticamente com o cliente Teams e estão prontos para uso.
+- Os dispositivos se registram automaticamente com o Teams cliente e estão prontos para uso.
 - Dispositivos de áudio (por exemplo, fones de ouvido e viva-voz) oferecem:
   - Controle de chamada básico ao longo quando usado com um computador ou um dispositivo Mac. Os controles básicos incluem atende/desligar, mudo/desatar e controle de volume.
   - Áudio de banda larga sem eco, distorção ou falhas excessivas. O cancelamento de eco também é suportado em dispositivos.
@@ -74,10 +74,11 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela atualizada em fevereiro de 2022*
+*Tabela atualizada em março de 2022*
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa Certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Speakerphone SP3022                                        |2/7/2022        |Certificado para Microsoft Teams                           |
 |Dell                 |Soundbar de Conferência Fina SB522A                          |1/25/2022       |Certificado para Microsoft Teams                           | 
 |Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |Certificado para Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certificado para Microsoft Teams                           |
@@ -90,7 +91,7 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 |Jabra                |PanaCast 20                                                |11/26/2021      |Certificado para Microsoft Teams                           |
 |Poly                 |Foco da Voyager 2 e Office Base                    |10/20/2021      |Certificado para Microsoft Teams                           |
 |Poly                 |Voyager 4320 e Voyager Office Base                       |10/20/2021      |Certificado para Microsoft Teams                           |
-|Poly                 |Voyager 4310 e Voyager Office Base                       |10/20/2021      |Certificado para Microsoft Teams                           |
+|Poly                 |Voyager 4310 e Office Base                       |10/20/2021      |Certificado para Microsoft Teams                           |
 |Jabra                |Desenvolver 2 Fones de Ouvido 75                                        |10/8/2021       |Certificado para Microsoft Teams                           |
 |Logitech             |Earbuds com fio de zona                                         |9/2/2021        |Certificado para Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |Certificado para Microsoft Teams                           |
@@ -131,7 +132,7 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 |EPOS/Sennheiser      |Adaptar fones de ouvido da série 100                                  |12/22/2020      |Certificado para Microsoft Teams                           |
 |Dell                 |Pro Fone de Ouvido Estéreo - UC350                                 |12/21/2020      |Skype for Business com atualização para Microsoft Teams      |
 |Dell                 |Pro Fone de Ouvido Estéreo - UC150                                 |12/21/2020      |Skype for Business com atualização para Microsoft Teams      |
-|Lenovo               |Pro fone de ouvido estéreo VoIP com fio                              |12/21/2020      |Skype for Business com atualização para Microsoft Teams      |
+|Lenovo               |Pro headset estéreo VoIP com fio                              |12/21/2020      |Skype for Business com atualização para Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |Certificado para Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |Certificado para Microsoft Teams                           |
 |Jabra                |Desenvolver fone de ouvido 75e                                         |12/16/2020      |Skype for Business com atualização para Microsoft Teams      |
