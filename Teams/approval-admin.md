@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070430"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442307"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -198,6 +198,7 @@ No aplicativo Aprovações de Equipes, os usuários têm acesso para criar novas
 ## <a name="approvals-e-signature-integration"></a>Aprova a integração de assinatura eletrônica
 
 Para usar o recurso de assinatura eletrônica do aplicativo Aprovações, você precisa de uma licença para o provedor de assinatura eletrônica específico que deseja usar. Para obter uma licença para sua organização, você precisará ir para o site do provedor.
+
 ### <a name="enable-or-disable-e-signature-providers"></a>Habilitar ou desabilitar provedores de assinatura eletrônica
 
 Você pode usar o Teams de administração para controlar quais provedores de assinatura eletrônica de terceiros estão disponíveis para seus usuários no aplicativo Aprovações. Por padrão, os provedores de assinatura eletrônica são habilitados no aplicativo Aprovações. Quando você desabilita um provedor de assinatura eletrônica, os usuários não terão acesso a esse provedor quando eles criarem aprovações. Seus usuários também não poderão exibir solicitações de assinatura eletrônica que foram criadas usando esse provedor.

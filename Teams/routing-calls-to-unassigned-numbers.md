@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como rotear chamadas para números não atribuídos em sua organização.
-ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767364"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442789"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Roteamento de chamadas para números não atribuídos
 
@@ -42,7 +42,7 @@ Você pode rotear chamadas para números não atribuídos para um usuário, para
 
 Para rotear chamadas para um número não atribuído, use o cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponível no módulo 2.5.1 ou posterior do Teams PowerShell.
 
-Você precisa especificar o número ou intervalo de números chamado e o roteamento associado para chamadas a esses números. Por exemplo, o seguinte comando especifica que todas as chamadas para o número +1 (555) 222-3333 serão roteados para a conta de recurso aa@contoso.com:
+Você precisa especificar o número ou intervalo de números chamado e o roteamento associado para chamadas a esses números. Por exemplo, o comando a seguir especifica que todas as chamadas para o número +1 (555) 222-3333 serão roteados para a conta de recurso aa@contoso.com:
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
@@ -67,7 +67,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Se o roteamento para um comunicado, o arquivo de áudio será tocado uma vez para o chamador.
 
-- Para rotear chamadas para números de assinantes do Plano de Chamadas da Microsoft não atribuídos, seu locatário precisa ter créditos de [comunicações disponíveis.](what-are-communications-credits.md)
+- Para rotear chamadas para números de assinantes do Plano de Chamadas da Microsoft não atribuídos, seu locatário precisa ter [créditos de comunicações disponíveis](what-are-communications-credits.md).
 
 - Para rotear chamadas para números de serviço do Plano de Chamadas da Microsoft não atribuídos, seu locatário precisa ter pelo menos uma Sistema de Telefonia – licença de usuário virtual.
 
@@ -82,3 +82,5 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - [Set-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/set-csteamsunassignednumbertreatment)
 
 - [Remove-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/remove-csteamsunassignednumbertreatment)
+
+- [Test-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/test-csteamsunassignednumbertreatment)

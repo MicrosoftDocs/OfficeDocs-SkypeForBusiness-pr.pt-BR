@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30425631f0f3058d0fe39542b929e01bf0344367
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 54fbd67fffa666e7f07719305075be264f077976
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070360"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442267"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Exibir permissões de aplicativo e conceder consentimento de administrador no Microsoft Teams de administração
 
@@ -30,7 +30,7 @@ Aqui, você também pode conceder consentimento de administrador em toda a organ
 
 Se você for um administrador global, poderá revisar e conceder consentimento a aplicativos que solicitam permissões em nome de todos os usuários em sua organização. Faça isso para que os usuários não tenham que revisar e aceitar as permissões solicitadas pelo aplicativo ao iniciar o aplicativo. Além disso, dependendo das configurações de consentimento do usuário no Azure Active Directory (Azure AD), alguns usuários podem não ter permissão para conceder consentimento a [aplicativos](/azure/active-directory/manage-apps/configure-user-consent) que acessam dados da empresa.
 
-Exemplos de permissões solicitadas por aplicativos incluem a capacidade de ler informações armazenadas em uma equipe, ler o perfil de um usuário e enviar um email em nome dos usuários. Para saber mais, confira [Permissões e consentimento no ponto plataforma de identidade da Microsoft ponto de extremidade](/azure/active-directory/develop/v2-permissions-and-consent). 
+Exemplos de permissões solicitadas por aplicativos incluem a capacidade de ler informações armazenadas em uma equipe, ler o perfil de um usuário e enviar um email em nome dos usuários. Para saber mais, confira [Permissões e consentimento no ponto plataforma de identidade da Microsoft ponto de extremidade](/azure/active-directory/develop/v2-permissions-and-consent).
 
 A **coluna Permissões** indica se um aplicativo tem permissões que precisam de consentimento. Você verá um link **Exibir detalhes** para cada aplicativo registrado no Azure AD que tem permissões que precisam de consentimento. Lembre-se de que isso se aplica somente a aplicativos personalizados e de terceiros. Você não verá esse link ou precisará conceder consentimento de administrador para aplicativos publicados pela Microsoft.
 
@@ -64,15 +64,15 @@ Depois de aceitar as permissões, você verá uma mensagem em **Permissões** em
 Se os usuários em sua organização têm permissão para conceder consentimento e se um ou mais usuários concederem consentimento a um determinado aplicativo, você também verá a mesma mensagem para que você saiba que o consentimento foi concedido e o link Azure Active Directory para a página do aplicativo no portal do Azure AD.
 
 > [!NOTE]
-> Embora a opção  Revisar permissões e consentimento não está disponível para administradores de serviço Teams e eles não podem conceder consentimento de administrador em toda a organização a aplicativos, os administradores de serviço do Teams podem exibir o conteúdo na guia **Permissões** para um aplicativo. Por exemplo, um Teams de serviço pode clicar **no link Azure Active Directory** para exibir detalhes de permissões do aplicativo no portal do Azure AD. 
+> Embora a opção  Revisar permissões e consentimento não está disponível para administradores de serviço Teams e eles não podem conceder consentimento de administrador em toda a organização a aplicativos, os administradores de serviço do Teams podem exibir o conteúdo na guia **Permissões** para um aplicativo. Por exemplo, um Teams de serviço pode clicar **no link Azure Active Directory** para exibir detalhes de permissões do aplicativo no portal do Azure AD.
 
 ## <a name="view-resource-specific-consent-permissions-of-an-app"></a>Exibir permissões de consentimento específicas do recurso de um aplicativo
 
-As permissões RSC permitem que os proprietários da equipe concedam consentimento para que um aplicativo acesse e modifique os dados de uma equipe. As permissões RSC são granulares, Teams permissões específicas que definem o que um aplicativo pode fazer em uma equipe específica. Exemplos de permissões RSC incluem a capacidade de criar e excluir canais, obter as configurações de uma equipe e criar e remover guias de canal. 
+As permissões RSC permitem que os proprietários da equipe concedam consentimento para que um aplicativo acesse e modifique os dados de uma equipe. As permissões RSC são granulares, Teams permissões específicas que definem o que um aplicativo pode fazer em uma equipe específica. Exemplos de permissões RSC incluem a capacidade de criar e excluir canais, obter as configurações de uma equipe e criar e remover guias de canal.
 
 As permissões RSC são definidas no manifesto do aplicativo e não no Azure AD. Você concede consentimento a permissões RSC ao adicionar o aplicativo a uma equipe. Para saber mais, confira [Consentimento específico do recurso (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
-Os administradores globais e Teams de serviço podem exibir permissões RSC para um aplicativo na guia **Permissões** da página de detalhes do aplicativo. 
+Os administradores globais e Teams de serviço podem exibir permissões RSC para um aplicativo na guia **Permissões** da página de detalhes do aplicativo.
 
 Para exibir permissões RSC para um aplicativo, siga estas etapas:
 

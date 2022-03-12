@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar o acesso a aplicativos personalizados construídos na Plataforma Do Microsoft Power no Microsoft Teams de administração.
-ms.openlocfilehash: d2ccb100a0d6354b1fca62911b17afdd3479887b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070530"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442667"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos da Plataforma Microsoft Power no centro de Microsoft Teams de administração
 
@@ -76,7 +76,7 @@ Por padrão, **os aplicativos de** Power Apps **e Agente Virtual do Power** Comp
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Permitir ou bloquear aplicativos da Plataforma Microsoft Power para usuários específicos
 
-Para permitir ou bloquear usuários específicos em sua organização de acessar aplicativos criados em Power Apps ou Power Virtual Agents, crie e atribua uma ou mais políticas de permissão de [aplicativo personalizadas](teams-app-permission-policies.md). 
+Para permitir ou bloquear usuários específicos em sua organização de acessar aplicativos criados em Power Apps ou Power Virtual Agents, crie e atribua uma ou mais políticas de permissão de [aplicativo personalizadas](teams-app-permission-policies.md).
 
 Por exemplo, para impedir que usuários específicos acessem aplicativos criados no Power Apps, crie uma política de permissão de aplicativo personalizada para bloquear o Power Apps compartilhado e atribua a política a esses usuários.
 
@@ -84,7 +84,7 @@ Por exemplo, para impedir que usuários específicos acessem aplicativos criados
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Usar logs de auditoria para investigar a atividade de instalação da Plataforma Microsoft Power
 
-Você pode usar logs de auditoria para Teams para investigar eventos em que os usuários instalaram aplicativos da Plataforma Microsoft Power  a partir da seção Criado por seus colegas da página Aplicativos no Teams. Para fazer isso, [pesquise o log](./audit-log-events.md) de auditoria do evento **Teams** aplicativo instalado (na operação **AppInstalled**) para um usuário ou conjunto de usuários. Para encontrar aplicativos instalados de **Built por** seus colegas, procure o valor **TemplatedInstance** na propriedade **AppDistributionMode** em detalhes de um determinado registro. 
+Você pode usar logs de auditoria para Teams para investigar eventos em que os usuários instalaram aplicativos da Plataforma Microsoft Power  a partir da seção Criado por seus colegas da página Aplicativos no Teams. Para fazer isso, [pesquise o log](./audit-log-events.md) de auditoria do evento **Teams** aplicativo instalado (na operação **AppInstalled**) para um usuário ou conjunto de usuários. Para encontrar aplicativos instalados de **Built por** seus colegas, procure o valor **TemplatedInstance** na propriedade **AppDistributionMode** em detalhes de um determinado registro.
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Captura de tela do valor TemplatedInstance na propriedade AppDistributionMode.":::
 

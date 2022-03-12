@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 391c852edc1eef06c41277a43661fc1cf15b7cd6
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b2225429eee73ecd5c6b33b62d4d1be24da306b9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070350"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442537"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 
@@ -56,7 +56,7 @@ Essas configurações não afetam a capacidade de bloquear aplicativos de tercei
 ### <a name="user-custom-app-policy"></a>Política de aplicativo personalizado do usuário
 
 Como parte das políticas de [configuração](teams-app-setup-policies.md) de aplicativos, os administradores podem usar uma configuração de política, Upload **aplicativos** personalizados, para controlar se um usuário pode carregar aplicativos personalizados para Teams.
- 
+
 Se essa configuração estiver desligada:
 
 - O usuário não pode carregar um aplicativo personalizado para qualquer equipe em sua organização ou no contexto pessoal.
@@ -65,7 +65,7 @@ Se essa configuração estiver desligada:
 Se essa configuração estiver configurada:
 
 - O usuário pode carregar aplicativos personalizados em equipes que permitem e para equipes para as quais são proprietários, dependendo da configuração de aplicativo personalizado em toda a organização.
-- O usuário pode carregar aplicativos personalizados no contexto pessoal. 
+- O usuário pode carregar aplicativos personalizados no contexto pessoal.
 - O usuário pode interagir com aplicativos personalizados, dependendo da configuração de aplicativo personalizado em toda a organização.
 
 Você pode editar as configurações na política de configuração de aplicativo global para incluir os aplicativos que deseja. Se você quiser personalizar o Teams para diferentes grupos de usuários em sua organização, crie e atribua uma ou mais políticas de configuração de aplicativo personalizadas.
@@ -81,7 +81,7 @@ Você pode editar as configurações na política de configuração de aplicativ
 ### <a name="team-custom-app-setting"></a>Configuração de aplicativo personalizado de equipe
 
 Os administradores e proprietários de equipe podem controlar se uma equipe permite que aplicativos personalizados sejam adicionados a ela. Essa configuração, **Permitir** que os membros carreguem aplicativos personalizados, juntamente com a política de aplicativo personalizada de um usuário, determina quem pode adicionar aplicativos personalizados a uma equipe específica.
- 
+
 Se essa configuração estiver desligada:
 
 - Os proprietários de equipe podem adicionar aplicativos personalizados, se a política de aplicativo personalizada permitir.

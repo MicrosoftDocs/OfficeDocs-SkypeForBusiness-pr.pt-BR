@@ -17,16 +17,16 @@ description: Os conectores mantêm sua equipe atualizada com conteúdo e atualiz
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39bc677b57a0cec5381c0d8f05b33d18b072769f
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: e42ef850c089633a6c9145935d6e70a92cdb6801
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070720"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442687"
 ---
-# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Use Microsoft 365 conectores personalizados e Microsoft Teams 
+# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Use Microsoft 365 conectores personalizados e Microsoft Teams
 
-Os conectores mantêm sua equipe atual, fornecendo atualizações de conteúdo e serviço usados com frequência diretamente em um canal. Com conectores, Microsoft Teams usuários podem receber atualizações de serviços populares, como Trello, Wunderlist, GitHub e Azure DevOps Services no fluxo de chat em sua equipe. 
+Os conectores mantêm sua equipe atual, fornecendo atualizações de conteúdo e serviço usados com frequência diretamente em um canal. Com conectores, Microsoft Teams usuários podem receber atualizações de serviços populares, como Trello, Wunderlist, GitHub e Azure DevOps Services no fluxo de chat em sua equipe.
 
 Qualquer membro de uma equipe pode conectar sua equipe a serviços de nuvem populares com os conectores se as permissões de equipe permitirem e todos os membros da equipe são notificados das atividades desse serviço. Os conectores continuarão a funcionar mesmo depois que o membro que tiver configurado inicialmente o conector tiver sido deixado. Qualquer membro da equipe com as permissões para adicionar\remover pode modificar a configuração de conectores por outros membros.
 
@@ -64,6 +64,7 @@ Atualmente, você pode adicionar conectores usando Microsoft Teams da área de t
 > **Notificação de atualização da URL do conector**
 >
 > Os Teams conectores estão fazendo a transição para uma nova URL para melhorar a segurança. Durante o curso dessa transição, você receberá determinadas notificações para atualizar seu conector configurado para usar a nova URL. É altamente recomendável que você atualize seu conector imediatamente para evitar qualquer interrupção nos serviços do conector. As etapas a seguir precisam ser seguidas para atualizar a URL:
+>
 > 1. Na página de configuração de conectores, uma mensagem "Atenção Necessária" será exibida no botão "Gerenciar" para as conexões que precisam ser atualizadas.
 > ![Captura de tela da mensagem "Atenção Necessária".](media/Teams_Attention_Required_message.png)
 > 2. Para conectores de webhook de entrada, os usuários podem recriar a conexão simplesmente selecionando **Atualizar URL** e usando a URL de webhook recém-gerada.
@@ -72,8 +73,6 @@ Atualmente, você pode adicionar conectores usando Microsoft Teams da área de t
 > 4. Você verá uma mensagem "A URL está atualizada" depois que a URL tiver sido atualizada com êxito.
 > ![Captura de tela da mensagem "URL está atualizada".](media/Teams_URL_up_to_date.png)
 
-
 ## <a name="develop-custom-connectors"></a>Desenvolvimento de conectores personalizados
-
 
 Você também pode criar conectores personalizados, bem como webhooks de entrada e de saída. Para obter mais informações, consulte nossa [documentação do desenvolvedor](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).

@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 90bdf2661432a5d68b8f6a727a272855f1a52173
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070590"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442447"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
 
@@ -91,12 +91,12 @@ Não recomendamos remover uma licença de Exchange Online para funcionários de 
 
 Com a publicação de tarefas, sua organização pode publicar listas de tarefas direcionadas a locais específicos (equipes) em sua organização para definir e compartilhar um plano de trabalho a ser concluído nesses locais.
 
-- Pessoas na equipe de publicação, como lideranças corporativas ou regionais, podem criar listas de tarefas e publicá-las para equipes específicas.<br>
+- Pessoas na equipe de publicação, como lideranças corporativas ou regionais, podem criar listas de tarefas e publicá-las para equipes específicas.
     ![Captura de tela da publicação de tarefas.](media/manage-tasks-app-publish.png)
-- Os gerentes nas equipes destinatárias podem analisar as listas de tarefas publicadas e atribuir tarefas individuais aos membros da equipe.<br>
+- Os gerentes nas equipes destinatárias podem analisar as listas de tarefas publicadas e atribuir tarefas individuais aos membros da equipe.
     ![Captura de tela da atribuição de uma tarefa.](media/manage-tasks-app-assign.png)
 - Os funcionários da linha de frente têm uma experiência móvel simples para ver as tarefas atribuídas a eles. Eles podem anexar fotos para mostrar seu trabalho quando apropriado e marcar suas tarefas como concluídas.
-- Editores e gerentes podem visualizar relatórios para ver a atribuição e o status de conclusão de tarefas em cada nível, incluindo por local (equipe), lista de tarefas e tarefa individual.<br>
+- Editores e gerentes podem visualizar relatórios para ver a atribuição e o status de conclusão de tarefas em cada nível, incluindo por local (equipe), lista de tarefas e tarefa individual.
     ![Captura de tela das tarefas atribuídas no celular.](media/manage-tasks-app-reporting.png)
 
 Os usuários criam, gerenciam e publicam listas de tarefas na guia **Listas publicadas** do aplicativo Tasks. Essa guia só é exibida para um usuário se sua organização[configurar uma hierarquia de segmentação de equipe](#set-up-your-team-targeting-hierarchy) e o usuário estiver em uma equipe incluída na hierarquia. A hierarquia determina se o usuário pode publicar ou receber listas de tarefas e visualizar relatórios de listas recebidas.

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar o Caixa postal na Nuvem para seus usuários.
-ms.openlocfilehash: d2bb29130bad312dbd420c0adb8b16558232c258
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392863"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442317"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a Caixa postal na nuvem
 
@@ -107,7 +107,7 @@ Para criptografar a mensagem de caixa postal, você pode criar um rótulo de sen
 
 Quando você habilita a caixa postal protegida, os usuários podem ouvir mensagens de caixa postal protegidas chamando em sua caixa de correio de caixa postal ou abrindo a mensagem no Outlook, Outlook na Web ou Outlook para Android ou iOS. As mensagens de caixa postal protegidas não podem ser abertas Microsoft Teams ou Skype para Busimess.
 
-Para criar um rótulo de sensibilidade para caixa postal, consulte [Usar rótulos de sensibilidade](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Selecione **Em Outlook, impor uma das seguintes** restrições e selecione a **opção Não Encaminhar**.
+Para criar um rótulo de sensibilidade para caixa postal, consulte [Usar rótulos de sensibilidade](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Na seção **Criptografia** , escolha **Permitir que os usuários atribuam permissões quando aplicarem o rótulo**. Selecione **Em Outlook, impor uma das seguintes** restrições e selecione a **opção Não Encaminhar**.
 
 Para criar a política de rotulagem automática para aplicar um rótulo de sensibilidade à caixa postal, consulte [Como](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) configurar políticas de rotulagem automática e especificar as seguintes configurações específicas:
 

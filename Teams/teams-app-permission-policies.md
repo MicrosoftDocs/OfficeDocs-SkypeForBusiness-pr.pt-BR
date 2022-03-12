@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bdc2124da8fb404c289a8e4e5eda962cd66cc9b4
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 2b8eaa4cfc9743ad297c7309769a3195e84cb539
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070370"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442457"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissão de aplicativos no Microsoft Teams
 
@@ -52,7 +52,7 @@ Digamos, por exemplo, que você deseja bloquear todos os aplicativos de terceiro
 Se você deseja controlar os aplicativos que estão disponíveis para diferentes grupos de usuários em sua organização, crie e atribua uma ou mais políticas de permissão de aplicativo personalizadas. Você pode criar e atribuir políticas personalizadas separadas com base no fato de os aplicativos serem publicados pela Microsoft, por terceiros ou pela sua organização. É importante saber que, depois de criar uma política personalizada, você não pode alterá-la se os aplicativos de terceiros estiverem desabilitados nas configurações de aplicativos de toda a organização.
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Políticas de permissão**.
-2. Clique em **Adicionar**.<br>
+2. Clique em **Adicionar**.
     ![Captura de tela da nova política de permissão do aplicativo.](media/app-permission-policies-new-policy.png)
 3. Insira um nome e uma descrição para a política.
 4. Em **Aplicativos da Microsoft**, **Aplicativos de terceiros** e **Aplicativos personalizados**, selecione um dos seguintes:
@@ -66,7 +66,7 @@ Se você deseja controlar os aplicativos que estão disponíveis para diferentes
 
     1. Selecione **Permitir aplicativos**.
     1. Procure os aplicativos que deseja permitir e clique em **Adicionar**. Os resultados da pesquisa são filtrados para o editor do aplicativo (**aplicativos da Microsoft**, **aplicativos de terceiros** ou **aplicativos personalizados**).
-    1. Depois de escolher a lista de aplicativos, clique em **Permitir**. 
+    1. Depois de escolher a lista de aplicativos, clique em **Permitir**.
 
 6. Da mesma forma, se você selecionou **Bloquear aplicativos específicos e permitir todos os outros**, pesquise e adicione os aplicativos que deseja bloquear e clique em **Bloquear**.
 7. Clique em **Salvar**.
@@ -97,7 +97,7 @@ Use as configurações de aplicativos de toda a organização para controlar se 
 1. Na página **Políticas de permissão**, selecione **Configurações de aplicativos para toda a organização**. Você pode então definir as configurações desejadas no painel.
 
     ![Captura de tela das configurações do aplicativo em toda a organização.](media/app-permission-policies-gcc-org-wide.png)
-    
+
 2. Em **Aplicativos de terceiros**, desabilite ou ative essas configurações para controlar o acesso a aplicativos de terceiros:
 
     - **Permitir aplicativos de terceiros**: controla se os usuários podem usar aplicativos de terceiros. Se você desabilitar esta configuração, seus usuários não poderão instalar ou usar aplicativos de terceiros. Em um Microsoft 365 Government - implantação GCCH e DoD de Teams, essa configuração está desligada por padrão.
@@ -113,9 +113,11 @@ Conforme mencionado anteriormente, para permitir aplicativos de terceiros, você
 ### <a name="working-with-app-permission-policies"></a>Trabalhar com políticas de permissão de aplicativos
 
 #### <a name="what-app-interactions-do-permission-policies-affect"></a>Quais interações de aplicativos as políticas de permissão afetam?
+
 As políticas de permissão regem o uso do aplicativo, controlando a instalação, descoberta e interação para usuários finais. Os administradores ainda podem gerenciar aplicativos no centro de administração do Microsoft Teams, independentemente das políticas de permissão atribuídas a eles.
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>Posso controlar aplicativos de linha de negócios (LOB)?
+
 Sim, você pode usar políticas de permissão de aplicativo para controlar a implementação e distribuição de aplicativos personalizados (LOB). Você pode criar uma política personalizada ou editar a política global para permitir ou bloquear aplicativos personalizados com base nas necessidades de sua organização.
 
 #### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>Como as políticas de permissão de aplicativo se relacionam a aplicativos fixados e políticas de configuração de aplicativo?

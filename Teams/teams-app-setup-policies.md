@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: adfdfa74dd00314cb0b7fad5524a89619e8772d2
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070740"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442337"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -51,7 +51,7 @@ Os aplicativos são fixados em:
 
 |Cliente de área de trabalho do Teams  |Cliente de dispositivo móvel do Teams |
 |---------|---------|
-|![O Teams da área de trabalho.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![O Teams cliente móvel](media/mobile-app-ui.png)      |
+|![O Teams da área de trabalho.](media/app-setup-policies-desktop-app-bar.png)<  |   ![O Teams cliente móvel](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > Se você tiver Teams para Educação, é importante saber que o aplicativo Assignments está fixado por padrão na política global, mesmo que no momento, você não o veja listado na política global. Ele será o quarto aplicativo na lista de aplicativos fixados Teams clientes.
@@ -193,7 +193,7 @@ Para exibir todos os aplicativos fixados para um usuário, os usuários podem te
 |Cliente de área de trabalho do Teams |Cliente de dispositivo móvel do Teams |
 |---------|---------|
 |Na barra de aplicativos do lado Teams, selecione **... Mais aplicativos**.| Na barra de aplicativos próxima à parte inferior Teams, passe o dedo para cima.|
-|![Mais aplicativos no cliente Teams desktop.](media/app-setup-policies-desktop-more-apps.png)<br>   |![mais aplicativos no cliente Teams celular](media/app-setup-policies-mobile-more-apps.png)  
+|![Mais aplicativos no cliente Teams desktop.](media/app-setup-policies-desktop-more-apps.png)   |![mais aplicativos no cliente Teams celular](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>O que preciso saber sobre a experiência Teams celular
 
