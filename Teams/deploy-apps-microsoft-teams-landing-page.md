@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070390"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442497"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Aplicativos, bots e conectores no Microsoft Teams
 
-Os aplicativos permitem que você localize conteúdo de seus serviços favoritos e compartilhe-o no Teams. Eles ajudam você a fazer coisas como localizar serviços na parte superior de um canal, bater-papo com bots ou compartilhar e atribuir tarefas. Para saber mais, leia [Visão geral de aplicativos no Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0). 
+Os aplicativos permitem que você localize conteúdo de seus serviços favoritos e compartilhe-o no Teams. Eles ajudam você a fazer coisas como localizar serviços na parte superior de um canal, bater-papo com bots ou compartilhar e atribuir tarefas. Para saber mais, leia [Visão geral de aplicativos no Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Você pode adicionar aplicativos à implantação do Teams usando os aplicativos fornecidos com o Microsoft Teams, usando aplicativos e modelos certificados de terceiros e criando seus próprios aplicativos personalizados.
 
@@ -47,7 +47,6 @@ Você também pode usar [modelos do Teams](/microsoftteams/platform/samples/app-
 
 Você pode criar rapidamente soluções personalizadas de baixo código usando a integração do Teams com o [Microsoft Power Platform](teams-power-platfom-integration.md). Você também pode criar seu próprio aplicativo personalizado para atender às suas necessidades de negócios. Para obter mais informações, confira [Construir aplicativos para o Microsoft Teams](/microsoftteams/platform/overview).  
 
-
 ## <a name="apps-deployment-decisions"></a>Decisões de implantação de aplicativos
 
 O Teams fornece uma grande experiência de colaboração imediata para sua organização, e a maioria das organizações descobrem que as configurações padrão funcionam para eles. Este artigo o ajuda a decidir se quer alterar alguma das configurações padrão com base no perfil da sua organização e nos requisitos comerciais, e depois o acompanha em cada alteração. Dividimos as configurações em dois grupos, começando com o conjunto central de [alterações que você está mais propenso a fazer](#core-deployment-decisions). O segundo grupo inclui as [configurações adicionais](#additional-deployment-decisions) que você pode querer configura com base nas necessidades da sua organização.
@@ -56,18 +55,21 @@ O Teams fornece uma grande experiência de colaboração imediata para sua organ
 
 Estas são as configurações de aplicativos que a maioria das organizações deseja alterar (se as configurações padrão do Teams não atenderem suas necessidades).
 
-### <a name="app-availability-settings"></a>Configurações de disponibilidade do aplicativo 
+### <a name="app-availability-settings"></a>Configurações de disponibilidade do aplicativo
 
-O Teams fornece muitos aplicativos publicados pela Microsoft e por terceiros para envolver os usuários, dar suporte à produtividade e integrar os serviços de negócios comumente usados no Teams. Obtenha aplicativos na Teams Store. Por padrão, todos os aplicativos, incluindo aplicativos personalizados enviados por meio do[processo de aprovação do Teams Store](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), são ativados para todos os usuários.  Por exemplo, os usuários podem usar o aplicativo do Planner para criar e gerenciar tarefas de equipe no Teams.
+O Teams fornece muitos aplicativos publicados pela Microsoft e por terceiros para envolver os usuários, dar suporte à produtividade e integrar os serviços de negócios comumente usados no Teams.
+Obtenha aplicativos na Teams Store. Por padrão, todos os aplicativos, incluindo aplicativos personalizados enviados por meio do[processo de aprovação do Teams Store](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), são ativados para todos os usuários.  Por exemplo, os usuários podem usar o aplicativo do Planner para criar e gerenciar tarefas de equipe no Teams.
 
 Por padrão, todos os aplicativos fornecidos por terceiros, aprovados pela Microsoft e personalizados estão disponíveis, e é possível ativar ou desativar aplicativos individualmente. Existem configurações de toda a organização que permitem ativar ou desativar aplicativos terceirizados e/ou personalizados para toda a sua organização.
 
-| Pergunte a si mesmo | Ação |
+| Pergunte-se | Ação |
 |--------------|--------|
 |Vai alterar as configurações padrão dos aplicativos Teams? | Para mais informações sobre políticas e configurações que podem ser usadas no gerenciamento de aplicativos da sua organização, confira as[Configurações de Administrador para aplicativos no Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>Permissões de aplicativos e outras considerações
+
+Os aplicativos são aceitos pelos usuários e gerenciados pelo administrador ou pelo profissional de TI através das políticas. No entanto, na maioria das vezes, as permissões e o perfil de risco de um aplicativo são definidos no próprio aplicativo.
 
 Os aplicativos são aceitos pelos usuários e gerenciados pelo administrador ou pelo profissional de TI através das políticas. No entanto, as permissões do aplicativo e o perfil de risco são definidos no próprio aplicativo.
 
@@ -118,7 +120,9 @@ Você pode usar relatórios de atividade para ver como os usuários em sua organ
 
 ### <a name="app-templates"></a>Modelos de aplicativos
 
-Os modelos de aplicativos são aplicativos prontos para produção para o Microsoft Teams orientadas pela comunidade, software livre e disponíveis no GitHub. Cada um contém instruções detalhadas para implantação e instalação do aplicativo para a sua organização, fornecendo um aplicativo pronto para uso que você pode instalar e começar a usar imediatamente. O código-fonte completo também está disponível, para que você possa explorá-lo em detalhes ou bifurcar o código e alterá-lo para atender às suas necessidades específicas.
+Os modelos de aplicativos são aplicativos prontos para produção para o Microsoft Teams orientadas pela comunidade, software livre e disponíveis no GitHub. Cada um contém instruções detalhadas para implantação e instalação do aplicativo para a sua organização, fornecendo um aplicativo pronto para uso que você pode instalar e começar a usar imediatamente.
+
+O código-fonte completo também está disponível, para que você possa explorá-lo em detalhes ou bifurcar o código e alterá-lo para atender às suas necessidades específicas.
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
