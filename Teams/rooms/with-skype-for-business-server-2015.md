@@ -1,7 +1,7 @@
 ---
 title: Implantar Salas do Microsoft Teams com Skype for Business Server
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,18 +15,18 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Leia este tópico para obter informações sobre como implantar Salas do Microsoft Teams com Skype for Business Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: 358fa9295ec150f9c57a18252c76d309078b8e29
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355616"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503478"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Implantar Salas do Microsoft Teams com Skype for Business Server
   
 Este tópico explica como você adiciona uma conta de recurso para Salas do Microsoft Teams quando você tem uma implantação local e de floresta única.
   
-Se você tiver uma implantação local de floresta única com o Exchange 2013 SP1 ou posterior e Skype for Business Server 2015 ou posterior, poderá usar os scripts Windows PowerShell fornecidos para criar contas de dispositivo. Se você estiver usando uma implantação de várias florestas, poderá usar cmdlets equivalentes que produzirão os mesmos resultados. Esses cmdlets são descritos nesta seção.
+Se você tiver uma implantação local de floresta única com o Exchange 2013 SP1 ou posterior e o Skype for Business Server 2015 ou posterior, poderá usar os scripts Windows PowerShell fornecidos para criar contas de dispositivo. Se você estiver usando uma implantação de várias florestas, poderá usar cmdlets equivalentes que produzirão os mesmos resultados. Esses cmdlets são descritos nesta seção.
   
 Antes de começar a Salas do Microsoft Teams, certifique-se de ter as permissões certas para executar os cmdlets associados.
   
@@ -42,7 +42,7 @@ Antes de começar a Salas do Microsoft Teams, certifique-se de ter as permissõe
    Import-PSSession $sessLync
    ```
 
-   Observe que $strExchangeServer é o FQDN (nome de domínio totalmente qualificado) do seu servidor Exchange, e o $strLyncFQDN é o FQDN da sua implantação Skype for Business Server.
+   Observe que $strExchangeServer é o FQDN (nome de domínio totalmente qualificado) do seu servidor Exchange, e $strLyncFQDN é o FQDN da sua implantação Skype for Business Server.
 
 2. Depois de estabelecer uma sessão, você criará uma nova caixa de correio e a habilitará como RoomMailboxAccount ou alterará as configurações de uma caixa de correio de sala existente. Isso permitirá que a conta seja autenticada Salas do Microsoft Teams.
 
@@ -87,7 +87,7 @@ Antes de começar a Salas do Microsoft Teams, certifique-se de ter as permissõe
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    Altere `-DomainController` os atributos e para os valores `-RegistrarPool` apropriados para seu ambiente.
+    Altere os `-DomainController` atributos `-RegistrarPool` e para os valores apropriados para seu ambiente.
 
 7. **Opcional**. Você também pode permitir Salas do Microsoft Teams fazer e receber chamadas telefônicas PSTN (rede telefônica pública comutado) habilitando Enterprise Voice para sua conta. Enterprise Voice não é um requisito para Salas do Microsoft Teams, mas se você quiser a funcionalidade de discagem PSTN para Salas do Microsoft Teams, veja como habilita-la:
 

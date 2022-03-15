@@ -1,7 +1,7 @@
 ---
 title: Criando Microsoft Teams contas de recursos para barras de colaboração para Microsoft Teams usando o PowerShell
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: ericwe
 audience: ITPro
 ms.reviewer: payurevi
@@ -16,12 +16,12 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar barras de colaboração para Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0bbafdfbfc9fb7e9b637216aeb9e5a0d6b470533
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605810"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503908"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Criar uma Microsoft 365 de recursos usando o PowerShell
 
@@ -37,12 +37,12 @@ Antes de implantar Salas do Microsoft Teams com Office 365, certifique-se de ter
 
 - Se você precisar de recursos PSTN para a barra de colaboração, precisará Sistema de Telefonia licença.
 
-- Suas contas de recursos devem ter Exchange caixas de correio. Como são contas de recurso, nenhuma Exchange é necessária. Recomendamos o uso da licença salas de reunião para contas de recursos.
+- Suas contas de recurso devem ter Exchange caixas de correio. Como são contas de recurso, nenhuma Exchange é necessária. Recomendamos o uso da licença salas de reunião para contas de recursos.
 
 
 ### <a name="add-a-resource-account"></a>Adicionar uma conta de recurso
 
-1. Conexão para Exchange Online PowerShell. Para obter instruções, [consulte Conexão Exchange Online PowerShell](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
+1. Conexão para Exchange Online PowerShell. Para obter instruções, [consulte Conexão para Exchange Online PowerShell](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
 
 2. No Exchange Online PowerShell, crie uma nova caixa de correio de sala ou modifique uma caixa de correio de sala existente.
 
@@ -108,7 +108,7 @@ Antes de implantar Salas do Microsoft Teams com Office 365, certifique-se de ter
 4. Conexão ao PowerShell do MS Online para fazer configurações do Active Directory executando o `Connect-MsolService -Credential $cred` cmdlet do powershell.   Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > Azure Active Directory não há suporte para o [PowerShell 2.0.](/powershell/azure/active-directory/overview?view=azureadps-2.0) 
+   > Azure Active Directory não há suporte para o [PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0). 
 
 5. De definir a senha huddleroom01@contoso.onmicrosoft.com não expirar usando a seguinte sintaxe:
 
@@ -116,7 +116,7 @@ Antes de implantar Salas do Microsoft Teams com Office 365, certifique-se de ter
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. A conta de recurso precisa ter uma Office 365 de Office 365, preferencialmente a Sala de Reunião SKU. Você também precisa atribuir um local de uso à sua conta de dispositivo— isso determina quais SKUs de licença estão disponíveis para sua conta. Você pode usar `Get-MsolAccountSku` para recuperar uma lista de SKUs disponíveis para seu Office 365 locatário.
+6. A conta de recurso precisa ter uma licença Office 365, preferencialmente a Sala de Reunião SKU. Você também precisa atribuir um local de uso à sua conta de dispositivo— isso determina quais SKUs de licença estão disponíveis para sua conta. Você pode usar `Get-MsolAccountSku` para recuperar uma lista de SKUs disponíveis para seu Office 365 locatário.
 
       ``` Powershell
       Get-MsolAccountSku

@@ -1,7 +1,7 @@
 ---
 title: Suporte às Salas do Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre as licenças disponíveis para diferentes tipos de recursos de chamada e reunião Salas do Microsoft Teams.
-ms.openlocfilehash: 05e7b0c3f8cb6f31e84ef16ad0ff23039da26b14
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 4ac62bb4e30e2a7686c334bb638391cd2bf9ee18
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056051"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503498"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Sala de Reunião De licenciamento
 
@@ -47,7 +47,7 @@ A Microsoft tem duas SKUs dedicadas para reuniões de licenciamento e chamada po
 |Serviços Gerenciados | | &#x2714; &sup3;|
 
 
-&sup1; Disponibilidade e minutos incluídos podem variar de acordo com a região. Para verificar a disponibilidade do serviço, consulte [Disponibilidade de país e região para Audioconferência e Planos de Chamada.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) Os encargos de consumo podem ser aplicados a serviços adicionais, como minutos internacionais gratuitos para planos domésticos, etc. Os clientes podem desabilitar esses recursos para evitar cobrança adicional.  
+&sup1; Disponibilidade e minutos incluídos podem variar de acordo com a região. Para verificar a disponibilidade do serviço, consulte  [Disponibilidade de país e região para Planos de Audioconferência e Chamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Os encargos de consumo podem ser aplicados a serviços adicionais, como minutos internacionais gratuitos para planos domésticos, etc. Os clientes podem desabilitar esses recursos para evitar cobrança adicional.  
 
 &sup2; Não disponível em nuvens soberanas  
 
@@ -65,16 +65,16 @@ A tabela a seguir lista os recursos que estão disponíveis no Salas do Microsof
 |Ingressar em uma reunião agendada  | Salas do Microsoft Teams Padrão ou Premium  |Skype for Business Server Standard CAL  |
 |Iniciar uma reunião ad hoc | Salas do Microsoft Teams Padrão ou Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Iniciar uma reunião ad hoc e discar de uma reunião para números de telefone |  Salas do Microsoft Teams Padrão ou Premium |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Dê um número de telefone à sala e faça ou receba uma chamada da sala ou participe de uma conferência de áudio usando um número de telefone  | Com Roteamento Direto e/ou Conexão: Salas do Microsoft Teams Padrão ou Premium<br/>Sem Roteamento Direto ou Conexão: Plano de Chamadas Domésticas ou Internacionais<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Gerenciar seu dispositivo de sala com Microsoft Intune |Salas do Microsoft Teams Padrão ou Premium  |Microsoft Intune assinatura com [MDM local](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
+|Dê um número de telefone à sala e faça ou receba uma chamada da sala ou participe de uma conferência de áudio usando um número de telefone  | Com Roteamento Direto e/ou Conexão: Salas do Microsoft Teams Padrão ou Premium<br/>Sem roteamento direto ou Conexão: Plano de Chamadas Domésticas ou Internacionais<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Gerenciar seu dispositivo de sala com Microsoft Intune |Salas do Microsoft Teams Padrão ou Premium  |Microsoft Intune assinatura [com MDM local](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 |Salas do Microsoft Teams Serviços Gerenciados | Salas do Microsoft Teams Premium ||
 
 
 > [!NOTE]
 > 
-> Se você tiver licenças de usuário existentes atribuídas para sistemas de sala(por exemplo, E3 ou E5), elas continuarão a funcionar sem interrupção. No entanto, para estar em conformidade com as alterações futuras, você deve mudar para Sala de Reunião licenças de usuário atribuídas expirarem.
+> Se você tiver licenças de usuário existentes atribuídas para sistemas de sala(por exemplo, E3 ou E5), elas continuarão a funcionar sem interrupção. No entanto, para estar em conformidade com as alterações futuras, você deve mudar para Sala de Reunião licenças de usuário atribuídas expiram.
 > 
 
- Consulte também [Excelentes experiências de sala de reunião: Conheça as novas](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)Salas do Microsoft Teams Padrão e Premium .
+ Consulte também [Excelentes experiências de sala de reunião: Conheça as novas Salas do Microsoft Teams Padrão e Premium](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
 
- Você pode ler [Configurar a licença de](../set-up-common-area-phones.md) Telefone Área Comum para Microsoft Teams para obter informações sobre licenciamento de Telefones de Área Comum.
+ Você pode ler [Configurar a licença de Telefone Área](../set-up-common-area-phones.md) Comum para Microsoft Teams informações sobre licenciamento de Telefones de Área Comum.

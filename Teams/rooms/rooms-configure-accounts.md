@@ -1,7 +1,7 @@
 ---
 title: Configurar contas para Salas do Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Leia este tópico para saber mais sobre como configurar contas para Salas do Microsoft Teams no Exchange e Skype for Business.
-ms.openlocfilehash: 77e1dbe097bbb75697ec52ef7d472df4707ac9cb
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 9c898d63291d6b2d4a8d2557f2e307156b3487b4
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306116"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503488"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar contas para Salas do Microsoft Teams
  
@@ -32,7 +32,7 @@ Este tópico apresenta como criar contas usadas pelo Salas do Microsoft Teams no
     
 - Implantação local: sua organização tem servidores que ela controla, onde o Active Directory, Exchange e Skype for Business Server estão hospedados. Para obter mais informações, [consulte Deploy Salas do Microsoft Teams with Skype for Business Server](with-skype-for-business-server-2015.md)
     
-- Implantações híbridas: sua organização tem uma combinação de serviços, com alguns hospedados no local e alguns hospedados online por meio de Microsoft 365 ou Office 365. Com Salas do Microsoft Teams, há suporte para os seguintes cenários híbridos:
+- Implantações híbridas: sua organização tem uma combinação de serviços, com alguns hospedados no local e alguns hospedados online por meio de Microsoft 365 ou Office 365. Com Salas do Microsoft Teams, os seguintes cenários híbridos são suportados:
     
   - Exchange Online com Skype for Business Server local. Para obter mais informações, [consulte Deploy Salas do Microsoft Teams with Exchange Online (Hybrid)](with-exchange-online.md).
     
@@ -58,11 +58,11 @@ Cada conta de recurso é exclusiva de uma única instalação Salas do Microsoft
 > É recomendável que a conta seja criada antes da instalação do hardware. O ideal é iniciar a preparação da conta de duas a três semanas antes da instalação.
 > 
 
-Em ambientes híbridos, a conta usada para Salas do Microsoft Teams deve ter a sincronização de senha habilitada em Azure Active Directory (AAD) Sincronização porque Salas do Microsoft Teams autenticação requer Microsoft 365 ou Office 365 autenticação. Ao configurar a conta, certifique-se de que o endereço SIP da conta corresponde ao seu Nome de Entidade de Usuário (UPN) no AAD. 
+Em ambientes híbridos, a conta usada para Salas do Microsoft Teams deve ter a sincronização de senha habilitada na sincronização Azure Active Directory (AAD) porque Salas do Microsoft Teams autenticação requer Microsoft 365 ou Office 365 autenticação. Ao configurar a conta, certifique-se de que o endereço SIP da conta corresponde ao nome principal do usuário (UPN) no AAD. 
   
 Você pode pensar em uma conta de recurso como a conta de recurso que as pessoas reconhecem como uma conta de sala de conferência ou de espaço compartilhado. Quando você deseja agendar uma reunião usando esse espaço, convide a conta para essa reunião.
   
-Se você já tiver uma conta de caixa de correio de recurso configurada para o espaço onde você está instalando o Salas do Microsoft Teams, poderá alterar essa conta para uma conta de recurso Salas do Teams usuário. Depois que isso for feito, tudo o que você precisa fazer é entrar Salas do Microsoft Teams com essa conta.
+Se você já tiver uma conta de caixa de correio de recurso configurada para o espaço onde você está instalando Salas do Microsoft Teams, poderá alterar essa conta para uma conta de recurso Salas do Teams de recursos. Depois que isso for feito, tudo o que você precisa fazer é entrar Salas do Microsoft Teams com essa conta.
   
 ## <a name="basic-configuration"></a>Configuração básica
 
@@ -71,7 +71,7 @@ Essas propriedades representam a configuração mínima para uma conta de recurs
 |**Propriedade**|**Objetivo**|
 |:-----|:-----|
 |Exchange caixa de correio (Exchange 2013 SP1 ou posterior, ou Exchange Online)  <br/> |Habilenciar a conta com uma caixa de correio Exchange oferece à conta de recurso a capacidade de receber e enviar solicitações de email e reunião e exibir um calendário de reuniões no dispositivo Salas do Microsoft Teams. A Salas do Microsoft Teams caixa de correio deve ser uma caixa de correio de sala.  <br/> |
-|Skype for Business está habilitado  <br/> |Skype for Business pode ser habilitado para usar vários recursos de Skype for Business de conferência, como chamadas de vídeo, mensagens IM e compartilhamento de tela.  <br/> |
+|Skype for Business está habilitado  <br/> |Skype for Business pode ser habilitado para usar vários recursos Skype for Business de conferência, como chamadas de vídeo, mensagens de IM e compartilhamento de tela.  <br/> |
 |Habilitado por senha  <br/> |A conta de recurso deve ser habilitada com uma senha ou não pode ser autenticada com Microsoft Teams, Exchange ou Skype for Business Server. A expiração de senha deve ser desabilitada em todas as Salas do Teams de recursos.   <br/> |
    
 ## <a name="advanced-configuration"></a>Configuração avançada

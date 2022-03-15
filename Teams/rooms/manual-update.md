@@ -1,7 +1,7 @@
 ---
 title: Atualizar manualmente um Salas do Microsoft Teams dispositivo
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 appliesto:
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Saiba como atualizar manualmente seu Salas do Microsoft Teams para uma versão específica.
-ms.openlocfilehash: 0b8ec08880d3f8c7ecce28293c92fb6ada901277
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 647a961e238d452fd3bfe162ffe8552e64329677
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62014991"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503718"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Atualizar manualmente um Salas do Microsoft Teams dispositivo
 
-O Salas do Microsoft Teams aplicativo é distribuído por meio do Microsoft Store. As atualizações do aplicativo são instaladas a partir do Microsoft Store automaticamente durante a manutenção noturna; este é o método recomendado para obter atualizações. No entanto, há algumas situações em que um dispositivo Salas do Teams não pode receber atualizações do Microsoft Store. Por exemplo, as políticas de segurança podem não permitir que os dispositivos se conectem à Internet ou podem não permitir que os aplicativos sejam baixados do Microsoft Store. Ou talvez você queira atualizar um dispositivo antes de executar a instalação, durante o qual o Microsoft Store não está disponível.
+O Salas do Microsoft Teams aplicativo é distribuído por meio do Microsoft Store. As atualizações para o aplicativo são instaladas do Microsoft Store automaticamente durante a manutenção noturna; este é o método recomendado para obter atualizações. No entanto, há algumas situações em que um Salas do Teams não pode receber atualizações do Microsoft Store. Por exemplo, as políticas de segurança podem não permitir que os dispositivos se conectem à Internet ou podem não permitir que os aplicativos sejam baixados do Microsoft Store. Ou talvez você queira atualizar um dispositivo antes de executar a instalação, durante o qual o Microsoft Store não está disponível.
 
 Se você não conseguir obter atualizações do Microsoft Store, poderá usar um script do PowerShell de atualização de aplicativo offline para atualizar manualmente seus dispositivos Salas do Teams para uma versão mais recente do aplicativo Salas do Teams. Siga as etapas deste artigo para atualizar manualmente seus Salas do Teams dispositivos.
 
@@ -33,7 +33,7 @@ Se você não conseguir obter atualizações do Microsoft Store, poderá usar um
 
 ## <a name="step-1-download-the-offline-app-update-script"></a>Etapa 1: Baixar o script de atualização de aplicativo offline
 
-Primeiro, baixe a versão mais recente do script de atualização do aplicativo offline. Para baixar o script, clique em <https://go.microsoft.com/fwlink/?linkid=2151817> . O script será baixado para a pasta de downloads padrão em seu dispositivo.
+Primeiro, baixe a versão mais recente do script de atualização do aplicativo offline. Para baixar o script, clique em <https://go.microsoft.com/fwlink/?linkid=2151817>. O script será baixado para a pasta de downloads padrão em seu dispositivo.
 
 Os arquivos baixados podem ser marcados como bloqueados por Windows. Se você precisar executar o script sem nenhuma interação, será necessário desbloquear o script. Para desbloquear o script, faça o seguinte:
 
@@ -42,25 +42,25 @@ Os arquivos baixados podem ser marcados como bloqueados por Windows. Se você pr
 3. Selecionar **Desbloquear**
 4. Clique **em OK**
 
-Para desbloquear o script usando o PowerShell, consulte [Unblock-File](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1).
+Para desbloquear o script usando o PowerShell, consulte [Desbloquear-Arquivo](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1).
 
 Depois que o script de atualização de aplicativo offline for baixado, transfira o arquivo para o Salas do Teams dispositivo. Você pode transferir um arquivo para o dispositivo usando uma unidade USB ou acessando o arquivo de um compartilhamento de arquivos de rede enquanto estiver no Modo De Administração no dispositivo. Lembre-se de observar onde você salva o arquivo no dispositivo.
 
-## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>Etapa 2: executar o script para atualizar o Salas do Teams app
+## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>Etapa 2: executar o script para atualizar o Salas do Teams aplicativo
 
-O script de atualização de aplicativo offline precisa ser executado a partir de um prompt de comando elevado enquanto o usuário Skype (o usuário sob o qual o aplicativo é executado) ainda está assinado. Para obter mais informações sobre como fazer logon em uma conta de administrador para usar o prompt de comando com privilégios elevados enquanto o usuário do Skype ainda estiver conectado, consulte [Alternando](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)para o Modo de Administração e de volta quando o aplicativo Salas do Microsoft Teams falhar .
+O script de atualização de aplicativo offline precisa ser executado a partir de um prompt de comando elevado enquanto o usuário Skype (o usuário sob o qual o aplicativo é executado) ainda está assinado. Para obter mais informações sobre como fazer logon em uma conta de administrador para usar o prompt de comando com privilégios elevados enquanto o usuário do Skype ainda estiver conectado, consulte Alternando para o Modo de Administração e de volta quando o aplicativo [Salas do Microsoft Teams falhar](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes).
 
 Faça o seguinte para executar o script de um prompt de comando elevado:
 
 1. Alternar para o Modo de Administração
-2. Clique no ícone Iniciar, digite **Prompt de** Comando e selecione Executar **como administrador**
-3. Execute o seguinte comando onde inclui o caminho completo para o script e `<path to script>` o nome do arquivo de script:
+2. Clique no ícone Iniciar, digite **Prompt de** Comando e selecione **Executar como administrador**
+3. Execute o seguinte comando onde `<path to script>` inclui o caminho completo para o script e o nome do arquivo de script:
 
     ```console
     PowerShell -ExecutionPolicy Unrestricted "<path to script>"
     ```
 
-Por exemplo, se o arquivo de script estiver localizado em , e o nome do `C:\Users\Admin\Downloads` arquivo de script for , execute o seguinte `MTR-Update-4.5.6.7.ps1` comando:
+Por exemplo, se o arquivo de script estiver localizado em `C:\Users\Admin\Downloads`, e o nome do arquivo de script for `MTR-Update-4.5.6.7.ps1`, execute o seguinte comando:
 
 ```console
 PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.5.6.7.ps1"

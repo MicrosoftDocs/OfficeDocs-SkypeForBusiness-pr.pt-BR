@@ -1,7 +1,7 @@
 ---
 title: Preparar seu Ambiente
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre como preparar sua infraestrutura para a implantação Salas do Microsoft Teams para que você possa tirar proveito de todos os recursos.
+description: Saiba como preparar sua infraestrutura para a implantação Salas do Microsoft Teams para que você possa tirar proveito de todos os recursos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b92325fe9c7c43497fd9647306cfb6b218f5fde0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 5203972feee8276d9d63c19f65965f62386ee7a0
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015031"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503948"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
-Esta seção contém uma visão geral das etapas necessárias para preparar seu ambiente para que você possa usar todos os recursos de Salas do Microsoft Teams.
+Esta seção contém uma visão geral das etapas necessárias para preparar seu ambiente para que você possa usar todos os recursos do Salas do Microsoft Teams.
   
 1. Preparar uma conta de recurso para cada Salas do Microsoft Teams console. Consulte [Deploy Salas do Microsoft Teams](rooms-deploy.md) para obter detalhes.
     
@@ -41,7 +41,7 @@ Uma *conta de* recurso é uma conta que o cliente Salas do Microsoft Teams usa p
   
 ### <a name="check-network-availability"></a>Verificar a disponibilidade da rede
 
-Para funcionar corretamente, o Salas do Microsoft Teams deve ter acesso a uma rede com fio que atenda a esses requisitos:
+Para funcionar corretamente, Salas do Microsoft Teams deve ter acesso a uma rede com fio que atenda a esses requisitos:
   
 - Acesso à sua instância do Active Directory ou Azure Active Directory (Azure AD), bem como ao Microsoft Exchange e Microsoft Teams.
 
@@ -49,7 +49,7 @@ Para funcionar corretamente, o Salas do Microsoft Teams deve ter acesso a uma re
 
 - Acessar as portas HTTP 80 e 443.
 
-- Portas TCP e UDP configuradas conforme descrito em Requisitos de porta e protocolo para servidores para implementações de Skype for Business Server locais, ou [URLs](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) de Microsoft 365 e Office 365 e intervalos de endereços IP para Microsoft Teams. [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)
+- Portas TCP e UDP configuradas conforme descrito em [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) Requisitos de porta e protocolo para servidores para implementações de Skype for Business Server locais, ou [URLs de Microsoft 365 e Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) para Microsoft Teams.
 
 Se sua rede é executada através de um proxy, você também precisa do endereço de proxy ou de informações do script.
     
@@ -73,11 +73,11 @@ Você instalará os certificados da mesma forma como faria para qualquer outro c
   
 ### <a name="proxy"></a>Proxy
 
-Salas do Microsoft Teams foi projetado para herdar configurações de Proxy do sistema operacional Windows. Acesse o Windows sistema operacional da seguinte maneira:
+Salas do Microsoft Teams foi projetado para herdar configurações de Proxy do sistema operacional Windows. Acesse o Windows do sistema operacional da seguinte maneira:
   
-1. Na interface do usuário Salas do Microsoft Teams, clique no ícone de engrenagem Configurações onde você será solicitado a solicitar a senha local do Administrador no dispositivo (a senha padrão é **sfb**).
-2. Toque em **Configurações** seguido de tocar no botão **Ir** para Windows e  tocar no botão ir para  Administrador Entrar e clicar no botão Administrador (se o computador estiver ingressado no domínio, escolha Outro Usuário **e** use .\admin como o nome do usuário).
-3. Na caixa **Pesquisar Windows** inferior à esquerda no regedit (pressione a tela ou clique com o botão direito do mouse e escolha Executar **como administrador**).
+1. Na interface do usuário Salas do Microsoft Teams, clique no ícone de engrenagem de Configurações onde você será solicitado a solicitar a senha local do Administrador no dispositivo (a senha padrão é **sfb**).
+2. Toque em **Configurações** seguido de tocar no botão **Ir** para Windows e tocar no botão ir para Administrador Entrar e clicar no botão  Administrador (se o computador estiver ingressado  no domínio, escolha Outro Usuário **e** use .\admin como o nome do usuário).
+3. Na caixa **Pesquisar Windows** inferior à esquerda no regedit (pressione a tela ou clique com o botão direito do mouse e escolha **Executar como administrador**).
 4. Clique na pasta HKEY_USERS (você verá uma lista de SIDs de usuários do computador) e verifique se a pasta raiz HKEY_USERS está selecionada.
        
 5. Clique em Arquivo e escolha **Carregar Hive.**
@@ -109,9 +109,9 @@ Salas do Microsoft Teams foi projetado para herdar configurações de Proxy do s
     
 10. Agora, você pode fechar o editor do Registro e digitar logoff na caixa de pesquisa do Windows.
     
-11. Voltando à tela de entrada, escolha o usuário **Skype**. Se todas as etapas anteriores foram bem-sucedidas, o Salas do Microsoft Teams dispositivo Salas do Microsoft Teams entrará com êxito.
+11. Voltando à tela de entrada, escolha o usuário **Skype**. Se todas as etapas anteriores foram bem-sucedidas, Salas do Microsoft Teams dispositivo de Salas do Microsoft Teams entrará com êxito.
     
-Consulte o [artigo segurança](./security.md#network-security) de rede para obter detalhes completos sobre FQDNs, portas e intervalos de endereços IP necessários para Salas do Microsoft Teams.
+Consulte o [artigo segurança de](./security.md#network-security) rede para obter detalhes completos sobre FQDNs, portas e intervalos de endereços IP necessários para Salas do Microsoft Teams.
   
 ### <a name="admin-group-management"></a>Gerenciamento de grupo de administradores
 
@@ -135,11 +135,11 @@ Salas do Microsoft Teams senha padrão é definida como "sfb". A senha pode ser 
   
 A senha do Administrador local não é incluída como opção durante a Instalação.
 
-Você pode ler mais sobre a conta admin no artigo [Salas do Microsoft Teams Segurança.](security.md)
+Você pode ler mais sobre a conta de administrador no [artigo Salas do Microsoft Teams Segurança](security.md).
   
 ### <a name="machine-account"></a>Conta do computador
 
-Assim como qualquer dispositivo Windows, o nome do computador pode ser renomeado clicando com o botão direito do mouse **no** Configurações \> **Sobre** \> **Renomear PC**.
+Assim como qualquer Windows, o nome do computador pode ser renomeado clicando com o botão direito do mouse **Configurações** \> **sobre** \> **renomear o computador**.
   
 Se você quiser renomear o computador depois de insinuá-lo em um domínio, use [Renomear-Computador](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2), um comando do PowerShell, seguido pelo novo nome do computador.
   

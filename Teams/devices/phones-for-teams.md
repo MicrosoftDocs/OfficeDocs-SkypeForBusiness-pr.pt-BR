@@ -1,7 +1,7 @@
 ---
 title: Telefones para o Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
@@ -17,20 +17,20 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo aborda a lista de telefones certificados para Microsoft Teams e os recursos com suporte nos telefones certificados para Microsoft Teams.
-ms.openlocfilehash: a206c60e466a0bafab4e19701080cd6c25124b86
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5108c9bff89e6a9b683ab834606d060006ddda3e
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632505"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503528"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
-Microsoft Teams oferece suporte a um portfólio de telefones de mesa para usuários que exigem uma experiência de telefone tradicional. Este artigo fornece uma visão geral completa dos telefones Teams e pode ajudar no planejamento, entrega e gerenciamento de telefones Microsoft Teams como parte da solução Telefone Microsoft System. 
+Microsoft Teams oferece suporte a um portfólio de telefones de mesa para usuários que exigem uma experiência de telefone tradicional. Este artigo fornece uma visão geral completa dos telefones Teams e pode ajudar no planejamento, entrega e gerenciamento de telefones Microsoft Teams como parte da sua solução Telefone Microsoft System. 
 
-Para oferecer uma experiência de Microsoft Teams de alta qualidade e confiável em telefones, estamos fazendo parceria e trabalhando ativamente com Yealink, Crestron, Lenovo, Polycom e Audiocodes para desenvolver e certificar um amplo portfólio de telefones de mesa e dispositivos de áudio de sala de conferência. Para obter as informações mais recentes e atualizadas em Teams dispositivos, acesse [Teams Marketplace](https://office.com/teamsdevices).
+Para oferecer uma experiência de Microsoft Teams de alta qualidade e confiável em telefones, estamos fazendo parceria e trabalhando ativamente com Yealink, Crestron, Lenovo, Polycom e Audiocodes para desenvolver e certificar um amplo portfólio de telefones de mesa e dispositivos de áudio de sala de conferência. Para obter as informações mais recentes e atualizadas sobre Teams dispositivos, acesse [Teams Marketplace](https://office.com/teamsdevices).
 
-Para gerenciar telefones, você precisa ser um administrador global, Teams de serviço ou Teams de dispositivo. Para obter mais informações sobre funções de administrador, consulte [Use Microsoft Teams de administrador para gerenciar Teams](../using-admin-roles.md).
+Para gerenciar telefones, você precisa ser um administrador global, um administrador Teams Service ou Teams device. Para obter mais informações sobre funções de administrador, consulte [Use Microsoft Teams de administrador para gerenciar Teams](../using-admin-roles.md).
 
 ## <a name="features-supported-by-teams-phones"></a>Recursos com suporte Teams telefones
 
@@ -49,11 +49,11 @@ Teams os telefones certificados têm uma ampla variedade de recursos para ajudar
     > [!IMPORTANT]
     > Se um telefone não estiver ligado ou se não tiver uma conexão com a Internet, as chamadas 911 não poderão ser feitas. Se isso acontecer, uma notificação será exibida no telefone.
 
-Além dos recursos acima, você pode controlar quais recursos estão disponíveis, dependendo do tipo de licença e política de telefone atribuídas ao usuário que está entrando no telefone. Por exemplo, os usuários que entrarem em um telefone com suas contas pessoais podem acessar o intervalo completo de recursos - chamadas, reuniões, caixa postal e assim por diante. As contas atribuídas a uma licença Telefone Área Comum que se insinuem em um telefone, no entanto, só podem obter acesso a um intervalo limitado de recursos; histórico de chamada e agendamentos de reuniões podem não ser mantidos, por exemplo, para proteger a privacidade dos usuários.
+Além dos recursos acima, você pode controlar quais recursos estão disponíveis, dependendo do tipo de licença e política de telefone atribuídas ao usuário que está entrando no telefone. Por exemplo, os usuários que entrarem em um telefone com suas contas pessoais podem acessar o intervalo completo de recursos - chamadas, reuniões, caixa postal e assim por diante. As contas atribuídas a uma licença Telefone Área Comum que se insinuem em um telefone, no entanto, só podem ter acesso a um intervalo limitado de recursos; o histórico de chamadas e os agendamentos de reunião podem não ser mantidos, por exemplo, para proteger a privacidade dos usuários.
 
 ## <a name="required-licenses"></a>Licenças necessárias
 
-Teams licenças podem ser compradas como parte de suas assinaturas [Microsoft 365 e Office 365.](/office365/servicedescriptions/teams-service-description) Para saber mais sobre as licenças necessárias para o uso Teams telefones, consulte licenças do sistema [de telefonia disponíveis.](https://products.office.com/microsoft-teams/voice-calling)
+Teams licenças podem ser compradas como parte de suas assinaturas [Microsoft 365 e Office 365.](/office365/servicedescriptions/teams-service-description) Para saber mais sobre as licenças necessárias para o uso Teams telefones, consulte [licenças do sistema de telefonia disponíveis](https://products.office.com/microsoft-teams/voice-calling).
 
 Para obter mais informações sobre Teams, confira [Como obter acesso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
@@ -69,7 +69,7 @@ Gerencie e mantenha seus Teams telefones atualizados usando o Microsoft Teams de
 
 [Microsoft Teams displays](teams-displays.md) são uma categoria de dispositivos de Teams exclusivos que apresentam uma tela sensível ao toque ambiente e uma experiência prática com Cortana. Com Teams, os usuários podem usar microfone, câmera e alto-falantes (ou Bluetooth headset) para uma experiência confiável de chamada e reunião. Teams exibe integrações com os PCs Windows usuários para trazer uma experiência de companhia que permite a interação perfeita entre dispositivos
 
-Você pode atualizar Teams telefones em sua organização para Teams exibições no centro de Microsoft Teams de administração. Essa opção está disponível somente para telefones que suportam a atualização para Teams displays. Para saber mais, consulte [Upgrade Teams phones to Teams displays](upgrade-phones-to-displays.md).
+Você pode atualizar Teams telefones em sua organização para Teams exibições no centro de Microsoft Teams de administração. Essa opção está disponível somente para telefones que suportam a atualização para Teams displays. Para saber mais, confira [Atualizar Teams telefones para Teams displays](upgrade-phones-to-displays.md).
 
 ## <a name="see-also"></a>Confira também
 

@@ -1,8 +1,8 @@
 ---
 title: Salas do Microsoft Teams
 ms.reviewer: ''
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,18 +16,18 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Saiba como configurar o Salas do Microsoft Teams, incluindo planejamento, implantação e gerenciamento do sistema para criar sua sala de reunião virtual ideal.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 92c738d9fc036a7757655b0d57a366a0849ca9ea
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 0458513bc75bf352aed1b611895ef918fc621dcc
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015281"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504108"
 ---
 # <a name="microsoft-teams-rooms"></a>Salas do Microsoft Teams
 
 :::row:::
     :::column span="2":::
-       Transforme espaços de reunião que vão de pequenas áreas de reunião a salas de conferência grandes com uma experiência rica e colaborativa Teams simples de usar, implantar e gerenciar.
+       Transforme espaços de reunião que vão de pequenas áreas de grupo a salas de conferência grandes com uma experiência rica e colaborativa Teams que é simples de usar, implantar e gerenciar.
 
        Inicie reuniões no horário com a participação de um toque e proje-o instantaneamente para a exibição na sala e compartilhe com os participantes remotos.
 
@@ -54,7 +54,7 @@ ms.locfileid: "62015281"
 >
 > Plataformas anteriores, como o Lync Server 2013, não têm suporte com Salas do Microsoft Teams.
 
-Esses artigos são destinados a pessoas com a tarefa de planejar, implantar e gerenciar esses Salas do Microsoft Teams. Os usuários finais estarão mais interessados na ajuda Salas do Microsoft Teams [online.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+Esses artigos são destinados a pessoas com a tarefa de planejar, implantar e gerenciar esses Salas do Microsoft Teams. Os usuários finais estarão mais interessados na ajuda Salas do Microsoft Teams [online](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
 > [!NOTE]
 > [Skype Room System](../rooms/lrs-migration.md) (anteriormente Lync Room System) e Salas do Microsoft Teams são produtos diferentes com diferentes dependências e procedimentos de implantação.

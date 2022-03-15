@@ -1,7 +1,7 @@
 ---
 title: Definir Microsoft Teams de usuário de dispositivos Android
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 appliesto:
@@ -12,13 +12,13 @@ ms.service: msteams
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: Saiba como definir a interface do usuário em Teams Dispositivos Android.
-ms.openlocfilehash: 32f5129330bf46657f126fc00f7eddc2fc30f090
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+description: Saiba como definir a interface do usuário em Teams dispositivos Android.
+ms.openlocfilehash: c1872fffef3f21c3fec6a9c693b02e218d5d8337
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279379"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503770"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Definir Microsoft Teams de usuário de dispositivos Android
 
@@ -60,7 +60,7 @@ Esta imagem mostra uma conta de usuário com uma [Salas do Microsoft Teams Padr�
 
 ## <a name="override-automatic-user-interface-detection"></a>Substituir a detecção automática de interface do usuário
 
-Em alguns casos, você pode optar por atribuir uma licença a uma conta que não corresponder ao uso pretendido. Por exemplo, você pode atribuir uma licença de usuário a uma conta destinada a entrar Salas do Teams no Android. Por padrão, você verá a interface do usuário final em vez da interface da sala de reunião. Para substituir a interface padrão, crie uma nova política de [Teams IP Telefone e](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) aplique-a a ela a essa conta.
+Em alguns casos, você pode optar por atribuir uma licença a uma conta que não corresponder ao uso pretendido. Por exemplo, você pode atribuir uma licença de usuário a uma conta destinada a entrar Salas do Teams android. Por padrão, você verá a interface do usuário final em vez da interface da sala de reunião. Para substituir a interface padrão, crie uma nova política de [Teams IP Telefone e](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) aplique-a a ela a essa conta.
 
 > [!NOTE]
 > A licença atribuída à conta de usuário deve ter pelo menos os mesmos direitos de licença que a interface do usuário desejada. A licença área comum Telefone permite apenas a interface do usuário de telefone da Área Comum. A licença da sala de reunião permite a sala de reunião e interfaces de usuário de telefone de área comum. Uma licença E3 ou E5 dá suporte a todos os modos de login.
@@ -69,13 +69,13 @@ Veja a seguir um exemplo de como substituir a detecção automática de licença
 
 ### <a name="create-a-new-policy-and-assign-to-user"></a>Criar uma nova política e atribuir ao usuário
 
-1. Inicie uma sessão Windows PowerShell remota e conecte-se Microsoft Teams usando o seguinte cmdlet:
+1. Inicie uma sessão de Windows PowerShell remota e conecte-se Microsoft Teams usando o seguinte cmdlet:
 
     ``` Powershell
     Connect-MicrosoftTeams
     ```
 
-2. Crie uma nova política de Teams IP Telefone e de definir o modo de login como "MeetingSignIn":
+2. Crie uma nova política Teams ip Telefone e de definir o modo de login como "MeetingSignIn":
 
    ``` Powershell
    New-CsTeamsIPPhonePolicy –Identity 'Meeting Sign in' –Description 'Meeting Sign In Phone Policy' -SignInMode 'MeetingSignIn'
@@ -95,10 +95,10 @@ Depois de conceder a política à conta de recurso da sala de reunião, você pr
 Microsoft Teams centro de administração permite que você gerencie Microsoft Teams dispositivos. Para obter mais informações sobre como gerenciar dispositivos Teams centro de administração, consulte [Manage your devices in Microsoft Teams](device-management.md).
 
 
-Teams centro de administração fornece a capacidade de gerenciar Teams telefones. Os telefones são filtrados em uma das três guias com base em suas funções: telefones de usuário, telefones de área comum e telefone de conferência. 
+Teams centro de administração oferece a capacidade de gerenciar Teams telefones. Os telefones são filtrados em uma das três guias com base em suas funções: telefones de usuário, telefones de área comum e telefone de conferência. 
 
  :::image type="content" source="../media/teams-admin-center-phones-header.png" alt-text="Header de telefones no Teams de administração.":::
 
 Assim como na detecção da interface do usuário, Teams telefones são categorizados com base na licença atribuída à conta que está fazendo logo no telefone. Por exemplo, se uma conta atribuída a uma licença de telefone de área comum entrar em um telefone, esse telefone será mostrado na seção padrão Todos os telefones,  bem como na seção Telefones de **área comum.**
 
-Se você quiser que um telefone apareça em uma seção diferente, você pode atribuir uma licença diferente ao telefone ou criar e atribuir uma política de Teams IP Telefone como descrito [acima](#override-automatic-user-interface-detection).
+Se você quiser que um telefone apareça em uma seção diferente, você pode atribuir uma licença diferente ao telefone ou criar e atribuir uma política de Teams IP Telefone conforme descrito [acima](#override-automatic-user-interface-detection).

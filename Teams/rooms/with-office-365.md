@@ -1,7 +1,7 @@
 ---
 title: Implantar Salas do Microsoft Teams com o Office 365
-ms.author: v-lanac
-author: lanachin
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar Salas do Microsoft Teams com Office 365.
-ms.openlocfilehash: d4c66fb863c5c41a717808ddca43002752510fb5
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: f54e7f7e201127b0a61c99f09fee2084378dbbd9
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056021"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503708"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Implantar Salas do Microsoft Teams com o Office 365
 
@@ -32,7 +32,7 @@ Antes de implantar Salas do Microsoft Teams com Office 365, certifique-se de ter
 
 ### <a name="add-a-resource-account"></a>Adicionar uma conta de recurso
 
-1. Conexão para Exchange Online PowerShell. Para obter instruções, [consulte Conexão Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+1. Conexão para Exchange Online PowerShell. Para obter instruções, [consulte Conexão para Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
 2. No Exchange Online PowerShell, crie uma nova caixa de correio de sala ou modifique uma caixa de correio de sala existente. Por padrão, as caixas de correio de sala não têm contas associadas. Você precisará adicionar uma conta ao criar ou modificar uma caixa de correio de sala que permita a autenticação.
 
@@ -62,7 +62,7 @@ Antes de implantar Salas do Microsoft Teams com Office 365, certifique-se de ter
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     Este exemplo habilita a conta para a caixa de correio de sala existente que tem o valor de alias ConferenceRoom02 e define a senha como 9898P@$$W 0rd.
+     Este exemplo habilita a conta para a caixa de correio de sala existente que tem o valor alias ConferenceRoom02 e define a senha como 9898P@$$W 0rd.
 
      ``` PowerShell
      Set-Mailbox -Identity 'ConferenceRoom02' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -95,10 +95,10 @@ Antes de implantar Salas do Microsoft Teams com Office 365, certifique-se de ter
 
    Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
    
-4. Conexão para o MS Online PowerShell definir valores do Active Directory executando o cmdlet 'Conexão-MsolService -Credential $cred'. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Conexão o MS Online PowerShell definir valores do Active Directory executando o cmdlet 'Conexão-MsolService -Credential $cred'. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > Azure Active Directory não há suporte para o [PowerShell 2.0.](/powershell/azure/active-directory/overview?view=azureadps-2.0) 
+   > Azure Active Directory não há suporte para o [PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0). 
 
 5. É fortemente incentivado desabilitar a expiração de senha em Salas do Teams contas. Veja a seguir um exemplo de como desabilitar a expiração de senha para a conta ConferenceRoom01:
 
@@ -107,7 +107,7 @@ Antes de implantar Salas do Microsoft Teams com Office 365, certifique-se de ter
     ```
 
 
-1. A conta de recurso precisa ter uma licença Office 365 para se conectar ao Microsoft Teams. Você também precisa atribuir um local de uso à sua conta de dispositivo— isso determina quais SKUs de licença estão disponíveis para sua conta. Você pode usar `Get-MsolAccountSku` para recuperar uma lista de SKUs disponíveis para seu Office 365 locatário. Você pode adicionar uma licença usando `Set-MsolUserLicense` o cmdlet.
+1. A conta de recurso precisa ter uma licença de Office 365 para se conectar ao Microsoft Teams. Você também precisa atribuir um local de uso à sua conta de dispositivo— isso determina quais SKUs de licença estão disponíveis para sua conta. Você pode usar `Get-MsolAccountSku` para recuperar uma lista de SKUs disponíveis para seu Office 365 locatário. Você pode adicionar uma licença usando o `Set-MsolUserLicense` cmdlet.
 
    Este exemplo atribui a Sala de Reunião a um usuário com base nos EUA.
 
