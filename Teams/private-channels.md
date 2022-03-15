@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 2127ada4a289a04176a2ae743299c3176df4a661
-ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
+ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
+ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62963392"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "63463744"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -85,7 +85,7 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 
 ## <a name="private-channel-sharepoint-sites"></a>Sites do SharePoint em canal privado
 
-Cada canal privado tem seu próprio site do SharePoint. O site separado é para garantir que o acesso aos arquivos do canal privado seja restrito apenas aos membros do canal privado. Esses sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um site completo por meio da [interface de gerenciamento de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada site é criado na mesma região geográfica do site de equipe pai. Esses sites leves têm uma ID de modelo personalizada, "TEAMCHANNEL# 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph. 
+Cada canal privado tem seu próprio site do SharePoint. O site separado é para garantir que o acesso aos arquivos do canal privado seja restrito apenas aos membros do canal privado. Esses sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um site completo por meio da [interface de gerenciamento de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada site é criado na mesma região geográfica do site de equipe pai. Esses sites leves têm um ID de modelo personalizado, "TEAMCHANNEL#0" ou "TEAMCHANNEL#1", para facilitar o gerenciamento por meio do PowerShell e da API do Graph. 
 
 > [!NOTE]
 > Somente pessoas com permissões de proprietário ou membros do canal terão acesso ao conteúdo no site do canal compartilhado. Os administradores e as pessoas da equipe não terão acesso, a menos que também sejam membros do canal.
