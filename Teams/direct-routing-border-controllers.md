@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a61f7fd80a98f3813a1142aced7c1a65b6fbc157
-ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
+ms.openlocfilehash: 15707021292f376e922c4ed1b26bee3f651af41b
+ms.sourcegitcommit: 2deb76ad222b77a19d43beffc87714204961aa09
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63073749"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63494357"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -50,7 +50,7 @@ A Microsoft trabalha com cada fornecedor para:
 As tabelas que seguem a lista de dispositivos certificados para Roteamento Direto. (Para obter informações sobre quais fornecedores de SBC dão suporte à Otimização de Mídia Local, consulte [Configurar otimização de mídia local para roteamento direto](direct-routing-media-optimization-configure.md).)
 
 [Saiba mais sobre o Roteamento Direto](https://aka.ms/dr).
-Se você tiver dúvidas sobre o programa de certificação SBC para Roteamento Direto, entre em contato com drsbccertification@microsoft.com. Observe: Não estamos aceitando novas indicações para certificação até novo aviso.
+Se você tiver dúvidas sobre o programa de certificação SBC para Roteamento Direto, entre em contato com drsbccertification@microsoft.com. Observe que não estamos aceitando novas indicações para certificação até novo aviso.
 <br/>
 
 ## <a name="certified-sbc-vendors"></a>Fornecedores SBC certificados
@@ -75,12 +75,14 @@ Se você tiver dúvidas sobre o programa de certificação SBC para Roteamento D
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.x ou 9.x    |   &#10004;    |     &#10004;     |
 | | Série EdgeMarc |  &#10004; | | Porta 15.6.1 | |  
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   &#10004;    |  &#10004;  |
-|    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  &#10004;    |  &#10004;  |
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   Suporte para 8.3.0.0.1 e 8.4.x & 9.x com suporte |   &#10004;    |  &#10004;  |
+|    |    AP 3900           |    &#10004;     |    &#10004;   |   Suporte para 8.3.0.0.1 e 8.4.x & 9.x com suporte  |  &#10004;    |  &#10004;  |
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     Suporte para 8.3.0.0.1 e 8.4.x & 9.x com suporte |  &#10004;    |  &#10004;  |
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     Suporte para 8.3.0.0.1 e 8.4.x & 9.x com suporte |  &#10004;    |  &#10004;  |
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     Suporte para 8.3.0.0.1 e 8.4.x & 9.x com suporte  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     Suporte para 8.3.0.0.1 e 8.4.x & 9.x com suporte  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      AP 3950           |    &#10004;    |    &#10004;    |     9.x com suporte  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      AP 4900           |    &#10004;    |    &#10004;    |     9.x com suporte  |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.20 com suporte (Recomendado 4.0)        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 para Bypass de Mídia)      | &#10004; | &#10004; |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Elemento de borda unificada cisco (CUBE) para roteadores de serviços integrados da série 1000        |     &#10004;   | &#10004; |      Suportado no IOS XE Amsterdam 17.2.1r (recomendado 17.6.1a)         |    &#10004;     |   |  
@@ -139,11 +141,13 @@ A tabela a seguir descreve quais fornecedores de SBC têm suporte para [Otimiza�
 |               | SBC 2000 | 8.1.5  |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.1 &  9.x |
+|        | AP 4600 | 8.4.0.0.1 &  9.x | 
+|        | AP 6300 | 8.4.0.0.1 &  9.x |
+|        | AP 6350 | 8.4.0.0.1 &  9.x | 
+|        | VME     | 8.4.0.0.1 &  9.x |
+|        | AP 3950     | 9.x |
+|        | AP 4900     | 9.x |
 | [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de Borda de Sessão Avaya para Empresas (ASBCE)    |  10.1.2 | 
 
 
@@ -158,12 +162,14 @@ A tabela a seguir lista os dispositivos verificados para interoperabilidade entr
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     | 
 | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  Adaptador de Telefone Analógico multiplataforma ATA 191 |     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   SOFTWARE AP1100 Versão 8.3.0.1.2 |     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Software AP3900 Versão 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Software AP4600 Versão 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Software AP6300 Versão 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Software AP6350 Versão 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Software VME versão 8.3.0.1.2 |     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   Versão de software AP 1100 suportada 8.3.0.1.2 e recomendada 8.4.x ou 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Versão do Software AP 3900 suportada 8.3.0.1.2 e recomendada 8.4.x ou 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Versão de Software AP 4600 Suportada 8.3.0.1.2 e Recomendada 8.4.x ou 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Versão de Software AP 6300 Suportada 8.3.0.1.2 e Recomendada 8.4.x ou 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Versão do Software AP 6350 Suportada 8.3.0.1.2 e Recomendada 8.4.x ou 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Versão de Software VME Suportada 8.3.0.1.2 e Recomendada 8.4.x ou 9.x |     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Versão de Software AP 3950 Suportada 9.x |     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Versão de Software AP 4900 Suportada 9.x |     &#10004;     |
 | [Faixa de Opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Versão do software: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Faixa de Opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Versão do software: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Faixa de Opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 302. Versão do software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
