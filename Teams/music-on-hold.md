@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Saiba como gerenciar o recurso Música em Espera Sistema de Telefonia.
-ms.openlocfilehash: d3fa7188e3d2320ba4eeb17ca95d28d1f57c18c4
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a1e2662c04cfa9300d034aaaf8d7975e44e63f69
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767404"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514778"
 ---
 # <a name="music-on-hold"></a>Música em espera
 
-Quando um Microsoft Teams coloca uma chamada de entrada da PSTN (Rede Telefônica Pública Comutado) em espera, o chamador PSTN pode ouvir música selecionada.
+Quando um Microsoft Teams coloca uma chamada de entrada da PSTN (Rede Telefônica Pública Comucionada) em espera, o chamador PSTN pode ouvir música selecionada.
 
-A música que é tocada é a música padrão fornecida pela Microsoft ou a música personalizada que você carrega e configura. Como administrador de locatários, você configura se a Música em Espera está disponível criando uma política de chamada Teams e atribuindo a política ao usuário Teams usuário.
+A música que é tocada é a música padrão fornecida pela Microsoft ou a música personalizada que você carrega e configura. Como administrador do locatário, você configura se a Música em Espera está disponível criando uma política de chamada Teams e atribuindo a política ao usuário Teams.
 
 A música padrão fornecida em Microsoft Teams cenários de chamada PSTN está livre de quaisquer royalties a pagar pela sua organização.
 
@@ -36,11 +36,11 @@ Observe que os chamadores PSTN também podem ouvir Música em Espera em outros c
 
 Para configurar Música em Espera:
 
-1.  Na navegação à esquerda do centro de administração Teams, acesse **Voice > Calling policies**.
+1.  Na navegação à esquerda do centro de administração Teams, vá para **Voice > Calling policies**.
 
-2.  Na guia **Gerenciar políticas,** selecione uma das políticas existentes ou crie uma nova.
+2.  Na guia **Gerenciar políticas** , selecione uma das políticas existentes ou crie uma nova.
 
-3.  No campo Música em espera para **chamadores PSTN,** selecione **Habilitado** no menu suspenso.
+3.  No campo **Música em espera para chamadores PSTN** , selecione **Habilitado** no menu suspenso.
 
 Você também pode configurar Música em Espera usando o módulo Teams PowerShell. No TeamsCallingPolicy, altere o parâmetro MusicOnHoldEnabledType para Habilitado e conceda essa instância de política a um ou mais usuários.
 
@@ -52,7 +52,7 @@ Além de tocar música padrão para chamadores PSTN, você pode carregar um arqu
 Por exemplo, um departamento ou organização pode querer reproduzir um anúncio personalizado ou música personalizada quando os chamadores PSTN externos são colocados em espera.  
 
 > [!NOTE]
-> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu Microsoft Teams serviço. Isso pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os titulares de direitos relevantes. Os proprietários podem incluir artistas, atores, atores, compositores, compositores, rótulos de gravação, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que têm, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
+> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço Microsoft Teams de áudio. Isso pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os titulares de direitos relevantes. Os proprietários podem incluir artistas, atores, atores, compositores, compositores, rótulos de gravação, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que têm, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
 
 Para configurar Música em Espera personalizada, use os cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy e Import/Get/Remove/Export-CsOnlineAudioFile no Teams módulo 3.0.0 ou posterior do PowerShell.
 
@@ -61,7 +61,7 @@ Para formatos de áudio com suporte e tamanho máximo de arquivo, consulte [Impo
 
 1. Verifique se o usuário Teams música em espera para chamadores PSTN definido como Habilitado na política Teams chamada. 
 
-2. Upload arquivo de áudio personalizado.
+2. Upload o arquivo de áudio personalizado.
 
 3. Crie uma Teams de chamada de chamada fazendo referência ao arquivo de áudio personalizado e atribua-o ao usuário Teams usuário.
 
@@ -96,9 +96,9 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 Para obter informações sobre seus arquivos de áudio carregados, use Get-CsOnlineAudioFile cmdlet.
 
-Para remover um arquivo de áudio carregado, use o Remove-CsOnlineAudioFile cmdlet. Antes de remover um arquivo de áudio, verifique se você não está usando esse arquivo de áudio em um TeamsCallHoldPolicy.
+Para remover um arquivo de áudio carregado, use o cmdlet Remove-CsOnlineAudioFile usuário. Antes de remover um arquivo de áudio, verifique se você não está usando esse arquivo de áudio em um TeamsCallHoldPolicy.
 
-Para exportar um arquivo de áudio carregado, use Export-CsOnlineAudioFile cmdlet.
+Para exportar um arquivo de áudio carregado, use o cmdlet Export-CsOnlineAudioFile.
 
 ## <a name="feature-availability"></a>Disponibilidade de recursos
 
@@ -112,7 +112,7 @@ A tabela a seguir indica quais recursos os clientes e dispositivos suportam Mús
 
 ## <a name="restrictions"></a>Restrições
 
-- A música em espera só está disponível na nuvem comercial.
+- A música em espera só está disponível em instâncias comerciais e GCC de nuvem.
 
 - A música em espera só estará disponível quando o usuário estiver no modo TeamsOnly.
 

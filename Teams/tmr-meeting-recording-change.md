@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21a499d10fa9dc1d04d1e1baab8743b739a4e45d
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bf1f393c8f6caf27a53ec45af0f04401f93b6793
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62385309"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514532"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -70,7 +70,7 @@ A opção de gravação de reunião é uma configuração no nível de política
 > [!Note]
 > As alterações na política de reunião do Teams levam algum tempo para serem propagadas. Verifique novamente após algumas horas após defini-la, saia e entre novamente no aplicativo Área de Trabalho do Teams ou simplesmente reinicie o computador.
 
-1. Instalar o PowerShell do Teams.
+1. Instale Teams PowerShell.
 
    > [!NOTE]
    > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams. Se você estiver usando o último lançamento público do PowerShell Teams, não precisa instalar o Conector do Skype for Business Online. Confira [Gerenciar o Skype for Business Online com o PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide).
@@ -98,13 +98,6 @@ A opção de gravação de reunião é uma configuração no nível de política
 > [!Note]
 > Se alguns dos seus usuários tiverem atribuído uma política por organizador ou por usuário, você deve definir esta configuração nesta política se quiser que eles também armazenem as gravações de reunião no OneDrive for Business e no SharePoint. Para mais informações, confira [Gerenciar políticas de reunião no Teams](meeting-policies-overview.md).
 
-## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Recusar o OneDrive for Business e o SharePoint para continuar usando o Stream
-
-Mesmo se uma política diga que está definida como **Stream**, ela pode não estar. Normalmente, se a política não está definida, a configuração padrão é **Stream**. No entanto, com esta nova alteração, se você quiser optar por não usar o SharePoint ou o OneDrive for Business, você deve redefinir a política para **Stream** para garantir que **Stream** seja o padrão.
-
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
-```
 
 ## <a name="permissions-or-role-based-access"></a>Permissões ou acesso baseado na função
 
@@ -188,6 +181,6 @@ Confira [Como aplicar automaticamente um rótulo de retenção](/microsoft-365/c
 
 Confira [Qual política tem precedência?](./policy-assignment-overview.md#which-policy-takes-precedence).
 
-**Para onde vai a gravação se o usuário não tiver OneDrive for Business ou SharePoint, ou se a cota de armazenamento estiver cheia?**
+**Para onde a gravação vai se o usuário não tiver OneDrive for Business ou SharePoint, ou a cota de armazenamento estiver cheia?**
 
 A gravação será realizada em nosso local de armazenamento temporário, onde será mantida por 21 dias. Durante esse tempo, o organizador deve baixar a gravação. Se não for baixada dentro de 21 dias, a gravação será excluída.

@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como uma conta Salas do Microsoft Teams obtém uma licença para acessar o serviço Salas do Microsoft Teams gerenciado premium.
 f1keywords: ''
-ms.openlocfilehash: 2b20895cbd164adde136ae6a1953f59359f9e5aa
-ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
+ms.openlocfilehash: a72dd47184487ed9364ceafacadfdc155743c292
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63418874"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514830"
 ---
 # <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>Como começar com o Salas do Microsoft Teams Premium gerenciado pelo Salas do Microsoft Teams Premium
 
@@ -42,7 +42,7 @@ Para atribuir uma licença, execute as seguintes etapas:
 2. Escolha **Cobrança > Licenças** no painel de navegação esquerdo.
 3. Selecione a licença **Salas do Teams premium** apropriada para o uso pretendido (as licenças pagas e de avaliação estão disponíveis). Consulte [Soluções de Licenciamento para Dispositivos de Comunicações Compartilhadas](rooms-licensing.md) para uma comparação entre Salas do Microsoft Teams Padrão e Premium SKUs.
 4. Na página **Contas de cobrança** , selecione **Atribuir licenças**. A **página Atribuir licenças aos** usuários é exibida.
-5. Insira as contas de **Salas do Microsoft Teams** existentes para **Salas do Teams Premium** licença. Para obter mais informações sobre como configurar novas contas Salas do Microsoft Teams existentes, consulte [Deploy Salas do Microsoft Teams with Microsoft 365 or Office 365](with-office-365.md).
+5. Insira as contas de **Salas do Microsoft Teams** existentes para **Salas do Teams Premium** licença. Para obter mais informações sobre como configurar novas contas Salas do Microsoft Teams existentes, consulte [Create resource accounts for rooms and shared Teams devices](with-office-365.md).
 6. Depois que o envio da conta for concluído, selecione **Atribuir** e, em seguida, **Fechar**. As **Salas do Microsoft Teams Premium** foram atribuídas **a Salas do Microsoft Teams contas**.
 
 Agora você está pronto para registrar as contas de recurso e os dispositivos Salas do Microsoft Teams certificados associados no serviço Salas do Microsoft Teams Premium gerenciado. Para obter mais informações, [consulte Registrar um dispositivo no serviço Salas do Microsoft Teams Premium gerenciado](enrolling-mtrp-managed-service.md).

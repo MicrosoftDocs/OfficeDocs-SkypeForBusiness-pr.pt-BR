@@ -16,18 +16,18 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece uma visão geral dos recursos e com suporte Microsoft Teams painéis.
-ms.openlocfilehash: bc55693223dfc6b2972e5efcc0c9fb18ef9a7710
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: b860b141cddddbb90ce9d28d7895cf385c77c0ff
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763416"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514736"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams painéis
 
 Microsoft Teams painéis são os dispositivos touchscreen compactos que são montados fora dos espaços de reunião, normalmente ao lado de entradas. Teams painéis fornecem a capacidade de exibir detalhes de local e reunião rapidamente e reservar um espaço de reunião disponível no local. Com indicadores rich, large text e color-coded, você pode ver a disponibilidade do espaço de reunião de uma distância.
 
-Teams painéis são dispositivos Microsoft Teams que exibem detalhes da reunião agendados por meio de aplicativos de calendário Teams ou Outlook 365. Com os detalhes da reunião exibidos com destaque, os participantes podem confirmar que estão no espaço de reunião certo, no momento certo e na reunião certa.
+Teams painéis são dispositivos Microsoft Teams que exibem detalhes da reunião agendados por meio de Teams ou Outlook aplicativos de calendário do 365. Com os detalhes da reunião exibidos com destaque, os participantes podem confirmar que estão no espaço de reunião certo, no momento certo e na reunião certa.
 
 Este artigo fornece uma visão geral Teams painéis e pode ajudá-lo a planejar, fornecer e gerenciar Teams painéis em sua organização.
 
@@ -60,7 +60,7 @@ Para usar Teams painéis, você precisa [Salas do Microsoft Teams Padrão Licen�
 
 ## <a name="deploy-teams-panels-devices"></a>Implantar Teams painéis
 
-Se você estiver envolvido no planejamento, implantação e gerenciamento de Teams painéis, esta seção será para você. Esta seção não se destina aos usuários finais de Teams painéis.
+Se você estiver envolvido no planejamento, implantação e gerenciamento de Teams painéis, esta seção é para você. Esta seção não se destina aos usuários finais de Teams painéis.
 
 A implantação Teams de painéis pode ser dividida nas seguintes tarefas:
 
@@ -71,11 +71,11 @@ A implantação Teams de painéis pode ser dividida nas seguintes tarefas:
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>Sites de inventário e espaços de reunião
 
-Fazer um inventário dos espaços de reunião de agendamento existentes em sua organização. Identifique os sites e espaços de reunião que estão no escopo para implantar Teams painéis. Trabalhe com suas instalações e equipes audiovisual para determinar onde e como instalar os Teams painéis e se qualquer hardware adicional é necessário para a montagem dos painéis.
+Fazer um inventário dos espaços de reunião de agendamento existentes em sua organização. Identifique os sites e os espaços de reunião que estão no escopo para implantar Teams painéis. Trabalhe com suas instalações e equipes audiovisual para determinar onde e como instalar os dispositivos Teams painéis e se qualquer hardware adicional é necessário para a montagem dos painéis.
 
 ## <a name="procurement"></a>Aquisição
 
-Com base no número de espaços de reunião que estão no escopo para Teams painéis de Teams, procure os dispositivos de um dos parceiros certificados para painéis [Teams de segurança](#partners-certified-for-teams-panels). Visite os sites dos parceiros para saber mais sobre os dispositivos e opções de compra.
+Com base no número de espaços de reunião que estão no escopo para Teams painéis de Teams, procure os dispositivos de um dos parceiros certificados para painéis [Teams.](#partners-certified-for-teams-panels) Visite os sites dos parceiros para saber mais sobre os dispositivos e opções de compra.
 
 Espaços de reunião em sua organização podem ter requisitos de hardware diferentes para instalar ou montar os dispositivos. Por exemplo, o hardware necessário para a montagem do dispositivo em um painel de vidro, reboco, drywall ou madeira pode não ser o mesmo. Consulte a documentação do parceiro de dispositivo para ver as opções de montagem disponíveis.
 
@@ -102,7 +102,7 @@ O planejamento de configuração e implantação abrange as seguintes áreas pri
 
 Cada Teams de painéis requer uma Microsoft 365 de recurso de sala. Você usa as credenciais da conta de recurso para entrar Microsoft Teams aplicativo no dispositivo de painéis.
 
-Para configurar uma conta Microsoft 365 de recursos para painéis Teams, recomendamos que você compre uma Salas do Microsoft Teams Padrão [de usuário](#license-requirement). Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create a resource account using the Centro de administração do Microsoft 365](resource-account-ui.md).
+Para configurar uma conta Microsoft 365 de recursos para Teams painéis, recomendamos que você compre uma Salas do Microsoft Teams Padrão [de usuário](#license-requirement). Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md).
 
 > [!NOTE]
 >
@@ -113,7 +113,7 @@ Para configurar uma conta Microsoft 365 de recursos para painéis Teams, recomen
 >- Para espaços de reunião grandes, como salas de tabuleiro ou salas de conferência, com várias entradas, você pode montar um dispositivo de painéis em cada entrada. Vários painéis que pertencem a um único espaço de reunião compartilham a mesma conta de recurso e fazem login com as mesmas credenciais. Você não precisa criar contas de recursos separadas para cada painel para o mesmo espaço.
 
 > [!TIP]
-> É recomendável criar a conta de recurso bem antes da instalação Teams painéis reais.
+> É recomendável criar a conta de recurso bem antes da instalação real Teams painéis.
 > Considere usar convenções de nomenis para a Teams de recursos de painéis. Tornar os nomes de exibição para suas Microsoft 365 de recursos descritivos e fáceis de entender. Esses são os nomes que os usuários verão ao pesquisar espaços de reunião durante o agendamento de reuniões em Outlook ou Teams calendários.
 
 ### <a name="testing"></a> Testes
@@ -136,4 +136,4 @@ Para gerenciar seus Teams de painéis, na navegação à esquerda do centro de a
 
 [Teams marketplace de painéis](https://office.com/teamsdevices)
 
-[Dispositivos certificados em Microsoft Teams de certificação de painéis](teams-ip-phones.md#certified-teams-panels)
+[Dispositivos certificados Microsoft Teams de certificação de painéis](teams-ip-phones.md#certified-teams-panels)

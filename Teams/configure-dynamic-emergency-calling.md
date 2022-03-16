@@ -18,18 +18,18 @@ description: Saiba como configurar os Planos de Chamadas da Microsoft e Sistema 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a56d0887f061292f729b45a6c53707d1e398e332
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 23b55c9c99c58ad1a332b047f282bd917fa5d416
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015361"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514492"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
-A chamada de emergência dinâmica para Planos de Chamadas da Microsoft, Conexão Operador e Roteamento Direto fornece a capacidade de configurar e rotear chamadas de emergência e notificar a equipe de segurança com base no local atual do cliente Teams.  
+A chamada de emergência dinâmica para planos de chamadas da Microsoft, Conexão operador e roteamento direto fornece a capacidade de configurar e rotear chamadas de emergência e notificar a equipe de segurança com base no local atual do cliente Teams.  
 
-Com base na topologia de rede (elementos de rede associados a endereços de emergência) que o administrador de locatários define, o cliente Teams fornece informações de conectividade de rede em uma solicitação ao Serviço de Informações de Local (LIS). Se houver uma combinação, o LIS retornará um local para o cliente.
+Com base na topologia de rede (elementos de rede associados a endereços de emergência) que o administrador de locatários define, o cliente Teams fornece informações de conectividade de rede em uma solicitação ao Serviço de Informações de Localização (LIS). Se houver uma combinação, o LIS retornará um local para o cliente.
 
 O Teams cliente inclui dados de localização como parte de uma chamada de emergência. Esses dados são usados pelo provedor de serviços de emergência para determinar o PSAP (Ponto de Atendimento de Segurança Pública) apropriado e roteá-la para esse PSAP, o que permite que o despachante PSAP obtenha a localização do chamador.  
 
@@ -41,7 +41,7 @@ Para chamada de emergência dinâmica, o seguinte deve ocorrer:
 
    - Se houver uma combinação de site de configurações de rede , as políticas de chamada de emergência serão retornadas para o cliente Teams desse site. (Para obter mais informações sobre políticas, consulte [Configure emergency policies](#configure-emergency-policies)).
 
-   - Se houver uma combinação lis – um local de emergência do elemento de rede ao Teams cliente está conectado será retornado ao cliente Teams. A match é executada na seguinte ordem com o primeiro resultado que está sendo retornado:
+   - Se houver uma combinação lis – um local de emergência do elemento de rede ao Teams cliente está conectado será retornado ao cliente Teams cliente. A match é executada na seguinte ordem com o primeiro resultado que está sendo retornado:
        - WAP
        - Opção/porta Ethernet
        - Opção Ethernet
@@ -49,11 +49,11 @@ Para chamada de emergência dinâmica, o seguinte deve ocorrer:
 
 3. Quando o Teams cliente faz uma chamada de emergência, o local de emergência é transmitido para a rede PSTN.
 
-A capacidade de fazer o roteamento automático para o PSAP (Ponto de Atendimento de Segurança Pública) apropriado varia dependendo do país de uso do usuário Teams.
+A capacidade de fazer o roteamento automático para o PSAP (Ponto de Atendimento de Segurança Pública) apropriado varia dependendo do país de uso do Teams usuário.
 
-Os planos de chamadas da Microsoft e os Conexão de operador incluem serviços dinâmicos de roteamento de emergência para usuários nos Estados Unidos e no Canadá.
+Os planos de chamadas da Microsoft e os Conexão de telefonia incluem serviços dinâmicos de roteamento de emergência para usuários nos Estados Unidos e no Canadá.
 
-No entanto, para Roteamento Direto, a configuração adicional é necessária para roteamento de chamadas de emergência e, possivelmente, para conectividade do parceiro. O administrador deve garantir que o gateway PSTN roteando a chamada de emergência tenha sido configurado para adicionar informações de local ao INVITE de saída (definindo o parâmetro PidfloSupported como True no objeto de gateway PSTN online. Além disso, o administrador deve configurar a conexão com um provedor do Serviço de Roteamento de Emergência (ERS) (Estados Unidos e Canadá) **OU** configurar o Controlador de Borda de Sessão (SBC) para um aplicativo ELIN (Número de Identificação de Local de Emergência). Para obter informações sobre provedores de ERS, consulte [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
+No entanto, para Roteamento Direto, a configuração adicional é necessária para roteamento de chamadas de emergência e, possivelmente, para conectividade do parceiro. O administrador deve garantir que o gateway PSTN roteando a chamada de emergência tenha sido configurado para adicionar informações de local ao INVITE de saída (definindo o parâmetro PidfloSupported como True no objeto de gateway PSTN online. Além disso, o administrador deve configurar a conexão com um provedor do Serviço de Roteamento de Emergência (ERS) (Estados Unidos e Canadá) **OU** configurar o Controlador de Borda de Sessão (SBC) para um aplicativo ELIN (Número de Identificação de Local de Emergência). Para obter informações sobre provedores de ERS, consulte [Controladores de Borda de Sessão certificados para Roteamento Direto](direct-routing-border-controllers.md).
 
 Este artigo contém as seções a seguir.
 
@@ -78,17 +78,17 @@ Para obter mais informações sobre quais recursos estão disponíveis nas nuven
 Os clientes a seguir têm suporte no momento.  Verifique novamente com frequência para ver atualizações dessa lista.
 
 - Teams cliente de área de trabalho da Microsoft Windows
-- Teams cliente de área de trabalho para MacOS da Apple
+- Teams de área de trabalho para MacOS da Apple
 - Teams cliente móvel para cliente apple iOS versão 1.0.92.2019121004 e App Store versão 1.0.92 e superior
 - Teams cliente móvel para cliente Android e Google Play Store versão 1416/1.0.0.2019121201 e maior
 - Teams versão 1449/1.0.94.2019110802 e maior
 - Salas do Teams versão 4.4.25.0 e superior
 
 > [!NOTE]
-> Os locais baseados em Sub-rede e WiFi são suportados em todos os clientes Teams suporte. <br><br>
+> Os locais baseados em Sub-rede e WiFi são suportados em todos os clientes Teams com suporte. <br><br>
 > Ethernet/Switch (LLDP) é suportado em:
-> - Windows versões 8.1 e posteriores neste momento.<br>
-> - Mac OS, que requer [software de habilitar LLDP.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
+> - Windows versões 10.0 e posteriores neste momento.<br>
+> - Mac OS, que requer [software de habilitar LLDP](https://www.microsoft.com/download/details.aspx?id=103383).<br>
 > - Teams telefone com Teams versão 1449/1.0.94.202111010101 e posterior.
 
 > [!NOTE]
@@ -105,7 +105,7 @@ Você pode atribuir endereços de emergência da seguinte forma:
 
 - Para chamar usuários do Plano de Chamada.
 
-- Para Operador Conexão usuários dependendo dos recursos atribuídos ao número quando a operadora os carrega no &mdash; inventário de um cliente.
+- Para Operador Conexão usuários&mdash; dependendo dos recursos atribuídos ao número quando a operadora os carrega no inventário de um cliente.
 
 - Para os identificadores de rede necessários para obter dinamicamente um local. 
 
@@ -120,7 +120,7 @@ O Azure Mapas é usado para serviços baseados em local. Quando você insere um 
 > [!NOTE]
 > Endereços de emergência com mais de dois anos não podem ser atribuídos aos identificadores de rede. Você precisará criar endereços mais antigos.
 
-Você adiciona e atribui endereços de emergência no Microsoft Teams de administração ou usando o PowerShell. Para obter mais informações, [consulte Adicionar um local de emergência para](add-change-remove-emergency-location-organization.md) sua organização e Atribuir um local de emergência para um [usuário](assign-change-emergency-location-user.md).
+Você adiciona e atribui endereços de emergência no Microsoft Teams de administração ou usando o PowerShell. Para obter mais informações, [consulte Adicionar um local de emergência para](add-change-remove-emergency-location-organization.md) sua organização e [Atribuir um local de emergência para um usuário](assign-change-emergency-location-user.md).
 
 ## <a name="configure-network-settings"></a>Configurar configurações de rede
 
@@ -130,21 +130,21 @@ As configurações de rede incluem sites que incluem uma coleção de sub-redes 
 
 Os endereços IP confiáveis contêm uma coleção de endereços IP externos da internet da rede corporativa e são usados para determinar se o ponto de extremidade do usuário está dentro da rede corporativa. Uma tentativa de obter uma política ou local dinâmico só será feita se o endereço IP externo do usuário corresponde a um endereço IP no endereço IP confiável.
 
-Para obter mais informações sobre endereços IP, regiões de rede, sites e endereços de sub-rede, consulte Configurações de [rede para recursos de voz na nuvem.](cloud-voice-network-settings.md)
+Para obter mais informações sobre endereços IP, regiões de rede, sites e endereços de sub-rede, consulte [Configurações de rede para recursos de voz na nuvem](cloud-voice-network-settings.md).
 
-Você configura as configurações de rede no Microsoft Teams de administração ou usando o PowerShell. Para saber mais, confira [Gerenciar sua topologia de rede para recursos de voz na nuvem.](manage-your-network-topology.md)
+Você configura as configurações de rede no Microsoft Teams de administração ou usando o PowerShell. Para saber mais, confira [Gerenciar sua topologia de rede para recursos de voz na nuvem](manage-your-network-topology.md).
 
 Observe que pode levar algum tempo (até algumas horas) para algumas alterações nas configurações de rede (como um novo endereço, identificador de rede e assim por diante) para propagar e estar disponível para Teams clientes.  
 
 > [!Note]
-> As sub-redes também podem ser definidas em LIS e podem ser associadas a um local de emergência.  As sub-redes LIS devem ser definidas pela ID de rede que corresponde ao intervalo IP de sub-rede atribuído aos clientes. Por exemplo, a ID de rede de um IP/máscara de cliente de 10.10.10.150/25 é 10.10.10.128. Para obter mais informações, [consulte Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
+> As sub-redes também podem ser definidas em LIS e podem ser associadas a um local de emergência.  As sub-redes LIS devem ser definidas pela ID de rede que corresponde ao intervalo IP de sub-rede atribuído aos clientes. Por exemplo, a ID de rede de um IP/máscara de cliente de 10.10.10.150/25 é 10.10.10.128. Para obter mais informações, consulte [Noções básicas sobre endereçamento TCP/IP e sub-rede](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
 
 > [!Important]
 > As buscas de configuração de rede não são suportadas com implantações de serviço proxy na nuvem que modificam os endereços IP de origem de Teams clientes.
 
 
 
-**Para usuários do Plano de Chamada e Conexão Operadores:**
+**Para usuários do Plano de Chamada e operador Conexão:**
 
 - Se a configuração dinâmica da notificação de segurança for necessária, você deverá configurar endereços IP confiáveis e sites de rede.
 
@@ -169,8 +169,8 @@ Para que um cliente obtenha um local, você deve preencher o LIS com identificad
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda, vá para **Locais**  >  **Redes & locais**.
-2. Clique na guia que representa o identificador de rede que você deseja adicionar. Por exemplo, clique em **Sub-redes,** pontos **de acesso Wi-Fi,** **Comutadores** ou **Portas**. Em seguida, **clique em Adicionar**.
+1. Na navegação à esquerda, vá para **LocationsNetworks** >  & locais.
+2. Clique na guia que representa o identificador de rede que você deseja adicionar. Por exemplo, clique em **Sub-redes**, **pontos de acesso Wi-Fi**, **Comutadores** ou **Portas**. Em seguida, **clique em Adicionar**.
 3. Conclua os campos, adicione um local de emergência e clique em **Aplicar**.
 
 ### <a name="using-powershell"></a>Usando o Windows PowerShell
@@ -178,8 +178,8 @@ Para que um cliente obtenha um local, você deve preencher o LIS com identificad
 Use os cmdlets a seguir para adicionar portas, comutadores, sub-redes e WAPs ao LIS.
 
 - [Get](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps), [Set](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
-- [Get](/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Set](/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
-- [Get](/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Set](/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
+- [Obter](/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Definir](/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remover](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
+- [Obter](/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Definir](/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remover](/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
 - [Get](/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Set](/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
 >[!Important]
@@ -189,15 +189,15 @@ Use os cmdlets a seguir para adicionar portas, comutadores, sub-redes e WAPs ao 
 
 Use as políticas a seguir para configurar a chamada de emergência. Você pode gerenciar essas políticas no centro de administração Microsoft Teams ou usando o PowerShell.
 
-- **Política de roteamento de chamadas de emergência – aplica-se somente ao Roteamento Direto.** Essa política configura os números de emergência, máscaras por número, se desejado, e a rota PSTN por número. Você pode atribuir essa política aos usuários, aos sites de rede ou a ambos. Para saber mais, confira [Gerenciar políticas de roteamento de chamadas de emergência para Roteamento Direto](manage-emergency-call-routing-policies.md).  
+- **Política de roteamento de chamadas de emergência – aplica-se somente ao Roteamento Direto**. Essa política configura os números de emergência, máscaras por número, se desejado, e a rota PSTN por número. Você pode atribuir essa política aos usuários, aos sites de rede ou a ambos. Para saber mais, confira [Gerenciar políticas de roteamento de chamadas de emergência para Roteamento Direto](manage-emergency-call-routing-policies.md).  
 
    (Os usuários do Plano de Chamada e Conexão operador são habilitados automaticamente para chamada de emergência com os números de emergência do país com base em seu Microsoft 365 ou Office 365 local de uso.)
 
-- **Política de chamada de emergência - Aplica-se a Planos de Chamadas, Conexão operador e Roteamento Direto.** Essa política configura a experiência de notificação de segurança quando uma chamada de emergência é feita. Você pode definir quem notificar e como eles serão notificados. Por exemplo, para notificar automaticamente o escritório de segurança da sua organização e fazer com que eles ouçam chamadas de emergência.  Essa política pode ser atribuída a usuários, sites de rede ou ambos. Para saber mais, confira [Gerenciar políticas de chamada de emergência em Teams](manage-emergency-calling-policies.md).
+- **Política de chamada de emergência - Aplica-se a Planos de Chamadas, Operador Conexão e Roteamento Direto.** Essa política configura a experiência de notificação de segurança quando uma chamada de emergência é feita. Você pode definir quem notificar e como eles serão notificados. Por exemplo, para notificar automaticamente o escritório de segurança da sua organização e fazer com que eles ouçam chamadas de emergência.  Essa política pode ser atribuída a usuários, sites de rede ou ambos. Para saber mais, confira [Gerenciar políticas de chamada de emergência em Teams](manage-emergency-calling-policies.md).
 
 ## <a name="enable-users-and-sites"></a>Habilitar usuários e sites
 
-Você pode atribuir políticas de roteamento de chamadas de emergência e políticas de chamada de emergência aos usuários e aos sites. Lembre-se de que as políticas de roteamento de chamadas de emergência se aplicam somente ao Roteamento Direto. (Embora seja possível atribuir essa política a um usuário de Plano de Chamada ou Operador Conexão, a política não terá efeito.)
+Você pode atribuir políticas de roteamento de chamadas de emergência e políticas de chamada de emergência aos usuários e aos sites. Lembre-se de que as políticas de roteamento de chamadas de emergência se aplicam somente ao Roteamento Direto. (Embora seja possível atribuir essa política a um usuário de plano de chamada ou operador Conexão usuário, a política não terá efeito.)
 
 Você atribui políticas no centro de administração Microsoft Teams ou usando o PowerShell. Para saber mais, veja:
 
@@ -236,7 +236,7 @@ Se você atribuiu uma política de chamada de emergência a um site de rede e a 
 
 Alguns Provedores de Serviços de Roteamento de Emergência (ERSPs) nos Estados Unidos oferecem um bot de teste de chamada de emergência.
 
-- **O Plano de** Chamada e Conexão usuários nos Estados Unidos ou canadá podem usar o número de emergência de teste predefinido 933 para validar sua configuração de chamada de emergência. Esse número é roteado para um bot, que, em seguida, ecoa o número de telefone do chamador (ID da linha de chamada), o endereço de emergência ou o local e se a chamada seria roteada automaticamente para o PSAP ou exibido primeiro.
+- **O Plano de Chamada e Conexão usuários** nos Estados Unidos ou canadá podem usar o número de emergência de teste predefinido 933 para validar sua configuração de chamada de emergência. Esse número é roteado para um bot, que, em seguida, ecoa o número de telefone do chamador (ID da linha de chamada), o endereço de emergência ou o local e se a chamada seria roteada automaticamente para o PSAP ou exibido primeiro.
 
 - **Os clientes de Roteamento Direto nos Estados Unidos** devem coordenar com seu ERSP para um serviço de teste.
 
@@ -248,7 +248,7 @@ A tabela a seguir mostra suporte para chamada de emergência dinâmica nas nuven
 | :------------|:-------|
 | Multi locatário em todo o mundo | Disponível em todos os Teams clientes |
 | GCC | Disponível em todos os Teams clientes |
-| GCCH | -Disponível no Teams desktop <br> -Disponível em clientes Teams móveis <br> -Disponibilidade pendente em Teams telefones |
+| GCCH | -Disponível na área Teams desktop <br> -Disponível em clientes Teams móveis <br> -Disponibilidade pendente em Teams telefones |
 | DoD | Pendente |
 
  ## <a name="related-topics"></a>Tópicos relacionados
