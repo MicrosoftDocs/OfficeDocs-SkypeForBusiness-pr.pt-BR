@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537048"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514562"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 
@@ -92,7 +92,7 @@ O Microsoft Teams para iOS e Android oferecem aos administradores de TI a capaci
 
 Para usuários inscritos no Microsoft Intune, você pode implantar as definições de configuração da conta usando o Intune no portal do Azure.
 
-Uma vez que a definição da configuração da conta tiver sido configurada no provedor de MDM e depois que o usuário registrar seu dispositivo, na página de login, o Teams for iOS e Android mostrará apenas as contas permitidas na página de login do Microsoft Teams. O usuário pode tocar em qualquer uma das contas permitidas nesta página para entrar.
+Depois que a configuração de configuração da conta for configurada no provedor de MDM e depois que o usuário registrar seu dispositivo, na página de entrada, o Teams para iOS e Android mostrará apenas as contas permitidas na página de entrada do Teams. O usuário pode tocar em qualquer uma das contas permitidas nesta página para fazer login.
 
 Defina os seguintes parâmetros de configuração no portal do Azure Intune para dispositivos gerenciados.
 
@@ -139,7 +139,7 @@ Exemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAcco
 
 ### <a name="global-sign-in"></a>Entrada global
 
-O aplicativo Teams Para Android agora é compatível com a entrada global, para fornecer uma experiência de entrada sem complicações para trabalhadores de linha de frente. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de fazer o logoff para fazer o logoff globalmente no dispositivo. Consulte [Sair do Teams](sign-out-of-teams.md) para saber mais. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+O aplicativo Teams Para Android agora é compatível com a entrada global, para fornecer uma experiência de entrada sem complicações para trabalhadores de linha de frente. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de fazer o logoff para fazer o logoff globalmente no dispositivo. Consulte [Sair do Teams](sign-out-of-teams.md) para saber mais. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado. Certifique-se de encerrar qualquer reunião ativa ou ligar no dispositivo antes de sair. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 A experiência de entrada é semelhante à nossa experiência de entrada padrão do Teams.
 

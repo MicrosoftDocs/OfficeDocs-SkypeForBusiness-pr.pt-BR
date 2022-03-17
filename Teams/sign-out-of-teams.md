@@ -12,13 +12,18 @@ description: Saiba como sair do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514706"
 ---
-
 # <a name="sign-out-of-microsoft-teams"></a>Sair do Microsoft Teams
 
 Recomendamos que os usuários permaneçam conectados ao aplicativo Microsoft Teams para continuar recebendo chats, chamadas de entrada e outras atividades. Entendemos que, às vezes, os usuários podem querer sair do aplicativo Teams por vários motivos:
@@ -49,7 +54,7 @@ No celular, você pode sair do Teams acessando o menu, selecionando o menu **Mai
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>Entrada e saída globais para funcionários do Frontline
 
-O aplicativo do Microsoft Teams para Android agora oferece suporte para entrada e saída global, para fornecer uma experiência de entrada e saída sem complicações para funcionários da linha de frente. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de executar a saída para sair globalmente no dispositivo. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+O aplicativo do Microsoft Teams para Android agora oferece suporte para entrada e saída global, para fornecer uma experiência de entrada e saída sem complicações para funcionários da linha de frente. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de executar a saída para sair globalmente no dispositivo. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado.  Certifique-se de encerrar qualquer reunião ativa ou ligar no dispositivo antes de sair. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 ## <a name="manual-cleanup"></a>Limpeza Manual
 

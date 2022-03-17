@@ -715,7 +715,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -1325,16 +1325,16 @@ items:
                 href: rooms/rooms-deploy.md
               - name: Configurar contas
                 href: rooms/rooms-configure-accounts.md
-              - name: Com o Office 365
+              - name: Surface Hub
+                items:
+                  - name: Configurar Otimização de Reuniões
+                    href: rooms/coordinated-meetings.md
+                  - name: Gerenciar as configurações do Microsoft Teams
+                    href: rooms/surface-hub-manage-config.md
+              - name: Criar contas de recursos
                 href: rooms/with-office-365.md
               - name: Com o Skype for Business Server
                 href: rooms/with-skype-for-business-server-2015.md
-              - name: Com o Exchange Online (Híbrido)
-                href: rooms/with-exchange-online.md
-              - name: Com o Exchange Local (Híbrido)
-                href: rooms/with-exchange-on-premises.md
-              - name: Implantar Salas do Microsoft Teams no Android
-                href: devices/collab-bar-deploy.md
               - name: Configurar um console
                 href: rooms/console.md
               - name: Atualizar manualmente um dispositivo
@@ -1785,8 +1785,6 @@ items:
         items:
           - name: Grupos do Microsoft 365 e o Teams
             href: office-365-groups.md
-          - name: Criar uma conta de recursos do Microsoft 365 usando o Centro de administração do Microsoft 365
-            href: devices/resource-account-ui.md
           - name: Aprimorar os grupos existentes do Microsoft 365 com o Teams
             href: enhance-office-365-groups.md
           - name: Como o Exchange e o Teams interagem
